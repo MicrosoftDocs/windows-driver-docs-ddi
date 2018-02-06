@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasgetitemtype, wiamdef/wiasGetItemType, wiasGetItemType function [Imaging Devices], wiasGetItemType, wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml
+ms.keywords: wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiasGetItemType function [Imaging Devices], image.wiasgetitemtype, wiasGetItemType, wiamdef/wiasGetItemType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetItemType
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

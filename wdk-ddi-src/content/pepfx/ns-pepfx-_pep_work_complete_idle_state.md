@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6065A77F-5E80-4D3D-8EF1-4D336505122A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_WORK_COMPLETE_IDLE_STATE, _PEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE structure [Kernel-Mode Driver Architecture], *PPEP_WORK_COMPLETE_IDLE_STATE, PPEP_WORK_COMPLETE_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_complete_idle_state, pepfx/PEP_WORK_COMPLETE_IDLE_STATE, pepfx/PPEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE
+ms.keywords: pepfx/PPEP_WORK_COMPLETE_IDLE_STATE, pepfx/PEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE, PPEP_WORK_COMPLETE_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_WORK_COMPLETE_IDLE_STATE, _PEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_work_complete_idle_state, *PPEP_WORK_COMPLETE_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_COMPLETE_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_COMPLETE_IDLE_STATE, *PPEP_WORK_COMPLETE_IDLE_STATE
+req.typenames: "*PPEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE"
 ---
 
 # _PEP_WORK_COMPLETE_IDLE_STATE structure

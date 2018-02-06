@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxmonitorcreate, IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], iddcx/IddCxMonitorCreate
+ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

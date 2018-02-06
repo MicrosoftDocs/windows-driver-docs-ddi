@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 754BCC74-1EC2-429E-A711-E8958665A5A8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxendpointabortcomplete, UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], ucxendpoint/UcxEndpointAbortComplete
+ms.keywords: UcxEndpointAbortComplete, ucxendpoint/UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], buses._ucxendpointabortcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

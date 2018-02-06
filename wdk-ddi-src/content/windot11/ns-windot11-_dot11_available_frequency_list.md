@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8862ba3-c871-4d9b-9ee4-99ec9d0bcda9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_available_frequency_list, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_AVAILABLE_FREQUENCY_LIST, _DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, *PDOT11_AVAILABLE_FREQUENCY_LIST
+ms.keywords: PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_AVAILABLE_FREQUENCY_LIST, *PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_available_frequency_list, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_AVAILABLE_FREQUENCY_LIST_REVISION_1.
@@ -97,11 +102,6 @@ This member must be set to DOT11_AVAILABLE_FREQUENCY_LIST_REVISION_1.
 
 This member must be set to
        <b>sizeof</b>(DOT11_AVAILABLE_FREQUENCY_LIST).
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field uNumOfEntries

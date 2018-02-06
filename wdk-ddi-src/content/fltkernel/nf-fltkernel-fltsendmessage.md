@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSendMessage, FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, ifsk.fltsendmessage, fltkernel/FltSendMessage, FltSendMessage function [Installable File System Drivers]
+ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, ifsk.fltsendmessage, FltSendMessage function [Installable File System Drivers], FltSendMessage, fltkernel/FltSendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,13 +209,13 @@ Otherwise, the minifilter driver does not receive a reply, and <b>FltSendMessage
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
 
  
 

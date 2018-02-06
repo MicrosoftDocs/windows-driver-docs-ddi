@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CA189010-0BEB-420A-BE69-5F7FEE322FE3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceQueryPropertyEx method, WdfDeviceQueryPropertyEx, wdfdevice/WdfDeviceQueryPropertyEx, wdf.wdfdevicequerypropertyex, PFN_WDFDEVICEQUERYPROPERTYEX
+ms.keywords: wdf.wdfdevicequerypropertyex, WdfDeviceQueryPropertyEx method, wdfdevice/WdfDeviceQueryPropertyEx, PFN_WDFDEVICEQUERYPROPERTYEX, WdfDeviceQueryPropertyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

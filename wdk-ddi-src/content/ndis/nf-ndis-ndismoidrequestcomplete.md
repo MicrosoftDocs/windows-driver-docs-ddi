@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 30d060d0-05a3-42b5-b5ff-2f2b12873ca9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMOidRequestComplete, ndis/NdisMOidRequestComplete, netvista.ndismoidrequestcomplete, ndis_request_ref_b5524732-acaf-4d0d-a261-3f8a8b739ecc.xml, NdisMOidRequestComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisMOidRequestComplete, netvista.ndismoidrequestcomplete, ndis_request_ref_b5524732-acaf-4d0d-a261-3f8a8b739ecc.xml, NdisMOidRequestComplete, NdisMOidRequestComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,19 +124,19 @@ A call to
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
 
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="https://msdn.microsoft.com/2c383523-7d9c-4f1b-8df1-5cb4cc3562d6">ProtocolRequestComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
 
  
 

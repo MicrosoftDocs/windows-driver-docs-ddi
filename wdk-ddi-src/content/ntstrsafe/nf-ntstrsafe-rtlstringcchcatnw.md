@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchcatn, ntstrsafe/RtlStringCchCatNA, RtlStringCchCatNW, RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, RtlStringCchCatN, RtlStringCchCatNW function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlStringCchCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcatn, RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, RtlStringCchCatNW, ntstrsafe/RtlStringCchCatNA, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, RtlStringCchCatN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchCatNW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCchCatNW function

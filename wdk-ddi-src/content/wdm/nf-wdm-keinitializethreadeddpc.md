@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee9124db-9d92-42e1-84fa-6d3eefeaeac5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, KeInitializeThreadedDpc, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, KeInitializeThreadedDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

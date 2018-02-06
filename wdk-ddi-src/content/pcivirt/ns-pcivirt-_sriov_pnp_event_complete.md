@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 3b40d780-8084-4c19-bb8e-9d1ab3dadc95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pcivirt/SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE, *PSRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE structure [Buses], PCI.sriov_pnp_event_complete, _SRIOV_PNP_EVENT_COMPLETE
+ms.keywords: "*PSRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE structure [Buses], _SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE, pcivirt/SRIOV_PNP_EVENT_COMPLETE, PCI.sriov_pnp_event_complete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

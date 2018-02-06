@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6e3c33fe-eb28-4985-98f3-cafa85543d68
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceRegisterAdapterObject, avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, KsDeviceRegisterAdapterObject function [Streaming Media Devices], ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
+ms.keywords: ks/KsDeviceRegisterAdapterObject, avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, stream.ksdeviceregisteradapterobject, KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,13 +120,13 @@ Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
+
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
-<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
 
  
 

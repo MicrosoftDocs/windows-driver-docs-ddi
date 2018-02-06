@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ad08e4f-7a9b-4052-888e-ae01c9c105c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceIoNeither, WDF_DEVICE_IO_TYPE enumeration, wdfdevice/WdfDeviceIoUndefined, WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoNeither, *PWDF_DEVICE_IO_TYPE, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, WdfDeviceIoDirect, wdfdevice/WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE, wdfdevice/WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, WdfDeviceIoBuffered, wdfdevice/WdfDeviceIoDirect, WDF_DEVICE_IO_TYPE, WdfDeviceIoUndefined, _WDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, wdfdevice/PWDF_DEVICE_IO_TYPE, wdf.wdf_device_io_type, kmdf.wdf_device_io_type
+ms.keywords: WDF_DEVICE_IO_TYPE, _WDF_DEVICE_IO_TYPE, kmdf.wdf_device_io_type, wdfdevice/WdfDeviceIoUndefined, WdfDeviceIoBufferedOrDirect, wdf.wdf_device_io_type, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wdfdevice/WdfDeviceIoDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, WdfDeviceIoUndefined, WdfDeviceIoDirect, wdfdevice/WdfDeviceIoNeither, WDF_DEVICE_IO_TYPE enumeration, wdfdevice/WDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE, wdfdevice/PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBufferedOrDirect, wdfdevice/WdfDeviceIoBuffered, WdfDeviceIoNeither, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_IO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
+req.typenames: "*PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -119,11 +119,11 @@ The <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFI
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
  
 

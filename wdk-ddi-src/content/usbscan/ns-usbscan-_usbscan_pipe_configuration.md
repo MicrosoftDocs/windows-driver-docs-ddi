@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c9b0247b-1444-46c9-a430-897594f8d223
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_b18d3edd-f392-4b68-82e4-10f870c18f6a.xml, image.usbscan_pipe_configuration, usbscan/PUSBSCAN_PIPE_CONFIGURATION, usbscan/USBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION structure [Imaging Devices], *PUSBSCAN_PIPE_CONFIGURATION, _USBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION structure pointer [Imaging Devices], PUSBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION
+ms.keywords: image.usbscan_pipe_configuration, usbscan/PUSBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION structure [Imaging Devices], PUSBSCAN_PIPE_CONFIGURATION structure pointer [Imaging Devices], usbscan/USBSCAN_PIPE_CONFIGURATION, _USBSCAN_PIPE_CONFIGURATION, stifnc_b18d3edd-f392-4b68-82e4-10f870c18f6a.xml, *PUSBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBSCAN_PIPE_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_PIPE_CONFIGURATION, *PUSBSCAN_PIPE_CONFIGURATION
+req.typenames: "*PUSBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION"
 req.product: Windows 10 or later.
 ---
 

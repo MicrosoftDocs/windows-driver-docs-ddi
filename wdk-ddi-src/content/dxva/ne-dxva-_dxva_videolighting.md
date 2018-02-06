@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09adfa3f-443b-4500-bb08-27f91da20778
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoLighting_Unknown, DXVA_VideoLighting_dim, _DXVA_VideoLighting, DXVA_VideoLighting, display.dxva_videolighting, DXVA_VideoLighting_dark, DXVA_VideoLighting enumeration [Display Devices], dxvaref_c223ad8d-6e70-4672-b286-292a7e36d6f7.xml, DXVA_VideoLighting_office, dxva/DXVA_VideoLighting, dxva/DXVA_VideoLightingShift, dxva/DXVA_VideoLighting_dark, dxva/DXVA_VideoLighting_dim, DXVA_VideoLightingShift, DXVA_VideoLighting_Unknown, DXVA_VideoLightingMask, dxva/DXVA_VideoLightingMask, DXVA_VideoLighting_bright, dxva/DXVA_VideoLighting_bright, dxva/DXVA_VideoLighting_office
+ms.keywords: DXVA_VideoLighting enumeration [Display Devices], DXVA_VideoLighting, DXVA_VideoLightingMask, dxva/DXVA_VideoLighting_Unknown, dxva/DXVA_VideoLighting_bright, DXVA_VideoLighting_office, dxva/DXVA_VideoLighting_office, dxva/DXVA_VideoLighting_dark, dxva/DXVA_VideoLightingMask, DXVA_VideoLighting_dark, dxva/DXVA_VideoLighting_dim, DXVA_VideoLightingShift, display.dxva_videolighting, DXVA_VideoLighting_Unknown, dxvaref_c223ad8d-6e70-4672-b286-292a7e36d6f7.xml, dxva/DXVA_VideoLighting, dxva/DXVA_VideoLightingShift, _DXVA_VideoLighting, DXVA_VideoLighting_dim, DXVA_VideoLighting_bright
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

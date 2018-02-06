@@ -7,8 +7,8 @@ old-location: print\docevent_createdcpre.htm
 old-project: print
 ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winddiui/PDCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], winddiui/DOCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE structure [Print Devices], *PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE, print.docevent_createdcpre, _DOCEVENT_CREATEDCPRE
+ms.date: 2/2/2018
+ms.keywords: PDCEVENT_CREATEDCPRE structure pointer [Print Devices], winddiui/DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, winddiui/PDCEVENT_CREATEDCPRE, print.docevent_createdcpre, _DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE structure [Print Devices], DOCEVENT_CREATEDCPRE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,13 +102,13 @@ This structure is used in conjunction with a call to <a href="..\winddiui\nf-win
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
- 
+<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DOCEVENT_CREATEDCPRE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DOCEVENT_CREATEDCPRE structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

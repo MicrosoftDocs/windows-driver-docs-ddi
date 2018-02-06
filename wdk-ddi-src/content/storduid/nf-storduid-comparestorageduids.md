@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf66a04d-0892-4813-9615-845054526125
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CompareStorageDuids, CompareStorageDuids routine [Storage Devices], storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml, storduid/CompareStorageDuids, storage.comparestorageduids
+ms.keywords: CompareStorageDuids, storage.comparestorageduids, CompareStorageDuids routine [Storage Devices], storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml, storduid/CompareStorageDuids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

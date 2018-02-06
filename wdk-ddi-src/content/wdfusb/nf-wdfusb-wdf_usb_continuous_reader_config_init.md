@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_continuous_reader_config_init, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, kmdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT
+ms.keywords: WDF_USB_CONTINUOUS_READER_CONFIG_INIT, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT, kmdf.wdf_usb_continuous_reader_config_init, wdf.wdf_usb_continuous_reader_config_init, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,9 +115,9 @@ For a code example that uses <b>WDF_USB_CONTINUOUS_READER_CONFIG_INIT</b>, see <
 
 ## -see-also
 
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
+
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
 
  
 

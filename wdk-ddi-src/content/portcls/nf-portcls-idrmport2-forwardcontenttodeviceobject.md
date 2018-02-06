@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4e5c8942-3ce2-40d8-8cd7-436a5ebbc8ee
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ForwardContentToDeviceObject method [Audio Devices], IDrmPort2 interface, audio.idrmport2_forwardcontenttodeviceobject, IDrmPort2 interface [Audio Devices], ForwardContentToDeviceObject method, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, IDrmPort2, portcls/IDrmPort2::ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject
+ms.keywords: audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, IDrmPort2, ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices], IDrmPort2 interface, IDrmPort2 interface [Audio Devices], ForwardContentToDeviceObject method, audio.idrmport2_forwardcontenttodeviceobject, portcls/IDrmPort2::ForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

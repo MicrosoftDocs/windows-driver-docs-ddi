@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2f83163-4529-4627-8959-2b4cd6b88828
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassGetNextEvent, strmini/StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, StreamClassGetNextEvent routine [Streaming Media Devices]
+ms.keywords: strmini/StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], stream.streamclassgetnextevent, StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassGetNextEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 

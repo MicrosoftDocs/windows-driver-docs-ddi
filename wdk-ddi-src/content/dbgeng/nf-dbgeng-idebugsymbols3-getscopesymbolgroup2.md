@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2bc0cd81-db9b-4646-838b-0e66c0667202
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, GetScopeSymbolGroup2, IDebugSymbols3, debugger.getscopesymbolgroup2, IDebugSymbols3::GetScopeSymbolGroup2
+ms.keywords: debugger.getscopesymbolgroup2, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, GetScopeSymbolGroup2, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3, GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetScopeSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetScopeSymbolGroup2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetScopeSymbolGroup2 method

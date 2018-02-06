@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9224991-DB36-4250-861A-6C21E29F91EF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxCompleteIdleState, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], PoFxCompleteIdleState, kernel.pofxcompleteidlestate
+ms.keywords: wdm/PoFxCompleteIdleState, kernel.pofxcompleteidlestate, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], PoFxCompleteIdleState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

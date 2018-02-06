@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_buildpagingbuffer_updatepagetable, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
+ms.keywords: d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

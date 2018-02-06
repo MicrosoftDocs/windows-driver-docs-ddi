@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_enumoptions.htm
 old-project: print
 ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: EnumOptions, EnumOptions method [Print Devices], IPrintCoreHelperUni interface [Print Devices], EnumOptions method, prcomoem/IPrintCoreHelperUni::EnumOptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml, EnumOptions method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::EnumOptions, IPrintCoreHelperUni, print.iprintcorehelperuni_enumoptions
+ms.date: 2/2/2018
+ms.keywords: prcomoem/IPrintCoreHelperUni::EnumOptions, IPrintCoreHelperUni interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelperUni interface, print.iprintcorehelperuni_enumoptions, IPrintCoreHelperUni, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml, EnumOptions, IPrintCoreHelperUni::EnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -114,5 +114,5 @@ When <code>IPrintCoreHelperUni::EnumOptions</code> returns, the option list cont
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::EnumOptions method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::EnumOptions method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

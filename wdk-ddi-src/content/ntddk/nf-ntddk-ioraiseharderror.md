@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 140561ce-e2ad-45be-976a-86fb1d0d1e87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRaiseHardError routine [Kernel-Mode Driver Architecture], IoRaiseHardError, k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, kernel.ioraiseharderror, ntddk/IoRaiseHardError
+ms.keywords: k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, IoRaiseHardError, IoRaiseHardError routine [Kernel-Mode Driver Architecture], kernel.ioraiseharderror, ntddk/IoRaiseHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,9 +119,9 @@ Deadlock now exists: The normal kernel APC created by <b>IoRaiseHardError</b> to
 
 <a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
 
-<a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
-
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+
+<a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], NdisMediumInfiniBand, NdisMediumCoWan, ntddndis/NdisMediumDix, ntddndis/NdisMediumIP, NdisMedium802_3, NdisMediumWirelessWan, ntddndis/NdisMediumAtm, ntddndis/NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, ntddndis/NdisMediumWirelessWan, ntddndis/NdisMediumIrda, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumMax, *PNDIS_MEDIUM, NdisMediumBpc, ntddndis/NdisMediumLoopback, NDIS_MEDIUM, ntddndis/NdisMedium1394, NdisMediumIrda, ntddndis/NdisMedium802_5, netvista.ndis_medium, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumFddi, _NDIS_MEDIUM, NdisMediumFddi, ntddndis/PNDIS_MEDIUM, PNDIS_MEDIUM, ntddndis/NdisMediumInfiniBand, NdisMediumWan, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMedium802_5, NdisMediumDix, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumArcnetRaw, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], NdisMediumMax, ntddndis/NdisMediumBpc, NdisMediumIP, NdisMedium1394, NdisMediumLoopback, NdisMediumArcnet878_2, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumWan, NdisMediumTunnel, ntddndis/NdisMedium802_3, NdisMediumNative802_11, ntddndis/NDIS_MEDIUM, NdisMediumLocalTalk
+ms.keywords: ntddndis/NdisMediumNative802_11, ntddndis/NDIS_MEDIUM, NdisMediumWan, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], NdisMediumAtm, NdisMediumLoopback, ntddndis/NdisMediumFddi, ntddndis/NdisMediumInfiniBand, NdisMediumFddi, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMedium1394, NdisMedium802_5, ntddndis/NdisMediumWan, ntddndis/NdisMediumAtm, netvista.ndis_medium, NdisMediumBpc, NdisMediumLocalTalk, ntddndis/NdisMediumTunnel, NdisMediumMax, ntddndis/NdisMediumIrda, ntddndis/NdisMedium802_5, NdisMediumIP, ntddndis/PNDIS_MEDIUM, NdisMediumIrda, NdisMediumNative802_11, *PNDIS_MEDIUM, NdisMediumArcnet878_2, ntddndis/NdisMediumDix, ntddndis/NdisMediumArcnet878_2, ntddndis/NdisMedium802_3, NdisMediumInfiniBand, _NDIS_MEDIUM, ntddndis/NdisMediumLocalTalk, NdisMediumCoWan, ntddndis/NdisMediumWirelessWan, ntddndis/NdisMediumMax, ntddndis/NdisMediumLoopback, NDIS_MEDIUM, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMedium802_3, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumIP, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], PNDIS_MEDIUM, NdisMediumWirelessWan, NdisMediumDix, ntddndis/NdisMediumBpc, NdisMediumArcnetRaw, NdisMedium1394, NdisMediumTunnel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MEDIUM
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_MEDIUM, NDIS_MEDIUM"
+req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 ---
 
 # _NDIS_MEDIUM enumeration

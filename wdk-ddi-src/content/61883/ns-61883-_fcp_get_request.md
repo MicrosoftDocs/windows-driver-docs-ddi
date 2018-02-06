@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4DD05230-E9CA-4067-984B-7F0540FE8079
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.fcp_get_request, PFCP_GET_REQUEST structure pointer [Buses], 61883/FCP_GET_REQUEST, _FCP_GET_REQUEST, FCP_GET_REQUEST structure [Buses], PFCP_GET_REQUEST, *PFCP_GET_REQUEST, FCP_GET_REQUEST, 61883/PFCP_GET_REQUEST
+ms.keywords: FCP_GET_REQUEST, IEEE.fcp_get_request, 61883/PFCP_GET_REQUEST, 61883/FCP_GET_REQUEST, _FCP_GET_REQUEST, PFCP_GET_REQUEST, FCP_GET_REQUEST structure [Buses], PFCP_GET_REQUEST structure pointer [Buses], *PFCP_GET_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FCP_GET_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: FCP_GET_REQUEST, *PFCP_GET_REQUEST
+req.typenames: "*PFCP_GET_REQUEST, FCP_GET_REQUEST"
 ---
 
 # _FCP_GET_REQUEST structure

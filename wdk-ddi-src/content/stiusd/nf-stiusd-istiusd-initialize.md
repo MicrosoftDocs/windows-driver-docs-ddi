@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Initialize method [Imaging Devices], image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, IStiUSD, Initialize method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Initialize method, stiusd/IStiUSD::Initialize, Initialize, IStiUSD::Initialize
+ms.keywords: IStiUSD::Initialize, IStiUSD, stiusd/IStiUSD::Initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, Initialize method [Imaging Devices], IStiUSD interface, image.istiusd_initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method, Initialize method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Initialize
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

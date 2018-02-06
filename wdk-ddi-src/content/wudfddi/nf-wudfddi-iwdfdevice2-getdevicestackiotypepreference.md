@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a1f6432-3f61-4502-ac98-fa984539f88e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference, GetDeviceStackIoTypePreference method, wdf.iwdfdevice2_getdevicestackiotypepreference, IWDFDevice2::GetDeviceStackIoTypePreference, umdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, IWDFDevice2
+ms.keywords: GetDeviceStackIoTypePreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, IWDFDevice2::GetDeviceStackIoTypePreference, wdf.iwdfdevice2_getdevicestackiotypepreference, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method, IWDFDevice2 interface, IWDFDevice2, umdf.iwdfdevice2_getdevicestackiotypepreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.GetDeviceStackIoTypePreference
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

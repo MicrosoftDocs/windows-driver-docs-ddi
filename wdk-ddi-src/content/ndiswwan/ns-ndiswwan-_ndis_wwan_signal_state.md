@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 905f8566-ad98-454f-a5cd-8f4ff46c8118
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, netvista.ndis_wwan_signal_state, *PNDIS_WWAN_SIGNAL_STATE, _NDIS_WWAN_SIGNAL_STATE, PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SIGNAL_STATE
+ms.keywords: PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SIGNAL_STATE, WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE, netvista.ndis_wwan_signal_state, _NDIS_WWAN_SIGNAL_STATE, ndiswwan/NDIS_WWAN_SIGNAL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SIGNAL_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE"
+req.typenames: NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE
 ---
 
 # _NDIS_WWAN_SIGNAL_STATE structure

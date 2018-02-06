@@ -106,12 +106,12 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_DELETE_PENDING
-
-The device is in the process of being removed.
-
-
 #### -STATUS_SUCCESS
 
 The request completed successfully.
+
+
+#### -STATUS_DELETE_PENDING
+
+The device is in the process of being removed.
 

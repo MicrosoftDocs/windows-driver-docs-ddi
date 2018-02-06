@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 741B3D1F-FA7B-4260-AD0C-461D76605CBA
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2, debugger.idebugfailureanalysis2_setextensioncommand, IDebugFailureAnalysis2 interface [Windows Debugging], SetExtensionCommand method, IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand, SetExtensionCommand method [Windows Debugging], extsfns/IDebugFailureAnalysis2::SetExtensionCommand
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], SetExtensionCommand method, SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensioncommand, IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand, extsfns/IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand method [Windows Debugging], IDebugFailureAnalysis2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

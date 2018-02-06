@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing::GetModes, GetModes method [Audio Devices], GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, GetModes, audio.iminiportaudiosignalprocessing_getmodes, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, portcls/IMiniportAudioSignalProcessing::GetModes
+ms.keywords: GetModes, GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, audio.iminiportaudiosignalprocessing_getmodes, IMiniportAudioSignalProcessing::GetModes, GetModes method [Audio Devices], IMiniportAudioSignalProcessing, portcls/IMiniportAudioSignalProcessing::GetModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

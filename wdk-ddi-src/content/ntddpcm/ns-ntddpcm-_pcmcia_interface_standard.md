@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 3c98fe7b-e60a-4494-b1f0-847a7cbe9d3a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddpcm/PCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD, ntddpcm/PPCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD structure pointer [Buses], *PPCMCIA_INTERFACE_STANDARD, PCMCIA.pcmcia_interface_standard, PPCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD structure [Buses], _PCMCIA_INTERFACE_STANDARD, memcdref_768387a3-0148-4f5e-972a-983b7827a634.xml
+ms.keywords: PPCMCIA_INTERFACE_STANDARD structure pointer [Buses], ntddpcm/PCMCIA_INTERFACE_STANDARD, _PCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD, ntddpcm/PPCMCIA_INTERFACE_STANDARD, *PPCMCIA_INTERFACE_STANDARD, PCMCIA.pcmcia_interface_standard, memcdref_768387a3-0148-4f5e-972a-983b7827a634.xml, PCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,11 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
 
  
 

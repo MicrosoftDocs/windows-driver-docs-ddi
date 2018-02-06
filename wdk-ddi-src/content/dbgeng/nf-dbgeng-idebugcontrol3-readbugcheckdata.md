@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3::ReadBugCheckData, IDebugControl3, ReadBugCheckData, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl2::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], debugger.readbugcheckdata, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData
+ms.keywords: ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, IDebugControl::ReadBugCheckData, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl3::ReadBugCheckData, IDebugControl2::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata, ReadBugCheckData method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl3, IDebugControl interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.ReadBugCheckData
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::ReadBugCheckData method

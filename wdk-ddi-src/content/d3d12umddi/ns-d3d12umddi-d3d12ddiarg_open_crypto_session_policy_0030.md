@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90d8e4c8-936d-49b5-bac0-5ccddf142164
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], display.d3d12ddiarg-open-crypto-session-policy-0030, d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030
+ms.keywords: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-open-crypto-session-policy-0030, d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

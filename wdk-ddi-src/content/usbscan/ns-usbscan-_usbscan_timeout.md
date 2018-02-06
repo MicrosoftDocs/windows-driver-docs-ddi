@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: afa900fc-7297-425b-8308-18806d7d97d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.usbscan_timeout, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml, *PUSBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], usbscan/PUSBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT
+ms.keywords: USBSCAN_TIMEOUT structure [Imaging Devices], image.usbscan_timeout, _USBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT, usbscan/PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], *PUSBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBSCAN_TIMEOUT
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT"
+req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
 req.product: Windows 10 or later.
 ---
 

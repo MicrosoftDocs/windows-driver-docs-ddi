@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 67dd0ea0-9c69-415a-8b37-0e8700b6fbd8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassstreamnotification, strmini/StreamClassStreamNotification, StreamClassStreamNotification, strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, StreamClassStreamNotification routine [Streaming Media Devices]
+ms.keywords: strmini/StreamClassStreamNotification, StreamClassStreamNotification, stream.streamclassstreamnotification, strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, StreamClassStreamNotification routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassStreamNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 
@@ -81,14 +81,9 @@ This is an enumeration value that contains the type of notification that the min
 
 
 
-#### DeleteStreamEvent
+#### StreamRequestComplete
 
-Deletes the event specified by the <i>EventEntry</i> parameter.
-
-
-#### ReadyForNextStreamControlRequest
-
-Indicates that this stream is ready to receive another control request. 
+Indicates that the minidriver has completed its handling of the stream-oriented stream request block that is pointed to by the optional third argument of this routine, <i>pSrb</i>.
 
 
 #### ReadyForNextStreamDataRequest
@@ -96,9 +91,9 @@ Indicates that this stream is ready to receive another control request.
 Indicates that this stream is ready to receive another data request. 
 
 
-#### SignalMultipleStreamEvents
+#### ReadyForNextStreamControlRequest
 
-Signals that all events that match the criteria specified in the <i>EventSet</i> and <i>EventId</i> parameters have occurred.
+Indicates that this stream is ready to receive another control request. 
 
 
 #### SignalStreamEvent
@@ -106,9 +101,14 @@ Signals that all events that match the criteria specified in the <i>EventSet</i>
 Signals that the event specified by the <i>EventEntry</i> parameter has occurred.
 
 
-#### StreamRequestComplete
+#### SignalMultipleStreamEvents
 
-Indicates that the minidriver has completed its handling of the stream-oriented stream request block that is pointed to by the optional third argument of this routine, <i>pSrb</i>.
+Signals that all events that match the criteria specified in the <i>EventSet</i> and <i>EventId</i> parameters have occurred.
+
+
+#### DeleteStreamEvent
+
+Deletes the event specified by the <i>EventEntry</i> parameter.
 
 
 ### -param StreamObject [in]
@@ -122,14 +122,14 @@ TBD
 
 
 
+#### - pSrb
+
+Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
+
+
 #### - EventEntry
 
 Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> or <b>DeleteStreamEvent</b>. Pointer to the event to be signaled or deleted. This parameter is optional. 
-
-
-#### - EventId
-
-Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
 
 
 #### - EventSet
@@ -137,9 +137,9 @@ Indicates the event ID against which to match in the event queue for this stream
 Identifies the event set against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional. 
 
 
-#### - pSrb
+#### - EventId
 
-Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
+Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
 
 
 ## -returns

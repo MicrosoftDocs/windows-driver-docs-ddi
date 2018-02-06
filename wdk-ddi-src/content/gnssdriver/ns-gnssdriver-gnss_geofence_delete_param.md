@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5F22EC0A-C4C6-43BB-B005-654E47EFACF7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_GEOFENCE_DELETE_PARAM structure [Sensor Devices], sensors.gnss_geofence_delete_param, gnssdriver/PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM structure pointer [Sensor Devices], GNSS_GEOFENCE_DELETE_PARAM, *PGNSS_GEOFENCE_DELETE_PARAM, gnssdriver/GNSS_GEOFENCE_DELETE_PARAM
+ms.keywords: sensors.gnss_geofence_delete_param, *PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM structure pointer [Sensor Devices], GNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_DELETE_PARAM, gnssdriver/PGNSS_GEOFENCE_DELETE_PARAM, gnssdriver/GNSS_GEOFENCE_DELETE_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

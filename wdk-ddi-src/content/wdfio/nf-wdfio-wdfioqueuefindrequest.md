@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueFindRequest, DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, wdf.wdfioqueuefindrequest, WdfIoQueueFindRequest method, PFN_WDFIOQUEUEFINDREQUEST, wdfio/WdfIoQueueFindRequest, kmdf.wdfioqueuefindrequest
+ms.keywords: PFN_WDFIOQUEUEFINDREQUEST, WdfIoQueueFindRequest method, wdfio/WdfIoQueueFindRequest, WdfIoQueueFindRequest, wdf.wdfioqueuefindrequest, DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, kmdf.wdfioqueuefindrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,13 +195,13 @@ For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href=
 
 ## -see-also
 
+<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
+
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
-
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
  
 

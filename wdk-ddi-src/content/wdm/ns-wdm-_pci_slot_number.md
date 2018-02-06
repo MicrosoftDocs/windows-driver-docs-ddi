@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0e04813d-e138-435e-8357-562f79a3a4a2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pci_slot_number, _PCI_SLOT_NUMBER, wdm/PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER, PPCI_SLOT_NUMBER, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml
+ms.keywords: PPCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER, kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml, PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], *PPCI_SLOT_NUMBER, kernel.pci_slot_number, wdm/PCI_SLOT_NUMBER, _PCI_SLOT_NUMBER, PCI_SLOT_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_SLOT_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: PCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER
+req.typenames: "*PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER"
 req.product: Windows 10 or later.
 ---
 
@@ -115,17 +115,17 @@ For example, a driver might search for devices it supports on all PCI buses in t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
-
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
 
  
 

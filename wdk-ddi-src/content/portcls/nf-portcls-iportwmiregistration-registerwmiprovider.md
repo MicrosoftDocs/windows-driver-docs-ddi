@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5c092cbd-ef05-4b3d-ac9f-20f2fbf2c37c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], RegisterWMIProvider method, portcls/IPortWMIRegistration::RegisterWMIProvider, IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], audio.iportwmiregistration_registerwmiprovider, RegisterWMIProvider
+ms.keywords: IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, audio.iportwmiregistration_registerwmiprovider, portcls/IPortWMIRegistration::RegisterWMIProvider, IPortWMIRegistration interface [Audio Devices], RegisterWMIProvider method, IPortWMIRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,14 +74,14 @@ NTSTATUS RegisterWMIProvider(
 
 
 
-#### - MiniportWmiContext [in]
-
-Specifies a pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
-
-
 #### - pDeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
+
+
+#### - MiniportWmiContext [in]
+
+Specifies a pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
 
 
 ## -returns
@@ -100,15 +100,15 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 ## -see-also
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
 
-<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C87E3BD5-8CA7-443E-8CC3-F863CD4F321A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlPtrdiffTSub, RtlPtrdiffTSub, kernel.rtlptrdifftsub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

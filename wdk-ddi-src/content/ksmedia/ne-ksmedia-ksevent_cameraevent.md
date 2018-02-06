@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FD9483A5-7112-4141-8566-80B8D010366C
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, stream.ksevent_cameraevent, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED
+ms.keywords: ksmedia/KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT, KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksclock_dispatch, ks/PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], *PKSCLOCK_DISPATCH, _KSCLOCK_DISPATCH, ks/KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], KSCLOCK_DISPATCH, PKSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml
+ms.keywords: ks/PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], KSCLOCK_DISPATCH, ks/KSCLOCK_DISPATCH, _KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, stream.ksclock_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCLOCK_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
+req.typenames: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH"
 ---
 
 # _KSCLOCK_DISPATCH structure
@@ -69,6 +69,26 @@ typedef struct _KSCLOCK_DISPATCH {
 
 
 
+
+
+#### - SetTimer
+
+Optionally contains a pointer to an alternate function to use in generating DPC timer callbacks based on a presentation time. If this is set, this function is used to set timers based on deltas to the current presentation time in order to generate event notifications. If an alternate function is specified to set timers, a corresponding <b>CancelTimer</b> function must also be provided. This is set to <b>NULL</b> if the default <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> function is used to approximate the next notification time. This would normally be set only if a <b>KeSetTimerEx</b> function was being used. The function must have the same characteristics as the default function.
+
+The function should be prototyped as follows:
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  BOOLEAN SetTimer (IN PKSPIN Pin,
+    IN PKTIMER Timer,
+    IN LARGE_INTEGER DueTime,
+    IN PKDPC Dpc);</pre>
+</td>
+</tr>
+</table></span></div>See the documentation for <b>KeSetTimerEx</b> for details on implementation of this function. Any client implementation must behave in a similar manner.
 
 
 #### - CancelTimer
@@ -122,39 +142,19 @@ The function should be prototyped as follows:
 </tr>
 </table></span></div>
 
-#### - SetTimer
-
-Optionally contains a pointer to an alternate function to use in generating DPC timer callbacks based on a presentation time. If this is set, this function is used to set timers based on deltas to the current presentation time in order to generate event notifications. If an alternate function is specified to set timers, a corresponding <b>CancelTimer</b> function must also be provided. This is set to <b>NULL</b> if the default <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> function is used to approximate the next notification time. This would normally be set only if a <b>KeSetTimerEx</b> function was being used. The function must have the same characteristics as the default function.
-
-The function should be prototyped as follows:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  BOOLEAN SetTimer (IN PKSPIN Pin,
-    IN PKTIMER Timer,
-    IN LARGE_INTEGER DueTime,
-    IN PKDPC Dpc);</pre>
-</td>
-</tr>
-</table></span></div>See the documentation for <b>KeSetTimerEx</b> for details on implementation of this function. Any client implementation must behave in a similar manner.
-
-
 ## -see-also
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
  
 

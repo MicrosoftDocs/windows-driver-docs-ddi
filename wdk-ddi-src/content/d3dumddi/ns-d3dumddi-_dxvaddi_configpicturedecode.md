@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3305b892-6785-4412-9b9e-86561c83764a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVADDI_CONFIGPICTUREDECODE, d3dumddi/DXVADDI_CONFIGPICTUREDECODE, display.dxvaddi_configpicturedecode, DXVADDI_CONFIGPICTUREDECODE, DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml"
+ms.keywords: DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], d3dumddi/DXVADDI_CONFIGPICTUREDECODE, DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml, DXVADDI_CONFIGPICTUREDECODE, display.dxvaddi_configpicturedecode, _DXVADDI_CONFIGPICTUREDECODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -230,11 +230,11 @@ The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiff
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
  
 

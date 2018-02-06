@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 61645c17-9278-49e0-a0bf-24a8c52e964d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iresourcelist_numberofentriesoftype, NumberOfEntriesOfType method [Audio Devices], IResourceList, IResourceList interface [Audio Devices], NumberOfEntriesOfType method, NumberOfEntriesOfType, audmp-routines_eb0c6999-a901-4087-b7bc-12057f91be90.xml, NumberOfEntriesOfType method [Audio Devices], IResourceList interface, portcls/IResourceList::NumberOfEntriesOfType, IResourceList::NumberOfEntriesOfType
+ms.keywords: NumberOfEntriesOfType method [Audio Devices], IResourceList interface, IResourceList, IResourceList::NumberOfEntriesOfType, portcls/IResourceList::NumberOfEntriesOfType, NumberOfEntriesOfType, NumberOfEntriesOfType method [Audio Devices], audmp-routines_eb0c6999-a901-4087-b7bc-12057f91be90.xml, IResourceList interface [Audio Devices], NumberOfEntriesOfType method, audio.iresourcelist_numberofentriesoftype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,9 +88,9 @@ For each resource type, a macro is defined to call this method. See <a href="..\
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
  
 

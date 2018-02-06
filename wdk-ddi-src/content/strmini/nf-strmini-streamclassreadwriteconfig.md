@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassReadWriteConfig routine [Streaming Media Devices], stream.streamclassreadwriteconfig, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, StreamClassReadWriteConfig, strmini/StreamClassReadWriteConfig
+ms.keywords: strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, strmini/StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], stream.streamclassreadwriteconfig, StreamClassReadWriteConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassReadWriteConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 

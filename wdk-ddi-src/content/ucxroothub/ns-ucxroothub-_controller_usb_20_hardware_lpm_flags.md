@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B8CEBCEA-7F1F-4E4B-B04E-D914D5875027
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
+ms.keywords: ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

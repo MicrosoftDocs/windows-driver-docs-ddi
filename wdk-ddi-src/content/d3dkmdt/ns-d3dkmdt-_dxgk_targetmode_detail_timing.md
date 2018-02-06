@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bf5e53fa-bafd-4325-be8e-97d1c6aa334e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing, _DXGK_TARGETMODE_DETAIL_TIMING, DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml
+ms.keywords: d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, _DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, DXGK_TARGETMODE_DETAIL_TIMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stiusd/IStiDeviceControl::RawDeviceControl, image.istidevicecontrol_rawdevicecontrol, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, RawDeviceControl method [Imaging Devices], IStiDeviceControl::RawDeviceControl, IStiDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, RawDeviceControl
+ms.keywords: RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, RawDeviceControl, IStiDeviceControl::RawDeviceControl, stiusd/IStiDeviceControl::RawDeviceControl, IStiDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface [Imaging Devices], RawDeviceControl method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.RawDeviceControl
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

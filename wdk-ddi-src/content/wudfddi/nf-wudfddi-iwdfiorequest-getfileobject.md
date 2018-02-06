@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_getfileobject, umdf.iwdfiorequest_getfileobject, wudfddi/IWDFIoRequest::GetFileObject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, GetFileObject method, GetFileObject method, IWDFIoRequest interface, IWDFIoRequest interface, GetFileObject method, GetFileObject, IWDFIoRequest::GetFileObject, IWDFIoRequest
+ms.keywords: IWDFIoRequest interface, GetFileObject method, IWDFIoRequest::GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, GetFileObject method, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, umdf.iwdfiorequest_getfileobject, IWDFIoRequest, GetFileObject method, IWDFIoRequest interface, GetFileObject, wdf.iwdfiorequest_getfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetFileObject
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ When your driver calls <b>GetFileObject</b>, the framework increments the refere
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

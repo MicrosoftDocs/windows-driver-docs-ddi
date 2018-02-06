@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 5b11112b-e900-4894-a9ce-6895a4fa1956
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS, whea.whea_error_status, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, _WHEA_ERROR_STATUS
+ms.keywords: ntddk/PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml, *PWHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], whea.whea_error_status, _WHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], WHEA_ERROR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,44 +141,14 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_ERROR_STATUS union.
 
 
-##### - ErrorType.ERRTYP_BUS
-
-A bus error.
-
-
-##### - ErrorType.ERRTYP_CACHE
-
-A cache error.
-
-
-##### - ErrorType.ERRTYP_FLOW
-
-An overflow or underflow of a queue that is internal to the component.
-
-
-##### - ErrorType.ERRTYP_FUNCTION
-
-An error in one or more functional units.
-
-
-##### - ErrorType.ERRTYP_IMPROPER
-
-An improper access error.
-
-
 ##### - ErrorType.ERRTYP_INTERNAL
 
 An error internal to the component.
 
 
-##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
+##### - ErrorType.ERRTYP_BUS
 
-A loss of lockstep.
-
-
-##### - ErrorType.ERRTYP_MAP
-
-The virtual address was not found on IO-TLB or IO-PDIR.
+A bus error.
 
 
 ##### - ErrorType.ERRTYP_MEM
@@ -186,29 +156,19 @@ The virtual address was not found on IO-TLB or IO-PDIR.
 A memory error.
 
 
-##### - ErrorType.ERRTYP_PARITY
+##### - ErrorType.ERRTYP_TLB
 
-A bus parity error.
-
-
-##### - ErrorType.ERRTYP_PATHERROR
-
-A bus path error.
+A translation lookaside buffer error.
 
 
-##### - ErrorType.ERRTYP_POISONED
+##### - ErrorType.ERRTYP_CACHE
 
-A read operation was issued to data that has been corrupted.
-
-
-##### - ErrorType.ERRTYP_PROTOCOL
-
-A bus protocol error.
+A cache error.
 
 
-##### - ErrorType.ERRTYP_RESPONSE
+##### - ErrorType.ERRTYP_FUNCTION
 
-A response was received that was not associated with a request.
+An error in one or more functional units.
 
 
 ##### - ErrorType.ERRTYP_SELFTEST
@@ -216,19 +176,59 @@ A response was received that was not associated with a request.
 The component failed self test.
 
 
-##### - ErrorType.ERRTYP_TIMEOUT
+##### - ErrorType.ERRTYP_FLOW
 
-A bus timeout error.
+An overflow or underflow of a queue that is internal to the component.
 
 
-##### - ErrorType.ERRTYP_TLB
+##### - ErrorType.ERRTYP_MAP
 
-A translation lookaside buffer error.
+The virtual address was not found on IO-TLB or IO-PDIR.
+
+
+##### - ErrorType.ERRTYP_IMPROPER
+
+An improper access error.
 
 
 ##### - ErrorType.ERRTYP_UNIMPL
 
 An access to a memory address that is not mapped to any component.
+
+
+##### - ErrorType.ERRTYP_LOSSOFLOCKSTEP
+
+A loss of lockstep.
+
+
+##### - ErrorType.ERRTYP_RESPONSE
+
+A response was received that was not associated with a request.
+
+
+##### - ErrorType.ERRTYP_PARITY
+
+A bus parity error.
+
+
+##### - ErrorType.ERRTYP_PROTOCOL
+
+A bus protocol error.
+
+
+##### - ErrorType.ERRTYP_PATHERROR
+
+A bus path error.
+
+
+##### - ErrorType.ERRTYP_TIMEOUT
+
+A bus timeout error.
+
+
+##### - ErrorType.ERRTYP_POISONED
+
+A read operation was issued to data that has been corrupted.
 
 
 ## -remarks
@@ -242,9 +242,9 @@ A WHEA_ERROR_STATUS union is contained within the <a href="..\ntddk\ns-ntddk-_wh
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
 

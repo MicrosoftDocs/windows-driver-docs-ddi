@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3e0d41f4-4918-4768-a341-25d27f0a8af0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TOKEN_CONTROL, ntifs/TOKEN_CONTROL, ifsk.token_control, TOKEN_CONTROL structure [Installable File System Drivers], securitystructures_26958d39-4a12-4979-b0cc-7a880e3d2384.xml, PTOKEN_CONTROL, _TOKEN_CONTROL, *PTOKEN_CONTROL, PTOKEN_CONTROL structure pointer [Installable File System Drivers], ntifs/PTOKEN_CONTROL
+ms.keywords: PTOKEN_CONTROL structure pointer [Installable File System Drivers], _TOKEN_CONTROL, TOKEN_CONTROL structure [Installable File System Drivers], *PTOKEN_CONTROL, TOKEN_CONTROL, PTOKEN_CONTROL, ntifs/PTOKEN_CONTROL, ntifs/TOKEN_CONTROL, securitystructures_26958d39-4a12-4979-b0cc-7a880e3d2384.xml, ifsk.token_control
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,29 +92,29 @@ Specifies a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a> struct
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
+
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
+
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
 <a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
 <a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
 
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
-
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-
-<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
-
-<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
 <a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
-
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
  
 

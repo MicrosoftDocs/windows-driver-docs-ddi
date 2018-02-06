@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb3269d5-1e42-4e18-9d93-ad7f3f4de3f9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSSIPREASON, netvista.rilimssipreason, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, ntddrilapitypes/RIL_IMSSIPREASON_MAX, ntddrilapitypes/RILIMSSIPREASON, ntddrilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, RIL_IMSSIPREASON_MAX, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RILIMSSIPREASON, RIL_IMSSIPREASON_MAX, netvista.rilimssipreason, ntddrilapitypes/RIL_IMSSIPREASON_MAX, RILIMSSIPREASON, ntddrilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8364FC5F-1FF4-415F-B83C-4A866C860522
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtldwordptradd, RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlDWordPtrAdd
+ms.keywords: kernel.rtldwordptradd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlDWordPtrAdd, RtlDWordPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

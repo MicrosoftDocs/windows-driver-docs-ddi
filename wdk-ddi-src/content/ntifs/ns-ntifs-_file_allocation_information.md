@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52c62e52-3bf7-40eb-80ff-df14c50c86e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ntifs/PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], PFILE_ALLOCATION_INFORMATION, ifsk.file_allocation_information
+ms.keywords: ntifs/PFILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, *PFILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_allocation_information, PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, ntifs/FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ALLOCATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION
+req.typenames: "*PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION"
 ---
 
 # _FILE_ALLOCATION_INFORMATION structure

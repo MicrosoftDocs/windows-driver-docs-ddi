@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5DAE5A36-1A2B-46DF-8CF1-FAC8B98460A8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, _NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_device_slot_mappings, NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, ndiswwan/NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO"
+ms.keywords: "*PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, ndiswwan/PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, netvista.ndis_wwan_set_device_slot_mappings, NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,11 +130,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEV
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 <a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

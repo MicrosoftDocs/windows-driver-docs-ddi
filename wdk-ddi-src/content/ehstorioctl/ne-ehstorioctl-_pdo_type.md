@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9695d55c-a214-4bba-aba9-38dfa7f54ec9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDO_TYPE_THIS, ehstorioctl/PDO_TYPE_SILO, PDO_TYPE_UNDEFINED, PDO_TYPE_CONTROL, PDO_TYPE_SILO, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml, ehstorioctl/PDO_TYPE, PDO_TYPE, PDO_TYPE enumeration [Storage Devices], _PDO_TYPE, storage.pdo_type, ehstorioctl/PDO_TYPE_CONTROL, ehstorioctl/PDO_TYPE_DISK, PDO_TYPE_DISK, ehstorioctl/PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE_THIS
+ms.keywords: PDO_TYPE_SILO, PDO_TYPE_CONTROL, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml, PDO_TYPE, ehstorioctl/PDO_TYPE_SILO, ehstorioctl/PDO_TYPE_CONTROL, PDO_TYPE_UNDEFINED, PDO_TYPE_THIS, _PDO_TYPE, ehstorioctl/PDO_TYPE_DISK, ehstorioctl/PDO_TYPE, storage.pdo_type, PDO_TYPE enumeration [Storage Devices], ehstorioctl/PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE_THIS, PDO_TYPE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

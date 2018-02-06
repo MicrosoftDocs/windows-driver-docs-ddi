@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3 interface, RetrieveActivityId method, wudfddi/IWDFIoRequest3::RetrieveActivityId, IWDFIoRequest3, RetrieveActivityId, RetrieveActivityId method, IWDFIoRequest3::RetrieveActivityId, wdf.iwdfiorequest3_retrieveactivityid, umdf.iwdfiorequest3_retrieveactivityid
+ms.keywords: IWDFIoRequest3, RetrieveActivityId method, RetrieveActivityId, IWDFIoRequest3::RetrieveActivityId, umdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId, wdf.iwdfiorequest3_retrieveactivityid, RetrieveActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3 interface, RetrieveActivityId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest3.RetrieveActivityId
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

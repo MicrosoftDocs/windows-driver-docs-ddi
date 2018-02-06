@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MEMORY_REGION structure [Storage Devices], storage.memory_region, MEMORY_REGION, PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml, _MEMORY_REGION, *PMEMORY_REGION, storport/MEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], storport/PMEMORY_REGION
+ms.keywords: MEMORY_REGION structure [Storage Devices], *PMEMORY_REGION, PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION, storage.memory_region, storport/PMEMORY_REGION, storport/MEMORY_REGION, MEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

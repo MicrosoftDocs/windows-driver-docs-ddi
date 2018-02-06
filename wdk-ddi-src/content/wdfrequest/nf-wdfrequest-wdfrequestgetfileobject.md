@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c5a1e12-b66f-4bcb-bb9d-739b883fe9c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestGetFileObject, wdfrequest/WdfRequestGetFileObject, wdf.wdfrequestgetfileobject, PFN_WDFREQUESTGETFILEOBJECT, kmdf.wdfrequestgetfileobject, DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, WdfRequestGetFileObject method
+ms.keywords: wdfrequest/WdfRequestGetFileObject, DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, WdfRequestGetFileObject, wdf.wdfrequestgetfileobject, WdfRequestGetFileObject method, PFN_WDFREQUESTGETFILEOBJECT, kmdf.wdfrequestgetfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,9 +108,9 @@ Another driver sent a read, write, or I/O control request to your driver without
 
 ## -see-also
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a>
+
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 672baa43-7fa1-4c10-9d60-c7c8a4729f26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_colorfillflags, D3DDDI_COLORFILLFLAGS, D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, d3dumddi/D3DDDI_COLORFILLFLAGS, _D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS structure [Display Devices]
+ms.keywords: D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, d3dumddi/D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS structure [Display Devices], D3DDDI_COLORFILLFLAGS, display.d3dddi_colorfillflags, _D3DDDI_COLORFILLFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

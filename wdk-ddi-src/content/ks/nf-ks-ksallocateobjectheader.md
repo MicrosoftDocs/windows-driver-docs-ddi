@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18f5ea44-3f70-4c26-beb3-2f03568df03b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAllocateObjectHeader, stream.ksallocateobjectheader, KsAllocateObjectHeader, ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml, KsAllocateObjectHeader function [Streaming Media Devices]
+ms.keywords: ks/KsAllocateObjectHeader, stream.ksallocateobjectheader, KsAllocateObjectHeader, KsAllocateObjectHeader function [Streaming Media Devices], ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,9 +155,9 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
-
 <a href="..\ks\nf-ks-ksfreeobjectheader.md">KsFreeObjectHeader</a>
+
+<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
 <a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46e96f85-d368-40cd-9530-81959d20b750
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, fltkernel/FltRegisterFilter, FltRegisterFilter, ifsk.fltregisterfilter, FltRegisterFilter function [Installable File System Drivers]
+ms.keywords: FltRegisterFilter, ifsk.fltregisterfilter, FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, fltkernel/FltRegisterFilter, FltRegisterFilter function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,9 +176,9 @@ To unregister itself, a minifilter driver calls <a href="..\fltkernel\nf-fltkern
 
 <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
 
  
 

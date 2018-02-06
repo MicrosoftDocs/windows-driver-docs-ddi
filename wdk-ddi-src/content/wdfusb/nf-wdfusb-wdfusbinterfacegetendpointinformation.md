@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e204db-f8fc-42e7-9a1b-f08099147ce7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbInterfaceGetEndpointInformation, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, WdfUsbInterfaceGetEndpointInformation method, wdfusb/WdfUsbInterfaceGetEndpointInformation, DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, PFN_WDFUSBINTERFACEGETENDPOINTINFORMATION
+ms.keywords: PFN_WDFUSBINTERFACEGETENDPOINTINFORMATION, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, kmdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation, wdf.wdfusbinterfacegetendpointinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,9 +118,9 @@ For more information about the <b>WdfUsbInterfaceGetEndpointInformation</b> meth
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md">WdfUsbInterfaceGetNumEndpoints</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
-
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
  
 

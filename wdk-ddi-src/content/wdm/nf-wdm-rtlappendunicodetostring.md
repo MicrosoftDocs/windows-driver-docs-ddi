@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 688f033b-1f0e-4f0a-9ccd-457ba726d728
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlAppendUnicodeToString, RtlAppendUnicodeToString, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture], k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml, kernel.rtlappendunicodetostring
+ms.keywords: k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml, kernel.rtlappendunicodetostring, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture], wdm/RtlAppendUnicodeToString, RtlAppendUnicodeToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

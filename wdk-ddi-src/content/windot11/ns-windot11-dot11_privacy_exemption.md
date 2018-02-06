@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_privacy_exemption, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, windot11/DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], *PDOT11_PRIVACY_EXEMPTION
+ms.keywords: DOT11_PRIVACY_EXEMPTION, netvista.dot11_privacy_exemption, *PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], windot11/DOT11_PRIVACY_EXEMPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PRIVACY_EXEMPTION
 product: Windows
 targetos: Windows
-req.typenames: DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION
+req.typenames: "*PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION"
 req.product: Windows 10 or later.
 ---
 
@@ -106,9 +106,9 @@ The type of packet that the exemption for the specified EtherType applies to. Th
 
 
 
-#### DOT11_EXEMPT_BOTH
+#### DOT11_EXEMPT_UNICAST
 
-Exempt all packet types.
+Exempt only unicast packets.
 
 
 #### DOT11_EXEMPT_MULTICAST
@@ -116,9 +116,9 @@ Exempt all packet types.
 Exempt only multicast or broadcast packets.
 
 
-#### DOT11_EXEMPT_UNICAST
+#### DOT11_EXEMPT_BOTH
 
-Exempt only unicast packets.
+Exempt all packet types.
 
 
 ## -remarks

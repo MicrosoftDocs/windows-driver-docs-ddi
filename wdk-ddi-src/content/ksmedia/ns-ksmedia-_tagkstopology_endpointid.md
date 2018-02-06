@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A84BE3D6-7D2A-4123-979B-F6E1CA8C8B23
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, ksmedia/KSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], KSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, _tagKSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID
+ms.keywords: ksmedia/PKSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], audio.kstopology_endpointid, _tagKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, ksmedia/KSTOPOLOGY_ENDPOINTID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSTOPOLOGY_ENDPOINTID
 product: Windows
 targetos: Windows
-req.typenames: KSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID
+req.typenames: "*PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID"
 ---
 
 # _tagKSTOPOLOGY_ENDPOINTID structure

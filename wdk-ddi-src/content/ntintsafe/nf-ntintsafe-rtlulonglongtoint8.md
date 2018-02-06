@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9427C33F-F670-4E2C-B3C0-1FACA9AD6387
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlULongLongToInt8, kernel.rtlulonglongtoint8, RtlULongLongToInt8 function [Kernel-Mode Driver Architecture], RtlULongLongToInt8
+ms.keywords: RtlULongLongToInt8, ntintsafe/RtlULongLongToInt8, RtlULongLongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

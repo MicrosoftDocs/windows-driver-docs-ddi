@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], kernel.obreferenceobjectbyhandle, ObReferenceObjectByHandle, k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, wdm/ObReferenceObjectByHandle
+ms.keywords: kernel.obreferenceobjectbyhandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, wdm/ObReferenceObjectByHandle, ObReferenceObjectByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

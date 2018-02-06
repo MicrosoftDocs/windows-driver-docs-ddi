@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f842d945-1d1e-4f0b-9cc9-82a8401c170a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], LPRILGBATOKEN, RILGBATOKEN structure [Network Drivers Starting with Windows Vista], *LPRILGBATOKEN, netvista.rilgbatoken, RILGBATOKEN, oemrilapitypes/LPRILGBATOKEN, oemrilapitypes/RILGBATOKEN
+ms.keywords: RILGBATOKEN structure [Network Drivers Starting with Windows Vista], oemrilapitypes/RILGBATOKEN, LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], *LPRILGBATOKEN, LPRILGBATOKEN, RILGBATOKEN, netvista.rilgbatoken, oemrilapitypes/LPRILGBATOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

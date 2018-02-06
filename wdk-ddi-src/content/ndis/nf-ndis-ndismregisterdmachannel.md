@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista]
+ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel, NdisMRegisterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,21 +127,16 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
 
 
 
-#### AutoInitialize
-
-A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
-       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
-
-
 #### DemandMode
 
 A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's demand
        mode. Otherwise, it is <b>FALSE</b>.
 
 
-#### DmaChannel
+#### AutoInitialize
 
-The bus-relative number of the system DMA controller channel used by the NIC.
+A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
+       autoinitialize mode. Otherwise, it is <b>FALSE</b>.
 
 
 #### DmaChannelSpecified
@@ -151,10 +146,12 @@ A boolean value that is <b>TRUE</b> if
        NIC. Otherwise, it is <b>FALSE</b>.
 
 
-#### DmaPort
+#### DmaWidth
 
-This member refers to the MCA bus, which is no longer supported. This member must be
-       zero.
+The transfer width for DMA operations, one of 
+       <b>Width8Bits</b>, 
+       <b>Width16Bits</b>, or 
+       <b>Width32Bits</b>.
 
 
 #### DmaSpeed
@@ -166,12 +163,15 @@ The DMA speed as one of
        <b>TypeC</b>.
 
 
-#### DmaWidth
+#### DmaPort
 
-The transfer width for DMA operations, one of 
-       <b>Width8Bits</b>, 
-       <b>Width16Bits</b>, or 
-       <b>Width32Bits</b>.
+This member refers to the MCA bus, which is no longer supported. This member must be
+       zero.
+
+
+#### DmaChannel
+
+The bus-relative number of the system DMA controller channel used by the NIC.
 
 
 ### -param MaximumLength [in]
@@ -275,13 +275,13 @@ If the driver successfully registers the DMA channel, it must later call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
 
  
 

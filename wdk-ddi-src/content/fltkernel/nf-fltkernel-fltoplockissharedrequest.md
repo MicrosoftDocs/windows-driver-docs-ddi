@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockIsSharedRequest, fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest, FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltOplockIsSharedRequest, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], ifsk.fltoplockissharedrequest, FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

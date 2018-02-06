@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe545ee3-8004-46fc-a49a-4274f8d1a6a7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATAFORMAT_DV_AVC, avcstrm/PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC, avcstrm/KS_DATAFORMAT_DV_AVC, PKS_DATAFORMAT_DV_AVC, stream.ks_dataformat_dv_avc, avcsref_36d913e1-7071-46db-849d-2493fa30aad8.xml, *PKS_DATAFORMAT_DV_AVC, KS_DATAFORMAT_DV_AVC structure [Streaming Media Devices], PKS_DATAFORMAT_DV_AVC structure pointer [Streaming Media Devices]
+ms.keywords: KS_DATAFORMAT_DV_AVC, avcstrm/KS_DATAFORMAT_DV_AVC, PKS_DATAFORMAT_DV_AVC, PKS_DATAFORMAT_DV_AVC structure pointer [Streaming Media Devices], *PKS_DATAFORMAT_DV_AVC, stream.ks_dataformat_dv_avc, KS_DATAFORMAT_DV_AVC structure [Streaming Media Devices], avcsref_36d913e1-7071-46db-849d-2493fa30aad8.xml, avcstrm/PKS_DATAFORMAT_DV_AVC, tagKS_DATAFORMAT_DV_AVC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ Specifies the AV/C connection information.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
 
 <a href="..\avc\ns-avc-_avcconnectinfo.md">AVCCONNECTINFO</a>
 
-<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
  
 

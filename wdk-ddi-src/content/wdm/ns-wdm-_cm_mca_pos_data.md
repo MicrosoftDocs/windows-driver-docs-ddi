@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2b14eef2-dac4-48c8-b2a2-96bf085171aa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.cm_mca_pos_data, *PCM_MCA_POS_DATA, CM_MCA_POS_DATA, wdm/PCM_MCA_POS_DATA, PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], PCM_MCA_POS_DATA, _CM_MCA_POS_DATA, wdm/CM_MCA_POS_DATA, kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PCM_MCA_POS_DATA, CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture], PCM_MCA_POS_DATA, PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/CM_MCA_POS_DATA, CM_MCA_POS_DATA, kernel.cm_mca_pos_data, kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, _CM_MCA_POS_DATA, *PCM_MCA_POS_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

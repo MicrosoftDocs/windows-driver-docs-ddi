@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxDeviceIoControl, buses.ufxdeviceiocontrol, UfxDeviceIoControl, UfxDeviceIoControl method [Buses]
+ms.keywords: buses.ufxdeviceiocontrol, UfxDeviceIoControl method [Buses], UfxDeviceIoControl, ufxclient/UfxDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

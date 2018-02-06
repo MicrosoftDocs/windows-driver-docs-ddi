@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 51BBE9F6-7661-45A1-8416-9AAA307FCA10
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcUnregisterAdapterPnpManagement function [Audio Devices], portcls/PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement, audio.pcunregisteradapterpnpmanagement
+ms.keywords: PcUnregisterAdapterPnpManagement function [Audio Devices], PcUnregisterAdapterPnpManagement, audio.pcunregisteradapterpnpmanagement, portcls/PcUnregisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,9 +96,9 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nf-portcls-pcregisteradapterpnpmanagement.md">PcRegisterAdapterPnpManagement</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

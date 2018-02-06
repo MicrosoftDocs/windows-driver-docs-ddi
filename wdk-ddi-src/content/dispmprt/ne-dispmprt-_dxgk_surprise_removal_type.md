@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3045f46d-d78a-4f07-9838-f3afd97d9244
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_surprise_removal_type, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, _DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE, DxgkRemovalHibernation, dispmprt/DxgkRemovalHibernation
+ms.keywords: display.dxgk_surprise_removal_type, _DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], dispmprt/DxgkRemovalHibernation, DxgkRemovalHibernation, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

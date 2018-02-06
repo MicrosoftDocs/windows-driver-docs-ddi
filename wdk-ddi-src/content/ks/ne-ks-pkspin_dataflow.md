@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: feab830d-8079-4051-8974-52905f845765
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPIN_DATAFLOW, KSPIN_DATAFLOW_OUT, PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], stream.kspin_dataflow, ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml, *PKSPIN_DATAFLOW, ks/PKSPIN_DATAFLOW, KSPIN_DATAFLOW_IN, ks/KSPIN_DATAFLOW_IN, ks/KSPIN_DATAFLOW_OUT, KSPIN_DATAFLOW, KSPIN_DATAFLOW enumeration [Streaming Media Devices], ks/KSPIN_DATAFLOW
+ms.keywords: KSPIN_DATAFLOW_OUT, ks/KSPIN_DATAFLOW, ks/KSPIN_DATAFLOW_OUT, PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], ks/PKSPIN_DATAFLOW, KSPIN_DATAFLOW_IN, KSPIN_DATAFLOW, PKSPIN_DATAFLOW, *PKSPIN_DATAFLOW, KSPIN_DATAFLOW enumeration [Streaming Media Devices], ks/KSPIN_DATAFLOW_IN, ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml, stream.kspin_dataflow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,9 +80,9 @@ Indicates that the pin factory instantiates data source pins. Such pins can only
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
 

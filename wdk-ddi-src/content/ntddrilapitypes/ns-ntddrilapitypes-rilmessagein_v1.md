@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c9de99e4-556c-4b3b-a442-53fc52553d3d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMESSAGEIN_V1, RILMESSAGEIN_V1, netvista.rilmessagein_v1, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilmessagein_v1, RILMESSAGEIN_V1, RILMESSAGEIN_V1 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGEIN_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

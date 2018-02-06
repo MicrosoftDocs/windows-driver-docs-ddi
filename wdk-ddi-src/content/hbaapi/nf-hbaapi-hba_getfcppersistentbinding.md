@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a17a6dfa-c067-4a85-8787-ffb4fb6cb7ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetFcpPersistentBinding, hbaapi/HBA_GetFcpPersistentBinding, fibreHBA_rtns_9ab54a28-f020-426e-9ea6-2aba3666884b.xml, storage.hba_getfcppersistentbinding, HBA_GetFcpPersistentBinding routine [Storage Devices]
+ms.keywords: fibreHBA_rtns_9ab54a28-f020-426e-9ea6-2aba3666884b.xml, HBA_GetFcpPersistentBinding, storage.hba_getfcppersistentbinding, hbaapi/HBA_GetFcpPersistentBinding, HBA_GetFcpPersistentBinding routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,11 +144,11 @@ The <b>HBA_GetFcpPersistentBinding</b> routine retrieves a set of bindings betwe
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 <a href="..\hbaapi\ns-hbaapi-hba_fcpbinding.md">HBA_FCPBinding</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d1cbd6ee-6625-47bd-bf3e-356b28ff17a5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoPageRead, IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml
+ms.keywords: ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, IoPageRead function [Installable File System Drivers], ntifs/IoPageRead, IoPageRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

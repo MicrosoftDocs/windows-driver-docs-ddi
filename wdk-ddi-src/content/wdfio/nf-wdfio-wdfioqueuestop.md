@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 50ff8064-b28c-4b2b-89d2-bad5e503b2d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStop, WdfIoQueueStop method, kmdf.wdfioqueuestop, DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, PFN_WDFIOQUEUESTOP, wdf.wdfioqueuestop, wdfio/WdfIoQueueStop
+ms.keywords: WdfIoQueueStop method, PFN_WDFIOQUEUESTOP, WdfIoQueueStop, wdfio/WdfIoQueueStop, DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, kmdf.wdfioqueuestop, wdf.wdfioqueuestop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ For more information about the <b>WdfIoQueueStop</b> method, see <a href="https:
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md">WdfIoQueueStopSynchronously</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
  
 

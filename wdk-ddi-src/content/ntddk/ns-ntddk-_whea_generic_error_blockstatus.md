@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 38c8422d-7307-4acd-81f0-931d2e128cb9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], *PWHEA_GENERIC_ERROR_BLOCKSTATUS, _WHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus
+ms.keywords: "_WHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml, *PWHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

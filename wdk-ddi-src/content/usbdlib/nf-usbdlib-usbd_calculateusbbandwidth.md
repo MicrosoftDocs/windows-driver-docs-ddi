@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml, usbdlib/USBD_CalculateUsbBandwidth, buses.usbd_calculateusbbandwidth, USBD_CalculateUsbBandwidth routine [Buses], USBD_CalculateUsbBandwidth
+ms.keywords: buses.usbd_calculateusbbandwidth, USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], usbdlib/USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_CalculateUsbBandwidth
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b917b11-a2f2-4b8b-9964-2d7b4a6a1871
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, netvista.rildmconfiginfovalue_2
+ms.keywords: netvista.rildmconfiginfovalue_2, RILDMCONFIGINFOVALUE, rilapitypes/RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], *LPRILDMCONFIGINFOVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDMCONFIGINFOVALUE
 product: Windows
 targetos: Windows
-req.typenames: RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE
+req.typenames: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE"
 req.product: Windows 10 or later.
 ---
 

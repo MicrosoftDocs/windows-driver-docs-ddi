@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdeviceretrieveinformation, WdfUsbTargetDeviceRetrieveInformation, wdfusb/WdfUsbTargetDeviceRetrieveInformation, kmdf.wdfusbtargetdeviceretrieveinformation, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, WdfUsbTargetDeviceRetrieveInformation method, PFN_WDFUSBTARGETDEVICERETRIEVEINFORMATION
+ms.keywords: PFN_WDFUSBTARGETDEVICERETRIEVEINFORMATION, wdf.wdfusbtargetdeviceretrieveinformation, WdfUsbTargetDeviceRetrieveInformation, DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, kmdf.wdfusbtargetdeviceretrieveinformation, WdfUsbTargetDeviceRetrieveInformation method, wdfusb/WdfUsbTargetDeviceRetrieveInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,9 +125,9 @@ In framework versions 1.11 and later, the driver  can call <a href="..\wdfusb\nf
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md">WdfUsbTargetDeviceQueryUsbCapability</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 

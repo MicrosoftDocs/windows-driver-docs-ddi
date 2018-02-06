@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LWARNING macro [Imaging Devices], IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, image.wias_lwarning, wiamdef/WIAS_LWARNING
+ms.keywords: wiamdef/WIAS_LWARNING, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_LWARNING
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -89,9 +89,9 @@ TBD
 
 
 
-####### - format_string, ...
+#### - pIWiaLog
 
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 #### - lResId
@@ -99,9 +99,9 @@ Specifies a variable argument list, which starts with an ANSI format string that
 Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
-#### - pIWiaLog
+####### - format_string, ...
 
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 ## -remarks

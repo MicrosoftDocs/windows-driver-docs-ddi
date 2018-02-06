@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb
+ms.keywords: StorPortGetActivityIdSrb routine [Storage Devices], storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb, StorPortGetActivityIdSrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

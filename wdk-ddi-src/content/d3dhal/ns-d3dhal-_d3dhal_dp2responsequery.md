@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fda36df2-d346-47a5-b391-dd4509446ca1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2RESPONSEQUERY, display.d3dhal_dp2responsequery, D3DHAL_DP2RESPONSEQUERY structure [Display Devices], D3DHAL_DP2RESPONSEQUERY, *LPD3DHAL_DP2RESPONSEQUERY, d3dhal/LPD3DHAL_DP2RESPONSEQUERY, _D3DHAL_DP2RESPONSEQUERY, LPD3DHAL_DP2RESPONSEQUERY, d3dstrct_6164398f-06cc-4d18-8793-8dbbbdd63b40.xml, LPD3DHAL_DP2RESPONSEQUERY structure pointer [Display Devices]
+ms.keywords: d3dhal/LPD3DHAL_DP2RESPONSEQUERY, LPD3DHAL_DP2RESPONSEQUERY structure pointer [Display Devices], *LPD3DHAL_DP2RESPONSEQUERY, d3dstrct_6164398f-06cc-4d18-8793-8dbbbdd63b40.xml, LPD3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY structure [Display Devices], D3DHAL_DP2RESPONSEQUERY, _D3DHAL_DP2RESPONSEQUERY, display.d3dhal_dp2responsequery, d3dhal/D3DHAL_DP2RESPONSEQUERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,21 +108,21 @@ DWORD for D3DQUERYTYPE_OCCLUSION. The driver sets this DWORD to the number of pi
 
 ## -see-also
 
-<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
-
-D3DDP2OP_ISSUEQUERY
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2response.md">D3DHAL_DP2RESPONSE</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 D3DDP2OP_RESPONSEQUERY
 
+<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2response.md">D3DHAL_DP2RESPONSE</a>
+
+D3DDP2OP_ISSUEQUERY
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

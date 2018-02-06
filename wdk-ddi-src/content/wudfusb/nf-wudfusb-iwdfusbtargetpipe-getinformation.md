@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::GetInformation, IWDFUsbTargetPipe interface, GetInformation method, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, GetInformation method, IWDFUsbTargetPipe interface, GetInformation method, IWDFUsbTargetPipe::GetInformation, GetInformation, wdf.iwdfusbtargetpipe_getinformation
+ms.keywords: wudfusb/IWDFUsbTargetPipe::GetInformation, wdf.iwdfusbtargetpipe_getinformation, GetInformation, IWDFUsbTargetPipe, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation method, umdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe interface, GetInformation method, IWDFUsbTargetPipe::GetInformation, GetInformation method, IWDFUsbTargetPipe interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], FsRtlIsTotalDeviceFailure, ifsk.fsrtlistotaldevicefailure, fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml
+ms.keywords: FsRtlIsTotalDeviceFailure, ifsk.fsrtlistotaldevicefailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], ntddk/FsRtlIsTotalDeviceFailure, fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,9 +94,9 @@ For more information about handling device failure, see <a href="https://msdn.mi
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected.md">FsRtlIsNtstatusExpected</a>
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md">FsRtlNormalizeNtstatus</a>
+
+<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
  
 

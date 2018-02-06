@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d20668f0-b076-4edd-bf21-98841cbbdc74
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FSRTL_PER_FILE_CONTEXT, ntifs/FSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT, _FSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], ifsk.fsrtl_per_file_context, PFSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, *PFSRTL_PER_FILE_CONTEXT
+ms.keywords: ifsk.fsrtl_per_file_context, ntifs/PFSRTL_PER_FILE_CONTEXT, ntifs/FSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], _FSRTL_PER_FILE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FSRTL_PER_FILE_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PFSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT"
+req.typenames: FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT
 ---
 
 # _FSRTL_PER_FILE_CONTEXT structure
@@ -149,17 +149,17 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
-
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
 
  
 

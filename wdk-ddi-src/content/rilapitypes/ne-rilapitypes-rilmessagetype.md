@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f167bd5-a2b8-48a1-b403-e9ac68122ae4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGTYPE_IN_STATUS, rilapitypes/RILMESSAGETYPE, RIL_MSGTYPE_IN_STATUS, rilapitypes/RIL_MSGTYPE_IN_CDMADELIVER, netvista.rilmessagetype_2, RIL_MSGTYPE_IN_CDMADELIVER, rilapitypes/RIL_MSGTYPE_OUT_CDMASUBMIT, RIL_MSGTYPE_BC_GENERAL, RILMESSAGETYPE, rilapitypes/RIL_MSGTYPE_IN_IS637STATUS, rilapitypes/RIL_MSGTYPE_OUT_SUBMIT, rilapitypes/RIL_MSGTYPE_BC_GENERAL, RIL_MSGTYPE_IN_IS637STATUS, RIL_MSGTYPE_OUT_SUBMIT, RILMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGTYPE_OUT_CDMASUBMIT
+ms.keywords: RILMESSAGETYPE, rilapitypes/RIL_MSGTYPE_BC_GENERAL, rilapitypes/RILMESSAGETYPE, RIL_MSGTYPE_OUT_CDMASUBMIT, rilapitypes/RIL_MSGTYPE_IN_CDMADELIVER, rilapitypes/RIL_MSGTYPE_IN_IS637STATUS, RILMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGTYPE_IN_STATUS, RIL_MSGTYPE_OUT_SUBMIT, RIL_MSGTYPE_IN_CDMADELIVER, RIL_MSGTYPE_IN_IS637STATUS, rilapitypes/RIL_MSGTYPE_OUT_SUBMIT, netvista.rilmessagetype_2, rilapitypes/RIL_MSGTYPE_OUT_CDMASUBMIT, RIL_MSGTYPE_BC_GENERAL, RIL_MSGTYPE_IN_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

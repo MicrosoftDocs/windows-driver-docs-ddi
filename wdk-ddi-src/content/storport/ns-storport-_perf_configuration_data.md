@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.perf_configuration_data, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], PERF_CONFIGURATION_DATA structure [Storage Devices], PERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, storport/PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA, storport/PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA
+ms.keywords: "*PPERF_CONFIGURATION_DATA, storport/PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, storage.perf_configuration_data, storport/PPERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], PERF_CONFIGURATION_DATA structure [Storage Devices], structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, PPERF_CONFIGURATION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PERF_CONFIGURATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
+req.typenames: "*PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA"
 req.product: Windows 10 or later.
 ---
 

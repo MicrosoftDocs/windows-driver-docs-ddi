@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 911e1035-4415-43c1-9e9c-cc8feab2bd97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PREG_SAVE_KEY_INFORMATION, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, kernel.reg_save_key_information, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, _REG_SAVE_KEY_INFORMATION, *PREG_SAVE_KEY_INFORMATION, wdm/REG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: REG_SAVE_KEY_INFORMATION, wdm/PREG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_save_key_information, wdm/REG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, _REG_SAVE_KEY_INFORMATION, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_SAVE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_SAVE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: REG_SAVE_KEY_INFORMATION, *PREG_SAVE_KEY_INFORMATION
+req.typenames: "*PREG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

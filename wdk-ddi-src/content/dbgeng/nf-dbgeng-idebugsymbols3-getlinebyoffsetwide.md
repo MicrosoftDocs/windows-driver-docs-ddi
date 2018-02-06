@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e780be4b-ac62-43c2-9767-7745ff1c7dbb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method, GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], debugger.getlinebyoffsetwide, dbgeng/IDebugSymbols3::GetLineByOffsetWide, IDebugSymbols3
+ms.keywords: GetLineByOffsetWide method [Windows Debugging], GetLineByOffsetWide, IDebugSymbols3::GetLineByOffsetWide, dbgeng/IDebugSymbols3::GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.getlinebyoffsetwide, IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetLineByOffsetWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetLineByOffsetWide method

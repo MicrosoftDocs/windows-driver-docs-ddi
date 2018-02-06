@@ -40,7 +40,7 @@ apiname:
 -	RILPOSITIONINFOLTE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE"
+req.typenames: RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
 req.product: Windows 10 or later.
 ---
 

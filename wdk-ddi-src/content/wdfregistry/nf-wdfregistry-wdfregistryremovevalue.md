@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryRemoveValue method, PFN_WDFREGISTRYREMOVEVALUE, WdfRegistryRemoveValue, wdfregistry/WdfRegistryRemoveValue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, kmdf.wdfregistryremovevalue, wdf.wdfregistryremovevalue
+ms.keywords: WdfRegistryRemoveValue, PFN_WDFREGISTRYREMOVEVALUE, wdf.wdfregistryremovevalue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, kmdf.wdfregistryremovevalue, wdfregistry/WdfRegistryRemoveValue, WdfRegistryRemoveValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryRemoveValue
 product: Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
+req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

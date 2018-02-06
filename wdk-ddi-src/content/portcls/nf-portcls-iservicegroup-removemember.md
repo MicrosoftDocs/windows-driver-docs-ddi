@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f257c861-036b-44d1-9f99-dc5c0ab6e715
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceGroup interface [Audio Devices], RemoveMember method, RemoveMember method [Audio Devices], IServiceGroup interface, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, portcls/IServiceGroup::RemoveMember, IServiceGroup, RemoveMember, IServiceGroup::RemoveMember, audio.iservicegroup_removemember, RemoveMember method [Audio Devices]
+ms.keywords: audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, portcls/IServiceGroup::RemoveMember, audio.iservicegroup_removemember, RemoveMember, IServiceGroup interface [Audio Devices], RemoveMember method, IServiceGroup, RemoveMember method [Audio Devices], IServiceGroup interface, RemoveMember method [Audio Devices], IServiceGroup::RemoveMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

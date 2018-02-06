@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERIAL_COMMPROP, *PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], ntddser/PSERIAL_COMMPROP, serports.serial_commprop, PSERIAL_COMMPROP structure pointer [Serial Ports], _SERIAL_COMMPROP
+ms.keywords: "*PSERIAL_COMMPROP, serports.serial_commprop, PSERIAL_COMMPROP, _SERIAL_COMMPROP, SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], PSERIAL_COMMPROP structure pointer [Serial Ports], ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

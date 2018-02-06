@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeRange, pepfx/PepPerfStateTypeMax, PepPerfStateTypeMax, pepfx/PepPerfStateTypeDiscrete, kernel.pep_perf_state_type, _PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeRange, *PPEP_PERF_STATE_TYPE, PepPerfStateTypeDiscrete
+ms.keywords: kernel.pep_perf_state_type, PepPerfStateTypeRange, PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, pepfx/PEP_PERF_STATE_TYPE, PepPerfStateTypeMax, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepPerfStateTypeRange, PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

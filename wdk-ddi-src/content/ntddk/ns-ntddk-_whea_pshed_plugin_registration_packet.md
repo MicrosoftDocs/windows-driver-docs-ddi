@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 9dafa65f-26f6-42a6-a125-013c61a66ccc
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], whea.whea_pshed_plugin_registration_packet, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml, _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+ms.keywords: ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whearef_9e79e188-a1ce-4d98-a15d-a45c27f9e836.xml, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure [WHEA Drivers and Applications], ntddk/PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure pointer [WHEA Drivers and Applications], _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, whea.whea_pshed_plugin_registration_packet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 product: Windows
 targetos: Windows
-req.typenames: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+req.typenames: "*PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET"
 ---
 
 # _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure
@@ -99,14 +99,9 @@ A bit-wise OR'ed combination of flags that specifies the functional areas in whi
 The PSHED plug-in participates in error source discovery.
 
 
-#### PshedFAErrorInfoRetrieval
+#### PshedFAErrorSourceControl
 
-The PSHED plug-in participates in error information retrieval.
-
-
-#### PshedFAErrorInjection
-
-The PSHED plug-in participates in error injection.
+The PSHED plug-in participates in error source control.
 
 
 #### PshedFAErrorRecordPersistence
@@ -114,14 +109,19 @@ The PSHED plug-in participates in error injection.
 The PSHED plug-in participates in error record persistence.
 
 
+#### PshedFAErrorInfoRetrieval
+
+The PSHED plug-in participates in error information retrieval.
+
+
 #### PshedFAErrorRecovery
 
 The PSHED plug-in participates in error recovery.
 
 
-#### PshedFAErrorSourceControl
+#### PshedFAErrorInjection
 
-The PSHED plug-in participates in error source control.
+The PSHED plug-in participates in error injection.
 
 
 ### -field Reserved

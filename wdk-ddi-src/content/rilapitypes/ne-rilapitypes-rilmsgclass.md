@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 95818f9a-9053-4fb3-8bcb-6e318ed6bae5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_MSGCLASS_OUTGOING, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGCLASS_ALL, RILMSGCLASS, netvista.rilmsgclass_2, rilapitypes/RILMSGCLASS, RIL_MSGCLASS_BROADCAST, rilapitypes/RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING, rilapitypes/RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_ALL, rilapitypes/RIL_MSGCLASS_OUTGOING
+ms.keywords: rilapitypes/RILMSGCLASS, rilapitypes/RIL_MSGCLASS_ALL, RIL_MSGCLASS_OUTGOING, rilapitypes/RIL_MSGCLASS_INCOMING, rilapitypes/RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_ALL, RIL_MSGCLASS_INCOMING, RILMSGCLASS, netvista.rilmsgclass_2, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGCLASS_OUTGOING, RIL_MSGCLASS_BROADCAST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

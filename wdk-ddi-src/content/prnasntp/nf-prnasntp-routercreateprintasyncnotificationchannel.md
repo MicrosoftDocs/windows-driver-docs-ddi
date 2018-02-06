@@ -7,8 +7,8 @@ old-location: print\routercreateprintasyncnotificationchannel.htm
 old-project: print
 ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prnasntp/RouterCreatePrintAsyncNotificationChannel, print.routercreateprintasyncnotificationchannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml, RouterCreatePrintAsyncNotificationChannel
+ms.date: 2/2/2018
+ms.keywords: print.routercreateprintasyncnotificationchannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], prnasntp/RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

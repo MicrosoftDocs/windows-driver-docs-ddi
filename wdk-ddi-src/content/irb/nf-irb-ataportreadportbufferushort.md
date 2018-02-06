@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f118af3b-5a9a-486b-9550-9b48bdfb48cd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportreadportbufferushort, AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort routine [Storage Devices], atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml, irb/AtaPortReadPortBufferUshort
+ms.keywords: AtaPortReadPortBufferUshort, irb/AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort routine [Storage Devices], storage.ataportreadportbufferushort, atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

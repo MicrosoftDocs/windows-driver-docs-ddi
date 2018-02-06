@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 591d8f63-ab3e-48b7-8fe4-98dcdf9464f1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AACS_CERTIFICATE, storage.aacs_certificate, ntddcdvd/PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], PAACS_CERTIFICATE, _AACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, *PAACS_CERTIFICATE
+ms.keywords: PAACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], ntddcdvd/PAACS_CERTIFICATE, AACS_CERTIFICATE, storage.aacs_certificate, ntddcdvd/AACS_CERTIFICATE, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, PAACS_CERTIFICATE structure pointer [Storage Devices], _AACS_CERTIFICATE, *PAACS_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AACS_CERTIFICATE
 product: Windows
 targetos: Windows
-req.typenames: AACS_CERTIFICATE, *PAACS_CERTIFICATE
+req.typenames: "*PAACS_CERTIFICATE, AACS_CERTIFICATE"
 ---
 
 # _AACS_CERTIFICATE structure

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfiotargetstatemanagement_remove, Remove method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, IWDFIoTargetStateManagement::Remove, IWDFIoTargetStateManagement, Remove, wudfddi/IWDFIoTargetStateManagement::Remove, IWDFIoTargetStateManagement interface, Remove method, Remove method
+ms.keywords: IWDFIoTargetStateManagement interface, Remove method, wudfddi/IWDFIoTargetStateManagement::Remove, Remove method, IWDFIoTargetStateManagement interface, Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, IWDFIoTargetStateManagement, Remove method, umdf.iwdfiotargetstatemanagement_remove, IWDFIoTargetStateManagement::Remove, wdf.iwdfiotargetstatemanagement_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTargetStateManagement.Remove
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

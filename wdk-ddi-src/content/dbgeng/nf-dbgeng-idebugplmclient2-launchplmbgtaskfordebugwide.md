@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47793815-F7AC-4E0D-809C-DBB7497BDA30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, IDebugPlmClient2, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], debugger.idebugplmclient2_launchplmbgtaskfordebugwide
+ms.keywords: dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, debugger.idebugplmclient2_launchplmbgtaskfordebugwide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, LaunchPlmBgTaskForDebugWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient2::LaunchPlmBgTaskForDebugWide method

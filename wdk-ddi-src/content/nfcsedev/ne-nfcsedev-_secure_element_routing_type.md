@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcsedev/RoutingTypeTech, RoutingTypeProtocol, nfcsedev/RoutingTypeAid, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type, *PSECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeProtocol, RoutingTypeTech, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid
+ms.keywords: RoutingTypeAid, RoutingTypeTech, RoutingTypeProtocol, nfpdrivers._secure_element_routing_type, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeProtocol, nfcsedev/RoutingTypeAid, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeTech, *PSECURE_ELEMENT_ROUTING_TYPE, SECURE_ELEMENT_ROUTING_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

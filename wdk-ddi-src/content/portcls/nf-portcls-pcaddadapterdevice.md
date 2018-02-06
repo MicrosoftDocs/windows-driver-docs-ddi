@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa571ca0-194c-4018-9b93-a3cc687f7632
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcAddAdapterDevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice, audio.pcaddadapterdevice, PcAddAdapterDevice function [Audio Devices]
+ms.keywords: portcls/PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], PcAddAdapterDevice, audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,13 +162,13 @@ The adapter driver can then access the device-specific extension data, as shown 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
  
 

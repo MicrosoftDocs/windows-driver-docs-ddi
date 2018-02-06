@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ec37cf6-0d07-445b-9a5b-8d560069c612
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgcdmamsgdisplaymode_2, rilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, rilapitypes/RIL_MSGDISPLAYMODE_MAX, rilapitypes/RILMSGCDMAMSGDISPLAYMODE, RIL_MSGDISPLAYMODE_MAX, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT, RILMSGCDMAMSGDISPLAYMODE, RIL_MSGDISPLAYMODE_USERDEFAULT, RIL_MSGDISPLAYMODE_MOBILEDEFAULT
+ms.keywords: RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmamsgdisplaymode_2, RIL_MSGDISPLAYMODE_USERDEFAULT, RIL_MSGDISPLAYMODE_MAX, rilapitypes/RIL_MSGDISPLAYMODE_MAX, rilapitypes/RILMSGCDMAMSGDISPLAYMODE, rilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RILMSGCDMAMSGDISPLAYMODE, rilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 52f65e2a-97a7-4c1c-a021-208bc2520b7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadControl, IDebugDataSpaces2::ReadControl, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, IDebugDataSpaces3::ReadControl, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, ReadControl method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces4::ReadControl, IDebugDataSpaces interface [Windows Debugging], ReadControl method, dbgeng/IDebugDataSpaces::ReadControl, debugger.readcontrol, IDebugDataSpaces4::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, IDebugDataSpaces::ReadControl, ReadControl method [Windows Debugging], ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces3::ReadControl, IDebugDataSpaces4, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadControl, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method
+ms.keywords: ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::ReadControl, ReadControl, IDebugDataSpaces3::ReadControl, debugger.readcontrol, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, dbgeng/IDebugDataSpaces2::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces4::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, IDebugDataSpaces4, IDebugDataSpaces2::ReadControl, IDebugDataSpaces interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadControl
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadControl method

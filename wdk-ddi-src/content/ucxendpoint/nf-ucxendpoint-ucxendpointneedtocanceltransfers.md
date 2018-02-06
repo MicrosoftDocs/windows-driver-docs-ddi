@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4DA3FB63-D2D3-43E1-9420-29303176B837
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointNeedToCancelTransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers
+ms.keywords: buses._ucxendpointneedtocanceltransfers, UcxEndpointNeedToCancelTransfers method [Buses], UcxEndpointNeedToCancelTransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

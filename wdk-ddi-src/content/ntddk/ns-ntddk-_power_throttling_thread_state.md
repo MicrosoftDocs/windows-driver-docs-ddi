@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 85659694-f93a-42dc-9fa4-f6fea6ad71d0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.power_throttling_thread_state, *PPOWER_THROTTLING_THREAD_STATE, _POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, ntddk/POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.power_throttling_thread_state, ntddk/POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture], *PPOWER_THROTTLING_THREAD_STATE, _POWER_THROTTLING_THREAD_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	POWER_THROTTLING_THREAD_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE"
+req.typenames: POWER_THROTTLING_THREAD_STATE, *PPOWER_THROTTLING_THREAD_STATE
 ---
 
 # _POWER_THROTTLING_THREAD_STATE structure

@@ -7,8 +7,8 @@ old-location: print\oemupgradeprinter.htm
 old-project: print
 ms.assetid: 3f9ec3ca-a494-4a0a-87d8-1275b3b2a0b1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, print.oemupgradeprinter, OEMUpgradePrinter function [Print Devices], printoem/OEMUpgradePrinter, OEMUpgradePrinter
+ms.date: 2/2/2018
+ms.keywords: print.oemupgradeprinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], printoem/OEMUpgradePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

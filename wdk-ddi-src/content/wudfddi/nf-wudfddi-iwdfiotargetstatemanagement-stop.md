@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTargetStateManagement::Stop, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, Stop method, wudfddi/IWDFIoTargetStateManagement::Stop, umdf.iwdfiotargetstatemanagement_stop, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Stop method, Stop, Stop method, IWDFIoTargetStateManagement interface, wdf.iwdfiotargetstatemanagement_stop
+ms.keywords: umdf.iwdfiotargetstatemanagement_stop, Stop method, wdf.iwdfiotargetstatemanagement_stop, Stop, IWDFIoTargetStateManagement interface, Stop method, IWDFIoTargetStateManagement::Stop, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, wudfddi/IWDFIoTargetStateManagement::Stop, IWDFIoTargetStateManagement, Stop method, IWDFIoTargetStateManagement interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTargetStateManagement.Stop
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -115,9 +115,9 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
 
  
 

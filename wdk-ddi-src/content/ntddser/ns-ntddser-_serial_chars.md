@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERIAL_CHARS, _SERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], ntddser/PSERIAL_CHARS, PSERIAL_CHARS, ntddser/SERIAL_CHARS, serports.serial_chars, *PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports]
+ms.keywords: PSERIAL_CHARS structure pointer [Serial Ports], *PSERIAL_CHARS, ntddser/SERIAL_CHARS, _SERIAL_CHARS, SERIAL_CHARS, PSERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], ntddser/PSERIAL_CHARS, serports.serial_chars
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_CHARS
 product: Windows
 targetos: Windows
-req.typenames: SERIAL_CHARS, *PSERIAL_CHARS
+req.typenames: "*PSERIAL_CHARS, SERIAL_CHARS"
 ---
 
 # _SERIAL_CHARS structure
@@ -113,13 +113,13 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
  
 

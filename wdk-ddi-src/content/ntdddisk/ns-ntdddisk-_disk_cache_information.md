@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, storage.disk_cache_information, ntdddisk/PDISK_CACHE_INFORMATION, _DISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, DISK_CACHE_INFORMATION structure [Storage Devices]
+ms.keywords: PDISK_CACHE_INFORMATION, storage.disk_cache_information, ntdddisk/PDISK_CACHE_INFORMATION, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, *PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], DISK_CACHE_INFORMATION structure [Storage Devices], ntdddisk/DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, _DISK_CACHE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

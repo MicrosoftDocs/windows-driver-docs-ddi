@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, umdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings, wdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings method, IWDFDevice2 interface, wudfddi/IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml
+ms.keywords: UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, wudfddi/IWDFDevice2::AssignSxWakeSettings, IWDFDevice2 interface, AssignSxWakeSettings method, wdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings, umdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings method, IWDFDevice2 interface, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.AssignSxWakeSettings
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

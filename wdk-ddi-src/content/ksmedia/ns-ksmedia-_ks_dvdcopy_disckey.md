@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c7015bb6-1dd1-46b7-81b3-1762e5286c74
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DVDCOPY_DISCKEY structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_DISCKEY, KS_DVDCOPY_DISCKEY, dvdref_125d99fe-df42-4e9a-b21c-198c968ff88b.xml, ksmedia/PKS_DVDCOPY_DISCKEY, PKS_DVDCOPY_DISCKEY, PKS_DVDCOPY_DISCKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_DISCKEY, *PKS_DVDCOPY_DISCKEY, stream.ks_dvdcopy_disckey
+ms.keywords: ksmedia/KS_DVDCOPY_DISCKEY, KS_DVDCOPY_DISCKEY, *PKS_DVDCOPY_DISCKEY, stream.ks_dvdcopy_disckey, ksmedia/PKS_DVDCOPY_DISCKEY, KS_DVDCOPY_DISCKEY structure [Streaming Media Devices], _KS_DVDCOPY_DISCKEY, dvdref_125d99fe-df42-4e9a-b21c-198c968ff88b.xml, PKS_DVDCOPY_DISCKEY, PKS_DVDCOPY_DISCKEY structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

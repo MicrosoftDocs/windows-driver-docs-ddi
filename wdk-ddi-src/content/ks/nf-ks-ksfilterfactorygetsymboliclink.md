@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db657820-75b7-49fe-904d-05f8bc45b8c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], ks/KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink, avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml
+ms.keywords: stream.ksfilterfactorygetsymboliclink, KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], ks/KsFilterFactoryGetSymbolicLink, avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

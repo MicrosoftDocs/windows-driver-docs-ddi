@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EB3CEC0E-5635-410D-B8D2-031FDB0557C1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_IO_TYPE_CONFIG structure pointer, PWDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, *PWDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG, _WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure, wdfdevice/PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG
+ms.keywords: PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG, wdfdevice/PWDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG, _WDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, PWDF_IO_TYPE_CONFIG structure pointer, WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_IO_TYPE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG
+req.typenames: "*PWDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -122,11 +122,11 @@ If you are writing a driver using UMDF version 1.<i>x</i>, your driver calls <a 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_io_type_config_init.md">WDF_IO_TYPE_CONFIG_INIT</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
  
 

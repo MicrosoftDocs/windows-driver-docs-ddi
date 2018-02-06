@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf189a5a-8281-4d9a-bad8-a25a1294aec9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILOPERATORINFO, netvista.riloperatorinfo_2, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], RILOPERATORINFO, *LPRILOPERATORINFO
+ms.keywords: rilapitypes/RILOPERATORINFO, RILOPERATORINFO, netvista.riloperatorinfo_2, *LPRILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

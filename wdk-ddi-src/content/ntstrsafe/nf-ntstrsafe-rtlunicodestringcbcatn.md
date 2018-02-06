@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, kernel.rtlunicodestringcbcatn, RtlUnicodeStringCbCatN
+ms.keywords: safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN, kernel.rtlunicodestringcbcatn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCbCatN
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlUnicodeStringCbCatN function

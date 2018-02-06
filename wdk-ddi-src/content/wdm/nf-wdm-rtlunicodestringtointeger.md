@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToInteger, k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger
+ms.keywords: RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToInteger, k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, RtlUnicodeStringToInteger, kernel.rtlunicodestringtointeger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,9 +180,9 @@ A related routine, <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlInteg
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
  
 

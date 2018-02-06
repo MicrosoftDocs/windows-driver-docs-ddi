@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ae59daf6-da7b-4b04-bb5c-dfd353b937a0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_QueryBusTime, buses.usbd_querybustime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml, USBD_QueryBusTime routine [Buses], USBD_QueryBusTime
+ms.keywords: buses.usbd_querybustime, usbdlib/USBD_QueryBusTime, USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_QueryBusTime
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

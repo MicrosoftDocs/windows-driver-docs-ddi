@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 726ce165-fd07-4dd3-a004-8081481340a1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_BT601, _DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrix_BT601, dxva/DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix_Unknown, DXVA_VideoTransferMatrix_BT709, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml, dxva/DXVA_VideoTransferMatrixMask, display.dxva_videotransfermatrix, DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrix_Unknown, dxva/DXVA_VideoTransferMatrix_BT709
+ms.keywords: dxva/DXVA_VideoTransferMatrixShift, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml, DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrix_Unknown, _DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_BT601, display.dxva_videotransfermatrix, DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrixMask, DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

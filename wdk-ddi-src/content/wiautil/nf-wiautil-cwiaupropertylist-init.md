@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cbbe0d76-7fd1-4653-ad79-d5e6d692dec0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/CWiauPropertyList::Init, CWiauPropertyList interface [Imaging Devices], Init method, CWiauPropertyList::Init, image.cwiaupropertylist_init, Init method [Imaging Devices], Init, CWiauPropertyList, Init method [Imaging Devices], CWiauPropertyList interface, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml
+ms.keywords: CWiauPropertyList, Init method [Imaging Devices], Init, Init method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList interface [Imaging Devices], Init method, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, wiautil/CWiauPropertyList::Init, CWiauPropertyList::Init, image.cwiaupropertylist_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

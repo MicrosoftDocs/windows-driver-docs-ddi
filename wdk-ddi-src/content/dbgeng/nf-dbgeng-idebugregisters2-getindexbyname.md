@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters interface [Windows Debugging], GetIndexByName method, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, dbgeng/IDebugRegisters::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters interface, debugger.getindexbyname, IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, dbgeng/IDebugRegisters2::GetIndexByName, IDebugRegisters2, IDebugRegisters::GetIndexByName
+ms.keywords: GetIndexByName method [Windows Debugging], debugger.getindexbyname, IDebugRegisters::GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, GetIndexByName method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, dbgeng/IDebugRegisters2::GetIndexByName, IDebugRegisters2, GetIndexByName, IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging], GetIndexByName method, dbgeng/IDebugRegisters::GetIndexByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetIndexByName
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetIndexByName method

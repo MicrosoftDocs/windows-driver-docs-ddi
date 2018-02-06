@@ -7,8 +7,8 @@ old-location: print\oemdithercolor.htm
 old-project: print
 ms.assetid: bf8c2140-8917-42af-86bf-c2f25b0c42b7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMDitherColor, OEMDitherColor, print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, OEMDitherColor function [Print Devices], print.oemdithercolor
+ms.date: 2/2/2018
+ms.keywords: printoem/OEMDitherColor, OEMDitherColor, OEMDitherColor function [Print Devices], print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, print.oemdithercolor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

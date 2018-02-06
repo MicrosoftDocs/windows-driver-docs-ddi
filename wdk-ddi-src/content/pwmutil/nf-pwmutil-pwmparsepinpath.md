@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PwmParsePinPath function [Kernel-Mode Driver Architecture], pwmutil/PwmParsePinPath, kernel.pwmparsepinpath, PwmParsePinPath
+ms.keywords: kernel.pwmparsepinpath, PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], pwmutil/PwmParsePinPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PwmParsePinPath
 product: Windows
 targetos: Windows
-req.typenames: "*PPTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT"
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 

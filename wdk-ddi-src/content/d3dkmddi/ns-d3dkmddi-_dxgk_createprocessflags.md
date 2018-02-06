@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CREATEPROCESSFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags, _DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS
+ms.keywords: DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

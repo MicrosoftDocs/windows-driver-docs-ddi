@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ChangerDrive, _ELEMENT_TYPE, ntddchgr/PELEMENT_TYPE, ntddchgr/ChangerDoor, ChangerDoor, ntddchgr/AllElements, ntddchgr/ELEMENT_TYPE, ChangerTransport, ntddchgr/ChangerTransport, ChangerSlot, ChangerIEPort, ntddchgr/ChangerMaxElement, AllElements, ChangerMaxElement, ntddchgr/ChangerIEPort, ntddchgr/ChangerKeypad, ELEMENT_TYPE enumeration [Storage Devices], ntddchgr/ChangerSlot, PELEMENT_TYPE, ChangerKeypad, ELEMENT_TYPE, ntddchgr/ChangerDrive, *PELEMENT_TYPE, storage.element_type, PELEMENT_TYPE enumeration pointer [Storage Devices]
+ms.keywords: ntddchgr/PELEMENT_TYPE, ntddchgr/ELEMENT_TYPE, _ELEMENT_TYPE, *PELEMENT_TYPE, storage.element_type, ChangerTransport, ChangerDrive, ELEMENT_TYPE, ntddchgr/ChangerIEPort, ChangerDoor, ChangerMaxElement, ntddchgr/ChangerMaxElement, ELEMENT_TYPE enumeration [Storage Devices], PELEMENT_TYPE, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ntddchgr/ChangerTransport, PELEMENT_TYPE enumeration pointer [Storage Devices], ntddchgr/AllElements, ntddchgr/ChangerDoor, AllElements, ChangerSlot, ChangerIEPort, ntddchgr/ChangerSlot, ntddchgr/ChangerKeypad, ChangerKeypad, ntddchgr/ChangerDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	ELEMENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
 
 # _ELEMENT_TYPE enumeration

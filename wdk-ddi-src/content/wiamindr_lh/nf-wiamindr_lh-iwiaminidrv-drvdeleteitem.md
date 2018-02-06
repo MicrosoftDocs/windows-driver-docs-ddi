@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/IWiaMiniDrv::drvDeleteItem, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, IWiaMiniDrv, drvDeleteItem, drvDeleteItem method [Imaging Devices], image.iwiaminidrv_drvdeleteitem, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, IWiaMiniDrv::drvDeleteItem
+ms.keywords: drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvDeleteItem, drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, IWiaMiniDrv, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,14 +86,14 @@ HRESULT drvDeleteItem(
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [out]

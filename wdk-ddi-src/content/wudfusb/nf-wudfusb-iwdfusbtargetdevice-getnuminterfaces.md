@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4da2f2b0-f2ad-465d-b63e-f11406d4c210
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetdevice_getnuminterfaces, IWDFUsbTargetDevice::GetNumInterfaces, GetNumInterfaces, IWDFUsbTargetDevice, GetNumInterfaces method, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, umdf.iwdfusbtargetdevice_getnuminterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, GetNumInterfaces method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, GetNumInterfaces method
+ms.keywords: IWDFUsbTargetDevice::GetNumInterfaces, wdf.iwdfusbtargetdevice_getnuminterfaces, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetNumInterfaces method, GetNumInterfaces method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, umdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

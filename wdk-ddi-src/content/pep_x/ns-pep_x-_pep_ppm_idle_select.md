@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_SELECT, pep_x/PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, pep_x/PPEP_PPM_IDLE_SELECT"
+ms.keywords: PPEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], pep_x/PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,13 +117,13 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629120">PEP_NOTIFY_PPM_IDLE_SELECT</a>
+
+<a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
 
  
 

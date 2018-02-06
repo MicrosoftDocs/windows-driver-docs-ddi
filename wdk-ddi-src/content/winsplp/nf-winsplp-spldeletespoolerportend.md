@@ -7,8 +7,8 @@ old-location: print\spldeletespoolerportend.htm
 old-project: print
 ms.assetid: 947391B5-5355-4ADB-B26E-A51FE0B0B85F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SplDeleteSpoolerPortEnd, SplDeleteSpoolerPortEnd function [Print Devices], winsplp/SplDeleteSpoolerPortEnd, print.spldeletespoolerportend
+ms.date: 2/2/2018
+ms.keywords: SplDeleteSpoolerPortEnd function [Print Devices], SplDeleteSpoolerPortEnd, winsplp/SplDeleteSpoolerPortEnd, print.spldeletespoolerportend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

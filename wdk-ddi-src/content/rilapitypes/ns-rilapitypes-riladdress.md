@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riladdress, *LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILADDRESS
+ms.keywords: RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress, rilapitypes/RILADDRESS, *LPRILADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILADDRESS
 product: Windows
 targetos: Windows
-req.typenames: RILADDRESS, *LPRILADDRESS
+req.typenames: "*LPRILADDRESS, RILADDRESS"
 req.product: Windows 10 or later.
 ---
 

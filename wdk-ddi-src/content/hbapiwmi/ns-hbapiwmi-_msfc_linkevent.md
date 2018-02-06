@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 35fb3397-2e45-4d32-8cb1-1050199b2209
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msfc_linkevent, structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml, hbapiwmi/MSFC_LinkEvent, *PMSFC_LinkEvent, _MSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, PMSFC_LinkEvent, MSFC_LinkEvent, PMSFC_LinkEvent structure pointer [Storage Devices], MSFC_LinkEvent structure [Storage Devices]
+ms.keywords: storage.msfc_linkevent, MSFC_LinkEvent, MSFC_LinkEvent structure [Storage Devices], hbapiwmi/MSFC_LinkEvent, PMSFC_LinkEvent structure pointer [Storage Devices], structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml, _MSFC_LinkEvent, *PMSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, PMSFC_LinkEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 720245ff-8c97-4b8d-8406-f6b712fa74c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortLogSystemEvent, storage.storportlogsystemevent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml, StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices]
+ms.keywords: storage.storportlogsystemevent, StorPortLogSystemEvent routine [Storage Devices], storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml, StorPortLogSystemEvent, storport/StorPortLogSystemEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

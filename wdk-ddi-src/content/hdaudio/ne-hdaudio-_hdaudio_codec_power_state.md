@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4C002B40-AD27-4FE2-B07F-5E9715E6CF1F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/PHDAUDIO_CODEC_POWER_STATE, _HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD2, hdaudio/PowerCodecUnspecified, PowerCodecD3Cold, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], hdaudio/PowerCodecMaximum, audio.hdaudio_codec_power_state, PowerCodecD1, PowerCodecMaximum, HDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3, hdaudio/PowerCodecD3Cold, PowerCodecUnspecified, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, *PHDAUDIO_CODEC_POWER_STATE, PowerCodecD2, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], PowerCodecD3, PowerCodecD0
+ms.keywords: PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3Cold, PowerCodecUnspecified, hdaudio/PowerCodecD1, audio.hdaudio_codec_power_state, PowerCodecD0, hdaudio/PowerCodecMaximum, _HDAUDIO_CODEC_POWER_STATE, PowerCodecD1, PowerCodecD3Cold, HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], hdaudio/PowerCodecD0, PowerCodecD2, PowerCodecMaximum, hdaudio/PowerCodecUnspecified, *PHDAUDIO_CODEC_POWER_STATE, PowerCodecD3, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD3, hdaudio/PowerCodecD2, hdaudio/PHDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_CODEC_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE
+req.typenames: "*PHDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE"
 ---
 
 # _HDAUDIO_CODEC_POWER_STATE enumeration

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], wdm/PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES, wdm/KBUGCHECK_ADD_PAGES, _KBUGCHECK_ADD_PAGES, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, kernel.kbugcheck_add_pages
+ms.keywords: wdm/KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], wdm/PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, _KBUGCHECK_ADD_PAGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,9 +88,9 @@ Contains private context data for the exclusive use of the callback routine. The
 The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag or the KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS flag, but not both. On entry to the callback routine, <b>Flags</b> is initialized to zero.
 
 
-#### KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
+#### KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
 
-Indicates that the callback routine requests that it be called again so that it can add more pages.
+Indicates that the <b>Address</b> member contains a virtual address.
 
 
 #### KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
@@ -98,9 +98,9 @@ Indicates that the callback routine requests that it be called again so that it 
 Indicates that the <b>Address</b> member contains a physical address.
 
 
-#### KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
+#### KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
 
-Indicates that the <b>Address</b> member contains a virtual address.
+Indicates that the callback routine requests that it be called again so that it can add more pages.
 
 
 ### -field BugCheckCode

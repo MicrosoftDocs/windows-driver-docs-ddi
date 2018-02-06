@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetChildrenContexts, image.wiasgetchildrencontexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts function [Imaging Devices], wiamdef/wiasGetChildrenContexts
+ms.keywords: wiamdef/wiasGetChildrenContexts, wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts function [Imaging Devices], image.wiasgetchildrencontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetChildrenContexts
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

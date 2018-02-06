@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E0358D5E-4C5A-408F-9548-98A006939F22
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/READ_REGISTER_BUFFER_UCHAR, wdf.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR, umdf.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR function
+ms.keywords: READ_REGISTER_BUFFER_UCHAR function, wudfddi_hwaccess/READ_REGISTER_BUFFER_UCHAR, umdf.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR, wdf.read_register_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

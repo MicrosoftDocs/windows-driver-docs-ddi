@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e281c67a-df97-464e-9996-b15c18172dc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDataParameters method [Windows Debugging], GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetDataParameters, IDebugBreakpoint2, debugger.getdataparameters, IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, IDebugBreakpoint::GetDataParameters, ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetDataParameters, GetDataParameters, IDebugBreakpoint2::GetDataParameters
+ms.keywords: GetDataParameters, GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], IDebugBreakpoint2, IDebugBreakpoint::GetDataParameters, IDebugBreakpoint2::GetDataParameters, GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, debugger.getdataparameters, dbgeng/IDebugBreakpoint::GetDataParameters, dbgeng/IDebugBreakpoint2::GetDataParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetDataParameters
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::GetDataParameters method

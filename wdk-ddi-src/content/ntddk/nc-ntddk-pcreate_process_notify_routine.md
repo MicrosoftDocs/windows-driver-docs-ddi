@@ -40,7 +40,7 @@ apiname:
 -	SetCreateProcessNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PCREATE_PROCESS_NOTIFY_ROUTINE callback

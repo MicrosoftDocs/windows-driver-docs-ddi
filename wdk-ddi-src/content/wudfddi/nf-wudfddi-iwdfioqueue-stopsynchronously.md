@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ea05cb82-8a50-48d8-a15c-b7ab58c01b30
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: StopSynchronously method, wudfddi/IWDFIoQueue::StopSynchronously, umdf.iwdfioqueue_stopsynchronously, StopSynchronously method, IWDFIoQueue interface, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, IWDFIoQueue interface, StopSynchronously method, StopSynchronously, IWDFIoQueue::StopSynchronously, IWDFIoQueue, wdf.iwdfioqueue_stopsynchronously
+ms.keywords: IWDFIoQueue::StopSynchronously, wudfddi/IWDFIoQueue::StopSynchronously, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, IWDFIoQueue interface, StopSynchronously method, IWDFIoQueue, StopSynchronously, StopSynchronously method, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, StopSynchronously method, IWDFIoQueue interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.StopSynchronously
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -87,9 +87,9 @@ The <b>StopSynchronously</b> method enables the queue to receive new requests, e
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
  
 

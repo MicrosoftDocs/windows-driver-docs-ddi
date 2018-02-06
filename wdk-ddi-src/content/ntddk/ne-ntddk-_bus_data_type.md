@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PNPISAConfiguration, ntddk/VMEConfiguration, ConfigurationSpaceUndefined, ntddk/SgiInternalConfiguration, VMEConfiguration, Cmos, ntddk/ConfigurationSpaceUndefined, MaximumBusDataType, ntddk/PNPISAConfiguration, kernel.bus_data_type, BUS_DATA_TYPE, ntddk/MPIConfiguration, PCIConfiguration, ntddk/BUS_DATA_TYPE, SgiInternalConfiguration, PBUS_DATA_TYPE, ntddk/Cmos, ntddk/PBUS_DATA_TYPE, ntddk/CbusConfiguration, *PBUS_DATA_TYPE, CbusConfiguration, MPIConfiguration, ntddk/MaximumBusDataType, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/MPSAConfiguration, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], EisaConfiguration, ntddk/NuBusConfiguration, PCMCIAConfiguration, _BUS_DATA_TYPE, Pos, ntddk/Pos, NuBusConfiguration, ntddk/EisaConfiguration, ntddk/PCIConfiguration, ntddk/PCMCIAConfiguration, MPSAConfiguration
+ms.keywords: ntddk/Cmos, ntddk/ConfigurationSpaceUndefined, EisaConfiguration, ntddk/PNPISAConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, ntddk/PBUS_DATA_TYPE, ntddk/MaximumBusDataType, BUS_DATA_TYPE, VMEConfiguration, ntddk/Pos, ConfigurationSpaceUndefined, ntddk/MPSAConfiguration, ntddk/EisaConfiguration, PNPISAConfiguration, PCMCIAConfiguration, ntddk/VMEConfiguration, CbusConfiguration, ntddk/PCIConfiguration, MPIConfiguration, ntddk/BUS_DATA_TYPE, SgiInternalConfiguration, PBUS_DATA_TYPE, MPSAConfiguration, NuBusConfiguration, ntddk/NuBusConfiguration, ntddk/CbusConfiguration, kernel.bus_data_type, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/MPIConfiguration, MaximumBusDataType, ntddk/PCMCIAConfiguration, ntddk/SgiInternalConfiguration, *PBUS_DATA_TYPE, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _BUS_DATA_TYPE, Pos, PCIConfiguration, Cmos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	BUS_DATA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: BUS_DATA_TYPE, *PBUS_DATA_TYPE
+req.typenames: "*PBUS_DATA_TYPE, BUS_DATA_TYPE"
 ---
 
 # _BUS_DATA_TYPE enumeration
@@ -154,9 +154,9 @@ Indicates the upper limit of the bus configuration space types.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 

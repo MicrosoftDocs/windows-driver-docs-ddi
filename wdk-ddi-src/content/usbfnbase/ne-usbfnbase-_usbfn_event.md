@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnEventAttach, UsbfnEventAttach, UsbfnEventUnConfigured, *PUSBFN_EVENT, UsbfnEventMinimum, UsbfnEventDetach, usbfnbase/UsbfnEventConfigured, usbfnbase/UsbfnEventMinimum, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventSuspend, UsbfnEventResume, UsbfnEventMaximum, USBFN_EVENT enumeration [Buses], usbfnbase/UsbfnEventUnConfigured, UsbfnEventReset, buses.usbfn_event, USBFN_EVENT, usbfnbase/UsbfnEventMaximum, UsbfnEventConfigured, UsbfnEventBusTearDown, usbfnbase/UsbfnEventSetInterface, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventReset, _USBFN_EVENT, UsbfnEventPortType, UsbfnEventSetupPacket, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventDetach, UsbfnEventSuspend, usbfnbase/UsbfnEventResume, UsbfnEventSetInterface
+ms.keywords: usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventResume, UsbfnEventMinimum, UsbfnEventUnConfigured, usbfnbase/UsbfnEventUnConfigured, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventDetach, UsbfnEventSetInterface, UsbfnEventPortType, UsbfnEventSetupPacket, UsbfnEventBusTearDown, USBFN_EVENT, UsbfnEventReset, usbfnbase/UsbfnEventMinimum, USBFN_EVENT enumeration [Buses], UsbfnEventDetach, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventSetInterface, UsbfnEventSuspend, usbfnbase/UsbfnEventConfigured, UsbfnEventMaximum, *PUSBFN_EVENT, UsbfnEventAttach, UsbfnEventConfigured, buses.usbfn_event, _USBFN_EVENT, usbfnbase/USBFN_EVENT, UsbfnEventResume, usbfnbase/UsbfnEventReset, usbfnbase/UsbfnEventMaximum, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b08767f9-6b2d-4930-bd02-ebc89f2bdb7d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS, netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS
+ms.keywords: ntddrilapitypes/RILSENDDTMFPARAMS, RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenddtmfparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSENDDTMFPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS
+req.typenames: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS"
 ---
 
 # RILSENDDTMFPARAMS structure

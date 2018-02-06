@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a32226bf-4be9-4d0b-8fe9-3ff48a43ca07
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetSystemVersionString, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, GetSystemVersionString method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetSystemVersionString method, GetSystemVersionString, IDebugControl4, dbgeng/IDebugControl4::GetSystemVersionString, debugger.getsystemversionstring, GetSystemVersionString method [Windows Debugging], IDebugControl4 interface
+ms.keywords: debugger.getsystemversionstring, IDebugControl4 interface [Windows Debugging], GetSystemVersionString method, dbgeng/IDebugControl4::GetSystemVersionString, IDebugControl4, IDebugControl4::GetSystemVersionString, GetSystemVersionString method [Windows Debugging], IDebugControl4 interface, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, GetSystemVersionString method [Windows Debugging], GetSystemVersionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetSystemVersionString
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetSystemVersionString method

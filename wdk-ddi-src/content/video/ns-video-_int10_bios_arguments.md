@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66fc9bd4-da47-4cd1-baf2-b536272ea28e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PINT10_BIOS_ARGUMENTS, video/INT10_BIOS_ARGUMENTS, _INT10_BIOS_ARGUMENTS, display.int10_bios_arguments, INT10_BIOS_ARGUMENTS structure [Display Devices], INT10_BIOS_ARGUMENTS, PINT10_BIOS_ARGUMENTS, PINT10_BIOS_ARGUMENTS structure pointer [Display Devices], Video_Structs_986b625a-f1b4-401e-b2db-99463c21e8f9.xml, *PINT10_BIOS_ARGUMENTS
+ms.keywords: PINT10_BIOS_ARGUMENTS structure pointer [Display Devices], PINT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS structure [Display Devices], video/INT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS, display.int10_bios_arguments, video/PINT10_BIOS_ARGUMENTS, Video_Structs_986b625a-f1b4-401e-b2db-99463c21e8f9.xml, _INT10_BIOS_ARGUMENTS, *PINT10_BIOS_ARGUMENTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,9 +123,9 @@ The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to t
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
-
 <a href="..\video\nc-video-pint10_call_bios.md">Int10CallBios</a>
+
+<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
 
  
 

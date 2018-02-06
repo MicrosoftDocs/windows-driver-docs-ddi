@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kesetimportancedpc, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, wdm/KeSetImportanceDpc, KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], kernel.kesetimportancedpc, KeSetImportanceDpc, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, wdm/KeSetImportanceDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,21 @@ Specifies one of the following system-defined values to determine the behavior o
 
 
 
+#### LowImportance
+
+Place the DPC at the end of the DPC queue, and do not begin processing of the queue. 
+
+
+#### MediumImportance
+
+Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
+
+
+#### MediumHighImportance
+
+Place the DPC at the end of the DPC queue, and begin processing the queue immediately. MediumHighImportance is available only on Windows Vista and later versions of Windows.
+
+
 #### HighImportance
 
 Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
@@ -91,14 +106,19 @@ Place the DPC at the beginning of the DPC queue, and begin processing the queue 
 Place the DPC at the end of the DPC queue, and do not begin processing of the queue. 
 
 
+#### MediumImportance
+
+Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
+
+
 #### MediumHighImportance
 
 Place the DPC at the end of the DPC queue, and begin processing the queue immediately. MediumHighImportance is available only on Windows Vista and later versions of Windows.
 
 
-#### MediumImportance
+#### HighImportance
 
-Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
+Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
 
 
 ## -returns
@@ -135,11 +155,11 @@ For more information about how the system processes the DPC queue, see <a href="
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
 
 <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
-
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 

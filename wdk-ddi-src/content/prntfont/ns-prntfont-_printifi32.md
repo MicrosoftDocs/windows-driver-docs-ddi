@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPRINTIFI32, display.printifi32, PRINTIFI32 structure [Display Devices], PRINTIFI32, prntfont/PPRINTIFI32, *PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], prntfont/PRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, _PRINTIFI32
+ms.keywords: prntfont/PRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, PRINTIFI32, _PRINTIFI32, PRINTIFI32 structure [Display Devices], *PPRINTIFI32, PPRINTIFI32, display.printifi32, prntfont/PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRINTIFI32
 product: Windows
 targetos: Windows
-req.typenames: PRINTIFI32, *PPRINTIFI32
+req.typenames: "*PPRINTIFI32, PRINTIFI32"
 req.product: Windows 10 or later.
 ---
 
@@ -545,24 +545,9 @@ Meaning
 
 
 
-#### FM_INFO_16BPP
-
-Indicates that a glyph bitmap has a color depth of 16 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
-
-
 #### FM_INFO_1BPP
 
 Indicates that a glyph bitmap has a color depth of one bit per pixel. For Windows NT 3.1, the first version of Windows NT, this flag must be set.
-
-
-#### FM_INFO_24BPP
-
-Indicates that a glyph bitmap has a color depth of 24 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
-
-
-#### FM_INFO_32BPP
-
-Indicates that a glyph bitmap has a color depth of 32 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
 
 
 #### FM_INFO_4BPP
@@ -573,6 +558,21 @@ Indicates that a glyph bitmap has a color depth of four bits per pixel. The driv
 #### FM_INFO_8BPP
 
 Indicates that a glyph bitmap has a color depth of eight bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
+
+
+#### FM_INFO_16BPP
+
+Indicates that a glyph bitmap has a color depth of 16 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
+
+
+#### FM_INFO_24BPP
+
+Indicates that a glyph bitmap has a color depth of 24 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
+
+
+#### FM_INFO_32BPP
+
+Indicates that a glyph bitmap has a color depth of 32 bits per pixel. The current version of GDI will ignore this setting as it does not support color fonts.
 
 
 #### FM_INFO_90DEGREE_ROTATIONS
@@ -644,6 +644,11 @@ Indicates that the font can be scaled by an integral amount in both the x and y 
 Indicates that the font supports arbitrary isotropic scaling only. That is, transforms are equivalent to the identity matrix multiplied by a positive real number. If this flag is set, then neither the FM_INFO_ARB_XFORMS nor the FM_INFO_ANISOTROPIC_SCALING_ONLY flags can be set. If the FM_INFO_90DEGREE_ROTATIONS flag is set, the font supports transformations equivalent to an isotropic scaling followed by a rotation by a multiple of 90 degrees.
 
 
+#### FM_INFO_OPTICALLY_FIXED_PITCH
+
+Indicates that this font is considered typographically as fixed pitch. This is an optical quality of the font and does not necessarily indicate that all the glyphs of the font have the same character increment.
+
+
 #### FM_INFO_NONNEGATIVE_AC
 
 Indicates that all glyphs of this font have nonnegative <i>a</i> and <i>c</i> spacing. That is, the glyph black box never extends outside the region bordered by the character origin and the character concatenation point.
@@ -652,11 +657,6 @@ Indicates that all glyphs of this font have nonnegative <i>a</i> and <i>c</i> sp
 #### FM_INFO_NOT_CONTIGUOUS
 
 Indicates that the supported character set is not contiguous.
-
-
-#### FM_INFO_OPTICALLY_FIXED_PITCH
-
-Indicates that this font is considered typographically as fixed pitch. This is an optical quality of the font and does not necessarily indicate that all the glyphs of the font have the same character increment.
 
 
 #### FM_INFO_RETURNS_BITMAPS

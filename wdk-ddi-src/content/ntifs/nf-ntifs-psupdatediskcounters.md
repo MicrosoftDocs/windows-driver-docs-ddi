@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PsUpdateDiskCounters, PsUpdateDiskCounters, ifsk.psupdatediskcounters, PsUpdateDiskCounters routine [Installable File System Drivers]
+ms.keywords: PsUpdateDiskCounters routine [Installable File System Drivers], PsUpdateDiskCounters, ifsk.psupdatediskcounters, ntifs/PsUpdateDiskCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: adb2f0cc-f261-41d2-b30f-58286b351e4f
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HIDP_REPORT_TYPE, hid.hidp_report_type, hidpi/HidP_Input, hidpi/HidP_Feature, HidP_Input, HidP_Feature, hidstrct_d25e996c-d904-410c-bacb-a79f17fad916.xml, HidP_Output, _HIDP_REPORT_TYPE, HIDP_REPORT_TYPE, HIDP_REPORT_TYPE enumeration [Human Input Devices], hidpi/HidP_Output
+ms.keywords: HIDP_REPORT_TYPE, hidpi/HIDP_REPORT_TYPE, hidpi/HidP_Feature, hidpi/HidP_Output, HidP_Feature, HidP_Input, hidpi/HidP_Input, hidstrct_d25e996c-d904-410c-bacb-a79f17fad916.xml, HidP_Output, HIDP_REPORT_TYPE enumeration [Human Input Devices], hid.hidp_report_type, _HIDP_REPORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -86,13 +86,13 @@ Indicates a feature report.
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
-
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
  
 

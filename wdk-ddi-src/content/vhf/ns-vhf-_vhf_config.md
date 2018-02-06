@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], vhf/PVHF_CONFIG, PVHF_CONFIG, _VHF_CONFIG, vhf/VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], hid.vhf_config, *PVHF_CONFIG
+ms.keywords: "_VHF_CONFIG, VHF_CONFIG, vhf/PVHF_CONFIG, PVHF_CONFIG, vhf/VHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], hid.vhf_config, *PVHF_CONFIG, VHF_CONFIG structure [Human Input Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VHF_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 

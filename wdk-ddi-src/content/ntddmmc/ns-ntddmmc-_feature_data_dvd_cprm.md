@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 060c1e9a-14d3-4f9b-b898-d8042f5efd7e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_DVD_CPRM structure [Storage Devices], ntddmmc/PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, ntddmmc/FEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml, _FEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices]
+ms.keywords: ntddmmc/PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM structure [Storage Devices], FEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM, _FEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_DVD_CPRM
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM
+req.typenames: "*PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM"
 ---
 
 # _FEATURE_DATA_DVD_CPRM structure

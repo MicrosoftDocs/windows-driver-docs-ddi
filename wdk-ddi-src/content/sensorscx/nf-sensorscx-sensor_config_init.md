@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0A7189A0-1375-4456-B8A5-D92E0AA74A99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.sensor_config_init, SENSOR_CONFIG_INIT, SENSOR_CONFIG_INIT function [Sensor Devices], sensorscx/SENSOR_CONFIG_INIT
+ms.keywords: sensors.sensor_config_init, SENSOR_CONFIG_INIT function [Sensor Devices], sensorscx/SENSOR_CONFIG_INIT, SENSOR_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

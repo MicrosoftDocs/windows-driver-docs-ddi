@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f5ab951-0652-477c-8a0a-71d1b94d08c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceSelectConfig method, wdfusb/WdfUsbTargetDeviceSelectConfig, wdf.wdfusbtargetdeviceselectconfig, DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, PFN_WDFUSBTARGETDEVICESELECTCONFIG, WdfUsbTargetDeviceSelectConfig, kmdf.wdfusbtargetdeviceselectconfig
+ms.keywords: PFN_WDFUSBTARGETDEVICESELECTCONFIG, wdfusb/WdfUsbTargetDeviceSelectConfig, kmdf.wdfusbtargetdeviceselectconfig, WdfUsbTargetDeviceSelectConfig, DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, wdf.wdfusbtargetdeviceselectconfig, WdfUsbTargetDeviceSelectConfig method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -177,19 +177,19 @@ For more information about the <b>WdfUsbTargetDeviceSelectConfig</b> method and 
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_single_interface.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
 
  
 

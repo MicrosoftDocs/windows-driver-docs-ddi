@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9DE2AF2D-D6B5-4FC4-8871-246F3661980F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmmanager/PUCM_CONNECTOR_PD_CONFIG, _UCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses]
+ms.keywords: PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], buses.ucm_connector_pd_config, UCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG, _UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], PUCM_CONNECTOR_PD_CONFIG, ucmmanager/PUCM_CONNECTOR_PD_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCM_CONNECTOR_PD_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PUCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG"
+req.typenames: UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG
 req.product: Windows 10 or later.
 ---
 

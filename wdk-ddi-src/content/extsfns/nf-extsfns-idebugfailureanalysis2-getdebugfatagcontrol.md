@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC69BCF1-B5C2-4A2F-AEF0-1BC4EBD0BE66
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2, GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetDebugFATagControl, GetDebugFATagControl, IDebugFailureAnalysis2 interface [Windows Debugging], GetDebugFATagControl method, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl
+ms.keywords: extsfns/IDebugFailureAnalysis2::GetDebugFATagControl, GetDebugFATagControl, IDebugFailureAnalysis2 interface [Windows Debugging], GetDebugFATagControl method, GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2, IDebugFailureAnalysis2::GetDebugFATagControl, debugger.idebugfailureanalysis2_getdebugfatagcontrol, GetDebugFATagControl method [Windows Debugging], IDebugFailureAnalysis2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,9 +83,9 @@ This method does not return a value.
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
  
 

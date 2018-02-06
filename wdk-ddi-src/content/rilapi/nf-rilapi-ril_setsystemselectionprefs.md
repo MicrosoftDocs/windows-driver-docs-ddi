@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57384690-9fe0-4fee-a578-5451e57cfc6b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetSystemSelectionPrefs, RIL_SetSystemSelectionPrefs, netvista.ril_setsystemselectionprefs, RIL_SetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SetSystemSelectionPrefs, netvista.ril_setsystemselectionprefs, rilapi/RIL_SetSystemSelectionPrefs, RIL_SetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetSystemSelectionPrefs
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

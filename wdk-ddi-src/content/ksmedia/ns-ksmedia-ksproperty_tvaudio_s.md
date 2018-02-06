@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2e26798-322a-4057-8c29-3429711e36a4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, *PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], KSPROPERTY_TVAUDIO_S, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml
+ms.keywords: PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S, ksmedia/PKSPROPERTY_TVAUDIO_S, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml, ksmedia/KSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], *PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_TVAUDIO_S
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
+req.typenames: "*PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S"
 ---
 
 # KSPROPERTY_TVAUDIO_S structure
@@ -136,11 +136,11 @@ Indicates that the audio is in the third language supported by the device.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565944">KSPROPERTY_TVAUDIO_MODE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
 
  
 

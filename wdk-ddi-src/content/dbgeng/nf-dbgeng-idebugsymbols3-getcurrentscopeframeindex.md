@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 735934c5-70c4-4bd5-a5ff-e2d313191b69
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetCurrentScopeFrameIndex, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml, GetCurrentScopeFrameIndex method [Windows Debugging], GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetCurrentScopeFrameIndex method, debugger.getcurrentscopeframeindex, IDebugSymbols3, GetCurrentScopeFrameIndex
+ms.keywords: IDebugSymbols3::GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex method [Windows Debugging], debugger.getcurrentscopeframeindex, IDebugSymbols3 interface [Windows Debugging], GetCurrentScopeFrameIndex method, GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex, IDebugSymbols3, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetCurrentScopeFrameIndex
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetCurrentScopeFrameIndex method
@@ -107,11 +107,11 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563155">.frame (Set Local Context)</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563155">.frame (Set Local Context)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 

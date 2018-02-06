@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57FF3890-6B37-45EB-BB02-22B2ADDFAA90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/ZoneConditionReadOnly, _STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionEmpty, ntddstor/STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, ZoneConditionConventional, ntddstor/ZoneConditionClosed, storage.storage_zone_condition, ZoneConditionEmpty, ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionConventional, ntddstor/ZoneConditionExplicitlyOpened, PSTORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ZoneConditionFull, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/ZoneConditionImplicitlyOpened, ZoneConditionClosed, ntddstor/ZoneConditionOffline, ZoneConditionOffline, ZoneConditionReadOnly, STORAGE_ZONE_CONDITION, ZoneConditionExplicitlyOpened
+ms.keywords: ZoneConditionClosed, ZoneConditionConventional, ntddstor/ZoneConditionReadOnly, ntddstor/ZoneConditionClosed, ntddstor/ZoneConditionFull, STORAGE_ZONE_CONDITION, ZoneConditionImplicitlyOpened, ZoneConditionFull, ZoneConditionReadOnly, ntddstor/ZoneConditionOffline, _STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/ZoneConditionConventional, ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionImplicitlyOpened, *PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/ZoneConditionExplicitlyOpened, ntddstor/STORAGE_ZONE_CONDITION, ZoneConditionOffline, storage.storage_zone_condition, ZoneConditionEmpty, PSTORAGE_ZONE_CONDITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_ZONE_CONDITION
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ---
 
 # _STORAGE_ZONE_CONDITION enumeration

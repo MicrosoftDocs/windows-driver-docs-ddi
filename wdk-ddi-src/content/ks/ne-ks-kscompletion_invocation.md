@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCOMPLETION_INVOCATION, stream.kscompletion_invocation, ks/KSCOMPLETION_INVOCATION, KsInvokeOnError, ks/KsInvokeOnError, KsInvokeOnCancel, ks/KsInvokeOnCancel, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnSuccess, ks/KsInvokeOnSuccess
+ms.keywords: KsInvokeOnSuccess, stream.kscompletion_invocation, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, KsInvokeOnCancel, ks/KSCOMPLETION_INVOCATION, KsInvokeOnError, ks/KsInvokeOnCancel, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KSCOMPLETION_INVOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

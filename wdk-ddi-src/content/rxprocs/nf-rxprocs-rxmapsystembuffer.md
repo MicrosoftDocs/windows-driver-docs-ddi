@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dc549e51-2f25-45b5-925f-3481294e0b35
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxMapSystemBuffer function [Installable File System Drivers], ifsk.rxmapsystembuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml, RxMapSystemBuffer, rxprocs/RxMapSystemBuffer
+ms.keywords: RxMapSystemBuffer, RxMapSystemBuffer function [Installable File System Drivers], rxprocs/RxMapSystemBuffer, ifsk.rxmapsystembuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxMapSystemBuffer
 product: Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -97,15 +97,15 @@ On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 <a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
 
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
 
  
 

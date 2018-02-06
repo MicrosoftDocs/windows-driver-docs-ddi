@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e298f51b-58b7-4f04-85d3-3ee809deb489
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices], storage.ataportallocatequeuetag, atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml, irb/AtaPortAllocateQueueTag
+ms.keywords: storage.ataportallocatequeuetag, irb/AtaPortAllocateQueueTag, atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml, AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

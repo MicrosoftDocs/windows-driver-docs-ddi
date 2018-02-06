@@ -40,7 +40,7 @@ apiname:
 -	PFN_UCM_CONNECTOR_SET_POWER_ROLE
 product: Windows
 targetos: Windows
-req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 

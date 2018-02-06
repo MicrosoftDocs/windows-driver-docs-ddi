@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, umdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore, SetPropertyData method, wdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore interface, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore interface, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
+ms.keywords: IWDFUnifiedPropertyStore::SetPropertyData, wdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore interface, SetPropertyData method, SetPropertyData method, IWDFUnifiedPropertyStore, umdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData method, IWDFUnifiedPropertyStore interface, SetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUnifiedPropertyStore.SetPropertyData
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -173,17 +173,17 @@ For more information about accessing the registry, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
  
 

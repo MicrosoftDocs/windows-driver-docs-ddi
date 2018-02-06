@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml, netvista.fwpsnetbufferlistremovecontext0, FwpsNetBufferListRemoveContext0, fwpsk/FwpsNetBufferListRemoveContext0
+ms.keywords: FwpsNetBufferListRemoveContext0, wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml, fwpsk/FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], netvista.fwpsnetbufferlistremovecontext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,18 +146,18 @@ Usually a callout driver will not need to use this function, because the tagged 
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
-   FwpsNetBufferListGetTagForContext0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">
-   FwpsNetBufferListAssociateContext0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
    FwpsNetBufferListRetrieveContext0</a>
 
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+   FwpsNetBufferListGetTagForContext0</a>
+
 <a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">
+   FwpsNetBufferListAssociateContext0</a>
 
  
 

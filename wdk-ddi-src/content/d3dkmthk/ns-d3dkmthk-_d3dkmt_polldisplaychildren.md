@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, _D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN
+ms.keywords: OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, display.d3dkmt_polldisplaychildren, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN, _D3DKMT_POLLDISPLAYCHILDREN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

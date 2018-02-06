@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e34e505c-74b1-45e4-9d9f-ba7cae111156
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PMSFC_TargetEvent, structs-Fibre_3f8b9bd0-29b2-43f3-85ae-47324d168956.xml, PMSFC_TargetEvent structure pointer [Storage Devices], storage.msfc_targetevent, _MSFC_TargetEvent, MSFC_TargetEvent structure [Storage Devices], PMSFC_TargetEvent, MSFC_TargetEvent, hbapiwmi/MSFC_TargetEvent, *PMSFC_TargetEvent
+ms.keywords: hbapiwmi/MSFC_TargetEvent, hbapiwmi/PMSFC_TargetEvent, *PMSFC_TargetEvent, storage.msfc_targetevent, PMSFC_TargetEvent structure pointer [Storage Devices], PMSFC_TargetEvent, MSFC_TargetEvent structure [Storage Devices], _MSFC_TargetEvent, MSFC_TargetEvent, structs-Fibre_3f8b9bd0-29b2-43f3-85ae-47324d168956.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_TargetEvent
 product: Windows
 targetos: Windows
-req.typenames: MSFC_TargetEvent, *PMSFC_TargetEvent
+req.typenames: "*PMSFC_TargetEvent, MSFC_TargetEvent"
 ---
 
 # _MSFC_TargetEvent structure

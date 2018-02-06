@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cad4ee84-333a-49ff-a087-da0e36b87989
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setexpressionsyntaxbynamewide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetExpressionSyntaxByNameWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method
+ms.keywords: IDebugControl4, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method, debugger.setexpressionsyntaxbynamewide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetExpressionSyntaxByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.SetExpressionSyntaxByNameWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::SetExpressionSyntaxByNameWide method
@@ -121,9 +121,9 @@ After the expression syntax has been changed, the engine sends out notification 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 

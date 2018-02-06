@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyNEx, ntstrsafe/RtlStringCbCopyNExW, RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExA, STRSAFE_IGNORE_NULLS, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyNExW, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, kernel.rtlstringcbcopynex
+ms.keywords: STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml, STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyNEx, STRSAFE_IGNORE_NULLS, ntstrsafe/RtlStringCbCopyNExA, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCopyNExW, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNExA, RtlStringCbCopyNExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCopyNExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCbCopyNExW function
@@ -290,9 +290,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
 
  
 

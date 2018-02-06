@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION enumeration, kmdf.wdf_io_target_purge_io_action, _WDF_IO_TARGET_PURGE_IO_ACTION, WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action, wdfiotarget/WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIo, WDF_IO_TARGET_PURGE_IO_ACTION
+ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, WdfIoTargetPurgeIoUndefined, wdf.wdf_io_target_purge_io_action, WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoUndefined, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: print\setresult_info.htm
 old-project: print
 ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SETRESULT_INFO structure [Print Devices], PSETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, SETRESULT_INFO, *PSETRESULT_INFO, _SETRESULT_INFO, compstui/PSETRESULT_INFO, compstui/SETRESULT_INFO, print.setresult_info, PSETRESULT_INFO structure pointer [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: SETRESULT_INFO, compstui/SETRESULT_INFO, print.setresult_info, _SETRESULT_INFO, PSETRESULT_INFO, SETRESULT_INFO structure [Print Devices], PSETRESULT_INFO structure pointer [Print Devices], cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, compstui/PSETRESULT_INFO, *PSETRESULT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SETRESULT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # _SETRESULT_INFO structure

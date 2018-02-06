@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72D0BEC2-F5D5-4045-AD63-F263993817B0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAcceptedMax, *PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceNotAccepted, pepfx/PepDeviceAccepted, PepDeviceAcceptedReserved, kernel.pep_device_acceptance_type, PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedReserved, pepfx/PepDeviceNotAccepted, PepDeviceAccepted, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], _PEP_DEVICE_ACCEPTANCE_TYPE
+ms.keywords: PepDeviceAccepted, kernel.pep_device_acceptance_type, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepDeviceNotAccepted, pepfx/PepDeviceAcceptedMax, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAcceptedMax, PepDeviceAcceptedReserved, pepfx/PepDeviceAcceptedReserved, pepfx/PepDeviceAccepted, _PEP_DEVICE_ACCEPTANCE_TYPE, *PPEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceNotAccepted, PEP_DEVICE_ACCEPTANCE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -85,14 +85,14 @@ The PEP claims ownership of this device.
 
 
 
-#### - PepDeviceAcceptedMax
-
-Reserved for use by operating system.
-
-
 #### - PepDeviceAcceptedReserved
 
 The PEP claims ownership of the device on behalf of the default PEP. The default PEP is implemented by the Windows kernel to manage devices for which hardware-specific PEPs are not available.
+
+
+#### - PepDeviceAcceptedMax
+
+Reserved for use by operating system.
 
 
 ## -remarks

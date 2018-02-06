@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeSetCoalescableTimer, KeSetCoalescableTimer, kernel.kesetcoalescabletimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml
+ms.keywords: k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, KeSetCoalescableTimer, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -157,29 +157,29 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
-
-<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
+<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+
+<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
 
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
  
 

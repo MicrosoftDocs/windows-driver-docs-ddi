@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 90f412de-073f-4889-adf3-898cde0206b7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortWaveRTStream::MapAllocatedPages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, audio.iportwavertstream_mapallocatedpages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, MapAllocatedPages, portcls/IPortWaveRTStream::MapAllocatedPages, IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, MapAllocatedPages method [Audio Devices], IPortWaveRTStream
+ms.keywords: IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, audio.iportwavertstream_mapallocatedpages, IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, MapAllocatedPages method [Audio Devices], portcls/IPortWaveRTStream::MapAllocatedPages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, MapAllocatedPages, IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,17 +102,17 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
  
 

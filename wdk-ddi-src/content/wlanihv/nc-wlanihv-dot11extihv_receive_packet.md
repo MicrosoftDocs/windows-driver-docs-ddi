@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvReceivePacket
 product: Windows
 targetos: Windows
-req.typenames: "*PDRIVER_INFO_8W, DRIVER_INFO_8W, *LPDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 

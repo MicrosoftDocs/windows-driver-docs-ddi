@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_downloadcharglyph.htm
 old-project: print
 ms.assetid: 1ce7ebaa-759e-418a-af07-e530b1102567
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DownloadCharGlyph, IPrintOemUni, print.iprintoemuni_downloadcharglyph, IPrintOemUni interface [Print Devices], DownloadCharGlyph method, DownloadCharGlyph method [Print Devices], print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml, DownloadCharGlyph method [Print Devices], IPrintOemUni interface, IPrintOemUni::DownloadCharGlyph, prcomoem/IPrintOemUni::DownloadCharGlyph
+ms.date: 2/2/2018
+ms.keywords: IPrintOemUni::DownloadCharGlyph, DownloadCharGlyph method [Print Devices], print.iprintoemuni_downloadcharglyph, DownloadCharGlyph, IPrintOemUni, DownloadCharGlyph method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::DownloadCharGlyph, print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml, IPrintOemUni interface [Print Devices], DownloadCharGlyph method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.DownloadCharGlyph
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

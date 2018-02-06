@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: de6efd10-7f97-422a-abd4-c21c4cbc1dd7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryMediums method [Streaming Media Devices], IKsPin interface, stream.ikspin_ksquerymediums, IKsPin interface [Streaming Media Devices], KsQueryMediums method, KsQueryMediums, KsQueryMediums method [Streaming Media Devices], ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, IKsPin::KsQueryMediums, ksproxy/IKsPin::KsQueryMediums, IKsPin
+ms.keywords: stream.ikspin_ksquerymediums, KsQueryMediums, ksproxy/IKsPin::KsQueryMediums, ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, IKsPin interface [Streaming Media Devices], KsQueryMediums method, IKsPin::KsQueryMediums, IKsPin, KsQueryMediums method [Streaming Media Devices], IKsPin interface, KsQueryMediums method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

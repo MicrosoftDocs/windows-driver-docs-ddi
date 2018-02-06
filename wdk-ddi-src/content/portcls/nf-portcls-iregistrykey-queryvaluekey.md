@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6339a8bf-ab32-48bc-aae6-2cce2a6a648d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QueryValueKey method [Audio Devices], IRegistryKey interface [Audio Devices], QueryValueKey method, audio.iregistrykey_queryvaluekey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey method [Audio Devices], IRegistryKey interface, IRegistryKey, IRegistryKey::QueryValueKey, portcls/IRegistryKey::QueryValueKey, QueryValueKey
+ms.keywords: audio.iregistrykey_queryvaluekey, QueryValueKey, portcls/IRegistryKey::QueryValueKey, IRegistryKey interface [Audio Devices], QueryValueKey method, IRegistryKey::QueryValueKey, IRegistryKey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey method [Audio Devices], IRegistryKey interface, QueryValueKey method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -153,17 +153,17 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
-
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
  
 

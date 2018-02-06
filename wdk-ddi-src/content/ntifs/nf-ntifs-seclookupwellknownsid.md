@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SecLookupWellKnownSid function [Installable File System Drivers], SecLookupWellKnownSid, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid, ifsk.seclookupwellknownsid
+ms.keywords: ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid, ifsk.seclookupwellknownsid, SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,184 +78,24 @@ An enumerated type that indicates the type of security identifier (SID) the func
 
 
 
-#### WinAccountAdministratorSid
+#### WinNullSid
 
-This value indicates a SID that matches the account administrators group.
+This value indicates a null SID. 
 
 
-#### WinAccountCertAdminsSid
+#### WinWorldSid
 
-This value indicates a SID that matches the certificate administrators group. 
+This value indicates a SID that matches everyone.
 
 
-#### WinAccountComputersSid
+#### WinLocalSid
 
-This value indicates a SID that matches the account computer group.
+This value indicates a local SID.
 
 
-#### WinAccountControllersSid
+#### WinCreatorOwnerSid
 
-This value indicates a SID that matches the account controller group.
-
-
-#### WinAccountDomainAdminsSid
-
-This value indicates a SID that matches the account domain administrator group.
-
-
-#### WinAccountDomainGuestsSid
-
-This value indicates a SID that matches the account domain guests group.
-
-
-#### WinAccountDomainUsersSid
-
-This value indicates a SID that matches the account domain users group.
-
-
-#### WinAccountEnterpriseAdminsSid
-
-This value indicates a SID that matches the enterprise administrators group.
-
-
-#### WinAccountGuestSid
-
-This value indicates a SID that matches the account guest group.
-
-
-#### WinAccountKrbtgtSid
-
-This value indicates a SID that matches account Kerberos target group.
-
-
-#### WinAccountPolicyAdminsSid
-
-This value indicates a SID that matches the policy administrators group.
-
-
-#### WinAccountRasAndIasServersSid
-
-This value indicates a SID that matches the RAS and IAS server account.
-
-
-#### WinAccountSchemaAdminsSid
-
-This value indicates a SID that matches the schema administrators group.
-
-
-#### WinAnonymousSid
-
-This value indicates a SID for the anonymous account. 
-
-
-#### WinAuthenticatedUserSid
-
-This value indicates a SID that matches any authenticated user.
-
-
-#### WinBatchSid
-
-This value indicates a SID for a batch process. This SID is added to the process of a token when it logs on as a batch job. The corresponding logon type is LOGON32_LOGON_BATCH. 
-
-
-#### WinBuiltinAccountOperatorsSid
-
-This value indicates a SID that matches the account operators account.
-
-
-#### WinBuiltinAdministratorsSid
-
-This value indicates a SID that matches the administrator account.
-
-
-#### WinBuiltinAuthorizationAccessSid
-
-This value indicates a SID that matches the Windows Authorization Access group.
-
-
-#### WinBuiltinBackupOperatorsSid
-
-This value indicates a SID that matches the backup operators group.
-
-
-#### WinBuiltinDCOMUsersSid
-
-This value indicates a SID that matches the DCOM users group.
-
-
-#### WinBuiltinDomainSid
-
-This value indicates a SID that matches the domain account.
-
-
-#### WinBuiltinGuestsSid
-
-This value indicates a SID that matches the guest account.
-
-
-#### WinBuiltinIncomingForestTrustBuildersSid
-
-This value indicates a SID that allows a user to create incoming forest trusts. It is added to the token of users who are a member of the Incoming Forest Trust Builders built-in group in the root domain of the forest.
-
-
-#### WinBuiltinNetworkConfigurationOperatorsSid
-
-This value indicates a SID that matches the network operators group.
-
-
-#### WinBuiltinPerfLoggingUsersSid
-
-This value indicates a SID that matches the performance log user group.
-
-
-#### WinBuiltinPerfMonitoringUsersSid
-
-This value indicates a SID that matches the performance monitor user group.
-
-
-#### WinBuiltinPowerUsersSid
-
-This value indicates a SID that matches the power users group.
-
-
-#### WinBuiltinPreWindows2000CompatibleAccessSid
-
-This value indicates a SID that matches pre-Windows 2000 compatible accounts.
-
-
-#### WinBuiltinPrintOperatorsSid
-
-This value indicates a SID that matches the print operators group.
-
-
-#### WinBuiltinRemoteDesktopUsersSid
-
-This value indicates a SID that matches remote desktop users.
-
-
-#### WinBuiltinReplicatorSid
-
-This value indicates a SID that matches the replicator account.
-
-
-#### WinBuiltinSystemOperatorsSid
-
-This value indicates a SID that matches the system operators group.
-
-
-#### WinBuiltinTerminalServerLicenseServersSid
-
-This value indicates a SID is present in a server that can issue Terminal Server licenses.
-
-
-#### WinBuiltinUsersSid
-
-This value indicates a SID that matches built-in user accounts. 
-
-
-#### WinCreatorGroupServerSid
-
-This value indicates a creator group server SID.
+This value indicates a SID that matches the owner or creator of an object. This SID is used in inheritable access-control entries.
 
 
 #### WinCreatorGroupSid
@@ -268,64 +108,9 @@ This value indicates a SID that matches the creator group of an object. This SID
 This value indicates a creator owner server SID. 
 
 
-#### WinCreatorOwnerSid
+#### WinCreatorGroupServerSid
 
-This value indicates a SID that matches the owner or creator of an object. This SID is used in inheritable access-control entries.
-
-
-#### WinDialupSid
-
-This value indicates a SID for a dial-up account.
-
-
-#### WinDigestAuthenticationSid
-
-This value indicates a SID present when the Microsoft Digest authentication package authenticated the client.
-
-
-#### WinEnterpriseControllersSid
-
-This value indicates a SID for an enterprise controller.
-
-
-#### WinInteractiveSid
-
-This value indicates a SID for an interactive account. This SID is added to the process of a token when it logs on interactively. The corresponding logon type is LOGON32_LOGON_INTERACTIVE. 
-
-
-#### WinLocalServiceSid
-
-This value indicates a SID that matches a local service.
-
-
-#### WinLocalSid
-
-This value indicates a local SID.
-
-
-#### WinLocalSystemSid
-
-This value indicates a SID that matches the local system.
-
-
-#### WinLogonIdsSid
-
-This value indicates a SID that matches logon IDs.
-
-
-#### WinNTLMAuthenticationSid
-
-This value indicates a SID present when the Microsoft NTLM authentication package authenticated the client.
-
-
-#### WinNetworkServiceSid
-
-This value indicates a SID that matches a network service.
-
-
-#### WinNetworkSid
-
-This value indicates a SID for a network account. This SID is added to the process of a token when it logs on across a network. The corresponding logon type is LOGON32_LOGON_NETWORK. 
+This value indicates a creator group server SID.
 
 
 #### WinNtAuthoritySid
@@ -333,39 +118,24 @@ This value indicates a SID for a network account. This SID is added to the proce
 This value indicates a SID for the Windows NT authority.
 
 
-#### WinNullSid
+#### WinDialupSid
 
-This value indicates a null SID. 
-
-
-#### WinOtherOrganizationSid
-
-This value indicates a SID present when the user authenticated across a forest with the selective authentication option enabled. If this SID is present, then WinThisOrganizationSid cannot be present.
+This value indicates a SID for a dial-up account.
 
 
-#### WinProxySid
+#### WinNetworkSid
 
-This value indicates a proxy SID. 
-
-
-#### WinRemoteLogonIdSid
-
-This value indicates a SID that matches remote logons.
+This value indicates a SID for a network account. This SID is added to the process of a token when it logs on across a network. The corresponding logon type is LOGON32_LOGON_NETWORK. 
 
 
-#### WinRestrictedCodeSid
+#### WinBatchSid
 
-This value indicates a SID for restricted code.
-
-
-#### WinSChannelAuthenticationSid
-
-This value indicates a SID present when the Secure Channel (SSL/TLS) authentication package authenticated the client.
+This value indicates a SID for a batch process. This SID is added to the process of a token when it logs on as a batch job. The corresponding logon type is LOGON32_LOGON_BATCH. 
 
 
-#### WinSelfSid
+#### WinInteractiveSid
 
-This value indicates a SID for self.
+This value indicates a SID for an interactive account. This SID is added to the process of a token when it logs on interactively. The corresponding logon type is LOGON32_LOGON_INTERACTIVE. 
 
 
 #### WinServiceSid
@@ -373,9 +143,209 @@ This value indicates a SID for self.
 This value indicates a SID for a service. This SID is added to the process of a token when it logs on as a service. The corresponding logon type is LOGON32_LOGON_SERVICE. 
 
 
+#### WinAnonymousSid
+
+This value indicates a SID for the anonymous account. 
+
+
+#### WinProxySid
+
+This value indicates a proxy SID. 
+
+
+#### WinEnterpriseControllersSid
+
+This value indicates a SID for an enterprise controller.
+
+
+#### WinSelfSid
+
+This value indicates a SID for self.
+
+
+#### WinAuthenticatedUserSid
+
+This value indicates a SID that matches any authenticated user.
+
+
+#### WinRestrictedCodeSid
+
+This value indicates a SID for restricted code.
+
+
 #### WinTerminalServerSid
 
 This value indicates a SID that matches a terminal server account.
+
+
+#### WinRemoteLogonIdSid
+
+This value indicates a SID that matches remote logons.
+
+
+#### WinLogonIdsSid
+
+This value indicates a SID that matches logon IDs.
+
+
+#### WinLocalSystemSid
+
+This value indicates a SID that matches the local system.
+
+
+#### WinLocalServiceSid
+
+This value indicates a SID that matches a local service.
+
+
+#### WinNetworkServiceSid
+
+This value indicates a SID that matches a network service.
+
+
+#### WinBuiltinDomainSid
+
+This value indicates a SID that matches the domain account.
+
+
+#### WinBuiltinAdministratorsSid
+
+This value indicates a SID that matches the administrator account.
+
+
+#### WinBuiltinUsersSid
+
+This value indicates a SID that matches built-in user accounts. 
+
+
+#### WinBuiltinGuestsSid
+
+This value indicates a SID that matches the guest account.
+
+
+#### WinBuiltinPowerUsersSid
+
+This value indicates a SID that matches the power users group.
+
+
+#### WinBuiltinAccountOperatorsSid
+
+This value indicates a SID that matches the account operators account.
+
+
+#### WinBuiltinSystemOperatorsSid
+
+This value indicates a SID that matches the system operators group.
+
+
+#### WinBuiltinPrintOperatorsSid
+
+This value indicates a SID that matches the print operators group.
+
+
+#### WinBuiltinBackupOperatorsSid
+
+This value indicates a SID that matches the backup operators group.
+
+
+#### WinBuiltinReplicatorSid
+
+This value indicates a SID that matches the replicator account.
+
+
+#### WinBuiltinPreWindows2000CompatibleAccessSid
+
+This value indicates a SID that matches pre-Windows 2000 compatible accounts.
+
+
+#### WinBuiltinRemoteDesktopUsersSid
+
+This value indicates a SID that matches remote desktop users.
+
+
+#### WinBuiltinNetworkConfigurationOperatorsSid
+
+This value indicates a SID that matches the network operators group.
+
+
+#### WinAccountAdministratorSid
+
+This value indicates a SID that matches the account administrators group.
+
+
+#### WinAccountGuestSid
+
+This value indicates a SID that matches the account guest group.
+
+
+#### WinAccountKrbtgtSid
+
+This value indicates a SID that matches account Kerberos target group.
+
+
+#### WinAccountDomainAdminsSid
+
+This value indicates a SID that matches the account domain administrator group.
+
+
+#### WinAccountDomainUsersSid
+
+This value indicates a SID that matches the account domain users group.
+
+
+#### WinAccountDomainGuestsSid
+
+This value indicates a SID that matches the account domain guests group.
+
+
+#### WinAccountComputersSid
+
+This value indicates a SID that matches the account computer group.
+
+
+#### WinAccountControllersSid
+
+This value indicates a SID that matches the account controller group.
+
+
+#### WinAccountCertAdminsSid
+
+This value indicates a SID that matches the certificate administrators group. 
+
+
+#### WinAccountSchemaAdminsSid
+
+This value indicates a SID that matches the schema administrators group.
+
+
+#### WinAccountEnterpriseAdminsSid
+
+This value indicates a SID that matches the enterprise administrators group.
+
+
+#### WinAccountPolicyAdminsSid
+
+This value indicates a SID that matches the policy administrators group.
+
+
+#### WinAccountRasAndIasServersSid
+
+This value indicates a SID that matches the RAS and IAS server account.
+
+
+#### WinNTLMAuthenticationSid
+
+This value indicates a SID present when the Microsoft NTLM authentication package authenticated the client.
+
+
+#### WinDigestAuthenticationSid
+
+This value indicates a SID present when the Microsoft Digest authentication package authenticated the client.
+
+
+#### WinSChannelAuthenticationSid
+
+This value indicates a SID present when the Secure Channel (SSL/TLS) authentication package authenticated the client.
 
 
 #### WinThisOrganizationSid
@@ -383,9 +353,39 @@ This value indicates a SID that matches a terminal server account.
 This value indicates a SID present when the user authenticated from within the forest or across a trust that does not have the selective authentication option enabled. If this SID is present, then WinOtherOrganizationSid cannot be present.
 
 
-#### WinWorldSid
+#### WinOtherOrganizationSid
 
-This value indicates a SID that matches everyone.
+This value indicates a SID present when the user authenticated across a forest with the selective authentication option enabled. If this SID is present, then WinThisOrganizationSid cannot be present.
+
+
+#### WinBuiltinIncomingForestTrustBuildersSid
+
+This value indicates a SID that allows a user to create incoming forest trusts. It is added to the token of users who are a member of the Incoming Forest Trust Builders built-in group in the root domain of the forest.
+
+
+#### WinBuiltinPerfMonitoringUsersSid
+
+This value indicates a SID that matches the performance monitor user group.
+
+
+#### WinBuiltinPerfLoggingUsersSid
+
+This value indicates a SID that matches the performance log user group.
+
+
+#### WinBuiltinAuthorizationAccessSid
+
+This value indicates a SID that matches the Windows Authorization Access group.
+
+
+#### WinBuiltinTerminalServerLicenseServersSid
+
+This value indicates a SID is present in a server that can issue Terminal Server licenses.
+
+
+#### WinBuiltinDCOMUsersSid
+
+This value indicates a SID that matches the DCOM users group.
 
 
 ### -param Sid [out]
@@ -496,9 +496,9 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 <a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
 
  
 

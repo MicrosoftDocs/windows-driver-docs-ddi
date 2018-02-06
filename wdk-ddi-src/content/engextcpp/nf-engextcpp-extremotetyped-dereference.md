@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 27a90926-95f4-43cd-b8d1-1b60ad23d737
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], Dereference method, Dereference method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, Dereference, debugger.extremotetyped_dereference, Dereference method [Windows Debugging], EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml, ExtRemoteTyped::Dereference
+ms.keywords: debugger.extremotetyped_dereference, ExtRemoteTyped, Dereference method [Windows Debugging], Dereference method [Windows Debugging], ExtRemoteTyped interface, Dereference, EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml, ExtRemoteTyped interface [Windows Debugging], Dereference method, ExtRemoteTyped::Dereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

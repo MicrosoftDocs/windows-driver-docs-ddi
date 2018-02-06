@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8749345c-a1a6-43f6-8cb7-f69a6734839f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILRESETMODEMCONFIGVALUE, rilapitypes/RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], RILRESETMODEMCONFIGVALUE, netvista.rilresetmodemconfigvalue_2"
+ms.keywords: netvista.rilresetmodemconfigvalue_2, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], RILRESETMODEMCONFIGVALUE, rilapitypes/RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRESETMODEMCONFIGVALUE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE"
+req.typenames: RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE
 req.product: Windows 10 or later.
 ---
 
@@ -113,23 +113,7 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 
 
 
-#### - RIL_RMCV_TYPE_BOOLEAN
-
-
-
-#### - RIL_RMCV_TYPE_DWORD
-
-
-
-#### - RIL_RMCV_TYPE_STRING
-
-
-
-#### - case
-
-
-
-#### - dwValue
+#### - switch_is
 
 
 
@@ -137,10 +121,26 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 
 
 
-#### - switch_is
+#### - case
+
+
+
+#### - RIL_RMCV_TYPE_BOOLEAN
+
+
+
+#### - dwValue
+
+
+
+#### - RIL_RMCV_TYPE_DWORD
 
 
 
 #### - wszValue
+
+
+
+#### - RIL_RMCV_TYPE_STRING
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1967f663-86ce-4e9d-9498-61951bdf4db0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndiscmnotifycloseaddressfamily, ndis/NdisCmNotifyCloseAddressFamily, condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, NdisCmNotifyCloseAddressFamily
+ms.keywords: NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndiscmnotifycloseaddressfamily, condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, ndis/NdisCmNotifyCloseAddressFamily, NdisCmNotifyCloseAddressFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,15 +154,15 @@ If
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
+<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+   ProtocolCmNotifyCloseAfComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
 
 <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
    NdisMCmNotifyCloseAddressFamily</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
-   ProtocolCmNotifyCloseAfComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 52172edc-77a9-46b9-8382-c57c65b80b93
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_PREEMPTION_CAPS, _D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], display.d3dkmdt_preemption_caps, d3dkmdt/D3DKMDT_PREEMPTION_CAPS
+ms.keywords: D3DKMDT_PREEMPTION_CAPS structure [Display Devices], display.d3dkmdt_preemption_caps, _D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

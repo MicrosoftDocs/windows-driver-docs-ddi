@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c7debd93-0fcd-43c5-a950-8154b62175bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_PERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, PERSISTENT_RESERVE_COMMAND structure [Storage Devices], PPERSISTENT_RESERVE_COMMAND, *PPERSISTENT_RESERVE_COMMAND, ntddstor/PERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml, ntddstor/PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND"
+ms.keywords: PERSISTENT_RESERVE_COMMAND, ntddstor/PPERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND, structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml, _PERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, ntddstor/PERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], *PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PERSISTENT_RESERVE_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND"
+req.typenames: PERSISTENT_RESERVE_COMMAND, *PPERSISTENT_RESERVE_COMMAND
 ---
 
 # _PERSISTENT_RESERVE_COMMAND structure

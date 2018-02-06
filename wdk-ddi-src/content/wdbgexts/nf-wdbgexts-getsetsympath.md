@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c7392c2-49c8-4b27-addc-0200eabbe87e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, GetSetSympath function [Windows Debugging], GetSetSympath, wdbgexts/GetSetSympath, debugger.getsetsympath
+ms.keywords: GetSetSympath, WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, GetSetSympath function [Windows Debugging], debugger.getsetsympath, wdbgexts/GetSetSympath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

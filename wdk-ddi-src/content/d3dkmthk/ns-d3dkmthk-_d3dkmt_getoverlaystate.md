@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe3443e7-0dc9-4c91-88ab-b05bac19516d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE structure [Display Devices], _D3DKMT_GETOVERLAYSTATE, OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, display.d3dkmt_getoverlaystate, D3DKMT_GETOVERLAYSTATE
+ms.keywords: D3DKMT_GETOVERLAYSTATE, display.d3dkmt_getoverlaystate, D3DKMT_GETOVERLAYSTATE structure [Display Devices], d3dkmthk/D3DKMT_GETOVERLAYSTATE, OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, _D3DKMT_GETOVERLAYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: print\drvquerycolorprofile.htm
 old-project: print
 ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winddiui/DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile, DrvQueryColorProfile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml
+ms.date: 2/2/2018
+ms.keywords: winddiui/DrvQueryColorProfile, DrvQueryColorProfile, print.drvquerycolorprofile, DrvQueryColorProfile function [Print Devices], print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvQueryColorProfile
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

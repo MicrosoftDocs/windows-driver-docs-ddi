@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43294943-cc73-45d4-8e0b-e7d29420bb7e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRetrieveUnspecified, wdfchildlist/WdfRetrieveUnspecified, wdfchildlist/WdfRetrievePendingChildren, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, WdfRetrievePendingChildren, WdfRetrieveAllChildren, wdfchildlist/WdfRetrieveAddedChildren, kmdf.wdf_retrieve_child_flags, WDF_RETRIEVE_CHILD_FLAGS enumeration, wdfchildlist/WdfRetrieveAllChildren, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, WdfRetrieveAddedChildren, WdfRetrievePresentChildren, wdfchildlist/WdfRetrieveMissingChildren, _WDF_RETRIEVE_CHILD_FLAGS, wdf.wdf_retrieve_child_flags, WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrievePresentChildren, WdfRetrieveMissingChildren
+ms.keywords: wdfchildlist/WdfRetrievePresentChildren, WdfRetrieveAddedChildren, WdfRetrieveUnspecified, wdfchildlist/WdfRetrieveAddedChildren, WdfRetrieveAllChildren, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, WdfRetrievePendingChildren, WdfRetrieveMissingChildren, _WDF_RETRIEVE_CHILD_FLAGS, WDF_RETRIEVE_CHILD_FLAGS enumeration, kmdf.wdf_retrieve_child_flags, wdfchildlist/WdfRetrieveAllChildren, WdfRetrievePresentChildren, wdf.wdf_retrieve_child_flags, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, wdfchildlist/WdfRetrievePendingChildren, wdfchildlist/WdfRetrieveMissingChildren, wdfchildlist/WdfRetrieveUnspecified, WDF_RETRIEVE_CHILD_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -114,13 +114,13 @@ Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiterati
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
-
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
-
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
 
  
 

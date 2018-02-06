@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetcopyrelationships, KsPinGetCopyRelationships, ks/KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices], avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml
+ms.keywords: stream.kspingetcopyrelationships, avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, KsPinGetCopyRelationships, ks/KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,9 +110,9 @@ For more information, see <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
-
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
 
  
 

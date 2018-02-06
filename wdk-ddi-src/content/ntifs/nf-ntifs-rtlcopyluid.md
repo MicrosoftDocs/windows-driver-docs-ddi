@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ebda25f4-77d6-4178-9ff8-b1f0e95df9f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCopyLuid routine [Installable File System Drivers], RtlCopyLuid, ifsk.rtlcopyluid, ntifs/RtlCopyLuid, rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml
+ms.keywords: RtlCopyLuid, RtlCopyLuid routine [Installable File System Drivers], rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml, ntifs/RtlCopyLuid, ifsk.rtlcopyluid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

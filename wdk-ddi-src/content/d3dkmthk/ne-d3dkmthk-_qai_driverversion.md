@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12ac73ed-f829-4f22-bca9-ccc1dc29f4c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_0, _QAI_DRIVERVERSION enumeration [Display Devices], KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/_QAI_DRIVERVERSION, display.d3dkmt_driverversion, D3DKMT_DRIVERVERSION enumeration [Display Devices], d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, D3DKMT_DRIVERVERSION, d3dkmthk/, _QAI_DRIVERVERSION, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_2_0, KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0
+ms.keywords: KMT_DRIVERVERSION_WDDM_2_0, KMT_DRIVERVERSION_WDDM_1_1, KMT_DRIVERVERSION_WDDM_1_3, KMT_DRIVERVERSION_WDDM_1_0, D3DKMT_DRIVERVERSION, OpenGL_Structs_2f7fe9d6-ec67-46b1-9c05-51d06d186fe1.xml, _QAI_DRIVERVERSION, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_3, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_2, display.d3dkmt_driverversion, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, d3dkmthk/, D3DKMT_DRIVERVERSION enumeration [Display Devices], d3dkmthk/_QAI_DRIVERVERSION, KMT_DRIVERVERSION_WDDM_1_1_PRERELEASE, _QAI_DRIVERVERSION enumeration [Display Devices], d3dkmthk/KMT_DRIVERVERSION_WDDM_1_1, d3dkmthk/KMT_DRIVERVERSION_WDDM_2_0, d3dkmthk/KMT_DRIVERVERSION_WDDM_1_0, KMT_DRIVERVERSION_WDDM_1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -140,9 +140,9 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapt
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
  
 

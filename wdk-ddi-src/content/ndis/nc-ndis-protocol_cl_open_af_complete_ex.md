@@ -104,6 +104,23 @@ The final status of the client's call to
 
 
 
+#### NDIS_STATUS_SUCCESS
+
+The AF has been opened, so the client can initialize its state at 
+       <i>ProtocolAfContext</i> and use the returned handle from 
+       <i>NdisAfHandle</i> in subsequent calls to 
+       <b>NdisCl<i>Xxx</i></b> and 
+       <b>NdisCo<i>Xxx</i></b> functions, such as 
+       <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>.
+
+
+#### NDIS_STATUS_RESOURCES
+
+The requested operation failed because NDIS or the call manager could not allocate sufficient
+       memory or initialize the state that one of them uses to track the client's open of the AF that 
+       <i>ProtocolAfContext</i> specifies.
+
+
 #### NDIS_STATUS_FAILURE
 
 NDIS failed the call, possibly for one of the following reasons:
@@ -124,23 +141,6 @@ The call manager that registered the specified AF is closing its binding to the 
 
 </li>
 </ul>
-
-#### NDIS_STATUS_RESOURCES
-
-The requested operation failed because NDIS or the call manager could not allocate sufficient
-       memory or initialize the state that one of them uses to track the client's open of the AF that 
-       <i>ProtocolAfContext</i> specifies.
-
-
-#### NDIS_STATUS_SUCCESS
-
-The AF has been opened, so the client can initialize its state at 
-       <i>ProtocolAfContext</i> and use the returned handle from 
-       <i>NdisAfHandle</i> in subsequent calls to 
-       <b>NdisCl<i>Xxx</i></b> and 
-       <b>NdisCo<i>Xxx</i></b> functions, such as 
-       <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>.
-
 
 ## -returns
 
@@ -239,15 +239,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
  
 

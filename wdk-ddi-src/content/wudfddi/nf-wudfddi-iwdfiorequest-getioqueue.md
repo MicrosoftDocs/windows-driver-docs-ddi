@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 834d5ee3-b28b-4d75-b0b7-be1f36ace8aa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, GetIoQueue method, wdf.iwdfiorequest_getioqueue, IWDFIoRequest interface, GetIoQueue method, GetIoQueue method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::GetIoQueue, IWDFIoRequest::GetIoQueue, umdf.iwdfiorequest_getioqueue, IWDFIoRequest, GetIoQueue
+ms.keywords: wdf.iwdfiorequest_getioqueue, GetIoQueue, GetIoQueue method, IWDFIoRequest, wudfddi/IWDFIoRequest::GetIoQueue, IWDFIoRequest::GetIoQueue, GetIoQueue method, IWDFIoRequest interface, UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, umdf.iwdfiorequest_getioqueue, IWDFIoRequest interface, GetIoQueue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetIoQueue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,9 +84,9 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

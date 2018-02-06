@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d3798f2-dd43-4703-bd33-8f2c3f738122
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient3::TerminateCurrentProcess, dbgeng/IDebugClient5::TerminateCurrentProcess, TerminateCurrentProcess method [Windows Debugging], dbgeng/IDebugClient4::TerminateCurrentProcess, TerminateCurrentProcess method [Windows Debugging], IDebugClient5 interface, debugger.terminatecurrentprocess, IDebugClient2 interface [Windows Debugging], TerminateCurrentProcess method, dbgeng/IDebugClient2::TerminateCurrentProcess, IDebugClient2::TerminateCurrentProcess, IDebugClient5 interface [Windows Debugging], TerminateCurrentProcess method, TerminateCurrentProcess method [Windows Debugging], IDebugClient2 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient4 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient_7129a1e4-f1a5-4dff-a45c-bf759ae410cf.xml, dbgeng/IDebugClient3::TerminateCurrentProcess, IDebugClient4::TerminateCurrentProcess, TerminateCurrentProcess method [Windows Debugging], IDebugClient4 interface, TerminateCurrentProcess, IDebugClient5::TerminateCurrentProcess, IDebugClient5
+ms.keywords: IDebugClient_7129a1e4-f1a5-4dff-a45c-bf759ae410cf.xml, TerminateCurrentProcess method [Windows Debugging], IDebugClient5 interface, TerminateCurrentProcess method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient2::TerminateCurrentProcess, debugger.terminatecurrentprocess, TerminateCurrentProcess method [Windows Debugging], IDebugClient3 interface, TerminateCurrentProcess, IDebugClient3 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient5 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient5, TerminateCurrentProcess method [Windows Debugging], IDebugClient4 interface, IDebugClient4::TerminateCurrentProcess, dbgeng/IDebugClient4::TerminateCurrentProcess, dbgeng/IDebugClient3::TerminateCurrentProcess, IDebugClient4 interface [Windows Debugging], TerminateCurrentProcess method, IDebugClient3::TerminateCurrentProcess, dbgeng/IDebugClient5::TerminateCurrentProcess, dbgeng/IDebugClient2::TerminateCurrentProcess, IDebugClient5::TerminateCurrentProcess, TerminateCurrentProcess method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugClient5.TerminateCurrentProcess
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::TerminateCurrentProcess method
@@ -104,25 +104,25 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563855">.kill (Kill Process)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
  
 

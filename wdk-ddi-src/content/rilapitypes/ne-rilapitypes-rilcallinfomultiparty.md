@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31e3f763-bdf8-403a-bea2-5329db1c5ea7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALL_MULTIPARTY, rilapitypes/RIL_CALL_MAX, RILCALLINFOMULTIPARTY, rilapitypes/RILCALLINFOMULTIPARTY, netvista.rilcallinfomultiparty_2, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALL_MULTIPARTY, RIL_CALL_MAX
+ms.keywords: rilapitypes/RIL_CALL_MAX, netvista.rilcallinfomultiparty_2, RILCALLINFOMULTIPARTY, rilapitypes/RILCALLINFOMULTIPARTY, RIL_CALL_MAX, rilapitypes/RIL_CALL_MULTIPARTY, RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

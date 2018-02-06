@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a6ed2bb8-e62c-4566-9b61-6acac68e8309
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwriteregisterushort, ScsiPortWriteRegisterUshort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, ScsiPortWriteRegisterUshort routine [Storage Devices], srb/ScsiPortWriteRegisterUshort
+ms.keywords: ScsiPortWriteRegisterUshort routine [Storage Devices], srb/ScsiPortWriteRegisterUshort, ScsiPortWriteRegisterUshort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, storage.scsiportwriteregisterushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortWriteRegisterUshort
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

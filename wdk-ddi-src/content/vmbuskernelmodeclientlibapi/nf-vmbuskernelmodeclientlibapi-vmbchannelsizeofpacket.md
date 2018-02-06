@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3E7EE060-4B1F-4B28-A617-5B1393CEE936
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSizeofPacket, VmbChannelSizeofPacket function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSizeofPacket, netvista.vmbchannelsizeofpacket
+ms.keywords: netvista.vmbchannelsizeofpacket, VmbChannelSizeofPacket function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSizeofPacket, VmbChannelSizeofPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

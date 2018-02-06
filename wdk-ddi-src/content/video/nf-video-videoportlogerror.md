@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d013aeb9-43a9-460f-a670-5b7bc9d3753d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, VideoPortLogError function [Display Devices], VideoPortLogError, video/VideoPortLogError, display.videoportlogerror
+ms.keywords: VideoPortLogError function [Display Devices], display.videoportlogerror, video/VideoPortLogError, VideoPortLogError, VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

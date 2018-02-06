@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 49758A57-EFCE-4E9C-9BF6-74F6EFD356D9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DISPLAYPANELORIENTATION enumeration [Display Devices], DXGK_DPO_90, d3dkmddi/DXGK_DPO_180, display.dxgk_displaypanelorientation, d3dkmddi/DXGK_DISPLAYPANELORIENTATION, _DXGK_DISPLAYPANELORIENTATION, DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DPO_0, DXGK_DPO_0, d3dkmddi/DXGK_DPO_90, DXGK_DPO_270, DXGK_DPO_180, d3dkmddi/DXGK_DPO_270
+ms.keywords: d3dkmddi/DXGK_DPO_270, _DXGK_DISPLAYPANELORIENTATION, DXGK_DPO_180, d3dkmddi/DXGK_DPO_180, d3dkmddi/DXGK_DPO_0, d3dkmddi/DXGK_DPO_90, DXGK_DPO_270, DXGK_DPO_90, DXGK_DISPLAYPANELORIENTATION enumeration [Display Devices], d3dkmddi/DXGK_DISPLAYPANELORIENTATION, DXGK_DPO_0, display.dxgk_displaypanelorientation, DXGK_DISPLAYPANELORIENTATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

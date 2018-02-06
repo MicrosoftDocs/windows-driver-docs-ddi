@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports
+ms.keywords: ifsk.rxcebuildconnectionovermultipletransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildConnectionOverMultipleTransports
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -134,9 +134,9 @@ Create options that determine which transport will be selected for establishing 
 
 
 
-#### RxCeSelectAllSuccessfulTransports
+#### RxCeSelectFirstSuccessfulTransport
 
-Select all of the successful transports that respond.
+Select the first successful transport that responds.
 
 
 #### RxCeSelectBestSuccessfulTransport
@@ -144,9 +144,9 @@ Select all of the successful transports that respond.
 Select the best successful transport that responds.
 
 
-#### RxCeSelectFirstSuccessfulTransport
+#### RxCeSelectAllSuccessfulTransports
 
-Select the first successful transport that responds.
+Select all of the successful transports that respond.
 
 
 ## -returns
@@ -223,9 +223,9 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
-
 <a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
  
 

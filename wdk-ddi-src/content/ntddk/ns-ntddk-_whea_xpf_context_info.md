@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], _WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], ntddk/WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info, WHEA_XPF_CONTEXT_INFO, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml, *PWHEA_XPF_CONTEXT_INFO
+ms.keywords: whea.whea_xpf_context_info, WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], _WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml, ntddk/WHEA_XPF_CONTEXT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_CONTEXT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO"
+req.typenames: WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO
 ---
 
 # _WHEA_XPF_CONTEXT_INFO structure
@@ -78,34 +78,9 @@ The type of processor context information described by the structure. Possible v
 
 
 
-#### XPF_CONTEXT_INFO_32BITCONTEXT
+#### XPF_CONTEXT_INFO_UNCLASSIFIEDDATA
 
-32-bit execution context registers.
-
-
-#### XPF_CONTEXT_INFO_32BITDEBUGREGS
-
-32-bit debug registers.
-
-
-#### XPF_CONTEXT_INFO_64BITCONTEXT
-
-64-bit execution context registers.
-
-
-#### XPF_CONTEXT_INFO_64BITDEBUGREGS
-
-64-bit debug registers.
-
-
-#### XPF_CONTEXT_INFO_FXSAVE
-
-Floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
-
-
-#### XPF_CONTEXT_INFO_MMREGISTERS
-
-Memory mapped registers.
+Unclassified processor context data.
 
 
 #### XPF_CONTEXT_INFO_MSRREGISTERS
@@ -113,9 +88,34 @@ Memory mapped registers.
 Machine check and other machine-specific registers.
 
 
-#### XPF_CONTEXT_INFO_UNCLASSIFIEDDATA
+#### XPF_CONTEXT_INFO_32BITCONTEXT
 
-Unclassified processor context data.
+32-bit execution context registers.
+
+
+#### XPF_CONTEXT_INFO_64BITCONTEXT
+
+64-bit execution context registers.
+
+
+#### XPF_CONTEXT_INFO_FXSAVE
+
+Floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
+
+
+#### XPF_CONTEXT_INFO_32BITDEBUGREGS
+
+32-bit debug registers.
+
+
+#### XPF_CONTEXT_INFO_64BITDEBUGREGS
+
+64-bit debug registers.
+
+
+#### XPF_CONTEXT_INFO_MMREGISTERS
+
+Memory mapped registers.
 
 
 ### -field RegisterDataSize
@@ -141,36 +141,11 @@ A variable length buffer that contains register data or raw data. The contents o
 
 
 
-#### XPF_CONTEXT_INFO_32BITCONTEXT
+#### XPF_CONTEXT_INFO_UNCLASSIFIEDDATA
 
-The buffer contains a WHEA_X86_REGISTER_STATE structure.
-
-
-#### XPF_CONTEXT_INFO_32BITDEBUGREGS
-
-The buffer contains an array of eight 64-bit values that contain the 32-bit debug registers DR0-DR7. Each of the 32-bit debug registers are zero-extended to 64-bits.
+The buffer contains raw unformatted data. The number of bytes of data is specified in the RegisterDataSize member. 
 
 
-#### XPF_CONTEXT_INFO_64BITCONTEXT
-
-The buffer contains a WHEA_X64_REGISTER_STATE structure.
-
-
-#### XPF_CONTEXT_INFO_64BITDEBUGREGS
-
-The buffer contains an array of eight 64-bit values that contain the 64-bit debug registers DR0-DR7.
-
-
-#### XPF_CONTEXT_INFO_FXSAVE
-
-The buffer contains the floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the  <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>. 
-
-
-
-
-#### XPF_CONTEXT_INFO_MMREGISTERS
-
-The buffer contains an array of 64-bit memory mapped registers. The number of registers in the array is determined by dividing the size specified in the RegisterDataSize member by eight.
 
 
 #### XPF_CONTEXT_INFO_MSRREGISTERS
@@ -180,11 +155,36 @@ The buffer contains an array of 64-bit machine check and other machine-specific 
 
 
 
-#### XPF_CONTEXT_INFO_UNCLASSIFIEDDATA
+#### XPF_CONTEXT_INFO_32BITCONTEXT
 
-The buffer contains raw unformatted data. The number of bytes of data is specified in the RegisterDataSize member. 
+The buffer contains a WHEA_X86_REGISTER_STATE structure.
 
 
+#### XPF_CONTEXT_INFO_64BITCONTEXT
+
+The buffer contains a WHEA_X64_REGISTER_STATE structure.
+
+
+#### XPF_CONTEXT_INFO_FXSAVE
+
+The buffer contains the floating point registers as saved by the FXSAVE instruction. For more information about the FXSAVE instruction, see the  <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>. 
+
+
+
+
+#### XPF_CONTEXT_INFO_32BITDEBUGREGS
+
+The buffer contains an array of eight 64-bit values that contain the 32-bit debug registers DR0-DR7. Each of the 32-bit debug registers are zero-extended to 64-bits.
+
+
+#### XPF_CONTEXT_INFO_64BITDEBUGREGS
+
+The buffer contains an array of eight 64-bit values that contain the 64-bit debug registers DR0-DR7.
+
+
+#### XPF_CONTEXT_INFO_MMREGISTERS
+
+The buffer contains an array of 64-bit memory mapped registers. The number of registers in the array is determined by dividing the size specified in the RegisterDataSize member by eight.
 
 
 ## -remarks
@@ -196,11 +196,11 @@ The <b>VariableInfo</b> member of the <a href="..\ntddk\ns-ntddk-whea_xpf_proces
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_x86_register_state.md">WHEA_X86_REGISTER_STATE</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_x64_register_state.md">WHEA_X64_REGISTER_STATE</a>
 
 <a href="..\ntddk\ns-ntddk-whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_x86_register_state.md">WHEA_X86_REGISTER_STATE</a>
 
  
 

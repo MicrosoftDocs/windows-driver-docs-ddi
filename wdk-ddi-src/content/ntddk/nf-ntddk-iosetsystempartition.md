@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1606881-da8b-4034-bbdf-53c75e594032
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetSystemPartition, k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, kernel.iosetsystempartition, ntddk/IoSetSystemPartition, IoSetSystemPartition routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/IoSetSystemPartition, kernel.iosetsystempartition, IoSetSystemPartition, k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, IoSetSystemPartition routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

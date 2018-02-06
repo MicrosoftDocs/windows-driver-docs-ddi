@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], wdm/DEVICE_DESCRIPTION, kernel.device_description, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, _DEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION2, *PDEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION3, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION, PDEVICE_DESCRIPTION
+ms.keywords: "_DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION, wdm/DEVICE_DESCRIPTION, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, kernel.device_description, DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION3, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION2, wdm/PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_DESCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION
+req.typenames: "*PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION"
 req.product: Windows 10 or later.
 ---
 
@@ -272,17 +272,17 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
 
  
 

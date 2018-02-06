@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeWorker routine [Storage Devices], storport/StorPortInitializeWorker, StorPortInitializeWorker, storage.storportinitializeworker
+ms.keywords: storport/StorPortInitializeWorker, storage.storportinitializeworker, StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,11 +147,11 @@ If the miniport uses the work item during IO processing, we recommended that <b>
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+
+<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
  
 

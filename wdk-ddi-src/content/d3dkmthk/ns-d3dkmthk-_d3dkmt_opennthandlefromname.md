@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 34f70519-7905-4a16-bd07-db3592b05890
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_opennthandlefromname, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, _D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], D3DKMT_OPENNTHANDLEFROMNAME
+ms.keywords: D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, display.d3dkmt_opennthandlefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

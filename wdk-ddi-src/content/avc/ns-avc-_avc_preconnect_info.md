@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: AVC_PRECONNECT_INFO structure [Streaming Media Devices], avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, *PAVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, avc/AVC_PRECONNECT_INFO, _AVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], PAVC_PRECONNECT_INFO, stream.avc_preconnect_info
+ms.keywords: stream.avc_preconnect_info, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], _AVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, avc/AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b7e3bb5c-d4c7-469e-aa2d-fa9a98706c2f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CheckLowMemory, CheckLowMemory method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], CheckLowMemory method, IDebugDataSpaces2::CheckLowMemory, dbgeng/IDebugDataSpaces2::CheckLowMemory, CheckLowMemory method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], CheckLowMemory method, IDebugDataSpaces3::CheckLowMemory, CheckLowMemory method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::CheckLowMemory, IDebugDataSpaces4::CheckLowMemory, IDebugDataSpaces2 interface [Windows Debugging], CheckLowMemory method, IDebugDataSpaces4 interface [Windows Debugging], CheckLowMemory method, dbgeng/IDebugDataSpaces3::CheckLowMemory, IDebugDataSpaces_6682f39e-295a-4dae-b8a3-d83b1d5e41be.xml, IDebugDataSpaces4, debugger.checklowmemory, dbgeng/IDebugDataSpaces4::CheckLowMemory, IDebugDataSpaces::CheckLowMemory, CheckLowMemory method [Windows Debugging], IDebugDataSpaces interface, CheckLowMemory method [Windows Debugging], IDebugDataSpaces4 interface
+ms.keywords: IDebugDataSpaces4::CheckLowMemory, debugger.checklowmemory, CheckLowMemory, IDebugDataSpaces2 interface [Windows Debugging], CheckLowMemory method, CheckLowMemory method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2::CheckLowMemory, CheckLowMemory method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::CheckLowMemory, dbgeng/IDebugDataSpaces2::CheckLowMemory, IDebugDataSpaces4 interface [Windows Debugging], CheckLowMemory method, CheckLowMemory method [Windows Debugging], IDebugDataSpaces2 interface, CheckLowMemory method [Windows Debugging], CheckLowMemory method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4, IDebugDataSpaces3::CheckLowMemory, dbgeng/IDebugDataSpaces::CheckLowMemory, IDebugDataSpaces_6682f39e-295a-4dae-b8a3-d83b1d5e41be.xml, IDebugDataSpaces interface [Windows Debugging], CheckLowMemory method, IDebugDataSpaces3 interface [Windows Debugging], CheckLowMemory method, IDebugDataSpaces::CheckLowMemory, dbgeng/IDebugDataSpaces4::CheckLowMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.CheckLowMemory
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::CheckLowMemory method

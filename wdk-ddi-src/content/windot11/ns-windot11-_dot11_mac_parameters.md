@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53114ABE-33F2-4DA2-ABE0-2547547AA6AD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_MAC_PARAMETERS, Type, Size, windot11/DOT11_MAC_PARAMETERS, _DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS, Revision, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_MAC_PARAMETERS
+ms.keywords: Type, *PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], Revision, windot11/PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MAC_PARAMETERS, windot11/DOT11_MAC_PARAMETERS, Size, netvista.dot11_mac_parameters, PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_MAC_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS"
+req.typenames: DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -74,6 +74,11 @@ typedef struct _DOT11_MAC_PARAMETERS {
 The object header identifying the type and revision of this structure. The required member settings of <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> are the following:
 
 
+#### Type
+
+Must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>
+
+
 #### Revision
 
 Must be set to <b>DOT11_MAC_PARAMETERS_REVISION_1</b>
@@ -84,21 +89,11 @@ Must be set to <b>DOT11_MAC_PARAMETERS_REVISION_1</b>
 Must be set to <b>DOT11_SIZEOF_MAC_PARAMETERS_REVISION_1</b>
 
 
-#### Type
-
-Must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>
-
-
 ### -field uOpmodeMask
 
 A bitwise OR value of the operation modes Windows may set for the created port. This bitmask is defined through the following:
 
 
-
-
-#### DOT11_OPERATION_MODE_WFD_CLIENT
-
-Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode.
 
 
 #### DOT11_OPERATION_MODE_WFD_DEVICE
@@ -109,6 +104,11 @@ Specifies that the miniport driver supports the Wi-Fi Direct Device operation mo
 #### DOT11_OPERATION_MODE_WFD_GROUP_OWNER
 
 Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operation mode.
+
+
+#### DOT11_OPERATION_MODE_WFD_CLIENT
+
+Specifies that the miniport driver supports the Wi-Fi Direct Client operation mode.
 
 
 ## -see-also

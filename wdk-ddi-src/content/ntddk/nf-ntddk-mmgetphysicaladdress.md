@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2381c1c2-d7fc-4cb2-bbdf-2a95c78c34d0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], kernel.mmgetphysicaladdress, k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, ntddk/MmGetPhysicalAddress, MmGetPhysicalAddress
+ms.keywords: kernel.mmgetphysicaladdress, ntddk/MmGetPhysicalAddress, MmGetPhysicalAddress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,9 +94,9 @@ Callers of <b>MmGetPhysicalAddress</b> can be running at any IRQL, provided that
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
-<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
-
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+
+<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9a6998d-f340-47ad-a9be-ff7ef76c627e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltDeviceIoControlFile, FltDeviceIoControlFile function [Installable File System Drivers], FltDeviceIoControlFile, FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, ifsk.fltdeviceiocontrolfile
+ms.keywords: FltDeviceIoControlFile, FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, fltkernel/FltDeviceIoControlFile, FltDeviceIoControlFile function [Installable File System Drivers], ifsk.fltdeviceiocontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

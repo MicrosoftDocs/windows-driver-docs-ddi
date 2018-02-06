@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4ad11a15-ba72-4921-a00a-6d3bfb443b51
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], storage.tapeclasslogicalblocktophysicalblock, TapeClassLogicalBlockToPhysicalBlock, minitape/TapeClassLogicalBlockToPhysicalBlock, tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml
+ms.keywords: TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], minitape/TapeClassLogicalBlockToPhysicalBlock, storage.tapeclasslogicalblocktophysicalblock, TapeClassLogicalBlockToPhysicalBlock, tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeClassLogicalBlockToPhysicalBlock
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
 ---
 
 # TapeClassLogicalBlockToPhysicalBlock function

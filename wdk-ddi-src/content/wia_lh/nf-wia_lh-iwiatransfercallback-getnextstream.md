@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 025c29d3-1167-4aa3-8399-01dab5729267
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetNextStream method [Imaging Devices], IWiaTransferCallback interface, IWiaTransferCallback::GetNextStream, IWiaTransferCallback, GetNextStream, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaTransferCallback interface [Imaging Devices], GetNextStream method, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml
+ms.keywords: IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, GetNextStream, GetNextStream method [Imaging Devices], wia_lh/IWiaTransferCallback::GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, GetNextStream method [Imaging Devices], IWiaTransferCallback interface, IWiaTransferCallback, image.iwiatransfercallback_getnextstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaTransferCallback.GetNextStream
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

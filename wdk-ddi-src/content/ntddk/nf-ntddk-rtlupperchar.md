@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a87e9f52-a136-492e-bfb3-dfbbea8b79e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlupperchar, RtlUpperChar, ntddk/RtlUpperChar, k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, RtlUpperChar routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlupperchar, k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, ntddk/RtlUpperChar, RtlUpperChar routine [Kernel-Mode Driver Architecture], RtlUpperChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

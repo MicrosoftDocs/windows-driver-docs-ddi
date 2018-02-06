@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e9c11c07-bd4a-4d49-a820-4617be691c80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], OutSimpleValue method, EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, ExtRemoteTyped, ExtRemoteTyped::OutSimpleValue, OutSimpleValue method [Windows Debugging], OutSimpleValue, debugger.extremotetyped_outsimplevalue, OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], OutSimpleValue method, ExtRemoteTyped, debugger.extremotetyped_outsimplevalue, ExtRemoteTyped::OutSimpleValue, OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, OutSimpleValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

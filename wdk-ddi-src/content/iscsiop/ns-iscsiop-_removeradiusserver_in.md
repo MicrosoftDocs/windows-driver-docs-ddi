@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 600916e1-37c2-4766-93d9-b7d32a542542
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN, structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml, RemoveRADIUSServer_IN structure [Storage Devices], iscsiop/PRemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN, storage.removeradiusserver_in, _RemoveRADIUSServer_IN, PRemoveRADIUSServer_IN structure pointer [Storage Devices]
+ms.keywords: storage.removeradiusserver_in, RemoveRADIUSServer_IN, PRemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN, iscsiop/PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN structure pointer [Storage Devices], iscsiop/RemoveRADIUSServer_IN, structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml, RemoveRADIUSServer_IN structure [Storage Devices], _RemoveRADIUSServer_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemoveRADIUSServer_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PRemoveRADIUSServer_IN, RemoveRADIUSServer_IN"
+req.typenames: RemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN
 ---
 
 # _RemoveRADIUSServer_IN structure
@@ -81,9 +81,9 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_out.md">RemovePersistentLogin_OUT</a>
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+<a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_out.md">RemovePersistentLogin_OUT</a>
 
  
 

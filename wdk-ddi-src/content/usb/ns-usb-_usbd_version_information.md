@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 37dc1e94-18cb-48d5-81a2-74d03cef4d5d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUSBD_VERSION_INFORMATION, usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml, USBD_VERSION_INFORMATION, _USBD_VERSION_INFORMATION, usb/PUSBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION structure pointer [Buses], PUSBD_VERSION_INFORMATION, buses.usbd_version_information, USBD_VERSION_INFORMATION structure [Buses], usb/USBD_VERSION_INFORMATION"
+ms.keywords: PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION structure pointer [Buses], _USBD_VERSION_INFORMATION, buses.usbd_version_information, usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml, usb/PUSBD_VERSION_INFORMATION, usb/USBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION structure [Buses], *PUSBD_VERSION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBD_VERSION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION"
+req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
 ---
 

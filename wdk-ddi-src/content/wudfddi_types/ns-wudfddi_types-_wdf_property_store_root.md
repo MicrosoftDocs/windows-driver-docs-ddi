@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_property_store_root, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT structure pointer, wudfddi_types/WDF_PROPERTY_STORE_ROOT, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, _WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, WDF_PROPERTY_STORE_ROOT structure
+ms.keywords: umdf.wdf_property_store_root, _WDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT, wdf.wdf_property_store_root, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT structure pointer, wudfddi_types/WDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

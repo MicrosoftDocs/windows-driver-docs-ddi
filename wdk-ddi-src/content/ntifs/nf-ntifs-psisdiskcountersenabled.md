@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E4626CF9-5E76-4C48-9B38-274178E41E30
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsIsDiskCountersEnabled routine [Installable File System Drivers], PsIsDiskCountersEnabled, ntifs/PsIsDiskCountersEnabled, ifsk.psisdiskcountersenabled
+ms.keywords: ntifs/PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ifsk.psisdiskcountersenabled, PsIsDiskCountersEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

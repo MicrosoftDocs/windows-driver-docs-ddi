@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilpositioninfoumts, *LPRILPOSITIONINFOUMTS, rilapitypes/RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFOUMTS
+ms.keywords: RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS, rilapitypes/RILPOSITIONINFOUMTS, netvista.rilpositioninfoumts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

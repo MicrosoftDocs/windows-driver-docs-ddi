@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BTHX_SCO_SUPPORT, bthxddi/BTHX_SCO_SUPPORT, bltooth.bthx_sco_support, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], ScoSupportHCI, ScoSupportHCIBypass, BTHX_SCO_SUPPORT, bthxddi/ScoSupportNone, ScoSupportNone, *PBTHX_SCO_SUPPORT, bthxddi/ScoSupportHCIBypass, bthxddi/ScoSupportHCI"
+ms.keywords: ScoSupportHCI, bltooth.bthx_sco_support, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], bthxddi/ScoSupportNone, bthxddi/ScoSupportHCIBypass, _BTHX_SCO_SUPPORT, ScoSupportNone, bthxddi/BTHX_SCO_SUPPORT, bthxddi/ScoSupportHCI, *PBTHX_SCO_SUPPORT, ScoSupportHCIBypass, BTHX_SCO_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

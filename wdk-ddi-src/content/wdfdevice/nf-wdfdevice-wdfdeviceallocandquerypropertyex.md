@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1C1AE0F6-2CAB-4983-B1A7-E6C8BA822754
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceAllocAndQueryPropertyEx, PFN_WDFDEVICEALLOCANDQUERYPROPERTYEX, WdfDeviceAllocAndQueryPropertyEx method, wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx
+ms.keywords: wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx, PFN_WDFDEVICEALLOCANDQUERYPROPERTYEX, WdfDeviceAllocAndQueryPropertyEx, WdfDeviceAllocAndQueryPropertyEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

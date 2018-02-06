@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfioqueuecreate, DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, PFN_WDFIOQUEUECREATE, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate, WdfIoQueueCreate method, WdfIoQueueCreate
+ms.keywords: WdfIoQueueCreate, kmdf.wdfioqueuecreate, WdfIoQueueCreate method, wdf.wdfioqueuecreate, PFN_WDFIOQUEUECREATE, DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, wdfio/WdfIoQueueCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

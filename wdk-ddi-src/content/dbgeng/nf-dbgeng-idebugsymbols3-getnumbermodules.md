@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetNumberModules, IDebugSymbols interface [Windows Debugging], GetNumberModules method, debugger.getnumbermodules, IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], dbgeng/IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, GetNumberModules
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols2::GetNumberModules, IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols3, dbgeng/IDebugSymbols::GetNumberModules, GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, debugger.getnumbermodules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetNumberModules
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetNumberModules method

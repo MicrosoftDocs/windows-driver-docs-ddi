@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e25db70f-04bf-4fb1-8ff5-2beb4c825797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], RtlVolumeDeviceToDosName, k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, kernel.rtlvolumedevicetodosname
+ms.keywords: kernel.rtlvolumedevicetodosname, k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], ntddk/RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

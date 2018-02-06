@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, IStiDeviceControl::WriteToErrorLog, image.istidevicecontrol_writetoerrorlog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog, IStiDeviceControl, stiusd/IStiDeviceControl::WriteToErrorLog, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface
+ms.keywords: IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, image.istidevicecontrol_writetoerrorlog, WriteToErrorLog method [Imaging Devices], IStiDeviceControl, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::WriteToErrorLog, WriteToErrorLog, IStiDeviceControl::WriteToErrorLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.WriteToErrorLog
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

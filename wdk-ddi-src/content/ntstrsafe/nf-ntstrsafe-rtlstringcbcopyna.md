@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbCopyNA, kernel.rtlstringcbcopyn, RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNW, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, RtlStringCbCopyNA, RtlStringCbCopyN
+ms.keywords: ntstrsafe/RtlStringCbCopyNW, kernel.rtlstringcbcopyn, RtlStringCbCopyN, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNA, RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNA, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCopyNW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCbCopyNA function
@@ -213,9 +213,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
 
  
 

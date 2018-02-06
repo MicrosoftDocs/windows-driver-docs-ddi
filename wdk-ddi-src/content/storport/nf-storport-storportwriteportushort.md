@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortUshort routine [Storage Devices], storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, storage.storportwriteportushort, storport/StorPortWritePortUshort, StorPortWritePortUshort
+ms.keywords: storage.storportwriteportushort, StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml, storport/StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,9 +102,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportushort.md">Scs
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
-
 <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>
+
+<a href="..\srb\nf-srb-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 674e0a65-1763-41b0-896b-2ef9debc32a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, image.iwiaminidrv_drvlockwiadevice, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml
+ms.keywords: MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, IWiaMiniDrv::drvLockWiaDevice, drvLockWiaDevice method [Imaging Devices], image.iwiaminidrv_drvlockwiadevice, IWiaMiniDrv, drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, drvLockWiaDevice, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,14 +86,14 @@ HRESULT drvLockWiaDevice(
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [out]
@@ -121,9 +121,9 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method is used to lock access to the de
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
  
 

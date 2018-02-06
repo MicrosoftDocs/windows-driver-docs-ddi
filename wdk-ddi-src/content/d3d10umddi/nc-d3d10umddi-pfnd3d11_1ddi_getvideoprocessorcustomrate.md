@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoProcessorCustomRate
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE callback
@@ -93,16 +93,6 @@ VOID APIENTRY* pfnGetVideoProcessorCustomRate(
 
 
 
-#### - CustomRateIndex [in]
-
-The zero-based index of the custom rate to query. For more information, see the Remarks section.
-
-
-#### - RateConversionIndex [in]
-
-The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -115,6 +105,16 @@ A handle to the display device (graphics context).
 A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
 
 
+
+
+#### - RateConversionIndex [in]
+
+The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
+
+
+#### - CustomRateIndex [in]
+
+The zero-based index of the custom rate to query. For more information, see the Remarks section.
 
 
 #### - pRate [out]
@@ -142,13 +142,13 @@ The display miniport driver returns the maximum number of custom rates that it s
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps.md">GetVideoProcessorRateConversionCaps</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
 
  
 

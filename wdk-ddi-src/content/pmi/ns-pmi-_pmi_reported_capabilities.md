@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: bcb0eb53-e3b3-4cec-9912-6306e8faef21
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PPMI_REPORTED_CAPABILITIES, PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, pmi/PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], PMI_REPORTED_CAPABILITIES, *PPMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities, _PMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES
+ms.keywords: pmi/PPMI_REPORTED_CAPABILITIES, _PMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities, PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, *PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_REPORTED_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: PMI_REPORTED_CAPABILITIES, *PPMI_REPORTED_CAPABILITIES
+req.typenames: "*PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES"
 ---
 
 # _PMI_REPORTED_CAPABILITIES structure
@@ -87,16 +87,6 @@ A bitmask that specifies the supported capabilities of the power meter. The foll
 
 
 
-#### PMI_CAPABILITIES_DISCHARGE_ONLY
-
-This bit is set if the power meter reports data only when the power supply is discharging. This is typically the case on mobile battery systems or some uninterruptible power supplies (UPSs).
-
-
-#### PMI_CAPABILITIES_SUPPORT_BUDGETING
-
-This bit is set if the power meter supports power budgeting.
-
-
 #### PMI_CAPABILITIES_SUPPORT_MEASUREMENT
 
 This bit is set if the power meter supports power measurement.
@@ -105,6 +95,16 @@ This bit is set if the power meter supports power measurement.
 #### PMI_CAPABILITIES_SUPPORT_THRESHOLDS
 
 This bit is set if the power meter supports power thresholds.
+
+
+#### PMI_CAPABILITIES_SUPPORT_BUDGETING
+
+This bit is set if the power meter supports power budgeting.
+
+
+#### PMI_CAPABILITIES_DISCHARGE_ONLY
+
+This bit is set if the power meter reports data only when the power supply is discharging. This is typically the case on mobile battery systems or some uninterruptible power supplies (UPSs).
 
 
 ### -field MeasurementUnit
@@ -197,11 +197,11 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
 <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
  
 

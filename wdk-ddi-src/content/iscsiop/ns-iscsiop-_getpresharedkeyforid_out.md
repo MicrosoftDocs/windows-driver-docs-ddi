@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 21d6378e-b93b-4e97-842a-a3157e081f31
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml, GetPresharedKeyForId_OUT, *PGetPresharedKeyForId_OUT, iscsiop/GetPresharedKeyForId_OUT, iscsiop/PGetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT structure pointer [Storage Devices], GetPresharedKeyForId_OUT structure [Storage Devices], _GetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT, storage.getpresharedkeyforid_out
+ms.keywords: "*PGetPresharedKeyForId_OUT, structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml, PGetPresharedKeyForId_OUT structure pointer [Storage Devices], PGetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT structure [Storage Devices], iscsiop/GetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT, _GetPresharedKeyForId_OUT, storage.getpresharedkeyforid_out, iscsiop/PGetPresharedKeyForId_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPresharedKeyForId_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT"
+req.typenames: GetPresharedKeyForId_OUT, *PGetPresharedKeyForId_OUT
 ---
 
 # _GetPresharedKeyForId_OUT structure
@@ -87,13 +87,13 @@ You must initiate this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
 
 <a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 

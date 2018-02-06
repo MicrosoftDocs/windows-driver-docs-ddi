@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlNumberGenericTableElementsAvl, ntddk/RtlNumberGenericTableElementsAvl, ifsk.rtlnumbergenerictableelementsavl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlnumbergenerictableelementsavl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], RtlNumberGenericTableElementsAvl, ntddk/RtlNumberGenericTableElementsAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

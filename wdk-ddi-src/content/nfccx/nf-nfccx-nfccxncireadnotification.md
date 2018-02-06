@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification, nfccx/NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers]
+ms.keywords: NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], nfpdrivers._nfccxncireadnotification, nfccx/NfcCxNciReadNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxNciReadNotification
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
+req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
 ---
 
 # NfcCxNciReadNotification function

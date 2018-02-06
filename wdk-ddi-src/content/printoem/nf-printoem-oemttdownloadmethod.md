@@ -7,8 +7,8 @@ old-location: print\oemttdownloadmethod.htm
 old-project: print
 ms.assetid: 0807622e-0ed9-419a-8917-bba4b1b2a475
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemttdownloadmethod, OEMTTDownloadMethod function [Print Devices], OEMTTDownloadMethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, printoem/OEMTTDownloadMethod
+ms.date: 2/2/2018
+ms.keywords: print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, print.oemttdownloadmethod, printoem/OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices], OEMTTDownloadMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

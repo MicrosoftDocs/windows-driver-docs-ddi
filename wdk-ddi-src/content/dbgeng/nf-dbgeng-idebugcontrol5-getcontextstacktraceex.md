@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetContextStackTraceEx, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, debugger.idebugcontrol5_getcontextstacktraceex, dbgeng/IDebugControl5::GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], IDebugControl5, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface
+ms.keywords: debugger.idebugcontrol5_getcontextstacktraceex, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, IDebugControl5, IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::GetContextStackTraceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.GetContextStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl5::GetContextStackTraceEx method

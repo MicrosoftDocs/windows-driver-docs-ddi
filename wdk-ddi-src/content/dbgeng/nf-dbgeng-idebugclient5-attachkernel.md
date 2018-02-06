@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb861179-3567-4654-a702-40ee3319b27a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], AttachKernel method, dbgeng/IDebugClient2::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, debugger.attachkernel, IDebugClient3::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::AttachKernel, dbgeng/IDebugClient3::AttachKernel, dbgeng/IDebugClient4::AttachKernel, IDebugClient5::AttachKernel, IDebugClient4::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient interface, IDebugClient4 interface [Windows Debugging], AttachKernel method, IDebugClient::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient2 interface, AttachKernel method [Windows Debugging], IDebugClient3 interface, AttachKernel method [Windows Debugging], IDebugClient4 interface, IDebugClient interface [Windows Debugging], AttachKernel method, IDebugClient2 interface [Windows Debugging], AttachKernel method, AttachKernel, dbgeng/IDebugClient::AttachKernel, IDebugClient3 interface [Windows Debugging], AttachKernel method, IDebugClient5, IDebugClient2::AttachKernel
+ms.keywords: IDebugClient2::AttachKernel, IDebugClient5::AttachKernel, dbgeng/IDebugClient3::AttachKernel, IDebugClient interface [Windows Debugging], AttachKernel method, dbgeng/IDebugClient::AttachKernel, IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, IDebugClient5 interface [Windows Debugging], AttachKernel method, AttachKernel method [Windows Debugging], IDebugClient3 interface, IDebugClient5, dbgeng/IDebugClient2::AttachKernel, IDebugClient4 interface [Windows Debugging], AttachKernel method, AttachKernel method [Windows Debugging], IDebugClient4 interface, AttachKernel method [Windows Debugging], dbgeng/IDebugClient5::AttachKernel, IDebugClient4::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient2 interface, AttachKernel method [Windows Debugging], IDebugClient5 interface, AttachKernel method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient4::AttachKernel, IDebugClient2 interface [Windows Debugging], AttachKernel method, IDebugClient::AttachKernel, debugger.attachkernel, AttachKernel, IDebugClient3::AttachKernel, IDebugClient3 interface [Windows Debugging], AttachKernel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.AttachKernel
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::AttachKernel method
@@ -110,14 +110,14 @@ Specifies the connection settings for communicating with the computer running th
 
 
 
-#### DEBUG_ATTACH_EXDI_DRIVER
-
-eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
-
-
 #### DEBUG_ATTACH_KERNEL_CONNECTION
 
 <i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.
+
+
+#### DEBUG_ATTACH_EXDI_DRIVER
+
+eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
 
 
 ## -returns
@@ -153,21 +153,21 @@ The method was successful.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
  
 

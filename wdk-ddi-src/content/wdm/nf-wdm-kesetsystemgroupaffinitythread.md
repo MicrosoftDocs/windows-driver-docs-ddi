@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8ccc097d-f997-43c1-a068-f2f532afa0d6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetSystemGroupAffinityThread, wdm/KeSetSystemGroupAffinityThread, kernel.kesetsystemgroupaffinitythread, k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture], KeSetSystemGroupAffinityThread, k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, wdm/KeSetSystemGroupAffinityThread, kernel.kesetsystemgroupaffinitythread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,11 @@ If <b>KeSetSystemGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL and t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
 
 <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
+<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
 
  
 

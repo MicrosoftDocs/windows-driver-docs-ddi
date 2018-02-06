@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e6e0b0fd-be80-4c44-9d7d-1b9476b44b65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_ae4773cf-d43a-4468-8d6b-a4c4fa9b55fa.xml, D3DDDIARG_UNLOCK, display.d3dddiarg_unlock, D3DDDIARG_UNLOCK structure [Display Devices], d3dumddi/D3DDDIARG_UNLOCK, _D3DDDIARG_UNLOCK
+ms.keywords: D3DDDIARG_UNLOCK structure [Display Devices], d3dumddi/D3DDDIARG_UNLOCK, UMDisplayDriver_param_Structs_ae4773cf-d43a-4468-8d6b-a4c4fa9b55fa.xml, D3DDDIARG_UNLOCK, _D3DDDIARG_UNLOCK, display.d3dddiarg_unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

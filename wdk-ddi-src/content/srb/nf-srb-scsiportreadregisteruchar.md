@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5ea19e5-015d-451e-8e28-0b5a226f291a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadRegisterUchar routine [Storage Devices], ScsiPortReadRegisterUchar, srb/ScsiPortReadRegisterUchar, storage.scsiportreadregisteruchar, scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml
+ms.keywords: ScsiPortReadRegisterUchar, srb/ScsiPortReadRegisterUchar, storage.scsiportreadregisteruchar, scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml, ScsiPortReadRegisterUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadRegisterUchar
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

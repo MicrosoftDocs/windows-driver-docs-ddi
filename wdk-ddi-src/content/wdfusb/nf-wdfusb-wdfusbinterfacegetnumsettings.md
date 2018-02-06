@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07de1b64-bafb-4b5b-8ef3-24b87ae0c273
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbinterfacegetnumsettings, WdfUsbInterfaceGetNumSettings, WdfUsbInterfaceGetNumSettings method, DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml, wdfusb/WdfUsbInterfaceGetNumSettings, wdf.wdfusbinterfacegetnumsettings
+ms.keywords: WdfUsbInterfaceGetNumSettings, kmdf.wdfusbinterfacegetnumsettings, WdfUsbInterfaceGetNumSettings method, wdf.wdfusbinterfacegetnumsettings, wdfusb/WdfUsbInterfaceGetNumSettings, DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

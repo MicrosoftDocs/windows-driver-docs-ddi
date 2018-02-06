@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], display.d3dkmt_opensyncobjectfromnthandle2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2"
+ms.keywords: display.d3dkmt_opensyncobjectfromnthandle2, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

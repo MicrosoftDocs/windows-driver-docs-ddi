@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9dc93d92-ccdc-488b-a5dd-a2efe783cbb3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_processor_filter_range, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
+ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure [Display Devices], display.d3d11_1ddi_video_processor_filter_range, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

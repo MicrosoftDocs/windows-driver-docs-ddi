@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, srb/ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], ScsiPortReadPortUshort, storage.scsiportreadportushort
+ms.keywords: scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, ScsiPortReadPortUshort, srb/ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], storage.scsiportreadportushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortReadPortUshort
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

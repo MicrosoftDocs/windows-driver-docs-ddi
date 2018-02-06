@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e40241e6-90ee-4bbb-8fde-f52ffd838c1f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_MAX, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, netvista.rilimsfailuremessagetype, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, RILIMSFAILUREMESSAGETYPE, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, ntddrilapitypes/RILIMSFAILUREMESSAGETYPE
+ms.keywords: RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RILIMSFAILUREMESSAGETYPE, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RIL_IMSFAILUREMESSAGETYPE_MAX, netvista.rilimsfailuremessagetype, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_INCALL, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILIMSFAILUREMESSAGETYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

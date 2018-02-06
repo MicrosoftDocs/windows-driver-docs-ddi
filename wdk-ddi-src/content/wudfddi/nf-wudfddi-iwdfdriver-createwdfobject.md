@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver::CreateWdfObject, umdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject, IWDFDriver, wdf.iwdfdriver_createwdfobject, IWDFDriver interface, CreateWdfObject method, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, CreateWdfObject, CreateWdfObject method, IWDFDriver interface, CreateWdfObject method
+ms.keywords: IWDFDriver, wudfddi/IWDFDriver::CreateWdfObject, umdf.iwdfdriver_createwdfobject, CreateWdfObject, CreateWdfObject method, wdf.iwdfdriver_createwdfobject, IWDFDriver::CreateWdfObject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, CreateWdfObject method, IWDFDriver interface, IWDFDriver interface, CreateWdfObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriver.CreateWdfObject
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -109,13 +109,13 @@ If the driver must clean up the child object before the parent object is deleted
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
 <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 

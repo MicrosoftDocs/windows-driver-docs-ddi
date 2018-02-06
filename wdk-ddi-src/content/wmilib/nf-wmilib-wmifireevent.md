@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 600391ef-f4bb-479b-ad73-305e365ed70d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, wmilib/WmiFireEvent, kernel.wmifireevent, WmiFireEvent routine [Kernel-Mode Driver Architecture], WmiFireEvent
+ms.keywords: wmilib/WmiFireEvent, kernel.wmifireevent, k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, WmiFireEvent routine [Kernel-Mode Driver Architecture], WmiFireEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WmiFireEvent
 product: Windows
 targetos: Windows
-req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
 req.product: Windows 10 or later.
 ---
 
@@ -120,11 +120,11 @@ For more information about event tracing, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
+
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
 
  
 

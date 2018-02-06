@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3::UnmapIoSpace, UnmapIoSpace, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace method, wudfddi/IWDFDevice3::UnmapIoSpace, umdf.iwdfdevice3_unmapiospace, wdf.iwdfdevice3_unmapiospace, IWDFDevice3, IWDFDevice3 interface, UnmapIoSpace method
+ms.keywords: IWDFDevice3 interface, UnmapIoSpace method, wudfddi/IWDFDevice3::UnmapIoSpace, umdf.iwdfdevice3_unmapiospace, UnmapIoSpace, wdf.iwdfdevice3_unmapiospace, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace method, IWDFDevice3, IWDFDevice3::UnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.UnmapIoSpace
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

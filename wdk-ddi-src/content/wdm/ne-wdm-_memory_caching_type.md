@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmCached, MmMaximumCacheType, wdm/MmWriteCombined, _MEMORY_CACHING_TYPE, MmNonCached, MEMORY_CACHING_TYPE, kernel.memory_caching_type, wdm/MmNonCached, MmCached, MmWriteCombined, MmNonCachedUnordered, wdm/MEMORY_CACHING_TYPE, wdm/MmNonCachedUnordered, MmUSWCCached, wdm/MmUSWCCached, MmHardwareCoherentCached, wdm/MmMaximumCacheType, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MmHardwareCoherentCached
+ms.keywords: MEMORY_CACHING_TYPE, MmNonCachedUnordered, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MmNonCached, wdm/MmWriteCombined, wdm/MmHardwareCoherentCached, wdm/MmNonCachedUnordered, MmWriteCombined, MmHardwareCoherentCached, wdm/MmUSWCCached, wdm/MmMaximumCacheType, MmMaximumCacheType, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, _MEMORY_CACHING_TYPE, kernel.memory_caching_type, MmCached, wdm/MEMORY_CACHING_TYPE, MmNonCached, wdm/MmCached, MmUSWCCached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -123,15 +123,15 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
 <a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
 
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
 
  
 

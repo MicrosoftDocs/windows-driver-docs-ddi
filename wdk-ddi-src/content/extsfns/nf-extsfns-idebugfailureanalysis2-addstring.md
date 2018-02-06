@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 98023A9B-9091-4C0D-ADE0-978816E8F762
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2, AddString, extsfns/IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], debugger.idebugfailureanalysis2_addstring, IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], AddString method
+ms.keywords: IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_addstring, AddString, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::AddString, AddString method [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], AddString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,17 +99,17 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
 
 <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
  
 

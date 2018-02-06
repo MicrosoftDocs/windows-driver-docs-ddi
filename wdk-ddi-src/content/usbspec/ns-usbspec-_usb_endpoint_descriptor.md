@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], usbspec/USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, *PUSB_ENDPOINT_DESCRIPTOR, _USB_ENDPOINT_DESCRIPTOR, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses]
+ms.keywords: USB_ENDPOINT_DESCRIPTOR structure [Buses], *PUSB_ENDPOINT_DESCRIPTOR, usbspec/PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], _USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -40,7 +40,7 @@ apiname:
 -	DRMForwardContentToFileObject
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
 ---
 
 # PFNDRMFORWARDCONTENTTOFILEOBJECT callback

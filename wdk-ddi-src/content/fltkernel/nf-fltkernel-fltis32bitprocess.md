@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0ba4d101-5eba-4258-9526-9e9dc3fd142a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, ifsk.fltis32bitprocess
+ms.keywords: FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, ifsk.fltis32bitprocess, FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,13 +114,13 @@ To determine whether a callback data structure represents a file system filter (
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+
 <a href="..\wdm\nf-wdm-iois32bitprocess.md">IoIs32bitProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
 
  
 

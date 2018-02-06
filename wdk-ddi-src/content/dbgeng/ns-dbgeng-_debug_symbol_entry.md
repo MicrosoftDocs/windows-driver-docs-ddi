@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 31ffab25-ec34-42ff-bdde-c98fef003bfc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_symbol_entry, _DEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, dbgeng/PDEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], PDEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY
+ms.keywords: DEBUG_SYMBOL_ENTRY, debugger.debug_symbol_entry, Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], dbgeng/PDEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, _DEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], *PDEBUG_SYMBOL_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

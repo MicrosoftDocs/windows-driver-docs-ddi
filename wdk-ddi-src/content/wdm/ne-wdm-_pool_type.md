@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PagedPoolCacheAlignedSession, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolMustSucceedSession, wdm/NonPagedPoolBase, NonPagedPoolCacheAlignedMustS, wdm/DontUseThisTypeSession, wdm/PagedPoolCacheAligned, wdm/NonPagedPoolSession, NonPagedPoolSessionNx, NonPagedPoolExecute, wdm/MaxPoolType, wdm/NonPagedPoolCacheAlignedSession, PagedPool, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/NonPagedPoolMustSucceed, MaxPoolType, NonPagedPoolCacheAlignedSession, _POOL_TYPE, kernel.pool_type, NonPagedPoolBase, NonPagedPoolMustSucceed, wdm/PagedPoolSession, wdm/DontUseThisType, NonPagedPoolCacheAligned, NonPagedPoolSession, wdm/NonPagedPoolNxCacheAligned, NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolSessionNx, NonPagedPool, PagedPoolCacheAligned, wdm/NonPagedPool, PagedPoolSession, wdm/NonPagedPoolCacheAlignedMustS, wdm/NonPagedPoolCacheAligned, NonPagedPoolBaseMustSucceed, wdm/PagedPool, DontUseThisType, wdm/NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolMustSucceedSession, wdm/POOL_TYPE, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/NonPagedPoolExecute, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], NonPagedPoolBaseCacheAligned, POOL_TYPE, DontUseThisTypeSession, PagedPoolCacheAlignedSession, NonPagedPoolNxCacheAligned, wdm/NonPagedPoolNx, NonPagedPoolNx
+ms.keywords: wdm/NonPagedPoolSessionNx, wdm/POOL_TYPE, POOL_TYPE, wdm/NonPagedPoolCacheAlignedMustS, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/NonPagedPoolMustSucceed, NonPagedPoolCacheAligned, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/NonPagedPoolExecute, wdm/NonPagedPoolCacheAligned, wdm/PagedPool, NonPagedPoolBaseCacheAlignedMustS, wdm/NonPagedPoolSession, NonPagedPoolCacheAlignedMustSSession, NonPagedPoolMustSucceedSession, NonPagedPoolNx, _POOL_TYPE, wdm/NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolBaseCacheAligned, PagedPool, DontUseThisTypeSession, wdm/NonPagedPoolNx, kernel.pool_type, wdm/PagedPoolCacheAlignedSession, NonPagedPoolBaseMustSucceed, wdm/NonPagedPoolBase, wdm/PagedPoolSession, PagedPoolCacheAligned, NonPagedPoolSessionNx, NonPagedPoolNxCacheAligned, wdm/NonPagedPool, wdm/DontUseThisTypeSession, NonPagedPoolBase, DontUseThisType, NonPagedPoolExecute, NonPagedPoolMustSucceed, wdm/MaxPoolType, PagedPoolSession, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/PagedPoolCacheAligned, MaxPoolType, NonPagedPoolBaseCacheAligned, wdm/NonPagedPoolNxCacheAligned, NonPagedPoolCacheAlignedMustS, NonPagedPool, wdm/NonPagedPoolMustSucceedSession, NonPagedPoolSession, wdm/NonPagedPoolCacheAlignedSession, PagedPoolCacheAlignedSession, wdm/DontUseThisType, NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolBaseCacheAlignedMustS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -213,23 +213,23 @@ Reserved for exclusive use by the operating system.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 <a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtagpriority.md">ExAllocatePoolWithTagPriority</a>
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
 
  
 

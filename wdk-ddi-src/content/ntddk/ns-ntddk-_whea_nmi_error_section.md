@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 960186a4-09ca-4636-b704-166137da6113
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml, ntddk/PWHEA_NMI_ERROR_SECTION, _WHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION, whea.whea_nmi_error_section, WHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications]
+ms.keywords: PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], *PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], whea.whea_nmi_error_section, ntddk/PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, _WHEA_NMI_ERROR_SECTION, ntddk/WHEA_NMI_ERROR_SECTION, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_NMI_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION
+req.typenames: "*PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION"
 ---
 
 # _WHEA_NMI_ERROR_SECTION structure
@@ -94,11 +94,6 @@ A WHEA_NMI_ERROR__SECTION_FLAGS union that describes the source of the NMI error
 </table></span></div>
 
 
-#### AsULONG
-
-A ULONG representation of the contents of the WHEA_NMI_ERROR_SECTION_FLAGS union.
-
-
 #### HypervisorError
 
 A hypervisor error has occurred.
@@ -107,6 +102,11 @@ A hypervisor error has occurred.
 #### Reserved
 
 Reserved for system use.
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_NMI_ERROR_SECTION_FLAGS union.
 
 
 ## -remarks

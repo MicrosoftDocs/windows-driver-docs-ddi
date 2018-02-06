@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModule method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, debugger.getsymbolmodule, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, dbgeng/IDebugSymbols2::GetSymbolModule, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3, GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule
+ms.keywords: dbgeng/IDebugSymbols2::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols interface, GetSymbolModule method [Windows Debugging], IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, IDebugSymbols2::GetSymbolModule, IDebugSymbols3, GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols interface [Windows Debugging], GetSymbolModule method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolModule
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSymbolModule method

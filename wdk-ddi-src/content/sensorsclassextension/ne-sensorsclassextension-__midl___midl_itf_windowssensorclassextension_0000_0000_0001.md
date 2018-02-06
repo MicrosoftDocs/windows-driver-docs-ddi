@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5643cb45-daa0-490e-aa0c-9e3b54c6dbef
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_STATE_ACCESS_DENIED, sensorsclassextension/SENSOR_STATE_MAX, SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, SENSOR_STATE_INITIALIZING, SENSOR_STATE_MIN, SensorState enumeration [Sensor Devices], SENSOR_STATE_ERROR, sensorsclassextension/SENSOR_STATE_MIN, SENSOR_STATE_READY, SENSOR_STATE_MAX, sensorsclassextension/SENSOR_STATE_ERROR, sensorsclassextension/SensorState, sensors.sensorstate, SensorState, sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_NOT_AVAILABLE, Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, sensorsclassextension/SENSOR_STATE_READY, sensorsclassextension/SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_INITIALIZING
+ms.keywords: sensorsclassextension/SENSOR_STATE_READY, SENSOR_STATE_NO_DATA, sensors.sensorstate, SensorState, SENSOR_STATE_ERROR, SensorState enumeration [Sensor Devices], sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, sensorsclassextension/SENSOR_STATE_INITIALIZING, sensorsclassextension/SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_MAX, sensorsclassextension/SENSOR_STATE_MIN, SENSOR_STATE_ACCESS_DENIED, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, sensorsclassextension/SENSOR_STATE_ERROR, SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_READY, Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, SENSOR_STATE_MIN, SENSOR_STATE_INITIALIZING, SENSOR_STATE_MAX, sensorsclassextension/SensorState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

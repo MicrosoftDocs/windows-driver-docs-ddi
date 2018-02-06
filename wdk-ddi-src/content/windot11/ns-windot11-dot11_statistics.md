@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_STATISTICS, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], DOT11_STATISTICS, windot11/PDOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, netvista.dot11_statistics, *PDOT11_STATISTICS
+ms.keywords: netvista.dot11_statistics, windot11/DOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, DOT11_STATISTICS, PDOT11_STATISTICS, *PDOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_STATISTICS_REVISION_1.
@@ -98,11 +103,6 @@ This member must be set to DOT11_STATISTICS_REVISION_1.
 
 This member must be set to 
        sizeof(DOT11_STATISTICS).
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field ullFourWayHandshakeFailures

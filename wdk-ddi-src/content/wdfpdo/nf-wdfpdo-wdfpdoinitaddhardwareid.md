@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, wdf.wdfpdoinitaddhardwareid, PFN_WDFPDOINITADDHARDWAREID, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, wdfpdo/WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method
+ms.keywords: WdfPdoInitAddHardwareID method, wdf.wdfpdoinitaddhardwareid, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, PFN_WDFPDOINITADDHARDWAREID, wdfpdo/WdfPdoInitAddHardwareID, kmdf.wdfpdoinitaddhardwareid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

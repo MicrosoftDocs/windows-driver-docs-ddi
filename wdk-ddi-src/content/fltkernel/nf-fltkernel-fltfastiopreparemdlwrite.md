@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltfastiopreparemdlwrite, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], FsRtlPrepareMdlWriteDev, FltFastIoPrepareMdlWrite, fltkernel/FsRtlPrepareMdlWriteDev
+ms.keywords: FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], ifsk.fltfastiopreparemdlwrite, fltkernel/FsRtlPrepareMdlWriteDev, FltFastIoPrepareMdlWrite, FsRtlPrepareMdlWriteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

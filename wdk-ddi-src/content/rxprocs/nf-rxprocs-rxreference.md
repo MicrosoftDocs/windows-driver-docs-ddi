@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 436cd161-6984-4101-931a-221a829f40d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxprocs/RxReference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml, RxReference, RxReference function [Installable File System Drivers], ifsk.rxreference
+ms.keywords: rxprocs/RxReference, RxReference function [Installable File System Drivers], ifsk.rxreference, RxReference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxReference
 product: Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

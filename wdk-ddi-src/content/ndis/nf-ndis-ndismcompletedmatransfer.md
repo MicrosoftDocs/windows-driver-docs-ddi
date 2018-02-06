@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcompletedmatransfer, NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer
+ms.keywords: netvista.ndismcompletedmatransfer, NdisMCompleteDmaTransfer, dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], ndis/NdisMCompleteDmaTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -106,16 +106,24 @@ TBD
 
 
 
-#### - Buffer [in]
+#### - Status [out]
 
-A pointer to the buffer descriptor previously passed to 
-     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
+A pointer to a caller-supplied variable in which this function returns the final status of the DMA
+     transfer, which can be one of the following:
+     
 
 
-#### - Length [in]
 
-The length in bytes of the transfer. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
+
+#### NDIS_STATUS_SUCCESS
+
+The data has been transferred and flushed to host memory or to the device to maintain data
+       integrity.
+
+
+#### NDIS_STATUS_RESOURCES
+
+The DMA controller was released but the data transfer might be incoherent.
 
 
 #### - MiniportDmaHandle [in]
@@ -127,30 +135,22 @@ The handle returned when the
      NdisMRegisterDmaChannel</a> function.
 
 
+#### - Buffer [in]
+
+A pointer to the buffer descriptor previously passed to 
+     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
+
+
 #### - Offset [in]
 
 The byte offset at which the transfer began. This value also was passed to 
      <b>NdisMSetupDmaTransfer</b>.
 
 
-#### - Status [out]
+#### - Length [in]
 
-A pointer to a caller-supplied variable in which this function returns the final status of the DMA
-     transfer, which can be one of the following:
-     
-
-
-
-
-#### NDIS_STATUS_RESOURCES
-
-The DMA controller was released but the data transfer might be incoherent.
-
-
-#### NDIS_STATUS_SUCCESS
-
-The data has been transferred and flushed to host memory or to the device to maintain data
-       integrity.
+The length in bytes of the transfer. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
 
 
 #### - WriteToDevice [in]
@@ -170,11 +170,11 @@ The data has been transferred and flushed to host memory or to the device to mai
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+
+<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
 
  
 

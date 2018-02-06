@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, display.d3dkmt_sharedprimaryunlocknotification
+ms.keywords: display.d3dkmt_sharedprimaryunlocknotification, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

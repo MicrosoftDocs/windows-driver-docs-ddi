@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], AVC_PIN_DESCRIPTOR, stream.avc_pin_descriptor, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, *PAVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR
+ms.keywords: PAVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR, stream.avc_pin_descriptor, avc/AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], avc/PAVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_PIN_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR"
+req.typenames: AVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR
 ---
 
 # _AVC_PIN_DESCRIPTOR structure

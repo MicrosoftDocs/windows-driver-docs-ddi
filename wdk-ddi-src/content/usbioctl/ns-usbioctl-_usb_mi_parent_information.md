@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9697f739-0eef-4b58-a9f3-8613f71c18be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_MI_PARENT_INFORMATION structure [Buses], usbioctl/PUSB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION structure pointer [Buses], *PUSB_MI_PARENT_INFORMATION, buses.usb_mi_parent_information, PUSB_MI_PARENT_INFORMATION, usbioctl/USB_MI_PARENT_INFORMATION, usbstrct_710c4241-48d7-4fe7-bd1b-268c7c0f2b41.xml, _USB_MI_PARENT_INFORMATION
+ms.keywords: PUSB_MI_PARENT_INFORMATION, usbstrct_710c4241-48d7-4fe7-bd1b-268c7c0f2b41.xml, USB_MI_PARENT_INFORMATION, buses.usb_mi_parent_information, USB_MI_PARENT_INFORMATION structure [Buses], usbioctl/USB_MI_PARENT_INFORMATION, usbioctl/PUSB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION, _USB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,9 +82,9 @@ A composite device is a device with multiple interfaces (MI). The USB stack trea
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

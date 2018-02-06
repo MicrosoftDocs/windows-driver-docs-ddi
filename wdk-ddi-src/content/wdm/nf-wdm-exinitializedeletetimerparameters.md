@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], ExInitializeDeleteTimerParameters, wdm/ExInitializeDeleteTimerParameters, kernel.exinitializedeletetimerparameters
+ms.keywords: ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, ExInitializeDeleteTimerParameters, wdm/ExInitializeDeleteTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

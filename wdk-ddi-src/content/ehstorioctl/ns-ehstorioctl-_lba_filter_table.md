@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/LBA_FILTER_TABLE, _LBA_FILTER_TABLE, storage.lba_filter_table, LBA_FILTER_TABLE structure [Storage Devices], LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], *PLBA_FILTER_TABLE, PLBA_FILTER_TABLE
+ms.keywords: "_LBA_FILTER_TABLE, *PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE structure pointer [Storage Devices], ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table, LBA_FILTER_TABLE, PLBA_FILTER_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LBA_FILTER_TABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE"
+req.typenames: LBA_FILTER_TABLE, *PLBA_FILTER_TABLE
 ---
 
 # _LBA_FILTER_TABLE structure

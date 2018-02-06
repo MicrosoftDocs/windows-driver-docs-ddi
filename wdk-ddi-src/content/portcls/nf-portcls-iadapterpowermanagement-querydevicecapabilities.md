@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QueryDeviceCapabilities method [Audio Devices], portcls/IAdapterPowerManagement::QueryDeviceCapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, audio.iadapterpowermanagement_querydevicecapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement, QueryDeviceCapabilities
+ms.keywords: audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, portcls/IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

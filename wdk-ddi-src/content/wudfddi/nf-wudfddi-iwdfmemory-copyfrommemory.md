@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFMemory::CopyFromMemory, umdf.iwdfmemory_copyfrommemory, CopyFromMemory, IWDFMemory::CopyFromMemory, CopyFromMemory method, CopyFromMemory method, IWDFMemory interface, IWDFMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, wdf.iwdfmemory_copyfrommemory, IWDFMemory interface, CopyFromMemory method
+ms.keywords: IWDFMemory interface, CopyFromMemory method, umdf.iwdfmemory_copyfrommemory, CopyFromMemory method, CopyFromMemory method, IWDFMemory interface, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, wdf.iwdfmemory_copyfrommemory, CopyFromMemory, IWDFMemory::CopyFromMemory, wudfddi/IWDFMemory::CopyFromMemory, IWDFMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.CopyFromMemory
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -105,9 +105,9 @@ The <b>BufferLength</b> member should be set to 0; the framework ignores this me
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7f34d42-6044-43c6-85c8-ca3a6177c057
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointergetnextclone, avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, ks/KsStreamPointerGetNextClone, KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices]
+ms.keywords: avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, stream.ksstreampointergetnextclone, KsStreamPointerGetNextClone function [Streaming Media Devices], ks/KsStreamPointerGetNextClone, KsStreamPointerGetNextClone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

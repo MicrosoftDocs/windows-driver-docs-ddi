@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortMarkDumpMemory, StorPortMarkDumpMemory routine [Storage Devices], MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, storage.storportmarkdumpmemory, storport/StorPortMarkDumpMemory
+ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, StorPortMarkDumpMemory, storport/StorPortMarkDumpMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

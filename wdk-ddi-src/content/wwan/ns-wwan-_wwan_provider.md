@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PROVIDER, PWWAN_PROVIDER, WWAN_PROVIDER, netvista.wwan_provider, *PWWAN_PROVIDER, _WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PROVIDER, WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml
+ms.keywords: netvista.wwan_provider, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PROVIDER, _WWAN_PROVIDER, wwan/WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], PWWAN_PROVIDER, *PWWAN_PROVIDER, WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, WWAN_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -248,9 +248,9 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
-
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
 

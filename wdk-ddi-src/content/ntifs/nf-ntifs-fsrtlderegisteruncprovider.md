@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3f53a22f-b5d6-4e3d-987d-989bd5840b2a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_d1eb1778-7643-44df-8f68-edc995b22246.xml, FsRtlDeregisterUncProvider, ifsk.fsrtlderegisteruncprovider, FsRtlDeregisterUncProvider routine [Installable File System Drivers], ntifs/FsRtlDeregisterUncProvider
+ms.keywords: FsRtlDeregisterUncProvider, FsRtlDeregisterUncProvider routine [Installable File System Drivers], fsrtlref_d1eb1778-7643-44df-8f68-edc995b22246.xml, ntifs/FsRtlDeregisterUncProvider, ifsk.fsrtlderegisteruncprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,9 +100,9 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DC23B286-8A52-4642-B345-D76802C83C55
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses], buses._ucxendpointsetwdfioqueue
+ms.keywords: UcxEndpointSetWdfIoQueue method [Buses], UcxEndpointSetWdfIoQueue, buses._ucxendpointsetwdfioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

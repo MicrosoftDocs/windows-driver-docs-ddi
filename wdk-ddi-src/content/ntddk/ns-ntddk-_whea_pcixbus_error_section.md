@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: f79071e3-7146-49c4-a730-ee13fde4f0d4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml, whea.whea_pcixbus_error_section, *PWHEA_PCIXBUS_ERROR_SECTION, ntddk/WHEA_PCIXBUS_ERROR_SECTION, _WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR, PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], PWHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION, *PWHEA_PCIXBUS_ERROR, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/PWHEA_PCIXBUS_ERROR_SECTION
+ms.keywords: PWHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR, ntddk/PWHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], *PWHEA_PCIXBUS_ERROR, *PWHEA_PCIXBUS_ERROR_SECTION, whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml, WHEA_PCIXBUS_ERROR_SECTION, _WHEA_PCIXBUS_ERROR_SECTION, PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/WHEA_PCIXBUS_ERROR_SECTION, whea.whea_pcixbus_error_section
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,19 +98,9 @@ The type of PCI or PCI-X bus error that occurred. Possible values are:
 This member contains valid data only if the <b>ValidBits.ErrorType</b> bit is set.
 
 
-#### PCIXBUS_ERRTYPE_ADDRESSPARITY
+#### PCIXBUS_ERRTYPE_UNKNOWN
 
-An address parity error.
-
-
-#### PCIXBUS_ERRTYPE_BUSTIMEOUT
-
-A bus timeout, or no device is present.
-
-
-#### PCIXBUS_ERRTYPE_COMMANDPARITY
-
-A command parity error.
+An unknown or platform-specific error.
 
 
 #### PCIXBUS_ERRTYPE_DATAPARITY
@@ -118,9 +108,19 @@ A command parity error.
 A data parity error.
 
 
+#### PCIXBUS_ERRTYPE_SYSTEM
+
+A system error.
+
+
 #### PCIXBUS_ERRTYPE_MASTERABORT
 
 A master abort.
+
+
+#### PCIXBUS_ERRTYPE_BUSTIMEOUT
+
+A bus timeout, or no device is present.
 
 
 #### PCIXBUS_ERRTYPE_MASTERDATAPARITY
@@ -128,14 +128,14 @@ A master abort.
 A master data parity error.
 
 
-#### PCIXBUS_ERRTYPE_SYSTEM
+#### PCIXBUS_ERRTYPE_ADDRESSPARITY
 
-A system error.
+An address parity error.
 
 
-#### PCIXBUS_ERRTYPE_UNKNOWN
+#### PCIXBUS_ERRTYPE_COMMANDPARITY
 
-An unknown or platform-specific error.
+A command parity error.
 
 
 ### -field BusId
@@ -161,11 +161,6 @@ A WHEA_PCIXBUS_ID union that identifies the bus where the error occurred. The WH
 This member contains valid data only if the <b>ValidBits.BusId</b> bit is set.
 
 
-#### AsUSHORT
-
-A USHORT representation of the contents of the WHEA_PCIXBUS_ID union.
-
-
 #### BusNumber
 
 The bus number.
@@ -174,6 +169,11 @@ The bus number.
 #### BusSegment
 
 The bus segment.
+
+
+#### AsUSHORT
+
+A USHORT representation of the contents of the WHEA_PCIXBUS_ID union.
 
 
 ### -field Reserved
@@ -219,11 +219,6 @@ A WHEA_PCIXBUS_COMMAND union that contains the bus command when the error occurr
 This member contains valid data only if the <b>ValidBits.BusCommand</b> bit is set.
 
 
-#### AsULONGLONG
-
-A ULONGLONG representation of the contents of the WHEA_PCIXBUS_COMMAND union.
-
-
 #### Command
 
 The PCI or PCI-X bus command.
@@ -237,6 +232,11 @@ A single bit that indicates that the command is a PCI-X command.
 #### Reserved
 
 Reserved for system use.
+
+
+#### AsULONGLONG
+
+A ULONGLONG representation of the contents of the WHEA_PCIXBUS_COMMAND union.
 
 
 ### -field RequesterId
@@ -269,13 +269,13 @@ The WHEA_PCIXBUS_ERROR_SECTION structure describes the error data that is contai
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section_validbits.md">WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section_validbits.md">WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
  
 

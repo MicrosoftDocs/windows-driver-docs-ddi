@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator= method [Windows Debugging], operator=, ExtRemoteTyped class [Windows Debugging], operator= method, operator= method [Windows Debugging], ExtRemoteTyped class
+ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtRemoteTyped class [Windows Debugging], operator= method, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.operator=
 product: Windows
 targetos: Windows
-req.typenames: "*PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY"
+req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---
 
 # operator= function

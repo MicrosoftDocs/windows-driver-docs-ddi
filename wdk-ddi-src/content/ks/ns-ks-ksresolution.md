@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd6222c-6d54-4e2a-aa5b-8051f0838886
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksresolution, PKSRESOLUTION, KSRESOLUTION, ks/PKSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, *PKSRESOLUTION, ks/KSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices]
+ms.keywords: PKSRESOLUTION, ks/PKSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], stream.ksresolution, *PKSRESOLUTION, ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, ks/KSRESOLUTION, KSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRESOLUTION
 product: Windows
 targetos: Windows
-req.typenames: "*PKSRESOLUTION, KSRESOLUTION"
+req.typenames: KSRESOLUTION, *PKSRESOLUTION
 ---
 
 # KSRESOLUTION structure

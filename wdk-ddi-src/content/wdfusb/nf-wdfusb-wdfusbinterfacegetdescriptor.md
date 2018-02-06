@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70156bfa-8271-42f6-9a22-0d0b77e63b66
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceGetDescriptor, WdfUsbInterfaceGetDescriptor method, wdf.wdfusbinterfacegetdescriptor, kmdf.wdfusbinterfacegetdescriptor, DFUsbRef_eb98efa1-720d-408c-824f-59cfef80bbba.xml, WdfUsbInterfaceGetDescriptor, PFN_WDFUSBINTERFACEGETDESCRIPTOR
+ms.keywords: DFUsbRef_eb98efa1-720d-408c-824f-59cfef80bbba.xml, wdfusb/WdfUsbInterfaceGetDescriptor, kmdf.wdfusbinterfacegetdescriptor, WdfUsbInterfaceGetDescriptor, WdfUsbInterfaceGetDescriptor method, PFN_WDFUSBINTERFACEGETDESCRIPTOR, wdf.wdfusbinterfacegetdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

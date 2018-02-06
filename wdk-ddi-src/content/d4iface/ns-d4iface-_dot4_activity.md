@@ -7,8 +7,8 @@ old-location: print\dot4_activity.htm
 old-project: print
 ms.assetid: CD3DBBA5-AE5C-4DC1-BE52-696138494701
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], _DOT4_ACTIVITY, *PDOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, print.dot4_activity, d4iface/DOT4_ACTIVITY
+ms.date: 2/2/2018
+ms.keywords: d4iface/DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY, *PDOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], print.dot4_activity, _DOT4_ACTIVITY, DOT4_ACTIVITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT4_ACTIVITY
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # _DOT4_ACTIVITY structure

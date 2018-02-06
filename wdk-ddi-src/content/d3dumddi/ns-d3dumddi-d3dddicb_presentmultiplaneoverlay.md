@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4161418c-4f56-4daf-bf3d-e76899ccd1b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY structure [Display Devices], D3DDDICB_PRESENTMULTIPLANEOVERLAY, d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY, display.d3dddicb_presentmultiplaneoverlay
+ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY, D3DDDICB_PRESENTMULTIPLANEOVERLAY, display.d3dddicb_presentmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,13 +102,13 @@ An array of structures of type <a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplan
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info.md">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
+<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info.md">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a>
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
  
 

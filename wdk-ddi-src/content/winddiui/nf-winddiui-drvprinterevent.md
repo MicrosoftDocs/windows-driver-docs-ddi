@@ -7,8 +7,8 @@ old-location: print\drvprinterevent.htm
 old-project: print
 ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvPrinterEvent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent, print.drvprinterevent, DrvPrinterEvent function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: winddiui/DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, print.drvprinterevent, DrvPrinterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvPrinterEvent
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

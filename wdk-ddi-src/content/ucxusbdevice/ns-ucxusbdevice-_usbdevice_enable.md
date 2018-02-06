@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], buses._usbdevice_enable, USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], P_USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE"
+ms.keywords: P_USBDEVICE_ENABLE, buses._usbdevice_enable, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE structure [Buses], ucxusbdevice/_USBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE, _USBDEVICE_ENABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

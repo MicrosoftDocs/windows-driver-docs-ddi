@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, RetrieveOutputMemory, IWDFIoRequest2 interface, RetrieveOutputMemory method, RetrieveOutputMemory method, IWDFIoRequest2 interface, IWDFIoRequest2, umdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory method, wudfddi/IWDFIoRequest2::RetrieveOutputMemory, IWDFIoRequest2::RetrieveOutputMemory, wdf.iwdfiorequest2_retrieveoutputmemory
+ms.keywords: IWDFIoRequest2::RetrieveOutputMemory, IWDFIoRequest2 interface, RetrieveOutputMemory method, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, wdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory method, IWDFIoRequest2, RetrieveOutputMemory method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.RetrieveOutputMemory
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -135,17 +135,17 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
 
  
 

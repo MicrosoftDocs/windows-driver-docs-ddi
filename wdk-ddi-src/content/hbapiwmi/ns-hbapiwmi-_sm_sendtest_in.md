@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5bb0620e-b271-4af6-b528-b904910b8a6c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_SendTEST_IN structure pointer [Storage Devices], SM_SendTEST_IN structure [Storage Devices], hbapiwmi/PSM_SendTEST_IN, PSM_SendTEST_IN, structs-Fibre_6d12c9e2-88bd-4803-893a-bb4e54604fad.xml, hbapiwmi/SM_SendTEST_IN, _SM_SendTEST_IN, *PSM_SendTEST_IN, SM_SendTEST_IN, storage.sm_sendtest_in
+ms.keywords: hbapiwmi/PSM_SendTEST_IN, structs-Fibre_6d12c9e2-88bd-4803-893a-bb4e54604fad.xml, storage.sm_sendtest_in, hbapiwmi/SM_SendTEST_IN, SM_SendTEST_IN structure [Storage Devices], *PSM_SendTEST_IN, PSM_SendTEST_IN structure pointer [Storage Devices], PSM_SendTEST_IN, SM_SendTEST_IN, _SM_SendTEST_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendTEST_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendTEST_IN, SM_SendTEST_IN"
+req.typenames: SM_SendTEST_IN, *PSM_SendTEST_IN
 ---
 
 # _SM_SendTEST_IN structure

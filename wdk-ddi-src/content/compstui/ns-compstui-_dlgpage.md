@@ -7,8 +7,8 @@ old-location: print\dlgpage.htm
 old-project: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_DLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, compstui/PDLGPAGE, *PDLGPAGE, print.dlgpage, DLGPAGE, PDLGPAGE, compstui/DLGPAGE, PDLGPAGE structure pointer [Print Devices], DLGPAGE structure [Print Devices]"
+ms.date: 2/2/2018
+ms.keywords: PDLGPAGE, *PDLGPAGE, DLGPAGE structure [Print Devices], print.dlgpage, compstui/DLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, compstui/PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, DLGPAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

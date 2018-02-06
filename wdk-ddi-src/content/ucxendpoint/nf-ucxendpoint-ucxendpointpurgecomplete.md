@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxendpointpurgecomplete, UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], ucxendpoint/UcxEndpointPurgeComplete
+ms.keywords: UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, UcxEndpointPurgeComplete, ucxendpoint/UcxEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

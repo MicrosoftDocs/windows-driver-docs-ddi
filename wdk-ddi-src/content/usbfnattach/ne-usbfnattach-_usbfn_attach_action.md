@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4470EBAB-6B1F-43D3-B036-F0DD07BC8321
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UsbfnPortDetected, usbfnattach/UsbfnProceedWithAttach, usbfnattach/UsbfnDetectProprietaryCharger, _USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION enumeration [Buses], usbfnattach/UsbfnPortDetected, UsbfnDetectProprietaryCharger, usbfnattach/USBFN_ATTACH_ACTION, UsbfnProceedWithAttach, UsbfnPortDetectedNoCad, buses.usbfn_attach_action, usbfnattach/UsbfnPortDetectedNoCad, UsbfnIgnoreAttach, usbfnattach/UsbfnIgnoreAttach, *PUSBFN_ATTACH_ACTION
+ms.keywords: usbfnattach/UsbfnPortDetected, *PUSBFN_ATTACH_ACTION, usbfnattach/USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION, UsbfnPortDetectedNoCad, usbfnattach/UsbfnPortDetectedNoCad, UsbfnProceedWithAttach, buses.usbfn_attach_action, _USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION enumeration [Buses], UsbfnPortDetected, UsbfnDetectProprietaryCharger, usbfnattach/UsbfnIgnoreAttach, UsbfnIgnoreAttach, usbfnattach/UsbfnProceedWithAttach, usbfnattach/UsbfnDetectProprietaryCharger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_ATTACH_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION"
+req.typenames: USBFN_ATTACH_ACTION, *PUSBFN_ATTACH_ACTION
 req.product: Windows 10 or later.
 ---
 

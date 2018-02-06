@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9415dc9-352a-4e93-a0c1-2519c8c89762
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, _D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], display.d3dddi_createdeviceflags, D3DDDI_CREATEDEVICEFLAGS
+ms.keywords: d3dumddi/D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], D3DDDI_CREATEDEVICEFLAGS, D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, _D3DDDI_CREATEDEVICEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

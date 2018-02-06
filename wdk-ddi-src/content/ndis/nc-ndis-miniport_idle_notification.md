@@ -188,9 +188,9 @@ For guidelines on how to implement the <i>MiniportIdleNotification</i> handler f
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
-
 <a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+
+<a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
 
 <b></b>
 

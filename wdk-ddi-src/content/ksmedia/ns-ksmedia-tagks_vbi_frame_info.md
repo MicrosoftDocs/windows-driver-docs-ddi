@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ae6ba1c3-0729-41bd-9fd5-62969bf4b70c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, KS_VBI_FRAME_INFO structure [Streaming Media Devices], KS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml, ksmedia/PKS_VBI_FRAME_INFO, tagKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
+ms.keywords: ksmedia/PKS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, KS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO, ksmedia/KS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml, tagKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], *PKS_VBI_FRAME_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_VBI_FRAME_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO"
+req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ---
 
 # tagKS_VBI_FRAME_INFO structure

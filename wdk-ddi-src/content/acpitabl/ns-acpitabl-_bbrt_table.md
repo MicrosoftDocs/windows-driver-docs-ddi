@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 0FC4D7BA-4292-4D87-8982-D20D267D6FA5
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpitabl/PBBRT_TABLE, BBRT_TABLE structure [ACPI Devices], PBBRT_TABLE, BBRT_TABLE, acpitabl/BBRT_TABLE, *PBBRT_TABLE, PBBRT_TABLE structure pointer [ACPI Devices], _BBRT_TABLE, acpi.bbrt_table
+ms.keywords: PBBRT_TABLE structure pointer [ACPI Devices], _BBRT_TABLE, PBBRT_TABLE, acpi.bbrt_table, *PBBRT_TABLE, acpitabl/BBRT_TABLE, acpitabl/PBBRT_TABLE, BBRT_TABLE, BBRT_TABLE structure [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed29c80a-7a42-46e3-8a18-d66dfddb9659
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml, ksmedia/KS_DATARANGE_MPEG2_VIDEO, ksmedia/PKS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], *PKS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices], KS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video
+ms.keywords: KS_DATARANGE_MPEG2_VIDEO structure [Streaming Media Devices], vidcapstruct_91d79090-6aa2-4037-8436-7cb21d242e72.xml, *PKS_DATARANGE_MPEG2_VIDEO, tagKS_DATARANGE_MPEG2_VIDEO, ksmedia/PKS_DATARANGE_MPEG2_VIDEO, PKS_DATARANGE_MPEG2_VIDEO structure pointer [Streaming Media Devices], PKS_DATARANGE_MPEG2_VIDEO, stream.ks_datarange_mpeg2_video, ksmedia/KS_DATARANGE_MPEG2_VIDEO, KS_DATARANGE_MPEG2_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

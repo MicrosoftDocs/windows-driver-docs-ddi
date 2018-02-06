@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateNotActivated, *PWWAN_READY_STATE, wwan/WwanReadyStateFailure, WwanReadyStateSimNotInserted, wwan/WWAN_READY_STATE, WwanReadyStateOff, PWWAN_READY_STATE, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateDeviceLocked, _WWAN_READY_STATE, wwan/PWWAN_READY_STATE, WwanReadyStateInitialized, wwan/WwanReadyStateOff, WwanReadyStateNotActivated, WwanReadyStateBadSim, wwan/WwanReadyStateInitialized, wwan/WwanReadyStateSimNotInserted, WwanReadyStateDeviceLocked, wwan/WwanReadyStateBadSim, WWAN_READY_STATE, netvista.wwan_ready_state, WwanReadyStateFailure
+ms.keywords: WwanReadyStateInitialized, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_READY_STATE, netvista.wwan_ready_state, wwan/WwanReadyStateNotActivated, wwan/WwanReadyStateInitialized, WwanReadyStateFailure, wwan/WwanReadyStateFailure, wwan/WwanReadyStateOff, *PWWAN_READY_STATE, WwanReadyStateDeviceLocked, WWAN_READY_STATE, WwanReadyStateOff, WwanReadyStateSimNotInserted, PWWAN_READY_STATE, wwan/WwanReadyStateBadSim, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateDeviceLocked, wwan/PWWAN_READY_STATE, WwanReadyStateBadSim, _WWAN_READY_STATE, wwan/WwanReadyStateSimNotInserted, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, WwanReadyStateNotActivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

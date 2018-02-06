@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d11c3414-86c8-4b68-829e-4523519c5299
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], wdm/RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal, kernel.rtlprefetchmemorynontemporal, k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml
+ms.keywords: kernel.rtlprefetchmemorynontemporal, RtlPrefetchMemoryNonTemporal, wdm/RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

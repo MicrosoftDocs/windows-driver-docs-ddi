@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, PTRACK_DATA, TRACK_DATA, storage.track_data, TRACK_DATA structure [Storage Devices], *PTRACK_DATA, _TRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, PTRACK_DATA structure pointer [Storage Devices]
+ms.keywords: TRACK_DATA structure [Storage Devices], structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, ntddcdrm/TRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], storage.track_data, TRACK_DATA, PTRACK_DATA, _TRACK_DATA, *PTRACK_DATA, ntddcdrm/PTRACK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRACK_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PTRACK_DATA, TRACK_DATA"
+req.typenames: TRACK_DATA, *PTRACK_DATA
 ---
 
 # _TRACK_DATA structure

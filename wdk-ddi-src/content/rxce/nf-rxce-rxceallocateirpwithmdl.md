@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeAllocateIrpWithMDL, rxce/RxCeAllocateIrpWithMDL, ifsk.rxceallocateirpwithmdl, RxCeAllocateIrpWithMDL function [Installable File System Drivers], rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
+ms.keywords: rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, ifsk.rxceallocateirpwithmdl, RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeAllocateIrpWithMDL
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 

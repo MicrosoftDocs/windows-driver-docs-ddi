@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dca9258-a3ae-43f4-a5aa-d591165d72ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], NdisMSynchronizeWithInterruptEx, netvista.ndismsynchronizewithinterruptex, ndis/NdisMSynchronizeWithInterruptEx, BOOLEAN, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml
+ms.keywords: ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], NdisMSynchronizeWithInterruptEx, ndis/NdisMSynchronizeWithInterruptEx, netvista.ndismsynchronizewithinterruptex, BOOLEAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,14 +145,14 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
    IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>

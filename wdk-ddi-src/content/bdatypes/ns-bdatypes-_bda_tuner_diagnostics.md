@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19AE53CF-7C09-4858-9D33-CF4B885111D3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS structure pointer [Streaming Media Devices], stream.bda_tuner_diagnostics, _BDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS, bdatypes/BDA_TUNER_DIAGNOSTICS, *PBDA_TUNER_DIAGNOSTICS, bdatypes/PBDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS structure [Streaming Media Devices]
+ms.keywords: BDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS structure [Streaming Media Devices], bdatypes/BDA_TUNER_DIAGNOSTICS, bdatypes/PBDA_TUNER_DIAGNOSTICS, stream.bda_tuner_diagnostics, _BDA_TUNER_DIAGNOSTICS, *PBDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

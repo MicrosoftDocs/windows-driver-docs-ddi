@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 0, 1, 2, 6, kernel.pep_acpi_initialize_spb_uart_resource, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 7, 5, 3, 4
+ms.keywords: 5, 1, 3, 0, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 6, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 2, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_uart_resource, 4, 7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

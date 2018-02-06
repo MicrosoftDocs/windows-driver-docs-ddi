@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f114e8ef-4fb7-4fdd-9c83-d8e74c91190e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/PSYSAUDIO_SELECT_GRAPH, aud-prop_9dd94d88-2ed4-4908-ac6e-eb1a82ea152d.xml, *PSYSAUDIO_SELECT_GRAPH, audio.sysaudio_select_graph, ksmedia/SYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH structure pointer [Audio Devices], SYSAUDIO_SELECT_GRAPH structure [Audio Devices]
+ms.keywords: ksmedia/PSYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH structure [Audio Devices], aud-prop_9dd94d88-2ed4-4908-ac6e-eb1a82ea152d.xml, PSYSAUDIO_SELECT_GRAPH structure pointer [Audio Devices], PSYSAUDIO_SELECT_GRAPH, audio.sysaudio_select_graph, *PSYSAUDIO_SELECT_GRAPH, ksmedia/SYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,9 +98,9 @@ Reserved. Set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537428">KSPROPERTY_SYSAUDIO_SELECT_GRAPH</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537428">KSPROPERTY_SYSAUDIO_SELECT_GRAPH</a>
 
  
 

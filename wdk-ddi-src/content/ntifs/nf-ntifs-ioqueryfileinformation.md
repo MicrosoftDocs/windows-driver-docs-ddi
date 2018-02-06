@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cfaa6068-979c-49c3-b671-c51ede023776
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoQueryFileInformation function [Installable File System Drivers], IoQueryFileInformation, ntifs/IoQueryFileInformation, ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml
+ms.keywords: ntifs/IoQueryFileInformation, ifsk.ioqueryfileinformation, IoQueryFileInformation function [Installable File System Drivers], IoQueryFileInformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

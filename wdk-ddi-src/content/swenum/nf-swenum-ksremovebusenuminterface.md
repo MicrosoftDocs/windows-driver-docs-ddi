@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b1da622-9a48-4c18-9eee-a99830bd26af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, stream.ksremovebusenuminterface, KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], swenum/KsRemoveBusEnumInterface
+ms.keywords: swenum/KsRemoveBusEnumInterface, KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], stream.ksremovebusenuminterface, ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsRemoveBusEnumInterface
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
+req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
 req.product: Windows 10 or later.
 ---
 

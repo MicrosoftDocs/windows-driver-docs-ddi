@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 4707b797-6759-426d-89eb-01215af6ce19
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSPB_CONNECTION_PARAMETERS structure pointer [Buses], *PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS, _SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses], spbcx/PSPB_CONNECTION_PARAMETERS, spbcx/SPB_CONNECTION_PARAMETERS, SPB.spb_connection_parameters
+ms.keywords: "_SPB_CONNECTION_PARAMETERS, SPB.spb_connection_parameters, spbcx/SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS structure pointer [Buses], PSPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS, spbcx/PSPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SPB_CONNECTION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS"
+req.typenames: SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -105,13 +105,13 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
 
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
+
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
 
 <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 

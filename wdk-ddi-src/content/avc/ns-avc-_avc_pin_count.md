@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e43557ed-3394-47df-9581-fc3f0c314529
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: AVC_PIN_COUNT, PAVC_PIN_COUNT structure pointer [Streaming Media Devices], *PAVC_PIN_COUNT, _AVC_PIN_COUNT, avc/PAVC_PIN_COUNT, stream.avc_pin_count, PAVC_PIN_COUNT, avc/AVC_PIN_COUNT, avcref_693c28a9-c746-4116-aee7-0de54ce08565.xml, AVC_PIN_COUNT structure [Streaming Media Devices]
+ms.keywords: avcref_693c28a9-c746-4116-aee7-0de54ce08565.xml, *PAVC_PIN_COUNT, AVC_PIN_COUNT structure [Streaming Media Devices], stream.avc_pin_count, PAVC_PIN_COUNT structure pointer [Streaming Media Devices], avc/PAVC_PIN_COUNT, _AVC_PIN_COUNT, avc/AVC_PIN_COUNT, PAVC_PIN_COUNT, AVC_PIN_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

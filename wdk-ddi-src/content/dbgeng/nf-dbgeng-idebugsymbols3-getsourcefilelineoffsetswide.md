@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
+ms.keywords: GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getsourcefilelineoffsetswide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, IDebugSymbols3, GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourceFileLineOffsetsWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourceFileLineOffsetsWide method
@@ -134,11 +134,11 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
 
  
 

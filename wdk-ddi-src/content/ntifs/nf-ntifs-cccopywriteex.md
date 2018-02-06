@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCopyWriteEx routine [Installable File System Drivers], ntifs/CcCopyWriteEx, CcCopyWriteEx, ifsk.cccopywriteex
+ms.keywords: ifsk.cccopywriteex, ntifs/CcCopyWriteEx, CcCopyWriteEx routine [Installable File System Drivers], CcCopyWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

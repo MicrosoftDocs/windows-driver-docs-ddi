@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 083b0ab5-e2b9-4dcb-b17d-ab2ebde48665
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces::ReadVirtual, IDebugDataSpaces3::ReadVirtual, ReadVirtual, debugger.readvirtual, dbgeng/IDebugDataSpaces3::ReadVirtual, ReadVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces4::ReadVirtual, ReadVirtual method [Windows Debugging], IDebugDataSpaces::ReadVirtual, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadVirtual, ReadVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2::ReadVirtual, ReadVirtual method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces_8f9b4f7a-04c6-4775-9d15-a4e1c56ca48c.xml, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtual method, ReadVirtual method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::ReadVirtual
+ms.keywords: IDebugDataSpaces_8f9b4f7a-04c6-4775-9d15-a4e1c56ca48c.xml, IDebugDataSpaces3::ReadVirtual, IDebugDataSpaces::ReadVirtual, debugger.readvirtual, dbgeng/IDebugDataSpaces2::ReadVirtual, ReadVirtual method [Windows Debugging], ReadVirtual, ReadVirtual method [Windows Debugging], IDebugDataSpaces2 interface, ReadVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces4::ReadVirtual, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadVirtual, dbgeng/IDebugDataSpaces3::ReadVirtual, ReadVirtual method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::ReadVirtual, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces2::ReadVirtual, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtual method, ReadVirtual method [Windows Debugging], IDebugDataSpaces interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadVirtual method
@@ -131,17 +131,17 @@ When reading memory that contains pointers, these pointers are for the target's 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554361">ReadVirtualUncached</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
 
  
 

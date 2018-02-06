@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6db72f2c-af24-4807-b90b-65dc2b309dc7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/HalExamineMBR, k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, HalExamineMBR, kernel.halexaminembr, HalExamineMBR routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/HalExamineMBR, k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, HalExamineMBR, HalExamineMBR routine [Kernel-Mode Driver Architecture], kernel.halexaminembr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

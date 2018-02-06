@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WheaErrSrcTypeMCE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeSCIGeneric, WheaErrSrcTypePCIe, _WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeIPFCPE, WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeINIT, ntddk/WheaErrSrcTypeNMI, WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeCMC, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypeMCE, ntddk/WheaErrSrcTypeINIT, *PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeCPE, ntddk/WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeGeneric, ntddk/PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, whea.whea_error_source_type, PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeCPE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeCMC, WheaErrSrcTypeNMI
+ms.keywords: whea.whea_error_source_type, ntddk/WheaErrSrcTypeSCIGeneric, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeINIT, PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeBOOT, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], WheaErrSrcTypeCMC, WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeMCE, WheaErrSrcTypeCPE, WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeIPFMCA, WheaErrSrcTypeBOOT, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeGeneric, ntddk/WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeNMI, WheaErrSrcTypeMax, WheaErrSrcTypeIPFMCA, WHEA_ERROR_SOURCE_TYPE, _WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeCMC, WheaErrSrcTypeSCIGeneric, ntddk/WheaErrSrcTypeMax, WheaErrSrcTypeMCE, WheaErrSrcTypeINIT, WheaErrSrcTypeNMI, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_SOURCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
+req.typenames: "*PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE"
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration

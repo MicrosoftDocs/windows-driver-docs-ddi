@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 586820c5-5662-4f2d-9413-d06b9794173a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changersetaccess, ChangerSetAccess, chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, ChangerSetAccess function [Storage Devices], mcd/ChangerSetAccess
+ms.keywords: mcd/ChangerSetAccess, chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, ChangerSetAccess, ChangerSetAccess function [Storage Devices], storage.changersetaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

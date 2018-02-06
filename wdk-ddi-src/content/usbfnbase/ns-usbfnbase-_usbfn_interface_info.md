@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USBFN_INTERFACE_INFO, buses.usbfn_interface_info, PUSBFN_INTERFACE_INFO structure pointer [Buses], PUSBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], usbfnbase/PUSBFN_INTERFACE_INFO"
+ms.keywords: PUSBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, _USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO, buses.usbfn_interface_info, usbfnbase/USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], usbfnbase/PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_INTERFACE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO"
+req.typenames: USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO
 req.product: Windows 10 or later.
 ---
 

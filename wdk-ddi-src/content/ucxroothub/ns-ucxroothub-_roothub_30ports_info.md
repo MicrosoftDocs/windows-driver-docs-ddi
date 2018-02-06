@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2E727D84-193C-45AA-AEC4-75B72BB23FC9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO, ucxroothub/P_ROOTHUB_30PORTS_INFO, ucxroothub/_ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO structure pointer [Buses], ROOTHUB_30PORTS_INFO, buses._roothub_30ports_info, ROOTHUB_30PORTS_INFO structure [Buses], _ROOTHUB_30PORTS_INFO"
+ms.keywords: P_ROOTHUB_30PORTS_INFO, buses._roothub_30ports_info, ucxroothub/P_ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO structure pointer [Buses], ROOTHUB_30PORTS_INFO, ROOTHUB_30PORTS_INFO structure [Buses], ucxroothub/_ROOTHUB_30PORTS_INFO, _ROOTHUB_30PORTS_INFO, *PROOTHUB_30PORTS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ROOTHUB_30PORTS_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PROOTHUB_30PORTS_INFO, ROOTHUB_30PORTS_INFO"
+req.typenames: ROOTHUB_30PORTS_INFO, *PROOTHUB_30PORTS_INFO
 req.product: Windows 10 or later.
 ---
 

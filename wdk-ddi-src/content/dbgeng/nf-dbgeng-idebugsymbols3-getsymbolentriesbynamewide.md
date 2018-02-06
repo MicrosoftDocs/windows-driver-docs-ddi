@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method, IDebugSymbols3, GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide, GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetSymbolEntriesByNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolentriesbynamewide, IDebugSymbols3, IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolEntriesByNameWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSymbolEntriesByNameWide method

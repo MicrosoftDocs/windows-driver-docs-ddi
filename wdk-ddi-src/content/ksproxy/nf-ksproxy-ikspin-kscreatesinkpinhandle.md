@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin, KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, stream.ikspin_kscreatesinkpinhandle, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, ksproxy/IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin::KsCreateSinkPinHandle
+ms.keywords: KsCreateSinkPinHandle, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, ksproxy/IKsPin::KsCreateSinkPinHandle, stream.ikspin_kscreatesinkpinhandle, IKsPin::KsCreateSinkPinHandle, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, IKsPin, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, KsCreateSinkPinHandle method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,11 +98,11 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
-
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
  
 

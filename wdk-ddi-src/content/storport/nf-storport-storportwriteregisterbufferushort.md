@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterBufferUshort routine [Storage Devices], storport/StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort, storage.storportwriteregisterbufferushort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml
+ms.keywords: storage.storportwriteregisterbufferushort, storport/StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml, StorPortWriteRegisterBufferUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

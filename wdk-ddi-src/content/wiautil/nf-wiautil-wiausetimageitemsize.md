@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize function [Imaging Devices], wiauSetImageItemSize, wiautil/wiauSetImageItemSize, image.wiausetimageitemsize
+ms.keywords: wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, image.wiausetimageitemsize, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

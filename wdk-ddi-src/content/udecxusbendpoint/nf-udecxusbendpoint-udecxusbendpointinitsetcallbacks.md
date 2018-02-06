@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0F6EBBDA-FA0B-4044-905B-535D4FFEC5D2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxUsbEndpointInitSetCallbacks function [Buses], UdecxUsbEndpointInitSetCallbacks, buses.udecxusbendpointinitsetcallbacks, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
+ms.keywords: udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks, buses.udecxusbendpointinitsetcallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
  
 

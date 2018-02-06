@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7886a796-2755-4367-bbbd-2017e7900bf4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_BUS_CHECK, ntddk/WHEA_XPF_BUS_CHECK, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], *PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK, whea.whea_xpf_bus_check, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_BUS_CHECK, _WHEA_XPF_BUS_CHECK
+ms.keywords: "*PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK, ntddk/WHEA_XPF_BUS_CHECK, _WHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], whea.whea_xpf_bus_check, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_BUS_CHECK, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_BUS_CHECK
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK"
+req.typenames: WHEA_XPF_BUS_CHECK, *PWHEA_XPF_BUS_CHECK
 ---
 
 # _WHEA_XPF_BUS_CHECK structure
@@ -253,34 +253,19 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_XPF_BUS_CHECK union.
 
 
-##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_IO
+##### - TransactionType.XPF_BUS_CHECK_TRANSACTIONTYPE_INSTRUCTION
 
-I/O address space.
-
-
-##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_MEMORY
-
-Memory address space.
+A processor instruction transaction.
 
 
-##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_OTHER
+##### - TransactionType.XPF_BUS_CHECK_TRANSACTIONTYPE_DATAACCESS
 
-An unclassified type of address space.
-
-
-##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_RESERVED
-
-Reserved.
+A data access transaction.
 
 
-##### - Operation.XPF_BUS_CHECK_OPERATION_DATAREAD
+##### - TransactionType.XPF_BUS_CHECK_TRANSACTIONTYPE_GENERIC
 
-A data read operation.
-
-
-##### - Operation.XPF_BUS_CHECK_OPERATION_DATAWRITE
-
-A data write operation.
+A generic transaction.
 
 
 ##### - Operation.XPF_BUS_CHECK_OPERATION_GENERIC
@@ -298,6 +283,16 @@ A generic read operation.
 A generic write operation.
 
 
+##### - Operation.XPF_BUS_CHECK_OPERATION_DATAREAD
+
+A data read operation.
+
+
+##### - Operation.XPF_BUS_CHECK_OPERATION_DATAWRITE
+
+A data write operation.
+
+
 ##### - Operation.XPF_BUS_CHECK_OPERATION_INSTRUCTIONFETCH
 
 An instruction fetch operation.
@@ -306,16 +301,6 @@ An instruction fetch operation.
 ##### - Operation.XPF_BUS_CHECK_OPERATION_PREFETCH
 
 An instruction prefetch operation.
-
-
-##### - Participation.XPF_BUS_CHECK_PARTICIPATION_GENERIC
-
-A generic value for this member if none of the other values are applicable.
-
-
-##### - Participation.XPF_BUS_CHECK_PARTICIPATION_PROCOBSERVED
-
-The local processor observed the request.
 
 
 ##### - Participation.XPF_BUS_CHECK_PARTICIPATION_PROCORIGINATED
@@ -328,19 +313,34 @@ The local processor originated the request.
 The local processor responded to the request.
 
 
-##### - TransactionType.XPF_BUS_CHECK_TRANSACTIONTYPE_DATAACCESS
+##### - Participation.XPF_BUS_CHECK_PARTICIPATION_PROCOBSERVED
 
-A data access transaction.
-
-
-##### - TransactionType.XPF_BUS_CHECK_TRANSACTIONTYPE_GENERIC
-
-A generic transaction.
+The local processor observed the request.
 
 
-##### - TransactionType.XPF_BUS_CHECK_TRANSACTIONTYPE_INSTRUCTION
+##### - Participation.XPF_BUS_CHECK_PARTICIPATION_GENERIC
 
-A processor instruction transaction.
+A generic value for this member if none of the other values are applicable.
+
+
+##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_MEMORY
+
+Memory address space.
+
+
+##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_RESERVED
+
+Reserved.
+
+
+##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_IO
+
+I/O address space.
+
+
+##### - AddressSpace.XPF_BUS_CHECK_ADDRESS_OTHER
+
+An unclassified type of address space.
 
 
 ## -remarks

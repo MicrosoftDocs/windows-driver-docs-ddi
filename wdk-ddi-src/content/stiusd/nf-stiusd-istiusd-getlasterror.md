@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a7f265b8-c8a9-4a79-85e2-e3f52bf25f31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetLastError method [Imaging Devices], IStiUSD interface, GetLastError method [Imaging Devices], IStiUSD, IStiUSD::GetLastError, GetLastError, image.istiusd_getlasterror, IStiUSD interface [Imaging Devices], GetLastError method, stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, stiusd/IStiUSD::GetLastError
+ms.keywords: GetLastError method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], GetLastError method, image.istiusd_getlasterror, GetLastError method [Imaging Devices], stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, GetLastError, IStiUSD, stiusd/IStiUSD::GetLastError, IStiUSD::GetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.GetLastError
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

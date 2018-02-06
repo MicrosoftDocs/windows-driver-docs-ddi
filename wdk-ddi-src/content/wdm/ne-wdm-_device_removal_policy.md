@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 51d1f0f5-4ca1-4ea6-8561-117240551355
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.device_removal_policy, DEVICE_REMOVAL_POLICY, RemovalPolicyExpectNoRemoval, _DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectSurpriseRemoval, *PDEVICE_REMOVAL_POLICY, wdm/DEVICE_REMOVAL_POLICY, wdm/PDEVICE_REMOVAL_POLICY, RemovalPolicyExpectSurpriseRemoval, wdm/RemovalPolicyExpectNoRemoval, RemovalPolicyExpectOrderlyRemoval, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], PDEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectOrderlyRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: "_DEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectNoRemoval, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, RemovalPolicyExpectNoRemoval, *PDEVICE_REMOVAL_POLICY, kernel.device_removal_policy, wdm/PDEVICE_REMOVAL_POLICY, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], RemovalPolicyExpectOrderlyRemoval, DEVICE_REMOVAL_POLICY, RemovalPolicyExpectSurpriseRemoval, wdm/RemovalPolicyExpectOrderlyRemoval, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], wdm/RemovalPolicyExpectSurpriseRemoval, wdm/DEVICE_REMOVAL_POLICY, PDEVICE_REMOVAL_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_REMOVAL_POLICY
 product: Windows
 targetos: Windows
-req.typenames: DEVICE_REMOVAL_POLICY, *PDEVICE_REMOVAL_POLICY
+req.typenames: "*PDEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,9 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
 
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassDebugPrint, StreamClassDebugPrint, stream.streamclassdebugprint, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, StreamClassDebugPrint routine [Streaming Media Devices]
+ms.keywords: strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, StreamClassDebugPrint routine [Streaming Media Devices], StreamClassDebugPrint, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassDebugPrint
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 

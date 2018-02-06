@@ -40,7 +40,7 @@ apiname:
 -	KnownStructOutput
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # PDEBUG_EXTENSION_KNOWN_STRUCT callback
@@ -106,24 +106,6 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
-#### - Address [in]
-
-<b>When getting a list of names:</b> Unused.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
-
-
-#### - BufferSize [in, out]
-
-<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-
 #### - Flag [in]
 
 One of the following values, depending on what information the engine wants to obtain from the extension DLL.
@@ -165,6 +147,15 @@ Get  a single-line representation of a structure.
 </table> 
 
 
+#### - Address [in]
+
+<b>When getting a list of names:</b> Unused.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
+
+
 #### - StructName [in]
 
 <b>When getting a list of names:</b>  Unused.
@@ -172,6 +163,15 @@ Get  a single-line representation of a structure.
 <b>When asking whether a name should be printed:</b> Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
 
 <b>When getting a single-line representation:</b>  Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
+
+
+#### - BufferSize [in, out]
+
+<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
 
 
 ## -returns

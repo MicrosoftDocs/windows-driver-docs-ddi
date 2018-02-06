@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9cdc6548-393f-4af6-a8ee-bb96deb0f228
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], RILMODEMRESETSTATE, rilapitypes/RILMODEMRESETSTATE, rilapitypes/RIL_MODEMRESETSTATE_RECOVERED, RIL_MODEMRESETSTATE_RECOVERED, RIL_MODEMRESETSTATE_FAILED, rilapitypes/RIL_MODEMRESETSTATE_FAILED, netvista.rilmodemresetstate_2, RIL_MODEMRESETSTATE_MAX, rilapitypes/RIL_MODEMRESETSTATE_MAX
+ms.keywords: rilapitypes/RIL_MODEMRESETSTATE_MAX, RIL_MODEMRESETSTATE_MAX, netvista.rilmodemresetstate_2, RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMODEMRESETSTATE, RIL_MODEMRESETSTATE_RECOVERED, RIL_MODEMRESETSTATE_FAILED, rilapitypes/RIL_MODEMRESETSTATE_RECOVERED, rilapitypes/RIL_MODEMRESETSTATE_FAILED, RILMODEMRESETSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

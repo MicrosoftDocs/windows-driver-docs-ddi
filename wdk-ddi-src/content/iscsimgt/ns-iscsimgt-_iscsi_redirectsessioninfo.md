@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsimgt/PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], PISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, iscsimgt/ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, _ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices]
+ms.keywords: PISCSI_RedirectSessionInfo structure pointer [Storage Devices], ISCSI_RedirectSessionInfo structure [Storage Devices], iscsimgt/PISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo, _ISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,9 +92,9 @@ This provides the redirection information, and it has as many entries as the num
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
  
 

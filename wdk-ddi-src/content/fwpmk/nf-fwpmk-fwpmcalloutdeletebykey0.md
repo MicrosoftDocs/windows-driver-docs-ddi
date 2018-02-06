@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b4c3cb7e-9c4a-40a5-a11b-952562c4790b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpmCalloutDeleteByKey0, netvista.fwpmcalloutdeletebykey0, fwpmk/FwpmCalloutDeleteByKey0, wfp_ref_2_funct_2_fwpm_606dbd2f-8df7-497b-8feb-ba7aedbabedb.xml, FwpmCalloutDeleteByKey0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwpmcalloutdeletebykey0, fwpmk/FwpmCalloutDeleteByKey0, FwpmCalloutDeleteByKey0, wfp_ref_2_funct_2_fwpm_606dbd2f-8df7-497b-8feb-ba7aedbabedb.xml, FwpmCalloutDeleteByKey0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	FwpmCalloutDeleteByKey0
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
 ---
 
 # FwpmCalloutDeleteByKey0 function

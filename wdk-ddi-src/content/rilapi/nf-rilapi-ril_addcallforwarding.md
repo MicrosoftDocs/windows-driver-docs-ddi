@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86b08757-bbc0-4f19-8153-c6ecae158cf2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_AddCallForwarding method [Network Drivers Starting with Windows Vista], rilapi/RIL_AddCallForwarding, netvista.ril_addcallforwarding, RIL_AddCallForwarding
+ms.keywords: netvista.ril_addcallforwarding, rilapi/RIL_AddCallForwarding, RIL_AddCallForwarding, RIL_AddCallForwarding method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_AddCallForwarding
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

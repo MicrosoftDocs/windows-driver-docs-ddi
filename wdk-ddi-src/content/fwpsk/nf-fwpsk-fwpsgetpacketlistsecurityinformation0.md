@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsGetPacketListSecurityInformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, netvista.fwpsgetpacketlistsecurityinformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0
+ms.keywords: FwpsGetPacketListSecurityInformation0, fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,24 +88,14 @@ A UINT32 value that contains a bitwise OR of a combination of the following flag
 
 
 
-#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_INBOUND
-
-Retrieve all information associated with an inbound packet list.
-
-
-#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_OUTBOUND
-
-Retrieve all information associated with an outbound packet list.
-
-
-#### FWPS_PACKET_LIST_INFORMATION_QUERY_FWP
-
-Retrieve the Windows Filtering Platform information associated with the packet list.
-
-
 #### FWPS_PACKET_LIST_INFORMATION_QUERY_INBOUND
 
 Retrieve information for an inbound packet list.
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND
+
+Retrieve information for an outbound packet list.
 
 
 #### FWPS_PACKET_LIST_INFORMATION_QUERY_IPSEC
@@ -115,9 +105,19 @@ Retrieve the IPsec information associated with the packet list. This flag must b
        FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND flag.
 
 
-#### FWPS_PACKET_LIST_INFORMATION_QUERY_OUTBOUND
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_FWP
 
-Retrieve information for an outbound packet list.
+Retrieve the Windows Filtering Platform information associated with the packet list.
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_INBOUND
+
+Retrieve all information associated with an inbound packet list.
+
+
+#### FWPS_PACKET_LIST_INFORMATION_QUERY_ALL_OUTBOUND
+
+Retrieve all information associated with an outbound packet list.
 
 
 ### -param packetInformation [in, out]

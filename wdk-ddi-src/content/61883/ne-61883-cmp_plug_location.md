@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C46822B9-2263-4424-853B-32C726D83950
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CMP_PLUG_LOCATION, 61883/CMP_PlugRemote, CMP_PlugRemote, CMP_PlugLocal, 61883/CMP_PlugLocal, CMP_PLUG_LOCATION enumeration [Buses], IEEE.cmp_plug_location, 61883/CMP_PLUG_LOCATION
+ms.keywords: 61883/CMP_PLUG_LOCATION, IEEE.cmp_plug_location, CMP_PlugLocal, 61883/CMP_PlugRemote, 61883/CMP_PlugLocal, CMP_PLUG_LOCATION, CMP_PlugRemote, CMP_PLUG_LOCATION enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

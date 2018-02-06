@@ -40,7 +40,7 @@ apiname:
 -	ResourceUnmap
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_RESOURCEUNMAP callback
@@ -87,11 +87,6 @@ VOID APIENTRY ResourceUnmap(
 
 
 
-#### - Subresource [in]
-
- An index that indicates the subresource to unmap. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -100,6 +95,11 @@ VOID APIENTRY ResourceUnmap(
 #### - hResource [in]
 
  A handle to the resource to unmap.
+
+
+#### - Subresource [in]
+
+ An index that indicates the subresource to unmap. 
 
 
 ## -returns

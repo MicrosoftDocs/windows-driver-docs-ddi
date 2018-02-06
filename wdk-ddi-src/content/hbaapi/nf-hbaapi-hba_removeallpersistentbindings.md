@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f15823dd-a9c5-46a8-a376-41b831450b66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemoveAllPersistentBindings routine [Storage Devices], storage.hba_removeallpersistentbindings, fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml, hbaapi/HBA_RemoveAllPersistentBindings, HBA_RemoveAllPersistentBindings
+ms.keywords: hbaapi/HBA_RemoveAllPersistentBindings, storage.hba_removeallpersistentbindings, HBA_RemoveAllPersistentBindings, HBA_RemoveAllPersistentBindings routine [Storage Devices], fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,9 +144,9 @@ The removal of persistent bindings does not change target mappings until the ope
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

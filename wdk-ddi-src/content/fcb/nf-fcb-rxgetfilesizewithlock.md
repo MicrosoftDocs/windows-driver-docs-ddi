@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f58c2a7a-0782-47a7-84e6-98df541c875d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxGetFileSizeWithLock function [Installable File System Drivers], ifsk.rxgetfilesizewithlock, fcb/RxGetFileSizeWithLock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml, RxGetFileSizeWithLock
+ms.keywords: RxGetFileSizeWithLock function [Installable File System Drivers], rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml, RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock, fcb/RxGetFileSizeWithLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxGetFileSizeWithLock
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxGetFileSizeWithLock function
@@ -100,9 +100,9 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
  
 

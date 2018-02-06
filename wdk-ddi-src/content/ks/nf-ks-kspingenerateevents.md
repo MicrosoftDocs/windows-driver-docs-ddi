@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, KsPinGenerateEvents, stream.kspingenerateevents, ks/KsPinGenerateEvents
+ms.keywords: stream.kspingenerateevents, ks/KsPinGenerateEvents, KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, KsPinGenerateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,9 +159,9 @@ The event is present in <i>Pin's </i>event list and <i>EventId </i>matches the e
 
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
-
 <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
  
 

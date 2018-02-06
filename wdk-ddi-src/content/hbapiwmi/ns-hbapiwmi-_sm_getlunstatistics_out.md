@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5b7e4eb2-d6e9-49c9-b84f-72dd4198c0ce
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], *PSM_GetLUNStatistics_OUT, storage.sm_getlunstatistics_out, structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml, hbapiwmi/SM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT structure [Storage Devices], SM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT, _SM_GetLUNStatistics_OUT
+ms.keywords: hbapiwmi/PSM_GetLUNStatistics_OUT, hbapiwmi/SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT, storage.sm_getlunstatistics_out, PSM_GetLUNStatistics_OUT, structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml, SM_GetLUNStatistics_OUT, _SM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], SM_GetLUNStatistics_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetLUNStatistics_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT
+req.typenames: "*PSM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT"
 ---
 
 # _SM_GetLUNStatistics_OUT structure

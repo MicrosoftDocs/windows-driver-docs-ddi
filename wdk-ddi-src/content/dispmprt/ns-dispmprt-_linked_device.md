@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.linked_device, dispmprt/PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], LINKED_DEVICE, *PLINKED_DEVICE, _LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], dispmprt/LINKED_DEVICE
+ms.keywords: display.linked_device, LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], *PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], dispmprt/PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, dispmprt/LINKED_DEVICE, PLINKED_DEVICE, _LINKED_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LINKED_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: LINKED_DEVICE, *PLINKED_DEVICE
+req.typenames: "*PLINKED_DEVICE, LINKED_DEVICE"
 ---
 
 # _LINKED_DEVICE structure

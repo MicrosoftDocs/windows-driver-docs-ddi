@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_PreProcessControllerInterrupt
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_NI_INFO, GNSS_V2UPL_NI_INFO"
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT callback

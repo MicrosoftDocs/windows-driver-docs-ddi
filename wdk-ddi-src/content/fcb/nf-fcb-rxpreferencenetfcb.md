@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bc8999e2-d305-407f-8302-6834efa698c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml, fcb/RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], ifsk.rxpreferencenetfcb, RxpReferenceNetFcb
+ms.keywords: ifsk.rxpreferencenetfcb, fcb/RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml, RxpReferenceNetFcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxpReferenceNetFcb
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxpReferenceNetFcb function

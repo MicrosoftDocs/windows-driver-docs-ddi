@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], ntifs/FsRtlSetEcpListIntoIrp, ifsk.fsrtlsetecplistintoirp, FsRtlSetEcpListIntoIrp
+ms.keywords: ifsk.fsrtlsetecplistintoirp, ntifs/FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp, fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,9 +135,9 @@ To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
 <a href="..\ntifs\nf-ntifs-fsrtlgetecplistfromirp.md">FsRtlGetEcpListFromIrp</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
  
 

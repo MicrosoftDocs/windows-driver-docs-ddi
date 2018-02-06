@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwWaitForSingleObject, NtWaitForSingleObject, ntifs/ZwWaitForSingleObject, kernel.zwwaitforsingleobject, k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, ntifs/NtWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, NtWaitForSingleObject, kernel.zwwaitforsingleobject, ZwWaitForSingleObject, ntifs/ZwWaitForSingleObject, ntifs/NtWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,25 +209,25 @@ Time-out intervals are measured relative to the system clock, and the accuracy o
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
 
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
 <a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
  
 

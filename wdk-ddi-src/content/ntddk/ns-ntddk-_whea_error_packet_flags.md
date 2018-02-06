@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e1dae7df-7d81-42cc-9a01-44345f53ba4e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_ERROR_PACKET_FLAGS union [WHEA Drivers and Applications], ntddk/WHEA_ERROR_PACKET_FLAGS, WHEA_ERROR_PACKET_FLAGS, ntddk/PWHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS union pointer [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS, *PWHEA_ERROR_PACKET_FLAGS, whearef_c193e4e7-f233-4de0-93ac-5e7b841a6c6e.xml, whea.whea_error_packet_flags
+ms.keywords: WHEA_ERROR_PACKET_FLAGS, _WHEA_ERROR_PACKET_FLAGS, ntddk/PWHEA_ERROR_PACKET_FLAGS, whearef_c193e4e7-f233-4de0-93ac-5e7b841a6c6e.xml, ntddk/WHEA_ERROR_PACKET_FLAGS, WHEA_ERROR_PACKET_FLAGS union [WHEA Drivers and Applications], whea.whea_error_packet_flags, PWHEA_ERROR_PACKET_FLAGS, *PWHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS union pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,9 +147,9 @@ The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by usin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d2ded330-edcc-4bdd-9b52-73c1961d8ef2">Predictive Failure Analysis (PFA)</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+<a href="https://msdn.microsoft.com/d2ded330-edcc-4bdd-9b52-73c1961d8ef2">Predictive Failure Analysis (PFA)</a>
 
  
 

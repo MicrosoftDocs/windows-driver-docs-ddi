@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, ExtCheckedPointer::operator=, operator= method [Windows Debugging], ExtDeclAlignedBuffer::operator=, operator=, ExtCheckedPointer, ExtBuffer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, ExtDeclAlignedBuffer
+ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtCheckedPointer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, ExtDeclAlignedBuffer::operator=, ExtBuffer::operator=, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging], ExtDeclAlignedBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

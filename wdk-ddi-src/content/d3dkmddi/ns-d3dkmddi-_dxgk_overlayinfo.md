@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7c2a7484-452f-4801-b650-3d8221740892
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_OVERLAYINFO, _DXGK_OVERLAYINFO, DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, DXGK_OVERLAYINFO structure [Display Devices], DXGK_OVERLAYINFO, display.dxgk_overlayinfo
+ms.keywords: "_DXGK_OVERLAYINFO, DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, DXGK_OVERLAYINFO structure [Display Devices], display.dxgk_overlayinfo, d3dkmddi/DXGK_OVERLAYINFO, DXGK_OVERLAYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,11 +114,11 @@ typedef struct _DXGK_OVERLAYINFO {
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
 
  
 

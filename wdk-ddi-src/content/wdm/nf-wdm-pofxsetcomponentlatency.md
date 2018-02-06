@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxSetComponentLatency, PoFxSetComponentLatency, kernel.pofxsetcomponentlatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pofxsetcomponentlatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, PoFxSetComponentLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

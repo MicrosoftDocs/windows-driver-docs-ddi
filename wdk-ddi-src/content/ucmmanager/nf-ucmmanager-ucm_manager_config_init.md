@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5247D5F0-8422-48C1-81AF-98C8A3537FAD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_MANAGER_CONFIG_INIT function [Buses], UCM_MANAGER_CONFIG_INIT, ucmmanager/UCM_MANAGER_CONFIG_INIT, buses.ucm_manager_config_init
+ms.keywords: UCM_MANAGER_CONFIG_INIT function [Buses], buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT, UCM_MANAGER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UCM_MANAGER_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 

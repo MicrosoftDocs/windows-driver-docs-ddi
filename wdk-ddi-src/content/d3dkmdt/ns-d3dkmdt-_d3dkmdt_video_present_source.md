@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 907df90c-dfea-40bf-9d08-5f5d87571ed8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_video_present_source, D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], _D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE, DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE
+ms.keywords: display.d3dkmdt_video_present_source, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE, _D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

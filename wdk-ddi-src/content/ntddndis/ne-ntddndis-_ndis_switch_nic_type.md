@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ff7a803-9de4-4b2f-ab5f-3eb5107d5b64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_TYPE, _NDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeExternal, NDIS_SWITCH_NIC_TYPE, ntddndis/NDIS_SWITCH_NIC_TYPE, ntddndis/PNDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeInternal, ntddndis/NdisSwitchNicTypeExternal, NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeSynthetic, ntddndis/NdisSwitchNicTypeInternal, netvista.ndis_switch_nic_type, NdisSwitchNicTypeSynthetic, ntddndis/NdisSwitchNicTypeEmulated, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_NIC_TYPE, NdisSwitchNicTypeExternal, ntddndis/NdisSwitchNicTypeExternal, NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, _NDIS_SWITCH_NIC_TYPE, ntddndis/NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeSynthetic, NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeInternal, NdisSwitchNicTypeInternal, NdisSwitchNicTypeSynthetic, netvista.ndis_switch_nic_type, PNDIS_SWITCH_NIC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

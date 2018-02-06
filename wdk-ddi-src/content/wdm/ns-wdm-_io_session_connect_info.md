@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9d7ffae-aa9e-44d6-b659-cb5a9068f1d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], wdm/IO_SESSION_CONNECT_INFO, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml, wdm/PIO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO, kernel.io_session_connect_info
+ms.keywords: IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], _IO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_CONNECT_INFO, wdm/PIO_SESSION_CONNECT_INFO, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml, wdm/IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO, kernel.io_session_connect_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_SESSION_CONNECT_INFO
 product: Windows
 targetos: Windows
-req.typenames: IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO
+req.typenames: "*PIO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -88,9 +88,9 @@ If a driver is registered to receive notifications of events in a user session, 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
-
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
+
+<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
  
 

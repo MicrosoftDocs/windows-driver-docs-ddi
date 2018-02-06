@@ -89,16 +89,9 @@ Specifies the final status of the client's asynchronous request to modify the ca
 
 
 
-#### NDIS_STATUS_FAILURE
+#### NDIS_STATUS_SUCCESS
 
-The call manager could not change the QoS because of a failure on the network or in another
-       connection-oriented network component.
-
-
-#### NDIS_STATUS_INVALID_DATA
-
-The call parameters that the client supplied to 
-       <b>NdisClModifyCallQoS</b> were invalid.
+The QoS was modified as requested by the client.
 
 
 #### NDIS_STATUS_RESOURCES
@@ -107,9 +100,16 @@ NDIS or the call manager could not modify the QoS because one of them could not 
        sufficient resources dynamically.
 
 
-#### NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_INVALID_DATA
 
-The QoS was modified as requested by the client.
+The call parameters that the client supplied to 
+       <b>NdisClModifyCallQoS</b> were invalid.
+
+
+#### NDIS_STATUS_FAILURE
+
+The call manager could not change the QoS because of a failure on the network or in another
+       connection-oriented network component.
 
 
 #### NDIS_STATUS_XXX
@@ -197,19 +197,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
 <a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQoSComplete</a>
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
  
 

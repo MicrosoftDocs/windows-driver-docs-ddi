@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, display.dxgk_vidpntopology_interface, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, _DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DXGK_VIDPNTOPOLOGY_INTERFACE
+ms.keywords: display.dxgk_vidpntopology_interface, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DXGK_VIDPNTOPOLOGY_INTERFACE, _DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

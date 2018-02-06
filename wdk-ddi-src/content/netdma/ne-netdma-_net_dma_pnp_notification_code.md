@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNET_DMA_PNP_NOTIFICATION_CODE, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderRemoval, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, netdma/NetDmaNotificationMax, netvista.net_dma_pnp_notification_code, netdma/NetDmaNotificationProviderPowerUp, _NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderRemoval, netdma/NetDmaNotificationProviderRegistered, NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationChannelArrival, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], netdma/NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderPowerDown, NetDmaNotificationProviderRegistered, NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderPowerDown, NetDmaNotificationChannelArrival, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], netdma/NetDmaNotificationProviderArrival, NetDmaNotificationProviderArrival, NetDmaNotificationMax
+ms.keywords: netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, netdma/NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationChannelArrival, NetDmaNotificationProviderRegistered, NetDmaNotificationProviderPowerDown, *PNET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationChannelArrival, NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationMax, netvista.net_dma_pnp_notification_code, NetDmaNotificationMax, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], NetDmaNotificationProviderRemoval, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE, netdma/NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderPowerDown, netdma/NetDmaNotificationProviderArrival, netdma/NetDmaNotificationProviderRegistered, netdma/NetDmaNotificationProviderRemoval, _NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_PNP_NOTIFICATION_CODE
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
 ---
 
 # _NET_DMA_PNP_NOTIFICATION_CODE enumeration

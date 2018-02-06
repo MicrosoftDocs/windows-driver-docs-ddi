@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7EEFC371-5E6F-4507-BF7F-66A1954C7A1A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndkpi/PNDK_ADAPTER, netvista.ndk_adapter, _NDK_ADAPTER, ndkpi/NDK_ADAPTER, NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], PNDK_ADAPTER, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], NDK_ADAPTER
+ms.keywords: NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], _NDK_ADAPTER, netvista.ndk_adapter, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_ADAPTER, NDK_ADAPTER, ndkpi/NDK_ADAPTER, PNDK_ADAPTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
 <a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
+
+<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
-<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwmapviewofsection, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, NtMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], wdm/ZwMapViewOfSection, wdm/NtMapViewOfSection, ZwMapViewOfSection
+ms.keywords: wdm/NtMapViewOfSection, k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, wdm/ZwMapViewOfSection, NtMapViewOfSection, ZwMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], kernel.zwmapviewofsection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -219,19 +219,19 @@ For more information about section objects, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
 <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
  
 

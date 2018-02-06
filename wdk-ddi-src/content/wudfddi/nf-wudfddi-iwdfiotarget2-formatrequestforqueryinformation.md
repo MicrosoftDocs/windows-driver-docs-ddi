@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget2, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, IWDFIoTarget2::FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, wdf.iwdfiotarget2_formatrequestforqueryinformation, umdf.iwdfiotarget2_formatrequestforqueryinformation, FormatRequestForQueryInformation method, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, FormatRequestForQueryInformation
+ms.keywords: FormatRequestForQueryInformation method, IWDFIoTarget2 interface, umdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation, IWDFIoTarget2::FormatRequestForQueryInformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, IWDFIoTarget2 interface, FormatRequestForQueryInformation method, FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, IWDFIoTarget2, FormatRequestForQueryInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTarget2.FormatRequestForQueryInformation
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -134,9 +134,9 @@ Use the <b>FormatRequestForQueryInformation</b> method, followed by the <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559191">IWDFIoTarget2::FormatRequestForSetInformation</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559191">IWDFIoTarget2::FormatRequestForSetInformation</a>
 
  
 

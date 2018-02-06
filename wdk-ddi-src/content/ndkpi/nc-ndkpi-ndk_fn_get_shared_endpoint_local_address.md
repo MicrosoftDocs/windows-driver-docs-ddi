@@ -40,7 +40,7 @@ apiname:
 -	NdkGetSharedEndpointLocalAddress
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback

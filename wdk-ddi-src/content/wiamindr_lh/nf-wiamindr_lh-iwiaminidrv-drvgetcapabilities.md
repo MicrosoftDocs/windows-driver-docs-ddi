@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 946a6ea7-5818-4959-adf2-3568c1b64b1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvgetcapabilities, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities
+ms.keywords: wiamindr_lh/IWiaMiniDrv::drvGetCapabilities, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvGetCapabilities method, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, IWiaMiniDrv, drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities, drvGetCapabilities method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvgetcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,6 +98,11 @@ HRESULT drvGetCapabilities(
 
 
 
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
+
+
 #### - lFlags [in]
 
 Specifies whether the array pointed to by <i>ppCapabilites</i> consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
@@ -129,24 +134,19 @@ The array consists of device events.
 </table> 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - pcelt [out]
 
 Points to a memory location that will receive the number of elements in the array pointed to by the <i>ppCapabilities</i> parameter.
 
 
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
 #### - ppCapabilities [out, optional]
 
 Points to a memory location that will receive the address of the first element of an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_dev_cap_drv.md">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

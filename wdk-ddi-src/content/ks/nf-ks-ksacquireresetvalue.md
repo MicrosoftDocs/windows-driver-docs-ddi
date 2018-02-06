@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 80a990e3-3637-4837-8800-42d5848e01cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAcquireResetValue, KsAcquireResetValue function [Streaming Media Devices], stream.ksacquireresetvalue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, ks/KsAcquireResetValue
+ms.keywords: ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, KsAcquireResetValue, stream.ksacquireresetvalue, KsAcquireResetValue function [Streaming Media Devices], ks/KsAcquireResetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

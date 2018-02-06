@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9b97deb9-7e64-49a1-8278-08084c8b7c84
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSAC3_ALTERNATE_AUDIO structure [Audio Devices], ksmedia/PKSAC3_ALTERNATE_AUDIO, audio.ksac3_alternate_audio, ksmedia/KSAC3_ALTERNATE_AUDIO, aud-prop_172c7e1b-4c53-4836-82c2-37590cf87744.xml, KSAC3_ALTERNATE_AUDIO, PKSAC3_ALTERNATE_AUDIO structure pointer [Audio Devices], PKSAC3_ALTERNATE_AUDIO, *PKSAC3_ALTERNATE_AUDIO
+ms.keywords: PKSAC3_ALTERNATE_AUDIO, KSAC3_ALTERNATE_AUDIO structure [Audio Devices], ksmedia/PKSAC3_ALTERNATE_AUDIO, audio.ksac3_alternate_audio, ksmedia/KSAC3_ALTERNATE_AUDIO, KSAC3_ALTERNATE_AUDIO, PKSAC3_ALTERNATE_AUDIO structure pointer [Audio Devices], aud-prop_172c7e1b-4c53-4836-82c2-37590cf87744.xml, *PKSAC3_ALTERNATE_AUDIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

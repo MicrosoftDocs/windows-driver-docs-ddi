@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Write method [Audio Devices], IMiniportMidiStream, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, Write, Write method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream interface [Audio Devices], Write method, IMiniportMidiStream::Write, portcls/IMiniportMidiStream::Write, audio.iminiportmidistream_write
+ms.keywords: audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, audio.iminiportmidistream_write, Write method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream, portcls/IMiniportMidiStream::Write, Write, IMiniportMidiStream interface [Audio Devices], Write method, Write method [Audio Devices], IMiniportMidiStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,9 +141,9 @@ Zero. This value indicates that the device is too busy to write any of the calle
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536705">IMiniportMidiStream::Read</a>
+
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
  
 

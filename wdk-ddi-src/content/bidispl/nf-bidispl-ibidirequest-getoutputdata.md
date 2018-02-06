@@ -2,13 +2,13 @@
 UID: NF:bidispl.IBidiRequest.GetOutputData
 title: IBidiRequest::GetOutputData method
 author: windows-driver-content
-description: The IBidiRequest::GetOutputData method gets the specified output data coming back from the printer.
+description: The GetOutputData method gets the specified output data coming back from the printer.
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
 old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.ibidirequest_ibidirequest__getoutputdata, BIDI_BOOL, bidispl/IBidiRequest::IBidiRequest::GetOutputData, BIDI_ENUM, BIDI_NULL, BIDI_FLOAT, gdi.ibidirequest_ibidirequest__getoutputdata, GetOutputData, IBidiRequest::GetOutputData, BIDI_INT, BIDI_BLOB, IBidiRequest, BIDI_STRING, IBidiRequest interface [Print Devices], IBidiRequest::GetOutputData method, _win32_IBidiRequest_GetOutputData, IBidiRequest::GetOutputData method [Print Devices], IBidiRequest::GetOutputData method [Print Devices], IBidiRequest interface, IBidiRequest::IBidiRequest::GetOutputData, BIDI_TEXT
+ms.date: 2/2/2018
+ms.keywords: BIDI_TEXT, BIDI_NULL, BIDI_FLOAT, BIDI_STRING, IBidiRequest, BIDI_BOOL, GetOutputData, _win32_IBidiRequest_GetOutputData, BIDI_INT, BIDI_ENUM, GetOutputData method [Print Devices], IBidiRequest::GetOutputData, print.ibidirequest_ibidirequest__getoutputdata, bidispl/IBidiRequest::GetOutputData, BIDI_BLOB, GetOutputData method [Print Devices], IBidiRequest interface, gdi.ibidirequest_ibidirequest__getoutputdata, IBidiRequest interface [Print Devices], GetOutputData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	bidispl.dll
 apiname:
--	IBidiRequest.IBidiRequest::GetOutputData
+-	IBidiRequest.GetOutputData
 product: Windows
 targetos: Windows
 req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
@@ -49,14 +49,14 @@ req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ## -description
 
 
-The <b>IBidiRequest::GetOutputData</b> method gets the specified output data coming back from the printer.
+The <b>GetOutputData</b> method gets the specified output data coming back from the printer.
 
 
 ## -syntax
 
 
 ````
-HRESULT IBidiRequest::GetOutputData(
+HRESULT GetOutputData(
   [in]  const DWORD  dwIndex,
   [out]       LPWSTR *ppszSchema,
   [out]       DWORD  *pdwType,
@@ -242,7 +242,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 ## -remarks
 
 
-A single bidi request can have multiple results. The application calls <a href="https://msdn.microsoft.com/library/windows/hardware/dd144974">IBidiRequest::GetEnumCount</a> to get the number of results from the bidi request.
+A single bidi request can have multiple results. The application calls <a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a> to get the number of results from the bidi request.
 
 If an application calls <b>GetOutputData</b> with the same index twice, the interface allocates two different buffers and thus the application must free both buffers.
 
@@ -250,17 +250,17 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dd144974">IBidiRequest::GetEnumCount</a>
+<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::IBidiRequest::GetOutputData method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::GetOutputData method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

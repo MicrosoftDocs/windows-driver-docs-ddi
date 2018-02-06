@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5cf231b-1a78-485f-bf26-fe50fbe63d08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryMaximumGroupCount, kernel.kequerymaximumgroupcount, KeQueryMaximumGroupCount routine [Kernel-Mode Driver Architecture], k105_c1e0cc3e-f9d0-4570-8a56-b799d2ca5d14.xml, KeQueryMaximumGroupCount
+ms.keywords: KeQueryMaximumGroupCount routine [Kernel-Mode Driver Architecture], KeQueryMaximumGroupCount, kernel.kequerymaximumgroupcount, k105_c1e0cc3e-f9d0-4570-8a56-b799d2ca5d14.xml, wdm/KeQueryMaximumGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

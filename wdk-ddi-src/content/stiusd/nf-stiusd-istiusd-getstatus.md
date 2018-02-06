@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::GetStatus, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD, GetStatus method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, GetStatus, GetStatus method [Imaging Devices]
+ms.keywords: IStiUSD::GetStatus, stiusd/IStiUSD::GetStatus, image.istiusd_getstatus, GetStatus method [Imaging Devices], GetStatus, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, GetStatus method [Imaging Devices], IStiUSD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.GetStatus
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

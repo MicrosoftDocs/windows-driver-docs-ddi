@@ -955,13 +955,13 @@ HW_ADAPTER_CONTROL (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
 
 <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
+
+<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
 
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 

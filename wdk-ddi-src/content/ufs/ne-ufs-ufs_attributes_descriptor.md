@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/UFS_bPSAState, UFS_wExceptionEventControl, ufs/UFS_dDynCapNeeded, UFS_bRefClkFreq, UFS_bOutOfOrderDataEn, UFS_bPurgeStatus, UFS_bDeviceFFUStatus, ufs/UFS_bActiveICCLevel, ufs/UFS_wExceptionEventControl, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bBootLunEn, UFS_wContextConf, ufs/UFS_Obsolete, ufs/UFS_bOutOfOrderDataEn, UFS_bMaxDataInSize, ufs/UFS_bConfigDescrLock, UFS_bActiveICCLevel, storage.ufs_attributes_descriptor, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bMaxNumOfRTT, ufs/UFS_Reserved03, UFS_Reserved02, ufs/UFS_bCurrentPowerMode, ufs/UFS_bBackgroundOpStatus, UFS_bCurrentPowerMode, UFS_bPSAState, UFS_bBootLunEn, ufs/UFS_bMaxDataOutSize, UFS_bMaxDataOutSize, ufs/UFS_bMaxDataInSize, UFS_bBackgroundOpStatus, UFS_dSecondsPassed, ufs/UFS_Reserved01, UFS_dDynCapNeeded, ufs/UFS_Reserved02, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_Obsolete, UFS_wExceptionEventStatus, ufs/UFS_dSecondsPassed, ufs/UFS_bPurgeStatus, ufs/UFS_wContextConf, UFS_bMaxNumOfRTT, ufs/UFS_wExceptionEventStatus, ufs/UFS_bRefClkFreq, UFS_Reserved01, ufs/UFS_dPSADataSize, UFS_bConfigDescrLock, UFS_dPSADataSize, ufs/UFS_ATTRIBUTES_DESCRIPTOR, UFS_Reserved03
+ms.keywords: ufs/UFS_bDeviceFFUStatus, UFS_Reserved02, ufs/UFS_bPSAState, UFS_bOutOfOrderDataEn, UFS_dPSADataSize, UFS_wContextConf, ufs/UFS_bActiveICCLevel, ufs/UFS_bMaxDataInSize, UFS_bMaxDataInSize, UFS_bCurrentPowerMode, storage.ufs_attributes_descriptor, ufs/UFS_dDynCapNeeded, ufs/UFS_bCurrentPowerMode, ufs/UFS_bMaxDataOutSize, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], ufs/UFS_wContextConf, ufs/UFS_Reserved02, ufs/UFS_ATTRIBUTES_DESCRIPTOR, UFS_bActiveICCLevel, UFS_wExceptionEventControl, UFS_bBackgroundOpStatus, UFS_bRefClkFreq, ufs/UFS_bPurgeStatus, ufs/UFS_bBootLunEn, UFS_bMaxNumOfRTT, UFS_wExceptionEventStatus, ufs/UFS_wExceptionEventControl, ufs/UFS_Reserved03, ufs/UFS_dSecondsPassed, UFS_bPSAState, UFS_bMaxDataOutSize, ufs/UFS_bConfigDescrLock, UFS_Reserved01, UFS_Reserved03, UFS_ATTRIBUTES_DESCRIPTOR, UFS_dDynCapNeeded, ufs/UFS_bRefClkFreq, UFS_bPurgeStatus, UFS_bBootLunEn, ufs/UFS_Obsolete, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_bMaxNumOfRTT, ufs/UFS_Reserved01, ufs/UFS_dPSADataSize, UFS_dSecondsPassed, ufs/UFS_bBackgroundOpStatus, UFS_Obsolete, UFS_bDeviceFFUStatus, ufs/UFS_wExceptionEventStatus, UFS_bConfigDescrLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -409,25 +409,25 @@ microcode activation event occurs.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
-
 <a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
-
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
 
 <a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
  
 

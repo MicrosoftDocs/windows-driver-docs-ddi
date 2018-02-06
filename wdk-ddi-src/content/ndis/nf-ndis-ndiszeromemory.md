@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cb829e1-bd4f-4d6b-a936-0e7cf8024381
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiszeromemory, ndis/NdisZeroMemory, NdisZeroMemory, ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, NdisZeroMemory macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisZeroMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisZeroMemory, ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, NdisZeroMemory, netvista.ndiszeromemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4e21b3e9-0383-4464-b87e-beea88123124
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SKIP_AMOUNT, SKIP_OFF, wiautil/SKIP_BOTHHDR, wiauFncs_8f521aa0-0663-4f84-a9c9-91747fcb13e8.xml, wiautil/SKIP_AMOUNT, image.skip_amount, SKIP_AMOUNT enumeration [Imaging Devices], wiautil/SKIP_OFF, SKIP_BOTHHDR, wiautil/SKIP_FILEHDR, SKIP_FILEHDR
+ms.keywords: image.skip_amount, wiautil/SKIP_BOTHHDR, SKIP_BOTHHDR, SKIP_FILEHDR, SKIP_OFF, wiautil/SKIP_AMOUNT, wiautil/SKIP_OFF, wiauFncs_8f521aa0-0663-4f84-a9c9-91747fcb13e8.xml, wiautil/SKIP_FILEHDR, SKIP_AMOUNT, SKIP_AMOUNT enumeration [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapInvalid, umdf.wdf_pnp_capability, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapMaximum, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, _WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapNoDisplayInUI, WdfPnpCapRemovable, wudfddi_types/WdfPnpCapLockSupported, WdfPnpCapEjectSupported, WdfPnpCapNoDisplayInUI, wdf.wdf_pnp_capability, wudfddi_types/WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapDockDevice, WdfPnpCapMaximum, WdfPnpCapInvalid, WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapEjectSupported, WdfPnpCapLockSupported, WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY enumeration
+ms.keywords: wudfddi_types/WdfPnpCapEjectSupported, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WDF_PNP_CAPABILITY enumeration, wudfddi_types/WdfPnpCapRemovable, WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapInvalid, umdf.wdf_pnp_capability, WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapMaximum, WdfPnpCapSurpriseRemovalOk, wdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapDockDevice, _WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY, WdfPnpCapEjectSupported, WdfPnpCapLockSupported, WdfPnpCapMaximum, wudfddi_types/WdfPnpCapLockSupported, WdfPnpCapInvalid, WdfPnpCapRemovable, wudfddi_types/WDF_PNP_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -126,9 +126,9 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
 
  
 

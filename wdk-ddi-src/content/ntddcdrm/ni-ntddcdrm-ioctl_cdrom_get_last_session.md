@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_LAST_SESSION
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
 ---
 
 # IOCTL_CDROM_GET_LAST_SESSION IOCTL

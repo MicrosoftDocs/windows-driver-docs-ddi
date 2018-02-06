@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20446E2D-94D3-43D6-ABBF-2FA15F089659
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix, IDebugClient5::PushOutputLinePrefix, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method, debugger.idebugclient5_pushoutputlineprefix, PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5, dbgeng/IDebugClient5::PushOutputLinePrefix
+ms.keywords: PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5::PushOutputLinePrefix, IDebugClient5, debugger.idebugclient5_pushoutputlineprefix, PushOutputLinePrefix, dbgeng/IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.PushOutputLinePrefix
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::PushOutputLinePrefix method

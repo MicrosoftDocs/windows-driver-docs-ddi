@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: aa446b31-ac53-4623-bacd-72ab72e94618
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_XPF_MS_CHECK, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml, ntddk/PWHEA_XPF_MS_CHECK, _WHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications], *PWHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], PWHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, whea.whea_xpf_ms_check
+ms.keywords: PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], _WHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, ntddk/PWHEA_XPF_MS_CHECK, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml, whea.whea_xpf_ms_check, WHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK, *PWHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -179,6 +179,26 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_XPF_MS_CHECK union.
 
 
+#### - ReservedValid
+
+Reserved for system use.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_NOERROR
+
+No error occurred.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_UNCLASSIFIED
+
+An unclassified error.
+
+
+##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_MCROMPARITY
+
+A microcode ROM parity error.
+
+
 ##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_EXTERNAL
 
 An external error.
@@ -192,26 +212,6 @@ A functional redundancy checking (FRC) error.
 ##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_INTERNALUNCLASSIFIED
 
 An unclassified internal error.
-
-
-##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_MCROMPARITY
-
-A microcode ROM parity error.
-
-
-##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_NOERROR
-
-No error occurred.
-
-
-##### - ErrorType.XPF_MS_CHECK_ERRORTYPE_UNCLASSIFIED
-
-An unclassified error.
-
-
-#### - ReservedValid
-
-Reserved for system use.
 
 
 ## -remarks

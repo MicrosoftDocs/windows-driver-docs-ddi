@@ -7,8 +7,8 @@ old-location: print\openport.htm
 old-project: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pfnOpenPort function [Print Devices], spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, winsplp/pfnOpenPort, pfnOpenPort, OpenPort, print.openport
+ms.date: 2/2/2018
+ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort, winsplp/pfnOpenPort, pfnOpenPort function [Print Devices], print.openport, OpenPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,27 +111,27 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
 
-<a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
+
+<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
 <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
-
-<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
+<a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OpenPort function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OpenPort function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

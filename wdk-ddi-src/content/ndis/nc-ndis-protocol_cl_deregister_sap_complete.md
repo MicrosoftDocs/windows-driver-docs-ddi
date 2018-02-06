@@ -88,20 +88,20 @@ Specifies the final status of the client's request to deregister its SAP, which 
 
 
 
-#### NDIS_STATUS_FAILURE
-
-NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
-       <i>NdisSapHandle</i> was already released when the client's call to 
-       <a href="..\ndis\nf-ndis-ndisclderegistersap.md">
-       NdisClDeregisterSap</a> occurred.
-
-
 #### NDIS_STATUS_SUCCESS
 
 The SAP was closed. The 
        <i>NdisSapHandle</i> that represented the client's previously registered SAP, which the client stored
        in its 
        <i>ProtocolSapContext</i> area, is now invalid.
+
+
+#### NDIS_STATUS_FAILURE
+
+NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
+       <i>NdisSapHandle</i> was already released when the client's call to 
+       <a href="..\ndis\nf-ndis-ndisclderegistersap.md">
+       NdisClDeregisterSap</a> occurred.
 
 
 #### NDIS_STATUS_XXX
@@ -179,18 +179,18 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
+
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
  
 

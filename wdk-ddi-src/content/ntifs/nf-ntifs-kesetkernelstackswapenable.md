@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable
+ms.keywords: KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], kernel.kesetkernelstackswapenable, KeSetKernelStackSwapEnable, ntifs/KeSetKernelStackSwapEnable, k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,9 +96,9 @@ A thread must not exit (terminate) while stack swapping is disabled or a system 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
  
 

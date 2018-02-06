@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 42b8bd6c-c5be-45d0-9537-13d687ca5a48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE_SIZE structure [Display Devices], IDARG_IN_OPM_GET_CERTIFICATE_SIZE, iddcx/IDARG_IN_OPM_GET_CERTIFICATE_SIZE, display.idarg_in_opm_get_certificate_size
+ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE_SIZE, IDARG_IN_OPM_GET_CERTIFICATE_SIZE structure [Display Devices], iddcx/IDARG_IN_OPM_GET_CERTIFICATE_SIZE, display.idarg_in_opm_get_certificate_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

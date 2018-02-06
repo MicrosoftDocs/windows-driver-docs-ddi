@@ -40,7 +40,7 @@ apiname:
 -	ShaderResourceViewReadAfterWriteHazard
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD callback
@@ -92,14 +92,14 @@ VOID APIENTRY ShaderResourceViewReadAfterWriteHazard(
  A handle to the display device (graphics context).
 
 
-#### - hResource [in]
-
- A handle to the resource.
-
-
 #### - hShaderResourceView [in]
 
  A handle to the driver's private data for a shader resource view object. 
+
+
+#### - hResource [in]
+
+ A handle to the resource.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ec46b53-f3a8-4fd6-bf94-261ff8accad7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryString method [Windows Debugging], GetSymbolEntryString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolEntryString, dbgeng/IDebugSymbols3::GetSymbolEntryString, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml, GetSymbolEntryString, debugger.getsymbolentrystring, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryString method
+ms.keywords: GetSymbolEntryString method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryString method, IDebugSymbols3::GetSymbolEntryString, debugger.getsymbolentrystring, IDebugSymbols3, GetSymbolEntryString, dbgeng/IDebugSymbols3::GetSymbolEntryString, GetSymbolEntryString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolEntryString
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSymbolEntryString method

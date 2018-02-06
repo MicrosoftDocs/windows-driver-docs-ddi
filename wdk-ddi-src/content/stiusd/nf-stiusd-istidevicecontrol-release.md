@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Release method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl::Release, Release method [Imaging Devices], IStiDeviceControl interface [Imaging Devices], Release method, image.istidevicecontrol_release, Release, IStiDeviceControl, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, stiusd/IStiDeviceControl::Release
+ms.keywords: IStiDeviceControl::Release, image.istidevicecontrol_release, Release method [Imaging Devices], IStiDeviceControl, Release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, IStiDeviceControl interface [Imaging Devices], Release method, Release method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.Release
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e4b86cf-308f-4d9b-be28-966312dc4e43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl interface [Streaming Media Devices], KsEvent method, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, IKsControl::KsEvent, KsEvent method [Streaming Media Devices], IKsControl, KsEvent, KsEvent method [Streaming Media Devices], IKsControl interface
+ms.keywords: IKsControl, KsEvent method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsEvent method, IKsControl::KsEvent, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2, KsEvent, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, KsEvent method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,9 +112,9 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
  
 

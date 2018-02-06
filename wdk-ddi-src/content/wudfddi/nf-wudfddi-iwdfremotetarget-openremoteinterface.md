@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OpenRemoteInterface method, OpenRemoteInterface, IWDFRemoteTarget::OpenRemoteInterface, IWDFRemoteTarget interface, OpenRemoteInterface method, OpenRemoteInterface method, IWDFRemoteTarget interface, wdf.iwdfremotetarget_openremoteinterface, IWDFRemoteTarget, umdf.iwdfremotetarget_openremoteinterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
+ms.keywords: OpenRemoteInterface, OpenRemoteInterface method, IWDFRemoteTarget, OpenRemoteInterface method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, IWDFRemoteTarget interface, OpenRemoteInterface method, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, IWDFRemoteTarget::OpenRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget.OpenRemoteInterface
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

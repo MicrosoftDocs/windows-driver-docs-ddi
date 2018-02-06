@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_AACS_READ_MEDIA_ID
 product: Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
 ---
 
 # IOCTL_AACS_READ_MEDIA_ID IOCTL

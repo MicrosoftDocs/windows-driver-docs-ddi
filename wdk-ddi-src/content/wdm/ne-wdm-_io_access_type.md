@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9ABFF1E8-50B8-4B59-964D-BA79AB63BFCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IO_ACCESS_TYPE, _IO_ACCESS_TYPE, IO_ACCESS_TYPE, ReadAccess, WriteAccess, wdm/WriteAccess, wdm/ReadAccess, ModifyAccess, wdm/ModifyAccess, kernel.io_access_type, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], ReadAccess, wdm/ReadAccess, ModifyAccess, IO_ACCESS_TYPE, _IO_ACCESS_TYPE, WriteAccess, kernel.io_access_type, wdm/ModifyAccess, wdm/IO_ACCESS_TYPE, wdm/WriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

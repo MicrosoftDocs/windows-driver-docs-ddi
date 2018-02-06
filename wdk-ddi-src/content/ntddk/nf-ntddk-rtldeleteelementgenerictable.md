@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml, ifsk.rtldeleteelementgenerictable, ntddk/RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], RtlDeleteElementGenericTable
+ms.keywords: RtlDeleteElementGenericTable, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml, ntddk/RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

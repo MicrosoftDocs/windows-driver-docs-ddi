@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d22baeb-d08f-4554-9af4-dae9480a471a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet, ksproxy/IKsClockPropertySet::KsGetTime, IKsClockPropertySet interface [Streaming Media Devices], KsGetTime method, ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml, stream.iksclockpropertyset_ksgettime, KsGetTime method [Streaming Media Devices], IKsClockPropertySet::KsGetTime, KsGetTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetTime
+ms.keywords: ksproxy/IKsClockPropertySet::KsGetTime, ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml, IKsClockPropertySet, KsGetTime, KsGetTime method [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices], KsGetTime method, IKsClockPropertySet::KsGetTime, stream.iksclockpropertyset_ksgettime, KsGetTime method [Streaming Media Devices], IKsClockPropertySet interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee0f458b-c8b3-46e7-87bd-25599d39203d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoRetrieveNextStaticChild method, wdffdo/WdfFdoRetrieveNextStaticChild, PFN_WDFFDORETRIEVENEXTSTATICCHILD, WdfFdoRetrieveNextStaticChild, kmdf.wdffdoretrievenextstaticchild, DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, wdf.wdffdoretrievenextstaticchild
+ms.keywords: WdfFdoRetrieveNextStaticChild, PFN_WDFFDORETRIEVENEXTSTATICCHILD, DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, wdffdo/WdfFdoRetrieveNextStaticChild, kmdf.wdffdoretrievenextstaticchild, WdfFdoRetrieveNextStaticChild method, wdf.wdffdoretrievenextstaticchild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

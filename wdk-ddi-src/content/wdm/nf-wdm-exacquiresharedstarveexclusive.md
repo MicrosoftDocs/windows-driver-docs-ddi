@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b148e684-18bd-4ab3-b772-6bc103b9f436
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, wdm/ExAcquireSharedStarveExclusive, kernel.exacquiresharedstarveexclusive, ExAcquireSharedStarveExclusive, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], wdm/ExAcquireSharedStarveExclusive, k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, ExAcquireSharedStarveExclusive, kernel.exacquiresharedstarveexclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,17 +117,17 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
 
 <a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
 
 <a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
 
-<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
-
 <a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
+
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
 
  
 

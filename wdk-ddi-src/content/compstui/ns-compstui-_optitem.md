@@ -7,8 +7,8 @@ old-location: print\optitem.htm
 old-project: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, OPTITEM structure [Print Devices], *POPTITEM, compstui/OPTITEM, OPTITEM, POPTITEM, _OPTITEM, POPTITEM structure pointer [Print Devices], print.optitem, compstui/POPTITEM
+ms.date: 2/2/2018
+ms.keywords: OPTITEM structure [Print Devices], POPTITEM, *POPTITEM, OPTITEM, compstui/POPTITEM, POPTITEM structure pointer [Print Devices], print.optitem, compstui/OPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, _OPTITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OPTITEM
 product: Windows
 targetos: Windows
-req.typenames: "*POPTITEM, OPTITEM"
+req.typenames: OPTITEM, *POPTITEM
 ---
 
 # _OPTITEM structure
@@ -209,6 +209,13 @@ Disables the option so that it is not user-modifiable.
 The associated extended check box is in the checked state.
 
 
+#### OPTIF_EXT_IS_EXTPUSH
+
+If set, the <b>pExtPush</b> member is valid (unless <b>NULL</b>).
+
+If not set, the <b>pExtChkBox</b> member is valid (unless <b>NULL</b>).
+
+
 #### OPTIF_EXT_DISABLED
 
 The extended check box or extended push button is not selectable.
@@ -217,13 +224,6 @@ The extended check box or extended push button is not selectable.
 #### OPTIF_EXT_HIDE
 
 CPSUI will not display the extended check box or extended push button.
-
-
-#### OPTIF_EXT_IS_EXTPUSH
-
-If set, the <b>pExtPush</b> member is valid (unless <b>NULL</b>).
-
-If not set, the <b>pExtChkBox</b> member is valid (unless <b>NULL</b>).
 
 
 #### OPTIF_HAS_POIEXT

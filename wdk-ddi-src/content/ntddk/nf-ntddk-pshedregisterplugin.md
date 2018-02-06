@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, PshedRegisterPlugin, ntddk/PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], whea.pshedregisterplugin
+ms.keywords: whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, ntddk/PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], PshedRegisterPlugin, whea.pshedregisterplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
  
 

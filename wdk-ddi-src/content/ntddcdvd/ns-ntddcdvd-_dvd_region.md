@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/PDVD_REGION, DVD_REGION, ntddcdvd/DVD_REGION, *PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], PDVD_REGION, DVD_REGION structure [Storage Devices], _DVD_REGION, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml, storage.dvd_region
+ms.keywords: storage.dvd_region, PDVD_REGION structure pointer [Storage Devices], structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml, DVD_REGION, DVD_REGION structure [Storage Devices], ntddcdvd/DVD_REGION, *PDVD_REGION, PDVD_REGION, _DVD_REGION, ntddcdvd/PDVD_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_REGION
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_REGION, DVD_REGION"
+req.typenames: DVD_REGION, *PDVD_REGION
 ---
 
 # _DVD_REGION structure

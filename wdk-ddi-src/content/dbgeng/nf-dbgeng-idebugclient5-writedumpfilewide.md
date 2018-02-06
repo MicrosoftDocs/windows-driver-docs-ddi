@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b089499f-4f15-400e-bf88-53d0507200b9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writedumpfilewide, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, dbgeng/IDebugClient4::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, WriteDumpFileWide, IDebugClient5::WriteDumpFileWide, IDebugClient4::WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method, dbgeng/IDebugClient5::WriteDumpFileWide, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient5
+ms.keywords: dbgeng/IDebugClient4::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, WriteDumpFileWide method [Windows Debugging], WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, debugger.writedumpfilewide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, IDebugClient5, IDebugClient4::WriteDumpFileWide, dbgeng/IDebugClient5::WriteDumpFileWide, IDebugClient5::WriteDumpFileWide, WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugClient5.WriteDumpFileWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::WriteDumpFileWide method
@@ -130,13 +130,13 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
 
  
 

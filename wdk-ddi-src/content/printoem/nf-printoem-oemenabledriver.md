@@ -7,8 +7,8 @@ old-location: print\oemenabledriver.htm
 old-project: print
 ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMEnableDriver, printoem/OEMEnableDriver, print.oemenabledriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, OEMEnableDriver function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: print.oemenabledriver, OEMEnableDriver function [Print Devices], printoem/OEMEnableDriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, OEMEnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

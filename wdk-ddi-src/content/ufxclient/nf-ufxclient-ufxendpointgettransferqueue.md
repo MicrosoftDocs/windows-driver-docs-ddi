@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74E78EC9-4D2B-4CA4-AC00-03EB7433617C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ufxendpointgettransferqueue, UfxEndpointGetTransferQueue, ufxclient/UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses]
+ms.keywords: UfxEndpointGetTransferQueue, buses.ufxendpointgettransferqueue, ufxclient/UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxEndpointGetTransferQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

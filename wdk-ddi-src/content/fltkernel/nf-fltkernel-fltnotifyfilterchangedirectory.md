@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bbeabd33-951e-4fd5-9845-cabed5f95fcd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltNotifyFilterChangeDirectory, fltkernel/FltNotifyFilterChangeDirectory, FltApiRef_e_to_o_855490c1-8b4e-4973-9a96-808b50c20740.xml, ifsk.fltnotifyfilterchangedirectory, FltNotifyFilterChangeDirectory routine [Installable File System Drivers]
+ms.keywords: FltNotifyFilterChangeDirectory routine [Installable File System Drivers], fltkernel/FltNotifyFilterChangeDirectory, FltApiRef_e_to_o_855490c1-8b4e-4973-9a96-808b50c20740.xml, ifsk.fltnotifyfilterchangedirectory, FltNotifyFilterChangeDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -328,9 +328,9 @@ If the operation's file object has not been cleaned up, <b>FltNotifyFilterChange
 
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
 
  
 

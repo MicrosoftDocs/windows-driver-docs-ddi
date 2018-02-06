@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4024d455-2393-481f-8cb5-b33346ca85c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/PWIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, _WIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], wiamindr_lh/WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml, *PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV
+ms.keywords: WIA_DEV_CAP_DRV structure [Imaging Devices], PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], wiamindr_lh/WIA_DEV_CAP_DRV, wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml, _WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, wiamindr_lh/PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIA_DEV_CAP_DRV
 product: Windows
 targetos: Windows
-req.typenames: "*PWIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV"
+req.typenames: WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV
 req.product: Windows 10 or later.
 ---
 

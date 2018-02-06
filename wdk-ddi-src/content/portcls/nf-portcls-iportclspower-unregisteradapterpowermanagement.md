@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4c8734b1-d7f5-476b-a85f-1d3f4df888b9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsPower::UnregisterAdapterPowerManagement, audio.iportclspower_unregisteradapterpowermanagement, UnregisterAdapterPowerManagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, IPortClsPower, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method, UnregisterAdapterPowerManagement method [Audio Devices], UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, portcls/IPortClsPower::UnregisterAdapterPowerManagement
+ms.keywords: audio.iportclspower_unregisteradapterpowermanagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower::UnregisterAdapterPowerManagement, portcls/IPortClsPower::UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement, IPortClsPower, UnregisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, IPortClsPower interface [Audio Devices], UnregisterAdapterPowerManagement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,9 +88,9 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
-
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 340e9675-9d07-4224-ac1b-86e7586c0738
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_CD_MASTERING structure pointer [Storage Devices], FEATURE_DATA_CD_MASTERING, PFEATURE_DATA_CD_MASTERING, *PFEATURE_DATA_CD_MASTERING, storage.feature_data_cd_mastering, _FEATURE_DATA_CD_MASTERING, ntddmmc/PFEATURE_DATA_CD_MASTERING, ntddmmc/FEATURE_DATA_CD_MASTERING, structs-CD-ROM_f803f10f-2ef7-4e3b-9c16-1ed2f3c5b2a5.xml, FEATURE_DATA_CD_MASTERING structure [Storage Devices]
+ms.keywords: FEATURE_DATA_CD_MASTERING, *PFEATURE_DATA_CD_MASTERING, PFEATURE_DATA_CD_MASTERING structure pointer [Storage Devices], storage.feature_data_cd_mastering, ntddmmc/FEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING structure [Storage Devices], structs-CD-ROM_f803f10f-2ef7-4e3b-9c16-1ed2f3c5b2a5.xml, _FEATURE_DATA_CD_MASTERING, ntddmmc/PFEATURE_DATA_CD_MASTERING, PFEATURE_DATA_CD_MASTERING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_CD_MASTERING
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING"
+req.typenames: FEATURE_DATA_CD_MASTERING, *PFEATURE_DATA_CD_MASTERING
 ---
 
 # _FEATURE_DATA_CD_MASTERING structure

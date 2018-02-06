@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5b52a012-1e3e-4d1f-8780-a7015b2f3c5f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfscloseandresetlogfile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], ClfsCloseAndResetLogFile, wdm/ClfsCloseAndResetLogFile, Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml
+ms.keywords: ClfsCloseAndResetLogFile, wdm/ClfsCloseAndResetLogFile, kernel.clfscloseandresetlogfile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
+
 <a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
 <a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
-
-<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
 
  
 

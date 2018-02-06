@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WMIREGINFOW, PWMIREGINFOW, wmistr/WMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], *PWMIREGINFOW, WMIREGINFO, kernel.wmireginfo, wmistr/PWMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture]
+ms.keywords: PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFOW structure [Kernel-Mode Driver Architecture], kernel.wmireginfo, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, WMIREGINFO, PWMIREGINFOW, WMIREGINFOW, *PWMIREGINFOW, wmistr/WMIREGINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,13 +116,13 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 ## -see-also
 
+<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
 
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
 
  
 

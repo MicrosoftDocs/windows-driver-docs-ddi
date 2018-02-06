@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4874ddab-5443-4e03-8f49-493682dabac1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], wiamindr_lh/WIAS_ENDORSER_INFO, wiamindr_lh/PWIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml, *PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], image.wias_endorser_info"
+ms.keywords: WIAS_ENDORSER_INFO structure [Imaging Devices], WIAS_ENDORSER_INFO, image.wias_endorser_info, *PWIAS_ENDORSER_INFO, wiamindr_lh/PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], PWIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml, _WIAS_ENDORSER_INFO, wiamindr_lh/WIAS_ENDORSER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,9 +94,9 @@ Currently, <a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseE
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseEndorserString</a>
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseEndorserString</a>
 
  
 

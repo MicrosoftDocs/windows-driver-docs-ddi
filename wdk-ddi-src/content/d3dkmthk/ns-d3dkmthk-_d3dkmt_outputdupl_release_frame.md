@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 98d31b6b-c31a-4509-a89f-f09932468313
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], display.d3dkmt_outputdupl_release_frame, _D3DKMT_OUTPUTDUPL_RELEASE_FRAME
+ms.keywords: D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame, _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

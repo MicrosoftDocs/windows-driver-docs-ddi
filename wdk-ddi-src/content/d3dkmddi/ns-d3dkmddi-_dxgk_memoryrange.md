@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68B9465D-BA5E-4DE3-8A55-B344399FBB5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MEMORYRANGE structure [Display Devices], _DXGK_MEMORYRANGE, display.dxgk_memoryrange, d3dkmddi/DXGK_MEMORYRANGE, DXGK_MEMORYRANGE
+ms.keywords: d3dkmddi/DXGK_MEMORYRANGE, _DXGK_MEMORYRANGE, display.dxgk_memoryrange, DXGK_MEMORYRANGE, DXGK_MEMORYRANGE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

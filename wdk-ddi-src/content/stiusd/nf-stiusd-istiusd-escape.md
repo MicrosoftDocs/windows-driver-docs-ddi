@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD, stiusd/IStiUSD::Escape, IStiUSD::Escape, Escape method [Imaging Devices], IStiUSD interface [Imaging Devices], Escape method, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, Escape method [Imaging Devices], IStiUSD interface, Escape
+ms.keywords: IStiUSD::Escape, stiusd/IStiUSD::Escape, image.istiusd_escape, Escape method [Imaging Devices], IStiUSD interface [Imaging Devices], Escape method, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, Escape, Escape method [Imaging Devices], IStiUSD interface, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Escape
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6c28e50c-a76a-4a7c-af29-6e58bcfe3f3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILDISPLAYINFO, netvista.rildisplayinfo, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDISPLAYINFO"
+ms.keywords: RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILDISPLAYINFO, RILDISPLAYINFO, netvista.rildisplayinfo, *LPRILDISPLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDISPLAYINFO
 product: Windows
 targetos: Windows
-req.typenames: RILDISPLAYINFO, *LPRILDISPLAYINFO
+req.typenames: "*LPRILDISPLAYINFO, RILDISPLAYINFO"
 ---
 
 # RILDISPLAYINFO structure

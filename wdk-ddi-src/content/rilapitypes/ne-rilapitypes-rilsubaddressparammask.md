@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ef802d35-2ca6-4fe2-9f3b-e2d1e91b8500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSUBADDRESSPARAMMASK, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilsubaddressparammask_2, RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_ALL, rilapitypes/RILSUBADDRESSPARAMMASK, rilapitypes/RIL_PARAM_SA_ALL, rilapitypes/RIL_PARAM_SA_SUBADDRESS
+ms.keywords: RILSUBADDRESSPARAMMASK, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilsubaddressparammask_2, rilapitypes/RIL_PARAM_SA_SUBADDRESS, rilapitypes/RILSUBADDRESSPARAMMASK, rilapitypes/RIL_PARAM_SA_ALL, RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

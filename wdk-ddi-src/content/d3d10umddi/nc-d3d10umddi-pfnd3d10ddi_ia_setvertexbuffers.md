@@ -40,7 +40,7 @@ apiname:
 -	IaSetVertexBuffers
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_IA_SETVERTEXBUFFERS callback
@@ -95,19 +95,19 @@ VOID APIENTRY IaSetVertexBuffers(
 
 
 
-#### - StartBuffer [in]
-
- The starting vertex buffer to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - pOffsets [in]
+#### - StartBuffer [in]
 
- An array of values that indicate the offsets, in bytes, into each vertex buffer. 
+ The starting vertex buffer to set. 
+
+
+#### - phBuffers [in]
+
+ An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 #### - pStrides [in]
@@ -115,9 +115,9 @@ VOID APIENTRY IaSetVertexBuffers(
  An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
 
 
-#### - phBuffers [in]
+#### - pOffsets [in]
 
- An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
+ An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
 
 ## -returns

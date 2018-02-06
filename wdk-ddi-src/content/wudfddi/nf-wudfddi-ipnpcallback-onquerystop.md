@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallback_onquerystop, OnQueryStop method, IPnpCallback interface, IPnpCallback, IPnpCallback::OnQueryStop, IPnpCallback interface, OnQueryStop method, wdf.ipnpcallback_onquerystop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, OnQueryStop, OnQueryStop method, wudfddi/IPnpCallback::OnQueryStop
+ms.keywords: IPnpCallback, OnQueryStop method, OnQueryStop method, IPnpCallback interface, IPnpCallback interface, OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop, umdf.ipnpcallback_onquerystop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnQueryStop
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

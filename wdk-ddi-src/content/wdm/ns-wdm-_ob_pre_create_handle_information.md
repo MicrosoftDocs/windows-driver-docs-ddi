@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50fd7666-cdec-4bdb-b350-2c2222124020
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ob_pre_create_handle_information, OB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_CREATE_HANDLE_INFORMATION, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/POB_PRE_CREATE_HANDLE_INFORMATION, _OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION, kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml
+ms.keywords: wdm/POB_PRE_CREATE_HANDLE_INFORMATION, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.ob_pre_create_handle_information, OB_PRE_CREATE_HANDLE_INFORMATION, _OB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, POB_PRE_CREATE_HANDLE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OB_PRE_CREATE_HANDLE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION
+req.typenames: "*POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 

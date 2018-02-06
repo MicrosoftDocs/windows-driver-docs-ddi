@@ -40,7 +40,7 @@ apiname:
 -	HwVidSynchronizeExecutionCallback
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,11 @@ The miniport driver of an adapter that does not generate interrupts also can hav
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
-
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
  
 

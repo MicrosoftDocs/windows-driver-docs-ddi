@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 300720f6-8049-4558-ba8b-ecdbb8a59dbd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], kernel.kequeryruntimethread, wdm/KeQueryRuntimeThread, k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, KeQueryRuntimeThread
+ms.keywords: KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], kernel.kequeryruntimethread, KeQueryRuntimeThread, k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, wdm/KeQueryRuntimeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

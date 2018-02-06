@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4caffdad-569d-4038-9a11-8827c8439189
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IServiceGroup interface [Audio Devices], CancelDelayedService method, CancelDelayedService, CancelDelayedService method [Audio Devices], audmp-routines_7d31f9ff-5b00-4f74-ad2a-08f901db81ff.xml, portcls/IServiceGroup::CancelDelayedService, IServiceGroup, audio.iservicegroup_canceldelayedservice, CancelDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup::CancelDelayedService
+ms.keywords: IServiceGroup interface [Audio Devices], CancelDelayedService method, audio.iservicegroup_canceldelayedservice, audmp-routines_7d31f9ff-5b00-4f74-ad2a-08f901db81ff.xml, CancelDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup::CancelDelayedService, IServiceGroup, CancelDelayedService, CancelDelayedService method [Audio Devices], portcls/IServiceGroup::CancelDelayedService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

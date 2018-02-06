@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e28dd810-d86f-479f-b049-63a626ed432f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchVPrintfExA, STRSAFE_FILL_BEHIND_NULL, RtlStringCchVPrintfEx, STRSAFE_NO_TRUNCATION, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_IGNORE_NULLS, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, ntstrsafe/RtlStringCchVPrintfExW, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_ON_FAILURE, ntstrsafe/RtlStringCchVPrintfExA, RtlStringCchVPrintfExW, kernel.rtlstringcchvprintfex
+ms.keywords: STRSAFE_NO_TRUNCATION, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, STRSAFE_NULL_ON_FAILURE, RtlStringCchVPrintfExW, ntstrsafe/RtlStringCchVPrintfExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, RtlStringCchVPrintfExA, STRSAFE_IGNORE_NULLS, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchVPrintfExW, RtlStringCchVPrintfEx, kernel.rtlstringcchvprintfex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchVPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCchVPrintfExA function
@@ -297,11 +297,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
 
  
 

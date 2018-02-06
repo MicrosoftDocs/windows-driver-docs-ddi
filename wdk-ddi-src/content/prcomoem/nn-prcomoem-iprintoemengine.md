@@ -7,7 +7,7 @@ old-location: print\iprintoemengine.htm
 old-project: print
 ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.iprintoemengine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices], described, IPrintOemEngine, prcomoem/IPrintOemEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ apiname:
 -	IPrintOemEngine.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

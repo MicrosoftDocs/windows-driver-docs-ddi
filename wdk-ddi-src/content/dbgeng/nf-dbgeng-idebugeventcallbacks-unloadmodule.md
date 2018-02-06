@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2afdaee6-7714-42d4-a402-3cb85ef3b970
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::UnloadModule, IDebugEventCallbacks::UnloadModule, debugger.idebugeventcallbacks_unloadmodule, IDebugEventCallbacks, UnloadModule, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml
+ms.keywords: UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_unloadmodule, IDebugEventCallbacks, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, UnloadModule, dbgeng/IDebugEventCallbacks::UnloadModule, IDebugEventCallbacks::UnloadModule, UnloadModule method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.UnloadModule
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacks::UnloadModule method

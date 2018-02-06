@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c304fd47-a9c7-46bd-819f-6751eba25459
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SEGMENTDESCRIPTOR3, display.dxgk_segmentdescriptor3, _DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices], d3dkmddi/DXGK_SEGMENTDESCRIPTOR3
+ms.keywords: DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices], d3dkmddi/DXGK_SEGMENTDESCRIPTOR3, display.dxgk_segmentdescriptor3, _DXGK_SEGMENTDESCRIPTOR3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -162,15 +162,15 @@ This structure is pointed to by the <b>pSegmentDescriptor</b> member of the <a h
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
 
  
 

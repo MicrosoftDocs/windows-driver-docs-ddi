@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlFastCheckLockForRead routine [Installable File System Drivers], ntifs/FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead, ifsk.fsrtlfastchecklockforread, fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml
+ms.keywords: FsRtlFastCheckLockForRead, ntifs/FsRtlFastCheckLockForRead, ifsk.fsrtlfastchecklockforread, FsRtlFastCheckLockForRead routine [Installable File System Drivers], fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,9 +113,9 @@ The <b>FsRtlFastCheckLockForRead</b> routine returns <b>TRUE</b> if the specifie
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite~r5.md">FsRtlFastCheckLockForWrite</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
  
 

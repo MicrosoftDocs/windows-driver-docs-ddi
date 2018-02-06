@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4373f7b-cc88-45da-a140-ead1c6891c11
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtOpenSection, wdm/NtOpenSection, ZwOpenSection, kernel.zwopensection, wdm/ZwOpenSection, k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, ZwOpenSection routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ZwOpenSection, NtOpenSection, ZwOpenSection, kernel.zwopensection, wdm/NtOpenSection, k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, ZwOpenSection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,13 +107,13 @@ If the caller is not running in a system thread context, it must ensure that any
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
-
 <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 

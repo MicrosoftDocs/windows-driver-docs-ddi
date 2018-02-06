@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFObject::ReleaseLock, ReleaseLock, umdf.iwdfobject_releaselock, ReleaseLock method, IWDFObject interface, ReleaseLock method, IWDFObject interface, ReleaseLock method, IWDFObject::ReleaseLock, IWDFObject, wdf.iwdfobject_releaselock, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml
+ms.keywords: wudfddi/IWDFObject::ReleaseLock, ReleaseLock method, IWDFObject interface, ReleaseLock method, ReleaseLock, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, ReleaseLock method, IWDFObject interface, wdf.iwdfobject_releaselock, IWDFObject::ReleaseLock, umdf.iwdfobject_releaselock, IWDFObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.ReleaseLock
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,9 +78,9 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a>
 
  
 

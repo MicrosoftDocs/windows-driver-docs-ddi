@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], ntddk/PSILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _SILO_MONITOR_REGISTRATION
+ms.keywords: PSILO_MONITOR_REGISTRATION, _SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION, ntddk/PSILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SILO_MONITOR_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION"
+req.typenames: SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION
 ---
 
 # _SILO_MONITOR_REGISTRATION structure
@@ -121,12 +121,12 @@ A pointer to a callback that is invoked whenever a server silo is terminated (ab
 Unnamed union.
 
 
-#### ComponentName
-
-A pointer to the unicode name for the component registering for notifications.
-
-
 #### DriverObjectName
 
 A pointer to the unicode name for the driver object registering for notifications.
+
+
+#### ComponentName
+
+A pointer to the unicode name for the component registering for notifications.
 

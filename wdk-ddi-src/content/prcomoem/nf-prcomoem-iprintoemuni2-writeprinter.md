@@ -7,8 +7,8 @@ old-location: print\iprintoemuni2_writeprinter.htm
 old-project: print
 ms.assetid: 61901d4d-7821-40b4-aaef-fd679985abb3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.iprintoemuni2_writeprinter, IPrintOemUni2 interface [Print Devices], WritePrinter method, IPrintOemUni2::WritePrinter, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml, WritePrinter method [Print Devices], IPrintOemUni2 interface, prcomoem/IPrintOemUni2::WritePrinter, WritePrinter, IPrintOemUni2, WritePrinter method [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: IPrintOemUni2 interface [Print Devices], WritePrinter method, print.iprintoemuni2_writeprinter, prcomoem/IPrintOemUni2::WritePrinter, WritePrinter method [Print Devices], IPrintOemUni2, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml, IPrintOemUni2::WritePrinter, WritePrinter, WritePrinter method [Print Devices], IPrintOemUni2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni2.WritePrinter
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

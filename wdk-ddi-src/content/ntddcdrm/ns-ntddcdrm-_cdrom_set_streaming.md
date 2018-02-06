@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5c2d421-5994-4f1d-9022-718500eef1a9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCDROM_SET_STREAMING structure pointer [Storage Devices], storage.cdrom_set_streaming, ntddcdrm/PCDROM_SET_STREAMING, CDROM_SET_STREAMING, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml, _CDROM_SET_STREAMING, *PCDROM_SET_STREAMING, CDROM_SET_STREAMING structure [Storage Devices], ntddcdrm/CDROM_SET_STREAMING, PCDROM_SET_STREAMING
+ms.keywords: storage.cdrom_set_streaming, CDROM_SET_STREAMING structure [Storage Devices], PCDROM_SET_STREAMING, ntddcdrm/CDROM_SET_STREAMING, CDROM_SET_STREAMING, _CDROM_SET_STREAMING, ntddcdrm/PCDROM_SET_STREAMING, PCDROM_SET_STREAMING structure pointer [Storage Devices], *PCDROM_SET_STREAMING, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_SET_STREAMING
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_SET_STREAMING, CDROM_SET_STREAMING"
+req.typenames: CDROM_SET_STREAMING, *PCDROM_SET_STREAMING
 ---
 
 # _CDROM_SET_STREAMING structure
@@ -142,9 +142,9 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 

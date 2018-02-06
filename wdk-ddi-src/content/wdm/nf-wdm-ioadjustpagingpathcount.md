@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: be353d10-1d8a-4fea-a415-e1729184e451
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAdjustPagingPathCount, wdm/IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, kernel.ioadjustpagingpathcount
+ms.keywords: kernel.ioadjustpagingpathcount, IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], wdm/IoAdjustPagingPathCount, k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

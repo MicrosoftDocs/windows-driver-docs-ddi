@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c6bfb1e6-9b10-4d8b-b36e-64e98c5e9080
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeInt64, SdpCreateNodeInt64 function [Bluetooth Devices], sdplib/SdpCreateNodeInt64, bltooth.sdpcreatenodeint64, bth_funcs_a4811a03-5108-4837-a8ef-883b6d09b08d.xml
+ms.keywords: SdpCreateNodeInt64 function [Bluetooth Devices], SdpCreateNodeInt64, bltooth.sdpcreatenodeint64, sdplib/SdpCreateNodeInt64, bth_funcs_a4811a03-5108-4837-a8ef-883b6d09b08d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,9 +127,9 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 

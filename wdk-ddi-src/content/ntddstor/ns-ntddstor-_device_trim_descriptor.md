@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e36bca55-63d0-41ef-83b9-8f0cfd450323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml, ntddstor/DEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor, DEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR, ntddstor/PDEVICE_TRIM_DESCRIPTOR, _DEVICE_TRIM_DESCRIPTOR
+ms.keywords: storage.device_trim_descriptor, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], DEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR, structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml, *PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], ntddstor/DEVICE_TRIM_DESCRIPTOR, ntddstor/PDEVICE_TRIM_DESCRIPTOR, _DEVICE_TRIM_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

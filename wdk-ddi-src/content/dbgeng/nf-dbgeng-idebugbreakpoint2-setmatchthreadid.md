@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66170e28-24db-4125-bd4e-ef07e8e82e79
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint::SetMatchThreadId, ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, debugger.setmatchthreadid, SetMatchThreadId, IDebugBreakpoint2, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint::SetMatchThreadId, IDebugBreakpoint interface [Windows Debugging], SetMatchThreadId method, dbgeng/IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint2 interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface
+ms.keywords: SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, SetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], SetMatchThreadId method, IDebugBreakpoint::SetMatchThreadId, IDebugBreakpoint2, ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, dbgeng/IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, dbgeng/IDebugBreakpoint::SetMatchThreadId, SetMatchThreadId, IDebugBreakpoint interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId method [Windows Debugging], debugger.setmatchthreadid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.SetMatchThreadId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetMatchThreadId method

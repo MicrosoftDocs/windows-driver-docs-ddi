@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0af0685c-d3a3-4c76-8fca-fb38f60411bf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.security_descriptor, kstruct_d_0b8cd06a-644b-40a4-b2bb-6c8c74d63db8.xml, wdm/SECURITY_DESCRIPTOR, _SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Kernel-Mode Driver Architecture], *PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR
+ms.keywords: "_SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR, kstruct_d_0b8cd06a-644b-40a4-b2bb-6c8c74d63db8.xml, kernel.security_descriptor, *PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Kernel-Mode Driver Architecture], wdm/SECURITY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SECURITY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR"
+req.typenames: SECURITY_DESCRIPTOR, *PISECURITY_DESCRIPTOR
 ---
 
 # _SECURITY_DESCRIPTOR structure
@@ -57,23 +57,23 @@ The <b>SECURITY_DESCRIPTOR</b> structure specifies the security information that
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
-
 <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
 
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 <a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+<a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
  
 

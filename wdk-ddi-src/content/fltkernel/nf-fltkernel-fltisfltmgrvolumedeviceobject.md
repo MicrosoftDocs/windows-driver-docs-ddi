@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c4165eab-c62e-436d-b4d4-a1f72ee9c1bd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltIsFltMgrVolumeDeviceObject, ifsk.fltisfltmgrvolumedeviceobject, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, fltkernel/FltIsFltMgrVolumeDeviceObject
+ms.keywords: ifsk.fltisfltmgrvolumedeviceobject, FltIsFltMgrVolumeDeviceObject, FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], fltkernel/FltIsFltMgrVolumeDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

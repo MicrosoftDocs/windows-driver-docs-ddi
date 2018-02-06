@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksallocatedeviceheader, KsAllocateDeviceHeader function [Streaming Media Devices], KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, ks/KsAllocateDeviceHeader
+ms.keywords: ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, ks/KsAllocateDeviceHeader, stream.ksallocatedeviceheader, KsAllocateDeviceHeader function [Streaming Media Devices], KsAllocateDeviceHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

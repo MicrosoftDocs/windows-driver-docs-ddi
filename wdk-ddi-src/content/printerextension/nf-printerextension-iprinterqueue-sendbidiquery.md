@@ -7,8 +7,8 @@ old-location: print\iprinterqueue_sendbidiquery.htm
 old-project: print
 ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printerextension/IPrinterQueue::SendBidiQuery, print.iprinterqueue_sendbidiquery, SendBidiQuery method [Print Devices], IPrinterQueue::SendBidiQuery, IPrinterQueue, IPrinterQueue interface [Print Devices], SendBidiQuery method, SendBidiQuery method [Print Devices], IPrinterQueue interface, SendBidiQuery
+ms.date: 2/2/2018
+ms.keywords: IPrinterQueue::SendBidiQuery, IPrinterQueue interface [Print Devices], SendBidiQuery method, print.iprinterqueue_sendbidiquery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices], IPrinterQueue interface, IPrinterQueue, SendBidiQuery, printerextension/IPrinterQueue::SendBidiQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,5 +121,5 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterQueue::SendBidiQuery method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterQueue::SendBidiQuery method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

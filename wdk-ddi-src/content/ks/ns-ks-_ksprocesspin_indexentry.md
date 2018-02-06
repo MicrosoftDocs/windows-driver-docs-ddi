@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8fa26442-66a3-4eeb-89d4-21418d60a1af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROCESSPIN_INDEXENTRY structure pointer [Streaming Media Devices], _KSPROCESSPIN_INDEXENTRY, *PKSPROCESSPIN_INDEXENTRY, avstruct_c32acda3-bab1-4077-a834-4b44a92524db.xml, ks/PKSPROCESSPIN_INDEXENTRY, ks/KSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY structure [Streaming Media Devices], stream.ksprocesspin_indexentry, KSPROCESSPIN_INDEXENTRY, PKSPROCESSPIN_INDEXENTRY
+ms.keywords: ks/PKSPROCESSPIN_INDEXENTRY, ks/KSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY structure [Streaming Media Devices], *PKSPROCESSPIN_INDEXENTRY, _KSPROCESSPIN_INDEXENTRY, avstruct_c32acda3-bab1-4077-a834-4b44a92524db.xml, KSPROCESSPIN_INDEXENTRY, stream.ksprocesspin_indexentry, PKSPROCESSPIN_INDEXENTRY structure pointer [Streaming Media Devices], PKSPROCESSPIN_INDEXENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROCESSPIN_INDEXENTRY
 product: Windows
 targetos: Windows
-req.typenames: KSPROCESSPIN_INDEXENTRY, *PKSPROCESSPIN_INDEXENTRY
+req.typenames: "*PKSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY"
 ---
 
 # _KSPROCESSPIN_INDEXENTRY structure
@@ -69,14 +69,14 @@ typedef struct _KSPROCESSPIN_INDEXENTRY {
 
 
 
-#### - Count
-
-This member specifies the number of process pins in <i>Pins</i> that are currently instantiated.
-
-
 #### - Pins
 
 A pointer to an array of <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a> structures. The array contains a listing of the instances of the given pin.
+
+
+#### - Count
+
+This member specifies the number of process pins in <i>Pins</i> that are currently instantiated.
 
 
 ## -remarks

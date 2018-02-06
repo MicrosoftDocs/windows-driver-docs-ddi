@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b45cd69-5c9e-4772-a68f-d604806e7789
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_DISPLAYMODE_FLAGS, OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, _D3DKMDT_DISPLAYMODE_FLAGS, display.d3dkmdt_displaymode_flags, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices]
+ms.keywords: OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, display.d3dkmdt_displaymode_flags, _D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices], d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,9 +164,9 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a>
 
  
 

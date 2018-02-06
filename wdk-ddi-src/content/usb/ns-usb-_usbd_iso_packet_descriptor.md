@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 45ceff8e-a013-45de-be2e-42c6ca30147e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], USBD_ISO_PACKET_DESCRIPTOR structure [Buses], usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml, usb/PUSBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, _USBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, PUSBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
+ms.keywords: PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml, PUSBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR, _USBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], buses.usbd_iso_packet_descriptor, usb/PUSBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBD_ISO_PACKET_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
+req.typenames: "*PUSBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -94,13 +94,13 @@ This structure is used as part of an isochronous transfer request to the host co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
  
 

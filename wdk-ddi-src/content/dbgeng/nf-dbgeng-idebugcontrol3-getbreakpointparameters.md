@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c4426dfa-7c14-4ef0-8660-855ee24ed7fe
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetBreakpointParameters method [Windows Debugging], IDebugControl interface, IDebugControl::GetBreakpointParameters, dbgeng/IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl2::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl::GetBreakpointParameters, IDebugControl3, debugger.getbreakpointparameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetBreakpointParameters, IDebugControl2 interface [Windows Debugging], GetBreakpointParameters method, GetBreakpointParameters, IDebugControl3 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl interface [Windows Debugging], GetBreakpointParameters method, GetBreakpointParameters method [Windows Debugging]
+ms.keywords: IDebugControl interface [Windows Debugging], GetBreakpointParameters method, dbgeng/IDebugControl::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, GetBreakpointParameters method [Windows Debugging], GetBreakpointParameters, IDebugControl3::GetBreakpointParameters, IDebugControl3 interface [Windows Debugging], GetBreakpointParameters method, IDebugControl::GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], IDebugControl interface, GetBreakpointParameters method [Windows Debugging], IDebugControl3 interface, debugger.getbreakpointparameters, dbgeng/IDebugControl3::GetBreakpointParameters, IDebugControl3, dbgeng/IDebugControl2::GetBreakpointParameters, IDebugControl2::GetBreakpointParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetBreakpointParameters
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetBreakpointParameters method
@@ -136,17 +136,17 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545617">GetBreakpointById</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
  
 

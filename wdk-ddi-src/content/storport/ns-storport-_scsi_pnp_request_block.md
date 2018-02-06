@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK, StorStartDevice, storport/SCSI_PNP_REQUEST_BLOCK, StorStopDevice, storage.scsi_pnp_request_block, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorQueryCapabilities, _SCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, StorRemoveDevice, StorFilterResourceRequirements, StorSupriseRemoval, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, StorQueryResourceRequirements
+ms.keywords: "_SCSI_PNP_REQUEST_BLOCK, StorStopDevice, StorFilterResourceRequirements, storage.scsi_pnp_request_block, StorStartDevice, SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], StorQueryResourceRequirements, storport/SCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, storport/PSCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, StorRemoveDevice, StorSupriseRemoval, StorQueryCapabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_PNP_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK"
+req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -282,9 +282,9 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 

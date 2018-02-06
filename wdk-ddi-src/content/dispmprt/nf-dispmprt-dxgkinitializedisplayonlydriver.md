@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d80d2d6a-758f-4b11-b33c-4b176a458bd2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkInitializeDisplayOnlyDriver, display.dxgkinitializedisplayonlydriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], dispmprt/DxgkInitializeDisplayOnlyDriver
+ms.keywords: DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ All parameters that are supplied by the KMDOD can be in paged memory.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
+<a href="..\dispmprt\ns-dispmprt-_kmddod_initialization_data.md">KMDDOD_INITIALIZATION_DATA</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
-<a href="..\dispmprt\ns-dispmprt-_kmddod_initialization_data.md">KMDDOD_INITIALIZATION_DATA</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\dispmprt\nf-dispmprt-dxgkinitialize.md">DxgkInitialize</a>
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
  
 

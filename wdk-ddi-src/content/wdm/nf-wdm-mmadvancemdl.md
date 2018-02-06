@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 93e84c80-d671-4f04-8532-6c374e1ae72b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, wdm/MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture], kernel.mmadvancemdl, MmAdvanceMdl
+ms.keywords: MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture], wdm/MmAdvanceMdl, kernel.mmadvancemdl, k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

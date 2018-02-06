@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, wdm/KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], KeInitializeMutex, kernel.keinitializemutex
+ms.keywords: KeInitializeMutex, wdm/KeInitializeMutex, k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, KeInitializeMutex routine [Kernel-Mode Driver Architecture], kernel.keinitializemutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,17 +101,17 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 <a href="..\wdm\nf-wdm-kereleasemutex.md">KeReleaseMutex</a>
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
 
  
 

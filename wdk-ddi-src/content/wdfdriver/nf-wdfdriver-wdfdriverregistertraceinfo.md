@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2d332cd-d744-444c-b616-d8400ad30d43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverRegisterTraceInfo method, kmdf.wdfdriverregistertraceinfo, WdfDriverRegisterTraceInfo, wdf.wdfdriverregistertraceinfo, DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, PFN_WDFDRIVERREGISTERTRACEINFO, wdfdriver/WdfDriverRegisterTraceInfo
+ms.keywords: WdfDriverRegisterTraceInfo method, PFN_WDFDRIVERREGISTERTRACEINFO, DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, wdf.wdfdriverregistertraceinfo, kmdf.wdfdriverregistertraceinfo, WdfDriverRegisterTraceInfo, wdfdriver/WdfDriverRegisterTraceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

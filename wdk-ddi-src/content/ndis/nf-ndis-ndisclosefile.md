@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a12f7597-cfe7-466f-a5b5-aafd885d5adf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCloseFile function [Network Drivers Starting with Windows Vista], netvista.ndisclosefile, NdisCloseFile, ndis_file_ref_17933dee-e6d5-4b5d-a078-84617c38c46c.xml, ndis/NdisCloseFile
+ms.keywords: netvista.ndisclosefile, NdisCloseFile, ndis_file_ref_17933dee-e6d5-4b5d-a078-84617c38c46c.xml, NdisCloseFile function [Network Drivers Starting with Windows Vista], ndis/NdisCloseFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,13 +97,13 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-
 <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
 
  
 

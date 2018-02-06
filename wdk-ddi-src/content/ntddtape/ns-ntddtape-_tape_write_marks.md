@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5baa7fd0-e806-4da8-9c87-c86ebc003e60
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/PTAPE_WRITE_MARKS, _TAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], TAPE_WRITE_MARKS, storage.tape_write_marks, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml, TAPE_WRITE_MARKS structure [Storage Devices], PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+ms.keywords: TAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml, *PTAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], storage.tape_write_marks, PTAPE_WRITE_MARKS, _TAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

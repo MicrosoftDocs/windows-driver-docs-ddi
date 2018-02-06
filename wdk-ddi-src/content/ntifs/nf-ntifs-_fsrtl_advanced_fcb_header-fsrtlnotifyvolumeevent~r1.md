@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a630d986-10a7-4b3f-a5b4-05de7879b146
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent, fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml
+ms.keywords: fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

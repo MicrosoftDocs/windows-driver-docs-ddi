@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db7b8526-e70a-4589-a128-58641c865d58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMESSAGEINFO, netvista.rilmessageinfo_2, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], *LPRILMESSAGEINFO, RILMESSAGEINFO
+ms.keywords: "*LPRILMESSAGEINFO, netvista.rilmessageinfo_2, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

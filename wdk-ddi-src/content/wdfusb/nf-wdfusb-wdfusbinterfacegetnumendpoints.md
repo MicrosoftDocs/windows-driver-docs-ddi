@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6041b96e-2364-4592-9bc5-de4fb1b36957
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method, WdfUsbInterfaceGetNumEndpoints, wdf.wdfusbinterfacegetnumendpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, PFN_WDFUSBINTERFACEGETNUMENDPOINTS, kmdf.wdfusbinterfacegetnumendpoints
+ms.keywords: WdfUsbInterfaceGetNumEndpoints method, PFN_WDFUSBINTERFACEGETNUMENDPOINTS, WdfUsbInterfaceGetNumEndpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, kmdf.wdfusbinterfacegetnumendpoints, wdf.wdfusbinterfacegetnumendpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

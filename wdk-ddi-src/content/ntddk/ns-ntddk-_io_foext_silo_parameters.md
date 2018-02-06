@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: EC7C59D0-96AE-400D-9502-D6DBFD9918DC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ntddk/IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], IO_FOEXT_SILO_PARAMETERS, _IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters
+ms.keywords: PIO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], ntddk/PIO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters, _IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], *PIO_FOEXT_SILO_PARAMETERS, ntddk/IO_FOEXT_SILO_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

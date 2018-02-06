@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9a31719-2674-4d3f-8792-b099640faa07
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_SelectAlternateInterface, stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml
+ms.keywords: stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, USBCAMD_SelectAlternateInterface function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

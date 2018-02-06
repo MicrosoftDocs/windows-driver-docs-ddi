@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2930b049-7572-4ee5-bef1-fd4485e5f644
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, IRegistryKey, DeleteKey method [Audio Devices], IRegistryKey interface, DeleteKey method [Audio Devices], IRegistryKey interface [Audio Devices], DeleteKey method, portcls/IRegistryKey::DeleteKey, IRegistryKey::DeleteKey, audio.iregistrykey_deletekey, DeleteKey
+ms.keywords: IRegistryKey::DeleteKey, DeleteKey, portcls/IRegistryKey::DeleteKey, DeleteKey method [Audio Devices], IRegistryKey, DeleteKey method [Audio Devices], IRegistryKey interface, audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, audio.iregistrykey_deletekey, IRegistryKey interface [Audio Devices], DeleteKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,17 +88,17 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536970">IRegistryKey::NewSubKey</a>
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
 <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 

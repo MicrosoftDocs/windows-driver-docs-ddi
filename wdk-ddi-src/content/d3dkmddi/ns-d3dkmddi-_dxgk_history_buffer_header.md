@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], DXGK_HISTORY_BUFFER_HEADER, _DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header
+ms.keywords: DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, _DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

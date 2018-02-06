@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f6539ab6-709e-43e4-9e3f-595cf59c85c5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: SeLengthSid function [Installable File System Drivers], SeLengthSid, ifsk.selengthsid, seref_d26b3191-e19a-4f62-b388-91d68976410f.xml, ntifs/SeLengthSid
+ms.keywords: SeLengthSid function [Installable File System Drivers], SeLengthSid, seref_d26b3191-e19a-4f62-b388-91d68976410f.xml, ntifs/SeLengthSid, ifsk.selengthsid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_prepare_device, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE, pepfx/PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, _PEP_PREPARE_DEVICE
+ms.keywords: pepfx/PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_PREPARE_DEVICE, kernel.pep_prepare_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PREPARE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE"
+req.typenames: PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE
 ---
 
 # _PEP_PREPARE_DEVICE structure

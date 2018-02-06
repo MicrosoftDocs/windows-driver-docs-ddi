@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 91F62BFF-C26A-422A-B138-1E8D9A5146B3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX, wwan/PWWAN_DEVICE_CAPS_EX, _WWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], netvista.wwan_device_caps_ex, *PWWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX
+ms.keywords: PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX, _WWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX, netvista.wwan_device_caps_ex, wwan/PWWAN_DEVICE_CAPS_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

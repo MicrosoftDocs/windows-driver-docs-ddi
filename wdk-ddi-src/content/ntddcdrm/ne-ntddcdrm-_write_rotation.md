@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3569e38-cb56-4e33-baba-c479fc4368da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.write_rotation, PWRITE_ROTATION enumeration pointer [Storage Devices], WRITE_ROTATION enumeration [Storage Devices], CdromDefaultRotation, PWRITE_ROTATION, ntddcdrm/CdromDefaultRotation, WRITE_ROTATION, ntddcdrm/WRITE_ROTATION, ntddcdrm/CdromCAVRotation, *PWRITE_ROTATION, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml, _WRITE_ROTATION, ntddcdrm/PWRITE_ROTATION, CdromCAVRotation
+ms.keywords: CdromCAVRotation, ntddcdrm/CdromDefaultRotation, ntddcdrm/PWRITE_ROTATION, storage.write_rotation, ntddcdrm/CdromCAVRotation, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml, WRITE_ROTATION enumeration [Storage Devices], ntddcdrm/WRITE_ROTATION, CdromDefaultRotation, _WRITE_ROTATION, PWRITE_ROTATION, *PWRITE_ROTATION, WRITE_ROTATION, PWRITE_ROTATION enumeration pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_ROTATION
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
 ---
 
 # _WRITE_ROTATION enumeration
@@ -80,9 +80,9 @@ The CD-ROM drive uses the (default) constant angular velocity (CAV) method when 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
-
 <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
  
 

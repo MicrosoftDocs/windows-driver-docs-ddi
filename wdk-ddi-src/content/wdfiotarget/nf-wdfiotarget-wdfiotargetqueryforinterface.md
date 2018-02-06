@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface method, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface, wdfiotarget/WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE, wdf.wdfiotargetqueryforinterface
+ms.keywords: kmdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE, wdf.wdfiotargetqueryforinterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, wdfiotarget/WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoTargetQueryForInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
+req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -158,13 +158,13 @@ Framework-based drivers define interfaces by calling <a href="..\wdfqueryinterfa
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
  
 

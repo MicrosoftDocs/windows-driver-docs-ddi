@@ -7,8 +7,8 @@ old-location: print\oemgetinfo.htm
 old-project: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMGetInfo, OEMGetInfo function [Print Devices], OEMGetInfo, print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml
+ms.date: 2/2/2018
+ms.keywords: printoem/OEMGetInfo, OEMGetInfo, print.oemgetinfo, OEMGetInfo function [Print Devices], print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

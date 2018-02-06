@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1fc6ffb1-c6e9-4bca-9d10-541708fe0086
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_PACKET_LIST_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_INFORMATION0, FWPS_PACKET_LIST_INFORMATION0_, netvista.fwps_packet_list_information0, wfp_ref_3_struct_3_fwps_P-Z_f2647b5d-3267-4bc2-889e-8fb3a81f6440.xml, fwpsk/FWPS_PACKET_LIST_INFORMATION0
+ms.keywords: FWPS_PACKET_LIST_INFORMATION0, netvista.fwps_packet_list_information0, FWPS_PACKET_LIST_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INFORMATION0, FWPS_PACKET_LIST_INFORMATION0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_P-Z_f2647b5d-3267-4bc2-889e-8fb3a81f6440.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

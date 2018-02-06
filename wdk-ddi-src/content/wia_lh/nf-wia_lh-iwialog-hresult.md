@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 74d9b770-c2b6-483d-a6d7-070ac2a55133
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: hResult method [Imaging Devices], IWiaLog interface, IWiaLog::hResult, IWiaLog, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, wia_lh/IWiaLog::hResult, hResult, hResult method [Imaging Devices], IWiaLog interface [Imaging Devices], hResult method, image.iwialog_hresult
+ms.keywords: IWiaLog interface [Imaging Devices], hResult method, image.iwialog_hresult, IWiaLog, wia_lh/IWiaLog::hResult, IWiaLog_e581a82d-60c1-45e3-9d5a-fcac2b4d9c9c.xml, hResult, hResult method [Imaging Devices], IWiaLog::hResult, hResult method [Imaging Devices], IWiaLog interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaLog.hResult
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

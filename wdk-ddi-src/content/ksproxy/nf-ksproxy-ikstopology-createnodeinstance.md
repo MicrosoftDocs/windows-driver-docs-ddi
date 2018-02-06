@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, IKsTopology::CreateNodeInstance, CreateNodeInstance, stream.ikstopology_createnodeinstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, CreateNodeInstance method [Streaming Media Devices], ksproxy/IKsTopology::CreateNodeInstance
+ms.keywords: IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, ksproxy/IKsTopology::CreateNodeInstance, stream.ikstopology_createnodeinstance, IKsTopology::CreateNodeInstance, CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E4EB8052-545C-46AE-A879-1F216B7FD20B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], *PPEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_COMPONENT_PERF_SET, kernel.pep_component_perf_set, PEP_COMPONENT_PERF_SET, pepfx/PPEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET, _PEP_COMPONENT_PERF_SET
+ms.keywords: "_PEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_COMPONENT_PERF_SET, kernel.pep_component_perf_set, *PPEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], pepfx/PEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -155,14 +155,14 @@ A pointer to an array of <a href="..\pepfx\ns-pepfx-_pep_perf_state.md">PEP_PERF
 The range of discrete performance measurement values for this P-state set.
 
 
-#### Maximum
-
-The maximum value in the range. This value is expressed in the units indicated by the <b>Unit</b> member.
-
-
 #### Minimum
 
 The minimum value in the range. This value is expressed in the units indicated by the <b>Unit</b> member.
+
+
+#### Maximum
+
+The maximum value in the range. This value is expressed in the units indicated by the <b>Unit</b> member.
 
 
 ## -remarks
@@ -176,15 +176,15 @@ Device drivers use the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_F
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
-
 <a href="..\pepfx\ne-pepfx-_pep_perf_state_unit.md">PEP_PERF_STATE_UNIT</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
+<a href="..\pepfx\ne-pepfx-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a>
 
 <a href="..\pepfx\ns-pepfx-_pep_perf_state.md">PEP_PERF_STATE</a>
 
-<a href="..\pepfx\ne-pepfx-_pep_perf_state_type.md">PEP_PERF_STATE_TYPE</a>
+<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

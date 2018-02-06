@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6768C1D7-A964-44A7-A340-98060130FF24
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HealthStatusDisabled, HealthStatusFailed, ntddstor/HealthStatusDisabled, ntddstor/HealthStatusThrottled, STORAGE_COMPONENT_HEALTH_STATUS, HealthStatusNormal, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices], HealthStatusWarning, ntddstor/HealthStatusUnknown, ntddstor/HealthStatusNormal, ntddstor/HealthStatusWarning, ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusThrottled, storage.storage_component_health_status, PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusUnknown, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices], ntddstor/HealthStatusFailed, *PSTORAGE_COMPONENT_HEALTH_STATUS
+ms.keywords: ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusNormal, HealthStatusWarning, storage.storage_component_health_status, _STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusWarning, STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusUnknown, HealthStatusThrottled, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices], ntddstor/HealthStatusDisabled, HealthStatusFailed, ntddstor/HealthStatusNormal, ntddstor/HealthStatusFailed, ntddstor/HealthStatusThrottled, *PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusUnknown, PSTORAGE_COMPONENT_HEALTH_STATUS, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_COMPONENT_HEALTH_STATUS
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_COMPONENT_HEALTH_STATUS, *PSTORAGE_COMPONENT_HEALTH_STATUS
+req.typenames: "*PSTORAGE_COMPONENT_HEALTH_STATUS, STORAGE_COMPONENT_HEALTH_STATUS"
 ---
 
 # _STORAGE_COMPONENT_HEALTH_STATUS enumeration

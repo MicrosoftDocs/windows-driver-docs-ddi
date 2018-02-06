@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7b2dcb75-f674-4a66-a483-8c3f644390c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], GetSystemIdsByIndex method, IDebugSystemObjects3::GetSystemIdsByIndex, debugger.getsystemidsbyindex, IDebugSystemObjects4::GetSystemIdsByIndex, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects_d1d7e689-407b-4d84-b1ce-75736b761089.xml, GetSystemIdsByIndex, dbgeng/IDebugSystemObjects3::GetSystemIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging], GetSystemIdsByIndex method, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetSystemIdsByIndex, IDebugSystemObjects4
+ms.keywords: GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetSystemIdsByIndex, GetSystemIdsByIndex, dbgeng/IDebugSystemObjects3::GetSystemIdsByIndex, IDebugSystemObjects_d1d7e689-407b-4d84-b1ce-75736b761089.xml, IDebugSystemObjects4::GetSystemIdsByIndex, GetSystemIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetSystemIdsByIndex method, IDebugSystemObjects4 interface [Windows Debugging], GetSystemIdsByIndex method, dbgeng/IDebugSystemObjects4::GetSystemIdsByIndex, IDebugSystemObjects4, debugger.getsystemidsbyindex, GetSystemIdsByIndex method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSystemObjects4.GetSystemIdsByIndex
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects4::GetSystemIdsByIndex method
@@ -118,11 +118,11 @@ The index of the first target is zero.  The index of the last target is the numb
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AC51EA77-7F5B-42DE-B366-7BCE46AA5097
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_pd_power_data_object_init_fixed, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses], UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
+ms.keywords: ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, buses.ucm_pd_power_data_object_init_fixed, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 87d9f307-996b-47df-b3dd-368fef6c1042
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, AddSyntheticModule, debugger.addsyntheticmodule, AddSyntheticModule method [Windows Debugging], dbgeng/IDebugSymbols3::AddSyntheticModule, IDebugSymbols3, IDebugSymbols3::AddSyntheticModule, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModule method, AddSyntheticModule method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3::AddSyntheticModule, AddSyntheticModule, dbgeng/IDebugSymbols3::AddSyntheticModule, IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, IDebugSymbols3, AddSyntheticModule method [Windows Debugging], AddSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, debugger.addsyntheticmodule, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModule method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.AddSyntheticModule
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AddSyntheticModule method

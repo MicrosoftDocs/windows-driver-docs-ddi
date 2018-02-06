@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: b08588a2-d786-44c1-a265-0f7fef9ecd6a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.set_cmp_address_type, SET_CMP_ADDRESS_TYPE structure [Buses], PSET_CMP_ADDRESS_TYPE, 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, PSET_CMP_ADDRESS_TYPE structure pointer [Buses], SET_CMP_ADDRESS_TYPE, *PSET_CMP_ADDRESS_TYPE, 61883/SET_CMP_ADDRESS_TYPE, _SET_CMP_ADDRESS_TYPE, 61883/PSET_CMP_ADDRESS_TYPE
+ms.keywords: "_SET_CMP_ADDRESS_TYPE, 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, PSET_CMP_ADDRESS_TYPE, IEEE.set_cmp_address_type, 61883/PSET_CMP_ADDRESS_TYPE, *PSET_CMP_ADDRESS_TYPE, 61883/SET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE structure [Buses], PSET_CMP_ADDRESS_TYPE structure pointer [Buses], SET_CMP_ADDRESS_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,14 @@ Indicates what kind of address range plugs can be accessed in. Possible values a
 
 
 
-#### CMP_ADDRESS_TYPE_EXCLUSIVE
-
-This flag must be set before any plugs are created or removed within the driver. When this flag is set, all plugs created within the driver are in an exclusive address range, only accessible to the device for which the driver is loaded.
-
-
 #### CMP_ADDRESS_TYPE_GLOBAL
 
 This requests the default behavior. All plugs created on the local system are within a global address range, accessible by any node on the 1394 bus.
+
+
+#### CMP_ADDRESS_TYPE_EXCLUSIVE
+
+This flag must be set before any plugs are created or removed within the driver. When this flag is set, all plugs created within the driver are in an exclusive address range, only accessible to the device for which the driver is loaded.
 
 
 ## -see-also

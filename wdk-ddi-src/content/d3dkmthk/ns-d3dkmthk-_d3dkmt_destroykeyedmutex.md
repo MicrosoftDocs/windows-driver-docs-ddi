@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b7903bf8-ef62-4224-a81d-4b41f36e2061
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DESTROYKEYEDMUTEX, d3dkmthk/D3DKMT_DESTROYKEYEDMUTEX, display.d3dkmt_destroykeyedmutex, OpenGL_Structs_4eb8a9cb-d2b1-445b-b545-5ec0a017a61c.xml, D3DKMT_DESTROYKEYEDMUTEX, D3DKMT_DESTROYKEYEDMUTEX structure [Display Devices]"
+ms.keywords: d3dkmthk/D3DKMT_DESTROYKEYEDMUTEX, OpenGL_Structs_4eb8a9cb-d2b1-445b-b545-5ec0a017a61c.xml, D3DKMT_DESTROYKEYEDMUTEX structure [Display Devices], _D3DKMT_DESTROYKEYEDMUTEX, D3DKMT_DESTROYKEYEDMUTEX, display.d3dkmt_destroykeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

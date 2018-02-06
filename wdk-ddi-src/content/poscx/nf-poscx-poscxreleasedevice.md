@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxReleaseDevice, poscx/PosCxReleaseDevice, pos.poscxreleasedevice, PosCxReleaseDevice function
+ms.keywords: PosCxReleaseDevice, poscx/PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

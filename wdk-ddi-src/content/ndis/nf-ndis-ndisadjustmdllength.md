@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d52d985c-3ebc-45a0-8073-ac26c77441c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisadjustmdllength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, NdisAdjustMdlLength
+ms.keywords: ndis/NdisAdjustMdlLength, NdisAdjustMdlLength, netvista.ndisadjustmdllength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

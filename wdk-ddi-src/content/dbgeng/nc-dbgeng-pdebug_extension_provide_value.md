@@ -40,7 +40,7 @@ apiname:
 -	DebugExtensionProvideValue
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # PDEBUG_EXTENSION_PROVIDE_VALUE callback
@@ -172,15 +172,15 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 ## -see-also
 
-<i>KnownStructOutput</i>
-
-<i>DebugExtensionUninitialize</i>
-
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+<i>DebugExtensionNotify</i>
 
 <i>DebugExtensionQueryValueNames</i>
 
-<i>DebugExtensionNotify</i>
+<i>KnownStructOutput</i>
+
+<i>DebugExtensionUninitialize</i>
 
  
 

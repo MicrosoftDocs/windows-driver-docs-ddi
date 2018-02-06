@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 634398E9-7AAA-424C-8C81-287F70CE3578
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._roothub_info, P_ROOTHUB_INFO structure pointer [Buses], P_ROOTHUB_INFO, ROOTHUB_INFO, ucxroothub/P_ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], *PROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO, _ROOTHUB_INFO
+ms.keywords: ucxroothub/_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO structure [Buses], *PROOTHUB_INFO, _ROOTHUB_INFO, ROOTHUB_INFO, buses._roothub_info, P_ROOTHUB_INFO, ucxroothub/P_ROOTHUB_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd81d777-8479-41e3-8f71-e5f4134b60a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, ndis/NdisFIndicateStatus, netvista.ndisfindicatestatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, ndis/NdisFIndicateStatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], netvista.ndisfindicatestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,15 +115,15 @@ A filter driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 <a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
 
  
 

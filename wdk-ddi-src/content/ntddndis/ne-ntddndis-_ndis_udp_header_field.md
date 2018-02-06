@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8AB1661D-A7DF-4178-8D1A-87A3AF9C4316
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_UDP_HEADER_FIELD, PNDIS_UDP_HEADER_FIELD, ntddndis/NdisUdpHeaderFieldUndefined, NDIS_UDP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], *PNDIS_UDP_HEADER_FIELD, ntddndis/NDIS_UDP_HEADER_FIELD, NdisUdpHeaderFieldMaximum, netvista.ndis_udp_header_field, NDIS_UDP_HEADER_FIELD, NdisUdpHeaderFieldUndefined, ntddndis/NdisUdpHeaderFieldMaximum, NdisUdpHeaderFieldDestinationPort, ntddndis/NdisUdpHeaderFieldDestinationPort, PNDIS_UDP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_UDP_HEADER_FIELD"
+ms.keywords: PNDIS_UDP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NdisUdpHeaderFieldMaximum, PNDIS_UDP_HEADER_FIELD, ntddndis/NdisUdpHeaderFieldDestinationPort, netvista.ndis_udp_header_field, *PNDIS_UDP_HEADER_FIELD, NdisUdpHeaderFieldUndefined, NdisUdpHeaderFieldDestinationPort, ntddndis/PNDIS_UDP_HEADER_FIELD, ntddndis/NDIS_UDP_HEADER_FIELD, NDIS_UDP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NDIS_UDP_HEADER_FIELD, ntddndis/NdisUdpHeaderFieldMaximum, _NDIS_UDP_HEADER_FIELD, ntddndis/NdisUdpHeaderFieldUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_UDP_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: NDIS_UDP_HEADER_FIELD, *PNDIS_UDP_HEADER_FIELD
+req.typenames: "*PNDIS_UDP_HEADER_FIELD, NDIS_UDP_HEADER_FIELD"
 ---
 
 # _NDIS_UDP_HEADER_FIELD enumeration

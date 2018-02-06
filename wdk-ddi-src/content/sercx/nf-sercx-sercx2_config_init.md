@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2_config_init, SERCX2_CONFIG_INIT function [Serial Ports], 2/SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT
+ms.keywords: SERCX2_CONFIG_INIT, 2/SERCX2_CONFIG_INIT, serports.sercx2_config_init, SERCX2_CONFIG_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

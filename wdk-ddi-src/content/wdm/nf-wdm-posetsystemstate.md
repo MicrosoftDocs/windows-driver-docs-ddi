@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b62db582-381a-457f-9755-d8667c7561af
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.posetsystemstate, PoSetSystemState routine [Kernel-Mode Driver Architecture], wdm/PoSetSystemState, PoSetSystemState, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml
+ms.keywords: PoSetSystemState, wdm/PoSetSystemState, kernel.posetsystemstate, PoSetSystemState routine [Kernel-Mode Driver Architecture], portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,14 +75,14 @@ Indicates the system activity, as specified by a bitwise OR of one or more of th
 
 
 
-#### ES_DISPLAY_REQUIRED
-
-Use of the display is required.
-
-
 #### ES_SYSTEM_REQUIRED
 
 The system is not idle, regardless of apparent load.
+
+
+#### ES_DISPLAY_REQUIRED
+
+Use of the display is required.
 
 
 #### ES_USER_PRESENT
@@ -100,7 +100,7 @@ None
 ## -remarks
 
 
-A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
+A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
 
 The <i>Flags</i> parameter specifies the type of activity occurring. Drivers can specify any combination of the flags.
 
@@ -110,9 +110,9 @@ Drivers can set the system busy state to request that the system avoid leaving o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
+<a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
+<a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>
 
  
 

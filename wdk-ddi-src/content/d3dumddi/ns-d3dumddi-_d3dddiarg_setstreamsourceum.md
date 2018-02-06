@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1406f6d7-7da9-4c1a-93c5-384b13fa5e81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setstreamsourceum, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, D3DDDIARG_SETSTREAMSOURCEUM, _D3DDDIARG_SETSTREAMSOURCEUM
+ms.keywords: D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM, _D3DDDIARG_SETSTREAMSOURCEUM, display.d3dddiarg_setstreamsourceum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], NdisFreeScatterGatherList, ndis/NdisFreeScatterGatherList
+ms.keywords: ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], NdisFreeScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

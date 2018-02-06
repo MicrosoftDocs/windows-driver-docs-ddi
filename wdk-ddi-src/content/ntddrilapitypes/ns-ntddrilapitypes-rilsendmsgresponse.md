@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64ff0ba7-726e-49ee-bb7c-338b77458fc1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILSENDMSGRESPONSE, netvista.rilsendmsgresponse, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSENDMSGRESPONSE, RILSENDMSGRESPONSE"
+ms.keywords: RILSENDMSGRESPONSE, ntddrilapitypes/RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE, netvista.rilsendmsgresponse, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

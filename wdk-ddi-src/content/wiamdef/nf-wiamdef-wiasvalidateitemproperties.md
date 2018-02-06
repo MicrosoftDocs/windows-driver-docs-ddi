@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d7858b1b-88cf-4e75-a466-40afdcb01d9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasValidateItemProperties function [Imaging Devices], wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, image.wiasvalidateitemproperties, wiamdef/wiasValidateItemProperties
+ms.keywords: wiamdef/wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices], image.wiasvalidateitemproperties, wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasValidateItemProperties
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

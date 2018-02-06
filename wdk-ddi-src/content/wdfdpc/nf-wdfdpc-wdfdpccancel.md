@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6eb56c5b-d198-4542-a239-c54b49561196
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDpcCancel, DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, kmdf.wdfdpccancel, wdfdpc/WdfDpcCancel, wdf.wdfdpccancel, WdfDpcCancel method
+ms.keywords: WdfDpcCancel method, DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, wdfdpc/WdfDpcCancel, WdfDpcCancel, wdf.wdfdpccancel, kmdf.wdfdpccancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDpcCancel
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 

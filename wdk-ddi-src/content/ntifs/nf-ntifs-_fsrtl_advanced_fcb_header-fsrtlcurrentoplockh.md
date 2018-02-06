@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, FsRtlCurrentOplockH
+ms.keywords: ntifs/FsRtlCurrentOplockH, FsRtlCurrentOplockH, fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, FsRtlCurrentOplockH function [Installable File System Drivers], ifsk.fsrtlcurrentoplockh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,9 +92,9 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md"
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md">FltCurrentOplockH</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
  
 

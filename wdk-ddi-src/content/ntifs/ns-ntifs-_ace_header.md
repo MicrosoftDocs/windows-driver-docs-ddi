@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PACE_HEADER structure pointer [Installable File System Drivers], ntifs/PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml, ACE_HEADER structure [Installable File System Drivers], ACE_HEADER, PACE_HEADER, ntifs/ACE_HEADER, _ACE_HEADER, ifsk.ace_header, *PACE_HEADER
+ms.keywords: ifsk.ace_header, PACE_HEADER structure pointer [Installable File System Drivers], _ACE_HEADER, *PACE_HEADER, ntifs/ACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER, ntifs/PACE_HEADER, ACE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -211,17 +211,17 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
 
  
 

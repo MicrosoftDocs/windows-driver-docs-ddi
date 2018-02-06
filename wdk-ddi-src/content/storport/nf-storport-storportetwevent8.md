@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FC0E8267-5AA6-47D6-9F98-B6B19CA3F260
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorportEtwLevelWarning, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeStart, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelCritical, StorportEtwEventOpcodeResume, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeReply, storage.storportetwevent8, storport/StorPortEtwEvent8, StorPortEtwEvent8, StorportEtwLevelLogAlways, StorportEtwEventOpcodeExtension, StorportEtwLevelError, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwLevelInformational, StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeStop, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwLevelVerbose, StorportEtwEventOpcodeReceive
+ms.keywords: StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeResume, StorportEtwEventOpcodeDC_Stop, StorPortEtwEvent8, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeSuspend, StorportEtwLevelVerbose, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeExtension, StorportEtwLevelLogAlways, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeReply, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelError, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeStop, storport/StorPortEtwEvent8, StorportEtwEventOpcodeDC_Start, StorportEtwLevelCritical, storage.storportetwevent8, StorportEtwLevelInformational, StorportEtwLevelWarning, StorportEtwEventOpcodeReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -498,9 +498,9 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
-
 <a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
+
+<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
 
  
 

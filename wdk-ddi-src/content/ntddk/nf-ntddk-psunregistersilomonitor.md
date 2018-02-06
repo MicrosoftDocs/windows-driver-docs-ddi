@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1B85AD5-F626-4177-8218-428B617A97F6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsUnregisterSiloMonitor, PsUnregisterSiloMonitor, kernel.psunregistersilomonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psunregistersilomonitor, ntddk/PsUnregisterSiloMonitor, PsUnregisterSiloMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

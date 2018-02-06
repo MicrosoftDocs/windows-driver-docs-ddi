@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 13326eae-3160-42e5-9254-089c8cdc97a3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: drmk/DrmForwardContentToInterface, DrmForwardContentToInterface, audio.drmforwardcontenttointerface, DrmForwardContentToInterface function [Audio Devices], aud-prop2_c065f793-db14-4fc9-8804-f6d86754e106.xml
+ms.keywords: drmk/DrmForwardContentToInterface, DrmForwardContentToInterface function [Audio Devices], DrmForwardContentToInterface, aud-prop2_c065f793-db14-4fc9-8804-f6d86754e106.xml, audio.drmforwardcontenttointerface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmForwardContentToInterface
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
 ---
 
 # DrmForwardContentToInterface function
@@ -136,19 +136,19 @@ Calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536586">IDrmPort::ForwardContentToInterface</a>
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttointerface.md">PcForwardContentToInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
 
 <a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="..\portcls\nf-portcls-pcforwardcontenttointerface.md">PcForwardContentToInterface</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
  
 

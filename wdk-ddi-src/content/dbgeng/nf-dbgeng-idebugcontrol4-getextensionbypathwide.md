@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExtensionByPathWide method [Windows Debugging], debugger.getextensionbypathwide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, IDebugControl4, GetExtensionByPathWide
+ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, dbgeng/IDebugControl4::GetExtensionByPathWide, debugger.getextensionbypathwide, IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetExtensionByPathWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetExtensionByPathWide method

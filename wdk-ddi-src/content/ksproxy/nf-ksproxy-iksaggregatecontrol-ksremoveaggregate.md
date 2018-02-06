@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f625b1ed-ccab-4072-9eb9-c4ebbddb1199
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsAggregateControl::KsRemoveAggregate, IKsAggregateControl, ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml, IKsAggregateControl interface [Streaming Media Devices], KsRemoveAggregate method, KsRemoveAggregate method [Streaming Media Devices], KsRemoveAggregate method [Streaming Media Devices], IKsAggregateControl interface, stream.iksaggregatecontrol_ksremoveaggregate, ksproxy/IKsAggregateControl::KsRemoveAggregate, KsRemoveAggregate
+ms.keywords: stream.iksaggregatecontrol_ksremoveaggregate, KsRemoveAggregate method [Streaming Media Devices], ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml, KsRemoveAggregate, IKsAggregateControl interface [Streaming Media Devices], KsRemoveAggregate method, KsRemoveAggregate method [Streaming Media Devices], IKsAggregateControl interface, IKsAggregateControl, ksproxy/IKsAggregateControl::KsRemoveAggregate, IKsAggregateControl::KsRemoveAggregate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

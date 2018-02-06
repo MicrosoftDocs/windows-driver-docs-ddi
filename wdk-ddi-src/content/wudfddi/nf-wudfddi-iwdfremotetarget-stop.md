@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRemoteTarget::Stop, IWDFRemoteTarget interface, Stop method, Stop method, Stop method, IWDFRemoteTarget interface, IWDFRemoteTarget::Stop, wdf.iwdfremotetarget_stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, IWDFRemoteTarget, Stop, umdf.iwdfremotetarget_stop
+ms.keywords: UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, wudfddi/IWDFRemoteTarget::Stop, umdf.iwdfremotetarget_stop, IWDFRemoteTarget interface, Stop method, Stop method, IWDFRemoteTarget, IWDFRemoteTarget::Stop, Stop method, IWDFRemoteTarget interface, Stop, wdf.iwdfremotetarget_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget.Stop
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

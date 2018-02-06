@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c9ce4ff9-1c69-40c4-8d82-d1ec4e134f34
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA, audio.loopedstreaming_position_event_data, PLOOPEDSTREAMING_POSITION_EVENT_DATA, ksmedia/PLOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA structure [Audio Devices], aud-prop_637593e4-087a-4856-95e2-cb99f9df3d0c.xml, LOOPEDSTREAMING_POSITION_EVENT_DATA, *PLOOPEDSTREAMING_POSITION_EVENT_DATA, PLOOPEDSTREAMING_POSITION_EVENT_DATA structure pointer [Audio Devices]
+ms.keywords: PLOOPEDSTREAMING_POSITION_EVENT_DATA structure pointer [Audio Devices], LOOPEDSTREAMING_POSITION_EVENT_DATA structure [Audio Devices], ksmedia/PLOOPEDSTREAMING_POSITION_EVENT_DATA, PLOOPEDSTREAMING_POSITION_EVENT_DATA, aud-prop_637593e4-087a-4856-95e2-cb99f9df3d0c.xml, *PLOOPEDSTREAMING_POSITION_EVENT_DATA, ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA, audio.loopedstreaming_position_event_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LOOPEDSTREAMING_POSITION_EVENT_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PLOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA"
+req.typenames: LOOPEDSTREAMING_POSITION_EVENT_DATA, *PLOOPEDSTREAMING_POSITION_EVENT_DATA
 ---
 
 # LOOPEDSTREAMING_POSITION_EVENT_DATA structure
@@ -96,13 +96,13 @@ For more information about looped buffers, buffer positions, and play and record
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/88baf1f0-d18f-4601-9ba3-fea957712cd6">KSEVENTSET_LoopedStreaming</a>
-
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537131">KSEVENT_LOOPEDSTREAMING_POSITION</a>
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+<a href="https://msdn.microsoft.com/88baf1f0-d18f-4601-9ba3-fea957712cd6">KSEVENTSET_LoopedStreaming</a>
 
  
 

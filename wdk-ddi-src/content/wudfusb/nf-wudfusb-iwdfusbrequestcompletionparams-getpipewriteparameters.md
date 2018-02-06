@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, GetPipeWriteParameters method, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method
+ms.keywords: GetPipeWriteParameters method, IWDFUsbRequestCompletionParams, GetPipeWriteParameters, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

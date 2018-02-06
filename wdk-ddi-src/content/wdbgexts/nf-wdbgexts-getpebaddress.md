@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314eb897-a441-41c7-8b74-a853de70e066
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPebAddress, GetPebAddress function [Windows Debugging], debugger.getpebaddress, wdbgexts/GetPebAddress, WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml
+ms.keywords: debugger.getpebaddress, WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, GetPebAddress, GetPebAddress function [Windows Debugging], wdbgexts/GetPebAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 184473e4-603f-40a0-a4ea-c15d5b0b0b35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSetQueuedLimit, OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, display.d3dkmtsetqueuedlimit, D3DKMTSetQueuedLimit, D3DKMTSetQueuedLimit function [Display Devices]
+ms.keywords: D3DKMTSetQueuedLimit, display.d3dkmtsetqueuedlimit, OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, D3DKMTSetQueuedLimit function [Display Devices], d3dkmthk/D3DKMTSetQueuedLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,9 +131,9 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setqueuedlimit.md">D3DKMT_SETQUEUEDLIMIT</a>
-
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setqueuedlimit.md">D3DKMT_SETQUEUEDLIMIT</a>
 
  
 

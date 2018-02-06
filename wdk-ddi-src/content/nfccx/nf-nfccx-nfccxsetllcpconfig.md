@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxSetLlcpConfig, nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers]
+ms.keywords: nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig, nfccx/NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxSetLlcpConfig
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
+req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
 ---
 
 # NfcCxSetLlcpConfig function

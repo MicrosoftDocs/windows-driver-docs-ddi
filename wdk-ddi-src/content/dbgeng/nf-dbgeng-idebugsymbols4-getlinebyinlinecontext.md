@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AFDB4DB4-3C63-44A0-88D7-C8047ECB2261
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLineByInlineContext method [Windows Debugging], IDebugSymbols4::GetLineByInlineContext, GetLineByInlineContext, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, debugger.idebugsymbols4_getlinebyinlinecontext, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::GetLineByInlineContext
+ms.keywords: debugger.idebugsymbols4_getlinebyinlinecontext, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4, IDebugSymbols4::GetLineByInlineContext, GetLineByInlineContext, dbgeng/IDebugSymbols4::GetLineByInlineContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols4.GetLineByInlineContext
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols4::GetLineByInlineContext method

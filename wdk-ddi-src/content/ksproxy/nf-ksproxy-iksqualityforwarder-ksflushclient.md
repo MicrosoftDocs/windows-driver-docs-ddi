@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a1b5094-4abd-4d57-8d8c-b385fb0d46de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.iksqualityforwarder_ksflushclient, IKsQualityForwarder::KsFlushClient, KsFlushClient, IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, KsFlushClient method [Streaming Media Devices], KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface, IKsQualityForwarder, ksproxy/IKsQualityForwarder::KsFlushClient, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml
+ms.keywords: IKsQualityForwarder interface [Streaming Media Devices], KsFlushClient method, IKsQualityForwarder, stream.iksqualityforwarder_ksflushclient, KsFlushClient, ksproxy/IKsQualityForwarder::KsFlushClient, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, KsFlushClient method [Streaming Media Devices], IKsQualityForwarder interface, KsFlushClient method [Streaming Media Devices], IKsQualityForwarder::KsFlushClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

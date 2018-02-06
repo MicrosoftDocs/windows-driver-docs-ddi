@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1bc6eed2-c6bd-448f-8f78-630cca4cd29a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCreateParameters method, wudfddi/IWDFIoRequest::GetCreateParameters, GetCreateParameters, IWDFIoRequest interface, GetCreateParameters method, wdf.iwdfiorequest_getcreateparameters, umdf.iwdfiorequest_getcreateparameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, IWDFIoRequest::GetCreateParameters, GetCreateParameters method, IWDFIoRequest interface, IWDFIoRequest
+ms.keywords: IWDFIoRequest interface, GetCreateParameters method, wdf.iwdfiorequest_getcreateparameters, IWDFIoRequest, umdf.iwdfiorequest_getcreateparameters, GetCreateParameters method, GetCreateParameters method, IWDFIoRequest interface, IWDFIoRequest::GetCreateParameters, wudfddi/IWDFIoRequest::GetCreateParameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, GetCreateParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetCreateParameters
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -113,9 +113,9 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pOptio
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

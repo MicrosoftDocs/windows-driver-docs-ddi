@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a4af7dc-0210-42b6-b15b-a0f885664da9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT, netvista.dot11_extsta_send_context, DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], windot11/DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml
+ms.keywords: DOT11_EXTSTA_SEND_CONTEXT structure [Network Drivers Starting with Windows Vista], windot11/DOT11_EXTSTA_SEND_CONTEXT, windot11/PDOT11_EXTSTA_SEND_CONTEXT, Native_802.11_data_types_c340a64e-8d74-4e25-83ca-2b93776bd220.xml, *PDOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, netvista.dot11_extsta_send_context, PDOT11_EXTSTA_SEND_CONTEXT, PDOT11_EXTSTA_SEND_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], DOT11_EXTSTA_SEND_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_EXTSTA_SEND_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: DOT11_EXTAP_SEND_CONTEXT, DOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT
+req.typenames: DOT11_EXTSTA_SEND_CONTEXT, DOT11_EXTAP_SEND_CONTEXT, *PDOT11_EXTSTA_SEND_CONTEXT, *PDOT11_EXTAP_SEND_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -93,6 +93,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_EXTSTA_SEND_CONTEXT_REVISION_1.
@@ -104,11 +109,6 @@ This member must be set to
        sizeof(DOT11_EXTSTA_SEND_CONTEXT).
 
 
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
 ### -field usExemptionActionType
 
 The type of encryption exemption for the packet. The following exemption types are defined:
@@ -117,15 +117,15 @@ The type of encryption exemption for the packet. The following exemption types a
 
 
 
+#### DOT11_EXEMPT_NO_EXEMPTION
+
+The packet is not exempt from any cipher operations performed by the 802.11 station.
+
+
 #### DOT11_EXEMPT_ALWAYS
 
 The packet is exempt from any cipher operations performed by the 802.11 station. The 802.11
        station must transmit the packet unencrypted.
-
-
-#### DOT11_EXEMPT_NO_EXEMPTION
-
-The packet is not exempt from any cipher operations performed by the 802.11 station.
 
 
 #### DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE
@@ -257,22 +257,22 @@ The _
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-power-mgmt-request">OID_DOT11_POWER_MGMT_REQUEST</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
  
 

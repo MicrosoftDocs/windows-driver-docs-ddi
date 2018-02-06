@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_queryresidency, D3DDDICB_QUERYRESIDENCY structure [Display Devices], d3dumddi/D3DDDICB_QUERYRESIDENCY, _D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY, D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml
+ms.keywords: D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, D3DDDICB_QUERYRESIDENCY structure [Display Devices], _D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency, d3dumddi/D3DDDICB_QUERYRESIDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

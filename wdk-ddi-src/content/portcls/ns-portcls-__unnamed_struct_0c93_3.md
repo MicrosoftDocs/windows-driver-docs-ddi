@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aec5b9df-22cc-4ef8-8d09-103124ab357c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPCPROPERTY_ITEM structure pointer [Audio Devices], portcls/PPCPROPERTY_ITEM, audio.pcproperty_item, PCPROPERTY_ITEM structure [Audio Devices], audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, PCPROPERTY_ITEM, PPCPROPERTY_ITEM, portcls/PCPROPERTY_ITEM, *PPCPROPERTY_ITEM
+ms.keywords: portcls/PPCPROPERTY_ITEM, PCPROPERTY_ITEM, PPCPROPERTY_ITEM, PPCPROPERTY_ITEM structure pointer [Audio Devices], audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, portcls/PCPROPERTY_ITEM, audio.pcproperty_item, PCPROPERTY_ITEM structure [Audio Devices], *PPCPROPERTY_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,16 @@ typedef struct {
 
  
 
+
+
+#### - Set
+
+Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
+
+
+#### - Id
+
+Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
 
 
 #### - Flags
@@ -198,16 +208,6 @@ Pointer to the property-handler routine. This member is a function pointer of ty
 </td>
 </tr>
 </table></span></div>See the following Remarks section.
-
-
-#### - Id
-
-Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
-
-
-#### - Set
-
-Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
 
 
 ## -remarks

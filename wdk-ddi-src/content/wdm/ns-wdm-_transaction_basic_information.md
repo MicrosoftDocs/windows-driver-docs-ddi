@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TRANSACTION_BASIC_INFORMATION, wdm/PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, kernel.transaction_basic_information, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], *PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _TRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION
+ms.keywords: "_TRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/TRANSACTION_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSACTION_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION
+req.typenames: "*PTRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,7 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
 
 <a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
@@ -102,7 +102,7 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>
 
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
  
 

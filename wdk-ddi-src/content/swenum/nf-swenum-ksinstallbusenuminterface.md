@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d9703786-c46e-4466-a229-9ed0348cb45e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/KsInstallBusEnumInterface, ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, KsInstallBusEnumInterface, stream.ksinstallbusenuminterface, KsInstallBusEnumInterface function [Streaming Media Devices]
+ms.keywords: stream.ksinstallbusenuminterface, ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, KsInstallBusEnumInterface function [Streaming Media Devices], swenum/KsInstallBusEnumInterface, KsInstallBusEnumInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsInstallBusEnumInterface
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
+req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
 req.product: Windows 10 or later.
 ---
 

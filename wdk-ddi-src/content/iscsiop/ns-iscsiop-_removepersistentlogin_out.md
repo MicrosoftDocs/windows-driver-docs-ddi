@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemovePersistentLogin_OUT, storage.removepersistentlogin_out, PRemovePersistentLogin_OUT structure pointer [Storage Devices], _RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], *PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml
+ms.keywords: RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, _RemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], PRemovePersistentLogin_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePersistentLogin_OUT
 product: Windows
 targetos: Windows
-req.typenames: RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT
+req.typenames: "*PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT"
 ---
 
 # _RemovePersistentLogin_OUT structure

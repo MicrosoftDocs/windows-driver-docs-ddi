@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 76fd7c35-fef1-43c2-aedd-d09d18ab27a4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeTearDownAddress function [Installable File System Drivers], rxref_99fcdd00-8c1a-4a0b-8007-5b7f01a725bb.xml, rxce/RxCeTearDownAddress, ifsk.rxceteardownaddress, RxCeTearDownAddress
+ms.keywords: rxce/RxCeTearDownAddress, rxref_99fcdd00-8c1a-4a0b-8007-5b7f01a725bb.xml, RxCeTearDownAddress, RxCeTearDownAddress function [Installable File System Drivers], ifsk.rxceteardownaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeTearDownAddress
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 

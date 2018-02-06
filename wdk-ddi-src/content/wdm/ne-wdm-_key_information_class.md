@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeyHandleTagsInformation, kernel.key_information_class, KeyFullInformation, wdm/KEY_INFORMATION_CLASS, wdm/KeyCachedInformation, wdm/KeyNodeInformation, KeyFlagsInformation, KeyVirtualizationInformation, wdm/KeyVirtualizationInformation, wdm/KeyBasicInformation, MaxKeyInfoClass, KeyNameInformation, wdm/KeyFlagsInformation, wdm/MaxKeyInfoClass, KEY_INFORMATION_CLASS, wdm/KeyHandleTagsInformation, KeyNodeInformation, KeyBasicInformation, wdm/KeyNameInformation, _KEY_INFORMATION_CLASS, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyFullInformation, KeyCachedInformation, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml
+ms.keywords: wdm/KeyFlagsInformation, wdm/KeyNameInformation, wdm/KEY_INFORMATION_CLASS, wdm/KeyCachedInformation, KeyFullInformation, KEY_INFORMATION_CLASS, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, MaxKeyInfoClass, wdm/KeyNodeInformation, wdm/KeyHandleTagsInformation, KeyBasicInformation, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyBasicInformation, wdm/KeyFullInformation, KeyNameInformation, KeyVirtualizationInformation, KeyFlagsInformation, KeyNodeInformation, KeyCachedInformation, kernel.key_information_class, wdm/KeyVirtualizationInformation, KeyHandleTagsInformation, wdm/MaxKeyInfoClass, _KEY_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -138,21 +138,21 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
-
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
 <a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
 <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
  
 

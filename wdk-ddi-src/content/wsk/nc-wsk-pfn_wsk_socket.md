@@ -111,6 +111,11 @@ For more information about the socket types that are supported for each supporte
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
+#### SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
 #### SOCK_DGRAM
 
 Supports unreliable connectionless datagram communication.
@@ -119,11 +124,6 @@ Supports unreliable connectionless datagram communication.
 #### SOCK_RAW
 
 Supports raw access to the transport protocol.
-
-
-#### SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
 
 
 ### -param Protocol [in]
@@ -152,10 +152,10 @@ A basic socket will be created that can be used only to get and set transport st
        options or to perform socket I/O control operations.
 
 
-#### WSK_FLAG_CONNECTION_SOCKET
+#### WSK_FLAG_LISTEN_SOCKET
 
-A connection-oriented socket will be created that can be used to send and receive network data
-       over a connection.
+A listening socket will be created that can be used to listen for incoming connections from
+       remote transport addresses.
 
 
 #### WSK_FLAG_DATAGRAM_SOCKET
@@ -163,10 +163,10 @@ A connection-oriented socket will be created that can be used to send and receiv
 A datagram socket will be created that can be used to send and receive datagrams.
 
 
-#### WSK_FLAG_LISTEN_SOCKET
+#### WSK_FLAG_CONNECTION_SOCKET
 
-A listening socket will be created that can be used to listen for incoming connections from
-       remote transport addresses.
+A connection-oriented socket will be created that can be used to send and receive network data
+       over a connection.
 
 
 #### WSK_FLAG_STREAM_SOCKET
@@ -380,30 +380,30 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
-
 <a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
 
  
 

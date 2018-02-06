@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10ddi_counter_info, D3D10DDI_COUNTER_INFO structure [Display Devices], d3d10umddi/D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO, UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml
+ms.keywords: UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml, D3D10DDI_COUNTER_INFO structure [Display Devices], display.d3d10ddi_counter_info, d3d10umddi/D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

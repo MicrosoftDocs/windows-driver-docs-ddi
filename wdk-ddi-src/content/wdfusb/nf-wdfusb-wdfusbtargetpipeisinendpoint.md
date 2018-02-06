@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431d8f18-18db-460c-9f2f-454a5378825c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetpipeisinendpoint, wdf.wdfusbtargetpipeisinendpoint, DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, WdfUsbTargetPipeIsInEndpoint, PFN_WDFUSBTARGETPIPEISINENDPOINT, wdfusb/WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint method
+ms.keywords: kmdf.wdfusbtargetpipeisinendpoint, WdfUsbTargetPipeIsInEndpoint method, wdfusb/WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint, PFN_WDFUSBTARGETPIPEISINENDPOINT, DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, wdf.wdfusbtargetpipeisinendpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df28ae8f-01f7-42c5-99df-2a3fc7401173
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGK_EVENT_TYPE, dispmprt/DxgkUndefinedEvent, DxgkAcpiEvent, dispmprt/PDXGK_EVENT_TYPE, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], display.dxgk_event_type, DxgkDockingEvent, _DXGK_EVENT_TYPE, PDXGK_EVENT_TYPE, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, DXGK_EVENT_TYPE, dispmprt/DxgkPowerStateEvent, IN_DXGK_EVENT_TYPE, dispmprt/DxgkAcpiEvent, DxgkUndefinedEvent, DXGK_EVENT_TYPE enumeration [Display Devices], DxgkPowerStateEvent, dispmprt/DXGK_EVENT_TYPE, dispmprt/DxgkDockingEvent"
+ms.keywords: DXGK_EVENT_TYPE, DxgkAcpiEvent, DxgkPowerStateEvent, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], display.dxgk_event_type, dispmprt/DxgkPowerStateEvent, PDXGK_EVENT_TYPE, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, _DXGK_EVENT_TYPE, dispmprt/DXGK_EVENT_TYPE, dispmprt/DxgkUndefinedEvent, IN_DXGK_EVENT_TYPE, DxgkDockingEvent, *PDXGK_EVENT_TYPE, DxgkUndefinedEvent, dispmprt/PDXGK_EVENT_TYPE, dispmprt/DxgkAcpiEvent, DXGK_EVENT_TYPE enumeration [Display Devices], dispmprt/DxgkDockingEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_EVENT_TYPE, DXGK_EVENT_TYPE"
+req.typenames: DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE
 ---
 
 # _DXGK_EVENT_TYPE enumeration

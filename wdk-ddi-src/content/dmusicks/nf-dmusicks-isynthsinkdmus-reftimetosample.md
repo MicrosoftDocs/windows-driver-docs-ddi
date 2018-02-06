@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20906bcd-3059-4d10-92cb-8efdef929ccd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus::RefTimeToSample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, RefTimeToSample method [Audio Devices], dmusicks/ISynthSinkDMus::RefTimeToSample, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, audio.isynthsinkdmus_reftimetosample, RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, RefTimeToSample, ISynthSinkDMus
+ms.keywords: RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, RefTimeToSample method [Audio Devices], ISynthSinkDMus, audio.isynthsinkdmus_reftimetosample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, ISynthSinkDMus::RefTimeToSample, dmusicks/ISynthSinkDMus::RefTimeToSample, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, RefTimeToSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,9 +101,9 @@ The calculation of the reference time from the sample time depends on the sampli
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536525">IDirectMusicSynthSink::RefTimeToSample</a>
-
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536525">IDirectMusicSynthSink::RefTimeToSample</a>
 
  
 

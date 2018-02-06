@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl2::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl interface, debugger.removeextension, dbgeng/IDebugControl2::RemoveExtension, IDebugControl interface [Windows Debugging], RemoveExtension method, IDebugControl3, RemoveExtension method [Windows Debugging], IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, dbgeng/IDebugControl3::RemoveExtension, RemoveExtension, IDebugControl3 interface [Windows Debugging], RemoveExtension method, RemoveExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], RemoveExtension method
+ms.keywords: IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl3 interface [Windows Debugging], RemoveExtension method, dbgeng/IDebugControl3::RemoveExtension, IDebugControl3, RemoveExtension method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::RemoveExtension, RemoveExtension, RemoveExtension method [Windows Debugging], dbgeng/IDebugControl2::RemoveExtension, IDebugControl interface [Windows Debugging], RemoveExtension method, RemoveExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, debugger.removeextension, IDebugControl2::RemoveExtension, IDebugControl3::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl::RemoveExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.RemoveExtension
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::RemoveExtension method
@@ -110,9 +110,9 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 

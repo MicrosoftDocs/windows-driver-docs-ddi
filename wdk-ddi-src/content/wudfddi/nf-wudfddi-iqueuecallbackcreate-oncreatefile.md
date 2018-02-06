@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IQueueCallbackCreate interface, OnCreateFile method, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, wdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, IQueueCallbackCreate::OnCreateFile, umdf.iqueuecallbackcreate_oncreatefile, IQueueCallbackCreate, OnCreateFile, OnCreateFile method, IQueueCallbackCreate interface, wudfddi/IQueueCallbackCreate::OnCreateFile
+ms.keywords: OnCreateFile method, IQueueCallbackCreate interface, OnCreateFile method, wdf.iqueuecallbackcreate_oncreatefile, IQueueCallbackCreate, umdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, IQueueCallbackCreate interface, wudfddi/IQueueCallbackCreate::OnCreateFile, IQueueCallbackCreate::OnCreateFile, OnCreateFile, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackCreate.OnCreateFile
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -116,19 +116,19 @@ A UMDF driver might be required to open registry keys or files while it imperson
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
 
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
 
  
 

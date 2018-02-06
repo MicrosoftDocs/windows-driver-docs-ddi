@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, dbgeng/IDebugSymbols3::SetImagePathWide, SetImagePathWide, debugger.setimagepathwide, SetImagePathWide method [Windows Debugging], IDebugSymbols3::SetImagePathWide, IDebugSymbols3, SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: dbgeng/IDebugSymbols3::SetImagePathWide, SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, IDebugSymbols3, SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, debugger.setimagepathwide, IDebugSymbols3::SetImagePathWide, SetImagePathWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.SetImagePathWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::SetImagePathWide method
@@ -109,9 +109,9 @@ The executable image path can consist of several directories separated by semico
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
  
 

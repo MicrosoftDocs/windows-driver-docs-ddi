@@ -40,7 +40,7 @@ apiname:
 -	pfnSetShaderCacheSession
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback
@@ -82,14 +82,14 @@ VOID APIENTRY* pfnSetShaderCacheSession(
 
 
 
-#### - hCacheSession
-
-The handle of a cache session.
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - hCacheSession
+
+The handle of a cache session.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, WDF_FILEOBJECT_CONFIG, _WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, wdfdevice/WDF_FILEOBJECT_CONFIG, wdf.wdf_fileobject_config, kmdf.wdf_fileobject_config, PWDF_FILEOBJECT_CONFIG structure pointer, wdfdevice/PWDF_FILEOBJECT_CONFIG
+ms.keywords: DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, *PWDF_FILEOBJECT_CONFIG, _WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, wdf.wdf_fileobject_config, PWDF_FILEOBJECT_CONFIG, wdfdevice/PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, kmdf.wdf_fileobject_config, wdfdevice/WDF_FILEOBJECT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_FILEOBJECT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
+req.typenames: "*PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG"
 req.product: Windows 10 or later.
 ---
 

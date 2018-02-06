@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_D3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/LastDStateTransitionStatusUnknown, LastDStateTransitionStatusUnknown, D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, LastDStateTransitionD3cold, LastDStateTransitionD3hot, wdm/LastDStateTransitionD3cold, wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3hot, *PD3COLD_LAST_TRANSITION_STATUS"
+ms.keywords: LastDStateTransitionStatusUnknown, LastDStateTransitionD3cold, wdm/D3COLD_LAST_TRANSITION_STATUS, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, wdm/LastDStateTransitionStatusUnknown, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/LastDStateTransitionD3hot, D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, LastDStateTransitionD3hot, *PD3COLD_LAST_TRANSITION_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestForwardToIoQueue method, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, WdfRequestForwardToIoQueue, wdf.wdfrequestforwardtoioqueue, PFN_WDFREQUESTFORWARDTOIOQUEUE, wdfrequest/WdfRequestForwardToIoQueue, kmdf.wdfrequestforwardtoioqueue
+ms.keywords: WdfRequestForwardToIoQueue method, PFN_WDFREQUESTFORWARDTOIOQUEUE, WdfRequestForwardToIoQueue, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, wdf.wdfrequestforwardtoioqueue, kmdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -179,15 +179,15 @@ If the source queue's <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
 
  
 

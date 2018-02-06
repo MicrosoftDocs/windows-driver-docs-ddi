@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19180ab8-7ac6-45cb-8f17-b16368bbb32b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], ifsk.rtlrealsuccessor, rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml, RtlRealSuccessor
+ms.keywords: rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml, RtlRealSuccessor routine [Installable File System Drivers], RtlRealSuccessor, ifsk.rtlrealsuccessor, ntddk/RtlRealSuccessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,9 +100,9 @@ Callers of <b>RtlRealSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
 <a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 <a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
 

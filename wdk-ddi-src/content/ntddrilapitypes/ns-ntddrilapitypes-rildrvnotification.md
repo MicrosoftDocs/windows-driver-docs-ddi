@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15567aae-a8ab-4289-9dd7-5bf7df80bfc9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILDRVNOTIFICATION, ntddrilapitypes/RILDRVNOTIFICATION, netvista.rildrvnotification, RILDRVNOTIFICATION, RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista], netvista.rildrvnotification, ntddrilapitypes/RILDRVNOTIFICATION, RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDRVNOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
+req.typenames: "*LPRILDRVNOTIFICATION, RILDRVNOTIFICATION"
 ---
 
 # RILDRVNOTIFICATION structure

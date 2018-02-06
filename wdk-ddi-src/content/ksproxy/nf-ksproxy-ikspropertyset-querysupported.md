@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, ksproxy/IKsPropertySet::QuerySupported, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, IKsPropertySet, QuerySupported method [Streaming Media Devices], QuerySupported, QuerySupported method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_querysupported, IKsPropertySet::QuerySupported
+ms.keywords: QuerySupported method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_querysupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, IKsPropertySet::QuerySupported, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, IKsPropertySet, QuerySupported, QuerySupported method [Streaming Media Devices], ksproxy/IKsPropertySet::QuerySupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

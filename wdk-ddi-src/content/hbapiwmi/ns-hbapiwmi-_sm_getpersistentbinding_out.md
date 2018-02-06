@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aa80e05c-e322-4350-80e7-28d53821c510
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_GetPersistentBinding_OUT structure [Storage Devices], _SM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices], *PSM_GetPersistentBinding_OUT, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml, storage.sm_getpersistentbinding_out, hbapiwmi/SM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT
+ms.keywords: structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml, _SM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, hbapiwmi/SM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT structure [Storage Devices], PSM_GetPersistentBinding_OUT structure pointer [Storage Devices], storage.sm_getpersistentbinding_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetPersistentBinding_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT
+req.typenames: "*PSM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT"
 ---
 
 # _SM_GetPersistentBinding_OUT structure

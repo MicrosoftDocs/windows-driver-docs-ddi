@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PPCMETHOD_ITEM, portcls/PCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], PPCMETHOD_ITEM, PCMETHOD_ITEM, audio.pcmethod_item, audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, PCMETHOD_ITEM structure [Audio Devices], portcls/PPCMETHOD_ITEM"
+ms.keywords: audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM, PCMETHOD_ITEM structure [Audio Devices], PPCMETHOD_ITEM, *PPCMETHOD_ITEM, portcls/PCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,16 @@ typedef struct {
 
 
 
+#### - Set
+
+Specifies the method set. This member is a pointer to a GUID that uniquely identifies the method set.
+
+
+#### - Id
+
+Specifies the method ID. This member identifies a method item in the method set. If the method set contains <i>n</i> items, valid method IDs are integers in the range 0 to <i>n</i>-1.
+
+
 #### - Flags
 
 Specifies the type of parameter passing and memory access that a method uses. This member can be set to the bitwise OR of one or more of the flag bits in the following table.
@@ -168,16 +178,6 @@ Pointer to the method-handler routine. This member is a function pointer of type
 </td>
 </tr>
 </table></span></div>When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a structure of type <a href="..\portcls\ns-portcls-_pcmethod_request.md">PCMETHOD_REQUEST</a>.
-
-
-#### - Id
-
-Specifies the method ID. This member identifies a method item in the method set. If the method set contains <i>n</i> items, valid method IDs are integers in the range 0 to <i>n</i>-1.
-
-
-#### - Set
-
-Specifies the method set. This member is a pointer to a GUID that uniquely identifies the method set.
 
 
 ## -remarks

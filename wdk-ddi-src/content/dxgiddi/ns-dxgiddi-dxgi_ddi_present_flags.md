@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_PRESENT_FLAGS, dxgiddi/DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], display.dxgi_ddi_present_flags, UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml
+ms.keywords: display.dxgi_ddi_present_flags, UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], dxgiddi/DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

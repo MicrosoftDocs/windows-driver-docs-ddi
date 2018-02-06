@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8fed32a2-f0a7-4462-b8bb-b01c9cccf6b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsmsmodificationinfo, ntddrilapitypes/RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO
+ms.keywords: "*LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], RILSMSMODIFICATIONINFO, ntddrilapitypes/RILSMSMODIFICATIONINFO, netvista.rilsmsmodificationinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

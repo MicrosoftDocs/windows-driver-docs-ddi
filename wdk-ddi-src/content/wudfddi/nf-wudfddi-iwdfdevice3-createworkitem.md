@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B34EABF4-C659-4DB4-AEC6-94F544D79221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice3_createworkitem, IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, wudfddi/IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, CreateWorkItem method, CreateWorkItem, umdf.iwdfdevice3_createworkitem, IWDFDevice3
+ms.keywords: wudfddi/IWDFDevice3::CreateWorkItem, IWDFDevice3 interface, CreateWorkItem method, umdf.iwdfdevice3_createworkitem, IWDFDevice3, wdf.iwdfdevice3_createworkitem, CreateWorkItem method, IWDFDevice3::CreateWorkItem, CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.CreateWorkItem
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -105,15 +105,15 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 ## -see-also
 
+<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
+
 <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
-<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
-
-<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
+<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
  
 

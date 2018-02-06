@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, PcForwardIrpSynchronous function [Audio Devices], PcForwardIrpSynchronous, portcls/PcForwardIrpSynchronous, audio.pcforwardirpsynchronous
+ms.keywords: audio.pcforwardirpsynchronous, PcForwardIrpSynchronous function [Audio Devices], PcForwardIrpSynchronous, portcls/PcForwardIrpSynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,9 +97,9 @@ The <a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a> function 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="..\portcls\nf-portcls-pccompleteirp.md">PcCompleteIrp</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 

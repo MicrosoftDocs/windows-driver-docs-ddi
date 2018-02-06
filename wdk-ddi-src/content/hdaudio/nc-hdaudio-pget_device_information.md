@@ -40,7 +40,7 @@ apiname:
 -	GetDeviceInformation
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 ---
 
 # PGET_DEVICE_INFORMATION callback
@@ -125,9 +125,9 @@ The <i>deviceInformation</i> parameter is a pointer to a buffer that contains an
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_device_information.md">HDAUDIO_DEVICE_INFORMATION</a>
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_device_information.md">HDAUDIO_DEVICE_INFORMATION</a>
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
 

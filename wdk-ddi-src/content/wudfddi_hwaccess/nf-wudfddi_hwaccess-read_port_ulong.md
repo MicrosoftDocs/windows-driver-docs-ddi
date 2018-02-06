@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2B507B58-8CD0-4D66-93E9-FF67D7246F3C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_PORT_ULONG function, wdf.read_port_ulong, READ_PORT_ULONG, umdf.read_port_ulong, wudfddi_hwaccess/READ_PORT_ULONG
+ms.keywords: READ_PORT_ULONG, wdf.read_port_ulong, umdf.read_port_ulong, READ_PORT_ULONG function, wudfddi_hwaccess/READ_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_PORT_ULONG
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

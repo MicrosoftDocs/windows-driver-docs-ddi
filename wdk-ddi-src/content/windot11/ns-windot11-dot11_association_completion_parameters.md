@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 770962e3-0339-46f8-a789-7c9bbf9e058f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_ASSOCIATION_COMPLETION_PARAMETERS, netvista.dot11_association_completion_parameters, Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS
+ms.keywords: Native_802.11_data_types_54cece34-410b-4c18-8657-47db6cab5518.xml, PDOT11_ASSOCIATION_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, DOT11_ASSOCIATION_COMPLETION_PARAMETERS, netvista.dot11_association_completion_parameters, windot11/DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS, windot11/PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,6 +114,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_ASSOCIATION_COMPLETION_PARAMETERS_REVISION_1.
@@ -123,11 +128,6 @@ This member must be set to DOT11_ASSOCIATION_COMPLETION_PARAMETERS_REVISION_1.
 
 This member must be set to 
        <code>sizeof(DOT11_ASSOCIATION_COMPLETION_PARAMETERS)</code>.
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field MacAddr
@@ -450,14 +450,14 @@ A flag that specifies the quality of service (QoS) protocol that is currently ac
 
 
 
-#### DOT11_QOS_PROTOCOL_FLAG_11E
-
-The NIC is using the 802.11e QoS protocol.
-
-
 #### DOT11_QOS_PROTOCOL_FLAG_WMM
 
 The NIC is using the 802.11 WMM QoS protocol.
+
+
+#### DOT11_QOS_PROTOCOL_FLAG_11E
+
+The NIC is using the 802.11e QoS protocol.
 
 
 ### -field DSInfo
@@ -564,26 +564,26 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
+
+<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+<a href="..\windot11\ns-windot11-dot11_encap_entry.md">DOT11_ENCAP_ENTRY</a>
 
 OID_DOT11_DESIRED_BSS_TYPE
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
-   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
-
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
-
-<a href="..\windot11\ns-windot11-dot11_encap_entry.md">DOT11_ENCAP_ENTRY</a>
 
  
 

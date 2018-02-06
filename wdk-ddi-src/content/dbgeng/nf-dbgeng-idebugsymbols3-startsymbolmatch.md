@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 465b13a7-59e0-47f8-9e33-82043a23f146
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols2::StartSymbolMatch, debugger.startsymbolmatch, StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::StartSymbolMatch, StartSymbolMatch, StartSymbolMatch method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, dbgeng/IDebugSymbols3::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, IDebugSymbols3, StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method
+ms.keywords: StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::StartSymbolMatch, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, StartSymbolMatch, debugger.startsymbolmatch, StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, StartSymbolMatch method [Windows Debugging], IDebugSymbols::StartSymbolMatch, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, dbgeng/IDebugSymbols::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols3, IDebugSymbols2::StartSymbolMatch, StartSymbolMatch method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.StartSymbolMatch
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::StartSymbolMatch method
@@ -126,15 +126,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
 
  
 

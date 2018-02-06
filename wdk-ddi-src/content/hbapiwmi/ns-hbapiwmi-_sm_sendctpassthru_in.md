@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a6dfb1a2-bfc2-4117-8a4e-f52979818289
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_sendctpassthru_in, PSM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN, hbapiwmi/SM_SendCTPassThru_IN, SM_SendCTPassThru_IN, _SM_SendCTPassThru_IN, PSM_SendCTPassThru_IN structure pointer [Storage Devices], hbapiwmi/PSM_SendCTPassThru_IN, SM_SendCTPassThru_IN structure [Storage Devices], structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml
+ms.keywords: storage.sm_sendctpassthru_in, _SM_SendCTPassThru_IN, PSM_SendCTPassThru_IN structure pointer [Storage Devices], PSM_SendCTPassThru_IN, SM_SendCTPassThru_IN structure [Storage Devices], structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml, hbapiwmi/SM_SendCTPassThru_IN, hbapiwmi/PSM_SendCTPassThru_IN, SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

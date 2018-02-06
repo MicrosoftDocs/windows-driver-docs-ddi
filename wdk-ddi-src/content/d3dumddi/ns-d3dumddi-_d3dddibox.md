@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, display.d3dddibox, D3DDDIBOX
+ms.keywords: D3DDDIBOX, display.d3dddibox, _D3DDDIBOX, D3DDDIBOX structure [Display Devices], d3dumddi/D3DDDIBOX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

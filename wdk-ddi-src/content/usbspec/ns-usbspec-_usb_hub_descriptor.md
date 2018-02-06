@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6f5521f4-44da-4470-b649-d98c1d4e4891
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, usbspec/USB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], _USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], PUSB_HUB_DESCRIPTOR, usbspec/PUSB_HUB_DESCRIPTOR, buses.usb_hub_descriptor
+ms.keywords: "*PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], usbspec/USB_HUB_DESCRIPTOR, _USB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], buses.usb_hub_descriptor, PUSB_HUB_DESCRIPTOR, usbspec/PUSB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, USB_HUB_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_HUB_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR
+req.typenames: "*PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 

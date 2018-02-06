@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions method [Windows Debugging], IDebugControl::SetEngineOptions, debugger.setengineoptions, dbgeng/IDebugControl2::SetEngineOptions, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, dbgeng/IDebugControl3::SetEngineOptions, IDebugControl3, IDebugControl interface [Windows Debugging], SetEngineOptions method, dbgeng/IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl3::SetEngineOptions, SetEngineOptions method [Windows Debugging], IDebugControl2 interface
+ms.keywords: IDebugControl2 interface [Windows Debugging], SetEngineOptions method, SetEngineOptions method [Windows Debugging], IDebugControl interface, SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions method [Windows Debugging], dbgeng/IDebugControl3::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, IDebugControl3::SetEngineOptions, IDebugControl::SetEngineOptions, dbgeng/IDebugControl2::SetEngineOptions, debugger.setengineoptions, SetEngineOptions, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, SetEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, IDebugControl3, dbgeng/IDebugControl::SetEngineOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.SetEngineOptions
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetEngineOptions method
@@ -344,15 +344,15 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 

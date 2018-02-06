@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/RtlDrainNonVolatileFlush, ifsk.rtldrainnonvolatileflush, RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers]
+ms.keywords: ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,10 +118,10 @@ The request was successful.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+
 <a href="https://msdn.microsoft.com/759CDFAA-D939-44E7-AE03-E3ED90F8E09D">
 RtlFlushNonVolatileMemory</a>
-
-<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
 
 <a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
 

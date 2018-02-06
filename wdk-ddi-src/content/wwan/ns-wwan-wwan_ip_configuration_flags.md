@@ -124,14 +124,14 @@ struct
 An address is available.
 
 
-#### DnsServerAvailable:1
-
-A DNS server is available.
-
-
 #### GatewayAvailable:1
 
 A gateway is available.
+
+
+#### DnsServerAvailable:1
+
+A DNS server is available.
 
 
 #### MTUAvailable:1

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e429a48-4e86-4673-aa32-85b640e2f64f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDefaultAddEventHandler function [Streaming Media Devices], avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, stream.ksdefaultaddeventhandler, ks/KsDefaultAddEventHandler, KsDefaultAddEventHandler
+ms.keywords: KsDefaultAddEventHandler, stream.ksdefaultaddeventhandler, ks/KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices], avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,11 @@ This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEven
 
 <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
-
 <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 

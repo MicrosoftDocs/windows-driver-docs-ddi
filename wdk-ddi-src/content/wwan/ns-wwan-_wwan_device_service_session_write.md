@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8134E635-5FC3-4990-A7CC-E43ECEB1FBB6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE, netvista.wwan_device_service_session_write, _WWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE"
+ms.keywords: WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_session_write, WWAN_DEVICE_SERVICE_SESSION_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_SESSION_WRITE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE
+req.typenames: "*PWWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE"
 req.product: Windows 10 or later.
 ---
 
@@ -81,9 +81,9 @@ The size, in bytes, of the device service data that follows the structure instan
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_service_session_write.md">NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
+
+<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
  
 

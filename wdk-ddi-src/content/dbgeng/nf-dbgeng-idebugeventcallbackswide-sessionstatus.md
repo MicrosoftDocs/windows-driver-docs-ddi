@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cc3ed4ef-5e2d-4865-8d6f-b140d6b5d7af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_sessionstatus, IDebugEventCallbacksWide::SessionStatus, IDebugEventCallbacksWide, SessionStatus, dbgeng/IDebugEventCallbacksWide::SessionStatus, SessionStatus method [Windows Debugging]
+ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, debugger.idebugeventcallbackswide_sessionstatus, SessionStatus, dbgeng/IDebugEventCallbacksWide::SessionStatus, IDebugEventCallbacksWide, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide::SessionStatus, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.SessionStatus
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::SessionStatus method

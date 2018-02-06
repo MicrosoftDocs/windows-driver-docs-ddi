@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E92F181A-DBD7-44A3-A49D-DDF07E03ADB1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetReadIntervalTimeout method [Serial Ports], serports.sercxgetreadintervaltimeout, 1/SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout
+ms.keywords: SerCxGetReadIntervalTimeout method [Serial Ports], serports.sercxgetreadintervaltimeout, SerCxGetReadIntervalTimeout, 1/SerCxGetReadIntervalTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCxGetReadIntervalTimeout
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

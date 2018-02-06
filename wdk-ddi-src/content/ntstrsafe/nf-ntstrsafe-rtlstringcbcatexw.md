@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9105d6b5-bee3-4fcd-b548-4d403731654d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, STRSAFE_FILL_BEHIND_NULL, STRSAFE_IGNORE_NULLS, RtlStringCbCatExW, RtlStringCbCatExA, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatExA, RtlStringCbCatEx, kernel.rtlstringcbcatex, STRSAFE_FILL_ON_FAILURE, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCbCatExW, STRSAFE_NO_TRUNCATION
+ms.keywords: RtlStringCbCatEx, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCbCatExA, RtlStringCbCatExA, ntstrsafe/RtlStringCbCatExW, kernel.rtlstringcbcatex, STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, STRSAFE_IGNORE_NULLS, RtlStringCbCatExW, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCatExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCbCatExW function
@@ -285,11 +285,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
 
  
 

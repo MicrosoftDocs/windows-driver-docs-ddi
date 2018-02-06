@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a18ec1b-be02-418a-8a38-deca7178ce30
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP, wdf.wdf_request_reuse_params_set_new_irp, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function, kmdf.wdf_request_reuse_params_set_new_irp, DFRequestObjectRef_1c9cbd6c-35a3-4de2-84f9-9d9788002d31.xml, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
+ms.keywords: DFRequestObjectRef_1c9cbd6c-35a3-4de2-84f9-9d9788002d31.xml, wdf.wdf_request_reuse_params_set_new_irp, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function, wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP, kmdf.wdf_request_reuse_params_set_new_irp, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,9 +101,9 @@ The <b>WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</b> function sets the structure's <b
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_reuse_params_init.md">WDF_REQUEST_REUSE_PARAMS_INIT</a>
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, IoGetTransactionParameterBlock routine [Installable File System Drivers], ntddk/IoGetTransactionParameterBlock, ifsk.iogettransactionparameterblock, IoGetTransactionParameterBlock
+ms.keywords: ifsk.iogettransactionparameterblock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, ntddk/IoGetTransactionParameterBlock, IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

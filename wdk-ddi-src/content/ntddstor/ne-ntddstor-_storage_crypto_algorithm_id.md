@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmAESECB, _STORAGE_CRYPTO_ALGORITHM_ID, storage.storage_crypto_algorithm_id, ntddstor/StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmAESECB, ntddstor/StorageCryptoAlgorithmXTSAES, StorageCryptoAlgorithmXTSAES, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC
+ms.keywords: ntddstor/StorageCryptoAlgorithmESSIVAESCBC, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmMax, StorageCryptoAlgorithmMax, StorageCryptoAlgorithmESSIVAESCBC, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmXTSAES, STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmAESECB, storage.storage_crypto_algorithm_id, StorageCryptoAlgorithmXTSAES, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmUnknown, *PSTORAGE_CRYPTO_ALGORITHM_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID
+req.typenames: "*PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID"
 ---
 
 # _STORAGE_CRYPTO_ALGORITHM_ID enumeration

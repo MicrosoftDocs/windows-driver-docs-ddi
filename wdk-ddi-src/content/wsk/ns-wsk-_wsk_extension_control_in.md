@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d04f4c24-15a5-490a-aada-af1050f727d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWSK_EXTENSION_CONTROL_IN, wsk/PWSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], _WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN, wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, wsk/WSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN"
+ms.keywords: wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, _WSK_EXTENSION_CONTROL_IN, wsk/PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], *PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, wsk/WSK_EXTENSION_CONTROL_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_EXTENSION_CONTROL_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN"
+req.typenames: WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN
 req.product: Windows 10 or later.
 ---
 

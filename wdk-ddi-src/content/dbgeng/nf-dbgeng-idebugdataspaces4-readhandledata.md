@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, ReadHandleData method [Windows Debugging], IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, debugger.readhandledata, dbgeng/IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, IDebugDataSpaces4, ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces3::ReadHandleData
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces4::ReadHandleData, debugger.readhandledata, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, ReadHandleData, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, IDebugDataSpaces2::ReadHandleData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugDataSpaces4.ReadHandleData
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadHandleData method
@@ -212,11 +212,11 @@ This method is only available in user-mode debugging.
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 Handles
 

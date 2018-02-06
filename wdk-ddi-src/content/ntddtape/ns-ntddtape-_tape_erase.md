@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dc17efe6-9183-4908-8ca5-69c6ae38db6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml, *PTAPE_ERASE, ntddtape/TAPE_ERASE, ntddtape/PTAPE_ERASE, PTAPE_ERASE, TAPE_ERASE structure [Storage Devices], _TAPE_ERASE, TAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], storage.tape_erase
+ms.keywords: "_TAPE_ERASE, TAPE_ERASE structure [Storage Devices], ntddtape/PTAPE_ERASE, storage.tape_erase, ntddtape/TAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml, PTAPE_ERASE, *PTAPE_ERASE, TAPE_ERASE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

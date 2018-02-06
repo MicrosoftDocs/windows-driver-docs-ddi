@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 895b49e5-181b-4312-ab1c-7f67c102b32f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI.pci_express_device_capabilities_register
+ms.keywords: pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI.pci_express_device_capabilities_register, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,119 +160,9 @@ Reserved.
 A ULONG representation of the contents of the PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure.
 
 
-##### - CapturedSlotPowerLimitScale.0
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
-
-
-##### - CapturedSlotPowerLimitScale.1
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
-
-
-##### - CapturedSlotPowerLimitScale.2
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
-
-
-##### - CapturedSlotPowerLimitScale.3
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
-
-
-##### - L0sAcceptableLatency.L0s_128ns_256ns
-
-256 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_1us_2us
-
-2 microseconds
-
-
-##### - L0sAcceptableLatency.L0s_256ns_512ns
-
-512 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_2us_4us
-
-4 microseconds
-
-
-##### - L0sAcceptableLatency.L0s_512ns_1us
-
-1 microsecond
-
-
-##### - L0sAcceptableLatency.L0s_64ns_128ns
-
-128 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_Above4us
-
-No limit
-
-
-##### - L0sAcceptableLatency.L0s_Below64ns
-
-64 nanoseconds
-
-
-##### - L1AcceptableLatency.L1_16us_32us
-
-32 microseconds
-
-
-##### - L1AcceptableLatency.L1_1us_2us
-
-2 microseconds
-
-
-##### - L1AcceptableLatency.L1_2us_4us
-
-4 microseconds
-
-
-##### - L1AcceptableLatency.L1_32us_64us
-
-64 microseconds
-
-
-##### - L1AcceptableLatency.L1_4us_8us
-
-8 microseconds
-
-
-##### - L1AcceptableLatency.L1_8us_16us
-
-16 microseconds
-
-
-##### - L1AcceptableLatency.L1_Above64us
-
-No limit
-
-
-##### - L1AcceptableLatency.L1_Below1us
-
-1 microsecond
-
-
-##### - MaxPayloadSizeSupported.MaxPayload1024Bytes
-
-1024 byte maximum payload size
-
-
 ##### - MaxPayloadSizeSupported.MaxPayload128Bytes
 
 128 byte maximum payload size
-
-
-##### - MaxPayloadSizeSupported.MaxPayload2048Bytes
-
-2048 byte maximum payload size
 
 
 ##### - MaxPayloadSizeSupported.MaxPayload256Bytes
@@ -280,14 +170,24 @@ No limit
 256 byte maximum payload size
 
 
-##### - MaxPayloadSizeSupported.MaxPayload4096Bytes
-
-4096 byte maximum payload size
-
-
 ##### - MaxPayloadSizeSupported.MaxPayload512Bytes
 
 512 byte maximum payload size
+
+
+##### - MaxPayloadSizeSupported.MaxPayload1024Bytes
+
+1024 byte maximum payload size
+
+
+##### - MaxPayloadSizeSupported.MaxPayload2048Bytes
+
+2048 byte maximum payload size
+
+
+##### - MaxPayloadSizeSupported.MaxPayload4096Bytes
+
+4096 byte maximum payload size
 
 
 ##### - PhantomFunctionsSupported.0
@@ -308,6 +208,106 @@ The two most significant bits in the function number are used for phantom functi
 ##### - PhantomFunctionsSupported.3
 
 All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
+
+
+##### - L0sAcceptableLatency.L0s_Below64ns
+
+64 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_64ns_128ns
+
+128 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_128ns_256ns
+
+256 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_256ns_512ns
+
+512 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_512ns_1us
+
+1 microsecond
+
+
+##### - L0sAcceptableLatency.L0s_1us_2us
+
+2 microseconds
+
+
+##### - L0sAcceptableLatency.L0s_2us_4us
+
+4 microseconds
+
+
+##### - L0sAcceptableLatency.L0s_Above4us
+
+No limit
+
+
+##### - L1AcceptableLatency.L1_Below1us
+
+1 microsecond
+
+
+##### - L1AcceptableLatency.L1_1us_2us
+
+2 microseconds
+
+
+##### - L1AcceptableLatency.L1_2us_4us
+
+4 microseconds
+
+
+##### - L1AcceptableLatency.L1_4us_8us
+
+8 microseconds
+
+
+##### - L1AcceptableLatency.L1_8us_16us
+
+16 microseconds
+
+
+##### - L1AcceptableLatency.L1_16us_32us
+
+32 microseconds
+
+
+##### - L1AcceptableLatency.L1_32us_64us
+
+64 microseconds
+
+
+##### - L1AcceptableLatency.L1_Above64us
+
+No limit
+
+
+##### - CapturedSlotPowerLimitScale.0
+
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
+
+
+##### - CapturedSlotPowerLimitScale.1
+
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
+
+
+##### - CapturedSlotPowerLimitScale.2
+
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
+
+
+##### - CapturedSlotPowerLimitScale.3
+
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: efa54d23-99bc-49ea-b8a3-7ea5b00e36d8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, display.d3dddicb_updateoverlay, D3DDDICB_UPDATEOVERLAY, d3dumddi/D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY structure [Display Devices], _D3DDDICB_UPDATEOVERLAY
+ms.keywords: "_D3DDDICB_UPDATEOVERLAY, display.d3dddicb_updateoverlay, D3DDDICB_UPDATEOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_UPDATEOVERLAY, D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, D3DDDICB_UPDATEOVERLAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,9 +82,9 @@ typedef struct _D3DDDICB_UPDATEOVERLAY {
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
 
  
 

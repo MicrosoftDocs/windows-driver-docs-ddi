@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, IWDFUsbTargetDevice::RetrieveDeviceInformation, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, IWDFUsbTargetDevice, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, umdf.iwdfusbtargetdevice_retrievedeviceinformation, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml
+ms.keywords: wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, umdf.iwdfusbtargetdevice_retrievedeviceinformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, wdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, IWDFUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -149,9 +149,9 @@ The <b>RetrieveDeviceInformation</b> method generates a UMDF request and synchro
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
  
 

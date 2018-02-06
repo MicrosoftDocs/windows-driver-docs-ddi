@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D5C9EF42-B6FE-4472-8188-2B23F87FA475
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PERF_STATE, PEP_PERF_STATE, _PEP_PERF_STATE, *PPEP_PERF_STATE, kernel.pep_perf_state, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_PERF_STATE, pepfx/PPEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_PERF_STATE, pepfx/PPEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_PERF_STATE, kernel.pep_perf_state, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PERF_STATE, *PPEP_PERF_STATE, PEP_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

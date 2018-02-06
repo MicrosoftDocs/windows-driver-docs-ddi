@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PARTITION_INFORMATION structure [Storage Devices], ntdddisk/PPARTITION_INFORMATION, _PARTITION_INFORMATION, *PPARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, storage.partition_information, PPARTITION_INFORMATION structure pointer [Storage Devices], PPARTITION_INFORMATION, PARTITION_INFORMATION, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml
+ms.keywords: PARTITION_INFORMATION structure [Storage Devices], storage.partition_information, ntdddisk/PPARTITION_INFORMATION, *PPARTITION_INFORMATION, _PARTITION_INFORMATION, PARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
+req.typenames: "*PPARTITION_INFORMATION, PARTITION_INFORMATION"
 ---
 
 # _PARTITION_INFORMATION structure
@@ -132,19 +132,19 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 ## -see-also
 
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
+
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
-
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
 
  
 

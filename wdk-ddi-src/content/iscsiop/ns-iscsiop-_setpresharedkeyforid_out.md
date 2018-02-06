@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, PSetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, _SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], *PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, SetPresharedKeyForId_OUT structure [Storage Devices]
+ms.keywords: PSetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT, _SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], storage.setpresharedkeyforid_out, iscsiop/SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, SetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetPresharedKeyForId_OUT
 product: Windows
 targetos: Windows
-req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
+req.typenames: "*PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT"
 ---
 
 # _SetPresharedKeyForId_OUT structure
@@ -81,9 +81,9 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
 <a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 

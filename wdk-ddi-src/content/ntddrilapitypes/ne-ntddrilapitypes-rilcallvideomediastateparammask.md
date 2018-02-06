@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e36617c0-8471-417d-9135-bdd29c586172
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLVIDEO_ALL, netvista.rilcallvideomediastateparammask, RILCALLVIDEOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS, RIL_PARAM_CALLVIDEO_FLAGS, ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_CONTEXTID, ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK
+ms.keywords: ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, RIL_PARAM_CALLVIDEO_FLAGS, ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS, ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastateparammask, RIL_PARAM_CALLVIDEO_CONTEXTID, RILCALLVIDEOMEDIASTATEPARAMMASK, RIL_PARAM_CALLVIDEO_ALL, ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

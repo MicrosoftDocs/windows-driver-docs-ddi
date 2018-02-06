@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 72FD2A3B-B246-41BA-BEB6-169C214C32D7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Installable File System Drivers], ifsk.file_level_trim, _FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM, ntifs/FILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Installable File System Drivers], ntifs/PFILE_LEVEL_TRIM
+ms.keywords: "_FILE_LEVEL_TRIM, ifsk.file_level_trim, FILE_LEVEL_TRIM structure [Installable File System Drivers], FILE_LEVEL_TRIM, ntifs/FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM, ntifs/PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Installable File System Drivers], PFILE_LEVEL_TRIM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ Array of trim ranges for a file.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_level_trim_range.md">FILE_LEVEL_TRIM_RANGE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451098">FSCTL_FILE_LEVEL_TRIM</a>
+
+<a href="..\ntifs\ns-ntifs-_file_level_trim_range.md">FILE_LEVEL_TRIM_RANGE</a>
 
  
 

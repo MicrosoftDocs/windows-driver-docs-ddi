@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bc81897-6463-4588-9348-78a1954216bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, wdm/IoSetCancelRoutine, kernel.iosetcancelroutine, IoSetCancelRoutine
+ms.keywords: IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], kernel.iosetcancelroutine, k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, IoSetCancelRoutine, wdm/IoSetCancelRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,9 +114,9 @@ Driver <i>Cancel</i> routines are called at IRQL = DISPATCH_LEVEL with the cance
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 912DCC1E-2C81-4702-8E12-6331DFB298F0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: extsfns/FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, *PFA_ENTRY, FA_ENTRY, debugger.fa_entry
+ms.keywords: FA_ENTRY, extsfns/FA_ENTRY, *PFA_ENTRY, _FA_ENTRY, FA_ENTRY structure [Windows Debugging], debugger.fa_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FA_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # _FA_ENTRY structure
@@ -88,11 +88,11 @@ The size of the <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B9
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
  
 

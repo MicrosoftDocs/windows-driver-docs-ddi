@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1ad9a15-70c8-4331-b350-f681aa216aaf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_ENUM_FIRE_BRIGADE, ntddrilapitypes/RIL_ENUM_FIRE_BRIGADE, RIL_ENUM_AMBULANCE, ntddrilapitypes/RILEMERGENCYNUMBERCATEGORY, ntddrilapitypes/RIL_ENUM_ALL, RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_AMBULANCE, netvista.rilemergencynumbercategory, ntddrilapitypes/RIL_ENUM_MARINE_GUARD, ntddrilapitypes/RIL_ENUM_MOUNTAIN_RESCUE, ntddrilapitypes/RIL_ENUM_AUTO_ECALL, RIL_ENUM_MARINE_GUARD, RIL_ENUM_ALL, RILEMERGENCYNUMBERCATEGORY enumeration [Network Drivers Starting with Windows Vista], RIL_ENUM_AUTO_ECALL, RIL_ENUM_MOUNTAIN_RESCUE, RILEMERGENCYNUMBERCATEGORY, ntddrilapitypes/RIL_ENUM_MANUAL_ECALL
+ms.keywords: RIL_ENUM_MARINE_GUARD, netvista.rilemergencynumbercategory, ntddrilapitypes/RILEMERGENCYNUMBERCATEGORY, ntddrilapitypes/RIL_ENUM_AMBULANCE, RIL_ENUM_MOUNTAIN_RESCUE, RILEMERGENCYNUMBERCATEGORY enumeration [Network Drivers Starting with Windows Vista], RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_AUTO_ECALL, RILEMERGENCYNUMBERCATEGORY, RIL_ENUM_FIRE_BRIGADE, RIL_ENUM_AUTO_ECALL, ntddrilapitypes/RIL_ENUM_MOUNTAIN_RESCUE, ntddrilapitypes/RIL_ENUM_ALL, ntddrilapitypes/RIL_ENUM_MARINE_GUARD, ntddrilapitypes/RIL_ENUM_FIRE_BRIGADE, RIL_ENUM_AMBULANCE, RIL_ENUM_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f4297e91-06ae-4c7a-87bc-12e3f5b0238c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistrycontrollerkeywritedeferred, AtaPortRegistryControllerKeyWriteDeferred routine [Storage Devices], atartns_cd43ce27-787a-4ffb-99d5-de7f410c4b32.xml, irb/AtaPortRegistryControllerKeyWriteDeferred, AtaPortRegistryControllerKeyWriteDeferred
+ms.keywords: AtaPortRegistryControllerKeyWriteDeferred routine [Storage Devices], AtaPortRegistryControllerKeyWriteDeferred, storage.ataportregistrycontrollerkeywritedeferred, atartns_cd43ce27-787a-4ffb-99d5-de7f410c4b32.xml, irb/AtaPortRegistryControllerKeyWriteDeferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

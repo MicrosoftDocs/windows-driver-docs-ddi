@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9B0590F4-E9B3-4999-99BD-BDB1EA413FF4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_LISTEN, 1394/IRB_REQ_ISOCH_LISTEN, _IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], IEEE.irb_req_isoch_listen
+ms.keywords: "_IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], 1394/IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_FAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], wdm/FAST_IO_DISPATCH, FAST_IO_DISPATCH, *PFAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], ifsk.fast_io_dispatch, PFAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH"
+ms.keywords: ifsk.fast_io_dispatch, wdm/FAST_IO_DISPATCH, *PFAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], FAST_IO_DISPATCH, _FAST_IO_DISPATCH, PFAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], wdm/PFAST_IO_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

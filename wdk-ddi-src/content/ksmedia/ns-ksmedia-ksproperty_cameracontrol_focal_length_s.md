@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bf236fb9-8aa6-4f80-a8e3-85adfedd1f49
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, vidcapstruct_d3d5d26e-e8be-4ce5-9a9a-03b125134bf7.xml, KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, ksmedia/KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, stream.ksproperty_cameracontrol_focal_length_s, PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, *PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
+ms.keywords: stream.ksproperty_cameracontrol_focal_length_s, ksmedia/KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure [Streaming Media Devices], *PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, vidcapstruct_d3d5d26e-e8be-4ce5-9a9a-03b125134bf7.xml, ksmedia/PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,13 +99,13 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_focal_length_s.md">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564406">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_focal_length_s.md">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
 
  
 

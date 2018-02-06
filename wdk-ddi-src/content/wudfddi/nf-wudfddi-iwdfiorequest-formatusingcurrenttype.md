@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatUsingCurrentType method, umdf.iwdfiorequest_formatusingcurrenttype, FormatUsingCurrentType, FormatUsingCurrentType method, IWDFIoRequest interface, wdf.iwdfiorequest_formatusingcurrenttype, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, wudfddi/IWDFIoRequest::FormatUsingCurrentType, IWDFIoRequest interface, FormatUsingCurrentType method, IWDFIoRequest::FormatUsingCurrentType, IWDFIoRequest
+ms.keywords: UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType, FormatUsingCurrentType method, IWDFIoRequest interface, FormatUsingCurrentType method, IWDFIoRequest, FormatUsingCurrentType, wdf.iwdfiorequest_formatusingcurrenttype, FormatUsingCurrentType method, IWDFIoRequest interface, IWDFIoRequest::FormatUsingCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.FormatUsingCurrentType
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,9 @@ Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

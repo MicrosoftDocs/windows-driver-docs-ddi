@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59a7b11a-c6b6-4452-9518-1e5c7c07ec18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.write_port_buffer_uchar, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, wdm/WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR
+ms.keywords: wdm/WRITE_PORT_BUFFER_UCHAR, k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_PORT_BUFFER_UCHAR, kernel.write_port_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

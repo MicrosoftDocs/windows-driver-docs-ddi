@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e6c398b4-f38f-4819-96f9-cefc3a728dbc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PSE_EXPORTS structure pointer [Installable File System Drivers], SeExports, ifsk.seexports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml, PSE_EXPORTS, ntifs/SeExports, SeExports structure [Installable File System Drivers], ntifs/PSE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], SE_EXPORTS, _SE_EXPORTS, *PSE_EXPORTS
+ms.keywords: SeExports, *PSE_EXPORTS, SeExports structure [Installable File System Drivers], ifsk.seexports, ntifs/SeExports, PSE_EXPORTS structure pointer [Installable File System Drivers], securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml, SE_EXPORTS structure [Installable File System Drivers], SE_EXPORTS, ntifs/PSE_EXPORTS, PSE_EXPORTS, _SE_EXPORTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -729,9 +729,9 @@ The SID for a group that represents all application packages.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
  
 

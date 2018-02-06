@@ -40,7 +40,7 @@ apiname:
 -	RILMSGOUTSUBMIT
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT"
+req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
 ---
 
 # RILMSGOUTSUBMIT structure

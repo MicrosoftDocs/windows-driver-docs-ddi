@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NDK_CONNECTIONS, ntddndis/NDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, PNDIS_NDK_CONNECTIONS, _NDIS_NDK_CONNECTIONS
+ms.keywords: NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, NDIS_NDK_CONNECTIONS, ntddndis/NDIS_NDK_CONNECTIONS, _NDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

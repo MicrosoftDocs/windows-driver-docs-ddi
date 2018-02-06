@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KTMOBJECT_CURSOR, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], wdm/PKTMOBJECT_CURSOR, kernel.ktmobject_cursor, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], _KTMOBJECT_CURSOR, wdm/KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
+ms.keywords: "_KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/KTMOBJECT_CURSOR, kernel.ktmobject_cursor, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], *PKTMOBJECT_CURSOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KTMOBJECT_CURSOR
 product: Windows
 targetos: Windows
-req.typenames: KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
+req.typenames: "*PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorscx/SensorsCxSensorCreate, SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate
+ms.keywords: sensors.sensorscxsensorcreate, SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensorscx/SensorsCxSensorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

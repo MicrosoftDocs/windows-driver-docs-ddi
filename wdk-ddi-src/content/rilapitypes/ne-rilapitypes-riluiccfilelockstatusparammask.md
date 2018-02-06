@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 341e11bb-957b-4745-9892-f1274ff97f44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UFLS_ACCESSCONDITION, netvista.riluiccfilelockstatusparammask, RIL_PARAM_UFLS_PINREFERENCE, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE, rilapitypes/RIL_PARAM_UFLS_ALL, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILUICCFILELOCKSTATUSPARAMMASK, RIL_PARAM_UFLS_ACCESSCONDITION, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, RIL_PARAM_UFLS_ALL
+ms.keywords: rilapitypes/RIL_PARAM_UFLS_ALL, netvista.riluiccfilelockstatusparammask, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_UFLS_ACCESSCONDITION, RIL_PARAM_UFLS_ACCESSCONDITION, RIL_PARAM_UFLS_ALL, RILUICCFILELOCKSTATUSPARAMMASK, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, RIL_PARAM_UFLS_PINREFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

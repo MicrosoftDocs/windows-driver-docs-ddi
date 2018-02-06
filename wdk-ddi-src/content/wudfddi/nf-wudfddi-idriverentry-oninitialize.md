@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c676588e-348b-4840-9873-6b1bb2454987
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.idriverentry_oninitialize, IDriverEntry::OnInitialize, OnInitialize method, IDriverEntry interface, umdf.idriverentry_oninitialize, OnInitialize method, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, wudfddi/IDriverEntry::OnInitialize, IDriverEntry, OnInitialize, IDriverEntry interface, OnInitialize method
+ms.keywords: IDriverEntry::OnInitialize, wudfddi/IDriverEntry::OnInitialize, wdf.idriverentry_oninitialize, OnInitialize, IDriverEntry interface, OnInitialize method, OnInitialize method, IDriverEntry interface, umdf.idriverentry_oninitialize, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, IDriverEntry, OnInitialize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDriverEntry.OnInitialize
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

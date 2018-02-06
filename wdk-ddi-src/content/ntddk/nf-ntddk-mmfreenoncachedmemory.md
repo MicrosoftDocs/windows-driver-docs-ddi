@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284c7e69-50c6-4eef-bcf1-547bc7032a4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreeNonCachedMemory, ntddk/MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], kernel.mmfreenoncachedmemory, k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml
+ms.keywords: MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], ntddk/MmFreeNonCachedMemory, k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, kernel.mmfreenoncachedmemory, MmFreeNonCachedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

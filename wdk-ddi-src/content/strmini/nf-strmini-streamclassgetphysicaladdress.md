@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a8e7130-00e7-4bff-8939-7cfcc1a2b9aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress, stream.streamclassgetphysicaladdress, strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, StreamClassGetPhysicalAddress routine [Streaming Media Devices]
+ms.keywords: strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, StreamClassGetPhysicalAddress routine [Streaming Media Devices], stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassGetPhysicalAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 

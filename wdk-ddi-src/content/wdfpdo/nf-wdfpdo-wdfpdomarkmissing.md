@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing, DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, PFN_WDFPDOMARKMISSING, kmdf.wdfpdomarkmissing, WdfPdoMarkMissing method
+ms.keywords: wdf.wdfpdomarkmissing, PFN_WDFPDOMARKMISSING, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing, DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,9 +124,9 @@ For more information about <b>WdfPdoMarkMissing</b>, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
-
 <a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
 
 <a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 

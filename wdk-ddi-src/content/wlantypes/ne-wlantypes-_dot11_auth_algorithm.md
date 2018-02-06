@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 27bba553-2d46-4892-864a-52e44caf6d56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, *PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGO_IHV_START, wlantypes/DOT11_AUTH_ALGO_RSNA, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGO_IHV_END, DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_IHV_END, _DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_80211_SHARED_KEY, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], wlantypes/DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_RSNA_PSK, netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_WPA, PDOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, wlantypes/PDOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, wlantypes/DOT11_AUTH_ALGO_IHV_START
+ms.keywords: DOT11_AUTH_ALGORITHM, PDOT11_AUTH_ALGORITHM, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/PDOT11_AUTH_ALGORITHM, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, DOT11_AUTH_ALGO_WPA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA, wlantypes/DOT11_AUTH_ALGO_IHV_END, *PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_AUTH_ALGO_80211_SHARED_KEY, netvista.dot11_auth_algorithm, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_RSNA, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_IHV_START, _DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_WPA, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, wlantypes/DOT11_AUTH_ALGORITHM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -212,15 +212,15 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159168.aspx">
-   OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</a>
-
 <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
 <a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
 
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/gg159168.aspx">
+   OID_DOT11_ENABLED_AUTHENTICATION_ALGORITHM</a>
 
  
 

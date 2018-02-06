@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 97a8822f-ed0c-43ae-8b4e-08642558773d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_getextendedattributes, HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], hidpi/HidP_GetExtendedAttributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml
+ms.keywords: HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], hidpi/HidP_GetExtendedAttributes, hid.hidp_getextendedattributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

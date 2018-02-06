@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfEventReserved, wudfddi_types/WdfEventReserved, wdfdevice/WdfEventBroadcast, WdfEventReserved, wudfddi_types/WDF_EVENT_TYPE, wdfdevice/WdfEventMaximum, WDF_EVENT_TYPE, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, WDF_EVENT_TYPE enumeration, WdfEventMaximum, _WDF_EVENT_TYPE, wudfddi_types/WdfEventMaximum, WdfEventBroadcast
+ms.keywords: wudfddi_types/WDF_EVENT_TYPE, wdfdevice/WdfEventReserved, WdfEventMaximum, WdfEventBroadcast, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, WDF_EVENT_TYPE, wudfddi_types/WdfEventMaximum, _WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved, WDF_EVENT_TYPE enumeration, WdfEventReserved, wdf.wdf_event_type, wdfdevice/WdfEventBroadcast, wdfdevice/WdfEventMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,9 +90,9 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 
  
 

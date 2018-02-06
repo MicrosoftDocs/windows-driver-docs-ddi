@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16ac6fea-9eea-4062-8ab9-fd14d80118a6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFTIMERGETPARENTOBJECT, wdftimer/WdfTimerGetParentObject, kmdf.wdftimergetparentobject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, wdf.wdftimergetparentobject, WdfTimerGetParentObject method, WdfTimerGetParentObject
+ms.keywords: wdftimer/WdfTimerGetParentObject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, PFN_WDFTIMERGETPARENTOBJECT, kmdf.wdftimergetparentobject, WdfTimerGetParentObject, WdfTimerGetParentObject method, wdf.wdftimergetparentobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfTimerGetParentObject
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

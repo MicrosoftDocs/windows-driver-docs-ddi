@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 1d96a799-6e52-49e0-b440-a8643111176f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, whea.whea_pciexpress_error_section, PWHEA_PCIEXPRESS_ERROR_SECTION, _WHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR, WHEA_PCIEXPRESS_ERROR, *PWHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications]
+ms.keywords: ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml, *PWHEA_PCIEXPRESS_ERROR_SECTION, _WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR, whea.whea_pciexpress_error_section, PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIEXPRESS_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_PCIEXPRESS_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: WHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR_SECTION
+req.typenames: "*PWHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION"
 ---
 
 # _WHEA_PCIEXPRESS_ERROR_SECTION structure
@@ -90,11 +90,6 @@ The device type or port type of the PCIe component where the error occurred. Pos
 This member contains valid data only if the <b>ValidBits.PortType</b> bit is set.
 
 
-#### WheaPciExpressDownstreamSwitchPort
-
-A downstream port of a PCIe switch.
-
-
 #### WheaPciExpressEndpoint
 
 A PCIe endpoint device.
@@ -105,24 +100,9 @@ A PCIe endpoint device.
 A legacy PCIe endpoint device.
 
 
-#### WheaPciExpressRootComplexEventCollector
-
-A PCIe root complex event collector.
-
-
-#### WheaPciExpressRootComplexIntegratedEndpoint
-
-A PCIe endpoint device that is integrated into the root complex.
-
-
 #### WheaPciExpressRootPort
 
 A root port of a PCIe root complex.
-
-
-#### WheaPciExpressToPciXBridge
-
-A PCIe-to-PCI or PCI-X bridge.
 
 
 #### WheaPciExpressUpstreamSwitchPort
@@ -130,9 +110,29 @@ A PCIe-to-PCI or PCI-X bridge.
 An upstream port of a PCIe switch.
 
 
+#### WheaPciExpressDownstreamSwitchPort
+
+A downstream port of a PCIe switch.
+
+
+#### WheaPciExpressToPciXBridge
+
+A PCIe-to-PCI or PCI-X bridge.
+
+
 #### WheaPciXToExpressBridge
 
 A PCI or PCI-X-to-PCIe bridge.
+
+
+#### WheaPciExpressRootComplexIntegratedEndpoint
+
+A PCIe endpoint device that is integrated into the root complex.
+
+
+#### WheaPciExpressRootComplexEventCollector
+
+A PCIe root complex event collector.
 
 
 ### -field Version
@@ -159,9 +159,9 @@ A WHEA_PCIEXPRESS_VERSION union that contains the version of the PCIe specificat
 This member contains valid data only if the <b>ValidBits.Version</b> bit is set.
 
 
-#### AsULONG
+#### MinorVersion
 
-A ULONG representation of the contents of the WHEA_PCIEXPRESS_VERSION union.
+The minor version number.
 
 
 #### MajorVersion
@@ -169,14 +169,14 @@ A ULONG representation of the contents of the WHEA_PCIEXPRESS_VERSION union.
 The major version number.
 
 
-#### MinorVersion
-
-The minor version number.
-
-
 #### Reserved
 
 Reserved for system use.
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_PCIEXPRESS_VERSION union.
 
 
 ### -field CommandStatus
@@ -202,11 +202,6 @@ A WHEA_PCIEXPRESS_COMMAND_STATUS union that contains the contents of the PCI com
 This member contains valid data only if the <b>ValidBits.CommandStatus</b> bit is set.
 
 
-#### AsULONG
-
-A ULONG representation of the contents of the WHEA_PCIEXPRESS_COMMAND_STATUS union.
-
-
 #### Command
 
 The contents of the PCI command register.
@@ -215,6 +210,11 @@ The contents of the PCI command register.
 #### Status
 
 The contents of the PCI status register.
+
+
+#### AsULONG
+
+A ULONG representation of the contents of the WHEA_PCIEXPRESS_COMMAND_STATUS union.
 
 
 ### -field Reserved
@@ -250,9 +250,9 @@ A WHEA_PCIEXPRESS_DEVICE_ID structure that contains data that identifies the PCI
 This member contains valid data only if the <b>ValidBits.DeviceId</b> bit is set.
 
 
-#### ClassCode
+#### VendorID
 
-The class code of the device.
+The vendor ID of the device.
 
 
 #### DeviceId
@@ -260,9 +260,9 @@ The class code of the device.
 The device ID of the device.
 
 
-#### DeviceNumber
+#### ClassCode
 
-The device number of the device on the bus.
+The class code of the device.
 
 
 #### FunctionNumber
@@ -270,24 +270,9 @@ The device number of the device on the bus.
 The function number of the device on the bus.
 
 
-#### PrimaryBusNumber
+#### DeviceNumber
 
-The root port/bridge primary bus number or the device bus number.
-
-
-#### Reserved1
-
-Reserved for system use.
-
-
-#### Reserved2
-
-Reserved for system use.
-
-
-#### SecondaryBusNumber
-
-The root port/bridge secondary bus number.
+The device number of the device on the bus.
 
 
 #### Segment
@@ -295,14 +280,29 @@ The root port/bridge secondary bus number.
 The number of the bus segment that contains the device.
 
 
+#### PrimaryBusNumber
+
+The root port/bridge primary bus number or the device bus number.
+
+
+#### SecondaryBusNumber
+
+The root port/bridge secondary bus number.
+
+
+#### Reserved1
+
+Reserved for system use.
+
+
 #### SlotNumber
 
 The slot number where the device is located in the system.
 
 
-#### VendorID
+#### Reserved2
 
-The vendor ID of the device.
+Reserved for system use.
 
 
 ### -field DeviceSerialNumber
@@ -335,9 +335,9 @@ A WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union that contains the contents of the 
 This member contains valid data only if the <b>ValidBits.BridgeControlStatus</b> bit is set.
 
 
-#### AsULONG
+#### BridgeSecondaryStatus
 
-A ULONG representation of the contents of the WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union.
+The contents of the secondary status register of the bridge device.
 
 
 #### BridgeControl
@@ -345,9 +345,9 @@ A ULONG representation of the contents of the WHEA_PCIEXPRESS_BRIDGE_CONTROL_STA
 The contents of the control register of the bridge device.
 
 
-#### BridgeSecondaryStatus
+#### AsULONG
 
-The contents of the secondary status register of the bridge device.
+A ULONG representation of the contents of the WHEA_PCIEXPRESS_BRIDGE_CONTROL_STATUS union.
 
 
 ### -field ExpressCapability
@@ -373,11 +373,11 @@ The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 

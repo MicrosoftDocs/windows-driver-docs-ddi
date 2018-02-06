@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MmCanFileBeTruncated routine [Installable File System Drivers], mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, MmCanFileBeTruncated, ntifs/MmCanFileBeTruncated, ifsk.mmcanfilebetruncated
+ms.keywords: ntifs/MmCanFileBeTruncated, ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

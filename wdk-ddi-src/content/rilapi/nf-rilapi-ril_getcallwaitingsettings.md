@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5506dd53-ac15-44c6-aded-a71451a1c15d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getcallwaitingsettings, RIL_GetCallWaitingSettings, RIL_GetCallWaitingSettings method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCallWaitingSettings
+ms.keywords: RIL_GetCallWaitingSettings, rilapi/RIL_GetCallWaitingSettings, netvista.ril_getcallwaitingsettings, RIL_GetCallWaitingSettings method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetCallWaitingSettings
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

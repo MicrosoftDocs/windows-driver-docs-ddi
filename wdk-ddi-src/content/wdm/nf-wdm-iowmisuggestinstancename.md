@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], wdm/IoWMISuggestInstanceName, kernel.iowmisuggestinstancename
+ms.keywords: kernel.iowmisuggestinstancename, IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, wdm/IoWMISuggestInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

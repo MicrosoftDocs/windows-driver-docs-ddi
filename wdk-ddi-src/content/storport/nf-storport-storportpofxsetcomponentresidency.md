@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPoFxSetComponentResidency routine [Storage Devices], storport/StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency, storage.storportpofxsetcomponentresidency
+ms.keywords: storport/StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

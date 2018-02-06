@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSTurnOff function [Battery Devices], battery.upsturnoff, UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, UPSTurnOff, upssvc/UPSTurnOff
+ms.keywords: UPSTurnOff function [Battery Devices], upssvc/UPSTurnOff, UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, UPSTurnOff, battery.upsturnoff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

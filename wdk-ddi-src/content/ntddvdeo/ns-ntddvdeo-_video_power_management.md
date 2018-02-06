@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9522c504-9bdb-4388-b047-340a211463dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_POWER_MANAGEMENT, Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, ntddvdeo/VIDEO_POWER_MANAGEMENT, ntddvdeo/PVIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], _VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT, display.video_power_management, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices]
+ms.keywords: PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], ntddvdeo/VIDEO_POWER_MANAGEMENT, ntddvdeo/PVIDEO_POWER_MANAGEMENT, _VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, *PVIDEO_POWER_MANAGEMENT, display.video_power_management
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,16 +86,6 @@ Specifies the power management state to be set or queried. This member can be on
 
 
 
-#### VideoPowerHibernate
-
-The monitor and graphics adapter are both fully powered on and operational.
-
-
-#### VideoPowerOff
-
-The monitor and graphics adapter are both off, consuming no power at all.
-
-
 #### VideoPowerOn
 
 The monitor and graphics adapter are both fully powered on and operational.
@@ -109,6 +99,16 @@ The monitor is running at a reduced power level that requires a short recovery t
 #### VideoPowerSuspend
 
 The monitor is running at a substantially reduced power level that requires a possibly longer recovery time than <b>VideoPowerStandBy</b> to <b>VideoPowerOn</b>. The graphics adapter is off.
+
+
+#### VideoPowerOff
+
+The monitor and graphics adapter are both off, consuming no power at all.
+
+
+#### VideoPowerHibernate
+
+The monitor and graphics adapter are both fully powered on and operational.
 
 
 ## -remarks

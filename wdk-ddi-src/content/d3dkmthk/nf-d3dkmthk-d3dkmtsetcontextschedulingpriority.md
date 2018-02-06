@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSetContextSchedulingPriority, OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, D3DKMTSetContextSchedulingPriority function [Display Devices], display.d3dkmtsetcontextschedulingpriority, D3DKMTSetContextSchedulingPriority
+ms.keywords: OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority, display.d3dkmtsetcontextschedulingpriority, D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

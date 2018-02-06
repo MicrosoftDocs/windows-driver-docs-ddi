@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: decfcafa-fe8b-44f6-913b-c04cf3b320a3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], *LPRILERRORDETAILS, rilapitypes/RILERRORDETAILS, RILERRORDETAILS, netvista.rilerrordetails_2
+ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], RILERRORDETAILS, rilapitypes/RILERRORDETAILS, netvista.rilerrordetails_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

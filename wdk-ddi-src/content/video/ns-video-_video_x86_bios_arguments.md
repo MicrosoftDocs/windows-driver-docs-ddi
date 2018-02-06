@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0404803-d8a5-4698-a725-12c659cbcaab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], video/PVIDEO_X86_BIOS_ARGUMENTS, display.video_x86_bios_arguments, PVIDEO_X86_BIOS_ARGUMENTS, Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, _VIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS
+ms.keywords: "_VIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS, Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], display.video_x86_bios_arguments, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], video/PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_X86_BIOS_ARGUMENTS
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS
+req.typenames: "*PVIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS"
 req.product: Windows 10 or later.
 ---
 

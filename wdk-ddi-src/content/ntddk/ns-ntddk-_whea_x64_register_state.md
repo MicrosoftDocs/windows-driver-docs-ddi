@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 690c900f-fba8-4712-9a05-bfbe633dd9cf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_WHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], whea.whea_x64_register_state, WHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml, ntddk/WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE"
+ms.keywords: WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], whea.whea_x64_register_state, _WHEA_X64_REGISTER_STATE, ntddk/WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], *PWHEA_X64_REGISTER_STATE, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml, ntddk/PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -274,14 +274,14 @@ A WHEA128A structure that contains the state of the global descriptor table regi
 </table></span></div>
 
 
-#### High
-
-The high order 64 bits of the 128-bit value.
-
-
 #### Low
 
 The low order 64 bits of the 128-bit value.
+
+
+#### High
+
+The high order 64 bits of the 128-bit value.
 
 
 ### -field Idtr

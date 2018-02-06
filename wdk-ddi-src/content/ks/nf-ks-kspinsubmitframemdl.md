@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinSubmitFrameMdl, stream.kspinsubmitframemdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, KsPinSubmitFrameMdl function [Streaming Media Devices], ks/KsPinSubmitFrameMdl
+ms.keywords: KsPinSubmitFrameMdl function [Streaming Media Devices], ks/KsPinSubmitFrameMdl, stream.kspinsubmitframemdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, KsPinSubmitFrameMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

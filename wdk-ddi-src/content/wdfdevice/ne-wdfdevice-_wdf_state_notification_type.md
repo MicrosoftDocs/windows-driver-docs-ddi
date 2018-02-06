@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: StateNotificationInvalid, kmdf.wdf_state_notification_type, wdf.wdf_state_notification_type, StateNotificationAllStates, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, StateNotificationEnterState, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, wdfdevice/StateNotificationPostProcessState, _WDF_STATE_NOTIFICATION_TYPE, StateNotificationLeaveState, wdfdevice/StateNotificationAllStates, WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationEnterState, wdfdevice/StateNotificationLeaveState, wdfdevice/StateNotificationInvalid, StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE enumeration
+ms.keywords: StateNotificationLeaveState, wdfdevice/StateNotificationEnterState, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, StateNotificationInvalid, wdfdevice/StateNotificationLeaveState, WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationAllStates, StateNotificationEnterState, _WDF_STATE_NOTIFICATION_TYPE, StateNotificationPostProcessState, wdf.wdf_state_notification_type, WDF_STATE_NOTIFICATION_TYPE, StateNotificationAllStates, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, wdfdevice/StateNotificationPostProcessState, wdfdevice/StateNotificationInvalid, kmdf.wdf_state_notification_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -145,9 +145,9 @@ Calls state <i>b</i>'s postprocess-state notification callback function.
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
-
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
 

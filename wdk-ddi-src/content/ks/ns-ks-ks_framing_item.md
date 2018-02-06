@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_FRAMING_ITEM structure [Streaming Media Devices], ks/KS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], KSALLOCATOR_FLAG_DEVICE_SPECIFIC, ks/PKS_FRAMING_ITEM, stream.ks_framing_item, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, KS_FRAMING_ITEM, *PKS_FRAMING_ITEM, PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY
+ms.keywords: KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KS_FRAMING_ITEM structure [Streaming Media Devices], *PKS_FRAMING_ITEM, PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, stream.ks_framing_item, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks/KS_FRAMING_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_FRAMING_ITEM
 product: Windows
 targetos: Windows
-req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
+req.typenames: "*PKS_FRAMING_ITEM, KS_FRAMING_ITEM"
 ---
 
 # KS_FRAMING_ITEM structure
@@ -284,15 +284,15 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
-
 <a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
-
-<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 <a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
+
+<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
+
+<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 86b0845b-28fc-47d3-add8-dd3e8b8f631c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MsrErrorReportingType_CardLevel, MsrErrorReportingType, pos.msrerrorreportingtype, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, _MsrErrorReportingType, MsrErrorReportingType enumeration, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, MsrErrorReportingType_TrackLevel, pointofservicedriverinterface/MsrErrorReportingType
+ms.keywords: MsrErrorReportingType enumeration, MsrErrorReportingType_TrackLevel, pos.msrerrorreportingtype, _MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType, MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, MsrErrorReportingType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

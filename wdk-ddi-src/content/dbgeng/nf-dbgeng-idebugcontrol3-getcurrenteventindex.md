@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 148cf294-0410-4704-93ce-338529a214ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentEventIndex method [Windows Debugging], IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, GetCurrentEventIndex, dbgeng/IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex, IDebugControl3::GetCurrentEventIndex
+ms.keywords: GetCurrentEventIndex method [Windows Debugging], IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, debugger.getcurrenteventindex, GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetCurrentEventIndex, IDebugControl3::GetCurrentEventIndex, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, GetCurrentEventIndex, IDebugControl3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl3.GetCurrentEventIndex
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetCurrentEventIndex method
@@ -105,11 +105,11 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
  
 

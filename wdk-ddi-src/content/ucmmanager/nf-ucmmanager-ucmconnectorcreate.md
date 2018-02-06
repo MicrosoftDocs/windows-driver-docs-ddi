@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate, UcmConnectorCreate, UcmConnectorCreate method [Buses]
+ms.keywords: UcmConnectorCreate method [Buses], UcmConnectorCreate, ucmmanager/UcmConnectorCreate, buses.ucmconnectorcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UcmConnectorCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 
@@ -118,9 +118,9 @@ An appropriate place for a UCM client driver to call <b>UcmConnectorCreate</b> i
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>
-
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
+
+<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>
 
  
 

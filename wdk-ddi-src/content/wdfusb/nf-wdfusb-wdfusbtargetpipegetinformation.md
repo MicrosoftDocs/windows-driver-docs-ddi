@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d453cc6a-d81f-485c-a71e-d99c080bfa28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeGetInformation, kmdf.wdfusbtargetpipegetinformation, DFUsbRef_edde1f49-9228-48fc-8812-ebfe65f48b18.xml, wdf.wdfusbtargetpipegetinformation, WdfUsbTargetPipeGetInformation, PFN_WDFUSBTARGETPIPEGETINFORMATION, WdfUsbTargetPipeGetInformation method
+ms.keywords: DFUsbRef_edde1f49-9228-48fc-8812-ebfe65f48b18.xml, WdfUsbTargetPipeGetInformation method, PFN_WDFUSBTARGETPIPEGETINFORMATION, WdfUsbTargetPipeGetInformation, wdf.wdfusbtargetpipegetinformation, kmdf.wdfusbtargetpipegetinformation, wdfusb/WdfUsbTargetPipeGetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,11 @@ For more information about the <b>WdfUsbTargetPipeGetInformation</b> method and 
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>
 
  
 

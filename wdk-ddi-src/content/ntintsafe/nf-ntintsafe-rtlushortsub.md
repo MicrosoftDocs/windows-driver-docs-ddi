@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C0392AE-F3BD-4F42-9094-87228B7C3E10
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlushortsub, ntintsafe/RtlUShortSub, RtlUShortSub, RtlUShortSub function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUShortSub, RtlUShortSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlUShortSub, kernel.rtlushortsub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

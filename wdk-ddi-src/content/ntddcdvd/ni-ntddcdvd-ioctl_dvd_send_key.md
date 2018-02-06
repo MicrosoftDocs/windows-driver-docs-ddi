@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_DVD_SEND_KEY
 product: Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
 ---
 
 # IOCTL_DVD_SEND_KEY IOCTL

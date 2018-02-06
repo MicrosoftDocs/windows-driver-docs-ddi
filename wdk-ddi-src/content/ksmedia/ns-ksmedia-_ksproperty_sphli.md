@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices], stream.ksproperty_sphli, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], KSPROPERTY_SPHLI, _KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, ksmedia/KSPROPERTY_SPHLI
+ms.keywords: KSPROPERTY_SPHLI structure [Streaming Media Devices], ksmedia/PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, _KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], stream.ksproperty_sphli, ksmedia/KSPROPERTY_SPHLI, PKSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

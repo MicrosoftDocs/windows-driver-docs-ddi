@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 79cf94e4-c362-4ed4-882e-771cd4f6ed48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForAbort method, WdfUsbTargetPipeFormatRequestForAbort, wdf.wdfusbtargetpipeformatrequestforabort, DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, kmdf.wdfusbtargetpipeformatrequestforabort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORABORT
+ms.keywords: DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, WdfUsbTargetPipeFormatRequestForAbort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort, kmdf.wdfusbtargetpipeformatrequestforabort, wdf.wdfusbtargetpipeformatrequestforabort, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORABORT, WdfUsbTargetPipeFormatRequestForAbort method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

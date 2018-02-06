@@ -7,8 +7,8 @@ old-location: print\iprintoemuni3_setbandsize.htm
 old-project: print
 ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.iprintoemuni3_setbandsize, SetBandSize method [Print Devices], IPrintOemUni3 interface, BMF_32BPP, BMF_8RLE, BMF_1BPP, IPrintOemUni3 interface [Print Devices], SetBandSize method, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, BMF_4BPP, SetBandSize method [Print Devices], prcomoem/IPrintOemUni3::SetBandSize, BMF_16BPP, SetBandSize, IPrintOemUni3, BMF_4RLE, BMF_8BPP, BMF_24BPP, IPrintOemUni3::SetBandSize
+ms.date: 2/2/2018
+ms.keywords: BMF_1BPP, print.iprintoemuni3_setbandsize, BMF_32BPP, IPrintOemUni3, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml, IPrintOemUni3::SetBandSize, SetBandSize, SetBandSize method [Print Devices], IPrintOemUni3 interface, prcomoem/IPrintOemUni3::SetBandSize, BMF_4RLE, BMF_8RLE, IPrintOemUni3 interface [Print Devices], SetBandSize method, SetBandSize method [Print Devices], BMF_4BPP, BMF_8BPP, BMF_16BPP, BMF_24BPP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni3.SetBandSize
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

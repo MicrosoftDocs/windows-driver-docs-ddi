@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugPlmClient3, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3::LaunchAndDebugPlmAppWide, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method, debugger.idebugplmclient3_launchanddebugplmappwide
+ms.keywords: IDebugPlmClient3::LaunchAndDebugPlmAppWide, IDebugPlmClient3, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_launchanddebugplmappwide, IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient3.LaunchAndDebugPlmAppWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient3::LaunchAndDebugPlmAppWide method

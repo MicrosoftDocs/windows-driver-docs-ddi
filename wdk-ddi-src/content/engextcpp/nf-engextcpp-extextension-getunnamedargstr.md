@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aaaee0d-eabe-4615-b888-8239f2791d80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtExtension class [Windows Debugging], GetUnnamedArgStr method, GetUnnamedArgStr, GetUnnamedArgStr method [Windows Debugging], EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, GetUnnamedArgStr method [Windows Debugging], ExtExtension class, ExtExtension::GetUnnamedArgStr, ExtExtension, debugger.getunnamedargstr
+ms.keywords: GetUnnamedArgStr, EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, GetUnnamedArgStr method [Windows Debugging], ExtExtension class, debugger.getunnamedargstr, ExtExtension, ExtExtension::GetUnnamedArgStr, ExtExtension class [Windows Debugging], GetUnnamedArgStr method, GetUnnamedArgStr method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,9 +94,9 @@ This method should only be called during the execution of an extension command p
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
-<a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a>
-
 <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
+
+<a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a>
 
  
 

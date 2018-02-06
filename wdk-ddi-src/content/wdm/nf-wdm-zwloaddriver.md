@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtLoadDriver, kernel.zwloaddriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], NtLoadDriver, k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, ZwLoadDriver, wdm/ZwLoadDriver
+ms.keywords: wdm/ZwLoadDriver, k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, wdm/NtLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], NtLoadDriver, ZwLoadDriver, kernel.zwloaddriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,15 +92,15 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
 
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

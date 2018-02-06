@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad99b2b0-d62a-4e3e-a368-b9109f0fefb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanDeviceTypeUnknown, WwanDeviceTypeUnknown, WwanDeviceTypeRemovable, wwan/WwanDeviceTypeRemote, _WWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_TYPE, wwan/WwanDeviceTypeRemovable, WwanDeviceTypeRemote, wwan/WWAN_DEVICE_TYPE, wwan/WwanDeviceTypeEmbedded, WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, wwan/WwanDeviceTypeMax, *PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_device_type, wwan/PWWAN_DEVICE_TYPE, WwanDeviceTypeMax, PWWAN_DEVICE_TYPE, WwanDeviceTypeEmbedded
+ms.keywords: wwan/WWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE, _WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE, WwanDeviceTypeRemote, wwan/WwanDeviceTypeMax, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, wwan/PWWAN_DEVICE_TYPE, WwanDeviceTypeUnknown, WwanDeviceTypeMax, wwan/WwanDeviceTypeUnknown, WwanDeviceTypeRemovable, wwan/WwanDeviceTypeRemovable, wwan/WwanDeviceTypeRemote, netvista.wwan_device_type, WwanDeviceTypeEmbedded, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanDeviceTypeEmbedded, WWAN_DEVICE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

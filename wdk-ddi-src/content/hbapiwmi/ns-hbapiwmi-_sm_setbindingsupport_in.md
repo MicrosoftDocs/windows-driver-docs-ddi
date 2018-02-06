@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bcee845-9b3f-4ad7-843f-1f4cd74ee1be
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN, hbapiwmi/SM_SetBindingSupport_IN, structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml, _SM_SetBindingSupport_IN, PSM_SetBindingSupport_IN structure pointer [Storage Devices], *PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices], storage.sm_setbindingsupport_in
+ms.keywords: PSM_SetBindingSupport_IN structure pointer [Storage Devices], hbapiwmi/SM_SetBindingSupport_IN, SM_SetBindingSupport_IN, storage.sm_setbindingsupport_in, *PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices], structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml, PSM_SetBindingSupport_IN, _SM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SetBindingSupport_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN
+req.typenames: "*PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN"
 ---
 
 # _SM_SetBindingSupport_IN structure

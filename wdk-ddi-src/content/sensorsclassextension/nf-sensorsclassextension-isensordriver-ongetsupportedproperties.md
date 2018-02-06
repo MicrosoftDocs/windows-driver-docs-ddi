@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], ISensorDriver, OnGetSupportedProperties, sensors.isensordriver_ongetsupportedproperties
+ms.keywords: ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, sensors.isensordriver_ongetsupportedproperties, OnGetSupportedProperties method [Sensor Devices], ISensorDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

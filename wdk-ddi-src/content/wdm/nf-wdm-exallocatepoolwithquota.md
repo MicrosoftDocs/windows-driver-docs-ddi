@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePoolWithQuota, kernel.exallocatepoolwithquota, ExAllocatePoolWithQuota, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml
+ms.keywords: wdm/ExAllocatePoolWithQuota, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], ExAllocatePoolWithQuota, kernel.exallocatepoolwithquota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,9 +107,9 @@ Memory allocations of less than PAGE_SIZE are allocated within a page and do not
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 

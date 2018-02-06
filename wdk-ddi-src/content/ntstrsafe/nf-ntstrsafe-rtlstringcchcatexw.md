@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 868cde94-b086-47bc-8ffb-7cf21a2960a7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchcatex, RtlStringCchCatEx function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCchCatExW, safestrings_8766da59-e5d5-4fc8-af93-73b90c4449ab.xml, STRSAFE_IGNORE_NULLS, RtlStringCchCatExA, RtlStringCchCatEx, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_ON_FAILURE, ntstrsafe/RtlStringCchCatExA, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCchCatEx, RtlStringCchCatExW
+ms.keywords: STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCchCatExW, RtlStringCchCatExW, kernel.rtlstringcchcatex, ntstrsafe/RtlStringCchCatExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, STRSAFE_IGNORE_NULLS, safestrings_8766da59-e5d5-4fc8-af93-73b90c4449ab.xml, STRSAFE_NO_TRUNCATION, RtlStringCchCatEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCatEx, RtlStringCchCatExA, RtlStringCchCatEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchCatExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCchCatExW function

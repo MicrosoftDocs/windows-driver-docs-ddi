@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b62834ec-6100-429a-b62f-7e30c58b13e5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlSplay routine [Installable File System Drivers], ntddk/RtlSplay, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml, RtlSplay, ifsk.rtlsplay
+ms.keywords: ntddk/RtlSplay, RtlSplay, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml, RtlSplay routine [Installable File System Drivers], ifsk.rtlsplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,13 +91,13 @@ Callers of <b>RtlSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 <a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
  
 

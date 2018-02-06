@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAllocate, wdf.wdfpdoinitallocate, PFN_WDFPDOINITALLOCATE, WdfPdoInitAllocate, kmdf.wdfpdoinitallocate, WdfPdoInitAllocate method, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml
+ms.keywords: wdfpdo/WdfPdoInitAllocate, WdfPdoInitAllocate, kmdf.wdfpdoinitallocate, WdfPdoInitAllocate method, PFN_WDFPDOINITALLOCATE, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, wdf.wdfpdoinitallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

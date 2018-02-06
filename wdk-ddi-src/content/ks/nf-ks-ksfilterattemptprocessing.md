@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 22c6bd15-98b7-4905-8551-c8202cc6840b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterAttemptProcessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing, KsFilterAttemptProcessing function [Streaming Media Devices]
+ms.keywords: stream.ksfilterattemptprocessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, KsFilterAttemptProcessing function [Streaming Media Devices], KsFilterAttemptProcessing, ks/KsFilterAttemptProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,13 +99,13 @@ Note that this is only an attempt at processing; calling this function does not 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 <a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
 
  
 

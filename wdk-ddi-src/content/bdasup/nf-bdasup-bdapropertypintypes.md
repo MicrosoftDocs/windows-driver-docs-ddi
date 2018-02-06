@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 155aafd7-0d26-47b1-9401-9d780e393e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, stream.bdapropertypintypes, BdaPropertyPinTypes function [Streaming Media Devices], BdaPropertyPinTypes, bdasup/BdaPropertyPinTypes
+ms.keywords: BdaPropertyPinTypes function [Streaming Media Devices], bdasup/BdaPropertyPinTypes, stream.bdapropertypintypes, BdaPropertyPinTypes, bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ A BDA minidriver calls the <b>BdaPropertyPinTypes</b> function to retrieve the l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
  
 

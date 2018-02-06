@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoInitAllocAndQueryProperty method, kmdf.wdffdoinitallocandqueryproperty, WdfFdoInitAllocAndQueryProperty, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, PFN_WDFFDOINITALLOCANDQUERYPROPERTY, wdffdo/WdfFdoInitAllocAndQueryProperty, wdf.wdffdoinitallocandqueryproperty
+ms.keywords: kmdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, PFN_WDFFDOINITALLOCANDQUERYPROPERTY, wdf.wdffdoinitallocandqueryproperty, DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,9 +154,9 @@ Alternatively, you can use <a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandqueryp
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
-
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
 
  
 

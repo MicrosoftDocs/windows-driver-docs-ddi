@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, wia_lh/IWiaImageFilter::InitializeFilter, IWiaImageFilter, InitializeFilter, IWiaImageFilter::InitializeFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, InitializeFilter method [Imaging Devices], IWiaImageFilter interface, InitializeFilter method [Imaging Devices], image.iwiaimagefilter_initializefilter
+ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, InitializeFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, InitializeFilter method [Imaging Devices], IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, IWiaImageFilter, wia_lh/IWiaImageFilter::InitializeFilter, IWiaImageFilter::InitializeFilter, InitializeFilter method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaImageFilter.InitializeFilter
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

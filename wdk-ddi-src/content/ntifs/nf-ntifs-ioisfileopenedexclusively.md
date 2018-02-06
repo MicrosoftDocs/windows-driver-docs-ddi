@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffe3196b-22f4-4d45-abcc-928857d215b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoIsFileOpenedExclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers], ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml, IoIsFileOpenedExclusively, ifsk.ioisfileopenedexclusively
+ms.keywords: ntifs/IoIsFileOpenedExclusively, ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml, ifsk.ioisfileopenedexclusively, IoIsFileOpenedExclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

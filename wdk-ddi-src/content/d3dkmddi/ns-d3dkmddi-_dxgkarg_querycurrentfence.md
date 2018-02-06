@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84a7c49b-d079-4d14-b371-5cfb75c1331c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*INOUT_PDXGKARG_QUERYCURRENTFENCE, _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE structure [Display Devices], display.dxgkarg_querycurrentfence"
+ms.keywords: d3dkmddi/DXGKARG_QUERYCURRENTFENCE, _DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE structure [Display Devices], DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, DXGKARG_QUERYCURRENTFENCE, display.dxgkarg_querycurrentfence, *INOUT_PDXGKARG_QUERYCURRENTFENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

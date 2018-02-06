@@ -7,7 +7,7 @@ old-location: print\compropsheet.htm
 old-project: print
 ms.assetid: d9654346-1f28-4e02-8f6c-17e37ed09b92
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.compropsheet, ComPropSheet routine [Print Devices], ComPropSheet, PFNCOMPROPSHEET, PFNCOMPROPSHEET, compstui/ComPropSheet, cpsuifnc_2586427b-a3ae-4c2e-b081-06d58ec310c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	ComPropSheet
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---
 
 # PFNCOMPROPSHEET callback

@@ -7,7 +7,7 @@ old-location: print\iprintpipelinefilter.htm
 old-project: print
 ms.assetid: e8841091-1d62-4770-aa85-993b49efbd48
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.iprintpipelinefilter, IPrintPipelineFilter interface [Print Devices], IPrintPipelineFilter interface [Print Devices], described, IPrintPipelineFilter, filterpipeline/IPrintPipelineFilter, filterpipeline_67beec81-fbba-43d2-af2f-ddbc32c68fce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

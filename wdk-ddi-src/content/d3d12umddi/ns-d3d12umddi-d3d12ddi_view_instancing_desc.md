@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4d942de6-d829-499c-80cf-3cff8266aee4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi-view-instancing-desc, D3D12DDI_VIEW_INSTANCING_DESC structure [Display Devices], D3D12DDI_VIEW_INSTANCING_DESC, d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC
+ms.keywords: D3D12DDI_VIEW_INSTANCING_DESC, d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC, display.d3d12ddi-view-instancing-desc, D3D12DDI_VIEW_INSTANCING_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

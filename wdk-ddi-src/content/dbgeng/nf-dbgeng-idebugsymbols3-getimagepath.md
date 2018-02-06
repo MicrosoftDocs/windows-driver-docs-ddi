@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::GetImagePath, IDebugSymbols2::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols::GetImagePath, dbgeng/IDebugSymbols2::GetImagePath, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols interface [Windows Debugging], GetImagePath method, debugger.getimagepath, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, GetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetImagePath, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols2::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, GetImagePath method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, IDebugSymbols3, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, IDebugSymbols interface [Windows Debugging], GetImagePath method, debugger.getimagepath, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, GetImagePath, IDebugSymbols::GetImagePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetImagePath
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetImagePath method
@@ -132,15 +132,15 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
  
 

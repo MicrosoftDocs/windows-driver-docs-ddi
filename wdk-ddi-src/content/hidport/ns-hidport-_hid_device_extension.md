@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 409fbc3e-1221-4869-9087-693b1e4d4587
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidstrct_faf2bb84-b1f7-4cfa-84b0-5328dfb521dc.xml, PHID_DEVICE_EXTENSION, hidport/PHID_DEVICE_EXTENSION, _HID_DEVICE_EXTENSION, hid.hid_device_extension, PHID_DEVICE_EXTENSION structure pointer [Human Input Devices], HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION, hidport/HID_DEVICE_EXTENSION, HID_DEVICE_EXTENSION structure [Human Input Devices]
+ms.keywords: HID_DEVICE_EXTENSION structure [Human Input Devices], hidstrct_faf2bb84-b1f7-4cfa-84b0-5328dfb521dc.xml, *PHID_DEVICE_EXTENSION, hidport/HID_DEVICE_EXTENSION, _HID_DEVICE_EXTENSION, hid.hid_device_extension, HID_DEVICE_EXTENSION, PHID_DEVICE_EXTENSION structure pointer [Human Input Devices], PHID_DEVICE_EXTENSION, hidport/PHID_DEVICE_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

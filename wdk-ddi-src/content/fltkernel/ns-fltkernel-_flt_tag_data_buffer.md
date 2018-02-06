@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], fltkernel/FLT_TAG_DATA_BUFFER, _FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], FLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer
+ms.keywords: "*PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], _FLT_TAG_DATA_BUFFER, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], fltkernel/PFLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -203,51 +203,8 @@ Length, in bytes, of the unparsed portion of the file name pointed to by the <b>
  
 
 
-#### GenericGUIDReparseBuffer
+#### SymbolicLinkReparseBuffer
 
-
-
-#### DataBuffer
-
-Pointer to a buffer that contains user-defined data for the reparse point. 
-
-
-#### TagGuid
-
-Globally unique identifier (GUID) that uniquely identifies the type of reparse point. If <b>FileTag</b> is not a Microsoft tag, this member cannot be <b>NULL</b>. 
-
-
-#### GenericReparseBuffer
-
-
-
-#### DataBuffer
-
-Pointer to a buffer that contains user-defined data for the reparse point. 
-
-
-#### MountPointReparseBuffer
-
-
-
-#### PathBuffer
-
-First character of the path string. This character is followed in memory by the remainder of the string. 
-
-
-#### PrintNameLength
-
-Length, in bytes, of the print name string. If the print name string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL terminator. 
-
-
-#### PrintNameOffset
-
-Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
-
-
-#### SubstituteNameLength
-
-Length, in bytes, of the substitute name string. If the substitute name string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
 #### SubstituteNameOffset
@@ -255,8 +212,19 @@ Length, in bytes, of the substitute name string. If the substitute name string i
 Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
 
 
-#### SymbolicLinkReparseBuffer
+#### SubstituteNameLength
 
+Length, in bytes, of the substitute name string. If the substitute name string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL terminator. 
+
+
+#### PrintNameOffset
+
+Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
+
+
+#### PrintNameLength
+
+Length, in bytes, of the print name string. If the print name string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
 #### Flags
@@ -269,14 +237,13 @@ If the SYMLINK_FLAG_RELATIVE flag is set, the <b>PathBuffer</b> path is relative
 First character of the path string. This character is followed in memory by the remainder of the string. 
 
 
-#### PrintNameLength
-
-Length, in bytes, of the print name string. If the print name string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL terminator. 
+#### MountPointReparseBuffer
 
 
-#### PrintNameOffset
 
-Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
+#### SubstituteNameOffset
+
+Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
 
 
 #### SubstituteNameLength
@@ -284,9 +251,42 @@ Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note 
 Length, in bytes, of the substitute name string. If the substitute name string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
-#### SubstituteNameOffset
+#### PrintNameOffset
 
-Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
+Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
+
+
+#### PrintNameLength
+
+Length, in bytes, of the print name string. If the print name string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL terminator. 
+
+
+#### PathBuffer
+
+First character of the path string. This character is followed in memory by the remainder of the string. 
+
+
+#### GenericReparseBuffer
+
+
+
+#### DataBuffer
+
+Pointer to a buffer that contains user-defined data for the reparse point. 
+
+
+#### GenericGUIDReparseBuffer
+
+
+
+#### TagGuid
+
+Globally unique identifier (GUID) that uniquely identifies the type of reparse point. If <b>FileTag</b> is not a Microsoft tag, this member cannot be <b>NULL</b>. 
+
+
+#### DataBuffer
+
+Pointer to a buffer that contains user-defined data for the reparse point. 
 
 
 ## -remarks
@@ -302,13 +302,13 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
 <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
  
 

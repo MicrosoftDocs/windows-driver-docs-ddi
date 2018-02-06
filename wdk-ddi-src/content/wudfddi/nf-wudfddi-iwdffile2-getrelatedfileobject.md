@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdffile2_getrelatedfileobject, IWDFFile2::GetRelatedFileObject, IWDFFile2, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method, wdf.iwdffile2_getrelatedfileobject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, GetRelatedFileObject, GetRelatedFileObject method, IWDFFile2 interface, wudfddi/IWDFFile2::GetRelatedFileObject
+ms.keywords: wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2::GetRelatedFileObject, GetRelatedFileObject method, IWDFFile2 interface, IWDFFile2, umdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject, wdf.iwdffile2_getrelatedfileobject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFFile2.GetRelatedFileObject
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

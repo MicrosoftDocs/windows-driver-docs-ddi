@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 11203a5d-1484-4a49-aedc-e11baf22cac9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, KsDereferenceSoftwareBusObject function [Streaming Media Devices], stream.ksdereferencesoftwarebusobject, swenum/KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject
+ms.keywords: swenum/KsDereferenceSoftwareBusObject, stream.ksdereferencesoftwarebusobject, ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsDereferenceSoftwareBusObject
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
+req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
 req.product: Windows 10 or later.
 ---
 
@@ -94,11 +94,11 @@ When the demand-load bus enumerator object's PDO reference count is 0, it become
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
-
 <a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
 <a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+
+<a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
  
 

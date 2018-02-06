@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 119386fe-1eff-4dac-b9d5-54baefcf6e12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCDROM_TOC_CD_TEXT_DATA_BLOCK, structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml, PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], storage.cdrom_toc_cd_text_data_block, CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK, _CDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK
+ms.keywords: ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], storage.cdrom_toc_cd_text_data_block, *PCDROM_TOC_CD_TEXT_DATA_BLOCK, structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml, CDROM_TOC_CD_TEXT_DATA_BLOCK, PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA_BLOCK, PCDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_TOC_CD_TEXT_DATA_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK
+req.typenames: "*PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK"
 ---
 
 # _CDROM_TOC_CD_TEXT_DATA_BLOCK structure
@@ -122,14 +122,29 @@ Indicates the type of pack data, as follows:
 Title of album or track. 
 
 
-#### CDROM_CD_TEXT_PACK_ARRANGER
+#### CDROM_CD_TEXT_PACK_PERFORMER
 
-Names of the arrangers (in ASCII). 
+Names of the performers (in ASCII). 
+
+
+#### CDROM_CD_TEXT_PACK_SONGWRITER
+
+Names of the songwriters (in ASCII). 
 
 
 #### CDROM_CD_TEXT_PACK_COMPOSER
 
 Names of the composers (in ASCII). 
+
+
+#### CDROM_CD_TEXT_PACK_ARRANGER
+
+Names of the arrangers (in ASCII). 
+
+
+#### CDROM_CD_TEXT_PACK_MESSAGES
+
+Messages from content provider and/or artist (in ASCII). 
 
 
 #### CDROM_CD_TEXT_PACK_DISC_ID
@@ -140,26 +155,6 @@ Disc identification information.
 #### CDROM_CD_TEXT_PACK_GENRE
 
 Genre identification and information. 
-
-
-#### CDROM_CD_TEXT_PACK_MESSAGES
-
-Messages from content provider and/or artist (in ASCII). 
-
-
-#### CDROM_CD_TEXT_PACK_PERFORMER
-
-Names of the performers (in ASCII). 
-
-
-#### CDROM_CD_TEXT_PACK_SIZE_INFO
-
-Size information for the block. 
-
-
-#### CDROM_CD_TEXT_PACK_SONGWRITER
-
-Names of the songwriters (in ASCII). 
 
 
 #### CDROM_CD_TEXT_PACK_TOC_INFO
@@ -175,6 +170,11 @@ Second table of contents information.
 #### CDROM_CD_TEXT_PACK_UPC_EAN
 
 UPC/EAN code of the album and ISRC code of each track. 
+
+
+#### CDROM_CD_TEXT_PACK_SIZE_INFO
+
+Size information for the block. 
 
 
 ### -field TrackNumber
@@ -214,11 +214,11 @@ Contains the cyclic redundancy check.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
  
 

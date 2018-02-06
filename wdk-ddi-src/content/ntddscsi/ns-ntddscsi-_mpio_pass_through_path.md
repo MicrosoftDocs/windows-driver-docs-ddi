@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8c7f3832-3faa-4ece-8434-338f1b150ec1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH structure [Storage Devices], storage.mpio_pass_through_path, MPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH, structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml, PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices], *PMPIO_PASS_THROUGH_PATH, ntddscsi/PMPIO_PASS_THROUGH_PATH, ntddscsi/MPIO_PASS_THROUGH_PATH"
+ms.keywords: "*PMPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices], structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml, _MPIO_PASS_THROUGH_PATH, ntddscsi/MPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH, storage.mpio_pass_through_path, MPIO_PASS_THROUGH_PATH structure [Storage Devices], MPIO_PASS_THROUGH_PATH, ntddscsi/PMPIO_PASS_THROUGH_PATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_PASS_THROUGH_PATH
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH"
+req.typenames: MPIO_PASS_THROUGH_PATH, *PMPIO_PASS_THROUGH_PATH
 ---
 
 # _MPIO_PASS_THROUGH_PATH structure
@@ -120,15 +120,15 @@ The <b>MPIO_PASS_THROUGH_PATH</b> structure is used for a double-buffered device
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path.md">IOCTL_MPIO_PASS_THROUGH_PATH</a>
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a>
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path.md">IOCTL_MPIO_PASS_THROUGH_PATH</a>
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 62ED07DF-2DDC-42FD-80C3-75AB3DE839AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorDataDirectionChanged, buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses]
+ms.keywords: UcmConnectorDataDirectionChanged method [Buses], ucmmanager/UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged, buses.ucmconnectordatadirectionchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UcmConnectorDataDirectionChanged
 product: Windows
 targetos: Windows
-req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 

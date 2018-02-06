@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ff53520-5ba0-47dc-816d-6245924356ee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_RECEIVE, WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE, _NDIS_WWAN_SMS_RECEIVE
+ms.keywords: ndiswwan/NDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SMS_RECEIVE, WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SMS_RECEIVE, *PNDIS_WWAN_SMS_RECEIVE, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, PNDIS_WWAN_SMS_RECEIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

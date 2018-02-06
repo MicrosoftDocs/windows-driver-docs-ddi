@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B887CCD2-0747-483E-A4CF-632471AB19A2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, IDebugPlmClient3, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_suspendplmpackagewide
+ms.keywords: SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_suspendplmpackagewide, IDebugPlmClient3::SuspendPlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, IDebugPlmClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient3.SuspendPlmPackageWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient3::SuspendPlmPackageWide method

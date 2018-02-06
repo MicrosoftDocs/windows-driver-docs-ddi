@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], *PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], storage.storage_spec_version, ntddstor/STORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION"
+ms.keywords: storage.storage_spec_version, ntddstor/STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], STORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], ntddstor/PSTORAGE_SPEC_VERSION, _STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

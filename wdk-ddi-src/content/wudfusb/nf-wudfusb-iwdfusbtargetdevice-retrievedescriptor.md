@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDescriptor method, IWDFUsbTargetDevice interface, RetrieveDescriptor method, IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice, wdf.iwdfusbtargetdevice_retrievedescriptor, umdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, IWDFUsbTargetDevice interface, RetrieveDescriptor method, RetrieveDescriptor
+ms.keywords: wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, umdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice::RetrieveDescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor, IWDFUsbTargetDevice, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, IWDFUsbTargetDevice interface, RetrieveDescriptor method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -163,9 +163,9 @@ The <b>RetrieveDescriptor</b> method generates a UMDF request and synchronously 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a>
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
  
 

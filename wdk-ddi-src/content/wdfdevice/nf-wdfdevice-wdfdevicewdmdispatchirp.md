@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 362C6F7C-7B92-43A8-9BD0-F647FDD266E4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp, wdf.wdfdevicewdmdispatchirp, WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method
+ms.keywords: kmdf.wdfdevicewdmdispatchirp, WdfDeviceWdmDispatchIrp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,9 +110,9 @@ If your driver provides an <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
 
  
 

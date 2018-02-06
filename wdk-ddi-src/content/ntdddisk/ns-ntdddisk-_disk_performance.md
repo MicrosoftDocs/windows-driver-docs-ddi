@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/DISK_PERFORMANCE, storage.disk_performance, PDISK_PERFORMANCE, _DISK_PERFORMANCE, DISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, ntdddisk/PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], DISK_PERFORMANCE structure [Storage Devices], *PDISK_PERFORMANCE
+ms.keywords: PDISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, ntdddisk/DISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], DISK_PERFORMANCE structure [Storage Devices], DISK_PERFORMANCE, _DISK_PERFORMANCE, storage.disk_performance, *PDISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

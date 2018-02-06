@@ -40,7 +40,7 @@ apiname:
 -	CreateVideoProcessorEnum
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback
@@ -99,9 +99,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - hRTVideoProcessorEnum [in]
+#### - pCreateData [in]
 
-A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
 
 #### - hVideoProcessorEnum [in]
@@ -109,9 +109,9 @@ A handle to the video processor enumeration object that the driver should use wh
 A handle to the driver's private data for the video processor enumeration object. For more information, see the Remarks section.
 
 
-#### - pCreateData [in]
+#### - hRTVideoProcessorEnum [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
+A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

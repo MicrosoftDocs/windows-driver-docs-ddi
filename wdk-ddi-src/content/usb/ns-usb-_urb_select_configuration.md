@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: a6a4963b-64d7-4f46-bc19-16925929e7c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml, usb/_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], _URB_SELECT_CONFIGURATION, buses._urb_select_configuration
+ms.keywords: usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml, usb/_URB_SELECT_CONFIGURATION, buses._urb_select_configuration, _URB_SELECT_CONFIGURATION structure [Buses], _URB_SELECT_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,15 +118,15 @@ Other members that are part of this structure but not described here should be t
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
+<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
-<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
  
 

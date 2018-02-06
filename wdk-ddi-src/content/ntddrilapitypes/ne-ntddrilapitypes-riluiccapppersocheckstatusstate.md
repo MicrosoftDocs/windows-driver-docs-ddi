@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d41d5559-b9ec-4ae5-b658-8f75e8af13e4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PERSOCHECKSTATE_MAX, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_PASS, ntddrilapitypes/RIL_PERSOCHECKSTATE_MAX, ntddrilapitypes/RIL_PERSOCHECKSTATE_FAIL, ntddrilapitypes/RIL_PERSOCHECKSTATE_PASS, netvista.riluiccapppersocheckstatusstate, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, RILUICCAPPPERSOCHECKSTATUSSTATE
+ms.keywords: RILUICCAPPPERSOCHECKSTATUSSTATE, netvista.riluiccapppersocheckstatusstate, ntddrilapitypes/RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_MAX, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, RIL_PERSOCHECKSTATE_PASS, ntddrilapitypes/RIL_PERSOCHECKSTATE_MAX, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PERSOCHECKSTATE_PASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: print\iprintoemps_command.htm
 old-project: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml, IPrintOemPS, Command method [Print Devices], Command, IPrintOemPS interface [Print Devices], Command method, Command method [Print Devices], IPrintOemPS interface, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, IPrintOemPS::Command
+ms.date: 2/2/2018
+ms.keywords: prcomoem/IPrintOemPS::Command, Command method [Print Devices], IPrintOemPS interface, IPrintOemPS::Command, Command, IPrintOemPS interface [Print Devices], Command method, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml, Command method [Print Devices], IPrintOemPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS.Command
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

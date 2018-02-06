@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntddk/IoAttachDeviceToDeviceStackSafe, ifsk.ioattachdevicetodevicestacksafe, IoAttachDeviceToDeviceStackSafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers]
+ms.keywords: ntddk/IoAttachDeviceToDeviceStackSafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, ifsk.ioattachdevicetodevicestacksafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], IoAttachDeviceToDeviceStackSafe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

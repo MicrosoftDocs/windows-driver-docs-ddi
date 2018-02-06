@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceUnmapIoSpace function, PFN_WDFDEVICEUNMAPIOSPACE, WdfDeviceUnmapIoSpace, wdfdevice/WdfDeviceUnmapIoSpace, wdf.wdfdeviceunmapiospace
+ms.keywords: WdfDeviceUnmapIoSpace, wdf.wdfdeviceunmapiospace, PFN_WDFDEVICEUNMAPIOSPACE, wdfdevice/WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,9 +109,9 @@ If a driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">Wdf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18">IWDFDevice3::UnmapIoSpace</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
+
+<a href="https://msdn.microsoft.com/E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18">IWDFDevice3::UnmapIoSpace</a>
 
  
 

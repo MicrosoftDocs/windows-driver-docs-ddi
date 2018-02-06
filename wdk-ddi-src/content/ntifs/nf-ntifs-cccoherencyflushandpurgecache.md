@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcCoherencyFlushAndPurgeCache, ccref_79641311-568b-472c-9950-2e46472affcf.xml, ntifs/CcCoherencyFlushAndPurgeCache, ifsk.cccoherencyflushandpurgecache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers]
+ms.keywords: ccref_79641311-568b-472c-9950-2e46472affcf.xml, CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

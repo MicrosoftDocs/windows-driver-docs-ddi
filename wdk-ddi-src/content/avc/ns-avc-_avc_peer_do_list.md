@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.avc_peer_do_list, AVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, avc/AVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], avc/PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices]
+ms.keywords: stream.avc_peer_do_list, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], avc/PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

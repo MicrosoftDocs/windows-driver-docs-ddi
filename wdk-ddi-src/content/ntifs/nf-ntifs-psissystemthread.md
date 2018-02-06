@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, kernel.psissystemthread, ntifs/PsIsSystemThread, PsIsSystemThread, PsIsSystemThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntifs/PsIsSystemThread, PsIsSystemThread, k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, PsIsSystemThread routine [Kernel-Mode Driver Architecture], kernel.psissystemthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,9 +88,9 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioissystemthread.md">IoIsSystemThread</a>
+<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\ntifs\nf-ntifs-ioissystemthread.md">IoIsSystemThread</a>
 
  
 

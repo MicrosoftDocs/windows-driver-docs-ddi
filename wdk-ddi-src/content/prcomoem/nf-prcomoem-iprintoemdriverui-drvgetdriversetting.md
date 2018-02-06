@@ -7,8 +7,8 @@ old-location: print\iprintoemdriverui_drvgetdriversetting.htm
 old-project: print
 ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, DrvGetDriverSetting method [Print Devices], print.iprintoemdriverui_drvgetdriversetting, IPrintOemDriverUI::DrvGetDriverSetting, DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUI
+ms.date: 2/2/2018
+ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI, IPrintOemDriverUI::DrvGetDriverSetting, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, print.iprintoemdriverui_drvgetdriversetting, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemDriverUI.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

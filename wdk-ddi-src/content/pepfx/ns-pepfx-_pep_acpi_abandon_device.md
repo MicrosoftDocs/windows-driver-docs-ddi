@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A8D0FA24-664F-4A2B-BF08-300D6E30F7E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE, *PPEP_ACPI_ABANDON_DEVICE, _PEP_ACPI_ABANDON_DEVICE, kernel.pep_acpi_abandon_device, PEP_ACPI_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_ABANDON_DEVICE
+ms.keywords: PPEP_ACPI_ABANDON_DEVICE, *PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PEP_ACPI_ABANDON_DEVICE, pepfx/PEP_ACPI_ABANDON_DEVICE, pepfx/PPEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_abandon_device, _PEP_ACPI_ABANDON_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_ABANDON_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_ABANDON_DEVICE, *PPEP_ACPI_ABANDON_DEVICE
+req.typenames: "*PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE"
 ---
 
 # _PEP_ACPI_ABANDON_DEVICE structure
@@ -87,9 +87,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
 
  
 

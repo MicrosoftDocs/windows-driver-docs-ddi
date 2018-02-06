@@ -90,12 +90,6 @@ The event being indicated as one of the following <b>TCP_OFFLOAD_EVENT_TYPE</b> 
 
 
 
-#### TcpIndicateAbort
-
-Indicates that the remote host has initiated an abortive disconnect by sending an acceptable RST
-       segment on the connection.
-
-
 #### TcpIndicateDisconnect
 
 Indicates that the remote host has initiated a graceful disconnect by sending a FIN segment on
@@ -106,6 +100,12 @@ Indicates that the remote host has initiated a graceful disconnect by sending a 
 
 Indicates that the offload target is requesting the host stack to terminate the offload of a TCP
        connection.
+
+
+#### TcpIndicateAbort
+
+Indicates that the remote host has initiated an abortive disconnect by sending an acceptable RST
+       segment on the connection.
 
 
 #### TcpIndicateSendBacklogChange
@@ -121,11 +121,6 @@ Specifies additional information about the event being indicated as follows:
 
 
 
-#### TcpIndicateAbort
-
-Not meaningful.
-
-
 #### TcpIndicateDisconnect
 
 Not meaningful.
@@ -135,6 +130,11 @@ Not meaningful.
 
 Indicates the reason for the upload request as a <b>TCP_UPLOAD_REASON</b> value. See the Remarks
        section for more information.
+
+
+#### TcpIndicateAbort
+
+Not meaningful.
 
 
 #### TcpIndicateSendBacklogChange
@@ -422,18 +422,18 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 <a href="https://msdn.microsoft.com/98b22b7f-8881-4029-9558-d5d94bb7878e">Indicating TCP Chimney-Specific Events</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
-     the Reception of a FIN or RST Segment</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisTcpOffloadReceiveComplete</a>
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
    NdisTcpOffloadDisconnectComplete</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
-   NdisTcpOffloadReceiveComplete</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
+     the Reception of a FIN or RST Segment</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
 

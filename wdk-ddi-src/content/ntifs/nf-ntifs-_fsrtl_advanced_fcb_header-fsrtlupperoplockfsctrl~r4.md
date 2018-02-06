@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_WRITE, FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_HANDLE, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], ifsk.fsrtlupperoplockfsctrl
+ms.keywords: OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlupperoplockfsctrl, OPLOCK_LEVEL_CACHE_READ, FsRtlUpperOplockFsctrl, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, ntifs/FsRtlUpperOplockFsctrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,9 +221,9 @@ An oplock acknowledgement
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex~r3.md">FsRtlOplockFsctrlEx</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckupperoplock~r5.md">FsRtlCheckUpperOplock</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex~r3.md">FsRtlOplockFsctrlEx</a>
 
  
 

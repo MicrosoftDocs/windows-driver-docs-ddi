@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterruptActiveBothTriggerHigh, wdm/InterruptActiveHigh, wdm/InterruptRisingEdge, wdm/PKINTERRUPT_POLARITY, InterruptActiveLow, InterruptActiveBoth, InterruptPolarityUnknown, *PKINTERRUPT_POLARITY, wdm/InterruptActiveBothTriggerLow, InterruptFallingEdge, InterruptActiveHigh, PKINTERRUPT_POLARITY, wdm/InterruptFallingEdge, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], InterruptRisingEdge, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], wdm/InterruptPolarityUnknown, InterruptActiveBothTriggerLow, wdm/InterruptActiveBothTriggerHigh, kernel.kinterrupt_polarity, wdm/InterruptActiveBoth, wdm/KINTERRUPT_POLARITY, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, _KINTERRUPT_POLARITY, wdm/InterruptActiveLow, KINTERRUPT_POLARITY
+ms.keywords: InterruptActiveBothTriggerLow, wdm/InterruptRisingEdge, kernel.kinterrupt_polarity, InterruptActiveHigh, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptActiveHigh, PKINTERRUPT_POLARITY, wdm/InterruptActiveBoth, KINTERRUPT_POLARITY, wdm/InterruptPolarityUnknown, _KINTERRUPT_POLARITY, wdm/InterruptFallingEdge, wdm/InterruptActiveBothTriggerLow, InterruptPolarityUnknown, InterruptFallingEdge, *PKINTERRUPT_POLARITY, wdm/KINTERRUPT_POLARITY, wdm/InterruptActiveLow, wdm/InterruptActiveBothTriggerHigh, wdm/PKINTERRUPT_POLARITY, InterruptActiveBoth, InterruptActiveBothTriggerHigh, InterruptActiveLow, InterruptRisingEdge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	KINTERRUPT_POLARITY
 product: Windows
 targetos: Windows
-req.typenames: KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY
+req.typenames: "*PKINTERRUPT_POLARITY, KINTERRUPT_POLARITY"
 req.product: Windows 10 or later.
 ---
 

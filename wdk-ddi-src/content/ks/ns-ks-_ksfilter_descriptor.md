@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c9e3c1ea-a8c9-45db-a31c-7f8e95cf6b2b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml, _KSFILTER_DESCRIPTOR, stream.ksfilter_descriptor, ks/PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], KSFILTER_DESCRIPTOR, ks/KSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR structure [Streaming Media Devices], *PKSFILTER_DESCRIPTOR
+ms.keywords: ks/KSFILTER_DESCRIPTOR, stream.ksfilter_descriptor, *PKSFILTER_DESCRIPTOR, _KSFILTER_DESCRIPTOR, ks/PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml, KSFILTER_DESCRIPTOR structure [Streaming Media Devices], KSFILTER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,39 +83,19 @@ typedef struct _KSFILTER_DESCRIPTOR {
 
 
 
+#### - Dispatch
+
+A pointer to a <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure for this type of filter. This member is optional and need only be provided by clients that wish to receive notifications about filter creations, deletions, and so on. Drivers that are interested in the processing of data (transforms) typically provide this dispatch table and a processing function. Providing a filter-processing function instead of individual pin-processing functions is what makes a driver filter-centric instead of pin-centric.
+
+
 #### - AutomationTable
 
 A pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> structure for this type of filter. The automation table is what describes the properties, methods, and events supported by this filter. This automation table is merged with the automation table supplied by AVStream for all filters. Should the client supply a property, method, or event handler already implemented by AVStream, the client's implementation supersedes AVStream's.
 
 
-#### - Categories
+#### - Version
 
-A pointer to an array of category GUIDs for this filter type. If required, a device interface is registered for each category. This member may be <b>null</b> if and only if <b>CategoriesCount</b> is zero.
-
-
-#### - CategoriesCount
-
-This member specifies the number of category GUIDs that are provided in the <b>Categories</b> member for this filter type. Zero is a legal value for this member.
-
-
-#### - ComponentId
-
-A pointer to the <a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a> structure for this filter type. This is used for the component ID property that provides identification information. This member is optional.
-
-
-#### - Connections
-
-A pointer to an array of <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a> structures present in this filter type. This member is optional; it may be <b>NULL</b> if and only if <b>ConnectionsCount</b> is zero (in which case, the default topology is used).
-
-
-#### - ConnectionsCount
-
-This member specifies the number of topology connections present in <b>Connections</b>. This member may be zero indicating that the default connection set is used. Using default connections means that the topology of the filter is described with a single topology node where each pin on the filter is connected to the corresponding ID on the topology node. The direction of each connection is determined by pin data flow.
-
-
-#### - Dispatch
-
-A pointer to a <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure for this type of filter. This member is optional and need only be provided by clients that wish to receive notifications about filter creations, deletions, and so on. Drivers that are interested in the processing of data (transforms) typically provide this dispatch table and a processing function. Providing a filter-processing function instead of individual pin-processing functions is what makes a driver filter-centric instead of pin-centric.
+This member specifies the version of the filter descriptor. This member should be set to KSFILTER_DESCRIPTOR_VERSION.
 
 
 #### - Flags
@@ -179,19 +159,14 @@ If asynchronous processing has been specified or if the system is running at PAS
 </table> 
 
 
-#### - NodeDescriptorSize
+#### - ReferenceGuid
 
-This member specifies the size in bytes of each individual descriptor in the descriptor table. This value must be a multiple of eight and at least <b>sizeof </b>(KSNODE_DESCRIPTOR). Larger values allow client-specific descriptor information to be appended to node descriptors. See additional information in Remarks.
-
-
-#### - NodeDescriptors
-
-A pointer to an array of <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a> structures describing the topology nodes for this filter type. This member may be <b>null</b> if and only if <b>NodeDescriptorsCount</b> is zero.
+A pointer to a GUID that is the binary representation of the Unicode reference string identifying this filter type. If multiple filter factories exist, each must have a unique GUID. Also note that other methods of supplying a reference string require that the filter descriptor be registered using <b>KsCreateFilterFactory</b>. The value specified in <b>ReferenceGuid</b> must match the filter-specific reference GUID in the driver's INF file. See <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3-87c5-ea1a3983bfd0">Initializing an AVStream Minidriver</a>.
 
 
-#### - NodeDescriptorsCount
+#### - PinDescriptorsCount
 
-This member specifies the number of topology node descriptors provided in <b>NodeDescriptors</b>. Zero is a legal value for this member.
+This member specifies the number of pin descriptors that are provided for this filter type in the <b>PinDescriptors</b> member. On Windows XP and later, <b>PinDescriptorsCount</b> may be zero if the driver creates pins dynamically.
 
 
 #### - PinDescriptorSize
@@ -204,19 +179,44 @@ This member specifies the size of each individual descriptor in the descriptor t
 A pointer to an array of <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structures that describe the pins supported by this filter type. If <b>PinDescriptorsCount</b> is zero, set this member to <b>NULL</b>..
 
 
-#### - PinDescriptorsCount
+#### - CategoriesCount
 
-This member specifies the number of pin descriptors that are provided for this filter type in the <b>PinDescriptors</b> member. On Windows XP and later, <b>PinDescriptorsCount</b> may be zero if the driver creates pins dynamically.
-
-
-#### - ReferenceGuid
-
-A pointer to a GUID that is the binary representation of the Unicode reference string identifying this filter type. If multiple filter factories exist, each must have a unique GUID. Also note that other methods of supplying a reference string require that the filter descriptor be registered using <b>KsCreateFilterFactory</b>. The value specified in <b>ReferenceGuid</b> must match the filter-specific reference GUID in the driver's INF file. See <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3-87c5-ea1a3983bfd0">Initializing an AVStream Minidriver</a>.
+This member specifies the number of category GUIDs that are provided in the <b>Categories</b> member for this filter type. Zero is a legal value for this member.
 
 
-#### - Version
+#### - Categories
 
-This member specifies the version of the filter descriptor. This member should be set to KSFILTER_DESCRIPTOR_VERSION.
+A pointer to an array of category GUIDs for this filter type. If required, a device interface is registered for each category. This member may be <b>null</b> if and only if <b>CategoriesCount</b> is zero.
+
+
+#### - NodeDescriptorsCount
+
+This member specifies the number of topology node descriptors provided in <b>NodeDescriptors</b>. Zero is a legal value for this member.
+
+
+#### - NodeDescriptorSize
+
+This member specifies the size in bytes of each individual descriptor in the descriptor table. This value must be a multiple of eight and at least <b>sizeof </b>(KSNODE_DESCRIPTOR). Larger values allow client-specific descriptor information to be appended to node descriptors. See additional information in Remarks.
+
+
+#### - NodeDescriptors
+
+A pointer to an array of <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a> structures describing the topology nodes for this filter type. This member may be <b>null</b> if and only if <b>NodeDescriptorsCount</b> is zero.
+
+
+#### - ConnectionsCount
+
+This member specifies the number of topology connections present in <b>Connections</b>. This member may be zero indicating that the default connection set is used. Using default connections means that the topology of the filter is described with a single topology node where each pin on the filter is connected to the corresponding ID on the topology node. The direction of each connection is determined by pin data flow.
+
+
+#### - Connections
+
+A pointer to an array of <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a> structures present in this filter type. This member is optional; it may be <b>NULL</b> if and only if <b>ConnectionsCount</b> is zero (in which case, the default topology is used).
+
+
+#### - ComponentId
+
+A pointer to the <a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a> structure for this filter type. This is used for the component ID property that provides identification information. This member is optional.
 
 
 ## -remarks
@@ -308,13 +308,13 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
-
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 <a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
 

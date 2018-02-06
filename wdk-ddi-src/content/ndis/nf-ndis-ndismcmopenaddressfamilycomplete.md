@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2d6c7db-09b3-4e5a-a6da-607c67e03054
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, ndis/NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete, netvista.ndismcmopenaddressfamilycomplete
+ms.keywords: ndis/NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, netvista.ndismcmopenaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -89,11 +89,11 @@ TBD
 
 
 
-#### - CallMgrAfContext [in]
+#### - Status [in]
 
-Specifies the handle to a caller-allocated resident context area, in which the MCM driver
-     maintains state about this client's open of the address family, including the 
-     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
+Specifies the final status of the client's request to open the AF, either NDIS_STATUS_SUCCESS or
+     any caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 #### - NdisAfHandle [in]
@@ -102,11 +102,11 @@ Specifies the NDIS-supplied handle that was input to the MCM driver's
      <i>ProtocolCmOpenAf</i> function, which returned NDIS_STATUS_PENDING.
 
 
-#### - Status [in]
+#### - CallMgrAfContext [in]
 
-Specifies the final status of the client's request to open the AF, either NDIS_STATUS_SUCCESS or
-     any caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
+Specifies the handle to a caller-allocated resident context area, in which the MCM driver
+     maintains state about this client's open of the address family, including the 
+     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
 
 
 ## -remarks
@@ -149,17 +149,17 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
 <a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
    NdisCmOpenAddressFamilyComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
  
 

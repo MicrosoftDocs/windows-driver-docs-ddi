@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopAcknowledge, kmdf.wdfrequeststopacknowledge, DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, PFN_WDFREQUESTSTOPACKNOWLEDGE, wdf.wdfrequeststopacknowledge, WdfRequestStopAcknowledge method, wdfrequest/WdfRequestStopAcknowledge
+ms.keywords: WdfRequestStopAcknowledge, PFN_WDFREQUESTSTOPACKNOWLEDGE, wdf.wdfrequeststopacknowledge, kmdf.wdfrequeststopacknowledge, WdfRequestStopAcknowledge method, DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, wdfrequest/WdfRequestStopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,11 +138,11 @@ For more information about the <b>WdfRequestStopAcknowledge</b> method, see <a h
 
 ## -see-also
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
  
 

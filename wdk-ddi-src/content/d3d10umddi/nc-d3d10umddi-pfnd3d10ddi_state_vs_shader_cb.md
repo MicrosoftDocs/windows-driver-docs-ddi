@@ -40,7 +40,7 @@ apiname:
 -	pfnStateVsShaderCb
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_STATE_VS_SHADER_CB callback

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFMemory::CopyFromBuffer, umdf.iwdfmemory_copyfrombuffer, CopyFromBuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, IWDFMemory::CopyFromBuffer, CopyFromBuffer method, IWDFMemory interface, IWDFMemory, wdf.iwdfmemory_copyfrombuffer, CopyFromBuffer method, IWDFMemory interface, CopyFromBuffer method
+ms.keywords: IWDFMemory::CopyFromBuffer, wudfddi/IWDFMemory::CopyFromBuffer, CopyFromBuffer method, IWDFMemory interface, CopyFromBuffer method, CopyFromBuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, wdf.iwdfmemory_copyfrombuffer, CopyFromBuffer method, IWDFMemory interface, IWDFMemory, umdf.iwdfmemory_copyfrombuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.CopyFromBuffer
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -101,9 +101,9 @@ A pointer to the source buffer that data is copied from.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
  
 

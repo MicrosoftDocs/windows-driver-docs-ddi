@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a385a7a-e4c9-41ff-aaf2-7a4607fa2b2b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoAcquireVpbSpinLock, IoAcquireVpbSpinLock, ifsk.ioacquirevpbspinlock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ioref_b5833043-4673-46ff-850c-bd71da7defef.xml
+ms.keywords: ntifs/IoAcquireVpbSpinLock, IoAcquireVpbSpinLock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, ifsk.ioacquirevpbspinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

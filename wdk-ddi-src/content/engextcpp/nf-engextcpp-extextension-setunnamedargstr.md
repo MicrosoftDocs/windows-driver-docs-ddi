@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 96e309ca-1267-4a5d-97c6-1b15de9190d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setunnamedargstr, ExtExtension::SetUnnamedArgStr, SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], ExtExtension class, ExtExtension, EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, SetUnnamedArgStr method [Windows Debugging], ExtExtension class [Windows Debugging], SetUnnamedArgStr method
+ms.keywords: SetUnnamedArgStr method [Windows Debugging], ExtExtension class, ExtExtension class [Windows Debugging], SetUnnamedArgStr method, SetUnnamedArgStr method [Windows Debugging], EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, ExtExtension, debugger.setunnamedargstr, SetUnnamedArgStr, ExtExtension::SetUnnamedArgStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

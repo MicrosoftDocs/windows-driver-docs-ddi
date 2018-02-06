@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41C3AC04-14AF-4C37-9557-F9FF494F234B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportInterruptActive routine [Kernel-Mode Driver Architecture], IoReportInterruptActive, kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
+ms.keywords: IoReportInterruptActive routine [Kernel-Mode Driver Architecture], IoReportInterruptActive, wdm/IoReportInterruptActive, kernel.ioreportinterruptactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ For more information about <b>IoReportInterruptActive</b>, see <a href="https://
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-ioreportinterruptinactive.md">IoReportInterruptInactive</a>
 
 <a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
-<a href="..\wdm\nf-wdm-ioreportinterruptinactive.md">IoReportInterruptInactive</a>
+<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 <a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_parameters.md">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a>
 

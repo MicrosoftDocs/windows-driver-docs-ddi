@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 5b46253c-c111-4675-898e-78b81ecbddb8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], PPARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, *PPARALLEL_1284_COMMAND, parports.parallel_1284_command, _PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, parallel/PARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports]
+ms.keywords: PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], _PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], parports.parallel_1284_command, parallel/PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND, parallel/PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, *PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARALLEL_1284_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND
+req.typenames: "*PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND"
 ---
 
 # _PARALLEL_1284_COMMAND structure
@@ -107,13 +107,13 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
 
 <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
 
-<a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
+<a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+<a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
 
  
 

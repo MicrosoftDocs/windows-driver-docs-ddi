@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e2b40a9d-57e6-49b1-839a-d34acb108807
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: SriovEventPfQueryStopDevice, _SRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, *PSRIOV_PF_EVENT, SriovEventPfMaximum, SriovEventPfRestart, pcivirt/SriovEventPfQueryStopDevice, pcivirt/SriovEventPfRestart, SRIOV_PF_EVENT enumeration [Buses], SRIOV_PF_EVENT, PCI.sriov_pf_event, pcivirt/SRIOV_PF_EVENT
+ms.keywords: "_SRIOV_PF_EVENT, PCI.sriov_pf_event, SriovEventPfMaximum, SRIOV_PF_EVENT, pcivirt/SriovEventPfRestart, *PSRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, SRIOV_PF_EVENT enumeration [Buses], pcivirt/SRIOV_PF_EVENT, SriovEventPfQueryStopDevice, SriovEventPfRestart, pcivirt/SriovEventPfQueryStopDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

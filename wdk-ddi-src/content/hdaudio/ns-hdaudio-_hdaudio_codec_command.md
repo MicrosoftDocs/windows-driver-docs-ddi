@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hdaudio/HDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, HDAUDIO_CODEC_COMMAND structure [Audio Devices], *PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], _HDAUDIO_CODEC_COMMAND
+ms.keywords: audio.hdaudio_codec_command, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], *PHDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND, hdaudio/HDAUDIO_CODEC_COMMAND, _HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], PHDAUDIO_CODEC_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_CODEC_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND"
+req.typenames: HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND
 ---
 
 # _HDAUDIO_CODEC_COMMAND structure

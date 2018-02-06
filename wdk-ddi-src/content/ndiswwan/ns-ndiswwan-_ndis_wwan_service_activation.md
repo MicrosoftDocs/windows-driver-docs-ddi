@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0dbfa56f-a755-402d-b403-a04fc183c031
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, _NDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation, WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
+ms.keywords: PNDIS_WWAN_SERVICE_ACTIVATION, WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation, PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, _NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SERVICE_ACTIVATION
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
+req.typenames: "*PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION"
 ---
 
 # _NDIS_WWAN_SERVICE_ACTIVATION structure

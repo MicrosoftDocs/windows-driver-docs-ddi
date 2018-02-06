@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, KsPinDataIntersectionEx function [Streaming Media Devices], KsPinDataIntersectionEx, stream.kspindataintersectionex
+ms.keywords: ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, KsPinDataIntersectionEx function [Streaming Media Devices], stream.kspindataintersectionex, KsPinDataIntersectionEx, ks/KsPinDataIntersectionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

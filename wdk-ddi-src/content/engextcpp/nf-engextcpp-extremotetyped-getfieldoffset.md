@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped, GetFieldOffset method [Windows Debugging], GetFieldOffset, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_getfieldoffset, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, ExtRemoteTyped::GetFieldOffset
+ms.keywords: ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, ExtRemoteTyped, ExtRemoteTyped::GetFieldOffset, GetFieldOffset, GetFieldOffset method [Windows Debugging], debugger.extremotetyped_getfieldoffset, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,11 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 ## -see-also
 
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
 <a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
 
 <b>IDebugSymbols::GetFieldOffset</b>
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
  
 

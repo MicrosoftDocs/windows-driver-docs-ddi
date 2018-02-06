@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f5a09843-caf7-4550-bbc6-c0d799d66cd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_FILE_ACCESS_INFORMATION, *PFILE_ACCESS_INFORMATION, kernel.file_access_information, FILE_ACCESS_INFORMATION, ntifs/FILE_ACCESS_INFORMATION, PFILE_ACCESS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_ACCESS_INFORMATION, kstruct_b_3419b751-aa57-41e2-a51d-35bb5a6f38c8.xml, FILE_ACCESS_INFORMATION structure [Kernel-Mode Driver Architecture], ntifs/PFILE_ACCESS_INFORMATION"
+ms.keywords: ntifs/PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ACCESS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_3419b751-aa57-41e2-a51d-35bb5a6f38c8.xml, *PFILE_ACCESS_INFORMATION, PFILE_ACCESS_INFORMATION, _FILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION, ntifs/FILE_ACCESS_INFORMATION, kernel.file_access_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,9 +83,9 @@ The <i>AccessFlags</i> parameter is an access mask that encodes the user rights 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

@@ -7,8 +7,8 @@ old-location: print\oemlineto.htm
 old-project: print
 ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMLineTo, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, print.oemlineto, OEMLineTo function [Print Devices], OEMLineTo
+ms.date: 2/2/2018
+ms.keywords: print.oemlineto, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, printoem/OEMLineTo, OEMLineTo function [Print Devices], OEMLineTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

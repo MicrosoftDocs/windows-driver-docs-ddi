@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], kernel.rtlchartointeger, k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, ntddk/RtlCharToInteger
+ms.keywords: RtlCharToInteger routine [Kernel-Mode Driver Architecture], k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, ntddk/RtlCharToInteger, kernel.rtlchartointeger, RtlCharToInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,9 +100,9 @@ Pointer to a location to which the converted value is returned.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
-
 <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
+<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
  
 

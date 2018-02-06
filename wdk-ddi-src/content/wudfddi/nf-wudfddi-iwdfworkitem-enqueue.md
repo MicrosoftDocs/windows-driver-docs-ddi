@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfworkitem_enqueue, IWDFWorkItem, IWDFWorkItem interface, Enqueue method, wudfddi/IWDFWorkItem::Enqueue, Enqueue, IWDFWorkItem::Enqueue, Enqueue method, IWDFWorkItem interface, wdf.iwdfworkitem_enqueue, Enqueue method
+ms.keywords: Enqueue method, IWDFWorkItem interface, IWDFWorkItem::Enqueue, IWDFWorkItem interface, Enqueue method, wdf.iwdfworkitem_enqueue, IWDFWorkItem, umdf.iwdfworkitem_enqueue, Enqueue method, Enqueue, wudfddi/IWDFWorkItem::Enqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFWorkItem.Enqueue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
-
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
 
  
 

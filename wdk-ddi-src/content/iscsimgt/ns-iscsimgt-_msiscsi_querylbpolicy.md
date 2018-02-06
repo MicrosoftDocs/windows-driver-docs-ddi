@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsimgt/PMSiSCSI_QueryLBPolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, MSiSCSI_QueryLBPolicy structure [Storage Devices], _MSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, iscsimgt/MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], PMSiSCSI_QueryLBPolicy
+ms.keywords: PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], iscsimgt/PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, MSiSCSI_QueryLBPolicy structure [Storage Devices], _MSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, *PMSiSCSI_QueryLBPolicy, iscsimgt/MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_QueryLBPolicy
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy
+req.typenames: "*PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy"
 ---
 
 # _MSiSCSI_QueryLBPolicy structure

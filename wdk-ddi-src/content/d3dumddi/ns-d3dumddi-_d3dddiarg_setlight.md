@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setlight, D3DDDIARG_SETLIGHT structure [Display Devices], _D3DDDIARG_SETLIGHT, UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, d3dumddi/D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT
+ms.keywords: UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, D3DDDIARG_SETLIGHT structure [Display Devices], D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, _D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

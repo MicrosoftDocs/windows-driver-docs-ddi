@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 38396f75-6bcf-493e-9aab-661db59637ae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml, mpiowmi/GetPathConfiguration_IN, PGetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices], GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], mpiowmi/PGetPathConfiguration_IN, storage.getpathconfiguration_in, *PGetPathConfiguration_IN, _GetPathConfiguration_IN
+ms.keywords: storage.getpathconfiguration_in, GetPathConfiguration_IN structure [Storage Devices], structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml, mpiowmi/GetPathConfiguration_IN, GetPathConfiguration_IN, *PGetPathConfiguration_IN, PGetPathConfiguration_IN, _GetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPathConfiguration_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPathConfiguration_IN, GetPathConfiguration_IN"
+req.typenames: GetPathConfiguration_IN, *PGetPathConfiguration_IN
 ---
 
 # _GetPathConfiguration_IN structure

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, IMiniportDMus, NewStream method [Audio Devices], IMiniportDMus interface, dmusicks/IMiniportDMus::NewStream, audio.iminiportdmus_newstream, IMiniportDMus interface [Audio Devices], NewStream method, NewStream method [Audio Devices], NewStream, IMiniportDMus::NewStream
+ms.keywords: NewStream, IMiniportDMus, IMiniportDMus interface [Audio Devices], NewStream method, IMiniportDMus::NewStream, NewStream method [Audio Devices], audio.iminiportdmus_newstream, NewStream method [Audio Devices], IMiniportDMus interface, dmusicks/IMiniportDMus::NewStream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,14 +105,14 @@ Specifies the type of data stream to create. This parameter is set to one of the
 For more information, see the following Remarks section.
 
 
-#### DMUS_STREAM_MIDI_CAPTURE
-
-Specifies a MIDI input stream.
-
-
 #### DMUS_STREAM_MIDI_RENDER
 
 Specifies a MIDI output (playback) stream.
+
+
+#### DMUS_STREAM_MIDI_CAPTURE
+
+Specifies a MIDI input stream.
 
 
 #### DMUS_STREAM_WAVE_SINK
@@ -146,19 +146,9 @@ Specifies a wave output stream.
 
 
 
-#### - pAllocatorMXF [in]
+#### - ppMXF [out]
 
-Pointer to an <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a> object. This is the port driver's memory allocator, which is needed to recycle <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a> structures.
-
-
-#### - pDataFormat [in]
-
-Pointer to a kernel streaming <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure specifying the data format to use for this instance
-
-
-#### - pMasterClock [in]
-
-Pointer to an <a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a> object. This master clock passes a wrapper for the KS clock to the miniport driver. The master-clock pointer is required to sync to reference time.
+Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a> interface.
 
 
 #### - pOuterUnknown [in, optional]
@@ -166,9 +156,14 @@ Pointer to an <a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
 
-#### - ppMXF [out]
+#### - uPinId [in]
 
-Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a> interface.
+Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
+
+
+#### - pDataFormat [in]
+
+Pointer to a kernel streaming <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure specifying the data format to use for this instance
 
 
 #### - ppServiceGroup [out]
@@ -176,14 +171,19 @@ Output pointer for the new stream. This parameter points to a caller-allocated p
 Output pointer for service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
 
 
+#### - pAllocatorMXF [in]
+
+Pointer to an <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a> object. This is the port driver's memory allocator, which is needed to recycle <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a> structures.
+
+
+#### - pMasterClock [in]
+
+Pointer to an <a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a> object. This master clock passes a wrapper for the KS clock to the miniport driver. The master-clock pointer is required to sync to reference time.
+
+
 #### - puuSchedulePreFetch [out]
 
 Output pointer for the schedule-prefetch time. This parameter is a pointer to a caller-allocated ULONGLONG variable into which the method writes a time value that specifies how far ahead to query for events. The time is specified in 100-nanosecond units. The port driver is responsible for sequencing any events that exceed the amount of time that the miniport driver specifies here.
-
-
-#### - uPinId [in]
-
-Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 
 
 ## -returns
@@ -218,25 +218,25 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
-
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
-
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
-<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+
+<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
 
  
 

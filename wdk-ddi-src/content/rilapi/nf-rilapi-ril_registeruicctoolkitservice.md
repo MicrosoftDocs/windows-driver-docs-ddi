@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f406818-b81c-4dc8-bfc7-0c977495b285
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_registeruicctoolkitservice, RIL_RegisterUiccToolkitService method [Network Drivers Starting with Windows Vista], rilapi/RIL_RegisterUiccToolkitService, RIL_RegisterUiccToolkitService
+ms.keywords: RIL_RegisterUiccToolkitService method [Network Drivers Starting with Windows Vista], RIL_RegisterUiccToolkitService, netvista.ril_registeruicctoolkitservice, rilapi/RIL_RegisterUiccToolkitService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_RegisterUiccToolkitService
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 258bcd6f-0536-48d3-a06a-10277f8bef87
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMP_MONITOR_INFO, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, 61883/CMP_MONITOR_INFO, *PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], IEEE.cmp_monitor_info, _CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO
+ms.keywords: PCMP_MONITOR_INFO, IEEE.cmp_monitor_info, *PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, _CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, 61883/CMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_MONITOR_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_MONITOR_INFO, CMP_MONITOR_INFO"
+req.typenames: CMP_MONITOR_INFO, *PCMP_MONITOR_INFO
 ---
 
 # _CMP_MONITOR_INFO structure

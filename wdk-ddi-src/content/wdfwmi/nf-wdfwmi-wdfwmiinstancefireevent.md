@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7bef79ab-78d6-47b6-a3f4-d9733ffcb53d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiInstanceFireEvent method, wdf.wdfwmiinstancefireevent, kmdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent, PFN_WDFWMIINSTANCEFIREEVENT, WdfWmiInstanceFireEvent, DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml
+ms.keywords: PFN_WDFWMIINSTANCEFIREEVENT, WdfWmiInstanceFireEvent method, wdf.wdfwmiinstancefireevent, kmdf.wdfwmiinstancefireevent, DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, wdfwmi/WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,11 @@ For more information about the <b>WdfWmiInstanceFireEvent</b> method, see <a hre
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
  
 

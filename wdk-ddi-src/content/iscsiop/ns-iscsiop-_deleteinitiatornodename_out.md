@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 105f6687-ea0f-45e9-be44-eafdd06156eb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_DeleteInitiatorNodeName_OUT, iscsiop/DeleteInitiatorNodeName_OUT, *PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT structure [Storage Devices], DeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT, structs-iSCSI_2a85602a-f8f8-45c5-948d-128e3f5621a0.xml, PDeleteInitiatorNodeName_OUT structure pointer [Storage Devices], storage.deleteinitiatornodename_out, iscsiop/PDeleteInitiatorNodeName_OUT"
+ms.keywords: storage.deleteinitiatornodename_out, DeleteInitiatorNodeName_OUT, structs-iSCSI_2a85602a-f8f8-45c5-948d-128e3f5621a0.xml, DeleteInitiatorNodeName_OUT structure [Storage Devices], iscsiop/PDeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT, _DeleteInitiatorNodeName_OUT, iscsiop/DeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT structure pointer [Storage Devices], *PDeleteInitiatorNodeName_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DeleteInitiatorNodeName_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT"
+req.typenames: DeleteInitiatorNodeName_OUT, *PDeleteInitiatorNodeName_OUT
 ---
 
 # _DeleteInitiatorNodeName_OUT structure

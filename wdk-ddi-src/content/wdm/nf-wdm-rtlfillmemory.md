@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFillMemory routine [Kernel-Mode Driver Architecture], k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, wdm/RtlFillMemory, kernel.rtlfillmemory, RtlFillMemory
+ms.keywords: wdm/RtlFillMemory, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], RtlFillMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

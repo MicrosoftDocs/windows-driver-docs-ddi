@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPowerActionShutdownOff, PSTOR_POWER_ACTION, StorPowerActionHibernate, StorPowerActionWarmEject, StorPowerActionNone, storport/StorPowerActionWarmEject, storport/StorPowerActionSleep, storport/StorPowerActionReserved, storport/STOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/PSTOR_POWER_ACTION, StorPowerActionReserved, storport/StorPowerActionNone, StorPowerActionShutdownReset, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, storage.stor_power_action, StorPowerActionShutdown, STOR_POWER_ACTION, storport/StorPowerActionShutdown, *PSTOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], storport/StorPowerActionShutdownOff, StorPowerActionSleep, storport/StorPowerActionShutdownReset, storport/StorPowerActionHibernate
+ms.keywords: StorPowerActionShutdown, storage.stor_power_action, storport/StorPowerActionShutdown, StorPowerActionNone, storport/StorPowerActionWarmEject, StorPowerActionWarmEject, StorPowerActionReserved, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, StorPowerActionShutdownReset, STOR_POWER_ACTION, storport/StorPowerActionShutdownOff, StorPowerActionSleep, storport/PSTOR_POWER_ACTION, storport/StorPowerActionNone, *PSTOR_POWER_ACTION, StorPowerActionHibernate, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/StorPowerActionSleep, storport/StorPowerActionReserved, storport/StorPowerActionHibernate, storport/STOR_POWER_ACTION, PSTOR_POWER_ACTION, storport/StorPowerActionShutdownReset, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionShutdownOff
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POWER_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_POWER_ACTION, STOR_POWER_ACTION"
+req.typenames: STOR_POWER_ACTION, *PSTOR_POWER_ACTION
 req.product: Windows 10 or later.
 ---
 

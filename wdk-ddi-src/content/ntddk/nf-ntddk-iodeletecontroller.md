@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iodeletecontroller, k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, ntddk/IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], IoDeleteController
+ms.keywords: k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, IoDeleteController routine [Kernel-Mode Driver Architecture], IoDeleteController, kernel.iodeletecontroller, ntddk/IoDeleteController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

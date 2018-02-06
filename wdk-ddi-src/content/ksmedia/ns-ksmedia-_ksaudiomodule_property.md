@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ksmedia/KSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, _KSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], *PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY
+ms.keywords: "_KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY, ksmedia/KSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOMODULE_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY"
+req.typenames: KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY
 ---
 
 # _KSAUDIOMODULE_PROPERTY structure

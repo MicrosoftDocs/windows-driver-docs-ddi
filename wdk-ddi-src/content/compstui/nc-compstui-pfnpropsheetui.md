@@ -7,7 +7,7 @@ old-location: print\pfnpropsheetui.htm
 old-project: print
 ms.assetid: b78d0dd7-1fe9-4b7e-8f51-4b5dc5fa2571
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.pfnpropsheetui, PFNPROPSHEETUI callback function [Print Devices], PFNPROPSHEETUI, compstui/PFNPROPSHEETUI, cpsuifnc_a30dfbce-634a-4eb9-b86c-fdd14d8333fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	PFNPROPSHEETUI
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---
 
 # PFNPROPSHEETUI callback

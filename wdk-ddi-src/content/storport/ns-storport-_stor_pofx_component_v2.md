@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2FF6B375-C213-48AC-9497-6CE3F1170BAA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_POFX_COMPONENT_V2, _STOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], *PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT, STOR_POFX_COMPONENT_V2 structure [Storage Devices], storport/PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2
+ms.keywords: STOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], _STOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], *PSTOR_POFX_COMPONENT_V2, storport/PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_COMPONENT_V2
 product: Windows
 targetos: Windows
-req.typenames: STOR_POFX_COMPONENT_V2, *PSTOR_POFX_COMPONENT_V2
+req.typenames: "*PSTOR_POFX_COMPONENT_V2, STOR_POFX_COMPONENT_V2"
 req.product: Windows 10 or later.
 ---
 
@@ -139,9 +139,9 @@ For a unit device component, if an additional F-state is included in the <b>FSta
 
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
-<a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a>
-
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
+
+<a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a>
 
  
 

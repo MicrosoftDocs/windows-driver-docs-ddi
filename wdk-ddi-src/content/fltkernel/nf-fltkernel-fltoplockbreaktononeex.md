@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 748951e3-9642-4c98-a3b0-5f6b18519bd4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockBreakToNoneEx, ifsk.fltoplockbreaktononeex, FltOplockBreakToNoneEx routine [Installable File System Drivers], fltkernel/FltOplockBreakToNoneEx, FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml
+ms.keywords: FltOplockBreakToNoneEx routine [Installable File System Drivers], ifsk.fltoplockbreaktononeex, fltkernel/FltOplockBreakToNoneEx, FltOplockBreakToNoneEx, FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

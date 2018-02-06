@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 635a4a47-11b8-4d78-871e-21ee438880df
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_CONTENT_DESC, d3dumddi/DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC structure [Display Devices], _DXVAHDDDI_CONTENT_DESC, display.dxvahdddi_content_desc, DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml
+ms.keywords: DXVAHDDDI_CONTENT_DESC structure [Display Devices], d3dumddi/DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC, _DXVAHDDDI_CONTENT_DESC, DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, display.dxvahdddi_content_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,9 +121,9 @@ The driver can use the information in the members of DXVAHDDDI_CONTENT_DESC to o
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>
 
  
 

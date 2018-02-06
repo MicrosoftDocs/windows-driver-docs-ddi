@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1fe4b90e-f89a-4ccc-bc92-b6f2edfb0b98
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallmediastate, RILCALLMEDIASTATE, ntddrilapitypes/RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLMEDIASTATE
+ms.keywords: netvista.rilcallmediastate, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLMEDIASTATE, ntddrilapitypes/RILCALLMEDIASTATE, RILCALLMEDIASTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE
+req.typenames: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE"
 ---
 
 # RILCALLMEDIASTATE structure
@@ -110,18 +110,18 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-#### - dwCustomStateSpecific
-
-
-
-#### - pad
-
-
-
 #### - stAudioState
 
 
 
 #### - stVideoState
+
+
+
+#### - dwCustomStateSpecific
+
+
+
+#### - pad
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters, ndis/NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: "_NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters, NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,9 +143,9 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
-
 <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>
+
+<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
 
  
 

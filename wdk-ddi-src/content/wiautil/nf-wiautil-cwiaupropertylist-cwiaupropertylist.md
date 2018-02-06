@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5e493d3c-81b6-4db5-a550-c86eadf5a723
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList method [Imaging Devices], wiautil/CWiauPropertyList::CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], CWiauPropertyList method, CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList::CWiauPropertyList, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, CWiauPropertyList, image.cwiaupropertylist_cwiaupropertylist
+ms.keywords: CWiauPropertyList, image.cwiaupropertylist_cwiaupropertylist, CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], CWiauPropertyList method, CWiauPropertyList::CWiauPropertyList, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, wiautil/CWiauPropertyList::CWiauPropertyList, CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,11 @@ The <b>CWiauPropertyList</b> constructor initializes all data members of a prope
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540472">CWiauPropertyList::~CWiauPropertyList</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
 
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
 

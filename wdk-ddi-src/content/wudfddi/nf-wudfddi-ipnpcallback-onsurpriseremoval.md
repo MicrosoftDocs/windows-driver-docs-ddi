@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval method, wudfddi/IPnpCallback::OnSurpriseRemoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, IPnpCallback, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval method, IPnpCallback interface, OnSurpriseRemoval
+ms.keywords: IPnpCallback, OnSurpriseRemoval method, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback::OnSurpriseRemoval, wudfddi/IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval method, IPnpCallback interface, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval, wdf.ipnpcallback_onsurpriseremoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnSurpriseRemoval
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

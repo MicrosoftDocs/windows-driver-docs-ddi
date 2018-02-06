@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b5de8e7-be8e-481e-8dce-9bc4b5071128
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILGPP2CAUSE, netvista.rilgpp2cause_2, RILGPP2CAUSE, rilapitypes/RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: "*LPRILGPP2CAUSE, rilapitypes/RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause_2, RILGPP2CAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

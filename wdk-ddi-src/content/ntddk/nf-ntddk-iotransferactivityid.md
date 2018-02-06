@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoTransferActivityId, IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid
+ms.keywords: IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, IoTransferActivityId, ntddk/IoTransferActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

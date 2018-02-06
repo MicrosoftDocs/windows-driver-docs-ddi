@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_QUERY_VOLUME_TAGS
 product: Windows
 targetos: Windows
-req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
 
 # IOCTL_CHANGER_QUERY_VOLUME_TAGS IOCTL

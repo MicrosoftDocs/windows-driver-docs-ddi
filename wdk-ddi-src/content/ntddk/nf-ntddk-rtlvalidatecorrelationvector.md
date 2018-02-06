@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlValidateCorrelationVector, kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector, RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

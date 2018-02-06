@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45488748-fc7e-47a6-8427-479c63d74a27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml, PKS_DATARANGE_VIDEO_PALETTE, tagKS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, stream.ks_datarange_video_palette, KS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_PALETTE
+ms.keywords: KS_DATARANGE_VIDEO_PALETTE, stream.ks_datarange_video_palette, vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml, tagKS_DATARANGE_VIDEO_PALETTE, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], *PKS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_VIDEO_PALETTE
 product: Windows
 targetos: Windows
-req.typenames: KS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE
+req.typenames: "*PKS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE"
 ---
 
 # tagKS_DATARANGE_VIDEO_PALETTE structure
@@ -112,9 +112,9 @@ Specifies the details of the video stream.
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
  
 

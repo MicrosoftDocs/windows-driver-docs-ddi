@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2776618-2585-4a7a-9f8f-536f1d28745b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicesetstaticstopremove, DFDeviceObjectGeneralRef_9874b784-6344-4336-9753-0b172563f981.xml, WdfDeviceSetStaticStopRemove method, wdfdevice/WdfDeviceSetStaticStopRemove, PFN_WDFDEVICESETSTATICSTOPREMOVE, WdfDeviceSetStaticStopRemove, wdf.wdfdevicesetstaticstopremove
+ms.keywords: WdfDeviceSetStaticStopRemove, wdf.wdfdevicesetstaticstopremove, DFDeviceObjectGeneralRef_9874b784-6344-4336-9753-0b172563f981.xml, PFN_WDFDEVICESETSTATICSTOPREMOVE, kmdf.wdfdevicesetstaticstopremove, wdfdevice/WdfDeviceSetStaticStopRemove, WdfDeviceSetStaticStopRemove method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

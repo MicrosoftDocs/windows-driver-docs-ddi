@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 921e6e44-adc2-4257-b11e-941121f5bfd7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PMSiSCSI_NICPerformance, PMSiSCSI_NICPerformance, _MSiSCSI_NICPerformance, MSiSCSI_NICPerformance, storage.msiscsi_nicperformance, PMSiSCSI_NICPerformance structure pointer [Storage Devices], iscsiprf/MSiSCSI_NICPerformance, iscsiprf/PMSiSCSI_NICPerformance, structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml, MSiSCSI_NICPerformance structure [Storage Devices]"
+ms.keywords: storage.msiscsi_nicperformance, PMSiSCSI_NICPerformance structure pointer [Storage Devices], MSiSCSI_NICPerformance structure [Storage Devices], _MSiSCSI_NICPerformance, iscsiprf/MSiSCSI_NICPerformance, iscsiprf/PMSiSCSI_NICPerformance, PMSiSCSI_NICPerformance, *PMSiSCSI_NICPerformance, structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml, MSiSCSI_NICPerformance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_NICPerformance
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_NICPerformance, MSiSCSI_NICPerformance"
+req.typenames: MSiSCSI_NICPerformance, *PMSiSCSI_NICPerformance
 ---
 
 # _MSiSCSI_NICPerformance structure

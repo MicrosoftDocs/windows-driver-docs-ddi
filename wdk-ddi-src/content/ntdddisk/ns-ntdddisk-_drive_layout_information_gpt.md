@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d99180e0-d989-470c-b330-23372938ab25
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DRIVE_LAYOUT_INFORMATION_GPT structure [Storage Devices], *PDRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT, storage.drive_layout_information_gpt, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_GPT, structs-disk_eca2e047-5de8-4960-9066-28eb0dfedb95.xml, PDRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/DRIVE_LAYOUT_INFORMATION_GPT
+ms.keywords: ntdddisk/PDRIVE_LAYOUT_INFORMATION_GPT, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Storage Devices], PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT structure [Storage Devices], storage.drive_layout_information_gpt, DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT, structs-disk_eca2e047-5de8-4960-9066-28eb0dfedb95.xml, _DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/DRIVE_LAYOUT_INFORMATION_GPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVE_LAYOUT_INFORMATION_GPT
 product: Windows
 targetos: Windows
-req.typenames: "*PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT"
+req.typenames: DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT
 ---
 
 # _DRIVE_LAYOUT_INFORMATION_GPT structure
@@ -101,9 +101,9 @@ This structure contains the drive layout information that is specific to a drive
 
 <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
-
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
 
  
 

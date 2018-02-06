@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26B26715-0C1E-4FF1-B3FA-B6952BF70572
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_DEVICE_SERVICE_ENTRY structure [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_ENTRY, wwan/PWWAN_DEVICE_SERVICE_ENTRY, _WWAN_DEVICE_SERVICE_ENTRY, *PWWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY, netvista.wwan_device_service_entry, PWWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WWAN_DEVICE_SERVICE_ENTRY, wwan/PWWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY, netvista.wwan_device_service_entry, PWWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_ENTRY, PWWAN_DEVICE_SERVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SERVICE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: WWAN_DEVICE_SERVICE_ENTRY, *PWWAN_DEVICE_SERVICE_ENTRY
+req.typenames: "*PWWAN_DEVICE_SERVICE_ENTRY, WWAN_DEVICE_SERVICE_ENTRY"
 req.product: Windows 10 or later.
 ---
 

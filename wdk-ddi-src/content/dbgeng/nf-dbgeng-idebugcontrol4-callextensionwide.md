@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a46d7ba9-24fc-4e06-9655-3fc6531d6891
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CallExtensionWide method [Windows Debugging], IDebugControl4 interface, CallExtensionWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], CallExtensionWide method, dbgeng/IDebugControl4::CallExtensionWide, IDebugControl4::CallExtensionWide, debugger.callextensionwide, IDebugControl4, CallExtensionWide
+ms.keywords: IDebugControl4::CallExtensionWide, IDebugControl4, debugger.callextensionwide, CallExtensionWide, CallExtensionWide method [Windows Debugging], CallExtensionWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], CallExtensionWide method, dbgeng/IDebugControl4::CallExtensionWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.CallExtensionWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::CallExtensionWide method

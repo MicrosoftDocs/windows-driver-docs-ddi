@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo, netvista.ndiscopysendnetbufferlistinfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml
+ms.keywords: NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, NdisCopySendNetBufferListInfo, ndis/NdisCopySendNetBufferListInfo, netvista.ndiscopysendnetbufferlistinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,12 +159,12 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
-
 <a href="..\ndis\nf-ndis-ndiscopyreceivenetbufferlistinfo.md">
    NdisCopyReceiveNetBufferListInfo</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
 
  
 

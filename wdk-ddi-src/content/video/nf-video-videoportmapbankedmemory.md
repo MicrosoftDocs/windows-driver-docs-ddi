@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee94d883-b4c4-4cd5-9b61-2e51810f8fc8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortMapBankedMemory, VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, VideoPortMapBankedMemory, VideoPortMapBankedMemory function [Display Devices], display.videoportmapbankedmemory
+ms.keywords: VideoPortMapBankedMemory, display.videoportmapbankedmemory, video/VideoPortMapBankedMemory, VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, VideoPortMapBankedMemory function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,17 +199,17 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 
 <a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
-<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
+<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+
+<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
 
  
 

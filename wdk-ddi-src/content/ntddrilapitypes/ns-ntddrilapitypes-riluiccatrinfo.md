@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 84ced2d3-43a9-42ef-b8fb-592dc960b01b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCATRINFO, netvista.riluiccatrinfo, ntddrilapitypes/RILUICCATRINFO, *LPRILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], *LPRILUICCATRINFO, ntddrilapitypes/RILUICCATRINFO, RILUICCATRINFO, netvista.riluiccatrinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCATRINFO
 product: Windows
 targetos: Windows
-req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
+req.typenames: "*LPRILUICCATRINFO, RILUICCATRINFO"
 ---
 
 # RILUICCATRINFO structure

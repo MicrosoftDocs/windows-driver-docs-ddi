@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: OHCI_Generic, usb/UHCI_Intel, UHCI_VIA_x0E_FIFO, USB_HcGeneric, usb/UHCI_Ich6, usb/OHCI_Hydra, UHCI_Ich3m, UHCI_Ich1, usb/EHCI_NEC, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/UHCI_VIA_x02, UHCI_Ich2, usb/EHCI_NVIDIA_Tegra2, usb/UHCI_VIA_x03, usb/UHCI_Generic, usb/UHCI_VIA, UHCI_VIA_x04, usb/EHCI_Lucent, UHCI_Intel, usb/UHCI_Piix4, usb/UHCI_Ich1, UHCI_VIA_x03, usb/USB_CONTROLLER_FLAVOR, EHCI_Intel_Medfield, USB_CONTROLLER_FLAVOR enumeration [Buses], UHCI_Piix4, usb/UHCI_Ich2, usb/UHCI_Ich5, usb/UHCI_VIA_x01, _USB_CONTROLLER_FLAVOR, buses.usb_controller_flavor, OHCI_Hydra, OHCI_NEC, EHCI_Lucent, USB_CONTROLLER_FLAVOR, usb/OHCI_NEC, UHCI_VIA_x02, EHCI_NVIDIA_Tegra2, UHCI_Ich4, UHCI_Ich6, usb/USB_HcGeneric, usb/UHCI_VIA_x0E_FIFO, UHCI_Piix3, usb/UHCI_Ich4, UHCI_Generic, EHCI_Generic, usb/EHCI_Generic, usb/UHCI_Piix3, usb/UHCI_Ich3m, EHCI_NEC, usb/EHCI_Intel_Medfield, usb/OHCI_Generic, usb/EHCI_NVIDIA_Tegra3, UHCI_VIA, EHCI_NVIDIA_Tegra3, usb/UHCI_VIA_x04, UHCI_VIA_x01, UHCI_Ich5
+ms.keywords: UHCI_Generic, _USB_CONTROLLER_FLAVOR, EHCI_Generic, usb/UHCI_Generic, usb/OHCI_Hydra, usb/USB_CONTROLLER_FLAVOR, usb/UHCI_Ich4, usb/OHCI_NEC, EHCI_Lucent, UHCI_VIA_x01, usb/UHCI_Ich5, usb/UHCI_VIA, USB_CONTROLLER_FLAVOR, UHCI_Ich2, usb/UHCI_VIA_x04, UHCI_Ich1, EHCI_NEC, EHCI_Intel_Medfield, usb/UHCI_VIA_x01, usb/OHCI_Generic, UHCI_VIA_x02, usb/UHCI_VIA_x0E_FIFO, OHCI_NEC, UHCI_Ich6, usb/UHCI_VIA_x02, usb/UHCI_VIA_x03, usb/EHCI_Generic, UHCI_VIA_x04, usb/EHCI_Lucent, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, UHCI_Ich3m, UHCI_Piix4, usb/UHCI_Ich3m, USB_CONTROLLER_FLAVOR enumeration [Buses], USB_HcGeneric, UHCI_VIA, UHCI_VIA_x03, usb/UHCI_Intel, UHCI_Ich4, UHCI_Ich5, usb/EHCI_NEC, OHCI_Generic, usb/EHCI_Intel_Medfield, usb/UHCI_Ich1, usb/UHCI_Ich6, usb/UHCI_Ich2, usb/USB_HcGeneric, UHCI_VIA_x0E_FIFO, UHCI_Intel, EHCI_NVIDIA_Tegra2, usb/EHCI_NVIDIA_Tegra2, OHCI_Hydra, buses.usb_controller_flavor, usb/EHCI_NVIDIA_Tegra3, UHCI_Piix3, usb/UHCI_Piix3, EHCI_NVIDIA_Tegra3, usb/UHCI_Piix4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -229,9 +229,9 @@ Indicates an Intel Medfield host controller.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
  
 

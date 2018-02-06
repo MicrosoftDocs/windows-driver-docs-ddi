@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 9e88a94d-ce25-43ee-8187-30b406e8d9e4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusicks/IMasterClock::GetTime, IMasterClock, GetTime method [Audio Devices], IMasterClock interface, IMasterClock interface [Audio Devices], GetTime method, IMasterClock::GetTime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, audio.imasterclock_gettime, GetTime, GetTime method [Audio Devices]
+ms.keywords: IMasterClock interface [Audio Devices], GetTime method, IMasterClock::GetTime, GetTime, audio.imasterclock_gettime, GetTime method [Audio Devices], dmusicks/IMasterClock::GetTime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, IMasterClock, GetTime method [Audio Devices], IMasterClock interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,9 +87,9 @@ Output pointer for the reference time. This parameter points to a caller-allocat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
-
 <a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
 
  
 

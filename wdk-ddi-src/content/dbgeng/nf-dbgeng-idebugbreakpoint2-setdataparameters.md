@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::SetDataParameters, SetDataParameters, debugger.setdataparameters, dbgeng/IDebugBreakpoint::SetDataParameters, IDebugBreakpoint2, SetDataParameters method [Windows Debugging], ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, dbgeng/IDebugBreakpoint2::SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::SetDataParameters
+ms.keywords: IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, debugger.setdataparameters, dbgeng/IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, SetDataParameters, ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, SetDataParameters method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.SetDataParameters
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetDataParameters method

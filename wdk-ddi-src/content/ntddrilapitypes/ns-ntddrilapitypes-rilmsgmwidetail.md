@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69371414-9f4a-46a6-8622-5750db7a0c5b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail, *LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, ntddrilapitypes/RILMSGMWIDETAIL
+ms.keywords: RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWIDETAIL, ntddrilapitypes/RILMSGMWIDETAIL, netvista.rilmsgmwidetail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGMWIDETAIL
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGMWIDETAIL, RILMSGMWIDETAIL"
+req.typenames: RILMSGMWIDETAIL, *LPRILMSGMWIDETAIL
 ---
 
 # RILMSGMWIDETAIL structure

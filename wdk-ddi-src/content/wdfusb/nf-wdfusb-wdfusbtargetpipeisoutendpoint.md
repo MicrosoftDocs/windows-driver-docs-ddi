@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetpipeisoutendpoint, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, wdfusb/WdfUsbTargetPipeIsOutEndpoint, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, WdfUsbTargetPipeIsOutEndpoint method, kmdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint
+ms.keywords: wdfusb/WdfUsbTargetPipeIsOutEndpoint, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, wdf.wdfusbtargetpipeisoutendpoint, kmdf.wdfusbtargetpipeisoutendpoint, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, WdfUsbTargetPipeIsOutEndpoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

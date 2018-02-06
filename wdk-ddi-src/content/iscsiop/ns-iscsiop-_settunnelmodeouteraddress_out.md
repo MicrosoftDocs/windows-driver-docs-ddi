@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2cfe935f-eba4-48aa-869d-6381ca038e70
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml, SetTunnelModeOuterAddress_OUT structure [Storage Devices], *PSetTunnelModeOuterAddress_OUT, iscsiop/SetTunnelModeOuterAddress_OUT, iscsiop/PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT, _SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], storage.settunnelmodeouteraddress_out
+ms.keywords: SetTunnelModeOuterAddress_OUT, iscsiop/SetTunnelModeOuterAddress_OUT, _SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT structure [Storage Devices], structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml, iscsiop/PSetTunnelModeOuterAddress_OUT, storage.settunnelmodeouteraddress_out, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], PSetTunnelModeOuterAddress_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetTunnelModeOuterAddress_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT"
+req.typenames: SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
 ---
 
 # _SetTunnelModeOuterAddress_OUT structure
@@ -81,11 +81,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
-
 <a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_in.md">SetTunnelModeOuterAddress_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
 
  
 

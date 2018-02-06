@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c9024cf0-aa0c-4652-89c1-3f2e6f622b3d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSYSAUDIO_CREATE_VIRTUAL_SOURCE, audio.sysaudio_create_virtual_source, SYSAUDIO_CREATE_VIRTUAL_SOURCE, aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], *PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE
+ms.keywords: SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], audio.sysaudio_create_virtual_source, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSAUDIO_CREATE_VIRTUAL_SOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE"
+req.typenames: SYSAUDIO_CREATE_VIRTUAL_SOURCE, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE
 ---
 
 # SYSAUDIO_CREATE_VIRTUAL_SOURCE structure

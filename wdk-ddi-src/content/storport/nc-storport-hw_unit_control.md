@@ -812,9 +812,9 @@ For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the
 </table></span></div>
 
 
-#### Address
+#### Version
 
-The address of the unit the control operation is specified for.
+The version of the parent structure.
 
 
 #### Size
@@ -822,9 +822,9 @@ The address of the unit the control operation is specified for.
 The size, in bytes, of the parent structure.
 
 
-#### Version
+#### Address
 
-The version of the parent structure.
+The address of the unit the control operation is specified for.
 
 
 ## -returns

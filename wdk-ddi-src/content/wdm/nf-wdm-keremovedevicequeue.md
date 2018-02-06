@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9cad7d89-bcaa-47d6-b3e5-51653cbef318
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRemoveDeviceQueue, kernel.keremovedevicequeue, wdm/KeRemoveDeviceQueue, k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml, kernel.keremovedevicequeue, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture], KeRemoveDeviceQueue, wdm/KeRemoveDeviceQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,15 +91,15 @@ It is an error to call <b>KeRemoveDeviceQueue</b> when the device queue object i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
-
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
-
 <a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
  
 

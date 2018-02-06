@@ -7,8 +7,8 @@ old-location: print\devqueryprintex.htm
 old-project: print
 ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, DevQueryPrintEx, winddiui/DevQueryPrintEx, DevQueryPrintEx function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: DevQueryPrintEx function [Print Devices], print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, print.devqueryprintex, DevQueryPrintEx, winddiui/DevQueryPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DevQueryPrintEx
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

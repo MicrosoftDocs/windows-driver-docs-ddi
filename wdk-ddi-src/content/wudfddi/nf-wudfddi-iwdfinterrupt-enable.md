@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Enable method, wudfddi/IWDFInterrupt::Enable, wdf.iwdfinterrupt_enable, IWDFInterrupt::Enable, Enable method, IWDFInterrupt interface, IWDFInterrupt interface, Enable method, umdf.iwdfinterrupt_enable, IWDFInterrupt, Enable
+ms.keywords: IWDFInterrupt interface, Enable method, IWDFInterrupt, Enable, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, Enable method, IWDFInterrupt interface, Enable method, wudfddi/IWDFInterrupt::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFInterrupt.Enable
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

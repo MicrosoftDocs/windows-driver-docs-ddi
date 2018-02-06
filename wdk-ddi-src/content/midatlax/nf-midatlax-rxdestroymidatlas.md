@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d5c08c8-8306-46e3-b10b-eeefe473d340
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxdestroymidatlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml, RxDestroyMidAtlas function [Installable File System Drivers], RxDestroyMidAtlas, midatlax/RxDestroyMidAtlas
+ms.keywords: ifsk.rxdestroymidatlas, RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers], midatlax/RxDestroyMidAtlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,14 +79,14 @@ TBD
 
 
 
-#### - pContextDestructor
-
-An associated context destructor.
-
-
 #### - pMidAtlas
 
 The MID_ATLAS structure to be freed.
+
+
+#### - pContextDestructor
+
+An associated context destructor.
 
 
 ## -returns
@@ -107,13 +107,13 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 <a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
 
 <a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
 
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
 
 <a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 

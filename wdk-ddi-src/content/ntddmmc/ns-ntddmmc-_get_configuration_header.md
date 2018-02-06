@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8de19f1b-faca-4b27-9287-20edc12f2c83
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGET_CONFIGURATION_HEADER structure pointer [Storage Devices], _GET_CONFIGURATION_HEADER, ntddmmc/PGET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER, ntddmmc/GET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER structure [Storage Devices], *PGET_CONFIGURATION_HEADER, structs-CD-ROM_f15044b6-5bbe-4d82-9826-dbe0c96a488c.xml, storage.get_configuration_header, PGET_CONFIGURATION_HEADER
+ms.keywords: GET_CONFIGURATION_HEADER, PGET_CONFIGURATION_HEADER structure pointer [Storage Devices], PGET_CONFIGURATION_HEADER, structs-CD-ROM_f15044b6-5bbe-4d82-9826-dbe0c96a488c.xml, ntddmmc/GET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER structure [Storage Devices], _GET_CONFIGURATION_HEADER, *PGET_CONFIGURATION_HEADER, storage.get_configuration_header, ntddmmc/PGET_CONFIGURATION_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_CONFIGURATION_HEADER
 product: Windows
 targetos: Windows
-req.typenames: GET_CONFIGURATION_HEADER, *PGET_CONFIGURATION_HEADER
+req.typenames: "*PGET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER"
 ---
 
 # _GET_CONFIGURATION_HEADER structure
@@ -92,13 +92,13 @@ Contains the feature data, beginning with the <a href="..\ntddmmc\ns-ntddmmc-_fe
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
 
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
 
  
 

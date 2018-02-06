@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ae1c84e-119a-4649-b3f0-eafbb044dd91
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLightingMask, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], DXVADDI_VideoLighting_bright, d3dumddi/DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLighting_bright, DXVADDI_VideoLighting_dark, DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, _DXVADDI_VIDEOLIGHTING, DXVADDI_VideoLighting_office, d3dumddi/DXVADDI_VideoLighting_office, DXVADDI_VideoLighting_dim, DXVADDI_VideoLighting_Unknown, d3dumddi/DXVADDI_VideoLighting_dark, DXVADDI_VideoLightingMask, display.dxvaddi_videolighting, d3dumddi/DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_Unknown
+ms.keywords: d3dumddi/DXVADDI_VideoLighting_Unknown, display.dxvaddi_videolighting, DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLighting_office, d3dumddi/DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLighting_dark, d3dumddi/DXVADDI_VideoLightingMask, DXVADDI_VideoLighting_office, DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, _DXVADDI_VIDEOLIGHTING, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], DXVADDI_VideoLighting_Unknown, DXVADDI_VideoLighting_bright, DXVADDI_VideoLightingMask, DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLighting_bright, d3dumddi/DXVADDI_VIDEOLIGHTING, DXVADDI_VideoLighting_dark
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

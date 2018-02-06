@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eaaaa9d7-ba6d-4379-b721-74c92375ea05
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetThreadContext method [Windows Debugging], IDebugAdvanced interface, IDebugAdvanced3, SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2::SetThreadContext, dbgeng/IDebugAdvanced2::SetThreadContext, IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext, debugger.setthreadcontext, SetThreadContext, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced::SetThreadContext, IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced interface [Windows Debugging], SetThreadContext method, IDebugAdvanced::SetThreadContext, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml
+ms.keywords: IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced3, SetThreadContext method [Windows Debugging], debugger.setthreadcontext, dbgeng/IDebugAdvanced::SetThreadContext, SetThreadContext, IDebugAdvanced::SetThreadContext, IDebugAdvanced2::SetThreadContext, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, SetThreadContext method [Windows Debugging], IDebugAdvanced interface, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced interface [Windows Debugging], SetThreadContext method, dbgeng/IDebugAdvanced3::SetThreadContext, IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced2::SetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugAdvanced3.SetThreadContext
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugAdvanced3::SetThreadContext method
@@ -113,13 +113,13 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 

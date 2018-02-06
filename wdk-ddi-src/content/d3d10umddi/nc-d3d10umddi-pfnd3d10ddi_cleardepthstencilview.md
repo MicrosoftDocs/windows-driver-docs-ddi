@@ -40,7 +40,7 @@ apiname:
 -	ClearDepthStencilView
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback
@@ -97,9 +97,14 @@ VOID APIENTRY ClearDepthStencilView(
 
 
 
-#### - Depth [in]
+#### - hDevice [in]
 
- A single-precision float vector to set the depth to. 
+ A handle to the display device (graphics context).
+
+
+#### - hDepthStencilView [in]
+
+ A handle to the depth-stencil view to clear. 
 
 
 #### - Flags [in]
@@ -133,19 +138,14 @@ The stencil value is cleared.
 </table> 
 
 
+#### - Depth [in]
+
+ A single-precision float vector to set the depth to. 
+
+
 #### - Stencil [in]
 
  An unsigned 8-bit integer value to set the stencil to. 
-
-
-#### - hDepthStencilView [in]
-
- A handle to the depth-stencil view to clear. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

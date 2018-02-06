@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: QueueWorkItemForIsr method, IWDFInterrupt interface, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr, IWDFInterrupt interface, QueueWorkItemForIsr method, wudfddi/IWDFInterrupt::QueueWorkItemForIsr, IWDFInterrupt, wdf.iwdfinterrupt_queueworkitemforisr, QueueWorkItemForIsr method, umdf.iwdfinterrupt_queueworkitemforisr
+ms.keywords: IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, IWDFInterrupt interface, IWDFInterrupt, umdf.iwdfinterrupt_queueworkitemforisr, QueueWorkItemForIsr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, IWDFInterrupt interface, QueueWorkItemForIsr method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFInterrupt.QueueWorkItemForIsr
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

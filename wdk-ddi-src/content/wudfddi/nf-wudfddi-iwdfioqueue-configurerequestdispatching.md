@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376b0cc3-8189-499e-ad7f-5844f8cb4221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: ConfigureRequestDispatching method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, umdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, ConfigureRequestDispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wdf.iwdfioqueue_configurerequestdispatching, ConfigureRequestDispatching method, IWDFIoQueue::ConfigureRequestDispatching
+ms.keywords: umdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue, IWDFIoQueue::ConfigureRequestDispatching, ConfigureRequestDispatching, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, ConfigureRequestDispatching method, IWDFIoQueue interface, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, ConfigureRequestDispatching method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.ConfigureRequestDispatching
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -97,9 +97,9 @@ The driver can call the <b>ConfigureRequestDispatching</b> method multiple times
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
  
 

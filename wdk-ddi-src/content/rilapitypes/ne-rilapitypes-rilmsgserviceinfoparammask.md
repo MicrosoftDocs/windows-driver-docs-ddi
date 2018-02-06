@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c5d29da-6577-4428-ac7b-1d3ff647086a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_MSI_STORETOTAL, rilapitypes/RILMSGSERVICEINFOPARAMMASK, netvista.rilmsgserviceinfoparammask_2, RIL_PARAM_MSI_STORETOTAL, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_MSI_STOREUSED, RIL_PARAM_MSI_ALL, rilapitypes/RIL_PARAM_MSI_ALL, RIL_PARAM_MSI_STOREUSED, RILMSGSERVICEINFOPARAMMASK
+ms.keywords: rilapitypes/RILMSGSERVICEINFOPARAMMASK, rilapitypes/RIL_PARAM_MSI_STOREUSED, rilapitypes/RIL_PARAM_MSI_STORETOTAL, RILMSGSERVICEINFOPARAMMASK, netvista.rilmsgserviceinfoparammask_2, RIL_PARAM_MSI_STORETOTAL, RIL_PARAM_MSI_STOREUSED, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_MSI_ALL, RIL_PARAM_MSI_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

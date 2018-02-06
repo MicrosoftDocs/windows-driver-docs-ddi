@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D3863924-29EE-4886-B8DC-F9020A7C85A4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], display.dxgkarg_setrootpagetable, _DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE
+ms.keywords: "_DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], display.dxgkarg_setrootpagetable, d3dkmddi/DXGKARG_SETROOTPAGETABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ The GPU physical address of the root page table.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setrootpagetable.md">DxgkDdiSetRootPageTable</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
  
 

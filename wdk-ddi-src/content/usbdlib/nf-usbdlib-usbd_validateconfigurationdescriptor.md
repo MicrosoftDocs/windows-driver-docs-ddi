@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2fbe08ca-a9eb-4e3b-aa28-1ff34ad22a46
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_ValidateConfigurationDescriptor routine [Buses], usbdlib/USBD_ValidateConfigurationDescriptor, buses.usbd_validateconfigurationdescriptor, USBD_ValidateConfigurationDescriptor
+ms.keywords: buses.usbd_validateconfigurationdescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], USBD_ValidateConfigurationDescriptor, usbdlib/USBD_ValidateConfigurationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_ValidateConfigurationDescriptor
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 

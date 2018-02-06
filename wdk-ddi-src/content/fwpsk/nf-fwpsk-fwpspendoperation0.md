@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsPendOperation0, FwpsPendOperation0, netvista.fwpspendoperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml
+ms.keywords: fwpsk/FwpsPendOperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], netvista.fwpspendoperation0, FwpsPendOperation0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

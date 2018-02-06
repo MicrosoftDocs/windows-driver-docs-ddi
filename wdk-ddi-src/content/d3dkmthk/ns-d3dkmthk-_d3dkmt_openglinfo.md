@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO, _D3DKMT_OPENGLINFO, display.d3dkmt_openglinfo, D3DKMT_OPENGLINFO structure [Display Devices], OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml
+ms.keywords: OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml, d3dkmthk/D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO, display.d3dkmt_openglinfo, D3DKMT_OPENGLINFO structure [Display Devices], _D3DKMT_OPENGLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ typedef struct _D3DKMT_OPENGLINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
  
 

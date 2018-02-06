@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01B625EB-AB6D-496F-95F2-22845460324A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFSynchronousOidRequest, netvista.ndisfsynchronousoidrequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], NdisFSynchronousOidRequest
+ms.keywords: netvista.ndisfsynchronousoidrequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFSynchronousOidRequest, NdisFSynchronousOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

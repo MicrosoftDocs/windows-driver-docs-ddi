@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87906511-7bcb-4f4d-9383-44b0501536e3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml, ntddstor/DEVICE_MEDIA_INFO, ntddstor/PDEVICE_MEDIA_INFO, MEDIA_WRITE_PROTECTED, MEDIA_WRITE_ONCE, storage.device_media_info, MEDIA_ERASEABLE, _DEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], MEDIA_READ_WRITE, PDEVICE_MEDIA_INFO, MEDIA_CURRENTLY_MOUNTED, DEVICE_MEDIA_INFO, MEDIA_READ_ONLY, *PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure [Storage Devices]
+ms.keywords: "*PDEVICE_MEDIA_INFO, MEDIA_WRITE_PROTECTED, structs-general_e2c363ff-f053-45be-a807-f90480c0ae1f.xml, PDEVICE_MEDIA_INFO structure pointer [Storage Devices], storage.device_media_info, MEDIA_READ_ONLY, MEDIA_WRITE_ONCE, ntddstor/PDEVICE_MEDIA_INFO, _DEVICE_MEDIA_INFO, MEDIA_ERASEABLE, DEVICE_MEDIA_INFO structure [Storage Devices], MEDIA_READ_WRITE, MEDIA_CURRENTLY_MOUNTED, DEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO, ntddstor/DEVICE_MEDIA_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

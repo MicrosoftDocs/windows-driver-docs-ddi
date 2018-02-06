@@ -88,14 +88,14 @@ Specifies a count.
 
 
 
-#### - ResourceBarrier [in]
-
-A pointer to a resource barrier as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
-
-
 #### - hDrvCommandList
 
 The handle of a command list.
+
+
+#### - ResourceBarrier [in]
+
+A pointer to a resource barrier as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
 ## -returns

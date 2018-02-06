@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1E1AC024-D628-4E31-80EF-8E929B8449FE
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize, NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], NfcCxDeviceDeinitialize
+ms.keywords: NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], nfpdrivers._nfccxdevicedeinitialize, NfcCxDeviceDeinitialize, nfccx/NfcCxDeviceDeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxDeviceDeinitialize
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
+req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
 ---
 
 # NfcCxDeviceDeinitialize function

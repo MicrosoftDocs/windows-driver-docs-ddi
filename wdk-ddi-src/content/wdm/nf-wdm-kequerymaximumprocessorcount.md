@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture], wdm/KeQueryMaximumProcessorCount, kernel.kequerymaximumprocessorcount, k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, KeQueryMaximumProcessorCount
+ms.keywords: KeQueryMaximumProcessorCount, wdm/KeQueryMaximumProcessorCount, kernel.kequerymaximumprocessorcount, k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

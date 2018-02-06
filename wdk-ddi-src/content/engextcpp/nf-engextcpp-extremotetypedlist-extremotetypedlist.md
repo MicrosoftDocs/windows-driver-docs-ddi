@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a7b87f06-491a-4b41-a355-0f2806c0dd8a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], debugger.extremotetypedlist, EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, ExtRemoteTypedList::ExtRemoteTypedList, engextcpp/ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], described
+ms.keywords: ExtRemoteTypedList class [Windows Debugging], described, ExtRemoteTypedList class [Windows Debugging], ExtRemoteTypedList, EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, debugger.extremotetypedlist, ExtRemoteTypedList::ExtRemoteTypedList, engextcpp/ExtRemoteTypedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,15 +117,15 @@ The type ID of the type relative to the module specified by <b>m_TypeModBase</b>
 
 <a href="https://msdn.microsoft.com/3bf50952-7ac9-4c6b-9318-dd64748de9d2">GetTypedNodePtr</a>
 
+<a href="https://msdn.microsoft.com/f6e2d8e3-294d-45d8-8fc6-33af3a746244">SetTypeAndLink</a>
+
 <a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-<a href="https://msdn.microsoft.com/f6e2d8e3-294d-45d8-8fc6-33af3a746244">SetTypeAndLink</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
  
 

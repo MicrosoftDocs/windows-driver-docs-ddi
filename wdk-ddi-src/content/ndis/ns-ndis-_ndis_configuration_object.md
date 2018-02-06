@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8fa80414-c87a-4f05-b99c-5153f08a0862
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT, netvista.ndis_configuration_object, NDIS_CONFIGURATION_OBJECT structure [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_OBJECT, ndis_configuration_ref_aa617bdd-fe13-11d9-8a38-0030ab150798.xml, ndis/PNDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT structure pointer [Network Drivers Starting with Windows Vista], NDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT
+ms.keywords: ndis/NDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT, netvista.ndis_configuration_object, ndis_configuration_ref_aa617bdd-fe13-11d9-8a38-0030ab150798.xml, ndis/PNDIS_CONFIGURATION_OBJECT, _NDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_CONFIGURATION_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: NDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT
+req.typenames: "*PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT"
 ---
 
 # _NDIS_CONFIGURATION_OBJECT structure

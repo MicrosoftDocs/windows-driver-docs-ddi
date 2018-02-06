@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82efeeb9-1167-4114-9d88-7ef66f613f80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, SendTargets_OUT structure [Storage Devices], PSendTargets_OUT, _SendTargets_OUT, iscsiop/PSendTargets_OUT, storage.sendtargets_out, PSendTargets_OUT structure pointer [Storage Devices], iscsiop/SendTargets_OUT, SendTargets_OUT, *PSendTargets_OUT
+ms.keywords: structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, iscsiop/SendTargets_OUT, iscsiop/PSendTargets_OUT, PSendTargets_OUT, SendTargets_OUT, PSendTargets_OUT structure pointer [Storage Devices], _SendTargets_OUT, *PSendTargets_OUT, SendTargets_OUT structure [Storage Devices], storage.sendtargets_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendTargets_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSendTargets_OUT, SendTargets_OUT"
+req.typenames: SendTargets_OUT, *PSendTargets_OUT
 ---
 
 # _SendTargets_OUT structure
@@ -93,9 +93,9 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 <a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
 

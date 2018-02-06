@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 980bcf7b-8e4a-4516-ab71-af60a1d8e99c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTextMacro, IDebugControl2 interface [Windows Debugging], GetTextMacro method, dbgeng/IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetTextMacro method, GetTextMacro method [Windows Debugging], IDebugControl interface, IDebugControl::GetTextMacro, IDebugControl3, IDebugControl3::GetTextMacro, dbgeng/IDebugControl::GetTextMacro, dbgeng/IDebugControl2::GetTextMacro, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, IDebugControl2::GetTextMacro, debugger.gettextmacro, GetTextMacro method [Windows Debugging], IDebugControl interface [Windows Debugging], GetTextMacro method, GetTextMacro method [Windows Debugging], IDebugControl3 interface
+ms.keywords: dbgeng/IDebugControl2::GetTextMacro, IDebugControl3, dbgeng/IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetTextMacro method, IDebugControl2 interface [Windows Debugging], GetTextMacro method, GetTextMacro method [Windows Debugging], IDebugControl3 interface, GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, IDebugControl3::GetTextMacro, IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl interface, debugger.gettextmacro, IDebugControl2::GetTextMacro, IDebugControl3 interface [Windows Debugging], GetTextMacro method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetTextMacro
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetTextMacro method
@@ -127,15 +127,15 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
 

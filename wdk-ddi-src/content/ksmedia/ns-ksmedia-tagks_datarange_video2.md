@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bddb19cb-7705-470b-ad22-14fd72f3db11
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DATARANGE_VIDEO2, ksmedia/KS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml, tagKS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], stream.ks_datarange_video2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices]
+ms.keywords: PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], tagKS_DATARANGE_VIDEO2, ksmedia/KS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2, stream.ks_datarange_video2, PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, ksmedia/PKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_VIDEO2
 product: Windows
 targetos: Windows
-req.typenames: KS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2
+req.typenames: "*PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2"
 ---
 
 # tagKS_DATARANGE_VIDEO2 structure
@@ -117,11 +117,11 @@ This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
  
 

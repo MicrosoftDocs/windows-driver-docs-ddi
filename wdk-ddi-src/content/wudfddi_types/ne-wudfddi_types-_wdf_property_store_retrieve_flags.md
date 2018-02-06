@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd64ef0d-b2e7-4f82-87a8-77fe98677fd9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreCreateVolatile, umdf.wdf_property_store_retrieve_flags, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, WdfPropertyStoreRetrieveFlagsMask, WdfPropertyStoreNormal, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreCreateIfMissing, WdfPropertyStoreCreateVolatile, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreNormal
+ms.keywords: wudfddi_types/WdfPropertyStoreCreateVolatile, WdfPropertyStoreRetrieveFlagsMask, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreCreateIfMissing, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreCreateVolatile, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, wudfddi_types/WdfPropertyStoreNormal, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, WdfPropertyStoreNormal, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, umdf.wdf_property_store_retrieve_flags, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreCreateIfMissing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,9 +105,9 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USBD_BuildRegisterCompositeDevice, buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses]
+ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], usbdlib/ USBD_BuildRegisterCompositeDevice, buses.usbd_buildregistercompositedriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_BuildRegisterCompositeDevice
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -103,9 +103,9 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
+<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
 
  
 

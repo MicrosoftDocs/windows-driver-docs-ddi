@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], PBATTERY_INFORMATION, bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, BATTERY_INFORMATION structure [Battery Devices], *PBATTERY_INFORMATION, poclass/PBATTERY_INFORMATION, poclass/BATTERY_INFORMATION, battery.battery_information, _BATTERY_INFORMATION
+ms.keywords: "_BATTERY_INFORMATION, poclass/PBATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], *PBATTERY_INFORMATION, poclass/BATTERY_INFORMATION, BATTERY_INFORMATION, battery.battery_information, PBATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,11 @@ Specify battery capabilities as a ULONG value encoded with one or more of the fo
 
 
 
+#### BATTERY_SYSTEM_BATTERY
+
+Set this flag if the battery can provide general power to run the system.
+
+
 #### BATTERY_CAPACITY_RELATIVE
 
 Set this flag if the miniclass driver will report battery capacity and rate as a percentage of total capacity and rate rather than as absolute values. Otherwise, the miniclass driver should report capacity in milliwatt-hours and rate in milliwatts.
@@ -101,11 +106,6 @@ Set this flag if the miniclass driver supports the <b>BatteryCharge </b>setting 
 #### BATTERY_SET_DISCHARGE_SUPPORTED
 
 Set this flag if the miniclass driver supports the <b>BatteryDischarge </b>setting in calls to <i>BatteryMiniSetInformation</i>.
-
-
-#### BATTERY_SYSTEM_BATTERY
-
-Set this flag if the battery can provide general power to run the system.
 
 
 ### -field Technology
@@ -155,9 +155,9 @@ Specify the number of charge/discharge cycles the battery has experienced, or ze
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
-
 <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
+
+<a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
 
  
 

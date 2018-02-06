@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 693411e9-16d1-42eb-9848-d28876a91b38
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPStatusInput, dxva/DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], _DXVA_COPPStatusInput, LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml, display.dxva_coppstatusinput, LPDXVA_COPPStatusInput structure pointer [Display Devices], dxva/LPDXVA_COPPStatusInput
+ms.keywords: "_DXVA_COPPStatusInput, dxva/DXVA_COPPStatusInput, DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput, display.dxva_coppstatusinput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput structure pointer [Display Devices], dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml, dxva/LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,20 +83,6 @@ Specifies the GUID that identifies the status request. The following status requ
 
 
 
-#### DXVA_COPPQueryBusData
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryBusData,
-  0xc6f4d673,0x6174,0x4184,0x8e,0x35,0xf6,0xdb,0x52, 0x0,0xbc,0xba);</pre>
-</td>
-</tr>
-</table></span></div>
-
 #### DXVA_COPPQueryConnectorType
 
 <div class="code"><span codelanguage=""><table>
@@ -111,7 +97,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 </table></span></div>
 
-#### DXVA_COPPQueryDisplayData
+#### DXVA_COPPQueryProtectionType
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -119,36 +105,8 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 <tr>
 <td>
-<pre>DEFINE_GUID(DXVA_COPPQueryDisplayData,
-  0xd7bf1ba3,0xad13,0x4f8e,0xaf,0x98,0x0d,0xcb,0x3c,0xa2,0x04,0xcc);</pre>
-</td>
-</tr>
-</table></span></div>
-
-#### DXVA_COPPQueryGlobalProtectionLevel
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryGlobalProtectionLevel,
-  0x1957210a,0x7766,0x452a,0xb9,0x9a,0xd2,0x7a,0xed,0x54,0xf0,0x3a);</pre>
-</td>
-</tr>
-</table></span></div>
-
-#### DXVA_COPPQueryHDCPKeyData
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPQueryHDCPKeyData,
-  0xdb59d74,0xa992,0x492e,0xa0,0xbd,0xc2,0x3f,0xda,0x56,0x4e,0x0);</pre>
+<pre>DEFINE_GUID(DXVA_COPPQueryProtectionType,
+  0x38f2a801,0x9a6c,0x48bb,0x91,0x07,0xb6,0x69,0x6e,0x6f,0x17,0x97);</pre>
 </td>
 </tr>
 </table></span></div>
@@ -167,7 +125,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 </table></span></div>
 
-#### DXVA_COPPQueryProtectionType
+#### DXVA_COPPQueryGlobalProtectionLevel
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -175,8 +133,50 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 <tr>
 <td>
-<pre>DEFINE_GUID(DXVA_COPPQueryProtectionType,
-  0x38f2a801,0x9a6c,0x48bb,0x91,0x07,0xb6,0x69,0x6e,0x6f,0x17,0x97);</pre>
+<pre>DEFINE_GUID(DXVA_COPPQueryGlobalProtectionLevel,
+  0x1957210a,0x7766,0x452a,0xb9,0x9a,0xd2,0x7a,0xed,0x54,0xf0,0x3a);</pre>
+</td>
+</tr>
+</table></span></div>
+
+#### DXVA_COPPQueryDisplayData
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryDisplayData,
+  0xd7bf1ba3,0xad13,0x4f8e,0xaf,0x98,0x0d,0xcb,0x3c,0xa2,0x04,0xcc);</pre>
+</td>
+</tr>
+</table></span></div>
+
+#### DXVA_COPPQueryHDCPKeyData
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryHDCPKeyData,
+  0xdb59d74,0xa992,0x492e,0xa0,0xbd,0xc2,0x3f,0xda,0x56,0x4e,0x0);</pre>
+</td>
+</tr>
+</table></span></div>
+
+#### DXVA_COPPQueryBusData
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_GUID(DXVA_COPPQueryBusData,
+  0xc6f4d673,0x6174,0x4184,0x8e,0x35,0xf6,0xdb,0x52, 0x0,0xbc,0xba);</pre>
 </td>
 </tr>
 </table></span></div>
@@ -223,13 +223,13 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
-
 <a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 

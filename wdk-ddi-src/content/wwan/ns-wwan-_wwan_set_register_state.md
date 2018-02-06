@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 617e80c2-2823-4393-81eb-b2cbd2b21be8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SET_REGISTER_STATE, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_REGISTER_STATE, _WWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_set_register_state, PWWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE
+ms.keywords: netvista.wwan_set_register_state, wwan/WWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, *PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE, _WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SET_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE
+req.typenames: "*PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -112,9 +112,9 @@ When multiple data-classes are set as preferred, miniport drivers are expected r
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_register_state.md">NDIS_WWAN_SET_REGISTER_STATE</a>
-
 <a href="..\wwan\ne-wwan-_wwan_register_action.md">WWAN_REGISTER_ACTION</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_register_state.md">NDIS_WWAN_SET_REGISTER_STATE</a>
 
  
 

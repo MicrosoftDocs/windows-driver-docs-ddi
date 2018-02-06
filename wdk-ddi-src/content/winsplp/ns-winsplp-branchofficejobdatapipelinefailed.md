@@ -7,8 +7,8 @@ old-location: print\branchofficejobdatapipelinefailed.htm
 old-project: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobDataPipelineFailed, *PBranchOfficeJobDataPipelineFailed, print.branchofficejobdatapipelinefailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], winsplp/PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], BranchOfficeJobDataPipelineFailed, winsplp/BranchOfficeJobDataPipelineFailed
+ms.date: 2/2/2018
+ms.keywords: print.branchofficejobdatapipelinefailed, winsplp/BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], *PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

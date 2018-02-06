@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9c46133-a660-46c6-911b-77c2dd2ed2e0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FCPBINDINGENTRY, HBA_FCPBindingEntry, structs-Fibre_b3a84cf5-d8d5-41cc-9fe3-d362da586cbc.xml, HBA_FCPBindingEntry structure [Storage Devices], storage.hba_fcpbindingentry, *PHBA_FCPBINDINGENTRY, hbaapi/HBA_FCPBindingEntry
+ms.keywords: HBA_FCPBindingEntry, *PHBA_FCPBINDINGENTRY, hbaapi/HBA_FCPBindingEntry, HBA_FCPBindingEntry structure [Storage Devices], HBA_FCPBINDINGENTRY, storage.hba_fcpbindingentry, structs-Fibre_b3a84cf5-d8d5-41cc-9fe3-d362da586cbc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FCPBindingEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_FCPBINDINGENTRY, HBA_FCPBINDINGENTRY"
+req.typenames: HBA_FCPBINDINGENTRY, *PHBA_FCPBINDINGENTRY
 ---
 
 # HBA_FCPBindingEntry structure

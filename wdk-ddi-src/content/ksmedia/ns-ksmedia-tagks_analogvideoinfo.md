@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a3562a08-c567-4bb5-9de2-aaa561687b88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_analogvideoinfo, PKS_ANALOGVIDEOINFO, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml, ksmedia/KS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], *PKS_ANALOGVIDEOINFO, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], tagKS_AnalogVideoInfo, ksmedia/PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO
+ms.keywords: stream.ks_analogvideoinfo, PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], *PKS_ANALOGVIDEOINFO, ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml, tagKS_AnalogVideoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfobject_deletewdfobject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, IWDFObject interface, DeleteWdfObject method, DeleteWdfObject method, wudfddi/IWDFObject::DeleteWdfObject, IWDFObject, DeleteWdfObject, IWDFObject::DeleteWdfObject, wdf.iwdfobject_deletewdfobject, DeleteWdfObject method, IWDFObject interface
+ms.keywords: umdf.iwdfobject_deletewdfobject, DeleteWdfObject method, IWDFObject interface, DeleteWdfObject method, IWDFObject::DeleteWdfObject, IWDFObject interface, DeleteWdfObject method, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, wudfddi/IWDFObject::DeleteWdfObject, DeleteWdfObject, wdf.iwdfobject_deletewdfobject, IWDFObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.DeleteWdfObject
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -89,9 +89,9 @@ However, when a parent object is deleted, all child objects are automatically de
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
  
 

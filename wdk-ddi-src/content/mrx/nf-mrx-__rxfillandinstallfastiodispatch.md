@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml, mrx/__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], __RxFillAndInstallFastIoDispatch, ifsk.__rxfillandinstallfastiodispatch
+ms.keywords: rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml, mrx/__RxFillAndInstallFastIoDispatch, ifsk.__rxfillandinstallfastiodispatch, __RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,13 +104,13 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
-
 <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
  
 

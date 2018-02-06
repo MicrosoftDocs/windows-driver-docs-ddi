@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33e92f7d-2a01-4be2-a6b3-d0bd63db1eeb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_AYUVsample2, dxva/DXVA_AYUVsample2, *LPDXVA_AYUVsample2, display.dxva_ayuvsample2, LPDXVA_AYUVsample2 structure pointer [Display Devices], dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, _DXVA_AYUVsample2
+ms.keywords: LPDXVA_AYUVsample2 structure pointer [Display Devices], _DXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, *LPDXVA_AYUVsample2, display.dxva_ayuvsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, dxva/DXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, DXVA_AYUVsample2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_AYUVsample2
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_AYUVsample2, DXVA_AYUVsample2"
+req.typenames: DXVA_AYUVsample2, *LPDXVA_AYUVsample2
 ---
 
 # _DXVA_AYUVsample2 structure

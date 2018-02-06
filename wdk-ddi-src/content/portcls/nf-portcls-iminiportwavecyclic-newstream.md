@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a83c6eb9-a29a-4695-99d3-168dff68c4a2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportWaveCyclic::NewStream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, portcls/IMiniportWaveCyclic::NewStream, IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], NewStream method, NewStream method [Audio Devices], IMiniportWaveCyclic interface, audio.iminiportwavecyclic_newstream, NewStream method [Audio Devices], NewStream
+ms.keywords: NewStream, audmp-routines_eb476e18-bd94-4665-a3df-3e95f91e1c5b.xml, IMiniportWaveCyclic::NewStream, IMiniportWaveCyclic interface [Audio Devices], NewStream method, NewStream method [Audio Devices], IMiniportWaveCyclic interface, IMiniportWaveCyclic, NewStream method [Audio Devices], audio.iminiportwavecyclic_newstream, portcls/IMiniportWaveCyclic::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,11 +158,11 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
@@ -170,7 +170,7 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 <a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
  
 

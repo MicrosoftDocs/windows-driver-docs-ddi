@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, KsProperty method [Streaming Media Devices], KsProperty, ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method, KsProperty method [Streaming Media Devices], IKsControl interface, IKsControl::KsProperty, IKsControl, stream.ikscontrol_ksproperty2
+ms.keywords: KsProperty method [Streaming Media Devices], IKsControl interface, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, IKsControl, IKsControl::KsProperty, KsProperty method [Streaming Media Devices], KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method, stream.ikscontrol_ksproperty2, ks/IKsControl::KsProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

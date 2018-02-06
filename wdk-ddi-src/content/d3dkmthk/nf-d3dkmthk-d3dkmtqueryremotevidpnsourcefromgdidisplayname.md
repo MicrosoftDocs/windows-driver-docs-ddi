@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3606d5f4-760f-4ba1-84ea-218b6c2a2e20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], display.d3dkmtqueryremotevidpnsourcefromgdidisplayname, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
+ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], display.d3dkmtqueryremotevidpnsourcefromgdidisplayname, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

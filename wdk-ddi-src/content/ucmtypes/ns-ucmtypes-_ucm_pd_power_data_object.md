@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C54750A9-EE64-4FE7-9ED6-EC9709A82C43
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_pd_power_data_object, _UCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], UCM_PD_POWER_DATA_OBJECT union [Buses], ucmtypes/PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT
+ms.keywords: PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], PUCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, _UCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses], buses.ucm_pd_power_data_object, ucmtypes/UCM_PD_POWER_DATA_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCM_PD_POWER_DATA_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PUCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT"
+req.typenames: UCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT
 req.product: Windows 10 or later.
 ---
 

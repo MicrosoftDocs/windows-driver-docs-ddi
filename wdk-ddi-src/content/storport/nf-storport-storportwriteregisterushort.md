@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f4beff75-6177-40c7-a62c-6e24bc54ea58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterUshort routine [Storage Devices], storport/StorPortWriteRegisterUshort, storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml, StorPortWriteRegisterUshort, storage.storportwriteregisterushort
+ms.keywords: storport/StorPortWriteRegisterUshort, StorPortWriteRegisterUshort routine [Storage Devices], StorPortWriteRegisterUshort, storage.storportwriteregisterushort, storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PopEntryList, k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, PopEntryList routine [Kernel-Mode Driver Architecture], wdm/PopEntryList, kernel.popentrylist
+ms.keywords: kernel.popentrylist, k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, wdm/PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], PopEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

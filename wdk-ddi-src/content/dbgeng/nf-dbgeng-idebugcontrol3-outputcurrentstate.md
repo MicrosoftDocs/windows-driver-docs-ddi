@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl::OutputCurrentState, IDebugControl2::OutputCurrentState, IDebugControl3, dbgeng/IDebugControl3::OutputCurrentState, IDebugControl3::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl::OutputCurrentState, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, debugger.outputcurrentstate
+ms.keywords: OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState, IDebugControl interface [Windows Debugging], OutputCurrentState method, OutputCurrentState method [Windows Debugging], debugger.outputcurrentstate, IDebugControl::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::OutputCurrentState, IDebugControl2::OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, IDebugControl3, IDebugControl3::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputCurrentState
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::OutputCurrentState method

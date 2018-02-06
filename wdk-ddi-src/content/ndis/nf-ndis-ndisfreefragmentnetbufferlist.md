@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bbf85ee-8541-4d3d-87e5-0633bc35670b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeFragmentNetBufferList, ndis_netbuf_functions_ref_e88011a7-4c83-4736-8a3f-3a2d1c3b2e6f.xml, ndis/NdisFreeFragmentNetBufferList, netvista.ndisfreefragmentnetbufferlist, NdisFreeFragmentNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisfreefragmentnetbufferlist, ndis_netbuf_functions_ref_e88011a7-4c83-4736-8a3f-3a2d1c3b2e6f.xml, NdisFreeFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeFragmentNetBufferList, NdisFreeFragmentNetBufferList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,9 +108,9 @@ None
 <a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">
    NdisAllocateFragmentNetBufferList</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
  
 

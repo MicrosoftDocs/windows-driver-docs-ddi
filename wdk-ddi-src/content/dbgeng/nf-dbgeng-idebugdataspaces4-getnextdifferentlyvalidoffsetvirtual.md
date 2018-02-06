@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f55cc21-606d-4c7c-8650-51cb686700b3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, IDebugDataSpaces4, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, debugger.getnextdifferentlyvalidoffsetvirtual, GetNextDifferentlyValidOffsetVirtual
+ms.keywords: IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, GetNextDifferentlyValidOffsetVirtual, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, debugger.getnextdifferentlyvalidoffsetvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual method

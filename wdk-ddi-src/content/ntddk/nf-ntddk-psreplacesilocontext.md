@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext, PsReplaceSiloContext
+ms.keywords: ntddk/PsReplaceSiloContext, PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], KSPROPERTY_SERIAL, stream.ksproperty_serial, KSPROPERTY_SERIAL structure [Streaming Media Devices], *PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, ks/PKSPROPERTY_SERIAL, ks/KSPROPERTY_SERIAL
+ms.keywords: ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, PKSPROPERTY_SERIAL, stream.ksproperty_serial, KSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks/KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

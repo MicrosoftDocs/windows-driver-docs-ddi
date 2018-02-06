@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: QueryPlmPackageList, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, IDebugPlmClient3, debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], dbgeng/IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface
+ms.keywords: debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3::QueryPlmPackageList, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, dbgeng/IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageList, IDebugPlmClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient3.QueryPlmPackageList
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient3::QueryPlmPackageList method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, CcMapData, ntifs/CcMapData
+ms.keywords: CcMapData routine [Installable File System Drivers], ifsk.ccmapdata, ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, CcMapData, ntifs/CcMapData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -164,15 +164,15 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
-
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
  
 

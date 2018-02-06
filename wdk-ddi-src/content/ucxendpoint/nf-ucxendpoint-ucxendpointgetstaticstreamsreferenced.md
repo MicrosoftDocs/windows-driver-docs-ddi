@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], ucxendpoint/UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced
+ms.keywords: buses._ucxendpointgetstaticstreamsreferenced, UcxEndpointGetStaticStreamsReferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

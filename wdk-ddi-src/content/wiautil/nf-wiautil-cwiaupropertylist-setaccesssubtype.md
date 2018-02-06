@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, CWiauPropertyList::SetAccessSubType, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, wiautil/CWiauPropertyList::SetAccessSubType, CWiauPropertyList, SetAccessSubType method [Imaging Devices], image.cwiaupropertylist_setaccesssubtype, SetAccessSubType
+ms.keywords: CWiauPropertyList, image.cwiaupropertylist_setaccesssubtype, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList::SetAccessSubType, CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, SetAccessSubType method [Imaging Devices], SetAccessSubType, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, wiautil/CWiauPropertyList::SetAccessSubType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

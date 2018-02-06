@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af272e27-6cb4-4f87-9c46-512ac80fa310
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_luid, HBA_LUID structure [Storage Devices], PHBA_LUID structure pointer [Storage Devices], *PHBA_LUID, HBA_LUID, hbaapi/HBA_LUID, PHBA_LUID, structs-Fibre_32d9473b-e356-41cc-9352-7a142fc3dcc7.xml, hbaapi/PHBA_LUID
+ms.keywords: PHBA_LUID, HBA_LUID, structs-Fibre_32d9473b-e356-41cc-9352-7a142fc3dcc7.xml, storage.hba_luid, PHBA_LUID structure pointer [Storage Devices], hbaapi/HBA_LUID, *PHBA_LUID, HBA_LUID structure [Storage Devices], hbaapi/PHBA_LUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,9 +81,9 @@ A vendor specific LUID is not guaranteed to be unique or persistent.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientryv2.md">HBA_FcpScsiEntryV2</a>
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
 
  
 

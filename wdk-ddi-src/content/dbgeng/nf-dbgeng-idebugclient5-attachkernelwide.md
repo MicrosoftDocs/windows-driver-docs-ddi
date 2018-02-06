@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ddcd45-4848-402b-a0fa-5223b8fde52e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::AttachKernelWide, IDebugClient5 interface [Windows Debugging], AttachKernelWide method, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::AttachKernelWide, AttachKernelWide, IDebugClient5, debugger.attachkernelwide
+ms.keywords: IDebugClient5 interface [Windows Debugging], AttachKernelWide method, AttachKernelWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, AttachKernelWide method [Windows Debugging], debugger.attachkernelwide, IDebugClient5::AttachKernelWide, AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.AttachKernelWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::AttachKernelWide method
@@ -106,14 +106,14 @@ Specifies the connection settings for communicating with the computer running th
 
 
 
-#### DEBUG_ATTACH_EXDI_DRIVER
-
-eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
-
-
 #### DEBUG_ATTACH_KERNEL_CONNECTION
 
 <i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.  
+
+
+#### DEBUG_ATTACH_EXDI_DRIVER
+
+eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
 
 
 ## -returns
@@ -149,9 +149,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
 

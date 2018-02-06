@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PDRIVER_OBJECT, kernel.driver_object, _DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], *PDRIVER_OBJECT, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], DRIVER_OBJECT, wdm/DRIVER_OBJECT, PDRIVER_OBJECT
+ms.keywords: DRIVER_OBJECT, *PDRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], wdm/DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], PDRIVER_OBJECT, kernel.driver_object, _DRIVER_OBJECT, wdm/PDRIVER_OBJECT, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVER_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PDRIVER_OBJECT, DRIVER_OBJECT"
+req.typenames: DRIVER_OBJECT, *PDRIVER_OBJECT
 req.product: Windows 10 or later.
 ---
 
@@ -203,15 +203,15 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
  
 

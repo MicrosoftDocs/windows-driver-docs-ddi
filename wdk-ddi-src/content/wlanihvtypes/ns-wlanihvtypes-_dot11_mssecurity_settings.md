@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b80a06f0-7774-4bf1-9101-a466999246d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], wlanihvtypes/DOT11_MSSECURITY_SETTINGS, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS, _DOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS, *PDOT11_MSSECURITY_SETTINGS, Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, netvista.dot11_mssecurity_settings, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], wlanihvtypes/DOT11_MSSECURITY_SETTINGS, netvista.dot11_mssecurity_settings, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS, _DOT11_MSSECURITY_SETTINGS, Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista], *PDOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RECEIVE_QUEUE_INFO, netvista.ndis_receive_queue_info, *PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_INFO, PNDIS_RECEIVE_QUEUE_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_QUEUE_INFO, virtual_machine_queue_ref_5052da2e-c93a-40f9-b129-07538556ef29.xml, _NDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO
+ms.keywords: PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO, ntddndis/NDIS_RECEIVE_QUEUE_INFO, ntddndis/PNDIS_RECEIVE_QUEUE_INFO, *PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_INFO structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_5052da2e-c93a-40f9-b129-07538556ef29.xml, netvista.ndis_receive_queue_info, _NDIS_RECEIVE_QUEUE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_QUEUE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO"
+req.typenames: NDIS_RECEIVE_QUEUE_INFO, *PNDIS_RECEIVE_QUEUE_INFO
 ---
 
 # _NDIS_RECEIVE_QUEUE_INFO structure
@@ -91,17 +91,17 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+#### NDIS_RECEIVE_QUEUE_INFO_REVISION_2
+
+Added additional members for NDIS 6.30.
+<div class="alert"><b>Note</b>  Revision 2 of this structure is  supported only on Windows Server 2012 and later versions of Windows Server.</div><div> </div>Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_INFO_REVISION_2</b>.
+
+
 #### NDIS_RECEIVE_QUEUE_INFO_REVISION_1
 
 Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_INFO_REVISION_1</b>.
-
-
-#### NDIS_RECEIVE_QUEUE_INFO_REVISION_2
-
-Added additional members for NDIS 6.30.
-<div class="alert"><b>Note</b>  Revision 2 of this structure is  supported only on Windows Server 2012 and later versions of Windows Server.</div><div> </div>Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_INFO_REVISION_2</b>.
 
 
 ### -field Flags
@@ -200,20 +200,20 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 ## -see-also
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
    NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info_array.md">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
 
  
 

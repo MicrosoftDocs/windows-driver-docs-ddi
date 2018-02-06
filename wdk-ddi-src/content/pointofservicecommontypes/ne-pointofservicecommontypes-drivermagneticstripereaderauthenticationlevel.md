@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 779e750a-70c6-41f3-b680-a9fe833014b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen, DriverMagneticStripeReaderAuthenticationLevel enumeration, pointofservicecommontypes/Required, NotSupported, DriverMagneticStripeReaderAuthenticationLevel, Optional, pointofservicecommontypes/Optional, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/NotSupported
+ms.keywords: Optional, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen, pointofservicecommontypes/NotSupported, Required, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, DriverMagneticStripeReaderAuthenticationLevel enumeration, DriverMagneticStripeReaderAuthenticationLevel, NotSupported, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

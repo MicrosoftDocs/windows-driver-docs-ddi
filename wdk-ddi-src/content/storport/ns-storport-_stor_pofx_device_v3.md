@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 49B03A5F-9F96-4F0B-AC52-ADBDC8ED03B2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_POFX_DEVICE_FLAG_ADAPTIVE_D3_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_UNIT_REGISTRATION, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, PSTOR_POFX_DEVICE_V3 structure pointer [Storage Devices], storport/STOR_POFX_DEVICE_V2, _STOR_POFX_DEVICE_V3, *PSTOR_POFX_DEVICE_V3, STOR_POFX_DEVICE_V3, STOR_POFX_DEVICE_V3 structure [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D3, storage.stor_pofx_device_v3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, PSTOR_POFX_DEVICE_V3, storport/PSTOR_POFX_DEVICE_V3
+ms.keywords: PSTOR_POFX_DEVICE_V3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, PSTOR_POFX_DEVICE_V3 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, storage.stor_pofx_device_v3, storport/PSTOR_POFX_DEVICE_V3, STOR_POFX_DEVICE_V3 structure [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_ADAPTIVE_D3_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_V3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, _STOR_POFX_DEVICE_V3, *PSTOR_POFX_DEVICE_V3, storport/STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_UNIT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -213,15 +213,15 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
-
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
 
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
+<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 66ffd219-4a62-404d-ba51-4a91eccfcf96
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_HIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node, PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], hidpi/PHIDP_LINK_COLLECTION_NODE, hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml, hidpi/HIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], *PHIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE"
+ms.keywords: PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], _HIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], PHIDP_LINK_COLLECTION_NODE, hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml, hidpi/HIDP_LINK_COLLECTION_NODE, hidpi/PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_LINK_COLLECTION_NODE
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE"
+req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 ---
 
 # _HIDP_LINK_COLLECTION_NODE structure
@@ -135,11 +135,11 @@ The <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkColle
 
 ## -see-also
 
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
 <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
 
 <a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
-
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
  
 

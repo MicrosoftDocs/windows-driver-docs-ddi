@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestGetStatus, WdfRequestGetStatus method, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, wdf.wdfrequestgetstatus, PFN_WDFREQUESTGETSTATUS, kmdf.wdfrequestgetstatus, WdfRequestGetStatus
+ms.keywords: wdf.wdfrequestgetstatus, WdfRequestGetStatus method, kmdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus, WdfRequestGetStatus, PFN_WDFREQUESTGETSTATUS, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,9 +112,9 @@ For more information about request completion, see <a href="https://docs.microso
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
  
 

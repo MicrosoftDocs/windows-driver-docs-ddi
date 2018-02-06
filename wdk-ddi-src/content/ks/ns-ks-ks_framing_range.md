@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3263b290-2966-4e19-9828-b91e7b2efa55
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_FRAMING_RANGE, PKS_FRAMING_RANGE, ks/KS_FRAMING_RANGE, PKS_FRAMING_RANGE structure pointer [Streaming Media Devices], ks/PKS_FRAMING_RANGE, ks-struct_a489de91-e530-4185-9344-0ab4fe426cc8.xml, KS_FRAMING_RANGE structure [Streaming Media Devices], stream.ks_framing_range, *PKS_FRAMING_RANGE
+ms.keywords: ks/PKS_FRAMING_RANGE, ks/KS_FRAMING_RANGE, KS_FRAMING_RANGE, stream.ks_framing_range, ks-struct_a489de91-e530-4185-9344-0ab4fe426cc8.xml, PKS_FRAMING_RANGE, *PKS_FRAMING_RANGE, KS_FRAMING_RANGE structure [Streaming Media Devices], PKS_FRAMING_RANGE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_FRAMING_RANGE
 product: Windows
 targetos: Windows
-req.typenames: KS_FRAMING_RANGE, *PKS_FRAMING_RANGE
+req.typenames: "*PKS_FRAMING_RANGE, KS_FRAMING_RANGE"
 ---
 
 # KS_FRAMING_RANGE structure
@@ -93,11 +93,11 @@ When specifying the <b>Stepping</b> member, ensure that the value does not excee
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
-
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 <a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
+
+<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
  
 

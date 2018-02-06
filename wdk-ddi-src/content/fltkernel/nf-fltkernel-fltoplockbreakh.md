@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltOplockBreakH, ifsk.fltoplockbreakh, FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, fltkernel/FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers]
+ms.keywords: FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH routine [Installable File System Drivers], ifsk.fltoplockbreakh, fltkernel/FltOplockBreakH, FltOplockBreakH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -227,11 +227,11 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreakh~r5.md">FsRtlOplockBreakH</a>
 
  
 

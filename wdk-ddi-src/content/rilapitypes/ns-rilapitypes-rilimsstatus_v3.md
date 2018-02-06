@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ae2e97d-d055-412f-a219-258780319797
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilimsstatus_v3_2, *LPRILIMSSTATUS_V3, *LPRILIMSSTATUS, rilapitypes/RILIMSSTATUS_V3, RILIMSSTATUS_V3, RILIMSSTATUS, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilimsstatus_v3_2, *LPRILIMSSTATUS, RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILIMSSTATUS_V3, *LPRILIMSSTATUS_V3, RILIMSSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILIMSSTATUS_V3
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, RILIMSSTATUS, RILIMSSTATUS_V3"
+req.typenames: RILIMSSTATUS, *LPRILIMSSTATUS_V3, *LPRILIMSSTATUS, RILIMSSTATUS_V3
 req.product: Windows 10 or later.
 ---
 

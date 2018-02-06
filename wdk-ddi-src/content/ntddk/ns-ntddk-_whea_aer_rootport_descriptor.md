@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 0c92e8d5-eb98-4789-a221-ebf891cd3876
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_AER_ROOTPORT_DESCRIPTOR, *PWHEA_AER_ROOTPORT_DESCRIPTOR, _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml, PWHEA_AER_ROOTPORT_DESCRIPTOR
+ms.keywords: WHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR, _WHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], *PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml, whea.whea_aer_rootport_descriptor, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,31 +133,6 @@ An AER_ROOTPORT_DESCRIPTOR_FLAGS union that indicates which of the members of th
 </table></span></div>
 
 
-#### AdvancedCapsAndControlRW
-
-A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
-#### AsUSHORT
-
-A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
-
-
-#### CorrectableErrorMaskRW
-
-A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
-#### Reserved
-
-Reserved for system use.
-
-
-#### RootErrorCommandRW
-
-A single bit that indicates that the operating system can write to the <b>RootErrorCommand</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
-
-
 #### UncorrectableErrorMaskRW
 
 A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
@@ -166,6 +141,31 @@ A single bit that indicates that the operating system can write to the <b>Uncorr
 #### UncorrectableErrorSeverityRW
 
 A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity </b>member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### CorrectableErrorMaskRW
+
+A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### AdvancedCapsAndControlRW
+
+A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### RootErrorCommandRW
+
+A single bit that indicates that the operating system can write to the <b>RootErrorCommand</b> member of the WHEA_AER_ROOTPORT_DESCRIPTOR structure.
+
+
+#### Reserved
+
+Reserved for system use.
+
+
+#### AsUSHORT
+
+A USHORT representation of the contents of the AER_ROOTPORT_DESCRIPTOR_FLAGS union.
 
 
 ### -field UncorrectableErrorMask
@@ -202,9 +202,9 @@ A WHEA_AER_ROOTPORT_DESCRIPTOR structure is contained within the <a href="..\ntd
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
 
  
 

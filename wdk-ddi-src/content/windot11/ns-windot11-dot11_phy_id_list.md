@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PHY_ID_LIST, windot11/DOT11_PHY_ID_LIST, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PHY_ID_LIST, netvista.dot11_phy_id_list, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, *PDOT11_PHY_ID_LIST, windot11/PDOT11_PHY_ID_LIST
+ms.keywords: "*PDOT11_PHY_ID_LIST, windot11/DOT11_PHY_ID_LIST, Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_phy_id_list, PDOT11_PHY_ID_LIST, windot11/PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,6 +86,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
@@ -95,11 +100,6 @@ This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
 
 This member must be set to 
        sizeof(DOT11_PHY_ID_LIST).
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field uNumOfEntries

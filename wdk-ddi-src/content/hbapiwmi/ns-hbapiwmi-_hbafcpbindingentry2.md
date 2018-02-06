@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hbafcpbindingentry2, HBAFCPBindingEntry2 structure [Storage Devices], structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, hbapiwmi/PHBAFCPBindingEntry2, HBAFCPBindingEntry2, _HBAFCPBindingEntry2, PHBAFCPBindingEntry2 structure pointer [Storage Devices], PHBAFCPBindingEntry2, hbapiwmi/HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
+ms.keywords: PHBAFCPBindingEntry2, hbapiwmi/PHBAFCPBindingEntry2, HBAFCPBindingEntry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml, storage.hbafcpbindingentry2, *PHBAFCPBindingEntry2, hbapiwmi/HBAFCPBindingEntry2, _HBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], PHBAFCPBindingEntry2 structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAFCPBindingEntry2
 product: Windows
 targetos: Windows
-req.typenames: "*PHBAFCPBindingEntry2, HBAFCPBindingEntry2"
+req.typenames: HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
 ---
 
 # _HBAFCPBindingEntry2 structure

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 59d1a9b0-a4d0-4a24-aa2f-2167b0f53caa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_object_header, ntddndis/PNDIS_OBJECT_HEADER, ntddndis/NDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_OBJECT_HEADER, _NDIS_OBJECT_HEADER, PNDIS_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OBJECT_HEADER, ndis_object_ref_c4593f06-bd96-4bbe-8e94-d8b7b1cf413b.xml, NDIS_OBJECT_HEADER
+ms.keywords: "*PNDIS_OBJECT_HEADER, ntddndis/NDIS_OBJECT_HEADER, ntddndis/PNDIS_OBJECT_HEADER, ndis_object_ref_c4593f06-bd96-4bbe-8e94-d8b7b1cf413b.xml, PNDIS_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OBJECT_HEADER, _NDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], netvista.ndis_object_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_OBJECT_HEADER
 product: Windows
 targetos: Windows
-req.typenames: NDIS_OBJECT_HEADER, *PNDIS_OBJECT_HEADER
+req.typenames: "*PNDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER"
 ---
 
 # _NDIS_OBJECT_HEADER structure

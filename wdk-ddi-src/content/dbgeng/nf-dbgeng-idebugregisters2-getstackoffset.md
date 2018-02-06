@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7368a2d6-fea3-411e-85d9-c09764bb3b8e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetStackOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2::GetStackOffset, debugger.getstackoffset, GetStackOffset, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, IDebugRegisters2, dbgeng/IDebugRegisters2::GetStackOffset, GetStackOffset method [Windows Debugging], GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters::GetStackOffset
+ms.keywords: GetStackOffset method [Windows Debugging], IDebugRegisters::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters interface, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, debugger.getstackoffset, dbgeng/IDebugRegisters2::GetStackOffset, IDebugRegisters2::GetStackOffset, IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, IDebugRegisters2, GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetStackOffset
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetStackOffset method

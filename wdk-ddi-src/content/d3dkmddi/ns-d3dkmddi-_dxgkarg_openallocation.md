@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cddb85c7-137c-4ceb-b53c-170ce020cea1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, DXGKARG_OPENALLOCATION structure [Display Devices], _DXGKARG_OPENALLOCATION, d3dkmddi/DXGKARG_OPENALLOCATION, display.dxgkarg_openallocation, DXGKARG_OPENALLOCATION
+ms.keywords: DXGKARG_OPENALLOCATION structure [Display Devices], DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, _DXGKARG_OPENALLOCATION, d3dkmddi/DXGKARG_OPENALLOCATION, display.dxgkarg_openallocation, DXGKARG_OPENALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,13 +128,13 @@ The pitch, in bytes, of the allocation—that is, the distance, in bytes, to the
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationflags.md">DXGK_OPENALLOCATIONFLAGS</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationflags.md">DXGK_OPENALLOCATIONFLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
 

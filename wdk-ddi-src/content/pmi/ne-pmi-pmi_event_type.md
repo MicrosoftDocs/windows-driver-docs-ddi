@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PmiCapabilitiesChangedEvent, PmiThresholdEvent, pmi/PmiConfigurationChangedEvent, pmi/PMI_EVENT_TYPE, PmiEventMax, powermeter.pmi_event_type, PmiAveragingIntervalChangedEvent, pmi/PmiEventMax, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, PMI_EVENT_TYPE, pmi/PmiAveragingIntervalChangedEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiThresholdEvent, PmiBudgetEvent, pmi/PmiBudgetEvent
+ms.keywords: PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PmiCapabilitiesChangedEvent, pmi/PmiThresholdEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiConfigurationChangedEvent, pmi/PmiAveragingIntervalChangedEvent, PmiEventMax, PMI_EVENT_TYPE, PmiThresholdEvent, PmiBudgetEvent, PmiConfigurationChangedEvent, powermeter.pmi_event_type, PmiCapabilitiesChangedEvent, pmi/PmiBudgetEvent, pmi/PMI_EVENT_TYPE, pmi/PmiEventMax, PmiAveragingIntervalChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,9 +111,9 @@ The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVE
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
-
 <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
  
 

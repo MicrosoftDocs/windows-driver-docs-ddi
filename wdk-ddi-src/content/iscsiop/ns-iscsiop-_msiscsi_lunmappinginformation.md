@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, _MSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], iscsiop/PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], iscsiop/MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation
+ms.keywords: iscsiop/PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, PMSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, _MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_LUNMappingInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation"
+req.typenames: MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
 ---
 
 # _MSiSCSI_LUNMappingInformation structure
@@ -105,15 +105,15 @@ You must implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
+
+<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
  
 

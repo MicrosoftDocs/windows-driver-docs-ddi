@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16A4B49B-9912-40BE-80E8-68416B966B71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_DATA_RATE_ENTRY, _WDI_DATA_RATE_ENTRY, *PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY, wditypes/WDI_DATA_RATE_ENTRY, wditypes/PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY structure pointer [Device and Driver Installation], WDI_DATA_RATE_ENTRY structure [Device and Driver Installation], netvista.wdi_data_rate_entry, netvista.wifi_data_rate_entry
+ms.keywords: wditypes/WDI_DATA_RATE_ENTRY, WDI_DATA_RATE_ENTRY structure [Device and Driver Installation], netvista.wifi_data_rate_entry, PWDI_DATA_RATE_ENTRY, wditypes/PWDI_DATA_RATE_ENTRY, PWDI_DATA_RATE_ENTRY structure pointer [Device and Driver Installation], _WDI_DATA_RATE_ENTRY, *PWDI_DATA_RATE_ENTRY, netvista.wdi_data_rate_entry, WDI_DATA_RATE_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_DATA_RATE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_DATA_RATE_ENTRY, WDI_DATA_RATE_ENTRY"
+req.typenames: WDI_DATA_RATE_ENTRY, *PWDI_DATA_RATE_ENTRY
 req.product: Windows 10 or later.
 ---
 

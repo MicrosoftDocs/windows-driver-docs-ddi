@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], miniport/EMULATOR_ACCESS_ENTRY, miniport/PEMULATOR_ACCESS_ENTRY, _EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, *PEMULATOR_ACCESS_ENTRY, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices]
+ms.keywords: miniport/EMULATOR_ACCESS_ENTRY, _EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, PEMULATOR_ACCESS_ENTRY, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, *PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], miniport/PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	EMULATOR_ACCESS_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY"
+req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---
 
 # _EMULATOR_ACCESS_ENTRY structure
@@ -124,13 +124,13 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 <a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
  
 

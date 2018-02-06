@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed13ab7a-b287-42e1-af47-fd8f06305cae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_314b08e6-e579-4faa-b009-e12ad8f946bc.xml, storage.scsiportwriteportbufferulong, ScsiPortWritePortBufferUlong, srb/ScsiPortWritePortBufferUlong, ScsiPortWritePortBufferUlong routine [Storage Devices]
+ms.keywords: storage.scsiportwriteportbufferulong, srb/ScsiPortWritePortBufferUlong, scsiprt_314b08e6-e579-4faa-b009-e12ad8f946bc.xml, ScsiPortWritePortBufferUlong, ScsiPortWritePortBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortWritePortBufferUlong
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

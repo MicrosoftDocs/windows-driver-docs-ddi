@@ -7,8 +7,8 @@ old-location: print\iprintoemuni3_downloadpattern.htm
 old-project: print
 ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemUni3::DownloadPattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, print.iprintoemuni3_downloadpattern, DownloadPattern method [Print Devices], IPrintOemUni3, DownloadPattern, DownloadPattern method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices], DownloadPattern method, IPrintOemUni3::DownloadPattern
+ms.date: 2/2/2018
+ms.keywords: DownloadPattern method [Print Devices], print.iprintoemuni3_downloadpattern, IPrintOemUni3, DownloadPattern method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices], DownloadPattern method, prcomoem/IPrintOemUni3::DownloadPattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, IPrintOemUni3::DownloadPattern, DownloadPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni3.DownloadPattern
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -109,5 +109,5 @@ You should implement this method if you want your rendering plug-in, rather than
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni3::DownloadPattern method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni3::DownloadPattern method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 006e2cef-4e49-4819-bfce-d9bf5983643e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDO_STATE_STARTED, ehstorioctl/PDO_STATE_STARTED, PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_NOT_STARTED, _PDO_STATE, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml, ehstorioctl/PDO_STATE_UNDEFINED, PDO_STATE_UNDEFINED, PDO_STATE, ehstorioctl/PDO_STATE, PDO_STATE enumeration [Storage Devices], storage.pdo_state
+ms.keywords: ehstorioctl/PDO_STATE, storage.pdo_state, ehstorioctl/PDO_STATE_NOT_STARTED, _PDO_STATE, ehstorioctl/PDO_STATE_UNDEFINED, PDO_STATE, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml, PDO_STATE enumeration [Storage Devices], ehstorioctl/PDO_STATE_STARTED, PDO_STATE_STARTED, PDO_STATE_UNDEFINED, PDO_STATE_NOT_STARTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

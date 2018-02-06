@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6a005ff3-951f-462d-84e6-e1fd931c5afc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml, _URB_CONTROL_GET_STATUS_REQUEST, buses._urb_control_get_status_request, usb/_URB_CONTROL_GET_STATUS_REQUEST, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses]
+ms.keywords: "_URB_CONTROL_GET_STATUS_REQUEST, usb/_URB_CONTROL_GET_STATUS_REQUEST, usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses], buses._urb_control_get_status_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,9 +159,9 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 

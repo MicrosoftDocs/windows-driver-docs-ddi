@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_INCOMING_ASSOC_DECISION, windot11/PDOT11_INCOMING_ASSOC_DECISION, Type, Size, *PDOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, Revision, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, _DOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_DECISION, windot11/DOT11_INCOMING_ASSOC_DECISION
+ms.keywords: DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], Revision, _DOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_INCOMING_ASSOC_DECISION, Size, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, windot11/PDOT11_INCOMING_ASSOC_DECISION, Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_INCOMING_ASSOC_DECISION
 product: Windows
 targetos: Windows
-req.typenames: DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION
+req.typenames: "*PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION"
 req.product: Windows 10 or later.
 ---
 

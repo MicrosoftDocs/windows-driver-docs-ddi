@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C56D6CD8-7D23-4DA7-9241-F72ADBDD2770
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_UCHAR function, wdf.write_register_uchar, WRITE_REGISTER_UCHAR, wudfddi_hwaccess/WRITE_REGISTER_UCHAR, umdf.write_register_uchar
+ms.keywords: WRITE_REGISTER_UCHAR function, wudfddi_hwaccess/WRITE_REGISTER_UCHAR, umdf.write_register_uchar, wdf.write_register_uchar, WRITE_REGISTER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_REGISTER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

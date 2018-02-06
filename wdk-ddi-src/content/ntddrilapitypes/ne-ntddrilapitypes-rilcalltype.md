@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd6b9e57-f50b-4743-9c51-066940aad200
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_CALLTYPE_DATA, ntddrilapitypes/RIL_CALLTYPE_USSD, RIL_CALLTYPE_MAX, RIL_CALLTYPE_IMS, ntddrilapitypes/RIL_CALLTYPE_IMS, RIL_CALLTYPE_DATA, ntddrilapitypes/RILCALLTYPE, ntddrilapitypes/RIL_CALLTYPE_SUPSVC, ntddrilapitypes/RIL_CALLTYPE_FAX, RIL_CALLTYPE_VOICE, RIL_CALLTYPE_VT, RIL_CALLTYPE_FAX, ntddrilapitypes/RIL_CALLTYPE_VT, ntddrilapitypes/RIL_CALLTYPE_PTT, ntddrilapitypes/RIL_CALLTYPE_MAX, RILCALLTYPE, netvista.rilcalltype, RIL_CALLTYPE_SUPSVC, RILCALLTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLTYPE_PTT, RIL_CALLTYPE_USSD, ntddrilapitypes/RIL_CALLTYPE_VOICE
+ms.keywords: RIL_CALLTYPE_MAX, RIL_CALLTYPE_PTT, ntddrilapitypes/RIL_CALLTYPE_PTT, RIL_CALLTYPE_SUPSVC, ntddrilapitypes/RIL_CALLTYPE_SUPSVC, RIL_CALLTYPE_IMS, RIL_CALLTYPE_FAX, RILCALLTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLTYPE_FAX, ntddrilapitypes/RIL_CALLTYPE_DATA, ntddrilapitypes/RIL_CALLTYPE_IMS, RIL_CALLTYPE_VT, netvista.rilcalltype, RIL_CALLTYPE_VOICE, RIL_CALLTYPE_USSD, ntddrilapitypes/RIL_CALLTYPE_MAX, ntddrilapitypes/RIL_CALLTYPE_VT, RIL_CALLTYPE_DATA, ntddrilapitypes/RIL_CALLTYPE_VOICE, ntddrilapitypes/RILCALLTYPE, RILCALLTYPE, ntddrilapitypes/RIL_CALLTYPE_USSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

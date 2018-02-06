@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1b8a3181-45eb-4c35-9ccc-d6fe1f7ca92c
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/L2CAP_CONFIG_VALUE_RANGE, _L2CAP_FLOWSPEC, L2CAP_FLOWSPEC structure [Bluetooth Devices], PL2CAP_FLOWSPEC structure pointer [Bluetooth Devices], L2CAP_FLOWSPEC, bltooth.l2cap_flowspec, L2CAP_FLOWSPEC Structure, bthddi/PL2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC, bth_structs_2d7077bd-6328-4d54-9238-f463fad371d6.xml, PL2CAP_FLOWSPEC, L2CAP_FLOWSPEC Structure structure [Bluetooth Devices]
+ms.keywords: bthddi/L2CAP_CONFIG_VALUE_RANGE, L2CAP_FLOWSPEC structure [Bluetooth Devices], PL2CAP_FLOWSPEC, L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC, bltooth.l2cap_flowspec, _L2CAP_FLOWSPEC, PL2CAP_FLOWSPEC structure pointer [Bluetooth Devices], L2CAP_FLOWSPEC Structure structure [Bluetooth Devices], L2CAP_FLOWSPEC Structure, bthddi/PL2CAP_FLOWSPEC, bth_structs_2d7077bd-6328-4d54-9238-f463fad371d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	L2CAP_FLOWSPEC
 product: Windows
 targetos: Windows
-req.typenames: L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC
+req.typenames: "*PL2CAP_FLOWSPEC, L2CAP_FLOWSPEC"
 ---
 
 # _L2CAP_FLOWSPEC structure

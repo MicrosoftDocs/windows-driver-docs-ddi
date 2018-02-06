@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetbootdiskinformation, IoGetBootDiskInformation, wdm/IoGetBootDiskInformation, k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], kernel.iogetbootdiskinformation, IoGetBootDiskInformation, wdm/IoGetBootDiskInformation, k104_11afe919-6902-4f53-9006-57cc4be126f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,9 +140,9 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
-<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
-
 <a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
+
+<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
 
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
 

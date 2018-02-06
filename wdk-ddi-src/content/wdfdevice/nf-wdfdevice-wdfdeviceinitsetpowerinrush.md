@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush method, wdf.wdfdeviceinitsetpowerinrush, WdfDeviceInitSetPowerInrush, wdfdevice/WdfDeviceInitSetPowerInrush, kmdf.wdfdeviceinitsetpowerinrush, PFN_WDFDEVICEINITSETPOWERINRUSH
+ms.keywords: kmdf.wdfdeviceinitsetpowerinrush, WdfDeviceInitSetPowerInrush, PFN_WDFDEVICEINITSETPOWERINRUSH, wdfdevice/WdfDeviceInitSetPowerInrush, DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush method, wdf.wdfdeviceinitsetpowerinrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

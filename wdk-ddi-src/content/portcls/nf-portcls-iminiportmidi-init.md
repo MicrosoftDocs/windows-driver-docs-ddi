@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2afec522-5a40-4db2-9f37-ee7a9b64e823
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportMidi::Init, Init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, portcls/IMiniportMidi::Init, Init method [Audio Devices], audio.iminiportmidi_init, Init method [Audio Devices], IMiniportMidi interface, IMiniportMidi interface [Audio Devices], Init method, IMiniportMidi
+ms.keywords: IMiniportMidi::Init, portcls/IMiniportMidi::Init, Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportMidi interface, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, IMiniportMidi, IMiniportMidi interface [Audio Devices], Init method, audio.iminiportmidi_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,17 +120,17 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
+<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 

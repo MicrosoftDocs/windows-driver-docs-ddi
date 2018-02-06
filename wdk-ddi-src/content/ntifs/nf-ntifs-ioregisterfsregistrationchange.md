@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 132951ef-7bb3-417e-a7b7-eb21f08aa846
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange, ntifs/IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml
+ms.keywords: IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange, IoRegisterFsRegistrationChange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, ntifs/IoRegisterFsRegistrationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,11 +131,11 @@ To stop receiving such notifications, the filter driver should call <a href="..\
 
 <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
+<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
+
 <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-
-<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Complete, wdf.iwdfiorequest_complete, IWDFIoRequest::Complete, IWDFIoRequest interface, Complete method, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, wudfddi/IWDFIoRequest::Complete, Complete method, umdf.iwdfiorequest_complete, Complete method, IWDFIoRequest interface, IWDFIoRequest
+ms.keywords: wdf.iwdfiorequest_complete, wudfddi/IWDFIoRequest::Complete, Complete, IWDFIoRequest, Complete method, IWDFIoRequest interface, Complete method, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, umdf.iwdfiorequest_complete, IWDFIoRequest::Complete, IWDFIoRequest interface, Complete method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.Complete
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

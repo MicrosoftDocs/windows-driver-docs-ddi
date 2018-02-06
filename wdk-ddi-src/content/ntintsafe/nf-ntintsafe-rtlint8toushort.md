@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E0756361-CC11-4C24-9230-666836462BEF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8ToUShort, kernel.rtlint8toushort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], RtlInt8ToUShort
+ms.keywords: kernel.rtlint8toushort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], RtlInt8ToUShort, ntintsafe/RtlInt8ToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

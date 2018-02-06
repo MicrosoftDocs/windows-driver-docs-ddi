@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetRoutineAddress, FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, ifsk.fltgetroutineaddress, FltGetRoutineAddress routine [Installable File System Drivers], fltkernel/FltGetRoutineAddress
+ms.keywords: FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, ifsk.fltgetroutineaddress, FltGetRoutineAddress routine [Installable File System Drivers], fltkernel/FltGetRoutineAddress, FltGetRoutineAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ufxbase/UFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], *PUFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], PUFX_DEVICE_CAPABILITIES, ufxbase/PUFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities
+ms.keywords: buses.ufx_device_capabilities, UFX_DEVICE_CAPABILITIES, ufxbase/PUFX_DEVICE_CAPABILITIES, _UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], ufxbase/UFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

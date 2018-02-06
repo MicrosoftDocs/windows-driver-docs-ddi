@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], _WWAN_AUTH_METHOD, WwanAuthAka, wwan/WwanAuthMethodMax, netvista.wwan_auth_method, *PWWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAkaPrime, WwanAuthAkaPrime, WwanAuthMethodMax, WwanAuthSim, WWAN_AUTH_METHOD, wwan/WwanAuthAka, wwan/WwanAuthSim
+ms.keywords: wwan/WwanAuthSim, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthMethodMax, netvista.wwan_auth_method, wwan/WwanAuthAka, *PWWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, WwanAuthSim, WwanAuthAka, WwanAuthAkaPrime, WWAN_AUTH_METHOD, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, _WWAN_AUTH_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,9 +100,9 @@ The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> an
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
-
 <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
+
+<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
 
  
 

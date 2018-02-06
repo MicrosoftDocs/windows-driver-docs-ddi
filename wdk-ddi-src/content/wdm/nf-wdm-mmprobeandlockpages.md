@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages, k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages
+ms.keywords: MmProbeAndLockPages, kernel.mmprobeandlockpages, k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, wdm/MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

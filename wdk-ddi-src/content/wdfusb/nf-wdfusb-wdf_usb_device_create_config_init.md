@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 01053A65-45A4-4232-A9F2-1651DC820026
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_device_create_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT, kmdf.wdf_usb_device_create_config_init, kmdf.wdf_usbtarget_device_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT function, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT
+ms.keywords: wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT, kmdf.wdf_usb_device_create_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT function, kmdf.wdf_usbtarget_device_config_init, wdf.wdf_usb_device_create_config_init, WDF_USB_DEVICE_CREATE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

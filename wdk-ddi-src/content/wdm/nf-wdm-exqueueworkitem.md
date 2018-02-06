@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 287affe1-c5d4-4b36-8017-d1fef6088cf8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ExQueueWorkItem, exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ExQueueWorkItem routine [Installable File System Drivers], ifsk.exqueueworkitem, wdm/ExQueueWorkItem
+ms.keywords: ifsk.exqueueworkitem, ExQueueWorkItem routine [Installable File System Drivers], wdm/ExQueueWorkItem, exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ExQueueWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,9 +141,7 @@ If the callback runs in the system thread with a variable priority attribute, th
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
-
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
 
 <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
 
@@ -151,7 +149,9 @@ If the callback runs in the system thread with a variable priority attribute, th
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointercanceltimeout, avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices]
+ms.keywords: stream.ksstreampointercanceltimeout, avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, KsStreamPointerCancelTimeout, ks/KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProcEx, wiamdef/CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface
+ms.keywords: CWiaLogProcEx method [Imaging Devices], image.cwialogprocex_cwialogprocex, CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, CWiaLogProcEx, wiamdef/CWiaLogProcEx::CWiaLogProcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	CWiaLogProcEx.CWiaLogProcEx
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

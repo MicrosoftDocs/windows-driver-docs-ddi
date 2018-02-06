@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 357C62F3-43FE-4132-9233-7BFAD2CE95C5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PUSB_CYCLE_PORT_PARAMS, _USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS, usbioctl/USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], PUSB_CYCLE_PORT_PARAMS, usbioctl/PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], buses.usb_cycle_port_params"
+ms.keywords: "_USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], buses.usb_cycle_port_params, usbioctl/PUSB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], usbioctl/USB_CYCLE_PORT_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

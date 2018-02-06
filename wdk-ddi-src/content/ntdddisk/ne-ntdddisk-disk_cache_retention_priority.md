@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: KeepReadData, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], ntdddisk/EqualPriority, KeepPrefetchedData, EqualPriority, ntdddisk/KeepReadData, ntdddisk/KeepPrefetchedData, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, storage.disk_cache_retention_priority
+ms.keywords: storage.disk_cache_retention_priority, ntdddisk/EqualPriority, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], KeepPrefetchedData, ntdddisk/KeepPrefetchedData, ntdddisk/KeepReadData, DISK_CACHE_RETENTION_PRIORITY, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, KeepReadData, EqualPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

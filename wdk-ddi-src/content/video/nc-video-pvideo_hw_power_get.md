@@ -40,7 +40,7 @@ apiname:
 -	HwVidGetPowerState
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -138,11 +138,11 @@ This function must not return the current power state of the device.
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
 
  
 

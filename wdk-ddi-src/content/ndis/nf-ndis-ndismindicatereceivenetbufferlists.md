@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, ndis/NdisMIndicateReceiveNetBufferLists, netvista.ndismindicatereceivenetbufferlists, NdisMIndicateReceiveNetBufferLists, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, netvista.ndismindicatereceivenetbufferlists, ndis/NdisMIndicateReceiveNetBufferLists, NdisMIndicateReceiveNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,18 +115,6 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
 
-#### NDIS_RECEIVE_FLAGS_MORE_NBLS
-
-Reserved.
-
-
-#### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
-
-Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
-       assigned to the miniport adapter.
-
-
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
 Specifies that the miniport driver reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and any
@@ -134,21 +122,23 @@ Specifies that the miniport driver reclaims ownership of the <a href="..\ndis\ns
        <b>NdisMIndicateReceiveNetBufferLists</b> returns.
 
 
-#### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
-
-Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> contain shared memory information that is valid. When this flag is set on a
-       received <b>NET_BUFFER_LIST</b>, NDIS treats the shared memory information as valid. When this flag is not
-       set, NDIS and drivers ignore the shared memory information. For example, intermediate drivers that
-       modify packet data can use this flag to determine if data should be copied. Miniport drivers can use
-       the flag to determine how to free the memory that is associated with a VM queue when a queue is
-       deleted.
-
-
 #### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
 Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> have the same protocol type (EtherType).
+
+
+#### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
+
+Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> belong to the same VLAN.
+
+
+#### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
+
+Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
+       assigned to the miniport adapter.
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
@@ -162,10 +152,20 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        NDIS_RECEIVE_QUEUE_PARAMETERS</a> structure when that queue was allocated.
 
 
-#### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
+#### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
-Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> belong to the same VLAN.
+Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> contain shared memory information that is valid. When this flag is set on a
+       received <b>NET_BUFFER_LIST</b>, NDIS treats the shared memory information as valid. When this flag is not
+       set, NDIS and drivers ignore the shared memory information. For example, intermediate drivers that
+       modify packet data can use this flag to determine if data should be copied. Miniport drivers can use
+       the flag to determine how to free the memory that is associated with a VM queue when a queue is
+       deleted.
+
+
+#### NDIS_RECEIVE_FLAGS_MORE_NBLS
+
+Reserved.
 
 
 #### - NetBufferLists [in]
@@ -235,23 +235,23 @@ The caller of
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
    MiniportReturnNetBufferLists</a>
 
-<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-   ProtocolReceiveNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
 
  
 

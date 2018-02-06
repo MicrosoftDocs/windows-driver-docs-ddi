@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8E005C77-4234-4B32-90F2-E4A8A7CD6305
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_client_config, NFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, _NFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG, nfccx/_NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers]
+ms.keywords: nfpdrivers.nfc_cx_client_config, _NFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], nfccx/_NFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], NFC_CX_CLIENT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

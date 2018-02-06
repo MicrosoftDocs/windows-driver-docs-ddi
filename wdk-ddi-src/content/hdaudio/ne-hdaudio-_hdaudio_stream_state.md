@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A1029A2D-980F-44F5-B7D6-1C37F97D0368
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PauseState, hdaudio/PauseState, HDAUDIO_STREAM_STATE enumeration [Audio Devices], hdaudio/RunState, ResetState, audio.hdaudio_stream_state, hdaudio/HDAUDIO_STREAM_STATE, StopState, *PHDAUDIO_STREAM_STATE, _HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, hdaudio/StopState, hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/ResetState, PHDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], RunState
+ms.keywords: hdaudio/RunState, PHDAUDIO_STREAM_STATE, RunState, HDAUDIO_STREAM_STATE, StopState, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/ResetState, ResetState, HDAUDIO_STREAM_STATE enumeration [Audio Devices], hdaudio/StopState, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PauseState, *PHDAUDIO_STREAM_STATE, _HDAUDIO_STREAM_STATE, audio.hdaudio_stream_state, PauseState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_STREAM_STATE
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE
+req.typenames: "*PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE"
 ---
 
 # _HDAUDIO_STREAM_STATE enumeration

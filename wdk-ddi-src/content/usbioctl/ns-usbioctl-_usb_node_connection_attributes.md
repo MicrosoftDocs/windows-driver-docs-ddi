@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 893dc1f2-785e-434e-88c7-9bbf2f1c4ad6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.usb_node_connection_attributes, USB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml, *PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES, _USB_NODE_CONNECTION_ATTRIBUTES
+ms.keywords: USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], USB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, PUSB_NODE_CONNECTION_ATTRIBUTES, _USB_NODE_CONNECTION_ATTRIBUTES, *PUSB_NODE_CONNECTION_ATTRIBUTES, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_NODE_CONNECTION_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES"
+req.typenames: USB_NODE_CONNECTION_ATTRIBUTES, *PUSB_NODE_CONNECTION_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -93,11 +93,11 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 ## -see-also
 
+<a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_attributes.md">IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES</a>
-
-<a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
 
  
 

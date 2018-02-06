@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B3D4AE97-9CDB-425D-A04B-E164852FDF19
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::PushOutputLinePrefixWide, IDebugClient5
+ms.keywords: dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide, PushOutputLinePrefixWide, IDebugClient5, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5::PushOutputLinePrefixWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.PushOutputLinePrefixWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::PushOutputLinePrefixWide method

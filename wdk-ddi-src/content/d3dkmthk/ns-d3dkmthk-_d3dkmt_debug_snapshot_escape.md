@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5aa4829-6264-444c-b8e6-23854cb87534
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure [Display Devices], d3dkmthk/D3DKMT_DEBUG_SNAPSHOT_ESCAPE, _D3DKMT_DEBUG_SNAPSHOT_ESCAPE, OpenGL_Structs_c8ece404-4d73-4d77-96c3-b2f5ceb94feb.xml, display.d3dkmt_debug_snapshot_escape, D3DKMT_DEBUG_SNAPSHOT_ESCAPE
+ms.keywords: D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure [Display Devices], _D3DKMT_DEBUG_SNAPSHOT_ESCAPE, display.d3dkmt_debug_snapshot_escape, OpenGL_Structs_c8ece404-4d73-4d77-96c3-b2f5ceb94feb.xml, d3dkmthk/D3DKMT_DEBUG_SNAPSHOT_ESCAPE, D3DKMT_DEBUG_SNAPSHOT_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,9 +84,9 @@ typedef struct _D3DKMT_DEBUG_SNAPSHOT_ESCAPE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
 
  
 

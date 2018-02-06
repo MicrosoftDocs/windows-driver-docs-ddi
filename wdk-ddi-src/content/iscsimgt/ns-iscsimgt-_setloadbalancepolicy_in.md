@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, _SetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN structure pointer [Storage Devices], *PSetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml, SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, storage.setloadbalancepolicy_in
+ms.keywords: PSetLoadBalancePolicy_IN structure pointer [Storage Devices], storage.setloadbalancepolicy_in, *PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN, _SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], iscsimgt/SetLoadBalancePolicy_IN, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

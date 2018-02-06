@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88BE0C4E-0607-48D6-B0E1-7B35BFD70AD4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE, pepfx/PEP_PPM_IDLE_EXECUTE, pepfx/PPEP_PPM_IDLE_EXECUTE, _PEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_execute, PEP_PPM_IDLE_EXECUTE"
+ms.keywords: PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], *PPEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE, pepfx/PEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE, kernel.pep_ppm_idle_execute, pepfx/PPEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_IDLE_EXECUTE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_IDLE_EXECUTE, *PPEP_PPM_IDLE_EXECUTE
+req.typenames: "*PPEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE"
 ---
 
 # _PEP_PPM_IDLE_EXECUTE structure

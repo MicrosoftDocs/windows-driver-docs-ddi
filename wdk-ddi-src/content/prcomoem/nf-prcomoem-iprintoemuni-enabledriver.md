@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_enabledriver.htm
 old-project: print
 ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml, EnableDriver method [Print Devices], IPrintOemUni interface, IPrintOemUni, EnableDriver method [Print Devices], EnableDriver, print.iprintoemuni_enabledriver, prcomoem/IPrintOemUni::EnableDriver, IPrintOemUni::EnableDriver, IPrintOemUni interface [Print Devices], EnableDriver method
+ms.date: 2/2/2018
+ms.keywords: IPrintOemUni interface [Print Devices], EnableDriver method, EnableDriver, print.iprintoemuni_enabledriver, IPrintOemUni, IPrintOemUni::EnableDriver, EnableDriver method [Print Devices], prcomoem/IPrintOemUni::EnableDriver, EnableDriver method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.EnableDriver
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

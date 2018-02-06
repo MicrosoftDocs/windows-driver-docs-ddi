@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e026a539-7aa5-4205-970d-cf452e4471da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSTIME, KSTIME, *PKSTIME, KSTIME structure [Streaming Media Devices], stream.kstime, PKSTIME structure pointer [Streaming Media Devices], ks/KSTIME, PKSTIME, ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml
+ms.keywords: ks/PKSTIME, KSTIME structure [Streaming Media Devices], stream.kstime, ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, *PKSTIME, KSTIME, ks/KSTIME, PKSTIME structure pointer [Streaming Media Devices], PKSTIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSTIME
 product: Windows
 targetos: Windows
-req.typenames: KSTIME, *PKSTIME
+req.typenames: "*PKSTIME, KSTIME"
 ---
 
 # KSTIME structure

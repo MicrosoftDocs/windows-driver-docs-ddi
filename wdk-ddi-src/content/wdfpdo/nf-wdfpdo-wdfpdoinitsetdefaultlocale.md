@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFPDOINITSETDEFAULTLOCALE, WdfPdoInitSetDefaultLocale method, kmdf.wdfpdoinitsetdefaultlocale, WdfPdoInitSetDefaultLocale, DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, wdfpdo/WdfPdoInitSetDefaultLocale, wdf.wdfpdoinitsetdefaultlocale
+ms.keywords: wdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale, kmdf.wdfpdoinitsetdefaultlocale, PFN_WDFPDOINITSETDEFAULTLOCALE, DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, WdfPdoInitSetDefaultLocale method, WdfPdoInitSetDefaultLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

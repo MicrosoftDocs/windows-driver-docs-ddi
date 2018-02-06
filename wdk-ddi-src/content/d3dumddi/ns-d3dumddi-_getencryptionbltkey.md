@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f481646-b665-46cb-b551-10515b8603c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_GETENCRYPTIONBLTKEY structure [Display Devices], _GETENCRYPTIONBLTKEY, D3DDDIARG_GETENCRYPTIONBLTKEY, D3DDDIARG_GETENCRYPTIONBLTKEY structure [Display Devices], display.d3dddiarg_getencryptionbltkey, UMDisplayDriver_param_Structs_ecaf1a03-2c4a-450e-a17a-2cc309e7c2e4.xml, d3dumddi/_GETENCRYPTIONBLTKEY"
+ms.keywords: d3dumddi/_GETENCRYPTIONBLTKEY, _GETENCRYPTIONBLTKEY structure [Display Devices], UMDisplayDriver_param_Structs_ecaf1a03-2c4a-450e-a17a-2cc309e7c2e4.xml, D3DDDIARG_GETENCRYPTIONBLTKEY, display.d3dddiarg_getencryptionbltkey, D3DDDIARG_GETENCRYPTIONBLTKEY structure [Display Devices], _GETENCRYPTIONBLTKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ typedef struct _GETENCRYPTIONBLTKEY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a>
 
  
 

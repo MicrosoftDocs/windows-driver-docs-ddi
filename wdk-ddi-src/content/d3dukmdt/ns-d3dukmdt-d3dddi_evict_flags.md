@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 443671F1-98F5-4F9F-900B-37E3E50770CE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], display.d3dddi_evict_flags, d3dukmdt/D3DDDI_EVICT_FLAGS
+ms.keywords: d3dukmdt/D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], display.d3dddi_evict_flags, D3DDDI_EVICT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,9 +96,9 @@ The consolidated value of the flags in the structure.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
 
  
 

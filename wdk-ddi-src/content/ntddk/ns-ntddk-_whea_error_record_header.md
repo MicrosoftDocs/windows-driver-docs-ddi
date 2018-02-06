@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, whea.whea_error_record_header, ntddk/WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications]
+ms.keywords: ntddk/WHEA_ERROR_RECORD_HEADER, whea.whea_error_record_header, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_RECORD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
+req.typenames: "*PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER"
 ---
 
 # _WHEA_ERROR_RECORD_HEADER structure
@@ -146,11 +146,6 @@ A GUID that identifies the notification mechanism by which an error condition is
 For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
 
 
-#### BOOT_NOTIFY_TYPE_GUID
-
-Boot Error Record (BOOT)
-
-
 #### CMC_NOTIFY_TYPE_GUID
 
 Corrected Machine Check (CMC)
@@ -161,14 +156,19 @@ Corrected Machine Check (CMC)
 Corrected Platform Error (CPE)
 
 
-#### INIT_NOTIFY_TYPE_GUID
-
-INIT Error Record (INIT)
-
-
 #### MCE_NOTIFY_TYPE_GUID
 
 Machine Check Exception (MCE)
+
+
+#### PCIe_NOTIFY_TYPE_GUID
+
+PCI Express (PCIe) Error
+
+
+#### INIT_NOTIFY_TYPE_GUID
+
+INIT Error Record (INIT)
 
 
 #### NMI_NOTIFY_TYPE_GUID
@@ -176,9 +176,9 @@ Machine Check Exception (MCE)
 Nonmaskable Interrupt (NMI)
 
 
-#### PCIe_NOTIFY_TYPE_GUID
+#### BOOT_NOTIFY_TYPE_GUID
 
-PCI Express (PCIe) Error
+Boot Error Record (BOOT)
 
 
 ### -field RecordId
@@ -209,9 +209,9 @@ A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The W
 </table></span></div>
 
 
-#### AsULONG
+#### Recovered
 
-A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
+A single bit that indicates that the operating system recovered from the error condition.
 
 
 #### PreviousError
@@ -219,9 +219,9 @@ A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS uni
 A single bit that indicates that the error condition occurred in a previous session of the operating system.
 
 
-#### Recovered
+#### Simulated
 
-A single bit that indicates that the operating system recovered from the error condition.
+A single bit that indicates that the error condition was simulated.
 
 
 #### Reserved
@@ -229,9 +229,9 @@ A single bit that indicates that the operating system recovered from the error c
 Reserved for system use.
 
 
-#### Simulated
+#### AsULONG
 
-A single bit that indicates that the error condition was simulated.
+A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
 
 
 ### -field PersistenceInfo
@@ -253,17 +253,17 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
 <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
 
  
 

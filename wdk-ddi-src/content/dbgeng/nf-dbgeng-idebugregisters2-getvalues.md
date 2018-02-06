@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d78c54a7-04a5-4c51-bf33-a5b7fb937897
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetValues method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetValues, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, GetValues method [Windows Debugging], GetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetValues, IDebugRegisters::GetValues, IDebugRegisters interface [Windows Debugging], GetValues method, GetValues, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues method, dbgeng/IDebugRegisters2::GetValues, debugger.getvalues
+ms.keywords: GetValues method [Windows Debugging], IDebugRegisters2 interface, GetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters::GetValues, IDebugRegisters2::GetValues, dbgeng/IDebugRegisters::GetValues, GetValues, GetValues method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetValues method, IDebugRegisters interface [Windows Debugging], GetValues method, IDebugRegisters_46e390ee-fd0c-4f5f-babc-d76c10ca2780.xml, IDebugRegisters2, debugger.getvalues, dbgeng/IDebugRegisters2::GetValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetValues
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetValues method
@@ -154,9 +154,9 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 

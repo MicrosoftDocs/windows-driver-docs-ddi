@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getcontextstacktrace, GetContextStackTrace method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetContextStackTrace method, IDebugControl4::GetContextStackTrace, dbgeng/IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, IDebugControl4, GetContextStackTrace
+ms.keywords: debugger.getcontextstacktrace, IDebugControl4, GetContextStackTrace, IDebugControl4::GetContextStackTrace, GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, IDebugControl4 interface [Windows Debugging], GetContextStackTrace method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetContextStackTrace
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetContextStackTrace method
@@ -150,13 +150,13 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
 
  
 

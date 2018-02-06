@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceReadFromHardware method, wdfdevice/WdfDeviceReadFromHardware, WdfDeviceReadFromHardware, PFN_WDFDEVICEREADFROMHARDWARE, wdfhwaccess/WdfDeviceReadFromHardware, wdf.wdfdevicereadfromhardware
+ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, wdf.wdfdevicereadfromhardware, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdfhwaccess/WdfDeviceReadFromHardware, wdfdevice/WdfDeviceReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

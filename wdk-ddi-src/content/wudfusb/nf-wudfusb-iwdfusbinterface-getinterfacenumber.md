@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de8de14a-94a8-49e2-912a-9c174f5a2c74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface, GetInterfaceNumber, umdf.iwdfusbinterface_getinterfacenumber, wdf.iwdfusbinterface_getinterfacenumber, GetInterfaceNumber method, GetInterfaceNumber method, IWDFUsbInterface interface, IWDFUsbInterface interface, GetInterfaceNumber method, wudfusb/IWDFUsbInterface::GetInterfaceNumber, IWDFUsbInterface::GetInterfaceNumber, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml
+ms.keywords: IWDFUsbInterface, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, IWDFUsbInterface::GetInterfaceNumber, GetInterfaceNumber, wudfusb/IWDFUsbInterface::GetInterfaceNumber, wdf.iwdfusbinterface_getinterfacenumber, IWDFUsbInterface interface, GetInterfaceNumber method, GetInterfaceNumber method, IWDFUsbInterface interface, GetInterfaceNumber method, umdf.iwdfusbinterface_getinterfacenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

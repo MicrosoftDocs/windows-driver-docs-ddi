@@ -40,7 +40,7 @@ apiname:
 -	CheckVideoProcessorFormat
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback
@@ -92,11 +92,6 @@ VOID APIENTRY* CheckVideoProcessorFormat(
 
 
 
-#### - Format [in]
-
-The video format to query.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -107,6 +102,11 @@ A handle to the display device (graphics context).
 #### - hVideoProcessorEnum [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function. 
+
+
+#### - Format [in]
+
+The video format to query.
 
 
 #### - pSupported [out]
@@ -141,9 +141,9 @@ If the driver can support neither, it must set the <i>pSupported</i> parameter t
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_format_support.md">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
 
  
 

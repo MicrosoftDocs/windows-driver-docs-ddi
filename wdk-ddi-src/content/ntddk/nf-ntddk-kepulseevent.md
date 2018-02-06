@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57505700-9775-4dac-a106-951da0744631
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, KePulseEvent, ntddk/KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], kernel.kepulseevent
+ms.keywords: k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, ntddk/KePulseEvent, KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], kernel.kepulseevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,19 +111,19 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
-
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	ClearView
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CLEARVIEW callback
@@ -103,11 +103,6 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56923
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
 
 
-#### - Color
-
-A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
-
-
 #### - HandleType
 
 A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
@@ -116,6 +111,11 @@ A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3
 <li><b>D3D11DDI_HT_UNORDEREDACCESSVIEW</b></li>
 <li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
 </ul>
+
+#### - Color
+
+A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
+
 
 ## -returns
 
@@ -167,11 +167,11 @@ However, video views of a video surface (such as views provided to the <a href="
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
 
  
 

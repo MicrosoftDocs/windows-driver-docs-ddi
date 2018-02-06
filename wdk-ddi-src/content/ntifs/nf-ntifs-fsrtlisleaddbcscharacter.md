@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlIsLeadDbcsCharacter, ntifs/FsRtlIsLeadDbcsCharacter, ifsk.fsrtlisleaddbcscharacter, fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers]
+ms.keywords: fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ntifs/FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter, ifsk.fsrtlisleaddbcscharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -90,9 +90,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards.md">FsRtlDoesDbcsContainWildCards</a>
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards.md">FsRtlDoesDbcsContainWildCards</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs~r2.md">FsRtlDissectDbcs</a>
 

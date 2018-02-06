@@ -7,8 +7,8 @@ old-location: print\expscompressionoptions.htm
 old-project: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: filterpipeline/Compression_Normal, filterpipeline/Compression_Small, EXpsCompressionOptions, filterpipeline/Compression_NotCompressed, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, EXpsCompressionOptions enumeration [Print Devices], Compression_Normal, Compression_NotCompressed, print.expscompressionoptions, Compression_Fast, __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, filterpipeline/Compression_Fast, filterpipeline/EXpsCompressionOptions, Compression_Small
+ms.date: 2/2/2018
+ms.keywords: EXpsCompressionOptions enumeration [Print Devices], filterpipeline/Compression_NotCompressed, print.expscompressionoptions, EXpsCompressionOptions, __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, Compression_Fast, filterpipeline/Compression_Fast, filterpipeline/Compression_Small, Compression_Small, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, filterpipeline/Compression_Normal, Compression_Normal, Compression_NotCompressed, filterpipeline/EXpsCompressionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

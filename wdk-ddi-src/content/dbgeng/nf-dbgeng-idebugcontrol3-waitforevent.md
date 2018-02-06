@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], WaitForEvent method, debugger.waitforevent, dbgeng/IDebugControl::WaitForEvent, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl3, WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl2::WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl interface, WaitForEvent method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], WaitForEvent method, WaitForEvent method [Windows Debugging], IDebugControl2::WaitForEvent, IDebugControl::WaitForEvent
+ms.keywords: IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, IDebugControl interface [Windows Debugging], WaitForEvent method, WaitForEvent method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl3 interface [Windows Debugging], WaitForEvent method, WaitForEvent, IDebugControl::WaitForEvent, debugger.waitforevent, WaitForEvent method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl2::WaitForEvent, IDebugControl3, dbgeng/IDebugControl::WaitForEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.WaitForEvent
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::WaitForEvent method
@@ -169,9 +169,9 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

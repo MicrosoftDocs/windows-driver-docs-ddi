@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4742F6DD-F7D6-4EF4-877B-C02630018C8E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSourceEntryString, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceEntryString, GetSourceEntryString method [Windows Debugging], GetSourceEntryString, debugger.idebugsymbols3_getsourceentrystring, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method
+ms.keywords: GetSourceEntryString, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, debugger.idebugsymbols3_getsourceentrystring, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method, GetSourceEntryString method [Windows Debugging], IDebugSymbols3::GetSourceEntryString, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourceEntryString
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourceEntryString method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmprotectmdlsystemaddress, MmProtectMdlSystemAddress, k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, wdm/MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture]
+ms.keywords: MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, wdm/MmProtectMdlSystemAddress, kernel.mmprotectmdlsystemaddress, MmProtectMdlSystemAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,21 +81,6 @@ Specifies the new protection setting for the memory pages. Drivers should specif
 
 
 
-#### PAGE_EXECUTE
-
-The underlying memory pages can be executed, but not read or written.
-
-
-#### PAGE_EXECUTE_READ
-
-The underlying memory pages can be executed or read, but not written.
-
-
-#### PAGE_EXECUTE_READWRITE
-
-The underlying memory pages can be executed, read, or written.
-
-
 #### PAGE_NOACCESS
 
 The underlying memory pages cannot be read or written. 
@@ -109,6 +94,21 @@ The underlying memory pages can only be read, not written.
 #### PAGE_READWRITE
 
 The underlying memory pages can be read or written. 
+
+
+#### PAGE_EXECUTE
+
+The underlying memory pages can be executed, but not read or written.
+
+
+#### PAGE_EXECUTE_READ
+
+The underlying memory pages can be executed or read, but not written.
+
+
+#### PAGE_EXECUTE_READWRITE
+
+The underlying memory pages can be executed, read, or written.
 
 
 ## -returns

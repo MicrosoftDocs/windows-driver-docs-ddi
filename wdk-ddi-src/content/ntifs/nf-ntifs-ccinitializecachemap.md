@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, CcInitializeCacheMap routine [Installable File System Drivers], ntifs/CcInitializeCacheMap, ifsk.ccinitializecachemap, CcInitializeCacheMap
+ms.keywords: CcInitializeCacheMap, ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, ifsk.ccinitializecachemap, CcInitializeCacheMap routine [Installable File System Drivers], ntifs/CcInitializeCacheMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -224,9 +224,9 @@ Returns <b>TRUE</b> if the file is cached, <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
 <a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
  
 

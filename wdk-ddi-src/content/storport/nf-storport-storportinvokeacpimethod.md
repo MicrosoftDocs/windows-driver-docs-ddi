@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], StorPortInvokeAcpiMethod
+ms.keywords: storage.storportinvokeacpimethod, StorPortInvokeAcpiMethod, storport/StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

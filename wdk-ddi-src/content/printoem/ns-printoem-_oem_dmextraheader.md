@@ -7,8 +7,8 @@ old-location: print\oem_dmextraheader.htm
 old-project: print
 ms.assetid: fecefdbc-3036-4991-900c-203ae8be254b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*POEM_DMEXTRAHEADER, _OEM_DMEXTRAHEADER, printoem/OEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER, print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, POEM_DMEXTRAHEADER structure pointer [Print Devices], print.oem_dmextraheader, POEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices]"
+ms.date: 2/2/2018
+ms.keywords: POEM_DMEXTRAHEADER, print.oem_dmextraheader, OEM_DMEXTRAHEADER, printoem/OEM_DMEXTRAHEADER, print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, *POEM_DMEXTRAHEADER, _OEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices], POEM_DMEXTRAHEADER structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

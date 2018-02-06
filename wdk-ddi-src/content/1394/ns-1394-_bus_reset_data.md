@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_BUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], PBUS_RESET_DATA structure pointer [Buses], 1394/BUS_RESET_DATA, PBUS_RESET_DATA, *PBUS_RESET_DATA, IEEE.bus_reset_data, 1394/PBUS_RESET_DATA"
+ms.keywords: BUS_RESET_DATA structure [Buses], _BUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], PBUS_RESET_DATA, BUS_RESET_DATA, 1394/PBUS_RESET_DATA, 1394/BUS_RESET_DATA, *PBUS_RESET_DATA, IEEE.bus_reset_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BUS_RESET_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PBUS_RESET_DATA, BUS_RESET_DATA"
+req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
 ---
 
 # _BUS_RESET_DATA structure

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpddi/HidP_GetCollectionDescription, HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription
+ms.keywords: HidP_GetCollectionDescription function [Human Input Devices], hidpddi/HidP_GetCollectionDescription, hid.hidp_getcollectiondescription, HidP_GetCollectionDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	HidP_GetCollectionDescription
 product: Windows
 targetos: Windows
-req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
+req.typenames: "*PHID_XFER_PACKET, HID_XFER_PACKET"
 ---
 
 # HidP_GetCollectionDescription function

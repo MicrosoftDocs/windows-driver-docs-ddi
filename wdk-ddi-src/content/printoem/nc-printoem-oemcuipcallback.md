@@ -7,7 +7,7 @@ old-location: print\oemcuipcallback.htm
 old-project: print
 ms.assetid: d740bed2-ba3c-4834-8bda-3512ac8da1d5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.oemcuipcallback, OEMCUIPCALLBACK callback function [Print Devices], OEMCUIPCALLBACK, printoem/OEMCUIPCALLBACK, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

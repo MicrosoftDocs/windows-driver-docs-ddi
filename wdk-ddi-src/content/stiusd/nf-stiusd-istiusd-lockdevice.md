@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cb91ef14-53d7-42fa-b3e5-54eb3b0925b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, LockDevice method [Imaging Devices], IStiUSD interface, LockDevice method [Imaging Devices], IStiUSD interface [Imaging Devices], LockDevice method, stiusd/IStiUSD::LockDevice, image.istiusd_lockdevice, IStiUSD::LockDevice, LockDevice
+ms.keywords: LockDevice, IStiUSD interface [Imaging Devices], LockDevice method, LockDevice method [Imaging Devices], stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, IStiUSD::LockDevice, LockDevice method [Imaging Devices], IStiUSD interface, image.istiusd_lockdevice, stiusd/IStiUSD::LockDevice, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.LockDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

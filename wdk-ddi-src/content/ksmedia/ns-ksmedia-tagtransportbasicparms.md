@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagTRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], ksmedia/TRANSPORTBASICPARMS, TRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, stream.transportbasicparms, ksmedia/PTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml
+ms.keywords: TRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], stream.transportbasicparms, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], *PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml, ksmedia/TRANSPORTBASICPARMS, ksmedia/PTRANSPORTBASICPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSPORTBASICPARMS
 product: Windows
 targetos: Windows
-req.typenames: "*PTRANSPORTBASICPARMS, TRANSPORTBASICPARMS"
+req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 ---
 
 # tagTRANSPORTBASICPARMS structure

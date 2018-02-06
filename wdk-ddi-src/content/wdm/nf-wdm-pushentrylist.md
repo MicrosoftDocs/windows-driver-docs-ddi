@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PushEntryList, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, PushEntryList routine [Kernel-Mode Driver Architecture], wdm/PushEntryList
+ms.keywords: PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], kernel.pushentrylist, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, wdm/PushEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

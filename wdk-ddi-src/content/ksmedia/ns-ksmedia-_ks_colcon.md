@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8328c1b1-e72d-4e34-b69e-e02b3f5850bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_COLCON structure pointer [Streaming Media Devices], dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, stream.ks_colcon, ksmedia/KS_COLCON, KS_COLCON structure [Streaming Media Devices], ksmedia/PKS_COLCON, _KS_COLCON, PKS_COLCON, KS_COLCON, *PKS_COLCON
+ms.keywords: "_KS_COLCON, stream.ks_colcon, KS_COLCON structure [Streaming Media Devices], *PKS_COLCON, KS_COLCON, PKS_COLCON, PKS_COLCON structure pointer [Streaming Media Devices], ksmedia/PKS_COLCON, ksmedia/KS_COLCON, dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_COLCON
 product: Windows
 targetos: Windows
-req.typenames: KS_COLCON, *PKS_COLCON
+req.typenames: "*PKS_COLCON, KS_COLCON"
 ---
 
 # _KS_COLCON structure

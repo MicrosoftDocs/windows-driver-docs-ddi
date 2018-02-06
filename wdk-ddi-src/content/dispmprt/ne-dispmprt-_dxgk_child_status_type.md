@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5fa4b7e2-8215-49d8-9d70-b45c972b39b4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_CHILD_STATUS_TYPE, StatusRotation, StatusMiracast, dispmprt/StatusMiracast, display.dxgk_child_status_type, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, dispmprt/StatusRotation, _DXGK_CHILD_STATUS_TYPE, StatusUninitialized, StatusConnection, *PDXGK_CHILD_STATUS_TYPE, dispmprt/DXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusUninitialized, dispmprt/StatusConnection, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices]
+ms.keywords: DXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], *PDXGK_CHILD_STATUS_TYPE, StatusRotation, StatusUninitialized, DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, dispmprt/DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, dispmprt/StatusRotation, dispmprt/PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusUninitialized, StatusMiracast, dispmprt/StatusMiracast, PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], dispmprt/StatusConnection, StatusConnection, _DXGK_CHILD_STATUS_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

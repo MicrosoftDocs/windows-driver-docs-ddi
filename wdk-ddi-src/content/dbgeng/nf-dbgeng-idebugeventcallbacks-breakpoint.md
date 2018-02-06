@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b9aca2-4630-45e2-bed4-f701018c86a5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, IDebugEventCallbacks, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, Breakpoint method [Windows Debugging], debugger.idebugeventcallbacks_breakpoint, Breakpoint, IDebugEventCallbacks::Breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint
+ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacks, IDebugEventCallbacks::Breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, Breakpoint, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, debugger.idebugeventcallbacks_breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.Breakpoint
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacks::Breakpoint method

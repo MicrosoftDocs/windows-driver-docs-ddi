@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 064d8335-3ebf-4bc2-901e-10ce46bf7732
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisReceiveFilterTestNotEqual, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, ntddndis/PNDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, ntddndis/NDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestEqual, PNDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestUndefined, ntddndis/NdisReceiveFilterTestEqual, netvista.ndis_receive_filter_test, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestUndefined, ntddndis/NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestMaximum, *PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestMaximum, NdisReceiveFilterTestMaskEqual
+ms.keywords: PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_test, NdisReceiveFilterTestUndefined, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, ntddndis/NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestUndefined, *PNDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestNotEqual, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveFilterTestEqual, NdisReceiveFilterTestEqual, ntddndis/NDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestMaximum, ntddndis/NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestMaximum, PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, ntddndis/PNDIS_RECEIVE_FILTER_TEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_FILTER_TEST
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_FILTER_TEST, *PNDIS_RECEIVE_FILTER_TEST
+req.typenames: "*PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST"
 ---
 
 # _NDIS_RECEIVE_FILTER_TEST enumeration

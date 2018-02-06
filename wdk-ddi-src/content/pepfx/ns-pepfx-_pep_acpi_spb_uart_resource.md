@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], 5, _PEP_ACPI_SPB_UART_RESOURCE, 0, kernel.pep_acpi_spb_uart_resource, 1, 2, PPEP_ACPI_SPB_UART_RESOURCE, 6, 7, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], *PPEP_ACPI_SPB_UART_RESOURCE, pepfx/PEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, 3, 4
+ms.keywords: PPEP_ACPI_SPB_UART_RESOURCE, 5, kernel.pep_acpi_spb_uart_resource, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], 1, 3, _PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE, 0, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, 6, 2, 4, 7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
+req.typenames: "*PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE"
 ---
 
 # _PEP_ACPI_SPB_UART_RESOURCE structure

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92c75e9c-ea29-40f5-84b2-bfe406075717
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltSetStreamHandleContext, ifsk.fltsetstreamhandlecontext, FltSetStreamHandleContext routine [Installable File System Drivers], FltApiRef_p_to_z_371045bc-91b4-4695-a44a-7ef4fd5c1bd7.xml, fltkernel/FltSetStreamHandleContext
+ms.keywords: ifsk.fltsetstreamhandlecontext, FltSetStreamHandleContext, fltkernel/FltSetStreamHandleContext, FltApiRef_p_to_z_371045bc-91b4-4695-a44a-7ef4fd5c1bd7.xml, FltSetStreamHandleContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,14 +88,14 @@ A flag that specifies details of the operation to be performed. This parameter m
 
 
 
-#### FLT_SET_CONTEXT_KEEP_IF_EXISTS
-
-If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the stream handle. 
-
-
 #### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
 
 If a context is already set for this <i>Instance</i>, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the stream handle. 
+
+
+#### FLT_SET_CONTEXT_KEEP_IF_EXISTS
+
+If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the stream handle. 
 
 
 ### -param NewContext [in]
@@ -217,13 +217,13 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 

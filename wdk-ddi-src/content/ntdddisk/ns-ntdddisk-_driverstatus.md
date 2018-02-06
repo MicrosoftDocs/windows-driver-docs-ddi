@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DRIVERSTATUS, PDRIVERSTATUS, LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS structure [Storage Devices], _DRIVERSTATUS, *LPDRIVERSTATUS, ntdddisk/DRIVERSTATUS, *PDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, storage.driverstatus, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, PDRIVERSTATUS structure pointer [Storage Devices], ntdddisk/LPDRIVERSTATUS
+ms.keywords: LPDRIVERSTATUS structure pointer [Storage Devices], PDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS structure [Storage Devices], DRIVERSTATUS, *LPDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, *PDRIVERSTATUS, ntdddisk/DRIVERSTATUS, PDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, storage.driverstatus, _DRIVERSTATUS, LPDRIVERSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVERSTATUS
 product: Windows
 targetos: Windows
-req.typenames: DRIVERSTATUS, *LPDRIVERSTATUS, *PDRIVERSTATUS
+req.typenames: "*LPDRIVERSTATUS, DRIVERSTATUS, *PDRIVERSTATUS"
 ---
 
 # _DRIVERSTATUS structure

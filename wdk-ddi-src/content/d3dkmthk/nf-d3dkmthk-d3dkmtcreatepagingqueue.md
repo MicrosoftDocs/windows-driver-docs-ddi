@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue function [Display Devices], display.d3dkmtcreatepagingqueue, D3DKMTCreatePagingQueue
+ms.keywords: d3dkmthk/D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue, D3DKMTCreatePagingQueue function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

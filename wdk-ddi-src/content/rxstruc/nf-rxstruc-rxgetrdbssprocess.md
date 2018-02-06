@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxGetRDBSSProcess, RxGetRDBSSProcess function [Installable File System Drivers], rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, ifsk.rxgetrdbssprocess, rxstruc/RxGetRDBSSProcess
+ms.keywords: RxGetRDBSSProcess, rxstruc/RxGetRDBSSProcess, rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, ifsk.rxgetrdbssprocess, RxGetRDBSSProcess function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxGetRDBSSProcess
 product: Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

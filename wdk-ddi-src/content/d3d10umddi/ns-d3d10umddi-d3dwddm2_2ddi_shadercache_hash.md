@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1024FF58-7758-473A-8B1F-9CE184B9667A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dwddm2_2ddi_shadercache_hash, D3DWDDM2_2DDI_SHADERCACHE_HASH, D3DWDDM2_2DDI_SHADERCACHE_HASH structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_SHADERCACHE_HASH
+ms.keywords: d3d10umddi/D3DWDDM2_2DDI_SHADERCACHE_HASH, D3DWDDM2_2DDI_SHADERCACHE_HASH, display.d3dwddm2_2ddi_shadercache_hash, D3DWDDM2_2DDI_SHADERCACHE_HASH structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

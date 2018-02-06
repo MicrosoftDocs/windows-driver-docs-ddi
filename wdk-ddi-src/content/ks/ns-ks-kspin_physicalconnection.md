@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e11c6e8d-a338-4427-af04-bdb07b9e9a73
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPIN_PHYSICALCONNECTION, ks-struct_7b9a3e0f-2cd9-4822-8e8a-03355dc522ed.xml, *PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION structure [Streaming Media Devices], KSPIN_PHYSICALCONNECTION, ks/PKSPIN_PHYSICALCONNECTION, stream.kspin_physicalconnection, PKSPIN_PHYSICALCONNECTION structure pointer [Streaming Media Devices], PKSPIN_PHYSICALCONNECTION
+ms.keywords: PKSPIN_PHYSICALCONNECTION structure pointer [Streaming Media Devices], ks/PKSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION, ks-struct_7b9a3e0f-2cd9-4822-8e8a-03355dc522ed.xml, KSPIN_PHYSICALCONNECTION structure [Streaming Media Devices], ks/KSPIN_PHYSICALCONNECTION, stream.kspin_physicalconnection, PKSPIN_PHYSICALCONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

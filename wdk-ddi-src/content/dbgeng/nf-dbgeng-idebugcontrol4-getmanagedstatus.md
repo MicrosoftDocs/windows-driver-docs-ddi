@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C2D32ABB-5ABE-4580-9577-1144569EA8E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatus method, dbgeng/IDebugControl4::GetManagedStatus, IDebugControl4
+ms.keywords: IDebugControl4, debugger.idebugcontrol4_getmanagedstatus, GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface, GetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatus method, dbgeng/IDebugControl4::GetManagedStatus, IDebugControl4::GetManagedStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetManagedStatus
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetManagedStatus method

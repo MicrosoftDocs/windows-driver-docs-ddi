@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfpdoinitadddevicetext, PFN_WDFPDOINITADDDEVICETEXT, kmdf.wdfpdoinitadddevicetext, WdfPdoInitAddDeviceText method, wdfpdo/WdfPdoInitAddDeviceText, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText
+ms.keywords: WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, PFN_WDFPDOINITADDDEVICETEXT, kmdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText, wdf.wdfpdoinitadddevicetext, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

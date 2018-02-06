@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 433b1346-f0f1-46f7-a1d8-e6397b2f7f05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/KSSTREAM_SEGMENT, *PKSSTREAM_SEGMENT, _KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, stream.ksstream_segment, KSSTREAM_SEGMENT, ksproxy/PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices]
+ms.keywords: ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, PKSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], ksproxy/PKSSTREAM_SEGMENT, stream.ksstream_segment, KSSTREAM_SEGMENT, *PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], _KSSTREAM_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,15 +118,15 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
-
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
-
 <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
+
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
  
 

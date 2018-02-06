@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8cd81cae-8d6b-48d8-afdc-87e3a81653f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR structure [Display Devices], d3dhal/D3DHAL_DP2CLEAR, _D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], display.d3dhal_dp2clear"
+ms.keywords: D3DHAL_DP2CLEAR, display.d3dhal_dp2clear, D3DHAL_DP2CLEAR structure [Display Devices], *LPD3DHAL_DP2CLEAR, _D3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], d3dhal/D3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

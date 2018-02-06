@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ntifs/CcGetDirtyPages, ifsk.ccgetdirtypages
+ms.keywords: ifsk.ccgetdirtypages, CcGetDirtyPages, ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ntifs/CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,16 +99,6 @@ VOID (*PDIRTY_PAGE_ROUTINE) (
 </table></span></div>
 
 
-#### Context1
-
-First context parameter. 
-
-
-#### Context2
-
-Second context parameter. 
-
-
 #### FileObject
 
 Pointer to the file object for the file containing the dirty page. 
@@ -124,14 +114,24 @@ Pointer to a variable that specifies the starting byte offset of the dirty page 
 Length, in bytes, of the dirty page. 
 
 
+#### OldestLsn
+
+Oldest logical sequence number (LSN) found in the dirty page. 
+
+
 #### NewestLsn
 
 Newest LSN found in the dirty page. 
 
 
-#### OldestLsn
+#### Context1
 
-Oldest logical sequence number (LSN) found in the dirty page. 
+First context parameter. 
+
+
+#### Context2
+
+Second context parameter. 
 
 
 ### -param Context1 [in]

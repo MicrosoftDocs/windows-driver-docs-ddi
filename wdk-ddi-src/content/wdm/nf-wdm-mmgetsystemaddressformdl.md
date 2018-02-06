@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], MmGetSystemAddressForMdl, wdm/MmGetSystemAddressForMdl
+ms.keywords: kernel.mmgetsystemaddressformdl, MmGetSystemAddressForMdl, k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, wdm/MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

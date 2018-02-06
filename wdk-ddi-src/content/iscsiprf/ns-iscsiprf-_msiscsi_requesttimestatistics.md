@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_RequestTimeStatistics structure [Storage Devices], *PMSiSCSI_RequestTimeStatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, storage.msiscsi_requesttimestatistics, PMSiSCSI_RequestTimeStatistics, _MSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, iscsiprf/MSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], MSiSCSI_RequestTimeStatistics
+ms.keywords: PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], MSiSCSI_RequestTimeStatistics, iscsiprf/MSiSCSI_RequestTimeStatistics, _MSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], storage.msiscsi_requesttimestatistics, *PMSiSCSI_RequestTimeStatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, iscsiprf/PMSiSCSI_RequestTimeStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_RequestTimeStatistics
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics"
+req.typenames: MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics
 ---
 
 # _MSiSCSI_RequestTimeStatistics structure
@@ -111,11 +111,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
  
 

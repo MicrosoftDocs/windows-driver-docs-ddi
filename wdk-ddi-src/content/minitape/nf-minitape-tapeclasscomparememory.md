@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: minitape/TapeClassCompareMemory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, storage.tapeclasscomparememory, TapeClassCompareMemory routine [Storage Devices], TapeClassCompareMemory
+ms.keywords: minitape/TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, TapeClassCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeClassCompareMemory
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
 ---
 
 # TapeClassCompareMemory function

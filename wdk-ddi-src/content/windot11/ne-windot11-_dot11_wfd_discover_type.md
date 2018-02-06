@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B50C7FD5-5AE4-4BF3-9FD7-F006F4B6BAAF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_wfd_discover_type_find_only, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_discover_type_auto, dot11_wfd_discover_type_forced, dot11_wfd_discover_type_auto, _DOT11_WFD_DISCOVER_TYPE, windot11/DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_only, DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_forced, dot11_wfd_discover_type_scan_social_channels, windot11/dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_scan_social_channels, *PDOT11_WFD_DISCOVER_TYPE, netvista.dot11_wfd_discover_type
+ms.keywords: dot11_wfd_discover_type_auto, DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_scan_only, *PDOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_auto, netvista.dot11_wfd_discover_type, _DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_find_only, windot11/DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_social_channels, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_scan_social_channels, dot11_wfd_discover_type_scan_only
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -106,9 +106,9 @@ The <b>dot11_wfd_discover_type_forced</b> flag may be set along with only one of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
-
 <a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
 
  
 

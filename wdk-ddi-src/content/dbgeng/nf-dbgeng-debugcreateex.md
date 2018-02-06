@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debugcreateex, DebugCreateEx function [Windows Debugging], DebugCreateEx, dbgeng/DebugCreateEx
+ms.keywords: DebugCreateEx function [Windows Debugging], debugger.debugcreateex, DebugCreateEx, dbgeng/DebugCreateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DebugCreateEx
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # DebugCreateEx function
@@ -130,9 +130,9 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
 
  
 

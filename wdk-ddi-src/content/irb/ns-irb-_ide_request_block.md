@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/IDE_REQUEST_BLOCK, storage.ide_request_block, _IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml, *PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], PIDE_REQUEST_BLOCK
+ms.keywords: storage.ide_request_block, PIDE_REQUEST_BLOCK, _IDE_REQUEST_BLOCK, structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml, *PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], irb/IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], irb/PIDE_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -523,13 +523,13 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a>
-
-<a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
+<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a>
+
+<a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41f081f3-4079-46f8-9d22-76a2d9e992b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportenumeratechildren, video/VideoPortEnumerateChildren, VideoPortEnumerateChildren, VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, VideoPortEnumerateChildren function [Display Devices]
+ms.keywords: VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren, VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren
 
 <a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
 <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
 
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e742f898-e663-431d-870e-bb0fe7e89b5a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, drvAnalyzeItem method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvanalyzeitem, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem, MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, IWiaMiniDrv interface [Imaging Devices], drvAnalyzeItem method, drvAnalyzeItem method [Imaging Devices], IWiaMiniDrv::drvAnalyzeItem, drvAnalyzeItem
+ms.keywords: drvAnalyzeItem method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvAnalyzeItem, IWiaMiniDrv interface [Imaging Devices], drvAnalyzeItem method, IWiaMiniDrv, drvAnalyzeItem method [Imaging Devices], MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem, drvAnalyzeItem, image.iwiaminidrv_drvanalyzeitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,14 +86,14 @@ HRESULT drvAnalyzeItem(
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [in]

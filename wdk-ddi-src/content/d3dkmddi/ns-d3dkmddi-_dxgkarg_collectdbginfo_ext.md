@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, DXGKARG_COLLECTDBGINFO_EXT, display.dxgkarg_collectdbginfo_ext, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices]"
+ms.keywords: "_DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], display.dxgkarg_collectdbginfo_ext, DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, DXGKARG_COLLECTDBGINFO_EXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,9 +116,9 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
 
  
 

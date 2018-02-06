@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3e5e782b-1a72-446d-9d15-c0f513f3440c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getfieldoffset, GetFieldOffset, WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, GetFieldOffset function [Windows Debugging], wdbgexts/GetFieldOffset
+ms.keywords: WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, IDebugSymbols2::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols4::GetFieldOffset, wdbgexts/GetFieldOffset, GetFieldOffset, IDebugSymbols2, IDebugSymbols4, GetFieldOffset function [Windows Debugging], debugger.getfieldoffset, IDebugSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ __inline ULONG GetFieldOffset(
 
 
 
-### -param Type [in]
+#### - Type [in]
 
 Specifies the name of the type of the structure.  This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
@@ -80,7 +80,7 @@ Specifies the name of the type of the structure.  This can be qualified with a m
 Specifies the name of the member in the structure.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
 
-### -param pOffset [out]
+#### - pOffset [out]
 
 Receives the offset of the member from the beginning of an instance of the structure.
 

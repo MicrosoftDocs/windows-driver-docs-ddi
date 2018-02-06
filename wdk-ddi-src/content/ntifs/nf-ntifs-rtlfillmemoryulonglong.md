@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, RtlFillMemoryUlonglong, ntifs/RtlFillMemoryUlonglong, ifsk.rtlfillmemoryulonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers]
+ms.keywords: rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], RtlFillMemoryUlonglong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,9 +104,9 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
 <a href="..\ntifs\nf-ntifs-rtlfillmemoryulong.md">RtlFillMemoryUlong</a>
+
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 

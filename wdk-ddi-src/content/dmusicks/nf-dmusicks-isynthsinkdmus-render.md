@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 731abdaf-f84b-4d4b-a6e0-ee11899fba27
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus interface [Audio Devices], Render method, dmusicks/ISynthSinkDMus::Render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, ISynthSinkDMus::Render, Render method [Audio Devices], ISynthSinkDMus interface, Render method [Audio Devices], Render, audio.isynthsinkdmus_render, ISynthSinkDMus
+ms.keywords: ISynthSinkDMus::Render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, ISynthSinkDMus, audio.isynthsinkdmus_render, Render method [Audio Devices], ISynthSinkDMus interface, dmusicks/ISynthSinkDMus::Render, Render, ISynthSinkDMus interface [Audio Devices], Render method, Render method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74bfe9fb-f751-46a6-a95b-f715ebedd2ec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], wdm/MmIsDriverVerifying, MmIsDriverVerifying, kernel.mmisdriververifying, k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml
+ms.keywords: wdm/MmIsDriverVerifying, k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, MmIsDriverVerifying, kernel.mmisdriververifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

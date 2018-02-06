@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D43DA9A4-02F4-4C4E-83AE-DFADA0FCC73D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlecondition, wdm/PoFxCompleteIdleCondition, PoFxCompleteIdleCondition
+ms.keywords: PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], wdm/PoFxCompleteIdleCondition, PoFxCompleteIdleCondition, kernel.pofxcompleteidlecondition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,9 +97,9 @@ When PoFx calls the driver's <i>ComponentIdleConditionCallback</i> routine, the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
-
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 

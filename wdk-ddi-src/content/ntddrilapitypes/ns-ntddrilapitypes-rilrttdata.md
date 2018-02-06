@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 037831c7-d0ef-4cbc-a414-a77010e228a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilrttdata, RILRTTDATA structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRTTDATA, *LPRILRTTDATA, RILRTTDATA
+ms.keywords: RILRTTDATA structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRTTDATA, netvista.rilrttdata, RILRTTDATA, *LPRILRTTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRTTDATA
 product: Windows
 targetos: Windows
-req.typenames: RILRTTDATA, *LPRILRTTDATA
+req.typenames: "*LPRILRTTDATA, RILRTTDATA"
 ---
 
 # RILRTTDATA structure

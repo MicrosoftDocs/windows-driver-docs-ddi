@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 528f5bfb-a84d-48e5-a74d-8f7bcee6d4cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorconfig, RIL_SetExecutorConfig, rilapi/RIL_SetExecutorConfig
+ms.keywords: RIL_SetExecutorConfig, RIL_SetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorconfig, rilapi/RIL_SetExecutorConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetExecutorConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

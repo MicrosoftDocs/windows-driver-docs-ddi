@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 7a075d95-3bc6-4869-bcd6-1bce6df43384
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeOutput, PmiMeasurementTypeMax, pmi/PmiMeasurementTypeMax, pmi/PMI_MEASUREMENT_TYPE, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, powermeter.pmi_measurement_type, PMI_MEASUREMENT_TYPE, PmiMeasurementTypeOutput, PmiMeasurementTypeInput, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices]
+ms.keywords: powermeter.pmi_measurement_type, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeInput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, PmiMeasurementTypeMax, PMI_MEASUREMENT_TYPE, PmiMeasurementTypeInput, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeasurementTypeOutput, pmi/PMI_MEASUREMENT_TYPE, PmiMeasurementTypeOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,11 @@ PMI measurement data is returned through a query request of <a href="..\pmi\ni-p
 
 ## -see-also
 
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_measurement.md">IOCTL_PMI_GET_MEASUREMENT</a>
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
  
 

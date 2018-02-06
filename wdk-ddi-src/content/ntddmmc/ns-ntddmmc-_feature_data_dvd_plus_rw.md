@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55cbef36-dea7-4f7c-ac43-fb819b61a858
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_DVD_PLUS_RW, *PFEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_DVD_PLUS_RW, storage.feature_data_dvd_plus_rw, PFEATURE_DATA_DVD_PLUS_RW, structs-CD-ROM_8b49bf86-5e1a-42a3-9bb6-ba6afca60375.xml, ntddmmc/PFEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW structure [Storage Devices]"
+ms.keywords: ntddmmc/PFEATURE_DATA_DVD_PLUS_RW, structs-CD-ROM_8b49bf86-5e1a-42a3-9bb6-ba6afca60375.xml, *PFEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW structure [Storage Devices], FEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW, storage.feature_data_dvd_plus_rw, _FEATURE_DATA_DVD_PLUS_RW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

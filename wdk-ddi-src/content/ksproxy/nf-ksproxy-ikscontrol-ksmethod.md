@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f9121be-786d-4a1c-bb01-7bf3c1d3b6cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethod method [Streaming Media Devices], KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl, stream.ikscontrol_ksmethod, ksproxy/IKsControl::KsMethod
+ms.keywords: KsMethod method [Streaming Media Devices], ksproxy/IKsControl::KsMethod, stream.ikscontrol_ksmethod, IKsControl, KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl::KsMethod, KsMethod method [Streaming Media Devices], IKsControl interface, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

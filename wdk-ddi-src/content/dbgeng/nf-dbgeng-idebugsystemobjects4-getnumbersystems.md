@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems, dbgeng/IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, IDebugSystemObjects4
+ms.keywords: GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects4::GetNumberSystems, GetNumberSystems, dbgeng/IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4, debugger.getnumbersystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSystemObjects4.GetNumberSystems
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects4::GetNumberSystems method
@@ -99,11 +99,11 @@ The method was successful.
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

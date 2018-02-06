@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand, D3DDDICB_SUBMITCOMMAND, _D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices]
+ms.keywords: "_D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

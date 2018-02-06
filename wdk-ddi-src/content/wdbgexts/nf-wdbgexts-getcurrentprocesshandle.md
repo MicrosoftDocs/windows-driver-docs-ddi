@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6780f1c-e093-4d91-8909-dabb1ecaefaa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentprocesshandle, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, wdbgexts/GetCurrentProcessHandle, GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging]
+ms.keywords: wdbgexts/GetCurrentProcessHandle, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects2, debugger.getcurrentprocesshandle, IDebugSystemObjects3, IDebugSystemObjects3::GetCurrentProcessHandle, GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], IDebugSystemObjects, IDebugSystemObjects::GetCurrentProcessHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ __inline VOID GetCurrentProcessHandle(
 
 
 
-### -param hp
+#### - hp
 
 Receives the system handle for the current process.
 

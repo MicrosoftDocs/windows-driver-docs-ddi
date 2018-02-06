@@ -40,7 +40,7 @@ apiname:
 -	FwpsNetBufferListNotifyFN1
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
 ---
 
 # FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback
@@ -168,16 +168,16 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 ## -see-also
 
-<a href="..\fwpsk\ne-fwpsk-fwps_net_buffer_list_event_type0_.md">
-     FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
 
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+
+<a href="..\fwpsk\ne-fwpsk-fwps_net_buffer_list_event_type0_.md">
+     FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	Dump_Unload
 product: Windows
 targetos: Windows
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
 ---
 
 # DUMP_UNLOAD callback

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d24d9aea-0cdd-4130-9904-4e50c825612e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WORKITEM_CONFIG_INIT function, wdfworkitem/WDF_WORKITEM_CONFIG_INIT, wdf.wdf_workitem_config_init, WDF_WORKITEM_CONFIG_INIT, kmdf.wdf_workitem_config_init, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml
+ms.keywords: wdf.wdf_workitem_config_init, WDF_WORKITEM_CONFIG_INIT function, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, kmdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtW
 
 ## -see-also
 
-<a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+<a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
 
  
 

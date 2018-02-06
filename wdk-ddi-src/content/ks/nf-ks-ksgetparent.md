@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d7804745-295f-491a-80f4-84441598bbf4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetParent, stream.ksgetparent, KsGetParent function [Streaming Media Devices], ks/KsGetParent, avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml
+ms.keywords: KsGetParent function [Streaming Media Devices], KsGetParent, avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml, stream.ksgetparent, ks/KsGetParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,17 +93,17 @@ Minidrivers rarely use this function directly. Callers of <b>KsGetParent</b> mus
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\nf-ks-ksfiltergetparentfilterfactory.md">KsFilterGetParentFilterFactory</a>
+
+<a href="..\ks\nf-ks-ksfilterfactorygetparentdevice.md">KsFilterFactoryGetParentDevice</a>
+
+<a href="..\ks\nf-ks-kspingetparentfilter.md">KsPinGetParentFilter</a>
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
-<a href="..\ks\nf-ks-ksfilterfactorygetparentdevice.md">KsFilterFactoryGetParentDevice</a>
-
-<a href="..\ks\nf-ks-ksfiltergetparentfilterfactory.md">KsFilterGetParentFilterFactory</a>
-
-<a href="..\ks\nf-ks-kspingetparentfilter.md">KsPinGetParentFilter</a>
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 

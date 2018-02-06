@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 99a0ded5-2a73-40c9-99f4-82d31395aa62
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols2::AppendSymbolPath, AppendSymbolPath method [Windows Debugging], AppendSymbolPath method [Windows Debugging], IDebugSymbols2 interface, AppendSymbolPath method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendSymbolPath, dbgeng/IDebugSymbols::AppendSymbolPath, AppendSymbolPath method [Windows Debugging], IDebugSymbols interface, AppendSymbolPath, dbgeng/IDebugSymbols2::AppendSymbolPath, IDebugSymbols2 interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols3::AppendSymbolPath, IDebugSymbols_cc73a8f6-3cf1-40a1-8cb5-712eeca0b883.xml, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols3, IDebugSymbols::AppendSymbolPath, debugger.appendsymbolpath
+ms.keywords: IDebugSymbols2::AppendSymbolPath, IDebugSymbols_cc73a8f6-3cf1-40a1-8cb5-712eeca0b883.xml, IDebugSymbols3::AppendSymbolPath, IDebugSymbols::AppendSymbolPath, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPath method, debugger.appendsymbolpath, dbgeng/IDebugSymbols::AppendSymbolPath, AppendSymbolPath method [Windows Debugging], IDebugSymbols3, AppendSymbolPath method [Windows Debugging], IDebugSymbols2 interface, AppendSymbolPath method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendSymbolPath, AppendSymbolPath, dbgeng/IDebugSymbols2::AppendSymbolPath, IDebugSymbols2 interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols interface [Windows Debugging], AppendSymbolPath method, AppendSymbolPath method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.AppendSymbolPath
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AppendSymbolPath method
@@ -108,13 +108,13 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 

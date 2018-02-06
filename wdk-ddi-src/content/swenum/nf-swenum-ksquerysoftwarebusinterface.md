@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/KsQuerySoftwareBusInterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], stream.ksquerysoftwarebusinterface
+ms.keywords: stream.ksquerysoftwarebusinterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], swenum/KsQuerySoftwareBusInterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, KsQuerySoftwareBusInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KsQuerySoftwareBusInterface
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
+req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
 req.product: Windows 10 or later.
 ---
 
@@ -97,11 +97,11 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 ## -see-also
 
+<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+
 <a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
 <a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
-
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
  
 

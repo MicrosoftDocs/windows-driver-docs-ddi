@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanDeviceServiceSessionReadSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionWriteSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_device_service_session_capability, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionWriteSupported
+ms.keywords: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionWriteSupported, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, WwanDeviceServiceSessionNotSupported, WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionReadSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionNotSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionReadSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: print\drvsplwriteprinter.htm
 old-project: print
 ms.assetid: c42bb90a-3c38-4c0c-b523-10e740a027c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices], winddiui/DrvSplWritePrinter, print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml, print.drvsplwriteprinter
+ms.date: 2/2/2018
+ms.keywords: DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices], winddiui/DrvSplWritePrinter, print.drvsplwriteprinter, print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplWritePrinter
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

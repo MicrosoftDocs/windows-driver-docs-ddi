@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortMoveMemory, ScsiPortMoveMemory, storage.scsiportmovememory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml
+ms.keywords: srb/ScsiPortMoveMemory, scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, ScsiPortMoveMemory routine [Storage Devices], ScsiPortMoveMemory, storage.scsiportmovememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortMoveMemory
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

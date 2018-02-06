@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6a4dfb93-4044-4a7a-a993-38c91f84cae2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_ScsiReportLUNsV2, HBA_ScsiReportLUNsV2, fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, HBA_ScsiReportLUNsV2 routine [Storage Devices], storage.hba_scsireportlunsv2
+ms.keywords: fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, HBA_ScsiReportLUNsV2 routine [Storage Devices], HBA_ScsiReportLUNsV2, storage.hba_scsireportlunsv2, hbaapi/HBA_ScsiReportLUNsV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -205,9 +205,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
  
 

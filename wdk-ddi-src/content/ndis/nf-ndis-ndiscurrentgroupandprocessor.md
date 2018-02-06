@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 056f7f4b-152b-426a-b59e-0f6663b386a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCurrentGroupAndProcessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], netvista.ndiscurrentgroupandprocessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, NdisCurrentGroupAndProcessor
+ms.keywords: netvista.ndiscurrentgroupandprocessor, NdisCurrentGroupAndProcessor, ndis/NdisCurrentGroupAndProcessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -40,7 +40,7 @@ apiname:
 -	SetDepthStencilState
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETDEPTHSTENCILSTATE callback
@@ -87,11 +87,6 @@ VOID APIENTRY SetDepthStencilState(
 
 
 
-#### - StencilRef [in]
-
- A stencil reference value to compare against.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -100,6 +95,11 @@ VOID APIENTRY SetDepthStencilState(
 #### - hState [in]
 
  A handle to the depth-stencil state to set.
+
+
+#### - StencilRef [in]
+
+ A stencil reference value to compare against.
 
 
 ## -returns

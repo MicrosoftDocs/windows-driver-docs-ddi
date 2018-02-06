@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], ntifs/FsRtlAreVolumeStartupApplicationsComplete, ifsk.fsrtlarevolumestartupapplicationscomplete, fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml
+ms.keywords: ifsk.fsrtlarevolumestartupapplicationscomplete, fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, FsRtlAreVolumeStartupApplicationsComplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

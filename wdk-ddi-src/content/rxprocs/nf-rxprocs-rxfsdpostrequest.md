@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0b1bc248-6b8e-498c-936d-64f6ff9fa183
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml, RxFsdPostRequest, ifsk.rxfsdpostrequest, rxprocs/RxFsdPostRequest, RxFsdPostRequest function [Installable File System Drivers]
+ms.keywords: RxFsdPostRequest function [Installable File System Drivers], rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml, rxprocs/RxFsdPostRequest, RxFsdPostRequest, ifsk.rxfsdpostrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxFsdPostRequest
 product: Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

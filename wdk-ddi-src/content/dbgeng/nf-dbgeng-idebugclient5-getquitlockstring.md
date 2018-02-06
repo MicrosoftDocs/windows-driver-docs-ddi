@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 986C866E-D5AC-47CD-A666-EDF739E91761
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetQuitLockString method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetQuitLockString method, dbgeng/IDebugClient5::GetQuitLockString, IDebugClient5::GetQuitLockString, GetQuitLockString method [Windows Debugging], GetQuitLockString, IDebugClient5, debugger.idebugclient5_getquitlockstring
+ms.keywords: IDebugClient5 interface [Windows Debugging], GetQuitLockString method, IDebugClient5, debugger.idebugclient5_getquitlockstring, GetQuitLockString method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetQuitLockString, GetQuitLockString, dbgeng/IDebugClient5::GetQuitLockString, GetQuitLockString method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.GetQuitLockString
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetQuitLockString method

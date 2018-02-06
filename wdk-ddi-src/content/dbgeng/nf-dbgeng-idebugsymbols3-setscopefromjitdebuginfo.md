@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFromJitDebugInfo method [Windows Debugging], debugger.idebugsymbols3_setscopefromjitdebuginfo, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo, IDebugSymbols3
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, SetScopeFromJitDebugInfo, IDebugSymbols3, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3::SetScopeFromJitDebugInfo, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.SetScopeFromJitDebugInfo
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::SetScopeFromJitDebugInfo method

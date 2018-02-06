@@ -96,7 +96,7 @@ A driver's <i>IoTimer</i> routine executes in a DPC context, at IRQL = DISPATCH_
 
 A driver can associate an <i>IoTimer</i> routine with each device object it creates. (You can use a single <i>IoTimer</i> routine with multiple device objects, or a separate routine with each device object.) To register an <i>IoTimer</i> routine, a driver must call <a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>, supplying the <i>IoTimer</i> routine's address and a device object pointer.
 
-To queue an <i>IoTimer</i> routine for execution, a driver routine must call <a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>. The system calls the <i>IoTimer</i> routine once per second until the driver calls <a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>.
+To queue an <i>IoTimer</i> routine for execution, a driver routine must call <a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>. The system calls the <i>IoTimer</i> routine once per second until the driver calls <a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a>.
 
 For more information about <i>IoTimer</i> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550386">IoTimer Routines</a>.
 

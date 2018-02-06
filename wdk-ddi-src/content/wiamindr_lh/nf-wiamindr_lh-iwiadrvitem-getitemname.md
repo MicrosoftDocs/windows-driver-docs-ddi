@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem::GetItemName, DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName method [Imaging Devices], image.iwiadrvitem_getitemname, IWiaDrvItem, GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, GetItemName method [Imaging Devices], IWiaDrvItem interface, wiamindr_lh/IWiaDrvItem::GetItemName
+ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetItemName, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices], IWiaDrvItem interface, GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

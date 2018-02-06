@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxRegisterMinirdr, mrx/RxRegisterMinirdr, ifsk.rxregisterminirdr, RxRegisterMinirdr function [Installable File System Drivers], rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml
+ms.keywords: rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,6 +96,16 @@ The set of options that determine capabilities of the network mini-redirector dr
 
 
 
+#### RX_REGISTERMINI_FLAG_DONT_PROVIDE_UNCS
+
+When this flag is set, it indicates that the network mini-redirector does not support UNC names.
+
+
+#### RX_REGISTERMINI_FLAG_DONT_PROVIDE_MAILSLOTS
+
+When this flag is set, it indicates that the network mini-redirector does not support mailslots.
+
+
 #### RX_REGISTERMINI_FLAG_DONT_INIT_DRIVER_DISPATCH
 
 When this flag is set, it indicates that the network mini-redirector does not want RDBSS to initialize the driver dispatch entry points of the mini-redirector driver to point to RDBSS internal routines. This option would only be used in unusual circumstances. Normally RDBSS would set the driver dispatch entry points and the fast I/O dispatch in the network mini-redirector driver object to point to routines internal to RDBSS.
@@ -104,16 +114,6 @@ When this flag is set, it indicates that the network mini-redirector does not wa
 #### RX_REGISTERMINI_FLAG_DONT_INIT_PREFIX_N_SCAVENGER
 
 When this flag is set, it indicates that the network mini-redirector does not want RDBSS to initialize its internal network name table and scavenger data structures for scavenging this name table. This option would be set for a network mini-redirector that wants to handle caching for network share names itself and not use the RDBSS facilities for name caching and scavenging.
-
-
-#### RX_REGISTERMINI_FLAG_DONT_PROVIDE_MAILSLOTS
-
-When this flag is set, it indicates that the network mini-redirector does not support mailslots.
-
-
-#### RX_REGISTERMINI_FLAG_DONT_PROVIDE_UNCS
-
-When this flag is set, it indicates that the network mini-redirector does not support UNC names.
 
 
 ### -param DeviceName [in]
@@ -281,25 +281,25 @@ IRP_MJ_CREATE_NAMED_PIPE
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 <a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
 
-<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
 
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
-
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
-
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
+
+<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
  
 

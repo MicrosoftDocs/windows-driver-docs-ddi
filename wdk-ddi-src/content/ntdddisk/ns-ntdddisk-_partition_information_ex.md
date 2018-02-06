@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de44fe5a-5d47-4b2e-ab94-52cadfdbc345
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.partition_information_ex, ntdddisk/PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX, ntdddisk/PARTITION_INFORMATION_EX, _PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX structure [Storage Devices], structs-disk_459428ff-6869-41c6-b72f-94721018f66e.xml, PPARTITION_INFORMATION_EX structure pointer [Storage Devices], PPARTITION_INFORMATION_EX
+ms.keywords: PARTITION_INFORMATION_EX, ntdddisk/PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX structure [Storage Devices], ntdddisk/PARTITION_INFORMATION_EX, PPARTITION_INFORMATION_EX, _PARTITION_INFORMATION_EX, structs-disk_459428ff-6869-41c6-b72f-94721018f66e.xml, PPARTITION_INFORMATION_EX structure pointer [Storage Devices], storage.partition_information_ex, *PPARTITION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARTITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX"
+req.typenames: PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX
 ---
 
 # _PARTITION_INFORMATION_EX structure
@@ -124,13 +124,13 @@ This is the extended version of the partition information structure, PARTITION_I
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
  
 

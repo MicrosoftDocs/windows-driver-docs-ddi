@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iocreatecontroller, IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], ntddk/IoCreateController, k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml
+ms.keywords: kernel.iocreatecontroller, ntddk/IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, IoCreateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ If <b>IoCreateController</b> returns <b>NULL</b>, the driver should fail device 
 
 <a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
 
-<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
-
 <a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
 
 <a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
+
+<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
 
  
 

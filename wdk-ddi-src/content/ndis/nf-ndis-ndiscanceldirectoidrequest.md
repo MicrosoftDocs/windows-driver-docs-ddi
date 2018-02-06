@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bfccd901-9ce7-4873-ba9a-0e4718fd7d19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, ndis/NdisCancelDirectOidRequest, NdisCancelDirectOidRequest, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], netvista.ndiscanceldirectoidrequest
+ms.keywords: NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelDirectOidRequest, netvista.ndiscanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,11 +107,11 @@ Protocol drivers call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
 
  
 

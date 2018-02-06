@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_CDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices]"
+ms.keywords: CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml, _CDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, ntddcdrm/PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_TOC_ATIP_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA"
+req.typenames: CDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA
 ---
 
 # _CDROM_TOC_ATIP_DATA structure

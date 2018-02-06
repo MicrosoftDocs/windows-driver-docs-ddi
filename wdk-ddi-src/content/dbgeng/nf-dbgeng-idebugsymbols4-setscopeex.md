@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 22844EBB-9BE7-47C0-BE1F-075473430F11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols4_setscopeex, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, SetScopeEx, dbgeng/IDebugSymbols4::SetScopeEx, IDebugSymbols4::SetScopeEx, SetScopeEx method [Windows Debugging]
+ms.keywords: SetScopeEx method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, debugger.idebugsymbols4_setscopeex, SetScopeEx, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4::SetScopeEx, IDebugSymbols4, dbgeng/IDebugSymbols4::SetScopeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols4.SetScopeEx
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols4::SetScopeEx method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b617fa4-da0b-4a98-a0e5-ad9fea67d980
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWriteRegisterBufferUchar routine [Storage Devices], storage.ataportwriteregisterbufferuchar, atartns_6722ff8e-9f8c-4b6a-88d1-305f892250bd.xml, AtaPortWriteRegisterBufferUchar, irb/AtaPortWriteRegisterBufferUchar
+ms.keywords: storage.ataportwriteregisterbufferuchar, irb/AtaPortWriteRegisterBufferUchar, AtaPortWriteRegisterBufferUchar, atartns_6722ff8e-9f8c-4b6a-88d1-305f892250bd.xml, AtaPortWriteRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

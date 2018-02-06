@@ -2,13 +2,13 @@
 UID: NF:bidispl.IBidiRequest.GetEnumCount
 title: IBidiRequest::GetEnumCount method
 author: windows-driver-content
-description: The IBidiRequest::GetEnumCount method gets the number of output results from the bidi request.
+description: The GetEnumCount method gets the number of output results from the bidi request.
 old-location: print\ibidirequest_ibidirequest__getenumcount.htm
 old-project: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: gdi.ibidirequest_ibidirequest__getenumcount, bidispl/IBidiRequest::IBidiRequest::GetEnumCount, print.ibidirequest_ibidirequest__getenumcount, IBidiRequest interface [Print Devices], IBidiRequest::GetEnumCount method, IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest::GetEnumCount method [Print Devices], IBidiRequest interface, IBidiRequest::IBidiRequest::GetEnumCount, IBidiRequest::GetEnumCount, IBidiRequest, GetEnumCount, _win32_IBidiRequest_GetEnumCount
+ms.date: 2/2/2018
+ms.keywords: bidispl/IBidiRequest::GetEnumCount, IBidiRequest::GetEnumCount, GetEnumCount method [Print Devices], gdi.ibidirequest_ibidirequest__getenumcount, _win32_IBidiRequest_GetEnumCount, GetEnumCount, IBidiRequest interface [Print Devices], GetEnumCount method, IBidiRequest, GetEnumCount method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__getenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	bidispl.dll
 apiname:
--	IBidiRequest.IBidiRequest::GetEnumCount
+-	IBidiRequest.GetEnumCount
 product: Windows
 targetos: Windows
 req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
@@ -49,14 +49,14 @@ req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ## -description
 
 
-The <b>IBidiRequest::GetEnumCount</b> method gets the number of output results from the bidi request.
+The <b>GetEnumCount</b> method gets the number of output results from the bidi request.
 
 
 ## -syntax
 
 
 ````
-HRESULT IBidiRequest::GetEnumCount(
+HRESULT GetEnumCount(
   [out] DWORD *pdwTotal
 );
 ````
@@ -132,23 +132,23 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 ## -remarks
 
 
-A single bidi request can have multiple results. After calling <b>GetEnumCount</b>, the application can call <a href="https://msdn.microsoft.com/library/windows/hardware/dd144975">IBidiRequest::GetOutputData</a> to select a particular result.
+A single bidi request can have multiple results. After calling <b>GetEnumCount</b>, the application can call <a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a> to select a particular result.
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dd144975">IBidiRequest::GetOutputData</a>
-
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
 
 <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
- 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::IBidiRequest::GetEnumCount method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::GetEnumCount method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

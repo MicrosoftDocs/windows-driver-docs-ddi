@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateWdfFile method, IWDFDevice::CreateWdfFile, IWDFDevice interface, CreateWdfFile method, wudfddi/IWDFDevice::CreateWdfFile, CreateWdfFile method, IWDFDevice interface, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, IWDFDevice, CreateWdfFile
+ms.keywords: UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, CreateWdfFile method, umdf.iwdfdevice_createwdffile, IWDFDevice interface, CreateWdfFile method, wudfddi/IWDFDevice::CreateWdfFile, wdf.iwdfdevice_createwdffile, IWDFDevice, CreateWdfFile, CreateWdfFile method, IWDFDevice interface, IWDFDevice::CreateWdfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.CreateWdfFile
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -99,9 +99,9 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
 
  
 

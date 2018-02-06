@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 62d0397b-da20-414e-accf-656749a771f6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl2 interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl3 interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl3, GetExecutingProcessorType, dbgeng/IDebugControl3::GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], GetExecutingProcessorType method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetExecutingProcessorType, IDebugControl2::GetExecutingProcessorType, debugger.getexecutingprocessortype, dbgeng/IDebugControl2::GetExecutingProcessorType, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml
+ms.keywords: GetExecutingProcessorType method [Windows Debugging], GetExecutingProcessorType method [Windows Debugging], IDebugControl interface, IDebugControl::GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetExecutingProcessorType, GetExecutingProcessorType, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml, dbgeng/IDebugControl2::GetExecutingProcessorType, debugger.getexecutingprocessortype, IDebugControl2 interface [Windows Debugging], GetExecutingProcessorType method, GetExecutingProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetExecutingProcessorType, IDebugControl3 interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl3, dbgeng/IDebugControl::GetExecutingProcessorType, dbgeng/IDebugControl3::GetExecutingProcessorType, IDebugControl interface [Windows Debugging], GetExecutingProcessorType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetExecutingProcessorType
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetExecutingProcessorType method
@@ -109,9 +109,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>
 

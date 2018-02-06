@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFFile::RetrieveFileName, wudfddi/IWDFFile::RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, RetrieveFileName method, umdf.iwdffile_retrievefilename, IWDFFile, IWDFFile interface, RetrieveFileName method, RetrieveFileName method, IWDFFile interface, wdf.iwdffile_retrievefilename, RetrieveFileName
+ms.keywords: RetrieveFileName, wdf.iwdffile_retrievefilename, RetrieveFileName method, IWDFFile interface, IWDFFile::RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, IWDFFile interface, RetrieveFileName method, wudfddi/IWDFFile::RetrieveFileName, umdf.iwdffile_retrievefilename, IWDFFile, RetrieveFileName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFFile.RetrieveFileName
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

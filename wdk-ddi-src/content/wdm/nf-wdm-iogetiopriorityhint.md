@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eddb6cea-74fc-4faf-85fa-3a35d6890802
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, wdm/IoGetIoPriorityHint, IoGetIoPriorityHint, kernel.iogetiopriorityhint, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, IoGetIoPriorityHint, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture], kernel.iogetiopriorityhint, wdm/IoGetIoPriorityHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

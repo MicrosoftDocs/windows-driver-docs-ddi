@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], RIL_GetMsgServiceOptions, rilapi/RIL_GetMsgServiceOptions, netvista.ril_getmsgserviceoptions
+ms.keywords: netvista.ril_getmsgserviceoptions, RIL_GetMsgServiceOptions, rilapi/RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetMsgServiceOptions
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

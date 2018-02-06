@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFCmResourceList::GetDescriptor, GetDescriptor, IWDFCmResourceList interface, GetDescriptor method, wudfddi/IWDFCmResourceList::GetDescriptor, wdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList interface, umdf.iwdfcmresourcelist_getdescriptor, IWDFCmResourceList, GetDescriptor method
+ms.keywords: wdf.iwdfcmresourcelist_getdescriptor, IWDFCmResourceList, GetDescriptor, GetDescriptor method, IWDFCmResourceList interface, wudfddi/IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, IWDFCmResourceList interface, GetDescriptor method, GetDescriptor method, IWDFCmResourceList::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFCmResourceList.GetDescriptor
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA114D60-60EE-4D1D-B42C-A84CE54C8B95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_copyflags, D3DDDIARG_COPYFLAGS, d3dumddi/D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices]
+ms.keywords: D3DDDIARG_COPYFLAGS structure [Display Devices], display.d3dddiarg_copyflags, D3DDDIARG_COPYFLAGS, d3dumddi/D3DDDIARG_COPYFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

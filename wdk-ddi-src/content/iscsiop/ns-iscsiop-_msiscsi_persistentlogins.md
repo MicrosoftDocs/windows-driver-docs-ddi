@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c735d9c9-8e87-4a80-af1d-c97d457f78fa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_PersistentLogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, storage.msiscsi_persistentlogins, iscsiop/MSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins, _MSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices]
+ms.keywords: MSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, MSiSCSI_PersistentLogins structure [Storage Devices], _MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], iscsiop/MSiSCSI_PersistentLogins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_PersistentLogins
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins
+req.typenames: "*PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins"
 ---
 
 # _MSiSCSI_PersistentLogins structure
@@ -95,9 +95,9 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
-
 <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
 
  
 

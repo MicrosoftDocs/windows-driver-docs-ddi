@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], display.d3dddiarg_checkpresentdurationsupport, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
+ms.keywords: d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

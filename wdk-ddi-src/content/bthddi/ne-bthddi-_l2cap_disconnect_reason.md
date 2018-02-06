@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.l2cap_disconnect_reason, RadioPoweredDown, bthddi/L2capDisconnectRequest, HardwareRemoval, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, bthddi/L2CAP_DISCONNECT_REASON, L2capDisconnectRequest, L2CAP_DISCONNECT_REASON, bthddi/RadioPoweredDown, _L2CAP_DISCONNECT_REASON, bthddi/HardwareRemoval, bthddi/HciDisconnect, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], HciDisconnect
+ms.keywords: bthddi/L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON, HciDisconnect, L2capDisconnectRequest, bthddi/RadioPoweredDown, bthddi/HardwareRemoval, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], RadioPoweredDown, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, bthddi/L2capDisconnectRequest, bthddi/HciDisconnect, HardwareRemoval, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

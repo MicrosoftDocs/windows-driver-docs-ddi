@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11fc231e-4b65-4cbb-8c0f-58b1165c08dd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_EnableModemFilters method [Network Drivers Starting with Windows Vista], rilapi/RIL_EnableModemFilters, RIL_EnableModemFilters, netvista.ril_enablemodemfilters
+ms.keywords: RIL_EnableModemFilters, rilapi/RIL_EnableModemFilters, netvista.ril_enablemodemfilters, RIL_EnableModemFilters method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_EnableModemFilters
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

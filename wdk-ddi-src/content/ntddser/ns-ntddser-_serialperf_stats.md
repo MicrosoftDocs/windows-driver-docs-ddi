@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERIALPERF_STATS structure pointer [Serial Ports], ntddser/PSERIALPERF_STATS, serports.serialperf_stats, _SERIALPERF_STATS, PSERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], SERIALPERF_STATS, ntddser/SERIALPERF_STATS, *PSERIALPERF_STATS
+ms.keywords: ntddser/PSERIALPERF_STATS, _SERIALPERF_STATS, ntddser/SERIALPERF_STATS, SERIALPERF_STATS, *PSERIALPERF_STATS, PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], serports.serialperf_stats, SERIALPERF_STATS structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

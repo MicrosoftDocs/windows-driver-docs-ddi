@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set, PO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET
+ms.keywords: PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_set, *PPO_FX_COMPONENT_PERF_SET, _PO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_COMPONENT_PERF_SET
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET"
+req.typenames: PO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET
 req.product: Windows 10 or later.
 ---
 
@@ -142,11 +142,11 @@ Most drivers are expected to define a single set of performance states per compo
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
-
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+<a href="..\wdm\ns-wdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
 
  
 

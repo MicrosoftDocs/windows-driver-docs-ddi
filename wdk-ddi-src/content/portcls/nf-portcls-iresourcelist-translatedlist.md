@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IResourceList, IResourceList::TranslatedList, TranslatedList method [Audio Devices], IResourceList interface, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, TranslatedList method [Audio Devices], portcls/IResourceList::TranslatedList, TranslatedList, IResourceList interface [Audio Devices], TranslatedList method
+ms.keywords: IResourceList, portcls/IResourceList::TranslatedList, TranslatedList, TranslatedList method [Audio Devices], IResourceList interface [Audio Devices], TranslatedList method, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, IResourceList::TranslatedList, TranslatedList method [Audio Devices], IResourceList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorStartDevice, storport/PSRBEX_DATA_PNP, StorStopDevice, *PSRBEX_DATA_PNP, StorQueryCapabilities, storage.srbex_data_pnp, PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], StorRemoveDevice, StorFilterResourceRequirements, StorSupriseRemoval, _SRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, StorQueryResourceRequirements, SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices]
+ms.keywords: "_SRBEX_DATA_PNP, StorStopDevice, StorFilterResourceRequirements, StorStartDevice, StorQueryResourceRequirements, storage.srbex_data_pnp, *PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, storport/PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorRemoveDevice, StorSupriseRemoval, SRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], StorQueryCapabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_PNP
 product: Windows
 targetos: Windows
-req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
+req.typenames: "*PSRBEX_DATA_PNP, SRBEX_DATA_PNP"
 req.product: Windows 10 or later.
 ---
 
@@ -184,7 +184,7 @@ Surprise Removal of the device. This value is available starting with Windows 7
 
 ### -field SrbPnPFlags
 
-Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved1
@@ -194,7 +194,7 @@ This member is reserved. Set to 0.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dmusicks/PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], _DMUS_KERNEL_EVENT, dmusicks/DMUS_KERNEL_EVENT, audio.dmus_kernel_event, DMUS_KERNEL_EVENT structure [Audio Devices], aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, *PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT
+ms.keywords: "_DMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT, dmusicks/DMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], DMUS_KERNEL_EVENT structure [Audio Devices], aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, audio.dmus_kernel_event, DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,9 +185,9 @@ Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
  
 

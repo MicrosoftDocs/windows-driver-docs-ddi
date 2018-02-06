@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UsbdEndpointOffloadHardwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadModeNotSupported, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, UsbdEndpointOffloadSoftwareAssisted, usb/UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted, usb/USBD_ENDPOINT_OFFLOAD_MODE
+ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadModeNotSupported, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], usb/UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadSoftwareAssisted, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

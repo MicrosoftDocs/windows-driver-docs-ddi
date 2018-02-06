@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 22301feb-2c6b-43ac-b7e8-c10f2e8e4d62
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SDBUS_PROPERTY, ntddsd/SDP_MEDIA_STATE, ntddsd/SDP_BUS_CLOCK, SDP_BUS_WIDTH, SDBUS_PROPERTY enumeration [Buses], ntddsd/SDP_MEDIA_CHANGECOUNT, ntddsd/SDP_FUNCTION_BLOCK_LENGTH, SDP_MEDIA_STATE, SD.sdbus_property, ntddsd/SDP_BUS_DRIVER_VERSION, SDP_BUS_DRIVER_VERSION, ntddsd/SDP_HOST_BLOCK_LENGTH, sd-structs_257d86c6-0dd9-4f44-b85d-61647d2d8e8b.xml, ntddsd/SDP_BUS_WIDTH, SDP_BUS_INTERFACE_CONTROL, ntddsd/SDBUS_PROPERTY, SDP_FUNCTION_TYPE, SDP_FUNCTION_NUMBER, SDP_HOST_BLOCK_LENGTH, SDP_FUNCTION_BLOCK_LENGTH, SDP_FN0_BLOCK_LENGTH, ntddsd/SDP_FUNCTION_NUMBER, ntddsd/SDP_BUS_INTERFACE_CONTROL, ntddsd/SDP_FN0_BLOCK_LENGTH, SDP_FUNCTION_INT_ENABLE, SDP_BUS_CLOCK, ntddsd/SDP_FUNCTION_INT_ENABLE, ntddsd/SDP_WRITE_PROTECTED, SDP_MEDIA_CHANGECOUNT, SDP_WRITE_PROTECTED, ntddsd/SDP_FUNCTION_TYPE
+ms.keywords: ntddsd/SDP_HOST_BLOCK_LENGTH, ntddsd/SDP_WRITE_PROTECTED, ntddsd/SDBUS_PROPERTY, SDP_FUNCTION_INT_ENABLE, ntddsd/SDP_FN0_BLOCK_LENGTH, SDP_MEDIA_CHANGECOUNT, SDP_FUNCTION_NUMBER, ntddsd/SDP_FUNCTION_BLOCK_LENGTH, ntddsd/SDP_MEDIA_CHANGECOUNT, SDP_BUS_WIDTH, ntddsd/SDP_FUNCTION_TYPE, SDP_BUS_DRIVER_VERSION, SDBUS_PROPERTY, SDP_BUS_CLOCK, ntddsd/SDP_BUS_DRIVER_VERSION, ntddsd/SDP_BUS_CLOCK, ntddsd/SDP_FUNCTION_NUMBER, SDP_BUS_INTERFACE_CONTROL, ntddsd/SDP_MEDIA_STATE, SDP_FN0_BLOCK_LENGTH, SDP_MEDIA_STATE, ntddsd/SDP_BUS_WIDTH, SDP_FUNCTION_BLOCK_LENGTH, SDBUS_PROPERTY enumeration [Buses], sd-structs_257d86c6-0dd9-4f44-b85d-61647d2d8e8b.xml, SDP_WRITE_PROTECTED, SD.sdbus_property, SDP_FUNCTION_TYPE, ntddsd/SDP_FUNCTION_INT_ENABLE, SDP_HOST_BLOCK_LENGTH, ntddsd/SDP_BUS_INTERFACE_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -189,11 +189,11 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
  
 

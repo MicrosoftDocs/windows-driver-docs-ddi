@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 26d88928-798f-46ee-9805-3b7da2056e2e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iobuildpartialmdl, k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], IoBuildPartialMdl, wdm/IoBuildPartialMdl
+ms.keywords: kernel.iobuildpartialmdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], IoBuildPartialMdl, k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, wdm/IoBuildPartialMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,13 +117,13 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
-
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
 
 <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 

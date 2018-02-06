@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 837f5a55-ca07-4462-85d7-203d02df168c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ntddk/HARDWARE_COUNTER_TYPE, ntddk/PHARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, PMCCounter, ntddk/PMCCounter, PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, MaxHardwareCounterType, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER_TYPE
+ms.keywords: "_HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], *PHARDWARE_COUNTER_TYPE, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, ntddk/MaxHardwareCounterType, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], PMCCounter, ntddk/PMCCounter, ntddk/HARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE, ntddk/PHARDWARE_COUNTER_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	HARDWARE_COUNTER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE
+req.typenames: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE"
 ---
 
 # _HARDWARE_COUNTER_TYPE enumeration

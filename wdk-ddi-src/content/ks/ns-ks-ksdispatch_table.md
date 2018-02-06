@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: baa45ce7-3dcd-4383-99f2-aeb664a03190
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks/PKSDISPATCH_TABLE, ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, PKSDISPATCH_TABLE, stream.ksdispatch_table, ks/KSDISPATCH_TABLE, KSDISPATCH_TABLE"
+ms.keywords: KSDISPATCH_TABLE, stream.ksdispatch_table, PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, *PKSDISPATCH_TABLE, ks/KSDISPATCH_TABLE, PKSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

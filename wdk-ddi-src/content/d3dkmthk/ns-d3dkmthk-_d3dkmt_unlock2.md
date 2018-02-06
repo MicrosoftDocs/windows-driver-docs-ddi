@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8651297B-BCF7-42A2-9175-D9D072E052D6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_UNLOCK2, D3DKMT_UNLOCK2, _D3DKMT_UNLOCK2, display.d3dkmt_unlock2, D3DKMT_UNLOCK2 structure [Display Devices]
+ms.keywords: D3DKMT_UNLOCK2 structure [Display Devices], display.d3dkmt_unlock2, _D3DKMT_UNLOCK2, d3dkmthk/D3DKMT_UNLOCK2, D3DKMT_UNLOCK2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

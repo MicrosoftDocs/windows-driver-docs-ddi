@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, AddSymbolOptions, debugger.addsymboloptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, IDebugSymbols3, AddSymbolOptions method [Windows Debugging], AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, dbgeng/IDebugSymbols::AddSymbolOptions, dbgeng/IDebugSymbols2::AddSymbolOptions, IDebugSymbols2::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions
+ms.keywords: IDebugSymbols::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging], debugger.addsymboloptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, IDebugSymbols2::AddSymbolOptions, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, dbgeng/IDebugSymbols2::AddSymbolOptions, AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols::AddSymbolOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.AddSymbolOptions
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AddSymbolOptions method
@@ -110,17 +110,17 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
 
  
 

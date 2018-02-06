@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2798729-98a2-44b6-94a6-180bb4db96cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*POB_PRE_DUPLICATE_HANDLE_INFORMATION, kstruct_c_5511a4ac-ea2e-412f-8514-021853d5abfd.xml, wdm/POB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], OB_PRE_DUPLICATE_HANDLE_INFORMATION, wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION, kernel.ob_pre_duplicate_handle_information, POB_PRE_DUPLICATE_HANDLE_INFORMATION, POB_PRE_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_DUPLICATE_HANDLE_INFORMATION"
+ms.keywords: wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION, wdm/POB_PRE_DUPLICATE_HANDLE_INFORMATION, POB_PRE_DUPLICATE_HANDLE_INFORMATION, kstruct_c_5511a4ac-ea2e-412f-8514-021853d5abfd.xml, *POB_PRE_DUPLICATE_HANDLE_INFORMATION, POB_PRE_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], OB_PRE_DUPLICATE_HANDLE_INFORMATION, kernel.ob_pre_duplicate_handle_information, OB_PRE_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], _OB_PRE_DUPLICATE_HANDLE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

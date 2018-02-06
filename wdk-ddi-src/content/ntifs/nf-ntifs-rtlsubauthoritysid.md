@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bd3f84ad-d617-4744-b423-1d82da3b05c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/RtlSubAuthoritySid, ifsk.rtlsubauthoritysid, RtlSubAuthoritySid, rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid routine [Installable File System Drivers]
+ms.keywords: rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml, RtlSubAuthoritySid routine [Installable File System Drivers], ntifs/RtlSubAuthoritySid, ifsk.rtlsubauthoritysid, RtlSubAuthoritySid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

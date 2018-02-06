@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcdae08f-69a6-496b-8391-d2b505fb86d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_DEVICE_INFO, display.dxgk_device_info, PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], dispmprt/PDXGK_DEVICE_INFO, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, *PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO structure pointer [Display Devices], DXGK_DEVICE_INFO, dispmprt/DXGK_DEVICE_INFO"
+ms.keywords: dispmprt/PDXGK_DEVICE_INFO, dispmprt/DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO, display.dxgk_device_info, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, _DXGK_DEVICE_INFO, DXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], PDXGK_DEVICE_INFO structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_DEVICE_INFO
 product: Windows
 targetos: Windows
-req.typenames: DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO
+req.typenames: "*PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO"
 ---
 
 # _DXGK_DEVICE_INFO structure
@@ -129,9 +129,9 @@ The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_dev
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
 
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 

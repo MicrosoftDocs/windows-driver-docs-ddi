@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: cda3bfc6-7bdb-4b5a-8845-9a2ca1cc8014
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PCHANNEL_CONFIG_RESULTS, bltooth.channel_config_results, bthddi/PCHANNEL_CONFIG_RESULTS, bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, bthddi/CHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices]
+ms.keywords: bltooth.channel_config_results, CHANNEL_CONFIG_RESULTS, _CHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices], bthddi/PCHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS, bthddi/CHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANNEL_CONFIG_RESULTS
 product: Windows
 targetos: Windows
-req.typenames: CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS
+req.typenames: "*PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS"
 ---
 
 # _CHANNEL_CONFIG_RESULTS structure
@@ -95,9 +95,9 @@ The CHANNEL_CONFIG_RESULTS structure is passed in the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
-
 <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT, storage.scsireadcapacity_out, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, iscsiop/PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices]"
+ms.keywords: PScsiReadCapacity_OUT structure pointer [Storage Devices], PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], iscsiop/ScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, iscsiop/PScsiReadCapacity_OUT, storage.scsireadcapacity_out, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReadCapacity_OUT
 product: Windows
 targetos: Windows
-req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
+req.typenames: "*PScsiReadCapacity_OUT, ScsiReadCapacity_OUT"
 ---
 
 # _ScsiReadCapacity_OUT structure
@@ -105,11 +105,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
  
 

@@ -92,14 +92,14 @@ HRESULT APIENTRY* pfnCreatePipelineState(
 
 
 
-#### - CreatePipelineState [in]
-
-A value used to create a pipeline state.
-
-
 #### - hDevice
 
 The handle of a device. 
+
+
+#### - CreatePipelineState [in]
+
+A value used to create a pipeline state.
 
 
 #### - hPipelineState

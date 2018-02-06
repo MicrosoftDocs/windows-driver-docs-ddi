@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c94e2189-62a6-44d6-9a29-4fd32c72437a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksds3d_buffer_all, *PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL structure pointer [Audio Devices], aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml, ksmedia/PKSDS3D_BUFFER_ALL, ksmedia/KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL structure [Audio Devices]
+ms.keywords: audio.ksds3d_buffer_all, PKSDS3D_BUFFER_ALL structure pointer [Audio Devices], ksmedia/KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, *PKSDS3D_BUFFER_ALL, ksmedia/PKSDS3D_BUFFER_ALL, aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml, PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

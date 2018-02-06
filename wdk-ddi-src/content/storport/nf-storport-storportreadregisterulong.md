@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 308e6401-9726-4333-bde8-1aec9558c5fb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportreadregisterulong, storport/StorPortReadRegisterUlong, StorPortReadRegisterUlong routine [Storage Devices], storprt_dd719ccb-d625-4820-a371-dff748037a99.xml, StorPortReadRegisterUlong
+ms.keywords: storport/StorPortReadRegisterUlong, StorPortReadRegisterUlong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml, StorPortReadRegisterUlong routine [Storage Devices], storage.storportreadregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

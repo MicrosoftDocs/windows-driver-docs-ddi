@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 84f6d47f-bd14-4df4-b4fa-e58412daba6f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaustrw2w, wiauStrW2W function [Imaging Devices], wiautil/wiauStrW2W, wiauStrW2W, wiauFncs_4778241e-19d0-40e1-ae24-e58e950ba540.xml
+ms.keywords: wiauFncs_4778241e-19d0-40e1-ae24-e58e950ba540.xml, wiautil/wiauStrW2W, image.wiaustrw2w, wiauStrW2W, wiauStrW2W function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: print\iprintoemdriverui_drvupdateuisetting.htm
 old-project: print
 ms.assetid: f5dec76e-16ad-4df0-b3c9-f0cbfb9b8c41
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, print.iprintoemdriverui_drvupdateuisetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method, DrvUpdateUISetting, IPrintOemDriverUI::DrvUpdateUISetting, IPrintOemDriverUI
+ms.date: 2/2/2018
+ms.keywords: DrvUpdateUISetting method [Print Devices], print.iprintoemdriverui_drvupdateuisetting, IPrintOemDriverUI, prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml, DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], IPrintOemDriverUI interface, IPrintOemDriverUI::DrvUpdateUISetting, IPrintOemDriverUI interface [Print Devices], DrvUpdateUISetting method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemDriverUI.DrvUpdateUISetting
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

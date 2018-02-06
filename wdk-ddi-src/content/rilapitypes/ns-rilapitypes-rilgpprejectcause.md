@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b182f937-3d0d-4558-967a-da2be3c73843
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILGPPREJECTCAUSE, rilapitypes/RILGPPREJECTCAUSE, netvista.rilgpprejectcause_2, RILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.rilgpprejectcause_2, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGPPREJECTCAUSE, RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGPPREJECTCAUSE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE"
+req.typenames: RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE
 req.product: Windows 10 or later.
 ---
 

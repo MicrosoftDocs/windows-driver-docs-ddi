@@ -7,8 +7,8 @@ old-location: print\printermessageboxa.htm
 old-project: print
 ms.assetid: 6C238FF8-1EBC-4E3B-9184-D82F5A39DA2F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.printermessageboxa, PrinterMessageBoxA function [Print Devices], PrinterMessageBoxA, winspool/PrinterMessageBoxA
+ms.date: 2/2/2018
+ms.keywords: PrinterMessageBoxA function [Print Devices], PrinterMessageBoxA, winspool/PrinterMessageBoxA, print.printermessageboxa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

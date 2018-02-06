@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49584600-e470-4be8-9111-3e890a9fedfd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP, WdfDevStateIsNP, wdf.wdfdevstateisnp, PFN_WDFDEVSTATEISNP, WdfDevStateIsNP method, DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml
+ms.keywords: WdfDevStateIsNP, wdfdevice/WdfDevStateIsNP, wdf.wdfdevstateisnp, PFN_WDFDEVSTATEISNP, kmdf.wdfdevstateisnp, WdfDevStateIsNP method, DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/BoundExceptionHandled, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionError, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionMaximum, *PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, _BOUND_CALLBACK_STATUS, wdm/BOUND_CALLBACK_STATUS, BoundExceptionHandled, kernel.bound_callback_status, wdm/BoundExceptionError, BoundExceptionContinueSearch, BoundExceptionMaximum
+ms.keywords: kernel.bound_callback_status, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/BoundExceptionHandled, BoundExceptionMaximum, *PBOUND_CALLBACK_STATUS, BoundExceptionHandled, BoundExceptionContinueSearch, wdm/BoundExceptionContinueSearch, wdm/BOUND_CALLBACK_STATUS, BoundExceptionError, BOUND_CALLBACK_STATUS, _BOUND_CALLBACK_STATUS, wdm/BoundExceptionMaximum, wdm/BoundExceptionError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	BOUND_CALLBACK_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS"
+req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
 req.product: Windows 10 or later.
 ---
 

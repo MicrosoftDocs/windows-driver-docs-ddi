@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
 old-project: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, print.iprintcorehelperps_createinstanceofmsxmlobject, CreateInstanceOfMSXMLObject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, IPrintCoreHelperPS, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method
+ms.date: 2/2/2018
+ms.keywords: IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

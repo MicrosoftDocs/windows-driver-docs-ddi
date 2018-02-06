@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests, irb/AtaPortCompleteAllActiveRequests, atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, AtaPortCompleteAllActiveRequests routine [Storage Devices]
+ms.keywords: storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests, atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion, KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype, IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType
+ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion, stream.iksdatatypecompletion_kscompletemediatype, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

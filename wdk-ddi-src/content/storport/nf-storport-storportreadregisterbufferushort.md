@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 169f1089-ac17-4d4c-b989-018ff087aa39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReadRegisterBufferUshort, storage.storportreadregisterbufferushort, StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
+ms.keywords: storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml, StorPortReadRegisterBufferUshort, storage.storportreadregisterbufferushort, StorPortReadRegisterBufferUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferushor
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>
-
 <a href="..\srb\nf-srb-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
+
+<a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>
 
  
 

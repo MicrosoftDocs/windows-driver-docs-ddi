@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 358b1aa9-4bfd-4bed-94f7-1b021c732a02
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfcancelsendnetbufferlists, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelSendNetBufferLists, filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, NdisFCancelSendNetBufferLists
+ms.keywords: NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, netvista.ndisfcancelsendnetbufferlists, NdisFCancelSendNetBufferLists, ndis/NdisFCancelSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,10 +118,10 @@ NDIS returns canceled send data that the filter driver originated to the
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
 <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
    FilterCancelSendNetBufferLists</a>
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
    FilterSendNetBufferListsComplete</a>

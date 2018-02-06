@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosStatisticsHeader, pos.posstatisticsheader, _PosStatisticsHeader, PosStatisticsHeader structure, pointofservicedriverinterface/PosStatisticsHeader
+ms.keywords: PosStatisticsHeader, pos.posstatisticsheader, PosStatisticsHeader structure, pointofservicedriverinterface/PosStatisticsHeader, _PosStatisticsHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

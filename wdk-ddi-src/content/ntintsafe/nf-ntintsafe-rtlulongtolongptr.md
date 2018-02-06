@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 707C2392-D78F-42E1-A9F8-9F502BF5227E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongToLongPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongToLongPtr, kernel.rtlulongtolongptr, RtlULongToLongPtr
+ms.keywords: RtlULongToLongPtr, kernel.rtlulongtolongptr, RtlULongToLongPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

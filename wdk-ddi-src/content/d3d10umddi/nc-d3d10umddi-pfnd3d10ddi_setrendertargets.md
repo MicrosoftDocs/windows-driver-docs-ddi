@@ -40,7 +40,7 @@ apiname:
 -	SetRenderTargets
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback
@@ -97,23 +97,6 @@ VOID APIENTRY SetRenderTargets(
 
 
 
-#### - ClearTargets [in]
-
- The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
-
-Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
-
-
-#### - RTargets [in]
-
- The number of elements in the array that <i>phRenderTargetView</i> specifies. 
-
-
-#### - hDepthStencilView [in]
-
- A handle to the depth stencil buffer to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -122,6 +105,23 @@ Note that the number that <i>ClearTargets</i> specifies is only an optimization 
 #### - phRenderTargetView [in]
 
  An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
+
+
+#### - RTargets [in]
+
+ The number of elements in the array that <i>phRenderTargetView</i> specifies. 
+
+
+#### - ClearTargets [in]
+
+ The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
+
+Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
+
+
+#### - hDepthStencilView [in]
+
+ A handle to the depth stencil buffer to set. 
 
 
 ## -returns

@@ -40,7 +40,7 @@ apiname:
 -	EvtDriverDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DPC_CONFIG, WDF_DPC_CONFIG"
+req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
 req.product: Windows 10 or later.
 ---
 

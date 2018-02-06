@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 2bbf5fcf-666e-4265-95cf-7e04670d59da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/NoService, Busy, Extended, pos.unifiedposerrorreason, pointofservicecommontypes/Failure, Failure, pointofservicecommontypes/UnknownErrorReason, Offline, pointofservicecommontypes/DriverUnifiedPosErrorReason, pointofservicecommontypes/Timeout, pointofservicecommontypes/Busy, pointofservicecommontypes/Extended, NoService, pointofservicecommontypes/ NoHardware, pointofservicecommontypes/Offline, DriverUnifiedPosErrorReason enumeration, Timeout, pointofservicecommontypes/Closed, UnknownErrorReason, DriverUnifiedPosErrorReason, NoHardware, Illegal, pointofservicecommontypes/Disabled, pointofservicecommontypes/Illegal, Disabled, Closed
+ms.keywords: Disabled, Extended, UnknownErrorReason, Failure, Timeout, pos.unifiedposerrorreason, DriverUnifiedPosErrorReason enumeration, pointofservicecommontypes/Timeout, Offline, pointofservicecommontypes/UnknownErrorReason, NoService, NoHardware, Illegal, pointofservicecommontypes/DriverUnifiedPosErrorReason, pointofservicecommontypes/Busy, pointofservicecommontypes/NoService, pointofservicecommontypes/Disabled, pointofservicecommontypes/Closed, pointofservicecommontypes/Extended, pointofservicecommontypes/ NoHardware, DriverUnifiedPosErrorReason, Closed, Busy, pointofservicecommontypes/Failure, pointofservicecommontypes/Illegal, pointofservicecommontypes/Offline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

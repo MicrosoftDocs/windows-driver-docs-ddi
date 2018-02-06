@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5719dfa-e48a-4f81-8344-31b349fadb48
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerGetStatus function [Storage Devices], storage.changergetstatus, ChangerGetStatus, mcd/ChangerGetStatus, chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml
+ms.keywords: mcd/ChangerGetStatus, chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, ChangerGetStatus, storage.changergetstatus, ChangerGetStatus function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 31fada1c-53eb-4e55-bf5f-bf852a8df3ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/GetCurrentProcessAddr, GetCurrentProcessAddr function [Windows Debugging], WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml, debugger.getcurrentprocessaddr, GetCurrentProcessAddr
+ms.keywords: wdbgexts/GetCurrentProcessAddr, WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml, GetCurrentProcessAddr function [Windows Debugging], debugger.getcurrentprocessaddr, GetCurrentProcessAddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -40,7 +40,7 @@ apiname:
 -	CheckMultisampleQualityLevels
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback
@@ -92,6 +92,11 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - Format [in]
 
  A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
@@ -100,11 +105,6 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 #### - SampleCount [in]
 
  The number of samples to retrieve the quality levels for. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - pNumQualityLevels [out]

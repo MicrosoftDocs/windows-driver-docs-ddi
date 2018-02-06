@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b3b14c21-3613-4f84-9e7d-368c4cc3fa9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.key_value_basic_information, wdm/KEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PKEY_VALUE_BASIC_INFORMATION, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, _KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_VALUE_BASIC_INFORMATION
+ms.keywords: kernel.key_value_basic_information, *PKEY_VALUE_BASIC_INFORMATION, wdm/KEY_VALUE_BASIC_INFORMATION, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, PKEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -228,13 +228,13 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 <a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
  
 

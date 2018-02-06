@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ideregs, IDEREGS, *LPIDEREGS, PIDEREGS, *PIDEREGS, IDEREGS structure [Storage Devices], LPIDEREGS, _IDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, ntdddisk/IDEREGS, PIDEREGS structure pointer [Storage Devices], ntdddisk/PIDEREGS, LPIDEREGS structure pointer [Storage Devices], ntdddisk/LPIDEREGS
+ms.keywords: PIDEREGS, LPIDEREGS structure pointer [Storage Devices], structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, IDEREGS, LPIDEREGS, ntdddisk/IDEREGS, IDEREGS structure [Storage Devices], PIDEREGS structure pointer [Storage Devices], _IDEREGS, *LPIDEREGS, ntdddisk/LPIDEREGS, storage.ideregs, *PIDEREGS, ntdddisk/PIDEREGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDEREGS
 product: Windows
 targetos: Windows
-req.typenames: IDEREGS, *LPIDEREGS, *PIDEREGS
+req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
 ---
 
 # _IDEREGS structure
@@ -232,9 +232,9 @@ Reserved for future use. Should always be zero.
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
-
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
 
  
 

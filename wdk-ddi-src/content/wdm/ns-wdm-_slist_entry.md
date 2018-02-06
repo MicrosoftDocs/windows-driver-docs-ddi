@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 690bcd8a-3c4f-4254-99c7-4ad600b4ae4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SLIST_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PSLIST_ENTRY, wdm/SLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], _SLIST_ENTRY, PSLIST_ENTRY, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, SLIST_ENTRY, kernel.slist_entry, *PSLIST_ENTRY
+ms.keywords: kernel.slist_entry, PSLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], _SLIST_ENTRY, SLIST_ENTRY, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, wdm/PSLIST_ENTRY, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], *PSLIST_ENTRY, wdm/SLIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SLIST_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PSLIST_ENTRY, SLIST_ENTRY"
+req.typenames: SLIST_ENTRY, *PSLIST_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,11 @@ For more information about how to use <b>SLIST_ENTRY</b> structures to implement
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
+
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 <a href="..\wdm\nf-wdm-exinterlockedflushslist.md">ExInterlockedFlushSList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c1bd12e0-0862-4e51-a9e8-71eb7b2549fd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, kernel.iowmisetnotificationcallback, wdm/IoWMISetNotificationCallback, IoWMISetNotificationCallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoWMISetNotificationCallback, wdm/IoWMISetNotificationCallback, k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], kernel.iowmisetnotificationcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,9 +104,9 @@ This routine returns STATUS_SUCCESS on success, and the appropriate NTSTATUS err
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
-
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STATE_CHANGE_BUS, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], STATE_CHANGE_TARGET, STATE_CHANGE_LUN, storport/StorPortStateChangeDetected, ATTRIBUTE_VM_PASSTHROUGH_LUN, storage.storportstatechangedetected
+ms.keywords: storport/StorPortStateChangeDetected, STATE_CHANGE_TARGET, StorPortStateChangeDetected, ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, STATE_CHANGE_LUN, storage.storportstatechangedetected, StorPortStateChangeDetected routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

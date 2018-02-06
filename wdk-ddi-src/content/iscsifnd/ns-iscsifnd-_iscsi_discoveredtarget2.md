@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 77fb2942-5836-44cb-9a5e-e45f6a022264
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_DiscoveredTarget2 structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], PISCSI_DiscoveredTarget2, storage.iscsi_discoveredtarget2, ISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, _ISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2, iscsifnd/ISCSI_DiscoveredTarget2
+ms.keywords: PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], storage.iscsi_discoveredtarget2, PISCSI_DiscoveredTarget2, iscsifnd/ISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, iscsifnd/PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2, _ISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2 structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_DiscoveredTarget2
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2"
+req.typenames: ISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2
 ---
 
 # _ISCSI_DiscoveredTarget2 structure
@@ -105,9 +105,9 @@ The only difference between the ISCSI_DiscoveredTarget2 structure and the <a hre
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
-
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
 
  
 

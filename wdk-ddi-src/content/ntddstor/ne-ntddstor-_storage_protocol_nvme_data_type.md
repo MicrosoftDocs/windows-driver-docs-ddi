@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02DB004B-F5B9-4CA2-9CA8-9C7BFB9BA5CD
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeUnknown, ntddstor/NVMeDataTypeIdentify, NVMeDataTypeLogPage, ntddstor/STORAGE_PROTOCOL_NVME_DATA_TYPE, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, storage.storage_protocol_nvme_data_type, ntddstor/NVMeDataTypeUnknown, ntddstor/NVMeDataTypeLogPage, NVMeDataTypeFeature, STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Storage Devices], NVMeDataTypeIdentify, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Storage Devices], _STORAGE_PROTOCOL_NVME_DATA_TYPE, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeFeature, STORAGE_PROTOCOL_NVME_DATA_TYPE
+ms.keywords: ntddstor/NVMeDataTypeUnknown, PSTORAGE_PROTOCOL_NVME_DATA_TYPE, PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer [Storage Devices], NVMeDataTypeFeature, STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration [Storage Devices], STORAGE_PROTOCOL_NVME_DATA_TYPE, NVMeDataTypeUnknown, NVMeDataTypeLogPage, NVMeDataTypeIdentify, ntddstor/STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeIdentify, storage.storage_protocol_nvme_data_type, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE, _STORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeLogPage, ntddstor/PSTORAGE_PROTOCOL_NVME_DATA_TYPE, ntddstor/NVMeDataTypeFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_NVME_DATA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PROTOCOL_NVME_DATA_TYPE, STORAGE_PROTOCOL_NVME_DATA_TYPE"
+req.typenames: STORAGE_PROTOCOL_NVME_DATA_TYPE, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE
 ---
 
 # _STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration
@@ -131,13 +131,13 @@ Set the <b>DataType</b>  field to an enumeration value defined by <b>STORAGE_PRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
  
 

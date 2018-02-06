@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a3e443e5-1766-4292-a25a-ad673734bac1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_fe1fe8d4-8abd-4db3-8438-ef7dddadfa5c.xml, ksmedia/KSPROPERTY_TUNER_MODE_S, PKSPROPERTY_TUNER_MODE_S structure pointer [Streaming Media Devices], stream.ksproperty_tuner_mode_s, *PKSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_MODE_S, ksmedia/PKSPROPERTY_TUNER_MODE_S
+ms.keywords: KSPROPERTY_TUNER_MODE_S structure [Streaming Media Devices], vidcapstruct_fe1fe8d4-8abd-4db3-8438-ef7dddadfa5c.xml, *PKSPROPERTY_TUNER_MODE_S, ksmedia/KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S, PKSPROPERTY_TUNER_MODE_S structure pointer [Streaming Media Devices], PKSPROPERTY_TUNER_MODE_S, ksmedia/PKSPROPERTY_TUNER_MODE_S, stream.ksproperty_tuner_mode_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -136,11 +136,11 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565862">KSPROPERTY_TUNER_MODE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
  
 

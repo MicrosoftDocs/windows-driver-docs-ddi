@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9dd3632c-4c88-470d-8419-10959eda0454
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DebugCreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, DebugCreate function [Windows Debugging], debugger.debugcreate, DebugCreate
+ms.keywords: dbgeng/DebugCreate, DebugCreate function [Windows Debugging], DebugCreate, debugger.debugcreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DebugCreate
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # DebugCreate function

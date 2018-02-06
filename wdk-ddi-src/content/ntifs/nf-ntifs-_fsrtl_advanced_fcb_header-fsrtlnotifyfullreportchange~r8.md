@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlNotifyFullReportChange, fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], ifsk.fsrtlnotifyfullreportchange
+ms.keywords: fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, FsRtlNotifyFullReportChange, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5CCFA490-090E-4F24-A5E4-4BECA63EBA53
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SENSOR_PROPERTY_LIST_INIT, sensorsdef/SENSOR_PROPERTY_LIST_INIT, sensors.sensor_property_list_init, SENSOR_PROPERTY_LIST_INIT function [Sensor Devices]
+ms.keywords: sensorsdef/SENSOR_PROPERTY_LIST_INIT, SENSOR_PROPERTY_LIST_INIT function [Sensor Devices], SENSOR_PROPERTY_LIST_INIT, sensors.sensor_property_list_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

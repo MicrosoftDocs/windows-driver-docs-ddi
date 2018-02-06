@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce3b17e9-bcbd-46a4-b379-472abfdb4c2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO, display.video_child_enum_info, VIDEO_CHILD_ENUM_INFO structure [Display Devices], VIDEO_CHILD_ENUM_INFO, Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, video/VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], _VIDEO_CHILD_ENUM_INFO, video/PVIDEO_CHILD_ENUM_INFO
+ms.keywords: "_VIDEO_CHILD_ENUM_INFO, video/PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, *PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], display.video_child_enum_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

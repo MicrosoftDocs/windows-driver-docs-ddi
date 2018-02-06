@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4aec39d6-3e12-4393-b477-24ea2036c227
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SUPSVCTYPE_COLR, rilapitypes/RIL_SUPSVCTYPE_MAX, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSUPSVCTYPE, netvista.rilsupsvctype_2, rilapitypes/RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_COLP, RILSUPSVCTYPE, RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_MAX, rilapitypes/RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_COLP
+ms.keywords: RIL_SUPSVCTYPE_MAX, RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_COLP, rilapitypes/RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_CLIP, netvista.rilsupsvctype_2, rilapitypes/RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_COLP, rilapitypes/RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_CLIR, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

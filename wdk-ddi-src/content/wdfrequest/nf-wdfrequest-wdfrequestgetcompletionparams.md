@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 167bb0f3-a484-443b-8bc4-bb2bbcecc19a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestGetCompletionParams method, WdfRequestGetCompletionParams, kmdf.wdfrequestgetcompletionparams, PFN_WDFREQUESTGETCOMPLETIONPARAMS, wdfrequest/WdfRequestGetCompletionParams, DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, wdf.wdfrequestgetcompletionparams
+ms.keywords: WdfRequestGetCompletionParams, wdf.wdfrequestgetcompletionparams, PFN_WDFREQUESTGETCOMPLETIONPARAMS, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, wdfrequest/WdfRequestGetCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

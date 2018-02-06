@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], ntddk/IoVerifyPartitionTable, kernel.ioverifypartitiontable, IoVerifyPartitionTable
+ms.keywords: ntddk/IoVerifyPartitionTable, kernel.ioverifypartitiontable, k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

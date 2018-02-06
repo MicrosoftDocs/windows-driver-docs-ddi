@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BACKLIGHT_INFO structure [Display Devices], display.dxgk_backlight_info, d3dkmdt/DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO, _DXGK_BACKLIGHT_INFO
+ms.keywords: "_DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], display.dxgk_backlight_info, d3dkmdt/DXGK_BACKLIGHT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,9 +98,9 @@ For more information about the use of this structure, see Remarks of the <a href
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7128e49d-71e9-4014-9f08-591cfaeba363
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure [Display Devices], iddcx/IDDCX_METADATA, IDDCX_METADATA structure structure [Display Devices], IDDCX_METADATA structure, display.iddcx_metadata, IDDCX_METADATA
+ms.keywords: IDDCX_METADATA structure pointer [Display Devices], iddcx/IDDCX_METADATA, IDDCX_METADATA structure [Display Devices], display.iddcx_metadata, IDDCX_METADATA structure structure [Display Devices], IDDCX_METADATA structure, IDDCX_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

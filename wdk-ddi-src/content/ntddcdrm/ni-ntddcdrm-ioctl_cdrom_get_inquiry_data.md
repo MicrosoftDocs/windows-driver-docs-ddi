@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_INQUIRY_DATA
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
 ---
 
 # IOCTL_CDROM_GET_INQUIRY_DATA IOCTL
@@ -113,9 +113,9 @@ TBD
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-_inquirydata.md">INQUIRYDATA</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+
+<a href="..\scsi\ns-scsi-_inquirydata.md">INQUIRYDATA</a>
 
  
 

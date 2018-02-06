@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9f47b70a-426c-47a2-b438-fc00eadc002f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_ready_info, ndiswwan/PNDIS_WWAN_READY_INFO, ndiswwan/NDIS_WWAN_READY_INFO, _NDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml, *PNDIS_WWAN_READY_INFO
+ms.keywords: PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_READY_INFO, ndiswwan/PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO, ndiswwan/NDIS_WWAN_READY_INFO, netvista.ndis_wwan_ready_info, PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_READY_INFO, WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

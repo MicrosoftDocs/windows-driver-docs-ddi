@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D9C7BB96-1E26-4D89-9CBE-074232FD0752
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], *PSYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_INFO, _SYSENV_VARIABLE_INFO
+ms.keywords: ntddsysenv/SYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, _SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO, *PSYSENV_VARIABLE_INFO, kernel.sysenv_variable_info, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], ntddsysenv/PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSENV_VARIABLE_INFO
 product: Windows
 targetos: Windows
-req.typenames: SYSENV_VARIABLE_INFO, *PSYSENV_VARIABLE_INFO
+req.typenames: "*PSYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO"
 ---
 
 # _SYSENV_VARIABLE_INFO structure

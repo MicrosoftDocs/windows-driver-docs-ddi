@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8853e0f8-1dd0-4cb5-8dbf-c1d4e62bb0ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkServicesDebugReport, DxgkServicesTimedOperation, DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, DXGK_SERVICES enumeration [Display Devices], DxgkServicesSPB, dispmprt/DxgkServicesSPB, DxgkServicesAgp, dispmprt/DxgkServicesFirmwareTable, DXGK_SERVICES, dispmprt/DxgkServicesAgp, dispmprt/DXGK_SERVICES, dispmprt/DxgkServicesTimedOperation, DxgkServicesBDD, display.dxgk_services, DxgkServicesFirmwareTable, dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesDebugReport
+ms.keywords: dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesAgp, DxgkServicesFirmwareTable, DXGK_SERVICES, DxgkServicesBDD, dispmprt/DXGK_SERVICES, DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, dispmprt/DxgkServicesTimedOperation, dispmprt/DxgkServicesSPB, DxgkServicesAgp, DxgkServicesTimedOperation, DXGK_SERVICES enumeration [Display Devices], display.dxgk_services, dispmprt/DxgkServicesFirmwareTable, DxgkServicesSPB, dispmprt/DxgkServicesDebugReport, DxgkServicesDebugReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

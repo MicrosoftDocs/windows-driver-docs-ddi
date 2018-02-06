@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4bc82faf-a5f9-4363-8317-ad685d5b2166
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeId method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], GetTypeId method, IDebugSymbols2::GetTypeId, GetTypeId method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetTypeId method, IDebugSymbols3::GetTypeId, IDebugSymbols::GetTypeId, GetTypeId method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetTypeId, GetTypeId, dbgeng/IDebugSymbols3::GetTypeId, dbgeng/IDebugSymbols2::GetTypeId, IDebugSymbols2 interface [Windows Debugging], GetTypeId method, debugger.gettypeid, GetTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols_cf0d81fd-9bd1-4b90-a7d5-99f1cb225036.xml
+ms.keywords: GetTypeId method [Windows Debugging], IDebugSymbols interface, GetTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_cf0d81fd-9bd1-4b90-a7d5-99f1cb225036.xml, dbgeng/IDebugSymbols::GetTypeId, IDebugSymbols3::GetTypeId, GetTypeId method [Windows Debugging], GetTypeId, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetTypeId method, debugger.gettypeid, IDebugSymbols::GetTypeId, IDebugSymbols2::GetTypeId, IDebugSymbols interface [Windows Debugging], GetTypeId method, dbgeng/IDebugSymbols2::GetTypeId, GetTypeId method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetTypeId, IDebugSymbols3 interface [Windows Debugging], GetTypeId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetTypeId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetTypeId method
@@ -135,15 +135,15 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548062">GetOffsetTypeId</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 

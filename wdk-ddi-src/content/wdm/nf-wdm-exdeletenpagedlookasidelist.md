@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c12d4e5f-ec02-405c-91e2-cd5884bb8494
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExDeleteNPagedLookasideList, k102_401f2550-ef71-4199-be7f-cdd7652a2c03.xml, wdm/ExDeleteNPagedLookasideList, kernel.exdeletenpagedlookasidelist, ExDeleteNPagedLookasideList routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ExDeleteNPagedLookasideList, k102_401f2550-ef71-4199-be7f-cdd7652a2c03.xml, ExDeleteNPagedLookasideList routine [Kernel-Mode Driver Architecture], ExDeleteNPagedLookasideList, kernel.exdeletenpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,9 +93,9 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
  
 

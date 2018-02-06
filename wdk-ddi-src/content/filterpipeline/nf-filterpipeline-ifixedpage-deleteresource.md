@@ -7,8 +7,8 @@ old-location: print\ifixedpage_deleteresource.htm
 old-project: print
 ms.assetid: 11aefa65-9f1c-4a6e-aac0-8727c6e00a02
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DeleteResource method [Print Devices], IFixedPage::DeleteResource, IFixedPage, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, IFixedPage interface [Print Devices], DeleteResource method, DeleteResource method [Print Devices], IFixedPage interface, print.ifixedpage_deleteresource, DeleteResource, filterpipeline/IFixedPage::DeleteResource
+ms.date: 2/2/2018
+ms.keywords: IFixedPage::DeleteResource, DeleteResource method [Print Devices], IFixedPage interface, DeleteResource, print.ifixedpage_deleteresource, filterpipeline/IFixedPage::DeleteResource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, IFixedPage, DeleteResource method [Print Devices], IFixedPage interface [Print Devices], DeleteResource method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

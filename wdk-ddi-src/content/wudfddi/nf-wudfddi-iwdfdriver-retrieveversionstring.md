@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa320df-bafd-42f4-a0a1-14151c39d68a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver::RetrieveVersionString, RetrieveVersionString method, IWDFDriver, wdf.iwdfdriver_retrieveversionstring, RetrieveVersionString method, IWDFDriver interface, IWDFDriver interface, RetrieveVersionString method, RetrieveVersionString, umdf.iwdfdriver_retrieveversionstring, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, wudfddi/IWDFDriver::RetrieveVersionString
+ms.keywords: UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, RetrieveVersionString method, IWDFDriver interface, IWDFDriver, RetrieveVersionString, umdf.iwdfdriver_retrieveversionstring, wudfddi/IWDFDriver::RetrieveVersionString, wdf.iwdfdriver_retrieveversionstring, IWDFDriver::RetrieveVersionString, RetrieveVersionString method, IWDFDriver interface, RetrieveVersionString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriver.RetrieveVersionString
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

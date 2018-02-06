@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c87a0b8-f355-48a4-a119-11e047e159d0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, FORMAT_EX_PARAMETERS structure [Storage Devices], PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], ntdddisk/FORMAT_EX_PARAMETERS, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml
+ms.keywords: ntdddisk/FORMAT_EX_PARAMETERS, structs-disk_753384dd-08cd-40ee-90dc-61a82e5e0d14.xml, PFORMAT_EX_PARAMETERS structure pointer [Storage Devices], FORMAT_EX_PARAMETERS, _FORMAT_EX_PARAMETERS, PFORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS, storage.format_ex_parameters, FORMAT_EX_PARAMETERS structure [Storage Devices], ntdddisk/PFORMAT_EX_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FORMAT_EX_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
+req.typenames: "*PFORMAT_EX_PARAMETERS, FORMAT_EX_PARAMETERS"
 ---
 
 # _FORMAT_EX_PARAMETERS structure
@@ -116,11 +116,11 @@ Contains an array whose first element indicates the number of the sector where t
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
+<a href="..\ntdddisk\ns-ntdddisk-_format_parameters.md">FORMAT_PARAMETERS</a>
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_format_parameters.md">FORMAT_PARAMETERS</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks_ex.md">IOCTL_DISK_FORMAT_TRACKS_EX</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C8829785-1EB7-4F29-9279-F2FC2A3C0ABD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], DeviceWakeDepthD0, wdm/DeviceWakeDepthD0, wdm/DeviceWakeDepthD1, wdm/DeviceWakeDepthD2, wdm/DeviceWakeDepthMaximum, DeviceWakeDepthD2, _DEVICE_WAKE_DEPTH, *PDEVICE_WAKE_DEPTH, DeviceWakeDepthNotWakeable, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthD3cold, DeviceWakeDepthD3hot, DEVICE_WAKE_DEPTH, kernel.device_wake_depth, DeviceWakeDepthMaximum, DeviceWakeDepthD1, DeviceWakeDepthD3cold, wdm/DeviceWakeDepthD3hot
+ms.keywords: DeviceWakeDepthNotWakeable, DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD1, *PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], wdm/DeviceWakeDepthD0, DeviceWakeDepthD3hot, wdm/DeviceWakeDepthD3hot, DeviceWakeDepthD2, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD2, wdm/DeviceWakeDepthNotWakeable, DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthMaximum, kernel.device_wake_depth, wdm/DeviceWakeDepthD3cold, DeviceWakeDepthD0, DeviceWakeDepthD3cold, _DEVICE_WAKE_DEPTH, DeviceWakeDepthD1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_WAKE_DEPTH
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH"
+req.typenames: DEVICE_WAKE_DEPTH, *PDEVICE_WAKE_DEPTH
 req.product: Windows 10 or later.
 ---
 

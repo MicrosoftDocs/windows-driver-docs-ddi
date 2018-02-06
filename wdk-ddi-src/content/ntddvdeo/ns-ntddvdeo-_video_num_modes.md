@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4ca1276-c0f6-46c6-bf86-3cd2a0c5f194
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_NUM_MODES, ntddvdeo/VIDEO_NUM_MODES, *PVIDEO_NUM_MODES, Video_Structs_9e999162-309a-4902-8854-172c672bf1ea.xml, display.video_num_modes, VIDEO_NUM_MODES, _VIDEO_NUM_MODES, ntddvdeo/PVIDEO_NUM_MODES, PVIDEO_NUM_MODES structure pointer [Display Devices], VIDEO_NUM_MODES structure [Display Devices]
+ms.keywords: PVIDEO_NUM_MODES, *PVIDEO_NUM_MODES, VIDEO_NUM_MODES, display.video_num_modes, VIDEO_NUM_MODES structure [Display Devices], PVIDEO_NUM_MODES structure pointer [Display Devices], Video_Structs_9e999162-309a-4902-8854-172c672bf1ea.xml, _VIDEO_NUM_MODES, ntddvdeo/PVIDEO_NUM_MODES, ntddvdeo/VIDEO_NUM_MODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_NUM_MODES
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_NUM_MODES, VIDEO_NUM_MODES"
+req.typenames: VIDEO_NUM_MODES, *PVIDEO_NUM_MODES
 ---
 
 # _VIDEO_NUM_MODES structure

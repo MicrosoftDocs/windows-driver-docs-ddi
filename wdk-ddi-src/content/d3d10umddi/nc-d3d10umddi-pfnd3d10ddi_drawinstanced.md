@@ -40,7 +40,7 @@ apiname:
 -	DrawInstanced
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_DRAWINSTANCED callback
@@ -85,19 +85,9 @@ VOID APIENTRY DrawInstanced(
 
 
 
-#### - InstanceCount [in]
+#### - hDevice [in]
 
- The number of instances of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - StartInstanceLocation [in]
-
- The first instance of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - StartVertexLocation [in]
-
- The first vertex in the buffer that vertices are read from to draw the primitives. 
+ A handle to the display device (graphics context).
 
 
 #### - VertexCountPerInstance [in]
@@ -105,9 +95,19 @@ VOID APIENTRY DrawInstanced(
  The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
 
 
-#### - hDevice [in]
+#### - InstanceCount [in]
 
- A handle to the display device (graphics context).
+ The number of instances of the buffer that vertices are read from to draw the primitives. 
+
+
+#### - StartVertexLocation [in]
+
+ The first vertex in the buffer that vertices are read from to draw the primitives. 
+
+
+#### - StartInstanceLocation [in]
+
+ The first instance of the buffer that vertices are read from to draw the primitives. 
 
 
 ## -returns

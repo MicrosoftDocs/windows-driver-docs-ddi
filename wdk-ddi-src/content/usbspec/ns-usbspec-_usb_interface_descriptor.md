@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 12378915-fa3d-4054-bb06-6eb8b292559c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR, buses.usb_interface_descriptor, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], usbspec/USB_INTERFACE_DESCRIPTOR, usbspec/PUSB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses]"
+ms.keywords: "*PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], PUSB_INTERFACE_DESCRIPTOR, _USB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], buses.usb_interface_descriptor, usbspec/PUSB_INTERFACE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

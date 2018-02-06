@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8B07B225-D612-47D2-B93C-7F9E3A23ACE1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModeCommunity, NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeUndefined, netvista.ndis_switch_port_pvlan_mode, ntddndis/NdisSwitchPortPvlanModeUndefined, ntddndis/NdisSwitchPortPvlanModeIsolated, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PVLAN_MODE, *PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModePromiscuous, ntddndis/NdisSwitchPortPvlanModePromiscuous, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeIsolated
+ms.keywords: NdisSwitchPortPvlanModePromiscuous, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeIsolated, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPvlanModeIsolated, netvista.ndis_switch_port_pvlan_mode, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeUndefined, *PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeUndefined, NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModeCommunity, PNDIS_SWITCH_PORT_PVLAN_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -108,9 +108,9 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 <b></b>
 

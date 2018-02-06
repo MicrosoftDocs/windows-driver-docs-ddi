@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5b34168-b3b8-4559-8b41-982f0a66f01d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfmemory_copytobuffer, CopyToBuffer method, IWDFMemory interface, CopyToBuffer method, IWDFMemory, IWDFMemory::CopyToBuffer, CopyToBuffer, CopyToBuffer method, IWDFMemory interface, wdf.iwdfmemory_copytobuffer, wudfddi/IWDFMemory::CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml
+ms.keywords: CopyToBuffer method, wudfddi/IWDFMemory::CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, umdf.iwdfmemory_copytobuffer, wdf.iwdfmemory_copytobuffer, CopyToBuffer, IWDFMemory interface, CopyToBuffer method, CopyToBuffer method, IWDFMemory interface, IWDFMemory, IWDFMemory::CopyToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.CopyToBuffer
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

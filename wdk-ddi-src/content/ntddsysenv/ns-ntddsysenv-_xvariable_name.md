@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], XVARIABLE_NAME, kernel.xvariable_name, *PXVARIABLE_NAME, SYSENV_VARIABLE_NAME, PXVARIABLE_NAME, *PSYSENV_VARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], ntddsysenv/PXVARIABLE_NAME, _XVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME
+ms.keywords: "*PSYSENV_VARIABLE_NAME, kernel.xvariable_name, PXVARIABLE_NAME, _XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], ntddsysenv/XVARIABLE_NAME, *PXVARIABLE_NAME, SYSENV_VARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], XVARIABLE_NAME, ntddsysenv/PXVARIABLE_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	XVARIABLE_NAME
 product: Windows
 targetos: Windows
-req.typenames: XVARIABLE_NAME, *PXVARIABLE_NAME
+req.typenames: "*PXVARIABLE_NAME, XVARIABLE_NAME"
 ---
 
 # _XVARIABLE_NAME structure

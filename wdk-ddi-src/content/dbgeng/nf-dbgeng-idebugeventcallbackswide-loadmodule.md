@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, debugger.idebugeventcallbackswide_loadmodule, LoadModule, dbgeng/IDebugEventCallbacksWide::LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::LoadModule
+ms.keywords: LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::LoadModule, LoadModule, debugger.idebugeventcallbackswide_loadmodule, dbgeng/IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.LoadModule
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::LoadModule method

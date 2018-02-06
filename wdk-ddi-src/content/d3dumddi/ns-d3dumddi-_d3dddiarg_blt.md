@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9663d0fe-7397-49d7-b860-e466a9311aca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_blt, UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml, _D3DDDIARG_BLT, D3DDDIARG_BLT structure [Display Devices], D3DDDIARG_BLT, d3dumddi/D3DDDIARG_BLT
+ms.keywords: D3DDDIARG_BLT, d3dumddi/D3DDDIARG_BLT, D3DDDIARG_BLT structure [Display Devices], display.d3dddiarg_blt, _D3DDDIARG_BLT, UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,9 +127,9 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, dbgeng/IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl3 interface, IDebugControl3::CoerceValue, IDebugControl3, IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl2 interface [Windows Debugging], CoerceValue method, CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface, debugger.coercevalue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method
+ms.keywords: IDebugControl2 interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl2::CoerceValue, IDebugControl3::CoerceValue, debugger.coercevalue, dbgeng/IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::CoerceValue, CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, IDebugControl3, IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.CoerceValue
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::CoerceValue method
@@ -120,13 +120,13 @@ This method converts a value of one type into a value of another type.  If the s
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
 
  
 

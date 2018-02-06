@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7e3b2eed-2de6-4459-a125-a27d9db69c93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_408fe60c-e1bb-4d39-92ab-703eefe78c5c.xml, kernel.clfssetendoflog, wdm/ClfsSetEndOfLog, ClfsSetEndOfLog routine [Kernel-Mode Driver Architecture], ClfsSetEndOfLog
+ms.keywords: ClfsSetEndOfLog routine [Kernel-Mode Driver Architecture], wdm/ClfsSetEndOfLog, Clfs_408fe60c-e1bb-4d39-92ab-703eefe78c5c.xml, ClfsSetEndOfLog, kernel.clfssetendoflog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,17 +102,17 @@ The kernel-mode routine <b>ClfsSetEndOfLog</b> is reserved for future use and cu
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
-
-<a href="..\wdm\nf-wdm-clfssetarchivetail.md">ClfsSetArchiveTail </a>
-
 <a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog</a>
-
-<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
 
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
+<a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
+
+<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+
+<a href="..\wdm\nf-wdm-clfssetarchivetail.md">ClfsSetArchiveTail </a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, WDF_WMI_PROVIDER_FLAGS enumeration, wdfwmi/WdfWmiProviderExpensive, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WdfWmiProviderEventOnly, WdfWmiProviderTracing, WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderTracing, wdf.wdf_wmi_provider_flags, wdfwmi/WdfWmiProviderEventOnly, WdfWmiProviderValidFlags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, _WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderExpensive
+ms.keywords: "_WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderValidFlags, wdfwmi/WdfWmiProviderEventOnly, WDF_WMI_PROVIDER_FLAGS, wdf.wdf_wmi_provider_flags, WdfWmiProviderTracing, kmdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags, WdfWmiProviderEventOnly, WdfWmiProviderExpensive, WDF_WMI_PROVIDER_FLAGS enumeration, wdfwmi/WdfWmiProviderExpensive, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,15 +102,15 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 ## -see-also
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
-
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 

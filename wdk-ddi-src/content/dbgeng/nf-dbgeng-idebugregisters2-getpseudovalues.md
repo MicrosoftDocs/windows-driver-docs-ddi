@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1ad3b45-c89c-4990-a47b-20e47c05892a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, debugger.getpseudovalues, GetPseudoValues method [Windows Debugging], GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, IDebugRegisters2, IDebugRegisters2::GetPseudoValues, GetPseudoValues, dbgeng/IDebugRegisters2::GetPseudoValues
+ms.keywords: debugger.getpseudovalues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, GetPseudoValues, IDebugRegisters2::GetPseudoValues, GetPseudoValues method [Windows Debugging], IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetPseudoValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetPseudoValues
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetPseudoValues method
@@ -169,11 +169,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_IO_BLOCK_EX, *PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], IO_BLOCK_EX, image.io_block_ex, usbscan/IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], usbscan/PIO_BLOCK_EX, PIO_BLOCK_EX, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml"
+ms.keywords: "_IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, usbscan/PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], usbscan/IO_BLOCK_EX, PIO_BLOCK_EX, *PIO_BLOCK_EX, image.io_block_ex, IO_BLOCK_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

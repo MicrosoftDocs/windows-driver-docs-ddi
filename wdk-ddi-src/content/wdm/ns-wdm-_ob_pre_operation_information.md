@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fe0f1aa-cf9f-4b45-8c34-a6d810fd461a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/OB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION, kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, OB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION, kernel.ob_pre_operation_information
+ms.keywords: POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, OB_PRE_OPERATION_INFORMATION, wdm/OB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.ob_pre_operation_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OB_PRE_OPERATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: OB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION
+req.typenames: "*POB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -133,11 +133,11 @@ A pointer to an <a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_O
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+<a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
 
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
-<a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
  
 

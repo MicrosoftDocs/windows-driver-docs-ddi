@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, stream.usbcamd_initializenewinterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], USBCAMD_InitializeNewInterface, usbcamdi/USBCAMD_InitializeNewInterface
+ms.keywords: USBCAMD_InitializeNewInterface, stream.usbcamd_initializenewinterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, USBCAMD_InitializeNewInterface function [Streaming Media Devices], usbcamdi/USBCAMD_InitializeNewInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: dd9998d0-46e6-4b12-aa96-1e6eede15f47
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, KSRTAUDIO_HWLATENCY, audio.ksrtaudio_hwlatency, *PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], ksmedia/PKSRTAUDIO_HWLATENCY, ksmedia/KSRTAUDIO_HWLATENCY
+ms.keywords: KSRTAUDIO_HWLATENCY structure [Audio Devices], aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, ksmedia/KSRTAUDIO_HWLATENCY, ksmedia/PKSRTAUDIO_HWLATENCY, *PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY, audio.ksrtaudio_hwlatency, KSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

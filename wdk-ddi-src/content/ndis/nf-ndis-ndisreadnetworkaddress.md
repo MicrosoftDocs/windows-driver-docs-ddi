@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisreadnetworkaddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, ndis/NdisReadNetworkAddress, NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisReadNetworkAddress, netvista.ndisreadnetworkaddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis/NdisReadNetworkAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,16 +82,16 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
-#### NDIS_STATUS_FAILURE
-
-There was no NIC address information available in the caller's registry 
-       <b>Parameters</b> key or the value stored was not a string.
-
-
 #### NDIS_STATUS_SUCCESS
 
 The caller can use the address returned at 
        <i>NetworkAddress</i> for the NIC.
+
+
+#### NDIS_STATUS_FAILURE
+
+There was no NIC address information available in the caller's registry 
+       <b>Parameters</b> key or the value stored was not a string.
 
 
 ### -param NetworkAddress [out]

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9cd2e943-dc20-4c5c-ab5c-090463e0a88c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_ayuvsample16, DXVADDI_AYUVSAMPLE16, d3dumddi/DXVADDI_AYUVSAMPLE16, _DXVADDI_AYUVSAMPLE16, DXVADDI_AYUVSAMPLE16 structure [Display Devices], DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml
+ms.keywords: DXVADDI_AYUVSAMPLE16 structure [Display Devices], d3dumddi/DXVADDI_AYUVSAMPLE16, _DXVADDI_AYUVSAMPLE16, display.dxvaddi_ayuvsample16, DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml, DXVADDI_AYUVSAMPLE16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,9 +114,9 @@ The color value is scaled according to ITU-R Rec. BT.601, which you can learn ab
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
  
 

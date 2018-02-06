@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4070d53-bdd6-4708-857d-7ed1e9699e21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_94ba7961-5956-4939-830f-eaa15aeca614.xml, display.d3dddiarg_depthfill, D3DDDIARG_DEPTHFILL, _D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL structure [Display Devices], d3dumddi/D3DDDIARG_DEPTHFILL
+ms.keywords: D3DDDIARG_DEPTHFILL structure [Display Devices], display.d3dddiarg_depthfill, UMDisplayDriver_param_Structs_94ba7961-5956-4939-830f-eaa15aeca614.xml, _D3DDDIARG_DEPTHFILL, d3dumddi/D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide, ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4::ExecuteWide, IDebugControl4
+ms.keywords: ExecuteWide method [Windows Debugging], IDebugControl4, IDebugControl4::ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface, debugger.executewide, dbgeng/IDebugControl4::ExecuteWide, IDebugControl4 interface [Windows Debugging], ExecuteWide method, ExecuteWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.ExecuteWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::ExecuteWide method

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C360556B-5A28-4FC3-9304-6000061A1D69
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses.ucm_connector_typec_attach_params_init, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
+ms.keywords: ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, buses.ucm_connector_typec_attach_params_init, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 

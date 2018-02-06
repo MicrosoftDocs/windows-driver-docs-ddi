@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04F51A7D-70D8-4844-973D-70B7A7797221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/WRITE_PORT_BUFFER_USHORT, wdf.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT, umdf.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT function
+ms.keywords: WRITE_PORT_BUFFER_USHORT function, wdf.write_port_buffer_ushort, umdf.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT, wudfddi_hwaccess/WRITE_PORT_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_PORT_BUFFER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

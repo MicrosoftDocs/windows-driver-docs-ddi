@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoGetParent, wdfpdo/WdfPdoGetParent, wdf.wdfpdogetparent, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent method, kmdf.wdfpdogetparent, PFN_WDFPDOGETPARENT
+ms.keywords: wdf.wdfpdogetparent, PFN_WDFPDOGETPARENT, kmdf.wdfpdogetparent, WdfPdoGetParent, wdfpdo/WdfPdoGetParent, DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

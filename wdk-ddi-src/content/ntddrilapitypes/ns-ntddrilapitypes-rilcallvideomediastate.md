@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f40b9989-a911-4b89-a5a3-dda9a225b576
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallvideomediastate, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLVIDEOMEDIASTATE, ntddrilapitypes/RILCALLVIDEOMEDIASTATE
+ms.keywords: RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLVIDEOMEDIASTATE, ntddrilapitypes/RILCALLVIDEOMEDIASTATE, netvista.rilcallvideomediastate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

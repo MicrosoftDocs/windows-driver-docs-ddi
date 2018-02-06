@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a9685f8-f201-4d1b-aef6-c4ac78100a80
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_KERNELOVERLAYINFO structure [Display Devices], _D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO, display.d3dddi_kerneloverlayinfo, D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, d3dukmdt/D3DDDI_KERNELOVERLAYINFO
+ms.keywords: d3dukmdt/D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO, D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, _D3DDDI_KERNELOVERLAYINFO, display.d3dddi_kerneloverlayinfo, D3DDDI_KERNELOVERLAYINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, ScsiPortIoMapTransfer routine [Storage Devices]
+ms.keywords: ScsiPortIoMapTransfer, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, ScsiPortIoMapTransfer routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortIoMapTransfer
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

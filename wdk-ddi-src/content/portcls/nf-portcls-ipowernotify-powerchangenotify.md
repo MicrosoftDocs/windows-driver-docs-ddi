@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbc49675-93d1-4ea2-9a3d-b72d76521de7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PowerChangeNotify, IPowerNotify, audio.ipowernotify_powerchangenotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface [Audio Devices], PowerChangeNotify method, portcls/IPowerNotify::PowerChangeNotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, IPowerNotify::PowerChangeNotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface
+ms.keywords: PowerChangeNotify, PowerChangeNotify method [Audio Devices], portcls/IPowerNotify::PowerChangeNotify, IPowerNotify, IPowerNotify interface [Audio Devices], PowerChangeNotify method, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, audio.ipowernotify_powerchangenotify, IPowerNotify::PowerChangeNotify, PowerChangeNotify method [Audio Devices], IPowerNotify interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

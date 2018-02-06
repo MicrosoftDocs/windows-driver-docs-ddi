@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.file_position_information, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION, wdm/FILE_POSITION_INFORMATION, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, wdm/PFILE_POSITION_INFORMATION, _FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.file_position_information, _FILE_POSITION_INFORMATION, wdm/PFILE_POSITION_INFORMATION, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, PFILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_POSITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a6c9a7fa-8fef-4d6d-aab5-e712c49c0144
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], KeGetProcessorNumberFromIndex, wdm/KeGetProcessorNumberFromIndex, kernel.kegetprocessornumberfromindex, k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml
+ms.keywords: k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], KeGetProcessorNumberFromIndex, kernel.kegetprocessornumberfromindex, wdm/KeGetProcessorNumberFromIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,17 +112,17 @@ For example, if a multiprocessor system contains two groups, and each group cont
 
 To obtain the total number of active logical processors in the system, call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine.
 
-The <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a> routine converts a group number and a group-relative processor number to a systemwide processor index.
+The <a href="..\ntifs\nf-ntifs-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a> routine converts a group number and a group-relative processor number to a systemwide processor index.
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
+<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
 
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+<a href="..\ntifs\nf-ntifs-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
 
  
 

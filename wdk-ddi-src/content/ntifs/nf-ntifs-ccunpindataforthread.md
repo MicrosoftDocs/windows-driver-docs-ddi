@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, CcUnpinDataForThread routine [Installable File System Drivers], ntifs/CcUnpinDataForThread, CcUnpinDataForThread
+ms.keywords: ntifs/CcUnpinDataForThread, CcUnpinDataForThread, ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, CcUnpinDataForThread routine [Installable File System Drivers], ifsk.ccunpindataforthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,9 +98,9 @@ Each call to <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
 <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
+
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
  
 

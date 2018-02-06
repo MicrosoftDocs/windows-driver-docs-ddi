@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5a003c1-fa35-461d-8a47-a1a7bc2375b4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, stream.ksacquiredevicesecuritylock, ks/KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock function [Streaming Media Devices], KsAcquireDeviceSecurityLock
+ms.keywords: stream.ksacquiredevicesecuritylock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

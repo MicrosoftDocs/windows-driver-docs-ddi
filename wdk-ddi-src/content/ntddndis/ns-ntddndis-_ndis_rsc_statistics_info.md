@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14911610-f2d6-4ad4-884f-3137eab143be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
+ms.keywords: netvista.ndis_rsc_statistics_info, *PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RSC_STATISTICS_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
+req.typenames: "*PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO"
 ---
 
 # _NDIS_RSC_STATISTICS_INFO structure

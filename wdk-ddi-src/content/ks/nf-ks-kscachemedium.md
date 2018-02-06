@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0e9c146-5d73-49e8-92a8-c453f5bbbfe9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCacheMedium, KsCacheMedium function [Streaming Media Devices], ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium, KsCacheMedium
+ms.keywords: KsCacheMedium function [Streaming Media Devices], KsCacheMedium, ks/KsCacheMedium, stream.kscachemedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

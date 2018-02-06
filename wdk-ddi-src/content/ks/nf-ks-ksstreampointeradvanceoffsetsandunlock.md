@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bb15eb8e-b609-4110-b0de-71efb8ef1f5e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreampointeradvanceoffsetsandunlock, ks/KsStreamPointerAdvanceOffsetsAndUnlock, KsStreamPointerAdvanceOffsetsAndUnlock function [Streaming Media Devices], KsStreamPointerAdvanceOffsetsAndUnlock, avfunc_5f1d19bb-e367-4df3-9423-0263bda1cd54.xml
+ms.keywords: KsStreamPointerAdvanceOffsetsAndUnlock, ks/KsStreamPointerAdvanceOffsetsAndUnlock, KsStreamPointerAdvanceOffsetsAndUnlock function [Streaming Media Devices], avfunc_5f1d19bb-e367-4df3-9423-0263bda1cd54.xml, stream.ksstreampointeradvanceoffsetsandunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,9 +113,9 @@ If using the specified number of bytes in the stream pointer results in zero rem
 
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
-
 <a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
  
 

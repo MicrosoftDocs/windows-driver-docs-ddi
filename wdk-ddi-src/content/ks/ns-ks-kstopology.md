@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8dbd37ed-5d71-43bd-a3ca-caa5b0d08075
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSTOPOLOGY structure [Streaming Media Devices], *PKSTOPOLOGY, ks/KSTOPOLOGY, KSTOPOLOGY, PKSTOPOLOGY, stream.kstopology, PKSTOPOLOGY structure pointer [Streaming Media Devices], ks-struct_1d55c5f9-18d4-43d0-9fe9-291134e84115.xml, ks/PKSTOPOLOGY
+ms.keywords: ks/KSTOPOLOGY, ks/PKSTOPOLOGY, KSTOPOLOGY, PKSTOPOLOGY structure pointer [Streaming Media Devices], ks-struct_1d55c5f9-18d4-43d0-9fe9-291134e84115.xml, stream.kstopology, KSTOPOLOGY structure [Streaming Media Devices], PKSTOPOLOGY, *PKSTOPOLOGY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,11 +125,11 @@ A stream class minidriver creates and passes this structure as part of its <a hr
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
 <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a>
 
 <a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
 

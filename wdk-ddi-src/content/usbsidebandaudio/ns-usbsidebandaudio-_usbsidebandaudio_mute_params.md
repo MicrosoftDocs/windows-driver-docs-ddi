@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 11FA1378-335A-402A-867C-F509D61153CA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices], USBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS, _USBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS
+ms.keywords: USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], _USBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -39,7 +39,7 @@ apiname:
 -	USBSIDEBANDAUDIO_MUTE_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: USBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS
+req.typenames: "*PUSBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS"
 req.product: Windows 10 or later.
 ---
 

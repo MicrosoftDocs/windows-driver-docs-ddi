@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosEventDataHeader structure, _PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
+ms.keywords: PosEventDataHeader structure, _PosEventDataHeader, pointofservicedriverinterface/PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData, pos.posbarcodescannerimageprevieweventdata, PosEventDataHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PosEventDataHeader
 product: Windows
 targetos: Windows
-req.typenames: PosBarcodeScannerImagePreviewEventData, PosEventDataHeader
+req.typenames: PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
 ---
 
 # _PosEventDataHeader structure

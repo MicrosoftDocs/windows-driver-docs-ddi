@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: VPB_RAW_MOUNT, VPB_REMOVE_PENDING, VPB, wdm/VPB, ifsk.vpb, VPB_MOUNTED, PVPB structure pointer [Installable File System Drivers], VPB structure [Installable File System Drivers], *PVPB, _VPB, PVPB, VPB_LOCKED, VPB_DIRECT_WRITES_ALLOWED, VPB_PERSISTENT, wdm/PVPB
+ms.keywords: VPB_REMOVE_PENDING, *PVPB, wdm/VPB, VPB structure [Installable File System Drivers], ifsk.vpb, wdm/PVPB, PVPB, VPB_DIRECT_WRITES_ALLOWED, PVPB structure pointer [Installable File System Drivers], VPB_PERSISTENT, VPB_MOUNTED, VPB_LOCKED, _VPB, VPB, VPB_RAW_MOUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -218,9 +218,9 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
 

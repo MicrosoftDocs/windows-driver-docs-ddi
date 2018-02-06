@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UrsIoResourceListAppendDescriptor function [Buses], buses.ursioresourcelistappenddescriptor, UrsIoResourceListAppendDescriptor, ursdevice/UrsIoResourceListAppendDescriptor
+ms.keywords: ursdevice/UrsIoResourceListAppendDescriptor, buses.ursioresourcelistappenddescriptor, UrsIoResourceListAppendDescriptor function [Buses], UrsIoResourceListAppendDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,9 +103,9 @@ For more information about resource requirements lists, see <a href="https://doc
 
 ## -see-also
 
-<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595921">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a>
+
+<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
 
  
 

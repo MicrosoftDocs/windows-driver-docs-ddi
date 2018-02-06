@@ -40,7 +40,7 @@ apiname:
 -	CreateSampler
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_CREATESAMPLER callback
@@ -97,9 +97,9 @@ VOID APIENTRY CreateSampler(
  A handle to the display device (graphics context).
 
 
-#### - hRTSampler [in]
+#### - pSamplerDesc [in]
 
- A handle to the sampler that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a sampler. 
 
 
 #### - hSampler [in]
@@ -107,9 +107,9 @@ VOID APIENTRY CreateSampler(
  A handle to the driver's private data for the sampler. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatesamplersize.md">CalcPrivateSamplerSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its sampler object.
 
 
-#### - pSamplerDesc [in]
+#### - hRTSampler [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a sampler. 
+ A handle to the sampler that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

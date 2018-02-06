@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b4e38b33-2f23-4439-b0bc-ab3524e5180e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffsetWide method, GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldTypeAndOffsetWide, IDebugSymbols3
+ms.keywords: debugger.getfieldtypeandoffsetwide, GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffsetWide method, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, IDebugSymbols3::GetFieldTypeAndOffsetWide, GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3, GetFieldTypeAndOffsetWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetFieldTypeAndOffsetWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetFieldTypeAndOffsetWide method

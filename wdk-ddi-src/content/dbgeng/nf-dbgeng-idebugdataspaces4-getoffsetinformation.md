@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5ef00c92-7b32-473a-8401-4c02e864c181
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method, GetOffsetInformation, dbgeng/IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces4, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, GetOffsetInformation method [Windows Debugging]
+ms.keywords: IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method, GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, GetOffsetInformation method [Windows Debugging], dbgeng/IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation, IDebugDataSpaces4::GetOffsetInformation, GetOffsetInformation, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces4.GetOffsetInformation
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::GetOffsetInformation method

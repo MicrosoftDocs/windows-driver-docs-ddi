@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ObRegisterCallbacks, k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObRegisterCallbacks
+ms.keywords: ObRegisterCallbacks, wdm/ObRegisterCallbacks, kernel.obregistercallbacks, k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

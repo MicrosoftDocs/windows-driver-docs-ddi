@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 065f51c3-f476-4f04-880a-5c42e493d458
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_COMPRESSION structure [Streaming Media Devices], stream.ks_compression, ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, ks/PKS_COMPRESSION, *PKS_COMPRESSION, KS_COMPRESSION, ks/KS_COMPRESSION, PKS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices]
+ms.keywords: ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, KS_COMPRESSION, KS_COMPRESSION structure [Streaming Media Devices], PKS_COMPRESSION structure pointer [Streaming Media Devices], *PKS_COMPRESSION, ks/PKS_COMPRESSION, ks/KS_COMPRESSION, PKS_COMPRESSION, stream.ks_compression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_COMPRESSION
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_COMPRESSION, KS_COMPRESSION"
+req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 ---
 
 # KS_COMPRESSION structure

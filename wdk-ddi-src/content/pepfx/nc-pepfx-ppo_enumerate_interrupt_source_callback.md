@@ -40,7 +40,7 @@ apiname:
 -	EnumerateInterruptSource
 product: Windows
 targetos: Windows
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
 ---
 
 # PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback

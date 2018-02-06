@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c9328791-898e-48f2-acfd-30c8a36fcd29
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.baseband_channel_info, bthddi/BASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, _BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO, bthddi/PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO
+ms.keywords: bltooth.baseband_channel_info, *PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], PBASEBAND_CHANNEL_INFO, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, bthddi/PBASEBAND_CHANNEL_INFO, _BASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], bthddi/BASEBAND_CHANNEL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BASEBAND_CHANNEL_INFO
 product: Windows
 targetos: Windows
-req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
+req.typenames: "*PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO"
 ---
 
 # _BASEBAND_CHANNEL_INFO structure

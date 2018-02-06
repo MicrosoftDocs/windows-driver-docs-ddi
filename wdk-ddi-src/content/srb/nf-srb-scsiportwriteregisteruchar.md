@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67764b34-3bd3-42ad-a1f8-765b4f11fcf6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWriteRegisterUchar, scsiprt_11b9d3b9-2866-4f07-a685-68d48e993748.xml, srb/ScsiPortWriteRegisterUchar, storage.scsiportwriteregisteruchar, ScsiPortWriteRegisterUchar routine [Storage Devices]
+ms.keywords: ScsiPortWriteRegisterUchar, scsiprt_11b9d3b9-2866-4f07-a685-68d48e993748.xml, ScsiPortWriteRegisterUchar routine [Storage Devices], srb/ScsiPortWriteRegisterUchar, storage.scsiportwriteregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortWriteRegisterUchar
 product: Windows
 targetos: Windows
-req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

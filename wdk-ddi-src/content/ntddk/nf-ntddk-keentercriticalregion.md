@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 87826cc7-2710-4582-a324-365dd34e2d0d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeEnterCriticalRegion, wdm/KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], kernel.keentercriticalregion, k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml
+ms.keywords: wdm/KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], kernel.keentercriticalregion, KeEnterCriticalRegion, k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,13 +92,13 @@ For more information about APCs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn308551">ExReleaseResourceAndLeaveCriticalRegion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn308550">ExEnterCriticalRegionAndAcquireResourceExclusive</a>
 
 <a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn308550">ExEnterCriticalRegionAndAcquireResourceExclusive</a>
+<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn308551">ExReleaseResourceAndLeaveCriticalRegion</a>
 
  
 

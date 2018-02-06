@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f5ab3aa3-c24e-4716-b94a-525c6b6776dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeStreamingVideo, STI_DEVICE_MJ_TYPE, sti/STI_DEVICE_TYPE, _STI_DEVICE_MJ_TYPE, StiDeviceTypeDigitalCamera, STI_DEVICE_TYPE, image.sti_device_type, StiDeviceTypeDefault, sti/StiDeviceTypeDigitalCamera, STI_DEVICE_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeScanner, sti/StiDeviceTypeDefault, StiDeviceTypeStreamingVideo, StiDeviceTypeScanner, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml
+ms.keywords: STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, image.sti_device_type, STI_DEVICE_MJ_TYPE, StiDeviceTypeStreamingVideo, sti/StiDeviceTypeDigitalCamera, StiDeviceTypeScanner, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml, sti/StiDeviceTypeScanner, sti/STI_DEVICE_TYPE, StiDeviceTypeDigitalCamera, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeStreamingVideo, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, _STI_DEVICE_MJ_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

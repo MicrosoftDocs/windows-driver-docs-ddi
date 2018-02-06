@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_COPPSignature, _DXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], *LPDXVA_COPPSignature, dxva/DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml, display.dxva_coppsignature, DXVA_COPPSignature
+ms.keywords: LPDXVA_COPPSignature, _DXVA_COPPSignature, display.dxva_coppsignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml, *LPDXVA_COPPSignature, dxva/DXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

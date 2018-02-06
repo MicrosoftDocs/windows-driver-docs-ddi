@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5e481453-1e01-46b4-a04e-e9c575cd65b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], display.d3d10_ddi_query_data_pipeline_statistics, d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS
+ms.keywords: D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d10_ddi_query_data_pipeline_statistics, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

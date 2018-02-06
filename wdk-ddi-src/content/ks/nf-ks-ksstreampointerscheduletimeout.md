@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 143c4ca2-91ae-49c3-80e0-e7959e4bd297
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_bde904b2-cfb8-45d1-80a1-ef1046d60276.xml, ks/KsStreamPointerScheduleTimeout, KsStreamPointerScheduleTimeout function [Streaming Media Devices], KsStreamPointerScheduleTimeout, stream.ksstreampointerscheduletimeout
+ms.keywords: ks/KsStreamPointerScheduleTimeout, stream.ksstreampointerscheduletimeout, avfunc_bde904b2-cfb8-45d1-80a1-ef1046d60276.xml, KsStreamPointerScheduleTimeout, KsStreamPointerScheduleTimeout function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ It is safe to call <b>KsStreamPointerScheduleTimeout</b> on a stream pointer tha
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointercanceltimeout.md">KsStreamPointerCancelTimeout</a>
-
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+
+<a href="..\ks\nf-ks-ksstreampointercanceltimeout.md">KsStreamPointerCancelTimeout</a>
 
  
 

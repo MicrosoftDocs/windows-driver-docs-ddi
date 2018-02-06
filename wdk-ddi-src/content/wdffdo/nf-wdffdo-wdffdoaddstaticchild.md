@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3e1c4469-7ae2-4ac8-8dfe-ff8c4cae3d20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdffdoaddstaticchild, DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, PFN_WDFFDOADDSTATICCHILD, WdfFdoAddStaticChild, WdfFdoAddStaticChild method, wdffdo/WdfFdoAddStaticChild, kmdf.wdffdoaddstaticchild
+ms.keywords: DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, kmdf.wdffdoaddstaticchild, wdf.wdffdoaddstaticchild, wdffdo/WdfFdoAddStaticChild, WdfFdoAddStaticChild, PFN_WDFFDOADDSTATICCHILD, WdfFdoAddStaticChild method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

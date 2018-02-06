@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, wdm/ObUnRegisterCallbacks, kernel.obunregistercallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObUnRegisterCallbacks
+ms.keywords: ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], ObUnRegisterCallbacks, kernel.obunregistercallbacks, k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, wdm/ObUnRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

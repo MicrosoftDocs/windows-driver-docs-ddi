@@ -2,13 +2,13 @@
 UID: NF:bidispl.IBidiRequest.GetResult
 title: IBidiRequest::GetResult method
 author: windows-driver-content
-description: The IBidiRequest::GetResult method tells whether the bidi request was successful.
+description: The GetResult method tells whether the bidi request was successful.
 old-location: print\ibidirequest_ibidirequest__getresult.htm
 old-project: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: bidispl/IBidiRequest::IBidiRequest::GetResult, IBidiRequest::IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, IBidiRequest::GetResult method [Print Devices], GetResult, IBidiRequest::GetResult, IBidiRequest, IBidiRequest::GetResult method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__getresult, IBidiRequest interface [Print Devices], IBidiRequest::GetResult method, gdi.ibidirequest_ibidirequest__getresult
+ms.date: 2/2/2018
+ms.keywords: IBidiRequest interface [Print Devices], GetResult method, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, GetResult method [Print Devices], IBidiRequest interface, IBidiRequest::GetResult, GetResult method [Print Devices], GetResult, _win32_IBidiRequest_GetResult, print.ibidirequest_ibidirequest__getresult, IBidiRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,7 +37,7 @@ apitype:
 apilocation:
 -	bidispl.dll
 apiname:
--	IBidiRequest.IBidiRequest::GetResult
+-	IBidiRequest.GetResult
 product: Windows
 targetos: Windows
 req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
@@ -49,14 +49,14 @@ req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ## -description
 
 
-The <b>IBidiRequest::GetResult</b> method tells whether the bidi request was successful.
+The <b>GetResult</b> method tells whether the bidi request was successful.
 
 
 ## -syntax
 
 
 ````
-HRESULT IBidiRequest::GetResult(
+HRESULT GetResult(
   [out] HRESULT *phr
 );
 ````
@@ -133,9 +133,9 @@ Note that the return value indicates whether the method was successful. It does 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
@@ -143,5 +143,5 @@ Note that the return value indicates whether the method was successful. It does 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::IBidiRequest::GetResult method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::GetResult method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

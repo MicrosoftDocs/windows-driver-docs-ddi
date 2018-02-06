@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af8126cd-e931-4106-b543-9c84ee110901
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterBufferUchar routine [Storage Devices], storport/StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml, storage.storportwriteregisterbufferuchar
+ms.keywords: storport/StorPortWriteRegisterBufferUchar, storage.storportwriteregisterbufferuchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml, StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

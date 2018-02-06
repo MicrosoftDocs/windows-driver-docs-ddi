@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 901ff312-d1bb-46bf-b8e6-6abc47fa3c7f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue interface, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, OnIoCanceledOnQueue, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml, OnIoCanceledOnQueue method
+ms.keywords: IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue interface, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, OnIoCanceledOnQueue method, OnIoCanceledOnQueue, wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -107,11 +107,11 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md">IQueueCallbackIoCanceledOnQueue</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md">IQueueCallbackIoCanceledOnQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
  
 

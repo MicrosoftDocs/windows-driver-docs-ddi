@@ -89,11 +89,9 @@ Specifies final status of the client-initiated add-party operation, which can be
 
 
 
-#### NDIS_STATUS_FAILURE
+#### NDIS_STATUS_SUCCESS
 
-The client passed an invalid 
-       <i>NdisVcHandle</i> to 
-       <b>NdisClAddParty</b>.
+The given party was added on the client's active multipoint VC.
 
 
 #### NDIS_STATUS_RESOURCES
@@ -101,9 +99,11 @@ The client passed an invalid
 NDIS could not allocate sufficient resources to track the new party.
 
 
-#### NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_FAILURE
 
-The given party was added on the client's active multipoint VC.
+The client passed an invalid 
+       <i>NdisVcHandle</i> to 
+       <b>NdisClAddParty</b>.
 
 
 #### NDIS_STATUS_XXX
@@ -222,21 +222,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
+
+<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
  
 

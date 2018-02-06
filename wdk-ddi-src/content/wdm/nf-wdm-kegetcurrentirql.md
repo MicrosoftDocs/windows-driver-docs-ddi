@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 63c33017-d827-4a8f-bb6f-fd13a2528e0c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], kernel.kegetcurrentirql, k105_04c845e8-a239-4400-8a5f-15996754494a.xml, KeGetCurrentIrql
+ms.keywords: KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, KeGetCurrentIrql, wdm/KeGetCurrentIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,9 +79,9 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL.
 
 <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
 
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
-
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
+
+<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
 
  
 

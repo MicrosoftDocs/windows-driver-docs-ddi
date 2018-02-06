@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.iogetrequestorsessionid, ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, IoGetRequestorSessionId
+ms.keywords: IoGetRequestorSessionId, ntifs/IoGetRequestorSessionId, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, IoGetRequestorSessionId routine [Installable File System Drivers], ifsk.iogetrequestorsessionid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,9 +88,9 @@ A pointer to a caller-allocated variable that receives the session ID for the pr
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a>
-
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
+
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocessid.md">IoGetRequestorProcessId</a>
 
  
 

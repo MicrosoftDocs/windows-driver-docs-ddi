@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exregistercallback, wdm/ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], ExRegisterCallback, k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml
+ms.keywords: ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, wdm/ExRegisterCallback, kernel.exregistercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,6 +97,11 @@ A pointer to a driver-implemented callback routine, which must be nonpageable. T
 
 
 
+#### CallbackContext
+
+A pointer to a driver-supplied context area as specified in the <i>CallbackContext</i> parameter of <b>ExRegisterCallback</b>.
+
+
 #### Argument1
 
 A pointer to a parameter defined by the callback object.
@@ -105,11 +110,6 @@ A pointer to a parameter defined by the callback object.
 #### Argument2
 
 A pointer to a parameter defined by the callback object.
-
-
-#### CallbackContext
-
-A pointer to a driver-supplied context area as specified in the <i>CallbackContext</i> parameter of <b>ExRegisterCallback</b>.
 
 
 ### -param CallbackContext [in, optional]
@@ -147,15 +147,15 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
-
-<a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
-
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
 <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+
+<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+<a href="..\wdm\nf-wdm-exunregistercallback.md">ExUnregisterCallback</a>
 
  
 

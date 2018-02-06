@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E259B3D0-7536-4287-A7A2-367407D97F33
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsAllocatorEx::KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], IKsAllocatorEx interface, KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], IKsAllocatorEx::KsSetAllocatorHandle, IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], KsSetAllocatorHandle method, stream.iksallocatorex_kssetallocatorhandle
+ms.keywords: stream.iksallocatorex_kssetallocatorhandle, KsSetAllocatorHandle method [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices], KsSetAllocatorHandle method, IKsAllocatorEx, KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], IKsAllocatorEx interface, IKsAllocatorEx::KsSetAllocatorHandle, ksproxy/IKsAllocatorEx::KsSetAllocatorHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

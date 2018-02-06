@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7fbef54-78c1-4696-8b0a-8c98d250f899
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, ntddrilapitypes/RILPSMEDIAPREFERENCE, netvista.rilpsmediapreference, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PSMPREF_WIFIPREFERRED, ntddrilapitypes/RIL_PSMPREF_CELLPREFERRED, ntddrilapitypes/RIL_PSMPREF_CELLONLY, RILPSMEDIAPREFERENCE, RIL_PSMPREF_WIFIPREFERRED, RIL_PSMPREF_CELLONLY, RIL_PSMPREF_CELLPREFERRED, ntddrilapitypes/RIL_PSMPREF_WIFIONLY, RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_WIFIONLY
+ms.keywords: ntddrilapitypes/RIL_PSMPREF_CELLPREFERRED, ntddrilapitypes/RIL_PSMPREF_WIFIPREFERRED, ntddrilapitypes/RIL_PSMPREF_CELLONLY, RILPSMEDIAPREFERENCE, RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_CELLONLY, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], RIL_PSMPREF_WIFIONLY, ntddrilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, netvista.rilpsmediapreference, RIL_PSMPREF_WIFIPREFERRED, ntddrilapitypes/RILPSMEDIAPREFERENCE, ntddrilapitypes/RIL_PSMPREF_WIFIONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

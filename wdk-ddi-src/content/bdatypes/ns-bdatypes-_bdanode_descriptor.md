@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 324eddca-f619-44e2-b32f-34cefd4c9cdc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDANODE_DESCRIPTOR, bdatypes/PBDANODE_DESCRIPTOR, bdaref_0610ecfc-d15b-4031-9d88-b041ef21e2fb.xml, stream.bdanode_descriptor, BDANODE_DESCRIPTOR structure [Streaming Media Devices], _BDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR structure pointer [Streaming Media Devices], bdatypes/BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
+ms.keywords: bdatypes/BDANODE_DESCRIPTOR, bdaref_0610ecfc-d15b-4031-9d88-b041ef21e2fb.xml, BDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR structure pointer [Streaming Media Devices], BDANODE_DESCRIPTOR structure [Streaming Media Devices], *PBDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR, stream.bdanode_descriptor, bdatypes/PBDANODE_DESCRIPTOR, _BDANODE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

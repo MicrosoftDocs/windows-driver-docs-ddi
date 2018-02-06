@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFNamedPropertyStore::GetNameAt, GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, IWDFNamedPropertyStore, umdf.iwdfnamedpropertystore_getnameat, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt method, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, wdf.iwdfnamedpropertystore_getnameat
+ms.keywords: UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, umdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore interface, GetNameAt method, wdf.iwdfnamedpropertystore_getnameat, GetNameAt method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore, GetNameAt, GetNameAt method, wudfddi/IWDFNamedPropertyStore::GetNameAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore.GetNameAt
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

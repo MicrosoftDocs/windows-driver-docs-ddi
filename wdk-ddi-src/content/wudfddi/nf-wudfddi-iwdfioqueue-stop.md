@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, IWDFIoQueue::Stop, Stop method, umdf.iwdfioqueue_stop, IWDFIoQueue, wdf.iwdfioqueue_stop, Stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, Stop method, IWDFIoQueue interface
+ms.keywords: IWDFIoQueue interface, Stop method, IWDFIoQueue, Stop method, IWDFIoQueue::Stop, umdf.iwdfioqueue_stop, Stop, Stop method, IWDFIoQueue interface, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, wudfddi/IWDFIoQueue::Stop, wdf.iwdfioqueue_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.Stop
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO structure pointer [Sensor Devices], GNSS_CHIPSETINFO, gnssdriver/GNSS_CHIPSETINFO, sensors.gnss_chipsetinfo, *PGNSS_CHIPSETINFO
+ms.keywords: gnssdriver/GNSS_CHIPSETINFO, sensors.gnss_chipsetinfo, *PGNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], GNSS_CHIPSETINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CHIPSETINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO"
+req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 ---
 
 # GNSS_CHIPSETINFO structure
@@ -103,9 +103,9 @@ Version number.
 
 
 
-#### - FirmwareVersion[20]
+#### - ManufacturerID[25]
 
-Version for the firmware for the. This would be a string, typically of the format NNNN.NNNN.NNNN.NNNN.
+String containing an identifier for the manufacturer.
 
 
 #### - HardwareID[25]
@@ -113,9 +113,9 @@ Version for the firmware for the. This would be a string, typically of the forma
 String containing an identifier for the specific GNSS chipset or combo chipset.
 
 
-#### - ManufacturerID[25]
+#### - FirmwareVersion[20]
 
-String containing an identifier for the manufacturer.
+Version for the firmware for the. This would be a string, typically of the format NNNN.NNNN.NNNN.NNNN.
 
 
 #### - Unused[512]

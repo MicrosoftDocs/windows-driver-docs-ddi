@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0857e32e-9962-44ca-9d61-b98b09073c16
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, wdf.wdf_device_pnp_capabilities, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, WDF_DEVICE_PNP_CAPABILITIES structure, PWDF_DEVICE_PNP_CAPABILITIES, kmdf.wdf_device_pnp_capabilities, WDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES"
+ms.keywords: WDF_DEVICE_PNP_CAPABILITIES, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES, wdf.wdf_device_pnp_capabilities, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, kmdf.wdf_device_pnp_capabilities, _WDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, *PWDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, PWDF_DEVICE_PNP_CAPABILITIES, WDF_DEVICE_PNP_CAPABILITIES structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_PNP_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES
+req.typenames: "*PWDF_DEVICE_PNP_CAPABILITIES, WDF_DEVICE_PNP_CAPABILITIES"
 req.product: Windows 10 or later.
 ---
 
@@ -200,9 +200,9 @@ To initialize a WDF_DEVICE_PNP_CAPABILITIES structure, a driver should call <a h
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassignrawdevice.md">WdfPdoInitAssignRawDevice</a>
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>
 
  
 

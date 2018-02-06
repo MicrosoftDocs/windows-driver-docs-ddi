@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OBJ_FORCE_ACCESS_CHECK, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, ifsk.obopenobjectbypointer, OBJ_EXCLUSIVE, OBJ_INHERIT, OBJ_KERNEL_HANDLE, ntifs/ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], ObOpenObjectByPointer
+ms.keywords: OBJ_FORCE_ACCESS_CHECK, ifsk.obopenobjectbypointer, ntifs/ObOpenObjectByPointer, OBJ_KERNEL_HANDLE, OBJ_EXCLUSIVE, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, OBJ_INHERIT, ObOpenObjectByPointer function [Installable File System Drivers], ObOpenObjectByPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -235,19 +235,19 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
  
 

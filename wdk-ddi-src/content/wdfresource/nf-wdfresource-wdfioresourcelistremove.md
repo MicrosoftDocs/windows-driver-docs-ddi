@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfioresourcelistremove, PFN_WDFIORESOURCELISTREMOVE, WdfIoResourceListRemove method, wdf.wdfioresourcelistremove, WdfIoResourceListRemove, DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, wdfresource/WdfIoResourceListRemove
+ms.keywords: PFN_WDFIORESOURCELISTREMOVE, DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, kmdf.wdfioresourcelistremove, WdfIoResourceListRemove, WdfIoResourceListRemove method, wdfresource/WdfIoResourceListRemove, wdf.wdfioresourcelistremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceListRemove
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

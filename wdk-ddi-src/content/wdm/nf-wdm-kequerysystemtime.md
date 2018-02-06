@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQuerySystemTime, kernel.kequerysystemtime, k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], wdm/KeQuerySystemTime
+ms.keywords: kernel.kequerysystemtime, wdm/KeQuerySystemTime, k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,9 +89,9 @@ System time is a count of 100-nanosecond intervals since January 1, 1601. System
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
 
 <a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 

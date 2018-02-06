@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.ccpinmappeddata, CcPinMappedData, ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ntifs/CcPinMappedData, CcPinMappedData routine [Installable File System Drivers]
+ms.keywords: CcPinMappedData, ifsk.ccpinmappeddata, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ntifs/CcPinMappedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,17 +168,17 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
  
 

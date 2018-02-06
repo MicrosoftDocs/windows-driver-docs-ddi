@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f5aecd1f-e0f2-47a9-aa70-767a42fefdff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, dbgeng/IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide, IDebugClient5
+ms.keywords: dbgeng/IDebugClient5::SetEventCallbacksWide, IDebugClient5, debugger.seteventcallbackswide, IDebugClient5::SetEventCallbacksWide, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetEventCallbacksWide method [Windows Debugging], SetEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.SetEventCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::SetEventCallbacksWide method

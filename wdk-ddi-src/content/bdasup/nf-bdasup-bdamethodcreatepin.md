@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0bc31a97-661c-463d-a043-9f86f63bb4b4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaMethodCreatePin function [Streaming Media Devices], bdasup/BdaMethodCreatePin, BdaMethodCreatePin, stream.bdamethodcreatepin, bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml
+ms.keywords: BdaMethodCreatePin function [Streaming Media Devices], stream.bdamethodcreatepin, bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml, BdaMethodCreatePin, bdasup/BdaMethodCreatePin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,17 +108,17 @@ If a BDA minidriver must create a pin without relying on the network provider, t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
-<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
 
 <a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
+<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
  
 

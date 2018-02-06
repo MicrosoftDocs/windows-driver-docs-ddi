@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_DDI_RASTERIZER_DESC structure [Display Devices], D3D10_DDI_RASTERIZER_DESC, UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, display.d3d10_ddi_rasterizer_desc, d3d10umddi/D3D10_DDI_RASTERIZER_DESC
+ms.keywords: display.d3d10_ddi_rasterizer_desc, D3D10_DDI_RASTERIZER_DESC, UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, d3d10umddi/D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -199,9 +199,9 @@ However, using <b>DepthBias</b> and <b>SlopeScaledDepthBias</b> alone can introd
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrasterizerstate.md">CreateRasterizerState</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a>
 
  
 

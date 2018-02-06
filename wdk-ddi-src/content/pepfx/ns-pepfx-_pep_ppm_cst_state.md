@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AF001441-4031-4E29-B459-1597BFCAEF4C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_CST_STATE, pepfx/PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, _PEP_PPM_CST_STATE, *PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE
+ms.keywords: "*PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATE, PPEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_CST_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_CST_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE"
+req.typenames: PEP_PPM_CST_STATE, *PPEP_PPM_CST_STATE
 ---
 
 # _PEP_PPM_CST_STATE structure
@@ -185,9 +185,9 @@ The values in the <b>PEP_PPM_CST_STATE</b> structure are obtained from the param
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a>
 
  
 

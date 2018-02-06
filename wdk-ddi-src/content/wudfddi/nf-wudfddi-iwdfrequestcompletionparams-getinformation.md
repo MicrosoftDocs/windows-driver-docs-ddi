@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRequestCompletionParams interface, GetInformation method, wudfddi/IWDFRequestCompletionParams::GetInformation, IWDFRequestCompletionParams, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, wdf.iwdfrequestcompletionparams_getinformation, GetInformation method, IWDFRequestCompletionParams interface, GetInformation method, GetInformation, IWDFRequestCompletionParams::GetInformation
+ms.keywords: wudfddi/IWDFRequestCompletionParams::GetInformation, IWDFRequestCompletionParams interface, GetInformation method, IWDFRequestCompletionParams, GetInformation method, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams::GetInformation, umdf.iwdfrequestcompletionparams_getinformation, GetInformation, GetInformation method, IWDFRequestCompletionParams interface, wdf.iwdfrequestcompletionparams_getinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRequestCompletionParams.GetInformation
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

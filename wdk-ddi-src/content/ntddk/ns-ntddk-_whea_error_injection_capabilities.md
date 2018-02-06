@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 77f982e4-6f35-4d4a-9c00-9ae34eacfbd3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_ERROR_INJECTION_CAPABILITIES, _WHEA_ERROR_INJECTION_CAPABILITIES, *PWHEA_ERROR_INJECTION_CAPABILITIES, whea.whea_error_injection_capabilities, WHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES union [WHEA Drivers and Applications], PWHEA_ERROR_INJECTION_CAPABILITIES union pointer [WHEA Drivers and Applications], PWHEA_ERROR_INJECTION_CAPABILITIES, ntddk/PWHEA_ERROR_INJECTION_CAPABILITIES, whearef_f040c2a7-cded-4903-a19c-c1163870c010.xml
+ms.keywords: whea.whea_error_injection_capabilities, ntddk/WHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES union pointer [WHEA Drivers and Applications], PWHEA_ERROR_INJECTION_CAPABILITIES, whearef_f040c2a7-cded-4903-a19c-c1163870c010.xml, *PWHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES, ntddk/PWHEA_ERROR_INJECTION_CAPABILITIES, _WHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES union [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_INJECTION_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_INJECTION_CAPABILITIES, *PWHEA_ERROR_INJECTION_CAPABILITIES
+req.typenames: "*PWHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES"
 ---
 
 # _WHEA_ERROR_INJECTION_CAPABILITIES structure
@@ -198,9 +198,9 @@ A user-mode WHEA management application calls the <a href="https://msdn.microsof
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a>
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559516">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a>
+
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
 
  
 

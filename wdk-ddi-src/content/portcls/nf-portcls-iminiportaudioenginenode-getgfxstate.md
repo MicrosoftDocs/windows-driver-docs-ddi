@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C2D4EB3E-0A39-4458-B0E7-C6D943AB4203
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetGfxState method [Audio Devices], portcls/IMiniportAudioEngineNode::GetGfxState, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method, IMiniportAudioEngineNode, GetGfxState, GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_getgfxstate, IMiniportAudioEngineNode::GetGfxState
+ms.keywords: portcls/IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, IMiniportAudioEngineNode::GetGfxState, GetGfxState, IMiniportAudioEngineNode interface [Audio Devices], GetGfxState method, GetGfxState method [Audio Devices], IMiniportAudioEngineNode, GetGfxState method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

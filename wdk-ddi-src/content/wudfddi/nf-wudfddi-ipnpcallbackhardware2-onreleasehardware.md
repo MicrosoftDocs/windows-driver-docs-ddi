@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackHardware2 interface, OnReleaseHardware method, umdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2, wdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware method
+ms.keywords: OnReleaseHardware method, wdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2, IPnpCallbackHardware2::OnReleaseHardware, umdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface, OnReleaseHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackHardware2.OnReleaseHardware
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

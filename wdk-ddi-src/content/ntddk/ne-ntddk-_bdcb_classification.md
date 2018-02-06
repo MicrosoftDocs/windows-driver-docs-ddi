@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationEnd, BdCbClassificationUnknownImage, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], ntddk/BDCB_CLASSIFICATION, kernel.bdcb_classification, ntddk/BdCbClassificationUnknownImage, ntddk/BdCbClassificationKnownGoodImage, *PBDCB_CLASSIFICATION, BdCbClassificationKnownBadImageBootCritical, _BDCB_CLASSIFICATION, ntddk/BdCbClassificationKnownBadImage, BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, BDCB_CLASSIFICATION, BdCbClassificationEnd
+ms.keywords: kernel.bdcb_classification, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownBadImage, BDCB_CLASSIFICATION, BdCbClassificationKnownGoodImage, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], ntddk/BdCbClassificationUnknownImage, _BDCB_CLASSIFICATION, ntddk/BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, *PBDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, ntddk/BdCbClassificationKnownGoodImage, BdCbClassificationEnd, BdCbClassificationUnknownImage, ntddk/BDCB_CLASSIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	BDCB_CLASSIFICATION
 product: Windows
 targetos: Windows
-req.typenames: BDCB_CLASSIFICATION, *PBDCB_CLASSIFICATION
+req.typenames: "*PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION"
 ---
 
 # _BDCB_CLASSIFICATION enumeration

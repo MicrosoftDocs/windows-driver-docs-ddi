@@ -7,8 +7,8 @@ old-location: print\iprinterpropertybag_getbytes.htm
 old-project: print
 ms.assetid: F75E182D-90FA-4597-95E0-60A6326CF68D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetBytes method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_getbytes, IPrinterPropertyBag, GetBytes method [Print Devices], IPrinterPropertyBag interface [Print Devices], GetBytes method, GetBytes, IPrinterPropertyBag::GetBytes, printerextension/IPrinterPropertyBag::GetBytes
+ms.date: 2/2/2018
+ms.keywords: printerextension/IPrinterPropertyBag::GetBytes, IPrinterPropertyBag interface [Print Devices], GetBytes method, GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_getbytes, IPrinterPropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterPropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,5 +108,5 @@ This method returns an <b>HRESULT</b> value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetBytes method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterPropertyBag::GetBytes method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61173af4-5b6f-47e9-b236-6b45bcd83a9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE, PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_RADIO_STATE, ndiswwan/NDIS_WWAN_RADIO_STATE, _NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, netvista.ndis_wwan_radio_state
+ms.keywords: netvista.ndis_wwan_radio_state, *PNDIS_WWAN_RADIO_STATE, WwanRef_24973f17-426f-492f-ac5e-1f2651dcebd1.xml, PNDIS_WWAN_RADIO_STATE, ndiswwan/PNDIS_WWAN_RADIO_STATE, _NDIS_WWAN_RADIO_STATE, ndiswwan/NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_RADIO_STATE, NDIS_WWAN_RADIO_STATE"
+req.typenames: NDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE
 ---
 
 # _NDIS_WWAN_RADIO_STATE structure

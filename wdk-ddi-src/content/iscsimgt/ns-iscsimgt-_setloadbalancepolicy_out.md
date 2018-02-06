@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28b54f80-9268-4ccb-ac19-b1b4bfef4192
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetLoadBalancePolicy_OUT structure [Storage Devices], iscsimgt/PSetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, SetLoadBalancePolicy_OUT, _SetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], PSetLoadBalancePolicy_OUT, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml, *PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT
+ms.keywords: PSetLoadBalancePolicy_OUT, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml, iscsimgt/PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT, _SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], SetLoadBalancePolicy_OUT structure [Storage Devices], SetLoadBalancePolicy_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,9 +81,9 @@ You must implement this class. For a list of possible status qualifiers, see <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
  
 

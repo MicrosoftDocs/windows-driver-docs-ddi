@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: aa542c6f-24f9-4ef4-a425-93905cca976a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, *PPTS_DATA, smclib/PPTS_DATA, _PTS_DATA, PPTS_DATA, PPTS_DATA structure pointer [Smart Card Reader Devices], smartcrd.pts_data, PTS_DATA structure [Smart Card Reader Devices], PTS_DATA, smclib/PTS_DATA
+ms.keywords: "*PPTS_DATA, _PTS_DATA, smartcrd.pts_data, scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, PTS_DATA, PTS_DATA structure [Smart Card Reader Devices], PPTS_DATA, smclib/PPTS_DATA, PPTS_DATA structure pointer [Smart Card Reader Devices], smclib/PTS_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

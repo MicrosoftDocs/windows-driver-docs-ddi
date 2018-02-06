@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bf66149-c2d1-4a81-9c61-8504d2652877
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCchCopyN function [Kernel-Mode Driver Architecture], safestrings_3a628b71-7686-45ef-8217-6501cd3c3eed.xml, RtlUnicodeStringCchCopyN, ntstrsafe/RtlUnicodeStringCchCopyN, kernel.rtlunicodestringcchcopyn
+ms.keywords: RtlUnicodeStringCchCopyN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCchCopyN, RtlUnicodeStringCchCopyN, safestrings_3a628b71-7686-45ef-8217-6501cd3c3eed.xml, kernel.rtlunicodestringcchcopyn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCchCopyN
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlUnicodeStringCchCopyN function

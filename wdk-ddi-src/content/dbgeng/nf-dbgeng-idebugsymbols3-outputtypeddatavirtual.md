@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d6faa4ee-2fdb-425a-81db-8257285ba47d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], OutputTypedDataVirtual method, dbgeng/IDebugSymbols::OutputTypedDataVirtual, debugger.outputtypeddatavirtual, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, IDebugSymbols3, IDebugSymbols::OutputTypedDataVirtual, dbgeng/IDebugSymbols3::OutputTypedDataVirtual, IDebugSymbols interface [Windows Debugging], OutputTypedDataVirtual method, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::OutputTypedDataVirtual, dbgeng/IDebugSymbols2::OutputTypedDataVirtual, IDebugSymbols3::OutputTypedDataVirtual, OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], OutputTypedDataVirtual method
+ms.keywords: dbgeng/IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataVirtual method, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, debugger.outputtypeddatavirtual, IDebugSymbols interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols2::OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols3, OutputTypedDataVirtual method [Windows Debugging], OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataVirtual, IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols2::OutputTypedDataVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.OutputTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::OutputTypedDataVirtual method

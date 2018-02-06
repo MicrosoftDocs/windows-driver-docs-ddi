@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6741d440-0e17-4b2d-a642-0335d1f936cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_set_preferred_providers, ndiswwan/NDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_PREFERRED_PROVIDERS, PNDIS_WWAN_SET_PREFERRED_PROVIDERS, _NDIS_WWAN_SET_PREFERRED_PROVIDERS, *PNDIS_WWAN_SET_PREFERRED_PROVIDERS, WwanRef_9e9b42a9-813f-4440-a112-9af4bc172d4e.xml, PNDIS_WWAN_SET_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PREFERRED_PROVIDERS
+ms.keywords: PNDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], WwanRef_9e9b42a9-813f-4440-a112-9af4bc172d4e.xml, NDIS_WWAN_SET_PREFERRED_PROVIDERS, *PNDIS_WWAN_SET_PREFERRED_PROVIDERS, PNDIS_WWAN_SET_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_SET_PREFERRED_PROVIDERS, netvista.ndis_wwan_set_preferred_providers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

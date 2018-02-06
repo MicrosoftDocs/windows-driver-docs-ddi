@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a0d86c7-1d42-4312-a4f9-9b9ea092ebec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtSetInformationResourceManager, function [Kernel-Mode Driver Architecture], wdm/, NtSetInformationResourceManager, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, ZwSetInformationResourceManager, kernel.zwsetinformationresourcemanager
+ms.keywords: function [Kernel-Mode Driver Architecture], NtSetInformationResourceManager, kernel.zwsetinformationresourcemanager, wdm/, ZwSetInformationResourceManager, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, wdm/NtSetInformationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6fce78f7-a23e-4651-b6d8-b3d5387ccc27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], ksmedia/PVRAM_SURFACE_INFO, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, stream.vram_surface_info, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], ksmedia/VRAM_SURFACE_INFO, VRAM_SURFACE_INFO"
+ms.keywords: VRAM_SURFACE_INFO structure [Streaming Media Devices], *PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, stream.vram_surface_info, ksmedia/PVRAM_SURFACE_INFO, ksmedia/VRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], PVRAM_SURFACE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VRAM_SURFACE_INFO
 product: Windows
 targetos: Windows
-req.typenames: VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO
+req.typenames: "*PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO"
 ---
 
 # VRAM_SURFACE_INFO structure

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99a91bb4-4fcd-4b49-bd1e-4551027b5d1f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlInitializeGenericTable routine [Installable File System Drivers], rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, RtlInitializeGenericTable
+ms.keywords: RtlInitializeGenericTable routine [Installable File System Drivers], ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, ifsk.rtlinitializegenerictable, RtlInitializeGenericTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,6 +102,11 @@ The <i>CompareRoutine</i> must strictly track the ordering of all elements in th
 Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan</b>, <b>GenericGreaterThan</b>, or <b>GenericEqual</b>. 
 
 
+#### Table
+
+A pointer to the generic table.
+
+
 #### FirstStruct
 
 A pointer to the first item to be compared.
@@ -110,11 +115,6 @@ A pointer to the first item to be compared.
 #### SecondStruct
 
 A pointer to the second item to be compared.
-
-
-#### Table
-
-A pointer to the generic table.
 
 
 ### -param AllocateRoutine [in]
@@ -140,14 +140,14 @@ An entry point of an allocation callback routine, declared as follows:
 For each new element, the <i>AllocateRoutine</i> is called to allocate memory for caller-supplied data plus some additional memory for use by the <i>Rtl...GenericTable</i> routines. Note that because of this "additional memory," caller-supplied routines must not access the first (<b>sizeof</b>(RTL_SPLAY_LINKS) + <b>sizeof</b>(LIST_ENTRY)) bytes of any element in the generic table. 
 
 
-#### ByteSize
-
-The number of bytes to allocate.
-
-
 #### Table
 
 A pointer to the generic table.
+
+
+#### ByteSize
+
+The number of bytes to allocate.
 
 
 ### -param FreeRoutine [in]
@@ -173,14 +173,14 @@ An entry point of a deallocation callback routine, declared as follows:
 <i>Rtl...GenericTable</i> routines call the <i>FreeRoutine</i> to deallocate memory for elements to be deleted from the generic table. The <i>FreeRoutine</i> is the opposite of the <i>AllocateRoutine</i>. 
 
 
-#### Buffer
-
-A pointer to the element that is being deleted.
-
-
 #### Table
 
 A pointer to the generic table.
+
+
+#### Buffer
+
+A pointer to the element that is being deleted.
 
 
 ### -param TableContext [in, optional]
@@ -224,21 +224,21 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
-
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
-
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 <a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
 
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 <a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
 
  
 

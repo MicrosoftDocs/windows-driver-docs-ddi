@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f02f3442-e9c2-4f60-833d-e470de62118e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDSM_QueryLBPolicy_V2, mpiodisk/PDSM_QueryLBPolicy_V2, storage.dsm_querylbpolicy_v2, PDSM_QueryLBPolicy_V2 structure pointer [Storage Devices], DSM_QueryLBPolicy_V2, DSM_QueryLBPolicy_V2 structure [Storage Devices], mpiodisk/DSM_QueryLBPolicy_V2, _DSM_QueryLBPolicy_V2, PDSM_QueryLBPolicy_V2, structs-scsibus_ea429f47-a439-433a-962e-2ce334aa7498.xml"
+ms.keywords: "*PDSM_QueryLBPolicy_V2, DSM_QueryLBPolicy_V2 structure [Storage Devices], structs-scsibus_ea429f47-a439-433a-962e-2ce334aa7498.xml, _DSM_QueryLBPolicy_V2, PDSM_QueryLBPolicy_V2, PDSM_QueryLBPolicy_V2 structure pointer [Storage Devices], mpiodisk/DSM_QueryLBPolicy_V2, DSM_QueryLBPolicy_V2, storage.dsm_querylbpolicy_v2, mpiodisk/PDSM_QueryLBPolicy_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

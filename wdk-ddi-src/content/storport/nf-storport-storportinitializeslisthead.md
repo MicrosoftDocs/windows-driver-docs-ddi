@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E8EF5995-67AE-4F34-B885-CBADDF3D151F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeSListHead routine [Storage Devices], storport/StorPortInitializeSListHead, StorPortInitializeSListHead, storage.storportinitializeslisthead
+ms.keywords: storage.storportinitializeslisthead, StorPortInitializeSListHead routine [Storage Devices], StorPortInitializeSListHead, storport/StorPortInitializeSListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,13 +136,13 @@ When memory for the list head is freed, any deallocation code must account for t
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
-
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
-
 <a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+
+<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
  
 

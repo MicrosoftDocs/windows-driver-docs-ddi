@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], whea.whea_timestamp, *PWHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, PWHEA_TIMESTAMP, WHEA_TIMESTAMP
+ms.keywords: PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], ntddk/WHEA_TIMESTAMP, *PWHEA_TIMESTAMP, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml, WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, _WHEA_TIMESTAMP, whea.whea_timestamp, WHEA_TIMESTAMP union [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_TIMESTAMP
 product: Windows
 targetos: Windows
-req.typenames: WHEA_TIMESTAMP, *PWHEA_TIMESTAMP
+req.typenames: "*PWHEA_TIMESTAMP, WHEA_TIMESTAMP"
 ---
 
 # _WHEA_TIMESTAMP structure

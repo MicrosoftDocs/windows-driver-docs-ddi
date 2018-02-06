@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3cd6ece6-2c8e-4072-8ac5-d1e90c9392db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Initialize method [Imaging Devices], stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, IStiDevice::Initialize, IStiDevice, sti/IStiDevice::Initialize, IStiDevice interface [Imaging Devices], Initialize method, Initialize, image.istidevice_initialize, Initialize method [Imaging Devices], IStiDevice interface
+ms.keywords: IStiDevice::Initialize, Initialize method [Imaging Devices], IStiDevice interface, Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, IStiDevice, image.istidevice_initialize, IStiDevice interface [Imaging Devices], Initialize method, sti/IStiDevice::Initialize, Initialize method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcGetContentRights, PcGetContentRights function [Audio Devices], audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, PcGetContentRights, audio.pcgetcontentrights
+ms.keywords: PcGetContentRights function [Audio Devices], portcls/PcGetContentRights, audio.pcgetcontentrights, PcGetContentRights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

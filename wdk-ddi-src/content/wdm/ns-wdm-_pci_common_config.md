@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pci_common_config, wdm/PCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PCI_COMMON_CONFIG, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, _PCI_COMMON_CONFIG
+ms.keywords: "*PPCI_COMMON_CONFIG, kernel.pci_common_config, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], wdm/PCI_COMMON_CONFIG, PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PPCI_COMMON_CONFIG, _PCI_COMMON_CONFIG, PCI_COMMON_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,19 +103,14 @@ Contains any device-specific initialization information that is available.
 
 
 
-#### - BIST
+#### - VendorID
 
-Zero indicates that the device does not support built-in self-test. Otherwise, the device supports built-in self-test according to the PCI standard.
-
-
-#### - BaseClass
-
-Identifies type of the device, according to the PCI classification scheme.
+Identifies the manufacturer of the device. This must be a value allocated by the PCI SIG.
 
 
-#### - CacheLineSize
+#### - DeviceID
 
-Contains the system cache line size in 32-bit units. This member is relevant only for PCI bus-master devices. The system determines this value during the boot process.
+Identifies the particular device. This value is assigned by the manufacturer.
 
 
 #### - Command
@@ -143,31 +138,6 @@ PCI_ENABLE_SERR
 PCI_ENABLE_FAST_BACK_TO_BACK
 
 
-#### - DeviceID
-
-Identifies the particular device. This value is assigned by the manufacturer.
-
-
-#### - HeaderType
-
-The system ORs the value of this member with PCI_MULTIFUNCTION, if appropriate to the device. The value of this member indicates the PCI_HEADER_TYPE_0 layout that follows.
-
-
-#### - LatencyTimer
-
-Contains the value of the latency timer in units of PCI bus clocks. This member is relevant only for PCI bus-master devices. The system determines this value during the boot process.
-
-
-#### - ProgIf
-
-Identifies the register-level programming interface, if any, for the device, according to the PCI classification scheme.
-
-
-#### - RevisionID
-
-Specifies the revision level of the device described by the <b>DeviceID</b> member. This value is assigned by the manufacturer. 
-
-
 #### - Status
 
 Accesses the PCI device's status register. The functionality of this register is device-dependent. Possible system-defined bit encodings for this member include:
@@ -189,14 +159,44 @@ PCI_STATUS_SIGNALED_SYSTEM_ERROR
 PCI_STATUS_DETECTED_PARITY_ERROR
 
 
+#### - RevisionID
+
+Specifies the revision level of the device described by the <b>DeviceID</b> member. This value is assigned by the manufacturer. 
+
+
+#### - ProgIf
+
+Identifies the register-level programming interface, if any, for the device, according to the PCI classification scheme.
+
+
 #### - SubClass
 
 Identifies the subtype, if any, of the device, according to the PCI classification scheme.
 
 
-#### - VendorID
+#### - BaseClass
 
-Identifies the manufacturer of the device. This must be a value allocated by the PCI SIG.
+Identifies type of the device, according to the PCI classification scheme.
+
+
+#### - CacheLineSize
+
+Contains the system cache line size in 32-bit units. This member is relevant only for PCI bus-master devices. The system determines this value during the boot process.
+
+
+#### - LatencyTimer
+
+Contains the value of the latency timer in units of PCI bus clocks. This member is relevant only for PCI bus-master devices. The system determines this value during the boot process.
+
+
+#### - HeaderType
+
+The system ORs the value of this member with PCI_MULTIFUNCTION, if appropriate to the device. The value of this member indicates the PCI_HEADER_TYPE_0 layout that follows.
+
+
+#### - BIST
+
+Zero indicates that the device does not support built-in self-test. Otherwise, the device supports built-in self-test according to the PCI standard.
 
 
 #### - u
@@ -213,6 +213,21 @@ Drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff5465
 Base addresses.
 
 
+#### Reserved1
+
+Reserved.
+
+
+#### ROMBaseAddress
+
+ROM base address.
+
+
+#### Reserved2
+
+Reserved.
+
+
 #### InterruptLine
 
 Interrupt line number.
@@ -223,29 +238,14 @@ Interrupt line number.
 Interrupt pin number.
 
 
-#### MaximumLatency
-
-Maximum latency.
-
-
 #### MinimumGrant
 
 Minimum grant.
 
 
-#### ROMBaseAddress
+#### MaximumLatency
 
-ROM base address.
-
-
-#### Reserved1
-
-Reserved.
-
-
-#### Reserved2
-
-Reserved.
+Maximum latency.
 
 
 ## -remarks
@@ -259,13 +259,13 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 

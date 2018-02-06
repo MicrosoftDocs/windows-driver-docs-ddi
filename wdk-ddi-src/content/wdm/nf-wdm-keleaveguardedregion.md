@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 189a3589-0d43-4f87-b889-f1f092190ffa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeLeaveGuardedRegion routine [Kernel-Mode Driver Architecture], KeLeaveGuardedRegion, wdm/KeLeaveGuardedRegion, kernel.keleaveguardedregion, k105_a2582957-39b0-45dd-810c-7ab03d97d6a6.xml
+ms.keywords: KeLeaveGuardedRegion, KeLeaveGuardedRegion routine [Kernel-Mode Driver Architecture], wdm/KeLeaveGuardedRegion, kernel.keleaveguardedregion, k105_a2582957-39b0-45dd-810c-7ab03d97d6a6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

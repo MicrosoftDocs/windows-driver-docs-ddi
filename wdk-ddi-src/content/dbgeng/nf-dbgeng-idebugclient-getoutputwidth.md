@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOutputWidth method [Windows Debugging], IDebugClient interface, GetOutputWidth, GetOutputWidth method [Windows Debugging], debugger.idebugclient_getoutputwidth, dbgeng/IDebugClient::GetOutputWidth, IDebugClient::GetOutputWidth, IDebugClient interface [Windows Debugging], GetOutputWidth method, IDebugClient
+ms.keywords: dbgeng/IDebugClient::GetOutputWidth, GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient::GetOutputWidth, IDebugClient interface [Windows Debugging], GetOutputWidth method, debugger.idebugclient_getoutputwidth, IDebugClient, GetOutputWidth, GetOutputWidth method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient.GetOutputWidth
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient::GetOutputWidth method

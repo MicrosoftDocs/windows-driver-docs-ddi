@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 246af8ed-6657-4999-ab9f-a64958a1225d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, rilapitypes/RILSIGNALQUALITYCAPS, RIL_CAPS_SIGNALQUALITY_MAX, RILSIGNALQUALITYCAPS, netvista.rilsignalqualitycaps_2, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SIGNALQUALITY_POLLING, rilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING
+ms.keywords: RIL_CAPS_SIGNALQUALITY_MAX, rilapitypes/RILSIGNALQUALITYCAPS, RIL_CAPS_SIGNALQUALITY_POLLING, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], RILSIGNALQUALITYCAPS, rilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING, rilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, netvista.rilsignalqualitycaps_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

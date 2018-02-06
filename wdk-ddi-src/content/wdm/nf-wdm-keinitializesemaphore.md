@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], KeInitializeSemaphore, wdm/KeInitializeSemaphore, kernel.keinitializesemaphore
+ms.keywords: k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, wdm/KeInitializeSemaphore, kernel.keinitializesemaphore, KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,13 +105,13 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
-
 <a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 20200222-8539-497e-891e-2d29c3207c56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_pdu_record, WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, _WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD, wwan/PWWAN_SMS_PDU_RECORD
+ms.keywords: PWWAN_SMS_PDU_RECORD, WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, *PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_pdu_record, WWAN_SMS_PDU_RECORD, _WWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD, wwan/PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SMS_PDU_RECORD
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD"
+req.typenames: WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD
 req.product: Windows 10 or later.
 ---
 

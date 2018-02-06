@@ -7,8 +7,8 @@ old-location: print\oiext.htm
 old-project: print
 ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: POIEXT structure pointer [Print Devices], compstui/POIEXT, OIEXT, *POIEXT, print.oiext, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, compstui/OIEXT, _OIEXT, POIEXT, OIEXT structure [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, POIEXT structure pointer [Print Devices], OIEXT structure [Print Devices], compstui/POIEXT, _OIEXT, POIEXT, print.oiext, *POIEXT, OIEXT, compstui/OIEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

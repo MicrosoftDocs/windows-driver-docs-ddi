@@ -7,8 +7,8 @@ old-location: print\oemrealizebrush.htm
 old-project: print
 ms.assetid: 1c2c103b-41a4-48e8-8232-01719c562d62
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, OEMRealizeBrush function [Print Devices], print.oemrealizebrush, OEMRealizeBrush, printoem/OEMRealizeBrush
+ms.date: 2/2/2018
+ms.keywords: OEMRealizeBrush, OEMRealizeBrush function [Print Devices], print.oemrealizebrush, print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, printoem/OEMRealizeBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

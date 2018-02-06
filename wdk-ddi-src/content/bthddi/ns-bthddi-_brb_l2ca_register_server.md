@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, _BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bthddi/_BRB_L2CA_REGISTER_SERVER, bltooth._brb_l2ca_register_server
+ms.keywords: bltooth._brb_l2ca_register_server, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, _BRB_L2CA_REGISTER_SERVER, bthddi/_BRB_L2CA_REGISTER_SERVER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -231,17 +231,17 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 
  
 

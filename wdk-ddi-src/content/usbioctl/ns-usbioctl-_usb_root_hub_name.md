@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: bd9697ce-bd05-4169-9b0f-13877307c0d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_ROOT_HUB_NAME, usbioctl/USB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME structure [Buses], usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml, PUSB_ROOT_HUB_NAME structure pointer [Buses], _USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME, usbioctl/PUSB_ROOT_HUB_NAME, buses.usb_root_hub_name
+ms.keywords: buses.usb_root_hub_name, usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml, PUSB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME structure [Buses], USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME, _USB_ROOT_HUB_NAME, usbioctl/PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME structure pointer [Buses], usbioctl/USB_ROOT_HUB_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_ROOT_HUB_NAME
 product: Windows
 targetos: Windows
-req.typenames: USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME
+req.typenames: "*PUSB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME"
 req.product: Windows 10 or later.
 ---
 

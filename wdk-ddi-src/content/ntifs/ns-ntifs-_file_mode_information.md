@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], ntifs/PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION, kernel.file_mode_information, FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_MODE_INFORMATION, ntifs/FILE_MODE_INFORMATION, _FILE_MODE_INFORMATION
+ms.keywords: ntifs/FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION, _FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_mode_information, FILE_MODE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,19 +76,19 @@ Specifies the mode in which the file will be accessed following a create-file or
 These flags are defined in the Wdm.h header file. For more information, see the Remarks section.
 
 
-#### FILE_DELETE_ON_CLOSE
+#### FILE_WRITE_THROUGH
 
-Delete the file when the last handle to the file is closed.
-
-
-#### FILE_NO_INTERMEDIATE_BUFFERING
-
-The file cannot be cached or buffered in a driver's internal buffers.
+Any system services, file system drivers (FSDs), and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete.
 
 
 #### FILE_SEQUENTIAL_ONLY
 
 All accesses to the file will be sequential.
+
+
+#### FILE_NO_INTERMEDIATE_BUFFERING
+
+The file cannot be cached or buffered in a driver's internal buffers.
 
 
 #### FILE_SYNCHRONOUS_IO_ALERT
@@ -101,9 +101,9 @@ All operations on the file are performed synchronously. Any wait on behalf of th
 All operations on the file are performed synchronously. Wait requests in the system that must synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context.
 
 
-#### FILE_WRITE_THROUGH
+#### FILE_DELETE_ON_CLOSE
 
-Any system services, file system drivers (FSDs), and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete.
+Delete the file when the last handle to the file is closed.
 
 
 ## -remarks

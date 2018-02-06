@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], *PDEVICE_OBJECT, _DEVICE_OBJECT, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, wdm/DEVICE_OBJECT, kernel.device_object
+ms.keywords: DEVICE_OBJECT, wdm/DEVICE_OBJECT, _DEVICE_OBJECT, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, kernel.device_object, PDEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], *PDEVICE_OBJECT, wdm/PDEVICE_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_OBJECT, DEVICE_OBJECT"
+req.typenames: DEVICE_OBJECT, *PDEVICE_OBJECT
 req.product: Windows 10 or later.
 ---
 
@@ -131,7 +131,7 @@ A pointer to the attached device object. If there is no attached device object, 
 
 ### -field CurrentIrp
 
-A pointer to the current IRP if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a> and <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a> topics. This is a read-only member.
+A pointer to the current IRP if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="..\ntifs\nf-ntifs-iostartpacket.md">IoStartPacket</a> and <a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a> topics. This is a read-only member.
 
 
 ### -field _DEVOBJ_EXTENSION
@@ -250,11 +250,6 @@ Specifies one or more system-defined constants, combined with a bitwise OR opera
 Directs the I/O manager to generate a name for the device, instead of the caller specifying a <i>DeviceName</i> when it calls this routine. The I/O manager makes sure that the name is unique. This characteristic is typically specified by a PnP bus driver to generate a name for a physical device object (PDO) for a child device on the same bus. This characteristic is new starting with Microsoft Windows 2000 and Microsoft Windows 98.
 
 
-#### FILE_CHARACTERISTIC_CSV
-
-Indicates that the device is a Cluster Shared Volume (CSV).
-
-
 #### FILE_CHARACTERISTIC_PNP_DEVICE
 
 Indicates that the device object is part of a Plug and Play (PnP) stack. This characteristic is required if a bus driver (or bus filter driver) registers WMI support for a device object that has not yet received the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request. FILE_CHARACTERISTIC_PNP_DEVICE is also required if a function or filter driver registers for WMI <u>before</u> attaching to its device stack.
@@ -270,11 +265,6 @@ Indicates that the device object is part of a Terminal Services device stack. Dr
 Indicates that a Web-based Distributed Authoring and Versioning (WebDAV) file system is mounted on the device. Drivers should not set this characteristic.
 
 
-#### FILE_DEVICE_ALLOW_APPCONTAINER_TRAVERSAL
-
-The IO Manager normally performs a full security check for traverse access on every file open when the client is an app container.  Setting of this flag bypasses this enforced traverse access check if the client token already has traverse privileges.
-
-
 #### FILE_DEVICE_IS_MOUNTED
 
 Indicates that a file system is mounted on the device. Drivers should not set this characteristic.
@@ -288,11 +278,6 @@ Directs the I/O manager to apply the security descriptor of the device object to
 #### FILE_FLOPPY_DISKETTE
 
 Indicates that the device is a floppy disk device.
-
-
-#### FILE_PORTABLE_DEVICE
-
-Indicates that the underlying stack considers the device portable. This is used by the storage stack and means that the device is not in the local machine container and is not on a fixed bus type.
 
 
 #### FILE_READ_ONLY_DEVICE
@@ -318,6 +303,21 @@ Indicates that the volume is virtual. Drivers should not set this characteristic
 #### FILE_WRITE_ONCE_MEDIA
 
 Indicates that the device supports write-once media. Drivers do not set this member directly. For more information about how to set device characteristics, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563818">Specifying Device Characteristics</a> topic.
+
+
+#### FILE_CHARACTERISTIC_CSV
+
+Indicates that the device is a Cluster Shared Volume (CSV).
+
+
+#### FILE_DEVICE_ALLOW_APPCONTAINER_TRAVERSAL
+
+The IO Manager normally performs a full security check for traverse access on every file open when the client is an app container.  Setting of this flag bypasses this enforced traverse access check if the client token already has traverse privileges.
+
+
+#### FILE_PORTABLE_DEVICE
+
+Indicates that the underlying stack considers the device portable. This is used by the storage stack and means that the device is not in the local machine container and is not on a fixed bus type.
 
 
 ### -field Vpb
@@ -406,7 +406,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
@@ -416,7 +416,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
  
 

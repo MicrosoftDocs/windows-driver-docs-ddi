@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b8e4e8-f144-4469-bedf-18f40be7e649
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_WMI_PROVIDER_CONFIG structure pointer, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml, WDF_WMI_PROVIDER_CONFIG, kmdf.wdf_wmi_provider_config, WDF_WMI_PROVIDER_CONFIG structure, wdf.wdf_wmi_provider_config, _WDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, wdfwmi/WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
+ms.keywords: "*PWDF_WMI_PROVIDER_CONFIG, wdf.wdf_wmi_provider_config, WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG structure, kmdf.wdf_wmi_provider_config, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml, PWDF_WMI_PROVIDER_CONFIG structure pointer, _WDF_WMI_PROVIDER_CONFIG, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG, wdfwmi/WDF_WMI_PROVIDER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,13 +114,13 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
 
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 <a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_flags.md">WDF_WMI_PROVIDER_FLAGS</a>
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
  
 

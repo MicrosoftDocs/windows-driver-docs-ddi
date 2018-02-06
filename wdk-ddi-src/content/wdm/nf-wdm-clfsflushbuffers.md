@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70e93c8f-a23c-4399-9299-c2743d097ded
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsFlushBuffers, ClfsFlushBuffers, Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, kernel.clfsflushbuffers, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.clfsflushbuffers, Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, ClfsFlushBuffers, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], wdm/ClfsFlushBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

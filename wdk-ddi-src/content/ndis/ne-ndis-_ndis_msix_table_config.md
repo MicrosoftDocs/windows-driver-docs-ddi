@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d1a4bb6-5db8-48b0-9be3-7468360951a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMSIXTableConfigSetTableEntry, PNDIS_MSIX_TABLE_OPERATION, ndis/PNDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigSetTableEntry, netvista.ndis_msix_table_operation, NdisMSIXTableConfigMax, _NDIS_MSIX_TABLE_CONFIG, ndis/NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigMaskTableEntry, NDIS_MSIX_TABLE_OPERATION, ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], *PNDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], NdisMSIXTableConfigUnmaskTableEntry, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/NDIS_MSIX_TABLE_OPERATION
+ms.keywords: ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, NdisMSIXTableConfigMaskTableEntry, *PNDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigSetTableEntry, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], _NDIS_MSIX_TABLE_CONFIG, ndis/PNDIS_MSIX_TABLE_OPERATION, netvista.ndis_msix_table_operation, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigSetTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

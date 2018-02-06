@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1AA3EDCC-EB6E-4118-8081-CA1914140683
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeModemCentric, PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeUnknown, wwan/WWAN_MODEM_CONFIG_MODE, WwanModemConfigModeModemCentric, WwanModemConfigModeMax, wwan/WwanModemConfigModeMax, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigModeHostCentric, wwan/PWWAN_MODEM_CONFIG_MODE, _WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeUnknown, WWAN_MODEM_CONFIG_MODE, netvista.wwan_modem_config_mode
+ms.keywords: WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeHostCentric, WwanModemConfigModeMax, *PWWAN_MODEM_CONFIG_MODE, wwan/WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_modem_config_mode, PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeModemCentric, wwan/PWWAN_MODEM_CONFIG_MODE, WwanModemConfigModeUnknown, wwan/WwanModemConfigModeUnknown, WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeModemCentric, wwan/WwanModemConfigModeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

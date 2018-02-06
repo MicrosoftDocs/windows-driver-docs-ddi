@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30ce30db-e030-43c3-bf8d-2f6ef86087ab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_wwntype enumeration [Storage Devices], PORT_WWN, hbaapi/HBA_wwntype, hbaapi/PORT_WWN, HBA_WWNTYPE enumeration [Storage Devices], hbaapi/NODE_WWN, NODE_WWN, HBA_WWNTYPE, structs-Fibre_d6003dc8-cbef-437b-bb14-353416b04417.xml, HBA_wwntype, storage.hba_wwntype
+ms.keywords: hbaapi/PORT_WWN, HBA_wwntype enumeration [Storage Devices], structs-Fibre_d6003dc8-cbef-437b-bb14-353416b04417.xml, PORT_WWN, hbaapi/NODE_WWN, HBA_WWNTYPE, NODE_WWN, storage.hba_wwntype, hbaapi/HBA_wwntype, HBA_wwntype, HBA_WWNTYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

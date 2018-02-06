@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC, sensors.gnss_fixdata_basic, GNSS_FIXDATA_BASIC structure [Sensor Devices], gnssdriver/GNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], PGNSS_FIXDATA_BASIC
+ms.keywords: PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], *PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], sensors.gnss_fixdata_basic, gnssdriver/PGNSS_FIXDATA_BASIC, gnssdriver/GNSS_FIXDATA_BASIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_FIXDATA_BASIC
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC"
+req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
 ---
 
 # GNSS_FIXDATA_BASIC structure

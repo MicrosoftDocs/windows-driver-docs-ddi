@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2546303a-53c3-4c6b-a230-eb1ebd74cb76
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerWdmGetDmaAdapter method, WdfDmaEnablerWdmGetDmaAdapter, wdf.wdfdmaenablerwdmgetdmaadapter, PFN_WDFDMAENABLERWDMGETDMAADAPTER, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, kmdf.wdfdmaenablerwdmgetdmaadapter, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter
+ms.keywords: WdfDmaEnablerWdmGetDmaAdapter, kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, PFN_WDFDMAENABLERWDMGETDMAADAPTER, WdfDmaEnablerWdmGetDmaAdapter method, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

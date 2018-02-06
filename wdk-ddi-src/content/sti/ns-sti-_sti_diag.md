@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 07caa8b0-849c-4ad9-9adb-b1726edc9234
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: STI_DIAG, DIAG, image.sti_diag, *LPSTI_DIAG, sti/LPSTI_DIAG, sti/STI_DIAG, _STI_DIAG, LPSTI_DIAG, STI_DIAG structure [Imaging Devices], LPSTI_DIAG structure pointer [Imaging Devices], stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml
+ms.keywords: LPSTI_DIAG structure pointer [Imaging Devices], image.sti_diag, sti/STI_DIAG, stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml, _STI_DIAG, DIAG, STI_DIAG, LPSTI_DIAG, *LPSTI_DIAG, STI_DIAG structure [Imaging Devices], sti/LPSTI_DIAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

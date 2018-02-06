@@ -7,8 +7,8 @@ old-location: print\maptable.htm
 old-project: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prntfont/MAPTABLE, PMAPTABLE, *PMAPTABLE, MAPTABLE structure [Print Devices], prntfont/PMAPTABLE, print.maptable, PMAPTABLE structure pointer [Print Devices], print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, _MAPTABLE, MAPTABLE
+ms.date: 2/2/2018
+ms.keywords: MAPTABLE structure [Print Devices], *PMAPTABLE, PMAPTABLE structure pointer [Print Devices], prntfont/MAPTABLE, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, prntfont/PMAPTABLE, _MAPTABLE, MAPTABLE, print.maptable, PMAPTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MAPTABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PMAPTABLE, MAPTABLE"
+req.typenames: MAPTABLE, *PMAPTABLE
 req.product: Windows 10 or later.
 ---
 
@@ -100,5 +100,5 @@ A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is acces
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MAPTABLE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MAPTABLE structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

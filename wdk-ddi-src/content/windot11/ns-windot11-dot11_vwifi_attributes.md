@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_VWIFI_ATTRIBUTES, windot11/DOT11_VWIFI_ATTRIBUTES, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, netvista.dot11_vwifi_attributes, PDOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES
+ms.keywords: windot11/DOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, windot11/PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_VWIFI_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES"
+req.typenames: DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_VWIFI_ATTRIBUTES_REVISION_1.
@@ -96,11 +101,6 @@ This member must be set to DOT11_VWIFI_ATTRIBUTES_REVISION_1.
 
 This member must be set to 
        sizeof(DOT11_VWIFI_ATTRIBUTES).
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field uTotalNumOfEntries

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rxce/RxCeSend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml, ifsk.rxcesend, RxCeSend, RxCeSend function [Installable File System Drivers]
+ms.keywords: rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml, RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeSend
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -89,16 +89,16 @@ The desired options for transmitting the data on this send operation by the tran
 The given data should be sent ahead of any normal send requests the transport is currently holding queued for transmission on this endpoint-to-endpoint connection. If the transport does not support expedited transfers, it can ignore this flag. Note that RXCE_SEND_EXPEDITED is equivalent to the TDI TDI_SEND_EXPEDITED flag.
 
 
+#### RXCE_SEND_NO_RESPONSE_EXPECTED
+
+The caller is giving a hint to the underlying transport that it does not expect a response to this send from its remote-node peer. This flag should disable piggybacking of the TSDU acknowledgment by the remote-node transport. Note that RXCE_SEND_NO_RESPONSE_EXPECTED is equivalent to the TDI_SEND_NO_RESPONSE_EXPECTED flag.
+
+
 #### RXCE_SEND_NON_BLOCKING
 
 If the underlying transport currently has no internal buffer space available for the given data, it should just complete the IRP with STATUS_DEVICE_NOT_READY. If the transport has some buffer space available, it should copy as much data as it can from the client-supplied buffer, set the <b>IoStatus.Information</b> member to the number of bytes it copied, and complete the IRP with STATUS_SUCCESS. 
 
 This flag is irrelevant to transports that do not buffer sends internally. Note that RXCE_SEND_NON_BLOCKING is equivalent to the TDI_SEND_NON_BLOCKING flag.
-
-
-#### RXCE_SEND_NO_RESPONSE_EXPECTED
-
-The caller is giving a hint to the underlying transport that it does not expect a response to this send from its remote-node peer. This flag should disable piggybacking of the TSDU acknowledgment by the remote-node transport. Note that RXCE_SEND_NO_RESPONSE_EXPECTED is equivalent to the TDI_SEND_NO_RESPONSE_EXPECTED flag.
 
 
 #### RXCE_SEND_PARTIAL
@@ -187,9 +187,9 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
 <a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
  
 

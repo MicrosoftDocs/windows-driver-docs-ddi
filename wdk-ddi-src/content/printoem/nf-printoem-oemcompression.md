@@ -7,8 +7,8 @@ old-location: print\oemcompression.htm
 old-project: print
 ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, OEMCompression, print.oemcompression, printoem/OEMCompression, OEMCompression function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: OEMCompression, print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, printoem/OEMCompression, OEMCompression function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

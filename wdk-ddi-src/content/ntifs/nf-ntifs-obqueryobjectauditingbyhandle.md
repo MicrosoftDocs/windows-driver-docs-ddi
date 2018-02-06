@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7287b060-ab4c-48af-b5cd-67bae7bc1a73
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ObQueryObjectAuditingByHandle, ifsk.obqueryobjectauditingbyhandle, ntifs/ObQueryObjectAuditingByHandle, obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml, ObQueryObjectAuditingByHandle function [Installable File System Drivers]
+ms.keywords: ObQueryObjectAuditingByHandle function [Installable File System Drivers], obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml, ntifs/ObQueryObjectAuditingByHandle, ifsk.obqueryobjectauditingbyhandle, ObQueryObjectAuditingByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

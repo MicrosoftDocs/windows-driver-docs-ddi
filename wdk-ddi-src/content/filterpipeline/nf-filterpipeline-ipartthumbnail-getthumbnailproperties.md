@@ -7,8 +7,8 @@ old-location: print\ipartthumbnail_getthumbnailproperties.htm
 old-project: print
 ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPartThumbnail, GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, GetThumbnailProperties method [Print Devices], IPartThumbnail interface, print.ipartthumbnail_getthumbnailproperties, IPartThumbnail::GetThumbnailProperties, IPartThumbnail interface [Print Devices], GetThumbnailProperties method, GetThumbnailProperties method [Print Devices], filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml
+ms.date: 2/2/2018
+ms.keywords: GetThumbnailProperties method [Print Devices], IPartThumbnail interface, GetThumbnailProperties method [Print Devices], IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, IPartThumbnail, GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, print.ipartthumbnail_getthumbnailproperties, IPartThumbnail interface [Print Devices], GetThumbnailProperties method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

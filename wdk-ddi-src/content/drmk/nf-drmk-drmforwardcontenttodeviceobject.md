@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, drmk/DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], audio.drmforwardcontenttodeviceobject, DrmForwardContentToDeviceObject
+ms.keywords: DrmForwardContentToDeviceObject, aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, drmk/DrmForwardContentToDeviceObject, audio.drmforwardcontenttodeviceobject, DrmForwardContentToDeviceObject function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmForwardContentToDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
 ---
 
 # DrmForwardContentToDeviceObject function
@@ -197,17 +197,17 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
 <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
 <a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 

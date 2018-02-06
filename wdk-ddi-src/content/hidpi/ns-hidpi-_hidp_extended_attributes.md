@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 03be8b22-2108-4a13-be1e-642373095ab5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_HIDP_EXTENDED_ATTRIBUTES, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml, PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], *PHIDP_EXTENDED_ATTRIBUTES, hidpi/HIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES, hid.hidp_extended_attributes, HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices], hidpi/PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES"
+ms.keywords: "_HIDP_EXTENDED_ATTRIBUTES, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml, PHIDP_EXTENDED_ATTRIBUTES, hidpi/HIDP_EXTENDED_ATTRIBUTES, hidpi/PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices], PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], HIDP_EXTENDED_ATTRIBUTES, hid.hidp_extended_attributes, *PHIDP_EXTENDED_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,9 +99,9 @@ The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetEx
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
-
 <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
+
+<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
 
  
 

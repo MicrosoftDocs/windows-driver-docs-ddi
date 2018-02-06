@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7756f69-feab-4a28-88d5-0262f86db54b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioreportdetecteddevice, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], IoReportDetectedDevice, ntddk/IoReportDetectedDevice, k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml
+ms.keywords: IoReportDetectedDevice, k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportdetecteddevice, ntddk/IoReportDetectedDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,9 +154,9 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
-
 <a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
  
 

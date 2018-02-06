@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, wiamdef/WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], WIAS_ASSERT, image.wias_assert
+ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, wiamdef/WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, WIAS_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_ASSERT
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - Expression
-
-Specifies any logical expression.
-
-
 #### - HInst
 
 Handle to the DLL (driver).
+
+
+#### - Expression
+
+Specifies any logical expression.
 
 
 ## -remarks
@@ -104,11 +104,11 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
-
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
 
 <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+
+<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
  
 

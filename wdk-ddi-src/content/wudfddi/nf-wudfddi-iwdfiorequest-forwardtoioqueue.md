@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_forwardtoioqueue, IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue method, IWDFIoRequest interface, ForwardToIoQueue method, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, ForwardToIoQueue, umdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue, IWDFIoRequest, ForwardToIoQueue method, IWDFIoRequest interface
+ms.keywords: IWDFIoRequest::ForwardToIoQueue, IWDFIoRequest interface, ForwardToIoQueue method, IWDFIoRequest, umdf.iwdfiorequest_forwardtoioqueue, ForwardToIoQueue, ForwardToIoQueue method, IWDFIoRequest interface, ForwardToIoQueue method, wudfddi/IWDFIoRequest::ForwardToIoQueue, wdf.iwdfiorequest_forwardtoioqueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.ForwardToIoQueue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -99,15 +99,15 @@ The request cannot be cancelable. If the driver previously called the <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
  
 

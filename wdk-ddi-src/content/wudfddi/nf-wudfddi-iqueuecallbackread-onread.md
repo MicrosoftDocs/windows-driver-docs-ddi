@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e11a823d-0b08-42fd-b093-4c464c152afe
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnRead method, IQueueCallbackRead interface, IQueueCallbackRead, wudfddi/IQueueCallbackRead::OnRead, IQueueCallbackRead::OnRead, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, IQueueCallbackRead interface, OnRead method, OnRead method, umdf.iqueuecallbackread_onread, wdf.iqueuecallbackread_onread, OnRead
+ms.keywords: IQueueCallbackRead, OnRead method, umdf.iqueuecallbackread_onread, OnRead method, IQueueCallbackRead interface, wdf.iqueuecallbackread_onread, IQueueCallbackRead interface, OnRead method, OnRead, IQueueCallbackRead::OnRead, wudfddi/IQueueCallbackRead::OnRead, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackRead.OnRead
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -113,9 +113,9 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackread.md">IQueueCallbackRead</a>
 

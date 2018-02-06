@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnQueryRemove, IPnpCallback::OnQueryRemove, OnQueryRemove method, wudfddi/IPnpCallback::OnQueryRemove, IPnpCallback, wdf.ipnpcallback_onqueryremove, OnQueryRemove method, IPnpCallback interface, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, IPnpCallback interface, OnQueryRemove method, umdf.ipnpcallback_onqueryremove
+ms.keywords: wdf.ipnpcallback_onqueryremove, IPnpCallback, IPnpCallback interface, OnQueryRemove method, OnQueryRemove, OnQueryRemove method, IPnpCallback interface, IPnpCallback::OnQueryRemove, wudfddi/IPnpCallback::OnQueryRemove, OnQueryRemove method, umdf.ipnpcallback_onqueryremove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

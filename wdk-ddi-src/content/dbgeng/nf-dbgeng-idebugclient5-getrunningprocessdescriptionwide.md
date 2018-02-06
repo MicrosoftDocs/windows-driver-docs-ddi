@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1af85bbe-19e8-4e16-a598-f9822fd6f766
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetRunningProcessDescriptionWide method [Windows Debugging], dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient5 interface, debugger.getrunningprocessdescriptionwide, IDebugClient3::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, IDebugClient5::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescriptionWide method, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient5
+ms.keywords: IDebugClient4::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient3 interface [Windows Debugging], GetRunningProcessDescriptionWide method, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient5::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescriptionWide method, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient5 interface, debugger.getrunningprocessdescriptionwide, GetRunningProcessDescriptionWide, IDebugClient3::GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugClient5.GetRunningProcessDescriptionWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetRunningProcessDescriptionWide method
@@ -214,21 +214,21 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
  
 

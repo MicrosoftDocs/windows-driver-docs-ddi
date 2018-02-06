@@ -82,14 +82,14 @@ SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
 
 
 
-#### - CreateVideoDecoder [in]
-
-The arguments used to create a video decoder.
-
-
 #### - hDevice
 
 The handle of a device. 
+
+
+#### - CreateVideoDecoder [in]
+
+The arguments used to create a video decoder.
 
 
 ## -remarks

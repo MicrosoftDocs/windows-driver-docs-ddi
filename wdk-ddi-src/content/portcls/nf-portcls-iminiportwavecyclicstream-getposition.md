@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a0d59215-5201-4e1a-9cb2-d9ff6109c3bb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavecyclicstream_getposition, IMiniportWaveCyclicStream::GetPosition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, portcls/IMiniportWaveCyclicStream::GetPosition, IMiniportWaveCyclicStream, GetPosition, GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method, GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface
+ms.keywords: audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, IMiniportWaveCyclicStream, GetPosition method [Audio Devices], GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface, GetPosition, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition, portcls/IMiniportWaveCyclicStream::GetPosition, IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,9 +112,9 @@ The WaveCyclic port driver implements a property handler for <a href="https://ms
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
  
 

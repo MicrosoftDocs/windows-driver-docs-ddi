@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rtlcreateacl, RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], ntifs/RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml
+ms.keywords: ntifs/RtlCreateAcl, RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml, ifsk.rtlcreateacl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,17 +206,17 @@ for (i = 0 ; i &lt; nAceCount ; i++) {
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+
+<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
 
 <a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
  
 

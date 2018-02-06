@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7348d937-6541-47a7-ae70-7d851d41bc1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml, FwpsAcquireClassifyHandle0, netvista.fwpsacquireclassifyhandle0, fwpsk/FwpsAcquireClassifyHandle0
+ms.keywords: fwpsk/FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml, netvista.fwpsacquireclassifyhandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -182,9 +182,9 @@ An error occurred.
 
 <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
-
 <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
  
 

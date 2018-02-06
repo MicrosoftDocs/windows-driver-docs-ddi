@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02bf5e91-bce0-4b8d-aec6-659ed1efd2b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_AddTarget_IN, SM_AddTarget_IN, hbapiwmi/PSM_AddTarget_IN, hbapiwmi/SM_AddTarget_IN, *PSM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], storage.sm_addtarget_in, _SM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices], structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml
+ms.keywords: hbapiwmi/PSM_AddTarget_IN, hbapiwmi/SM_AddTarget_IN, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml, PSM_AddTarget_IN, *PSM_AddTarget_IN, storage.sm_addtarget_in, SM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], _SM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_AddTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_AddTarget_IN, SM_AddTarget_IN"
+req.typenames: SM_AddTarget_IN, *PSM_AddTarget_IN
 ---
 
 # _SM_AddTarget_IN structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, poclass/THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], poclass/PTHERMAL_COOLING_INTERFACE"
+ms.keywords: "_THERMAL_COOLING_INTERFACE, THERMAL_DEVICE_INTERFACE, THERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE, poclass/PTHERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], *PTHERMAL_DEVICE_INTERFACE, kernel.thermal_cooling_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,21 +135,21 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
-<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
-
-<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
+<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
+
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
  
 

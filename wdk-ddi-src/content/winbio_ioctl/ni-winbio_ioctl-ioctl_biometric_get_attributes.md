@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_GET_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

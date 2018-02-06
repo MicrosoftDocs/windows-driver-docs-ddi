@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForUrb, kmdf.wdfusbtargetpipeformatrequestforurb, WdfUsbTargetPipeFormatRequestForUrb method, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, wdf.wdfusbtargetpipeformatrequestforurb, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB
+ms.keywords: WdfUsbTargetPipeFormatRequestForUrb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, kmdf.wdfusbtargetpipeformatrequestforurb, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB, WdfUsbTargetPipeFormatRequestForUrb method, wdf.wdfusbtargetpipeformatrequestforurb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -189,15 +189,15 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForUrb</b> method
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 

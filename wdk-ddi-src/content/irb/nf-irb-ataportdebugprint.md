@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortDebugPrint routine [Storage Devices], irb/AtaPortDebugPrint, atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, storage.ataportdebugprint, AtaPortDebugPrint
+ms.keywords: atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, storage.ataportdebugprint, AtaPortDebugPrint, irb/AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

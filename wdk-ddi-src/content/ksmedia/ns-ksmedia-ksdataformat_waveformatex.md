@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b4c0cca8-6277-4458-b1f1-894848987074
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices], *PKSDATAFORMAT_WAVEFORMATEX, audio.ksdataformat_waveformatex, ksmedia/KSDATAFORMAT_WAVEFORMATEX, ksmedia/PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml
+ms.keywords: aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, *PKSDATAFORMAT_WAVEFORMATEX, ksmedia/PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, ksmedia/KSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], audio.ksdataformat_waveformatex, PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDATAFORMAT_WAVEFORMATEX
 product: Windows
 targetos: Windows
-req.typenames: KSDATAFORMAT_WAVEFORMATEX, *PKSDATAFORMAT_WAVEFORMATEX
+req.typenames: "*PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX"
 ---
 
 # KSDATAFORMAT_WAVEFORMATEX structure

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e7be6cb6-a59d-4244-ba36-e7d5b36b1416
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], fltkernel/FLT_VOLUME_PROPERTIES, VOL_PROP_FL_DAX_VOLUME, _FLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers], FLT_VOLUME_PROPERTIES, FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, PFLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES, fltkernel/PFLT_VOLUME_PROPERTIES
+ms.keywords: fltkernel/FLT_VOLUME_PROPERTIES, _FLT_VOLUME_PROPERTIES, fltkernel/PFLT_VOLUME_PROPERTIES, PFLT_VOLUME_PROPERTIES, PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], FLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties, *PFLT_VOLUME_PROPERTIES, VOL_PROP_FL_DAX_VOLUME, FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_VOLUME_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: "*PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES"
+req.typenames: FLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES
 ---
 
 # _FLT_VOLUME_PROPERTIES structure
@@ -164,17 +164,17 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 ## -see-also
 
-<b>FltGetVolumeName</b>
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
+
+<b>FltGetVolumeName</b>
 
 <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
  
 

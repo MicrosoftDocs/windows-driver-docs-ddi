@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9CF14B12-D94F-486D-A5FC-E7CC2730D8E9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/BUS_RESET_NOTIFY, _BUS_RESET_NOTIFY, BUS_RESET_NOTIFY, PBUS_RESET_NOTIFY structure pointer [Buses], PBUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY structure [Buses], IEEE.bus_reset_notify, 61883/PBUS_RESET_NOTIFY
+ms.keywords: BUS_RESET_NOTIFY, PBUS_RESET_NOTIFY structure pointer [Buses], BUS_RESET_NOTIFY structure [Buses], *PBUS_RESET_NOTIFY, 61883/PBUS_RESET_NOTIFY, 61883/BUS_RESET_NOTIFY, _BUS_RESET_NOTIFY, IEEE.bus_reset_notify, PBUS_RESET_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BUS_RESET_NOTIFY
 product: Windows
 targetos: Windows
-req.typenames: "*PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY"
+req.typenames: BUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY
 ---
 
 # _BUS_RESET_NOTIFY structure

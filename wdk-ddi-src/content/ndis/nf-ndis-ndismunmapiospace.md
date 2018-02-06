@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 068232d3-b160-4090-b72c-63d9a31c1567
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, netvista.ndismunmapiospace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], NdisMUnmapIoSpace, ndis/NdisMUnmapIoSpace
+ms.keywords: ndis/NdisMUnmapIoSpace, NdisMUnmapIoSpace, netvista.ndismunmapiospace, miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,9 +120,9 @@ The
 
 <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E484AB83-DEA6-4FC7-9896-26984D998661
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrmult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrMult, RtlUIntPtrMult
+ms.keywords: kernel.rtluintptrmult, RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

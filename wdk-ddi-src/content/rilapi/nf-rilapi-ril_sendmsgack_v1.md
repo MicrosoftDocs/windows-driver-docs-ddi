@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a3c148e-d113-4cbc-a88a-691531bb3d9d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SendMsgAck_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsgack_v1, RIL_SendMsgAck_V1, rilapi/RIL_SendMsgAck_V1
+ms.keywords: rilapi/RIL_SendMsgAck_V1, netvista.ril_sendmsgack_v1, RIL_SendMsgAck_V1 method [Network Drivers Starting with Windows Vista], RIL_SendMsgAck_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SendMsgAck_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

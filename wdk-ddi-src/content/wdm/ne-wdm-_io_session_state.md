@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSessionStateTerminated, IoSessionStateTerminated, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateCreated, wdm/IoSessionStateMax, IoSessionStateInitialized, wdm/IoSessionStateDisconnected, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateInitialized, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, IoSessionStateCreated, PIO_SESSION_STATE, IoSessionStateMax, *PIO_SESSION_STATE, IO_SESSION_STATE, kernel.io_session_state, wdm/IoSessionStateConnected, IoSessionStateConnected, _IO_SESSION_STATE, wdm/PIO_SESSION_STATE, wdm/IoSessionStateLoggedOn, wdm/IO_SESSION_STATE, wdm/IoSessionStateLoggedOff, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateLoggedOff, IoSessionStateDisconnected, IoSessionStateLoggedOn
+ms.keywords: IoSessionStateCreated, wdm/IoSessionStateConnected, IoSessionStateConnected, wdm/IoSessionStateTerminated, wdm/PIO_SESSION_STATE, IoSessionStateLoggedOff, wdm/IoSessionStateInitialized, wdm/IoSessionStateDisconnected, wdm/IoSessionStateMax, IoSessionStateMax, PIO_SESSION_STATE, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateInitialized, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], kernel.io_session_state, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, *PIO_SESSION_STATE, IO_SESSION_STATE, IoSessionStateTerminated, wdm/IoSessionStateLoggedOn, wdm/IoSessionStateLoggedOff, wdm/IoSessionStateCreated, _IO_SESSION_STATE, wdm/IoSessionStateDisconnectedLoggedOn, IoSessionStateDisconnectedLoggedOn, wdm/IO_SESSION_STATE, IoSessionStateDisconnected, IoSessionStateLoggedOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -147,9 +147,9 @@ The event that causes the transition (a table entry in a white box)
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
-
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+<a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 

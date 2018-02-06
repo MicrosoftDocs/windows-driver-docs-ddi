@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/FILE_FULL_EA_INFORMATION, wdm/PFILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION, _FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION, kernel.file_full_ea_information, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.file_full_ea_information, wdm/PFILE_FULL_EA_INFORMATION, wdm/FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

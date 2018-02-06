@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 47692ac1-969a-4f6f-a2e1-008b82ac1429
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsReleaseDevice, avfunc_47876dbc-0dea-459f-96f7-81790d245745.xml, ks/KsReleaseDevice, KsReleaseDevice function [Streaming Media Devices], stream.ksreleasedevice
+ms.keywords: KsReleaseDevice, ks/KsReleaseDevice, KsReleaseDevice function [Streaming Media Devices], stream.ksreleasedevice, avfunc_47876dbc-0dea-459f-96f7-81790d245745.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,9 +91,9 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksacquiredevice.md">KsAcquireDevice</a>
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+<a href="..\ks\nf-ks-ksacquiredevice.md">KsAcquireDevice</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PSDP_NODE structure pointer [Bluetooth Devices], bltooth.sdp_node, sdpnode/PSDP_NODE, _SDP_NODE, PSDP_NODE, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, *PSDP_NODE, SDP_NODE structure [Bluetooth Devices], sdpnode/SDP_NODE, SDP_NODE
+ms.keywords: sdpnode/PSDP_NODE, _SDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], SDP_NODE, SDP_NODE structure [Bluetooth Devices], bltooth.sdp_node, sdpnode/SDP_NODE, PSDP_NODE, *PSDP_NODE, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SDP_NODE
 product: Windows
 targetos: Windows
-req.typenames: SDP_NODE, *PSDP_NODE
+req.typenames: "*PSDP_NODE, SDP_NODE"
 req.product: Windows 10 or later.
 ---
 

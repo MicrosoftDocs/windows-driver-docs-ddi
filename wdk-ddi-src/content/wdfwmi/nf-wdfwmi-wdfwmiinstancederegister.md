@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2167504e-ca92-4427-9101-04a2c2bf66df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiInstanceDeregister method, DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, WdfWmiInstanceDeregister, wdfwmi/WdfWmiInstanceDeregister, wdf.wdfwmiinstancederegister, kmdf.wdfwmiinstancederegister, PFN_WDFWMIINSTANCEDEREGISTER
+ms.keywords: wdfwmi/WdfWmiInstanceDeregister, PFN_WDFWMIINSTANCEDEREGISTER, kmdf.wdfwmiinstancederegister, wdf.wdfwmiinstancederegister, WdfWmiInstanceDeregister method, WdfWmiInstanceDeregister, DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 45a041c9-029a-4fa1-91c6-562e56a30b3e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method, GetNameByOffsetWide, IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide, GetNameByOffsetWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetNameByOffsetWide, IDebugSymbols3, GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide, GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetNameByOffsetWide, GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3, GetNameByOffsetWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetNameByOffsetWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetNameByOffsetWide method

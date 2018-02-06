@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: b30ccf86-ae6d-484a-a3f2-8b38df26e995
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PPCI_X_CAPABILITY, wdm/PCI_X_CAPABILITY, PCI.pci_x_capability, *PPCI_X_CAPABILITY, PPCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses]
+ms.keywords: PCI_X_CAPABILITY, PPCI_X_CAPABILITY, *PPCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY structure pointer [Buses], wdm/PPCI_X_CAPABILITY, PCI.pci_x_capability, pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

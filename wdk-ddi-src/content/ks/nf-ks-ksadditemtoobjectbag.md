@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c8b6252-8438-4cd1-81e0-02c260da0daf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddItemToObjectBag function [Streaming Media Devices], stream.ksadditemtoobjectbag, ks/KsAddItemToObjectBag, KsAddItemToObjectBag, avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml
+ms.keywords: KsAddItemToObjectBag function [Streaming Media Devices], ks/KsAddItemToObjectBag, stream.ksadditemtoobjectbag, KsAddItemToObjectBag, avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,19 +113,19 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
 <a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
-
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
-
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 <a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
 
+<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
 <a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+
+<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
  
 

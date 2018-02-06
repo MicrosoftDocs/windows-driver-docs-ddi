@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EndInput method [Windows Debugging], ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, IDebugInputCallbacks, EndInput, IDebugInputCallbacks interface [Windows Debugging], EndInput method, dbgeng/IDebugInputCallbacks::EndInput, IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput, EndInput method [Windows Debugging], IDebugInputCallbacks interface
+ms.keywords: EndInput, EndInput method [Windows Debugging], IDebugInputCallbacks interface, EndInput method [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging], EndInput method, dbgeng/IDebugInputCallbacks::EndInput, ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, debugger.idebuginputcallbacks_endinput, IDebugInputCallbacks, IDebugInputCallbacks::EndInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugInputCallbacks.EndInput
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugInputCallbacks::EndInput method

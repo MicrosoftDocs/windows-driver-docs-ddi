@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aa47c030-dcd4-451b-8a4b-03ac566bb394
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_disassociate_peer_request, PDOT11_DISASSOCIATE_PEER_REQUEST, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST, windot11/DOT11_DISASSOCIATE_PEER_REQUEST, *PDOT11_DISASSOCIATE_PEER_REQUEST, Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], _DOT11_DISASSOCIATE_PEER_REQUEST
+ms.keywords: DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], DOT11_DISASSOCIATE_PEER_REQUEST, *PDOT11_DISASSOCIATE_PEER_REQUEST, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST, _DOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST, netvista.dot11_disassociate_peer_request, Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_DISASSOCIATE_PEER_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: DOT11_DISASSOCIATE_PEER_REQUEST, *PDOT11_DISASSOCIATE_PEER_REQUEST
+req.typenames: "*PDOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST"
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,11 @@ For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_DISASSOCIATE_PEER_REQUEST_REVISION_1.
@@ -96,11 +101,6 @@ This member must be set to DOT11_DISASSOCIATE_PEER_REQUEST_REVISION_1.
 
 This member must be set to 
        <b>sizeof</b>(DOT11_DISASSOCIATE_PEER_REQUEST).
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field PeerMacAddr
@@ -130,10 +130,10 @@ This structure is used with
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-disassociate-peer-request">
    OID_DOT11_DISASSOCIATE_PEER_REQUEST</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
  
 

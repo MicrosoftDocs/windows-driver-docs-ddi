@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3468b29d-e62c-46b4-b95e-06df846ebd81
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO structure [Audio Devices], PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices], ksmedia/SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO, audio.sysaudio_instance_info, ksmedia/PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO, aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml
+ms.keywords: SYSAUDIO_INSTANCE_INFO structure [Audio Devices], SYSAUDIO_INSTANCE_INFO, aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, PSYSAUDIO_INSTANCE_INFO, ksmedia/SYSAUDIO_INSTANCE_INFO, audio.sysaudio_instance_info, *PSYSAUDIO_INSTANCE_INFO, ksmedia/PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSAUDIO_INSTANCE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO"
+req.typenames: SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
 ---
 
 # SYSAUDIO_INSTANCE_INFO structure
@@ -99,13 +99,13 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
 
  
 

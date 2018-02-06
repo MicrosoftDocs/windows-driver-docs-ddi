@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d9b4bba-0216-48cf-81aa-160b7252ba20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PFLT_RELATED_CONTEXTS, FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], ifsk.flt_related_contexts, _FLT_RELATED_CONTEXTS, fltkernel/PFLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS structure [Installable File System Drivers], FLT_RELATED_CONTEXTS, fltkernel/FLT_RELATED_CONTEXTS"
+ms.keywords: FltSystemStructures_a7a436e2-2a17-41a2-97db-d6bae407d139.xml, ifsk.flt_related_contexts, _FLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS, PFLT_RELATED_CONTEXTS structure pointer [Installable File System Drivers], PFLT_RELATED_CONTEXTS, FLT_RELATED_CONTEXTS structure [Installable File System Drivers], fltkernel/FLT_RELATED_CONTEXTS, fltkernel/PFLT_RELATED_CONTEXTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,9 +119,9 @@ For more information about using contexts, see the reference entry for <a href="
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-
 <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
 

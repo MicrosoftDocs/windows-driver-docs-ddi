@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16582fce-179a-4a99-9e4c-6f7ca1d3ddef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/FEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect, _FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], FEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_WRITE_PROTECT, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml
+ms.keywords: PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT, _FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], ntddmmc/PFEATURE_DATA_WRITE_PROTECT, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml, *PFEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

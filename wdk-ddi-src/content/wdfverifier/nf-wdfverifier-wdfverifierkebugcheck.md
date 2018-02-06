@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3fa8ea3d-cca0-402d-a3a8-1281ad4231d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfverifier/WdfVerifierKeBugCheck, kmdf.wdfverifierkebugcheck, WdfVerifierKeBugCheck function, DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, wdf.wdfverifierkebugcheck
+ms.keywords: kmdf.wdfverifierkebugcheck, DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, WdfVerifierKeBugCheck function, wdfverifier/WdfVerifierKeBugCheck, wdf.wdfverifierkebugcheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

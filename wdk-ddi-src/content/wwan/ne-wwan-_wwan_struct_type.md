@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 43729964-9338-45ab-ad59-406176c1ae9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanStructReserved3, WwanStructContext, _WWAN_STRUCT_TYPE, netvista.wwan_struct_type, wwan/WWAN_STRUCT_TYPE, WwanStructTN, WwanStructSmsCdma, wwan/WwanStructMax, WwanStructReserved0, WwanStructReserved3, WwanStructDeviceCellularClass, WWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanStructProvider2, wwan/WwanStructContext, wwan/WwanStructDeviceServiceEntry, wwan/WwanStructDeviceCellularClass, wwan/WwanStructTN, wwan/WwanStructReserved0, WwanStructReserved2, wwan/WwanStructProvider2, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanStructProvider, wwan/WwanStructReserved1, WwanStructDeviceServiceEntry, WwanStructDeviceServiceCommandId, wwan/PWWAN_STRUCT_TYPE, WwanStructProvider, wwan/WwanStructSmsPdu, wwan/WwanStructDeviceServiceCommandId, *PWWAN_STRUCT_TYPE, WwanStructMax, wwan/WwanStructReserved2, WwanStructReserved1, WwanStructDeviceServiceGuid, PWWAN_STRUCT_TYPE, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructSmsCdma, WwanStructSmsPdu, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml
+ms.keywords: WwanStructDeviceServiceEntry, wwan/WwanStructProvider2, wwan/WwanStructReserved2, wwan/WwanStructDeviceServiceEntry, WwanStructDeviceServiceCommandId, WwanStructContext, wwan/WwanStructMax, wwan/WwanStructContext, WwanStructReserved1, WwanStructDeviceCellularClass, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructSmsPdu, wwan/WWAN_STRUCT_TYPE, WwanStructReserved3, wwan/WwanStructProvider, WwanStructReserved0, PWWAN_STRUCT_TYPE, wwan/WwanStructDeviceCellularClass, WwanStructMax, wwan/WwanStructReserved3, *PWWAN_STRUCT_TYPE, WwanStructProvider2, wwan/WwanStructReserved0, _WWAN_STRUCT_TYPE, WwanStructSmsPdu, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanStructReserved2, wwan/PWWAN_STRUCT_TYPE, WwanStructSmsCdma, wwan/WwanStructReserved1, WwanStructDeviceServiceGuid, wwan/WwanStructSmsCdma, wwan/WwanStructTN, WwanStructTN, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_STRUCT_TYPE, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, wwan/WwanStructDeviceServiceCommandId, WwanStructProvider, netvista.wwan_struct_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -241,23 +241,23 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
+
+<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 <a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
-
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
 
-<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
-
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
  
 

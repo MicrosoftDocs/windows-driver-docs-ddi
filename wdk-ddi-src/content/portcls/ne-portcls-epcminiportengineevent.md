@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6B282CA4-2EE8-48BB-99E2-1A16A92E57A5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_IHV_DEFINED, eMINIPORT_IHV_DEFINED, eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, audio.epcminiportengineevent, eMINIPORT_PIN_STATE, portcls/eMINIPORT_BUFFER_COMPLETE, eMINIPORT_BUFFER_COMPLETE, EPcMiniportEngineEvent, eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_GET_PRESENTATION_POS, portcls/eMINIPORT_PROCESSING_MODE, eMINIPORT_GET_PRESENTATION_POS, portcls/eMINIPORT_FX_CLSID, eMINIPORT_MaxValue, portcls/EPcMiniportEngineEvent, eMINIPORT_PROCESSING_MODE, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_GLITCH_REPORT, EPcMiniportEngineEvent enumeration [Audio Devices], eMINIPORT_FX_CLSID, portcls/eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_PROGRAM_DMA, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, eMINIPORT_LAST_BUFFER_RENDERED
+ms.keywords: audio.epcminiportengineevent, eMINIPORT_PIN_STATE, eMINIPORT_FX_CLSID, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_PIN_STATE, eMINIPORT_GET_PRESENTATION_POS, portcls/eMINIPORT_GET_STREAM_POS, eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_BUFFER_COMPLETE, eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_GET_PRESENTATION_POS, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_FX_CLSID, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_PROCESSING_MODE, EPcMiniportEngineEvent, portcls/eMINIPORT_IHV_DEFINED, EPcMiniportEngineEvent enumeration [Audio Devices], eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_GLITCH_REPORT, eMINIPORT_MaxValue, eMINIPORT_IHV_DEFINED, eMINIPORT_PROCESSING_MODE, eMINIPORT_LAST_BUFFER_RENDERED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -137,11 +137,6 @@ Specifies the class ID for the audio processing effect (FX) that was in effect w
 Specifies the ID for the highest enumerated value that was used to report the glitch.
 
 
-#### - eMINIPORT_GET_PRESENTATION_POS
-
-Specifies the ID for a "get presentation position" event.
-
-
 #### - eMINIPORT_GET_STREAM_POS
 
 Specifies the ID for a "get stream position" event.
@@ -150,6 +145,11 @@ Specifies the ID for a "get stream position" event.
 #### - eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS
 
 Specifies the ID for a "wave  buffer write position" event.
+
+
+#### - eMINIPORT_GET_PRESENTATION_POS
+
+Specifies the ID for a "get presentation position" event.
 
 
 ## -remarks

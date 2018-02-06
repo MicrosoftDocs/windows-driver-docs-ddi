@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c6ee78-ae4e-4b96-be83-a5960f36a363
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_COPY_MACROVISION, stream.ks_copy_macrovision, KS_COPY_MACROVISION structure [Streaming Media Devices], KS_COPY_MACROVISION, dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], _KS_COPY_MACROVISION, *PKS_COPY_MACROVISION, ksmedia/PKS_COPY_MACROVISION, PKS_COPY_MACROVISION
+ms.keywords: dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, stream.ks_copy_macrovision, ksmedia/KS_COPY_MACROVISION, KS_COPY_MACROVISION structure [Streaming Media Devices], PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], ksmedia/PKS_COPY_MACROVISION, _KS_COPY_MACROVISION, *PKS_COPY_MACROVISION, KS_COPY_MACROVISION, PKS_COPY_MACROVISION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_COPY_MACROVISION
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_COPY_MACROVISION, KS_COPY_MACROVISION"
+req.typenames: KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
 ---
 
 # _KS_COPY_MACROVISION structure

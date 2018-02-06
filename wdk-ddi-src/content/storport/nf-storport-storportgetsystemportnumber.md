@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1205C85-6F23-4D08-A146-2FA8C00FD6E9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetSystemPortNumber, StorPortGetSystemPortNumber routine [Storage Devices], storage.storportgetsystemportnumber, StorPortGetSystemPortNumber
+ms.keywords: StorPortGetSystemPortNumber routine [Storage Devices], storage.storportgetsystemportnumber, StorPortGetSystemPortNumber, storport/StorPortGetSystemPortNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

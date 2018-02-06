@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::ReadTagged, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging], dbgeng/IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4::ReadTagged, ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, debugger.readtagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method
+ms.keywords: ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::ReadTagged, ReadTagged, debugger.readtagged, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, dbgeng/IDebugDataSpaces4::ReadTagged, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, ReadTagged method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugDataSpaces4.ReadTagged
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadTagged method

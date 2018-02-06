@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, FEATURE_DATA_CORE, *PFEATURE_DATA_CORE, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml, FEATURE_DATA_CORE structure [Storage Devices], _FEATURE_DATA_CORE, PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], storage.feature_data_core
+ms.keywords: ntddmmc/PFEATURE_DATA_CORE, FEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml, ntddmmc/FEATURE_DATA_CORE, PFEATURE_DATA_CORE, storage.feature_data_core, _FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], *PFEATURE_DATA_CORE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_CORE
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_CORE, FEATURE_DATA_CORE"
+req.typenames: FEATURE_DATA_CORE, *PFEATURE_DATA_CORE
 ---
 
 # _FEATURE_DATA_CORE structure

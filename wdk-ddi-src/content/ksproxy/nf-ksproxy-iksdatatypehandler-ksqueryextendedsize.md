@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler::KsQueryExtendedSize, KsQueryExtendedSize method [Streaming Media Devices], KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, KsQueryExtendedSize, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, stream.iksdatatypehandler_ksqueryextendedsize
+ms.keywords: KsQueryExtendedSize, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, KsQueryExtendedSize method [Streaming Media Devices], ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, stream.iksdatatypehandler_ksqueryextendedsize, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,9 +88,9 @@ If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients shoul
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559831">IKsDataTypeHandler::KsPrepareIoOperation</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
 
  
 

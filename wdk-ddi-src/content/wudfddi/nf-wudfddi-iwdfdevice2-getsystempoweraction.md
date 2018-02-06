@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, GetSystemPowerAction, GetSystemPowerAction method, wdf.iwdfdevice2_getsystempoweraction, umdf.iwdfdevice2_getsystempoweraction, IWDFDevice2 interface, GetSystemPowerAction method, wudfddi/IWDFDevice2::GetSystemPowerAction, GetSystemPowerAction method, IWDFDevice2 interface, IWDFDevice2, IWDFDevice2::GetSystemPowerAction
+ms.keywords: UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, IWDFDevice2::GetSystemPowerAction, IWDFDevice2 interface, GetSystemPowerAction method, wdf.iwdfdevice2_getsystempoweraction, GetSystemPowerAction method, IWDFDevice2 interface, GetSystemPowerAction, IWDFDevice2, umdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction, GetSystemPowerAction method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.GetSystemPowerAction
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

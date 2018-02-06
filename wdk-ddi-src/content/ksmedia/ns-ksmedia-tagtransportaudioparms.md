@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PTRANSPORTAUDIOPARMS, ksmedia/PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], tagTRANSPORTAUDIOPARMS, ksmedia/TRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, stream.transportaudioparms, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS"
+ms.keywords: PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, ksmedia/TRANSPORTAUDIOPARMS, stream.transportaudioparms, tagTRANSPORTAUDIOPARMS, ksmedia/PTRANSPORTAUDIOPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

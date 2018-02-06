@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetId method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint::GetId, IDebugBreakpoint2, GetId, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, dbgeng/IDebugBreakpoint::GetId, IDebugBreakpoint2 interface [Windows Debugging], GetId method, debugger.getid, dbgeng/IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: debugger.getid, IDebugBreakpoint interface [Windows Debugging], GetId method, GetId method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, dbgeng/IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint2::GetId, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, IDebugBreakpoint2 interface [Windows Debugging], GetId method, GetId method [Windows Debugging], IDebugBreakpoint interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::GetId method

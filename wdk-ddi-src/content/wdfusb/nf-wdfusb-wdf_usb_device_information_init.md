@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f4931d7-6b5f-412f-ace9-32f20dfa7c90
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_ffde7966-f00b-4614-9845-aaebe2e0488b.xml, kmdf.wdf_usb_device_information_init, WDF_USB_DEVICE_INFORMATION_INIT, wdf.wdf_usb_device_information_init, WDF_USB_DEVICE_INFORMATION_INIT function, wdfusb/WDF_USB_DEVICE_INFORMATION_INIT
+ms.keywords: kmdf.wdf_usb_device_information_init, wdf.wdf_usb_device_information_init, DFUsbRef_ffde7966-f00b-4614-9845-aaebe2e0488b.xml, wdfusb/WDF_USB_DEVICE_INFORMATION_INIT, WDF_USB_DEVICE_INFORMATION_INIT function, WDF_USB_DEVICE_INFORMATION_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

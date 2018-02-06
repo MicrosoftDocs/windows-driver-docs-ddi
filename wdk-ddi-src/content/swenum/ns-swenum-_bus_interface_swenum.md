@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/BUS_INTERFACE_SWENUM, stream.bus_interface_swenum, swenum/PBUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], *PBUS_INTERFACE_SWENUM, _BUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices]
+ms.keywords: swenum/PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], _BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, swenum/BUS_INTERFACE_SWENUM, stream.bus_interface_swenum, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BUS_INTERFACE_SWENUM
 product: Windows
 targetos: Windows
-req.typenames: "*PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM"
+req.typenames: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
 req.product: Windows 10 or later.
 ---
 

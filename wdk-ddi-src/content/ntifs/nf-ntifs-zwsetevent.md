@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, ntifs/NtSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], kernel.zwsetevent, ZwSetEvent, ntifs/ZwSetEvent, NtSetEvent
+ms.keywords: ZwSetEvent routine [Kernel-Mode Driver Architecture], ntifs/NtSetEvent, kernel.zwsetevent, NtSetEvent, ZwSetEvent, ntifs/ZwSetEvent, k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,25 +135,25 @@ The supplied <i>EventHandle</i> parameter was invalid.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
 <a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
  
 

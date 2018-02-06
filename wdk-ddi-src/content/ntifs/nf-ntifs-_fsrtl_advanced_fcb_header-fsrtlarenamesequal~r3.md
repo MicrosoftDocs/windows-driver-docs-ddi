@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/FsRtlAreNamesEqual, FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal, fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, FsRtlAreNamesEqual routine [Installable File System Drivers]
+ms.keywords: FsRtlAreNamesEqual, fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, FsRtlAreNamesEqual routine [Installable File System Drivers], ifsk.fsrtlarenamesequal, ntifs/FsRtlAreNamesEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,9 +112,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+<a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
 
  
 

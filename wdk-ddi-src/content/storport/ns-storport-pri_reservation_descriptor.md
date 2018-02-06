@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, storport/PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], storage.pri_reservation_descriptor
+ms.keywords: storport/PRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, *PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], PRI_RESERVATION_DESCRIPTOR, storport/PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, storage.pri_reservation_descriptor, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,9 +112,9 @@ The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOC
 
 ## -see-also
 
-<a href="..\storport\ns-storport-pri_reservation_list.md">PRI_RESERVATION_LIST</a>
-
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+
+<a href="..\storport\ns-storport-pri_reservation_list.md">PRI_RESERVATION_LIST</a>
 
  
 

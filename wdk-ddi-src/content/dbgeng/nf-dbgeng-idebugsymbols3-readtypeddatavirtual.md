@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3, debugger.readtypeddatavirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, IDebugSymbols::ReadTypedDataVirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::ReadTypedDataVirtual
+ms.keywords: IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, debugger.readtypeddatavirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3, ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.ReadTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::ReadTypedDataVirtual method

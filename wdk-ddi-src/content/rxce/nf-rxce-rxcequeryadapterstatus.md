@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml
+ms.keywords: RxCeQueryAdapterStatus function [Installable File System Drivers], RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml, ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeQueryAdapterStatus
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -136,11 +136,11 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
+
 <a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
 
 <a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: AAD0101E-13FB-48A2-8834-799472B93931
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportstreamaudioenginenode_setstreamchannelmute, IMiniportStreamAudioEngineNode, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::SetStreamChannelMute, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute method [Audio Devices]
+ms.keywords: SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode::SetStreamChannelMute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, audio.iminiportstreamaudioenginenode_setstreamchannelmute, IMiniportStreamAudioEngineNode, SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

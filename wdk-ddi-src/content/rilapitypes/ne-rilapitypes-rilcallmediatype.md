@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4ecaf9a-1d8d-4a56-afa0-b893eb0c4c62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_MAX, rilapitypes/RIL_CALLMEDIATYPE_VIDEO, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_AUDIO, netvista.rilcallmediatype_2, rilapitypes/RILCALLMEDIATYPE, RIL_CALLMEDIATYPE_CUSTOM
+ms.keywords: netvista.rilcallmediatype_2, rilapitypes/RIL_CALLMEDIATYPE_VIDEO, rilapitypes/RIL_CALLMEDIATYPE_CUSTOM, rilapitypes/RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_MAX, RILCALLMEDIATYPE, rilapitypes/RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_VIDEO, rilapitypes/RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_AUDIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

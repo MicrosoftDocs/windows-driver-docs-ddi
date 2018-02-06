@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 05fbdc9b-be15-4d1b-96d5-4ea48fb6c543
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_getversion, HBA_GetVersion routine [Storage Devices], fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml, HBA_GetVersion, hbaapi/HBA_GetVersion
+ms.keywords: HBA_GetVersion routine [Storage Devices], hbaapi/HBA_GetVersion, HBA_GetVersion, fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml, storage.hba_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

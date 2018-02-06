@@ -7,8 +7,8 @@ old-location: print\oemalphablend.htm
 old-project: print
 ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMAlphaBlend, OEMAlphaBlend function [Print Devices], OEMAlphaBlend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, print.oemalphablend
+ms.date: 2/2/2018
+ms.keywords: printoem/OEMAlphaBlend, print.oemalphablend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, OEMAlphaBlend, OEMAlphaBlend function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

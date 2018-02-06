@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14ba3307-753f-4dca-8d4d-c87b3fee00a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsetvidpnsourceowner2, d3dkmthk/D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices]
+ms.keywords: d3dkmthk/D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices], display.d3dkmtsetvidpnsourceowner2, D3DKMTSetVidPnSourceOwner2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

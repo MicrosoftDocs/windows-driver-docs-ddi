@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, storage.scsireadcapacity_out2, hbapiwmi/ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices]
+ms.keywords: PScsiReadCapacity_OUT structure pointer [Storage Devices], PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml, hbapiwmi/ScsiReadCapacity_OUT, storage.scsireadcapacity_out2, ScsiReadCapacity_OUT structure [Storage Devices], hbapiwmi/PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReadCapacity_OUT
 product: Windows
 targetos: Windows
-req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
+req.typenames: "*PScsiReadCapacity_OUT, ScsiReadCapacity_OUT"
 ---
 
 # _ScsiReadCapacity_OUT structure

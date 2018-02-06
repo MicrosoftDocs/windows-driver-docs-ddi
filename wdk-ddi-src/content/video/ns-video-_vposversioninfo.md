@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6335df5-81d9-4a00-8e97-0ebebb987d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PVPOSVERSIONINFO, VPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], PVPOSVERSIONINFO structure pointer [Display Devices], Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, *PVPOSVERSIONINFO, PVPOSVERSIONINFO, _VPOSVERSIONINFO, video/VPOSVERSIONINFO, display.vposversioninfo
+ms.keywords: video/VPOSVERSIONINFO, video/PVPOSVERSIONINFO, PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, *PVPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], VPOSVERSIONINFO, display.vposversioninfo, _VPOSVERSIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

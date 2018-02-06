@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c472869-028e-41f5-93df-94e91c47b76e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, _D3DHAL_DP2SETPALETTE, *LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], display.d3dhal_dp2setpalette, d3dhal/D3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE
+ms.keywords: D3DHAL_DP2SETPALETTE, d3dhal/D3DHAL_DP2SETPALETTE, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, d3dhal/LPD3DHAL_DP2SETPALETTE, *LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], _D3DHAL_DP2SETPALETTE, display.d3dhal_dp2setpalette, LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

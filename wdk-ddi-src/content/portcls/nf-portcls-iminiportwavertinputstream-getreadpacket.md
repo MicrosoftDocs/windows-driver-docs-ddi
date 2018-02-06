@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportwavertinputstream_getreadpacket, GetReadPacket, portcls/IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method, IMiniportWaveRTInputStream, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface
+ms.keywords: GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, portcls/IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream, audio.iminiportwavertinputstream_getreadpacket, IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

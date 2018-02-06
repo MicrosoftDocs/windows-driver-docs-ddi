@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_publishprinttickethelperinterfa
 old-project: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], print.iprintoemprintticketprovider_publishprinttickethelperinterface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, PublishPrintTicketHelperInterface
+ms.date: 2/2/2018
+ms.keywords: print.iprintoemprintticketprovider_publishprinttickethelperinterface, PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, PublishPrintTicketHelperInterface method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

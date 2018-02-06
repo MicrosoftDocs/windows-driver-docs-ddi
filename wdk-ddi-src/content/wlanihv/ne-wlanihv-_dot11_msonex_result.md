@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d5870125-2c0f-4cb9-ad2a-dc4939745504
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlanihv/PDOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], wlanihv/DOT11_MSONEX_FAILURE, DOT11_MSONEX_SUCCESS, DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_RESULT, netvista.dot11_msonex_result, wlanihv/DOT11_MSONEX_IN_PROGRESS, PDOT11_MSONEX_RESULT, DOT11_MSONEX_IN_PROGRESS, *PDOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, wlanihv/DOT11_MSONEX_SUCCESS, _DOT11_MSONEX_RESULT
+ms.keywords: wlanihv/DOT11_MSONEX_IN_PROGRESS, wlanihv/DOT11_MSONEX_RESULT, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, _DOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], DOT11_MSONEX_RESULT, netvista.dot11_msonex_result, wlanihv/DOT11_MSONEX_SUCCESS, DOT11_MSONEX_IN_PROGRESS, PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], *PDOT11_MSONEX_RESULT, wlanihv/PDOT11_MSONEX_RESULT, PDOT11_MSONEX_RESULT, DOT11_MSONEX_SUCCESS, DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

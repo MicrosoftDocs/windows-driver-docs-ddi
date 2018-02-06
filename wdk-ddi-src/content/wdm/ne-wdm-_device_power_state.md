@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerDeviceD0, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, *PDEVICE_POWER_STATE, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerDeviceMaximum, wdm/PowerDeviceD2, PowerDeviceD3, wdm/DEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerDeviceMaximum, wdm/PowerDeviceD3, PowerDeviceUnspecified, kernel.device_power_state, PowerDeviceD2, DEVICE_POWER_STATE, PowerDeviceD0, wdm/PDEVICE_POWER_STATE, wdm/PowerDeviceUnspecified, PDEVICE_POWER_STATE, _DEVICE_POWER_STATE, wdm/PowerDeviceD1, PowerDeviceD1
+ms.keywords: PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerDeviceD2, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, PowerDeviceD3, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_POWER_STATE, PowerDeviceD1, wdm/DEVICE_POWER_STATE, wdm/PowerDeviceD3, PowerDeviceUnspecified, PowerDeviceD0, wdm/PowerDeviceD1, wdm/PowerDeviceMaximum, DEVICE_POWER_STATE, PowerDeviceMaximum, wdm/PowerDeviceD0, *PDEVICE_POWER_STATE, kernel.device_power_state, wdm/PowerDeviceUnspecified, wdm/PowerDeviceD2, wdm/PDEVICE_POWER_STATE, _DEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE"
+req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 

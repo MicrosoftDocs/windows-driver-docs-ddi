@@ -7,8 +7,8 @@ old-location: print\getprintoutputinfo.htm
 old-project: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.getprintoutputinfo, winspool/GetPrintOutputInfo, GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: winspool/GetPrintOutputInfo, GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

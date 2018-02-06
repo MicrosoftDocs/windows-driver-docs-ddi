@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 27d4a7fa-ac2a-4049-8c9f-5ac9338c70b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_UNLOCKASYNC, D3DDDIARG_UNLOCKASYNC structure [Display Devices], display.d3dddiarg_unlockasync, D3DDDIARG_UNLOCKASYNC, d3dumddi/D3DDDIARG_UNLOCKASYNC, UMDisplayDriver_param_Structs_1b08f2e6-73cd-4390-a9a2-54e604ca5012.xml"
+ms.keywords: UMDisplayDriver_param_Structs_1b08f2e6-73cd-4390-a9a2-54e604ca5012.xml, D3DDDIARG_UNLOCKASYNC, _D3DDDIARG_UNLOCKASYNC, D3DDDIARG_UNLOCKASYNC structure [Display Devices], display.d3dddiarg_unlockasync, d3dumddi/D3DDDIARG_UNLOCKASYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

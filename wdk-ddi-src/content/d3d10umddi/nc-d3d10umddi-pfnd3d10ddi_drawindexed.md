@@ -40,7 +40,7 @@ apiname:
 -	DrawIndexed
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_DRAWINDEXED callback
@@ -88,9 +88,9 @@ VOID APIENTRY DrawIndexed(
 
 
 
-#### - BaseVertexLocation [in]
+#### - hDevice [in]
 
- The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
+ A handle to the display device (graphics context).
 
 
 #### - IndexCount [in]
@@ -103,9 +103,9 @@ VOID APIENTRY DrawIndexed(
  The first index in the index buffer that indexes are read from to draw the primitives. 
 
 
-#### - hDevice [in]
+#### - BaseVertexLocation [in]
 
- A handle to the display device (graphics context).
+ The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
 
 
 ## -returns

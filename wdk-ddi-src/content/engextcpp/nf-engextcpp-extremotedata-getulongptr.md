@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1a3a870b-9f50-4430-b4f4-6d877d2fac3e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, GetUlongPtr, debugger.extremotedata_getulongptr, EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData class [Windows Debugging], GetUlongPtr method, ExtRemoteData::GetUlongPtr, GetUlongPtr method [Windows Debugging], GetUlongPtr method [Windows Debugging], ExtRemoteData class
+ms.keywords: ExtRemoteData, GetUlongPtr, GetUlongPtr method [Windows Debugging], EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData::GetUlongPtr, GetUlongPtr method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetUlongPtr method, debugger.extremotedata_getulongptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,15 +82,15 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544035">ExtRemoteData::GetLongPtr</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544035">ExtRemoteData::GetLongPtr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544069">ExtRemoteData::GetUlong64</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544069">ExtRemoteData::GetUlong64</a>
 
  
 

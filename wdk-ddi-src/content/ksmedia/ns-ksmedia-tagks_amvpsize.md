@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 31430419-8f83-4f46-b398-841895f415d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_AMVPSIZE, tagKS_AMVPSIZE, KS_AMVPSIZE structure [Streaming Media Devices], PKS_AMVPSIZE, ksmedia/PKS_AMVPSIZE, PKS_AMVPSIZE structure pointer [Streaming Media Devices], *PKS_AMVPSIZE, ksmedia/KS_AMVPSIZE, stream.ks_amvpsize, dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml
+ms.keywords: stream.ks_amvpsize, PKS_AMVPSIZE structure pointer [Streaming Media Devices], KS_AMVPSIZE, dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml, PKS_AMVPSIZE, ksmedia/PKS_AMVPSIZE, ksmedia/KS_AMVPSIZE, KS_AMVPSIZE structure [Streaming Media Devices], *PKS_AMVPSIZE, tagKS_AMVPSIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

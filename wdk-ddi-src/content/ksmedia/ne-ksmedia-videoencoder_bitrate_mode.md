@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRatePeak, ksmedia/ConstantBitRate, stream.videoencoder_bitrate_mode, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/VariableBitRateAverage, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], VariableBitRateAverage, ConstantBitRate, VariableBitRatePeak
+ms.keywords: encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/VariableBitRatePeak, ConstantBitRate, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], stream.videoencoder_bitrate_mode, ksmedia/ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VariableBitRatePeak, ksmedia/VariableBitRateAverage, VariableBitRateAverage, ksmedia/VIDEOENCODER_BITRATE_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,9 +98,9 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
 

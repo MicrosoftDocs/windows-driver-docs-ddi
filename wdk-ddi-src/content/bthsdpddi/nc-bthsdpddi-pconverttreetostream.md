@@ -40,7 +40,7 @@ apiname:
 -	SdpConvertTreeToStream
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND"
+req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PCONVERTTREETOSTREAM callback

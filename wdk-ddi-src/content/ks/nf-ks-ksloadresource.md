@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a7b9dcca-ce89-4fde-9e58-3c4a675227bc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, ks/KsLoadResource, KsLoadResource, stream.ksloadresource, KsLoadResource function [Streaming Media Devices]
+ms.keywords: KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, KsLoadResource function [Streaming Media Devices], ks/KsLoadResource, stream.ksloadresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

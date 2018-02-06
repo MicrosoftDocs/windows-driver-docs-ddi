@@ -40,7 +40,7 @@ apiname:
 -	SetResourceMinLOD
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11DDI_SETRESOURCEMINLOD callback
@@ -87,11 +87,6 @@ VOID APIENTRY SetResourceMinLOD(
 
 
 
-#### - MinLOD [in]
-
- A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -100,6 +95,11 @@ VOID APIENTRY SetResourceMinLOD(
 #### - hResource [in]
 
  A handle to the driver's private data for the resource. 
+
+
+#### - MinLOD [in]
+
+ A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
 
 
 ## -returns
@@ -122,9 +122,9 @@ The Direct3D runtime calls the driver's <i>SetResourceMinLOD</i> function to set
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
  
 

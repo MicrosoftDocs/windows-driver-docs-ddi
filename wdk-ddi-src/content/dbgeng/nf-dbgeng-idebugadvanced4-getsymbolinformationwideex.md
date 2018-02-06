@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E862C691-133F-4FA5-A698-09CD5D0E32B3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced4::GetSymbolInformationWideEx, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, debugger.getsymbolinformationwideex, IDebugAdvanced4 interface [Windows Debugging], GetSymbolInformationWideEx method, GetSymbolInformationWideEx, IDebugAdvanced4, GetSymbolInformationWideEx method [Windows Debugging], IDebugAdvanced4 interface, GetSymbolInformationWideEx method [Windows Debugging]
+ms.keywords: GetSymbolInformationWideEx, debugger.getsymbolinformationwideex, IDebugAdvanced4 interface [Windows Debugging], GetSymbolInformationWideEx method, IDebugAdvanced4, IDebugAdvanced4::GetSymbolInformationWideEx, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, GetSymbolInformationWideEx method [Windows Debugging], IDebugAdvanced4 interface, GetSymbolInformationWideEx method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugAdvanced4.GetSymbolInformationWideEx
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugAdvanced4::GetSymbolInformationWideEx method
@@ -141,9 +141,9 @@ Specifies a 64-bit argument.  This parameter has the following interpretations d
 Ignored.
 
 
-#### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+#### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
 
-Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
+The base address of the module whose description is being requested.
 
 
 #### DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
@@ -151,9 +151,9 @@ Specifies the module whose symbols are requested.  <i>Arg64</i> is a location wi
 Specifies the address in the target's memory of the symbol whose name is being requested.
 
 
-#### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+#### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
 
-The base address of the module whose description is being requested.
+Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
 
 
 ### -param Arg32 [in]
@@ -168,9 +168,9 @@ Specifies a 32-bit argument.  This parameter has the following interpretations d
 The engine breakpoint ID of the desired breakpoint.
 
 
-#### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+#### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
 
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
+Set to zero.
 
 
 #### DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
@@ -178,9 +178,9 @@ The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in
 The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
 
 
-#### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+#### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
 
-Set to zero.
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
 
 
 ### -param Buffer [out, optional]

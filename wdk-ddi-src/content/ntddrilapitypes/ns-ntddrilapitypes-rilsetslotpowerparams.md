@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e3bd3f1-08a2-4b20-b427-85b1236325b9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsetslotpowerparams, ntddrilapitypes/RILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS structure [Network Drivers Starting with Windows Vista], RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS
+ms.keywords: RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS, ntddrilapitypes/RILSETSLOTPOWERPARAMS, netvista.rilsetslotpowerparams, RILSETSLOTPOWERPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETSLOTPOWERPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS
+req.typenames: "*LPRILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS"
 ---
 
 # RILSETSLOTPOWERPARAMS structure

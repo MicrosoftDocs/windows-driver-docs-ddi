@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb2def4b-c027-465d-b734-20b4b83a6308
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, CreateRemoteInterface method, IWDFDevice2 interface, IWDFDevice2::CreateRemoteInterface, IWDFDevice2 interface, CreateRemoteInterface method, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, CreateRemoteInterface method, wudfddi/IWDFDevice2::CreateRemoteInterface, IWDFDevice2, CreateRemoteInterface
+ms.keywords: IWDFDevice2 interface, CreateRemoteInterface method, wudfddi/IWDFDevice2::CreateRemoteInterface, IWDFDevice2::CreateRemoteInterface, CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, CreateRemoteInterface method, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, CreateRemoteInterface method, IWDFDevice2 interface, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.CreateRemoteInterface
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -125,9 +125,9 @@ For more information about <b>CreateRemoteInterface</b> and using device interfa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 

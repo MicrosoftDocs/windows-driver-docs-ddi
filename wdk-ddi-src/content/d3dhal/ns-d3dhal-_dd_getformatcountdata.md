@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f334f48-a262-4b09-98c4-766039de3f0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_GETFORMATCOUNTDATA structure [Display Devices], d3dhal/DD_GETFORMATCOUNTDATA, _DD_GETFORMATCOUNTDATA, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, display.dd_getformatcountdata, DD_GETFORMATCOUNTDATA
+ms.keywords: DD_GETFORMATCOUNTDATA structure [Display Devices], display.dd_getformatcountdata, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, _DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA, d3dhal/DD_GETFORMATCOUNTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,9 +99,9 @@ To handle the D3DGDI2_TYPE_GETFORMATCOUNT request, the driver must store the num
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
 
  
 

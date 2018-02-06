@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 23A5BAC2-E8F3-47FF-9B63-3FFF447C33B4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugPlmClient3, DisablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, IDebugPlmClient3::DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide, DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method, DisablePlmPackageDebugWide method [Windows Debugging]
+ms.keywords: DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3, IDebugPlmClient3::DisablePlmPackageDebugWide, IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method, DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient3.DisablePlmPackageDebugWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient3::DisablePlmPackageDebugWide method

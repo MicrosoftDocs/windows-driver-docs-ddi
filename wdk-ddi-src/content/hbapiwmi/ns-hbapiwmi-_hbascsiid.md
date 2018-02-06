@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 654892eb-96eb-49e4-be1e-d5144b146903
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_HBAScsiID, structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml, *PHBAScsiID, PHBAScsiID structure pointer [Storage Devices], HBAScsiID, HBAScsiID structure [Storage Devices], hbapiwmi/HBAScsiID, PHBAScsiID, hbapiwmi/PHBAScsiID, storage.hbascsiid"
+ms.keywords: PHBAScsiID, *PHBAScsiID, _HBAScsiID, HBAScsiID structure [Storage Devices], structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml, storage.hbascsiid, hbapiwmi/HBAScsiID, PHBAScsiID structure pointer [Storage Devices], hbapiwmi/PHBAScsiID, HBAScsiID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8554a5d1-07ea-4ad5-83a4-f0c15386b3d1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_Pipe_Config_Descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, *PUSBCAMD_Pipe_Config_Descriptor, usbcamdi/USBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor, _pipe_config_descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], stream.usbcamd_pipe_config_descriptor
+ms.keywords: "_pipe_config_descriptor, PUSBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, usbcamdi/USBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], stream.usbcamd_pipe_config_descriptor, USBCAMD_Pipe_Config_Descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], *PUSBCAMD_Pipe_Config_Descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19a65a8f-5272-424a-85b3-88074fb9e22f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dvd_manufacturer_descriptor, DVD_MANUFACTURER_DESCRIPTOR structure [Storage Devices], PDVD_MANUFACTURER_DESCRIPTOR structure pointer [Storage Devices], DVD_MANUFACTURER_DESCRIPTOR, _DVD_MANUFACTURER_DESCRIPTOR, *PDVD_MANUFACTURER_DESCRIPTOR, ntddcdvd/PDVD_MANUFACTURER_DESCRIPTOR, PDVD_MANUFACTURER_DESCRIPTOR, structs-DVD_420be36e-90ef-459a-a3c8-4ecc233a0d82.xml, ntddcdvd/DVD_MANUFACTURER_DESCRIPTOR
+ms.keywords: "_DVD_MANUFACTURER_DESCRIPTOR, ntddcdvd/DVD_MANUFACTURER_DESCRIPTOR, DVD_MANUFACTURER_DESCRIPTOR structure [Storage Devices], structs-DVD_420be36e-90ef-459a-a3c8-4ecc233a0d82.xml, storage.dvd_manufacturer_descriptor, ntddcdvd/PDVD_MANUFACTURER_DESCRIPTOR, PDVD_MANUFACTURER_DESCRIPTOR structure pointer [Storage Devices], *PDVD_MANUFACTURER_DESCRIPTOR, PDVD_MANUFACTURER_DESCRIPTOR, DVD_MANUFACTURER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_MANUFACTURER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: DVD_MANUFACTURER_DESCRIPTOR, *PDVD_MANUFACTURER_DESCRIPTOR
+req.typenames: "*PDVD_MANUFACTURER_DESCRIPTOR, DVD_MANUFACTURER_DESCRIPTOR"
 ---
 
 # _DVD_MANUFACTURER_DESCRIPTOR structure

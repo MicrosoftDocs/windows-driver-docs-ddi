@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, ndis/NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
+ms.keywords: ndis/NdisMCmDeregisterSapComplete, condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - NdisSapHandle [in]
-
-Specifies the handle identifying the SAP.
-
-
 #### - Status [in]
 
 Specifies NDIS_STATUS_SUCCESS.
+
+
+#### - NdisSapHandle [in]
+
+Specifies the handle identifying the SAP.
 
 
 ## -remarks
@@ -117,14 +117,14 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
-
 <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
    ProtocolClDeregisterSapComplete</a>
+
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
  
 

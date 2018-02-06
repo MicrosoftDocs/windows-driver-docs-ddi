@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f61fc609-40ca-40eb-a877-88c73cf3506e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_NCLASS_FUNCRESULT, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_NCLASS_NOTIFICATIONS, rilapitypes/RIL_NCLASS_FUNCRESULT, netvista.rilnotificationclasses, RILNOTIFICATIONCLASSES, rilapitypes/RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_NOTIFICATIONS
+ms.keywords: RIL_NCLASS_FUNCRESULT, netvista.rilnotificationclasses, rilapitypes/RIL_NCLASS_NOTIFICATIONS, rilapitypes/RILNOTIFICATIONCLASSES, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_FUNCRESULT, RIL_NCLASS_NOTIFICATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

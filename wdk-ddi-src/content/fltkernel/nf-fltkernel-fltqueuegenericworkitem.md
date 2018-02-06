@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fltqueuegenericworkitem, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml
+ms.keywords: FltQueueGenericWorkItem, fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem, FltQueueGenericWorkItem function [Installable File System Drivers], FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,9 +101,9 @@ Pointer to a caller-supplied worker routine. This routine is declared as follows
 </table></span></div>
 
 
-#### Context
+#### FltWorkItem
 
-Context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueGenericWorkItem</b>. This parameter is optional. 
+Opaque pointer to a generic work item structure. 
 
 
 #### FltObject
@@ -111,9 +111,9 @@ Context information pointer that was passed as the <i>Context</i> parameter of <
 Opaque filter pointer that was passed as the <i>FltObject</i> parameter of <b>FltQueueGenericWorkItem</b>. 
 
 
-#### FltWorkItem
+#### Context
 
-Opaque pointer to a generic work item structure. 
+Context information pointer that was passed as the <i>Context</i> parameter of <b>FltQueueGenericWorkItem</b>. This parameter is optional. 
 
 
 ### -param QueueType [in]

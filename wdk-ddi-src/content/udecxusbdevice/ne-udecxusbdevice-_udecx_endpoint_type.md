@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeDynamic, buses.udecx_endpoint_type, udecxusbdevice/UdecxEndpointTypeInvalid, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], _UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE, udecxusbdevice/UDECX_ENDPOINT_TYPE, UdecxEndpointTypeSimple, udecxusbdevice/UdecxEndpointTypeDynamic
+ms.keywords: buses.udecx_endpoint_type, UdecxEndpointTypeDynamic, *PUDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeSimple, UDECX_ENDPOINT_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UDECX_ENDPOINT_TYPE, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, _UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	UDECX_ENDPOINT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE"
+req.typenames: UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE
 req.product: Windows 10 or later.
 ---
 

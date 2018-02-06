@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/PECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, *PECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], ECP_OPEN_PARAMETERS structure [Installable File System Drivers], ntifs/ECP_OPEN_PARAMETERS, _ECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS
+ms.keywords: PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], *PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS, _ECP_OPEN_PARAMETERS, ntifs/ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ECP_OPEN_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS"
+req.typenames: ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS
 ---
 
 # _ECP_OPEN_PARAMETERS structure

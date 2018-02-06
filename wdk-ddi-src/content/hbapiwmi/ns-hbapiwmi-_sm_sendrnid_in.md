@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7d94fc94-bfc6-4666-a321-71a0643f3140
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml, SM_SendRNID_IN, storage.sm_sendrnid_in, PSM_SendRNID_IN structure pointer [Storage Devices], _SM_SendRNID_IN, *PSM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], PSM_SendRNID_IN, hbapiwmi/PSM_SendRNID_IN, hbapiwmi/SM_SendRNID_IN
+ms.keywords: PSM_SendRNID_IN, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml, hbapiwmi/SM_SendRNID_IN, *PSM_SendRNID_IN, SM_SendRNID_IN, hbapiwmi/PSM_SendRNID_IN, _SM_SendRNID_IN, storage.sm_sendrnid_in, SM_SendRNID_IN structure [Storage Devices], PSM_SendRNID_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendRNID_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendRNID_IN, SM_SendRNID_IN"
+req.typenames: SM_SendRNID_IN, *PSM_SendRNID_IN
 ---
 
 # _SM_SendRNID_IN structure

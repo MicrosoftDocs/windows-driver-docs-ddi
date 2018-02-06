@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 84d81ae3-708d-48ee-99c5-b79f085a9592
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: drmk/DrmForwardContentToFileObject, audio.drmforwardcontenttofileobject, DrmForwardContentToFileObject function [Audio Devices], DrmForwardContentToFileObject, aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml
+ms.keywords: drmk/DrmForwardContentToFileObject, aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml, DrmForwardContentToFileObject, DrmForwardContentToFileObject function [Audio Devices], audio.drmforwardcontenttofileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmForwardContentToFileObject
 product: Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
 ---
 
 # DrmForwardContentToFileObject function
@@ -116,15 +116,15 @@ The <code>DrmForwardContentToFileObject</code> function authenticates the KS aud
 
 ## -see-also
 
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536584">IDrmPort::ForwardContentToFileObject</a>
 
 <a href="..\portcls\nf-portcls-pcforwardcontenttofileobject.md">PcForwardContentToFileObject</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
  
 

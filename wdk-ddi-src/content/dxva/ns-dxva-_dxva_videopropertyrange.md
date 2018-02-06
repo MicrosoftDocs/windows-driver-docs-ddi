@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e78fa9ba-7573-47db-b4d8-9b7584d5b432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_VideoPropertyRange, _DXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], LPDXVA_VideoPropertyRange, dxva/DXVA_VideoPropertyRange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml, display.dxva_videopropertyrange
+ms.keywords: display.dxva_videopropertyrange, dxva/LPDXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange, dxva/DXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], DXVA_VideoPropertyRange, _DXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_VideoPropertyRange
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange
+req.typenames: "*LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange"
 ---
 
 # _DXVA_VideoPropertyRange structure

@@ -103,6 +103,12 @@ Flags that define attributes for the send operation. The flags can be combined w
 
 
 
+#### NDIS_SEND_FLAGS_DISPATCH_LEVEL
+
+The caller can optionally set this flag if the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
+       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
+
 #### NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK
 
 NDIS should check for loopback. By default, NDIS does not loop back data to the driver that
@@ -111,12 +117,6 @@ NDIS should check for loopback. By default, NDIS does not loop back data to the 
        structures that contain data that matches the receive criteria for the binding. NDIS indicates
        <b>NET_BUFFER</b> structures that match the criteria to the overlying driver. This flag does not affect
        checking for loopback, or looping back, on other bindings.
-
-
-#### NDIS_SEND_FLAGS_DISPATCH_LEVEL
-
-The caller can optionally set this flag if the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
-       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
 
 ## -returns
@@ -213,16 +213,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndismcosendnetbufferlistscomplete.md">
-   NdisMCoSendNetBufferListsComplete</a>
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
 
 <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndismcosendnetbufferlistscomplete.md">
+   NdisMCoSendNetBufferListsComplete</a>
 
  
 

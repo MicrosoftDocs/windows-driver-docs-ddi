@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensorsdef/PedometerStepTypeCount, PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, PedometerStepTypeCount, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], sensors.pedometer_step_type_count
+ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], sensors.pedometer_step_type_count, PedometerStepTypeCount, sensorsdef/PedometerStepTypeCount, sensorsdef/PEDOMETER_STEP_TYPE_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

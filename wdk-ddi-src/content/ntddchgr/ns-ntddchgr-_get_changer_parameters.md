@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9a47406-5dd2-4cda-b241-3a439406ac75
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-changer_5c639124-5fc3-4fe8-8289-3bc8408723e0.xml, storage.get_changer_parameters, *PGET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS, ntddchgr/PGET_CHANGER_PARAMETERS, _GET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer [Storage Devices], GET_CHANGER_PARAMETERS structure [Storage Devices], ntddchgr/GET_CHANGER_PARAMETERS
+ms.keywords: GET_CHANGER_PARAMETERS structure [Storage Devices], ntddchgr/GET_CHANGER_PARAMETERS, ntddchgr/PGET_CHANGER_PARAMETERS, storage.get_changer_parameters, PGET_CHANGER_PARAMETERS structure pointer [Storage Devices], GET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS, _GET_CHANGER_PARAMETERS, structs-changer_5c639124-5fc3-4fe8-8289-3bc8408723e0.xml, *PGET_CHANGER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_CHANGER_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
+req.typenames: "*PGET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS"
 ---
 
 # _GET_CHANGER_PARAMETERS structure
@@ -234,19 +234,9 @@ Indicates the features supported by the changer. This member can have one or mor
 The changer supports a bar code reader and the reader is installed. A miniclass driver must not hardcode this flag unless the changer's bar code reader is always installed. If the bar code reader is optional, the miniclass driver must determine whether the reader is actually installed and set the flag accordingly.
 
 
-#### CHANGER_CARTRIDGE_MAGAZINE
+#### CHANGER_INIT_ELEM_STAT_WITH_RANGE
 
-The changer uses removable cartridge magazines for some or all storage slots.
-
-
-#### CHANGER_CLEANER_ACCESS_NOT_VALID
-
-The ELEMENT_STATUS_ACCESS flag in a CHANGER_ELEMENT_STATUS structure for a data transport element is invalid when the transport element contains a cleaning cartridge.
-
-
-#### CHANGER_CLEANER_SLOT
-
-Indicates that the changer has a specific slot designated for a cleaner cartridge. If this flag is set, <b>NumberCleanerSlots</b> must be one and <b>FirstCleanerSlotAddress</b> must specify the address of the cleaner slot. This bit can only be set if CHANGER_DRIVE_CLEANING_REQUIRED is set and CHANGER_CLEANER_OPS_NOT_SUPPORTED is reset. 
+The changer can initialize elements within a specified range. For a SCSI changer, this flag indicates whether the changer supports the INITIALIZE ELEMENT STATUS WITH RANGE SCSI command.
 
 
 #### CHANGER_CLOSE_IEPORT
@@ -254,19 +244,14 @@ Indicates that the changer has a specific slot designated for a cleaner cartridg
 The changer has an IEport and can retract the IEport programmatically.
 
 
-#### CHANGER_DEVICE_REINITIALIZE_CAPABLE
+#### CHANGER_OPEN_IEPORT
 
-The changer can recalibrate its transport element in response to an explicit command. The changer class driver calls <b>ChangerReinitializeUnit</b> to initiate recalibration.
-
-
-#### CHANGER_DRIVE_CLEANING_REQUIRED
-
-Indicates that the changer's drives might periodically report sense codes that indicate that the drive requires cleaning.
+The changer has an IEport and can extend the IEport programmatically. 
 
 
-#### CHANGER_DRIVE_EMPTY_ON_DOOR_ACCESS
+#### CHANGER_STATUS_NON_VOLATILE
 
-The changer requires all drives to be empty (dismounted) before they can be accessed through its door. The miniclass driver should set this flag if the changer has static-sensitive drives that could be affected by an operator gaining access to the inside of the changer, or if the changer automatically ejects media from its drives when the operator attempts to physically open the door. 
+The changer uses nonvolatile memory for element status information.
 
 
 #### CHANGER_EXCHANGE_MEDIA
@@ -274,14 +259,9 @@ The changer requires all drives to be empty (dismounted) before they can be acce
 Supports EXCHANGE MEDIUM SCSI command either by handling two volumes at a time or by using other changer elements to emulate this capability.
 
 
-#### CHANGER_INIT_ELEM_STAT_WITH_RANGE
+#### CHANGER_CLEANER_SLOT
 
-The changer can initialize elements within a specified range. For a SCSI changer, this flag indicates whether the changer supports the INITIALIZE ELEMENT STATUS WITH RANGE SCSI command.
-
-
-#### CHANGER_KEYPAD_ENABLE_DISABLE
-
-The changer keypad can be enabled and disabled programmatically. 
+Indicates that the changer has a specific slot designated for a cleaner cartridge. If this flag is set, <b>NumberCleanerSlots</b> must be one and <b>FirstCleanerSlotAddress</b> must specify the address of the cleaner slot. This bit can only be set if CHANGER_DRIVE_CLEANING_REQUIRED is set and CHANGER_CLEANER_OPS_NOT_SUPPORTED is reset. 
 
 
 #### CHANGER_LOCK_UNLOCK
@@ -289,14 +269,14 @@ The changer keypad can be enabled and disabled programmatically.
 The changer's door, IEport, or keypad can be locked or unlocked programmatically. If this flag is set, <b>LockUnlockCapabilities</b> indicates which elements can be locked or unlocked.
 
 
+#### CHANGER_CARTRIDGE_MAGAZINE
+
+The changer uses removable cartridge magazines for some or all storage slots.
+
+
 #### CHANGER_MEDIUM_FLIP
 
 The changer's transport element supports flipping (rotating) media. For a SCSI changer, this flag reflects the rotate bit in the transport geometry parameters page. 
-
-
-#### CHANGER_OPEN_IEPORT
-
-The changer has an IEport and can extend the IEport programmatically. 
 
 
 #### CHANGER_POSITION_TO_ELEMENT
@@ -304,34 +284,9 @@ The changer has an IEport and can extend the IEport programmatically.
 The changer can position the transport to a particular destination. For a SCSI changer, this flag indicates whether the changer supports the POSITION TO ELEMENT SCSI command. If this flag is set, <b>PositionCapabilities</b> indicates the elements to which the transport can be positioned.
 
 
-#### CHANGER_PREDISMOUNT_EJECT_REQUIRED
-
-The changer requires an explicit command issued through a mass storage driver (tape, disk, or CD-ROM, for example) to eject media from a drive before the changer can move the media from a drive to a slot. If the changer ejects media automatically, the miniclass driver should clear this flag.
-
-
-#### CHANGER_PREMOUNT_EJECT_REQUIRED
-
-The changer requires an explicit command issued through a mass storage driver to eject a drive mechanism before the changer can move media from a slot to the drive. For example, a changer with CD-ROM drives might require the tray to be presented to the robotic transport so a piece of media could be loaded onto the tray during a mount operation. If the changer ejects the mechanism automatically, the miniclass driver should clear this flag.
-
-
 #### CHANGER_REPORT_IEPORT_STATE
 
 The changer can report whether media is present in the IEport. Such a changer must have a sensor in the IEport to detect the presence or absence of media. 
-
-
-#### CHANGER_RESERVED_BIT
-
-Reserved to indicate <b>Features1</b> flags.
-
-
-#### CHANGER_SERIAL_NUMBER_VALID
-
-The serial number reported by GetProductData is valid and unique for all changers of this type. Serial numbers are not guaranteed to be unique across vendor and product lines. If the changer's serial number is unique according to this definition, the miniclass driver should set this flag and set SerialNumber in CHANGER_PRODUCT_DATA to the serial number.
-
-
-#### CHANGER_STATUS_NON_VOLATILE
-
-The changer uses nonvolatile memory for element status information.
 
 
 #### CHANGER_STORAGE_DRIVE
@@ -354,9 +309,24 @@ The changer can use a slot as an independent storage element for media. For a SC
 The changer can use a transport as an independent storage element. For a SCSI changer, this flag reflects the state of the MT bit in the device capabilities page. 
 
 
-#### CHANGER_VOLUME_ASSERT
+#### CHANGER_DRIVE_CLEANING_REQUIRED
 
-The changer can verify volume information. For a SCSI changer, this flag indicates whether the changer supports the SEND VOLUME TAG SCSI command with a send action code of ASSERT.
+Indicates that the changer's drives might periodically report sense codes that indicate that the drive requires cleaning.
+
+
+#### CHANGER_PREDISMOUNT_EJECT_REQUIRED
+
+The changer requires an explicit command issued through a mass storage driver (tape, disk, or CD-ROM, for example) to eject media from a drive before the changer can move the media from a drive to a slot. If the changer ejects media automatically, the miniclass driver should clear this flag.
+
+
+#### CHANGER_CLEANER_ACCESS_NOT_VALID
+
+The ELEMENT_STATUS_ACCESS flag in a CHANGER_ELEMENT_STATUS structure for a data transport element is invalid when the transport element contains a cleaning cartridge.
+
+
+#### CHANGER_DRIVE_EMPTY_ON_DOOR_ACCESS
+
+The changer requires all drives to be empty (dismounted) before they can be accessed through its door. The miniclass driver should set this flag if the changer has static-sensitive drives that could be affected by an operator gaining access to the inside of the changer, or if the changer automatically ejects media from its drives when the operator attempts to physically open the door. 
 
 
 #### CHANGER_VOLUME_IDENTIFICATION
@@ -364,19 +334,49 @@ The changer can verify volume information. For a SCSI changer, this flag indicat
 The changer supports volume identification. For a SCSI changer, this flag indicates whether the changer supports the SEND VOLUME TAG and REQUEST VOLUME ELEMENT ADDRESS SCSI commands. 
 
 
-#### CHANGER_VOLUME_REPLACE
-
-The changer can replace volume information. For a SCSI changer, this flag indicates whether the changer supports the SEND VOLUME TAG SCSI command with a send action code of REPLACE. 
-
-
 #### CHANGER_VOLUME_SEARCH
 
 The changer can search for volume information. For a SCSI changer, this flag indicates whether the changer supports the supports the SEND VOLUME TAG SCSI SCSI command with a send action code of TRANSLATE. 
 
 
+#### CHANGER_VOLUME_ASSERT
+
+The changer can verify volume information. For a SCSI changer, this flag indicates whether the changer supports the SEND VOLUME TAG SCSI command with a send action code of ASSERT.
+
+
+#### CHANGER_VOLUME_REPLACE
+
+The changer can replace volume information. For a SCSI changer, this flag indicates whether the changer supports the SEND VOLUME TAG SCSI command with a send action code of REPLACE. 
+
+
 #### CHANGER_VOLUME_UNDEFINE
 
 The changer can clear existing volume information. For a SCSI changer, this flag indicates whether the changer supports the supports the SEND VOLUME TAG SCSI command with a send action code of UNDEFINE. 
+
+
+#### CHANGER_SERIAL_NUMBER_VALID
+
+The serial number reported by GetProductData is valid and unique for all changers of this type. Serial numbers are not guaranteed to be unique across vendor and product lines. If the changer's serial number is unique according to this definition, the miniclass driver should set this flag and set SerialNumber in CHANGER_PRODUCT_DATA to the serial number.
+
+
+#### CHANGER_PREMOUNT_EJECT_REQUIRED
+
+The changer requires an explicit command issued through a mass storage driver to eject a drive mechanism before the changer can move media from a slot to the drive. For example, a changer with CD-ROM drives might require the tray to be presented to the robotic transport so a piece of media could be loaded onto the tray during a mount operation. If the changer ejects the mechanism automatically, the miniclass driver should clear this flag.
+
+
+#### CHANGER_DEVICE_REINITIALIZE_CAPABLE
+
+The changer can recalibrate its transport element in response to an explicit command. The changer class driver calls <b>ChangerReinitializeUnit</b> to initiate recalibration.
+
+
+#### CHANGER_KEYPAD_ENABLE_DISABLE
+
+The changer keypad can be enabled and disabled programmatically. 
+
+
+#### CHANGER_RESERVED_BIT
+
+Reserved to indicate <b>Features1</b> flags.
 
 
 ### -field Features1
@@ -406,9 +406,34 @@ Indicates additional features supported by the changer. This member can have one
 
 
 
+#### CHANGER_PREDISMOUNT_ALIGN_TO_SLOT
+
+Indicates that the transport must be moved to the destination slot before moving the media from a drive to the slot. The bit CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE must be reset if this is set.
+
+
+#### CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE
+
+Indicates that the transport must be moved to the drive before moving media from the drive to a slot. The bit CHANGER_PREDISMOUNT_ALIGN_TO_SLOT must be reset if this is set.
+
+
 #### CHANGER_CLEANER_AUTODISMOUNT
 
 Indicates that the changer will move the cleaning cartridge back to its original slot automatically, after cleaning is finished. This bit can only be set if CHANGER_DRIVE_CLEANING_REQUIRED is set and CHANGER_CLEANER_OPS_NOT_SUPPORTED is reset. 
+
+
+#### CHANGER_TRUE_EXCHANGE_CAPABLE
+
+Device can manipulate two volumes at a time without using additional changer elements. 
+
+
+#### CHANGER_SLOTS_USE_TRAYS
+
+The changer uses removable trays in its slots, which require the media to be placed in a tray and the tray moved to the desired position.
+
+
+#### CHANGER_RTN_MEDIA_TO_ORIGINAL_ADDR
+
+Indicates that when moving volume from drive to slot, volume must go back into the same slot from which it was previously moved to the drive. 
 
 
 #### CHANGER_CLEANER_OPS_NOT_SUPPORTED
@@ -416,14 +441,14 @@ Indicates that the changer will move the cleaning cartridge back to its original
 Indicates that the changer's transport cannot be programmatically commanded by software above the changer driver to move a cleaning cartridge to a dirty drive. This bit can be set only if the CHANGER_DRIVE_CLEANING_REQUIRED bit is set. If this bit is set then both CHANGER_CLEANER_AUTODISMOUNT and CHANGER_CLEANER_SLOT must be reset.
 
 
-#### CHANGER_IEPORT_USER_CONTROL_CLOSE
-
-The changer requires the user to manually close an open IEport.
-
-
 #### CHANGER_IEPORT_USER_CONTROL_OPEN
 
 The changer requires the user to manually open a closed IEport.
+
+
+#### CHANGER_IEPORT_USER_CONTROL_CLOSE
+
+The changer requires the user to manually close an open IEport.
 
 
 #### CHANGER_MOVE_EXTENDS_IEPORT
@@ -434,31 +459,6 @@ The changer will extend the tray automatically whenever a command is issued to m
 #### CHANGER_MOVE_RETRACTS_IEPORT
 
 The changer will retract the tray automatically whenever a command is issued to move media from an IEport.
-
-
-#### CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE
-
-Indicates that the transport must be moved to the drive before moving media from the drive to a slot. The bit CHANGER_PREDISMOUNT_ALIGN_TO_SLOT must be reset if this is set.
-
-
-#### CHANGER_PREDISMOUNT_ALIGN_TO_SLOT
-
-Indicates that the transport must be moved to the destination slot before moving the media from a drive to the slot. The bit CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE must be reset if this is set.
-
-
-#### CHANGER_RTN_MEDIA_TO_ORIGINAL_ADDR
-
-Indicates that when moving volume from drive to slot, volume must go back into the same slot from which it was previously moved to the drive. 
-
-
-#### CHANGER_SLOTS_USE_TRAYS
-
-The changer uses removable trays in its slots, which require the media to be placed in a tray and the tray moved to the desired position.
-
-
-#### CHANGER_TRUE_EXCHANGE_CAPABLE
-
-Device can manipulate two volumes at a time without using additional changer elements. 
 
 
 ### -field MoveFromTransport
@@ -476,14 +476,9 @@ Callers can use the following masks to determine whether the changer can move me
 
 
 
-#### CHANGER_TO_DRIVE
+#### CHANGER_TO_TRANSPORT
 
-The changer can carry out the operation from the specified element to a drive.
-
-
-#### CHANGER_TO_IEPORT
-
-The changer can carry out the operation from the specified element to an IEport.
+The changer can carry out the operation from the specified element to a transport.
 
 
 #### CHANGER_TO_SLOT
@@ -491,9 +486,14 @@ The changer can carry out the operation from the specified element to an IEport.
 The changer can carry out the operation from the specified element to a storage slot.
 
 
-#### CHANGER_TO_TRANSPORT
+#### CHANGER_TO_IEPORT
 
-The changer can carry out the operation from the specified element to a transport.
+The changer can carry out the operation from the specified element to an IEport.
+
+
+#### CHANGER_TO_DRIVE
+
+The changer can carry out the operation from the specified element to a drive.
 
 
 ### -field MoveFromSlot
@@ -540,14 +540,14 @@ Callers can use the following masks to determine whether the changer can lock or
 
 
 
-#### LOCK_UNLOCK_DOOR
-
-The changer can lock or unlock its door.
-
-
 #### LOCK_UNLOCK_IEPORT
 
 The changer can lock or unlock its IEport(s).
+
+
+#### LOCK_UNLOCK_DOOR
+
+The changer can lock or unlock its door.
 
 
 #### LOCK_UNLOCK_KEYPAD

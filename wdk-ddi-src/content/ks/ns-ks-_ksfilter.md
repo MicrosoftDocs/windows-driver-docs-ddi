@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9233f69-1ddf-4133-afd3-150aef5fc4a0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, *PKSFILTER, _KSFILTER, KSFILTER structure [Streaming Media Devices], ks/KSFILTER, PKSFILTER, stream.ksfilter, PKSFILTER structure pointer [Streaming Media Devices], KSFILTER, ks/PKSFILTER
+ms.keywords: KSFILTER, avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, stream.ksfilter, ks/PKSFILTER, _KSFILTER, PKSFILTER, ks/KSFILTER, PKSFILTER structure pointer [Streaming Media Devices], KSFILTER structure [Streaming Media Devices], *PKSFILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -70,6 +70,11 @@ typedef struct _KSFILTER {
 
 
 
+#### - Descriptor
+
+A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes the characteristics of this particular filter.
+
+
 #### - Bag
 
 This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated with this filter instance. <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> are structures used to associate dynamic memory with a specific AVStream object. Anything in the filter object bag is automatically cleaned up when the filter is deleted.
@@ -78,11 +83,6 @@ This member specifies the KSOBJECT_BAG (equivalent to type PVOID) associated wit
 #### - Context
 
 A pointer that is used by the client to associate context information with the specific filter instance. Typically, such context information is associated in the filter's <b>Create</b> member as defined in the KSFILTER_DISPATCH table for this filter instance. Any dynamically allocated context information should be placed in the object bag with <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>. <b>Context</b> is initialized to the value of the <b>Context</b> member of the parent <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> at the time the filter is created. See <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e-a453-d375e2d7ccf5">AVStream Object Hierarchy</a>.
-
-
-#### - Descriptor
-
-A pointer to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes the characteristics of this particular filter.
 
 
 ## -remarks
@@ -98,13 +98,13 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
  
 

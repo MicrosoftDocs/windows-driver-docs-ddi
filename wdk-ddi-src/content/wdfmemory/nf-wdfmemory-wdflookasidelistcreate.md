@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdflookasidelistcreate, kmdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate method, WdfLookasideListCreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml
+ms.keywords: wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate, kmdf.wdflookasidelistcreate, WdfLookasideListCreate method, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, wdf.wdflookasidelistcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

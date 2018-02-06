@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14df0604-39cd-4743-a051-894d63f4417c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDISK_PARTITION_INFO structure pointer [Storage Devices], PDISK_PARTITION_INFO, ntdddisk/PDISK_PARTITION_INFO, DISK_PARTITION_INFO, _DISK_PARTITION_INFO, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, *PDISK_PARTITION_INFO, ntdddisk/DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], storage.disk_partition_info
+ms.keywords: DISK_PARTITION_INFO structure [Storage Devices], DISK_PARTITION_INFO, storage.disk_partition_info, ntdddisk/PDISK_PARTITION_INFO, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, PDISK_PARTITION_INFO structure pointer [Storage Devices], _DISK_PARTITION_INFO, ntdddisk/DISK_PARTITION_INFO, *PDISK_PARTITION_INFO, PDISK_PARTITION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DISK_PARTITION_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDISK_PARTITION_INFO, DISK_PARTITION_INFO"
+req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 ---
 
 # _DISK_PARTITION_INFO structure
@@ -119,9 +119,9 @@ Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">P
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
 
  
 

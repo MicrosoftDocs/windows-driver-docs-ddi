@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCchCopyStringN
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlUnicodeStringCchCopyStringN function

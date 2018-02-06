@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, wdm/RtlHashUnicodeString, RtlHashUnicodeString, kernel.rtlhashunicodestring
+ms.keywords: RtlHashUnicodeString, wdm/RtlHashUnicodeString, RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, kernel.rtlhashunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

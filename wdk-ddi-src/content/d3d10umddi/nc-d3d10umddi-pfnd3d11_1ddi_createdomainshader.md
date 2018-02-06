@@ -40,7 +40,7 @@ apiname:
 -	CreateDomainShader(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CREATEDOMAINSHADER callback
@@ -103,14 +103,14 @@ VOID APIENTRY* CreateDomainShader(D3D11_1)(
  A handle to the display device (graphics context).
 
 
-#### - hRTShader
-
- A handle to the domain shader that the driver should use when it calls back into the Direct3D runtime. 
-
-
 #### - hShader
 
  A handle to the driver's private data for the domain shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivatetessellationshadersize.md">CalcPrivateTessellationShaderSize(D3D11_1)</a>  function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its tessellation-shader object. 
+
+
+#### - hRTShader
+
+ A handle to the domain shader that the driver should use when it calls back into the Direct3D runtime. 
 
 
 #### - pSignatures [in]

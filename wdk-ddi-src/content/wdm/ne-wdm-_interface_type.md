@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MicroChannel, wdm/PNPBus, Isa, InterfaceTypeUndefined, wdm/PCIBus, VMEBus, kernel.interface_type, wdm/NuBus, wdm/PCMCIABus, wdm/ProcessorInternal, wdm/Eisa, INTERFACE_TYPE, wdm/TurboChannel, wdm/MaximumInterfaceType, wdm/InternalPowerBus, wdm/PNPISABus, wdm/ACPIBus, wdm/InterfaceTypeUndefined, wdm/INTERFACE_TYPE, Eisa, NuBus, wdm/CBus, TurboChannel, ProcessorInternal, PCIBus, MicroChannel, PNPBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, CBus, wdm/Isa, wdm/MPIBus, wdm/Internal, Internal, PNPISABus, InternalPowerBus, MPIBus, MPSABus, wdm/Vmcs, MaximumInterfaceType, *PINTERFACE_TYPE, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MPSABus, Vmcs, PINTERFACE_TYPE, wdm/PINTERFACE_TYPE, PCMCIABus, _INTERFACE_TYPE, wdm/VMEBus, ACPIBus
+ms.keywords: wdm/InterfaceTypeUndefined, INTERFACE_TYPE, *PINTERFACE_TYPE, wdm/PCIBus, wdm/Internal, MaximumInterfaceType, InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], VMEBus, Isa, Eisa, wdm/PCMCIABus, ACPIBus, PCMCIABus, MPSABus, kernel.interface_type, wdm/NuBus, wdm/Vmcs, wdm/Eisa, wdm/MicroChannel, wdm/TurboChannel, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PINTERFACE_TYPE, Internal, wdm/InternalPowerBus, PINTERFACE_TYPE, wdm/VMEBus, wdm/INTERFACE_TYPE, wdm/PNPISABus, MPIBus, wdm/MPIBus, wdm/MaximumInterfaceType, wdm/MPSABus, wdm/ProcessorInternal, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, PNPBus, PCIBus, MicroChannel, wdm/ACPIBus, wdm/CBus, PNPISABus, InterfaceTypeUndefined, CBus, wdm/Isa, wdm/PNPBus, _INTERFACE_TYPE, Vmcs, NuBus, ProcessorInternal, TurboChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -189,17 +189,17 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
+
+<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
 
  
 

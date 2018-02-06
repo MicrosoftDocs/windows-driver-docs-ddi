@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff70685f-f3cf-49c0-bb0b-02e561feeac3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_e2f251c9-d2a0-4b33-91d8-2d700eb4253e.xml, irb/AtaPortReadPortBufferUlong, AtaPortReadPortBufferUlong, storage.ataportreadportbufferulong, AtaPortReadPortBufferUlong routine [Storage Devices]
+ms.keywords: atartns_e2f251c9-d2a0-4b33-91d8-2d700eb4253e.xml, storage.ataportreadportbufferulong, AtaPortReadPortBufferUlong, irb/AtaPortReadPortBufferUlong, AtaPortReadPortBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

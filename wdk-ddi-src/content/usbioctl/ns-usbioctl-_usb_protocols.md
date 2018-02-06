@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F970A7FB-DF6F-414B-8B4B-C7E4C5C620B1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: USB_PROTOCOLS union [Buses], PUSB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], *PUSB_PROTOCOLS, buses.usb_protocols, _USB_PROTOCOLS, usbioctl/USB_PROTOCOLS, USB_PROTOCOLS
+ms.keywords: USB_PROTOCOLS union [Buses], buses.usb_protocols, USB_PROTOCOLS, PUSB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], _USB_PROTOCOLS, *PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_PROTOCOLS
 product: Windows
 targetos: Windows
-req.typenames: USB_PROTOCOLS, *PUSB_PROTOCOLS
+req.typenames: "*PUSB_PROTOCOLS, USB_PROTOCOLS"
 req.product: Windows 10 or later.
 ---
 

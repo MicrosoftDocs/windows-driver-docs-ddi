@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CREATE_DISK structure [Storage Devices], structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, ntdddisk/CREATE_DISK, PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], CREATE_DISK, *PCREATE_DISK, ntdddisk/PCREATE_DISK, storage.create_disk, _CREATE_DISK
+ms.keywords: CREATE_DISK, ntdddisk/PCREATE_DISK, storage.create_disk, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, PCREATE_DISK structure pointer [Storage Devices], _CREATE_DISK, ntdddisk/CREATE_DISK, CREATE_DISK structure [Storage Devices], PCREATE_DISK, *PCREATE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CREATE_DISK
 product: Windows
 targetos: Windows
-req.typenames: CREATE_DISK, *PCREATE_DISK
+req.typenames: "*PCREATE_DISK, CREATE_DISK"
 ---
 
 # _CREATE_DISK structure
@@ -93,13 +93,13 @@ Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">P
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
-
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
+
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk_mbr.md">CREATE_DISK_MBR</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
  
 

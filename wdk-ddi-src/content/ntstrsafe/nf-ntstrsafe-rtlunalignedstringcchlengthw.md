@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnalignedStringCchLength, kernel.rtlunalignedstringcchlength, RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnalignedStringCchLengthW
+ms.keywords: ntstrsafe/RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml, kernel.rtlunalignedstringcchlength, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], RtlUnalignedStringCchLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnalignedStringCchLengthW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlUnalignedStringCchLengthW function

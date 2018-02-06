@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 818A9F03-F56E-47D6-A9D1-DD0F63B05054
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetAdapterBusType routine [Storage Devices], storport/StorPortSetAdapterBusType, StorPortSetAdapterBusType, storage.storportsetadapterbustype
+ms.keywords: storage.storportsetadapterbustype, StorPortSetAdapterBusType, storport/StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

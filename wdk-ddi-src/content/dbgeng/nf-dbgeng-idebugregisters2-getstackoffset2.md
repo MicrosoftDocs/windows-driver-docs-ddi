@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters2::GetStackOffset2, debugger.getstackoffset2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset2 method [Windows Debugging], IDebugRegisters2, GetStackOffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, IDebugRegisters2::GetStackOffset2
+ms.keywords: dbgeng/IDebugRegisters2::GetStackOffset2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, debugger.getstackoffset2, IDebugRegisters2::GetStackOffset2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset2, IDebugRegisters2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetStackOffset2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetStackOffset2 method
@@ -144,9 +144,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548403">GetStackOffset</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
  
 

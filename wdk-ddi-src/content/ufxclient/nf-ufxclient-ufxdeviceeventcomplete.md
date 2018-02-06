@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UfxDeviceEventComplete method [Buses], ufxclient/UfxDeviceEventComplete, UfxDeviceEventComplete, buses.ufxdeviceeventcomplete
+ms.keywords: UfxDeviceEventComplete method [Buses], ufxclient/UfxDeviceEventComplete, buses.ufxdeviceeventcomplete, UfxDeviceEventComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceEventComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

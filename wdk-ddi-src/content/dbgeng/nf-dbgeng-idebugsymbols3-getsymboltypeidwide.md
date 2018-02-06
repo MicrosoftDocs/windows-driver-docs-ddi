@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b68a5f89-1623-4cab-84bf-3cc6e4031d9b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolTypeIdWide method [Windows Debugging], GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, GetSymbolTypeIdWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, debugger.getsymboltypeidwide, IDebugSymbols3
+ms.keywords: GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, GetSymbolTypeIdWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, IDebugSymbols3, GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolTypeIdWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSymbolTypeIdWide method

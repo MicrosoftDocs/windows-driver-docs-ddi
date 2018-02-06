@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_TCoefSingle, LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, *LPDXVA_TCoefSingle, display.dxva_tcoefsingle, dxva/DXVA_TCoefSingle, DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], dxva/LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices]"
+ms.keywords: DXVA_TCoefSingle structure [Display Devices], display.dxva_tcoefsingle, *LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], DXVA_TCoefSingle, _DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml, LPDXVA_TCoefSingle, dxva/DXVA_TCoefSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_TCoefSingle
 product: Windows
 targetos: Windows
-req.typenames: DXVA_TCoefSingle, *LPDXVA_TCoefSingle
+req.typenames: "*LPDXVA_TCoefSingle, DXVA_TCoefSingle"
 ---
 
 # _DXVA_TCoefSingle structure
@@ -75,11 +75,6 @@ This member contains two fields: <i>TCoefIDX </i>and <i>TCoefEOB</i>.
 
 
 
-#### TCoefEOB
-
-Indicates whether the current coefficient is the last one associated with the current block of transform coefficients. A value of 1 indicates that the current coefficient is the last one for the block and a value of zero indicates that it is not. This field is in the least significant bit of the <b>wIndexWithEOB</b> member. 
-
-
 #### TCoefIDX
 
 Specifies the scan index of the coefficient in the block, as determined from the <b>bConfigHostInverseScan</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure. This field is in the 15 most significant bits of the <b>wIndexWithEOB </b>member.
@@ -97,6 +92,11 @@ Arbitrary ordering: When <b>bConfigHostInverseScan</b> is 1, the <i>MBscanMethod
 </ol><i>TCoefIDX</i> must always be less than 64.
 
 
+#### TCoefEOB
+
+Indicates whether the current coefficient is the last one associated with the current block of transform coefficients. A value of 1 indicates that the current coefficient is the last one for the block and a value of zero indicates that it is not. This field is in the least significant bit of the <b>wIndexWithEOB</b> member. 
+
+
 ### -field TCoefValue
 
 Indicates the value of the coefficient in the block. <b>TCoefValue</b> must be clipped to the appropriate range as specified in <a href="https://msdn.microsoft.com/7736a226-1122-4380-b09f-a8560c0cd609">Low-Level IDCT Processing Elements</a> by the host prior to passing the coefficient value to the accelerator for <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> operation. MPEG-2 mismatch control, if necessary, is also the responsibility of the host, not the accelerator. (This might require the creation of extra "phantom" nonzero coefficients.)
@@ -111,9 +111,9 @@ The DXVA_TCoefSingle structure is used whenever the <i>HostResidDiff</i> flag (b
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B42DA194-690F-41A6-AC11-71224887A2E4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_2ddi_corelayer_devicecallbacks
+ms.keywords: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_2ddi_corelayer_devicecallbacks, d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

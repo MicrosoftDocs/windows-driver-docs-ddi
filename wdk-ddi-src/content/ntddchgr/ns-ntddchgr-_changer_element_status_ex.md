@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1fb0d0f9-711a-4bd4-baf6-38ccbeae6e4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ELEMENT_STATUS_INENAB, ELEMENT_STATUS_PVOLTAG, ERROR_UNHANDLED_ERROR, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ELEMENT_STATUS_FULL, PCHANGER_ELEMENT_STATUS_EX, storage.changer_element_status_ex, ERROR_LABEL_UNREADABLE, ELEMENT_STATUS_SVALID, ELEMENT_STATUS_INVERT, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_EXCEPT, ERROR_LABEL_QUESTIONABLE, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_ID_VALID, *PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_PRODUCT_DATA, ERROR_TRAY_MALFUNCTION, ERROR_DRIVE_NOT_INSTALLED, ntddchgr/CHANGER_ELEMENT_STATUS_EX, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ELEMENT_STATUS_LUN_VALID, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_EXENAB, CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_IMPEXP, _CHANGER_ELEMENT_STATUS_EX, ERROR_SLOT_NOT_PRESENT
+ms.keywords: ELEMENT_STATUS_EXENAB, ERROR_LABEL_QUESTIONABLE, ELEMENT_STATUS_INVERT, ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_SVALID, ERROR_DRIVE_NOT_INSTALLED, ERROR_TRAY_MALFUNCTION, ERROR_UNHANDLED_ERROR, ELEMENT_STATUS_EXCEPT, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], *PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_INENAB, ELEMENT_STATUS_LUN_VALID, ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_PRODUCT_DATA, ELEMENT_STATUS_AVOLTAG, _CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_IMPEXP, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, ERROR_SLOT_NOT_PRESENT, ELEMENT_STATUS_ID_VALID, PCHANGER_ELEMENT_STATUS_EX, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ERROR_LABEL_UNREADABLE, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, storage.changer_element_status_ex, ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_FULL, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,34 +93,9 @@ Specifies the element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.
 Indicates the status of the element, which can be one or more of the following values.
 
 
-#### ELEMENT_STATUS_ACCESS
-
-The changer's transport element can access the piece of media in this element. The miniclass driver clears this flag to indicate that the media is not accessible for one of the following reasons: If <b>ElementType</b> in the <b>Element</b> member is <b>ChangerSlot</b>, the slot is not present in the changer (for example, the magazine containing the slot has been physically removed). If <b>ElementType</b> is <b>ChangerDrive</b>, the drive is broken or has been removed. If <b>ElementType</b> is <b>ChangerIEPort</b>, the IEport is extended.
-
-
-#### ELEMENT_STATUS_AVOLTAG
-
-Alternate volume information in the <b>AlternateVolumeID</b> member is valid.
-
-
-#### ELEMENT_STATUS_EXCEPT
-
-The element is in an abnormal state. Check the <b>ExceptionCode</b> member for more information.
-
-
-#### ELEMENT_STATUS_EXENAB
-
-The element supports export of media through the changer's IEport.
-
-
 #### ELEMENT_STATUS_FULL
 
 The element contains a piece of media. This flag is valid if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b>, <b>ChangerSlot</b>, or <b>ChangerTransport</b>. If <b>ElementType</b> is <b>ChangerIEPort</b>, this flag is valid only if CHANGER_REPORT_IEPORT_STATE is also set in <b>Features0</b> of <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>.
-
-
-#### ELEMENT_STATUS_ID_VALID
-
-The SCSI target ID in the <b>TargetID</b> member is valid. This flag is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b>. 
 
 
 #### ELEMENT_STATUS_IMPEXP
@@ -128,19 +103,34 @@ The SCSI target ID in the <b>TargetID</b> member is valid. This flag is valid on
 The media in this element was placed there by an operator. This flag is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerIEPort</b>. 
 
 
+#### ELEMENT_STATUS_EXCEPT
+
+The element is in an abnormal state. Check the <b>ExceptionCode</b> member for more information.
+
+
+#### ELEMENT_STATUS_ACCESS
+
+The changer's transport element can access the piece of media in this element. The miniclass driver clears this flag to indicate that the media is not accessible for one of the following reasons: If <b>ElementType</b> in the <b>Element</b> member is <b>ChangerSlot</b>, the slot is not present in the changer (for example, the magazine containing the slot has been physically removed). If <b>ElementType</b> is <b>ChangerDrive</b>, the drive is broken or has been removed. If <b>ElementType</b> is <b>ChangerIEPort</b>, the IEport is extended.
+
+
+#### ELEMENT_STATUS_EXENAB
+
+The element supports export of media through the changer's IEport.
+
+
 #### ELEMENT_STATUS_INENAB
 
 The element supports import of media through the changer's IEport.
 
 
-#### ELEMENT_STATUS_INVERT
-
-The media in the element was flipped. This flag is valid only if the ELEMENT_STATUS_SVALID flag is also set.
-
-
 #### ELEMENT_STATUS_LUN_VALID
 
 The device number in the <b>Lun</b> member is valid. This flag is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b>. 
+
+
+#### ELEMENT_STATUS_ID_VALID
+
+The SCSI target ID in the <b>TargetID</b> member is valid. This flag is valid only if <b>ElementType</b> in the <b>Element</b> member is <b>ChangerDrive</b>. 
 
 
 #### ELEMENT_STATUS_NOT_BUS
@@ -153,9 +143,9 @@ The drive at the address indicated by <b>Lun</b> and <b>TargetID</b> is on a dif
 The serial number in the <b>SerialNumber</b> member is valid.
 
 
-#### ELEMENT_STATUS_PVOLTAG
+#### ELEMENT_STATUS_INVERT
 
-Primary volume information in the <b>PrimaryVolumeID</b> member is valid.
+The media in the element was flipped. This flag is valid only if the ELEMENT_STATUS_SVALID flag is also set.
 
 
 #### ELEMENT_STATUS_SVALID
@@ -163,19 +153,19 @@ Primary volume information in the <b>PrimaryVolumeID</b> member is valid.
 The <b>SourceElement</b> member and ELEMENT_STATUS_INVERT flag are both valid.
 
 
+#### ELEMENT_STATUS_PVOLTAG
+
+Primary volume information in the <b>PrimaryVolumeID</b> member is valid.
+
+
+#### ELEMENT_STATUS_AVOLTAG
+
+Alternate volume information in the <b>AlternateVolumeID</b> member is valid.
+
+
 ### -field ExceptionCode
 
 Indicates that the element is in an abnormal state. This member is valid only if ELEMENT_STATUS_EXCEPT is set in <b>Flags</b>. <b>ExceptionCode</b> can be set to one of the following values. 
-
-
-#### ERROR_DRIVE_NOT_INSTALLED
-
-The drive at this element address is absent. If a changer can continue to operate without the drive, its miniclass driver sets ERROR_DRIVE_NOT_INSTALLED for the drive. 
-
-
-#### ERROR_LABEL_QUESTIONABLE
-
-The label might be invalid due to a unit attention condition.
 
 
 #### ERROR_LABEL_UNREADABLE
@@ -183,9 +173,19 @@ The label might be invalid due to a unit attention condition.
 The changer's bar code reader could not read the bar code label on the piece of media in this element, because the media is missing, damaged, improperly positioned, or upside down.
 
 
+#### ERROR_LABEL_QUESTIONABLE
+
+The label might be invalid due to a unit attention condition.
+
+
 #### ERROR_SLOT_NOT_PRESENT
 
 The slot at this element address is currently not installed in the changer. A miniclass driver sets this code for each slot in a removable magazine to indicate that the magazine has been removed.
+
+
+#### ERROR_DRIVE_NOT_INSTALLED
+
+The drive at this element address is absent. If a changer can continue to operate without the drive, its miniclass driver sets ERROR_DRIVE_NOT_INSTALLED for the drive. 
 
 
 #### ERROR_TRAY_MALFUNCTION
@@ -247,9 +247,9 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78b6f3c7-bb42-4e93-8128-28b6f8e11dda
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/PDO_CAPABILITY_UNDEFINED, storage.pdo_caps, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml, PDO_CAPABILITY_INC512_CLEAR, _PDO_CAPS, PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, PDO_CAPS, PDO_CAPS enumeration [Storage Devices], PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_SET
+ms.keywords: ehstorioctl/PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPS, PDO_CAPABILITY_UNDEFINED, PDO_CAPS enumeration [Storage Devices], PDO_CAPABILITY_INC512_SET, PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml, _PDO_CAPS, ehstorioctl/PDO_CAPABILITY_UNDEFINED, PDO_CAPABILITY_INC512_CLEAR, storage.pdo_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

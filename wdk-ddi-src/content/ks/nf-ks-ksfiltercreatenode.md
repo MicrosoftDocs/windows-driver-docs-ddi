@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a796bb9-7d55-47da-9a57-2829cd193e23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, KsFilterCreateNode, stream.ksfiltercreatenode, ks/KsFilterCreateNode
+ms.keywords: ks/KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], KsFilterCreateNode, avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, stream.ksfiltercreatenode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

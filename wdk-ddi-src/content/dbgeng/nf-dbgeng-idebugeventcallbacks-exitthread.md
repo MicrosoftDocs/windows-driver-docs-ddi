@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03ff46cb-dfc5-409a-b652-bef8f2b37b59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks interface [Windows Debugging], ExitThread method, IDebugEventCallbacks, ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, ExitThread, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, ExitThread method [Windows Debugging], IDebugEventCallbacks::ExitThread
+ms.keywords: IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ExitThread method, IDebugEventCallbacks::ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::ExitThread, ExitThread, ExitThread method [Windows Debugging], ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, debugger.idebugeventcallbacks_exitthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.ExitThread
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacks::ExitThread method

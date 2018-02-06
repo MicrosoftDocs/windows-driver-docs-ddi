@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_coppsetprotectionlevelcmddata, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, dxva/DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], DXVA_COPPSetProtectionLevelCmdData, _DXVA_COPPSetProtectionLevelCmdData
+ms.keywords: display.dxva_coppsetprotectionlevelcmddata, _DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], dxva/DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

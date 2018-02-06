@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ba6f693-b0b7-4176-b951-7bb259bec391
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlNtStatusToDosError, ntifs/RtlNtStatusToDosError, rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml, RtlNtStatusToDosError routine [Installable File System Drivers], ifsk.rtlntstatustodoserror
+ms.keywords: rtlref_8afdfe24-1071-4bab-b935-b1b91eb52766.xml, RtlNtStatusToDosError, ifsk.rtlntstatustodoserror, ntifs/RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

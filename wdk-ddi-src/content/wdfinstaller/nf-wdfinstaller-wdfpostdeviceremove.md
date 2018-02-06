@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f29579de-ba5d-4b7a-9aeb-558be03d7eef
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPostDeviceRemove function, wdf.wdfpostdeviceremove, PFN_WDFPOSTDEVICEREMOVE, DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, wdfinstaller/WdfPostDeviceRemove, kmdf.wdfpostdeviceremove
+ms.keywords: WdfPostDeviceRemove, wdf.wdfpostdeviceremove, WdfPostDeviceRemove function, wdfinstaller/WdfPostDeviceRemove, kmdf.wdfpostdeviceremove, DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, PFN_WDFPOSTDEVICEREMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

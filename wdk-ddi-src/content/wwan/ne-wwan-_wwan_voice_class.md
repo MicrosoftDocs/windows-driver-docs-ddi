@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 288a7b44-b842-41f8-8ece-d14a709b0717
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanVoiceClassUnknown, PWWAN_VOICE_CLASS, WwanVoiceClassNoVoice, WwanVoiceClassSeparateVoiceData, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_VOICE_CLASS, WWAN_VOICE_CLASS, wwan/WwanVoiceClassSimultaneousVoiceData, wwan/WwanVoiceClassNoVoice, wwan/WWAN_VOICE_CLASS, wwan/PWWAN_VOICE_CLASS, WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, *PWWAN_VOICE_CLASS, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassUnknown, wwan/WwanVoiceClassMax, netvista.wwan_voice_class, WwanVoiceClassMax, WwanVoiceClassSimultaneousVoiceData, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WwanVoiceClassSeparateVoiceData, WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassMax, *PWWAN_VOICE_CLASS, netvista.wwan_voice_class, wwan/WWAN_VOICE_CLASS, WWAN_VOICE_CLASS, wwan/WwanVoiceClassSimultaneousVoiceData, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_VOICE_CLASS, WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WwanVoiceClassNoVoice, _WWAN_VOICE_CLASS, PWWAN_VOICE_CLASS, WwanVoiceClassSimultaneousVoiceData, WwanVoiceClassMax, wwan/WwanVoiceClassUnknown, WwanVoiceClassUnknown, WwanVoiceClassNoVoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

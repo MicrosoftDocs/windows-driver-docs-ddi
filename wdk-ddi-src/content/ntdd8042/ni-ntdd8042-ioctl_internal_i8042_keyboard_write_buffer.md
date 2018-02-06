@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ---
 
 # IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER IOCTL
@@ -108,6 +108,11 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
+#### -STATUS_SUCCESS
+
+The request completed successfully.
+
+
 #### -STATUS_DEVICE_NOT_READY
 
 The keyboard interrupt is not initialized.
@@ -121,11 +126,6 @@ The input parameters are not valid.
 #### -STATUS_IO_TIMEOUT
 
 The request timed out.
-
-
-#### -STATUS_SUCCESS
-
-The request completed successfully.
 
 
 ## -see-also

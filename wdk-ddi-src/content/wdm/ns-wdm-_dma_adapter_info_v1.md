@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], DMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, _DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, wdm/DMA_ADAPTER_INFO_V1
+ms.keywords: PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], *PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1, _DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], kernel.dma_adapter_info_v1, DMA_ADAPTER_INFO_V1, wdm/DMA_ADAPTER_INFO_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DMA_ADAPTER_INFO_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1"
+req.typenames: DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1
 req.product: Windows 10 or later.
 ---
 

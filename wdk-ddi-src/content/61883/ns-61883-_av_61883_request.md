@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 697fbf86-5c99-4e35-bcb4-a6f5272cc987
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AV_61883_REQUEST structure [Buses], PAV_61883_REQUEST, _AV_61883_REQUEST, 61883/PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, IEEE.av_61883_request, AV_61883_REQUEST, *PAV_61883_REQUEST, 61883/AV_61883_REQUEST
+ms.keywords: AV_61883_REQUEST structure [Buses], 61883/PAV_61883_REQUEST, PAV_61883_REQUEST, _AV_61883_REQUEST, *PAV_61883_REQUEST, IEEE.av_61883_request, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, AV_61883_REQUEST, 61883/AV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AV_61883_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: AV_61883_REQUEST, *PAV_61883_REQUEST
+req.typenames: "*PAV_61883_REQUEST, AV_61883_REQUEST"
 ---
 
 # _AV_61883_REQUEST structure

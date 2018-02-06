@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97461adf-053b-484b-9425-b23ac6deb1bd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcRegisterSubdevice, portcls/PcRegisterSubdevice, audio.pcregistersubdevice, PcRegisterSubdevice function [Audio Devices], audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml
+ms.keywords: PcRegisterSubdevice function [Audio Devices], PcRegisterSubdevice, portcls/PcRegisterSubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, audio.pcregistersubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,13 +105,13 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537032">IUnregisterSubdevice::UnregisterSubdevice</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537032">IUnregisterSubdevice::UnregisterSubdevice</a>
+
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
  
 

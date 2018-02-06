@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b88ec6d-a7e0-4bb8-8a12-c7f170ac2334
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_PREDICT_FAILURE, _STORAGE_PREDICT_FAILURE, ntddstor/PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE, storage.storage_predict_failure, ntddstor/STORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml"
+ms.keywords: ntddstor/PSTORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml, _STORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE, storage.storage_predict_failure, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], *PSTORAGE_PREDICT_FAILURE, ntddstor/STORAGE_PREDICT_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

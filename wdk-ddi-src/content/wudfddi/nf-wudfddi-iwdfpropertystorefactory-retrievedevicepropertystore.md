@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a4c968-b1d1-48f4-9ea9-b97c4b5b4208
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, IWDFPropertyStoreFactory, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, umdf.iwdfpropertystorefactory_retrievedevicepropertystore
+ms.keywords: IWDFPropertyStoreFactory, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface, RetrieveDevicePropertyStore method, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFPropertyStoreFactory.RetrieveDevicePropertyStore
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -158,11 +158,11 @@ For more information about using <a href="https://msdn.microsoft.com/be47a1f0-03
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
 
  
 

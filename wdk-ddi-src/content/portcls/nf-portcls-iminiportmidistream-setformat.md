@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 35e11004-c716-4c6a-ba0a-be04750afb7a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.iminiportmidistream_setformat, IMiniportMidiStream, audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, portcls/IMiniportMidiStream::SetFormat, SetFormat method [Audio Devices], IMiniportMidiStream interface, SetFormat, IMiniportMidiStream interface [Audio Devices], SetFormat method, SetFormat method [Audio Devices], IMiniportMidiStream::SetFormat
+ms.keywords: audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, IMiniportMidiStream interface [Audio Devices], SetFormat method, portcls/IMiniportMidiStream::SetFormat, IMiniportMidiStream, SetFormat method [Audio Devices], IMiniportMidiStream interface, SetFormat method [Audio Devices], audio.iminiportmidistream_setformat, IMiniportMidiStream::SetFormat, SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest2_requeue, IWDFIoRequest2::Requeue, Requeue method, IWDFIoRequest2, Requeue method, IWDFIoRequest2 interface, Requeue, IWDFIoRequest2 interface, Requeue method, umdf.iwdfiorequest2_requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, wudfddi/IWDFIoRequest2::Requeue
+ms.keywords: wdf.iwdfiorequest2_requeue, Requeue method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_requeue, Requeue, IWDFIoRequest2 interface, Requeue method, IWDFIoRequest2, wudfddi/IWDFIoRequest2::Requeue, Requeue method, IWDFIoRequest2::Requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.Requeue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

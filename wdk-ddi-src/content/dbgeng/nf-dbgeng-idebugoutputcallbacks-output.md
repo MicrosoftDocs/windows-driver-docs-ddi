@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6d0352ae-0376-4992-89ef-90702591042e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks::Output, dbgeng/IDebugOutputCallbacks::Output, Output method [Windows Debugging], IDebugOutputCallbacks, ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, debugger.idebugoutputcallbacks_output, IDebugOutputCallbacks interface [Windows Debugging], Output method, Output, Output method [Windows Debugging], IDebugOutputCallbacks interface
+ms.keywords: IDebugOutputCallbacks::Output, Output method [Windows Debugging], IDebugOutputCallbacks interface, Output, dbgeng/IDebugOutputCallbacks::Output, IDebugOutputCallbacks, Output method [Windows Debugging], debugger.idebugoutputcallbacks_output, IDebugOutputCallbacks interface [Windows Debugging], Output method, ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugOutputCallbacks.Output
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugOutputCallbacks::Output method

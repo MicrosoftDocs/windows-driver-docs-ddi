@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ChangeDebuggeeState, IDebugEventCallbacksWide, IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, debugger.idebugeventcallbackswide_changedebuggeestate
+ms.keywords: ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ChangeDebuggeeState
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::ChangeDebuggeeState method

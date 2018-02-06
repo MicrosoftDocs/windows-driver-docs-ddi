@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, PFN_WDFIOQUEUEGETSTATE, kmdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState, WdfIoQueueGetState method, wdf.wdfioqueuegetstate, WdfIoQueueGetState
+ms.keywords: WdfIoQueueGetState, DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState, wdf.wdfioqueuegetstate, PFN_WDFIOQUEUEGETSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,9 +139,9 @@ For more information about the <b>WdfIoQueueGetState</b> method, see <a href="ht
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
  
 

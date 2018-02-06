@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: MetadataId_Standard_Start, KSCAMERA_MetadataId, ksmedia/MetadataId_Custom_Start, MetadataId_Custom_Start, MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_PhotoConfirmation, MetadataId_Standard_End, ksmedia/MetadataId_Standard_Start, KSCAMERA_MetadataId enumeration [Streaming Media Devices], ksmedia/KSCAMERA_MetadataId, stream.kscamera_metadataid
+ms.keywords: KSCAMERA_MetadataId, MetadataId_Standard_End, MetadataId_PhotoConfirmation, stream.kscamera_metadataid, ksmedia/MetadataId_Standard_End, MetadataId_Custom_Start, ksmedia/MetadataId_PhotoConfirmation, KSCAMERA_MetadataId enumeration [Streaming Media Devices], ksmedia/MetadataId_Standard_Start, ksmedia/KSCAMERA_MetadataId, ksmedia/MetadataId_Custom_Start, MetadataId_Standard_Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

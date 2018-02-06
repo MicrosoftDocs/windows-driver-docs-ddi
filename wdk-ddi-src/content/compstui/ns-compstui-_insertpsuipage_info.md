@@ -7,8 +7,8 @@ old-location: print\insertpsuipage_info.htm
 old-project: print
 ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PINSERTPSUIPAGE_INFO structure pointer [Print Devices], print.insertpsuipage_info, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml, compstui/PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO structure [Print Devices], PINSERTPSUIPAGE_INFO, _INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO, compstui/INSERTPSUIPAGE_INFO
+ms.date: 2/2/2018
+ms.keywords: PINSERTPSUIPAGE_INFO structure pointer [Print Devices], cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml, INSERTPSUIPAGE_INFO, _INSERTPSUIPAGE_INFO, compstui/INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO, print.insertpsuipage_info, PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO structure [Print Devices], compstui/PINSERTPSUIPAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,18 +164,18 @@ CPSUI inserts pages as the first children of the parent group identified by the 
 The <i>lParam1</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> is ignored.
 
 
-#### INSPSUIPAGE_MODE_LAST_CHILD
-
-CPSUI inserts pages as the last children of the parent group identified by the <i>hComPropSheet</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a>.
-
-The <i>lParam1</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> is ignored.
-
-
 #### INSPUIPAGE_MODE_INDEX
 
 CPSUI inserts pages as children of the parent group identified by the <i>hComPropSheet</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a>.
 
 The <i>lParam1</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> specifies a zero-based index identifying where, within the set of children, the specified pages should be inserted. If <i>lParam1</i> is 0, the pages are inserted starting at page 1; if <i>lParam1</i> is 1, the pages are inserted starting at page 2; and so on. If the index is greater than the number of existing children, the new pages are added as the last children. The <i>lParam1</i> value must be specified as HINSPSUIPAGE_INDEX(index).
+
+
+#### INSPSUIPAGE_MODE_LAST_CHILD
+
+CPSUI inserts pages as the last children of the parent group identified by the <i>hComPropSheet</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a>.
+
+The <i>lParam1</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> is ignored.
 
 
 ### -field dwData1

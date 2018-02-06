@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, IWDFObject::AcquireLock, AcquireLock method, AcquireLock, AcquireLock method, IWDFObject interface, IWDFObject, IWDFObject interface, AcquireLock method, wudfddi/IWDFObject::AcquireLock
+ms.keywords: AcquireLock method, AcquireLock method, IWDFObject interface, wudfddi/IWDFObject::AcquireLock, IWDFObject interface, AcquireLock method, AcquireLock, IWDFObject::AcquireLock, wdf.iwdfobject_acquirelock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, IWDFObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.AcquireLock
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -89,9 +89,9 @@ Unsynchronized code can call <b>AcquireLock</b>. The driver should call on objec
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6397c0dd-4dc7-49fa-85a7-841f6c2b30d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX, ntdddisk/DISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Storage Devices], structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml, storage.disk_geometry_ex, _DISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Storage Devices]
+ms.keywords: DISK_GEOMETRY_EX structure [Storage Devices], ntdddisk/DISK_GEOMETRY_EX, storage.disk_geometry_ex, *PDISK_GEOMETRY_EX, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml, ntdddisk/PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, PDISK_GEOMETRY_EX, _DISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DISK_GEOMETRY_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX"
+req.typenames: DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX
 ---
 
 # _DISK_GEOMETRY_EX structure
@@ -109,15 +109,15 @@ Because the partition and detect information are not at fixed locations within t
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
 
  
 

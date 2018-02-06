@@ -7,8 +7,8 @@ old-location: print\oembitblt.htm
 old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMBitBlt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt
+ms.date: 2/2/2018
+ms.keywords: print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, OEMBitBlt, print.oembitblt, OEMBitBlt function [Print Devices], printoem/OEMBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

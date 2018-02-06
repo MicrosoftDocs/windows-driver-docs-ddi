@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e75020cf-39b4-434c-b071-dc75de6cc81b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetVidPnSourceOwner, d3dkmthk/D3DKMTSetVidPnSourceOwner, display.d3dkmtsetvidpnsourceowner, D3DKMTSetVidPnSourceOwner function [Display Devices], OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml
+ms.keywords: display.d3dkmtsetvidpnsourceowner, d3dkmthk/D3DKMTSetVidPnSourceOwner, D3DKMTSetVidPnSourceOwner function [Display Devices], D3DKMTSetVidPnSourceOwner, OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

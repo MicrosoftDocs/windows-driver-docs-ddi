@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e7c50bac-96ca-446d-a865-4ad87ad5b295
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UsbSuperSpeed, UsbHighSpeed, usbspec/UsbSuperSpeed, _USB_DEVICE_SPEED, USB_DEVICE_SPEED enumeration [Buses], usbspec/UsbLowSpeed, USB_DEVICE_SPEED, buses.usb_device_speed, UsbLowSpeed, usbspec/UsbFullSpeed, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml, UsbFullSpeed, usbspec/USB_DEVICE_SPEED, usbspec/UsbHighSpeed
+ms.keywords: buses.usb_device_speed, usbspec/UsbHighSpeed, USB_DEVICE_SPEED enumeration [Buses], UsbFullSpeed, USB_DEVICE_SPEED, usbspec/USB_DEVICE_SPEED, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml, UsbSuperSpeed, usbspec/UsbSuperSpeed, _USB_DEVICE_SPEED, usbspec/UsbFullSpeed, UsbLowSpeed, usbspec/UsbLowSpeed, UsbHighSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

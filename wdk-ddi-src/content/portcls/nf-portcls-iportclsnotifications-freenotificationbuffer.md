@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, FreeNotificationBuffer method [Audio Devices], IPortClsNotifications::FreeNotificationBuffer, IPortClsNotifications, FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface, portcls/IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, FreeNotificationBuffer
+ms.keywords: portcls/IPortClsNotifications::FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface, FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, IPortClsNotifications, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

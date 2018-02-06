@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 049BDC6E-2FB2-421F-9229-320F2ED98663
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmisdriversuspectforverifier, MmIsDriverSuspectForVerifier, wdm/MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier, kernel.mmisdriversuspectforverifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,9 +95,9 @@ Another related routine, <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md"
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
 
 <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState
+ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, debugger.idebugeventcallbackswide_changesymbolstate, IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ChangeSymbolState
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::ChangeSymbolState method
@@ -151,12 +151,17 @@ Provides additional information about the change to the symbol state.   If more 
 The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine loaded symbols for.
 
 
-#### DEBUG_CSS_PATHS
+#### DEBUG_CSS_UNLOADS
+
+The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine unloaded symbols for.  If the engine unloaded symbols for more than one image, the value of <i>Argument</i> is zero.
+
+
+#### DEBUG_CSS_SCOPE
 
 The value of <i>Argument</i> is zero.
 
 
-#### DEBUG_CSS_SCOPE
+#### DEBUG_CSS_PATHS
 
 The value of <i>Argument</i> is zero.
 
@@ -169,11 +174,6 @@ The value of <i>Argument</i> is the symbol options.
 #### DEBUG_CSS_TYPE_OPTIONS
 
 The value of <i>Argument</i> is zero.
-
-
-#### DEBUG_CSS_UNLOADS
-
-The value of <i>Argument</i> is the base location (in the target's memory address space) of the module image that the engine unloaded symbols for.  If the engine unloaded symbols for more than one image, the value of <i>Argument</i> is zero.
 
 
 ## -returns

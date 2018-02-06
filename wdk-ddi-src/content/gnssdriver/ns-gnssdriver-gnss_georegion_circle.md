@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE, sensors.gnss_georegion_circle, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], *PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnssdriver/GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE
+ms.keywords: sensors.gnss_georegion_circle, *PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], GNSS_GEOREGION_CIRCLE, gnssdriver/GNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_GEOREGION_CIRCLE
 product: Windows
 targetos: Windows
-req.typenames: GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE
+req.typenames: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE"
 ---
 
 # GNSS_GEOREGION_CIRCLE structure

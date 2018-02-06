@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c29d5cbc-ddcc-42e9-ac2d-e442a489adfd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], PKSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml, audio.ksac3_dialogue_level, ksmedia/KSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL, ksmedia/PKSAC3_DIALOGUE_LEVEL
+ms.keywords: PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], PKSAC3_DIALOGUE_LEVEL, aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml, audio.ksac3_dialogue_level, ksmedia/KSAC3_DIALOGUE_LEVEL, ksmedia/PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAC3_DIALOGUE_LEVEL
 product: Windows
 targetos: Windows
-req.typenames: KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL
+req.typenames: "*PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL"
 ---
 
 # KSAC3_DIALOGUE_LEVEL structure

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 82700669-b98f-486c-a7a6-cd7138300f11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD, RawWriteData method [Imaging Devices], image.istiusd_rawwritedata, RawWriteData method [Imaging Devices], IStiUSD interface, RawWriteData, IStiUSD interface [Imaging Devices], RawWriteData method, stiusd/IStiUSD::RawWriteData, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, IStiUSD::RawWriteData
+ms.keywords: stiusd/IStiUSD::RawWriteData, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, RawWriteData method [Imaging Devices], image.istiusd_rawwritedata, IStiUSD interface [Imaging Devices], RawWriteData method, IStiUSD::RawWriteData, RawWriteData, RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawWriteData
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

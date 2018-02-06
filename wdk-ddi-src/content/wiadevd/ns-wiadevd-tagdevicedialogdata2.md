@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiadevd/PDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, image.devicedialogdata2, PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, tagDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices]
+ms.keywords: DEVICEDIALOGDATA2, image.devicedialogdata2, wiadevd/LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], wiadevd/DEVICEDIALOGDATA2, tagDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], wiadevd/PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, LPDEVICEDIALOGDATA2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,14 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	DEVICEDIALOGDATA2
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -136,27 +136,27 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestwdmformatusingstacklocation, wdfrequest/WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation, PFN_WDFREQUESTWDMFORMATUSINGSTACKLOCATION, DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, kmdf.wdfrequestwdmformatusingstacklocation, WdfRequestWdmFormatUsingStackLocation method
+ms.keywords: wdfrequest/WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, wdf.wdfrequestwdmformatusingstacklocation, PFN_WDFREQUESTWDMFORMATUSINGSTACKLOCATION, DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, kmdf.wdfrequestwdmformatusingstacklocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, swenum/KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], stream.ksservicebusenumcreaterequest
+ms.keywords: stream.ksservicebusenumcreaterequest, KsServiceBusEnumCreateRequest, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, KsServiceBusEnumCreateRequest function [Streaming Media Devices], swenum/KsServiceBusEnumCreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsServiceBusEnumCreateRequest
 product: Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
+req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
 req.product: Windows 10 or later.
 ---
 

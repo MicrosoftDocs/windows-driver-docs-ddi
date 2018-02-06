@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11d009d7-5a97-46a8-b1d6-f1906127bf3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_VOICE, rilapitypes/RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_CUSTOM, netvista.rilimsservice, rilapitypes/RIL_IMS_SERVICE_ALL, RILIMSSERVICE, RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_VOICE
+ms.keywords: rilapitypes/RIL_IMS_SERVICE_VOICE, rilapitypes/RILIMSSERVICE, RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_SMS, rilapitypes/RIL_IMS_SERVICE_VIDEO, netvista.rilimsservice, rilapitypes/RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_ALL, rilapitypes/RIL_IMS_SERVICE_ALL, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_VOICE, RILIMSSERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

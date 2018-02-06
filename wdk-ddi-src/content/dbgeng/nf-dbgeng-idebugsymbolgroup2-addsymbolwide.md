@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, AddSymbolWide method [Windows Debugging], AddSymbolWide, debugger.addsymbolwide
+ms.keywords: AddSymbolWide, IDebugSymbolGroup2::AddSymbolWide, IDebugSymbolGroup2, AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, AddSymbolWide method [Windows Debugging], debugger.addsymbolwide, dbgeng/IDebugSymbolGroup2::AddSymbolWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbolGroup2.AddSymbolWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbolGroup2::AddSymbolWide method
@@ -118,13 +118,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

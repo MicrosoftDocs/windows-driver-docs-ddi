@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], ISCSI_ENCRYPT_NONE, iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], iscsicfg/ISCSI_ENCRYPT_AES_CTR, *PISCSI_ENCRYPTION_TYPES, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml, ISCSI_ENCRYPTION_TYPES, storage.iscsi_encryption_types, ISCSI_ENCRYPT_AES_CTR, PISCSI_ENCRYPTION_TYPES, iscsicfg/PISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_NONE, iscsicfg/ISCSI_ENCRYPTION_TYPES
+ms.keywords: "*PISCSI_ENCRYPTION_TYPES, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], iscsicfg/ISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_AES_CTR, PISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_NONE, ISCSI_ENCRYPT_AES_CTR, storage.iscsi_encryption_types, iscsicfg/PISCSI_ENCRYPTION_TYPES, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml, ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPT_NONE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_ENCRYPTION_TYPES
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES
+req.typenames: "*PISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPTION_TYPES"
 ---
 
 # *PISCSI_ENCRYPTION_TYPES enumeration

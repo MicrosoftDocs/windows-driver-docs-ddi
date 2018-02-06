@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_TOC, ntddcdrm/CDROM_TOC, PCDROM_TOC, *PCDROM_TOC, _CDROM_TOC, CDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml, storage.cdrom_toc, CDROM_TOC structure [Storage Devices]
+ms.keywords: "_CDROM_TOC, PCDROM_TOC, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml, CDROM_TOC, *PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], storage.cdrom_toc, ntddcdrm/PCDROM_TOC, ntddcdrm/CDROM_TOC, CDROM_TOC structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,11 +99,11 @@ The output data contains table of contents information for one or more of the sp
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
 
  
 

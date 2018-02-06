@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers]
+ms.keywords: RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram function [Installable File System Drivers], rxce/RxCeSendDatagram, ifsk.rxcesenddatagram
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeSendDatagram
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -104,6 +104,16 @@ The length of data to be sent.
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 
 
+#### - pTransport [in]
+
+A pointer to the transport along which the TSDU is to be sent.
+
+
+#### - pAddress [in]
+
+A pointer to the local transport address.
+
+
 #### - Options [in]
 
 The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>Options</i> parameter consists of set of bits defined in <i>rxce.h</i>. The <i>Options</i> parameter can be a combination of the following bits:
@@ -121,16 +131,6 @@ Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only porti
 Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
 
 Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams because the underlying transports do not block on datagram sends.
-
-
-#### - pAddress [in]
-
-A pointer to the local transport address.
-
-
-#### - pTransport [in]
-
-A pointer to the transport along which the TSDU is to be sent.
 
 
 ## -returns
@@ -187,9 +187,9 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
 <a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
  
 

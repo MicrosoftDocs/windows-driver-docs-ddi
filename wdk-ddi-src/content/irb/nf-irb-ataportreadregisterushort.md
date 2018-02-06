@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a0a9792c-a2a1-4079-9e1c-c41c5b872fa0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportreadregisterushort, AtaPortReadRegisterUshort routine [Storage Devices], irb/AtaPortReadRegisterUshort, atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, AtaPortReadRegisterUshort
+ms.keywords: AtaPortReadRegisterUshort routine [Storage Devices], AtaPortReadRegisterUshort, storage.ataportreadregisterushort, atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, irb/AtaPortReadRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,9 +86,9 @@ A pointer to the register to be read. The address value that is assigned to this
 
 <a href="..\irb\nf-irb-ataportreadregisteruchar.md">AtaPortReadRegisterUchar</a>
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
 <a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
+
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
  
 

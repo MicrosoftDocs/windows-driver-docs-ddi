@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: B20B2AE6-A408-451C-B46D-803139E8B57F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl::GetMyDeviceHandle, image.istidevicecontrol_getmydevicehandle, GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl, GetMyDeviceHandle, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, stiusd/IStiDeviceControl::GetMyDeviceHandle
+ms.keywords: image.istidevicecontrol_getmydevicehandle, GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, GetMyDeviceHandle method [Imaging Devices], stiusd/IStiDeviceControl::GetMyDeviceHandle, IStiDeviceControl, IStiDeviceControl::GetMyDeviceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.GetMyDeviceHandle
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

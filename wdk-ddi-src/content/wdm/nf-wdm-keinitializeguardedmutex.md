@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 28d45b36-c20d-40a5-bdf9-5fb754e36e74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeGuardedMutex, kernel.keinitializeguardedmutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, wdm/KeInitializeGuardedMutex
+ms.keywords: kernel.keinitializeguardedmutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], wdm/KeInitializeGuardedMutex, k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, KeInitializeGuardedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

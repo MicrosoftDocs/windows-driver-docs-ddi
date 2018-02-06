@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: F7E283BB-B714-4CD4-AFF4-EFB62D82791D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CIP_ATTACH_FRAME, *PCIP_ATTACH_FRAME, IEEE.cip_attach_frame, 61883/PCIP_ATTACH_FRAME, _CIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses]
+ms.keywords: IEEE.cip_attach_frame, *PCIP_ATTACH_FRAME, _CIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME, 61883/CIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses], 61883/PCIP_ATTACH_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

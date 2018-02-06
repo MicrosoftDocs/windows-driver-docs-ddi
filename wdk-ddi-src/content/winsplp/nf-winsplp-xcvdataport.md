@@ -7,8 +7,8 @@ old-location: print\xcvdataport.htm
 old-project: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.xcvdataport, XcvDataPort function [Print Devices], spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort, winsplp/XcvDataPort
+ms.date: 2/2/2018
+ms.keywords: XcvDataPort, XcvDataPort function [Print Devices], spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, winsplp/XcvDataPort, print.xcvdataport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,19 +195,19 @@ Validate the contents of the buffer pointed to by the <i>pInputData</i> paramete
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-configureportui.md">ConfigurePortUI</a>
+<a href="..\winsplp\nf-winsplp-deleteportui.md">DeletePortUI</a>
 
 <a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a>
-
-<a href="..\winsplp\nf-winsplp-deleteportui.md">DeletePortUI</a>
 
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
- 
+<a href="..\winsplp\nf-winsplp-configureportui.md">ConfigurePortUI</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20XcvDataPort function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20XcvDataPort function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

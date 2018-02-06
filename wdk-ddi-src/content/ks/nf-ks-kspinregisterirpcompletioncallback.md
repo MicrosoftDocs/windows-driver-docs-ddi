@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], ks/KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback, KsPinRegisterIrpCompletionCallback
+ms.keywords: KsPinRegisterIrpCompletionCallback, ks/KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, stream.kspinregisterirpcompletioncallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,17 +101,17 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-<a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
+
+<a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
  
 

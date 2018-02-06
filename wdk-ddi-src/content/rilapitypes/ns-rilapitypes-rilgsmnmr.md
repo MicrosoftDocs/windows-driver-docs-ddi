@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 397d882d-c82a-4686-b9ca-58a2fade5256
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGSMNMR, rilapitypes/RILGSMNMR, *LPRILGSMNMR, netvista.rilgsmnmr, RILGSMNMR structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilgsmnmr, rilapitypes/RILGSMNMR, *LPRILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], RILGSMNMR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGSMNMR
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGSMNMR, RILGSMNMR"
+req.typenames: RILGSMNMR, *LPRILGSMNMR
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: wdm/FileFsSizeInformation, FileFsSectorSizeInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsAttributeInformation, FileFsDriverPathInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsDriverPathInformation, ifsk.fs_information_class, wdm/FileFsFullSizeInformation, wdm/FileFsDeviceInformation, FileFsFullSizeInformation, wdm/FileFsLabelInformation, *PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsLabelInformation, FileFsSizeInformation, wdm/FileFsVolumeInformation, wdm/FileFsObjectIdInformation, FileFsControlInformation, FileFsVolumeFlagsInformation, wdm/FileFsVolumeFlagsInformation, _FSINFOCLASS, FileFsVolumeInformation, FileFsDeviceInformation, FileFsAttributeInformation, FileFsObjectIdInformation, wdm/FileFsControlInformation
+ms.keywords: FileFsControlInformation, *PFS_INFORMATION_CLASS, wdm/FileFsControlInformation, FileFsDeviceInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsAttributeInformation, FileFsVolumeFlagsInformation, FileFsLabelInformation, FileFsAttributeInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsSizeInformation, FileFsObjectIdInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], wdm/FileFsVolumeInformation, FileFsDriverPathInformation, FileFsVolumeInformation, FS_INFORMATION_CLASS, wdm/FileFsDeviceInformation, wdm/FileFsLabelInformation, FileFsFullSizeInformation, _FSINFOCLASS, wdm/FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, wdm/FileFsFullSizeInformation, wdm/FileFsDriverPathInformation, ifsk.fs_information_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	FS_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS"
+req.typenames: FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

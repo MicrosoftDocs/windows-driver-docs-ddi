@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCreateSystemVolumeInformationFolder, fltkernel/FltCreateSystemVolumeInformationFolder, ifsk.fltcreatesystemvolumeinformationfolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml
+ms.keywords: FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], fltkernel/FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder, FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, ifsk.fltcreatesystemvolumeinformationfolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,9 +112,9 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 <a href="..\ntifs\nf-ntifs-rtlcreatesystemvolumeinformationfolder.md">RtlCreateSystemVolumeInformationFolder</a>
 

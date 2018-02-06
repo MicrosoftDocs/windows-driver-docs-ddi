@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, RtlAppendStringToString, ifsk.rtlappendstringtostring, ntifs/RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers]
+ms.keywords: RtlAppendStringToString, ntifs/RtlAppendStringToString, ifsk.rtlappendstringtostring, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, RtlAppendStringToString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,9 +96,9 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
-
 <a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
 <a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
 

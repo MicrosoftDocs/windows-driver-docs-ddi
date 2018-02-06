@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d223712d-2c77-4bec-b8c0-d677d4caeac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DDICONTENTPROTECTIONCAPS, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, d3dumddi/DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps"
+ms.keywords: d3dumddi/DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, display.ddicontentprotectioncaps, DDICONTENTPROTECTIONCAPS structure [Display Devices], _DDICONTENTPROTECTIONCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

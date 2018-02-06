@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 943ae1dc-cc42-4d6d-b2fb-9af25505e561
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_RATE_SET, *PDOT11_RATE_SET, _DOT11_RATE_SET, DOT11_RATE_SET structure [Network Drivers Starting with Windows Vista], netvista.dot11_rate_set, PDOT11_RATE_SET structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RATE_SET, PDOT11_RATE_SET, Native_802.11_data_types_b2c617a6-b974-4b67-9f33-2ff5a99b55e9.xml, DOT11_RATE_SET
+ms.keywords: netvista.dot11_rate_set, PDOT11_RATE_SET structure pointer [Network Drivers Starting with Windows Vista], DOT11_RATE_SET, windot11/DOT11_RATE_SET, Native_802.11_data_types_b2c617a6-b974-4b67-9f33-2ff5a99b55e9.xml, *PDOT11_RATE_SET, DOT11_RATE_SET structure [Network Drivers Starting with Windows Vista], _DOT11_RATE_SET, windot11/PDOT11_RATE_SET, PDOT11_RATE_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_RATE_SET
 product: Windows
 targetos: Windows
-req.typenames: DOT11_RATE_SET, *PDOT11_RATE_SET
+req.typenames: "*PDOT11_RATE_SET, DOT11_RATE_SET"
 req.product: Windows 10 or later.
 ---
 

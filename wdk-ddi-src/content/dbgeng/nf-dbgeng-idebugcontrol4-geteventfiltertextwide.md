@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, dbgeng/IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide, IDebugControl4, GetEventFilterTextWide method [Windows Debugging]
+ms.keywords: IDebugControl4, dbgeng/IDebugControl4::GetEventFilterTextWide, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide, debugger.geteventfiltertextwide, GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetEventFilterTextWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetEventFilterTextWide method
@@ -134,11 +134,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
  
 

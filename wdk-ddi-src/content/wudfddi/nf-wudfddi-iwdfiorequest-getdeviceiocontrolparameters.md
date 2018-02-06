@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 96de6f7a-da1d-44a6-b1f7-44859312a662
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetDeviceIoControlParameters, IWDFIoRequest::GetDeviceIoControlParameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, umdf.iwdfiorequest_getdeviceiocontrolparameters, IWDFIoRequest interface, GetDeviceIoControlParameters method, GetDeviceIoControlParameters method, IWDFIoRequest interface, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, IWDFIoRequest, GetDeviceIoControlParameters method
+ms.keywords: GetDeviceIoControlParameters method, IWDFIoRequest interface, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, IWDFIoRequest, IWDFIoRequest interface, GetDeviceIoControlParameters method, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters, GetDeviceIoControlParameters method, IWDFIoRequest::GetDeviceIoControlParameters, GetDeviceIoControlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetDeviceIoControlParameters
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -111,11 +111,11 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

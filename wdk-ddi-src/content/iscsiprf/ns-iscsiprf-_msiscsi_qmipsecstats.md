@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 265ed956-1065-44be-ac8e-94bab2e4e8b8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_QMIPSECStats, _MSiSCSI_QMIPSECStats, iscsiprf/PMSiSCSI_QMIPSECStats, structs-iSCSI_979ce8ac-35be-4ac1-930a-6614053fc805.xml, storage.msiscsi_qmipsecstats, *PMSiSCSI_QMIPSECStats, MSiSCSI_QMIPSECStats structure [Storage Devices], PMSiSCSI_QMIPSECStats structure pointer [Storage Devices], PMSiSCSI_QMIPSECStats, iscsiprf/MSiSCSI_QMIPSECStats
+ms.keywords: MSiSCSI_QMIPSECStats, PMSiSCSI_QMIPSECStats structure pointer [Storage Devices], _MSiSCSI_QMIPSECStats, structs-iSCSI_979ce8ac-35be-4ac1-930a-6614053fc805.xml, iscsiprf/PMSiSCSI_QMIPSECStats, storage.msiscsi_qmipsecstats, MSiSCSI_QMIPSECStats structure [Storage Devices], iscsiprf/MSiSCSI_QMIPSECStats, *PMSiSCSI_QMIPSECStats, PMSiSCSI_QMIPSECStats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmConnectorTypeCDetach method [Buses], buses.ucmconnectortypecdetach, UcmConnectorTypeCDetach, ucmmanager/UcmConnectorTypeCDetach
+ms.keywords: UcmConnectorTypeCDetach method [Buses], ucmmanager/UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach, UcmConnectorTypeCDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UcmConnectorTypeCDetach
 product: Windows
 targetos: Windows
-req.typenames: "*PPORT_DATA_1, PORT_DATA_1"
+req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3e7d8dd5-4336-472e-a71f-8abb946af8be
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Start method, UMDFQueueObjectRef_d53b70a8-b022-4e2c-aa3d-d29aac4695ad.xml, IWDFIoQueue interface, Start method, IWDFIoQueue::Start, umdf.iwdfioqueue_start, wdf.iwdfioqueue_start, wudfddi/IWDFIoQueue::Start, Start, Start method, IWDFIoQueue interface, IWDFIoQueue
+ms.keywords: wudfddi/IWDFIoQueue::Start, Start method, IWDFIoQueue interface, IWDFIoQueue, umdf.iwdfioqueue_start, Start, wdf.iwdfioqueue_start, UMDFQueueObjectRef_d53b70a8-b022-4e2c-aa3d-d29aac4695ad.xml, Start method, IWDFIoQueue::Start, IWDFIoQueue interface, Start method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.Start
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d1f8f38-b875-4661-9941-4dec28b7e8fb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_REUSE_FLAGS enumeration, wdf.wdf_request_reuse_flags, WDF_REQUEST_REUSE_SET_NEW_IRP, WDF_REQUEST_REUSE_NO_FLAGS, _WDF_REQUEST_REUSE_FLAGS, wdfrequest/WDF_REQUEST_REUSE_FLAGS, wdfrequest/WDF_REQUEST_REUSE_SET_NEW_IRP, kmdf.wdf_request_reuse_flags, wdfrequest/WDF_REQUEST_REUSE_NO_FLAGS, DFRequestObjectRef_4b91ca45-4dbb-4942-83ce-72ca10170932.xml, WDF_REQUEST_REUSE_FLAGS
+ms.keywords: WDF_REQUEST_REUSE_NO_FLAGS, WDF_REQUEST_REUSE_FLAGS, WDF_REQUEST_REUSE_SET_NEW_IRP, kmdf.wdf_request_reuse_flags, wdfrequest/WDF_REQUEST_REUSE_SET_NEW_IRP, wdfrequest/WDF_REQUEST_REUSE_NO_FLAGS, _WDF_REQUEST_REUSE_FLAGS, wdfrequest/WDF_REQUEST_REUSE_FLAGS, wdf.wdf_request_reuse_flags, WDF_REQUEST_REUSE_FLAGS enumeration, DFRequestObjectRef_4b91ca45-4dbb-4942-83ce-72ca10170932.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

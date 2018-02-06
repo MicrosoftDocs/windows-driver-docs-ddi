@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CcSetLogHandleForFile routine [Installable File System Drivers], ntifs/CcSetLogHandleForFile, ifsk.ccsetloghandleforfile, LogHandle, Lsn, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, CcSetLogHandleForFile
+ms.keywords: LogHandle, ntifs/CcSetLogHandleForFile, CcSetLogHandleForFile, ifsk.ccsetloghandleforfile, CcSetLogHandleForFile routine [Installable File System Drivers], ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, Lsn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,9 +123,9 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
 <a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
  
 

@@ -7,8 +7,8 @@ old-location: print\oemquerydevicesupport.htm
 old-project: print
 ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMQueryDeviceSupport, printoem/OEMQueryDeviceSupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport
+ms.date: 2/2/2018
+ms.keywords: printoem/OEMQueryDeviceSupport, print.oemquerydevicesupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

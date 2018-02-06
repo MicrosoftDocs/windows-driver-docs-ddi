@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F56D4984-B159-4068-8081-3E2457E50998
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_TS_SELECTORINFO_ISDBS_EXT, stream.bda_ts_selectorinfo_isdbs_ext, BDA_TS_SELECTORINFO_ISDBS_EXT, _BDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT structure [Streaming Media Devices], bdatypes/PBDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT structure pointer [Streaming Media Devices], bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT
+ms.keywords: BDA_TS_SELECTORINFO_ISDBS_EXT structure [Streaming Media Devices], stream.bda_ts_selectorinfo_isdbs_ext, *PBDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT, _BDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT structure pointer [Streaming Media Devices], bdatypes/PBDA_TS_SELECTORINFO_ISDBS_EXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_TS_SELECTORINFO_ISDBS_EXT
 product: Windows
 targetos: Windows
-req.typenames: BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT
+req.typenames: "*PBDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT"
 ---
 
 # _BDA_TS_SELECTORINFO_ISDBS_EXT structure

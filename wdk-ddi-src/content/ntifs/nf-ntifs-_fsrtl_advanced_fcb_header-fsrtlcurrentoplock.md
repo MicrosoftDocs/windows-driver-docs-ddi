@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b7cf8765-6f24-4b65-9171-6bfad7214013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml, FsRtlCurrentOplock, ntifs/FsRtlCurrentOplock, ifsk.fsrtlcurrentoplock, FsRtlCurrentOplock function [Installable File System Drivers]
+ms.keywords: fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml, ifsk.fsrtlcurrentoplock, FsRtlCurrentOplock function [Installable File System Drivers], ntifs/FsRtlCurrentOplock, FsRtlCurrentOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

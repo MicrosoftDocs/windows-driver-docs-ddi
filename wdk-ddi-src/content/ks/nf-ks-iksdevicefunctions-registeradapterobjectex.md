@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e5dc54a6-e26a-455b-9990-92f5cfece923
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RegisterAdapterObjectEx method [Streaming Media Devices], avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, IKsDeviceFunctions, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method, stream.iksdevicefunctions_registeradapterobjectex
+ms.keywords: stream.iksdevicefunctions_registeradapterobjectex, RegisterAdapterObjectEx method [Streaming Media Devices], RegisterAdapterObjectEx, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, IKsDeviceFunctions, IKsDeviceFunctions::RegisterAdapterObjectEx, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

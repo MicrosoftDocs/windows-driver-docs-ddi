@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e387418-a37c-492b-8ee4-b6ff8f0e53b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, storport/PSTOR_SCATTER_GATHER_ELEMENT, _STOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], storport/STOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], PSTOR_SCATTER_GATHER_ELEMENT, structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml, *PSTOR_SCATTER_GATHER_ELEMENT
+ms.keywords: "_STOR_SCATTER_GATHER_ELEMENT, storport/STOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], *PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, PSTOR_SCATTER_GATHER_ELEMENT, storport/PSTOR_SCATTER_GATHER_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_SCATTER_GATHER_ELEMENT
 product: Windows
 targetos: Windows
-req.typenames: STOR_SCATTER_GATHER_ELEMENT, *PSTOR_SCATTER_GATHER_ELEMENT
+req.typenames: "*PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT"
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,9 @@ Miniport drivers used with the Storport driver retrieve an array of these struct
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetscattergatherlist.md">StorPortGetScatterGatherList</a>
-
 <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
+
+<a href="..\storport\nf-storport-storportgetscattergatherlist.md">StorPortGetScatterGatherList</a>
 
  
 

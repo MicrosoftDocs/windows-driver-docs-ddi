@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_BufferDescription structure pointer [Display Devices], dxva/DXVA_BufferDescription, display.dxva_bufferdescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml, LPDXVA_BufferDescription, dxva/LPDXVA_BufferDescription, _DXVA_BufferDescription, *LPDXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], DXVA_BufferDescription
+ms.keywords: dxva/LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], DXVA_BufferDescription structure [Display Devices], dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml, *LPDXVA_BufferDescription, LPDXVA_BufferDescription, DXVA_BufferDescription, dxva/DXVA_BufferDescription, display.dxva_bufferdescription, _DXVA_BufferDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

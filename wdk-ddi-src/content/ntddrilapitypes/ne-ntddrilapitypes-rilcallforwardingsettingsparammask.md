@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0da4e19f-9e7b-4986-bdb1-fc59e177f3fa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLFORWARDINGSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CFS_INFOCLASSES, RIL_PARAM_CFS_ADDRESS, ntddrilapitypes/RIL_PARAM_CFS_ADDRESS, RIL_PARAM_CFS_ALL, RIL_PARAM_CFS_SUBADDRESS, ntddrilapitypes/RIL_PARAM_CFS_ALL, netvista.rilcallforwardingsettingsparammask, RIL_PARAM_CFS_INFOCLASSES, ntddrilapitypes/RIL_PARAM_CFS_SUBADDRESS, RIL_PARAM_CFS_DELAYTIME, ntddrilapitypes/RIL_PARAM_CFS_DELAYTIME, RILCALLFORWARDINGSETTINGSPARAMMASK, ntddrilapitypes/RILCALLFORWARDINGSETTINGSPARAMMASK
+ms.keywords: RIL_PARAM_CFS_DELAYTIME, RIL_PARAM_CFS_ALL, ntddrilapitypes/RIL_PARAM_CFS_DELAYTIME, ntddrilapitypes/RIL_PARAM_CFS_ALL, netvista.rilcallforwardingsettingsparammask, RIL_PARAM_CFS_SUBADDRESS, ntddrilapitypes/RIL_PARAM_CFS_SUBADDRESS, ntddrilapitypes/RIL_PARAM_CFS_ADDRESS, RIL_PARAM_CFS_INFOCLASSES, ntddrilapitypes/RIL_PARAM_CFS_INFOCLASSES, ntddrilapitypes/RILCALLFORWARDINGSETTINGSPARAMMASK, RIL_PARAM_CFS_ADDRESS, RILCALLFORWARDINGSETTINGSPARAMMASK, RILCALLFORWARDINGSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

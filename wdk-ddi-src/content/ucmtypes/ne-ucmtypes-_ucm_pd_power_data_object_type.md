@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FCDD6B04-339D-4BBA-9D19-AE74CCB27666
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery, buses.ucm_pd_power_data_object_type, _UCM_PD_POWER_DATA_OBJECT_TYPE, UcmPdPdoTypeBatterySupply, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeFixedSupply, UcmPdPdoTypeFixedSupply, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeBatterySupply, UcmPdPdoTypeVariableSupplyNonBattery
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, buses.ucm_pd_power_data_object_type, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery, UcmPdPdoTypeBatterySupply, _UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeBatterySupply, UcmPdPdoTypeVariableSupplyNonBattery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

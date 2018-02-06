@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87317972-b0df-4691-a9a5-bd0bbc150e53
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.tape_set_drive_parameters, structs-tape_621b7e53-4f98-4fad-9f75-28420dc78031.xml, TAPE_SET_DRIVE_PARAMETERS, ntddtape/TAPE_SET_DRIVE_PARAMETERS, ntddtape/PTAPE_SET_DRIVE_PARAMETERS, PTAPE_SET_DRIVE_PARAMETERS structure pointer [Storage Devices], PTAPE_SET_DRIVE_PARAMETERS, _TAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS structure [Storage Devices], *PTAPE_SET_DRIVE_PARAMETERS
+ms.keywords: ntddtape/PTAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS, structs-tape_621b7e53-4f98-4fad-9f75-28420dc78031.xml, ntddtape/TAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS structure [Storage Devices], PTAPE_SET_DRIVE_PARAMETERS, _TAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS, storage.tape_set_drive_parameters, PTAPE_SET_DRIVE_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

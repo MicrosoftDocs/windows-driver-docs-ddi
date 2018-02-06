@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: faffa053-0382-415c-8f61-ee9121839598
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltDeleteFileContext routine [Installable File System Drivers], FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml, ifsk.fltdeletefilecontext, FltDeleteFileContext, fltkernel/FltDeleteFileContext
+ms.keywords: FltDeleteFileContext routine [Installable File System Drivers], FltDeleteFileContext, fltkernel/FltDeleteFileContext, ifsk.fltdeletefilecontext, FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,21 +149,21 @@ To determine whether file contexts are supported for a given file, call <a href=
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontextsex.md">FltSupportsFileContextsEx</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetfilecontext.md">FltGetFileContext</a>
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a>
+
 <a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontextsex.md">FltSupportsFileContextsEx</a>
 
  
 

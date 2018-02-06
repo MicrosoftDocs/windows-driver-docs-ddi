@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a3552042-15e6-4778-8026-a4b615228dc7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCchVPrintfW, RtlStringCchVPrintfA, RtlStringCchVPrintfW, RtlStringCchVPrintf, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, ntstrsafe/RtlStringCchVPrintfA, kernel.rtlstringcchvprintf, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlStringCchVPrintfW, RtlStringCchVPrintfA, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchVPrintfW, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, kernel.rtlstringcchvprintf, RtlStringCchVPrintf, ntstrsafe/RtlStringCchVPrintfA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchVPrintfW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCchVPrintfW function

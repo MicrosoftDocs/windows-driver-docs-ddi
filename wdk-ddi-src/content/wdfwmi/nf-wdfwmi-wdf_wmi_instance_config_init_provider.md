@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6509fded-c244-4d86-9b20-23790ec58f4a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, kmdf.wdf_wmi_instance_config_init_provider, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml, wdf.wdf_wmi_instance_config_init_provider
+ms.keywords: wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, wdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml, kmdf.wdf_wmi_instance_config_init_provider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,13 +103,13 @@ Your driver should call <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</b> to initiali
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</a>
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</a>
-
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
  
 

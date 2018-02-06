@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, stream.ksproperty_cameracontrol_flash, KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_FLASH
+ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, stream.ksproperty_cameracontrol_flash, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, KSPROPERTY_CAMERACONTROL_FLASH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

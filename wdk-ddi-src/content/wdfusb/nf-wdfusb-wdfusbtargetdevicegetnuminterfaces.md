@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d81bdeeb-07de-483d-9803-3577f1076e28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, kmdf.wdfusbtargetdevicegetnuminterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, WdfUsbTargetDeviceGetNumInterfaces method, wdfusb/WdfUsbTargetDeviceGetNumInterfaces, PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, WdfUsbTargetDeviceGetNumInterfaces
+ms.keywords: wdfusb/WdfUsbTargetDeviceGetNumInterfaces, WdfUsbTargetDeviceGetNumInterfaces method, kmdf.wdfusbtargetdevicegetnuminterfaces, WdfUsbTargetDeviceGetNumInterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

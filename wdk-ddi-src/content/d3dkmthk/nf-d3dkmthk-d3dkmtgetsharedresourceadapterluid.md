@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 880bf5bd-eadc-480f-a10c-f6d57f670857
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtgetsharedresourceadapterluid, D3DKMTGetSharedResourceAdapterLuid, D3DKMTGetSharedResourceAdapterLuid function [Display Devices], d3dkmthk/D3DKMTGetSharedResourceAdapterLuid
+ms.keywords: display.d3dkmtgetsharedresourceadapterluid, D3DKMTGetSharedResourceAdapterLuid function [Display Devices], d3dkmthk/D3DKMTGetSharedResourceAdapterLuid, D3DKMTGetSharedResourceAdapterLuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

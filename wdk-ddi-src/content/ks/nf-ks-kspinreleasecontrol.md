@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ead50a69-fe33-4e6c-84f9-98491d188140
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices], stream.kspinreleasecontrol, avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, KsPinReleaseControl
+ms.keywords: KsPinReleaseControl function [Streaming Media Devices], KsPinReleaseControl, ks/KsPinReleaseControl, avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, stream.kspinreleasecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,11 @@ Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
  
 

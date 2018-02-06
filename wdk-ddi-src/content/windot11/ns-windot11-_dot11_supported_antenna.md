@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55a9c9e0-24e2-436f-9132-77ae1bab7c2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, windot11/DOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, PDOT11_SUPPORTED_ANTENNA, _DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, windot11/PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_ANTENNA, *PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA, Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, windot11/DOT11_SUPPORTED_ANTENNA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SUPPORTED_ANTENNA
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA"
+req.typenames: DOT11_SUPPORTED_ANTENNA, *PDOT11_SUPPORTED_ANTENNA
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,11 @@ The meaning of the
 
 ## -see-also
 
+<a href="..\windot11\ns-windot11-_dot11_supported_antenna_list.md">DOT11_SUPPORTED_ANTENNA_LIST</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
-
-<a href="..\windot11\ns-windot11-_dot11_supported_antenna_list.md">DOT11_SUPPORTED_ANTENNA_LIST</a>
 
  
 

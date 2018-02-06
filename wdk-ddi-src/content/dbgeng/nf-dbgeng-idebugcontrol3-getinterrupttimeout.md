@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8faf167e-3110-453f-8234-32dfa543b520
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetInterruptTimeout method, IDebugControl2 interface [Windows Debugging], GetInterruptTimeout method, dbgeng/IDebugControl2::GetInterruptTimeout, dbgeng/IDebugControl3::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, GetInterruptTimeout method [Windows Debugging], IDebugControl::GetInterruptTimeout, IDebugControl3, dbgeng/IDebugControl::GetInterruptTimeout, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, IDebugControl3 interface [Windows Debugging], GetInterruptTimeout method, GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetInterruptTimeout, debugger.getinterrupttimeout, IDebugControl3::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl interface
+ms.keywords: IDebugControl::GetInterruptTimeout, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, IDebugControl3::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl interface, debugger.getinterrupttimeout, IDebugControl2 interface [Windows Debugging], GetInterruptTimeout method, IDebugControl2::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetInterruptTimeout method, dbgeng/IDebugControl3::GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], dbgeng/IDebugControl2::GetInterruptTimeout, dbgeng/IDebugControl::GetInterruptTimeout, IDebugControl3, IDebugControl interface [Windows Debugging], GetInterruptTimeout method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetInterruptTimeout
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetInterruptTimeout method
@@ -109,17 +109,17 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556725">SetInterruptTimeout</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
 
  
 

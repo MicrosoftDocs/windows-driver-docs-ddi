@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ab8c19c8-73c0-4c70-9a5d-9cf9d182157d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], dbgeng/IDebugSymbolGroup::OutputAsType, OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, debugger.outputastype
+ms.keywords: OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup::OutputAsType, IDebugSymbolGroup2, OutputAsType method [Windows Debugging], OutputAsType, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup::OutputAsType, IDebugSymbolGroup2::OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup2::OutputAsType, debugger.outputastype, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.OutputAsType
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbolGroup2::OutputAsType method
@@ -117,13 +117,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

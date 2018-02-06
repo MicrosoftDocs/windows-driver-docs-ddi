@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 693CB919-A1D1-4A82-ABE5-2362431A9B92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetSystemByServer, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, GetSystemByServer
+ms.keywords: IDebugSystemObjects3::GetSystemByServer, IDebugSystemObjects3, debugger.idebugsystemobjects3_getsystembyserver, GetSystemByServer, GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, dbgeng/IDebugSystemObjects3::GetSystemByServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSystemObjects3.GetSystemByServer
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects3::GetSystemByServer method
@@ -121,9 +121,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 545a5014-aa07-49ee-92b7-2ae95f4ce785
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgroupmaxprocessorcount, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], NdisGroupMaxProcessorCount, ndis/NdisGroupMaxProcessorCount, ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml
+ms.keywords: NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml, ndis/NdisGroupMaxProcessorCount, netvista.ndisgroupmaxprocessorcount, NdisGroupMaxProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,10 +104,10 @@ An NDIS driver might call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+
 <a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
    NdisGroupActiveProcessorCount</a>
-
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
  
 

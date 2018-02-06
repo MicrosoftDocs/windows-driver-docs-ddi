@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4c217cf8-ca93-4e5d-8cbc-c56794f96d50
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices], ksmedia/KS_AMVPDATAINFO, tagKS_AMVPDATAINFO, stream.ks_amvpdatainfo, dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, ksmedia/PKS_AMVPDATAINFO, KS_AMVPDATAINFO, PKS_AMVPDATAINFO, PKS_AMVPDATAINFO structure pointer [Streaming Media Devices]"
+ms.keywords: PKS_AMVPDATAINFO structure pointer [Streaming Media Devices], PKS_AMVPDATAINFO, dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, tagKS_AMVPDATAINFO, *PKS_AMVPDATAINFO, stream.ks_amvpdatainfo, ksmedia/PKS_AMVPDATAINFO, KS_AMVPDATAINFO, ksmedia/KS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

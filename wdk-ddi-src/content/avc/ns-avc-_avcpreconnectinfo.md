@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, *PAVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], avc/AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], AVCPRECONNECTINFO, stream.avcpreconnectinfo, _AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO
+ms.keywords: PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], stream.avcpreconnectinfo, avc/PAVCPRECONNECTINFO, PAVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], *PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, AVCPRECONNECTINFO, avc/AVCPRECONNECTINFO, _AVCPRECONNECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVCPRECONNECTINFO
 product: Windows
 targetos: Windows
-req.typenames: AVCPRECONNECTINFO, *PAVCPRECONNECTINFO
+req.typenames: "*PAVCPRECONNECTINFO, AVCPRECONNECTINFO"
 ---
 
 # _AVCPRECONNECTINFO structure
@@ -113,9 +113,9 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
-
 <a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
+
+<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
 
  
 

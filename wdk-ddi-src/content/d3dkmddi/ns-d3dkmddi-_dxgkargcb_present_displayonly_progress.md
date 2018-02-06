@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3849df0-0794-43fe-ba29-6daa8461cd9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, display.dxgkargcb_present_displayonly_progress, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices]"
+ms.keywords: display.dxgkargcb_present_displayonly_progress, d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices], DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

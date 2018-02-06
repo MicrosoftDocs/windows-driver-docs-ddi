@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], display.dxgkarg_issupportedvidpn, _DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml
+ms.keywords: "_DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn, DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70b406f8-d9ac-4882-89bc-e257cbe06921
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortStallExecution, display.videoportstallexecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, video/VideoPortStallExecution
+ms.keywords: display.videoportstallexecution, VideoPortStallExecution, video/VideoPortStallExecution, VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, VideoPortStallExecution function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,15 @@ If a miniport driver has work to be done at regular intervals of more than 50 mi
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
-
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
 
 <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
 
  
 

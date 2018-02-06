@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8c39a62d-0c05-4d26-b104-90c436e821cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/InterlockedExchangePointer, kernel.interlockedexchangepointer, InterlockedExchangePointer, k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture]
+ms.keywords: InterlockedExchangePointer, wdm/InterlockedExchangePointer, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture], kernel.interlockedexchangepointer, k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, netvista.dot11_phy_attributes, windot11/PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES
+ms.keywords: Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, *PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_PHY_ATTRIBUTES, netvista.dot11_phy_attributes, DOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES, windot11/DOT11_PHY_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PHY_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES"
+req.typenames: DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -160,6 +160,11 @@ For more information about these members, see
       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
 #### Revision
 
 This member must be set to DOT11_PHY_ATTRIBUTES_REVISION_1.
@@ -169,11 +174,6 @@ This member must be set to DOT11_PHY_ATTRIBUTES_REVISION_1.
 
 This member must be set to 
         sizeof(DOT11_PHY_ATTRIBUTES).
-
-
-#### Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 ### -field PhyType
@@ -235,20 +235,6 @@ The PHY's type of antenna diversity, defined through a
       value.
 
 
-#### - DataRateMappingEntries
-
-An array of the data rates supported by the PHY. Each entry is formatted as a 
-      <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
-      DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
-
-
-#### - ERPAttributes
-
-The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
-       member only if the 
-       <b>PhyType</b> member is set to dot11_phy_type_erp.
-
-
 #### - HRDSSSAttributes
 
 The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
@@ -261,6 +247,39 @@ The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDS
 The PHY-specific attributes of an orthogonal frequency division multiplexing (OFDM) PHY type. The
        miniport driver must use this member only if the 
        <b>PhyType</b> member is set to dot11_phy_type_ofdm.
+
+
+#### - ERPAttributes
+
+The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
+       member only if the 
+       <b>PhyType</b> member is set to dot11_phy_type_erp.
+
+
+#### - uNumberSupportedPowerLevels
+
+The number of power levels within the 
+      <b>TxPowerLevels</b> array. 
+      <b>uNumOfSupportedPowerLevels</b> must have a value from 1 through 8.
+
+
+#### - TxPowerLevels
+
+An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
+      be a value from 0 through 1000.
+
+
+#### - uNumDataRateMappingEntries
+
+The number of data rates within the 
+      <b>DataRateMappingEntries</b> array.
+
+
+#### - DataRateMappingEntries
+
+An array of the data rates supported by the PHY. Each entry is formatted as a 
+      <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
+      DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
 
 
 #### - SupportedDataRatesValue
@@ -277,25 +296,6 @@ The receive data rates supported by the PLCP and PMD of the PHY.
 
 </li>
 </ul>Each entry in the array is formatted as a DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure.
-
-
-#### - TxPowerLevels
-
-An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
-      be a value from 0 through 1000.
-
-
-#### - uNumDataRateMappingEntries
-
-The number of data rates within the 
-      <b>DataRateMappingEntries</b> array.
-
-
-#### - uNumberSupportedPowerLevels
-
-The number of power levels within the 
-      <b>TxPowerLevels</b> array. 
-      <b>uNumOfSupportedPowerLevels</b> must have a value from 1 through 8.
 
 
 ## -remarks
@@ -315,33 +315,33 @@ The
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
+<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
 
 <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
 
-<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
+<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
-<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
-   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
-
-<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
+<a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a>
+
+<a href="..\windot11\ns-windot11-dot11_ofdm_phy_attributes.md">DOT11_OFDM_PHY_ATTRIBUTES</a>
+
+<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
+   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
 
 <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
-
-<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
 
  
 

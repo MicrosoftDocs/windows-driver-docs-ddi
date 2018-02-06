@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0A8216B2-822D-4157-876E-AA0A1A9D6D3F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapIoSpace, MmMapIoSpaceEx, kernel.mmmapiospaceex, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace
+ms.keywords: MmMapIoSpace, MmMapIoSpaceEx, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace, kernel.mmmapiospaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,9 +149,9 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-
 <a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
+
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
 

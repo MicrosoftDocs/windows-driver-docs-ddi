@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 416c4de2-f200-491a-a319-fb0a4fd86f86
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::SetSpecificFilterArgumentWide, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], debugger.setspecificfilterargumentwide, IDebugControl4 interface [Windows Debugging], SetSpecificFilterArgumentWide method, SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, SetSpecificFilterArgumentWide
+ms.keywords: dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, IDebugControl4, IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], SetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], SetSpecificFilterArgumentWide method, debugger.setspecificfilterargumentwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.SetSpecificFilterArgumentWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::SetSpecificFilterArgumentWide method
@@ -124,9 +124,9 @@ For a list of specific filters that have argument and the interpretation of thos
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548386">GetSpecificFilterArgument</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548386">GetSpecificFilterArgument</a>
 
  
 

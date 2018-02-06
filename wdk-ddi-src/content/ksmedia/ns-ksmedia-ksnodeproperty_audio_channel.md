@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f76f5552-725b-4d8c-ab29-1f2de7bdc81f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PKSNODEPROPERTY_AUDIO_CHANNEL, aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], *PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices], KSNODEPROPERTY_AUDIO_CHANNEL, ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL, audio.ksnodeproperty_audio_channel, ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL
+ms.keywords: PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL, aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices], ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL, ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL, audio.ksnodeproperty_audio_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSNODEPROPERTY_AUDIO_CHANNEL
 product: Windows
 targetos: Windows
-req.typenames: KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL
+req.typenames: "*PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL"
 ---
 
 # KSNODEPROPERTY_AUDIO_CHANNEL structure
@@ -88,9 +88,9 @@ Reserved for internal use by operating system. Do not use.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
 
  
 

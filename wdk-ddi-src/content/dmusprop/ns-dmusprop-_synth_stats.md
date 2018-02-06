@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSYNTH_STATS structure pointer [Audio Devices], dmusprop/PSYNTH_STATS, SYNTH_STATS, SYNTH_STATS structure [Audio Devices], PSYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, audio.synth_stats, _SYNTH_STATS, dmusprop/SYNTH_STATS, *PSYNTH_STATS
+ms.keywords: dmusprop/PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], *PSYNTH_STATS, audio.synth_stats, dmusprop/SYNTH_STATS, PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], _SYNTH_STATS, SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,14 +80,19 @@ Specifies which members of the SYNTH_STATS structure contain valid data. This me
 
 
 
+#### SYNTH_STATS_VOICES
+
+The <b>Voices</b> field contains valid data.
+
+
+#### SYNTH_STATS_TOTAL_CPU
+
+The <b>TotalCPU</b> field contains valid data.
+
+
 #### SYNTH_STATS_CPU_PER_VOICE
 
 The <b>CPUPerVoice</b> field contains valid data.
-
-
-#### SYNTH_STATS_FREE_MEMORY
-
-The <b>FreeMemory</b> field contains valid data.
 
 
 #### SYNTH_STATS_LOST_NOTES
@@ -100,14 +105,9 @@ The <b>LostNotes </b>field contains valid data.
 The <b>PeakVolume </b>field contains valid data.
 
 
-#### SYNTH_STATS_TOTAL_CPU
+#### SYNTH_STATS_FREE_MEMORY
 
-The <b>TotalCPU</b> field contains valid data.
-
-
-#### SYNTH_STATS_VOICES
-
-The <b>Voices</b> field contains valid data.
+The <b>FreeMemory</b> field contains valid data.
 
 
 ### -field Voices

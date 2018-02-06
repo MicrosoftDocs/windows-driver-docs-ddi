@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a017f0b7-8f4f-4797-96de-10137cb3443e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/KsOpenDefaultDevice, stream.ksopendefaultdevice, KsOpenDefaultDevice, KsOpenDefaultDevice function [Streaming Media Devices], ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml
+ms.keywords: ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, KsOpenDefaultDevice, stream.ksopendefaultdevice, KsOpenDefaultDevice function [Streaming Media Devices], ksproxy/KsOpenDefaultDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

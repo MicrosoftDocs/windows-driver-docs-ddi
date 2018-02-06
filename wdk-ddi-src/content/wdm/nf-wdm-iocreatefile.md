@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928f16d4-19cb-4d80-96a6-d25357bfdc30
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCreateFile, kernel.iocreatefile, IoCreateFile routine [Kernel-Mode Driver Architecture], wdm/IoCreateFile, k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml
+ms.keywords: k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, IoCreateFile routine [Kernel-Mode Driver Architecture], wdm/IoCreateFile, kernel.iocreatefile, IoCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

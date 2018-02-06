@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66322f97-e249-4337-b228-826ab4728220
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UMTSKIND_HSPAPLUS, rilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, RIL_UMTSKIND_HSPAPLUS_64QAM, netvista.rilumtskind_2, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UMTSKIND_MAX, rilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, RIL_UMTSKIND_MAX, RILUMTSKIND, rilapitypes/RIL_UMTSKIND_HSDPA, rilapitypes/RILUMTSKIND, RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_DC_HSPAPLUS, rilapitypes/RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_HSPAPLUS, RIL_UMTSKIND_HSDPA
+ms.keywords: RIL_UMTSKIND_MAX, rilapitypes/RIL_UMTSKIND_HSDPA, RIL_UMTSKIND_DC_HSPAPLUS, rilapitypes/RIL_UMTSKIND_HSPAPLUS_64QAM, RILUMTSKIND, RIL_UMTSKIND_HSPAPLUS_64QAM, rilapitypes/RIL_UMTSKIND_DC_HSPAPLUS, rilapitypes/RIL_UMTSKIND_MAX, netvista.rilumtskind_2, rilapitypes/RILUMTSKIND, RIL_UMTSKIND_HSUPA, RILUMTSKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UMTSKIND_HSPAPLUS, rilapitypes/RIL_UMTSKIND_HSUPA, RIL_UMTSKIND_HSPAPLUS, RIL_UMTSKIND_HSDPA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1f66d3ed-7215-4fb5-87df-4489c3cd03c6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedOr routine [Kernel-Mode Driver Architecture], wdm/InterlockedOr, InterlockedOr, k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, kernel.interlockedor
+ms.keywords: kernel.interlockedor, k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, InterlockedOr routine [Kernel-Mode Driver Architecture], InterlockedOr, wdm/InterlockedOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

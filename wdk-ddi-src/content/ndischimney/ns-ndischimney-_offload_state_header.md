@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9becc611-ede9-4285-b2d7-c53747d098a9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OFFLOAD_STATE_HEADER, ndischimney/OFFLOAD_STATE_HEADER, tcp_chim_struct_83829bba-2901-4b98-ba4a-4ca2fe20fc25.xml, _OFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER structure [Network Drivers Starting with Windows Vista], ndischimney/POFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER structure pointer [Network Drivers Starting with Windows Vista], *POFFLOAD_STATE_HEADER, netvista.offload_state_header
+ms.keywords: POFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_STATE_HEADER structure [Network Drivers Starting with Windows Vista], netvista.offload_state_header, *POFFLOAD_STATE_HEADER, ndischimney/OFFLOAD_STATE_HEADER, ndischimney/POFFLOAD_STATE_HEADER, tcp_chim_struct_83829bba-2901-4b98-ba4a-4ca2fe20fc25.xml, _OFFLOAD_STATE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_STATE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_STATE_HEADER, *POFFLOAD_STATE_HEADER
+req.typenames: "*POFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER"
 ---
 
 # _OFFLOAD_STATE_HEADER structure

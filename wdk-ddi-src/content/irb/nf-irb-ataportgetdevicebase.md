@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetDeviceBase routine [Storage Devices], storage.ataportgetdevicebase, AtaPortGetDeviceBase, irb/AtaPortGetDeviceBase, atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml
+ms.keywords: AtaPortGetDeviceBase routine [Storage Devices], AtaPortGetDeviceBase, irb/AtaPortGetDeviceBase, atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, storage.ataportgetdevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

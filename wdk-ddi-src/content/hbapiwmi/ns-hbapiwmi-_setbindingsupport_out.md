@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b37780-0b33-4af9-9634-571b49be5791
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSetBindingSupport_OUT, SetBindingSupport_OUT, hbapiwmi/SetBindingSupport_OUT, PSetBindingSupport_OUT, structs-Fibre_95e0c3db-69d5-406f-98ea-6554eed922ef.xml, SetBindingSupport_OUT structure [Storage Devices], PSetBindingSupport_OUT structure pointer [Storage Devices], _SetBindingSupport_OUT, storage.setbindingsupport_out, *PSetBindingSupport_OUT
+ms.keywords: SetBindingSupport_OUT structure [Storage Devices], SetBindingSupport_OUT, _SetBindingSupport_OUT, *PSetBindingSupport_OUT, hbapiwmi/PSetBindingSupport_OUT, storage.setbindingsupport_out, PSetBindingSupport_OUT, hbapiwmi/SetBindingSupport_OUT, structs-Fibre_95e0c3db-69d5-406f-98ea-6554eed922ef.xml, PSetBindingSupport_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetBindingSupport_OUT
 product: Windows
 targetos: Windows
-req.typenames: SetBindingSupport_OUT, *PSetBindingSupport_OUT
+req.typenames: "*PSetBindingSupport_OUT, SetBindingSupport_OUT"
 ---
 
 # _SetBindingSupport_OUT structure

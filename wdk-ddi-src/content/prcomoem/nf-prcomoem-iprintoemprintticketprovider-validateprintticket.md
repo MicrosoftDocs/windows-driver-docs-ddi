@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, ValidatePrintTicket, IPrintOemPrintTicketProvider, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket
+ms.date: 2/2/2018
+ms.keywords: print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider, ValidatePrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

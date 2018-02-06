@@ -223,14 +223,14 @@ The <b>Status</b> member is set to STATUS_SUCCESS on success if the \\server\sha
 If the network redirector is unable to resolve a prefix, it must return an NTSTATUS code that closely matches the intended semantics from the above list of recommended NTSTATUS codes. A network redirector must not return the actual encountered error (STATUS_CONNECTION_REFUSED, for example) directly to MUP if the NTSTATUS code is not from the above list. 
 
 
-#### -STATUS_BAD_NETWORK_NAME
-
-The specified share name cannot be found on the remote server. The machine name (\\server, for example) is valid, but the specified share name cannot be found on the remote server.
-
-
 #### -STATUS_BAD_NETWORK_PATH
 
 The network path cannot be located. The machine name (\\server, for example) is not valid or the network redirector cannot resolve the machine name (using whatever name resolution mechanisms are available). 
+
+
+#### -STATUS_BAD_NETWORK_NAME
+
+The specified share name cannot be found on the remote server. The machine name (\\server, for example) is valid, but the specified share name cannot be found on the remote server.
 
 
 #### -STATUS_INSUFFICIENT_RESOURCES
@@ -275,13 +275,13 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
-
 <a href="..\ntifs\ni-ntifs-ioctl_redir_query_path.md">IOCTL_REDIR_QUERY_PATH</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
+
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
 
  
 

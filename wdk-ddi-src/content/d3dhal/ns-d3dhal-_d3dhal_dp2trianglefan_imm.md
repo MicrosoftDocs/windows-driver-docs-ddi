@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2f6f184-1178-4578-aafa-0bd088d42634
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2trianglefan_imm, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, LPD3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, _D3DHAL_DP2TRIANGLEFAN_IMM, *LPD3DHAL_DP2TRIANGLEFAN_IMM
+ms.keywords: d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, display.d3dhal_dp2trianglefan_imm, *LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, _D3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

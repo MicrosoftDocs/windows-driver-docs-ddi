@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_MOUSE_CONNECT
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
 ---
 
 # IOCTL_INTERNAL_MOUSE_CONNECT IOCTL

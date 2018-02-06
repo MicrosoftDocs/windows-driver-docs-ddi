@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: DF597216-FB81-466C-871E-5E08C69B78DA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/PcRegisterAdapterPnPManagement, audio.pcregisteradapterpnpmanagement, PcRegisterAdapterPnPManagement, PcRegisterAdapterPnpManagement, PcRegisterAdapterPnPManagement function [Audio Devices]
+ms.keywords: PcRegisterAdapterPnPManagement, portcls/PcRegisterAdapterPnPManagement, audio.pcregisteradapterpnpmanagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,9 +106,9 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 <a href="..\portcls\nf-portcls-pcunregisteradapterpnpmanagement.md">PcUnregisterAdapterPnpManagement</a>
 
-<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
 
  
 

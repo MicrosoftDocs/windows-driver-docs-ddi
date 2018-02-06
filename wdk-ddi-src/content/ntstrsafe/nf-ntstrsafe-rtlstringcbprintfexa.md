@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 514a5b40-c9ba-4ed1-871d-fd6ffde583a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbPrintfExA, RtlStringCbPrintfExW, RtlStringCbPrintfEx, STRSAFE_NO_TRUNCATION, STRSAFE_IGNORE_NULLS, kernel.rtlstringcbprintfex, ntstrsafe/RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_NULL_ON_FAILURE, RtlStringCbPrintfExA, STRSAFE_FILL_ON_FAILURE, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml, STRSAFE_FILL_BEHIND_NULL
+ms.keywords: STRSAFE_NULL_ON_FAILURE, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml, kernel.rtlstringcbprintfex, STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, STRSAFE_IGNORE_NULLS, RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], RtlStringCbPrintfExA, ntstrsafe/RtlStringCbPrintfExW, ntstrsafe/RtlStringCbPrintfExA, STRSAFE_NO_TRUNCATION, RtlStringCbPrintfEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCbPrintfExA function

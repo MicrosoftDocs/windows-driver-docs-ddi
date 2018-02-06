@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1adb1dbf-3ec4-4e32-bfe8-cfcf992f67ca
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsidef/ISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], ISCSI_TargetPortal structure [Storage Devices], ISCSI_TargetPortal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, PISCSI_TargetPortal, *PISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, _ISCSI_TargetPortal, storage.iscsi_targetportal
+ms.keywords: PISCSI_TargetPortal, iscsidef/ISCSI_TargetPortal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], _ISCSI_TargetPortal, storage.iscsi_targetportal, *PISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_TargetPortal
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_TargetPortal, *PISCSI_TargetPortal
+req.typenames: "*PISCSI_TargetPortal, ISCSI_TargetPortal"
 ---
 
 # _ISCSI_TargetPortal structure
@@ -86,9 +86,9 @@ Socket number associated with the target.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561577">ISCSI_TargetPortal WMI Class</a>
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561577">ISCSI_TargetPortal WMI Class</a>
 
  
 

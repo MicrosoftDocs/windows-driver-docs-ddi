@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource, k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlcmencodememioresource
+ms.keywords: RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, wdm/RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, RtlCmEncodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

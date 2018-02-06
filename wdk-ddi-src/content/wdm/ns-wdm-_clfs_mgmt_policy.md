@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], kernel.clfs_mgmt_policy, wdm/CLFS_MGMT_POLICY, _CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, CLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.clfs_mgmt_policy, _CLFS_MGMT_POLICY, PCLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], *PCLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY, wdm/CLFS_MGMT_POLICY, CLFS_MGMT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -267,13 +267,13 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
-
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
-
 <a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
 
 <a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
+
+<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+<a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
 
  
 

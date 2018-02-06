@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol5_getbreakpointbyguid, dbgeng/IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, GetBreakpointByGuid method [Windows Debugging], IDebugControl5, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid
+ms.keywords: IDebugControl5, GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], dbgeng/IDebugControl5::GetBreakpointByGuid, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, debugger.idebugcontrol5_getbreakpointbyguid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.GetBreakpointByGuid
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl5::GetBreakpointByGuid method
@@ -115,9 +115,9 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>
 
  
 

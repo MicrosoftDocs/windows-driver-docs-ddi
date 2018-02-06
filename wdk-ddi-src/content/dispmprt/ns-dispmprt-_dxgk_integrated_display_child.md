@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A3E28664-B286-4E4A-85DD-4EAAC7D257F0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], *PDXGK_INTEGRATED_DISPLAY_CHILD, _DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], display.dxgk_integrated_display_child
+ms.keywords: DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], PDXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD, _DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, DXGK_INTEGRATED_DISPLAY_CHILD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

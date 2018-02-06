@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, RILUICCCHANNELGROUP
+ms.keywords: RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCHANNELGROUP, netvista.riluiccchannelgroup, RILUICCCHANNELGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

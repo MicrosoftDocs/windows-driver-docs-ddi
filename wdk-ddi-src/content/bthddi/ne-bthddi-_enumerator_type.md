@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/ENUMERATOR_TYPE_MAX, bthddi/ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_PROTOCOL, _ENUMERATOR_TYPE, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE, bthddi/PENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], *PENUMERATOR_TYPE, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], ENUMERATOR_TYPE_MAX, bltooth.enumerator_type, ENUMERATOR_TYPE, ENUMERATOR_TYPE_SERVICE, bthddi/ENUMERATOR_TYPE_SERVICE
+ms.keywords: ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_SERVICE, *PENUMERATOR_TYPE, bltooth.enumerator_type, ENUMERATOR_TYPE_MAX, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, bthddi/PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_MAX, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], _ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_SERVICE, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, ENUMERATOR_TYPE enumeration [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

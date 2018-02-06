@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_GEOREGION, sensors.gnss_georegion, GNSS_GEOREGION structure [Sensor Devices], gnssdriver/GNSS_GEOREGION, PGNSS_GEOREGION, *PGNSS_GEOREGION, GNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices]
+ms.keywords: gnssdriver/GNSS_GEOREGION, sensors.gnss_georegion, PGNSS_GEOREGION, GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION structure pointer [Sensor Devices], *PGNSS_GEOREGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

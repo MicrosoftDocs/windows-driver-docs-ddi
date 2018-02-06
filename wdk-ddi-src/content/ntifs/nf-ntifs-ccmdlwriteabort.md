@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 32b6fc14-dbaa-41d7-a1a7-a805b9a8795a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/CcMdlWriteAbort, CcMdlWriteAbort routine [Installable File System Drivers], ifsk.ccmdlwriteabort, CcMdlWriteAbort, ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml
+ms.keywords: CcMdlWriteAbort, ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, ntifs/CcMdlWriteAbort, ifsk.ccmdlwriteabort, CcMdlWriteAbort routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

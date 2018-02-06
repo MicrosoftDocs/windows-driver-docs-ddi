@@ -40,7 +40,7 @@ apiname:
 -	CheckVideoDecoderFormat
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback
@@ -88,11 +88,6 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 
 
 
-#### - Format [in]
-
-A DXGI_FORMAT value that specifies the output format. Typical values include DXGI_FORMAT_NV12 and DXGI_FORMAT_420_OPAQUE.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -100,14 +95,19 @@ A handle to the display device (graphics context).
 
 
 
-#### - pBool [out]
-
-A BOOL value that, if TRUE, specifies that the specified format can be used  for the specified DXVA profile.
-
-
 #### - pDecoderProfile [in]
 
 A pointer to a GUID that identifies the DXVA profile. 
+
+
+#### - Format [in]
+
+A DXGI_FORMAT value that specifies the output format. Typical values include DXGI_FORMAT_NV12 and DXGI_FORMAT_420_OPAQUE.
+
+
+#### - pBool [out]
+
+A BOOL value that, if TRUE, specifies that the specified format can be used  for the specified DXVA profile.
 
 
 ## -returns

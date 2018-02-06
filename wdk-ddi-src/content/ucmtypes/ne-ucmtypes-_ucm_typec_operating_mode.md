@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeDrp, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeUfp, UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE"
+ms.keywords: ucmtypes/UcmTypeCOperatingModeUfp, ucmtypes/UcmTypeCOperatingModeDfp, _UCM_TYPEC_OPERATING_MODE, ucmtypes/UCM_TYPEC_OPERATING_MODE, UcmTypeCOperatingModeDrp, buses.ucm_type_c_operating_mode, UCM_TYPEC_OPERATING_MODE enumeration [Buses], ucmtypes/UcmTypeCOperatingModeInvalid, UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeUfp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxpreparetoreparsesymboliclink, RxPrepareToReparseSymbolicLink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers]
+ms.keywords: RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, rxprocs/RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink, ifsk.rxpreparetoreparsesymboliclink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxPrepareToReparseSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
+req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

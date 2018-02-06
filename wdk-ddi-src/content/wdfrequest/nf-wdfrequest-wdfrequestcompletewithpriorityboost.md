@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestCompleteWithPriorityBoost method, WdfRequestCompleteWithPriorityBoost, kmdf.wdfrequestcompletewithpriorityboost, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, wdfrequest/WdfRequestCompleteWithPriorityBoost, wdf.wdfrequestcompletewithpriorityboost, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST
+ms.keywords: DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, kmdf.wdfrequestcompletewithpriorityboost, wdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST, wdfrequest/WdfRequestCompleteWithPriorityBoost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,14 +85,14 @@ An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTS
 
 
 
-#### STATUS_CANCELLED
-
-The driver canceled the request.
-
-
 #### STATUS_SUCCESS
 
 The driver successfully completed the request.
+
+
+#### STATUS_CANCELLED
+
+The driver canceled the request.
 
 
 #### STATUS_UNSUCCESSFUL
@@ -129,9 +129,9 @@ For more information about calling <b>WdfRequestCompleteWithPriorityBoost</b>, s
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 

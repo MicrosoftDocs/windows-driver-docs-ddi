@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e076f2f-59e3-43ca-b83e-3079bbf41df3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetgetdevice, WdfIoTargetGetDevice method, wdf.wdfiotargetgetdevice, DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml, wdfiotarget/WdfIoTargetGetDevice, WdfIoTargetGetDevice, PFN_WDFIOTARGETGETDEVICE
+ms.keywords: PFN_WDFIOTARGETGETDEVICE, WdfIoTargetGetDevice method, wdfiotarget/WdfIoTargetGetDevice, WdfIoTargetGetDevice, kmdf.wdfiotargetgetdevice, wdf.wdfiotargetgetdevice, DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfIoTargetGetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE"
+req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -102,9 +102,9 @@ For more information about I/O targets, see <a href="https://msdn.microsoft.com/
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
  
 

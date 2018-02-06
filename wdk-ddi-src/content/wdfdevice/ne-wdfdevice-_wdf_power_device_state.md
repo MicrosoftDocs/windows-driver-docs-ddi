@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "_WDF_POWER_DEVICE_STATE, WdfPowerDevicePrepareForHibernation, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, WdfPowerDeviceMaximum, WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceD0, PWDF_POWER_DEVICE_STATE, WdfPowerDeviceInvalid, wdf.wdf_power_device_state, wdfdevice/WdfPowerDeviceD3Final, WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceInvalid, WdfPowerDeviceD0, kmdf.wdf_power_device_state, wdfdevice/WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD2, WdfPowerDeviceD3, wdfdevice/WDF_POWER_DEVICE_STATE, wdfdevice/PWDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE enumeration pointer, WDF_POWER_DEVICE_STATE enumeration, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceMaximum, WDF_POWER_DEVICE_STATE, WdfPowerDeviceD2, *PWDF_POWER_DEVICE_STATE"
+ms.keywords: WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD0, WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD3, wdfdevice/WDF_POWER_DEVICE_STATE, wdf.wdf_power_device_state, _WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, WdfPowerDeviceInvalid, WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD1, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3, PWDF_POWER_DEVICE_STATE enumeration pointer, wdfdevice/WdfPowerDeviceMaximum, WdfPowerDeviceD3Final, WdfPowerDeviceD1, WDF_POWER_DEVICE_STATE enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
+req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
 req.product: Windows 10 or later.
 ---
 

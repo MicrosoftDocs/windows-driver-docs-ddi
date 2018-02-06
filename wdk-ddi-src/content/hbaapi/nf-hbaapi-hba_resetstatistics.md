@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_resetstatistics, HBA_ResetStatistics, fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics routine [Storage Devices], hbaapi/HBA_ResetStatistics
+ms.keywords: storage.hba_resetstatistics, HBA_ResetStatistics routine [Storage Devices], fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics, hbaapi/HBA_ResetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

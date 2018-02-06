@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, DeleteNamedValue, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue, wdf.iwdfnamedpropertystore2_deletenamedvalue, IWDFNamedPropertyStore2::DeleteNamedValue, umdf.iwdfnamedpropertystore2_deletenamedvalue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, DeleteNamedValue method
+ms.keywords: wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, DeleteNamedValue, wdf.iwdfnamedpropertystore2_deletenamedvalue, IWDFNamedPropertyStore2::DeleteNamedValue, IWDFNamedPropertyStore2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore2.DeleteNamedValue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5743d84c-6132-4058-b517-250b5de9a6b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportint10, VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, VideoPortInt10 function [Display Devices], VideoPortInt10, video/VideoPortInt10
+ms.keywords: VideoPortInt10, VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, VideoPortInt10 function [Display Devices], display.videoportint10, video/VideoPortInt10
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,13 +99,13 @@ Because <b>VideoPortInt10</b> interprets the <i>BiosArgument</i> parameter value
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
 
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
  
 

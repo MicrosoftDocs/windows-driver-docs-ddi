@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfremotetarget_closeforqueryremove, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, umdf.iwdfremotetarget_closeforqueryremove, CloseForQueryRemove method, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, IWDFRemoteTarget interface, CloseForQueryRemove method, CloseForQueryRemove method, IWDFRemoteTarget interface, IWDFRemoteTarget::CloseForQueryRemove, IWDFRemoteTarget, CloseForQueryRemove
+ms.keywords: CloseForQueryRemove, CloseForQueryRemove method, IWDFRemoteTarget interface, wdf.iwdfremotetarget_closeforqueryremove, IWDFRemoteTarget interface, CloseForQueryRemove method, IWDFRemoteTarget, IWDFRemoteTarget::CloseForQueryRemove, CloseForQueryRemove method, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, umdf.iwdfremotetarget_closeforqueryremove, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget.CloseForQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ For more information about the <b>CloseForQueryRemove</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: aa7af210-fb5e-49a1-911f-cb1e90c2ac26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrCardType_Aamva, MsrCardType_Bank, _MsrCardType, pos.msrcardtype, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType, pointofservicedriverinterface/MsrCardType_ExtendedBase, MsrCardType_Aamva, MsrCardType, MsrCardType_Unknown, MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Unknown, MsrCardType enumeration
+ms.keywords: pos.msrcardtype, _MsrCardType, MsrCardType, pointofservicedriverinterface/MsrCardType_Unknown, MsrCardType_Bank, MsrCardType_Unknown, MsrCardType enumeration, MsrCardType_Aamva, MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType, pointofservicedriverinterface/MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType_Aamva
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

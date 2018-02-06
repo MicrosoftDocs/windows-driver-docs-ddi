@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetMapping, GetMapping method [Audio Devices], IPortWavePciStream, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, portcls/IPortWavePciStream::GetMapping, IPortWavePciStream interface [Audio Devices], GetMapping method, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, GetMapping method [Audio Devices], IPortWavePciStream interface
+ms.keywords: audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, IPortWavePciStream::GetMapping, portcls/IPortWavePciStream::GetMapping, IPortWavePciStream, GetMapping method [Audio Devices], GetMapping method [Audio Devices], IPortWavePciStream interface, audio.iportwavepcistream_getmapping, GetMapping, IPortWavePciStream interface [Audio Devices], GetMapping method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,19 +165,19 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
 
 <a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
 
  
 

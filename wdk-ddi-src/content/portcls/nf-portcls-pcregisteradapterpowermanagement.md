@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a9e2537d-4d67-4495-b391-55f885b7041a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement function [Audio Devices], portcls/PcRegisterAdapterPowerManagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, audio.pcregisteradapterpowermanagement
+ms.keywords: PcRegisterAdapterPowerManagement function [Audio Devices], audio.pcregisteradapterpowermanagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, portcls/PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

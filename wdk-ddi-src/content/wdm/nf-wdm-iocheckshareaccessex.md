@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCheckShareAccessEx, wdm/IoCheckShareAccessEx, kernel.iocheckshareaccessex, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.iocheckshareaccessex, IoCheckShareAccessEx, wdm/IoCheckShareAccessEx, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4f349089-ff50-4f69-941f-ba3e9225abec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.hw_time_context, strmini/HW_TIME_CONTEXT, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml, strmini/PHW_TIME_CONTEXT, HW_TIME_CONTEXT structure [Streaming Media Devices], HW_TIME_CONTEXT, *PHW_TIME_CONTEXT, PHW_TIME_CONTEXT, _HW_TIME_CONTEXT
+ms.keywords: HW_TIME_CONTEXT, strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml, HW_TIME_CONTEXT structure [Streaming Media Devices], _HW_TIME_CONTEXT, strmini/HW_TIME_CONTEXT, PHW_TIME_CONTEXT, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], *PHW_TIME_CONTEXT, stream.hw_time_context, strmini/PHW_TIME_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,13 +125,13 @@ The current system time, in 100-nanosecond units.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
-
 <a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
+
+<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
 
-<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
+<a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
 
  
 

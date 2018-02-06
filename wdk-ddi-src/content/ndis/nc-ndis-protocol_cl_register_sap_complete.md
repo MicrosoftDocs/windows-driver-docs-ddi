@@ -88,20 +88,6 @@ Specifies the final status of the client's call to
 
 
 
-#### NDIS_STATUS_INVALID_DATA
-
-The client supplied an invalid specification at 
-       <i>Sap</i> to NDIS, which it forwarded to the call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
-       for validation.
-
-
-#### NDIS_STATUS_RESOURCES
-
-NDIS or the call manager could not allocate and/or initialize necessary resources to register
-       and maintain the SAP.
-
-
 #### NDIS_STATUS_SUCCESS
 
 The SAP has been registered both with NDIS and the call manager, which will subsequently call 
@@ -110,6 +96,20 @@ The SAP has been registered both with NDIS and the call manager, which will subs
        SAP, thereby causing NDIS to call the client's 
        <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
        ProtocolClIncomingCall</a> function.
+
+
+#### NDIS_STATUS_RESOURCES
+
+NDIS or the call manager could not allocate and/or initialize necessary resources to register
+       and maintain the SAP.
+
+
+#### NDIS_STATUS_INVALID_DATA
+
+The client supplied an invalid specification at 
+       <i>Sap</i> to NDIS, which it forwarded to the call manager's 
+       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
+       for validation.
 
 
 #### NDIS_STATUS_XXX
@@ -230,30 +230,30 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
 <a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
 
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
  
 

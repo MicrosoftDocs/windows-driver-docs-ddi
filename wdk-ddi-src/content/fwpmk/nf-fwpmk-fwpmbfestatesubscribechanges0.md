@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpmk/FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestatesubscribechanges0
+ms.keywords: FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], FwpmBfeStateSubscribeChanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	FwpmBfeStateSubscribeChanges0
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
 ---
 
 # FwpmBfeStateSubscribeChanges0 function
@@ -118,9 +118,9 @@ The new state of the filter engine. This parameter contains one of the following
 
 
 
-#### FWPM_SERVICE_RUNNING
+#### FWPM_SERVICE_STOPPED
 
-The filter engine is running.
+The filter engine is not running.
 
 
 #### FWPM_SERVICE_START_PENDING
@@ -128,14 +128,14 @@ The filter engine is running.
 The filter engine is starting.
 
 
-#### FWPM_SERVICE_STOPPED
-
-The filter engine is not running.
-
-
 #### FWPM_SERVICE_STOP_PENDING
 
 The filter engine is stopping.
+
+
+#### FWPM_SERVICE_RUNNING
+
+The filter engine is running.
 
 
 ### -param context [in, optional]
@@ -219,9 +219,9 @@ A callout driver must deregister the callback function by calling the
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
    FwpmBfeStateUnsubscribeChanges0</a>
 
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
-
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
+
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
 
  
 

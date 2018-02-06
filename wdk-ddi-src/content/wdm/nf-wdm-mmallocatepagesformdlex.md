@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocatePagesForMdlEx, MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, MM_DONT_ZERO_ALLOCATION, kernel.mmallocatepagesformdlex, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], MM_ALLOCATE_FULLY_REQUIRED, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_NO_WAIT, wdm/MmAllocatePagesForMdlEx
+ms.keywords: MmAllocatePagesForMdlEx, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_NO_WAIT, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, wdm/MmAllocatePagesForMdlEx, MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, kernel.mmallocatepagesformdlex, MM_ALLOCATE_FULLY_REQUIRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -234,13 +234,13 @@ By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates wit
 
 <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
  
 

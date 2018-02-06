@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, MIRACAST_SESSION_INFO, netdispumdddi/MIRACAST_SESSION_INFO
+ms.keywords: netdispumdddi/MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], MIRACAST_SESSION_INFO, display.miracast_session_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

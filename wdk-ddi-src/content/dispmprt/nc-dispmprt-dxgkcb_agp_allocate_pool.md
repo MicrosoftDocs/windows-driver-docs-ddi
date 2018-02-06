@@ -40,7 +40,7 @@ apiname:
 -	AgpAllocatePool
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
 ---
 
 # DXGKCB_AGP_ALLOCATE_POOL callback
@@ -97,6 +97,11 @@ NTSTATUS APIENTRY AgpAllocatePool(
 
 
 
+#### - Context [in]
+
+A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>.
+
+
 #### - AllocationSize [in]
 
 The size, in bytes, of the AGP memory to be allocated.
@@ -105,11 +110,6 @@ The size, in bytes, of the AGP memory to be allocated.
 #### - CacheType [in]
 
 A constant from the <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumeration that specifies whether the CPU can use caching or write combining when it accesses the allocated AGP memory.
-
-
-#### - Context [in]
-
-A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>.
 
 
 #### - PhysicalAddress [out]
@@ -138,11 +138,11 @@ Call <b>AgpAllocatePool</b> in the display miniport driver's <a href="..\dispmpr
 
 ## -see-also
 
+<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_set_command.md">AgpSetCommand</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
-
-<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 622e09eb-37ae-403e-9d18-acf2e7761b43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_READY, kmdf.wdf_io_queue_ready, wdfio/WDF_IO_QUEUE_READY, DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml, wdf.wdf_io_queue_ready, WDF_IO_QUEUE_READY function
+ms.keywords: WDF_IO_QUEUE_READY function, DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml, wdf.wdf_io_queue_ready, wdfio/WDF_IO_QUEUE_READY, kmdf.wdf_io_queue_ready, WDF_IO_QUEUE_READY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

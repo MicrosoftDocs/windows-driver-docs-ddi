@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f37c9431-8b60-4caa-863c-81de45ffd457
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_StartDTMF method [Network Drivers Starting with Windows Vista], rilapi/RIL_StartDTMF, RIL_StartDTMF, netvista.ril_startdtmf
+ms.keywords: rilapi/RIL_StartDTMF, RIL_StartDTMF method [Network Drivers Starting with Windows Vista], RIL_StartDTMF, netvista.ril_startdtmf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_StartDTMF
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

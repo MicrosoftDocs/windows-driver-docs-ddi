@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9418ac12-3de0-4477-a725-437700c4d83c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetSystemVersion method, dbgeng/IDebugControl2::GetSystemVersion, IDebugControl3::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, IDebugControl3, debugger.getsystemversion, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetSystemVersion method, IDebugControl::GetSystemVersion, dbgeng/IDebugControl::GetSystemVersion, IDebugControl2::GetSystemVersion, GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl interface, GetSystemVersion method [Windows Debugging], IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, GetSystemVersion method [Windows Debugging], IDebugControl3 interface
+ms.keywords: dbgeng/IDebugControl::GetSystemVersion, IDebugControl3, IDebugControl::GetSystemVersion, debugger.getsystemversion, IDebugControl3::GetSystemVersion, IDebugControl3 interface [Windows Debugging], GetSystemVersion method, IDebugControl interface [Windows Debugging], GetSystemVersion method, GetSystemVersion method [Windows Debugging], IDebugControl2 interface, GetSystemVersion method [Windows Debugging], GetSystemVersion, IDebugControl_92a4c34c-aa39-43e5-ad31-0ce26e45c246.xml, IDebugControl2::GetSystemVersion, dbgeng/IDebugControl3::GetSystemVersion, IDebugControl2 interface [Windows Debugging], GetSystemVersion method, GetSystemVersion method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetSystemVersion, GetSystemVersion method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetSystemVersion
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetSystemVersion method
@@ -172,13 +172,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
 

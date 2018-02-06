@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 615A19E7-ED3B-4C41-9B3B-F4FB77811BC2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_BUFFER_ULONG, umdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG, wdf.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG function
+ms.keywords: wdf.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG function, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG, umdf.read_register_buffer_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_REGISTER_BUFFER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 

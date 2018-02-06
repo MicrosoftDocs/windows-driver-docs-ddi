@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlSizeTMult, kernel.rtlsizetmult
+ms.keywords: RtlSizeTMult, ntintsafe/RtlSizeTMult, kernel.rtlsizetmult, RtlSizeTMult function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

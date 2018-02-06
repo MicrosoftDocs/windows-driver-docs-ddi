@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: RtlCompareMemoryUlong routine [Installable File System Drivers], RtlCompareMemoryUlong, ifsk.rtlcomparememoryulong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml, ntifs/RtlCompareMemoryUlong
+ms.keywords: rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml, RtlCompareMemoryUlong routine [Installable File System Drivers], ntifs/RtlCompareMemoryUlong, RtlCompareMemoryUlong, ifsk.rtlcomparememoryulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

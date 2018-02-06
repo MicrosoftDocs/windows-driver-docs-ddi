@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler, image.iwiaerrorhandler_reportstatus, ReportStatus method [Imaging Devices], IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, IWiaErrorHandler::ReportStatus, ReportStatus, ReportStatus method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, wia_lh/IWiaErrorHandler::ReportStatus
+ms.keywords: ReportStatus method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler, ReportStatus method [Imaging Devices], IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, wia_lh/IWiaErrorHandler::ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, image.iwiaerrorhandler_reportstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaErrorHandler.ReportStatus
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -147,9 +147,9 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
-
 <a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
 
  
 

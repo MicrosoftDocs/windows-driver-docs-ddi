@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], PSCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], storage.scsi_adapter_bus_info, ntddscsi/PSCSI_ADAPTER_BUS_INFO, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml, ntddscsi/SCSI_ADAPTER_BUS_INFO"
+ms.keywords: "_SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml, *PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], storage.scsi_adapter_bus_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

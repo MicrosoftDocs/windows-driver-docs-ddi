@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, wdm/IoGetDevicePropertyData, IoGetDevicePropertyData, kernel.iogetdevicepropertydata
+ms.keywords: IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], IoGetDevicePropertyData, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData, k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -174,11 +174,11 @@ Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVE
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+
 <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
  
 

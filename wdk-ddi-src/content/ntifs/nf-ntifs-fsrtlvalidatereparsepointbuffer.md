@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb67b116-12f5-4eef-ab05-f2056ccec4e3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], ntifs/FsRtlValidateReparsePointBuffer, ifsk.fsrtlvalidatereparsepointbuffer, FsRtlValidateReparsePointBuffer, fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml
+ms.keywords: ntifs/FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer, fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ifsk.fsrtlvalidatereparsepointbuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,9 +135,9 @@ Reparse tags contain several bits that cannot be set except by system components
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
-
 <a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
+
+<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
 
  
 

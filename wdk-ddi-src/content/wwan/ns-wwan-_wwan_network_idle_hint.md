@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 954DE5B5-F08F-4805-8CA0-8C42CB1750FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_network_idle_hint, wwan/PWWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], wwan/WWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT, _WWAN_NETWORK_IDLE_HINT
+ms.keywords: WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], PWWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT, wwan/WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT, netvista.wwan_network_idle_hint, wwan/PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_NETWORK_IDLE_HINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,9 +75,9 @@ If TRUE, this is a hint that the network interface should utilize mechanisms for
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_network_idle_hint.md">NDIS_WWAN_NETWORK_IDLE_HINT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_network_idle_hint.md">NDIS_WWAN_NETWORK_IDLE_HINT</a>
 
  
 

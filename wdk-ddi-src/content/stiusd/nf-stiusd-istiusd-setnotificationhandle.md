@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], SetNotificationHandle method, IStiUSD::SetNotificationHandle, image.istiusd_setnotificationhandle, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml
+ms.keywords: IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_setnotificationhandle, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, IStiUSD interface [Imaging Devices], SetNotificationHandle method, SetNotificationHandle method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.SetNotificationHandle
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

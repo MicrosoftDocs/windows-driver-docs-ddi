@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b12ff158-73e7-4fdf-b7b1-2969d161ed93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasgetpropertyattributes, wiasGetPropertyAttributes, wiamdef/wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices], wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml
+ms.keywords: wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiamdef/wiasGetPropertyAttributes, image.wiasgetpropertyattributes, wiasGetPropertyAttributes function [Imaging Devices], wiasGetPropertyAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetPropertyAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

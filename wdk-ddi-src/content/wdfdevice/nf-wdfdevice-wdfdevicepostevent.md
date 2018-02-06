@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevicePostEvent function, PFN_WDFDEVICEPOSTEVENT, wdfdevice/WdfDevicePostEvent, WdfDevicePostEvent, wdf.wdfdevicepostevent
+ms.keywords: WdfDevicePostEvent, PFN_WDFDEVICEPOSTEVENT, wdfdevice/WdfDevicePostEvent, wdf.wdfdevicepostevent, WdfDevicePostEvent function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,9 +139,9 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
 
  
 

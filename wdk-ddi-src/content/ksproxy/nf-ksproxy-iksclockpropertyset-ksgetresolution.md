@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 507d41ae-31b9-4807-99af-9ec48eb2b5aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet::KsGetResolution, IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method, KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, KsGetResolution, stream.iksclockpropertyset_ksgetresolution, ksproxy/IKsClockPropertySet::KsGetResolution, KsGetResolution method [Streaming Media Devices], ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml
+ms.keywords: stream.iksclockpropertyset_ksgetresolution, IKsClockPropertySet::KsGetResolution, KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method, ksproxy/IKsClockPropertySet::KsGetResolution, KsGetResolution method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

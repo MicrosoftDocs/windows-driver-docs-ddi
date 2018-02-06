@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 20ad609d-454a-4d43-a58e-184cbb8e8da7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetLastError method [Imaging Devices], stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml, IStiDevice::GetLastError, GetLastError method [Imaging Devices], IStiDevice interface, IStiDevice, GetLastError, sti/IStiDevice::GetLastError, image.istidevice_getlasterror, IStiDevice interface [Imaging Devices], GetLastError method
+ms.keywords: IStiDevice interface [Imaging Devices], GetLastError method, image.istidevice_getlasterror, IStiDevice, stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml, sti/IStiDevice::GetLastError, IStiDevice::GetLastError, GetLastError method [Imaging Devices], IStiDevice interface, GetLastError method [Imaging Devices], GetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

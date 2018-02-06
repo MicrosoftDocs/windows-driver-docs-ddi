@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetDiscoveredPortAttributes_OUT structure [Storage Devices], hbapiwmi/GetDiscoveredPortAttributes_OUT, _GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], *PGetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, storage.getdiscoveredportattributes_out, hbapiwmi/PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT
+ms.keywords: GetDiscoveredPortAttributes_OUT, _GetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], PGetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], storage.getdiscoveredportattributes_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetDiscoveredPortAttributes_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT
+req.typenames: "*PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT"
 ---
 
 # _GetDiscoveredPortAttributes_OUT structure

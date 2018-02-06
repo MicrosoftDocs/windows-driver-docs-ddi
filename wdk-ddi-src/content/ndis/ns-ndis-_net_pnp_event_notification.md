@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58d3baf3-a1fa-42ae-b795-2774a148aeda
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], NET_PNP_EVENT_NOTIFICATION, _NET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml, PNET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION"
+ms.keywords: PNET_PNP_EVENT_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], protocol_structures_ref_48e5c834-8115-4a76-bf0d-bcbea8866d20.xml, PNET_PNP_EVENT_NOTIFICATION, ndis/NET_PNP_EVENT_NOTIFICATION, ndis/PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION structure [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT_NOTIFICATION, netvista.net_pnp_event_notification, NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_PNP_EVENT_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_PNP_EVENT_NOTIFICATION, NET_PNP_EVENT_NOTIFICATION"
+req.typenames: NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
 ---
 
 # _NET_PNP_EVENT_NOTIFICATION structure

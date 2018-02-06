@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
+ms.keywords: fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], ntifs/FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -220,9 +220,9 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreaktononee
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltoplockbreaktononeex.md">FltOplockBreakToNoneEx</a>
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
  
 

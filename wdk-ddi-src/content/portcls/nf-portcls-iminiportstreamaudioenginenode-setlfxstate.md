@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 90EED6A9-F25D-4EF9-8523-CFFC90185588
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SetLfxState, audio.iminiportstreamaudioenginenode_setlfxstate, portcls/IMiniportStreamAudioEngineNode::SetLfxState, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode::SetLfxState
+ms.keywords: audio.iminiportstreamaudioenginenode_setlfxstate, IMiniportStreamAudioEngineNode::SetLfxState, portcls/IMiniportStreamAudioEngineNode::SetLfxState, IMiniportStreamAudioEngineNode interface [Audio Devices], SetLfxState method, IMiniportStreamAudioEngineNode, SetLfxState, SetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetLfxState method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

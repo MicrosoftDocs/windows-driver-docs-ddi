@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e59d7087-58eb-4bc3-a4e0-4597ee28dcd6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_SetUsageValue routine [Human Input Devices], hidpi/HidP_SetUsageValue, hid.hidp_setusagevalue, hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, HidP_SetUsageValue
+ms.keywords: HidP_SetUsageValue routine [Human Input Devices], HidP_SetUsageValue, hid.hidp_setusagevalue, hidpi/HidP_SetUsageValue, hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

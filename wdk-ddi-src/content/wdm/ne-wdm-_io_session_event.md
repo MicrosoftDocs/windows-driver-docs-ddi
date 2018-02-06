@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PIO_SESSION_EVENT, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], *PIO_SESSION_EVENT, IoSessionEventTerminated, wdm/IoSessionEventDisconnected, wdm/IoSessionEventLogon, IoSessionEventDisconnected, IoSessionEventMax, _IO_SESSION_EVENT, IoSessionEventLogoff, wdm/PIO_SESSION_EVENT, wdm/IoSessionEventCreated, IoSessionEventConnected, kernel.io_session_event, wdm/IoSessionEventLogoff, wdm/IoSessionEventMax, wdm/IO_SESSION_EVENT, IoSessionEventCreated, wdm/IoSessionEventConnected, IoSessionEventLogon, wdm/IoSessionEventTerminated, IO_SESSION_EVENT
+ms.keywords: "_IO_SESSION_EVENT, *PIO_SESSION_EVENT, IoSessionEventLogon, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventCreated, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], IoSessionEventCreated, kernel.io_session_event, IoSessionEventLogoff, wdm/IoSessionEventLogoff, IoSessionEventMax, IoSessionEventTerminated, wdm/IoSessionEventMax, IoSessionEventConnected, wdm/IoSessionEventDisconnected, IoSessionEventDisconnected, wdm/IoSessionEventLogon, wdm/PIO_SESSION_EVENT, PIO_SESSION_EVENT, wdm/IO_SESSION_EVENT, IO_SESSION_EVENT, wdm/IoSessionEventTerminated, wdm/IoSessionEventConnected"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	IO_SESSION_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_SESSION_EVENT, IO_SESSION_EVENT"
+req.typenames: IO_SESSION_EVENT, *PIO_SESSION_EVENT
 req.product: Windows 10 or later.
 ---
 

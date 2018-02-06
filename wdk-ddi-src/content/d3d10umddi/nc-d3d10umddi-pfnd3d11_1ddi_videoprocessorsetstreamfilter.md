@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamFilter
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback
@@ -104,30 +104,6 @@ VOID APIENTRY* pfnVideoProcessorSetStreamFilter(
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the filter is enabled on the video processor.
-
-
-#### - Filter [in]
-
-The filter, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
-
-
-
-
-#### - Level [in]
-
-The filter level. The meaning of this value is defined by the independent hardware vendor (IHV).
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
-
-</div><div> </div>
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -142,6 +118,30 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Filter [in]
+
+The filter, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the filter is enabled on the video processor.
+
+
+#### - Level [in]
+
+The filter level. The meaning of this value is defined by the independent hardware vendor (IHV).
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
+
+</div><div> </div>
+
 ## -returns
 
 
@@ -151,9 +151,9 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
  
 

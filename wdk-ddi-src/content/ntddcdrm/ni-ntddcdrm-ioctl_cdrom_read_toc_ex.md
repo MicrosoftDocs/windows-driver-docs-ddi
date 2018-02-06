@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_READ_TOC_EX
 product: Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
 ---
 
 # IOCTL_CDROM_READ_TOC_EX IOCTL

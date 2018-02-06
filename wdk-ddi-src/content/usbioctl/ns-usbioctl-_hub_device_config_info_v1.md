@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2e94cf01-6edf-40ca-b25e-ce7c125e4686
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/PHUB_DEVICE_CONFIG_INFO, buses.hub_device_config_info, PHUB_DEVICE_CONFIG_INFO, usbioctl/HUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], HUB_DEVICE_CONFIG_INFO structure [Buses], _HUB_DEVICE_CONFIG_INFO_V1, HUB_DEVICE_CONFIG_INFO, *PHUB_DEVICE_CONFIG_INFO
+ms.keywords: "_HUB_DEVICE_CONFIG_INFO_V1, usbioctl/PHUB_DEVICE_CONFIG_INFO, usbioctl/HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], PHUB_DEVICE_CONFIG_INFO, *PHUB_DEVICE_CONFIG_INFO, buses.hub_device_config_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,9 +127,9 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_device_config_info.md">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a>
 

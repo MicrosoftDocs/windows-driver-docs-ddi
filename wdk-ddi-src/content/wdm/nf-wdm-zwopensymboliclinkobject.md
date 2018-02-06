@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b5b9410-1243-4fd4-b02a-fc262abf18c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwopensymboliclinkobject, wdm/ZwOpenSymbolicLinkObject, NtOpenSymbolicLinkObject, wdm/NtOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, ZwOpenSymbolicLinkObject
+ms.keywords: ZwOpenSymbolicLinkObject, kernel.zwopensymboliclinkobject, wdm/ZwOpenSymbolicLinkObject, k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], NtOpenSymbolicLinkObject, wdm/NtOpenSymbolicLinkObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,9 +109,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwquerysymboliclinkobject.md">ZwQuerySymbolicLinkObject</a>
 

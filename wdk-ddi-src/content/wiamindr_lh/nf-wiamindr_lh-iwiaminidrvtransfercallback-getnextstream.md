@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: FF33471A-692B-4568-BF37-1870DEC367D0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_getnextstream
+ms.keywords: IWiaMiniDrvTransferCallback interface [Imaging Devices], GetNextStream method, image.iwiaminidrvtransfercallback_getnextstream, GetNextStream, GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback::GetNextStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,6 +109,8 @@ When the current transfer sequence is cancelled, the <b>GetNextStream</b> method
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
@@ -116,8 +118,6 @@ When the current transfer sequence is cancelled, the <b>GetNextStream</b> method
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>
 
 <a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
-
-<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d722f10-d29d-4197-a2c1-5c2a77004abf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE, RIL_PARAM_UAPCS_PERSOCHECKSTATE, rilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE, RIL_PARAM_UAPCS_PERSOFEATURE, rilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UAPCS_ALL, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILUICCAPPPERSOCHECKSTATUSPARAMMASK, netvista.riluiccapppersocheckstatusparammask_2, RIL_PARAM_UAPCS_ALL
+ms.keywords: netvista.riluiccapppersocheckstatusparammask_2, rilapitypes/RIL_PARAM_UAPCS_ALL, RILUICCAPPPERSOCHECKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE, RIL_PARAM_UAPCS_ALL, rilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UAPCS_PERSOFEATURE, RIL_PARAM_UAPCS_PERSOCHECKSTATE, rilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

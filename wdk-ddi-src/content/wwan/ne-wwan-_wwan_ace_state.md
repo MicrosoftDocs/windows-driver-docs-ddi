@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_ACE_STATE, netvista.wwan_ace_state, *PWWAN_ACE_STATE, wwan/WwanManualOff, wwan/WWAN_ACE_STATE, WwanManualOff, WWAN_ACE_STATE, wwan/WwanAutoOff, WwanManualOn, wwan/WwanAutoOn, WwanAutoOn, WwanAutoOff, wwan/WwanManualOn
+ms.keywords: WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, WwanManualOff, netvista.wwan_ace_state, WwanAutoOff, wwan/WwanManualOff, WwanAutoOn, WwanManualOn, WWAN_ACE_STATE, _WWAN_ACE_STATE, wwan/WwanManualOn, *PWWAN_ACE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCM_PD_CONN_STATE enumeration [Buses], ucmtypes/UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationSucceeded, UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNotSupported, UCM_PD_CONN_STATE, ucmtypes/UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationSucceeded, buses.ucm_pd_conn_state, UcmPdConnStateNotSupported
+ms.keywords: ucmtypes/UcmPdConnStateNegotiationSucceeded, UCM_PD_CONN_STATE enumeration [Buses], ucmtypes/UcmPdConnStateInvalid, buses.ucm_pd_conn_state, ucmtypes/UCM_PD_CONN_STATE, UcmPdConnStateInvalid, UcmPdConnStateNegotiationSucceeded, _UCM_PD_CONN_STATE, UcmPdConnStateNegotiationFailed, UcmPdConnStateNotSupported, UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNotSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

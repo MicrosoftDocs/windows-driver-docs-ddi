@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWaitForSingleObject function [Display Devices], display.videoportwaitforsingleobject, VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, video/VideoPortWaitForSingleObject, VideoPortWaitForSingleObject
+ms.keywords: VideoPortWaitForSingleObject function [Display Devices], VideoPortWaitForSingleObject, display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject, VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

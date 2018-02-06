@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FAE099E4-6BE9-4637-934F-9F86FFDCAA6A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerNeedsReset, ucxcontroller/UcxControllerNeedsReset, buses._ucxcontrollerneedsreset, UcxControllerNeedsReset method [Buses]
+ms.keywords: UcxControllerNeedsReset, buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

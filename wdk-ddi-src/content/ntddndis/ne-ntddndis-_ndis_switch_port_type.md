@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeGeneric, NdisSwitchPortTypeEmulated, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeSynthetic, ntddndis/NdisSwitchPortTypeEmulated, PNDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, NdisSwitchPortTypeInternal, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/PNDIS_SWITCH_PORT_TYPE, _NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeExternal, NdisSwitchPortTypeExternal, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeGeneric
+ms.keywords: PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, NdisSwitchPortTypeGeneric, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/PNDIS_SWITCH_PORT_TYPE, _NDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeSynthetic, NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeEmulated, NDIS_SWITCH_PORT_TYPE, NdisSwitchPortTypeExternal, NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

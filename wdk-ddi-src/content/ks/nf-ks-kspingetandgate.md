@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: abd4da69-c0c3-442f-af58-e77362c637da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetAndGate, avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, stream.kspingetandgate, KsPinGetAndGate function [Streaming Media Devices], KsPinGetAndGate
+ms.keywords: avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, stream.kspingetandgate, KsPinGetAndGate, ks/KsPinGetAndGate, KsPinGetAndGate function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76F5F3E0-74BF-4DFF-9AA3-A67C03AF56F9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis2, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetString, IDebugFailureAnalysis2::GetUlong, GetUlong method [Windows Debugging], debugger.idebugfailureanalysis2_getstring, extsfns/IDebugFailureAnalysis2::GetUlong, GetString
+ms.keywords: debugger.idebugfailureanalysis2_getstring, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, IDebugFailureAnalysis2::GetUlong, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2::GetString, GetString, IDebugFailureAnalysis2, GetUlong method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,15 +104,15 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406612">AddString</a>
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
  
 

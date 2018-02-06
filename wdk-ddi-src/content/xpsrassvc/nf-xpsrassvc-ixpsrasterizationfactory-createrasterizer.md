@@ -7,8 +7,8 @@ old-location: print\ixpsrasterizationfactory_createrasterizer.htm
 old-project: print
 ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: xpsrassvc/IXpsRasterizationFactory::CreateRasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, CreateRasterizer, IXpsRasterizationFactory, CreateRasterizer method [Print Devices], print.ixpsrasterizationfactory_createrasterizer, IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory::CreateRasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface
+ms.date: 2/2/2018
+ms.keywords: IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, print.ixpsrasterizationfactory_createrasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface, CreateRasterizer method [Print Devices], IXpsRasterizationFactory, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer, CreateRasterizer, IXpsRasterizationFactory::CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -182,15 +182,15 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+<a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a>
 
 <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
 
-<a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizationFactory::CreateRasterizer method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizationFactory::CreateRasterizer method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

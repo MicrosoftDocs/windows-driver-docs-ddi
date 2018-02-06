@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_bind_request0, fwpsk/FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml, _FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0
+ms.keywords: FWPS_BIND_REQUEST0, _FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_BIND_REQUEST0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,16 +151,16 @@ Call
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
-   FwpsAcquireWritableLayerDataPointer0</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+   FwpsAcquireWritableLayerDataPointer0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
  
 

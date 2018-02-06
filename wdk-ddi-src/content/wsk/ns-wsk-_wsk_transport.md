@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, netvista.wsk_transport, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_TRANSPORT, wsk/PWSK_TRANSPORT, PWSK_TRANSPORT, _WSK_TRANSPORT, WSK_TRANSPORT"
+ms.keywords: netvista.wsk_transport, PWSK_TRANSPORT, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, WSK_TRANSPORT, _WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], *PWSK_TRANSPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_TRANSPORT
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_TRANSPORT, WSK_TRANSPORT"
+req.typenames: WSK_TRANSPORT, *PWSK_TRANSPORT
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,11 @@ For more information about the socket types that are supported for each supporte
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
+#### SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
 #### SOCK_DGRAM
 
 Supports unreliable connectionless datagram communication.
@@ -98,11 +103,6 @@ Supports unreliable connectionless datagram communication.
 #### SOCK_RAW
 
 Supports raw access to the transport protocol.
-
-
-#### SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
 
 
 ### -field Protocol
@@ -154,9 +154,9 @@ A single transport provider can support multiple combinations of values for the
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
  
 

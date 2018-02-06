@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c0059a7-4b0f-4b74-b543-ad5904d40033
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::SetNotifyEventHandle, IDebugControl2::SetNotifyEventHandle, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle, IDebugControl::SetNotifyEventHandle, debugger.setnotifyeventhandle, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::SetNotifyEventHandle, SetNotifyEventHandle method [Windows Debugging], dbgeng/IDebugControl2::SetNotifyEventHandle, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl3::SetNotifyEventHandle, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml
+ms.keywords: IDebugControl3 interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl_9934efa7-aed4-4706-8885-71d78f6950a8.xml, IDebugControl2 interface [Windows Debugging], SetNotifyEventHandle method, SetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, debugger.setnotifyeventhandle, SetNotifyEventHandle method [Windows Debugging], SetNotifyEventHandle method [Windows Debugging], IDebugControl interface, SetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], SetNotifyEventHandle method, IDebugControl::SetNotifyEventHandle, SetNotifyEventHandle, IDebugControl3::SetNotifyEventHandle, dbgeng/IDebugControl2::SetNotifyEventHandle, dbgeng/IDebugControl::SetNotifyEventHandle, dbgeng/IDebugControl3::SetNotifyEventHandle, IDebugControl3, IDebugControl2::SetNotifyEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.SetNotifyEventHandle
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetNotifyEventHandle method
@@ -109,13 +109,13 @@ The event will only be signaled once.  After it has been signaled, <b>GetNotifyE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
  
 

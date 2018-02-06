@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9f37d9e7-ae8b-448e-a535-f34b01c2bf8a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_sriov_probed_bars_info, PNDIS_SRIOV_PROBED_BARS_INFO, ntddndis/NDIS_SRIOV_PROBED_BARS_INFO, _NDIS_SRIOV_PROBED_BARS_INFO, PNDIS_SRIOV_PROBED_BARS_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_SRIOV_PROBED_BARS_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_PROBED_BARS_INFO, ntddndis/PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO
+ms.keywords: PNDIS_SRIOV_PROBED_BARS_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PROBED_BARS_INFO, netvista.ndis_sriov_probed_bars_info, _NDIS_SRIOV_PROBED_BARS_INFO, ntddndis/NDIS_SRIOV_PROBED_BARS_INFO, ntddndis/PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO structure [Network Drivers Starting with Windows Vista], NDIS_SRIOV_PROBED_BARS_INFO, *PNDIS_SRIOV_PROBED_BARS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_PROBED_BARS_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO"
+req.typenames: NDIS_SRIOV_PROBED_BARS_INFO, *PNDIS_SRIOV_PROBED_BARS_INFO
 ---
 
 # _NDIS_SRIOV_PROBED_BARS_INFO structure
@@ -112,9 +112,9 @@ The <b>NDIS_SRIOV_PROBED_BARS_INFO</b> structure is used in OID query requests o
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451870">OID_SRIOV_PROBED_BARS</a>
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <b></b>
 

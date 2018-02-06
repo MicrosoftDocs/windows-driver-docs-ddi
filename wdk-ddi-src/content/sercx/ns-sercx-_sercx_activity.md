@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SERCX_ACTIVITY, *PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], _SERCX_ACTIVITY, serports.sercx_activity, SERCX_ACTIVITY, PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports]
+ms.keywords: PSERCX_ACTIVITY structure pointer [Serial Ports], 1/SERCX_ACTIVITY, SERCX_ACTIVITY, 1/PSERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], serports.sercx_activity, _SERCX_ACTIVITY, *PSERCX_ACTIVITY, PSERCX_ACTIVITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_ACTIVITY
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_ACTIVITY, SERCX_ACTIVITY"
+req.typenames: SERCX_ACTIVITY, *PSERCX_ACTIVITY
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,11 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
-
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
 <a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
+
+<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
 
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 

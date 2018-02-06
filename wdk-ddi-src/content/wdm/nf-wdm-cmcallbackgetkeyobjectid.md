@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.cmcallbackgetkeyobjectid, CmCallbackGetKeyObjectID, wdm/CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml
+ms.keywords: kernel.cmcallbackgetkeyobjectid, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], CmCallbackGetKeyObjectID, ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, wdm/CmCallbackGetKeyObjectID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,13 +134,13 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
-
 <a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
 
 <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 

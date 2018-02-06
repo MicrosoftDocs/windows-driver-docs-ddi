@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e803505f-37a0-4b20-bd6f-ce0f79eead03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.get_media_types, PGET_MEDIA_TYPES, _GET_MEDIA_TYPES, *PGET_MEDIA_TYPES, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml, ntddstor/GET_MEDIA_TYPES, GET_MEDIA_TYPES structure [Storage Devices], ntddstor/PGET_MEDIA_TYPES, GET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices]
+ms.keywords: GET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices], *PGET_MEDIA_TYPES, ntddstor/PGET_MEDIA_TYPES, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml, _GET_MEDIA_TYPES, PGET_MEDIA_TYPES, ntddstor/GET_MEDIA_TYPES, storage.get_media_types, GET_MEDIA_TYPES structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,9 +93,9 @@ A storage class driver must handle the <a href="..\ntddstor\ni-ntddstor-ioctl_st
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
-
 <a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
 
  
 

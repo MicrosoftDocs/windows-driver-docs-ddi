@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cd7dbcfa-f339-421a-9cc6-f4c494f13a41
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_BDA_TRANSPORT structure [Streaming Media Devices], PKS_DATARANGE_BDA_TRANSPORT structure pointer [Streaming Media Devices], KS_DATARANGE_BDA_TRANSPORT, PKS_DATARANGE_BDA_TRANSPORT, tagKS_DATARANGE_BDA_TRANSPORT, bdamedia/KS_DATARANGE_BDA_TRANSPORT, bdamedia/PKS_DATARANGE_BDA_TRANSPORT, stream.ks_datarange_bda_transport, bdaref_89717b68-2829-4f7a-bcdb-10e0b790308c.xml, *PKS_DATARANGE_BDA_TRANSPORT
+ms.keywords: PKS_DATARANGE_BDA_TRANSPORT structure pointer [Streaming Media Devices], stream.ks_datarange_bda_transport, bdamedia/KS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT, PKS_DATARANGE_BDA_TRANSPORT, tagKS_DATARANGE_BDA_TRANSPORT, bdamedia/PKS_DATARANGE_BDA_TRANSPORT, *PKS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT structure [Streaming Media Devices], bdaref_89717b68-2829-4f7a-bcdb-10e0b790308c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_BDA_TRANSPORT
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT"
+req.typenames: KS_DATARANGE_BDA_TRANSPORT, *PKS_DATARANGE_BDA_TRANSPORT
 ---
 
 # tagKS_DATARANGE_BDA_TRANSPORT structure
@@ -91,11 +91,11 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
+<a href="..\bdamedia\ns-bdamedia-tagbda_transport_info.md">BDA_TRANSPORT_INFO</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
-<a href="..\bdamedia\ns-bdamedia-tagbda_transport_info.md">BDA_TRANSPORT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
 
  
 

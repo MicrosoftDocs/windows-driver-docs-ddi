@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetWriteParameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams::GetWriteParameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, umdf.iwdfiorequestcompletionparams_getwriteparameters, IWDFIoRequestCompletionParams interface, GetWriteParameters method, IWDFIoRequestCompletionParams, GetWriteParameters method, IWDFIoRequestCompletionParams interface, wdf.iwdfiorequestcompletionparams_getwriteparameters
+ms.keywords: umdf.iwdfiorequestcompletionparams_getwriteparameters, GetWriteParameters method, IWDFIoRequestCompletionParams interface, GetWriteParameters method, GetWriteParameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams::GetWriteParameters, wdf.iwdfiorequestcompletionparams_getwriteparameters, IWDFIoRequestCompletionParams, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequestCompletionParams.GetWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

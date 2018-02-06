@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_disablepdev.htm
 old-project: print
 ms.assetid: bdceeb23-5d4a-4a1c-98b2-014a4126ca5f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, DisablePDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], DisablePDEV method, print.iprintoemuni_disablepdev, prcomoem/IPrintOemUni::DisablePDEV, IPrintOemUni::DisablePDEV, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml, DisablePDEV method [Print Devices], DisablePDEV
+ms.date: 2/2/2018
+ms.keywords: IPrintOemUni, DisablePDEV, print.iprintoemuni_disablepdev, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml, IPrintOemUni::DisablePDEV, IPrintOemUni interface [Print Devices], DisablePDEV method, prcomoem/IPrintOemUni::DisablePDEV, DisablePDEV method [Print Devices], IPrintOemUni interface, DisablePDEV method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.DisablePDEV
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

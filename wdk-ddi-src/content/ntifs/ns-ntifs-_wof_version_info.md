@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 953F34FC-2E8F-4569-89B8-2F9541456F3B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.wof_version_info, PWOF_VERSION_INFO, *PWOF_VERSION_INFO, ntifs/PWOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], WOF_VERSION_INFO structure [Installable File System Drivers], WOF_VERSION_INFO, ntifs/WOF_VERSION_INFO, _WOF_VERSION_INFO
+ms.keywords: WOF_VERSION_INFO, ntifs/PWOF_VERSION_INFO, _WOF_VERSION_INFO, WOF_VERSION_INFO structure [Installable File System Drivers], *PWOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], ifsk.wof_version_info, PWOF_VERSION_INFO, ntifs/WOF_VERSION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,9 +76,9 @@ The version of the WOF driver. This value includes the major and minor version n
 
 <a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
 
-<a href="..\ntifs\ns-ntifs-_wof_external_file_id.md">WOF_EXTERNAL_FILE_ID</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt426734">FSCTL_GET_WOF_VERSION</a>
+
+<a href="..\ntifs\ns-ntifs-_wof_external_file_id.md">WOF_EXTERNAL_FILE_ID</a>
 
  
 

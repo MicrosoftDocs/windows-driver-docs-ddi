@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6e6fbc0-a35b-4086-9d7a-98dab516a816
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlGetVersion routine [Kernel-Mode Driver Architecture], wdm/RtlGetVersion, kernel.rtlgetversion, k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, RtlGetVersion
+ms.keywords: k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, RtlGetVersion, RtlGetVersion routine [Kernel-Mode Driver Architecture], kernel.rtlgetversion, wdm/RtlGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

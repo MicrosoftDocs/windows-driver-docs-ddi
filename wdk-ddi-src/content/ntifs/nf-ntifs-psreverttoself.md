@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21ae3a61-55c6-437d-8c1e-84d720de9dd5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PsRevertToSelf, ifsk.psreverttoself, ntifs/PsRevertToSelf, PsRevertToSelf routine [Installable File System Drivers], psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml
+ms.keywords: psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml, ifsk.psreverttoself, PsRevertToSelf routine [Installable File System Drivers], ntifs/PsRevertToSelf, PsRevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

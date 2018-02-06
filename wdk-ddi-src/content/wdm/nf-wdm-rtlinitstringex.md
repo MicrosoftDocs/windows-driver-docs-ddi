@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInitString, kernel.rtl_init_string_ex, RtlInitStringEx, RtlInitString routine [Kernel-Mode Driver Architecture], wdm/RtlInitString
+ms.keywords: wdm/RtlInitString, RtlInitStringEx, kernel.rtl_init_string_ex, RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

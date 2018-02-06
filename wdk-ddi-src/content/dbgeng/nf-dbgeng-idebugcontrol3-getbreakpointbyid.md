@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6873609d-7f5a-474d-8b48-fee9f93c812b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::GetBreakpointById, dbgeng/IDebugControl3::GetBreakpointById, IDebugControl3, GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, dbgeng/IDebugControl2::GetBreakpointById, GetBreakpointById method [Windows Debugging], dbgeng/IDebugControl::GetBreakpointById, IDebugControl3 interface [Windows Debugging], GetBreakpointById method, debugger.getbreakpointbyid, IDebugControl3::GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetBreakpointById, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, GetBreakpointById method [Windows Debugging], IDebugControl interface, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetBreakpointById method
+ms.keywords: IDebugControl interface [Windows Debugging], GetBreakpointById method, IDebugControl::GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, debugger.getbreakpointbyid, IDebugControl3::GetBreakpointById, GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetBreakpointById method, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, GetBreakpointById method [Windows Debugging], IDebugControl2::GetBreakpointById, dbgeng/IDebugControl2::GetBreakpointById, dbgeng/IDebugControl3::GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, IDebugControl3, dbgeng/IDebugControl::GetBreakpointById
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetBreakpointById
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetBreakpointById method
@@ -124,13 +124,13 @@ If the specified breakpoint does not belong to the current process, the method w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
  
 

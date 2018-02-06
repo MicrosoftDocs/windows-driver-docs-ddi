@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19013ffa-6bb5-4a77-b85b-c32fb0bf0530
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_offload_encapsulation, PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_ENCAPSULATION_IEEE_802_3, NDIS_OFFLOAD_ENCAPSULATION, ndis/PNDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], *PNDIS_OFFLOAD_ENCAPSULATION, _NDIS_OFFLOAD_ENCAPSULATION, ndis/NDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml
+ms.keywords: tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml, NDIS_OFFLOAD_ENCAPSULATION, *PNDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_802_3, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_ENCAPSULATION, netvista.ndis_offload_encapsulation, ndis/PNDIS_OFFLOAD_ENCAPSULATION, _NDIS_OFFLOAD_ENCAPSULATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_OFFLOAD_ENCAPSULATION
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION"
+req.typenames: NDIS_OFFLOAD_ENCAPSULATION, *PNDIS_OFFLOAD_ENCAPSULATION
 ---
 
 # _NDIS_OFFLOAD_ENCAPSULATION structure
@@ -226,11 +226,11 @@ In a set of
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
 
  
 

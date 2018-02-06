@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16c7b4bd-efc9-4cce-8677-8046038d1c76
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], D3DKMT_SEGMENTSIZEINFO, _D3DKMT_SEGMENTSIZEINFO, display.d3dkmt_segmentsizeinfo, OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml
+ms.keywords: "_D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml, D3DKMT_SEGMENTSIZEINFO, display.d3dkmt_segmentsizeinfo, d3dkmthk/D3DKMT_SEGMENTSIZEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,9 @@ typedef struct _D3DKMT_SEGMENTSIZEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
  
 

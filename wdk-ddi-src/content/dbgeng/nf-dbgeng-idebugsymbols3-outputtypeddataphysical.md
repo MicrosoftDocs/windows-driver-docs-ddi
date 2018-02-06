@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c2ae1ff-bbf1-462f-b9ab-49f74cf12fae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols3, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, OutputTypedDataPhysical method [Windows Debugging], debugger.outputtypeddataphysical, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], dbgeng/IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols3, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, IDebugSymbols::OutputTypedDataPhysical, debugger.outputtypeddataphysical, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.OutputTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::OutputTypedDataPhysical method

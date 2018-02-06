@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2CD75FA9-F77E-4AC5-870E-69CF05DB9312
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSBFN_ON_ATTACH, *PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH, USBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], buses.usbfn_on_attach, _USBFN_ON_ATTACH, USBFN_ON_ATTACH structure [Buses], usbfnattach/PUSBFN_ON_ATTACH
+ms.keywords: USBFN_ON_ATTACH structure [Buses], USBFN_ON_ATTACH, usbfnattach/PUSBFN_ON_ATTACH, *PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH, PUSBFN_ON_ATTACH, _USBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], buses.usbfn_on_attach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_ON_ATTACH
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_ON_ATTACH, USBFN_ON_ATTACH"
+req.typenames: USBFN_ON_ATTACH, *PUSBFN_ON_ATTACH
 req.product: Windows 10 or later.
 ---
 

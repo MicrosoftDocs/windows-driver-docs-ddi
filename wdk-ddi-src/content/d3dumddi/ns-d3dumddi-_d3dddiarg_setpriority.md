@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d3dd52de-6d28-4d71-9b64-ba79e17bd9ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setpriority, D3DDDIARG_SETPRIORITY, _D3DDDIARG_SETPRIORITY, UMDisplayDriver_param_Structs_e416cff1-5cad-4488-a3e2-ea0b42a7cd81.xml, d3dumddi/D3DDDIARG_SETPRIORITY, D3DDDIARG_SETPRIORITY structure [Display Devices]
+ms.keywords: "_D3DDDIARG_SETPRIORITY, display.d3dddiarg_setpriority, D3DDDIARG_SETPRIORITY structure [Display Devices], D3DDDIARG_SETPRIORITY, UMDisplayDriver_param_Structs_e416cff1-5cad-4488-a3e2-ea0b42a7cd81.xml, d3dumddi/D3DDDIARG_SETPRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

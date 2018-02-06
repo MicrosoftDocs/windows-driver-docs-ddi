@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1224f634-b349-4098-a6ad-cbf18742ffb7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], _D3DHAL_CONTEXTDESTROYDATA, display.d3dhal_contextdestroydata, *LPD3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA, d3dhal/D3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, d3dhal/LPD3DHAL_CONTEXTDESTROYDATA
+ms.keywords: LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, LPD3DHAL_CONTEXTDESTROYDATA, *LPD3DHAL_CONTEXTDESTROYDATA, display.d3dhal_contextdestroydata, D3DHAL_CONTEXTDESTROYDATA, _D3DHAL_CONTEXTDESTROYDATA, d3dhal/D3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

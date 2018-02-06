@@ -7,8 +7,8 @@ old-location: print\iprintcoreps2_enumoptions.htm
 old-project: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions, EnumOptions method [Print Devices], print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, IPrintCorePS2, print.iprintcoreps2_enumoptions, IPrintCorePS2 interface [Print Devices], EnumOptions method, prcomoem/IPrintCorePS2::EnumOptions, IPrintCorePS2::EnumOptions
+ms.date: 2/2/2018
+ms.keywords: IPrintCorePS2::EnumOptions, prcomoem/IPrintCorePS2::EnumOptions, IPrintCorePS2 interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, IPrintCorePS2, EnumOptions method [Print Devices], EnumOptions, print.iprintcoreps2_enumoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCorePS2.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -194,13 +194,13 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCorePS2::EnumOptions method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCorePS2::EnumOptions method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3f1cd0bf-13ce-49bc-a48e-dc3d89f3c7d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, AddItemToFolder method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::AddItemToFolder, IWiaDrvItem, image.iwiadrvitem_additemtofolder, AddItemToFolder, AddItemToFolder method [Imaging Devices], wiamindr_lh/IWiaDrvItem::AddItemToFolder
+ms.keywords: image.iwiadrvitem_additemtofolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder, AddItemToFolder method [Imaging Devices], IWiaDrvItem::AddItemToFolder, AddItemToFolder method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, AddItemToFolder, IWiaDrvItem, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.iodecrementkeepalivecount, ntddk/IoDecrementKeepAliveCount, IoDecrementKeepAliveCount
+ms.keywords: kernel.iodecrementkeepalivecount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture], IoDecrementKeepAliveCount, ntddk/IoDecrementKeepAliveCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 73589397-9b2b-4d49-9860-cb2eb6a26632
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.cdrom_play_audio_msf, _CDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF structure [Storage Devices], ntddcdrm/CDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], *PCDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml
+ms.keywords: PCDROM_PLAY_AUDIO_MSF, *PCDROM_PLAY_AUDIO_MSF, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml, _CDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], CDROM_PLAY_AUDIO_MSF structure [Storage Devices], ntddcdrm/PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, ntddcdrm/CDROM_PLAY_AUDIO_MSF, storage.cdrom_play_audio_msf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

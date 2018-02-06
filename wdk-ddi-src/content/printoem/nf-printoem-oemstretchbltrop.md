@@ -7,8 +7,8 @@ old-location: print\oemstretchbltrop.htm
 old-project: print
 ms.assetid: 2e265dc6-3e04-4f25-ae3b-6cb7ce5ce9ae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMStretchBltROP function [Print Devices], printoem/OEMStretchBltROP, print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, print.oemstretchbltrop, OEMStretchBltROP
+ms.date: 2/2/2018
+ms.keywords: print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, OEMStretchBltROP, OEMStretchBltROP function [Print Devices], printoem/OEMStretchBltROP, print.oemstretchbltrop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

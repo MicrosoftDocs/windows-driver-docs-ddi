@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, strmini/StreamClassScheduleTimer, StreamClassScheduleTimer, stream.streamclassscheduletimer, StreamClassScheduleTimer routine [Streaming Media Devices]
+ms.keywords: stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer, StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassScheduleTimer
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 

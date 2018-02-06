@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ae19ae38-3bca-42c8-8713-68bb161104b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stiusd/IStiUSD::UnLockDevice, IStiUSD, UnLockDevice, IStiUSD interface [Imaging Devices], UnLockDevice method, IStiUSD::UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices], IStiUSD interface, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, image.istiusd_unlockdevice
+ms.keywords: UnLockDevice method [Imaging Devices], IStiUSD interface, UnLockDevice method [Imaging Devices], IStiUSD interface [Imaging Devices], UnLockDevice method, stiusd/IStiUSD::UnLockDevice, image.istiusd_unlockdevice, IStiUSD::UnLockDevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, UnLockDevice, IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.UnLockDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

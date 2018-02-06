@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12471d22-4d5d-411e-bfde-4d13d7a3bcca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], *LPRILREGSTATUSINFO, RILREGSTATUSINFO, ntddrilapitypes/RILREGSTATUSINFO, netvista.rilregstatusinfo
+ms.keywords: RILREGSTATUSINFO, netvista.rilregstatusinfo, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILREGSTATUSINFO, *LPRILREGSTATUSINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILREGSTATUSINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILREGSTATUSINFO, RILREGSTATUSINFO"
+req.typenames: RILREGSTATUSINFO, *LPRILREGSTATUSINFO
 ---
 
 # RILREGSTATUSINFO structure

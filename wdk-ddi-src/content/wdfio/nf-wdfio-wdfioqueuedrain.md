@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376579c6-545d-4f5a-8ba4-0046c0b2b755
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDrain, DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, wdf.wdfioqueuedrain, WdfIoQueueDrain method, wdfio/WdfIoQueueDrain, kmdf.wdfioqueuedrain, PFN_WDFIOQUEUEDRAIN
+ms.keywords: kmdf.wdfioqueuedrain, WdfIoQueueDrain method, wdfio/WdfIoQueueDrain, DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, PFN_WDFIOQUEUEDRAIN, wdf.wdfioqueuedrain, WdfIoQueueDrain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,9 +122,9 @@ After a driver has drained an I/O queue, it can restart the queue by calling <a 
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuedrainsynchronously.md">WdfIoQueueDrainSynchronously</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 
  
 

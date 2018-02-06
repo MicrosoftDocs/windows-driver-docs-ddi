@@ -40,7 +40,7 @@ apiname:
 -	SetTextFilterSize
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETTEXTFILTERSIZE callback
@@ -83,9 +83,9 @@ VOID APIENTRY SetTextFilterSize(
 
 
 
-#### - Height [in]
+#### - hDevice [in]
 
- The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
+ A handle to the display device (graphics context).
 
 
 #### - Width [in]
@@ -93,9 +93,9 @@ VOID APIENTRY SetTextFilterSize(
  The width of the monochrome convolution filter. The width can be from 1 to 7 texels.
 
 
-#### - hDevice [in]
+#### - Height [in]
 
- A handle to the display device (graphics context).
+ The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
 
 
 ## -returns
@@ -120,9 +120,9 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 

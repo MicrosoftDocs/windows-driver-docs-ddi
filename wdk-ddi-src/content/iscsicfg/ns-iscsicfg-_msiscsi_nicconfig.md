@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ee40ea1f-fe9b-4126-b5b1-83f60cf51909
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsicfg/MSiSCSI_NICConfig, iscsicfg/PMSiSCSI_NICConfig, PMSiSCSI_NICConfig, _MSiSCSI_NICConfig, *PMSiSCSI_NICConfig, storage.msiscsi_nicconfig, MSiSCSI_NICConfig structure [Storage Devices], MSiSCSI_NICConfig, PMSiSCSI_NICConfig structure pointer [Storage Devices], structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml
+ms.keywords: iscsicfg/PMSiSCSI_NICConfig, _MSiSCSI_NICConfig, storage.msiscsi_nicconfig, iscsicfg/MSiSCSI_NICConfig, PMSiSCSI_NICConfig, MSiSCSI_NICConfig, *PMSiSCSI_NICConfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml, PMSiSCSI_NICConfig structure pointer [Storage Devices], MSiSCSI_NICConfig structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_NICConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_NICConfig, MSiSCSI_NICConfig"
+req.typenames: MSiSCSI_NICConfig, *PMSiSCSI_NICConfig
 ---
 
 # _MSiSCSI_NICConfig structure

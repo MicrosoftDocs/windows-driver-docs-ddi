@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1e0b4b66-f9aa-4315-a07d-b6fd47f10371
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_PosDeviceType, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType, PosDeviceType_BarcodeScanner, pos.posdevicetype, PosDeviceType_MagneticStripeReader, PosDeviceType_Printer, PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_Unknown, PosDeviceType, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, PosDeviceType_Max, PosDeviceType enumeration, pointofservicecommontypes/PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_Max, PosDeviceType_Unknown"
+ms.keywords: pos.posdevicetype, PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_Max, PosDeviceType, PosDeviceType enumeration, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType_CashDrawer, PosDeviceType_Unknown, PosDeviceType_Printer, PosDeviceType_CashDrawer, PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType, PosDeviceType_Max, _PosDeviceType, pointofservicecommontypes/PosDeviceType_Unknown, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_Printer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

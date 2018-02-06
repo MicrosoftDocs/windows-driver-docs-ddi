@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d97b852-57ba-4696-879b-d93a8f539304
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_SendRPL_IN structure pointer [Storage Devices], hbapiwmi/PSM_SendRPL_IN, hbapiwmi/SM_SendRPL_IN, SM_SendRPL_IN structure [Storage Devices], SM_SendRPL_IN, structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml, _SM_SendRPL_IN, PSM_SendRPL_IN, *PSM_SendRPL_IN, storage.sm_sendrpl_in
+ms.keywords: PSM_SendRPL_IN, structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml, hbapiwmi/SM_SendRPL_IN, _SM_SendRPL_IN, hbapiwmi/PSM_SendRPL_IN, SM_SendRPL_IN, *PSM_SendRPL_IN, PSM_SendRPL_IN structure pointer [Storage Devices], SM_SendRPL_IN structure [Storage Devices], storage.sm_sendrpl_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

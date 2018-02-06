@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoDecoderConfigCount
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT callback
@@ -90,14 +90,14 @@ A handle to the display device (graphics context).
 
 
 
-#### - pConfigCount [out]
-
-A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
-
-
 #### - pDecodeDesc [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+
+
+#### - pConfigCount [out]
+
+A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
 
 
 ## -returns

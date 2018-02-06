@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a73a3bb5-f9f4-41d7-9df7-c7f36a01d157
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, GetFieldTypeAndOffset, debugger.getfieldtypeandoffset, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols3
+ms.keywords: GetFieldTypeAndOffset method [Windows Debugging], GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetFieldTypeAndOffset
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetFieldTypeAndOffset method

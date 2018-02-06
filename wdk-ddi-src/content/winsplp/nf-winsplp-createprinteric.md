@@ -7,8 +7,8 @@ old-location: print\createprinteric.htm
 old-project: print
 ms.assetid: 87C99B3A-EF77-4D87-9953-BBE9628D2A3D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winsplp/CreatePrinterIC, CreatePrinterIC, print.createprinteric, CreatePrinterIC function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: print.createprinteric, winsplp/CreatePrinterIC, CreatePrinterIC, CreatePrinterIC function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

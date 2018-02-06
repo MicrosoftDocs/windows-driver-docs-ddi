@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c8f0005-523b-4223-9859-a586f73db206
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.uninitialize, ExtExtension, Uninitialize method [Windows Debugging], ExtExtension::Uninitialize, Uninitialize method [Windows Debugging], ExtExtension class, EngExtCpp_Ref_614648b0-a948-4066-bec1-0840e2cf08ec.xml, ExtExtension class [Windows Debugging], Uninitialize method, Uninitialize
+ms.keywords: ExtExtension class [Windows Debugging], Uninitialize method, Uninitialize method [Windows Debugging], ExtExtension, ExtExtension::Uninitialize, debugger.uninitialize, Uninitialize, EngExtCpp_Ref_614648b0-a948-4066-bec1-0840e2cf08ec.xml, Uninitialize method [Windows Debugging], ExtExtension class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,11 +84,11 @@ There may or may not be a debugging session active when this function is called,
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
 
  
 

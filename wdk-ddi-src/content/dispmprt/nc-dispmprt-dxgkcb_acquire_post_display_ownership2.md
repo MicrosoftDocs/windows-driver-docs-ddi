@@ -40,7 +40,7 @@ apiname:
 -	DxgkcbAcquirePostDisplayOwnership2
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
 ---
 
 # DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback

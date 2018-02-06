@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE, _PEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, *PPEP_POWER_CONTROL_COMPLETE
+ms.keywords: "_PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, pepfx/PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

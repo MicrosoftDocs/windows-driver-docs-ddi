@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAcquireSpinLock routine [Storage Devices], storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, storport/StorPortAcquireSpinLock, storage.storportacquirespinlock, StorPortAcquireSpinLock
+ms.keywords: StorPortAcquireSpinLock, storport/StorPortAcquireSpinLock, storage.storportacquirespinlock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, StorPortAcquireSpinLock routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

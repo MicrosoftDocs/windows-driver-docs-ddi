@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bba47250-0344-4b5d-8461-d481519ba9ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltGetLowerInstance routine [Installable File System Drivers], FltGetLowerInstance, FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, ifsk.fltgetlowerinstance, fltkernel/FltGetLowerInstance
+ms.keywords: FltGetLowerInstance routine [Installable File System Drivers], ifsk.fltgetlowerinstance, fltkernel/FltGetLowerInstance, FltGetLowerInstance, FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,19 +117,19 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetbottominstance.md">FltGetBottomInstance</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetbottominstance.md">FltGetBottomInstance</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetupperinstance.md">FltGetUpperInstance</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
  
 

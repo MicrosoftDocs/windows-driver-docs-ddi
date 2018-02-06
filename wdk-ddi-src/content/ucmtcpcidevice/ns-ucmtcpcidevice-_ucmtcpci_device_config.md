@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74de7f2a-8738-472b-8a22-983a82e29fcb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UCMTCPCI_DEVICE_CONFIG structure [Buses], buses.ucmtcpci_device_config, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, _UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG
+ms.keywords: PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], buses.ucmtcpci_device_config, _UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCMTCPCI_DEVICE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG
+req.typenames: "*PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG"
 req.product: Windows 10 or later.
 ---
 

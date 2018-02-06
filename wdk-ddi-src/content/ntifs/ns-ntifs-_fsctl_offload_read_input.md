@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 11F9FFC6-D2F6-4CCA-9459-CF2639AE652D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.fsctl_offload_read_input, PFSCTL_OFFLOAD_READ_INPUT, _FSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT, ntifs/PFSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT structure pointer [Installable File System Drivers], ntifs/FSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT structure [Installable File System Drivers]
+ms.keywords: PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT structure pointer [Installable File System Drivers], ifsk.fsctl_offload_read_input, ntifs/PFSCTL_OFFLOAD_READ_INPUT, _FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT structure [Installable File System Drivers], ntifs/FSCTL_OFFLOAD_READ_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FSCTL_OFFLOAD_READ_INPUT
 product: Windows
 targetos: Windows
-req.typenames: FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT
+req.typenames: "*PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT"
 ---
 
 # _FSCTL_OFFLOAD_READ_INPUT structure
@@ -117,9 +117,9 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
-
 <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_output.md">FSCTL_OFFLOAD_READ_OUTPUT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
 
  
 

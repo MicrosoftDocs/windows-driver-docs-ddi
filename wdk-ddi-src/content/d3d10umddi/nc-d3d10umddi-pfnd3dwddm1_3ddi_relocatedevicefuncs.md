@@ -40,7 +40,7 @@ apiname:
 -	RelocateDeviceFuncs(D3D11_2)
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS callback
@@ -84,14 +84,14 @@ VOID APIENTRY* RelocateDeviceFuncs(D3D11_2)(
 
 
 
-#### - DeviceFuncs [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs.md">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
-
-
 #### - hDevice
 
 A handle to the display device (graphics context).
+
+
+#### - DeviceFuncs [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs.md">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
 
 
 ## -returns

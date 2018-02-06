@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetVersion, VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, VideoPortGetVersion function [Display Devices], VideoPortGetVersion, display.videoportgetversion
+ms.keywords: video/VideoPortGetVersion, VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, VideoPortGetVersion, VideoPortGetVersion function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

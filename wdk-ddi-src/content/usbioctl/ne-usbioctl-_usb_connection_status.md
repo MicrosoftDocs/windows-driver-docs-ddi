@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/DeviceHubNestedTooDeeply, usbioctl/DeviceInLegacyHub, DeviceHubNestedTooDeeply, USB_CONNECTION_STATUS enumeration [Buses], USB_CONNECTION_STATUS, _USB_CONNECTION_STATUS, usbioctl/DeviceReset, usbioctl/DeviceGeneralFailure, DeviceGeneralFailure, DeviceEnumerating, NoDeviceConnected, usbioctl/DeviceNotEnoughPower, buses.usb_connection_status, usbioctl/PUSB_CONNECTION_STATUS, DeviceConnected, DeviceNotEnoughBandwidth, PUSB_CONNECTION_STATUS, usbioctl/NoDeviceConnected, DeviceCausedOvercurrent, DeviceReset, PUSB_CONNECTION_STATUS enumeration pointer [Buses], usbioctl/DeviceNotEnoughBandwidth, *PUSB_CONNECTION_STATUS, usbioctl/DeviceConnected, usbioctl/DeviceFailedEnumeration, DeviceNotEnoughPower, usbioctl/USB_CONNECTION_STATUS, DeviceInLegacyHub, usbioctl/DeviceEnumerating, usbioctl/DeviceCausedOvercurrent, DeviceFailedEnumeration, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml
+ms.keywords: usbioctl/DeviceConnected, usbioctl/DeviceInLegacyHub, DeviceInLegacyHub, _USB_CONNECTION_STATUS, usbioctl/NoDeviceConnected, NoDeviceConnected, usbioctl/DeviceFailedEnumeration, DeviceConnected, DeviceCausedOvercurrent, usbioctl/DeviceNotEnoughPower, buses.usb_connection_status, usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceNotEnoughBandwidth, *PUSB_CONNECTION_STATUS, USB_CONNECTION_STATUS, DeviceHubNestedTooDeeply, PUSB_CONNECTION_STATUS, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, DeviceNotEnoughBandwidth, DeviceNotEnoughPower, usbioctl/USB_CONNECTION_STATUS, DeviceEnumerating, usbioctl/DeviceReset, DeviceFailedEnumeration, DeviceGeneralFailure, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/DeviceGeneralFailure, USB_CONNECTION_STATUS enumeration [Buses], PUSB_CONNECTION_STATUS enumeration pointer [Buses], DeviceReset, usbioctl/DeviceEnumerating, usbioctl/DeviceHubNestedTooDeeply
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USB_CONNECTION_STATUS
 product: Windows
 targetos: Windows
-req.typenames: USB_CONNECTION_STATUS, *PUSB_CONNECTION_STATUS
+req.typenames: "*PUSB_CONNECTION_STATUS, USB_CONNECTION_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -146,11 +146,11 @@ The USB bus driver reports connection status in a <a href="..\usbioctl\ns-usbioc
 
 ## -see-also
 
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
+
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
  
 

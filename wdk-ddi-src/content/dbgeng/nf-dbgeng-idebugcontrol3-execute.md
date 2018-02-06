@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 595aa371-ff7e-48e2-b29a-a7aabc70ebd7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], Execute method, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, Execute method [Windows Debugging], Execute method [Windows Debugging], IDebugControl2 interface, Execute method [Windows Debugging], IDebugControl interface, IDebugControl::Execute, IDebugControl2 interface [Windows Debugging], Execute method, dbgeng/IDebugControl2::Execute, IDebugControl3 interface [Windows Debugging], Execute method, IDebugControl3, Execute, IDebugControl2::Execute, IDebugControl3::Execute, dbgeng/IDebugControl3::Execute, dbgeng/IDebugControl::Execute, debugger.execute, Execute method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3 interface [Windows Debugging], Execute method, Execute, IDebugControl3, Execute method [Windows Debugging], IDebugControl2 interface, IDebugControl::Execute, dbgeng/IDebugControl3::Execute, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, debugger.execute, dbgeng/IDebugControl2::Execute, Execute method [Windows Debugging], IDebugControl interface, Execute method [Windows Debugging], IDebugControl3 interface, Execute method [Windows Debugging], dbgeng/IDebugControl::Execute, IDebugControl2 interface [Windows Debugging], Execute method, IDebugControl2::Execute, IDebugControl3::Execute, IDebugControl interface [Windows Debugging], Execute method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.Execute
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::Execute method
@@ -155,13 +155,13 @@ This method executes the given command string.  If the string has multiple comma
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
  
 

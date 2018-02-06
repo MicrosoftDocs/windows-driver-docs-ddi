@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4::SetEventFilterCommandWide, debugger.seteventfiltercommandwide, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, SetEventFilterCommandWide, IDebugControl4, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4, debugger.seteventfiltercommandwide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, SetEventFilterCommandWide, dbgeng/IDebugControl4::SetEventFilterCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.SetEventFilterCommandWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::SetEventFilterCommandWide method
@@ -111,13 +111,13 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
  
 

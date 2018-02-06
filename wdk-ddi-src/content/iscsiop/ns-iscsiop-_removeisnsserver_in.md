@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e72834-4866-42f2-842e-0a30278acab8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRemoveiSNSServer_IN, iscsiop/RemoveiSNSServer_IN, structs-iSCSI_b79fe0e4-386c-4b5c-9b43-ef8fdb7f4b6a.xml, iscsiop/PRemoveiSNSServer_IN, RemoveiSNSServer_IN structure [Storage Devices], PRemoveiSNSServer_IN structure pointer [Storage Devices], *PRemoveiSNSServer_IN, _RemoveiSNSServer_IN, storage.removeisnsserver_in, RemoveiSNSServer_IN
+ms.keywords: structs-iSCSI_b79fe0e4-386c-4b5c-9b43-ef8fdb7f4b6a.xml, _RemoveiSNSServer_IN, iscsiop/PRemoveiSNSServer_IN, *PRemoveiSNSServer_IN, RemoveiSNSServer_IN, PRemoveiSNSServer_IN structure pointer [Storage Devices], PRemoveiSNSServer_IN, iscsiop/RemoveiSNSServer_IN, storage.removeisnsserver_in, RemoveiSNSServer_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemoveiSNSServer_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PRemoveiSNSServer_IN, RemoveiSNSServer_IN"
+req.typenames: RemoveiSNSServer_IN, *PRemoveiSNSServer_IN
 ---
 
 # _RemoveiSNSServer_IN structure

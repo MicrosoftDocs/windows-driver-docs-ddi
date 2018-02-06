@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32a396c9-01a5-4e17-bcb5-659f7a88c0ef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA, bdamedia/KS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, bdamedia/PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], PKS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA, stream.ks_datarange_bda_antenna
+ms.keywords: KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], *PKS_DATARANGE_BDA_ANTENNA, bdamedia/PKS_DATARANGE_BDA_ANTENNA, stream.ks_datarange_bda_antenna, PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, KS_DATARANGE_BDA_ANTENNA, tagKS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA, bdamedia/KS_DATARANGE_BDA_ANTENNA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,9 +85,9 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
 
  
 

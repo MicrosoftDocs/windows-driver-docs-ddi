@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92E90C2A-D59C-4A38-A444-978B16170B89
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], stream.bda_ipv4_address_list, bdatypes/PBDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices], BDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST, _BDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST
+ms.keywords: BDA_IPv4_ADDRESS_LIST, _BDA_IPv4_ADDRESS_LIST, bdatypes/PBDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], stream.bda_ipv4_address_list, bdatypes/BDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

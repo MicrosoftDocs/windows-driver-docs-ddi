@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportqueueworkitem, StorPortQueueWorkItem routine [Storage Devices], StorPortQueueWorkItem, storport/StorPortQueueWorkItem
+ms.keywords: storport/StorPortQueueWorkItem, storage.storportqueueworkitem, StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,11 +150,11 @@ The work item was successfully queued.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
 <a href="..\storport\nc-storport-hw_workitem.md">HwStorWorkItem</a>
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, ZwLockFile routine [Kernel-Mode Driver Architecture], kernel.zwlockfile, ZwLockFile, ntifs/NtLockFile, ntifs/ZwLockFile, NtLockFile
+ms.keywords: ZwLockFile, NtLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], kernel.zwlockfile, ntifs/ZwLockFile, ntifs/NtLockFile, k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

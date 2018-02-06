@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f8a15cb0-92c5-4637-934e-021fa7969208
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM structure [Streaming Media Devices], PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml, PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM, ks/KSMULTIPLE_ITEM, stream.ksmultiple_item
+ms.keywords: stream.ksmultiple_item, PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks/KSMULTIPLE_ITEM, PKSMULTIPLE_ITEM, ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml, KSMULTIPLE_ITEM, ks/PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM structure [Streaming Media Devices], *PKSMULTIPLE_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

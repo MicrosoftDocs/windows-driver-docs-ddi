@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6898ca45-e4a2-41ad-a47e-6dfbcc60b00a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortUchar routine [Storage Devices], storage.storportreadportuchar, storprt_de88c383-95ac-4f3e-b02d-aec76132e4c3.xml, StorPortReadPortUchar, storport/StorPortReadPortUchar
+ms.keywords: StorPortReadPortUchar routine [Storage Devices], StorPortReadPortUchar, storprt_de88c383-95ac-4f3e-b02d-aec76132e4c3.xml, storport/StorPortReadPortUchar, storage.storportreadportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

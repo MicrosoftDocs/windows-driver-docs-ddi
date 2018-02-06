@@ -40,7 +40,7 @@ apiname:
 -	CreateVideoProcessor
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback
@@ -99,9 +99,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - hRTVideoProcessor [in]
+#### - pCreateData [in]
 
-A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
 
 
 #### - hVideoProcessor [in]
@@ -109,9 +109,9 @@ A handle to the video processor object that the driver should use when it calls 
 A handle to the driver's private data for the video processor object. For more information, see the Remarks section.
 
 
-#### - pCreateData [in]
+#### - hRTVideoProcessor [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
+A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

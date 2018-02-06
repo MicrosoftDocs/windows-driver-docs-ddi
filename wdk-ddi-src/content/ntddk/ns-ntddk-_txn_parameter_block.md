@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 973f440a-ba17-466a-a9f4-f21c07e854d8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_TXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, ifsk.txn_parameter_block, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], ntddk/PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], *PTXN_PARAMETER_BLOCK"
+ms.keywords: ntddk/PTXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], ntddk/_TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], _TXN_PARAMETER_BLOCK, ifsk.txn_parameter_block, *PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TXN_PARAMETER_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PTXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK"
+req.typenames: TXN_PARAMETER_BLOCK, *PTXN_PARAMETER_BLOCK
 ---
 
 # _TXN_PARAMETER_BLOCK structure
@@ -104,9 +104,9 @@ All miniversions created in a transaction go away when the transaction ends.  Af
 
 <a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=139790">FSCTL_TXFS_CREATE_MINIVERSION</a>
-
 <a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransactionParameterBlock</a>
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=139790">FSCTL_TXFS_CREATE_MINIVERSION</a>
 
  
 

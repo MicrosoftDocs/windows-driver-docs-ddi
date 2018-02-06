@@ -7,8 +7,8 @@ old-location: print\enumjobnamedproperties.htm
 old-project: print
 ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: EnumJobNamedProperties function [Print Devices], winspool/EnumJobNamedProperties, print.enumjobnamedproperties, EnumJobNamedProperties
+ms.date: 2/2/2018
+ms.keywords: EnumJobNamedProperties, print.enumjobnamedproperties, winspool/EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

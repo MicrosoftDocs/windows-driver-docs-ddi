@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 85035147-0ae8-482a-9a12-1e4e53ae1969
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml, *PCHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, _CHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], CHANGER_ELEMENT structure [Storage Devices], CHANGER_ELEMENT, storage.changer_element
+ms.keywords: PCHANGER_ELEMENT structure pointer [Storage Devices], *PCHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, storage.changer_element, PCHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices], _CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, CHANGER_ELEMENT, structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,24 +92,9 @@ Indicates the type of element. Can be one of the following values taken from the
 All elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <b>ChangerGetElementStatus</b> or <b>ChangerInitializeElementStatus</b> call.
 
 
-#### ChangerDoor
+#### ChangerTransport
 
-A mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <b>ChangerSetAccess</b> call.
-
-
-#### ChangerDrive
-
-A data transfer element where data can be read from and written to media. 
-
-
-#### ChangerIEPort
-
-An import/export element (IEport), which is a single or multiple-cartridge access port in some changers. An element is an IEport only if it is possible to move a piece of media from a slot to the IEport.
-
-
-#### ChangerKeypad
-
-The keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <b>ChangerSetAccess</b> call.
+The changer's robotic transport element, which is used to move media between IEports, slots, and drives.
 
 
 #### ChangerSlot
@@ -117,9 +102,24 @@ The keypad or other input control on the front panel of a changer. <b>ChangerKey
 A storage element, which is a slot in the changer in which media is stored when not mounted in a drive.
 
 
-#### ChangerTransport
+#### ChangerIEPort
 
-The changer's robotic transport element, which is used to move media between IEports, slots, and drives.
+An import/export element (IEport), which is a single or multiple-cartridge access port in some changers. An element is an IEport only if it is possible to move a piece of media from a slot to the IEport.
+
+
+#### ChangerDrive
+
+A data transfer element where data can be read from and written to media. 
+
+
+#### ChangerDoor
+
+A mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <b>ChangerSetAccess</b> call.
+
+
+#### ChangerKeypad
+
+The keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <b>ChangerSetAccess</b> call.
 
 
 ### -field ElementAddress

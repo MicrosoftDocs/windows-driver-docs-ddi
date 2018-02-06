@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BEF37F32-036D-4381-93B3-C159ABCFC3F9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_SWITCH_PORT_STATE, ntddndis/NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateCreated, NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateDeleted, NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateTeardown, NdisSwitchPortStateUnknown, ntddndis/NdisSwitchPortStateUnknown, NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_state, NdisSwitchPortStateTeardown"
+ms.keywords: ntddndis/NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateDeleted, NdisSwitchPortStateUnknown, netvista.ndis_switch_port_state, NdisSwitchPortStateDeleted, NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateTeardown, NdisSwitchPortStateTeardown, _NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateUnknown, ntddndis/NDIS_SWITCH_PORT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F6C1EE86-FB1C-467D-9E03-B238CB132D1A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], storage.storage_physical_node_data, ntddstor/STORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA, _STORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], ntddstor/PSTORAGE_PHYSICAL_NODE_DATA
+ms.keywords: STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, ntddstor/STORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], storage.storage_physical_node_data, _STORAGE_PHYSICAL_NODE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PHYSICAL_NODE_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA"
+req.typenames: STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
 ---
 
 # _STORAGE_PHYSICAL_NODE_DATA structure

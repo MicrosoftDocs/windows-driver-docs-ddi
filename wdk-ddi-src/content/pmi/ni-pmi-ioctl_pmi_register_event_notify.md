@@ -105,9 +105,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> is less than the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure. 
+The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
 
 
 #### -STATUS_PENDING
@@ -115,9 +115,9 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="
 The WDM driver that supports the PMI interface has put the IOCTL request in a queue and will complete it after a PMI event occurs. 
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> is less than the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure. 
 
 
 ## -remarks
@@ -145,13 +145,13 @@ For more information about the <a href="https://msdn.microsoft.com/80a96083-4de9
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
 <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
  
 

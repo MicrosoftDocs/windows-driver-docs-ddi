@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_whyconstrained.htm
 old-project: print
 ms.assetid: 99cd35f3-ebae-4ef2-b6fa-96853b3639ee
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WhyConstrained, IPrintCoreHelperUni::WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreHelperUni interface, WhyConstrained method [Print Devices], prcomoem/IPrintCoreHelperUni::WhyConstrained, IPrintCoreHelperUni interface [Print Devices], WhyConstrained method, print_unidrv-pscript_allplugins_82445c6f-68d1-41df-b94f-243cd072e1a0.xml, IPrintCoreHelperUni, print.iprintcorehelperuni_whyconstrained
+ms.date: 2/2/2018
+ms.keywords: WhyConstrained, print_unidrv-pscript_allplugins_82445c6f-68d1-41df-b94f-243cd072e1a0.xml, print.iprintcorehelperuni_whyconstrained, WhyConstrained method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, WhyConstrained method [Print Devices], prcomoem/IPrintCoreHelperUni::WhyConstrained, IPrintCoreHelperUni::WhyConstrained, IPrintCoreHelperUni interface [Print Devices], WhyConstrained method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -168,5 +168,5 @@ Note that the results from this method might not contain all of the options that
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::WhyConstrained method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::WhyConstrained method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

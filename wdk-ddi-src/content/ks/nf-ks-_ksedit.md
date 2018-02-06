@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream._ksedit, _KsEdit, avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, _KsEdit function [Streaming Media Devices]
+ms.keywords: ks/_KsEdit, _KsEdit function [Streaming Media Devices], _KsEdit, stream._ksedit, avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

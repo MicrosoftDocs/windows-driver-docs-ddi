@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequestcompletionparams_getreadparameters, IWDFIoRequestCompletionParams, GetReadParameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, umdf.iwdfiorequestcompletionparams_getreadparameters, IWDFIoRequestCompletionParams::GetReadParameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, IWDFIoRequestCompletionParams interface, GetReadParameters method, GetReadParameters method
+ms.keywords: wdf.iwdfiorequestcompletionparams_getreadparameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, GetReadParameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters method, umdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, IWDFIoRequestCompletionParams, GetReadParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams::GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequestCompletionParams.GetReadParameters
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

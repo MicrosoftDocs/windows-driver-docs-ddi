@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ac0da755-ea2f-4b68-947c-c314d114f273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCLFS_IO_STATISTICS_HEADER, PCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS_HEADER, wdm/PCLS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER, PCLS_IO_STATISTICS_HEADER, wdm/PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, *PCLFS_IO_STATISTICS_HEADER, wdm/PPCLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], wdm/CLS_IO_STATISTICS_HEADER, _CLS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], wdm/CLFS_IO_STATISTICS_HEADER, kernel.clfs_io_statistics_header, CLFS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], kstruct_a_4b54b209-c331-4bbd-b217-d77594bd6e46.xml
+ms.keywords: wdm/PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, kernel.clfs_io_statistics_header, PPCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS_HEADER, wdm/CLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER, wdm/PCLS_IO_STATISTICS_HEADER, PCLS_IO_STATISTICS_HEADER, wdm/PPCLS_IO_STATISTICS_HEADER, wdm/PPCLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], kstruct_a_4b54b209-c331-4bbd-b217-d77594bd6e46.xml, *PCLFS_IO_STATISTICS_HEADER, wdm/CLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLS_IO_STATISTICS_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PCLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER"
+req.typenames: PPCLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER
 req.product: Windows 10 or later.
 ---
 

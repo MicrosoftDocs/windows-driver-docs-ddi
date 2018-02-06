@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_FLAG_TARGET_KEY, *POPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_FLAG_PARENT_KEY, ntddk/OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN8, OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context
+ms.keywords: OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT, OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN8, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], ntddk/OPLOCK_KEY_CONTEXT, _OPLOCK_KEY_CONTEXT, OPLOCK_KEY_VERSION_WIN7, ifsk.oplock_key_context, *POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], POPLOCK_KEY_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OPLOCK_KEY_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT"
+req.typenames: OPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
 ---
 
 # _OPLOCK_KEY_CONTEXT structure

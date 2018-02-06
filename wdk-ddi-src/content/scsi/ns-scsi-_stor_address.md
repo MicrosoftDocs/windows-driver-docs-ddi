@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_ADDRESS_TYPE_BTL8, PSTOR_ADDRESS structure pointer [Storage Devices], storport/PSTOR_ADDRESS, STOR_ADDRESS_TYPE_UNKNOWN, STOR_ADDRESS, _STOR_ADDRESS, storage.stor_address, STOR_ADDRESS structure [Storage Devices], PSTOR_ADDRESS, *PSTOR_ADDRESS, storport/STOR_ADDRESS
+ms.keywords: "*PSTOR_ADDRESS, storport/PSTOR_ADDRESS, STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS, storport/STOR_ADDRESS, storage.stor_address, _STOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS_TYPE_UNKNOWN, PSTOR_ADDRESS, STOR_ADDRESS structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
+req.typenames: "*PSTOR_ADDRESS, STOR_ADDRESS"
 req.product: Windows 10 or later.
 ---
 

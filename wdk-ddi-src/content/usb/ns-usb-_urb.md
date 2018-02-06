@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f28b2c97-61ee-4843-b3c5-b3a55f172c50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usb/PURB, PURB, usb/URB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml, URB, URB structure [Buses], _URB, buses.urb, PURB structure pointer [Buses]
+ms.keywords: URB, buses.urb, PURB structure pointer [Buses], _URB, usb/URB, URB structure [Buses], PURB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml, usb/PURB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	URB
 product: Windows
 targetos: Windows
-req.typenames: URB, PURB
+req.typenames: PURB, URB
 req.product: Windows 10 or later.
 ---
 
@@ -208,9 +208,9 @@ For information about the function codes to set in each structure, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_urb.md">IOCTL_INTERNAL_USB_SUBMIT_URB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

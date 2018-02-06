@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], NtNotifyChangeKey, ZwNotifyChangeKey, kernel.zwnotifychangekey, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, ntifs/ZwNotifyChangeKey
+ms.keywords: ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey, k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], ZwNotifyChangeKey, NtNotifyChangeKey, kernel.zwnotifychangekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,6 +121,11 @@ Bitmask of operations that cause the driver to be notified. Specify one or more 
 
 
 
+#### REG_NOTIFY_CHANGE_NAME
+
+Notify the caller if a subkey is added or deleted.
+
+
 #### REG_NOTIFY_CHANGE_ATTRIBUTES
 
 Notify the caller of changes to the attributes of the key, such as the security descriptor information.
@@ -129,11 +134,6 @@ Notify the caller of changes to the attributes of the key, such as the security 
 #### REG_NOTIFY_CHANGE_LAST_SET
 
 Notify the caller of changes to a value of the key. This can include adding or deleting a value, or changing an existing value. (The caller receives no notification if the new value written to the key matches the previous value of the key.)
-
-
-#### REG_NOTIFY_CHANGE_NAME
-
-Notify the caller if a subkey is added or deleted.
 
 
 #### REG_NOTIFY_CHANGE_SECURITY
@@ -179,17 +179,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
 
 <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
  
 

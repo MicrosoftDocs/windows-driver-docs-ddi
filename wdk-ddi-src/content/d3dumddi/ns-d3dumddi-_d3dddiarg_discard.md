@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6efee74e-9e82-4631-8360-19061b0c015d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DISCARD, d3dumddi/D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], display.d3dddiarg_discard, _D3DDDIARG_DISCARD
+ms.keywords: D3DDDIARG_DISCARD structure [Display Devices], d3dumddi/D3DDDIARG_DISCARD, display.d3dddiarg_discard, D3DDDIARG_DISCARD, _D3DDDIARG_DISCARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,9 +98,9 @@ The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
  
 

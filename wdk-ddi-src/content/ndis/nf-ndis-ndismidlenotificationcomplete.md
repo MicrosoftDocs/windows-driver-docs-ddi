@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A6936B25-F804-4EF3-909C-7838346AC37E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismidlenotificationcomplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista], NdisMIdleNotificationComplete, ndis/NdisMIdleNotificationComplete
+ms.keywords: NdisMIdleNotificationComplete, netvista.ndismidlenotificationcomplete, ndis/NdisMIdleNotificationComplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,13 +100,13 @@ For more information on how miniport drivers complete NDIS selective suspend  id
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_idle_notification.md">IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION</a>
 
 <a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
 
-<a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
+<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_submit_idle_notification.md">IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION</a>
+<a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
 
 <b></b>
 

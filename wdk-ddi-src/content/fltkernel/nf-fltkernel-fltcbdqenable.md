@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cc9167cc-366e-4824-9968-1e2895a61a0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FltCbdqEnable, FltCbdqEnable function [Installable File System Drivers], ifsk.fltcbdqenable, FltApiRef_a_to_d_518b7b11-d2cd-4d69-9191-da63831da3bd.xml, fltkernel/FltCbdqEnable
+ms.keywords: ifsk.fltcbdqenable, FltCbdqEnable, FltCbdqEnable function [Installable File System Drivers], FltApiRef_a_to_d_518b7b11-d2cd-4d69-9191-da63831da3bd.xml, fltkernel/FltCbdqEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,15 +96,15 @@ If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest2_geteffectiveiotype, GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, IWDFIoRequest2 interface, GetEffectiveIoType method, GetEffectiveIoType method, IWDFIoRequest2 interface, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml
+ms.keywords: wudfddi/IWDFIoRequest2::GetEffectiveIoType, IWDFIoRequest2 interface, GetEffectiveIoType method, wdf.iwdfiorequest2_geteffectiveiotype, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, GetEffectiveIoType method, IWDFIoRequest2 interface, IWDFIoRequest2, GetEffectiveIoType, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.GetEffectiveIoType
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -85,9 +85,9 @@ For more information about accessing data buffers and when your driver should us
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
  
 

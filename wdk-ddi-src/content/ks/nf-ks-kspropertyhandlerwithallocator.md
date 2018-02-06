@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7e52667-b4ef-4807-867c-37b80af03b6b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspropertyhandlerwithallocator, KsPropertyHandlerWithAllocator, ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, KsPropertyHandlerWithAllocator function [Streaming Media Devices]
+ms.keywords: KsPropertyHandlerWithAllocator function [Streaming Media Devices], stream.kspropertyhandlerwithallocator, ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, KsPropertyHandlerWithAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

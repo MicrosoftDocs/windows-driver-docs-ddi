@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aff61006-8bc4-4916-9718-a852516fc4d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_BARRINGSTATUS_ENABLED, ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, RILCALLBARRINGSTATUSPARAMSSTATUS, RIL_BARRINGSTATUS_MAX, RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallbarringstatusparamsstatus, ntddrilapitypes/RIL_BARRINGSTATUS_MAX, RIL_BARRINGSTATUS_ENABLED
+ms.keywords: netvista.rilcallbarringstatusparamsstatus, RIL_BARRINGSTATUS_MAX, ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, RILCALLBARRINGSTATUSPARAMSSTATUS, RIL_BARRINGSTATUS_ENABLED, RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_BARRINGSTATUS_MAX, ntddrilapitypes/RIL_BARRINGSTATUS_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 93b4914c-53a1-4594-ac8d-4be1b0c9e4d7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fltkernel/FltDeletePushLock, FltApiRef_a_to_d_876710d9-ee11-413f-8889-f9a34cb423fd.xml, ifsk.fltdeletepushlock, FltDeletePushLock, FltDeletePushLock routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltDeletePushLock, FltDeletePushLock routine [Installable File System Drivers], FltApiRef_a_to_d_876710d9-ee11-413f-8889-f9a34cb423fd.xml, ifsk.fltdeletepushlock, FltDeletePushLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,13 +101,13 @@ To initialize a push lock, call <a href="..\fltkernel\nf-fltkernel-fltinitialize
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
 
  
 

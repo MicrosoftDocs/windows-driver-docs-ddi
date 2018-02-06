@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5065217-a74e-41b6-bc23-59b39948a450
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, netvista.ndisqueueioworkitem, NdisQueueIoWorkItem, ndis/NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisqueueioworkitem, ndis/NdisQueueIoWorkItem, NdisQueueIoWorkItem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,18 +88,18 @@ The entry point to the function that NDIS calls to process the work item. NDIS c
 
 
 
-#### NdisIoWorkItemHandle
-
-A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
-       <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">
-     NdisAllocateIoWorkItem</a> function.
-
-
 #### WorkItemContext
 
 A pointer to the context area that the driver passed to the 
        <i>WorkItemContext</i> parameter of 
        <b>NdisQueueIoWorkItem</b>.
+
+
+#### NdisIoWorkItemHandle
+
+A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
+       <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">
+     NdisAllocateIoWorkItem</a> function.
 
 
 ### -param WorkItemContext [in]
@@ -170,11 +170,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
 
-<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 <a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
+
+<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
 
  
 

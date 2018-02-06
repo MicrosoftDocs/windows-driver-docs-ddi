@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_setpointerpositionflags, DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, DXGK_SETPOINTERPOSITIONFLAGS, _DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS
+ms.keywords: "_DXGK_SETPOINTERPOSITIONFLAGS, DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, display.dxgk_setpointerpositionflags, DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

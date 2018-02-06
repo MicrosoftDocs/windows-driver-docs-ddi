@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUsbInterface, umdf.iwdfusbtargetdevice_retrieveusbinterface, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice, RetrieveUsbInterface method, IWDFUsbTargetDevice::RetrieveUsbInterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method
+ms.keywords: RetrieveUsbInterface method, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, IWDFUsbTargetDevice::RetrieveUsbInterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, umdf.iwdfusbtargetdevice_retrieveusbinterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, IWDFUsbTargetDevice, RetrieveUsbInterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,13 +140,13 @@ The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrie
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
  
 

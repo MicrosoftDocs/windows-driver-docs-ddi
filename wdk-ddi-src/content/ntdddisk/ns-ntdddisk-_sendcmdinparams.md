@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4c02da7e-2d93-4e0c-9666-acb380c6d39a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, storage.sendcmdinparams, ntdddisk/SENDCMDINPARAMS, *LPSENDCMDINPARAMS, *PSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], PSENDCMDINPARAMS, _SENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], LPSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, LPSENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS
+ms.keywords: ntdddisk/SENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS, PSENDCMDINPARAMS, LPSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], storage.sendcmdinparams, SENDCMDINPARAMS structure [Storage Devices], _SENDCMDINPARAMS, *PSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], ntdddisk/PSENDCMDINPARAMS, SENDCMDINPARAMS, *LPSENDCMDINPARAMS, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SENDCMDINPARAMS
 product: Windows
 targetos: Windows
-req.typenames: SENDCMDINPARAMS, *LPSENDCMDINPARAMS, *PSENDCMDINPARAMS
+req.typenames: SENDCMDINPARAMS, *PSENDCMDINPARAMS, *LPSENDCMDINPARAMS
 ---
 
 # _SENDCMDINPARAMS structure

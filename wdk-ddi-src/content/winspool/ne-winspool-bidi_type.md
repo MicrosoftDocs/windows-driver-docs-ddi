@@ -7,8 +7,8 @@ old-location: print\bidi_type.htm
 old-project: print
 ms.assetid: ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.bidi_type, winspool/BIDI_BLOB, winspool/BIDI_NULL, winspool/BIDI_STRING, BIDI_BOOL, BIDI_TYPE, BIDI_ENUM, BIDI_FLOAT, winspool/BIDI_ENUM, BIDI_STRING, BIDI_BLOB, BIDI_TEXT, winspool/BIDI_TYPE, winspool/BIDI_FLOAT, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, winspool/BIDI_INT, winspool/BIDI_TEXT, winspool/BIDI_BOOL, BIDI_NULL, BIDI_INT, BIDI_TYPE enumeration [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: BIDI_TEXT, BIDI_TYPE enumeration [Print Devices], BIDI_BOOL, BIDI_STRING, winspool/BIDI_NULL, winspool/BIDI_BLOB, winspool/BIDI_ENUM, winspool/BIDI_TYPE, winspool/BIDI_BOOL, print.bidi_type, winspool/BIDI_TEXT, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, BIDI_INT, BIDI_ENUM, BIDI_NULL, winspool/BIDI_STRING, BIDI_FLOAT, winspool/BIDI_FLOAT, winspool/BIDI_INT, BIDI_BLOB, BIDI_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

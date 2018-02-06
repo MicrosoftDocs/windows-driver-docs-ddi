@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/SYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT, wdm/PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, _SYSTEM_POWER_STATE_CONTEXT
+ms.keywords: wdm/SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PSYSTEM_POWER_STATE_CONTEXT, _SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], *PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT, wdm/PSYSTEM_POWER_STATE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSTEM_POWER_STATE_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

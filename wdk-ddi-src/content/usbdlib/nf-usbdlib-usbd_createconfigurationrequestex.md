@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 9683b171-4f2e-4a18-89b7-76d49001be37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml, buses.usbd_createconfigurationrequestex, usbdlib/USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], USBD_CreateConfigurationRequestEx
+ms.keywords: usbdlib/USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml, buses.usbd_createconfigurationrequestex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_CreateConfigurationRequestEx
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -107,13 +107,13 @@ You can  allocate the configuration descriptor and the array from nonpaged or pa
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-
 <a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>
+
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
  
 

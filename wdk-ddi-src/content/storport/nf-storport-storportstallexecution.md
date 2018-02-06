@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d635d93b-3e69-4ce5-9dc0-60186417d009
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, storport/StorPortStallExecution, storage.storportstallexecution, StorPortStallExecution, StorPortStallExecution routine [Storage Devices]
+ms.keywords: storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, StorPortStallExecution, storage.storportstallexecution, StorPortStallExecution routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

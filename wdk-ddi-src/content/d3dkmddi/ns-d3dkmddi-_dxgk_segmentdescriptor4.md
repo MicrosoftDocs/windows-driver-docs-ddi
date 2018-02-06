@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_SEGMENTDESCRIPTOR4, display.dxgk_segmentdescriptor4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], DXGK_SEGMENTDESCRIPTOR4, _DXGK_SEGMENTDESCRIPTOR4
+ms.keywords: "_DXGK_SEGMENTDESCRIPTOR4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], DXGK_SEGMENTDESCRIPTOR4, display.dxgk_segmentdescriptor4, d3dkmddi/DXGK_SEGMENTDESCRIPTOR4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

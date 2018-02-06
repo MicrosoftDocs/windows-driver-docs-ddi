@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9154848b-ecbe-4f21-9d27-9013f97c5dde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER, OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, display.d3dkmt_setvidpnsourceowner, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER
+ms.keywords: "_D3DKMT_SETVIDPNSOURCEOWNER, display.d3dkmt_setvidpnsourceowner, OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], D3DKMT_SETVIDPNSOURCEOWNER, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6e7c0aa1-5919-4451-8c5d-97d17c2ed192
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_RegisterLibraryV2, storage.hba_registerlibraryv2, HBA_RegisterLibraryV2 function [Storage Devices], fibreHBA_rtns_1fc54b78-e8e8-46b0-a148-ce06f1a9f811.xml, HBA_RegisterLibraryV2
+ms.keywords: HBA_RegisterLibraryV2 function [Storage Devices], hbaapi/HBA_RegisterLibraryV2, HBA_RegisterLibraryV2, storage.hba_registerlibraryv2, fibreHBA_rtns_1fc54b78-e8e8-46b0-a148-ce06f1a9f811.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

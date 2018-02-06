@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c70c1f8-3c1c-4401-a7c4-14dc9bd0af04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient::CreateProcess, dbgeng/IDebugClient2::CreateProcess, IDebugClient2 interface [Windows Debugging], CreateProcess method, CreateProcess, CreateProcess method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient::CreateProcess, dbgeng/IDebugClient4::CreateProcess, IDebugClient interface [Windows Debugging], CreateProcess method, IDebugClient5 interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], IDebugClient5 interface, IDebugClient3::CreateProcess, IDebugClient2::CreateProcess, dbgeng/IDebugClient3::CreateProcess, debugger.createprocess, IDebugClient4::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient2 interface, CreateProcess method [Windows Debugging], IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, IDebugClient3 interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], CreateProcess method, IDebugClient5, IDebugClient5::CreateProcess, dbgeng/IDebugClient5::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient3 interface
+ms.keywords: IDebugClient4::CreateProcess, IDebugClient::CreateProcess, dbgeng/IDebugClient3::CreateProcess, IDebugClient2::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient4 interface, CreateProcess, CreateProcess method [Windows Debugging], IDebugClient interface, IDebugClient2 interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], IDebugClient3 interface, IDebugClient5, IDebugClient3 interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], IDebugClient5 interface, IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, IDebugClient3::CreateProcess, dbgeng/IDebugClient4::CreateProcess, CreateProcess method [Windows Debugging], IDebugClient5 interface [Windows Debugging], CreateProcess method, dbgeng/IDebugClient5::CreateProcess, dbgeng/IDebugClient::CreateProcess, IDebugClient4 interface [Windows Debugging], CreateProcess method, IDebugClient5::CreateProcess, IDebugClient interface [Windows Debugging], CreateProcess method, debugger.createprocess, CreateProcess method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient2::CreateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.CreateProcess
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::CreateProcess method
@@ -125,25 +125,25 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
  
 

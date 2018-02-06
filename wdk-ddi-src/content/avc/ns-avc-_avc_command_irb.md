@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0aefbce4-a838-40c4-b31f-ff8dd13621f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, AVC_COMMAND_IRB structure [Streaming Media Devices], avc/PAVC_COMMAND_IRB, PAVC_COMMAND_IRB, AVC_COMMAND_IRB, _AVC_COMMAND_IRB, *PAVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], avc/AVC_COMMAND_IRB, stream.avc_command_irb
+ms.keywords: avc/PAVC_COMMAND_IRB, stream.avc_command_irb, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, AVC_COMMAND_IRB structure [Streaming Media Devices], _AVC_COMMAND_IRB, AVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], *PAVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, PAVC_COMMAND_IRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_COMMAND_IRB
 product: Windows
 targetos: Windows
-req.typenames: AVC_COMMAND_IRB, *PAVC_COMMAND_IRB
+req.typenames: "*PAVC_COMMAND_IRB, AVC_COMMAND_IRB"
 ---
 
 # _AVC_COMMAND_IRB structure
@@ -173,11 +173,11 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
 
 <a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: CB0DD6C8-DFB3-42E0-B38F-341677A72E29
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode::GetMixFormat, GetMixFormat, audio.iminiportaudioenginenode_getmixformat, GetMixFormat method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetMixFormat, IMiniportAudioEngineNode interface [Audio Devices], GetMixFormat method, IMiniportAudioEngineNode, GetMixFormat method [Audio Devices]
+ms.keywords: GetMixFormat method [Audio Devices], GetMixFormat, GetMixFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, audio.iminiportaudioenginenode_getmixformat, IMiniportAudioEngineNode::GetMixFormat, portcls/IMiniportAudioEngineNode::GetMixFormat, IMiniportAudioEngineNode interface [Audio Devices], GetMixFormat method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

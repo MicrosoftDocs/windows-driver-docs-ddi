@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, *PSCO_INDICATION_CODE, SCO_INDICATION_CODE, ScoIndicationRemoteDisconnect, bthddi/ScoIndicationRemoteConnect, bthddi/PSCO_INDICATION_CODE, ScoIndicationAddReference, bthddi/ScoIndicationRemoteDisconnect, _SCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/SCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], PSCO_INDICATION_CODE, bltooth.sco_indication_code, bthddi/ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect
+ms.keywords: ScoIndicationRemoteDisconnect, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], SCO_INDICATION_CODE enumeration [Bluetooth Devices], bltooth.sco_indication_code, bthddi/ScoIndicationAddReference, bthddi/ScoIndicationReleaseReference, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect, ScoIndicationAddReference, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, SCO_INDICATION_CODE, PSCO_INDICATION_CODE, *PSCO_INDICATION_CODE, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, _SCO_INDICATION_CODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,9 +103,9 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
  
 

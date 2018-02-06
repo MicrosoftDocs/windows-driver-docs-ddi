@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestImpersonate method, WdfRequestImpersonate, wdfrequest/WdfRequestImpersonate, wdf.wdfrequestimpersonate, PFN_WDFREQUESTIMPERSONATE
+ms.keywords: WdfRequestImpersonate method, wdf.wdfrequestimpersonate, WdfRequestImpersonate, wdfrequest/WdfRequestImpersonate, PFN_WDFREQUESTIMPERSONATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,9 +113,9 @@ For more information, see <a href="https://msdn.microsoft.com/02EA93CE-3C4D-4F6F
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
 
  
 

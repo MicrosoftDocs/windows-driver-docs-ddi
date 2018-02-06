@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74BE4FF9-0342-4942-A58F-9C6D5F76E5F0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psmakesilocontextpermanent, PsMakeSiloContextPermanent, ntddk/PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsMakeSiloContextPermanent, kernel.psmakesilocontextpermanent, ntddk/PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

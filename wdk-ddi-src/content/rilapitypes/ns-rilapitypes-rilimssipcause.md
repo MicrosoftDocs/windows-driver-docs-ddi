@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae98e9e7-7001-43dd-9735-e90bb998694c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista], *LPRILIMSSIPCAUSE, RILIMSSIPCAUSE, netvista.rilimssipcause_2, rilapitypes/RILIMSSIPCAUSE
+ms.keywords: netvista.rilimssipcause_2, *LPRILIMSSIPCAUSE, rilapitypes/RILIMSSIPCAUSE, RILIMSSIPCAUSE, RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILIMSSIPCAUSE
 product: Windows
 targetos: Windows
-req.typenames: RILIMSSIPCAUSE, *LPRILIMSSIPCAUSE
+req.typenames: "*LPRILIMSSIPCAUSE, RILIMSSIPCAUSE"
 req.product: Windows 10 or later.
 ---
 

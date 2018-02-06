@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, IoReportTargetDeviceChangeAsynchronous, wdm/IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], kernel.ioreporttargetdevicechangeasynchronous, k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

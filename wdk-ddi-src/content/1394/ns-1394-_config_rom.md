@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0ab96bc2-a89f-42cf-9ee2-020b47dff4cf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCONFIG_ROM structure pointer [Buses], *PCONFIG_ROM, CONFIG_ROM, 1394/PCONFIG_ROM, PCONFIG_ROM, 1394stct_83c9e36a-b3d7-46cc-9dc6-1e40095d041b.xml, IEEE.config_rom, 1394/CONFIG_ROM, _CONFIG_ROM, CONFIG_ROM structure [Buses]
+ms.keywords: 1394stct_83c9e36a-b3d7-46cc-9dc6-1e40095d041b.xml, IEEE.config_rom, PCONFIG_ROM structure pointer [Buses], CONFIG_ROM, 1394/PCONFIG_ROM, _CONFIG_ROM, *PCONFIG_ROM, PCONFIG_ROM, CONFIG_ROM structure [Buses], 1394/CONFIG_ROM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

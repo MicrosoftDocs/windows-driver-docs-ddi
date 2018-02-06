@@ -40,7 +40,7 @@ apiname:
 -	AgpFreeVirtual
 product: Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
 req.product: Windows 10 or later.
 ---
 

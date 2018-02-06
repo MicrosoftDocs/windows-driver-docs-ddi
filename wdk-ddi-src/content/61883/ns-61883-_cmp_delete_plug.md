@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 93F81B97-5C37-47BF-8867-0FBEFA8F6D3B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cmp_delete_plug, 61883/CMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], CMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], 61883/PCMP_DELETE_PLUG, *PCMP_DELETE_PLUG, PCMP_DELETE_PLUG, _CMP_DELETE_PLUG
+ms.keywords: PCMP_DELETE_PLUG structure pointer [Buses], IEEE.cmp_delete_plug, 61883/CMP_DELETE_PLUG, CMP_DELETE_PLUG, _CMP_DELETE_PLUG, *PCMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], 61883/PCMP_DELETE_PLUG, PCMP_DELETE_PLUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_DELETE_PLUG
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_DELETE_PLUG, CMP_DELETE_PLUG"
+req.typenames: CMP_DELETE_PLUG, *PCMP_DELETE_PLUG
 ---
 
 # _CMP_DELETE_PLUG structure

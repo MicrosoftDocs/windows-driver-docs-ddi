@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata, _D3D11_1DDI_GETCAPTUREHANDLEDATA
+ms.keywords: d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, _D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], D3D11_1DDI_GETCAPTUREHANDLEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

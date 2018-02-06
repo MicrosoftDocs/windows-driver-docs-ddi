@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f636d85d-f7bb-4ebe-b03f-3b9c3c17bacd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCMRESOURCELISTREMOVE, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, wdf.wdfcmresourcelistremove, WdfCmResourceListRemove, WdfCmResourceListRemove method, wdfresource/WdfCmResourceListRemove, kmdf.wdfcmresourcelistremove
+ms.keywords: wdf.wdfcmresourcelistremove, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, PFN_WDFCMRESOURCELISTREMOVE, WdfCmResourceListRemove method, WdfCmResourceListRemove, kmdf.wdfcmresourcelistremove, wdfresource/WdfCmResourceListRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfCmResourceListRemove
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

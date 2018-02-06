@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: be503505-fb20-4a8d-b395-7e807cde9fb6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml, DXVA_DeinterlaceCaps structure [Display Devices], dxva/LPDXVA_DeinterlaceCaps, display.dxva_deinterlacecaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], dxva/DXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps, _DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps
+ms.keywords: LPDXVA_DeinterlaceCaps structure pointer [Display Devices], _DXVA_DeinterlaceCaps, dxva/DXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml, dxva/LPDXVA_DeinterlaceCaps, display.dxva_deinterlacecaps, LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_DeinterlaceCaps
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps"
+req.typenames: DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps
 ---
 
 # _DXVA_DeinterlaceCaps structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, IoFreeMdl routine [Kernel-Mode Driver Architecture], wdm/IoFreeMdl, kernel.iofreemdl, IoFreeMdl
+ms.keywords: kernel.iofreemdl, IoFreeMdl, k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, IoFreeMdl routine [Kernel-Mode Driver Architecture], wdm/IoFreeMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CDB72C6A-43E5-463B-97E5-44D22214C071
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSourceEntryStringWide, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryStringWide method, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.idebugsymbols3_getsourceentrystringwide
+ms.keywords: debugger.idebugsymbols3_getsourceentrystringwide, GetSourceEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSourceEntryStringWide, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryStringWide method, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, IDebugSymbols3, GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.GetSourceEntryStringWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourceEntryStringWide method

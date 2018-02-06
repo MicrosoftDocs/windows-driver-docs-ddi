@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: DB41648B-8812-4358-BECE-8029016E5631
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smartcrd.smartcard_reply, smclib/SMARTCARD_REPLY, *PSMARTCARD_REPLY, _SMARTCARD_REPLY, PSMARTCARD_REPLY, smclib/PSMARTCARD_REPLY, SMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], SMARTCARD_REPLY structure [Smart Card Reader Devices]
+ms.keywords: SMARTCARD_REPLY structure [Smart Card Reader Devices], *PSMARTCARD_REPLY, smclib/SMARTCARD_REPLY, smartcrd.smartcard_reply, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], smclib/PSMARTCARD_REPLY, SMARTCARD_REPLY, PSMARTCARD_REPLY, _SMARTCARD_REPLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SMARTCARD_REPLY
 product: Windows
 targetos: Windows
-req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
+req.typenames: "*PSMARTCARD_REPLY, SMARTCARD_REPLY"
 req.product: Windows 10 or later.
 ---
 

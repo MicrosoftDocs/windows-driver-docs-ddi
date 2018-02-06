@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4ffacbd6-dcdf-48a2-bf1e-6923d825bb09
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddk/PWHEA_XPF_NMI_DESCRIPTOR, whearef_47fae29e-d302-4028-961c-358ac647c0cc.xml, WHEA_XPF_NMI_DESCRIPTOR, ntddk/WHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_XPF_NMI_DESCRIPTOR, whea.whea_xpf_nmi_descriptor, PWHEA_XPF_NMI_DESCRIPTOR structure pointer [WHEA Drivers and Applications], _WHEA_XPF_NMI_DESCRIPTOR, *PWHEA_XPF_NMI_DESCRIPTOR
+ms.keywords: ntddk/PWHEA_XPF_NMI_DESCRIPTOR, _WHEA_XPF_NMI_DESCRIPTOR, whea.whea_xpf_nmi_descriptor, PWHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_47fae29e-d302-4028-961c-358ac647c0cc.xml, *PWHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/WHEA_XPF_NMI_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_NMI_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR"
+req.typenames: WHEA_XPF_NMI_DESCRIPTOR, *PWHEA_XPF_NMI_DESCRIPTOR
 ---
 
 # _WHEA_XPF_NMI_DESCRIPTOR structure

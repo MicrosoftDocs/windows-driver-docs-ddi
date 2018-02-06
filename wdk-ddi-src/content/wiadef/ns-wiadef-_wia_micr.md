@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: CAD08405-698C-4C3A-A03F-827837199CC8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiadef/WIA_MICR, _WIA_MICR, image.wia_micr, WIA_MICR structure [Imaging Devices], WIA_MICR
+ms.keywords: "_WIA_MICR, image.wia_micr, wiadef/WIA_MICR, WIA_MICR structure [Imaging Devices], WIA_MICR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,14 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchlength, ntstrsafe/RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], RtlStringCchLengthW, ntstrsafe/RtlStringCchLengthA, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml, RtlStringCchLength, RtlStringCchLengthA
+ms.keywords: RtlStringCchLengthW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchLengthW, ntstrsafe/RtlStringCchLengthA, kernel.rtlstringcchlength, RtlStringCchLengthW, RtlStringCchLength, RtlStringCchLengthA, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchLengthW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
 ---
 
 # RtlStringCchLengthA function

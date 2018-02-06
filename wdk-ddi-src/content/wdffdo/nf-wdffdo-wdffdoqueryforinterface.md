@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdffdoqueryforinterface, WdfFdoQueryForInterface method, DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, kmdf.wdffdoqueryforinterface, PFN_WDFFDOQUERYFORINTERFACE, WdfFdoQueryForInterface, wdffdo/WdfFdoQueryForInterface
+ms.keywords: WdfFdoQueryForInterface, wdffdo/WdfFdoQueryForInterface, wdf.wdffdoqueryforinterface, DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, kmdf.wdffdoqueryforinterface, WdfFdoQueryForInterface method, PFN_WDFFDOQUERYFORINTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

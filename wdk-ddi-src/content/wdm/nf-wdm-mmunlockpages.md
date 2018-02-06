@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 506f5fef-11fa-4d65-a180-c613cd8a8e1e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmUnlockPages, wdm/MmUnlockPages, k106_b8d8a984-9e0e-4322-bce1-2dd79e8d3a10.xml, kernel.mmunlockpages, MmUnlockPages routine [Kernel-Mode Driver Architecture]
+ms.keywords: k106_b8d8a984-9e0e-4322-bce1-2dd79e8d3a10.xml, MmUnlockPages routine [Kernel-Mode Driver Architecture], wdm/MmUnlockPages, kernel.mmunlockpages, MmUnlockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

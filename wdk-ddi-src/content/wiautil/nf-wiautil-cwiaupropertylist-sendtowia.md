@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: SendToWia method [Imaging Devices], SendToWia method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_sendtowia, CWiauPropertyList::SendToWia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia, SendToWia, CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SendToWia method
+ms.keywords: CWiauPropertyList, image.cwiaupropertylist_sendtowia, CWiauPropertyList::SendToWia, CWiauPropertyList interface [Imaging Devices], SendToWia method, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, SendToWia method [Imaging Devices], CWiauPropertyList interface, wiautil/CWiauPropertyList::SendToWia, SendToWia, SendToWia method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

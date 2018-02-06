@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1fd075c9-7d0e-4670-bac0-b7b8ba0a714f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFNamedPropertyStore::SetNamedValue, wudfddi/IWDFNamedPropertyStore::SetNamedValue, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, wdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue method, umdf.iwdfnamedpropertystore_setnamedvalue, IWDFNamedPropertyStore, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue, IWDFNamedPropertyStore interface, SetNamedValue method
+ms.keywords: SetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue method, wdf.iwdfnamedpropertystore_setnamedvalue, umdf.iwdfnamedpropertystore_setnamedvalue, wudfddi/IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore, SetNamedValue, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore.SetNamedValue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

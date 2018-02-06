@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient_getoutputlineprefix, GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, IDebugClient, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient::GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], IDebugClient::GetOutputLinePrefix
+ms.keywords: debugger.idebugclient_getoutputlineprefix, GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], dbgeng/IDebugClient::GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, IDebugClient, IDebugClient::GetOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient.GetOutputLinePrefix
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient::GetOutputLinePrefix method

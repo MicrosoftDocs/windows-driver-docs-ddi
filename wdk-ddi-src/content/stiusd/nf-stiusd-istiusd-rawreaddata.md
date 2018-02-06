@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD, image.istiusd_rawreaddata, IStiUSD interface [Imaging Devices], RawReadData method, stiusd/IStiUSD::RawReadData, RawReadData, RawReadData method [Imaging Devices], stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, IStiUSD::RawReadData, RawReadData method [Imaging Devices], IStiUSD interface
+ms.keywords: IStiUSD::RawReadData, stiusd/IStiUSD::RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], RawReadData method, image.istiusd_rawreaddata, IStiUSD, RawReadData, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawReadData
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

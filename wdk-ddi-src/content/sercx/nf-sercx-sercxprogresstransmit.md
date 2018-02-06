@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxProgressTransmit, serports.sercxprogresstransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports]
+ms.keywords: SerCxProgressTransmit method [Serial Ports], serports.sercxprogresstransmit, SerCxProgressTransmit, 1/SerCxProgressTransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCxProgressTransmit
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -146,11 +146,11 @@ If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work 
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
+
 <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
-
-<a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
 
  
 

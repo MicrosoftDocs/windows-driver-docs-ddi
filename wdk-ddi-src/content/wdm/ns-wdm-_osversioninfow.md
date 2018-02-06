@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*POSVERSIONINFOW, wdm/PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], wdm/RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, kernel.rtl_osversioninfow, OSVERSIONINFO, _OSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOW, PRTL_OSVERSIONINFOW, *LPOSVERSIONINFOW, OSVERSIONINFOW"
+ms.keywords: OSVERSIONINFO, OSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], *POSVERSIONINFOW, *PRTL_OSVERSIONINFOW, _OSVERSIONINFOW, wdm/PRTL_OSVERSIONINFOW, kernel.rtl_osversioninfow, PRTL_OSVERSIONINFOW, wdm/RTL_OSVERSIONINFOW, *LPOSVERSIONINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RTL_OSVERSIONINFOW
 product: Windows
 targetos: Windows
-req.typenames: OSVERSIONINFOW, RTL_OSVERSIONINFOW, *LPOSVERSIONINFOW, *POSVERSIONINFOW, *PRTL_OSVERSIONINFOW
+req.typenames: "*PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW, OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW"
 req.product: Windows 10 or later.
 ---
 
@@ -112,9 +112,9 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 

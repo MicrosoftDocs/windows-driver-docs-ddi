@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], PMSiSCSI_SessionStatistics structure pointer [Storage Devices], structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, iscsiprf/PMSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, PMSiSCSI_SessionStatistics, _MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
+ms.keywords: PMSiSCSI_SessionStatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, iscsiprf/PMSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics, _MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], MSiSCSI_SessionStatistics structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_SessionStatistics
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
 ---
 
 # _MSiSCSI_SessionStatistics structure
@@ -135,13 +135,13 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
  
 

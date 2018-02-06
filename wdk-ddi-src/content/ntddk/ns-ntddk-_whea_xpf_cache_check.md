@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 61dd30b9-5290-4c72-b053-586066c58108
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], PWHEA_XPF_CACHE_CHECK, whea.whea_xpf_cache_check, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, _WHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml
+ms.keywords: PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK, whea.whea_xpf_cache_check
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_CACHE_CHECK
 product: Windows
 targetos: Windows
-req.typenames: WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK
+req.typenames: "*PWHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK"
 ---
 
 # _WHEA_XPF_CACHE_CHECK structure
@@ -207,19 +207,19 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_XPF_CACHE_CHECK union.
 
 
-##### - Operation.XPF_CACHE_CHECK_OPERATION_DATAREAD
+##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_INSTRUCTION
 
-A data read operation.
-
-
-##### - Operation.XPF_CACHE_CHECK_OPERATION_DATAWRITE
-
-A data write operation.
+A processor instruction transaction.
 
 
-##### - Operation.XPF_CACHE_CHECK_OPERATION_EVICTION
+##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_DATAACCESS
 
-An eviction operation.
+A data access transaction.
+
+
+##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_GENERIC
+
+A generic transaction.
 
 
 ##### - Operation.XPF_CACHE_CHECK_OPERATION_GENERIC
@@ -237,6 +237,16 @@ A generic read operation.
 A generic write operation.
 
 
+##### - Operation.XPF_CACHE_CHECK_OPERATION_DATAREAD
+
+A data read operation.
+
+
+##### - Operation.XPF_CACHE_CHECK_OPERATION_DATAWRITE
+
+A data write operation.
+
+
 ##### - Operation.XPF_CACHE_CHECK_OPERATION_INSTRUCTIONFETCH
 
 An instruction fetch operation.
@@ -247,24 +257,14 @@ An instruction fetch operation.
 An instruction prefetch operation.
 
 
+##### - Operation.XPF_CACHE_CHECK_OPERATION_EVICTION
+
+An eviction operation.
+
+
 ##### - Operation.XPF_CACHE_CHECK_OPERATION_SNOOP
 
 A snoop operation.
-
-
-##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_DATAACCESS
-
-A data access transaction.
-
-
-##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_GENERIC
-
-A generic transaction.
-
-
-##### - TransactionType.XPF_CACHE_CHECK_TRANSACTIONTYPE_INSTRUCTION
-
-A processor instruction transaction.
 
 
 ## -remarks

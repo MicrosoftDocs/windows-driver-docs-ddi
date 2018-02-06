@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsMgmtInstallPolicy, kernel.clfsmgmtinstallpolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsMgmtInstallPolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, wdm/ClfsMgmtInstallPolicy, kernel.clfsmgmtinstallpolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

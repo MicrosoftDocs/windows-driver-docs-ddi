@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 842c6ece-5304-428c-afbe-2990d239f38a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, dxva/DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlags, dxva/DXVA_DestinationFlags, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Alpha_Changed, _DXVA_DestinationFlags, dxva/DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlagMask, DXVA_DestinationFlags enumeration [Display Devices]
+ms.keywords: dxva/DXVA_DestinationFlagMask, DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_Alpha_Changed, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml, _DXVA_DestinationFlags, DXVA_DestinationFlags enumeration [Display Devices], dxva/DXVA_DestinationFlag_ColorData_Changed, display.dxva_destinationflags, dxva/DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlags, DXVA_DestinationFlag_ColorData_Changed, dxva/DXVA_DestinationFlags, DXVA_DestinationFlagMask, DXVA_DestinationFlag_TargetRect_Changed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,9 +99,9 @@ Indicates that the planar alpha value for the destination surface changed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
 
  
 

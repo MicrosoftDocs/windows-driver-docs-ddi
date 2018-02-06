@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, IoGetActivityIdIrp, ntddk/IoGetActivityIdIrp
+ms.keywords: ntddk/IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], IoGetActivityIdIrp, kernel.iogetactivityidirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

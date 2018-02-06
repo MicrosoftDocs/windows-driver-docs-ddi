@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0699dcc3-ab43-436e-b7d3-09898e4d823c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_TIMEOUT, PFEATURE_DATA_TIMEOUT, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml, FEATURE_DATA_TIMEOUT structure [Storage Devices], ntddmmc/FEATURE_DATA_TIMEOUT, *PFEATURE_DATA_TIMEOUT, _FEATURE_DATA_TIMEOUT, ntddmmc/PFEATURE_DATA_TIMEOUT, PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], storage.feature_data_timeout
+ms.keywords: "_FEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT structure [Storage Devices], storage.feature_data_timeout, PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], *PFEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT, ntddmmc/PFEATURE_DATA_TIMEOUT, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml, PFEATURE_DATA_TIMEOUT, ntddmmc/FEATURE_DATA_TIMEOUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

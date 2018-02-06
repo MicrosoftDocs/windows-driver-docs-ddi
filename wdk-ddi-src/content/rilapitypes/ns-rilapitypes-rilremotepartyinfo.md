@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ca17e70-1e50-4b62-89ec-0e92ad6e846b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILREMOTEPARTYINFO, netvista.rilremotepartyinfo_2, *LPRILREMOTEPARTYINFO
+ms.keywords: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo_2, rilapitypes/RILREMOTEPARTYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILREMOTEPARTYINFO
 product: Windows
 targetos: Windows
-req.typenames: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
+req.typenames: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO"
 req.product: Windows 10 or later.
 ---
 

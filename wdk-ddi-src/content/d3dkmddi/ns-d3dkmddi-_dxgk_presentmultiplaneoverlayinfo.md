@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO"
+ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], display.dxgk_presentmultiplaneoverlayinfo, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, _DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

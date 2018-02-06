@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_evict, _D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], d3dkmthk/D3DKMT_EVICT, D3DKMT_EVICT
+ms.keywords: D3DKMT_EVICT, display.d3dkmt_evict, _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,9 +101,9 @@ typedef struct _D3DKMT_EVICT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
 
  
 

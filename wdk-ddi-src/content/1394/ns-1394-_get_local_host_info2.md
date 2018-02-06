@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 39cb4015-7745-4d13-bb31-76378b217cfd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.get_local_host_info2, 1394/PGET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2 structure pointer [Buses], 1394/GET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2 structure [Buses], GET_LOCAL_HOST_INFO2, _GET_LOCAL_HOST_INFO2, *PGET_LOCAL_HOST_INFO2, 1394stct_06c8c818-409c-41eb-b501-6e55b0cf50ff.xml
+ms.keywords: "_GET_LOCAL_HOST_INFO2, IEEE.get_local_host_info2, PGET_LOCAL_HOST_INFO2 structure pointer [Buses], 1394/GET_LOCAL_HOST_INFO2, 1394/PGET_LOCAL_HOST_INFO2, 1394stct_06c8c818-409c-41eb-b501-6e55b0cf50ff.xml, GET_LOCAL_HOST_INFO2 structure [Buses], *PGET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_LOCAL_HOST_INFO2
 product: Windows
 targetos: Windows
-req.typenames: "*PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2"
+req.typenames: GET_LOCAL_HOST_INFO2, *PGET_LOCAL_HOST_INFO2
 ---
 
 # _GET_LOCAL_HOST_INFO2 structure
@@ -143,13 +143,13 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537157">GET_LOCAL_HOST_INFO7</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
 
  
 

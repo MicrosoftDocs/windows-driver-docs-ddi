@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7dd4d0ae-876a-4156-8a09-2ebc82a25117
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/DEVICE_POWER_STATE, *PDEVICE_POWER_STATE, wudfddi/PowerDeviceUnspecified, PowerDeviceD3, PowerDeviceMaximum, wudfddi/PowerDeviceD2, PowerDeviceUnspecified, wudfddi/PowerDeviceD0, wdf.device_power_state, wudfddi/PowerDeviceMaximum, umdf.device_power_state, PowerDeviceD2, PDEVICE_POWER_STATE enumeration pointer, wudfddi/PDEVICE_POWER_STATE, wudfddi/PowerDeviceD3, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, DEVICE_POWER_STATE, PowerDeviceD0, DEVICE_POWER_STATE enumeration, PDEVICE_POWER_STATE, _DEVICE_POWER_STATE, wudfddi/PowerDeviceD1, PowerDeviceD1
+ms.keywords: PowerDeviceD2, wudfddi/PowerDeviceD0, wudfddi/PowerDeviceD1, wudfddi/PowerDeviceD3, wudfddi/PowerDeviceD2, PDEVICE_POWER_STATE enumeration pointer, PowerDeviceD3, PDEVICE_POWER_STATE, umdfstructs_6dca1ebb-421e-446b-b2b6-cc7b87afcf58.xml, PowerDeviceD1, PowerDeviceUnspecified, DEVICE_POWER_STATE enumeration, PowerDeviceD0, wudfddi/PDEVICE_POWER_STATE, DEVICE_POWER_STATE, PowerDeviceMaximum, wudfddi/PowerDeviceMaximum, wudfddi/DEVICE_POWER_STATE, *PDEVICE_POWER_STATE, wudfddi/PowerDeviceUnspecified, _DEVICE_POWER_STATE, wdf.device_power_state, umdf.device_power_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE"
+req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 

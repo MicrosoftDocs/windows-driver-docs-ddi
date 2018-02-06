@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], *PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, wdm/FILE_MEMORY_PARTITION_INFORMATION, _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information
+ms.keywords: FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, _FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

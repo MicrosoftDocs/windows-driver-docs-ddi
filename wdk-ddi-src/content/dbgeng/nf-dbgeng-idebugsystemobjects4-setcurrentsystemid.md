@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 95b761ff-ca78-4793-b5eb-a9ff35a963d3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentSystemId method, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, IDebugSystemObjects4::SetCurrentSystemId, debugger.setcurrentsystemid, IDebugSystemObjects3::SetCurrentSystemId, SetCurrentSystemId, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentSystemId method, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4
+ms.keywords: debugger.setcurrentsystemid, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentSystemId method, SetCurrentSystemId, IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4, IDebugSystemObjects4::SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentSystemId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSystemObjects4.SetCurrentSystemId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects4::SetCurrentSystemId method
@@ -119,13 +119,13 @@ If the current target is changed, the callback <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
  
 

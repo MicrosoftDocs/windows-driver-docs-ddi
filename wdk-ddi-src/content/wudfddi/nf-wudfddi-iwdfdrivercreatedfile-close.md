@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9c1d1d7-4222-4c8c-92eb-497d13952bed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdrivercreatedfile_close, IWDFDriverCreatedFile::Close, Close method, wudfddi/IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, IWDFDriverCreatedFile, Close method, IWDFDriverCreatedFile interface, umdf.iwdfdrivercreatedfile_close, IWDFDriverCreatedFile interface, Close method, Close
+ms.keywords: wudfddi/IWDFDriverCreatedFile::Close, IWDFDriverCreatedFile interface, Close method, IWDFDriverCreatedFile::Close, Close, wdf.iwdfdrivercreatedfile_close, Close method, IWDFDriverCreatedFile, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, Close method, IWDFDriverCreatedFile interface, umdf.iwdfdrivercreatedfile_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriverCreatedFile.Close
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -85,9 +85,9 @@ For more information, see <a href="https://msdn.microsoft.com/84b677b4-fddf-4f06
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558828">IWDFDevice::CreateWdfFile</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d797b377-6c27-41f9-932d-264d0e8b5dd0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKS_AM_SimpleRateChange, dvdref_8c318967-5f7d-4597-ab40-924e95b86dd7.xml, ksmedia/PKS_AM_SimpleRateChange, KS_AM_SimpleRateChange, stream.ks_am_simpleratechange, PKS_AM_SimpleRateChange structure pointer [Streaming Media Devices], PKS_AM_SimpleRateChange, KS_AM_SimpleRateChange structure [Streaming Media Devices], ksmedia/KS_AM_SimpleRateChange"
+ms.keywords: KS_AM_SimpleRateChange, *PKS_AM_SimpleRateChange, ksmedia/KS_AM_SimpleRateChange, KS_AM_SimpleRateChange structure [Streaming Media Devices], PKS_AM_SimpleRateChange, stream.ks_am_simpleratechange, PKS_AM_SimpleRateChange structure pointer [Streaming Media Devices], ksmedia/PKS_AM_SimpleRateChange, dvdref_8c318967-5f7d-4597-ab40-924e95b86dd7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

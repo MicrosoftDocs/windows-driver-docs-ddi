@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 970b3155-9e81-4725-90ee-079339c1d5c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYLIST, _DXGK_PRESENTMULTIPLANEOVERLAYLIST, display.dxgk_presentmultiplaneoverlaylist, DXGK_PRESENTMULTIPLANEOVERLAYLIST structure [Display Devices], d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST
+ms.keywords: display.dxgk_presentmultiplaneoverlaylist, DXGK_PRESENTMULTIPLANEOVERLAYLIST structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYLIST, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST, DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

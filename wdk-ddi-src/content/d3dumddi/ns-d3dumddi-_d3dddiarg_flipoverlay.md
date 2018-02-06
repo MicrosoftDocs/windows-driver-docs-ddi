@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36ea4547-e9a0-49c9-8b45-903a2de60923
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_FLIPOVERLAY structure [Display Devices], D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay, _D3DDDIARG_FLIPOVERLAY, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, d3dumddi/D3DDDIARG_FLIPOVERLAY
+ms.keywords: d3dumddi/D3DDDIARG_FLIPOVERLAY, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, D3DDDIARG_FLIPOVERLAY structure [Display Devices], _D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay, D3DDDIARG_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

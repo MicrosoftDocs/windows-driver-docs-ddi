@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/PSELF_ID, _SELF_ID, IEEE.self_id, *PSELF_ID, SELF_ID structure [Buses], PSELF_ID structure pointer [Buses], SELF_ID, 1394/SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID
+ms.keywords: 1394/PSELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID, IEEE.self_id, _SELF_ID, PSELF_ID structure pointer [Buses], *PSELF_ID, SELF_ID structure [Buses], 1394/SELF_ID, SELF_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SELF_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PSELF_ID, SELF_ID"
+req.typenames: SELF_ID, *PSELF_ID
 ---
 
 # _SELF_ID structure

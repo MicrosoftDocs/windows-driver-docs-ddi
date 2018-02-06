@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cf533f21-90eb-46ec-860f-d12a8d40c430
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOffsetTypeId method [Windows Debugging], dbgeng/IDebugSymbols::GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols2::GetOffsetTypeId, dbgeng/IDebugSymbols2::GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols3 interface, debugger.getoffsettypeid, IDebugSymbols3 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols3::GetOffsetTypeId, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetOffsetTypeId, IDebugSymbols3, dbgeng/IDebugSymbols3::GetOffsetTypeId, IDebugSymbols interface [Windows Debugging], GetOffsetTypeId method
+ms.keywords: IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols3::GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], debugger.getoffsettypeid, GetOffsetTypeId method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetOffsetTypeId, dbgeng/IDebugSymbols2::GetOffsetTypeId, IDebugSymbols2 interface [Windows Debugging], GetOffsetTypeId method, GetOffsetTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, GetOffsetTypeId, IDebugSymbols interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols3, IDebugSymbols::GetOffsetTypeId, dbgeng/IDebugSymbols::GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetOffsetTypeId
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetOffsetTypeId method
@@ -119,15 +119,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
  
 

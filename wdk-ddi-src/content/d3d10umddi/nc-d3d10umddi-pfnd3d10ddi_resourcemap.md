@@ -40,7 +40,7 @@ apiname:
 -	ResourceMap
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_RESOURCEMAP callback
@@ -98,21 +98,6 @@ VOID APIENTRY ResourceMap(
 
 
 
-#### - DDIMap [in]
-
- A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to. 
-
-
-#### - Flags [in]
-
- A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource. 
-
-
-#### - Subresource [in]
-
- An index that indicates the subresource to map. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -121,6 +106,21 @@ VOID APIENTRY ResourceMap(
 #### - hResource [in]
 
  A handle to the resource to map.
+
+
+#### - Subresource [in]
+
+ An index that indicates the subresource to map. 
+
+
+#### - DDIMap [in]
+
+ A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to. 
+
+
+#### - Flags [in]
+
+ A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource. 
 
 
 #### - pMappedSubResource [out]
@@ -399,21 +399,21 @@ _USAGE_DYNAMIC &amp;&amp;
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mapped_subresource.md">D3D10DDI_MAPPED_SUBRESOURCE</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map_flag.md">D3D10_DDI_MAP_FLAG</a>
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_map.md">D3D10_DDI_MAP</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
 
  
 

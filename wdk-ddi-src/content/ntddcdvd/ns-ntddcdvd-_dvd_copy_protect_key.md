@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/DVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], PDVD_COPY_PROTECT_KEY, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, DVD_COPY_PROTECT_KEY, _DVD_COPY_PROTECT_KEY, storage.dvd_copy_protect_key, ntddcdvd/PDVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices]
+ms.keywords: "*PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], ntddcdvd/DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices], _DVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml, storage.dvd_copy_protect_key"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

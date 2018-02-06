@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiDispatchIoRequest
 product: Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
 ---
 
 # DXGKDDI_DISPATCH_IO_REQUEST callback

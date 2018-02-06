@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 666f4aea-2fcb-46cf-8d25-d1322c0517c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml, HBA_FCPTargetMapping, storage.hba_fcptargetmapping, *PHBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], HBA_FCPTARGETMAPPING, hbaapi/HBA_FCPTargetMapping, HBA_FCPTargetMapping structure [Storage Devices], HBA_FCPTARGETMAPPING structure [Storage Devices], hbaapi/PHBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING
+ms.keywords: structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml, PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], hbaapi/HBA_FCPTargetMapping, HBA_FCPTARGETMAPPING structure [Storage Devices], HBA_FCPTargetMapping, hbaapi/PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING, *PHBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING, storage.hba_fcptargetmapping, HBA_FCPTargetMapping structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FCPTARGETMAPPING
 product: Windows
 targetos: Windows
-req.typenames: HBA_FCPTARGETMAPPING, *PHBA_FCPTARGETMAPPING
+req.typenames: "*PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING"
 ---
 
 # HBA_FCPTargetMapping structure

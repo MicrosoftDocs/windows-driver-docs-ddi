@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses]
+ms.keywords: UcxUsbDeviceInitSetEventCallbacks, buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

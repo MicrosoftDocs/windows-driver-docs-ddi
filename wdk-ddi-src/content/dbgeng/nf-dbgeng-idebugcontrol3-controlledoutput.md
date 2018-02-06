@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, IDebugControl2::ControlledOutput, ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl3 interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, IDebugControl3, ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, debugger.controlledoutput, ControlledOutput method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl2 interface
+ms.keywords: IDebugControl3 interface [Windows Debugging], ControlledOutput method, dbgeng/IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, ControlledOutput method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl2::ControlledOutput, IDebugControl::ControlledOutput, ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl3 interface, ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging], IDebugControl2 interface, IDebugControl3, debugger.controlledoutput, dbgeng/IDebugControl2::ControlledOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.ControlledOutput
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::ControlledOutput method
@@ -465,11 +465,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
@@ -477,7 +473,11 @@ When generating very large output strings, it is possible to reach the limits of
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
  
 

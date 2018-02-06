@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a95f7a8d-7e0d-4971-9683-f83600030337
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint2::SetPassCount, debugger.setpasscount, IDebugBreakpoint::SetPassCount, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, SetPassCount, IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::SetPassCount
+ms.keywords: debugger.setpasscount, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, SetPassCount method [Windows Debugging], dbgeng/IDebugBreakpoint2::SetPassCount, IDebugBreakpoint2::SetPassCount, IDebugBreakpoint::SetPassCount, IDebugBreakpoint2, SetPassCount, SetPassCount method [Windows Debugging], IDebugBreakpoint interface, ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, dbgeng/IDebugBreakpoint::SetPassCount, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.SetPassCount
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetPassCount method

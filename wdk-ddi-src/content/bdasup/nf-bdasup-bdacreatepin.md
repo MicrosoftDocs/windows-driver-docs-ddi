@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaCreatePin, stream.bdacreatepin, bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, BdaCreatePin function [Streaming Media Devices], bdasup/BdaCreatePin
+ms.keywords: stream.bdacreatepin, bdasup/BdaCreatePin, bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, BdaCreatePin function [Streaming Media Devices], BdaCreatePin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,15 +103,15 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
 
-<a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
 
 <a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
+<a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a>
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
  
 

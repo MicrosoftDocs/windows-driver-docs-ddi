@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B847EE03-65C0-4046-BD0A-0441C487056F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide, dbgeng/IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method, IDebugClient5, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide, dbgeng/IDebugClient5::SetOutputLinePrefixWide, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.SetOutputLinePrefixWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::SetOutputLinePrefixWide method

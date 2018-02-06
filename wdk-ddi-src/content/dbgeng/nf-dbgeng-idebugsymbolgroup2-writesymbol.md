@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, WriteSymbol, debugger.writesymbol, IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, WriteSymbol method [Windows Debugging]
+ms.keywords: WriteSymbol, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::WriteSymbol, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, debugger.writesymbol, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, dbgeng/IDebugSymbolGroup::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup::WriteSymbol, WriteSymbol method [Windows Debugging], WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.WriteSymbol
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbolGroup2::WriteSymbol method
@@ -117,11 +117,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 796f9d91-5c75-4a05-a997-0d5beb7d9fca
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.bth_vendor_event_info, PBTH_VENDOR_EVENT_INFO structure pointer [Bluetooth Devices], bthioctl/PBTH_VENDOR_EVENT_INFO, bth_ref_039b7b82-a08d-41a4-9566-2a5192a23ac2.xml, BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO, bthioctl/BTH_VENDOR_EVENT_INFO, PBTH_VENDOR_EVENT_INFO, BTH_VENDOR_EVENT_INFO structure [Bluetooth Devices], _BTH_VENDOR_EVENT_INFO
+ms.keywords: bthioctl/BTH_VENDOR_EVENT_INFO, bth_ref_039b7b82-a08d-41a4-9566-2a5192a23ac2.xml, BTH_VENDOR_EVENT_INFO structure [Bluetooth Devices], PBTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO, _BTH_VENDOR_EVENT_INFO, bltooth.bth_vendor_event_info, PBTH_VENDOR_EVENT_INFO structure pointer [Bluetooth Devices], bthioctl/PBTH_VENDOR_EVENT_INFO, BTH_VENDOR_EVENT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

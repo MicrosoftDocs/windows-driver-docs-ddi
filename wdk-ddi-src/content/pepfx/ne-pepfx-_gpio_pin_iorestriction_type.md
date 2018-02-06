@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.gpio_pin_iorestriction_type, IoRestrictionNoneAndPreserve, pepfx/IoRestrictionOutputOnly, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionInputOnly, pepfx/IoRestrictionInputOnly, pepfx/GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionNone, _GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE, IoRestrictionNone, IoRestrictionOutputOnly, pepfx/IoRestrictionNoneAndPreserve
+ms.keywords: pepfx/IoRestrictionOutputOnly, pepfx/GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE, kernel.gpio_pin_iorestriction_type, IoRestrictionOutputOnly, _GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionNone, pepfx/IoRestrictionInputOnly, IoRestrictionNone, IoRestrictionNoneAndPreserve, IoRestrictionInputOnly, pepfx/IoRestrictionNoneAndPreserve, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

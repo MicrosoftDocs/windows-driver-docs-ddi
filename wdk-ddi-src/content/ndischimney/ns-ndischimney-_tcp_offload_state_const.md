@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/PTCP_OFFLOAD_STATE_CONST, *PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, netvista.tcp_offload_state_const, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST
+ms.keywords: netvista.tcp_offload_state_const, TCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, *PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,20 +96,20 @@ A bitmask that can be set to zero or any of the following flags, combined with b
 
 
 
-#### TCP_FLAG_SACK_ENABLED
-
-The host stack sets this flag to enable selective acknowledgments (SACKs) on the connection.
-       (For more information about the SACKs, see RFC 2018.) When this option is enabled, the offload target
-       sends and receives SACK blocks over the TCP connection. The host stack clears this flag to disable
-       SACKs on the connection.
-
-
 #### TCP_FLAG_TIMESTAMP_ENABLED
 
 The host stack sets this flag to enable the TCP timestamp option on the connection. (For more
        information about the TCP timestamp option, see RFC 1323.) When this option is enabled, the offload
        target must place a timestamp in each TCP segment that it sends. The host stack clears this flag to
        disable the TCP timestamp option on the connection.
+
+
+#### TCP_FLAG_SACK_ENABLED
+
+The host stack sets this flag to enable selective acknowledgments (SACKs) on the connection.
+       (For more information about the SACKs, see RFC 2018.) When this option is enabled, the offload target
+       sends and receives SACK blocks over the TCP connection. The host stack clears this flag to disable
+       SACKs on the connection.
 
 
 #### TCP_FLAG_WINDOW_SCALING_ENABLED
@@ -178,9 +178,9 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associa
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4930661-fb88-458b-9460-129ab057e0f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, VideoPortGetRomImage, video/VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], display.videoportgetromimage
+ms.keywords: VideoPortGetRomImage function [Display Devices], video/VideoPortGetRomImage, display.videoportgetromimage, VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, VideoPortGetRomImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

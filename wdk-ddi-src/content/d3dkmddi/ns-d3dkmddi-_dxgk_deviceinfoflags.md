@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26d0aad9-86d0-4d97-978a-1e15285d3369
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DEVICEINFOFLAGS, DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, _DXGK_DEVICEINFOFLAGS, display.dxgk_deviceinfoflags, DXGK_DEVICEINFOFLAGS structure [Display Devices], d3dkmddi/DXGK_DEVICEINFOFLAGS
+ms.keywords: d3dkmddi/DXGK_DEVICEINFOFLAGS, DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, DXGK_DEVICEINFOFLAGS, _DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS structure [Display Devices], display.dxgk_deviceinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,9 +92,9 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
 
  
 

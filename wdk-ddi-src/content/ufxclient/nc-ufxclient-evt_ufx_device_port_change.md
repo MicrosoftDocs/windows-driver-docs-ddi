@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_DEVICE_PORT_CHANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -80,14 +80,14 @@ typedef EVT_UFX_DEVICE_PORT_CHANGE PFN_UFX_DEVICE_PORT_CHANGE;
 
 
 
-#### - NewPort [in]
-
-A USBFN_PORT_STATE-typed flag that indicates the type of the new port.
-
-
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+
+
+#### - NewPort [in]
+
+A USBFN_PORT_STATE-typed flag that indicates the type of the new port.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateDCFromMemory, PFND3DKMT_CREATEDCFROMMEMORY, D3DKMTCreateDCFromMemory function [Display Devices], d3dkmthk/D3DKMTCreateDCFromMemory, OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, display.d3dkmtcreatedcfrommemory
+ms.keywords: display.d3dkmtcreatedcfrommemory, D3DKMTCreateDCFromMemory, PFND3DKMT_CREATEDCFROMMEMORY, D3DKMTCreateDCFromMemory function [Display Devices], OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, d3dkmthk/D3DKMTCreateDCFromMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

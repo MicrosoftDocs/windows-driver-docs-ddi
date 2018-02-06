@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfresource/WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount, wdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount method, PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, kmdf.wdfioresourcerequirementslistgetcount
+ms.keywords: wdfresource/WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount method, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, wdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount, PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, kmdf.wdfioresourcerequirementslistgetcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceRequirementsListGetCount
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 

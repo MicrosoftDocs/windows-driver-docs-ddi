@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], scsiwmi/PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], PSCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, scsiwmi/SCSIWMIGUIDREGINFO
+ms.keywords: SCSIWMIGUIDREGINFO structure [Storage Devices], PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], scsiwmi/SCSIWMIGUIDREGINFO, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, *PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO, scsiwmi/PSCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

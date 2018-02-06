@@ -201,11 +201,11 @@ VIRTUAL_HW_FIND_ADAPTER (
 
 ## -see-also
 
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
 <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 <a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
 

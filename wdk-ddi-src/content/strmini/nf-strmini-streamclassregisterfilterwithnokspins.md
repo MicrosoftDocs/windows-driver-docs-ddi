@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassregisterfilterwithnokspins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strmini/StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins
+ms.keywords: StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strmini/StreamClassRegisterFilterWithNoKSPins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, StreamClassRegisterFilterWithNoKSPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	StreamClassRegisterFilterWithNoKSPins
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_PRIORITY, STREAM_PRIORITY"
+req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
 ---
 

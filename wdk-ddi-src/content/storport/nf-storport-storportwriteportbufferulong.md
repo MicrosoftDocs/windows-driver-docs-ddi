@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storport/StorPortWritePortBufferUlong, storage.storportwriteportbufferulong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
+ms.keywords: storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,9 +108,9 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
-
 <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
+
+<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
 
  
 

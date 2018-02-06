@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3b84c06f-774e-45e1-9a64-711749bb3a88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSFILTER_DISPATCH, avstruct_cfadb813-12c3-4960-89d7-72a75db1684a.xml, KSFILTER_DISPATCH, KSFILTER_DISPATCH structure [Streaming Media Devices], ks/KSFILTER_DISPATCH, PKSFILTER_DISPATCH structure pointer [Streaming Media Devices], ks/PKSFILTER_DISPATCH, _KSFILTER_DISPATCH, PKSFILTER_DISPATCH, stream.ksfilter_dispatch"
+ms.keywords: ks/PKSFILTER_DISPATCH, stream.ksfilter_dispatch, avstruct_cfadb813-12c3-4960-89d7-72a75db1684a.xml, _KSFILTER_DISPATCH, PKSFILTER_DISPATCH structure pointer [Streaming Media Devices], ks/KSFILTER_DISPATCH, PKSFILTER_DISPATCH, KSFILTER_DISPATCH, *PKSFILTER_DISPATCH, KSFILTER_DISPATCH structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,14 +71,14 @@ typedef struct _KSFILTER_DISPATCH {
 
 
 
-#### - Close
-
-Optional. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556307">AVStrMiniFilterClose</a> callback routine.
-
-
 #### - Create
 
 Optional. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksfilterirp.md">AVStrMiniFilterCreate</a> callback routine.
+
+
+#### - Close
+
+Optional. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556307">AVStrMiniFilterClose</a> callback routine.
 
 
 #### - Process
@@ -107,9 +107,9 @@ Also see <a href="https://msdn.microsoft.com/f60d4dbd-61e6-4ae2-aa43-9edc8f36c3f
 
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
 
-<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
-
 <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
+
+<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
  
 

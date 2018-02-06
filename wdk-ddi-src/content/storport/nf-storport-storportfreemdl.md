@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeMdl, storage.storportfreemdl, storport/StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml
+ms.keywords: storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml, storage.storportfreemdl, storport/StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], StorPortFreeMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

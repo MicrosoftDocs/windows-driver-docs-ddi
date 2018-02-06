@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/WORK_QUEUE_TYPE, wdm/BackgroundWorkQueue, WORK_QUEUE_TYPE, kernel.work_queue_type, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], RealTimeWorkQueue, wdm/DelayedWorkQueue, NormalWorkQueue, wdm/SuperCriticalWorkQueue, CustomPriorityWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, _WORK_QUEUE_TYPE, CriticalWorkQueue, SuperCriticalWorkQueue, BackgroundWorkQueue, wdm/CustomPriorityWorkQueue, wdm/CriticalWorkQueue, wdm/MaximumWorkQueue, MaximumWorkQueue, DelayedWorkQueue, wdm/NormalWorkQueue, HyperCriticalWorkQueue, wdm/HyperCriticalWorkQueue, wdm/RealTimeWorkQueue
+ms.keywords: wdm/BackgroundWorkQueue, CriticalWorkQueue, wdm/HyperCriticalWorkQueue, wdm/NormalWorkQueue, wdm/DelayedWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, WORK_QUEUE_TYPE, kernel.work_queue_type, _WORK_QUEUE_TYPE, wdm/MaximumWorkQueue, wdm/CustomPriorityWorkQueue, RealTimeWorkQueue, wdm/CriticalWorkQueue, BackgroundWorkQueue, NormalWorkQueue, MaximumWorkQueue, wdm/RealTimeWorkQueue, HyperCriticalWorkQueue, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], DelayedWorkQueue, wdm/SuperCriticalWorkQueue, wdm/WORK_QUEUE_TYPE, SuperCriticalWorkQueue, CustomPriorityWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

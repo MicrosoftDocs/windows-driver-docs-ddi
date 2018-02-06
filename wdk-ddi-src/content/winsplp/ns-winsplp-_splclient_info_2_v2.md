@@ -7,8 +7,8 @@ old-location: print\splclient_info_2_winxp.htm
 old-project: print
 ms.assetid: 48BD760E-6017-49B2-854F-7F48671974F3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SPLCLIENT_INFO_2_WINXP, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2_WINXP structure [Print Devices], *LPSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, _SPLCLIENT_INFO_2_V2, print.splclient_info_2_winxp, winsplp/SPLCLIENT_INFO_2_WINXP
+ms.date: 2/2/2018
+ms.keywords: SPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, *LPSPLCLIENT_INFO_2, SPLCLIENT_INFO_2_WINXP structure [Print Devices], SPLCLIENT_INFO_2_WINXP, print.splclient_info_2_winxp, _SPLCLIENT_INFO_2_V2, winsplp/SPLCLIENT_INFO_2_WINXP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

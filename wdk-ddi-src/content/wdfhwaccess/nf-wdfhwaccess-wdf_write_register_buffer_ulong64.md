@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 56DF217B-47AA-4D78-A7CC-0C50880AF7AF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG64, wdf.wdf_write_register_buffer_ulong64, WDF_WRITE_REGISTER_BUFFER_ULONG64 function, WDF_WRITE_REGISTER_BUFFER_ULONG64
+ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG64, WDF_WRITE_REGISTER_BUFFER_ULONG64, WDF_WRITE_REGISTER_BUFFER_ULONG64 function, wdf.wdf_write_register_buffer_ulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

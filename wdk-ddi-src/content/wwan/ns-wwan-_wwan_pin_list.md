@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddea69c-db40-4fae-9ca9-5eadc9b40b0c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, PWWAN_PIN_LIST, wwan/PWWAN_PIN_LIST, *PWWAN_PIN_LIST, wwan/WWAN_PIN_LIST, _WWAN_PIN_LIST, netvista.wwan_pin_list
+ms.keywords: WWAN_PIN_LIST, PWWAN_PIN_LIST, *PWWAN_PIN_LIST, wwan/WWAN_PIN_LIST, WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, wwan/PWWAN_PIN_LIST, netvista.wwan_pin_list, _WWAN_PIN_LIST, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_LIST
 product: Windows
 targetos: Windows
-req.typenames: WWAN_PIN_LIST, *PWWAN_PIN_LIST
+req.typenames: "*PWWAN_PIN_LIST, WWAN_PIN_LIST"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice2_stopidle, IWDFDevice2::StopIdle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, StopIdle method, umdf.iwdfdevice2_stopidle, StopIdle method, IWDFDevice2 interface, IWDFDevice2 interface, StopIdle method, wudfddi/IWDFDevice2::StopIdle, IWDFDevice2, StopIdle
+ms.keywords: StopIdle method, IWDFDevice2 interface, IWDFDevice2 interface, StopIdle method, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle, umdf.iwdfdevice2_stopidle, IWDFDevice2::StopIdle, StopIdle method, StopIdle, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.StopIdle
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

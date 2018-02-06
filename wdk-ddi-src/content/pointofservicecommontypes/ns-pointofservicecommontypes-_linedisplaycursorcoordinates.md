@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 70770FEA-9E5F-4D0F-8AD2-25DAA0E4E1D9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplayCursorCoordinates, PLineDisplayCursorCoordinates structure pointer, LineDisplayCursorCoordinates structure, pos.linedisplaycursorcoordinates, PLineDisplayCursorCoordinates, _LineDisplayCursorCoordinates, pointofservicecommontypes/LineDisplayCursorCoordinates, pointofservicecommontypes/PLineDisplayCursorCoordinates
+ms.keywords: PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates, pointofservicecommontypes/PLineDisplayCursorCoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, pointofservicecommontypes/LineDisplayCursorCoordinates, LineDisplayCursorCoordinates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

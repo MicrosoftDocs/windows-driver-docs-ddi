@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e340eb98-34d4-49e7-92cd-4f57d8b6efb8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_HRESULT, IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT macro [Imaging Devices], wiamdef/WIAS_HRESULT, image.wias_hresult
+ms.keywords: WIAS_HRESULT macro [Imaging Devices], wiamdef/WIAS_HRESULT, WIAS_HRESULT, image.wias_hresult, IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_HRESULT
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2"
+req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -95,11 +95,11 @@ This macro is the recommended way to output HRESULTS on Windows Vista.
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
 <a href="..\wiamdef\nf-wiamdef-wias_assert.md">WIAS_ASSERT</a>
 
 <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
-
-<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
 
  
 

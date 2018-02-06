@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ca3358-7740-4eda-ab7c-f4b8a88389c2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.readphysical, WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, ReadPhysical, wdbgexts/ReadPhysical, ReadPhysical function [Windows Debugging]
+ms.keywords: WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, wdbgexts/ReadPhysical, ReadPhysical function [Windows Debugging], ReadPhysical, debugger.readphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

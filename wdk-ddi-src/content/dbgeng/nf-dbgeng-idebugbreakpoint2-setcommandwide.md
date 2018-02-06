@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setcommandwide, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetCommandWide, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::SetCommandWide, SetCommandWide, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, SetCommandWide method [Windows Debugging]
+ms.keywords: IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide, SetCommandWide, dbgeng/IDebugBreakpoint2::SetCommandWide, IDebugBreakpoint2, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugBreakpoint2.SetCommandWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetCommandWide method

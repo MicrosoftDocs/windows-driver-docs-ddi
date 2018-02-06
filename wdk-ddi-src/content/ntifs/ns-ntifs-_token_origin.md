@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6e2175f3-3d63-40d0-854b-440862530aa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PTOKEN_ORIGIN, ifsk.token_origin, TOKEN_ORIGIN structure [Installable File System Drivers], ntifs/PTOKEN_ORIGIN, securitystructures_5cc2fc36-4e83-4544-8f24-dcbf768dbb9c.xml, PTOKEN_ORIGIN structure pointer [Installable File System Drivers], _TOKEN_ORIGIN, ntifs/TOKEN_ORIGIN, TOKEN_ORIGIN, *PTOKEN_ORIGIN
+ms.keywords: PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Installable File System Drivers], securitystructures_5cc2fc36-4e83-4544-8f24-dcbf768dbb9c.xml, ifsk.token_origin, TOKEN_ORIGIN, TOKEN_ORIGIN structure [Installable File System Drivers], _TOKEN_ORIGIN, ntifs/PTOKEN_ORIGIN, *PTOKEN_ORIGIN, ntifs/TOKEN_ORIGIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,27 +81,27 @@ The TOKEN_ORIGIN structure is available on Windows Server 2003 or later.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-
 <a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
 
 <a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSENSOR_CONFIG, SENSOR_CONFIG, sensorscx/SENSOR_CONFIG, *PSENSOR_CONFIG, _SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], PSENSOR_CONFIG structure pointer [Sensor Devices]
+ms.keywords: "*PSENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], sensorscx/SENSOR_CONFIG, _SENSOR_CONFIG, sensorscx/PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], sensors.sensor_config, SENSOR_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SENSOR_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_CONFIG, *PSENSOR_CONFIG
+req.typenames: "*PSENSOR_CONFIG, SENSOR_CONFIG"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8114d029-fe6e-4466-9e54-5ceadef96949
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mcd/ChangerGetElementStatus, chgrmini_b0e442c7-18c4-4086-b036-3db43177f6e5.xml, ChangerGetElementStatus function [Storage Devices], storage.changergetelementstatus, ChangerGetElementStatus
+ms.keywords: ChangerGetElementStatus function [Storage Devices], mcd/ChangerGetElementStatus, chgrmini_b0e442c7-18c4-4086-b036-3db43177f6e5.xml, ChangerGetElementStatus, storage.changergetelementstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,23 +117,23 @@ The changer class driver checks the input and output buffer lengths in the I/O s
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
 <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_read_element_status.md">CHANGER_READ_ELEMENT STATUS</a>
 
-<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a>
+
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
  
 

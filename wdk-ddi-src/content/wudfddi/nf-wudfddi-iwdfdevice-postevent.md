@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::PostEvent, wdf.iwdfdevice_postevent, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent, IWDFDevice, IWDFDevice interface, PostEvent method, PostEvent, PostEvent method, PostEvent method, IWDFDevice interface
+ms.keywords: IWDFDevice::PostEvent, wdf.iwdfdevice_postevent, umdf.iwdfdevice_postevent, PostEvent, PostEvent method, IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, IWDFDevice, IWDFDevice interface, PostEvent method, wudfddi/IWDFDevice::PostEvent, PostEvent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.PostEvent
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -166,11 +166,11 @@ For information about creating device events, see <a href="https://docs.microsof
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
 <a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 

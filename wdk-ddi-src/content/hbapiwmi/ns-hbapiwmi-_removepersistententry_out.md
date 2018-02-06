@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2fa578f7-5892-4ec1-a01f-49c828bd6913
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT, storage.removepersistententry_out, RemovePersistentEntry_OUT structure [Storage Devices], PRemovePersistentEntry_OUT structure pointer [Storage Devices], *PRemovePersistentEntry_OUT, _RemovePersistentEntry_OUT, RemovePersistentEntry_OUT, structs-Fibre_8a84bc15-be90-4a74-a551-c3cf43d4f5ef.xml, hbapiwmi/RemovePersistentEntry_OUT
+ms.keywords: "_RemovePersistentEntry_OUT, storage.removepersistententry_out, RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT, hbapiwmi/PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT structure pointer [Storage Devices], hbapiwmi/RemovePersistentEntry_OUT, structs-Fibre_8a84bc15-be90-4a74-a551-c3cf43d4f5ef.xml, RemovePersistentEntry_OUT structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

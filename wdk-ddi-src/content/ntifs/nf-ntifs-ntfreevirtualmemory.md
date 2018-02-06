@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwfreevirtualmemory, ntifs/ZwFreeVirtualMemory, ZwFreeVirtualMemory, k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, ntifs/NtFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], NtFreeVirtualMemory
+ms.keywords: ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], ZwFreeVirtualMemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory, kernel.zwfreevirtualmemory, k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, NtFreeVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -273,9 +273,9 @@ For more information about memory management support for kernel-mode drivers, se
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
 
  
 

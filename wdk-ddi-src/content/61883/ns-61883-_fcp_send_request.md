@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82F36729-57E0-49AB-8C2D-BCBA6EED33EE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/FCP_SEND_REQUEST, IEEE.fcp_send_request, PFCP_SEND_REQUEST structure pointer [Buses], FCP_SEND_REQUEST, _FCP_SEND_REQUEST, *PFCP_REQUEST, FCP_REQUEST, *PFCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], PFCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST
+ms.keywords: 61883/PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], 61883/FCP_SEND_REQUEST, *PFCP_SEND_REQUEST, FCP_REQUEST, PFCP_SEND_REQUEST, *PFCP_REQUEST, _FCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], IEEE.fcp_send_request, FCP_SEND_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FCP_SEND_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: FCP_SEND_REQUEST, *PFCP_SEND_REQUEST, *PFCP_REQUEST, FCP_REQUEST
+req.typenames: "*PFCP_REQUEST, FCP_SEND_REQUEST, FCP_REQUEST, *PFCP_SEND_REQUEST"
 ---
 
 # _FCP_SEND_REQUEST structure

@@ -40,7 +40,7 @@ apiname:
 -	FreeDmaBufferWithNotification
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 ---
 
 # PFREE_DMA_BUFFER_WITH_NOTIFICATION callback
@@ -95,6 +95,11 @@ Specifies the context value from the Context member of the <a href="..\hdaudio\n
 
 
 
+#### - handle [in]
+
+Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
+
+
 #### - bufferMdl [in]
 
 A pointer to the buffer MDL. This value was obtained from a previous call to AllocateDmaBufferWithNotification.
@@ -103,11 +108,6 @@ A pointer to the buffer MDL. This value was obtained from a previous call to All
 #### - bufferSize [in]
 
 The size of the buffer to be freed. This value was obtained from a previous call to AllocateDmaBufferWithNotification.
-
-
-#### - handle [in]
-
-Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
 
 
 ## -returns
@@ -167,13 +167,13 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
 ## -see-also
 
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
+
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
 
  
 

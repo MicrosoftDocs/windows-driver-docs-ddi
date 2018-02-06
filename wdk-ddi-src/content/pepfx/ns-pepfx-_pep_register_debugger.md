@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3B0240AB-4599-4F21-8CBB-14A4A60D3EFD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_REGISTER_DEBUGGER, PPEP_REGISTER_DEBUGGER structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEBUGGER, pepfx/PPEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER structure [Kernel-Mode Driver Architecture], *PPEP_REGISTER_DEBUGGER, pepfx/PEP_REGISTER_DEBUGGER, kernel.pep_register_debugger, PEP_REGISTER_DEBUGGER
+ms.keywords: PPEP_REGISTER_DEBUGGER, *PPEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER, pepfx/PPEP_REGISTER_DEBUGGER, pepfx/PEP_REGISTER_DEBUGGER, PPEP_REGISTER_DEBUGGER structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEBUGGER, kernel.pep_register_debugger, PEP_REGISTER_DEBUGGER structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_REGISTER_DEBUGGER
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER"
+req.typenames: PEP_REGISTER_DEBUGGER, *PPEP_REGISTER_DEBUGGER
 ---
 
 # _PEP_REGISTER_DEBUGGER structure

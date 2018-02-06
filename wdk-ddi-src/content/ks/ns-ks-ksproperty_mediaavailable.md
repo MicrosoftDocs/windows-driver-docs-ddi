@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b6818fd5-e351-4eac-a802-af8229b82fb3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], ks/PKSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE, ks/KSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE, stream.ksproperty_mediaavailable, ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, PKSPROPERTY_MEDIAAVAILABLE, PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices]
+ms.keywords: stream.ksproperty_mediaavailable, *PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices], ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, PKSPROPERTY_MEDIAAVAILABLE, ks/PKSPROPERTY_MEDIAAVAILABLE, ks/KSPROPERTY_MEDIAAVAILABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

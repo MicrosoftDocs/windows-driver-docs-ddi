@@ -7,8 +7,8 @@ old-location: print\propsheetui_info_header.htm
 old-project: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: compstui/PROPSHEETUI_INFO_HEADER, _PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, *PPROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], print.propsheetui_info_header
+ms.date: 2/2/2018
+ms.keywords: PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], print.propsheetui_info_header, PPROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, compstui/PROPSHEETUI_INFO_HEADER, _PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PROPSHEETUI_INFO_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER"
+req.typenames: PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER
 ---
 
 # _PROPSHEETUI_INFO_HEADER structure

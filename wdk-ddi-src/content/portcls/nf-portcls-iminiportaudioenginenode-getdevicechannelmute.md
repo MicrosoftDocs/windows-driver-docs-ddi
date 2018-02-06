@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 60CEBF40-25D3-49F0-A4BF-40440E1A3EE6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelMute method, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelMute, IMiniportAudioEngineNode::GetDeviceChannelMute, IMiniportAudioEngineNode, GetDeviceChannelMute method [Audio Devices]
+ms.keywords: audio.iminiportaudioenginenode_getdevicechannelmute, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceChannelMute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute, IMiniportAudioEngineNode::GetDeviceChannelMute, IMiniportAudioEngineNode, GetDeviceChannelMute method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], GetDeviceChannelMute method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

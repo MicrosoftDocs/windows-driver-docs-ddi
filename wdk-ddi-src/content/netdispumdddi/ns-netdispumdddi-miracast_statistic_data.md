@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94D5C260-4076-4DB7-8ED3-E0549A872FEE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.miracast_statistic_data, MIRACAST_STATISTIC_DATA structure [Display Devices], netdispumdddi/MIRACAST_STATISTIC_DATA, MIRACAST_STATISTIC_DATA
+ms.keywords: MIRACAST_STATISTIC_DATA, MIRACAST_STATISTIC_DATA structure [Display Devices], display.miracast_statistic_data, netdispumdddi/MIRACAST_STATISTIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,13 +112,13 @@ The type of statistics data from the <a href="..\netdispumdddi\ne-netdispumdddi-
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
-
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_protocol_event.md">MIRACAST_PROTOCOL_EVENT</a>
+<a href="..\netdispumdddi\ne-netdispumdddi-miracast_statistic_type.md">MIRACAST_STATISTIC_TYPE</a>
 
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_statistic_type.md">MIRACAST_STATISTIC_TYPE</a>
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
+
+<a href="..\netdispumdddi\ne-netdispumdddi-miracast_protocol_event.md">MIRACAST_PROTOCOL_EVENT</a>
 
  
 

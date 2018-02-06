@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0e97474-4119-4359-a9f9-644c82df7fab
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DevicePowerState, PPOWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, *PPOWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], _POWER_STATE_TYPE, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], POWER_STATE_TYPE, SystemPowerState, kernel.power_state_type
+ms.keywords: kernel.power_state_type, SystemPowerState, DevicePowerState, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], POWER_STATE_TYPE, _POWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/DevicePowerState, wdm/SystemPowerState, PPOWER_STATE_TYPE, *PPOWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/POWER_STATE_TYPE, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	POWER_STATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_STATE_TYPE, POWER_STATE_TYPE"
+req.typenames: POWER_STATE_TYPE, *PPOWER_STATE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -82,19 +82,19 @@ Indicates a <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_
 ## -remarks
 
 
-The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value of type <a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a> to indicate that the power state value is a system power state value or a device power state value. For an example, see <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>.
+The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value of type <a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a> to indicate that the power state value is a system power state value or a device power state value. For an example, see <a href="..\ntifs\nf-ntifs-posetpowerstate.md">PoSetPowerState</a>.
 
 
 
 ## -see-also
-
-<a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
 
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
 <a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a>
+
+<a href="..\ntifs\nf-ntifs-posetpowerstate.md">PoSetPowerState</a>
 
  
 

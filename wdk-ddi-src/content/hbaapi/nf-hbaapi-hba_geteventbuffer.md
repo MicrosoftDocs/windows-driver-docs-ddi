@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f06b154-7d85-4a60-b354-bd61fbc597dc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml, storage.hba_geteventbuffer, HBA_GetEventBuffer, hbaapi/HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices]
+ms.keywords: HBA_GetEventBuffer, hbaapi/HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices], storage.hba_geteventbuffer, fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the ev
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

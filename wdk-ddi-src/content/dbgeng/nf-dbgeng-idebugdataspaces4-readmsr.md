@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ffe53d9-ea57-4561-a889-e6369ef0d5d3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, ReadMsr method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces3::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, IDebugDataSpaces::ReadMsr, IDebugDataSpaces4::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, ReadMsr, dbgeng/IDebugDataSpaces::ReadMsr, IDebugDataSpaces4, IDebugDataSpaces2::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadMsr, debugger.readmsr2
+ms.keywords: dbgeng/IDebugDataSpaces2::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces4::ReadMsr, IDebugDataSpaces3::ReadMsr, ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, debugger.readmsr2, dbgeng/IDebugDataSpaces::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces3::ReadMsr, dbgeng/IDebugDataSpaces4::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, IDebugDataSpaces::ReadMsr, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces2::ReadMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadMsr
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadMsr method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E07F3ED0-2F20-40D9-AAAE-49C81168B998
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_SIM_CHALLENGE, *PWWAN_AUTH_SIM_CHALLENGE, _WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_AUTH_SIM_CHALLENGE, netvista.wwan_auth_sim_challenge
+ms.keywords: netvista.wwan_auth_sim_challenge, *PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE, wwan/PWWAN_AUTH_SIM_CHALLENGE, _WWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_AUTH_SIM_CHALLENGE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE"
+req.typenames: WWAN_AUTH_SIM_CHALLENGE, *PWWAN_AUTH_SIM_CHALLENGE
 req.product: Windows 10 or later.
 ---
 

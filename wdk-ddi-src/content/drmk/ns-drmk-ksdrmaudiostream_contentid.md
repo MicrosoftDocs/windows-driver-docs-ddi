@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d11be514-2a45-407e-884a-66f6f503f57a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: audio.ksdrmaudiostream_contentid, KSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], drmk/PKSDRMAUDIOSTREAM_CONTENTID, drmk/KSDRMAUDIOSTREAM_CONTENTID, aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, PKSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], *PKSDRMAUDIOSTREAM_CONTENTID
+ms.keywords: "*PKSDRMAUDIOSTREAM_CONTENTID, aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, audio.ksdrmaudiostream_contentid, drmk/KSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], drmk/PKSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSDRMAUDIOSTREAM_CONTENTID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDRMAUDIOSTREAM_CONTENTID
 product: Windows
 targetos: Windows
-req.typenames: KSDRMAUDIOSTREAM_CONTENTID, *PKSDRMAUDIOSTREAM_CONTENTID
+req.typenames: "*PKSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID"
 ---
 
 # KSDRMAUDIOSTREAM_CONTENTID structure
@@ -80,9 +80,9 @@ Specifies the DRM content rights assigned to the stream. This member is a pointe
 
 ## -see-also
 
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
 
  
 

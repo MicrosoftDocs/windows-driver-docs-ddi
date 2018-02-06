@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 045a6c20-2e4e-4669-953d-f8648bf2d718
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: portcls/IServiceGroup::RequestDelayedService, IServiceGroup interface [Audio Devices], RequestDelayedService method, RequestDelayedService method [Audio Devices], IServiceGroup interface, IServiceGroup, IServiceGroup::RequestDelayedService, RequestDelayedService method [Audio Devices], RequestDelayedService, audio.iservicegroup_requestdelayedservice, audmp-routines_2f9be34c-bff3-46d4-a490-595c8f4311b9.xml
+ms.keywords: RequestDelayedService, RequestDelayedService method [Audio Devices], IServiceGroup interface [Audio Devices], RequestDelayedService method, IServiceGroup, audmp-routines_2f9be34c-bff3-46d4-a490-595c8f4311b9.xml, RequestDelayedService method [Audio Devices], IServiceGroup interface, portcls/IServiceGroup::RequestDelayedService, audio.iservicegroup_requestdelayedservice, IServiceGroup::RequestDelayedService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,9 +94,9 @@ Before calling <code>RequestDelayedService</code> to request a timer delay, init
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537004">IServiceGroup::SupportDelayedService</a>
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
  
 

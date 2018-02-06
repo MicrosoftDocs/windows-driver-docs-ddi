@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 62c5f41a-1db2-4777-af86-67d2345a05c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml, LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], _DXVA_Highlight, display.dxva_highlight, *LPDXVA_Highlight, dxva/LPDXVA_Highlight, DXVA_Highlight structure [Display Devices], dxva/DXVA_Highlight, DXVA_Highlight
+ms.keywords: "*LPDXVA_Highlight, DXVA_Highlight structure [Display Devices], _DXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], DXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml, dxva/LPDXVA_Highlight, LPDXVA_Highlight, dxva/DXVA_Highlight, display.dxva_highlight"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_Highlight
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_Highlight, DXVA_Highlight"
+req.typenames: DXVA_Highlight, *LPDXVA_Highlight
 ---
 
 # _DXVA_Highlight structure

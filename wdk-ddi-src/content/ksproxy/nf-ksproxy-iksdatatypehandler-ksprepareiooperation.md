@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 16411d58-5fff-430f-b96d-78eed1dbb01c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPrepareIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler::KsPrepareIoOperation, stream.iksdatatypehandler_ksprepareiooperation, IKsDataTypeHandler, KsPrepareIoOperation method [Streaming Media Devices], KsPrepareIoOperation, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, IKsDataTypeHandler interface [Streaming Media Devices], KsPrepareIoOperation method, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml
+ms.keywords: ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, IKsDataTypeHandler, stream.iksdatatypehandler_ksprepareiooperation, KsPrepareIoOperation, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler interface [Streaming Media Devices], KsPrepareIoOperation method, KsPrepareIoOperation method [Streaming Media Devices], IKsDataTypeHandler::KsPrepareIoOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b6fe106-2440-4bc6-a3ae-9bb8b18f8094
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PHWPROFILE_CHANGE_NOTIFICATION, wdm/PHWPROFILE_CHANGE_NOTIFICATION, HWPROFILE_CHANGE_NOTIFICATION, wdm/HWPROFILE_CHANGE_NOTIFICATION, kernel.hwprofile_change_notification, PHWPROFILE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], *PHWPROFILE_CHANGE_NOTIFICATION, kstruct_b_2e8d0c69-abe9-49a9-96f6-fba3b0020ff8.xml, HWPROFILE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], _HWPROFILE_CHANGE_NOTIFICATION
+ms.keywords: kstruct_b_2e8d0c69-abe9-49a9-96f6-fba3b0020ff8.xml, wdm/HWPROFILE_CHANGE_NOTIFICATION, kernel.hwprofile_change_notification, HWPROFILE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], *PHWPROFILE_CHANGE_NOTIFICATION, _HWPROFILE_CHANGE_NOTIFICATION, PHWPROFILE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], HWPROFILE_CHANGE_NOTIFICATION, wdm/PHWPROFILE_CHANGE_NOTIFICATION, PHWPROFILE_CHANGE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ There is no event-specific data for a hardware-profile-change event.
 
 <a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
 
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
 <a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
 <a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
-
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
  
 

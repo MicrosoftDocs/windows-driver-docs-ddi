@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04d11aef-2766-42d6-abda-f0b25d53ef8f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_7f47a0e0-7be5-46bf-89c3-fa69ee6e6230.xml, D3DHAL_DP2INDEXEDTRIANGLELIST2 structure [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLELIST2, LPD3DHAL_DP2INDEXEDTRIANGLELIST2 structure pointer [Display Devices], D3DHAL_DP2INDEXEDTRIANGLELIST2, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST2, LPD3DHAL_DP2INDEXEDTRIANGLELIST2, *LPD3DHAL_DP2INDEXEDTRIANGLELIST2, display.d3dhal_dp2indexedtrianglelist2, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST2
+ms.keywords: D3DHAL_DP2INDEXEDTRIANGLELIST2, _D3DHAL_DP2INDEXEDTRIANGLELIST2, d3dstrct_7f47a0e0-7be5-46bf-89c3-fa69ee6e6230.xml, LPD3DHAL_DP2INDEXEDTRIANGLELIST2, *LPD3DHAL_DP2INDEXEDTRIANGLELIST2, D3DHAL_DP2INDEXEDTRIANGLELIST2 structure [Display Devices], d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST2, display.d3dhal_dp2indexedtrianglelist2, LPD3DHAL_DP2INDEXEDTRIANGLELIST2 structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,15 @@ The <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitive
 
 ## -see-also
 
-D3DDP2OP_INDEXEDTRIANGLELIST
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+
+D3DDP2OP_INDEXEDTRIANGLELIST
 
 D3DDP2OP_INDEXEDTRIANGLELIST2
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
  
 

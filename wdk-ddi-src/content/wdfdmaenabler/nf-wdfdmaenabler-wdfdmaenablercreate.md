@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 750c9293-7662-41e0-9a2a-5c19e49ad20e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmaenablercreate, PFN_WDFDMAENABLERCREATE, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, wdf.wdfdmaenablercreate, WdfDmaEnablerCreate method, wdfdmaenabler/WdfDmaEnablerCreate, WdfDmaEnablerCreate
+ms.keywords: WdfDmaEnablerCreate method, PFN_WDFDMAENABLERCREATE, WdfDmaEnablerCreate, wdf.wdfdmaenablercreate, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, wdfdmaenabler/WdfDmaEnablerCreate, kmdf.wdfdmaenablercreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,13 +180,13 @@ For more information about DMA enabler objects and <b>WdfDmaEnablerCreate</b>, s
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
  
 

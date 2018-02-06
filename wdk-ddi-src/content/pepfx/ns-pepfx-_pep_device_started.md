@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 02A30A9F-A27D-492E-8FB3-D8CB34D51D5A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, _PEP_DEVICE_STARTED, pepfx/PPEP_DEVICE_STARTED, pepfx/PEP_DEVICE_STARTED, PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], kernel.pep_device_started, *PPEP_DEVICE_STARTED
+ms.keywords: PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_DEVICE_STARTED, _PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, kernel.pep_device_started, PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], pepfx/PEP_DEVICE_STARTED, PPEP_DEVICE_STARTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_DEVICE_STARTED
 product: Windows
 targetos: Windows
-req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
+req.typenames: "*PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED"
 ---
 
 # _PEP_DEVICE_STARTED structure
@@ -81,9 +81,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186714">PEP_DPM_DEVICE_STARTED</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks
+ms.keywords: FsRtlAreThereWaitingFileLocks, ntifs/FsRtlAreThereWaitingFileLocks, ifsk.fsrtlaretherewaitingfilelocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

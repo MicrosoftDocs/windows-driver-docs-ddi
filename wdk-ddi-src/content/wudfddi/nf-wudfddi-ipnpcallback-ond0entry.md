@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6efa3d8e-3e54-4ab1-82e0-08ba12bb1877
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallback::OnD0Entry, OnD0Entry method, IPnpCallback interface, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, IPnpCallback, OnD0Entry method, wdf.ipnpcallback_ond0entry, umdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry, OnD0Entry, IPnpCallback interface, OnD0Entry method
+ms.keywords: IPnpCallback, umdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry, wdf.ipnpcallback_ond0entry, IPnpCallback::OnD0Entry, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, OnD0Entry method, IPnpCallback interface, OnD0Entry method, OnD0Entry, IPnpCallback interface, OnD0Entry method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallback.OnD0Entry
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

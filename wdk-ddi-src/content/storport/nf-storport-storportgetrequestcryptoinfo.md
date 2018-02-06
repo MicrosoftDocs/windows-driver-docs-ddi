@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B8D1E882-FBFA-4CB1-83D3-CB817F111F20
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetrequestcryptoinfo, storport/StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], StorPortGetRequestCryptoInfo
+ms.keywords: storage.storportgetrequestcryptoinfo, StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storport/StorPortGetRequestCryptoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

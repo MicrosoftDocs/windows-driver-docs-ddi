@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72545150-5fd8-4770-aab2-b49d80c1e865
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, kernel.iounregisterplugplaynotificationex, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], wdm/IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx
+ms.keywords: wdm/IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], kernel.iounregisterplugplaynotificationex, k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, IoUnregisterPlugPlayNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

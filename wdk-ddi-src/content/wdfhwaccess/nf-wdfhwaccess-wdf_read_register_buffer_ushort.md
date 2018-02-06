@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, wdf.wdf_read_register_buffer_ushort, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function
+ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT, wdf.wdf_read_register_buffer_ushort, WDF_READ_REGISTER_BUFFER_USHORT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

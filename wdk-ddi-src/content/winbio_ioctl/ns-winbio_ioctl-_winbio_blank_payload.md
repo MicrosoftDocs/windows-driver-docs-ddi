@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_BLANK_PAYLOAD structure [Biometric Devices], WINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD, _WINBIO_BLANK_PAYLOAD, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, biometric.winbio_blank_payload, *PWINBIO_BLANK_PAYLOAD
+ms.keywords: PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], *PWINBIO_BLANK_PAYLOAD, _WINBIO_BLANK_PAYLOAD, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, biometric.winbio_blank_payload, PWINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

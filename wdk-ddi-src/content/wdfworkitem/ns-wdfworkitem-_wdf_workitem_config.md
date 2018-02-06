@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6186c05-ccb9-432c-bd83-9a3fb3af7f0b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfworkitem/WDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, wdf.wdf_workitem_config, wdfworkitem/PWDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG, _WDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, WDF_WORKITEM_CONFIG structure, *PWDF_WORKITEM_CONFIG
+ms.keywords: WDF_WORKITEM_CONFIG structure, WDF_WORKITEM_CONFIG, _WDF_WORKITEM_CONFIG, wdf.wdf_workitem_config, wdfworkitem/PWDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, *PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,9 +104,9 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
 
-<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
  
 

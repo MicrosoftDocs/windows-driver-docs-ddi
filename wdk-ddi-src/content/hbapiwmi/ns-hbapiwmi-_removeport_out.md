@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemovePort_OUT, hbapiwmi/RemovePort_OUT, storage.removeport_out, RemovePort_OUT structure [Storage Devices], *PRemovePort_OUT, PRemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, RemovePort_OUT, _RemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices]
+ms.keywords: "_RemovePort_OUT, RemovePort_OUT structure [Storage Devices], RemovePort_OUT, PRemovePort_OUT, storage.removeport_out, PRemovePort_OUT structure pointer [Storage Devices], structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, hbapiwmi/PRemovePort_OUT, hbapiwmi/RemovePort_OUT, *PRemovePort_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePort_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PRemovePort_OUT, RemovePort_OUT"
+req.typenames: RemovePort_OUT, *PRemovePort_OUT
 ---
 
 # _RemovePort_OUT structure

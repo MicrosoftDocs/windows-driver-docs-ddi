@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, PHBA_MGMTINFO, hbaapi/PHBA_MGMTINFO, hbaapi/HBA_MgmtInfo, *PHBA_MGMTINFO, HBA_MgmtInfo, HBA_MgmtInfo structure [Storage Devices], storage.hba_mgmtinfo, HBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], HBA_MGMTINFO structure [Storage Devices]
+ms.keywords: HBA_MGMTINFO structure [Storage Devices], *PHBA_MGMTINFO, storage.hba_mgmtinfo, hbaapi/HBA_MgmtInfo, HBA_MgmtInfo, HBA_MgmtInfo structure [Storage Devices], hbaapi/PHBA_MGMTINFO, HBA_MGMTINFO, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, PHBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

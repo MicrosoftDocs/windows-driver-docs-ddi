@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 90cc2c3b-8fb2-4450-9c20-06e1e4d1fe47
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: FsRtlNotifyCleanup, ntifs/FsRtlNotifyCleanup, ifsk.fsrtlnotifycleanup, fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, FsRtlNotifyCleanup routine [Installable File System Drivers]
+ms.keywords: FsRtlNotifyCleanup routine [Installable File System Drivers], ifsk.fsrtlnotifycleanup, FsRtlNotifyCleanup, ntifs/FsRtlNotifyCleanup, fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

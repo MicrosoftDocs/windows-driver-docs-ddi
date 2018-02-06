@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 33AE6D40-F54D-427D-B811-2188EA623A26
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], ntddstor/PSTORAGE_ZONE_DESCRIPTOR, _STORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: "_STORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], ntddstor/STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR, ntddstor/PSTORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], PSTORAGE_ZONE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_ZONE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR"
+req.typenames: STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR
 ---
 
 # _STORAGE_ZONE_DESCRIPTOR structure

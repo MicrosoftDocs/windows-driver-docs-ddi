@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, ZwWriteFile routine [Kernel-Mode Driver Architecture], kernel.zwwritefile, NtWriteFile, ZwWriteFile, wdm/NtWriteFile, wdm/ZwWriteFile
+ms.keywords: ZwWriteFile, kernel.zwwritefile, wdm/ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], NtWriteFile, k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, wdm/NtWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -185,15 +185,15 @@ Callers of <b>ZwWriteFile</b> must be running at IRQL = PASSIVE_LEVEL and <a hre
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d5f4eb5f-28bb-4906-b9f5-3adae31cac80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WakeDoNotAllowUserControl, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, kmdf.wdf_power_policy_sx_wake_user_control, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WakeAllowUserControl, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeUserControlInvalid, wdfdevice/WakeUserControlInvalid, wdfdevice/WakeAllowUserControl, wudfddi_types/WakeDoNotAllowUserControl, WakeUserControlInvalid, wudfddi_types/WakeAllowUserControl, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WakeDoNotAllowUserControl, wdf.wdf_power_policy_sx_wake_user_control, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
+ms.keywords: WakeDoNotAllowUserControl, wdfdevice/WakeUserControlInvalid, DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WakeUserControlInvalid, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeUserControlInvalid, wudfddi_types/WakeDoNotAllowUserControl, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wdfdevice/WakeDoNotAllowUserControl, wudfddi_types/WakeAllowUserControl, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, kmdf.wdf_power_policy_sx_wake_user_control, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, wdfdevice/WakeAllowUserControl, wdf.wdf_power_policy_sx_wake_user_control, WakeAllowUserControl, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

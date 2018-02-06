@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0b32954-62d1-4434-892f-67106b0f8ef7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_setpersistentbindingv2, HBA_SetPersistentBindingV2, hbaapi/HBA_SetPersistentBindingV2, HBA_SetPersistentBindingV2 routine [Storage Devices], fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml
+ms.keywords: fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml, storage.hba_setpersistentbindingv2, HBA_SetPersistentBindingV2 routine [Storage Devices], HBA_SetPersistentBindingV2, hbaapi/HBA_SetPersistentBindingV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,11 +152,11 @@ The <b>HBA_SetPersistentBindingV2</b> routine establishes a set of bindings betw
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 <a href="..\hbaapi\nf-hbaapi-hba_getpersistentbindingv2.md">HBA_GetPersistentBindingV2</a>
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
  
 

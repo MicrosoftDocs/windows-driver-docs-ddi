@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiSetInstanceName, scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml
+ms.keywords: scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename, ScsiPortWmiSetInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,9 +135,9 @@ The memory allocated for the request context must remain valid until after the m
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
-
 <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 

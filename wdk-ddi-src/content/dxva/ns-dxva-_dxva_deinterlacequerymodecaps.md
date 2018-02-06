@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4978e4f6-23e3-4381-be4e-550292101013
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DeinterlaceQueryModeCaps structure [Display Devices], dxva/DXVA_DeinterlaceQueryModeCaps, _DXVA_DeinterlaceQueryModeCaps, display.dxva_deinterlacequerymodecaps, DXVA_DeinterlaceQueryModeCaps, dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml
+ms.keywords: dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml, display.dxva_deinterlacequerymodecaps, DXVA_DeinterlaceQueryModeCaps structure [Display Devices], dxva/DXVA_DeinterlaceQueryModeCaps, DXVA_DeinterlaceQueryModeCaps, _DXVA_DeinterlaceQueryModeCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

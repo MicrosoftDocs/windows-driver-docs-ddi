@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7ab8986d-1e28-4d25-888f-cd10e310d623
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSendRPS_IN, storage.sendrps_in, hbapiwmi/SendRPS_IN, PSendRPS_IN structure pointer [Storage Devices], structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml, _SendRPS_IN, SendRPS_IN structure [Storage Devices], SendRPS_IN, PSendRPS_IN, *PSendRPS_IN
+ms.keywords: PSendRPS_IN structure pointer [Storage Devices], *PSendRPS_IN, structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml, SendRPS_IN structure [Storage Devices], SendRPS_IN, hbapiwmi/PSendRPS_IN, storage.sendrps_in, _SendRPS_IN, PSendRPS_IN, hbapiwmi/SendRPS_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendRPS_IN
 product: Windows
 targetos: Windows
-req.typenames: SendRPS_IN, *PSendRPS_IN
+req.typenames: "*PSendRPS_IN, SendRPS_IN"
 ---
 
 # _SendRPS_IN structure

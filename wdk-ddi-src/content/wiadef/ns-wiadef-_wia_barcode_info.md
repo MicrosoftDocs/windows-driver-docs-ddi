@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIA_BARCODE_INFO structure [Imaging Devices], wiadef/WIA_BARCODE_INFO, WIA_BARCODE_INFO, _WIA_BARCODE_INFO, image.wia_barcode_info
+ms.keywords: WIA_BARCODE_INFO structure [Imaging Devices], WIA_BARCODE_INFO, image.wia_barcode_info, _WIA_BARCODE_INFO, wiadef/WIA_BARCODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,14 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax

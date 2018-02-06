@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2b7b9b7-a76f-4bd9-bf25-edb5c103a578
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], RIL_SetCellBroadcastMsgConfig, rilapi/RIL_SetCellBroadcastMsgConfig, netvista.ril_setcellbroadcastmsgconfig
+ms.keywords: netvista.ril_setcellbroadcastmsgconfig, RIL_SetCellBroadcastMsgConfig, rilapi/RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetCellBroadcastMsgConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState
+ms.keywords: KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], wdm/KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState, kernel.kerestoreextendedprocessorstate, k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,13 +107,13 @@ The <b>KeRestoreExtendedProcessorState</b> call that restores a saved state must
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
-
 <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
+
+<a href="..\wdm\nf-wdm-kesaveextendedprocessorstate.md">KeSaveExtendedProcessorState</a>
 
 <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
-<a href="..\wdm\nf-wdm-kesaveextendedprocessorstate.md">KeSaveExtendedProcessorState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566414">XSTATE_SAVE</a>
 
  
 

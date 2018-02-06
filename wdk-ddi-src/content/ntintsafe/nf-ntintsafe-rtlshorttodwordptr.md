@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ABB3DBF-117D-491D-85A3-68E9280CFC6C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlShortToDWordPtr, RtlShortToDWordPtr, kernel.rtlshorttodwordptr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlShortToDWordPtr, kernel.rtlshorttodwordptr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], RtlShortToDWordPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

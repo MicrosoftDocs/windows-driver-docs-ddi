@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVCCONNECTINFO structure pointer [Streaming Media Devices], AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], PAVCCONNECTINFO, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, *PAVCCONNECTINFO, avc/AVCCONNECTINFO, stream.avcconnectinfo, _AVCCONNECTINFO
+ms.keywords: AVCCONNECTINFO structure [Streaming Media Devices], _AVCCONNECTINFO, *PAVCCONNECTINFO, stream.avcconnectinfo, PAVCCONNECTINFO structure pointer [Streaming Media Devices], avc/PAVCCONNECTINFO, PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, AVCCONNECTINFO, avc/AVCCONNECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVCCONNECTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PAVCCONNECTINFO, AVCCONNECTINFO"
+req.typenames: AVCCONNECTINFO, *PAVCCONNECTINFO
 ---
 
 # _AVCCONNECTINFO structure

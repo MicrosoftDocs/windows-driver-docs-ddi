@@ -40,7 +40,7 @@ apiname:
 -	RxInferFileType
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxInferFileType function
@@ -131,9 +131,9 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
 
  
 

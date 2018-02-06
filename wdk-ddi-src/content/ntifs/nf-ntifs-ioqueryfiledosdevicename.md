@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ntifs/IoQueryFileDosDeviceName, IoQueryFileDosDeviceName, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ifsk.ioqueryfiledosdevicename, IoQueryFileDosDeviceName routine [Installable File System Drivers]
+ms.keywords: IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, IoQueryFileDosDeviceName, ntifs/IoQueryFileDosDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

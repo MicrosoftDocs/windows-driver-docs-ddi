@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73ec5d3c-d8f6-4db9-b55f-317eab3b4a39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_text_rendering_format, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TRF_UNINITIALIZED, _D3DKMDT_TEXT_RENDERING_FORMAT
+ms.keywords: display.d3dkmdt_text_rendering_format, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, D3DKMDT_TRF_UNINITIALIZED, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, _D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

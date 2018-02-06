@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, dbgeng/IDebugSymbols2::GetTypeName, IDebugSymbols3::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols3, debugger.gettypename, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, IDebugSymbols::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, IDebugSymbols interface [Windows Debugging], GetTypeName method
+ms.keywords: GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], GetTypeName, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, IDebugSymbols2::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols3::GetTypeName, debugger.gettypename, dbgeng/IDebugSymbols::GetTypeName, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, IDebugSymbols::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetTypeName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetTypeName
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetTypeName method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a0e1e46-8bb1-4292-bd33-17ed4cc33c60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_device_caps, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, *PNDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS, _NDIS_WWAN_DEVICE_CAPS
+ms.keywords: PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS, ndiswwan/NDIS_WWAN_DEVICE_CAPS, WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, netvista.ndis_wwan_device_caps, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, _NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

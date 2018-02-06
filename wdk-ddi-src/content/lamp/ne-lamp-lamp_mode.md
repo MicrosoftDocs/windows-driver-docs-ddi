@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: B379B6EF-C3AD-4E6F-B32D-F85228DB6A72
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: lamp/LAMP_MODE, LAMP_MODE_COLOR, stream.lamp_mode, LAMP_MODE, lamp/LAMP_MODE_WHITE, lamp/LAMP_MODE_COLOR, LAMP_MODE enumeration [Streaming Media Devices], LAMP_MODE_WHITE
+ms.keywords: stream.lamp_mode, LAMP_MODE_WHITE, LAMP_MODE, LAMP_MODE enumeration [Streaming Media Devices], lamp/LAMP_MODE, lamp/LAMP_MODE_WHITE, LAMP_MODE_COLOR, lamp/LAMP_MODE_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -82,14 +82,14 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 
 
 
-#### - CreateCommandQueue [in]
-
-An argument used to create a command queue. 
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - CreateCommandQueue [in]
+
+An argument used to create a command queue. 
 
 
 ## -returns

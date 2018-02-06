@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c87a8368-3804-4a07-92c8-65a453d0808f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetdeviceclass, WdfDeviceInitSetDeviceClass method, kmdf.wdfdeviceinitsetdeviceclass, WdfDeviceInitSetDeviceClass, wdfdevice/WdfDeviceInitSetDeviceClass, DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml
+ms.keywords: DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml, wdfdevice/WdfDeviceInitSetDeviceClass, WdfDeviceInitSetDeviceClass, kmdf.wdfdeviceinitsetdeviceclass, wdf.wdfdeviceinitsetdeviceclass, WdfDeviceInitSetDeviceClass method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

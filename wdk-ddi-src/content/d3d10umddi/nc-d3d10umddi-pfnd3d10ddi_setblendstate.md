@@ -40,7 +40,7 @@ apiname:
 -	SetBlendState
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_SETBLENDSTATE callback
@@ -92,11 +92,6 @@ VOID APIENTRY SetBlendState(
 
 
 
-#### - SampleMask [in]
-
- A sample format mask.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -110,6 +105,11 @@ VOID APIENTRY SetBlendState(
 #### - pBlendFactor [in]
 
  A four-element array of single-precision float vectors that the driver uses to set the blend state.
+
+
+#### - SampleMask [in]
+
+ A sample format mask.
 
 
 ## -returns

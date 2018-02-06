@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d5378b35-da27-419f-a161-0c542aa4a9f9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide::CreateProcess, IDebugEventCallbacksWide, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide interface, CreateProcess method [Windows Debugging], debugger.idebugeventcallbackswide_createprocess, IDebugEventCallbacksWide interface [Windows Debugging], CreateProcess method, dbgeng/IDebugEventCallbacksWide::CreateProcess, CreateProcess
+ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], CreateProcess method, debugger.idebugeventcallbackswide_createprocess, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::CreateProcess, dbgeng/IDebugEventCallbacksWide::CreateProcess, CreateProcess, IDebugEventCallbacksWide, CreateProcess method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.CreateProcess
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::CreateProcess method

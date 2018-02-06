@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaSegmentationFilter::DetectRegions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter, DetectRegions method [Imaging Devices], DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, wia_lh/IWiaSegmentationFilter::DetectRegions, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, image.iwiasegmentationfilter_detectregions, DetectRegions
+ms.keywords: DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, IWiaSegmentationFilter, DetectRegions method [Imaging Devices], image.iwiasegmentationfilter_detectregions, wia_lh/IWiaSegmentationFilter::DetectRegions, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, IWiaSegmentationFilter::DetectRegions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaSegmentationFilter.DetectRegions
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

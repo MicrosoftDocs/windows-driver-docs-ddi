@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D9A54562-0ABC-4BEA-A9E3-F1A0A4EBC095
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, RegisterAdapterPnpManagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement, IPortClsPnp, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], audio.iportclspnp_registeradapterpnpmanagement
+ms.keywords: RegisterAdapterPnpManagement, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, audio.iportclspnp_registeradapterpnpmanagement, IPortClsPnp, portcls/IPortClsPnp::RegisterAdapterPnpManagement, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

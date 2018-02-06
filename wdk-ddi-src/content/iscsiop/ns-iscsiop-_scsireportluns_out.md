@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], iscsiop/ScsiReportLuns_OUT, ScsiReportLuns_OUT, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml, _ScsiReportLuns_OUT, storage.scsireportluns_out, iscsiop/PScsiReportLuns_OUT, *PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices]
+ms.keywords: ScsiReportLuns_OUT structure [Storage Devices], storage.scsireportluns_out, PScsiReportLuns_OUT, _ScsiReportLuns_OUT, *PScsiReportLuns_OUT, iscsiop/PScsiReportLuns_OUT, ScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], iscsiop/ScsiReportLuns_OUT, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReportLuns_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReportLuns_OUT, ScsiReportLuns_OUT"
+req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 ---
 
 # _ScsiReportLuns_OUT structure
@@ -105,15 +105,15 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="..\hbapiwmi\ns-hbapiwmi-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
  
 

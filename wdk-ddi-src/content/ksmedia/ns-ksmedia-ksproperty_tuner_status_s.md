@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5e1b37f2-f567-4c03-b0f4-cc1dbd568907
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S structure [Streaming Media Devices], KSPROPERTY_TUNER_STATUS_S, PKSPROPERTY_TUNER_STATUS_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_STATUS_S, stream.ksproperty_tuner_status_s, ksmedia/KSPROPERTY_TUNER_STATUS_S, vidcapstruct_a36247d8-99d7-4dad-8632-5feb685616d6.xml, PKSPROPERTY_TUNER_STATUS_S"
+ms.keywords: PKSPROPERTY_TUNER_STATUS_S, vidcapstruct_a36247d8-99d7-4dad-8632-5feb685616d6.xml, *PKSPROPERTY_TUNER_STATUS_S, KSPROPERTY_TUNER_STATUS_S, ksmedia/KSPROPERTY_TUNER_STATUS_S, PKSPROPERTY_TUNER_STATUS_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_STATUS_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_STATUS_S, stream.ksproperty_tuner_status_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -197,9 +197,9 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565921">KSPROPERTY_TUNER_STATUS</a>
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D6615DE8-5103-470D-A895-6663B2CC9261
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_decode_profiles_data, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 structure [Display Devices]
+ms.keywords: display.d3d12ddi_video_decode_profiles_data, d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

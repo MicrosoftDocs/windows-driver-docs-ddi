@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 00c82e73-5649-403b-9f07-81bdd2f6c756
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetTextReplacement method [Windows Debugging], IDebugControl3::SetTextReplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, dbgeng/IDebugControl3::SetTextReplacement, IDebugControl3, IDebugControl2::SetTextReplacement, dbgeng/IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, debugger.settextreplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, IDebugControl2 interface [Windows Debugging], SetTextReplacement method
+ms.keywords: dbgeng/IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, SetTextReplacement method [Windows Debugging], IDebugControl3, SetTextReplacement, IDebugControl2::SetTextReplacement, debugger.settextreplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetTextReplacement, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, dbgeng/IDebugControl2::SetTextReplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugControl3.SetTextReplacement
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetTextReplacement method
@@ -118,19 +118,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
 <a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 

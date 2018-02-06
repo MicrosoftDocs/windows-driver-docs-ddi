@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TransactionPropertiesInformation, _TRANSACTION_INFORMATION_CLASS, TransactionSuperiorEnlistmentInformation, wdm/TransactionPropertiesInformation, TransactionEnlistmentInformation, wdm/TransactionEnlistmentInformation, wdm/TransactionBasicInformation, kernel.transaction_information_class, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, wdm/TransactionSuperiorEnlistmentInformation, wdm/TRANSACTION_INFORMATION_CLASS
+ms.keywords: TRANSACTION_INFORMATION_CLASS, TransactionSuperiorEnlistmentInformation, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionEnlistmentInformation, wdm/TransactionSuperiorEnlistmentInformation, TransactionPropertiesInformation, TransactionBasicInformation, TransactionEnlistmentInformation, wdm/TransactionPropertiesInformation, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TransactionBasicInformation, kernel.transaction_information_class, _TRANSACTION_INFORMATION_CLASS, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, _D3DDDICB_SETPRIORITY, d3dumddi/D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority, D3DDDICB_SETPRIORITY
+ms.keywords: display.d3dddicb_setpriority, d3dumddi/D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], _D3DDDICB_SETPRIORITY, D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, D3DDDICB_SETPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,9 +96,9 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
  
 

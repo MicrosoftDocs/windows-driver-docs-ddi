@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f8c040aa-bfa0-4b74-ad0a-8796f1cfc4b8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_device_state_init, kmdf.wdf_device_state_init, WDF_DEVICE_STATE_INIT, DFDeviceObjectGeneralRef_702c7f79-a50f-4115-ba93-82388ccbf063.xml, wdfdevice/WDF_DEVICE_STATE_INIT, WDF_DEVICE_STATE_INIT function
+ms.keywords: kmdf.wdf_device_state_init, DFDeviceObjectGeneralRef_702c7f79-a50f-4115-ba93-82388ccbf063.xml, WDF_DEVICE_STATE_INIT, wdf.wdf_device_state_init, wdfdevice/WDF_DEVICE_STATE_INIT, WDF_DEVICE_STATE_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

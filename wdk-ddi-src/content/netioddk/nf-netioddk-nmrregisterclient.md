@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netioddk/NmrRegisterClient, NmrRegisterClient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netvista.nmrregisterclient
+ms.keywords: NmrRegisterClient function [Network Drivers Starting with Windows Vista], netvista.nmrregisterclient, NmrRegisterClient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netioddk/NmrRegisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NmrRegisterClient
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
 ---
 
 # NmrRegisterClient function
@@ -170,9 +170,9 @@ A client module typically calls the
 
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
 
  
 

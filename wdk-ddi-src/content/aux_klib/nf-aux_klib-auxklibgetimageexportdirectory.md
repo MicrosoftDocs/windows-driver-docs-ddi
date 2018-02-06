@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 994ba853-88b6-4456-8fdb-3199979df05e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], AuxKlibGetImageExportDirectory, aux_klib/AuxKlibGetImageExportDirectory, kernel.auxklibgetimageexportdirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml
+ms.keywords: AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], kernel.auxklibgetimageexportdirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, AuxKlibGetImageExportDirectory, aux_klib/AuxKlibGetImageExportDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

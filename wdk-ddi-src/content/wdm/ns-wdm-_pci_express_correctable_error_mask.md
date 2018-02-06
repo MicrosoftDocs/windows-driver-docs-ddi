@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d666cdd3-a673-4105-b982-e7cc942131ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.pci_express_correctable_error_mask, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK, _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], PPCI_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PPCI_CORRECTABLE_ERROR_MASK
+ms.keywords: PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], wdm/PPCI_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], *PPCI_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK
+req.typenames: "*PPCI_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK"
 req.product: Windows 10 or later.
 ---
 
@@ -155,9 +155,9 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure is contained in the <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
 

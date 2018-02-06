@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 727b2e29-9e2d-4386-a30b-5727e1261fad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsGetContainerName, ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture], Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, kernel.clfsgetcontainername
+ms.keywords: ClfsGetContainerName routine [Kernel-Mode Driver Architecture], Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, ClfsGetContainerName, kernel.clfsgetcontainername, wdm/ClfsGetContainerName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

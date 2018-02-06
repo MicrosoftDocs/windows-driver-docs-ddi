@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC69357E-425B-440B-93D0-918E8586D5DF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, debugger.idebugplmclient3_resumeplmpackagewide, IDebugPlmClient3::ResumePlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], ResumePlmPackageWide method, ResumePlmPackageWide, ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface
+ms.keywords: ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, ResumePlmPackageWide method [Windows Debugging], IDebugPlmClient3::ResumePlmPackageWide, ResumePlmPackageWide, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], ResumePlmPackageWide method, debugger.idebugplmclient3_resumeplmpackagewide, IDebugPlmClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient3.ResumePlmPackageWide
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient3::ResumePlmPackageWide method

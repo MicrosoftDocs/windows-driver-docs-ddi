@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0627b278-2fd5-4185-8ec9-8b306c6d85a8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, GetWriteParameters, IWDFIoRequest, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters, GetWriteParameters method, umdf.iwdfiorequest_getwriteparameters, GetWriteParameters method, IWDFIoRequest interface, IWDFIoRequest::GetWriteParameters, IWDFIoRequest interface, GetWriteParameters method
+ms.keywords: wudfddi/IWDFIoRequest::GetWriteParameters, GetWriteParameters method, GetWriteParameters, IWDFIoRequest, IWDFIoRequest::GetWriteParameters, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, IWDFIoRequest interface, GetWriteParameters method, umdf.iwdfiorequest_getwriteparameters, wdf.iwdfiorequest_getwriteparameters, GetWriteParameters method, IWDFIoRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.GetWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -118,9 +118,9 @@ For devices that support addressing (for example, a disk device), the value that
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
  
 

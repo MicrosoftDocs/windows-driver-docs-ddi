@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], FILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], wdm/PFILE_STANDARD_INFORMATION_EX
+ms.keywords: wdm/PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], kernel.file_standard_information_ex, *PFILE_STANDARD_INFORMATION_EX, wdm/FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

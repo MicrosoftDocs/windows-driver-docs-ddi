@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21aa5850-1984-4ab8-8e7c-3028fc87680b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IoInitializePriorityInfo routine [Installable File System Drivers], ifsk.ioinitializepriorityinfo, ntifs/IoInitializePriorityInfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, IoInitializePriorityInfo
+ms.keywords: ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, ifsk.ioinitializepriorityinfo, IoInitializePriorityInfo routine [Installable File System Drivers], IoInitializePriorityInfo, ntifs/IoInitializePriorityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,11 @@ The <b>IoInitializePriorityInfo</b> routine is used to initialize the IO_PRIORIT
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
+
 <a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltretrieveiopriorityinfo.md">FltRetrieveIoPriorityInfo</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
 
  
 

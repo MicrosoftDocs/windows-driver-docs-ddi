@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7ffe847-58ae-42a9-86fd-50a757134b45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, display.dxva_tcoef4group, dxva/LPDXVA_TCoef4Group, *LPDXVA_TCoef4Group, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, LPDXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], DXVA_TCoef4Group
+ms.keywords: DXVA_TCoef4Group, dxva/DXVA_TCoef4Group, LPDXVA_TCoef4Group, _DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, display.dxva_tcoef4group, LPDXVA_TCoef4Group structure pointer [Display Devices], dxva/LPDXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], *LPDXVA_TCoef4Group
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_TCoef4Group
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_TCoef4Group, DXVA_TCoef4Group"
+req.typenames: DXVA_TCoef4Group, *LPDXVA_TCoef4Group
 ---
 
 # _DXVA_TCoef4Group structure

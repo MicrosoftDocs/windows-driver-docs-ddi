@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], IoOpenDeviceRegistryKey, k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, wdm/IoOpenDeviceRegistryKey, kernel.ioopendeviceregistrykey
+ms.keywords: wdm/IoOpenDeviceRegistryKey, kernel.ioopendeviceregistrykey, IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,11 +85,6 @@ The flags are defined as follows:
 
 
 
-#### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
-
-Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. 
-
-
 #### PLUGPLAY_REGKEY_DEVICE
 
 Open the <b>Device Parameters</b> subkey under the device's <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a>. The key is located under the key for the device instance specified by <i>DeviceObject</i>. This flag cannot be specified with PLUGPLAY_REGKEY_DRIVER.
@@ -98,6 +93,11 @@ Open the <b>Device Parameters</b> subkey under the device's <a href="https://msd
 #### PLUGPLAY_REGKEY_DRIVER
 
 Open a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> for storing driver-specific information. This flag cannot be specified with PLUGPLAY_REGKEY_DEVICE.
+
+
+#### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
+
+Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. 
 
 
 ### -param DesiredAccess [in]
@@ -162,9 +162,9 @@ Callers of <b>IoOpenDeviceRegistryKey</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
  
 

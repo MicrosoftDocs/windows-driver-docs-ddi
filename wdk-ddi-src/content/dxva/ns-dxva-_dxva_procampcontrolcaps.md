@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_procampcontrolcaps, dxva/LPDXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], LPDXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, _DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml
+ms.keywords: LPDXVA_ProcAmpControlCaps, dxva/LPDXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], DXVA_ProcAmpControlCaps structure [Display Devices], dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, _DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, DXVA_ProcAmpControlCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

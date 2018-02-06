@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b7b35df9-04bb-40f0-a076-f4ed5f54ca6c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PFILE_FS_SIZE_INFORMATION, *PFILE_FS_SIZE_INFORMATION, ntddk/FILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION structure [Installable File System Drivers], ntddk/PFILE_FS_SIZE_INFORMATION, fileinformationstructures_749eab67-2b42-4c11-a9a8-ef8ae9866f17.xml, _FILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION, ifsk.file_fs_size_information, PFILE_FS_SIZE_INFORMATION structure pointer [Installable File System Drivers]
+ms.keywords: fileinformationstructures_749eab67-2b42-4c11-a9a8-ef8ae9866f17.xml, ntddk/FILE_FS_SIZE_INFORMATION, *PFILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SIZE_INFORMATION, ifsk.file_fs_size_information, PFILE_FS_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION, ntddk/PFILE_FS_SIZE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,9 +119,9 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
  
 

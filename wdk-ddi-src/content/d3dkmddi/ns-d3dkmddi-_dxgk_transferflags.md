@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS, DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, display.dxgk_transferflags, d3dkmddi/DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS structure [Display Devices]"
+ms.keywords: DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS, DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, DXGK_TRANSFERFLAGS structure [Display Devices], _DXGK_TRANSFERFLAGS, display.dxgk_transferflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

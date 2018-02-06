@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 179419ee-2a99-4c03-9afb-a9bb34f3efb6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bdamethoddeletepin, BdaMethodDeletePin, BdaMethodDeletePin function [Streaming Media Devices], bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml, bdasup/BdaMethodDeletePin
+ms.keywords: bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml, BdaMethodDeletePin function [Streaming Media Devices], BdaMethodDeletePin, bdasup/BdaMethodDeletePin, stream.bdamethoddeletepin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,17 +108,17 @@ If a BDA minidriver must delete a pin without relying on the network provider, t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-<a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a>
-
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
 <a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
+
+<a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e373b1dd-54bd-429c-a5b9-9f8df546c185
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsicfg/ISCSI_NIC_LINKSTATE_DISCONNECTED, ISCSI_NIC_LINKSTATE_DISCONNECTED, PISCSI_NIC_LINKSTATE enumeration pointer [Storage Devices], iscsicfg/ISCSI_NIC_LINKSTATE_CONNECTED, ISCSI_NIC_LINKSTATE_CONNECTED, ISCSI_NIC_LINKSTATE, iscsicfg/PISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE enumeration [Storage Devices], PISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE, storage.iscsi_nic_linkstate, structs-iSCSI_23ddbeb6-19d4-49f2-b61f-00ea2e5ef0a8.xml
+ms.keywords: iscsicfg/PISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_CONNECTED, structs-iSCSI_23ddbeb6-19d4-49f2-b61f-00ea2e5ef0a8.xml, ISCSI_NIC_LINKSTATE_DISCONNECTED, PISCSI_NIC_LINKSTATE enumeration pointer [Storage Devices], ISCSI_NIC_LINKSTATE_CONNECTED, *PISCSI_NIC_LINKSTATE, storage.iscsi_nic_linkstate, PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_DISCONNECTED, ISCSI_NIC_LINKSTATE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_NIC_LINKSTATE
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE"
+req.typenames: ISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE
 ---
 
 # *PISCSI_NIC_LINKSTATE enumeration

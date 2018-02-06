@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol7_getdebuggeetype2, IDebugControl7, GetDebuggeeType2 method [Windows Debugging], IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface
+ms.keywords: dbgeng/IDebugControl7::GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, IDebugControl7::GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], debugger.idebugcontrol7_getdebuggeetype2, IDebugControl7, GetDebuggeeType2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl7.GetDebuggeeType2
 product: Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl7::GetDebuggeeType2 method

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: BUSDATA structure [Windows Debugging], GETSETBUSDATA, _GETSETBUSDATA, PBUSDATA structure pointer [Windows Debugging], wdbgexts/GETSETBUSDATA, PBUSDATA, debugger.ig_get_bus_data, WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, *PBUSDATA, GETSETBUSDATA structure [Windows Debugging], BUSDATA, wdbgexts/PBUSDATA
+ms.keywords: debugger.ig_get_bus_data, PBUSDATA, GETSETBUSDATA, PBUSDATA structure pointer [Windows Debugging], BUSDATA structure [Windows Debugging], *PBUSDATA, WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, wdbgexts/GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], BUSDATA, wdbgexts/PBUSDATA, _GETSETBUSDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

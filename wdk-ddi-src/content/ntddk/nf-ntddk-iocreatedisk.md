@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0ad85551-a8d2-4f7f-958b-fe23111de340
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IoCreateDisk, ntddk/IoCreateDisk, IoCreateDisk routine [Storage Devices], storage.iocreatedisk, rtns-disk_5f69686f-f812-4ccc-8bc8-4caa70230d20.xml
+ms.keywords: storage.iocreatedisk, IoCreateDisk routine [Storage Devices], IoCreateDisk, rtns-disk_5f69686f-f812-4ccc-8bc8-4caa70230d20.xml, ntddk/IoCreateDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

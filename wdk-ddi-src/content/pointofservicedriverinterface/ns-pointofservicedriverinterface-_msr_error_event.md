@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: daab2df5-4d23-4fe3-b357-74b2615e6d1e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PMSR_ERROR_EVENT, MSR_ERROR_EVENT structure, _MSR_ERROR_EVENT, *PMSR_ERROR_EVENT, MSR_ERROR_EVENT, pos.msr_error_event, pointofservicedriverinterface/PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, pointofservicedriverinterface/MSR_ERROR_EVENT
+ms.keywords: pos.msr_error_event, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, MSR_ERROR_EVENT, _MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, *PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, pointofservicedriverinterface/MSR_ERROR_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

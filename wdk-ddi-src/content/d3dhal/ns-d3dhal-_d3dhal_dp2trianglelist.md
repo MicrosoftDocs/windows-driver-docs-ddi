@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9a9b407-dae5-4456-8542-4f5b06af50a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST structure [Display Devices], D3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, *LPD3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST, display.d3dhal_dp2trianglelist"
+ms.keywords: LPD3DHAL_DP2TRIANGLELIST, display.d3dhal_dp2trianglelist, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, _D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST structure [Display Devices], d3dhal/D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DHAL_DP2TRIANGLELIST
 product: Windows
 targetos: Windows
-req.typenames: D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST
+req.typenames: "*LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST"
 ---
 
 # _D3DHAL_DP2TRIANGLELIST structure
@@ -86,9 +86,9 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-D3DDP2OP_TRIANGLELIST
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+D3DDP2OP_TRIANGLELIST
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 

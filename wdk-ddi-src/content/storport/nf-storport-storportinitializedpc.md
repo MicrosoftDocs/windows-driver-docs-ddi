@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml, storport/StorPortInitializeDpc, StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc
+ms.keywords: StorPortInitializeDpc routine [Storage Devices], storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml, storport/StorPortInitializeDpc, storage.storportinitializedpc, StorPortInitializeDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

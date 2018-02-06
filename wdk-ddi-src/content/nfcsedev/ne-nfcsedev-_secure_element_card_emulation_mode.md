@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E8A53836-95D1-4CE4-AF55-5AD732211A55
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.secure_element_set_card_emulation_mode, _SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], nfcsedev/EmulationOnPowerDependent, nfcsedev/EmulationOff, EmulationOnPowerIndependent, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, EmulationOnPowerDependent, EmulationOff, nfcsedev/EmulationOnPowerIndependent, *PSECURE_ELEMENT_CARD_EMULATION_MODE
+ms.keywords: EmulationOff, *PSECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOnPowerIndependent, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOnPowerDependent, _SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], nfpdrivers.secure_element_set_card_emulation_mode, EmulationOnPowerDependent, nfcsedev/EmulationOff, EmulationOnPowerIndependent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SECURE_ELEMENT_CARD_EMULATION_MODE
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_CARD_EMULATION_MODE, *PSECURE_ELEMENT_CARD_EMULATION_MODE
+req.typenames: "*PSECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE"
 ---
 
 # _SECURE_ELEMENT_CARD_EMULATION_MODE enumeration

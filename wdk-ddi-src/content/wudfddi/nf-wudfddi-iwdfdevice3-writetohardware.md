@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3::WriteToHardware, WriteToHardware method, wdf.iwdfdevice3_writetohardware, WriteToHardware method, IWDFDevice3 interface, wudfddi/IWDFDevice3::WriteToHardware, umdf.iwdfdevice3_writetohardware, WriteToHardware, IWDFDevice3, IWDFDevice3 interface, WriteToHardware method
+ms.keywords: umdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware, wdf.iwdfdevice3_writetohardware, IWDFDevice3, WriteToHardware, IWDFDevice3 interface, WriteToHardware method, WriteToHardware method, IWDFDevice3 interface, WriteToHardware method, IWDFDevice3::WriteToHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.WriteToHardware
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 

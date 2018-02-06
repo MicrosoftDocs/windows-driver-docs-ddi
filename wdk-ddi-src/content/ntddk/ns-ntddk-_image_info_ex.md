@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97F3D9BE-9069-4A4A-B114-FC9331510512
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IMAGE_INFO_EX, ntddk/PIMAGE_INFO_EX, _IMAGE_INFO_EX, kernel.image_info_ex, PIMAGE_INFO_EX structure pointer [Kernel-Mode Driver Architecture], *PIMAGE_INFO_EX, ntddk/IMAGE_INFO_EX, PIMAGE_INFO_EX, IMAGE_INFO_EX structure [Kernel-Mode Driver Architecture]
+ms.keywords: PIMAGE_INFO_EX structure pointer [Kernel-Mode Driver Architecture], ntddk/PIMAGE_INFO_EX, IMAGE_INFO_EX structure [Kernel-Mode Driver Architecture], kernel.image_info_ex, ntddk/IMAGE_INFO_EX, IMAGE_INFO_EX, PIMAGE_INFO_EX, _IMAGE_INFO_EX, *PIMAGE_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IMAGE_INFO_EX
 product: Windows
 targetos: Windows
-req.typenames: IMAGE_INFO_EX, *PIMAGE_INFO_EX
+req.typenames: "*PIMAGE_INFO_EX, IMAGE_INFO_EX"
 ---
 
 # _IMAGE_INFO_EX structure
@@ -98,11 +98,11 @@ If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure i
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pload_image_notify_routine.md">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
-
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
 <a href="..\ntddk\ns-ntddk-_image_info.md">IMAGE_INFO</a>
+
+<a href="..\ntddk\nc-ntddk-pload_image_notify_routine.md">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware method, wdfdevice/WdfDeviceWriteToHardware, WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware, wdf.wdfdevicewritetohardware
+ms.keywords: WdfDeviceWriteToHardware, wdf.wdfdevicewritetohardware, WdfDeviceWriteToHardware method, wdfdevice/WdfDeviceWriteToHardware, PFN_WDFDEVICEWRITETOHARDWARE, wdfhwaccess/WdfDeviceWriteToHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

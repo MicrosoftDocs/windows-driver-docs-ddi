@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/DEVCAPS, tagDEVCAPS, stream.devcaps, ksmedia/PDEVCAPS, *PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, PDEVCAPS, DEVCAPS structure [Streaming Media Devices], DEVCAPS
+ms.keywords: ksmedia/PDEVCAPS, tagDEVCAPS, *PDEVCAPS, PDEVCAPS, DEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml, stream.devcaps, DEVCAPS structure [Streaming Media Devices], PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVCAPS
 product: Windows
 targetos: Windows
-req.typenames: DEVCAPS, *PDEVCAPS
+req.typenames: "*PDEVCAPS, DEVCAPS"
 ---
 
 # tagDEVCAPS structure
@@ -319,9 +319,9 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
-
 <a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
 
  
 

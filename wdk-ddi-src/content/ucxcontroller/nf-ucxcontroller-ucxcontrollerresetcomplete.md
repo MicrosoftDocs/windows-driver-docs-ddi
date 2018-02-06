@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcxControllerResetComplete, ucxcontroller/UcxControllerResetComplete, buses._ucxcontrollerresetcomplete, UcxControllerResetComplete method [Buses]
+ms.keywords: buses._ucxcontrollerresetcomplete, UcxControllerResetComplete method [Buses], UcxControllerResetComplete, ucxcontroller/UcxControllerResetComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

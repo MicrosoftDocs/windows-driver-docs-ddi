@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], PoFxRegisterCrashdumpDevice, wdm/PoFxRegisterCrashdumpDevice, kernel.pofxregistercrashdumpdevice
+ms.keywords: kernel.pofxregistercrashdumpdevice, PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], wdm/PoFxRegisterCrashdumpDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

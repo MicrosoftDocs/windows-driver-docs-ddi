@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57d76d1e-4276-4dbd-b651-2bba6de898b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_PORT_STATE, _NDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, netvista.ndis_port_state, NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_STATE, NDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PORT_STATE"
+ms.keywords: NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], *PNDIS_PORT_STATE, PNDIS_PORT_STATE, ntddndis/NDIS_PORT_STATE, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, _NDIS_PORT_STATE, NDIS_PORT_STATE, netvista.ndis_port_state, ntddndis/PNDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PORT_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PORT_STATE, *PNDIS_PORT_STATE
+req.typenames: "*PNDIS_PORT_STATE, NDIS_PORT_STATE"
 ---
 
 # _NDIS_PORT_STATE structure
@@ -122,6 +122,11 @@ The current control state of the port for send operations. This member must cont
 
 
 
+#### NdisPortControlStateUnknown
+
+The port's control state for send operations is unknown.
+
+
 #### NdisPortControlStateControlled
 
 The port is in a controlled state for send operations. That is, the port requires
@@ -134,11 +139,6 @@ The port is in an uncontrolled state for send operations. That is, the port does
        authorization.
 
 
-#### NdisPortControlStateUnknown
-
-The port's control state for send operations is unknown.
-
-
 ### -field RcvControlState
 
 The current control state of the port for receive operations. This member must contain one of the
@@ -146,6 +146,11 @@ The current control state of the port for receive operations. This member must c
      
 
 
+
+
+#### NdisPortControlStateUnknown
+
+The port's control state for receive operations is unknown.
 
 
 #### NdisPortControlStateControlled
@@ -158,11 +163,6 @@ The port is in a controlled state for receive operations. That is, the port requ
 
 The port is in an uncontrolled state for receive operations. That is, the port does not require
        authorization.
-
-
-#### NdisPortControlStateUnknown
-
-The port's control state for receive operations is unknown.
 
 
 ### -field SendAuthorizationState
@@ -187,14 +187,14 @@ The port's authorization state for send operations is unknown.
 The port is authorized for send operations.
 
 
-#### NdisPortReauthorizing
-
-The port is re-authorizing for send operations.
-
-
 #### NdisPortUnauthorized
 
 The port is not authorized for send operations.
+
+
+#### NdisPortReauthorizing
+
+The port is re-authorizing for send operations.
 
 
 ### -field RcvAuthorizationState
@@ -219,14 +219,14 @@ The port's authorization state for receive operations is unknown.
 The port is authorized for receive operations.
 
 
-#### NdisPortReauthorizing
-
-The port is re-authorizing for receive operations.
-
-
 #### NdisPortUnauthorized
 
 The port is not authorized for receive operations.
+
+
+#### NdisPortReauthorizing
+
+The port is re-authorizing for receive operations.
 
 
 ### -field Flags
@@ -246,15 +246,15 @@ The NDIS_PORT_STATE structure is used in the
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a>
 
  
 

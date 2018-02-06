@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PKTMOBJECT_TYPE, wdm/KTMOBJECT_TYPE, KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION_MANAGER, _KTMOBJECT_TYPE, wdm/KTMOBJECT_INVALID, KTMOBJECT_INVALID, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TRANSACTION, KTMOBJECT_RESOURCE_MANAGER, *PKTMOBJECT_TYPE, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_ENLISTMENT, kernel.ktmobject_type, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_RESOURCE_MANAGER, PKTMOBJECT_TYPE
+ms.keywords: PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_TYPE, KTMOBJECT_ENLISTMENT, KTMOBJECT_TRANSACTION_MANAGER, PKTMOBJECT_TYPE, _KTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE, KTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_ENLISTMENT, KTMOBJECT_INVALID, wdm/KTMOBJECT_INVALID, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, wdm/KTMOBJECT_RESOURCE_MANAGER, *PKTMOBJECT_TYPE, kernel.ktmobject_type, KTMOBJECT_TRANSACTION, KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION_MANAGER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	KTMOBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PKTMOBJECT_TYPE, KTMOBJECT_TYPE"
+req.typenames: KTMOBJECT_TYPE, *PKTMOBJECT_TYPE
 req.product: Windows 10 or later.
 ---
 

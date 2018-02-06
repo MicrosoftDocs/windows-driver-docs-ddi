@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6d73ce17-1fbc-4d12-87f0-ac10889b85be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, KsGateTerminateOr function [Streaming Media Devices], KsGateTerminateOr, stream.ksgateterminateor, ks/KsGateTerminateOr
+ms.keywords: avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, ks/KsGateTerminateOr, stream.ksgateterminateor, KsGateTerminateOr function [Streaming Media Devices], KsGateTerminateOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

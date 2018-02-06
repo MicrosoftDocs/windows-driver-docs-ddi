@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 55d6d93b-c20f-435b-ba99-2df26bd17240
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, IWiaMiniDrv::drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
+ms.keywords: IWiaMiniDrv::drvNotifyPnpEvent, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_L2CA_CLOSE_CHANNEL, bltooth._brb_l2ca_close_channel, _BRB_L2CA_CLOSE_CHANNEL, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml"
+ms.keywords: bltooth._brb_l2ca_close_channel, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_L2CA_CLOSE_CHANNEL, _BRB_L2CA_CLOSE_CHANNEL, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,10 +108,10 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
  
 

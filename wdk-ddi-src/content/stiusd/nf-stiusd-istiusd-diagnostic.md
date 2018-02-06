@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::Diagnostic, IStiUSD, Diagnostic, Diagnostic method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Diagnostic method, Diagnostic method [Imaging Devices], stiusd/IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml
+ms.keywords: stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic, IStiUSD::Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiUSD interface, Diagnostic, IStiUSD interface [Imaging Devices], Diagnostic method, IStiUSD, image.istiusd_diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Diagnostic
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5530901-e48c-4f4e-86a8-00d5ed01f933
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT, PCONTROLLER_OBJECT, ntddk/CONTROLLER_OBJECT, CONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], *PCONTROLLER_OBJECT, kernel.controller_object, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml"
+ms.keywords: "_CONTROLLER_OBJECT, CONTROLLER_OBJECT, kernel.controller_object, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT, *PCONTROLLER_OBJECT, kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml, ntddk/CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

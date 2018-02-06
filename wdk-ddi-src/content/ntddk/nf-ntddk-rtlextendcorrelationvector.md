@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlextendcorrelationvector, RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], ntddk/RtlExtendCorrelationVector
+ms.keywords: kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector, RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

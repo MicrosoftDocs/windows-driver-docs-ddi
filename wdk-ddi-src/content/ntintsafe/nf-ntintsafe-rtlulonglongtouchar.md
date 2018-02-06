@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3A701A1B-257F-42C4-80A7-8CFF0DAD1A83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlULongLongToUChar, RtlULongLongToUChar function [Kernel-Mode Driver Architecture], RtlULongLongToUChar, kernel.rtlulonglongtouchar
+ms.keywords: RtlULongLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouchar, RtlULongLongToUChar, ntintsafe/RtlULongLongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

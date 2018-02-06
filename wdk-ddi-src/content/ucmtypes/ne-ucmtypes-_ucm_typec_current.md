@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5A603C0E-BBB8-4909-B7B0-EAADF428CB5F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: UcmTypeCCurrentInvalid, UCM_TYPEC_CURRENT, ucmtypes/UcmTypeCCurrentDefaultUsb, UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrent1500mA, UcmTypeCCurrentDefaultUsb, UcmTypeCCurrent3000mA, ucmtypes/UCM_TYPEC_CURRENT, _UCM_TYPEC_CURRENT, buses.ucm_type_c_current, UCM_TYPEC_CURRENT enumeration [Buses], ucmtypes/UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrent3000mA
+ms.keywords: ucmtypes/UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrent3000mA, UcmTypeCCurrentInvalid, buses.ucm_type_c_current, ucmtypes/UCM_TYPEC_CURRENT, UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrentInvalid, UcmTypeCCurrentDefaultUsb, UCM_TYPEC_CURRENT enumeration [Buses], ucmtypes/UcmTypeCCurrentDefaultUsb, UCM_TYPEC_CURRENT, UcmTypeCCurrent3000mA, _UCM_TYPEC_CURRENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

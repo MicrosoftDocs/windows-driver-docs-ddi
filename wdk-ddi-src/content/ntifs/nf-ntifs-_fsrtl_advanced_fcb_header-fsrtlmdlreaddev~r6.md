@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f364fc4b-a3c4-4010-a089-59a00ec3f872
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, FsRtlMdlReadDev, ifsk.fsrtlmdlreaddev, ntifs/FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers]
+ms.keywords: fsrtlref_0ea7c45a-9056-4a17-9e9f-38608e643172.xml, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadDev, ifsk.fsrtlmdlreaddev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: print\getjobnamedpropertyvalue.htm
 old-project: print
 ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue, GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: GetJobNamedPropertyValue function [Print Devices], winspool/GetJobNamedPropertyValue, print.getjobnamedpropertyvalue, GetJobNamedPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

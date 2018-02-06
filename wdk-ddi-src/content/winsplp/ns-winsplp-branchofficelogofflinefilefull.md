@@ -7,8 +7,8 @@ old-location: print\branchofficelogofflinefilefull.htm
 old-project: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PBranchOfficeLogOfflineFileFull, winsplp/BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], winsplp/PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], *PBranchOfficeLogOfflineFileFull, print.branchofficelogofflinefilefull
+ms.date: 2/2/2018
+ms.keywords: BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], winsplp/PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull, print.branchofficelogofflinefilefull, *PBranchOfficeLogOfflineFileFull, winsplp/BranchOfficeLogOfflineFileFull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

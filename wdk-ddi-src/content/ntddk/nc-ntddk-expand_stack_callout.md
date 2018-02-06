@@ -40,7 +40,7 @@ apiname:
 -	ExpandedStackCall
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # EXPAND_STACK_CALLOUT callback

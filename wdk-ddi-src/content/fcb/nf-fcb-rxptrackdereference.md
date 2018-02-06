@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ifsk.rxptrackdereference, fcb/RxpTrackDereference, RxpTrackDereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml, RxpTrackDereference function [Installable File System Drivers]
+ms.keywords: fcb/RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], ifsk.rxptrackdereference, RxpTrackDereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxpTrackDereference
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxpTrackDereference function
@@ -77,14 +77,9 @@ The value that determines which dereference request type is tracked. This value 
 
 
 
-#### RDBSS_REF_TRACK_NETFCB
+#### RDBSS_REF_TRACK_SRVCALL
 
-A dereference request on an FCB structure.
-
-
-#### RDBSS_REF_TRACK_NETFOBX
-
-A dereference request on an FOBX structure.
+A dereference request on a SRV_CALL structure.
 
 
 #### RDBSS_REF_TRACK_NETROOT
@@ -92,19 +87,24 @@ A dereference request on an FOBX structure.
 A dereference request on a NET_ROOT structure.
 
 
-#### RDBSS_REF_TRACK_SRVCALL
+#### RDBSS_REF_TRACK_VNETROOT
 
-A dereference request on a SRV_CALL structure.
+A dereference request on a V_NET_ROOT structure.
+
+
+#### RDBSS_REF_TRACK_NETFOBX
+
+A dereference request on an FOBX structure.
+
+
+#### RDBSS_REF_TRACK_NETFCB
+
+A dereference request on an FCB structure.
 
 
 #### RDBSS_REF_TRACK_SRVOPEN
 
 A dereference request on a SRV_OPEN structure.
-
-
-#### RDBSS_REF_TRACK_VNETROOT
-
-A dereference request on a V_NET_ROOT structure.
 
 
 ### -param FileName [in]
@@ -152,15 +152,15 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 <a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
  
 

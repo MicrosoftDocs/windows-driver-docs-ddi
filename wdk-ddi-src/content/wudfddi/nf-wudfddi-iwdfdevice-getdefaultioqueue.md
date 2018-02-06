@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, wdf.iwdfdevice_getdefaultioqueue, umdf.iwdfdevice_getdefaultioqueue, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice, GetDefaultIoQueue, wudfddi/IWDFDevice::GetDefaultIoQueue, GetDefaultIoQueue method, IWDFDevice interface
+ms.keywords: umdf.iwdfdevice_getdefaultioqueue, GetDefaultIoQueue method, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue, IWDFDevice, GetDefaultIoQueue, GetDefaultIoQueue method, IWDFDevice interface, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice::GetDefaultIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.GetDefaultIoQueue
 product: Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,9 @@ For more information about queue objects, see <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
  
 

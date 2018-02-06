@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97bcd205-ffc0-4645-87d4-659651ed579a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], kernel.rtlwriteregistryvalue, wdm/RtlWriteRegistryValue
+ms.keywords: wdm/RtlWriteRegistryValue, k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, kernel.rtlwriteregistryvalue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], RtlWriteRegistryValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -205,19 +205,19 @@ If the specified key does not exist, the routine attempts to create the key. For
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+
 <a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
-<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
-
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
 
  
 

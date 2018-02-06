@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e39748b8-d84c-4f9e-a790-bff192a6769c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_BMREQUEST_DIRECTION, BmRequestHostToDevice, kmdf.wdf_usb_bmrequest_direction, _WDF_USB_BMREQUEST_DIRECTION, wdfusb/BmRequestHostToDevice, wdfusb/BmRequestDeviceToHost, BmRequestDeviceToHost, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, wdf.wdf_usb_bmrequest_direction, wdfusb/WDF_USB_BMREQUEST_DIRECTION, WDF_USB_BMREQUEST_DIRECTION enumeration
+ms.keywords: wdfusb/BmRequestHostToDevice, wdf.wdf_usb_bmrequest_direction, WDF_USB_BMREQUEST_DIRECTION enumeration, BmRequestHostToDevice, kmdf.wdf_usb_bmrequest_direction, wdfusb/BmRequestDeviceToHost, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, WDF_USB_BMREQUEST_DIRECTION, _WDF_USB_BMREQUEST_DIRECTION, wdfusb/WDF_USB_BMREQUEST_DIRECTION, BmRequestDeviceToHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

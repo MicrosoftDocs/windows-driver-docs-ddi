@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a32a7c6a-16dd-4d12-aa32-6bdb60990568
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml, READ_PORT_BUFFER_UCHAR, wdm/READ_PORT_BUFFER_UCHAR, kernel.read_port_buffer_uchar
+ms.keywords: wdm/READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], kernel.read_port_buffer_uchar, READ_PORT_BUFFER_UCHAR, k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

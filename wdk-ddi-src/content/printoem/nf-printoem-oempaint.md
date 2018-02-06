@@ -7,8 +7,8 @@ old-location: print\oempaint.htm
 old-project: print
 ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMPaint, OEMPaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, print.oempaint, OEMPaint function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, OEMPaint, printoem/OEMPaint, OEMPaint function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

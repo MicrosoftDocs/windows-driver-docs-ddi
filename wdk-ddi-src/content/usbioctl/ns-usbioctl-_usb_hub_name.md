@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c213d811-a690-41b4-bed1-ec9890e8be46
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: usbioctl/PUSB_HUB_NAME, USB_HUB_NAME, PUSB_HUB_NAME structure pointer [Buses], usbstrct_d20b3e12-7b5c-408d-929e-2d781a765f56.xml, *PUSB_HUB_NAME, PUSB_HUB_NAME, _USB_HUB_NAME, usbioctl/USB_HUB_NAME, USB_HUB_NAME structure [Buses], buses.usb_hub_name
+ms.keywords: PUSB_HUB_NAME structure pointer [Buses], _USB_HUB_NAME, usbioctl/PUSB_HUB_NAME, PUSB_HUB_NAME, *PUSB_HUB_NAME, USB_HUB_NAME structure [Buses], usbioctl/USB_HUB_NAME, buses.usb_hub_name, USB_HUB_NAME, usbstrct_d20b3e12-7b5c-408d-929e-2d781a765f56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_HUB_NAME
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_HUB_NAME, USB_HUB_NAME"
+req.typenames: USB_HUB_NAME, *PUSB_HUB_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -81,9 +81,9 @@ A NULL-terminated Unicode string that contains the hub's symbolic device name.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_controller_name.md">IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 372d84da-600f-44db-ac76-b59ceac7321d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_CURRENT, RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_MAX, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.riloperatorinfostatus, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_MAX, ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_FORBIDDEN
+ms.keywords: RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, netvista.riloperatorinfostatus, ntddrilapitypes/RIL_OPSTATUS_MAX, RIL_OPSTATUS_MAX, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_FORBIDDEN, RILOPERATORINFOSTATUS, ntddrilapitypes/RILOPERATORINFOSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

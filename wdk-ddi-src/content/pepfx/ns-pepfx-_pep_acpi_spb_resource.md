@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 0 - Slave mode, _PEP_ACPI_SPB_RESOURCE, 2 to 7 - Reserved, kernel.pep_acpi_spb_resource, PPEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_SPB_RESOURCE, pepfx/PEP_ACPI_SPB_RESOURCE, 1 - Consumer/producer mode
+ms.keywords: PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_RESOURCE, 0 - Slave mode, pepfx/PEP_ACPI_SPB_RESOURCE, _PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE, 1 - Consumer/producer mode, *PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], 2 to 7 - Reserved, kernel.pep_acpi_spb_resource, PPEP_ACPI_SPB_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

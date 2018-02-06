@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5885E2BB-78DA-46F5-8330-DE8785C61946
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices], GetCapabilities method, IKeywordDetectorOemAdapter, GetCapabilities method [Audio Devices], GetCapabilities, GetCapabilities method [Audio Devices], IKeywordDetectorOemAdapter interface, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::GetCapabilities, audio.ikeyworddetectoroemadapter_getcapabilities, IKeywordDetectorOemAdapter::GetCapabilities
+ms.keywords: IKeywordDetectorOemAdapter::GetCapabilities, GetCapabilities method [Audio Devices], IKeywordDetectorOemAdapter interface, GetCapabilities method [Audio Devices], IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], GetCapabilities method, GetCapabilities, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::GetCapabilities, audio.ikeyworddetectoroemadapter_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -169,19 +169,19 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957509">IKeywordDetectorOemAdapter::VerifyUserKeyword</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957506">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
+
 <a href="https://msdn.microsoft.com/05b0941e-03ce-4ced-9022-22b65d1c4b4c">MFCreateMediaType</a>
+
+<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
 
 <a href="https://msdn.microsoft.com/91a201a6-06cf-4445-ad62-fdabb3848d51">MFInitMediaTypeFromWaveFormatEx</a>
 
 <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957506">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
-
 <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
-
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957509">IKeywordDetectorOemAdapter::VerifyUserKeyword</a>
 
 <a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
 

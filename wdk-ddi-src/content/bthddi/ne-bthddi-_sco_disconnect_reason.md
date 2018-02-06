@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bthddi/PSCO_DISCONNECT_REASON, bthddi/ScoRadioPoweredDown, ScoHardwareRemoval, bthddi/ScoHardwareRemoval, ScoDisconnectRequest, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], PSCO_DISCONNECT_REASON, _SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON, bthddi/ScoHciDisconnect, ScoHciDisconnect, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoRadioPoweredDown, bthddi/ScoDisconnectRequest
+ms.keywords: ScoHardwareRemoval, bltooth.sco_disconnect_reason, SCO_DISCONNECT_REASON, ScoHciDisconnect, PSCO_DISCONNECT_REASON, bthddi/ScoHciDisconnect, ScoDisconnectRequest, bthddi/ScoRadioPoweredDown, bthddi/ScoDisconnectRequest, *PSCO_DISCONNECT_REASON, _SCO_DISCONNECT_REASON, bthddi/ScoHardwareRemoval, bthddi/SCO_DISCONNECT_REASON, ScoRadioPoweredDown, bthddi/PSCO_DISCONNECT_REASON, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SCO_DISCONNECT_REASON
 product: Windows
 targetos: Windows
-req.typenames: "*PSCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON"
+req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 ---
 
 # _SCO_DISCONNECT_REASON enumeration

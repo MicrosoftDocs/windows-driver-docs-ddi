@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: daef347a-26d4-46cf-82b4-a5852fe49b71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessInterruptible, DXGK_CHILD_DEVICE_HPD_AWARENESS, PDXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessUninitialized, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, d3dkmdt/HpdAwarenessAlwaysConnected, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessPolled, d3dkmdt/HpdAwarenessUninitialized, d3dkmdt/HpdAwarenessPolled, HpdAwarenessAlwaysConnected, d3dkmdt/HpdAwarenessInterruptible, display.dxgk_child_device_hpd_awareness, d3dkmdt/HpdAwarenessNone, HpdAwarenessNone, *PDXGK_CHILD_DEVICE_HPD_AWARENESS"
+ms.keywords: d3dkmdt/HpdAwarenessAlwaysConnected, _DXGK_CHILD_DEVICE_HPD_AWARENESS, PDXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessNone, HpdAwarenessPolled, d3dkmdt/HpdAwarenessInterruptible, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], display.dxgk_child_device_hpd_awareness, d3dkmdt/HpdAwarenessUninitialized, DXGK_CHILD_DEVICE_HPD_AWARENESS, HpdAwarenessAlwaysConnected, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], HpdAwarenessNone, DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, HpdAwarenessUninitialized, *PDXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessPolled, HpdAwarenessInterruptible, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CHILD_DEVICE_HPD_AWARENESS
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS"
+req.typenames: DXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS
 ---
 
 # _DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration

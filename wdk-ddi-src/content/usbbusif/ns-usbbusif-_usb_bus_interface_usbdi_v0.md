@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: f21ba9f4-9571-4918-8f10-97bd308c69f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], PUSB_BUS_INTERFACE_USBDI_V0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml, _USB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, buses.usb_bus_interface_usbdi_v0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses]
+ms.keywords: buses.usb_bus_interface_usbdi_v0, PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml, _USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses], *PUSB_BUS_INTERFACE_USBDI_V0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_BUS_INTERFACE_USBDI_V0
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0
+req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0"
 req.product: Windows 10 or later.
 ---
 
@@ -176,9 +176,9 @@ For information about how to query for these interfaces, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
  
 
