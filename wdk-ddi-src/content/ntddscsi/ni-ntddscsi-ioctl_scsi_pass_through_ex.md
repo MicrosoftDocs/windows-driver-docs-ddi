@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SCSI_PASS_THROUGH_EX
 product: Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
 ---
 
 # IOCTL_SCSI_PASS_THROUGH_EX IOCTL
@@ -119,14 +119,18 @@ The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="..\n
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -138,13 +142,17 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 ## -remarks
 
 
+
 In order to issue an <b>IOCTL_SCSI_PASS_THROUGH_EX</b> request, the underlying storage device must support extended SRBs. This means that the supported SRB type is <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>. An application can query for SRB support with the <b>IOCTL_STORAGE_QUERY_PROPERTY</b> request with a query type of <b>PropertyStandardQuery</b> and a property type of <b>StorageDeviceProperty</b>. The <b>SrbType</b> member returned in the <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTIOR</a> structure will indicate either <b>SRB_TYPE_SCSI_REQUEST_BLOCK</b> or <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a>
+
+
 
  
 

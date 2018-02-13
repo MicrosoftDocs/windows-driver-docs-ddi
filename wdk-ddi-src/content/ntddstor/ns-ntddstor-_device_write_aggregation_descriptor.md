@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7AACFA1A-4B56-4B51-91B6-5FA30918E516
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.device_write_aggregation_descriptor, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], storage.device_write_aggregation_descriptor, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices], ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 ---
 
 # _DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure
@@ -88,6 +88,8 @@ Specifies the total size of the descriptor, in bytes.
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

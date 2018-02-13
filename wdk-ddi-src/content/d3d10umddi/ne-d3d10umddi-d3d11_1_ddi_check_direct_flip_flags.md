@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: beead760-8f93-48da-b2fc-2f8a0031019c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], display.d3d11_1_ddi_check_direct_flip_flags, D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, d3d10umddi/D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, d3d10umddi/D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
+ms.keywords: display.d3d11_1_ddi_check_direct_flip_flags, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, d3d10umddi/D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, d3d10umddi/D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,6 +75,8 @@ Seamless flipping should occur immediately and does not have to be synchronized 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_checkdirectflipsupport.md">CheckDirectFlipSupport(D3D11_1)</a>
+
+
 
  
 

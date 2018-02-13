@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy"
+ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,9 +87,12 @@ typedef struct _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY {
 ### -field DUMMYUNIONNAME
 
 
+### -field DUMMYUNIONNAME.Flags
+
+Bitwise of flags in this structure.
+
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableExportAddressFilter
@@ -155,9 +158,4 @@ If set this enables the simulated execution anti-ROP (Return-oriented-programmin
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved.
-
-
-### -field DUMMYUNIONNAME.Flags
-
-Bitwise of flags in this structure.
 

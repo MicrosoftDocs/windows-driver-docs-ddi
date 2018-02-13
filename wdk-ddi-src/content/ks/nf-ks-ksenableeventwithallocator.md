@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec017e5c-1c26-426d-935f-7a554d3db915
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, ks/KsEnableEventWithAllocator, KsEnableEventWithAllocator function [Streaming Media Devices], KsEnableEventWithAllocator, stream.ksenableeventwithallocator
+ms.keywords: KsEnableEventWithAllocator function [Streaming Media Devices], ks/KsEnableEventWithAllocator, stream.ksenableeventwithallocator, KsEnableEventWithAllocator, ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,13 +125,17 @@ Specifies <a href="..\ks\ne-ks-ksevents_locktype.md">KSEVENTS_LOCKTYPE</a> flags
 ## -returns
 
 
+
 Same as <b>KsEnableEvent</b>, which returns STATUS_SUCCESS if successful, or an error specific to the event being enabled if unsuccessful. The function always sets the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP to zero. It does not set the IO_STATUS_BLOCK.Status field, nor does it complete the IRP.
+
 
 
 
 ## -remarks
 
 
+
 If the optional allocator callback is used, the filter may need to free the buffer in some nonconventional manner. Note that the IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
+
 
 

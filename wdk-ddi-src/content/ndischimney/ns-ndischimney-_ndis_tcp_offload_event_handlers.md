@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72863a3e-9907-43e1-ad83-831a972ab823
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, ndischimney/NDIS_TCP_OFFLOAD_EVENT_HANDLERS, tcp_chim_struct_ae670e4d-ac1a-4dd2-95f5-2f2b202003e4.xml, _NDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_OFFLOAD_EVENT_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, netvista.ndis_tcp_offload_event_handlers"
+ms.keywords: ndischimney/NDIS_TCP_OFFLOAD_EVENT_HANDLERS, PNDIS_TCP_OFFLOAD_EVENT_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, tcp_chim_struct_ae670e4d-ac1a-4dd2-95f5-2f2b202003e4.xml, *PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, _NDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS, netvista.ndis_tcp_offload_event_handlers, ndischimney/PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_TCP_OFFLOAD_EVENT_HANDLERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_TCP_OFFLOAD_EVENT_HANDLERS, *PNDIS_TCP_OFFLOAD_EVENT_HANDLERS
+req.typenames: "*PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS"
 ---
 
 # _NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure
@@ -127,8 +127,10 @@ The entry point for the
 ## -remarks
 
 
+
 An offload target copies the entry points in the NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure into its
     own internal data structure.
+
 
 
 
@@ -136,19 +138,33 @@ An offload target copies the entry points in the NDIS_TCP_OFFLOAD_EVENT_HANDLERS
 
 <a href="..\ndischimney\nf-ndischimney-ndismgetoffloadhandlers.md">NdisMGetOffloadHandlers</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
-   NdisTcpOffloadReceiveComplete</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
    NdisTcpOffloadDisconnectComplete</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisTcpOffloadReceiveComplete</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
+
+
 
  
 

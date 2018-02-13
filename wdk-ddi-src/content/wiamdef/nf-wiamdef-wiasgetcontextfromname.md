@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices], wiasGetContextFromName, image.wiasgetcontextfromname, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml
+ms.keywords: image.wiasgetcontextfromname, wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices], wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiamdef/wiasGetContextFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetContextFromName
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -94,11 +94,14 @@ Pointer to a memory location that receives the address of the WIA item context.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 This function searches for item contexts whose WIA_IPA_FULL_ITEM_NAME property matches <i>bstrName</i>. Note that this property is different from WIA_IPA_ITEM_NAME, which does not contain path information.
@@ -107,9 +110,12 @@ This function should be used by minidrivers when they need to move from one appl
 
 
 
+
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
+
+
 
  
 

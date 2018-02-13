@@ -97,14 +97,18 @@ The length of the buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -117,6 +121,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -162,12 +167,15 @@ The stream passed to the input buffer was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
+
+
 
  
 

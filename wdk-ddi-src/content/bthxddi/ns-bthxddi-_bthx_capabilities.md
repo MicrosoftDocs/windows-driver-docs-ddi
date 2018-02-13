@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: BEC06C82-E103-4255-ACDD-9FB28E8E2DE5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.bthx_capabilities, _BTHX_CAPABILITIES, BTHX_CAPABILITIES, PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], PBTHX_CAPABILITIES, bthxddi/BTHX_CAPABILITIES, *PBTHX_CAPABILITIES, BTHX_CAPABILITIES structure [Bluetooth Devices], bthxddi/PBTHX_CAPABILITIES
+ms.keywords: bthxddi/PBTHX_CAPABILITIES, bthxddi/BTHX_CAPABILITIES, bltooth.bthx_capabilities, PBTHX_CAPABILITIES, PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], BTHX_CAPABILITIES structure [Bluetooth Devices], *PBTHX_CAPABILITIES, BTHX_CAPABILITIES, _BTHX_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

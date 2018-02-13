@@ -7,8 +7,8 @@ old-location: audio\ksds3d_listener_all.htm
 old-project: audio
 ms.assetid: 6bff18d1-77bf-49c0-af9c-aa1abbfbfa53
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], audio.ksds3d_listener_all, KSDS3D_LISTENER_ALL, ksmedia/KSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], ksmedia/PKSDS3D_LISTENER_ALL, *PKSDS3D_LISTENER_ALL
+ms.date: 2/8/2018
+ms.keywords: audio.ksds3d_listener_all, KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], *PKSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, ksmedia/PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL, ksmedia/KSDS3D_LISTENER_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,9 +111,11 @@ Specifies the Doppler factor for the 3D listener.
 ## -remarks
 
 
+
 This structure is similar to the DS3DBUFFER structure that is described in the Microsoft Windows SDK documentation. The Windows SDK documentation also discusses the distance, rolloff, and Doppler factors for DirectSound 3D listeners.
 
 DirectSound uses this property to implement the <b>IDirectSound3DListener::GetAllParameters</b> and <b>IDirectSound3DListener::SetAllParameters</b> methods, which are described in the Windows SDK documentation.
+
 
 
 
@@ -121,11 +123,15 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetAl
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537334">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_LISTENER_ALL structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_LISTENER_ALL structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
+ms.keywords: display.d3dkmtcreatecontextvirtual, D3DKMTCreateContextVirtual, d3dkmthk/D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,12 +71,14 @@ NTSTATUS APIENTRY D3DKMTCreateContextVirtual(
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontextvirtual.md">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
 
 
 ## -returns
+
 
 
 <table>
@@ -128,15 +130,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontextvirtual.md">D3DKMT_CREATECONTEXTVIRTUAL</a>
+
+
 
  
 

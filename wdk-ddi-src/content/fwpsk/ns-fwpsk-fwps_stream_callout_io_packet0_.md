@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c0539f0-116e-4344-9584-db7416d258e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_CALLOUT_IO_PACKET0_, netvista.fwps_stream_callout_io_packet0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml
+ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_stream_callout_io_packet0, FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,12 +131,6 @@ An <b>FWPS_STREAM_ACTION_TYPE</b> value set by a callout's
 
 
 
-The <b>FWPS_STREAM_ACTION_TYPE_MAX</b> value is a maximum value for testing purposes.
-
-If a callout's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function sets this member
-     to a value other than <b>FWPS_STREAM_ACTION_NONE</b>, then the action returned by the callout function is
-     ignored by the filter engine.
 
 
 #### FWPS_STREAM_ACTION_NONE
@@ -144,14 +138,17 @@ If a callout's
 No stream-specific action is required.
 
 
+
 #### FWPS_STREAM_ACTION_ALLOW_CONNECTION
 
 Indicates that all future data segments belonging to a flow are permitted. In this case, WFP stops classifying any data segments to the callout and attempts to offload the flow to the hardware such that no more inspection overhead is incurred.
 
 
+
 #### FWPS_STREAM_ACTION_NEED_MORE_DATA
 
 More stream data is required by the callout function.
+
 
 
 #### FWPS_STREAM_ACTION_DROP_CONNECTION
@@ -170,6 +167,7 @@ The stream connection should be dropped. A callout's
        <b>FWP_ACTION_CALLOUT_INSPECTION</b>, the connection will not be dropped.
 
 
+
 #### FWPS_STREAM_ACTION_DEFER
 
 Processing of the stream data will be deferred until the callout driver calls the 
@@ -181,8 +179,16 @@ Deferring an inbound data stream will cause the network stack to stop acknowledg
        from the sender. This will lead to a reduction in the size of the sliding TCP window. A callout driver
        can use this behavior to implement flow control to slow down the incoming data rate.
 
+The <b>FWPS_STREAM_ACTION_TYPE_MAX</b> value is a maximum value for testing purposes.
+
+If a callout's 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function sets this member
+     to a value other than <b>FWPS_STREAM_ACTION_NONE</b>, then the action returned by the callout function is
+     ignored by the filter engine.
+
 
 ## -remarks
+
 
 
 The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> structure to a callout's 
@@ -191,15 +197,24 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 
 
+
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
 
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+
+
+
 <a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
 
  
 

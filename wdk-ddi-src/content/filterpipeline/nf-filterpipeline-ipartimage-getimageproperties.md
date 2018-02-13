@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetImageProperties method [Print Devices], IPartImage interface, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, IPartImage, GetImageProperties, IPartImage::GetImageProperties, filterpipeline/IPartImage::GetImageProperties, print.ipartimage_getimageproperties, IPartImage interface [Print Devices], GetImageProperties method, GetImageProperties method [Print Devices]
+ms.keywords: filterpipeline/IPartImage::GetImageProperties, IPartImage interface [Print Devices], GetImageProperties method, IPartImage::GetImageProperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, GetImageProperties method [Print Devices], IPartImage interface, IPartImage, GetImageProperties, GetImageProperties method [Print Devices], print.ipartimage_getimageproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,8 @@ The type of content for the image.
 ## -returns
 
 
+
 <b>GetImageProperties</b> returns an <b>HRESULT</b> value.
+
 
 

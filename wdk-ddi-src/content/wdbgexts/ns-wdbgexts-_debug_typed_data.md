@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_typed_data, *PDEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging], wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], DEBUG_TYPED_DATA
+ms.keywords: debugger.debug_typed_data, wdbgexts/PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], DEBUG_TYPED_DATA structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,6 +106,7 @@ The size, in bytes, of the data.
 ### -field Flags
 
 The flags describing the target's memory in which the data resides. The following bit flags can be set.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -161,7 +162,8 @@ DEBUG_TYPED_DATA_PHYSICAL_WRITE_COMBINED
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TypeId
@@ -194,18 +196,26 @@ Internal <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0bae
 ## -remarks
 
 
+
 Instances of this structure should be manipulated using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 <a href="https://msdn.microsoft.com/efb3c93c-5405-418b-a063-afa8e5e9e59a"> Request</a> operation. In particular, instances should be created and released using this method, and members of this structure should not be changed directly.
 
 There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_AND_U64</b> and <b>EXT_TDOP_SET_PTR_FROM_TYPE_ID_AND_U64</b> suboperations take a DEBUG_TYPED_DATA instance that is not manipulated using the <b>Request</b> method.  These suboperations take a manually created instance with some members manually filled in.
-<div class="alert"><b>Note</b>  Include WdbgExts.h before including DbgEng.h. Additionally, <b>SymTagEnum</b> is defined in DbgHelp.h (include DbgHelp.h).</div><div> </div>
+
+<div class="alert"><b>Note</b>  Include WdbgExts.h before including DbgEng.h. Additionally, <b>SymTagEnum</b> is defined in DbgHelp.h (include DbgHelp.h).</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+
+
 
  
 

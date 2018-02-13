@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], debugger.idebugcontrol5_outputcontextstacktraceex, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, dbgeng/IDebugControl5::OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx
+ms.keywords: IDebugControl5::OutputContextStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, dbgeng/IDebugControl5::OutputContextStackTraceEx, IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,6 +106,7 @@ Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 ### -param Flags [in]
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -221,13 +222,16 @@ Displays each parameter and its type and value on a new line.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -244,13 +248,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+
 
  
 

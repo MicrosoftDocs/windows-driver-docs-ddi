@@ -7,8 +7,8 @@ old-location: audio\isynthsinkdmus_synctomaster.htm
 old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ISynthSinkDMus, dmusicks/ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, SyncToMaster, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, audio.isynthsinkdmus_synctomaster, SyncToMaster method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus::SyncToMaster
+ms.date: 2/8/2018
+ms.keywords: audio.isynthsinkdmus_synctomaster, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, SyncToMaster, ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], ISynthSinkDMus, SyncToMaster method [Audio Devices], ISynthSinkDMus interface, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, dmusicks/ISynthSinkDMus::SyncToMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,11 +86,14 @@ Specifies the reference time from the master clock. Reference time is measured i
 ## -returns
 
 
+
 <code>SyncToMaster</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Because the master time and sample time might be driven by different crystals, they can drift apart. The port driver periodically calls this method to give the miniport driver an opportunity to synchronize its sample clock to the master clock.
@@ -99,15 +102,20 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
 
 
-## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+## -see-also
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
- 
+
+
+<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20ISynthSinkDMus::SyncToMaster method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20ISynthSinkDMus::SyncToMaster method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

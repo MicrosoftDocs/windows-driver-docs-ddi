@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c888fd84-2828-4f2d-921d-ba92a5ce9c84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer, AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml
+ms.keywords: storage.ataportregistryallocatebuffer, AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], irb/AtaPortRegistryAllocateBuffer, atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,6 +82,7 @@ TBD
 
 
 
+
 #### - Count [in]
 
 Specifies the length of the buffer, in bytes.
@@ -90,11 +91,14 @@ Specifies the length of the buffer, in bytes.
 ## -returns
 
 
+
 <b>AtaPortRegistryAllocateBuffer</b> returns a pointer to the allocated buffer on success. Otherwise, it returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The port driver enables the miniport driver to allocate one buffer for all its registry operations. After the miniport driver has allocated a buffer with <b>AtaPortRegistryAllocateBuffer</b>, later calls to <b>AtaPortRegistryAllocateBuffer</b> will fail and return <b>NULL</b>. After the miniport driver frees the allocated buffer with a call to the <a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a> routine, it can again allocate buffers by calling <b>AtaPortRegistryAllocateBuffer</b>.
@@ -103,13 +107,20 @@ The miniport driver must call <b>AtaPortRegistryAllocateBuffer</b> either in its
 
 
 
-## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
+
+
+<a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortSetBusData, VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, video/VideoPortSetBusData, display.videoportsetbusdata, VideoPortSetBusData function [Display Devices]
+ms.keywords: display.videoportsetbusdata, VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, VideoPortSetBusData, video/VideoPortSetBusData, VideoPortSetBusData function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,11 +110,14 @@ Specifies the number of bytes in <i>Buffer</i>.
 ## -returns
 
 
+
 <b>VideoPortSetBusData</b> returns the number of bytes of data successfully set for the given <i>SlotNumber</i>. If the given <i>BusDataType</i> is not valid for the current platform or if the supplied information is invalid, <b>VideoPortSetBusData</b> returns zero.
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers of adapters on a PCI bus seldom call <b>VideoPortSetBusData</b>, unless unusual circumstances or the nature of a particular driver's video adapter requires such a call.
@@ -125,19 +128,32 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
+
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+
+
+
 <a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+
 
  
 

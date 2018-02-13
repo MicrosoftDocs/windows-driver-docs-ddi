@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bcbb0c56-1500-45b2-bd20-03726ef7da77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], netvista.ndisfreereassemblednetbufferlist, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, NdisFreeReassembledNetBufferList, ndis/NdisFreeReassembledNetBufferList
+ms.keywords: NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], NdisFreeReassembledNetBufferList, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, ndis/NdisFreeReassembledNetBufferList, netvista.ndisfreereassemblednetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeReassembledNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeReassembledNetBufferList function
@@ -98,11 +98,14 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisFreeReassembledNetBufferList</b> frees a reassembled 
@@ -113,14 +116,21 @@ None
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 
 <a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
    NdisAllocateReassembledNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

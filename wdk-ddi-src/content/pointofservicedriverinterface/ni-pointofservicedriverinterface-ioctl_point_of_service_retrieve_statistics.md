@@ -85,14 +85,18 @@ Size of the output buffer in bytes. Set to sizeof(<i>PosStatisticsHeader</i>).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,6 +122,9 @@ The output buffer is not large enough to hold the statistics.
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
+
+
 
 

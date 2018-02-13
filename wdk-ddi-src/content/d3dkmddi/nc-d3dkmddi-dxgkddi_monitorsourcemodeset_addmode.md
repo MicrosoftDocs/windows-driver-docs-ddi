@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnAddMode(
 ## -returns
 
 
+
 The <b>pfnAddMode</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -200,20 +202,26 @@ The structure pointed to by <i>pMonitorSourceModeInfo</i> was not created for ad
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If <i>pMonitorSourceModeInfo</i>-&gt;<b>Preference</b> is equal to D3DKMDT_MP_PREFERRED, the newly added mode becomes the preferred mode of the mode set.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a>
+
+
 
  
 

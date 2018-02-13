@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, _PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], kernel.pep_low_power_epoch
+ms.keywords: PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], pepfx/PEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, _PEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_LOW_POWER_EPOCH
 product: Windows
 targetos: Windows
-req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
+req.typenames: "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH"
 ---
 
 # _PEP_LOW_POWER_EPOCH structure
@@ -75,6 +75,8 @@ When <b>TRUE</b>, indicates that the low power epoch is on.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH notification</a>
+
+
 
  
 

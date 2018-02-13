@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81e5b26d-78b5-4ee7-a47c-fc92d01752d1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortBusy routine [Storage Devices], storage.storportbusy, storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml, StorPortBusy, storport/StorPortBusy
+ms.keywords: storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml, storage.storportbusy, StorPortBusy, StorPortBusy routine [Storage Devices], storport/StorPortBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ Indicates the number of requests that the adapter must complete before resuming 
 ## -returns
 
 
+
 <b>StorPortBusy</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver, <b>FALSE</b> if not.
 
 
 
+
 ## -remarks
+
 
 
 The Storport driver will hold any number of requests until the adapter has completed enough outstanding requests so that it may continue processing requests. 
@@ -96,9 +99,12 @@ The library of support routines provided by the SCSI Port driver does not includ
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetSymbolPath, GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, debugger.getsymbolpath, dbgeng/IDebugSymbols2::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols3::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, dbgeng/IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, IDebugSymbols3, GetSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2::GetSymbolPath
+ms.keywords: GetSymbolPath, IDebugSymbols2::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols3::GetSymbolPath, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, debugger.getsymbolpath, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::GetSymbolPath, IDebugSymbols, IDebugSymbols2, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols3::GetSymbolPath, GetSymbolPath method [Windows Debugging], dbgeng/IDebugSymbols::GetSymbolPath, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,7 +89,9 @@ Receives the size, in characters, of the symbol path.
 ## -returns
 
 
+
 These methods can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,28 +119,42 @@ The method was successful. However, the buffer was not large enough to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about manipulating the symbol path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560150">Using Symbols</a>.  For an overview of the symbol path and its syntax, see <a href="https://msdn.microsoft.com/705df98f-717f-40ad-a424-101826970691">Symbol Path</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
+
+
 
  
 

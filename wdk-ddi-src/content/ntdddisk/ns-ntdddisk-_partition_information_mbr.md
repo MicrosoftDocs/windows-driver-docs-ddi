@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 846f3a1c-ee0a-42d2-bdf1-7bf09406c955
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml, ntdddisk/PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], ntdddisk/PPARTITION_INFORMATION_MBR, storage.partition_information_mbr, _PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices]
+ms.keywords: PARTITION_INFORMATION_MBR, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml, ntdddisk/PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices], storage.partition_information_mbr, ntdddisk/PPARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR, _PARTITION_INFORMATION_MBR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,13 +96,20 @@ Contains the number of hidden sectors in the partition.
 
 
 
+
 ## -see-also
+
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+
+
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+
 
  
 

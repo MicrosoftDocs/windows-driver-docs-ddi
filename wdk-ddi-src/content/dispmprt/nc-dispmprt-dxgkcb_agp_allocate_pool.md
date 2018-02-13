@@ -40,7 +40,7 @@ apiname:
 -	AgpAllocatePool
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_AGP_ALLOCATE_POOL callback
@@ -77,20 +77,18 @@ NTSTATUS APIENTRY AgpAllocatePool(
 ### -param HANDLE
 
 
-
 ### -param ULONG
-
 
 
 ### -param MEMORY_CACHING_TYPE
 
 
-
 ### -param PPHYSICAL_ADDRESS
 
 
-
 ### -param PVOID
+
+
 
 
 
@@ -125,26 +123,38 @@ A pointer to a variable that receives the base virtual address, in system space,
 ## -returns
 
 
+
 <b>AgpAllocatePool</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 Call <b>AgpAllocatePool</b> in the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function. It is likely that <b>AgpAllocatePool</b> will fail if you call it after <b>DxgkDdiStartDevice</b> has executed.
+
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_set_command.md">AgpSetCommand</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+
+
 
  
 

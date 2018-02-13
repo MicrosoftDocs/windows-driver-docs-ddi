@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6c9e0477-1698-41bf-9ce6-43e7e8741425
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PHIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml, hid.hidp_unknown_token, hidpi/HIDP_UNKNOWN_TOKEN, _HIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices], hidpi/PHIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN structure [Human Input Devices]"
+ms.keywords: HIDP_UNKNOWN_TOKEN structure [Human Input Devices], HIDP_UNKNOWN_TOKEN, hid.hidp_unknown_token, hidpi/PHIDP_UNKNOWN_TOKEN, *PHIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN, hidpi/HIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml, _HIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_UNKNOWN_TOKEN
 product: Windows
 targetos: Windows
-req.typenames: HIDP_UNKNOWN_TOKEN, *PHIDP_UNKNOWN_TOKEN
+req.typenames: "*PHIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN"
 ---
 
 # _HIDP_UNKNOWN_TOKEN structure
@@ -87,15 +87,21 @@ Specifies the data part of the global item.
 ## -remarks
 
 
+
 HIDP_UNKNOWN_TOKEN is designed to be used with the <a href="..\hidpi\ns-hidpi-_hidp_extended_attributes.md">HIDP_EXTENDED_ATTRIBUTES</a> structure. <a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a> returns a HIDP_EXTENDED_ATTRIBUTES structure, which contains a variable length array of <b>HIDP_UNKNOWN_TOKEN</b> structures.
+
 
 
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_extended_attributes.md">HIDP_EXTENDED_ATTRIBUTES</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
+
 
  
 

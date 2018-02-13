@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetAdapterPortAttributes, hbaapi/HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes routine [Storage Devices], fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, storage.hba_getadapterportattributes
+ms.keywords: hbaapi/HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes routine [Storage Devices], fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,24 +92,34 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 ## -returns
 
 
+
 The <b>HBA_GetAdapterPortAttributes</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. A value of HBA_STATUS_OK indicates that the operation succeeded. A value of HBA_STATUS_ERROR indicates that an unspecified error occurred that prevented the retrieval of the port attributes. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>HBA_GetAdapterPortAttributes</b> routine retrieves attributes for remote ports of type Nx_Port. For a definition of Nx_Port, see the T11 committee's specification for <i>Fibre Channel HBA API</i>.
+
 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

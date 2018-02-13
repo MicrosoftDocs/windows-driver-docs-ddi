@@ -78,25 +78,35 @@ A pointer to an NDK memory region (MR) object (<a href="..\ndkpi\ns-ndkpi-_ndk_m
 ## -returns
 
 
+
 The 
      <i>NdkGetLocalTokenFromMr</i> function returns a local memory region token.
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkGetLocalTokenFromMr</i> returns a local memory region token.  <i>NdkGetLocalTokenFromMr</i> can be called after a call to  the  <i>NdkRegisterMr</i>  (<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>) function  or  <i>NdkInitializeFastRegisterMr</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>) function completes without errors.
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+
+
 
  
 

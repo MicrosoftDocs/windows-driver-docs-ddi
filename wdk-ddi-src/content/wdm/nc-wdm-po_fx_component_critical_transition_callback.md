@@ -40,7 +40,7 @@ apiname:
 -	ComponentCriticalTransitionCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,14 @@ Indicates whether this notification is for a transition to the F0 component powe
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This callback routine is implemented by a device driver, and is called by PoFx. PoFx calls this routine to notify the driver of power transitions of device components.
@@ -114,9 +117,12 @@ A PEP can call this routine at IRQL TBD.
 
 
 
+
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_po_fx_core_device.md">PO_FX_CORE_DEVICE</a>
+
+
 
  
 

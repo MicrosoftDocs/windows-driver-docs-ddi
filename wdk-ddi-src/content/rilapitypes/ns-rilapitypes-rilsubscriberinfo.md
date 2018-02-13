@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b05a38c6-afc5-4dc1-8e51-ecf9d47e144e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo, rilapitypes/RILSUBSCRIBERINFO
+ms.keywords: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO, netvista.rilsubscriberinfo, rilapitypes/RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSUBSCRIBERINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO"
+req.typenames: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO
 req.product: Windows 10 or later.
 ---
 
@@ -100,6 +100,8 @@ Specifies the service related to the subscriber phone number, of type <a href=".
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

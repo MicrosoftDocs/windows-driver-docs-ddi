@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY FinishSessionKeyRefresh(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY FinishSessionKeyRefresh(
 ## -returns
 
 
+
 <i>FinishSessionKeyRefresh</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +123,14 @@ The driver does not support the <i>FinishSessionKeyRefresh</i> function.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The hardware and driver can optionally support the <i>FinishSessionKeyRefresh</i> function for all crypto types.
@@ -134,13 +141,20 @@ When the runtime subsequently calls the driver's <i>FinishSessionKeyRefresh</i> 
 
 
 
+
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a>
+
+
 
  
 

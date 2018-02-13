@@ -84,11 +84,14 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 ## -returns
 
 
+
 If the operation succeeds, the <b>AtaPortBuildRequestSenseIrb</b> routine returns a pointer to the request sense IRB that it allocated. If the operation fails, <b>AtaPortBuildRequestSenseIrb</b> returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the device does not support auto request sense, the miniport driver must build an IRB to gather sense data by using <b>AtaPortBuildRequestSenseIrb</b> and then sending it to the device. The miniport driver must not complete the original IRB until the corresponding request sense IRB has completed. Be aware that no request sense data is required for ATA devices.
@@ -99,9 +102,12 @@ The miniport driver can have only one outstanding request sense IRB per logical 
 
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportreleaserequestsenseirb.md">AtaPortReleaseRequestSenseIrb</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8431fee3-d8c9-4c31-aa74-f5ce55f7fdcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml, d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, _D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTI, D3DHAL_DP2SETPIXELSHADERCONSTI, *LPD3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices], D3DHAL_DP2SETPIXELSHADERCONSTB, display.d3dhal_dp2setpixelshaderconst, D3DHAL_DP2SETPIXELSHADERCONST
+ms.keywords: "*LPD3DHAL_DP2SETPIXELSHADERCONST, d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices], _D3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONSTI, D3DHAL_DP2SETPIXELSHADERCONST, d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml, display.d3dhal_dp2setpixelshaderconst, *LPD3DHAL_DP2SETPIXELSHADERCONSTI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,21 +85,31 @@ Specifies the number of registers to set. Immediately following this data struct
 ## -remarks
 
 
+
 The runtime passes the first register to set and the number of registers to set. The actual data to copy to those registers consists of vectors of four, single precision floating-point numbers. These vectors (the same number as there are registers to set) follow this token and its associated data structure in the DP2 stream.
 
 The runtime validates that the specified register range lies within the legal range for the version of the current pixel shader.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+
+
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
 
-D3DDP2OP_SETPIXELSHADERCONST
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+
+
+D3DDP2OP_SETPIXELSHADERCONST
+
+
 
  
 

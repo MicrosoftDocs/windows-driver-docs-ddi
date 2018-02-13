@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af686e7a-9426-4151-8ac4-d95ae1689b4c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], storage.ses_download_microcode_status_descriptor, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, storage.ses_download_microcode_status_descriptor, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,6 +92,7 @@ status descriptor applies to.
 operations for the subenclosure. After reporting a code indicating completion, the
 enclosure services process shall set this field to 0x00 and shall
 set the <i>AdditionalStatus</i> field to 0x00. Status may can contain one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -319,7 +320,8 @@ Vendor Specific
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AdditionalStatus
@@ -355,6 +357,8 @@ enclosure services process expects in the <i>BufferOffset</i> field in <a href="
 ## -see-also
 
 <a href="https://msdn.microsoft.com/09c2746f-cfe4-41dc-82ce-0b7e0c348897">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>
+
+
 
  
 

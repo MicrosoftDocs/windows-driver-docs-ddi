@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d9aa36b6-8ce4-41dd-96a8-104fa9094405
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QuerySingle method [Windows Device Testing Framework], IWDTFTargets2 interface, wdtf/IWDTFTargets2::QuerySingle, QuerySingle method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFTargets2::QuerySingle, IWDTFTargets2::QuerySingle, dtf.iwdtftargets2_querysingle, QuerySingle, Microsoft.WDTF.IWDTFTargets2.QuerySingle, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], QuerySingle method
+ms.keywords: IWDTFTargets2, wdtf/IWDTFTargets2::QuerySingle, IWDTFTargets2::QuerySingle, QuerySingle method [Windows Device Testing Framework], IWDTFTargets2 interface, QuerySingle, Microsoft.WDTF.IWDTFTargets2.QuerySingle, Microsoft::WDTF::IWDTFTargets2::QuerySingle, QuerySingle method [Windows Device Testing Framework], IWDTFTargets2 interface [Windows Device Testing Framework], QuerySingle method, dtf.iwdtftargets2_querysingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,13 +82,17 @@ The requested item.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

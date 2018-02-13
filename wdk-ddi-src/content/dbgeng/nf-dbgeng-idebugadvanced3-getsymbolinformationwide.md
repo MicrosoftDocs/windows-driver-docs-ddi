@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3::GetSymbolInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method, debugger.getsymbolinformationwide, GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSymbolInformationWide
+ms.keywords: debugger.getsymbolinformationwide, IDebugAdvanced3, IDebugAdvanced3::GetSymbolInformationWide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformationWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,6 +78,7 @@ HRESULT GetSymbolInformationWide(
 ### -param Which [in]
 
 Specifies the piece of information to return.  <i>Which</i> can take one of the values in the follow table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,7 +126,8 @@ Returns a list of symbol names and offsets for the symbols in the specified modu
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Arg64 [in]
@@ -135,9 +137,11 @@ Specifies a 64-bit argument.  This parameter has the following interpretations d
 
 
 
+
 #### DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
 
 Ignored.
+
 
 
 #### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
@@ -145,9 +149,11 @@ Ignored.
 The base address of the module whose description is being requested.
 
 
+
 #### DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
 
 Specifies the address in the target's memory of the symbol whose name is being requested.
+
 
 
 #### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
@@ -162,9 +168,11 @@ Specifies a 32-bit argument.  This parameter has the following interpretations d
 
 
 
+
 #### DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
 
 The engine breakpoint ID of the desired breakpoint.
+
 
 
 #### DEBUG_SYMINFO_IMAGEHLP_MODULEW64
@@ -172,9 +180,11 @@ The engine breakpoint ID of the desired breakpoint.
 Set to zero.
 
 
+
 #### DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
 
 The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
+
 
 
 #### DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
@@ -215,7 +225,9 @@ Receives the size, in characters, of the string returned to <i>StringBuffer</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -243,6 +255,8 @@ The method was successful. However, the information would not fit in the buffer 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

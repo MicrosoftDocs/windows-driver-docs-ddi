@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 025c29d3-1167-4aa3-8399-01dab5729267
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, GetNextStream, GetNextStream method [Imaging Devices], wia_lh/IWiaTransferCallback::GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, GetNextStream method [Imaging Devices], IWiaTransferCallback interface, IWiaTransferCallback, image.iwiatransfercallback_getnextstream
+ms.keywords: IWiaTransferCallback, GetNextStream, IWiaTransferCallback::GetNextStream, GetNextStream method [Imaging Devices], IWiaTransferCallback interface, GetNextStream method [Imaging Devices], wia_lh/IWiaTransferCallback::GetNextStream, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, image.iwiatransfercallback_getnextstream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaTransferCallback.GetNextStream
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -94,11 +94,14 @@ Specifies a pointer to the output stream.
 ## -returns
 
 
+
 Returns S_OK if successful, or a standard COM error value otherwise. 
 
 
 
+
 ## -remarks
+
 
 
 An image processing filter's implementation of <b>IWiaTransferCallback::GetNextStream</b> and <b>IWiaTransferCallback::TransferCallback</b> are called during image acquisition, when the WIA mini-driver asks for the destination stream from the client and when the mini-driver sends progress messages back to the application.
@@ -114,11 +117,16 @@ In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image proc
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543916">IWiaImageFilter::InitializeFilter</a>
 
+
+
 <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback</a>
+
+
 
  
 

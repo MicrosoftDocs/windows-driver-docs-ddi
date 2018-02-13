@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/TCP_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, *PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_DELEGATED
+ms.keywords: "_TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,6 +107,206 @@ typedef struct _TCP_OFFLOAD_STATE_DELEGATED {
 ## -struct-fields
 
 
+
+
+### -field Header
+
+An 
+     <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
+     sets the 
+     <b>Length</b> member of 
+     <b>Header</b> to the size, in bytes, of the TCP_OFFLOAD_STATE_DELEGATED structure. The 
+     <b>RecognizedOptions</b> member of 
+     <b>Header</b> is reserved.
+
+
+### -field State
+
+The current state of the TCP connection (see RFC 793) as one of the following
+     TCP_OFFLOAD_CONNECTION_STATE values:
+     
+
+
+
+
+
+#### TcpConnectionClosed
+
+No connection state.
+
+
+
+#### TcpConnectionListen
+
+Waiting for a connection request from any remote TCP and port.
+
+
+
+#### TcpConnectionSynSent
+
+Waiting for a matching connection request after having sent a connection request.
+
+
+
+#### TcpConnectionSynRcvd
+
+Waiting for a confirming connection request acknowledgment after having both received and sent a
+       connection request.
+
+
+
+#### TcpConnectionEstablished
+
+An open connection: data received can be delivered to the user. The normal state for the data
+       transfer phase of the connection.
+
+
+
+#### TcpConnectionFinWait1
+
+Waiting for a connection termination request from the remote TCP, or an acknowledgment of the
+       connection termination request that was previously sent.
+
+
+
+#### TcpConnectionFinWait2
+
+Waiting for a connection termination request from the remote TCP.
+
+
+
+#### TcpConnectionCloseWait
+
+Waiting for a connection termination request from the local user.
+
+
+
+#### TcpConnectionClosing
+
+Waiting for a connection termination request acknowledgment from the remote TCP.
+
+
+
+#### TcpConnectionLastAck
+
+Waiting for an acknowledgment of the connection termination request previously sent to the
+       remote TCP, which includes an acknowledgment of its connection termination request.
+
+
+
+#### TcpConnectionTimeWait
+
+Waiting for enough time to pass to ensure that the remote TCP received the acknowledgment of its
+       connection termination request.
+
+ Note that the host stack can offload a TCP connection when the connection is in any state
+     except 
+     <b>TcpConnectionClosed</b>, 
+     <b>TcpConnectionListen</b>, 
+     <b>TcpConnectionSynRcvd</b>, 
+     
+
+<b>TcpConnectionSynSent</b>, or 
+     <b>TcpConnectionTimeWait</b> state. The host stack can query, update, invalidate, or terminate a TCP
+     connection regardless of the connection state.
+
+
+### -field Flags
+
+Reserved for system use.
+
+
+### -field RcvNxt
+
+The sequence number for the next receive segment (see RCV.NEXT in RFC 793).
+
+
+### -field RcvWnd
+
+The receive window size, in bytes (see RCV.WND in RFC 793).
+
+
+### -field SndUna
+
+The sequence number for the first byte of unacknowledged data (see SND.UNA in RFC 793). For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
+
+
+### -field SndNxt
+
+The sequence number for the next byte to send on the connection (see SND.NXT in RFC 793). For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
+
+
+### -field SndMax
+
+The maximum sequence number that has been sent on the connection. For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
+
+
+### -field SndWnd
+
+The send window size, in bytes (see SND.WND in RFC 793).
+
+
+### -field MaxSndWnd
+
+The maximum send window size, in bytes (see RFC 813).
+
+
+### -field SendWL1
+
+The segment sequence number used for the last window update (see SND.WL1 in RFC 793).
+
+
+### -field CWnd
+
+The congestion window size, in bytes (see cwnd in RFC 2581).
+
+
+### -field SsThresh
+
+The slow start threshold, in bytes (see ssthresh in RFC 2581).
+
+
+### -field SRtt
+
+The smoothed round-trip time, in clock ticks (see SRTT in RFCs 793 and 2988). Maintained on a per
+     connection basis because it takes into account path, host, and sometimes application behavior.
+
+
+### -field RttVar
+
+The round trip time variation, in clock ticks (see RTTVAR in RFC 2988).
+
+
+### -field TsRecent
+
+The timestamp value to send in the next ACK (see TS.Recent in RFC 1323)
+
+
+### -field TsRecentAge
+
+The length of time, in clock ticks, since the most recent timestamp was received (see RFC
+     1323).
+
+
+### -field TsTime
+
+The current value of the adjusted timestamp.
+
+
+### -field TotalRT
+
+The total time, in clock ticks, that has been spent retransmitting the current TCP segment.
+
+
+### -field DupAckCount
+
+The number of ACKs that have been accepted for the same sequence number (see RFC 1323).
+
+
+### -field SndWndProbeCount
+
+The current send window probe round. For a description of the send window probe round, see 
+     <a href="https://msdn.microsoft.com/b45f5fd7-e80b-4718-9889-9839fa61845a">Persist Timer</a>.
 
 
 ### -field KeepAlive
@@ -240,202 +440,15 @@ If the offload target does not support the receive backlog size feature, it shou
       <b>ReceiveBacklogSize</b> .
 
 
-### -field Header
-
-An 
-     <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
-     sets the 
-     <b>Length</b> member of 
-     <b>Header</b> to the size, in bytes, of the TCP_OFFLOAD_STATE_DELEGATED structure. The 
-     <b>RecognizedOptions</b> member of 
-     <b>Header</b> is reserved.
-
-
-### -field State
-
-The current state of the TCP connection (see RFC 793) as one of the following
-     TCP_OFFLOAD_CONNECTION_STATE values:
-     
-
-
-
- Note that the host stack can offload a TCP connection when the connection is in any state
-     except 
-     <b>TcpConnectionClosed</b>, 
-     <b>TcpConnectionListen</b>, 
-     <b>TcpConnectionSynRcvd</b>, 
-     
-
-<b>TcpConnectionSynSent</b>, or 
-     <b>TcpConnectionTimeWait</b> state. The host stack can query, update, invalidate, or terminate a TCP
-     connection regardless of the connection state.
-
-
-#### TcpConnectionClosed
-
-No connection state.
-
-
-#### TcpConnectionListen
-
-Waiting for a connection request from any remote TCP and port.
-
-
-#### TcpConnectionSynSent
-
-Waiting for a matching connection request after having sent a connection request.
-
-
-#### TcpConnectionSynRcvd
-
-Waiting for a confirming connection request acknowledgment after having both received and sent a
-       connection request.
-
-
-#### TcpConnectionEstablished
-
-An open connection: data received can be delivered to the user. The normal state for the data
-       transfer phase of the connection.
-
-
-#### TcpConnectionFinWait1
-
-Waiting for a connection termination request from the remote TCP, or an acknowledgment of the
-       connection termination request that was previously sent.
-
-
-#### TcpConnectionFinWait2
-
-Waiting for a connection termination request from the remote TCP.
-
-
-#### TcpConnectionCloseWait
-
-Waiting for a connection termination request from the local user.
-
-
-#### TcpConnectionClosing
-
-Waiting for a connection termination request acknowledgment from the remote TCP.
-
-
-#### TcpConnectionLastAck
-
-Waiting for an acknowledgment of the connection termination request previously sent to the
-       remote TCP, which includes an acknowledgment of its connection termination request.
-
-
-#### TcpConnectionTimeWait
-
-Waiting for enough time to pass to ensure that the remote TCP received the acknowledgment of its
-       connection termination request.
-
-
-### -field Flags
-
-Reserved for system use.
-
-
-### -field RcvNxt
-
-The sequence number for the next receive segment (see RCV.NEXT in RFC 793).
-
-
-### -field RcvWnd
-
-The receive window size, in bytes (see RCV.WND in RFC 793).
-
-
-### -field SndUna
-
-The sequence number for the first byte of unacknowledged data (see SND.UNA in RFC 793). For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
-
-
-### -field SndNxt
-
-The sequence number for the next byte to send on the connection (see SND.NXT in RFC 793). For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
-
-
-### -field SndMax
-
-The maximum sequence number that has been sent on the connection. For more information, see <a href="https://msdn.microsoft.com/38039411-1ef8-47a0-9a9a-de9451dc2cc9">Send Data That Contains Data to Be Retransmitted</a>.
-
-
-### -field SndWnd
-
-The send window size, in bytes (see SND.WND in RFC 793).
-
-
-### -field MaxSndWnd
-
-The maximum send window size, in bytes (see RFC 813).
-
-
-### -field SendWL1
-
-The segment sequence number used for the last window update (see SND.WL1 in RFC 793).
-
-
-### -field CWnd
-
-The congestion window size, in bytes (see cwnd in RFC 2581).
-
-
-### -field SsThresh
-
-The slow start threshold, in bytes (see ssthresh in RFC 2581).
-
-
-### -field SRtt
-
-The smoothed round-trip time, in clock ticks (see SRTT in RFCs 793 and 2988). Maintained on a per
-     connection basis because it takes into account path, host, and sometimes application behavior.
-
-
-### -field RttVar
-
-The round trip time variation, in clock ticks (see RTTVAR in RFC 2988).
-
-
-### -field TsRecent
-
-The timestamp value to send in the next ACK (see TS.Recent in RFC 1323)
-
-
-### -field TsRecentAge
-
-The length of time, in clock ticks, since the most recent timestamp was received (see RFC
-     1323).
-
-
-### -field TsTime
-
-The current value of the adjusted timestamp.
-
-
-### -field TotalRT
-
-The total time, in clock ticks, that has been spent retransmitting the current TCP segment.
-
-
-### -field DupAckCount
-
-The number of ACKs that have been accepted for the same sequence number (see RFC 1323).
-
-
-### -field SndWndProbeCount
-
-The current send window probe round. For a description of the send window probe round, see 
-     <a href="https://msdn.microsoft.com/b45f5fd7-e80b-4718-9889-9839fa61845a">Persist Timer</a>.
-
-
 ### -field DWnd
 
  
 
 
 
+
 ## -remarks
+
 
 
 The host stack provides initial values for the TCP delegated variables when it offloads these
@@ -460,19 +473,32 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 
 
+
 ## -see-also
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
+
+
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
+
+
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+
+
 
  
 

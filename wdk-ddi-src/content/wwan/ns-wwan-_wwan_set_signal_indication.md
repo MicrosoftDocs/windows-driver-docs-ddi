@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 266ec8f5-f6ec-47e5-b433-4f570f2d43d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SET_SIGNAL_INDICATION, wwan/WWAN_SET_SIGNAL_INDICATION, netvista.wwan_set_signal_indication, PWWAN_SET_SIGNAL_INDICATION, WwanRef_fa4b9dee-5b46-47f2-8674-d8fa78351d86.xml, wwan/PWWAN_SET_SIGNAL_INDICATION, *PWWAN_SET_SIGNAL_INDICATION, _WWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_SET_SIGNAL_INDICATION, WWAN_SET_SIGNAL_INDICATION, WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], PWWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_fa4b9dee-5b46-47f2-8674-d8fa78351d86.xml, PWWAN_SET_SIGNAL_INDICATION, _WWAN_SET_SIGNAL_INDICATION, netvista.wwan_set_signal_indication, wwan/PWWAN_SET_SIGNAL_INDICATION, wwan/WWAN_SET_SIGNAL_INDICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,7 @@ The RSSI threshold, in threshold units.
 ## -remarks
 
 
+
 To minimize power consumption, the MB Service specifies a default interval and a default threshold for
     sending notifications that are based on an RSSI value that changes. In some situations, such as during
     long periods of user inactivity (in the case of the default interval), or in areas that have a strong
@@ -100,10 +101,13 @@ The miniport driver can always switch to its device-specific default reporting i
 
 
 
+
 ## -see-also
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_signal_indication.md">
    NDIS_WWAN_SET_SIGNAL_INDICATION</a>
+
+
 
  
 

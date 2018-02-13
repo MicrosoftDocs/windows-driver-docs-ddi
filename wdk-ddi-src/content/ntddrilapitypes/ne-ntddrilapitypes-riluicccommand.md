@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c2ded31-9d2d-46e4-a23f-a48528fd448f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_UICCCMD_READRECORD, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RILUICCCOMMAND, netvista.riluicccommand, ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_MAX
+ms.keywords: ntddrilapitypes/RIL_UICCCMD_READRECORD, RIL_UICCCMD_READRECORD, RILUICCCOMMAND, RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_MAX, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCOMMAND, RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,19 +73,14 @@ typedef enum _RILUICCCOMMAND {
 ### -field RIL_UICCCMD_READBINARY
 
 
-
 ### -field RIL_UICCCMD_READRECORD
-
 
 
 ### -field RIL_UICCCMD_UPDATEBINARY
 
 
-
 ### -field RIL_UICCCMD_UPDATERECORD
 
 
-
 ### -field RIL_UICCCMD_MAX
-
 

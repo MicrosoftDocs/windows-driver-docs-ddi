@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62465d2b-53b4-4c11-97c0-ff7171d8a3b0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS, rilapitypes/RILMANAGECALLSPARAMS_V4, netvista.rilmanagecallsparams_v4_2
+ms.keywords: RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], *LPRILMANAGECALLSPARAMS_V4, rilapitypes/RILMANAGECALLSPARAMS_V4, netvista.rilmanagecallsparams_v4_2, *LPRILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMANAGECALLSPARAMS_V4
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS"
+req.typenames: RILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS_V4
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,20 @@ typedef struct _RILMANAGECALLSPARAMS_V4 {
 ### -field dwExecutor
 
 
-
 ### -field dwCommand
-
 
 
 ### -field dwID
 
 
-
 ### -field fHasOfferAnswer
-
 
 
 ### -field rcmOfferAnswer
 
 
-
 ### -field raAddress
 
 
-
 ### -field dwRTTAction
-
 

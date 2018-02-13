@@ -78,11 +78,14 @@ __checkReturn HRESULT APIENTRY CloseAdapter(
 ## -returns
 
 
+
 <b>CloseAdapter</b> returns S_OK if the operation succeeds. Otherwise, this function returns an appropriate error result. 
 
 
 
+
 ## -remarks
+
 
 
 The user-mode display driver's <b>CloseAdapter</b> function should free all of the resources that it allocated for the graphics adapter object.
@@ -91,15 +94,24 @@ Before <b>CloseAdapter</b> closes the graphics adapter object, all of the displa
 
 
 
-## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
+
+
 
  
 

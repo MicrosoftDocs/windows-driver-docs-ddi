@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03ec6323-a3f9-485d-80c8-92ac99d8e73a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetMdl function [Display Devices], video/VideoPortGetMdl, VideoPortGetMdl, VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, display.videoportgetmdl
+ms.keywords: display.videoportgetmdl, VideoPortGetMdl, video/VideoPortGetMdl, VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, VideoPortGetMdl function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ Is a handle to the DMA context being queried. This handle was obtained from <a h
 ## -returns
 
 
+
 <b>VideoPortGetMdl</b> returns <i>pDma</i>, for compatibility reasons. 
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
 
 

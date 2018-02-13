@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7902877c-4991-48ae-9285-82949f898af2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ATTRIBUTE_INFO_1 structure [Print Devices], *PATTRIBUTE_INFO_1, _ATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, PATTRIBUTE_INFO_1 structure pointer [Print Devices], print.attribute_info_1, winddiui/PATTRIBUTE_INFO_1, winddiui/ATTRIBUTE_INFO_1
+ms.keywords: print.attribute_info_1, winddiui/ATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1 structure [Print Devices], _ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, PATTRIBUTE_INFO_1, winddiui/PATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], *PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,7 @@ Number of document pages that the printer and driver can place on one side of a 
 ### -field dwNupBorderFlags
 
 One of the following bit flag values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -112,12 +113,14 @@ The print processor should not draw a border around the page.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwJobPageOrderFlags
 
 One of the following bit flag values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -153,7 +156,8 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwDrvPageOrderFlags
@@ -174,6 +178,7 @@ Maximum number of copies the printer and driver can handle at once, taking into 
 ## -remarks
 
 
+
 The caller (the EMF print processor) uses the <b>dwJobNumberOfPagesPerSide</b> and <b>dwDrvNumberOfPagesPerSide</b> members to determine whether the driver or the print processor handles "N-up" printing.
 
 If the print processor handles "N-up" printing, it checks <b>dwNupBorderFlags</b> to determine if it should draw a page border.
@@ -184,9 +189,12 @@ The print processor uses <b>dwJobNumberOfCopies</b> and <b>dwDrvNumberOfCopies</
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+
 
  
 

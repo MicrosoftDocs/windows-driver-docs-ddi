@@ -89,14 +89,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,9 +111,13 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_INITIALIZE_ELEMENT_
 
 ## -see-also
 
+<a href="..\ntddchgr\ns-ntddchgr-_changer_initialize_element_status.md">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+
+
+
 <a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_initialize_element_status.md">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+
 
  
 

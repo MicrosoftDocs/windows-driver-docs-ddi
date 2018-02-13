@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0b393f55-6054-4c45-aa3d-7588139b34e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::GetLastErrorInfo, stiusd/IStiUSD::GetLastErrorInfo, image.istiusd_getlasterrorinfo, GetLastErrorInfo method [Imaging Devices], GetLastErrorInfo method [Imaging Devices], IStiUSD interface, GetLastErrorInfo, stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, IStiUSD, IStiUSD interface [Imaging Devices], GetLastErrorInfo method
+ms.keywords: IStiUSD interface [Imaging Devices], GetLastErrorInfo method, image.istiusd_getlasterrorinfo, GetLastErrorInfo method [Imaging Devices], IStiUSD interface, GetLastErrorInfo, stiusd/IStiUSD::GetLastErrorInfo, stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, IStiUSD::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,20 +76,26 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>Stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The method should fill in the received <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a>
+
+
 
  
 

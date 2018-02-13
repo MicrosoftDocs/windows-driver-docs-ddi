@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 057f8cb0-0473-470e-b993-457de90d98fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], RILLOCATIONINFO, rilapitypes/RILLOCATIONINFO, netvista.rillocationinfo_2, *LPRILLOCATIONINFO
+ms.keywords: rilapitypes/RILLOCATIONINFO, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILLOCATIONINFO, RILLOCATIONINFO, netvista.rillocationinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,27 +77,20 @@ typedef struct _RILLOCATIONINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwLocationAreaCode
 
 
-
 ### -field dwTrackingAreaCode
 
 
-
 ### -field dwCellID
-
 

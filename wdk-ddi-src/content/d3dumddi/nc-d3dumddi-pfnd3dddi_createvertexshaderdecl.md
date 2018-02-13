@@ -84,6 +84,8 @@ __checkReturn HRESULT APIENTRY CreateVertexShaderDecl(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderdecl.md">D3DDDIARG_CREATEVERTEXSHADERDECL</a> structure that retrieves the shader handle that is associated with the vertex shader declaration that is specified by <i>pVertexElements</i>.
@@ -97,11 +99,14 @@ __checkReturn HRESULT APIENTRY CreateVertexShaderDecl(
 ## -returns
 
 
+
 <b>CreateVertexShaderDecl</b> returns S_OK or an appropriate error result if the vertex shader declaration object is not successfully created.
 
 
 
+
 ## -remarks
+
 
 
 The array of D3DDDIVERTEXELEMENT structures specified by <i>pVertexElements</i> defines vertex data into the pipeline. 
@@ -110,13 +115,20 @@ For more information about programming shader assemblers, see <a href="https://m
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddivertexelement.md">D3DDDIVERTEXELEMENT</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderdecl.md">D3DDDIARG_CREATEVERTEXSHADERDECL</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

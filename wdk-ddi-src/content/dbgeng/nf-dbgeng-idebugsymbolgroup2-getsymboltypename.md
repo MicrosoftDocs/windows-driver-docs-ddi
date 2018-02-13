@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e15b418e-bf4a-49c0-bdb3-24973513e654
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2, GetSymbolTypeName, ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, IDebugSymbolGroup2::GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymboltypename, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName
+ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName, IDebugSymbolGroup2::GetSymbolTypeName, ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, debugger.getsymboltypename, IDebugSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,6 +93,7 @@ The size, in characters, of the name of the symbol's type.  If <i>NameSize</i> i
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,26 +121,36 @@ The size of the buffer was smaller than the size of the name of the symbol's typ
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
 <a href="https://msdn.microsoft.com/09aa3ba9-d5b6-4c08-93f1-f7beca9350a1">IDebugSymbols::GetTypeName</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 
  
 

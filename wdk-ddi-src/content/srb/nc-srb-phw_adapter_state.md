@@ -88,11 +88,14 @@ Indicates, when <b>TRUE</b>, that the miniport driver should save the current st
 ## -returns
 
 
+
 The routine declared by this prototype returns <b>TRUE</b> if it successfully saved or restored the HBA state, <b>FALSE</b> otherwise. 
 
 
 
+
 ## -remarks
+
 
 
 Only SCSI miniport drivers use this prototype. Miniport drivers that work with the StorPort driver do not use the routine that is declared by this prototype.
@@ -101,9 +104,12 @@ For more information about the routine declared by this prototype, see <a href="
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a>
+
+
 
  
 

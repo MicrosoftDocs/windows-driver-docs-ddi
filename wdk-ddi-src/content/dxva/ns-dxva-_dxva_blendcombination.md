@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae711ec5-841d-49cc-a701-1fb6ecaa9a66
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_blendcombination, LPDXVA_BlendCombination structure pointer [Display Devices], dxva/DXVA_BlendCombination, LPDXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices], DXVA_BlendCombination, _DXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml, dxva/LPDXVA_BlendCombination, *LPDXVA_BlendCombination
+ms.keywords: dxva/DXVA_BlendCombination, _DXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml, dxva/LPDXVA_BlendCombination, *LPDXVA_BlendCombination, LPDXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices], DXVA_BlendCombination, display.dxva_blendcombination, LPDXVA_BlendCombination structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,10 +137,15 @@ Indicates whether areas outside of the <b>PictureDestinationRect</b> use a const
 ## -remarks
 
 
+
 In the event that the source and destination pictures are not in 4:4:4 format, every second sample of the graphic blending information (for example, the first, third, or fifth) is applied to the subsampled source chrominance information in the vertical or horizontal direction as needed to produce the blended result.
 
 The following sections show the restrictions placed on the <b>left</b>, <b>right</b>, <b>top</b>, and <b>bottom</b> members of the RECT structure.
-<h3><a id="ddk_dxva_blendcombination_gg"></a><a id="DDK_DXVA_BLENDCOMBINATION_GG"></a></h3><h3><a id="RECT_Structure_Restrictions_for_PictureSourceRect16thPel"></a><a id="rect_structure_restrictions_for_picturesourcerect16thpel"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTURESOURCERECT16THPEL"></a>RECT Structure Restrictions for PictureSourceRect16thPel</h3>The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>PictureSourceRect16thPel</b>:
+
+<h3><a id="ddk_dxva_blendcombination_gg"></a><a id="DDK_DXVA_BLENDCOMBINATION_GG"></a></h3>
+<h3><a id="RECT_Structure_Restrictions_for_PictureSourceRect16thPel"></a><a id="rect_structure_restrictions_for_picturesourcerect16thpel"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTURESOURCERECT16THPEL"></a>RECT Structure Restrictions for PictureSourceRect16thPel</h3>
+The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>PictureSourceRect16thPel</b>:
+
 <ul>
 <li>
 <b>left</b> and <b>top</b> must be greater than or equal to zero.
@@ -158,7 +163,9 @@ If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>,
 <b>right</b> and <b>bottom</b> must not exceed 16 times the allocated width and height, respectively, of the uncompressed source picture surface.
 
 </li>
-</ul>For example, if <b>PictureSourceRect16thPel</b> is used to select an entire MPEG-2 decoded picture, the <b>PictureSourceRect16thPel</b> values can be computed as follows:
+</ul>
+For example, if <b>PictureSourceRect16thPel</b> is used to select an entire MPEG-2 decoded picture, the <b>PictureSourceRect16thPel</b> values can be computed as follows:
+
 <ul>
 <li>
 <b>left</b> = 0
@@ -176,7 +183,10 @@ If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>,
 <b>bottom</b> = 16 X <i>vertical_size</i>
 
 </li>
-</ul><h3><a id="RECT_Structure_Restrictions_for_PictureDestinationRect"></a><a id="rect_structure_restrictions_for_picturedestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTUREDESTINATIONRECT"></a>RECT Structure Restrictions for PictureDestinationRect</h3>The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions for <b>PictureDestinationRect</b>:
+</ul>
+<h3><a id="RECT_Structure_Restrictions_for_PictureDestinationRect"></a><a id="rect_structure_restrictions_for_picturedestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTUREDESTINATIONRECT"></a>RECT Structure Restrictions for PictureDestinationRect</h3>
+The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions for <b>PictureDestinationRect</b>:
+
 <ul>
 <li>
 <b>left</b> and <b>top</b> must be greater than or equal to zero.
@@ -198,7 +208,10 @@ If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine is zero, <b>rig
 If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine is 1, <b>right</b> and <b>bottom</b> must not exceed the allocated width and height, respectively, of the source graphic surface.
 
 </li>
-</ul><h3><a id="RECT_Structure_Restrictions_for_GraphicSourceRect"></a><a id="rect_structure_restrictions_for_graphicsourcerect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICSOURCERECT"></a>RECT Structure Restrictions for GraphicSourceRect</h3>If alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="..\dxva\ns-dxva-_dxva_configalphaload.md">DXVA_ConfigAlphaLoad</a> with a value of 2, the following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>GraphicSourceRect</b>:
+</ul>
+<h3><a id="RECT_Structure_Restrictions_for_GraphicSourceRect"></a><a id="rect_structure_restrictions_for_graphicsourcerect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICSOURCERECT"></a>RECT Structure Restrictions for GraphicSourceRect</h3>
+If alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="..\dxva\ns-dxva-_dxva_configalphaload.md">DXVA_ConfigAlphaLoad</a> with a value of 2, the following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>GraphicSourceRect</b>:
+
 <ul>
 <li>
 <b>top </b>and <b>left </b>must be zero.
@@ -212,7 +225,9 @@ If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine is 1, <b>right<
 <b>bottom</b> must be equal to the End Y-coordinate minus the Start Y-coordinate of the last preceding DVD SET_DAREA DCCMD, plus 1, to adjust for the differing rectangle interpretations.
 
 </li>
-</ul>If alpha-blend data loading does not use the <b>bConfigDataType</b> member of DXVA_ConfigAlphaLoad with a value of 2, the following restrictions apply to the RECT dimensions of <b>GraphicSourceRect</b>:
+</ul>
+If alpha-blend data loading does not use the <b>bConfigDataType</b> member of DXVA_ConfigAlphaLoad with a value of 2, the following restrictions apply to the RECT dimensions of <b>GraphicSourceRect</b>:
+
 <ul>
 <li>
 <b>left</b> and <b>top</b> must be greater than or equal to zero.
@@ -230,7 +245,10 @@ If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>,
 <b>right</b> and <b>bottom</b> must not exceed the allocated width and height, respectively, of the graphic source image. The allocated width and height are defined as 720 and 576 samples, respectively, when the <b>bConfigDataType</b> member of DXVA_ConfigAlphaLoad equals 2.
 
 </li>
-</ul><h3><a id="RECT_Structure_Restrictions_for_GraphicDestinationRect"></a><a id="rect_structure_restrictions_for_graphicdestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICDESTINATIONRECT"></a>RECT Structure Restrictions for GraphicDestinationRect</h3>The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>GraphicDestinationRect</b>:
+</ul>
+<h3><a id="RECT_Structure_Restrictions_for_GraphicDestinationRect"></a><a id="rect_structure_restrictions_for_graphicdestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICDESTINATIONRECT"></a>RECT Structure Restrictions for GraphicDestinationRect</h3>
+The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>GraphicDestinationRect</b>:
+
 <ul>
 <li><b>left</b> and <b>top</b> must be greater than or equal to zero, unless this requirement conflicts with the need to offset the graphic by eight samples. This is the case in the following scenarios:<ul>
 <li>Alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a> with a value of 2 and the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine with a value of zero.</li>
@@ -250,7 +268,9 @@ If the <b>bConfigBlendType</b> member of <a href="..\dxva\ns-dxva-_dxva_configal
 If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine equals 1, <b>right</b> and <b>bottom</b> must not exceed the allocated width and height, respectively, of the source graphic image.
 
 </li>
-</ul>If alpha-blend data loading uses the <b>bConfigDataType</b> member of DXVA_ConfigAlphaCombine with a value of 2 and the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine with a value of zero, the following additional restrictions on <b>GraphicDestinationRect</b> dimensions apply:
+</ul>
+If alpha-blend data loading uses the <b>bConfigDataType</b> member of DXVA_ConfigAlphaCombine with a value of 2 and the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine with a value of zero, the following additional restrictions on <b>GraphicDestinationRect</b> dimensions apply:
+
 <ul>
 <li>
 <b>top</b> must be equal to the Start Y-coordinate of the last preceding DVD SET_DAREA DCCMD.
@@ -268,7 +288,12 @@ If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine equals 1, <b>ri
 <b>bottom</b> must be equal to the value of <b>top</b> plus the End Y-coordinate minus the Start Y-coordinate of the last preceding DVD SET_DAREA DCCMD, plus 1, to adjust for the differing rectangle interpretations described in the following note.
 
 </li>
-</ul><div class="alert"><b>Note</b>    There is a difference between the way the DVD video specification defines a subpicture rectangular area and the convention used by Microsoft. This reference follows the Microsoft convention so a rectangle of width 10 and height 10 in the upper-left corner of the picture is defined by <b>top</b> = 0, <b>left</b> = 0, <b>right</b> = 10, and <b>bottom </b>= 10. The DVD video specification uses an equivalent of <b>right</b> = 9 and <b>bottom</b> = 9.</div><div> </div><h3><a id="setting_outsideyuvcolor_values"></a><a id="SETTING_OUTSIDEYUVCOLOR_VALUES"></a>Setting OutsideYUVcolor Values</h3>The values for the <b>OutsideYUVcolor</b> structure are as follows:
+</ul>
+<div class="alert"><b>Note</b>    There is a difference between the way the DVD video specification defines a subpicture rectangular area and the convention used by Microsoft. This reference follows the Microsoft convention so a rectangle of width 10 and height 10 in the upper-left corner of the picture is defined by <b>top</b> = 0, <b>left</b> = 0, <b>right</b> = 10, and <b>bottom </b>= 10. The DVD video specification uses an equivalent of <b>right</b> = 9 and <b>bottom</b> = 9.</div>
+<div> </div>
+<h3><a id="setting_outsideyuvcolor_values"></a><a id="SETTING_OUTSIDEYUVCOLOR_VALUES"></a>Setting OutsideYUVcolor Values</h3>
+The values for the <b>OutsideYUVcolor</b> structure are as follows:
+
 <ul>
 <li>
 The value of <b>OutsideYUVcolor.bSampleAlpha8</b> must be 255 if the areas outside of the <b>PictureDestinationRect</b> are generated as a constant color to use for blending.
@@ -279,7 +304,8 @@ The value of <b>OutsideYUVcolor.bSampleAlpha8</b> must be 255 if the areas outsi
 <li>The areas outside of the <b>PictureDestinationRect</b> cannot be used (as indicated by the <b>bConfigStayInPicDestRectArea</b> member of <a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a> having a value of 1).</li>
 </ul>
 </li>
-</ul>All other values for <b>OutsideYUVcolor.bSampleAlpha8</b> are reserved for future use.
+</ul>
+All other values for <b>OutsideYUVcolor.bSampleAlpha8</b> are reserved for future use.
 
 The value of <b>OutsideYUVcolor.bSampleAlpha8</b> must be zero if the <b>bConfigStayInPicDestRectArea</b> member of the DXVA_ConfigAlphaCombine structure equals 1.
 
@@ -291,17 +317,28 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 
 
+
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550469">DD_BEGINMOCOMPFRAMEDATA</a>
 
-<a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550469">DD_BEGINMOCOMPFRAMEDATA</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_configalphacombine.md">DXVA_ConfigAlphaCombine</a>
+
+
 
  
 

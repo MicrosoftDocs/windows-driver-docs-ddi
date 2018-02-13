@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9af21f56-d93d-4130-888c-c7009dc2854d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_f387710b-fb49-4202-9ff5-496021972695.xml, netvista.ndisgetprocessorinformationex, NdisGetProcessorInformationEx function [Network Drivers Starting with Windows Vista], NdisGetProcessorInformationEx, ndis/NdisGetProcessorInformationEx
+ms.keywords: NdisGetProcessorInformationEx function [Network Drivers Starting with Windows Vista], NdisGetProcessorInformationEx, ndis/NdisGetProcessorInformationEx, netvista.ndisgetprocessorinformationex, ndis_processor_group_ref_f387710b-fb49-4202-9ff5-496021972695.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetProcessorInformationEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetProcessorInformationEx function
@@ -120,7 +120,9 @@ A pointer to a value that is the size, in bytes, of the buffer that the caller p
 ## -returns
 
 
+
 <b>NdisGetProcessorInformationEx</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,11 +152,14 @@ The size of the buffer at the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -163,21 +168,36 @@ NDIS drivers call the
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

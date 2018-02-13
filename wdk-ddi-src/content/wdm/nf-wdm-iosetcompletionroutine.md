@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 09c645d0-4d46-46c0-9256-8d2ddd3670b9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetCompletionRoutine routine [Kernel-Mode Driver Architecture], k104_cbc51352-796e-4b64-9725-7d8a08c4aea9.xml, IoSetCompletionRoutine, wdm/IoSetCompletionRoutine, kernel.iosetcompletionroutine
+ms.keywords: k104_cbc51352-796e-4b64-9725-7d8a08c4aea9.xml, IoSetCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.iosetcompletionroutine, wdm/IoSetCompletionRoutine, IoSetCompletionRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,16 +106,22 @@ Specifies whether the completion routine is called if a driver or the kernel has
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
-<div class="alert"><b>Note</b>    Only a driver that can guarantee it will not be unloaded before its completion routine finishes can use <b>IoSetCompletionRoutine</b>. Otherwise, the driver must use <a href="..\wdm\nf-wdm-iosetcompletionroutineex.md">IoSetCompletionRoutineEx</a>, which prevents the driver from unloading until its completion routine executes.</div><div> </div>This routine sets the transfer address of the <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine in the given IRP. The lowest-level driver in a chain of layered drivers cannot call this routine.
+
+<div class="alert"><b>Note</b>    Only a driver that can guarantee it will not be unloaded before its completion routine finishes can use <b>IoSetCompletionRoutine</b>. Otherwise, the driver must use <a href="..\wdm\nf-wdm-iosetcompletionroutineex.md">IoSetCompletionRoutineEx</a>, which prevents the driver from unloading until its completion routine executes.</div>
+<div> </div>
+This routine sets the transfer address of the <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine in the given IRP. The lowest-level driver in a chain of layered drivers cannot call this routine.
 
 <b>IoSetCompletionRoutine</b> registers the specified routine to be called when the next-lower-level driver has completed the requested operation in any or all of the following ways:
+
 <ul>
 <li>
 With a success status value
@@ -129,7 +135,8 @@ With a nonsuccess status value
 By canceling the IRP
 
 </li>
-</ul>Usually, the I/O status block is set by the underlying device driver. It is read but not altered by any higher-level drivers' <i>IoCompletion</i> routines.
+</ul>
+Usually, the I/O status block is set by the underlying device driver. It is read but not altered by any higher-level drivers' <i>IoCompletion</i> routines.
 
 Higher-level drivers that allocate IRP's with <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a> or <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a> must call this routine with all <i>InvokeOn</i>Xxx parameters set to <b>TRUE</b> before passing the driver-allocated IRP to <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>. When the <i>IoCompletion</i> routine is called with such an IRP, it must free the driver-allocated IRP and any other resources that the driver set up for the request, such as MDLs with <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>. Such a driver should return STATUS_MORE_PROCESSING_REQUIRED when it calls <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a> to forestall the I/O manager's completion processing for the driver-allocated IRP.
 
@@ -137,21 +144,36 @@ Non-PnP drivers that might be unloaded before their <i>IoCompletion</i> routines
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
-
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
+
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutineex.md">IoSetCompletionRoutineEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
 
  
 

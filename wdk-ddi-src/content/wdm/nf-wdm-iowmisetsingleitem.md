@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], wdm/IoWMISetSingleItem, IoWMISetSingleItem, kernel.iowmisetsingleitem, k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml
+ms.keywords: kernel.iowmisetsingleitem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], wdm/IoWMISetSingleItem, IoWMISetSingleItem, k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,9 @@ Pointer to the buffer that contains the new value for the property specified by 
 ## -returns
 
 
+
 The routine returns an NTSTATUS code. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -178,11 +180,14 @@ The driver that implements the WMI data block instance is unable to update the p
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoWMISetSingleItem</b> determines which drivers might support the specified WMI class and instance name. It issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property updates the specified property in the data block instance.
@@ -191,15 +196,24 @@ Drivers can also use <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetS
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
+
+
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
+
+
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a>
+
 
  
 

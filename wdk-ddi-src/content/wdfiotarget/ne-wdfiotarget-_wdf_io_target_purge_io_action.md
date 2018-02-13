@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E282976A-4143-468C-B944-FBBAD5BBA388
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, WdfIoTargetPurgeIoUndefined, wdf.wdf_io_target_purge_io_action, WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoUndefined, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION
+ms.keywords: WdfIoTargetPurgeIoUndefined, wdfiotarget/WdfIoTargetPurgeIoAndWait, WDF_IO_TARGET_PURGE_IO_ACTION, _WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoUndefined, WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIo, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, kmdf.wdf_io_target_purge_io_action, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdf.wdf_io_target_purge_io_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -94,17 +94,23 @@ The framework attempts to cancel all of the target queue's I/O requests, before 
 ## -remarks
 
 
+
 The <b>WDF_IO_TARGET_PURGE_IO_ACTION</b> enumeration is used as an input parameter to the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a> method.
 
 If your driver specifies the <b>WdfIoTargetPurgeIoAndWait</b> flag, the driver must not call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a> from a request handler, a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, or an <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a> callback function.
 
 
 
+
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetpurge.md">WdfIoTargetPurge</a>
+
+
+
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+
 
  
 

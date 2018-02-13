@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, netvista.ndisinterlockedaddlargestatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisInterlockedAddLargeStatistic
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedAddLargeStatistic macro
@@ -85,6 +85,7 @@ A ULONG value that is added to the value to which the
 ## -remarks
 
 
+
 Functions that perform interlocked operations must not cause a page fault to occur. Neither their code
     nor any of the data that they access can cause a page fault without bringing down the local computer.
 
@@ -94,9 +95,12 @@ Functions that perform interlocked operations must not cause a page fault to occ
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
 
  
 

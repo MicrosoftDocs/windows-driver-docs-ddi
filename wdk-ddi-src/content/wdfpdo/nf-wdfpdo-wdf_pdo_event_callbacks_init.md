@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f3e0ee33-42cd-4544-aad2-c353f7c30675
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_PDO_EVENT_CALLBACKS_INIT function, DFDeviceObjectFdoPdoRef_22fa36a8-bdfa-4aac-88aa-3fb50a4c1c42.xml, wdf.wdf_pdo_event_callbacks_init, wdfpdo/WDF_PDO_EVENT_CALLBACKS_INIT, WDF_PDO_EVENT_CALLBACKS_INIT, kmdf.wdf_pdo_event_callbacks_init
+ms.keywords: kmdf.wdf_pdo_event_callbacks_init, WDF_PDO_EVENT_CALLBACKS_INIT, wdfpdo/WDF_PDO_EVENT_CALLBACKS_INIT, wdf.wdf_pdo_event_callbacks_init, DFDeviceObjectFdoPdoRef_22fa36a8-bdfa-4aac-88aa-3fb50a4c1c42.xml, WDF_PDO_EVENT_CALLBACKS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,22 +78,36 @@ A pointer to the driver's <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_PDO_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
+
+
+#### Examples
+
+For a code example that uses <b>WDF_PDO_EVENT_CALLBACKS_INIT</b>, see <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+
+
+
 <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+
 
  
 

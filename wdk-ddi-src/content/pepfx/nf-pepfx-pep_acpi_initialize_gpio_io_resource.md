@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D32E24E4-FAF4-401B-85FB-4D522C52093E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_initialize_gpio_io_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
+ms.keywords: kernel.pep_acpi_initialize_gpio_io_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function
@@ -104,9 +104,7 @@ Specifies the hardware debounce wait time, in hundredths of milliseconds.
 ### -param DriveStrength [in]
 
 
-
 ### -param IoRestriction [in]
-
 
 
 ### -param ResourceSourceIndex [in]
@@ -152,15 +150,21 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
+
+
+
 <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_updatehwcontextstate_flags, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], DXGK_UPDATEHWCONTEXTSTATE_FLAGS, _DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

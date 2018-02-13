@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15567aae-a8ab-4289-9dd7-5bf7df80bfc9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista], netvista.rildrvnotification, ntddrilapitypes/RILDRVNOTIFICATION, RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
+ms.keywords: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION, netvista.rildrvnotification, ntddrilapitypes/RILDRVNOTIFICATION, RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,23 +75,17 @@ typedef struct _RILDRVNOTIFICATION {
 ### -field cbSize
 
 
-
 ### -field cbSizeNeeded
-
 
 
 ### -field dwCode
 
 
-
 ### -field hrCmdID
-
 
 
 ### -field dwDataSize
 
 
-
 ### -field pbData
-
 

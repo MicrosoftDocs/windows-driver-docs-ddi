@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6874a1bc-e16e-4052-85a4-dba617a69ccd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress, WdfCommonBufferGetAlignedVirtualAddress method, wdf.wdfcommonbuffergetalignedvirtualaddress, DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, kmdf.wdfcommonbuffergetalignedvirtualaddress, WdfCommonBufferGetAlignedVirtualAddress, PFN_WDFCOMMONBUFFERGETALIGNEDVIRTUALADDRESS
+ms.keywords: PFN_WDFCOMMONBUFFERGETALIGNEDVIRTUALADDRESS, wdf.wdfcommonbuffergetalignedvirtualaddress, kmdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress, DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, WdfCommonBufferGetAlignedVirtualAddress method, WdfCommonBufferGetAlignedVirtualAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfCommonBufferGetAlignedVirtualAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A handle to a common buffer object that the driver obtained by a previous call t
 ## -returns
 
 
+
 <b>WdfCommonBufferGetAlignedVirtualAddress</b> returns the virtual address of the buffer that is associated with the common buffer that the <i>CommonBuffer</i> parameter specifies.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If the driver called <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a> to set a buffer alignment requirement, the framework aligns the common buffer according to that alignment requirement.
@@ -96,14 +99,27 @@ For more information about common buffers, see <a href="https://msdn.microsoft.c
 
 
 
+#### Examples
+
+For a code example that uses <b>WdfCommonBufferGetAlignedVirtualAddress</b>, see <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
+
 
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
+
+
 
  
 

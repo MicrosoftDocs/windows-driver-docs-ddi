@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 988c7e70-3b2a-4a0f-91cf-dfab3ea07f05
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionSetSingleTransferRequirement method, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement, wdf.wdfdmatransactionsetsingletransferrequirement
+ms.keywords: WdfDmaTransactionSetSingleTransferRequirement, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionSetSingleTransferRequirement
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A Boolean value that, if <b>TRUE</b>, specifies that the DMA transaction require
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This method requests a single transfer for a single transaction only. When the transaction object is recycled with <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a> and reinitialized, this setting resets, similar to other transaction-level properties such as immediate execution and maximum transfer length.
@@ -103,13 +106,20 @@ The driver calls <b>WdfDmaTransactionSetSingleTransferRequirement</b> after crea
 
 
 
+
 ## -see-also
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+
+
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
 
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+
 
  
 

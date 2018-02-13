@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prntfont/PWIDTHRUN, WIDTHRUN structure [Print Devices], WIDTHRUN, *PWIDTHRUN, prntfont/WIDTHRUN, PWIDTHRUN structure pointer [Print Devices], PWIDTHRUN, print.widthrun, _WIDTHRUN, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml
+ms.keywords: PWIDTHRUN, prntfont/PWIDTHRUN, print.widthrun, WIDTHRUN, prntfont/WIDTHRUN, PWIDTHRUN structure pointer [Print Devices], _WIDTHRUN, *PWIDTHRUN, WIDTHRUN structure [Print Devices], print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIDTHRUN
 product: Windows
 targetos: Windows
-req.typenames: WIDTHRUN, *PWIDTHRUN
+req.typenames: "*PWIDTHRUN, WIDTHRUN"
 req.product: Windows 10 or later.
 ---
 
@@ -88,14 +88,26 @@ Specifies the offset from the beginning of a <a href="..\prntfont\ns-prntfont-_w
 ## -remarks
 
 
+
 A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure.
 
 Index values contained in <b>dwStartGlyph</b> are integers, starting with 1, with each glyph in the font having an index. That is, the first glyph in the font is assigned an index value of 1, the next glyph's index is 2, and so on.
 
 For example, suppose the first three elements of a WIDTHRUN array contain the following values:
-<b>wStartGlyph</b><b>wGlyphCount</b><b>IoCharWidthOffset</b>=<i>xxx</i>
-<b>wStartGlyph</b><b>wGlyphCount</b><b>IoCharWidthOffset</b>=<i>yyy</i>
-<b>wStartGlyph</b><b>wGlyphCount</b><b>IoCharWidthOffset</b><i>zzz</i>At offset <i>xxx</i>: 56, 50, 60 (WORD-sized)
+
+<b>wStartGlyph</b>
+<b>wGlyphCount</b>
+<b>IoCharWidthOffset</b>=<i>xxx</i>
+
+<b>wStartGlyph</b>
+<b>wGlyphCount</b>
+<b>IoCharWidthOffset</b>=<i>yyy</i>
+
+<b>wStartGlyph</b>
+<b>wGlyphCount</b>
+<b>IoCharWidthOffset</b>
+<i>zzz</i>
+At offset <i>xxx</i>: 56, 50, 60 (WORD-sized)
 
 At offset <i>yyy</i>: 54, 60
 
@@ -111,11 +123,16 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 
 
+
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+
+
 
  
 

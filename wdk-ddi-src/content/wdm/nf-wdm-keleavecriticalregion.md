@@ -67,17 +67,22 @@ VOID KeLeaveCriticalRegion(void);
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 Highest-level drivers can call this routine while running in the context of the thread that requested the current I/O operation. 
+
 
 
 
@@ -85,7 +90,11 @@ Highest-level drivers can call this routine while running in the context of the 
 
 <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
+
+
 <a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93df59dc-adae-49b7-acf4-1cfdd142fd96
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolentriesbyoffset, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, IDebugSymbols3::GetSymbolEntriesByOffset, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols3, GetSymbolEntriesByOffset method [Windows Debugging], debugger.getsymbolentriesbyoffset, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,7 +105,9 @@ Receives the number of symbols located at <i>Offset</i>.  If <i>Entries</i> is <
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,22 +124,30 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548458">GetSymbolEntriesByName</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

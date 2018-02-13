@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16ac6fea-9eea-4062-8ab9-fd14d80118a6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdftimer/WdfTimerGetParentObject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, PFN_WDFTIMERGETPARENTOBJECT, kmdf.wdftimergetparentobject, WdfTimerGetParentObject, WdfTimerGetParentObject method, wdf.wdftimergetparentobject
+ms.keywords: WdfTimerGetParentObject, kmdf.wdftimergetparentobject, wdftimer/WdfTimerGetParentObject, DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, WdfTimerGetParentObject method, wdf.wdftimergetparentobject, PFN_WDFTIMERGETPARENTOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,22 +81,52 @@ A handle to a framework timer object that was obtained by calling <a href="..\wd
 ## -returns
 
 
+
 <b>WdfTimerGetParentObject</b> returns a handle to the framework object that is the specified timer object's parent object. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+
+
+#### Examples
+
+The following code example shows now an <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function can obtain a timer object's parent. In this example, the driver previously specified that the timer object's parent is a queue object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtTimerFunc(
+    IN WDFTIMER  Timer
+    )
+{
+    WDFQUEUE queue;
+
+    queue = WdfTimerGetParentObject(Timer);
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
+
+
 
  
 

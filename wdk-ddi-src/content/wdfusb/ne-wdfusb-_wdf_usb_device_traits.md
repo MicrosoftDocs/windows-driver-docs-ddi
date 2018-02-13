@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5ba625f5-5bc0-4e2b-a7a9-5014746086c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, _WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml, WDF_USB_DEVICE_TRAITS enumeration, WDF_USB_DEVICE_TRAIT_SELF_POWERED, wdf.wdf_usb_device_traits, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED, kmdf.wdf_usb_device_traits
+ms.keywords: WDF_USB_DEVICE_TRAITS enumeration, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, kmdf.wdf_usb_device_traits, WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml, wdf.wdf_usb_device_traits, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED, WDF_USB_DEVICE_TRAIT_SELF_POWERED, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, _WDF_USB_DEVICE_TRAITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,13 +90,17 @@ The device is operating at high speed or SuperSpeed.
 ## -remarks
 
 
+
 The <b>WDF_USB_DEVICE_TRAITS</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.routercreateprintasyncnotificationchannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], prnasntp/RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
+ms.keywords: spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml, RouterCreatePrintAsyncNotificationChannel, print.routercreateprintasyncnotificationchannel, RouterCreatePrintAsyncNotificationChannel function [Print Devices], prnasntp/RouterCreatePrintAsyncNotificationChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,6 +104,7 @@ TBD
 
 
 
+
 #### - eNotificationFilter [in]
 
 A filter for the session or user that receives the notifications.
@@ -117,13 +118,17 @@ A pointer to a variable that receives the address of the interface object that r
 ## -returns
 
 
+
 <code>RouterCreatePrintAsyncNotificationChannel</code> returns S_OK on success and returns a standard COM error code otherwise.
+
 
 
 
 ## -remarks
 
 
+
 In some cases, you must release the channel that you created with the <code>RouterCreatePrintAsyncNotificationChannel</code> function by calling <b>Release</b> on IPrintAsyncNotifyChannel. For information about when to release a channel, see <a href="https://msdn.microsoft.com/3161342a-0737-4f3b-bb16-32d6949bceea">Notification Channel</a>.
+
 
 

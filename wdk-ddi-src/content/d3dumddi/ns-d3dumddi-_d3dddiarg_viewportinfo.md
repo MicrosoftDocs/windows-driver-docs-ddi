@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37e69980-fb3a-4abe-a76b-b2bd6827ae64
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_viewportinfo, D3DDDIARG_VIEWPORTINFO, D3DDDIARG_VIEWPORTINFO structure [Display Devices], d3dumddi/D3DDDIARG_VIEWPORTINFO, UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, _D3DDDIARG_VIEWPORTINFO
+ms.keywords: D3DDDIARG_VIEWPORTINFO structure [Display Devices], UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, _D3DDDIARG_VIEWPORTINFO, display.d3dddiarg_viewportinfo, D3DDDIARG_VIEWPORTINFO, d3dumddi/D3DDDIARG_VIEWPORTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ typedef struct _D3DDDIARG_VIEWPORTINFO {
 ## -remarks
 
 
+
 The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setviewport.md">SetViewport</a> function should update the viewport portion of its internal rendering context with the location and size values that are specified in the D3DDDIARG_VIEWPORTINFO structure. The driver can use this information to perform guard band clipping.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setviewport.md">SetViewport</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4D18A0F0-51E9-4871-B8C1-32FAA518FAEC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSTARGET_STATE, ks/KSTARGET_STATE_DISABLED, stream.kstarget_state, ks/KSTARGET_STATE_ENABLED, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE, KSTARGET_STATE_DISABLED, KSTARGET_STATE_ENABLED
+ms.keywords: ks/KSTARGET_STATE, KSTARGET_STATE_ENABLED, KSTARGET_STATE_DISABLED, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE, ks/KSTARGET_STATE_DISABLED, ks/KSTARGET_STATE_ENABLED, stream.kstarget_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSTARGET_STATE_DISABLED
 
 
-
 ### -field KSTARGET_STATE_ENABLED
-
 

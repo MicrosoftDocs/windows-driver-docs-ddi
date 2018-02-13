@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: E03A617F-BC5E-41D6-B22F-CFE9FE11D7E1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: wdtfsystemaction/IWDTFSystemAction2::RebootRestart, IWDTFSystemAction2::RebootRestart, RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestart method, IWDTFSystemAction2, RebootRestart method [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestart, RebootRestart method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSystemAction2.RebootRestart
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestart method, RebootRestart method [Windows Device Testing Framework], RebootRestart method [Windows Device Testing Framework], IWDTFSystemAction2 interface, wdtfsystemaction/IWDTFSystemAction2::RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, IWDTFSystemAction2, dtf.iwdtfsystemaction2_rebootrestart, RebootRestart, IWDTFSystemAction2::RebootRestart, Microsoft.WDTF.IWDTFSystemAction2.RebootRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ HRESULT RebootRestart();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

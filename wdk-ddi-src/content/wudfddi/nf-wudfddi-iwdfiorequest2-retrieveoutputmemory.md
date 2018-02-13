@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2::RetrieveOutputMemory, IWDFIoRequest2 interface, RetrieveOutputMemory method, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, wdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory method, IWDFIoRequest2, RetrieveOutputMemory method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
+ms.keywords: RetrieveOutputMemory method, IWDFIoRequest2 interface, IWDFIoRequest2, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, wdf.iwdfiorequest2_retrieveoutputmemory, IWDFIoRequest2::RetrieveOutputMemory, umdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory, IWDFIoRequest2 interface, RetrieveOutputMemory method, RetrieveOutputMemory method, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ The address of a location that receives a pointer to the <b>IWDFMemory</b> inter
 ## -returns
 
 
+
 <b>RetrieveOutputMemory</b> returns S_OK if the operation succeeds. Otherwise, this method can return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,7 +108,8 @@ Not enough memory is available to retrieve the buffer. The driver should complet
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
@@ -116,7 +119,9 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <b>RetrieveOutputMemory</b> to obtain the output buffer for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
@@ -132,20 +137,84 @@ Instead of calling <b>RetrieveOutputMemory</b>, the driver can call <a href="htt
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a> callback function can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of the framework memory object that represents a read request's output buffer. The example then formats and sends the read request to a USB I/O target. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+STDMETHODCALLTYPE
+  CMyQueue::OnRead(
+     __in IWDFIoQueue *pWdfQueue,
+     __in IWDFIoRequest *pWdfRequest,
+     __in SIZE_T BytesToRead
+     )
+{
+    HRESULT hr = S_OK;
+    IWDFMemory * pOutputMemory = NULL;
+
+    //
+    // Declare an IWDFIoRequest2 interface pointer and obtain the
+    // IWDFIoRequest2 interface from the IWDFIoRequest interface.
+    //
+    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+
+    r2-&gt;RetrieveOutputMemory(&amp;pOutputMemory);
+    if (FAILED(hr)) goto Exit;
+
+    hr = m_Device-&gt;GetInputPipe()-&gt;FormatRequestForRead(pWdfRequest,
+                                                        NULL,
+                                                        pOutputMemory,
+                                                        NULL,
+                                                        NULL);
+Exit:
+    if (FAILED(hr))
+    {
+        pWdfRequest-&gt;Complete(hr);
+    }
+    else
+    {
+        ForwardFormattedRequest(pWdfRequest, m_Device-&gt;GetInputPipe());
+    }
+    SAFE_RELEASE(pOutputMemory);
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
+
+
 
  
 

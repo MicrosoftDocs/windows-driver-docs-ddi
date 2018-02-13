@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, display.dxgk_present_display_only_progress_id, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration [Display Devices], d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED
+ms.keywords: d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration [Display Devices], _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, display.dxgk_present_display_only_progress_id, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,6 +81,8 @@ An error occurred during the present operation.
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
+
+
 
  
 

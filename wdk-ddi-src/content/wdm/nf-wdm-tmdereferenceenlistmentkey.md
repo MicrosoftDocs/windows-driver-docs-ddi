@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e03b5f4d-58d5-43d5-a0c3-8a3cc83bd38a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.tmdereferenceenlistmentkey, TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], wdm/TmDereferenceEnlistmentKey, TmDereferenceEnlistmentKey, ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml
+ms.keywords: wdm/TmDereferenceEnlistmentKey, TmDereferenceEnlistmentKey, ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml, TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmdereferenceenlistmentkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A pointer to a BOOLEAN-typed variable. This variable receives <b>TRUE</b> if the
 ## -returns
 
 
+
 <b>TmDereferenceEnlistmentKey</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,16 @@ The reference count of the specified enlistment object is zero and cannot be dec
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\wdm\nf-wdm-tmreferenceenlistmentkey.md">TmReferenceEnlistmentKey</a> routine increments the reference count for an enlistment object's key, and the <b>TmDereferenceEnlistmentKey</b> routine decrements the count.
@@ -116,19 +121,32 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 <a href="..\wdm\nf-wdm-tmreferenceenlistmentkey.md">TmReferenceEnlistmentKey</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
 
  
 

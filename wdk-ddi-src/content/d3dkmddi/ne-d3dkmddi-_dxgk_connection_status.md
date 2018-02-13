@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: TargetStatusDisconnected, d3dkmddi/MonitorStatusDisconnected, *PDXGK_CONNECTION_STATUS, MonitorStatusConnected, DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/MonitorStatusConnected, LinkConfigurationStarted, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/TargetStatusConnected, d3dkmddi/LinkConfigurationFailed, MonitorStatusUnknown, display.dxgk_connection_status, d3dkmddi/TargetStatusDisconnected, _DXGK_CONNECTION_STATUS, TargetStatusConnected, d3dkmddi/ConnectionStatusUninitialized, DXGK_CONNECTION_STATUS enumeration [Display Devices], d3dkmddi/MonitorStatusUnknown, d3dkmddi/LinkConfigurationStarted, MonitorStatusDisconnected, LinkConfigurationSucceeded, LinkConfigurationFailed, TargetStatusJoined, d3dkmddi/TargetStatusJoined, ConnectionStatusUninitialized
+ms.keywords: DXGK_CONNECTION_STATUS, d3dkmddi/MonitorStatusUnknown, MonitorStatusUnknown, d3dkmddi/LinkConfigurationFailed, d3dkmddi/LinkConfigurationSucceeded, _DXGK_CONNECTION_STATUS, d3dkmddi/MonitorStatusDisconnected, LinkConfigurationFailed, MonitorStatusDisconnected, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationStarted, DXGK_CONNECTION_STATUS enumeration [Display Devices], *PDXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, d3dkmddi/TargetStatusDisconnected, MonitorStatusConnected, d3dkmddi/MonitorStatusConnected, LinkConfigurationSucceeded, TargetStatusConnected, d3dkmddi/ConnectionStatusUninitialized, d3dkmddi/TargetStatusConnected, LinkConfigurationStarted, TargetStatusJoined, TargetStatusDisconnected, d3dkmddi/TargetStatusJoined, display.dxgk_connection_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -141,6 +141,8 @@ If the target was previously enabled, then scan-out of pixels has resumed.  The 
 ## -remarks
 
 
+
 Other than the uninitialized state, the values fall into three categories: target changes, monitor changes and link configuration changes.  Target changes represent the addition and removal of targets; monitor changes report the connection status of monitors which are attached to targets and link configuration changes report the status of the link to a monitor.
+
 
 

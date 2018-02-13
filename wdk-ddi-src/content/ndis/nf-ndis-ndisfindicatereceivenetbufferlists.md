@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff2457bb-158a-411c-8c6b-7a7e402497ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFIndicateReceiveNetBufferLists, ndis/NdisFIndicateReceiveNetBufferLists, netvista.ndisfindicatereceivenetbufferlists, filter_ndis_functions_ref_b3c09e67-4d25-4e8f-89e2-d227cf0f10b8.xml, NdisFIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisfindicatereceivenetbufferlists, NdisFIndicateReceiveNetBufferLists, NdisFIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFIndicateReceiveNetBufferLists, filter_ndis_functions_ref_b3c09e67-4d25-4e8f-89e2-d227cf0f10b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFIndicateReceiveNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFIndicateReceiveNetBufferLists function
@@ -111,10 +111,12 @@ Flags that define attributes for the receive indication. The flags can be combin
 
 
 
+
 #### NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is <b>DISPATCH_LEVEL</b>. For more information about this flag, see 
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
 
 
 #### NDIS_RECEIVE_FLAGS_RESOURCES
@@ -124,10 +126,12 @@ Specifies that the filter driver reclaims ownership of the <a href="..\ndis\ns-n
        <b>NdisFIndicateReceiveNetBufferLists</b> returns.
 
 
+
 #### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> have the same protocol type (EtherType).
+
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
@@ -136,11 +140,13 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        <i>NetBufferLists</i> belong to the same VLAN.
 
 
+
 #### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
        assigned to the miniport adapter.
+
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
@@ -154,6 +160,7 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        NDIS_RECEIVE_QUEUE_PARAMETERS</a> structure when that queue was allocated.
 
 
+
 #### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
@@ -165,9 +172,11 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        deleted.
 
 
+
 #### NDIS_RECEIVE_FLAGS_MORE_NBLS
 
 Reserved.
+
 
 
 #### NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE
@@ -175,7 +184,10 @@ Reserved.
 If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
 For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReturnFlags</i> parameter of <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReturnFlags</i> parameter of <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="..\ndis\nf-ndis-ndisfreturnnetbufferlists.md">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
+<div> </div>
+
 
 #### NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP
 
@@ -187,11 +199,14 @@ For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When a filter driver calls the 
@@ -242,23 +257,40 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/4f6d44e9-c351-452d-aadf-505e6bb30fc2">Receiving Data in a Filter Driver</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
 
 <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/4f6d44e9-c351-452d-aadf-505e6bb30fc2">Receiving Data in a Filter Driver</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

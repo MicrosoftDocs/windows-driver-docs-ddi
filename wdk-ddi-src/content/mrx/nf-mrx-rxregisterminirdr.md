@@ -7,8 +7,8 @@ old-location: ifsk\rxregisterminirdr.htm
 old-project: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr
+ms.date: 2/7/2018
+ms.keywords: rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, ifsk.rxregisterminirdr, RxRegisterMinirdr function [Installable File System Drivers], RxRegisterMinirdr, mrx/RxRegisterMinirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,9 +96,11 @@ The set of options that determine capabilities of the network mini-redirector dr
 
 
 
+
 #### RX_REGISTERMINI_FLAG_DONT_PROVIDE_UNCS
 
 When this flag is set, it indicates that the network mini-redirector does not support UNC names.
+
 
 
 #### RX_REGISTERMINI_FLAG_DONT_PROVIDE_MAILSLOTS
@@ -106,9 +108,11 @@ When this flag is set, it indicates that the network mini-redirector does not su
 When this flag is set, it indicates that the network mini-redirector does not support mailslots.
 
 
+
 #### RX_REGISTERMINI_FLAG_DONT_INIT_DRIVER_DISPATCH
 
 When this flag is set, it indicates that the network mini-redirector does not want RDBSS to initialize the driver dispatch entry points of the mini-redirector driver to point to RDBSS internal routines. This option would only be used in unusual circumstances. Normally RDBSS would set the driver dispatch entry points and the fast I/O dispatch in the network mini-redirector driver object to point to routines internal to RDBSS.
+
 
 
 #### RX_REGISTERMINI_FLAG_DONT_INIT_PREFIX_N_SCAVENGER
@@ -139,7 +143,9 @@ The device characteristics used when the device object is created. This specifie
 ## -returns
 
 
+
 <b>RxRegisterMinirdr</b> returns STATUS_SUCCESS on success or one of the following error values on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -200,11 +206,14 @@ The call to create the device object returned a <b>NULL</b> device object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A network mini-redirector registers with RDBSS whenever the driver is loaded by the kernel and unregisters with RDBSS when the driver is unloaded. A non-monolithic driver (the SMB network mini-redirector) communicates with the <i>Rdbss.sys</i>, another kernel driver. For a monolithic network mini-redirector driver that statically links with <i>Rdbsslib.lib</i>, this communication is merely a call to an <i>Rdbsslib.lib</i> library routine.
@@ -216,6 +225,7 @@ As part of this registration process, the network mini-redirector passes a param
 Note that the <b>RxRegisterMinirdr</b> routine sets all of the driver dispatch routines of the network mini-redirector driver to point to the top-level RDBSS dispatch routine, <b>RxFsdDispatch</b>. A network mini-redirector can override this behavior by saving a copy of its driver dispatch entry points, calling <b>RxRegisterMinirdr</b>, and rewriting the driver dispatch with its own entry points after the call to <b>RxRegisterMinirdr</b> returns. A network mini-redirector can also prevent its driver dispatch routines from being copied over by the <b>RxRegisterMinirdr</b> routine if the RX_REGISTERMINI_FLAG_DONT_INIT_DRIVER_DISPATCH bit is set in the <i>Controls</i> parameter.
 
 If the <b>RxRegisterMinirdr</b> call is successful, a number of members in RDBSS_DEVICE_OBJECT pointed to by the <i>DeviceObject</i> parameter are initialized including the following: 
+
 <ul>
 <li>
 The <b>Dispatch</b> member is set to the <i>MrdrDispatch</i> parameter.
@@ -241,7 +251,9 @@ The <b>RegisterMailSlotProvider</b> member is set to <b>TRUE</b> if the RX_REGIS
 The <b>NetworkProviderPriority</b> member is set to the network provider priority that MUP will use.
 
 </li>
-</ul>If the <b>RxRegisterMinirdr</b> call is successful and the RX_REGISTERMINI_FLAG_DONT_INIT_PREFIX_N_SCAVENGER bit in the <i>Controls</i> parameter is not set, a number of other members in RDBSS_DEVICE_OBJECT pointed to by the <i>DeviceObject</i> parameter are initialized, including the following: 
+</ul>
+If the <b>RxRegisterMinirdr</b> call is successful and the RX_REGISTERMINI_FLAG_DONT_INIT_PREFIX_N_SCAVENGER bit in the <i>Controls</i> parameter is not set, a number of other members in RDBSS_DEVICE_OBJECT pointed to by the <i>DeviceObject</i> parameter are initialized, including the following: 
+
 <ul>
 <li>
 The <b>pRxNetNameTable</b> member structure is initialized.
@@ -255,17 +267,21 @@ The <b>RxNetNameTableInDeviceObject.IsNetNameTable</b> member is set to <b>TRUE<
 The <b>pRdbssScavenger</b> member structure is initialized.
 
 </li>
-</ul>If the <b>RxRegisterMinirdr</b> call is successful, RDBSS sets the internal state of the network mini-redirector in RDBSS to RDBSS_STARTABLE.
+</ul>
+If the <b>RxRegisterMinirdr</b> call is successful, RDBSS sets the internal state of the network mini-redirector in RDBSS to RDBSS_STARTABLE.
 
 The network mini-redirector does not actually start operation until it receives a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callbacks for operations, unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
+
 <ul>
 <li>
 IRP requests for device create operations and device operations where the <i>FileObject-&gt;FileName.Length</i> parameter on the IRPSP is zero and the <i>FileObject-&gt;RelatedFileObject</i> parameter is <b>NULL</b>.
 
 </li>
-</ul>For any other IRP request, the RDBSS dispatch routine, <a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>, will return a status of STATUS_REDIRECTOR_NOT_STARTED. 
+</ul>
+For any other IRP request, the RDBSS dispatch routine, <a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>, will return a status of STATUS_REDIRECTOR_NOT_STARTED. 
 
 The RDBSS dispatch routine will also fail any requests for the following I/O request packets:
+
 <ul>
 <li>
 IRP_MJ_CREATE_MAILSLOT
@@ -275,35 +291,57 @@ IRP_MJ_CREATE_MAILSLOT
 IRP_MJ_CREATE_NAMED_PIPE
 
 </li>
-</ul>The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the <b>RxStartMiniRdr</b> routine is called. The RDBSS <b>RxStartMinirdr</b> is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to <b>RxStartMinirdr </b>cannot be made from the <b>DriverEntry</b> routine of the network mini-redirector after a successful call to <b>RxRegisterMinirdr </b>because some of the start processing requires that the driver initialization be completed. Once the <b>RxStartMinirdr</b> call is received, RDBSS completes the start process by calling the <b>MrxStart</b> routine of the network mini-redirector. If the call to <b>MrxStart</b> returns success, RDBSS sets the internal state of the mini-redirector in RDBSS to RDBSS_STARTED. 
+</ul>
+The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the <b>RxStartMiniRdr</b> routine is called. The RDBSS <b>RxStartMinirdr</b> is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to <b>RxStartMinirdr </b>cannot be made from the <b>DriverEntry</b> routine of the network mini-redirector after a successful call to <b>RxRegisterMinirdr </b>because some of the start processing requires that the driver initialization be completed. Once the <b>RxStartMinirdr</b> call is received, RDBSS completes the start process by calling the <b>MrxStart</b> routine of the network mini-redirector. If the call to <b>MrxStart</b> returns success, RDBSS sets the internal state of the mini-redirector in RDBSS to RDBSS_STARTED. 
+
 
 
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
-
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
-
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
-
 <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
 
+
+
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
+
+
+
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+
+
 
 <a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
+
+
 <a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
- 
+
+
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxRegisterMinirdr function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxRegisterMinirdr function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

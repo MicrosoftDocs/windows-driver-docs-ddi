@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3668aa5a-1cb4-4ee1-91bd-bf2f3fa30622
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioresourcerequirementslistremove, WdfIoResourceRequirementsListRemove method, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVE, kmdf.wdfioresourcerequirementslistremove, DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml, wdfresource/WdfIoResourceRequirementsListRemove, WdfIoResourceRequirementsListRemove
+ms.keywords: WdfIoResourceRequirementsListRemove method, WdfIoResourceRequirementsListRemove, kmdf.wdfioresourcerequirementslistremove, DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml, wdfresource/WdfIoResourceRequirementsListRemove, PFN_WDFIORESOURCEREQUIREMENTSLISTREMOVE, wdf.wdfioresourcerequirementslistremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,16 @@ A zero-based value that is used as an index into the resource requirements list 
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfIoResourceRequirementsListRemove</b> method removes the logical configuration that is associated with the index value that the <i>Index</i> parameter specifies.
@@ -101,10 +104,40 @@ When <b>WdfIoResourceRequirementsListRemove</b> removes the logical configuratio
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example removes the second logical configuration from a resource requirements list.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+Example_EvtDeviceFilterRemoveResourceRequirements(
+    IN WDFDEVICE Device,
+    IN WDFIORESREQLIST RequirementsList
+    )
+{
+...
+    WdfIoResourceRequirementsListRemove(
+                                        RequirementsList,
+                                        1
+                                        );
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist.md">WdfIoResourceRequirementsListRemoveByIoResList</a>
+
+
 
  
 

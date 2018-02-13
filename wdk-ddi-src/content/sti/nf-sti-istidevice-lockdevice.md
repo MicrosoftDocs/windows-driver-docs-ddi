@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml, sti/IStiDevice::LockDevice, IStiDevice interface [Imaging Devices], LockDevice method, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices], IStiDevice interface, image.istidevice_lockdevice, IStiDevice::LockDevice, IStiDevice, LockDevice
+ms.keywords: stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml, sti/IStiDevice::LockDevice, IStiDevice, LockDevice method [Imaging Devices], IStiDevice interface, IStiDevice::LockDevice, LockDevice, LockDevice method [Imaging Devices], image.istidevice_lockdevice, IStiDevice interface [Imaging Devices], LockDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ Caller-supplied time-out value, in milliseconds. If the lock is not obtained in 
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 Clients of the <b>IStiDevice</b> COM interface must call <b>IStiDevice::LockDevice</b> before calling the following methods:
@@ -122,5 +125,6 @@ If the <b>IStiDevice::LockDevice</b> method is able to obtain an <b>IStiDevice</
 Each call to <b>IStiDevice::LockDevice</b> must be paired with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>.
 
 Before calling <b>IStiDevice::LockDevice</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+
 
 

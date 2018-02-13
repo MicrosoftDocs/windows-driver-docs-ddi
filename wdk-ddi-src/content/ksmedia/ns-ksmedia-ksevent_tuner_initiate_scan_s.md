@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e690c596-d339-4489-97f3-02cacfdc5b04
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_TUNER_INITIATE_SCAN_S structure [Streaming Media Devices], ksmedia/PKSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S, stream.ksevent_tuner_initiate_scan_s, KSEVENT_TUNER_INITIATE_SCAN_S, ksmedia/KSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S structure pointer [Streaming Media Devices], vidcapstruct_569c5d77-3ec5-48ed-bf87-0c41297d8f9b.xml, *PKSEVENT_TUNER_INITIATE_SCAN_S
+ms.keywords: PKSEVENT_TUNER_INITIATE_SCAN_S structure pointer [Streaming Media Devices], ksmedia/PKSEVENT_TUNER_INITIATE_SCAN_S, stream.ksevent_tuner_initiate_scan_s, vidcapstruct_569c5d77-3ec5-48ed-bf87-0c41297d8f9b.xml, ksmedia/KSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S structure [Streaming Media Devices], KSEVENT_TUNER_INITIATE_SCAN_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSEVENT_TUNER_INITIATE_SCAN_S
 product: Windows
 targetos: Windows
-req.typenames: KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S
+req.typenames: "*PKSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S"
 ---
 
 # KSEVENT_TUNER_INITIATE_SCAN_S structure
@@ -88,7 +88,11 @@ The final frequency, in Hz, for a scan operation.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559566">EVENTSETID_TUNER</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
+
+
 
  
 

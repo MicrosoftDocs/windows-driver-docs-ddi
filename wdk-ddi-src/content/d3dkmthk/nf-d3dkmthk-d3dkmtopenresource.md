@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenResource function [Display Devices], display.d3dkmtopenresource, OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, d3dkmthk/D3DKMTOpenResource, D3DKMTOpenResource
+ms.keywords: display.d3dkmtopenresource, D3DKMTOpenResource function [Display Devices], d3dkmthk/D3DKMTOpenResource, OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, D3DKMTOpenResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTOpenResource(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_
 ## -returns
 
 
+
 <b>D3DKMTOpenResource</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,9 +121,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a> values.
+
 
 
 
@@ -128,7 +133,11 @@ This function might also return other <a href="https://msdn.microsoft.com/librar
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
+
+
 
  
 

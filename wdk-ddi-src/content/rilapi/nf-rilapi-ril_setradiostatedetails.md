@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5936bbbe-452c-4d68-ad22-e65671351f78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], RIL_SetRadioStateDetails, rilapi/RIL_SetRadioStateDetails, netvista.ril_setradiostatedetails
+ms.keywords: rilapi/RIL_SetRadioStateDetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], RIL_SetRadioStateDetails, netvista.ril_setradiostatedetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_SetRadioStateDetails(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param pItems
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

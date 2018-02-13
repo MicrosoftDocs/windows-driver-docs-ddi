@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b3c5a9d-32a9-4c2a-9f99-694b652c5653
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentTimeDate method [Windows Debugging], dbgeng/IDebugControl3::GetCurrentTimeDate, GetCurrentTimeDate method [Windows Debugging], IDebugControl3 interface, IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, GetCurrentTimeDate method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetCurrentTimeDate, IDebugControl3 interface [Windows Debugging], GetCurrentTimeDate method, dbgeng/IDebugControl2::GetCurrentTimeDate, IDebugControl3::GetCurrentTimeDate, IDebugControl2 interface [Windows Debugging], GetCurrentTimeDate method, debugger.getcurrenttimedate, GetCurrentTimeDate, IDebugControl3
+ms.keywords: IDebugControl3::GetCurrentTimeDate, IDebugControl2, GetCurrentTimeDate method [Windows Debugging], GetCurrentTimeDate method [Windows Debugging], IDebugControl3 interface, debugger.getcurrenttimedate, GetCurrentTimeDate method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetCurrentTimeDate, GetCurrentTimeDate, IDebugControl3, dbgeng/IDebugControl3::GetCurrentTimeDate, IDebugControl2 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl3 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, IDebugControl2::GetCurrentTimeDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Receives the time and date.  This is the number of seconds since the beginning o
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,11 +95,14 @@ The value of the variable <i>TimeDate</i> is either the desired information or i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For live debugging sessions, this will be the current time as reported by the target's computer.  For static debugging sessions, such as crash dump files, this will be the time the crash dump file was created.
@@ -106,13 +111,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545883">GetCurrentSystemUpTime</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545883">GetCurrentSystemUpTime</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72c22f76-c867-4924-b066-2ae4b25bfc43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_DXVERSION structure [Display Devices], d3dhal/DD_DXVERSION, d3dstrct_8955afcc-5fa5-493b-b291-69cd3b61ed8b.xml, DD_DXVERSION, display.dd_dxversion, _DD_DXVERSION
+ms.keywords: display.dd_dxversion, DD_DXVERSION, d3dhal/DD_DXVERSION, _DD_DXVERSION, d3dstrct_8955afcc-5fa5-493b-b291-69cd3b61ed8b.xml, DD_DXVERSION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,7 @@ Reserved. Driver should not read or write.
 ## -remarks
 
 
+
 This information is provided to a new driver (one that exposes <b>GetDriverInfo2</b>) for DX7 and DX8 applications.
 
 The runtime provides a pointer to a DD_DXVERSION structure in the <b>lpvData</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> data structure.
@@ -99,11 +100,16 @@ The <b>gdi2</b> member of DD_DXVERSION is used by the runtime with type D3DGDI2_
 
 
 
+
 ## -see-also
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
 
  
 

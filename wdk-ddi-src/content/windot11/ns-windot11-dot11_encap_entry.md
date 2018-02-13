@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], *PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], PDOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY, Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, netvista.dot11_encap_entry
+ms.keywords: "*PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, windot11/DOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, netvista.dot11_encap_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ENCAP_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY"
+req.typenames: DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -92,9 +92,11 @@ The type of encapsulation that is performed on the EtherType specified by the
 
 
 
+
 #### DOT11_ENCAP_RFC_1042
 
 The encapsulation that is defined through IETF RFC 1042.
+
 
 
 #### DOT11_ENCAP_802_IH
@@ -105,14 +107,19 @@ The encapsulation that is defined through the IEEE 802.1h-1997 standard.
 ## -remarks
 
 
+
 The miniport driver returns an encapsulation list when it makes an 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
     NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication. The encapsulation list specified in the
     indication applies to the association with an access point (AP) in an infrastructure basic service set
     (BSS) network.
+
 <div class="alert"><b>Note</b>  The miniport driver cannot return an encapsulation list when associating with peer
-    stations within an independent BSS network.</div><div> </div>For more information about 802.11 packet payload encapsulation, see 
+    stations within an independent BSS network.</div>
+<div> </div>
+For more information about 802.11 packet payload encapsulation, see 
     <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 Payload Encapsulation</a>.
+
 
 
 
@@ -121,8 +128,12 @@ The miniport driver returns an encapsulation list when it makes an
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
 
+
+
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
+
+
 
  
 

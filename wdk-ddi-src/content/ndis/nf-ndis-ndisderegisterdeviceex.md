@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bca1ef90-b574-4ed5-a9ec-c553372490b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], NdisDeregisterDeviceEx, netvista.ndisderegisterdeviceex, ndis/NdisDeregisterDeviceEx
+ms.keywords: netvista.ndisderegisterdeviceex, ndis/NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, NdisDeregisterDeviceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisDeregisterDeviceEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisDeregisterDeviceEx function
@@ -80,11 +80,14 @@ The handle returned by
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -95,9 +98,12 @@ The
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+
+
 
  
 

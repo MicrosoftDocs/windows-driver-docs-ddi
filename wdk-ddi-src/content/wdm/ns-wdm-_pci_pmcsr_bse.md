@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f65116f6-0a61-4609-993b-d7b2eabf12b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_PMCSR_BSE, PCI.pci_pmcsr_bse, *PPCI_PMCSR_BSE, wdm/PCI_PMCSR_BSE, PPCI_PMCSR_BSE, PPCI_PMCSR_BSE structure pointer [Buses], wdm/PPCI_PMCSR_BSE, pci_struct_8ff8cc6c-91a4-4396-9d4c-8d99967a9417.xml, PCI_PMCSR_BSE structure [Buses], _PCI_PMCSR_BSE
+ms.keywords: PPCI_PMCSR_BSE structure pointer [Buses], *PPCI_PMCSR_BSE, pci_struct_8ff8cc6c-91a4-4396-9d4c-8d99967a9417.xml, PCI_PMCSR_BSE, wdm/PPCI_PMCSR_BSE, PPCI_PMCSR_BSE, PCI_PMCSR_BSE structure [Buses], _PCI_PMCSR_BSE, wdm/PCI_PMCSR_BSE, PCI.pci_pmcsr_bse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_PMCSR_BSE
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_PMCSR_BSE, PCI_PMCSR_BSE"
+req.typenames: PCI_PMCSR_BSE, *PPCI_PMCSR_BSE
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,8 @@ Indicates, when 1, that the bus's power clock control mechanism is enabled. A va
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537588">PCI_PM_CAPABILITY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8aa7aec3-85d7-40a2-a63d-bee8c5ce1ff9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsDeleteMarshallingArea, kernel.clfsdeletemarshallingarea, Clfs_a015edd3-4625-4b24-995f-75217a711528.xml, ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ClfsDeleteMarshallingArea, Clfs_a015edd3-4625-4b24-995f-75217a711528.xml, kernel.clfsdeletemarshallingarea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], ClfsDeleteMarshallingArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,11 +77,14 @@ A pointer to an opaque context that represents a marshalling area. The caller pr
 ## -returns
 
 
+
 <b>ClfsDeleteMarshallingArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 Before deleting the marshalling area, <b>ClfsDeleteMarshallingArea</b> flushes all of the log I/O blocks associated with the marshalling area.
@@ -92,9 +95,12 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+
+
 
  
 

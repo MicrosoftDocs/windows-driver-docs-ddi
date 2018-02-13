@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDetachDevice, k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, IoDetachDevice routine [Kernel-Mode Driver Architecture], kernel.iodetachdevice, wdm/IoDetachDevice
+ms.keywords: k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice, IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,14 +76,18 @@ Pointer to the lower driver's device object. The caller previously called <a hre
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>IoDetachDevice</b> decrements the reference count of the <i>TargetDevice</i> object. If the reference count goes to zero and the lower driver has been marked for an unload operation, the lower driver is unloaded. 
+
 
 
 
@@ -91,7 +95,11 @@ None
 
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
+
 
  
 

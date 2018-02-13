@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a19eea7f-ceaf-47e0-b2dd-46511fcae66f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_RESETENGINE structure [Display Devices], _DXGKARG_RESETENGINE, *INOUT_PDXGKARG_RESETENGINE, DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine
+ms.keywords: "*INOUT_PDXGKARG_RESETENGINE, display.dxgkarg_resetengine, _DXGKARG_RESETENGINE, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], d3dkmddi/DXGKARG_RESETENGINE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,17 @@ typedef struct _DXGKARG_RESETENGINE {
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2-8BBF-B455BB864A29">TDR changes in Windows 8</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+
+
 
  
 

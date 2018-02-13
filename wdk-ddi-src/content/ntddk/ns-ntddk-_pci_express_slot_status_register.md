@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, PPCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, _PCI_EXPRESS_SLOT_STATUS_REGISTER
+ms.keywords: PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], _PCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -166,15 +166,19 @@ A card is present in the slot.
 ## -remarks
 
 
+
 The PCI_EXPRESS_SLOT_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_SLOT_STATUS_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 658e1597-eacf-4e9e-9f10-37f7646d38ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES, netvista.ndis_device_object_attributes, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES
+ms.keywords: ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, netvista.ndis_device_object_attributes, _NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_DEVICE_OBJECT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,6 +108,7 @@ A pointer to an array of one or more entry points for the device driver's dispat
      driver must set the same number of separate dispatch entry points as the number of IRP_MJ_<i>XXX</i> codes that the driver handles for the device object. Each dispatch routine is declared as
      follows:
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -121,13 +122,11 @@ A pointer to an array of one or more entry points for the device driver's dispat
 );</pre>
 </td>
 </tr>
-</table></span></div>The dispatch routine has the following parameters:
+</table></span></div>
+The dispatch routine has the following parameters:
 
 
 
-A driver must not supply entry points for PnP or Power Management handlers, because the created
-     device object is not for a physical device and therefore does not receive PnP or Power Management
-     IRPs.
 
 
 #### DeviceObject
@@ -135,9 +134,14 @@ A driver must not supply entry points for PnP or Power Management handlers, beca
 The device object for the dispatch routine.
 
 
+
 #### Irp
 
 The IRP for the dispatch routine.
+
+A driver must not supply entry points for PnP or Power Management handlers, because the created
+     device object is not for a physical device and therefore does not receive PnP or Power Management
+     IRPs.
 
 
 ### -field ExtensionSize
@@ -165,6 +169,7 @@ Reserved for NDIS. Set this member to <b>NULL</b>.
 ## -remarks
 
 
+
 An NDIS filter or miniport driver can call the 
     <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> function to
     register a device. To specify the device attributes, the driver allocates and initializes an
@@ -174,13 +179,20 @@ An NDIS filter or miniport driver can call the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_LOAD_MEDIA
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_LOAD_MEDIA IOCTL
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

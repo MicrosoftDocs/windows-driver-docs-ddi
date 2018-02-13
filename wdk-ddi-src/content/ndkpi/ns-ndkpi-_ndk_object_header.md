@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12E3ED4A-F078-4489-BC84-69EE735CAEF8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, ndkpi/NDK_OBJECT_HEADER, NDK_OBJECT_HEADER, netvista.ndk_object_header, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER
+ms.keywords: PNDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, NDK_OBJECT_HEADER, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_OBJECT_HEADER, netvista.ndk_object_header, PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,7 +91,9 @@ A reserved block in an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_bl
 ## -remarks
 
 
+
 When an NDK provider creates an NDK object instance, the <b>Header</b> member must be initialized as follows:
+
 <ul>
 <li>
 For Windows Server 2012, set the <b>Version</b> member to 1.1. To do this, set both the <b>Major</b> and <b>Minor</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a> structure to 1.
@@ -112,41 +114,76 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 </ul>
 
 
+
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
-<a href="..\ndkpi\ne-ndkpi-_ndk_object_type.md">NDK_OBJECT_TYPE</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_invalidate.md">NDK_FN_INVALIDATE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\ne-ndkpi-_ndk_object_type.md">NDK_OBJECT_TYPE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+
+
 
  
 

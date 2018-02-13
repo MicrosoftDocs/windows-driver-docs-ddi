@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
+ms.keywords: TmInitializeTransactionManager, kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,6 +91,7 @@ Specifies a pointer to a GUID that identifies  the name of the transaction manag
 ### -param CreateOptions [in, optional]
 
 Optional object creation flags. The following table contains the available flags.
+
 <table>
 <tr>
 <th>Option flag</th>
@@ -166,12 +167,15 @@ For internal use only.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The <b>TmInitializeTransactionManager</b> routine  returns STATUS_SUCCESS if the operation succeeds.
+
 
 

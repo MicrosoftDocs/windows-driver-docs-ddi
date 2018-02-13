@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_PHY_ID_LIST, windot11/DOT11_PHY_ID_LIST, Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_phy_id_list, PDOT11_PHY_ID_LIST, windot11/PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST"
+ms.keywords: netvista.dot11_phy_id_list, DOT11_PHY_ID_LIST, windot11/PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_PHY_ID_LIST, Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PHY_ID_LIST, PDOT11_PHY_ID_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,8 +82,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -91,15 +89,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_PHY_ID_LIST_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        sizeof(DOT11_PHY_ID_LIST).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uNumOfEntries
@@ -122,8 +125,10 @@ The list of PHY identifiers (IDs).
 ## -remarks
 
 
+
 A PHY ID in the 
     <b>dot11PhyId</b> array must be one of the following:
+
 <ul>
 <li>
 An index into the table of supported PHYs that are defined by the Native 802.11 Operational 
@@ -141,7 +146,8 @@ A PHY ID with the value of DOT11_PHY_ID_ANY. This PHY ID is called a
       <b>dot11PhyId</b> array.
 
 </li>
-</ul>A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either 
+</ul>
+A miniport driver returns the DOT11_PHY_ID_LIST structure when queried by either 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a> or 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>.
 
@@ -153,6 +159,7 @@ When these OIDs are queried, the miniport driver must verify that the
     <b>dot11PhyId</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
+
 <ul>
 <li>
 If the value of the 
@@ -218,13 +225,20 @@ Return NDIS_STATUS_SUCCESS from its
 </ul>
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>
 
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

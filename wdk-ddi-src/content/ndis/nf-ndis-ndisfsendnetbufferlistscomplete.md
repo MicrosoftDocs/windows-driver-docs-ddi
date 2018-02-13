@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfsendnetbufferlistscomplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, ndis/NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete
+ms.keywords: NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfsendnetbufferlistscomplete, ndis/NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFSendNetBufferListsComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFSendNetBufferListsComplete function
@@ -92,10 +92,12 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 
 
 
+
 #### NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
         <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
 
 
 #### NDIS_SEND_COMPLETE_FLAGS_SWITCH_SINGLE_SOURCE
@@ -103,7 +105,11 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
 For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_SEND_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>SendFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a> when it sends the request.</div><div> </div><div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_SEND_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>SendFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a> when it sends the request.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
+<div> </div>
 
 #### - NetBufferLists [in]
 
@@ -116,11 +122,14 @@ A pointer to a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A filter driver calls the 
@@ -138,21 +147,32 @@ The filter driver can complete send requests in any order. For example, the filt
     <i>FilterSendNetBufferLists</i> call. However, the filter driver must not modify the list of 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are associated with a
     <b>NET_BUFFER_LIST</b> structure.
+
 <div class="alert"><b>Note</b>  A filter driver should keep track of send requests that it originates and make
       sure that it does not call the 
       <b>
-      NdisFSendNetBufferListsComplete</b> function when such requests are complete.</div><div> </div>
+      NdisFSendNetBufferListsComplete</b> function when such requests are complete.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
 
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67D61FBA-15E9-4157-9286-72D51DE18275
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlintptrtouchar, RtlIntPtrToUChar, RtlIntPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrToUChar
+ms.keywords: kernel.rtlintptrtouchar, RtlIntPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrToUChar, RtlIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlPtrdiffTToUChar
 </li>
 </ul>
+
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, IDebugControl::ReadBugCheckData, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl3::ReadBugCheckData, IDebugControl2::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata, ReadBugCheckData method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl3, IDebugControl interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml
+ms.keywords: ReadBugCheckData method [Windows Debugging], IDebugControl interface, IDebugControl2, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl, ReadBugCheckData method [Windows Debugging], IDebugControl::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl2::ReadBugCheckData, IDebugControl3::ReadBugCheckData, debugger.readbugcheckdata, dbgeng/IDebugControl::ReadBugCheckData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,6 +101,7 @@ Receives the fourth parameter associated with the bug check.  The interpretation
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,17 +118,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
 
 For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450912">Bug Checks (Blue Screens)</a>.
+
 
 

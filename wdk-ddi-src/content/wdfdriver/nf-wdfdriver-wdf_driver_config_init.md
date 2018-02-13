@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d7520300-9345-4681-a10d-acf34838199a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdriver/WDF_DRIVER_CONFIG_INIT, wdf.wdf_driver_config_init, WDF_DRIVER_CONFIG_INIT, DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, kmdf.wdf_driver_config_init, WDF_DRIVER_CONFIG_INIT function
+ms.keywords: wdfdriver/WDF_DRIVER_CONFIG_INIT, DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, kmdf.wdf_driver_config_init, WDF_DRIVER_CONFIG_INIT function, WDF_DRIVER_CONFIG_INIT, wdf.wdf_driver_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,24 +84,40 @@ A pointer to the driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_devi
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The WDF_DRIVER_CONFIG_INIT function is available in version 1.0 and later versions of KMDF.
+
+
+#### Examples
+
+For a code example that uses WDF_DRIVER_CONFIG_INIT, see <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
+
+
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
 
  
 

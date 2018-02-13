@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4a3611d-5eb6-4fb2-a66a-e563569c4790
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IdleCannotWakeFromS0, wdfdevice/IdleUsbSelectiveSuspend, IdleCanWakeFromS0, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, kmdf.wdf_power_policy_s0_idle_capabilities, IdleCapsInvalid, wudfddi_types/IdleUsbSelectiveSuspend, IdleUsbSelectiveSuspend, wdfdevice/IdleCannotWakeFromS0, wudfddi_types/IdleCannotWakeFromS0, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, wdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleCapsInvalid, wdfdevice/IdleCanWakeFromS0, wudfddi_types/IdleCapsInvalid, wudfddi_types/IdleCanWakeFromS0, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml
+ms.keywords: wdfdevice/IdleCanWakeFromS0, wdfdevice/IdleUsbSelectiveSuspend, IdleCapsInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleCannotWakeFromS0, wudfddi_types/IdleCannotWakeFromS0, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, wudfddi_types/IdleUsbSelectiveSuspend, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdf.wdf_power_policy_s0_idle_capabilities, wudfddi_types/IdleCapsInvalid, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleUsbSelectiveSuspend, kmdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleCapsInvalid, wdfdevice/IdleCannotWakeFromS0, wudfddi_types/IdleCanWakeFromS0, IdleCanWakeFromS0, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,13 +99,77 @@ For Windows XP, the framework supports USB selective suspend only if the device'
 ## -remarks
 
 
+
 The <b>WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
+
+
+#### Examples
+
+The following code examples show how to enable idle support for a USB device. In each case, the STATUS_POWER_STATE_INVALID return value means the bus driver has reported that the device cannot wake itself.
+
+<b>KMDF Example</b>
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&amp;idleSettings,
+                                           IdleUsbSelectSuspend);
+status = WdfDeviceAssignS0IdleSettings(device,
+                                       &amp;idleSettings);
+if (status == STATUS_POWER_STATE_INVALID){
+    //
+    // The device probably does not support wake. 
+    // It might support idle without wake.
+    //
+    idleSettings.IdleCaps = IdleCannotWakeFromS0;
+    status = WdfDeviceAssignS0IdleSettings(device,
+                                           &amp;IdleSettings);
+    if (!NT_SUCCESS(status) {...}
+ }
+else {...}</pre>
+</td>
+</tr>
+</table></span></div>
+<b>UMDF Example</b>
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleUsbSelectSuspend,
+                                        PowerDeviceD3,
+                                        IDLEWAKE_TIMEOUT_MSEC,
+                                        IdleAllowUserControl,
+                                        WdfTrue);
+if (hr == HRESULT_FROM_NT(STATUS_POWER_STATE_INVALID)){
+    //
+    // The device probably does not support wake. 
+    // It might support idle without wake.
+    //
+    hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleCannotWakeFromS0,
+                                         PowerDeviceD3,
+                                         IDLEWAKE_TIMEOUT_MSEC,
+                                         IdleAllowUserControl,
+                                         WdfTrue);
+    if (!SUCCEEDED(hr)) {...}
+}
+else {...}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+
+
 
  
 

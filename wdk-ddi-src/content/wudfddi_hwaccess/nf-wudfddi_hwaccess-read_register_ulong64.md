@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D8AB8735-8909-463E-B10E-1FE5FD557FBB
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_ULONG64, READ_REGISTER_ULONG64 function, wdf.read_register_ulong64, umdf.read_register_ulong64, wudfddi_hwaccess/READ_REGISTER_ULONG64
+ms.keywords: umdf.read_register_ulong64, wdf.read_register_ulong64, wudfddi_hwaccess/READ_REGISTER_ULONG64, READ_REGISTER_ULONG64, READ_REGISTER_ULONG64 function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ A pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>READ_REGISTER_ULONG64</b> returns the ULONG64 value that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

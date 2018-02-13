@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0850ba08-089a-4715-bee4-a44a95e6dee6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetOption, IPrintCoreHelperUni, IPrintCoreHelperUni::GetOption, IPrintCoreHelperUni interface [Print Devices], GetOption method, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml, GetOption method [Print Devices], prcomoem/IPrintCoreHelperUni::GetOption, print.iprintcorehelperuni_getoption, GetOption method [Print Devices], IPrintCoreHelperUni interface
+ms.keywords: IPrintCoreHelperUni interface [Print Devices], GetOption method, GetOption method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::GetOption, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml, IPrintCoreHelperUni::GetOption, print.iprintcorehelperuni_getoption, GetOption, IPrintCoreHelperUni, GetOption method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.GetOption
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ A pointer to a variable that contains the address of an ANSI string. When <code>
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::GetOption</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,11 +157,14 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <code>IPrintCoreHelperUni::GetOption</code> cannot be used for features that allow multiple options to be set simultaneously. 
@@ -170,9 +175,12 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
+
+
 
  
 

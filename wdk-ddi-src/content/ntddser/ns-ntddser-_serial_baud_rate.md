@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1534B7AC-8968-4AE2-A871-D8F4D4E45CA1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddser/PSERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE, SERIAL_BAUD_RATE structure [Serial Ports], PSERIAL_BAUD_RATE, ntddser/SERIAL_BAUD_RATE, _SERIAL_BAUD_RATE, SERIAL_BAUD_RATE, serports.serial_baud_rate, PSERIAL_BAUD_RATE structure pointer [Serial Ports]
+ms.keywords: ntddser/SERIAL_BAUD_RATE, SERIAL_BAUD_RATE, SERIAL_BAUD_RATE structure [Serial Ports], PSERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE, _SERIAL_BAUD_RATE, serports.serial_baud_rate, PSERIAL_BAUD_RATE structure pointer [Serial Ports], ntddser/PSERIAL_BAUD_RATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_BAUD_RATE
 product: Windows
 targetos: Windows
-req.typenames: SERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE
+req.typenames: "*PSERIAL_BAUD_RATE, SERIAL_BAUD_RATE"
 ---
 
 # _SERIAL_BAUD_RATE structure
@@ -75,19 +75,27 @@ The baud rate. This parameter specifies the number of bits per second that a ser
 ## -remarks
 
 
+
 The <a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a> I/O control requests use the <b>SERIAL_BAUD_RATE</b> structure to specify the baud rate of a serial port. The <b>IOCTL_SERIAL_SET_BAUD_RATE</b> request configures a serial port to operate at a specified baud rate. The <b>IOCTL_SERIAL_GET_BAUD_RATE</b> request queries a serial port for the baud rate that it is currently configured to operate at.
 
 For more information about some of the possible baud rates that a serial controller driver might support, see the description of the <b>MaxBaud</b> member in <a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>.
 
 
 
+
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
+
+
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
+
+
+<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+
+
 
  
 

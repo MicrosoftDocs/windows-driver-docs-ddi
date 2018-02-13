@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, wdm/PoCreatePowerRequest, PoCreatePowerRequest, kernel.pocreatepowerrequest
+ms.keywords: kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, PoCreatePowerRequest, wdm/PoCreatePowerRequest, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a <a href="..\wdm\ns-wdm-_counted_reason_context.md">COUNTED_REASON
 ## -returns
 
 
+
 <b>PoCreatePowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,28 +118,38 @@ There is not enough memory available to create a power request object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\ntifs\nf-ntifs-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\ntifs\nf-ntifs-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
+
+This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
 
 A driver can use power requests to override certain aspects of the computer's default power behavior. For example, a driver for a TV receiver device can use power requests to prevent the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> from automatically blanking the display during extended periods of time in which no user interaction occurs.
 
-When the power request object is no longer needed, the caller must delete the object by calling the <a href="..\ntifs\nf-ntifs-podeletepowerrequest.md">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
+When the power request object is no longer needed, the caller must delete the object by calling the <a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
+
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-poclearpowerrequest.md">PoClearPowerRequest</a>
+<a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
 
-<a href="..\ntifs\nf-ntifs-podeletepowerrequest.md">PoDeletePowerRequest</a>
 
-<a href="..\ntifs\nf-ntifs-posetpowerrequest.md">PoSetPowerRequest</a>
+
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+
+
 
  
 

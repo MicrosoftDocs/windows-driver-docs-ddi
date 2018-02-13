@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b41f6539-293f-47ed-b720-5053574a1841
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILPSMEDIACONFIGURATIONSET, *LPRILPSMEDIACONFIGURATIONSET, netvista.rilpsmediaconfigurationset, RILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPSMEDIACONFIGURATIONSET, *LPRILPSMEDIACONFIGURATIONSET, netvista.rilpsmediaconfigurationset, RILPSMEDIACONFIGURATIONSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,15 +73,11 @@ typedef struct _RILPSMEDIACONFIGURATIONSET {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
-
 
 
 ### -field dwNumMediaConfiguration
 
 
-
 ### -field stMediaConfiguration
-
 

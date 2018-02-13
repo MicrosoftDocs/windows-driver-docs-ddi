@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0e7fccd1-1ced-41e7-8e75-8f4fa496ea06
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], PKSPIN_DESCRIPTOR, stream.kspin_descriptor, ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, KSPIN_DESCRIPTOR structure [Streaming Media Devices], ks/PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
+ms.keywords: ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], ks/PKSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR, ks/KSPIN_DESCRIPTOR, stream.kspin_descriptor, KSPIN_DESCRIPTOR structure [Streaming Media Devices], KSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPIN_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR"
+req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
 ---
 
 # KSPIN_DESCRIPTOR structure
@@ -81,21 +81,6 @@ typedef struct {
 ## -struct-fields
 
 
-
-
-### -field ConstrainedDataRangesCount
-
-Specifies the number of entries in the array pointed to by <b>ConstrainedDataRanges</b>.
-
-
-### -field ConstrainedDataRanges
-
-Points to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures. Indicates the set of data ranges the pin type currently supports, based on the driver's internal state.
-
-
-### -field Reserved
-
-Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
 
 
 ### -field InterfacesCount
@@ -148,24 +133,51 @@ Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifi
 Specifies the GUID of the localized Unicode string name for the pin type, stored in the Registry.
 
 
+### -field Reserved
+
+Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
+
+
+### -field ConstrainedDataRangesCount
+
+Specifies the number of entries in the array pointed to by <b>ConstrainedDataRanges</b>.
+
+
+### -field ConstrainedDataRanges
+
+Points to an array of <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structures. Indicates the set of data ranges the pin type currently supports, based on the driver's internal state.
+
+
 ## -remarks
+
 
 
 Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they support.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+
+
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
+
+
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a468205c-288c-49d5-ab14-0ee39dca7b7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_e7a2d82a-2e1c-4362-ae4d-23617911de3b.xml, display.d3dddiarg_destroyoverlay, d3dumddi/D3DDDIARG_DESTROYOVERLAY, _D3DDDIARG_DESTROYOVERLAY
+ms.keywords: UMDisplayDriver_param_Structs_e7a2d82a-2e1c-4362-ae4d-23617911de3b.xml, D3DDDIARG_DESTROYOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY, display.d3dddiarg_destroyoverlay, _D3DDDIARG_DESTROYOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _D3DDDIARG_DESTROYOVERLAY {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlay.md">DestroyOverlay</a>
+
+
 
  
 

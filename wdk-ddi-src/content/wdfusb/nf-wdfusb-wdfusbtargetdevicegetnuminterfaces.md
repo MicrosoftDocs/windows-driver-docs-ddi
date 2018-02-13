@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d81bdeeb-07de-483d-9803-3577f1076e28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceGetNumInterfaces, WdfUsbTargetDeviceGetNumInterfaces method, kmdf.wdfusbtargetdevicegetnuminterfaces, WdfUsbTargetDeviceGetNumInterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml
+ms.keywords: WdfUsbTargetDeviceGetNumInterfaces method, WdfUsbTargetDeviceGetNumInterfaces, PFN_WDFUSBTARGETDEVICEGETNUMINTERFACES, wdfusb/WdfUsbTargetDeviceGetNumInterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, kmdf.wdfusbtargetdevicegetnuminterfaces, DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetDeviceGetNumInterfaces
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -81,22 +81,45 @@ A handle to a USB device object that was obtained from a previous call to <a hre
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceGetNumInterfaces</b> returns the number of USB interfaces that the device supports.
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfUsbTargetDeviceGetNumInterfaces</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example obtains the number of USB device interfaces that a specified USB device supports.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>UCHAR numInterfaces;
+
+numInterfaces = WdfUsbTargetDeviceGetNumInterfaces(UsbDevice);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
  
 

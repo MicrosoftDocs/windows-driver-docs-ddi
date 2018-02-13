@@ -84,7 +84,9 @@ typedef struct IDDCX_CURSOR_CAPS {
 
 
                      Indicates what level of support the driver has for XOR masks in the 32-bit masked color cursor format.
-<div class="alert"><b>Note</b>  The OS first converts any monochrome cursor to a color mask cursor.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The OS first converts any monochrome cursor to a color mask cursor.</div>
+<div> </div>
 
 ### -field AlphaCursorSupport
 

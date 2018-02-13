@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5B6893D4-51ED-483C-87F4-0404C48E100F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports], serports.sercx2systemdmatransmitgetdmaenabler, 2/SerCx2SystemDmaTransmitGetDmaEnabler
+ms.keywords: SerCx2SystemDmaTransmitGetDmaEnabler, 2/SerCx2SystemDmaTransmitGetDmaEnabler, serports.sercx2systemdmatransmitgetdmaenabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/se
 ## -returns
 
 
+
 This method returns a WDFDMAENABLER handle to the framework DMA enabler object that represents the system DMA controller that is used for system-DMA-transmit transactions.
 
 
 
+
 ## -remarks
+
 
 
 If necessary, your serial controller driver can call this method to configure special features in the system DMA controller. The driver can use the DMA enabler returned by this method to specify DMA settings that were not supplied in the <a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a> structure that the driver previously passed as an input parameter to the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method. Or, the driver can use the DMA enabler to change the DMA settings that were previously specified in this structure.
@@ -89,13 +92,20 @@ For more information about DMA enabler objects, see <a href="https://msdn.micros
 
 
 
-## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+## -see-also
 
 <a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a>
 
+
+
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
+
 
  
 

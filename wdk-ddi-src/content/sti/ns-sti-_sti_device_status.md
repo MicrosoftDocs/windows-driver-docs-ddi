@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 40104e1f-b936-430b-9e8c-28738579f4c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: sti/STI_DEVICE_STATUS, sti/PSTI_DEVICE_STATUS, STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], *PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml, _STI_DEVICE_STATUS, PSTI_DEVICE_STATUS, image.sti_device_status
+ms.keywords: sti/PSTI_DEVICE_STATUS, image.sti_device_status, sti/STI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], STI_DEVICE_STATUS, PSTI_DEVICE_STATUS, _STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml, *PSTI_DEVICE_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STI_DEVICE_STATUS
 product: Windows
 targetos: Windows
-req.typenames: STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
+req.typenames: "*PSTI_DEVICE_STATUS, STI_DEVICE_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ Caller-supplied size, in bytes, of the STI_DEVICE_STATUS structure.
 ### -field StatusMask
 
 One or more caller-supplied bit flags, indicating the type of status information being requested. The following flags are defined:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -106,7 +107,8 @@ The driver should fill in the <b>dwOnlineState</b> member.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwOnlineState
@@ -119,34 +121,12 @@ Currently use of STI_ONLINESTATE_OPERATIONAL is required, while use of all other
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### STI_ONLINESTATE_BUSY
 
 The device is busy.
+
+
+
 
 
 #### STI_ONLINESTATE_ERROR
@@ -154,9 +134,15 @@ The device is busy.
 The device has reported an error.
 
 
+
+
+
 #### STI_ONLINESTATE_INITIALIZING
 
 The device is being initialized.
+
+
+
 
 
 #### STI_ONLINESTATE_IO_ACTIVE
@@ -164,9 +150,15 @@ The device is being initialized.
 The device is active but not accepting commands.
 
 
+
+
+
 #### STI_ONLINESTATE_OFFLINE
 
 The device is off-line.
+
+
+
 
 
 #### STI_ONLINESTATE_OPERATIONAL
@@ -174,9 +166,15 @@ The device is off-line.
 The device is online and ready. If set, Control Panel indicates the device is ready. Otherwise, it indicates the device is off-line.
 
 
+
+
+
 #### STI_ONLINESTATE_PAPER_JAM
 
 The device has reported a paper jam.
+
+
+
 
 
 #### STI_ONLINESTATE_PAPER_PROBLEM
@@ -184,9 +182,15 @@ The device has reported a paper jam.
 The device has reported an unspecified paper problem.
 
 
+
+
+
 #### STI_ONLINESTATE_PAUSED
 
 The device is paused.
+
+
+
 
 
 #### STI_ONLINESTATE_PENDING
@@ -194,9 +198,15 @@ The device is paused.
 I/O operations are pending.
 
 
+
+
+
 #### STI_ONLINESTATE_POWER_SAVE
 
 The device is in power save mode.
+
+
+
 
 
 #### STI_ONLINESTATE_TRANSFERRING
@@ -204,9 +214,15 @@ The device is in power save mode.
 The device is transferring data.
 
 
+
+
+
 #### STI_ONLINESTATE_USER_INTERVENTION
 
 The device requires user intervention.
+
+
+
 
 
 #### STI_ONLINESTATE_WARMING_UP
@@ -227,17 +243,20 @@ Contains bit flags indicating event status. The following flags are defined in <
 
 
 
-
-
-
 #### STI_EVENTHANDLING_ENABLED
 
 <i>Not used</i>.
 
 
+
+
+
 #### STI_EVENTHANDLING_PENDING
 
 A device event has occurred.
+
+
+
 
 
 #### STI_EVENTHANDLING_POLLING

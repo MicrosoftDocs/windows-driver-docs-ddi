@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlsetecplistintoirp.htm
 old-project: ifsk
 ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlsetecplistintoirp, ntifs/FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp, fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtlsetecplistintoirp, fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, FsRtlSetEcpListIntoIrp, ntifs/FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,9 @@ Pointer to an ECP list that contains one or more ECP context structures. These s
 ## -returns
 
 
+
 <b>FsRtlSetEcpListIntoIrp</b> returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,11 +122,14 @@ An ECP list has already been attached to the given IRP.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>FsRtlSetEcpListIntoIrp</b> routine provides a mechanism for passing extra create parameters down the file system filter stack to underlying filter drivers.
@@ -133,15 +138,20 @@ To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation,
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-fsrtlgetecplistfromirp.md">FsRtlGetEcpListFromIrp</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlSetEcpListIntoIrp routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlSetEcpListIntoIrp routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

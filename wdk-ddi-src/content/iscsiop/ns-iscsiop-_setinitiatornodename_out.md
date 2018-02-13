@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3417648-f9f9-402f-b3a3-d09c0b7e5fdd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices], iscsiop/SetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], *PSetInitiatorNodeName_OUT, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, storage.setinitiatornodename_out, _SetInitiatorNodeName_OUT, iscsiop/PSetInitiatorNodeName_OUT
+ms.keywords: iscsiop/SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], storage.setinitiatornodename_out, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, PSetInitiatorNodeName_OUT, iscsiop/PSetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices], _SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetInitiatorNodeName_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT"
+req.typenames: SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
 ---
 
 # _SetInitiatorNodeName_OUT structure
@@ -75,17 +75,25 @@ On output, the status of the <b>SetInitiatorNodeName</b> operation. For a list o
 ## -remarks
 
 
+
 It is optional that you implement this class.
+
 
 
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64, StorPortWriteRegisterBufferUlong64, storport/StorPortWriteRegisterBufferUlong64
+ms.keywords: storport/StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -93,6 +93,8 @@ TBD
 
 
 
+
+
 #### - Register [in]
 
 Pointer to the register where the data is written to. The register must be a mapped range in memory space
@@ -111,13 +113,17 @@ Specifies the number of data values to write. Each data item has a size of <b>si
 ## -remarks
 
 
+
 The <b>StorPortWriteRegisterBufferUlong64</b> routine is only available on the 64-bit version of Windows.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportreadregisterbufferulong64.md">StorPortReadRegisterBufferUlong64</a>
+
+
 
  
 

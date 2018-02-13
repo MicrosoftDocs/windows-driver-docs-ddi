@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a98dee8a-1911-40e0-b1fd-c7a1ee40a8d7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], GetSystemVersionStringWide method, IDebugControl4, GetSystemVersionStringWide method [Windows Debugging], IDebugControl4 interface, debugger.getsystemversionstringwide, GetSystemVersionStringWide method [Windows Debugging], dbgeng/IDebugControl4::GetSystemVersionStringWide, IDebugControl4::GetSystemVersionStringWide, GetSystemVersionStringWide
+ms.keywords: GetSystemVersionStringWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetSystemVersionStringWide, IDebugControl4::GetSystemVersionStringWide, IDebugControl4 interface [Windows Debugging], GetSystemVersionStringWide method, debugger.getsystemversionstringwide, IDebugControl4, GetSystemVersionStringWide method [Windows Debugging], GetSystemVersionStringWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,6 +73,7 @@ HRESULT GetSystemVersionStringWide(
 ### -param Which [in]
 
 Specifies which version string to return.  The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -98,7 +99,8 @@ Returns a description of the target's operating system build version.  For examp
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [out, optional]
@@ -119,7 +121,9 @@ Receives the size, in characters, of the string that identifies the build.  If <
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,14 +151,18 @@ The method was successful. However, the buffer was too small, so the string was 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
@@ -162,9 +170,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+
+
 
  
 

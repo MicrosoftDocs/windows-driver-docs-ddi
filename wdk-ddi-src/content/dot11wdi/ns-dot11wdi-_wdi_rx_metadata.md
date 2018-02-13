@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da1ac5d6-fb17-4034-8448-d582bafda870
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WDI_RX_METADATA, WDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], dot11wdi/PWDI_RX_METADATA, WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], netvista.wifi_rx_metadata, dot11wdi/WDI_RX_METADATA, *PWDI_RX_METADATA, PWDI_RX_METADATA, netvista.wdi_rx_metadata"
+ms.keywords: dot11wdi/PWDI_RX_METADATA, WDI_RX_METADATA, WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], PWDI_RX_METADATA, *PWDI_RX_METADATA, _WDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_rx_metadata, dot11wdi/WDI_RX_METADATA, netvista.wdi_rx_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_RX_METADATA
 product: Windows
 targetos: Windows
-req.typenames: WDI_RX_METADATA, *PWDI_RX_METADATA
+req.typenames: "*PWDI_RX_METADATA, WDI_RX_METADATA"
 ---
 
 # _WDI_RX_METADATA structure
@@ -79,7 +79,11 @@ The payload type, specified for each MPDU.
 
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

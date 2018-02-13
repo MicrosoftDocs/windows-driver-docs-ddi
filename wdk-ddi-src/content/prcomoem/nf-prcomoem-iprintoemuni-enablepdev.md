@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: EnablePDEV method [Print Devices], IPrintOemUni, EnablePDEV, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, EnablePDEV method [Print Devices], IPrintOemUni interface, print.iprintoemuni_enablepdev, IPrintOemUni interface [Print Devices], EnablePDEV method, prcomoem/IPrintOemUni::EnablePDEV, IPrintOemUni::EnablePDEV
+ms.keywords: IPrintOemUni, IPrintOemUni::EnablePDEV, EnablePDEV, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, EnablePDEV method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::EnablePDEV, IPrintOemUni interface [Print Devices], EnablePDEV method, print.iprintoemuni_enablepdev, EnablePDEV method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.EnablePDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -130,7 +130,9 @@ Receives a method-supplied pointer to a private PDEV structure. (For more inform
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -158,13 +160,16 @@ The operation failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the operation fails, the method should call <b>SetLastError</b> to set an error code.
 
 
 
+
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::EnablePDEV</code> method.
@@ -180,5 +185,6 @@ The <b>pdevOEM</b> member of the DEVOBJ structure is not used with the <code>IPr
 The structures pointed to by the <i>phsurfPatterns</i>, <i>pGdiInfo</i>, and <i>pDevInfo</i> parameter values are the same ones that Unidrv's <b>DrvEnablePDEV</b> function receives. The rendering plug-in can modify the structure contents as necessary. It can supply surface fill patterns by obtaining HSURF-typed surface handles and placing them in the buffer pointed to by <i>phsurfPatterns</i>. Fill pattern types and handle order are listed in the description of <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556206">DRVENABLEDATA</a> structure pointed to by <i>pded</i> contains the addresses of graphics DDI functions provided Unidrv's printer graphics DLL. You are allowed to provide customized hooking functions in your plug-in for these graphics DDI functions. The DRVENABLEDATA structure's contents enable your customized hooking functions to call back to the driver's graphics DDI functions. For more information, see <a href="https://msdn.microsoft.com/33d7d567-5371-4873-a4ef-cd2b06f65d73">Customized Graphics DDI Functions</a>.
+
 
 

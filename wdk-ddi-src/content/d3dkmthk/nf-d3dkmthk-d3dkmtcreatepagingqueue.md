@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue, D3DKMTCreatePagingQueue function [Display Devices]
+ms.keywords: D3DKMTCreatePagingQueue function [Display Devices], display.d3dkmtcreatepagingqueue, d3dkmthk/D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTCreatePagingQueue(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createpagingqueue.md">D3DKMT_CREATEPAGINGQUEUE</a> structure that describes the operation.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createpagingqueue.md">D3
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,15 +111,19 @@ The operation was performed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createpagingqueue.md">D3DKMT_CREATEPAGINGQUEUE</a>
+
+
 
  
 

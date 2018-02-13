@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: A287CBC7-BB22-487E-8E06-47702DF29DCE
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], nfpdrivers._secure_element_hce_data_packet, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers], *PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, _SECURE_ELEMENT_HCE_DATA_PACKET
+ms.keywords: PSECURE_ELEMENT_HCE_DATA_PACKET, *PSECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, _SECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SECURE_ELEMENT_HCE_DATA_PACKET
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET"
+req.typenames: SECURE_ELEMENT_HCE_DATA_PACKET, *PSECURE_ELEMENT_HCE_DATA_PACKET
 ---
 
 # _SECURE_ELEMENT_HCE_DATA_PACKET structure
@@ -82,6 +82,7 @@ Length of ISO 7816-4 APDU buffer.
 ### -field pbPayload
 
  
+
 
 
 

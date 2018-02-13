@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f00ff32-5ecf-40ca-91bb-aacc542bb7f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10DDI_MIPINFO, UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, D3D10DDI_MIPINFO structure [Display Devices], D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo
+ms.keywords: display.d3d10ddi_mipinfo, D3D10DDI_MIPINFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, D3D10DDI_MIPINFO, d3d10umddi/D3D10DDI_MIPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,8 @@ typedef struct D3D10DDI_MIPINFO {
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
+
 
  
 

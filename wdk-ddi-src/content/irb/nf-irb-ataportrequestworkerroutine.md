@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d9a6886-aeec-4d61-8c9d-056d1409b905
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, storage.ataportrequestworkerroutine, AtaPortRequestWorkerRoutine, irb/AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices]
+ms.keywords: irb/AtaPortRequestWorkerRoutine, storage.ataportrequestworkerroutine, AtaPortRequestWorkerRoutine routine [Storage Devices], atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, AtaPortRequestWorkerRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - WorkerRoutine [in]
 
 A pointer of type IDE_HW_DPC to the worker routine to call. 
@@ -87,11 +88,14 @@ A pointer of type IDE_HW_DPC to the worker routine to call.
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver can request a worker routine to perform tasks that cannot be done in the interrupt service routine. Transferring operations to a worker routine is an effective way to keep the interrupt service routine as small as possible.
@@ -101,6 +105,7 @@ The worker routine is not synchronized with the interrupt.
 When the port driver calls the worker routine, the port driver will pass the pointer to the channel extension that is stored in <i>ChannelExtension</i>.
 
 The <i>WorkerRoutine</i> function pointer is declared in <i>Irb.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -115,4 +120,5 @@ VOID
 </td>
 </tr>
 </table></span></div>
+
 

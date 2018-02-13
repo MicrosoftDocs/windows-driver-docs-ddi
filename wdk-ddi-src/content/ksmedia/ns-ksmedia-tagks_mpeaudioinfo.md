@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO, tagKS_MPEAUDIOINFO, PKS_MPEGAUDIOINFO, ksmedia/KS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices]"
+ms.keywords: KS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], *PKS_MPEGAUDIOINFO, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, ksmedia/KS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], PKS_MPEGAUDIOINFO, tagKS_MPEAUDIOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_MPEGAUDIOINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
+req.typenames: "*PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO"
 ---
 
 # tagKS_MPEAUDIOINFO structure
@@ -73,6 +73,7 @@ typedef struct tagKS_MPEAUDIOINFO {
 ### -field dwFlags
 
 Specifies the time base for audio timestamps. Reject the connection if undefined bits are not 0. The following flag is defined.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -88,7 +89,8 @@ Specifies that PTS and DTS timestamps advance at 27 MHz rather than 90 kHz.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwReserved1

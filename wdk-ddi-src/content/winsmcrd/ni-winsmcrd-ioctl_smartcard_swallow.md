@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SMARTCARD_SWALLOW
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,9 @@ None
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -86,27 +88,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -152,14 +161,17 @@ The reader does not support swallowing.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 The <b>Information</b> member must be set to zero.
 
 The <b>Status</b> member is set to one of the values in the status block table.
+
 
 

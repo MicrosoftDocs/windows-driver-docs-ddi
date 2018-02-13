@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 78a32ba6-5546-486a-aede-9a597b27f9fb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScope method [Windows Debugging], IDebugSymbols interface, debugger.setscope, IDebugSymbols::SetScope, SetScope, IDebugSymbols2 interface [Windows Debugging], SetScope method, SetScope method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::SetScope, SetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, dbgeng/IDebugSymbols2::SetScope, IDebugSymbols_20e96a86-b9c3-481f-9a26-319bac975e15.xml, dbgeng/IDebugSymbols::SetScope, IDebugSymbols2::SetScope, SetScope method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], SetScope method, IDebugSymbols3::SetScope, IDebugSymbols interface [Windows Debugging], SetScope method
+ms.keywords: IDebugSymbols_20e96a86-b9c3-481f-9a26-319bac975e15.xml, IDebugSymbols interface [Windows Debugging], SetScope method, IDebugSymbols2 interface [Windows Debugging], SetScope method, dbgeng/IDebugSymbols::SetScope, IDebugSymbols3 interface [Windows Debugging], SetScope method, IDebugSymbols::SetScope, IDebugSymbols2::SetScope, SetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, SetScope, SetScope method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetScope, IDebugSymbols, IDebugSymbols2, SetScope method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::SetScope, SetScope method [Windows Debugging], IDebugSymbols3::SetScope, debugger.setscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,7 +95,9 @@ Specifies the size of the buffer <i>ScopeContext</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ The scope has changed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If only <i>InstructionOffset</i> is provided, the scope can be used to look up symbol names; however, the values of these symbols will not be available.
@@ -138,19 +143,32 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+
+
 
  
 

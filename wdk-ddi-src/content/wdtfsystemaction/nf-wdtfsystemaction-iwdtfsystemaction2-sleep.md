@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 4DC3E14E-6FC3-49C1-AB22-779D0E8CA68D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFSystemAction2.Sleep, Sleep, Sleep method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2, Microsoft::WDTF::IWDTFSystemAction2::Sleep, IWDTFSystemAction2 interface [Windows Device Testing Framework], Sleep method, IWDTFSystemAction2::Sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep, dtf.iwdtfsystemaction2_sleep, Sleep method [Windows Device Testing Framework]
+ms.keywords: dtf.iwdtfsystemaction2_sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep, IWDTFSystemAction2 interface [Windows Device Testing Framework], Sleep method, Sleep method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2::Sleep, Microsoft::WDTF::IWDTFSystemAction2::Sleep, Sleep, Sleep method [Windows Device Testing Framework], IWDTFSystemAction2, Microsoft.WDTF.IWDTFSystemAction2.Sleep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The sleep state.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

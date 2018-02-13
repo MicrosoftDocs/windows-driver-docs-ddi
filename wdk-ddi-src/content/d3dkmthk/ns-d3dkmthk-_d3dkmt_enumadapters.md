@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_ENUMADAPTERS structure [Display Devices], display.d3dkmt_enumadapters, d3dkmthk/D3DKMT_ENUMADAPTERS, _D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS
+ms.keywords: display.d3dkmt_enumadapters, d3dkmthk/D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices], _D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterinfo.md">D3DKMT_ADAP
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterinfo.md">D3DKMT_ADAPTERINFO</a>
+
+
 
  
 

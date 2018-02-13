@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ATA_PASS_THROUGH
 product: Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
 ---
 
 # IOCTL_ATA_PASS_THROUGH IOCTL
@@ -94,6 +94,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> should contain an <a hre
 
 <b>
        Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. If the embedded ATA command is a write operation, the size of the input buffer should be the sum of <b>sizeof</b>(<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>) and the value in the <b>DataTransferLength</b> member of <b>ATA_PASS_THROUGH_EX</b>. The following pseudocode example shows how to calculate the buffer size:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -106,7 +107,8 @@ hdr.DataTransferLength = size in bytes of the data transfer
 buffsize = sizeof (ATA_PASS_THROUGH_EX) + hdr.DataTransferLength</pre>
 </td>
 </tr>
-</table></span></div>If the embedded ATA command is a read operation or a device control operation that does not involve data transfer, <b>InputBufferLength</b> should be equal to <b>sizeof</b> (ATA_PASS_THROUGH_EX). 
+</table></span></div>
+If the embedded ATA command is a read operation or a device control operation that does not involve data transfer, <b>InputBufferLength</b> should be equal to <b>sizeof</b> (ATA_PASS_THROUGH_EX). 
 
 In either case, if <b>InputBufferLength</b> is less than <b>sizeof</b> (ATA_PASS_THROUGH_EX), the port driver fails the I/O request and returns an error.
 
@@ -126,14 +128,18 @@ The port driver updates the <b>DataTransferLength</b> member of <a href="..\ntdd
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -144,9 +150,13 @@ The <b>Information</b> member is set to the number of bytes returned in the outp
 
 ## -see-also
 
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
+
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
 
  
 

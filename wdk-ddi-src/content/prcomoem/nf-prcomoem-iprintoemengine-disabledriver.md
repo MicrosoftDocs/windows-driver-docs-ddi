@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemEngine::DisableDriver, IPrintOemEngine, IPrintOemEngine::DisableDriver, DisableDriver method [Print Devices], IPrintOemEngine interface, print.iprintoemengine_disabledriver, IPrintOemEngine interface [Print Devices], DisableDriver method, DisableDriver method [Print Devices], DisableDriver
+ms.keywords: IPrintOemEngine, prcomoem/IPrintOemEngine::DisableDriver, IPrintOemEngine interface [Print Devices], DisableDriver method, DisableDriver, print.iprintoemengine_disabledriver, IPrintOemEngine::DisableDriver, DisableDriver method [Print Devices], IPrintOemEngine interface, DisableDriver method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemEngine.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -69,16 +69,21 @@ HRESULT DisableDriver(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\prcomoem\nn-prcomoem-iprintoemengine.md">IPrintOemEngine</a>
+
+
 
  
 

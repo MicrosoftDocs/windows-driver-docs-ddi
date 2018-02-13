@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeRegistryBuffer routine [Storage Devices], StorPortFreeRegistryBuffer, storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml
+ms.keywords: storage.storportfreeregistrybuffer, StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, StorPortFreeRegistryBuffer routine [Storage Devices], storport/StorPortFreeRegistryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,20 +83,26 @@ Pointer to the buffer to be freed.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocated by <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>. Miniport drivers can only have one registry buffer open at a time. After the miniport driver calls the <b>StorPortFreeRegistryBuffer</b> routine, subsequent calls by the miniport driver to <b>StorPortAllocateRegistryBuffer</b> will succeed. 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
+
+
 
  
 

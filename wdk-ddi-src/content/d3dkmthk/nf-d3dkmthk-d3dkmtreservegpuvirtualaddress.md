@@ -76,12 +76,14 @@ NTSTATUS APIENTRY D3DKMTReserveGpuVirtualAddress(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 
 ## -returns
+
 
 
 <table>
@@ -111,8 +113,10 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 

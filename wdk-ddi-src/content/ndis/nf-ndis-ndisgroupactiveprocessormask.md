@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92a50a96-8bfb-4d5d-8f24-dd29794e55b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], NdisGroupActiveProcessorMask, netvista.ndisgroupactiveprocessormask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, ndis/NdisGroupActiveProcessorMask
+ms.keywords: ndis/NdisGroupActiveProcessorMask, netvista.ndisgroupactiveprocessormask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, NdisGroupActiveProcessorMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGroupActiveProcessorMask
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGroupActiveProcessorMask function
@@ -78,6 +78,7 @@ A USHORT value that identifies a processor group in the local computer system.
 ## -returns
 
 
+
 <b>NdisGroupActiveProcessorMask</b> returns the currently active processor mask for the specified group
      as a 
      <b>KAFFINITY</b> bitmap. In an environment that allows for hot-add functionality, this bitmap can change
@@ -85,7 +86,9 @@ A USHORT value that identifies a processor group in the local computer system.
 
 
 
+
 ## -remarks
+
 
 
 An NDIS driver might call the 
@@ -95,15 +98,19 @@ The
     <b>KAFFINITY</b> value that 
     <b>NdisGroupActiveProcessorMask</b> returns can change at runtime on SKUs that support hot-add
     functionality for CPUs.
+
 <div class="alert"><b>Note</b>  NDIS drivers should not use the 
     <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a> function
     to retrieve the number of currently active processors. Also, NDIS 6.20 and later drivers should not use
     the 
     <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
     NdisSystemActiveProcessorCount</a> function because it only returns the processor count and provides
-    the affinity mask as an out parameter, for processor group 0.</div><div> </div>To obtain an active processor count, call the 
+    the affinity mask as an out parameter, for processor group 0.</div>
+<div> </div>
+To obtain an active processor count, call the 
     <a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
     NdisGroupActiveProcessorCount</a> function.
+
 
 
 
@@ -112,10 +119,16 @@ The
 <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
    NdisSystemActiveProcessorCount</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
    NdisGroupActiveProcessorCount</a>
+
+
 
  
 

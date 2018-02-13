@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 35d70d0b-c1b9-433f-941d-6cb61ddf0b62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaRegisterProvider, NetDmaRegisterProvider, netvista.netdmaregisterprovider
+ms.keywords: netdma/NetDmaRegisterProvider, NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netvista.netdmaregisterprovider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaRegisterProvider
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaRegisterProvider function
@@ -98,7 +98,9 @@ A pointer to a
 ## -returns
 
 
+
 <b>NetDmaRegisterProvider</b> can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,11 +139,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 DMA provider drivers call the 
@@ -197,22 +202,35 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
    ProviderSetDmaChannelCpuAffinity</a>
 
+
+
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
-<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+
 
  
 

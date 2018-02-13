@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42d451ab-51dc-4b59-b6e9-42e02ec1b500
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_SetPersistentBinding_OUT, *PSM_SetPersistentBinding_OUT, _SM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT, hbapiwmi/PSM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT structure pointer [Storage Devices], storage.sm_setpersistentbinding_out, structs-Fibre_efdd2145-a966-477a-a896-71adb1c9a1f0.xml, SM_SetPersistentBinding_OUT structure [Storage Devices]
+ms.keywords: storage.sm_setpersistentbinding_out, hbapiwmi/PSM_SetPersistentBinding_OUT, structs-Fibre_efdd2145-a966-477a-a896-71adb1c9a1f0.xml, _SM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT, *PSM_SetPersistentBinding_OUT, PSM_SetPersistentBinding_OUT structure pointer [Storage Devices], SM_SetPersistentBinding_OUT, hbapiwmi/SM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SetPersistentBinding_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetPersistentBinding_OUT, SM_SetPersistentBinding_OUT"
+req.typenames: SM_SetPersistentBinding_OUT, *PSM_SetPersistentBinding_OUT
 ---
 
 # _SM_SetPersistentBinding_OUT structure
@@ -87,6 +87,8 @@ The status of each entry.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM__SetPersistentBinding_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

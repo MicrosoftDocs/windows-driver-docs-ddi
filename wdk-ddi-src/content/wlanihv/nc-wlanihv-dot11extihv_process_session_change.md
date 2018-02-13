@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvProcessSessionChange
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ DWORD APIENTRY Dot11ExtIhvProcessSessionChange(
 
 The type of event. This parameter can have one of the following values.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -175,7 +176,8 @@ A session has changed its remote controlled status. To determine the status, cal
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pSessionNotification [in]
@@ -188,13 +190,16 @@ A pointer to a WTSSESSION_NOTIFICATION structure, which provides information abo
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the function to notify the IHV Extensions DLL whenever a switch in a user
@@ -204,5 +209,6 @@ If the
     <i>uEventType</i> parameter is set to WTS_SESSION_LOGOFF, the IHV Extensions DLL must cancel all pending
     user interface requests internally and must release any allocated resources for the user interface
     requests.
+
 
 

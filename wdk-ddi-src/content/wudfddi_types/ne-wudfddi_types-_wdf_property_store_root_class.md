@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_property_store_root_class, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, _WDF_PROPERTY_STORE_ROOT_CLASS, WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassSoftwareKey, WdfPropertyStoreRootClassLegacyHardwareKey, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, WdfPropertyStoreRootClassHardwareKey, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, wdf.wdf_property_store_root_class, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, WDF_PROPERTY_STORE_ROOT_CLASS
+ms.keywords: wdf.wdf_property_store_root_class, WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassDeviceInterfaceKey, WdfPropertyStoreRootClassLegacyHardwareKey, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, umdf.wdf_property_store_root_class, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, WdfPropertyStoreRootClassSoftwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, _WDF_PROPERTY_STORE_ROOT_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,13 +96,17 @@ The property store represents the <a href="https://docs.microsoft.com/en-us/wind
 ## -remarks
 
 
+
 The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsReplaceSiloContext, PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext
+ms.keywords: PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsReplaceSiloContext, kernel.psreplacesilocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsReplaceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsReplaceSiloContext function
@@ -93,7 +93,9 @@ A pointer to a caller-allocated variable that receives the address of the existi
 ## -returns
 
 
+
 The following NT status codes are returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,13 +134,17 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A successful call to <b>PsReplaceSiloContext</b> increments the reference count on <i>NewSiloContext</i>. If <b>PsReplaceSiloContext</b> fails, the reference count remains unchanged. In either case, the caller of <b>PsReplaceSiloContext</b> must call <a href="..\ntddk\nf-ntddk-psdereferencesilocontext.md">PsDereferenceSiloContext</a> to decrement the <b>PsReplaceSiloContext</b> object. If <b>PsReplaceSiloContext</b> fails and if the <i>OldSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b> then <b>NULL</b> is a referenced pointer. After the routine completes, the caller must call <b>PsDereferenceSiloContext</b> to decrement the object that the <b>NULL</b> parameter points to. 
+
 
 

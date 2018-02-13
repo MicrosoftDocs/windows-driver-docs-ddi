@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame method [Display Devices], IddCxSwapChainFinishedProcessingFrame, display.iddcxswapchainfinishedprocessingframe
+ms.keywords: display.iddcxswapchainfinishedprocessingframe, IddCxSwapChainFinishedProcessingFrame method [Display Devices], iddcx/IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,14 +78,18 @@ The swap-chain object whose current frame is being queried.
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 
 
 ## -remarks
 
 
+
 If the driver copies the buffer to a staging surface so it can lock and copy the pixel data to the CPU, then the driver should call this callback once the copy from surface to staging surface has been submitted. If the driver does not call this callback the desktop will not update. It is invalid to call <a href="..\iddcx\nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md">IddCxSwapChainReleaseAndAcquireBuffer</a> before calling <b>IddCxSwapChainFinishedProcessingFrame</b>
+
 
 

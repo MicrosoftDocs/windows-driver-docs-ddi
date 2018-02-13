@@ -40,7 +40,7 @@ apiname:
 -	pfnDisableDeferredStagingResourceDestruction
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB callback
@@ -77,6 +77,8 @@ void APIENTRY pfnDisableDeferredStagingResourceDestruction(
 
 
 
+
+
 #### - hRuntimeDevice [in]
 
  A handle to a context for the core Microsoft Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
@@ -85,11 +87,14 @@ void APIENTRY pfnDisableDeferredStagingResourceDestruction(
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 By default, the Direct3D runtime defers the destruction of staging resources, until a call to the user-mode display driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceisstagingbusy.md">ResourceIsStagingBusy</a> function indicates that the graphics pipeline no longer uses the resources. The runtime defers the destruction of staging resources because the destruction of a staging resource, while still in use, might cause the processor to block until the resource is no longer used. 
@@ -98,13 +103,20 @@ If the user-mode display driver can ensure that this type of block can be avoide
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceisstagingbusy.md">ResourceIsStagingBusy</a>
+## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceisstagingbusy.md">ResourceIsStagingBusy</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 17ec2944-084b-4c10-b4d2-7d291e6307bb
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeUInt64 function [Bluetooth Devices], sdplib/SdpCreateNodeUInt64, bltooth.sdpcreatenodeuint64, bth_funcs_400a6371-a0cf-4930-800b-adaf373b34e5.xml, SdpCreateNodeUInt64
+ms.keywords: sdplib/SdpCreateNodeUInt64, bltooth.sdpcreatenodeuint64, bth_funcs_400a6371-a0cf-4930-800b-adaf373b34e5.xml, SdpCreateNodeUInt64, SdpCreateNodeUInt64 function [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpCreateNodeUInt64
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: SD_TRANSFER_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -85,12 +85,15 @@ A profile driver defined tag to associate with the node.
 ## -returns
 
 
+
 If successful, this function returns a pointer to the newly allocated SDP_NODE structure. If not
      successful, this function returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 After the 
@@ -119,15 +122,24 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+## -see-also
 
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
+
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2bbf08-ea5c-4dad-8c30-9a655d25222a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, netvista.ndisclnotifycloseaddressfamilycomplete, NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], ndis/NdisClNotifyCloseAddressFamilyComplete
+ms.keywords: condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], NdisClNotifyCloseAddressFamilyComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClNotifyCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisClNotifyCloseAddressFamilyComplete function
@@ -90,9 +90,11 @@ The completion status for close AF notification.
 
 
 
+
 #### NDIS_STATUS_SUCCESS
 
 The client successfully closed its address family.
+
 
 
 #### NDIS_STATUS_XXX
@@ -103,11 +105,14 @@ The client failed the request for some driver-determined reason.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 CoNDIS clients call the 
@@ -124,14 +129,21 @@ After the client calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
    ProtocolCmNotifyCloseAfComplete</a>
+
+
 
  
 

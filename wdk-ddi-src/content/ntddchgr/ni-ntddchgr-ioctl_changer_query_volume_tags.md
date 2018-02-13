@@ -89,14 +89,18 @@ The driver returns the <a href="..\ntddchgr\ns-ntddchgr-_read_element_address_in
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +112,8 @@ The <b>Information</b> field is set to the correct output buffer size, in bytes.
 ## -see-also
 
 <a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
+
+
 
  
 

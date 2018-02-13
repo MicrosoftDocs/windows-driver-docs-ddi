@@ -7,8 +7,8 @@ old-location: ifsk\fltcreatemailslotfile.htm
 old-project: ifsk
 ms.assetid: A727CDC1-A17A-4ABE-92AC-7CAEC11B78D1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fltkernel/FltCreateMailslotFile, FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers], ifsk.fltcreatemailslotfile
+ms.date: 2/7/2018
+ms.keywords: ifsk.fltcreatemailslotfile, FltCreateMailslotFile, fltkernel/FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,6 +102,7 @@ A pointer to a caller-allocated variable that receives the file object pointer i
 ### -param DesiredAccess [in]
 
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects. 
+
 <table>
 <tr>
 <th>DesiredAccess Flags</th>
@@ -207,9 +208,11 @@ The caller can synchronize the completion of an I/O operation by waiting for the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Alternatively, for any file object that does not represent a directory, you can specify one or more of the following generic <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> flags. (The STANDARD_RIGHTS_<i>XXX</i> flags are predefined system values that are used to enforce security on system objects.) You can also combine these generic flags with additional flags from the preceding table. 
+
 <table>
 <tr>
 <th>DesiredAccess to File Values</th>
@@ -235,12 +238,14 @@ STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_APPEND_DATA, and SYNCHRONIZE.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ObjectAttributes [in]
 
 A pointer to an opaque <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that is already initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object are listed in the following table. 
+
 <table>
 <tr>
 <th>Member</th>
@@ -296,7 +301,8 @@ A set of flags that controls the file object attributes. If the caller is runnin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param IoStatusBlock [out]
@@ -311,6 +317,7 @@ FILE_OPENED
 ### -param CreateOptions [in]
 
 The options to be applied when creating or opening the mailslot, as a compatible combination of the following flags. 
+
 <table>
 <tr>
 <th><i>CreateOptions</i> flags</th>
@@ -346,7 +353,8 @@ All operations on the mailslot are performed synchronously. Waits in the system 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param MailslotQuota [in]
@@ -362,6 +370,7 @@ The maximum size, in bytes, of a message to write to the mailslot. A message of 
 ### -param ReadTimeout [in]
 
 The time a read operation waits for a message to be available in the mailslot. The default timeout is expressed in 100-nanosecond increments as a negative integer. For example, 250 milliseconds is specified as –10 * 1000 * 250. Additionally, the following values have special meanings.
+
 <table>
 <tr>
 <th>Value</th>
@@ -389,7 +398,8 @@ Waits forever for a message.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param DriverContext [in, optional]
@@ -400,7 +410,9 @@ Optional pointer to an <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">
 ## -returns
 
 
+
 <b>FltCreateMailslotFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -428,11 +440,14 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>FltCreateMailslotFile</b> function allows minifilter drivers to create or open mailslot instances. This is useful for creating virtual mailslots or for creating a mailslot group that distributes to several other mailslots.
@@ -446,21 +461,32 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 
 
+
 ## -see-also
-
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 <a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
 
- 
+
+
+<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateMailslotFile function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateMailslotFile function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

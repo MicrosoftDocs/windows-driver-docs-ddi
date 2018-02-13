@@ -91,8 +91,10 @@ On input, this parameter is a pointer to a variable that holds the size, in byte
 ## -returns
 
 
+
 The 
      <i>NdkQueryAdapterInfo</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>NdkQueryAdapterInfo</i> retrieves the adapter information in an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure. The structure  contains information on various limits and capabilities of the adapter.
@@ -147,13 +152,20 @@ An error occurred.
 
 
 
-## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
 
  
 

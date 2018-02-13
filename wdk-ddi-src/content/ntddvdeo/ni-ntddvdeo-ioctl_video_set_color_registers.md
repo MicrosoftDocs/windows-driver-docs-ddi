@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains a VIDEO_CLUT structure, specifying an array 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

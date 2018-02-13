@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntriesByNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolentriesbynamewide, IDebugSymbols3, IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method
+ms.keywords: debugger.getsymbolentriesbynamewide, GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method, IDebugSymbols3::GetSymbolEntriesByNameWide, IDebugSymbols3, GetSymbolEntriesByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,9 @@ Receives the number of symbols whose names match the pattern <i>Symbol</i>.  If 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,22 +118,30 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548476">GetSymbolEntriesByOffset</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548476">GetSymbolEntriesByOffset</a>
+
 
  
 

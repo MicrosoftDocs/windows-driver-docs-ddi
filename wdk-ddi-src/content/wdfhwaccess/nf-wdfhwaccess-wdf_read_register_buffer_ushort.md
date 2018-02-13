@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT, wdf.wdf_read_register_buffer_ushort, WDF_READ_REGISTER_BUFFER_USHORT function
+ms.keywords: wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -96,6 +96,8 @@ Specifies the number of USHORT values to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

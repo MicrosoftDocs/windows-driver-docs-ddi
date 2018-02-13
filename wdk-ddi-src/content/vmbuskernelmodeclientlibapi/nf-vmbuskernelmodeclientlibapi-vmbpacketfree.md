@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15688701-2385-4F17-A944-D398EEF3C277
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketFree function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketFree, VmbPacketFree, netvista.vmbpacketfree
+ms.keywords: VmbPacketFree function [Network Drivers Starting with Windows Vista], netvista.vmbpacketfree, VmbPacketFree, vmbuskernelmodeclientlibapi/VmbPacketFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketFree
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -79,13 +79,17 @@ VOID VmbPacketFree(
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
+
+
 
  
 

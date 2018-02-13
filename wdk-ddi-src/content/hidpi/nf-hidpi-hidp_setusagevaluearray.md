@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, HidP_SetUsageValueArray, hidpi/HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices]
+ms.keywords: HidP_SetUsageValueArray, hidpi/HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,7 +124,9 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>, which 
 ## -returns
 
 
+
 <b>HidP_SetUsageValueArray</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -240,11 +242,14 @@ The usage does not exist in any report of the specified report type.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The required size, in bytes, of the <i>UsageValue</i> buffer is determined by multiplying together the <b>BitSize</b> and <b>ReportCount</b> members of the usage value array's <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a> structure, and rounding the result up to the nearest byte.
@@ -257,13 +262,20 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
 
 <a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
 
+
+
 <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 
  
 

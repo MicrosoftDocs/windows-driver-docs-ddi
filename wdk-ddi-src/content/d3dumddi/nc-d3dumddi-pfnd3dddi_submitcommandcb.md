@@ -89,6 +89,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommand.md">D3DDDICB_SUBMITCOMMAND</a> structure that describes the operation to perform.
@@ -97,7 +99,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommand.md">D3DD
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
@@ -105,7 +109,11 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommand.md">D3DDDICB_SUBMITCOMMAND</a>
+
+
 
  
 

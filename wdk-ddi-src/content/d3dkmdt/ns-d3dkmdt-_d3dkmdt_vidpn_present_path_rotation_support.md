@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f60cd2cf-23b6-4fed-8548-d0483fb17fe1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT structure [Display Devices], d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, display.d3dkmdt_vidpn_present_path_rotation_support, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, DmStructs_a078867c-e6a4-4bbf-afb6-244b210a5671.xml"
+ms.keywords: "_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT structure [Display Devices], D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, display.d3dkmdt_vidpn_present_path_rotation_support, DmStructs_a078867c-e6a4-4bbf-afb6-244b210a5671.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,6 +127,10 @@ Supported starting with Windows 8.1 Update.
 ## -remarks
 
 
+
 The <b>RotationSupport</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</b> structure.
-<div class="alert"><b>Note</b>  The operating system  does not update the value of the interface version value <b>DXGKDDI_INTERFACE_VERSION</b> to <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b>. If you want to use the path-independent members in this structure, you should be sure that the interface version in your driver is &gt;= <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b> (0x4003).</div><div> </div>
+
+<div class="alert"><b>Note</b>  The operating system  does not update the value of the interface version value <b>DXGKDDI_INTERFACE_VERSION</b> to <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b>. If you want to use the path-independent members in this structure, you should be sure that the interface version in your driver is &gt;= <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b> (0x4003).</div>
+<div> </div>
+
 

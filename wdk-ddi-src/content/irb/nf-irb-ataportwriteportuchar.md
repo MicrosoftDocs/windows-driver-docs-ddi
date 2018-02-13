@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportwriteportuchar, irb/AtaPortWritePortUchar, AtaPortWritePortUchar, atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, AtaPortWritePortUchar routine [Storage Devices]
+ms.keywords: AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, irb/AtaPortWritePortUchar, AtaPortWritePortUchar, storage.ataportwriteportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,17 +84,25 @@ Specifies the value to write to the HBA's I/O port
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
-
 <a href="..\irb\nf-irb-ataportwriteportushort.md">AtaPortWritePortUshort</a>
 
+
+
+<a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
+
+
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
 
  
 

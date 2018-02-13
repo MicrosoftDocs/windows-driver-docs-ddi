@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61ddfdf9-65cf-482b-80fe-bc5a71f905cd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINITREGISTERPOWERPOLICYSTATECHANGECALLBACK, WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml, WdfDeviceInitRegisterPowerPolicyStateChangeCallback, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback, wdf.wdfdeviceinitregisterpowerpolicystatechangecallback
+ms.keywords: WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback, PFN_WDFDEVICEINITREGISTERPOWERPOLICYSTATECHANGECALLBACK, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdf.wdfdeviceinitregisterpowerpolicystatechangecallback, DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,9 @@ An ORed combination of <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notificatio
 ## -returns
 
 
+
 If <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b> encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,15 +127,39 @@ There is insufficient memory to complete the operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If your driver calls <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 For more information about <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b>, see <a href="https://msdn.microsoft.com/5ef307c6-0310-4a83-a63f-3a6d96782013">State Machines in the Framework</a>.
+
+
+#### Examples
+
+The following code example registers an event callback function that the framework will call when the device's power policy state machine changes state.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfDeviceInitRegisterPowerPolicyStateChangeCallback(
+                                 DeviceInit,
+                                 WdfDevStatePwrPolCheckPowerPageable,
+                                 PciDrvPowerPolicyStateChangeCallback,
+                                 StateNotificationAllStates
+                                 );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

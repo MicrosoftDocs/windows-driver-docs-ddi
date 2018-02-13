@@ -98,14 +98,18 @@ If the size of the passed output buffer is not exactly <code>sizeof(BTH_DEVICE_I
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -119,6 +123,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -154,10 +159,12 @@ The output buffer was not sized correctly.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The IOCTL_BTH_GET_DEVICE_INFO IOCTL provides information about all previously discovered remote
@@ -179,11 +186,16 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 
 
+
 ## -see-also
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
+
+
 <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a>
+
+
 
  
 

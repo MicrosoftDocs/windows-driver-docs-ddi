@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 55a034e7-68fa-4f4a-b7c6-da215405375a
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sffdisk/SFFDISK_DPCMD, SD.sffdisk_dpcmd, SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_SET_PASSWORD, SFFDISK_DP_IS_SUPPORTED, sffdisk/SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_UNLOCK_DEVICE, SFFDISK_DPCMD enumeration [Buses], sffdisk/SFFDISK_DP_LOCK_DEVICE, sd-structs_794e7b1e-49e0-4385-ab34-235f00e1a7b2.xml, sffdisk/SFFDISK_DP_IS_SUPPORTED, SFFDISK_DP_UNLOCK_DEVICE, SFFDISK_DP_SET_PASSWORD, SFFDISK_DP_LOCK_DEVICE, SFFDISK_DPCMD
+ms.keywords: sffdisk/SFFDISK_DPCMD, SFFDISK_DPCMD, SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_LOCK_DEVICE, sd-structs_794e7b1e-49e0-4385-ab34-235f00e1a7b2.xml, SFFDISK_DP_IS_SUPPORTED, SFFDISK_DP_SET_PASSWORD, sffdisk/SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_IS_SUPPORTED, SFFDISK_DP_LOCK_DEVICE, SFFDISK_DP_UNLOCK_DEVICE, SD.sffdisk_dpcmd, sffdisk/SFFDISK_DP_UNLOCK_DEVICE, sffdisk/SFFDISK_DP_SET_PASSWORD, SFFDISK_DPCMD enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,6 +100,8 @@ The operation resets the device.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/7ded516a-0369-4aa9-bb77-c17065b373fb">SFFDISK_DEVICE_PASSWORD_DATA</a>
+
+
 
  
 

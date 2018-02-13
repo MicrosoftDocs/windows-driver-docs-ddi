@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3f79cda-349a-4a42-a2a9-d9be3a695c1c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TmEnableCallbacks, ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, TmEnableCallbacks, kernel.tmenablecallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], TmEnableCallbacks, kernel.tmenablecallbacks, ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,9 @@ A caller-defined context value that uniquely identifies the resource manager. Th
 ## -returns
 
 
+
 <b>TmEnableCallbacks</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,13 +109,16 @@ The <i>CallbackRoutine</i> pointer is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Your resource manager can call <b>TmEnableCallbacks</b> to enable a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Use <b>TmEnableCallbacks</b> to enable asynchronous notifications. Use <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a> to obtain notifications synchronously. 
@@ -126,17 +131,28 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
-
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+
 
  
 

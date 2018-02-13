@@ -7,8 +7,8 @@ old-location: ifsk\fs_information_class.htm
 old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FileFsControlInformation, *PFS_INFORMATION_CLASS, wdm/FileFsControlInformation, FileFsDeviceInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsAttributeInformation, FileFsVolumeFlagsInformation, FileFsLabelInformation, FileFsAttributeInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsSizeInformation, FileFsObjectIdInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], wdm/FileFsVolumeInformation, FileFsDriverPathInformation, FileFsVolumeInformation, FS_INFORMATION_CLASS, wdm/FileFsDeviceInformation, wdm/FileFsLabelInformation, FileFsFullSizeInformation, _FSINFOCLASS, wdm/FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, wdm/FileFsFullSizeInformation, wdm/FileFsDriverPathInformation, ifsk.fs_information_class
+ms.date: 2/7/2018
+ms.keywords: ifsk.fs_information_class, wdm/FileFsObjectIdInformation, wdm/FileFsSizeInformation, wdm/FileFsAttributeInformation, FileFsSizeInformation, wdm/FileFsDriverPathInformation, FileFsLabelInformation, FileFsAttributeInformation, wdm/FS_INFORMATION_CLASS, FileFsObjectIdInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsLabelInformation, wdm/FileFsControlInformation, FileFsVolumeFlagsInformation, _FSINFOCLASS, wdm/FileFsSectorSizeInformation, wdm/FileFsDeviceInformation, wdm/FileFsFullSizeInformation, FileFsFullSizeInformation, *PFS_INFORMATION_CLASS, FileFsSectorSizeInformation, wdm/FileFsVolumeInformation, FileFsControlInformation, FS_INFORMATION_CLASS, FileFsDriverPathInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsDeviceInformation, FileFsVolumeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -138,9 +138,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS
 ### -field FileFsDataCopyInformation
 
 
-
 ### -field FileFsMetadataSizeInformation
-
 
 
 ### -field FileFsMaximumInformation

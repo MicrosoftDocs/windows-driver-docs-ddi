@@ -7,8 +7,8 @@ old-location: buses\tristate.htm
 old-project: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucxroothub/TriStateFalse, TRISTATE enumeration [Buses], ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown, TriStateFalse, ucxroothub/TRISTATE, TRISTATE, TriStateTrue, _TRISTATE, buses.tristate, TriStateUnknown
+ms.date: 2/8/2018
+ms.keywords: "_TRISTATE, TriStateUnknown, ucxroothub/TriStateUnknown, TriStateTrue, buses.tristate, TRISTATE, ucxroothub/TriStateTrue, ucxroothub/TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, ucxroothub/TriStateFalse"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ccd65750-b4d0-4955-9fd4-9546709c2390
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], display.dxgkarg_closeallocation, DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, _DXGKARG_CLOSEALLOCATION, d3dkmddi/DXGKARG_CLOSEALLOCATION
+ms.keywords: DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, d3dkmddi/DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], display.dxgkarg_closeallocation, DXGKARG_CLOSEALLOCATION, _DXGKARG_CLOSEALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _DXGKARG_CLOSEALLOCATION {
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_closeallocation.md">DxgkDdiCloseAllocation</a>
+
+
 
  
 

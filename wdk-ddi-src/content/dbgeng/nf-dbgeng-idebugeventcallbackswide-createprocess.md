@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d5378b35-da27-419f-a161-0c542aa4a9f9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], CreateProcess method, debugger.idebugeventcallbackswide_createprocess, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::CreateProcess, dbgeng/IDebugEventCallbacksWide::CreateProcess, CreateProcess, IDebugEventCallbacksWide, CreateProcess method [Windows Debugging]
+ms.keywords: debugger.idebugeventcallbackswide_createprocess, IDebugEventCallbacksWide::CreateProcess, IDebugEventCallbacksWide interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::CreateProcess, CreateProcess, IDebugEventCallbacksWide, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,15 +135,19 @@ Specifies the starting address of the thread in the process's virtual address sp
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 
 
 ## -remarks
 
 
+
 This method is only called by the engine if the DEBUG_EVENT_CREATE_PROCESS flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

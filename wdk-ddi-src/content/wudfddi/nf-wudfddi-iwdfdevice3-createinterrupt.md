@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EE68BED8-5FDC-4590-8E95-B228F1DFD32D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice3_createinterrupt, CreateInterrupt method, IWDFDevice3 interface, wudfddi/IWDFDevice3::CreateInterrupt, IWDFDevice3 interface, CreateInterrupt method, IWDFDevice3::CreateInterrupt, IWDFDevice3, CreateInterrupt, CreateInterrupt method, wdf.iwdfdevice3_createinterrupt
+ms.keywords: wudfddi/IWDFDevice3::CreateInterrupt, IWDFDevice3 interface, CreateInterrupt method, wdf.iwdfdevice3_createinterrupt, umdf.iwdfdevice3_createinterrupt, CreateInterrupt method, IWDFDevice3, CreateInterrupt, CreateInterrupt method, IWDFDevice3 interface, IWDFDevice3::CreateInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,11 +85,14 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 The method returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 Your driver must call <b>CreateInterrupt</b> one time for each interrupt vector that its device requires. If the device supports message-signaled interrupts (MSI), the driver must create an interrupt object for each message that the device can support. 
@@ -111,14 +114,44 @@ UMDF supports level-triggered interrupts starting in Windows 8. If a driver run
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
+IWDFInterrupt* pInterrupt;
+WUDF_INTERRUPT_CONFIG  interruptConfig;
+
+WUDF_INTERRUPT_CONFIG_INIT(&amp;interruptConfig,
+                           MyInterruptIsr,
+                           MyInterruptWorkItem);
+
+hr = pDevice-&gt;Create(&amp;interruptConfig, 
+                     &amp;pInterrupt);
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
-
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
+
+
 
  
 

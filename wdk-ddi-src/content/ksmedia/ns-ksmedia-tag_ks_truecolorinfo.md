@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_TRUECOLORINFO, ksmedia/KS_TRUECOLORINFO, *PKS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], ksmedia/PKS_TRUECOLORINFO, KS_TRUECOLORINFO, stream.ks_truecolorinfo, tag_KS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, KS_TRUECOLORINFO structure [Streaming Media Devices]
+ms.keywords: PKS_TRUECOLORINFO, stream.ks_truecolorinfo, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], tag_KS_TRUECOLORINFO, KS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml, KS_TRUECOLORINFO structure [Streaming Media Devices], ksmedia/KS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO, *PKS_TRUECOLORINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Array of palette colors.
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
+
+
 
  
 

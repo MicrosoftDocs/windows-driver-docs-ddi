@@ -89,11 +89,14 @@ A handle that represents the device’s registration with the power framework.
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function applies only to single-component devices.
@@ -105,12 +108,54 @@ A driver can provide this callback function if it must perform any additional op
  After the driver has returned from this callback, it is no longer safe to use this POHANDLE.
 
 
+#### Examples
+
+To define an <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+For example, to define an <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function that is named <i>MyDeviceWdmPrePoFxUnregisterDevice</i>, use the <b>EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE</b> type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE  MyDeviceWdmPrePoFxUnregisterDevice;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+VOID
+ MyDeviceWdmPrePoFxUnregisterDevice (
+   WDFDEVICE Device,
+   POHANDLE PoHandle
+   );
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
+The <b>EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE</b> function type is defined in the Wdfdevice.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+
+
+
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
+
+
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
+
 
  
 

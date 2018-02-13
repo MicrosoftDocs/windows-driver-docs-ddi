@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], KeQueryDpcWatchdogInformation, wdm/KeQueryDpcWatchdogInformation, k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation
+ms.keywords: kernel.kequerydpcwatchdoginformation, KeQueryDpcWatchdogInformation, wdm/KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,9 @@ A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_kdpc_watchdog_information
 ## -returns
 
 
+
 <b>KeQueryDpcWatchdogInformation</b> returns an NTSTATUS value. Possible return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The current processor was not running a DPC when <b>KeQueryDpcWatchdogInformatio
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>KeQueryDpcWatchdogInformation</b> routine can be called from a DPC routine or at an IRQL= DISPATCH_LEVEL to determine the amount of time that remains before a DPC time-out occurs. The operating system implements a DPC watchdog timer to detect when a single DPC routine runs for too long, or when a series of queued DPC routines runs back-to-back for too long. If DPC time-out errors are enabled, and if either a DPC routine exceeds the time limit for a single routine, or a series of DPC routines exceeds the aggregate time limit, a <a href="https://msdn.microsoft.com/CE9A4CBF-0016-42F7-A9EE-56DF6E61593A">DPC_WATCHDOG_VIOLATION</a> (0x133) bug check occurs.
@@ -119,9 +124,12 @@ DPC routines should run only for brief periods, and should delegate as much proc
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_kdpc_watchdog_information.md">KDPC_WATCHDOG_INFORMATION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f61fc609-40ca-40eb-a877-88c73cf3506e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_NCLASS_FUNCRESULT, netvista.rilnotificationclasses, rilapitypes/RIL_NCLASS_NOTIFICATIONS, rilapitypes/RILNOTIFICATIONCLASSES, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_FUNCRESULT, RIL_NCLASS_NOTIFICATIONS
+ms.keywords: rilapitypes/RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_NOTIFICATIONS, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RILNOTIFICATIONCLASSES, RIL_NCLASS_NOTIFICATIONS, netvista.rilnotificationclasses, rilapitypes/RIL_NCLASS_FUNCRESULT, RIL_NCLASS_FUNCRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,14 +75,14 @@ enum RILNOTIFICATIONCLASSES {
 ### -field RIL_NCLASS_FUNCRESULT
 
 
-
 ### -field RIL_NCLASS_NOTIFICATIONS
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: whea\soc_subsystem_failure_details.htm
 old-project: whea
 ms.assetid: 416F9A0C-0A86-4FAA-9052-5D37D29C464D
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS, _SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS, whea.soc_subsystem_failure_details, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], *PSOC_SUBSYSTEM_FAILURE_DETAILS
+ms.date: 2/8/2018
+ms.keywords: PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], *PSOC_SUBSYSTEM_FAILURE_DETAILS, whea.soc_subsystem_failure_details, _SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

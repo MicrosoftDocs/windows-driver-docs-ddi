@@ -40,7 +40,7 @@ apiname:
 -	(*PTM_RM_NOTIFICATION)
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -114,6 +114,7 @@ For a list of notifications that include an additional argument buffer, see the 
 ## -returns
 
 
+
 <i>ResourceManagerNotification</i> callback routine must return STATUS_SUCCESS or another status value for which NT_SUCCESS(<b>status</b>) equals <b>TRUE</b> if the operation is successful.
 
 Typically, the resource manager returns STATUS_SUCCESS if it services the notification synchronously and STATUS_PENDING if it services the notification asynchronously, but it can return STATUS_PENDING in either case. However, the resource manager can return STATUS_PENDING only for notifications that it responds to by calling one of the <b>Tm<i>Xxx</i>Complete</b> or <b>Zw<i>Xxx</i>Complete</b> routines.
@@ -124,7 +125,9 @@ If an error occurs, the callback routine must return a status value for which NT
 
 
 
+
 ## -remarks
+
 
 
 To register a <i>ResourceManagerNotification</i> callback routine, your resource manager must call <a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>.
@@ -137,15 +140,24 @@ The <i>ResourceManagerNotification</i> callback routine is called at IRQL = PASS
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4fe8136-8a7c-499a-9f2c-1367138e5f30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_CONNECTION_REDIRECTED_BY_SELF, fwpsk/FWPS_CONNECTION_REDIRECTED_BY_OTHER, fwpsk/FWPS_CONNECTION_REDIRECTED_BY_SELF, fwpsk/FWPS_CONNECTION_REDIRECT_STATE_MAX, fwpsk/FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, FWPS_CONNECTION_REDIRECT_STATE enumeration [Network Drivers Starting with Windows Vista], FWPS_CONNECTION_REDIRECT_STATE, fwpsk/FWPS_CONNECTION_NOT_REDIRECTED, FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, FWPS_CONNECTION_REDIRECT_STATE_, fwpsk/FWPS_CONNECTION_REDIRECT_STATE, netvista.fwps_connection_redirect_state, FWPS_CONNECTION_REDIRECT_STATE_MAX, FWPS_CONNECTION_NOT_REDIRECTED, FWPS_CONNECTION_REDIRECTED_BY_OTHER
+ms.keywords: FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, FWPS_CONNECTION_REDIRECT_STATE_MAX, fwpsk/FWPS_CONNECTION_REDIRECTED_BY_OTHER, FWPS_CONNECTION_REDIRECT_STATE, fwpsk/FWPS_CONNECTION_REDIRECT_STATE, FWPS_CONNECTION_REDIRECT_STATE enumeration [Network Drivers Starting with Windows Vista], FWPS_CONNECTION_NOT_REDIRECTED, netvista.fwps_connection_redirect_state, fwpsk/FWPS_CONNECTION_NOT_REDIRECTED, fwpsk/FWPS_CONNECTION_REDIRECTED_BY_SELF, fwpsk/FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, FWPS_CONNECTION_REDIRECT_STATE_, fwpsk/FWPS_CONNECTION_REDIRECT_STATE_MAX, FWPS_CONNECTION_REDIRECTED_BY_OTHER, FWPS_CONNECTION_REDIRECTED_BY_SELF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,13 +99,17 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The FWPS_CONNECTION_REDIRECT_STATE enumeration is the return type for a call to the <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>  function.
+
 
 
 
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
+
+
 
  
 

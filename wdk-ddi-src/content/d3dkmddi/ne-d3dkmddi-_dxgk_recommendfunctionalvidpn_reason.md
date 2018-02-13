@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 75dda423-8d5a-4b11-a187-d6703601a366
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_RFVR_UNINITIALIZED, DXGK_RFVR_HOTKEY, DXGK_RFVR_UNINITIALIZED, d3dkmddi/DXGK_RFVR_USERMODE, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_USERMODE, display.dxgk_recommendfunctionalvidpn_reason, d3dkmddi/DXGK_RFVR_FIRMWARE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_FIRMWARE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], d3dkmddi/DXGK_RFVR_HOTKEY
+ms.keywords: DXGK_RFVR_FIRMWARE, d3dkmddi/DXGK_RFVR_USERMODE, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RFVR_UNINITIALIZED, d3dkmddi/DXGK_RFVR_UNINITIALIZED, _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_FIRMWARE, DXGK_RFVR_HOTKEY, d3dkmddi/DXGK_RFVR_HOTKEY, DXGK_RFVR_USERMODE, display.dxgk_recommendfunctionalvidpn_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,13 +93,17 @@ Value indicating that the OS is requesting the driver to describe a functional V
 ## -remarks
 
 
+
 The <b>RequestReason</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendfunctionalvidpn.md">DXGKARG_RECOMMENDFUNCTIONALVIDPN</a> structure is a DXGK_RECOMMENDFUNCTIONALVIDPN_REASON value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>
+
+
 
  
 

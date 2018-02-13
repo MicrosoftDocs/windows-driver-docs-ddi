@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WcsAssociateColorProfileWithDevice function [Print Devices], icm/WcsAssociateColorProfileWithDevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, print.wcsassociatecolorprofilewithdevice, WcsAssociateColorProfileWithDevice
+ms.keywords: WcsAssociateColorProfileWithDevice function [Print Devices], icm/WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, print.wcsassociatecolorprofilewithdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,7 @@ A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT
 ## -remarks
 
 
+
 The <code>WCSAssociateColorProfileWithDevice</code> function will fail if the profile has not been installed on the computer using the <b>InstallColorProfile</b> function (described in the Windows SDK documentation).
 
 If the <i>profileManagementScope</i> parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, the profile association is system-wide and applies to all users. If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the association is only for the current user.
@@ -100,9 +101,12 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 
 
+
 ## -see-also
 
 <a href="..\icm\nf-icm-wcsdisassociatecolorprofilefromdevice.md">WcsDisassociateColorProfileFromDevice</a>
+
+
 
  
 

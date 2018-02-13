@@ -7,8 +7,8 @@ old-location: ifsk\file_mailslot_set_information.htm
 old-project: ifsk
 ms.assetid: 65104303-5041-45e7-bd59-bb78dde1dffd
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PFILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION structure [Installable File System Drivers], PFILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION, _FILE_MAILSLOT_SET_INFORMATION, ntifs/PFILE_MAILSLOT_SET_INFORMATION, ntifs/FILE_MAILSLOT_SET_INFORMATION, PFILE_MAILSLOT_SET_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_mailslot_set_information"
+ms.date: 2/7/2018
+ms.keywords: FILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION, ntifs/FILE_MAILSLOT_SET_INFORMATION, ifsk.file_mailslot_set_information, PFILE_MAILSLOT_SET_INFORMATION, _FILE_MAILSLOT_SET_INFORMATION, ntifs/PFILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION structure [Installable File System Drivers], PFILE_MAILSLOT_SET_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,8 @@ The time, in milliseconds, that a read operation can wait for a message to be wr
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/e23894ca-edc7-49e6-bcc4-c82f357ecedf">Mailslots</a>.
+
 
 

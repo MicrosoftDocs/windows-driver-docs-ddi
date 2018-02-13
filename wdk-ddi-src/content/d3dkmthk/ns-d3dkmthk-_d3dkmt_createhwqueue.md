@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEHWQUEUE structure [Display Devices], display.d3dkmt_createhwqueue, D3DKMT_CREATEHWQUEUE, d3dkmthk/D3DKMT_CREATEHWQUEUE, _D3DKMT_CREATEHWQUEUE
+ms.keywords: d3dkmthk/D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue, D3DKMT_CREATEHWQUEUE structure [Display Devices], _D3DKMT_CREATEHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

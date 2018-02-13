@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8fe1ecda-4b2f-4a6f-b02c-7e50630614eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILIMSIPARAMMASK, RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_ALL, RIL_PARAM_IMSI_MNC, rilapitypes/RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_MNC, RIL_PARAM_IMSI_IMSI, RILIMSIPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSI_ALL, rilapitypes/RILIMSIPARAMMASK, netvista.rilimsiparammask, rilapitypes/RIL_PARAM_IMSI_IMSI
+ms.keywords: rilapitypes/RIL_PARAM_IMSI_MCC, RIL_PARAM_IMSI_ALL, RIL_PARAM_IMSI_MNC, rilapitypes/RILIMSIPARAMMASK, RILIMSIPARAMMASK, netvista.rilimsiparammask, RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_MNC, RILIMSIPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_IMSI_ALL, rilapitypes/RIL_PARAM_IMSI_IMSI, RIL_PARAM_IMSI_IMSI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,22 +77,20 @@ enum RILIMSIPARAMMASK {
 ### -field RIL_PARAM_IMSI_IMSI
 
 
-
 ### -field RIL_PARAM_IMSI_MCC
-
 
 
 ### -field RIL_PARAM_IMSI_MNC
 
 
-
 ### -field RIL_PARAM_IMSI_ALL
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

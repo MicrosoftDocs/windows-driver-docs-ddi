@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 64b55b53-677a-4977-b865-0a07d34d2530
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bdapropertytemplateconnections, bdasup/BdaPropertyTemplateConnections, BdaPropertyTemplateConnections, bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, BdaPropertyTemplateConnections function [Streaming Media Devices]
+ms.keywords: bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, stream.bdapropertytemplateconnections, bdasup/BdaPropertyTemplateConnections, BdaPropertyTemplateConnections function [Streaming Media Devices], BdaPropertyTemplateConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,14 @@ Points to the IRP for the request to retrieve the list of connections. The BDA m
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. 
 
 
 
+
 ## -remarks
+
 
 
 A BDA minidriver calls the <b>BdaPropertyTemplateConnections</b> function to retrieve the list of template connections after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyTemplateConnections</b> function directly, without intercepting this request using an internal get-handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>). See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">Defining Automation Tables</a> and <a href="https://msdn.microsoft.com/fdac317e-d4fc-47c9-87d3-bec597f758f5">Determining BDA Device Topology</a> for more information. 
@@ -106,21 +109,36 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 
 
-## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+## -see-also
 
 <a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 <a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
+
+
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+
+
 
  
 

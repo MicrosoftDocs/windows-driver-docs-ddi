@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e327fe9d-9425-4cc3-9552-88e9c4c3bdbe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], FwpsDereferenceNetBufferList0, wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml, netvista.fwpsdereferencenetbufferlist0, fwpsk/FwpsDereferenceNetBufferList0
+ms.keywords: fwpsk/FwpsDereferenceNetBufferList0, FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], FwpsDereferenceNetBufferList0, netvista.fwpsdereferencenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,14 @@ A value that indicates that the current IRQL = DISPATCH_LEVEL. A callout driver 
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -109,11 +112,16 @@ A callout driver calls the
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsreferencenetbufferlist0.md">FwpsReferenceNetBufferList0</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

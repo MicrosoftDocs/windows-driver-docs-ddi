@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0749d03d-8174-4f6e-816e-4689594c0c84
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/BmRequestToOther, wdfusb/BmRequestToEndpoint, WDF_USB_BMREQUEST_RECIPIENT, kmdf.wdf_usb_bmrequest_recipient, BmRequestToOther, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, _WDF_USB_BMREQUEST_RECIPIENT, wdfusb/WDF_USB_BMREQUEST_RECIPIENT, WDF_USB_BMREQUEST_RECIPIENT enumeration, BmRequestToInterface, wdfusb/BmRequestToInterface, wdf.wdf_usb_bmrequest_recipient, wdfusb/BmRequestToDevice, BmRequestToDevice, BmRequestToEndpoint
+ms.keywords: WDF_USB_BMREQUEST_RECIPIENT enumeration, BmRequestToDevice, WDF_USB_BMREQUEST_RECIPIENT, wdf.wdf_usb_bmrequest_recipient, _WDF_USB_BMREQUEST_RECIPIENT, BmRequestToOther, wdfusb/BmRequestToOther, DFUsbRef_646fa8bb-2b05-4247-b3e8-01daad8b204e.xml, wdfusb/WDF_USB_BMREQUEST_RECIPIENT, BmRequestToEndpoint, kmdf.wdf_usb_bmrequest_recipient, wdfusb/BmRequestToDevice, wdfusb/BmRequestToEndpoint, BmRequestToInterface, wdfusb/BmRequestToInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,15 +96,19 @@ The data transfer recipient is not a device, interface, or endpoint.
 ## -remarks
 
 
+
 The<b>WDF_USB_BMREQUEST_RECIPIENT</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 For more information about the data transfer recipient for a USB control transfer, see the USB specification.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+
+
 
  
 

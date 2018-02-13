@@ -93,15 +93,21 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange.md">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
+
 
  
 

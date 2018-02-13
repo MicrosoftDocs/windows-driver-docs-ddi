@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2226804c-dbdd-4855-9ba5-7c1959941e59
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], SetOutputCallbacks method, dbgeng/IDebugClient3::SetOutputCallbacks, debugger.setoutputcallbacks, IDebugClient::SetOutputCallbacks, dbgeng/IDebugClient::SetOutputCallbacks, IDebugClient5, SetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, SetOutputCallbacks method [Windows Debugging], SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient2::SetOutputCallbacks, IDebugClient4 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient5::SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient4::SetOutputCallbacks, dbgeng/IDebugClient2::SetOutputCallbacks, IDebugClient_b1da4bc1-b368-475e-bd13-021358f9d234.xml, IDebugClient2 interface [Windows Debugging], SetOutputCallbacks method, dbgeng/IDebugClient4::SetOutputCallbacks, dbgeng/IDebugClient5::SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient interface [Windows Debugging], SetOutputCallbacks method, IDebugClient5 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient3::SetOutputCallbacks
+ms.keywords: IDebugClient5 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient3 interface [Windows Debugging], SetOutputCallbacks method, dbgeng/IDebugClient4::SetOutputCallbacks, IDebugClient5, IDebugClient4::SetOutputCallbacks, IDebugClient5::SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient2 interface, debugger.setoutputcallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient4 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient interface [Windows Debugging], SetOutputCallbacks method, dbgeng/IDebugClient3::SetOutputCallbacks, dbgeng/IDebugClient::SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient interface, SetOutputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient2, dbgeng/IDebugClient5::SetOutputCallbacks, IDebugClient2 interface [Windows Debugging], SetOutputCallbacks method, IDebugClient_b1da4bc1-b368-475e-bd13-021358f9d234.xml, IDebugClient::SetOutputCallbacks, IDebugClient4, SetOutputCallbacks, IDebugClient3, dbgeng/IDebugClient2::SetOutputCallbacks, IDebugClient, SetOutputCallbacks method [Windows Debugging], IDebugClient3::SetOutputCallbacks, IDebugClient2::SetOutputCallbacks, SetOutputCallbacks method [Windows Debugging], IDebugClient4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,7 +79,9 @@ Specifies the interface pointer to the output callbacks object to register with 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,11 +98,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Each client can have at most one <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> or <b>IDebugOutputCallbacks</b> object registered with it for output.
@@ -111,21 +116,36 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 

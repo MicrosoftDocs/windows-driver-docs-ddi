@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.file_position_information, _FILE_POSITION_INFORMATION, wdm/PFILE_POSITION_INFORMATION, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, PFILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_POSITION_INFORMATION
+ms.keywords: kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, PFILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, wdm/FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_position_information, _FILE_POSITION_INFORMATION, wdm/PFILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_POSITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION
+req.typenames: "*PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -76,9 +76,11 @@ The byte offset of the current file pointer.
 ## -remarks
 
 
+
 FILE_READ_DATA or FILE_WRITE_DATA access to the file is required to change this information about the file, and the file must be opened for synchronous I/O.
 
 If the file was opened or created with the FILE_NO_INTERMEDIATE_BUFFERING option, the value of <b>CurrentByteOffset</b> must be an integral multiple of the sector size of the underlying device.
+
 
 
 
@@ -86,7 +88,11 @@ If the file was opened or created with the FILE_NO_INTERMEDIATE_BUFFERING option
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
 
  
 

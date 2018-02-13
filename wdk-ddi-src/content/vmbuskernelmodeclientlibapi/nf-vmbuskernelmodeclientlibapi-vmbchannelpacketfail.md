@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 177B4509-A0EC-4F71-AF21-916A7A5F06DB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelPacketFail, vmbuskernelmodeclientlibapi/VmbChannelPacketFail, netvista.vmbchannelpacketfail, VmbChannelPacketFail function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelPacketFail, VmbChannelPacketFail function [Network Drivers Starting with Windows Vista], VmbChannelPacketFail, netvista.vmbchannelpacketfail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelPacketFail
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ TBD
 
 
 
+
 #### - VMBPACKETCOMPLETION [in]
 
 A  handle that identifies the incoming packet and is used to refer to the packet
@@ -86,14 +87,18 @@ once processing is finished.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 Call this function for packets presented to the server endpoint which seem malformed, to
 the extent that channel processing should cease.
+
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5a8a764d-48bf-48f9-831a-ac22767aeca6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, winddiui/DrvUpgradePrinter, DrvUpgradePrinter, DrvUpgradePrinter function [Print Devices], print.drvupgradeprinter
+ms.keywords: print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, print.drvupgradeprinter, DrvUpgradePrinter function [Print Devices], DrvUpgradePrinter, winddiui/DrvUpgradePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvUpgradePrinter
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -72,6 +72,7 @@ BOOL DrvUpgradePrinter(
 ### -param Level
 
 Caller-supplied value indicating the type of structure pointed to by <i>pDriverUpgradeInfo</i>, as indicated in the following table.
+
 <table>
 <tr>
 <th><i>Level</i> Value</th>
@@ -101,7 +102,8 @@ Caller-supplied value indicating the type of structure pointed to by <i>pDriverU
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pDriverUpgradeInfo [in, optional]
@@ -112,11 +114,14 @@ Caller-supplied pointer to a structure whose type is identified by <i>dwLevel</i
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>; otherwise, it should call SetLastError to set an error code and return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLL</a> can optionally provide a <b>DrvUpgradePrinter</b> function. If it does, the spooler calls it for every printer when the printer driver is copied onto the system. This occurs when a system is upgraded from one operating system release to the next, or when an application updates a printer driver by calling the Win32 <b>AddPrinterDriver</b> function.
@@ -129,13 +134,20 @@ For Windows NT 4.0 and previous, when the spooler calls <b>DrvUpgradePrinter</b>
 
 
 
-## -see-also
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
+## -see-also
 
 <a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
 
+
+
 <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
+
+
 
  
 

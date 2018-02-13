@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2319fe88-8f32-415c-bea1-4b7e723f6dbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], *PNDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2, ntddndis/NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml
+ms.keywords: PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml, ntddndis/NDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, _NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], netvista.ndis_ipsec_offload_v2, PNDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_IPSEC_OFFLOAD_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2"
+req.typenames: NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2
 ---
 
 # _NDIS_IPSEC_OFFLOAD_V2 structure
@@ -144,8 +144,10 @@ A BOOLEAN value that is set to <b>TRUE</b> if the NIC can process security paylo
      portion of send and receive packets. (The tunnel-mode portion of a packet pertains to a tunnel
      connection.) Otherwise, this member is <b>FALSE</b>.
      
+
 <div class="alert"><b>Note</b>  When the IPsec layer sends tunnel packets over an IPsec task offload interface,
-     the IPsec layer ensures that large send offload (LSO) is not used for those packets.</div><div> </div>
+     the IPsec layer ensures that large send offload (LSO) is not used for those packets.</div>
+<div> </div>
 
 ### -field TransportTunnelCombined
 
@@ -184,10 +186,10 @@ The types of UDP-encapsulated ESP data packets that the NIC can parse. For a des
 
 
 
-
 #### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_NONE
 
 IPsec offload processing is not available for any UDP encapsulation type.
+
 
 
 #### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TRANSPORT
@@ -196,16 +198,21 @@ IPsec offload is supported for an ESP-encapsulated transport-mode packet that is
        UDP.
 
 
+
 #### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TUNNEL
 
 IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-encapsulated. The
        transport-mode portion of the packet is not UDP-encapsulated and is not ESP-protected.
 
 
+
 #### IPSEC_OFFLOAD_V2_TRANSPORT_OVER_UDP_ESP_ENCAPSULATION_TUNNEL
 
 IPsec offload is supported for the tunnel-mode portion of a packet that is UDP-encapsulated. The
        transport-mode portion of a packet is not UDP-encapsulated but is ESP-protected.
+
+
+
 
 
 #### IPSEC_OFFLOAD_V2_UDP_ESP_ENCAPSULATION_TRANSPORT_OVER_TUNNEL
@@ -223,10 +230,12 @@ A bit mask that identifies the IPsec authentication algorithms that the NIC supp
 
 
 
+
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_MD5
 
 The NIC can use the keyed message digest 5 (MD5) algorithm for computing or validating a
        cryptographic checksum.
+
 
 
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_1
@@ -235,10 +244,12 @@ The NIC can use the secure hash algorithm (SHA) 1 algorithm for computing or val
        cryptographic checksum.
 
 
+
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_256
 
 The NIC can use the SHA 256 algorithm for computing or validating a cryptographic
        checksum.
+
 
 
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_128
@@ -247,10 +258,12 @@ The NIC can use the Advanced Encryption Standard - Galois/Counter Mode (AES-GMAC
        for computing or validating a cryptographic checksum.
 
 
+
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_192
 
 The NIC can use the AES-GMAC 192 algorithm for computing or validating a cryptographic
        checksum.
+
 
 
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_256
@@ -268,10 +281,12 @@ A bit mask that identifies the IPsec encryption algorithms that the NIC supports
 
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_NONE
 
 The NIC can use null encryption--that is, the ESP payload without encryption but with
        authentication information.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_DES_CBC
@@ -279,9 +294,11 @@ The NIC can use null encryption--that is, the ESP payload without encryption but
 The NIC can use the DES algorithm for encrypting and decrypting ESP payloads.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_3_DES_CBC
 
 The NIC can use the triple-DES algorithm for encrypting and decrypting ESP payloads.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_128
@@ -291,11 +308,13 @@ The NIC can use the AES-GCM 128 algorithm for encrypting and computing a cryptog
        a combined mode algorithm.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_192
 
 The NIC can use the AES-GCM 192 algorithm for encrypting and computing a cryptographic checksum
        or decrypting and validating a cryptographic checksum for an ESP payload. Note that this algorithm is
        a combined mode algorithm.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_256
@@ -305,15 +324,18 @@ The NIC can use the AES-GCM 256 algorithm for encrypting and computing a cryptog
        a combined mode algorithm.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_128
 
 The NIC can use the Advanced Encryption Standard - cipher-block chaining mode (AES-CBC) 128
        algorithm for encrypting and decrypting ESP payloads.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_192
 
 The NIC can use the AES-CBC 192 algorithm for encrypting and decrypting ESP payloads.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_256
@@ -331,13 +353,17 @@ The number of SA bundles, which might include ESP or AH or both, that can be off
 ## -remarks
 
 
+
 In NDIS 6.1 and later versions, the NDIS_IPSEC_OFFLOAD_V2 structure is used in the 
     <b>IPsecV2</b> member of the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. The
     NDIS_IPSEC_OFFLOAD_V2 structure specifies the current or supported capabilities that a miniport adapter
     provides for IPsec offload processing.
+
 <div class="alert"><b>Note</b>  To support IPsec task offload, the miniport driver must specify <b>TRUE</b> in the 
-    <b>Tunnel</b> member.</div><div> </div>NDIS_OFFLOAD is used in the 
+    <b>Tunnel</b> member.</div>
+<div> </div>
+NDIS_OFFLOAD is used in the 
     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
     <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure, 
@@ -379,27 +405,46 @@ The following flags are defined for the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
 
  
 

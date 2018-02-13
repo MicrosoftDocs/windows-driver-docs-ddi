@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETPOINTERPOSITION, _DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DXGKARG_SETPOINTERPOSITION, DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, display.dxgkarg_setpointerposition
+ms.keywords: d3dkmddi/DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition, _DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,9 +92,13 @@ typedef struct _DXGKARG_SETPOINTERPOSITION {
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, wdf.wdf_device_io_buffer_retrieval, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, WdfDeviceIoBufferRetrievalMaximum, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalInvalid, WdfDeviceIoBufferRetrievalDeferred, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum, WdfDeviceIoBufferRetrievalCopyImmediately, umdf.wdf_device_io_buffer_retrieval, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, WDF_DEVICE_IO_BUFFER_RETRIEVAL"
+ms.keywords: umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalDeferred, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL, umdf.wdf_device_io_buffer_retrieval, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, wdf.wdf_device_io_buffer_retrieval, WdfDeviceIoBufferRetrievalMaximum, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalInvalid, WdfDeviceIoBufferRetrievalCopyImmediately
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_IO_BUFFER_RETRIEVAL
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
+req.typenames: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL"
 req.product: Windows 10 or later.
 ---
 
@@ -96,6 +96,7 @@ Reserved for system use.
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_IO_BUFFER_RETRIEVAL</b> enumeration is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>.
 
 In UMDF versions prior to version 1.9, UMDF always makes an I/O request's buffers available to the driver (by copying the buffers into the <a href="https://msdn.microsoft.com/8b469c91-d33d-4fb0-8c7d-e90f86a1e339">UMDF driver host process</a>) as soon as UMDF receives the I/O request. <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a> are the only object methods that drivers can call to access the buffers.
@@ -126,9 +127,12 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+
+
 
  
 

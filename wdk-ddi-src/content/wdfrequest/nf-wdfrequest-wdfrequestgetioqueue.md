@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b7d67a3-2899-47b1-9652-d3696d37ec2d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_5ac140be-04cf-480c-a917-9942d23b550f.xml, PFN_WDFREQUESTGETIOQUEUE, wdfrequest/WdfRequestGetIoQueue, WdfRequestGetIoQueue, wdf.wdfrequestgetioqueue, WdfRequestGetIoQueue method, kmdf.wdfrequestgetioqueue
+ms.keywords: DFRequestObjectRef_5ac140be-04cf-480c-a917-9942d23b550f.xml, WdfRequestGetIoQueue, WdfRequestGetIoQueue method, PFN_WDFREQUESTGETIOQUEUE, wdfrequest/WdfRequestGetIoQueue, wdf.wdfrequestgetioqueue, kmdf.wdfrequestgetioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ A handle to a framework request object.
 ## -returns
 
 
+
 <b>WdfRequestGetIoQueue</b> returns a handle to a framework queue object. If the request was created by the driver, or if the driver has already completed the specified I/O request, the method returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,16 +90,38 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about <b>WdfRequestGetIoQueue</b>, see <a href="https://msdn.microsoft.com/a686ea00-6987-480a-a4ce-892e1efbed87">Obtaining Information About an I/O Request</a>.
+
+
+#### Examples
+
+The following code example obtains a handle to the device object that represents the device that a request belongs to.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFDEVICE  device;
+
+device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuegetdevice.md">WdfIoQueueGetDevice</a>
+
+
 
  
 

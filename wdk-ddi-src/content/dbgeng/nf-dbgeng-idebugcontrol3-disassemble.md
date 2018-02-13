@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a512c846-6896-48ca-a234-b9a30a3bff06
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::Disassemble, IDebugControl2 interface [Windows Debugging], Disassemble method, dbgeng/IDebugControl2::Disassemble, dbgeng/IDebugControl3::Disassemble, Disassemble method [Windows Debugging], IDebugControl2 interface, debugger.disassemble, dbgeng/IDebugControl::Disassemble, Disassemble, IDebugControl2::Disassemble, Disassemble method [Windows Debugging], IDebugControl3 interface, Disassemble method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl3::Disassemble, Disassemble method [Windows Debugging], IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, IDebugControl3, IDebugControl interface [Windows Debugging], Disassemble method
+ms.keywords: IDebugControl3 interface [Windows Debugging], Disassemble method, IDebugControl2, IDebugControl interface [Windows Debugging], Disassemble method, debugger.disassemble, dbgeng/IDebugControl2::Disassemble, Disassemble method [Windows Debugging], IDebugControl3 interface, IDebugControl3::Disassemble, IDebugControl::Disassemble, dbgeng/IDebugControl::Disassemble, IDebugControl3, dbgeng/IDebugControl3::Disassemble, Disassemble method [Windows Debugging], IDebugControl2 interface, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, IDebugControl, Disassemble, Disassemble method [Windows Debugging], IDebugControl2 interface [Windows Debugging], Disassemble method, Disassemble method [Windows Debugging], IDebugControl interface, IDebugControl2::Disassemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,7 +107,9 @@ Receives the location in the target's memory of the instruction following the di
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,11 +137,14 @@ The method was successful.  However, <i>Buffer</i> was too small to hold the dis
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The assembly language depends on the effective processor type of the target system.  For information about the assembly language, see the processor documentation.
@@ -150,19 +155,32 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

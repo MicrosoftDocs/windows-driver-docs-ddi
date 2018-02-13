@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e538f920-bf9e-484b-acea-f979bb952299
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPinStateNone, wwan/WwanPinStateEnter, WwanPinStateEnter, netvista.wwan_pin_state, _WWAN_PIN_STATE, WwanPinStateNone, *PWWAN_PIN_STATE, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, wwan/WwanPinStateMax, wwan/WWAN_PIN_STATE, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanPinStateMax, PWWAN_PIN_STATE, wwan/PWWAN_PIN_STATE, WWAN_PIN_STATE
+ms.keywords: wwan/WwanPinStateMax, WWAN_PIN_STATE, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, WwanPinStateEnter, WwanPinStateNone, *PWWAN_PIN_STATE, wwan/WwanPinStateEnter, PWWAN_PIN_STATE, _WWAN_PIN_STATE, wwan/PWWAN_PIN_STATE, wwan/WWAN_PIN_STATE, netvista.wwan_pin_state, wwan/WwanPinStateNone, WwanPinStateMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,6 +90,8 @@ The total number of supported PIN states.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
+
+
 
  
 

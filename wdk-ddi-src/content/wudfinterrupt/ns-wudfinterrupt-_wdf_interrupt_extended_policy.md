@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CD11AD87-D3F1-41E5-AE86-DC289504EF6D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, _WDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, *PWDF_INTERRUPT_EXTENDED_POLICY, wdf.wdf_interrupt_extended_policy_umdf, PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY
+ms.keywords: "*PWDF_INTERRUPT_EXTENDED_POLICY, wudfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, umdf.wdf_interrupt_extended_policy, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY, wdf.wdf_interrupt_extended_policy_umdf, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, _WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,17 +97,23 @@ A <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> struct
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure is used as input for the <a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a> method. 
 
 To initialize a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure, your driver must call <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a>
+
+
 
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
-<a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a>
+
 
  
 

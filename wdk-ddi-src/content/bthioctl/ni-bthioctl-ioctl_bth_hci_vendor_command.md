@@ -82,6 +82,7 @@ The length of a
 ### -output-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_VENDOR_EVENT_INFO</a> structure.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -95,7 +96,8 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains th
 } BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;</pre>
 </td>
 </tr>
-</table></span></div>The <b>EventSize</b> member provides the size of the vendor-specific event data returned from the radio.
+</table></span></div>
+The <b>EventSize</b> member provides the size of the vendor-specific event data returned from the radio.
 
 
 ### -output-buffer-length
@@ -106,14 +108,18 @@ The length of a <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -125,6 +131,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -180,10 +187,12 @@ There was insufficient memory available to process the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The IOCTL_BTH_HCI_VENDOR_COMMAND request provides a mechanism that allows vendors to create commands
@@ -208,12 +217,15 @@ The BTH_VENDOR_PATTERN structure specifies such patterns that follow the vendor-
     that is specified in the 
     <b>Data</b> member of BTH_VENDOR_SPECIFIC_COMMAND structure. The maximum total size of all the patterns
     that follow the command should not be greater than 255.
+
 <div class="alert"><b>Warning</b>  The process that submits IOCTL_BTH_HCI_VENDOR_COMMAND must have the
     SE_LOAD_DRIVER_NAME privilege. A process that is running in the system or an administrator context can
     elevate its privilege by using the SDK 
     <b>LookupPrivilegeValue</b> and 
     <b>AdjustTokenPrivileges</b> functions. The following code example demonstrates how to obtain this
-    privilege. Note that the example does not demonstrate error handling.</div><div> </div><div class="code"><span codelanguage=""><table>
+    privilege. Note that the example does not demonstrate error handling.</div>
+<div> </div>
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -234,18 +246,26 @@ Tp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
 AdjustTokenPrivileges(procToken, FALSE, &amp;tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);</pre>
 </td>
 </tr>
-</table></span></div>The event that is generated because of this command is copied into the output buffer (including the
+</table></span></div>
+The event that is generated because of this command is copied into the output buffer (including the
     event header).
+
 
 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
+<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
+
+
 
 <a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
+
+
 
  
 

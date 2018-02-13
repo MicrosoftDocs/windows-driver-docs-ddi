@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43408247-0c34-46bd-a36b-b11540a10c55
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatepin2, ks/KsCreatePin2, KsCreatePin2, KsCreatePin2 function [Streaming Media Devices]
+ms.keywords: KsCreatePin2, ks/KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], stream.kscreatepin2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,14 @@ Specifies the connection handle passed. The routine fills this in with a handle 
 ## -returns
 
 
+
 Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 This is a new version of the <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
@@ -110,17 +113,28 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin2</b> cre
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
+
+
+<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
+
+
 <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
 
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+
 
  
 

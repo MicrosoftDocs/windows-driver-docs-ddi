@@ -40,7 +40,7 @@ apiname:
 -	pfnRelocateDeviceFuncs
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS callback
@@ -74,8 +74,9 @@ VOID APIENTRY* pfnRelocateDeviceFuncs(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,13 +96,17 @@ The device functions table, as a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
+
+
 
  
 

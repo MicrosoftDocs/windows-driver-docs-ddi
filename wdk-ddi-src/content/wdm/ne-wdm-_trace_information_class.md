@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdfNotifyRoutinesClass, wdm/TraceHandleByNameClass, wdm/TraceHandleClass, wdm/EventLoggerHandleClass, TraceInformationClassReserved1, _TRACE_INFORMATION_CLASS, wdm/TraceInformationClassReserved1, TraceInformationClassReserved2, TraceIdClass, wdm/TRACE_INFORMATION_CLASS, wdm/MaxTraceInformationClass, TraceEnableFlagsClass, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DiskIoNotifyRoutinesClass, TraceHandleByNameClass, wdm/TraceInformationClassReserved2, LoggerEventsLoggedClass, TraceHandleClass, wdm/WdfNotifyRoutinesClass, wdm/LoggerEventsLostClass, wdm/FltIoNotifyRoutinesClass, kernel.trace_information_class, TraceSessionSettingsClass, MaxTraceInformationClass, GlobalLoggerHandleClass, TRACE_INFORMATION_CLASS, wdm/DiskIoNotifyRoutinesClass, wdm/TraceEnableFlagsClass, AllLoggerHandlesClass, EventLoggerHandleClass, TraceEnableLevelClass, wdm/AllLoggerHandlesClass, wdm/GlobalLoggerHandleClass, FltIoNotifyRoutinesClass, LoggerEventsLostClass, wdm/TraceEnableLevelClass, wdm/TraceIdClass, wdm/LoggerEventsLoggedClass, wdm/TraceSessionSettingsClass
+ms.keywords: MaxTraceInformationClass, wdm/TraceEnableFlagsClass, DiskIoNotifyRoutinesClass, wdm/WdfNotifyRoutinesClass, TraceSessionSettingsClass, wdm/TraceHandleClass, EventLoggerHandleClass, wdm/MaxTraceInformationClass, LoggerEventsLoggedClass, TRACE_INFORMATION_CLASS, TraceHandleByNameClass, TraceIdClass, kernel.trace_information_class, wdm/TraceInformationClassReserved1, wdm/LoggerEventsLoggedClass, wdm/TraceSessionSettingsClass, GlobalLoggerHandleClass, wdm/AllLoggerHandlesClass, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/EventLoggerHandleClass, wdm/DiskIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, WdfNotifyRoutinesClass, wdm/TraceEnableLevelClass, TraceEnableFlagsClass, LoggerEventsLostClass, FltIoNotifyRoutinesClass, TraceInformationClassReserved1, wdm/TraceIdClass, TraceHandleClass, AllLoggerHandlesClass, wdm/FltIoNotifyRoutinesClass, wdm/LoggerEventsLostClass, wdm/TraceHandleByNameClass, wdm/TRACE_INFORMATION_CLASS, TraceInformationClassReserved2, TraceEnableLevelClass, wdm/TraceInformationClassReserved2, _TRACE_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -172,19 +172,29 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 <b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+
+
 
 <a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+
+
+<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+
+
 
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+
 
  
 

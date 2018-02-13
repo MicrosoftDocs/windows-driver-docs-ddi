@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetNumEndPoints method, IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints method, IWDFUsbInterface interface, IWDFUsbInterface, GetNumEndPoints, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints, IWDFUsbInterface interface, GetNumEndPoints method, wudfusb/IWDFUsbInterface::GetNumEndPoints, wdf.iwdfusbinterface_getnumendpoints
+ms.keywords: UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, IWDFUsbInterface interface, GetNumEndPoints method, GetNumEndPoints method, GetNumEndPoints, IWDFUsbInterface, GetNumEndPoints method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::GetNumEndPoints, IWDFUsbInterface::GetNumEndPoints, umdf.iwdfusbinterface_getnumendpoints, wdf.iwdfusbinterface_getnumendpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbInterface.GetNumEndPoints
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,27 +69,79 @@ UCHAR GetNumEndPoints();
 
 
 
+
 ## -returns
+
 
 
 <b>GetNumEndPoints</b> returns the number of endpoints on the USB interface.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GetNumEndPoints</b> method is provided for convenience because a UMDF driver can obtain the number of endpoints from the <b>bNumEndpoints</b> member of the <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that the driver retrieves when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a> method. 
 
 
+#### Examples
+
+The following code example retrieves the number of pipes on a USB interface and then retrieves particular types of pipes.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre> HRESULT  hr;
+ UCHAR  NumEndPoints;
+ NumEndPoints = pIUsbInterface-&gt;GetNumEndPoints();
+
+ if (NumEndPoints != NUM_OSRUSB_ENDPOINTS) {
+     hr = E_UNEXPECTED;
+ }
+ if (SUCCEEDED(hr))  {
+     for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++) {
+     hr = pIUsbInterface-&gt;RetrieveUsbPipeObject(PipeIndex, 
+                                                &amp;pIUsbPipe);
+     if (FAILED(hr)) {
+        // Output an error.
+     }
+     else {
+         if ( pIUsbPipe-&gt;IsInEndPoint() &amp;&amp; (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) ) {
+             pIUsbInputPipe = pIUsbPipe;
+         }
+         else if ( pIUsbPipe-&gt;IsOutEndPoint() &amp;&amp; (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) )
+         {
+              pIUsbOutputPipe = pIUsbPipe;
+         }
+         else
+              {
+                  SAFE_RELEASE(pIUsbPipe);
+              }
+          }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
 
  
 

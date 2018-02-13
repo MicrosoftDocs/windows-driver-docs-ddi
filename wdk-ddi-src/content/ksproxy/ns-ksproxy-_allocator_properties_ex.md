@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6edb8af4-a5c9-430f-800a-8a6f47a9cce4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.allocator_properties_ex, PALLOCATOR_PROPERTIES_EX structure pointer [Streaming Media Devices], PALLOCATOR_PROPERTIES_EX, ksproxy_6d16a85e-e11b-46e1-a9ab-b8f099e32d57.xml, _ALLOCATOR_PROPERTIES_EX, ksproxy/PALLOCATOR_PROPERTIES_EX, *PALLOCATOR_PROPERTIES_EX, ksproxy/ALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX structure [Streaming Media Devices]
+ms.keywords: ksproxy_6d16a85e-e11b-46e1-a9ab-b8f099e32d57.xml, _ALLOCATOR_PROPERTIES_EX, PALLOCATOR_PROPERTIES_EX structure pointer [Streaming Media Devices], stream.allocator_properties_ex, ALLOCATOR_PROPERTIES_EX, *PALLOCATOR_PROPERTIES_EX, ksproxy/ALLOCATOR_PROPERTIES_EX, ksproxy/PALLOCATOR_PROPERTIES_EX, PALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,83 +90,62 @@ typedef struct _ALLOCATOR_PROPERTIES_EX {
 ### -field cBuffers
 
 
-
 ### -field cbBuffer
-
 
 
 ### -field cbAlign
 
 
-
 ### -field cbPrefix
-
 
 
 ### -field MemoryType
 
 
-
 ### -field BusType
-
 
 
 ### -field State
 
 
-
 ### -field Input
-
 
 
 ### -field Output
 
 
-
 ### -field Strategy
-
 
 
 ### -field Flags
 
 
-
 ### -field Weight
-
 
 
 ### -field LogicalMemoryType
 
 
-
 ### -field AllocatorPlace
-
 
 
 ### -field Dimensions
 
 
-
 ### -field PhysicalRange
-
 
 
 ### -field PrevSegment
 
 
-
 ### -field CountNextSegments
-
 
 
 ### -field NextSegments
 
 
-
 ### -field InsideFactors
 
 
-
 ### -field NumberPins
-
 

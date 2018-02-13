@@ -40,7 +40,7 @@ apiname:
 -	WskInspectComplete
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -110,7 +110,9 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
 ## -returns
 
 
+
 <b>WskInspectComplete</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,11 +169,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A WSK application calls the 
@@ -230,23 +235,40 @@ If the WSK application calls the
 
 
 
-## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+## -see-also
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
 
+
+
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
+
 
  
 

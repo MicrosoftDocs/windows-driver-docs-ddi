@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PMONITORINIT, winsplp/MONITORINIT, _MONITORINIT, *PMONITORINIT, MONITORINIT structure [Print Devices], winsplp/PMONITORINIT, PMONITORINIT structure pointer [Print Devices], print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, MONITORINIT
+ms.keywords: PMONITORINIT structure pointer [Print Devices], print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, MONITORINIT structure [Print Devices], MONITORINIT, winsplp/PMONITORINIT, winsplp/MONITORINIT, *PMONITORINIT, _MONITORINIT, PMONITORINIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MONITORINIT
 product: Windows
 targetos: Windows
-req.typenames: "*PMONITORINIT, MONITORINIT"
+req.typenames: MONITORINIT, *PMONITORINIT
 req.product: Windows 10 or later.
 ---
 
@@ -107,7 +107,11 @@ Caller-supplied pointer to a string representing a server name.
 
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
+
+
 <a href="..\winsplp\ns-winsplp-_monitorreg.md">MONITORREG</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	CreateRasterizerState(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATERASTERIZERSTATE callback
@@ -76,16 +76,15 @@ VOID APIENTRY* CreateRasterizerState(D3D11_1)(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param D3D10DDI_HRASTERIZERSTATE
 
 
-
 ### -param D3D10DDI_HRTRASTERIZERSTATE
+
+
 
 
 
@@ -115,11 +114,14 @@ A handle to the rasterizer state that the driver should use when it calls back i
 ## -returns
 
 
+
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIERR_DEVICEREMOVED (if the device has been removed) in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function. The Direct3D runtime will determine that any other errors are critical. If the driver passes any errors, including D3DDDIERR_DEVICEREMOVED, the Direct3D runtime will determine that the handle is incorrect; therefore, the runtime will not call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyrasterizerstate.md">DestroyRasterizerState</a> function to destroy the handle that the <i>hRasterizerState</i> parameter specifies.
@@ -128,15 +130,24 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyrasterizerstate.md">DestroyRasterizerState</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_rasterizer_desc.md">D3D11_1_DDI_RASTERIZER_DESC</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize(D3D11_1)</a>
+
+
 
  
 

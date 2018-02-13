@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 22844EBB-9BE7-47C0-BE1F-075473430F11
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeEx method [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, debugger.idebugsymbols4_setscopeex, SetScopeEx, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4::SetScopeEx, IDebugSymbols4, dbgeng/IDebugSymbols4::SetScopeEx
+ms.keywords: SetScopeEx, debugger.idebugsymbols4_setscopeex, IDebugSymbols4 interface [Windows Debugging], SetScopeEx method, IDebugSymbols4, SetScopeEx method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::SetScopeEx, IDebugSymbols4::SetScopeEx, SetScopeEx method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,15 +93,21 @@ The size of the scope context.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
+
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame_ex.md">DEBUG_STACK_FRAME_EX</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
+
 
  
 

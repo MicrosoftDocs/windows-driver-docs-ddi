@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb2def4b-c027-465d-b734-20b4b83a6308
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, CreateRemoteInterface method, wudfddi/IWDFDevice2::CreateRemoteInterface, IWDFDevice2::CreateRemoteInterface, CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, CreateRemoteInterface method, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, CreateRemoteInterface method, IWDFDevice2 interface, IWDFDevice2
+ms.keywords: wudfddi/IWDFDevice2::CreateRemoteInterface, umdf.iwdfdevice2_createremoteinterface, CreateRemoteInterface method, IWDFDevice2 interface, CreateRemoteInterface method, CreateRemoteInterface, IWDFDevice2 interface, CreateRemoteInterface method, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, wdf.iwdfdevice2_createremoteinterface, IWDFDevice2::CreateRemoteInterface, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,7 +90,9 @@ A pointer to a driver-supplied location that receives a pointer to the <a href="
 ## -returns
 
 
+
 <b>CreateRemoteInterface</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,13 +109,16 @@ The framework's attempt to allocate memory failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 If your driver calls <b>CreateRemoteInterface</b>, it must do so from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function.
@@ -122,14 +127,72 @@ For more information about <b>CreateRemoteInterface</b> and using device interfa
 
 
 
+#### Examples
+
+The following code example shows an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function that creates a remote interface object, creates a remote target object, and opens the remote target for I/O operations.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
+STDMETHODCALLTYPE
+CMyDevice::OnRemoteInterfaceArrival(
+    __in IWDFRemoteInterfaceInitialize * FxRemoteInterfaceInit
+    )
+{
+    HRESULT hr = S_OK;
+
+    //
+    // Create a new remote interface object and provide a callback 
+    // object to handle remote interface events.
+    //
+    CComPtr&lt;IWDFRemoteInterface&gt; fxRemoteInterface;
+    hr = m_FxDevice-&gt;CreateRemoteInterface(FxRemoteInterfaceInit, 
+                                           MyRemoteInterfaceIUnknown, 
+                                           &amp;fxRemoteInterface);
+    if (FAILED(hr)) goto Error;
+    //
+    // Create a new remote target object and provide a callback 
+    // object to handle remote target events.
+    //
+    CComPtr&lt;IWDFRemoteTarget&gt; fxTarget;
+    hr = m_FxDevice-&gt;CreateRemoteTarget(MyRemoteTargetIUnknown,
+                                        fxRemoteInterface,
+                                        &amp;fxTarget);
+    if (FAILED(hr)) goto Error;
+
+    //
+    // Open the remote interface with read/write access.
+    //
+    hr = FxTarget-&gt;OpenRemoteInterface(fxRemoteInterface, 
+                                       NULL,
+                                       GENERIC_READ | GENERIC_WRITE,
+                                       NULL);
+    if (FAILED(hr)) goto Error;
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
 
  
 

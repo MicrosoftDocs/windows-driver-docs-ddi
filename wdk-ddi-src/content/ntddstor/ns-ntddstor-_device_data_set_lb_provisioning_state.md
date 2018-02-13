@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], storage.device_data_set_lb_provisioning_state, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], DEVICE_DATA_SET_LB_PROVISIONING_STATE"
+ms.keywords: "_DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_DATA_SET_LB_PROVISIONING_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE"
+req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---
 
 # _DEVICE_DATA_SET_LB_PROVISIONING_STATE structure
@@ -111,6 +111,7 @@ A bitmap of slab allocations.
 ## -remarks
 
 
+
 Provisioning state information is returned when the <b>Action</b> member of <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> is set to <b>DeviceDsmAction_Allocation</b>. The caller should include only one data set range in the system buffer at <b>DataSetRangesOffset</b>.
 
 On return, the system buffer contains a <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes_output.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUPUT</a> structure followed by the <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure. The <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure begins at an offset from the beginning of the system buffer specified by <b>OutputBlockOffset</b> in <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUPUT</b>.
@@ -127,15 +128,24 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 
 
+
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
 
-<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

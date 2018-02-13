@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f54e8fe-e6a2-4ddd-9451-289d3df21fde
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreerwlock, ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], NdisFreeRWLock
+ms.keywords: ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], NdisFreeRWLock, netvista.ndisfreerwlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeRWLock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeRWLock function
@@ -81,11 +81,14 @@ A pointer to an opaque
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -101,13 +104,20 @@ A driver must call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
 
-<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+
+
 
  
 

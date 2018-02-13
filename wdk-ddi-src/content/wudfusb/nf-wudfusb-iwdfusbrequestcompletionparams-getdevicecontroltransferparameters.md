@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml
+ms.keywords: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -96,15 +96,21 @@ A pointer that receives the WinUsb setup packet for the control transfer. This p
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+
 
  
 

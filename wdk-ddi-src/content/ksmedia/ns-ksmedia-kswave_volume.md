@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bf3a0b49-ecec-4e96-bf09-b269e8852422
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSWAVE_VOLUME, ksmedia/KSWAVE_VOLUME, stream.kswave_volume, KSWAVE_VOLUME, *PKSWAVE_VOLUME, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], KSWAVE_VOLUME structure [Streaming Media Devices], ksmedia/PKSWAVE_VOLUME, dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml
+ms.keywords: ksmedia/KSWAVE_VOLUME, ksmedia/PKSWAVE_VOLUME, dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, *PKSWAVE_VOLUME, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], stream.kswave_volume, KSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], PKSWAVE_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,13 +81,17 @@ Specifies the amount of right attenuation.
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566529">KSPROPERTY_WAVE_VOLUME</a> property.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566529">KSPROPERTY_WAVE_VOLUME</a>
+
+
 
  
 

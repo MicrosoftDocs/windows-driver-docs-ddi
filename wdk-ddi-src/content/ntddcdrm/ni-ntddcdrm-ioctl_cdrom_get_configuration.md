@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_CONFIGURATION IOCTL
@@ -94,14 +94,18 @@ The driver returns the feature and profile data in the buffer at <b>Irp-&gt;Asso
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,9 +116,13 @@ The <b>Information</b> field is set to the number of bytes that are returned. Th
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_ioctl_input.md">GET_CONFIGURATION_IOCTL_INPUT</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
+
 
  
 

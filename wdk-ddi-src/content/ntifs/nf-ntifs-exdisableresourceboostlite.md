@@ -7,8 +7,8 @@ old-location: ifsk\exdisableresourceboostlite.htm
 old-project: ifsk
 ms.assetid: 0ab2d417-56d8-4047-846d-6ae4cbaa8409
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/ExDisableResourceBoostLite, exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ExDisableResourceBoostLite function [Installable File System Drivers], ifsk.exdisableresourceboostlite, ExDisableResourceBoostLite
+ms.date: 2/7/2018
+ms.keywords: ifsk.exdisableresourceboostlite, ntifs/ExDisableResourceBoostLite, ExDisableResourceBoostLite function [Installable File System Drivers], ExDisableResourceBoostLite, exref_7c451751-995b-4d3c-9445-25b337624ef7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

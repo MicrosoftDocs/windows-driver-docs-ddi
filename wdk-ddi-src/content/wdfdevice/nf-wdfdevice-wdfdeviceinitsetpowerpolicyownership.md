@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceInitSetPowerPolicyOwnership, kmdf.wdfdeviceinitsetpowerpolicyownership, wdf.wdfdeviceinitsetpowerpolicyownership, WdfDeviceInitSetPowerPolicyOwnership, PFN_WDFDEVICEINITSETPOWERPOLICYOWNERSHIP, WdfDeviceInitSetPowerPolicyOwnership method, DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml
+ms.keywords: kmdf.wdfdeviceinitsetpowerpolicyownership, WdfDeviceInitSetPowerPolicyOwnership method, DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, PFN_WDFDEVICEINITSETPOWERPOLICYOWNERSHIP, wdf.wdfdeviceinitsetpowerpolicyownership, WdfDeviceInitSetPowerPolicyOwnership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,16 +87,20 @@ A Boolean value that indicates whether the calling driver is the power policy ow
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing a framework-based function driver, the framework automatically establishes your driver as the power policy owner. (If the device operates in raw mode, the bus driver is the default power policy owner.) 
 
 To change the default power policy owner, the following two drivers must call <b>WdfDeviceInitSetPowerPolicyOwnership</b>:
+
 <ul>
 <li>
 The default power policy owner must call <b>WdfDeviceInitSetPowerPolicyOwnership</b> with <i>IsPowerPolicyOwner</i> set to <b>FALSE</b>.
@@ -106,7 +110,8 @@ The default power policy owner must call <b>WdfDeviceInitSetPowerPolicyOwnership
 The driver that you want to be the power policy owner must call <b>WdfDeviceInitSetPowerPolicyOwnership</b> with <i>IsPowerPolicyOwner</i> set to <b>TRUE</b>.
 
 </li>
-</ul>If you are writing a framework-based bus driver or filter driver, and if the device does not operate in raw mode, your driver will not be the power policy owner unless it calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>. 
+</ul>
+If you are writing a framework-based bus driver or filter driver, and if the device does not operate in raw mode, your driver will not be the power policy owner unless it calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>. 
 
 Only one driver in each stack can be the power policy owner, so you must ensure that only one driver calls <b>WdfDeviceInitSetPowerPolicyOwnership</b> with <i>IsPowerPolicyOwner</i> set to <b>TRUE</b>.
 
@@ -115,10 +120,44 @@ If your driver calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>, it must do so 
 For more information about calling <b>WdfDeviceInitSetPowerPolicyOwnership</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/power-policy-ownership">Power Policy Ownership</a>.
 
 
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example checks a registry value to determine if a driver should be the power policy owner. If the driver should not be the power policy owner, the example calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
+// Call subroutine that checks a registry value.
+//
+SerialGetFdoRegistryKeyValue(
+                             DeviceInit,
+                             L"SerialRelinquishPowerPolicy",
+                             &amp;relinquishPowerPolicy
+                             );
+//
+// If the registry value is TRUE, do not own power policy.
+//
+if(relinquishPowerPolicy) {
+    WdfDeviceInitSetPowerPolicyOwnership(
+                                         DeviceInit,
+                                         FALSE
+                                         );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4E620796-3065-469E-8E91-8F698F672CAE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES, PPEP_PPM_CST_STATES, pepfx/PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATES, kernel.pep_ppm_cst_states, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES, _PEP_PPM_CST_STATES, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_cst_states, pepfx/PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_CST_STATES
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES
+req.typenames: "*PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES"
 ---
 
 # _PEP_PPM_CST_STATES structure
@@ -81,15 +81,21 @@ A pointer to an array of <a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_P
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification. The contents of this structure are obtained from the _CST object that is located in the ACPI namespace for the processor. 
+
 
 
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_PPM_CST_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_PPM_CST_STATE</a>
+
 
  
 

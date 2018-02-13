@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetBrightness
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET callback
@@ -84,11 +84,14 @@ A pointer to a variable that receives the brightness level.
 ## -returns
 
 
+
 <i>DxgkDdiGetBrightness</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>. 
 
 
 
+
 ## -remarks
+
 
 
 When the <a href="https://msdn.microsoft.com/6352c3fd-1a5f-4137-b76e-35c5b82a56c7">monitor driver</a> initializes, it can call the display miniport driver's <i>DxgkDdiGetBrightness</i> function to retrieve the brightness level that will be currently active for the integrated display panel.
@@ -99,9 +102,12 @@ Because the monitor driver always gets the brightness level for the integrated d
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

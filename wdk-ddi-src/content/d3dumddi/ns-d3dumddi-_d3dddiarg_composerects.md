@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9360f9c4-e30e-4fc0-ade7-1d98ff8b1d1b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects, D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], d3dumddi/D3DDDIARG_COMPOSERECTS, UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml"
+ms.keywords: D3DDDIARG_COMPOSERECTS, UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, display.d3dddiarg_composerects, _D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], d3dumddi/D3DDDIARG_COMPOSERECTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,6 +114,7 @@ typedef struct _D3DDDIARG_COMPOSERECTS {
 ### -field Operation
 
 [in] A D3DDDI_COMPOSERECTSOP value that describes how to compose the rectangular areas. This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -159,7 +160,8 @@ Combine the negative of the source bits with the destination bits and copy to th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field XOffset
@@ -175,7 +177,9 @@ Combine the negative of the source bits with the destination bits and copy to th
 ## -remarks
 
 
+
 The vertex buffers that contain the composing instructions are created with D3DUSAGE_TEXTAPI usage. The following code defines the structures that are contained in the vertex buffer arrays. For more information about these structures, see the DirectX SDK documentation.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -188,7 +192,8 @@ USHORT width, height; // Width and height of the glyph in bits
 };</pre>
 </td>
 </tr>
-</table></span></div><div class="code"><span codelanguage=""><table>
+</table></span></div>
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -204,11 +209,16 @@ SHORT X, Y;            // Position in bits in the destination surface
 </table></span></div>
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 347e0d45-8be1-4e4e-8a6a-44d5c914bf0f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, dbgeng/IDebugSymbols2::GetOffsetByLine, dbgeng/IDebugSymbols::GetOffsetByLine, GetOffsetByLine, debugger.getoffsetbyline, IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, GetOffsetByLine method [Windows Debugging], GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method
+ms.keywords: GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, GetOffsetByLine method [Windows Debugging], GetOffsetByLine, IDebugSymbols::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, debugger.getoffsetbyline, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3::GetOffsetByLine, IDebugSymbols, IDebugSymbols2, dbgeng/IDebugSymbols::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, dbgeng/IDebugSymbols2::GetOffsetByLine, IDebugSymbols3, dbgeng/IDebugSymbols3::GetOffsetByLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,7 +89,9 @@ Receives the location in the target's virtual address space of an instruction fo
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,11 +108,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A line in a source file might correspond to multiple instructions and this method can return any one of these instructions.
@@ -119,15 +124,24 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

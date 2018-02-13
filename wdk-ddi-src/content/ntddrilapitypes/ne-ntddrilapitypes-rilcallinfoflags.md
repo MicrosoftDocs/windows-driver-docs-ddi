@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4edec8f-a001-491b-a3e6-03d19ac94f18
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFO_FLAG_ALIENCALL, ntddrilapitypes/RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags, ntddrilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
+ms.keywords: RILCALLINFO_FLAG_EMERGENCYCALL, RILCALLINFO_FLAG_ALIENCALL, ntddrilapitypes/RILCALLINFO_FLAG_ALIENCALL, RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,11 +71,8 @@ typedef enum _RILCALLINFOFLAGS {
 ### -field RILCALLINFO_FLAG_NONE
 
 
-
 ### -field RILCALLINFO_FLAG_ALIENCALL
 
 
-
 ### -field RILCALLINFO_FLAG_EMERGENCYCALL
-
 

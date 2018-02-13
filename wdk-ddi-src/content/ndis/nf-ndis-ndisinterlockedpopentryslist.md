@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22f79bc7-49e1-43ba-8dff-8847b9a9bcca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinterlockedpopentryslist, NdisInterlockedPopEntrySList, ndis/NdisInterlockedPopEntrySList, ndis_interlocked_ref_5e66ef00-4498-4599-be50-f21ef676d032.xml, NdisInterlockedPopEntrySList macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisInterlockedPopEntrySList, ndis_interlocked_ref_5e66ef00-4498-4599-be50-f21ef676d032.xml, NdisInterlockedPopEntrySList, netvista.ndisinterlockedpopentryslist, NdisInterlockedPopEntrySList macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisInterlockedPopEntrySList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedPopEntrySList macro
@@ -89,6 +89,7 @@ A pointer to the head of the already initialized sequenced, singly linked list f
 ## -remarks
 
 
+
 A driver 
     <u>must not</u> be holding the given 
     <i>Lock</i> when it calls 
@@ -110,20 +111,33 @@ If
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+
+
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
    NdisInterlockedPushEntrySList</a>
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+
 
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
+
+
 
  
 

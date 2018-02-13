@@ -113,13 +113,17 @@ Specifies whether the share access has write permission. This value is TRUE if t
 ## -returns
 
 
+
 The <b>IoCheckShareAccessEx</b> routine returns STATUS_SUCCESS if the requester's access to the file object is compatible with the way in which it is currently open. If the request is denied because of a sharing violation, then STATUS_SHARING_VIOLATION is returned. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
+
+
 
  
 

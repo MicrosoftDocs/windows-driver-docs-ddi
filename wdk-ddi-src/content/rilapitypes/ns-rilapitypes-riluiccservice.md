@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ffd61de0-652a-4174-a0d2-d53c28180ea5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluiccservice_2, rilapitypes/RILUICCSERVICE, RILUICCSERVICE, *LPRILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILUICCSERVICE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCSERVICE, RILUICCSERVICE, *LPRILUICCSERVICE, netvista.riluiccservice_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,5 @@ typedef struct _RILUICCSERVICE {
 ### -field hUiccApp
 
 
-
 ### -field dwService
-
 

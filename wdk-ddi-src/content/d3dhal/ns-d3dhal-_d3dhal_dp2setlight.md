@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 442b5867-b420-46eb-a751-cd460641c505
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT, *LPD3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, d3dhal/D3DHAL_DP2SETLIGHT, display.d3dhal_dp2setlight, d3dhal/LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices]"
+ms.keywords: "*LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, d3dhal/D3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], display.d3dhal_dp2setlight, LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], d3dhal/LPD3DHAL_DP2SETLIGHT, _D3DHAL_DP2SETLIGHT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ Specifies an index into an array of lights.
 ### -field dwDataType
 
 Specifies the type of data being passed.
+
 <table>
 <tr>
 <th>Value</th>
@@ -111,12 +112,15 @@ Disables the light whose index is specified in <b>dwIndex</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 

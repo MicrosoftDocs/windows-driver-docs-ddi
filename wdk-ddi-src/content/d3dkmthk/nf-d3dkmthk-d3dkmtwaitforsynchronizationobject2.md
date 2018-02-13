@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 692d3336-d9cd-438b-a52c-ae4c55070227
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForSynchronizationObject2 function [Display Devices], OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject2, display.d3dkmtwaitforsynchronizationobject2, D3DKMTWaitForSynchronizationObject2
+ms.keywords: d3dkmthk/D3DKMTWaitForSynchronizationObject2, D3DKMTWaitForSynchronizationObject2, display.d3dkmtwaitforsynchronizationobject2, D3DKMTWaitForSynchronizationObject2 function [Display Devices], OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that the wait is set up for.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationob
 ## -returns
 
 
+
 <b>D3DKMTWaitForSynchronizationObject2</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,15 +126,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a>
+
+
 
  
 

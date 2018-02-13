@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 23953142-9246-41cf-91b4-75b1a3f6128e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WhyConstrained, IPrintCoreHelperPS, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface, print.iprintcorehelperps_whyconstrained, WhyConstrained method [Print Devices], print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml, prcomoem/IPrintCoreHelperPS::WhyConstrained, IPrintCoreHelperPS::WhyConstrained, IPrintCoreHelperPS interface [Print Devices], WhyConstrained method
+ms.keywords: print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, print.iprintcorehelperps_whyconstrained, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface [Print Devices], WhyConstrained method, WhyConstrained, IPrintCoreHelperPS::WhyConstrained, prcomoem/IPrintCoreHelperPS::WhyConstrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ A pointer to a variable that receives the number of feature-option pairs in the 
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::WhyConstrained</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,13 +147,16 @@ Memory for the result array could not be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For other failures, the method should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 If the specified feature-option pair is not constrained, <b>IPrintCoreHelperPS::WhyConstrained</b> will return S_OK but will return with *<i>pdwFOPairs</i> set to 0 and with *<i>ppFOConstraints</i>[0] set to <b>NULL</b>.
@@ -160,9 +165,12 @@ Note that the results from this method might not contain all of the options that
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551972">IPrintCoreHelperPS::EnumConstrainedOptions</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface
+ms.keywords: image.iwiadrvitem_removeitemfromfolder, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, IWiaDrvItem, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,9 +74,11 @@ HRESULT RemoveItemFromFolder(
 
 
 
+
 #### - lReason [in]
 
 Specifies the reason for the removal of the item from the folder. This parameter can be set to one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -102,20 +104,25 @@ The item is a disconnected device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If the method succeeds, it returns S_OK. If the item to be removed is a folder and the folder is not empty, the method returns E_INVALIDARG. If <i>lReason</i> contains an invalid reason, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
 
 
 
+
 ## -remarks
 
 
+
 After the item has been removed from the folder, it can no longer be used for device access.
+
 
 
 
@@ -123,7 +130,11 @@ After the item has been removed from the folder, it can no longer be used for de
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
 
+
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 

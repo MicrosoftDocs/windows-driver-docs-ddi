@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9d71a817-55b5-4042-8de8-15b23e51dffd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::GetLogFile, IDebugControl2 interface [Windows Debugging], GetLogFile method, GetLogFile method [Windows Debugging], IDebugControl3 interface, GetLogFile method [Windows Debugging], IDebugControl interface, IDebugControl2::GetLogFile, debugger.getlogfile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, GetLogFile method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetLogFile method [Windows Debugging], dbgeng/IDebugControl2::GetLogFile, IDebugControl3::GetLogFile, GetLogFile, IDebugControl interface [Windows Debugging], GetLogFile method, dbgeng/IDebugControl::GetLogFile, dbgeng/IDebugControl3::GetLogFile, IDebugControl3 interface [Windows Debugging], GetLogFile method
+ms.keywords: GetLogFile method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetLogFile method, dbgeng/IDebugControl::GetLogFile, IDebugControl2, IDebugControl3 interface [Windows Debugging], GetLogFile method, IDebugControl2::GetLogFile, dbgeng/IDebugControl3::GetLogFile, IDebugControl3, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, IDebugControl3::GetLogFile, IDebugControl, GetLogFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetLogFile, IDebugControl::GetLogFile, GetLogFile method [Windows Debugging], GetLogFile, GetLogFile method [Windows Debugging], IDebugControl3 interface, debugger.getlogfile, IDebugControl2 interface [Windows Debugging], GetLogFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,7 +95,9 @@ Receives <b>TRUE</b> if log messages are appended to the log file, or <b>FALSE</
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ There is no currently open log file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>GetLogFile</b> and <b>GetLogFileWide</b> behave the same way as <a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a> and <b>GetLogFile2Wide</b> with <i>Append</i> receiving only the information about the DEBUG_LOG_APPEND flag.
@@ -147,21 +152,36 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
 
  
 

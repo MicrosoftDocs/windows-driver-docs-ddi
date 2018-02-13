@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 05d37fbd-9bdc-478a-8772-6f63d1363c1c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsStreamPointerGetMdl, KsStreamPointerGetMdl, stream.ksstreampointergetmdl, avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, KsStreamPointerGetMdl function [Streaming Media Devices]
+ms.keywords: KsStreamPointerGetMdl, ks/KsStreamPointerGetMdl, stream.ksstreampointergetmdl, KsStreamPointerGetMdl function [Streaming Media Devices], avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to the <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 ## -returns
 
 
+
 Returns either a pointer to the <a href="https://msdn.microsoft.com/a1ec4764-4e11-4fb2-b439-ad6b721eb504">memory descriptor list (MDL)</a> describing the frame referenced by <i>StreamPointer</i> or returns <b>NULL</b>. A <b>NULL</b> return value usually indicates that the given stream pointer was not locked at call-time.
 
 
 
+
 ## -remarks
+
 
 
 The stream pointer <b>must</b> be locked in order for <b>KsStreamPointerGetMdl </b>to execute successfully.
@@ -89,11 +92,16 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-ksstreampointergetirp.md">KsStreamPointerGetIrp</a>
+
+
 
 <a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
-<a href="..\ks\nf-ks-ksstreampointergetirp.md">KsStreamPointerGetIrp</a>
+
 
  
 

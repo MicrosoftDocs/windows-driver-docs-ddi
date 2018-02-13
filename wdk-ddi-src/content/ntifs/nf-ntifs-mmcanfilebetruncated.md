@@ -7,8 +7,8 @@ old-location: ifsk\mmcanfilebetruncated.htm
 old-project: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/MmCanFileBeTruncated, ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: MmCanFileBeTruncated, ntifs/MmCanFileBeTruncated, ifsk.mmcanfilebetruncated, MmCanFileBeTruncated routine [Installable File System Drivers], mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,16 +81,20 @@ Pointer to a variable that specifies the size to which the file is to be truncat
 ## -returns
 
 
+
 <b>MmCanFileBeTruncated</b> returns <b>TRUE</b> if the file can be truncated, <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 <b>MmCanFileBeTruncated</b> must always be called before a file is truncated.
 
 A file cannot be truncated (and <b>MmCanFileBeTruncated</b> will return <b>FALSE</b>) if any of the following are true:
+
 <ul>
 <li>
 An image section exists for the file.
@@ -111,15 +115,20 @@ One or more users hold references to the data section for the file, and <i>NewFi
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmCanFileBeTruncated routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmCanFileBeTruncated routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "*PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], print.branchofficejobdataerror, BranchOfficeJobDataError structure [Print Devices], BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError, PBranchOfficeJobDataError, winsplp/BranchOfficeJobDataError"
+ms.keywords: print.branchofficejobdataerror, BranchOfficeJobDataError structure [Print Devices], PBranchOfficeJobDataError structure pointer [Print Devices], *PBranchOfficeJobDataError, PBranchOfficeJobDataError, BranchOfficeJobDataError, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

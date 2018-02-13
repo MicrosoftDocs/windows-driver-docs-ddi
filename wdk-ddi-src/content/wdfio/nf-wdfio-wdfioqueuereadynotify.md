@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d48dce1-252f-4dc2-85a8-6c25e99ce0ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfioqueuereadynotify, DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, wdf.wdfioqueuereadynotify, PFN_WDFIOQUEUEREADYNOTIFY, WdfIoQueueReadyNotify method, WdfIoQueueReadyNotify, wdfio/WdfIoQueueReadyNotify
+ms.keywords: WdfIoQueueReadyNotify, kmdf.wdfioqueuereadynotify, wdfio/WdfIoQueueReadyNotify, PFN_WDFIOQUEUEREADYNOTIFY, DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, WdfIoQueueReadyNotify method, wdf.wdfioqueuereadynotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,9 @@ An untyped pointer to driver-supplied context information that the framework pas
 ## -returns
 
 
+
 <b>WdfIoQueueReadyNotify</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,7 +137,8 @@ The driver is attempting to deregister its notification callback function, but a
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -145,7 +148,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After a driver has called <b>WdfIoQueueReadyNotify</b> to register a <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function, the framework calls the callback function each time the specified queue's state changes from empty to non-empty. Specifically, the framework calls <i>EvtIoQueueState</i> when a request arrives on an empty queue, even if the driver still owns previously delivered requests from the queue that it has not yet completed.
@@ -163,16 +168,44 @@ When a driver calls <b>WdfIoQueueReadyNotify</b> to register a <a href="..\wdfio
 For more information about the <b>WdfIoQueueReadyNotify</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
 
 
+#### Examples
+
+The following code example registers a driver's <b>EvtIoQueueReady</b> function, so that this function will be called when the specified I/O queue receives an I/O request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Status = WdfIoQueueReadyNotify(
+                               ReadQueue,
+                               EvtIoQueueReady,
+                               myQueueContext
+                               );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
+
+
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
+
+
+
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+
+
 
  
 

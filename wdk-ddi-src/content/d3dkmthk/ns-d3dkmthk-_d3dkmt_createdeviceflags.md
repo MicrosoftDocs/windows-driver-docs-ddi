@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], display.d3dkmt_createdeviceflags, _D3DKMT_CREATEDEVICEFLAGS
+ms.keywords: display.d3dkmt_createdeviceflags, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, _D3DKMT_CREATEDEVICEFLAGS, OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,6 +107,8 @@ This member is reserved and should be set to zero. Setting this member is equiva
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdevice.md">D3DKMT_CREATEDEVICE</a>
+
+
 
  
 

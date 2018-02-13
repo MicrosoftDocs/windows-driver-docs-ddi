@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dee5586d-62fd-4e08-854c-c7d44be60a71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0, _FWPS_CONNECT_REQUEST0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_connect_request0
+ms.keywords: fwpsk/FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml, FWPS_CONNECT_REQUEST0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,18 +79,6 @@ typedef struct _FWPS_CONNECT_REQUEST0 {
 
 
 
-### -field _FWPS_CONNECT_REQUEST0
-
- 
-
-
-### -field previousVersion
-
-The previous version of the connect request data. This read-only field records the modification history of the connect request. If the connect
-     request data has not been previously modified by another WFP filter, 
-     <i>previousVersion</i> will be set to <b>NULL</b>.
-
-
 ### -field localAddressAndPort
 
 The local transport address of the connect request. This is an IPV4 or IPV6 address and TCP port
@@ -121,6 +109,18 @@ The process identifier of the local host process that will be handling traffic t
      engine.
 
 
+### -field previousVersion
+
+The previous version of the connect request data. This read-only field records the modification history of the connect request. If the connect
+     request data has not been previously modified by another WFP filter, 
+     <i>previousVersion</i> will be set to <b>NULL</b>.
+
+
+### -field _FWPS_CONNECT_REQUEST0
+
+ 
+
+
 ### -field modifierFilterId
 
 The value of the 
@@ -134,20 +134,27 @@ The value of the
 ### -field localRedirectHandle
 
  The    redirect handle that the callout driver created by calling the <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a> function.
-<div class="alert"><b>Note</b>  Starting with Windows 8, the <b>localRedirectHandle</b> must be populated for redirection to work.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows 8, the <b>localRedirectHandle</b> must be populated for redirection to work.</div>
+<div> </div>
 
 ### -field localRedirectContext
 
 A callout driver context area that the callout driver allocated by calling the 
     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> function.
-<div class="alert"><b>Note</b>  Starting with Windows 8,  memory allocated for <b>localRedirectContext</b> will have its ownership taken by WFP, and will be freed when the proxied flow is removed.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows 8,  memory allocated for <b>localRedirectContext</b> will have its ownership taken by WFP, and will be freed when the proxied flow is removed.</div>
+<div> </div>
 
 ### -field localRedirectContextSize
 
 The    size, in bytes, of the callout-supplied context area.
-<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The callout driver obtains this structure by calling the 
@@ -159,6 +166,7 @@ The callout driver obtains this structure by calling the
     request's parameters, such as redirecting the local or remote transport address or port to another
     address or port. If it modifies the connect request's parameters, the <i>classifyFn</i> function must do the
     following:
+
 <ul>
 <li>
 Make all changes to the <b>FWPS_CONNECT_REQUEST0</b> structure that was returned by 
@@ -178,7 +186,8 @@ Call
       FwpsAcquireWritableLayerDataPointer0</a>.
 
 </li>
-</ul>This structure acts as a linked list that contains a record of all the changes made by other callout
+</ul>
+This structure acts as a linked list that contains a record of all the changes made by other callout
     drivers. There is previous version information if the 
     <b>previousVersion</b> member is not <b>NULL</b>. To examine the complete version history, the callout driver
     must continue to examine the 
@@ -186,25 +195,42 @@ Call
 
 
 
+
 ## -see-also
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect
-   Redirection</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
    FwpsAcquireWritableLayerDataPointer0</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect
+   Redirection</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterCreatePinFactory, ks/KsFilterCreatePinFactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, KsFilterCreatePinFactory function [Streaming Media Devices], stream.ksfiltercreatepinfactory
+ms.keywords: KsFilterCreatePinFactory, avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, KsFilterCreatePinFactory function [Streaming Media Devices], ks/KsFilterCreatePinFactory, stream.ksfiltercreatepinfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,20 +88,26 @@ A pointer to the location containing the ID of the new factory.
 ## -returns
 
 
+
 <b>KsFilterCreatePinFactory</b> returns the success or failure of the attempt to create the pin factory. Failure may occur due to invalid parameters or low memory.
+
 
 
 
 ## -remarks
 
 
+
 Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksfiltercreatenode.md">KsFilterCreateNode</a>
+
+
 
  
 

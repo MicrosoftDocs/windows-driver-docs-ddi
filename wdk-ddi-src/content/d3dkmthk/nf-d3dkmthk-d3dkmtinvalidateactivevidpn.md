@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7cac46d-b64d-4362-99ab-179aa6525ba2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn, OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, d3dkmthk/D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices]
+ms.keywords: D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], display.d3dkmtinvalidateactivevidpn, d3dkmthk/D3DKMTInvalidateActiveVidPn, OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md">D3DKMT_INVALIDATEACTIVEVIDPN</a> structure that describes parameters that invalidate the active VidPN currently in use.
@@ -89,7 +90,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md
 ## -returns
 
 
+
 <b>D3DKMTInvalidateActiveVidPn</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -164,13 +167,16 @@ The display miniport driver did not recommend a VidPN to replace the VidPN curre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
 
 
 
+
 ## -remarks
+
 
 
 When the <b>D3DKMTInvalidateActiveVidPn</b> function is called to invalidate the VidPN currently in use, the current VidPN is replaced with a new VidPN that the display miniport driver recommends. Because the display miniport driver must recommend a new VidPN, the display miniport driver must be able to determine the display mode that the OpenGL ICD requires from the buffer pointed to by the <b>pPrivateDriverData</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md">D3DKMT_INVALIDATEACTIVEVIDPN</a>.
@@ -179,11 +185,16 @@ The OpenGL ICD can call <b>D3DKMTInvalidateActiveVidPn</b> for display modes (fo
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md">D3DKMT_INVALIDATEACTIVEVIDPN</a>
+
+
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplaymode.md">D3DKMTSetDisplayMode</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md">D3DKMT_INVALIDATEACTIVEVIDPN</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpdisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, ndischimney/NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect
+ms.keywords: NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, ndischimney/NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,10 +101,12 @@ As one of the following values, the type of disconnect to be performed:
 
 
 
+
 #### TCP_DISCONNECT_ABORTIVE_CLOSE
 
 Specifies that the offload target perform an abortive disconnect by sending an RST
        segment.
+
 
 
 #### TCP_DISCONNECT_GRACEFUL_CLOSE
@@ -115,13 +117,16 @@ Specifies that the offload target perform a graceful disconnect by sending a FIN
 ## -returns
 
 
+
 The 
      <b>NdisOffloadTcpDisconnect</b> function always returns NDIS_STATUS_PENDING. The disconnect operation is
      always completed asynchronously.
 
 
 
+
 ## -remarks
+
 
 
 In response to a call to its 
@@ -134,6 +139,7 @@ In response to a call to its
 To the 
     <b>NdisOffloadTcp<i>Xxx</i></b>
      function, the intermediate driver passes the following:
+
 <ul>
 <li>
 An 
@@ -154,7 +160,8 @@ The same
       <i>MiniportTcpOffloadDisconnect</i> function.
 
 </li>
-</ul>When the underlying driver or offload target subsequently completes the disconnect operation by
+</ul>
+When the underlying driver or offload target subsequently completes the disconnect operation by
     calling the 
     <b>NdisTcpOffloadDisconnectComplete</b> function, NDIS calls the intermediate driver's 
     <i>ProtocolOffloadDisconnectComplete</i> function. The intermediate driver then calls the 
@@ -163,22 +170,35 @@ The same
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
-   NdisTcpOffloadDisconnectComplete</a>
 
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
    ProtocolTcpOffloadDisconnectComplete</a>
 
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+   NdisTcpOffloadDisconnectComplete</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
    MiniportTcpOffloadDisconnect</a>
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
 
  
 

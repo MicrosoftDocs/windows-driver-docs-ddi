@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, ExInitializeDeleteTimerParameters, wdm/ExInitializeDeleteTimerParameters
+ms.keywords: ExInitializeDeleteTimerParameters, kernel.exinitializedeletetimerparameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], wdm/ExInitializeDeleteTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,30 @@ A pointer to the <b>EXT_DELETE_PARAMETERS</b> structure that is to be initialize
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 Your driver must call <b>ExInitializeDeleteTimerParameters</b> to initialize an <b>EXT_DELETE_PARAMETERS</b> structure before the driver passes this structure to the <a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a> routine. For more information about the member values that <b>ExInitializeDeleteTimerParameters</b> writes to the members of this structure, see <a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
+
+
+
 <a href="..\wdm\ns-wdm-_ext_delete_parameters.md">EXT_DELETE_PARAMETERS</a>
 
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
+
 
  
 

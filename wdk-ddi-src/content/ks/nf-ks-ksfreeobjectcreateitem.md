@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66f62a55-0bed-48ed-ae79-042bffe75b70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFreeObjectCreateItem, stream.ksfreeobjectcreateitem, ks/KsFreeObjectCreateItem, ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, KsFreeObjectCreateItem function [Streaming Media Devices]
+ms.keywords: ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, ks/KsFreeObjectCreateItem, stream.ksfreeobjectcreateitem, KsFreeObjectCreateItem, KsFreeObjectCreateItem function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,20 +82,26 @@ Contains the name of the create item to free.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the item was freed, else STATUS_OBJECT_NAME_NOT_FOUND.
+
 
 
 
 ## -remarks
 
 
+
 This function does not assume that the caller is serializing multiple changes to the create entry list.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksfreeobjectcreateitemsbycontext.md">KsFreeObjectCreateItemsByContext</a>
+
+
 
  
 

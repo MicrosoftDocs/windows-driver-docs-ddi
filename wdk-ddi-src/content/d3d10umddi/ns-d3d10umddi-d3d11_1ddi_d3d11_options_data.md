@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de5fa80e-d3bd-40ef-8e4d-07a0a336f25c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_D3D11_OPTIONS_DATA, D3D11_1DDI_D3D11_OPTIONS_DATA structure [Display Devices], display.d3d11_1ddi_d3d11_options_data, d3d10umddi/D3D11_1DDI_D3D11_OPTIONS_DATA
+ms.keywords: display.d3d11_1ddi_d3d11_options_data, d3d10umddi/D3D11_1DDI_D3D11_OPTIONS_DATA, D3D11_1DDI_D3D11_OPTIONS_DATA, D3D11_1DDI_D3D11_OPTIONS_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Specifies whether the driver supports the <a href="..\d3d10umddi\nc-d3d10umddi-p
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary.md">AssignDebugBinary</a>
+
+
 
  
 

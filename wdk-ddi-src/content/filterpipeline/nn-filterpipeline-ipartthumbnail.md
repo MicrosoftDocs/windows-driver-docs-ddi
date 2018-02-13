@@ -89,6 +89,8 @@ The <b>SetThumbnailContent</b> method sets the thumbnail content for the part.
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
+
+
  
 
  

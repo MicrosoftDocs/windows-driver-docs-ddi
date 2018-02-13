@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportreadregisterbufferuchar, scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, srb/ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], ScsiPortReadRegisterBufferUchar
+ms.keywords: scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, storage.scsiportreadregisterbufferuchar, ScsiPortReadRegisterBufferUchar, srb/ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,20 +89,26 @@ Specifies the number of bytes to be read from the HBA.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>ScsiPortReadRegisterBufferUchar</b> ensures that the data is transferred correctly.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

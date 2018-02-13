@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b6780f1c-e093-4d91-8909-dabb1ecaefaa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/GetCurrentProcessHandle, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects2, debugger.getcurrentprocesshandle, IDebugSystemObjects3, IDebugSystemObjects3::GetCurrentProcessHandle, GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], IDebugSystemObjects, IDebugSystemObjects::GetCurrentProcessHandle
+ms.keywords: debugger.getcurrentprocesshandle, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, wdbgexts/GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], GetCurrentProcessHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,7 +68,7 @@ __inline VOID GetCurrentProcessHandle(
 
 
 
-#### - hp
+### -param hp
 
 Receives the system handle for the current process.
 
@@ -76,13 +76,17 @@ Receives the system handle for the current process.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 In kernel-mode debugging, the only process in the target is the virtual process created for the kernel. In this case, an artificial handle is created. The artificial handle can only be used with the debugger.
+
 
 

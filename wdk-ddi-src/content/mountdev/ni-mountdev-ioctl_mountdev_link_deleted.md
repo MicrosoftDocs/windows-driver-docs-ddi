@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_MOUNTDEV_LINK_DELETED
 product: Windows
 targetos: Windows
-req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
+req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 ---
 
 # IOCTL_MOUNTDEV_LINK_DELETED IOCTL
@@ -85,14 +85,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,8 @@ No status.
 ## -see-also
 
 <a href="..\mountmgr\ns-mountmgr-_mountdev_name.md">MOUNTDEV_NAME</a>
+
+
 
  
 

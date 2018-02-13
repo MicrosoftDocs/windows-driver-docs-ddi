@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinterlockedflushslist, StorPortInterlockedFlushSList, storport/StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices]
+ms.keywords: StorPortInterlockedFlushSList routine [Storage Devices], storport/StorPortInterlockedFlushSList, storage.storportinterlockedflushslist, StorPortInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a list entry pointer. The value returned is a pointer to  the items
 ## -returns
 
 
+
 <b>StorPortInterlockedFlushSList</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,26 +129,38 @@ A pointer in <i>SListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>StorPortInterlockedFlushSList</b> will also return <b>STATUS_SUCCESS</b> when no entries are in the list. The pointer value referenced by <i>Result</i> must be evaluated for <b>NULL</b> to verify that no entries were returned.
+
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+
+
+
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+
+
 
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvPerformCapabilityMatch
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -120,8 +120,10 @@ A pointer to a
      scan operation, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
      
+
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
-     service set (BSS) networks.</div><div> </div>
+     service set (BSS) networks.</div>
+<div> </div>
 
 ### -param pdwReasonCode [out]
 
@@ -134,6 +136,7 @@ A pointer to a DWORD value, which provides additional information for the return
 ## -returns
 
 
+
 If all of the entries in the list of 802.11 Beacon and Probe Response frames support the
      connectivity and security attributes defined in the profile fragments, the function returns
      ERROR_SUCCESS. Otherwise, it returns an error code defined in 
@@ -141,7 +144,9 @@ If all of the entries in the list of 802.11 Beacon and Probe Response frames sup
 
 
 
+
 ## -remarks
+
 
 
 After the WLAN adapter has completed a scan operation to detect the BSS networks within range, the
@@ -152,6 +157,7 @@ After the WLAN adapter has completed a scan operation to detect the BSS networks
 When the 
     <i>Dot11ExtIhvPerformCapabilityMatch</i> function is called, the IHV Extensions DLL must follow these
     guidelines.
+
 <ul>
 <li>
 If the IHV Extensions DLL finds at least one IEEE 802.11 Beacon or Probe Response frame that matches
@@ -194,23 +200,35 @@ In this situation, the
       <i>Dot11ExtIhvPerformCapabilityMatch</i> function must not return ERROR_SUCCESS.
 
 </li>
-</ul>For more information about the Native 802.11 XML schema, refer to the Microsoft Windows SDK
+</ul>
+For more information about the Native 802.11 XML schema, refer to the Microsoft Windows SDK
     documentation.
+
 
 
 
 ## -see-also
 
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
+
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
    DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+
+
+
+<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+
+
 
  
 

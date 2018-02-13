@@ -80,6 +80,8 @@ The <a href="https://msdn.microsoft.com/67c85eaa-bb47-4384-8e37-fdbbc879b352">On
 ## -remarks
 
 
+
 A driver registers the <b>IRequestCallbackCancel</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> method to enable the canceling of an I/O request. For more information about how to cancel I/O requests, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+
 
 

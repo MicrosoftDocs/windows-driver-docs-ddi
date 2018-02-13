@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b697241-6411-4fb0-b633-502233f2d155
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetGenerationalGuid_OUT, iscsiop/SetGenerationalGuid_OUT, SetGenerationalGuid_OUT structure [Storage Devices], PSetGenerationalGuid_OUT structure pointer [Storage Devices], iscsiop/PSetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT, storage.setgenerationalguid_out, _SetGenerationalGuid_OUT, structs-iSCSI_80d71c4a-f542-4b19-9bbe-b1e8e7cc21cd.xml, SetGenerationalGuid_OUT
+ms.keywords: storage.setgenerationalguid_out, iscsiop/PSetGenerationalGuid_OUT, _SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT, PSetGenerationalGuid_OUT structure pointer [Storage Devices], PSetGenerationalGuid_OUT, iscsiop/SetGenerationalGuid_OUT, SetGenerationalGuid_OUT, structs-iSCSI_80d71c4a-f542-4b19-9bbe-b1e8e7cc21cd.xml, SetGenerationalGuid_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,25 @@ On output, the status of the <b>SetGenerationalGuid</b> operation. For a list of
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-
 <a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_in.md">SetGenerationalGuid_IN</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+
+
 
  
 

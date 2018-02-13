@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E2939DFA-52EC-4AA7-ACC6-63D60603A24D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_processor_idle_constraints, _PEP_PROCESSOR_IDLE_CONSTRAINTS, PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS, pep_x/PEP_PROCESSOR_IDLE_CONSTRAINTS, *PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], pep_x/PPEP_PROCESSOR_IDLE_CONSTRAINTS
+ms.keywords: pep_x/PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS, pep_x/PEP_PROCESSOR_IDLE_CONSTRAINTS, PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS structure [Kernel-Mode Driver Architecture], kernel.pep_processor_idle_constraints, _PEP_PROCESSOR_IDLE_CONSTRAINTS, PPEP_PROCESSOR_IDLE_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_IDLE_CONSTRAINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PROCESSOR_IDLE_CONSTRAINTS
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_IDLE_CONSTRAINTS, *PPEP_PROCESSOR_IDLE_CONSTRAINTS
+req.typenames: "*PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS"
 ---
 
 # _PEP_PROCESSOR_IDLE_CONSTRAINTS structure
@@ -87,7 +87,9 @@ A <a href="..\pep_x\ne-pep_x-ppep_processor_idle_type.md">PEP_PROCESSOR_IDLE_TYP
 ## -remarks
 
 
+
 The <b>Constraints</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_select.md">PEP_PPM_IDLE_SELECT</a> structure is a pointer to a <b>PEP_PROCESSOR_IDLE_CONSTRAINTS</b> structure.
+
 
 
 
@@ -95,7 +97,11 @@ The <b>Constraints</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_se
 
 <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_select.md">PEP_PPM_IDLE_SELECT</a>
 
+
+
 <a href="..\pep_x\ne-pep_x-ppep_processor_idle_type.md">PEP_PROCESSOR_IDLE_TYPE</a>
+
+
 
  
 

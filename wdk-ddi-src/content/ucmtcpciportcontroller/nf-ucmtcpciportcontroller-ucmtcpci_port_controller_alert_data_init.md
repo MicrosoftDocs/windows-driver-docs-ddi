@@ -7,8 +7,8 @@ old-location: buses\ucmtcpci_port_controller_alert_data_init.htm
 old-project: usbref
 ms.assetid: 7c3276cc-9194-4c18-b1d8-2795efbeb357
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT method [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT, buses.ucmtcpci_port_controller_alert_data_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
+ms.date: 2/8/2018
+ms.keywords: ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT method [Buses], buses.ucmtcpci_port_controller_alert_data_init, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,8 @@ A pointer to the driver-allocated <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> str
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], NdisAllocateFragmentNetBufferList, netvista.ndisallocatefragmentnetbufferlist, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml
+ms.keywords: ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, netvista.ndisallocatefragmentnetbufferlist, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAllocateFragmentNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateFragmentNetBufferList function
@@ -145,12 +145,15 @@ A NET_BUFFER structure pool handle that was previously returned from a call to
 ## -returns
 
 
+
 <b>NdisAllocateFragmentNetBufferList</b> returns a pointer to a new fragmented NET_BUFFER_LIST structure.
      If the allocation failed, the return value is <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisAllocateFragmentNetBufferList</b> allocates and initializes a new fragment 
@@ -167,6 +170,7 @@ If the fragment NET_BUFFER_LIST structure should have attributes that are associ
 
 For each NET_BUFFER structure in the specified source NET_BUFFER_LIST structure, NDIS creates the
     fragment NET_BUFFER structures as follows:
+
 <ul>
 <li>
 NDIS creates the fragments starting from the beginning of the 
@@ -204,7 +208,8 @@ If NDIS must allocate memory to supply the data space requested in
       <i>DataBackFill</i> specifies.
 
 </li>
-</ul>The new fragment NET_BUFFER_LIST structure that 
+</ul>
+The new fragment NET_BUFFER_LIST structure that 
     <b>NdisAllocateFragmentNetBufferList</b> creates does not include an initial 
     <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
     NET_BUFFER_LIST_CONTEXT</a> structure.
@@ -217,21 +222,34 @@ Call the
 
 
 
-## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
    NdisFreeFragmentNetBufferList</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
    NdisAllocateNetBufferListPool</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+
 
  
 

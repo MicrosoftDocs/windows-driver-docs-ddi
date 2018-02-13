@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AssignS0IdleSettings, umdf.iwdfdevice2_assigns0idlesettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, IWDFDevice2::AssignS0IdleSettings, IWDFDevice2 interface, AssignS0IdleSettings method, AssignS0IdleSettings method, IWDFDevice2 interface, wudfddi/IWDFDevice2::AssignS0IdleSettings, wdf.iwdfdevice2_assigns0idlesettings, AssignS0IdleSettings method, IWDFDevice2
+ms.keywords: IWDFDevice2::AssignS0IdleSettings, AssignS0IdleSettings method, IWDFDevice2 interface, umdf.iwdfdevice2_assigns0idlesettings, IWDFDevice2 interface, AssignS0IdleSettings method, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, wudfddi/IWDFDevice2::AssignS0IdleSettings, AssignS0IdleSettings, AssignS0IdleSettings method, IWDFDevice2, wdf.iwdfdevice2_assigns0idlesettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -110,7 +110,9 @@ If powering down is enabled, the device has a wake-up capability, and the idle t
 ## -returns
 
 
+
 <b>AssignS0IdleSettings</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,16 +151,20 @@ The <i>DxState</i> parameter specifies an invalid device power state, or the <i>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
+
 
 
 
 ## -remarks
 
 
+
 The first time a driver calls <b>AssignS0IdleSettings</b>, the following actions occur:
+
 <ul>
 <li>
 The framework stores the values of all parameters. 
@@ -168,7 +174,8 @@ The framework stores the values of all parameters.
 If the <i>UserControlOfIdleSettings</i> parameter is set to <b>IdleAllowUserControl</b> and if the <i>Enabled</i> parameter is set to <b>WdfUseDefault</b>, the framework reads the registry to find out if the user has enabled powering down the device when it is idle.
 
 </li>
-</ul>During subsequent calls to <b>AssignS0IdleSettings</b>, the framework only stores the values of the <i>DxState</i>, <i>IdleTimeout</i>, and <i>Enabled</i> parameters. Also, the framework stores the value of the <i>IdleCaps</i> parameter subject to the following rules:
+</ul>
+During subsequent calls to <b>AssignS0IdleSettings</b>, the framework only stores the values of the <i>DxState</i>, <i>IdleTimeout</i>, and <i>Enabled</i> parameters. Also, the framework stores the value of the <i>IdleCaps</i> parameter subject to the following rules:
 
 
 <ul>
@@ -184,6 +191,7 @@ If the driver has ever specified <b>IdleUsbSelectiveSuspend</b> for the <i>IdleC
 
 
 The following rules apply to the value that you specify for the <i>DxState</i> parameter:
+
 <ul>
 <li>
 The value cannot be <b>PowerDeviceD0</b>. 
@@ -201,21 +209,66 @@ If you specify <b>DevicePowerMaximum</b>, the framework uses the value that the 
 If the value of the <i>IdleCaps</i> parameter is <b>IdleCanWakeFromS0</b> or <b>IdleUsbSelectiveSuspend</b>, you cannot specify a device power state that is lower than the device power state in the <b>DeviceWake</b> member of the kernel-mode bus driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure. (In other words, if the bus driver's <b>DeviceWake</b> value is <b>PowerDeviceD2</b>, your function driver's <i>DxState</i> value cannot be <b>PowerDeviceD3</b>.) 
 
 </li>
-</ul>If you specify <b>IdleTimeoutDefaultValue</b> for the <i>IdleTimeout</i> parameter, the timeout defaults to five seconds. You can examine the output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566199">!wudfext.wudfdevice</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff566191">!wudfext.umdevstacks</a> debugger extensions to see the effective settings and power references.
+</ul>
+If you specify <b>IdleTimeoutDefaultValue</b> for the <i>IdleTimeout</i> parameter, the timeout defaults to five seconds. You can examine the output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566199">!wudfext.wudfdevice</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff566191">!wudfext.umdevstacks</a> debugger extensions to see the effective settings and power references.
 
 For information about registry entries that control a device's idle capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior-in-umdf">User Control of Device Idle and Wake Behavior in UMDF</a>. 
 
 For more information about supporting a device's idle capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+The following code example is based on the UMDF version of the toaster sample. The example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>AssignS0IdleSettings</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    IWDFDevice2 *pIWDFDevice2 = NULL;
+    HRESULT hr;
+
+    //
+    // Get a pointer to the IWDFDevice2 interface.
+    //
+    hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
+                                     (void**) &amp;pIWDFDevice2);
+    if (SUCCEEDED(hr)) 
+    {
+    //
+    // The toaster device is virtual, so we tell the framework that the 
+    // device cannot wake if it sleeps while the system is in S0. The device 
+    // can return to D0 only when the driver stack receives an I/O request.
+    //
+    hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleCannotWakeFromS0,
+                                            PowerDeviceD3,
+                                            IDLEWAKE_TIMEOUT_MSEC,
+                                            IdleAllowUserControl,
+                                            WdfTrue);
+    }
+...
+    SAFE_RELEASE(pIWDFDevice2);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
 
+
+
 <a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
 
  
 

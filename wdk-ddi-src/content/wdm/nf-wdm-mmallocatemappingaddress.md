@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8d5fea6-d0fd-4dc4-b8ec-10c72381285b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmAllocateMappingAddress, k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], MmAllocateMappingAddress
+ms.keywords: kernel.mmallocatemappingaddress, k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], MmAllocateMappingAddress, wdm/MmAllocateMappingAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,24 +82,34 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 ## -returns
 
 
+
 <b>MmAllocateMappingAddress</b> returns a pointer to the beginning of the reserved memory buffer.
+
 
 
 
 ## -remarks
 
 
+
 <b>MmAllocateMappingAddress</b> reserves a system virtual address range for the caller to use. No physical memory is allocated for the virtual address range and the virtual memory cannot be accessed until it is mapped by the <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a> routine. The caller unmaps the reserved memory range by calling the <a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a> routine. Finally, the caller can free the reserved range by calling <a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
-
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+
+
 
  
 

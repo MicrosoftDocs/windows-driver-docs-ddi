@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d037ff74-a0fb-49a6-8e42-ceac1be61464
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetGeolocationData, rilapi/RIL_SetGeolocationData, netvista.ril_setgeolocationdata, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SetGeolocationData, rilapi/RIL_SetGeolocationData, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista], netvista.ril_setgeolocationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_SetGeolocationData(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param pGeolocationData
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

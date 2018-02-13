@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9fc4662f-e827-473a-8e18-f60afb62cd5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsendrttdataparams_2, RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
+ms.keywords: RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS, netvista.rilsendrttdataparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSENDRTTDATAPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
+req.typenames: "*LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,15 +74,11 @@ typedef struct _RILSENDRTTDATAPARAMS {
 ### -field cbSize
 
 
-
 ### -field dwID
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field wszRTTText
-
 

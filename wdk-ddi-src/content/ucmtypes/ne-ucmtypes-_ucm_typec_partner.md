@@ -7,8 +7,8 @@ old-location: buses\ucm_type_c_port_state.htm
 old-project: usbref
 ms.assetid: 4779E943-5C13-4DE2-AF8F-37657F0F99C0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucmtypes/UcmTypeCPartnerStateDfp, UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateDfp, ucmtypes/UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER enumeration [Buses], ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, buses.ucm_type_c_port_state, ucmtypes/UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStateUfp, _UCM_TYPEC_PARTNER, UcmTypeCPartnerStatePoweredCableNoUfp, ucmtypes/UcmTypeCPartnerStateUfp, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStateInvalid, UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateInvalid
+ms.date: 2/8/2018
+ms.keywords: "_UCM_TYPEC_PARTNER, UcmTypeCPartnerStateInvalid, ucmtypes/UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, buses.ucm_type_c_port_state, ucmtypes/UcmTypeCPartnerStateInvalid, ucmtypes/UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStateUfp, UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateUfp, ucmtypes/UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateDebugAccessory, UCM_TYPEC_PARTNER, UcmTypeCPartnerStateDfp, UCM_TYPEC_PARTNER enumeration [Buses], ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStatePoweredCableWithUfp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,25 +77,19 @@ typedef enum _UCM_TYPEC_PARTNER {
 ### -field UcmTypeCPartnerInvalid
 
 
-
 ### -field UcmTypeCPartnerUfp
-
 
 
 ### -field UcmTypeCPartnerDfp
 
 
-
 ### -field UcmTypeCPartnerPoweredCableNoUfp
-
 
 
 ### -field UcmTypeCPartnerPoweredCableWithUfp
 
 
-
 ### -field UcmTypeCPartnerAudioAccessory
-
 
 
 ### -field UcmTypeCPartnerDebugAccessory
@@ -142,11 +136,15 @@ The partner is a debug accessory.
 
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
+
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_TYPEC_PARTNER enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_TYPEC_PARTNER enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

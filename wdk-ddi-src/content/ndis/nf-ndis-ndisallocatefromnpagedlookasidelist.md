@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df690a05-359d-44f0-b063-4fc21d6c4d76
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFromNPagedLookasideList, netvista.ndisallocatefromnpagedlookasidelist, NdisAllocateFromNPagedLookasideList, ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml
+ms.keywords: NdisAllocateFromNPagedLookasideList, NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFromNPagedLookasideList, ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml, netvista.ndisallocatefromnpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisAllocateFromNPagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateFromNPagedLookasideList macro
@@ -76,6 +76,8 @@ TBD
 
 
 
+
+
 #### - Lookaside [in]
 
 A pointer to the head of the lookaside list from which the entry will be allocated. The caller
@@ -85,6 +87,7 @@ A pointer to the head of the lookaside list from which the entry will be allocat
 
 
 ## -remarks
+
 
 
 If the lookaside list is not empty, 
@@ -111,16 +114,23 @@ All entries that are allocated from a nonpaged lookaside list are of a fixed siz
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
    NdisFreeToNPagedLookasideList</a>
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
-   NdisInitializeNPagedLookasideList</a>
+
 
 <a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
    NdisDeleteNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+   NdisInitializeNPagedLookasideList</a>
+
+
 
  
 

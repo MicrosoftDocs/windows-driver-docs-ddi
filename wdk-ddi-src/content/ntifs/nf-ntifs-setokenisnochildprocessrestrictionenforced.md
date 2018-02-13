@@ -7,8 +7,8 @@ old-location: ifsk\setokenisnochildprocessrestrictionenforced.htm
 old-project: ifsk
 ms.assetid: 6D214346-8CE6-4E9C-B054-1C72B928ED2B
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SeTokenIsNoChildProcessRestrictionEnforced, ifsk.setokenisnochildprocessrestrictionenforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ntifs/SeTokenIsNoChildProcessRestrictionEnforced
+ms.date: 2/7/2018
+ms.keywords: SeTokenIsNoChildProcessRestrictionEnforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ntifs/SeTokenIsNoChildProcessRestrictionEnforced, ifsk.setokenisnochildprocessrestrictionenforced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,8 @@ Optionally provides a pointer to the value that will
 ## -returns
 
 
+
 This routine returns <b>TRUE</b> if <i>Token</i> carries the no child process restriction.
+
 
 

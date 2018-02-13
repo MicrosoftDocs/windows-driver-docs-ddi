@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 73C64B54-8181-491A-A418-75FC7012888F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_transmit_config_init
+ms.keywords: SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, serports.sercx2_custom_transmit_config_init, 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to the <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_config.md">S
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_config.md">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a> method.
@@ -89,11 +92,16 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_config.md">SERCX2_CUSTOM_TRANSMIT_CONFIG</a>
 
+
+
 <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
+
+
 
  
 

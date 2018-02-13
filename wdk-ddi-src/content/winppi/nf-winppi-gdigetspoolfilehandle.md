@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c820ee94-29c2-4478-884c-49dd68cd713a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GdiGetSpoolFileHandle, winppi/GdiGetSpoolFileHandle, gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, print.gdigetspoolfilehandle, GdiGetSpoolFileHandle function [Print Devices]
+ms.keywords: gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, winppi/GdiGetSpoolFileHandle, GdiGetSpoolFileHandle function [Print Devices], GdiGetSpoolFileHandle, print.gdigetspoolfilehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -42,7 +42,7 @@ apiname:
 -	GdiGetSpoolFileHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -90,16 +90,20 @@ Caller-supplied pointer to the print job's document name. See the following Rema
 ## -returns
 
 
+
 If the operation succeeds, the function returns a spool file handle. Otherwise the function returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>GdiGetSpoolFileHandle</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
 
 When a print processor calls <b>GdiGetSpoolFileHandle</b>, it should supply arguments as illustrated in the following table.
+
 <table>
 <tr>
 <th>Parameter</th>
@@ -135,7 +139,8 @@ Document name pointer received by the print processor's <a href="..\winsplp\nf-w
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 A print processor must call the <b>GdiGetSpoolFileHandle</b> function before calling any other GDI printing functions, because the returned handle must be passed to the other functions. The function calls OpenPrinter to open a connection to the printer, and CreateDC to create a device context for drawing. The print processor can obtain the device context's handle by calling <a href="..\winppi\nf-winppi-gdigetdc.md">GdiGetDC</a>.
 
@@ -143,9 +148,12 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 
 
+
 ## -see-also
 
 <a href="..\winppi\nf-winppi-gdideletespoolfilehandle.md">GdiDeleteSpoolFileHandle</a>
+
+
 
  
 

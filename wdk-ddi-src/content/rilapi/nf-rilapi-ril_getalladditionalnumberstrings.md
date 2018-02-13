@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fc0f5a3b-3ab0-4103-85a2-f7b5ce64ec79
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapi/RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], RIL_GetAllAdditionalNumberStrings, netvista.ril_getalladditionalnumberstrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetAllAdditionalNumberStrings(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

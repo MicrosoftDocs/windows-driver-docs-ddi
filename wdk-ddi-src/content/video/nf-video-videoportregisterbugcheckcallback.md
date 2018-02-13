@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55b2d603-f3ac-4a7a-91f5-83d908d1e14b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportregisterbugcheckcallback, VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, video/VideoPortRegisterBugcheckCallback
+ms.keywords: VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, VideoPortRegisterBugcheckCallback function [Display Devices], VideoPortRegisterBugcheckCallback, video/VideoPortRegisterBugcheckCallback, display.videoportregisterbugcheckcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ Indicates the sum of BUGCHECK_DATA_SIZE_RESERVED and the number of bytes of data
 ## -returns
 
 
+
 <b>VideoPortRegisterBugcheckCallback</b> returns NO_ERROR if it succeeds. Otherwise, it returns a status code indicating the nature of the failure. 
 
 
 
+
 ## -remarks
+
 
 
 If you are developing a video miniport driver intended to run on Windows XP or an earlier NT-base operating system, you can use the <a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a> callback routine to find the address of the <b>VideoPortRegisterBugcheckCallback</b> function. For details, see <a href="https://msdn.microsoft.com/48dace7e-7ba3-48bf-9788-469ff42f6fe3">Using VideoPortGetProcAddress</a>.
@@ -115,9 +118,12 @@ For more information, see <a href="https://msdn.microsoft.com/181fd4f2-feed-4759
 
 
 
+
 ## -see-also
 
 <a href="..\video\nc-video-pvideo_bugcheck_callback.md">HwVidBugcheckCallback</a>
+
+
 
  
 

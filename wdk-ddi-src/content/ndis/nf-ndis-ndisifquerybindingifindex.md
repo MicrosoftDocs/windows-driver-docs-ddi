@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 08f31584-b3ea-4e6e-b8ce-17813ca7c06b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, ndis/NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex, netvista.ndisifquerybindingifindex
+ms.keywords: NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], netvista.ndisifquerybindingifindex, ndis/NdisIfQueryBindingIfIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIfQueryBindingIfIndex
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIfQueryBindingIfIndex function
@@ -117,7 +117,9 @@ A pointer to a caller-supplied NET_LUID variable. If
 ## -returns
 
 
+
 <b>NdisIfQueryBindingIfIndex</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,11 +148,14 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS protocol drivers can call the 
@@ -170,13 +175,20 @@ Protocol drivers can also obtain the interface index and NET_LUID of the highest
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
 
  
 

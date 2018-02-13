@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin, ks/KsPinGetNextSiblingPin, KsPinGetNextSiblingPin function [Streaming Media Devices]
+ms.keywords: avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, KsPinGetNextSiblingPin function [Streaming Media Devices], KsPinGetNextSiblingPin, ks/KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,24 +76,34 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 ## -returns
 
 
+
 <b>KsPinGetNextSiblingPin</b> returns a pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the next instantiated sibling pin of <i>Pin</i>. If no such pin exists, returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 <b>KsPinGetNextSiblingPin</b> is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>. Note that the object hierarchy is only stable while the appropriate mutex is held, in this case the filter control mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
-
 <a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
 
+
+
+<a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
+
+
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, display.d3dkmtqueryresourceinfo, D3DKMTQueryResourceInfo function [Display Devices], D3DKMTQueryResourceInfo, d3dkmthk/D3DKMTQueryResourceInfo
+ms.keywords: d3dkmthk/D3DKMTQueryResourceInfo, D3DKMTQueryResourceInfo function [Display Devices], display.d3dkmtqueryresourceinfo, D3DKMTQueryResourceInfo, OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTQueryResourceInfo(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryresourceinfo.md">D3DKMT_QUERYRESOURCEINFO</a> structure that contains parameters for retrieving information about a shared resource.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryresourceinfo.md">D3
 ## -returns
 
 
+
 <b>D3DKMTQueryResourceInfo</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,13 +132,16 @@ The size of all of the private driver data was too big to return to the OpenGL I
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
 
 
 
+
 ## -remarks
+
 
 
 The OpenGL ICD typically calls <b>D3DKMTQueryResourceInfo</b> to obtain information about the resource and then uses this information to allocate the appropriate buffers for a call to <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>.
@@ -144,11 +150,16 @@ For an example of how an OpenGL ICD can use <b>D3DKMTQueryResourceInfo</b> to re
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
+
+
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryresourceinfo.md">D3DKMT_QUERYRESOURCEINFO</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
+
 
  
 

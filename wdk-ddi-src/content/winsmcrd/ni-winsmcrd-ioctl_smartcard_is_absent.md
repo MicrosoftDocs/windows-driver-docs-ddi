@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SMARTCARD_IS_ABSENT
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -74,7 +74,9 @@ None.
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -86,27 +88,34 @@ None.
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -133,10 +142,12 @@ None.
 <td>STATUS_DEVICE_POWERED_OFF</td>
 <td>This code is returned when the proximity radio control is off.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following actions are required when using this IOCTL:<ul>
@@ -151,11 +162,16 @@ The driver must support CancelIo on this pended IOCTL.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+
+
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+
 
  
 

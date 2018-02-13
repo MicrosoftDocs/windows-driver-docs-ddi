@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c304fd47-a9c7-46bd-819f-6751eba25459
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices], d3dkmddi/DXGK_SEGMENTDESCRIPTOR3, display.dxgk_segmentdescriptor3, _DXGK_SEGMENTDESCRIPTOR3
+ms.keywords: d3dkmddi/DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3, display.dxgk_segmentdescriptor3, _DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,6 +113,7 @@ For AGP-type aperture segments (where the <b>Agp</b> bit-field flag is specified
 ### -field pBankRangeTable
 
 [out] An array of values that indicates the ranges that delimit each bank in the segment. The array specifies the end addresses of the first bank through the <i>n</i>âˆ’1 bank (that is, the end offsets into the segment for each bank). Note the following: 
+
 <ul>
 <li>
 Banks are contiguous.
@@ -154,23 +155,35 @@ This member is reserved and should be set to zero.
 ## -remarks
 
 
+
 This structure is used by a WDDM 1.2 or later  display miniport drivers to return information about memory segments in response to a <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function call in which the graphics subsystem specifies the <b>DXGKQAITYPE_QUERYSEGMENT3</b> value in the <b>Type</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a> structure.
 
 This structure is pointed to by the <b>pSegmentDescriptor</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a> structure.
 
 
 
+
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
+
+
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>
+
+
 
  
 

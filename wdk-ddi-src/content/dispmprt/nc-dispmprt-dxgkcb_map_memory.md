@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbMapMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_MAP_MEMORY callback
@@ -109,6 +109,7 @@ A <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumer
 ### -param *VirtualAddress [out]
 
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
+
 <table>
 <tr>
 <td></td>
@@ -125,26 +126,33 @@ A pointer to a variable that receives the address of the beginning of the mapped
 <td>READ_PORT_X WRITE_PORT_X</td>
 <td>Not possible.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>DxgkCbMapMemory</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The PHYSICAL_ADDRESS data type is defined in <i>Ntdef.h</i>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
 
  
 

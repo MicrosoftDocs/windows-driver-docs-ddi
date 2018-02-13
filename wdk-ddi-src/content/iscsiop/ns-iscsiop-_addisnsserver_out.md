@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c02d19-9e96-4fd6-b950-ae02b6f3bba4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AddiSNSServer_OUT structure [Storage Devices], structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml, *PAddiSNSServer_OUT, iscsiop/AddiSNSServer_OUT, _AddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, PAddiSNSServer_OUT, storage.addisnsserver_out, AddiSNSServer_OUT, PAddiSNSServer_OUT structure pointer [Storage Devices]
+ms.keywords: iscsiop/AddiSNSServer_OUT, AddiSNSServer_OUT, _AddiSNSServer_OUT, *PAddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, PAddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml, storage.addisnsserver_out, PAddiSNSServer_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddiSNSServer_OUT
 product: Windows
 targetos: Windows
-req.typenames: AddiSNSServer_OUT, *PAddiSNSServer_OUT
+req.typenames: "*PAddiSNSServer_OUT, AddiSNSServer_OUT"
 ---
 
 # _AddiSNSServer_OUT structure
@@ -75,7 +75,9 @@ On output from <b>AddISNSServer</b>, the status of the <b>AddISNSServer</b> oper
 ## -remarks
 
 
+
 It is optional that you implement this method.
+
 
 
 
@@ -83,9 +85,15 @@ It is optional that you implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 
 <a href="..\iscsiop\ns-iscsiop-_addisnsserver_in.md">AddiSNSServer_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
 
  
 

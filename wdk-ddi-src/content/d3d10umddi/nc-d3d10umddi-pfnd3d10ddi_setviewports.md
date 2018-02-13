@@ -40,7 +40,7 @@ apiname:
 -	SetViewports
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETVIEWPORTS callback
@@ -76,7 +76,6 @@ VOID APIENTRY SetViewports(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param NumViewports [in]
 
  The total number of viewports that the <i>pViewports</i> parameter specifies. 
@@ -96,6 +95,8 @@ Note that the number that <i>ClearViewports</i> specifies is only an optimizatio
 
 
 
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -109,16 +110,20 @@ Note that the number that <i>ClearViewports</i> specifies is only an optimizatio
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
 
 
+
 Viewports specify the transformation post clip to the output render target and depth stencil resources. Any viewports that are not defined in a call to <i>SetViewports</i> are set to <b>NULL</b>. A <b>NULL</b> viewport is defined as follows. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,7 +140,8 @@ Viewports specify the transformation post clip to the output render target and d
 } D3D10_DDI_VIEWPORT;</pre>
 </td>
 </tr>
-</table></span></div>This definition implies that the viewport is off.
+</table></span></div>
+This definition implies that the viewport is off.
 
 The user-mode display driver must set all viewports atomically as one operation. 
 
@@ -153,13 +159,20 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

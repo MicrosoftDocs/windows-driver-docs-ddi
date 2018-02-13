@@ -7,8 +7,8 @@ old-location: sensors\sensor_property_list_size.htm
 old-project: sensors
 ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], SENSOR_PROPERTY_LIST_SIZE
+ms.date: 2/8/2018
+ms.keywords: sensorsdef/SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE, sensors.sensor_property_list_size, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,8 @@ The number of PROPERTYKEY elements.
 ## -returns
 
 
+
 The <b>SENSOR_PROPERTY_LIST_SIZE</b> function returns a ULONG value that represents the size of the property list.
+
 
 

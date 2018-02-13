@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FFBF258-50C3-4D2D-AFC8-184D2FF85EE4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSRBEX_DATA_WMI structure pointer [Storage Devices], SRBEX_DATA_WMI structure [Storage Devices], PSRBEX_DATA_WMI, SRBEX_DATA_WMI, _SRBEX_DATA_WMI, storport/SRBEX_DATA_WMI, storport/PSRBEX_DATA_WMI, storage.srbex_data_wmi, *PSRBEX_DATA_WMI
+ms.keywords: "_SRBEX_DATA_WMI, storage.srbex_data_wmi, storport/SRBEX_DATA_WMI, *PSRBEX_DATA_WMI, PSRBEX_DATA_WMI, SRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], SRBEX_DATA_WMI structure [Storage Devices], storport/PSRBEX_DATA_WMI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_WMI
 product: Windows
 targetos: Windows
-req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
+req.typenames: "*PSRBEX_DATA_WMI, SRBEX_DATA_WMI"
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,8 @@ Specifies the WMI data path for this request.
 ## -see-also
 
 <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

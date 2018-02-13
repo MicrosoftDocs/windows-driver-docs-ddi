@@ -7,8 +7,8 @@ old-location: ifsk\instance_aggregate_standard_information.htm
 old-project: ifsk
 ms.assetid: 35311ee7-d023-4b04-b510-a949ab9a40ca
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, PINSTANCE_AGGREGATE_STANDARD_INFORMATION, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], ifsk.instance_aggregate_standard_information, SUPPORTED_FS_FEATURES_OFFLOAD_READ, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], INSTANCE_AGGREGATE_STANDARD_INFORMATION, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INSTANCE_AGGREGATE_STANDARD_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION
+req.typenames: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION"
 ---
 
 # _INSTANCE_AGGREGATE_STANDARD_INFORMATION structure
@@ -98,8 +98,45 @@ typedef struct _INSTANCE_AGGREGATE_STANDARD_INFORMATION {
 
 
 
-### -field Type
+### -field NextEntryOffset
 
+Byte offset of the next INSTANCE_AGGREGATE_STANDARD_INFORMATION structure if multiple structures are present in a buffer. This member is zero if no other structures follow this one.
+
+
+### -field Flags
+
+Indicates whether the filter driver is a legacy filter driver or a minifilter driver.  This member must contain one of the following flags.
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+FLTFL_IASI_IS_MINIFILTER
+
+</td>
+<td>
+The filter driver is a minifilter driver - use the <b>MiniFilter</b> portion of the union.
+
+</td>
+</tr>
+<tr>
+<td>
+FLTFL_IASI_IS_LEGACYFILTER
+
+</td>
+<td>
+The filter driver is a legacy filter driver - use the <b>LegacyFilter</b> portion of the union.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field Type
 
 
 ### -field Type.MiniFilter
@@ -110,6 +147,7 @@ Nested structure variable with the following members.
 ### -field Type.MiniFilter.Flags
 
 A bitmask of flags that describe attributes of the minifilter instance. The following are valid flag values.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -119,7 +157,8 @@ A bitmask of flags that describe attributes of the minifilter instance. The foll
 <td>FLTFL_IASIM_DETACHED_VOLUME</td>
 <td>The volume is not currently attached to a storage stack.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Type.MiniFilter.FrameID
@@ -181,6 +220,7 @@ The supported feature flags for the filter.
 The supported features are a bitwise OR combination of the following flags.
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -208,7 +248,8 @@ The volume supports offloaded write operations
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Type.LegacyFilter
@@ -222,6 +263,7 @@ The volume supports offloaded write operations
 ### -field Type.LegacyFilter.Flags
 
 A bitmask of flags that describe attributes of the legacy filter. The following are valid flag values.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -231,7 +273,8 @@ A bitmask of flags that describe attributes of the legacy filter. The following 
 <td>FLTFL_IASIL_DETACHED_VOLUME</td>
 <td>The volume is not currently attached to a storage stack.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Type.LegacyFilter.AltitudeLength
@@ -276,6 +319,7 @@ The supported feature flags for the filter.
 The supported features are a bitwise OR combination of the following flags.
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -303,49 +347,16 @@ The volume supports offloaded write operations
 
 </td>
 </tr>
-</table> 
-
-
-### -field NextEntryOffset
-
-Byte offset of the next INSTANCE_AGGREGATE_STANDARD_INFORMATION structure if multiple structures are present in a buffer. This member is zero if no other structures follow this one.
-
-
-### -field Flags
-
-Indicates whether the filter driver is a legacy filter driver or a minifilter driver.  This member must contain one of the following flags.
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FLTFL_IASI_IS_MINIFILTER
-
-</td>
-<td>
-The filter driver is a minifilter driver - use the <b>MiniFilter</b> portion of the union.
-
-</td>
-</tr>
-<tr>
-<td>
-FLTFL_IASI_IS_LEGACYFILTER
-
-</td>
-<td>
-The filter driver is a legacy filter driver - use the <b>LegacyFilter</b> portion of the union.
-
-</td>
-</tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated from paged or nonpaged pool.  This structure is passed as a parameter to routines such as the following:
+
 <ul>
 <li>
 
@@ -395,7 +406,9 @@ A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated fro
 
 
 </li>
-</ul>The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry falls on an 8-byte boundary.
+</ul>
+The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry falls on an 8-byte boundary.
+
 
 
 
@@ -403,29 +416,51 @@ A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated fro
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetinstanceinformation.md">FltGetInstanceInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
 
 <a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetinstanceinformation.md">FltGetInstanceInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
+
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
+
+
 
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
- 
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20INSTANCE_AGGREGATE_STANDARD_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20INSTANCE_AGGREGATE_STANDARD_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

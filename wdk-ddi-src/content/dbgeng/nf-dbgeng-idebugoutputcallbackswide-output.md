@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b57661c3-a18f-45ed-b7fc-f6471753566e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugoutputcallbackswide_output, dbgeng/IDebugOutputCallbacksWide::Output, Output method [Windows Debugging], IDebugOutputCallbacksWide interface, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, Output, Output method [Windows Debugging], IDebugOutputCallbacksWide, IDebugOutputCallbacksWide::Output
+ms.keywords: Output method [Windows Debugging], IDebugOutputCallbacksWide interface, dbgeng/IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide, Output, IDebugOutputCallbacksWide::Output, Output method [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging], Output method, debugger.idebugoutputcallbackswide_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,15 +81,19 @@ Specifies the output that is being sent.
 ## -returns
 
 
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacksWide</b> object is registered, is disabled.
+
 
 
 
 ## -remarks
 
 
+
 The engine calls this method only if the supplied value of <i>Mask</i> is allowed by the client's output control.
 
 For more information about debugger engine output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

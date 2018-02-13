@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F08180ED-DC5A-4DA0-A42A-48511BC63DF8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_set_pin_ex, PNDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_PIN_EX, ndiswwan/PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PIN_EX, _NDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX
+ms.keywords: netvista.ndis_wwan_set_pin_ex, ndiswwan/NDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX, _NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PIN_EX, ndiswwan/PNDIS_WWAN_SET_PIN_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SET_PIN_EX
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX
+req.typenames: "*PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX"
 ---
 
 # _NDIS_WWAN_SET_PIN_EX structure
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_PIN
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_SET_PIN_EX)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -125,6 +127,8 @@ A formatted WWAN_PIN_ACTION object that represents an action to perform with a P
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
+
+
 
  
 

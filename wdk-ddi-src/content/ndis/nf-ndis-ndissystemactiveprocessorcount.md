@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount, ndis/NdisSystemActiveProcessorCount
+ms.keywords: netvista.ndissystemactiveprocessorcount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], NdisSystemActiveProcessorCount, ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisSystemActiveProcessorCount
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisSystemActiveProcessorCount function
@@ -81,12 +81,15 @@ A pointer to a
 ## -returns
 
 
+
 <b>NdisSystemActiveProcessorCount</b> returns the number of currently active processors in the local
      computer.
 
 
 
+
 ## -remarks
+
 
 
 An NDIS driver might call the 
@@ -95,12 +98,17 @@ An NDIS driver might call the
 <b>NdisSystemActiveProcessorCount</b> is similar to the 
     <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">
     KeQueryActiveProcessorCount</a> function.
+
 <div class="alert"><b>Note</b>  NDIS drivers should not use 
     <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a> to
-    retrieve the number of currently active processors,</div><div> </div><div class="alert"><b>Note</b>  <b>NdisSystemActiveProcessorCount</b> might not map processors to the bits in the returned 
+    retrieve the number of currently active processors,</div>
+<div> </div>
+<div class="alert"><b>Note</b>  <b>NdisSystemActiveProcessorCount</b> might not map processors to the bits in the returned 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value consecutively. and 
     <b>NdisSystemActiveProcessorCount</b> might not return the same bitmap every time that it is
-    called.</div><div> </div>The value that 
+    called.</div>
+<div> </div>
+The value that 
     <b>NdisSystemActiveProcessorCount</b> returns can change at runtime on SKUs that support hot-add CPU
     functionality.
 
@@ -113,15 +121,24 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">NdisGroupActiveProcessorCount</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">NdisGroupActiveProcessorCount</a>
+
 
  
 

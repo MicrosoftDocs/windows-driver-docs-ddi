@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: CC043EA0-391F-48D5-B37D-13136527BFCE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSERCX2_CUSTOM_TRANSMIT_CONFIG, 2/SERCX2_CUSTOM_TRANSMIT_CONFIG, 2/PSERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG structure [Serial Ports], PSERCX2_CUSTOM_TRANSMIT_CONFIG, serports.sercx2_custom_transmit_config, _SERCX2_CUSTOM_TRANSMIT_CONFIG, PSERCX2_CUSTOM_TRANSMIT_CONFIG structure pointer [Serial Ports]"
+ms.keywords: PSERCX2_CUSTOM_TRANSMIT_CONFIG structure pointer [Serial Ports], 2/SERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG, 2/PSERCX2_CUSTOM_TRANSMIT_CONFIG, serports.sercx2_custom_transmit_config, PSERCX2_CUSTOM_TRANSMIT_CONFIG, _SERCX2_CUSTOM_TRANSMIT_CONFIG, *PSERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG structure [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_CUSTOM_TRANSMIT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: SERCX2_CUSTOM_TRANSMIT_CONFIG, *PSERCX2_CUSTOM_TRANSMIT_CONFIG
+req.typenames: "*PSERCX2_CUSTOM_TRANSMIT_CONFIG, SERCX2_CUSTOM_TRANSMIT_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -110,19 +110,29 @@ If <b>Exclusive</b> is <b>TRUE</b>, the <b>MinimumTransferUnit</b>, <b>Alignment
 ## -remarks
 
 
+
 The <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomTransmitCreate</b>, call the <a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a> function to initialize this structure.
+
 
 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
+<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
+
+
+<a href="..\sercx\nf-sercx-sercx2_custom_transmit_config_init.md">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
+
+
 
 <a href="..\sercx\nf-sercx-sercx2customtransmitcreate.md">SerCx2CustomTransmitCreate</a>
+
+
 
  
 

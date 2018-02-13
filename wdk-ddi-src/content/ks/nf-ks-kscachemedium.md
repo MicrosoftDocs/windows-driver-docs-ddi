@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0e9c146-5d73-49e8-92a8-c453f5bbbfe9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCacheMedium function [Streaming Media Devices], KsCacheMedium, ks/KsCacheMedium, stream.kscachemedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml
+ms.keywords: KsCacheMedium, ks/KsCacheMedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium, KsCacheMedium function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Contains the direction of the Pin.  1 is output, 0 is input.
 ## -returns
 
 
+
 <b>KsCacheMedium</b> returns STATUS_SUCCESS if the caching operation is successful, failure if it is not.
 
 
 
+
 ## -remarks
+
 
 
 <b>KsCacheMedium</b> improves graph building performance by creating a registry key at: 
@@ -100,5 +103,6 @@ Contains the direction of the Pin.  1 is output, 0 is input.
 <b>\System\CurrentControlSet\Control\MediumCache\GUID\DWORD\DWORD </b>
 
 This enables fast lookup of connected filters in TvTuner and other complex graphs.  Note that the GUID identifies the Medium of the connection, and that the DWORDs denote the device instance.  The value name is the SymbolicLink for the driver, and ActualValue is the pin direction.turning. 
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39D3265C-ED32-420F-9216-EFD0EDC27C84
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista], netvista.ndk_object_header_reserved_block, NDK_OBJECT_HEADER_RESERVED_BLOCK
+ms.keywords: NDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista], netvista.ndk_object_header_reserved_block, ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER_RESERVED_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,13 +75,17 @@ Reserved.
 ## -remarks
 
 
+
 The <b>NDK_OBJECT_HEADER_RESERVED_BLOCK</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+
 
  
 

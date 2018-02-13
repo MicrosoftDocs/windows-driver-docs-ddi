@@ -82,7 +82,6 @@ A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md
 ### -param PSOCKADDR
 
 
-
 ### -param AddressLength [in]
 
 The size, in bytes, of local address data at the <i>pAddress</i> parameter.
@@ -110,8 +109,10 @@ A local address to listen on. For AF_INET or AF_INET6 <i>pAddress</i> contains t
 ## -returns
 
 
+
 The 
      <i>NdkListen</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -202,14 +203,18 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkListen</i> puts a listener object into listening mode on the specified  local address.
+
 
 
 
@@ -217,9 +222,15 @@ An error occurred.
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
 
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
 
  
 

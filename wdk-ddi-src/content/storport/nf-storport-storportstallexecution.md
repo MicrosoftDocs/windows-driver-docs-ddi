@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d635d93b-3e69-4ce5-9dc0-60186417d009
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml, StorPortStallExecution, storage.storportstallexecution, StorPortStallExecution routine [Storage Devices]
+ms.keywords: storport/StorPortStallExecution, StorPortStallExecution routine [Storage Devices], StorPortStallExecution, storage.storportstallexecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,13 +77,17 @@ Specifies the delay interval, in microseconds. The given value must be less than
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportstallexecution.md">ScsiPortStallExecution</a>
+
+
 
  
 

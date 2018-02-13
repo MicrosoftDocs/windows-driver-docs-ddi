@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AcquireLock method, AcquireLock method, IWDFObject interface, wudfddi/IWDFObject::AcquireLock, IWDFObject interface, AcquireLock method, AcquireLock, IWDFObject::AcquireLock, wdf.iwdfobject_acquirelock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, IWDFObject
+ms.keywords: AcquireLock method, IWDFObject interface, AcquireLock method, IWDFObject::AcquireLock, AcquireLock, wudfddi/IWDFObject::AcquireLock, umdf.iwdfobject_acquirelock, AcquireLock method, IWDFObject interface, IWDFObject, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, wdf.iwdfobject_acquirelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ void AcquireLock();
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 If a driver configured itself to use the <b>AcquireLock</b> locking scheme, the framework automatically acquires the "presentation" lock before calling into the driver. (For more information about this locking scheme, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/specifying-a-callback-synchronization-mode">Specifying a Callback Synchronization Mode</a>.) The <b>AcquireLock</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a> methods acquire and release the presentation lock, respectively. <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Framework device objects</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-i-o-queue-object">framework I/O queue objects</a> currently support the <b>AcquireLock</b> method.
@@ -86,12 +90,23 @@ The driver calls the <b>AcquireLock</b> method to manipulate its objects that we
 Unsynchronized code can call <b>AcquireLock</b>. The driver should call on objects that match its synchronization scope.
 
 
+#### Examples
+
+For a code example of how to use the <b>AcquireLock</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a>
+
+
 
  
 

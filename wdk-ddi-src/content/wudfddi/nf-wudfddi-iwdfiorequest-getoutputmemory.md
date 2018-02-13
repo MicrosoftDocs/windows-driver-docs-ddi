@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12862fb2-4cdb-4446-aa20-ec911c9cd65f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfiorequest_getoutputmemory, GetOutputMemory method, wudfddi/IWDFIoRequest::GetOutputMemory, wdf.iwdfiorequest_getoutputmemory, IWDFIoRequest interface, GetOutputMemory method, IWDFIoRequest, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, GetOutputMemory, GetOutputMemory method, IWDFIoRequest interface
+ms.keywords: wdf.iwdfiorequest_getoutputmemory, GetOutputMemory method, IWDFIoRequest interface, GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, IWDFIoRequest interface, GetOutputMemory method, umdf.iwdfiorequest_getoutputmemory, GetOutputMemory method, IWDFIoRequest::GetOutputMemory, wudfddi/IWDFIoRequest::GetOutputMemory, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ A pointer to a variable that receives a pointer to the reference-counted <a href
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers that use the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">buffered I/O</a> access method can call <b>GetOutputMemory</b> to obtain an I/O request's output buffer.
@@ -96,16 +99,31 @@ UMDF creates an I/O request's memory objects when it receives the I/O request, b
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 
+#### Examples
+
+For a code example of how to use the <b>GetOutputMemory</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
 
  
 

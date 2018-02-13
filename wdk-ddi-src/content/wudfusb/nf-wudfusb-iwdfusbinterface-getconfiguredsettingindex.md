@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface, wdf.iwdfusbinterface_getconfiguredsettingindex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex, GetConfiguredSettingIndex method, GetConfiguredSettingIndex method, IWDFUsbInterface interface, IWDFUsbInterface interface, GetConfiguredSettingIndex method, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex, IWDFUsbInterface::GetConfiguredSettingIndex
+ms.keywords: wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, IWDFUsbInterface::GetConfiguredSettingIndex, wdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex method, GetConfiguredSettingIndex, IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface, GetConfiguredSettingIndex method, IWDFUsbInterface interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbInterface.GetConfiguredSettingIndex
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,27 +69,38 @@ UCHAR GetConfiguredSettingIndex();
 
 
 
+
 ## -returns
+
 
 
 <b>GetConfiguredSettingIndex</b> returns the current setting index for the USB interface.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GetConfiguredSettingIndex</b> method is provided for convenience because a UMDF driver can obtain the current setting index from the <b>bAlternateSetting</b> member of the <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that the driver retrieves when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a> method. 
 
 
 
-## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
 
  
 

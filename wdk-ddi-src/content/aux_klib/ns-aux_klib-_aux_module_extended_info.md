@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9733b17d-c990-4eda-87e2-906f2f78c5d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib/AUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, _AUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, kernel.aux_module_extended_info, *PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture]
+ms.keywords: aux_klib/AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], *PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], kernel.aux_module_extended_info, aux_klib/PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, _AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ The full path name of the module's image file.
 ## -remarks
 
 
+
 The <b>AUX_MODULE_EXTENDED_INFO</b> structure is used as input to the <a href="..\aux_klib\nf-aux_klib-auxklibquerymoduleinformation.md">AuxKlibQueryModuleInformation</a> routine. 
+
 
 
 
 ## -see-also
 
 <a href="..\aux_klib\nf-aux_klib-auxklibquerymoduleinformation.md">AuxKlibQueryModuleInformation</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 30962127-a46f-43f5-a58e-891c5b8a867d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EXT_COMMAND_METHOD, EngExtCpp_Ref_a4a0b264-50e1-457b-a962-ca691509ea36.xml, EXT_COMMAND_METHOD function [Windows Debugging], engextcpp/EXT_COMMAND_METHOD, debugger.ext_command_method
+ms.keywords: debugger.ext_command_method, EngExtCpp_Ref_a4a0b264-50e1-457b-a962-ca691509ea36.xml, EXT_COMMAND_METHOD function [Windows Debugging], EXT_COMMAND_METHOD, engextcpp/EXT_COMMAND_METHOD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	EXT_COMMAND_METHOD
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # EXT_COMMAND_METHOD macro
@@ -75,17 +75,23 @@ The name of the extension command.  As with all extension commands, the name mus
 ## -remarks
 
 
+
 This macro must be used inside the definition of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a> class.
 
 The macro <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> should be used to define the extension command.  As with all C++ declarations, the EXT_COMMAND_METHOD declaration should appear in the source files before the EXT_COMMAND definition.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+
+
 
 <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+
 
  
 

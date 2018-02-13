@@ -81,6 +81,8 @@ A pointer used by the function to update the hardware context state.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

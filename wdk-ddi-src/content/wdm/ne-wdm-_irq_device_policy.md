@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IrqPolicySpecifiedProcessors, wdm/IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], IrqPolicyOneCloseProcessor, wdm/IrqPolicyOneCloseProcessor, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], kernel.irq_device_policy, IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyAllProcessorsInMachine, IRQ_DEVICE_POLICY, IrqPolicyMachineDefault, _IRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, wdm/PIRQ_DEVICE_POLICY, IrqPolicySpreadMessagesAcrossAllProcessors, PIRQ_DEVICE_POLICY, IrqPolicySpecifiedProcessors, *PIRQ_DEVICE_POLICY, wdm/IrqPolicyMachineDefault
+ms.keywords: wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, *PIRQ_DEVICE_POLICY, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyOneCloseProcessor, PIRQ_DEVICE_POLICY, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IrqPolicySpreadMessagesAcrossAllProcessors, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors, IrqPolicyMachineDefault, IrqPolicyAllProcessorsInMachine, IRQ_DEVICE_POLICY, wdm/PIRQ_DEVICE_POLICY, wdm/IrqPolicyMachineDefault, IrqPolicyOneCloseProcessor, IrqPolicySpecifiedProcessors, wdm/IrqPolicyAllCloseProcessors, _IRQ_DEVICE_POLICY, kernel.irq_device_policy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	IRQ_DEVICE_POLICY
 product: Windows
 targetos: Windows
-req.typenames: "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY"
+req.typenames: IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY
 req.product: Windows 10 or later.
 ---
 
@@ -111,13 +111,17 @@ The operating system should assign different message-signaled interrupts to diff
 ## -remarks
 
 
+
 The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

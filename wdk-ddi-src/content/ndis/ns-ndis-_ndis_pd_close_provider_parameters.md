@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9C33CA12-E725-4634-A1EC-0A919987BA6E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_CLOSE_PROVIDER_PARAMETERS, netvista.ndis_pd_close_provider_parameters, ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS, NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CLOSE_PROVIDER_PARAMETERS
+ms.keywords: NDIS_PD_CLOSE_PROVIDER_PARAMETERS, ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS, NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_pd_close_provider_parameters, _NDIS_PD_CLOSE_PROVIDER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,7 @@ typedef struct _NDIS_PD_CLOSE_PROVIDER_PARAMETERS {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CLOSE_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
+
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
 <li><b>Revision</b> = <b>NDIS_PD_CLOSE_PROVIDER_PARAMETERS_REVISION_1</b></li>
@@ -91,15 +92,21 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 ## -remarks
 
 
+
 This structure must be aligned on an 8-byte boundary.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931851">OID_PD_CLOSE_PROVIDER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931851">OID_PD_CLOSE_PROVIDER</a>
+
 
  
 

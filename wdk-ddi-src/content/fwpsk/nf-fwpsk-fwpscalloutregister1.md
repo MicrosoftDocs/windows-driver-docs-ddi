@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 496e2206-56d1-47eb-a9e6-f5d4799e3dde
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml, fwpsk/FwpsCalloutRegister1, netvista.fwpscalloutregister1, FwpsCalloutRegister1, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FwpsCalloutRegister1, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista], netvista.fwpscalloutregister1, wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml, FwpsCalloutRegister1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,8 +104,10 @@ A pointer to a UINT32-typed variable that receives a run-time identifier that id
 ## -returns
 
 
+
 The 
      <b>FwpsCalloutRegister1</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +150,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -175,29 +180,52 @@ A callout driver unregisters a callout from the filter engine by calling either 
 
 
 
+
 ## -see-also
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
 
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+
+
 
  
 

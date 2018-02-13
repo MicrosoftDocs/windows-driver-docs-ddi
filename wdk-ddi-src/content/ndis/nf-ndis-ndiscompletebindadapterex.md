@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx, netvista.ndiscompletebindadapterex, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml
+ms.keywords: ndis/NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], NdisCompleteBindAdapterEx, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, netvista.ndiscompletebindadapterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCompleteBindAdapterEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCompleteBindAdapterEx function
@@ -86,9 +86,11 @@ The final status of the completed bind operation. This parameter can be one of t
 
 
 
+
 #### NDIS_STATUS_SUCCESS
 
 The driver successfully completed the binding to the underlying NIC.
+
 
 
 #### NDIS_STATUS_XXX or NTSTATUS_XXX
@@ -110,11 +112,14 @@ The handle that NDIS passed to the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a protocol driver returns NDIS_STATUS_PENDING from its 
@@ -129,11 +134,16 @@ If the open operation was successful, the protocol driver is ready to accept rec
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

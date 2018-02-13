@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 848afbe3-be29-4c20-b9d0-33db98dab7bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKENTRY, rilapitypes/RILPHONEBOOKENTRY, netvista.rilphonebookentry_2, *LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookentry_2, rilapitypes/RILPHONEBOOKENTRY, RILPHONEBOOKENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,55 +84,41 @@ typedef struct _RILPHONEBOOKENTRY {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwIndex
 
 
-
 ### -field raAddress
-
 
 
 ### -field wszText
 
 
-
 ### -field wszSecondName
-
 
 
 ### -field dwGroupIdCount
 
 
-
 ### -field rgdwGroupId
-
 
 
 ### -field dwAdditionalNumCount
 
 
-
 ### -field dwAdditionalNumSize
-
 
 
 ### -field dwAdditionalNumOffset
 
 
-
 ### -field dwEmailCount
-
 
 
 ### -field dwEmailSize
 
 
-
 ### -field dwEmailOffset
-
 

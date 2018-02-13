@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.sedeassignsecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], wdm/SeDeassignSecurity, SeDeassignSecurity, k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml
+ms.keywords: SeDeassignSecurity routine [Kernel-Mode Driver Architecture], SeDeassignSecurity, wdm/SeDeassignSecurity, kernel.sedeassignsecurity, k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,9 @@ Pointer to the buffered <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECU
 ## -returns
 
 
+
 If the deallocation succeeds, <b>SeDeassignSecurity</b> returns STATUS_SUCCESS.
+
 
 
 
@@ -85,7 +87,11 @@ If the deallocation succeeds, <b>SeDeassignSecurity</b> returns STATUS_SUCCESS.
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
+
+
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+
 
  
 

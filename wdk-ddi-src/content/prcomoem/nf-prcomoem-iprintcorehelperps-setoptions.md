@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba80f0f5-ecea-41d7-8ddd-58b417e1fbe7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetOptions, SetOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::SetOptions, print_unidrv-pscript_allplugins_7830001c-589d-4797-870c-cb48231745ed.xml, print.iprintcorehelperps_setoptions, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], SetOptions method, SetOptions method [Print Devices], prcomoem/IPrintCoreHelperPS::SetOptions
+ms.keywords: SetOptions, prcomoem/IPrintCoreHelperPS::SetOptions, IPrintCoreHelperPS, SetOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::SetOptions, print.iprintcorehelperps_setoptions, SetOptions method [Print Devices], IPrintCoreHelperPS interface [Print Devices], SetOptions method, print_unidrv-pscript_allplugins_7830001c-589d-4797-870c-cb48231745ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.SetOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -107,6 +107,7 @@ A pointer to a variable that receives the number of feature-option pairs that we
 ### -param pdwResult [out]
 
 A pointer to a variable that receives the status of the conflict resolution. The status can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -142,7 +143,8 @@ At least one constraint that was specified in the PPD view of the configuration 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pFOPairs[] [in]
@@ -153,7 +155,9 @@ An array of <a href="..\prcomoem\ns-prcomoem-_print_feature_option.md">PRINT_FEA
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::SetOptions</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -192,13 +196,16 @@ Memory for the result array could not be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For other failures, the method should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 <b>IPrintCoreHelperPS::SetOptions</b> can be used to make multiple settings changes simultaneously and to resolve constraints after all of the selected options have been set. Changes to options are applied sequentially, starting from the beginning of the <i>pFOPairs</i> array, so if the same feature appears twice in this array, only the last option for the feature will be selected. Changes to options are not committed unless the <i>bResolveConflicts</i> parameter is <b>TRUE</b>.
@@ -207,9 +214,12 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/fa212b86-89ae-4d22-a3ff-ebcc6100874b">IPrintCoreHelperPS::GetOptions</a>
+
+
 
  
 

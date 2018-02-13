@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d4fb5bf9-7982-4abd-91ba-59b7798a18c7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, tcpxcv/DELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1 structure pointer [Print Devices], tcpxcv/PDELETE_PORT_DATA_1, _DELETE_PORT_DATA_1, DELETE_PORT_DATA_1, print.delete_port_data_1, DELETE_PORT_DATA_1 structure [Print Devices]
+ms.keywords: PDELETE_PORT_DATA_1, DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices], PDELETE_PORT_DATA_1 structure pointer [Print Devices], print.delete_port_data_1, tcpxcv/DELETE_PORT_DATA_1, spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, _DELETE_PORT_DATA_1, tcpxcv/PDELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,15 +94,19 @@ Is obsolete, and must be set to 0.
 ## -remarks
 
 
+
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called to delete a port, its <i>pInputData</i> parameter must be set with the address of a DELETE_PORT_DATA_1 structure. Set this function's <i>pszDataName</i> parameter to the string L"DeletePort". 
 
 See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a> for more information.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
 
  
 

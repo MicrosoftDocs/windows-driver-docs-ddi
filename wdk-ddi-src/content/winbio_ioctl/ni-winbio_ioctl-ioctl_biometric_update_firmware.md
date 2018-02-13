@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -88,14 +88,18 @@ The smallest valid output buffer size is the size of DWORD.  If the driver recei
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,7 @@ The smallest valid output buffer size is the size of DWORD.  If the driver recei
 Indicates whether the DeviceIoControl call to the driver completed and the OUT payload is valid.
 
 The <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -159,10 +164,12 @@ Any other failure that prevents the payload from being filled in.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The firmware image is specific to each vendor and may contain both firmware data and any extra data that the driver needs to validate the image.
@@ -172,6 +179,7 @@ If the device has a different firmware update mechanism, the driver can return E
 If the vendor-supplied driver passes back the entire payload, it should fill in the WinBioHresult member of WINBIO_BLANK_PAYLOAD with the status of the Biometric operation.
 
 Possible values include:
+
 
 
 

@@ -7,7 +7,7 @@ old-location: audio\pfndrmcreatecontentmixed.htm
 old-project: audio
 ms.assetid: A4BA818F-126F-4134-AEDA-F983ADFC4A07
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.pfndrmcreatecontentmixed, DRMCreateContentMixed callback function [Audio Devices], DRMCreateContentMixed, PFNDRMCREATECONTENTMIXED, PFNDRMCREATECONTENTMIXED, drmk/DRMCreateContentMixed, DRMCreateContentMixed callback function [Audio Devices], DRMCreateContentMixed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	DRMCreateContentMixed
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # PFNDRMCREATECONTENTMIXED callback
@@ -92,6 +92,8 @@ This parameter is reserved for system use.
 ## -returns
 
 
+
 This return value is reserved for system use.
+
 
 

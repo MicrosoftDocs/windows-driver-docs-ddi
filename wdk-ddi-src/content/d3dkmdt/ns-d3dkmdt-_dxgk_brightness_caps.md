@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e01ef4c9-1374-4d60-9307-32d878759c72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps, _DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices]
+ms.keywords: DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices], _DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,7 +102,9 @@ Setting this member is equivalent to setting the remaining 30 bits (0xFFFFFFFC) 
 ## -remarks
 
 
+
 Do not assume that the <b>SmoothBrightness</b> members of <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_state.md">DXGK_BRIGHTNESS_STATE</a> and <b>DXGK_BRIGHTNESS_CAPS</b> are the same. <b>DXGK_BRIGHTNESS_STATE</b>.<b>SmoothBrightness</b> is used to enable  smooth brightness control on an integrated display panel. <b>DXGK_BRIGHTNESS_CAPS</b>.<b>SmoothBrightness</b> is used to query smooth brightness control capabilities of the integrated display panel.
+
 
 
 
@@ -110,7 +112,11 @@ Do not assume that the <b>SmoothBrightness</b> members of <a href="..\d3dkmdt\ns
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_state.md">DXGK_BRIGHTNESS_STATE</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_caps.md">DxgkDdiGetBrightnessCaps</a>
+
+
 
  
 

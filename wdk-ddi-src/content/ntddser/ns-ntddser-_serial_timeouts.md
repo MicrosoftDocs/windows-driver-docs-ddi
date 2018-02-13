@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERIAL_TIMEOUTS structure [Serial Ports], SERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], _SERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS, serports.serial_timeouts, PSERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS
+ms.keywords: PSERIAL_TIMEOUTS structure pointer [Serial Ports], serports.serial_timeouts, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_TIMEOUTS
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS"
+req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 ---
 
 # _SERIAL_TIMEOUTS structure
@@ -99,6 +99,7 @@ The maximum amount of additional time, in milliseconds, that is allowed per writ
 ## -remarks
 
 
+
 The <b>SERIAL_TIMEOUTS</b> structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_get_timeouts.md">IOCTL_SERIAL_GET_TIMEOUTS</a> I/O control requests. An <b>IOCTL_SERIAL_SET_TIMEOUTS</b> I/O control request uses this structure to specify a set of time-out parameters for the serial port to use for read and write operations. An <b>IOCTL_SERIAL_GET_TIMEOUTS</b> I/O control request uses this structure to retrieve the time-out parameters that were set by the previous <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request.
 
 A read or write request successfully completes when either the specified number of bytes is transferred or the requested read or write operation times out. The request returns the STATUS_SUCCESS status code to indicate that the specified number of bytes was transferred. The request returns the STATUS_TIMEOUT status code to indicate that the operation timed out.
@@ -126,6 +127,7 @@ If both <b>ReadTotalTimeoutMultiplier</b> and <b>ReadTotalTimeoutConstant</b> ar
 If <b>ReadIntervalTimeout</b> is set to MAXULONG, and both <b>ReadTotalTimeoutConstant</b> and <b>ReadTotalTimeoutMultiplier</b> are zero, a read request completes immediately with the bytes that have already been received, even if no bytes have been received. In this case, the read request returns the STATUS_SUCCESS status code.
 
 If both <b>ReadIntervalTimeout</b> and <b>ReadTotalTimeoutMultiplier</b> are set to MAXULONG, and <b>ReadTotalTimeoutConstant</b> is set to a value greater than zero and less than MAXULONG, a read request behaves as follows:
+
 <ul>
 <li>
 If there are any bytes in the serial port's input buffer, the read request completes immediately with the bytes that are in the buffer and returns the STATUS_SUCCESS status code.
@@ -139,7 +141,8 @@ If there are no bytes in the input buffer, the serial port waits until a byte ar
 If no bytes arrive within the time specified by <b>ReadTotalTimeoutConstant</b>, the read request times out, sets the <b>Information</b> field of the I/O status block to zero,  and returns the STATUS_TIMEOUT status code.
 
 </li>
-</ul>An <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request fails and returns an INVALID_PARAMETER error status code if <b>ReadIntervalTimeout</b> and <b>ReadTotalTimeoutConstant</b> are both set to MAXULONG.
+</ul>
+An <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request fails and returns an INVALID_PARAMETER error status code if <b>ReadIntervalTimeout</b> and <b>ReadTotalTimeoutConstant</b> are both set to MAXULONG.
 
 A read-interval time-out can be used to detect the end of an incoming data stream when the length of the data stream is not known in advance. If a read request uses this technique, a STATUS_TIMEOUT completion status code usually means that the request completed successfully.
 
@@ -153,21 +156,36 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
-<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
-
-<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
-
-<a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
 
 <a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
 
+
+
+<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
+
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
 
  
 

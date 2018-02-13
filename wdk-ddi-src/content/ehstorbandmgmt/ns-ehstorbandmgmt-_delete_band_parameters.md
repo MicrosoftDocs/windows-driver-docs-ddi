@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DELETE_BAND_PARAMETERS structure [Storage Devices], *PDELETE_BAND_PARAMETERS, _DELETE_BAND_PARAMETERS, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, PDELETE_BAND_PARAMETERS, storage.delete_band_parameters, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices]
+ms.keywords: DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PDELETE_BAND_PARAMETERS, _DELETE_BAND_PARAMETERS, storage.delete_band_parameters, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], ehstorbandmgmt/DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,7 @@ The size of this structure in bytes. Set to <b>sizeof</b>(DELETE_BAND_PARAMETERS
 ### -field Flags
 
 Delete operation flags. This value is a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -95,7 +96,8 @@ Perform a cryptographic erase of the band property data before delete.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -116,6 +118,7 @@ The starting byte location on the storage device to begin a band search. An atte
 ### -field AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <b>DELETE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -131,7 +134,7 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authoriza
 </tr>
 </table></span></div>
 
-To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>. If <b>Flags</b> contains <b>DELBAND_ERASE_BEFORE_DELETE</b>, <b>AuthKeyOffset</b> must be set to <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 
 #### KeySize
@@ -139,12 +142,16 @@ To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> 
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
+
 #### Key
 
 A variable-length byte array containing the key data.
 
+To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>. If <b>Flags</b> contains <b>DELBAND_ERASE_BEFORE_DELETE</b>, <b>AuthKeyOffset</b> must be set to <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 ## -remarks
+
 
 
  Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>.
@@ -155,13 +162,20 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 
 
-## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
+## -see-also
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
+
+
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+
+
 
  
 

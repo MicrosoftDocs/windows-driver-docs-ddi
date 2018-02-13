@@ -98,14 +98,18 @@ The length of a
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -119,6 +123,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -194,10 +199,12 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 In most circumstances, profile drivers can combine SDP service and attribute searches by calling the 
@@ -216,17 +223,26 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 
 
-## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+## -see-also
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
    BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
+
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8efdcf9f-df8c-4b3b-8b21-11a10a885322
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisansistringtounicodestring, NdisAnsiStringToUnicodeString, ndis/NdisAnsiStringToUnicodeString, NdisAnsiStringToUnicodeString macro [Network Drivers Starting with Windows Vista], ndis_string_ref_e56d613a-b145-4f9e-bb96-3e4d8ad33538.xml
+ms.keywords: ndis/NdisAnsiStringToUnicodeString, netvista.ndisansistringtounicodestring, NdisAnsiStringToUnicodeString, ndis_string_ref_e56d613a-b145-4f9e-bb96-3e4d8ad33538.xml, NdisAnsiStringToUnicodeString macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisAnsiStringToUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAnsiStringToUnicodeString macro
@@ -83,6 +83,8 @@ TBD
 
 
 
+
+
 #### - DestinationString [in, out]
 
 A pointer to a caller-allocated buffer in which this function should return the converted Unicode
@@ -97,6 +99,7 @@ A pointer to the ANSI string to be converted.
 ## -remarks
 
 
+
 The caller must allocate storage for both the source and destination strings and release these buffers
     as soon as the strings are no longer needed. The buffer at 
     <i>DestinationString</i> must be at least twice the size of the buffer at 
@@ -104,22 +107,37 @@ The caller must allocate storage for both the source and destination strings and
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
 
  
 

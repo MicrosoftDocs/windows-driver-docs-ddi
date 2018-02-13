@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5ac17c34-c71c-45a7-870f-7e135c8bd5ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_SWITCH_PORT_PROPERTY_CUSTOM, PNDIS_SWITCH_PORT_PROPERTY_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PROPERTY_CUSTOM, *PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, netvista.ndis_switch_port_property_custom, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.ndis_switch_port_property_custom, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM, _NDIS_SWITCH_PORT_PROPERTY_CUSTOM, PNDIS_SWITCH_PORT_PROPERTY_CUSTOM structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+
 #### NDIS_SWITCH_PORT_PROPERTY_CUSTOM_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -109,7 +110,9 @@ A ULONG value that specifies the offset, in bytes, to the property buffer. The o
 ## -remarks
 
 
+
 The <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure is used in the following OID set requests: 
+
 <ul>
 <li>
 
@@ -123,7 +126,8 @@ The <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure is used in the following O
 
 
 </li>
-</ul>The <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure follows the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a> structure in the buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this buffer.
+</ul>
+The <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure follows the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a> structure in the buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this buffer.
 
 Extensible switch extensions can access the custom port property buffer inside an <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure by using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598231">NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER</a> macro.
 
@@ -131,21 +135,36 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598231">NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598231">NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <b></b>
+
+
 
  
 

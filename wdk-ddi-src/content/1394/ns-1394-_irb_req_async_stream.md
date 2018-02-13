@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ASYNC_STREAM structure [Buses], 1394/IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM, IEEE.irb_req_async_stream, _IRB_REQ_ASYNC_STREAM
+ms.keywords: "_IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], IEEE.irb_req_async_stream, 1394/IRB_REQ_ASYNC_STREAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,6 +112,7 @@ Reserved. Drivers must set this to zero.
 ### -field nSpeed
 
 Specifies the transfer rate. The possible speed values are SPEED_FLAGS_xxx, where xxx is the (approximate) transfer rate in megabits per second. Existing hardware currently supports transfer rates of 100, 200, and 400 Mb/sec.
+
 <table>
 <tr>
 <th>Transfer Rate</th>
@@ -147,5 +148,8 @@ SPEED_FLAGS_400
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Note</b>  In Windows 7 and later versions of Windows, you can specify new values higher speed and  greater sized payloads. For more information, see <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">New Flags for Speed and Payload Size</a> and <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">IEEE 1394 IOCTL Changes</a> in Device Driver Interface (DDI) Changes in Windows 7.</div>
+<div> </div>

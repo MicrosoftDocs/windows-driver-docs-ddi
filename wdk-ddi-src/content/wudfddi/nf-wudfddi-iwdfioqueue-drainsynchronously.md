@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DrainSynchronously method, IWDFIoQueue interface, DrainSynchronously method, umdf.iwdfioqueue_drainsynchronously, IWDFIoQueue, wudfddi/IWDFIoQueue::DrainSynchronously, IWDFIoQueue interface, DrainSynchronously method, wdf.iwdfioqueue_drainsynchronously, IWDFIoQueue::DrainSynchronously, DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml
+ms.keywords: DrainSynchronously method, wudfddi/IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, DrainSynchronously, wdf.iwdfioqueue_drainsynchronously, IWDFIoQueue::DrainSynchronously, DrainSynchronously method, IWDFIoQueue interface, IWDFIoQueue, IWDFIoQueue interface, DrainSynchronously method, umdf.iwdfioqueue_drainsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,22 @@ void  DrainSynchronously();
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 The <b>DrainSynchronously</b> method is a synchronous version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a> method. That is, <b>DrainSynchronously</b> does not return to the driver until the queue is drained.
+
 
 
 
@@ -87,7 +92,11 @@ The <b>DrainSynchronously</b> method is a synchronous version of the <a href="ht
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
 
  
 

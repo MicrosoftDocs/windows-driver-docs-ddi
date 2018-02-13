@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C56D6CD8-7D23-4DA7-9241-F72ADBDD2770
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_UCHAR function, wudfddi_hwaccess/WRITE_REGISTER_UCHAR, umdf.write_register_uchar, wdf.write_register_uchar, WRITE_REGISTER_UCHAR
+ms.keywords: wudfddi_hwaccess/WRITE_REGISTER_UCHAR, umdf.write_register_uchar, WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR function, wdf.write_register_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,13 +90,17 @@ Specifies a byte to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

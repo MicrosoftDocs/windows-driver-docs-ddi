@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c44e16f1-2ecd-4dad-b3c3-c6b6a3dcbb84
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_control_setup_packet_init_class, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, DFUsbRef_840aad44-522b-426d-ad95-457dee6c44dd.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function, kmdf.wdf_usb_control_setup_packet_init_class, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
+ms.keywords: kmdf.wdf_usb_control_setup_packet_init_class, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function, DFUsbRef_840aad44-522b-426d-ad95-457dee6c44dd.xml, wdf.wdf_usb_control_setup_packet_init_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -108,14 +108,18 @@ A request-specific index value that is stored in the <b>Packet.wIndex.Value</b> 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</b> function does the following:
+
 <ol>
 <li>
 Zeros the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
@@ -129,7 +133,9 @@ Sets the <b>Packet.bm.Request.Type</b> member to <b>BmRequestClass</b>.
 Sets other structure members by using the <b>WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</b> function's input arguments.
 
 </li>
-</ol>To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure, the driver should call one of the following functions:
+</ol>
+To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure, the driver should call one of the following functions:
+
 <ul>
 <li>
 
@@ -161,22 +167,60 @@ Sets other structure members by using the <b>WDF_USB_CONTROL_SETUP_PACKET_INIT_C
 </li>
 </ul>
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_USB_CONTROL_SETUP_PACKET  packet;
+WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS(
+                                        &amp;packet,
+                                        BMREQUEST_HOST_TO_DEVICE,
+                                        BMREQUEST_TO_DEVICE,
+                                        0,
+                                        0,
+                                        0
+                                        );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
-
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_feature.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
+
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
+
+
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+
+
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+
+
 
  
 

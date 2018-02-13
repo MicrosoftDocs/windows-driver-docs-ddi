@@ -790,7 +790,11 @@ Initializes a search for symbols whose names match a given pattern.
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
  
 

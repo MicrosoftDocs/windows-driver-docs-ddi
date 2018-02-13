@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_T
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_grow_partition.md">DISK_GROW_PARTITION</a>
+
+
 
  
 

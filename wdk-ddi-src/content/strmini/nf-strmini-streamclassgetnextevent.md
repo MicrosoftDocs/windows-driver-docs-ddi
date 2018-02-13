@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2f83163-4529-4627-8959-2b4cd6b88828
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], stream.streamclassgetnextevent, StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml
+ms.keywords: strmini/StreamClassGetNextEvent, stream.streamclassgetnextevent, StreamClassGetNextEvent routine [Streaming Media Devices], strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, StreamClassGetNextEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,15 +106,19 @@ Pointer to the minidriver's device extension. The minidriver specifies the size 
 ## -returns
 
 
+
 If <i>CurrentEvent</i> is not <b>NULL</b>, <b>StreamClassGetNextEvent</b> returns the next matching event after <i>CurrentEvent</i> in the queue (or <b>NULL</b> if there is no such next event). If <i>CurrentEvent</i> is <b>NULL</b>, <b>StreamClassGetNextEvent</b> returns the first matching event in the queue.
+
 
 
 
 ## -remarks
 
 
+
 The minidriver can call <b>StreamClassGetNextEvent</b> successively to loop through the event queue, examining one event at a time.
 
 The caller may specify additional search criteria to match events on the event queue.
+
 
 

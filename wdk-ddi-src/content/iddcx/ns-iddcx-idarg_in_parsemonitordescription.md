@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc3c55e3-ddbe-4f06-b9fb-55696dc07502
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION, display.idarg_in_parsemonitordescription, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices]
+ms.keywords: display.idarg_in_parsemonitordescription, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices], iddcx/IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ typedef struct IDARG_IN_PARSEMONITORDESCRIPTION {
 ## -see-also
 
 <a href="..\iddcx\ns-iddcx-idarg_out_parsemonitordescription.md">IDARG_OUT_PARSEMONITORDESCRIPTION</a>
+
+
 
  
 

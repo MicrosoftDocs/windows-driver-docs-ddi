@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: caa64a32-3772-45b5-898a-78dc51b7f24b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkmdt_opm_omac, d3dkmdt/PDXGKMDT_OPM_OMAC, d3dkmdt/DXGKMDT_OPM_OMAC, _DXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], PDXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC, DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, DXGKMDT_OPM_OMAC structure [Display Devices], DXGKMDT_OPM_OMAC
+ms.keywords: DXGKMDT_OPM_OMAC structure [Display Devices], display.dxgkmdt_opm_omac, d3dkmdt/PDXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC, _DXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, d3dkmdt/DXGKMDT_OPM_OMAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGKMDT_OPM_OMAC
 product: Windows
 targetos: Windows
-req.typenames: DXGKMDT_OPM_OMAC, *PDXGKMDT_OPM_OMAC
+req.typenames: "*PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC"
 ---
 
 # _DXGKMDT_OPM_OMAC structure
@@ -75,9 +75,11 @@ A 16-byte array that comprises the OMAC.
 ## -remarks
 
 
+
 For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 The OMAC-1 parameters that OPM and COPP use are:
+
 <ul>
 <li>
 <i>E</i> = AES (Advanced Encryption Standard)
@@ -95,17 +97,25 @@ The OMAC-1 parameters that OPM and COPP use are:
 <i>n</i> = 128 bits 
 
 </li>
-</ul>For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+</ul>
+For information about AES, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70411">RSA Laboratories</a> website. 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
+
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
+
 
  
 

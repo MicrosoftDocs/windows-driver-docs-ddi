@@ -81,6 +81,7 @@ Specifies the arguments passed to the extension command.  In particular, if the 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,13 +109,16 @@ Indicates that the function cannot handle the command, or that other implementat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 All other return values are ignored by the engine.
 
 
 
+
 ## -remarks
+
 
 
 The name of the function becomes the name of the extension command.  When executing an extension command, the engine searches through each of the loaded extension DLLs in turn, looking for an exported function that has the same name as the command.  For example, when executing the command <b>!stack</b>, the engine will look for an exported function named <b>stack</b> in each loaded extension DLL. For information about the order in which extension DLLs are searched, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560098">Using Debugger Extension Commands</a>.
@@ -125,9 +129,12 @@ DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h head
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
  
 

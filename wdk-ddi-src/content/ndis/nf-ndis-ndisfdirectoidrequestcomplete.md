@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6b4d4f4-63d5-496c-9082-f2e8d1a174ec
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFDirectOidRequestComplete, NdisFDirectOidRequestComplete, netvista.ndisfdirectoidrequestcomplete, ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml
+ms.keywords: netvista.ndisfdirectoidrequestcomplete, ndis_request_direct_ref_b61f2fdf-0fb8-4df8-8637-a4db671d008f.xml, NdisFDirectOidRequestComplete, ndis/NdisFDirectOidRequestComplete, NdisFDirectOidRequestComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFDirectOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFDirectOidRequestComplete function
@@ -99,11 +99,14 @@ The final status of the request operation: NDIS_STATUS_SUCCESS or any driver-det
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A filter driver that returns NDIS_STATUS_PENDING from its 
@@ -120,19 +123,30 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
    FilterDirectOidRequestComplete</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+   ProtocolDirectOidRequestComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
 
  
 

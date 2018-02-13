@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 32a671e9-6a31-483f-881d-1c7938dc9405
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2texturestagestate, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, *LPD3DHAL_DP2TEXTURESTAGESTATE, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE, _D3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], D3DHAL_DP2TEXTURESTAGESTATE
+ms.keywords: D3DHAL_DP2TEXTURESTAGESTATE, _D3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE, display.d3dhal_dp2texturestagestate, d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, *LPD3DHAL_DP2TEXTURESTAGESTATE, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ Specifies the value that the driver should update the texture state identified b
 
 
 
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should process <b>wStateCount</b> D3DHAL_DP2TEXTURESTAGESTATE structures from the command buffer. The value of <b>wStateCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
 For each D3DHAL_DP2TEXTURESTAGESTATE structure, <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should update the driver's internal texture state associated with the texture at <b>dwStage</b> to reflect the new value based on <b>TSState</b>.
@@ -95,16 +96,24 @@ For each D3DHAL_DP2TEXTURESTAGESTATE structure, <a href="..\d3dhal\nc-d3dhal-lpd
 Drivers that do not support multitexturing should implement support for texture stage 0 only.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_TEXTURESTAGESTATE command and three D3DHAL_DP2TEXTURESTAGESTATE structures. The driver should update stages zero and three of its private texture stage state accordingly.
+
 <img alt="Figure showing a command buffer with a D3DDP2OP_TEXTURESTAGESTATE command and three D3DHAL_DP2TEXTURESTAGESTATE structures " src="images/dp2tss.png"/>
+
 
 
 ## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
-D3DDP2OP_TEXTURESTAGESTATE
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+D3DDP2OP_TEXTURESTAGESTATE
+
+
 
  
 

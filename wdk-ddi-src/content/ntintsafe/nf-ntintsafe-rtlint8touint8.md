@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 884F36CD-8F2F-401C-A800-33735764B844
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlint8touint8, RtlInt8ToUInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8ToUInt8, RtlInt8ToUInt8
+ms.keywords: kernel.rtlint8touint8, RtlInt8ToUInt8 function [Kernel-Mode Driver Architecture], RtlInt8ToUInt8, ntintsafe/RtlInt8ToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,10 +81,13 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt8ToByte</li>
 </ul>
+
 

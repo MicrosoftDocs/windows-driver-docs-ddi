@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec86ac71-212c-4edd-94c6-bab1cb5fa660
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::SetAssemblyOptions, SetAssemblyOptions, dbgeng/IDebugControl3::SetAssemblyOptions, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, SetAssemblyOptions method [Windows Debugging], debugger.setassemblyoptions, SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml
+ms.keywords: debugger.setassemblyoptions, SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions method [Windows Debugging], dbgeng/IDebugControl3::SetAssemblyOptions, SetAssemblyOptions, IDebugControl3, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Specifies the new assembly and disassembly options to be used by the <a href="ht
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For more information about using assembly with the debugger engine API, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538127">Assembling and Disassembling Instructions</a>.
@@ -104,6 +109,7 @@ For more information about using assembly with the debugger engine API, see <a h
 The assembly and disassembly options affect how the debugger engine assembles and disassembles processor instructions for the target.
 
 The options are represented by a bitset with the following bit flags.
+
 <table>
 <tr>
 <th>Constant</th>
@@ -157,27 +163,43 @@ This is equivalent to the <b>source_line</b> option in the <b>.asm</b> command.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assembly and disassembly options.  This means that all the options in the preceding table are turned off. 
 
 
 
+
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+
+
 
  
 

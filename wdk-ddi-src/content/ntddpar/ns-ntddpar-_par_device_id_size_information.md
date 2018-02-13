@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: b48624cd-e8fb-4152-8e34-9cb1e542f62b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPAR_DEVICE_ID_SIZE_INFORMATION structure pointer [Parallel Ports], PAR_DEVICE_ID_SIZE_INFORMATION, cisspd_388a088d-9dd7-4a6c-99ad-b1e725d91f72.xml, parports.par_device_id_size_information, ntddpar/PPAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION structure [Parallel Ports], _PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION, PPAR_DEVICE_ID_SIZE_INFORMATION, ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION
+ms.keywords: PPAR_DEVICE_ID_SIZE_INFORMATION, ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION structure [Parallel Ports], cisspd_388a088d-9dd7-4a6c-99ad-b1e725d91f72.xml, _PAR_DEVICE_ID_SIZE_INFORMATION, parports.par_device_id_size_information, PAR_DEVICE_ID_SIZE_INFORMATION, PPAR_DEVICE_ID_SIZE_INFORMATION structure pointer [Parallel Ports], ntddpar/PPAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PAR_DEVICE_ID_SIZE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION"
+req.typenames: PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION
 ---
 
 # _PAR_DEVICE_ID_SIZE_INFORMATION structure
@@ -74,9 +74,13 @@ Specifies the size, in bytes, of a buffer that can hold the IEEE 1284 device ID 
 
 ## -see-also
 
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
+
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id_size.md">IOCTL_PAR_QUERY_DEVICE_ID_SIZE</a>
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
+
 
  
 

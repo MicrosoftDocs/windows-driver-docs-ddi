@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AcquireInterruptLock method, IWDFInterrupt interface, wudfddi/IWDFInterrupt::AcquireInterruptLock, IWDFInterrupt, AcquireInterruptLock, AcquireInterruptLock method, umdf.iwdfinterrupt_acquireinterruptlock, IWDFInterrupt::AcquireInterruptLock, IWDFInterrupt interface, AcquireInterruptLock method, wdf.iwdfinterrupt_acquireinterruptlock
+ms.keywords: IWDFInterrupt, AcquireInterruptLock, IWDFInterrupt::AcquireInterruptLock, IWDFInterrupt interface, AcquireInterruptLock method, AcquireInterruptLock method, AcquireInterruptLock method, IWDFInterrupt interface, umdf.iwdfinterrupt_acquireinterruptlock, wdf.iwdfinterrupt_acquireinterruptlock, wudfddi/IWDFInterrupt::AcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ void AcquireInterruptLock();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 When a driver calls <b>AcquireInterruptLock</b>, the system acquires the framework's interrupt lock.
@@ -96,12 +100,14 @@ After your driver calls <b>AcquireInterruptLock</b>, it must not call the method
 When running in an arbitrary thread, such as an I/O queue callback method, drivers must call <a href="https://msdn.microsoft.com/4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5">IWDFInterrupt::TryToAcquireInterruptLock</a> instead of <b>IWDFInterrupt::AcquireInterruptLock</b>. For example, the driver calls <b>IWDFInterrupt::TryToAcquireInterruptLock</b> from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>.
 
 Doing so avoids the possibility of deadlock, as described in the following scenario.
+
 <ol>
 <li>In order to determine if its device interrupted, a UMDF sends I/O to its bus from within its ISR, with the interrupt lock held.</li>
 <li>  The bus driver completes a second request in the same thread in which it received the above request.</li>
 <li>The completion routine of the second request sends a request to the UMDF driver.</li>
 <li>  The UMDF driver's I/O dispatch routine calls <b>IWDFInterrupt::AcquireInterruptLock</b>, which then deadlocks attempting to acquire the interrupt lock.</li>
-</ol>The driver must not attempt to acquire the lock recursively. If connected to the debugger, the framework introduces a breakpoint in this scenario.
+</ol>
+The driver must not attempt to acquire the lock recursively. If connected to the debugger, the framework introduces a breakpoint in this scenario.
 
 For more information about manual interrupt locking, see <a href="https://msdn.microsoft.com/a24477dc-f75d-4ab6-8695-d8a85247e276">Synchronizing Interrupt Code</a>.
 
@@ -109,13 +115,20 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
-## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3">IWDFInterrupt::ReleaseInterruptLock</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
 
  
 

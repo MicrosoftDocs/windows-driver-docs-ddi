@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_port_status.htm
 old-project: usbref
 ms.assetid: eb15d01c-e77c-4605-9c12-dd8495834875
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usb_get_port_status, IOCTL_INTERNAL_USB_GET_PORT_STATUS control code [Buses], IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbioctl/IOCTL_INTERNAL_USB_GET_PORT_STATUS, usbirp_4fc2e386-093d-45b3-a74d-da66e711d71d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,14 +91,18 @@ The size of a ULONG.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

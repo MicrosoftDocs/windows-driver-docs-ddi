@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 31855688-9221-4128-89c5-dbc4f3e6f794
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinHandshake, ks/KsPinHandshake, stream.kspinhandshake, KsPinHandshake function [Streaming Media Devices], avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml
+ms.keywords: stream.kspinhandshake, KsPinHandshake function [Streaming Media Devices], ks/KsPinHandshake, avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml, KsPinHandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ A pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure th
 ## -returns
 
 
+
 <b>KsPinHandshake </b>returns STATUS_SUCCESS if the connected pin is accepting the negotiated connection. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Protocol handshakes can be used to negotiate private interfaces between two pins that are both AVStream pins. 
@@ -100,13 +103,20 @@ Connections between AVStream pins are performed using this type of handshake.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
 
 <a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
+
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
 
  
 

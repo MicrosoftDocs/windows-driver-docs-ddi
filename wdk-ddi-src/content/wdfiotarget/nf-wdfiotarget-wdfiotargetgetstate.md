@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 38e22922-d9de-4dfd-9da9-c131b789f5d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetGetState method, WdfIoTargetGetState, DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, PFN_WDFIOTARGETGETSTATE, kmdf.wdfiotargetgetstate, wdfiotarget/WdfIoTargetGetState, wdf.wdfiotargetgetstate
+ms.keywords: kmdf.wdfiotargetgetstate, DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, WdfIoTargetGetState method, wdf.wdfiotargetgetstate, wdfiotarget/WdfIoTargetGetState, PFN_WDFIOTARGETGETSTATE, WdfIoTargetGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,9 +81,11 @@ A handle to a local or remote I/O target object that was obtained from a previou
 ## -returns
 
 
-<b>WdfIoTargetGetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that indicates the state of the specified I/O target.
+
+<b>WdfIoTargetGetState</b> returns a <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that indicates the state of the specified I/O target.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
@@ -92,19 +94,44 @@ A bug check occurs if the driver supplies an invalid object handle.
 ## -remarks
 
 
+
 For more information about <b>WdfIoTargetGetState</b>, see <a href="https://msdn.microsoft.com/37f756bf-b655-428e-b72c-f86c71f1a2db">Controlling a General I/O Target's State</a>. 
 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
+#### Examples
+
+The following code example obtains state information for a USB I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_IO_TARGET_STATE  ioTargetState;
+
+ioTargetState = WdfIoTargetGetState(WdfUsbTargetPipeGetIoTarget(pipeHandle));</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
 
  
 

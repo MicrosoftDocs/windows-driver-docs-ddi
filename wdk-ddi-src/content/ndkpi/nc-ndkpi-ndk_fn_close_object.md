@@ -90,8 +90,10 @@ A context value for the NDK provider to pass back to the <i>NdkCloseCompletion</
 ## -returns
 
 
+
 The 
      <i>NdkCloseObject</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +132,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The function dispatch table for each  type of NDK object   includes  an <i>NDK_FN_CLOSE_OBJECT</i> function pointer. Close  requests are asynchronous. An  NDK consumer must not access the object after a close request is started. 
@@ -143,17 +148,28 @@ The NDK provider must ensure that the <i>NdkCloseCompletion</i> function (<a hre
 
 
 
+
 ## -see-also
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_completion.md">NDK_FN_CLOSE_COMPLETION</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+
+
+
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
 
  
 

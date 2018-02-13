@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: abe43441-3e00-4d85-ae84-dd738303ab1b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_arrayelement, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ArrayElement, ArrayElement method [Windows Debugging], ExtRemoteTyped interface, ArrayElement method [Windows Debugging], EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped::ArrayElement
+ms.keywords: ArrayElement, ExtRemoteTyped::ArrayElement, ExtRemoteTyped, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, debugger.extremotetyped_arrayelement, ExtRemoteTyped interface [Windows Debugging], ArrayElement method, ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging], ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.ArrayElement
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::ArrayElement method
@@ -75,11 +75,14 @@ The index of the array element.
 ## -returns
 
 
+
 <b>ArrayElement</b> returns a new <b>ExtRemoteData</b> object that represents the typed data for the specified element of the array.
 
 
 
+
 ## -remarks
+
 
 
 If the typed data represented by this object is a pointer and not an array, the pointer is treated like an array.
@@ -88,11 +91,16 @@ The <a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">Ex
 
 
 
+
 ## -see-also
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
 
 <a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">ExtRemoteTyped::operator[]</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
 
  
 

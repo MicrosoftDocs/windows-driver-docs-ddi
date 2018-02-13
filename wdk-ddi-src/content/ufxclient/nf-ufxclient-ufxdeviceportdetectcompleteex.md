@@ -7,8 +7,8 @@ old-location: buses\ufxdeviceportdetectcompleteex.htm
 old-project: usbref
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufxdeviceportdetectcompleteex, UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], ufxclient/UfxDevicePortDetectCompleteEx
+ms.date: 2/8/2018
+ms.keywords: buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], UfxDevicePortDetectCompleteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Contains an enumeration value of type <a href="..\ufxbase\ne-ufxbase-_usbfn_acti
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The client driver calls <b>UfxDevicePortDetectCompleteEx</b> after port detection is complete, typically from its <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_port_detect.md">EVT_UFX_DEVICE_PORT_DETECT</a> callback function. On some platforms, UFX may use the reported port type to notify the battery manager of the maximum current it can draw from the USB port.
@@ -105,6 +108,7 @@ If the <i>Action</i> parameter is set to <b>UsbfnActionDetectProprietaryCharger<
 
 
 The following snippet shows how a client driver calls <b>UfxDevicePortDetectCompleteEx</b>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -133,4 +137,5 @@ The following snippet shows how a client driver calls <b>UfxDevicePortDetectComp
 </td>
 </tr>
 </table></span></div>
+
 

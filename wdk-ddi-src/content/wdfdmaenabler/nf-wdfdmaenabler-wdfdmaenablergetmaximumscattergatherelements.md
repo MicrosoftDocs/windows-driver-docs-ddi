@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de02d40d-3438-4a34-9e2b-07a7d9c4c8ac
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMAENABLERGETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablergetmaximumscattergatherelements, WdfDmaEnablerGetMaximumScatterGatherElements method, wdf.wdfdmaenablergetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements, WdfDmaEnablerGetMaximumScatterGatherElements, DFDmaObjectRef_34ec0aef-b846-4b23-b9b3-01e8834821f7.xml
+ms.keywords: wdf.wdfdmaenablergetmaximumscattergatherelements, WdfDmaEnablerGetMaximumScatterGatherElements method, DFDmaObjectRef_34ec0aef-b846-4b23-b9b3-01e8834821f7.xml, WdfDmaEnablerGetMaximumScatterGatherElements, PFN_WDFDMAENABLERGETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablergetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a DMA enabler object that the driver obtained from a previous call t
 ## -returns
 
 
+
 If the driver previously called <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>, <b>WdfDmaEnablerGetMaximumScatterGatherElements</b> returns the value that the driver specified in the previous call. Otherwise, <b>WdfDmaEnablerGetMaximumScatterGatherElements</b> returns WDF_DMA_ENABLER_UNLIMITED_FRAGMENTS, which indicates that there is no limit to the number of scatter/gather elements.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,10 +88,31 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about this method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a>.
+
+
+#### Examples
+
+The following code example obtains the maximum number of scatter/gather elements for a specified DMA enabler object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>size_t maxElements;
+
+maxElements = WdfDmaEnablerGetMaximumScatterGatherElements(DmaEnabler);
+ </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -98,7 +120,11 @@ For more information about this method, see <a href="https://docs.microsoft.com/
 
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
+
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
+
+
 
  
 

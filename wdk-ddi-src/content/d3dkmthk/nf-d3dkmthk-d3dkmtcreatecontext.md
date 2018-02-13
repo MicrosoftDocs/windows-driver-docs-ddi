@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PFND3DKMT_CREATECONTEXT, D3DKMTCreateContext function [Display Devices], display.d3dkmtcreatecontext, d3dkmthk/D3DKMTCreateContext, D3DKMTCreateContext, OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml
+ms.keywords: d3dkmthk/D3DKMTCreateContext, D3DKMTCreateContext, OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, display.d3dkmtcreatecontext, D3DKMTCreateContext function [Display Devices], PFND3DKMT_CREATECONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTCreateContext(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontext.md">D3DKMT_CREATECONTEXT</a> structure that describes the kernel-mode device context.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontext.md">D3DKMT
 ## -returns
 
 
+
 <b>D3DKMTCreateContext</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +133,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontext.md">D3DKMT_CREATECONTEXT</a>
+
+
 
  
 

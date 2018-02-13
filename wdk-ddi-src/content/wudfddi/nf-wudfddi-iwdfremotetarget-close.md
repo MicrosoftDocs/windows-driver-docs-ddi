@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Close method, IWDFRemoteTarget interface, wdf.iwdfremotetarget_close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close, IWDFRemoteTarget, IWDFRemoteTarget interface, Close method, Close, Close method, IWDFRemoteTarget::Close
+ms.keywords: umdf.iwdfremotetarget_close, IWDFRemoteTarget::Close, IWDFRemoteTarget interface, Close method, Close method, IWDFRemoteTarget interface, Close, wudfddi/IWDFRemoteTarget::Close, Close method, IWDFRemoteTarget, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, wdf.iwdfremotetarget_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ HRESULT Close();
 
 
 
+
 ## -returns
+
 
 
 The <b>Close</b> method always returns S_OK.
 
 
 
+
 ## -remarks
+
 
 
 If your driver provides an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a> callback function, the callback function must call <b>Close</b>. 
@@ -88,12 +92,47 @@ After a driver calls <b>Close</b>, the driver cannot send I/O requests to the I/
 For more information about the <b>Close</b> method, see <a href="https://msdn.microsoft.com/479487b2-5ce5-4522-b195-58ee50d210b6">Controlling a General I/O Target's State in UMDF</a>.
 
 
+#### Examples
+
+The following code example shows an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a> callback function that calls <b>Close</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+STDMETHODCALLTYPE
+CMyRemoteTarget::OnRemoteTargetRemoveComplete(
+    __in IWDFRemoteTarget *FxTarget
+    )
+{
+    //
+    // Here, do any driver-specific actions that your driver requires
+    // to close the remote I/O target.
+    //
+...
+    //
+    // Close the target.
+    //
+    FxTarget-&gt;Close();
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
+
 
  
 

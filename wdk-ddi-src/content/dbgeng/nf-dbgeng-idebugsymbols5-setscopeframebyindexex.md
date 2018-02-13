@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E0638C55-4160-48A5-9378-6AA9AAC8DC36
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFrameByIndexEx, IDebugSymbols5::SetScopeFrameByIndexEx, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, SetScopeFrameByIndexEx method [Windows Debugging], debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, IDebugSymbols5
+ms.keywords: SetScopeFrameByIndexEx method [Windows Debugging], dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], IDebugSymbols5 interface, SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex, IDebugSymbols5 interface [Windows Debugging], SetScopeFrameByIndexEx method, IDebugSymbols5, IDebugSymbols5::SetScopeFrameByIndexEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ An index by which to set the frame.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols5.md">IDebugSymbols5</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 542a8a3b-7704-434c-ad81-0cf8e1f70015
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateDetached, _WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttached, WwanPacketServiceStateAttaching, netvista.wwan_packet_service_state, wwan/WwanPacketServiceStateDetaching, WWAN_PACKET_SERVICE_STATE, wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateUnknown, wwan/WwanPacketServiceStateDetached, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttaching, WwanPacketServiceStateAttached, WwanPacketServiceStateDetaching, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], PWWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateUnknown
+ms.keywords: wwan/WWAN_PACKET_SERVICE_STATE, _WWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateAttached, WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttached, WwanPacketServiceStateUnknown, netvista.wwan_packet_service_state, wwan/WwanPacketServiceStateAttaching, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanPacketServiceStateUnknown, wwan/WwanPacketServiceStateDetaching, WwanPacketServiceStateDetached, WwanPacketServiceStateAttaching, WwanPacketServiceStateDetaching, PWWAN_PACKET_SERVICE_STATE, *PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateDetached, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,13 +102,17 @@ Packet service is detached.
 ## -remarks
 
 
+
 The packet service attach or detach state is typically reflected in the device's user interface.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a>
+
+
 
  
 

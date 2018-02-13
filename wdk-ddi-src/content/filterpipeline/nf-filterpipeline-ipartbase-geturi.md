@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5f4e3723-a30d-462d-9e7b-da05aa2e0b3c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetUri method [Print Devices], IPartBase interface [Print Devices], GetUri method, IPartBase::GetUri, GetUri, IPartBase, GetUri method [Print Devices], IPartBase interface, filterpipeline/IPartBase::GetUri, print.ipartbase_geturi, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml
+ms.keywords: IPartBase::GetUri, print.ipartbase_geturi, GetUri method [Print Devices], IPartBase interface, GetUri method [Print Devices], IPartBase, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml, IPartBase interface [Print Devices], GetUri method, GetUri, filterpipeline/IPartBase::GetUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,8 @@ The URI of the part.
 ## -returns
 
 
+
 <b>GetUri</b> returns an <b>HRESULT</b> value.
+
 
 

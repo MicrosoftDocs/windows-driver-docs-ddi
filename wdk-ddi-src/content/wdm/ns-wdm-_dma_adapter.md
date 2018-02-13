@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PDMA_ADAPTER, PDMA_ADAPTER, wdm/DMA_ADAPTER, *PADAPTER_OBJECT, _DMA_ADAPTER, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], DMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], *PDMA_ADAPTER, kernel.dma_adapter, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml
+ms.keywords: kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], PDMA_ADAPTER, wdm/PDMA_ADAPTER, DMA_ADAPTER, *PDMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], wdm/DMA_ADAPTER, _DMA_ADAPTER, *PADAPTER_OBJECT, kernel.dma_adapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DMA_ADAPTER
 product: Windows
 targetos: Windows
-req.typenames: "*PADAPTER_OBJECT, DMA_ADAPTER, *PDMA_ADAPTER"
+req.typenames: DMA_ADAPTER, *PADAPTER_OBJECT, *PDMA_ADAPTER
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>DMA_ADAPTER</b> structure describes a system-defined interface to a DMA controller for a given device. A driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> to obtain this structure.
+The <b>DMA_ADAPTER</b> structure describes a system-defined interface to a DMA controller for a given device. A driver calls <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> to obtain this structure.
 
 
 ## -syntax
@@ -70,18 +70,17 @@ typedef struct _DMA_ADAPTER {
 
 
 
-
-#### - Version
+### -field Version
 
 Specifies the version of this structure. Version 3 of the <b>DMA_ADAPTER</b> structure is available starting with Windows 8. For versions 1 and 2 of this structure, this member is set to the value 1. For more information, see the following Remarks section.
 
 
-#### - Size
+### -field Size
 
 Specifies the size, in bytes, of this structure.
 
 
-#### - DmaOperations
+### -field DmaOperations
 
 Pointer to a <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> structure that contains pointers to DMA adapter functions. The version of the <b>DMA_OPERATIONS</b> structure that this member points to is determined by the version of the <b>DMA_ADAPTER</b> structure. Thus, for version 1 of the <b>DMA_ADAPTER</b> structure, <i>DmaOperations</i> points to version 1 of the <b>DMA_OPERATIONS</b> structure, and so on. For more information about structure versions, see the following Remarks section.
 
@@ -89,17 +88,27 @@ Pointer to a <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a> struc
 ## -remarks
 
 
-Drivers for devices that use DMA to transfer data use this structure to obtain the addresses of functions that enable use of a DMA controller. Usually, drivers obtain this structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine. Drivers can also obtain this structure by querying for the <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a> interface.
-<div class="alert"><b>Note</b>  When the <b>IoGetDmaAdapter</b> routine returns a pointer to version 1 or version 2 of the <b>DMA_ADAPTER</b> structure, this routine always sets the <b>Version</b> member of this structure to 1. Thus, the caller cannot use the <b>Version</b> member to distinguish between versions 1 and 2 of the <b>DMA_ADAPTER</b> structure. For more information about how to determine the version of a <b>DMA_ADAPTER</b> structure that is returned by this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.</div><div> </div>
+
+Drivers for devices that use DMA to transfer data use this structure to obtain the addresses of functions that enable use of a DMA controller. Usually, drivers obtain this structure by calling the <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> routine. Drivers can also obtain this structure by querying for the <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a> interface.
+
+<div class="alert"><b>Note</b>  When the <b>IoGetDmaAdapter</b> routine returns a pointer to version 1 or version 2 of the <b>DMA_ADAPTER</b> structure, this routine always sets the <b>Version</b> member of this structure to 1. Thus, the caller cannot use the <b>Version</b> member to distinguish between versions 1 and 2 of the <b>DMA_ADAPTER</b> structure. For more information about how to determine the version of a <b>DMA_ADAPTER</b> structure that is returned by this routine, see <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
-
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
+
+
 
  
 

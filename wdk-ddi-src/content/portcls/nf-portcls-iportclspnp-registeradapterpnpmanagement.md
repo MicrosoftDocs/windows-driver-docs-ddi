@@ -7,8 +7,8 @@ old-location: audio\iportclspnp_registeradapterpnpmanagement.htm
 old-project: audio
 ms.assetid: D9A54562-0ABC-4BEA-A9E3-F1A0A4EBC095
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: RegisterAdapterPnpManagement, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, audio.iportclspnp_registeradapterpnpmanagement, IPortClsPnp, portcls/IPortClsPnp::RegisterAdapterPnpManagement, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method
+ms.date: 2/8/2018
+ms.keywords: RegisterAdapterPnpManagement, IPortClsPnp interface [Audio Devices], RegisterAdapterPnpManagement method, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp interface, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], IPortClsPnp, audio.iportclspnp_registeradapterpnpmanagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,14 @@ Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT
 ## -returns
 
 
+
 The <code>RegisterAdapterPowerManagement</code> method returns STATUS_SUCCESS if the call is successful. Otherwise, it returns the appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 When the <code>RegisterAdapterPowerManagement</code> method registers the PnP management interface for the adapter with PortCls, it allows the adapter driver to be notified of PnP state change events.
@@ -94,15 +97,20 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 
 
-## -see-also
 
-<a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536876">IPortClsPower::UnregisterAdapterPowerManagement</a>
 
- 
+
+
+<a href="..\portcls\nn-portcls-iportclspnp.md">IPortClsPnp</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsPnp::RegisterAdapterPnpManagement method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsPnp::RegisterAdapterPnpManagement method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

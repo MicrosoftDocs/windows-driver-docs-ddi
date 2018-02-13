@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f133f6cc-6e09-4eb8-b6fe-50d207391621
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, _NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_property_enum_parameters, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS
+ms.keywords: ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_property_enum_parameters, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, _NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, *PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,6 +82,7 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+
 #### NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -109,12 +110,16 @@ A GUID value that identifies the extensible switch property.
 ### -field SerializationVersion
 
 An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format version of the serialized extensible switch property data. This data is serialized for access by the extension from the Managed Object Format (MOF) file that defined the property.
-<div class="alert"><b>Note</b>  For Windows Server 2012, the <b>SerializationVersion</b> member must be set to NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION_1.</div><div> </div>
+
+<div class="alert"><b>Note</b>  For Windows Server 2012, the <b>SerializationVersion</b> member must be set to NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION_1.</div>
+<div> </div>
 
 ### -field FirstPropertyOffset
 
 A USHORT value that specifies the offset, in bytes, to the first <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_info.md">NDIS_SWITCH_PROPERTY_ENUM_INFO</a> element that follows the <b>NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</b> structure. The offset is measured from the start of the <b>NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</b> structure up to the beginning of the first element in the array.
-<div class="alert"><b>Note</b>  If the value of <b>NumProperties</b> is zero, this member is ignored. </div><div> </div>
+
+<div class="alert"><b>Note</b>  If the value of <b>NumProperties</b> is zero, this member is ignored. </div>
+<div> </div>
 
 ### -field NumProperties
 
@@ -122,6 +127,7 @@ A ULONG value that specifies the number of <a href="..\ntddndis\ns-ntddndis-_ndi
 
 
 ## -remarks
+
 
 
 The <b>NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</b> structure is used in OID method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598282">OID_SWITCH_PROPERTY_ENUM</a>. An array of <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_info.md">NDIS_SWITCH_PROPERTY_ENUM_INFO</a> structures follows the <b>NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</b> structure in the information buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
@@ -132,17 +138,28 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_info.md">NDIS_SWITCH_PROPERTY_ENUM_INFO</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598282">OID_SWITCH_PROPERTY_ENUM</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_info.md">NDIS_SWITCH_PROPERTY_ENUM_INFO</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <b></b>
+
+
 
  
 

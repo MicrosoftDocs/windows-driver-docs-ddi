@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24ae7329-064f-43bf-8c1d-8aad9fdf2254
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCREATE_DISK_GPT structure pointer [Storage Devices], storage.create_disk_gpt, CREATE_DISK_GPT structure [Storage Devices], ntdddisk/CREATE_DISK_GPT, structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml, _CREATE_DISK_GPT, CREATE_DISK_GPT, PCREATE_DISK_GPT, *PCREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT
+ms.keywords: CREATE_DISK_GPT, ntdddisk/CREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT, structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml, storage.create_disk_gpt, CREATE_DISK_GPT structure [Storage Devices], _CREATE_DISK_GPT, *PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Storage Devices], PCREATE_DISK_GPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,9 +80,13 @@ Specifies the maximum number of partitions allowed on the disk.
 
 ## -see-also
 
+<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
+
+
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
+
 
  
 

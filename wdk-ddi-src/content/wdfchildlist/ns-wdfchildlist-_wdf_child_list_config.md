@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0a392f4-c7c3-4b61-960c-b94f9605f5a4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_child_list_config, WDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, wdfchildlist/WDF_CHILD_LIST_CONFIG, _WDF_CHILD_LIST_CONFIG, wdfchildlist/PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, wdf.wdf_child_list_config, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, PWDF_CHILD_LIST_CONFIG, *PWDF_CHILD_LIST_CONFIG
+ms.keywords: wdfchildlist/WDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, *PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG, wdf.wdf_child_list_config, kmdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, _WDF_CHILD_LIST_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_CHILD_LIST_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG"
+req.typenames: WDF_CHILD_LIST_CONFIG, *PWDF_CHILD_LIST_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -150,6 +150,7 @@ A pointer to the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child
 ## -remarks
 
 
+
 The <b>WDF_CHILD_LIST_CONFIG</b> structure is used as input to the <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a> and <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a> methods.
 
 To initialize a WDF_CHILD_LIST_CONFIG structure, the driver must call <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>.
@@ -158,17 +159,28 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 
 
+
 ## -see-also
-
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
 
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+
+
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
+
+
 
  
 

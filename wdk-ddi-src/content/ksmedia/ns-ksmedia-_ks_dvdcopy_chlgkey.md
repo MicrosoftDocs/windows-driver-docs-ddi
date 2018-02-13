@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10be15fc-ca0e-40d4-8fe9-9682478f5c5b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_CHLGKEY, stream.ks_dvdcopy_chlgkey, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY, ksmedia/PKS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY"
+ms.keywords: KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], stream.ks_dvdcopy_chlgkey, KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY, ksmedia/KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_CHLGKEY, ksmedia/PKS_DVDCOPY_CHLGKEY, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,19 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 The KS_DVDCOPY_CHLGKEY structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a> property.
 
 For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 71a45396-0b23-4a20-a4f4-25355a1f6271
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatetopologynode2, KsCreateTopologyNode2, KsCreateTopologyNode2 function [Streaming Media Devices], ks/KsCreateTopologyNode2
+ms.keywords: stream.kscreatetopologynode2, KsCreateTopologyNode2, ks/KsCreateTopologyNode2, KsCreateTopologyNode2 function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,26 +95,38 @@ Location for the topology node handle.
 ## -returns
 
 
+
 Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 This is a new version of the <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
 
 <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
 
+
+
+<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+
+
 <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
+
+
 
  
 

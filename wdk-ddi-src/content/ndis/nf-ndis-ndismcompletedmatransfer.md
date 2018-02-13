@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcompletedmatransfer, NdisMCompleteDmaTransfer, dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], ndis/NdisMCompleteDmaTransfer
+ms.keywords: ndis/NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], netvista.ndismcompletedmatransfer, dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, NdisMCompleteDmaTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCompleteDmaTransfer
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCompleteDmaTransfer macro
@@ -106,6 +106,8 @@ TBD
 
 
 
+
+
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the final status of the DMA
@@ -115,10 +117,12 @@ A pointer to a caller-supplied variable in which this function returns the final
 
 
 
+
 #### NDIS_STATUS_SUCCESS
 
 The data has been transferred and flushed to host memory or to the device to maintain data
        integrity.
+
 
 
 #### NDIS_STATUS_RESOURCES
@@ -161,6 +165,7 @@ The length in bytes of the transfer. This value also was passed to
 ## -remarks
 
 
+
 <b>NdisMCompleteDmaTransfer</b> must be called with 
     <i>WriteToDevice</i> set to <b>TRUE</b> before the transferred data is considered present in the NIC's memory. 
     <b>NdisMCompleteDmaTransfer</b> must be called with 
@@ -168,13 +173,20 @@ The length in bytes of the transfer. This value also was passed to
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 

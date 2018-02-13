@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 24dda069-5f93-469d-8ce3-87b488019b88
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: STI_USD_CAPS, PSTI_USD_CAPS, *PSTI_USD_CAPS, stiusd/STI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], _STI_USD_CAPS, image.sti_usd_caps, PSTI_USD_CAPS structure pointer [Imaging Devices], stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS
+ms.keywords: STI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], *PSTI_USD_CAPS, image.sti_usd_caps, stiusd/STI_USD_CAPS, PSTI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], stiusd/PSTI_USD_CAPS, _STI_USD_CAPS, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,10 +82,12 @@ Bit flags indicating driver capabilities. The following flags are defined in <i>
 
 
 
-
 #### STI_USD_GENCAP_NATIVE_PUSHSUPPORT
 
 The driver supports asynchronous device notifications.
+
+
+
 
 
 #### STI_USD_GENCAP_OPEN_DEVICE_FOR_ME

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml, WhyConstrained method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::WhyConstrained, IPrintCoreUI2, WhyConstrained method [Print Devices], prcomoem/IPrintCoreUI2::WhyConstrained, IPrintCoreUI2 interface [Print Devices], WhyConstrained method
+ms.keywords: prcomoem/IPrintCoreUI2::WhyConstrained, IPrintCoreUI2, print.iprintcoreui2_whyconstrained, WhyConstrained method [Print Devices], print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], WhyConstrained method, IPrintCoreUI2::WhyConstrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -114,7 +114,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the rea
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -181,11 +183,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 UI plug-ins that fully replace the core driver's standard UI pages, and is supported only during the UI plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. See <a href="https://msdn.microsoft.com/b7f79841-f82c-4a60-9c2f-58772a65a5eb">Replacing Driver-Supplied Property Sheet Pages</a> for more information.
@@ -196,15 +201,24 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553045">IPrintCoreUI2::EnumConstrainedOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
+
+
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553045">IPrintCoreUI2::EnumConstrainedOptions</a>
+
+
 
  
 

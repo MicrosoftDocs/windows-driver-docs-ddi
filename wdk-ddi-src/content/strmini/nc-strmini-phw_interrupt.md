@@ -40,7 +40,7 @@ apiname:
 -	StrMiniInterrupt
 product: Windows
 targetos: Windows
-req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
+req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.
 ---
 
@@ -79,15 +79,19 @@ Pointer to the minidriver's device extension.
 ## -returns
 
 
+
 <i>StrMiniInterrupt</i> returns <b>TRUE</b> if the device generated the interrupt, and <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 The class driver calls <i>StrMiniInterrupt</i> each time it receives an interrupt on behalf of the minidriver.
 
 An interrupt may be shared among several different devices. The minidriver's <i>StrMiniInterrupt</i> routine must determine if its underlying hardware actually generated the interrupt. If the device did not generate the interrupt, <i>StrMiniInterrupt</i> should return <b>FALSE</b> as soon as possible -- for shared interrupts, the operating system calls the interrupt service routines registered for that interrupt until one of the routines returns <b>TRUE</b>, so the ISR may keep the actual device that generated the interrupt waiting if it takes too long to complete.
+
 
 

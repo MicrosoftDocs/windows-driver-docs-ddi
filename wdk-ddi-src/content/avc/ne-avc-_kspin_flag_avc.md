@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 45a85718-8997-4c54-b283-e26247866735
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_KSPIN_FLAG_AVC, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], avc/KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC_FIXEDPCR, KSPIN_FLAG_AVCMASK, KSPIN_FLAG_AVC, stream.kspin_flag_avc, avc/KSPIN_FLAG_AVC_CONNECTED, KSPIN_FLAG_AVC_PERMANENT, avc/KSPIN_FLAG_AVC_PCRONLY, avc/KSPIN_FLAG_AVC_PERMANENT, KSPIN_FLAG_AVC_CONNECTED, KSPIN_FLAG_AVC_FIXEDPCR, KSPIN_FLAG_AVC_PCRONLY, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, avc/KSPIN_FLAG_AVC"
+ms.keywords: KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC_CONNECTED, KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC_PERMANENT, avc/KSPIN_FLAG_AVC_FIXEDPCR, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, stream.kspin_flag_avc, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC, KSPIN_FLAG_AVC_PERMANENT, avc/KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC_FIXEDPCR, _KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC_CONNECTED, avc/KSPIN_FLAG_AVCMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,15 +99,21 @@ Represents a permanent connection between a subunit plug and a unit (serial bus)
 ## -remarks
 
 
+
 These bit flags are used by the intersect handler to determine plug compatibility, as well as to indicate whether the intersect handler is responsible for obtaining a plug handle from <i>61883.sys</i>.
+
 
 
 
 ## -see-also
 
+<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
 
-<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
+
 
  
 

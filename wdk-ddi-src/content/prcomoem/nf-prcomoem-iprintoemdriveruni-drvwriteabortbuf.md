@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4f7aff9b-32cf-42a0-ba3b-ddc87ecdb8c3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, IPrintOemDriverUni, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteAbortBuf, print.iprintoemdriveruni_drvwriteabortbuf, IPrintOemDriverUni::DrvWriteAbortBuf
+ms.keywords: print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, IPrintOemDriverUni, IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, print.iprintoemdriveruni_drvwriteabortbuf, DrvWriteAbortBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemDriverUni.DrvWriteAbortBuf
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Caller-supplied length of time the printer must wait, in milliseconds, before it
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 OEMs use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> to send output to the printer. If a print job is terminated by the user, <code>IPrintOemDriverUni::DrvWriteSpoolBuf</code> returns E_FAIL and can no longer be used to send any data to the printer. When this occurs, certain printers must have a clean-up code fragment sent to them, resetting their states before they can start new print jobs. For these printers, <code>IPrintOemDriverUni::DrvWritetAbortBuf</code> is used to send this code fragment to the printer.
@@ -145,5 +150,6 @@ OEMs use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">
 <code>IPrintOemDriverUni::DrvWriteAbortBuf</code> can only be called after <code>IPrintOemDriverUni::DrvWriteSpoolBuf</code> has returned E_FAIL. <code>IPrintOemDriverUni::DrvWriteAbortBuf</code> should not be called more than once per job. 
 
 Rendering plug-ins are described in <a href="https://msdn.microsoft.com/b7761209-1f6f-4288-af47-4ed855c2e629">Customizing Microsoft's Printer Drivers</a>.
+
 
 

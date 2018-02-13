@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce867f4f-f091-4a85-96b8-7da6b528a6cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture], SECTION_OBJECT_POINTERS, _SECTION_OBJECT_POINTERS, *PSECTION_OBJECT_POINTERS, PSECTION_OBJECT_POINTERS, wdm/SECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], kernel.section_object_pointers, wdm/PSECTION_OBJECT_POINTERS, kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml
+ms.keywords: PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture], SECTION_OBJECT_POINTERS, kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml, SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], wdm/SECTION_OBJECT_POINTERS, PSECTION_OBJECT_POINTERS, wdm/PSECTION_OBJECT_POINTERS, kernel.section_object_pointers, _SECTION_OBJECT_POINTERS, *PSECTION_OBJECT_POINTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,11 +88,13 @@ Opaque pointer to an image section object (that is, a <b>CONTROL_AREA</b> struct
 ## -remarks
 
 
+
 The <b>SECTION_OBJECT_POINTERS</b> structure links a file object to a file stream's section object. That is, through its members, the <b>SECTION_OBJECT_POINTERS</b> structure connects a particular file object to virtual memory control structures that keep track of the stream's contents when they are in memory, and allow the operating system to fetch those contents when they are not. 
 
 There is a one-to-one relationship between a <b>SECTION_OBJECT_POINTERS</b> structure and a file stream. Multiple file objects can be associated with a particular file stream, each representing an open instance of the stream. However, only one <b>SECTION_OBJECT_POINTERS</b> structure can be associated with a given stream. If there are multiple file objects for a stream, the <b>SectionObjectPointer</b> member for all file objects must point to the same <b>SECTION_OBJECT_POINTERS</b> structure (that is associated with the stream).
 
 For the <u>first</u> file stream open request, the file system or the redirector driver must:
+
 <ol>
 <li>
 Allocate a <b>SECTION_OBJECT_POINTERS</b> structure from a nonpaged pool.
@@ -106,27 +108,49 @@ Initialize all members of the allocated <b>SECTION_OBJECT_POINTERS</b> structure
   Set the <b>SectionObjectPointer</b> member of the associate file object to point to the initialized <b>SECTION_OBJECT_POINTERS</b> structure.
 
 </li>
-</ol>For <u>subsequent</u> open requests to the <u>same</u> file stream, the file system or the redirector driver must set the <b>SectionObjectPointer</b> member of the associated file object to point to the previously allocated <b>SECTION_OBJECT_POINTERS</b> structure for the file stream.
-<div class="alert"><b>Warning</b>    File system filter drivers must treat the members of the <b>SECTION_OBJECT_POINTERS</b> structure as opaque because the underlying file system is responsible for the synchronization of the members and, therefore, could change their values at any time.</div><div> </div><div class="alert"><b>Note</b>    A file is composed of one or more streams, depending on the file system. For more information, see <a href="https://msdn.microsoft.com/baea4967-f0d6-4096-aac4-fd38c117b4c6">File Streams, Stream Contexts, and Per-Stream Contexts</a>.</div><div> </div>
+</ol>
+For <u>subsequent</u> open requests to the <u>same</u> file stream, the file system or the redirector driver must set the <b>SectionObjectPointer</b> member of the associated file object to point to the previously allocated <b>SECTION_OBJECT_POINTERS</b> structure for the file stream.
+
+<div class="alert"><b>Warning</b>    File system filter drivers must treat the members of the <b>SECTION_OBJECT_POINTERS</b> structure as opaque because the underlying file system is responsible for the synchronization of the members and, therefore, could change their values at any time.</div>
+<div> </div>
+<div class="alert"><b>Note</b>    A file is composed of one or more streams, depending on the file system. For more information, see <a href="https://msdn.microsoft.com/baea4967-f0d6-4096-aac4-fd38c117b4c6">File Streams, Stream Contexts, and Per-Stream Contexts</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
+
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3743db2a-d613-4efb-ae73-80eb1bfd9410
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP enumeration [Display Devices], d3d10umddi/D3D10_DDI_BLEND_OP_MIN, UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, display.d3d10_ddi_blend_op, D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP_MIN, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, D3D10_DDI_BLEND_OP_MAX, D3D10_DDI_BLEND_OP, D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP
+ms.keywords: UMDisplayDriver_Dx10param_Structs_900c6f2c-fc2a-4982-a91e-b1ea29c5f0e4.xml, D3D10_DDI_BLEND_OP, d3d10umddi/D3D10_DDI_BLEND_OP_REV_SUBTRACT, D3D10_DDI_BLEND_OP enumeration [Display Devices], D3D10_DDI_BLEND_OP_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP_SUBTRACT, D3D10_DDI_BLEND_OP_MAX, d3d10umddi/D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_MAX, display.d3d10_ddi_blend_op, D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP_ADD, d3d10umddi/D3D10_DDI_BLEND_OP_MIN, D3D10_DDI_BLEND_OP_REV_SUBTRACT, d3d10umddi/D3D10_DDI_BLEND_OP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,6 +99,8 @@ The result is the maximum of the source and destination (Result = MAX(Source, De
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
+
+
 
  
 

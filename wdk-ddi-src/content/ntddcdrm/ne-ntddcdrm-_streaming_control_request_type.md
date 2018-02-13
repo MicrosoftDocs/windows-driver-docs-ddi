@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A17F0E3C-402B-4484-B4AE-0583773AEDA8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingEnableForReadWrite, PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingEnableForWriteOnly, CdromStreamingEnableForReadOnly, ntddcdrm/ CdromStreamingEnableForWriteOnly, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/CdromStreamingDisable, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/CdromStreamingEnableForReadOnly, *PSTREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], CdromStreamingEnableForReadWrite, STREAMING_CONTROL_REQUEST_TYPE, _STREAMING_CONTROL_REQUEST_TYPE, CdromStreamingDisable, storage.streaming_control_request_type
+ms.keywords: PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], ntddcdrm/ CdromStreamingEnableForWriteOnly, ntddcdrm/CdromStreamingDisable, ntddcdrm/CdromStreamingEnableForReadWrite, CdromStreamingEnableForReadWrite, _STREAMING_CONTROL_REQUEST_TYPE, PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, storage.streaming_control_request_type, CdromStreamingEnableForWriteOnly, *PSTREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], ntddcdrm/CdromStreamingEnableForReadOnly, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, CdromStreamingDisable, CdromStreamingEnableForReadOnly, STREAMING_CONTROL_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STREAMING_CONTROL_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE
+req.typenames: "*PSTREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE"
 ---
 
 # _STREAMING_CONTROL_REQUEST_TYPE enumeration
@@ -94,7 +94,11 @@ Streaming read and streaming write requests will be enabled for the requested fi
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_enable_streaming.md">IOCTL_CDROM_ENABLE_STREAMING</a>
 
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>
+
+
 
  
 

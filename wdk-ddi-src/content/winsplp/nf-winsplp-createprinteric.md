@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87C99B3A-EF77-4D87-9953-BBE9628D2A3D
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.createprinteric, winsplp/CreatePrinterIC, CreatePrinterIC, CreatePrinterIC function [Print Devices]
+ms.keywords: CreatePrinterIC, CreatePrinterIC function [Print Devices], winsplp/CreatePrinterIC, print.createprinteric
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,5 @@ HANDLE WINAPI CreatePrinterIC(
 ### -param hPrinter [in]
 
 
-
 ### -param pDevMode [in, optional]
-
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8cd2d7ae-ebbe-41c6-8773-7a517bc6f714
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ObDereferenceObject, k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, kernel.obdereferenceobject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], ObDereferenceObject
+ms.keywords: wdm/ObDereferenceObject, kernel.obdereferenceobject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], ObDereferenceObject, k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -75,6 +75,8 @@ TBD
 
 
 
+
+
 #### - Object [in]
 
 Pointer to the object's body. 
@@ -83,11 +85,13 @@ Pointer to the object's body.
 ## -remarks
 
 
+
 <b>ObDereferenceObject</b> decreases the reference count of an object by one. If the object was created as temporary (the OBJ_PERMANENT flag was not specified on creation), and the reference count reaches zero, the object can be deleted by the system.
 
 A driver can delete a temporary object it created by decreasing its reference count to zero. A driver must never attempt to delete an object it did not create.
 
 An object is permanent if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of one, so it is not deleted when the driver dereferences it. A driver can only delete a permanent object it created by using the <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a> routine to make it temporary. Use the following steps to delete a permanent object that you created:
+
 <ol>
 <li>
 Call <b>ObDereferenceObject</b>.
@@ -105,21 +109,34 @@ Call <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a> 
 Call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> with the handle obtained in step 2.
 
 </li>
-</ol><div class="alert"><b>Important</b>  
-     Use <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdelete.md">ObDereferenceObjectDeferDelete</a> instead of <b>ObDereferenceObject</b> for any object, particularly <a href="https://msdn.microsoft.com/43bf96ed-8be8-4670-a310-99cd7c7f9073">Kernel Transaction Manager</a> (KTM) objects, when the immediate deletion by the current thread of the object (by using <b>ObDereferenceObject</b>) might result in a deadlock.</div><div> </div>
+</ol>
+<div class="alert"><b>Important</b>  
+     Use <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdelete.md">ObDereferenceObjectDeferDelete</a> instead of <b>ObDereferenceObject</b> for any object, particularly <a href="https://msdn.microsoft.com/43bf96ed-8be8-4670-a310-99cd7c7f9073">Kernel Transaction Manager</a> (KTM) objects, when the immediate deletion by the current thread of the object (by using <b>ObDereferenceObject</b>) might result in a deadlock.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
-
 <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
 
 <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdelete.md">ObDereferenceObjectDeferDelete</a>
 
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
 
  
 

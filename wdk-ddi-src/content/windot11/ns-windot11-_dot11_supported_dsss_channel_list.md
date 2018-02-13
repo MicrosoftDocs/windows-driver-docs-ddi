@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45941a4d-12e0-4a80-b04e-9e349126f5ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_supported_dsss_channel_list, _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml
+ms.keywords: netvista.dot11_supported_dsss_channel_list, Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,18 +94,24 @@ An array that specifies the list of supported frequency channels that the NIC ca
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure when queried by 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
     OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>.
 
 
 
-## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">DOT11_SUPPORTED_DSSS_CHANNEL</a>
+## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-dsss-channel-list">
    OID_DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel.md">DOT11_SUPPORTED_DSSS_CHANNEL</a>
+
+
 
  
 

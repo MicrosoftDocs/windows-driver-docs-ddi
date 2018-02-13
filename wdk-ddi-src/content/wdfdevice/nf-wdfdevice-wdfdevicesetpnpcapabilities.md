@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fba8bc7d-b776-44e8-a4bf-12de707f2e4f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicesetpnpcapabilities, wdfdevice/WdfDeviceSetPnpCapabilities, DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, WdfDeviceSetPnpCapabilities, PFN_WDFDEVICESETPNPCAPABILITIES, wdf.wdfdevicesetpnpcapabilities, WdfDeviceSetPnpCapabilities method
+ms.keywords: kmdf.wdfdevicesetpnpcapabilities, DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, PFN_WDFDEVICESETPNPCAPABILITIES, WdfDeviceSetPnpCapabilities method, wdf.wdfdevicesetpnpcapabilities, WdfDeviceSetPnpCapabilities, wdfdevice/WdfDeviceSetPnpCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,16 +87,20 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_p
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 A driver typically calls <b>WdfDeviceSetPnpCapabilities</b> from within one of the following callback functions:
+
 <ul>
 <li>
 
@@ -127,17 +131,48 @@ A driver typically calls <b>WdfDeviceSetPnpCapabilities</b> from within one of t
 
 
 </li>
-</ul>If more than one driver in the device's driver stack call <b>WdfDeviceSetPnpCapabilities</b>, the Plug and Play manager uses the values that are supplied by the driver that is highest in the stack. 
+</ul>
+If more than one driver in the device's driver stack call <b>WdfDeviceSetPnpCapabilities</b>, the Plug and Play manager uses the values that are supplied by the driver that is highest in the stack. 
+
+
+#### Examples
+
+The following code examples initializes a WDF_DEVICE_PNP_CAPABILITIES structure and then calls <b>WdfDeviceSetPnpCapabilities</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_PNP_CAPABILITIES  pnpCaps;
+
+WDF_DEVICE_PNP_CAPABILITIES_INIT(&amp;pnpCaps);
+pnpCaps.SurpriseRemovalOK = WdfTrue;
+
+WdfDeviceSetPnpCapabilities(
+                            device,
+                            &amp;pnpCaps
+                            );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_pnp_capabilities_init.md">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 407675de-4a06-49f7-9b43-c48b4c84ac7e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnRecordSequence, kernel.clfslsnrecordsequence, wdm/ClfsLsnRecordSequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml
+ms.keywords: kernel.clfslsnrecordsequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, ClfsLsnRecordSequence, wdm/ClfsLsnRecordSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,22 +77,30 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure from w
 ## -returns
 
 
+
 <b>ClfsLsnRecordSequence</b> returns the record sequence number contained in the LSN that is supplied by the caller.
+
 
 
 
 ## -remarks
 
 
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
 
-<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
+
 
  
 

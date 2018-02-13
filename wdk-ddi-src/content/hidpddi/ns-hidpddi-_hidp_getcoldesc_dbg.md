@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 65EEEDED-14FE-4275-9314-276E544427DE
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], HIDP_GETCOLDESC_DBG structure [Human Input Devices], hidpddi/PHIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg, HIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG, _HIDP_GETCOLDESC_DBG, hidpddi/HIDP_GETCOLDESC_DBG
+ms.keywords: hidpddi/HIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], hid.hidp_getcoldesc_dbg, _HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], hidpddi/PHIDP_GETCOLDESC_DBG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_GETCOLDESC_DBG
 product: Windows
 targetos: Windows
-req.typenames: HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG
+req.typenames: "*PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG"
 ---
 
 # _HIDP_GETCOLDESC_DBG structure
@@ -91,6 +91,8 @@ Error-specific arguments. These are described as comments in the possible values
 ## -see-also
 
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
+
+
 
  
 

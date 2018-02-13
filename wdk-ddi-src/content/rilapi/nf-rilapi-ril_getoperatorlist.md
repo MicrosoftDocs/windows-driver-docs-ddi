@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 34894a89-73ba-4744-97b9-7c1f124431f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], RIL_GetOperatorList, netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
+ms.keywords: rilapi/RIL_GetOperatorList, netvista.ril_getoperatorlist, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], RIL_GetOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_GetOperatorList(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwSystemTypes
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

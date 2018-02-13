@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f610fdf7-5c0e-41e0-994b-6da575541fca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreecloneoidrequest, ndis/NdisFreeCloneOidRequest, ndis_request_ref_450d80e2-3414-4c02-aca1-848c75f824a6.xml, NdisFreeCloneOidRequest, NdisFreeCloneOidRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_request_ref_450d80e2-3414-4c02-aca1-848c75f824a6.xml, NdisFreeCloneOidRequest function [Network Drivers Starting with Windows Vista], netvista.ndisfreecloneoidrequest, ndis/NdisFreeCloneOidRequest, NdisFreeCloneOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeCloneOidRequest
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeCloneOidRequest function
@@ -87,11 +87,14 @@ A pointer to the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An NDIS intermediate driver or filter driver calls 
@@ -101,11 +104,16 @@ An NDIS intermediate driver or filter driver calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
 
  
 

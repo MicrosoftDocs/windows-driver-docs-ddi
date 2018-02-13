@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: MemoryUsage method [Print Devices], IPrintOemUni, MemoryUsage, prcomoem/IPrintOemUni::MemoryUsage, IPrintOemUni::MemoryUsage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, IPrintOemUni interface [Print Devices], MemoryUsage method, MemoryUsage method [Print Devices], IPrintOemUni interface, print.iprintoemuni_memoryusage
+ms.keywords: IPrintOemUni, MemoryUsage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, MemoryUsage method [Print Devices], IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], IPrintOemUni interface, print.iprintoemuni_memoryusage, prcomoem/IPrintOemUni::MemoryUsage, IPrintOemUni interface [Print Devices], MemoryUsage method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.MemoryUsage
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Caller-supplied pointer to an <a href="..\printoem\ns-printoem-oemmemoryusage.md
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,16 +123,20 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <code>IPrintOemUni::MemoryUsage</code> method's purpose is to help the Unidrv driver determine the optimum size for the GDI drawing surface, based on the memory requirements of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a> method. Implementation of the <code>IPrintOemUni::MemoryUsage</code> method is optional.
 
 The <code>IPrintOemUni::MemoryUsage</code> method should return two values, as follows:
+
 <ul>
 <li>
 The amount of permanently-allocated, fixed-sized memory that the <b>IPrintOemUni::ImageProcessing</b> method needs to allocate.
@@ -144,7 +150,8 @@ The amount of memory required to hold a bitmap after the <b>IPrintOemUni::ImageP
 The rendering plug-in either returns this processed bitmap to Unidrv, or spools it. The amount of memory required to store the processed bitmap is returned in the <b>dwPercentMemoryUsage</b> member of the OEMMEMORYUSAGE structure, and is expressed as a percentage of the source bitmap's size.
 
 </li>
-</ul>The value returned in the <b>dwPercentMemoryUsage</b> member should include, in addition to the processed bitmap's size, the amount of any additional memory allocations that are dependent on the size of the source bitmap.
+</ul>
+The value returned in the <b>dwPercentMemoryUsage</b> member should include, in addition to the processed bitmap's size, the amount of any additional memory allocations that are dependent on the size of the source bitmap.
 
 The <b>dwMaxBandSize</b> member of the OEMMEMORYUSAGE structure is supplied by Unidrv and specifies the default maximum band size.
 
@@ -158,13 +165,20 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
+
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
+
+
 <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
 
  
 

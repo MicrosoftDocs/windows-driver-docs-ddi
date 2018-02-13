@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 626cbf2d-2841-4b52-b17d-5377aa2f6264
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2, _VIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, video/PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], *PVIDEO_PORT_AGP_INTERFACE_2
+ms.keywords: Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], _VIDEO_PORT_AGP_INTERFACE_2, video/PVIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2, *PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], PVIDEO_PORT_AGP_INTERFACE_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,19 +160,27 @@ Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pa
 ## -remarks
 
 
+
 PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
 
 This structure is identical to the <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a> structure, except for the <b>AgpSetRate</b> member, which that structure lacks. Video miniport drivers should first attempt to use VIDEO_PORT_AGP_INTERFACE_2 in a call to <b>VideoPortQueryServices</b>. If that call fails, due to the fact that the AGP filter driver does not support the newer version of the AGP interface, the video miniport driver can make a second call to <b>VideoPortQueryServices</b>, this time passing a VIDEO_PORT_AGP_INTERFACE structure.
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+## -see-also
 
 <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
 
+
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
 
  
 

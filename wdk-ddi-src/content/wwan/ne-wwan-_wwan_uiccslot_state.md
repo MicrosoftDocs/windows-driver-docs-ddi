@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UICCSlotStateOff, wwan/UICCSlotStateNotReady, UICCSlotStateNotReady, wwan/UICCSlotStateActive, WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, UICCSlotStateError, wwan/UICCSlotStateUnknown, *PWWAN_UICCSLOT_STATE, _WWAN_UICCSLOT_STATE, wwan/UICCSlotStateOff, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], UICCSlotStateUnknown, wwan/UICCSlotStateError, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateEmpty, UICCSlotStateEmpty, UICCSlotStateOffEmpty, wwan/WWAN_UICCSLOT_STATE, UICCSlotStateActive
+ms.keywords: UICCSlotStateOffEmpty, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_UICCSLOT_STATE, UICCSlotStateUnknown, wwan/UICCSlotStateEmpty, UICCSlotStateError, wwan/WWAN_UICCSLOT_STATE, wwan/UICCSlotStateNotReady, _WWAN_UICCSLOT_STATE, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, UICCSlotStateOff, UICCSlotStateActive, wwan/UICCSlotStateActive, wwan/UICCSlotStateUnknown, wwan/UICCSlotStateError, WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, UICCSlotStateEmpty, UICCSlotStateNotReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,37 +77,28 @@ typedef enum _WWAN_UICCSLOT_STATE {
 ### -field WwanUiccSlotStateUnknown
 
 
-
 ### -field WwanUiccSlotStateOffEmpty
-
 
 
 ### -field WwanUiccSlotStateOff
 
 
-
 ### -field WwanUiccSlotStateEmpty
-
 
 
 ### -field WwanUiccSlotStateNotReady
 
 
-
 ### -field WwanUiccSlotStateActive
-
 
 
 ### -field WwanUiccSlotStateError
 
 
-
 ### -field WwanUiccSlotStateActiveEsim
 
 
-
 ### -field WwanUiccSlotStateActiveEsimNoProfile
-
 
 
 ### -field WwanUiccSlotStateMax
@@ -153,13 +144,17 @@ The card in the slot is in an error state and cannot be used.
 ## -remarks
 
 
+
 The set of reported states is constrained by the capability of the slot hardware. In the most restrictive case, the slot hardware may only be able to determine that a card is present when it is powered on and active; in such a case the <b>OffEmpty</b> and <b>Off</b> states will not be reported.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
+
+
 
  
 

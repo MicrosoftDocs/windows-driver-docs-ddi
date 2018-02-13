@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08951cde-d9d2-4de6-bb63-7c3e7cf1f92f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WdfChildListBeginScan, WdfChildListBeginScan method, PFN_WDFCHILDLISTBEGINSCAN, DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan, kmdf.wdfchildlistbeginscan, wdf.wdfchildlistbeginscan
+ms.keywords: PFN_WDFCHILDLISTBEGINSCAN, wdf.wdfchildlistbeginscan, wdfchildlist/WdfChildListBeginScan, WdfChildListBeginScan method, kmdf.wdfchildlistbeginscan, WdfChildListBeginScan, DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a framework child list object.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -86,7 +87,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfChildListBeginScan</b> method marks all of the child devices in the list as missing. 
@@ -98,16 +101,31 @@ After the driver has finished updating the child list, it must call <a href="..\
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfChildListBeginScan</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistupdateallchilddescriptionsaspresent.md">WdfChildListUpdateAllChildDescriptionsAsPresent</a>
+
+
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
+
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistupdateallchilddescriptionsaspresent.md">WdfChildListUpdateAllChildDescriptionsAsPresent</a>
+
 
  
 

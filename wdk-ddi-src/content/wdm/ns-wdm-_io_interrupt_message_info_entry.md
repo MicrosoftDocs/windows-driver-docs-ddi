@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5007381-2436-4eb6-85cd-7145361ab793
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY, kernel.io_interrupt_message_info_entry, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml, _IO_INTERRUPT_MESSAGE_INFO_ENTRY, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: IO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, kernel.io_interrupt_message_info_entry, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml, wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture], _IO_INTERRUPT_MESSAGE_INFO_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_INTERRUPT_MESSAGE_INFO_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: IO_INTERRUPT_MESSAGE_INFO_ENTRY, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY
+req.typenames: "*PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY"
 req.product: Windows 10 or later.
 ---
 
@@ -118,6 +118,8 @@ Specifies a <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY<
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiOpenAdapterComplete
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_OPEN_ADAPTER_COMPLETE callback
@@ -86,7 +86,9 @@ The completion status.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -94,7 +96,11 @@ This callback function does not return a value.
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
+
+
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_open_adapter.md">MiniportWdiOpenAdapter</a>
+
+
 
  
 

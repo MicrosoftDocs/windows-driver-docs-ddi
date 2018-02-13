@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc8e4484-4059-4274-bb61-5d3b2f965b19
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdoinitallowforwardingrequesttoparent, PFN_WDFPDOINITALLOWFORWARDINGREQUESTTOPARENT, wdfpdo/WdfPdoInitAllowForwardingRequestToParent, DFDeviceObjectFdoPdoRef_1c47c0f6-2474-419b-8a6e-1105351ab1d7.xml, WdfPdoInitAllowForwardingRequestToParent method, wdf.wdfpdoinitallowforwardingrequesttoparent, WdfPdoInitAllowForwardingRequestToParent
+ms.keywords: WdfPdoInitAllowForwardingRequestToParent method, WdfPdoInitAllowForwardingRequestToParent, DFDeviceObjectFdoPdoRef_1c47c0f6-2474-419b-8a6e-1105351ab1d7.xml, kmdf.wdfpdoinitallowforwardingrequesttoparent, wdf.wdfpdoinitallowforwardingrequesttoparent, PFN_WDFPDOINITALLOWFORWARDINGREQUESTTOPARENT, wdfpdo/WdfPdoInitAllowForwardingRequestToParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,11 +79,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If your driver uses <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a> to requeue I/O requests from a child device's I/O queue to a parent device's I/O queue, the driver must call <b>WdfPdoInitAllowForwardingRequestToParent</b> before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> to create a physical device object (PDO) for the child device. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
@@ -91,10 +94,28 @@ If your driver uses <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtopare
 For more information about <b>WdfPdoInitAllowForwardingRequestToParent</b> and <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a>.
 
 
+#### Examples
+
+The following code example enables a driver's ability to call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfPdoInitAllowForwardingRequestToParent(pDeviceInit);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>
+
+
 
  
 

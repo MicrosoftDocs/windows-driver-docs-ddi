@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F550A8B8-0C96-46E8-8E2A-32679E1D1E01
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemengine_disablepdev, DisablePDEV method [Print Devices], IPrintOemEngine interface, IPrintOemEngine, prcomoem/IPrintOemEngine::DisablePDEV, IPrintOemEngine::DisablePDEV, DisablePDEV, IPrintOemEngine interface [Print Devices], DisablePDEV method, DisablePDEV method [Print Devices]
+ms.keywords: IPrintOemEngine, prcomoem/IPrintOemEngine::DisablePDEV, DisablePDEV method [Print Devices], IPrintOemEngine interface, print.iprintoemengine_disablepdev, DisablePDEV, IPrintOemEngine interface [Print Devices], DisablePDEV method, DisablePDEV method [Print Devices], IPrintOemEngine::DisablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemEngine.DisablePDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -71,17 +71,20 @@ HRESULT DisablePDEV(
 ### -param pdevobj
 
 
-
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\prcomoem\nn-prcomoem-iprintoemengine.md">IPrintOemEngine</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeDpc routine [Storage Devices], storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml, storport/StorPortInitializeDpc, storage.storportinitializedpc, StorPortInitializeDpc
+ms.keywords: StorPortInitializeDpc routine [Storage Devices], StorPortInitializeDpc, storport/StorPortInitializeDpc, storage.storportinitializedpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,7 @@ Pointer to a buffer where a DPC object of type <a href="..\storport\ns-storport-
 ### -param HwDpcRoutine [in]
 
 Pointer to the DPC routine that corresponds to the DPC object pointed to by <i>Dpc</i>. The prototype for this deferred routine is defined in Storport.h as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,11 +105,14 @@ VOID
 ## -returns
 
 
+
 None. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>StorPortInitializeDpc</b> routine must be called during HBA initialization from within the miniport driver's <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a> routine. 
@@ -117,11 +121,16 @@ This routine is implemented using inline function definitions, so that miniport 
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
+
+
 <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
+
+
 
  
 

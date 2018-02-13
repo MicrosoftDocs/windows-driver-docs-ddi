@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 235942ee-374e-4071-a761-793a96beab36
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PREG_QUERY_VALUE_KEY_INFORMATION, kernel.reg_query_value_key_information, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_VALUE_KEY_INFORMATION, wdm/PREG_QUERY_VALUE_KEY_INFORMATION, REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_QUERY_VALUE_KEY_INFORMATION, wdm/REG_QUERY_VALUE_KEY_INFORMATION, kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, _REG_QUERY_VALUE_KEY_INFORMATION"
+ms.keywords: kernel.reg_query_value_key_information, wdm/PREG_QUERY_VALUE_KEY_INFORMATION, _REG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION, *PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_QUERY_VALUE_KEY_INFORMATION, REG_QUERY_VALUE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,21 +124,31 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 
+
 The system passes this structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to query a value entry for a key—for example, when a user-mode thread calls <b>RegQueryValue</b> or <b>RegQueryValueEx</b> or when a driver calls <a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+
+
 
  
 

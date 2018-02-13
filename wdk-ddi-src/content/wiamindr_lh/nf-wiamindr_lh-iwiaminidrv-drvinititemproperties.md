@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 06dce5c0-f893-47c7-bee9-1b7f61137ba0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvInitItemProperties, IWiaMiniDrv interface [Imaging Devices], drvInitItemProperties method, drvInitItemProperties, image.iwiaminidrv_drvinititemproperties, drvInitItemProperties method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvInitItemProperties, IWiaMiniDrv, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, drvInitItemProperties method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: drvInitItemProperties method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties, IWiaMiniDrv interface [Imaging Devices], drvInitItemProperties method, IWiaMiniDrv::drvInitItemProperties, image.iwiaminidrv_drvinititemproperties, IWiaMiniDrv, drvInitItemProperties method [Imaging Devices], drvInitItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ HRESULT drvInitItemProperties(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -104,32 +105,48 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. 
 
 The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per application for each item in the item tree.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
+
+
 
  
 

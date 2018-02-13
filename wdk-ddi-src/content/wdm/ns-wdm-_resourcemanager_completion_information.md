@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3b866c2-5908-418e-8744-9f8f22cdc88a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_8a799d2d-405f-4ee9-bb2d-010c131666d0.xml, RESOURCEMANAGER_COMPLETION_INFORMATION, _RESOURCEMANAGER_COMPLETION_INFORMATION, *PRESOURCEMANAGER_COMPLETION_INFORMATION, kernel.resourcemanager_completion_information, wdm/RESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: "*PRESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION structure [Kernel-Mode Driver Architecture], _RESOURCEMANAGER_COMPLETION_INFORMATION, RESOURCEMANAGER_COMPLETION_INFORMATION, kernel.resourcemanager_completion_information, ktm_ref_8a799d2d-405f-4ee9-bb2d-010c131666d0.xml, wdm/RESOURCEMANAGER_COMPLETION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

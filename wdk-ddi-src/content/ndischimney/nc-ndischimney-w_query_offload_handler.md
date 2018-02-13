@@ -96,11 +96,14 @@ A pointer to an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -132,6 +135,7 @@ Before calling the
     <b>NdisMQueryOffloadStateComplete</b> function, the offload target must write either of the following
     NDIS_STATUS values to the 
     <b>Status</b> member of each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree:
+
 <ul>
 <li>
 NDIS_STATUS_SUCCESS
@@ -151,17 +155,26 @@ The query operation did not succeed. The host stack will terminate the state obj
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
    NdisMQueryOffloadStateComplete</a>
 
+
+
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
  
 

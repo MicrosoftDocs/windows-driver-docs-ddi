@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EA7D2840-63B2-417A-933C-C1D360106264
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPR_GET_OFFSET_ROTATION function [Display Devices], display.d3dkmdt_vppr_get_offset_rotation, D3DKMDT_VPPR_GET_OFFSET_ROTATION, d3dkmdt/D3DKMDT_VPPR_GET_OFFSET_ROTATION
+ms.keywords: D3DKMDT_VPPR_GET_OFFSET_ROTATION function [Display Devices], D3DKMDT_VPPR_GET_OFFSET_ROTATION, display.d3dkmdt_vppr_get_offset_rotation, d3dkmdt/D3DKMDT_VPPR_GET_OFFSET_ROTATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ The output value is always one of the supported values specified for this path i
 
 
 ## -returns
+
 
 
 The returned value corresponds to the offset angle as follows:<table>
@@ -197,10 +198,13 @@ The returned value corresponds to the offset angle as follows:<table>
 
 
 
+
 ## -remarks
 
 
+
 This function is declared inline in D3dkmdt.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -222,15 +226,21 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 }</pre>
 </td>
 </tr>
-</table></span></div>The driver should use the output value of the <i>Rotation</i> parameter to rotate the secondary clone path content when the Desktop Window Manager (DWM) has already rotated the primary clone path content. For more info, see <a href="https://msdn.microsoft.com/136CEDA5-2839-4E6E-A032-1A9222C769C6">Supporting Path-Independent Rotation</a>.
+</table></span></div>
+The driver should use the output value of the <i>Rotation</i> parameter to rotate the secondary clone path content when the Desktop Window Manager (DWM) has already rotated the primary clone path content. For more info, see <a href="https://msdn.microsoft.com/136CEDA5-2839-4E6E-A032-1A9222C769C6">Supporting Path-Independent Rotation</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation_support.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation_support.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</a>
+
 
  
 

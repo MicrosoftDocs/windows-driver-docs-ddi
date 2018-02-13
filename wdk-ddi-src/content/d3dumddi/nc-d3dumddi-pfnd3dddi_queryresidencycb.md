@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryresidency.md">D3DDDICB_QUERYRESIDENCY</a> structure that describes the residency status of a resource or list of allocations.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryresidency.md">D3D
 ## -returns
 
 
+
 <b>pfnQueryResidencyCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,28 +123,92 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 
 
 ## -remarks
 
 
+
 The user-mode display driver can call the <b>pfnQueryResidencyCb</b> function to query the residency status of allocations either through a resource or through a list of allocations. If the driver queries the residency status of allocations through a resource, all of the allocations that belong to the resource are queried. Typically, the user-mode display driver queries the residency of a resource or list of allocations after the Microsoft Direct3D runtime calls the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a> function to determine the residency of a resource. However, the user-mode display driver can query the residency of a resource or list of allocations at any time. 
+
+
+#### Examples
+
+The following code example shows how to query for residency status.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+CD3DContext::QueryResourceResidency(CONST D3DDDIARG_QUERYRESOURCERESIDENCY* pQRR)
+{
+    D3DDDICB_QUERYRESIDENCY queryRes;
+    D3DDDI_RESIDENCYSTATUS  resStatus = (D3DDDI_RESIDENCYSTATUS)0;
+    HRESULT hr;
+    BOOL    bPartInSharedMem = FALSE;
+
+    for (UINT i = 0; i &lt; pQRR-&gt;NumResources; i++) {
+        memset(&amp;queryRes, 0, sizeof(queryRes));
+        queryRes.hResource = m_RTbl[(DWORD)(DWORD_PTR)pQRR-&gt;pHandleList[i]].m_hResRuntime;
+        if (! queryRes.hResource) {
+            return (DDERR_INVALIDPARAMS);
+        }
+        queryRes.pResidencyStatus = &amp;resStatus;
+        hr = m_d3dCallbacks.pfnQueryResidencyCb(m_hD3D, &amp;queryRes);
+        if (FAILED(hr)) {
+            return (hr);
+        }
+        switch (resStatus) {
+        case D3DDDI_RESIDENCYSTATUS_NOTRESIDENT:
+            return S_NOT_RESIDENT;
+        case D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY:
+            bPartInSharedMem = TRUE;
+            break;
+        case D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY:
+            break;
+        default:
+            return DDERR_GENERIC;
+        }
+    }
+    if (bPartInSharedMem) {
+        return S_RESIDENT_IN_SHARED_MEMORY;
+    }
+    else {
+        return  S_OK;
+    }
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_queryresidency.md">D3DDDICB_QUERYRESIDENCY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
+
+
 
  
 

@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnPinMode(
 ## -returns
 
 
+
 The <b>pfnPinMode</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ The mode identified by <i>VidPnSourceModeId</i> does not belong to the source mo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 VidPN source mode identifiers are assigned by the operating system. The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> function generates a mode identifier, assigns the identifier to the <b>Id</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure, and returns the structure to the display miniport driver.
@@ -136,11 +141,16 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirepinnedmodeinfo.md">pfnAcquirePinnedModeInfo</a>
+
+
 
  
 

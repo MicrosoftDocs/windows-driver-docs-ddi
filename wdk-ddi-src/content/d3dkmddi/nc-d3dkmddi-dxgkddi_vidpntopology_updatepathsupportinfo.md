@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnUpdatePathSupportInfo(
 ## -returns
 
 
+
 The <b>pfnUpdatePathSupportInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,13 +136,17 @@ The path cannot be removed in the context of the current DDI call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a> function calls <b>pnfUpdatePathSupportInfo</b> to report rotation, scaling, and copy protection support for each of the paths in a topology.
+
 
 

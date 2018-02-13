@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbTargetPipe::Flush, Flush, IWDFUsbTargetPipe, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, IWDFUsbTargetPipe interface, Flush method, wdf.iwdfusbtargetpipe_flush, umdf.iwdfusbtargetpipe_flush, Flush method, Flush method, IWDFUsbTargetPipe interface
+ms.keywords: IWDFUsbTargetPipe interface, Flush method, IWDFUsbTargetPipe, Flush method, wdf.iwdfusbtargetpipe_flush, umdf.iwdfusbtargetpipe_flush, Flush, IWDFUsbTargetPipe::Flush, Flush method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.Flush
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ HRESULT  Flush();
 
 
 
+
 ## -returns
 
 
+
 <b>Flush</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +116,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>Flush</b> method generates a UMDF request and synchronously sends the request to the I/O target.
@@ -126,11 +132,16 @@ For more information about how <b>Flush</b> works, see the <a href="https://msdn
 
 
 
+
 ## -see-also
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
 
  
 

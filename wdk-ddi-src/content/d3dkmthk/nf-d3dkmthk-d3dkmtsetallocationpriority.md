@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], display.d3dkmtsetallocationpriority, D3DKMTSetAllocationPriority, OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml
+ms.keywords: display.d3dkmtsetallocationpriority, D3DKMTSetAllocationPriority function [Display Devices], OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, D3DKMTSetAllocationPriority, d3dkmthk/D3DKMTSetAllocationPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setallocationpriority.md">D3DKMT_SETALLOCATIONPRIORITY</a> structure that contains information for setting the priority level of a resource or list of allocations.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setallocationpriority.md
 ## -returns
 
 
+
 <b>D3DKMTSetAllocationPriority</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,16 +126,20 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTSetAllocationPriority</b> to set the priority level of a resource (and therefore all of the allocations that are associated with the resource).
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -156,9 +163,12 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTSetAl
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setallocationpriority.md">D3DKMT_SETALLOCATIONPRIORITY</a>
+
+
 
  
 

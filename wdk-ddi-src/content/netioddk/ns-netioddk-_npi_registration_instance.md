@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a368f9d9-a7e0-4b35-ba14-b0919f74029d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNPI_REGISTRATION_INSTANCE, _NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance, netioddk/NPI_REGISTRATION_INSTANCE, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], netioddk/PNPI_REGISTRATION_INSTANCE
+ms.keywords: NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], PNPI_REGISTRATION_INSTANCE, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml, _NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE, netioddk/PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], netioddk/NPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,7 @@ A pointer to the
      NPI to which the network module
      is registering as either a client or a provider. The NPIID data type is defined as:
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -130,6 +131,7 @@ The implementation number of the
 
 
 
+
 #### - NpiSpecificCharacteristics
 
 A pointer to a structure that specifies characteristics that are unique to the network module. The
@@ -141,6 +143,7 @@ A pointer to a structure that specifies characteristics that are unique to the n
 
 
 ## -remarks
+
 
 
 An NPI_REGISTRATION_INSTANCE structure is a member of the 
@@ -168,17 +171,28 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
-
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+
+
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
+
+
 
  
 

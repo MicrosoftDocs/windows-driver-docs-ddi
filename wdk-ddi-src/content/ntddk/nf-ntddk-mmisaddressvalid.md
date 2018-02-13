@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/MmIsAddressValid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, MmIsAddressValid routine [Kernel-Mode Driver Architecture], kernel.mmisaddressvalid, MmIsAddressValid
+ms.keywords: MmIsAddressValid routine [Kernel-Mode Driver Architecture], ntddk/MmIsAddressValid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, MmIsAddressValid, kernel.mmisaddressvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MmIsAddressValid
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # MmIsAddressValid function
@@ -75,20 +75,26 @@ A pointer to the nonpaged virtual address to check. The caller must ensure that 
 ## -returns
 
 
+
 If no page fault would occur from reading or writing at the given virtual address, <b>MmIsAddressValid</b> returns <b>TRUE</b>.
+
 
 
 
 ## -remarks
 
 
+
 Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can cause page faults unless the memory has been locked down or the address is a valid nonpaged pool address. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
 
  
 

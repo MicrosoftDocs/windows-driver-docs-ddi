@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYSEGMENTOUT structure [Display Devices], DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, display.dxgk_querysegmentout, DXGK_QUERYSEGMENTOUT, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT
+ms.keywords: DXGK_QUERYSEGMENTOUT structure [Display Devices], DXGK_QUERYSEGMENTOUT, DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, display.dxgk_querysegmentout, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,19 +101,29 @@ The private data structure that is associated with a paging buffer is initialize
 ## -remarks
 
 
+
 The video memory manager allocates a paging buffer either from an aperture segment (if the <b>PagingBufferSegmentId</b> member identifies the segment) or as a contiguous write-combined memory block (if <b>PagingBufferSegmentId</b> is set to 0). If <b>PagingBufferSegmentId</b> is set to 0, the graphics processing unit (GPU) must access direct memory access (DMA) buffers by using PCI cycles on systems where AGP transfers that occur outside the AGP aperture are not permitted.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
+
+
 
  
 

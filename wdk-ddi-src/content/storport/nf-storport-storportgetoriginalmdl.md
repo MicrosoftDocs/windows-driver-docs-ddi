@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml, storport/StorPortGetOriginalMdl, StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], storage.storportgetoriginalmdl
+ms.keywords: StorPortGetOriginalMdl routine [Storage Devices], storport/StorPortGetOriginalMdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml, StorPortGetOriginalMdl, storage.storportgetoriginalmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to receive the MDL.
 ## -returns
 
 
+
 StorPortGetOriginalMdl returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,24 +129,34 @@ The pointer in <i>Mdl</i> receiving the SRB's MDL  is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+
 
 
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
-
 <a href="..\storport\nf-storport-storportgetsystemaddress.md">StorPortGetSystemAddress</a>
 
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

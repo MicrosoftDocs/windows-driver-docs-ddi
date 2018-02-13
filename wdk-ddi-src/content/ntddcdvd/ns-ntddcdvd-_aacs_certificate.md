@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 591d8f63-ab3e-48b7-8fe4-98dcdf9464f1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], ntddcdvd/PAACS_CERTIFICATE, AACS_CERTIFICATE, storage.aacs_certificate, ntddcdvd/AACS_CERTIFICATE, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, PAACS_CERTIFICATE structure pointer [Storage Devices], _AACS_CERTIFICATE, *PAACS_CERTIFICATE
+ms.keywords: ntddcdvd/AACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], storage.aacs_certificate, PAACS_CERTIFICATE, _AACS_CERTIFICATE, *PAACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml, AACS_CERTIFICATE structure [Storage Devices], AACS_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AACS_CERTIFICATE
 product: Windows
 targetos: Windows
-req.typenames: "*PAACS_CERTIFICATE, AACS_CERTIFICATE"
+req.typenames: AACS_CERTIFICATE, *PAACS_CERTIFICATE
 ---
 
 # _AACS_CERTIFICATE structure
@@ -81,13 +81,17 @@ A 92-byte certificate.
 ## -remarks
 
 
+
 Clients retrieve an Advanced Access Content System (AACS) certificate with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_certificate.md">IOCTL_AACS_GET_CERTIFICATE</a> request. Clients send certificates in a <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_send_certificate.md">AACS_SEND_CERTIFICATE</a> structure with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_certificate.md">IOCTL_AACS_SEND_CERTIFICATE</a> request.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_get_certificate.md">IOCTL_AACS_GET_CERTIFICATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CD9E3356-45C3-4F56-9EB3-45FB4B3F054B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PLINK_SHARE_ACCESS, _LINK_SHARE_ACCESS, wdm/LINK_SHARE_ACCESS, wdm/PLINK_SHARE_ACCESS, LINK_SHARE_ACCESS, PLINK_SHARE_ACCESS structure pointer [Kernel-Mode Driver Architecture], LINK_SHARE_ACCESS structure [Kernel-Mode Driver Architecture], *PLINK_SHARE_ACCESS, kernel.link_share_access
+ms.keywords: LINK_SHARE_ACCESS, wdm/LINK_SHARE_ACCESS, PLINK_SHARE_ACCESS structure pointer [Kernel-Mode Driver Architecture], PLINK_SHARE_ACCESS, kernel.link_share_access, *PLINK_SHARE_ACCESS, LINK_SHARE_ACCESS structure [Kernel-Mode Driver Architecture], wdm/PLINK_SHARE_ACCESS, _LINK_SHARE_ACCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,9 +88,13 @@ File associated with the file object has been opened for delete sharing access.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
+
+
+
 <a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
-<a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
+
 
  
 

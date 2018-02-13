@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 82c9c54b-f124-46d7-a3c9-a17fd8028412
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_ui_2f776943-da30-40c4-909a-56472768c8df.xml, PRINT_FEATURE_OPTION structure [Print Devices], PRINT_FEATURE_OPTION, prcomoem/PRINT_FEATURE_OPTION, _PRINT_FEATURE_OPTION, print.print_feature_option
+ms.keywords: PRINT_FEATURE_OPTION, prcomoem/PRINT_FEATURE_OPTION, print_unidrv-pscript_ui_2f776943-da30-40c4-909a-56472768c8df.xml, PRINT_FEATURE_OPTION structure [Print Devices], _PRINT_FEATURE_OPTION, print.print_feature_option
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,23 +82,37 @@ One of the options for the printing feature.
 ## -remarks
 
 
+
 This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b>IPrintCoreHelperPS</b>, and <b>IPrintCoreHelperUni</b> interfaces. The methods are listed in the See Also section.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552915">IPrintCoreHelperPS::WhyConstrained</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552947">IPrintCoreHelperUni::WhyConstrained</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552915">IPrintCoreHelperPS::WhyConstrained</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552912">IPrintCoreHelperPS::SetOptions</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
+
+
 
  
 

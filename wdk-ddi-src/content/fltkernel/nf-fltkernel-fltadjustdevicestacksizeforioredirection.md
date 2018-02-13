@@ -7,8 +7,8 @@ old-location: ifsk\fltadjustdevicestacksizeforioredirection.htm
 old-project: ifsk
 ms.assetid: 48ca0f39-e870-4f9b-92d5-1226972bf2d5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], fltkernel/FltAdjustDeviceStackSizeForIoRedirection, ifsk.fltadjustdevicestacksizeforioredirection
+ms.date: 2/7/2018
+ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, fltkernel/FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], ifsk.fltadjustdevicestacksizeforioredirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,7 @@ This optional parameter has a value of <b>TRUE</b> if the <b>FltAdjustDeviceStac
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return value</th>
@@ -126,11 +127,14 @@ The source device stack would be too large after calling this routine.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Using <b>FltAdjustDeviceStackSizeForIoRedirection</b> does not guarantee that every IRP that the minifilter encounters will be sufficient in size to be redirected to the target stack. IRPs that were allocated and issued before the call to <b>FltAdjustDeviceStackSizeForIoRedirection</b> would still have been allocated based on the old stack size. 
@@ -145,21 +149,32 @@ In the pre-operation callback for every operation that needs redirection, use <a
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
+
 
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAdjustDeviceStackSizeForIoRedirection routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAdjustDeviceStackSizeForIoRedirection routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

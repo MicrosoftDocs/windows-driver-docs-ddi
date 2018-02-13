@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1846e6b7-5b98-4850-86d6-ef6a29ce050b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_MPEG2Profile_Main, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_High, KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_Simple, ksmedia/KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_Main, KS_MPEG2Profile_High, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml, ksmedia/KS_MPEG2Profile, stream.ks_mpeg2profile, KS_MPEG2Profile enumeration [Streaming Media Devices], KS_MPEG2Profile_Simple, KS_MPEG2Profile
+ms.keywords: KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_SpatiallyScalable, stream.ks_mpeg2profile, ksmedia/KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile enumeration [Streaming Media Devices], ksmedia/KS_MPEG2Profile_High, KS_MPEG2Profile_Simple, KS_MPEG2Profile_High, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml, KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile, KS_MPEG2Profile, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile_Simple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,6 +99,8 @@ Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability, scalable signa
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
+
+
 
  
 

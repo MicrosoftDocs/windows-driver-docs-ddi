@@ -7,8 +7,8 @@ old-location: ifsk\seclookupaccountname.htm
 old-project: ifsk
 ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SecLookupAccountName function [Installable File System Drivers], ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ifsk.seclookupaccountname, SecLookupAccountName, ntifs/SecLookupAccountName
+ms.date: 2/7/2018
+ms.keywords: SecLookupAccountName function [Installable File System Drivers], SecLookupAccountName, ntifs/SecLookupAccountName, ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,6 +99,7 @@ TBD
 
 
 
+
 #### - DomainSize [out]
 
 A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.
@@ -112,7 +113,9 @@ A pointer to a buffer that receives the name of the domain as a Unicode string w
 ## -returns
 
 
+
 <b>SecLookupAccountName</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -184,11 +187,14 @@ This process has terminated so it is not possible to establish the local procedu
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>SecLookupAccountName</b> attempts to find a SID for the specified name. The function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. If the name is not found there, trusted domains are checked.
@@ -203,19 +209,28 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
 
 <a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecLookupAccountName function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecLookupAccountName function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

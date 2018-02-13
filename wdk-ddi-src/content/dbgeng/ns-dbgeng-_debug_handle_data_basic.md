@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c1ad22b9-9733-417a-96ae-bc5920462f4f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_HANDLE_DATA_BASIC, PDEBUG_HANDLE_DATA_BASIC, *PDEBUG_HANDLE_DATA_BASIC, debugger.debug_handle_data_basic, DEBUG_HANDLE_DATA_BASIC, PDEBUG_HANDLE_DATA_BASIC structure pointer [Windows Debugging], Structures_e4fb66c0-8e88-4f35-a103-0cc0f7cc1bfd.xml, dbgeng/PDEBUG_HANDLE_DATA_BASIC, _DEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC structure [Windows Debugging]
+ms.keywords: dbgeng/PDEBUG_HANDLE_DATA_BASIC, dbgeng/DEBUG_HANDLE_DATA_BASIC, _DEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC, PDEBUG_HANDLE_DATA_BASIC structure pointer [Windows Debugging], DEBUG_HANDLE_DATA_BASIC structure [Windows Debugging], PDEBUG_HANDLE_DATA_BASIC, Structures_e4fb66c0-8e88-4f35-a103-0cc0f7cc1bfd.xml, *PDEBUG_HANDLE_DATA_BASIC, debugger.debug_handle_data_basic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

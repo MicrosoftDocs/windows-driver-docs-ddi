@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ca10f0d5-62d6-451a-96e5-38aca18cf5b0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/RouterAllocBidiResponseContainer, print.routerallocbidiresponsecontainer, RouterAllocBidiResponseContainer function [Print Devices], spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml, RouterAllocBidiResponseContainer
+ms.keywords: winsplp/RouterAllocBidiResponseContainer, RouterAllocBidiResponseContainer function [Print Devices], spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml, print.routerallocbidiresponsecontainer, RouterAllocBidiResponseContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,6 +74,7 @@ TBD
 
 
 
+
 #### - cSize [in]
 
 Specifies the number of BIDI_RESPONSE_DATA structures to be allocated.
@@ -82,14 +83,18 @@ Specifies the number of BIDI_RESPONSE_DATA structures to be allocated.
 ## -returns
 
 
+
 <code>RouterAllocBidiResponseContainer</code> returns a pointer to the allocated structure, on success. If the function fails to allocate the structure, the caller can obtain the error code from <b>GetLastError</b> (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -remarks
 
 
+
 When the memory allocated by this function is no longer needed, use <a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>.
+
 
 
 
@@ -97,11 +102,19 @@ When the memory allocated by this function is no longer needed, use <a href="..\
 
 <a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
 
-<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
+
+
 
 <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
+
+
+<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+
+
 
  
 

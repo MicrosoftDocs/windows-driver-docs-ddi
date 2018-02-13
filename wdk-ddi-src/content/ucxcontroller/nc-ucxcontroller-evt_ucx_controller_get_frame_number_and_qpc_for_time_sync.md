@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_get_frame_number_and_qpc_for_time_sync.ht
 old-project: usbref
 ms.assetid: A8D666BD-5C2A-416F-901E-5FF7CF38A084
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,7 +99,9 @@ The length, in bytes, of the request's input buffer, if an input buffer
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -107,9 +109,11 @@ This callback function does not return a value.
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_frame_number_and_qpc_for_time_sync.md">IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

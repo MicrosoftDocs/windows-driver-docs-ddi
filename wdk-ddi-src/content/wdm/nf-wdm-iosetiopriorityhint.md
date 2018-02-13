@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ecd4ed14-b9f2-45ff-a42b-5c67f1ccfd91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetIoPriorityHint routine [Kernel-Mode Driver Architecture], IoSetIoPriorityHint, wdm/IoSetIoPriorityHint, k104_9d72dacc-03a6-4dda-8c2b-69b59a817392.xml, kernel.iosetiopriorityhint
+ms.keywords: k104_9d72dacc-03a6-4dda-8c2b-69b59a817392.xml, IoSetIoPriorityHint routine [Kernel-Mode Driver Architecture], kernel.iosetiopriorityhint, IoSetIoPriorityHint, wdm/IoSetIoPriorityHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,22 +82,30 @@ Specifies the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> 
 ## -returns
 
 
+
 <b>IoSetIoPriorityHint</b> returns STATUS_SUCCESS if the operation succeeds and the appropriate NTSTATUS value if the operation fails.
+
 
 
 
 ## -remarks
 
 
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
 
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b87adca-e838-471b-a600-1327253ee45d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentProcessExecutableNameWide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4, debugger.getcurrentprocessexecutablenamewide, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide
+ms.keywords: GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, GetCurrentProcessExecutableNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ Receives the size in characters of the name of the executable file.  If <i>ExeSi
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,11 +117,14 @@ The method was successful. However, the buffer was not large enough to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 These methods are only available in user-mode debugging.
@@ -127,5 +132,6 @@ These methods are only available in user-mode debugging.
 If the engine cannot determine the name of the executable file, it writes the string "?NoImage?" to the buffer.
 
 For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

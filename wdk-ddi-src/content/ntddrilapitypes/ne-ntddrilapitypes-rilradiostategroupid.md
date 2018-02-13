@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 147eb9f7-da0c-41c2-83b3-766164dbc905
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilradiostategroupid, RILRADIOSTATEGROUPID, ntddrilapitypes/RILRADIOSTATEGROUPID, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilradiostategroupid, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista], RILRADIOSTATEGROUPID, ntddrilapitypes/RILRADIOSTATEGROUPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

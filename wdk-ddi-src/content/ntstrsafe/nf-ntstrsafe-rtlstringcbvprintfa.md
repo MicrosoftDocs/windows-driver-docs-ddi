@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9dfd1894-c9b5-43c2-8377-c28577898754
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbVPrintfW, kernel.rtlstringcbvprintf, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbVPrintfW, RtlStringCbVPrintf, ntstrsafe/RtlStringCbVPrintfA, RtlStringCbVPrintfA, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
+ms.keywords: RtlStringCbVPrintfA, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml, ntstrsafe/RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], RtlStringCbVPrintfW, ntstrsafe/RtlStringCbVPrintfA, kernel.rtlstringcbvprintf, RtlStringCbVPrintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbVPrintfW
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbVPrintfA function
@@ -100,7 +100,9 @@ A <b>va_list</b>-typed argument list. Arguments contained in the argument list w
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,14 +149,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCbVPrintfW</b> and <b>RtlStringCbVPrintfA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>vsprintf</b>
@@ -172,11 +178,13 @@ _<b>vsnprintf</b>
 _<b>vsnwprintf</b>
 
 </li>
-</ul>All of these functions accept a format string, along with a set of arguments in a <b>va_list</b>-typed argument list, and return a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbVPrintfW</b> and <b>RtlStringCbVPrintfA</b> to ensure that they do not write past the end of the buffer.
+</ul>
+All of these functions accept a format string, along with a set of arguments in a <b>va_list</b>-typed argument list, and return a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbVPrintfW</b> and <b>RtlStringCbVPrintfA</b> to ensure that they do not write past the end of the buffer.
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
 Use <b>RtlStringCbVPrintfW</b> to handle Unicode strings and <b>RtlStringCbVPrintfA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -211,7 +219,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pszDest</i> and <i>pszFormat </i>point to overlapping strings or if any argument strings overlap, the behavior of the function is undefined..
 
@@ -221,13 +230,20 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
+## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfw.md">RtlStringCbPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
+
+
 
  
 

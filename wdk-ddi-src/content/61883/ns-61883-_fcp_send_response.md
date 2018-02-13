@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: FCP_SEND_RESPONSE structure [Buses], PFCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE, _FCP_SEND_RESPONSE, IEEE.fcp_send_response, 61883/PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], FCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE
+ms.keywords: FCP_SEND_RESPONSE structure [Buses], *PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], 61883/PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, IEEE.fcp_send_response, _FCP_SEND_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,7 @@ On input, a pointer to an <a href="https://msdn.microsoft.com/library/windows/ha
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
@@ -101,9 +102,12 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

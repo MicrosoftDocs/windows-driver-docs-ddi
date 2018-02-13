@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb5efb8b-2c7b-493e-ba22-a599958b52a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER, display.idarg_out_opm_get_random_number, IDARG_OUT_OPM_GET_RANDOM_NUMBER, IDARG_OUT_OPM_GET_RANDOM_NUMBER structure [Display Devices]
+ms.keywords: IDARG_OUT_OPM_GET_RANDOM_NUMBER, IDARG_OUT_OPM_GET_RANDOM_NUMBER structure [Display Devices], iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER, display.idarg_out_opm_get_random_number
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

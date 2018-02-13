@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2, debugger.getsymbolentryinformation2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolEntryInformation method, dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, GetSymbolEntryInformation, ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbolGroup2::GetSymbolEntryInformation
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolEntryInformation method, GetSymbolEntryInformation, IDebugSymbolGroup2::GetSymbolEntryInformation, debugger.getsymbolentryinformation2, GetSymbolEntryInformation method [Windows Debugging], ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, IDebugSymbolGroup2, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,7 @@ The information about the symbol.  For more information about this structure, se
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -97,28 +98,40 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
+
+
 
 <a href="https://msdn.microsoft.com/02fe418f-1793-4585-9891-1274a4ddba74">IDebugSymbols3::GetSymbolEntryInformation</a>
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
 
  
 

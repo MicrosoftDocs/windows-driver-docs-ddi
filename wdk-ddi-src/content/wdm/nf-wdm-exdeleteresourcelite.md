@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83efb1eb-4c45-4bfc-84dd-88032e40076a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], kernel.exdeleteresourcelite, k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, ExDeleteResourceLite
+ms.keywords: wdm/ExDeleteResourceLite, ExDeleteResourceLite, kernel.exdeleteresourcelite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,24 +76,34 @@ A pointer to the caller-supplied storage for the initialized resource variable t
 ## -returns
 
 
+
 <b>ExDeleteResourceLite</b> returns STATUS_SUCCESS if the resource was deleted.
+
 
 
 
 ## -remarks
 
 
+
 After calling <b>ExDeleteResourceLite</b>, the caller can free the memory it allocated for its resource.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>
+
 
  
 

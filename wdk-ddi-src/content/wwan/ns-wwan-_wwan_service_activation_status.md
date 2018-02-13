@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1bd81e55-6438-4bff-ab50-3de3457d2e99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_service_activation_status, wwan/PWWAN_SERVICE_ACTIVATION_STATUS, wwan/WWAN_SERVICE_ACTIVATION_STATUS, PWWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_b9086c08-c7df-46f1-8ce2-c056dd667eac.xml, PWWAN_SERVICE_ACTIVATION_STATUS, *PWWAN_SERVICE_ACTIVATION_STATUS, WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION_STATUS
+ms.keywords: PWWAN_SERVICE_ACTIVATION_STATUS, WWAN_SERVICE_ACTIVATION_STATUS, _WWAN_SERVICE_ACTIVATION_STATUS, PWWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SERVICE_ACTIVATION_STATUS, *PWWAN_SERVICE_ACTIVATION_STATUS, WwanRef_b9086c08-c7df-46f1-8ce2-c056dd667eac.xml, netvista.wwan_service_activation_status, wwan/WWAN_SERVICE_ACTIVATION_STATUS, WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SERVICE_ACTIVATION_STATUS
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SERVICE_ACTIVATION_STATUS, *PWWAN_SERVICE_ACTIVATION_STATUS
+req.typenames: "*PWWAN_SERVICE_ACTIVATION_STATUS, WWAN_SERVICE_ACTIVATION_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,8 @@ The size, in bytes, of the vendor-specific buffer that follows the structure ins
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_service_activation_status.md">
    NDIS_WWAN_SERVICE_ACTIVATION_STATUS</a>
+
+
 
  
 

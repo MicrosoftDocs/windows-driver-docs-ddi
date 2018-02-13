@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, PKSPROPERTY_SERIAL, stream.ksproperty_serial, KSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks/KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices]
+ms.keywords: ks/KSPROPERTY_SERIAL, ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices], *PKSPROPERTY_SERIAL, stream.ksproperty_serial, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks/PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,17 @@ Specifies the length, in bytes, of the following property data. This does not in
 ## -remarks
 
 
+
 A KSPROPERTY_SERIAL structure is followed by the property data, with the start of each property on FILE_LONG_ALIGNMENT. Note that the serial header structure itself is also defined to be on FILE_LONG_ALIGNMENT.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\ns-ks-ksproperty_serialhdr.md">KSPROPERTY_SERIALHDR</a>
+
+
 
  
 

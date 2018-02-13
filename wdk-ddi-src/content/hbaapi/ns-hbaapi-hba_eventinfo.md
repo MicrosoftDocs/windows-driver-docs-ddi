@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc6b73ac-f86c-4978-9d71-9bd8398c116b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_EventInfo structure [Storage Devices], structs-Fibre_6885fdc8-d2ce-40b3-ba2a-2e423f287780.xml, HBA_EVENTINFO, hbaapi/HBA_EventInfo, HBA_EVENTINFO structure [Storage Devices], PHBA_EVENTINFO, *PHBA_EVENTINFO, storage.hba_eventinfo, PHBA_EVENTINFO structure pointer [Storage Devices], HBA_EventInfo, hbaapi/PHBA_EVENTINFO
+ms.keywords: PHBA_EVENTINFO, HBA_EventInfo structure [Storage Devices], *PHBA_EVENTINFO, structs-Fibre_6885fdc8-d2ce-40b3-ba2a-2e423f287780.xml, hbaapi/HBA_EventInfo, hbaapi/PHBA_EVENTINFO, PHBA_EVENTINFO structure pointer [Storage Devices], HBA_EventInfo, storage.hba_eventinfo, HBA_EVENTINFO, HBA_EVENTINFO structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,28 +72,10 @@ typedef struct HBA_EventInfo {
 
 
 
-### -field Event
-
-
-
-### -field Event.Link_EventInfo
-
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a> that holds information associated with a link event. 
-
-
-### -field Event.RSCN_EventInfo
-
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a> that holds information associated with a link event.
-
-
-### -field Event.Pty_EventInfo
-
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a> that holds information associated with a link event.
-
-
 ### -field EventCode
 
 Contains a code indicating the type of event. The following table lists the values that this member can have:
+
 <table>
 <tr>
 <th>Value</th>
@@ -159,16 +141,41 @@ A proprietary event occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
+
+### -field Event
+
+
+### -field Event.Link_EventInfo
+
+Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a> that holds information associated with a link event. 
+
+
+### -field Event.RSCN_EventInfo
+
+Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a> that holds information associated with a link event.
+
+
+### -field Event.Pty_EventInfo
+
+Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a> that holds information associated with a link event.
 
 
 ## -see-also
 
 <a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
 
+
+
 <a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
 
+
+
 <a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
+
+
 
  
 

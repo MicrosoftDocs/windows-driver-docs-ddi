@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ca1861d3-a838-4b4a-9304-e75dcca04f0d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess function [Display Devices], display.d3dkmtchecksharedresourceaccess, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml
+ms.keywords: PFND3DKMT_CHECKSHAREDRESOURCEACCESS, OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml, d3dkmthk/D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess, D3DKMTCheckSharedResourceAccess function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checksharedresourceaccess.md">D3DKMT_CHECKSHAREDRESOURCEACCESS</a> structure that specifies parameters to determine if a process can access a shared resource. 
@@ -84,7 +85,9 @@ TBD
 ## -returns
 
 
+
 <b>D3DKMTCheckSharedResourceAccess</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,15 +115,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checksharedresourceaccess.md">D3DKMT_CHECKSHAREDRESOURCEACCESS</a>
+
+
 
  
 

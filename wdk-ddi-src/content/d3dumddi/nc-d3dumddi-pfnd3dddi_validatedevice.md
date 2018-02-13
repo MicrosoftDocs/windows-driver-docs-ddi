@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY ValidateDevice(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_validatetexturestagestate.md">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a> structure that receives the number of passes in which the hardware can perform the blending operations.
@@ -91,15 +93,21 @@ __checkReturn HRESULT APIENTRY ValidateDevice(
 ## -returns
 
 
+
 <i>ValidateDevice</i> returns S_OK or an appropriate error result if the number of necessary hardware passes is not successfully received.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_validatetexturestagestate.md">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_validatetexturestagestate.md">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a>
+
 
  
 

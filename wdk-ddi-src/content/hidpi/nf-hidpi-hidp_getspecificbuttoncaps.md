@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_GetSpecificButtonCaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, HidP_GetSpecificButtonCaps routine [Human Input Devices], HidP_GetSpecificButtonCaps, hid.hidp_getspecificbuttoncaps
+ms.keywords: HidP_GetSpecificButtonCaps routine [Human Input Devices], hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, HidP_GetSpecificButtonCaps, hid.hidp_getspecificbuttoncaps, hidpi/HidP_GetSpecificButtonCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,9 @@ Pointer to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f
 ## -returns
 
 
+
 <b>HidP_GetSpecificButtonCaps</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ The preparsed data is not valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The required size of the <i>ButtonCaps</i> array is specified by the <b>Number</b><i>Xxx</i><b>ButtonCaps </b>members of a top-level collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
@@ -157,15 +162,24 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+
+
 
  
 

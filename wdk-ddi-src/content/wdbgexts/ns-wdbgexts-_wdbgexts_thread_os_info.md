@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5cd1ba71-af2f-4662-b37d-88f4e4aa7624
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "*PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], PWDBGEXTS_THREAD_OS_INFO, WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, _WDBGEXTS_THREAD_OS_INFO, wdbgexts/WDBGEXTS_THREAD_OS_INFO"
+ms.keywords: WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, _WDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], *PWDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, PWDBGEXTS_THREAD_OS_INFO, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, wdbgexts/WDBGEXTS_THREAD_OS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,13 +130,17 @@ Receives the thread affinity mask for the thread in a symmetric multiprocessor (
 ## -remarks
 
 
+
 The parameters for the IG_GET_THREAD_OS_INFO <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation are the members of the WDBGEXTS_THREAD_OS_INFO structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
+
+
 
  
 

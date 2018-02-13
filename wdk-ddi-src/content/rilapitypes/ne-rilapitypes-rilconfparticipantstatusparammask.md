@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1194f333-7422-4dc2-9110-3fca067430a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_CPS_CALLTRANSFER, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CPS_CALLTRANSFER, rilapitypes/RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_SIPSTATUS, rilapitypes/RIL_PARAM_CPS_ID, rilapitypes/RIL_PARAM_CPS_ALL, rilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, netvista.rilconfparticipantstatusparammask_2, rilapitypes/RIL_PARAM_CPS_SIPSTATUS, RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_ALL, RILCONFPARTICIPANTSTATUSPARAMMASK, RIL_PARAM_CPS_ID, rilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_PARTICIPANTOP
+ms.keywords: rilapitypes/RIL_PARAM_CPS_SIPSTATUS, rilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, RILCONFPARTICIPANTSTATUSPARAMMASK, RIL_PARAM_CPS_ALL, rilapitypes/RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_SIPSTATUS, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CPS_ID, rilapitypes/RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_ADDRESS, rilapitypes/RIL_PARAM_CPS_ALL, netvista.rilconfparticipantstatusparammask_2, rilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, RIL_PARAM_CPS_ID, RIL_PARAM_CPS_CALLTRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,27 +76,20 @@ typedef enum _RILCONFPARTICIPANTSTATUSPARAMMASK {
 ### -field RIL_PARAM_CPS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_CPS_ID
-
 
 
 ### -field RIL_PARAM_CPS_CALLTRANSFER
 
 
-
 ### -field RIL_PARAM_CPS_ADDRESS
-
 
 
 ### -field RIL_PARAM_CPS_PARTICIPANTOP
 
 
-
 ### -field RIL_PARAM_CPS_SIPSTATUS
 
 
-
 ### -field RIL_PARAM_CPS_ALL
-
 

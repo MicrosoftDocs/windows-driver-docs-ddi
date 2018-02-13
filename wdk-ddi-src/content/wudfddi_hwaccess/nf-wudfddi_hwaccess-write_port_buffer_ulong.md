@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B5C6FA66-617E-4DB1-A62A-3F3F41E971B0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_PORT_BUFFER_ULONG function, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG, umdf.write_port_buffer_ulong, wdf.write_port_buffer_ulong, WRITE_PORT_BUFFER_ULONG
+ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG function, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG, umdf.write_port_buffer_ulong, wdf.write_port_buffer_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,13 +98,17 @@ Specifies the number of ULONG values to be written to the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

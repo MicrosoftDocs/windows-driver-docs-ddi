@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1406f6d7-7da9-4c1a-93c5-384b13fa5e81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM, _D3DDDIARG_SETSTREAMSOURCEUM, display.d3dddiarg_setstreamsourceum
+ms.keywords: display.d3dddiarg_setstreamsourceum, UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], _D3DDDIARG_SETSTREAMSOURCEUM, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,13 +83,17 @@ The <b>Stride</b> value must be DWORD-aligned.
 ## -remarks
 
 
+
 In a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a> function, a pointer to a D3DDDIARG_SETSTREAMSOURCEUM structure is passed in the <i>pData</i> parameter. The Microsoft Direct3D runtime supplies vertex data for the vertex stream through the <i>pUMBuffer</i> parameter in a call to the user-mode display driver's <b>SetStreamSourceUM</b> function. 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
+
+
 
  
 

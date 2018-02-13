@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUsbInterface method, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, IWDFUsbTargetDevice::RetrieveUsbInterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, umdf.iwdfusbtargetdevice_retrieveusbinterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, IWDFUsbTargetDevice, RetrieveUsbInterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method
+ms.keywords: IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface method, umdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, RetrieveUsbInterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetDevice.RetrieveUsbInterface
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A pointer to a variable that receives a pointer to the specified <a href="..\wud
 ## -returns
 
 
+
 <b>RetrieveUsbInterface</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,11 +127,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a> method to retrieve the total number of USB interfaces that are available. 
@@ -137,16 +142,31 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrieves, to call the methods that the <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interface provides. For more information about using these methods, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-interfaces-in-umdf-1-x-drivers">Working with USB Interfaces in UMDF</a>.
 
 
+#### Examples
+
+For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560390">IWDFUsbTargetFactory::CreateUsbTargetDevice</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
+
+
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
+
+
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
 
  
 

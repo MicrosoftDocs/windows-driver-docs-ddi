@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8291e2b-a7a1-4a19-9137-fcd93e62bbaf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequerytimeincrement, KeQueryTimeIncrement, wdm/KeQueryTimeIncrement, k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.kequerytimeincrement, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture], k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, KeQueryTimeIncrement, wdm/KeQueryTimeIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,27 +67,38 @@ ULONG KeQueryTimeIncrement(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeQueryTimeIncrement</b> returns a ULONG value indicating the number of 100-nanosecond units that are added to the system time each time the interval clock interrupts.
 
 
 
+
 ## -remarks
+
 
 
 At startup time, the operating system determines the time increment to use for the system time. This time increment remains constant until the computer restarts. During this time, calls to <b>KeQueryTimeIncrement</b> always return the same time increment value. The time increment does not change while the computer is running, and it does not change as the result of a suspend-resume cycle.
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+
 
  
 

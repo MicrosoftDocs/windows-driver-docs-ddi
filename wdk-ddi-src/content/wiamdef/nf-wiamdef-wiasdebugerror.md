@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: fcddc83d-5fb1-43ad-9abd-8d5e2549b580
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasDebugError function [Imaging Devices], image.wiasdebugerror, wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml, wiasDebugError, wiamdef/wiasDebugError
+ms.keywords: wiasDebugError function [Imaging Devices], wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml, wiamdef/wiasDebugError, image.wiasdebugerror, wiasDebugError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasDebugError
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 ####### - pszFormat, ...
 
 Specifies a variable argument list, which starts with an ANSI format string containing the message and any format specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
@@ -93,14 +94,18 @@ Specifies a variable argument list, which starts with an ANSI format string cont
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -remarks
 
 
+
 The wiasDebugError function is not recommended for Windows XP and later. For Windows XP use the <a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a> macro instead. For Windows Vista use the <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a> macro instead.
+
 
 
 
@@ -108,7 +113,11 @@ The wiasDebugError function is not recommended for Windows XP and later. For Win
 
 <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
+
 
  
 

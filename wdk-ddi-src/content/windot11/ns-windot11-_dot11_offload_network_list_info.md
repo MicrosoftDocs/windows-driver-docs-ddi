@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0FB1D72F-B183-408A-BB84-A9D54B6C276F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO structure [Network Drivers Starting with Windows Vista], DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO, windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network_list_info, windot11/PDOT11_OFFLOAD_NETWORK_LIST_INFO"
+ms.keywords: netvista.dot11_offload_network_list_info, *PDOT11_OFFLOAD_NETWORK_LIST_INFO, windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO, windot11/PDOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], DOT11_OFFLOAD_NETWORK_LIST_INFO structure [Network Drivers Starting with Windows Vista], _DOT11_OFFLOAD_NETWORK_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_OFFLOAD_NETWORK_LIST_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO"
+req.typenames: DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ typedef struct _DOT11_OFFLOAD_NETWORK_LIST_INFO {
 ### -field Header
 
 The type, revision, and size of the DOT11_OFFLOAD_NETWORK_LIST_INFO structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -94,12 +95,14 @@ The type, revision, and size of the DOT11_OFFLOAD_NETWORK_LIST_INFO structure. T
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_OFFLOAD_NETWORK_LIST_INFO_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ulFlags
 
 Bit flags to specify extra attributes of this NLO from the following table:
+
 <table>
 <tr>
 <th>Value</th>
@@ -117,7 +120,8 @@ Bit flags to specify extra attributes of this NLO from the following table:
 <td>DOT11_NLO_FLAG_SCAN_AT_SYSTEM_RESUME </td>
 <td>Specifies that NLO is meant to be used at system resume on non-AOAC platfroms, which is never the case for AOAC platforms.  The NLO OID may be sent beforehand, when the systems is being suspended. Miniport/hardware should not start NLO scan right away. The list should be kept in miniport driver or hardware. When the system resumes, the miniport/hardware should try to connect to the previous connected network. The list should be scan right after the effort failed or when there is no previous connected AP to reconnect to.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field FastScanPeriod
@@ -143,6 +147,7 @@ Number of networks in the list of those requested to offload.
 ### -field offloadNetworkList
 
  
+
 
 
 

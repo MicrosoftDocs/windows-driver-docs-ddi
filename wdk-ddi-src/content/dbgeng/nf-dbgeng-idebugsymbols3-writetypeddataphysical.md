@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f29249f-bb62-45d1-aa0e-108db1d7f906
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols2::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataPhysical method, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, WriteTypedDataPhysical method [Windows Debugging], dbgeng/IDebugSymbols::WriteTypedDataPhysical, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols3, debugger.writetypeddataphysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, WriteTypedDataPhysical, IDebugSymbols::WriteTypedDataPhysical
+ms.keywords: IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, IDebugSymbols2::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, dbgeng/IDebugSymbols::WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataPhysical method, IDebugSymbols2, debugger.writetypeddataphysical, IDebugSymbols, WriteTypedDataPhysical, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,7 +107,9 @@ Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NU
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,19 +137,23 @@ The method was successful.  All the bytes in the buffer <i>Buffer</i> were writt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel mode debugging.
 
 The number of bytes this method attempts to write is the smaller of the size of the buffer and the size of the variable.
 
-This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>.
+This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
 
 

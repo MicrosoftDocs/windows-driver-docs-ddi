@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: QuerySimulationSupport method [Print Devices], IPrintCoreUI2, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, prcomoem/IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, print.iprintcoreui2_querysimulationsupport
+ms.keywords: print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, QuerySimulationSupport, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2, QuerySimulationSupport method [Print Devices], IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, print.iprintcoreui2_querysimulationsupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.QuerySimulationSupport
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Specifies a handle to the printer.
 ### -param dwLevel [in]
 
 Specifies the spooler simulation capability structure returned in the buffer pointed to by <i>pCaps</i>. Currently, only level 1 of spooler simulation support is provided.
+
 <table>
 <tr>
 <th>Value</th>
@@ -96,7 +97,8 @@ Specifies the spooler simulation capability structure returned in the buffer poi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pCaps [out]
@@ -117,7 +119,9 @@ Specifies the size, in bytes, of the memory needed to store a structure of the t
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,11 +175,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins.
@@ -184,9 +191,12 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method stores a spooler s
 
 
 
+
 ## -see-also
 
 <a href="..\printoem\ns-printoem-_simulate_caps_1.md">SIMULATE_CAPS_1</a>
+
+
 
  
 

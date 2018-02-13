@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67a508cf-79c4-4c86-9ad3-fa7cca99cf5f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/DISK_DETECTION_INFO, PDISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Storage Devices], structs-disk_04ca1cb1-3995-47d9-9b5a-0e54ea98dbd6.xml, storage.disk_detection_info, PDISK_DETECTION_INFO structure pointer [Storage Devices], _DISK_DETECTION_INFO, ntdddisk/PDISK_DETECTION_INFO, DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
+ms.keywords: PDISK_DETECTION_INFO structure pointer [Storage Devices], _DISK_DETECTION_INFO, DISK_DETECTION_INFO, ntdddisk/PDISK_DETECTION_INFO, storage.disk_detection_info, ntdddisk/DISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Storage Devices], PDISK_DETECTION_INFO, *PDISK_DETECTION_INFO, structs-disk_04ca1cb1-3995-47d9-9b5a-0e54ea98dbd6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,6 +74,32 @@ typedef struct _DISK_DETECTION_INFO {
 
 
 
+### -field SizeOfDetectInfo
+
+Contains the quantity, in bytes, of retrieved detect information.
+
+
+### -field DetectionType
+
+Indicates one of three possible detection types:
+
+<ol>
+<li>
+<b>DetectNone</b>
+
+</li>
+<li>
+<b>DetectInt13</b>
+
+</li>
+<li>
+<b>DetectExInt13</b>
+
+</li>
+</ol>
+See the structure <a href="..\ntdddisk\ne-ntdddisk-_detection_type.md">DETECTION_TYPE</a> for further information.
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -94,28 +120,6 @@ typedef struct _DISK_DETECTION_INFO {
  
 
 
-### -field SizeOfDetectInfo
-
-Contains the quantity, in bytes, of retrieved detect information.
-
-
-### -field DetectionType
-
-Indicates one of three possible detection types:
-<ol>
-<li>
-<b>DetectNone</b>
-
-</li>
-<li>
-<b>DetectInt13</b>
-
-</li>
-<li>
-<b>DetectExInt13</b>
-
-</li>
-</ol>See the structure <a href="..\ntdddisk\ne-ntdddisk-_detection_type.md">DETECTION_TYPE</a> for further information.
 
 
 #### - ( unnamed struct )
@@ -123,9 +127,11 @@ Indicates one of three possible detection types:
 Contains the quantity, in bytes, of retrieved detect information.
 
 
+
 #### Int13
 
 Contains <a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a> structure with the disk parameters for INT 13 type partitions. This member is used if <b>DetectionType </b>== <b>DetectInt13</b>.
+
 
 
 #### ExInt13
@@ -135,11 +141,17 @@ Contains a <a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT1
 
 ## -see-also
 
+<a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a>
+
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT13_INFO</a>
+
+
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a>
+
 
  
 

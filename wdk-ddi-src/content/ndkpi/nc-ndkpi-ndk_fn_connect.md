@@ -94,7 +94,6 @@ A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.m
 ### -param PSOCKADDR
 
 
-
 ### -param SrcAddressLength [in]
 
 The size, in bytes,  of source address data at the <i>pSrcAddress</i> parameter.
@@ -116,7 +115,6 @@ The consumer-supplied maximum number of outgoing in-progress read operations to 
 
 
 ### -param PVOID
-
 
 
 ### -param PrivateDataLength [in]
@@ -152,8 +150,10 @@ A pointer to private data that is sent with the connect request.
 ## -returns
 
 
+
 The 
      <i>NdkConnect</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -310,34 +310,54 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkConnect</i> initiates a connect request from a  local address to a remote address.
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
 
  
 

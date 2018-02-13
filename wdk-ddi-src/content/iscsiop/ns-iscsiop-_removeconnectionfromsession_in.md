@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd5fd1f2-7040-40ee-bf9c-42e77c9738da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PRemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml, iscsiop/RemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], _RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], *PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN
+ms.keywords: RemoveConnectionFromSession_IN, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml, _RemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], PRemoveConnectionFromSession_IN structure pointer [Storage Devices], storage.removeconnectionfromsession_in, iscsiop/RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,9 @@ A 64-bit integer that uniquely identifies the connection. Do not confuse this va
 ## -remarks
 
 
+
 You must implement this class.
+
 
 
 
@@ -89,9 +91,15 @@ You must implement this class.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
 
  
 

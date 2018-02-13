@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetJobNamedPropertyValue function [Print Devices], winspool/GetJobNamedPropertyValue, print.getjobnamedpropertyvalue, GetJobNamedPropertyValue
+ms.keywords: GetJobNamedPropertyValue function [Print Devices], GetJobNamedPropertyValue, print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,9 @@ Value of the named property. The caller needs to free this using the <a href="..
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.  
+
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, KsEnableEvent function [Streaming Media Devices], KsEnableEvent, stream.ksenableevent
+ms.keywords: stream.ksenableevent, ks/KsEnableEvent, KsEnableEvent function [Streaming Media Devices], ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, KsEnableEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,20 +106,26 @@ If the KSEVENT_SET.AddHandler for the event set containing the event being enabl
 ## -returns
 
 
+
 The <b>KsEnableEvent</b> function returns STATUS_SUCCESS if successful, or an error specific to the event being enabled if unsuccessful. The function always sets the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP to zero. It does not set the IO_STATUS_BLOCK.Status field, nor does it complete the IRP.
+
 
 
 
 ## -remarks
 
 
+
 Minidrivers do not call <b>KsEnableEvent</b>. Only a pure KS driver or a class driver should call this routine.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+
+
 
  
 

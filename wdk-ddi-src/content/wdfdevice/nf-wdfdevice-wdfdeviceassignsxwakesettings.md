@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af25d03f-32c5-4e2c-930f-1b905edc566b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceassignsxwakesettings, WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, PFN_WDFDEVICEASSIGNSXWAKESETTINGS, DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, wdfdevice/WdfDeviceAssignSxWakeSettings, wdf.wdfdeviceassignsxwakesettings
+ms.keywords: DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, PFN_WDFDEVICEASSIGNSXWAKESETTINGS, WdfDeviceAssignSxWakeSettings method, WdfDeviceAssignSxWakeSettings, wdf.wdfdeviceassignsxwakesettings, kmdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ A pointer to a caller-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_po
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceAssignSxWakeSettings</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,7 +141,8 @@ The bus driver indicates the device cannot trigger a wake signal, or the <a href
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -147,18 +150,51 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1-a032-04348b903ac5">Supporting System Wake-Up</a>.
 
 
+#### Examples
+
+The following code example initializes a WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure and then calls <b>WdfDeviceAssignSxWakeSettings</b>. The example uses the default settings that <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a> sets.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS  wakeSettings;
+NTSTATUS  status = STATUS_SUCCESS;
+
+WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT(&amp;wakeSettings);
+
+status = WdfDeviceAssignSxWakeSettings(
+                                       device,
+                                       &amp;wakeSettings
+                                       );
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
+
+
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
+
 
  
 

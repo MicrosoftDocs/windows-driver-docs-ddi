@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70782045-7026-4771-8072-9057fc31a642
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExAllocateFromLookasideListEx, kernel.exallocatefromlookasidelistex, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, ExAllocateFromLookasideListEx
+ms.keywords: wdm/ExAllocateFromLookasideListEx, k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, ExAllocateFromLookasideListEx, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], kernel.exallocatefromlookasidelistex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 ## -returns
 
 
+
 <b>ExAllocateFromLookasideListEx</b> returns a pointer to a lookaside-list entry, if an entry is available in the list or can be dynamically allocated. Otherwise, this routine returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 This routine removes the first entry, if an entry is available, from the specified lookaside list and returns a pointer to this entry. If the list is empty, the routine allocates storage for a new entry and returns a pointer to this entry. If this allocation fails, the routine returns <b>NULL</b>.
@@ -95,15 +98,24 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
 
+
+
 <a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+
+
 
  
 

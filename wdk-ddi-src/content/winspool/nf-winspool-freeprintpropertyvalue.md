@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winspool/FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, FreePrintPropertyValue
+ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], winspool/FreePrintPropertyValue, print.freeprintpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,7 +79,9 @@ Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="..
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.  
+
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_CHILD_LIST_CONFIG_INIT, wdf.wdf_child_list_config_init, DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT, kmdf.wdf_child_list_config_init, WDF_CHILD_LIST_CONFIG_INIT function
+ms.keywords: wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT, wdf.wdf_child_list_config_init, WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, kmdf.wdf_child_list_config_init, DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,14 @@ The address of a driver-supplied <a href="..\wdfchildlist\nc-wdfchildlist-evt_wd
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function zeros the specified <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure and sets the structure's <b>Size</b> member. Then it sets the <b>IdentificationDescriptionSize</b> and <b>EvtChildListCreateDevice</b> members to the specified values.
@@ -102,12 +105,23 @@ The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function zeros the specified <a href="..\w
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WDF_CHILD_LIST_CONFIG_INIT</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
+
+
+
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
+
 
  
 

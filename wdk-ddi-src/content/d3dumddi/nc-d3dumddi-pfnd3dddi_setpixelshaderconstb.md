@@ -84,6 +84,8 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConstB(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
@@ -97,15 +99,21 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConstB(
 ## -returns
 
 
+
 <i>SetPixelShaderConstB</i> returns S_OK or an appropriate error result if the pixel shader constant registers are not successfully set with Boolean values.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

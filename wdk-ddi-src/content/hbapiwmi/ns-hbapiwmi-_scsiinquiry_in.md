@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f7690483-8269-4fb4-9960-9abdbb128b94
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN structure [Storage Devices], hbapiwmi/ScsiInquiry_IN, structs-Fibre_b1f0d146-5bc7-4d98-b97e-ec508b4023c9.xml, storage.scsiinquiry_in2, *PScsiInquiry_IN, hbapiwmi/PScsiInquiry_IN, ScsiInquiry_IN, _ScsiInquiry_IN
+ms.keywords: hbapiwmi/ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], PScsiInquiry_IN structure pointer [Storage Devices], structs-Fibre_b1f0d146-5bc7-4d98-b97e-ec508b4023c9.xml, hbapiwmi/PScsiInquiry_IN, _ScsiInquiry_IN, *PScsiInquiry_IN, PScsiInquiry_IN, ScsiInquiry_IN, storage.scsiinquiry_in2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiInquiry_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiInquiry_IN, ScsiInquiry_IN"
+req.typenames: ScsiInquiry_IN, *PScsiInquiry_IN
 ---
 
 # _ScsiInquiry_IN structure
@@ -93,13 +93,17 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the ScsiInquiry_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsfreeclonenetbufferlist0, FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml, fwpsk/FwpsFreeCloneNetBufferList0
+ms.keywords: wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml, fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], FwpsFreeCloneNetBufferList0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,14 @@ There are currently no flags defined for this function. Callout drivers should s
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -105,12 +108,17 @@ A callout driver calls the
 
 
 
-## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
    FwpsAllocateCloneNetBufferList0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

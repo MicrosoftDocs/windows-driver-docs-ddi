@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78609b64-38fa-4431-bc74-8a83fe687a45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_videosample32, _DXVA_VideoSample32, DXVA_VideoSample32, dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml, DXVA_VideoSample32 structure [Display Devices], dxva/DXVA_VideoSample32
+ms.keywords: dxva/DXVA_VideoSample32, dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml, display.dxva_videosample32, DXVA_VideoSample32, _DXVA_VideoSample32, DXVA_VideoSample32 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,25 +117,41 @@ Specifies an array of <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsa
 ## -remarks
 
 
+
 The compiler adds 4 bytes of padding to align the structure to 8 bytes.
+
 
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+
 
 <a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
 
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
+
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+
 
  
 

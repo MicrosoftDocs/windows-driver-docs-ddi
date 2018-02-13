@@ -75,7 +75,9 @@ A structure of type <i>PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION</i> containing 
 ## -returns
 
 
+
 DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,6 +105,8 @@ Indicates that there was an invalid parameter passed to the call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

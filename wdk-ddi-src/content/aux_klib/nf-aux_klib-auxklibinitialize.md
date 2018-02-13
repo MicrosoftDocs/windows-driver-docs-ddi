@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7e15cbe1-17f7-4df7-9273-9a365d309d03
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, aux_klib/AuxKlibInitialize, AuxKlibInitialize, kernel.auxklibinitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture]
+ms.keywords: aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, kernel.auxklibinitialize, aux_klib/AuxKlibInitialize, AuxKlibInitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,16 +67,21 @@ NTSTATUS AuxKlibInitialize(void);
 
 
 
+
 ## -returns
+
 
 
 <b>AuxKlibInitialize</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the routine returns an appropriate NTSTATUS value.
 
 
 
+
 ## -remarks
 
 
+
 Drivers that use the Auxiliary Kernel-Mode Library must call <b>AuxKlibInitialize</b> before calling any of the library's other routines.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getmsgserviceoptions, RIL_GetMsgServiceOptions, rilapi/RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetMsgServiceOptions, netvista.ril_getmsgserviceoptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetMsgServiceOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetMsgServiceOptions(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

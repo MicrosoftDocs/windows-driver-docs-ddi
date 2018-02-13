@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a169a5b2-5303-41fc-80d2-69b44fd45c47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.setchapsharedsecret_out, iscsiop/PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], PSetCHAPSharedSecret_OUT, _SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], iscsiop/SetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, SetCHAPSharedSecret_OUT
+ms.keywords: PSetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], iscsiop/PSetCHAPSharedSecret_OUT, _SetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, SetCHAPSharedSecret_OUT, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml, iscsiop/SetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetCHAPSharedSecret_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT"
+req.typenames: SetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT
 ---
 
 # _SetCHAPSharedSecret_OUT structure
@@ -75,17 +75,25 @@ On output, the status of the <b>SetCHAPSharedSecret</b> operation. For a list of
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
+
+
 <a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
+
+
 
  
 

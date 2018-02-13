@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IRemoteInterfaceCallbackEvent, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
+ms.keywords: OnRemoteInterfaceEvent method, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,11 +102,14 @@ An offset, in bytes, from the beginning of the buffer that <i>pbData</i> points 
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 A driver's <b>OnRemoteInterfaceEvent</b> event callback function handles all device events except arrival and removal events. Such events can originate from a UMDF-based driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a> or from a kernel-mode driver's call to <a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a> or <a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>.
@@ -117,13 +120,20 @@ For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callba
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
+## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackevent.md">IRemoteInterfaceCallbackEvent</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556893">IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval</a>
+
+
 
  
 

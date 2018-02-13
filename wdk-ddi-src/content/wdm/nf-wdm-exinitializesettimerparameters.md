@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInitializeSetTimerParameters, ExInitializeSetTimerParameters, kernel.exinitializesettimerparameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exinitializesettimerparameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], ExInitializeSetTimerParameters, wdm/ExInitializeSetTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,14 +76,18 @@ A pointer to the <b>EXT_SET_PARAMETER</b> structure that is to be initialized.
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 Your driver must call <b>ExInitializeSetTimerParameters</b> to initialize an <b>EXT_SET_PARAMETERS</b> structure before the driver passes this structure to the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine. For more information about the member values that <b>ExInitializeSetTimerParameters</b> writes to the members of this structure, see <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>.
+
 
 
 
@@ -91,7 +95,11 @@ Your driver must call <b>ExInitializeSetTimerParameters</b> to initialize an <b>
 
 <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
 
+
+
 <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+
+
 
  
 

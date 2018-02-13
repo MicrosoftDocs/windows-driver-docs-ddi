@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForUrb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, kmdf.wdfusbtargetpipeformatrequestforurb, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB, WdfUsbTargetPipeFormatRequestForUrb method, wdf.wdfusbtargetpipeformatrequestforurb
+ms.keywords: WdfUsbTargetPipeFormatRequestForUrb method, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, kmdf.wdfusbtargetpipeformatrequestforurb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, wdf.wdfusbtargetpipeformatrequestforurb, WdfUsbTargetPipeFormatRequestForUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfUsbTargetPipeFormatRequestForUrb
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -104,7 +104,9 @@ A handle to a framework pipe object that was obtained by calling <a href="..\wdf
 ## -returns
 
 
+
 <b>WdfUsbTargetPipeFormatRequestForUrb</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,7 +156,8 @@ The I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>) that the <i>Req
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -164,7 +167,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use <b>WdfUsbTargetPipeFormatRequestForUrb</b>, followed by <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, to send a USB request either synchronously or asynchronously. Alternatively, use the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipesendurbsynchronously.md">WdfUsbTargetPipeSendUrbSynchronously</a> method to send a request synchronously. 
@@ -186,22 +191,108 @@ For information about obtaining status information after an I/O request complete
 For more information about the <b>WdfUsbTargetPipeFormatRequestForUrb</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example creates a memory object that represents a URB. Then, the example initializes the URB, formats a USB request that contains the URB, registers a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, and sends the request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>URB  urb;
+PURB  pUrb = NULL;
+WDFMEMORY  urbMemory
+NTSTATUS status;
+
+status = WdfMemoryCreate(
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         NonPagedPool,
+                         0,
+                         sizeof(struct _URB_GET_CURRENT_FRAME_NUMBER),
+                         &amp;urbMemory,
+                         NULL
+                         );
+if (!NT_SUCCESS(status)){
+    return status;
+}
+
+pUrb = WdfMemoryGetBuffer(
+                          urbMemory,
+                          NULL
+                          );
+
+pUrb-&gt;UrbHeader.Length = (USHORT) sizeof(struct _URB_GET_CURRENT_FRAME_NUMBER);
+pUrb-&gt;UrbHeader.Function = URB_FUNCTION_GET_CURRENT_FRAME_NUMBER;
+pUrb-&gt;UrbGetCurrentFrameNumber.FrameNumber = 0; 
+
+status = WdfUsbTargetPipeFormatRequestForUrb(
+                                             pipe,
+                                             Request,
+                                             urbMemory,
+                                             NULL
+                                             );
+if (!NT_SUCCESS(status)) {
+    goto Exit;
+}
+WdfRequestSetCompletionRoutine(
+                               Request,
+                               UrbCompletionRoutine,
+                               pipe
+                               );
+if (WdfRequestSend(
+                   Request,
+                   WdfUsbTargetPipeGetIoTarget(pipe),
+                   WDF_NO_SEND_OPTIONS
+                   ) == FALSE) {
+    status = WdfRequestGetStatus(Request);
+    goto Exit;
+}
+Exit:
+if (!NT_SUCCESS(status)) {
+    WdfRequestCompleteWithInformation(
+                                      Request,
+                                      status,
+                                      0
+                                      );
+}
+return;</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
 
  
 

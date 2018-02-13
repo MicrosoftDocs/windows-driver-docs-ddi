@@ -40,7 +40,7 @@ apiname:
 -	ProtocolCmCloseAf
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_CM_CLOSE_AF callback
@@ -83,7 +83,9 @@ Specifies the handle to the call manager's per-AF context area, originally suppl
 ## -returns
 
 
+
 <i>ProtocolCmCloseAf</i> returns the status of its operation(s) as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,11 +118,14 @@ Indicates that the request to close the open instance of the address family will
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>ProtocolCmCloseAf</i> releases and/or deactivates any resources that were allocated by the call manager
@@ -132,6 +137,7 @@ Indicates that the request to close the open instance of the address family will
 If there are any outstanding requests or connections still open on an address family stored in the 
     <i>CallMgrAfContext</i>, a call manager can respond to a client's request to close the address family in
     either of the following ways:
+
 <ul>
 <li>
 The call manager can fail the request with NDIS_STATUS_NOT_ACCEPTED.
@@ -145,9 +151,12 @@ The call manager can return NDIS_STATUS_PENDING. After the client has closed all
       NdisMCmCloseAddressFamilyComplete</a> to notify the client. This is the preferred response.
 
 </li>
-</ul><h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCmCloseAf</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+</ul>
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolCmCloseAf</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmCloseAf</i> function that is named "MyCmCloseAf", use the <b>PROTOCOL_CM_CLOSE_AF</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -157,7 +166,9 @@ For example, to define a <i>ProtocolCmCloseAf</i> function that is named "MyCmCl
 <pre>PROTOCOL_CM_CLOSE_AF MyCmCloseAf;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -172,18 +183,24 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CM_CLOSE_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CM_CLOSE_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
    NdisCmCloseAddressFamilyComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
 
  
 

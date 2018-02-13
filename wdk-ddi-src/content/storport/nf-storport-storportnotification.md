@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml, StorPortNotification, StorPortNotification routine [Storage Devices]
+ms.keywords: storage.storportnotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml, StorPortNotification routine [Storage Devices], StorPortNotification, storport/StorPortNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ VOID StorPortNotification(
 ### -param NotificationType
 
 Specifies the notification type, which can be one of the following values.
+
 <table>
 <tr>
 <th>Notification type</th>
@@ -298,7 +299,8 @@ Indicates that the miniport driver has changed the data items or the number of i
 </table></span></div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param HwDeviceExtension
@@ -312,6 +314,7 @@ TBD
 
 
 
+
 #### - arguments
 
 Specifies the arguments corresponding to the notification type.
@@ -320,11 +323,14 @@ Specifies the arguments corresponding to the notification type.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 StorPortNotification is a polymorphic function that handles many different types of requests, making it difficult to annotate in a manner that would cover all possible uses.
@@ -332,29 +338,52 @@ Because StorPortNotification returns VOID, the scanning engine should assume the
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567437">StorPortNotification for BusChangeDetected</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567439">StorPortNotification for LinkDown</a>
 
+
+
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567434">StorPortNotification for BufferOverrunDetected</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567456">StorPortNotification for WMIReregister</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567446">StorPortNotification for RequestComplete</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567450">StorPortNotification for ResetDetected</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567445">StorPortNotification for QueryTickCount</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567447">StorPortNotification for RequestTimerCall</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567452">StorPortNotification for WMIEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567434">StorPortNotification for BufferOverrunDetected</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567441">StorPortNotification for LinkUp</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567452">StorPortNotification for WMIEvent</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567437">StorPortNotification for BusChangeDetected</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567456">StorPortNotification for WMIReregister</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567447">StorPortNotification for RequestTimerCall</a>
+
+
 
  
 

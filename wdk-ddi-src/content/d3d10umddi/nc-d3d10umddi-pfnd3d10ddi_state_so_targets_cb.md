@@ -40,7 +40,7 @@ apiname:
 -	pfnStateSoTargetsCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_STATE_SO_TARGETS_CB callback
@@ -77,6 +77,8 @@ void APIENTRY pfnStateSoTargetsCb(
 
 
 
+
+
 #### - hRuntimeDevice [in]
 
  A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
@@ -85,24 +87,34 @@ void APIENTRY pfnStateSoTargetsCb(
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>pfnStateSoTargetsCb</b> function calls the user-mode display driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_so_settargets.md">SoSetTargets</a> function with all of the currently set stream-output buffers.
+
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_so_settargets.md">SoSetTargets</a>
 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
 
  
 

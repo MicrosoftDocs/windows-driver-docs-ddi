@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55eca513-030c-47f8-9ce9-ab36183cbaf2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, wdm/IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification, kernel.iounregisterplugplaynotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, IoUnregisterPlugPlayNotification, kernel.iounregisterplugplaynotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,15 +78,21 @@ Pointer to an opaque value representing the registration to be removed. The valu
 ## -returns
 
 
+
 <b>IoUnregisterPlugPlayNotification</b> always returns STATUS_SUCCESS if <i>NotificationEntry </i>is valid.
+
 
 
 
 ## -remarks
 
 
+
 In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the <a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a> routine instead.
-<div class="alert"><b>Note</b>    The system does not synchronize between the execution of the notification routine and <b>IoUnregisterPlugPlayNotification</b>. Therefore, the routine can be called after the <b>IoUnregisterPlugPlayNotification</b> method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after <b>IoUnregisterPlugPlayNotification</b> has been called.</div><div> </div><b>IoUnregisterPlugPlayNotification</b> removes one PnP notification registration; that is, the registration of one driver callback routine for one PnP event category.
+
+<div class="alert"><b>Note</b>    The system does not synchronize between the execution of the notification routine and <b>IoUnregisterPlugPlayNotification</b>. Therefore, the routine can be called after the <b>IoUnregisterPlugPlayNotification</b> method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after <b>IoUnregisterPlugPlayNotification</b> has been called.</div>
+<div> </div>
+<b>IoUnregisterPlugPlayNotification</b> removes one PnP notification registration; that is, the registration of one driver callback routine for one PnP event category.
 
 Drivers should unregister a notification first, then free any related context buffer.
 
@@ -94,11 +100,16 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+
 
  
 

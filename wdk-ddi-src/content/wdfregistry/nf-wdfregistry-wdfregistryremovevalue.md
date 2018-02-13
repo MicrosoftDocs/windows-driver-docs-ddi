@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryRemoveValue, PFN_WDFREGISTRYREMOVEVALUE, wdf.wdfregistryremovevalue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, kmdf.wdfregistryremovevalue, wdfregistry/WdfRegistryRemoveValue, WdfRegistryRemoveValue method
+ms.keywords: wdfregistry/WdfRegistryRemoveValue, wdf.wdfregistryremovevalue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, WdfRegistryRemoveValue, WdfRegistryRemoveValue method, PFN_WDFREGISTRYREMOVEVALUE, kmdf.wdfregistryremovevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryRemoveValue
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -87,7 +87,9 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 <b>WdfRegistryRemoveValue</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,7 +129,8 @@ The driver did not open the registry key with KEY_SET_VALUE access.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -137,16 +140,41 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+
+
+#### Examples
+
+The following code example removes the <b>MyValue</b> value and its data from a specified registry key.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_CONST_UNICODE_STRING(valueName, L"MyValue");
+
+status = WdfRegistryRemoveValue(
+                                Key,
+                                &amp;valueName
+                                );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

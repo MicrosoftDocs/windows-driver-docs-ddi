@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles, WcsEnumColorProfiles function [Print Devices], WcsEnumColorProfiles, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml
+ms.keywords: icm/WcsEnumColorProfiles, WcsEnumColorProfiles, print.wcsenumcolorprofiles, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, WcsEnumColorProfiles function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,6 +104,7 @@ A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT
 ## -remarks
 
 
+
 Use the <a href="..\icm\nf-icm-wcsenumcolorprofilessize.md">WcsEnumColorProfilesSize</a> function to obtain the value for the <i>dwSize</i> parameter, which is the size, in bytes, of the buffer pointed to by the <i>pBuffer</i> parameter.
 
 If the <i>profileManagementScope</i> parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, only system-wide associations of profiles to the device are considered. If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, only per-user associations for the current user are considered. If either <a href="..\icm\nf-icm-wcssetuseperuserprofiles.md">WcsSetUsePerUserProfiles</a> has never been called for this user, or <b>WcsSetUsePerUserProfiles</b> was most recently called for this user with its <i>usePerUserProfiles</i> parameter set to <b>FALSE</b>, then <code>WCSEnumColorProfiles</code> returns an empty list.
@@ -114,11 +115,16 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 
+
 ## -see-also
 
 <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
+
+
 <a href="..\icm\nf-icm-wcsenumcolorprofilessize.md">WcsEnumColorProfilesSize</a>
+
+
 
  
 

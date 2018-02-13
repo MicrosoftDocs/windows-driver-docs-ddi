@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: bc90a153-e6ff-4736-b625-1260a84bb157
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI.pci_express_enhanced_capability_header, wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses]
+ms.keywords: PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, pci_struct_50b450a2-7198-4021-947b-2c276ca9b274.xml, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure [Buses], _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure pointer [Buses], PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, wdm/PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI.pci_express_enhanced_capability_header, wdm/PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER"
+req.typenames: PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -77,9 +77,11 @@ The extended capability identifier. Possible values are:
 
 
 
+
 #### PCI_EXPRESS_ADVANCED_ERROR_REPORTING_CAP_ID
 
 Advanced error reporting capability
+
 
 
 #### PCI_EXPRESS_VIRTUAL_CHANNEL_CAP_ID
@@ -87,9 +89,11 @@ Advanced error reporting capability
 Virtual channel capability
 
 
+
 #### PCI_EXPRESS_DEVICE_SERIAL_NUMBER_CAP_ID
 
 Device serial number capability
+
 
 
 #### PCI_EXPRESS_POWER_BUDGETING_CAP_ID
@@ -97,9 +101,11 @@ Device serial number capability
 Power budgeting capability
 
 
+
 #### PCI_EXPRESS_RC_LINK_DECLARATION_CAP_ID
 
 Root complex link declaration capability
+
 
 
 #### PCI_EXPRESS_RC_INTERNAL_LINK_CONTROL_CAP_ID
@@ -107,9 +113,11 @@ Root complex link declaration capability
 Root complex internal link control capability
 
 
+
 #### PCI_EXPRESS_RC_EVENT_COLLECTOR_ENDPOINT_ASSOCIATION_CAP_ID
 
 Root complex event collector endpoint association capability
+
 
 
 #### PCI_EXPRESS_MFVC_CAP_ID
@@ -117,9 +125,11 @@ Root complex event collector endpoint association capability
 Multi-function virtual channel capability
 
 
+
 #### PCI_EXPRESS_VC_AND_MFVC_CAP_ID
 
 Virtual channel and multi-function virtual channel capability
+
 
 
 #### PCI_EXPRESS_RCRB_HEADER_CAP_ID
@@ -140,19 +150,27 @@ The offset in PCIe device configuration space to the next PCIe capability struct
 ## -remarks
 
 
+
 The PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER is included at the beginning of every extended capability structure. Microsoft defines structures for the advanced error reporting capability (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>) and the serial number capability (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>).
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537558">PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
 
  
 

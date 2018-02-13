@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3cd6ece6-2c8e-4072-8ac5-d1e90c9392db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::Initialize, Initialize method [Imaging Devices], IStiDevice interface, Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, IStiDevice, image.istidevice_initialize, IStiDevice interface [Imaging Devices], Initialize method, sti/IStiDevice::Initialize, Initialize method [Imaging Devices]
+ms.keywords: IStiDevice interface [Imaging Devices], Initialize method, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml, Initialize method [Imaging Devices], IStiDevice::Initialize, image.istidevice_initialize, IStiDevice, Initialize method [Imaging Devices], IStiDevice interface, Initialize, sti/IStiDevice::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,6 +89,7 @@ Caller-supplied STI version number. This value must be STI_VERSION, defined in <
 ### -param dwMode
 
 Caller-supplied constant value indicating the <a href="https://msdn.microsoft.com/79af0d8f-dd04-4ff4-a047-f415562a16a5">Transfer Modes</a> in which the device is to be used. The following values are valid.
+
 <table>
 <tr>
 <th>Mode</th>
@@ -124,21 +125,26 @@ The device is being opened only for obtaining status information.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDevice::Initialize</b> method initializes the COM object instance that was created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a>.
 
 Because <b>IStiDevice::Initialize</b> is called by <b>IStillImage::CreateDevice</b>, clients of the <b>IStiDevice</b> interface do not typically call this method directly.
+
 
 

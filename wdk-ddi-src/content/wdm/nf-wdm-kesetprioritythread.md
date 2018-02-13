@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], KeSetPriorityThread, wdm/KeSetPriorityThread, kernel.kesetprioritythread
+ms.keywords: KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, KeSetPriorityThread, wdm/KeSetPriorityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,24 +82,34 @@ Specifies the priority of the driver-created thread, usually to the real-time pr
 ## -returns
 
 
+
 <b>KeSetPriorityThread</b> returns the old priority of the thread.
+
 
 
 
 ## -remarks
 
 
+
 If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower value, execution of the thread can be rescheduled even if it is currently running or is about to be dispatched for execution. 
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
 <a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+
 
  
 

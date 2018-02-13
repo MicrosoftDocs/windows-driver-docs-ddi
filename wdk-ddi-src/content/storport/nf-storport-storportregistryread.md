@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml, storport/StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread
+ms.keywords: storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml, StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,7 @@ Indicates, when nonzero, that the port driver reads the contents of the registry
 ### -param Type
 
 Indicates the data type of registry value. This parameter must have one of the values in the following table.
+
 <table>
 <tr>
 <th>Registry value data type</th>
@@ -239,7 +240,8 @@ Indicates that the registry value contains a 64-bit number. This is the same dat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer
@@ -255,11 +257,14 @@ Pointer to a ULONG that contains the size, in bytes, of the registry data return
 ## -returns
 
 
+
 <b>StorPortRegistryRead</b> returns a Boolean value of <b>TRUE</b> if the data pointed to by <i>ValueName</i> is successfully converted into ASCII and copied into the buffer. This routine returns <b>FALSE</b> in the event of an error. 
 
 
 
+
 ## -remarks
+
 
 
 If <b>StorPortRegistryRead</b> returns <b>FALSE</b> with a nonzero value in the <i>BufferLength</i> parameter, the buffer that was passed was too small and the <i>BufferLength</i> parameter reflects the correct buffer size that should be used. If the routine returns <b>FALSE</b> with the <i>BufferLength</i> parameter set to zero, another error has occurred.
@@ -268,11 +273,16 @@ The buffer used in this routine is allocated by calling <a href="..\storport\nf-
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
 
+
+
 <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
+
+
 
  
 

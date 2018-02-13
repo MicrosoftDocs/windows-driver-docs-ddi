@@ -82,7 +82,9 @@ A handle to a framework request object that represents the request. This request
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -96,6 +98,8 @@ Possible return values are:
 <td><b>STATUS_DEVICE_NOT_READY</b></td>
 <td>The PosCx library was not successfully initialized.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

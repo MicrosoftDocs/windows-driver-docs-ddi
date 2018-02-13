@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlnotifyfullchangedirectory.htm
 old-project: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rxprocs/FsRtlNotifyFullChangeDirectory, ifsk.fsrtlnotifyfullchangedirectory, fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], FsRtlNotifyFullChangeDirectory
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtlnotifyfullchangedirectory, FsRtlNotifyFullChangeDirectory, rxprocs/FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	FsRtlNotifyFullChangeDirectory
 product: Windows
 targetos: Windows
-req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -129,6 +129,8 @@ TBD
 
 
 
+
+
 #### - NotifySync [in]
 
 A pointer to an opaque synchronization object for the notify list for the current volume.
@@ -162,6 +164,7 @@ Set to <b>TRUE</b> to ignore any user buffers and force the directory to be reen
 #### - CompletionFilter [in]
 
 Bitmask of flags that specify the types of changes to files or subdirectories that should cause the queue of pending notify IRPs to be completed. The possible flag values are described following.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -297,7 +300,8 @@ This file stream's data has changed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <i>CompletionFilter</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
@@ -310,6 +314,7 @@ A pointer to the IRP to complete on notify change. If <i>NotifyIrp</i> is <b>NUL
 #### - TraverseCallback [in, optional]
 
 Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory being watched in a directory tree. This lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -324,7 +329,8 @@ Optional pointer to a callback routine to be invoked when a change occurs in a s
     );</pre>
 </td>
 </tr>
-</table></span></div>For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
+</table></span></div>
+For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
 #### - SubjectContext [in, optional]
@@ -335,11 +341,13 @@ A pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsR
 ## -remarks
 
 
+
 <b>FsRtlNotifyFullChangeDirectory</b> is called by a file system that has received a notify change request. This request is received as an IRP with major function code IRP_MJ_DIRECTORY_CONTROL, minor function code IRP_MN_NOTIFY_CHANGE_DIRECTORY. 
 
 If <i>NotifyIrp</i> is <b>NULL</b>, <b>FsRtlNotifyFullChangeDirectory</b> checks whether the notify list contains a pending IRP that refers to this file object and, if so, completes it with STATUS_DELETE_PENDING.
 
 If <i>NotifyIrp</i> is not <b>NULL</b>, <b>FsRtlNotifyFullChangeDirectory</b> does the following:
+
 <ul>
 <li>
 Checks whether the file object has undergone cleanup. If so, <b>FsRtlNotifyFullChangeDirectory</b> completes the notify IRP with status STATUS_NOTIFY_CLEANUP.
@@ -352,17 +360,24 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
 <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlNotifyFullChangeDirectory routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlNotifyFullChangeDirectory routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad51cc5c-7385-405b-8b65-20b079a3265c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_throttle_parameters, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, _NDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS, _NDIS_RECEIVE_THROTTLE_PARAMETERS, netvista.ndis_receive_throttle_parameters, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_THROTTLE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS
+req.typenames: "*PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS"
 ---
 
 # _NDIS_RECEIVE_THROTTLE_PARAMETERS structure
@@ -84,11 +84,14 @@ A value that, when <b>TRUE</b>, specifies that the miniport driver has NET_BUFFE
      after it processed the maxim number or structures that NDIS requested in the 
      <b>MaxNblsToIndicate</b> member. 
      
+
 <div class="alert"><b>Note</b>  If NDIS set the 
      <b>MaxNblsToIndicate</b> member to NDIS_INDICATE_ALL_NBLS, the miniport driver should set 
-     <b>MoreNblsPending</b> to <b>FALSE</b> before it returns from the DPC.</div><div> </div>
+     <b>MoreNblsPending</b> to <b>FALSE</b> before it returns from the DPC.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The 
@@ -115,6 +118,7 @@ After the miniport driver processes the specified maximum number of NET_BUFFER_L
 
 The miniport driver should follow these guidelines when the 
     <b>MaxNblsToIndicate</b> member is set to NDIS_INDICATE_ALL_NBLS:
+
 <ul>
 <li>A value of NDIS_INDICATE_ALL_NBLS allows the miniport driver to determine the number of
      NET_BUFFER_LIST structures that it indicates in a DPC call. This gives the miniport driver the following
@@ -140,7 +144,8 @@ The miniport driver should set
       indicated.
 
 </li>
-</ul>If the miniport driver is using line-based interrupts or a single MSI message, it should do
+</ul>
+If the miniport driver is using line-based interrupts or a single MSI message, it should do
     interrupt-processing for all of the interrupt sources that it has. If there are packets in the receive
     queue, it should indicate at most 
     <b>MaxNblsToIndicate</b> NET_BUFFER_LIST structures to NDIS with the 
@@ -152,22 +157,33 @@ If the miniport driver is using multiple MSI messages to differentiate different
     <i>ReceiveThrottleParameters</i> member for MSI messages that are not associated with receive indications.
     For receive interrupt messages, the miniport driver should indicate at most 
     <b>MaxNblsToIndicate</b> NET_BUFFER_LIST structures.
+
 <div class="alert"><b>Note</b>  If the miniport driver sets 
     <b>MoreNblsPending</b>, NDIS will call the DPC again. However, the amount of time that passes before the
     next DPC call is not defined. Also, the amount of time between the initial interrupt service routing
-    (ISR) returns and the DPC is not defined. After the miniport driver sets <b>MoreNblsPending</b>, it should handle the next DPC as it handled the first DPC.</div><div> </div>
+    (ISR) returns and the DPC is not defined. After the miniport driver sets <b>MoreNblsPending</b>, it should handle the next DPC as it handled the first DPC.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
    NdisMIndicateReceiveNetBufferLists</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+
 
  
 

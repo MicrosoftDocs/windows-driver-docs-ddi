@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e9d25ac3-8ffc-4137-8409-731d8caaa730
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_activation_command, wwan/WwanActivationCommandDeactivate, WwanActivationCommandMax, WwanActivationCommandDeactivate, wwan/WwanActivationCommandMax, PWWAN_ACTIVATION_COMMAND, WwanActivationCommandActivate, wwan/WWAN_ACTIVATION_COMMAND, _WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], wwan/WwanActivationCommandActivate, wwan/PWWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND
+ms.keywords: wwan/WwanActivationCommandActivate, PWWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandMax, WWAN_ACTIVATION_COMMAND, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, wwan/WWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_activation_command, WwanActivationCommandDeactivate, *PWWAN_ACTIVATION_COMMAND, WwanActivationCommandActivate, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandDeactivate, WwanActivationCommandMax, wwan/PWWAN_ACTIVATION_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_ACTIVATION_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND"
+req.typenames: WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,8 @@ The total number of supported activation commands.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
 
  
 

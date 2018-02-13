@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8959fc25-2477-485a-aa40-10d6228cb476
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCompletionStatus, IWDFRequestCompletionParams interface, GetCompletionStatus method, IWDFRequestCompletionParams, IWDFRequestCompletionParams::GetCompletionStatus, umdf.iwdfrequestcompletionparams_getcompletionstatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus, wdf.iwdfrequestcompletionparams_getcompletionstatus, GetCompletionStatus method, IWDFRequestCompletionParams interface, GetCompletionStatus method, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml
+ms.keywords: wudfddi/IWDFRequestCompletionParams::GetCompletionStatus, GetCompletionStatus method, IWDFRequestCompletionParams interface, umdf.iwdfrequestcompletionparams_getcompletionstatus, IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, GetCompletionStatus method, GetCompletionStatus method, IWDFRequestCompletionParams::GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, wdf.iwdfrequestcompletionparams_getcompletionstatus, GetCompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,16 +69,21 @@ HRESULT GetCompletionStatus();
 
 
 
+
 ## -returns
+
 
 
 <b>GetCompletionStatus</b> returns S_OK for a successful completion status. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+
+
 
  
 

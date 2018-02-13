@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTWaitForIdle function [Display Devices], d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle, OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, D3DKMTWaitForIdle
+ms.keywords: D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, D3DKMTWaitForIdle, display.d3dkmtwaitforidle, d3dkmthk/D3DKMTWaitForIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_W
 ## -returns
 
 
+
 <b>D3DKMTWaitForIdle</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,15 +115,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a>
+
+
 
  
 

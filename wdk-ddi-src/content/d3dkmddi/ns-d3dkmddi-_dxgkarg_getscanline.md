@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*INOUT_PDXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, DXGKARG_GETSCANLINE structure [Display Devices], _DXGKARG_GETSCANLINE, display.dxgkarg_getscanline, DXGKARG_GETSCANLINE"
+ms.keywords: DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, display.dxgkarg_getscanline, DXGKARG_GETSCANLINE structure [Display Devices], DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, _DXGKARG_GETSCANLINE, *INOUT_PDXGKARG_GETSCANLINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,17 @@ typedef struct _DXGKARG_GETSCANLINE {
 ## -remarks
 
 
+
 A video present path represents a connection between a video present source (view) and a video present target (output) on a display adapter. For more information about video present networks, paths, sources, and targets, see <a href="https://msdn.microsoft.com/62a92f00-b1da-41c2-99af-eef8140b064e">Introduction to Video Present Networks</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a>
+
+
 
  
 

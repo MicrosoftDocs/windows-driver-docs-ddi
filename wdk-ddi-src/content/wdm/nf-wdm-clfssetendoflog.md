@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7e3b2eed-2de6-4459-a125-a27d9db69c93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsSetEndOfLog routine [Kernel-Mode Driver Architecture], wdm/ClfsSetEndOfLog, Clfs_408fe60c-e1bb-4d39-92ab-703eefe78c5c.xml, ClfsSetEndOfLog, kernel.clfssetendoflog
+ms.keywords: ClfsSetEndOfLog, wdm/ClfsSetEndOfLog, Clfs_408fe60c-e1bb-4d39-92ab-703eefe78c5c.xml, ClfsSetEndOfLog routine [Kernel-Mode Driver Architecture], kernel.clfssetendoflog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 ## -returns
 
 
+
 <b>ClfsSetEndOfLog</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The LSN supplied in the <i>plsnEnd</i> value is not validated. It is the responsibility of the caller to provide a valid LSN; that is, one that is the exact LSN of a record in the stream.
@@ -100,19 +103,32 @@ The kernel-mode routine <b>ClfsSetEndOfLog</b> is reserved for future use and cu
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog</a>
+<a href="..\wdm\nf-wdm-clfssetarchivetail.md">ClfsSetArchiveTail </a>
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
 
 <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
 
-<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
 
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
-<a href="..\wdm\nf-wdm-clfssetarchivetail.md">ClfsSetArchiveTail </a>
+
+
+<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog</a>
+
+
 
  
 

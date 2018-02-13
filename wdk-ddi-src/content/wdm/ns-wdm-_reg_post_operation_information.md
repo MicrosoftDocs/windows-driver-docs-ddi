@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2266e816-2060-4071-bf9f-319daefbfc50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/REG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, wdm/PREG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_post_operation_information, _REG_POST_OPERATION_INFORMATION, kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml, REG_POST_OPERATION_INFORMATION, *PREG_POST_OPERATION_INFORMATION
+ms.keywords: REG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_post_operation_information, wdm/REG_POST_OPERATION_INFORMATION, *PREG_POST_OPERATION_INFORMATION, _REG_POST_OPERATION_INFORMATION, wdm/PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,9 +112,11 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 
+
 For more information about handling post-notifications, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546907">Handling Notifications</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
+
 
 
 
@@ -122,9 +124,15 @@ For more information about registry filtering operations, see <a href="https://m
 
 <a href="..\wdm\ns-wdm-_reg_query_value_key_information.md">REG_QUERY_VALUE_KEY_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 

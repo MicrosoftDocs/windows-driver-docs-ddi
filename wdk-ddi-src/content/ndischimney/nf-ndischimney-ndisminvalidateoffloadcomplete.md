@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd14e983-ea4b-41f2-973d-88b114306e75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], NdisMInvalidateOffloadComplete, netvista.ndisminvalidateoffloadcomplete, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml, ndischimney/NdisMInvalidateOffloadComplete
+ms.keywords: NdisMInvalidateOffloadComplete, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml, netvista.ndisminvalidateoffloadcomplete, NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInvalidateOffloadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,17 +94,21 @@ A pointer to an
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Before calling the 
     <b>NdisMInvalidateOffloadComplete</b> function, the offload target must write either of the following
     NDIS_STATUS values to the 
     <b>Status</b> member of each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree:
+
 <ul>
 <li>
 NDIS_STATUS_SUCCESS
@@ -124,14 +128,21 @@ The invalidate operation did not succeed. In this case, the offload target has s
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
 
  
 

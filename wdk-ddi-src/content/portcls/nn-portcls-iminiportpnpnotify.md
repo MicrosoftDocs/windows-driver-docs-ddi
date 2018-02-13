@@ -7,7 +7,7 @@ old-location: audio\iminiportpnpnotify.htm
 old-project: audio
 ms.assetid: 634ADB7C-85B6-4C37-81A0-4A4891D0BBC4
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iminiportpnpnotify, IMiniportPnpNotify interface [Audio Devices], IMiniportPnpNotify interface [Audio Devices], described, IMiniportPnpNotify, portcls/IMiniportPnpNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 52b2b97e-217b-445b-9c7a-093808f37aba
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSPEED_MAP, IEEE.speed_map, _SPEED_MAP, SPEED_MAP, PSPEED_MAP structure pointer [Buses], SPEED_MAP structure [Buses], PSPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, 1394/SPEED_MAP, 1394/PSPEED_MAP"
+ms.keywords: PSPEED_MAP structure pointer [Buses], SPEED_MAP structure [Buses], 1394/PSPEED_MAP, PSPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, IEEE.speed_map, _SPEED_MAP, *PSPEED_MAP, SPEED_MAP, 1394/SPEED_MAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,13 +99,17 @@ SCODE_400_RATE
 ## -remarks
 
 
+
 The SPEED_MAP structure describes the maximum speed that devices on the bus can attain. All values in this structure are recorded in big-endian format.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
+
+
 
  
 

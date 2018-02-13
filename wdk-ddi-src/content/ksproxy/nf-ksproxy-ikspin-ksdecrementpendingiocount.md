@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92e0355c-b89f-46c2-b406-e3c73fc37000
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDecrementPendingIoCount method [Streaming Media Devices], ksproxy_4b423ae2-1256-4ccc-9c8d-4bd6cdb99e42.xml, IKsPin::KsDecrementPendingIoCount, KsDecrementPendingIoCount, stream.ikspin_ksdecrementpendingiocount, IKsPin interface [Streaming Media Devices], KsDecrementPendingIoCount method, IKsPin, KsDecrementPendingIoCount method [Streaming Media Devices], IKsPin interface, ksproxy/IKsPin::KsDecrementPendingIoCount
+ms.keywords: ksproxy_4b423ae2-1256-4ccc-9c8d-4bd6cdb99e42.xml, KsDecrementPendingIoCount, IKsPin::KsDecrementPendingIoCount, IKsPin interface [Streaming Media Devices], KsDecrementPendingIoCount method, ksproxy/IKsPin::KsDecrementPendingIoCount, IKsPin, KsDecrementPendingIoCount method [Streaming Media Devices], IKsPin interface, KsDecrementPendingIoCount method [Streaming Media Devices], stream.ikspin_ksdecrementpendingiocount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -66,17 +66,22 @@ LONG KsDecrementPendingIoCount();
 
 
 
+
 ## -returns
+
 
 
 Returns an integer from 0 to <i>n</i>, the value that represents the new number of I/O operations that are in progress.
 
 
 
+
 ## -remarks
 
 
+
 The <b>KsDecrementPendingIoCount</b> method is typically called from within an interface handler as described in the following sequence:
+
 <ol>
 <li>
 The proxy creates an instance of an interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) to handle a particular media type. 
@@ -97,17 +102,28 @@ The client calls the <a href="https://msdn.microsoft.com/library/windows/hardwar
 </ol>
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560712">IKsPin::KsIncrementPendingIoCount</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559872">IKsInterfaceHandler::KsSetPin</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+
+
+
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint2::SetFlags, SetFlags, SetFlags method [Windows Debugging], dbgeng/IDebugBreakpoint::SetFlags, IDebugBreakpoint2::SetFlags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, debugger.setflags, IDebugBreakpoint2, IDebugBreakpoint::SetFlags, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, IDebugBreakpoint interface [Windows Debugging], SetFlags method
+ms.keywords: dbgeng/IDebugBreakpoint::SetFlags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint::SetFlags, SetFlags method [Windows Debugging], IDebugBreakpoint interface, SetFlags method [Windows Debugging], debugger.setflags, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, IDebugBreakpoint2, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::SetFlags, IDebugBreakpoint2::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,6 +76,7 @@ The new flags for the breakpoint.  <i>Flags</i> is a bit field. It replaces the 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,15 +93,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

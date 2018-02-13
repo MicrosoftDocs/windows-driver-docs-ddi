@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1BE17A0-39F1-496A-AD53-46A3F136D793
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], ntdddisk/REASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], PREASSIGN_BLOCKS_EX, storage.reassign_blocks_ex, ntdddisk/PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX"
+ms.keywords: PREASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX, _REASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], storage.reassign_blocks_ex, *PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ Contains an array of block numbers corresponding to damaged blocks. These number
 ## -see-also
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_reassign_blocks_ex.md">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
+
+
 
  
 

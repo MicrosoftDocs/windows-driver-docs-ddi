@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0ab18ea-4447-4eee-bdf3-d251d4d4952f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, GetFrameOffset2 method [Windows Debugging], debugger.getframeoffset2, GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetFrameOffset2, GetFrameOffset2, IDebugRegisters2, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, IDebugRegisters2::GetFrameOffset2
+ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetFrameOffset2 method, IDebugRegisters_9b3855a5-d5e4-4485-81f3-1584b707f73a.xml, GetFrameOffset2, IDebugRegisters2, GetFrameOffset2 method [Windows Debugging], GetFrameOffset2 method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetFrameOffset2, debugger.getframeoffset2, IDebugRegisters2::GetFrameOffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,6 +73,7 @@ HRESULT GetFrameOffset2(
 Specifies the register source to query.
 
 The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,7 +114,8 @@ Fetch register information from the current scope's register context.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Offset [out]
@@ -124,7 +126,9 @@ The location in the process's virtual address space of the stack frame for the c
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,11 +145,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The meaning of the value that is returned by this method is architecture-specific.
@@ -156,11 +163,16 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546806">GetFrameOffset</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
 
  
 

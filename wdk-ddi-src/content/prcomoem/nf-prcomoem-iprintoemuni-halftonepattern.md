@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: HalftonePattern, IPrintOemUni interface [Print Devices], HalftonePattern method, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices], IPrintOemUni interface, IPrintOemUni, IPrintOemUni::HalftonePattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern
+ms.keywords: prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, IPrintOemUni, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, IPrintOemUni interface [Print Devices], HalftonePattern method, HalftonePattern, HalftonePattern method [Print Devices], IPrintOemUni interface, IPrintOemUni::HalftonePattern, HalftonePattern method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.HalftonePattern
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -120,7 +120,9 @@ Caller-supplied size of the halftone pattern contained in the buffer pointed to 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -159,11 +161,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemUni::HalftonePattern</code> method is used to create or modify a halftone pattern before Unidrv passes it to GDI. Its purpose is to allow proprietary halftone patterns to be either stored as encrypted resources or generated at run time.
@@ -177,6 +182,7 @@ You can also use the <code>IPrintOemUni::HalftonePattern</code> method to genera
 If the <code>IPrintOemUni::HalftonePattern</code> method returns one pattern, it is used for all colors. If the method returns three patterns, they must be specified in RGB order.
 
 The following example shows an implementation of a rendering plug-in's <code>HalftonePattern</code> method. The method calculates the length in bytes of the HTPattern_DDK pattern array, and then copies the bytes in the pattern array to the buffer pointed to by this method's <i>pHTPattern</i> parameter. The pattern array can contain either one or three patterns, depending on whether the pattern is used for all colors or has separate red, green, and blue patterns. For the sake of brevity, not all elements of the pattern array are listed. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -214,7 +220,8 @@ return S_OK;
 }</pre>
 </td>
 </tr>
-</table></span></div>An implementation of a <code>HalftonePattern</code> method in the rendering plug-in must be accompanied by a Halftone feature in the GPD file. The following GPD example shows a Halftone feature whose HT_PAT_DDK_16x16 option describes the customized pattern generated in the previous sample. 
+</table></span></div>
+An implementation of a <code>HalftonePattern</code> method in the rendering plug-in must be accompanied by a Halftone feature in the GPD file. The following GPD example shows a Halftone feature whose HT_PAT_DDK_16x16 option describes the customized pattern generated in the previous sample. 
 
 *Feature: Halftone
 
@@ -280,9 +287,12 @@ For more information about halftoning, see <a href="https://msdn.microsoft.com/c
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
+
 
  
 

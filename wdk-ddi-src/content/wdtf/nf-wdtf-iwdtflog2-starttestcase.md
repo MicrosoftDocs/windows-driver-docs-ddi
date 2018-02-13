@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d72bff68-d1c0-4ce4-bc2d-abe350036eec
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFLOG2, wdtf/IWDTFLOG2::StartTestCase, StartTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, Microsoft::WDTF::IWDTFLOG2::StartTestCase, IWDTFLOG2::StartTestCase, StartTestCase, dtf.iwdtflog2_starttestcase, StartTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], StartTestCase method, Microsoft.WDTF.IWDTFLOG2.StartTestCase
+ms.keywords: StartTestCase, wdtf/IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, StartTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, dtf.iwdtflog2_starttestcase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], StartTestCase method, IWDTFLOG2::StartTestCase, IWDTFLOG2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The test case name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtflog2.md">IWDTFLOG2</a>
+
+
 
  
 

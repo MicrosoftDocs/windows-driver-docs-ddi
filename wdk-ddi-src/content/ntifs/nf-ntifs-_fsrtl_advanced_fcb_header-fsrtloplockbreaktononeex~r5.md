@@ -7,8 +7,8 @@ old-location: ifsk\fsrtloplockbreaktononeex.htm
 old-project: ifsk
 ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], ntifs/FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx
+ms.date: 2/7/2018
+ms.keywords: fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], ntifs/FsRtlOplockBreakToNoneEx, ifsk.fsrtloplockbreaktononeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,6 +89,7 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 
 
 
+
 #### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
 
 Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. Typically, this flag is only used if the IRP that the <i>Irp</i> parameter points to declares an IRP_MJ_CREATE operation. 
@@ -104,6 +105,7 @@ A pointer to caller-defined context information to be passed to the callback rou
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -117,7 +119,9 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>This routine has the following parameters: 
+</table></span></div>
+This routine has the following parameters: 
+
 
 
 
@@ -125,6 +129,7 @@ This routine is declared as follows:
 #### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakToNoneEx</b>. 
+
 
 
 #### Irp
@@ -137,6 +142,7 @@ A pointer to the IRP for the I/O operation.
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -153,9 +159,12 @@ This routine is declared as follows:
 </table></span></div>
 
 
+
+
 #### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakToNoneEx</b>. 
+
 
 
 #### Irp
@@ -166,7 +175,9 @@ A pointer to the IRP for the I/O operation.
 ## -returns
 
 
+
 <b>FsRtlOplockBreakToNoneEx</b> returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -205,11 +216,14 @@ An opportunistic lock break (oplock) is underway. STATUS_OPLOCK_BREAK_IN_PROGRES
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
@@ -218,15 +232,20 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreaktononee
 
 
 
+
 ## -see-also
 
 <a href="..\fltkernel\nf-fltkernel-fltoplockbreaktononeex.md">FltOplockBreakToNoneEx</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlOplockBreakToNoneEx routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlOplockBreakToNoneEx routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

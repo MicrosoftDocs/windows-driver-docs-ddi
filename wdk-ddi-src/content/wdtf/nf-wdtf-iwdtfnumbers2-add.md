@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 162f8fce-c944-4ed2-82f1-332e986b9f77
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Add, dtf.iwdtfnumbers2_add, IWDTFNumbers2 interface [Windows Device Testing Framework], Add method, Add method [Windows Device Testing Framework], IWDTFNumbers2 interface, IWDTFNumbers2, Add method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFNumbers2.Add, IWDTFNumbers2::Add, Microsoft::WDTF::IWDTFNumbers2::Add, wdtf/IWDTFNumbers2::Add
+ms.keywords: dtf.iwdtfnumbers2_add, Add method [Windows Device Testing Framework], IWDTFNumbers2 interface, Add method [Windows Device Testing Framework], Add, IWDTFNumbers2 interface [Windows Device Testing Framework], Add method, Microsoft.WDTF.IWDTFNumbers2.Add, IWDTFNumbers2, Microsoft::WDTF::IWDTFNumbers2::Add, wdtf/IWDTFNumbers2::Add, IWDTFNumbers2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The number to add to this collection.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfnumbers2.md">IWDTFNumbers2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatRequestForSetInformation, IWDFIoTarget2::FormatRequestForSetInformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, IWDFIoTarget2 interface, FormatRequestForSetInformation method, wdf.iwdfiotarget2_formatrequestforsetinformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, IWDFIoTarget2, umdf.iwdfiotarget2_formatrequestforsetinformation, FormatRequestForSetInformation method
+ms.keywords: FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, wdf.iwdfiotarget2_formatrequestforsetinformation, IWDFIoTarget2, IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation method, umdf.iwdfiotarget2_formatrequestforsetinformation, IWDFIoTarget2 interface, FormatRequestForSetInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 
 ### -param InformationClass [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
+A <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
 
 
 ### -param pFile [in, optional]
@@ -102,7 +102,9 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 ## -returns
 
 
+
 <b>FormatRequestForSetInformation</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,16 +121,104 @@ The framework was unable to allocate memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
+
 
 
 
 ## -remarks
 
 
+
 Use the <b>FormatRequestForSetInformation</b> method, followed by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a> method, to send requests either synchronously or asynchronously to an <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">I/O target</a>. 
+
+
+#### Examples
+
+The following code example is part of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. If the callback function receives a set information request, it sends the request to the device's default I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void
+CMyQueue::OnDefaultIoHandler(
+ IWDFIoQueue*  pQueue,
+ IWDFIoRequest*  pRequest
+    )
+{
+    HRESULT hr;
+    IWDFDevice *pDevice;
+    IWDFIoTarget *pTarget;
+    IWDFFile *pFile;
+    IWDFMemory *pInMemory;
+    WDF_FILE_INFORMATION_CLASS infoClass;
+
+    //
+    // Obtain the device, default I/O target, and file object.
+    //
+    pQueue-&gt;GetDevice(&amp;pDevice);
+    pDevice-&gt;GetDefaultIoTarget(&amp;pTarget);
+    pRequest-&gt;GetFileObject(&amp;pFile);
+
+    if (WdfRequestQueryInformation==pRequest-&gt;GetType())
+    {
+        //
+        // Declare an IWDFIoRequest2 interface pointer and obtain the
+        // IWDFIoRequest2 interface from the IWDFIoRequest interface.
+        //
+        CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pRequest;
+
+        // 
+        // Declare an IWDFIoTarget2 interface pointer and obtain the
+        // IWDFIoTarget2 interface from the IWDFIoTarget interface.
+        //
+        CComQIPtr&lt;IWDFIoTarget2&gt; target2(pTarget);
+
+        // 
+        // Get the I/O request's input buffer.
+        // 
+        hr = pWdfRequest2-&gt;RetrieveInputMemory(&amp;pInMemory);
+        if (!SUCCEEDED(hr)) goto Error;
+
+        // 
+        // Get the I/O request's parameters.
+        // 
+        hr = pWdfRequest2-&gt;GetSetInformationParameters(&amp;infoClass,
+                                                       NULL);
+        if (!SUCCEEDED(hr)) goto Error;
+
+        //
+        // Format a query information request and send it to the I/O target.
+        //
+        hr = target2-&gt;FormatRequestForSetInformation(pRequest,
+                                                     infoClass,
+                                                     pFile,
+                                                     pInMemory,
+                                                     NULL);
+        if (!SUCCEEDED(hr)) goto Error;
+        hr = pRequest-&gt;Send(pTarget,
+                            WDF_REQUEST_SEND_OPTION_SYNCHRONOUS,
+                            0);
+    }
+...
+Error;
+    //
+    // Release objects.
+    //
+    SAFE_RELEASE(pDevice);
+    SAFE_RELEASE(pTarget);
+    SAFE_RELEASE(pFile);
+    SAFE_RELEASE(pOutMemory);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -136,7 +226,11 @@ Use the <b>FormatRequestForSetInformation</b> method, followed by the <a href="h
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559184">IWDFIoTarget2::FormatRequestForQueryInformation</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
+
+
 
  
 

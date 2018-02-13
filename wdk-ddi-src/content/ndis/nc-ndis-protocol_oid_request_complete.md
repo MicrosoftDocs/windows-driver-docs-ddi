@@ -40,7 +40,7 @@ apiname:
 -	ProtocolOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_OID_REQUEST_COMPLETE callback
@@ -103,15 +103,19 @@ The final status of the request. The underlying driver or NDIS determines this f
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <i>ProtocolOidRequestComplete</i> uses the input value of 
     <i>Status</i> as follows:
+
 <ul>
 <li>
 If 
@@ -168,7 +172,8 @@ If
       binding-specific state information to handle continued network I/O operations on the binding.
 
 </li>
-</ul>For global queries and sets, the underlying connectionless miniport driver's call to the 
+</ul>
+For global queries and sets, the underlying connectionless miniport driver's call to the 
     <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a> function
     causes NDIS to call the 
     <i>ProtocolOidRequestComplete</i> function. NDIS forwards the miniport
@@ -195,9 +200,12 @@ For more information about system-defined OIDs, see
 
 NDIS calls 
     <i>ProtocolOidRequestComplete</i> at IRQL &lt;= DISPATCH_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolOidRequestComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolOidRequestComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolOidRequestComplete</i> function that is named "MyOidRequestComplete", use the <b>PROTOCOL_OID_REQUEST_COMPLETE</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -207,7 +215,9 @@ For example, to define a <i>ProtocolOidRequestComplete</i> function that is name
 <pre>PROTOCOL_OID_REQUEST_COMPLETE MyOidRequestComplete;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -224,23 +234,35 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd7a194a-6ce4-4889-b574-7c4f232f45f0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PTAPE_GET_POSITION structure pointer [Storage Devices], _TAPE_GET_POSITION, TAPE_GET_POSITION, TAPE_GET_POSITION structure [Storage Devices], structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml, ntddtape/TAPE_GET_POSITION, ntddtape/PTAPE_GET_POSITION, PTAPE_GET_POSITION, *PTAPE_GET_POSITION, storage.tape_get_position
+ms.keywords: TAPE_GET_POSITION, _TAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Storage Devices], storage.tape_get_position, TAPE_GET_POSITION structure [Storage Devices], structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml, *PTAPE_GET_POSITION, ntddtape/PTAPE_GET_POSITION, PTAPE_GET_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TAPE_GET_POSITION
 product: Windows
 targetos: Windows
-req.typenames: TAPE_GET_POSITION, *PTAPE_GET_POSITION
+req.typenames: "*PTAPE_GET_POSITION, TAPE_GET_POSITION"
 ---
 
 # _TAPE_GET_POSITION structure
@@ -87,6 +87,8 @@ Indicates the number of bytes from the beginning of the partition to the current
 ## -see-also
 
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_position.md">IOCTL_TAPE_GET_POSITION</a>
+
+
 
  
 

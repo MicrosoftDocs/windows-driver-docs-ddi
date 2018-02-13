@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCreateEx function [Windows Debugging], debugger.debugcreateex, DebugCreateEx, dbgeng/DebugCreateEx
+ms.keywords: dbgeng/DebugCreateEx, debugger.debugcreateex, DebugCreateEx, DebugCreateEx function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Receives an interface pointer for the new client.  The type of this interface is
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,11 +117,14 @@ The client object doesn't implement the specified interface.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The parameters passed to <b>DebugCreateEx</b> are the same as those passed to <b>IUnknown::QueryInterface</b>, and they are treated the same way.
@@ -128,11 +133,16 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
 
  
 

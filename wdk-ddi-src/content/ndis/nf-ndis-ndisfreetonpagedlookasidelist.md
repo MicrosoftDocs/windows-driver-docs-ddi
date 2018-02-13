@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], NdisFreeToNPagedLookasideList, ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
+ms.keywords: netvista.ndisfreetonpagedlookasidelist, ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisFreeToNPagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeToNPagedLookasideList macro
@@ -81,6 +81,8 @@ TBD
 
 
 
+
+
 #### - Lookaside [in]
 
 A pointer to the head of the lookaside list to which the entry will be returned.
@@ -94,6 +96,7 @@ A pointer to the entry to be freed.
 ## -remarks
 
 
+
 If the lookaside list has not reached the system-determined maximum number of entries, 
     <i>Entry</i> is inserted at the front of the lookaside list. If the list has reached its maximum size, 
     <i>Entry</i> is released to nonpaged pool. That is, 
@@ -105,16 +108,23 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
    NdisAllocateFromNPagedLookasideList</a>
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
-   NdisInitializeNPagedLookasideList</a>
+
 
 <a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
    NdisDeleteNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+   NdisInitializeNPagedLookasideList</a>
+
+
 
  
 

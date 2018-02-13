@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 02de3382-031a-4d42-b349-786248da9c5c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml, storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, _STORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier
+ms.keywords: PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier, storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], _STORAGE_DEVICE_UNIQUE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DEVICE_UNIQUE_IDENTIFIER
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -101,7 +101,11 @@ The offset, in bytes, to the drive layout signature (<a href="..\storduid\ns-sto
 
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
+
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
+
 
  
 

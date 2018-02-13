@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 597b081f-d2ff-4e20-b352-2082f1ef4d45
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATAFORMAT_VBIINFOHEADER, stream.ks_dataformat_vbiinfoheader, PKS_DATAFORMAT_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/PKS_DATAFORMAT_VBIINFOHEADER, PKS_DATAFORMAT_VBIINFOHEADER, *PKS_DATAFORMAT_VBIINFOHEADER, vidcapstruct_67cdb187-7d2b-464b-a871-6b2f18a9839f.xml, KS_DATAFORMAT_VBIINFOHEADER structure [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER
+ms.keywords: stream.ks_dataformat_vbiinfoheader, *PKS_DATAFORMAT_VBIINFOHEADER, PKS_DATAFORMAT_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/PKS_DATAFORMAT_VBIINFOHEADER, tagKS_DATAFORMAT_VBIINFOHEADER, vidcapstruct_67cdb187-7d2b-464b-a871-6b2f18a9839f.xml, KS_DATAFORMAT_VBIINFOHEADER structure [Streaming Media Devices], PKS_DATAFORMAT_VBIINFOHEADER, ksmedia/KS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATAFORMAT_VBIINFOHEADER
 product: Windows
 targetos: Windows
-req.typenames: KS_DATAFORMAT_VBIINFOHEADER, *PKS_DATAFORMAT_VBIINFOHEADER
+req.typenames: "*PKS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER"
 ---
 
 # tagKS_DATAFORMAT_VBIINFOHEADER structure
@@ -81,15 +81,21 @@ Describes VBI-specific information about the proposed connection.
 ## -remarks
 
 
+
 This structure is used when a connection to a VBI pin is being proposed.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
 
  
 

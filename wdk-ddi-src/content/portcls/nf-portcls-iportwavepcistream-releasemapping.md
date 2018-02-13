@@ -7,8 +7,8 @@ old-location: audio\iportwavepcistream_releasemapping.htm
 old-project: audio
 ms.assetid: c4464fba-cc23-47d2-87d6-82b3eba8ddbe
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ReleaseMapping method [Audio Devices], IPortWavePciStream::ReleaseMapping, audio.iportwavepcistream_releasemapping, IPortWavePciStream, ReleaseMapping method [Audio Devices], IPortWavePciStream interface, portcls/IPortWavePciStream::ReleaseMapping, ReleaseMapping, IPortWavePciStream interface [Audio Devices], ReleaseMapping method, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml
+ms.date: 2/8/2018
+ms.keywords: portcls/IPortWavePciStream::ReleaseMapping, ReleaseMapping method [Audio Devices], IPortWavePciStream interface, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, ReleaseMapping method [Audio Devices], audio.iportwavepcistream_releasemapping, IPortWavePciStream, ReleaseMapping, IPortWavePciStream interface [Audio Devices], ReleaseMapping method, IPortWavePciStream::ReleaseMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ Specifies a tag value identifying the mapping that is to be released. For more i
 ## -returns
 
 
+
 <code>ReleaseMapping</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Set the <i>Tag</i> parameter to the same tag value that you used to identify the mapping in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a> that originally obtained the mapping.
@@ -90,21 +93,32 @@ To avoid potential deadlocks, the miniport driver must avoid holding a spin lock
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
-
-<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
+
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePciStream::ReleaseMapping method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePciStream::ReleaseMapping method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

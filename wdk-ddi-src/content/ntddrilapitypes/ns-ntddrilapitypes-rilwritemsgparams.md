@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d66d63cd-ec34-4749-9ed9-38ee6d962ea5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilwritemsgparams, *LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], RILWRITEMSGPARAMS, ntddrilapitypes/RILWRITEMSGPARAMS
+ms.keywords: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], RILWRITEMSGPARAMS, ntddrilapitypes/RILWRITEMSGPARAMS, netvista.rilwritemsgparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,11 +72,8 @@ typedef struct _RILWRITEMSGPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field rmMessage
 
 
-
 ### -field dwStatus
-
 

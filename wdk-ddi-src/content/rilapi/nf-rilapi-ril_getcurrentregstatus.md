@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a605fb6-484a-442f-9bf4-673f00a64a36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], RIL_GetCurrentRegStatus, rilapi/RIL_GetCurrentRegStatus, netvista.ril_getcurrentregstatus
+ms.keywords: RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], RIL_GetCurrentRegStatus, netvista.ril_getcurrentregstatus, rilapi/RIL_GetCurrentRegStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetCurrentRegStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], debugger.outputastypewide, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method
+ms.keywords: IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], debugger.outputastypewide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,7 @@ The name of the type of the symbol that you want.  If the name begins with an ex
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -97,13 +98,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Because the children of the new entry type might differ from the children of the old entry type, the <b>OutputAsTypeWide</b> method removes all of the children of the entry from the symbol group.  You can add the children back by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a> method.
@@ -114,13 +118,20 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_reclaimallocations, D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, _D3DKMT_RECLAIMALLOCATIONS
+ms.keywords: D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], D3DKMT_RECLAIMALLOCATIONS, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, display.d3dkmt_reclaimallocations, _D3DKMT_RECLAIMALLOCATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,6 +107,8 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a>
+
+
 
  
 

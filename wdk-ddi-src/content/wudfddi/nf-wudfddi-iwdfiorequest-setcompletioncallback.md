@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest::SetCompletionCallback, IWDFIoRequest, IWDFIoRequest interface, SetCompletionCallback method, SetCompletionCallback method, IWDFIoRequest interface, SetCompletionCallback method, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback, SetCompletionCallback, wdf.iwdfiorequest_setcompletioncallback
+ms.keywords: wdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest interface, SetCompletionCallback method, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::SetCompletionCallback, umdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,26 +84,44 @@ A pointer to a buffer that contains context information that is related to the r
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If a driver that forwards an I/O request requires notification when the lower-level driver completes the request, the driver can provide a completion routine and call <b>SetCompletionCallback</b> to register the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a> interface for the completion routine. The framework calls the completion routine after the lower-level driver completes the I/O request.
+
+
+#### Examples
+
+For a code example of how to use the <b>SetCompletionCallback</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+
+
 
  
 

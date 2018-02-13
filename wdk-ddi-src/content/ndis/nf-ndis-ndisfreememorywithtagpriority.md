@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3870e2c8-22cf-4f96-8c2b-4c3cac26d50f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeMemoryWithTagPriority, netvista.ndisfreememorywithtagpriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml
+ms.keywords: netvista.ndisfreememorywithtagpriority, NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTagPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeMemoryWithTagPriority
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeMemoryWithTagPriority function
@@ -120,17 +120,21 @@ A string, delimited by single quotation marks, with up to four characters, usual
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Because noncached memory and contiguous memory are seldom released until the allocating miniport
     driver is unloading, a caller of 
     <b>NdisFreeMemoryWithTagPriority</b> usually is running at IRQL = PASSIVE_LEVEL for these types of
     de-allocations. In any case:
+
 <ul>
 <li>
 When a caller of 
@@ -153,22 +157,37 @@ When a caller of
 </ul>
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

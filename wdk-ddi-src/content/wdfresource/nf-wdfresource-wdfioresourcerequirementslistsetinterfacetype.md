@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c229eb9e-cf1f-43ea-b701-fb8fb6196b40
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, WdfIoResourceRequirementsListSetInterfaceType, wdfresource/WdfIoResourceRequirementsListSetInterfaceType, WdfIoResourceRequirementsListSetInterfaceType method, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, kmdf.wdfioresourcerequirementslistsetinterfacetype, wdf.wdfioresourcerequirementslistsetinterfacetype
+ms.keywords: WdfIoResourceRequirementsListSetInterfaceType method, PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, wdf.wdfioresourcerequirementslistsetinterfacetype, kmdf.wdfioresourcerequirementslistsetinterfacetype, WdfIoResourceRequirementsListSetInterfaceType, wdfresource/WdfIoResourceRequirementsListSetInterfaceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,16 @@ An <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>-typed value tha
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver must provide a bus type if your device does not support Plug and Play (PnP). 
@@ -99,10 +102,40 @@ Your driver must provide a bus type if your device does not support Plug and Pla
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_resource_requirements_query.md">EvtDeviceResourceRequirementsQuery</a> callback function for a nonPnP device calls <b>WdfIoResourceRequirementsListSetInterfaceType</b> to assign a bus type to a device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+Example_EvtDeviceResourceRequirementsQuery(
+    IN WDFDEVICE Device,
+    IN WDFIORESREQLIST Requirements
+    )
+{
+...
+    WdfIoResourceRequirementsListSetInterfaceType(
+                                                  Requirements,
+                                                  Isa
+                                                  );
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+
+
 
  
 

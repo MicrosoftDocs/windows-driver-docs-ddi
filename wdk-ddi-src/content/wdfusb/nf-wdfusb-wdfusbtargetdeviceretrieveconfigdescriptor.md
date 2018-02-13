@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d22384d-757a-499d-a82c-ae846a6372cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, PFN_WDFUSBTARGETDEVICERETRIEVECONFIGDESCRIPTOR, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor, kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor
+ms.keywords: kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, WdfUsbTargetDeviceRetrieveConfigDescriptor, DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor, PFN_WDFUSBTARGETDEVICERETRIEVECONFIGDESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetDeviceRetrieveConfigDescriptor
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -93,7 +93,9 @@ A pointer to a location that supplies the length of the buffer that <i>ConfigDes
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,7 +134,8 @@ The specified buffer size was too small for the data, or the caller supplied <b>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -142,12 +145,15 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> method retrieves all of the specified USB device's configuration information (that is, the configuration descriptor plus any interface or endpoint descriptors that might be present). To learn about the format of this information, see the USB specification.
 
 Drivers should call <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> twice, as follows:
+
 <ol>
 <li>
 Set the <i>ConfigDescriptor</i> pointer to <b>NULL</b>, so that <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> will return the required buffer size in the address that <i>ConfigDescriptorLength</i> points to.
@@ -161,25 +167,95 @@ Allocate buffer space to hold the configuration information. For example, a driv
 Call <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> again, passing it a pointer to the new buffer and the buffer's size.
 
 </li>
-</ol>After the second call to <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> returns, the buffer that is pointed to by <i>ConfigDescriptor</i> contains a <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> structure, followed by one or more <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> and <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structures. These latter structures are arranged in the order that is described in the USB specification.
+</ol>
+After the second call to <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> returns, the buffer that is pointed to by <i>ConfigDescriptor</i> contains a <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> structure, followed by one or more <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> and <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structures. These latter structures are arranged in the order that is described in the USB specification.
 
 For more information about the <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example calls <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> to obtain the required buffer size, calls <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a> to create a memory object and buffer, and then calls <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> again to obtain a device's configuration information.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>USHORT  size;
+NTSTATUS  ntStatus;
+PMY_DEVICE_CONTEXT  myDeviceContext;
+PUSB_CONFIGURATION_DESCRIPTOR  configurationDescriptor = NULL;
+WDF_OBJECT_ATTRIBUTES  objectAttribs;
+WDFMEMORY  memoryHandle;
+
+myDeviceContext = GetDeviceContext(Device);
+
+ntStatus = WdfUsbTargetDeviceRetrieveConfigDescriptor(
+                                            myDeviceContext-&gt;WdfUsbTargetDevice,
+                                            NULL,
+                                            &amp;size
+                                            );
+
+if (ntStatus != STATUS_BUFFER_TOO_SMALL) {
+    return ntStatus;
+}
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);
+objectAttribs.ParentObject = myDeviceContext-&gt;WdfUsbTargetDevice;
+
+ntStatus = WdfMemoryCreate(
+                           &amp;objectAttribs,
+                           NonPagedPool,
+                           POOL_TAG,
+                           size,
+                           &amp;memoryHandle,
+                           (PVOID)&amp;configurationDescriptor
+                           );
+if (!NT_SUCCESS(ntStatus)) {
+    return ntStatus;
+}
+
+ntStatus = WdfUsbTargetDeviceRetrieveConfigDescriptor(
+                                            myDeviceContext-&gt;WdfUsbTargetDevice,
+                                            configurationDescriptor,
+                                            &amp;size
+                                            );
+if (!NT_SUCCESS(ntStatus)) {
+    return ntStatus;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetdevicedescriptor.md">WdfUsbTargetDeviceGetDeviceDescriptor</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetdevicedescriptor.md">WdfUsbTargetDeviceGetDeviceDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
 
  
 

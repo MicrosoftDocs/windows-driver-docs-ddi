@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: df921271-b708-43bf-a250-048b7f638cac
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateDevice method, IWDFDriver, CreateDevice, CreateDevice method, IWDFDriver interface, IWDFDriver::CreateDevice, umdf.iwdfdriver_createdevice, wdf.iwdfdriver_createdevice, wudfddi/IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, IWDFDriver interface, CreateDevice method
+ms.keywords: umdf.iwdfdriver_createdevice, CreateDevice method, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, CreateDevice method, IWDFDriver interface, wudfddi/IWDFDriver::CreateDevice, IWDFDriver, CreateDevice, IWDFDriver interface, CreateDevice method, wdf.iwdfdriver_createdevice, IWDFDriver::CreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,14 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 <b>CreateDevice</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IUnknown</b> interface that the driver supplies for the <i>pCallbackInterface</i> parameter can support several interfaces. The framework calls the <b>QueryInterface</b> method of the supplied <b>IUnknown</b> interface multiple times to retrieve the interfaces that the driver supports. The driver's <b>QueryInterface</b> method can return the following interfaces:
@@ -154,30 +157,137 @@ If the call to <b>CreateDevice</b> is successful, the driver must eventually cal
 For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7-867c-0a9e153eb53b">Adding a Device</a>.
 
 
+#### Examples
+
+The following code example shows an implementation of the <a href="https://msdn.microsoft.com/f2953b0d-6745-4804-bcda-47c7ddfb901f">OnDeviceAdd</a> method of the <a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a> interface. The framework calls <b>OnDeviceAdd</b> when a device is added to a computer.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT 
+CDriver::OnDeviceAdd(
+ IWDFDriver* pDriver,
+ IWDFDeviceInitialize* pDeviceInit
+    )
+{
+ IUnknown   *pDeviceCallback = NULL;
+ IWDFDevice *pIWDFDevice     = NULL;
+ IUnknown   *pIUnkQueue      = NULL;    
+
+    //
+    // Create the device callback object.
+    //
+    HRESULT hr = CDevice::CreateInstance(&amp;pDeviceCallback);
+
+    //
+    // Set device properties
+    //
+    if (S_OK == hr) {
+        pDeviceInit-&gt;SetLockingConstraint(WdfDeviceLevel);
+        // To register as the power-policy owner for 
+        // the device stack, call the following:
+        // pDeviceInit-&gt;SetPowerPolicyOwnership(TRUE);
+
+        // For a filter driver, call the following:
+        // pDeviceInit-&gt;SetFilter();
+    }
+
+    //
+    // Request that the framework create a device object.
+    // The device callback object is passed to inform the 
+    // framework about the PnP callback functions the driver supports.
+    //
+    if (S_OK == hr) {
+        hr = pDriver-&gt;CreateDevice(pDeviceInit, 
+                                   pDeviceCallback,
+                                   &amp;pIWDFDevice);
+    }
+
+    //
+    // Create the queue callback object.
+    //
+
+    if (S_OK == hr) {
+        hr = CQueue::CreateInstance(&amp;pIUnkQueue);
+    }
+
+    //
+    // Configure the default queue. 
+    // The queue callback object is passed to inform the 
+    // framework about the queue callback functions the driver supports.
+    //
+    if (S_OK == hr) {
+        IWDFIoQueue * pDefaultQueue = NULL;
+        hr = pIWDFDevice-&gt;CreateIoQueue(
+                       pIUnkQueue,
+                       TRUE,                  // bDefaultQueue
+                       WdfIoQueueDispatchParallel,
+                       TRUE,                  // bPowerManaged
+                       FALSE, //bAllowZeroLengthRequests
+                       &amp;pDefaultQueue);
+        SAFE_RELEASE(pDefaultQueue);
+    }
+
+    SAFE_RELEASE(pDeviceCallback);
+    SAFE_RELEASE(pIWDFDevice);
+    SAFE_RELEASE(pIUnkQueue);    
+
+    return hr;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
+
+
 
  
 

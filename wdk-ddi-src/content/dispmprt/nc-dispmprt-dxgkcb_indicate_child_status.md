@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbIndicateChildStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_INDICATE_CHILD_STATUS callback
@@ -84,14 +84,18 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHIL
 ## -returns
 
 
+
 <b>DxgkCbIndicateChildStatus</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The display miniport driver's DPC for ISR calls <b>DxgkCbIndicateChildStatus</b> when the display adapter generates an interrupt for any of the following reasons:
+
 <ul>
 <li>
 An external device (typically a monitor) has been connected to one of the display adapter's child devices that has an HPD awareness value of <b>HpdAwarenessInterruptible</b>. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>TRUE</b>.
@@ -105,7 +109,9 @@ An external device (typically a monitor) has been disconnected from one of the d
 The display device connected to one of its on-board child devices (that has a monitor orientation awareness value of <b>D3DKMDT_MOA_INTERRUPTIBLE</b>) has been rotated. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusRotation</b> and sets<i> ChildStatus</i>.<b>Rotation</b>.<b>Angle</b> to the angle of rotation.
 
 </li>
-</ul>The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a> function calls <b>DxgkCbIndicateChildStatus</b> in the following situations:
+</ul>
+The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a> function calls <b>DxgkCbIndicateChildStatus</b> in the following situations:
+
 <ul>
 <li>
 The lid on a portable computer gets opened. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>TRUE</b>.
@@ -117,12 +123,62 @@ The lid on a portable computer gets closed. In this case, the display miniport d
 </li>
 </ul>
 
+#### Examples
+
+The following code example shows how to record the current status of a child device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR i_pEscape)
+{
+    NTSTATUS Status;
+    PVOID MonitorDescriptor = NULL;
+    DXGK_CHILD_STATUS     ChildStatus;
+    ChildStatus.ChildUid    =  pHwDeviceExtension-&gt;ulNumberDisplays | HW_ID_DISPLAY_CHILD;
+    ChildStatus.Type    = StatusConnection;
+
+    if(i_pEscape-&gt;Data == NULL) {
+        // Remove a simulated monitor
+        if(pHwDeviceExtension-&gt;pvSimulatedMonitorDescriptor != NULL) {
+            ExFreePoolWithTag(pHwDeviceExtension-&gt;pvSimulatedMonitorDescriptor, ATI_TAG);
+            pHwDeviceExtension-&gt;pvSimulatedMonitorDescriptor = NULL;
+            pHwDeviceExtension-&gt;ulSimulatedMonitorDescriptorLength = 0;
+           pHwDeviceExtension-&gt;ulRetryCount = 0;
+           pHwDeviceExtension-&gt;bReportDescriptor = FALSE;
+
+            ChildStatus.HotPlug.Connected = FALSE;
+            Status = DxgkCbIndicateChildStatus(pHwDeviceExtension-&gt;DeviceHandle, &amp;ChildStatus);
+        }
+        else {
+            // No simulated monitor is present so the request to remove one is invalid
+            return STATUS_INVALID_PARAMETER;
+        }
+    }
+    else {
+        //Add a simulated monitor
+    }
+    return Status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
 
  
 

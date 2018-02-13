@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], display.dxgk_buildpagingbuffer_updatecontextallocation
+ms.keywords: display.dxgk_buildpagingbuffer_updatecontextallocation, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,11 @@ The size of the driver-private data.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+
 
  
 

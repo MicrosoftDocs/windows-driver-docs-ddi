@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2f8eb011-1fe1-40f6-b833-50d3e853bffd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet::KsSetPhysicalTime, KsSetPhysicalTime method [Streaming Media Devices], KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsSetPhysicalTime, IKsClockPropertySet, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, stream.iksclockpropertyset_kssetphysicaltime
+ms.keywords: ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, IKsClockPropertySet, KsSetPhysicalTime, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, IKsClockPropertySet::KsSetPhysicalTime, stream.iksclockpropertyset_kssetphysicaltime, KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, KsSetPhysicalTime method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ Physical time to which to set the underlying clock.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The physical time is based on some underlying physical clock that always progresses, even if the physical type of clock must be changed on the fly. Other physical clocks use an underlying clock's physical time for rate matching.
@@ -88,11 +91,16 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559742">IKsClockPropertySet::KsGetPhysicalTime</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
+
 
  
 

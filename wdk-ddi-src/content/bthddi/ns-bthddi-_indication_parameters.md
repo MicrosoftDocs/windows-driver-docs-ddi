@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: INDICATION_PARAMETERS, _INDICATION_PARAMETERS, bthddi/INDICATION_PARAMETERS, PINDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, *PINDICATION_PARAMETERS, INDICATION_PARAMETERS structure [Bluetooth Devices], PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], bltooth.indication_parameters, bthddi/PINDICATION_PARAMETERS
+ms.keywords: INDICATION_PARAMETERS structure [Bluetooth Devices], *PINDICATION_PARAMETERS, _INDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS, PINDICATION_PARAMETERS, bltooth.indication_parameters, INDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INDICATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: INDICATION_PARAMETERS, *PINDICATION_PARAMETERS
+req.typenames: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS"
 ---
 
 # _INDICATION_PARAMETERS structure
@@ -104,8 +104,18 @@ typedef struct _INDICATION_PARAMETERS {
 
 
 
-### -field Parameters
+### -field ConnectionHandle
 
+The L2CAP connection handle to the remote device. This handle is only valid for notifications that
+     arrive over an established L2CAP connection.
+
+
+### -field BtAddress
+
+The Bluetooth address of the remote device.
+
+
+### -field Parameters
 
 
 ### -field Parameters.Connect
@@ -160,6 +170,7 @@ A CHANNEL_CONFIG_PARAMETERS structure that contains the parameters that the prof
 A flag that indicates the status of the configuration request. Valid flag values are listed in
        the following table.
        
+
 <table>
 <tr>
 <th>Flag</th>
@@ -217,7 +228,8 @@ The configuration request failed because one of the specified configuration opti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Parameters.ConfigResponse
@@ -271,6 +283,7 @@ A CHANNEL_CONFIG_PARAMETERS structure that contains the parameter settings for t
 A flag that indicates the status of the configuration request. Valid flag values are listed in
        the following table.
        
+
 <table>
 <tr>
 <th>Flag</th>
@@ -328,7 +341,8 @@ The configuration request failed because one of the specified configuration opti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Parameters.FreeExtraOptions
@@ -386,18 +400,8 @@ The size, in bytes, of the packet that the callback function sent over the L2CAP
 The number of packets to be processed over the L2CAP connection.
 
 
-### -field ConnectionHandle
-
-The L2CAP connection handle to the remote device. This handle is only valid for notifications that
-     arrive over an established L2CAP connection.
-
-
-### -field BtAddress
-
-The Bluetooth address of the remote device.
-
-
 ## -remarks
+
 
 
 A profile driver's 
@@ -438,17 +442,28 @@ When the Bluetooth driver stack passes
 
 
 
+
 ## -see-also
-
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
-
-<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
-
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
 
 <a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a>
 
+
+
 <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
+
+
+
+<a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
+
 
  
 

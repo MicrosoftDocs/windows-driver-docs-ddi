@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsReferenceSiloContext, PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreferencesilocontext
+ms.keywords: ntddk/PsReferenceSiloContext, kernel.psreferencesilocontext, PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsReferenceSiloContext
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsReferenceSiloContext function
@@ -75,13 +75,17 @@ A pointer to the object created by the <a href="..\ntddk\nf-ntddk-pscreatesiloco
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIfRegisterInterface, netvista.ndisifregisterinterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml
+ms.keywords: net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], NdisIfRegisterInterface, ndis/NdisIfRegisterInterface, netvista.ndisifregisterinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIfRegisterInterface
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIfRegisterInterface function
@@ -113,6 +113,7 @@ TBD
 
 
 
+
 #### - pIfIndex [out]
 
 A pointer to a caller-supplied interface index variable. If NDIS successfully registers an
@@ -126,7 +127,9 @@ A pointer to a caller-supplied interface index variable. If NDIS successfully re
 ## -returns
 
 
+
 <b>NdisIfRegisterInterface</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -178,11 +181,14 @@ The operation failed because of insufficient resources.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS interface providers call the 
@@ -226,19 +232,32 @@ To indicate that an interface should be removed from the list of known interface
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
-
-<a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
-
-<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_if_information.md">NET_IF_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+
+
 
  
 

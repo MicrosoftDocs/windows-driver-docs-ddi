@@ -85,14 +85,18 @@ The driver returns the results of the vendor-specific command to the buffer at <
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 ## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_command.md">STORAGE_PROTOCOL_COMMAND</a>
+
+
 
  
 

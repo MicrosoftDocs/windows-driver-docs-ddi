@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 157cb12c-1b2d-45b5-8541-e16ee3449064
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetMediaTypeCount, ksproxy_77c6249c-2b35-4d9e-afff-b01cf5518a73.xml, KsGetMediaTypeCount function [Streaming Media Devices], stream.ksgetmediatypecount, ksproxy/KsGetMediaTypeCount
+ms.keywords: KsGetMediaTypeCount, ksproxy/KsGetMediaTypeCount, KsGetMediaTypeCount function [Streaming Media Devices], ksproxy_77c6249c-2b35-4d9e-afff-b01cf5518a73.xml, stream.ksgetmediatypecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,14 +88,18 @@ Pointer to a variable to receive the number of media types.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 The number of available media types that <b>KsGetMediaTypeCount</b> returns is equal to the number of available data ranges. 
+
 
 
 
@@ -103,7 +107,11 @@ The number of available media types that <b>KsGetMediaTypeCount</b> returns is e
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
+
+
 <a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+
+
 
  
 

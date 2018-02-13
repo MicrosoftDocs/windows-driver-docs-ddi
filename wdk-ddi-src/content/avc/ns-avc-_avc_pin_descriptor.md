@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR, stream.avc_pin_descriptor, avc/AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], avc/PAVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR
+ms.keywords: stream.avc_pin_descriptor, PAVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], avc/PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,7 @@ An optional output parameter specifying a value to be passed to the <b>Intersect
 ## -remarks
 
 
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -100,6 +101,7 @@ This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. 
 See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">How to Use Avc.sys</a> For information about building and sending an AV/C command.
 
 A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AVC_PIN_DESCRIPTOR follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -127,7 +129,10 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 } KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR;</pre>
 </td>
 </tr>
-</table></span></div><h3><a id="Members"></a><a id="members"></a><a id="MEMBERS"></a>Members</h3>
+</table></span></div>
+<h3><a id="Members"></a><a id="members"></a><a id="MEMBERS"></a>Members</h3>
+
+
 
 
 
@@ -135,9 +140,15 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
+
+
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
+
+
 <a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
+
+
 
  
 

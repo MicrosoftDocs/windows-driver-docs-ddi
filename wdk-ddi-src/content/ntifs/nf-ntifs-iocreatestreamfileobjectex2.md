@@ -7,8 +7,8 @@ old-location: ifsk\iocreatestreamfileobjectex2.htm
 old-project: ifsk
 ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.iocreatestreamfileobjectex2, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx2
+ms.date: 2/7/2018
+ms.keywords: ntifs/IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx2, IoCreateStreamFileObjectEx, ifsk.iocreatestreamfileobjectex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,6 +74,7 @@ PFILE_OBJECT IoCreateStreamFileObjectEx(
 ### -param CreateOptions [in]
 
 Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create options for the new stream file object.  <b>IO_CREATE_STREAM_FILE_OPTIONS</b> is defined in <i>ntifs.h</i> as the following.
+
 <pre class="syntax" xml:space="preserve"><code>typedef struct _IO_CREATE_STREAM_FILE_OPTIONS {
     USHORT Size;
     USHORT Flags;
@@ -82,14 +83,18 @@ Pointer a <b>IO_CREATE_STREAM_FILE_OPTIONS</b> structure containing the create o
 </code></pre>
 
 
+
+
 #### Size
 
 Size of the stream options structure. Set to <b>sizeof</b>(IO_CREATE_STREAM_FILE_OPTIONS).
 
 
+
 #### Flags
 
 The flags for the stream file create options. This value can be one of the following.
+
 
 
 <table>
@@ -118,7 +123,9 @@ A file object is created with out a file handle. No close operation is sent for 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 #### TargetDeviceObject
@@ -151,11 +158,14 @@ A pointer to a file handle for the stream on output. This parameter is optional 
 ## -returns
 
 
+
 <b>IoCreateStreamFileObjectEx2</b> returns a pointer to the newly created stream file object.
 
 
 
+
 ## -remarks
+
 
 
 File systems call <b>IoCreateStreamFileObjectEx2</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the<b> FO_STREAM_FILE</b> file object flag is set.
@@ -172,25 +182,40 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
 
 <a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateStreamFileObjectEx2 routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateStreamFileObjectEx2 routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

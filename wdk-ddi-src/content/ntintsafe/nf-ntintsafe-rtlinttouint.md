@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D2C7E0F-99E2-4B95-8CB6-9158DA1D906F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlinttouint, RtlIntToUInt, RtlIntToUInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntToUInt
+ms.keywords: ntintsafe/RtlIntToUInt, kernel.rtlinttouint, RtlIntToUInt function [Kernel-Mode Driver Architecture], RtlIntToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlIntToUIntPtr
 </li>
@@ -98,4 +100,5 @@ This function uses the following alternate name:
 <li>RtlInt32ToSizeT
 </li>
 </ul>
+
 

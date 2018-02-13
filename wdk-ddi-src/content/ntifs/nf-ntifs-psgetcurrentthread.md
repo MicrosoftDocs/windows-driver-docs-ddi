@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 132b30fe-21ef-48dc-8c69-02ccac563b87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psgetcurrentthread, ExGetCurrentResourceThread, k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], PsGetCurrentThread, wdm/PsGetCurrentThread
+ms.keywords: kernel.psgetcurrentthread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], wdm/PsGetCurrentThread, ExGetCurrentResourceThread, k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, PsGetCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -66,31 +66,46 @@ PETHREAD PsGetCurrentThread(void);
 
 
 
+
 ## -returns
+
 
 
 <b>PsGetCurrentThread</b> returns a pointer to the executive thread object that represents the currently executing thread. 
 
 
 
+
 ## -remarks
+
 
 
 This macro 
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1940737-4543-4e48-8a4a-90430b16890a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, wdm/IoCopyCurrentIrpStackLocationToNext, kernel.iocopycurrentirpstacklocationtonext
+ms.keywords: IoCopyCurrentIrpStackLocationToNext, kernel.iocopycurrentirpstacklocationtonext, wdm/IoCopyCurrentIrpStackLocationToNext, k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to the IRP.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver calls <b>IoCopyCurrentIrpStackLocationToNext</b> to copy the IRP parameters from its stack location to the next-lower driver's stack location.
@@ -91,17 +94,28 @@ If your driver calls <b>IoSkipCurrentIrpStackLocation</b>, be careful not to mod
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
 
  
 

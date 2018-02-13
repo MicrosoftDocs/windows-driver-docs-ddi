@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline/IXpsDocumentConsumer::SendXpsDocument, IXpsDocumentConsumer, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, SendXpsDocument, print.ixpsdocumentconsumer_sendxpsdocument, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, IXpsDocumentConsumer::SendXpsDocument
+ms.keywords: print.ixpsdocumentconsumer_sendxpsdocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, SendXpsDocument, IXpsDocumentConsumer::SendXpsDocument, SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ A pointer to the XPS document object to send.
 ## -returns
 
 
+
 <code>SendXpsDocument</code> returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a> interface is the root for a tree view of an XPS document. The tree also contains one fixed document sequence and any number of fixed documents and fixed pages.
@@ -88,11 +91,16 @@ Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> met
 
 
 
+
 ## -see-also
 
 <a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
 
+
+
 <a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a>
+
+
 
  
 

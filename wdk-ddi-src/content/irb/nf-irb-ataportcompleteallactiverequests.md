@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests, atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices]
+ms.keywords: atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, storage.ataportcompleteallactiverequests, AtaPortCompleteAllActiveRequests, irb/AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,14 @@ Specifies the status with which the requests will be completed.
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 The <b>AtaPortCompleteAllActiveRequests</b> routine completes all active IRBs on the device as indicated by the <i>Target </i>and <i>Lun</i> parameters. Miniport drivers use this routine to complete all active IRPs if there is a reset. Miniport drivers can complete IRBs on all devices concurrently by assigning a value of IDE_UNTAGGED to the <i>Target </i>and <i>Lun </i>parameters, instead of specifying a specific device.
@@ -109,9 +112,12 @@ The miniport driver must not call this routine from the <a href="https://msdn.mi
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d90f70d-8cbe-4c95-ae54-494ff404631a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsSetTargetDeviceObject, KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, stream.kssettargetdeviceobject, KsSetTargetDeviceObject function [Streaming Media Devices]
+ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], stream.kssettargetdeviceobject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, ks/KsSetTargetDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Optionally contains the target device object that will be used when recalculatin
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>KsSetTargetDeviceObject</b> function assumes that the caller has previously allocated a device header on the underlying device object with the <b>KsAllocateDeviceHeader</b> function. The presence of the device header allows future calls to the function <b>KsRecalculateStackDepth</b>, and the device header is used when the object will be forwarding IRPs through a connection to another device and needs to keep track of the stack depth.
@@ -95,15 +98,24 @@ If <b>KsSetDevicePnpAndBaseObject</b> is also used to assign the PnP object stac
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
-<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
+
+
+<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
+
+
 
 <a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
+
+
+
+<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
+
+
 
  
 

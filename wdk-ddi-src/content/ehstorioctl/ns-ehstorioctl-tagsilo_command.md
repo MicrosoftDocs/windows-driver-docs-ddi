@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4d40ac4b-9aca-4be6-8d4f-db94c3daf4e8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml, ehstorioctl/SILO_COMMAND, *PSILO_COMMAND, storage.silo_command, PSILO_COMMAND, tagSILO_COMMAND, PSILO_COMMAND structure pointer [Storage Devices], SILO_COMMAND structure [Storage Devices], ehstorioctl/PSILO_COMMAND, SILO_COMMAND
+ms.keywords: tagSILO_COMMAND, *PSILO_COMMAND, ehstorioctl/SILO_COMMAND, ehstorioctl/PSILO_COMMAND, PSILO_COMMAND structure pointer [Storage Devices], structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml, PSILO_COMMAND, SILO_COMMAND, storage.silo_command, SILO_COMMAND structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SILO_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_COMMAND, SILO_COMMAND"
+req.typenames: SILO_COMMAND, *PSILO_COMMAND
 ---
 
 # tagSILO_COMMAND structure
@@ -73,7 +73,6 @@ typedef struct tagSILO_COMMAND {
 ### -field SiloIndex
 
 
-
 ### -field Command
 
 This member contains the 1667 command value.
@@ -87,10 +86,11 @@ This member contains the size of the 1667 command buffer.
 ### -field rgbCommandBuffer
 
 
-
 ## -remarks
 
 
+
 Together, <b>cbCommandBufferSize</b> and <b>rgbCommandBuffer</b> members indicate the raw data payload for the silo command, and are sent as-is to the device. The structure of the data in this buffer is silo-dependent. The structure is assumed to be shared knowledge between the client issuing this IOCTL and the device firmware implementation of this particular silo.
+
 
 

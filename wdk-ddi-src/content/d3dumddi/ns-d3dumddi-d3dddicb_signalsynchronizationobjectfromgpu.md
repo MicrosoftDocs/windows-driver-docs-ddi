@@ -73,17 +73,6 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
 
 
 
-### -field MonitoredFenceValueArray
-
-[in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
-
-
-### -field Reserved
-
-This member is reserved and should be set to zero.
-
-
-
 ### -field hContext
 
 [in] A kernel-mode handle to the context stream.
@@ -99,9 +88,22 @@ This member is reserved and should be set to zero.
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 
 
+### -field MonitoredFenceValueArray
+
+[in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
+
+
+### -field Reserved
+
+This member is reserved and should be set to zero.
+
+
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb.md">pfnSignalSynchronizationObjectFromGpuCb</a>
+
+
 
  
 

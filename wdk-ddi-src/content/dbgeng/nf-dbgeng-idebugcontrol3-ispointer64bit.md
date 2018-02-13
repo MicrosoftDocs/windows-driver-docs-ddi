@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 01003268-844e-4613-ac13-0306396e56b9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IsPointer64Bit, IDebugControl3, debugger.ispointer64bit, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IDebugControl3::IsPointer64Bit, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl::IsPointer64Bit, dbgeng/IDebugControl2::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IsPointer64Bit method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, IDebugControl interface [Windows Debugging], IsPointer64Bit method, IDebugControl2::IsPointer64Bit
+ms.keywords: IDebugControl2, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IDebugControl2::IsPointer64Bit, IsPointer64Bit, IDebugControl3, dbgeng/IDebugControl3::IsPointer64Bit, IDebugControl::IsPointer64Bit, IDebugControl, IDebugControl interface [Windows Debugging], IsPointer64Bit method, debugger.ispointer64bit, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, dbgeng/IDebugControl2::IsPointer64Bit, IsPointer64Bit method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,7 +68,9 @@ HRESULT IsPointer64Bit();
 
 
 
+
 ## -returns
+
 
 
 <table>
@@ -98,8 +100,10 @@ The effective processor does not use 64-bit pointers.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 

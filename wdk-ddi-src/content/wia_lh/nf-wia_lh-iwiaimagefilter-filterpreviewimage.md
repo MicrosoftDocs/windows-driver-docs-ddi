@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface, FilterPreviewImage, FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, wia_lh/IWiaImageFilter::FilterPreviewImage, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage
+ms.keywords: FilterPreviewImage method [Imaging Devices], IWiaImageFilter interface, IWiaImageFilter, FilterPreviewImage method [Imaging Devices], FilterPreviewImage, IWiaImageFilter interface [Imaging Devices], FilterPreviewImage method, image.iwiaimagefilter_filterpreviewimage, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter::FilterPreviewImage, wia_lh/IWiaImageFilter::FilterPreviewImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaImageFilter.FilterPreviewImage
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -95,15 +95,19 @@ Pointer to the IStream preview image.
 ## -returns
 
 
+
 Returns S_OK on success, or a standard COM error code on failure.
+
 
 
 
 ## -remarks
 
 
+
 This method cannot be invoked directly by the application.
 
 The <b>IStream </b>and <b>IWiaPreview</b> interfaces are described in the Microsoft Windows SDK documentation.
+
 
 

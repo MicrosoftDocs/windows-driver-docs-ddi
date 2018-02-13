@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5da7c762-ad5c-45bd-aebe-dc3526005569
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauDbgLegacyWarning, wiauDbgLegacyWarning, wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, image.wiaudbglegacywarning, wiauDbgLegacyWarning function [Imaging Devices]
+ms.keywords: wiautil/wiauDbgLegacyWarning, wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiauDbgLegacyWarning, image.wiaudbglegacywarning, wiauDbgLegacyWarning function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
@@ -87,20 +88,26 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ad4888fc-3d90-4920-bf84-aea18841d238
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST, PBTH_DEVICE_INFO_LIST structure pointer [Bluetooth Devices], PBTH_DEVICE_INFO_LIST, bth_structs_230962ed-c458-4c9e-a317-e2508b07c059.xml, BTH_DEVICE_INFO_LIST structure [Bluetooth Devices], bthioctl/BTH_DEVICE_INFO_LIST, bltooth.bth_device_info_list, bthioctl/PBTH_DEVICE_INFO_LIST, _BTH_DEVICE_INFO_LIST
+ms.keywords: PBTH_DEVICE_INFO_LIST structure pointer [Bluetooth Devices], PBTH_DEVICE_INFO_LIST, bthioctl/PBTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST structure [Bluetooth Devices], _BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST, bthioctl/BTH_DEVICE_INFO_LIST, bth_structs_230962ed-c458-4c9e-a317-e2508b07c059.xml, BTH_DEVICE_INFO_LIST, bltooth.bth_device_info_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ An open-ended array of
 ## -remarks
 
 
+
 The 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a> call's
     output buffer contains the list of all cached, previously discovered remote devices.
@@ -95,11 +96,16 @@ The
 
 
 
+
 ## -see-also
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
+
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+
 
  
 

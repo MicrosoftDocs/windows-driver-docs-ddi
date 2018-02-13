@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_INTERRUPT_ENABLE, DXGK_CRTC_VSYNC_STATE, DXGK_VSYNC_DISABLE_KEEP_PHASE, display.dxgk_crtc_vsync_state, DXGK_VSYNC_DISABLE_NO_PHASE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, _DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, DXGK_INTERRUPT_ENABLE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices]
+ms.keywords: DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, display.dxgk_crtc_vsync_state, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], d3dkmddi/DXGK_INTERRUPT_ENABLE, DXGK_CRTC_VSYNC_STATE, _DXGK_CRTC_VSYNC_STATE, DXGK_VSYNC_DISABLE_NO_PHASE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, DXGK_VSYNC_DISABLE_KEEP_PHASE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,7 +70,6 @@ typedef enum _DXGK_CRTC_VSYNC_STATE {
 
 
 ### -field DXGK_VSYNC_ENABLE
-
 
 
 ### -field DXGK_VSYNC_DISABLE_KEEP_PHASE

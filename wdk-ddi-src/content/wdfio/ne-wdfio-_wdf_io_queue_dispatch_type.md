@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 90f2f490-ee29-4e20-94b2-65a9bba3e831
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueDispatchParallel, wdfio/WdfIoQueueDispatchMax, kmdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchParallel, wdfio/WdfIoQueueDispatchManual, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, wdfio/WdfIoQueueDispatchInvalid, wdfio/WdfIoQueueDispatchSequential, WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchManual, wdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchInvalid, WdfIoQueueDispatchMax, DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, _WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchSequential
+ms.keywords: WdfIoQueueDispatchMax, wdfio/WdfIoQueueDispatchParallel, _WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchSequential, wdfio/WdfIoQueueDispatchMax, wdfio/WdfIoQueueDispatchManual, WdfIoQueueDispatchInvalid, WdfIoQueueDispatchParallel, WdfIoQueueDispatchManual, wdf.wdf_io_queue_dispatch_type, DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, WDF_IO_QUEUE_DISPATCH_TYPE, kmdf.wdf_io_queue_dispatch_type, wdfio/WdfIoQueueDispatchInvalid, wdfio/WdfIoQueueDispatchSequential, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,6 +102,8 @@ Reserved for internal use only.
 ## -remarks
 
 
+
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
+
 
 

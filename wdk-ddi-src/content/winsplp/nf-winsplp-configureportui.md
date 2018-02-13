@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fef58485-db4e-4bad-a21b-376e8d83f243
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ConfigurePortUI, pfnConfigurePortUI, print.configureportui, winsplp/pfnConfigurePortUI, pfnConfigurePortUI function [Print Devices], spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml
+ms.keywords: ConfigurePortUI, print.configureportui, spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, winsplp/pfnConfigurePortUI, pfnConfigurePortUI function [Print Devices], pfnConfigurePortUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Caller-supplied pointer to a string representing the name of the port to be conf
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it should return <b>FALSE</b>. If the operation is unsupported, or is canceled by the user (either by selecting CANCEL or by selecting OK without changing configuration parameters), the function should call SetLastError(ERROR_CANCELLED), then return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Port monitor UI DLLs are required to define a <b>ConfigurePortUI</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
@@ -100,6 +103,7 @@ Port monitor UI DLLs are required to define a <b>ConfigurePortUI</b> function an
 The client's spooler calls <b>ConfigurePortUI</b> from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546286">ConfigurePort</a> function (described in the Microsoft Windows SDK documentation). The arguments received by <b>ConfigurePortUI</b> are the arguments received by <b>ConfigurePort</b>. 
 
 The function should perform the following operations:
+
 <ol>
 <li>
 Call OpenPrinter, specifying a printer name with the following format:<dl>
@@ -129,15 +133,24 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 </ol>
 
 
+
 ## -see-also
-
-<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
 
  
 

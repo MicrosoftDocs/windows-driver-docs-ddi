@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a505077-dec6-47cc-8730-d68e19309d3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_PNP_NOTIFICATION, netvista.net_dma_pnp_notification, *PNET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, PNET_DMA_PNP_NOTIFICATION
+ms.keywords: PNET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netvista.net_dma_pnp_notification, NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], netdma/NET_DMA_PNP_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_PNP_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION"
+req.typenames: NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION
 ---
 
 # _NET_DMA_PNP_NOTIFICATION structure
@@ -112,6 +112,7 @@ The length, in bytes, of the notification-specific data at the
 ## -remarks
 
 
+
 To send a power management notification to the NetDMA interface, NetDMA provider drivers call the 
     <a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a> function and
     provide a pointer to a NET_DMA_PNP_NOTIFICATION structure at the 
@@ -119,11 +120,16 @@ To send a power management notification to the NetDMA interface, NetDMA provider
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a>
+
+
 
 <a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">NET_DMA_PNP_NOTIFICATION_CODE</a>
 
-<a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateShaderSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CALCPRIVATESHADERSIZE callback
@@ -75,12 +75,12 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *pShaderCode
 
 
-
 ### -param *
+
+
 
 
 
@@ -107,7 +107,9 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 ## -returns
 
 
+
 <i>CalcPrivateShaderSize</i> returns the size of the memory region that the driver requires for creating a shader.
+
 
 
 
@@ -115,7 +117,11 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

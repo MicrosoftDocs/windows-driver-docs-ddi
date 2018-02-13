@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B5FDD4A4-2E43-4EAD-A475-A91C60A2E925
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2SystemDmaTransmitInitializeTransactionComplete, 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, serports.sercx2systemdmatransmitinitializetransactioncomplete, SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports]
+ms.keywords: SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports], SerCx2SystemDmaTransmitInitializeTransactionComplete, 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, serports.sercx2systemdmatransmitinitializetransactioncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Whether the initialization was successful. If <b>TRUE</b>, the initialization su
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Before SerCx2 starts a system-DMA-transmit transaction, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a> event callback function, if it is implemented, to initialize the serial controller to perform the transaction. In response to this call, the driver should do any initialization that is needed; then the driver must call <b>SerCx2SystemDmaTransmitInitializeTransactionComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the transaction until it is notified.
@@ -97,13 +100,20 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a>
+
+
 
  
 

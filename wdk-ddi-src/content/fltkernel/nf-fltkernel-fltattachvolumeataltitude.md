@@ -7,8 +7,8 @@ old-location: ifsk\fltattachvolumeataltitude.htm
 old-project: ifsk
 ms.assetid: d6e6f66a-77ed-4c1c-92d5-97a806cfbd68
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltAttachVolumeAtAltitude routine [Installable File System Drivers], ifsk.fltattachvolumeataltitude, FltAttachVolumeAtAltitude, fltkernel/FltAttachVolumeAtAltitude, FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml
+ms.date: 2/7/2018
+ms.keywords: FltAttachVolumeAtAltitude routine [Installable File System Drivers], ifsk.fltattachvolumeataltitude, FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude, fltkernel/FltAttachVolumeAtAltitude
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: 
-req.irql: "<= APC_LEVEL"
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -100,7 +100,9 @@ Pointer to a caller-allocated variable that receives an opaque instance pointer 
 ## -returns
 
 
+
 <b>FltAttachVolumeAtAltitude</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,11 +174,14 @@ The UNICODE_STRING structure that <i>Altitude</i> points to did not contain a va
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A minifilter driver should only use <b>FltAttachVolumeAtAltitude</b> for debugging. It should not call this routine in a retail version of the minifilter driver. 
@@ -201,27 +206,44 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
+
+
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
- 
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolumeAtAltitude routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolumeAtAltitude routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

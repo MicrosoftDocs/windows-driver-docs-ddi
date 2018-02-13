@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnReleaseSourceModeSet(
 ## -returns
 
 
+
 The <b>pfnReleaseSourceModeSet</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ The VidPN identified by <i>hVidPn</i> does not contain the source mode set ident
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When you have finished using a handle that you obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset.md">pfnAcquireSourceModeSet</a>, you must release the handle by calling <b>pfnReleaseSourceModeSet</b>.
@@ -151,11 +156,16 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset.md">pfnCreateNewSourceModeSet</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset.md">pfnAcquireSourceModeSet</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset.md">pfnCreateNewSourceModeSet</a>
+
 
  
 

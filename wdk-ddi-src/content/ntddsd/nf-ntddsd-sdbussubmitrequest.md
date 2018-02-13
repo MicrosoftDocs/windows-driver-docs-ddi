@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 8f794681-afa9-474b-a3b9-bc7c21c7c423
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml, ntddsd/SdBusSubmitRequest, SdBusSubmitRequest function [Buses], SD.sdbussubmitrequest, SdBusSubmitRequest
+ms.keywords: sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml, SD.sdbussubmitrequest, ntddsd/SdBusSubmitRequest, SdBusSubmitRequest, SdBusSubmitRequest function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - Sdrp [in]
 
 Pointer to a caller-supplied structure of type <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a> that describes the request.
@@ -87,11 +88,14 @@ Pointer to a caller-supplied structure of type <a href="https://msdn.microsoft.c
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code if the operation fails. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>SdBusSubmitRequest</b> routine completes the request synchronously. It never returns a status code of STATUS_PENDING, but waits for the request to completed before returning.
@@ -102,15 +106,24 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
+
+
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
+
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
+
+
 
  
 

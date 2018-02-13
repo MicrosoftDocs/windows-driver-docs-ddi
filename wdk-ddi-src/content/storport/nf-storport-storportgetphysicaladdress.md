@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b39a6e4-2e11-4b4e-9218-92336629ae80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetphysicaladdress, storport/StorPortGetPhysicalAddress, storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml, StorPortGetPhysicalAddress routine [Storage Devices], StorPortGetPhysicalAddress
+ms.keywords: storage.storportgetphysicaladdress, StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml, storport/StorPortGetPhysicalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,14 @@ Pointer to a value indicating the number of bytes mapped, starting at the return
 ## -returns
 
 
+
 <b>StorPortGetPhysicalAddress</b> returns the corresponding physical address for a given virtual address. If the given address cannot be converted, the function returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 If the virtual address passed to <b>StorPortGetPhysicalAddress</b> is obtained from <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a>, the value returned for <i>Length</i> should be ignored.
@@ -107,6 +110,7 @@ If the virtual address passed to <b>StorPortGetPhysicalAddress</b> is obtained f
 Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 <b>StorPortGetPhysicalAddress</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -117,17 +121,25 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 </pre>
 </td>
 </tr>
-</table></span></div>The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+</table></span></div>
+The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+
 
 
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

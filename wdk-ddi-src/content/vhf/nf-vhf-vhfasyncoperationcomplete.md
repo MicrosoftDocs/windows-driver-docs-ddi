@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], vhf/VhfAsyncOperationComplete, hid._vhfasyncoperationcomplete
+ms.keywords: VhfAsyncOperationComplete, vhf/VhfAsyncOperationComplete, hid._vhfasyncoperationcomplete, VhfAsyncOperationComplete method [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,20 +83,26 @@ If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise an appro
 ## -returns
 
 
+
 If the <b>VhfAsyncOperationComplete</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
+
 
 
 
 ## -remarks
 
 
+
 The HID source driver can call  from the event callback or at a later time after returning from the <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">EvtVhfAsyncOperation</a> callback.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+
+
 
  
 

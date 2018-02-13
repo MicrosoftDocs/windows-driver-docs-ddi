@@ -83,6 +83,8 @@ __checkReturn HRESULT CALLBACK pfnOfferAllocations2Cb(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a> structure  that defines the video memory allocations that the driver offers.
@@ -92,7 +94,9 @@ __checkReturn HRESULT CALLBACK pfnOfferAllocations2Cb(
 
 
 
+
       Returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,11 +140,14 @@ An invalid parameter was supplied.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The user-mode display driver calls <b>pfnOfferAllocations2Cb</b> to notify the Microsoft DirectX graphics kernel subsystem that, after it completes any previously submitted render operations,  it can offer the allocations' memory for other processes to use.
@@ -151,17 +158,28 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761969">D3DDDICB_OFFERALLOCATIONS2</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
 
  
 

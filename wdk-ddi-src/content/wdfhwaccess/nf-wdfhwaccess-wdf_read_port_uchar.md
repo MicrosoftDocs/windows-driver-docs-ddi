@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: FC7AB24C-2AE0-4014-82FE-97C285E9558E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_PORT_UCHAR, WDF_READ_PORT_UCHAR, WDF_READ_PORT_UCHAR function, wdf.wdf_read_port_uchar
+ms.keywords: WDF_READ_PORT_UCHAR, WDF_READ_PORT_UCHAR function, wdfhwaccess/WDF_READ_PORT_UCHAR, wdf.wdf_read_port_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_PORT_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,8 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>WDF_READ_PORT_UCHAR</b> returns the byte that is read from the specified port address.
+
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, KS_AM_ExactRateChange structure [Streaming Media Devices], PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], ksmedia/KS_AM_ExactRateChange, PKS_AM_ExactRateChange, *PKS_AM_ExactRateChange, stream.ks_am_exactratechange, ksmedia/PKS_AM_ExactRateChange, KS_AM_ExactRateChange
+ms.keywords: KS_AM_ExactRateChange structure [Streaming Media Devices], dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, *PKS_AM_ExactRateChange, PKS_AM_ExactRateChange, KS_AM_ExactRateChange, ksmedia/KS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567280">KS_AM_RATE_ExactRateChange</a>
+
+
 
  
 

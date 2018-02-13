@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], StartServerWide method, dbgeng/IDebugClient5::StartServerWide, debugger.startserverwide, StartServerWide method [Windows Debugging], IDebugClient5 interface, StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5::StartServerWide
+ms.keywords: debugger.startserverwide, IDebugClient5::StartServerWide, IDebugClient5, StartServerWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], StartServerWide method, dbgeng/IDebugClient5::StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5 interface, StartServerWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Specifies the connections options for this server.  These are the same options g
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The server that is started will be accessible by other <a href="https://msdn.microsoft.com/13F9D82A-4C04-425A-A063-B349DB5C8E08">debuggers</a> through the transport specified in the <i>Options</i> parameter.
@@ -105,15 +110,24 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+
+
 
 <a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+
 
  
 

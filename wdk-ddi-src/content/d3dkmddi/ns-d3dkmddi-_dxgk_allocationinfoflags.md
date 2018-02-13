@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, DXGK_ALLOCATIONINFOFLAGS, _DXGK_ALLOCATIONINFOFLAGS
+ms.keywords: DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, _DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags, DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -371,19 +371,29 @@ Supported starting with Windows 8.
 ## -remarks
 
 
+
 You can specify properties of an allocation by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that the <b>DXGK_ALLOCATIONINFOFLAGS</b> structure contains.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
 
  
 

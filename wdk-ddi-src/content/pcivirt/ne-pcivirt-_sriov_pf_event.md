@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e2b40a9d-57e6-49b1-839a-d34acb108807
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_SRIOV_PF_EVENT, PCI.sriov_pf_event, SriovEventPfMaximum, SRIOV_PF_EVENT, pcivirt/SriovEventPfRestart, *PSRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, SRIOV_PF_EVENT enumeration [Buses], pcivirt/SRIOV_PF_EVENT, SriovEventPfQueryStopDevice, SriovEventPfRestart, pcivirt/SriovEventPfQueryStopDevice"
+ms.keywords: pcivirt/SRIOV_PF_EVENT, *PSRIOV_PF_EVENT, SRIOV_PF_EVENT enumeration [Buses], SriovEventPfMaximum, _SRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, SriovEventPfRestart, pcivirt/SriovEventPfRestart, PCI.sriov_pf_event, SriovEventPfQueryStopDevice, SRIOV_PF_EVENT, pcivirt/SriovEventPfQueryStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SRIOV_PF_EVENT
 product: Windows
 targetos: Windows
-req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
+req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
 ---
 
 # _SRIOV_PF_EVENT enumeration
@@ -86,9 +86,13 @@ Reserved.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/5299ec17-1fcb-4449-9ec4-73a4d818df0d">IOCTL_SRIOV_EVENT_COMPLETE</a>
+
+
+
 <a href="https://msdn.microsoft.com/3f2d67e0-abab-40a1-b4a9-cb65e81884e9">IOCTL_SRIOV_NOTIFICATION</a>
 
-<a href="https://msdn.microsoft.com/5299ec17-1fcb-4449-9ec4-73a4d818df0d">IOCTL_SRIOV_EVENT_COMPLETE</a>
+
 
  
 

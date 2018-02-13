@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c9fa1506-ffef-44a8-9b25-9033280e0c33
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::DrvUpgradeRegistrySetting, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, IPrintCoreUI2, DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface [Print Devices], DrvUpgradeRegistrySetting method, DrvUpgradeRegistrySetting, print.iprintcoreui2_drvupgraderegistrysetting, print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml
+ms.keywords: IPrintCoreUI2, DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, IPrintCoreUI2 interface [Print Devices], DrvUpgradeRegistrySetting method, IPrintCoreUI2::DrvUpgradeRegistrySetting, print.iprintcoreui2_drvupgraderegistrysetting, print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml, DrvUpgradeRegistrySetting method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.DrvUpgradeRegistrySetting
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ Caller-supplied pointer to a string identifying an option name, associated with 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +129,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-750d-4f29-b5e0-ab299a1388db">IPrintOemDriverUI COM Interface</a>, which includes a <code>DrvUpgradeRegistrySetting</code> method. The behavior of this method is exactly the same as that of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553118">IPrintOemDriverUI::DrvUpgradeRegistrySetting</a>. 
@@ -140,9 +145,12 @@ This method should be called only by the OEM's <a href="https://msdn.microsoft.c
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553118">IPrintOemDriverUI::DrvUpgradeRegistrySetting</a>
+
+
 
  
 

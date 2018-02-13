@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcodeactivatevccomplete, NdisMCoDeactivateVcComplete, condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoDeactivateVcComplete
+ms.keywords: NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, netvista.ndismcodeactivatevccomplete, NdisMCoDeactivateVcComplete, ndis/NdisMCoDeactivateVcComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCoDeactivateVcComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCoDeactivateVcComplete function
@@ -90,11 +90,14 @@ Specifies the handle identifying the VC. The caller obtained this handle from it
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A connection-oriented miniport driver must call 
@@ -121,16 +124,25 @@ A call to
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
    ProtocolCmDeactivateVcComplete</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+
 
  
 

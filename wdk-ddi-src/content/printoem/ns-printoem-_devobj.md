@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printoem/DEVOBJ, *PDEVOBJ, DEVOBJ, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, _DEVOBJ, DEVOBJ structure [Print Devices], print.devobj
+ms.keywords: DEVOBJ structure [Print Devices], print.devobj, printoem/DEVOBJ, _DEVOBJ, DEVOBJ, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, *PDEVOBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVOBJ
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVOBJ, DEVOBJ"
+req.typenames: DEVOBJ, *PDEVOBJ
 req.product: Windows 10 or later.
 ---
 
@@ -119,23 +119,37 @@ Pointer to the rendering plug-in's private DEVMODEW structure members. Supplied 
 ## -remarks
 
 
+
 The DEVOBJ structure is accessible to graphics DDI hooking functions through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure's <b>dhpdev</b> member. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556181">DrvCompletePDEV</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553215">IPrintOemPS::EnablePDEV</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
+
+
 
  
 

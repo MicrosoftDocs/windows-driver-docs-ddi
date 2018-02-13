@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fb583ded-8292-4486-8e85-3d3039611d14
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanSmsFormatMax, wwan/WwanSmsFormatPdu, wwan/WwanSmsFormatReserved2, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatMax, WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, wwan/WWAN_SMS_FORMAT, WwanSmsFormatReserved2, WWAN_SMS_FORMAT, PWWAN_SMS_FORMAT, wwan/WwanSmsFormatReserved1, WwanSmsFormatReserved0, wwan/PWWAN_SMS_FORMAT, wwan/WwanSmsFormatCdma, _WWAN_SMS_FORMAT, wwan/WwanSmsFormatReserved0, WwanSmsFormatCdma, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], *PWWAN_SMS_FORMAT, WwanSmsFormatReserved1, WwanSmsFormatPdu, netvista.wwan_sms_format
+ms.keywords: WwanSmsFormatPdu, wwan/WwanSmsFormatReserved1, netvista.wwan_sms_format, wwan/PWWAN_SMS_FORMAT, WwanSmsFormatMax, WwanSmsFormatCdma, WWAN_SMS_FORMAT enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsFormatReserved0, wwan/WwanSmsFormatPdu, wwan/WwanSmsFormatReserved2, *PWWAN_SMS_FORMAT, WwanRef_594a5286-7ead-4877-939c-ed4bf2eb99e0.xml, wwan/WwanSmsFormatCdma, _WWAN_SMS_FORMAT, wwan/WWAN_SMS_FORMAT, WwanSmsFormatReserved1, WWAN_SMS_FORMAT, PWWAN_SMS_FORMAT, PWWAN_SMS_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WwanSmsFormatReserved2, WwanSmsFormatReserved0, wwan/WwanSmsFormatMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SMS_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SMS_FORMAT, *PWWAN_SMS_FORMAT
+req.typenames: "*PWWAN_SMS_FORMAT, WWAN_SMS_FORMAT"
 req.product: Windows 10 or later.
 ---
 
@@ -113,9 +113,11 @@ This value is reserved. Do not use.
 ## -remarks
 
 
+
 CDMA-based devices support only 
     <b>WwanSmsFormatCdma</b>. The 
     <b>WwanSmsFormatCdma</b> format is not applicable for GSM-based devices.
+
 
 
 
@@ -123,15 +125,27 @@ CDMA-based devices support only
 
 <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
 
-<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
+
 
 <a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
 
  
 

@@ -7,7 +7,7 @@ old-location: audio\ioctl_bthhfp_device_get_descriptor.htm
 old-project: audio
 ms.assetid: 94B5E83E-8151-4BD6-9E1E-6C96B460D65F
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.ioctl_bthhfp_device_get_descriptor, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code [Audio Devices], IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION"
+req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR IOCTL
@@ -86,24 +86,32 @@ The size of a <b>BTHHFP_DESCRIPTOR</b> structure and referenced data.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer.
-<div class="alert"><b>Note</b>  This can be larger than the size of the <b>BTHHFP_DESCRIPTOR</b> structure, as the output buffer may contain other data referenced by the structure</div><div> </div>If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read the <i>Information</i> member to get the size of the buffer that the caller should allocate for this request.
+
+<div class="alert"><b>Note</b>  This can be larger than the size of the <b>BTHHFP_DESCRIPTOR</b> structure, as the output buffer may contain other data referenced by the structure</div>
+<div> </div>
+If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read the <i>Information</i> member to get the size of the buffer that the caller should allocate for this request.
 
 
 ## -remarks
+
 
 
 The audio driver sends this request to obtain information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
@@ -112,17 +120,24 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 
 
+
 ## -see-also
 
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_ksnodetypes.md">IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+
+
 
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_containerid.md">IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

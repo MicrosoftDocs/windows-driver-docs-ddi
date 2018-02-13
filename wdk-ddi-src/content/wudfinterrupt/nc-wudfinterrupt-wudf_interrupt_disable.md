@@ -40,7 +40,7 @@ apiname:
 -	OnInterruptDisable
 product: Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+req.typenames: "*PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 req.product: Windows 10 or later.
 ---
 
@@ -77,8 +77,9 @@ HRESULT OnInterruptDisable(
 ### -param Interrupt
 
 
-
 ### -param AssociatedDevice
+
+
 
 
 
@@ -98,11 +99,14 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 <i>OnInterruptDisable</i>  must return S_OK if the operation succeeds. Otherwise, the callback should return one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 To register an <i>OnInterruptDisable</i> callback function, your driver must place the callback function's address in a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>.
@@ -117,14 +121,77 @@ Before calling the <i>OnInterruptDisable</i> callback function, the framework ca
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
 
+#### Examples
+
+The function type is declared in <i>Wudfinterrupt.h</i>, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
+__drv_functionClass(WUDF_INTERRUPT_DISABLE)
+HRESULT
+WUDF_INTERRUPT_DISABLE(
+    _In_
+    IWDFInterrupt* Interrupt,
+    _In_
+    IWDFDevice* AssociatedDevice
+    );
+
+typedef WUDF_INTERRUPT_DISABLE *PFN_WUDF_INTERRUPT_DISABLE;</pre>
+</td>
+</tr>
+</table></span></div>
+To define an <i>OnInterruptDisable</i> callback function that is named <i>MyInterruptDisable</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WUDF_INTERRUPT_DISABLE  MyInterruptDisable;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+  MyInterruptDisable (
+    IN IWDFInterrupt* pInterrupt,
+    IN IWDFDevice*  pAssociatedDevice
+    )
+  {…}
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a>
+<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+
+
 
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+
+
+<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterPropertyBag::GetString, IPrinterPropertyBag::GetString, GetString method [Print Devices], IPrinterPropertyBag interface [Print Devices], GetString method, GetString, GetString method [Print Devices], IPrinterPropertyBag interface, print.iprinterpropertybag_getstring, IPrinterPropertyBag
+ms.keywords: GetString, print.iprinterpropertybag_getstring, GetString method [Print Devices], IPrinterPropertyBag, printerextension/IPrinterPropertyBag::GetString, IPrinterPropertyBag::GetString, GetString method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices], GetString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,13 +82,17 @@ The value read.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+
+
 
  
 

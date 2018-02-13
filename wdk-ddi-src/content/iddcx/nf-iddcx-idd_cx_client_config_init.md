@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b2cf0d6-1d69-4917-9e97-f8f2563e6d3c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idd_cx_client_config_init, IDD_CX_CLIENT_CONFIG_INIT, IDD_CX_CLIENT_CONFIG_INIT method [Display Devices], iddcx/IDD_CX_CLIENT_CONFIG_INIT
+ms.keywords: IDD_CX_CLIENT_CONFIG_INIT, display.idd_cx_client_config_init, iddcx/IDD_CX_CLIENT_CONFIG_INIT, IDD_CX_CLIENT_CONFIG_INIT method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,6 +77,8 @@ A pointer to the driver-allocated IDD_CX_CLIENT_CONFIG structure.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

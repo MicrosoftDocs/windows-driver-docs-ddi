@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kssetinformationfile, KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, ks/KsSetInformationFile
+ms.keywords: KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile, ks/KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,13 +94,17 @@ Specifies the class of information being set.
 ## -returns
 
 
+
 The <b>KsSetInformationFile</b> function returns STATUS_SUCCESS if successful, or if unsuccessful it returns a set error.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsSetInformationFile</b> function should be used only when the set would result in an actual request to the underlying driver, not including complex operations that require additional parameters to be sent to the driver such as rename, deletion, and completion. For example, <b>FilePositionInformation</b> would not generate such a request and should not be used. It assumes the caller is serializing access to the file for operations against a FO_SYNCHRONOUS_IO file object.
+
 
 

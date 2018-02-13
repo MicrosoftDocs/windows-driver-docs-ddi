@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9588ef16-baf7-4e2b-a624-864ae218c385
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], ks/KsPinGetConnectedPinDeviceObject, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, stream.kspingetconnectedpindeviceobject, KsPinGetConnectedPinDeviceObject
+ms.keywords: KsPinGetConnectedPinDeviceObject, avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, stream.kspingetconnectedpindeviceobject, ks/KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,20 +76,26 @@ A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that is the s
 ## -returns
 
 
+
 If <i>Pin</i> is a source pin, <b>KsPinGetConnectedPinDeviceObject</b> returns a pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure at the top of the device stack on which the sink pin resides. Otherwise, it returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 The returned device object is not necessarily the functional device object (FDO) for the device on which the sink resides, since there might exist an upper level filter driver. It is, however, the device object to which IOCTLs destined for the sink pin are sent.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
+
+
 
  
 

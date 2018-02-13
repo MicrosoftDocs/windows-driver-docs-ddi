@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 40A057F7-AC9B-4F16-8FE2-490CEECAB523
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag, SetInt32, printerextension/IPrinterScriptablePropertyBag::SetInt32, IPrinterScriptablePropertyBag::SetInt32, SetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices], SetInt32 method, print.iprinterscriptablepropertybag_setint32
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices], SetInt32 method, print.iprinterscriptablepropertybag_setint32, SetInt32 method [Print Devices], IPrinterScriptablePropertyBag, printerextension/IPrinterScriptablePropertyBag::SetInt32, SetInt32, IPrinterScriptablePropertyBag::SetInt32, SetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,20 +82,26 @@ The new value to set.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>SetInt32</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
 
  
 

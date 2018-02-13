@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchLengthW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchLengthW, ntstrsafe/RtlStringCchLengthA, kernel.rtlstringcchlength, RtlStringCchLengthW, RtlStringCchLength, RtlStringCchLengthA, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
+ms.keywords: ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml, RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthA, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], RtlStringCchLengthW, RtlStringCchLength, kernel.rtlstringcchlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchLengthW
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchLengthA function
@@ -88,6 +88,7 @@ TBD
 
 
 
+
 #### - pcch [out, optional]
 
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in characters, of the string that is contained in the buffer. The length does not include the string's terminating null character.
@@ -96,7 +97,9 @@ If the caller supplies a non-<b>NULL</b> address pointer, the function loads the
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,16 +127,20 @@ This error status means the value in <i>psz</i> is <b>NULL</b>, <i>cchMax</i> is
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCchLengthW</b> and <b>RtlStringCchLengthA</b> should be used instead of <b>strlen</b>. They are used to ensure that a string is not larger than a given length, in characters. If that condition is met, <b>RtlStringCchLengthW</b> and <b>RtlStringCchLengthA</b> return the current length of the string in characters, not including the terminating null character.
 
 Use <b>RtlStringCchLengthW</b> to handle Unicode strings and <b>RtlStringCchLengthA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -168,15 +175,19 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcblengthw.md">RtlStringCbLength</a>
+
+
 
  
 

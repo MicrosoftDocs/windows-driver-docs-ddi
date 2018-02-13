@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_setnotificationfreq.htm
 old-project: audio
 ms.assetid: b909c11c-de56-43e8-b339-b92249bc7e1c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SetNotificationFreq, IMiniportWaveCyclicStream, IMiniportWaveCyclicStream::SetNotificationFreq, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices], SetNotificationFreq method, portcls/IMiniportWaveCyclicStream::SetNotificationFreq, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, SetNotificationFreq method [Audio Devices], audio.iminiportwavecyclicstream_setnotificationfreq
+ms.date: 2/8/2018
+ms.keywords: SetNotificationFreq, audio.iminiportwavecyclicstream_setnotificationfreq, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, IMiniportWaveCyclicStream, SetNotificationFreq method [Audio Devices], IMiniportWaveCyclicStream interface [Audio Devices], SetNotificationFreq method, IMiniportWaveCyclicStream::SetNotificationFreq, portcls/IMiniportWaveCyclicStream::SetNotificationFreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,14 @@ Output pointer for the frame size. This parameter points to a caller-allocated v
 ## -returns
 
 
+
 <code>SetNotificationFreq</code> returns the new notification interval expressed in milliseconds. In all current Windows releases, the port driver ignores this value.
 
 
 
+
 ## -remarks
+
 
 
 During each notification interrupt, the miniport driver's interrupt service routine calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a> method with the stream's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object as the call parameter. This is the <b>IServiceGroup</b> object that the miniport driver previously output to the port driver during the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a> call.
@@ -94,19 +97,28 @@ In all current Windows releases, the WaveCyclic port driver specifies an <i>Inte
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
 
+
+
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
 
 <a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::SetNotificationFreq method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::SetNotificationFreq method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

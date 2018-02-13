@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxsetcomponentlatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency, PoFxSetComponentLatency
+ms.keywords: kernel.pofxsetcomponentlatency, PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], wdm/PoFxSetComponentLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ The maximum latency, in 100-nanosecond units, that can be tolerated in the speci
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The calling driver supplies a maximum latency that clients of the device can tolerate in the specified component. This latency is the time required to complete a transition from the idle condition to the active condition. PoFx uses this latency as a hint to improve performance.
@@ -107,11 +110,16 @@ If a component is in the idle condition when <b>PoFxSetComponentLatency</b> is c
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
+
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
 
  
 

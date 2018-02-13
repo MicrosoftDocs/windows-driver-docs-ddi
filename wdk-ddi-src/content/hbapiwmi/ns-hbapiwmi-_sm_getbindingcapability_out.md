@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7dfa36be-ab05-478d-b47a-783e599545bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_getbindingcapability_out, _SM_GetBindingCapability_OUT, hbapiwmi/PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], SM_GetBindingCapability_OUT, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml, *PSM_GetBindingCapability_OUT, hbapiwmi/SM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT structure pointer [Storage Devices]
+ms.keywords: SM_GetBindingCapability_OUT, storage.sm_getbindingcapability_out, _SM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml, hbapiwmi/PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT, *PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT structure pointer [Storage Devices], hbapiwmi/SM_GetBindingCapability_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ The HBA_BIND_CAPABILITY binding capabilities.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetBindingCapability_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

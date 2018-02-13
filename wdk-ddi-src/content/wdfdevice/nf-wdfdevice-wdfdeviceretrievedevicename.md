@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceRetrieveDeviceName, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, kmdf.wdfdeviceretrievedevicename, WdfDeviceRetrieveDeviceName method, wdf.wdfdeviceretrievedevicename, WdfDeviceRetrieveDeviceName, PFN_WDFDEVICERETRIEVEDEVICENAME
+ms.keywords: wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, PFN_WDFDEVICERETRIEVEDEVICENAME, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, kmdf.wdfdeviceretrievedevicename, WdfDeviceRetrieveDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A handle to a framework string object that receives the device name.
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceRetrieveDeviceName</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,7 +104,8 @@ An invalid parameter was detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -110,7 +113,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name that the driver specified in a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>.
@@ -118,14 +123,52 @@ The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name that the d
 To obtain the device name string from the string object, the driver can call <a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>.
 
 
+#### Examples
+
+The following code example creates a string object and then retrieves a specified device's name. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+WDFSTRING string;
+
+status = WdfStringCreate(
+                         NULL,
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         &amp;string
+                         );
+if (NT_SUCCESS(status)) {
+    status = WdfDeviceRetrieveDeviceName(
+                                         Device,
+                                         string
+                                         );
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
 
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\file_zero_data_information.htm
 old-project: ifsk
 ms.assetid: 64F1A14F-2152-4095-A594-B2AE3B87C638
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/PFILE_ZERO_DATA_INFORMATION, ifsk.file_zero_data_information, ntifs/FILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION, _FILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION structure pointer [Installable File System Drivers], FILE_ZERO_DATA_INFORMATION structure [Installable File System Drivers], *PFILE_ZERO_DATA_INFORMATION
+ms.date: 2/7/2018
+ms.keywords: PFILE_ZERO_DATA_INFORMATION structure pointer [Installable File System Drivers], _FILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION structure [Installable File System Drivers], ntifs/PFILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION, ntifs/FILE_ZERO_DATA_INFORMATION, ifsk.file_zero_data_information, FILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,21 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+
 
 <a href="..\ntifs\ns-ntifs-_file_zero_data_information_ex.md">FILE_ZERO_DATA_INFORMATION_EX</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_ZERO_DATA_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_ZERO_DATA_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

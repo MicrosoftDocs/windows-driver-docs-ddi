@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains the VIDEO_CURSOR_POSITION structure to be se
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

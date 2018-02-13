@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 225da110-cd59-4803-bde8-26e275b3ddbd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_SubRects, _DXVA_VideoProcessCaps, DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxva/DXVA_VideoProcess_StretchX, DXVA_VideoProcess_SubRects, DXVA_VideoProcessCaps, dxva/DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_StretchY, display.dxva_videoprocesscaps, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml, DXVA_VideoProcess_YUV2RGB, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_YUV2RGBExtended, dxva/DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_AlphaBlend, DXVA_VideoProcess_StretchX, DXVA_VideoProcess_StretchY, DXVA_VideoProcessCaps enumeration [Display Devices], dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_None
+ms.keywords: dxva/DXVA_VideoProcess_None, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_SubStreams, dxva/DXVA_VideoProcess_StretchY, DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_YUV2RGBExtended, DXVA_VideoProcess_AlphaBlend, DXVA_VideoProcess_StretchY, _DXVA_VideoProcessCaps, DXVA_VideoProcess_StretchX, DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_SubRects, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml, DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcess_None, dxva/DXVA_VideoProcessCaps, DXVA_VideoProcess_SubRects, DXVA_VideoProcess_YUV2RGBExtended, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcessCaps enumeration [Display Devices], dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_SubStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -165,9 +165,11 @@ Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa
 ## -remarks
 
 
+
 Occasionally, the aspect ratio adjustment performed by <b>DXVA_VideoProcess_AlphaBlend</b> is combined with a general picture resizing operation to scale the video image within an application-defined composition space, which is rare and not an essential feature. It is best if the scaling needed for resizing the video to fit into the application window can be done simultaneously to the scaling needed for deinterlacing, which avoids cumulative artifacts. 
 
 Color space conversion performed by <b>DXVA_VideoProcess_YUV2RGB</b> is particularly useful within the VMR if it is combined with any (and ideally, all) of the following enumerators: <b>DXVA_VideoProcess_StretchX</b>, <b>DXVA_VideoProcess_StretchY</b>, and <b>DXVA_VideoProcess_AlphaBlend</b>. There is no requirement to convert from the RGB color space to the YUV color space.
+
 
 
 
@@ -175,7 +177,11 @@ Color space conversion performed by <b>DXVA_VideoProcess_YUV2RGB</b> is particul
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
+
+
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
+
+
 
  
 

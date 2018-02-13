@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, NdisInitializeReadWriteLock, ndis/NdisInitializeReadWriteLock, netvista.ndisinitializereadwritelock
+ms.keywords: ndis/NdisInitializeReadWriteLock, NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], netvista.ndisinitializereadwritelock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NdisInitializeReadWriteLock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInitializeReadWriteLock function
@@ -79,11 +79,14 @@ A pointer to an opaque
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An 
@@ -120,6 +123,7 @@ Once resource access is complete, the driver calls the
     NdisReleaseReadWriteLock</a> function.
 
 Each lock that a driver initializes does one of the following:
+
 <ul>
 <li>
 Protects a discrete set of shared resources from simultaneous write and read access by driver
@@ -131,9 +135,11 @@ Exposes a discrete set of shared resources to simultaneous read access by driver
       IRQL &lt;= DISPATCH_LEVEL.
 
 </li>
-</ul>Callers of 
+</ul>
+Callers of 
     <b>NdisInitializeReadWriteLock</b> can run at any IRQL. Usually a caller is running at IRQL =
     PASSIVE_LEVEL during initialization.
+
 
 
 
@@ -141,7 +147,11 @@ Exposes a discrete set of shared resources to simultaneous read access by driver
 
 <a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisReleaseReadWriteLock</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a>
+
+
 
  
 

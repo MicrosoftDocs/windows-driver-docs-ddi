@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: LPPRINTPROVIDOR structure pointer [Print Devices], *LPPRINTPROVIDOR, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, PRINTPROVIDOR, LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], winsplp/LPPRINTPROVIDOR, print.printprovidor, _PRINTPROVIDOR
+ms.keywords: winsplp/LPPRINTPROVIDOR, _PRINTPROVIDOR, *LPPRINTPROVIDOR, print.printprovidor, PRINTPROVIDOR, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, LPPRINTPROVIDOR structure pointer [Print Devices], winsplp/PRINTPROVIDOR, LPPRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRINTPROVIDOR
 product: Windows
 targetos: Windows
-req.typenames: PRINTPROVIDOR, *LPPRINTPROVIDOR
+req.typenames: "*LPPRINTPROVIDOR, PRINTPROVIDOR"
 req.product: Windows 10 or later.
 ---
 
@@ -481,6 +481,7 @@ typedef struct _PRINTPROVIDOR {
 ### -field fpOpenPrinter
 
 (Required.) Pointer to the provider's <b>OpenPrinter</b> function, which is described in the Microsoft Windows SDK documentation. However, at the provider level, this function must supply one of the DWORD return values listed in the following table.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -498,7 +499,8 @@ typedef struct _PRINTPROVIDOR {
 <td>ROUTER_UNKNOWN </td>
 <td>The provider does not support the specified printer. The function must call <b>SetLastError</b> and specify ERROR_INVALID_NAME.</td>
 </tr>
-</table> 
+</table>
+ 
 
 The router calls each provider until one of them returns ROUTER_SUCCESS or ROUTER_STOP_ROUTING. If the provider returns ROUTER_SUCCESS, it must also return a unique handle. (For more information, see Introduction to Print Providers.) The router first attempts to call the provider's OpenPrinterEx function. If that function is not supported, the router calls OpenPrinter.
 
@@ -686,6 +688,7 @@ Obsolete. Must be <b>NULL</b>.
 ### -field fpEnumMonitors
 
 (Optional. Can be <b>NULL</b>.) Pointer to the provider's <b>EnumMonitors</b> function, which is described in the Windows SDK documentation. However, at the provider level this function must supply one of the DWORD return values listed in the following table.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -703,7 +706,8 @@ Obsolete. Must be <b>NULL</b>.
 <td>ROUTER_UNKNOWN </td>
 <td>The provider does not support the specified server.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field fpEnumPorts
@@ -725,7 +729,8 @@ Obsolete. Must be <b>NULL</b>.
 <td>ROUTER_UNKNOWN </td>
 <td>The provider does not support the specified server.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field fpAddPort
@@ -1029,10 +1034,13 @@ For internal use only. Must be <b>NULL</b>.
 
 
 
+
 ## -remarks
 
 
+
 Function pointers are listed in the order they are specified within the PRINTPROVIDOR structure. To see function descriptions grouped by related capabilities, see <a href="https://msdn.microsoft.com/4fae4b69-ed4b-47b6-b6e8-41733aed51a5">Functions Defined by Print Providers</a>.
+
 
 
 
@@ -1040,13 +1048,23 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 <a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
 
 <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
+
+
 
  
 

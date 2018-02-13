@@ -7,7 +7,7 @@ old-location: sensors\isensordriver.htm
 old-project: sensors
 ms.assetid: 4f468f1e-598e-46ae-b50e-28f73e73afda
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: sensors.isensordriver, ISensorDriver interface [Sensor Devices], ISensorDriver interface [Sensor Devices], described, ISensorDriver, sensorsclassextension/ISensorDriver, Sensor_IFaces_014342f2-5466-426b-bb11-cb4e89a7691a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

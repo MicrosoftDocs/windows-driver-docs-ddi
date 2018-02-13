@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cc348bc8-137a-4abd-9f0e-4c5fb521428f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], IO_SCSI_CAPABILITIES, ntddscsi/PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], *PIO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml, _IO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES
+ms.keywords: IO_SCSI_CAPABILITIES structure [Storage Devices], IO_SCSI_CAPABILITIES, _IO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], PIO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, ntddscsi/PIO_SCSI_CAPABILITIES, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml, *PIO_SCSI_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,6 +117,8 @@ When <b>TRUE</b>, indicates that the host adapter uses programmed I/O.
 ## -see-also
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_capabilities.md">IOCTL_SCSI_GET_CAPABILITIES</a>
+
+
 
  
 

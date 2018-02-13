@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCorePS2::EnumOptions, prcomoem/IPrintCorePS2::EnumOptions, IPrintCorePS2 interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, IPrintCorePS2, EnumOptions method [Print Devices], EnumOptions, print.iprintcoreps2_enumoptions
+ms.keywords: print.iprintcoreps2_enumoptions, EnumOptions method [Print Devices], print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, prcomoem/IPrintCorePS2::EnumOptions, EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions, IPrintCorePS2::EnumOptions, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCorePS2.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -108,7 +108,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the req
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -177,11 +179,14 @@ The method failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
@@ -192,11 +197,16 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
+
+
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
+
 
  
 

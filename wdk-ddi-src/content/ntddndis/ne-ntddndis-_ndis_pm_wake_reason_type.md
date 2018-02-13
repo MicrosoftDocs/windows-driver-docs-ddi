@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7919226a-4d36-4397-bca1-f7338b3e7ade
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisWakeReasonMediaConnect, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonMediaDisconnect, ntddndis/NdisWakeReasonUnspecified, ntddndis/NdisWakeReasonWwanSMSReceive, NdisWakeReasonWlanNLODiscovery, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, NdisWakeReasonWwanUSSDReceive, _NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWlanAPAssociationLost, NdisWakeReasonPacket, ntddndis/NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWwanUSSDReceive, netvista.ndis_pm_wake_reason_type, ntddndis/NdisWakeReasonMediaDisconnect, NdisWakeReasonWlan4WayHandshakeRequest, PNDIS_PM_WAKE_REASON_TYPE, ntddndis/PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWlanGTKHandshakeError, NdisWakeReasonWwanRegisterState, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisWakeReasonUnspecified, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonPacket, NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonWlanAPAssociationLost
+ms.keywords: NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonPacket, ntddndis/NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonWwanUSSDReceive, _NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWwanSMSReceive, ntddndis/NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWlanNLODiscovery, NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonPacket, NdisWakeReasonMediaConnect, PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, NdisWakeReasonWlanAPAssociationLost, netvista.ndis_pm_wake_reason_type, ntddndis/NdisWakeReasonWwanSMSReceive, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonMediaDisconnect, NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonUnspecified, NdisWakeReasonUnspecified, NdisWakeReasonWwanUSSDReceive, NdisWakeReasonMediaDisconnect, *PNDIS_PM_WAKE_REASON_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WAKE_REASON_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE"
+req.typenames: NDIS_PM_WAKE_REASON_TYPE, *PNDIS_PM_WAKE_REASON_TYPE
 ---
 
 # _NDIS_PM_WAKE_REASON_TYPE enumeration
@@ -140,15 +140,19 @@ The mobile broadband (MB) network adapter generated the wake-up event because it
 ## -remarks
 
 
+
 The  
     <b>WakeReason</b> member of the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wake_reason.md">NDIS_PM_WAKE_REASON</a> structure contains an <b>NDIS_PM_WAKE_REASON_TYPE</b> enumeration value.
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wake_reason.md">NDIS_PM_WAKE_REASON</a>
+
+
 
  
 

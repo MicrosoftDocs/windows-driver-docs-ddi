@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 603f8b76-eb3b-41aa-932c-322f5405a29b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD interface [Imaging Devices], RawReadCommand method, stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, IStiUSD, RawReadCommand, IStiUSD::RawReadCommand, RawReadCommand method [Imaging Devices], stiusd/IStiUSD::RawReadCommand, image.istiusd_rawreadcommand, RawReadCommand method [Imaging Devices], IStiUSD interface
+ms.keywords: stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, IStiUSD interface [Imaging Devices], RawReadCommand method, RawReadCommand, stiusd/IStiUSD::RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_rawreadcommand, IStiUSD::RawReadCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,11 +88,14 @@ Optional, caller-supplied pointer to an OVERLAPPED structure (described in the M
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 It is only necessary to implement <b>IStiUSD::RawReadCommand</b> if command and data information are read from a device by different methods. For other devices, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543834">IStiUSD::RawReadData</a> can be used for both commands and data. If the call is not implemented, it must return STIERR_UNSUPPORTED.
@@ -101,9 +104,12 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543758">IStiDevice::RawReadCommand</a>
+
+
 
  
 

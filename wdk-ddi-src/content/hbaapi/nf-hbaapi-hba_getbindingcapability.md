@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c4ac992a-7ef2-47b6-88d1-54b47b4a0af4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetBindingCapability, fibreHBA_rtns_05b57109-c484-4faf-afaa-e5e833f47ee1.xml, HBA_GetBindingCapability routine [Storage Devices], storage.hba_getbindingcapability, HBA_GetBindingCapability
+ms.keywords: hbaapi/HBA_GetBindingCapability, storage.hba_getbindingcapability, fibreHBA_rtns_05b57109-c484-4faf-afaa-e5e833f47ee1.xml, HBA_GetBindingCapability routine [Storage Devices], HBA_GetBindingCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Contains a bitwise OR of flags associated with the <a href="https://msdn.microso
 ## -returns
 
 
+
 The <b>HBA_GetBindingCapability</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetBindingCapability</b> returns one of the following qualifiers.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,17 +128,25 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 28699952-FC15-46A2-96EC-F5F8BD2391D7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_ISOCH_FREE_RESOURCES, _IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses]
+ms.keywords: IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], 1394/IRB_REQ_ISOCH_FREE_RESOURCES, _IRB_REQ_ISOCH_FREE_RESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ Specifies the resource handle to release.
 ## -remarks
 
 
+
 The bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS on success. All isochronous buffers that were attached to this resource must be detached prior to issuing this call. If a device driver attempts to free a resource handle with isochronous buffers still attached to it, the handle is not freed and the bus driver returns STATUS_ACCESS_DENIED instead.
+
 
 

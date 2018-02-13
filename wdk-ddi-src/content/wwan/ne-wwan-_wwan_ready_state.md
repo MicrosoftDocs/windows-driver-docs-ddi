@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanReadyStateInitialized, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_READY_STATE, netvista.wwan_ready_state, wwan/WwanReadyStateNotActivated, wwan/WwanReadyStateInitialized, WwanReadyStateFailure, wwan/WwanReadyStateFailure, wwan/WwanReadyStateOff, *PWWAN_READY_STATE, WwanReadyStateDeviceLocked, WWAN_READY_STATE, WwanReadyStateOff, WwanReadyStateSimNotInserted, PWWAN_READY_STATE, wwan/WwanReadyStateBadSim, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateDeviceLocked, wwan/PWWAN_READY_STATE, WwanReadyStateBadSim, _WWAN_READY_STATE, wwan/WwanReadyStateSimNotInserted, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, WwanReadyStateNotActivated
+ms.keywords: "*PWWAN_READY_STATE, netvista.wwan_ready_state, wwan/WwanReadyStateNotActivated, WwanReadyStateSimNotInserted, wwan/PWWAN_READY_STATE, WwanReadyStateInitialized, WwanReadyStateOff, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateDeviceLocked, wwan/WwanReadyStateInitialized, wwan/WwanReadyStateFailure, WwanReadyStateNotActivated, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanReadyStateDeviceLocked, wwan/WWAN_READY_STATE, wwan/WwanReadyStateOff, _WWAN_READY_STATE, WwanReadyStateFailure, WWAN_READY_STATE, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateSimNotInserted, wwan/WwanReadyStateBadSim, PWWAN_READY_STATE, WwanReadyStateBadSim"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_READY_STATE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_READY_STATE, *PWWAN_READY_STATE
+req.typenames: "*PWWAN_READY_STATE, WWAN_READY_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -120,7 +120,6 @@ Note that if a device is locked because it requires a PIN type other than PIN1 o
 ### -field WwanReadyStateNoEsimProfile
 
 
-
 ### -field WwanReadyStateMax
 
 
@@ -129,14 +128,18 @@ Note that if a device is locked because it requires a PIN type other than PIN1 o
 ## -remarks
 
 
+
 For devices that use a SIM card, this enumeration indicates if the SIM card has been initialized and
     is ready for access.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
+
+
 
  
 

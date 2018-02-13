@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e281c67a-df97-464e-9996-b15c18172dc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDataParameters, GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], IDebugBreakpoint2, IDebugBreakpoint::GetDataParameters, IDebugBreakpoint2::GetDataParameters, GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, debugger.getdataparameters, dbgeng/IDebugBreakpoint::GetDataParameters, dbgeng/IDebugBreakpoint2::GetDataParameters
+ms.keywords: IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetDataParameters, GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], dbgeng/IDebugBreakpoint2::GetDataParameters, IDebugBreakpoint::GetDataParameters, IDebugBreakpoint, GetDataParameters, debugger.getdataparameters, IDebugBreakpoint2::GetDataParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,6 +82,7 @@ The type of access that triggers the breakpoint.  For a list of possible values,
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,17 +110,21 @@ The breakpoint is not a processor breakpoint.  For more information about the br
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the information that is returned in <i>Size</i> and <i>AccessType</i>.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

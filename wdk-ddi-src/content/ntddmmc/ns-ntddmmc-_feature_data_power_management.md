@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b3f23d1-1081-4fb9-86af-6dbf7bfeb3b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_POWER_MANAGEMENT structure pointer [Storage Devices], storage.feature_data_power_management, PFEATURE_DATA_POWER_MANAGEMENT, structs-CD-ROM_b2dfa21c-3dd3-40fd-9605-05c36c4b9fc8.xml, *PFEATURE_DATA_POWER_MANAGEMENT, ntddmmc/FEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT, ntddmmc/PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT structure [Storage Devices], _FEATURE_DATA_POWER_MANAGEMENT
+ms.keywords: ntddmmc/PFEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT structure pointer [Storage Devices], _FEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT structure [Storage Devices], *PFEATURE_DATA_POWER_MANAGEMENT, structs-CD-ROM_b2dfa21c-3dd3-40fd-9605-05c36c4b9fc8.xml, storage.feature_data_power_management, ntddmmc/FEATURE_DATA_POWER_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_POWER_MANAGEMENT
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT"
+req.typenames: FEATURE_DATA_POWER_MANAGEMENT, *PFEATURE_DATA_POWER_MANAGEMENT
 ---
 
 # _FEATURE_DATA_POWER_MANAGEMENT structure
@@ -75,17 +75,23 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 ## -remarks
 
 
+
 This structure holds data for the feature named "Power Management" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can perform both initiator and logical-unit directed power management.
 
 When queried, devices supporting this feature must return the information indicated in <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>. No other feature-specific information is required. 
 
 
 
+
 ## -see-also
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
 
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

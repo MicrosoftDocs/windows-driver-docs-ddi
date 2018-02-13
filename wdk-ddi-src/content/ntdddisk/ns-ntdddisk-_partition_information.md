@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PARTITION_INFORMATION structure [Storage Devices], storage.partition_information, ntdddisk/PPARTITION_INFORMATION, *PPARTITION_INFORMATION, _PARTITION_INFORMATION, PARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml
+ms.keywords: PARTITION_INFORMATION, PPARTITION_INFORMATION, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml, ntdddisk/PPARTITION_INFORMATION, _PARTITION_INFORMATION, PARTITION_INFORMATION structure [Storage Devices], ntdddisk/PARTITION_INFORMATION, *PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], storage.partition_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPARTITION_INFORMATION, PARTITION_INFORMATION"
+req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
 ---
 
 # _PARTITION_INFORMATION structure
@@ -98,12 +98,11 @@ Specifies the number of the partition.
 
 
 
-####  Possible values are as follows:
+#####  Possible values are as follows:
 
 
 
-#### 
-
+#################### 
 
 
 ### -field BootIndicator
@@ -124,27 +123,43 @@ Indicates, when <b>TRUE</b>, that the partition information has changed. When <b
 ## -remarks
 
 
+
 The partition entry data in PARTITION_INFORMATION forms part of the drive layout information reported by the legacy routine <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a> in the <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a> structure. DRIVE_LAYOUT_INFORMATION contains an array of PARTITION_INFORMATION structures pointed to by its <b>PartitionEntry</b> member. Each partition entry contains information for a partition on the drive. PARTITION_INFORMATION is also used with the legacy routine <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a> to change the properties of the partition, such as its type, recorded on the disk. 
 
 In Windows 2000 and later operating systems, disk drivers should use structures <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a> and <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a> along with routines <a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a> and <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a> to read and alter partition information on the disk. 
 
 
 
+
 ## -see-also
-
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
-
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
-
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
-
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
+
 
  
 

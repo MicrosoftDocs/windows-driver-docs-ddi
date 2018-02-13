@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8554a5d1-07ea-4ad5-83a4-f0c15386b3d1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_pipe_config_descriptor, PUSBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, usbcamdi/USBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], stream.usbcamd_pipe_config_descriptor, USBCAMD_Pipe_Config_Descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], *PUSBCAMD_Pipe_Config_Descriptor"
+ms.keywords: usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml, usbcamdi/USBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], *PUSBCAMD_Pipe_Config_Descriptor, stream.usbcamd_pipe_config_descriptor, _pipe_config_descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,7 @@ typedef struct _pipe_config_descriptor {
 ### -field StreamAssociation
 
 Specifies the type of stream. This should be set to one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -107,12 +108,14 @@ Indicates that the stream contains both video and still data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PipeConfigFlags
 
 Specifies the pipe characteristics. This should be set to one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -158,10 +161,12 @@ Indicates a pipe that is not to be used for video or still streaming.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The camera minidriver indicates pipe stream associations by identifying all streams associated with a particular pipe. If there is more than one stream association, USBCAMD creates a virtual still pin. The still stream pin always follows the video stream pin (that is, the video stream pin is the first stream pin). 
@@ -176,9 +181,12 @@ The USBCAMD library requires that the camera must have a single configuration de
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
+
+
 
  
 

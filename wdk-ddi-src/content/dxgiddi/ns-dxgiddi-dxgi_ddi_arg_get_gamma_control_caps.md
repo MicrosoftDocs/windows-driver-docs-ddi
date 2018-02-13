@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e7930e4-ab3e-4981-9533-ed1da8c777dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_ddi_arg_get_gamma_control_caps, UMDisplayDriver_Dx10param_Structs_770eb1ba-2972-4133-b899-a096a53fc1de.xml, dxgiddi/DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure [Display Devices], DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS
+ms.keywords: DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure [Display Devices], DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, dxgiddi/DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, display.dxgi_ddi_arg_get_gamma_control_caps, UMDisplayDriver_Dx10param_Structs_770eb1ba-2972-4133-b899-a096a53fc1de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,11 @@ typedef struct DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS {
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
+
+
 
  
 

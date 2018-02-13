@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f611dff-56b5-406f-8f67-cd3744caa1b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_SVCPROV_NOTPROVISIONED, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, netvista.rilserviceprovisioningstatus, RIL_SVCPROV_TEMPMODERESTRICTED, RIL_SVCPROV_MAX, RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_MAX, ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_PROVISIONED, RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_NOTPROVISIONED
+ms.keywords: RIL_SVCPROV_TEMPMODERESTRICTED, RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, ntddrilapitypes/RIL_SVCPROV_NOTPROVISIONED, ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_MAX, RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_MAX, RIL_SVCPROV_NOTPROVISIONED, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.rilserviceprovisioningstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,23 +74,17 @@ typedef enum _RILSERVICEPROVISIONINGSTATUS {
 ### -field RIL_SVCPROV_UNKNOWN
 
 
-
 ### -field RIL_SVCPROV_NOTPROVISIONED
-
 
 
 ### -field RIL_SVCPROV_PROVISIONED
 
 
-
 ### -field RIL_SVCPROV_TEMPMODERESTRICTED
-
 
 
 ### -field RIL_SVCPROV_TEMPMODEALLOWED
 
 
-
 ### -field RIL_SVCPROV_MAX
-
 

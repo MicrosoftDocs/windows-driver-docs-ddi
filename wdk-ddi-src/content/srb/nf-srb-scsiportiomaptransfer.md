@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortIoMapTransfer, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, ScsiPortIoMapTransfer routine [Storage Devices]
+ms.keywords: srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer, ScsiPortIoMapTransfer, ScsiPortIoMapTransfer routine [Storage Devices], scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,14 @@ Specifies the number of bytes to be transferred.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Only miniport drivers of HBAs that use a system DMA controller (subordinate DMA) call <b>ScsiPortIoMapTransfer</b>. This routine must be called before such a miniport driver sets up its HBA to transfer data. The range specified by the <i>LogicalAddress</i> and <i>Length</i> must be within the buffer described by the given SRB.
@@ -108,11 +111,16 @@ After the operating system-specific port driver programs the system DMA controll
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
+
+
 
 <a href="..\srb\nf-srb-scsiportflushdma.md">ScsiPortFlushDma</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
+
 
  
 

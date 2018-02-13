@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sddef/SDCC_APP_CMD, SD_COMMAND_CLASS, sddef/SD_COMMAND_CLASS, sddef/SDCC_STANDARD, SDCC_STANDARD, SDCC_APP_CMD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD.sd_command_class, SD_COMMAND_CLASS enumeration [Buses]
+ms.keywords: sddef/SD_COMMAND_CLASS, sddef/SDCC_STANDARD, sddef/SDCC_APP_CMD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD.sd_command_class, SD_COMMAND_CLASS, SD_COMMAND_CLASS enumeration [Buses], SDCC_APP_CMD, SDCC_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -84,6 +84,8 @@ SD card drivers should not issue CMD55 (APP_CMD) commands through the SD bus int
 ## -see-also
 
 <a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
+
+
 
  
 

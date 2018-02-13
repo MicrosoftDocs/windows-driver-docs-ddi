@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool, SetBool method [Print Devices], SetBool method [Print Devices], IPrinterScriptablePropertyBag interface, SetBool, IPrinterScriptablePropertyBag interface [Print Devices], SetBool method, IPrinterScriptablePropertyBag::SetBool
+ms.keywords: SetBool method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::SetBool, printerextension/IPrinterScriptablePropertyBag::SetBool, print.iprinterscriptablepropertybag_setbool, SetBool method [Print Devices], SetBool, IPrinterScriptablePropertyBag interface [Print Devices], SetBool method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,20 +82,26 @@ The value to set.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>SetBool</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
 
  
 

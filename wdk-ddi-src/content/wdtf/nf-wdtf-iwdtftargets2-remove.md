@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5db8c912-a446-4ae7-a775-f56ffa979283
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFTargets2::Remove, dtf.iwdtftargets2_remove, IWDTFTargets2::Remove, Remove, Microsoft.WDTF.IWDTFTargets2.Remove, Remove method [Windows Device Testing Framework], IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework], Remove method, IWDTFTargets2, wdtf/IWDTFTargets2::Remove, Remove method [Windows Device Testing Framework]
+ms.keywords: wdtf/IWDTFTargets2::Remove, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Remove method, Remove, IWDTFTargets2::Remove, dtf.iwdtftargets2_remove, Microsoft::WDTF::IWDTFTargets2::Remove, Microsoft.WDTF.IWDTFTargets2.Remove, Remove method [Windows Device Testing Framework], IWDTFTargets2 interface, Remove method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ The item to remove from this collection.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 The lifetime of <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface 
@@ -89,9 +92,12 @@ not destroyed.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

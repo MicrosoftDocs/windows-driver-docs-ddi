@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint::SetOffset, SetOffset, debugger.setoffset, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, SetOffset method [Windows Debugging], IDebugBreakpoint::SetOffset, dbgeng/IDebugBreakpoint2::SetOffset, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint2::SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], SetOffset method, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: SetOffset, IDebugBreakpoint2::SetOffset, debugger.setoffset, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint interface, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint2, SetOffset method [Windows Debugging], IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffset method, IDebugBreakpoint::SetOffset, dbgeng/IDebugBreakpoint::SetOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,6 +76,7 @@ The location on the target that triggers the breakpoint.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,15 +104,19 @@ The breakpoint is deferred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

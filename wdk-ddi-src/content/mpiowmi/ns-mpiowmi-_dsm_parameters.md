@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948331f1-1398-4e6e-85cb-27bbbd79630e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DSM_PARAMETERS, _DSM_PARAMETERS, mpiowmi/PDSM_PARAMETERS, PDSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], mpiowmi/DSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml, *PDSM_PARAMETERS, storage.dsm_parameters
+ms.keywords: PDSM_PARAMETERS, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml, DSM_PARAMETERS, _DSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], PDSM_PARAMETERS structure pointer [Storage Devices], *PDSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, storage.dsm_parameters, mpiowmi/PDSM_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

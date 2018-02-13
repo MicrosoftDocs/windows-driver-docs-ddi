@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_VHF_CONFIG, VHF_CONFIG, vhf/PVHF_CONFIG, PVHF_CONFIG, vhf/VHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], hid.vhf_config, *PVHF_CONFIG, VHF_CONFIG structure [Human Input Devices]"
+ms.keywords: hid.vhf_config, vhf/VHF_CONFIG, VHF_CONFIG, *PVHF_CONFIG, _VHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], PVHF_CONFIG, vhf/PVHF_CONFIG, VHF_CONFIG structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -190,9 +190,12 @@ Optional. A pointer to a <a href="..\vhf\nc-vhf-evt_vhf_cleanup.md">EvtVhfCleanu
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+
+
 
  
 

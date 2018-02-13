@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1189fe8d-7b94-46ed-9090-bfe40f244e6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaswritepropguid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiamdef/wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices], wiasWritePropGuid
+ms.keywords: image.wiaswritepropguid, wiasWritePropGuid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid function [Imaging Devices], wiamdef/wiasWritePropGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWritePropGuid
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -86,6 +86,7 @@ TBD
 
 
 
+
 #### - gVal
 
 Specifies a GUID property value to write to the item.
@@ -94,21 +95,33 @@ Specifies a GUID property value to write to the item.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0bc02fa8-41ca-4430-9dff-e98e39b4eeef
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml, ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable, KSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], *PKSSTREAMALLOCATOR_FUNCTIONTABLE
+ms.keywords: "*PKSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable, KSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], PKSSTREAMALLOCATOR_FUNCTIONTABLE, ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56717
 ## -remarks
 
 
+
 This property is only supported by allocators supporting the DISPATCH_LEVEL function interface. Allocators supporting this property must be able to allocate and free frames at IRQL &lt;= DISPATCH_LEVEL.
 
 Because the DISPATCH_LEVEL interface is closely associated with the IRP-based interface, acquiring the function table is likely to result in the creation of an internal notification event to allow pending I/O to be completed when frames are returned to the free list. When the handle to the allocator is closed, the function table pointers are invalid and the associated events are automatically disabled.
@@ -89,13 +90,20 @@ This property is only accessible from kernel-mode.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
 
  
 

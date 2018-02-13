@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinFactory, IKsPinFactory::KsPinFactory, ksproxy/IKsPinFactory::KsPinFactory, KsPinFactory method [Streaming Media Devices], IKsPinFactory interface, IKsPinFactory, IKsPinFactory interface [Streaming Media Devices], KsPinFactory method, stream.ikspinfactory_kspinfactory, KsPinFactory method [Streaming Media Devices], ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml
+ms.keywords: ksproxy/IKsPinFactory::KsPinFactory, IKsPinFactory interface [Streaming Media Devices], KsPinFactory method, IKsPinFactory::KsPinFactory, KsPinFactory method [Streaming Media Devices], IKsPinFactory interface, KsPinFactory method [Streaming Media Devices], KsPinFactory, stream.ikspinfactory_kspinfactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, IKsPinFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ Pointer to a variable that receives the identifier of the pin factory.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+
+
 
  
 

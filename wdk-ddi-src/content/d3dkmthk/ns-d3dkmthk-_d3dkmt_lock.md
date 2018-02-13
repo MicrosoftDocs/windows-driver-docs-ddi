@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f985d0b-2b98-413d-a736-c507743ac786
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_LOCK, _D3DKMT_LOCK, D3DKMT_LOCK structure [Display Devices], display.d3dkmt_lock, OpenGL_Structs_08e60652-b888-4a1e-a9c6-3dee8f0fb50d.xml, d3dkmthk/D3DKMT_LOCK
+ms.keywords: OpenGL_Structs_08e60652-b888-4a1e-a9c6-3dee8f0fb50d.xml, d3dkmthk/D3DKMT_LOCK, D3DKMT_LOCK, _D3DKMT_LOCK, display.d3dkmt_lock, D3DKMT_LOCK structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,11 +120,17 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">D3DKMTLock</a>
 
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+
+
 
  
 

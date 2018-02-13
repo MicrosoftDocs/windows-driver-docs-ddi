@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa8f736f-1311-4217-8750-cdd134c6945c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoChromaSubsamplingShift, dxva/DXVA_VideoChromaSubsampling_ProgressiveChroma, DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling, dxva/DXVA_VideoChromaSubsampling_Unknown, dxva/DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva/DXVA_VideoChromaSubsampling, DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVA_VideoChromaSubsampling_Horizontally_Cosited, dxva/DXVA_VideoChromaSubsampling_DV_PAL, DXVA_VideoChromaSubsampling_DV_PAL, DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsampling_Unknown, dxva/DXVA_VideoChromaSubsampling_Cosited, DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling enumeration [Display Devices], dxvaref_2939ec96-fb1f-4911-916e-40d043bb58d5.xml, dxva/DXVA_VideoChromaSubsampling_Horizontally_Cosited, DXVA_VideoChromaSubsampling_Vertically_Cosited, dxva/DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsamplingShift, display.dxva_videochromasubsampling, DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsampling_Vertically_Cosited, _DXVA_VideoChromaSubsampling, dxva/DXVA_VideoChromaSubsampling_MPEG1, dxva/DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling_Cosited
+ms.keywords: dxva/DXVA_VideoChromaSubsampling_Cosited, DXVA_VideoChromaSubsampling_Cosited, DXVA_VideoChromaSubsamplingMask, dxva/DXVA_VideoChromaSubsampling_Vertically_Cosited, DXVA_VideoChromaSubsampling enumeration [Display Devices], display.dxva_videochromasubsampling, dxva/DXVA_VideoChromaSubsamplingShift, DXVA_VideoChromaSubsamplingShift, DXVA_VideoChromaSubsampling_Vertically_Cosited, DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling_DV_PAL, _DXVA_VideoChromaSubsampling, dxva/DXVA_VideoChromaSubsampling, DXVA_VideoChromaSubsampling_Horizontally_Cosited, dxvaref_2939ec96-fb1f-4911-916e-40d043bb58d5.xml, dxva/DXVA_VideoChromaSubsamplingMask, dxva/DXVA_VideoChromaSubsampling_Horizontally_Cosited, DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva/DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling, DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva/DXVA_VideoChromaSubsampling_Unknown, DXVA_VideoChromaSubsampling_Unknown, dxva/DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsampling_DV_PAL, dxva/DXVA_VideoChromaSubsampling_MPEG2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -143,15 +143,19 @@ A bitwise OR of the DXVA_VideoChromaSubsampling_Horizontally_Cosited, and DXVA_V
 ## -remarks
 
 
+
 The enumerators of DXVA_VideoChromaSubsampling can be ORed together to create a value in the <b>VideoChromaSubsampling</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
 
 Cosite variations indicate that the chroma samples are aligned with the luma samples. Typically, 4:2:0 data with chroma is aligned in one or more directions with the luma data. Note that 4:4:4, 4:2:2 and 4:1:1 data are always cosited in both directions.
 
 
 
+
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+
 
  
 

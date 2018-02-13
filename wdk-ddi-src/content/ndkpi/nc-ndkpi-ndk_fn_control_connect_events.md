@@ -84,11 +84,14 @@ A BOOLEAN value that specifies if a connection is paused or restarted. If <i>Pau
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This function is closely related to the <i>NdkConnectEventCallback</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_event_callback.md">NDK_FN_CONNECT_EVENT_CALLBACK</a>) function. The  <i>NDK_FN_CONNECT_EVENT_CALLBACK</i> function is called by an NDK provider to notify a consumer about an incoming connection request.
@@ -98,11 +101,16 @@ To restart  the reception of connect event callbacks, the consumer passes FALSE 
 
 
 
+
 ## -see-also
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_event_callback.md">NDK_FN_CONNECT_EVENT_CALLBACK</a>
 
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
 
  
 

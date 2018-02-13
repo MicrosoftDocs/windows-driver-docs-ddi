@@ -40,7 +40,7 @@ apiname:
 -	ConfigureAuthenticatedChannel
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback
@@ -104,7 +104,9 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_con
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,14 +157,18 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The byte array that is referenced by the <i>pInputData</i> parameter is formatted in the following way:
+
 <ul>
 <li>
 This array starts with a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a> structure. 
@@ -211,11 +217,13 @@ The data that follows this structure is in a format that is specified by the <b>
 
 
 </li>
-</ul>The <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a> structure contains an AES-based one-key CBC message authentication code (OMAC) of the data. The display miniport driver must calculate its own OMAC over the data to authenticate the data. This input structure also contains a driver handle to the authenticated channel, a sequence number, and a GUID that indicates the configuration type.
+</ul>
+The <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a> structure contains an AES-based one-key CBC message authentication code (OMAC) of the data. The display miniport driver must calculate its own OMAC over the data to authenticate the data. This input structure also contains a driver handle to the authenticated channel, a sequence number, and a GUID that indicates the configuration type.
 
 
 
 The display miniport driver follows these steps when it initializes the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a> structure:
+
 <ol>
 <li>
 The driver must copy the input data to the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a> structure.
@@ -231,7 +239,9 @@ The driver must set the  <b>ReturnCode</b> member to the same return code that i
 The driver sets the <b>omac</b> member to zero and then calculates an OMAC for the data in the structure. The driver then sets the <b>omac</b> member to the OMAC that it calculated.
 
 </li>
-</ol>The display miniport driver must return  <b>E_INVALIDARG</b> for the <b>ConfigureAuthenticatedChannel</b> call under the following conditions:
+</ol>
+The display miniport driver must return  <b>E_INVALIDARG</b> for the <b>ConfigureAuthenticatedChannel</b> call under the following conditions:
+
 <ul>
 <li>
 The <b>omac</b> member of the  <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a> structure does not match the OMAC that the driver calculated.
@@ -254,13 +264,20 @@ The <i>InputDataSize</i> parameter is less than the size of the <a href="..\d3d1
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input.md">D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
+
+
 
  
 

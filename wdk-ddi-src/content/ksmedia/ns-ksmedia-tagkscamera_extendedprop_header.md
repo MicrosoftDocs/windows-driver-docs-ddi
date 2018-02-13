@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2CE89C1E-8FE8-4304-BD3F-5A926CAC74B4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCAMERA_EXTENDEDPROP_HEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_HEADER, tagKSCAMERA_EXTENDEDPROP_HEADER"
+ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, *PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, tagKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, KSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_EXTENDEDPROP_HEADER
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER
+req.typenames: "*PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER"
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_HEADER structure
@@ -102,6 +102,7 @@ The high order bit of the <b>Flags</b> value is reserved.  This bit serves as th
 ### -field Capability
 
 This member is read only and indicates the standard capabilities of the control. The following capabilities are defined.
+
 <table>
 <tr>
 <th>Value</th>
@@ -127,12 +128,15 @@ Applies only to asynchronous controls. This flag marks the control operation as 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_value.md">KSCAMERA_EXTENDEDPROP_VALUE</a>
+
+
 
  
 

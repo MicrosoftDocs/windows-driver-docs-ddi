@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread, atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, AtaPortRegistryControllerKeyRead routine [Storage Devices]
+ms.keywords: storage.ataportregistrycontrollerkeyread, AtaPortRegistryControllerKeyRead routine [Storage Devices], AtaPortRegistryControllerKeyRead, irb/AtaPortRegistryControllerKeyRead, atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,6 +90,7 @@ Contains the name of the registry value to read.
 ### -param ValueType [in]
 
 Indicates the type of the data that is contained in the registry value. This parameter should be assigned one of values indicated in the following table.
+
 <table>
 <tr>
 <th>Value type</th>
@@ -125,7 +126,8 @@ A null-terminated, Unicode string.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [out, optional]
@@ -139,6 +141,7 @@ TBD
 
 
 
+
 #### - Length [in, out]
 
 A pointer to the number of bytes of data to copy. If the operation fails because of an insufficient buffer, the location that is pointed to by <i>Length</i> will update to the actual length of the data in the registry.
@@ -147,11 +150,14 @@ A pointer to the number of bytes of data to copy. If the operation fails because
 ## -returns
 
 
+
 <b>AtaPortRegistryControllerKeyRead</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>. The <b>AtaPortRegistryControllerKeyRead</b> routine also returns <b>FALSE</b> if the miniport driver does not call it from the correct routine.
 
 
 
+
 ## -remarks
+
 
 
 The buffer at <i>Buffer</i> must be allocated by using <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>. 
@@ -160,13 +166,20 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyRead</b> either in 
 
 
 
-## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
+
+
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
 
  
 

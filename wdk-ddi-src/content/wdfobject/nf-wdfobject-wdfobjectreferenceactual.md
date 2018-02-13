@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0bb58c1-1036-496a-b108-c0d5e5de3bc2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfobjectreferenceactual, WdfObjectReferenceActual, kmdf.wdfobjectreferenceactual, DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, wdfobject/WdfObjectReferenceActual, WdfObjectReferenceActual method
+ms.keywords: wdf.wdfobjectreferenceactual, kmdf.wdfobjectreferenceactual, wdfobject/WdfObjectReferenceActual, DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, WdfObjectReferenceActual method, WdfObjectReferenceActual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,13 +99,16 @@ A pointer to a null-terminated constant character string that represents the nam
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If your driver calls <b>WdfObjectReferenceActual</b> to increment a reference count, the driver must call <a href="..\wdfobject\nf-wdfobject-wdfobjectdereferenceactual.md">WdfObjectDereferenceActual</a> to decrement the count.
@@ -117,10 +120,33 @@ You can view the tag, line number, and file name values by using the <b>!wdftagt
 For more information about object reference counts, see <a href="https://msdn.microsoft.com/33efc3a8-ac46-4626-ba0f-beb1eaa9ee47">Framework Object Life Cycle</a>.
 
 
+#### Examples
+
+The following code example increments an object's reference count and assigns a tag value, line number, and file name to the reference.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfObjectReferenceActual(
+                         object,
+                         pTag,
+                         line,
+                         FILE_NAME
+                         );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+
+
 
  
 

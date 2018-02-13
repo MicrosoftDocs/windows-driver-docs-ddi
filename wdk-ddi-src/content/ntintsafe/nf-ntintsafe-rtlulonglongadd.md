@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AE58D20E-25A0-4D45-9E60-38EF2F1D1EF3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulonglongadd, RtlULongLongAdd function [Kernel-Mode Driver Architecture], RtlULongLongAdd, ntintsafe/RtlULongLongAdd
+ms.keywords: ntintsafe/RtlULongLongAdd, RtlULongLongAdd, kernel.rtlulonglongadd, RtlULongLongAdd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 #### - pllResult [out]
 
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
@@ -93,6 +94,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

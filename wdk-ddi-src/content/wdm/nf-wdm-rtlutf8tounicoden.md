@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0b5f791a-9814-4058-8ee0-8f113ca3ade2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_67399c4f-a942-4493-b141-6824b6de570c.xml, wdm/RtlUTF8ToUnicodeN, kernel.rtlutf8tounicoden, RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUTF8ToUnicodeN, kernel.rtlutf8tounicoden, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], k109_67399c4f-a942-4493-b141-6824b6de570c.xml, wdm/RtlUTF8ToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,9 @@ Specifies the number of bytes in the UTF-8 source string that the <i>UTF8StringS
 ## -returns
 
 
+
 <b>RtlUTF8ToUnicodeN</b> returns STATUS_SUCCESS if the call is successful and all UTF-8 character codes in the input string were converted to the corresponding Unicode character codes in the output string. It returns STATUS_SOME_NOT_MAPPED if the call is successful but one or more input characters were invalid and were converted to the Unicode replacement character, U+FFFD. Possible error return values include the following error codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ The <i>UTF8StringSource</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Unicode output string is null-terminated only if the UTF-8 input string is null-terminated.
@@ -162,9 +167,12 @@ You can use the <b>RtlUTF8ToUnicode</b> and <b>RtlUnicodeToUTF8N</b> routines to
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlunicodetoutf8n.md">RtlUnicodeToUTF8N</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.ipcr, 61883/PIPCR, IPCR, PIPCR structure pointer [Buses], PIPCR, *PIPCR, 61883/IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, _IPCR, IPCR structure [Buses]
+ms.keywords: "*PIPCR, IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, 61883/IPCR, IPCR structure [Buses], IEEE.ipcr, PIPCR, _IPCR, PIPCR structure pointer [Buses], 61883/PIPCR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,8 @@ Indicates, when one, that the corresponding input plug is on-line. When zero it 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a>
+
+
 
  
 

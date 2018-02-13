@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2759486f-7eaa-4af4-b9a9-2e44354f411b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, _UNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses], 61883/UNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL structure pointer [Buses], IEEE.unit_diag_level, *PUNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL
+ms.keywords: "*PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, _UNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses], PUNIT_DIAG_LEVEL structure pointer [Buses], 61883/UNIT_DIAG_LEVEL, IEEE.unit_diag_level"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,9 +74,11 @@ The bitmask representing the diaglevel. Possible settings are:
 
 
 
+
 #### DIAGLEVEL_NONE
 
 Nothing set.
+
 
 
 #### DIAGLEVEL_IGNORE_OPLUG
@@ -84,14 +86,17 @@ Nothing set.
 Ignore programming of the oPCR plug on the device when set.
 
 
+
 #### DIAGLEVEL_IGNORE_IPLUG
 
 Ignore programming of the iPCR on the device when set.
 
 
+
 #### DIAGLEVEL_SET_CHANNEL_63
 
 Set the channel to 63 when disconnecting from the device.
+
 
 
 #### DIAGLEVEL_IPCR_IGNORE_FREE
@@ -102,6 +107,8 @@ Do not free isochronous resources when disconnecting from the device iPCR.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
+
+
 
  
 

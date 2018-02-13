@@ -7,8 +7,8 @@ old-location: ifsk\fltsendmessage.htm
 old-project: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, ifsk.fltsendmessage, FltSendMessage function [Installable File System Drivers], FltSendMessage, fltkernel/FltSendMessage
+ms.date: 2/7/2018
+ms.keywords: fltkernel/FltSendMessage, FltSendMessage function [Installable File System Drivers], ifsk.fltsendmessage, FltSendMessage, FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,7 +111,9 @@ A pointer to a timeout value that specifies the total absolute or relative lengt
 ## -returns
 
 
+
 <b>FltSendMessage</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,11 +152,14 @@ The <i>Timeout</i> interval expired before the message could be delivered or bef
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>FltSendMessage</b> sends a message to a user-mode application on behalf of a minifilter driver or a minifilter driver instance. 
@@ -162,6 +167,7 @@ The <i>Timeout</i> interval expired before the message could be delivered or bef
 If the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a> to get the message before the minifilter driver calls <b>FltSendMessage</b> to send it, the message is delivered immediately. (This is typically the case when the application calls <b>FilterGetMessage</b> from inside a message loop.) 
 
 Otherwise, if <i>Timeout</i> is nonzero, the minifilter driver is put into a wait state as follows: 
+
 <ul>
 <li>
 If the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a> before the <i>Timeout</i> interval expires, the message is delivered. 
@@ -171,11 +177,13 @@ If the application calls <a href="https://msdn.microsoft.com/library/windows/har
 Otherwise, the message is not delivered, and <b>FltSendMessage</b> returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.) 
 
 </li>
-</ul>If <i>Timeout</i> is zero when the message is being sent, the minifilter driver is put into a wait state indefinitely. When the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>, the message is delivered. 
+</ul>
+If <i>Timeout</i> is zero when the message is being sent, the minifilter driver is put into a wait state indefinitely. When the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>, the message is delivered. 
 
 After the message is delivered, if <i>ReplyBuffer</i> is <b>NULL</b>, <b>FltSendMessage</b> returns STATUS_SUCCESS. 
 
 Otherwise, if <i>Timeout</i> is nonzero, the minifilter driver is put into a wait state as follows: 
+
 <ul>
 <li>
 If the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> before the <i>Timeout</i> interval expires, the minifilter driver receives the reply, and <b>FltSendMessage</b> returns STATUS_SUCCESS. 
@@ -185,7 +193,9 @@ If the application calls <a href="https://msdn.microsoft.com/library/windows/har
 Otherwise, the minifilter driver does not receive a reply, and <b>FltSendMessage</b> returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.) 
 
 </li>
-</ul>If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, the minifilter driver is put into a wait state indefinitely. When the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>, the minifilter driver receives the reply, and <b>FltSendMessage</b> returns STATUS_SUCCESS.
+</ul>
+If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, the minifilter driver is put into a wait state indefinitely. When the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>, the minifilter driver receives the reply, and <b>FltSendMessage</b> returns STATUS_SUCCESS.
+
 <div class="alert"><b>Important</b>    Due to (system-specific) structure <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">padding</a> requirements, accuracy is required when you set the size of buffers that are associated with <b>FltSendMessage</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>. As an example, assume data must be sent (via <b>FilterReplyMessage</b>) to a minifilter.  The user-mode component might declare the following structure to do so:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -204,22 +214,32 @@ Otherwise, the minifilter driver does not receive a reply, and <b>FltSendMessage
 
 <p class="note">Therefore, we recommend that you call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> and <b>FltSendMessage</b> (leveraging the above example) by setting <i>dwReplyBufferSize</i> and <i>ReplyLength</i> both to s<b>izeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b> instead of <b>sizeof(REPLY_STRUCT)</b>. This ensures that any extra padding at the end of the REPLY_STRUCT structure is ignored.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSendMessage function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSendMessage function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 12052128-9ea7-41cd-bb75-be7175e26c12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, image.iwiaminidrv_drvvalidateitemproperties, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv::drvValidateItemProperties
+ms.keywords: drvValidateItemProperties method [Imaging Devices], image.iwiaminidrv_drvvalidateitemproperties, drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, drvValidateItemProperties, IWiaMiniDrv, IWiaMiniDrv::drvValidateItemProperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,6 +98,7 @@ HRESULT drvValidateItemProperties(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -126,21 +127,31 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>.
 
 The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetitemtype.md">wiasGetItemType</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
+
+
 
  
 

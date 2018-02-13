@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
+ms.keywords: storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml, storage.storportgetactivenodecount, StorPortGetActiveNodeCount, storport/StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to a variable that holds the number of nodes.
 ## -returns
 
 
+
 The <b>StorPortGetActiveNodeCount</b>routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,6 +123,8 @@ The operation fails with this return value if one or more of the parameters are 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

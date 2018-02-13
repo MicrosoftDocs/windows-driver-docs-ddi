@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e5b35b0d-c7ad-4a67-8552-13df4c9c2b84
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, DmStructs_9d43af01-039a-4f68-8583-b42ae54a5bbe.xml, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, display.dxgkmdt_opm_set_protection_level_parameters, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Display Devices]"
+ms.keywords: DmStructs_9d43af01-039a-4f68-8583-b42ae54a5bbe.xml, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, display.dxgkmdt_opm_set_protection_level_parameters, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Display Devices], d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, _DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,9 +82,11 @@ A value that specifies the protection level to set for one of the following prot
 
 
 
+
 #### DXGKMDT_OPM_PROTECTION_TYPE_ACP
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_acp_protection_level.md">DXGKMDT_OPM_ACP_PROTECTION_LEVEL</a>-typed value that identifies the Analog Copy Protection (ACP) level that the protected output uses.
+
 
 
 #### DXGKMDT_OPM_PROTECTION_TYPE_CGMSA
@@ -92,9 +94,11 @@ A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_acp_protection_level.md">DXGKMDT_O
 A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_cgmsa.md">DXGKMDT_OPM_CGMSA</a>-typed value that identifies the Content Generation Management System Analog (CGMS-A) protection level that the protected output uses.
 
 
+
 #### DXGKMDT_OPM_PROTECTION_TYPE_HDCP or DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP
 
 A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_protection_level.md">DXGKMDT_OPM_HDCP_PROTECTION_LEVEL</a>-typed value that identifies the High-bandwidth Digital Content Protection (HDCP) level that the protected output uses. Protected outputs with COPP semantics can use only DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP; protected outputs with OPM semantics can use only DXGKMDT_OPM_PROTECTION_TYPE_HDCP. 
+
 
 
 #### DXGKMDT_OPM_PROTECTION_TYPE_DPCP
@@ -114,17 +118,29 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_protection_level.md">DXGKMDT_OPM_HDCP_PROTECTION_LEVEL</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
+
+
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_cgmsa.md">DXGKMDT_OPM_CGMSA</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_protection_level.md">DXGKMDT_OPM_HDCP_PROTECTION_LEVEL</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560861">DXGKMDT_OPM_DPCP_PROTECTION_LEVEL</a>
 
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_type.md">DXGKMDT_OPM_PROTECTION_TYPE</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_acp_protection_level.md">DXGKMDT_OPM_ACP_PROTECTION_LEVEL</a>
+
+
 
  
 

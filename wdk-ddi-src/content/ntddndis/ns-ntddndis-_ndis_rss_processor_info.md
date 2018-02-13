@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f40a815-0247-428c-a46f-d3cdbf7e8058
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR_INFO, ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, *PNDIS_RSS_PROCESSOR_INFO, netvista.ndis_rss_processor_info, ntddndis/PNDIS_RSS_PROCESSOR_INFO, _NDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR_INFO, ntddndis/NDIS_RSS_PROCESSOR_INFO
+ms.keywords: "_NDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR_INFO, netvista.ndis_rss_processor_info, *PNDIS_RSS_PROCESSOR_INFO, ntddndis/NDIS_RSS_PROCESSOR_INFO, ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, ntddndis/PNDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ The
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_PROCESSOR_INFO</b>. NDIS also sets the 
      <b>Revision</b> and 
      <b>Size</b> members to the values shown in the following table.
+
 <table>
 <tr>
 <th>NDIS version</th>
@@ -112,7 +113,8 @@ NDIS 6.30
 <td><b>NDIS_RSS_PROCESSOR_INFO_REVISION_2</b></td>
 <td><b>NDIS_SIZEOF_RSS_PROCESSOR_INFO_REVISION_2</b></td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
@@ -123,7 +125,9 @@ Reserved. NDIS sets this member to zero.
 ### -field RssBaseProcessor
 
 The starting processor number that is used for RSS. 
-<div class="alert"><b>Note</b>  The RSS base CPU number is the CPU number of the first CPU that RSS can use. RSS cannot use the CPUs that are numbered below the base CPU number.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The RSS base CPU number is the CPU number of the first CPU that RSS can use. RSS cannot use the CPUs that are numbered below the base CPU number.</div>
+<div> </div>
 
 ### -field MaxNumRssProcessors
 
@@ -170,6 +174,7 @@ Reserved.
 ## -remarks
 
 
+
 NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls to the 
     <a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
     NdisGetRssProcessorInformation</a> function. After 
@@ -178,16 +183,25 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
 
 <a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
    NdisGetRssProcessorInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

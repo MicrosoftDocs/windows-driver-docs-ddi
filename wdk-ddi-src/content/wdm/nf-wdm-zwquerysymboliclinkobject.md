@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, ZwQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject, wdm/NtQuerySymbolicLinkObject
+ms.keywords: ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, wdm/NtQuerySymbolicLinkObject, NtQuerySymbolicLinkObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,17 +89,24 @@ Pointer to an initialized Unicode string that receives the target of the symboli
 ## -returns
 
 
+
 <b>ZwQuerySymbolicLinkObject</b> returns either STATUS_SUCCESS to indicate the routine completed without error or STATUS_BUFFER_TOO_SMALL if the Unicode string provided at <i>LinkTarget</i> is too small to hold the returned string.
+
 
 
 
 ## -remarks
 
 
+
 Before calling this routine, driver writers must ensure that the Unicode string at <i>LinkTarget </i>has been properly initialized and a buffer for the string has been allocated. The <b>MaximumLength</b> and <b>Buffer</b> members of the Unicode string must be set before calling <b>ZwQuerySymbolicLinkObject</b> or the call will fail.
 
 If <b>ZwQuerySymbolicLinkObject</b> returns STATUS_BUFFER_TOO_SMALL drivers should examine the value returned at <i>ReturnedLength</i>. The number returned in this variable indicates the maximum length that the Unicode string for the target of the symbolic link.
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtQuerySymbolicLinkObject</b>" instead of "<b>ZwQuerySymbolicLinkObject</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtQuerySymbolicLinkObject</b>" instead of "<b>ZwQuerySymbolicLinkObject</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
@@ -107,7 +114,11 @@ If <b>ZwQuerySymbolicLinkObject</b> returns STATUS_BUFFER_TOO_SMALL drivers shou
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
+
+
 
  
 

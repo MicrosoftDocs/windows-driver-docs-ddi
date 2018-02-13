@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 68e15b98-e58a-4789-80d0-fc31f936345e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RemoveDevice method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFPNPAction2.RemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::RemoveDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RemoveDevice method, RemoveDevice, dtf.iwdtfpnpaction2_removedevice, IWDTFPNPAction2::RemoveDevice, IWDTFPNPAction2, wdtfpnpaction/IWDTFPNPAction2::RemoveDevice, RemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface
+ms.keywords: RemoveDevice, wdtfpnpaction/IWDTFPNPAction2::RemoveDevice, IWDTFPNPAction2, IWDTFPNPAction2::RemoveDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RemoveDevice method, RemoveDevice method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFPNPAction2.RemoveDevice, RemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, Microsoft::WDTF::IWDTFPNPAction2::RemoveDevice, dtf.iwdtfpnpaction2_removedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,20 +76,26 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 Under the covers, this will call DIF_REMOVE.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

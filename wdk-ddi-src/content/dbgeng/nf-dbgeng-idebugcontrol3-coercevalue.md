@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl2::CoerceValue, IDebugControl3::CoerceValue, debugger.coercevalue, dbgeng/IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::CoerceValue, CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, IDebugControl3, IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface
+ms.keywords: IDebugControl2, dbgeng/IDebugControl2::CoerceValue, IDebugControl3::CoerceValue, CoerceValue, IDebugControl3, dbgeng/IDebugControl3::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl3 interface, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl2::CoerceValue, IDebugControl::CoerceValue, dbgeng/IDebugControl::CoerceValue, IDebugControl, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl2 interface [Windows Debugging], CoerceValue method, CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, IDebugControl3 interface [Windows Debugging], CoerceValue method, debugger.coercevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,6 +89,7 @@ Receives the converted value.  The type of this value will be the type specified
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,28 +106,40 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method converts a value of one type into a value of another type.  If the specified <i>OutType</i> is not capable of containing the information supplied by the <i>In</i> variable, data will be lost.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+
 
  
 

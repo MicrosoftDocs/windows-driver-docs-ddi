@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7368a2d6-fea3-411e-85d9-c09764bb3b8e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetStackOffset method [Windows Debugging], IDebugRegisters::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters interface, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, debugger.getstackoffset, dbgeng/IDebugRegisters2::GetStackOffset, IDebugRegisters2::GetStackOffset, IDebugRegisters interface [Windows Debugging], GetStackOffset method, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, IDebugRegisters2, GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method
+ms.keywords: IDebugRegisters interface [Windows Debugging], GetStackOffset method, GetStackOffset method [Windows Debugging], IDebugRegisters2::GetStackOffset, dbgeng/IDebugRegisters2::GetStackOffset, IDebugRegisters::GetStackOffset, GetStackOffset method [Windows Debugging], IDebugRegisters interface, GetStackOffset, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetStackOffset method, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, debugger.getstackoffset, GetStackOffset method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters::GetStackOffset, IDebugRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Receives the location in the process's virtual address space of the current thre
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,11 +95,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The meaning of value returned by this method is architecture specific.
@@ -108,13 +113,20 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
 
  
 

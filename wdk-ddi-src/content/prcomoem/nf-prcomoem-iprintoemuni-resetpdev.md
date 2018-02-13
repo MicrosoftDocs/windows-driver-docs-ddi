@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemUni::ResetPDEV, IPrintOemUni interface [Print Devices], ResetPDEV method, ResetPDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, ResetPDEV, ResetPDEV method [Print Devices]
+ms.keywords: print.iprintoemuni_resetpdev, IPrintOemUni, prcomoem/IPrintOemUni::ResetPDEV, ResetPDEV, IPrintOemUni interface [Print Devices], ResetPDEV method, IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, ResetPDEV method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Caller-supplied pointer to a DEVOBJ structure into which the method should place
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,13 +112,16 @@ The operation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the operation fails, this method should call <b>SetLastError</b>.
 
 
 
+
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::ResetPDEV</code> method.
@@ -127,9 +132,12 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556276">DrvResetPDEV</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ebdf120-ecdd-474b-961d-958179cf30e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle, d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle
+ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], display.d3dkmtopenprotectedsessionfromnthandle, d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTOpenProtectedSessionFromNtHandle(
 
 
 
+
 #### - D3dkmt_openprotectedsessionfromnthandle [in, out]
 
 Holds information to open the protected session.
@@ -78,6 +79,8 @@ Holds information to open the protected session.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

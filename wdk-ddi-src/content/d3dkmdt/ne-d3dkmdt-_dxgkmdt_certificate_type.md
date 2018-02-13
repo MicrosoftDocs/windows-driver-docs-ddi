@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aad96bf7-46d3-4859-b324-f48cdb99a594
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_FORCE_ULONG, d3dkmdt/DXGKMDT_CERTIFICATE_TYPE, d3dkmdt/DXGKMDT_OPM_CERTIFICATE, d3dkmdt/DXGKMDT_UAB_CERTIFICATE, DmEnums_837195ed-375e-43ef-a854-1d1f0aab0c84.xml, _DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_COPP_CERTIFICATE, d3dkmdt/DXGKMDT_COPP_CERTIFICATE, DXGKMDT_CERTIFICATE_TYPE enumeration [Display Devices], d3dkmdt/DXGKMDT_FORCE_ULONG, DXGKMDT_OPM_CERTIFICATE, display.dxgkmdt_certificate_type, DXGKMDT_UAB_CERTIFICATE
+ms.keywords: d3dkmdt/DXGKMDT_OPM_CERTIFICATE, d3dkmdt/DXGKMDT_CERTIFICATE_TYPE, DXGKMDT_FORCE_ULONG, DXGKMDT_CERTIFICATE_TYPE enumeration [Display Devices], DmEnums_837195ed-375e-43ef-a854-1d1f0aab0c84.xml, DXGKMDT_UAB_CERTIFICATE, DXGKMDT_COPP_CERTIFICATE, d3dkmdt/DXGKMDT_FORCE_ULONG, _DXGKMDT_CERTIFICATE_TYPE, d3dkmdt/DXGKMDT_COPP_CERTIFICATE, display.dxgkmdt_certificate_type, DXGKMDT_OPM_CERTIFICATE, d3dkmdt/DXGKMDT_UAB_CERTIFICATE, DXGKMDT_CERTIFICATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,7 +88,6 @@ Indicates a User Accessible Bus (UAB) certificate.
 ### -field DXGKMDT_INDIRECT_DISPLAY_CERTIFICATE
 
 
-
 ### -field DXGKMDT_FORCE_ULONG
 
 Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. You should not use this value. 
@@ -97,15 +96,21 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 ## -remarks
 
 
+
 For more information about certificates that are used with OPM, download the Output Content Protection document at the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
+
 
 
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
+
 
  
 

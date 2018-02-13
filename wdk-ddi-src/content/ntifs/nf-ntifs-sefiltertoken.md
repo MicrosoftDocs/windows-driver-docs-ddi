@@ -7,8 +7,8 @@ old-location: ifsk\sefiltertoken.htm
 old-project: ifsk
 ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken, SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml, ntifs/SeFilterToken
+ms.date: 2/7/2018
+ms.keywords: ifsk.sefiltertoken, ntifs/SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml, SeFilterToken routine [Installable File System Drivers], SeFilterToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ Pointer to a primary or impersonation token. The token can also be a restricted 
 ### -param Flags [in]
 
 Specifies additional privilege options. This parameter can be zero or a combination of the following values. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -105,7 +106,8 @@ Stores the TOKEN_SANDBOX_INERT flag in the token.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param SidsToDisable [in, optional]
@@ -147,6 +149,7 @@ TBD
 
 
 
+
 #### - NewToken [out]
 
 Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. 
@@ -155,14 +158,18 @@ Pointer to a caller-allocated variable that receives the address of the new rest
 ## -returns
 
 
+
 If one or more of the parameter values were invalid, <b>SeFilterToken</b> returns STATUS_INVALID_PARAMETER. (This value is returned if the target token is not an impersonation token.) Otherwise, <b>SeFilterToken</b> returns STATUS_SUCCESS. 
+
 
 
 
 ## -remarks
 
 
+
 <b>SeFilterToken</b> can restrict the token in the following ways: 
+
 <ul>
 <li>
 Apply the deny-only attribute to SIDs in the token so they cannot be used to access secured objects. For more information about the deny-only attribute, see SID Attributes in an Access Token in the Microsoft Windows SDK documentation. 
@@ -176,7 +183,8 @@ Remove privileges from the token.
 Specify a list of restricting SIDs, which the system uses when it checks the token's access to a securable object. The system performs two access checks: one using the token's enabled SIDs, and another using the list of restricting SIDs. Access is granted only if both access checks allow the requested access rights.
 
 </li>
-</ul>The restricted token can be used together with <a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a> and <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a> to create a process that has restricted access rights and privileges. 
+</ul>
+The restricted token can be used together with <a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a> and <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a> to create a process that has restricted access rights and privileges. 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -184,33 +192,56 @@ When the token returned in <i>NewToken</i> is no longer needed, free it by calli
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
-
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
-
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
 
 <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
 
- 
+
+
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+
+
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeFilterToken routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeFilterToken routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: B8C422C0-7E42-4BE7-8919-A4ABF33E8D5E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfsystemaction2_poweranalyzetracebyfile, Microsoft::WDTF::IWDTFSystemAction2::PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile, IWDTFSystemAction2::PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2, wdtfsystemaction/IWDTFSystemAction2::PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerAnalyzeTraceByFile method, Microsoft.WDTF.IWDTFSystemAction2.PowerAnalyzeTraceByFile
+ms.keywords: PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft::WDTF::IWDTFSystemAction2::PowerAnalyzeTraceByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile, IWDTFSystemAction2::PowerAnalyzeTraceByFile, dtf.iwdtfsystemaction2_poweranalyzetracebyfile, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerAnalyzeTraceByFile method, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], wdtfsystemaction/IWDTFSystemAction2::PowerAnalyzeTraceByFile, IWDTFSystemAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,13 +78,17 @@ Specifies the location to store the trace message (.etl)
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

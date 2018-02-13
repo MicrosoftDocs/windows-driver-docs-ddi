@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwSetEaFile routine [Kernel-Mode Driver Architecture], ntifs/ZwSetEaFile, kernel.zwseteafile, ZwSetEaFile
+ms.keywords: kernel.zwseteafile, ZwSetEaFile, ntifs/ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,9 @@ Length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 ## -returns
 
 
+
 <b>ZwSetEaFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following:
+
 <table>
 <tr>
 <th>Return value</th>
@@ -110,15 +112,21 @@ The EaList parameter is not formatted correctly. This is an error code.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
+
 
  
 

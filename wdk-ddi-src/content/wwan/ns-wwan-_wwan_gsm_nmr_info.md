@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EF22D5C3-7A3B-4A96-A050-FCB71CA2C149
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_GSM_NMR_INFO, WWAN_GSM_NMR_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR_INFO, *PWWAN_GSM_NMR_INFO, wwan/PWWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO, netvista.wwan_gsm_nmr_info, WWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_GSM_NMR_INFO, PWWAN_GSM_NMR_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR_INFO, WWAN_GSM_NMR_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_gsm_nmr_info, PWWAN_GSM_NMR_INFO, wwan/WWAN_GSM_NMR_INFO, *PWWAN_GSM_NMR_INFO, wwan/PWWAN_GSM_NMR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,12 +108,17 @@ The radio Base Station ID of the serving cell (0-63). Use 0xFFFFFFFF when this i
 ### -field RxLevel
 
 The received signal strength (RSS) of the serving cell (0-63), where
-<pre class="syntax" xml:space="preserve"><code>X = 0, if RSS &lt; -110 dBm</code></pre><pre class="syntax" xml:space="preserve"><code>X = 63, if RSS &gt; -47 dBm</code></pre><pre class="syntax" xml:space="preserve"><code>X = integer [RSS + 110], if -110 &lt;= RSS &lt;= -47</code></pre>Use 0xFFFFFFFF when this information is not available.
+
+<pre class="syntax" xml:space="preserve"><code>X = 0, if RSS &lt; -110 dBm</code></pre>
+<pre class="syntax" xml:space="preserve"><code>X = 63, if RSS &gt; -47 dBm</code></pre>
+<pre class="syntax" xml:space="preserve"><code>X = integer [RSS + 110], if -110 &lt;= RSS &lt;= -47</code></pre>
+Use 0xFFFFFFFF when this information is not available.
 
 
 ### -field Data
 
  
+
 
 
 
@@ -126,11 +131,19 @@ The data buffer containing <i>ProviderId</i>.
 
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a178ef0-0741-4b0c-a688-cae3923135ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setstreamsource, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], _D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE
+ms.keywords: "_D3DDDIARG_SETSTREAMSOURCE, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource, D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ The <b>Stride</b> value must be DWORD-aligned.
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
+
+
 
  
 

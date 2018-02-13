@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: D6C03D60-9FC4-4EF1-A7DD-4A91990D5CF1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, stream.kscamera_extendedprop_cameraoffset, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET
+ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure pointer [Streaming Media Devices], stream.kscamera_extendedprop_cameraoffset, *PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/KSCAMERA_EXTENDEDPROP_CAMERAOFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_EXTENDEDPROP_CAMERAOFFSET
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, *PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET
+req.typenames: "*PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET"
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure
@@ -94,7 +94,11 @@ Reserved. Set to 0.
 
 <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_header.md">KSCAMERA_EXTENDEDPROP_HEADER</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567571">KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtFlushVirtualMemory, ZwFlushVirtualMemory, NtFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, ntifs/ZwFlushVirtualMemory
+ms.keywords: ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtFlushVirtualMemory, ZwFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,9 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> 
 ## -returns
 
 
+
 <b>ZwFlushVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -185,7 +187,9 @@ The file system encountered a locking conflict.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -193,18 +197,27 @@ The file system encountered a locking conflict.
 
 
 
+
      This routine accepts, as input parameters, a range of addresses in virtual memory that map a data file. If any memory in this range has been modified since the file was copied to memory, the routine flushes this memory back to the data file.
 
 For more information about memory management support for kernel-mode drivers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554389">Memory Management for Windows Drivers</a>. 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwFlushVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFlushVirtualMemory</b> " instead of "<b>ZwFlushVirtualMemory</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwFlushVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFlushVirtualMemory</b> " instead of "<b>ZwFlushVirtualMemory</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
+
 
  
 

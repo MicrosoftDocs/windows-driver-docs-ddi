@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 29735ea8-6125-4958-8d78-12d1f13b16ea
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeContiguousMemorySpecifyCache, storport/StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml, storage.storportfreecontiguousmemoryspecifycache
+ms.keywords: storport/StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache, storage.storportfreecontiguousmemoryspecifycache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,9 @@ The cache type that is used in the call to the <a href="..\storport\nf-storport-
 ## -returns
 
 
+
 The <b>StorPortFreeContiguousMemorySpecifyCache</b> routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,13 +124,17 @@ The operation was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
+
+
 
  
 

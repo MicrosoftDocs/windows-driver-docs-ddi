@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82f0cb12-fc0e-4627-af50-df4697f6764f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_3b88b3f0-9b31-46c6-8725-514f227b12a1.xml, display.dxvahdddi_stream_state_destination_rect_data, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
+ms.keywords: DXVA2_Structs_3b88b3f0-9b31-46c6-8725-514f227b12a1.xml, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, display.dxvahdddi_stream_state_destination_rect_data, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,19 @@ typedef struct _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA {
 ## -remarks
 
 
+
 If the <b>Enable</b> member is set to <b>TRUE</b> and the destination rectangle that the <b>DestinationRect</b> member specifies is not within the target rectangle, the intersection of the destination rectangle and the target rectangle is used as the destination rectangle. 
 
 The application can use the destination rectangle to specify the active rectangle (dirty region) of the destination surface.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
  
 

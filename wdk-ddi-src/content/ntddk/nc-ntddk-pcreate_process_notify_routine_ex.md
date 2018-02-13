@@ -40,7 +40,7 @@ apiname:
 -	SetCreateProcessNotifyRoutineEx
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback
@@ -75,7 +75,6 @@ void SetCreateProcessNotifyRoutineEx(
 ### -param Process
 
 
-
 ### -param ProcessId [in]
 
 The process ID of the process.
@@ -94,14 +93,18 @@ The process ID of the parent process.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 Highest-level drivers call <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a> to register their implementation of  <i>PCREATE_PROCESS_NOTIFY_ROUTINE_EX</i> routine. An installable file system (IFS) or highest-level system-profiling driver might register a process-creation callback routine to track which processes are created and deleted against the driver's internal state across the system. 
+
 
 
 
@@ -109,7 +112,11 @@ Highest-level drivers call <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyro
 
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
+
+
 
  
 

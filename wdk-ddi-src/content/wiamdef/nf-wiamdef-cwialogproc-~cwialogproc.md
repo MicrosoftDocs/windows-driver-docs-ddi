@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5DD3EC13-5DDD-4640-A841-00576F74429A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method, CWiaLogProc::~CWiaLogProc, image.cwialogproc__cwialogproc, CWiaLogProc, wiamdef/CWiaLogProc::~CWiaLogProc"
+ms.keywords: CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method, ~CWiaLogProc method [Imaging Devices], image.cwialogproc__cwialogproc, CWiaLogProc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, ~CWiaLogProc, CWiaLogProc::~CWiaLogProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	CWiaLogProc.~CWiaLogProc
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -75,13 +75,17 @@ void ~CWiaLogProc(
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844724">CWiaLogProc</a>
+
+
 
  
 

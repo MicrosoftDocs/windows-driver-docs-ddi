@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, IWDFDeviceInitialize, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, umdf.iwdfdeviceinitialize_setpowerpolicyownership
+ms.keywords: IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, wdf.iwdfdeviceinitialize_setpowerpolicyownership, SetPowerPolicyOwnership method, umdf.iwdfdeviceinitialize_setpowerpolicyownership, SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, IWDFDeviceInitialize, IWDFDeviceInitialize::SetPowerPolicyOwnership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ A BOOL value that specifies whether to set power-policy ownership to the driver 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 By default, UMDF drivers are not registered as power-policy owners for their device stack. To register itself as the power-policy owner for its device stack, a UMDF driver must explicitly call <b>SetPowerPolicyOwnership</b> and pass <b>TRUE</b> to the <i>fTrue</i> parameter in this call.
@@ -90,12 +93,23 @@ By default, UMDF drivers are not registered as power-policy owners for their dev
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/power-policy-ownership-in-umdf">Power Policy Ownership in UMDF</a>.
 
 
+#### Examples
+
+For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
 
  
 

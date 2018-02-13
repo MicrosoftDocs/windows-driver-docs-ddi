@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnGetNumDescriptors(
 ## -returns
 
 
+
 The <b>pfnGetNumDescriptors</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,6 +125,8 @@ The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

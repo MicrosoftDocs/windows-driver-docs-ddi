@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, TmRenameTransactionManager
+ms.keywords: TmRenameTransactionManager, kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager, TmRenameTransactionManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,6 +84,8 @@ A pointer to a GUID structure that represents the current name of the transactio
 ## -returns
 
 
+
 The <b>TmRenameTransactionManager</b> routine returns an NTSTATUS value. If the routine fails, it returns one of the following error codes:
+
 
 

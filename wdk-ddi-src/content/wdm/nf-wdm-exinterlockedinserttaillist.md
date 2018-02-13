@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exinterlockedinserttaillist, k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedInsertTailList, ExInterlockedInsertTailList
+ms.keywords: wdm/ExInterlockedInsertTailList, k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, kernel.exinterlockedinserttaillist, ExInterlockedInsertTailList, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 ## -returns
 
 
+
 <b>ExInterlockedInsertTailList</b> returns a pointer to the last entry of the list <u>before</u> the new entry was inserted. If the list was empty, the routine returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>ExInterlockedInsertTailList</b> performs the same operation as <a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
@@ -103,15 +106,24 @@ The <b>ExInterlockedInsertTailList</b> routine can be called at any IRQL. The st
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
+
+
 <a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
+
+
 <a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
 
  
 

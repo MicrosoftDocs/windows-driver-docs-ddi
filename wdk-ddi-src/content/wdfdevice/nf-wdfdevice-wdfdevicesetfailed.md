@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 87fbceab-d08c-4da7-a257-1454f84c04b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceSetFailed, wdfdevice/WdfDeviceSetFailed, WdfDeviceSetFailed method, PFN_WDFDEVICESETFAILED, wdf.wdfdevicesetfailed, kmdf.wdfdevicesetfailed, DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml
+ms.keywords: wdfdevice/WdfDeviceSetFailed, WdfDeviceSetFailed method, WdfDeviceSetFailed, PFN_WDFDEVICESETFAILED, wdf.wdfdevicesetfailed, DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, kmdf.wdfdevicesetfailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,13 +87,16 @@ A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_failed_action.md">WDF_DEVICE_FA
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If a driver encounters an unrecoverable hardware or software error, it must call <b>WdfDeviceSetFailed</b> so that the system can unload the device's drivers.
@@ -103,5 +106,24 @@ Starting in UMDF version 2.15, a UMDF driver can request that the the underlying
 Alternatively, a UMDF driver can set <i>FailedAction</i> to <b>WdfDeviceFailedNoRestart</b>.
 
 For more information about <b>WdfDeviceSetFailed</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
+
+
+#### Examples
+
+The following code example informs the framework that a failure has occurred. If the specified device's drivers are not supporting other devices, the framework will unload the drivers and then attempt to reload them.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfDeviceSetFailed(
+                   device,
+                   WdfDeviceFailedAttemptRestart
+                   );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

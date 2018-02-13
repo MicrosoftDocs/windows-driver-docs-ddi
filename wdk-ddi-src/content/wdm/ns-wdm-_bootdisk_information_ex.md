@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c358220c-1e29-4889-b214-f2892c9ac47d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX, PBOOTDISK_INFORMATION_EX, wdm/BOOTDISK_INFORMATION_EX, wdm/PBOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX, kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, kernel.bootdisk_information_ex, PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, BOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX, wdm/BOOTDISK_INFORMATION_EX, kernel.bootdisk_information_ex, wdm/PBOOTDISK_INFORMATION_EX, _BOOTDISK_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BOOTDISK_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PBOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX"
+req.typenames: BOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX
 req.product: Windows 10 or later.
 ---
 
@@ -118,7 +118,9 @@ If the <b>SystemDeviceIsGpt</b> member is <b>TRUE</b>, this specifies the GUID f
 ## -remarks
 
 
+
 On Windows XP and later, <a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
+
 
 
 
@@ -126,7 +128,11 @@ On Windows XP and later, <a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoG
 
 <a href="..\wdm\ns-wdm-_bootdisk_information.md">BOOTDISK_INFORMATION</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
+
+
 
  
 

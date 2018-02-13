@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4E6088EA-7081-4B80-8F83-15B39A0F30AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelinitsetstatechangecallbacks, VmbChannelInitSetStateChangeCallbacks, vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks, VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks, VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista], VmbChannelInitSetStateChangeCallbacks, netvista.vmbchannelinitsetstatechangecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelInitSetStateChangeCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,9 @@ A structure of state change callbacks to set.
 ## -returns
 
 
+
 <b>VmbChannelInitSetStateChangeCallbacks</b> returns one of the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,6 +126,8 @@ The <i>StateChangeCallbacks</i> value is the wrong version or size.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

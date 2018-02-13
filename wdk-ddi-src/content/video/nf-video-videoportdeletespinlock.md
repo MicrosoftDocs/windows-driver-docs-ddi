@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74845e4d-0fa1-4625-96a7-2fddec8b901d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortDeleteSpinLock, video/VideoPortDeleteSpinLock, display.videoportdeletespinlock, VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, VideoPortDeleteSpinLock function [Display Devices]
+ms.keywords: VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, display.videoportdeletespinlock, VideoPortDeleteSpinLock function [Display Devices], video/VideoPortDeleteSpinLock, VideoPortDeleteSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Pointer to the spin lock to delete.
 ## -returns
 
 
+
 If the spin lock is successfully deleted, <b>VideoPortDeleteSpinLock</b> returns NO_ERROR.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver uses this function to delete a spin lock that was previously created in a call to <a href="..\video\nf-video-videoportcreatespinlock.md">VideoPortCreateSpinLock</a>.
@@ -95,11 +98,16 @@ This routine cannot be called from an ISR or from a <a href="..\video\nf-video-v
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
 
+
+
 <a href="..\video\nf-video-videoportcreatespinlock.md">VideoPortCreateSpinLock</a>
+
+
 
  
 

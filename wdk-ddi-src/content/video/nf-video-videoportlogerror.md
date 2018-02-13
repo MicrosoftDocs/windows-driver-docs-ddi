@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d013aeb9-43a9-460f-a670-5b7bc9d3753d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortLogError function [Display Devices], display.videoportlogerror, video/VideoPortLogError, VideoPortLogError, VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml
+ms.keywords: VideoPortLogError function [Display Devices], VideoPortLogError, video/VideoPortLogError, VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,14 @@ Pointer to the video request packet (<a href="https://msdn.microsoft.com/a1de190
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers should call <b>VideoPortLogError</b> to notify the user if the driver encounters unusual hardware errors during normal operations. Posting such errors to the system event log warns the user that the video adapter might be failing so the user can replace (or reconfigure) the adapter before a total hardware failure occurs.
@@ -114,9 +117,12 @@ However, miniport drivers should <i>not</i> log errors, such as "failed to detec
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570170">VideoDebugPrint</a>
+
+
 
  
 

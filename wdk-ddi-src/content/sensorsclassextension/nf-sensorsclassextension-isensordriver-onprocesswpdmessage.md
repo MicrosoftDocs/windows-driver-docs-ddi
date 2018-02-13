@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onprocesswpdmessage.htm
 old-project: sensors
 ms.assetid: 4780d0ea-a54a-4125-b3b6-2210a14eff71
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage, sensors.isensordriver_onprocesswpdmessage, ISensorDriver::OnProcessWpdMessage, ISensorDriver
+ms.date: 2/8/2018
+ms.keywords: OnProcessWpdMessage, ISensorDriver, ISensorDriver::OnProcessWpdMessage, sensors.isensordriver_onprocesswpdmessage, OnProcessWpdMessage method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,13 +83,17 @@ A pointer to the IUnknown interface that supports the IPortableDeviceValues inte
 ## -returns
 
 
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
 ## -remarks
 
 
+
 This method enables you to extend the WPD commands and interfaces in a device-specific way.
+
 
 

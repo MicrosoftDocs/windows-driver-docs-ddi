@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 779e750a-70c6-41f3-b680-a9fe833014b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Optional, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen, pointofservicecommontypes/NotSupported, Required, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, DriverMagneticStripeReaderAuthenticationLevel enumeration, DriverMagneticStripeReaderAuthenticationLevel, NotSupported, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel
+ms.keywords: Required, Optional, DriverMagneticStripeReaderAuthenticationLevel enumeration, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen, pointofservicecommontypes/NotSupported, pointofservicecommontypes/Optional, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/Required, NotSupported, DriverMagneticStripeReaderAuthenticationLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax

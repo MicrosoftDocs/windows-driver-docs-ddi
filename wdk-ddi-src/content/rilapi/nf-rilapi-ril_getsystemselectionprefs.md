@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 957892eb-39c5-4675-a3cd-d8f8dd3e7cdd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_getsystemselectionprefs
+ms.keywords: netvista.ril_getsystemselectionprefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetSystemSelectionPrefs(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

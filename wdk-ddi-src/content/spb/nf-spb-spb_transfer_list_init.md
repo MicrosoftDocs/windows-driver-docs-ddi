@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7FFFB495-7E6A-465C-AE93-B62957179531
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT, SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT
+ms.keywords: SPB_TRANSFER_LIST_INIT function [Buses], SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, spb/SPB_TRANSFER_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,14 +82,18 @@ The number of entries in the transfer list. The function writes this value to th
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transfers</b> array, use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406214">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh406213">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/hh406202">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a> function.
+
 
 
 
@@ -97,11 +101,19 @@ To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transf
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406202">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406213">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406214">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406213">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
+
+
 
  
 

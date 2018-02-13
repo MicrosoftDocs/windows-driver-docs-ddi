@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PNVCACHE_REQUEST_BLOCK, ntddscsi/NVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], _NVCACHE_REQUEST_BLOCK, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml, NVCACHE_REQUEST_BLOCK structure [Storage Devices], ntddscsi/PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK, storage.nvcache_request_block"
+ms.keywords: PNVCACHE_REQUEST_BLOCK, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], ntddscsi/NVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, NVCACHE_REQUEST_BLOCK structure [Storage Devices], NVCACHE_REQUEST_BLOCK, _NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NVCACHE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK"
+req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ---
 
 # _NVCACHE_REQUEST_BLOCK structure
@@ -87,9 +87,11 @@ Specifies the operation to be performed, which can be one of the following value
 
 
 
+
 #### NRB_FUNCTION_NVCACHE_INFO
 
 Get NV Cache Manager feature support information from the device. Upon the successful completion of this function, the required data fields are returned to the caller. The return data structure is <a href="..\ntddscsi\ns-ntddscsi-_nv_feature_parameter.md">NV_FEATURE_PARAMETER</a>.
+
 
 
 #### NRB_FUNCTION_SPINDLE_STATUS
@@ -97,9 +99,11 @@ Get NV Cache Manager feature support information from the device. Upon the succe
 Determine if the device is currently spinning up or spinning down. For an ATA device, a Check Power Mode command is required to obtain the device's spindle status. For a SCSI device, a Mode Sense command can be used to query the device's current power mode.
 
 
+
 #### NRB_FUNCTION_NVCACHE_POWER_MODE_SET
 
 Turn on the NV Cache Manager power mode.
+
 
 
 #### NRB_FUNCTION_NVCACHE_POWER_MODE_RESET
@@ -107,9 +111,11 @@ Turn on the NV Cache Manager power mode.
 Turn off the NV Cache Manager power mode.
 
 
+
 #### NRB_FUNCTION_FLUSH_NVCACHE
 
 Flush the data that is currently pinned in NV cache memory to make the required NV cache memory space available.
+
 
 
 #### NRB_FUNCTION_QUERY_PINNED_SET
@@ -117,9 +123,11 @@ Flush the data that is currently pinned in NV cache memory to make the required 
 Get the Logical Block Address (LBA) ranges currently in the NV Cache Manager pinned set.
 
 
+
 #### NRB_FUNCTION_QUERY_CACHE_MISS
 
 Request that the device report NV Cache Misses in LBA ranges in a single 512-byte block.
+
 
 
 #### NRB_FUNCTION_ADD_LBAS_PINNED_SET
@@ -127,14 +135,17 @@ Request that the device report NV Cache Misses in LBA ranges in a single 512-byt
 Add the LBAs that are specified in the NV Cache Manager Set Data to the NV Cache Manager Pinned Set if they are not already.
 
 
+
 #### NRB_FUNCTION_REMOVE_LBAS_PINNED_SET
 
 Remove the LBAs that are specified in the NV Cache Set Data from the NV Cache pinned set.
 
 
+
 #### NRB_FUNCTION_QUERY_HYBRID_DISK_STATUS
 
 Reserved for future use.
+
 
 
 #### NRB_FUNCTION_PASS_HINT_PAYLOAD
@@ -154,9 +165,11 @@ Indicates the NV Cache Manager function request status from the driver. There ar
 
 
 
+
 #### NRB_SUCCESS
 
 No error.
+
 
 
 #### NRB_ILLEGAL_REQUEST
@@ -164,9 +177,11 @@ No error.
 Illegal request detected by the port driver.
 
 
+
 #### NRB_INVALID_PARAMETER
 
 Invalid parameter passed to the port driver.
+
 
 
 #### NRB_INPUT_DATA_OVERRUN
@@ -174,14 +189,17 @@ Invalid parameter passed to the port driver.
 Too much data provided to the port driver.
 
 
+
 #### NRB_INPUT_DATA_UNDERRUN
 
 Not enough data provided to the port driver.
 
 
+
 #### NRB_OUTPUT_DATA_OVERRUN
 
 Too much data returned from the port driver.
+
 
 
 #### NRB_OUTPUT_DATA_UNDERRUN
@@ -217,7 +235,9 @@ The error code returned from the device. For an ATA device, this value is the co
 ## -remarks
 
 
+
 For more information on function behavior, see section 7.20 of the <a href="http://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a>.
+
 
 
 
@@ -225,7 +245,11 @@ For more information on function behavior, see section 7.20 of the <a href="http
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_nvcache.md">IOCTL_SCSI_MINIPORT_NVCACHE</a>
 
+
+
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F5EC240C-6438-477C-A5D3-B018B52AC4F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_send_go_negotiation_response_parameters, windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_send_go_negotiation_response_parameters, PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, windot11/DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, *PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS
+req.typenames: "*PDOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ typedef struct _DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -101,7 +102,8 @@ The type, revision, and size of the <b>DOT11_SEND_GO_NEGOTIATION_RESPONSE_PARAME
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_SEND_GO_NEGOTIATION_RESPONSE_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PeerDeviceAddress
@@ -178,7 +180,11 @@ Miniport context data included in the <a href="https://msdn.microsoft.com/librar
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439789">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_REQUEST</a>
+
+
 
  
 

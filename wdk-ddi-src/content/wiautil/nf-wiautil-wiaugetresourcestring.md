@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b042702a-46ff-4ec9-8a92-af8516802e64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauGetResourceString, image.wiaugetresourcestring, wiauGetResourceString function [Imaging Devices], wiautil/wiauGetResourceString, wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml
+ms.keywords: wiautil/wiauGetResourceString, wiauGetResourceString function [Imaging Devices], image.wiaugetresourcestring, wiauGetResourceString, wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ Points to the memory location that receives the retrieved string. The caller of 
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 

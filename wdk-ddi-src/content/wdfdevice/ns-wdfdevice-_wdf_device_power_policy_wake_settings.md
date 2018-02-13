@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d7448873-aa96-4eac-a5be-16dff661ab40
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure pointer, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, wdfdevice/PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, DFDeviceObjectGeneralRef_08482cf6-3f3d-44d2-b0f3-4856a23d94d0.xml, wdf.wdf_device_power_policy_wake_settings, kmdf.wdf_device_power_policy_wake_settings
+ms.keywords: PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure, PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure pointer, kmdf.wdf_device_power_policy_wake_settings, *PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, _WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, DFDeviceObjectGeneralRef_08482cf6-3f3d-44d2-b0f3-4856a23d94d0.xml, wdfdevice/PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS, wdf.wdf_device_power_policy_wake_settings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,13 @@ A Boolean value that, if set to <b>TRUE</b>, indicates that the framework will p
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure is used as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>. 
 
 To initialize its <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure, your driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a>.
 
 The first time a driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>, the following actions occur:
+
 <ul>
 <li>
 The framework stores the values of all <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure members. 
@@ -130,7 +132,9 @@ The framework stores the values of all <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS<
 If the <b>UserControlOfWakeSettings</b> member is set to <b>WakeAllowUserControl</b> and if the <b>Enabled</b> member is set to <b>WdfUseDefault</b>, the framework reads the registry to find out if the user has enabled waking the system.
 
 </li>
-</ul>During subsequent calls to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>, the framework does not store the value of the <b>UserControlOfWakeSettings</b>  member. In other words, the framework performs the following steps the first time the driver calls <b>WdfDeviceAssignSxWakeSettings</b> but not during later calls:
+</ul>
+During subsequent calls to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>, the framework does not store the value of the <b>UserControlOfWakeSettings</b>  member. In other words, the framework performs the following steps the first time the driver calls <b>WdfDeviceAssignSxWakeSettings</b> but not during later calls:
+
 <ul>
 <li>
 Stores the value of the <b>UserControlOfWakeSettings</b> member. 
@@ -140,7 +144,9 @@ Stores the value of the <b>UserControlOfWakeSettings</b> member.
 Looks for a user setting in the registry, if the value of the <b>Enabled</b> member is <b>WdfUseDefault</b>.
 
 </li>
-</ul>The following rules apply to the value that you specify for the <b>DxState</b> member:
+</ul>
+The following rules apply to the value that you specify for the <b>DxState</b> member:
+
 <ul>
 <li>
 The value cannot be <b>PowerDeviceD0</b>.
@@ -154,9 +160,11 @@ If you specify <b>PowerDeviceMaximum</b>, the framework uses the value that the 
 You cannot specify a device power state that is lower than the device power state in the <b>DeviceWake</b> member of the bus driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure. (In other words, if the bus driver's <b>DeviceWake</b> value is <b>PowerDeviceD2</b>, your function driver's <b>DxState</b> value cannot be <b>PowerDeviceD3</b>.)
 
 </li>
-</ul>For information about registry entries that control a device's wake capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
+</ul>
+For information about registry entries that control a device's wake capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
 
 If the device that the <b>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</b> structure describes is a parent device, the driver for the parent device can use the <b>ArmForWakeIfChildrenAreArmedForWake</b> and <b>IndicateChildWakeOnParentWake</b> members as follows:
+
 <ul>
 <li>
 If the driver sets the <b>ArmForWakeIfChildrenAreArmedForWake</b> member to <b>TRUE</b>, the framework calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a> or <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx_with_reason.md">EvtDeviceArmWakeFromSxWithReason</a> callback function when a child device's wake ability is enabled, even if the parent device's wake ability is not enabled.
@@ -173,27 +181,45 @@ To reduce power consumption, you might not want to enable your device's wake abi
 If the driver sets the <b>IndicateChildWakeOnParentWake</b> member to <b>TRUE</b>, the framework calls the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md">EvtDeviceWakeFromSxTriggered</a> callback function in the parent device's driver and in the driver for each wake-enabled child device. If the driver sets this member to <b>FALSE</b>, the framework calls the <i>EvtDeviceWakeFromSxTriggered</i> callback function in the parent device's driver only. Your driver should set <b>IndicateChildWakeOnParentWake</b> to <b>TRUE</b> if the drivers for your device's children must examine hardware to determine why the system was awakened.
 
 </li>
-</ul>For more information about how to support a device's wake ability, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1-a032-04348b903ac5">Supporting System Wake-Up</a>.
+</ul>
+For more information about how to support a device's wake ability, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1-a032-04348b903ac5">Supporting System Wake-Up</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+
+
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx_with_reason.md">EvtDeviceArmWakeFromSxWithReason</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
+
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_wake_from_sx_triggered.md">EvtDeviceWakeFromSxTriggered</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md">EvtDeviceArmWakeFromSx</a>
+
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceindicatewakestatus.md">WdfDeviceIndicateWakeStatus</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignsxwakesettings.md">WdfDeviceAssignSxWakeSettings</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a>
+
+
 
  
 

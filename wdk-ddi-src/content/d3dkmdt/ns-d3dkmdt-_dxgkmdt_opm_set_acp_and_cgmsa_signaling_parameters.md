@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4151e72-e0a6-4873-a2e8-c3321941cfd4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml, d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
+ms.keywords: d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,6 +129,8 @@ Reserved. Must be set to zero.
 ## -see-also
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_standard.md">DXGKMDT_OPM_PROTECTION_STANDARD</a>
+
+
 
  
 

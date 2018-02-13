@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bff9d991-63a1-47af-a351-073c82c0d31c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTOpenAdapterFromDeviceName, D3DKMTOpenAdapterFromDeviceName function [Display Devices], OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml, display.d3dkmtopenadapterfromdevicename, D3DKMTOpenAdapterFromDeviceName
+ms.keywords: D3DKMTOpenAdapterFromDeviceName, display.d3dkmtopenadapterfromdevicename, D3DKMTOpenAdapterFromDeviceName function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromDeviceName, OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTOpenAdapterFromDeviceName(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromdevicename.md">D3DKMT_OPENADAPTERFROMDEVICENAME</a> structure that describes the parameters that are required to perform the mapping.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromdevicenam
 ## -returns
 
 
+
 <b>D3DKMTOpenAdapterFromDeviceName</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,22 +110,28 @@ Parameters were validated and determined to be incorrect or the Windows Vista di
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromdevicename.md">D3DKMT_OPENADAPTERFROMDEVICENAME</a>
+
+
 
  
 

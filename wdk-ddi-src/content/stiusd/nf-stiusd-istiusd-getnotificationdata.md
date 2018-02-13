@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetNotificationData, GetNotificationData method [Imaging Devices], image.istiusd_getnotificationdata, IStiUSD interface [Imaging Devices], GetNotificationData method, stiusd/IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices], IStiUSD interface, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD, IStiUSD::GetNotificationData
+ms.keywords: GetNotificationData method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_getnotificationdata, stiusd/IStiUSD::GetNotificationData, IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices], GetNotificationData, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD interface [Imaging Devices], GetNotificationData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT GetNotificationData(
 
 
 
+
 #### - pBuffer
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a> structure to receive event information.
@@ -82,13 +83,17 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>. If no events have occurred since the last time the method was called, the method should return STIERR_NOEVENTS.
+
 
 
 
 ## -remarks
 
 
+
 Each time a device event occurs, the still image event monitor calls <b>IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a>, the most recent addition to the list is returned.
+
 
 

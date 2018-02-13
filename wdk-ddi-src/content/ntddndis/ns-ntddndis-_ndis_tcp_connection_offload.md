@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, NDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], netvista.ndis_tcp_connection_offload, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD
+ms.keywords: ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, _NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_TCP_CONNECTION_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_TCP_CONNECTION_OFFLOAD
 product: Windows
 targetos: Windows
-req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
+req.typenames: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD"
 ---
 
 # _NDIS_TCP_CONNECTION_OFFLOAD structure
@@ -154,6 +154,7 @@ Reserved.
 ## -remarks
 
 
+
 The NDIS_TCP_CONNECTION_OFFLOAD structure specifies the current or supported services that a miniport
     adapter provides for TCP chimney offload.
 
@@ -203,7 +204,12 @@ The following flags are defined for the
     <b>Encapsulation</b> member:
 
 
-<div class="alert"><b>Important</b>  A miniport or mux driver that is chimney capable must set the <b>Encapsulation</b> member to NDIS_ENCAPSULATION_IEEE_802_3, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, or both. Otherwise, chimney capability will not be recognized.</div><div> </div><h3><a id="ddk_ndis_tcp_connection_offload_nr"></a><a id="DDK_NDIS_TCP_CONNECTION_OFFLOAD_NR"></a></h3><h3><a id="tcp_chimney_offload_queries"></a><a id="TCP_CHIMNEY_OFFLOAD_QUERIES"></a>TCP Chimney Offload Queries</h3>When an NDIS responds to a query of 
+
+<div class="alert"><b>Important</b>  A miniport or mux driver that is chimney capable must set the <b>Encapsulation</b> member to NDIS_ENCAPSULATION_IEEE_802_3, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, or both. Otherwise, chimney capability will not be recognized.</div>
+<div> </div>
+<h3><a id="ddk_ndis_tcp_connection_offload_nr"></a><a id="DDK_NDIS_TCP_CONNECTION_OFFLOAD_NR"></a></h3>
+<h3><a id="tcp_chimney_offload_queries"></a><a id="TCP_CHIMNEY_OFFLOAD_QUERIES"></a>TCP Chimney Offload Queries</h3>
+When an NDIS responds to a query of 
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
        OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> or 
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
@@ -247,28 +253,45 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
-   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
-   OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
+   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
+   OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
 
  
 

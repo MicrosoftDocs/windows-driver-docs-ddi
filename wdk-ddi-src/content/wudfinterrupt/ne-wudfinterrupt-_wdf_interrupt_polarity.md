@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 30E61DCE-D88C-47B5-B5CD-3C43C6157FBA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWDF_INTERRUPT_POLARITY, wudfinterrupt/PWDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveHigh, wudfinterrupt/WdfInterruptActiveLow, WdfInterruptActiveHigh, umdf.wdf_interrupt_polarity, WdfInterruptActiveLow, WdfInterruptPolarityUnknown, PWDF_INTERRUPT_POLARITY, _WDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer, wudfinterrupt/WDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptPolarityUnknown, WDF_INTERRUPT_POLARITY, wdf.wdf_interrupt_polarity_umdf, WDF_INTERRUPT_POLARITY enumeration"
+ms.keywords: umdf.wdf_interrupt_polarity, *PWDF_INTERRUPT_POLARITY, wdf.wdf_interrupt_polarity_umdf, _WDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveHigh, wudfinterrupt/WdfInterruptActiveLow, WdfInterruptPolarityUnknown, wudfinterrupt/WdfInterruptPolarityUnknown, WdfInterruptActiveLow, PWDF_INTERRUPT_POLARITY, wudfinterrupt/WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptActiveHigh, wudfinterrupt/PWDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_POLARITY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY"
+req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,8 @@ The interrupt signal is active when it is low.
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a> enumeration type is used to specify a member of the <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/DrvDeviceCapabilities, print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, DrvDeviceCapabilities function [Print Devices], DrvDeviceCapabilities
+ms.keywords: print.drvdevicecapabilities, DrvDeviceCapabilities, winddiui/DrvDeviceCapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, DrvDeviceCapabilities function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvDeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,7 @@ TBD
 
 
 
+
 #### - pDeviceName [in]
 
 Caller-supplied pointer to a printer name string.
@@ -106,6 +107,7 @@ Caller-supplied pointer to a printer name string.
 #### - iDevCap
 
 Caller-supplied bit flag indicating the information being requested. This can be one of the flags listed in the following table. (The flags are defined in header file Wingdi.h.)
+
 <table>
 <tr>
 <th>Flag</th>
@@ -561,7 +563,8 @@ The function's return value should be the <b>dmSpecVersion</b> member of the dri
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pvOutput [out]
@@ -577,6 +580,8 @@ A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windo
 ## -returns
 
 
+
 The function's return value is dependent on the value received for the <i>iDevCap</i> parameter. If the received <i>iDevCap</i> value represents a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
+
 
 

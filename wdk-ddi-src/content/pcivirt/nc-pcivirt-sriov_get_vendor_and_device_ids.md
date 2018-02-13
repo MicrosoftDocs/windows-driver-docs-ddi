@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 product: Windows
 targetos: Windows
-req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
 ---
 
 # SRIOV_GET_VENDOR_AND_DEVICE_IDS callback
@@ -105,11 +105,14 @@ A zero-based index of the VF to which this write operation applies.
 
 
 
+
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
 
 
 
+
 ## -remarks
+
 
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve the vendor and device identifiers of the specified VF. 
@@ -119,6 +122,7 @@ The PCI Express SR-IOV Specification requires that all VFs have the same Vendor 
 The PF driver registers its implementation by setting the <b>GetVendorAndDevice</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
 Here is an example implementation of this callback function. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -149,4 +153,5 @@ Virtualization_GetVendorAndDevice (
 </td>
 </tr>
 </table></span></div>
+
 

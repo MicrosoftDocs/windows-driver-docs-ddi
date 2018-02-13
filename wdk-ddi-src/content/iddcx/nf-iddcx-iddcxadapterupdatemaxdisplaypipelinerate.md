@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate
+ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate, display.iddcxadapterupdatemaxdisplaypipelinerate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ Input arguments to the function
 
 
 
+
 (NTSTATUS) The method returns S_OK if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

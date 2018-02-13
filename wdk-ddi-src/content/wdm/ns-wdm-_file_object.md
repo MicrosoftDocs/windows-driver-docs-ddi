@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6eefdbbb-59de-4cc8-a309-8353a05cba41
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], *PLOG_FILE_OBJECT, kstruct_c_4e9e4766-1e68-4972-92c4-3d13cdbc4cb2.xml, LOG_FILE_OBJECT, _FILE_OBJECT, *PFILE_OBJECT, wdm/LOG_FILE_OBJECT, kernel.log_file_object, FILE_OBJECT
+ms.keywords: "*PLOG_FILE_OBJECT, FILE_OBJECT, *PFILE_OBJECT, kstruct_c_4e9e4766-1e68-4972-92c4-3d13cdbc4cb2.xml, LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], wdm/LOG_FILE_OBJECT, _FILE_OBJECT, kernel.log_file_object, LOG_FILE_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LOG_FILE_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_OBJECT, FILE_OBJECT"
+req.typenames: FILE_OBJECT, *PFILE_OBJECT
 req.product: Windows 10 or later.
 ---
 
@@ -68,13 +68,17 @@ The Common Log File System (CLFS) uses the <b>LOG_FILE_OBJECT</b> structure to r
 ## -remarks
 
 
+
 CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
 
  
 

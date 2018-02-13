@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: LastDStateTransitionStatusUnknown, LastDStateTransitionD3cold, wdm/D3COLD_LAST_TRANSITION_STATUS, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, wdm/LastDStateTransitionStatusUnknown, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/LastDStateTransitionD3hot, D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, LastDStateTransitionD3hot, *PD3COLD_LAST_TRANSITION_STATUS
+ms.keywords: wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3hot, LastDStateTransitionD3cold, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionStatusUnknown, *PD3COLD_LAST_TRANSITION_STATUS, LastDStateTransitionD3hot, _D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, kernel.d3cold_last_transition_status, D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionStatusUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	D3COLD_LAST_TRANSITION_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PD3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS"
+req.typenames: D3COLD_LAST_TRANSITION_STATUS, *PD3COLD_LAST_TRANSITION_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -88,13 +88,17 @@ The most recent transition to the D3hot device power state was followed by a tra
 ## -remarks
 
 
+
 The <i>LastTransitionStatus</i> parameter of the <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a> routine is a pointer to a variable of type <b>D3COLD_LAST_TRANSITION_STATUS</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de8de14a-94a8-49e2-912a-9c174f5a2c74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, IWDFUsbInterface::GetInterfaceNumber, GetInterfaceNumber, wudfusb/IWDFUsbInterface::GetInterfaceNumber, wdf.iwdfusbinterface_getinterfacenumber, IWDFUsbInterface interface, GetInterfaceNumber method, GetInterfaceNumber method, IWDFUsbInterface interface, GetInterfaceNumber method, umdf.iwdfusbinterface_getinterfacenumber
+ms.keywords: GetInterfaceNumber method, GetInterfaceNumber method, IWDFUsbInterface interface, wdf.iwdfusbinterface_getinterfacenumber, umdf.iwdfusbinterface_getinterfacenumber, IWDFUsbInterface::GetInterfaceNumber, IWDFUsbInterface, wudfusb/IWDFUsbInterface::GetInterfaceNumber, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, GetInterfaceNumber, IWDFUsbInterface interface, GetInterfaceNumber method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbInterface.GetInterfaceNumber
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,16 +69,21 @@ UCHAR GetInterfaceNumber();
 
 
 
+
 ## -returns
+
 
 
 <b>GetInterfaceNumber</b> returns the index of the USB interface.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
 
  
 

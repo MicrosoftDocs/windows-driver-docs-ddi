@@ -7,8 +7,8 @@ old-location: ifsk\ccsetfilesizes.htm
 old-project: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: CcSetFileSizes routine [Installable File System Drivers], ntifs/CcSetFileSizes, ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, CcSetFileSizes, ifsk.ccsetfilesizes
+ms.date: 2/7/2018
+ms.keywords: ntifs/CcSetFileSizes, ifsk.ccsetfilesizes, CcSetFileSizes routine [Installable File System Drivers], CcSetFileSizes, ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ Pointer to a file object for the cached file.
 ### -param FileSizes [in]
 
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -89,7 +90,8 @@ Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSi
 } CC_FILE_SIZES, *PCC_FILE_SIZES;</pre>
 </td>
 </tr>
-</table></span></div><table>
+</table></span></div>
+<table>
 <tr>
 <th>Member</th>
 <th>Meaning</th>
@@ -124,20 +126,25 @@ New valid data length for the file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 File systems must call <b>CcSetFileSizes</b> to update the cache manager data structures whenever one of the following changes is made to a cached file:
+
 <ul>
 <li>
 Its allocation size is increased.
@@ -155,11 +162,13 @@ Its valid data length is increased by a non-cached I/O operation.
 Its file size is increased or decreased.
 
 </li>
-</ul>If any failure occurs, <b>CcSetFileSizes</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcSetFileSizes</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcSetFileSizes</b> in a <b>try-except</b> or <b>try-finally</b> statement.
+</ul>
+If any failure occurs, <b>CcSetFileSizes</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcSetFileSizes</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcSetFileSizes</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
 To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
 
 The <b>CcGetFileSizePointer</b> macro returns the size of a file, given a pointer to a file object for the file.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -172,7 +181,8 @@ The <b>CcGetFileSizePointer</b> macro returns the size of a file, given a pointe
 </pre>
 </td>
 </tr>
-</table></span></div>Parameters
+</table></span></div>
+Parameters
 
 <i>FileObject [in]</i>
 
@@ -184,13 +194,16 @@ A pointer to a member of the cache manager structure for this file that specifie
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetFileSizes routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetFileSizes routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

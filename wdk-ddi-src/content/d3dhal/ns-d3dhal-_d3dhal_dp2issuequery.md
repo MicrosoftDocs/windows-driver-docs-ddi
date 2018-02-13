@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e7870f7a-545e-43eb-99c5-42a740585c43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2ISSUEQUERY structure [Display Devices], display.d3dhal_dp2issuequery, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices], d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml, d3dhal/D3DHAL_DP2ISSUEQUERY, d3dhal/LPD3DHAL_DP2ISSUEQUERY, _D3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY, *LPD3DHAL_DP2ISSUEQUERY
+ms.keywords: "_D3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY structure [Display Devices], d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml, D3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices], display.d3dhal_dp2issuequery, d3dhal/LPD3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY, *LPD3DHAL_DP2ISSUEQUERY, d3dhal/D3DHAL_DP2ISSUEQUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,7 @@ Identifies the query for which the driver asynchronously provides information.
 ### -field dwFlags
 
 Specifies the state of the query. This member can contain one or more of the following flags: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -115,7 +116,8 @@ Transitions the state to subsignaled. Results of the query are not available unt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The driver can ignore query requests with <b>dwFlags</b> set to 0. 
 
@@ -123,7 +125,9 @@ The driver can ignore query requests with <b>dwFlags</b> set to 0.
 ## -remarks
 
 
+
 The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver must process. The driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback must process <b>wPrimitiveCount</b> D3DHAL_DP2ISSUEQUERY structures from the command buffer. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure. The driver parses these structures and retrieves information associated with the queries that they represent. 
+
 
 
 
@@ -131,13 +135,23 @@ The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver mus
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+
+
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
 
-D3DDP2OP_ISSUEQUERY
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+D3DDP2OP_ISSUEQUERY
+
+
 
  
 

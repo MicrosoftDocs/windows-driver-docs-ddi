@@ -40,7 +40,7 @@ apiname:
 -	FilterRestart
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # FILTER_RESTART callback
@@ -87,6 +87,8 @@ A handle to the context area for the filter module that the filter driver should
 
 
 
+
+
 #### - FilterRestartParameters [in]
 
 A pointer to an 
@@ -98,7 +100,9 @@ A pointer to an
 ## -returns
 
 
+
 <i>FilterRestart</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,11 +156,14 @@ None of the preceding status values applies. The filter driver should call the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>FilterRestart</i> is a required function for filter drivers. NDIS can call 
@@ -167,6 +174,7 @@ None of the preceding status values applies. The filter driver should call the
 
 When NDIS calls 
     <i>FilterRestart</i>, a filter driver:
+
 <ul>
 <li>
 Must complete the operations that are required to restart normal send and receive operations.
@@ -203,7 +211,9 @@ Optionally uses OID requests to query or set information in the underlying drive
 Returns NDIS_STATUS_SUCCESS or a failure status.
 
 </li>
-</ul>If a filter driver modifies the list of restart attributes, the filter driver:
+</ul>
+If a filter driver modifies the list of restart attributes, the filter driver:
+
 <ul>
 <li>
 Should not modify any media-specific attributes if it does not recognize the OID in the 
@@ -259,7 +269,8 @@ Must, if the filter driver changes restart attributes, provide a
       attributes is consistent with the information that they receive in response to OID requests.
 
 </li>
-</ul>After the filter driver returns its status or calls the 
+</ul>
+After the filter driver returns its status or calls the 
     <a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a> function, the
     restart operation is complete. If the operation completed successfully, the filter module is in the 
     <i>Running</i> state and normal send and receive processing is resumed. If the restart operation failed,
@@ -268,9 +279,12 @@ Must, if the filter driver changes restart attributes, provide a
 
 NDIS calls 
     <i>FilterRestart</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>FilterRestart</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>FilterRestart</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>FilterRestart</i> function that is named "MyRestart", use the <b>FILTER_RESTART</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -280,7 +294,9 @@ For example, to define a <i>FilterRestart</i> function that is named "MyRestart"
 <pre>FILTER_RESTART MyRestart;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -296,47 +312,79 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>FILTER_RESTART</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_RESTART</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>FILTER_RESTART</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_RESTART</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
    NDIS_RESTART_GENERAL_ATTRIBUTES</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_filter_restart_parameters.md">
    NDIS_FILTER_RESTART_PARAMETERS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+
+
 
  
 

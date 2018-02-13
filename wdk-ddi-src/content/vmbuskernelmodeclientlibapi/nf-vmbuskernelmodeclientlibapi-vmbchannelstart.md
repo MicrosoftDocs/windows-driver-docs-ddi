@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A318FD24-4E48-4DE4-B919-DD1D701F7EA7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelstart, vmbuskernelmodeclientlibapi/VmbChannelStart, VmbChannelStart, VmbChannelStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbchannelstart, vmbuskernelmodeclientlibapi/VmbChannelStart, VmbChannelStart function [Network Drivers Starting with Windows Vista], VmbChannelStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelStart
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,8 @@ A handle for a channel that this function modifies.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

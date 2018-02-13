@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd5f8556-0038-4700-87cf-61e9daa17d90
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetHideConnectedIdSettings, RIL_GetHideConnectedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideconnectedidsettings, rilapi/RIL_GetHideConnectedIdSettings
+ms.keywords: netvista.ril_gethideconnectedidsettings, rilapi/RIL_GetHideConnectedIdSettings, RIL_GetHideConnectedIdSettings method [Network Drivers Starting with Windows Vista], RIL_GetHideConnectedIdSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetHideConnectedIdSettings(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

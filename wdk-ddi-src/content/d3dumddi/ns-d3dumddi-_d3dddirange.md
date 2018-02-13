@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIRANGE structure [Display Devices], d3dumddi/D3DDDIRANGE, _D3DDDIRANGE, D3DDDIRANGE, display.d3dddirange
+ms.keywords: display.d3dddirange, D3DDDIRANGE, d3dumddi/D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS
+ms.keywords: d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], _DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags, DXGK_CREATECONTEXTALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,6 +103,7 @@ If <b>SharedAcrossContexts</b> is set to zero, the allocation is associated with
 ## -remarks
 
 
+
 The display miniport driver allocates GPU contexts or device-specific contexts by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.
 
 The <b>ContextAllocationFlags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure is an <b>DXGK_CREATECONTEXTALLOCATIONFLAGS</b> data type. 
@@ -110,11 +111,16 @@ The <b>ContextAllocationFlags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
+
 
  
 

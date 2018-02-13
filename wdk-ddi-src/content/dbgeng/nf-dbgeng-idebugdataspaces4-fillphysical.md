@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9fd2cc6d-c891-4566-896b-80d56d143e8d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: FillPhysical method [Windows Debugging], IDebugDataSpaces3::FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2::FillPhysical, dbgeng/IDebugDataSpaces2::FillPhysical, dbgeng/IDebugDataSpaces3::FillPhysical, IDebugDataSpaces4::FillPhysical, FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, dbgeng/IDebugDataSpaces4::FillPhysical, IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, debugger.fillphysical
+ms.keywords: FillPhysical method [Windows Debugging], dbgeng/IDebugDataSpaces4::FillPhysical, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces2::FillPhysical, IDebugDataSpaces3::FillPhysical, IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces3::FillPhysical, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, FillPhysical, IDebugDataSpaces2::FillPhysical, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces4::FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2, FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, debugger.fillphysical, IDebugDataSpaces3, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,9 @@ Receives the number of bytes written.  If it is set to <b>NULL</b>, this informa
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,11 +120,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method writes the pattern to the target's memory as many times as will fit in <i>Size</i> bytes.
@@ -131,15 +136,24 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
 
  
 

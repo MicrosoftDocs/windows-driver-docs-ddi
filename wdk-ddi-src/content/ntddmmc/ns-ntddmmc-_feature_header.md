@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_HEADER, FEATURE_HEADER, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml, *PFEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], ntddmmc/PFEATURE_HEADER, ntddmmc/FEATURE_HEADER, storage.feature_header, PFEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices]"
+ms.keywords: FEATURE_HEADER structure [Storage Devices], PFEATURE_HEADER, *PFEATURE_HEADER, ntddmmc/PFEATURE_HEADER, _FEATURE_HEADER, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml, ntddmmc/FEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], FEATURE_HEADER, storage.feature_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,17 @@ Indicates the number of bytes of feature information that follow this header. Th
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
+
+
 
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
+
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
 
  
 

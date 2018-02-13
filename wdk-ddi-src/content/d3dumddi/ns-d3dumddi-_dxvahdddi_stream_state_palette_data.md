@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b71f3793-7856-4558-b205-7facf6d83a8c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE_DATA, display.dxvahdddi_stream_state_palette_data, DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_PALETTE_DATA, DXVA2_Structs_4b156a58-d13f-4ffc-8ad0-3bdbb5dc7386.xml, _DXVAHDDDI_STREAM_STATE_PALETTE_DATA
+ms.keywords: DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PALETTE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE_DATA, DXVA2_Structs_4b156a58-d13f-4ffc-8ad0-3bdbb5dc7386.xml, display.dxvahdddi_stream_state_palette_data, DXVAHDDDI_STREAM_STATE_PALETTE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ typedef struct _DXVAHDDDI_STREAM_STATE_PALETTE_DATA {
 ## -remarks
 
 
+
 The 4-bit palletized "AYUV" FOURCC formats, "AI44", and "IA44" uses the first 16 entries.
 
 The 8-bit palletized "AYUV" FOURCC format, "AI88", D3DFMT_A8P8, and D3DFMT_P8 formats uses the first 256 entries.
@@ -97,15 +98,24 @@ For more information about alpha blending, see <a href="..\d3dumddi\ns-d3dumddi-
 
 
 
+
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_alpha_data.md">DXVAHDDDI_STREAM_STATE_ALPHA_DATA</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
 
  
 

@@ -113,6 +113,8 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop<
 ## -remarks
 
 
+
 Drivers obtain the <b>IWDFIoTargetStateManagement</b> interface by calling <b>IWDFIoTarget::QueryInterface</b>, <b>IWDFUsbTargetPipe::QueryInterface</b>, or <b>IWDFUsbTargetPipe2::QueryInterface</b>.
+
 
 

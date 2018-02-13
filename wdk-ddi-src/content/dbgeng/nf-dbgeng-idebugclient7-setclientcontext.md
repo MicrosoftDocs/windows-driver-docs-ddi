@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetClientContext method [Windows Debugging], IDebugClient7 interface, debugger.idebugclient7_setclientcontext, IDebugClient7::SetClientContext, IDebugClient7, SetClientContext method [Windows Debugging], IDebugClient7 interface [Windows Debugging], SetClientContext method, SetClientContext, dbgeng/IDebugClient7::SetClientContext
+ms.keywords: debugger.idebugclient7_setclientcontext, SetClientContext method [Windows Debugging], dbgeng/IDebugClient7::SetClientContext, IDebugClient7::SetClientContext, IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7, SetClientContext, SetClientContext method [Windows Debugging], IDebugClient7 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,15 +81,21 @@ The <b>SetClientContext</b> method is reserved for internal use.
 ## -returns
 
 
+
 The <b>SetClientContext</b> method is reserved for internal use.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
+
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_client_context.md">DEBUG_CLIENT_CONTEXT</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
+
 
  
 

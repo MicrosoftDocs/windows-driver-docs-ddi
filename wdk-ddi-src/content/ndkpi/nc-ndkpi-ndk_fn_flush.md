@@ -78,11 +78,14 @@ A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.m
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>NdkFlush</i> cancels the receive and the initiator queue requests that are currently pending on a QP. The flushed requests have STATUS_CANCELLED as completion status.
@@ -91,9 +94,12 @@ If the  NDK consumer wants to verify that all of the requests are flushed after 
 
 
 
+
 ## -see-also
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
 
  
 

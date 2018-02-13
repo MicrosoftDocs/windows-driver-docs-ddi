@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 129fcbf9-8162-494a-a571-5c604849d387
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLERIDSETTINGS, rilapitypes/RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings_2, *LPRILCALLERIDSETTINGS
+ms.keywords: RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLERIDSETTINGS, netvista.rilcalleridsettings_2, RILCALLERIDSETTINGS, *LPRILCALLERIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,19 +75,14 @@ typedef struct _RILCALLERIDSETTINGS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwStatus
 
 
-
 ### -field dwProvisioning
-
 

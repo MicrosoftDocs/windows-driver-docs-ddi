@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284c7e69-50c6-4eef-bcf1-547bc7032a4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], ntddk/MmFreeNonCachedMemory, k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, kernel.mmfreenoncachedmemory, MmFreeNonCachedMemory
+ms.keywords: MmFreeNonCachedMemory, k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, kernel.mmfreenoncachedmemory, ntddk/MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MmFreeNonCachedMemory
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # MmFreeNonCachedMemory function
@@ -81,20 +81,26 @@ Specifies the size of the range to be freed. This value must match the size pass
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>MmFreeNonCachedMemory</b> routine performs the opposite action of <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
+
+
 
  
 

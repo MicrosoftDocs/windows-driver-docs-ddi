@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt interface, Disable method, wdf.iwdfinterrupt_disable, IWDFInterrupt, wudfddi/IWDFInterrupt::Disable, Disable method, Disable method, IWDFInterrupt interface, umdf.iwdfinterrupt_disable, IWDFInterrupt::Disable, Disable
+ms.keywords: IWDFInterrupt::Disable, IWDFInterrupt, Disable, wdf.iwdfinterrupt_disable, Disable method, wudfddi/IWDFInterrupt::Disable, Disable method, IWDFInterrupt interface, IWDFInterrupt interface, Disable method, umdf.iwdfinterrupt_disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ void Disable();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Most UMDF drivers do not need to call <b>IWDFInterrupt::Disable</b>, because the framework calls the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a> callback function each time the device leaves its working (D0) state.
@@ -86,12 +90,32 @@ Most UMDF drivers do not need to call <b>IWDFInterrupt::Disable</b>, because the
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
 
+#### Examples
+
+The following code example disables the device interrupt that is associated with a specified interrupt object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>pIWdfInterrupt-&gt;Disable();</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/605C58C2-9A4F-4185-BB5C-95C9F5180C05">IWDFInterrupt::Enable</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
-<a href="https://msdn.microsoft.com/605C58C2-9A4F-4185-BB5C-95C9F5180C05">IWDFInterrupt::Enable</a>
+
 
  
 

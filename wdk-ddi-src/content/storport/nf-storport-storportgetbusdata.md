@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, storport/StorPortGetBusData
+ms.keywords: StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, StorPortGetBusData, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,9 @@ Specifies the maximum number of bytes to return at <i>Buffer</i>, or zero if the
 ## -returns
 
 
+
 <b>StorPortGetBusData</b> returns the number of bytes of configuration information it stored in the buffer. When the input <i>BusDataType</i> is <b>PCIConfiguration</b>, <b>StorPortGetBusData</b> can return either of the following values to indicate an error.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,11 +139,14 @@ The PCI bus exists, but there is no device at the given PCI <i>SlotNumber</i>. T
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>StorPortGetBusData</b> can be called only from a miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine or from <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> when the control type is <b>ScsiSetRunningConfig</b>. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
@@ -150,11 +155,16 @@ Configuration data returned by <b>StorPortGetBusData</b> is valid only until the
 
 
 
+
 ## -see-also
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
 
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
 
  
 

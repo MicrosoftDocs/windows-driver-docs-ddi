@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -102,6 +106,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 ## -remarks
+
 
 
 Initiate a reset on a pin by sending IOCTL_KS_RESET_STATE with a value of KSRESET_BEGIN in the InBuffer parameter of <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a>. 
@@ -116,15 +121,24 @@ When the reset state is terminated, the pin can again accept new data and pass d
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksacquireresetvalue.md">KsAcquireResetValue</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a>
 
+
+
 <a href="..\ks\nc-ks-pfnksfiltervoid.md">AVStrMiniFilterReset</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+
+
+
+<a href="..\ks\nf-ks-ksacquireresetvalue.md">KsAcquireResetValue</a>
+
+
 
  
 

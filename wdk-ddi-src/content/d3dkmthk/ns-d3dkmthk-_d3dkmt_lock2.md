@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_LOCK2 structure [Display Devices], display.d3dkmt_lock2, _D3DKMT_LOCK2, d3dkmthk/D3DKMT_LOCK2, D3DKMT_LOCK2
+ms.keywords: D3DKMT_LOCK2 structure [Display Devices], display.d3dkmt_lock2, D3DKMT_LOCK2, _D3DKMT_LOCK2, d3dkmthk/D3DKMT_LOCK2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

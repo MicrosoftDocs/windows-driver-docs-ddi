@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c4b8220a-bd54-4e41-a00e-3750a3f03cae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaFilterFactoryUpdateCacheData, bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, stream.bdafilterfactoryupdatecachedata, bdasup/BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices]
+ms.keywords: bdasup/BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], stream.bdafilterfactoryupdatecachedata, bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, BdaFilterFactoryUpdateCacheData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - pFilterDescriptor [in, optional]
 
 Points to an optional <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> for which the pin data cache will be updated. If <b>NULL</b>, <i>pFilterFactory</i>'s descriptor is used instead. This parameter enables dynamic pin creation, that is, pin creation that occurs after a filter's create dispatch routine completes.
@@ -88,11 +89,14 @@ Points to an optional <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DES
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. Returns STATUS_INVALID_PARAMETER if no device interface is found that corresponds to the categories passed in the filter descriptor.
 
 
 
+
 ## -remarks
+
 
 
 A BDA minidriver calls the <b>BdaFilterFactoryUpdateCacheData</b> function to update the pin data cache for all pins specified at <i>pFilterDescriptor</i>. In this call, the BDA minidriver typically passes the <b>pFilterDescriptor</b> member of a <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a> structure that describes the template topology for the BDA filter to <i>pFilterDescriptor</i>. If <i>pFilterDescriptor</i> is <b>NULL</b>, the cached information will be updated for all pin factories specified at <i>pFilterFactory</i>'s KSFILTER_DESCRIPTOR member. For information about the pin data cache, see <a href="https://msdn.microsoft.com/1e6a973b-32d2-4ac2-9cd6-f4d3c329cecf">Caching Pin Information for DirectShow</a>. 
@@ -101,15 +105,24 @@ The <a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNo
 
 
 
-## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
+
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
 
  
 

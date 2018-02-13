@@ -7,8 +7,8 @@ old-location: buses\_stream_info.htm
 old-project: usbref
 ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses._stream_info, STREAM_INFO structure [Buses], P_STREAM_INFO, ucxsstreams/P_STREAM_INFO, *PSTREAM_INFO, _STREAM_INFO, STREAM_INFO, ucxsstreams/_STREAM_INFO, P_STREAM_INFO structure pointer [Buses]
+ms.date: 2/8/2018
+ms.keywords: ucxsstreams/P_STREAM_INFO, _STREAM_INFO, *PSTREAM_INFO, buses._stream_info, STREAM_INFO structure [Buses], P_STREAM_INFO structure pointer [Buses], P_STREAM_INFO, ucxsstreams/_STREAM_INFO, STREAM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

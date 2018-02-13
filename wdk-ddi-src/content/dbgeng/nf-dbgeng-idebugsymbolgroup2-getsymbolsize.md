@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f35bbbeb-585b-47b0-ae36-bd37fe9e1bbc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolSize, dbgeng/IDebugSymbolGroup2::GetSymbolSize, debugger.getsymbolsize, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize method [Windows Debugging], GetSymbolSize
+ms.keywords: GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2::GetSymbolSize, dbgeng/IDebugSymbolGroup2::GetSymbolSize, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymbolsize, IDebugSymbolGroup2, GetSymbolSize, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,7 @@ The size, in bytes, of the symbol's value. This information might not be availab
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,26 +109,36 @@ The symbol does not have type data associated with it.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
 <a href="https://msdn.microsoft.com/b6f03eb5-e386-4e88-a729-db08f1fa460c">IDebugSymbols::GetTypeSize</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 
  
 

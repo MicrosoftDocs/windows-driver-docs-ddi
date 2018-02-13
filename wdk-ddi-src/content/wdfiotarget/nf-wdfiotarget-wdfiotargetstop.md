@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3dd5aa58-e5a6-4ee3-9b88-d9cbb7eb558c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, WdfIoTargetStop method, WdfIoTargetStop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop, kmdf.wdfiotargetstop
+ms.keywords: WdfIoTargetStop method, WdfIoTargetStop, kmdf.wdfiotargetstop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop, DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">W
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -95,7 +96,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If your driver can detect recoverable device errors, you might want your driver to call <b>WdfIoTargetStop</b> to temporarily stop sending requests, then later call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a> to resume sending requests.
@@ -113,6 +116,7 @@ When a driver calls <b>WdfIoTargetStop</b>, the framework does not attempt to ca
 Your driver must call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a> and <b>WdfIoTargetStop</b> synchronously. After the driver calls one of these functions, it must not call either function before the first call returns.
 
 Your driver can call <b>WdfIoTargetStop</b> multiple times from a single thread without calling <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>. For example, your driver might do the following:
+
 <ol>
 <li>
 Call <b>WdfIoTargetStop</b> and specify an <i>Action</i> value of <b>WdfIoTargetLeaveSentIoPending</b>. 
@@ -126,29 +130,77 @@ Determine whether the target should resume processing I/O requests.
 If the target should resume, call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>. Otherwise, call <b>WdfIoTargetStop</b> again with an <i>Action</i> value of <b>WdfIoTargetCancelSentIo</b>. 
 
 </li>
-</ol><div class="alert"><b>Note</b>  It is not safe to call <b>WdfIoTargetStop</b> multiple times from different threads.</div><div> </div>For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
+</ol>
+<div class="alert"><b>Note</b>  It is not safe to call <b>WdfIoTargetStop</b> multiple times from different threads.</div>
+<div> </div>
+For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a> for the pipe, <b>WdfIoTargetStop</b> must be called at IRQL = PASSIVE_LEVEL.
 
 If the driver has not called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a> and if the <i>Action</i> parameter of <b>WdfIoTargetStop</b> is <b>WdfIoTargetLeaveSentIoPending</b>, <b>WdfIoTargetStop</b> can be called at IRQL &lt;= DISPATCH_LEVEL. Otherwise, <b>WdfIoTargetStop</b> is called at IRQL = PASSIVE_LEVEL. 
 
 
+#### Examples
+
+The following code example shows how an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a> callback function can call <b>WdfIoTargetStop</b>, if the driver uses a continuous reader for a USB pipe. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+MyEvtDeviceD0Exit(
+    IN  WDFDEVICE Device,
+    IN  WDF_POWER_DEVICE_STATE TargetState
+)
+{
+    PDEVICE_CONTEXT  pDeviceContext;
+    pDeviceContext = GetMyDeviceContext(Device);
+
+    WdfIoTargetStop(
+                    WdfUsbTargetPipeGetIoTarget(pDeviceContext-&gt;InterruptPipe),
+                    WdfIoTargetCancelSentIo
+                    );
+
+    return STATUS_SUCCESS;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpiperesetsynchronously.md">WdfUsbTargetPipeResetSynchronously</a>
+
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpiperesetsynchronously.md">WdfUsbTargetPipeResetSynchronously</a>
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeconfigcontinuousreader.md">WdfUsbTargetPipeConfigContinuousReader</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
 
  
 

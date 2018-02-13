@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], dxva/LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], display.dxva_videosample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, dxva/DXVA_VideoSample2, LPDXVA_VideoSample2, *LPDXVA_VideoSample2, DXVA_VideoSample2"
+ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, LPDXVA_VideoSample2, dxva/DXVA_VideoSample2, _DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], dxva/LPDXVA_VideoSample2, display.dxva_videosample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, LPDXVA_VideoSample2 structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,6 +135,7 @@ Specifies an array of <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsa
 ## -remarks
 
 
+
 For video substream samples, the <b>rtStart</b> and <b>rtEnd</b> members are set to 0. 
 
 The <b>SampleFormat</b> member indicates whether the sample is a reference for a deinterlace operation or a video substream sample that must be combined with the deinterlaced video frame. The DXVA_SampleSubStream value (new for Windows Server 2003 with SP1 and later and Windows XP with SP2 and later) of the <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> enumeration type specifies the format for a video substream sample.
@@ -145,23 +146,40 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
+
 ## -see-also
-
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
-
-<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleflags.md">DXVA_SampleFlags</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+
 
  
 

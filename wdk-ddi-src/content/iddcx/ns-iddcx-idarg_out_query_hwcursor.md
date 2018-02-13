@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 813d6aa6-0442-4f30-9fd6-b3aec2e0e11d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_QUERY_HWCURSOR, iddcx/IDARG_OUT_QUERY_HWCURSOR, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices], display.idarg_out_query_hwcursor
+ms.keywords: IDARG_OUT_QUERY_HWCURSOR, iddcx/IDARG_OUT_QUERY_HWCURSOR, display.idarg_out_query_hwcursor, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,13 +83,17 @@ typedef struct DARG_OUT_QUERY_HWCURSOR {
 
 
                      [out] If the cursor is viable, this is the screen coordinate of the top-left hand pixel in the cursor image.
-<div class="alert"><b>Note</b>  NOTE : This can be negative. For example, when there is a hot-spot in the center of cursor it is placed in the top-left of the screen</div><div> </div>
+
+<div class="alert"><b>Note</b>  NOTE : This can be negative. For example, when there is a hot-spot in the center of cursor it is placed in the top-left of the screen</div>
+<div> </div>
 
 ### -field Y
 
 
                      [out] If the cursor is viable, this is the screen coordinate of the top-left hand pixel in the cursor image.
-<div class="alert"><b>Note</b>  NOTE : This can be negative. For example, when there is a hot-spot in the center of cursor it is placed in the top-left of the screen</div><div> </div>
+
+<div class="alert"><b>Note</b>  NOTE : This can be negative. For example, when there is a hot-spot in the center of cursor it is placed in the top-left of the screen</div>
+<div> </div>
 
 ### -field IsCursorShapeUpdated
 

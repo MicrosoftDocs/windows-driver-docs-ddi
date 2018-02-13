@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50c989b9-147c-41ea-b933-3a3e8575563e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PENLISTMENT_BASIC_INFORMATION, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, kernel.enlistment_basic_information, _ENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PENLISTMENT_BASIC_INFORMATION, wdm/PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION, wdm/ENLISTMENT_BASIC_INFORMATION
+ms.keywords: PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PENLISTMENT_BASIC_INFORMATION, kernel.enlistment_basic_information, *PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, _ENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/ENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ENLISTMENT_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: ENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION
+req.typenames: "*PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -88,15 +88,21 @@ A GUID that KTM has assigned to the resource manager that created the enlistment
 ## -remarks
 
 
+
 The <b>ENLISTMENT_BASIC INFORMATION</b> structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a> routine.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
 
-<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
+
 
  
 

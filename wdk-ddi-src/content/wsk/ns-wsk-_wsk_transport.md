@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wsk_transport, PWSK_TRANSPORT, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, WSK_TRANSPORT, _WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], *PWSK_TRANSPORT
+ms.keywords: "*PWSK_TRANSPORT, netvista.wsk_transport, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, _WSK_TRANSPORT, wsk/WSK_TRANSPORT, wsk/PWSK_TRANSPORT, PWSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], WSK_TRANSPORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,9 +85,6 @@ The type of socket that is supported by the transport. This member can be one of
 
 
 
-For more information about the socket types that are supported for each supported address family, see
-     
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
 #### SOCK_STREAM
@@ -95,14 +92,20 @@ For more information about the socket types that are supported for each supporte
 Supports reliable connection-oriented byte stream communication.
 
 
+
 #### SOCK_DGRAM
 
 Supports unreliable connectionless datagram communication.
 
 
+
 #### SOCK_RAW
 
 Supports raw access to the transport protocol.
+
+For more information about the socket types that are supported for each supported address family, see
+     
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
 ### -field Protocol
@@ -125,6 +128,7 @@ The identifier of the transport provider that implements the transport.
 
 
 ## -remarks
+
 
 
 A WSK application passes a pointer to an array of WSK_TRANSPORT structures to the 
@@ -150,13 +154,20 @@ A single transport provider can support multiple combinations of values for the
 
 
 
+
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
 
  
 

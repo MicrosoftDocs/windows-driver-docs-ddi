@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c7f9cfc5-5698-404b-9b67-51ad8e351519
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCEFREQ, D3DHAL_DP2SETSTREAMSOURCEFREQ, _D3DHAL_DP2SETSTREAMSOURCEFREQ, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEFREQ, d3dhal/D3DHAL_DP2SETSTREAMSOURCEFREQ, d3dstrct_979aa6d9-cf68-4e59-9ee5-b422749fa49d.xml, D3DHAL_DP2SETSTREAMSOURCEFREQ structure [Display Devices], display.d3dhal_dp2setstreamsourcefreq, LPD3DHAL_DP2SETSTREAMSOURCEFREQ, LPD3DHAL_DP2SETSTREAMSOURCEFREQ structure pointer [Display Devices]"
+ms.keywords: d3dhal/D3DHAL_DP2SETSTREAMSOURCEFREQ, D3DHAL_DP2SETSTREAMSOURCEFREQ structure [Display Devices], d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEFREQ, LPD3DHAL_DP2SETSTREAMSOURCEFREQ, D3DHAL_DP2SETSTREAMSOURCEFREQ, LPD3DHAL_DP2SETSTREAMSOURCEFREQ structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCEFREQ, d3dstrct_979aa6d9-cf68-4e59-9ee5-b422749fa49d.xml, *LPD3DHAL_DP2SETSTREAMSOURCEFREQ, display.d3dhal_dp2setstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,17 +85,23 @@ Specifies the frequency divisor, which is the number of vertices after which dat
 ## -remarks
 
 
+
 A driver is requested to set a stream's frequency divisor through the D3DDP2OP_SETSTREAMSOURCEFREQ operation code. 
 
 A driver for a device that supports vertex shader version 3.0 and later can implement stream frequency division. For more information, see <a href="https://msdn.microsoft.com/81bbced4-7331-4e54-9617-1ef29b02f162">Modifying Vertex Stream Frequency</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
 D3DDP2OP_SETSTREAMSOURCEFREQ
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
 
  
 

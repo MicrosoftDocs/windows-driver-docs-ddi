@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, wudfddi/IWDFIoRequest::GetReadParameters, IWDFIoRequest::GetReadParameters, IWDFIoRequest, GetReadParameters, GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, IWDFIoRequest interface, GetReadParameters method
+ms.keywords: wudfddi/IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, IWDFIoRequest::GetReadParameters, wdf.iwdfiorequest_getreadparameters, umdf.iwdfiorequest_getreadparameters, IWDFIoRequest interface, GetReadParameters method, GetReadParameters, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,11 +103,14 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A call to <b>GetReadParameters</b> fails if the request type is not a read type.
@@ -118,11 +121,16 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pSizeI
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

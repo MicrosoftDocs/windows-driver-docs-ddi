@@ -94,14 +94,18 @@ The length of a
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -113,6 +117,8 @@ The length of a
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlisfatdbcslegal.htm
 old-project: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, FsRtlIsFatDbcsLegal
+ms.date: 2/7/2018
+ms.keywords: fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, ifsk.fsrtlisfatdbcslegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], FsRtlIsFatDbcsLegal, ntifs/FsRtlIsFatDbcsLegal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,16 +93,20 @@ Set to <b>TRUE</b> if a single leading backslash is permissible in the file or p
 ## -returns
 
 
+
 The <b>FsRtlIsFatDbcsLegal</b> routine returns <b>TRUE</b> if the string is a legal FAT file name, <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 The <b>FsRtlIsFatDbcsLegal</b> routine determines whether the specified file name conforms to the FAT-specific rules for legal file names. This routine will check the file name or, if <i>PathNamePermissible</i> is specified as <b>TRUE</b>, whether the whole pathname is a legal FAT name.
 
 FAT file names must obey the following rules:
+
 <ul>
 <li>
 The following characters are illegal in FAT file names: 0x00-0x1F, " (straight quotation marks), / (slash), : (colon), | (vertical bar or pipe), + (plus), , (comma), ; (semicolon), = (equal sign), [ ] (brackets)
@@ -116,7 +120,9 @@ A FAT file name is either of the form N.E or just N, where N is a string of one 
 FAT file names are case insensitive. Lowercase names are automatically converted to uppercase. 
 
 </li>
-</ul>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+</ul>
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 
@@ -124,9 +130,11 @@ FAT file names are case insensitive. Lowercase names are automatically converted
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIsFatDbcsLegal routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIsFatDbcsLegal routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

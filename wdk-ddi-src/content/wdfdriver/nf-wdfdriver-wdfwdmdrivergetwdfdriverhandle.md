@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2126d36c-42c1-4e29-bf82-9f5682482557
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFWDMDRIVERGETWDFDRIVERHANDLE, WdfWdmDriverGetWdfDriverHandle, wdf.wdfwdmdrivergetwdfdriverhandle, wdfdriver/WdfWdmDriverGetWdfDriverHandle, DFDriverObjectRef_9cf5a70f-e2df-4302-9558-c8cd066cf8e4.xml, WdfWdmDriverGetWdfDriverHandle method, kmdf.wdfwdmdrivergetwdfdriverhandle
+ms.keywords: DFDriverObjectRef_9cf5a70f-e2df-4302-9558-c8cd066cf8e4.xml, WdfWdmDriverGetWdfDriverHandle method, WdfWdmDriverGetWdfDriverHandle, wdf.wdfwdmdrivergetwdfdriverhandle, kmdf.wdfwdmdrivergetwdfdriverhandle, wdfdriver/WdfWdmDriverGetWdfDriverHandle, PFN_WDFWDMDRIVERGETWDFDRIVERHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,8 @@ A pointer to a WDM driver object.
 ## -returns
 
 
+
 <b>WdfWdmDriverGetWdfDriverHandle</b> returns a handle to a framework driver object. A system bug check occurs if the <i>DriverObject</i> pointer is <b>NULL</b>. 
+
 
 

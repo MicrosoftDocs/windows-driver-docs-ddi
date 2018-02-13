@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50E3F5CC-AFB9-4527-A812-44295373D80B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION structure [Display Devices], d3dkmthk/D3DKMT_TRIMNOTIFICATION, display.d3dkmt_trimnotification"
+ms.keywords: "_D3DKMT_TRIMNOTIFICATION, d3dkmthk/D3DKMT_TRIMNOTIFICATION, display.d3dkmt_trimnotification, D3DKMT_TRIMNOTIFICATION structure [Display Devices], D3DKMT_TRIMNOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_TRIMNOTIFICATION {
 ## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_trimresidencyset_flags.md">D3DDDI_TRIMRESIDENCYSET_FLAGS</a>
+
+
 
  
 

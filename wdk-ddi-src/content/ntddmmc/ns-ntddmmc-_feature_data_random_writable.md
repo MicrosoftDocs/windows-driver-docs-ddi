@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2637f5e-15b0-44ae-8cd0-98712e735998
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE, FEATURE_DATA_RANDOM_WRITABLE, _FEATURE_DATA_RANDOM_WRITABLE, *PFEATURE_DATA_RANDOM_WRITABLE, structs-CD-ROM_fa825a20-a941-4af3-aabd-1b9f7e4e3ee6.xml, storage.feature_data_random_writable, FEATURE_DATA_RANDOM_WRITABLE structure [Storage Devices], ntddmmc/FEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE structure pointer [Storage Devices]
+ms.keywords: "_FEATURE_DATA_RANDOM_WRITABLE, storage.feature_data_random_writable, ntddmmc/PFEATURE_DATA_RANDOM_WRITABLE, structs-CD-ROM_fa825a20-a941-4af3-aabd-1b9f7e4e3ee6.xml, FEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE structure pointer [Storage Devices], *PFEATURE_DATA_RANDOM_WRITABLE, ntddmmc/FEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE, FEATURE_DATA_RANDOM_WRITABLE structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,15 +111,21 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "Random Writable" by the <i>MMC-3 </i>specification. Devices that support this feature can write blocks of data to random locations on the disk. These devices do not require that the initiator address disk locations in any particular order. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

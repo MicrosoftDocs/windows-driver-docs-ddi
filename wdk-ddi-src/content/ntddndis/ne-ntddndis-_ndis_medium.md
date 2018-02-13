@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisMediumNative802_11, ntddndis/NDIS_MEDIUM, NdisMediumWan, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], NdisMediumAtm, NdisMediumLoopback, ntddndis/NdisMediumFddi, ntddndis/NdisMediumInfiniBand, NdisMediumFddi, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMedium1394, NdisMedium802_5, ntddndis/NdisMediumWan, ntddndis/NdisMediumAtm, netvista.ndis_medium, NdisMediumBpc, NdisMediumLocalTalk, ntddndis/NdisMediumTunnel, NdisMediumMax, ntddndis/NdisMediumIrda, ntddndis/NdisMedium802_5, NdisMediumIP, ntddndis/PNDIS_MEDIUM, NdisMediumIrda, NdisMediumNative802_11, *PNDIS_MEDIUM, NdisMediumArcnet878_2, ntddndis/NdisMediumDix, ntddndis/NdisMediumArcnet878_2, ntddndis/NdisMedium802_3, NdisMediumInfiniBand, _NDIS_MEDIUM, ntddndis/NdisMediumLocalTalk, NdisMediumCoWan, ntddndis/NdisMediumWirelessWan, ntddndis/NdisMediumMax, ntddndis/NdisMediumLoopback, NDIS_MEDIUM, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, NdisMedium802_3, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumIP, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], PNDIS_MEDIUM, NdisMediumWirelessWan, NdisMediumDix, ntddndis/NdisMediumBpc, NdisMediumArcnetRaw, NdisMedium1394, NdisMediumTunnel
+ms.keywords: NdisMediumWan, NdisMediumNative802_11, netvista.ndis_medium, NdisMedium802_3, ntddndis/NdisMedium802_3, ntddndis/NdisMediumDix, NdisMediumCoWan, NdisMediumArcnet878_2, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumLoopback, ntddndis/NdisMediumBpc, NdisMediumMax, NdisMediumBpc, _NDIS_MEDIUM, NdisMedium1394, ntddndis/NdisMediumCoWan, NdisMediumAtm, NdisMediumLoopback, ntddndis/NdisMediumArcnet878_2, ntddndis/NDIS_MEDIUM, *PNDIS_MEDIUM, PNDIS_MEDIUM, NdisMediumIrda, NdisMediumInfiniBand, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisMediumIP, NdisMediumIP, ntddndis/NdisMediumWirelessWan, NdisMediumFddi, NDIS_MEDIUM, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumIrda, ntddndis/NdisMediumWan, ntddndis/NdisMediumTunnel, ntddndis/NdisMedium802_5, NdisMedium802_5, NdisMediumArcnetRaw, ntddndis/NdisMediumFddi, NdisMediumDix, NdisMediumLocalTalk, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumAtm, ntddndis/NdisMediumMax, ntddndis/NdisMediumNative802_11, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml, ntddndis/PNDIS_MEDIUM, NdisMediumTunnel, NdisMediumWirelessWan, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisMedium1394
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,12 +98,16 @@ Specifies an Ethernet (802.3) network.
 ### -field NdisMedium802_5
 
 Specifies a Token Ring (802.5) network.
-<div class="alert"><b>Note</b>   Not supported in Windows 8 or later.</div><div> </div>
+
+<div class="alert"><b>Note</b>   Not supported in Windows 8 or later.</div>
+<div> </div>
 
 ### -field NdisMediumFddi
 
 Specifies a Fiber Distributed Data Interface (FDDI) network.
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
+
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
+<div> </div>
 
 ### -field NdisMediumWan
 
@@ -125,12 +129,16 @@ Specifies an Ethernet network for which the drivers use the DIX Ethernet header 
 ### -field NdisMediumArcnetRaw
 
 Specifies an ARCNET network.
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
+
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
+<div> </div>
 
 ### -field NdisMediumArcnet878_2
 
 Specifies an ARCNET (878.2) network.
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
+
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
+<div> </div>
 
 ### -field NdisMediumAtm
 
@@ -174,7 +182,9 @@ Specifies a wide area network in a connection-oriented environment.
 ### -field NdisMedium1394
 
 Specifies an IEEE 1394 (fire wire) network. 
-<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div><div> </div>
+
+<div class="alert"><b>Note</b>   Not supported in Windows Vista/Windows Server 2008 or later.</div>
+<div> </div>
 
 ### -field NdisMediumInfiniBand
 
@@ -197,7 +207,6 @@ Specifies an NDIS loopback network.
 
 
 ### -field NdisMediumWiMAX
-
 
 
 ### -field NdisMediumIP

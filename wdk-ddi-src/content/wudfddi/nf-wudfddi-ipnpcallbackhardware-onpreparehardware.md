@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c821231a-446d-45dd-9c12-9ab05aeb1108
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnPrepareHardware method, IPnpCallbackHardware interface, IPnpCallbackHardware, OnPrepareHardware method, wdf.ipnpcallbackhardware_onpreparehardware, OnPrepareHardware, umdf.ipnpcallbackhardware_onpreparehardware, UMDFDeviceObjectRef_3b9db069-02f0-4d3e-855d-835bb1bb6d2d.xml, IPnpCallbackHardware::OnPrepareHardware, wudfddi/IPnpCallbackHardware::OnPrepareHardware, IPnpCallbackHardware interface, OnPrepareHardware method
+ms.keywords: wdf.ipnpcallbackhardware_onpreparehardware, OnPrepareHardware method, IPnpCallbackHardware interface, OnPrepareHardware method, OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware interface, umdf.ipnpcallbackhardware_onpreparehardware, wudfddi/IPnpCallbackHardware::OnPrepareHardware, IPnpCallbackHardware, IPnpCallbackHardware::OnPrepareHardware, UMDFDeviceObjectRef_3b9db069-02f0-4d3e-855d-835bb1bb6d2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,6 +78,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 <b>OnPrepareHardware</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes defined in Winerror.h. Do not return HRESULT_FROM_NT(STATUS_NOT_SUPPORTED).
 
 If <b>OnPrepareHardware</b> returns an error code, the framework will still call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a> method. The <b>OnReleaseHardware</b> method can then free resources that were allocated during the call to <b>OnPrepareHardware</b>. Because <b>OnReleaseHardware</b> must free resources for both success and failure cases of <b>OnPrepareHardware</b>,  it must be able to handle the cleanup of partial resources. 
@@ -88,7 +89,9 @@ This method must use the HRESULT_FROM_NT macro to return a specific HRESULT valu
 
 
 
+
 ## -remarks
+
 
 
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
@@ -99,19 +102,32 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
+
 ## -see-also
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
-<a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

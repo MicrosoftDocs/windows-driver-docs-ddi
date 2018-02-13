@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA484BB1-550E-48F1-A400-86F62D59A0A1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrToInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToInt8, kernel.rtluintptrtoint8, RtlUIntPtrToInt8
+ms.keywords: RtlUIntPtrToInt8, RtlUIntPtrToInt8 function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToInt8, kernel.rtluintptrtoint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlSizeTToInt8
 </li>
 </ul>
+
 

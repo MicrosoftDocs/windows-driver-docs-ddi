@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: B90D7C3D-0370-48A1-90DC-FC14477DA835
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfsystemaction2_getnextsleepstate, GetNextSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, GetNextSleepState, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetNextSleepState method, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, IWDTFSystemAction2, GetNextSleepState method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState, IWDTFSystemAction2::GetNextSleepState
+ms.keywords: Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, dtf.iwdtfsystemaction2_getnextsleepstate, GetNextSleepState, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetNextSleepState method, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, GetNextSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2::GetNextSleepState, IWDTFSystemAction2, GetNextSleepState method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The sleep state.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

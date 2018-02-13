@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a88c2c74-ab9a-4d9a-aeb7-d08bfe497da4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, debugger.writemsr, WriteMsr, dbgeng/WriteMsr, WriteMsr function [Windows Debugging]
+ms.keywords: dbgeng/WriteMsr, WriteMsr function [Windows Debugging], WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, debugger.writemsr, WriteMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,17 @@ Specifies the new value of the MSR.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

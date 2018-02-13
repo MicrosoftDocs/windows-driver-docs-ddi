@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.net_dma_descriptor, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_OP_TYPE_MASK, NET_DMA_SERIALIZE_TRANSFER, netdma/PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_NO_SNOOP, netdma/NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR, _NET_DMA_DESCRIPTOR, NET_DMA_NULL_TRANSFER, NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_DESTINATION_DCA_ENABLE, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_RESERVED_MASK, NET_DMA_DESTINATION_NO_SNOOP, PNET_DMA_DESCRIPTOR
+ms.keywords: NET_DMA_INTERRUPT_ON_COMPLETION, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_DESCRIPTOR, NET_DMA_RESERVED_MASK, *PNET_DMA_DESCRIPTOR, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_OP_TYPE_CONTEXT_CHANGE, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_OP_TYPE_MASK, netdma/PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, netdma/NET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, NET_DMA_NULL_TRANSFER, _NET_DMA_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,6 +95,20 @@ typedef struct _NET_DMA_DESCRIPTOR {
 
 
 
+### -field TransferSize
+
+The size, in bytes, of the memory block that is associated with this DMA descriptor. 
+      
+
+NetDMA 2.0 and later provider drivers use the 
+      <b>DCAContext32</b>, 
+      <b>DCAContext16</b>, and 
+      <b>DCAContext8</b> members of the union with 
+      <b>TransferSize</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      (DCA)</a>.
+
+
 ### -field DCAContext32
 
 A 32 bit DCA context.
@@ -135,57 +149,12 @@ A DCA context.
 Reserved bits.
 
 
-### -field TransferSize
-
-The size, in bytes, of the memory block that is associated with this DMA descriptor. 
-      
-
-NetDMA 2.0 and later provider drivers use the 
-      <b>DCAContext32</b>, 
-      <b>DCAContext16</b>, and 
-      <b>DCAContext8</b> members of the union with 
-      <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
-      (DCA)</a>.
-
-
-### -field Reserved1
-
-A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
-      and later provider drivers use the 
-      <b>NextSourceAddress</b> member of the union with 
-      <b>Reserved1</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
-      Break</a>.
-
-
-### -field NextSourceAddress
-
-The physical address of the second page of source address that is used in source page
-      break.
-
-
-### -field Reserved2
-
-A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
-      2.0 and later provider drivers use the 
-      <b>NextDestinationAddress</b> member of the union with 
-      <b>Reserved2</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
-      Break</a>.
-
-
-### -field NextDestinationAddress
-
-The physical address of the second page of destination address that is used in destination page
-      break.
-
-
 ### -field ControlFlags
 
 A set of flags that specify the operations that the DMA engine should perform for this DMA
      descriptor. This member must contain one or more of the following values (combined with a bitwise OR
      operation):
+
 <table>
 <tr>
 <th>Unless otherwise noted, descriptions apply to when the bit is set.</th>
@@ -368,10 +337,12 @@ When this bit is cleared, a DMA transfer might be required or it might be a zero
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following bitmasks identify the remaining bits in the 
       <b>ControlFlags</b> member:
+
 <table>
 <tr>
 <th>Value</th>
@@ -399,7 +370,8 @@ A bit mask that specifies bits that are reserved for future applications. The Ne
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SourceAddress
@@ -419,6 +391,38 @@ The physical address of the next NET_DMA_DESCRIPTOR structure in the linked list
      <b>NextDescriptor</b> is <b>NULL</b>.
 
 
+### -field Reserved1
+
+A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
+      and later provider drivers use the 
+      <b>NextSourceAddress</b> member of the union with 
+      <b>Reserved1</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      Break</a>.
+
+
+### -field NextSourceAddress
+
+The physical address of the second page of source address that is used in source page
+      break.
+
+
+### -field Reserved2
+
+A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
+      2.0 and later provider drivers use the 
+      <b>NextDestinationAddress</b> member of the union with 
+      <b>Reserved2</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      Break</a>.
+
+
+### -field NextDestinationAddress
+
+The physical address of the second page of destination address that is used in destination page
+      break.
+
+
 ### -field UserContext1
 
 A ULONG64 value that is reserved for the NetDMA interface to use.
@@ -430,6 +434,7 @@ A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
 ## -remarks
+
 
 
 The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control information for a
@@ -451,13 +456,20 @@ The NetDMA interface calls a DMA provider driver's
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
+
+
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8ac8d3ff-68ec-4e23-bbf9-0a9b7fa13ce3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObGetObjectSecurity routine [Kernel-Mode Driver Architecture], kernel.obgetobjectsecurity, k107_a0c800de-984a-427f-b308-415f831e5d34.xml, ObGetObjectSecurity, wdm/ObGetObjectSecurity
+ms.keywords: ObGetObjectSecurity, kernel.obgetobjectsecurity, k107_a0c800de-984a-427f-b308-415f831e5d34.xml, wdm/ObGetObjectSecurity, ObGetObjectSecurity routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Pointer to a caller-supplied variable that this routine sets to <b>TRUE</b> if i
 ## -returns
 
 
+
 <b>ObGetObjectSecurity</b> either returns STATUS_SUCCESS or an error status, such as STATUS_INSUFFICIENT_RESOURCES if it could not allocate enough memory to return the requested information. 
 
 
 
+
 ## -remarks
+
 
 
 A successful call to <b>ObGetObjectSecurity</b> either returns a self-relative security descriptor in the buffer at *<i>SecurityDescriptor</i> or it returns <b>NULL</b> at <b>*</b><i>SecurityDescriptor</i> if the given object has no security descriptor. For example, any unnamed object, such as an event object, has no security descriptor.
@@ -103,13 +106,20 @@ If <b>ObGetObjectSecurity</b> returns STATUS_SUCCESS, the caller must save the v
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-obreleaseobjectsecurity.md">ObReleaseObjectSecurity</a>
 
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 

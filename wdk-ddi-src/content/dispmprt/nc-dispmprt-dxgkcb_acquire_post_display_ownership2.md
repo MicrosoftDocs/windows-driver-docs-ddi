@@ -40,7 +40,7 @@ apiname:
 -	DxgkcbAcquirePostDisplayOwnership2
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback
@@ -93,13 +93,17 @@ A pointer to a DXGK_DISPLAY_OWNERSHIP_FLAGS structure that is allocated by the d
 
 
 
+
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> returns STATUS_SUCCESS if it succeeds. 
+
 
 
 
 ## -remarks
 
 
+
 Register your implementation of this callback function by setting the appropriate member of  and then calling .
+
 
 

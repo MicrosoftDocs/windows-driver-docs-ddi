@@ -87,20 +87,25 @@ Greater than or equal to <b>sizeof</b>(ULONG).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+
 <ul>
 <li>
 <b>Information</b> is set to <b>sizeof</b>(ULONG) if the polling frequency is successfully retrieved. 
@@ -115,6 +120,8 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 ## -see-also
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_set_poll_frequency_msec.md">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>
+
+
 
  
 

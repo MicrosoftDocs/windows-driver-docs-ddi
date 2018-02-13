@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a7f265b8-c8a9-4a79-85e2-e3f52bf25f31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetLastError method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], GetLastError method, image.istiusd_getlasterror, GetLastError method [Imaging Devices], stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, GetLastError, IStiUSD, stiusd/IStiUSD::GetLastError, IStiUSD::GetLastError
+ms.keywords: stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, IStiUSD, GetLastError method [Imaging Devices], IStiUSD interface, image.istiusd_getlasterror, stiusd/IStiUSD::GetLastError, GetLastError method [Imaging Devices], IStiUSD::GetLastError, IStiUSD interface [Imaging Devices], GetLastError method, GetLastError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ Caller-supplied pointer to a buffer in which the error code will be stored.
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543747">IStiDevice::GetLastError</a>
+
+
 
  
 

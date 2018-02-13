@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_opensyncobjectfromnthandle2, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
+ms.keywords: display.d3dkmt_opensyncobjectfromnthandle2, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,6 +78,26 @@ typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 {
 
 
 
+### -field hNtHandle
+
+[in] NT handle for the sync object to be opened.
+
+
+### -field hDevice
+
+[in] Device handle to use this sync object on.
+
+
+### -field Flags
+
+[in] Specifies the desired sync object behavior for this device, such as wait and signal semantics and TDR handling.
+
+
+### -field hSyncObject
+
+[out] Handle to the sync object that can be used in this process.
+
+
 ### -field MonitoredFence
 
 Contains sync object virtual addresses that can be used in this process.
@@ -103,29 +123,11 @@ Contains sync object virtual addresses that can be used in this process.
 The consolidated value of the <b>MonitoredFence</b> structure.
 
 
-### -field hNtHandle
-
-[in] NT handle for the sync object to be opened.
-
-
-### -field hDevice
-
-[in] Device handle to use this sync object on.
-
-
-### -field Flags
-
-[in] Specifies the desired sync object behavior for this device, such as wait and signal semantics and TDR handling.
-
-
-### -field hSyncObject
-
-[out] Handle to the sync object that can be used in this process.
-
-
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
+
+
 
  
 

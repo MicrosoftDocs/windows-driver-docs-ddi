@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], Field method, ExtRemoteTyped, Field method [Windows Debugging], ExtRemoteTyped::Field, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, Field, Field method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_field
+ms.keywords: ExtRemoteTyped interface [Windows Debugging], Field method, Field method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::Field, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, debugger.extremotetyped_field, Field method [Windows Debugging], Field, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.Field
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::Field method
@@ -75,6 +75,8 @@ The name of the member whose typed data is requested.  Sub-members can be specif
 ## -returns
 
 
+
 <b>Field</b> returns a new <b>ExtRemoteTyped</b> object that represents the typed data for the specified member.
+
 
 

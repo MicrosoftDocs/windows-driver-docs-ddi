@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_parent_hub_info.htm
 old-project: usbref
 ms.assetid: c97c1081-6f8c-4aa3-b34a-b8f7455dc2ef
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usb_get_parent_hub_info, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control code [Buses], IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO, usbioctl/IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,50 +67,66 @@ The <b>IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO</b>
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ca17e70-1e50-4b62-89ec-0e92ad6e846b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo_2, rilapitypes/RILREMOTEPARTYINFO
+ms.keywords: "*LPRILREMOTEPARTYINFO, netvista.rilremotepartyinfo_2, rilapitypes/RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], RILREMOTEPARTYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,35 +79,26 @@ typedef struct _RILREMOTEPARTYINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field raAddress
-
 
 
 ### -field rsaSubAddress
 
 
-
 ### -field wszDescription
-
 
 
 ### -field dwNumberPresentationIndicator
 
 
-
 ### -field dwNamePresentationIndicator
 
 
-
 ### -field dwID
-
 

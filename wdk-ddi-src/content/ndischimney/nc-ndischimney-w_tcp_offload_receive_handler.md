@@ -110,6 +110,7 @@ A pointer to a
 ## -returns
 
 
+
 NDIS_STATUS_PENDING is the only return value that is allowed. An offload target always completes
      (returns) posted receive requests asynchronously by calling 
      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
@@ -117,7 +118,9 @@ NDIS_STATUS_PENDING is the only return value that is allowed. An offload target 
 
 
 
+
 ## -remarks
+
 
 
 A client application can post receive requests on an offloaded TCP connection. The offload target uses
@@ -152,6 +155,7 @@ Note, however, that the host stack can call the
     <i>MiniportTcpOffloadReceive</i> function are in progress on another connection.
 
 A posted receive request can optionally be in either of two modes:
+
 <ul>
 <li>
 Push mode
@@ -161,7 +165,8 @@ Push mode
 Nonpush mode
 
 </li>
-</ul>Note that an offload target must support both push mode and nonpush mode. .
+</ul>
+Note that an offload target must support both push mode and nonpush mode. .
 
 To determine which mode a buffer is in, an offload target calls the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to get the
@@ -176,6 +181,7 @@ If the receive request is in push mode, the offload target retrieves the value o
     the first byte of receive data into the receive request. The offload target always completes filled
     receive requests immediately. The offload target completes a partially filled receive request that is in
     push mode if either of the following occurs:
+
 <ul>
 <li>
 The push timer expires.
@@ -185,7 +191,8 @@ The push timer expires.
 The offload target receives a TCP segment on the connection that has the PSH bit set.
 
 </li>
-</ul>If the receive request is in nonpush mode, the offload target does not start a push timer. The offload
+</ul>
+If the receive request is in nonpush mode, the offload target does not start a push timer. The offload
     target completes the receive request only when the receive request is filled. The offload target ignores
     the PSH bit in TCP segments that it receives on the connection.
 
@@ -194,18 +201,29 @@ If data is received on an offloaded connection while the push timer is running, 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
    NdisTcpOffloadReceiveComplete</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

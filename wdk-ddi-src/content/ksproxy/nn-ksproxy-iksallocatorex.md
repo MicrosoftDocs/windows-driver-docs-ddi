@@ -214,6 +214,8 @@ Sets the mode in which an allocator allocates memory.
 
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
 
+
+
  
 
  

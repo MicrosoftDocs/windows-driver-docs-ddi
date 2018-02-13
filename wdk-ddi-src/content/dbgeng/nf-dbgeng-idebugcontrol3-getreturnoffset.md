@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 65d72369-7ace-4d3d-a15c-6322c0066470
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetReturnOffset method [Windows Debugging], IDebugControl interface, IDebugControl3::GetReturnOffset, dbgeng/IDebugControl2::GetReturnOffset, IDebugControl::GetReturnOffset, IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, GetReturnOffset, IDebugControl2 interface [Windows Debugging], GetReturnOffset method, dbgeng/IDebugControl3::GetReturnOffset, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, IDebugControl2::GetReturnOffset, GetReturnOffset method [Windows Debugging], GetReturnOffset method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetReturnOffset method, dbgeng/IDebugControl::GetReturnOffset, debugger.getreturnoffset, IDebugControl3, GetReturnOffset method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset method [Windows Debugging], IDebugControl2::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl2 interface, IDebugControl::GetReturnOffset, IDebugControl3, dbgeng/IDebugControl2::GetReturnOffset, IDebugControl, dbgeng/IDebugControl::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetReturnOffset method, debugger.getreturnoffset, IDebugControl3::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::GetReturnOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Receives the return address.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,13 +96,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The return address is the location in the process's virtual address space of the instruction that will be executed when the current function returns.
+
 
 

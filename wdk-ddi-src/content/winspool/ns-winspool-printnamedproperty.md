@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PrintNamedProperty structure [Print Devices], PrintNamedProperty, winspool/PrintNamedProperty, print.printnamedproperty
+ms.keywords: PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty, PrintNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,5 @@ typedef struct {
 ### -field propertyName
 
 
-
 ### -field propertyValue
-
 

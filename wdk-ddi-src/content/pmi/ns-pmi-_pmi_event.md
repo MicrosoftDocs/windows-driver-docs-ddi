@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 51ae6247-c482-4f13-8699-df871ae346c0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, pmi/PPMI_EVENT, pmi/PMI_EVENT, PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, *PPMI_EVENT, _PMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PMI_EVENT, powermeter.pmi_event
+ms.keywords: powermeter.pmi_event, *PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PPMI_EVENT, pmi/PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PMI_EVENT, pmi/PPMI_EVENT, _PMI_EVENT, PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,9 @@ A <a href="..\pmi\ne-pmi-pmi_event_type.md">PMI_EVENT_TYPE</a> enumeration value
 ## -remarks
 
 
+
 The PMI_EVENT structure contains information about a power metering or budgeting event. PMI generates an event for a power meter when one of the following occurs:
+
 <ul>
 <li>
 The power meter's power metering or budgeting capabilities have changed.
@@ -99,9 +101,11 @@ The power supply that is monitored by the power meter has exceeded the meter's c
 The power supply that is monitored by the power meter has exceeded or fallen below the meter's configured power budget.
 
 </li>
-</ul>A user-mode service or application registers for notification of these events through an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) query request. 
+</ul>
+A user-mode service or application registers for notification of these events through an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) query request. 
 
 The PMI_EVENT structure does not contain the current PMI data for the event. Depending on the value of the <b>EventType</b> member, the caller can retrieve the current PMI data through a PMI IOCTL query request. The following table describes the PMI IOCTL to use to query the changed data from a power meter for a query request.
+
 <table>
 <tr>
 <th>EventType value</th>
@@ -188,25 +192,41 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
-
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 <a href="..\pmi\ne-pmi-pmi_event_type.md">PMI_EVENT_TYPE</a>
 
+
+
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+
+
+
 <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+
 
  
 

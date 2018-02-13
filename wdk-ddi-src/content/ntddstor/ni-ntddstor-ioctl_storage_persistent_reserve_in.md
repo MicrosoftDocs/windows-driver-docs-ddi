@@ -67,6 +67,7 @@ The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (I
 The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure. You must allocate the buffer from nonpaged pool and must align it correctly for the  target device and adapter.
 
 PR_IN.ServiceAction can be one of the following:
+
 <ul>
 <li>
 RESERVATION_ACTION_READ_KEYS
@@ -76,7 +77,8 @@ RESERVATION_ACTION_READ_KEYS
 RESERVATION_ACTION_READ_RESERVATIONS
 
 </li>
-</ul>PR_IN.Allocation length is the size (in bytes) of the buffer allocated for the returned parameter list.
+</ul>
+PR_IN.Allocation length is the size (in bytes) of the buffer allocated for the returned parameter list.
 
 
 ### -input-buffer-length
@@ -101,14 +103,18 @@ The length of .
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

@@ -90,13 +90,17 @@ NTSTATUS APIENTRY DxgkCbQueryMonitorInterface(
 ## -returns
 
 
+
 <b>DxgkCbQueryMonitorInterface</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.</i>h. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor Interface</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5423d073-02a5-468b-b91e-713ac67a5253
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_adapter_general_attributes, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, miniport_structures_ref_42ce6caf-9d6f-47ee-ad20-749b0058c71e.xml, *PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
+ms.keywords: "*PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, miniport_structures_ref_42ce6caf-9d6f-47ee-ad20-749b0058c71e.xml, _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, netvista.ndis_miniport_adapter_general_attributes, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,12 +117,14 @@ To indicate the version of the <b>NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</b> s
 
 
 
+
 #### NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES_REVISION_2
 
 Added the 
         <b>PowerManagementCapabilitiesEx</b> member for NDIS 6.2.
 
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES_REVISION_2</b>.
+
 
 
 #### NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES_REVISION_1
@@ -299,9 +301,13 @@ A Boolean value that indicates if a connector is present. Set this value to <b>T
 
 The supported statistics.
      
+
 <div class="alert"><b>Note</b>  NDIS 6.0 drivers must support all statistics and must report them when the drivers
      are queried for 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>.</div><div> </div>The value is the bitwise OR of the following flags:
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>.</div>
+<div> </div>
+The value is the bitwise OR of the following flags:
+
 
 
 
@@ -312,11 +318,13 @@ The data in the
        <b>ifHCInUcastPkts</b> member is valid.
 
 
+
 #### NDIS_STATISTICS_MULTICAST_FRAMES_RCV_SUPPORTED
 
 The data in the 
        <b>ifHCInMulticastPkts</b> member of 
        NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_BROADCAST_FRAMES_RCV_SUPPORTED
@@ -325,10 +333,12 @@ The data in the
        <b>ifHCInBroadcastPkts</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_BYTES_RCV_SUPPORTED
 
 The data in the 
        <b>ifHCInOctets</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_RCV_DISCARDS_SUPPORTED
@@ -337,10 +347,12 @@ The data in the
        <b>ifInDiscards</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_RCV_ERROR_SUPPORTED
 
 The data in the 
        <b>ifInErrors</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_DIRECTED_FRAMES_XMIT_SUPPORTED
@@ -349,10 +361,12 @@ The data in the
        <b>ifHCOutUcastPkts</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_MULTICAST_FRAMES_XMIT_SUPPORTED
 
 The data in the 
        <b>ifHCOutMulticastPkts</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_BROADCAST_FRAMES_XMIT_SUPPORTED
@@ -361,10 +375,12 @@ The data in the
        <b>ifHCOutBroadcastPkts</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_BYTES_XMIT_SUPPORTED
 
 The data in the 
        <b>ifHCOutOctets</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_XMIT_ERROR_SUPPORTED
@@ -373,10 +389,12 @@ The data in the
        <b>ifOutErrors</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_XMIT_DISCARDS_SUPPORTED
 
 The data in the 
        <b>ifOutDiscards</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_DIRECTED_BYTES_RCV_SUPPORTED
@@ -385,10 +403,12 @@ The data in the
        <b>ifHCInUcastOctets</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_MULTICAST_BYTES_RCV_SUPPORTED
 
 The data in the 
        <b>ifHCInMulticastOctets</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_BROADCAST_BYTES_RCV_SUPPORTED
@@ -397,16 +417,19 @@ The data in the
        <b>ifHCInBroadcastOctets</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_DIRECTED_BYTES_XMIT_SUPPORTED
 
 The data in the 
        <b>ifHCOutUcastOctets</b> member of NDIS_STATISTICS_INFO is valid.
 
 
+
 #### NDIS_STATISTICS_MULTICAST_BYTES_XMIT_SUPPORTED
 
 The data in the 
        <b>ifHCOutMulticastOctets</b> member of NDIS_STATISTICS_INFO is valid.
+
 
 
 #### NDIS_STATISTICS_BROADCAST_BYTES_XMIT_SUPPORTED
@@ -423,9 +446,11 @@ Support for the IEEE 802.3 pause frames as one of the following pause functions:
 
 
 
+
 #### NdisPauseFunctionsUnsupported
 
 Indicates that the adapter or link partner does not support pause frames.
+
 
 
 #### NdisPauseFunctionsSendOnly
@@ -434,16 +459,19 @@ Indicates that the adapter and link partner only support sending pause frames fr
        to the link partner.
 
 
+
 #### NdisPauseFunctionsReceiveOnly
 
 Indicates that the adapter and link partner only support sending pause frames from the link
        partner to the adapter
 
 
+
 #### NdisPauseFunctionsSendAndReceive
 
 Indicates that the adapter and link partner support sending and receiving pause frames in both
        transint and receive directions.
+
 
 
 #### NdisPauseFunctionsUnknown
@@ -483,9 +511,11 @@ The auto-negotiation settings for the miniport adapter. This member is created f
 
 
 
+
 #### NDIS_LINK_STATE_XMIT_LINK_SPEED_AUTO_NEGOTIATED
 
 The adapter has auto-negotiated the transmit link speed with the link partner.
+
 
 
 #### NDIS_LINK_STATE_RCV_LINK_SPEED_AUTO_NEGOTIATED
@@ -493,9 +523,11 @@ The adapter has auto-negotiated the transmit link speed with the link partner.
 The adapter has auto-negotiated the receive link speed with the link partner.
 
 
+
 #### NDIS_LINK_STATE_DUPLEX_AUTO_NEGOTIATED
 
 The adapter has auto-negotiated the duplex state with the link partner.
+
 
 
 #### NDIS_LINK_STATE_PAUSE_FUNCTIONS_AUTO_NEGOTIATED
@@ -514,6 +546,7 @@ A pointer to an
 ## -remarks
 
 
+
 A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure in the 
     <i>MiniportAttributes</i> parameter of the 
     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
@@ -528,59 +561,110 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">NDIS_STATISTICS_INFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
    OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
    NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">NDIS_STATISTICS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+
+
 
  
 

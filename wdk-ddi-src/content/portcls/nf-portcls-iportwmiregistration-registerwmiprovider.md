@@ -7,8 +7,8 @@ old-location: audio\iportwmiregistration_registerwmiprovider.htm
 old-project: audio
 ms.assetid: 5c092cbd-ef05-4b3d-ac9f-20f2fbf2c37c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, audio.iportwmiregistration_registerwmiprovider, portcls/IPortWMIRegistration::RegisterWMIProvider, IPortWMIRegistration interface [Audio Devices], RegisterWMIProvider method, IPortWMIRegistration
+ms.date: 2/8/2018
+ms.keywords: RegisterWMIProvider method [Audio Devices], IPortWMIRegistration interface [Audio Devices], RegisterWMIProvider method, RegisterWMIProvider, portcls/IPortWMIRegistration::RegisterWMIProvider, IPortWMIRegistration::RegisterWMIProvider, IPortWMIRegistration, audio.iportwmiregistration_registerwmiprovider, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, RegisterWMIProvider method [Audio Devices], IPortWMIRegistration interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ NTSTATUS RegisterWMIProvider(
 
 
 
+
 #### - pDeviceObject [in]
 
 Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
@@ -87,32 +88,46 @@ Specifies a pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB
 ## -returns
 
 
+
 The <code>RegisterWMIProvider</code> method returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
+
+
+
 <a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a>
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
- 
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWMIRegistration::RegisterWMIProvider method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWMIRegistration::RegisterWMIProvider method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

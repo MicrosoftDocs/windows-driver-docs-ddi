@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9EE04529-D322-4498-B802-BB6A53FBC716
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionGetTransferInfo method, kmdf.wdfdmatransactiongettransferinfo, WdfDmaTransactionGetTransferInfo, PFN_WDFDMATRANSACTIONGETTRANSFERINFO, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo
+ms.keywords: WdfDmaTransactionGetTransferInfo method, wdfdmatransaction/WdfDmaTransactionGetTransferInfo, PFN_WDFDMATRANSACTIONGETTRANSFERINFO, kmdf.wdfdmatransactiongettransferinfo, WdfDmaTransactionGetTransferInfo, wdf.wdfdmatransactiongettransferinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionGetTransferInfo
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,14 @@ A caller-supplied location that, on return, contains the number of scatter/gathe
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The driver might call <b>WdfDmaTransactionGetTransferInfo</b> before calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a> or <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>.
@@ -104,11 +107,16 @@ When using DMA version 3, this method returns an accurate count of the number of
 
 
 
+
 ## -see-also
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+
+
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+
 
  
 

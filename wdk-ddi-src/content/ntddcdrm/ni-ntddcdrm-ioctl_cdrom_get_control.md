@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_CONTROL IOCTL
@@ -90,14 +90,18 @@ The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_audio_control.md"
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 ## -see-also
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_audio_control.md">CDROM_AUDIO_CONTROL</a>
+
+
 
  
 

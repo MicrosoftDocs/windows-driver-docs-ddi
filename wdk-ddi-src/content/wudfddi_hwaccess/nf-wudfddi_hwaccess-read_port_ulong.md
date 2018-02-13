@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2B507B58-8CD0-4D66-93E9-FF67D7246F3C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_PORT_ULONG, wdf.read_port_ulong, umdf.read_port_ulong, READ_PORT_ULONG function, wudfddi_hwaccess/READ_PORT_ULONG
+ms.keywords: wudfddi_hwaccess/READ_PORT_ULONG, READ_PORT_ULONG, READ_PORT_ULONG function, umdf.read_port_ulong, wdf.read_port_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>READ_PORT_ULONG</b> returns the ULONG value that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

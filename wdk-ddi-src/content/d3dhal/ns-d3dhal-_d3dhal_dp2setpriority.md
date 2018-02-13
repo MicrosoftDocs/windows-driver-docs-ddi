@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5101c150-b294-4bf4-b33c-f0fe0f54d727
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETPRIORITY, d3dhal/LPD3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices], LPD3DHAL_DP2SETPRIORITY, d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, *LPD3DHAL_DP2SETPRIORITY, display.d3dhal_dp2setpriority, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], _D3DHAL_DP2SETPRIORITY, d3dhal/D3DHAL_DP2SETPRIORITY
+ms.keywords: LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2SETPRIORITY, *LPD3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices], d3dhal/D3DHAL_DP2SETPRIORITY, _D3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY, d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, display.d3dhal_dp2setpriority, LPD3DHAL_DP2SETPRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,8 +81,10 @@ Specifies the priority of the <b>dwDDDestSurface</b> texture. A texture's priori
 ## -remarks
 
 
+
 Drivers are notified of handles at texture creation time. The driver can expect to receive priority notifications only for driver-managed textures.
 
 Priorities determine when managed textures are to be evicted from memory. A texture assigned a low priority is evicted before a texture with a high priority. If two textures have the same priority, the texture that was used more recently is kept in memory; the other texture is evicted. 
+
 
 

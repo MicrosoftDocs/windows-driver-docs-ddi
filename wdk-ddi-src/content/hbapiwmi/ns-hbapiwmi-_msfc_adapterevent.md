@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_AdapterEvent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml, *PMSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], _MSFC_AdapterEvent, storage.msfc_adapterevent, hbapiwmi/PMSFC_AdapterEvent, MSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], hbapiwmi/MSFC_AdapterEvent
+ms.keywords: "_MSFC_AdapterEvent, MSFC_AdapterEvent, hbapiwmi/MSFC_AdapterEvent, storage.msfc_adapterevent, *PMSFC_AdapterEvent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml, PMSFC_AdapterEvent structure pointer [Storage Devices], MSFC_AdapterEvent structure [Storage Devices], hbapiwmi/PMSFC_AdapterEvent, PMSFC_AdapterEvent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_AdapterEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_AdapterEvent, MSFC_AdapterEvent"
+req.typenames: MSFC_AdapterEvent, *PMSFC_AdapterEvent
 ---
 
 # _MSFC_AdapterEvent structure
@@ -81,9 +81,11 @@ Contains the worldwide name of the port that generated the event.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration for this structure in <i>Hbapiwm.h </i>after compiling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>.
 
 For more information about event types and worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
+
 
 
 
@@ -91,7 +93,11 @@ For more information about event types and worldwide names, see the T11 committe
 
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>
+
+
 
  
 

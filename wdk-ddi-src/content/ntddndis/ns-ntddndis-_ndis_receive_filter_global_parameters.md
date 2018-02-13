@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ec36054-ba61-4862-b185-7473a6806804
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, virtual_machine_queue_ref_b51ed6bf-8c3c-41f5-a9ef-a5ec3a720ef2.xml, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, netvista.ndis_receive_filter_global_parameters, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, virtual_machine_queue_ref_b51ed6bf-8c3c-41f5-a9ef-a5ec3a720ef2.xml, *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, ntddndis/NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, netvista.ndis_receive_filter_global_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
+req.typenames: "*PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS"
 ---
 
 # _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure
@@ -103,6 +103,7 @@ To indicate the version of the <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> stru
 
 
 
+
 #### NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.20.
@@ -125,10 +126,14 @@ A  bitwise OR of flags for types of enabled receive filters. The
 
 
 
+
 #### NDIS_RECEIVE_FILTER_VMQ_FILTERS_ENABLED
 
 Specifies that VMQ filters are enabled.
-<div class="alert"><b>Note</b>  The miniport driver should set this flag if the miniport driver is enabled to use the SR-IOV interface. For more information on how these interfaces are enabled, see <a href="https://msdn.microsoft.com/EF556563-4097-4388-A563-29FC891AC626">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The miniport driver should set this flag if the miniport driver is enabled to use the SR-IOV interface. For more information on how these interfaces are enabled, see <a href="https://msdn.microsoft.com/EF556563-4097-4388-A563-29FC891AC626">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div>
+<div> </div>
+
 
 #### NDIS_RECEIVE_FILTER_PACKET_COALESCING_FILTERS_ENABLED
 
@@ -144,6 +149,7 @@ A  bitwise OR of flags for types of enabled receive queues. The
 
 
 
+
 #### NDIS_RECEIVE_FILTER_VM_QUEUES_ENABLED
 
 Specifies that virtual machine (VM) queues are enabled.  VM queues are used in the VMQ and SR-IOV interface.
@@ -152,19 +158,27 @@ Specifies that virtual machine (VM) queues are enabled.  VM queues are used in t
 ## -remarks
 
 
+
 The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
     OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a> query OID to obtain the current global receive filter
     settings.
-<div class="alert"><b>Note</b>  Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure are valid if the miniport driver is enabled to use the VMQ or SR-IOV interface. The miniport driver is enabled to use these interfaces through standardized INF keywords. For more information, see <a href="https://msdn.microsoft.com/EF556563-4097-4388-A563-29FC891AC626">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure are valid if the miniport driver is enabled to use the VMQ or SR-IOV interface. The miniport driver is enabled to use these interfaces through standardized INF keywords. For more information, see <a href="https://msdn.microsoft.com/EF556563-4097-4388-A563-29FC891AC626">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
    OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

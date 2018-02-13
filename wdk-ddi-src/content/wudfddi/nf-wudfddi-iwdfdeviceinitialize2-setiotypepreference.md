@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetIoTypePreference method, IWDFDeviceInitialize2 interface, SetIoTypePreference method, wdf.iwdfdeviceinitialize2_setiotypepreference, SetIoTypePreference, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, IWDFDeviceInitialize2::SetIoTypePreference, IWDFDeviceInitialize2 interface, SetIoTypePreference method, umdf.iwdfdeviceinitialize2_setiotypepreference, IWDFDeviceInitialize2, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
+ms.keywords: SetIoTypePreference method, SetIoTypePreference, IWDFDeviceInitialize2 interface, SetIoTypePreference method, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference method, IWDFDeviceInitialize2 interface, wdf.iwdfdeviceinitialize2_setiotypepreference, IWDFDeviceInitialize2::SetIoTypePreference, IWDFDeviceInitialize2, umdf.iwdfdeviceinitialize2_setiotypepreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,14 @@ A WDF_DEVICE_IO_TYPE-typed value that specifies the buffer access method that yo
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If a driver calls <b>SetIoTypePreference</b> for a device, it must do so from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function, before the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
@@ -108,20 +111,70 @@ A driver cannot set the buffer access method to <b>WdfDeviceIoDirect</b> or <b>W
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows a segment of a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function. The segment obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a> interface and then calls <b>SetIoTypePreference</b>. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+ CMyDriver::OnDeviceAdd(
+    __in IWDFDriver *FxWdfDriver,
+    __in IWDFDeviceInitialize *FxDeviceInit
+    )
+{
+...
+    //
+    // Declare an IWDFDeviceInitialize2 interface pointer and obtain the
+    // IWDFDeviceInitialize2 interface from the IWDFDeviceInitialize interface.
+    //
+    CComQIPtr&lt;IWDFDeviceInitialize2&gt; di2 = FxDeviceInit;
+
+    //
+    // For this device, set the retrieval mode to deferred, set
+    // the access method to buffered for read and write requests,
+    // and set the access mode to direct for device I/O control requests.
+    // 
+    di2-&gt;SetIoTypePreference(WdfDeviceIoBufferRetrievalDeferred,
+                             WdfDeviceIoBuffered,
+                             WdfDeviceIoDirect);
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+
+
 
  
 

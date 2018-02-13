@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], KSIDEFAULTCLOCK structure [Streaming Media Devices], KSIDEFAULTCLOCK, stream.ksidefaultclock, ksi/PKSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK, ksi/KSIDEFAULTCLOCK, PKSIDEFAULTCLOCK
+ms.keywords: PKSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK, stream.ksidefaultclock, ksi/PKSIDEFAULTCLOCK, ksi/KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], KSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSIDEFAULTCLOCK
 product: Windows
 targetos: Windows
-req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
+req.typenames: "*PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK"
 ---
 
 # KSIDEFAULTCLOCK structure
@@ -91,87 +91,65 @@ typedef struct {
 ### -field Frequency
 
 
-
 ### -field LastDueTime
-
 
 
 ### -field RunningTimeDelta
 
 
-
 ### -field LastRunningTime
-
 
 
 ### -field TimeAccessLock
 
 
-
 ### -field EventQueue
-
 
 
 ### -field EventQueueLock
 
 
-
 ### -field QueueTimer
-
 
 
 ### -field QueueDpc
 
 
-
 ### -field ReferenceCount
-
 
 
 ### -field State
 
 
-
 ### -field SuspendDelta
-
 
 
 ### -field SuspendTime
 
 
-
 ### -field SetTimer
-
 
 
 ### -field CancelTimer
 
 
-
 ### -field CorrelatedTime
-
 
 
 ### -field Context
 
 
-
 ### -field Resolution
-
 
 
 ### -field FreeEvent
 
 
-
 ### -field ExternalTimeReferenceCount
-
 
 
 ### -field ExternalTimeValid
 
 
-
 ### -field LastStreamTime
-
 

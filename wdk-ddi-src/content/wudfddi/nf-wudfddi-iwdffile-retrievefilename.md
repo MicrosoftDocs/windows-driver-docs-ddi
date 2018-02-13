@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7858f3ba-e02a-4115-bf30-12e3a6a75965
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveFileName, wdf.iwdffile_retrievefilename, RetrieveFileName method, IWDFFile interface, IWDFFile::RetrieveFileName, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, IWDFFile interface, RetrieveFileName method, wudfddi/IWDFFile::RetrieveFileName, umdf.iwdffile_retrievefilename, IWDFFile, RetrieveFileName method
+ms.keywords: IWDFFile, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, RetrieveFileName method, RetrieveFileName method, IWDFFile interface, umdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName, IWDFFile::RetrieveFileName, RetrieveFileName, IWDFFile interface, RetrieveFileName method, wdf.iwdffile_retrievefilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ On input, the driver sets this variable to the size, in characters, of the buffe
 ## -returns
 
 
+
 <b>RetrieveFileName</b> returns S_OK for the following scenarios:
 
 
@@ -107,16 +108,64 @@ The buffer at <i>pFileName</i> was <b>NULL</b>, the driver preset the variable a
 
 
 
+
 ## -remarks
 
 
+
 Your driver might call <b>RetrieveFileName</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function.  For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF Drivers</a>.
+
+
+#### Examples
+
+The following code example shows how to retrieve the name of a file.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    ULONG fileNameCch = 0;
+    PWSTR fileName = NULL;
+    ULONG index;
+
+    CComObject&lt;CUmdfHidFile&gt; *file = NULL;
+
+    HRESULT hr;
+
+    // Get the length of the file name to allocate a buffer.
+    hr = WdfFile-&gt;RetrieveFileName(NULL, &amp;fileNameCch);
+    //
+    // Allocate the buffer.
+    //
+    if (SUCCEEDED(hr))
+    {
+        fileName = new WCHAR[fileNameCch];
+
+        if (fileName == NULL)
+        {
+            hr = E_OUTOFMEMORY;
+        }
+    }
+    //
+    // Get the file name.
+    //
+    if (SUCCEEDED(hr))
+    {
+        hr = WdfFile-&gt;RetrieveFileName(fileName, &amp;fileNameCch);
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
 
  
 

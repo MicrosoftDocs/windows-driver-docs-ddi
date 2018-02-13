@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6510e732-b0ad-43c7-87a3-3630fdfd848d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSVPMAXPIXELRATE structure [Streaming Media Devices], KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE, dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, stream.ksvpmaxpixelrate, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], ksmedia/KSVPMAXPIXELRATE, PKSVPMAXPIXELRATE
+ms.keywords: KSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE, stream.ksvpmaxpixelrate, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, ksmedia/KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,17 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566494">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a> property.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566494">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a>
+
+
 
  
 

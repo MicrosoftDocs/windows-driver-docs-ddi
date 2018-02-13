@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterScriptablePropertyBag, GetInt32 method [Print Devices], GetInt32, print.iprinterscriptablepropertybag_getint32, IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, printerextension/IPrinterScriptablePropertyBag::GetInt32, GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag::GetInt32
+ms.keywords: GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, GetInt32, IPrinterScriptablePropertyBag, GetInt32 method [Print Devices], print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32, IPrinterScriptablePropertyBag::GetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,20 +82,26 @@ The value read.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>GetInt32</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
 
  
 

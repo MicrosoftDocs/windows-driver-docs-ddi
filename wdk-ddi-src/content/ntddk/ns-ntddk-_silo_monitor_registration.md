@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PSILO_MONITOR_REGISTRATION, _SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION, ntddk/PSILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], ntddk/PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _SILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, ntddk/SILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SILO_MONITOR_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: SILO_MONITOR_REGISTRATION, *PSILO_MONITOR_REGISTRATION
+req.typenames: "*PSILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION"
 ---
 
 # _SILO_MONITOR_REGISTRATION structure
@@ -76,16 +76,6 @@ typedef struct _SILO_MONITOR_REGISTRATION {
 
 
 
-### -field DriverObjectName
-
- 
-
-
-### -field ComponentName
-
- 
-
-
 ### -field Version
 
 Set to <b>SERVER_SILO_MONITOR_REGISTRATION_VERSION</b>.
@@ -106,6 +96,16 @@ If <b>true</b>, create and terminate notifications will be delivered for any sil
 Reserved for system use.
 
 
+### -field DriverObjectName
+
+ 
+
+
+### -field ComponentName
+
+ 
+
+
 ### -field CreateCallback
 
 A pointer to a callback that is invoked whenever a new server silo is created on the system.  This value may be <b>NULL</b>.  This gives drivers to opportunity to handle the event and set up per-silo data structures.
@@ -121,9 +121,11 @@ A pointer to a callback that is invoked whenever a server silo is terminated (ab
 Unnamed union.
 
 
+
 #### DriverObjectName
 
 A pointer to the unicode name for the driver object registering for notifications.
+
 
 
 #### ComponentName

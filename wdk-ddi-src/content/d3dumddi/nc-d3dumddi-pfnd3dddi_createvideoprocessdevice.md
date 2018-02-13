@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessDevice(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessDevice(
 ## -returns
 
 
+
 <b>CreateVideoProcessDevice</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,15 +124,21 @@ The video processing device is successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyvideoprocessdevice.md">DestroyVideoProcessDevice</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyvideoprocessdevice.md">DestroyVideoProcessDevice</a>
+
 
  
 

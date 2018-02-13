@@ -7,8 +7,8 @@ old-location: ifsk\ccmdlwritecomplete.htm
 old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: CcMdlWriteComplete routine [Installable File System Drivers], ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, CcMdlWriteComplete, ifsk.ccmdlwritecomplete
+ms.date: 2/7/2018
+ms.keywords: CcMdlWriteComplete, ifsk.ccmdlwritecomplete, CcMdlWriteComplete routine [Installable File System Drivers], ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ Address of the MDL chain returned by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrit
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 File systems call <b>CcMdlWriteComplete</b> to free the memory descriptor lists (MDL) created by <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a> for a cached file and to mark the specified byte range for write. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
@@ -106,15 +109,20 @@ Each call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite<
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcMdlWriteComplete routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcMdlWriteComplete routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

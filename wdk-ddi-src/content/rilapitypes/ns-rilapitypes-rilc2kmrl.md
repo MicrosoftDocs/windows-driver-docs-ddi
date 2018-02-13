@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2c289de-fff7-4e21-8ef5-2ff3006a4ea5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILC2KMRL, *LPRILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl, rilapitypes/RILC2KMRL
+ms.keywords: "*LPRILC2KMRL, RILC2KMRL, netvista.rilc2kmrl, RILC2KMRL structure [Network Drivers Starting with Windows Vista], rilapitypes/RILC2KMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILC2KMRL
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILC2KMRL, RILC2KMRL"
+req.typenames: RILC2KMRL, *LPRILC2KMRL
 req.product: Windows 10 or later.
 ---
 
@@ -130,6 +130,8 @@ Signal strength of pilot (0...63).
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

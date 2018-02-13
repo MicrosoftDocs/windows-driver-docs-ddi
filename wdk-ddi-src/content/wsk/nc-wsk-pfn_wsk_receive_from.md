@@ -40,7 +40,7 @@ apiname:
 -	WskReceiveFrom
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -112,7 +112,6 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
 ### -param ControlLength
 
 
-
 ### -param ControlInfo [out, optional]
 
 A pointer to a caller-allocated buffer that receives the control information that is associated
@@ -133,7 +132,6 @@ A pointer to a ULONG-typed variable that receives the bitwise OR of a combinatio
 
 
 
-This parameter is optional and can be <b>NULL</b>.
 
 
 #### MSG_BCAST
@@ -142,10 +140,12 @@ The datagram was received as a link-layer broadcast or with a destination transp
        is a broadcast address.
 
 
+
 #### MSG_MCAST
 
 The datagram was received with a destination transport address that is a multicast
        address.
+
 
 
 #### MSG_TRUNC
@@ -155,11 +155,14 @@ The datagram was truncated because the size of the datagram was larger than the 
        <i>Buffer</i> parameter.
 
 
+
 #### MSG_CTRUNC
 
 The control information data was truncated because the number of bytes of control information
        was greater than the size of the buffer that is specified by the 
        <i>ControlInfo</i> parameter.
+
+This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param Irp [in, out]
@@ -184,7 +187,9 @@ A pointer to a ULONG-typed variable that specifies the size of the buffer that i
 ## -returns
 
 
+
 <b>WskReceiveFrom</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -244,11 +249,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the WSK application has set a fixed remote transport address for the datagram socket, datagrams
@@ -291,28 +299,49 @@ If the
 
 
 
+
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
+
 
  
 

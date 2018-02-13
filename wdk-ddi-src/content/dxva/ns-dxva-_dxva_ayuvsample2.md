@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33e92f7d-2a01-4be2-a6b3-d0bd63db1eeb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_AYUVsample2 structure pointer [Display Devices], _DXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, *LPDXVA_AYUVsample2, display.dxva_ayuvsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, dxva/DXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, DXVA_AYUVsample2
+ms.keywords: LPDXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, display.dxva_ayuvsample2, DXVA_AYUVsample2, _DXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, LPDXVA_AYUVsample2 structure pointer [Display Devices], dxva/DXVA_AYUVsample2, *LPDXVA_AYUVsample2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_AYUVsample2
 product: Windows
 targetos: Windows
-req.typenames: DXVA_AYUVsample2, *LPDXVA_AYUVsample2
+req.typenames: "*LPDXVA_AYUVsample2, DXVA_AYUVsample2"
 ---
 
 # _DXVA_AYUVsample2 structure
@@ -93,6 +93,7 @@ Specifies the opacity of the pixel when used as a source graphic for blending wi
 ## -remarks
 
 
+
 A value of zero for <b>bSampleAlpha8</b> indicates that the pixel is transparent (so that the other entries have no effect on the resulting blended picture), and a value of 255 indicates that the pixel is opaque (so that the other entries completely determine the value of the resulting blended picture sample). 
 
 For nonzero values of <b>bSampleAlpha8</b>, the blend to use is calculated by the following expression:
@@ -100,17 +101,25 @@ For nonzero values of <b>bSampleAlpha8</b>, the blend to use is calculated by th
 ( ( ( (<b>bSampleAlpha8</b>+1) x (graphic value) ) + ( (255 - <b>bSampleAlpha8</b>) x (picture value) ) )  + 128 ) &gt;&gt; 8
 
 For a zero value of <b>bSampleAlpha8</b>, the specified blend to use is the picture value without alteration. 
-<div class="alert"><b>Note</b>    If the alpha-blending surface originates as a DVD video subpicture, the preferred method for converting from the 4-bit alpha used by DVD video to the 8-bit alpha specified by <b>bSampleAlpha8</b> is to map a 4-bit alpha value of zero to an 8-bit alpha value of zero and to convert all nonzero 4-bit alphas to 8-bit alphas by performing a left shift of four places and adding the constant 15.</div><div> </div>The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://msdn.microsoft.com/7d820491-2df2-4036-8f3d-e6bcff4cd1f6">buffer description list</a> defined by the <a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a> structure.
+
+<div class="alert"><b>Note</b>    If the alpha-blending surface originates as a DVD video subpicture, the preferred method for converting from the 4-bit alpha used by DVD video to the 8-bit alpha specified by <b>bSampleAlpha8</b> is to map a 4-bit alpha value of zero to an 8-bit alpha value of zero and to convert all nonzero 4-bit alphas to 8-bit alphas by performing a left shift of four places and adding the constant 15.</div>
+<div> </div>
+The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://msdn.microsoft.com/7d820491-2df2-4036-8f3d-e6bcff4cd1f6">buffer description list</a> defined by the <a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a> structure.
 
 The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AYUV blending surface, for <b>OutsideYUVcolor</b> in a <a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a> structure, and for each of the entries in a 16-entry AYUV alpha-blending palette.
 
 
 
+
 ## -see-also
+
+<a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_bufferdescription.md">DXVA_BufferDescription</a>
 
-<a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
+
 
  
 

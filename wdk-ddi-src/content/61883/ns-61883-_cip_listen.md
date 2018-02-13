@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCIP_LISTEN, CIP_LISTEN structure [Buses], PCIP_LISTEN structure pointer [Buses], IEEE.cip_listen, 61883/CIP_LISTEN, CIP_LISTEN, *PCIP_LISTEN, _CIP_LISTEN, 61883/PCIP_LISTEN
+ms.keywords: 61883/CIP_LISTEN, 61883/PCIP_LISTEN, *PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], CIP_LISTEN structure [Buses], PCIP_LISTEN, CIP_LISTEN, _CIP_LISTEN, IEEE.cip_listen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_LISTEN
 product: Windows
 targetos: Windows
-req.typenames: CIP_LISTEN, *PCIP_LISTEN
+req.typenames: "*PCIP_LISTEN, CIP_LISTEN"
 ---
 
 # _CIP_LISTEN structure
@@ -75,6 +75,7 @@ On input, the handle of the connection to begin isochronous reception.
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
@@ -83,9 +84,12 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

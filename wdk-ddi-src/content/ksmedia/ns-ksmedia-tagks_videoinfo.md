@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_VIDEOINFO, PKS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], KS_VIDEOINFO, *PKS_VIDEOINFO, stream.ks_videoinfo, ksmedia/KS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml, tagKS_VIDEOINFO
+ms.keywords: KS_VIDEOINFO structure [Streaming Media Devices], stream.ks_videoinfo, tagKS_VIDEOINFO, *PKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml, PKS_VIDEOINFO, KS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/PKS_VIDEOINFO, ksmedia/KS_VIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_VIDEOINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_VIDEOINFO, *PKS_VIDEOINFO
+req.typenames: "*PKS_VIDEOINFO, KS_VIDEOINFO"
 ---
 
 # tagKS_VIDEOINFO structure
@@ -77,22 +77,6 @@ typedef struct tagKS_VIDEOINFO {
 
 
 
-### -field bmiColors
-
-Array of KS_RGBQUAD structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
-
-
-### -field dwBitMasks
-
-Array of DWORD values that specify true-color bitmasks.
-
-
-### -field TrueColorInfo
-
-
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
-
-
 ### -field rcSource
 
 Specifies a clipping rectangle that selects the portion of the active video signal to use. 
@@ -123,7 +107,24 @@ Specifies the average time per frame in 100-nanosecond units.
 Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
+### -field bmiColors
+
+Array of KS_RGBQUAD structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
+
+
+### -field dwBitMasks
+
+Array of DWORD values that specify true-color bitmasks.
+
+
+### -field TrueColorInfo
+
+
+<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
+
+
 ## -remarks
+
 
 
 This structure must not be used unless the <b>biSize</b> member of the KS_BITMAPINFOHEADER member is set to <b>sizeof</b>(KS_BITMAPINFOHEADER).
@@ -136,13 +137,20 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
 
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
 
 <a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
 
  
 

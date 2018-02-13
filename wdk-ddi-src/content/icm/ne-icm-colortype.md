@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aa7d8d32-7bbe-4091-82a2-32ade463dd9e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: COLORTYPE, icm/COLOR_5_CHANNEL, COLOR_5_CHANNEL, COLOR_3_CHANNEL, COLOR_6_CHANNEL, icm/COLOR_Lab, COLOR_NAMED, COLOR_7_CHANNEL, print.colortype, icm/COLOR_NAMED, COLOR_GRAY, icm/COLOR_3_CHANNEL, icm/COLOR_7_CHANNEL, icm/COLOR_CMYK, COLOR_8_CHANNEL, icm/COLOR_Yxy, icm/COLORTYPE, COLOR_RGB, *PCOLORTYPE, icm/COLOR_8_CHANNEL, COLOR_XYZ, icm/COLOR_XYZ, COLORTYPE enumeration [Print Devices], COLOR_CMYK, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, icm/COLOR_RGB, COLOR_Lab, icm/COLOR_6_CHANNEL, icm/COLOR_GRAY, COLOR_Yxy
+ms.keywords: COLOR_3_CHANNEL, colorfnc_95cb2087-57a1-4d10-87b0-d90cd4da2f57.xml, print.colortype, COLOR_XYZ, icm/COLOR_8_CHANNEL, COLOR_Yxy, icm/COLOR_GRAY, COLOR_5_CHANNEL, COLOR_7_CHANNEL, icm/COLOR_6_CHANNEL, icm/COLOR_CMYK, COLOR_RGB, COLOR_6_CHANNEL, icm/COLOR_RGB, COLORTYPE enumeration [Print Devices], COLORTYPE, icm/COLORTYPE, COLOR_NAMED, icm/COLOR_Yxy, icm/COLOR_Lab, COLOR_8_CHANNEL, *PCOLORTYPE, icm/COLOR_7_CHANNEL, COLOR_CMYK, icm/COLOR_XYZ, icm/COLOR_5_CHANNEL, COLOR_Lab, COLOR_GRAY, icm/COLOR_3_CHANNEL, icm/COLOR_NAMED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -141,9 +141,11 @@ Specifies a 32-bit named color-indexed pixel value. Correlates to the ICM NAMEDC
 ## -remarks
 
 
+
 In addition to managing the common two, three, and four channel color spaces, ICM 2.0 and WCS are able to perform color management with device profiles that contain five through eight color channels. ICM 2.0 and WCS are also able to use named color spaces. When five, six, seven, or eight color channels are used, the provider of the device profile is free to determine what the color channels represent. The same is true of named color spaces. ICM 2.0 and WCS are able to manage these color spaces as long as there is a mapping in the device profile that maps the channels or the name space to the Profile Connection Space (PCS). The device profile must also contain a mapping from the PCS into the five, six, seven, or eight channel spaces, or into the named color space.
 
 The PCOLORTYPE and LPCOLORTYPE data types are defined as pointers to this enumeration:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -154,4 +156,5 @@ The PCOLORTYPE and LPCOLORTYPE data types are defined as pointers to this enumer
 </td>
 </tr>
 </table></span></div>
+
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5e364e83-76db-44b0-b5bc-15eed53bbbdf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, GetShort method [Windows Debugging], EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml, debugger.extremotedata_getshort, GetShort, ExtRemoteData::GetShort, GetShort method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetShort method
+ms.keywords: ExtRemoteData, debugger.extremotedata_getshort, ExtRemoteData::GetShort, ExtRemoteData class [Windows Debugging], GetShort method, GetShort method [Windows Debugging], EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml, GetShort, GetShort method [Windows Debugging], ExtRemoteData class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetShort
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetShort method
@@ -66,17 +66,22 @@ SHORT GetShort();
 
 
 
+
 ## -returns
+
 
 
 <b>GetShort</b> returns the SHORT version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
 
 
 
+
 ## -remarks
 
 
+
 The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(SHORT)</code>.
+
 
 
 
@@ -84,9 +89,15 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544077">ExtRemoteData::GetUshort</a>
 
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
  
 

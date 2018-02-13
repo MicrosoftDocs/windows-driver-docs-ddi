@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fa6530a4-13b7-472b-a571-682323edc64e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_TARGET_DEVICE_CUSTOM_NOTIFICATION, kstruct_d_b83ddfbd-9448-4a91-8a64-ab060ba7614f.xml, *PTARGET_DEVICE_CUSTOM_NOTIFICATION, wdm/TARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION structure [Kernel-Mode Driver Architecture], PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], kernel.target_device_custom_notification, TARGET_DEVICE_CUSTOM_NOTIFICATION, wdm/PTARGET_DEVICE_CUSTOM_NOTIFICATION"
+ms.keywords: wdm/TARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], wdm/PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION, *PTARGET_DEVICE_CUSTOM_NOTIFICATION, kernel.target_device_custom_notification, kstruct_d_b83ddfbd-9448-4a91-8a64-ab060ba7614f.xml, TARGET_DEVICE_CUSTOM_NOTIFICATION structure [Kernel-Mode Driver Architecture], TARGET_DEVICE_CUSTOM_NOTIFICATION, _TARGET_DEVICE_CUSTOM_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,19 +106,27 @@ A variable-length buffer, optionally containing binary data at the start of the 
 ## -remarks
 
 
+
 Kernel-mode components use this structure for custom event notification:  to signal a custom event (<b>IoReportTargetDeviceChange</b>[<b>Asynchronous</b>]) and when handling a custom event (in a notification callback routine).
 
 This structure accommodates both a variable-length binary data buffer and a variable-length Unicode text buffer. The <i>NameBufferOffset</i> must indicate where the text buffer begins, so the data can be delivered in the appropriate format (ANSI or Unicode) to user-mode applications that registered for handle-based notification with <b>RegisterDeviceNotification</b>. See the Microsoft Windows SDK documentation for information about <b>RegisterDeviceNotification</b>. 
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
+
+
 
  
 

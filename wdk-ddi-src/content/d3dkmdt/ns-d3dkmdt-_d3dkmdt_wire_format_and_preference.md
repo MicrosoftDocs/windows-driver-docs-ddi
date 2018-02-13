@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24CC6A10-6462-4681-B340-E887B679F456
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference, _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices]"
+ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,13 @@ UINT used to operate on the combined bit-fields.
 ## -remarks
 
 
+
 The five standard color sample formats for pixel transmission are exposed separately to allow the driver to report capabilities individually but it is expected that the vast majority of display devices will not support all sample formats as input, in particular support of intensity only signals is likely restricted to monochrome displays which should therefore not support color sample formats.
 
 During mode enumeration via EnumVidPnCofuncModality, the driver should set values into all five fields to indicate the pixel encodings that are supported as inputs to the display device in the current configuration.
 
 When SetTimingsFromVidPn is called, one of these fields will indicate the pixel encoding and sample format to be applied.
+
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e00af04e-4770-4505-a06c-c44405dcaab5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtgetpresenthistory, OpenGL_Functions_9070e169-207c-478d-8eab-b0bcfad65362.xml, D3DKMTGetPresentHistory function [Display Devices], d3dkmthk/D3DKMTGetPresentHistory, D3DKMTGetPresentHistory
+ms.keywords: D3DKMTGetPresentHistory function [Display Devices], display.d3dkmtgetpresenthistory, D3DKMTGetPresentHistory, OpenGL_Functions_9070e169-207c-478d-8eab-b0bcfad65362.xml, d3dkmthk/D3DKMTGetPresentHistory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTGetPresentHistory(
 
 
 
+
 #### - pData [in, out]
 
 Supplies a pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthistory.md">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
@@ -79,13 +80,17 @@ Supplies a pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthisto
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> if copying history is successfully retrieved; otherwise an appropriate error code.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthistory.md">D3DKMT_GETPRESENTHISTORY</a>
+
+
 
  
 

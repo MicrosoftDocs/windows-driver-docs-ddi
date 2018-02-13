@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07B51679-4E9B-4360-AA4A-D5BD9BADB4FC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DU_INVALID, d3dkmdt/DXGK_DU_INVALID, DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_GENERIC, DXGK_DU_AR, *PDXGK_DISPLAY_USAGE, DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_VR, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_AR, _DXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], display.dxgk_display_usage, DXGK_DU_VR
+ms.keywords: d3dkmdt/PDXGK_DISPLAY_USAGE, _DXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, DXGK_DU_VR, d3dkmdt/DXGK_DU_GENERIC, DXGK_DISPLAY_USAGE enumeration [Display Devices], PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], *PDXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_INVALID, display.dxgk_display_usage, DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_AR, d3dkmdt/DXGK_DU_VR, DXGK_DU_AR, DXGK_DISPLAY_USAGE, DXGK_DU_INVALID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_DISPLAY_USAGE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE
+req.typenames: "*PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE"
 ---
 
 # _DXGK_DISPLAY_USAGE enumeration
@@ -91,7 +91,6 @@ A head mounted virtual reality display.
 
 
 ### -field DXGK_DU_MAX
-
 
 
 ### -field BYTE

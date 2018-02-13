@@ -7,7 +7,7 @@ old-location: buses\_ucxusbdeviceinitseteventcallbacks.htm
 old-project: usbref
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: UcxUsbDeviceInitSetEventCallbacks, buses._ucxusbdeviceinitseteventcallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,11 +82,14 @@ A pointer to a <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_cal
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 An initialized <b>UCXUSBDEVICE_INIT</b> structure is used by the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method to create a USB device and register the client driver's event callback functions. 
@@ -95,15 +98,20 @@ For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_contr
 
 
 
+
 ## -see-also
 
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
+
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxUsbDeviceInitSetEventCallbacks method%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxUsbDeviceInitSetEventCallbacks method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

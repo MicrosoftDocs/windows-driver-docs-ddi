@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 46f39e36-8915-4ccf-97ef-45dbacdfbe0a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvDevicePropertySheets, print.drvdevicepropertysheets, winddiui/DrvDevicePropertySheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, DrvDevicePropertySheets function [Print Devices]
+ms.keywords: DrvDevicePropertySheets, print.drvdevicepropertysheets, DrvDevicePropertySheets function [Print Devices], print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, winddiui/DrvDevicePropertySheets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvDevicePropertySheets
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ Caller-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.
 ### -param lParam
 
 Caller-supplied integer value that is dependent on the contents of the <b>Reason</b> member of the PROPSHEETUI_INFO structure, as listed in the following table.
+
 <table>
 <tr>
 <th>Reason value</th>
@@ -104,17 +105,21 @@ See the description of the <i>lParam</i> parameter for the <a href="..\compstui\
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 See the ReturnValue section in the description of the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> function type.
 
 
 
+
 ## -remarks
+
 
 
 All <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLLs</a> must provide a <b>DrvDevicePropertySheets</b> function, which is defined using the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> function type. The function's purpose is to call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, provided by <a href="https://msdn.microsoft.com/7af3435a-19e0-40a1-9f94-319d9d323856">CPSUI</a>, to specify a property sheet page containing user-modifiable properties for the printer.
@@ -125,11 +130,16 @@ Printer device settings should be stored in the registry. If a user with adminis
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
+
+
 <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
+
 
  
 

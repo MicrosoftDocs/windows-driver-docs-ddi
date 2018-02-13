@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0A8216B2-822D-4157-876E-AA0A1A9D6D3F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapIoSpace, MmMapIoSpaceEx, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace, kernel.mmmapiospaceex
+ms.keywords: kernel.mmmapiospaceex, MmMapIoSpace, MmMapIoSpaceEx, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,7 @@ Specifies a value greater than zero, indicating the number of bytes to be mapped
 ### -param Protect [in]
 
 Flag bits that specify the protection to use for the mapped range. The caller must set one of the following flag bits in the <i>Protect</i> parameter.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -108,9 +109,11 @@ Flag bits that specify the protection to use for the mapped range. The caller mu
 <td>PAGE_EXECUTE_READWRITE</td>
 <td>The mapped range can be executed, read, or written. </td>
 </tr>
-</table> 
+</table>
+ 
 
 In addition, the caller can set one (but not both) of the following optional flag bits in the <i>Protect</i> parameter.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -124,17 +127,21 @@ In addition, the caller can set one (but not both) of the following optional fla
 <td>PAGE_WRITECOMBINE</td>
 <td>Specifies write-combined memory (the memory should not be cached by the processor, but writes to the memory can be combined by the processor).</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>MmMapIoSpaceEx</b> returns the base virtual address that maps the base physical address for the range. If space for mapping the range is insufficient, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 A driver must call this routine during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MmMapIoSpaceEx</b> maps the physical address returned in the resource list to a logical address through which the driver can access device registers.
@@ -145,15 +152,24 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
-<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
+
 
  
 

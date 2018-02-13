@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 241b0534-593a-4030-9c48-8d463d56b64a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMDT_MONITOR_FREQUENCY_RANGE, D3DKMDT_MONITOR_FREQUENCY_RANGE, DmStructs_ba8a984e-da56-4f63-a0b8-d94d426df563.xml, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE, D3DKMDT_MONITOR_FREQUENCY_RANGE structure [Display Devices], display.d3dkmdt_monitor_frequency_range"
+ms.keywords: DmStructs_ba8a984e-da56-4f63-a0b8-d94d426df563.xml, D3DKMDT_MONITOR_FREQUENCY_RANGE structure [Display Devices], D3DKMDT_MONITOR_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE, _D3DKMDT_MONITOR_FREQUENCY_RANGE, display.d3dkmdt_monitor_frequency_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,21 +73,6 @@ typedef struct _D3DKMDT_MONITOR_FREQUENCY_RANGE {
 
 
 
-### -field Constraint
-
-A union that contains either the active region size or the maximum pixel rate in the following members.
-
-
-### -field Constraint.ActiveSize
-
-If <b>ConstraintType</b> is equal to D3DKMDT_MFRC_ACTIVESIZE, then this member specifies the maximum active region size for which the frequency range is supported.
-
-
-### -field Constraint.MaxPixelRate
-
-If <b>ConstraintType</b> is equal to D3DKMDT_MFRC_MAXPIXELRATE, then this member specifies the maximum pixel rate for which the frequency range is supported.
-
-
 ### -field Origin
 
 A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a> enumeration that indicates the source of the frequency range information.
@@ -103,9 +88,26 @@ A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_frequency_range.md">D3DKMDT_FREQUENCY_
 A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_frequency_range_constraint.md">D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT</a> enumeration that specifies the type of constraint under which the frequency range is supported.
 
 
+### -field Constraint
+
+A union that contains either the active region size or the maximum pixel rate in the following members.
+
+
+### -field Constraint.ActiveSize
+
+If <b>ConstraintType</b> is equal to D3DKMDT_MFRC_ACTIVESIZE, then this member specifies the maximum active region size for which the frequency range is supported.
+
+
+### -field Constraint.MaxPixelRate
+
+If <b>ConstraintType</b> is equal to D3DKMDT_MFRC_MAXPIXELRATE, then this member specifies the maximum pixel rate for which the frequency range is supported.
+
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set Interface</a>
+
+
 
  
 

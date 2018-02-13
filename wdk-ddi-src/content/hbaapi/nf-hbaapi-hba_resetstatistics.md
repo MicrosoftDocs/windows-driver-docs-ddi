@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_resetstatistics, HBA_ResetStatistics routine [Storage Devices], fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics, hbaapi/HBA_ResetStatistics
+ms.keywords: fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, storage.hba_resetstatistics, HBA_ResetStatistics, hbaapi/HBA_ResetStatistics, HBA_ResetStatistics routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,14 +86,18 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>HBA_ResetStatistics</b> routine serves similar purpose to the <b>ResetStatistics</b> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>. 
+
 
 
 
@@ -101,7 +105,11 @@ The <b>HBA_ResetStatistics</b> routine serves similar purpose to the <b>ResetSta
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

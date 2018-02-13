@@ -40,7 +40,7 @@ apiname:
 -	DereferenceSwitchNic
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback
@@ -95,7 +95,9 @@ For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://msdn.
 ## -returns
 
 
+
 If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it returns an NDIS_STATUS_<i>Xxx</i> error code that is defined in Ndis.h.
+
 
 
 
@@ -104,9 +106,11 @@ If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it re
 ## -remarks
 
 
+
 The extensible switch extension calls <i>DereferenceSwitchNic</i> to decrement the reference counter for a network adapter that is connected to an extensible switch port. While the extensible switch reference counter has a nonzero value, the protocol edge of the extensible switch will not issue an object identifier (OID) set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a> to delete the connection to the adapter. 
 
 The extension must call <i>DereferenceSwitchNic</i> if it had previously called <a href="https://msdn.microsoft.com/8F4C76FA-A386-4A3D-8C9F-3CFF69382702">ReferenceSwitchNic</a> for a network adapter connection. 
+
 
 
 
@@ -114,11 +118,19 @@ The extension must call <i>DereferenceSwitchNic</i> if it had previously called 
 
 <a href="https://msdn.microsoft.com/8F4C76FA-A386-4A3D-8C9F-3CFF69382702">ReferenceSwitchNic</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
 
+
+
 <b></b>
+
+
 
  
 

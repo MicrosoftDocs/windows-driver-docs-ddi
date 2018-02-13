@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5790b133-dbdc-4f77-a70e-616b0902794e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces::ReadBusData, IDebugDataSpaces interface [Windows Debugging], ReadBusData method, IDebugDataSpaces_59d5bf3f-7eb5-452c-ace2-4aed701d34a6.xml, ReadBusData, ReadBusData method [Windows Debugging], IDebugDataSpaces2 interface, ReadBusData method [Windows Debugging], IDebugDataSpaces3 interface, ReadBusData method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], ReadBusData method, ReadBusData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging], ReadBusData method, ReadBusData method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces3::ReadBusData, IDebugDataSpaces4::ReadBusData, dbgeng/IDebugDataSpaces2::ReadBusData, debugger.readbusdata, IDebugDataSpaces4, IDebugDataSpaces2::ReadBusData, IDebugDataSpaces3::ReadBusData, dbgeng/IDebugDataSpaces4::ReadBusData, IDebugDataSpaces2 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces::ReadBusData
+ms.keywords: dbgeng/IDebugDataSpaces4::ReadBusData, IDebugDataSpaces3 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces2::ReadBusData, IDebugDataSpaces interface [Windows Debugging], ReadBusData method, IDebugDataSpaces3::ReadBusData, IDebugDataSpaces::ReadBusData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadBusData method, dbgeng/IDebugDataSpaces::ReadBusData, debugger.readbusdata, ReadBusData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces, ReadBusData method [Windows Debugging], IDebugDataSpaces interface, ReadBusData method [Windows Debugging], ReadBusData, IDebugDataSpaces4::ReadBusData, IDebugDataSpaces_59d5bf3f-7eb5-452c-ace2-4aed701d34a6.xml, ReadBusData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3, dbgeng/IDebugDataSpaces2::ReadBusData, dbgeng/IDebugDataSpaces3::ReadBusData, ReadBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,6 +114,7 @@ Receives the number of bytes read from the bus.  If <i>BytesRead</i> is <b>NULL<
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,17 +131,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
 
 The nature of the data read from the bus is system, bus, and slot dependent.
+
 
 

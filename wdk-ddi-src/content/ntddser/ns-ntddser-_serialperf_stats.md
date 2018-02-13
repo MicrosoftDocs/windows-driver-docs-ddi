@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddser/PSERIALPERF_STATS, _SERIALPERF_STATS, ntddser/SERIALPERF_STATS, SERIALPERF_STATS, *PSERIALPERF_STATS, PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], serports.serialperf_stats, SERIALPERF_STATS structure [Serial Ports]
+ms.keywords: serports.serialperf_stats, _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, PSERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], ntddser/SERIALPERF_STATS, SERIALPERF_STATS, *PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIALPERF_STATS
 product: Windows
 targetos: Windows
-req.typenames: "*PSERIALPERF_STATS, SERIALPERF_STATS"
+req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 ---
 
 # _SERIALPERF_STATS structure
@@ -105,9 +105,11 @@ The number of parity errors detected since either the serial port was opened or 
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
 
 To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request.
+
 
 
 
@@ -115,7 +117,11 @@ To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntdd
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+
+
 
  
 

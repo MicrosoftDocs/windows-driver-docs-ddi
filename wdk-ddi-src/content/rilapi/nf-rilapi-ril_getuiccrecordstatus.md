@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4834b37-7269-47e3-9af4-81d17fa79179
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getuiccrecordstatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], RIL_GetUiccRecordStatus, rilapi/RIL_GetUiccRecordStatus
+ms.keywords: rilapi/RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus, netvista.ril_getuiccrecordstatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetUiccRecordStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpFilePath
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

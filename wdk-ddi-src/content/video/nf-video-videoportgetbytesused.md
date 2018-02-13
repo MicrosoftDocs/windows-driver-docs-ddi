@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 67fe089d-4cde-4caa-a4ad-8e879a30b516
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetBytesUsed, display.videoportgetbytesused, video/VideoPortGetBytesUsed, VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, VideoPortGetBytesUsed function [Display Devices]
+ms.keywords: VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, video/VideoPortGetBytesUsed, VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], display.videoportgetbytesused
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in 
 ## -returns
 
 
+
 <b>VideoPortGetBytesUsed</b> always returns zero.
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
 
 

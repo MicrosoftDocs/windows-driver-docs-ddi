@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3, IDebugAdvanced3::GetSourceFileInformationWide, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, debugger.getsourcefileinformationwide, GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide
+ms.keywords: debugger.getsourcefileinformationwide, IDebugAdvanced3, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, IDebugAdvanced3::GetSourceFileInformationWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,9 +80,11 @@ Specifies the piece of information to return.  The <i>Which</i> parameter can ta
 
 
 
+
 #### DEBUG_SRCFILE_SYMBOL_TOKEN
 
 Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
+
 
 
 #### DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
@@ -123,7 +125,9 @@ Specifies the size in bytes of the information returned to the <i>Buffer</i> buf
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,22 +155,30 @@ The method was successful. However, the information would not fit in the <i>Buff
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
 
  
 

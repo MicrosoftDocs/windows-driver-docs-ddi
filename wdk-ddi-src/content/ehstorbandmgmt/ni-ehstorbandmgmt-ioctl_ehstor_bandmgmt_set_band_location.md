@@ -87,20 +87,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values can be returned in the <b>Status</b> field.
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -134,10 +139,12 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>STATUS_IO_DEVICE_ERROR</td>
 <td>Communication failed. The storage device might be incompatible with security protocols. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Data in LBAs that remains after resizing is not modified by the operation. Also,  it is unnecessary to unmount a volume during a resize operation if the LBA range that spans the volume remains within the band after  resizing.
@@ -150,13 +157,20 @@ If <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOC
 
 
 
+
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_location_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>
+
+
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_location_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, ks/KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], stream.ksincrementcountedworker
+ms.keywords: ks/KsIncrementCountedWorker, KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], stream.ksincrementcountedworker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,14 +76,18 @@ Contains the previously allocated worker.
 ## -returns
 
 
+
 Returns the current counter. A count of one implies that a worker was actually scheduled.
+
 
 
 
 ## -remarks
 
 
+
 This should be called after an addition has been made to the worker's list of tasks to perform. A corresponding call to <a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a> should be made within the work item after each task has been completed. This may be called at DISPATCH_LEVEL.
+
 
 
 
@@ -91,7 +95,11 @@ This should be called after an addition has been made to the worker's list of ta
 
 <a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
 
+
+
 <a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a>
+
+
 
  
 

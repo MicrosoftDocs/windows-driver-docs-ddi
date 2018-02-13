@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C0392AE-F3BD-4F42-9094-87228B7C3E10
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUShortSub, RtlUShortSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlUShortSub, kernel.rtlushortsub
+ms.keywords: ntintsafe/RtlUShortSub, kernel.rtlushortsub, RtlUShortSub function [Kernel-Mode Driver Architecture], RtlUShortSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

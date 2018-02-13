@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 73afb4e9-23c7-473c-937f-045bf5e332f7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintcorehelperuni_setfontsubstitution, IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, SetFontSubstitution, SetFontSubstitution method [Print Devices], IPrintCoreHelperUni::SetFontSubstitution, SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetFontSubstitution, IPrintCoreHelperUni, print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml
+ms.keywords: SetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices], SetFontSubstitution method, print.iprintcorehelperuni_setfontsubstitution, SetFontSubstitution method [Print Devices], print_unidrv-pscript_allplugins_ce9f5c67-e9b5-4fc1-ac5b-1606f7d84b88.xml, IPrintCoreHelperUni, SetFontSubstitution, IPrintCoreHelperUni::SetFontSubstitution, prcomoem/IPrintCoreHelperUni::SetFontSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.SetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ A pointer to a null-terminated Unicode string that contains the name of the devi
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::SetFontSubstitution</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +145,14 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Setting a device font to use in place of a specified TrueType font can occur only during the device property sheets session and only if full UI replacement is enabled. The font that is represented by the <i>pszTrueTypeFontName</i> parameter must be a valid TrueType font and must be installed on the printer. The device font that is represented by the <i>pszDevFontName</i> parameter must be a valid font for this printer.
@@ -158,9 +163,12 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552936">IPrintCoreHelperUni::GetFontSubstitution</a>
+
+
 
  
 

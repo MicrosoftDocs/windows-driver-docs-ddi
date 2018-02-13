@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnReleaseModeInfo(
 ## -returns
 
 
+
 The <b>pfnReleaseModeInfo</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,14 +125,18 @@ The pointer supplied in <i>pVidPnSourceModeInfo </i>was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using a D3DKMDT_VIDPN_SOURCE_MODE structure that you obtained by calling any of the following functions, you must release the structure by calling <b>pfnReleaseModeInfo</b>.
+
 <ul>
 <li>
 
@@ -150,7 +156,8 @@ When you have finished using a D3DKMDT_VIDPN_SOURCE_MODE structure that you obta
 
 
 </li>
-</ul>If you obtain a D3DKMDT_VIDPN_SOURCE_MODE structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> and then pass that structure to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_addmode.md">pfnAddMode</a>, you do not need to release the structure.
+</ul>
+If you obtain a D3DKMDT_VIDPN_SOURCE_MODE structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> and then pass that structure to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_addmode.md">pfnAddMode</a>, you do not need to release the structure.
 
 If you obtain a handle by calling <b>pfnCreateNewModeInfo</b> and then you decide not to add the new mode to a source mode set, you must release the newly created structure by calling <b>pfnReleaseModeInfo</b>.
 
@@ -158,15 +165,24 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 
 
-## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirepinnedmodeinfo.md">pfnAcquirePinnedModeInfo</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], KeQueryTotalCycleTimeThread, wdm/KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_
+ms.keywords: wdm/KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], KeQueryTotalCycleTimeThread, kernel.kequerytotalcycletimethread_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,6 +82,8 @@ A pointer to the cycle counter value at the time of the query.
 ## -returns
 
 
+
 The accumulated cycle time for the thread.
+
 
 

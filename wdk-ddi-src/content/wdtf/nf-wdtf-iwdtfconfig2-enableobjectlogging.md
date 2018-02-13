@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 7518aab0-8de5-4f45-b7d9-3cffdc07ea90
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFCONFIG2.EnableObjectLogging, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectLogging method, IWDTFCONFIG2, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, wdtf/IWDTFCONFIG2::EnableObjectLogging, dtf.iwdtfconfig2_enableobjectlogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectLogging, EnableObjectLogging, IWDTFCONFIG2::EnableObjectLogging
+ms.keywords: IWDTFCONFIG2::EnableObjectLogging, EnableObjectLogging, wdtf/IWDTFCONFIG2::EnableObjectLogging, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectLogging method, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectLogging, IWDTFCONFIG2, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectLogging, dtf.iwdtfconfig2_enableobjectlogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,18 @@ HRESULT EnableObjectLogging();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 <b>WDTF</b> object logging defaults to disabled. If object logging is enabled, 
@@ -83,9 +87,12 @@ test scripts log.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFCONFIG2</a>
+
+
 
  
 

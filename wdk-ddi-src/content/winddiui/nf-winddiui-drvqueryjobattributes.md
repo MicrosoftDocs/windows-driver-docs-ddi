@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 71e07572-bb15-4838-94d1-e07a3305ab82
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.drvqueryjobattributes, print_interface-graphics_3fc2f9a4-bfe5-4323-a73e-6ac3ca9cf217.xml, DrvQueryJobAttributes, DrvQueryJobAttributes function [Print Devices], winddiui/DrvQueryJobAttributes
+ms.keywords: print_interface-graphics_3fc2f9a4-bfe5-4323-a73e-6ac3ca9cf217.xml, print.drvqueryjobattributes, winddiui/DrvQueryJobAttributes, DrvQueryJobAttributes function [Print Devices], DrvQueryJobAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvQueryJobAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows
 ### -param dwLevel [in]
 
 Caller-supplied value indicating the type of structure pointed to by <i>lpAttributeInfo</i>, as indicated in the following table.
+
 <table>
 <tr>
 <th><i>dwLevel</i> Value</th>
@@ -137,7 +138,8 @@ Caller-supplied value indicating the type of structure pointed to by <i>lpAttrib
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param lpAttributeInfo [out]
@@ -148,11 +150,14 @@ Caller-supplied pointer to a structure identified by <i>dwLevel</i>.
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it should return <b>FALSE</b>. Returning <b>FALSE</b> causes the current print job to be canceled.
 
 
 
+
 ## -remarks
+
 
 
 A <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLL</a> can optionally provide a <b>DrvQueryJobAttributes</b> function. If the function is provided, it should fill in the supplied structure, described by <i>dwLevel</i> and <i>plAttributeInfo</i>, to indicate the current print job's user-requested attributes (such as N-up parameters and the number of copies) and the driver's ability to support those attributes. The function is typically called by the EMF print processor, so it can determine which job attributes can be handled by the driver (or printer), and which must be handled by the print processor.
@@ -163,15 +168,24 @@ The ATTRIBUTE_INFO_4 structure is defined for Windows Vista.
 
 
 
-## -see-also
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+## -see-also
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
 
+
+
 <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
 
+
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+
+
+
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
 
  
 

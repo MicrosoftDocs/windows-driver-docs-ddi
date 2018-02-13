@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExNotifyCallback, ExNotifyCallback, k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, ExNotifyCallback routine [Kernel-Mode Driver Architecture], kernel.exnotifycallback
+ms.keywords: k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], ExNotifyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the parameter that is passed as <i>Argument2</i> of the callback routi
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Driver writers <u>must not</u> call <b>ExNotifyCallback</b> for any of the system-defined callback objects listed in <b>ExCreateCallback</b>.
@@ -105,11 +108,16 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
+
+
 <a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+
 
  
 

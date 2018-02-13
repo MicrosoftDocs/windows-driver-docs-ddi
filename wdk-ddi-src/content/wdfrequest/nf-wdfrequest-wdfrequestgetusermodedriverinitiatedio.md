@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3F2B060F-3818-4BBC-9BF7-7A82128274E0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetusermodeinitiatedio, WdfRequestGetUserModeDriverInitiatedIo, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo method
+ms.keywords: WdfRequestGetUserModeDriverInitiatedIo method, wdf.wdfrequestgetusermodeinitiatedio, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,11 +78,14 @@ A handle to a framework request object.
 ## -returns
 
 
+
 The method returns <b>TRUE</b> if the request is marked as UMDF driver-initiated and <b>FALSE</b> if the request is not marked as UMDF driver-initiated.
 
 
 
+
 ## -remarks
+
 
 
  This method retrieves the value of the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure corresponding to the I/O request.
@@ -91,9 +94,12 @@ For more information about using this flag, see <a href="..\wdfrequest\nf-wdfreq
 
 
 
+
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>
+
+
 
  
 

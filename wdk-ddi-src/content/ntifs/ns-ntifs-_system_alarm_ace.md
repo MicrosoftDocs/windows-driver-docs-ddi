@@ -7,8 +7,8 @@ old-location: ifsk\system_alarm_ace.htm
 old-project: ifsk
 ms.assetid: 6337d61e-a47e-4c84-b635-9df48d655b04
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SYSTEM_ALARM_ACE structure [Installable File System Drivers], *PSYSTEM_ALARM_ACE, ntifs/SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, _SYSTEM_ALARM_ACE, securitystructures_8a768255-9e14-48eb-83ba-66b212a1dcc1.xml, ifsk.system_alarm_ace
+ms.date: 2/7/2018
+ms.keywords: SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Installable File System Drivers], ifsk.system_alarm_ace, ntifs/SYSTEM_ALARM_ACE, _SYSTEM_ALARM_ACE, securitystructures_8a768255-9e14-48eb-83ba-66b212a1dcc1.xml, *PSYSTEM_ALARM_ACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

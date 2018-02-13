@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AB5939B9-01DD-4F51-BAEB-6C5EC909FAE1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exacquirerundownprotectionex, wdm/ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], ExAcquireRundownProtectionEx
+ms.keywords: ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], ExAcquireRundownProtectionEx, kernel.exacquirerundownprotectionex, wdm/ExAcquireRundownProtectionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ The amount by which to increment to the run-down instance count of the object. T
 ## -returns
 
 
+
 <b>ExAcquireRundownProtectionEx</b> returns <b>TRUE</b> if the routine successfully acquires run-down protection for the caller. Otherwise, it returns <b>FALSE</b>. A return value of <b>FALSE</b> indicates that the run down of the object has started and that the object must be treated as invalid.
 
 
 
+
 ## -remarks
+
 
 
 To safely access a shared object, a driver calls <b>ExAcquireRundownProtectionEx</b> to acquire run-down protection on the object.
@@ -97,17 +100,28 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-exreleaserundownprotectionex.md">ExReleaseRundownProtectionEx</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
+
+
+<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
+
 
 <a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
 
-<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
+
+<a href="..\wdm\nf-wdm-exreleaserundownprotectionex.md">ExReleaseRundownProtectionEx</a>
+
+
 
  
 

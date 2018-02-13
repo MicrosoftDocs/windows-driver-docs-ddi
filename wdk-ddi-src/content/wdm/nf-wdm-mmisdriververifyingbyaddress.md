@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ccc20b5b-0f16-422d-8900-03b57f08b1bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmisdriververifyingbyaddress, MmIsDriverVerifyingByAddress routine [Kernel-Mode Driver Architecture], MmIsDriverVerifyingByAddress, k106_37d22f13-de6a-4423-b148-9a7481570aaf.xml, wdm/MmIsDriverVerifyingByAddress
+ms.keywords: MmIsDriverVerifyingByAddress routine [Kernel-Mode Driver Architecture], MmIsDriverVerifyingByAddress, wdm/MmIsDriverVerifyingByAddress, k106_37d22f13-de6a-4423-b148-9a7481570aaf.xml, kernel.mmisdriververifyingbyaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to the virtual address within the driver image. <b>MmIsDriverVerifying
 ## -returns
 
 
+
 <b>MmIsDriverVerifyingByAddress</b> returns <b>TRUE</b> if the specified driver either is in the driver verification list or imports calls to entry points in a driver that is in the driver verification list. Otherwise, this routine returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A kernel-mode driver can call this routine to determine whether it or another driver is being monitored by <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a>. Driver Verifier monitors kernel-mode drivers to detect illegal function calls or actions that might corrupt the system. To select drivers to be verified, you can use the <a href="https://msdn.microsoft.com/7cdf5277-7187-4e90-b22a-6f828f06e2fb">Verifier Command Line</a> or <a href="https://msdn.microsoft.com/37a7d348-8b55-44f7-86d6-6b195704b9fd">Driver Verifier Manager</a>. For more information about adding drivers to the driver verification list, see <a href="https://msdn.microsoft.com/a752dea1-f49c-4e58-9e56-6b54701c760e">Selecting Drivers to be Verified</a>.
@@ -93,11 +96,16 @@ For example, if driver A has an import table through which it calls one or more 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
 
+
+
 <a href="..\wdm\nf-wdm-mmisdriversuspectforverifier.md">MmIsDriverSuspectForVerifier</a>
+
+
 
  
 

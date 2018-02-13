@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7756f69-feab-4a28-88d5-0262f86db54b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportDetectedDevice, k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportdetecteddevice, ntddk/IoReportDetectedDevice
+ms.keywords: ntddk/IoReportDetectedDevice, IoReportDetectedDevice, kernel.ioreportdetecteddevice, k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoReportDetectedDevice
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoReportDetectedDevice function
@@ -127,11 +127,14 @@ If the caller supplies a PDO, the PnP manager does not create a new PDO. On a gi
 ## -returns
 
 
+
 <b>IoReportDetectedDevice</b> returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 
 
+
 ## -remarks
+
 
 
 Drivers for legacy devices use <b>IoReportDetectedDevice</b> to report their devices to the system. A driver should only call <b>IoReportDetectedDevice</b> to report a legacy, non-PnP device. PnP devices should be reported in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
@@ -152,11 +155,16 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
 
  
 

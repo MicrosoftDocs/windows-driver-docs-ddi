@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ReportStatus method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler, ReportStatus method [Imaging Devices], IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, wia_lh/IWiaErrorHandler::ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, image.iwiaerrorhandler_reportstatus
+ms.keywords: ReportStatus method [Imaging Devices], IWiaErrorHandler interface, IWiaErrorHandler, ReportStatus method [Imaging Devices], IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, wia_lh/IWiaErrorHandler::ReportStatus, image.iwiaerrorhandler_reportstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaErrorHandler.ReportStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ Size of the data, in bytes, the <i>pbData</i> pointer refers to.
 ## -returns
 
 
+
 Returns a standard COM error code if the error cannot be recovered from, or if the user chooses to abort the transfer in response to the displayed dialog box. There is additional information on the return values in the remarks section. Otherwise this method returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,11 +130,14 @@ No action was taken to handle the error or report status to the user.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The COM proxy callback object (described in the Windows SDK documentation) calls the <b>WiaErrorHandler::ReportStatus</b> method when the driver sends an IT_MSG_DEVICE_STATUS message to the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation). The dialog box that this method displays provides the user with error or status information and possibly gives an opportunity to recover from the error and continue the transfer. The UI should provide only an informational dialog box and a chance to cancel the transfer if the HRESULT is SEVERITY_SUCCESS.
@@ -145,11 +150,16 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 
 
+
 ## -see-also
 
 <a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
+
+
 
  
 

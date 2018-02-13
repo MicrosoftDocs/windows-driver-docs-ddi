@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 60b0d44b-0178-43ce-a1ad-7f5825bed3ba
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CIP_NOTIFY_INFO structure [Buses], PCIP_NOTIFY_INFO structure pointer [Buses], _CIP_NOTIFY_INFO, 61883/PCIP_NOTIFY_INFO, IEEE.cip_notify_info, CIP_NOTIFY_INFO, 61883_structures_383bc74c-1168-4478-8284-b2724f9ec654.xml, *PCIP_NOTIFY_INFO, 61883/CIP_NOTIFY_INFO, PCIP_NOTIFY_INFO
+ms.keywords: IEEE.cip_notify_info, 61883_structures_383bc74c-1168-4478-8284-b2724f9ec654.xml, _CIP_NOTIFY_INFO, CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO, 61883/PCIP_NOTIFY_INFO, PCIP_NOTIFY_INFO structure pointer [Buses], PCIP_NOTIFY_INFO, CIP_NOTIFY_INFO structure [Buses], 61883/CIP_NOTIFY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_NOTIFY_INFO
 product: Windows
 targetos: Windows
-req.typenames: CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO
+req.typenames: "*PCIP_NOTIFY_INFO, CIP_NOTIFY_INFO"
 ---
 
 # _CIP_NOTIFY_INFO structure
@@ -87,13 +87,17 @@ Points to the completed frame.
 ## -remarks
 
 
+
 The IEC-61883 protocol driver allocates and initializes this structure from the input CIP_FRAME structure.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a>
+
+
 
  
 

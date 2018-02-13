@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetsupporteddatafields.htm
 old-project: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], sensors.isensordriver_ongetsupporteddatafields, ISensorDriver::OnGetSupportedDataFields, ISensorDriver
+ms.date: 2/8/2018
+ms.keywords: sensors.isensordriver_ongetsupporteddatafields, ISensorDriver::OnGetSupportedDataFields, ISensorDriver, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,14 @@ Address of an IPortableDeviceKeyCollection pointer that receives the list of PRO
 ## -returns
 
 
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 Data fields contain sensor-generated data, as opposed to properties, which describe the sensor device. Platform-defined data fields are defined in sensors.h.
@@ -95,5 +98,6 @@ Data fields contain sensor-generated data, as opposed to properties, which descr
 All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
+
 
 

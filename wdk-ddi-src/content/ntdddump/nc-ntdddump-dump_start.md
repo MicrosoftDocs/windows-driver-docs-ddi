@@ -40,7 +40,7 @@ apiname:
 -	Dump_Start
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_START callback
@@ -78,13 +78,17 @@ A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXT
 ## -returns
 
 
+
 If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must return one of the error status values that are defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -see-also
 
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 968d57fa-7a8e-42cf-b73b-d669ecbbaf48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExSetTimerResolution, kernel.exsettimerresolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], ExSetTimerResolution, k102_09179649-af93-434f-92e0-844a2bdf34dc.xml
+ms.keywords: ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], wdm/ExSetTimerResolution, k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,14 +82,18 @@ If <b>TRUE</b>, the call is a request to set the clock interrupt frequency to th
 ## -returns
 
 
+
 <b>ExSetTimerResolution</b> returns the new timer resolution, in 100-nanosecond units.
+
 
 
 
 ## -remarks
 
 
+
 To set the timer resolution, a driver calls this routine passing <b>TRUE</b> as the parameter for <i>SetResolution</i>. The following rules apply:
+
 <ul>
 <li>
 The routine changes the clock interrupt frequency <u>only</u> if the specified  <i>DesiredTime</i> value is less than the current setting.
@@ -103,7 +107,9 @@ If a driver requests a <i>DesiredTime</i> value that is greater than what is cur
 If a driver requests a <i>DesiredTime</i> value that is less than the system clock can support, the routine uses the smallest resolution the system can support, and returns that value.
 
 </li>
-</ul>If you use this routine to change the clock interrupt frequency, your driver <u>must</u> restore the default interrupt frequency, typically by making the following call before being unloaded:
+</ul>
+If you use this routine to change the clock interrupt frequency, your driver <u>must</u> restore the default interrupt frequency, typically by making the following call before being unloaded:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -113,7 +119,8 @@ If a driver requests a <i>DesiredTime</i> value that is less than the system clo
 <pre>ExSetTimerResolution (0, FALSE);</pre>
 </td>
 </tr>
-</table></span></div>(If multiple drivers have attempted to modify the clock interrupt frequency, the system does not restore the default frequency until all of these drivers have called this routine with a <i>SetResolution</i> value of <b>FALSE</b>.)
+</table></span></div>
+(If multiple drivers have attempted to modify the clock interrupt frequency, the system does not restore the default frequency until all of these drivers have called this routine with a <i>SetResolution</i> value of <b>FALSE</b>.)
 
 <u>Note that the result of changing the clock interrupt frequency is system-wide and can have a severely negative effect on system performance. Also note that higher clock interrupt frequencies can shorten a system's battery life.</u>
 
@@ -121,9 +128,12 @@ During the processing of an <a href="https://msdn.microsoft.com/library/windows/
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5bdb39cc-18b3-4a01-b733-f308273399a1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVA2_Structs_4759e9c4-cde3-40d9-8f13-a7437ba73eac.xml, display.dxvahdddi_blt_state_constriction_data, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA"
+ms.keywords: display.dxvahdddi_blt_state_constriction_data, d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVA2_Structs_4759e9c4-cde3-40d9-8f13-a7437ba73eac.xml, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ typedef struct _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA {
 ## -remarks
 
 
+
 The Direct3D runtime specifies the DXVAHDDDI_BLT_STATE_CONSTRICTION state in the <b>State</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a> function. This is specified only if the driver has previously set the DXVAHDDDI_FEATURE_CAPS_CONSTRICTION value in the <b>FeatureCaps</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a> structure when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPDEVCAPS value set. 
 
 Sampling sizes of (0, anything) and (anything, 0) are invalid and the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a> function should return an error if these sampling sizes are supplied.
@@ -89,17 +90,28 @@ If the supplied sampling size is larger than the size of the target rectangle, t
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">SIZE</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
 
  
 

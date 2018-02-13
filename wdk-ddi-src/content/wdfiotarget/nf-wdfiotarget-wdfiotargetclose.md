@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7de1ce11-a2b3-4d68-b279-4652b822297b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetClose method, DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose, kmdf.wdfiotargetclose, wdf.wdfiotargetclose, PFN_WDFIOTARGETCLOSE, wdfiotarget/WdfIoTargetClose
+ms.keywords: WdfIoTargetClose method, wdfiotarget/WdfIoTargetClose, wdf.wdfiotargetclose, PFN_WDFIOTARGETCLOSE, kmdf.wdfiotargetclose, DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ A handle to an I/O target object that was obtained from a previous call to <a hr
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,7 +90,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After a driver has called <b>WdfIoTargetClose</b>, it can call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a> to reopen the remote I/O target.
@@ -105,12 +108,63 @@ For more information about <b>WdfIoTargetClose</b>, see <a href="https://msdn.mi
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
+#### Examples
+
+The following code example is an <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_complete.md">EvtIoTargetRemoveComplete</a> callback function that removes a specified I/O target from a driver's collection of I/O targets and then closes the I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoTargetRemoveComplete(
+    WDFIOTARGET IoTarget
+)
+{
+    //
+    // Get device information from the I/O target object's
+    // context space.
+    //
+    targetDeviceInfo = GetTargetDeviceInfo(IoTarget);
+    deviceExtension = targetDeviceInfo-&gt;DeviceExtension;
+
+    //
+    // Remove the target device from the collection.
+    //
+    WdfWaitLockAcquire(
+                       deviceExtension-&gt;TargetDeviceCollectionLock,
+                       NULL
+                       );
+
+    WdfCollectionRemove(
+                        deviceExtension-&gt;TargetDeviceCollection,
+                        IoTarget
+                        );
+
+    WdfWaitLockRelease(deviceExtension-&gt;TargetDeviceCollectionLock);
+
+    //
+    // Close the target.
+    //
+    WdfIoTargetClose(IoTarget);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
 <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_remove_complete.md">EvtIoTargetRemoveComplete</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
 
  
 

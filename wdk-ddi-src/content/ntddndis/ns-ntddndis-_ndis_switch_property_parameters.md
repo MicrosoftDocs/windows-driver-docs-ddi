@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c5a8f551-36a5-4d49-b521-4ac43ea2fff8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PROPERTY_PARAMETERS, PNDIS_SWITCH_PROPERTY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_property_parameters, PNDIS_SWITCH_PROPERTY_PARAMETERS, _NDIS_SWITCH_PROPERTY_PARAMETERS, ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS, *PNDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PROPERTY_PARAMETERS
+ms.keywords: NDIS_SWITCH_PROPERTY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_PARAMETERS, ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS, netvista.ndis_switch_property_parameters, _NDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_PARAMETERS, PNDIS_SWITCH_PROPERTY_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PROPERTY_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PROPERTY_PARAMETERS, NDIS_SWITCH_PROPERTY_PARAMETERS"
+req.typenames: NDIS_SWITCH_PROPERTY_PARAMETERS, *PNDIS_SWITCH_PROPERTY_PARAMETERS
 ---
 
 # _NDIS_SWITCH_PROPERTY_PARAMETERS structure
@@ -84,6 +84,7 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+
 #### NDIS_SWITCH_PROPERTY_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -106,7 +107,9 @@ A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserve
 A GUID value that identifies the extensible switch property.
 
 For more information, see the Remarks section.
-<div class="alert"><b>Note</b>  The extensible switch extension must ignore this member unless the <b>PropertyType</b> member is set to <b>NdisSwitchPropertyTypeCustom</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The extensible switch extension must ignore this member unless the <b>PropertyType</b> member is set to <b>NdisSwitchPropertyTypeCustom</b>.</div>
+<div> </div>
 
 ### -field PropertyVersion
 
@@ -118,7 +121,9 @@ An NDIS_SWITCH_OBJECT_VERSION value that identifies the version of the extensibl
 ### -field SerializationVersion
 
 An NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION value that identifies the format version of the serialized extensible switch property data. This data is serialized for access by the extension from the Managed Object Format (MOF) file that defined the property.
-<div class="alert"><b>Note</b>  For Windows Server 2012, the <b>SerializationVersion</b> member must be set to NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION_1.</div><div> </div>
+
+<div class="alert"><b>Note</b>  For Windows Server 2012, the <b>SerializationVersion</b> member must be set to NDIS_SWITCH_OBJECT_SERIALIZATION_VERSION_1.</div>
+<div> </div>
 
 ### -field PropertyInstanceId
 
@@ -140,7 +145,9 @@ A ULONG value that specifies the offset, in bytes, to the property buffer that f
 ## -remarks
 
 
+
 The <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure is used in the following OID set requests:
+
 <ul>
 <li>
 
@@ -154,30 +161,51 @@ The <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure is used in the following OI
 
 
 </li>
-</ul>The property buffer contains a structure that is associated with the <b>PropertyType</b> member. The property buffer follows the <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure in the information buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the <b>PropertyType</b> member must be set to <b>NdisSwitchPropertyTypeCustom</b> and the property buffer must contain an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_custom.md">NDIS_SWITCH_PROPERTY_CUSTOM</a> structure.</div><div> </div>Extensible switch extensions can access the  extensible switch property buffer inside an <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure by using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598256">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a> macro.
+</ul>
+The property buffer contains a structure that is associated with the <b>PropertyType</b> member. The property buffer follows the <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure in the information buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
+
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the <b>PropertyType</b> member must be set to <b>NdisSwitchPropertyTypeCustom</b> and the property buffer must contain an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_custom.md">NDIS_SWITCH_PROPERTY_CUSTOM</a> structure.</div>
+<div> </div>
+Extensible switch extensions can access the  extensible switch property buffer inside an <b>NDIS_SWITCH_PROPERTY_PARAMETERS</b> structure by using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598256">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a> macro.
 
 For more information about extensible switch policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598256">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598280">OID_SWITCH_PROPERTY_ADD</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_custom.md">NDIS_SWITCH_PROPERTY_CUSTOM</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598283">OID_SWITCH_PROPERTY_UPDATE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598256">NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_custom.md">NDIS_SWITCH_PROPERTY_CUSTOM</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <b></b>
+
+
 
  
 

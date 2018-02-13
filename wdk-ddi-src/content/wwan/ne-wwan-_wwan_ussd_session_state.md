@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_USSD_SESSION_STATE, WwanUssdSessionStateNew, wwan/WWAN_USSD_SESSION_STATE, WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateExisting, netvista.wwan_ussd_session_state, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateNew
+ms.keywords: wwan/WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateNew, WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, wwan/WWAN_USSD_SESSION_STATE, WwanUssdSessionStateNew, _WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE, WwanUssdSessionStateExisting, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_USSD_SESSION_STATE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_USSD_SESSION_STATE, *PWWAN_USSD_SESSION_STATE
+req.typenames: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,8 @@ The USSD string is not the first message of a USSD session.
 ## -remarks
 
 
+
 Miniport drivers use the WWAN_USSD_SESSION_STATE enumeration to indicate whether a USSD string is the first message of a USSD session. Miniport drivers must use <i>WwanUssdSessionStateNew</i> for the first message of a network-initiated USSD session. Miniport drivers should use <i>WwanUssdSessionStateExisting</i> in all other cases.
+
 
 

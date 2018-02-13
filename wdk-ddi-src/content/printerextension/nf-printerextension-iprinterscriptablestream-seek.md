@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprinterscriptablestream__seek, Seek method [Print Devices], IPrinterScriptableStream interface, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Seek method, printerextension/IPrinterScriptableStream::Seek, IPrinterScriptableStream::Seek, Seek method [Print Devices], Seek
+ms.keywords: print.iprinterscriptablestream__seek, Seek method [Print Devices], IPrinterScriptableStream interface, Seek method [Print Devices], IPrinterScriptableStream::Seek, IPrinterScriptableStream interface [Print Devices], Seek method, Seek, IPrinterScriptableStream, printerextension/IPrinterScriptableStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,13 +88,17 @@ The new pointer position.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
+
+
 
  
 

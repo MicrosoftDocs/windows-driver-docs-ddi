@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2e4bd8bd-ce7e-4eb4-ac0d-68fb8890eb26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILINFOCLASS, RIL_INFOCLASS_DATA, RIL_INFOCLASS_SMS, RIL_INFOCLASS_PACKETACCESS, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, ntddrilapitypes/RIL_INFOCLASS_VOICE, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, ntddrilapitypes/RIL_INFOCLASS_FAX, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RILINFOCLASS, ntddrilapitypes/RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_VOICE, ntddrilapitypes/RIL_INFOCLASS_DATA, ntddrilapitypes/RIL_INFOCLASS_SMS, RIL_INFOCLASS_PADACCESS, ntddrilapitypes/RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_DATACIRCUITSYNC, netvista.rilinfoclass, RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_FAX, ntddrilapitypes/RIL_INFOCLASS_ALL, RIL_INFOCLASS_ALL
+ms.keywords: ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_VOICE, netvista.rilinfoclass, ntddrilapitypes/RIL_INFOCLASS_PADACCESS, ntddrilapitypes/RIL_INFOCLASS_SMS, RIL_INFOCLASS_FAX, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_SMS, ntddrilapitypes/RIL_INFOCLASS_DATA, RIL_INFOCLASS_DATACIRCUITSYNC, ntddrilapitypes/RIL_INFOCLASS_ALL, RIL_INFOCLASS_DATACIRCUITASYNC, ntddrilapitypes/RIL_INFOCLASS_VOICE, ntddrilapitypes/RIL_INFOCLASS_PACKETACCESS, RILINFOCLASS, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, ntddrilapitypes/RIL_INFOCLASS_FAX, RIL_INFOCLASS_PACKETACCESS, ntddrilapitypes/RILINFOCLASS, RIL_INFOCLASS_ALL, RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,39 +78,29 @@ typedef enum _RILINFOCLASS {
 ### -field RIL_INFOCLASS_NONE
 
 
-
 ### -field RIL_INFOCLASS_VOICE
-
 
 
 ### -field RIL_INFOCLASS_DATA
 
 
-
 ### -field RIL_INFOCLASS_FAX
-
 
 
 ### -field RIL_INFOCLASS_SMS
 
 
-
 ### -field RIL_INFOCLASS_DATACIRCUITSYNC
-
 
 
 ### -field RIL_INFOCLASS_DATACIRCUITASYNC
 
 
-
 ### -field RIL_INFOCLASS_PACKETACCESS
-
 
 
 ### -field RIL_INFOCLASS_PADACCESS
 
 
-
 ### -field RIL_INFOCLASS_ALL
-
 

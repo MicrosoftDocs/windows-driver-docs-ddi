@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DownloadPattern method [Print Devices], print.iprintoemuni3_downloadpattern, IPrintOemUni3, DownloadPattern method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices], DownloadPattern method, prcomoem/IPrintOemUni3::DownloadPattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, IPrintOemUni3::DownloadPattern, DownloadPattern
+ms.keywords: IPrintOemUni3::DownloadPattern, DownloadPattern method [Print Devices], IPrintOemUni3 interface, DownloadPattern method [Print Devices], IPrintOemUni3 interface [Print Devices], DownloadPattern method, DownloadPattern, prcomoem/IPrintOemUni3::DownloadPattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml, print.iprintoemuni3_downloadpattern, IPrintOemUni3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni3.DownloadPattern
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ The ID of the pattern to download.
 ## -returns
 
 
+
 If successful, this method should return S_OK. Otherwise, this method should return an appropriate value in the returned HRESULT.
 
 
 
+
 ## -remarks
+
 
 
 This method is available in Windows Vista and later.
@@ -101,9 +104,12 @@ You should implement this method if you want your rendering plug-in, rather than
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>
+
+
 
  
 

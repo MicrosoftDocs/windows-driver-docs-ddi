@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53565c01-9e6f-4ade-8c4a-2a4dbe7d48c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DIRTYREGIONS structure [Display Devices], d3dkmthk/D3DKMT_DIRTYREGIONS, _D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions, D3DKMT_DIRTYREGIONS, OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml
+ms.keywords: D3DKMT_DIRTYREGIONS, _D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions, D3DKMT_DIRTYREGIONS structure [Display Devices], d3dkmthk/D3DKMT_DIRTYREGIONS, OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _D3DKMT_DIRTYREGIONS {
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
  
 

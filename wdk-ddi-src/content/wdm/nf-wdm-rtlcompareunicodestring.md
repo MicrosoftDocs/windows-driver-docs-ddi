@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlCompareUnicodeString, kernel.rtlcompareunicodestring, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], RtlCompareUnicodeString, k109_ddeef320-7510-446b-af6f-756c3999bec1.xml
+ms.keywords: wdm/RtlCompareUnicodeString, k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlcompareunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 ## -returns
 
 
+
 <b>RtlCompareUnicodeString</b> returns a signed value that gives the results of the comparison:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,7 +129,9 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -135,7 +139,11 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 <a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
+
+
 
  
 

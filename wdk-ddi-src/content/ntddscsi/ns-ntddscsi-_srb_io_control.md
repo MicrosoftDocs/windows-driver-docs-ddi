@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], ntddscsi/SRB_IO_CONTROL, *PSRB_IO_CONTROL, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, storage.srb_io_control, PSRB_IO_CONTROL, _SRB_IO_CONTROL
+ms.keywords: ntddscsi/SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, _SRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, storage.srb_io_control, ntddscsi/PSRB_IO_CONTROL, *PSRB_IO_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,9 @@ Indicates the size in bytes of the immediately following data area. This area ca
 ## -remarks
 
 
+
 This structure is used by applications to send requests directly to an application-dedicated HBA. Note that such an application also must set up requests to program its dedicated HBA.
+
 
 
 
@@ -112,7 +114,11 @@ This structure is used by applications to send requests directly to an applicati
 
 SCSI Port I/O Control Codes
 
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 

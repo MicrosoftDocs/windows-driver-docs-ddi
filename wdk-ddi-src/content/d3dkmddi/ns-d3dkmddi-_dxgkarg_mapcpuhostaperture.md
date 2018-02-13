@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, _DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture
+ms.keywords: display.dxgkarg_mapcpuhostaperture, DXGKARG_MAPCPUHOSTAPERTURE, _DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,8 +87,10 @@ Specifies the segment identifier of the segment being accessed.
 A zero-based physical adapter index in a linked display adapter link.
 The page size is equal to the segment page size, reported in <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>.
 
+
 <div class="alert"><b>Note</b>  The allocation itself might be aligned on 4KB page boundary. When the segment page size is 64 KB, CPU host aperture in this case will map more than the allocation size.
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field NumberOfPages
 

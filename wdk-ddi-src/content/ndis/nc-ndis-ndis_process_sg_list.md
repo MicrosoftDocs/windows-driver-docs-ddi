@@ -40,7 +40,7 @@ apiname:
 -	NetProcessSGList
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # NDIS_PROCESS_SG_LIST callback
@@ -104,11 +104,14 @@ A pointer to a block of driver-allocated context information that contains infor
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS calls the 
@@ -124,16 +127,25 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
-   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIWriteEvent, kernel.iowmiwriteevent, k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], wdm/IoWMIWriteEvent
+ms.keywords: IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], wdm/IoWMIWriteEvent, IoWMIWriteEvent, k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, kernel.iowmiwriteevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,9 @@ Pointer to a <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_IT
 ## -returns
 
 
+
 <b>IoWMIWriteEvent</b> returns a status code from the following list:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +128,14 @@ Indicates that insufficient resources were available for WMI to queue the event 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The WNODE_EVENT_ITEM structure that is allocated by the caller and passed in <i>WnodeEventItem</i> must be allocated from nonpaged pool. If <b>IoWMIWriteEvent</b> returns STATUS_SUCCESS, the memory for the event item will automatically be freed by the system. If <b>IoWMIWriteEvent</b> returns anything other than STATUS_SUCCESS, it is the caller's responsibility to free the buffer.
@@ -141,11 +146,16 @@ Callers of this routine must be running at IRQL &lt;= APC_LEVEL, with one except
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWmiDeviceObjectToProviderId</a>
 
+
+
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+
 
  
 

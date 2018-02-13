@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRemoteTarget::GetState, wdf.iwdfremotetarget_getstate, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, IWDFRemoteTarget, GetState method, IWDFRemoteTarget interface, GetState method, umdf.iwdfremotetarget_getstate, GetState, IWDFRemoteTarget interface, GetState method, IWDFRemoteTarget::GetState
+ms.keywords: wudfddi/IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, IWDFRemoteTarget::GetState, GetState, GetState method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_getstate, wdf.iwdfremotetarget_getstate, IWDFRemoteTarget, GetState method, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,25 +69,52 @@ WDF_IO_TARGET_STATE GetState();
 
 
 
+
 ## -returns
 
 
-<b>GetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the remote I/O target.
+
+<b>GetState</b> returns a <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the remote I/O target.
+
 
 
 
 ## -remarks
 
 
+
 For more information about remote I/O target states, see <a href="https://msdn.microsoft.com/479487b2-5ce5-4522-b195-58ee50d210b6">Controlling a General I/O Target's State in UMDF</a>.
+
+
+#### Examples
+
+The following code example determines whether a remote I/O target is closed.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (FxRemoteTarget-&gt;GetState() == WdfIoTargetClosed)
+{
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
 
  
 

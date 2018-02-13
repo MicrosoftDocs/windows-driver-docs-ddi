@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemDriverUni, DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni::DrvGetStandardVariable
+ms.keywords: IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni::DrvGetStandardVariable, IPrintOemDriverUni, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemDriverUni.DrvGetStandardVariable
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ Caller-supplied pointer to a location to receive the minimum buffer size require
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,6 +141,8 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

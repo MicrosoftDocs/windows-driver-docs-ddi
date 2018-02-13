@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4188c488-fda4-4596-96f5-f740a5cc9ffc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, DXVADDI_FIXED32, _DXVADDI_FIXED32, display.dxvaddi_fixed32, d3dumddi/DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices]
+ms.keywords: DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, DXVADDI_FIXED32, display.dxvaddi_fixed32, d3dumddi/DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], _DXVADDI_FIXED32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,8 @@ A 32-bit value that describes the 16.16 fixed-point number.
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
+
+
 
  
 

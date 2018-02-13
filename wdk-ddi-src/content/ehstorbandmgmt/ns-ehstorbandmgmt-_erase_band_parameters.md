@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ERASE_BAND_PARAMETERS structure [Storage Devices], PERASE_BAND_PARAMETERS structure pointer [Storage Devices], *PERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS, storage.erase_band_parameters, _ERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED
+ms.keywords: storage.erase_band_parameters, ehstorbandmgmt/ERASE_BAND_PARAMETERS, _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], ERASE_BAND_PARAMETERS structure [Storage Devices], ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, PERASE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ERASE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS"
+req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 ---
 
 # _ERASE_BAND_PARAMETERS structure
@@ -80,6 +80,7 @@ The size of this structure in bytes. Set to <b>sizeof</b>(ERASE_BAND_PARAMETERS)
 ### -field Flags
 
 Delete operation flags. This value is a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -95,7 +96,8 @@ The new authentication key for this band is cached allowing for automation of la
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -116,6 +118,7 @@ The starting byte location on the storage device to begin a band search. An atte
 ### -field NewAuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new authorization key for the band. The offset is from the beginning of <b>ERASE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -131,7 +134,7 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new autho
 </tr>
 </table></span></div>
 
-To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 
 #### KeySize
@@ -139,12 +142,16 @@ To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
+
 #### Key
 
 A variable-length byte array that contains the key data.
 
+To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 ## -remarks
+
 
 
  Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>.
@@ -153,13 +160,20 @@ A variable-length byte array that contains the key data.
 
 
 
-## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
+## -see-also
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
+
+
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+
+
 
  
 

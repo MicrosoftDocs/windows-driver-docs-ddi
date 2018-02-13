@@ -104,15 +104,19 @@ A value that indicates the IRQL at which the
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 The FWPS_INJECT_COMPLETE0 type is defined as a pointer to the 
     <i>completionFn</i> function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,7 +126,8 @@ The FWPS_INJECT_COMPLETE0 type is defined as a pointer to the
 <pre>typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn</pre>
 </td>
 </tr>
-</table></span></div>The 
+</table></span></div>
+The 
     <b>Status</b> member of the 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure pointed to by 
     <i>NetBufferList</i> indicates the result of the injection operation.
@@ -147,25 +152,44 @@ The filter engine calls a callout's
 
 
 
-## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+
+
 
  
 

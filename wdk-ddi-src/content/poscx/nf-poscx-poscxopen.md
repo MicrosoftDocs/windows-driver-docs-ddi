@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 6AB1BB0A-B350-44D7-B0D0-9A19FD6DEE19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxOpen, poscx/PosCxOpen, pos.poscxopen, PosCxOpen function
+ms.keywords: poscx/PosCxOpen, pos.poscxopen, PosCxOpen, PosCxOpen function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ An identifier used to specify the caller's device interface in a multi-function 
 ## -returns
 
 
+
 An appropriate NTSTATUS error code that indicates the open instance completion status.
+
 
 

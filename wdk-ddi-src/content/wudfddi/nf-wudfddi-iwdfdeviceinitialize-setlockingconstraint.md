@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdeviceinitialize_setlockingconstraint, IWDFDeviceInitialize interface, SetLockingConstraint method, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint method, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, IWDFDeviceInitialize, SetLockingConstraint method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::SetLockingConstraint, umdf.iwdfdeviceinitialize_setlockingconstraint, SetLockingConstraint
+ms.keywords: SetLockingConstraint method, SetLockingConstraint method, IWDFDeviceInitialize interface, SetLockingConstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, IWDFDeviceInitialize interface, SetLockingConstraint method, IWDFDeviceInitialize::SetLockingConstraint, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, wdf.iwdfdeviceinitialize_setlockingconstraint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,14 +78,24 @@ A value of type <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_callback_constra
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The default value of the <i>LockType</i> parameter is <b>WdfDeviceLevel</b>, which is currently the only supported value.
+
+
+#### Examples
+
+For a code example of how to use the <b>SetLockingConstraint</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+
+<div class="code"></div>
 
 
 
@@ -93,7 +103,11 @@ The default value of the <i>LockType</i> parameter is <b>WdfDeviceLevel</b>, whi
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
 
  
 

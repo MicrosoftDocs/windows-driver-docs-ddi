@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c8d9c2aa-2eb7-43da-ae13-f7209e68e2fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE, ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state, WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, _NDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state, NDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_REG
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SET_REGISTER_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -127,9 +129,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
+
 
  
 

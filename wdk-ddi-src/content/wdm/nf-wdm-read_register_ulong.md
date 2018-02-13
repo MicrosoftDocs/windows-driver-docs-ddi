@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a462734c-cac6-4de0-95c1-810766ef1644
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/READ_REGISTER_ULONG, READ_REGISTER_ULONG, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, kernel.read_register_ulong
+ms.keywords: k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, wdm/READ_REGISTER_ULONG, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], kernel.read_register_ulong, READ_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ Pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>READ_REGISTER_ULONG</b> returns the ULONG value read from the specified register address.
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>READ_REGISTER_ULONG</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
+
 
 

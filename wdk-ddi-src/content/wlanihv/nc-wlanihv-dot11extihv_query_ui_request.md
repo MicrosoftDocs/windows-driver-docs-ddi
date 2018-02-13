@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvQueryUIRequest
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,11 @@ The current connection phase. The data type for this member is the
 
 
 
+
 #### connection_phase_any
 
 Specifies any connection phase.
+
 
 
 #### connection_phase_initial_connection
@@ -105,6 +107,7 @@ Specifies the connection phase before the IHV Extensions DLL initiates a pre-ass
        operation. For more information about the pre-association operation, see 
        <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association
        Operations</a>.
+
 
 
 #### connection_phase_post_l3_connection
@@ -126,13 +129,16 @@ The address of a pointer to a
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 When 
@@ -140,6 +146,7 @@ When
     formatted as a 
     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
     In this situation, the DLL must follow these guidelines:
+
 <ul>
 <li>
 The IHV Extensions DLL must call 
@@ -165,15 +172,24 @@ For example, if
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
+
+
 
  
 

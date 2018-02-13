@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 06bb6465-afc6-4b92-b3d7-1c66f6c6c33d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDevStatePowerStartSelfManagedIoFailedStarted, wdfdevice/WdfDevStatePowerWakePendingNP, WdfDevStatePowerStartSelfManagedIoFailedStarted, wdfdevice/WdfDevStatePowerDxNP, wdfdevice/WdfDevStatePowerStartingChild, wdfdevice/WdfDevStatePowerGotoDxStoppedDisableInterrupt, wdfdevice/WdfDevStatePowerWakingConnectInterruptFailedNP, wdfdevice/WdfDevStatePowerInitialConnectInterruptFailed, wdfdevice/WdfDevStatePowerStartingCheckDeviceType, wdfdevice/WdfDevStatePowerGotoDxArmedForWake, wdfdevice/WdfDevStatePowerDxStoppedDecideDxState, wdfdevice/WdfDevStatePowerWaitForParentArmedForWakeNP, wdfdevice/WdfDevStatePowerFinal, WdfDevStatePowerWaitForParent, wdfdevice/WdfDevStatePowerDx, WdfDevStatePowerStartSelfManagedIoNP, wdfdevice/WdfDevStatePowerUpFailedPowerDown, wdfdevice/WdfDevStatePowerUpFailedDerefParent, WdfDevStatePowerGotoDxIoStoppedArmedForWake, wdfdevice/WdfDevStatePowerUpFailedNP, wdfdevice/WdfDevStatePowerDxStoppedDisarmWakeNP, WdfDevStatePowerD0StartingConnectInterrupt, WdfDevStatePowerWakePendingNP, WdfDevStatePowerGotoDx, _WDF_DEVICE_POWER_STATE, wdfdevice/WdfDevStatePowerEnablingWakeAtBusNP, wdfdevice/WdfDevStatePowerUpFailedPowerDownNP, WdfDevStatePowerNotifyingD0EntryToWakeInterrupts, wdfdevice/WdfDevStatePowerWakingDmaEnableNP, WDF_DEVICE_POWER_STATE enumeration, wdfdevice/WdfDevStatePowerStoppedCompleteDx, wdfdevice/WdfDevStatePowerGotoImplicitD3DisarmWakeAtBus, WdfDevStatePowerGotoDxArmedForWakeNP, WdfDevStatePowerD0NP, wdfdevice/WdfDevStatePowerGotoDxIoStoppedNP, WdfDevStatePowerDxStoppedDisarmWakeNP, WdfDevStatePowerD0ArmedForWake, wdfdevice/WdfDevStatePowerCheckParentStateArmedForWakeNP, WdfDevStatePowerGotoImplicitD3DisarmWakeAtBus, wdfdevice/WdfDevStatePowerD0, wdfdevice/WDF_DEVICE_POWER_STATE, WdfDevStatePowerD0, WdfDevStatePowerD0BusWakeOwnerNP, WdfDevStatePowerGotoDxIoStoppedArmedForWakeNP, WdfDevStatePowerStartingCheckDeviceType, WdfDevStatePowerDxDisablingWakeAtBusNP, WdfDevStatePowerD0DisarmingWakeAtBusNP, wdfdevice/WdfDevStatePowerD0DisarmingWakeAtBusNP, wdfdevice/WdfDevStatePowerCheckParentStateArmedForWake, wdfdevice/WdfDevStatePowerGotoDxNPFailed, WDF_DEVICE_POWER_STATE, wdfdevice/WdfDevStatePowerObjectCreated, wdfdevice/WdfDevStatePowerInitialPowerUpFailedDerefParent, WdfDevStatePowerReportPowerDownFailed, WdfDevStatePowerD0StartingDmaEnable, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailedStartedNP, wdfdevice/WdfDevStatePowerNotifyingD0ExitToWakeInterruptsNP, wdfdevice/WdfDevStatePowerNotifyingD0EntryToWakeInterruptsNP, wdfdevice/WdfDevStatePowerDxStoppedArmForWake, wdfdevice/WdfDevStatePowerInitialSelfManagedIoFailedStarted, WdfDevStatePowerUpFailedDerefParentNP, wdfdevice/WdfDevStatePowerFinalPowerDownFailed, WdfDevStatePowerCheckParentStateArmedForWakeNP, WdfDevStatePowerUpFailedPowerDownNP, wdfdevice/WdfDevStatePowerDxArmedForWakeNP, wdfdevice/WdfDevStatePowerWaitForParent, wdfdevice/WdfDevStatePowerInitialPowerUpFailedPowerDown, WdfDevStatePowerGotoDxIoStoppedNP, wdfdevice/WdfDevStatePowerPowerFailedPowerDown, wdfdevice/WdfDevStatePowerD0BusWakeOwner, wdfdevice/PWDF_DEVICE_POWER_STATE, WdfDevStatePowerGotoD3Stopped, WdfDevStatePowerUpFailed, wdfdevice/WdfDevStatePowerD0BusWakeOwnerNP, WdfDevStatePowerGotoDxStoppedDisableInterrupt, wdfdevice/WdfDevStatePowerCheckParentState, wdfdevice/WdfDevStatePowerD0Starting, WdfDevStatePowerDxNP, wdfdevice/WdfDevStatePowerWaitForParentArmedForWake, WdfDevStatePowerWakingDmaEnable, WdfDevStatePowerInitialPowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerWakingDmaEnableFailed, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailed, WdfDevStatePowerInitialConnectInterruptFailed, WdfDevStatePowerUpFailedNP, WdfDevStatePowerWakingConnectInterruptFailedNP, WdfDevStatePowerStartingChild, WdfDevStatePowerDxStoppedDisarmWake, WdfDevStatePowerStartSelfManagedIoFailedNP, wdfdevice/WdfDevStatePowerWakePending, WdfDevStatePowerInitialDmaEnableFailed, wdfdevice/WdfDevStatePowerGotoDxArmedForWakeNP, wdfdevice/WdfDevStatePowerCheckParentStateNP, WdfDevStatePowerStopped, WdfDevStatePowerCheckParentStateNP, wdfdevice/WdfDevStatePowerStopped, WdfDevStatePowerWakingDmaEnableFailed, wdfdevice/WdfDevStatePowerReportPowerUpFailed, WdfDevStatePowerWakingConnectInterrupt, WdfDevStatePowerUpFailedPowerDown, wdfdevice/WdfDevStatePowerStartSelfManagedIo, WdfDevStatePowerGotoDxFailed, WdfDevStatePowerPowerFailedPowerDown, WdfDevStatePowerStoppedCompleteDx, WdfDevStatePowerCheckDeviceType, WdfDevStatePowerNotifyingD0ExitToWakeInterruptsNP, wdfdevice/WdfDevStatePowerStartSelfManagedIoNP, WdfDevStatePowerNotifyingD0ExitToWakeInterrupts, WdfDevStatePowerObjectCreated, WdfDevStatePowerWakingDmaEnableNP, WdfDevStatePowerD0StartingStartSelfManagedIo, WdfDevStatePowerStartSelfManagedIo, WdfDevStatePowerDxArmedForWakeNP, WdfDevStatePowerReportPowerUpFailed, wdfdevice/WdfDevStatePowerD0StartingConnectInterrupt, WdfDevStatePowerInitialPowerUpFailedPowerDown, WdfDevStatePowerInvalid, WdfDevStatePowerNotifyingD0EntryToWakeInterruptsNP, WdfDevStatePowerWakingConnectInterruptFailed, wdf.wdf_device_power_state, WdfDevStatePowerGotoDxNP, wdfdevice/WdfDevStatePowerWakingDmaEnable, WdfDevStatePowerGotoDxIoStopped, WdfDevStatePowerGotoDxStopped, WdfDevStatePowerNull, WdfDevStatePowerD0Starting, PWDF_DEVICE_POWER_STATE enumeration pointer, WdfDevStatePowerWaitForParentArmedForWakeNP, WdfDevStatePowerD0BusWakeOwner, WdfDevStatePowerWakePending, wdfdevice/WdfDevStatePowerWakingNP, wdfdevice/WdfDevStatePowerDxStopped, wdfdevice/WdfDevStatePowerCheckDeviceType, wdfdevice/WdfDevStatePowerGotoDx, WdfDevStatePowerGotoDxNPFailed, wdfdevice/WdfDevStatePowerDxArmedForWake, WdfDevStatePowerFinal, WdfDevStatePowerGotoStopped, WdfDevStatePowerWaitForParentArmedForWake, WdfDevStatePowerCheckDeviceTypeNP, wdfdevice/WdfDevStatePowerDxStoppedDisarmWake, wdfdevice/WdfDevStatePowerReportPowerDownFailed, wdfdevice/WdfDevStatePowerDxDisablingWakeAtBusNP, WdfDevStatePowerEnablingWakeAtBusNP, wdfdevice/WdfDevStatePowerGotoDxStoppedDisableInterruptNP, WdfDevStatePowerDxDisablingWakeAtBus, WdfDevStatePowerDxStoppedDecideDxState, wdfdevice/WdfDevStatePowerD0NP, wdfdevice/WdfDevStatePowerGotoDxFailed, wdfdevice/WdfDevStatePowerDecideD0State, wdfdevice/WdfDevStatePowerDxDisablingWakeAtBus, wdfdevice/WdfDevStatePowerWakingConnectInterrupt, WdfDevStatePowerCheckParentStateArmedForWake, WdfDevStatePowerDecideD0State, kmdf.wdf_device_power_state, WdfDevStatePowerCheckParentState, WdfDevStatePowerFinalPowerDownFailed, DFDeviceObjectGeneralRef_f8548618-261b-4461-adfa-eeee324e67c2.xml, WdfDevStatePowerReportPowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerNull, WdfDevStatePowerInitialSelfManagedIoFailedStarted, wdfdevice/WdfDevStatePowerInitialPowerUpFailed, wdfdevice/WdfDevStatePowerD0StartingStartSelfManagedIo, WdfDevStatePowerStartSelfManagedIoFailed, WdfDevStatePowerWakingNP, wdfdevice/WdfDevStatePowerInitialDmaEnableFailed, wdfdevice/WdfDevStatePowerD0ArmedForWakeNP, wdfdevice/WdfDevStatePowerInvalid, wdfdevice/WdfDevStatePowerEnablingWakeAtBus, wdfdevice/WdfDevStatePowerUpFailedDerefParentNP, wdfdevice/WdfDevStatePowerGotoDxIoStoppedArmedForWakeNP, WdfDevStatePowerDxStoppedArmForWake, WdfDevStatePowerDx, PWDF_DEVICE_POWER_STATE, WdfDevStatePowerInitialSelfManagedIoFailed, wdfdevice/WdfDevStatePowerWaking, WdfDevStatePowerDxArmedForWake, wdfdevice/WdfDevStatePowerNotifyingD0ExitToWakeInterrupts, wdfdevice/WdfDevStatePowerGotoDxNP, wdfdevice/WdfDevStatePowerWakingConnectInterruptFailed, WdfDevStatePowerGotoDxStoppedDisableInterruptNP, WdfDevStatePowerD0DisarmingWakeAtBus, wdfdevice/WdfDevStatePowerReportPowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerWakingConnectInterruptNP, WdfDevStatePowerWakingDmaEnableFailedNP, wdfdevice/WdfDevStatePowerUpFailed, WdfDevStatePowerGotoDxArmedForWake, wdfdevice/WdfDevStatePowerWaitForParentNP, WdfDevStatePowerWakingConnectInterruptNP, WdfDevStatePowerInitialPowerUpFailed, WdfDevStatePowerDxStoppedArmForWakeNP, WdfDevStatePowerDxStopped, wdfdevice/WdfDevStatePowerGotoD3Stopped, wdfdevice/WdfDevStatePowerGotoDxIoStoppedArmedForWake, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailedNP, WdfDevStatePowerEnablingWakeAtBus, wdfdevice/WdfDevStatePowerInitialSelfManagedIoFailed, *PWDF_DEVICE_POWER_STATE, WdfDevStatePowerD0ArmedForWakeNP, wdfdevice/WdfDevStatePowerGotoDxStopped, wdfdevice/WdfDevStatePowerCheckDeviceTypeNP, WdfDevStatePowerWaitForParentNP, wdfdevice/WdfDevStatePowerDxStoppedArmForWakeNP, wdfdevice/WdfDevStatePowerWakingDmaEnableFailedNP, wdfdevice/WdfDevStatePowerD0ArmedForWake, WdfDevStatePowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerD0DisarmingWakeAtBus, wdfdevice/WdfDevStatePowerGotoDxIoStopped, wdfdevice/WdfDevStatePowerD0StartingDmaEnable, wdfdevice/WdfDevStatePowerGotoStopped, wdfdevice/WdfDevStatePowerNotifyingD0EntryToWakeInterrupts, WdfDevStatePowerStartSelfManagedIoFailedStartedNP, WdfDevStatePowerWaking
+ms.keywords: wdfdevice/WdfDevStatePowerWakingConnectInterrupt, WdfDevStatePowerWakingConnectInterruptFailed, WdfDevStatePowerCheckDeviceType, wdfdevice/WdfDevStatePowerGotoDxIoStoppedNP, wdfdevice/WdfDevStatePowerNotifyingD0EntryToWakeInterrupts, WdfDevStatePowerWakingDmaEnable, WdfDevStatePowerWakingDmaEnableFailedNP, WdfDevStatePowerWakingConnectInterruptNP, wdfdevice/WdfDevStatePowerUpFailedPowerDownNP, WdfDevStatePowerDx, wdfdevice/WdfDevStatePowerWakingConnectInterruptFailed, wdfdevice/WdfDevStatePowerDxStoppedArmForWakeNP, wdfdevice/WdfDevStatePowerNotifyingD0EntryToWakeInterruptsNP, WdfDevStatePowerNotifyingD0ExitToWakeInterrupts, kmdf.wdf_device_power_state, wdfdevice/WdfDevStatePowerGotoDxNPFailed, wdfdevice/WdfDevStatePowerD0NP, wdfdevice/WdfDevStatePowerCheckParentStateNP, wdfdevice/WdfDevStatePowerUpFailedNP, wdfdevice/WdfDevStatePowerWaitForParent, WdfDevStatePowerGotoDxStoppedDisableInterrupt, wdfdevice/WdfDevStatePowerWakePending, WdfDevStatePowerDxStoppedDisarmWakeNP, wdfdevice/WdfDevStatePowerUpFailedDerefParentNP, WdfDevStatePowerNotifyingD0EntryToWakeInterruptsNP, WdfDevStatePowerD0BusWakeOwnerNP, WdfDevStatePowerObjectCreated, WdfDevStatePowerWakingDmaEnableNP, WdfDevStatePowerWakingDmaEnableFailed, wdfdevice/WdfDevStatePowerWakingNP, WDF_DEVICE_POWER_STATE, WdfDevStatePowerStoppedCompleteDx, WdfDevStatePowerWakePendingNP, wdfdevice/WdfDevStatePowerD0DisarmingWakeAtBus, wdfdevice/WdfDevStatePowerD0BusWakeOwner, WdfDevStatePowerStartSelfManagedIoFailedStartedNP, wdfdevice/WdfDevStatePowerD0DisarmingWakeAtBusNP, WdfDevStatePowerDxStopped, WdfDevStatePowerStopped, wdfdevice/PWDF_DEVICE_POWER_STATE, WdfDevStatePowerD0Starting, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailedNP, wdfdevice/WdfDevStatePowerStartSelfManagedIoNP, WdfDevStatePowerWakingConnectInterrupt, wdfdevice/WdfDevStatePowerGotoStopped, wdfdevice/WdfDevStatePowerPowerFailedPowerDown, WdfDevStatePowerInitialSelfManagedIoFailedStarted, wdfdevice/WdfDevStatePowerDx, WdfDevStatePowerWakingNP, WdfDevStatePowerNotifyingD0EntryToWakeInterrupts, WdfDevStatePowerGotoDx, WdfDevStatePowerD0BusWakeOwner, wdfdevice/WdfDevStatePowerReportPowerDownFailed, wdfdevice/WdfDevStatePowerInitialDmaEnableFailed, WdfDevStatePowerGotoDxIoStoppedNP, WdfDevStatePowerGotoDxNP, WdfDevStatePowerCheckDeviceTypeNP, wdfdevice/WdfDevStatePowerInitialPowerUpFailedPowerDown, WdfDevStatePowerGotoDxArmedForWake, WdfDevStatePowerFinalPowerDownFailed, WdfDevStatePowerNull, wdfdevice/WdfDevStatePowerInvalid, wdfdevice/WdfDevStatePowerDxStoppedDisarmWake, WdfDevStatePowerPowerFailedPowerDown, _WDF_DEVICE_POWER_STATE, wdfdevice/WdfDevStatePowerCheckParentStateArmedForWakeNP, wdfdevice/WdfDevStatePowerDxStoppedDisarmWakeNP, wdfdevice/WdfDevStatePowerEnablingWakeAtBus, WdfDevStatePowerWaitForParent, wdfdevice/WdfDevStatePowerGotoDxNP, WdfDevStatePowerWaitForParentArmedForWakeNP, wdfdevice/WdfDevStatePowerDxArmedForWake, wdfdevice/WdfDevStatePowerCheckParentState, WdfDevStatePowerStartSelfManagedIoFailed, wdfdevice/WdfDevStatePowerGotoD3Stopped, WdfDevStatePowerNotifyingD0ExitToWakeInterruptsNP, wdfdevice/WdfDevStatePowerInitialSelfManagedIoFailedStarted, WdfDevStatePowerStartSelfManagedIoNP, WdfDevStatePowerD0StartingDmaEnable, WdfDevStatePowerGotoDxIoStoppedArmedForWake, wdfdevice/WdfDevStatePowerD0, wdfdevice/WdfDevStatePowerWakingDmaEnableFailed, wdfdevice/WdfDevStatePowerGotoDxStopped, WdfDevStatePowerUpFailedDerefParentNP, WdfDevStatePowerDxStoppedArmForWake, WdfDevStatePowerWaking, WdfDevStatePowerFinal, WdfDevStatePowerGotoImplicitD3DisarmWakeAtBus, wdfdevice/WdfDevStatePowerReportPowerUpFailed, wdfdevice/WdfDevStatePowerStartSelfManagedIo, wdfdevice/WdfDevStatePowerD0StartingConnectInterrupt, wdfdevice/WdfDevStatePowerD0StartingStartSelfManagedIo, wdfdevice/WdfDevStatePowerD0StartingDmaEnable, wdfdevice/WdfDevStatePowerFinalPowerDownFailed, wdfdevice/WdfDevStatePowerGotoDxArmedForWake, WdfDevStatePowerDxDisablingWakeAtBus, WdfDevStatePowerD0NP, WdfDevStatePowerDxNP, WdfDevStatePowerGotoStopped, wdfdevice/WdfDevStatePowerStoppedCompleteDx, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailedStartedNP, wdfdevice/WdfDevStatePowerGotoDx, wdfdevice/WdfDevStatePowerGotoDxStoppedDisableInterrupt, wdfdevice/WdfDevStatePowerCheckParentStateArmedForWake, WdfDevStatePowerStartingCheckDeviceType, wdfdevice/WdfDevStatePowerGotoDxStoppedDisableInterruptNP, WdfDevStatePowerD0DisarmingWakeAtBus, WdfDevStatePowerCheckParentStateArmedForWakeNP, WdfDevStatePowerInitialSelfManagedIoFailed, WdfDevStatePowerInitialDmaEnableFailed, WdfDevStatePowerGotoDxIoStopped, wdfdevice/WdfDevStatePowerWaking, wdfdevice/WdfDevStatePowerDxDisablingWakeAtBus, wdfdevice/WdfDevStatePowerWakePendingNP, WdfDevStatePowerEnablingWakeAtBusNP, WdfDevStatePowerD0ArmedForWakeNP, WdfDevStatePowerInvalid, WdfDevStatePowerCheckParentState, WdfDevStatePowerInitialPowerUpFailed, wdfdevice/WdfDevStatePowerFinal, WdfDevStatePowerDxStoppedDisarmWake, WdfDevStatePowerInitialPowerUpFailedPowerDown, WdfDevStatePowerUpFailedDerefParent, WdfDevStatePowerUpFailedPowerDownNP, WdfDevStatePowerGotoDxStoppedDisableInterruptNP, wdfdevice/WdfDevStatePowerEnablingWakeAtBusNP, WdfDevStatePowerWakePending, WdfDevStatePowerDxDisablingWakeAtBusNP, WdfDevStatePowerGotoDxStopped, wdfdevice/WdfDevStatePowerObjectCreated, WdfDevStatePowerD0, wdfdevice/WdfDevStatePowerWaitForParentArmedForWakeNP, WdfDevStatePowerGotoDxFailed, wdfdevice/WdfDevStatePowerGotoDxIoStoppedArmedForWake, WdfDevStatePowerD0DisarmingWakeAtBusNP, wdfdevice/WdfDevStatePowerInitialConnectInterruptFailed, PWDF_DEVICE_POWER_STATE, wdfdevice/WdfDevStatePowerUpFailed, WdfDevStatePowerReportPowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerDxDisablingWakeAtBusNP, wdfdevice/WdfDevStatePowerInitialPowerUpFailed, WdfDevStatePowerGotoDxIoStoppedArmedForWakeNP, wdfdevice/WdfDevStatePowerWakingDmaEnableFailedNP, wdf.wdf_device_power_state, WdfDevStatePowerStartSelfManagedIoFailedNP, WdfDevStatePowerUpFailed, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailedStarted, DFDeviceObjectGeneralRef_f8548618-261b-4461-adfa-eeee324e67c2.xml, WdfDevStatePowerD0ArmedForWake, wdfdevice/WdfDevStatePowerNull, wdfdevice/WdfDevStatePowerWakingConnectInterruptNP, PWDF_DEVICE_POWER_STATE enumeration pointer, *PWDF_DEVICE_POWER_STATE, wdfdevice/WdfDevStatePowerStartSelfManagedIoFailed, wdfdevice/WdfDevStatePowerDxArmedForWakeNP, WdfDevStatePowerInitialPowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerGotoDxArmedForWakeNP, wdfdevice/WdfDevStatePowerWakingConnectInterruptFailedNP, wdfdevice/WdfDevStatePowerD0Starting, wdfdevice/WdfDevStatePowerDecideD0State, WdfDevStatePowerCheckParentStateNP, wdfdevice/WdfDevStatePowerWaitForParentNP, WdfDevStatePowerInitialConnectInterruptFailed, WdfDevStatePowerWaitForParentArmedForWake, wdfdevice/WdfDevStatePowerInitialSelfManagedIoFailed, WdfDevStatePowerUpFailedNP, WdfDevStatePowerWakingConnectInterruptFailedNP, wdfdevice/WdfDevStatePowerD0BusWakeOwnerNP, wdfdevice/WdfDevStatePowerUpFailedDerefParent, WdfDevStatePowerD0StartingStartSelfManagedIo, wdfdevice/WdfDevStatePowerGotoDxFailed, wdfdevice/WdfDevStatePowerNotifyingD0ExitToWakeInterruptsNP, wdfdevice/WdfDevStatePowerDxNP, WdfDevStatePowerUpFailedPowerDown, WdfDevStatePowerStartSelfManagedIoFailedStarted, WdfDevStatePowerStartingChild, WdfDevStatePowerWaitForParentNP, wdfdevice/WdfDevStatePowerReportPowerUpFailedDerefParent, wdfdevice/WdfDevStatePowerCheckDeviceTypeNP, WdfDevStatePowerReportPowerDownFailed, WdfDevStatePowerReportPowerUpFailed, WdfDevStatePowerDxStoppedDecideDxState, WdfDevStatePowerGotoDxNPFailed, WdfDevStatePowerD0StartingConnectInterrupt, WdfDevStatePowerGotoDxArmedForWakeNP, wdfdevice/WdfDevStatePowerDxStoppedDecideDxState, wdfdevice/WDF_DEVICE_POWER_STATE, WdfDevStatePowerDxArmedForWake, wdfdevice/WdfDevStatePowerWaitForParentArmedForWake, wdfdevice/WdfDevStatePowerDxStoppedArmForWake, wdfdevice/WdfDevStatePowerWakingDmaEnableNP, WdfDevStatePowerCheckParentStateArmedForWake, WdfDevStatePowerEnablingWakeAtBus, wdfdevice/WdfDevStatePowerStartingChild, wdfdevice/WdfDevStatePowerGotoDxIoStoppedArmedForWakeNP, WdfDevStatePowerDecideD0State, wdfdevice/WdfDevStatePowerDxStopped, wdfdevice/WdfDevStatePowerNotifyingD0ExitToWakeInterrupts, wdfdevice/WdfDevStatePowerD0ArmedForWakeNP, wdfdevice/WdfDevStatePowerD0ArmedForWake, WdfDevStatePowerDxArmedForWakeNP, WDF_DEVICE_POWER_STATE enumeration, WdfDevStatePowerGotoD3Stopped, wdfdevice/WdfDevStatePowerStartingCheckDeviceType, wdfdevice/WdfDevStatePowerUpFailedPowerDown, wdfdevice/WdfDevStatePowerCheckDeviceType, wdfdevice/WdfDevStatePowerInitialPowerUpFailedDerefParent, WdfDevStatePowerStartSelfManagedIo, wdfdevice/WdfDevStatePowerStopped, wdfdevice/WdfDevStatePowerWakingDmaEnable, WdfDevStatePowerDxStoppedArmForWakeNP, wdfdevice/WdfDevStatePowerGotoImplicitD3DisarmWakeAtBus, wdfdevice/WdfDevStatePowerGotoDxIoStopped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_POWER_STATE, *PWDF_DEVICE_POWER_STATE
+req.typenames: "*PWDF_DEVICE_POWER_STATE, WDF_DEVICE_POWER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -173,410 +173,311 @@ typedef enum _WDF_DEVICE_POWER_STATE {
 ### -field WdfDevStatePowerInvalid
 
 
-
 ### -field WdfDevStatePowerObjectCreated
-
 
 
 ### -field WdfDevStatePowerCheckDeviceType
 
 
-
 ### -field WdfDevStatePowerCheckDeviceTypeNP
-
 
 
 ### -field WdfDevStatePowerCheckParentState
 
 
-
 ### -field WdfDevStatePowerCheckParentStateNP
-
 
 
 ### -field WdfDevStatePowerEnablingWakeAtBus
 
 
-
 ### -field WdfDevStatePowerEnablingWakeAtBusNP
-
 
 
 ### -field WdfDevStatePowerD0
 
 
-
 ### -field WdfDevStatePowerD0NP
-
 
 
 ### -field WdfDevStatePowerD0BusWakeOwner
 
 
-
 ### -field WdfDevStatePowerD0BusWakeOwnerNP
-
 
 
 ### -field WdfDevStatePowerD0ArmedForWake
 
 
-
 ### -field WdfDevStatePowerD0ArmedForWakeNP
-
 
 
 ### -field WdfDevStatePowerD0DisarmingWakeAtBus
 
 
-
 ### -field WdfDevStatePowerD0DisarmingWakeAtBusNP
-
 
 
 ### -field WdfDevStatePowerD0Starting
 
 
-
 ### -field WdfDevStatePowerD0StartingConnectInterrupt
-
 
 
 ### -field WdfDevStatePowerD0StartingDmaEnable
 
 
-
 ### -field WdfDevStatePowerD0StartingStartSelfManagedIo
-
 
 
 ### -field WdfDevStatePowerDecideD0State
 
 
-
 ### -field WdfDevStatePowerGotoD3Stopped
-
 
 
 ### -field WdfDevStatePowerStopped
 
 
-
 ### -field WdfDevStatePowerStartingCheckDeviceType
-
 
 
 ### -field WdfDevStatePowerStartingChild
 
 
-
 ### -field WdfDevStatePowerDxDisablingWakeAtBus
-
 
 
 ### -field WdfDevStatePowerDxDisablingWakeAtBusNP
 
 
-
 ### -field WdfDevStatePowerGotoDx
-
 
 
 ### -field WdfDevStatePowerGotoDxNP
 
 
-
 ### -field WdfDevStatePowerGotoDxIoStopped
-
 
 
 ### -field WdfDevStatePowerGotoDxIoStoppedNP
 
 
-
 ### -field WdfDevStatePowerGotoDxNPFailed
-
 
 
 ### -field WdfDevStatePowerDx
 
 
-
 ### -field WdfDevStatePowerDxNP
-
 
 
 ### -field WdfDevStatePowerGotoDxArmedForWake
 
 
-
 ### -field WdfDevStatePowerGotoDxArmedForWakeNP
-
 
 
 ### -field WdfDevStatePowerGotoDxIoStoppedArmedForWake
 
 
-
 ### -field WdfDevStatePowerGotoDxIoStoppedArmedForWakeNP
-
 
 
 ### -field WdfDevStatePowerDxArmedForWake
 
 
-
 ### -field WdfDevStatePowerDxArmedForWakeNP
-
 
 
 ### -field WdfDevStatePowerCheckParentStateArmedForWake
 
 
-
 ### -field WdfDevStatePowerCheckParentStateArmedForWakeNP
-
 
 
 ### -field WdfDevStatePowerWaitForParentArmedForWake
 
 
-
 ### -field WdfDevStatePowerWaitForParentArmedForWakeNP
-
 
 
 ### -field WdfDevStatePowerStartSelfManagedIo
 
 
-
 ### -field WdfDevStatePowerStartSelfManagedIoNP
-
 
 
 ### -field WdfDevStatePowerStartSelfManagedIoFailed
 
 
-
 ### -field WdfDevStatePowerStartSelfManagedIoFailedNP
-
 
 
 ### -field WdfDevStatePowerWaitForParent
 
 
-
 ### -field WdfDevStatePowerWaitForParentNP
-
 
 
 ### -field WdfDevStatePowerWakePending
 
 
-
 ### -field WdfDevStatePowerWakePendingNP
-
 
 
 ### -field WdfDevStatePowerWaking
 
 
-
 ### -field WdfDevStatePowerWakingNP
-
 
 
 ### -field WdfDevStatePowerWakingConnectInterrupt
 
 
-
 ### -field WdfDevStatePowerWakingConnectInterruptNP
-
 
 
 ### -field WdfDevStatePowerWakingConnectInterruptFailed
 
 
-
 ### -field WdfDevStatePowerWakingConnectInterruptFailedNP
-
 
 
 ### -field WdfDevStatePowerWakingDmaEnable
 
 
-
 ### -field WdfDevStatePowerWakingDmaEnableNP
-
 
 
 ### -field WdfDevStatePowerWakingDmaEnableFailed
 
 
-
 ### -field WdfDevStatePowerWakingDmaEnableFailedNP
-
 
 
 ### -field WdfDevStatePowerReportPowerUpFailedDerefParent
 
 
-
 ### -field WdfDevStatePowerReportPowerUpFailed
-
 
 
 ### -field WdfDevStatePowerPowerFailedPowerDown
 
 
-
 ### -field WdfDevStatePowerReportPowerDownFailed
-
 
 
 ### -field WdfDevStatePowerInitialConnectInterruptFailed
 
 
-
 ### -field WdfDevStatePowerInitialDmaEnableFailed
-
 
 
 ### -field WdfDevStatePowerInitialSelfManagedIoFailed
 
 
-
 ### -field WdfDevStatePowerInitialPowerUpFailedDerefParent
-
 
 
 ### -field WdfDevStatePowerInitialPowerUpFailed
 
 
-
 ### -field WdfDevStatePowerDxStoppedDisarmWake
-
 
 
 ### -field WdfDevStatePowerDxStoppedDisarmWakeNP
 
 
-
 ### -field WdfDevStatePowerGotoDxStoppedDisableInterruptNP
-
 
 
 ### -field WdfDevStatePowerGotoDxStopped
 
 
-
 ### -field WdfDevStatePowerDxStopped
-
 
 
 ### -field WdfDevStatePowerGotoStopped
 
 
-
 ### -field WdfDevStatePowerStoppedCompleteDx
-
 
 
 ### -field WdfDevStatePowerDxStoppedDecideDxState
 
 
-
 ### -field WdfDevStatePowerDxStoppedArmForWake
-
 
 
 ### -field WdfDevStatePowerDxStoppedArmForWakeNP
 
 
-
 ### -field WdfDevStatePowerFinalPowerDownFailed
-
 
 
 ### -field WdfDevStatePowerFinal
 
 
-
 ### -field WdfDevStatePowerGotoImplicitD3DisarmWakeAtBus
-
 
 
 ### -field WdfDevStatePowerUpFailed
 
 
-
 ### -field WdfDevStatePowerUpFailedDerefParent
-
 
 
 ### -field WdfDevStatePowerGotoDxFailed
 
 
-
 ### -field WdfDevStatePowerGotoDxStoppedDisableInterrupt
-
 
 
 ### -field WdfDevStatePowerUpFailedNP
 
 
-
 ### -field WdfDevStatePowerUpFailedDerefParentNP
-
 
 
 ### -field WdfDevStatePowerNotifyingD0ExitToWakeInterrupts
 
 
-
 ### -field WdfDevStatePowerNotifyingD0EntryToWakeInterrupts
-
 
 
 ### -field WdfDevStatePowerNotifyingD0ExitToWakeInterruptsNP
 
 
-
 ### -field WdfDevStatePowerNotifyingD0EntryToWakeInterruptsNP
-
 
 
 ### -field WdfDevStatePowerInitialPowerUpFailedPowerDown
 
 
-
 ### -field WdfDevStatePowerUpFailedPowerDown
-
 
 
 ### -field WdfDevStatePowerUpFailedPowerDownNP
 
 
-
 ### -field WdfDevStatePowerInitialSelfManagedIoFailedStarted
-
 
 
 ### -field WdfDevStatePowerStartSelfManagedIoFailedStarted
 
 
-
 ### -field WdfDevStatePowerStartSelfManagedIoFailedStartedNP
-
 
 
 ### -field WdfDevStatePowerNull
 
 
-
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_POWER_STATE</b> enumeration is used as a member type in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a> structure and as the return type for the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md">WdfDeviceGetDevicePowerState</a> method.
+
 
 

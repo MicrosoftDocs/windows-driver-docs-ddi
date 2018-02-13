@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BC338FB-7C76-49D3-96E5-0F20C4A250CE
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, storage.storage_diagnostic_target_type, ntddstor/StorageDiagnosticTargetTypeMiniport, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], ntddstor/StorageDiagnosticTargetTypeHbaFirmware, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], StorageDiagnosticTargetTypeUndefined, ntddstor/StorageDiagnosticTargetTypeUndefined, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, _STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMiniport, ntddstor/StorageDiagnosticTargetTypePort, STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypePort
+ms.keywords: ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypeHbaFirmware, storage.storage_diagnostic_target_type, STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMax, ntddstor/StorageDiagnosticTargetTypePort, PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], ntddstor/StorageDiagnosticTargetTypeMiniport, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], ntddstor/StorageDiagnosticTargetTypeHbaFirmware, ntddstor/StorageDiagnosticTargetTypeMax, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, _STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeUndefined, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeUndefined, StorageDiagnosticTargetTypePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DIAGNOSTIC_TARGET_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE"
+req.typenames: STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
 # _STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration

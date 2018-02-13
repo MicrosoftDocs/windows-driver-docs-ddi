@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eed57341-0b1a-4697-b05d-680bc17da796
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscmopenaddressfamilycomplete, NdisCmOpenAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0b6dfac0-905d-48a8-b547-85bfe047e8f1.xml, NdisCmOpenAddressFamilyComplete, ndis/NdisCmOpenAddressFamilyComplete
+ms.keywords: NdisCmOpenAddressFamilyComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscmopenaddressfamilycomplete, condis_call_manager_ref_0b6dfac0-905d-48a8-b547-85bfe047e8f1.xml, ndis/NdisCmOpenAddressFamilyComplete, NdisCmOpenAddressFamilyComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmOpenAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmOpenAddressFamilyComplete function
@@ -97,11 +97,14 @@ Specifies the handle to a caller-allocated resident context area in which the ca
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A stand-alone call manager must call 
@@ -141,19 +144,30 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismcmopenaddressfamilycomplete.md">
    NdisMCmOpenAddressFamilyComplete</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
    NdisAllocateFromNPagedLookasideList</a>
+
+
 
  
 

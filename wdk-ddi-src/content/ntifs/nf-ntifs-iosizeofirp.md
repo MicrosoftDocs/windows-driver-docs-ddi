@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7a6f903-a986-464a-9c9c-12d44f9abf6a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7c08c9ff-7731-462e-acb8-3793f85a84c2.xml, IoSizeOfIrp, IoSizeOfIrp routine [Kernel-Mode Driver Architecture], kernel.iosizeofirp, wdm/IoSizeOfIrp
+ms.keywords: kernel.iosizeofirp, IoSizeOfIrp routine [Kernel-Mode Driver Architecture], k104_7c08c9ff-7731-462e-acb8-3793f85a84c2.xml, wdm/IoSizeOfIrp, IoSizeOfIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -75,15 +75,21 @@ Specifies the number of stack locations for the IRP.
 ## -remarks
 
 
+
 The input <i>StackSize</i> value is either that of the next-lower driver's device object or one more than that value.
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0df0fcba-9ae8-4c69-957a-5685ea40c378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture], k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, KeInitializeDeviceQueue, kernel.keinitializedevicequeue, wdm/KeInitializeDeviceQueue
+ms.keywords: KeInitializeDeviceQueue, k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture], wdm/KeInitializeDeviceQueue, kernel.keinitializedevicequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to a device queue object for which the caller provides the storage.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>KeInitializeDeviceQueue</b> initializes the specified device queue and sets its state to not-busy.
@@ -89,15 +92,24 @@ A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> ro
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
+
+
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
+
+
 <a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
+
+
 
  
 

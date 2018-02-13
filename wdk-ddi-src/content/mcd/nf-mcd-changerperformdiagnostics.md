@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changerperformdiagnostics, mcd/ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], ChangerPerformDiagnostics, chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml
+ms.keywords: chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, storage.changerperformdiagnostics, ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,12 +79,14 @@ TBD
 
 
 
+
 #### - ChangerDeviceError [out]
 
 Pointer to the buffer of type <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a> in which the minidriver returns the diagnostic information.
 
 
 ## -returns
+
 
 
 <b>ChangerPerformDiagnostics</b> returns the status returned by the system port driver or one of the following values:
@@ -98,18 +100,25 @@ STATUS_BUFFER_TOO_SMALL
 
 
 
+
 ## -remarks
+
 
 
 <b>ChangerPerformDiagnostics</b> routine performs diagnostic tests on the changer device, and reports the problem to the caller. The kind of tests performed depends on the diagnostics support provided by the device. 
 
 
 
+
 ## -see-also
+
+<a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
+
+
 
 <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
 
-<a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
+
 
  
 

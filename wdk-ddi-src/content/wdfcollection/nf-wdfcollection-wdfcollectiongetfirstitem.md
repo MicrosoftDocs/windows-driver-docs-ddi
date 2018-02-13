@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4884de4d-6e5f-4c9f-bd49-2fc58481e9c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOLLECTIONGETFIRSTITEM, WdfCollectionGetFirstItem method, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, wdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem, kmdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem
+ms.keywords: wdfcollection/WdfCollectionGetFirstItem, wdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem method, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, kmdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem, PFN_WDFCOLLECTIONGETFIRSTITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfCollectionGetFirstItem
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -81,24 +81,53 @@ A handle to a collection object.
 ## -returns
 
 
+
 <b>WdfCollectionGetFirstItem</b> returns a handle to the object that is currently at the front of the specified collection's list of objects, or <b>NULL</b> if the list is empty.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
+#### Examples
+
+The following code example removes each item from a collection and deletes each item's object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>while ((subRequest = WdfCollectionGetFirstItem(hCollection)) != NULL) {
+    WdfCollectionRemoveItem(
+                            hCollection,
+                            0
+                            );
+    WdfObjectDelete(subRequest);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
+
+
+
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetitem.md">WdfCollectionGetItem</a>
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
+
 
  
 

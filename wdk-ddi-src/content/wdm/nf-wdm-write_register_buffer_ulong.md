@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dae9cc3d-b793-4f2a-99a6-1f77af396110
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WRITE_REGISTER_BUFFER_ULONG, kernel.write_register_buffer_ulong, WRITE_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_9ef495b2-fe86-484a-bec2-5390df6ee246.xml, wdm/WRITE_REGISTER_BUFFER_ULONG
+ms.keywords: WRITE_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], kernel.write_register_buffer_ulong, WRITE_REGISTER_BUFFER_ULONG, wdm/WRITE_REGISTER_BUFFER_ULONG, k103_9ef495b2-fe86-484a-bec2-5390df6ee246.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,15 +88,19 @@ Specifies the number of ULONG values to be written to the register.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of ULONG values.
 
 Callers of <b>WRITE_REGISTER_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
+
 
 

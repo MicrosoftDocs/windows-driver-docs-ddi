@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bc5f98da-1e2e-421b-9c76-97359e51b526
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddvdeo/PVIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], _VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, *PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES, Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, PVIDEO_POINTER_CAPABILITIES
+ms.keywords: ntddvdeo/VIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, _VIDEO_POINTER_CAPABILITIES, ntddvdeo/PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], *PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,6 +74,7 @@ typedef struct _VIDEO_POINTER_CAPABILITIES {
 ### -field Flags
 
 A set of flags that specify certain capabilities of the pointer. Flags can be a combination of the following values.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -129,7 +130,8 @@ The current pointer has the same hotspot as the previous pointer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MaxWidth

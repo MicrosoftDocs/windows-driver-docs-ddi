@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, AdjustImageableArea, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, IPrintOemUIMXDC::AdjustImageableArea, AdjustImageableArea method [Print Devices], print.iprintoemuimxdc_adjustimageablearea, IPrintOemUIMXDC
+ms.keywords: AdjustImageableArea method [Print Devices], IPrintOemUIMXDC::AdjustImageableArea, IPrintOemUIMXDC, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml, AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUIMXDC.AdjustImageableArea
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,11 +106,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 ## -returns
 
 
+
 <code>AdjustImageableArea</code> returns S_OK if this method succeeds. Otherwise, this method should return E_NOTIMPL if the plug-in does not support the method, or any appropriate failure value if the plug-in cannot complete the operation. For more information, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The <i>prclImageableArea</i> parameter is IN OUT. All other parameters for this method are input only.
@@ -119,9 +122,12 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+
+
 
  
 

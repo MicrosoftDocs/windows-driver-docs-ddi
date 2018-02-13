@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dvd_region, PDVD_REGION structure pointer [Storage Devices], structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml, DVD_REGION, DVD_REGION structure [Storage Devices], ntddcdvd/DVD_REGION, *PDVD_REGION, PDVD_REGION, _DVD_REGION, ntddcdvd/PDVD_REGION
+ms.keywords: PDVD_REGION, storage.dvd_region, _DVD_REGION, *PDVD_REGION, ntddcdvd/PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], DVD_REGION structure [Storage Devices], ntddcdvd/DVD_REGION, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml, DVD_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_REGION
 product: Windows
 targetos: Windows
-req.typenames: DVD_REGION, *PDVD_REGION
+req.typenames: "*PDVD_REGION, DVD_REGION"
 ---
 
 # _DVD_REGION structure
@@ -93,6 +93,8 @@ Indicates the remaining number of times the DVD device's region code can be chan
 ## -see-also
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_get_region.md">IOCTL_DVD_GET_REGION</a>
+
+
 
  
 

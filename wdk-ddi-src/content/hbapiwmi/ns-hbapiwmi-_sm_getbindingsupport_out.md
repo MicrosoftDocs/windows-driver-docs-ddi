@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4f45e2ad-19f9-4308-8d63-edf066545e07
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSM_GetBindingSupport_OUT structure pointer [Storage Devices], structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml, SM_GetBindingSupport_OUT structure [Storage Devices], _SM_GetBindingSupport_OUT, hbapiwmi/PSM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT, *PSM_GetBindingSupport_OUT, hbapiwmi/SM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT, storage.sm_getbindingsupport_out
+ms.keywords: "_SM_GetBindingSupport_OUT, storage.sm_getbindingsupport_out, PSM_GetBindingSupport_OUT, structs-Fibre_687416b3-60d9-494f-895b-a23fcb666994.xml, hbapiwmi/SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT structure [Storage Devices], *PSM_GetBindingSupport_OUT, PSM_GetBindingSupport_OUT structure pointer [Storage Devices], hbapiwmi/PSM_GetBindingSupport_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetBindingSupport_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_GetBindingSupport_OUT, *PSM_GetBindingSupport_OUT
+req.typenames: "*PSM_GetBindingSupport_OUT, SM_GetBindingSupport_OUT"
 ---
 
 # _SM_GetBindingSupport_OUT structure
@@ -81,6 +81,8 @@ The HBA_BIND_CAPABILITY binding capabilities.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetBindingSupport_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

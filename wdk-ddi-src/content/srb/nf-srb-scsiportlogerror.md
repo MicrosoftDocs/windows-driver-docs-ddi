@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportlogerror, ScsiPortLogError routine [Storage Devices], ScsiPortLogError, scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError
+ms.keywords: srb/ScsiPortLogError, storage.scsiportlogerror, scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, ScsiPortLogError routine [Storage Devices], ScsiPortLogError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,6 +103,7 @@ Identifies the logical unit number of the target device.
 ### -param ErrorCode [in]
 
 Specifies an error code indicating one of the following values as the type of error.
+
 <table>
 <tr>
 <th>Value</th>
@@ -208,7 +209,8 @@ Indicates that a target disconnected unexpectedly.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param UniqueId [in]
@@ -224,20 +226,26 @@ Pointer to a SCSI request block if one is associated with the error. Otherwise, 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A miniport driver should log all real hardware errors. However, it should not log common operational errors, such as selection time-outs or bus resets.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
 
  
 

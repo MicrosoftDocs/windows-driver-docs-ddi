@@ -100,14 +100,18 @@ The length of the buffer is the size of a ULONG.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,6 +122,7 @@ If the request is successful the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -133,14 +138,17 @@ The IOCTL completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 The Bluetooth stack sends IOCTL_BTHX_WRITE_HCI to write HCI ACL data and HCI command to the controller.
 
 The input buffer points to a BTHX_HCI_READ_WRITE_CONTEXT structure whose <b>DataLen</b> member specifies the number of bytes in the <b>Data</b> member. The <b>Type</b> member is set based on whether the packet is a command packet or an ACL data packet.
+
 
 

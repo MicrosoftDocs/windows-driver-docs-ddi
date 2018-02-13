@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b045732-a41f-47e7-9835-41e3ef54f14c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml, d3dhal/D3DHAL_CALLBACKS, _D3DHAL_CALLBACKS, d3dhal/LPD3DHAL_CALLBACKS, LPD3DHAL_CALLBACKS, LPD3DHAL_CALLBACKS structure pointer [Display Devices], display.d3dhal_callbacks, D3DHAL_CALLBACKS structure [Display Devices], *LPD3DHAL_CALLBACKS, D3DHAL_CALLBACKS
+ms.keywords: LPD3DHAL_CALLBACKS, D3DHAL_CALLBACKS structure [Display Devices], d3dhal/LPD3DHAL_CALLBACKS, *LPD3DHAL_CALLBACKS, LPD3DHAL_CALLBACKS structure pointer [Display Devices], d3dstrct_2dc02d2c-6ae9-4f2e-9cb3-470926980537.xml, _D3DHAL_CALLBACKS, D3DHAL_CALLBACKS, display.d3dhal_callbacks, d3dhal/D3DHAL_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -279,9 +279,11 @@ Must be zero.
 ## -remarks
 
 
+
 The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function returns a pointer to this structure in the <b>lpD3DHALCallbacks</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure.
 
 Texture management is now handled though opcodes that are managed in the driver's implementation of <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
+
 
 
 
@@ -289,15 +291,27 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks3.md">D3DHAL_CALLBACKS3</a>
 
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks3.md">D3DHAL_CALLBACKS3</a>
+
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>
+
+
 
  
 

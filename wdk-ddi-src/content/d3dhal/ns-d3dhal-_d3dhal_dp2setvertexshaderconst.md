@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3973564-8739-4bf7-b9f7-e5792018b98d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2SETVERTEXSHADERCONSTB, D3DHAL_DP2SETVERTEXSHADERCONSTI, *LPD3DHAL_DP2SETVERTEXSHADERCONST, d3dhal/LPD3DHAL_DP2SETVERTEXSHADERCONST, LPD3DHAL_DP2SETVERTEXSHADERCONST structure pointer [Display Devices], D3DHAL_DP2SETVERTEXSHADERCONST structure [Display Devices], d3dhal/D3DHAL_DP2SETVERTEXSHADERCONST, *LPD3DHAL_DP2SETVERTEXSHADERCONSTI, D3DHAL_DP2SETVERTEXSHADERCONSTB, display.d3dhal_dp2setvertexshaderconst, D3DHAL_DP2SETVERTEXSHADERCONST, _D3DHAL_DP2SETVERTEXSHADERCONST, LPD3DHAL_DP2SETVERTEXSHADERCONST, d3dstrct_5d02ceb6-1d80-4586-a256-ca56ca51a101.xml"
+ms.keywords: d3dhal/D3DHAL_DP2SETVERTEXSHADERCONST, d3dstrct_5d02ceb6-1d80-4586-a256-ca56ca51a101.xml, display.d3dhal_dp2setvertexshaderconst, _D3DHAL_DP2SETVERTEXSHADERCONST, *LPD3DHAL_DP2SETVERTEXSHADERCONSTB, d3dhal/LPD3DHAL_DP2SETVERTEXSHADERCONST, D3DHAL_DP2SETVERTEXSHADERCONST structure [Display Devices], *LPD3DHAL_DP2SETVERTEXSHADERCONST, *LPD3DHAL_DP2SETVERTEXSHADERCONSTI, D3DHAL_DP2SETVERTEXSHADERCONSTB, LPD3DHAL_DP2SETVERTEXSHADERCONST, D3DHAL_DP2SETVERTEXSHADERCONSTI, D3DHAL_DP2SETVERTEXSHADERCONST, LPD3DHAL_DP2SETVERTEXSHADERCONST structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,21 +85,31 @@ Specifies the number of constant registers to set and, therefore, the number of 
 ## -remarks
 
 
+
 A start register and register count are given. One or more vectors of four single precision floating-point values immediately follow the D3DHAL_DP2SETVERTEXSHADERCONST data structure in the DP2 stream.
 
 The runtime validates that the range of registers specified is legal given the level of vertex shader support reported to the driver. Furthermore, if the driver does not support any form of programmable vertex processing the runtime does not send this token to the driver.
 
 
 
+
 ## -see-also
 
-D3DDP2OP_SETVERTEXSHADERCONST
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
+
+
+D3DDP2OP_SETVERTEXSHADERCONST
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 00c82e73-5649-403b-9f07-81bdd2f6c756
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, SetTextReplacement method [Windows Debugging], IDebugControl3, SetTextReplacement, IDebugControl2::SetTextReplacement, debugger.settextreplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetTextReplacement, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, dbgeng/IDebugControl2::SetTextReplacement
+ms.keywords: SetTextReplacement method [Windows Debugging], IDebugControl3 interface, debugger.settextreplacement, SetTextReplacement, IDebugControl2, dbgeng/IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], dbgeng/IDebugControl3::SetTextReplacement, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, IDebugControl3, IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, IDebugControl3 interface [Windows Debugging], SetTextReplacement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,7 +82,9 @@ Specifies the value of the user-named alias.  The debugger engine makes a copy o
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -99,11 +101,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Before executing commands or evaluating expressions, the debugger engine will replace the alias specified by <i>SrcText</i> with the value of the alias (specified by <i>DstText</i>).
@@ -116,23 +121,40 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
-
-<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
+<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 1e6b922d-01a2-4a67-91cb-74956d40d769
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeAlternative function [Bluetooth Devices], bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, sdplib/SdpCreateNodeAlternative, bltooth.sdpcreatenodealternative, SdpCreateNodeAlternative
+ms.keywords: SdpCreateNodeAlternative function [Bluetooth Devices], sdplib/SdpCreateNodeAlternative, bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, bltooth.sdpcreatenodealternative, SdpCreateNodeAlternative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpCreateNodeAlternative
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: SD_TRANSFER_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ A profile driver defined tag to associate with the node.
 ## -returns
 
 
+
 If successful, this function returns a pointer to the newly allocated 
      <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure. If not successful, this
      function returns 
@@ -84,7 +85,9 @@ If successful, this function returns a pointer to the newly allocated
 
 
 
+
 ## -remarks
+
 
 
 After an alternative sequence node is created by calling the 
@@ -101,15 +104,24 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-## -see-also
 
-<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
+## -see-also
 
 <a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
 
+
+
+<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
+
+
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
+
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
 
  
 

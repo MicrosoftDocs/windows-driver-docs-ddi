@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kocreateinstance, KoCreateInstance function [Streaming Media Devices], KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, kcom/KoCreateInstance
+ms.keywords: ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, KoCreateInstance, stream.kocreateinstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KoCreateInstance
 product: Windows
 targetos: Windows
-req.typenames: "*PCONNECT_DATA, CONNECT_DATA"
+req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # KoCreateInstance function
@@ -102,6 +102,8 @@ Address of the pointer variable that receives the new interface pointer specifie
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the instance was successfully created. Otherwise, it returns an error.
+
 
 

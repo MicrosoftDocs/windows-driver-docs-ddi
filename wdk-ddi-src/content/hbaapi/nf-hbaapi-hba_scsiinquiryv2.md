@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba82c6f1-f310-4258-8867-8309845320cc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml, storage.hba_scsiinquiryv2, HBA_ScsiInquiryV2 routine [Storage Devices], hbaapi/HBA_ScsiInquiryV2, HBA_ScsiInquiryV2
+ms.keywords: HBA_ScsiInquiryV2 routine [Storage Devices], fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml, HBA_ScsiInquiryV2, storage.hba_scsiinquiryv2, hbaapi/HBA_ScsiInquiryV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,6 +100,7 @@ TBD
 ### -param CDB_Byte1 [in]
 
 Contains the value to insert in the first byte of the command descriptor block (CDB) of the SCSI inquiry command. This member must have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -135,12 +136,14 @@ Indicates that the SCSI inquiry command should request command support data (Cmd
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param CDB_Byte2 [in]
 
 Contains the value to insert in the third byte of the command descriptor block (CDB) of the SCSI inquiry command. This member must have one of the following values:
+
 <table>
 <tr>
 <th>Value in <i>CDB_Byte1</i></th>
@@ -166,7 +169,8 @@ Indicates that <i>CDB_Byte2 </i>contains the operation code of the command suppo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pRespBuffer [out]
@@ -207,7 +211,9 @@ Indicates the fibre channel logical unit number of the logical unit to which the
 ## -returns
 
 
+
 The <b>HBA_ScsiInquiryV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiInquiryV2</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -279,7 +285,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -287,7 +295,11 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

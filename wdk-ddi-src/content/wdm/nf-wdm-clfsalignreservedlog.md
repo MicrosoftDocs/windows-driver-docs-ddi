@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsAlignReservedLog, Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, kernel.clfsalignreservedlog, ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture]
+ms.keywords: Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, ClfsAlignReservedLog, wdm/ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], kernel.clfsalignreservedlog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,20 +95,26 @@ A pointer to a LONGLONG-typed variable that receives the size, in bytes, of the 
 ## -returns
 
 
+
 <b>ClfsAlignReservedLog</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h. 
+
 
 
 
 ## -remarks
 
 
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfsallocreservedlog.md">ClfsAllocReservedLog</a>
+
+
 
  
 

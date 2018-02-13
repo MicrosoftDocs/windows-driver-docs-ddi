@@ -77,6 +77,8 @@ Flushes information from a pin.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsQualityForwarder.
+
 
 

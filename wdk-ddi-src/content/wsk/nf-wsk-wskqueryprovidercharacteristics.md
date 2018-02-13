@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskQueryProviderCharacteristics, netvista.wskqueryprovidercharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, wsk/WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista]
+ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskQueryProviderCharacteristics
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -87,7 +87,9 @@ A pointer to the range of WSK NPI versions supported by the WSK subsystem.
 ## -returns
 
 
+
 <b>WskQueryProviderCharacteristics</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +128,14 @@ The query failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 WSK clients can use this function to determine the WSK NPI versions supported by the WSK
@@ -138,11 +143,16 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
 
 
+
 ## -see-also
+
+<a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
+
 
  
 

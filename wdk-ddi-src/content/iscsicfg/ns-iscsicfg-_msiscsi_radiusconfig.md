@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f8be86e-2729-4aa9-982d-df323f05cf1c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msiscsi_radiusconfig, iscsicfg/PMSiSCSI_RADIUSConfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, MSiSCSI_RADIUSConfig structure [Storage Devices], iscsicfg/MSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], PMSiSCSI_RADIUSConfig, _MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig
+ms.keywords: MSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], iscsicfg/MSiSCSI_RADIUSConfig, iscsicfg/PMSiSCSI_RADIUSConfig, storage.msiscsi_radiusconfig, *PMSiSCSI_RADIUSConfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, _MSiSCSI_RADIUSConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,7 @@ A variable-length array that contains a shared secret. The initiator uses this s
 ## -remarks
 
 
+
 Initiators use RADIUS servers to perform authentication during the challenge handshake of CHAP.
 
 The WMI tool suite automatically generates a declaration of the MSiSCSI_RADIUSConfig structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a> in <i>Config.mof</i>. 
@@ -117,11 +118,16 @@ Initiators should register each instance of the MSiSCSI_RADIUSConfig class using
 
 
 
+
 ## -see-also
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a>
+
+
 
  
 

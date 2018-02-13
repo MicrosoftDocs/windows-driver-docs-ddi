@@ -7,8 +7,8 @@ old-location: whea\whea_xpf_cache_check.htm
 old-project: whea
 ms.assetid: 61dd30b9-5290-4c72-b053-586066c58108
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK, whea.whea_xpf_cache_check
+ms.date: 2/8/2018
+ms.keywords: PWHEA_XPF_CACHE_CHECK, ntddk/PWHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK, _WHEA_XPF_CACHE_CHECK, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml, WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], whea.whea_xpf_cache_check
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_CACHE_CHECK
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK"
+req.typenames: WHEA_XPF_CACHE_CHECK, *PWHEA_XPF_CACHE_CHECK
 ---
 
 # _WHEA_XPF_CACHE_CHECK structure
@@ -270,7 +270,9 @@ A snoop operation.
 ## -remarks
 
 
+
 If the <b>CheckInfoId</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure contains WHEA_CACHECHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_CACHE_CHECK union.
+
 
 
 
@@ -278,9 +280,11 @@ If the <b>CheckInfoId</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_proci
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_CACHE_CHECK union%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_CACHE_CHECK union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c4e6f54f-815d-4ce1-93e1-b18663aab1b1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFAction2, IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2 interface, Microsoft::WDTF::IWDTFAction2::IsStatusSuccess, IsStatusSuccess method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFAction2.IsStatusSuccess, IsStatusSuccess, wdtf/IWDTFAction2::IsStatusSuccess, dtf.iwdtfaction2_isstatussuccess, IWDTFAction2 interface [Windows Device Testing Framework], IsStatusSuccess method, IWDTFAction2::IsStatusSuccess
+ms.keywords: IWDTFAction2::IsStatusSuccess, Microsoft::WDTF::IWDTFAction2::IsStatusSuccess, wdtf/IWDTFAction2::IsStatusSuccess, IWDTFAction2 interface [Windows Device Testing Framework], IsStatusSuccess method, IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2, dtf.iwdtfaction2_isstatussuccess, Microsoft.WDTF.IWDTFAction2.IsStatusSuccess, IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2 interface, IsStatusSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ True if the last operation was successful; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
+
+
 
  
 

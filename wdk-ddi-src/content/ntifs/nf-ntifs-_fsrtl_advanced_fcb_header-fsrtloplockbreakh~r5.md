@@ -7,8 +7,8 @@ old-location: ifsk\fsrtloplockbreakh.htm
 old-project: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ntifs/FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], FsRtlOplockBreakH, ifsk.fsrtloplockbreakh
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH, FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,9 +89,11 @@ A bitmask for the associated file I/O operation. A file system or filter driver 
 
 
 
+
 #### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
 
 Specifies to allow an oplock break to proceed without blocking or pending the operation that caused the oplock break. 
+
 
 
 #### OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
@@ -111,6 +113,7 @@ A pointer to caller-defined context information to be passed to the callback rou
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -124,7 +127,9 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>This routine has the following parameters: 
+</table></span></div>
+This routine has the following parameters: 
+
 
 
 
@@ -132,6 +137,7 @@ This routine is declared as follows:
 #### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
+
 
 
 #### Irp
@@ -144,6 +150,7 @@ A pointer to the IRP for the I/O operation.
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -160,9 +167,12 @@ This routine is declared as follows:
 </table></span></div>
 
 
+
+
 #### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlOplockBreakH</b>. 
+
 
 
 #### Irp
@@ -173,7 +183,9 @@ A pointer to the IRP for the I/O operation.
 ## -returns
 
 
+
 <b>FsRtlOplockBreakH </b>returns STATUS_SUCCESS or an appropriate NTSTATUS code, such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -212,11 +224,14 @@ The opportunistic lock (oplock) break cannot be accomplished. The IRP is an IRP_
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When an operation must break CACHE_HANDLE_LEVEL oplocks, the operation calls <b>FsRtlOplockBreakH</b>. 
@@ -227,15 +242,20 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">F
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
+
+
 <a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlOplockBreakH routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlOplockBreakH routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

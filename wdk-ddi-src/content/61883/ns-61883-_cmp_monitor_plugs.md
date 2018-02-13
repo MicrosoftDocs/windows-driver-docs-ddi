@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: D281BCBB-CDC6-442C-9A47-DF07D1BE1B28
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CMP_MONITOR_PLUGS, IEEE.cmp_monitor_plugs, PCMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], _CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS
+ms.keywords: PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], 61883/CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], 61883/PCMP_MONITOR_PLUGS, _CMP_MONITOR_PLUGS, IEEE.cmp_monitor_plugs, CMP_MONITOR_PLUGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_MONITOR_PLUGS
 product: Windows
 targetos: Windows
-req.typenames: CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS
+req.typenames: "*PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS"
 ---
 
 # _CMP_MONITOR_PLUGS structure
@@ -79,6 +79,7 @@ On input, the caller sets this member to REGISTER_MONITOR_PLUG_NOTIFY to registe
 On input, aointer to a caller-supplied function to be called by the protocol driver when a local plug is accessed. 
 
 This function uses the following prototype: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -94,6 +95,8 @@ This function uses the following prototype:
 </table></span></div>
 
 
+
+
 #### MonitorInfo
 
 On input, a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
@@ -107,15 +110,19 @@ On input, a pointer to a caller-defined context for the function at <b>pfnNotify
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv, drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, image.iwiaminidrv_drvgetdeviceerrorstr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
+ms.keywords: image.iwiaminidrv_drvgetdeviceerrorstr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, drvGetDeviceErrorStr, IWiaMiniDrv, IWiaMiniDrv::drvGetDeviceErrorStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,6 +92,7 @@ HRESULT drvGetDeviceErrorStr(
 
 
 
+
 #### - lFlags [in]
 
 Is currently unused. 
@@ -115,13 +116,17 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErr</i>. If the minidriver does not fully implement this method, the method should return E_NOTIMPL. If the minidriver does not recognize the error value passed to this method, the method should return E_INVALIDARG. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErr</i>.
+
 
 
 
 ## -remarks
 
 
+
 To obtain an error string that describes a device-specific minidriver-generated error value, the WIA service calls the <b>IWiaMiniDrv::drvGetDeviceErrorStr</b> method. In response to this call, the minidriver should use <b>CoTaskMemAlloc</b> (described in the Microsoft Windows SDK documentation) to allocate memory that will contain a localized Unicode string corresponding to the error code passed to the minidriver. The WIA service (or an application) will free the memory. It is likely that an application will display the string, so it should be meaningful to an end user. The string should be loaded from a resource file, so that it can be localized into a variety of languages.
+
 
 

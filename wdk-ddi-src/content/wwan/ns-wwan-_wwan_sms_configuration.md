@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85075b9d-72a7-4f3e-8a25-888689f9d5e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_configuration, wwan/PWWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION, wwan/WWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION, WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, _WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_SMS_CONFIGURATION, wwan/WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION, netvista.wwan_sms_configuration, WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, WWAN_SMS_CONFIGURATION, _WWAN_SMS_CONFIGURATION, wwan/PWWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SMS_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION
+req.typenames: "*PWWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ A NULL-terminated string with a maximum length of 15 digits that represents the 
      
 
 The number can be in any of the following formats:
+
 <ul>
 <li>
 "+ &lt;International Country Code&gt; &lt;SMS Service Center Number&gt;\0"
@@ -87,7 +88,8 @@ The number can be in any of the following formats:
 "&lt;SMS Service Center Number&gt;\0"
 
 </li>
-</ul>For set requests, the MB Service can set this member to <b>NULL</b>. In this case, a <b>NULL</b> indicates the
+</ul>
+For set requests, the MB Service can set this member to <b>NULL</b>. In this case, a <b>NULL</b> indicates the
      miniport driver does not need to update the 
      <b>ScAddress</b> member and should not update this member thereafter.
 
@@ -111,16 +113,22 @@ The maximum number of messages that can be stored on the device. Miniport driver
 ## -remarks
 
 
+
 Miniport drivers need to fill in this data structure only when processing 
     <i>query</i> requests, or in case of unsolicited events.
 
 
 
+
 ## -see-also
+
+<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
+
+
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_configuration.md">NDIS_WWAN_SMS_CONFIGURATION</a>
 
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
+
 
  
 

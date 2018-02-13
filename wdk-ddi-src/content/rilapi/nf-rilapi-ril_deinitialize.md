@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1902df2a-6325-46d5-871a-5af6f3ce7f18
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_Deinitialize method [Network Drivers Starting with Windows Vista], RIL_Deinitialize, netvista.ril_deinitialize, rilapi/RIL_Deinitialize
+ms.keywords: RIL_Deinitialize, netvista.ril_deinitialize, RIL_Deinitialize method [Network Drivers Starting with Windows Vista], rilapi/RIL_Deinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,10 +73,11 @@ HRESULT  RIL_Deinitialize(
 ### -param hRil
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

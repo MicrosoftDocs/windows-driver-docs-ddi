@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice_getdefaultioqueue, GetDefaultIoQueue method, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue, IWDFDevice, GetDefaultIoQueue, GetDefaultIoQueue method, IWDFDevice interface, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice::GetDefaultIoQueue
+ms.keywords: IWDFDevice interface, GetDefaultIoQueue method, umdf.iwdfdevice_getdefaultioqueue, IWDFDevice, wdf.iwdfdevice_getdefaultioqueue, GetDefaultIoQueue method, IWDFDevice interface, GetDefaultIoQueue method, wudfddi/IWDFDevice::GetDefaultIoQueue, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, GetDefaultIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,14 +78,18 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For more information about queue objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-i-o-queue-object">Framework I/O Queue Object</a>.
+
 
 
 
@@ -93,7 +97,11 @@ For more information about queue objects, see <a href="https://docs.microsoft.co
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

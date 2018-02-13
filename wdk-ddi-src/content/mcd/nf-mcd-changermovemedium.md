@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7532c8b5-e77b-4fd0-bac2-78254f6eb9f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, ChangerMoveMedium function [Storage Devices], storage.changermovemedium, ChangerMoveMedium, mcd/ChangerMoveMedium
+ms.keywords: ChangerMoveMedium, storage.changermovemedium, chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, mcd/ChangerMoveMedium, ChangerMoveMedium function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ Pointer to the IRP.
 ## -returns
 
 
+
 <b>ChangerMoveMedium</b> returns the status returned by the system port driver, or one of the following values:
       
 
@@ -100,7 +101,9 @@ STATUS_SOURCE_ELEMENT_EMPTY
 
 
 
+
 ## -remarks
+
 
 
 This routine is required.
@@ -115,15 +118,24 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 
+
 ## -see-also
 
 <a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">,</a>
+
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">,</a>
+
+
 
  
 

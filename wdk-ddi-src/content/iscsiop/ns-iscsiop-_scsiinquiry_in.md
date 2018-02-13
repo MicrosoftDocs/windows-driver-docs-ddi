@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b1a73ef7-c13a-4627-8eb0-b9285567caec
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN structure [Storage Devices], structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml, iscsiop/ScsiInquiry_IN, ScsiInquiry_IN, storage.scsiinquiry_in, *PScsiInquiry_IN, iscsiop/PScsiInquiry_IN, _ScsiInquiry_IN
+ms.keywords: iscsiop/PScsiInquiry_IN, storage.scsiinquiry_in, ScsiInquiry_IN structure [Storage Devices], PScsiInquiry_IN structure pointer [Storage Devices], _ScsiInquiry_IN, *PScsiInquiry_IN, PScsiInquiry_IN, ScsiInquiry_IN, iscsiop/ScsiInquiry_IN, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiInquiry_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiInquiry_IN, ScsiInquiry_IN"
+req.typenames: ScsiInquiry_IN, *PScsiInquiry_IN
 ---
 
 # _ScsiInquiry_IN structure
@@ -93,19 +93,29 @@ The page code field in the SCSI inquiry command.
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
 <a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 
  
 

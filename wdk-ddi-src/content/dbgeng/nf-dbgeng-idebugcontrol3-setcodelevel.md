@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b2f318d2-9ee2-4b4b-86ff-4561f1bbe084
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, IDebugControl2::SetCodeLevel, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, IDebugControl3, IDebugControl::SetCodeLevel, debugger.setcodelevel, dbgeng/IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging], SetCodeLevel method, SetCodeLevel method [Windows Debugging], IDebugControl interface, IDebugControl3::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, IDebugControl interface [Windows Debugging], SetCodeLevel method, SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging], IDebugControl3 interface, SetCodeLevel method [Windows Debugging], IDebugControl2 interface
+ms.keywords: dbgeng/IDebugControl2::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl3 interface, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, IDebugControl3 interface [Windows Debugging], SetCodeLevel method, IDebugControl2, dbgeng/IDebugControl3::SetCodeLevel, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, IDebugControl2::SetCodeLevel, debugger.setcodelevel, IDebugControl::SetCodeLevel, IDebugControl3, IDebugControl interface [Windows Debugging], SetCodeLevel method, SetCodeLevel method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetCodeLevel, IDebugControl, dbgeng/IDebugControl::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl interface, SetCodeLevel method [Windows Debugging], SetCodeLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,6 +72,7 @@ HRESULT SetCodeLevel(
 ### -param Level [in]
 
 Specifies the current code level.  <i>Level</i> can take one of the values in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,13 +98,16 @@ DEBUG_LEVEL_ASSEMBLY
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,14 +124,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about the code level, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
@@ -135,11 +143,19 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545670">GetCodeLevel</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545670">GetCodeLevel</a>
+
 
  
 

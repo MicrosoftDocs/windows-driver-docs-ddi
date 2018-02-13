@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3257a207-dd7e-4321-b037-95d62cea6f76
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DetectInt13, DETECTION_TYPE, DetectExInt13, ntdddisk/DetectExInt13, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, ntdddisk/DetectInt13, storage.detection_type, DetectNone, ntdddisk/DETECTION_TYPE, ntdddisk/DetectNone, _DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices]
+ms.keywords: DetectExInt13, ntdddisk/DetectExInt13, ntdddisk/DetectInt13, ntdddisk/DetectNone, storage.detection_type, DetectNone, ntdddisk/DETECTION_TYPE, DETECTION_TYPE, DetectInt13, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml, _DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,13 +87,17 @@ Indicates that the disk contains an extended INT 13h partition.
 ## -remarks
 
 
+
 Possible formatting types are the standard INT 13h partition format or the extended INT 13h partition format. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], winsplp/PRINTPROCESSOROPENDATA, winsplp/LPPRINTPROCESSOROPENDATA, _PRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, PRINTPROCESSOROPENDATA structure [Print Devices], print.printprocessoropendata, PPRINTPROCESSOROPENDATA structure pointer [Print Devices]
+ms.keywords: LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, print.printprocessoropendata, winsplp/PPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], winsplp/PRINTPROCESSOROPENDATA, _PRINTPROCESSOROPENDATA, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], *LPPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], winsplp/LPPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRINTPROCESSOROPENDATA
 product: Windows
 targetos: Windows
-req.typenames: PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA
+req.typenames: "*LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA"
 req.product: Windows 10 or later.
 ---
 
@@ -113,7 +113,11 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
+
 
  
 

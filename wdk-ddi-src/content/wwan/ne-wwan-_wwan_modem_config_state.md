@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanModemConfigStateActivated, wwan/PWWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE, WwanModemConfigStateUnknown, *PWWAN_MODEM_CONFIG_STATE, netvista.wwan_modem_config_state, wwan/WwanModemConfigStateUnknown, PWWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateActivated, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigStatePending, WwanModemConfigStateMax, WwanModemConfigStatePending, wwan/WWAN_MODEM_CONFIG_STATE, _WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateMax, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WwanModemConfigStatePending, wwan/WwanModemConfigStateMax, wwan/WwanModemConfigStateActivated, PWWAN_MODEM_CONFIG_STATE, WwanModemConfigStateActivated, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATE, WwanModemConfigStatePending, _WWAN_MODEM_CONFIG_STATE, *PWWAN_MODEM_CONFIG_STATE, WwanModemConfigStateUnknown, wwan/WwanModemConfigStateUnknown, WwanModemConfigStateMax, wwan/WWAN_MODEM_CONFIG_STATE, wwan/PWWAN_MODEM_CONFIG_STATE, netvista.wwan_modem_config_state, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,6 +95,8 @@ The maximum value for this enumeration. This value might change in future versio
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
+
+
 
  
 

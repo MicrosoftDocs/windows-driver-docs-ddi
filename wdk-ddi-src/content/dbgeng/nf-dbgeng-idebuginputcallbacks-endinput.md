@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EndInput, EndInput method [Windows Debugging], IDebugInputCallbacks interface, EndInput method [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging], EndInput method, dbgeng/IDebugInputCallbacks::EndInput, ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, debugger.idebuginputcallbacks_endinput, IDebugInputCallbacks, IDebugInputCallbacks::EndInput
+ms.keywords: IDebugInputCallbacks, IDebugInputCallbacks::EndInput, EndInput method [Windows Debugging], IDebugInputCallbacks interface, EndInput, EndInput method [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging], EndInput method, dbgeng/IDebugInputCallbacks::EndInput, ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, debugger.idebuginputcallbacks_endinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -66,18 +66,23 @@ HRESULT EndInput();
 
 
 
+
 ## -returns
+
 
 
 This method's return value is ignored by the engine.
 
 
 
+
 ## -remarks
+
 
 
 Even if the engine has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550797">IDebugInputCallbacks::StartInput</a> for this <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> object, the engine will call <b>EndInput</b> if another IDebugInputCallbacks object returned an error from the <b>IDebugInputCallbacks::StartInput</b> method.
 
 For more information about debugger engine input, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

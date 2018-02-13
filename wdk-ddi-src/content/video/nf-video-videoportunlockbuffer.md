@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5d34f32-026b-4c9f-86ae-a835d4e9c381
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportunlockbuffer, VideoPortUnlockBuffer function [Display Devices], VideoPortUnlockBuffer, video/VideoPortUnlockBuffer, VideoPort_Functions_2cb5a81f-1956-4431-bf54-7ee6e3d79eab.xml
+ms.keywords: VideoPortUnlockBuffer, VideoPort_Functions_2cb5a81f-1956-4431-bf54-7ee6e3d79eab.xml, display.videoportunlockbuffer, VideoPortUnlockBuffer function [Display Devices], video/VideoPortUnlockBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,17 @@ Pointer to the MDL of the buffer to be released. This parameter should be the sa
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\video\nf-video-videoportlockbuffer.md">VideoPortLockBuffer</a>
+
+
 
  
 

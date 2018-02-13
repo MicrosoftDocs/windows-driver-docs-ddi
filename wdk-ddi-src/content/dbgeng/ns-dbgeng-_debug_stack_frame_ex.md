@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: EC0AF311-7BFC-4E2E-A1B1-FE38872B7FA2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "_DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX structure [Windows Debugging], dbgeng/DEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX structure pointer [Windows Debugging], *PDEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX, dbgeng/PDEBUG_STACK_FRAME_EX, debugger.debug_stack_frame_ex"
+ms.keywords: "_DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX, dbgeng/DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX structure [Windows Debugging], dbgeng/PDEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX structure pointer [Windows Debugging], *PDEBUG_STACK_FRAME_EX, debugger.debug_stack_frame_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_STACK_FRAME_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX"
+req.typenames: DEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX
 ---
 
 # _DEBUG_STACK_FRAME_EX structure

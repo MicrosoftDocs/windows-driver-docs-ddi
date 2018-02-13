@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aba8839e-4c44-4c10-8b6f-9f5832c12166
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OpenLogFile method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::OpenLogFile, IDebugControl2 interface [Windows Debugging], OpenLogFile method, IDebugControl interface [Windows Debugging], OpenLogFile method, OpenLogFile method [Windows Debugging], IDebugControl3 interface, debugger.openlogfile, OpenLogFile method [Windows Debugging], IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, dbgeng/IDebugControl2::OpenLogFile, IDebugControl2::OpenLogFile, IDebugControl3 interface [Windows Debugging], OpenLogFile method, IDebugControl::OpenLogFile, OpenLogFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::OpenLogFile, IDebugControl3, IDebugControl3::OpenLogFile, OpenLogFile
+ms.keywords: IDebugControl2, OpenLogFile method [Windows Debugging], IDebugControl interface, debugger.openlogfile, OpenLogFile, OpenLogFile method [Windows Debugging], IDebugControl3 interface, IDebugControl2::OpenLogFile, IDebugControl2 interface [Windows Debugging], OpenLogFile method, IDebugControl3 interface [Windows Debugging], OpenLogFile method, dbgeng/IDebugControl::OpenLogFile, IDebugControl::OpenLogFile, dbgeng/IDebugControl2::OpenLogFile, IDebugControl, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, IDebugControl3::OpenLogFile, OpenLogFile method [Windows Debugging], IDebugControl3, OpenLogFile method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], OpenLogFile method, dbgeng/IDebugControl3::OpenLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,7 +83,9 @@ Specifies whether or not to append log messages to an existing log file.  If <b>
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,11 +102,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>OpenLogFile</b> and <b>OpenLogFileWide</b> behave the same way as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a> and <b>OpenLogFile2Wide</b> with <i>Flags</i> set to DEBUG_LOG_APPEND if <i>Append</i> is <b>TRUE</b> and DEBUG_LOG_DEFAULT otherwise.
@@ -115,27 +120,48 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

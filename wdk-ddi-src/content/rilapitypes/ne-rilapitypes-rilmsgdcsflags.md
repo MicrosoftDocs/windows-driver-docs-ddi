@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1bb5a365-1f8f-41d4-a3f5-6a4a7238de03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMSGDCSFLAGS, rilapitypes/RIL_DCSFLAG_COMPRESSED, rilapitypes/RIL_DCSFLAG_DISCARD, rilapitypes/RIL_DCSFLAG_ALL, RIL_DCSFLAG_COMPRESSED, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_INDICATIONACTIVE, RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_ALL, netvista.rilmsgdcsflags_2, RILMSGDCSFLAGS, rilapitypes/RIL_DCSFLAG_INDICATIONACTIVE
+ms.keywords: rilapitypes/RIL_DCSFLAG_ALL, rilapitypes/RILMSGDCSFLAGS, RILMSGDCSFLAGS, RIL_DCSFLAG_DISCARD, rilapitypes/RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_INDICATIONACTIVE, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_COMPRESSED, rilapitypes/RIL_DCSFLAG_INDICATIONACTIVE, netvista.rilmsgdcsflags_2, rilapitypes/RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,19 +74,14 @@ typedef enum _RILMSGDCSFLAGS {
 ### -field RIL_DCSFLAG_NONE
 
 
-
 ### -field RIL_DCSFLAG_COMPRESSED
-
 
 
 ### -field RIL_DCSFLAG_INDICATIONACTIVE
 
 
-
 ### -field RIL_DCSFLAG_DISCARD
 
 
-
 ### -field RIL_DCSFLAG_ALL
-
 

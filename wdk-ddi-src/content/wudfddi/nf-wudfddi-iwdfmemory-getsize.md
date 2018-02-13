@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, GetSize method, IWDFMemory interface, IWDFMemory interface, GetSize method, wudfddi/IWDFMemory::GetSize, IWDFMemory, GetSize method, IWDFMemory::GetSize
+ms.keywords: umdf.iwdfmemory_getsize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, IWDFMemory, GetSize, GetSize method, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize, IWDFMemory::GetSize, GetSize method, IWDFMemory interface, IWDFMemory interface, GetSize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,16 +69,21 @@ SIZE_T  GetSize();
 
 
 
+
 ## -returns
+
 
 
 <b>GetSize</b> returns the size, in bytes, of the data buffer for the memory object.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
 
  
 

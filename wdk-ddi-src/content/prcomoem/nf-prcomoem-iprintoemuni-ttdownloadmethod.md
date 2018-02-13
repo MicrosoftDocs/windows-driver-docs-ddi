@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemUni::TTDownloadMethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, TTDownloadMethod method [Print Devices], TTDownloadMethod, TTDownloadMethod method [Print Devices], IPrintOemUni interface, IPrintOemUni, IPrintOemUni interface [Print Devices], TTDownloadMethod method, print.iprintoemuni_ttdownloadmethod, IPrintOemUni::TTDownloadMethod
+ms.keywords: TTDownloadMethod, IPrintOemUni, IPrintOemUni interface [Print Devices], TTDownloadMethod method, IPrintOemUni::TTDownloadMethod, prcomoem/IPrintOemUni::TTDownloadMethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, TTDownloadMethod method [Print Devices], TTDownloadMethod method [Print Devices], IPrintOemUni interface, print.iprintoemuni_ttdownloadmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.TTDownloadMethod
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,7 @@ Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UN
 ### -param pdwResult [out]
 
 Receives one of the following method-supplied constant values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -128,13 +129,16 @@ Unidrv should download the specified font as outlines. For more information, see
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -173,11 +177,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemUni::TTDownloadMethod</code> method's purpose is to allow a rendering plug-in to specify a printer's preferred format for a specified TrueType soft font.
@@ -192,15 +199,24 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566001">FONTOBJ_pvTrueTypeFontFile</a>
+
+
+
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 15ad337a-0b33-48ba-98cf-6aff2698e2ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.device_descriptor, *PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR structure [Imaging Devices], PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], usbscan/PDEVICE_DESCRIPTOR, usbscan/DEVICE_DESCRIPTOR, _DEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml
+ms.keywords: DEVICE_DESCRIPTOR, image.device_descriptor, DEVICE_DESCRIPTOR structure [Imaging Devices], usbscan/DEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], usbscan/PDEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, _DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR"
+req.typenames: DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

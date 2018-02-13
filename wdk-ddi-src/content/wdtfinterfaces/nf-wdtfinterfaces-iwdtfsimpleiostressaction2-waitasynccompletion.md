@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2, WaitAsyncCompletion method [Windows Device Testing Framework], dtf.iwdtfsimpleiostressaction2_waitasynccompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], WaitAsyncCompletion method, IWDTFSimpleIOStressAction2::WaitAsyncCompletion
+ms.keywords: Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, WaitAsyncCompletion, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], WaitAsyncCompletion method, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2, WaitAsyncCompletion method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ True if the last asynchronous event succeeded; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
+
+
 
  
 

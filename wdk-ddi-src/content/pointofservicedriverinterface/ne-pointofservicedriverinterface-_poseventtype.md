@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 2ba0c81f-2eff-48bf-8c3e-9047a398f735
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosEventType enumeration, _Max, _PosEventType, PointOfServicePrinterErrorOccurred, pointofservicedriverinterface/DrawerOpened, BarcodeScannerTriggerPressed, pointofservicedriverinterface/BarcodeScannerDataReceived, BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/DrawerClosed, MagneticStripeReaderDataReceived, pointofservicedriverinterface/BarcodeScannerTriggerPressed, pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, pointofservicedriverinterface/MagneticStripeReaderDataReceived, pointofservicedriverinterface/BarcodeScannerTriggerReleased, PosEventType, DrawerClosed, pointofservicedriverinterface/InvalidEvent, pointofservicedriverinterface/ReleaseDeviceRequested, BarcodeScannerDataReceived, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/AlarmTimeoutExpired, pointofservicedriverinterface/BarcodeScannerErrorOccurred, DrawerOpened, StatusUpdated, InvalidEvent, BarcodeScannerErrorOccurred, ReleaseDeviceRequested, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/PosEventType, pos.poseventtype, pointofservicedriverinterface/_Max, BarcodeScannerTriggerReleased, MagneticStripeReaderErrorOccurred, AlarmTimeoutExpired
+ms.keywords: pointofservicedriverinterface/MagneticStripeReaderErrorOccurred, PointOfServicePrinterErrorOccurred, DrawerOpened, pointofservicedriverinterface/BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/DrawerClosed, pointofservicedriverinterface/BarcodeScannerDataReceived, MagneticStripeReaderErrorOccurred, BarcodeScannerTriggerPressed, DrawerClosed, pointofservicedriverinterface/ReleaseDeviceRequested, BarcodeScannerDataReceived, pointofservicedriverinterface/BarcodeScannerTriggerReleased, pointofservicedriverinterface/MagneticStripeReaderDataReceived, StatusUpdated, pointofservicedriverinterface/DrawerOpened, InvalidEvent, pointofservicedriverinterface/AlarmTimeoutExpired, BarcodeScannerImagePreviewReceived, pointofservicedriverinterface/BarcodeScannerErrorOccurred, MagneticStripeReaderDataReceived, pos.poseventtype, PosEventType enumeration, BarcodeScannerErrorOccurred, pointofservicedriverinterface/PointOfServicePrinterErrorOccurred, _PosEventType, PosEventType, AlarmTimeoutExpired, pointofservicedriverinterface/InvalidEvent, ReleaseDeviceRequested, pointofservicedriverinterface/_Max, pointofservicedriverinterface/PosEventType, pointofservicedriverinterface/StatusUpdated, pointofservicedriverinterface/BarcodeScannerTriggerPressed, BarcodeScannerTriggerReleased, _Max
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -87,7 +87,6 @@ The event code is not valid.
 
 
 ### -field _MinEventType
-
 
 
 ### -field ReleaseDeviceRequested

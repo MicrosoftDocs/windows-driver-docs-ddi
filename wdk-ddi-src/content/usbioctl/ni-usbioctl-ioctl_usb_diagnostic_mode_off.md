@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_diagnostic_mode_off.htm
 old-project: usbref
 ms.assetid: 8452c9a2-3e1f-4b62-8ab2-9071d55f5f68
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_usb_diagnostic_mode_off, IOCTL_USB_DIAGNOSTIC_MODE_OFF control code [Buses], IOCTL_USB_DIAGNOSTIC_MODE_OFF, usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_OFF, usbirp_7b761254-b350-4ac8-820f-04426139f6bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,50 +69,66 @@ The <b>IOCTL_USB_DIAGNOSTIC_MODE_OFF</b> I/O control has been deprecated. Do not
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f5ab3aa3-c24e-4716-b94a-525c6b6776dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, image.sti_device_type, STI_DEVICE_MJ_TYPE, StiDeviceTypeStreamingVideo, sti/StiDeviceTypeDigitalCamera, StiDeviceTypeScanner, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml, sti/StiDeviceTypeScanner, sti/STI_DEVICE_TYPE, StiDeviceTypeDigitalCamera, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], sti/StiDeviceTypeStreamingVideo, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, _STI_DEVICE_MJ_TYPE
+ms.keywords: STI_DEVICE_TYPE, STI_DEVICE_MJ_TYPE, sti/StiDeviceTypeDefault, sti/STI_DEVICE_TYPE, StiDeviceTypeStreamingVideo, sti/StiDeviceTypeScanner, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeScanner, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml, _STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], image.sti_device_type, sti/StiDeviceTypeStreamingVideo, StiDeviceTypeDigitalCamera, sti/StiDeviceTypeDigitalCamera, StiDeviceTypeDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,7 +96,9 @@ Streaming video.
 ## -remarks
 
 
+
 The following macros are used to extract the major device type and subtype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -108,4 +110,5 @@ GET_STIDEVICE_SUBTYPE(dwDevType)</pre>
 </td>
 </tr>
 </table></span></div>
+
 

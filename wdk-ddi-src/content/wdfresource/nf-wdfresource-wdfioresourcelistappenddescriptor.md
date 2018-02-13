@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: da9213c1-e519-44ad-aabf-fd05bdbd2079
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, kmdf.wdfioresourcelistappenddescriptor, WdfIoResourceListAppendDescriptor method, PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR, wdfresource/WdfIoResourceListAppendDescriptor, wdf.wdfioresourcelistappenddescriptor, WdfIoResourceListAppendDescriptor
+ms.keywords: WdfIoResourceListAppendDescriptor, wdf.wdfioresourcelistappenddescriptor, wdfresource/WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, PFN_WDFIORESOURCELISTAPPENDDESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_D
 ## -returns
 
 
+
 <b>WdfIoResourceListAppendDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,13 +126,16 @@ The framework could not allocate space to store the descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The framework copies the contents of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that the <i>Descriptor</i> parameter points to into internal storage, so the driver routine that calls <b>WdfIoResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfIoResourceListAppendDescriptor</b>, the driver can reuse the <b>IO_RESOURCE_DESCRIPTOR</b> structure.
@@ -138,14 +143,74 @@ The framework copies the contents of the <a href="..\wdm\ns-wdm-_io_resource_des
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example creates an empty logical configuration and adds it to a resource requirements list. Then, the example initializes a resource descriptor and adds the descriptor to the logical configuration.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IO_RESOURCE_DESCRIPTOR  descriptor;
+NTSTATUS  status;
+WDFIORESLIST  logConfig;
+
+status = WdfIoResourceListCreate(
+                                 RequirementsList,
+                                 WDF_NO_OBJECT_ATTRIBUTES,
+                                 &amp;logConfig
+                                 );
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+
+status = WdfIoResourceRequirementsListAppendIoResList(
+                                                      RequirementsList,
+                                                      logConfig
+                                                      );
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+
+RtlZeroMemory(
+              &amp;descriptor,
+              sizeof(descriptor)
+              );
+
+descriptor.Option = 0;
+descriptor.Type = CmResourceTypePort;
+descriptor.ShareDisposition = CmResourceShareDeviceExclusive;
+descriptor.Flags = CM_RESOURCE_PORT_IO|CM_RESOURCE_PORT_16_BIT_DECODE;
+descriptor.u.Port.Length = 1;
+descriptor.u.Port.Alignment = 0x01;
+descriptor.u.Port.MinimumAddress.QuadPart = 0;
+descriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
+
+status = WdfIoResourceListAppendDescriptor(
+                                           logConfig,
+                                           &amp;descriptor
+                                           );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
-
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistinsertdescriptor.md">WdfIoResourceListInsertDescriptor</a>
 
+
+
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistcreate.md">WdfIoResourceListCreate</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

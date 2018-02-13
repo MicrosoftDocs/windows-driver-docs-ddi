@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PWIDTHTABLE structure pointer [Print Devices], PWIDTHTABLE, prntfont/WIDTHTABLE, WIDTHTABLE, WIDTHTABLE structure [Print Devices], print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, _WIDTHTABLE, *PWIDTHTABLE, print.widthtable, prntfont/PWIDTHTABLE
+ms.keywords: WIDTHTABLE, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, _WIDTHTABLE, *PWIDTHTABLE, print.widthtable, prntfont/PWIDTHTABLE, WIDTHTABLE structure [Print Devices], PWIDTHTABLE structure pointer [Print Devices], PWIDTHTABLE, prntfont/WIDTHTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,7 +88,9 @@ Is an array of <a href="..\prntfont\ns-prntfont-_widthrun.md">WIDTHRUN</a> struc
 ## -remarks
 
 
+
 A .ufm file's WIDTHTABLE structure, which describes character widths, is accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure.
+
 
 
 
@@ -96,7 +98,11 @@ A .ufm file's WIDTHTABLE structure, which describes character widths, is accesse
 
 <a href="..\prntfont\ns-prntfont-_widthrun.md">WIDTHRUN</a>
 
+
+
 <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
+
+
 
  
 

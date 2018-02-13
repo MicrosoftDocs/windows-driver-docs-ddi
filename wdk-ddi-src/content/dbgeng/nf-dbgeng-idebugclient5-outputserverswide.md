@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5, OutputServersWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::OutputServersWide, debugger.outputserverswide, IDebugClient5 interface [Windows Debugging], OutputServersWide method, OutputServersWide, OutputServersWide method [Windows Debugging], dbgeng/IDebugClient5::OutputServersWide
+ms.keywords: IDebugClient5 interface [Windows Debugging], OutputServersWide method, debugger.outputserverswide, IDebugClient5::OutputServersWide, IDebugClient5, OutputServersWide method [Windows Debugging], OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,6 +84,7 @@ Specifies the name of the computer whose servers will be listed.  <i>Machine</i>
 ### -param Flags [in]
 
 Specifies a bit-set that determines which servers to output.  The possible bit flags are:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -109,13 +110,16 @@ Output the process servers on the computer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,28 +136,42 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about remote debugging, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554401">Remote Debugging</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
 
  
 

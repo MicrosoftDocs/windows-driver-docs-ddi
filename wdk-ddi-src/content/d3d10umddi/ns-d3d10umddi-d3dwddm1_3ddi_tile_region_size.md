@@ -74,7 +74,9 @@ typedef struct D3DWDDM1_3DDI_TILE_REGION_SIZE {
 ### -field NumTiles
 
 The number of tiles within the tiled region.
-<div class="alert"><b>Note</b>  <b>NumTiles</b> must equal <b>Width</b> * <b>Height</b> * <b>Depth</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  <b>NumTiles</b> must equal <b>Width</b> * <b>Height</b> * <b>Depth</b>.</div>
+<div> </div>
 
 ### -field bUseBox
 

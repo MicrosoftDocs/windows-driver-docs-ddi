@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 301b4b63-0337-4f78-a4f8-6b2d2b168663
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_FORWARD_OPTIONS_INIT function, wdf.wdf_request_forward_options_init, kmdf.wdf_request_forward_options_init, DFRequestObjectRef_ade75e55-accb-4fe0-a1be-b5acd9e4c34b.xml, WDF_REQUEST_FORWARD_OPTIONS_INIT, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_INIT
+ms.keywords: WDF_REQUEST_FORWARD_OPTIONS_INIT function, kmdf.wdf_request_forward_options_init, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_INIT, DFRequestObjectRef_ade75e55-accb-4fe0-a1be-b5acd9e4c34b.xml, wdf.wdf_request_forward_options_init, WDF_REQUEST_FORWARD_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,11 +78,14 @@ A pointer to a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Before a driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>, it must call <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b> to initialize a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
@@ -93,11 +96,16 @@ For a code example that uses <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b>, see <a hre
 
 
 
+
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>
 
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_forward_options.md">WDF_REQUEST_FORWARD_OPTIONS</a>
+
+
 
  
 

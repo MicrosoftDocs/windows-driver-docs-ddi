@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, ntddk/IoAllocateController, kernel.ioallocatecontroller, IoAllocateController routine [Kernel-Mode Driver Architecture], IoAllocateController
+ms.keywords: ntddk/IoAllocateController, kernel.ioallocatecontroller, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoAllocateController
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoAllocateController function
@@ -93,11 +93,14 @@ Pointer to a driver-determined context, passed to the driver's <i>ControllerCont
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine reserves exclusive access to the hardware controller for the specified device.
@@ -106,15 +109,24 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
+## -see-also
 
 <a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+
 
  
 

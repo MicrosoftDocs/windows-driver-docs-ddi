@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosEventDataHeader structure, _PosEventDataHeader, pointofservicedriverinterface/PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData, pos.posbarcodescannerimageprevieweventdata, PosEventDataHeader
+ms.keywords: pos.posbarcodescannerimageprevieweventdata, _PosEventDataHeader, pointofservicedriverinterface/PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData, PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ The length, in bytes, of the image preview data.
 ## -remarks
 
 
+
 The image preview bitmap data immediately follows after this structure in memory for <i>DataLength</i> bytes.
+
 
 

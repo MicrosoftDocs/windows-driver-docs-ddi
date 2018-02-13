@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53657c26-5007-4c8e-aadf-5d464f1222d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaustrw2c, wiautil/wiauStrW2C, wiauStrW2C, wiauStrW2C function [Imaging Devices], wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml
+ms.keywords: wiautil/wiauStrW2C, wiauStrW2C function [Imaging Devices], image.wiaustrw2c, wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiauStrW2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,17 +88,25 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pszDst</i>.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
-
 <a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
+
+
+<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+
+
 
  
 

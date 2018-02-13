@@ -40,7 +40,7 @@ apiname:
 -	AcpiOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # ACPI_OP_REGION_HANDLER callback
@@ -80,6 +80,7 @@ NTSTATUS EXPORT AcpiOpRegionHandler(
 ### -param AccessType
 
 Specifies one of the following access types.
+
 <table>
 <tr>
 <th>Access Type</th>
@@ -105,7 +106,8 @@ Read from the operation region memory buffer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param OperationRegionObject
@@ -146,7 +148,9 @@ Reserved for internal use.
 ## -returns
 
 
+
 Returns one of the following status values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -185,11 +189,14 @@ An internal error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When the ACPI driver calls an operation region handler, it specifies values for <i>Address</i> and <i>Size</i> that ensure that the access is within the operation region that is defined in the ACPI BIOS for the ACPI device. The ACPI device function driver must ensure that the operation region memory buffer it allocates is at least as large, in bytes, as the operation region defined for the ACPI device.
@@ -202,11 +209,16 @@ For detailed information about constraints on operation regions, see the <a href
 
 
 
+
 ## -see-also
 
 <a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
 
+
+
 <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
+
+
 
  
 

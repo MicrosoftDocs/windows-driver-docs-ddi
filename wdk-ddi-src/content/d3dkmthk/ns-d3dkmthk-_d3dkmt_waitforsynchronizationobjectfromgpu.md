@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F22149E4-0396-46DE-89FE-9B4321D86605
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices]
+ms.keywords: d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,21 +74,6 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 
 
 
-### -field MonitoredFenceValueArray
-
-[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
-
-
-### -field FenceValue
-
-[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
-
-
-### -field Reserved
-
-This member is reserved and should be set to zero.
-
-
 ### -field hContext
 
 [in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
@@ -104,9 +89,26 @@ This member is reserved and should be set to zero.
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
+### -field MonitoredFenceValueArray
+
+[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
+
+
+### -field FenceValue
+
+[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
+
+
+### -field Reserved
+
+This member is reserved and should be set to zero.
+
+
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu.md">D3DKMTWaitForSynchronizationObjectFromGpu</a>
+
+
 
  
 

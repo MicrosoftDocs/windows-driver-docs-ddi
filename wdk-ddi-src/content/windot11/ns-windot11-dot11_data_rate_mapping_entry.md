@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d2772a9e-655a-4e3e-8b48-65d58b0a659d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY, netvista.dot11_data_rate_mapping_entry, Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], DOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_DATA_RATE_MAPPING_ENTRY, windot11/DOT11_DATA_RATE_MAPPING_ENTRY
+ms.keywords: windot11/PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_data_rate_mapping_entry, DOT11_DATA_RATE_MAPPING_ENTRY, windot11/DOT11_DATA_RATE_MAPPING_ENTRY, Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], *PDOT11_DATA_RATE_MAPPING_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_DATA_RATE_MAPPING_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY
+req.typenames: "*PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY"
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ The index value for the data rate contained in the
      
 
 This value is a bitmask as defined in the following table.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -105,7 +106,8 @@ This bit is not used and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ucDataRateFlag
@@ -114,6 +116,7 @@ The attributes of the data rate entry.
      
 
 This value is a bitmask as defined in the following table.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -145,7 +148,8 @@ These bits are not used and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field usDataRateValue
@@ -157,6 +161,7 @@ The data rate, defined in units of 500 kilobits per second (Kbps), with a value 
 ## -remarks
 
 
+
 For the IEEE 802.11 standard data rates, the miniport driver must set the 
     <b>ucDataRateIndex</b> and 
     <b>usDataRateValue</b> members to the same value.
@@ -165,6 +170,7 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
     and the related values for the 
     <b>ucDataRateIndex</b> and 
     <b>usDataRateValue</b> members.
+
 <table>
 <tr>
 <th>IEEE 802.11 Standard Rate</th>
@@ -409,7 +415,9 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -418,7 +426,11 @@ The following table shows the IEEE 802.11 standard data rates, in units of megab
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
 
+
+
 <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
+
+
 
  
 

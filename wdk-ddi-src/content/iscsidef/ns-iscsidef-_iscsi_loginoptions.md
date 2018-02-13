@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_LoginOptions structure [Storage Devices], _ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, *PISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], iscsidef/ISCSI_LoginOptions, PISCSI_LoginOptions, storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, ISCSI_LoginOptions
+ms.keywords: structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, iscsidef/PISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], PISCSI_LoginOptions structure pointer [Storage Devices], iscsidef/ISCSI_LoginOptions, storage.iscsi_loginoptions, *PISCSI_LoginOptions, ISCSI_LoginOptions, PISCSI_LoginOptions, _ISCSI_LoginOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_LoginOptions
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_LoginOptions, *PISCSI_LoginOptions
+req.typenames: "*PISCSI_LoginOptions, ISCSI_LoginOptions"
 ---
 
 # _ISCSI_LoginOptions structure
@@ -77,6 +77,7 @@ typedef struct _ISCSI_LoginOptions {
 ### -field InformationSpecified
 
 A bitmap that indicates which members of the ISCSI_LoginOptions structure contain valid data. The following table describes the possible values: 
+
 <table>
 <tr>
 <th>Bit</th>
@@ -162,7 +163,8 @@ The password to be used during logon.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field HeaderDigest
@@ -193,6 +195,7 @@ The maximum time, in seconds, to reassign a connection after the initial wait th
 ### -field LoginFlags
 
 A bitwise OR of logon flags that define certain characteristics of the logon session. The following table indicates the values that you can assign to this member.
+
 <table>
 <tr>
 <th>Logon flag</th>
@@ -258,7 +261,8 @@ Use RADIUS to verify CHAP response.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AuthType
@@ -268,11 +272,17 @@ A <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a> va
 
 ## -see-also
 
-<a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561543">ISCSI_LoginOptions WMI Class</a>
 
+
+
 <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+
+
+
+<a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B262D38-8BD6-43B5-96AB-6D311B8EBA88
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], *PBLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, storage.block_device_range_descriptor, PBLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR
+ms.keywords: BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, storage.block_device_range_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BLOCK_DEVICE_RANGE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR"
+req.typenames: BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -88,9 +88,11 @@ Reserved bytes.
 ## -remarks
 
 
+
 If <i>TransferLength</i> is set to 0, the range descriptor is considered valid and does not cause an error when included in a token parameter list. No operation will be performed for this descriptor.
 
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
+
 
 
 
@@ -98,7 +100,11 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 <a href="..\scsi\ns-scsi-write_using_token_header.md">WRITE_USING_TOKEN_HEADER</a>
 
+
+
 <a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+
+
 
  
 

@@ -80,6 +80,8 @@ Identifies the adapter containing the overlay hardware.
 
 
 
+
+
 #### - pCheckSupport [in, out]
 
 A pointer to a DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure that describes the surfaces and display options to present.
@@ -88,7 +90,9 @@ A pointer to a DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure that describes t
 ## -returns
 
 
+
 DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,16 +109,20 @@ If the routine has been successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The kernel mode driver reports whether the specified configuration is supported.  The kernel mode driver should not raise or lower the available bandwidth in anticipation to this configuration getting set.
 
 This function is always called at PASSIVE level.
+
 
 
 

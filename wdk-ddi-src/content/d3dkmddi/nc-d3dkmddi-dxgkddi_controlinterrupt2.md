@@ -84,7 +84,9 @@ NTSTATUS APIENTRY* DxgkDdi_ControlInterrupt2(
 ## -returns
 
 
+
 <i>DxgkDdi_ControlInterrupt2</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,6 +115,8 @@ The interrupt type was successfully enabled or disabled on the graphics hardware
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

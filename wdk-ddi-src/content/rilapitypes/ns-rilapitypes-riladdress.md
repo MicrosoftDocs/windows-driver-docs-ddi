@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress, rilapitypes/RILADDRESS, *LPRILADDRESS
+ms.keywords: RILADDRESS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILADDRESS, RILADDRESS, netvista.riladdress, *LPRILADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,6 +85,7 @@ A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-riladdressparamm
 ### -field dwType
 
 The type of address. Possible values are shown in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -180,12 +181,14 @@ Internet email address (RFC 822)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwNumPlan
 
 The numbering scheme of the address. Possible values are shown in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -261,7 +264,8 @@ ERMES numbering plan (ETSI DE/PS 3 01-3)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wszAddress
@@ -272,7 +276,9 @@ An array of address characters. The minimum length of this array is 3. When <b>d
 ## -remarks
 
 
+
 When a <b>RILADDRESS</b> represents a phone number on a UICC card, the contents of <b>wszAddress</b> are constrained to values that can be represented on the card (as defined by 3GPP TS 31.102 table 4.4). In the UICC file, a phone number is represented by a string of 4-bit nibbles padded on the right with 0xF. The defined mapping is shown in the following table.
+
 <table>
 <tr>
 <th>nibble in UICC EF</th>
@@ -503,15 +509,19 @@ Padding for unused nibbles on UICC card—not to be used
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 In the case of the control digits separator, either uppercase or lowercase 'P' may be passed in; the output is always lowercase. The RFU value 0xE should never appear on the card, but if it does it is reported as L'e'. It is an error to pass L'e' as input.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

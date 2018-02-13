@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 15622472-808b-4d9e-ac59-ca5c9efbff7c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2, wdtf/IWDTFTarget2::GetRelations, dtf.iwdtftarget2_getrelations, IWDTFTarget2::GetRelations, Microsoft.WDTF.IWDTFTarget2.GetRelations, Microsoft::WDTF::IWDTFTarget2::GetRelations, GetRelations, GetRelations method [Windows Device Testing Framework], GetRelations method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework], GetRelations method
+ms.keywords: Microsoft.WDTF.IWDTFTarget2.GetRelations, IWDTFTarget2::GetRelations, IWDTFTarget2 interface [Windows Device Testing Framework], GetRelations method, Microsoft::WDTF::IWDTFTarget2::GetRelations, GetRelations method [Windows Device Testing Framework], IWDTFTarget2, dtf.iwdtftarget2_getrelations, wdtf/IWDTFTarget2::GetRelations, GetRelations, GetRelations method [Windows Device Testing Framework], IWDTFTarget2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,11 +91,14 @@ result of this method.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 You use the <b>GetRelations</b> method to retrieve related 
@@ -125,9 +128,12 @@ Language Overview</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

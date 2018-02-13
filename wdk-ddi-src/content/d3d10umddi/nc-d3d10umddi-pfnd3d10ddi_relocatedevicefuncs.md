@@ -40,7 +40,7 @@ apiname:
 -	RelocateDeviceFuncs
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_RELOCATEDEVICEFUNCS callback
@@ -74,8 +74,9 @@ VOID APIENTRY RelocateDeviceFuncs(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,16 +96,20 @@ VOID APIENTRY RelocateDeviceFuncs(
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code.
 
 
 
+
 ## -remarks
 
 
+
 A user-mode display driver can use the <i>RelocateDeviceFuncs</i> function to replace function pointers in the driver function table. 
+
 
 
 
@@ -112,7 +117,11 @@ A user-mode display driver can use the <i>RelocateDeviceFuncs</i> function to re
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

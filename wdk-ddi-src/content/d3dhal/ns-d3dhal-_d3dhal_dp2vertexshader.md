@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2VERTEXSHADER structure [Display Devices], d3dhal/D3DHAL_DP2VERTEXSHADER, _D3DHAL_DP2VERTEXSHADER, display.d3dhal_dp2vertexshader, d3dhal/LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], *LPD3DHAL_DP2VERTEXSHADER, d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, LPD3DHAL_DP2VERTEXSHADER
+ms.keywords: "_D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, display.d3dhal_dp2vertexshader, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], *LPD3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,19 +75,19 @@ typedef struct _D3DHAL_DP2VERTEXSHADER {
 
 
 
-#### 
+######### 
 
 
 
-#### 
+###### 
 
 
 
-#### 
-
+##### 
 
 
 ## -remarks
+
 
 
 All DirectX 8.0 level drivers must support the D3DDP2OP_SETVERTEXSHADER token because it is sent even if the driver does not support programmable vertex processing. In that case, however, the shader handle is always an FVF code indicating fixed function processing of the vertex data. The driver should use the FVF code stored in the <b>dwHandle</b> member as the format of the vertex data in stream zero. A driver that does support programmable vertex processing must examine the handle to determine whether it refers to a shader previously created with D3DDP2OP_CREATEVERTEXSHADER or an FVF code and take the appropriate action.
@@ -102,31 +102,56 @@ For D3DDP2OP_SETVERTEXSHADERDECL operations, the runtime specifies a legacy FVF 
 
 
 
+
 ## -see-also
-
-D3DDP2OP_DELETEVERTEXSHADER
-
-D3DDP2OP_DELETEVERTEXSHADERDECL
-
-D3DDP2OP_SETSTREAMSOURCE
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setvertexshaderconst.md">D3DHAL_DP2SETVERTEXSHADERCONST</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
 
-D3DDP2OP_SETVERTEXSHADERDECL
-
-D3DDP2OP_DELETEVERTEXSHADERFUNC
 
 D3DDP2OP_SETSTREAMSOURCEUM
 
+
+
+D3DDP2OP_DELETEVERTEXSHADER
+
+
+
 D3DDP2OP_SETVERTEXSHADER
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+D3DDP2OP_SETSTREAMSOURCE
+
+
+
+D3DDP2OP_SETVERTEXSHADERDECL
+
+
 
 D3DDP2OP_CREATEVERTEXSHADER
 
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
 D3DDP2OP_SETVERTEXSHADERFUNC
+
+
+
+D3DDP2OP_DELETEVERTEXSHADERDECL
+
+
+
+D3DDP2OP_DELETEVERTEXSHADERFUNC
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
+
+
 
  
 

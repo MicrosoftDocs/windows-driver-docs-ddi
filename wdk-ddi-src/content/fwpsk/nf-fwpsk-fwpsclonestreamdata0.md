@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66041ccb-e63a-4843-85ec-d93b924bb335
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], netvista.fwpsclonestreamdata0, FwpsCloneStreamData0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml, fwpsk/FwpsCloneStreamData0
+ms.keywords: fwpsk/FwpsCloneStreamData0, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], FwpsCloneStreamData0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml, netvista.fwpsclonestreamdata0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,8 +115,10 @@ A pointer to a location that receives a pointer to a chain of
 ## -returns
 
 
+
 The 
      <b>FwpsCloneStreamData0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,11 +148,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This cloned stream data can be injected by a callout driver into the TCP/IP network stack at a later
@@ -178,19 +183,32 @@ A callout should call the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsdiscardclonedstreamdata0.md">FwpsDiscardClonedStreamData0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

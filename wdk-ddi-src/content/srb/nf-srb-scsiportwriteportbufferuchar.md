@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 83b6425f-52fa-4c57-aac5-698d3a586248
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWritePortBufferUchar routine [Storage Devices], ScsiPortWritePortBufferUchar, scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, storage.scsiportwriteportbufferuchar, srb/ScsiPortWritePortBufferUchar
+ms.keywords: storage.scsiportwriteportbufferuchar, srb/ScsiPortWritePortBufferUchar, scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, ScsiPortWritePortBufferUchar routine [Storage Devices], ScsiPortWritePortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,13 +89,17 @@ Specifies the number of bytes to be written to the HBA.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

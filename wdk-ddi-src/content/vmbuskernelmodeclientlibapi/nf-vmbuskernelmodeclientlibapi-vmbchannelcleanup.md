@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E079527D-1687-4A12-B86E-96C89CE458CE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelCleanup, netvista.vmbchannelcleanup, VmbChannelCleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelCleanup, netvista.vmbchannelcleanup, VmbChannelCleanup function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelCleanup
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -80,11 +80,14 @@ The channel to clean up.
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If the channel was allocated by <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelallocate.md">VmbChannelAllocate</a>, <b>VmbChannelCleanup</b> also releases the channel. 
@@ -93,9 +96,12 @@ Before you call this function, the channel must be disabled.
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelallocate.md">VmbChannelAllocate</a>
+
+
 
  
 

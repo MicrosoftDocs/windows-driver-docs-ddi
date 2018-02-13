@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 312DED8E-570E-4DEC-B084-36894970F49F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, VmbChannelSendSynchronousRequest, netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelSendSynchronousRequest, netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelSendSynchronousRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -129,6 +129,7 @@ After this time elapses, the packet is cancelled. For a timeout of zero (0), if 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -180,11 +181,14 @@ The channel is being shut down.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Clients can run this function with any combination of parameters. 
@@ -194,9 +198,12 @@ this if <code>*Timeout == 0</code> and the <b>VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
 
  
 

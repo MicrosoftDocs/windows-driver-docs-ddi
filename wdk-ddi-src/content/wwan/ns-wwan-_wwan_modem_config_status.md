@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, PWWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS, wwan/PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_STATUS
+ms.keywords: wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, _WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], PWWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, *PWWAN_MODEM_CONFIG_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_MODEM_CONFIG_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS"
+req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -100,6 +100,7 @@ Indicates if the default config file was selected, if available.
 ## -remarks
 
 
+
 Modem config files are identified using a Config ID, defined as a UUID whose value is determined by the IHV vendor. The value of each Config ID is unique and can be generated statically or dynamically. A Config ID of zero (00000000-0000-0000-000000000000) is a special case, meaning the Config ID is not available.
 
 The config file's Config ID is reported to the OS during the config state change. When <b>ConfigState</b> is <i>Pending</i>, <b>PreviousConfigID</b> points to the previously activated modem config file or zero if there was no previously activated config file (such as during the device's first boot). The <b>CurrentConfigID</b> must always be set to zero when <b>ConfigState</b> is <i>Pending</i>.
@@ -114,13 +115,20 @@ If the same config file is selected as the currently activated one, the MBB driv
 
 
 
-## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
+## -see-also
 
 <a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>
 
+
+
+<a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>
+
+
 
  
 

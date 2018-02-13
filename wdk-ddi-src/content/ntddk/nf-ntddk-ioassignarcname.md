@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef8a132a-f593-4a25-bb9e-b4ed57801db2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAssignArcName routine [Kernel-Mode Driver Architecture], k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, kernel.ioassignarcname, ntddk/IoAssignArcName, IoAssignArcName
+ms.keywords: kernel.ioassignarcname, ntddk/IoAssignArcName, k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, IoAssignArcName routine [Kernel-Mode Driver Architecture], IoAssignArcName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	IoAssignArcName
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoAssignArcName macro
@@ -81,13 +81,17 @@ Pointer to a buffer containing the name of the device object, representing the s
 ## -remarks
 
 
+
 Drivers of hard disk devices need not call this routine. Drivers of other mass storage devices, including floppy, CD-ROM, and tape devices, should call <b>IoAssignArcName</b> during their initialization. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
 
  
 

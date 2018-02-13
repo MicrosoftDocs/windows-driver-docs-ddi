@@ -40,7 +40,7 @@ apiname:
 -	GetCaptureHandle
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETCAPTUREHANDLE callback
@@ -86,20 +86,28 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-_d3d11_1ddi_getcapturehandle
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 Before the Microsoft Direct3D runtime calls the <i>GetCaptureHandle</i> function, it sets the <b>hResource</b>  and <b>ArrayIndex</b> members of the <a href="..\d3d10umddi\ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata.md">D3D11_1DDI_GETCAPTUREHANDLEDATA</a> structure to specify a resource. When this function is called, the driver updates the structure with the kernel mode allocation handle associated with the specified resource, as well as the size of the resource data and its offset within an allocated block of memory.
-<div class="alert"><b>Note</b>  The Direct3D runtime calls this function only for resources that were created with the <b>D3D11_DDI_BIND_CAPTURE</b> flag.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The Direct3D runtime calls this function only for resources that were created with the <b>D3D11_DDI_BIND_CAPTURE</b> flag.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata.md">D3D11_1DDI_GETCAPTUREHANDLEDATA</a>
+
+
 
  
 

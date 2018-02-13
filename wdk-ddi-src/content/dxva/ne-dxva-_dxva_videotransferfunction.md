@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ed04fd0-685d-4b5a-a23f-337a14506f8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoTransFunc_22_709, display.dxva_videotransferfunction, _DXVA_VideoTransferFunction, dxva/DXVA_VideoTransFunc_22_8bit_sRGB, DXVA_VideoTransFuncMask, DXVA_VideoTransFunc_18, DXVA_VideoTransFunc_Unknown, DXVA_VideoTransFunc_22, dxva/DXVA_VideoTransFunc_22_240M, DXVA_VideoTransferFunction enumeration [Display Devices], DXVA_VideoTransferFunction, dxva/DXVA_VideoTransferFunction, dxva/DXVA_VideoTransFunc_20, dxva/DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_10, DXVA_VideoTransFunc_22_240M, DXVA_VideoTransFunc_10, dxva/DXVA_VideoTransFuncMask, DXVA_VideoTransFunc_22_709, DXVA_VideoTransFunc_20, dxva/DXVA_VideoTransFunc_22, dxva/DXVA_VideoTransFunc_Unknown, dxvaref_67be6e0a-79c6-4821-b3c3-899c2a2f9234.xml, dxva/DXVA_VideoTransFunc_28, DXVA_VideoTransFuncShift, DXVA_VideoTransFunc_22_8bit_sRGB, DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFunc_18
+ms.keywords: display.dxva_videotransferfunction, dxva/DXVA_VideoTransferFunction, dxva/DXVA_VideoTransFunc_18, DXVA_VideoTransferFunction enumeration [Display Devices], DXVA_VideoTransFunc_20, DXVA_VideoTransFunc_18, DXVA_VideoTransFunc_10, DXVA_VideoTransFunc_22_709, DXVA_VideoTransFunc_Unknown, dxva/DXVA_VideoTransFunc_22_709, dxva/DXVA_VideoTransFunc_20, DXVA_VideoTransferFunction, dxva/DXVA_VideoTransFuncMask, dxva/DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_Unknown, DXVA_VideoTransFunc_22, DXVA_VideoTransFunc_22_8bit_sRGB, DXVA_VideoTransFunc_28, dxva/DXVA_VideoTransFunc_22, dxva/DXVA_VideoTransFunc_22_240M, DXVA_VideoTransFunc_22_240M, DXVA_VideoTransFuncMask, dxva/DXVA_VideoTransFunc_28, dxvaref_67be6e0a-79c6-4821-b3c3-899c2a2f9234.xml, _DXVA_VideoTransferFunction, dxva/DXVA_VideoTransFunc_10, DXVA_VideoTransFuncShift, dxva/DXVA_VideoTransFunc_22_8bit_sRGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,36 +111,33 @@ Specifies true 2.0 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 
 
 
-#### 
+######### 
 
 
 
-#### 
-
+###### 
 
 
 ### -field DXVA_VideoTransFunc_22_709
 
 
 
-#### 
+###### 
 
 
 
-#### 
-
+##### 
 
 
 ### -field DXVA_VideoTransFunc_22_240M
 
 
 
-#### 
+###### 
 
 
 
-#### 
-
+##### 
 
 
 ### -field DXVA_VideoTransFunc_22_8bit_sRGB
@@ -156,15 +153,19 @@ Specifies true 2.8 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 ## -remarks
 
 
+
 One of the enumerators of DXVA_VideoTransferFunction can be specified in the <b>VideoTransferFunction</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
 
 DXVA_VideoTransferFunction corresponds to the gamma function of the data. Some transfer functions have corrections to account for 8 bit integer quantization effects.
 
 
 
+
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+
 
  
 

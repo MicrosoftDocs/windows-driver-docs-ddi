@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: faee1991-a183-4285-af14-402094dc6694
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetradiostatedetailsparams, RILGETRADIOSTATEDETAILSPARAMS, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS, *LPRILGETRADIOSTATEDETAILSPARAMS
+ms.keywords: netvista.rilgetradiostatedetailsparams, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETRADIOSTATEDETAILSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETRADIOSTATEDETAILSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILGETRADIOSTATEDETAILSPARAMS, *LPRILGETRADIOSTATEDETAILSPARAMS
+req.typenames: "*LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS"
 ---
 
 # RILGETRADIOSTATEDETAILSPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILGETRADIOSTATEDETAILSPARAMS {
 ### -field dwGroupId
 
 
-
 ### -field dwItemId
-
 

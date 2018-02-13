@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EF8E3D1D-9C87-4083-A022-FD888D370B20
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_int_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
+ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_int_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function
@@ -153,7 +153,9 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
@@ -161,11 +163,19 @@ This function does not return a value.
 
 <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
+
+
 <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+
+
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
+
+
 <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
+
+
 
  
 

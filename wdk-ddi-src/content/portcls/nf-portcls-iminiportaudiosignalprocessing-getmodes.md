@@ -7,8 +7,8 @@ old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 old-project: audio
 ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetModes, GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, audio.iminiportaudiosignalprocessing_getmodes, IMiniportAudioSignalProcessing::GetModes, GetModes method [Audio Devices], IMiniportAudioSignalProcessing, portcls/IMiniportAudioSignalProcessing::GetModes
+ms.date: 2/8/2018
+ms.keywords: GetModes method [Audio Devices], IMiniportAudioSignalProcessing::GetModes, GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,11 +87,14 @@ When used as an input, it specifies the number of elements that can be written t
 ## -returns
 
 
+
 <b>GetModes</b> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 If <i>SignalProcessingModes</i> is NULL, then <b>GetModes</b> writes the number of supported modes to <i>NumSignalProcessingModes</i> and returns STATUS_SUCCESS. This allows callers to query the number of supported modes in order to allocate buffers.
@@ -99,6 +102,7 @@ If <i>SignalProcessingModes</i> is NULL, then <b>GetModes</b> writes the number 
 If <i>SignalProcessingModes</i> is not NULL, then <b>GetModes</b> verifies that <i>NumSignalProcessingModes</i> is greater than or equal to the number of supported modes. If it is, then the method writes the supported modes to the <i>SignalProcessingModes</i> buffer, writes the actual number of supported modes to <i>NumSignalProcessingModes</i>, and returns STATUS_SUCCESS.
 
 The following table presents and explains  the error messages than can be returned by <b>GetModes</b>.
+
 <table>
 <tr>
 <th>Error code</th>
@@ -116,7 +120,9 @@ The following table presents and explains  the error messages than can be return
 <td>STATUS_NOT_SUPPORTED</td>
 <td>A Pin ID was specified for a pin which does not support signal processing modes. For example,  if the Pin ID refers to an audio loopback pin  or a bridge pin, then <b>GetModes</b> will return this error code.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -124,9 +130,11 @@ The following table presents and explains  the error messages than can be return
 
 <a href="..\portcls\nn-portcls-iminiportaudiosignalprocessing.md">IMiniportAudioSignalProcessing</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioSignalProcessing::GetModes method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioSignalProcessing::GetModes method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

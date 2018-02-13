@@ -7,8 +7,8 @@ old-location: ifsk\fltgetactivityidcallbackdata.htm
 old-project: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], ifsk.fltgetactivityidcallbackdata, FltGetActivityIdCallbackData
+ms.date: 2/7/2018
+ms.keywords: FltGetActivityIdCallbackData routine [Installable File System Drivers], ifsk.fltgetactivityidcallbackdata, fltkernel/FltGetActivityIdCallbackData, FltGetActivityIdCallbackData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,9 @@ A pointer to the GUID structure receiving the activity ID.
 ## -returns
 
 
+
 <b>FltGetActivityIdCallbackData</b> returns one of the following <b>NTSTATUS</b> values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,19 +122,25 @@ An activity ID was returned in the <b>GUID</b> value pointed to by <i>Guid</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetActivityIdCallbackData routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetActivityIdCallbackData routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

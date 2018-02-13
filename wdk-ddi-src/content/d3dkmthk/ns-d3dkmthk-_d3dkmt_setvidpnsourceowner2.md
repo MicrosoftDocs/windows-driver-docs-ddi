@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a6477db-23ad-42ad-b1cb-d81c7be4cf38
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER2, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, display.d3dkmt-setvidpnsourceowner2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER2
+ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], display.d3dkmt-setvidpnsourceowner2, _D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

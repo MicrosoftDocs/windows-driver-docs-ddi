@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterScriptablePropertyBag2, print.iprinterscriptablepropertybag2_getreadstreamasxml, GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, GetReadStreamAsXML, IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, GetReadStreamAsXML method [Print Devices], printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
+ms.keywords: GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, GetReadStreamAsXML, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML, IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,21 +72,23 @@ HRESULT GetReadStreamAsXML(
 ### -param bstrName [in]
 
 
-
 ### -param ppXmlNode [out]
 
 
-
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag2.md">IPrinterScriptablePropertyBag2</a>
+
+
 
  
 

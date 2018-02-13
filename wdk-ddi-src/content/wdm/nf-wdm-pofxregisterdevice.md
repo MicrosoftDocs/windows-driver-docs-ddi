@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41A8B278-3735-41CB-B8D1-45FBF04465AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxRegisterDevice, wdm/PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice
+ms.keywords: wdm/PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, PoFxRegisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a location into which the routine writes a handle that represents t
 ## -returns
 
 
+
 <b>PoFxRegisterDevice</b> returns <b>STATUS_SUCCESS</b> if the routine successfully registers the device. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,23 +129,28 @@ Insufficient resources are available to complete the registration.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A device driver typically calls this routine from the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request handler. The driver must not call this routine before the device receives an <b>IRP_MN_START_DEVICE</b> request. The device receives the first <b>IRP_MN_START_DEVICE</b> request when the device is being started for the first time. The device receives an additional <b>IRP_MN_START_DEVICE</b> request each time the device is restarted after being stopped for resource balancing. A <b>PoFxRegisterDevice</b> call to register a device that is already registered is a fatal error and causes a bug check.
 
 Before the driver calls <b>PoFxRegisterDevice</b>, the device must meet the following conditions:
+
 <ul>
 <li>The device (that is, the PDO) is not already registered with PoFx.</li>
 <li>The device is in the D0 (fully on) power state.</li>
 <li>The device is in the running condition.</li>
 <li>Every component in the device is in the F0 (fully on) power state.</li>
 <li>Every component is in the active condition.</li>
-</ul>By registering the device with PoFx, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. While the device is registered, the driver must call the <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a> routine to gain access to a component's hardware registers, and the driver must call the <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a> routine to notify PoFx when the driver no longer requires access to the component.
+</ul>
+By registering the device with PoFx, the driver assumes the responsibility for informing PoFx when a component is actively being used and when the component is idle. While the device is registered, the driver must call the <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a> routine to gain access to a component's hardware registers, and the driver must call the <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a> routine to notify PoFx when the driver no longer requires access to the component.
 
 After a driver calls <b>PoFxRegisterDevice</b> to register a device with PoFx, all components in the device are fully on and in the active condition so that the driver can finish initializing the hardware. To start active power management, the driver must call the <a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a> routine.
 
@@ -155,21 +162,36 @@ For information about how the KMDF driver for a multiple-component device regist
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+
+
 
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
 
  
 

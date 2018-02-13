@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 75ffe04a-4d77-4486-8fc7-35b0b6144b99
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PDEV_USE_TRUE_COLOR structure [Print Devices], print.pdev_use_true_color, PDEV_USE_TRUE_COLOR, printoem/PDEV_USE_TRUE_COLOR, _PDEV_USE_TRUE_COLOR, print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml
+ms.keywords: printoem/PDEV_USE_TRUE_COLOR, print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml, _PDEV_USE_TRUE_COLOR, PDEV_USE_TRUE_COLOR, print.pdev_use_true_color, PDEV_USE_TRUE_COLOR structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ Specifies whether the PostScript output should be in color mode or in monochrome
 ## -remarks
 
 
+
 This structure is available in Windows XP and later. 
 
 The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
@@ -84,9 +85,12 @@ A plug-in can use this flag to turn color output on or off for Pscript5 printer 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
+
+
 
  
 

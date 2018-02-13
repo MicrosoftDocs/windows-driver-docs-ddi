@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], IoGetInitialStack, kernel.iogetinitialstack, k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml
+ms.keywords: k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, wdm/IoGetInitialStack, kernel.iogetinitialstack, IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,25 +67,34 @@ PVOID IoGetInitialStack(void);
 
 
 
+
 ## -returns
+
 
 
 <b>IoGetInitialStack</b> returns the initial base address of the current thread's stack. 
 
 
 
+
 ## -remarks
+
 
 
 Highest-level drivers can call this routine, particularly file systems attempting to determine whether they've been passed a pointer to a location on the current thread's stack. 
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
+
 
 <a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
-<a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
+
 
  
 

@@ -88,14 +88,18 @@ The length of the buffer is the size of the <b>BTHX_CAPABILITIES</b> structure.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -121,10 +126,12 @@ The IOCTL completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 During startup, the Bluetooth stack sends IOCTL_BTHX_QUERY_CAPABILITIES to query the capabilities of the transport driver.
@@ -134,5 +141,6 @@ This is a synchrononous call and failure of this IOCTL prevents Windows from loa
 The output buffer of this IOCTL is defined by the BTHX_CAPABILITIES structure.
 
 The <b>MaxScoChannels</b> member must be set to 1. The <b>ScoSupport</b> member must be set to <b>ScoSupportHCIBypass</b>. Failure to do so prevents the stack from being loaded.
+
 
 

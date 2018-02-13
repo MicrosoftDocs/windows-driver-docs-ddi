@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 06f26404-c955-4034-8dd3-ad641c7b8010
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_videostreaminghints, KS_StreamingHint_CompWindowSize, KS_VideoStreamingHints enumeration [Streaming Media Devices], ksmedia/KS_StreamingHint_FrameInterval, vidcapstruct_d26d7d11-bfb8-4773-8ace-05793a7a7084.xml, KS_StreamingHint_CompQuality, ksmedia/KS_StreamingHint_CompWindowSize, KS_VideoStreamingHints, ksmedia/KS_VideoStreamingHints, KS_StreamingHint_FrameInterval, ksmedia/KS_StreamingHint_CompQuality, KS_StreamingHint_KeyFrameRate, KS_StreamingHint_PFrameRate, ksmedia/KS_StreamingHint_PFrameRate, ksmedia/KS_StreamingHint_KeyFrameRate
+ms.keywords: KS_StreamingHint_CompWindowSize, KS_VideoStreamingHints, ksmedia/KS_StreamingHint_PFrameRate, KS_StreamingHint_CompQuality, ksmedia/KS_StreamingHint_CompWindowSize, KS_StreamingHint_PFrameRate, KS_StreamingHint_FrameInterval, KS_VideoStreamingHints enumeration [Streaming Media Devices], vidcapstruct_d26d7d11-bfb8-4773-8ace-05793a7a7084.xml, ksmedia/KS_StreamingHint_FrameInterval, stream.ks_videostreaminghints, ksmedia/KS_VideoStreamingHints, ksmedia/KS_StreamingHint_CompQuality, KS_StreamingHint_KeyFrameRate, ksmedia/KS_StreamingHint_KeyFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

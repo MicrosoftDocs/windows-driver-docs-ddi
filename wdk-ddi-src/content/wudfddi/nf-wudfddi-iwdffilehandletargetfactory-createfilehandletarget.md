@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CreateFileHandleTarget, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, CreateFileHandleTarget method, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, IWDFFileHandleTargetFactory, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, umdf.iwdffilehandletargetfactory_createfilehandletarget, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, wdf.iwdffilehandletargetfactory_createfilehandletarget
+ms.keywords: wdf.iwdffilehandletargetfactory_createfilehandletarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, CreateFileHandleTarget method, CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, umdf.iwdffilehandletargetfactory_createfilehandletarget, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,7 +84,9 @@ A pointer to a location that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 <b>CreateFileHandleTarget</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,7 +116,8 @@ A pointer to a location that receives a pointer to the <a href="..\wudfddi\nn-wu
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>CreateFileHandleTarget</b> might also return other HRESULT values that are defined in Winerror.h.
 
@@ -122,7 +125,9 @@ A pointer to a location that receives a pointer to the <a href="..\wudfddi\nn-wu
 
 
 
+
 ## -remarks
+
 
 
 If your driver uses a file-handle-based I/O target, the <b>DDInstall.WDF</b> section of the driver's INF file must set the <b>UmdfDispatcher</b> directive to <b>FileHandle</b>. For more information about <b>UmdfDispatcher</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives</a>.
@@ -138,14 +143,66 @@ When the driver has finished using the <a href="..\wudfddi\nn-wudfddi-iwdfiotarg
 For more information about <b>CreateFileHandleTarget</b> and I/O targets, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b-8eef-117ac0fe793e">Initializing a General I/O Target in UMDF</a>.
 
 
+#### Examples
+
+The following code example shows how to create a file-handle-based I/O target for a named pipe. In this example, <i>m_FxDevice</i> is the interface pointer that <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> provides.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
+CComPtr&lt;IWDFFileHandleTargetFactory&gt; pFileHandleTargetFactory;
+//
+// Create a pipe and get the handle.
+//
+m_WriteHandle = CreateNamedPipe(NP_NAME, 
+                                PIPE_ACCESS_DUPLEX|FILE_FLAG_OVERLAPPED, 
+                                PIPE_TYPE_MESSAGE|PIPE_READMODE_MESSAGE|PIPE_WAIT,
+                                2,
+                                MAX_TRANSFER_SIZE,
+                                MAX_TRANSFER_SIZE,
+                                1000,
+                                NULL);
+if (m_WriteHandle == INVALID_HANDLE_VALUE) {
+    DWORD err = GetLastError();
+    hr = HRESULT_FROM_WIN32(err);
+}
+//
+// Obtain the IWDFFileHandleTargetFactory interface
+// by calling IWDFDevice::QueryInterface. 
+//
+if (SUCCEEDED(hr)) {
+    hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;pFileHandleTargetFactory));
+}
+//
+// Create a file handle target.
+//
+if (SUCCEEDED(hr)) {
+    hr = pFileHandleTargetFactory-&gt;CreateFileHandleTarget(m_WriteHandle,
+                                                          &amp;m_WriteTarget);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFileHandleTargetFactory</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+
 
  
 

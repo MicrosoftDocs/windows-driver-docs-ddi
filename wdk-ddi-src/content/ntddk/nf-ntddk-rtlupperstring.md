@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUpperString routine [Kernel-Mode Driver Architecture], RtlUpperString, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, ntddk/RtlUpperString, kernel.rtlupperstring
+ms.keywords: ntddk/RtlUpperString, RtlUpperString, kernel.rtlupperstring, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, RtlUpperString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlUpperString
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlUpperString function
@@ -81,11 +81,14 @@ Pointer to the source string to be converted to uppercase.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>MaximumLength</b> and <b>Buffer</b> members of <i>DestinationString</i> are not modified by this routine.
@@ -94,9 +97,12 @@ The number of bytes copied from <i>SourceString</i> is either the <b>Length</b> 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-rtlupperchar.md">RtlUpperChar</a>
+
+
 
  
 

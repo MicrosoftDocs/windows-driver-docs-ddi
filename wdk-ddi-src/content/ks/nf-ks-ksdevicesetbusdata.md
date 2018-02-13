@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b319f2a4-dbbe-4324-8f8d-a42bb40d7939
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, stream.ksdevicesetbusdata, ks/KsDeviceSetBusData, KsDeviceSetBusData function [Streaming Media Devices], KsDeviceSetBusData
+ms.keywords: KsDeviceSetBusData, stream.ksdevicesetbusdata, ks/KsDeviceSetBusData, avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, KsDeviceSetBusData function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,14 @@ This parameter specifies the number of bytes of data to write to the bus from <i
 ## -returns
 
 
+
 <b>KsDeviceSetBusData</b> returns the number of bytes actually written to the bus. In the case of an error, the routine returns zero. See details below in the Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 This function performs differently depending on the driver for the bus on which the specified device resides. If the bus driver supports the bus interface standard (usually PCI), call this function at either IRQL = PASSIVE_LEVEL or DISPATCH_LEVEL. After such a call, <b>KsDeviceSetBusData</b> returns the actual number of bytes written to the requested space.
@@ -115,11 +118,16 @@ Drivers running on Windows 2000 and later can make this call at IRQL = DISPATCH_
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
 
 <a href="..\ks\nf-ks-ksdevicegetbusdata.md">KsDeviceGetBusData</a>
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
 
  
 

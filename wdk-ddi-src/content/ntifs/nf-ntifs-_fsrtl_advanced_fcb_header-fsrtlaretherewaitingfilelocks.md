@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlaretherewaitingfilelocks.htm
 old-project: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlAreThereWaitingFileLocks, ntifs/FsRtlAreThereWaitingFileLocks, ifsk.fsrtlaretherewaitingfilelocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], FsRtlAreThereWaitingFileLocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,8 @@ The file lock that specifies locked ranges.
 
 
 
+
       Returns <b>TRUE</b> if waiting file  locks are present;  <b>FALSE</b> otherwise.
+
 
 

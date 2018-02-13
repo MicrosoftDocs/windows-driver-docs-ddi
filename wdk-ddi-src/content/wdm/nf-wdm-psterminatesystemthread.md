@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04f9f699-0ca1-4b22-b66f-04fcf53935c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml, kernel.psterminatesystemthread, wdm/PsTerminateSystemThread, PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsTerminateSystemThread, wdm/PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], kernel.psterminatesystemthread, k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,20 +76,26 @@ Specifies the status of the terminating system thread.
 ## -returns
 
 
+
 <b>PsTerminateSystemThread</b> does not return if it successfully terminates the calling thread. If the routine cannot terminate the thread (for example, if the thread is not a system thread), the routine returns an error NTSTATUS value. 
+
 
 
 
 ## -remarks
 
 
+
 A system thread calls <b>PsTerminateSystemThread</b> to terminate itself. A driver that creates its own threads must ensure that each such thread terminates. The driver must not terminate any threads that the system or other drivers created. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
 
  
 

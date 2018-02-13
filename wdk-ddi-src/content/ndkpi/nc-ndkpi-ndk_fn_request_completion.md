@@ -84,20 +84,26 @@ The asynchronous completion status for the request. See the asynchronous request
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Many NDK requests can be completed asynchronously. Asynchronous request functions require the consumer to pass an <i>NDK_FN_REQUEST_COMPLETION</i> function pointer as an input. If an asynchronous request function returns STATUS_PENDING, the provider must call the <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>)  function to indicate completion of the request. If an asynchronous request functions returns anything other than STATUS_PENDING,   the request was handled immediately and the provider must not call <i>NdkRequestCompletion</i>.
+
 
 
 
 ## -see-also
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
+
+
 
  
 

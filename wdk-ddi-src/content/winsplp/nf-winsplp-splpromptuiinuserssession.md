@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SplPromptUIInUsersSession, winsplp/SplPromptUIInUsersSession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, print.splpromptuiinuserssession, SplPromptUIInUsersSession function [Print Devices]
+ms.keywords: winsplp/SplPromptUIInUsersSession, SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ Pointer to a memory location that contains either the user's response or the IDA
 ## -returns
 
 
+
 On success, the <code>SplPromptUIInUsersSession</code> function returns <b>TRUE</b>; otherwise it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 If <i>pUIParams</i> -&gt;<b>bWait</b> is <b>FALSE</b>, this function returns immediately without waiting for the user's response. In that case, *<i>pResponse</i> is set to IDASYNC. 
@@ -107,11 +110,16 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 
 
+
 ## -see-also
+
+<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
+
+
 
 <a href="..\winsplp\nf-winsplp-splissessionzero.md">SplIsSessionZero</a>
 
-<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
+
 
  
 

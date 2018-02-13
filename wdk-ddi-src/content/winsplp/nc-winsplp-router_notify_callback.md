@@ -40,7 +40,7 @@ apiname:
 -	ROUTER_NOTIFY_CALLBACK
 product: Windows
 targetos: Windows
-req.typenames: "*PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, SCARD_IO_REQUEST"
+req.typenames: "*LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, SCARD_IO_REQUEST"
 req.product: Windows 10 or later.
 ---
 
@@ -79,23 +79,17 @@ ROUTER_NOTIFY_CALLBACK ROUTER_NOTIFY_CALLBACK;
 ### -param dwCommand [in]
 
 
-
 ### -param pContext [in]
-
 
 
 ### -param dwColor [in]
 
 
-
 ### -param pNofityInfo [in]
-
 
 
 ### -param fdwFlags [in]
 
 
-
 ### -param pdwResult [out]
-
 

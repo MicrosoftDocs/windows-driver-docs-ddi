@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5886fa3-dc37-4764-9304-3609a4ced0ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreePool routine [Storage Devices], storage.storportfreepool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml, storport/StorPortFreePool, StorPortFreePool
+ms.keywords: storage.storportfreepool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml, storport/StorPortFreePool, StorPortFreePool routine [Storage Devices], StorPortFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to the block of memory to free. This must be a pointer that was return
 ## -returns
 
 
+
 StorPortFreePool returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,13 +134,17 @@ The call was made at an invalid IRQL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
+
+
 
  
 

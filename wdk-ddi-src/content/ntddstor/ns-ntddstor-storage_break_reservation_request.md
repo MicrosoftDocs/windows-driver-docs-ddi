@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06de4432-9437-4275-8d1e-606f209e1468
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_BREAK_RESERVATION_REQUEST, structs-general_f902ea12-3b3d-4eb7-9ac2-9a5abfabe13c.xml, PSTORAGE_BREAK_RESERVATION_REQUEST, storage.storage_break_reservation_request, ntddstor/PSTORAGE_BREAK_RESERVATION_REQUEST, STORAGE_BREAK_RESERVATION_REQUEST structure [Storage Devices], PSTORAGE_BREAK_RESERVATION_REQUEST structure pointer [Storage Devices], STORAGE_BREAK_RESERVATION_REQUEST, ntddstor/STORAGE_BREAK_RESERVATION_REQUEST"
+ms.keywords: STORAGE_BREAK_RESERVATION_REQUEST structure [Storage Devices], PSTORAGE_BREAK_RESERVATION_REQUEST structure pointer [Storage Devices], ntddstor/PSTORAGE_BREAK_RESERVATION_REQUEST, ntddstor/STORAGE_BREAK_RESERVATION_REQUEST, PSTORAGE_BREAK_RESERVATION_REQUEST, structs-general_f902ea12-3b3d-4eb7-9ac2-9a5abfabe13c.xml, STORAGE_BREAK_RESERVATION_REQUEST, storage.storage_break_reservation_request, *PSTORAGE_BREAK_RESERVATION_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ Contains the logical unit number.
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_break_reservation.md">IOCTL_STORAGE_BREAK_RESERVATION</a>
+
+
 
  
 

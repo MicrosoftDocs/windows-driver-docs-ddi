@@ -82,6 +82,7 @@ Indicates if a fatal SRQ error occurred. The following status codes are defined:
 
 
 
+
 <table>
 <tr>
 <th>Term</th>
@@ -108,19 +109,26 @@ A catastrophic error occurred on the SRQ. The SRQ is unusable. All of the associ
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  This routine is implemented by the NDK consumer and passed to the NDK provider.</div><div> </div>An NDK provider calls the <i>NdkSrqNotificationCallback</i> function when the number of receive requests that are queued on the SRQ falls below the minimum number of queued receive requests (<i>NotifyThreshold</i>). The   <i>NotifyThreshold</i> is an input parameter to the <i>NdkCreateSrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>)  and <i>NdkModifySrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>)  functions.
+
+<div class="alert"><b>Note</b>  This routine is implemented by the NDK consumer and passed to the NDK provider.</div>
+<div> </div>
+An NDK provider calls the <i>NdkSrqNotificationCallback</i> function when the number of receive requests that are queued on the SRQ falls below the minimum number of queued receive requests (<i>NotifyThreshold</i>). The   <i>NotifyThreshold</i> is an input parameter to the <i>NdkCreateSrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>)  and <i>NdkModifySrq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>)  functions.
+
 
 

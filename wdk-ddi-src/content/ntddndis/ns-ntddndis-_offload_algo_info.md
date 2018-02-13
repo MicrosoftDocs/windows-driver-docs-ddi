@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], netvista.offload_algo_info, ntddndis/POFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO
+ms.keywords: 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, ntddndis/POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], *POFFLOAD_ALGO_INFO, netvista.offload_algo_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_ALGO_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*POFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO"
+req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
 ---
 
 # _OFFLOAD_ALGO_INFO structure
@@ -81,12 +81,6 @@ If the algorithm is a confidentiality algorithm (that is, if the OFFLOAD_ALGO_IN
 
 
 
-If the algorithm is an integrity algorithm (that is, if the OFFLOAD_ALGO_INFO structure is specifying
-     an 
-     <b>IntegrityAlgo</b>), 
-     <b>algoIdentifier</b> can be one of the following values:
-
-
 
 
 #### OFFLOAD_IPSEC_CONF_NONE
@@ -95,14 +89,24 @@ Specifies no confidentiality algorithm. Used for null encryption--that is, when 
        encrypted but its ESP header contains authentication information.
 
 
+
 #### OFFLOAD_IPSEC_CONF_DES
 
 Specifies the DES algorithm.
 
 
+
 #### OFFLOAD_IPSEC_CONF_3_DES
 
 Specifies the triple-DES algorithm.
+
+If the algorithm is an integrity algorithm (that is, if the OFFLOAD_ALGO_INFO structure is specifying
+     an 
+     <b>IntegrityAlgo</b>), 
+     <b>algoIdentifier</b> can be one of the following values:
+
+
+
 
 
 #### OFFLOAD_IPSEC_INTEGRITY_NONE
@@ -111,9 +115,11 @@ Specifies no integrity algorithm. Used when the ESP header contains no authentic
        information.
 
 
+
 #### OFFLOAD_IPSEC_INTEGRITY_MD5
 
 Specifies the keyed MD5 algorithm.
+
 
 
 #### OFFLOAD_IPSEC_INTEGRITY_SHA
@@ -150,10 +156,13 @@ If both an integrity and a confidentiality algorithm (
 ### -field algoRounds
 
 The number of transformation rounds that the encryption algorithm performs.
+
 <div class="alert"><b>Note</b>  This member is only used for 
-      <a href="https://msdn.microsoft.com/1cf6306c-bb1d-40f6-a0e3-59c14a60a8ff">IPsec Offload Version 1</a>.</div><div> </div>
+      <a href="https://msdn.microsoft.com/1cf6306c-bb1d-40f6-a0e3-59c14a60a8ff">IPsec Offload Version 1</a>.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The OFFLOAD_ALGO_INFO structure specifies algorithm information in the 
@@ -165,11 +174,16 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
+
+
 
  
 

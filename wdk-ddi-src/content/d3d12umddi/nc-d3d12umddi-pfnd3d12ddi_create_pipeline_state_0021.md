@@ -76,16 +76,15 @@ HRESULT APIENTRY* pfnCreatePipelineState(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param D3D12DDI_HPIPELINESTATE
 
 
-
 ### -param D3D12DDI_HRTPIPELINESTATE
+
+
 
 
 
@@ -115,13 +114,17 @@ The handle of the pipeline state for the driver to use when it calls back into t
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 Access this function by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0021.md">D3D12DDI_DEVICE_FUNCS_CORE_0021</a> structure.
+
 
 

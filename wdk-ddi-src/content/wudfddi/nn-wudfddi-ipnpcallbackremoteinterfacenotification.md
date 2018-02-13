@@ -80,6 +80,8 @@ A driver's <a href="https://msdn.microsoft.com/19a0eec7-1a67-42ad-86d2-20566a2c1
 ## -remarks
 
 
+
 If your driver supports an <b>IPnpCallbackRemoteInterfaceNotification</b> interface for a device, the <b>IUnknown::QueryInterface</b> method that the driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> must return the interface. 
+
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], DXGKARG_ENUMVIDPNCOFUNCMODALITY, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality"
+ms.keywords: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality, DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,9 +87,11 @@ A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a> stru
 ## -remarks
 
 
+
 If a particular video present source or target is designated as the pivot of the enumeration, then <i>DxgkDdiEnumVidPnCofuncModality</i> must not change the mode set for that source or target.
 
 The D3DKMDT_HVIDPN data type is defined in <i>D3dkmdt.h</i>. The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types are defined in <i>D3dukmdt.h</i>.
+
 
 
 
@@ -97,9 +99,15 @@ The D3DKMDT_HVIDPN data type is defined in <i>D3dkmdt.h</i>. The D3DDDI_VIDEO_PR
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a>
+
+
 
  
 

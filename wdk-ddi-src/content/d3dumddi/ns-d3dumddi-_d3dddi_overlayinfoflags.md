@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, display.d3dddi_overlayinfoflags, D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, _D3DDDI_OVERLAYINFOFLAGS
+ms.keywords: D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], display.d3dddi_overlayinfoflags, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,6 +185,8 @@ A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
+
+
 
  
 

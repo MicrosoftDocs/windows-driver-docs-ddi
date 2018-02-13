@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, display.d3dddi_present_multiplane_overlay, D3DDDI_PRESENT_MULTIPLANE_OVERLAY, _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices]
+ms.keywords: display.d3dddi_present_multiplane_overlay, _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3D
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
+
+
 
  
 

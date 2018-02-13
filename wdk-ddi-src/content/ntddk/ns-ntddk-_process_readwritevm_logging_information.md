@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F1C769FD-D05F-4C23-A91E-FAEE8EA029EC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.process_readwritevm_logging_information, ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION, _PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION, ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], PPROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION, _PROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture], ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION, kernel.process_readwritevm_logging_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,11 @@ typedef union _PROCESS_READWRITEVM_LOGGING_INFORMATION {
 
 
 
+### -field Flags
+
+Reserved.
+
+
 ### -field EnableReadVmLogging
 
 Enables or disables read access. Non-zero values enables telemetry, zero disables it.
@@ -85,9 +90,4 @@ Enables or disables write access. Non-zero values enables telemetry, zero disabl
 ### -field Unused
 
 Do not use.
-
-
-### -field Flags
-
-Reserved.
 

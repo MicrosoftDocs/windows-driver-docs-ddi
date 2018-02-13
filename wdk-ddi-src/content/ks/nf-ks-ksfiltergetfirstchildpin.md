@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b026908a-51d4-45a8-9c0e-1c163563bfbf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterGetFirstChildPin function [Streaming Media Devices], stream.ksfiltergetfirstchildpin, avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, KsFilterGetFirstChildPin, ks/KsFilterGetFirstChildPin
+ms.keywords: ks/KsFilterGetFirstChildPin, stream.ksfiltergetfirstchildpin, avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, KsFilterGetFirstChildPin, KsFilterGetFirstChildPin function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,14 +82,18 @@ The numeric ID of the pin type for which to find the first instantiated member.
 ## -returns
 
 
+
 <b>KsFilterGetFirstChildPin</b> returns a pointer to the first instantiated <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure of type <i>PinID</i> on the specified filter.
+
 
 
 
 ## -remarks
 
 
+
 Note that the object hierarchy is guaranteed stable only while the appropriate mutex is held, in this case the filter control mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+
 
 
 
@@ -97,9 +101,15 @@ Note that the object hierarchy is guaranteed stable only while the appropriate m
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
+
+
 <a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
 
+
+
 <a href="..\ks\nf-ks-ksfiltergetchildpincount.md">KsFilterGetChildPinCount</a>
+
+
 
  
 

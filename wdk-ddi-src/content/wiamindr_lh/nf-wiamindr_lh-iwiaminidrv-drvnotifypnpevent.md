@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 55d6d93b-c20f-435b-ba99-2df26bd17240
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvNotifyPnpEvent, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
+ms.keywords: IWiaMiniDrv::drvNotifyPnpEvent, IWiaMiniDrv interface [Imaging Devices], drvNotifyPnpEvent method, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices], IWiaMiniDrv interface, drvNotifyPnpEvent, image.iwiaminidrv_drvnotifypnpevent, IWiaMiniDrv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,11 +93,14 @@ Points to a GUID identifying the event.
 ## -returns
 
 
+
 On success, the method should return S_OK. If the method fails, it should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 The WIA service notifies a WIA minidriver of a supported device event by calling the <b>IWiaMiniDrv::drvNotifyPnpEvent</b> method. In this method the minidriver implements the device-specific functionality needed to respond to the event.
@@ -106,11 +109,16 @@ If this method is called with *<i>pEventGuid</i> set to WIA_EVENT_CANCEL_IO devi
 
 
 
+
 ## -see-also
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
 
  
 

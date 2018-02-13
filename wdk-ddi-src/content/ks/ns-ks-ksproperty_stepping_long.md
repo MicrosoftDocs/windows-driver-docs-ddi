@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bf0c16f5-ecfa-42bc-bd60-805d5b28ddc3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_stepping_long, *PKSPROPERTY_STEPPING_LONG, PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, ks/KSPROPERTY_STEPPING_LONG, ks/PKSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices], PKSPROPERTY_STEPPING_LONG
+ms.keywords: PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], ks/PKSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG, ks/KSPROPERTY_STEPPING_LONG, ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, *PKSPROPERTY_STEPPING_LONG, PKSPROPERTY_STEPPING_LONG, stream.ksproperty_stepping_long, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_STEPPING_LONG
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG"
+req.typenames: KSPROPERTY_STEPPING_LONG, *PKSPROPERTY_STEPPING_LONG
 ---
 
 # KSPROPERTY_STEPPING_LONG structure
@@ -87,6 +87,7 @@ A structure of type <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_B
 ## -remarks
 
 
+
 The <a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a> structure may contain structures of this type in its <b>Members</b> array.
 
 See the Testcap sample in the Windows Driver Kit (WDK) for examples of usage.
@@ -95,11 +96,16 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
 
+
+
 <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
+
+
 
  
 

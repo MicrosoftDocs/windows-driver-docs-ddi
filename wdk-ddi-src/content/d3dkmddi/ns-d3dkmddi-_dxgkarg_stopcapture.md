@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09b1275f-9755-44f7-ab8a-1b6797bfefde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml, DXGKARG_STOPCAPTURE structure [Display Devices], DXGKARG_STOPCAPTURE, _DXGKARG_STOPCAPTURE, d3dkmddi/DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture
+ms.keywords: d3dkmddi/DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE structure [Display Devices], DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture, _DXGKARG_STOPCAPTURE, DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _DXGKARG_STOPCAPTURE {
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_stopcapture.md">DxgkDdiStopCapture</a>
+
+
 
  
 

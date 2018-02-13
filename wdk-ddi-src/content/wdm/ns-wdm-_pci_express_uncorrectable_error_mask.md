@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0dfc6e49-5556-4163-abef-b00a26a7a2ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_uncorrectable_error_mask, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml"
+ms.keywords: PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_uncorrectable_error_mask, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
+req.typenames: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 req.product: Windows 10 or later.
 ---
 
@@ -198,9 +198,11 @@ A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MA
 ## -remarks
 
 
+
 The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structures.
+
 
 
 
@@ -208,9 +210,15 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
 
  
 

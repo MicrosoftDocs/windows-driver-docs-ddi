@@ -7,8 +7,8 @@ old-location: sensors\isensorclassextension_initialize.htm
 old-project: sensors
 ms.assetid: 9b5b9cdf-06a9-410f-87c3-b87318c25a11
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: Initialize, ISensorClassExtension, ISensorClassExtension::Initialize, sensors.isensorclassextension_initialize, Initialize method [Sensor Devices]
+ms.date: 2/8/2018
+ms.keywords: ISensorClassExtension, ISensorClassExtension::Initialize, sensors.isensorclassextension_initialize, Initialize method [Sensor Devices], Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,7 +83,9 @@ IUnknown pointer for the object that implements the ISensorDriver callback inter
 ## -returns
 
 
+
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values. See Remarks.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,15 +146,20 @@ The WPD_OBJECT_ID for the sensor is not valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 First, create the sensor class extension by calling the COM CoCreateInstance method, and then call Initialize. We recommend that you perform these initialization steps when called by UMDF in <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>. After Initialize returns, the driver must be ready to receive callbacks from the sensor class extension. The sensor class extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> during initialization. Your driver must be ready to return values for all required properties and data fields before it calls Initialize.
 
 Because the class extension calls your driver during initialization, this method can also return HRESULTs that your driver returns from <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a>.
+
 <div class="code"></div>
+
 

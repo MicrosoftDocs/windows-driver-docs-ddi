@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCYCLEPORT, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort, wdf.wdfusbtargetdeviceformatrequestforcycleport, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport
+ms.keywords: PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCYCLEPORT, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport, wdf.wdfusbtargetdeviceformatrequestforcycleport, DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfUsbTargetDeviceFormatRequestForCyclePort
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,9 @@ A handle to a framework request object. For more information, see the following 
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,7 +115,8 @@ Insufficient memory was available.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -123,7 +126,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b>, followed by <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, to send a power-cycle request either synchronously or asynchronously. Alternatively, use the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md">WdfUsbTargetDeviceCyclePortSynchronously</a> method to send a request synchronously. 
@@ -143,18 +148,63 @@ Multiple calls to <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b> that use th
 For more information about the <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example formats a power-cycle request, registers a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, and sends the request to an I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfUsbTargetDeviceFormatRequestForCyclePort(
+                                            UsbDevice,
+                                            request
+                                            );
+if (!NT_SUCCESS(status)){
+    return status;
+}
+WdfRequestSetCompletionRoutine(
+                               request,
+                               MyCompletionRoutine,
+                               NULL
+                               );
+
+if (WdfRequestSend(
+                   request,
+                   WdfUsbTargetDeviceGetIoTarget(UsbDevice),
+                   NULL
+                   ) == FALSE) {
+    status = WdfRequestGetStatus(request);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md">WdfUsbTargetDeviceCyclePortSynchronously</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
 
  
 

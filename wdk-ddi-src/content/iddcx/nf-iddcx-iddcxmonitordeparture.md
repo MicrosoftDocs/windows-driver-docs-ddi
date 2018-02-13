@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorDeparture method [Display Devices], IddCxMonitorDeparture, display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
+ms.keywords: iddcx/IddCxMonitorDeparture, display.iddcxmonitordeparture, IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,7 +78,9 @@ The monitor object that is departing
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

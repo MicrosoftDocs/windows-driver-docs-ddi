@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml, dxva/DXVA_DeinterlaceQueryAvailableModes, _DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices]
+ms.keywords: display.dxva_deinterlacequeryavailablemodes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], _DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes, dxva/DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,8 +87,10 @@ An array of GUIDs that are returned for the available deinterlace modes.
 ## -remarks
 
 
+
 The driver receives the DXVA_DeinterlaceQueryAvailableModes structure with the <b>Size</b> member assigned, assigns values to the remaining members, and returns DXVA_DeinterlaceQueryAvailableModes to the renderer.
 
 There is a GUID for each deinterlace and frame conversion mode returned by the driver. The GUIDs should be returned in order of descending quality (that is, the highest quality mode should occupy the first element of the GUID array returned). 
+
 
 

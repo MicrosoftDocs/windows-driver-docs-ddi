@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxPowerControl, StorPortPoFxPowerControl, storage.storportpofxpowercontrol, StorPortPoFxPowerControl routine [Storage Devices]
+ms.keywords: StorPortPoFxPowerControl, storport/StorPortPoFxPowerControl, storage.storportpofxpowercontrol, StorPortPoFxPowerControl routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,9 @@ A pointer to a location into which the routine writes the number of bytes of dat
 ## -returns
 
 
+
 The <b>StorPortPoFxPowerControl</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -187,11 +189,14 @@ The power control operation was unsuccessful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A minport driver calls this routine to send a power control request directly to the PEP. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to PEP and is not observed by other device drivers in the device stack. During a <b>StorPortPoFxPowerControl</b> call, the PEP synchronously performs the requested operation.
@@ -200,11 +205,16 @@ Similarly, The PEP can send a power control request directly to the miniport. Th
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
+
+
 
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
-<a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
+
 
  
 

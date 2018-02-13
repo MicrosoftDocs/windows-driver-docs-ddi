@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1304fb4-87c8-4a0f-a10f-6a2c5cbaed20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: OFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA structure [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_IPSEC_DELETE_UDPESP_SA, 216offload_7d48a18d-546e-4e72-baf6-5a9e8de5a615.xml, POFFLOAD_IPSEC_DELETE_UDPESP_SA, ntddndis/POFFLOAD_IPSEC_DELETE_UDPESP_SA, POFFLOAD_IPSEC_DELETE_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], netvista.offload_ipsec_delete_udpesp_sa, _OFFLOAD_IPSEC_DELETE_UDPESP_SA, *POFFLOAD_IPSEC_DELETE_UDPESP_SA
+ms.keywords: OFFLOAD_IPSEC_DELETE_UDPESP_SA structure [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_DELETE_UDPESP_SA, 216offload_7d48a18d-546e-4e72-baf6-5a9e8de5a615.xml, ntddndis/OFFLOAD_IPSEC_DELETE_UDPESP_SA, POFFLOAD_IPSEC_DELETE_UDPESP_SA, *POFFLOAD_IPSEC_DELETE_UDPESP_SA, ntddndis/POFFLOAD_IPSEC_DELETE_UDPESP_SA, netvista.offload_ipsec_delete_udpesp_sa, POFFLOAD_IPSEC_DELETE_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_IPSEC_DELETE_UDPESP_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_IPSEC_DELETE_UDPESP_SA
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_IPSEC_DELETE_UDPESP_SA, *POFFLOAD_IPSEC_DELETE_UDPESP_SA
+req.typenames: "*POFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA"
 ---
 
 # _OFFLOAD_IPSEC_DELETE_UDPESP_SA structure
@@ -83,9 +83,11 @@ When <b>NULL</b>, the miniport does not have to delete a parser entry in additio
 ## -remarks
 
 
+
 The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure is used with the 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff569809">
     OID_TCP_TASK_IPSEC_DELETE_UDPESP_SA</a> OID.
+
 
 
 
@@ -93,6 +95,8 @@ The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure is used with the
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff569809">
    OID_TCP_TASK_IPSEC_DELETE_UDPESP_SA</a>
+
+
 
  
 

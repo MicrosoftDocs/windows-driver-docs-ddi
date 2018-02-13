@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 34DAA236-ACD0-4C25-BB45-00A81D2F131D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: DeviceNotificationMaximum, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/SignalMultipleDeviceEvents, SignalDeviceEvent, strmini/ReadyForNextDeviceRequest, strmini/DeleteDeviceEvent, SignalMultipleDeviceEvents, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/SignalDeviceEvent, strmini/SignalMultipleDeviceInstanceEvents, strmini/DeviceRequestComplete, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], ReadyForNextDeviceRequest, DeleteDeviceEvent, DeviceRequestComplete, stream.stream_minidriver_device_notification_type, strmini/DeviceNotificationMaximum, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], SignalMultipleDeviceInstanceEvents, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
+ms.keywords: "_STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/DeleteDeviceEvent, DeleteDeviceEvent, strmini/SignalMultipleDeviceInstanceEvents, strmini/ReadyForNextDeviceRequest, SignalDeviceEvent, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, stream.stream_minidriver_device_notification_type, strmini/DeviceRequestComplete, ReadyForNextDeviceRequest, strmini/SignalDeviceEvent, strmini/SignalMultipleDeviceEvents, SignalMultipleDeviceEvents, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], DeviceNotificationMaximum, SignalMultipleDeviceInstanceEvents, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, DeviceRequestComplete, strmini/DeviceNotificationMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,19 +89,14 @@ Indicates that the specified device SRB has completed.
 ### -field SignalMultipleDeviceEvents
 
 
-
 ### -field SignalDeviceEvent
-
 
 
 ### -field DeleteDeviceEvent
 
 
-
 ### -field SignalMultipleDeviceInstanceEvents
 
 
-
 ### -field DeviceNotificationMaximum
-
 

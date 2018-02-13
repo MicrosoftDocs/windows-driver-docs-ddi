@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, InitializeFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, InitializeFilter method [Imaging Devices], IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, IWiaImageFilter, wia_lh/IWiaImageFilter::InitializeFilter, IWiaImageFilter::InitializeFilter, InitializeFilter method [Imaging Devices]
+ms.keywords: IWiaImageFilter, wia_lh/IWiaImageFilter::InitializeFilter, image.iwiaimagefilter_initializefilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, InitializeFilter, InitializeFilter method [Imaging Devices], IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter::InitializeFilter, InitializeFilter method [Imaging Devices], IWiaImageFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaImageFilter.InitializeFilter
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -83,13 +83,16 @@ Points to a <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCa
 ## -returns
 
 
+
 Returns S_OK on success, or a standard COM error code on failure.
 
 
 
 
 
+
 ## -remarks
+
 
 
 This method is called by the COM proxy object (described in the Microsoft Windows SDK documentation) before the download call reaches the WIA service. This happens in two cases: when an application calls <b>IWiaTransfer::Download</b> method and when an application calls the <b>IWiaPreview::GetNewPreview</b> method. 
@@ -104,11 +107,16 @@ The <b>IWiaItem2, IWiaPreview</b> and <b>IWiaTransfer</b> interfaces are describ
 
 
 
+
 ## -see-also
+
+<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
+
+
 
 <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback Interface</a>
 
-<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
+
 
  
 

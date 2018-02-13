@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f63f6f55-ceec-4105-9002-f81874e0ac49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadRegisterUlong, VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, VideoPortReadRegisterUlong function [Display Devices], video/VideoPortReadRegisterUlong, display.videoportreadregisterulong
+ms.keywords: video/VideoPortReadRegisterUlong, VideoPortReadRegisterUlong function [Display Devices], display.videoportreadregisterulong, VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, VideoPortReadRegisterUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory-sp
 ## -returns
 
 
+
 <b>VideoPortReadRegisterUlong</b> returns the ULONG value read from the adapter.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadRegisterUlong</b>.
@@ -89,13 +92,20 @@ Callers of <b>VideoPortReadRegisterUlong</b> can be running at any IRQL, provide
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
 
  
 

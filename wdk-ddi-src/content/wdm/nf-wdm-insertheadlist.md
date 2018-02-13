@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InsertHeadList routine [Kernel-Mode Driver Architecture], kernel.insertheadlist, InsertHeadList, wdm/InsertHeadList, k109_dde56187-8543-45cc-97fd-3fde2475e428.xml
+ms.keywords: k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], wdm/InsertHeadList, kernel.insertheadlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5542
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>InsertHeadList</b> updates <i>ListHead</i>-&gt;<b>Flink</b> to point to <i>Entry</i>. It updates <i>Entry</i>-&gt;<b>Flink</b> to point to the old first entry in the list, and sets <i>Entry</i>-&gt;<b>Blink</b> to <i>ListHead</i>. The <b>Blink</b> field of the original first entry is also updated to point to <i>Entry</i>.
@@ -97,19 +100,32 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+
 
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+
+
+
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
 
 <a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+
 
  
 

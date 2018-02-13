@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 79119458-a6a7-433e-9306-d7a56ca056c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSMETHOD_ITEM, PKSMETHOD_ITEM, stream.ksmethod_item, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, KSMETHOD_ITEM structure [Streaming Media Devices], ks/KSMETHOD_ITEM, *PKSMETHOD_ITEM, ks/PKSMETHOD_ITEM
+ms.keywords: ks/PKSMETHOD_ITEM, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], PKSMETHOD_ITEM, KSMETHOD_ITEM, stream.ksmethod_item, *PKSMETHOD_ITEM, ks/KSMETHOD_ITEM, ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, KSMETHOD_ITEM structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSMETHOD_ITEM
 product: Windows
 targetos: Windows
-req.typenames: KSMETHOD_ITEM, *PKSMETHOD_ITEM
+req.typenames: "*PKSMETHOD_ITEM, KSMETHOD_ITEM"
 ---
 
 # KSMETHOD_ITEM structure
@@ -75,6 +75,11 @@ typedef struct {
 
 
 
+### -field MethodId
+
+Specifies the identifier of this method within its method set.
+
+
 ### -field MethodHandler
 
 Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a> callback routine.
@@ -83,11 +88,6 @@ Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrMetho
 ### -field MethodSupported
 
 Specifies if this method is supported or not.
-
-
-### -field MethodId
-
-Specifies the identifier of this method within its method set.
 
 
 ### -field MinMethod
@@ -108,6 +108,7 @@ Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrSuppo
 ### -field Flags
 
 Specifies the request type of this method request.
+
 <table>
 <tr>
 <th>Value</th>
@@ -163,23 +164,32 @@ Indicates that the method is to be processed in source mode. An MDL is allocated
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set. The minidriver implements methods and uses the <b>MethodHandler</b> member to point to these methods. A client can then use the IOCTL_KS_METHOD request along with the KSMETHOD structure to execute methods on a kernel streaming object that the minidriver handles. For more information, see <a href="https://msdn.microsoft.com/1d7bd6f4-0aaf-4d77-8132-f551fd2ecbd2">KS Methods</a>.
 
 
 
-## -see-also
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
+
+
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a>
+
+
+
 <a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
+
+
 
  
 

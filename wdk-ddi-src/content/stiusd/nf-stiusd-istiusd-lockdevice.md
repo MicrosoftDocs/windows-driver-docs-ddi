@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cb91ef14-53d7-42fa-b3e5-54eb3b0925b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LockDevice, IStiUSD interface [Imaging Devices], LockDevice method, LockDevice method [Imaging Devices], stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, IStiUSD::LockDevice, LockDevice method [Imaging Devices], IStiUSD interface, image.istiusd_lockdevice, stiusd/IStiUSD::LockDevice, IStiUSD
+ms.keywords: IStiUSD::LockDevice, stiusd/IStiUSD::LockDevice, image.istiusd_lockdevice, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, IStiUSD interface [Imaging Devices], LockDevice method, LockDevice method [Imaging Devices], LockDevice, IStiUSD, LockDevice method [Imaging Devices], IStiUSD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,23 +67,30 @@ STDMETHODIMP LockDevice();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 If you are writing a driver for a device connected to a serial port, you might want to call <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> from within the driver's <b>IStiUSD::LockDevice</b> method if the device was opened in status mode. This will prohibit other applications from using the port (which might be supporting other devices) while status information is being obtained. For more information, see <a href="https://msdn.microsoft.com/79af0d8f-dd04-4ff4-a047-f415562a16a5">Transfer Modes</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a>
+
+
 
  
 

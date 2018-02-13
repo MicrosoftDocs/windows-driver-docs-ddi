@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9ECC15F2-9D08-4EEF-ADBD-612D8D1B5B72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], SerCx2SystemDmaReceiveNewDataNotification, serports.sercx2systemdmareceivenewdatanotification
+ms.keywords: 2/SerCx2SystemDmaReceiveNewDataNotification, serports.sercx2systemdmareceivenewdatanotification, SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/se
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If the receive FIFO in the serial controller becomes empty before a system-DMA-receive transaction can be completed, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function, if it is implemented, to enable SerCx2 to receive a new-data notification when data is again available to be read from the receive FIFO.
@@ -93,17 +96,28 @@ If a serial controller driver supports new-data notifications for system-DMA-rec
 
 
 
-## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+## -see-also
 
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
+
 
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
+
+
 
  
 

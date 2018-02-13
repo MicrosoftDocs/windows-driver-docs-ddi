@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, scsiwmi/ScsiPortWmiPostProcess, ScsiPortWmiPostProcess, storage.scsiportwmipostprocess, ScsiPortWmiPostProcess routine [Storage Devices]
+ms.keywords: scsiwmi/ScsiPortWmiPostProcess, storage.scsiportwmipostprocess, scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, ScsiPortWmiPostProcess routine [Storage Devices], ScsiPortWmiPostProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ If <i>SrbStatus</i> indicates success, the miniport driver sets <i>BufferUsed</i
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver must call <b>ScsiPortWmiPostProcess</b> after the WMI SRB request has been processed and is ready to be completed.
@@ -105,15 +108,24 @@ If a miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN and sets <
 
 
 
+
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
+
 
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
 
  
 

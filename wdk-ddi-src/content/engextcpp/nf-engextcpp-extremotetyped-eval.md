@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, debugger.extremotetyped_eval, Eval, Eval method [Windows Debugging], ExtRemoteTyped::Eval, ExtRemoteTyped interface [Windows Debugging], Eval method
+ms.keywords: Eval method [Windows Debugging], debugger.extremotetyped_eval, EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval, Eval method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], Eval method, ExtRemoteTyped::Eval, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.Eval
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::Eval method
@@ -75,6 +75,8 @@ The expression to evaluate. <i>Expr</i> is evaluated using the default expressio
 ## -returns
 
 
+
 <b>Eval</b> returns a new <b>ExtRemoteData</b> object that represents the typed data that is the result of evaluating the expression.
+
 
 

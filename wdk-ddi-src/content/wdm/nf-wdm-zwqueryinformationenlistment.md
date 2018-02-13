@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8aa5227-7150-4fb1-a8ab-cb0f8ae4f74a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwQueryInformationEnlistment, wdm/NtQueryInformationEnlistment, ktm_ref_f9039d82-41a8-4696-9393-cb9ea0d8d279.xml, ZwQueryInformationEnlistment, NtQueryInformationEnlistment, kernel.zwqueryinformationenlistment, ZwQueryInformationEnlistment routine [Kernel-Mode Driver Architecture]
+ms.keywords: ktm_ref_f9039d82-41a8-4696-9393-cb9ea0d8d279.xml, NtQueryInformationEnlistment, ZwQueryInformationEnlistment, wdm/ZwQueryInformationEnlistment, kernel.zwqueryinformationenlistment, ZwQueryInformationEnlistment routine [Kernel-Mode Driver Architecture], wdm/NtQueryInformationEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ A handle to an enlistment object that was obtained by a previous call to <a href
 ### -param EnlistmentInformationClass [in]
 
 An <a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>-typed enumeration value that specifies the information to be obtained. This value must be one of the following values:
+
 <ul>
 <li>
 <b>EnlistmentBasicInformation</b>
@@ -90,7 +91,8 @@ An <a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATI
 <b>EnlistmentRecoveryInformation</b>
 
 </li>
-</ul>The enumeration's <b>EnlistmentFullInformation</b> value is not used with <b>ZwQueryInformationEnlistment</b>. 
+</ul>
+The enumeration's <b>EnlistmentFullInformation</b> value is not used with <b>ZwQueryInformationEnlistment</b>. 
 
 
 ### -param EnlistmentInformation [out]
@@ -111,7 +113,9 @@ A pointer to a caller-allocated variable that receives the length, in bytes, of 
 ## -returns
 
 
+
 <b>ZwQueryInformationEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,13 +176,16 @@ The caller does not have appropriate access to the enlistment object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 A resource manager can call <a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a> to set enlistment-specific recovery information for an enlistment object and then call <b>ZwQueryInformationEnlistment</b> to retrieve the recovery information.
@@ -193,19 +200,32 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
-
-<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
+
 
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
+
+
 
  
 

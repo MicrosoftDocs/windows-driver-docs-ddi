@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C94C4426-A487-422D-B84E-B29C2AD7BF0C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, netvista.ndis_wwan_supported_device_services, ndiswwan/NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, *PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
+ms.keywords: PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, netvista.ndis_wwan_supported_device_services, ndiswwan/NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, ndiswwan/PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES"
+req.typenames: NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, *PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES
 ---
 
 # _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SUPPORT
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SUPPORTED_DEVICE_SERVICES)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -131,6 +133,8 @@ This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_supported_d
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+
+
 
  
 

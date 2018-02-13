@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, netvista.ndisenumeratefiltermodules, ndis/NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], NdisEnumerateFilterModules
+ms.keywords: filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, netvista.ndisenumeratefiltermodules, NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], ndis/NdisEnumerateFilterModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisEnumerateFilterModules
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisEnumerateFilterModules function
@@ -126,7 +126,9 @@ A pointer to a caller-supplied variable where NDIS writes the total bytes that N
 ## -returns
 
 
+
 <b>NdisEnumerateFilterModules</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,11 +173,14 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 An NDIS miniport driver, protocol driver, or filter driver can call the 
@@ -191,11 +196,16 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
 
-<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
+
 
  
 

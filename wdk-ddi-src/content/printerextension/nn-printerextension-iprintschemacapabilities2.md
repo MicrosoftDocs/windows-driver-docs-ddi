@@ -79,6 +79,8 @@ The <b>GetParameterDefinition</b> method retrieves the <a href="..\printerextens
 
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
+
+
  
 
  

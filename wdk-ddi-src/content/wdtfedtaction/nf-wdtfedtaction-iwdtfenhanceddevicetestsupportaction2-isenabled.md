@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 7d75d8e7-1416-4075-bc75-b4d2cd4f65a5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsEnabled method, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsEnabled, dtf.iwdtfenhanceddevicetestsupportaction2_isenabled
+ms.keywords: IsEnabled, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsEnabled, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsEnabled method, IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled method [Windows Device Testing Framework], wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, dtf.iwdtfenhanceddevicetestsupportaction2_isenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,13 +77,17 @@ True if the EDT driver is enabled; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2.md">IWDTFEnhancedDeviceTestSupportAction2</a>
+
+
 
  
 

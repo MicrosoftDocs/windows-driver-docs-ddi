@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3390A01D-BD4B-4399-AA3E-91BB32264A13
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtupdategpuvirtualaddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], D3DKMTUpdateGpuVirtualAddress, d3dkmthk/D3DKMTUpdateGpuVirtualAddress
+ms.keywords: d3dkmthk/D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,12 +77,14 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md">D3DKMT_UPDATEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 
 ## -returns
+
 
 
 <table>
@@ -112,13 +114,16 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
 
+
 ## -remarks
+
 
 
 The range of graphics processing unit (GPU) virtual addresses in all operations (except the source of the copy operations) must belong to a single virtual address range which was obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>.   Similarly, the virtual address ranges of all sources in copy operations must belong to a single virtual address range, which was obtained by calling <i>ReserveGpuVirtualAddressRange</i>.
@@ -128,11 +133,14 @@ The page table updates are executed on a paging context, dedicated to the render
 The virtual address ranges in the update operations are allowed to intersect. The operations will be applied in the order they are submitted.
 
 In a single <b>UpdateVirtualAddress</b> call:
+
 <ul>
 <li>All virtual address ranges in mapping operations and the destination range in copy operations must belong to the same reserved (zero) range.</li>
 <li>The source virtual address range in copy operations is allowed to be from a different reserved (zero) range.</li>
 <li>The source virtual address range in all copy operations must belong to the same reserved (zero) range.</li>
-</ul>Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
+</ul>
+Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
+
 
 
 
@@ -140,7 +148,11 @@ In a single <b>UpdateVirtualAddress</b> call:
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md">D3DKMT_UPDATEGPUVIRTUALADDRESS</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">ReserveGpuVirtualAddressRange</a>
+
+
 
  
 

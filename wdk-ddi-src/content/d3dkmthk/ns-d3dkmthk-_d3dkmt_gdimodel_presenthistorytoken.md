@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_gdimodel_presenthistorytoken, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
+ms.keywords: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_gdimodel_presenthistorytoken, OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,9 +104,13 @@ Supported starting with Windows 8.
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
+
 
  
 

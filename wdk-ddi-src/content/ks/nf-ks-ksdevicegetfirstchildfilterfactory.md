@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksdevicegetfirstchildfilterfactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], KsDeviceGetFirstChildFilterFactory, avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, ks/KsDeviceGetFirstChildFilterFactory
+ms.keywords: avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], ks/KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory, stream.ksdevicegetfirstchildfilterfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure represe
 ## -returns
 
 
+
 Returns a pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure representing the first child filter factory of <i>Device</i>. If there are no filter factories registered on <i>Device</i>, <b>NULL</b> is returned.
 
 
 
+
 ## -remarks
+
 
 
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>. Note that the object hierarchy is only guaranteed stable while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
@@ -88,15 +91,24 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksfilterfactorygetnextsiblingfilterfactory.md">KsFilterFactoryGetNextSiblingFilterFactory</a>
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
 
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
 
  
 

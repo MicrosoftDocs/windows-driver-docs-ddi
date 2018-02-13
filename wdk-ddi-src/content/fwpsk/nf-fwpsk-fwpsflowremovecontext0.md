@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: edc257bc-2805-47d8-827a-536e5d74793b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsflowremovecontext0, FwpsFlowRemoveContext0, wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowRemoveContext0
+ms.keywords: wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml, fwpsk/FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], FwpsFlowRemoveContext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,8 +101,10 @@ The run-time identifier for the callout in the filter engine. This identifier wa
 ## -returns
 
 
+
 The 
      <b>FwpsFlowRemoveContext0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,11 +143,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the 
@@ -159,17 +164,28 @@ If the
 
 
 
-## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e3c6373-e39d-4f9b-b874-e3a9c93791b9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCloseAdapterEx, NdisCloseAdapterEx, protocol_ndis_functions_ref_f349b273-d8c6-4711-af43-59646c41536c.xml, NdisCloseAdapterEx function [Network Drivers Starting with Windows Vista], netvista.ndiscloseadapterex
+ms.keywords: netvista.ndiscloseadapterex, ndis/NdisCloseAdapterEx, NdisCloseAdapterEx, NdisCloseAdapterEx function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_f349b273-d8c6-4711-af43-59646c41536c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCloseAdapterEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCloseAdapterEx function
@@ -81,7 +81,9 @@ The handle that NDIS provided at the
 ## -returns
 
 
+
 <b>NdisCloseAdapterEx</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,11 +114,14 @@ The handle that NDIS provided at the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A protocol driver typically calls 
@@ -146,18 +151,29 @@ As soon as the driver calls
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
    ProtocolCloseAdapterCompleteEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

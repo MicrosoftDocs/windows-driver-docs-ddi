@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: af20cab0-c70b-404c-b6bd-54d9ecf75714
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: T1_DATA, *PT1_DATA, *PT1_DATA, T1_DATA, smclib/T1_DATA, smartcrd.t1_data, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, T1_DATA structure [Smart Card Reader Devices], T1_DATA, *PT1_DATA structure [Smart Card Reader Devices], _T1_DATA
+ms.keywords: "*PT1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, _T1_DATA, T1_DATA, *PT1_DATA structure [Smart Card Reader Devices], smclib/T1_DATA, T1_DATA, smartcrd.t1_data, T1_DATA, *PT1_DATA, T1_DATA structure [Smart Card Reader Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -178,6 +178,7 @@ If <b>TRUE</b>, execute the operation synchronously.
 
 
 
+
 #### - InfSize
 
 Contains the current information field size to transmit. 
@@ -191,6 +192,8 @@ Contains the state before the error occurred.
 ## -remarks
 
 
+
 This structure must not be directly modified by a reader driver.
+
 
 

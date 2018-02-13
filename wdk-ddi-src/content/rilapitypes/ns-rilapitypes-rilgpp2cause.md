@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b5de8e7-be8e-481e-8dce-9bc4b5071128
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILGPP2CAUSE, rilapitypes/RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause_2, RILGPP2CAUSE"
+ms.keywords: RILGPP2CAUSE, *LPRILGPP2CAUSE, netvista.rilgpp2cause_2, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGPP2CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGPP2CAUSE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGPP2CAUSE, RILGPP2CAUSE"
+req.typenames: RILGPP2CAUSE, *LPRILGPP2CAUSE
 req.product: Windows 10 or later.
 ---
 
@@ -69,5 +69,4 @@ typedef struct _RILGPP2CAUSE {
 
 
 ### -field dwCauseValue
-
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85f401bb-b8bd-4bb9-9953-08945ffc4d8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_ChangeUiccLockPassword, RIL_ChangeUiccLockPassword, RIL_ChangeUiccLockPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changeuicclockpassword
+ms.keywords: rilapi/RIL_ChangeUiccLockPassword, netvista.ril_changeuicclockpassword, RIL_ChangeUiccLockPassword method [Network Drivers Starting with Windows Vista], RIL_ChangeUiccLockPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_ChangeUiccLockPassword(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpLockCredential
 
 
-
 ### -param lpszNewPassword
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

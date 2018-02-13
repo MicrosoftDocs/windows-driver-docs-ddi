@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cf6578d1-e455-4bbe-a89f-bc0292e24a4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.feature_data_smart, ntddmmc/FEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], FEATURE_DATA_SMART, ntddmmc/PFEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, _FEATURE_DATA_SMART, PFEATURE_DATA_SMART, *PFEATURE_DATA_SMART
+ms.keywords: ntddmmc/PFEATURE_DATA_SMART, storage.feature_data_smart, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, FEATURE_DATA_SMART, *PFEATURE_DATA_SMART, PFEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], ntddmmc/FEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], _FEATURE_DATA_SMART
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,15 +93,21 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "S.M.A.R.T." by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature support Self-Monitoring Analysis and Reporting Technology (SMART).
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

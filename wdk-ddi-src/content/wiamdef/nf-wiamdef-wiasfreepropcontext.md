@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 14a1a5bd-acc3-4ca6-87c6-5326c0f9ca82
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, wiasFreePropContext function [Imaging Devices], image.wiasfreepropcontext, wiamdef/wiasFreePropContext, wiasFreePropContext
+ms.keywords: wiasFreePropContext, image.wiasfreepropcontext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, wiasFreePropContext function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasFreePropContext
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -76,15 +76,21 @@ Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WI
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+
+
+
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+
 
  
 

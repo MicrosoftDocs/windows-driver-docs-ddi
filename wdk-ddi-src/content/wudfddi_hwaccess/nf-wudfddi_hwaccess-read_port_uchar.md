@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B72EDABF-B5A5-4887-A8D6-77F4047CEDA8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_port_uchar, wdf.read_port_uchar, wudfddi_hwaccess/READ_PORT_UCHAR, READ_PORT_UCHAR, READ_PORT_UCHAR function
+ms.keywords: wdf.read_port_uchar, umdf.read_port_uchar, READ_PORT_UCHAR, READ_PORT_UCHAR function, wudfddi_hwaccess/READ_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>READ_PORT_UCHAR</b> returns the byte that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

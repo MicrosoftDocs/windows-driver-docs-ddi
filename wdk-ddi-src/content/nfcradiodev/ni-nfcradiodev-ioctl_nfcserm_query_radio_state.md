@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSERM_QUERY_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
+req.typenames: "*PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG"
 ---
 
 # IOCTL_NFCSERM_QUERY_RADIO_STATE IOCTL
@@ -87,20 +87,25 @@ sizeof(NFCRM_RADIO_STATE)
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -110,5 +115,6 @@ sizeof(NFCRM_RADIO_STATE)
 <td><b>STATUS_INVALID_PARAMETER</b></td>
 <td> This code is returned when the input buffer is non-zero.</td>
 </tr>
-</table> 
+</table>
+ 
 

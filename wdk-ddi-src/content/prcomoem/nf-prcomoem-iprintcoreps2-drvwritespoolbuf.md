@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCorePS2, DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
+ms.keywords: IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, DrvWriteSpoolBuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml, IPrintCorePS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCorePS2.DrvWriteSpoolBuf
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Receives a method-supplied value representing the number of bytes sent to the sp
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,20 +135,26 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method has the same behavior as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a>. This method is supported for any Pscript5 render plug-ins.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a>
+
+
 
  
 

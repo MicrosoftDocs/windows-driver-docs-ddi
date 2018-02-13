@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7969f683-3426-4863-8afe-d9cbe490a4b5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestretrieveunsafeuseroutputbuffer, WdfRequestRetrieveUnsafeUserOutputBuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, PFN_WDFREQUESTRETRIEVEUNSAFEUSEROUTPUTBUFFER, WdfRequestRetrieveUnsafeUserOutputBuffer method
+ms.keywords: kmdf.wdfrequestretrieveunsafeuseroutputbuffer, DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, WdfRequestRetrieveUnsafeUserOutputBuffer method, WdfRequestRetrieveUnsafeUserOutputBuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer, PFN_WDFREQUESTRETRIEVEUNSAFEUSEROUTPUTBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,9 @@ A pointer to a location that receives the buffer's size, in bytes. This paramete
 ## -returns
 
 
+
 <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,7 +152,8 @@ The <i>MinimumRequiredLength</i> parameter specifies a buffer size that is large
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -161,7 +164,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> method must be called from an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function. After calling <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, the driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md">WdfRequestProbeAndLockUserBufferForWrite</a>. 
@@ -173,14 +178,27 @@ The driver can access the retrieved buffer until it <a href="https://docs.micros
 For more information about <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md">WdfRequestProbeAndLockUserBufferForWrite</a>
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer.md">WdfRequestRetrieveUnsafeUserInputBuffer</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md">WdfRequestProbeAndLockUserBufferForWrite</a>
+
+
 
  
 

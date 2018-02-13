@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysical function [Windows Debugging], WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, dbgeng/WritePhysical, debugger.writephysical, WritePhysical
+ms.keywords: WritePhysical function [Windows Debugging], WritePhysical, dbgeng/WritePhysical, WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, debugger.writephysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,13 +94,17 @@ Receives the number of bytes actually written.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

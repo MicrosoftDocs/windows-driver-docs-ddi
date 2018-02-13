@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0b968bc-bbab-4b6f-bb1f-9e36ac7c1e05
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtCommitComplete, kernel.zwcommitcomplete, NtCommitComplete, wdm/ZwCommitComplete, ZwCommitComplete routine [Kernel-Mode Driver Architecture], ZwCommitComplete, ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml
+ms.keywords: ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml, wdm/NtCommitComplete, ZwCommitComplete, wdm/ZwCommitComplete, ZwCommitComplete routine [Kernel-Mode Driver Architecture], NtCommitComplete, kernel.zwcommitcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>ZwCommitComplete</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might  return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +135,16 @@ The transaction or its enlistment is not in the correct state.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 A resource manager must call <b>ZwCommitComplete</b> after it has finished servicing a TRANSACTION_NOTIFY_COMMIT <a href="https://msdn.microsoft.com/62169b56-e70f-4d32-a051-a7fd947dbc64">notification</a>.
@@ -150,15 +155,24 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-tmcommitcomplete.md">TmCommitComplete</a>
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcommitcomplete.md">TmCommitComplete</a>
+
+
 
  
 

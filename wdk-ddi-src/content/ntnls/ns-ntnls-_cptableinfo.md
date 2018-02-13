@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CPTABLEINFO structure [Kernel-Mode Driver Architecture], PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], CPTABLEINFO, ntnls/PCPTABLEINFO, kernel.cptableinfo, ntnls/CPTABLEINFO, PCPTABLEINFO, _CPTABLEINFO, *PCPTABLEINFO
+ms.keywords: ntnls/PCPTABLEINFO, PCPTABLEINFO, ntnls/CPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], _CPTABLEINFO, *PCPTABLEINFO, CPTABLEINFO, kernel.cptableinfo, CPTABLEINFO structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

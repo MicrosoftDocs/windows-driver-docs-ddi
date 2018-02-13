@@ -84,7 +84,9 @@ A pointer to the D3DKMDT_MONITOR_DESCRIPTOR structure to be released.
 ## -returns
 
 
+
 The <b>pfnReleaseDescriptorInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +125,17 @@ The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using a D3DKMDT_MONITOR_DESCRIPTOR structure that you obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo.md">pfnAcquireFirstDescriptorInfo</a> or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirenextdescriptorinfo.md">pfnAcquireNextDescriptorInfo</a>, you must release it by calling <b>pfnReleaseDescriptorInfo</b>.
+
 
 

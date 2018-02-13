@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCHILDLISTGETDEVICE, WdfChildListGetDevice, wdfchildlist/WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, wdf.wdfchildlistgetdevice
+ms.keywords: WdfChildListGetDevice method, wdfchildlist/WdfChildListGetDevice, kmdf.wdfchildlistgetdevice, DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice, PFN_WDFCHILDLISTGETDEVICE, wdf.wdfchildlistgetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a framework child-list object.
 ## -returns
 
 
+
 <b>WdfChildListGetDevice</b> returns a handle to a framework device object.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -86,9 +87,29 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+
+
+#### Examples
+
+The following code example obtains a handle to the device object that represents the parent device of a child list.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFDEVICE parentDevice;
+
+parentDevice = WdfChildListGetDevice(ChildList);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

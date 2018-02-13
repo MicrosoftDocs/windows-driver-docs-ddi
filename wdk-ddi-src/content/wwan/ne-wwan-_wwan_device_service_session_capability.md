@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionWriteSupported, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, WwanDeviceServiceSessionNotSupported, WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionReadSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionNotSupported, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionReadSupported
+ms.keywords: wwan/WwanDeviceServiceSessionWriteSupported, wwan/WwanDeviceServiceSessionReadSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionNotSupported, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionReadSupported, wwan/WwanDeviceServiceSessionNotSupported, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WwanDeviceServiceSessionWriteSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,6 +88,8 @@ The device service supports read indication  notifications on a session for data
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>
+
+
 
  
 

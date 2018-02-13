@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 373065F6-C754-4517-905E-86A974866120
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices], DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"
+ms.keywords: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,7 +100,11 @@ The virtual address of the destination in the context of the paging process.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+
 
  
 

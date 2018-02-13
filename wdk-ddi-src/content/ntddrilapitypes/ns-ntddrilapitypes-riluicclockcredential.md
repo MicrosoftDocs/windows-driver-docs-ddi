@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4ca8411e-2492-4832-881c-5fdb974485fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCLOCKCREDENTIAL, netvista.riluicclockcredential, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL
+ms.keywords: netvista.riluicclockcredential, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], *LPRILUICCLOCKCREDENTIAL, ntddrilapitypes/RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCLOCKCREDENTIAL
 product: Windows
 targetos: Windows
-req.typenames: RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL
+req.typenames: "*LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL"
 ---
 
 # RILUICCLOCKCREDENTIAL structure
@@ -71,7 +71,5 @@ typedef struct _RILUICCLOCKCREDENTIAL {
 ### -field rilUiccLock
 
 
-
 ### -field szPassword
-
 

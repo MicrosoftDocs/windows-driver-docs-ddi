@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetpipegettype, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, PFN_WDFUSBTARGETPIPEGETTYPE, kmdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method
+ms.keywords: WdfUsbTargetPipeGetType method, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, WdfUsbTargetPipeGetType, wdfusb/WdfUsbTargetPipeGetType, PFN_WDFUSBTARGETPIPEGETTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetPipeGetType
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A handle to a framework pipe object that was obtained by calling <a href="..\wdf
 ## -returns
 
 
+
 <b>WdfUsbTargetPipeGetType</b> returns a <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,18 +90,43 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about the <b>WdfUsbTargetPipeGetType</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example determines the type of a USB pipe.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_USB_PIPE_TYPEusbPipeType;
+
+usbPipeType = WdfUsbTargetPipeGetType(usbPipe);
+ </pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+
+
 <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
 
  
 

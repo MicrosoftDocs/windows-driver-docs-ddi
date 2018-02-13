@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6393b959-f67a-42e8-bb2b-e830bcf0d45f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: FilterFinished method [Print Devices], IPrintPipelineManagerControl interface, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_filterfinished, FilterFinished method [Print Devices], IPrintPipelineManagerControl::FilterFinished, IPrintPipelineManagerControl interface [Print Devices], FilterFinished method, filterpipeline/IPrintPipelineManagerControl::FilterFinished, FilterFinished
+ms.keywords: IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_filterfinished, FilterFinished method [Print Devices], IPrintPipelineManagerControl interface, FilterFinished, IPrintPipelineManagerControl::FilterFinished, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, IPrintPipelineManagerControl interface [Print Devices], FilterFinished method, filterpipeline/IPrintPipelineManagerControl::FilterFinished, FilterFinished method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,20 +68,24 @@ HRESULT STDMETHODCALLTYPE FilterFinished(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>FilterFinished</code> returns an <b>HRESULT</b>.
 
 
 
+
 ## -remarks
 
 
+
 The filter does not need to call the <code>FilterFinished</code> method. The filter pipeline assumes the filter has finished when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554301">IPrintPipelineFilter::StartOperation</a> method returns. <code>FilterFinished</code> is provided for compatibility and, when called, it does nothing but returns.
+
 
 

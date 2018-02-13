@@ -40,7 +40,7 @@ apiname:
 -	ClearDepthStencilView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback
@@ -77,20 +77,18 @@ VOID APIENTRY ClearDepthStencilView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HDEPTHSTENCILVIEW
-
 
 
 ### -param UINT
 
 
-
 ### -param FLOAT
 
 
-
 ### -param UINT8
+
+
 
 
 
@@ -110,6 +108,7 @@ VOID APIENTRY ClearDepthStencilView(
 #### - Flags [in]
 
  A value that specifies which parts of the buffer to affect. This parameter must be set to one of the following values from the D3D10_DDI_CLEAR_FLAG enumeration.
+
 <table>
 <tr>
 <th>Value</th>
@@ -135,7 +134,8 @@ The stencil value is cleared.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - Depth [in]
@@ -151,13 +151,16 @@ The stencil value is cleared.
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 Floating point rules apply to the <b>ClearDepthStencilView</b> function. 
@@ -166,11 +169,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEDCFROMMEMORY, OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], _D3DKMT_CREATEDCFROMMEMORY, display.d3dkmt_createdcfrommemory, d3dkmthk/D3DKMT_CREATEDCFROMMEMORY
+ms.keywords: OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], D3DKMT_CREATEDCFROMMEMORY, _D3DKMT_CREATEDCFROMMEMORY, display.d3dkmt_createdcfrommemory, d3dkmthk/D3DKMT_CREATEDCFROMMEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,7 +124,11 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedcfrommemory.md">D3DKMTCreateDCFromMemory</a>
+
+
 
  
 

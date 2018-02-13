@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 829e96e7-7063-4de3-b13a-0b0d12ba1f44
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFastMethodHandler, ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, KsFastMethodHandler function [Streaming Media Devices], KsFastMethodHandler, stream.ksfastmethodhandler
+ms.keywords: KsFastMethodHandler, ks/KsFastMethodHandler, stream.ksfastmethodhandler, ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, KsFastMethodHandler function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,20 +118,26 @@ Specifies the pointer to the list of method set information.
 ## -returns
 
 
+
 The <b>KsFastMethodHandler</b> function returns <b>TRUE</b> if the request is handled, or <b>FALSE</b> if the request is not handled. If the request is not handled, an IRP is generated. If the request was handled, the function sets the IoStatus-&gt;Information element to zero because of an internal error or the element is set by a method handler. The method handler also sets the IoStatus-&gt;Status field when the method is handled.
+
 
 
 
 ## -remarks
 
 
+
 The owner of a method set can perform prefiltering or postfiltering of the method handling using the <b>KsFastMethodHandler</b> and <b>KsMethodHandler </b>functions. The <b>KsFastMethodHandler</b> function is used to process requests made through the fast I/O dispatch interface for Device Control. It is only used to process requests that can be fulfilled quickly. The <i>Wait</i> parameter of the fast I/O function is not passed and assumed to be <b>TRUE</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+
+
 
  
 

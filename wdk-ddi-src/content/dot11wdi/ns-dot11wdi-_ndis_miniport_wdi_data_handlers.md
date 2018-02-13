@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DBDB5F08-9988-4D9B-A731-DA65BBA67813
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_miniport_wdi_data_handlers, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS, _NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS
+ms.keywords: NDIS_MINIPORT_WDI_DATA_HANDLERS, _NDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_wdi_data_handlers, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,6 +102,7 @@ The
 
 To indicate the version of the NDIS_MINIPORT_WDI_DATA_HANDLERS structure, set the 
      <b>Revision</b> member to the following value:
+
 
 
 
@@ -235,5 +236,6 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_pe
 ### -field TxSuspectFrameAbortHandler
 
  
+
 
 

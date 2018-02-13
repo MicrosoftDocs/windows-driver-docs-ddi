@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8fa80414-c87a-4f05-b99c-5153f08a0862
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT, netvista.ndis_configuration_object, ndis_configuration_ref_aa617bdd-fe13-11d9-8a38-0030ab150798.xml, ndis/PNDIS_CONFIGURATION_OBJECT, _NDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_OBJECT
+ms.keywords: PNDIS_CONFIGURATION_OBJECT structure pointer [Network Drivers Starting with Windows Vista], ndis_configuration_ref_aa617bdd-fe13-11d9-8a38-0030ab150798.xml, NDIS_CONFIGURATION_OBJECT structure [Network Drivers Starting with Windows Vista], netvista.ndis_configuration_object, ndis/NDIS_CONFIGURATION_OBJECT, ndis/PNDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT, _NDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_CONFIGURATION_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT"
+req.typenames: NDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT
 ---
 
 # _NDIS_CONFIGURATION_OBJECT structure
@@ -96,6 +96,7 @@ A bitwise OR of the following flags:
 
 
 
+
 #### NDIS_CONFIG_FLAG_FILTER_INSTANCE_CONFIGURATION
 
 Set this flag if a monitoring filter driver must access the filter module configuration for a
@@ -106,6 +107,7 @@ Set this flag if a monitoring filter driver must access the filter module config
 ## -remarks
 
 
+
 To configuration parameters in the registry, an NDIS driver can use the NDIS_CONFIGURATION_OBJECT
     structure to define a configuration object and then call the 
     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a> function
@@ -113,11 +115,16 @@ To configuration parameters in the registry, an NDIS driver can use the NDIS_CON
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
 
  
 

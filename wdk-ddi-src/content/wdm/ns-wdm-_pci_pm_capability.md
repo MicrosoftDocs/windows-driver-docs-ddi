@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 829d4df0-2dc2-4a1f-9606-3d5f25624252
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_PM_CAPABILITY structure [Buses], PPCI_PM_CAPABILITY, PCI.pci_pm_capability, PPCI_PM_CAPABILITY structure pointer [Buses], *PPCI_PM_CAPABILITY, wdm/PCI_PM_CAPABILITY, wdm/PPCI_PM_CAPABILITY, _PCI_PM_CAPABILITY, PCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml
+ms.keywords: pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, wdm/PPCI_PM_CAPABILITY, _PCI_PM_CAPABILITY, PPCI_PM_CAPABILITY, PCI.pci_pm_capability, *PPCI_PM_CAPABILITY, PPCI_PM_CAPABILITY structure pointer [Buses], PCI_PM_CAPABILITY structure [Buses], wdm/PCI_PM_CAPABILITY, PCI_PM_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,8 +81,12 @@ typedef struct _PCI_PM_CAPABILITY {
 
 
 
-### -field PMC
+### -field Header
 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
+
+
+### -field PMC
 
 
 ### -field PMC.Capabilities
@@ -98,7 +102,6 @@ Contains the same data as the <b>Capabilities </b>member.
 ### -field PMCSR
 
 
-
 ### -field PMCSR.ControlStatus
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a> that reports the contents of the power management control status register. This register is used to monitor power management event signals and manage the device's power state. For more information about the contents of the power management control status register, see the <i>PCI Power Management Specification</i>. 
@@ -112,7 +115,6 @@ Contains the same data as the <b>Capabilities </b>member.
 ### -field PMCSR_BSE
 
 
-
 ### -field PMCSR_BSE.BridgeSupport
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a> that reports the contents of the power management control status register for PCI bridge support extensions. 
@@ -123,11 +125,6 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 Contains the same data as the <b>BridgeSupport</b> member.
 
 
-### -field Header
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
-
-
 ### -field Data
 
 Holds the contents of an optional data register that the device uses to report state-dependent operating data, such as heat dissipation or how much power the device has consumed.
@@ -135,13 +132,21 @@ Holds the contents of an optional data register that the device uses to report s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+
 
  
 

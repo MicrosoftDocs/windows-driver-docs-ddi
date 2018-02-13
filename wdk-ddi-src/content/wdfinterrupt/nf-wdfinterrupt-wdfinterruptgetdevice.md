@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1e7a9ce-5794-4ed0-bb30-e3e68b0251db
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptGetDevice, WdfInterruptGetDevice method, wdfinterrupt/WdfInterruptGetDevice, wdf.wdfinterruptgetdevice, DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, kmdf.wdfinterruptgetdevice
+ms.keywords: wdf.wdfinterruptgetdevice, WdfInterruptGetDevice, DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, kmdf.wdfinterruptgetdevice, WdfInterruptGetDevice method, wdfinterrupt/WdfInterruptGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ A handle to a framework interrupt object.
 ## -returns
 
 
+
 <b>WdfInterruptGetDevice</b> returns a handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,16 +90,46 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
+
+
+#### Examples
+
+The following code example shows how an <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a> callback function can obtain a pointer to driver-defined context space for the device object that an interrupt object belongs to.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
+MyEvtInterruptIsr(
+    IN WDFINTERRUPT Interrupt,
+    IN ULONG  MessageID
+    )
+{
+    PDEVICE_EXTENSION  devExt;
+
+    devExt = GetMyDeviceContext(WdfInterruptGetDevice(Interrupt));
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
+
+
 
  
 

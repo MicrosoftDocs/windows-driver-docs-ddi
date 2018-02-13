@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef85d18a-c4cd-4999-8782-19e4114a0594
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, _D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], display.d3dkmt_closeadapter, D3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMT_CLOSEADAPTER
+ms.keywords: d3dkmthk/D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], display.d3dkmt_closeadapter, D3DKMT_CLOSEADAPTER, OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, _D3DKMT_CLOSEADAPTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _D3DKMT_CLOSEADAPTER {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcloseadapter.md">D3DKMTCloseAdapter</a>
+
+
 
  
 

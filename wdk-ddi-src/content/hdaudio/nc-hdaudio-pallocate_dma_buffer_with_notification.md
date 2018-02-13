@@ -7,7 +7,7 @@ old-location: audio\allocatedmabufferwithnotification.htm
 old-project: audio
 ms.assetid: c74b5969-35d4-45db-b631-31e00572107d
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.allocatedmabufferwithnotification, AllocateDmaBufferWithNotification callback function [Audio Devices], AllocateDmaBufferWithNotification, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, hdaudio/AllocateDmaBufferWithNotification, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	AllocateDmaBufferWithNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
+req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback
@@ -87,32 +87,27 @@ Specifies the context value from the Context member of the <a href="..\hdaudio\n
 ### -param Handle
 
 
-
 ### -param NotificationCount
-
 
 
 ### -param RequestedBufferSize
 
 
-
 ### -param *BufferMdl
-
 
 
 ### -param AllocatedBufferSize
 
 
-
 ### -param OffsetFromFirstPage
-
 
 
 ### -param StreamId
 
 
-
 ### -param FifoSize
+
+
 
 
 
@@ -157,7 +152,9 @@ Retrieves the DMA engine's FIFO size, in bytes. This parameter points to a calle
 ## -returns
 
 
+
 The <code>AllocateDmaBufferWithNotification</code> routine returns STATUS_SUCCESS if the call succeeds. Otherwise, the routine returns an appropriate error code. The following table shows some of the possible return error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -229,11 +226,14 @@ Indicates that the stream is not in the reset state or that a buffer is already 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>AllocateDmaBufferWithNotification</code> routine is used together with the <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer_with_notification.md">FreeDmaBufferWithNotification</a> routine. These two routines are available only in the HDAUDIO_BUS_INTERFACE_V2 version of the HD Audio DDI. Unlike <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>, which configures the DMA engine to use a previously allocated DMA buffer, <code>AllocateDmaBufferWithNotification</code> allocates a DMA buffer and also configures the DMA engine to use the buffer.
@@ -254,23 +254,36 @@ In Windows Vista and later versions of Windows, a WaveRT miniport driver calls t
 
 
 
+
 ## -see-also
-
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
 
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
- 
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

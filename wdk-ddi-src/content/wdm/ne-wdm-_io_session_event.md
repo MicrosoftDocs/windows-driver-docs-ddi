@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_IO_SESSION_EVENT, *PIO_SESSION_EVENT, IoSessionEventLogon, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventCreated, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], IoSessionEventCreated, kernel.io_session_event, IoSessionEventLogoff, wdm/IoSessionEventLogoff, IoSessionEventMax, IoSessionEventTerminated, wdm/IoSessionEventMax, IoSessionEventConnected, wdm/IoSessionEventDisconnected, IoSessionEventDisconnected, wdm/IoSessionEventLogon, wdm/PIO_SESSION_EVENT, PIO_SESSION_EVENT, wdm/IO_SESSION_EVENT, IO_SESSION_EVENT, wdm/IoSessionEventTerminated, wdm/IoSessionEventConnected"
+ms.keywords: wdm/IoSessionEventLogoff, wdm/IoSessionEventTerminated, IO_SESSION_EVENT, kernel.io_session_event, IoSessionEventConnected, IoSessionEventLogon, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventLogon, IoSessionEventDisconnected, PIO_SESSION_EVENT, IoSessionEventTerminated, wdm/IoSessionEventCreated, *PIO_SESSION_EVENT, wdm/IoSessionEventMax, IoSessionEventMax, wdm/IoSessionEventDisconnected, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], IoSessionEventCreated, _IO_SESSION_EVENT, IoSessionEventLogoff, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], wdm/IO_SESSION_EVENT, wdm/IoSessionEventConnected, wdm/PIO_SESSION_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	IO_SESSION_EVENT
 product: Windows
 targetos: Windows
-req.typenames: IO_SESSION_EVENT, *PIO_SESSION_EVENT
+req.typenames: "*PIO_SESSION_EVENT, IO_SESSION_EVENT"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,6 @@ typedef enum _IO_SESSION_EVENT {
 
 
 ### -field IoSessionEventIgnore
-
 
 
 ### -field IoSessionEventCreated
@@ -116,17 +115,23 @@ Specifies the maximum value in this enumeration type.
 ## -remarks
 
 
+
 When the I/O manager calls the driver's <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
 
 A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>. 
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
+
 
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
 
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
 
  
 

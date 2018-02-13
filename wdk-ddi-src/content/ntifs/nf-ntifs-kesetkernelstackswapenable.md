@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ec914f67-b2c2-4370-8685-770bca045034
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], kernel.kesetkernelstackswapenable, KeSetKernelStackSwapEnable, ntifs/KeSetKernelStackSwapEnable, k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml
+ms.keywords: KeSetKernelStackSwapEnable, KeSetKernelStackSwapEnable routine [Kernel-Mode Driver Architecture], k105_160eb1a2-1d12-4ca4-b83d-4bcb5636145e.xml, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ Specifies whether to enable swapping of the stack that belongs to the calling th
 ## -returns
 
 
+
 <b>KeSetKernelStackSwapEnable</b> returns a BOOLEAN value that indicates whether stack swapping was enabled at the time that the call was initiated. This value is <b>TRUE</b> if stack swapping was previously enabled and is <b>FALSE</b> if it was disabled. 
 
 
 
+
 ## -remarks
+
 
 
 A kernel-mode driver can call this routine to control whether its stack is pageable or locked in memory.
@@ -93,12 +96,56 @@ In a call to a kernel-mode wait routine, such as <a href="..\wdm\nf-wdm-kewaitfo
 A thread must not exit (terminate) while stack swapping is disabled or a system bug check will occur.
 
 
+#### Examples
+
+In the following code example, a driver thread allocates an event on its stack and calls <b>KeSetKernelStackSwap</b> to temporarily lock the stack in memory until the event is signaled. After the wait completes, the thread calls <b>KeSetKernelStackSwap</b> again, if necessary, to restore the original stack-swapping state of the thread.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>KEVENT event;
+BOOLEAN oldSwapEnable;
+NTSTATUS status;
+
+oldSwapEnable = KeSetKernelStackSwapEnable(FALSE);
+
+KeInitializeEvent(&amp;event, SynchronizationEvent, FALSE);
+
+//
+// TO DO: Insert code here to pass the event to another thread 
+// that will set the event to the signaled state.
+//
+...
+
+status = KeWaitForSingleObject(&amp;event, UserRequest, KernelMode, FALSE, NULL);
+
+if (oldSwapEnable)
+{
+    KeSetKernelStackSwapEnable(TRUE);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+An event object must be memory-resident while it can be set to a signaled or nonsignaled state, or while a thread waits on the event. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543006">Defining and Using an Event Object</a>.
+
+Frequently, the use of the <b>KeSetKernelStackSwap</b> routine is unnecessary and can be avoided by allocating only pageable data items on the stack. In the previous example, the driver thread must lock the stack because the event object is allocated on the stack. A better alternative might be to simply allocate the event from nonpaged pool.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
+
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: ac78dda4-6d14-441b-8e79-3245f7253875
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: upssvc/UPSWaitForStateChange, battery.upswaitforstatechange, UPSWaitForStateChange function [Battery Devices], UPSWaitForStateChange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml
+ms.keywords: UPSWaitForStateChange, UPSWaitForStateChange function [Battery Devices], battery.upswaitforstatechange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, upssvc/UPSWaitForStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,9 +76,11 @@ Specifies the UPS state on which to wait. When the state of the UPS system chang
 
 
 
+
 #### UPS_ONLINE
 
 Utility-supplied power is normal.
+
 
 
 #### UPS_ONBATTERY
@@ -86,9 +88,11 @@ Utility-supplied power is normal.
 Utility-supplied power is inadequate, and the UPS batteries are discharging.
 
 
+
 #### UPS_LOWBATTERY
 
 Utility-supplied power is inadequate, and the UPS batteries are critically low.
+
 
 
 #### UPS_NOCOMM
@@ -104,11 +108,14 @@ Specifies a time-out interval, in milliseconds, for the function. If the UPS sta
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>UPSWaitForStateChange</b> function must wait until either the state of the UPS changes from the value specified by <i>aCurrentState</i>, or until the time specified by <i>anInterval</i> has elapsed, whichever occurs first. 
@@ -117,9 +124,12 @@ A call to <a href="..\upssvc\nf-upssvc-upscancelwait.md">UPSCancelWait</a> inter
 
 
 
+
 ## -see-also
 
 <a href="..\upssvc\nf-upssvc-upscancelwait.md">UPSCancelWait</a>
+
+
 
  
 

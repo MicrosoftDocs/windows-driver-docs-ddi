@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PSHOWUIPARAMS, winsplp/PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], *PSHOWUIPARAMS, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, SHOWUIPARAMS, winsplp/SHOWUIPARAMS, print.showuiparams, SHOWUIPARAMS structure [Print Devices]
+ms.keywords: PSHOWUIPARAMS, winsplp/PSHOWUIPARAMS, SHOWUIPARAMS, winsplp/SHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, *PSHOWUIPARAMS, print.showuiparams, SHOWUIPARAMS structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SHOWUIPARAMS
 product: Windows
 targetos: Windows
-req.typenames: SHOWUIPARAMS, *PSHOWUIPARAMS
+req.typenames: "*PSHOWUIPARAMS, SHOWUIPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -81,9 +81,13 @@ Specifies a <a href="..\winsplp\ns-winsplp-messagebox_params.md">MESSAGEBOX_PARA
 
 ## -see-also
 
+<a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
+
+
+
 <a href="..\winsplp\ns-winsplp-messagebox_params.md">MESSAGEBOX_PARAMS</a>
 
-<a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
+
 
  
 

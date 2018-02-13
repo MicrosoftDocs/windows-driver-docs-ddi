@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_SET_VOLUME
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_SET_VOLUME IOCTL
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,15 +111,19 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 ## -remarks
 
 
+
 Beginning with Windows Vista, CDROM class drivers do not use this IOCTL. Prior to Windows Vista, this IOCTL was used for audio playback on older CD-ROM drives that supported direct audio output in hardware.
 
 Client applications should use the <i>Media Control Interface (MCI) API</i> rather than issuing this IOCTL.
 
 
 
+
 ## -see-also
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a>
+
+
 
  
 

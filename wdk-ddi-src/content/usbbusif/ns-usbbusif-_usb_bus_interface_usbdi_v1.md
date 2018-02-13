@@ -7,8 +7,8 @@ old-location: buses\usb_bus_interface_usbdi_v1.htm
 old-project: usbref
 ms.assetid: 9c90c182-86ac-43e5-9e77-0ea2da76e6b9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbbusif/USB_BUS_INTERFACE_USBDI_V1, *PUSB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], buses.usb_bus_interface_usbdi_v1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], _USB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1
+ms.date: 2/8/2018
+ms.keywords: usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, buses.usb_bus_interface_usbdi_v1, PUSB_BUS_INTERFACE_USBDI_V1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml, *PUSB_BUS_INTERFACE_USBDI_V1, _USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V1 structure [Buses], usbbusif/USB_BUS_INTERFACE_USBDI_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,6 +85,7 @@ Specifies the size in bytes of the buffer that holds the interface pointers.
 ### -field Version
 
 Indicates, on input, the version of the interface. The values that this member can take are as follows.
+
 <table>
 <tr>
 <th>Value</th>
@@ -130,7 +131,8 @@ Version 3 of the interface.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BusContext
@@ -176,21 +178,27 @@ Pointer to a routine that determines whether the USB device is operating at high
 ## -remarks
 
 
+
 The <b>IsDeviceHighSpeed</b> member does not indicate whether a device is capable of high speed operation, but rather whether it is in fact operating at high speed. 
 
 The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL. 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_BUS_INTERFACE_USBDI_V1 structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_BUS_INTERFACE_USBDI_V1 structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

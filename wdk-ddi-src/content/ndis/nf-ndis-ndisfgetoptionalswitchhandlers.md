@@ -41,7 +41,7 @@ apiname:
 -	NdisFGetOptionalSwitchHandlers
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFGetOptionalSwitchHandlers function
@@ -90,9 +90,12 @@ A pointer to the NDIS_SWITCH_CONTEXT value that identifies the extensible switch
 A pointer to a caller-allocated  <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
 
 For more information about these handler functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh598172">Hyper-V Extensible Switch Handler Functions</a>.
-<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div>
+<div> </div>
 
 ## -returns
+
 
 
 If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_SUCCESS. Otherwise, it returns NDIS_STATUS_NOT_SUPPORTED if the extensible switch extension is not bound to the underlying extensible switch component.
@@ -101,7 +104,9 @@ If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_
 
 
 
+
 ## -remarks
+
 
 
 The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function. 
@@ -112,13 +117,20 @@ For more information about <b>FilterMediaTypes</b> INF entries for extensible sw
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
+
+
 <b></b>
+
+
 
  
 

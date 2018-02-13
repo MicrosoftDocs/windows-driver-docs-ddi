@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 82c8f0c0-d9df-4f0d-8a45-dda8fa8a132a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/KsSynchronousDeviceControl, KsSynchronousDeviceControl, stream.kssynchronousdevicecontrol, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, KsSynchronousDeviceControl function [Streaming Media Devices]
+ms.keywords: ksproxy/KsSynchronousDeviceControl, stream.kssynchronousdevicecontrol, KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, KsSynchronousDeviceControl function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,16 +112,20 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsSy
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 To retrieve the handle to the KS object, an application should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a> method. 
 
 An application can set the control code in <i>IoControl</i> and the buffers at <i>InBuffer</i> and <i>OutBuffer</i> as follows to specify the operation to perform: 
+
 <ul>
 <li>
 Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a> to access a property. Set <i>InBuffer</i> to point to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that specifies the property of the property set to access and whether to retrieve information about the property or set information in the property. To set information in the property, set <i>OutBuffer</i> to point to that information. To retrieve information from the property, set <i>OutBuffer</i> to receive that information. 
@@ -139,9 +143,11 @@ Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_
 Set <i>IoControl</i> to <a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a> to inform the KS object specified by <i>Handle</i> to stop notifying the application whenever a specific event action occurs. Set <i>InBuffer</i> to point to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that was previously used in the event-notification request. 
 
 </li>
-</ul>To retrieve a list of all properties, events, or methods supported by a filter, an application can set <i>IoControl</i> to IOCTL_KS_PROPERTY, IOCTL_KS_ENABLE_EVENT, or IOCTL_KS_METHOD. For the KSPROPERTY, KSEVENT, or KSMETHOD structure to which <i>InBuffer</i> points, set the <i>Set</i> member to GUID_NULL and set the <i>Flags</i> member to KSPROPERTY_TYPE_SETSUPPORT.
+</ul>
+To retrieve a list of all properties, events, or methods supported by a filter, an application can set <i>IoControl</i> to IOCTL_KS_PROPERTY, IOCTL_KS_ENABLE_EVENT, or IOCTL_KS_METHOD. For the KSPROPERTY, KSEVENT, or KSMETHOD structure to which <i>InBuffer</i> points, set the <i>Set</i> member to GUID_NULL and set the <i>Flags</i> member to KSPROPERTY_TYPE_SETSUPPORT.
 
 After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will contain an array of set GUIDs supported by the object specified by <i>Handle</i>.
+
 
 
 
@@ -149,21 +155,39 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+
 
 <a href="..\ks\ni-ks-ioctl_ks_property.md">IOCTL_KS_PROPERTY</a>
 
-<a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a>
+
 
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
 
-<a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+
+
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_enable_event.md">IOCTL_KS_ENABLE_EVENT</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_method.md">IOCTL_KS_METHOD</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\rtlunicodetomultibytesize.htm
 old-project: ifsk
 ms.assetid: 603a5554-2e61-49f1-a4b1-e0f0f3ba36c8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtlunicodetomultibytesize, RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize routine [Installable File System Drivers], ntifs/RtlUnicodeToMultiByteSize, rtlref_f0366c3a-b185-45f3-a7e2-541168b842d3.xml
+ms.date: 2/7/2018
+ms.keywords: RtlUnicodeToMultiByteSize routine [Installable File System Drivers], ifsk.rtlunicodetomultibytesize, ntifs/RtlUnicodeToMultiByteSize, rtlref_f0366c3a-b185-45f3-a7e2-541168b842d3.xml, RtlUnicodeToMultiByteSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ Length, in bytes, of the source string.
 ## -returns
 
 
+
 <b>RtlUnicodeToMultiByteSize</b> returns STATUS_SUCCESS. 
 
 
 
+
 ## -remarks
+
 
 
 <b>RtlUnicodeToMultiByteSize</b> can be called to determine how much memory to allocate, or possibly the value to specify for <i>MaxBytesInMultiByteString</i>, before translating a Unicode string to ANSI with <b>RtlUnicodeToMultiByteN</b> or <b>RtlUpcaseUnicodeToMultiByteN</b>. The returned value does not include space for a NULL terminator for the ANSI string. 
@@ -102,17 +105,24 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
+## -see-also
 
 <a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
 
+
+
+<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlmultibytetounicodesize.md">RtlMultiByteToUnicodeSize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlUnicodeToMultiByteSize routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlUnicodeToMultiByteSize routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

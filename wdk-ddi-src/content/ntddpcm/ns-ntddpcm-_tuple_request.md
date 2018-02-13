@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: c702d3aa-d586-4206-93be-30537c55edcf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddpcm/PTUPLE_REQUEST, PTUPLE_REQUEST, _TUPLE_REQUEST, *PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, TUPLE_REQUEST structure [Buses], PCMCIA.tuple_request, ntddpcm/TUPLE_REQUEST, TUPLE_REQUEST
+ms.keywords: "*PTUPLE_REQUEST, ntddpcm/PTUPLE_REQUEST, PTUPLE_REQUEST, TUPLE_REQUEST structure [Buses], PTUPLE_REQUEST structure pointer [Buses], memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, ntddpcm/TUPLE_REQUEST, _TUPLE_REQUEST, TUPLE_REQUEST, PCMCIA.tuple_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TUPLE_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PTUPLE_REQUEST, TUPLE_REQUEST"
+req.typenames: TUPLE_REQUEST, *PTUPLE_REQUEST
 ---
 
 # _TUPLE_REQUEST structure
@@ -75,6 +75,8 @@ Indicates the socket number.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537238">IOCTL_GET_TUPLE_DATA</a>
+
+
 
  
 

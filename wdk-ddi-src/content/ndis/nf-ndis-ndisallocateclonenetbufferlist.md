@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 357605a1-5c57-44ed-97b3-f466f9a7182c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateCloneNetBufferList, NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml, netvista.ndisallocateclonenetbufferlist, ndis/NdisAllocateCloneNetBufferList
+ms.keywords: netvista.ndisallocateclonenetbufferlist, NdisAllocateCloneNetBufferList, NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneNetBufferList, ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAllocateCloneNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateCloneNetBufferList function
@@ -102,9 +102,11 @@ NDIS flags that can be combined with an OR operation. The following flags are de
 
 
 
+
 #### NDIS_CLONE_FLAGS_RESERVED
 
 Reserved for NDIS.
+
 
 
 #### NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS
@@ -118,12 +120,15 @@ If this flag is set, NDIS does not allocate new MDLs for the cloned <a href="..\
 ## -returns
 
 
+
 <b>NdisAllocateCloneNetBufferList</b> returns a pointer to the new clone <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. If
      the allocation was unsuccessful, this pointer is <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Call 
@@ -155,20 +160,33 @@ Call the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
    NdisAllocateNetBufferListPool</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisfreeclonenetbufferlist.md">NdisFreeCloneNetBufferList</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f6f50bba-cda5-41ed-9e0b-1aea5113a22b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], NdisSetCoalescableTimerObject, ndis/NdisSetCoalescableTimerObject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, netvista.ndissetcoalescabletimerobject
+ms.keywords: ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, ndis/NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], netvista.ndissetcoalescabletimerobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisSetCoalescableTimerObject
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisSetCoalescableTimerObject function
@@ -128,12 +128,15 @@ The tolerance, in milliseconds, between the timer period specified by
 ## -returns
 
 
+
 <b>NdisSetCoalescableTimerObject</b> returns <b>TRUE</b> if the timer object was already in the system timer
      queue; otherwise, it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A timer object set by this function operates the same as a timer set by 
@@ -195,19 +198,32 @@ To cancel a timer, call the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
+
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
 
  
 

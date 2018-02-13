@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.popentrylist, k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, wdm/PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], PopEntryList
+ms.keywords: kernel.popentrylist, PopEntryList, k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, wdm/PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 ## -returns
 
 
+
 <b>PopEntryList</b> returns a pointer to the entry removed from the list, or <b>NULL</b> if the list is currently empty.
 
 
 
+
 ## -remarks
+
 
 
 <b>PopEntryList</b> removes the first entry from the list by setting <i>ListHead</i>-&gt;<b>Next</b> to point to the second entry in the list.
@@ -91,11 +94,16 @@ Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+
+
 
 <a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+
 
  
 

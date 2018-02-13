@@ -7,8 +7,8 @@ old-location: audio\iinterruptsync_getkinterrupt.htm
 old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetKInterrupt method [Audio Devices], IInterruptSync interface, portcls/IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, IInterruptSync, GetKInterrupt method [Audio Devices], IInterruptSync::GetKInterrupt
+ms.date: 2/8/2018
+ms.keywords: GetKInterrupt, portcls/IInterruptSync::GetKInterrupt, IInterruptSync::GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices], IInterruptSync interface, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, IInterruptSync, audio.iinterruptsync_getkinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,18 +68,21 @@ PKINTERRUPT GetKInterrupt(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>GetKInterrupt</code> returns a pointer to a WDM interrupt object.
 
 
 
+
 ## -remarks
+
 
 
 The PKINTERRUPT pointer is one of the two parameters that are passed to every interrupt service routine (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>). Every <b>IInterruptSync</b> object has an associated PKINTERRUPT pointer. It points to the associated kernel interrupt object, which is opaque.
@@ -88,17 +91,24 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+
 
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IInterruptSync::GetKInterrupt method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IInterruptSync::GetKInterrupt method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

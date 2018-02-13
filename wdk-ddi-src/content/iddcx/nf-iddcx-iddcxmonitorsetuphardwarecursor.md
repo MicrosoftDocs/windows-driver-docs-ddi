@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor
+ms.keywords: display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ Input arguments of function
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

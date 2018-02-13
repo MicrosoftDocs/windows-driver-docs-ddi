@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3f10997f-263f-4d1b-ab0a-d44201aaaf37
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_module_parameters, *PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, _DEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], dbgeng/DEBUG_MODULE_PARAMETERS, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, dbgeng/PDEBUG_MODULE_PARAMETERS
+ms.keywords: "*PDEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, DEBUG_MODULE_PARAMETERS, _DEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_MODULE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS
+req.typenames: "*PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS"
 ---
 
 # _DEBUG_MODULE_PARAMETERS structure
@@ -101,6 +101,7 @@ The checksum of the image.  This value can be zero.
 ### -field Flags
 
 A bit-set that contains the module's flags.  The bit-flags that can be present are as follows. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -136,12 +137,14 @@ The checksum in the symbol file did not match the checksum for the module image.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SymbolType
 
 The type of symbols that are loaded for the module.  This member can have one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -227,7 +230,8 @@ Symbols in PDB format have been loaded through the DIA interface.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ImageNameSize
@@ -263,10 +267,12 @@ Reserved for system use.
 ## -remarks
 
 
+
 This structure is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547161">GetModuleParameters</a>.
 
 To locate the different names for the module, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547149">GetModuleNameString</a>.
 
 For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.  For details about the different names for the module, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547149">GetModuleNameString</a>.
+
 
 

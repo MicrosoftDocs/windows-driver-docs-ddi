@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], stream.iksdatatypehandler_ksismediatypeinranges, IKsDataTypeHandler
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, stream.iksdatatypehandler_ksismediatypeinranges, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, KsIsMediaTypeInRanges, IKsDataTypeHandler, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,24 +75,34 @@ Pointer to a buffer that contains a <a href="..\ks\ns-ks-ksmultiple_item.md">KSM
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 A client first calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a> method to assign a media type that the client references in subsequent operations on the data type handler. The client then calls <b>KsIsMediaTypeInRanges</b> to validate that the media type is within particular data ranges. 
+
 
 
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
 
  
 

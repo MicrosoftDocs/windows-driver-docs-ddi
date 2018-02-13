@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1e196ad1-5804-4d41-a273-18eb40e8f265
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlinitializebitmap, RtlInitializeBitMap, k109_2c98c30e-fc9f-422d-bfa8-e0d765677664.xml, RtlInitializeBitMap routine [Kernel-Mode Driver Architecture], wdm/RtlInitializeBitMap
+ms.keywords: RtlInitializeBitMap, kernel.rtlinitializebitmap, k109_2c98c30e-fc9f-422d-bfa8-e0d765677664.xml, RtlInitializeBitMap routine [Kernel-Mode Driver Architecture], wdm/RtlInitializeBitMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,11 +89,14 @@ Specifies the number of bits in the bitmap. This value can be any number of bits
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver can use a bitmap variable as an economical way to keep track of a set of reusable items. For example, file systems use a bitmap variable to track which clusters/sectors on a disk have already been allocated to hold file data. The system-supplied SCSI port driver uses a bitmap variable to track which queue tags have been assigned to SCSI request blocks (SRBs).
@@ -106,45 +109,84 @@ Callers of <b>RtlInitializeBitMap</b>, and callers of other <b>Rtl<i>Xxx</i></b>
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
-
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
-
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
-
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
-
-<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
-
-<a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
-
-<a href="..\wdm\nf-wdm-rtlsetbits.md">RtlSetBits</a>
-
-<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
 
 <a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+
+<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetbits.md">RtlSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+
+
 
  
 

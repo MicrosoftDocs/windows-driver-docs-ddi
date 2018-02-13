@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 60bb493c-81a2-45d7-8c2c-939afeda8a14
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, IDebugSymbols3::GetModuleVersionInformationWide, GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide, IDebugSymbols3, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformationWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleVersionInformationWide
+ms.keywords: IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getmoduleversioninformationwide, GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,7 +105,9 @@ Receives the size in characters of the version information.  If <i>VerInfoSize</
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,11 +146,14 @@ The specified module was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Module version information is available only for loaded modules and may not be available in all sessions.
@@ -157,15 +162,24 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ebc98e65-5d11-4c3d-aea1-dfad1434c093
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, netvista.ndis_miniport_offload_block_list, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST"
+ms.keywords: NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_offload_block_list, ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,51 +84,6 @@ typedef struct _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST {
 
 
 
-### -field NextBlock
-
-A pointer to the next NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the offload state layer
-     (neighbor, path, or TCP) indicated by the 
-     <b>Type</b> member of the 
-     <b>Header</b> member. NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures that are linked through 
-     <b>NextBlock</b> pointers are always at the same layer of the offload state. A 
-     <b>NextBlock</b> value of <b>NULL</b> indicates that there is no additional next
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at this level.
-
-
-### -field _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
-
- 
-
-
-### -field DependentBlockList
-
-A pointer to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that is at a dependent layer of the
-     offload state (a higher layer in the offload state tree). For TCP chimney offload: 
-     
-<ul>
-<li>
-The 
-       <b>DependentBlockList</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the neighbor layer
-       can point only to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the path layer.
-
-</li>
-<li>
-The 
-       <b>DependentBlockList</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the path layer can
-       point only to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the TCP layer.
-
-</li>
-<li>
-The 
-       <b>DependentBlockList</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the TCP layer is
-       always <b>NULL</b>.
-
-</li>
-</ul>A 
-     <b>DependentBlockList</b> value of <b>NULL</b> indicates that there is no dependent
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
-
-
 ### -field Header
 
 The header of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
@@ -149,11 +104,13 @@ The following OFFLOAD_STATE_TYPE values are supported:
 
 
 
+
 #### NeighborOffloadConstState
 
 Specifies the constant neighbor state. This state is formatted as a 
        <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure.
+
 
 
 #### NeighborOffloadCachedState
@@ -163,11 +120,13 @@ Specifies the cached neighbor state. This state is formatted as a
        NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure.
 
 
+
 #### NeighborOffloadDelegatedState
 
 Specifies the delegated neighbor state. This state is formatted as a 
        <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
        NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure.
+
 
 
 #### NeighborOffloadState
@@ -178,6 +137,7 @@ Specifies all of the neighbor state information, including the constant, cached,
        structure.
 
 
+
 #### Ip4OffloadConstState
 
 Specifies the constant path state (IPv4). This state is formatted as a 
@@ -185,11 +145,13 @@ Specifies the constant path state (IPv4). This state is formatted as a
        PATH_OFFLOAD_STATE_CONST</a> structure.
 
 
+
 #### Ip4OffloadCachedState
 
 Specifies the cached path state (IPv4). This state is formatted as a 
        <a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">
        PATH_OFFLOAD_STATE_CACHED</a> structure.
+
 
 
 #### Ip4OffloadDelegatedState
@@ -200,11 +162,13 @@ Specifies the delegated path state (IPv4). This state is formatted as a
        PATH_OFFLOAD_STATE_DELEGATED structure does not contain any variables.
 
 
+
 #### Ip4OffloadState
 
 Specifies all of the path state (IPv4), including the constant, cached, and delegated path
        state. This state is formatted as a PATH_OFFLOAD_STATE_CONST structure, followed by a
        PATH_OFFLOAD_STATE_CACHED structure, followed by a PATH_OFFLOAD_STATE_DELEGATED structure.
+
 
 
 #### Ip6OffloadConstState
@@ -213,10 +177,12 @@ Specifies the constant path state (IPv6). This state is formatted as a PATH_OFFL
        structure.
 
 
+
 #### Ip6OffloadCachedState
 
 Specifies the cached path state (IPv6). This state is formatted as a PATH_OFFLOAD_STATE_CACHED
        structure.
+
 
 
 #### Ip6OffloadDelegatedState
@@ -226,11 +192,13 @@ Specifies the delegated path state (IPv6). This state is formatted as a
        PATH_OFFLOAD_STATE_DELEGATED structure does not contain any variables.
 
 
+
 #### Ip6OffloadState
 
 Specifies all of the path state information(IPv6), including the constant, cached, and delegated
        path state. This state is formatted as a PATH_OFFLOAD_STATE_CONST structure, followed by a
        PATH_OFFLOAD_STATE_CACHED structure, followed by a PATH_OFFLOAD_STATE_DELEGATED structure.
+
 
 
 #### TcpOffloadConstState
@@ -240,11 +208,13 @@ Specifies the constant TCP state. This state is formatted as a
        TCP_OFFLOAD_STATE_CONST</a> structure.
 
 
+
 #### TcpOffloadCachedState
 
 Specifies the cached TCP state. This state is formatted as a 
        <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
        TCP_OFFLOAD_STATE_CACHED</a> structure.
+
 
 
 #### TcpOffloadDelegatedState
@@ -254,10 +224,12 @@ Specifies the delegated TCP state. This state is formatted as a
        TCP_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
+
 #### TcpOffloadResourceState
 
 Reserved. This OFFLOAD_STATE_TYPE value, as well as the TCP_OFFLOAD_RESOURCE_STATE structure,
        are currently not used.
+
 
 
 #### TcpOffloadState
@@ -267,9 +239,57 @@ Specifies all of the TCP state information, including the constant, cached, and 
        TCP_OFFLOAD_STATE_CACHED structure, followed by a TCP_OFFLOAD_STATE_DELEGATED structure.
 
 
+
 #### FilterReservedOffloadState
 
 Reserved for filter drivers.
+
+
+### -field NextBlock
+
+A pointer to the next NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the offload state layer
+     (neighbor, path, or TCP) indicated by the 
+     <b>Type</b> member of the 
+     <b>Header</b> member. NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures that are linked through 
+     <b>NextBlock</b> pointers are always at the same layer of the offload state. A 
+     <b>NextBlock</b> value of <b>NULL</b> indicates that there is no additional next
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at this level.
+
+
+### -field DependentBlockList
+
+A pointer to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that is at a dependent layer of the
+     offload state (a higher layer in the offload state tree). For TCP chimney offload: 
+     
+
+<ul>
+<li>
+The 
+       <b>DependentBlockList</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the neighbor layer
+       can point only to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the path layer.
+
+</li>
+<li>
+The 
+       <b>DependentBlockList</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the path layer can
+       point only to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the TCP layer.
+
+</li>
+<li>
+The 
+       <b>DependentBlockList</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the TCP layer is
+       always <b>NULL</b>.
+
+</li>
+</ul>
+A 
+     <b>DependentBlockList</b> value of <b>NULL</b> indicates that there is no dependent
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
+
+
+### -field _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+
+ 
 
 
 ### -field Status
@@ -280,6 +300,7 @@ The completion status of an initiate offload, query offload, update offload, inv
      target writes one of the following NDIS_STATUS values to the 
      <b>Status</b> member:
      
+
 
 
 
@@ -296,6 +317,7 @@ Query, update, invalidate, or terminate offload: The offload target successfully
        structure.
 
 
+
 #### NDIS_STATUS_OFFLOAD_PARTIAL_SUCCESS
 
 Initiate offload: The offload target successfully offloaded the state associated with the
@@ -304,6 +326,7 @@ Initiate offload: The offload target successfully offloaded the state associated
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_FAILURE
@@ -317,6 +340,7 @@ Query, update, invalidate, or terminate offload: The offload target failed to pe
        structure.
 
 
+
 #### NDIS_STATUS_RESOURCES
 
 Initiate offload: The offload target failed to offload the state associated with the
@@ -325,6 +349,7 @@ Initiate offload: The offload target failed to offload the state associated with
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_OFFLOAD_TCP_ENTRIES
@@ -337,6 +362,7 @@ Initiate offload: The offload target failed to offload the state associated with
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
+
 #### NDIS_STATUS_OFFLOAD_PATH_ENTRIES
 
 Initiate offload: The offload target failed to offload the state associated with the
@@ -345,6 +371,7 @@ Initiate offload: The offload target failed to offload the state associated with
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_OFFLOAD_NEIGHBOR_ENTRIES
@@ -357,6 +384,7 @@ Initiate offload: The offload target failed to offload the state associated with
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
+
 #### NDIS_STATUS_OFFLOAD_HW_ADDRESS_ENTRIES
 
 Initiate offload: The offload target failed to offload the state associated with the
@@ -367,6 +395,7 @@ Initiate offload: The offload target failed to offload the state associated with
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_OFFLOAD_IP_ADDRESS_ENTRIES
@@ -382,6 +411,7 @@ Initiate offload: The offload target failed to offload the state associated with
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
+
 #### NDIS_STATUS_OFFLOAD_TCP_XMIT_BUFFER
 
 Initiate offload: The offload target failed to offload the state associated with the
@@ -392,6 +422,7 @@ Initiate offload: The offload target failed to offload the state associated with
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
+
 #### NDIS_STATUS_OFFLOAD_TCP_RCV_BUFFER
 
 Initiate offload: The offload target failed to offload the state associated with the
@@ -400,6 +431,7 @@ Initiate offload: The offload target failed to offload the state associated with
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_OFFLOAD_TCP_RCV_WINDOW
@@ -414,12 +446,14 @@ Initiate offload: The offload target failed to offload the state associated with
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 
+
 #### NDIS_STATUS_OFFLOAD_VLAN_ENTRIES
 
 Initiate offload: The offload target has run out of resources for tracking additional VLAN IDs. 
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_OFFLOAD_VLAN_MISMATCH
@@ -429,6 +463,7 @@ Initiate offload: The neighbor
        
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
+
 
 
 #### NDIS_STATUS_OFFLOAD_PATH_MTU
@@ -541,6 +576,7 @@ An offload target can pass outstanding send data to the host stack when terminat
 ## -remarks
 
 
+
 NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures can be linked together to build the framework of a TCP
     chimney 
     <a href="https://msdn.microsoft.com/c96608bd-5e8f-499b-872a-b6f7f33c9e0c">offload state tree</a>.
@@ -548,6 +584,7 @@ NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures can be linked together to build the 
 Through NDIS, the host stack passes an 
     <i>OffloadBlockList</i> pointer, which references an offload state tree to one of the following functions
     of an offload target:
+
 <ul>
 <li>
 
@@ -579,8 +616,10 @@ Through NDIS, the host stack passes an
 
 
 </li>
-</ul>The offload target returns the tree to the host stack by passing the same pointer to the corresponding
+</ul>
+The offload target returns the tree to the host stack by passing the same pointer to the corresponding
     completion function:
+
 <ul>
 <li>
 
@@ -616,7 +655,8 @@ Through NDIS, the host stack passes an
 
 
 </li>
-</ul>An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can be immediately followed in memory by an 
+</ul>
+An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can be immediately followed in memory by an 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570939">offload state structure</a> that contains
     state to be offloaded, queried, updated, invalidated, or terminated. The 
     <b>Type</b> member of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure's 
@@ -642,55 +682,100 @@ Before completing an initiate offload, query offload, update offload, invalidate
 
 
 
+
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
 
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+
+
 
 <a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
    NdisMInvalidateOffloadComplete</a>
 
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+   NdisMTerminateOffloadComplete</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
 
+
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+
+
 
 <a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
    NdisMQueryOffloadStateComplete</a>
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
-   NdisMTerminateOffloadComplete</a>
 
  
 

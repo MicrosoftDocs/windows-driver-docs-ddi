@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportinitializeex, AtaPortInitializeEx routine [Storage Devices], AtaPortInitializeEx, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx
+ms.keywords: AtaPortInitializeEx routine [Storage Devices], AtaPortInitializeEx, irb/AtaPortInitializeEx, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, storage.ataportinitializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,14 +88,18 @@ Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChan
 ## -returns
 
 
+
 <b>AtaPortInitializeEx</b> returns STATUS_SUCCESS if the operation succeeds.  Otherwise, it returns an error code. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>AtaPortInitializeEx</b> routine initializes key data structures that are used by the port and miniport drivers. It also starts the initialization of the controller's channels. The following sequence describes the principal actions taken by this routine:
+
 <ol>
 <li>While in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine, the miniport driver calls the port driver's <b>AtaPortInitializeEx</b> library routine and passes it the following key parameters: <ul>
 <li><i>ControllerInterface</i>: Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChannelInitRoutine</i></b>, <b><i>AtaControllerChannelEnabled</i></b>, and <b><i>AtaControllerTransferModeSelect</i></b> routines.</li>
@@ -123,15 +127,24 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 </ol>
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
+
+
+
 <a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
+
+
 
  
 

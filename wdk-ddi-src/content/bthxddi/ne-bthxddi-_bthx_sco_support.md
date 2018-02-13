@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ScoSupportHCI, bltooth.bthx_sco_support, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], bthxddi/ScoSupportNone, bthxddi/ScoSupportHCIBypass, _BTHX_SCO_SUPPORT, ScoSupportNone, bthxddi/BTHX_SCO_SUPPORT, bthxddi/ScoSupportHCI, *PBTHX_SCO_SUPPORT, ScoSupportHCIBypass, BTHX_SCO_SUPPORT
+ms.keywords: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT, bltooth.bthx_sco_support, bthxddi/BTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], bthxddi/ScoSupportNone, ScoSupportHCI, bthxddi/ScoSupportHCI, ScoSupportHCIBypass, bthxddi/ScoSupportHCIBypass, ScoSupportNone, _BTHX_SCO_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,11 +87,13 @@ SCO data does not pass through the HCI layer but through a sideband mechanism li
 ## -remarks
 
 
+
 Upon starting, the Bluetooth stack will query the transport driver for its capabilities by sending the <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_query_capabilities.md">IOCTL_BTHX_QUERY_CAPABILITIES</a> IOCTL.
 
 The output buffer of this IOCTL is defined by the <a href="..\bthxddi\ns-bthxddi-_bthx_capabilities.md">BTHX_CAPABILITIES</a> structure which contains the 
 BTHX_SCO_SUPPORT structure.
 
 The transport driver must specify <b>ScoSupportHCIBypass</b>.
+
 
 

@@ -92,14 +92,18 @@ A status value the driver can provide that's logged for diagnostics purposes.
 ## -returns
 
 
+
 Does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 If the Miracast user-mode driver reports an error in the <i>MiracastStatus</i> parameter, it initiates a tear-down of the current Miracast connected session.
+
 
 
 
@@ -107,7 +111,11 @@ If the Miracast user-mode driver reports an error in the <i>MiracastStatus</i> p
 
 <a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>
 
+
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
+
 
  
 

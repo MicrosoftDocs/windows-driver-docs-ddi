@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0B7FC33E-A417-48E4-99CC-D1FFC340A405
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_protocol_command, *PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], ntddstor/STORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], ntddstor/PSTORAGE_PROTOCOL_COMMAND, _STORAGE_PROTOCOL_COMMAND
+ms.keywords: storage.storage_protocol_command, STORAGE_PROTOCOL_COMMAND, _STORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], PSTORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,6 +103,7 @@ The protocol type.
 ### -field Flags
 
 Flags set for this request. The following are valid flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -112,12 +113,14 @@ Flags set for this request. The following are valid flags.
 <td><b>STORAGE_PROTOCOL_COMMAND_FLAG_ADAPTER_REQUEST</b></td>
 <td>This flag indicates the request to target an adapter instead of device.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ReturnStatus
 
 The status of the request made to the storage device. In Windows 10, possible values include: 
+
 <table>
 <tr>
 <th>Status value</th>
@@ -159,7 +162,8 @@ The status of the request made to the storage device. In Windows 10, possible v
 <td><b>STORAGE_PROTOCOL_STATUS_NOT_SUPPORTED</b></td>
 <td>The request is not supported.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ErrorCode
@@ -233,6 +237,7 @@ Reserved for future use.
 
 
 
+
 #### - Command[ANYSIZE_ARRAY]
 
 The vendor-specific command that is to be passed-through to the device. 
@@ -241,6 +246,8 @@ The vendor-specific command that is to be passed-through to the device.
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_protocol_command.md">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
+
+
 
  
 

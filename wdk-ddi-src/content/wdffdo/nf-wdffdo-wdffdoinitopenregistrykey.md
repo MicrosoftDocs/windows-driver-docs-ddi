@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b720e3e-8858-4567-ada3-30ac0dcf9696
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, WdfFdoInitOpenRegistryKey method
+ms.keywords: WdfFdoInitOpenRegistryKey method, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, wdf.wdffdoinitopenregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitOpenRegistryKey
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ### -param DeviceInstanceKeyType [in]
 
 Specifies which key or subkey to open.  This is a bitwise OR of the following flags (which are defined in <i>Wdm.h</i>).
+
 <table>
 <tr>
 <th>DeviceInstanceKeyType flag</th>
@@ -146,7 +147,8 @@ Similarly, a UMDF driver uses these flags to open the <b>ServiceName</b> subkey 
 </td>
 <td>UMDF</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param DesiredAccess [in]
@@ -156,6 +158,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS
 A KMDF driver typically requests <b>KEY_READ</b>, <b>KEY_WRITE</b>, or <b>KEY_READ | KEY_WRITE</b>.
 
 If you are writing a UMDF driver, use the following table.
+
 <table>
 <tr>
 <th>DeviceInstanceKeyType</th>
@@ -201,7 +204,8 @@ If you are writing a UMDF driver, use the following table.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 As a best practice, ask for only the types of access that your driver needs.
 
@@ -219,7 +223,9 @@ A pointer to a location that receives a handle to the new registry-key object.
 ## -returns
 
 
+
 <b>WdfFdoInitOpenRegistryKey</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -270,7 +276,8 @@ The specified registry key does not exist.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a list of other return values that the <b>WdfFdoInitOpenRegistryKey</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -278,7 +285,9 @@ The method might also return other <a href="https://msdn.microsoft.com/library/w
 
 
 
+
 ## -remarks
+
 
 
 The driver must call <b>WdfFdoInitOpenRegistryKey</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
@@ -288,12 +297,44 @@ For more information about the <b>WdfFdoInitOpenRegistryKey</b> method, see <a h
 or more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example opens a device's hardware key, with read access.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFKEY key;
+NTSTATUS status;
+
+status = WdfFdoInitOpenRegistryKey(
+                                   DeviceInit,
+                                   PLUGPLAY_REGKEY_DEVICE,
+                                   GENERIC_READ,
+                                   WDF_NO_OBJECT_ATTRIBUTES,
+                                   &amp;key
+                                   );
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
+
 
  
 

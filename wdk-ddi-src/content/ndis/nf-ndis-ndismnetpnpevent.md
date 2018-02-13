@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMNetPnPEvent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisMNetPnPEvent, netvista.ndismnetpnpevent
+ms.keywords: ndis/NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisMNetPnPEvent, netvista.ndismnetpnpevent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMNetPnPEvent function
@@ -86,6 +86,7 @@ TBD
 
 
 
+
 #### - NetPnPEvent [in]
 
 A pointer to a 
@@ -97,7 +98,9 @@ A pointer to a
 ## -returns
 
 
+
 <b>NdisMNetPnPEvent</b> can return the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -189,7 +192,8 @@ The overlying drivers' attempts to process the propagated Plug and Play or Power
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The return value is significant only when the propagated event is a 
       <b>NetEventQueryPower</b> or 
@@ -202,20 +206,25 @@ If the event is
 
 
 
+
 ## -remarks
+
 
 
 Any miniport driver can call 
     <b>NdisMNetPnPEvent</b> to generate 
     <b>NetEventPortActivation</b> and 
     <b>NetEventPortDeactivation</b> events. Only intermediate drivers can make other event notifications.
+
 <div class="alert"><b>Note</b>  To prevent deadlocks, an NDIS driver must do the following:<ul>
 <li>Its <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function must not call 
     <b>NdisMNetPnPEvent</b>.</li>
 <li> If its <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function returns NDIS_STATUS_PENDING for an OID request, the NDIS driver must not call 
     <b>NdisMNetPnPEvent</b> until after it has completed the OID request by calling <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>.</li>
 </ul>
-</div><div> </div>To propagate notification of a network Plug and Play event, an NDIS PnP event, or Power Management
+</div>
+<div> </div>
+To propagate notification of a network Plug and Play event, an NDIS PnP event, or Power Management
     event to overlying drivers, an NDIS intermediate driver calls 
     <b>NdisMNetPnPEvent</b> in the context of the driver's 
     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function.
@@ -275,15 +284,24 @@ For all other propagated events, the intermediate driver's
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
 
  
 

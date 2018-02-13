@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e17da654-60a7-4942-99f9-f55df87a1ca3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem::DumpItemData, DumpItemData, DumpItemData method [Imaging Devices], wiamindr_lh/IWiaDrvItem::DumpItemData, DumpItemData method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], DumpItemData method, IWiaDrvItem, DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, image.iwiadrvitem_dumpitemdata
+ms.keywords: DumpItemData, wiamindr_lh/IWiaDrvItem::DumpItemData, DumpItemData method [Imaging Devices], IWiaDrvItem, image.iwiadrvitem_dumpitemdata, IWiaDrvItem::DumpItemData, IWiaDrvItem interface [Imaging Devices], DumpItemData method, DumpItemData method [Imaging Devices], IWiaDrvItem interface, DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT DumpItemData(
 
 
 
+
 #### - bstrDrvItemData [out, optional]
 
 Points to an allocated buffer that will receive the <b>IWiaDrvItem</b> data. 
@@ -82,13 +83,17 @@ Points to an allocated buffer that will receive the <b>IWiaDrvItem</b> data.
 ## -returns
 
 
+
 If the method succeeds, it returns S_OK. If the method fails the buffer allocation, it returns E_OUTOFMEMORY. If the method fails for another reason, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 This method is provided for Microsoft internal debugging only. It will return E_NOTIMPL on the release operating system. 
+
 
 

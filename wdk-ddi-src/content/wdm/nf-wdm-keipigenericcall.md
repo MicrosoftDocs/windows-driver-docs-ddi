@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 11424e94-d279-4003-a97c-a46d1a75e8e5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeIpiGenericCall routine [Kernel-Mode Driver Architecture], KeIpiGenericCall, kernel.keipigenericcall, wdm/KeIpiGenericCall, k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml
+ms.keywords: wdm/KeIpiGenericCall, KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], kernel.keipigenericcall, k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,20 +82,26 @@ Specifies the value to pass to <i>IpiGenericCall</i> when it is called.
 ## -returns
 
 
+
 <b>KeIpiGenericCall</b> returns the value that <a href="https://msdn.microsoft.com/library/windows/hardware/ff550688">IpiGenericCall</a> returns on the source processor (the processor that called <b>KeIpiGenericCall</b>). 
+
 
 
 
 ## -remarks
 
 
+
 When a driver calls <b>KeIpiGenericCall</b>, the system interrupts every processor and raises the IRQL to IPI_LEVEL (interprocessor interrupt level). Each processor spins on a barrier until all processors have reached the barrier; then, all processors begin calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550688">IpiGenericCall</a>. <b>KeIpiGenericCall</b> waits for all calls to <i>IpiGenericCall</i> to complete before returning. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550688">IpiGenericCall</a>
+
+
 
  
 

@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_get_length_information.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_get_length_information.md">GET_LENGTH_INFORMATION</a>
+
+
 
  
 

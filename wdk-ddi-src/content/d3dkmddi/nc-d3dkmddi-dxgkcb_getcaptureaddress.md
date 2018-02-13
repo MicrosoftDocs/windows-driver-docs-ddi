@@ -73,6 +73,9 @@ NTSTATUS APIENTRY DxgkCbGetCaptureAddress(
 
 
 
+
+
+
 #### - pData [in, out]
 
 [in/out] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_getcaptureaddress.md">DXGKARGCB_GETCAPTUREADDRESS</a> structure that describes parameters for retrieving information about a capture buffer.
@@ -81,7 +84,9 @@ NTSTATUS APIENTRY DxgkCbGetCaptureAddress(
 ## -returns
 
 
+
 <b>DxgkCbGetCaptureAddress</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,15 +114,19 @@ The allocation handle that is specified in the <b>hAllocation</b> member of the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <i>DxgkCbGetCaptureAddress</i> might also return other error codes that are defined in Ntstatus.h.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_getcaptureaddress.md">DXGKARGCB_GETCAPTUREADDRESS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bce6931d-af45-42aa-9be2-ded07f98c300
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_PROCAMPVALUES, _DXVADDI_PROCAMPVALUES, display.dxvaddi_procampvalues, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES structure [Display Devices], DXVADDI_PROCAMPVALUES
+ms.keywords: display.dxvaddi_procampvalues, _DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES structure [Display Devices], d3dumddi/DXVADDI_PROCAMPVALUES, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ typedef struct _DXVADDI_PROCAMPVALUES {
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d5653e4-a755-4066-b25a-f8f589821412
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_TRANSPORT_SEND_PARAMS1_, FWPS_TRANSPORT_SEND_PARAMS1, wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml, fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1_, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], netvista.fwps_transport_send_params1, wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml, FWPS_TRANSPORT_SEND_PARAMS1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,6 +100,7 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. The <b>SCOPE_ID</b>
      structure is defined in 
      Ws2ipdef.h as follows.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,6 +123,7 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
 ### -field OPTIONAL
 
  
+
 
 
 
@@ -166,14 +168,24 @@ The length, in bytes, of the
 <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
    FwpsInjectTransportSendAsync1</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
+
+
 <a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
 
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
 
  
 

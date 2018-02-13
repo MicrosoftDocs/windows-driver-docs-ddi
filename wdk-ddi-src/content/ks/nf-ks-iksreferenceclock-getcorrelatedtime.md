@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f4a47bb-460e-4ca0-9aee-4bcfdb88dd30
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: GetCorrelatedTime method [Streaming Media Devices], avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, IKsReferenceClock::GetCorrelatedTime, GetCorrelatedTime, stream.iksreferenceclock_getcorrelatedtime, IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, ks/IKsReferenceClock::GetCorrelatedTime, IKsReferenceClock, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface
+ms.keywords: IKsReferenceClock, IKsReferenceClock::GetCorrelatedTime, GetCorrelatedTime, stream.iksreferenceclock_getcorrelatedtime, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface, GetCorrelatedTime method [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], GetCorrelatedTime method, ks/IKsReferenceClock::GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ A pointer to a LONGLONG-typed variable that receives the current system time in 
 ## -returns
 
 
+
 The <b>IKsReferenceClock::GetCorrelatedTime</b> method returns the stream time, specified by default in 100-nanosecond units. The correlated system time is returned in <i>SystemTime</i>.
 
 
 
+
 ## -remarks
+
 
 
 Use this method to determine the difference between stream time and system time. <b>IKsReferenceClock::GetCorrelatedTime</b> returns the times that both clocks show at the same moment.
@@ -94,9 +97,12 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
 
  
 

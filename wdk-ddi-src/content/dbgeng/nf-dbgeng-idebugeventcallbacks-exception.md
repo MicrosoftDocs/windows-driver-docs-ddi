@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks::Exception, debugger.idebugeventcallbacks_exception, IDebugEventCallbacks, Exception method [Windows Debugging], IDebugEventCallbacks interface, Exception method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], Exception method, dbgeng/IDebugEventCallbacks::Exception, Exception, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml
+ms.keywords: Exception method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], Exception method, debugger.idebugeventcallbacks_exception, dbgeng/IDebugEventCallbacks::Exception, Exception method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::Exception, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, IDebugEventCallbacks, Exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,14 @@ Specifies whether this exception has been previously encountered.  A nonzero val
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
 
+
 ## -remarks
+
 
 
 This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
@@ -93,5 +96,6 @@ This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is se
 Because the structure that <i>Exception</i> points to might be deleted after this method returns, implementations of <b>IDebugEventCallbacks</b> should not access this structure after returning.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

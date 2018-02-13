@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8E005C77-4234-4B32-90F2-E4A8A7CD6305
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_client_config, _NFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], nfccx/_NFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], NFC_CX_CLIENT_CONFIG
+ms.keywords: NFC_CX_CLIENT_CONFIG, _NFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], nfccx/PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG, nfccx/_NFC_CX_CLIENT_CONFIG, nfpdrivers.nfc_cx_client_config, *PNFC_CX_CLIENT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_CLIENT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_CLIENT_CONFIG, *PNFC_CX_CLIENT_CONFIG
+req.typenames: "*PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG"
 ---
 
 # _NFC_CX_CLIENT_CONFIG structure
@@ -134,9 +134,13 @@ Pointer to an <a href="..\nfccx\nc-nfccx-evt_nfc_cx_device_io_control.md">EvtNfc
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
 
  
 

@@ -85,20 +85,26 @@ Pointer to a video miniport driver-initialized <a href="..\video\ns-video-_int10
 ## -returns
 
 
+
 The <b>Int10CallBios</b> function returns NO_ERROR upon success. Otherwise it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+
+
 
  
 

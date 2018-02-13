@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], ntddchgr/PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], ntddchgr/CHANGER_READ_ELEMENT_STATUS, _CHANGER_READ_ELEMENT_STATUS, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml, storage.changer_read_element_status, *PCHANGER_READ_ELEMENT_STATUS
+ms.keywords: "_CHANGER_READ_ELEMENT_STATUS, *PCHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS, storage.changer_read_element_status, ntddchgr/CHANGER_READ_ELEMENT_STATUS, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANGER_READ_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS"
+req.typenames: CHANGER_READ_ELEMENT_STATUS, *PCHANGER_READ_ELEMENT_STATUS
 ---
 
 # _CHANGER_READ_ELEMENT_STATUS structure
@@ -82,13 +82,23 @@ Indicates, when <b>TRUE</b>, that volume tag information should be reported in a
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
 
  
 

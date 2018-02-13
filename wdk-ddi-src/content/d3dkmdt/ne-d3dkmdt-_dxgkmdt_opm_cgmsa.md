@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1318d00e-aac3-4ff2-89a2-bcabcdff6331
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKMDT_OPM_CGMSA, display.dxgkmdt_opm_cgmsa, DXGKMDT_OPM_CGMSA_COPY_NO_MORE, DmEnums_94737355-e3ff-4e00-9dbe-9d954e462f54.xml, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA, DXGKMDT_OPM_CGMSA enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_FREELY, DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, DXGKMDT_OPM_CGMSA_COPY_FREELY, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NO_MORE, DXGKMDT_OPM_CGMSA_COPY_NEVER"
+ms.keywords: DmEnums_94737355-e3ff-4e00-9dbe-9d954e462f54.xml, d3dkmdt/DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_CGMSA_COPY_NO_MORE, d3dkmdt/DXGKMDT_OPM_CGMSA, _DXGKMDT_OPM_CGMSA, d3dkmdt/DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_FREELY, DXGKMDT_OPM_CGMSA_COPY_ONE_GENERATION, DXGKMDT_OPM_CGMSA_COPY_NEVER, DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED, DXGKMDT_OPM_CGMSA_OFF, d3dkmdt/DXGKMDT_OPM_CGMSA_COPY_NO_MORE, DXGKMDT_OPM_CGMSA_COPY_FREELY, DXGKMDT_OPM_CGMSA enumeration [Display Devices], DXGKMDT_OPM_CGMSA, display.dxgkmdt_opm_cgmsa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,21 +111,33 @@ DXGKMDT_OPM_REDISTRIBUTION_CONTROL_REQUIRED can be used only if a protected outp
 ## -remarks
 
 
+
 CGMS-A protects analog TV signals. Currently, OPM can use CGMS-A to protect signals from composite outputs, S-Video outputs, or component outputs. For more information about CGMS-A, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70568">CGMS-A article</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
+
+
 
  
 

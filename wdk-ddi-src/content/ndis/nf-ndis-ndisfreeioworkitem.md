@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ddc2f96b-fa2c-43c1-960f-7f8e06a5b22d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreeioworkitem, NdisFreeIoWorkItem, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista], ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, ndis/NdisFreeIoWorkItem
+ms.keywords: netvista.ndisfreeioworkitem, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista], NdisFreeIoWorkItem, ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, ndis/NdisFreeIoWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeIoWorkItem
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeIoWorkItem function
@@ -79,11 +79,14 @@ A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a p
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisFreeIoWorkItem</b> calls 
@@ -93,15 +96,24 @@ None
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
+
+
+<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
+
+
+
 <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8e9735b2-23d3-4fe6-8184-31e7707b6400
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetInterfaces, GetInterfaces method [Windows Device Testing Framework], wdtf/IWDTFTargets2::GetInterfaces, IWDTFTargets2::GetInterfaces, Microsoft::WDTF::IWDTFTargets2::GetInterfaces, Microsoft.WDTF.IWDTFTargets2.GetInterfaces, GetInterfaces method [Windows Device Testing Framework], IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfaces method, dtf.iwdtftargets2_getinterfaces, IWDTFTargets2
+ms.keywords: GetInterfaces method [Windows Device Testing Framework], IWDTFTargets2 interface, GetInterfaces method [Windows Device Testing Framework], IWDTFTargets2, IWDTFTargets2::GetInterfaces, Microsoft.WDTF.IWDTFTargets2.GetInterfaces, dtf.iwdtftargets2_getinterfaces, Microsoft::WDTF::IWDTFTargets2::GetInterfaces, GetInterfaces, IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfaces method, wdtf/IWDTFTargets2::GetInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,20 +111,26 @@ The WDTF ProgID of the requested interface.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 If any items in the collection fail to return an action, this method fails.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

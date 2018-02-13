@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetSize method [Print Devices], IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices], SetSize method, SetSize method [Print Devices], print.iprinterscriptablestream__setsize, IPrinterScriptableStream, printerextension/IPrinterScriptableStream::SetSize, IPrinterScriptableStream::SetSize, SetSize
+ms.keywords: IPrinterScriptableStream::SetSize, IPrinterScriptableStream, SetSize method [Print Devices], printerextension/IPrinterScriptableStream::SetSize, SetSize, IPrinterScriptableStream interface [Print Devices], SetSize method, SetSize method [Print Devices], IPrinterScriptableStream interface, print.iprinterscriptablestream__setsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The new size in bytes.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
+
+
 
  
 

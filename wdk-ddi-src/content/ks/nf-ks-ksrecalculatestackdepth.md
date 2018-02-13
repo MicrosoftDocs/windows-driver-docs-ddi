@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksrecalculatestackdepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, KsRecalculateStackDepth
+ms.keywords: ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth, KsRecalculateStackDepth, KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ If this is set to <b>TRUE</b>, the current stack location is reused when any IRP
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>KsRecalculateStackDepth</b> function assumes that <b>KsSetDevicePnpAndBaseObject</b> has been called on this device header and has assigned a base object whose stack depth is to be recalculated.
@@ -95,15 +98,24 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+## -see-also
 
 <a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
 
-<a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+
+
+
+<a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
+
+
 
  
 

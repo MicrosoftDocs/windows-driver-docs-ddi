@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 976ea17c-db43-487d-a378-3d65d12ddc98
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtRecoverResourceManager, wdm/ZwRecoverResourceManager, kernel.zwrecoverresourcemanager, NtRecoverResourceManager, ktm_ref_88d3ee88-7520-4942-95cc-38e53ab14044.xml, ZwRecoverResourceManager routine [Kernel-Mode Driver Architecture], ZwRecoverResourceManager
+ms.keywords: wdm/NtRecoverResourceManager, NtRecoverResourceManager, wdm/ZwRecoverResourceManager, kernel.zwrecoverresourcemanager, ZwRecoverResourceManager routine [Kernel-Mode Driver Architecture], ZwRecoverResourceManager, ktm_ref_88d3ee88-7520-4942-95cc-38e53ab14044.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,9 @@ A handle to a resource manager object that was obtained by a previous call to <a
 ## -returns
 
 
+
 <b>ZwRecoverResourceManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +129,16 @@ The caller does not have appropriate access to the resource manager object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 When a resource manager calls <b>ZwRecoverResourceManager</b>, KTM sends a TRANSACTION_NOTIFY_RECOVER notification to the resource manager for each of the resource manager's enlistments. (If the enlistment is a superior enlistment, KTM sends TRANSACTION_NOTIFY_RECOVER_QUERY instead of TRANSACTION_NOTIFY_RECOVER.)
@@ -148,19 +153,32 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+<a href="..\wdm\nf-wdm-tmrecoverresourcemanager.md">TmRecoverResourceManager</a>
 
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-tmrecoverresourcemanager.md">TmRecoverResourceManager</a>
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+
 
  
 

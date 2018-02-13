@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0da022d5-7294-4780-bab8-119ff6385abf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, NdisGetRssProcessorInformation, netvista.ndisgetrssprocessorinformation, ndis/NdisGetRssProcessorInformation
+ms.keywords: ndis/NdisGetRssProcessorInformation, ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], NdisGetRssProcessorInformation, netvista.ndisgetrssprocessorinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetRssProcessorInformation
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetRssProcessorInformation function
@@ -107,7 +107,9 @@ A pointer to a value that is the size, in bytes, of the buffer that the caller p
 ## -returns
 
 
+
 <b>NdisGetRssProcessorInformation</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,11 +139,14 @@ The size that was specified in
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -158,18 +163,29 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
+
 ## -see-also
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
    MiniportFilterResourceRequirements</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

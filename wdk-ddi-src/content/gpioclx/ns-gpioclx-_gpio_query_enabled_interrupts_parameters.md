@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: CC2EEF26-CCC0-4093-8A44-12FF1EDD2FF9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], *PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO.gpio_query_enabled_interrupts_parameters
+ms.keywords: PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], gpioclx/PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO.gpio_query_enabled_interrupts_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,17 +81,25 @@ A 64-bit mask that indicates which interrupts are enabled in the specified bank.
 ## -remarks
 
 
+
 The <i>QueryEnabledParameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a> event callback function is a pointer to a caller-allocated <b>GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</b> structure. Before calling this function, the caller writes a bank ID to the <b>BankId</b> member of this structure to specify which bank of GPIO pins to query. The function writes a mask value to the <b>EnabledMask</b> member of this structure to indicate which interrupts are enabled in the specified bank.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
+
 
  
 

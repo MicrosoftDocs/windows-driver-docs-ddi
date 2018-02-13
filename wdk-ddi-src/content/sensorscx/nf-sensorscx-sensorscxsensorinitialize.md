@@ -7,8 +7,8 @@ old-location: sensors\sensorscxsensorinitialize.htm
 old-project: sensors
 ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.sensorscxsensorinitialize, SensorsCxSensorInitialize function [Sensor Devices], SensorsCxSensorInitialize, sensorscx/SensorsCxSensorInitialize
+ms.date: 2/8/2018
+ms.keywords: sensors.sensorscxsensorinitialize, SensorsCxSensorInitialize, sensorscx/SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A list of enumeration properties. For more information, see <a href="..\sensorsc
 ## -returns
 
 
+
 This function returns NTSTATUS with different values. Some values that may be returned are the following:
+
 <ul>
 <li>
 STATUS_SUCCESS is returned when the function completes successfully.
@@ -103,4 +105,5 @@ STATUS_NOT_FOUND is returned if there was an error constructing the controller o
 
 </li>
 </ul>
+
 

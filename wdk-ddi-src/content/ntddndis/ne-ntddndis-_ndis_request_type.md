@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c4352eab-8bbd-429e-93ad-190372d29f2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_REQUEST_TYPE, NdisRequestReset, NdisRequestSetInformation, ntddndis/NdisRequestTransferData, ntddndis/NdisRequestOpen, ntddndis/NDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric1, _NDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestSetInformation, PNDIS_REQUEST_TYPE, ntddndis/NdisRequestMethod, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisRequestGeneric1, NdisRequestClose, ntddndis/NdisRequestClose, NdisRequestQueryInformation, NdisRequestGeneric2, ntddndis/NdisRequestGeneric3, NdisRequestGeneric4, NdisRequestTransferData, ntddndis/NdisRequestSend, *PNDIS_REQUEST_TYPE, ntddndis/NdisRequestReset, NdisRequestMethod, NDIS_REQUEST_TYPE, NdisRequestQueryStatistics, NdisRequestGeneric3, ntddndis/NdisRequestGeneric2, netvista.ndis_request_type, ntddndis/NdisRequestQueryStatistics, ntddndis/NdisRequestGeneric4, NdisRequestOpen, NdisRequestSend, ntddndis/NdisRequestQueryInformation
+ms.keywords: NdisRequestClose, NdisRequestOpen, ntddndis/NdisRequestGeneric3, PNDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric4, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, NdisRequestMethod, NdisRequestGeneric4, NdisRequestGeneric1, ntddndis/NdisRequestSend, ntddndis/NdisRequestMethod, NdisRequestSetInformation, ntddndis/NdisRequestGeneric1, NdisRequestQueryInformation, ntddndis/PNDIS_REQUEST_TYPE, _NDIS_REQUEST_TYPE, ntddndis/NdisRequestTransferData, ntddndis/NdisRequestOpen, NdisRequestTransferData, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestReset, NdisRequestGeneric2, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_REQUEST_TYPE, ntddndis/NdisRequestClose, ntddndis/NdisRequestSetInformation, NdisRequestQueryStatistics, ntddndis/NdisRequestQueryStatistics, NdisRequestGeneric3, *PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisRequestGeneric2, netvista.ndis_request_type, NdisRequestSend, ntddndis/NDIS_REQUEST_TYPE, NdisRequestReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -84,7 +84,9 @@ typedef enum _NDIS_REQUEST_TYPE {
 A query-information request. For certain requests, NDIS satisfies the request. Otherwise,
      NDIS forwards such requests to the underlying driver's 
      <i>MiniportOidRequest</i> function. This type of request can originate in a user-mode application, filter module, or protocol driver.
-<div class="alert"><b>Note</b>  Drivers should treat <b>NdisRequestQueryInformation</b> and <b>NdisRequestQueryStatistics</b> queries identically.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Drivers should treat <b>NdisRequestQueryInformation</b> and <b>NdisRequestQueryStatistics</b> queries identically.</div>
+<div> </div>
 
 ### -field NdisRequestSetInformation
 
@@ -97,7 +99,9 @@ A set-information request. NDIS forwards such a request to the underlying driver
 A query-statistics request. For certain requests, NDIS satisfies the request. Otherwise,
      NDIS forwards such requests to the underlying driver's 
      <i>MiniportOidRequest</i> function. This type of request can originate in a user-mode application, filter module, or protocol driver.
-<div class="alert"><b>Note</b>  Drivers should treat <b>NdisRequestQueryInformation</b> and <b>NdisRequestQueryStatistics</b> queries identically.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Drivers should treat <b>NdisRequestQueryInformation</b> and <b>NdisRequestQueryStatistics</b> queries identically.</div>
+<div> </div>
 
 ### -field NdisRequestOpen
 
@@ -153,18 +157,26 @@ A method request. NDIS forwards such a request to the underlying driver's
 ## -remarks
 
 
+
 The NDIS_REQUEST_TYPE enumeration is used in the 
     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure.
+
 <div class="alert"><b>Note</b>  For any NDIS_REQUEST_TYPE value, the OID_<i>Xxx</i> that is specified in the 
     <b>Oid</b> member of the NDIS_OID_REQUEST structure must be compatible with the type of operation
-    requested.</div><div> </div>
+    requested.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
 
  
 

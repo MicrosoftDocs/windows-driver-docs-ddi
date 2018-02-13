@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetDeviceStackIoType, wdfdevice/WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, PFN_WDFDEVICEGETDEVICESTACKIOTYPE, wdf.wdfdevicegetdevicestackiotype
+ms.keywords: PFN_WDFDEVICEGETDEVICESTACKIOTYPE, WdfDeviceGetDeviceStackIoType method, WdfDeviceGetDeviceStackIoType, wdfdevice/WdfDeviceGetDeviceStackIoType, wdf.wdfdevicegetdevicestackiotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,14 @@ A pointer to a driver-allocated location that receives a <a href="..\wudfddi_typ
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If your driver calls <b>WdfDeviceGetDeviceStackIoType</b> before the PnP manager has loaded all of the device's drivers, the values that <b>WdfDeviceGetDeviceStackIoType</b> retrieves might not be the values that it actually uses.
@@ -103,9 +106,12 @@ For more information about how the framework chooses a buffer access method, see
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fsrtllogccflusherror.htm
 old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtllogccflusherror, FsRtlLogCcFlushError routine [Installable File System Drivers], FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ntifs/FsRtlLogCcFlushError
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, FsRtlLogCcFlushError routine [Installable File System Drivers], FsRtlLogCcFlushError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,6 +94,7 @@ The error returned by the call to <a href="..\ntifs\nf-ntifs-ccflushcache.md">Cc
 ### -param Flags [in]
 
 A value of 0 or a bitwise combination of one or more of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -119,20 +120,24 @@ Suppresses generation of a system error log entry.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 The <b>FsRtlLogCcFlushError</b> routine returns STATUS_SUCCESS on success or another NTSTATUS value, such as STATUS_INSUFFICIENT_RESOURCES.
 
 
 
+
 ## -remarks
 
 
-Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
+
+Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
 
 If the entire <i>FileName</i> cannot fit within the log buffer, the routine inserts an ellipsis into the file name.
 
@@ -142,17 +147,24 @@ If the error is fatal, the routine increments the lost delayed write counter in 
 
 
 
+
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
 
 <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
 
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlLogCcFlushError routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlLogCcFlushError routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

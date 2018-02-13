@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTRender function [Display Devices], d3dkmthk/D3DKMTRender, OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, D3DKMTRender, display.d3dkmtrender
+ms.keywords: D3DKMTRender, D3DKMTRender function [Display Devices], OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, display.d3dkmtrender, d3dkmthk/D3DKMTRender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTRender(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a> structure that describes parameters for submitting the current command buffer to the graphics kernel subsystem.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER
 ## -returns
 
 
+
 <b>D3DKMTRender</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -214,13 +217,16 @@ For example, the DirectX graphics kernel subsystem puts a device into an error s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
 
+
 ## -remarks
+
 
 
 A command buffer typically contains many graphics commands.  
@@ -234,16 +240,51 @@ For a device that uses guaranteed DMA buffer contract mode (for more information
 For devices that do not use guaranteed DMA buffer contract, the OpenGL ICD can use the information that is returned in the <b>CommandBufferSize</b> and <b>AllocationListSize</b> members to determine the size of the next DMA buffer and allocation list that will be available for translation. However, under low-memory conditions, the actual DMA buffer and allocation list that is provided to the display miniport driver might be smaller than required.
 
 If the OpenGL ICD detects that most of the command buffer flushes are because the driver runs out of space in the command buffer or allocation list, the driver can request for them to be resized. To resize the command buffer, the driver sets the <b>ResizeCommandBuffer</b> bit-field flag in the <b>Flags</b> member of D3DKMT_RENDER and puts the requested size in the <b>CommandBufferSize</b> member of D3DKMT_RENDER. Similarly, to resize the allocation list, the driver sets the <b>ResizeAllocationList</b> bit-field flag in the <b>Flags</b> member of D3DKMT_RENDER and puts the requested number of elements in the <b>AllocationListSize</b> member of D3DKMT_RENDER.
+
 <div class="alert"><b>Note</b>    Even though the driver can request for resizing of both the command buffer and the allocation list, the video memory manager might not be able to comply. Therefore, if the call to <b>D3DKMTRender</b> is successful, the driver should verify the values that are returned in the <b>pCommandBuffer</b>, <b>CommandBufferSize</b>, and <b>AllocationListSize</b> members.<p class="note">However, if the call to <b>D3DKMTRender</b> fails, the driver determines that the command buffer, the allocation list, or both were not resized. Therefore, the driver should not process the values that are returned in the <b>pCommandBuffer</b>, <b>CommandBufferSize</b>, and <b>AllocationListSize</b> members because they are invalid.
 
-</div><div> </div>
+</div>
+<div> </div>
+
+#### Examples
+
+The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTRender</b> to render 3-D primitives.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT Render(D3DKMT_HANDLE hDevice, UINT CommandOffset, UINT CommandLength)
+{
+    D3DKMT_RENDER RenderData;
+
+    memset(&amp;RenderData, 0, sizeof(RenderData));
+    RenderData.hDevice = hDevice;
+    RenderData.CommandOffset = CommandOffset;
+    RenderData.CommandLength = CommandLength;
+
+    if (NT_SUCCESS((*pfnKTRender)(&amp;RenderData))) {
+        return S_OK;
+    }
+    return E_FAIL;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
+
 
  
 

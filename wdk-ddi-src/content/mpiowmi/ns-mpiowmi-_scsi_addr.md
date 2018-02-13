@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d53e0b05-8761-4b88-a7d5-081244b3dc93
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsi_addr, SCSI_ADDR, structs-scsibus_32f6b726-53af-4ea4-94e2-f30d67811592.xml, SCSI_ADDR structure [Storage Devices], mpiowmi/SCSI_ADDR, mpiowmi/PSCSI_ADDR, PSCSI_ADDR, *PSCSI_ADDR, PSCSI_ADDR structure pointer [Storage Devices], _SCSI_ADDR
+ms.keywords: mpiowmi/SCSI_ADDR, SCSI_ADDR, mpiowmi/PSCSI_ADDR, _SCSI_ADDR, PSCSI_ADDR structure pointer [Storage Devices], PSCSI_ADDR, structs-scsibus_32f6b726-53af-4ea4-94e2-f30d67811592.xml, storage.scsi_addr, *PSCSI_ADDR, SCSI_ADDR structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_ADDR
 product: Windows
 targetos: Windows
-req.typenames: SCSI_ADDR, *PSCSI_ADDR
+req.typenames: "*PSCSI_ADDR, SCSI_ADDR"
 ---
 
 # _SCSI_ADDR structure

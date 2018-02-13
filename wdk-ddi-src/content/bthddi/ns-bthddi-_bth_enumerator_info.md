@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], PBTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, *PBTH_ENUMERATOR_INFO, _BTH_ENUMERATOR_INFO
+ms.keywords: "_BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], bthddi/BTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,6 +103,7 @@ If the enumeration was caused by a connection request, this member contains the 
 ### -field Flags
 
 A flag that indicates the direction of the request. Possible values include:
+
 <ul>
 <li>BTH_ENUMERATORFL_INCOMING</li>
 <li>BTH_ENUMERATORFL_OUTGOING</li>
@@ -176,6 +177,7 @@ The device string for the remote device.
 ## -remarks
 
 
+
 The 
     <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> call's output buffer contains the information about an
@@ -184,14 +186,21 @@ The
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
+
+
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
 
-<a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
+
 
 <a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
+
+
 
  
 

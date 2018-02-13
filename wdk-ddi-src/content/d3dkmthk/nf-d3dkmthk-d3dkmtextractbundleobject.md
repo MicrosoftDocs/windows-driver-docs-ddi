@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtextractbundleobject, d3dkmthk/D3DKMTExtractBundleObject, D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices]
+ms.keywords: D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject, d3dkmthk/D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTExtractBundleObject(
 
 
 
+
 #### - D3dkmt_extractbundleobject [in, out]
 
 Holds information to extract the bundle object.
@@ -78,6 +79,8 @@ Holds information to extract the bundle object.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully. 
+
 
 

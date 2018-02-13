@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21D9DE55-2A26-467A-B119-8AFD4B47A4FD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO, _NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO, ndiswwan/PNDIS_WWAN_SLOT_INFO, netvista.ndis_wwan_slot_info_status, PNDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SLOT_INFO, netvista.ndis_wwan_slot_info_status, *PNDIS_WWAN_SLOT_INFO, PNDIS_WWAN_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SLOT_INFO, ndiswwan/NDIS_WWAN_SLOT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SLOT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SLOT_INFO, NDIS_WWAN_SLOT_INFO"
+req.typenames: NDIS_WWAN_SLOT_INFO, *PNDIS_WWAN_SLOT_INFO
 ---
 
 # _NDIS_WWAN_SLOT_INFO structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the <b>NDIS_WWAN_SLOT
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SLOT_INFO)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -123,6 +125,7 @@ For more information about these members, see
 The status of system capability. The following table shows the possible values for
      this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -190,12 +193,14 @@ The operation failed because the device does not support this OID.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SlotInfo
 
  
+
 
 
 
@@ -208,9 +213,15 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a> stru
 
 <a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
 
+
+
 <a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
+
+
 
  
 

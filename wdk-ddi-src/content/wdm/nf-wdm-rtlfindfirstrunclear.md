@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21e7e65c-b549-4997-b6dd-a95577edaa26
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindFirstRunClear routine [Kernel-Mode Driver Architecture], kernel.rtlfindfirstrunclear, RtlFindFirstRunClear, k109_9ccc7e63-f136-4625-83c1-bf38a534307e.xml, wdm/RtlFindFirstRunClear
+ms.keywords: wdm/RtlFindFirstRunClear, k109_9ccc7e63-f136-4625-83c1-bf38a534307e.xml, kernel.rtlfindfirstrunclear, RtlFindFirstRunClear, RtlFindFirstRunClear routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Pointer to a variable in which the starting index of the initial clear run in th
 ## -returns
 
 
+
 <b>RtlFindFirstRunClear</b> returns either the number of bits in the run beginning at <i>StartingIndex</i>, or zero if it cannot find a run of clear bits within the bitmap. 
 
 
 
+
 ## -remarks
+
 
 
 A returned run can have a single clear bit. That is, once a clear bit is found, <b>RtlFindFirstRunClear</b> continues searching until it finds the next set bit, and then returns the number of clear bits in the run it found.
@@ -95,29 +98,52 @@ Callers of <b>RtlFindFirstRunClear</b> must be running at IRQL &lt;= APC_LEVEL i
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
-
-<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlsetbits.md">RtlSetBits</a>
-
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
-
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
 
 <a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetbits.md">RtlSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
 
  
 

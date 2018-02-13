@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c125e21f-20be-42c1-ba24-b13f2475f02e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2DELETEQUERY, D3DHAL_DP2DELETEQUERY structure [Display Devices], d3dhal/D3DHAL_DP2DELETEQUERY, display.d3dhal_dp2deletequery, d3dstrct_3194de0d-21ee-4f44-9be3-2f2ebe6b06e2.xml, *LPD3DHAL_DP2DELETEQUERY, LPD3DHAL_DP2DELETEQUERY, _D3DHAL_DP2DELETEQUERY, LPD3DHAL_DP2DELETEQUERY structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2DELETEQUERY
+ms.keywords: d3dstrct_3194de0d-21ee-4f44-9be3-2f2ebe6b06e2.xml, display.d3dhal_dp2deletequery, *LPD3DHAL_DP2DELETEQUERY, d3dhal/D3DHAL_DP2DELETEQUERY, LPD3DHAL_DP2DELETEQUERY, D3DHAL_DP2DELETEQUERY, d3dhal/LPD3DHAL_DP2DELETEQUERY, _D3DHAL_DP2DELETEQUERY, LPD3DHAL_DP2DELETEQUERY structure pointer [Display Devices], D3DHAL_DP2DELETEQUERY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,9 @@ Identifies the query for which the driver releases resources.
 ## -remarks
 
 
+
 The runtime uses D3DHAL_DP2DELETEQUERY to identify each query. The driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback must process <b>wPrimitiveCount</b> D3DHAL_DP2DELETEQUERY structures from the command buffer. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure. The driver parses these structures and releases resources for the queries that they represent. 
+
 
 
 
@@ -87,11 +89,19 @@ The runtime uses D3DHAL_DP2DELETEQUERY to identify each query. The driver's <a h
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
 D3DDP2OP_DELETEQUERY
+
+
 
  
 

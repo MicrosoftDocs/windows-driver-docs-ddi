@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d638aeb-299a-4707-be5d-99291a1605e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_BUFFERBLT, _D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT structure [Display Devices], display.d3dddiarg_bufferblt, d3dumddi/D3DDDIARG_BUFFERBLT, UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml
+ms.keywords: display.d3dddiarg_bufferblt, D3DDDIARG_BUFFERBLT structure [Display Devices], d3dumddi/D3DDDIARG_BUFFERBLT, UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, D3DDDIARG_BUFFERBLT, _D3DDDIARG_BUFFERBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ typedef struct _D3DDDIARG_BUFFERBLT {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_bufblt.md">BufBlt</a>
+
+
 
  
 

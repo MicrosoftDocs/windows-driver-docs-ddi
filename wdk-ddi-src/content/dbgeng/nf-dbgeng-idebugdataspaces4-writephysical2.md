@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 15a83343-b95b-4f79-b4f2-ed2ad60d170e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::WritePhysical2, dbgeng/IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces4, WritePhysical2 method [Windows Debugging], debugger.writephysical2, WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method
+ms.keywords: WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, IDebugDataSpaces4::WritePhysical2, debugger.writephysical2, dbgeng/IDebugDataSpaces4::WritePhysical2, WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,6 +79,7 @@ Specifies the physical address of the memory to write the data to.
 ### -param Flags [in]
 
 Specifies the properties of the physical memory to be written to.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -124,7 +125,8 @@ The physical memory is write-combined.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [in]
@@ -145,7 +147,9 @@ Receives the number of bytes written to the target's memory.  If <i>BytesWritten
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -162,11 +166,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is only available in kernel-mode debugging.
@@ -175,13 +182,20 @@ The flags DEBUG_PHYSICAL_CACHED, DEBUG_PHYSICAL_UNCACHED, and DEBUG_PHYSICAL_WRI
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561441">WritePhysical2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561441">WritePhysical2</a>
+
 
  
 

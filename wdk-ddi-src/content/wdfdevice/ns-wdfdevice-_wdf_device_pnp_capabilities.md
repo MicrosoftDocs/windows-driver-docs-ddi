@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0857e32e-9962-44ca-9d61-b98b09073c16
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_PNP_CAPABILITIES, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES, wdf.wdf_device_pnp_capabilities, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, kmdf.wdf_device_pnp_capabilities, _WDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, *PWDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, PWDF_DEVICE_PNP_CAPABILITIES, WDF_DEVICE_PNP_CAPABILITIES structure
+ms.keywords: kmdf.wdf_device_pnp_capabilities, wdf.wdf_device_pnp_capabilities, PWDF_DEVICE_PNP_CAPABILITIES, *PWDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, WDF_DEVICE_PNP_CAPABILITIES structure, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, _WDF_DEVICE_PNP_CAPABILITIES, WDF_DEVICE_PNP_CAPABILITIES, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -142,9 +142,11 @@ The following list describes the information that certain bus drivers store in t
 
 
 
+
 #### 1394
 
 Does not supply an address because the addresses are volatile. Defaults to 0xFFFFFFFF. 
+
 
 
 #### EISA
@@ -152,9 +154,11 @@ Does not supply an address because the addresses are volatile. Defaults to 0xFFF
 Slot Number (0-F).
 
 
+
 #### IDE
 
 For an IDE device, the address contains the target ID and LUN. For an IDE channel, the address is 0 if the channel is the primary channel or 1 if the channel is the secondary channel).
+
 
 
 #### ISApnp
@@ -162,9 +166,11 @@ For an IDE device, the address contains the target ID and LUN. For an IDE channe
 Does not supply an address. Defaults to 0xFFFFFFFF.
 
 
+
 #### PC Card (PCMCIA)
 
 The socket number (typically 0x00 or 0x40).
+
 
 
 #### PCI
@@ -172,9 +178,11 @@ The socket number (typically 0x00 or 0x40).
 The device number in the high word and the function number in the low word.
 
 
+
 #### SCSI
 
 The target ID.
+
 
 
 #### USB
@@ -190,6 +198,7 @@ A number that is associated with the device and can be displayed in user interfa
 ## -remarks
 
 
+
 Several members use the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a> type. For these members, a value of <b>WdfTrue</b> indicates that the device supports the capability and a value of <b>WdfFalse</b> indicates it does not. A value of <b>WdfUseDefault</b> indicates the framework will use the value that a driver lower in the stack provided. For example, if a bus driver specifies <b>WdfTrue</b> for <b>LockSupported</b> and the device's function driver specifies <b>WdfUseDefault</b>, the framework stores <b>WdfTrue</b> for the capability.
 
 The WDF_DEVICE_PNP_CAPABILITIES structure is used as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpnpcapabilities.md">WdfDeviceSetPnpCapabilities</a>.
@@ -198,11 +207,16 @@ To initialize a WDF_DEVICE_PNP_CAPABILITIES structure, a driver should call <a h
 
 
 
+
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassignrawdevice.md">WdfPdoInitAssignRawDevice</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>
+
+
 
  
 

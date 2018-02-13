@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: aae9218e-e52b-4a72-9d96-d648ff6d2f5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pci_struct_86cc3b70-4de8-4479-b431-5f7f10d4a2f4.xml, *PPCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER union pointer [Buses], PCI.pci_express_capabilities_register, PCI_EXPRESS_CAPABILITIES_REGISTER union [Buses], ntddk/PPCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_CAPABILITIES_REGISTER, _PCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER
+ms.keywords: "_PCI_EXPRESS_CAPABILITIES_REGISTER, PCI.pci_express_capabilities_register, PCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_CAPABILITIES_REGISTER, pci_struct_86cc3b70-4de8-4479-b431-5f7f10d4a2f4.xml, PPCI_EXPRESS_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,15 +159,19 @@ A PCIe root complex event collector.
 ## -remarks
 
 
+
 The PCI_EXPRESS_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_CAPABILITIES_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

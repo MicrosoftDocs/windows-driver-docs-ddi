@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iocreatecontroller, ntddk/IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, IoCreateController
+ms.keywords: k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, ntddk/IoCreateController, IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], kernel.iocreatecontroller
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoCreateController
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoCreateController function
@@ -75,11 +75,14 @@ Specifies the number of bytes to be allocated for the controller extension.
 ## -returns
 
 
+
 <b>IoCreateController</b> returns a pointer to the controller object or a <b>NULL</b> pointer if memory could not be allocated for the requested device extension.
 
 
 
+
 ## -remarks
+
 
 
 A controller object usually represents a physical device controller with attached devices on which a single driver carries out I/O requests. The controller extension is allocated from nonpaged pool and is guaranteed to be accessible by any driver routine and in an arbitrary thread context.
@@ -90,15 +93,24 @@ If <b>IoCreateController</b> returns <b>NULL</b>, the driver should fail device 
 
 
 
-## -see-also
 
-<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
+## -see-also
 
 <a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
 
+
+
+<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+
+
 
  
 

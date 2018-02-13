@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile, KsPublishDeviceProfile
+ms.keywords: KsPublishDeviceProfile, ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile, KsPublishDeviceProfile function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,17 @@ This is a camera profile of type <a href="..\ksmedia\ns-ksmedia-_ksdevice_profil
 ## -returns
 
 
+
 Camera profile information will only be associated with the <b>KSCATEGORY_VIDEO_CAMERA</b> interface category.  Any filter factory created without this interface category and attempting to register a camera profile will result in this API returning a <b>STATUS_INVALID_PARAMETER</b>.
+
 
 
 
 ## -remarks
 
 
+
 This API will be called repeatedly for each profile the camera driver supports.  Each call may have different set of concurrency and data range information.  The <b>ProfileId</b> field of the <b>KSCAMERA_PROFILE_INFO</b> must be unique.  If the same <b>ProfileId</b> is used and the content of the profile information is different, the subsequent call will overwrite the earlier profile information.
+
 
 

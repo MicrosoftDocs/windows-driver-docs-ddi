@@ -90,7 +90,9 @@ A context value to pass to the <i>Context</i> parameter of the  callback functio
 ## -returns
 
 
+
 The <i>NdkDeregisterMr</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,7 +132,9 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -138,11 +142,19 @@ An error occurred.
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
+
+
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9B0590F4-E9B3-4999-99BD-BDB1EA413FF4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], 1394/IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen"
+ms.keywords: IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], IEEE.irb_req_isoch_listen, 1394/IRB_REQ_ISOCH_LISTEN, _IRB_REQ_ISOCH_LISTEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,8 +87,10 @@ Specifies the cycle time to begin reading data. This member is used only if the 
 ## -remarks
 
 
+
 The bus driver completes this request once it has successfully scheduled the isochronous listen operation. It does not wait for the data transfer to finish, or even begin, before it completes the request.
 
 Listening on a channel may begin immediately, or it may be synchronized to an event. If the driver set the RESOURCE_SYNCH_ON_TIME flag on the REQUEST_ISOCH_ALLOCATE_RESOURCES request that returned the resource handle, then the listen begins on the cycle count specified in <b>StartTime</b>. Additional synchronization options may be set for each buffer within that buffer's ISOCH_DESCRIPTOR structure.
+
 
 

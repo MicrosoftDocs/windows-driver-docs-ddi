@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4::GetLineByInlineContextWide, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContextWide method, GetLineByInlineContextWide method [Windows Debugging], debugger.idebugsymbols4_getlinebyinlinecontextwide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, IDebugSymbols4, GetLineByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, GetLineByInlineContextWide
+ms.keywords: IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContextWide method, IDebugSymbols4, GetLineByInlineContextWide method [Windows Debugging], debugger.idebugsymbols4_getlinebyinlinecontextwide, GetLineByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, IDebugSymbols4::GetLineByInlineContextWide, GetLineByInlineContextWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,13 +111,17 @@ A pointer to the displacement value of the file.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
+
+
 
  
 

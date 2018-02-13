@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44d38686-7a66-4e27-9dc7-9b3b4dbdffd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetNextIrpStackLocation, k104_28da61f1-a732-4336-a14a-90a5bd2682c3.xml, IoGetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], kernel.iogetnextirpstacklocation, wdm/IoGetNextIrpStackLocation
+ms.keywords: IoGetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], IoGetNextIrpStackLocation, wdm/IoGetNextIrpStackLocation, k104_28da61f1-a732-4336-a14a-90a5bd2682c3.xml, kernel.iogetnextirpstacklocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to the IRP.
 ## -returns
 
 
+
 <b>IoGetNextIrpStackLocation</b> returns a pointer to the next-lower-level driver's <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a> in the given IRP.
 
 
 
+
 ## -remarks
+
 
 
 Each driver that passes IRPs on to lower drivers must set up the stack location for the next lower driver. A driver calls <b>IoGetNextIrpStackLocation</b> to get a pointer to the next-lower driver's I/O stack location.
@@ -91,19 +94,32 @@ The return value is a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 <a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
 
  
 

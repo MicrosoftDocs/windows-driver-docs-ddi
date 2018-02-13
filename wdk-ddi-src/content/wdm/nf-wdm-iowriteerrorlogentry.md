@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1259c344-584c-410a-a152-5de1f433082c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml, IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], IoWriteErrorLogEntry, kernel.iowriteerrorlogentry, wdm/IoWriteErrorLogEntry
+ms.keywords: wdm/IoWriteErrorLogEntry, IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], kernel.iowriteerrorlogentry, IoWriteErrorLogEntry, k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,24 +76,34 @@ Pointer to the error log packet the driver has allocated with <a href="..\wdm\nf
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>IoWriteErrorLogEntry</b> frees the error log entry. Drivers must not call <b>IoFreeErrorLogEntry</b> on a log entry that they have already passed to <b>IoWriteErrorLogEntry</b>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
+<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
+
+
 
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
-<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
+
+
+<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, storage.sendlirr_in, SendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], _SendLIRR_IN, *PSendLIRR_IN, SendLIRR_IN structure [Storage Devices], hbapiwmi/SendLIRR_IN, hbapiwmi/PSendLIRR_IN, PSendLIRR_IN
+ms.keywords: "_SendLIRR_IN, SendLIRR_IN structure [Storage Devices], storage.sendlirr_in, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, hbapiwmi/PSendLIRR_IN, *PSendLIRR_IN, SendLIRR_IN, hbapiwmi/SendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], PSendLIRR_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendLIRR_IN
 product: Windows
 targetos: Windows
-req.typenames: SendLIRR_IN, *PSendLIRR_IN
+req.typenames: "*PSendLIRR_IN, SendLIRR_IN"
 ---
 
 # _SendLIRR_IN structure
@@ -93,13 +93,17 @@ Indicates the device type for which link information is requested. For an explan
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendLIRR_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a>
+
+
 
  
 

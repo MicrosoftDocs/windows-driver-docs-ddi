@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenByName, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenReopen, wdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, WdfIoTargetOpenByName, WdfIoTargetOpenUndefined, WdfIoTargetOpenUseExistingDevice, WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenUseExistingDevice, wdfiotarget/WdfIoTargetOpenUndefined, _WDF_IO_TARGET_OPEN_TYPE, WDF_IO_TARGET_OPEN_TYPE enumeration, kmdf.wdf_io_target_open_type
+ms.keywords: wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenByName, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenReopen, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenUseExistingDevice, WdfIoTargetOpenByName, _WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenUseExistingDevice, kmdf.wdf_io_target_open_type, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenUndefined, wdf.wdf_io_target_open_type, WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenLocalTargetByFile, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -106,6 +106,7 @@ This value is supported by UMDF only.
 ## -remarks
 
 
+
 The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration is used in the <b>Type</b> member of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
 The driver can specify <b>WdfIoTargetOpenReopen</b> only if it specified <b>WdfIoTargetOpenByName</b> when it originally opened the remote I/O target.
@@ -121,17 +122,28 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 
 
+
 ## -see-also
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+
 
 <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
+
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+
+
 
  
 

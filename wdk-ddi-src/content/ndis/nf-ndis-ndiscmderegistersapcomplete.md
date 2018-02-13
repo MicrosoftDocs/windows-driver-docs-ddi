@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92955e1e-6c5b-4e8e-a365-65ff4d0889a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDeregisterSapComplete, condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete
+ms.keywords: netvista.ndiscmderegistersapcomplete, condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, NdisCmDeregisterSapComplete, ndis/NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmDeregisterSapComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmDeregisterSapComplete function
@@ -83,11 +83,14 @@ Specifies the handle identifying the SAP.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisCmDeregisterSapComplete</b> notifies both NDIS and the client that the call manager has completed
@@ -111,16 +114,25 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
    ProtocolClDeregisterSapComplete</a>
 
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
+
 
  
 

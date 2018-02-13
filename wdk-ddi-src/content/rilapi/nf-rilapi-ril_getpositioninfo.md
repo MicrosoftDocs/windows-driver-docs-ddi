@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a34ed9ad-13b6-4f09-88c1-c5462a421ad8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetPositionInfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getpositioninfo, RIL_GetPositionInfo
+ms.keywords: netvista.ril_getpositioninfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetPositionInfo, RIL_GetPositionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetPositionInfo(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

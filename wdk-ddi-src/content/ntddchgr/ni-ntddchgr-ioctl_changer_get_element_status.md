@@ -92,14 +92,18 @@ The changer miniclass driver returns the changer element status data in the buff
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,11 +116,19 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a>
+
+
 
  
 

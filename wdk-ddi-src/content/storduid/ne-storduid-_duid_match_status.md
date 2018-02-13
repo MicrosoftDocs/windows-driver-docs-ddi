@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storduid/DuidErrorInvalidDeviceDescSize, DuidExactMatch, DuidErrorMaximum, DUID_MATCH_STATUS enumeration [Storage Devices], DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorGeneral, storduid/DuidExactMatch, DuidSubIdMatch, DuidErrorVersionMismatch, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DuidNoMatch, storduid/DuidErrorInvalidDuid, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, storduid/DuidErrorVersionMismatch, _DUID_MATCH_STATUS, DUID_MATCH_STATUS, storduid/DuidErrorMaximum, DuidErrorInvalidDuid, storduid/DuidErrorMissingDuid, DuidErrorMissingDuid, DuidErrorInvalidLayoutSigVersion, storduid/DUID_MATCH_STATUS, storage.duid_match_status, storduid/DuidSubIdMatch, storduid/DuidErrorInvalidLayoutSigSize, DuidErrorInvalidDeviceDescSize, DuidErrorGeneral, DuidNoMatch
+ms.keywords: DUID_MATCH_STATUS enumeration [Storage Devices], storduid/DuidErrorInvalidDeviceDescSize, DuidErrorMaximum, _DUID_MATCH_STATUS, storduid/DuidExactMatch, storduid/DuidErrorInvalidLayoutSigSize, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, storduid/DuidErrorInvalidLayoutSigVersion, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorVersionMismatch, storduid/DuidErrorInvalidDuid, DUID_MATCH_STATUS, DuidErrorGeneral, storduid/DuidErrorMaximum, DuidErrorVersionMismatch, storduid/DUID_MATCH_STATUS, DuidErrorMissingDuid, DuidExactMatch, DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidDeviceDescSize, DuidNoMatch, DuidErrorInvalidDuid, storduid/DuidErrorMissingDuid, storduid/DuidSubIdMatch, storduid/DuidErrorGeneral, DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidDeviceIdDescSize, storage.duid_match_status, DuidSubIdMatch, storduid/DuidNoMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -143,9 +143,15 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
+
+
 <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
+
+
 <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a>
+
+
 
  
 

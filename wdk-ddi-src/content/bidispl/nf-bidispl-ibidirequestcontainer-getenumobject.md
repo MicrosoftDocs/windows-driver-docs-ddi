@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "_win32_IBidiRequestContainer_GetEnumObject, GetEnumObject, IBidiRequestContainer interface [Print Devices], GetEnumObject method, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, IBidiRequestContainer::GetEnumObject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject, GetEnumObject method [Print Devices], bidispl/IBidiRequestContainer::GetEnumObject, IBidiRequestContainer, GetEnumObject method [Print Devices], IBidiRequestContainer interface"
+ms.keywords: GetEnumObject method [Print Devices], IBidiRequestContainer interface, _win32_IBidiRequestContainer_GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, bidispl/IBidiRequestContainer::GetEnumObject, GetEnumObject, IBidiRequestContainer, IBidiRequestContainer::GetEnumObject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject, GetEnumObject method [Print Devices], IBidiRequestContainer interface [Print Devices], GetEnumObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiRequestContainer.GetEnumObject
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiRequestContainer::GetEnumObject method
@@ -75,7 +75,9 @@ Pointer to the variable that receives a pointer to the <a href="https://msdn.mic
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,26 +116,38 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 An application can call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a> interfaces.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
 
 <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
+
+
 
  
 

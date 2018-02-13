@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B887CCD2-0747-483E-A4CF-632471AB19A2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_suspendplmpackagewide, IDebugPlmClient3::SuspendPlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, IDebugPlmClient3
+ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], SuspendPlmPackageWide method, debugger.idebugplmclient3_suspendplmpackagewide, IDebugPlmClient3::SuspendPlmPackageWide, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ A pointer to the package name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
+
+
 
  
 

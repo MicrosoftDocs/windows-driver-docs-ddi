@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile, icm/WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices]
+ms.keywords: WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile, icm/WcsGetDefaultColorProfile, colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, WcsGetDefaultColorProfile function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,6 +116,7 @@ A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT
 ## -remarks
 
 
+
 Use the <a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a> function to obtain the required size of the buffer pointed to by the <i>pProfileName</i> parameter.
 
 If WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the current user setting, is present, it overrides the system-wide default for <i>profileManagementScope</i>.
@@ -124,15 +125,24 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 
+
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a>
+<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
 
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
+
 
 <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
+<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
+
+
+
+<a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a>
+
+
 
  
 

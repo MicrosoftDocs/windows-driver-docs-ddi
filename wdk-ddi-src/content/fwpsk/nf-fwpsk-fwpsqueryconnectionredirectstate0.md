@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db0a5ac-edab-4e84-b378-30ed0c23cd4b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0
+ms.keywords: FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0, fwpsk/FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,12 +95,15 @@ An optional handle to the redirect context. If the pointer is specified, and if 
 ## -returns
 
 
+
 The 
      <b>FwpsQueryConnectionRedirectState0</b> function returns one of the states that are specified in the <a href="..\fwpsk\ne-fwpsk-fwps_connection_redirect_state_.md">FWPS_CONNECTION_REDIRECT_STATE</a> enumeration.
 
 
 
+
 ## -remarks
+
 
 
 A callout driver calls the <b>FwpsQueryConnectionRedirectState0</b> function to get the redirect state of a connection. 
@@ -123,11 +126,16 @@ If the redirect status is FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, the ALE
 
 
 
+
 ## -see-also
+
+<a href="..\fwpsk\ne-fwpsk-fwps_connection_redirect_state_.md">FWPS_CONNECTION_REDIRECT_STATE</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
 
-<a href="..\fwpsk\ne-fwpsk-fwps_connection_redirect_state_.md">FWPS_CONNECTION_REDIRECT_STATE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4028b259-a157-4e50-b1a2-25da3050cced
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetSendInternalIoctlSynchronously, WdfIoTargetSendInternalIoctlSynchronously method, PFN_WDFIOTARGETSENDINTERNALIOCTLSYNCHRONOUSLY, DFIOTargetRef_c318553e-1a21-444e-b8e0-de4a1f17b98f.xml, kmdf.wdfiotargetsendinternalioctlsynchronously, wdf.wdfiotargetsendinternalioctlsynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously
+ms.keywords: DFIOTargetRef_c318553e-1a21-444e-b8e0-de4a1f17b98f.xml, WdfIoTargetSendInternalIoctlSynchronously method, WdfIoTargetSendInternalIoctlSynchronously, PFN_WDFIOTARGETSENDINTERNALIOCTLSYNCHRONOUSLY, wdf.wdfiotargetsendinternalioctlsynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously, kmdf.wdfiotargetsendinternalioctlsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,7 +115,9 @@ A pointer to a location that receives information (such as the number of bytes t
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfIoTargetSendInternalIoctlSynchronously</b> returns after the internal device control request completes, and the return value is the request's completion status value. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -187,7 +189,8 @@ The I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>) that the <i>Req
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -197,7 +200,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use the <b>WdfIoTargetSendInternalIoctlSynchronously</b> method to send internal device control requests synchronously. To send internal device control requests asynchronously, use the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md">WdfIoTargetFormatRequestForInternalIoctl</a> method, followed by the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> method. 
@@ -209,6 +214,7 @@ The <b>WdfIoTargetSendInternalIoctlSynchronously</b> method does not return unti
 You can forward an internal device control request that your driver received in an I/O queue, or you can create and send a new request. In either case, the framework requires a request object and some buffer space.
 
 To forward an internal device control request that your driver received in an I/O queue:
+
 <ol>
 <li>
 Specify the received request's handle for the <b>WdfIoTargetSendInternalIoctlSynchronously</b> method's <i>Request</i> parameter.
@@ -226,11 +232,13 @@ Use the received request's output buffer for the <b>WdfIoTargetSendInternalIoctl
 The driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> to obtain a handle to the request's output buffer, and it must then place that handle in the <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure that the driver supplies for the <i>OutputBuffer</i> parameter.
 
 </li>
-</ol>For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+</ol>
+For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 Drivers often divide received I/O requests into smaller requests that they send to an I/O target, so your driver might create new requests.
 
 To create a new I/O request:
+
 <ol>
 <li>
 Supply a <b>NULL</b> request handle for the <b>WdfIoTargetSendInternalIoctlSynchronously</b> method's <i>Request</i> parameter, or create a new request object and supply its handle:<ul>
@@ -308,51 +316,122 @@ Drivers can obtain MDLs that are associated with a received I/O request by calli
 </li>
 </ul>
 </li>
-</ol>For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
+</ol>
+For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
 
 For more information about <b>WdfIoTargetSendInternalIoctlSynchronously</b>, see <a href="https://msdn.microsoft.com/3fa897f5-2de8-484b-becb-c2de23fb5e8c">Sending I/O Requests to General I/O Targets</a>.
 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
+#### Examples
+
+The following code example defines a local buffer, initializes a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure, and calls <b>WdfIoTargetSendInternalIoctlSynchronously</b>. This example specifies <b>NULL</b> for the request object handle, so the framework will create a new request object for the I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_MEMORY_DESCRIPTOR  outputDescriptor;
+NTSTATUS  status;
+MY_DRIVER_INFORMATION  driverInformation;
+
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
+                                  &amp;outputDescriptor,
+                                  (PVOID) &amp;driverInformation,
+                                  sizeof(MY_DRIVER_INFORMATION)
+                                  );
+
+status = WdfIoTargetSendInternalIoctlSynchronously(
+                                                   hidTarget,
+                                                   NULL,
+                                                   IOCTL_INTERNAL_GET_MY_DRIVER_INFORMATION,
+                                                   NULL,
+                                                   &amp;outputDescriptor,
+                                                   NULL,
+                                                   NULL
+                                                   );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md">WdfRequestRetrieveOutputWdmMdl</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md">WdfIoTargetFormatRequestForInternalIoctl</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputwdmmdl.md">WdfRequestRetrieveInputWdmMdl</a>
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md">WdfIoTargetFormatRequestForInternalIoctl</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md">WdfRequestRetrieveOutputWdmMdl</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputwdmmdl.md">WdfRequestRetrieveInputWdmMdl</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+
 
  
 

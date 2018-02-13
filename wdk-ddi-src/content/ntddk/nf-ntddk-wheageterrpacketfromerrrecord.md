@@ -7,8 +7,8 @@ old-location: whea\wheageterrpacketfromerrrecord.htm
 old-project: whea
 ms.assetid: 8b4a835f-b1ec-4308-8e0d-a13c0f421dc8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ntddk/WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications], whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml, whea.wheageterrpacketfromerrrecord, WheaGetErrPacketFromErrRecord
+ms.date: 2/8/2018
+ms.keywords: ntddk/WheaGetErrPacketFromErrRecord, whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml, whea.wheageterrpacketfromerrrecord, WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WheaGetErrPacketFromErrRecord
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # WheaGetErrPacketFromErrRecord function
@@ -75,14 +75,18 @@ A pointer to a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-
 ## -returns
 
 
+
 <b>WheaGetErrPacketFromErrRecord</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure within the <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure. If the function does not locate the WHEA_ERROR_PACKET structure, it returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>WheaGetErrPacketFromErrRecord</b> function returns a pointer to the hardware error packet that is contained within an error record.
+
 
 
 
@@ -90,13 +94,19 @@ The <b>WheaGetErrPacketFromErrRecord</b> function returns a pointer to the hardw
 
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
 
 <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">Error record</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WheaGetErrPacketFromErrRecord function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WheaGetErrPacketFromErrRecord function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::RetrieveDeviceInstanceId, wdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice interface, RetrieveDeviceInstanceId method, IWDFDevice, umdf.iwdfdevice_retrievedeviceinstanceid, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDevice interface, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, RetrieveDeviceInstanceId method
+ms.keywords: umdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDevice interface, IWDFDevice interface, RetrieveDeviceInstanceId method, wdf.iwdfdevice_retrievedeviceinstanceid, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,6 +88,7 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 ## -returns
 
 
+
 <b>RetrieveDeviceInstanceId</b> returns S_OK for the following scenarios: 
 
 
@@ -105,9 +106,12 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_STOR_POFX_DEVICE, STOR_POFX_DEVICE, storport/STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE structure [Storage Devices], storport/PSTOR_POFX_DEVICE, storage.stor_pofx_device"
+ms.keywords: PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE, PSTOR_POFX_DEVICE, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, storport/STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE structure [Storage Devices], storage.stor_pofx_device, _STOR_POFX_DEVICE, storport/PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,6 +95,7 @@ The device power state capabilities flags. The miniport sets one or more of the 
 <b>Flags</b> is a bitwise OR combination of the following.
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -152,7 +153,8 @@ This flag indicates whether a device is available for dump when it is idle.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Components
@@ -163,6 +165,7 @@ This member is the first element in an array of one or more <a href="..\wdm\ns-w
 ## -remarks
 
 
+
 To register a storage adapter for Storport PoFx support, the miniport driver calls <a href="..\storport\nf-storport-storportenablepassiveinitialization.md">StorPortEnablePassiveInitialization</a> in its <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine and implements a <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>. The miniport calls <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a> within it's <b>HwStorPassiveInitializeRoutine</b> to provide information about the adapter component.
 
 To register a storage unit for Storport PoFx support, the miniport driver implements the <a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a> callback routine and provides handling of the <b>ScsiUnitPoFxPowerInfo</b> unit control code. When the handling the <b>ScsiUnitPoFxPowerInfo</b> control code, the miniport calls <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a> if idle power management for the unit component is enabled.
@@ -171,15 +174,24 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 
+
 ## -see-also
-
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
-
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
+
+
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+
+
+
+<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+
+
+
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+
+
 
  
 

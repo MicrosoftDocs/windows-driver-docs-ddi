@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetItemName, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices], IWiaDrvItem interface, GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname
+ms.keywords: GetItemName method [Imaging Devices], IWiaDrvItem interface, wiamindr_lh/IWiaDrvItem::GetItemName, IWiaDrvItem::GetItemName, DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, IWiaDrvItem, GetItemName method [Imaging Devices], GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, image.iwiadrvitem_getitemname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT GetItemName(
 
 
 
+
 #### - pbstrItemName [out, optional]
 
 Points to a memory location that will receive the address of the string containing the item name. 
@@ -82,14 +83,18 @@ Points to a memory location that will receive the address of the string containi
 ## -returns
 
 
+
 If the method succeeds, it stores a pointer to the item's name (path information is not included) in <i>pbstrItemName</i> and returns S_OK. If the method fails to allocate the string due to insufficient memory, it returns E_OUTOFMEMORY. If the parameter <i>pbstrItemName</i> is invalid, the method returns E_INVALIDARG.If the method fails for another reason, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 If there is enough memory available, the method allocates a string containing the current item's name, excluding path information. The method returns a pointer to the string in <i>pbstrItemName</i>. The minidriver must deallocate the memory used by the string by calling the <b>SysFreeString</b> function, which is documented in the Microsoft Windows SDK. 
+
 
 
 
@@ -97,7 +102,11 @@ If there is enough memory available, the method allocates a string containing th
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
 
+
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 

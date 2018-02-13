@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66460B28-C2B4-4F05-A133-31A753AF9489
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO, wwan/WWAN_BASE_STATIONS_INFO, WWAN_BASE_STATIONS_INFO, wwan/PWWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_base_stations_info, WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_BASE_STATIONS_INFO"
+ms.keywords: wwan/PWWAN_BASE_STATIONS_INFO, WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO, wwan/WWAN_BASE_STATIONS_INFO, netvista.wwan_base_stations_info, WWAN_BASE_STATIONS_INFO, *PWWAN_BASE_STATIONS_INFO, PWWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -188,6 +188,7 @@ The size, in bytes, of the buffer containing the CDMA measured results list (MRL
 
 
 
+
 #### - BaseStationsData[ANYSIZE_ARRAY]
 
 The data buffer containing the base stations information. This buffer is where the structures specified by the other members of <b>WWAN_BASE_STATIONS_INFO</b> reside: <b>WWAN_GSM_SERVING_CELL_INFO</b>, <b>WWAN_UMTS_SERVING_CELL_INFO</b>, <b>WWAN_TDSCDMA_SERVING_CELL_INFO</b>, <b>WWAN_LTE_SERVING_CELL_INFO</b>, <b>WWAN_GSM_NMR</b>, <b>WWAN_UMTS_MRL</b>, <b>WWAN_TDSCDMA_MRL</b>, <b>WWAN_LTE_MRL</b>, and <b>WWAN_CDMA_MRL</b>.
@@ -195,29 +196,53 @@ The data buffer containing the base stations information. This buffer is where t
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info.md">NDIS_WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_base_stations_info.md">NDIS_WWAN_BASE_STATIONS_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 430580CF-F2FB-4684-B681-361E74D8EABD
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG, bdatypes/PBDA_CAS_CLOSE_MMIDIALOG, PBDA_CAS_CLOSE_MMIDIALOG structure pointer [Streaming Media Devices], *PBDA_CAS_CLOSE_MMIDIALOG, bdatypes/BDA_CAS_CLOSE_MMIDIALOG, stream.bda_cas_close_mmidialog, _BDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG structure [Streaming Media Devices]
+ms.keywords: bdatypes/PBDA_CAS_CLOSE_MMIDIALOG, stream.bda_cas_close_mmidialog, _BDA_CAS_CLOSE_MMIDIALOG, bdatypes/BDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG structure [Streaming Media Devices], BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG, PBDA_CAS_CLOSE_MMIDIALOG structure pointer [Streaming Media Devices], PBDA_CAS_CLOSE_MMIDIALOG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,13 +71,12 @@ typedef struct _BDA_CAS_CLOSE_MMIDIALOG {
 ### -field lResult
 
 
-
 ### -field SessionResult
 
  
 
 
 
-#### - ulDescrambleStatus
 
+#### - ulDescrambleStatus
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 302f271c-801e-409c-a0fc-53f01e5e2055
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.wcssetdefaultcolorprofile, colorfnc_31c96c7b-5616-4bdb-8df8-23e2361a9554.xml, WcsSetDefaultColorProfile function [Print Devices], WcsSetDefaultColorProfile, icm/WcsSetDefaultColorProfile
+ms.keywords: WcsSetDefaultColorProfile function [Print Devices], WcsSetDefaultColorProfile, colorfnc_31c96c7b-5616-4bdb-8df8-23e2361a9554.xml, icm/WcsSetDefaultColorProfile, print.wcssetdefaultcolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,21 +111,31 @@ A pointer to a buffer to receive the name of the color profile. See Remarks.
 ## -remarks
 
 
+
 If the <i>pProfileName</i> parameter is <b>NULL</b> and the <i>profileManagementScope</i> parameter is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, subsequent calls to <b>WcsSetDefaultColorProfile</b> will return the system-wide default profile.
 
 This function is executable in Least-Privileged User Account (LUA) context if <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER. Otherwise, administrative privileges are required. The specified profile must already be installed, but it need not yet be associated with the specified device in the specified profile management scope..
 
 
 
+
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a>
+<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
 
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
+
 
 <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
+<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
+
+
+
+<a href="..\icm\nf-icm-wcsgetdefaultcolorprofilesize.md">WcsGetDefaultColorProfileSize</a>
+
+
 
  
 

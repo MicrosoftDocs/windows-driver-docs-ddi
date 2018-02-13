@@ -92,14 +92,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +114,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -145,10 +150,12 @@ The connection handle passed in the input buffer is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Callers of 
@@ -158,11 +165,16 @@ Callers of
 
 
 
+
 ## -see-also
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
 
+
+
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_disconnect.md">BTH_SDP_DISCONNECT</a>
+
+
 
  
 

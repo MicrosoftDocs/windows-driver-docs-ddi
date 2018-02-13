@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 123bf713-d238-491a-bc53-1f35dbb34feb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_setuicctoolkitprofile
+ms.keywords: rilapi/RIL_SetUiccToolkitProfile, netvista.ril_setuicctoolkitprofile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], RIL_SetUiccToolkitProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_SetUiccToolkitProfile(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpToolkitProfile
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

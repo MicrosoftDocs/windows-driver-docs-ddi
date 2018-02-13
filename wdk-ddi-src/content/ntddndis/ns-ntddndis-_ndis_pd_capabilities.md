@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, ntddndis/NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES
+ms.keywords: ntddndis/NDIS_PD_CAPABILITIES, _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ typedef struct _NDIS_PD_CAPABILITIES {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
+
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
 <li><b>Revision</b> = <b>NDIS_PD_CAPABILITIES_REVISION_1</b></li>
@@ -117,6 +118,7 @@ The filter context width that the provider supports. A provider can support up t
 ### -field CapabilityFlags
 
 Flags that contain additional capabilities that the provider supports.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -126,7 +128,8 @@ Flags that contain additional capabilities that the provider supports.
 <td><b>NDIS_PD_CAPS_RECEIVE_FILTER_COUNTERS_SUPPORTED</b></td>
 <td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER</a> enumeration</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MaxNumberOfRxQueues
@@ -217,12 +220,14 @@ The number of elements for an array of NDIS_GFP_WILDCARD_MATCH_PROFILE structure
 
 
 
+
 #### - DmaAddressWidth
 
 The DMA address width that the provider supports. Ideally, providers would support a 64-bit wide DMA address width, and setting this value to 0 indicates that a 64-bit wide DMA address. Providers must support a minimum of 32-bits in width, this means that valid values are either 0 or between 32-64 inclusive.
 
 
 ## -remarks
+
 
 
 This structure must be aligned on an 8-byte boundary.
@@ -233,9 +238,12 @@ If a provider can partition Rx or Tx queues flexibly between virtual ports then 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

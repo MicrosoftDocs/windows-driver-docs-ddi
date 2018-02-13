@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDPCWDMGETDPC, WdfDpcWdmGetDpc method, wdfdpc/WdfDpcWdmGetDpc, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, WdfDpcWdmGetDpc, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml
+ms.keywords: PFN_WDFDPCWDMGETDPC, WdfDpcWdmGetDpc, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc method, wdfdpc/WdfDpcWdmGetDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDpcWdmGetDpc
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A handle to a framework DPC object.
 ## -returns
 
 
+
 <b>WdfDpcWdmGetDpc</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure that is associated with the specified framework DPC object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The framework creates a KDPC structure when a framework-based driver calls <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a> to create a DPC object. 
@@ -97,16 +100,42 @@ A driver might call <b>WdfDpcWdmGetDpc</b> from within its <a href="https://msdn
 The pointer that <b>WdfDpcWdmGetDpc</b> returns is valid until the framework DPC object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework DPC object, the pointer is valid until the callback function returns.
 
 
+#### Examples
+
+The following code example returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure that is associated with a specified DPC object. The <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a> code example shows how the specified DPC object was created.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PKDPC pWdmDpc;
+
+pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
+
+
+<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
+
+
+
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+
 
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
+
 
  
 

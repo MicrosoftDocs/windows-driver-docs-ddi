@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7a4fb53-aa01-4279-a59a-fd92b0ceeab7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION, D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_INPUT, display.d3d11_1ddi_authenticated_query_input, D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE, D3D11_1DDI_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID, D3D11_1DDI_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID, D3D11_1DDI_AUTHENTICATED_QUERY_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_INPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE, D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES, D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT
+ms.keywords: display.d3d11_1ddi_authenticated_query_input, D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID, D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE, D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE, D3D11_1DDI_AUTHENTICATED_QUERY_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES, D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION, D3D11_1DDI_AUTHENTICATED_QUERY_INPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION, d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID, D3D11_1DDI_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT, D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,6 +74,7 @@ typedef struct D3D11_1DDI_AUTHENTICATED_QUERY_INPUT {
 A GUID that specifies the query. The following GUIDs are defined.
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES
 
 Returns the type of I/O bus that is used to send data to the GPU.
@@ -85,11 +86,13 @@ Output data structure:
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE
 
 Returns the type of authenticated channel.
 
 Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardware/hh406386">D3D11_1DDI_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT</a>
+
 
 
 
@@ -104,6 +107,7 @@ Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE
 
 Returns the encryption type that is applied before content becomes accessible to the CPU or bus.
@@ -112,11 +116,13 @@ Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE
 
 Returns a handle to the device that is associated with this authenticated channel.
 
 Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardware/hh406396">D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT</a>
+
 
 
 
@@ -131,11 +137,13 @@ Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID_COUNT
 
 Returns the number of encryption types that can be used to encrypt content before it becomes accessible to the CPU or bus.
 
 Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardware/hh406378">D3D11_1DDI_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_COUNT_OUTPUT</a>
+
 
 
 
@@ -150,6 +158,7 @@ Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT
 
 Returns the number of output identifiers that are associated with a specified cryptographic session and Direct3D device.
@@ -161,11 +170,13 @@ Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION
 
 Returns the current protection level for the device.
 
 Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardware/hh406419">D3D11_1DDI_AUTHENTICATED_QUERY_PROTECTION_OUTPUT</a>
+
 
 
 
@@ -180,11 +191,13 @@ Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 #### D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_COUNT
 
 Returns the number of processes that are allowed to open shared resources with restricted access.
 
 Output data structure: <a href="https://msdn.microsoft.com/library/windows/hardware/hh406423">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_COUNT_OUTPUT</a>
+
 
 
 
@@ -210,7 +223,11 @@ The query sequence number. At the start of the session, generate a cryptographic
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel(D3D11_1)</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
+
+
 
  
 

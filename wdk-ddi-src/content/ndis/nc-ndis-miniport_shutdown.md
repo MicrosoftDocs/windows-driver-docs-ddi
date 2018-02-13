@@ -40,7 +40,7 @@ apiname:
 -	MiniportShutdownEx
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_SHUTDOWN callback
@@ -88,10 +88,12 @@ The reason why NDIS called the shutdown function. The following values are valid
 
 
 
+
 #### NdisShutdownPowerOff
 
 Indicates that NDIS called 
        <i>MiniportShutdownEx</i> because the system is shutting down.
+
 
 
 #### NdisShutdownBugCheck
@@ -103,11 +105,14 @@ Indicates that NDIS called
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver specifies the 
@@ -150,9 +155,12 @@ If the value of <i>ShutdownAction</i> is <b>NdisShutdownPowerOff</b>, the minipo
 If the value of <i>ShutdownAction</i> is <b>NdisShutdownBugCheck</b>, the miniport driver must not free its resources.<div class="alert"><b>Important</b>  If <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> causes a system error, then the miniport driver will see a nested call to <i>MiniportShutdownEx</i> with <i>ShutdownAction</i><b>NdisShutdownBugCheck</b>. In this case, <i>MiniportShutdownEx</i> should return immediately without doing any work.</div>
 <div> </div>
 
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>MiniportShutdownEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>MiniportShutdownEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportShutdownEx</i> function that is named "MyShutdownEx", use the <b>MINIPORT_SHUTDOWN</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -162,7 +170,9 @@ For example, to define a <i>MiniportShutdownEx</i> function that is named "MyShu
 <pre>MINIPORT_SHUTDOWN MyShutdownEx;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -178,27 +188,43 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_SHUTDOWN</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SHUTDOWN</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_SHUTDOWN</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SHUTDOWN</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
 
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
 
+
+
 <a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+
 
  
 

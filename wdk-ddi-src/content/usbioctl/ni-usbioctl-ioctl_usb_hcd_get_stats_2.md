@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_hcd_get_stats_2.htm
 old-project: usbref
 ms.assetid: 64d229b3-9f06-432d-8d4f-7469e0deb11a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_usb_hcd_get_stats_2, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], IOCTL_USB_HCD_GET_STATS_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,50 +66,66 @@ The <b>IOCTL_USB_HCD_GET_STATS_2</b> IOCTL has been deprecated. Do not use.
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

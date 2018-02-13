@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7cf55a17-fbb9-4edc-ae12-23dce450a628
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetDriverVersion, rilapi/RIL_GetDriverVersion, netvista.ril_getdriverversion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetDriverVersion, netvista.ril_getdriverversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_GetDriverVersion(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwMinVersion
 
 
-
 ### -param dwMaxVersion
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

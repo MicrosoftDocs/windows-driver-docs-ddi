@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6D2C0245-542E-4749-B8F3-531BFA3800E3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], stream.ks_dataformat_h264videoinfo, PKS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, tagKS_DATAFORMAT_H264VIDEOINFO, ksmedia/KS_DATAFORMAT_H264VIDEOINFO, *PKS_DATAFORMAT_H264VIDEOINFO
+ms.keywords: ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, *PKS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO, stream.ks_dataformat_h264videoinfo, ksmedia/KS_DATAFORMAT_H264VIDEOINFO, tagKS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], PKS_DATAFORMAT_H264VIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,9 +80,13 @@ Specifies the details of the video stream.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
 
  
 

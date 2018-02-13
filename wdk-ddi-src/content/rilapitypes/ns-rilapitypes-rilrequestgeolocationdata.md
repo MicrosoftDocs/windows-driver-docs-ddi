@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d447c49-08ac-43c2-9f70-557494e82cfc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, netvista.rilrequestgeolocationdata_2, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], rilapitypes/RILREQUESTGEOLOCATIONDATA"
+ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, netvista.rilrequestgeolocationdata_2, rilapitypes/RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], RILREQUESTGEOLOCATIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,23 +76,17 @@ typedef struct _RILREQUESTGEOLOCATIONDATA {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwLocationInformationMask
-
 
 
 ### -field dwLocationRequestAccuracy
 
 
-
 ### -field rrRequestInformation
-
 

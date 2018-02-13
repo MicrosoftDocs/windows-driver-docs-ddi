@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 207b776a-8f51-4385-a171-a9d0e84e70b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryDevicePnpObject function [Streaming Media Devices], KsQueryDevicePnpObject, ks/KsQueryDevicePnpObject, ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, stream.ksquerydevicepnpobject
+ms.keywords: KsQueryDevicePnpObject, ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, ks/KsQueryDevicePnpObject, stream.ksquerydevicepnpobject, KsQueryDevicePnpObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ Points to a header previously allocated by <a href="..\ks\nf-ks-ksallocatedevice
 ## -returns
 
 
+
 The <b>KsQueryDevicePnpObject</b> function returns the previously set PnP device object. If none was set, it returns <b>NULL</b>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
+
+
 
  
 

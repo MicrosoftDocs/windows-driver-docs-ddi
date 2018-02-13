@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 ## -see-also
 
 <a href="..\hidsdi\nf-hidsdi-hidd_flushqueue.md">HidD_FlushQueue</a>
+
+
 
  
 

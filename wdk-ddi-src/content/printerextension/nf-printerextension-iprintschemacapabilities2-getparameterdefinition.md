@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2, GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition method [Print Devices], printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, print.iprintschemacapabilities2_getparameterdefinition
+ms.keywords: GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,11 +90,14 @@ The <b>IPrintSchemaParameterDefinition</b> object.
 ## -returns
 
 
+
 The <b>GetParameterDefinition</b> method returns an <b>HRESULT</b> value. If the property call was not successful, it returns the appropriate <b>HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 To be consistent with <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>, the <b>GetParameterDefinition</b> method works for any &lt;psf:ParameterDef&gt; element that is defined in the public keyword namespaces.  The <b>GetParameterDefinition</b> method also works for any IHV-defined  private keyword namespace that uses  either the StringParamType or the IntegerParamType data type.
@@ -105,13 +108,20 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 
 
+
 ## -see-also
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+
 
 <a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+
+
 
  
 

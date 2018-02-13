@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: mxdc/MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml, MxdcGetPDEVAdjustment function [Print Devices]
+ms.keywords: MxdcGetPDEVAdjustment function [Print Devices], print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml, mxdc/MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MxdcGetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MxdcGetPDEVAdjustment function
@@ -109,6 +109,7 @@ TBD
 
 
 
+
 #### - pOut [in, out]
 
 The <b>PrintPropertiesCollection</b> data structure from which the printer interface's DLL gets the requested data. This structure is defined in WinSpool.h. The requested fields might be pre-filled with the MXDC's default data. The printer interface DLL must ignore the fields that it does not understand.
@@ -117,7 +118,9 @@ The <b>PrintPropertiesCollection</b> data structure from which the printer inter
 ## -returns
 
 
+
 <code>MxdcGetPDEVAdjustment</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +159,14 @@ For this value or any other failure values, the MXDC returns -1 to the <a href="
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>MxdcGetPDEVAdjustment</code> function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">property bag</a> that includes the following data:
@@ -168,6 +174,7 @@ The <code>MxdcGetPDEVAdjustment</code> function is implemented by the hardware v
 
 
 MXDC enables the printer interface DLL to adjust DPI through the <code>MxdcGetPDEVAdjustment</code> function only if the print job's <b>dmPrintQuality</b> field has a value that is less than or equal to 0. If the DPI value is not adjusted, MXDC maps negative <b>dmPrintQuality</b> values to the following resolutions.
+
 <table>
 <tr>
 <th>GDI name(Wingdi.h)</th>
@@ -230,8 +237,13 @@ DMRES_DRAFT
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  The name of the MXDC property that stores the MXDC default DPI value is L"MxdcDotsPerInch". </div><div> </div>The following table lists the MXDC's property types and property-bag fields for the properties.
+</table>
+ 
+
+<div class="alert"><b>Note</b>  The name of the MXDC property that stores the MXDC default DPI value is L"MxdcDotsPerInch". </div>
+<div> </div>
+The following table lists the MXDC's property types and property-bag fields for the properties.
+
 <table>
 <tr>
 <th>Property(propertyName)</th>
@@ -306,9 +318,11 @@ kPropertyTypeInt32
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following table lists the MXDC's supported data types and data values for the properties.
+
 <table>
 <tr>
 <th>Property(propertyName)</th>
@@ -392,7 +406,9 @@ Values:
 </dl>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 <div class="alert"><b>Note</b>  <b>Notes</b><ul>
 <li>
 The <code>MxdcGetPDEVAdjustment</code> function is not a part of the MXDC. The MXDC calls back to this function in the driver's configuration DLL to obtain data for configuring the printer.
@@ -409,16 +425,24 @@ All rotation will be done on the imageable area. If a configuration component (U
 
 </li>
 </ul>
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554157">IPrintOemUIMXDC Interface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554157">IPrintOemUIMXDC Interface</a>
+
+
 
  
 

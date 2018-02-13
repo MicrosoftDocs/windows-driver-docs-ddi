@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, _SET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters, PSET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], SET_BAND_LOCATION_PARAMETERS structure [Storage Devices]
+ms.keywords: PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], *PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, _SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_BAND_LOCATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS"
+req.typenames: SET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS
 ---
 
 # _SET_BAND_LOCATION_PARAMETERS structure
@@ -89,6 +89,7 @@ The starting byte location on the storage device to begin a band search. An atte
 ### -field AuthKeyOffset
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">SET_BAND_LOCATION_PARAMETERS</a>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,7 +105,7 @@ The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authoriza
 </tr>
 </table></span></div>
 
-To specify a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
+
 
 
 #### KeySize
@@ -112,9 +113,12 @@ To specify a default authorization key to the band, set   <b>AuthKeyOffset</b> =
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
+
 #### Key
 
 A variable-length byte array that contains the key data.
+
+To specify a default authorization key to the band, set   <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b>.
 
 
 ### -field BandLocationInfoOffset
@@ -125,9 +129,11 @@ The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_lo
 ## -remarks
 
 
+
  Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>.
 
 If <b>BandID</b> and <b>BandStart </b> are both set to –1,  then the <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a> request will change the properties of the global band.
+
 
 
 
@@ -135,9 +141,15 @@ If <b>BandID</b> and <b>BandStart </b> are both set to –1,  then the <a href="
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
+
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
+
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
+
+
 
  
 

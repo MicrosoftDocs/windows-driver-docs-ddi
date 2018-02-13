@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e6390a7c-bbe1-47d7-9411-d710c4ab58a8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, debugger.getsymbolparameters, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, IDebugSymbolGroup2::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolParameters, IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::GetSymbolParameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method
+ms.keywords: GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, IDebugSymbolGroup::GetSymbolParameters, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, GetSymbolParameters, IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, debugger.getsymbolparameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,6 +88,7 @@ The symbol parameters.  This array must hold at least <i>Count</i> elements.  Fo
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,28 +105,40 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_parameters.md">DEBUG_SYMBOL_PARAMETERS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
  
 

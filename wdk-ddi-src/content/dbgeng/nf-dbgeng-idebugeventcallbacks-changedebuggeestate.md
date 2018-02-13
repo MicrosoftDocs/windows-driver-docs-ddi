@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ChangeDebuggeeState, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks::ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, debugger.idebugeventcallbacks_changedebuggeestate
+ms.keywords: ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks, debugger.idebugeventcallbacks_changedebuggeestate, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks::ChangeDebuggeeState, ChangeDebuggeeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,6 +71,7 @@ HRESULT ChangeDebuggeeState(
 ### -param Flags [in]
 
 Specifies the type of changes made to the target.  <i>Flags</i> may take one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -116,7 +117,8 @@ Inform the GUI clients to refresh debugger windows.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Argument [in]
@@ -328,15 +330,19 @@ DEBUG_CDS_REFRESH_INLINESTEP_PSEUDO
 ## -returns
 
 
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacks</b> object is registered, is disabled.
+
 
 
 
 ## -remarks
 
 
+
 The engine calls <b>ChangeDebuggeeState</b> only if the DEBUG_EVENT_CHANGE_DEBUGGEE_STATE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about managing the target's memory, including registers and data spaces, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552179">Memory Access</a>.  For information about the target's virtual and physical memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561217">Virtual and Physical Memory</a>.  For information about the target's control memory, I/O ports, MSR, and bus memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553172">Other Data Spaces</a>.
+
 
 

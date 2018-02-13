@@ -45,7 +45,7 @@ apiname:
 -	IPrintOemEngine.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::PostEvent, wdf.iwdfdevice_postevent, umdf.iwdfdevice_postevent, PostEvent, PostEvent method, IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, IWDFDevice, IWDFDevice interface, PostEvent method, wudfddi/IWDFDevice::PostEvent, PostEvent method
+ms.keywords: UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, IWDFDevice, IWDFDevice::PostEvent, umdf.iwdfdevice_postevent, PostEvent, IWDFDevice interface, PostEvent method, PostEvent method, wudfddi/IWDFDevice::PostEvent, PostEvent method, IWDFDevice interface, wdf.iwdfdevice_postevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,7 +98,9 @@ The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The 
 ## -returns
 
 
+
 <b>PostEvent</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,13 +151,16 @@ The <i>EventType</i> parameter is not set to <b>WdfEventBroadcast</b> (1).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>PostEvent</b> might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 When the driver calls <b>IWDFDevice::PostEvent</b> to notify the requesting application about an event, UMDF sends the event to the operating system. The operating system sends the event on to the requesting application in an asynchronous operation. If the operating system initially returns no error, the driver receives no error (S_OK). However, later, if the operating system receives an error while it attempts to deliver the event (possibly because of a low memory condition), the operating system is unable to inform the driver about the error. Because of the asynchronous nature of this event notification, delivery of the event to the requesting application is not guaranteed. If event information is lost on its way up to the requesting application, the application should be able to recover from the lost event. 
@@ -164,15 +169,24 @@ For information about creating device events, see <a href="https://docs.microsof
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
-<a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
+
+
+<a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
+
+
 
  
 

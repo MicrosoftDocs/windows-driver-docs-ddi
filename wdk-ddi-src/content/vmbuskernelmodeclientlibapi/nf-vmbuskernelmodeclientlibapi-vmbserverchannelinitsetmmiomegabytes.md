@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9E19BCC0-5529-470C-BF69-521FEFA3303E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbserverchannelinitsetmmiomegabytes, VmbServerChannelInitSetMmioMegabytes function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetMmioMegabytes, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetMmioMegabytes
+ms.keywords: netvista.vmbserverchannelinitsetmmiomegabytes, VmbServerChannelInitSetMmioMegabytes, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetMmioMegabytes, VmbServerChannelInitSetMmioMegabytes function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbServerChannelInitSetMmioMegabytes
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -93,7 +93,9 @@ space, in megabytes, to reserve.
 ## -returns
 
 
+
 <b>VmbServerChannelInitSetMmioMegabytes</b> returns the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,11 +123,14 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function exists as a convenience for driver creators.
@@ -134,5 +139,6 @@ manager and requesting memory-mapped I/O space directly.  It is
 a common requirement that the Windows and Linux VMBus drivers have
 the capacity to reserve MMIO space on behalf of the client.  This function allows the
 server endpoint to suggest the right amount of MMIO space to reserve.
+
 
 

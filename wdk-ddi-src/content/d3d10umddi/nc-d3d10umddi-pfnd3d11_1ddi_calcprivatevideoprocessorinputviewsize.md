@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateVideoProcessorInputViewSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE callback
@@ -74,8 +74,9 @@ SIZE_T APIENTRY* CalcPrivateVideoProcessorInputViewSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -97,11 +98,14 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideopro
 ## -returns
 
 
+
 The required number of bytes for the video processor input view state.
 
 
 
+
 ## -remarks
+
 
 
 The runtime will validate the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a> structure before it calls this function. In particular, the runtime verifies that the specified view is supported as a video processor input format.
@@ -110,9 +114,12 @@ This function is not expected to fail.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
+
+
 
  
 

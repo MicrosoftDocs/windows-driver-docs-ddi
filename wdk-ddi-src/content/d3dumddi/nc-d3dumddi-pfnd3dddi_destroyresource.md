@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DestroyResource(
 
 
 
+
+
 #### - hResource [in]
 
  A handle to the resource that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a> function created.
@@ -91,29 +93,48 @@ __checkReturn HRESULT APIENTRY DestroyResource(
 ## -returns
 
 
+
 <b>DestroyResource</b> returns S_OK or an appropriate error result is the resource is not released. 
+
 
 
 
 ## -remarks
 
 
+
 After the Microsoft Direct3D runtime calls the user-mode display driver's <b>DestroyResource</b> function, the user-mode display driver must first flush any batched commands that depend on the resource that is being destroyed by calling the runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function. The driver must then call the runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a> function to destroy allocations that are associated with the resource. 
-<div class="alert"><b>Note</b>    The driver's <b>DestroyResource</b> function is not required to call <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a> before returning; instead, the driver can defer allocation destruction.</div><div> </div><div class="alert"><b>Note</b>    A separate <b>DestroyResource</b> call is not made for each surface that is part of the resource. So, if a group of surfaces is atomically created, the group is always atomically destroyed as well. </div><div> </div>For more information about creating and destroying resources, see <a href="https://msdn.microsoft.com/d443bdc3-1c5a-4372-9e6a-b8a4d21499b9">Handling Resource Creation and Destruction</a>.
+
+<div class="alert"><b>Note</b>    The driver's <b>DestroyResource</b> function is not required to call <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a> before returning; instead, the driver can defer allocation destruction.</div>
+<div> </div>
+<div class="alert"><b>Note</b>    A separate <b>DestroyResource</b> call is not made for each surface that is part of the resource. So, if a group of surfaces is atomically created, the group is always atomically destroyed as well. </div>
+<div> </div>
+For more information about creating and destroying resources, see <a href="https://msdn.microsoft.com/d443bdc3-1c5a-4372-9e6a-b8a4d21499b9">Handling Resource Creation and Destruction</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

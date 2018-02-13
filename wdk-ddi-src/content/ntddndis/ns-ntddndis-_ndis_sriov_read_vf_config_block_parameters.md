@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fafad6f2-8092-4067-afad-208877309010
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_sriov_read_vf_config_block_parameters, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndis_sriov_read_vf_config_block_parameters, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -90,9 +91,11 @@ Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS_
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
+
 <div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field BlockId
 
@@ -115,9 +118,11 @@ A ULONG value that specifies the offset, in units of bytes, from the beginning o
 ## -remarks
 
 
+
 The <b>NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS</b> structure is used in OID method requests of  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451874">OID_SRIOV_READ_VF_CONFIG_BLOCK</a>.
 
 A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. Data from a VF configuration block can be exchanged between the following drivers:
+
 <ul>
 <li>
 The VF miniport driver, which runs in the guest operating system. This operating system runs within a Hyper-V child partition.
@@ -131,17 +136,27 @@ The PF miniport driver, which runs in the management operating system.
 This operating system runs within the Hyper-V parent partition.
 
 </li>
-</ul><div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the PF and VF miniport drivers.</div><div> </div>For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://msdn.microsoft.com/66D40452-1286-449E-BD6B-AFAD466E03A1">SR-IOV PF/VF Backchannel Communication</a>.
+</ul>
+<div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the PF and VF miniport drivers.</div>
+<div> </div>
+For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://msdn.microsoft.com/66D40452-1286-449E-BD6B-AFAD466E03A1">SR-IOV PF/VF Backchannel Communication</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451874">OID_SRIOV_READ_VF_CONFIG_BLOCK</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: StateNotificationLeaveState, wdfdevice/StateNotificationEnterState, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, StateNotificationInvalid, wdfdevice/StateNotificationLeaveState, WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationAllStates, StateNotificationEnterState, _WDF_STATE_NOTIFICATION_TYPE, StateNotificationPostProcessState, wdf.wdf_state_notification_type, WDF_STATE_NOTIFICATION_TYPE, StateNotificationAllStates, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, wdfdevice/StateNotificationPostProcessState, wdfdevice/StateNotificationInvalid, kmdf.wdf_state_notification_type
+ms.keywords: WDF_STATE_NOTIFICATION_TYPE, StateNotificationLeaveState, wdfdevice/StateNotificationLeaveState, StateNotificationAllStates, _WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationAllStates, StateNotificationEnterState, wdfdevice/StateNotificationEnterState, StateNotificationInvalid, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, kmdf.wdf_state_notification_type, WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationPostProcessState, StateNotificationPostProcessState, wdf.wdf_state_notification_type, wdfdevice/StateNotificationInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,7 +102,9 @@ The driver receives enter-state, postprocess-state, and leave-state notification
 ## -remarks
 
 
+
 When the framework's state machine for a driver's device changes from state <i>a</i> to state <i>b</i>, the framework notifies the driver (if the driver registered an appropriate event callback function), in the following sequence:
+
 <ol>
 <li>
 Calls state <i>a</i>'s leave-state notification callback function.
@@ -120,7 +122,9 @@ Changes the device's state from <i>a</i> to <i>b</i>.
 Calls state <i>b</i>'s postprocess-state notification callback function.
 
 </li>
-</ol>To register for notification of a change in state, the driver can call the following methods:
+</ol>
+To register for notification of a change in state, the driver can call the following methods:
+
 <ul>
 <li>
 
@@ -143,13 +147,20 @@ Calls state <i>b</i>'s postprocess-state notification callback function.
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
 
+
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
 
+
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3ce6286a-6805-491d-85fc-b2c7b0a9a1fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.reg_callback_context_cleanup_information, wdm/REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, _REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, wdm/PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_949535da-0c9e-474c-9d68-1e8795c7203a.xml
+ms.keywords: PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, _REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, wdm/REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, wdm/PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_949535da-0c9e-474c-9d68-1e8795c7203a.xml, *PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_callback_context_cleanup_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, *PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
+req.typenames: "*PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,7 @@ This member is reserved for future use.
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine. When the <i>Argument1</i> parameter to the <i>RegistryCallback</i> routine is <b>RegNtCallbackObjectContextCleanup</b>, the <i>Argument2</i> parameter is a pointer to a <b>REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION</b> structure.
 
 The driver's <i>RegistryCallback</i> routine will receive a <b>RegNtCallbackObjectContextCleanup</b> notification after the key object's handle has been closed. In response to this notification, the routine should release any resources that it allocated for the object's context. The <b>RegNtCallbackObjectContextCleanup</b> notification occurs when the driver has called <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a> or the driver's <i>RegistryCallback</i> routine has just finished processing a <b>RegNtPreKeyHandleClose</b> notification.
@@ -96,13 +97,20 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
+
+
 <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 

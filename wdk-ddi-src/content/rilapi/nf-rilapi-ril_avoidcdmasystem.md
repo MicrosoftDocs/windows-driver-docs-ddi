@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03b445ca-a2af-4d84-bb2e-fea9f5800e20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem, RIL_AvoidCDMASystem
+ms.keywords: RIL_AvoidCDMASystem, netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_AvoidCDMASystem(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param requestType
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

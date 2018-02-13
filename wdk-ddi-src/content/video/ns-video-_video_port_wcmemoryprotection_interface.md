@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac62a738-bde1-49e7-9c18-519471ec1092
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, display.video_port_wcmemoryprotection_interface, video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices]
+ms.keywords: "_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, display.video_port_wcmemoryprotection_interface, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
+req.typenames: "*PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -111,13 +111,21 @@ Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.
 
 ## -see-also
 
+<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
+
+
+
+<a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
+
+
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
-<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
+
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
-<a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
+
 
  
 

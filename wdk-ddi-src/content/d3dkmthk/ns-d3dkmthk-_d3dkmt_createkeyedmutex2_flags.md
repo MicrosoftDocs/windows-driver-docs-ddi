@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 21c2d262-bf8c-48a3-9801-5c2bd73f0282
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure [Display Devices], d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS, _D3DKMT_CREATEKEYEDMUTEX2_FLAGS, display.d3dkmt_createkeyedmutex2_flags, D3DKMT_CREATEKEYEDMUTEX2_FLAGS
+ms.keywords: D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure [Display Devices], d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS, display.d3dkmt_createkeyedmutex2_flags, _D3DKMT_CREATEKEYEDMUTEX2_FLAGS, D3DKMT_CREATEKEYEDMUTEX2_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,9 +96,15 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2.md">D3DKMT_CREATEKEYEDMUTEX2</a>
+
+
 
  
 

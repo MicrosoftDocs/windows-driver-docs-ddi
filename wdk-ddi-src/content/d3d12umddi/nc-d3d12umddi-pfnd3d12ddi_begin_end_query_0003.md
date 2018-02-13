@@ -76,16 +76,15 @@ VOID  APIENTRY* pfnBeginQuery(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HQUERYHEAP
-
 
 
 ### -param D3D12DDI_QUERY_TYPE
 
 
-
 ### -param UINT
+
+
 
 
 
@@ -115,6 +114,8 @@ The value of the start element.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

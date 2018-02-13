@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f3fbcf1-e6f4-4117-a795-f4b14ef9fc96
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisWriteEventLogEntry, netvista.ndiswriteeventlogentry, miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, ndis/NdisWriteEventLogEntry, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisWriteEventLogEntry, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista], ndis/NdisWriteEventLogEntry, miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, netvista.ndiswriteeventlogentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisWriteEventLogEntry
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisWriteEventLogEntry function
@@ -121,7 +121,9 @@ Either <b>NULL</b> or points to buffered binary dump data that is useful for und
 ## -returns
 
 
+
 <b>NdisWriteEventLogEntry</b> can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,11 +163,14 @@ NDIS was unable to allocate memory for the I/O error log record.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>NdisWriteEventLogEntry</b> allocates an I/O error log record, fills in the record with the supplied
@@ -197,15 +202,24 @@ The system limits the total size of the optional data supplied to
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 

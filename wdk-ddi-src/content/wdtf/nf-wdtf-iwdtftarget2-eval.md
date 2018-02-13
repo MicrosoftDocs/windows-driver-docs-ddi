@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 468cb35d-f816-4233-ba07-8dc47b77d442
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2, wdtf/IWDTFTarget2::Eval, IWDTFTarget2::Eval, Microsoft::WDTF::IWDTFTarget2::Eval, Microsoft.WDTF.IWDTFTarget2.Eval, Eval method [Windows Device Testing Framework], Eval, Eval method [Windows Device Testing Framework], IWDTFTarget2 interface, dtf.iwdtftarget2_eval, IWDTFTarget2 interface [Windows Device Testing Framework], Eval method
+ms.keywords: IWDTFTarget2::Eval, IWDTFTarget2 interface [Windows Device Testing Framework], Eval method, Eval, Eval method [Windows Device Testing Framework], wdtf/IWDTFTarget2::Eval, Microsoft::WDTF::IWDTFTarget2::Eval, IWDTFTarget2, dtf.iwdtftarget2_eval, Eval method [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft.WDTF.IWDTFTarget2.Eval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,13 +83,17 @@ otherwise, alse.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

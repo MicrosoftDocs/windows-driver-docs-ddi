@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTAcquireKeyedMutex, PFND3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmtacquirekeyedmutex, D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml
+ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex function [Display Devices], display.d3dkmtacquirekeyedmutex, PFND3DKMT_ACQUIREKEYEDMUTEX, OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, d3dkmthk/D3DKMTAcquireKeyedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTAcquireKeyedMutex(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md">D3DKMT_ACQUIREKEYEDMUTEX</a> structure that specifies the keyed mutex object to acquire. 
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md">D3
 ## -returns
 
 
+
 <b>D3DKMTAcquireKeyedMutex</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +133,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md">D3DKMT_ACQUIREKEYEDMUTEX</a>
+
+
 
  
 

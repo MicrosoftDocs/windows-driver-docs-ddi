@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, wdm/NtQueryInformationResourceManager, kernel.zwqueryinformationresourcemanager, ZwQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager
+ms.keywords: NtQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], wdm/ZwQueryInformationResourceManager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, kernel.zwqueryinformationresourcemanager, wdm/NtQueryInformationResourceManager, ZwQueryInformationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,9 @@ A pointer to a caller-allocated variable that receives the length, in bytes, of 
 ## -returns
 
 
+
 <b>ZwQueryInformationResourceManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -173,13 +175,16 @@ The caller does not have appropriate access to the resource manager object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 For more information about the <b>ZwQueryInformationResourceManager</b> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542865">Creating a Resource Manager</a>.
@@ -190,21 +195,36 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
 
-<a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>
-
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
-
-<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
 <a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
+
+
+
+<a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+
+
 
  
 

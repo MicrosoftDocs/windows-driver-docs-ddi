@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 41bea2bd-2b4d-467f-bb47-19b0b9f7ff6b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices], D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], d3dhal/D3DHAL_DP2CREATEVERTEXSHADER, _D3DHAL_DP2CREATEVERTEXSHADER, display.d3dhal_dp2createvertexshader, d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml"
+ms.keywords: D3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices], d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml, display.d3dhal_dp2createvertexshader, *LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, _D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/D3DHAL_DP2CREATEVERTEXSHADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,19 +91,27 @@ Specifies the shader code size in bytes.
 ## -remarks
 
 
+
 Before invoking the driver, the runtime performs validation to ensure that the specified shader is legal for the specified shader language version. The runtime flushes all pending state and rendering when this token is to be sent to the driver. Thus, processing of this token is assumed to be synchronous with the runtime and the driver reports failure of the creation request by failing the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> DDI call. Thus, the driver should validate the given shader declaration and code on receipt of this token and report success or failure accordingly. 
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552855">Direct3D Driver Shader Codes</a> for information about the format of an individual shader code and the tokens that comprise each shader code. 
 
 
 
-## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+## -see-also
 
 D3DDP2OP_CREATEVERTEXSHADER
 
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 

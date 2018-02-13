@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.providorfindfirstprinterchangenotification, winsplp/ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices]
+ms.keywords: winsplp/ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], print.providorfindfirstprinterchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,23 +76,17 @@ BOOL WINAPI ProvidorFindFirstPrinterChangeNotification(
 ### -param hPrinter [in]
 
 
-
 ### -param fdwFlags
-
 
 
 ### -param fdwOptions
 
 
-
 ### -param hNotify [in]
-
 
 
 ### -param pPrinterNotifyOptions [in, optional]
 
 
-
 ### -param pvReserved1 [out, optional]
-
 

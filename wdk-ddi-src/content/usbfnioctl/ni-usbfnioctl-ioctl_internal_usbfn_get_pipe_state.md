@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_get_pipe_state.htm
 old-project: usbref
 ms.assetid: CFBFC5E4-852C-4287-A85E-2EF3C89FE474
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usbfn_get_pipe_state, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control code [Buses], IOCTL_INTERNAL_USBFN_GET_PIPE_STATE, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,14 +87,18 @@ The size of a <b>BOOLEAN</b>.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,10 +110,12 @@ UFX completes the request with <b>STATUS_SUCCESS</b>.
 ## -remarks
 
 
+
 This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 When stalled, the pipe sends STALL transaction packets to the host. See the Universal Serial Bus (USB) specification for more information.
 
 UFX forwards this IOCTL request to the transfer queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PHYSICALADAPTERCAPS structure [Display Devices], d3dkmddi/DXGK_PHYSICALADAPTERCAPS, Flags.IoMmuSupported, _DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps, Flags.GpuMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, DXGK_PHYSICALADAPTERCAPS
+ms.keywords: DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps, Flags.VPRPagingContextRequired, Flags.MovePagingSupported, Flags.IoMmuSupported, _DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, d3dkmddi/DXGK_PHYSICALADAPTERCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,7 +137,8 @@ The adapter requires the index of the VPR paging node.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VPRPagingNode

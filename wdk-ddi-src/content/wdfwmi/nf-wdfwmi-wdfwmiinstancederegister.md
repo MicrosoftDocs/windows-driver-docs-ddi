@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2167504e-ca92-4427-9101-04a2c2bf66df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiInstanceDeregister, PFN_WDFWMIINSTANCEDEREGISTER, kmdf.wdfwmiinstancederegister, wdf.wdfwmiinstancederegister, WdfWmiInstanceDeregister method, WdfWmiInstanceDeregister, DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml
+ms.keywords: PFN_WDFWMIINSTANCEDEREGISTER, DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, kmdf.wdfwmiinstancederegister, WdfWmiInstanceDeregister, WdfWmiInstanceDeregister method, wdf.wdfwmiinstancederegister, wdfwmi/WdfWmiInstanceDeregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a WMI instance object that the driver obtained from a previous call 
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about the <b>WdfWmiInstanceDeregister</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/initializing-wmi-support-in-your-driver">Registering Provider Instances</a>. For more information about WMI, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
@@ -96,12 +99,32 @@ For more information about the <b>WdfWmiInstanceDeregister</b> method, see <a hr
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstanceregister.md">WdfWmiInstanceRegister</a> deregisters the provider instance synchronously (that is, before returning) if it is called at IRQL = PASSIVE_LEVEL and asynchronously if it is called at IRQL &gt; PASSIVE_LEVEL. 
 
 
+#### Examples
+
+The following code example deregisters a specified instance of a WMI data provider from the system's WMI service.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfWmiInstanceDeregister(wmiInstance);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstanceregister.md">WdfWmiInstanceRegister</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
 
  
 

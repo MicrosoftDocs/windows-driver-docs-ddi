@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IInterFilterCommunicator::RequestReader, RequestReader, IInterFilterCommunicator, RequestReader method [Print Devices], IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestReader, print.iinterfiltercommunicator_requestreader, RequestReader method [Print Devices], filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, IInterFilterCommunicator interface [Print Devices], RequestReader method
+ms.keywords: IInterFilterCommunicator::RequestReader, RequestReader method [Print Devices], IInterFilterCommunicator interface, print.iinterfiltercommunicator_requestreader, filterpipeline/IInterFilterCommunicator::RequestReader, RequestReader method [Print Devices], RequestReader, IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], RequestReader method, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,14 +75,18 @@ A variable that receives the reader interface object when <b>RequestReader</b> r
 ## -returns
 
 
+
 <b>RequestReader </b>returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a> method. The filter uses the <b>RequestReader</b> method to get the reader interface for the object. The universally unique identifier (UUID) for the object is declared in the <a href="https://msdn.microsoft.com/586247bd-6d06-4728-a5f0-ee3fe1d09321">filter pipeline configuration file</a>. The filter uses the <b>IInterFilterCommunicator</b> interface to receive input data.
+
 
 
 
@@ -90,7 +94,11 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
 
+
+
 <a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
+
+
 
  
 

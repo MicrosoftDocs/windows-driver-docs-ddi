@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 79e7c92e-4c39-4c9f-a2d8-b83be08e3ec1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateDefaultAllocator, ks/KsCreateDefaultAllocator, stream.kscreatedefaultallocator, KsCreateDefaultAllocator function [Streaming Media Devices], ksfunc_f78af7c3-ec4b-40ef-8680-102822a305ff.xml
+ms.keywords: ks/KsCreateDefaultAllocator, KsCreateDefaultAllocator function [Streaming Media Devices], KsCreateDefaultAllocator, ksfunc_f78af7c3-ec4b-40ef-8680-102822a305ff.xml, stream.kscreatedefaultallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,8 @@ Specifies the IRP with the IRP_MJ_CREATE request being handled.
 ## -returns
 
 
+
 The <b>KsCreateDefaultAllocator</b> function returns STATUS_SUCCESS if successful, or it returns an error if unsuccessful.
+
 
 

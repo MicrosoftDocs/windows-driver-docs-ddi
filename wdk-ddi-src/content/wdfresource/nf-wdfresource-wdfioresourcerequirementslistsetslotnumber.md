@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1dc18c48-2331-4980-b741-59a73d3edaa6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, kmdf.wdfioresourcerequirementslistsetslotnumber, PFN_WDFIORESOURCEREQUIREMENTSLISTSETSLOTNUMBER, wdfresource/WdfIoResourceRequirementsListSetSlotNumber, wdf.wdfioresourcerequirementslistsetslotnumber, WdfIoResourceRequirementsListSetSlotNumber, WdfIoResourceRequirementsListSetSlotNumber method
+ms.keywords: kmdf.wdfioresourcerequirementslistsetslotnumber, WdfIoResourceRequirementsListSetSlotNumber method, DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, wdfresource/WdfIoResourceRequirementsListSetSlotNumber, PFN_WDFIORESOURCEREQUIREMENTSLISTSETSLOTNUMBER, wdf.wdfioresourcerequirementslistsetslotnumber, WdfIoResourceRequirementsListSetSlotNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,17 +85,48 @@ A value that identifies the bus slot number to which the device is connected.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver must provide a slot number if your device does not support Plug and Play (PnP). 
 
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+
+
+#### Examples
+
+The following code example shows how an <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_resource_requirements_query.md">EvtDeviceResourceRequirementsQuery</a> callback function for a nonPnP device calls <b>WdfIoResourceRequirementsListSetSlotNumber</b> to assign slot 0 to a device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+Example_EvtDeviceResourceRequirementsQuery(
+    IN WDFDEVICE Device,
+    IN WDFIORESREQLIST Requirements
+    )
+{
+...
+    WdfIoResourceRequirementsListSetSlotNumber(
+                                               Requirements,
+                                               0
+                                               );
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

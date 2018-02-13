@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed13ab7a-b287-42e1-af47-fd8f06305cae
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwriteportbufferulong, srb/ScsiPortWritePortBufferUlong, scsiprt_314b08e6-e579-4faa-b009-e12ad8f946bc.xml, ScsiPortWritePortBufferUlong, ScsiPortWritePortBufferUlong routine [Storage Devices]
+ms.keywords: scsiprt_314b08e6-e579-4faa-b009-e12ad8f946bc.xml, ScsiPortWritePortBufferUlong routine [Storage Devices], storage.scsiportwriteportbufferulong, srb/ScsiPortWritePortBufferUlong, ScsiPortWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,13 +89,17 @@ Specifies the number of ULONG values to be written to the HBA.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

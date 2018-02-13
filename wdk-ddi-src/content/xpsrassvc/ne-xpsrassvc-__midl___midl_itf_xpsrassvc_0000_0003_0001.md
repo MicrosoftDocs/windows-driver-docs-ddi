@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54EA7ED6-BBE1-4110-8405-DEC0C5EA1C27
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: XPSRAS_PIXEL_FORMAT enumeration [Print Devices], XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, print.xpsras_pixel_format, xpsrassvc/XPSRAS_PIXEL_FORMAT, xpsrassvc/XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001, XPSRAS_PIXEL_FORMAT, xpsrassvc/XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB
+ms.keywords: print.xpsras_pixel_format, XPSRAS_PIXEL_FORMAT, __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001, xpsrassvc/XPSRAS_PIXEL_FORMAT, xpsrassvc/XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT enumeration [Print Devices], xpsrassvc/XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,7 +88,9 @@ typedef enum _XPSRAS_PIXEL_FORMAT {
 ## -remarks
 
 
+
 For more information about rasterizing XPS documents, see <a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">Using the XPS Rasterization Service</a>.
+
 
 
 
@@ -96,9 +98,15 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
-<a href="https://msdn.microsoft.com/00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3">IXpsRasterizationFactory1::CreateRasterizer1</a>
+
 
 <a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">Using the XPS Rasterization Service</a>
+
+
+
+<a href="https://msdn.microsoft.com/00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3">IXpsRasterizationFactory1::CreateRasterizer1</a>
+
+
 
  
 

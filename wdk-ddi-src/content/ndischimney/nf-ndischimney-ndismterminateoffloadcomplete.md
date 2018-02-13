@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d444eae5-2e7c-41f2-9fb2-55e172505cf6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMTerminateOffloadComplete, NdisMTerminateOffloadComplete, tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml, netvista.ndismterminateoffloadcomplete
+ms.keywords: NdisMTerminateOffloadComplete, NdisMTerminateOffloadComplete function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_3e692d5c-5cad-4567-8639-76f97bf2e39c.xml, ndischimney/NdisMTerminateOffloadComplete, netvista.ndismterminateoffloadcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,17 +94,21 @@ A pointer to an
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Before calling the 
     <b>NdisMTerminateOffloadComplete</b> function, the offload target must write either of the following
     NDIS_STATUS values to the 
     <b>Status</b> member of each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree:
+
 <ul>
 <li>
 NDIS_STATUS_SUCCESS
@@ -123,8 +127,10 @@ The terminate operation did not succeed. Such a failure is caused by a catastrop
       hardware might not be responding. The host stack might have to abort the connection.
 
 </li>
-</ul>Before calling the 
+</ul>
+Before calling the 
     <b>NdisMTerminateOffloadComplete</b> function, the offload target must also:
+
 <ul>
 <li>
 Complete any oustanding calls to the 
@@ -152,7 +158,8 @@ Ensure that any outstanding calls to the
       NdisTcpOffloadReceiveHandler</a> functions have returned.
 
 </li>
-</ul>If there is outstanding send data on a TCP connection that is being terminated, the offload target
+</ul>
+If there is outstanding send data on a TCP connection that is being terminated, the offload target
     packages such data in net buffers and passes the packaged data to the host stack in a linked list of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. In this case,
     the offload target specifies a non-<b>NULL</b> value for the 
@@ -165,6 +172,7 @@ Ensure that any outstanding calls to the
 
 When passing outstanding send data to the host stack, the offload target must also specify non-<b>NULL</b>
     values for the following delegated TCP variables for the connection that is being terminated:
+
 <ul>
 <li>
 SndUna
@@ -178,7 +186,8 @@ SndNxt
 SndMax
 
 </li>
-</ul>For more information about passing outstanding send data, see 
+</ul>
+For more information about passing outstanding send data, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">
     Handling Outstanding Send Data During and After an Offload Operation</a>.
 
@@ -197,16 +206,25 @@ The offload target frees all resources, such as memory, that are associated with
 
 
 
+
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2c70976-00ce-4563-af60-0bbdd1a65540
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdevicegetdevicedescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, WdfUsbTargetDeviceGetDeviceDescriptor, PFN_WDFUSBTARGETDEVICEGETDEVICEDESCRIPTOR, kmdf.wdfusbtargetdevicegetdevicedescriptor
+ms.keywords: PFN_WDFUSBTARGETDEVICEGETDEVICEDESCRIPTOR, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, kmdf.wdfusbtargetdevicegetdevicedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetDeviceGetDeviceDescriptor
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -87,24 +87,54 @@ A pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_device_descr
 ## -returns
 
 
+
 None. 
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
 
 
+
 ## -remarks
+
 
 
 For more information about the <b>WdfUsbTargetDeviceGetDeviceDescriptor</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example obtains the USB device descriptor for a device. The example stores the descriptor in driver-defined context space.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PMY_DEVICE_CONTEXT  myDeviceContext;
+
+myDeviceContext = GetDeviceContext(device);
+
+WdfUsbTargetDeviceGetDeviceDescriptor(
+                                      myDeviceContext-&gt;UsbTargetDevice,
+                                      &amp;myDeviceContext-&gt;UsbDeviceDescr
+                                      );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
 
  
 

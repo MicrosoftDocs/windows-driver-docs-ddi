@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 350ec4b2-a96a-420a-bb52-d09cc8c5029e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PTUNER_ANALOG_CAPS_S, ksmedia/TUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml, *PTUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, TUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], ksmedia/PTUNER_ANALOG_CAPS_S
+ms.keywords: ksmedia/TUNER_ANALOG_CAPS_S, vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml, TUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, ksmedia/PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], PTUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], *PTUNER_ANALOG_CAPS_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TUNER_ANALOG_CAPS_S
 product: Windows
 targetos: Windows
-req.typenames: TUNER_ANALOG_CAPS_S, *PTUNER_ANALOG_CAPS_S
+req.typenames: "*PTUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S"
 ---
 
 # TUNER_ANALOG_CAPS_S structure
@@ -77,6 +77,7 @@ typedef struct {
 ### -field Mode
 
 The current tuner mode, which can be represented by one of the following tuner mode flags from the KSPROPERTY_TUNER_MODES enumeration that is defined in <i>Ksmedia.h.</i>
+
 <table>
 <tr>
 <th>Flag</th>
@@ -132,7 +133,8 @@ The tuner is capable of tuning Advanced Television Systems Committee broadcasts 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field StandardsSupported
@@ -174,15 +176,25 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
+
+
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+
+
 
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+
 
  
 

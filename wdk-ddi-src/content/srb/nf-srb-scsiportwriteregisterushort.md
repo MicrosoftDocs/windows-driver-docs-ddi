@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a6ed2bb8-e62c-4566-9b61-6acac68e8309
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWriteRegisterUshort routine [Storage Devices], srb/ScsiPortWriteRegisterUshort, ScsiPortWriteRegisterUshort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, storage.scsiportwriteregisterushort
+ms.keywords: srb/ScsiPortWriteRegisterUshort, ScsiPortWriteRegisterUshort routine [Storage Devices], scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, ScsiPortWriteRegisterUshort, storage.scsiportwriteregisterushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,13 +83,17 @@ Specifies the value to be written to the HBA's register.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

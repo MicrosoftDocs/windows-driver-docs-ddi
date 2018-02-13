@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetPrintClassObject method [Print Devices], IPrintClassObjectFactory, print.iprintclassobjectfactory_getprintclassobject, IPrintClassObjectFactory::GetPrintClassObject, IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method, GetPrintClassObject, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml
+ms.keywords: IPrintClassObjectFactory interface [Print Devices], GetPrintClassObject method, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, IPrintClassObjectFactory, GetPrintClassObject, print.iprintclassobjectfactory_getprintclassobject, GetPrintClassObject method [Print Devices], GetPrintClassObject method [Print Devices], IPrintClassObjectFactory interface, IPrintClassObjectFactory::GetPrintClassObject, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,6 +87,8 @@ The new object that this method creates.
 ## -returns
 
 
+
 <b>GetPrintClassObject</b> returns an <b>HRESULT</b> value.
+
 
 

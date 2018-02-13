@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedPushEntrySList
-title: ExInterlockedPushEntrySList function
+title: ExInterlockedPushEntrySList macro
 author: windows-driver-content
 description: The ExInterlockedPushEntrySList routine atomically inserts an entry at the beginning of a sequenced singly linked list.
 old-location: kernel\exinterlockedpushentryslist.htm
@@ -8,10 +8,10 @@ old-project: kernel
 ms.assetid: 4bff45b5-c295-444d-82ea-59cfd6c37551
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exinterlockedpushentryslist, k102_53da8507-cae3-4a71-9c59-49676a8b7a95.xml, wdm/ExInterlockedPushEntrySList, ExInterlockedPushEntrySList routine [Kernel-Mode Driver Architecture], ExInterlockedPushEntrySList
+ms.keywords: ExInterlockedPushEntrySList routine [Kernel-Mode Driver Architecture], k102_53da8507-cae3-4a71-9c59-49676a8b7a95.xml, wdm/ExInterlockedPushEntrySList, ExInterlockedPushEntrySList, kernel.exinterlockedpushentryslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -44,7 +44,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# ExInterlockedPushEntrySList function
+# ExInterlockedPushEntrySList macro
 
 
 ## -description
@@ -70,14 +70,14 @@ PSLIST_ENTRY ExInterlockedPushEntrySList(
 
 
 
-### -param ListHead [in, out]
+### -param Head
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
+TBD
 
 
-### -param ListEntry [in, out]
+### -param Entry
 
-A pointer to the caller-allocated entry to be inserted. 
+TBD
 
 
 ### -param Lock [in, out]
@@ -85,14 +85,18 @@ A pointer to the caller-allocated entry to be inserted.
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 
-## -returns
+#### - ListHead [in, out]
+
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list. <i>ListHead</i> must have been initialized by calling <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>.
 
 
-<b>ExInterlockedPushEntrySList</b> returns a pointer to the first entry of the list <u>before</u> the new entry was inserted. If the list was empty, the routine returns <b>NULL</b>. 
+#### - ListEntry [in, out]
 
+A pointer to the caller-allocated entry to be inserted. 
 
 
 ## -remarks
+
 
 
 For more information about using this routine to implement a sequenced singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
@@ -103,17 +107,28 @@ The <b>ExInterlockedPushEntrySList</b> routine can be called at any IRQL. The st
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
 
 <a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
 
+
+
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
 
  
 

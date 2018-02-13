@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95f1e2c2-2b70-4a98-b075-e582b6a56e9d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportwriteregisterbufferulong, atartns_678d25ba-ba41-4a94-b689-5f19a89ace7f.xml, AtaPortWriteRegisterBufferUlong routine [Storage Devices], irb/AtaPortWriteRegisterBufferUlong, AtaPortWriteRegisterBufferUlong
+ms.keywords: storage.ataportwriteregisterbufferulong, irb/AtaPortWriteRegisterBufferUlong, AtaPortWriteRegisterBufferUlong, AtaPortWriteRegisterBufferUlong routine [Storage Devices], atartns_678d25ba-ba41-4a94-b689-5f19a89ace7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,17 +90,25 @@ Specifies the number of ULONG values to write to the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteregisterbufferuchar.md">AtaPortWriteRegisterBufferUchar</a>
-
 <a href="..\irb\nf-irb-ataportwriteregisterbufferushort.md">AtaPortWriteRegisterBufferUshort</a>
 
+
+
+<a href="..\irb\nf-irb-ataportwriteregisterbufferuchar.md">AtaPortWriteRegisterBufferUchar</a>
+
+
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
 
  
 

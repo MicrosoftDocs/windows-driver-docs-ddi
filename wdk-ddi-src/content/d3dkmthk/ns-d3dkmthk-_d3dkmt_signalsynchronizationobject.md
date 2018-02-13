@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, display.d3dkmt_signalsynchronizationobject"
+ms.keywords: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, display.d3dkmt_signalsynchronizationobject, OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,11 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject.md">D3DKMTSignalSynchronizationObject</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
+
+
 
  
 

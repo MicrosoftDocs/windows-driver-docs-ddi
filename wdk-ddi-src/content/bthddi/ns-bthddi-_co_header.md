@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 76fa3316-bbec-4bf1-8cb8-d92e9f54d2d6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.co_header, CO_HEADER structure [Bluetooth Devices], bthddi/CO_HEADER, CO_HEADER, _CO_HEADER, bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml
+ms.keywords: bltooth.co_header, CO_HEADER, bthddi/CO_HEADER, CO_HEADER structure [Bluetooth Devices], bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml, _CO_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,6 +85,8 @@ The size, in bytes, of the vendor-specific option stored in the L2CAP_CONFIG_OPT
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
+
+
 
  
 

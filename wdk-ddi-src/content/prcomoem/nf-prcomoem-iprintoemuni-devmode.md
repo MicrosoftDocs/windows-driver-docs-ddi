@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: df6bde70-ba14-411b-88a1-b45f2e2756ef
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DevMode method [Print Devices], IPrintOemUni::DevMode, IPrintOemUni, prcomoem/IPrintOemUni::DevMode, DevMode, DevMode method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], DevMode method, print.iprintoemuni_devmode, print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml
+ms.keywords: print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml, IPrintOemUni, IPrintOemUni::DevMode, DevMode method [Print Devices], IPrintOemUni interface, print.iprintoemuni_devmode, prcomoem/IPrintOemUni::DevMode, DevMode method [Print Devices], IPrintOemUni interface [Print Devices], DevMode method, DevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.DevMode
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemdmparam.md">O
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The operation failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::DevMode</code> method.
@@ -127,9 +132,12 @@ The <code>IPrintOemUni::DevMode</code> method must perform the operation indicat
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554167">IPrintOemUI::DevMode</a>
+
+
 
  
 

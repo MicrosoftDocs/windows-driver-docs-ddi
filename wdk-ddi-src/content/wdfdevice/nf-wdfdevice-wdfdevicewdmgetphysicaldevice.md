@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88bd9cc7-6769-4fdf-b149-2193d765fc6c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicewdmgetphysicaldevice, wdfdevice/WdfDeviceWdmGetPhysicalDevice, DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice, PFN_WDFDEVICEWDMGETPHYSICALDEVICE, wdf.wdfdevicewdmgetphysicaldevice, WdfDeviceWdmGetPhysicalDevice method
+ms.keywords: DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, PFN_WDFDEVICEWDMGETPHYSICALDEVICE, wdfdevice/WdfDeviceWdmGetPhysicalDevice, wdf.wdfdevicewdmgetphysicaldevice, kmdf.wdfdevicewdmgetphysicaldevice, WdfDeviceWdmGetPhysicalDevice, WdfDeviceWdmGetPhysicalDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,15 +79,25 @@ A handle to a framework device object.
 ## -returns
 
 
+
 <b>WdfDeviceWdmGetPhysicalDevice</b> returns a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 The pointer that the <b>WdfDeviceWdmGetPhysicalDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
+
+
+#### Examples
+
+For a code example that uses <b>WdfDeviceWdmGetPhysicalDevice</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetattacheddevice.md">WdfDeviceWdmGetAttachedDevice</a>.
+
+<div class="code"></div>
 
 

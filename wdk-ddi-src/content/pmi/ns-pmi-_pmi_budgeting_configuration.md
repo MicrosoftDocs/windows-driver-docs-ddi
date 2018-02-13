@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f9c3c289-30b8-4cec-8c38-198d1ba3d8ae
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, powermeter.pmi_budgeting_configuration, PMI_BUDGETING_CONFIGURATION, _PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_BUDGETING_CONFIGURATION
+ms.keywords: "_PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PMI_BUDGETING_CONFIGURATION, PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, pmi/PMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration, PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ A value, in units of milliwatts (mW), that specifies the current power budget. A
 ## -remarks
 
 
+
 The PMI_BUDGETING_CONFIGURATION structure is returned through an <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> I/O control (IOCTL) query request. This query request has its input data set to a <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a> enumerator value of <b>PmiBudgetingConfiguration</b>. 
 
 If the IOCTL query request completes successfully, the request returns a <a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a> structure with its <b>Capabilities</b> member formatted as a PM_BUDGETING_CONFIGURATION structure.
@@ -83,19 +84,32 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 
 
+
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
 
+
+
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+
+
+
 <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+
 
  
 

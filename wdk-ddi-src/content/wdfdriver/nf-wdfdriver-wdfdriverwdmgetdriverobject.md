@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9755557-6d5d-4ef0-b868-f05e5b82da78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverWdmGetDriverObject method, PFN_WDFDRIVERWDMGETDRIVEROBJECT, WdfDriverWdmGetDriverObject, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, wdfdriver/WdfDriverWdmGetDriverObject, kmdf.wdfdriverwdmgetdriverobject, wdf.wdfdriverwdmgetdriverobject
+ms.keywords: wdf.wdfdriverwdmgetdriverobject, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, wdfdriver/WdfDriverWdmGetDriverObject, kmdf.wdfdriverwdmgetdriverobject, WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject method, PFN_WDFDRIVERWDMGETDRIVEROBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,24 +79,51 @@ A handle to the driver's framework driver object that the driver obtained from a
 ## -returns
 
 
+
 <b>WdfDriverWdmGetDriverObject</b> returns a pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. A system bug check occurs if the <i>Driver</i> handle is invalid.
+
 
 
 
 ## -remarks
 
 
+
 The pointer that the <b>WdfDriverWdmGetDriverObject</b> method returns is valid until the framework driver object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework driver object, the pointer is valid until the callback function returns.
+
+
+#### Examples
+
+The following code example obtains a pointer to the WDM driver object that is associated with a specified framework driver object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDRIVER_OBJECT  pDrvObj;
+
+pDrvObj = WdfDriverWdmGetDriverObject(Driver);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 
  
 

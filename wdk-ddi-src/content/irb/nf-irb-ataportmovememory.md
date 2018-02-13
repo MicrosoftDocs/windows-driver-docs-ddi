@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9d724bb-cc65-428c-ad48-21b227f3c8b1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortMoveMemory, AtaPortMoveMemory routine [Storage Devices], atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, storage.ataportmovememory, AtaPortMoveMemory
+ms.keywords: atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, storage.ataportmovememory, irb/AtaPortMoveMemory, AtaPortMoveMemory routine [Storage Devices], AtaPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,15 +90,19 @@ Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuff
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver calls the <b>AtaPortMoveMemory</b> routine to copy data from one system-allocated area to another. 
 
 The location pointed to by <i>ReadBuffer</i> and <i>Length</i> can overlap the range of addresses between <i>WriteBuffer</i> and <i>Length</i>. 
+
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f8aacb6d-4e8a-4fdb-902c-3d0efbc40f08
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.gdigetdc, winppi/GdiGetDC, GdiGetDC, gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml, GdiGetDC function [Print Devices]
+ms.keywords: winppi/GdiGetDC, GdiGetDC, GdiGetDC function [Print Devices], print.gdigetdc, gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -42,7 +42,7 @@ apiname:
 -	GdiGetDC
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -78,11 +78,14 @@ Caller-supplied spool file handle, obtained by a previous call to <a href="..\wi
 ## -returns
 
 
+
 If the operation succeeds, the function returns a device context handle. Otherwise the function returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GdiGetDC</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
@@ -90,5 +93,6 @@ The <b>GdiGetDC</b> function is exported by gdi32.dll for use within a print pro
 A print processor can call <b>GdiGetDC</b> to obtain a printer's device context handle anytime after calling <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>. The print processor can use the context handle to call Win32 device context functions, in order to perform such operations as applying transformations on the print image.
 
 For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab42-4475-ac42-f753d5091251">Using GDI Functions in Print Processors</a>.
+
 
 

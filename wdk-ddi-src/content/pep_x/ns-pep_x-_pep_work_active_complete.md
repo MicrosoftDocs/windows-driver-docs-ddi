@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PPEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, PEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], *PPEP_WORK_ACTIVE_COMPLETE, _PEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE, pep_x/PEP_WORK_ACTIVE_COMPLETE
+ms.keywords: kernel.pep_work_active_complete, _PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_ACTIVE_COMPLETE
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE
+req.typenames: "*PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE"
 ---
 
 # _PEP_WORK_ACTIVE_COMPLETE structure
@@ -81,17 +81,25 @@ A handle that represents the registration of the device with the Windows <a href
 ## -remarks
 
 
+
 The <b>ActiveComplete</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACTIVE_COMPLETE</b> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
 
  
 

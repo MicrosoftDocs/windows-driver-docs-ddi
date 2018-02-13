@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ace53515-0e8a-487d-abf7-caaa09478ed5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINITSETPNPPOWEREVENTCALLBACKS, WdfDeviceInitSetPnpPowerEventCallbacks, wdf.wdfdeviceinitsetpnppowereventcallbacks, DFDeviceObjectGeneralRef_6a2f152e-b1ee-492e-a986-9c1ea925ff24.xml, wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks, WdfDeviceInitSetPnpPowerEventCallbacks method, kmdf.wdfdeviceinitsetpnppowereventcallbacks
+ms.keywords: WdfDeviceInitSetPnpPowerEventCallbacks, WdfDeviceInitSetPnpPowerEventCallbacks method, DFDeviceObjectGeneralRef_6a2f152e-b1ee-492e-a986-9c1ea925ff24.xml, kmdf.wdfdeviceinitsetpnppowereventcallbacks, wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks, wdf.wdfdeviceinitsetpnppowereventcallbacks, PFN_WDFDEVICEINITSETPNPPOWEREVENTCALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ A pointer to a caller-initialized <a href="..\wdfdevice\ns-wdfdevice-_wdf_pnppow
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If your driver calls <b>WdfDeviceInitSetPnpPowerEventCallbacks</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
@@ -99,12 +102,42 @@ If your driver calls <b>WdfDeviceInitSetPnpPowerEventCallbacks</b>, it must do s
 For more information about calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_pnppower_event_callbacks.md">WDF_PNPPOWER_EVENT_CALLBACKS</a> structure and then calls <b>WdfDeviceInitSetPnpPowerEventCallbacks</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_PNPPOWER_EVENT_CALLBACKS  pnpPowerCallbacks;
+
+WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&amp;pnpPowerCallbacks);
+pnpPowerCallbacks.EvtDevicePrepareHardware = SerialEvtPrepareHardware;
+pnpPowerCallbacks.EvtDeviceReleaseHardware = SerialEvtReleaseHardware;
+pnpPowerCallbacks.EvtDeviceD0Entry = SerialEvtDeviceD0Entry;
+pnpPowerCallbacks.EvtDeviceD0Exit = SerialEvtDeviceD0Exit;
+WdfDeviceInitSetPnpPowerEventCallbacks(
+                                       DeviceInit,
+                                       &amp;pnpPowerCallbacks
+                                       );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpolicyeventcallbacks.md">WdfDeviceInitSetPowerPolicyEventCallbacks</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_pnppower_event_callbacks_init.md">WDF_PNPPOWER_EVENT_CALLBACKS_INIT</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltisvolumesnapshot.htm
 old-project: ifsk
 ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], FltIsVolumeSnapshot, FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml
+ms.date: 2/7/2018
+ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, ifsk.fltisvolumesnapshot, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,9 @@ A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if th
 ## -returns
 
 
+
 <b>FltIsVolumeSnapshot</b> returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,13 +133,17 @@ A pointer to a caller-allocated Boolean variable that receives <b>TRUE</b> if th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the volume or instance object does not support snapshots, <b>FltIsVolumeSnapshot</b> returns STATUS_SUCCESS and <i>IsSnapshotVolume</i> is <b>FALSE</b>.
+
 
 

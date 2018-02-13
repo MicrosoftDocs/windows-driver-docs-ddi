@@ -7,8 +7,8 @@ old-location: audio\sysaudio_instance_info.htm
 old-project: audio
 ms.assetid: 3468b29d-e62c-46b4-b95e-06df846ebd81
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SYSAUDIO_INSTANCE_INFO structure [Audio Devices], SYSAUDIO_INSTANCE_INFO, aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, PSYSAUDIO_INSTANCE_INFO, ksmedia/SYSAUDIO_INSTANCE_INFO, audio.sysaudio_instance_info, *PSYSAUDIO_INSTANCE_INFO, ksmedia/PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices]
+ms.date: 2/8/2018
+ms.keywords: audio.sysaudio_instance_info, ksmedia/PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices], aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, ksmedia/SYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSAUDIO_INSTANCE_INFO
 product: Windows
 targetos: Windows
-req.typenames: SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
+req.typenames: "*PSYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO"
 ---
 
 # SYSAUDIO_INSTANCE_INFO structure
@@ -87,6 +87,7 @@ Specifies the device ID. This member identifies the virtual audio device that is
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a> property.
 
 By default, a virtual audio device combines its wave-rendering pins. The SYSAUDIO_FLAGS_DONT_COMBINE_PINS flag overrides this default.
@@ -97,19 +98,28 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYSAUDIO_INSTANCE_INFO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYSAUDIO_INSTANCE_INFO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 991a60a0-8d82-4f41-8cfe-bf633338bdda
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Open method, IWDTFSimpleIOEx2::Open, Open, wdtfinterfaces/IWDTFSimpleIOEx2::Open, Open method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, IWDTFSimpleIOEx2, Open method [Windows Device Testing Framework]
+ms.keywords: dtf.iwdtfsimpleioex2_open, Open method [Windows Device Testing Framework], Open method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2, IWDTFSimpleIOEx2::Open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, wdtfinterfaces/IWDTFSimpleIOEx2::Open, Open, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Open method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 You should call the <b>Open</b> method before calling 
@@ -88,9 +91,12 @@ the <a href="https://msdn.microsoft.com/795dcbed-e0ce-444d-a6a8-95d0bc658f5b">IW
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
+
+
 
  
 

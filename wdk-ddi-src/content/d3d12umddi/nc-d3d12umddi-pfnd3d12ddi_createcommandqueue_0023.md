@@ -76,16 +76,15 @@ HRESULT APIENTRY* pfnCreateCommandQueue(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param D3D12DDI_HCOMMANDQUEUE
 
 
-
 ### -param D3D12DDI_HRTCOMMANDQUEUE
+
+
 
 
 
@@ -115,13 +114,17 @@ The handle of the command queue for the driver to use when it calls back into th
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 Access this callback function by using a device functions core structure, such as the <b>D3D12DDI_DEVICE_FUNCS_CORE_0003</b> structure.
+
 
 

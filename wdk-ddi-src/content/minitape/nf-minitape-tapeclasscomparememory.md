@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: minitape/TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, TapeClassCompareMemory
+ms.keywords: minitape/TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml, TapeClassCompareMemory, storage.tapeclasscomparememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,20 +88,26 @@ Specifies the number of bytes to be compared.
 ## -returns
 
 
+
 <b>TapeClassCompareMemory</b> returns the number of bytes that are equivalent.
+
 
 
 
 ## -remarks
 
 
+
 A tape miniclass driver uses <b>TapeClassCompareMemory</b> to compare memory in a portable way. For example, a miniclass driver uses <b>TapeClassCompareMemory</b> in its TapeMiniVerifyInquiry routine to determine whether a given product ID matches one of the devices the driver supports.
+
 
 
 
 ## -see-also
 
 <a href="..\minitape\nc-minitape-tape_verify_inquiry_routine.md">TapeMiniVerifyInquiry</a>
+
+
 
  
 

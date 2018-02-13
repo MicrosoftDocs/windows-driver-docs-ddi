@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dcfd93-1706-41f7-aab5-f9e9dd58e9b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, display.d3dddi_video_signal_scanline_ordering, D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VSSLO_UNINITIALIZED, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, d3dukmdt/D3DDDI_VSSLO_OTHER, D3DDDI_VSSLO_OTHER, DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, D3DDDI_VSSLO_PROGRESSIVE, d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices]
+ms.keywords: D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_OTHER, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, D3DDDI_VSSLO_OTHER, D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_PROGRESSIVE, display.d3dddi_video_signal_scanline_ordering, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,6 +99,8 @@ Indicates that the video signal has a scan line ordering other than those given 
 ## -remarks
 
 
+
 The values of the D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration type indicate whether the image displayed on the monitor contains the entire content of a video frame or only half of the content (that is, either the even or odd scan lines, which occur interchangeably). The values also indicate which field comes first in the ordering.
+
 
 

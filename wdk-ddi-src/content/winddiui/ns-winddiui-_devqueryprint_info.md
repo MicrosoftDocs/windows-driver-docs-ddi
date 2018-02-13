@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO structure [Print Devices], winddiui/DEVQUERYPRINT_INFO, print.devqueryprint_info, PDEVQUERYPRINT_INFO structure pointer [Print Devices], winddiui/PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, _DEVQUERYPRINT_INFO
+ms.keywords: DEVQUERYPRINT_INFO structure [Print Devices], *PDEVQUERYPRINT_INFO, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO, print.devqueryprint_info, _DEVQUERYPRINT_INFO, winddiui/DEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], PDEVQUERYPRINT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVQUERYPRINT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO"
+req.typenames: DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,8 @@ Driver-supplied length, in bytes, of the error string supplied in the buffer poi
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a>
+
+
 
  
 

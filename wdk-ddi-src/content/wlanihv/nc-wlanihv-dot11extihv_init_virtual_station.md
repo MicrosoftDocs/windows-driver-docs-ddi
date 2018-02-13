@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvInitVirtualStation
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -92,13 +92,16 @@ This parameter is reserved for use by the operating system and should be <b>NULL
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 It is optional for the IHV Extensions DLL to implement and export this function.
@@ -114,13 +117,17 @@ In response to a call to
     <i>Dot11ExtIhvInitVirtualStation</i>, the IHV Extensions DLL can initialize its internal data structures
     with the information provided from the 
     <i>Dot11ExtIhvInitService</i> function call.
+
 <div class="alert"><b>Note</b>  The IHV Extensions DLL is allowed to call the virtual station API functions that
     the 
     <i>pDot11ExtVSAPI</i> parameter points to only after the 
-    <i>Dot11ExtIhvInitVirtualStation</i> function returns.</div><div> </div>The operating system resolves the address of the 
+    <i>Dot11ExtIhvInitVirtualStation</i> function returns.</div>
+<div> </div>
+The operating system resolves the address of the 
     <i>Dot11ExtIhvInitVirtualStation</i> function by calling the 
     <b>GetProcAddress</b> function. As a result, the developer of the IHV Extensions DLL must follow these
     guidelines if this function is implemented.
+
 <ul>
 <li>
 The DLL must implement a function named Dot11ExtIhvInitVirtualStation, which has the format that is
@@ -134,18 +141,26 @@ The
       <i>Dot11ExtIhvInitVirtualStation</i> function.
 
 </li>
-</ul>For more information about 
+</ul>
+For more information about 
     <b>GetProcAddress</b>, see the Microsoft Windows SDK documentation.
+
 
 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
-
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
+
+
+
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
+
+
 
  
 

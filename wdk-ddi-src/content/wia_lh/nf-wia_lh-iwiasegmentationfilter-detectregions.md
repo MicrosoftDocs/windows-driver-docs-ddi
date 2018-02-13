@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, IWiaSegmentationFilter, DetectRegions method [Imaging Devices], image.iwiasegmentationfilter_detectregions, wia_lh/IWiaSegmentationFilter::DetectRegions, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, IWiaSegmentationFilter::DetectRegions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml
+ms.keywords: IWiaSegmentationFilter, DetectRegions, IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, wia_lh/IWiaSegmentationFilter::DetectRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaSegmentationFilter.DetectRegions
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ Specifies a pointer to the <b>IWiaItem2</b> item for which <i>pInputStream</i> w
 ## -returns
 
 
+
 Returns S_OK if successful, or a standard COM error value otherwise. 
 
 
 
+
 ## -remarks
+
 
 
 This method determines the subregions of the image represented by <i>pInputStream</i>. For each subregion that it detects, it creates a child item for the <b>IWiaItem2</b> item pointed to by the <i>pWiaItem2</i> parameter. For each child item, the segmentation filter must set values for the bounding rectangle of the area to scan, using the following WIA scanner item properties: 
@@ -122,5 +125,6 @@ If an application changes any properties into <i>pWiaItem2</i>, between acquirin
 The application must reset the <b>IStream </b>preview if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling <b>IWiaSegmentationFilter::DetectRegions</b>.
 
 The <b>IStream,IWiaItem2</b> and <b>IWiaPropertyStorage </b>interfaces are described in the Microsoft Windows SDK documentation.
+
 
 

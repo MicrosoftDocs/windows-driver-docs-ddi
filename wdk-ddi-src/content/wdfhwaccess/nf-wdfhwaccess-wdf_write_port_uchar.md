@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F7F40415-87E9-4870-8B10-83009159543E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_WRITE_PORT_UCHAR, wdfhwaccess/WDF_WRITE_PORT_UCHAR, WDF_WRITE_PORT_UCHAR function, wdf.wdf_write_port_uchar
+ms.keywords: WDF_WRITE_PORT_UCHAR, wdfhwaccess/WDF_WRITE_PORT_UCHAR, wdf.wdf_write_port_uchar, WDF_WRITE_PORT_UCHAR function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WRITE_PORT_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -92,6 +92,8 @@ Specifies a byte to be written to the port.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

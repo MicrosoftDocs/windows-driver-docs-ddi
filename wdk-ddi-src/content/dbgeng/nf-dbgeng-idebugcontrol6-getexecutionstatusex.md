@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C14A3106-AEF7-4BA2-9E21-32D8B2D5BD7E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugcontrol6_getexecutionstatusex, dbgeng/IDebugControl6::GetExecutionStatusEx, IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method, GetExecutionStatusEx method [Windows Debugging], IDebugControl6::GetExecutionStatusEx, IDebugControl6, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, GetExecutionStatusEx
+ms.keywords: debugger.idebugcontrol6_getexecutionstatusex, GetExecutionStatusEx method [Windows Debugging], IDebugControl6 interface, IDebugControl6, GetExecutionStatusEx method [Windows Debugging], IDebugControl6::GetExecutionStatusEx, dbgeng/IDebugControl6::GetExecutionStatusEx, IDebugControl6 interface [Windows Debugging], GetExecutionStatusEx method, GetExecutionStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Receives the extended execution status.  This will be set to values described in
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,20 +94,26 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+
+
 
  
 

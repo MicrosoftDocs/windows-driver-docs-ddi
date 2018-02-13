@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B6186EB-EC08-4C11-9CCF-E07D78FBD535
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_PLATFORM_STATE_RESIDENCIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCIES structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCIES, PPEP_PPM_PLATFORM_STATE_RESIDENCIES, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCIES, _PEP_PPM_PLATFORM_STATE_RESIDENCIES, *PPEP_PPM_PLATFORM_STATE_RESIDENCIES, PEP_PPM_PLATFORM_STATE_RESIDENCIES, kernel.pep_ppm_platform_state_residencies
+ms.keywords: PPEP_PPM_PLATFORM_STATE_RESIDENCIES, kernel.pep_ppm_platform_state_residencies, pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCIES, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCIES, PPEP_PPM_PLATFORM_STATE_RESIDENCIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PLATFORM_STATE_RESIDENCIES, PEP_PPM_PLATFORM_STATE_RESIDENCIES structure [Kernel-Mode Driver Architecture], PEP_PPM_PLATFORM_STATE_RESIDENCIES, *PPEP_PPM_PLATFORM_STATE_RESIDENCIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,9 @@ typedef struct _PEP_PPM_PLATFORM_STATE_RESIDENCIES {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186817">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE_RESIDENCIES</a> notification. Both members of the structure contain input values that the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) supplies when this notification is sent to the PEP. PoFx allocates the output buffer pointed to by the <b>States</b> member, and the PEP writes to this buffer.
+
 
 
 
@@ -89,9 +91,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_ppm_platform_state_residency.md">PEP_PPM_PLATFORM_STATE_RESIDENCY</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186817">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE_RESIDENCIES</a>
+
+
 
  
 

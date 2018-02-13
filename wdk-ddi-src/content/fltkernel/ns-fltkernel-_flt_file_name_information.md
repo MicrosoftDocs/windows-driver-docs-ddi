@@ -7,8 +7,8 @@ old-location: ifsk\flt_file_name_information.htm
 old-project: ifsk
 ms.assetid: 998a028a-7dd8-429a-8195-68d4b4b1b156
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "_FLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION, FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], fltkernel/PFLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], ifsk.flt_file_name_information, FLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION"
+ms.date: 2/7/2018
+ms.keywords: PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], ifsk.flt_file_name_information, FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, _FLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], fltkernel/PFLT_FILE_NAME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_FILE_NAME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
+req.typenames: "*PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION"
 ---
 
 # _FLT_FILE_NAME_INFORMATION structure
@@ -84,6 +84,7 @@ Size, in bytes, of the FLT_FILE_NAME_INFORMATION structure.
 ### -field NamesParsed
 
 Bitmask of flags that indicate which name components have been parsed from the <b>Name</b> string by <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>. Note that, when parsing the <b>Name</b> string, <b>FltParseFileNameInformation</b> sets this flag for each component, whether the component is found to be present in the string. These values may be combined by using the OR operator. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -129,12 +130,14 @@ FLTFL_FILE_NAME_PARSED_PARENT_DIR
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Format
 
 Format of the name information stored in the <b>Name</b> member. One of the following. (For an explanation of these formats, see the following Remarks section.) 
+
 <table>
 <tr>
 <th>Value</th>
@@ -170,7 +173,8 @@ The <b>Name</b> member contains the short (8.3) name for the file. The short nam
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Name
@@ -212,7 +216,9 @@ UNICODE_STRING structure that contains the parent directory name parsed from the
 ## -remarks
 
 
+
 The <b>Name</b> member contains one of the following: 
+
 <ul>
 <li>
 The normalized name for the file 
@@ -226,7 +232,9 @@ The opened name for the file
 The short name for the file 
 
 </li>
-</ul>A file name is considered <i>normalized</i> if all of the following are true: 
+</ul>
+A file name is considered <i>normalized</i> if all of the following are true: 
+
 <ul>
 <li>
 It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>.) 
@@ -248,7 +256,9 @@ Any trailing ":$DATA" or "::$DATA" strings are removed from the stream name.
 All mount points are resolved. 
 
 </li>
-</ul>The following is an example of a normalized file name for a local file: 
+</ul>
+The following is an example of a normalized file name for a local file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -258,7 +268,9 @@ All mount points are resolved.
 <pre>\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
 </td>
 </tr>
-</table></span></div>The following is an example of a normalized file name for a remote file: 
+</table></span></div>
+The following is an example of a normalized file name for a remote file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -268,7 +280,9 @@ All mount points are resolved.
 <pre>\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
 </td>
 </tr>
-</table></span></div>The <i>opened name</i> for a file is the name that was used when the file was opened. Like the normalized name, it contains the full directory path for the file, including the volume name. It differs from the normalized name in the following ways: 
+</table></span></div>
+The <i>opened name</i> for a file is the name that was used when the file was opened. Like the normalized name, it contains the full directory path for the file, including the volume name. It differs from the normalized name in the following ways: 
+
 <ul>
 <li>
 The directory path for the file can contain short names as well as long names. 
@@ -282,7 +296,9 @@ Trailing ":$DATA" and "::$DATA" strings are not removed from the stream name.
 Mount points are not resolved. 
 
 </li>
-</ul>The following is an example of an opened file name for a local file: 
+</ul>
+The following is an example of an opened file name for a local file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -292,7 +308,9 @@ Mount points are not resolved.
 <pre>\Device\HarddiskVolume1\Docume~1\MyUser\MYDOCU~1\Test Results.txt:stream1:$DATA</pre>
 </td>
 </tr>
-</table></span></div>The following is an example of an opened file name for a remote file: 
+</table></span></div>
+The following is an example of an opened file name for a remote file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -302,9 +320,11 @@ Mount points are not resolved.
 <pre>\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
 </td>
 </tr>
-</table></span></div>The <i>short name</i> for a file is the short (8.3) name for the final component of the file name. Because it is generated when the file is opened, the short name is not available for an unopened file object, and it is not available in the create dispatch ("pre-create") path. It is also not available for NTFS stream file objects. Not all open files have short file names. For example, on NTFS partitions where short file name generation has been disabled, no files have short file names. 
+</table></span></div>
+The <i>short name</i> for a file is the short (8.3) name for the final component of the file name. Because it is generated when the file is opened, the short name is not available for an unopened file object, and it is not available in the create dispatch ("pre-create") path. It is also not available for NTFS stream file objects. Not all open files have short file names. For example, on NTFS partitions where short file name generation has been disabled, no files have short file names. 
 
 The following is an example of a short name for a file: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -314,8 +334,12 @@ The following is an example of a short name for a file:
 <pre>TestRe~1.txt</pre>
 </td>
 </tr>
-</table></span></div>To obtain an FLT_FILE_NAME_INFORMATION structure for a file, call <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>, or <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>. These routines returns a pointer to a Filter Manager-owned FLT_FILE_NAME_INFORMATION structure that is shared by all minifilters. 
-<div class="alert"><b>Note</b>    Do not modify the contents of FLT_FILE_NAME_INFORMATION structures, because these structures are cached by the Filter Manager so that all minifilters can use them. If your minifilter must modify this information in some way, it should copy the information into another buffer first. </div><div> </div>File systems such as NTFS and FAT use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. This file name tunneling can cause the final component in normalized file name information returned by a preoperation call to <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>, or <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a> to be invalidated. If a minifilter retrieves normalized file name information in the preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine for a create, hard-link, or rename operation, it must call <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a> from its postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine to retrieve the correct file name information for the file. 
+</table></span></div>
+To obtain an FLT_FILE_NAME_INFORMATION structure for a file, call <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>, or <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>. These routines returns a pointer to a Filter Manager-owned FLT_FILE_NAME_INFORMATION structure that is shared by all minifilters. 
+
+<div class="alert"><b>Note</b>    Do not modify the contents of FLT_FILE_NAME_INFORMATION structures, because these structures are cached by the Filter Manager so that all minifilters can use them. If your minifilter must modify this information in some way, it should copy the information into another buffer first. </div>
+<div> </div>
+File systems such as NTFS and FAT use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. This file name tunneling can cause the final component in normalized file name information returned by a preoperation call to <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>, or <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a> to be invalidated. If a minifilter retrieves normalized file name information in the preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine for a create, hard-link, or rename operation, it must call <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a> from its postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine to retrieve the correct file name information for the file. 
 
 Although it contains numerous <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structures, the FLT_FILE_NAME_INFORMATION structure does not occupy much space in memory because all of the UNICODE_STRING structures in a FLT_FILE_NAME_INFORMATION structure share a single buffer. 
 
@@ -325,35 +349,60 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_FILE_NAME_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_FILE_NAME_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

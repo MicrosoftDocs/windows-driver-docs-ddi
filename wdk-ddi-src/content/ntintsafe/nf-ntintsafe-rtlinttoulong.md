@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B5308AB1-3BF6-4B93-AC6B-655D00DFC5E5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlinttoulong, ntintsafe/RtlIntToULong, RtlIntToULong function [Kernel-Mode Driver Architecture], RtlIntToULong
+ms.keywords: ntintsafe/RtlIntToULong, RtlIntToULong, kernel.rtlinttoulong, RtlIntToULong function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlIntToULongPtr
 </li>
@@ -106,4 +108,5 @@ This function uses the following alternate name:
 <li>RtlIntToULongPtr
 </li>
 </ul>
+
 

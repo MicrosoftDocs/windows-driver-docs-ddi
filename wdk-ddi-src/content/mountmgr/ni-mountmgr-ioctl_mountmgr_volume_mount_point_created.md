@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
 ---
 
 # IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED IOCTL
@@ -87,14 +87,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +112,8 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_VOLUME_MOUNT_POI
 ## -see-also
 
 <a href="..\mountmgr\ns-mountmgr-_mountmgr_volume_mount_point.md">MOUNTMGR_VOLUME_MOUNT_POINT</a>
+
+
 
  
 

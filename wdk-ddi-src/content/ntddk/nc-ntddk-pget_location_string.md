@@ -40,7 +40,7 @@ apiname:
 -	PnpGetLocationString
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # PGET_LOCATION_STRING callback
@@ -84,11 +84,14 @@ A pointer to a sequence of null-terminated Unicode strings, that is terminated b
 ## -returns
 
 
+
 The routine returns an NTSTATUS value to indicate the status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a> structure supplies a pointer to the <i>PnpGetLocationString</i> routine.
@@ -103,13 +106,20 @@ The <i>PnpGetLocationString</i> routine calls a routine such as <a href="..\wdm\
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
 
  
 

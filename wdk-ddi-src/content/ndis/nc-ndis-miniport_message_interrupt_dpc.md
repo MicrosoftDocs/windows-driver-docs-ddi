@@ -40,7 +40,7 @@ apiname:
 -	MiniportMessageInterruptDPC
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_MESSAGE_INTERRUPT_DPC callback
@@ -119,25 +119,31 @@ A pointer to an
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure specifies the maximum number of 
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that a miniport
      driver should indicate in a DPC.
-<div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter is named <i>NdisReserved1</i>, its datatype is <b>PULONG</b>, and it is reserved for NDIS.</div><div> </div>
+
+<div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter is named <i>NdisReserved1</i>, its datatype is <b>PULONG</b>, and it is reserved for NDIS.</div>
+<div> </div>
 
 ### -param NdisReserved1
-
 
 
 ### -param NdisReserved2 [in]
 
 Reserved for NDIS.
-<div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter's datatype is <b>PULONG</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter's datatype is <b>PULONG</b>.</div>
+<div> </div>
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers that register a message-signaled interrupt with the 
@@ -186,8 +192,11 @@ Before NDIS calls
     MiniportMessageInterrupt</a> function. Before it returns control, 
     <i>MiniportMessageInterruptDPC</i> can reenable interrupts. If the miniport driver queued additional DPCs
     while interrupts were disabled, the driver should enable the interrupts after the last DPC executes.
+
 <div class="alert"><b>Note</b>  For better performance, miniport drivers should only disable interrupts for
-    specific messages. They should not disable all message-signaled interrupts.</div><div> </div>Miniport drivers should limit the number of the receive buffers that they indicate while they are
+    specific messages. They should not disable all message-signaled interrupts.</div>
+<div> </div>
+Miniport drivers should limit the number of the receive buffers that they indicate while they are
     processing an 
     <i>interrupt DPC batch</i> to complete within the required time limit. An interrupt DPC batch is the
     collection of all the DPCs that run after the ISR and before the interrupts are reenabled.
@@ -205,9 +214,12 @@ A miniport driver can call
 
 NDIS calls 
     <i>MiniportMessageInterruptDPC</i> at IRQL = DISPATCH_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>MiniportMessageInterruptDPC</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>MiniportMessageInterruptDPC</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportMessageInterruptDPC</i> function that is named "MyMessageInterruptDPC", use the <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -217,7 +229,9 @@ For example, to define a <i>MiniportMessageInterruptDPC</i> function that is nam
 <pre>MINIPORT_MESSAGE_INTERRUPT_DPC MyMessageInterruptDPC;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -236,45 +250,75 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_MESSAGE_INTERRUPT_DPC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
    NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
 
 <a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
    IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
+
+
 
  
 

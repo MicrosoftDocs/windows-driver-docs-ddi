@@ -40,7 +40,7 @@ apiname:
 -	WskSend
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -97,6 +97,7 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
+
 #### WSK_FLAG_NODELAY
 
 Directs the underlying transport to immediately send the data, and any previously queued data,
@@ -118,7 +119,9 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
 ## -returns
 
 
+
 <b>WskSend</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -187,17 +190,21 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A WSK application can call the 
     <b>WskSend</b> function only on a connection-oriented or stream socket that has been previously connected to a
     remote transport address. A connection-oriented socket is connected to a remote transport address by one
     of the following methods:
+
 <ul>
 <li>
 The WSK application connects the socket by calling the 
@@ -214,7 +221,8 @@ The WSK subsystem connects the socket when the WSK application accepts an incomi
       request on a listening socket.
 
 </li>
-</ul>If the 
+</ul>
+If the 
     <b>WskSend</b> function returns STATUS_PENDING, the MDL chain that is described in the 
     <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that is pointed to by the 
     <i>Buffer</i> parameter must remain locked in memory until the IRP is completed.
@@ -226,22 +234,37 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 
+
 ## -see-also
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
 
  
 

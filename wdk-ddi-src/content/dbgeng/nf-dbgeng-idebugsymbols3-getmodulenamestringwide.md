@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, debugger.getmodulenamestringwide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, IDebugSymbols3, GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging]
+ms.keywords: IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, debugger.getmodulenamestringwide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,7 @@ HRESULT GetModuleNameStringWide(
 ### -param Which [in]
 
 Specifies which of the module's names to return, possible values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -130,7 +131,8 @@ The mapped image name.  In most cases, this is <b>NULL</b>. If the debugger is m
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Index [in]
@@ -161,7 +163,9 @@ Receives the size in characters of the module's name.  If <i>NameSize</i> is <b>
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -189,22 +193,30 @@ The method was successful. However, the size of the buffer was smaller than the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547146">GetModuleNames</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

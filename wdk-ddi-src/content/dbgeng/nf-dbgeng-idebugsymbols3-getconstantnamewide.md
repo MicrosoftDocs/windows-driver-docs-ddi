@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide, dbgeng/IDebugSymbols3::GetConstantNameWide, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, GetConstantNameWide method [Windows Debugging], GetConstantNameWide
+ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getconstantnamewide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,7 +105,9 @@ Receives the size in characters of the constant's name.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +135,17 @@ The method was successful. However, the buffer was not large enough for the cons
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 

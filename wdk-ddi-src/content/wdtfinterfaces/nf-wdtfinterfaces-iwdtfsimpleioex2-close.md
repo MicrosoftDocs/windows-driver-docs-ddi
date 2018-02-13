@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: e8061408-2efe-4620-bc57-4cf0c3e41874
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Close method, wdtfinterfaces/IWDTFSimpleIOEx2::Close, Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, Close, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2::Close, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, dtf.iwdtfsimpleioex2_close, IWDTFSimpleIOEx2
+ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Close method, Close, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, dtf.iwdtfsimpleioex2_close, wdtfinterfaces/IWDTFSimpleIOEx2::Close, Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 You should call the <b>Close</b> method only after calling 
@@ -88,9 +91,12 @@ the <a href="https://msdn.microsoft.com/991a60a0-8d82-4f41-8cfe-bf633338bdda">IW
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
+
+
 
  
 

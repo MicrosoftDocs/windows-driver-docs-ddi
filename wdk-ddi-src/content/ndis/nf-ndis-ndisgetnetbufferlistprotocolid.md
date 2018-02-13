@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], netvista.ndisgetnetbufferlistprotocolid
+ms.keywords: ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetNetBufferListProtocolId
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetNetBufferListProtocolId function
@@ -80,8 +80,10 @@ A pointer to a
 ## -returns
 
 
+
 <b>NdisGetNetBufferListProtocolId</b> returns a protocol identifier as one of the following
      values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,11 +133,14 @@ The NetBEUI protocol identifier.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers can call the 
@@ -152,12 +157,17 @@ Protocol drivers that create NET_BUFFER_LIST structures should set the protocol 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/e143c914-cfb0-4c06-9da7-a2f5ef09afe2">
    NdisSetNetBufferListProtocolId</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: buses\ufxdevicenotifydetach.htm
 old-project: usbref
 ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach
+ms.date: 2/8/2018
+ms.keywords: UfxDeviceNotifyDetach method [Buses], ufxclient/UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach, UfxDeviceNotifyDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,16 +76,20 @@ A handle to a UFX device object that the driver created by calling <a href="..\u
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 This method is called by the client driver when it receives a USB cable detach event. Once the detach event is processed, all endpoints should be disabled and device should move to a low power mode.
 
 The client driver typically calls <b>UfxDeviceNotifyDetach</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function, as shown in the following example.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -186,4 +190,5 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
+
 

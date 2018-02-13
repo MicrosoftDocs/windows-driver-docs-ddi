@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvDeleteItem, drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, IWiaMiniDrv, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method
+ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, IWiaMiniDrv::drvDeleteItem, drvDeleteItem method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvDeleteItem, image.iwiaminidrv_drvdeleteitem, IWiaMiniDrv, drvDeleteItem, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ HRESULT drvDeleteItem(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -104,16 +105,20 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
+
 
 
 
 ## -remarks
 
 
+
 In order to delete a driver item, the WIA service will call the minidriver method <b>IWiaMiniDrv::drvDeleteItem</b>. In this method, the minidriver will attempt to delete the item pointed to by the WIA service context parameter <i>pWiasContext</i>. If the item is successfully deleted, the method returns S_OK and sets the device error value parameter <i>plDevErrVal</i> to zero. If a device error occurs, the method returns E_FAIL and a device-specific error value in the device error value parameter <i>plDevErrVal</i>.
 
 Before the WIA service calls this method, it verifies the following:
+
 <ul>
 <li>
 The item is not the root item.
@@ -127,15 +132,21 @@ If the item is a folder, it does not have any children.
 The item's access rights allow deletion.
 
 </li>
-</ul>Since the WIA service verifies these conditions, it is not necessary for the minidriver to also verify them.
+</ul>
+Since the WIA service verifies these conditions, it is not necessary for the minidriver to also verify them.
+
 
 
 
 ## -see-also
 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
 
  
 

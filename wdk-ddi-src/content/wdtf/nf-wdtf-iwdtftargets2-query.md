@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 0f3537f0-903d-405a-bbe4-5cfbe7817ea1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Query method [Windows Device Testing Framework], IWDTFTargets2 interface, IWDTFTargets2::Query, wdtf/IWDTFTargets2::Query, Query, IWDTFTargets2 interface [Windows Device Testing Framework], Query method, dtf.iwdtftargets2_query, Query method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFTargets2::Query, IWDTFTargets2, Microsoft.WDTF.IWDTFTargets2.Query
+ms.keywords: IWDTFTargets2, Microsoft.WDTF.IWDTFTargets2.Query, IWDTFTargets2 interface [Windows Device Testing Framework], Query method, Query method [Windows Device Testing Framework], IWDTFTargets2 interface, wdtf/IWDTFTargets2::Query, dtf.iwdtftargets2_query, Query, Query method [Windows Device Testing Framework], IWDTFTargets2::Query, Microsoft::WDTF::IWDTFTargets2::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The collection of items.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>Query</b> method provides the <i>SDEL</i> 
@@ -101,9 +104,12 @@ interface.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

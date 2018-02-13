@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 06affa2e-d22c-4d24-8c5f-6ef52e3051fa
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetJobAttributes function [Print Devices], print.getjobattributes, GetJobAttributes, winsplp/GetJobAttributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml
+ms.keywords: GetJobAttributes, print.getjobattributes, GetJobAttributes function [Print Devices], winsplp/GetJobAttributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,9 @@ Caller-supplied pointer to an <a href="..\winddiui\ns-winddiui-_attribute_info_3
 ## -returns
 
 
+
 <b>GetJobAttributes</b> returns <b>TRUE</b> if it is successful in obtaining the print job attributes; otherwise it returns <b>FALSE</b>.
+
 
 
 
@@ -98,9 +100,15 @@ Caller-supplied pointer to an <a href="..\winddiui\ns-winddiui-_attribute_info_3
 
 <a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSGetState, UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, UPSGetState function [Battery Devices], upssvc/UPSGetState, battery.upsgetstate
+ms.keywords: UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, upssvc/UPSGetState, UPSGetState, UPSGetState function [Battery Devices], battery.upsgetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,9 @@ DWORD UPSGetState(
 ## -returns
 
 
+
 The <b>UPSGetState</b> function returns one of the following DWORD values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,13 +127,17 @@ Communication with the UPS is not currently established.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This is a nonblocking call. 
+
 
 

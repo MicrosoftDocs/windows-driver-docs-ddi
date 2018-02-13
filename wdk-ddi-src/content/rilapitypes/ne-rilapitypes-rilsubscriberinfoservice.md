@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9dcdfbcc-bab8-4621-993b-e64106d0457e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_VOICE, netvista.rilsubscriberinfoservice, RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_FAX, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_UNKNOWN, RILSUBSCRIBERINFOSERVICE, RIL_SERVICE_VOICE, rilapitypes/RIL_SERVICE_UNKNOWN, rilapitypes/RILSUBSCRIBERINFOSERVICE, RIL_SERVICE_OTHER
+ms.keywords: RIL_SERVICE_UNKNOWN, RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_FAX, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfoservice, RILSUBSCRIBERINFOSERVICE, RIL_SERVICE_OTHER, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_VOICE, rilapitypes/RIL_SERVICE_UNKNOWN, RIL_SERVICE_VOICE, rilapitypes/RIL_SERVICE_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,17 +75,13 @@ enum RILSUBSCRIBERINFOSERVICE {
 ### -field RIL_SERVICE_UNKNOWN
 
 
-
 ### -field RIL_SERVICE_VOICE
-
 
 
 ### -field RIL_SERVICE_FAX
 
 
-
 ### -field RIL_SERVICE_OTHER
-
 
 
 ### -field RIL_SERVICE_MAX
@@ -96,6 +92,8 @@ enum RILSUBSCRIBERINFOSERVICE {
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

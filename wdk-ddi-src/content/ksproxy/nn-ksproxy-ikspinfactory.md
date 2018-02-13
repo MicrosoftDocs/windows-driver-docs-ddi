@@ -78,6 +78,8 @@ Retrieves the identifier of a pin factory.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsPinFactory.
+
 
 

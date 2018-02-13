@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 85D43276-53A1-4CEE-99FE-23ED8BECB316
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRegistryReadAdapterKey, storport/StorPortRegistryWriteAdapterKey, storage.storportregistryreadadapterkey, StorPortRegistryWriteAdapterKey routine [Storage Devices], StorPortRegistryWriteAdapterKey
+ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storport/StorPortRegistryWriteAdapterKey, storage.storportregistryreadadapterkey, StorPortRegistryWriteAdapterKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,7 @@ The name of the Value under the key.
 ### -param ValueType [in]
 
 One of the following registry data types.
+
 <table>
 <tr>
 <th>Type</th>
@@ -227,7 +228,8 @@ REG_QWORD_LITTLE_ENDIAN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ValueData [in, out]
@@ -244,13 +246,17 @@ Specifies the size of the data pointed to by <i>ValueData</i>.
 
 
 
+
             Returns STOR_STATUS_SUCCESS when the operation is successful, otherwise the appropriate error code.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+
 
  
 

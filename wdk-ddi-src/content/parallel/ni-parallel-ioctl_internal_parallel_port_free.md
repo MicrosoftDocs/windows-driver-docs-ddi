@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_PARALLEL_PORT_FREE
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # IOCTL_INTERNAL_PARALLEL_PORT_FREE IOCTL
@@ -87,14 +87,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,9 +111,13 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 ## -see-also
 
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_allocate.md">IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</a>
+
+
+
 <a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_allocate.md">IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</a>
+
 
  
 

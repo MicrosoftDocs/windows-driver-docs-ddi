@@ -75,6 +75,8 @@ A handle that identifies the adapter.
 ## -returns
 
 
+
 If this routine succeeds, it returns STATUS_SUCCESS. 
+
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSFC_TM structure [Storage Devices], hbapiwmi/PMSFC_TM, PMSFC_TM, hbapiwmi/MSFC_TM, *PMSFC_TM, MSFC_TM, storage.msfc_tm, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, PMSFC_TM structure pointer [Storage Devices], _MSFC_TM
+ms.keywords: PMSFC_TM, PMSFC_TM structure pointer [Storage Devices], hbapiwmi/MSFC_TM, _MSFC_TM, hbapiwmi/PMSFC_TM, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml, *PMSFC_TM, MSFC_TM structure [Storage Devices], MSFC_TM, storage.msfc_tm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,6 +123,8 @@ Indicates when <b>TRUE</b> that the time stamp complies with daylight savings ti
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562965">MSFC_TM WMI Class</a>
+
+
 
  
 

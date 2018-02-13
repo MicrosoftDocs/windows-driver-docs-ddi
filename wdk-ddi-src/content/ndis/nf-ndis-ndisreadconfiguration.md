@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisReadConfiguration, netvista.ndisreadconfiguration, NDIS_STATUS_RESOURCES, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NDIS_STATUS_SUCCESS, NDIS_STATUS_FAILURE, NdisReadConfiguration
+ms.keywords: ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NDIS_STATUS_SUCCESS, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], NDIS_STATUS_RESOURCES, NdisReadConfiguration, netvista.ndisreadconfiguration, NDIS_STATUS_FAILURE, ndis/NdisReadConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisReadConfiguration
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisReadConfiguration function
@@ -79,6 +79,7 @@ VOID NdisReadConfiguration(
 
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -117,7 +118,8 @@ The requested information could not be found under the opened registry key desig
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ParameterValue [out]
@@ -150,6 +152,7 @@ A pointer to a caller-supplied NDIS_STRING type describing a counted string, in 
 
 Alternatively, pointer to a caller-supplied NDIS_STRING_CONSTANT specifying one of the following
      predefined entry names along with predefined return values:
+
 <table>
 <tr>
 <th>Predefined Entry Name</th>
@@ -189,7 +192,8 @@ NdisVersion
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ParameterType [in]
@@ -202,11 +206,14 @@ The type of the value entry that is specified as one of the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In the configuration registry of Windows 2000 and later versions, an NDIS 
@@ -252,43 +259,76 @@ For more information about setup and installation files, see
 
 
 
-## -see-also
 
-<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-<a href="..\ndis\nf-ndis-ndisunicodestringtoansistring.md">
-   NdisUnicodeStringToAnsiString</a>
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
    NdisOpenConfigurationKeyByIndex</a>
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
-   NdisOpenConfigurationKeyByName</a>
 
-<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
 
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
+
 
 <a href="..\ndis\nf-ndis-ndisansistringtounicodestring.md">
    NdisAnsiStringToUnicodeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisunicodestringtoansistring.md">
+   NdisUnicodeStringToAnsiString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+   NdisOpenConfigurationKeyByName</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
 
  
 

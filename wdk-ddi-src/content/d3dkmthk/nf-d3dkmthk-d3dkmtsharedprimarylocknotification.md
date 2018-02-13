@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4104b137-dd32-4566-a46a-f20ef6b602c6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSharedPrimaryLockNotification, display.d3dkmtsharedprimarylocknotification, d3dkmthk/D3DKMTSharedPrimaryLockNotification, D3DKMTSharedPrimaryLockNotification function [Display Devices], OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml
+ms.keywords: D3DKMTSharedPrimaryLockNotification, d3dkmthk/D3DKMTSharedPrimaryLockNotification, D3DKMTSharedPrimaryLockNotification function [Display Devices], display.d3dkmtsharedprimarylocknotification, OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a> structure that describes the shared primary surface that an application will lock. 
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotific
 ## -returns
 
 
+
 <b>D3DKMTSharedPrimaryLockNotification</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,16 +127,20 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values that are defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
+
 The OpenGL ICD calls the <b>D3DKMTSharedPrimaryLockNotification</b> function to inform the operating system that an application is about to lock the GDI shared primary surface that exists on the graphics adapter and video present source that the <b>AdapterLuid</b> and <b>VidPnSourceId</b> members of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a> structure specify. The OpenGL ICD must call <b>D3DKMTSharedPrimaryLockNotification</b> before it calls the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">D3DKMTLock</a> function for the GDI shared primary surface to ensure that the operating system disables all sprites that intersect with the lock region that the <b>LockRect</b> member of D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION specifies.
+
 
 
 
@@ -141,7 +148,11 @@ The OpenGL ICD calls the <b>D3DKMTSharedPrimaryLockNotification</b> function to 
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">D3DKMTLock</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62ef9d02-3a59-4d4e-a48f-21a8bb4f6e58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, HBA_GetFCPStatistics, hbaapi/HBA_GetFCPStatistics, storage.hba_getfcpstatistics, HBA_GetFCPStatistics routine [Storage Devices]
+ms.keywords: HBA_GetFCPStatistics routine [Storage Devices], HBA_GetFCPStatistics, fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, hbaapi/HBA_GetFCPStatistics, storage.hba_getfcpstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 #### - handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
@@ -103,7 +104,9 @@ Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4sta
 ## -returns
 
 
+
 The <b>HBA_GetFCPStatistics</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetFCPStatistics</b> returns one of the following qualifiers.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,26 +156,38 @@ Returned if an unspecified error occurred that prevented the retrieval of the st
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Statistics counters in HBA_FC4Statistics are 64-bit signed integers that wrap to zero on exceeding 2**63-1. If an HBA does not support a specific statistic, it returns a value with every bit set to 1 for that statistic. For an explanation of how the counter values are determined, see the T11 committee's <i>Fibre Channel Generic Services - 4 </i>specification. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
+
+
+
 <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_fc4statistics.md">HBA_FC4Statistics</a>
+
 
  
 

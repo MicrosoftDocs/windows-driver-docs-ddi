@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeLowerIrql
-title: KeLowerIrql function
+title: KeLowerIrql macro
 author: windows-driver-content
 description: The KeLowerIrql routine restores the IRQL on the current processor to its original value.
 old-location: kernel\kelowerirql.htm
@@ -8,10 +8,10 @@ old-project: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeLowerIrql, kernel.kelowerirql, k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, wdm/KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeLowerIrql routine [Kernel-Mode Driver Architecture], kernel.kelowerirql, k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, wdm/KeLowerIrql, KeLowerIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# KeLowerIrql function
+# KeLowerIrql macro
 
 
 ## -description
@@ -69,22 +69,26 @@ The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its
 
 
 
-### -param NewIrql [in]
+### -param a
+
+TBD
+
+
+
+
+
+
+#### - NewIrql [in]
 
 Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
-
-
-## -returns
-
-
-None
-
 
 
 ## -remarks
 
 
+
 It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> that was not returned by the immediately preceding call to <b>KeRaiseIrql</b> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
+
 
 
 
@@ -92,9 +96,15 @@ It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> tha
 
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
-<a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
+
 
 <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
+
+
+
+<a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
+
+
 
  
 

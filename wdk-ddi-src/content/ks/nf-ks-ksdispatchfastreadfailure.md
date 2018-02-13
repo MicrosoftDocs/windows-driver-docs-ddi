@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDispatchFastReadFailure, stream.ksdispatchfastreadfailure, ks/KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml
+ms.keywords: stream.ksdispatchfastreadfailure, ks/KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, KsDispatchFastReadFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,13 +118,17 @@ Not used.
 ## -returns
 
 
+
 The <b>KsDispatchFastReadFailure</b> function returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsDispatchFastReadFailure</b> function is needed since the dispatch table for a particular opened instance of a device may not handle a specific major function that another opened instance needs to handle. Therefore, the function pointer in the driver object must always point to a function, such as the <b>KsDispatchFastReadFailure</b> function, that calls a dispatch table entry.
+
 
 

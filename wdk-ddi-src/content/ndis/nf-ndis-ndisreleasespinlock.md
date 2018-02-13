@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dd833373-2879-49f0-9b16-fddb2f7495c1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisReleaseSpinLock, netvista.ndisreleasespinlock, NdisReleaseSpinLock, ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml
+ms.keywords: NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml, NdisReleaseSpinLock, netvista.ndisreleasespinlock, ndis/NdisReleaseSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisReleaseSpinLock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisReleaseSpinLock macro
@@ -78,6 +78,7 @@ Pointer to the acquired spin lock to be released.
 ## -remarks
 
 
+
 A driver must initialize its spin lock with 
     <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> before it calls
     any other 
@@ -106,13 +107,20 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+
+
 
  
 

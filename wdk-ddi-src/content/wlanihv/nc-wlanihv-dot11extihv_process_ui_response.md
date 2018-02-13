@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvProcessUIResponse
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -98,13 +98,16 @@ A pointer to the buffer that contains the user data.
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extensions DLL can issue requests to the IHV UI Extensions DLL for interaction with the user,
@@ -132,11 +135,16 @@ After receiving this data from the IHV Extensions DLL, the operating system call
 
 
 
+
 ## -see-also
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+
+
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+
 
  
 

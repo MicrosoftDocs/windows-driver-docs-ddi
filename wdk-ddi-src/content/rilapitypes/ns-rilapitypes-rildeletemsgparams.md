@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 793e9724-fff0-4bdc-a8ed-1e62fa54b4df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILDELETEMSGPARAMS, rilapitypes/RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams_2, RILDELETEMSGPARAMS"
+ms.keywords: rilapitypes/RILDELETEMSGPARAMS, RILDELETEMSGPARAMS, *LPRILDELETEMSGPARAMS, netvista.rildeletemsgparams_2, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDELETEMSGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS"
+req.typenames: RILDELETEMSGPARAMS, *LPRILDELETEMSGPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILDELETEMSGPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwIndex
-
 

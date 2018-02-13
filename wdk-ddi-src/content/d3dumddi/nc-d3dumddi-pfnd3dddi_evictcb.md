@@ -83,6 +83,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
@@ -93,20 +95,26 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVIC
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 Once the eviction request is queued, it is illegal to access the underlying allocation as the allocation may be evicted at anytime from there on at the operating system discretion.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVICT</a>
+
+
 
  
 

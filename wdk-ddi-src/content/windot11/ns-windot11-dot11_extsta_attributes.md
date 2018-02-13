@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES, Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, windot11/DOT11_EXTSTA_ATTRIBUTES, netvista.dot11_extsta_attributes, DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
+ms.keywords: windot11/DOT11_EXTSTA_ATTRIBUTES, Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES, netvista.dot11_extsta_attributes, windot11/PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,13 +112,12 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
 
 This member must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.
+
 
 
 #### Revision
@@ -129,31 +128,38 @@ This member must be set to one of the following values according to the operatin
 
 
 
-These values determine how the operating system interprets the 
-       <b>bSafeModeImplemented</b> member.
 
 
-#### DOT11_EXTSTA_ATTRIBUTES_REVISION_1
+##### DOT11_EXTSTA_ATTRIBUTES_REVISION_1
 
 Windows Vista
 
 
-#### DOT11_EXTSTA_ATTRIBUTES_REVISION_2
+
+##### DOT11_EXTSTA_ATTRIBUTES_REVISION_2
 
 Windows Vista with Service Pack 1 (SP1) or later versions of the Windows operating
          systems
 
 
-#### DOT11_EXTSTA_ATTRIBUTES_REVISION_3
+
+##### DOT11_EXTSTA_ATTRIBUTES_REVISION_3
 
 Windows 8 or later versions of the Windows operating
          systems
+
+These values determine how the operating system interprets the 
+       <b>bSafeModeImplemented</b> member.
+
 
 
 #### Size
 
 This member must be set to 
        <b>sizeof</b>(<b>DOT11_EXTSTA_ATTRIBUTES</b>).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uScanSSIDListSize
@@ -241,6 +247,7 @@ The maximum length, in bytes, of a WEP cipher key supported by the 802.11 statio
 The following table lists the minimum and maximum key lengths, in bytes, for the various WEP cipher
      values defined through 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
+
 <table>
 <tr>
 <th>WEP cipher</th>
@@ -289,7 +296,8 @@ Any length supported by the 802.11 station
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field uPMKIDCacheSize
@@ -334,9 +342,11 @@ A set of flags that specify the quality of service (QoS) protocols that the NIC 
 
 
 
+
 #### DOT11_QOS_PROTOCOL_FLAG_WMM
 
 The NIC implements the 802.11 WMM QoS protocol.
+
 
 
 #### DOT11_QOS_PROTOCOL_FLAG_11E
@@ -353,9 +363,6 @@ The safe mode support capability of the NIC/miniport driver combination. The ope
 
 
 
-This member is used in conjunction with 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
-     OID_DOT11_SAFE_MODE_ENABLED</a>.
 
 
 #### Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_1
@@ -365,11 +372,13 @@ The operating system interprets the
        802.11 safe mode of operation. Otherwise, the value is <b>FALSE</b>.
 
 
+
 #### Revision = DOT11_EXTSTA_ATTRIBUTES_REVISION_2 or higher
 
 The operating system interprets the 
        <b>bSafeModeImplemented</b> member as a bit field with the following possible bit values set:
        
+
 <ul>
 <li>
 If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_OID_SUPPORTED</b> with no other bits set,
@@ -384,6 +393,10 @@ If the bit field is set to <b>DOT11_EXTSTA_ATTRIBUTES_SAFEMODE_CERTIFIED</b>, th
 
 </li>
 </ul>
+This member is used in conjunction with 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">
+     OID_DOT11_SAFE_MODE_ENABLED</a>.
+
 
 ### -field uNumSupportedCountryOrRegionStrings
 
@@ -595,7 +608,9 @@ A pointer to an array of authentication and cipher algorithm pair which the devi
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -612,45 +627,78 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
+
 ## -see-also
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
-   Mode</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
-   DOT11_COUNTRY_OR_REGION_STRING</a>
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
-   OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
+
+
+<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+   Mode</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
 
-<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+   OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+   DOT11_COUNTRY_OR_REGION_STRING</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 203be18a-b3c5-420b-bcd1-1134beb1c8bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismqueuedpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpc
+ms.keywords: ndis/NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, NdisMQueueDpc, netvista.ndismqueuedpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMQueueDpc
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMQueueDpc function
@@ -112,6 +112,7 @@ A pointer to a caller-specified context area. NDIS passes this pointer to the
 ## -returns
 
 
+
 <b>NdisMQueueDpc</b> returns a bitmap that indicates the target processors for which NDIS successfully
       scheduled a DPC. Each bit in the return value identifies a CPU. If NDIS sets bit 0, NDIS scheduled a DPC for CPU 0. If NDIS sets bit 1, NDIS scheduled a DPC
       for CPU 1, and so forth.
@@ -121,7 +122,9 @@ If the driver requested a DPC for a CPU, and NDIS indicates that it did not sche
 
 
 
+
 ## -remarks
+
 
 
 NDIS calls 
@@ -133,15 +136,24 @@ NDIS calls
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
 
  
 

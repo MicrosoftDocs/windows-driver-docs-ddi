@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetInformation method, IWDFIoRequest::SetInformation, IWDFIoRequest, IWDFIoRequest interface, SetInformation method, SetInformation, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, SetInformation method, IWDFIoRequest interface, wdf.iwdfiorequest_setinformation, umdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
+ms.keywords: UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, wudfddi/IWDFIoRequest::SetInformation, IWDFIoRequest interface, SetInformation method, wdf.iwdfiorequest_setinformation, IWDFIoRequest, SetInformation method, IWDFIoRequest interface, umdf.iwdfiorequest_setinformation, IWDFIoRequest::SetInformation, SetInformation, SetInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,13 +78,17 @@ A ULONG_PTR value that specifies the size of information to set for the request.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

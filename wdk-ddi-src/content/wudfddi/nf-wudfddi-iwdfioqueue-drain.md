@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, Drain method, Drain method, IWDFIoQueue interface, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, Drain method, wudfddi/IWDFIoQueue::Drain, Drain, IWDFIoQueue::Drain, wdf.iwdfioqueue_drain
+ms.keywords: Drain, umdf.iwdfioqueue_drain, Drain method, IWDFIoQueue, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, wdf.iwdfioqueue_drain, Drain method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::Drain, IWDFIoQueue interface, Drain method, IWDFIoQueue::Drain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,14 +78,18 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQ
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A driver should ensure that only one of the following methods is in progress at any given time: 
+
 <ul>
 <li>
 
@@ -103,19 +107,29 @@ A driver should ensure that only one of the following methods is in progress at 
 
 
 </li>
-</ul>For example, if the driver previously called <b>Drain</b>, it should wait for notification from the method of the interface that the <i>pDrainComplete</i> parameter points to before the driver calls either <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a> or <a href="https://msdn.microsoft.com/c7863713-850f-4516-aec5-9e851c36cf52">Purge</a>. Violating this rule results in termination of the host process.
+</ul>
+For example, if the driver previously called <b>Drain</b>, it should wait for notification from the method of the interface that the <i>pDrainComplete</i> parameter points to before the driver calls either <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a> or <a href="https://msdn.microsoft.com/c7863713-850f-4516-aec5-9e851c36cf52">Purge</a>. Violating this rule results in termination of the host process.
+
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
 
  
 

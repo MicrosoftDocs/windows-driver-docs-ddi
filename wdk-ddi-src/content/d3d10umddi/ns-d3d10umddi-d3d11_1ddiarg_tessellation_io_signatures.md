@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90b9cbba-6a8f-444e-b0eb-cfbabdd57dcf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11_1ddiarg_tessellation_io_signatures, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES
+ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], display.d3d11_1ddiarg_tessellation_io_signatures, d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,6 +82,11 @@ typedef struct D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES {
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the input part of a signature.
 
 
+### -field NumInputSignatureEntries
+
+[in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
+
+
 ### -field pOutputSignatureDeprecated
 
  
@@ -90,6 +95,11 @@ typedef struct D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES {
 ### -field pOutputSignature
 
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the output part of a signature.
+
+
+### -field NumOutputSignatureEntries
+
+[in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
 
 
 ### -field pPatchConstantSignatureDeprecated
@@ -102,22 +112,13 @@ typedef struct D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES {
 [in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a> structures for the signature patches.
 
 
-### -field NumInputSignatureEntries
-
-[in] The number of entries in the array that the <b>pInputSignature</b> member specifies.
-
-
-### -field NumOutputSignatureEntries
-
-[in] The number of entries in the array that the <b>pOutputSignature</b> member specifies.
-
-
 ### -field NumPatchConstantSignatureEntries
 
 [in] The number of entries in the array that the <b>pPatchConstantSignature</b> member specifies.
 
 
 ## -remarks
+
 
 
 A signature is basically the union of all registers that are input and output by any shader that shares the signature. Therefore, a signature might be a superset of what a given shader might actually input or output. 
@@ -130,9 +131,12 @@ The declarations within the shader code itself also show which registers are act
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_signature_entry.md">D3D11_1DDIARG_SIGNATURE_ENTRY</a>
+
+
 
  
 

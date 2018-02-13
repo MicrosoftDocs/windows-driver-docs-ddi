@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 510f8cda-922e-48de-b95e-daf972e906fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_createvertexshaderdecl, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], D3DDDIARG_CREATEVERTEXSHADERDECL, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, _D3DDDIARG_CREATEVERTEXSHADERDECL
+ms.keywords: "_D3DDDIARG_CREATEVERTEXSHADERDECL, display.d3dddiarg_createvertexshaderdecl, D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,19 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
 ## -remarks
 
 
+
 The handle value in the <b>ShaderHandle</b> member is guaranteed to be nonzero. 
 
 For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
+
+
 
  
 

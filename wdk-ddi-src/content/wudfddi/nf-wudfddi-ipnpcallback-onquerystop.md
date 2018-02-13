@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallback, OnQueryStop method, OnQueryStop method, IPnpCallback interface, IPnpCallback interface, OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop, umdf.ipnpcallback_onquerystop
+ms.keywords: umdf.ipnpcallback_onquerystop, IPnpCallback interface, OnQueryStop method, OnQueryStop, OnQueryStop method, IPnpCallback interface, wudfddi/IPnpCallback::OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, IPnpCallback, IPnpCallback::OnQueryStop, OnQueryStop method, wdf.ipnpcallback_onquerystop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,13 +78,16 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 If the driver determines that the device can be stopped, the <b>OnQueryStop</b> callback method must return S_OK or another status code for which SUCCEEDED(status) equals <b>TRUE</b>. Otherwise it must return a status code for which SUCCEEDED(status) equals <b>FALSE</b>.   HRESULT error codes are defined in Winerror.h. Do not return HRESULT_FROM_NT(STATUS_NOT_SUPPORTED).
 
 This method must use the HRESULT_FROM_NT macro to return a specific HRESULT value to  return status to a kernel-mode client. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-1-x-drivers">Supporting Kernel-mode Clients</a>.
 
 
 
+
 ## -remarks
+
 
 
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
@@ -97,13 +100,20 @@ For more information about the <b>OnQueryStop</b> callback method, see <a href="
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
 
  
 

@@ -80,8 +80,10 @@ A handle used by the NMR to represent the registration of the client module. The
 ## -returns
 
 
+
 The 
      <b>NmrWaitForClientDeregisterComplete</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A client module calls the 
@@ -156,9 +161,12 @@ A client module typically calls the
 
 
 
+
 ## -see-also
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
 
  
 

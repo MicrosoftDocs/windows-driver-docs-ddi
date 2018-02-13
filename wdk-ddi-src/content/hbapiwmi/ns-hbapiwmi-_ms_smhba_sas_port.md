@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d294d97a-e6b2-4ab3-bebf-e545aa2f862d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMS_SMHBA_SAS_Port structure pointer [Storage Devices], structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml, PMS_SMHBA_SAS_Port, hbapiwmi/MS_SMHBA_SAS_Port, storage.ms_smhba_sas_port, *PMS_SMHBA_SAS_Port, _MS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port structure [Storage Devices], hbapiwmi/PMS_SMHBA_SAS_Port
+ms.keywords: MS_SMHBA_SAS_Port structure [Storage Devices], *PMS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port structure pointer [Storage Devices], _MS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port, storage.ms_smhba_sas_port, hbapiwmi/PMS_SMHBA_SAS_Port, structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml, MS_SMHBA_SAS_Port, hbapiwmi/MS_SMHBA_SAS_Port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

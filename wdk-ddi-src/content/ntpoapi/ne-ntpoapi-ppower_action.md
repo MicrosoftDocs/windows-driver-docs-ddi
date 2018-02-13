@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PowerActionShutdownOff, POWER_ACTION enumeration, umdf.power_action, wudfddi/PowerActionReserved, wudfddi/PowerActionHibernate, PowerActionWarmEject, PowerActionNone, wudfddi/PowerActionNone, PowerActionShutdownReset, PowerActionHibernate, wudfddi/PowerActionShutdown, POWER_ACTION, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionShutdownOff, PowerActionReserved, *PPOWER_ACTION, wudfddi/POWER_ACTION, PPOWER_ACTION enumeration pointer, wudfddi/PowerActionWarmEject, wudfddi/PPOWER_ACTION, PPOWER_ACTION, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, PowerActionSleep, wudfddi/PowerActionSleep, wdf.power_action, PowerActionShutdown
+ms.keywords: wudfddi/PowerActionReserved, PPOWER_ACTION, PowerActionWarmEject, wudfddi/PowerActionWarmEject, POWER_ACTION enumeration, PowerActionShutdownReset, PowerActionShutdownOff, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, PowerActionReserved, wudfddi/PowerActionSleep, PowerActionNone, umdf.power_action, PowerActionShutdown, PowerActionHibernate, wudfddi/POWER_ACTION, PPOWER_ACTION enumeration pointer, wdf.power_action, wudfddi/PowerActionHibernate, *PPOWER_ACTION, wudfddi/PPOWER_ACTION, POWER_ACTION, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, PowerActionSleep, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -124,13 +124,17 @@ The computer is being ejected from an ACPI-compatible dock device. Typically, th
 ## -remarks
 
 
+
 The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
+
+
 
  
 

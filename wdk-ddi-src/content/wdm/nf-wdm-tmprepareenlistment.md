@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bd0dd4a-be27-4398-9bbd-129955ce310f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], wdm/TmPrepareEnlistment, TmPrepareEnlistment, ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, kernel.tmprepareenlistment
+ms.keywords: TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, TmPrepareEnlistment, kernel.tmprepareenlistment, wdm/TmPrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>TmPrepareEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,13 +136,16 @@ The caller does not have appropriate access to the enlistment object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmPrepareEnlistment</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a> routine.
@@ -151,19 +156,32 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+<a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
 
  
 

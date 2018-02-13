@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 430d982e-4740-46ad-8391-aba5813a833a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: TAPE_WMI_OPERATIONS structure [Storage Devices], ntddtape/PTAPE_WMI_OPERATIONS, ntddtape/TAPE_WMI_OPERATIONS, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml, storage.tape_wmi_operations, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], PTAPE_WMI_OPERATIONS, _TAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
+ms.keywords: TAPE_WMI_OPERATIONS structure [Storage Devices], _TAPE_WMI_OPERATIONS, storage.tape_wmi_operations, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], *PTAPE_WMI_OPERATIONS, ntddtape/TAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,17 +77,20 @@ Indicates the operation to be performed by the tape device. The operations allow
 
 
 
-
-
-
 #### TAPE_CHECK_FOR_DRIVE_PROBLEM
 
 If the tape drive supports commands to return specific device errors, such as tape alerts, the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a> routine should execute the TAPE_QUERY_DEVICE_ERROR_DATA method Otherwise, it should execute the TAPE_QUERY_IO_ERROR_DATA method.
 
 
+
+
+
 #### TAPE_QUERY_DEVICE_ERROR_DATA
 
 Returns specific device errors, such as tape alerts. Not all tape drives support this method.
+
+
+
 
 
 #### TAPE_QUERY_IO_ERROR_DATA
@@ -109,7 +112,11 @@ Pointer to a buffer in which the tape minidriver returns the results of the oper
 
 <a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
+
+
 
  
 

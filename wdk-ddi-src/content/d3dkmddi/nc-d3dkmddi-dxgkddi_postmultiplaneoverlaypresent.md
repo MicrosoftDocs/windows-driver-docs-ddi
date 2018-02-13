@@ -80,6 +80,8 @@ Identifies the adapter containing the overlay hardware.
 
 
 
+
+
 #### - pPostMultiPlaneOverlayPresent [in]
 
 A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the new overlay configuration recently committed.
@@ -88,7 +90,9 @@ A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the
 ## -returns
 
 
+
 DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,11 +109,14 @@ If the routine has been successfully completed. The driver should always return 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function is called from PASSIVE level.
@@ -119,5 +126,6 @@ This function is only called when driver sets PostPresentNeeded of DXGKCB_NOTIFY
 The driver can use this function to lower voltage levels, clocks, FIFO depths, or any other optimization that can save power.
 
 The driver should not spend significant amount of time in this call because the call blocks the main GPU scheduler thread and delay could lead to present glitches. Time intensive actions should be queued as separate work items by driver and handled in background. In this scenario, any conflicts between the queued item and hardware changes demanded by future pre/post calls should be managed by driver. 
+
 
 

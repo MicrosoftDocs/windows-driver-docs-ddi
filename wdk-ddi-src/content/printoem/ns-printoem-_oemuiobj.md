@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba9252ec-3aef-4e8c-a335-bde33686beae
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "_OEMUIOBJ, OEMUIOBJ, *POEMUIOBJ, print.oemuiobj, printoem/POEMUIOBJ, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, POEMUIOBJ, printoem/OEMUIOBJ, OEMUIOBJ structure [Print Devices], POEMUIOBJ structure pointer [Print Devices]"
+ms.keywords: "*POEMUIOBJ, POEMUIOBJ, printoem/POEMUIOBJ, printoem/OEMUIOBJ, POEMUIOBJ structure pointer [Print Devices], OEMUIOBJ structure [Print Devices], print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, _OEMUIOBJ, OEMUIOBJ, print.oemuiobj"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OEMUIOBJ
 product: Windows
 targetos: Windows
-req.typenames: "*POEMUIOBJ, OEMUIOBJ"
+req.typenames: OEMUIOBJ, *POEMUIOBJ
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,8 @@ Pointer to a an <a href="..\printoem\ns-printoem-_oemuiprocs.md">OEMUIPROCS</a> 
 ## -remarks
 
 
+
 User interface plug-ins do not need to reference an OEMUIOBJ structure's members. Plug-ins receive a pointer to this structure as input to their <a href="https://msdn.microsoft.com/library/windows/hardware/ff554162">IPrintOemUI::DeviceCapabilities</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554172">IPrintOemUI::DevQueryPrintEx</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554186">IPrintOemUI::QueryColorProfile</a> methods. Additionally, the OEMCUIPPARAM structure contains an OEMUIOBJ structure pointer. Plug-ins must supply the received pointer when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>.
+
 
 

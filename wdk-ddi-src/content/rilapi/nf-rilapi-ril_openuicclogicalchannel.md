@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e77d55d-62f5-450c-9d9a-41acfece84c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, RIL_OpenUiccLogicalChannel, rilapi/RIL_OpenUiccLogicalChannel
+ms.keywords: netvista.ril_openuicclogicalchannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], RIL_OpenUiccLogicalChannel, rilapi/RIL_OpenUiccLogicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,34 +79,29 @@ HRESULT  RIL_OpenUiccLogicalChannel(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param dwChannelGroup
-
 
 
 ### -param dwAppIdLength
 
 
-
 ### -param pbAppId
-
 
 
 ### -param dwSelectP2Arg
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

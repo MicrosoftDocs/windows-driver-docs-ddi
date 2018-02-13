@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetProperty method [Print Devices], IPrintPipelinePropertyBag interface, print.iprintpipelinepropertybag_getproperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, GetProperty, IPrintPipelinePropertyBag::GetProperty, GetProperty method [Print Devices], IPrintPipelinePropertyBag, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, IPrintPipelinePropertyBag interface [Print Devices], GetProperty method
+ms.keywords: GetProperty method [Print Devices], IPrintPipelinePropertyBag interface, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, GetProperty method [Print Devices], GetProperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, IPrintPipelinePropertyBag::GetProperty, IPrintPipelinePropertyBag interface [Print Devices], GetProperty method, IPrintPipelinePropertyBag, print.iprintpipelinepropertybag_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,8 @@ The <b>VARIANT</b> value to get from the property bag.
 ## -returns
 
 
+
 <code>GetProperty</code> returns an <b>HRESULT</b> value.
+
 
 

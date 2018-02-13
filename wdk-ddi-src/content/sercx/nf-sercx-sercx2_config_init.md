@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CONFIG_INIT, 2/SERCX2_CONFIG_INIT, serports.sercx2_config_init, SERCX2_CONFIG_INIT function [Serial Ports]
+ms.keywords: 2/SERCX2_CONFIG_INIT, serports.sercx2_config_init, SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ The value to load into the <b>EvtSerCx2PurgeFifos</b> member of the <b>SERCX2_CO
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a> method.
@@ -107,11 +110,16 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 
 
+
 ## -see-also
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
 
 <a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
 
  
 

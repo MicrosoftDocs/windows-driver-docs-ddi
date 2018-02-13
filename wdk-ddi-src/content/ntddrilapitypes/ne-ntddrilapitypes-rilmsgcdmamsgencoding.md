@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d0bc5fa4-d08d-484c-b6e0-35c7f1d144c3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_LATIN, RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_KOREAN, RILMSGCDMAMSGENCODING, ntddrilapitypes/RIL_MSGCODING_UNICODE, ntddrilapitypes/RIL_MSGCODING_MAX, RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_7BITASCII, RIL_MSGCODING_LATIN, RIL_MSGCODING_UNICODE, ntddrilapitypes/RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_8BITGSM, RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_OCTET, RIL_MSGCODING_IA5, ntddrilapitypes/RILMSGCDMAMSGENCODING, RIL_MSGCODING_KOREAN, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_7BITASCII, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_8BITGSM, netvista.rilmsgcdmamsgencoding, ntddrilapitypes/RIL_MSGCODING_7BITGSM, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW
+ms.keywords: RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_UNICODE, RIL_MSGCODING_KOREAN, RIL_MSGCODING_8BITGSM, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_KOREAN, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmamsgencoding, ntddrilapitypes/RIL_MSGCODING_7BITGSM, RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_7BITASCII, RILMSGCDMAMSGENCODING, ntddrilapitypes/RILMSGCDMAMSGENCODING, RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_LATIN, RIL_MSGCODING_7BITASCII, RIL_MSGCODING_UNICODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,47 +80,35 @@ typedef enum _RILMSGCDMAMSGENCODING {
 ### -field RIL_MSGCODING_UNKNOWN
 
 
-
 ### -field RIL_MSGCODING_7BITASCII
-
 
 
 ### -field RIL_MSGCODING_UNICODE
 
 
-
 ### -field RIL_MSGCODING_7BITGSM
-
 
 
 ### -field RIL_MSGCODING_8BITGSM
 
 
-
 ### -field RIL_MSGCODING_OCTET
-
 
 
 ### -field RIL_MSGCODING_IA5
 
 
-
 ### -field RIL_MSGCODING_JIS
-
 
 
 ### -field RIL_MSGCODING_KOREAN
 
 
-
 ### -field RIL_MSGCODING_LATIN_HEBREW
-
 
 
 ### -field RIL_MSGCODING_LATIN
 
 
-
 ### -field RIL_MSGCODING_MAX
-
 

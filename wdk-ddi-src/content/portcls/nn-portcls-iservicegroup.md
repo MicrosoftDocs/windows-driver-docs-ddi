@@ -7,7 +7,7 @@ old-location: audio\iservicegroup.htm
 old-project: audio
 ms.assetid: eef2741e-e1a3-471b-a756-d89990929738
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iservicegroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices], described, IServiceGroup, portcls/IServiceGroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,6 +100,15 @@ The <code>RequestDelayedService</code> method requests service after the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9CB0CE26-2F26-424E-9EF5-C6780F521E09">IServiceGroup::RequestService</a>
+</td>
+<td align="left" width="63%">
+TBD
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537004">IServiceGroup::SupportDelayedService</a>
 </td>
 <td align="left" width="63%">
@@ -114,6 +123,8 @@ The <code>CancelDelayedService</code> method cancels the previously requested de
 The <code>RemoveMember</code> method removes the specified member from the service group.
 
 The <code>RequestDelayedService</code> method requests service after the specified delay.
+
+TBD
 
 The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 38d0a655-265b-46e0-8af3-de6757025588
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, _D3DKMDT_VIDEO_SIGNAL_INFO, display.d3dkmdt_video_signal_info, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], D3DKMDT_VIDEO_SIGNAL_INFO
+ms.keywords: display.d3dkmdt_video_signal_info, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO, _D3DKMDT_VIDEO_SIGNAL_INFO, DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,40 +82,6 @@ typedef struct _D3DKMDT_VIDEO_SIGNAL_INFO {
 
 
 
-### -field AdditionalSignalInfo
-
-Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1 and later.
-
-
-### -field AdditionalSignalInfo.ScanLineOrdering
-
-A constant from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
-
-Supported starting with Windows 8.1.
-
-
-### -field AdditionalSignalInfo.VSyncFreqDivider
-
-The ratio of the VSync rate of a monitor that displays through a Miracast connected session to the VSync rate of the Miracast sink.
-
-To avoid visual artifacts, the VSync rate of the display monitor that's connected to the Miracast sink must be an integer multiple of the VSync rate of the Miracast sink. The display miniport driver reports the latter rate to the operating system as the refresh rate of the desktop present path.
-<div class="alert"><b>Note</b>  The operating system fails any attempt by the driver to add a target mode that results in a Miracast target having a VSync rate below 23.9 Hz.</div><div> </div>For a non-Miracast target, the driver should set <b>VSyncFreqDivider</b> to zero.
-
-Supported starting with Windows 8.1.
-
-
-### -field AdditionalSignalInfo.Reserved
-
-Reserved for system use. Do not use in your driver.
-
-Supported starting with Windows 8.1.
-
-
-### -field ScanLineOrdering
-
-A constant from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
-
-
 ### -field VideoStandard
 
 A constant from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumeration that indicates the video standard (if any) that defines the video signal.
@@ -146,11 +112,52 @@ A D3DDDI_RATIONAL structure that specifies the horizontal refresh rate in Hz.
 The pixel clock rate.
 
 
+### -field AdditionalSignalInfo
+
+Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1 and later.
+
+
+### -field AdditionalSignalInfo.ScanLineOrdering
+
+A constant from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
+
+Supported starting with Windows 8.1.
+
+
+### -field AdditionalSignalInfo.VSyncFreqDivider
+
+The ratio of the VSync rate of a monitor that displays through a Miracast connected session to the VSync rate of the Miracast sink.
+
+To avoid visual artifacts, the VSync rate of the display monitor that's connected to the Miracast sink must be an integer multiple of the VSync rate of the Miracast sink. The display miniport driver reports the latter rate to the operating system as the refresh rate of the desktop present path.
+
+<div class="alert"><b>Note</b>  The operating system fails any attempt by the driver to add a target mode that results in a Miracast target having a VSync rate below 23.9 Hz.</div>
+<div> </div>
+For a non-Miracast target, the driver should set <b>VSyncFreqDivider</b> to zero.
+
+Supported starting with Windows 8.1.
+
+
+### -field AdditionalSignalInfo.Reserved
+
+Reserved for system use. Do not use in your driver.
+
+Supported starting with Windows 8.1.
+
+
+### -field ScanLineOrdering
+
+A constant from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
+
+
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
 
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, wdf.wdfdevicereadfromhardware, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdfhwaccess/WdfDeviceReadFromHardware, wdfdevice/WdfDeviceReadFromHardware
+ms.keywords: WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware, PFN_WDFDEVICEREADFROMHARDWARE, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,30 +79,26 @@ SIZE_T WdfDeviceReadFromHardware(
 ### -param Device [in]
 
 
-
 ### -param Type [in]
-
 
 
 ### -param Size [in]
 
 
-
 ### -param TargetAddress [in]
-
 
 
 ### -param Buffer [out, optional]
 
 
-
 ### -param Count [in, optional]
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/19B472D0-D607-4874-ADB9-232C379B0DFD">ReadFromHardware</a>
+
+
 
  
 

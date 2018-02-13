@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 18ae8ec2-a9e9-40e2-8b11-93fd163a801d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_renderflags, _D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices], D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, d3dumddi/D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS
+ms.keywords: display.d3dddicb_renderflags, D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, _D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,9 +116,13 @@ A member in the union that is contained in D3DDDICB_RENDERFLAGS that can hold on
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_MOUNTMGR_QUERY_POINTS
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
 ---
 
 # IOCTL_MOUNTMGR_QUERY_POINTS IOCTL
@@ -86,21 +86,27 @@ The mount manager initializes a variable-length structure of type <a href="..\mo
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -124,6 +130,8 @@ If any of the three strings contained within any of the triples is aligned on an
 ## -see-also
 
 <a href="..\mountmgr\ns-mountmgr-_mountmgr_mount_points.md">MOUNTMGR_MOUNT_POINTS</a>
+
+
 
  
 

@@ -78,7 +78,9 @@ __checkReturn HRESULT APIENTRY Flush(
 ## -returns
 
 
+
 <i>Flush</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,11 +108,14 @@ Hardware commands were successfully flushed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Microsoft Direct3D runtime can call the user-mode display driver's <i>Flush</i> function at any time to notify the user-mode display driver to submit any outstanding hardware commands that are in the hardware command buffer to the display miniport driver. However, a call to <i>Flush</i> should never cause the user-mode display driver to submit invalid commands to the display miniport driver. 
@@ -119,11 +124,16 @@ To submit commands to the display miniport driver, the user-mode display driver'
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

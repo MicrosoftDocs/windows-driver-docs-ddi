@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_PAR_QUERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ---
 
 # IOCTL_PAR_QUERY_INFORMATION IOCTL
@@ -100,14 +100,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -127,9 +131,13 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 ## -see-also
 
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_location.md">IOCTL_PAR_QUERY_LOCATION</a>
+
+
+
 <a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_location.md">IOCTL_PAR_QUERY_LOCATION</a>
+
 
  
 

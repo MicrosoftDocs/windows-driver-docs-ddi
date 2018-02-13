@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6de3363c-fcf8-4350-acee-b401bb3f82a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_allocationusageinfo1, _DXGK_ALLOCATIONUSAGEINFO1, DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices], DXGK_ALLOCATIONUSAGEINFO1
+ms.keywords: DXGK_ALLOCATIONUSAGEINFO1, display.dxgk_allocationusageinfo1, DmStructs_262d3b0f-50c6-429b-9b6e-34963d2ae42b.xml, d3dkmddi/DXGK_ALLOCATIONUSAGEINFO1, DXGK_ALLOCATIONUSAGEINFO1 structure [Display Devices], _DXGK_ALLOCATIONUSAGEINFO1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -201,13 +201,21 @@ Specifies a member in the union contained in the <b>Flags</b> member that can ho
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusagehint.md">DXGK_ALLOCATIONUSAGEHINT</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
 
  
 

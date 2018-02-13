@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], display.dxgk_buildpagingbuffer_notifyresidency, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
+ms.keywords: display.dxgk_buildpagingbuffer_notifyresidency, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,16 +72,6 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY {
 
 
 
-### -field Resident
-
-Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
-
-
-### -field Reserved
-
-This member is not used and should be set to zero.
-
-
 ### -field hAllocation
 
 The kernel mode driver handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>.
@@ -92,7 +82,18 @@ The kernel mode driver handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxg
 The physical address of the allocation. The physical address (0, 0) is invalid and is used when the allocation is being evicted.  
 
 
+### -field Resident
+
+Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
+
+
+### -field Reserved
+
+This member is not used and should be set to zero.
+
+
 ## -remarks
+
 
 
 The paging operations is issued only for allocations, for which the kernel mode driver sets the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>::<b>ExplicitResidencyNotification</b> and <b>AccessedPhysically</b> flags.
@@ -107,11 +108,16 @@ Note that the <i>NotifyResidency</i> operation will be issued only once during a
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+
 
  
 

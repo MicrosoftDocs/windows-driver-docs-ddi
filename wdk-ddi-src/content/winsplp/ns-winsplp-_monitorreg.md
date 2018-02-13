@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 57c146bc-574f-4137-89bb-e891e005de05
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PMONITORREG structure pointer [Print Devices], winsplp/MONITORREG, *PMONITORREG, PMONITORREG, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/PMONITORREG, print.monitorreg, _MONITORREG, MONITORREG, MONITORREG structure [Print Devices]
+ms.keywords: winsplp/PMONITORREG, print.monitorreg, _MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], winsplp/MONITORREG, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, MONITORREG, *PMONITORREG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MONITORREG
 product: Windows
 targetos: Windows
-req.typenames: MONITORREG, *PMONITORREG
+req.typenames: "*PMONITORREG, MONITORREG"
 req.product: Windows 10 or later.
 ---
 
@@ -142,49 +142,41 @@ Size, in bytes, of the MONITORREG structure.
 ### -field fpCreateKey
 
 
-
 ### -field fpOpenKey
-
 
 
 ### -field fpCloseKey
 
 
-
 ### -field fpDeleteKey
-
 
 
 ### -field fpEnumKey
 
 
-
 ### -field fpQueryInfoKey
-
 
 
 ### -field fpSetValue
 
 
-
 ### -field fpDeleteValue
-
 
 
 ### -field fpEnumValue
 
 
-
 ### -field fpQueryValue
-
 
 
 ## -remarks
 
 
+
 The MONITORREG structure's address is supplied in a <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure, which is passed to a print monitor's <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a> function.
 
 When <a href="https://msdn.microsoft.com/b1c83729-d7d2-4920-9402-4e00baa12633">storing port configuration information</a>, print monitors must not explicitly call either the Win32 registry API or the cluster registry API. Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
+
 <table>
 <tr>
 <th>Spooler Registry Function</th>
@@ -290,9 +282,11 @@ When <a href="https://msdn.microsoft.com/b1c83729-d7d2-4920-9402-4e00baa12633">s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Input and output parameters for these spooler functions match the parameters of the equivalent cluster registry functions (described in the Microsoft Windows SDK documentation), with the following exceptions:
+
 <ul>
 <li>
 Each spooler registry function requires an <i>hSpooler</i> input parameter. This is the spooler handle received in the <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure.
@@ -305,11 +299,16 @@ The spooler registry functions use HANDLE and PHANDLE parameter types instead of
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
+
+
 
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
-<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_CALLBACKS3, d3dhal/LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], D3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3, display.d3dhal_callbacks3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, _D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices]
+ms.keywords: "*LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], display.d3dhal_callbacks3, d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, D3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], d3dhal/D3DHAL_CALLBACKS3, _D3DHAL_CALLBACKS3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DHAL_CALLBACKS3
 product: Windows
 targetos: Windows
-req.typenames: "*LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3"
+req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3
 ---
 
 # _D3DHAL_CALLBACKS3 structure
@@ -80,6 +80,7 @@ Specifies the size in bytes of this structure.
 ### -field dwFlags
 
 Indicates the callbacks associated with this structure that the driver has implemented. For every bit the driver sets in <b>dwFlags</b>, the driver must initialize the corresponding function pointer member of this structure. This member can be the bitwise-OR of one or more of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -125,7 +126,8 @@ The <b>ValidateTextureStageState</b> member points to a driver-implemented <a hr
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Clear2
@@ -151,21 +153,33 @@ Points to the driver-supplied <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitiv
 ## -remarks
 
 
+
 The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DCallbacks3 GUID.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
-
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
 D3DDP2OP_CLEAR
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
+
+
 
  
 

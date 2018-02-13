@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9715ff37-397b-4102-a363-443b8076f881
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportqueuedpc, video/VideoPortQueueDpc, VideoPortQueueDpc, VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, VideoPortQueueDpc function [Display Devices]
+ms.keywords: VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, VideoPortQueueDpc, display.videoportqueuedpc, VideoPortQueueDpc function [Display Devices], video/VideoPortQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,20 +88,26 @@ Pointer to the miniport driver-supplied context that will be passed to <i>Callba
 ## -returns
 
 
+
 <b>VideoPortQueueDpc</b> returns <b>TRUE</b> if the DPC is successfully queued, and <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 The deferred procedure is run when the IRQL on the current processor drops below DISPATCH_LEVEL. Callers of <b>VideoPortQueueDpc</b> must be running at IRQL &gt;= DISPATCH_LEVEL.
+
 
 
 
 ## -see-also
 
 <a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
+
+
 
  
 

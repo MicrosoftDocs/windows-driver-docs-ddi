@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PIO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, *PIO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK, _IO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], kernel.io_status_block, wdm/IO_STATUS_BLOCK, IO_STATUS_BLOCK
+ms.keywords: wdm/IO_STATUS_BLOCK, IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], *PIO_STATUS_BLOCK, kernel.io_status_block, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, PIO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_STATUS_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK"
+req.typenames: IO_STATUS_BLOCK, *PIO_STATUS_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,7 @@ This is set to a request-dependent value. For example, on successful completion 
 ## -remarks
 
 
+
 Unless a driver's dispatch routine completes an IRP with an error status value, the lowest-level driver in the chain frequently sets the IRP's I/O status block to the values that will be returned to the original requester of the I/O operation.
 
 The <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routines of higher-level drivers usually check the I/O status block in IRPs completed by lower drivers. By design, the I/O status block in an IRP is the only information passed back from the underlying device driver to all higher-level drivers' <i>IoCompletion</i> routines.
@@ -105,15 +106,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
 
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
 
  
 

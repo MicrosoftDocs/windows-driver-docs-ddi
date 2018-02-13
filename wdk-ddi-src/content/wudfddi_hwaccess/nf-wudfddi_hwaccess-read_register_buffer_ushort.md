@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0CA07C11-7E46-4225-AC61-5183C322604E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.read_register_buffer_ushort, umdf.read_register_buffer_ushort, wudfddi_hwaccess/READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT function
+ms.keywords: wudfddi_hwaccess/READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT function, READ_REGISTER_BUFFER_USHORT, umdf.read_register_buffer_ushort, wdf.read_register_buffer_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,13 +96,17 @@ Specifies the number of USHORT values to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

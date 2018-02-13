@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8725868e-00bc-45fe-ab9d-c192abd1a059
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortFreeCommonBuffer, video/VideoPortFreeCommonBuffer, VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, display.videoportfreecommonbuffer, VideoPortFreeCommonBuffer function [Display Devices]
+ms.keywords: VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, VideoPortFreeCommonBuffer function [Display Devices], video/VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer, display.videoportfreecommonbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,14 +102,18 @@ Indicates whether the allocated memory is cached.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Except for <a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer's </a><i>Alignment</i> parameter, all of the parameters used in a call to <b>VideoPortFreeCommonBuffer</b> must have the same values as those used in the previous call to <b>VideoPortGetCommonBuffer</b>.
+
 
 
 
@@ -117,7 +121,11 @@ Except for <a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetC
 
 <a href="..\video\nf-video-videoportreleasecommonbuffer.md">VideoPortReleaseCommonBuffer</a>
 
+
+
 <a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d311a030-e24c-427c-8a52-0c67d4fac653
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, dbgeng/IDebugControl2::GetEventFilterText, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl2::GetEventFilterText, IDebugControl::GetEventFilterText, IDebugControl3::GetEventFilterText, debugger.geteventfiltertext, dbgeng/IDebugControl::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl interface, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, IDebugControl3, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetEventFilterText method
+ms.keywords: IDebugControl2::GetEventFilterText, IDebugControl interface [Windows Debugging], GetEventFilterText method, IDebugControl2, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl3::GetEventFilterText, GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, IDebugControl3, IDebugControl::GetEventFilterText, IDebugControl, GetEventFilterText method [Windows Debugging], IDebugControl interface, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetEventFilterText, dbgeng/IDebugControl2::GetEventFilterText, debugger.geteventfiltertext, dbgeng/IDebugControl3::GetEventFilterText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,7 +95,9 @@ Receives the size of the event description.  If <i>TextSize</i> is <b>NULL</b>, 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,14 +125,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">event filters</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
 
 
 
@@ -138,13 +144,23 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

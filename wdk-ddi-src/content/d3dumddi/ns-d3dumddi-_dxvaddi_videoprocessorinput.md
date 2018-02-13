@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 539d32a5-4566-4b8e-b9de-da8d5be3c2f2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VIDEOPROCESSORINPUT, _DXVADDI_VIDEOPROCESSORINPUT, DXVA2_Structs_87cc7918-2fb5-4b73-a62c-ab9a3817c154.xml, DXVADDI_VIDEOPROCESSORINPUT structure [Display Devices], display.dxvaddi_videoprocessorinput, d3dumddi/DXVADDI_VIDEOPROCESSORINPUT
+ms.keywords: d3dumddi/DXVADDI_VIDEOPROCESSORINPUT, DXVADDI_VIDEOPROCESSORINPUT structure [Display Devices], DXVADDI_VIDEOPROCESSORINPUT, DXVA2_Structs_87cc7918-2fb5-4b73-a62c-ab9a3817c154.xml, display.dxvaddi_videoprocessorinput, _DXVADDI_VIDEOPROCESSORINPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,23 +87,37 @@ typedef struct _DXVADDI_VIDEOPROCESSORINPUT {
 ## -remarks
 
 
+
 When the D3DDDICAPS_GETVIDEOPROCESSORRTFORMATCOUNT, D3DDDICAPS_GETVIDEOPROCESSORRTFORMATS, D3DDDICAPS_GETVIDEOPROCESSORRTSUBSTREAMFORMATCOUNT, or D3DDDICAPS_GETVIDEOPROCESSORRTSUBSTREAMFORMATS <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>-type value is sent in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function, the driver ignores the <b>RenderTargetFormat</b> member of DXVADDI_VIDEOPROCESSORINPUT.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessorcaps.md">DXVADDI_VIDEOPROCESSORCAPS</a>
+
+
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks, debugger.idebugeventcallbacks_systemerror, SystemError method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], SystemError method, IDebugEventCallbacks::SystemError, SystemError, SystemError method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::SystemError
+ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, debugger.idebugeventcallbacks_systemerror, IDebugEventCallbacks::SystemError, dbgeng/IDebugEventCallbacks::SystemError, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SystemError method, SystemError method [Windows Debugging], SystemError, SystemError method [Windows Debugging], IDebugEventCallbacks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,15 +81,19 @@ Specifies the severity of the error.
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 
 
 ## -remarks
 
 
+
 This method is only called by the engine if the DEBUG_EVENT_SYSTEM_ERROR flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

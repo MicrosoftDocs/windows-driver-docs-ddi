@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapIoSpace, k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, MmMapIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmmapiospace, wdm/MmMapIoSpace
+ms.keywords: k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, MmMapIoSpace, kernel.mmmapiospace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], wdm/MmMapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE<
 ## -returns
 
 
+
 <b>MmMapIoSpace</b> returns the base virtual address that maps the base physical address for the range. If space for mapping the range is insufficient, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 A driver must call this routine during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MmMapIoSpace</b> maps the physical address returned in the resource list to a logical address through which the driver can access device registers.
@@ -103,15 +106,24 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
-
-<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
 <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5ec2e981-87ee-4ebe-ae60-c5acae2c073e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfacesIfExist method, GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface, wdtf/IWDTFTargets2::GetInterfacesIfExist, IWDTFTargets2, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, IWDTFTargets2::GetInterfacesIfExist
+ms.keywords: dtf.iwdtftargets2_getinterfacesifexist, IWDTFTargets2, IWDTFTargets2::GetInterfacesIfExist, wdtf/IWDTFTargets2::GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface, GetInterfacesIfExist, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfacesIfExist method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,20 +111,26 @@ The WDTF ProgID of the requested interface.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 This method will succeed even if one or more of the collection members do not return an action.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

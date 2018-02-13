@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], stream.kscreatetopologynode, ks/KsCreateTopologyNode
+ms.keywords: KsCreateTopologyNode, ks/KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, stream.kscreatetopologynode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,14 +94,18 @@ Location for the topology node handle.
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b>, or an error if unable to create a node. 
+
 
 
 
 ## -remarks
 
 
+
 The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
+
 
 
 
@@ -109,7 +113,11 @@ The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
+
+
 <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
+
+
 
  
 

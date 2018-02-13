@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_complete, wudfddi/IWDFIoRequest::Complete, Complete, IWDFIoRequest, Complete method, IWDFIoRequest interface, Complete method, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, umdf.iwdfiorequest_complete, IWDFIoRequest::Complete, IWDFIoRequest interface, Complete method
+ms.keywords: Complete, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, IWDFIoRequest::Complete, Complete method, Complete method, IWDFIoRequest interface, IWDFIoRequest interface, Complete method, wdf.iwdfiorequest_complete, umdf.iwdfiorequest_complete, IWDFIoRequest, wudfddi/IWDFIoRequest::Complete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ A status value to complete the request with.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Instead of calling <b>Complete</b>, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a> method.
@@ -90,12 +93,39 @@ Instead of calling <b>Complete</b>, the driver can call the <a href="https://msd
 For more information about completing an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
+#### Examples
+
+The following code example completes a request with the failure that occurred when a memory object could not be retrieved.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    IWDFIoRequest* FxRequest;
+    HRESULT hr = S_OK;
+    IWDFMemory* FxInputMemory = NULL;
+ 
+    FxRequest-&gt;GetInputMemory(&amp;FxInputMemory);
+    if (S_OK != hr) {
+        FxRequest-&gt;Complete(hr);
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3008a69e-25d8-4e54-afb3-317a8ca82d34
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgpprejectcause, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE, ntddrilapitypes/RILGPPREJECTCAUSE
+ms.keywords: RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], *LPRILGPPREJECTCAUSE, netvista.rilgpprejectcause, RILGPPREJECTCAUSE, ntddrilapitypes/RILGPPREJECTCAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,5 +68,4 @@ typedef struct _RILGPPREJECTCAUSE {
 
 
 ### -field dwCauseValue
-
 

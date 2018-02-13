@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e204db-f8fc-42e7-9a1b-f08099147ce7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBINTERFACEGETENDPOINTINFORMATION, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, kmdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation, wdf.wdfusbinterfacegetendpointinformation
+ms.keywords: kmdf.wdfusbinterfacegetendpointinformation, PFN_WDFUSBINTERFACEGETENDPOINTINFORMATION, wdf.wdfusbinterfacegetendpointinformation, WdfUsbInterfaceGetEndpointInformation method, DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, wdfusb/WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbInterfaceGetEndpointInformation
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -99,6 +99,7 @@ A pointer to a caller-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_infor
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -107,10 +108,50 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfUsbInterfaceGetEndpointInformation</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example obtains the number of endpoints that a USB interface supports and then calls <b>WdfUsbInterfaceGetEndpointInformation</b> for each endpoint.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_USB_PIPE_INFORMATION endPointInfo;
+BYTE settingIndex, i;
+
+settingIndex = 0;
+numEndpoints = WdfUsbInterfaceGetNumEndpoints(
+                                          UsbInterface,
+                                          settingIndex
+                                          );
+
+for (i = 0; i &lt; numEndpoints; i++){
+    WDF_USB_PIPE_INFORMATION_INIT(&amp;endPointInfo);
+    WdfUsbInterfaceGetEndpointInformation(
+                                          UsbInterface,
+                                          settingIndex,
+                                          i,
+                                          &amp;endPointInfo
+                                          );
+
+    //
+    // Examine endpoint information here.
+    //
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -118,9 +159,15 @@ For more information about the <b>WdfUsbInterfaceGetEndpointInformation</b> meth
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumendpoints.md">WdfUsbInterfaceGetNumEndpoints</a>
 
+
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A0EB188E-D5C7-4C7B-A462-2C3792825FD8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactioncancel, WdfDmaTransactionCancel, WdfDmaTransactionCancel method, PFN_WDFDMATRANSACTIONCANCEL, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
+ms.keywords: kmdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel, PFN_WDFDMATRANSACTIONCANCEL, WdfDmaTransactionCancel, WdfDmaTransactionCancel method, wdf.wdfdmatransactioncancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionCancel
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A handle to the DMA transaction object that represents the transaction that is b
 ## -returns
 
 
+
 <b>WdfDmaTransactionCancel</b> returns TRUE if the framework successfully cancels map register allocation.  In this case, no transfers are completed, and the framework makes no additional DMA callbacks on the transaction until it is reinitiated.
 
  The method returns FALSE if another thread is already processing this transaction, or if the driver has not yet called <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>.  In the first case, the framework is currently calling or will call <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> or <a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md">EvtReserveDma</a>. At this point, a driver that specified a system-mode DMA profile might call <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionstopsystemtransfer.md">WdfDmaTransactionStopSystemTransfer</a>.
@@ -87,7 +88,9 @@ The method also returns FALSE if called with a transaction that was allocated fr
 
 
 
+
 ## -remarks
+
 
 
 The driver might call <b>WdfDmaTransactionCancel</b> from an <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> event callback function that it supplies in a call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>. For a code example that shows how to do this, see <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionstopsystemtransfer.md">WdfDmaTransactionStopSystemTransfer</a>.
@@ -109,13 +112,20 @@ A driver must request use of DMA version 3 prior to calling  <b>WdfDmaTransactio
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+<a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md">EvtReserveDma</a>
+
+
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionstopsystemtransfer.md">WdfDmaTransactionStopSystemTransfer</a>
 
-<a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_reserve_dma.md">EvtReserveDma</a>
+
+
+<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fac29ced-7acc-4c2a-ac8a-171b8dd1d45e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, PFN_WDFPDORETRIEVEIDENTIFICATIONDESCRIPTION, WdfPdoRetrieveIdentificationDescription method, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription, kmdf.wdfpdoretrieveidentificationdescription
+ms.keywords: WdfPdoRetrieveIdentificationDescription method, DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, kmdf.wdfpdoretrieveidentificationdescription, wdf.wdfpdoretrieveidentificationdescription, WdfPdoRetrieveIdentificationDescription, wdfpdo/WdfPdoRetrieveIdentificationDescription, PFN_WDFPDORETRIEVEIDENTIFICATIONDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a caller-allocated buffer that will receive the identification desc
 ## -returns
 
 
+
 If the operation succeeds, the function returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,7 +116,8 @@ The <i>Device</i> handle does not represent a device that was <a href="https://d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other<a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505"> NTSTATUS values</a>.
 
@@ -122,11 +125,16 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveaddressdescription.md">WdfPdoRetrieveAddressDescription</a>
+
+
 
  
 

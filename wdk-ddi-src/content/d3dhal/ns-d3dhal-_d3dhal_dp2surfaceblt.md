@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0720635c-77a2-4391-ba75-b276c0d457d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], *LPD3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT, d3dhal/D3DHAL_DP2SURFACEBLT, _D3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT, d3dhal/LPD3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT structure [Display Devices], display.d3dhal_dp2surfaceblt, d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml
+ms.keywords: d3dhal/D3DHAL_DP2SURFACEBLT, D3DHAL_DP2SURFACEBLT structure [Display Devices], *LPD3DHAL_DP2SURFACEBLT, d3dstrct_705cb760-39d7-4953-b249-0b9a9358f0df.xml, d3dhal/LPD3DHAL_DP2SURFACEBLT, display.d3dhal_dp2surfaceblt, _D3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT, LPD3DHAL_DP2SURFACEBLT structure pointer [Display Devices], D3DHAL_DP2SURFACEBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,9 +115,11 @@ Unused
 ## -remarks
 
 
+
 The D3DDP2OP_SURFACEBLT operation code is identical to the D3DDP2OP_BLT operation code except that D3DDP2OP_SURFACEBLT is only used to copy system memory to video memory and is never used for stretch blts or color conversion. Because D3DDP2OP_SURFACEBLT is not used for stretch blts, no flags are currently defined.
 
 The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the top-level surface and the <b>dwSourceMipLevel</b> or <b>dwDestMiplevel</b> member specifies the sublevel for the MIP-map chain where the blt occurs.
+
 
 
 
@@ -125,11 +127,19 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 D3DDP2OP_BLT
 
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
 
 D3DDP2OP_SURFACEBLT
 
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 

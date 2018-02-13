@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 18d248d9-d447-4d3e-9eaa-f6befb4bef58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgErrorHr function [Imaging Devices], image.wiaudbgerrorhr, wiauDbgErrorHr, wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
+ms.keywords: wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiauDbgErrorHr, wiautil/wiauDbgErrorHr, image.wiaudbgerrorhr, wiauDbgErrorHr function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,6 +91,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. 
@@ -99,14 +100,18 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or debugger, or both. The first line contains the text of the <i>fmt</i> parameter, including data, if provided. The second line contains the HRESULT and the message string associated with that HRESULT. The following example shows how this function might be called:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -119,15 +124,24 @@ The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or 
 </table></span></div>
 
 
+
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+
 
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
 
  
 

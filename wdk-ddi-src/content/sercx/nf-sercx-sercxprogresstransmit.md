@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxProgressTransmit method [Serial Ports], serports.sercxprogresstransmit, SerCxProgressTransmit, 1/SerCxProgressTransmit
+ms.keywords: 1/SerCxProgressTransmit, serports.sercxprogresstransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,16 +83,22 @@ The number of bytes of data that the caller copied from the transmit buffer that
 ### -param TransmitStatus [in]
 
 The current status of the transmit operation. Set this parameter to one of the following values:
+
 <ul>
 <li><b>SerCxStatusSuccess</b></li>
 <li><b>SerCxStatusCancelled</b></li>
-</ul>For more information about these values, see <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>.
-<div class="alert"><b>Note</b>  The <b>SerCxStatusTimeout</b> value is valid only for receive operations. No interval time-out can be specified for a transmit operation. For more information, see <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>.</div><div> </div>
+</ul>
+For more information about these values, see <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>.
+
+<div class="alert"><b>Note</b>  The <b>SerCxStatusTimeout</b> value is valid only for receive operations. No interval time-out can be specified for a transmit operation. For more information, see <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>.</div>
+<div> </div>
 
 ## -returns
 
 
+
 <b>SerCxProgressTransmit</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,11 +137,14 @@ The transmit operation has already been canceled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The serial controller driver calls this method to report progress on an outstanding write operation. Typically, the serial controller driver calls this method from its DMA completion callback (if the driver uses DMA to read the data) or from its transmit/receive DPC function (if PIO is used).
@@ -144,13 +153,20 @@ If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work 
 
 
 
+
 ## -see-also
+
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
 
 <a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
 
+
+
 <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltwritefileex.htm
 old-project: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltWriteFileEx function [Installable File System Drivers], FltWriteFileEx, ifsk.fltwritefileex, fltkernel/FltWriteFileEx
+ms.date: 2/7/2018
+ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], ifsk.fltwritefileex, fltkernel/FltWriteFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,6 +118,7 @@ If an MDL is provided in <i>Mdl</i>, <i>Buffer</i> must be NULL.
 ### -param Flags [in]
 
 A bitmask of flags that specify the type of write operation to be performed. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -165,7 +166,8 @@ This flag is available starting with Windows Vista.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param BytesWritten [out, optional]
@@ -196,11 +198,14 @@ An optional MDL that describes the data to write. If a buffer is provided in <i>
 ## -returns
 
 
+
 <b>FltWriteFileEx</b> returns the NTSTATUS value that was returned by the file system. 
 
 
 
+
 ## -remarks
+
 
 
 A minifilter driver calls <b>FltWriteFileEx</b> to write data to an open file. 
@@ -208,6 +213,7 @@ A minifilter driver calls <b>FltWriteFileEx</b> to write data to an open file.
 <b>FltWriteFileEx</b> causes a write request to be sent to the minifilter driver instances attached below the initiating instance and to the file system. The specified instance and the instances attached above it do not receive the write request. 
 
 <b>FltWriteFileEx</b> performs noncached I/O if either of the following is true: 
+
 <ul>
 <li>
 The caller set the <b>FLTFL_IO_OPERATION_NON_CACHED</b> flag in the <i>Flags</i> parameter. 
@@ -217,7 +223,9 @@ The caller set the <b>FLTFL_IO_OPERATION_NON_CACHED</b> flag in the <i>Flags</i>
 The file object was opened for noncached I/O. Usually, this is done by specifying the <b>FILE_NO_INTERMEDIATE_BUFFERING</b><b>CreateOptions</b> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
 
 </li>
-</ul>Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltWriteFileEx</b>: 
+</ul>
+Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltWriteFileEx</b>: 
+
 <ul>
 <li>
 The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
@@ -231,7 +239,8 @@ The byte offset that the <i>ByteOffset</i> parameter points to must be a nonnega
 The length specified in the <i>Length</i> parameter must be a nonnegative multiple of the volume's sector size. 
 
 </li>
-</ul>If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the write operation is performed asynchronously. 
+</ul>
+If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the write operation is performed asynchronously. 
 
 If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the write operation is performed synchronously. That is, <b>FltWriteFileEx</b> waits until the write operation is complete before returning. This is true even if the file object that <i>FileObject</i> points to was opened for asynchronous I/O. 
 
@@ -241,27 +250,44 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfileex.md">FltReadFileEx</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreadfileex.md">FltReadFileEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltWriteFileEx function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltWriteFileEx function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue interface, Stop method, IWDFIoQueue, Stop method, IWDFIoQueue::Stop, umdf.iwdfioqueue_stop, Stop, Stop method, IWDFIoQueue interface, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, wudfddi/IWDFIoQueue::Stop, wdf.iwdfioqueue_stop
+ms.keywords: UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, wudfddi/IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, umdf.iwdfioqueue_stop, Stop method, IWDFIoQueue, Stop, IWDFIoQueue::Stop, Stop method, IWDFIoQueue interface, wdf.iwdfioqueue_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,16 +78,20 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQ
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>Stop</b> is asynchronous and immediately returns to the driver. The driver is notified through the method of the supplied <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface after all outstanding requests in the driver complete.
 
 The driver should ensure that only one of the following methods is in progress at any given time: 
+
 <ul>
 <li>
 <b>IWDFIoQueue::Stop</b>
@@ -105,9 +109,11 @@ The driver should ensure that only one of the following methods is in progress a
 
 
 </li>
-</ul>For example, if the driver previously called <b>Stop</b>, it should wait for notification from the method of the interface that the <i>pStopComplete</i> parameter points to before the driver calls either <a href="https://msdn.microsoft.com/0356e8a7-de44-4b0f-9067-ca3bb04260d8">Drain</a> or <a href="https://msdn.microsoft.com/c7863713-850f-4516-aec5-9e851c36cf52">Purge</a>. Violating this rule results in termination of the host process.
+</ul>
+For example, if the driver previously called <b>Stop</b>, it should wait for notification from the method of the interface that the <i>pStopComplete</i> parameter points to before the driver calls either <a href="https://msdn.microsoft.com/0356e8a7-de44-4b0f-9067-ca3bb04260d8">Drain</a> or <a href="https://msdn.microsoft.com/c7863713-850f-4516-aec5-9e851c36cf52">Purge</a>. Violating this rule results in termination of the host process.
 
 The <b>Stop</b> method enables the queue to receive new requests, even if the queue was not receiving new requests before the driver called <b>Stop</b>. For example, a driver might call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>, which causes the framework to stop adding new I/O requests to the queue. The driver's subsequent call of <b>Stop</b> causes the framework to resume adding requests to the queue.
+
 
 
 
@@ -115,11 +121,19 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
 
  
 

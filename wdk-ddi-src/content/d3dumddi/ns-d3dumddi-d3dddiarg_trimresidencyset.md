@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DEF219B9-115A-4B61-8014-266730CEBD30
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], display.d3dddiarg_trimresidencyset, D3DDDIARG_TRIMRESIDENCYSET, d3dumddi/D3DDDIARG_TRIMRESIDENCYSET
+ms.keywords: display.d3dddiarg_trimresidencyset, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ When <b>TrimToBudget</b> is set, this value specifies how much the application s
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
+
+
 
  
 

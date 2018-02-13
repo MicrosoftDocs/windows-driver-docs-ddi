@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscmdispatchincomingdropparty, NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty
+ms.keywords: NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty, ndis/NdisCmDispatchIncomingDropParty, condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmDispatchIncomingDropParty
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmDispatchIncomingDropParty function
@@ -101,11 +101,14 @@ Specifies the size in bytes of the buffer, zero if
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In the course of normal network operations, a stand-alone call manager's 
@@ -140,20 +143,31 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
    NdisMCmDispatchIncomingDropParty</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
    ProtocolCoReceiveNetBufferLists</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
    NdisCmDispatchIncomingCloseCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
 
  
 

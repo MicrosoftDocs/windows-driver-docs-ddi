@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cebef749-f7f1-4a33-81fd-1d42da7afafe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, rilapi/RIL_GetUiccServiceLock, RIL_GetUiccServiceLock
+ms.keywords: RIL_GetUiccServiceLock, rilapi/RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetUiccServiceLock(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpService
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

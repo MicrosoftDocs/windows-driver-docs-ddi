@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 515eed09-d386-4908-9d76-4e64930af5ab
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml, GetOption method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper::GetOption, prcomoem/IPrintCoreHelper::GetOption, GetOption, GetOption method [Print Devices], IPrintCoreHelper interface [Print Devices], GetOption method, IPrintCoreHelper, print.iprintcorehelper_getoption
+ms.keywords: IPrintCoreHelper::GetOption, print.iprintcorehelper_getoption, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], GetOption method, GetOption method [Print Devices], IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::GetOption, GetOption, print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml, GetOption method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelper.GetOption
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ A pointer to a variable that contains the address of an ANSI string. When <b>IPr
 ## -returns
 
 
+
 <b>IPrintCoreHelper::GetOption</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,11 +157,14 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IPrintCoreHelper::GetOption</b> cannot be used for features that allow multiple options to be set simultaneously. 
@@ -170,11 +175,16 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552963">IPrintCoreHelper::SetOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
+
+
 
  
 

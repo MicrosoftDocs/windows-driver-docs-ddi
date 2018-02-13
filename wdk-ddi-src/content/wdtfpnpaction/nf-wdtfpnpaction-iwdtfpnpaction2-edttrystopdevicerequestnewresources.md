@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 19d3a72c-f7a5-483c-9fd1-5853c0a3e906
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method, EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], IWDTFPNPAction2 interface, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2, IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpaction2_edttrystopdevicerequestnewresources
+ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpaction2_edttrystopdevicerequestnewresources, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2, IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,15 +77,20 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8fc225af-09d4-42a0-a862-4af89addd5f8">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
-method must be called for the target device before calling this method.</div><div> </div>Similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451077">EDTTryStopDevice</a> method, 
+method must be called for the target device before calling this method.</div>
+<div> </div>
+Similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451077">EDTTryStopDevice</a> method, 
 <b>EDTTryStopDeviceRequestNewResources</b> attempts to trigger a PnP resource 
 rebalance (e.g. IRP_MN_STOP_DEVICE) on the target device stack, with the addition that the method 
 attempts to force the device onto a new set of hardware resources.
@@ -103,9 +108,12 @@ run this method on the parent USB controller instead.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

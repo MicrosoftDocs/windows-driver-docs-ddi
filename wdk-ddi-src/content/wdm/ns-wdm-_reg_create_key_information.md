@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5609a2c4-71db-432a-8a39-e407130a6e4c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PREG_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_create_key_information, _REG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION, kstruct_d_08c0de2c-94fb-4c4f-888c-e3485f213224.xml, PREG_OPEN_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_CREATE_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION, wdm/PREG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, wdm/REG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_CREATE_KEY_INFORMATION, wdm/REG_OPEN_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION
+ms.keywords: kernel.reg_create_key_information, PREG_OPEN_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_OPEN_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, kstruct_d_08c0de2c-94fb-4c4f-888c-e3485f213224.xml, wdm/PREG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION, wdm/PREG_OPEN_KEY_INFORMATION, wdm/REG_CREATE_KEY_INFORMATION, _REG_CREATE_KEY_INFORMATION, wdm/REG_OPEN_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_CREATE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: REG_OPEN_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION
+req.typenames: "*PREG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -162,6 +162,7 @@ In versions of Windows before Windows Vista, this member is always 0.
 ## -remarks
 
 
+
 The configuration manager passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to create a key—for example, when a user-mode thread calls <b>RegCreateKey</b> or <b>RegCreateKeyEx</b> or when a driver calls <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
 
 If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS for a <b>RegNtPreCreateKeyEx</b> notification, the driver must supply the <b>GrantedAccess</b>, <b>Disposition</b>, and <b>ResultObject</b> values.
@@ -170,19 +171,32 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_reg_post_operation_information.md">REG_POST_OPERATION_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
 
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\ns-wdm-_reg_post_operation_information.md">REG_POST_OPERATION_INFORMATION</a>
+
+
 
  
 

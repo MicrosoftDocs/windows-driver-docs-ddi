@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_numberofentries.htm
 old-project: audio
 ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList, audio.iresourcelist_numberofentries, NumberOfEntries method [Audio Devices], IResourceList interface [Audio Devices], NumberOfEntries method, portcls/IResourceList::NumberOfEntries, IResourceList::NumberOfEntries, NumberOfEntries, NumberOfEntries method [Audio Devices], IResourceList interface
+ms.date: 2/8/2018
+ms.keywords: audio.iresourcelist_numberofentries, NumberOfEntries, IResourceList, NumberOfEntries method [Audio Devices], IResourceList interface, NumberOfEntries method [Audio Devices], IResourceList::NumberOfEntries, IResourceList interface [Audio Devices], NumberOfEntries method, portcls/IResourceList::NumberOfEntries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,13 +68,15 @@ ULONG NumberOfEntries(
 
 
 
-#### - None
 
+#### - None
 
 
 ## -returns
 
 
+
 <code>NumberOfEntries</code> returns the number of items in the resource list.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E47C3DA7-C9DD-47C6-A652-05D85989C85F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntToUChar, RtlUIntToUChar function [Kernel-Mode Driver Architecture], kernel.rtluinttouchar, ntintsafe/RtlUIntToUChar
+ms.keywords: kernel.rtluinttouchar, RtlUIntToUChar, RtlUIntToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUInt32ToChar
 </li>
 </ul>
+
 

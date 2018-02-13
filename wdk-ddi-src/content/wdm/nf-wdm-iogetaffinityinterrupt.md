@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aec1ace6-9945-4e7a-b0f6-81591670ecfe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoGetAffinityInterrupt, IoGetAffinityInterrupt, kernel.iogetaffinityinterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, wdm/WdmlibIoGetAffinityInterrupt, wdm/IoGetAffinityInterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture]
+ms.keywords: WdmlibIoGetAffinityInterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture], IoGetAffinityInterrupt, wdm/WdmlibIoGetAffinityInterrupt, kernel.iogetaffinityinterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, wdm/IoGetAffinityInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,17 @@ For more information, see the <a href="..\iointex\nf-iointex-wdmlibiogetaffinity
 ## -returns
 
 
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibiogetaffinityinterrupt.md">WdmlibIoGetAffinityInterrupt</a> function.
+
 
 
 
 ## -see-also
 
 <a href="..\iointex\nf-iointex-wdmlibiogetaffinityinterrupt.md">WdmlibIoGetAffinityInterrupt</a>
+
+
 
  
 

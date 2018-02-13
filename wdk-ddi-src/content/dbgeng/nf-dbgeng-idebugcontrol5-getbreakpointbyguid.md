@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl5, GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], dbgeng/IDebugControl5::GetBreakpointByGuid, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, debugger.idebugcontrol5_getbreakpointbyguid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface
+ms.keywords: GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid, IDebugControl5, IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, dbgeng/IDebugControl5::GetBreakpointByGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,9 @@ Receives the breakpoint.
 ## -returns
 
 
+
 This method can also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,7 +111,9 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -117,7 +121,11 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1AF3D23-D0F4-44C0-A1B1-E7775FCA3699
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2PioTransmitDrainFifoComplete, 2/SerCx2PioTransmitDrainFifoComplete, SerCx2PioTransmitDrainFifoComplete method [Serial Ports], serports.sercx2piotransmitdrainfifocomplete
+ms.keywords: SerCx2PioTransmitDrainFifoComplete method [Serial Ports], 2/SerCx2PioTransmitDrainFifoComplete, serports.sercx2piotransmitdrainfifocomplete, SerCx2PioTransmitDrainFifoComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/se
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 SerCx2 calls the <b>SerCx2PioTransmitDrainFifoComplete</b> event callback function, if it is implemented, to drain the transmit FIFO at the end of a PIO-transmit transaction. This function makes sure that any data bytes that remain in the FIFO are transmitted from the serial port before SerCx2 completes the write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>) request that initiated the transaction. After the last byte is transmitted from the FIFO, the serial controller driver must call the <b>SerCx2PioTransmitDrainFifoComplete</b> method to notify SerCx2. SerCx2 expects this notification and does not complete the write request until it is notified.
@@ -91,15 +94,24 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
+
 ## -see-also
+
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+
+
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+
+
 
  
 

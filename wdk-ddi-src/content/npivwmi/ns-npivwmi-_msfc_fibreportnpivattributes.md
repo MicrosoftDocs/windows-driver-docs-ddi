@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes, npivwmi/MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], npivwmi/PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], MSFC_FibrePortNPIVAttributes"
+ms.keywords: npivwmi/MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], PMSFC_FibrePortNPIVAttributes, npivwmi/PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes, _MSFC_FibrePortNPIVAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FibrePortNPIVAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes"
+req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ---
 
 # _MSFC_FibrePortNPIVAttributes structure
@@ -93,6 +93,8 @@ An array of virtual ports. The array length is specified in the <b>NumberVirtual
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127624">MSFC_FibrePortNPIVAttributes WMI Class</a>
+
+
 
  
 

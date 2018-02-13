@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9DAFC0E0-A3F9-4EF1-8FD1-3213AA1CBD18
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista._dot11_received_invitation_response_parameters, windot11/DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, *PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
+ms.keywords: "*PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, netvista._dot11_received_invitation_response_parameters, PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, windot11/DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, PDOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS, DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ typedef struct _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS {
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following:
+
 <table>
 <tr>
 <th>Member</th>
@@ -93,7 +94,8 @@ Specifies the type, revision and size of the <b>DOT11_RECEIVED_INVITATION_RESPON
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_RECEIVED_INVITATION_RESPONSE_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransmitterDeviceAddress
@@ -124,6 +126,8 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 ## -see-also
 
 <a href="..\windot11\ns-windot11-_dot11_received_invitation_response_parameters.md">DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS</a>
+
+
 
  
 

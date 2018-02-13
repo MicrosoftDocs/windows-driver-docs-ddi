@@ -84,6 +84,8 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
@@ -97,16 +99,20 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 ## -returns
 
 
+
 <i>UpdatePalette</i> returns S_OK or an appropriate error result if the texture palette is not successfully updated.
+
 
 
 
 ## -remarks
 
 
+
 The palette data in the array that is specified by <i>pPaletteData</i> consists of one UINT value for each palette entry (PALETTEENTRY structure). The palette entry is in ARGB format, with 8 bits for each of the four channels.
 
 The user-mode display driver uses the following members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
+
 <ul>
 <li>
 The <b>PaletteHandle</b> member specifies the handle to the palette that is associated with the surface.
@@ -123,11 +129,16 @@ The <b>NumEntries</b> member specifies the number of entries in the array at <i>
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot, kernel.psgetsilomonitorcontextslot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetSiloMonitorContextSlot
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetSiloMonitorContextSlot function
@@ -75,6 +75,8 @@ A pointer to the silo monitor.
 ## -returns
 
 
+
 A valid silo context slot.
+
 
 

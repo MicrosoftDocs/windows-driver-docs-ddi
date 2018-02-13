@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwCreateSection routine [Kernel-Mode Driver Architecture], kernel.zwcreatesection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, wdm/ZwCreateSection, ZwCreateSection, NtCreateSection, wdm/NtCreateSection
+ms.keywords: wdm/NtCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], ZwCreateSection, NtCreateSection, wdm/ZwCreateSection, kernel.zwcreatesection, k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,7 @@ Pointer to a HANDLE variable that receives a handle to the section object.
 ### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>), the caller can specify any of the following access rights, which are specific to section objects:
+
 <table>
 <tr>
 <th><i>DesiredAccess</i> flag</th>
@@ -148,7 +149,8 @@ All of the previous flags combined with STANDARD_RIGHTS_REQUIRED.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ObjectAttributes [in, optional]
@@ -179,7 +181,9 @@ Optionally specifies a handle for an open file object. If the value of <i>FileHa
 ## -returns
 
 
+
 <b>ZwCreateSection</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -240,11 +244,14 @@ The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close it.
@@ -252,25 +259,43 @@ Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driv
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>. 
 
 For more information about setting up mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563682">Sections and Views</a>. 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
 
-<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
+
 
 <a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
 
  
 

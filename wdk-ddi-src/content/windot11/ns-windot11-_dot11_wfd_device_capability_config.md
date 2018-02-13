@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 918307D4-0952-4FF0-8591-522C7E92194A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_DEVICE_CAPABILITY_CONFIG, windot11/ DOT11_WFD_DEVICE_CAPABILITY_CONFIG, windot11/PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, _DOT11_WFD_DEVICE_CAPABILITY_CONFIG, DOT11_WFD_DEVICE_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_device_capability_config, *PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, PDOT11_WFD_DEVICE_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_WFD_DEVICE_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], DOT11_WFD_DEVICE_CAPABILITY_CONFIG, _DOT11_WFD_DEVICE_CAPABILITY_CONFIG, netvista._dot11_wfd_device_capability_config, PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, *PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, windot11/ DOT11_WFD_DEVICE_CAPABILITY_CONFIG, windot11/PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, PDOT11_WFD_DEVICE_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DEVICE_CAPABILITY_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_DEVICE_CAPABILITY_CONFIG, *PDOT11_WFD_DEVICE_CAPABILITY_CONFIG
+req.typenames: "*PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, DOT11_WFD_DEVICE_CAPABILITY_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ typedef struct _DOT11_WFD_DEVICE_CAPABILITY_CONFIG {
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_CAPABILITY_CONFIG</b> structure. The required settings for the members of <b>Header</b> are the following:
+
 <table>
 <tr>
 <th>Member</th>
@@ -95,7 +96,8 @@ Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_CAPABILITY_CONF
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_DEVICE_CAPABILITY_CONFIG_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bServiceDiscoveryEnabled

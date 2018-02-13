@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSWAVE_INPUT_CAPABILITIES, dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, KSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], ksmedia/KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices]
+ms.keywords: KSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], ksmedia/KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], stream.kswave_input_capabilities, dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,13 +111,17 @@ Indicates the number of active connections.
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
+
+
 
  
 

@@ -84,20 +84,26 @@ A memory token value is returned in this location.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkGetPrivilegedMemoryRegionToken</i> gets a privileged  memory region token value that allows adapter logical addresses  to be used directly without memory registration. This token must provide LOCAL_READ and LOCAL_WRITE access. A provider must never allow remote access for the privileged memory region token.
+
 
 
 
 ## -see-also
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
 
  
 

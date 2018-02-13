@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
+ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB.spb_transfer_list_entry_init_buffer_list, spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,14 @@ The number of buffers in the scatter-gather list pointed to by <i>BufferList</i>
 ## -returns
 
 
+
 <b>SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</b> returns an initialized <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
 
+
 ## -remarks
+
 
 
 This initialization function returns an unnamed local variable of type <b>SPB_TRANSFER_LIST_ENTRY</b>. The storage for this variable is allocated in the caller's stack frame and is valid while the stack frame remains in scope.
@@ -110,15 +113,24 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+
+
 
  
 

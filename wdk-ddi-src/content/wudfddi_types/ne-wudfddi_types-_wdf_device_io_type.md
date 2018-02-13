@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_IO_TYPE, _WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoUndefined, wudfddi_types/WdfDeviceIoDirect, WdfDeviceIoMaximum, wudfddi_types/WDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, umdf.wdf_device_io_type__umdf_, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wudfddi_types/PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, WdfDeviceIoUndefined, WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoMaximum, wudfddi_types/WdfDeviceIoNeither, WDF_DEVICE_IO_TYPE enumeration, wdf.wdf_device_io_type__umdf_, PWDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBufferedOrDirect, wudfddi_types/WdfDeviceIoBuffered, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, WdfDeviceIoNeither
+ms.keywords: PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/WdfDeviceIoNeither, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, wudfddi_types/PWDF_DEVICE_IO_TYPE, WdfDeviceIoDirect, *PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoMaximum, WdfDeviceIoNeither, WdfDeviceIoMaximum, umdf.wdf_device_io_type__umdf_, WdfDeviceIoUndefined, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WdfDeviceIoUndefined, wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoBufferedOrDirect, _WDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wdf.wdf_device_io_type__umdf_, PWDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, WdfDeviceIoBufferedOrDirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,9 +109,11 @@ Reserved for system use.
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a> and as output from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>.
 
 You should use the following guidelines when choosing an I/O type for your driver:
+
 <ul>
 <li>
 Buffered I/O provides the best security and reliability, because applications and drivers access separate copies of the data. In addition, buffered I/O provides the best performance if most of the data transfers are relatively small (typically two memory pages or less). 
@@ -125,19 +127,27 @@ Direct I/O provides the best performance if most I/O requests transfer large amo
 Typically, a filter driver that can reside in several driver stacks and performs little processing of application data can support both buffered I/O and direct I/O and therefore can specify <b>WdfDeviceIoBufferedOrDirect</b>. However, if the driver validates application-specified parameters it must copy them first when direct I/O is used.
 
 </li>
-</ul>For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
+</ul>
+For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>.
 
 
 
-## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+
+
 
  
 

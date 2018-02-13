@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5231A8BC-2F7A-4A2C-931C-D3A81563754A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulongptrtolongptr, ntintsafe/RtlULongPtrToLongPtr, RtlULongPtrToLongPtr, RtlULongPtrToLongPtr function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlULongPtrToLongPtr, RtlULongPtrToLongPtr, RtlULongPtrToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtolongptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

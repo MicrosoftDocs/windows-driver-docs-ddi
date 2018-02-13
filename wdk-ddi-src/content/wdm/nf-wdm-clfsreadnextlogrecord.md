@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4990f3d7-e48c-49ee-9384-4bcad93c9281
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsReadNextLogRecord, ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, kernel.clfsreadnextlogrecord, ClfsReadNextLogRecord
+ms.keywords: ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], wdm/ClfsReadNextLogRecord, ClfsReadNextLogRecord, kernel.clfsreadnextlogrecord, Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,6 +94,7 @@ A pointer to a ULONG-typed variable that receives the size, in bytes, of the buf
 ### -param peRecordType [in, out]
 
 A pointer to a variable of type CLFS_RECORD_TYPE. The caller must set this parameter to one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -129,7 +130,8 @@ The next record that is either a data record or a restart record.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param plsnUser [in, optional]
@@ -155,11 +157,14 @@ A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the record tha
 ## -returns
 
 
+
 <b>ClfsReadNextLogRecord</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
@@ -170,13 +175,20 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+
+
 
  
 

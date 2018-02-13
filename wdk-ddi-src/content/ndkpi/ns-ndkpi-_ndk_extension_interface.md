@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BFA8FF36-1B10-4358-8826-9D5C32F27CFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndkpi/PNDK_EXTENSION_INTERFACE, _NDK_EXTENSION_INTERFACE, ndkpi/NDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], netvista.ndk_extension_interface, NDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], PNDK_EXTENSION_INTERFACE
+ms.keywords: netvista.ndk_extension_interface, _NDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], NDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE, ndkpi/PNDK_EXTENSION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,15 +75,21 @@ An entry point for an extension interface dispatch function.
 ## -remarks
 
 
+
 An extension interface is identified by a GUID and represented as a pointer to an <b>NDK_EXTENSION_INTERFACE</b> function dispatch table.
 
 Each NDK object contains a <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> function pointer in its object type-specific function dispatch table. This function allows a driver to query the extended interfaces the object type supports.
-<div class="alert"><b>Tip</b>   There are currently no standard extension interfaces defined.</div><div> </div>
+
+<div class="alert"><b>Tip</b>   There are currently no standard extension interfaces defined.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
 
  
 

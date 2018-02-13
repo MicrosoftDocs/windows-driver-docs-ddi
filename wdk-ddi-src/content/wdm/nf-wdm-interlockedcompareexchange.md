@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, InterlockedCompareExchange, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
+ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange, k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,6 +91,7 @@ TBD
 
 
 
+
 #### - Exchange [in]
 
 Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
@@ -104,11 +105,14 @@ Specifies the value that is compared with the input value pointed to by <i>Desti
 ## -returns
 
 
+
 <b>InterlockedCompareExchange</b> returns the original value of *<i>Destination</i>. 
 
 
 
+
 ## -remarks
+
 
 
 If <i>Comparand</i> is equal to *<i>Destination</i>, then *<i>Destination</i> is set to equal <i>Exchange</i>. Otherwise, *<i>Destination</i> is unchanged.
@@ -121,19 +125,32 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
-
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
+
+
 <a href="..\wdm\nf-wdm-interlockedcompareexchangepointer.md">InterlockedCompareExchangePointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+
+
 
 <a href="..\wdm\nf-wdm-exinterlockedcompareexchange64.md">ExInterlockedCompareExchange64</a>
 
-<a href="..\wdm\nf-wdm-interlockedexchangepointer.md">InterlockedExchangePointer</a>
+
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+
 
  
 

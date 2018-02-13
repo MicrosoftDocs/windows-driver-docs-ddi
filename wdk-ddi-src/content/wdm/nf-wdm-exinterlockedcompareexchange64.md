@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7d13ca70-e05a-49e0-8dd8-5ab47b4d8169
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInterlockedCompareExchange64, ExInterlockedCompareExchange64, kernel.exinterlockedcompareexchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml
+ms.keywords: ExInterlockedCompareExchange64, kernel.exinterlockedcompareexchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedCompareExchange64, k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -99,6 +99,7 @@ A pointer to an integer with which the value at <i>Destination</i> will be compa
 ## -remarks
 
 
+
 <b>ExInterlockedCompareExchange64</b> tests and, possibly, replaces the value of a given variable. For most underlying microprocessors, this routine is implemented inline by the compiler to execute as an atomic operation. If a spin lock is used, this routine can only be safely used on nonpaged parameters.
 
 If the <i>Destination</i> and <i>Comparand</i> are unequal, <b>ExInterlockedCompareExchange64</b> simply returns the value of <i>Destination</i>.
@@ -109,13 +110,20 @@ Callers of <b>ExInterlockedCompareExchange64</b> can be running at any IRQL. The
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
+
+
+<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockedexchangeadd.md">InterlockedExchangeAdd</a>
+
+
 
  
 

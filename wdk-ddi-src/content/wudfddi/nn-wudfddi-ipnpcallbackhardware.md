@@ -91,13 +91,17 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnRel
 ## -remarks
 
 
+
 A driver registers the <b>IPnpCallbackHardware</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
+
+
 
  
 

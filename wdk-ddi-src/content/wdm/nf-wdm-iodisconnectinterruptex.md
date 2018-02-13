@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoDisconnectInterruptEx, IoDisconnectInterruptEx, kernel.iodisconnectinterruptex, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture], wdm/WdmlibIoDisconnectInterruptEx, wdm/IoDisconnectInterruptEx
+ms.keywords: kernel.iodisconnectinterruptex, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture], wdm/WdmlibIoDisconnectInterruptEx, wdm/IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, IoDisconnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,13 +79,17 @@ For more information, see the <a href="..\iointex\nf-iointex-wdmlibiodisconnecti
 ## -returns
 
 
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a> function.
+
 
 
 
 ## -see-also
 
 <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
+
+
 
  
 

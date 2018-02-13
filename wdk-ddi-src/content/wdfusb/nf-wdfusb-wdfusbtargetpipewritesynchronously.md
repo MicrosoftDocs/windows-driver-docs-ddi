@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5513a245-0417-42f7-9c01-99b8bd5745eb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeWriteSynchronously, wdf.wdfusbtargetpipewritesynchronously, WdfUsbTargetPipeWriteSynchronously method, kmdf.wdfusbtargetpipewritesynchronously, PFN_WDFUSBTARGETPIPEWRITESYNCHRONOUSLY, DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, wdfusb/WdfUsbTargetPipeWriteSynchronously
+ms.keywords: wdf.wdfusbtargetpipewritesynchronously, kmdf.wdfusbtargetpipewritesynchronously, DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, wdfusb/WdfUsbTargetPipeWriteSynchronously, PFN_WDFUSBTARGETPIPEWRITESYNCHRONOUSLY, WdfUsbTargetPipeWriteSynchronously method, WdfUsbTargetPipeWriteSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetPipeWriteSynchronously
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to a location that receives the number of bytes written, if the operat
 ## -returns
 
 
+
 <b>WdfUsbTargetPipeWriteSynchronously</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -177,7 +179,8 @@ The I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>) that the <i>Req
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -187,7 +190,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use the <b>WdfUsbTargetPipeWriteSynchronously</b> method to send write requests synchronously. To send write requests asynchronously, use <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforwrite.md">WdfUsbTargetPipeFormatRequestForWrite</a>, followed by <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>.
@@ -199,6 +204,7 @@ The <b>WdfUsbTargetPipeWriteSynchronously</b> method does not return until the r
 You can forward an I/O request that your driver received in an I/O queue, or you can create and send a new request. In either case, the framework requires a request object and some buffer space.
 
 To forward an I/O request that your driver received in an I/O queue:
+
 <ol>
 <li>
 Specify the received request's handle for the <i>Request</i> parameter.
@@ -210,11 +216,13 @@ Use the received request's input buffer for the <i>MemoryDescriptor</i> paramete
 The driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a> to obtain a handle to a framework memory object that represents the request's input buffer and then place that handle in the <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure that <i>MemoryDescriptor</i> points to.
 
 </li>
-</ol>For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+</ol>
+For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 Drivers often divide received I/O requests into smaller requests that they send to an I/O target, so your driver might create new requests.
 
 To create a new I/O request:
+
 <ol>
 <li>
 Supply a <b>NULL</b> request handle for the <b>WdfUsbTargetPipeWriteSynchronously</b> method's <i>Request</i> parameter, or create a new request object and supply its handle:<ul>
@@ -292,9 +300,67 @@ Drivers can obtain the MDL that is associated with a received I/O request by cal
 </li>
 </ul>
 </li>
-</ol>For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
+</ol>
+For information about obtaining status information after an I/O request completes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Obtaining Completion Information</a>.
 
 For more information about the <b>WdfUsbTargetPipeWriteSynchronously</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example creates a memory object, obtains a pointer to the object's buffer, fills the buffer, and uses the buffer as input to <b>WdfUsbTargetPipeWriteSynchronously</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_MEMORY_DESCRIPTOR  writeBufDesc;
+WDFMEMORY  wdfMemory;
+ULONG  writeSize, bytesWritten;
+size_t  bufferSize;
+NTSTATUS status;
+
+writeSize = SMALL_BUF_LEN;
+status = WdfMemoryCreate(
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         NonPagedPool,
+                         0,
+                         writeSize,
+                         &amp;wdfMemory,
+                         NULL
+                         );
+if (!NT_SUCCESS(status)){
+    return status;
+}
+
+writeBuffer = WdfMemoryGetBuffer(
+                                 wdfMemory,
+                                 &amp;bufferSize
+                                 );
+
+FillMyBuffer(
+             writeBuffer,
+             writeSize
+             );
+
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
+                                  &amp;writeBufDesc,
+                                  writeBuffer,
+                                  writeSize
+                                  );
+
+status = WdfUsbTargetPipeWriteSynchronously(
+                                            pipeHandle,
+                                            NULL,
+                                            NULL,
+                                            &amp;writeBufDesc,
+                                            &amp;bytesWritten
+                                            );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -302,13 +368,23 @@ For more information about the <b>WdfUsbTargetPipeWriteSynchronously</b> method 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipereadsynchronously.md">WdfUsbTargetPipeReadSynchronously</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
 
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+
 
  
 

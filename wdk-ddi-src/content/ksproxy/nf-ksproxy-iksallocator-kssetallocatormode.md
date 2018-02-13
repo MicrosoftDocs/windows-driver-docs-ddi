@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsAllocator interface [Streaming Media Devices], KsSetAllocatorMode method, KsSetAllocatorMode method [Streaming Media Devices], ksproxy/IKsAllocator::KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, IKsAllocator, KsSetAllocatorMode, stream.iksallocator_kssetallocatormode
+ms.keywords: KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, KsSetAllocatorMode, IKsAllocator, IKsAllocator interface [Streaming Media Devices], KsSetAllocatorMode method, ksproxy/IKsAllocator::KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], stream.iksallocator_kssetallocatormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,16 +75,21 @@ HRESULT KsSetAllocatorMode(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
+
+
 
  
 

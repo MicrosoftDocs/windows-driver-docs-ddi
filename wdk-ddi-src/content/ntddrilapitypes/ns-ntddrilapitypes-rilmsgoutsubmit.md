@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83d15e40-b93f-4c7a-bfe4-db939c24b94f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], RILMSGOUTSUBMIT, ntddrilapitypes/RILMSGOUTSUBMIT, netvista.rilmsgoutsubmit"
+ms.keywords: RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], *LPRILMSGOUTSUBMIT, ntddrilapitypes/RILMSGOUTSUBMIT, netvista.rilmsgoutsubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGOUTSUBMIT
 product: Windows
 targetos: Windows
-req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
+req.typenames: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT"
 ---
 
 # RILMSGOUTSUBMIT structure
@@ -79,39 +79,29 @@ typedef struct _RILMSGOUTSUBMIT {
 ### -field raDestAddress
 
 
-
 ### -field dwProtocolID
-
 
 
 ### -field rmdDataCoding
 
 
-
 ### -field dwVPFormat
-
 
 
 ### -field stVP
 
 
-
 ### -field dwMsgID
-
 
 
 ### -field cbHdrLength
 
 
-
 ### -field cchMsgLength
-
 
 
 ### -field rgbHdr
 
 
-
 ### -field rgbMsg
-
 

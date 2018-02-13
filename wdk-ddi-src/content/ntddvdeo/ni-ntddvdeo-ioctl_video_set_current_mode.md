@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains a <a href="..\ntddvdeo\ns-ntddvdeo-_video_mo
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -111,6 +119,8 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 ## -see-also
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a>
+
+
 
  
 

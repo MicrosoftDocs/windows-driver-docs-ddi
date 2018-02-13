@@ -83,12 +83,15 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md">D3DDDICB_CREATECONTEXTVIRTUAL</a> structure that describes the context to create.
 
 
 ## -returns
+
 
 
 <table>
@@ -130,8 +133,10 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>HRESULT</b> values.
+
 
 

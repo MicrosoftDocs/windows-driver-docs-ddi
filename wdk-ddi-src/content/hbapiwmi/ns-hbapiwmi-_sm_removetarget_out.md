@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b93f999e-471a-4f02-a6f2-e21386b9e289
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], SM_RemoveTarget_OUT structure [Storage Devices], structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml, hbapiwmi/SM_RemoveTarget_OUT, storage.sm_removetarget_out, _SM_RemoveTarget_OUT, SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT"
+ms.keywords: structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml, PSM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT, SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT, storage.sm_removetarget_out, SM_RemoveTarget_OUT structure [Storage Devices], _SM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], hbapiwmi/SM_RemoveTarget_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_RemoveTarget_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+
 
 

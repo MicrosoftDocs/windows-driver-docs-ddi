@@ -90,14 +90,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,6 +122,8 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 ## -see-also
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
+
+
 
  
 

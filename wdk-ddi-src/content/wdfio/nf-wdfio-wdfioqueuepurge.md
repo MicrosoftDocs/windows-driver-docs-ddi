@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bd6e9583-774f-4ca2-9c23-4d32b233daff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueuePurge, PFN_WDFIOQUEUEPURGE, WdfIoQueuePurge, WdfIoQueuePurge method, DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, kmdf.wdfioqueuepurge, wdf.wdfioqueuepurge
+ms.keywords: WdfIoQueuePurge, kmdf.wdfioqueuepurge, PFN_WDFIOQUEUEPURGE, DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge, WdfIoQueuePurge method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,6 +93,7 @@ An untyped pointer to driver-supplied context information that the framework pas
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -101,7 +102,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After a driver calls <b>WdfIoQueuePurge</b>, the framework stops adding I/O requests to the specified queue. The framework <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">cancels</a> all requests that it has not delivered to the target device and calls the driver's  <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function  for each. The framework also attempts to cancel (by calling <a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>) any requests delivered to the target device that were not marked <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE</a>.
@@ -118,14 +121,40 @@ sequence causes the operating system to crash.  This problem is fixed in KMDF ve
 For more information about the <b>WdfIoQueuePurge</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
+#### Examples
+
+The following code example purges an I/O queue and does not call a callback function when all requests that were delivered to the driver have been completed or canceled.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfIoQueuePurge(
+                ReadQueue, 
+                WDF_NO_EVENT_CALLBACK, 
+                WDF_NO_CONTEXT 
+                );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
+
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
+
+
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
+
 
  
 

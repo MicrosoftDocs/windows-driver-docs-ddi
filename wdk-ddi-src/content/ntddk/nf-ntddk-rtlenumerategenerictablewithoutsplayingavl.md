@@ -7,7 +7,7 @@ old-location: ifsk\rtlenumerategenerictablewithoutsplayingavl.htm
 old-project: ifsk
 ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/7/2018
 ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, ifsk.rtlenumerategenerictablewithoutsplayingavl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	RtlEnumerateGenericTableWithoutSplayingAvl
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlEnumerateGenericTableWithoutSplayingAvl function
@@ -78,6 +78,7 @@ A pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RT
 An address of the element returned by the previous call to <b>RtlEnumerateGenericTableWithoutSplayingAvl</b>. Should be set to <b>NULL</b> if the enumeration is to start at the first element in the table. 
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -97,11 +98,14 @@ for (ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &amp;RestartKey);
 ## -returns
 
 
+
 <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> returns a pointer to the caller-defined structure associated with the element. It returns <b>NULL</b> if <i>RestartKey</i> is <b>NULL</b> and the table has no elements or if <i>RestartKey</i> is a returned pointer and there is no next element. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine does not actually work with a splay tree but provides an analogous named routine to <b>RtlEnumerateGenericTableWithoutSplayingAvl</b>.
@@ -120,19 +124,28 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 
 
+
 ## -see-also
-
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
 
 <a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
 
+
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
 
- 
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEnumerateGenericTableWithoutSplayingAvl routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEnumerateGenericTableWithoutSplayingAvl routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

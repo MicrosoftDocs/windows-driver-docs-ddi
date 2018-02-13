@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IBidiRequest interface [Print Devices], GetResult method, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, GetResult method [Print Devices], IBidiRequest interface, IBidiRequest::GetResult, GetResult method [Print Devices], GetResult, _win32_IBidiRequest_GetResult, print.ibidirequest_ibidirequest__getresult, IBidiRequest
+ms.keywords: IBidiRequest interface [Print Devices], GetResult method, gdi.ibidirequest_ibidirequest__getresult, IBidiRequest::GetResult, GetResult, print.ibidirequest_ibidirequest__getresult, GetResult method [Print Devices], _win32_IBidiRequest_GetResult, GetResult method [Print Devices], IBidiRequest interface, bidispl/IBidiRequest::GetResult, IBidiRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiRequest.GetResult
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiRequest::GetResult method
@@ -75,7 +75,9 @@ Pointer to a variable that specifies the status of the bidi request.
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,19 +127,27 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the return value indicates whether the method was successful. It does not indicate what happened to the bidi request.
 
 
 
+
 ## -see-also
+
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
+
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5a003c1-fa35-461d-8a47-a1a7bc2375b4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksacquiredevicesecuritylock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock
+ms.keywords: KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, stream.ksacquiredevicesecuritylock, KsAcquireDeviceSecurityLock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,20 +82,26 @@ Indicates, if set to <b>TRUE</b>, that the lock is to be acquired exclusively.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A shared lock is acquired when validating access during a create. An exclusive lock is acquired when changing a security descriptor. 
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest interface, GetFileObject method, IWDFIoRequest::GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, GetFileObject method, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, umdf.iwdfiorequest_getfileobject, IWDFIoRequest, GetFileObject method, IWDFIoRequest interface, GetFileObject, wdf.iwdfiorequest_getfileobject
+ms.keywords: GetFileObject method, IWDFIoRequest interface, IWDFIoRequest interface, GetFileObject method, umdf.iwdfiorequest_getfileobject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, IWDFIoRequest::GetFileObject, GetFileObject method, wdf.iwdfiorequest_getfileobject, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,22 +78,58 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 When your driver calls <b>GetFileObject</b>, the framework increments the reference count on the interface.  Your driver is responsible for releasing the reference when finished with the interface pointer. To do so, either use a smart pointer that automatically decrements the reference count when the object goes out of context, or call  <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the interface when finished with it.
+
+
+#### Examples
+
+The following code example is taken from the WpdMultiTransportDriver sample in the WDK. The example declares a smart pointer to an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface, calls <b>GetFileObject</b>, and then calls <a href="https://msdn.microsoft.com/b76acae1-3c37-4095-bf8b-1785dc90f378">RetrieveContext</a> on the file object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  CComPtr&lt;IWDFFile&gt;   pFileObject;
+
+  ...
+
+  // Get the Context map for this client
+
+  pRequest-&gt;GetFileObject(&amp;pFileObject);
+
+  if (pFileObject != NULL)
+  {
+      hr = pFileObject-&gt;RetrieveContext((void**)&amp;pClientContextMap);
+      CHECK_HR(hr, "Failed to get Contextmap from WDF File Object");
+  }
+  </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
 
  
 

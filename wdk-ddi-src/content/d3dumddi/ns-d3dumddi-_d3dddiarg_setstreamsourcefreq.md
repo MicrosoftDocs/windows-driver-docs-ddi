@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16bf65c7-26b0-404c-97c0-48eeb7c10b03
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_SETSTREAMSOURCEFREQ, UMDisplayDriver_param_Structs_2f63624d-43d6-4b38-8f22-050dac4a4965.xml, display.d3dddiarg_setstreamsourcefreq, _D3DDDIARG_SETSTREAMSOURCEFREQ, D3DDDIARG_SETSTREAMSOURCEFREQ, D3DDDIARG_SETSTREAMSOURCEFREQ structure [Display Devices]
+ms.keywords: D3DDDIARG_SETSTREAMSOURCEFREQ structure [Display Devices], d3dumddi/D3DDDIARG_SETSTREAMSOURCEFREQ, _D3DDDIARG_SETSTREAMSOURCEFREQ, UMDisplayDriver_param_Structs_2f63624d-43d6-4b38-8f22-050dac4a4965.xml, display.d3dddiarg_setstreamsourcefreq, D3DDDIARG_SETSTREAMSOURCEFREQ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _D3DDDIARG_SETSTREAMSOURCEFREQ {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourcefreq.md">SetStreamSourceFreq</a>
+
+
 
  
 

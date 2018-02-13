@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortBufferUlong
-title: StorPortWritePortBufferUlong function
+title: StorPortWritePortBufferUlong macro
 author: windows-driver-content
 description: The StorPortWritePortBufferUlong routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferulong.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong
+ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, storport/StorPortWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortWritePortBufferUlong function
+# StorPortWritePortBufferUlong macro
 
 
 ## -description
@@ -72,45 +72,68 @@ STORPORT_API VOID StorPortWritePortBufferUlong(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param p
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Contains the address of the port to be written to. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. 
 
 
-## -returns
-
-
-None 
-
-
-
 ## -remarks
+
 
 
 For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
 
 
 
+
 ## -see-also
+
+<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
+
+
 
 <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
 
-<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	DefaultConstantBufferUpdateSubresourceUP
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP callback
@@ -79,9 +79,7 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRESOURCE
-
 
 
 ### -param UINT
@@ -91,8 +89,9 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 
 
 
-### -param *
 
+
+### -param *
 
 
 #### - hDevice [in]
@@ -133,13 +132,16 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 ## -returns
 
 
+
 None.
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 For more information about <i>DefaultConstantBufferUpdateSubresourceUP</i>, see the Remarks section of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceupdatesubresourceup.md">ResourceUpdateSubresourceUP</a> function.
@@ -148,15 +150,24 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceupdatesubresourceup.md">ResourceUpdateSubresourceUP</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
 
  
 

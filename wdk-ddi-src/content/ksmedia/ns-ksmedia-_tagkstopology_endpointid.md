@@ -7,8 +7,8 @@ old-location: audio\kstopology_endpointid.htm
 old-project: audio
 ms.assetid: A84BE3D6-7D2A-4123-979B-F6E1CA8C8B23
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], audio.kstopology_endpointid, _tagKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, ksmedia/KSTOPOLOGY_ENDPOINTID
+ms.date: 2/8/2018
+ms.keywords: PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], *PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, ksmedia/KSTOPOLOGY_ENDPOINTID, _tagKSTOPOLOGY_ENDPOINTID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,9 +82,11 @@ The pin ID of the topology endpoint.
 
 <a href="..\ksmedia\ns-ksmedia-_tagkstopology_endpointidpair.md">KSTOPOLOGY_ENDPOINTIDPAIR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSTOPOLOGY_ENDPOINTID structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSTOPOLOGY_ENDPOINTID structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

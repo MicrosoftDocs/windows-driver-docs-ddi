@@ -291,6 +291,7 @@ Gets the main WDTF aggregation object.
 ## -remarks
 
 
+
 The <b>IWDTFTarget2</b> interface abstracts the notion of a testable item, 
 which is the central focus of the WDTF object model.
 You can retrieve instances of the <b>IWDTFTarget2</b> interface only 
@@ -312,5 +313,8 @@ ProgID: (Use the <a href="https://msdn.microsoft.com/3034f790-471f-46c2-915a-150
 aggregation interface to instantiate)
 
 TraceLevel Path: HKCR\WDTF.Target.1\
-<div class="alert"><b>Note</b>  The implementation of this interface is not thread-safe.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The implementation of this interface is not thread-safe.</div>
+<div> </div>
+
 

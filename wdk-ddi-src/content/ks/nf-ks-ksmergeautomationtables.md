@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, stream.ksmergeautomationtables
+ms.keywords: KsMergeAutomationTables function [Streaming Media Devices], stream.ksmergeautomationtables, avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, KsMergeAutomationTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ The newly created automation table is placed in this KSOBJECT_BAG (equivalent to
 ## -returns
 
 
+
 <b>KsMergeAutomationTables</b> returns STATUS_SUCCESS if the merge successfully completes. If unsuccessful, it returns an error code. The most frequent error code is STATUS_INSUFFICIENT_RESOURCES, which indicates that there are insufficient system resources to complete the merge.
 
 
 
+
 ## -remarks
+
 
 
 If both <i>AutomationTableA</i> and <i>AutomationTableB</i> are <b>NULL</b>, this routine performs no action and returns STATUS_SUCCESS.
@@ -113,13 +116,20 @@ Also see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
+
 
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
+
+
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
 
  
 

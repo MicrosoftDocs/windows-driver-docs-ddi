@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: INVOC structure [Print Devices], PINVOC structure pointer [Print Devices], print.invoc, prntfont/PINVOC, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, INVOC, prntfont/INVOC, _INVOC, *PINVOC, PINVOC
+ms.keywords: prntfont/PINVOC, prntfont/INVOC, PINVOC, INVOC, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, INVOC structure [Print Devices], *PINVOC, _INVOC, PINVOC structure pointer [Print Devices], print.invoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,12 +81,14 @@ Indicates one of the following:
 
 
 
-#### ufm files:
+
+##### ufm files:
 
 Specifies the byte offset from the beginning of the .ufm file's <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a> structure to beginning of the command string.
 
 
-#### gtt files:
+
+##### gtt files:
 
 Specifies the byte offset from the beginning of the .gtt file's <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structure to beginning of the command string.
 
@@ -94,13 +96,17 @@ Specifies the byte offset from the beginning of the .gtt file's <a href="..\prnt
 ## -remarks
 
 
+
 INVOC structures are used within <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a> structures.
+
 
 
 
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
+
+
 
  
 

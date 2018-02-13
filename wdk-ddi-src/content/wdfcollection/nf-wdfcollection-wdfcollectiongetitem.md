@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, wdfcollection/WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, PFN_WDFCOLLECTIONGETITEM, WdfCollectionGetItem
+ms.keywords: wdfcollection/WdfCollectionGetItem, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, PFN_WDFCOLLECTIONGETITEM, DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfCollectionGetItem
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -87,13 +87,16 @@ A zero-based index value that identifies an object in the collection.
 ## -returns
 
 
+
 <b>WdfCollectionGetItem</b> returns a framework object handle, or <b>NULL</b> if the <i>Index</i> value is invalid.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Index values represent the order in which objects are added to a collection. An index value of zero represents the first object in the collection, an index value of one represents the second object, and so on, like a linked list. When the driver removes item <i>i</i> from a collection, item <i>i</i>+1 becomes item <i>i</i>. 
@@ -101,12 +104,32 @@ Index values represent the order in which objects are added to a collection. An 
 For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetcount.md">WdfCollectionGetCount</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre></pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
 
+
+
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
+
+
 
  
 

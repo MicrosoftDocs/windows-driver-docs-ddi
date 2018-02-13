@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsRegisterSiloMonitor, kernel.psregistersilomonitor, ntddk/PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.psregistersilomonitor, PsRegisterSiloMonitor, ntddk/PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsRegisterSiloMonitor
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsRegisterSiloMonitor function
@@ -86,7 +86,9 @@ Receives a pointer to the monitor. This pointer is used to make further monitor-
 ## -returns
 
 
+
 The following NT status codes are returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,6 +138,8 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

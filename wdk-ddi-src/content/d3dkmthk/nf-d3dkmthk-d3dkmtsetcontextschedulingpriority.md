@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority, display.d3dkmtsetcontextschedulingpriority, D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices]
+ms.keywords: D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices], display.d3dkmtsetcontextschedulingpriority, OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingprio
 ## -returns
 
 
+
 <b>D3DKMTSetContextSchedulingPriority</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,15 +115,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a>
+
+
 
  
 

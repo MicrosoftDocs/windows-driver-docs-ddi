@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5cc1af-ab3b-4583-9ef9-39132789e74f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeIrp, k104_5c9dc7a8-747c-4832-a31b-5936e2d3361d.xml, kernel.ioinitializeirp, IoInitializeIrp routine [Kernel-Mode Driver Architecture], wdm/IoInitializeIrp
+ms.keywords: wdm/IoInitializeIrp, IoInitializeIrp routine [Kernel-Mode Driver Architecture], kernel.ioinitializeirp, k104_5c9dc7a8-747c-4832-a31b-5936e2d3361d.xml, IoInitializeIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the number of stack locations in the IRP.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers use <b>IoInitializeIrp</b> to initialize IRPs the driver allocated as raw memory. Do not use <b>IoInitializeIrp</b> to initialize an IRP allocated by <b>IoAllocateIrp</b>. <b>IoAllocateIrp</b> automatically initializes the members of the IRP.
@@ -105,25 +108,44 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
-
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
-
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\ntifs\nf-ntifs-iosizeofirp.md">IoSizeOfIrp</a>
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+
 
 <a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosizeofirp.md">IoSizeOfIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
 
  
 

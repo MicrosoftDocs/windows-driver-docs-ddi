@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c73e3b75-e11d-44b8-9a4a-c98ccfe1c820
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_setcallforwardingstatus, rilapi/RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_setcallforwardingstatus, rilapi/RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista], RIL_SetCallForwardingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,34 +79,29 @@ HRESULT  RIL_SetCallForwardingStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwReason
-
 
 
 ### -param fAllClasses
 
 
-
 ### -param dwInfoClasses
-
 
 
 ### -param dwStatus
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

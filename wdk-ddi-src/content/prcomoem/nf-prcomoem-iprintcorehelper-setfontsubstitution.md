@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2d0278b0-0011-4946-a095-5fef77a8b194
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetFontSubstitution method [Print Devices], prcomoem/IPrintCoreHelper::SetFontSubstitution, print_unidrv-pscript_allplugins_4ac54a23-3b42-4bb7-a078-a53774a537b2.xml, IPrintCoreHelper::SetFontSubstitution, print.iprintcorehelper_setfontsubstitution, SetFontSubstitution method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices], SetFontSubstitution method, SetFontSubstitution, IPrintCoreHelper
+ms.keywords: print_unidrv-pscript_allplugins_4ac54a23-3b42-4bb7-a078-a53774a537b2.xml, SetFontSubstitution method [Print Devices], IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution, IPrintCoreHelper, print.iprintcorehelper_setfontsubstitution, IPrintCoreHelper interface [Print Devices], SetFontSubstitution method, IPrintCoreHelper::SetFontSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelper.SetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ A pointer to a null-terminated Unicode string that contains the name of the devi
 ## -returns
 
 
+
 <b>IPrintCoreHelper::SetFontSubstitution</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +145,14 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Setting a device font to use in place of a specified TrueType font can occur only during the device property sheets session and only if full UI replacement is enabled. The font that is represented by the <i>pszTrueTypeFontName</i> parameter must be a valid TrueType font and must be installed on the printer. The device font that is represented by the <i>pszDevFontName</i> parameter must be a valid font for this printer.
@@ -155,12 +160,17 @@ Setting a device font to use in place of a specified TrueType font can occur onl
 If a substitution mapping for the specified TrueType font already exists on this queue, the <b>SetFontSubstitution</b> method will silently replace the mapping. To remove a substitution mapping, call this method with the TrueType font name specified in <i>pszTrueTypeFontName</i> and with <b>NULL</b> specified in <i>pszDevFontName</i>.
 
 To obtain a list of valid device fonts, create an information context for the current printer, and call <b>SetGraphicsMode</b>(hIC, GM_ADVANCED). Then, enumerate device fonts by means of a call to <b>EnumFontFamilies</b>. The callback parameter (see <b>EnumFontFamProc</b> in the Microsoft Windows SDK documentation) of <b>EnumFontFamilies</b> should filter for device fonts by incrementing a counter for each font for which the bitwise AND result (FontType &amp; TRUETYPE_FONTTYPE) is nonzero.
-<div class="alert"><b>Note</b>  The <b>SetGraphicsMode</b>, <b>EnumFontFamilies</b>, and <b>EnumFontFamProc</b> functions are described in the Windows SDK documentation.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>SetGraphicsMode</b>, <b>EnumFontFamilies</b>, and <b>EnumFontFamProc</b> functions are described in the Windows SDK documentation.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552957">IPrintCoreHelper::GetFontSubstitution</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ecc09ca7-77fe-434f-9892-c2ae93d7d73c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreadportbufferulong, VideoPortReadPortBufferUlong, VideoPortReadPortBufferUlong function [Display Devices], video/VideoPortReadPortBufferUlong, VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml
+ms.keywords: VideoPortReadPortBufferUlong, video/VideoPortReadPortBufferUlong, VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml, display.videoportreadportbufferulong, VideoPortReadPortBufferUlong function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the number of ULONG values to be written to the buffer.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The buffer must be large enough to contain at least the specified number of ULONG values.
@@ -103,13 +106,20 @@ Callers of <b>VideoPortReadPortBufferUlong</b> can be running at any IRQL, provi
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
 
  
 

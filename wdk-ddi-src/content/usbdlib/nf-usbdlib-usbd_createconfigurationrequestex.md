@@ -7,8 +7,8 @@ old-location: buses\usbd_createconfigurationrequestex.htm
 old-project: usbref
 ms.assetid: 9683b171-4f2e-4a18-89b7-76d49001be37
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml, buses.usbd_createconfigurationrequestex
+ms.date: 2/8/2018
+ms.keywords: USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml, usbdlib/USBD_CreateConfigurationRequestEx, buses.usbd_createconfigurationrequestex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,11 +86,14 @@ Pointer to the first element of a caller-allocated array of <a href="..\usbdlib\
 ## -returns
 
 
+
 <b>USBD_CreateConfigurationRequestEx</b> allocates a <a href="..\usb\ns-usb-_urb.md">URB</a> structure, formats it for the URB_FUNCTION_SELECT_CONFIGURATION request (select-configuration request), and returns a pointer to the <b>URB</b>. The client driver can then use the returned <b>URB</b> to send the select-configuration request  to the host controller driver to set the configuration. You must free the <b>URB</b> when you have finished using it.
 
 
 
+
 ## -remarks
+
 
 
 For information about how to build a select-configuration reqeuest and code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>.
@@ -105,19 +108,28 @@ You can  allocate the configuration descriptor and the array from nonpaged or pa
 
 
 
-## -see-also
 
-<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>
+
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg615081">How to Select a Configuration for a USB Device</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_select_configuration.md">_URB_SELECT_CONFIGURATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_CreateConfigurationRequestEx routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_CreateConfigurationRequestEx routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

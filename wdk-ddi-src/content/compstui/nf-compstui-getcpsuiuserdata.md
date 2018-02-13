@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.getcpsuiuserdata, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, GetCPSUIUserData function [Print Devices], GetCPSUIUserData, compstui/GetCPSUIUserData
+ms.keywords: GetCPSUIUserData, GetCPSUIUserData function [Print Devices], print.getcpsuiuserdata, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, compstui/GetCPSUIUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	GetCPSUIUserData
 product: Windows
 targetos: Windows
-req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # GetCPSUIUserData function
@@ -75,15 +75,19 @@ Caller-supplied handle to a property sheet dialog box. For more information, see
 ## -returns
 
 
+
 If the operation succeeds, the function returns the value that was previously supplied to <a href="..\compstui\nf-compstui-setcpsuiuserdata.md">SetCPSUIUserData</a>; otherwise the function returns zero.
+
 
 
 
 ## -remarks
 
 
+
 The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> or an <a href="..\compstui\ns-compstui-_extpush.md">EXTPUSH</a> structure.
 
 The handle specified for <i>hDlg</i> must be the handle received as input to the dialog box procedure. (Dialog box procedures are described in the Microsoft Windows SDK documentation.)
+
 
 

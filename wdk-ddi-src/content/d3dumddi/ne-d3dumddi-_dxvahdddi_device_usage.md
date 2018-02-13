@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a2e74fa-ee02-46f9-a51e-b2ffcdf7617a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, d3dumddi/DXVAHDDDI_DEVICE_USAGE, _DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, display.dxvahdddi_device_usage, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED
+ms.keywords: DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], display.dxvahdddi_device_usage, _DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,13 +87,17 @@ A value that specifies that the device plays video at optimal quality.
 ## -remarks
 
 
+
 A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a>
+
+
 
  
 

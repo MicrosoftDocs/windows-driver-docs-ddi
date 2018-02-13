@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaAsyncOperation interface [Print Devices], Cancel method, printerextension/IPrintSchemaAsyncOperation::Cancel, IPrintSchemaAsyncOperation, print.iprintschemaasyncoperation_cancel, IPrintSchemaAsyncOperation::Cancel, Cancel method [Print Devices], Cancel, Cancel method [Print Devices], IPrintSchemaAsyncOperation interface
+ms.keywords: print.iprintschemaasyncoperation_cancel, IPrintSchemaAsyncOperation::Cancel, Cancel method [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices], Cancel method, IPrintSchemaAsyncOperation, printerextension/IPrintSchemaAsyncOperation::Cancel, Cancel, Cancel method [Print Devices], IPrintSchemaAsyncOperation interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,6 +69,7 @@ HRESULT Cancel(
 
 
 
+
 #### - Void
 
 This method has no parameters.
@@ -77,13 +78,17 @@ This method has no parameters.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
+
+
 
  
 

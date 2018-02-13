@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69A8792B-954E-49AF-A306-25B94183E58A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PEP_PPM_QUERY_LP_SETTINGS, PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_LP_SETTINGS structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_lp_settings, pep_x/PEP_PPM_QUERY_LP_SETTINGS, *PPEP_PPM_QUERY_LP_SETTINGS, pep_x/PPEP_PPM_QUERY_LP_SETTINGS"
+ms.keywords: PPEP_PPM_QUERY_LP_SETTINGS structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_LP_SETTINGS structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_LP_SETTINGS, PPEP_PPM_QUERY_LP_SETTINGS, kernel.pep_ppm_query_lp_settings, pep_x/PEP_PPM_QUERY_LP_SETTINGS, *PPEP_PPM_QUERY_LP_SETTINGS, pep_x/PPEP_PPM_QUERY_LP_SETTINGS, PEP_PPM_QUERY_LP_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,15 +75,19 @@ typedef struct _PEP_PPM_QUERY_LP_SETTINGS {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629122">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a> notification. The <b>RegistryRoot</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
 The PEP can provide settings for certain key power scenarios such as full-screen video playback and connected standby that have unique characteristics that can benefit from specially tuned power policies that are different from the default settings used by Windows. The PEP loads the settings for such a power scenario into the registry and passes the registry key for these settings to the operating system. 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629122">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a>
+
+
 
  
 

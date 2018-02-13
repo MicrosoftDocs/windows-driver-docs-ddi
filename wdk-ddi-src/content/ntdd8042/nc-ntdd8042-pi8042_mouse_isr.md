@@ -40,7 +40,7 @@ apiname:
 -	MouseIsr
 product: Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
 ---
 
 # PI8042_MOUSE_ISR callback
@@ -120,11 +120,14 @@ Pointer to MOUSE_RESET_SUBSTATE enumeration value, which identifies the mouse re
 ## -returns
 
 
+
 A PI8042_MOUSE_ISR callback returns <b>TRUE</b> if the I8042prt mouse ISR should continue; otherwise it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A PI8042_MOUSE_ISR callback is not needed if the default operation of the I8042prt mouse ISR is sufficient.
@@ -137,15 +140,24 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
-
-<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
 
 <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+
+
+<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
+
+
 
  
 

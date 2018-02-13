@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: de3fdbd4-9647-4369-9c23-4779aa768b1b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelper interface [Print Devices], WhyConstrained method, IPrintCoreHelper::WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreHelper interface, print.iprintcorehelper_whyconstrained, prcomoem/IPrintCoreHelper::WhyConstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml, WhyConstrained, WhyConstrained method [Print Devices], IPrintCoreHelper
+ms.keywords: IPrintCoreHelper::WhyConstrained, WhyConstrained method [Print Devices], prcomoem/IPrintCoreHelper::WhyConstrained, WhyConstrained, IPrintCoreHelper interface [Print Devices], WhyConstrained method, print.iprintcorehelper_whyconstrained, IPrintCoreHelper, WhyConstrained method [Print Devices], IPrintCoreHelper interface, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelper.WhyConstrained
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ A pointer to a variable that receives the number of feature-option pairs in the 
 ## -returns
 
 
+
 <b>IPrintCoreHelper::WhyConstrained</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,11 +147,14 @@ Memory for the result array could not be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the specified feature-option pair is not constrained, <b>IPrintCoreHelper::WhyConstrained</b> will return S_OK but will return with *<i>pdwFOPairs</i> set to 0 and with *<i>ppFOConstraints</i>[0] set to <b>NULL</b>.
@@ -158,9 +163,12 @@ Note that the results from this method might not contain all of the options that
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552952">IPrintCoreHelper::EnumConstrainedOptions</a>
+
+
 
  
 

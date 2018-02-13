@@ -40,7 +40,7 @@ apiname:
 -	*PHWN_CLIENT_GET_STATE
 product: Windows
 targetos: Windows
-req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
+req.typenames: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES"
 ---
 
 # HWN_CLIENT_GET_STATE callback
@@ -86,9 +86,11 @@ Pointer to the client driver's context information. This memory space is availab
 ### -param OutputBuffer [out]
 
 Buffer of <i>OutputBufferLength</i> bytes for writing hardware notification status. If the function succeeds, the buffer will contain a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_HEADER</a> structure including one or more <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_SETTINGS</a> structures.
+
 <div class="alert"><b>Note</b>  <p class="note"><b>OutputBufferLength</b> must be large enough to contain all of the requested settings. For more information, see Remarks.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -param OutputBufferLength [in]
 
@@ -114,14 +116,18 @@ Pointer to a variable that indicates the number of bytes read by the function.
 
 
 
+
 Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+
 
 
 
 ## -remarks
 
 
+
 Register your implementation of this callback function by setting the appropriate member of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and then calling <a href="..\hwnclx\nf-hwnclx-hwnregisterclient.md">HwNRegisterClient</a>.
+
 <ul>
 <li>
 If <i>InputBuffer</i> is NULL, the output buffer will be used to store a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_HEADER</a> structure that contains all of the settings for the hardware notifications implemented by the driver. 
@@ -140,11 +146,16 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 </ul>
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
 
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
 
  
 

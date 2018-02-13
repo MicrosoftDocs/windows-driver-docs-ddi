@@ -96,14 +96,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,6 +119,8 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 ## -see-also
 
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_offline.md">IOCTL_VOLUME_OFFLINE</a>
+
+
 
  
 

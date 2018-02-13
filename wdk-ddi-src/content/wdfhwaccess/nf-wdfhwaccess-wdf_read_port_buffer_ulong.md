@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ED85628-E5EA-4D51-97B0-383C606CCC42
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_PORT_BUFFER_ULONG function, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, wdf.wdf_read_port_buffer_ulong, WDF_READ_PORT_BUFFER_ULONG
+ms.keywords: WDF_READ_PORT_BUFFER_ULONG, wdfhwaccess/WDF_READ_PORT_BUFFER_ULONG, WDF_READ_PORT_BUFFER_ULONG function, wdf.wdf_read_port_buffer_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_PORT_BUFFER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -96,6 +96,8 @@ Specifies the number of ULONG values to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

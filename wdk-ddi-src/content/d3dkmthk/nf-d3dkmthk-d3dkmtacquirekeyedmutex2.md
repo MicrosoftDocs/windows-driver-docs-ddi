@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 function [Display Devices], display.d3dkmtacquirekeyedmutex2, PFND3DKMT_ACQUIREKEYEDMUTEX2, d3dkmthk/D3DKMTAcquireKeyedMutex2
+ms.keywords: d3dkmthk/D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 function [Display Devices], display.d3dkmtacquirekeyedmutex2, PFND3DKMT_ACQUIREKEYEDMUTEX2, D3DKMTAcquireKeyedMutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTAcquireKeyedMutex2(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D3DKMT_ACQUIREKEYEDMUTEX2</a> structure that specifies the keyed mutex object to acquire. 
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,24 +133,32 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -remarks
 
 
+
 <b>D3DKMTAcquireKeyedMutex2</b> behaves like the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D3DKMT_ACQUIREKEYEDMUTEX2</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtacquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex2.md">D3DKMT_ACQUIREKEYEDMUTEX2</a>
+
 
  
 

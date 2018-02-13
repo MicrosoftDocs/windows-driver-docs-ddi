@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_register_for_transport_characteristics_change.htm
 old-project: usbref
 ms.assetid: 4192501F-5A30-463C-924D-CD4F2C8C3764
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_usb_register_for_transport_characteristics_change, IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, usbioctl/IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,28 +66,36 @@ This request registers for notifications about the changes in transport characte
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -111,9 +119,11 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_
 ## -remarks
 
 
+
  The transport characteristics of MA-USB mediums can vary significantly over time. If the client diver is interested in knowing the latest information at all times, the driver must register for notification by sending  the request. 
 
 This request can be sent by a user mode application, UMDF driver, or a KMDF driver. USB driver stack checks for stale and bad registration handle. If the request is received on a handle before registration and after unregistration, the driver stack fails the request. 
+
 
 
 
@@ -121,17 +131,27 @@ This request can be sent by a user mode application, UMDF driver, or a KMDF driv
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

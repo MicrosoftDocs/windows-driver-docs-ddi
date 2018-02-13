@@ -7,7 +7,7 @@ old-location: audio\iportclspnp.htm
 old-project: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iportclspnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices], described, IPortClsPnp, portcls/IPortClsPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices

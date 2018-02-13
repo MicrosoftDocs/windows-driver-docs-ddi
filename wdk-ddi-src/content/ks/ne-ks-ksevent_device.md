@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92594bdd-a458-4262-ac4c-013cffb7a725
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_DEVICE_LOST, KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE_PREEMPTED, stream.ksevent_device, KSEVENT_DEVICE, KSEVENT_DEVICE enumeration [Streaming Media Devices], KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE
+ms.keywords: KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE_PREEMPTED, KSEVENT_DEVICE_LOST, stream.ksevent_device, KSEVENT_DEVICE enumeration [Streaming Media Devices], ks/KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE, KSEVENT_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,7 +81,6 @@ A camera device has been preempted by a new Windows app. See <a href="https://ms
 ### -field KSEVENT_DEVICE_THERMAL_HIGH
 
 
-
 ### -field KSEVENT_DEVICE_THERMAL_LOW
 
 
@@ -89,9 +88,13 @@ A camera device has been preempted by a new Windows app. See <a href="https://ms
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>
+
 
  
 

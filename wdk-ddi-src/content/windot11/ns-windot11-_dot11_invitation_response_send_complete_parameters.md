@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EE537A6E-6722-4829-986A-37D41B149E37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, netvista.dot11_invitation_response_send_complete_parameters, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, *PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
+ms.keywords: PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, windot11/DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_invitation_response_send_complete_parameters, windot11/PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ typedef struct _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -93,7 +94,8 @@ The type, revision, and size of the <b>DOT11_INVITATION_RESPONSE_SEND_COMPLETE_P
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ReceiverDeviceAddress
@@ -125,9 +127,15 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
-<a href="..\windot11\ns-windot11-_dot11_invitation_response_send_complete_parameters.md">DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439781">NDIS_STATUS_DOT11_WFD_INVITATION_RESPONSE_SEND_COMPLETE</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_invitation_response_send_complete_parameters.md">DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS</a>
+
+
 
  
 

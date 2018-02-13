@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wsk_provider_characteristics, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, wsk/PWSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, _WSK_PROVIDER_CHARACTERISTICS
+ms.keywords: netvista.wsk_provider_characteristics, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS, _WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS"
+req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ The lowest version of the WSK NPI that is supported by the WSK subsystem.
 ## -remarks
 
 
+
 When a 
     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a> call fails
     with status code STATUS_NOINTERFACE, the WSK application can use a call to 
@@ -97,6 +98,7 @@ When a
 The major and minor version numbers that are contained within the 
     <b>HighestVersion</b> and 
     <b>LowestVersion</b> members are encoded by using the MAKE_WSK_VERSION macro:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -106,9 +108,11 @@ The major and minor version numbers that are contained within the
 <pre>Version = MAKE_WSK_VERSION(Major,Minor);</pre>
 </td>
 </tr>
-</table></span></div>The major and minor version numbers can be extracted from the 
+</table></span></div>
+The major and minor version numbers can be extracted from the 
     <b>HighestVersion</b> and 
     <b>LowestVersion</b> members by using the WSK_MAJOR_VERSION and WSK_MINOR_VERSION macros:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -119,7 +123,8 @@ The major and minor version numbers that are contained within the
 Minor = WSK_MINOR_VERSION(Version);</pre>
 </td>
 </tr>
-</table></span></div>If a WSK application determines that the WSK subsystem supports a version of the WSK NPI that is
+</table></span></div>
+If a WSK application determines that the WSK subsystem supports a version of the WSK NPI that is
     compatible with the application, the application should call 
     <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> and, by means of the 
     <b>Dispatch</b> member of the 
@@ -138,18 +143,29 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
+
 ## -see-also
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+
+
+
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
+
 
 <a href="..\wsk\nf-wsk-wskqueryprovidercharacteristics.md">
    WskQueryProviderCharacteristics</a>
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
  
 

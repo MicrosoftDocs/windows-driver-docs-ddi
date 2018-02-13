@@ -78,15 +78,19 @@ A pointer to the channel extension.
 ## -returns
 
 
+
 <b><i>IdeHwReset</i></b> returns <b>TRUE</b> if the reset operation succeeded.  Otherwise, it returns <b>FALSE</b>. 
+
 
 
 
 ## -remarks
 
 
+
 The <b><i>IdeHwReset</i></b> routine should complete all pending requests and reset the indicated channel.
 
 <b><i>IdeHwReset</i></b> can be called even if the miniport driver is not ready for another request.
+
 
 

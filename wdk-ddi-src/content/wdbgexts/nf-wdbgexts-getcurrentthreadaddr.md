@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0664199b-da65-4b07-958e-d7972b39cefd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentThreadAddr, debugger.getcurrentthreadaddr, WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, GetCurrentThreadAddr function [Windows Debugging], wdbgexts/GetCurrentThreadAddr
+ms.keywords: GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], wdbgexts/GetCurrentThreadAddr, debugger.getcurrentthreadaddr, WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,14 @@ Receives the location of the system data for the thread.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a> returns.
@@ -99,9 +102,12 @@ For details on the KTHREAD and TEB structures, see <i>Microsoft Windows Internal
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
+
+
 
  
 

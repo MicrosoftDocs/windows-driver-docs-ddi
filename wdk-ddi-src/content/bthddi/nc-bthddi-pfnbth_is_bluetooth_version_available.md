@@ -40,7 +40,7 @@ apiname:
 -	IsBluetoothVersionAvailable
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE callback
@@ -86,15 +86,19 @@ This parameter specifies the minor version number of Bluetooth that is requested
 ## -returns
 
 
+
 <i>IsBluetoothVersionAvailable</i> returns <b>TRUE</b> if the Bluetooth version that the operating system
      provides is greater than or equal to the Bluetooth version number that is being requested.
+
 
 
 
 ## -remarks
 
 
+
 Bluetooth profile drivers should call this function before performing any operations that are not
     supported in all Bluetooth versions.
+
 
 

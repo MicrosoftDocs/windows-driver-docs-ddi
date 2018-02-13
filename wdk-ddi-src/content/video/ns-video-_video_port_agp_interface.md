@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2be4958-3f11-4b9d-9c0c-c339ebbbce04
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], _VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE, video/VIDEO_PORT_AGP_INTERFACE, Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, video/PVIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices]
+ms.keywords: PVIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface, VIDEO_PORT_AGP_INTERFACE, Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], *PVIDEO_PORT_AGP_INTERFACE, _VIDEO_PORT_AGP_INTERFACE, video/VIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], video/PVIDEO_PORT_AGP_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,7 +154,9 @@ Specifies the maximum total number of bytes of AGP memory that a miniport driver
 ## -remarks
 
 
+
 PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
+
 
 
 
@@ -162,7 +164,11 @@ PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>
 
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
 
  
 

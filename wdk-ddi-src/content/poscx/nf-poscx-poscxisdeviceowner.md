@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxisdeviceowner, PosCxIsDeviceOwner, PosCxIsDeviceOwner function, poscx/PosCxIsDeviceOwner
+ms.keywords: PosCxIsDeviceOwner function, poscx/PosCxIsDeviceOwner, PosCxIsDeviceOwner, pos.poscxisdeviceowner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,8 +82,10 @@ A handle to a framework device object that represents the device.
 ## -returns
 
 
+
 Returns TRUE if the caller is the device owner, or if <i>fileObject</i> is NULL and the device is not currently owned.
 
 Otherwise, returns FALSE.
+
 
 

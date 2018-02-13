@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, dbgeng/IDebugDataSpaces4::StartEnumTagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, debugger.startenumtagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4, StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4::StartEnumTagged
+ms.keywords: IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Receives the handle identifying the enumeration.  This handle can be passed to <
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +95,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The resources held by an enumeration created with this method can be released using <a href="https://msdn.microsoft.com/library/windows/hardware/ff542978">EndEnumTagged</a>.
+
 
 

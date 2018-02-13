@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad99b2b0-d62a-4e3e-a368-b9109f0fefb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE, _WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE, WwanDeviceTypeRemote, wwan/WwanDeviceTypeMax, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, wwan/PWWAN_DEVICE_TYPE, WwanDeviceTypeUnknown, WwanDeviceTypeMax, wwan/WwanDeviceTypeUnknown, WwanDeviceTypeRemovable, wwan/WwanDeviceTypeRemovable, wwan/WwanDeviceTypeRemote, netvista.wwan_device_type, WwanDeviceTypeEmbedded, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanDeviceTypeEmbedded, WWAN_DEVICE_TYPE
+ms.keywords: WwanDeviceTypeRemote, wwan/PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanDeviceTypeEmbedded, netvista.wwan_device_type, WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, wwan/WwanDeviceTypeMax, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WwanDeviceTypeEmbedded, wwan/WwanDeviceTypeUnknown, PWWAN_DEVICE_TYPE, wwan/WWAN_DEVICE_TYPE, WwanDeviceTypeRemovable, WwanDeviceTypeUnknown, WwanDeviceTypeMax, _WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE, wwan/WwanDeviceTypeRemote, wwan/WwanDeviceTypeRemovable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE"
+req.typenames: WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -100,6 +100,8 @@ The total number of supported device types.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b68a5f89-1623-4cab-84bf-3cc6e4031d9b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, GetSymbolTypeIdWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, IDebugSymbols3, GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide
+ms.keywords: GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolTypeIdWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeIdWide method, IDebugSymbols3::GetSymbolTypeIdWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ Receives the base address of the module containing the symbol.  For more informa
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The method was successful
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>Symbol</i> expression may contain structure fields, pointer dereferencing, and array dereferencing -- for example <b>my_struct.some_field[0]</b>.
@@ -117,13 +122,20 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
+
+
 
  
 

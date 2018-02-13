@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: bd98186f-5681-4611-9c27-eabfe4412df7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFLOG2, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface, Microsoft.WDTF.IWDTFLOG2.OutputInfo, OutputInfo method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFLOG2::OutputInfo, OutputInfo, dtf.iwdtflog2_outputinfo, IWDTFLOG2::OutputInfo, IWDTFLOG2 interface [Windows Device Testing Framework], OutputInfo method, wdtf/IWDTFLOG2::OutputInfo
+ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework], OutputInfo method, Microsoft::WDTF::IWDTFLOG2::OutputInfo, IWDTFLOG2::OutputInfo, dtf.iwdtflog2_outputinfo, Microsoft.WDTF.IWDTFLOG2.OutputInfo, OutputInfo, wdtf/IWDTFLOG2::OutputInfo, OutputInfo method [Windows Device Testing Framework], OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface, IWDTFLOG2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The information string.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtflog2.md">IWDTFLOG2</a>
+
+
 
  
 

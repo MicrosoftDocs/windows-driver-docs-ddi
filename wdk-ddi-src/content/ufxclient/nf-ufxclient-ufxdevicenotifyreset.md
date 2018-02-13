@@ -7,8 +7,8 @@ old-location: buses\ufxdevicenotifyreset.htm
 old-project: usbref
 ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
+ms.date: 2/8/2018
+ms.keywords: buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], UfxDeviceNotifyReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,16 +82,20 @@ Contains a value of type <a href="..\usbspec\ne-usbspec-_usb_device_speed.md">US
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver calls <b>UfxDeviceNotifyReset</b> when it receives a bus reset event. All non-default endpoints should be disabled and the default endpoint should be reset.  The device moves to the default state.
 
 The client driver typically calls <b>UfxDeviceNotifyReset</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a reset event.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -154,4 +158,5 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
+
 

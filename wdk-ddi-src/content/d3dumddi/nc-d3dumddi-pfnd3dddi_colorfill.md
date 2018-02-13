@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY ColorFill(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a> structure that describes the parameters of the color-fill operation.
@@ -91,15 +93,21 @@ __checkReturn HRESULT APIENTRY ColorFill(
 ## -returns
 
 
+
 <b>ColorFill</b> returns S_OK or an appropriate error result if the color-fill operation is not successfully performed.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

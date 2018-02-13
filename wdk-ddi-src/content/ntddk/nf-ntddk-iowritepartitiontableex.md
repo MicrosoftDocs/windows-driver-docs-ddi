@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b49ea2db-bb1e-4293-bfac-cbb3e62bca91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.iowritepartitiontableex, IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, ntddk/IoWritePartitionTableEx
+ms.keywords: storage.iowritepartitiontableex, ntddk/IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], IoWritePartitionTableEx, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoWritePartitionTableEx
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoWritePartitionTableEx function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - PartitionBuffer [in]
 
 Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>.
@@ -87,7 +88,9 @@ Pointer to the drive layout buffer that contains the partition list entries. For
 ## -returns
 
 
+
 <b>IoWritePartitionTabloEx</b> returns a status code of STATUS_SUCCESS if all writes were completed without error. In case of failure, the error codes returned by <b>IoWritePartitionTableEx</b> might include, but are not limited to, the following list:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +129,14 @@ Indicates that sector zero did not have the expected MBR disk signature.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoWritePartitionTableEx</b> replaces the obsolete routine <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>. Unlike the older routine, it can write to GUID Partition Tables as well as Master Boot Record Partition Tables. 
@@ -147,13 +153,20 @@ In order tot create or delete partitions a full description of the system must b
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
+
 
  
 

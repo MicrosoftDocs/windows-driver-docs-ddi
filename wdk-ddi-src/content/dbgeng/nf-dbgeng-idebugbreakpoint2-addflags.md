@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::AddFlags, debugger.addflags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, dbgeng/IDebugBreakpoint::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, dbgeng/IDebugBreakpoint2::AddFlags, IDebugBreakpoint2, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::AddFlags, AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], AddFlags method
+ms.keywords: IDebugBreakpoint interface [Windows Debugging], AddFlags method, dbgeng/IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::AddFlags, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint2, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint, IDebugBreakpoint::AddFlags, debugger.addflags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, AddFlags method [Windows Debugging], AddFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,6 +76,7 @@ Additional flags to add to the breakpoint.  <i>Flags</i> is a bit field that is 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,15 +93,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

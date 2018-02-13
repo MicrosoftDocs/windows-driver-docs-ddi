@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 404e1893-8ee2-429c-b7e3-e6d8d01eaa1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_pipe_direction_out, WDF_USB_PIPE_DIRECTION_OUT function, DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, wdfusb/WDF_USB_PIPE_DIRECTION_OUT, wdf.wdf_usb_pipe_direction_out, WDF_USB_PIPE_DIRECTION_OUT
+ms.keywords: kmdf.wdf_usb_pipe_direction_out, WDF_USB_PIPE_DIRECTION_OUT, DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, wdfusb/WDF_USB_PIPE_DIRECTION_OUT, wdf.wdf_usb_pipe_direction_out, WDF_USB_PIPE_DIRECTION_OUT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WDF_USB_PIPE_DIRECTION_OUT
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A USB endpoint address.
 ## -returns
 
 
+
 <b>WDF_USB_PIPE_DIRECTION_OUT</b> returns <b>TRUE</b> if the specified endpoint is an output endpoint. Otherwise, this function returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The high bit of the endpoint address determines the direction (input or output) of an endpoint. For more information about endpoint addresses, see the USB specification.
@@ -92,11 +95,16 @@ For more information about the <b>WDF_USB_PIPE_DIRECTION_OUT</b> function and US
 
 
 
+
 ## -see-also
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_in.md">WDF_USB_PIPE_DIRECTION_IN</a>
+
+
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md">WdfUsbTargetPipeIsOutEndpoint</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_in.md">WDF_USB_PIPE_DIRECTION_IN</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b2245810-8f3c-4955-b341-46df4a71707c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER, kstruct_c_3b18984d-35cf-4787-b887-a8916a89569b.xml, PLUGPLAY_NOTIFICATION_HEADER structure [Kernel-Mode Driver Architecture], wdm/PPLUGPLAY_NOTIFICATION_HEADER, kernel.plugplay_notification_header, PPLUGPLAY_NOTIFICATION_HEADER structure pointer [Kernel-Mode Driver Architecture], PPLUGPLAY_NOTIFICATION_HEADER, _PLUGPLAY_NOTIFICATION_HEADER, *PPLUGPLAY_NOTIFICATION_HEADER
+ms.keywords: kernel.plugplay_notification_header, *PPLUGPLAY_NOTIFICATION_HEADER, PPLUGPLAY_NOTIFICATION_HEADER structure pointer [Kernel-Mode Driver Architecture], wdm/PPLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER structure [Kernel-Mode Driver Architecture], PLUGPLAY_NOTIFICATION_HEADER, kstruct_c_3b18984d-35cf-4787-b887-a8916a89569b.xml, wdm/PLUGPLAY_NOTIFICATION_HEADER, _PLUGPLAY_NOTIFICATION_HEADER, PPLUGPLAY_NOTIFICATION_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,21 +88,33 @@ Specifies a GUID identifying the event.
 ## -remarks
 
 
+
 Drivers can cast a PnP notification structure to this type to access the <b>Event</b> field and identify the exact type of the structure.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+
 
 <a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
 
-<a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+
+
+<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+
 
 <a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+
+
+<a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+
+
 
  
 

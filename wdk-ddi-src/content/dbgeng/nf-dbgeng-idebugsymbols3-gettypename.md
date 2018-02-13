@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], GetTypeName, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, IDebugSymbols2::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols3::GetTypeName, debugger.gettypename, dbgeng/IDebugSymbols::GetTypeName, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, IDebugSymbols::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetTypeName method
+ms.keywords: IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetTypeName method, IDebugSymbols3::GetTypeName, IDebugSymbols3, GetTypeName method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::GetTypeName, IDebugSymbols, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename, IDebugSymbols2::GetTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,9 @@ Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NU
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,14 +142,18 @@ The specified type could not be found in the specified module.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
@@ -155,11 +161,19 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
+
+
 
  
 

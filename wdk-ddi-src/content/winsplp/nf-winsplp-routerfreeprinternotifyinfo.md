@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: RouterFreePrinterNotifyInfo function [Print Devices], winsplp/RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, print.routerfreeprinternotifyinfo
+ms.keywords: winsplp/RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (described in the Win
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A print provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a> function should call <code>RouterFreePrinterNotifyInfo</code> to deallocate structures previously allocated by <a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>, but only if <b>RefreshPrinterChangeNotification</b> encounters a error. If <b>RefreshPrinterChangeNotification</b> succeeds, you should assume that the client application will deallocate the structures.
@@ -91,11 +94,16 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-routerallocprinternotifyinfo.md">RouterAllocPrinterNotifyInfo</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+
+
 
  
 

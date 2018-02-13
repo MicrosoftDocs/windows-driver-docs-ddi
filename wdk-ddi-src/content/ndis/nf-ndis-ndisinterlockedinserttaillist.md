@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc455bb1-3574-4dfb-9462-f2c67632132b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInterlockedInsertTailList, NdisInterlockedInsertTailList, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, netvista.ndisinterlockedinserttaillist
+ms.keywords: NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], NdisInterlockedInsertTailList, netvista.ndisinterlockedinserttaillist, ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, ndis/NdisInterlockedInsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisInterlockedInsertTailList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedInsertTailList macro
@@ -90,6 +90,7 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 ## -remarks
 
 
+
 Before calling 
     <b>NdisInterlockedInsertTailList</b>, a driver must initialize the variable at 
     <i>ListHead</i> with the 
@@ -118,19 +119,30 @@ If
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
    NdisInterlockedInsertHeadList</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+
 
  
 

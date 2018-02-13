@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlprivatelock.htm
 old-project: ifsk
 ms.assetid: c0f6b5bd-991c-403c-9bda-82960b356ca9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlprivatelock, FsRtlPrivateLock function [Installable File System Drivers], FsRtlPrivateLock, ntifs/FsRtlPrivateLock, fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml
+ms.date: 2/7/2018
+ms.keywords: ntifs/FsRtlPrivateLock, FsRtlPrivateLock, FsRtlPrivateLock function [Installable File System Drivers], ifsk.fsrtlprivatelock, fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

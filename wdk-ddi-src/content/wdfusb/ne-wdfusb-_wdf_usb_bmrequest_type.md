@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c20e7aec-32e7-401d-8c40-aa6ac191e857
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_BMREQUEST_TYPE enumeration, wdfusb/BmRequestStandard, wdfusb/BmRequestVendor, wdf.wdf_usb_bmrequest_type, BmRequestVendor, BmRequestClass, wdfusb/WDF_USB_BMREQUEST_TYPE, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, kmdf.wdf_usb_bmrequest_type, _WDF_USB_BMREQUEST_TYPE, WDF_USB_BMREQUEST_TYPE, wdfusb/BmRequestClass, BmRequestStandard
+ms.keywords: BmRequestVendor, wdfusb/WDF_USB_BMREQUEST_TYPE, wdfusb/BmRequestClass, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, wdfusb/BmRequestVendor, BmRequestClass, WDF_USB_BMREQUEST_TYPE enumeration, _WDF_USB_BMREQUEST_TYPE, kmdf.wdf_usb_bmrequest_type, BmRequestStandard, WDF_USB_BMREQUEST_TYPE, wdfusb/BmRequestStandard, wdf.wdf_usb_bmrequest_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,15 +90,19 @@ The data transfer is a vendor-specific USB control transfer.
 ## -remarks
 
 
+
 The <b>WDF_USB_BMREQUEST_TYPE</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 For more information about data transfer types for a USB control transfer, see the USB specification.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
+
+
 
  
 

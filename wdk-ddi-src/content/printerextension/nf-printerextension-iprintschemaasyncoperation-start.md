@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaAsyncOperation::Start, IPrintSchemaAsyncOperation interface [Print Devices], Start method, Start method [Print Devices], IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation, Start method [Print Devices], Start, printerextension/IPrintSchemaAsyncOperation::Start, print.iprintschemaasyncoperation_start
+ms.keywords: print.iprintschemaasyncoperation_start, Start, IPrintSchemaAsyncOperation interface [Print Devices], Start method, IPrintSchemaAsyncOperation::Start, printerextension/IPrintSchemaAsyncOperation::Start, Start method [Print Devices], IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation, Start method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,6 +69,7 @@ HRESULT Start(
 
 
 
+
 #### - Void
 
 This method has no parameters.
@@ -77,13 +78,17 @@ This method has no parameters.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
+
+
 
  
 

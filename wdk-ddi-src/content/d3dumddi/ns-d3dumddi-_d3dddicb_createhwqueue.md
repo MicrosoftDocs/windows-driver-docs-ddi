@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 085CEF61-2C2E-4F9C-B143-2E2D58C51643
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE, _D3DDDICB_CREATEHWQUEUE, display.d3dddicb_createhwqueue, D3DDDICB_CREATEHWQUEUE structure [Display Devices]
+ms.keywords: "_D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE structure [Display Devices], display.d3dddicb_createhwqueue, d3dumddi/D3DDDICB_CREATEHWQUEUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

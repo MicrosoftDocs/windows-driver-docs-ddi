@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], RtlCreateRegistryKey, wdm/RtlCreateRegistryKey, kernel.rtlcreateregistrykey, k109_9a163bcc-501d-453b-b426-a4267d04135c.xml
+ms.keywords: kernel.rtlcreateregistrykey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], RtlCreateRegistryKey, k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, wdm/RtlCreateRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,6 +72,7 @@ NTSTATUS RtlCreateRegistryKey(
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -137,7 +138,8 @@ Path is relative to <b>\Registry\User\CurrentUser</b>. (For a system process, th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Path [in]
@@ -148,30 +150,46 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 ## -returns
 
 
+
 <b>RtlCreateRegistryKey</b> returns STATUS_SUCCESS if the key is created. 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlCreateRegistryKey</b> creates only the keys that you specify. It does not create missing keys in the path to the specified key. If any keys in the path are missing, the call will fail. To ensure that all keys in the path exist, you must call <b>RtlCreateRegistryKey</b> once for each key in the path. 
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
 
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+
 
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
 
  
 

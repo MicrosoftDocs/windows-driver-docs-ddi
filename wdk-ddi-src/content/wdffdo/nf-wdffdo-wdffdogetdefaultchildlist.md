@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoGetDefaultChildList method, PFN_WDFFDOGETDEFAULTCHILDLIST, DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, kmdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList, wdf.wdffdogetdefaultchildlist
+ms.keywords: wdf.wdffdogetdefaultchildlist, WdfFdoGetDefaultChildList method, kmdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList, WdfFdoGetDefaultChildList, DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, PFN_WDFFDOGETDEFAULTCHILDLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoGetDefaultChildList
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -79,13 +79,16 @@ A handle to a framework device object.
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfFdoGetDefaultChildList</b> returns a handle to the default child list that is associated with the device that is specified by <i>Fdo</i>. Otherwise the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Before calling <b>WdfFdoGetDefaultChildList</b>, your driver must call <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a> to configure the default child list. Otherwise, <b>WdfFdoGetDefaultChildList</b> returns <b>NULL</b>.
@@ -93,10 +96,30 @@ Before calling <b>WdfFdoGetDefaultChildList</b>, your driver must call <a href="
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+The following code example obtains a handle to a device's default child list.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFCHILDLIST  list;
+
+list = WdfFdoGetDefaultChildList(Device);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
 
  
 

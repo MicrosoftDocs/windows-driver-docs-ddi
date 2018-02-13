@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8a420d5-7741-4676-9956-dcf996125c6d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exgetfirmwaretype, ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], wdm/ExGetFirmwareType
+ms.keywords: ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], kernel.exgetfirmwaretype, wdm/ExGetFirmwareType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,9 +69,12 @@ FIRMWARE_TYPE ExGetFirmwareType(
 
 
 
+
 ## -returns
 
 
+
 Returns a <a href="https://msdn.microsoft.com/c058e20e-11f9-4652-b658-9fd0a43d4224">FIRMWARE_TYPE</a>-type value that indicates the type of firmware.
+
 
 

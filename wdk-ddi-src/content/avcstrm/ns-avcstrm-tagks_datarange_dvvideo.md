@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89cbb950-c3e5-4d79-aa7f-fd64cd67fd5e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_DATARANGE_DVVIDEO, avcstrm/PKS_DATARANGE_DVVIDEO, KS_DATARANGE_DVVIDEO, avcstrm/KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO, tagKS_DATARANGE_DVVIDEO, PKS_DATARANGE_DVVIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_DVVIDEO structure [Streaming Media Devices], avcsref_4058b68a-c43e-46f0-82b7-dc596cbead98.xml, stream.ks_datarange_dvvideo
+ms.keywords: KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO, avcsref_4058b68a-c43e-46f0-82b7-dc596cbead98.xml, tagKS_DATARANGE_DVVIDEO, avcstrm/PKS_DATARANGE_DVVIDEO, avcstrm/KS_DATARANGE_DVVIDEO, PKS_DATARANGE_DVVIDEO structure pointer [Streaming Media Devices], stream.ks_datarange_dvvideo, PKS_DATARANGE_DVVIDEO, KS_DATARANGE_DVVIDEO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_DVVIDEO
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DATARANGE_DVVIDEO, KS_DATARANGE_DVVIDEO"
+req.typenames: KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO
 ---
 
 # tagKS_DATARANGE_DVVIDEO structure
@@ -82,7 +82,11 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 <a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
 
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
 
  
 

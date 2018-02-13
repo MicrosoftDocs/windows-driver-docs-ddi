@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDispatchSpecificMethod, stream.ksdispatchspecificmethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices]
+ms.keywords: ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, KsDispatchSpecificMethod function [Streaming Media Devices], KsDispatchSpecificMethod, stream.ksdispatchspecificmethod, ks/KsDispatchSpecificMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,20 +84,26 @@ Specifies the pointer to the specific method handler.
 ## -returns
 
 
+
 The <b>KsDispatchSpecificMethod</b> function returns STATUS_SUCCESS if successful, or if unsuccessful it returns an error. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsDispatchSpecificMethod</b> function is intended for additional processing of the method such as completing a pending operation.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+
+
 
  
 

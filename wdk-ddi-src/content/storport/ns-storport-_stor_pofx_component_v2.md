@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2FF6B375-C213-48AC-9497-6CE3F1170BAA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], _STOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], *PSTOR_POFX_COMPONENT_V2, storport/PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT
+ms.keywords: storage.stor_pofx_component_v2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], STOR_POFX_COMPONENT_V2, storport/PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, *PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT, _STOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_COMPONENT_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_POFX_COMPONENT_V2, STOR_POFX_COMPONENT_V2"
+req.typenames: STOR_POFX_COMPONENT_V2, *PSTOR_POFX_COMPONENT_V2
 req.product: Windows 10 or later.
 ---
 
@@ -123,6 +123,7 @@ The index of the deepest F-state from which the component can wake. Specify 0 fo
 ## -remarks
 
 
+
 When a miniport driver registers a device with the Storport power management framework, the miniport driver supplies a <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that holds the registration information. This structure contains an array of <b>STOR_ POFX_COMPONENT</b> structures. The elements in this array describe the power attributes of the individual components in the device. The power settings of these components are managed based on the information in this array.
 
 The <b>Id</b> member contains a component ID that uniquely identifies a component. The component ID is not the same as the component index, which a routine such as <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a> uses to identify a component in a registered device. A component index is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the device driver used to register the device. If the <b>Components</b> array contains N elements, component indexes are integer values in the range 0 to N–1. In contrast, a component ID is a GUID value.
@@ -135,13 +136,20 @@ For a unit device component, if an additional F-state is included in the <b>FSta
 
 
 
-## -see-also
 
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+## -see-also
 
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
+
+
 <a href="..\storport\ns-storport-_stor_pofx_component_idle_state.md">STOR_POFX_COMPONENT_IDLE_STATE</a>
+
+
+
+<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+
+
 
  
 

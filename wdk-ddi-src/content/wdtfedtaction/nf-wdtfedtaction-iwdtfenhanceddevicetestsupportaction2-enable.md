@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8fc225af-09d4-42a0-a862-4af89addd5f8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Enable, IWDTFEnhancedDeviceTestSupportAction2, Enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Enable, Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, dtf.iwdtfenhanceddevicetestsupportaction2_enable, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], Enable method, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Enable, Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2::Enable
+ms.keywords: Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2::Enable, dtf.iwdtfenhanceddevicetestsupportaction2_enable, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], Enable method, Enable method [Windows Device Testing Framework], wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Enable, IWDTFEnhancedDeviceTestSupportAction2, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Enable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Enable, Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ True if the operation requires a restart to complete; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2.md">IWDTFEnhancedDeviceTestSupportAction2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DOCEVENT_ESCAPE structure [Print Devices], print.docevent_escape, winddiui/PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, DOCEVENT_ESCAPE, winddiui/DOCEVENT_ESCAPE, _DOCEVENT_ESCAPE, PDOCEVENT_ESCAPE, *PDOCEVENT_ESCAPE
+ms.keywords: print.docevent_escape, winddiui/DOCEVENT_ESCAPE, _DOCEVENT_ESCAPE, *PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], PDOCEVENT_ESCAPE, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, winddiui/PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ Specifies the value of the <b>ExtEscape</b> function's <i>lpszInData</i> paramet
 ## -remarks
 
 
+
 The DOCEVENT_ESCAPE structure is defined for Windows XP and later.
 
 This structure is used in conjunction with a call to <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>, in which the <i>iEsc</i> parameter is set to DOCUMENTEVENT_ESCAPE. Before calling either of these functions, the caller must fill in the members of this structure.
@@ -96,11 +97,16 @@ Refer to the Microsoft Windows SDK documentation for a description of the <b>Ext
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
+
+
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
 
  
 

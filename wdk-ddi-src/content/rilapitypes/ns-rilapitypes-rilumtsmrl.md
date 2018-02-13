@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72567e37-f37f-43f6-8a3a-3d184cb8de13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUMTSMRL structure [Network Drivers Starting with Windows Vista], RILUMTSMRL, rilapitypes/RILUMTSMRL, *LPRILUMTSMRL, netvista.rilumtsmrl
+ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL, netvista.rilumtsmrl, rilapitypes/RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,6 +130,8 @@ Path loss.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

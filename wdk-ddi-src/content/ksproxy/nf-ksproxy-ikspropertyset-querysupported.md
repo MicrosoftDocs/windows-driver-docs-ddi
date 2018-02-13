@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: QuerySupported method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_querysupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, IKsPropertySet::QuerySupported, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, IKsPropertySet, QuerySupported, QuerySupported method [Streaming Media Devices], ksproxy/IKsPropertySet::QuerySupported
+ms.keywords: IKsPropertySet::QuerySupported, stream.ikspropertyset_querysupported, ksproxy/IKsPropertySet::QuerySupported, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices], IKsPropertySet interface, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, IKsPropertySet, QuerySupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,6 +82,7 @@ Identifier of the property within the property set.
 ### -param TypeSupport [out]
 
 Pointer to a variable that receives a bitmask enumerating the flags that indicate the support that the underlying driver provides. A driver can support a bitwise OR combination of the following flags: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -107,13 +108,16 @@ Supports setting a property. Use the <a href="https://msdn.microsoft.com/library
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns one of the following error codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,14 +156,18 @@ Property set is not supported.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 KS objects include, for example, KS filters, KS pins, and KS clocks. 
+
 <div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
 
 <p class="note">
@@ -168,14 +176,20 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
+
+
 
  
 

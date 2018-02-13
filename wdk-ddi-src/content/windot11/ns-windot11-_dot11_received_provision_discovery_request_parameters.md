@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1F6D8F31-D813-4CC3-BBA1-167560436AD6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, netvista.dot11_received_provision_discovery_request_parameters
+ms.keywords: PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, netvista.dot11_received_provision_discovery_request_parameters, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ typedef struct _DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -94,7 +95,8 @@ The type, revision, and size of the <b>DOT11_RECEIVED_PROVISION_DISCOVERY_REQUES
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_RECEIVED_PROVISION_DISCOVERY_REQUEST_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransmitterDeviceAddress
@@ -129,9 +131,13 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
+
 
  
 

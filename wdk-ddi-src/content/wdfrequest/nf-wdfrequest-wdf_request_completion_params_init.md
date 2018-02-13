@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f13e9474-7805-4c58-983d-4cfea4f005cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_f92844e3-5003-45db-9684-608301b1ec32.xml, wdf.wdf_request_completion_params_init, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS_INIT, kmdf.wdf_request_completion_params_init, WDF_REQUEST_COMPLETION_PARAMS_INIT, WDF_REQUEST_COMPLETION_PARAMS_INIT function
+ms.keywords: WDF_REQUEST_COMPLETION_PARAMS_INIT, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS_INIT, DFRequestObjectRef_f92844e3-5003-45db-9684-608301b1ec32.xml, wdf.wdf_request_completion_params_init, kmdf.wdf_request_completion_params_init, WDF_REQUEST_COMPLETION_PARAMS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,11 +78,14 @@ A pointer to a caller-supplied <a href="..\wdfrequest\ns-wdfrequest-_wdf_request
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers must call <b>WDF_REQUEST_COMPLETION_PARAMS_INIT</b> to initialize a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure before calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>.
@@ -90,10 +93,19 @@ Drivers must call <b>WDF_REQUEST_COMPLETION_PARAMS_INIT</b> to initialize a <a h
 The <b>WDF_REQUEST_COMPLETION_PARAMS_INIT</b> function zeros the specified <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure and sets the structure's <b>Size</b> member. It also sets the structure's <b>Type</b> member to <b>WdfRequestTypeNoFormat</b>.
 
 
+#### Examples
+
+For a code example that uses <b>WDF_REQUEST_COMPLETION_PARAMS_INIT</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
+
+
 
  
 

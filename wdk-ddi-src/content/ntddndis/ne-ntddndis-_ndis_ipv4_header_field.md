@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5B7C4107-1724-473C-8F36-C345A056F3DC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_IPV4_HEADER_FIELD, _NDIS_IPV4_HEADER_FIELD, netvista.ndis_ipv4_header_field, PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldUndefined, *PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, NDIS_IPV4_HEADER_FIELD, ntddndis/PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldProtocol, ntddndis/NdisIPv4HeaderFieldUndefined, NdisIPv4HeaderFieldProtocol, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldMaximum
+ms.keywords: NDIS_IPV4_HEADER_FIELD, *PNDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldProtocol, ntddndis/PNDIS_IPV4_HEADER_FIELD, netvista.ndis_ipv4_header_field, PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldProtocol, _NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, ntddndis/NDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldUndefined, ntddndis/NdisIPv4HeaderFieldUndefined, NdisIPv4HeaderFieldMaximum, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_IPV4_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD"
+req.typenames: NDIS_IPV4_HEADER_FIELD, *PNDIS_IPV4_HEADER_FIELD
 ---
 
 # _NDIS_IPV4_HEADER_FIELD enumeration
@@ -88,9 +88,11 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>NDIS_IPV4_HEADER_FIELD</b> enumeration is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+
 
 
 
@@ -98,6 +100,8 @@ The <b>NDIS_IPV4_HEADER_FIELD</b> enumeration is used in the
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+
+
 
  
 

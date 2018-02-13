@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0eac3cc1-9c1c-4438-ab20-51c65018cea0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.cdrom_sub_q_data_format, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices], ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], *PCDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT, structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml, _CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT
+ms.keywords: ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, storage.cdrom_sub_q_data_format, *PCDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], PCDROM_SUB_Q_DATA_FORMAT, structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices], _CDROM_SUB_Q_DATA_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,17 +76,20 @@ Specifies which subset of the Q data the read operation should return, as follow
 
 
 
-
-
-
 #### IOCTL_CDROM_CURRENT_POSITION
 
 Indicates that the read operation should return position information such as the track number, the index number, the absolute address, and the track relative address. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a> member of the <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a> structure.
 
 
+
+
+
 #### IOCTL_CDROM_MEDIA_CATALOG
 
 Indicates that the read operation should return the media catalog number. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a> member of the <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a> structure.
+
+
+
 
 
 #### IOCTL_CDROM_TRACK_ISRC
@@ -102,21 +105,33 @@ Indicates the track number where the CD-ROM driver must read the Q subchannel da
 ## -remarks
 
 
+
 The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the Q part of the subchannel data and the format of the read.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_track_isrc.md">SUB_Q_TRACK_ISRC</a>
+
+
 
  
 

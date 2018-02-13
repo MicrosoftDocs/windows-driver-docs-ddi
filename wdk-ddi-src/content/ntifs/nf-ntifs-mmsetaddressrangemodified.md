@@ -7,8 +7,8 @@ old-location: ifsk\mmsetaddressrangemodified.htm
 old-project: ifsk
 ms.assetid: c903485f-205e-4679-99a7-2a644731fa77
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: MmSetAddressRangeModified, ifsk.mmsetaddressrangemodified, ntifs/MmSetAddressRangeModified, mmref_4d6ef497-4a72-4fed-8422-365708740cc7.xml, MmSetAddressRangeModified routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.mmsetaddressrangemodified, mmref_4d6ef497-4a72-4fed-8422-365708740cc7.xml, MmSetAddressRangeModified, ntifs/MmSetAddressRangeModified, MmSetAddressRangeModified routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ Length of the range in bytes.
 ## -returns
 
 
+
 <b>MmSetAddressRangeModified</b> returns <b>TRUE</b> if it marked at least one page in the range as modified, <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 The entire range specified by <i>Address</i> and <i>Length</i> must reside within the system cache.
@@ -96,13 +99,16 @@ Callers of <b>MmSetAddressRangeModified</b> must be running at IRQL &lt; DISPATC
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmSetAddressRangeModified routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmSetAddressRangeModified routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

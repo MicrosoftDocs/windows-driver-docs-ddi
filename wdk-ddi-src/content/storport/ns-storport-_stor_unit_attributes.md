@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, _STOR_UNIT_ATTRIBUTES
+ms.keywords: PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, _STOR_UNIT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_UNIT_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES"
+req.typenames: STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,11 @@ Reserved bits. Must be set to 0.
 ## -remarks
 
 
+
 The unit attributes are registered with Storport  using this structure as a parameter to the <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a> routine.
 
 If the miniport driver supports asynchronous notifications, the <b>AsyncNotificationSupported</b> field set to 1, it will send notifications to the Storport driver using the <a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a> routine.
+
 
 
 
@@ -104,7 +106,11 @@ If the miniport driver supports asynchronous notifications, the <b>AsyncNotifica
 
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
 
+
+
 <a href="..\storport\nf-storport-storportasyncnotificationdetected.md">StorPortAsyncNotificationDetected</a>
+
+
 
  
 

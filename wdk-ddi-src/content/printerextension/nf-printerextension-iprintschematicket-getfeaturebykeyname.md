@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintschematicket_getfeaturebykeyname, GetFeatureByKeyName, IPrintSchemaTicket, printerextension/IPrintSchemaTicket::GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::GetFeatureByKeyName, IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method
+ms.keywords: print.iprintschematicket_getfeaturebykeyname, GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaTicket, IPrintSchemaTicket::GetFeatureByKeyName, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The returned feature.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
+
 
 
 See <a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a> for the recognized feature key names, the key names’ equivalent public Print Schema feature names, and the supported specialized option types.
@@ -97,17 +100,28 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
-
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
+
+
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+
+
+
+<a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a>
+
+
+
 <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec17efca-2cb9-4ab4-b98f-7319f6145e4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetAdapterName, HBA_GetAdapterName routine [Storage Devices], HBA_GetAdapterName, fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml, storage.hba_getadaptername
+ms.keywords: HBA_GetAdapterName, fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml, HBA_GetAdapterName routine [Storage Devices], storage.hba_getadaptername, hbaapi/HBA_GetAdapterName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ Indicates the index of the HBA for which the name will be returned.
 ### -param AdapterName [in, out]
 
 Pointer to memory area in which the HBA name will be returned. The HBA name will be a string of the form
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -85,7 +86,9 @@ Pointer to memory area in which the HBA name will be returned. The HBA name will
 <pre>mfgdomain-model-adapterindex</pre>
 </td>
 </tr>
-</table></span></div>where <b>mfgdomain</b> is derived from the domain name owned by the manufacturer of the HBA, <b>model</b> is a vendor-specific identifier of the HBA product model, and <b>adapterindex</b> is a decimal representation of the HBA index in <i>AdapterIndex. </i>For example:
+</table></span></div>
+where <b>mfgdomain</b> is derived from the domain name owned by the manufacturer of the HBA, <b>model</b> is a vendor-specific identifier of the HBA product model, and <b>adapterindex</b> is a decimal representation of the HBA index in <i>AdapterIndex. </i>For example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -95,23 +98,32 @@ Pointer to memory area in which the HBA name will be returned. The HBA name will
 <pre>com.HotBiscuitsAdapters-HBA1040A-1</pre>
 </td>
 </tr>
-</table></span></div>For a description of the formatting of the adapter name, see the <i>Fibre Channel HBA API</i> specification published by the T11 committee.
+</table></span></div>
+For a description of the formatting of the adapter name, see the <i>Fibre Channel HBA API</i> specification published by the T11 committee.
 
 
 ## -returns
+
 
 
 The <b>HBA_GetAdapterName</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
 
 
 
+
 ## -see-also
+
+<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+
 
  
 

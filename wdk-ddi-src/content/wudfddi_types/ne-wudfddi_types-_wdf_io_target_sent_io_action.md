@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfIoTargetCancelSentIo, wdf.wdf_io_target_sent_io_action__umdf_, WDF_IO_TARGET_SENT_IO_ACTION enumeration, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetSentIoMaximum, wudfddi_types/WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoMaximum, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoUndefined, _WDF_IO_TARGET_SENT_IO_ACTION, umdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetLeaveSentIoPending, WdfIoTargetCancelSentIo, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml
+ms.keywords: WdfIoTargetCancelSentIo, WDF_IO_TARGET_SENT_IO_ACTION enumeration, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetLeaveSentIoPending, WdfIoTargetLeaveSentIoPending, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, wdf.wdf_io_target_sent_io_action__umdf_, WdfIoTargetSentIoMaximum, wudfddi_types/WdfIoTargetCancelSentIo, WdfIoTargetSentIoUndefined, umdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, _WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetSentIoMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,6 +103,7 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> and  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> methods.
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> from a request handler, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function, or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback function.
@@ -111,9 +112,12 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>
+
+
 
  
 

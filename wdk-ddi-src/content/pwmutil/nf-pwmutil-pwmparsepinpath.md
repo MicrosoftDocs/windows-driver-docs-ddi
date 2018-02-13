@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pwmparsepinpath, PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], pwmutil/PwmParsePinPath
+ms.keywords: PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath, PwmParsePinPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PwmParsePinPath
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
+req.typenames: "*PPTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT"
 req.product: Windows 10 or later.
 ---
 
@@ -83,7 +83,9 @@ A pointer to variable that receives a pin number.
 ## -returns
 
 
+
 <b>PwmParsePinPath</b> returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +125,17 @@ The specified pin path pointer is invalid or its Unicode string is
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The pin path must be a Unicode character string that ends in the pin number as follows: <i>...\&lt;PinNumber&gt;</i>.
+
 
 

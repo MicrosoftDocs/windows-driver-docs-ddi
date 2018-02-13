@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5df074ff-572d-47f7-9c5c-4423b200cddc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiautil/wiauDbgDump, wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml
+ms.keywords: wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump, image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. 
@@ -93,14 +94,18 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgDump</b> function typically is used to log a message along with one or more data values, as in the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -110,19 +115,29 @@ The <b>wiauDbgDump</b> function typically is used to log a message along with on
 <pre>wiauDbgDump("SetBuffer", "Buffer size set to %d bytes.", size);</pre>
 </td>
 </tr>
-</table></span></div>This example, which would be placed in a function named <i>SetBuffer</i>, causes the function name and a string describing the size of a buffer to be logged. 
+</table></span></div>
+This example, which would be placed in a function named <i>SetBuffer</i>, causes the function name and a string describing the size of a buffer to be logged. 
+
 
 
 
 ## -see-also
 
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
+
 
  
 

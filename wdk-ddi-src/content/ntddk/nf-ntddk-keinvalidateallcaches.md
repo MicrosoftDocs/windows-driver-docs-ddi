@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a7971cd1-1e9b-4d81-8422-1ee36651973a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInvalidateAllCaches, kernel.keinvalidateallcaches, ntddk/KeInvalidateAllCaches, k105_4b59c5bd-70e3-48e1-aa6c-abf4e02925e8.xml, KeInvalidateAllCaches routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeInvalidateAllCaches, k105_4b59c5bd-70e3-48e1-aa6c-abf4e02925e8.xml, KeInvalidateAllCaches routine [Kernel-Mode Driver Architecture], kernel.keinvalidateallcaches, ntddk/KeInvalidateAllCaches
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeInvalidateAllCaches
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # KeInvalidateAllCaches function
@@ -66,16 +66,21 @@ BOOLEAN KeInvalidateAllCaches(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeInvalidateAllCaches</b> returns a value that is reserved for system use. Treat this value as VOID.
 
 
 
+
 ## -remarks
 
 
+
 The <b>KeInvalidateAllCaches</b> routine flushes each processor's caches and marks each cache's contents invalid. The processor caches are guaranteed to have completed the flush operation before <b>KeInvalidateAllCaches</b> returns.
+
 
 

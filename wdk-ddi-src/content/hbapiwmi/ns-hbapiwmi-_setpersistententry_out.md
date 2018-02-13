@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSetPersistentEntry_OUT, storage.setpersistententry_out, structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml, _SetPersistentEntry_OUT, SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], hbapiwmi/PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices]"
+ms.keywords: hbapiwmi/PSetPersistentEntry_OUT, *PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], storage.setpersistententry_out, _SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml, SetPersistentEntry_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetPersistentEntry_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetPersistentEntry_OUT, SetPersistentEntry_OUT"
+req.typenames: SetPersistentEntry_OUT, *PSetPersistentEntry_OUT
 ---
 
 # _SetPersistentEntry_OUT structure
@@ -75,13 +75,17 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SetPersistentEntry_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a>
+
+
 
  
 

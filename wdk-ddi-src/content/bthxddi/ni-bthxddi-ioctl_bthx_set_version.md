@@ -94,14 +94,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -113,6 +117,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -128,7 +133,8 @@ The IOCTL completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Any unsuccessful NT status code prevents the driver from loading.
 
@@ -136,8 +142,10 @@ Any unsuccessful NT status code prevents the driver from loading.
 ## -remarks
 
 
+
 IOCTL_BTHX_SET_VERSION is a synchronous operation.
 
 Only one version will be selected and set.
+
 
 

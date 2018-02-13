@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], pep_x/PPEP_WORK_DEVICE_POWER, pep_x/PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture]
+ms.keywords: pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_device_power, PPEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], pep_x/PPEP_WORK_DEVICE_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_DEVICE_POWER
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
+req.typenames: "*PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER"
 ---
 
 # _PEP_WORK_DEVICE_POWER structure
@@ -81,15 +81,21 @@ Whether the device requires power. Set to TRUE if the device requires power and 
 ## -remarks
 
 
+
 The <b>DevicePower</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_POWER</b> structure.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7128e49d-71e9-4014-9f08-591cfaeba363
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_METADATA structure pointer [Display Devices], iddcx/IDDCX_METADATA, IDDCX_METADATA structure [Display Devices], display.iddcx_metadata, IDDCX_METADATA structure structure [Display Devices], IDDCX_METADATA structure, IDDCX_METADATA
+ms.keywords: iddcx/IDDCX_METADATA, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure, display.iddcx_metadata, IDDCX_METADATA structure structure [Display Devices], IDDCX_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,16 +93,20 @@ typedef struct IDDCX_METADATA {
 
                       Number of dirty rects for this frame. Call <a href="..\iddcx\nf-iddcx-iddcxswapchaingetdirtyrects.md">IddCxSwapChainGetDirtyRects</a> to get the dirty rects
                  
+
 <div class="alert"><b>Note</b>   A zero <b>DirtyRectCount</b> and <b>MoveRegionCount</b> value indicates there were no desktop updates and the
-    PresentationFrameNumber is the same as last frame</div><div> </div>
+    PresentationFrameNumber is the same as last frame</div>
+<div> </div>
 
 ### -field MoveRegionCount
 
 
                      Number of move regions in this frame, call <a href="..\iddcx\nf-iddcx-iddcxswapchaingetmoveregions.md">IddCxSwapChainGetMoveRegions</a> to get the move regions
                  
+
 <div class="alert"><b>Note</b>   A zero <b>DirtyRectCount</b> and <b>MoveRegionCount</b> value indicates there were no desktop updates and the
-    PresentationFrameNumber is the same as last frame</div><div> </div>
+    PresentationFrameNumber is the same as last frame</div>
+<div> </div>
 
 ### -field HwProtectedSurface
 
@@ -122,4 +126,6 @@ typedef struct IDDCX_METADATA {
 
 
                      DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until <a href="..\iddcx\nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md">IddCxSwapChainReleaseAndAcquire</a> is called again
-<div class="alert"><b>Note</b>  This surface is always a A8R8G8B8 formated surface</div><div> </div>
+
+<div class="alert"><b>Note</b>  This surface is always a A8R8G8B8 formated surface</div>
+<div> </div>

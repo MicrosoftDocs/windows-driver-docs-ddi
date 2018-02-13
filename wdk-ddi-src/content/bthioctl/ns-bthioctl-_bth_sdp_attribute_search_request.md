@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 46198c94-df83-42bb-ad3e-181f252ccd99
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST
+ms.keywords: BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,8 +84,7 @@ typedef struct _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST {
 
 
 
-#### 
-
+##### 
 
 
 ### -field recordHandle
@@ -111,6 +110,7 @@ A handle to the remote SDP server that is returned by the
 ## -remarks
 
 
+
 This structure is passed as the input buffer to the 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">
     IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> IOCTL.
@@ -123,15 +123,24 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 
-## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+## -see-also
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+
+
 
  
 

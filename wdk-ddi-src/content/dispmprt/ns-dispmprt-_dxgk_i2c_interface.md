@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aba0ebc8-2c92-4d27-a35b-9ac25ac6e5ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_I2C_INTERFACE structure pointer [Display Devices], _DXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE, DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, display.dxgk_i2c_interface, PDXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], dispmprt/DXGK_I2C_INTERFACE
+ms.keywords: dispmprt/DXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE, display.dxgk_i2c_interface, _DXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,6 +111,8 @@ A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk
 ## -remarks
 
 
+
 A kernel-mode component that needs to use the I2C interface calls the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a> function.
+
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5A995E97-4522-44CD-89C3-521724142D7F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure [Display Devices], display.d3d12ddi_video_process_output_stream_desc_0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032
+ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, display.d3d12ddi_video_process_output_stream_desc_0032, d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,6 +111,7 @@ If TRUE, stereo output is enabled. Otherwise, the video processor produces mono 
 #### - BackgroundColor[4]
 
 The video processor uses the background color to fill areas of the target rectangle that do not contain a video image. Areas outside the target rectangle are not affected.  The meaning of the values is specified by the ColorSpace parameter.
+
 <table>
 <tr>
 <th></th>
@@ -137,5 +138,6 @@ The video processor uses the background color to fill areas of the target rectan
 <td>A</td>
 <td>A</td>
 </tr>
-</table> 
+</table>
+ 
 

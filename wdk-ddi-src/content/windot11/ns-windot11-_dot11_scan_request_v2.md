@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, netvista.dot11_scan_request_v2, windot11/PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], _DOT11_SCAN_REQUEST_V2, windot11/DOT11_SCAN_REQUEST_V2, *PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], DOT11_SCAN_REQUEST_V2
+ms.keywords: netvista.dot11_scan_request_v2, *PDOT11_SCAN_REQUEST_V2, Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, _DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], DOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SCAN_REQUEST_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,6 +104,28 @@ The type of scan that the 802.11 station performs. The data type for this member
 
 
 
+
+
+#### dot11_scan_type_active
+
+The station transmits an 802.11 Probe Request frame on each channel that it scans. It dwells on
+       the channel long enough to receive 802.11 Probe Response frames for its Probe Request. The station
+       also receives 802.11 Beacon frames sent on the channel.
+
+
+
+#### dot11_scan_type_passive
+
+The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
+       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
+
+
+
+#### dot11_scan_type_auto
+
+The station can perform active or passive scans, or it can use a combination of both scan
+       types.
+
 Regardless of the value of 
      <b>dot11ScanType</b>, the 802.11 station must perform a scan type of 
      <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory
@@ -119,30 +141,13 @@ If the
      If the 
      <b>dot11_scan_type_forced</b> bit is not set, the 802.11 station can perform a complete scan, or it can
      perform a partial scan on a subset of the supported channels.
+
 <div class="alert"><b>Note</b>  The 
      <b>dot11_scan_type_forced</b> bit is only supported when the miniport driver is operating in Extensible
      Station (ExtSTA) mode. The 
      <b>dot11_scan_type_forced</b> bit must be set through a bitwise OR with a DOT11_SCAN_TYPE
-     value.</div><div> </div>
-
-#### dot11_scan_type_active
-
-The station transmits an 802.11 Probe Request frame on each channel that it scans. It dwells on
-       the channel long enough to receive 802.11 Probe Response frames for its Probe Request. The station
-       also receives 802.11 Beacon frames sent on the channel.
-
-
-#### dot11_scan_type_passive
-
-The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
-       Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
-
-
-#### dot11_scan_type_auto
-
-The station can perform active or passive scans, or it can use a combination of both scan
-       types.
-
+     value.</div>
+<div> </div>
 
 ### -field bRestrictedScan
 
@@ -151,6 +156,7 @@ If this member is <b>TRUE</b>, the 802.11 station performs a scan restricted to 
      
 
 The miniport driver must ignore this member if any of the following are true:
+
 <ul>
 <li>
 The miniport driver is operating in ExtSTA mode.
@@ -198,6 +204,7 @@ If this member is <b>TRUE</b>, the 802.11 station must include the list of reque
 The miniport driver must ignore this member (along with the 
      <b>uRequestIDsOffset</b> and 
      <b>uNumOfRequestIDs</b> members) if any of the following are true:
+
 <ul>
 <li>
 The miniport driver is operating in ExtSTA mode.
@@ -285,6 +292,7 @@ The buffer containing optional data as specified through other members of this s
 ## -remarks
 
 
+
 The 802.11 station performs explicit scan operations following the OID set request of 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>. The station
     performs the scan operation by using the parameters defined through the DOT11_SCAN_REQUEST_V2, which
@@ -300,11 +308,16 @@ For more information about the ExtSTA operation mode, see
 
 
 
+
 ## -see-also
+
+<a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
-<a href="..\windot11\ns-windot11-_dot11_phy_type_info.md">DOT11_PHY_TYPE_INFO</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FC0E8267-5AA6-47D6-9F98-B6B19CA3F260
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeResume, StorportEtwEventOpcodeDC_Stop, StorPortEtwEvent8, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeSuspend, StorportEtwLevelVerbose, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeExtension, StorportEtwLevelLogAlways, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeReply, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelError, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeStop, storport/StorPortEtwEvent8, StorportEtwEventOpcodeDC_Start, StorportEtwLevelCritical, storage.storportetwevent8, StorportEtwLevelInformational, StorportEtwLevelWarning, StorportEtwEventOpcodeReceive
+ms.keywords: StorportEtwEventOpcodeStart, StorportEtwEventOpcodeDC_Start, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwLevelInformational, StorportEtwLevelError, StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeStop, storport/StorPortEtwEvent8, STORPORT_ETW_EVENT_KEYWORD_POWER, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwLevelWarning, StorportEtwEventOpcodeInfo, StorPortEtwEvent8 routine [Storage Devices], StorportEtwLevelCritical, StorportEtwEventOpcodeReceive, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorPortEtwEvent8, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeExtension, storage.storportetwevent8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,6 +114,7 @@ The description text for the event. This text string must be &lt;= STORPORT_ETW_
 ### -param EventKeywords [in]
 
 Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -159,12 +160,14 @@ The event is related to device enumeration.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param EventLevel [in]
 
 The event level. This value can indicate the importance or severity of the event. This is one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -230,12 +233,14 @@ Verbose event information provided.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param EventOpcode [in]
 
 The operational nature of the event. This is one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -341,7 +346,8 @@ Device or unit is  suspended pending completion of another operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Srb [in, optional]
@@ -432,7 +438,9 @@ The value for parameter 8.
 ## -returns
 
 
+
 <b>StorPortEtwEvent8</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -483,11 +491,14 @@ An ETW parameter name is greater than the maximum name length.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If any parameter is not named, ParameterXName = NULL, the routine will set the corresponding parameter value to 0.
@@ -496,11 +507,16 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
+
+
 
 <a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
 
-<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
+
 
  
 

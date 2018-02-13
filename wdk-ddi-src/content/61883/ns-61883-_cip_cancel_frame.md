@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 952625D0-BA82-40C1-8EBF-8CD54C0E4C40
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_CIP_CANCEL_FRAME, IEEE.cip_cancel_frame, *PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], 61883/PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], 61883/CIP_CANCEL_FRAME, CIP_CANCEL_FRAME"
+ms.keywords: "*PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], _CIP_CANCEL_FRAME, CIP_CANCEL_FRAME, 61883/CIP_CANCEL_FRAME, PCIP_CANCEL_FRAME, IEEE.cip_cancel_frame, 61883/PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5370
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

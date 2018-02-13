@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: e0263969-1c6a-4805-a647-d4b9df83ef71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UnknownPowerReportingType, pointofservicecommontypes/Standard, pos.unifiedpospowerreportingtype, Standard, pointofservicecommontypes/UnknownPowerReportingType, pointofservicecommontypes/Advanced, Advanced, DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType enumeration, pointofservicecommontypes/DriverUnifiedPosPowerReportingType
+ms.keywords: pointofservicecommontypes/UnknownPowerReportingType, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Standard, DriverUnifiedPosPowerReportingType enumeration, Standard, Advanced, UnknownPowerReportingType, DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Advanced, pos.unifiedpospowerreportingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax

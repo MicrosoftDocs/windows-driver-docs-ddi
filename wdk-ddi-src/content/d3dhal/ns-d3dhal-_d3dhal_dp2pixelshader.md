@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 820e7667-3adf-49c9-ab44-303f6ea7f4b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, d3dhal/D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER structure [Display Devices], D3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], *LPD3DHAL_DP2PIXELSHADER, display.d3dhal_dp2pixelshader"
+ms.keywords: d3dhal/D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], LPD3DHAL_DP2PIXELSHADER, _D3DHAL_DP2PIXELSHADER, display.d3dhal_dp2pixelshader, D3DHAL_DP2PIXELSHADER structure [Display Devices], *LPD3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,19 +79,27 @@ Specifies the handle to the pixel shader that is assigned by the runtime. For de
 ## -remarks
 
 
+
 When switching from fixed function pixel processing to programmable vertex processing the values of, for example, legacy render states and texture stage states should be preserved. If and when a switch from programmable to fixed function pixel processing occurs (the driver receives a D3DDP2OP_SETPIXELSHADER with a shader handle of zero), that preserved state should be restored.
 
 When switching between programmable shaders, any constant register that has a value specified in the definition of that shader should be set to that value. The values of all other constant registers should remain unchanged.
 
 
 
-## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
+## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
 
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
+
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 

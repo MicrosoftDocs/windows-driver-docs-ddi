@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateKeyedMutex function [Display Devices], display.d3dkmtcreatekeyedmutex, D3DKMTCreateKeyedMutex, OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMTCreateKeyedMutex
+ms.keywords: D3DKMTCreateKeyedMutex function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, display.d3dkmtcreatekeyedmutex, D3DKMTCreateKeyedMutex, d3dkmthk/D3DKMTCreateKeyedMutex, PFND3DKMT_CREATEKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTCreateKeyedMutex(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3D
 ## -returns
 
 
+
 <b>D3DKMTCreateKeyedMutex</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +133,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a>
+
+
 
  
 

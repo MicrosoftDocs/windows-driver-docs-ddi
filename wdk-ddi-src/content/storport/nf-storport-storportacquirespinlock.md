@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortAcquireSpinLock, storport/StorPortAcquireSpinLock, storage.storportacquirespinlock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, StorPortAcquireSpinLock routine [Storage Devices]
+ms.keywords: storport/StorPortAcquireSpinLock, storage.storportacquirespinlock, StorPortAcquireSpinLock routine [Storage Devices], storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml, StorPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,16 +94,20 @@ A pointer to a buffer that, on return, will contain a lock handle. To release th
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Miniport drivers must ensure that they do not attempt to acquire a lock that is already held or acquire locks in an incorrect order. Either of these mistakes will result in system deadlock.
 
 Certain locks are held automatically by the port driver before it calls the miniport driver callback routines. For each miniport driver callback routine, the following table indicates which locks the port driver acquires automatically before calling the callback routine.
+
 <table>
 <tr>
 <th>Miniport driver routine</th>
@@ -280,9 +284,11 @@ None
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The locks held by the port driver influence which locks the callback routines are allowed to acquire, because spin locks must be acquired in the following order:
+
 <ul>
 <li>
 DPC or StartIo
@@ -292,9 +298,11 @@ DPC or StartIo
 Interrupt
 
 </li>
-</ul>For instance, if the port driver acquires the <i>Interrupt</i> spin lock before calling a callback routine, that callback routine can no longer acquire the <i>DPC</i> or <i>StartIo</i> spin lock because the <i>DPC</i> and <i>StartIo</i> spin locks are of a lower order than the <i>Interrupt</i> spin lock. On the other hand, if the port driver acquires the <i>StartIo</i> spin lock before calling a callback routine, that callback routine, when executed, could still acquire an  <i>Interrupt</i> or a <i>DPC</i> spin lock.
+</ul>
+For instance, if the port driver acquires the <i>Interrupt</i> spin lock before calling a callback routine, that callback routine can no longer acquire the <i>DPC</i> or <i>StartIo</i> spin lock because the <i>DPC</i> and <i>StartIo</i> spin locks are of a lower order than the <i>Interrupt</i> spin lock. On the other hand, if the port driver acquires the <i>StartIo</i> spin lock before calling a callback routine, that callback routine, when executed, could still acquire an  <i>Interrupt</i> or a <i>DPC</i> spin lock.
 
 The following table indicates which spin locks each miniport driver routine can acquire. In those cases where the miniport driver routine must obtain both the <i>StartIo</i> spin lock and the <i>Interrupt</i> spin lock, the routine must always acquire the <i>StartIo</i> spin lock first.
+
 <table>
 <tr>
 <th>Miniport driver routine</th>
@@ -473,7 +481,9 @@ DPC, StartIo, Interrupt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -481,7 +491,11 @@ DPC, StartIo, Interrupt
 
 <a href="..\storport\ne-storport-_stor_spinlock.md">STOR_SPINLOCK</a>
 
+
+
 <a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
+
+
 
  
 

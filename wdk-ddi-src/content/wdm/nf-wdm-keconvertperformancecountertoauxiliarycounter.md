@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertperformancecountertoauxiliarycounter, KeConvertPerformanceCounterToAuxiliaryCounter, wdm/KeConvertPerformanceCounterToAuxiliaryCounter
+ms.keywords: kernel.keconvertperformancecountertoauxiliarycounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], KeConvertPerformanceCounterToAuxiliaryCounter, wdm/KeConvertPerformanceCounterToAuxiliaryCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a variable that contains the estimated conversion error in units of
 ## -returns
 
 
+
 <b>KeConvertPerformanceCounterToAuxiliaryCounter</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,27 +140,35 @@ The routine cannot convert the specified value with acceptable accuracy.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Make sure that the specified performance counter value is:
+
 <ul>
 <li>Within +/- 10s compared to the current performance counter read value.
 
 </li>
 <li>Not earlier than the recorded performance counter value at the last system boot or recovery from S3/S4 state.</li>
-</ul>The <i>ConversionError</i> value is the difference, in nanoseconds, between the expected calculated value and the actual calculated value for the auxiliary counter.
+</ul>
+The <i>ConversionError</i> value is the difference, in nanoseconds, between the expected calculated value and the actual calculated value for the auxiliary counter.
 If the <i>ConversionError</i> value is greater than the expected value (determined by you), then call the routine again. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keconvertauxiliarycountertoperformancecounter.md">KeConvertAuxiliaryCounterToPerformanceCounter</a>
+
+
 
  
 

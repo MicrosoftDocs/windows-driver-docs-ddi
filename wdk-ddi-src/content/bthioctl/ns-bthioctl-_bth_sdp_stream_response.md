@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.bth_sdp_stream_response, BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE, bthioctl/BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], _BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE
+ms.keywords: PBTH_SDP_STREAM_RESPONSE, bthioctl/BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, _BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bltooth.bth_sdp_stream_response, *PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_STREAM_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE"
+req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
 ---
 
 # _BTH_SDP_STREAM_RESPONSE structure
@@ -88,6 +88,7 @@ The first byte of the SDP record stream.
 ## -remarks
 
 
+
 This structure is returned with a raw stream to the output buffer of the 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">
     IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> and 
@@ -101,12 +102,17 @@ The
 
 
 
+
 ## -see-also
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
 
+
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
+
+
 
  
 

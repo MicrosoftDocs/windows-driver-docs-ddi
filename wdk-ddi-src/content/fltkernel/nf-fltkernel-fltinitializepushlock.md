@@ -7,8 +7,8 @@ old-location: ifsk\fltinitializepushlock.htm
 old-project: ifsk
 ms.assetid: 49b624d6-ef06-4e73-98ac-b0be1669afc7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltInitializePushLock, fltkernel/FltInitializePushLock, ifsk.fltinitializepushlock, FltApiRef_e_to_o_348be4fc-280f-4dc3-b5fb-ada1aa037d09.xml, FltInitializePushLock routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FltInitializePushLock routine [Installable File System Drivers], FltInitializePushLock, ifsk.fltinitializepushlock, FltApiRef_e_to_o_348be4fc-280f-4dc3-b5fb-ada1aa037d09.xml, fltkernel/FltInitializePushLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,14 +75,18 @@ Pointer to the caller-supplied storage, which must be at least the value of <b>s
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Push locks are similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544281">ERESOURCE structures</a> (also called "resources") in the following ways: 
+
 <ul>
 <li>
 Push locks can be used for synchronization by a set of threads. 
@@ -96,7 +100,9 @@ Push locks can be acquired for shared or exclusive access.
 Although the caller provides the storage for the push lock variable, the EX_PUSH_LOCK structure is opaque: that is, its members are reserved for system use. 
 
 </li>
-</ul>Push locks offer the following advantages over ERESOURCE structures: 
+</ul>
+Push locks offer the following advantages over ERESOURCE structures: 
+
 <ul>
 <li>
 When push locks are mostly acquired for shared access, they are more efficient than ERESOURCE structures. 
@@ -110,7 +116,9 @@ The storage for push locks can be allocated from paged or nonpaged pool. ERESOUR
 EX_PUSH_LOCK structures are much smaller than ERESOURCE structures. 
 
 </li>
-</ul>Push locks have the following disadvantages when compared with ERESOURCE structures: 
+</ul>
+Push locks have the following disadvantages when compared with ERESOURCE structures: 
+
 <ul>
 <li>
 The algorithm for granting exclusive access is not fair to all threads. If there is a high level of exclusive-lock contention, there is no guarantee about the order in which threads will be granted exclusive access. 
@@ -124,7 +132,8 @@ There are no support routines for determining the current owner of a push lock. 
 Push locks cannot be acquired recursively.
 
 </li>
-</ul>To acquire a push lock for exclusive access, call <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>. 
+</ul>
+To acquire a push lock for exclusive access, call <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>. 
 
 To acquire a push lock for shared access, call <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>. 
 
@@ -134,21 +143,32 @@ To delete a push lock, call <a href="..\fltkernel\nf-fltkernel-fltdeletepushlock
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletepushlock.md">FltDeletePushLock</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
 
 <a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletepushlock.md">FltDeletePushLock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltInitializePushLock routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltInitializePushLock routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

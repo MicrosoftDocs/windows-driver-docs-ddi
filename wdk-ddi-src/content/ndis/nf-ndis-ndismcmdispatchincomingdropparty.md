@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml
+ms.keywords: netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, ndis/NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCmDispatchIncomingDropParty
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmDispatchIncomingDropParty macro
@@ -93,6 +93,8 @@ TBD
 
 
 
+
+
 #### - DropStatus [in]
 
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
@@ -121,6 +123,7 @@ Specifies the size in bytes of the buffer, zero if
 
 
 ## -remarks
+
 
 
 In the course of normal network operations, an MCM driver calls 
@@ -153,19 +156,30 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
-   NdisCmDispatchIncomingDropParty</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
 
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
    NdisMCmDispatchIncomingCloseCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
+
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+   NdisCmDispatchIncomingDropParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
 
  
 

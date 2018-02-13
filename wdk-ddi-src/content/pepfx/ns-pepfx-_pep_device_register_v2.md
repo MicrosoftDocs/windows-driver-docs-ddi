@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67747FF9-4808-45BB-8809-24B2CE56546B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], pepfx/PPEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER, PEP_DEVICE_REGISTER, PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2, kernel.pep_device_register_v2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2, pepfx/PEP_DEVICE_REGISTER_V2
+ms.keywords: PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], kernel.pep_device_register_v2, PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, *PPEP_DEVICE_REGISTER_V2, _PEP_DEVICE_REGISTER_V2, pepfx/PEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -39,7 +39,7 @@ apiname:
 -	PEP_DEVICE_REGISTER_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2"
+req.typenames: PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2
 ---
 
 # _PEP_DEVICE_REGISTER_V2 structure
@@ -86,7 +86,9 @@ The first element in an array of pointers to <a href="..\pepfx\ns-pepfx-_pep_com
 ## -remarks
 
 
+
 The <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
+
 
 
 
@@ -94,7 +96,11 @@ The <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</
 
 <a href="..\pepfx\ns-pepfx-_pep_component_v2.md">PEP_COMPONENT_V2</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE</a>
+
+
 
  
 

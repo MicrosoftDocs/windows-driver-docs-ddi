@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfworkitem/WdfWorkItemFlush, PFN_WDFWORKITEMFLUSH, wdf.wdfworkitemflush, WdfWorkItemFlush method, DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, kmdf.wdfworkitemflush
+ms.keywords: kmdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush, WdfWorkItemFlush, WdfWorkItemFlush method, PFN_WDFWORKITEMFLUSH, wdf.wdfworkitemflush, DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfWorkItemFlush
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG"
+req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A handle to a framework work-item object that is obtained from a previous call t
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,7 +90,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If your driver calls the <b>WdfWorkItemFlush</b> method, the method does not return until a system worker thread has removed the specified work item from the work-item queue and called the driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function, and the <i>EvtWorkItem</i> callback function has subsequently returned after processing the work item.
@@ -99,10 +102,46 @@ Most drivers that use work items do not need to call <b>WdfWorkItemFlush</b>. A 
 For more information about work items, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 
+#### Examples
+
+The following code example is an <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a> callback function from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample driver. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+ToastMon_EvtIoTargetQueryRemove(
+    WDFIOTARGET IoTarget
+)
+{
+    PTARGET_DEVICE_INFO  targetDeviceInfo = NULL;
+    //
+    // Get the I/O target object's context.
+    //
+    targetDeviceInfo = GetTargetDeviceInfo(IoTarget);
+    //
+    // Ensure that the I/O target's work item
+    // has been processed before closing the target.
+    //
+    WdfWorkItemFlush(targetDeviceInfo-&gt;WorkItem);
+    WdfIoTargetCloseForQueryRemove(IoTarget);
+
+    return STATUS_SUCCESS;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+
+
 
  
 

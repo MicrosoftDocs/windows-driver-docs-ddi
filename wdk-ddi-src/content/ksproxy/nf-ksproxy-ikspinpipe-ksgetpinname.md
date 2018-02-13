@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2757FF0D-C84E-4309-AFD4-D9FE1F4D77CE
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPinName method [Streaming Media Devices], ksproxy/IKsPinPipe::KsGetPinName, stream.ikspinpipe_ksgetpinname, IKsPinPipe::KsGetPinName, KsGetPinName method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsGetPinName method, IKsPinPipe, KsGetPinName
+ms.keywords: KsGetPinName method [Streaming Media Devices], stream.ikspinpipe_ksgetpinname, IKsPinPipe interface [Streaming Media Devices], KsGetPinName method, KsGetPinName method [Streaming Media Devices], IKsPinPipe interface, KsGetPinName, ksproxy/IKsPinPipe::KsGetPinName, IKsPinPipe::KsGetPinName, IKsPinPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,16 +70,21 @@ HRESULT KsGetPinName(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: "_ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, *PACPI_EVAL_OUTPUT_BUFFER, acpi.acpi_eval_output_buffer, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1"
+ms.keywords: acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, acpi.acpi_eval_output_buffer, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], *PACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_OUTPUT_BUFFER_V1
 product: Windows
 targetos: Windows
-req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER
+req.typenames: "*PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER"
 ---
 
 # _ACPI_EVAL_OUTPUT_BUFFER_V1 structure
@@ -93,6 +93,7 @@ An array of <b>ACPI_METHOD_ARGUMENT</b> structures. For more information, see Re
 ## -remarks
 
 
+
 The following ACPI IOCTLs return output arguments from ACPI control methods in an <b>ACPI_EVAL_OUTPUT_BUFFER</b> structure:
 
 
@@ -117,9 +118,12 @@ For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures 
 
 
 
+
 ## -see-also
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+
 
  
 

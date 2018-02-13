@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C4021856-835D-4B4B-9795-4FEEEFAC06B8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/SET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY, IEEE.set_unit_directory, *PSET_UNIT_DIRECTORY, _SET_UNIT_DIRECTORY, 61883/PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY structure pointer [Buses], SET_UNIT_DIRECTORY structure [Buses]
+ms.keywords: PSET_UNIT_DIRECTORY structure pointer [Buses], IEEE.set_unit_directory, _SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY, 61883/PSET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], SET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_UNIT_DIRECTORY
 product: Windows
 targetos: Windows
-req.typenames: SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY
+req.typenames: "*PSET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY"
 ---
 
 # _SET_UNIT_DIRECTORY structure
@@ -101,13 +101,17 @@ If REMOVE_UNIT_DIRECTORY_ENTRY is set in Flags, <b>hCromEntry</b> is null.
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

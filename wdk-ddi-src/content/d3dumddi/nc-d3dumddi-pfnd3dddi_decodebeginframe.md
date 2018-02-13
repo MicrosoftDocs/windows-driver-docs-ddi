@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DecodeBeginFrame(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodebeginframe.md">D3DDDIARG_DECODEBEGINFRAME</a> structure that describes information for the DirectX VA decoder to start decoding a frame.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY DecodeBeginFrame(
 ## -returns
 
 
+
 <b>DecodeBeginFrame</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,24 +124,34 @@ Decoding successfully began.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>DecodeBeginFrame</b> function notifies the user-mode display driver that its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeexecute.md">DecodeExecute</a> function can be called on the specified decode device.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodebeginframe.md">D3DDDIARG_DECODEBEGINFRAME</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeexecute.md">DecodeExecute</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodebeginframe.md">D3DDDIARG_DECODEBEGINFRAME</a>
+
+
 
  
 

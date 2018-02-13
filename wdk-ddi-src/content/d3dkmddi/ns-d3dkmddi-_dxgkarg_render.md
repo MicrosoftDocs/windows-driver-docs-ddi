@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_RENDER structure [Display Devices], *INOUT_PDXGKARG_RENDER, DXGKARG_RENDER, display.dxgkarg_render, d3dkmddi/DXGKARG_RENDER, _DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml
+ms.keywords: DXGKARG_RENDER structure [Display Devices], d3dkmddi/DXGKARG_RENDER, *INOUT_PDXGKARG_RENDER, _DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, DXGKARG_RENDER, display.dxgkarg_render
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,7 +84,9 @@ typedef struct _DXGKARG_RENDER {
 ### -field pCommand
 
 [in] A pointer to the start of the command buffer.
-<div class="alert"><b>Note</b>  When <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> is called, the display miniport driver must validate the buffer. See Remarks in <b>DxgkDdiRender</b> for important info on how the driver should access this member.</div><div> </div>
+
+<div class="alert"><b>Note</b>  When <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> is called, the display miniport driver must validate the buffer. See Remarks in <b>DxgkDdiRender</b> for important info on how the driver should access this member.</div>
+<div> </div>
 
 ### -field CommandLength
 
@@ -124,7 +126,9 @@ typedef struct _DXGKARG_RENDER {
 ### -field pPatchLocationListIn
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the patch-location list that the user-mode display driver provides in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function.
-<div class="alert"><b>Note</b>  When <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> is called, the display miniport driver must validate the buffer. See Remarks in <b>DxgkDdiRender</b> for important info on how the driver should access this member.</div><div> </div>
+
+<div class="alert"><b>Note</b>  When <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> is called, the display miniport driver must validate the buffer. See Remarks in <b>DxgkDdiRender</b> for important info on how the driver should access this member.</div>
+<div> </div>
 
 ### -field PatchLocationListInSize
 
@@ -160,21 +164,33 @@ typedef struct _DXGKARG_RENDER {
 
 
 
+
     Support for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function is added beginning with Windows 7 for display adapters that support <a href="https://msdn.microsoft.com/03db58e6-a6d5-4b6f-ba71-d22a985f9c57">GDI Hardware Acceleration</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+
+
 
  
 

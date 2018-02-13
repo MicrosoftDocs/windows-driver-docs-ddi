@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCheckForDeviceExistence function [Display Devices], VideoPortCheckForDeviceExistence, VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, video/VideoPortCheckForDeviceExistence, display.videoportcheckfordeviceexistence
+ms.keywords: VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, video/VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPortCheckForDeviceExistence, display.videoportcheckfordeviceexistence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,6 +107,7 @@ Specifies the subsystem ID.
 ### -param Flags [in]
 
 Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemID</i> parameters should be used in checking for the new device. This parameter can be the logical OR of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -132,19 +133,24 @@ Use the value in the <i>SubSystemID</i> parameter in checking for the new device
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>VideoPortCheckForDeviceExistence</b> returns <b>TRUE</b> if the device exists in the system, and <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
 
 
+
 For more information about PCI identifiers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. 
+
 
 

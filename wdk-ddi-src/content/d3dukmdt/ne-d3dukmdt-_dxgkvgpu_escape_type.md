@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7081B59-DB24-4BFE-B1BD-3BE228804AB2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKVGPU_ESCAPE_TYPE, display.dxgkvgpu_escape_type, DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, _DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices]
+ms.keywords: d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], _DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_type, DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,13 +76,10 @@ Indicates the PCI config of the escape type.
 ### -field DXGKVGPU_ESCAPE_TYPE_WRITE_PCI_CONFIG
 
 
-
 ### -field DXGKVGPU_ESCAPE_TYPE_INITIALIZE
 
 
-
 ### -field DXGKVGPU_ESCAPE_TYPE_RELEASE
-
 
 
 ### -field DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE

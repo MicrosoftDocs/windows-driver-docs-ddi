@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, IKsPin::KsMediaSamplesCompleted, IKsPin, ksproxy/IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, stream.ikspin_ksmediasamplescompleted
+ms.keywords: ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, KsMediaSamplesCompleted, IKsPin, IKsPin::KsMediaSamplesCompleted, stream.ikspin_ksmediasamplescompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, ksproxy/IKsPin::KsMediaSamplesCompleted, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGME
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 Input pins do nothing with the supplied header information and just return NOERROR. Output pins remove the head of the input and output (I/O) queue and add the next in the list to the I/O slots.
@@ -88,13 +91,20 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
 
  
 

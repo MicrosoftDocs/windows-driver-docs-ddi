@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: cd32b54a-57e0-496c-b18c-84a6c75d8820
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFStrings2, Remove method [Windows Device Testing Framework], Remove, dtf.iwdtfstrings2_remove, IWDTFStrings2::Remove, wdtf/IWDTFStrings2::Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, IWDTFStrings2 interface [Windows Device Testing Framework], Remove method, Remove method [Windows Device Testing Framework], IWDTFStrings2 interface
+ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework], Remove method, Remove, IWDTFStrings2, Remove method [Windows Device Testing Framework], IWDTFStrings2 interface, wdtf/IWDTFStrings2::Remove, dtf.iwdtfstrings2_remove, IWDTFStrings2::Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Remove method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The 0-based index value of the string to remove.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfstrings2.md">IWDTFStrings2</a>
+
+
 
  
 

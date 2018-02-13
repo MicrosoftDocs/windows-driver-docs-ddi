@@ -84,6 +84,8 @@ __checkReturn HRESULT APIENTRY CreatePixelShader(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createpixelshader.md">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
@@ -97,14 +99,18 @@ __checkReturn HRESULT APIENTRY CreatePixelShader(
 ## -returns
 
 
+
 <b>CreatePixelShader</b> returns S_OK or an appropriate error result if the pixel shader code object is not successfully created.
+
 
 
 
 ## -remarks
 
 
+
 For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
+
 
 
 
@@ -112,7 +118,11 @@ For more information about programming shader assemblers, see <a href="https://m
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createpixelshader.md">D3DDDIARG_CREATEPIXELSHADER</a>
+
+
 
  
 

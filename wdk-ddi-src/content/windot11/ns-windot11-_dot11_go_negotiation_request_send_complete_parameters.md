@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2F10078E-CE9F-425D-AB48-7A27906830B0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/ DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, netvista._dot11_go_negotiation_request_send_complete_parameters
+ms.keywords: netvista._dot11_go_negotiation_request_send_complete_parameters, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/ DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS"
+req.typenames: DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS, *PDOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,7 @@ typedef struct _DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS {
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following:
+
 <table>
 <tr>
 <th>Member</th>
@@ -93,7 +94,8 @@ Specifies the type, revision and size of the <b>DOT11_GO_NEGOTIATION_REQUEST_SEN
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PeerDeviceAddress
@@ -124,6 +126,8 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439774">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_REQUEST_SEND_COMPLETE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: baa1b837-6f9b-41f4-acf8-e640f8e9f8da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeCustom, _NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, *PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeMaximum, NdisSwitchPropertyTypeUndefined, ntddndis/NdisSwitchPropertyTypeCustom, ntddndis/NdisSwitchPropertyTypeMaximum, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeUndefined, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PROPERTY_TYPE
+ms.keywords: NDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeCustom, NdisSwitchPropertyTypeUndefined, ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, NdisSwitchPropertyTypeCustom, ntddndis/NdisSwitchPropertyTypeMaximum, PNDIS_SWITCH_PROPERTY_TYPE, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeMaximum, _NDIS_SWITCH_PROPERTY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PROPERTY_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE"
+req.typenames: NDIS_SWITCH_PROPERTY_TYPE, *PNDIS_SWITCH_PROPERTY_TYPE
 ---
 
 # _NDIS_SWITCH_PROPERTY_TYPE enumeration
@@ -89,7 +89,9 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_PROPERTY_TYPE</b> enumeration data type: 
+
 
 
 <ul>
@@ -111,7 +113,9 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 
 
 </li>
-</ul>For more information about extensible switch  policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
+</ul>
+For more information about extensible switch  policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
+
 
 
 
@@ -121,11 +125,19 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_delete_parameters.md">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
 
+
+
 <b></b>
+
+
 
  
 

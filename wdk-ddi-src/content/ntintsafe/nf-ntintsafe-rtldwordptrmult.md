@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlDWordPtrMult, kernel.rtldwordptrmult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlDWordPtrMult
+ms.keywords: kernel.rtldwordptrmult, RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlDWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

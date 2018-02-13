@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 81DE84F8-7D2D-464F-BA5D-4D92D0EE9149
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
+ms.keywords: SerCx2PioReceiveReady, 2/SerCx2PioReceiveReady, serports.sercx2pioreceiveready, SerCx2PioReceiveReady method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/se
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 To initiate a PIO-receive transaction, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_read_buffer.md">EvtSerCx2PioReceiveReadBuffer</a> event callback function and supplies a read buffer to which to transfer the data from the receive FIFO in the serial controller. If the return value from this function indicates that the read buffer was only partially filled before the receive FIFO became empty, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_enable_ready_notification.md">EvtSerCx2PioReceiveEnableReadyNotification</a> event callback routine to enable a ready notification to occur when more data is available to be read.
@@ -93,15 +96,24 @@ Additionally, SerCx2 uses these ready notifications to detect interval time-outs
 
 
 
-## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+## -see-also
 
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_read_buffer.md">EvtSerCx2PioReceiveReadBuffer</a>
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
+
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+
+
 
  
 

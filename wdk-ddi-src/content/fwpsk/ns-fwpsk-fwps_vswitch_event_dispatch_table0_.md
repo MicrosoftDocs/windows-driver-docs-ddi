@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e949e6d-7448-4f76-b8a1-6d050261fb21
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_vswitch_event_dispatch_table0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_
+ms.keywords: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure [Network Drivers Starting with Windows Vista], FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, netvista.fwps_vswitch_event_dispatch_table0, fwpsk/FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,6 +117,7 @@ The entry point for the <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_re
 ## -remarks
 
 
+
 The callback driver passes a pointer to an initialized  FWPS_VSWITCH_EVENT_DISPATCH_TABLE0  structure to the <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a> function.
 
 The following definition is in fwpvi.h: 
@@ -126,23 +127,40 @@ The following definition is in fwpvi.h:
 
 
 
+
 ## -see-also
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_policy_event_callback0.md">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_filter_engine_reorder_callback0.md">FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_policy_event_callback0.md">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+
+
 
 <a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_filter_engine_reorder_callback0.md">FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</a>
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
+
+
 
  
 

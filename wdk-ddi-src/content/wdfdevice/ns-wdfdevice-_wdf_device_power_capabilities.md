@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 56bb271f-d69c-4523-87cb-4922b405f808
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, kmdf.wdf_device_power_capabilities, WDF_DEVICE_POWER_CAPABILITIES structure, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES, _WDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES, wdf.wdf_device_power_capabilities
+ms.keywords: PWDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, wdf.wdf_device_power_capabilities, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES, _WDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES structure, WDF_DEVICE_POWER_CAPABILITIES, kmdf.wdf_device_power_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_POWER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES"
+req.typenames: WDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 
@@ -158,9 +158,11 @@ If a driver specifies an <b>IdealDxStateForSx</b> value that represents a higher
 ## -remarks
 
 
+
 The WDF_DEVICE_POWER_CAPABILITIES structure is used as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>.
 
 Several members use the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a> type. For these members, the following rules apply:
+
 <ul>
 <li>
 A value of <b>WdfTrue</b> indicates that the device supports the capability and a value of <b>WdfFalse</b> indicates it does not. 
@@ -174,13 +176,17 @@ Function drivers and filter drivers can specify <b>WdfTrue</b> or <b>WdfFalse</b
 When a bus driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a> after it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-device-objects-in-a-bus-driver">creates a device object</a> for a child device, it should specify <b>WdfTrue</b> or <b>WdfFalse</b>. A bus driver can specify <b>WdfUseDefault</b> for a child device, but in this case <b>WdfUseDefault</b> is the same as <b>WdfFalse</b>.
 
 </li>
-</ul>To initialize a WDF_DEVICE_POWER_CAPABILITIES structure, a driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>.
+</ul>
+To initialize a WDF_DEVICE_POWER_CAPABILITIES structure, a driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a>
+
+
 
  
 

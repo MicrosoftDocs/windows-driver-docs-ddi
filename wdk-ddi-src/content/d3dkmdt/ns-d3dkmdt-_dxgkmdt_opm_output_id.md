@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c7b2e4ba-7f76-474d-9752-0934898cac09
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_OUTPUT_ID structure [Display Devices], DXGKMDT_OPM_OUTPUT_ID, display.dxgkmdt_opm_output_id, DmStructs_b0696fe6-3647-4a09-9817-578d4cfbf60a.xml, _DXGKMDT_OPM_OUTPUT_ID, d3dkmdt/DXGKMDT_OPM_OUTPUT_ID
+ms.keywords: DXGKMDT_OPM_OUTPUT_ID, DmStructs_b0696fe6-3647-4a09-9817-578d4cfbf60a.xml, display.dxgkmdt_opm_output_id, d3dkmdt/DXGKMDT_OPM_OUTPUT_ID, DXGKMDT_OPM_OUTPUT_ID structure [Display Devices], _DXGKMDT_OPM_OUTPUT_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,17 @@ A UINT64 value that identifies the output connector.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
  
 

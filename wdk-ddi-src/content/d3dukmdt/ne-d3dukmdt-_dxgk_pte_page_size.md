@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 54ADAD37-C479-4F07-B0DD-CDF25AA4390C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, display.dxgk_pte_page_size, d3dukmdt/DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_64KB"
+ms.keywords: d3dukmdt/DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, display.dxgk_pte_page_size, DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_SIZE, _DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_TABLE_PAGE_64KB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,6 +81,8 @@ Indicates the lower page table level uses 64 KB pages.
 ## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_dxgk_pte.md">DXGK_PTE</a>
+
+
 
  
 

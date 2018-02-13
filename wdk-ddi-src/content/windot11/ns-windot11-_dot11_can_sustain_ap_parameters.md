@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_can_sustain_ap_parameters, _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, DOT11_CAN_SUSTAIN_AP_PARAMETERS, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,8 +82,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -91,15 +89,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_CAN_SUSTAIN_AP_PARAMETERS_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ulReason
@@ -110,9 +113,6 @@ A ULONG value that specifies the reason why the NIC can sustain the AP. An IHV c
 
 
 
-If the value of 
-     <b>ulReason</b> is in the range of DOT11_CAN_SUSTAIN_AP_REASON_IHV_START and
-     DOT11_STOP_AP_REASON_IHV_END, inclusive, the operating system takes no action.
 
 
 #### DOT11_CAN_SUSTAIN_AP_REASON_IHV_END
@@ -120,12 +120,18 @@ If the value of
 The end value of possible IHV-specified reasons.
 
 
+
 #### DOT11_CAN_SUSTAIN_AP_REASON_IHV_START
 
 The start value of possible IHV-specified reasons.
 
+If the value of 
+     <b>ulReason</b> is in the range of DOT11_CAN_SUSTAIN_AP_REASON_IHV_START and
+     DOT11_STOP_AP_REASON_IHV_END, inclusive, the operating system takes no action.
+
 
 ## -remarks
+
 
 
 The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS structure when the driver
@@ -135,12 +141,17 @@ The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS str
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

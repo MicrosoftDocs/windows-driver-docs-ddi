@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 260fdda5-bc97-4522-96ca-1c29d41e8542
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, WDF_DEVICE_FAILED_ACTION enumeration, wdfdevice/WdfDeviceFailedAttemptRestart, wdfdevice/WdfDeviceFailedNoRestart, wdfdevice/WdfDeviceFailedUndefined, wdf.wdf_device_failed_action, WdfDeviceFailedAttemptRestart, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, kmdf.wdf_device_failed_action, _WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION, wdfdevice/WDF_DEVICE_FAILED_ACTION
+ms.keywords: wdfdevice/WdfDeviceFailedAttemptRestart, WDF_DEVICE_FAILED_ACTION, wdf.wdf_device_failed_action, WdfDeviceFailedAttemptRestart, kmdf.wdf_device_failed_action, _WDF_DEVICE_FAILED_ACTION, wdfdevice/WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION enumeration, wdfdevice/WdfDeviceFailedUndefined, WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, wdfdevice/WdfDeviceFailedNoRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,6 +90,7 @@ If the device's drivers are not supporting other devices on the system, the I/O 
 ## -remarks
 
 
+
 The WDF_DEVICE_FAILED_ACTION enumeration is used as an input argument to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetfailed.md">WdfDeviceSetFailed</a>.
 
 Drivers typically specify <b>WdfDeviceFailedAttemptRestart</b> if they encounter an unrecoverable software error, because specifying this enumerator reloads the drivers. A driver might specify <b>WdfDeviceFailedNoRestart</b> if it encounters an unrecoverable hardware error that affects all of the driver's devices.
@@ -98,9 +99,12 @@ For information about specifying <b>WdfDeviceFailedAttemptRestart</b> in a UMDF 
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetfailed.md">WdfDeviceSetFailed</a>
+
+
 
  
 

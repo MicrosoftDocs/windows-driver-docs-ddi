@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 183940c9-f8d9-411f-a593-e283f72e05f8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetnodeaffinity, StorPortGetNodeAffinity routine [Storage Devices], storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml, StorPortGetNodeAffinity, storport/StorPortGetNodeAffinity
+ms.keywords: StorPortGetNodeAffinity routine [Storage Devices], storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml, StorPortGetNodeAffinity, storage.storportgetnodeaffinity, storport/StorPortGetNodeAffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a variable that holds the affinity mask of the given node.
 ## -returns
 
 
+
 The <b>StorPortGetNodeAffinity</b>routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,6 +129,8 @@ The operation fails with this return value if one or more of the parameters are 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

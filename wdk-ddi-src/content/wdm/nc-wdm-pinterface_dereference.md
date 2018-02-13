@@ -40,7 +40,7 @@ apiname:
 -	InterfaceDereference
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A pointer to interface-specific context information. The caller passes the value
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 You can use the <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine to increment the reference count for the interface.
@@ -92,13 +95,20 @@ The driver that imports the interface is responsible for calling the <i>Interfac
 
 
 
-## -see-also
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+
 
  
 

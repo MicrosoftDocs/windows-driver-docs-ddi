@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], RouterAllocBidiMem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, print.routerallocbidimem
+ms.keywords: RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], print.routerallocbidimem, winsplp/RouterAllocBidiMem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,30 @@ Specifies the size, in bytes, of the block of memory to be allocated.
 ## -returns
 
 
+
 <code>RouterAllocBidiMem</code> returns a pointer to the block of memory if successful. If the function fails, the caller can obtain the error code by calling <b>GetLastError</b> (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -remarks
 
 
+
 When the memory allocated by this function is no longer needed, it can be returned by a call to <a href="..\winsplp\nf-winsplp-routerfreebidimem.md">RouterFreeBidiMem</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
+
+
+
 <a href="..\winsplp\nf-winsplp-routerfreebidimem.md">RouterFreeBidiMem</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
+
 
  
 

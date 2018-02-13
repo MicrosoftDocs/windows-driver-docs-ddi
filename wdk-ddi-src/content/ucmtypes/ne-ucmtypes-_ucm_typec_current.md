@@ -7,8 +7,8 @@ old-location: buses\ucm_type_c_current.htm
 old-project: usbref
 ms.assetid: 5A603C0E-BBB8-4909-B7B0-EAADF428CB5F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucmtypes/UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrent3000mA, UcmTypeCCurrentInvalid, buses.ucm_type_c_current, ucmtypes/UCM_TYPEC_CURRENT, UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrentInvalid, UcmTypeCCurrentDefaultUsb, UCM_TYPEC_CURRENT enumeration [Buses], ucmtypes/UcmTypeCCurrentDefaultUsb, UCM_TYPEC_CURRENT, UcmTypeCCurrent3000mA, _UCM_TYPEC_CURRENT
+ms.date: 2/8/2018
+ms.keywords: ucmtypes/UcmTypeCCurrent1500mA, UCM_TYPEC_CURRENT, UCM_TYPEC_CURRENT enumeration [Buses], ucmtypes/UcmTypeCCurrentInvalid, UcmTypeCCurrentDefaultUsb, _UCM_TYPEC_CURRENT, UcmTypeCCurrentInvalid, ucmtypes/UCM_TYPEC_CURRENT, UcmTypeCCurrent3000mA, ucmtypes/UcmTypeCCurrent3000mA, UcmTypeCCurrent1500mA, buses.ucm_type_c_current, ucmtypes/UcmTypeCCurrentDefaultUsb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,15 @@ Indicates the power sourcing current is 3000 mA.
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
+
+
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_TYPEC_CURRENT enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_TYPEC_CURRENT enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

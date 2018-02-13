@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/DiagnoseLevelDriverStateDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel, dot11wdi/eDiagnoseLevel, dot11wdi/DiagnoseLevelFirmwareImageDump, DiagnoseLevelFirmwareImageDump, eDiagnoseLevel, dot11wdi/DiagnoseLevelNone, DiagnoseLevelNone, DiagnoseLevelDriverStateDump, DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelHardwareRegisters
+ms.keywords: dot11wdi/DiagnoseLevelHardwareRegisters, DiagnoseLevelDriverStateDump, eDiagnoseLevel, dot11wdi/DiagnoseLevelDriverStateDump, DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, DiagnoseLevelHardwareRegisters, DiagnoseLevelFirmwareImageDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], dot11wdi/DiagnoseLevelNone, netvista.wdiediagnoselevel, dot11wdi/DiagnoseLevelFirmwareImageDump
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,6 +93,8 @@ Dump the driver state, full firmware image, and hardware registers. The driver s
 ## -see-also
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_adapter_hang_diagnose.md">MiniportWdiAdapterHangDiagnose</a>
+
+
 
  
 

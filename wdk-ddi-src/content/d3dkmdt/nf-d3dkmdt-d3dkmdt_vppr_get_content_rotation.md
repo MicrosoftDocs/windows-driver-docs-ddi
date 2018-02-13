@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61C1EB2F-E4CF-4B18-AD7B-6B24EF14E71F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation, D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices]
+ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices], D3DKMDT_VPPR_GET_CONTENT_ROTATION, d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,6 +78,7 @@ The output value of <i>Rotation</i> is the sum of the output values from the <a 
 
 
 ## -returns
+
 
 
 The returned value corresponds to the rotation and offset angles as follows:<table>
@@ -196,10 +197,13 @@ The returned value corresponds to the rotation and offset angles as follows:<tab
 
 
 
+
 ## -remarks
 
 
+
 This function is declared inline in D3dkmdt.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -225,23 +229,35 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 }</pre>
 </td>
 </tr>
-</table></span></div>If the content being presented has to be rotated by the driver, the output of this function represents the total rotation (the <b>Rotate</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a> structure) that the driver needs to apply to the pixels provided in the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> operation. For more info, see <a href="https://msdn.microsoft.com/136CEDA5-2839-4E6E-A032-1A9222C769C6">Supporting Path-Independent Rotation</a>.
+</table></span></div>
+If the content being presented has to be rotated by the driver, the output of this function represents the total rotation (the <b>Rotate</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a> structure) that the driver needs to apply to the pixels provided in the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> operation. For more info, see <a href="https://msdn.microsoft.com/136CEDA5-2839-4E6E-A032-1A9222C769C6">Supporting Path-Independent Rotation</a>.
 
 Here's an example of how this function can provide your driver with the info it needs to properly rotate content. When a portrait-first device is connected in clone mode to a landscape-first monitor and  the user changes the <b>Orientation</b> in the <b>Display</b> control panel to <b>Portrait</b>, this represents the default orientation of the portrait-first device. Therefore the driver should set a value of <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>.<b>D3DKMDT_VPPR_ROTATE90_OFFSET270</b> on the path. This function will then return a <i>Rotation</i> value of 1 (identity) to indicate that the content displayed on the clone path is not to be rotated.
 
 
 
+
 ## -see-also
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
-
-<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
-
-<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a>
 
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
+
+
+
+<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
+
+<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
+
+
 
  
 

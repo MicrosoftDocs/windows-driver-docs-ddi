@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a17b4a88-45e8-45e7-b879-2f41b97be368
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DevicePropertyCompatibleIDs, wdm/DevicePropertyUINumber, wdm/DevicePropertyLegacyBusType, DevicePropertyBootConfiguration, DevicePropertyBootConfigurationTranslated, DevicePropertyAllocatedResources, wdm/, DevicePropertyPhysicalDeviceObjectName, DevicePropertyResourceRequirements, wdm/DevicePropertyContainerID, DevicePropertyBusNumber, wdm/DevicePropertyBusNumber, wdm/DevicePropertyFriendlyName, wdm/DevicePropertyClassName, wdm/DevicePropertyBootConfiguration, sysenum_485e3369-186a-4a71-b13e-be6ff9ab8dce.xml, wdm/DevicePropertyDeviceDescription, DevicePropertyManufacturer, DevicePropertyBusTypeGuid, DevicePropertyClassGuid, wdm/DevicePropertyHardwareID, DevicePropertyRemovalPolicy, wdm/DevicePropertyRemovalPolicy, wdm/DevicePropertyAllocatedResources, wdm/DevicePropertyBootConfigurationTranslated, DevicePropertyFriendlyName, DevicePropertyContainerID, DevicePropertyLocationInformation, wdm/DevicePropertyAddress, DevicePropertyEnumeratorName, kernel.device_registry_property, DevicePropertyDeviceDescription, DEVICE_REGISTRY_PROPERTY enumeration [Kernel-Mode Driver Architecture], DevicePropertyLegacyBusType, wdm/DevicePropertyEnumeratorName, DEVICE_REGISTRY_PROPERTY, wdm/DevicePropertyPhysicalDeviceObjectName, wdm/DevicePropertyLocationInformation, DevicePropertyDriverKeyName, wdm/DevicePropertyBusTypeGuid, DevicePropertyAddress, enumeration [Kernel-Mode Driver Architecture], DevicePropertyHardwareID, DevicePropertyInstallState, DevicePropertyUINumber, wdm/DevicePropertyResourceRequirements, wdm/DevicePropertyClassGuid, wdm/DevicePropertyCompatibleIDs, wdm/DevicePropertyDriverKeyName, wdm/DevicePropertyManufacturer, wdm/DevicePropertyInstallState, DevicePropertyClassName
+ms.keywords: wdm/DevicePropertyAllocatedResources, DevicePropertyFriendlyName, DevicePropertyHardwareID, wdm/DevicePropertyBusNumber, wdm/DevicePropertyClassName, DevicePropertyLegacyBusType, wdm/DevicePropertyContainerID, DevicePropertyCompatibleIDs, wdm/DevicePropertyPhysicalDeviceObjectName, DevicePropertyBootConfigurationTranslated, sysenum_485e3369-186a-4a71-b13e-be6ff9ab8dce.xml, DevicePropertyBusNumber, wdm/DevicePropertyInstallState, DevicePropertyDriverKeyName, wdm/DevicePropertyHardwareID, DevicePropertyClassGuid, wdm/DevicePropertyBootConfiguration, wdm/DevicePropertyAddress, kernel.device_registry_property, wdm/DevicePropertyBusTypeGuid, DevicePropertyBusTypeGuid, DevicePropertyManufacturer, wdm/DevicePropertyFriendlyName, DevicePropertyRemovalPolicy, DevicePropertyAllocatedResources, DevicePropertyUINumber, wdm/DevicePropertyBootConfigurationTranslated, wdm/DevicePropertyDeviceDescription, DevicePropertyAddress, wdm/DevicePropertyLegacyBusType, DevicePropertyDeviceDescription, wdm/DevicePropertyLocationInformation, DevicePropertyLocationInformation, DevicePropertyResourceRequirements, wdm/DevicePropertyCompatibleIDs, DevicePropertyClassName, wdm/DevicePropertyRemovalPolicy, enumeration [Kernel-Mode Driver Architecture], DevicePropertyBootConfiguration, DevicePropertyPhysicalDeviceObjectName, DevicePropertyInstallState, wdm/DevicePropertyResourceRequirements, wdm/, DevicePropertyEnumeratorName, wdm/DevicePropertyUINumber, DevicePropertyContainerID, wdm/DevicePropertyDriverKeyName, wdm/DevicePropertyManufacturer, wdm/DevicePropertyEnumeratorName, DEVICE_REGISTRY_PROPERTY enumeration [Kernel-Mode Driver Architecture], wdm/DevicePropertyClassGuid, DEVICE_REGISTRY_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -93,98 +93,77 @@ typedef enum  {
 ### -field DevicePropertyDeviceDescription
 
 
-
 ### -field DevicePropertyHardwareID
-
 
 
 ### -field DevicePropertyCompatibleIDs
 
 
-
 ### -field DevicePropertyBootConfiguration
-
 
 
 ### -field DevicePropertyBootConfigurationTranslated
 
 
-
 ### -field DevicePropertyClassName
-
 
 
 ### -field DevicePropertyClassGuid
 
 
-
 ### -field DevicePropertyDriverKeyName
-
 
 
 ### -field DevicePropertyManufacturer
 
 
-
 ### -field DevicePropertyFriendlyName
-
 
 
 ### -field DevicePropertyLocationInformation
 
 
-
 ### -field DevicePropertyPhysicalDeviceObjectName
-
 
 
 ### -field DevicePropertyBusTypeGuid
 
 
-
 ### -field DevicePropertyLegacyBusType
-
 
 
 ### -field DevicePropertyBusNumber
 
 
-
 ### -field DevicePropertyEnumeratorName
-
 
 
 ### -field DevicePropertyAddress
 
 
-
 ### -field DevicePropertyUINumber
-
 
 
 ### -field DevicePropertyInstallState
 
 
-
 ### -field DevicePropertyRemovalPolicy
-
 
 
 ### -field DevicePropertyResourceRequirements
 
 
-
 ### -field DevicePropertyAllocatedResources
-
 
 
 ### -field DevicePropertyContainerID
 
 
-
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
 
  
 

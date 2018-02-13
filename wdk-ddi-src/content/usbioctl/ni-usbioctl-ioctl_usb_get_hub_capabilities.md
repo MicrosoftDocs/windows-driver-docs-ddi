@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_get_hub_capabilities.htm
 old-project: usbref
 ms.assetid: 2275b197-6298-470f-bb96-91088d763160
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_usb_get_hub_capabilities, IOCTL_USB_GET_HUB_CAPABILITIES control code [Buses], IOCTL_USB_GET_HUB_CAPABILITIES, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES, usbirp_0db4e801-763f-4d2f-aedf-2e3798fb191c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,14 +93,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -111,13 +115,17 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities.md">USB_HUB_CAPABILITIES</a>
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities_ex.md">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
 
- 
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities.md">USB_HUB_CAPABILITIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_GET_HUB_CAPABILITIES control code%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_GET_HUB_CAPABILITIES control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

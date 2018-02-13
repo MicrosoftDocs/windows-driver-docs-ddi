@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field can be set 
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
+
+
 
  
 

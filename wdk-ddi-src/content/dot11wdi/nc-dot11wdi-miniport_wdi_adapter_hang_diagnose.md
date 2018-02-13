@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiAdapterHangDiagnose
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback
@@ -105,8 +105,12 @@ A pointer to the number of bytes written to <b>FirmwareBlob</b>.
 ## -returns
 
 
+
 The return value is ignored.
-<h3><a id="Remarks"></a><a id="remarks"></a><a id="REMARKS"></a>Remarks</h3>    The default diagnose level is <b>DiagnoseLevelHardwareRegisters</b>, with 1KB maximum in the output buffer.
+
+<h3><a id="Remarks"></a><a id="remarks"></a><a id="REMARKS"></a>Remarks</h3>
+    The default diagnose level is <b>DiagnoseLevelHardwareRegisters</b>, with 1KB maximum in the output buffer.
+
 
 
 
@@ -114,9 +118,15 @@ The return value is ignored.
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
 
-<a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
+
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
+
+<a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
+
+
 
  
 

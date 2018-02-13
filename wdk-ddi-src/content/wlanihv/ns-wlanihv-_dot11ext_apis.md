@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d533acbb-eb3b-4c49-a057-9a99faaacfc1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11EXT_APIS, *PDOT11EXT_APIS, wlanihv/PDOT11EXT_APIS, wlanihv/DOT11EXT_APIS, netvista.dot11ext_apis, DOT11EXT_APIS, DOT11EXT_APIS structure [Network Drivers Starting with Windows Vista], PDOT11EXT_APIS structure pointer [Network Drivers Starting with Windows Vista], PDOT11EXT_APIS, Native_802.11_data_types_27860ed6-1413-4bc6-9cd0-fb4391dff322.xml"
+ms.keywords: DOT11EXT_APIS, Native_802.11_data_types_27860ed6-1413-4bc6-9cd0-fb4391dff322.xml, _DOT11EXT_APIS, *PDOT11EXT_APIS, DOT11EXT_APIS structure [Network Drivers Starting with Windows Vista], PDOT11EXT_APIS, wlanihv/DOT11EXT_APIS, wlanihv/PDOT11EXT_APIS, netvista.dot11ext_apis, PDOT11EXT_APIS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11EXT_APIS
 product: Windows
 targetos: Windows
-req.typenames: DOT11EXT_APIS, *PDOT11EXT_APIS
+req.typenames: "*PDOT11EXT_APIS, DOT11EXT_APIS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,148 +90,154 @@ typedef struct _DOT11EXT_APIS {
 
 
 
-
-#### - Dot11ExtAllocateBuffer
+### -field Dot11ExtAllocateBuffer
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">
      Dot11ExtAllocateBuffer</a> function.
 
 
-#### - Dot11ExtFreeBuffer
+### -field Dot11ExtFreeBuffer
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a> function.
 
 
-#### - Dot11ExtSetProfileCustomUserData
+### -field Dot11ExtSetProfileCustomUserData
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
      Dot11ExtSetProfileCustomUserData</a> function.
 
 
-#### - Dot11ExtGetProfileCustomUserData
+### -field Dot11ExtGetProfileCustomUserData
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
      Dot11ExtGetProfileCustomUserData</a> function.
 
 
-#### - Dot11ExtSetCurrentProfile
+### -field Dot11ExtSetCurrentProfile
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">
      Dot11ExtSetCurrentProfile</a> function.
 
 
-#### - Dot11ExtSendUIRequest
+### -field Dot11ExtSendUIRequest
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">
      Dot11ExtSendUIRequest</a> function.
 
 
-#### - Dot11ExtPreAssociateCompletion
+### -field Dot11ExtPreAssociateCompletion
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
      Dot11ExtPreAssociateCompletion</a> function.
 
 
-#### - Dot11ExtPostAssociateCompletion
+### -field Dot11ExtPostAssociateCompletion
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
      Dot11ExtPostAssociateCompletion</a> function.
 
 
-#### - Dot11ExtSendNotification
+### -field Dot11ExtSendNotification
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">
      Dot11ExtSendNotification</a> function.
 
 
-#### - Dot11ExtSendPacket
+### -field Dot11ExtSendPacket
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a> function.
 
 
-#### - Dot11ExtSetEtherTypeHandling
+### -field Dot11ExtSetEtherTypeHandling
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
      Dot11ExtSetEtherTypeHandling</a> function.
 
 
-#### - Dot11ExtSetAuthAlgorithm
+### -field Dot11ExtSetAuthAlgorithm
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_auth_algorithm.md">
      Dot11ExtSetAuthAlgorithm</a> function.
 
 
-#### - Dot11ExtSetUnicastCipherAlgorithm
+### -field Dot11ExtSetUnicastCipherAlgorithm
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_unicast_cipher_algorithm.md">
      Dot11ExtSetUnicastCipherAlgorithm</a> function.
 
 
-#### - Dot11ExtSetMulticastCipherAlgorithm
+### -field Dot11ExtSetMulticastCipherAlgorithm
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_multicast_cipher_algorithm.md">
      Dot11ExtSetMulticastCipherAlgorithm</a> function.
 
 
-#### - Dot11ExtSetDefaultKey
+### -field Dot11ExtSetDefaultKey
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">
      Dot11ExtSetDefaultKey</a> function.
 
 
-#### - Dot11ExtSetKeyMappingKey
+### -field Dot11ExtSetKeyMappingKey
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">
      Dot11ExtSetKeyMappingKey</a> function.
 
 
-#### - Dot11ExtSetDefaultKeyId
+### -field Dot11ExtSetDefaultKeyId
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key_id.md">
      Dot11ExtSetDefaultKeyId</a> function.
 
 
-#### - Dot11ExtNicSpecificExtension
+### -field Dot11ExtNicSpecificExtension
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_nic_specific_extension.md">
      Dot11ExtNicSpecificExtension</a> function.
 
 
-#### - Dot11ExtSetExcludeUnencrypted
+### -field Dot11ExtSetExcludeUnencrypted
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_exclude_unencrypted.md">
      Dot11ExtSetExcludeUnencrypted</a> function.
 
 
-#### - Dot11ExtStartOneX
+### -field Dot11ExtStartOneX
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a> function.
 
 
-#### - Dot11ExtStopOneX
+### -field Dot11ExtStopOneX
 
 A pointer to the 
      <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a> function.
+
+
+### -field Dot11ExtProcessSecurityPacket
+
+ 
+
+
 
 
 #### - Dot11ExtProcessOneXPacket
@@ -244,6 +250,7 @@ A pointer to the
 ## -remarks
 
 
+
 The IHV Extensibility functions are not statically or dynamically linked to the IHV Extensions DLL.
     Instead, when the operating system calls the 
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> IHV
@@ -254,65 +261,116 @@ All of the function pointers are required and will not be set to <b>NULL</b>.
 
 
 
+
 ## -see-also
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
-   Dot11ExtSetProfileCustomUserData</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_unicast_cipher_algorithm.md">
-   Dot11ExtSetUnicastCipherAlgorithm</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_multicast_cipher_algorithm.md">
    Dot11ExtSetMulticastCipherAlgorithm</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_exclude_unencrypted.md">
-   Dot11ExtSetExcludeUnencrypted</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_auth_algorithm.md">Dot11ExtSetAuthAlgorithm</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">Dot11ExtSendNotification</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_nic_specific_extension.md">Dot11ExtNicSpecificExtension</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">Dot11ExtSetKeyMappingKey</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
    Dot11ExtPostAssociateCompletion</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">Dot11ExtGetUserData</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
+   Dot11ExtSetProfileCustomUserData</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_auth_algorithm.md">Dot11ExtSetAuthAlgorithm</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_unicast_cipher_algorithm.md">
+   Dot11ExtSetUnicastCipherAlgorithm</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_nic_specific_extension.md">Dot11ExtNicSpecificExtension</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">Dot11ExtSetKeyMappingKey</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key_id.md">Dot11ExtSetDefaultKeyId</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">Dot11ExtGetUserData</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_notification.md">Dot11ExtSendNotification</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
    Dot11ExtPreAssociateCompletion</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_exclude_unencrypted.md">
+   Dot11ExtSetExcludeUnencrypted</a>
+
+
 
  
 

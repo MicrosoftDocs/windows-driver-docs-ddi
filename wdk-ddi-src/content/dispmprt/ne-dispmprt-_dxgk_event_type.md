@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: df28ae8f-01f7-42c5-99df-2a3fc7401173
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_EVENT_TYPE, DxgkAcpiEvent, DxgkPowerStateEvent, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], display.dxgk_event_type, dispmprt/DxgkPowerStateEvent, PDXGK_EVENT_TYPE, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, _DXGK_EVENT_TYPE, dispmprt/DXGK_EVENT_TYPE, dispmprt/DxgkUndefinedEvent, IN_DXGK_EVENT_TYPE, DxgkDockingEvent, *PDXGK_EVENT_TYPE, DxgkUndefinedEvent, dispmprt/PDXGK_EVENT_TYPE, dispmprt/DxgkAcpiEvent, DXGK_EVENT_TYPE enumeration [Display Devices], dispmprt/DxgkDockingEvent
+ms.keywords: dispmprt/DXGK_EVENT_TYPE, display.dxgk_event_type, dispmprt/PDXGK_EVENT_TYPE, _DXGK_EVENT_TYPE, PDXGK_EVENT_TYPE enumeration pointer [Display Devices], *PDXGK_EVENT_TYPE, PDXGK_EVENT_TYPE, DXGK_EVENT_TYPE enumeration [Display Devices], DxgkPowerStateEvent, dispmprt/DxgkDockingEvent, DmEnums_94bee105-be3f-4268-982e-be8581bb9bc0.xml, DxgkUndefinedEvent, DxgkDockingEvent, dispmprt/DxgkAcpiEvent, dispmprt/DxgkUndefinedEvent, IN_DXGK_EVENT_TYPE, dispmprt/DxgkPowerStateEvent, DXGK_EVENT_TYPE, DxgkAcpiEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,6 +98,8 @@ Indicates that the event is a docking event.
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a>
+
+
 
  
 

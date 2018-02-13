@@ -7,8 +7,8 @@ old-location: audio\pcgetdeviceproperty.htm
 old-project: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: portcls/PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audio.pcgetdeviceproperty, PcGetDeviceProperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml
+ms.date: 2/8/2018
+ms.keywords: PcGetDeviceProperty function [Audio Devices], PcGetDeviceProperty, audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,14 @@ Pointer to a caller-allocated variable into which the method outputs a count spe
 ## -returns
 
 
+
 <b>PcGetDeviceProperty</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. The routine returns STATUS_BUFFER_TOO_SMALL if the buffer size specified in <i>BufferLength</i> was not large enough to contain the requested property data.
 
 
 
+
 ## -remarks
+
 
 
 Set the <b>DeviceProperty</b> parameter to one of the following DEVICE_REGISTRY_PROPERTY enumeration values from header file wdm.h:
@@ -155,15 +158,20 @@ Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the requ
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcGetDeviceProperty function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcGetDeviceProperty function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

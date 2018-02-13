@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75DDFC2A-EF7F-4652-B0D0-8BF1583B3679
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_USHORT function, wudfddi_hwaccess/READ_REGISTER_USHORT, wdf.read_register_ushort, umdf.read_register_ushort, READ_REGISTER_USHORT
+ms.keywords: READ_REGISTER_USHORT, wdf.read_register_ushort, wudfddi_hwaccess/READ_REGISTER_USHORT, READ_REGISTER_USHORT function, umdf.read_register_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ A pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>READ_REGISTER_USHORT</b> returns the USHORT value that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

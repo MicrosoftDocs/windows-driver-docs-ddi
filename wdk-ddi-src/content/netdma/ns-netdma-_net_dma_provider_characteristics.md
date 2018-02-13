@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ec6d449-fdc2-44d8-976b-5a1d23c76e7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma/PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_PROVIDER_CHARACTERISTICS, netdma_ref_24841207-9eca-483b-9ee5-81e7f24b62e6.xml, netvista.net_dma_provider_characteristics, PNET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS, _NET_DMA_PROVIDER_CHARACTERISTICS, netdma/NET_DMA_PROVIDER_CHARACTERISTICS
+ms.keywords: PNET_DMA_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_PROVIDER_CHARACTERISTICS, netdma/NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS, netdma/PNET_DMA_PROVIDER_CHARACTERISTICS, netdma_ref_24841207-9eca-483b-9ee5-81e7f24b62e6.xml, netvista.net_dma_provider_characteristics, NET_DMA_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NET_DMA_PROVIDER_CHARACTERISTICS, PNET_DMA_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,6 +110,7 @@ NetDMA 2.0 and later drivers can use the following flags.
 
 
 
+
 #### NET_DMA_PROVIDER_CHARACTERISTICS_DCA_SUPPORTED
 
 The NetDMA provider supports 
@@ -199,6 +200,7 @@ A Unicode string that represents the user-readable description of the NetDMA pro
 ## -remarks
 
 
+
 To register a DMA provider, a DMA provider driver calls the 
     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a> function
     from its 
@@ -210,30 +212,53 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 
 
+
 ## -see-also
-
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
-
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
 
-<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
+
+
+<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
    ProviderSetDmaChannelCpuAffinity</a>
 
+
+
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+
 
  
 

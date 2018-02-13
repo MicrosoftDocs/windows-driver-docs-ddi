@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4b1da622-9a48-4c18-9eee-a99830bd26af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/KsRemoveBusEnumInterface, KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], stream.ksremovebusenuminterface, ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml
+ms.keywords: stream.ksremovebusenuminterface, ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, swenum/KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], KsRemoveBusEnumInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsRemoveBusEnumInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
+req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
 
@@ -79,14 +79,18 @@ Pointer to an IRP that contains a SWENUM_INSTALL_INTERFACE structure that specif
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if successful. Otherwise, it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INSTALL_INTERFACE structure. The <i>DeviceId</i>, <i>InterfaceId</i> and <i>ReferenceString</i> members of the structure specify the specific device and interface to be removed.
+
 
 
 
@@ -94,7 +98,11 @@ The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INS
 
 <a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
 
+
+
 <a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
+
+
 
  
 

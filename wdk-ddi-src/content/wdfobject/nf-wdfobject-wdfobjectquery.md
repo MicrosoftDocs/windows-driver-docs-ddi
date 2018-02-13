@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e654cc-7ea5-41dd-8ee5-23a89f61e3c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfobjectquery, PFN_WDFOBJECTQUERY, kmdf.wdfobjectquery, WdfObjectQuery, DFGenObjectRef_1291f90f-1783-4bd6-ae7a-5481f3959628.xml, WdfObjectQuery method, wdfobject/WdfObjectQuery
+ms.keywords: DFGenObjectRef_1291f90f-1783-4bd6-ae7a-5481f3959628.xml, WdfObjectQuery method, wdfobject/WdfObjectQuery, PFN_WDFOBJECTQUERY, wdf.wdfobjectquery, kmdf.wdfobjectquery, WdfObjectQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,15 +76,11 @@ NTSTATUS WdfObjectQuery(
 ### -param Object [in]
 
 
-
 ### -param Guid [in]
-
 
 
 ### -param QueryBufferLength [in]
 
 
-
 ### -param QueryBuffer [out]
-
 

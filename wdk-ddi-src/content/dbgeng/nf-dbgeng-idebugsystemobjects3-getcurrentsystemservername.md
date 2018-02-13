@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4E06AFD0-42D3-479F-B285-34919826F750
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemServerName method [Windows Debugging], GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername, IDebugSystemObjects3, GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method, IDebugSystemObjects3::GetCurrentSystemServerName, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName
+ms.keywords: debugger.idebugsystemobjects3_getcurrentsystemservername, IDebugSystemObjects3::GetCurrentSystemServerName, GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemServerName method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServerName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ A pointer to the name size.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,15 +106,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
 
  
 

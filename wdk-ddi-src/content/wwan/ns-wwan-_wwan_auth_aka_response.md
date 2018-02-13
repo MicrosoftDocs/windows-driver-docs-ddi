@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16F20188-AFAC-46BF-9D90-26376DEF1595
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_AUTH_AKA_RESPONSE, wwan/WWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE, WWAN_AUTH_AKA_RESPONSE structure [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_AKA_RESPONSE, netvista.wwan_auth_aka_response, *PWWAN_AUTH_AKA_RESPONSE"
+ms.keywords: WWAN_AUTH_AKA_RESPONSE structure [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE, wwan/WWAN_AUTH_AKA_RESPONSE, _WWAN_AUTH_AKA_RESPONSE, *PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_auth_aka_response, wwan/PWWAN_AUTH_AKA_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,6 +98,7 @@ Length of response in the <b>Res</b> member.
 
 
 
+
 #### - Res[WWAN_AUTH_RES_MAX_LEN]
 
 128-bit authentication result from the peer, which, together with the RAND, authenticates the peer to the server. This member is valid only in case of success. This member represents a multi-byte value in little-endian format.
@@ -121,13 +122,17 @@ Ciphering key. This member is valid only in case of success. This member represe
 ## -remarks
 
 
+
 The <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> structure uses this structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
+
+
 
  
 

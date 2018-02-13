@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c7d73c86-0ac4-4e87-8f82-39be2329dafd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage, GetQueryForDeviceUsingPackage, IWDTFDriverPackageAction2, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesUsingPackage, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesUsingPackage method, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, dtf.iwdtfdriverpackageaction2_getqueryfordeviceusingpackage, IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage
+ms.keywords: dtf.iwdtfdriverpackageaction2_getqueryfordeviceusingpackage, IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesUsingPackage method, IWDTFDriverPackageAction2, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesUsingPackage, GetQueryForDeviceUsingPackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ HRESULT GetQueryForDevicesUsingPackage(
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
+
+
 
  
 

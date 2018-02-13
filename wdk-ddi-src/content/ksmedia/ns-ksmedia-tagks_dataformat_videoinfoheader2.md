@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92deaecd-69d7-4e64-bdb0-a2736add0c2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATAFORMAT_VIDEOINFOHEADER2, stream.ks_dataformat_videoinfoheader2, PKS_DATAFORMAT_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER2, *PKS_DATAFORMAT_VIDEOINFOHEADER2, PKS_DATAFORMAT_VIDEOINFOHEADER2, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2 structure [Streaming Media Devices], vidcapstruct_cadaf63f-50d5-41c5-926b-81724dddb890.xml, tagKS_DATAFORMAT_VIDEOINFOHEADER2
+ms.keywords: PKS_DATAFORMAT_VIDEOINFOHEADER2, ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER2, vidcapstruct_cadaf63f-50d5-41c5-926b-81724dddb890.xml, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER2, *PKS_DATAFORMAT_VIDEOINFOHEADER2, PKS_DATAFORMAT_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], tagKS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2 structure [Streaming Media Devices], stream.ks_dataformat_videoinfoheader2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,19 +81,29 @@ Specifies the details of the video stream, including options for specifying bob 
 ## -remarks
 
 
+
 Minidrivers that do not need to specify bob or weave settings may use the <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+
+
 
  
 

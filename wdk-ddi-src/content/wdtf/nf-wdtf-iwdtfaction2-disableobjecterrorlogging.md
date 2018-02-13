@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: fcf279e6-f88f-4895-85bd-1088dd06fd12
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: wdtf/IWDTFAction2::DisableObjectErrorLogging, IWDTFAction2, DisableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::DisableObjectErrorLogging, DisableObjectErrorLogging method [Windows Device Testing Framework], DisableObjectErrorLogging method [Windows Device Testing Framework], IWDTFAction2 interface, Microsoft.WDTF.IWDTFAction2.DisableObjectErrorLogging, IWDTFAction2::DisableObjectErrorLogging, dtf.iwdtfaction2_disableobjecterrorlogging, IWDTFAction2 interface [Windows Device Testing Framework], DisableObjectErrorLogging method
+ms.keywords: IWDTFAction2 interface [Windows Device Testing Framework], DisableObjectErrorLogging method, Microsoft::WDTF::IWDTFAction2::DisableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.DisableObjectErrorLogging, IWDTFAction2::DisableObjectErrorLogging, DisableObjectErrorLogging method [Windows Device Testing Framework], IWDTFAction2 interface, IWDTFAction2, DisableObjectErrorLogging method [Windows Device Testing Framework], dtf.iwdtfaction2_disableobjecterrorlogging, DisableObjectErrorLogging, wdtf/IWDTFAction2::DisableObjectErrorLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ HRESULT DisableObjectErrorLogging();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
+
+
 
  
 

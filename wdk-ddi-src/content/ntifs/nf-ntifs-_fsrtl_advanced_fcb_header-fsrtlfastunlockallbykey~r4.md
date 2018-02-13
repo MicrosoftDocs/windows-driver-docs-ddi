@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlfastunlockallbykey.htm
 old-project: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey, fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, FsRtlFastUnlockAllByKey routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtlfastunlockallbykey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, FsRtlFastUnlockAllByKey, ntifs/FsRtlFastUnlockAllByKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,14 +99,18 @@ Optional context pointer to be used when completing IRPs.
 ## -returns
 
 
+
 <b>FsRtlFastUnlockAllByKey</b> returns STATUS_SUCCESS or an error status code such as STATUS_RANGE_NOT_LOCKED. 
+
 
 
 
 ## -remarks
 
 
+
 After releasing the byte-range locks, <b>FsRtlFastUnlockAllByKey</b> completes any currently queued lock IRPs that can now be completed.
+
 
 
 
@@ -114,11 +118,15 @@ After releasing the byte-range locks, <b>FsRtlFastUnlockAllByKey</b> completes a
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlFastUnlockAllByKey routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlFastUnlockAllByKey routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

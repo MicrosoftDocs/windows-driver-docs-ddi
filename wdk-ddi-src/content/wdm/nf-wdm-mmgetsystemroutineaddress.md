@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmGetSystemRoutineAddress, kernel.mmgetsystemroutineaddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, MmGetSystemRoutineAddress
+ms.keywords: kernel.mmgetsystemroutineaddress, k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], wdm/MmGetSystemRoutineAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,20 +76,26 @@ Specifies the name of the system routine to resolve.
 ## -returns
 
 
+
 If the function name can be resolved, the routine returns a pointer to the function. Otherwise, the routine returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 Drivers can use this routine to determine if a routine is available on a specific version of Windows. It can only be used for routines exported by the kernel or HAL, not for any driver-defined routine. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
+
+
 
  
 

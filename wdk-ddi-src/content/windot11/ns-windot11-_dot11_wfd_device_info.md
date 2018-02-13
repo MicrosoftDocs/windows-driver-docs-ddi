@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6E0E9BC9-9C84-4511-A28E-2BB2D6367F74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_INFO, _DOT11_WFD_DEVICE_INFO, windot11/ DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info, windot11/PDOT11_WFD_DEVICE_INFO
+ms.keywords: windot11/PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_device_info, windot11/ DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ typedef struct _DOT11_WFD_DEVICE_INFO {
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_INFO</b> structure. The required settings for the members of <b>Header</b> are the following:
+
 <table>
 <tr>
 <th>Member</th>
@@ -92,7 +93,8 @@ Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_INFO</b> struct
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_DEVICE_INFO_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DeviceAddress

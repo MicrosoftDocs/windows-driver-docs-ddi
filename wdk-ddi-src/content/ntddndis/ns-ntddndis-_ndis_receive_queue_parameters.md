@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba87554-766d-45e2-8257-584ee78dd873
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml, netvista.ndis_receive_queue_parameters, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS"
+ms.keywords: ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_queue_parameters, _NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_QUEUE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS"
+req.typenames: NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_QUEUE_PARAMETERS structure
@@ -91,11 +91,13 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_REVISION_2
 
 Added additional members for NDIS 6.30.
 
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_2</b>.
+
 
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_REVISION_1
@@ -115,12 +117,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of the following flags. T
 
 
 
-The following flags are valid for the 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
-     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set OID and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indication:
 
-
-<div class="alert"><b>Note</b>  A driver determines which receive queue parameters have been changed by executing a bitwise <b>AND</b> operation between the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_CHANGE_MASK</b> definition and the value in the <b>Flags</b> member. If the result is zero, no receive queue parameters have been changed.</div><div> </div>
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION
 
@@ -130,17 +127,28 @@ The miniport driver must not mix network packets for other receive queues with t
        NdisMIndicateReceiveNetBufferLists</a> function.
 
 
+
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_LOOKAHEAD_SPLIT_REQUIRED
 
 The network adapter must split a received packet at an offset equal to or greater than the
        requested lookahead size and use DMA to transfer the lookahead data and the post-lookahead data to
        separate shared memory segments.
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. Miniport drivers that support NDIS 6.30 or later versions must ignore this flag.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. Miniport drivers that support NDIS 6.30 or later versions must ignore this flag.</div>
+<div> </div>
+The following flags are valid for the 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
+     OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set OID and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indication:
+
+
+
+
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_FLAGS_CHANGED
 
 The setting in the 
        <b>Flags</b> member changed.
+
 
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_PROCESSOR_AFFINITY_CHANGED
@@ -149,10 +157,12 @@ The setting in the
        <b>ProcessorAffinity</b> member changed.
 
 
+
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_SUGGESTED_RECV_BUFFER_NUMBERS_CHANGED
 
 The setting in the 
        <b>NumSuggestedReceiveBuffers</b> member changed.
+
 
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_NAME_CHANGED
@@ -160,6 +170,8 @@ The setting in the
 The setting in the 
        <b>QueueName</b> member changed.
 
+<div class="alert"><b>Note</b>  A driver determines which receive queue parameters have been changed by executing a bitwise <b>AND</b> operation between the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_CHANGE_MASK</b> definition and the value in the <b>Flags</b> member. If the result is zero, no receive queue parameters have been changed.</div>
+<div> </div>
 
 ### -field QueueType
 
@@ -211,7 +223,9 @@ A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement f
      the packet at the specified lookahead size if the flag is also set. If the flag is clear, a nonzero
      value for 
      <b>LookaheadSize</b> is invalid.
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be zero.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be zero.</div>
+<div> </div>
 
 ### -field VmName
 
@@ -241,7 +255,9 @@ This member is reserved for NDIS.
 
 
 
+
 ## -remarks
+
 
 
 The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is used in the 
@@ -254,22 +270,35 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
-
 <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+   OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
-   OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
 
  
 

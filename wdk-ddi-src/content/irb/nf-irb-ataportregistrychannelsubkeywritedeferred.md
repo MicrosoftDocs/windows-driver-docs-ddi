@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 332f6921-1ad2-42ae-9728-001f243b8cff
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred, AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml
+ms.keywords: AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred, atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,6 +90,7 @@ Contains the name of the registry value to write to.
 ### -param ValueType [in]
 
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,7 +126,8 @@ A null-terminated. Unicode string.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [in]
@@ -139,6 +141,7 @@ TBD
 
 
 
+
 #### - Length [in]
 
 A pointer to the number of bytes of data to copy. If the operation fails, the location that is pointed to by <i>Length</i> will update to the length of the data that was successfully written to the registry.
@@ -147,11 +150,14 @@ A pointer to the number of bytes of data to copy. If the operation fails, the lo
 ## -returns
 
 
+
 <b>AtaPortRegistryChannelSubKeyWriteDeferred</b> returns <b>TRUE</b> if the operation. Otherwise, it returns <b>FALSE</b>. The routine also returns <b>FALSE</b> if the miniport driver does not call it from the correct routine.
 
 
 
+
 ## -remarks
+
 
 
 If the value name is not present, <b>AtaPortRegistryChannelSubKeyWriteDeferred</b> creates an entry for the value and the data is stored in the newly created value. 
@@ -164,11 +170,16 @@ The miniport driver must not reuse the buffer that is pointed to by <i>Buffer</i
 
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
 
+
+
 <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+
+
 
  
 

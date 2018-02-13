@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dfeb2d5-e75e-4e5b-b209-cb23133136f7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/XcvClosePort, XcvClosePort, XcvClosePort function [Print Devices], print.xcvcloseport, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml
+ms.keywords: XcvClosePort function [Print Devices], print.xcvcloseport, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml, winsplp/XcvClosePort, XcvClosePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Caller-supplied printer handle obtained by calling <b>OpenPrinter</b> (described
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Port monitor server DLLs are required to define an <code>XcvClosePort</code> function and include its address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
@@ -91,11 +94,16 @@ The function should close the port specified by the handle, and it should make t
 
 
 
+
 ## -see-also
+
+<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
+
+
 
 <a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a>
 
-<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
+
 
  
 

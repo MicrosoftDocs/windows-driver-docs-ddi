@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c6ee78-ae4e-4b96-be83-a5960f36a363
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, stream.ks_copy_macrovision, ksmedia/KS_COPY_MACROVISION, KS_COPY_MACROVISION structure [Streaming Media Devices], PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], ksmedia/PKS_COPY_MACROVISION, _KS_COPY_MACROVISION, *PKS_COPY_MACROVISION, KS_COPY_MACROVISION, PKS_COPY_MACROVISION
+ms.keywords: KS_COPY_MACROVISION structure [Streaming Media Devices], ksmedia/PKS_COPY_MACROVISION, dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, *PKS_COPY_MACROVISION, KS_COPY_MACROVISION, _KS_COPY_MACROVISION, stream.ks_copy_macrovision, ksmedia/KS_COPY_MACROVISION, PKS_COPY_MACROVISION, PKS_COPY_MACROVISION structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_COPY_MACROVISION
 product: Windows
 targetos: Windows
-req.typenames: KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
+req.typenames: "*PKS_COPY_MACROVISION, KS_COPY_MACROVISION"
 ---
 
 # _KS_COPY_MACROVISION structure
@@ -70,6 +70,7 @@ typedef struct _KS_COPY_MACROVISION {
 ### -field MACROVISIONLevel
 
 Specifies the Macrovision level. This must be one of the following values from the KS_COPY_MACROVISION_LEVEL enumeration:
+
 <table>
 <tr>
 <th>Level</th>
@@ -115,10 +116,12 @@ Indicates that Macrovision level 3 copyright protection must be in effect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The KS_COPY_MACROVISION structure is used by the KSPROPERTY_COPY_MACROVISION property.
@@ -127,9 +130,12 @@ For additional uses of this structure see <a href="https://msdn.microsoft.com/ff
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565114">KSPROPERTY_COPY_MACROVISION</a>
+
+
 
  
 

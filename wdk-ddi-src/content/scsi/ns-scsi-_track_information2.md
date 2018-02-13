@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PTRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, PTRACK_INFORMATION2 structure pointer [Storage Devices], scsi/PTRACK_INFORMATION2, *PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], TRACK_INFORMATION2, _TRACK_INFORMATION2, storage.track_information2
+ms.keywords: scsi/PTRACK_INFORMATION2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, storage.track_information2, TRACK_INFORMATION2, *PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], PTRACK_INFORMATION2, _TRACK_INFORMATION2, scsi/TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,6 +135,7 @@ Reserved.
 ### -field DataMode
 
 The data mode. This member can have any of the following values:
+
 <table>
 <tr>
 <td>
@@ -176,7 +177,8 @@ There is no track descriptor block, and therefore the data block type of the tra
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field FixedPacket
@@ -240,7 +242,6 @@ Track Size is the number of user data blocks in the track.
 
 
 ### -field LastRecordedAddress
-
 
 
 ### -field TrackNumberMsb

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization, IoRegisterDriverReinitialization
+ms.keywords: IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], IoRegisterDriverReinitialization, ntddk/IoRegisterDriverReinitialization, kernel.ioregisterdriverreinitialization, k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoRegisterDriverReinitialization
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoRegisterDriverReinitialization function
@@ -87,11 +87,14 @@ Pointer to the context to be passed to the driver's <i>Reinitialize</i> routine.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver can call this routine only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. If the driver-supplied <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine must use the registry, the <i>DriverEntry</i> routine should include a copy of the string to which  <i>RegistryPath</i> points as part of the context passed to the <i>Reinitialize</i> routine in this call.
@@ -106,11 +109,16 @@ Usually, a driver with a <i>Reinitialize</i> routine is a higher-level driver th
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
 
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 
  
 

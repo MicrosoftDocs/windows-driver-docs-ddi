@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pcivirt/MITIGABLE_DEVICE_INTERFACE, _MITIGABLE_DEVICE_INTERFACE, *PMITIGABLE_DEVICE_INTERFACE, PCI.mitigable_device_interface, MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses]
+ms.keywords: PCI.mitigable_device_interface, *PMITIGABLE_DEVICE_INTERFACE, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], MITIGABLE_DEVICE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MITIGABLE_DEVICE_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE"
+req.typenames: MITIGABLE_DEVICE_INTERFACE, *PMITIGABLE_DEVICE_INTERFACE
 ---
 
 # _MITIGABLE_DEVICE_INTERFACE structure
@@ -105,8 +105,10 @@ Pointer to the driver's implementation of the <a href="https://msdn.microsoft.co
 ## -remarks
 
 
+
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to reset a specific virtual function. 
 
 The PF driver registers its implementation by setting the <b>ReadVfConfig</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+
 
 

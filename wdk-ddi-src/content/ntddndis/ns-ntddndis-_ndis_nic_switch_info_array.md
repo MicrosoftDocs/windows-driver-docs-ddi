@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bff2b133-bbef-4f2a-a7b1-34d7cf364205
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY, *PNDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO_ARRAY, netvista.ndis_nic_switch_info_array
+ms.keywords: netvista.ndis_nic_switch_info_array, ntddndis/PNDIS_NIC_SWITCH_INFO_ARRAY, *PNDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY, _NDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,6 +79,7 @@ NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. T
 
 
 
+
 #### NDIS_NIC_SWITCH_INFO_ARRAY_REVISION_1
 
 Original version for NDIS 6.30.
@@ -91,7 +92,9 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_INFO_ARRAY_REVISION_1.
 A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structure.
 
 
-<div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
+
+<div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div>
+<div> </div>
 
 ### -field NumElements
 
@@ -106,7 +109,9 @@ A ULONG value that specifies the size, in bytes, of each element that follows th
 ## -remarks
 
 
+
 NDIS returns an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure in the following ways:
+
 <ul>
 <li>
 When NDIS handles an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>, it returns a pointer to an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure in the <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
@@ -116,30 +121,50 @@ When NDIS handles an OID query request of <a href="https://msdn.microsoft.com/li
 function, NDIS passes a pointer to an <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure in the <i>BindParameters</i> parameter. NDIS sets the  <b>NicSwitchArray</b> member of the <b>NDIS_BIND_PARAMETERS</b> structure to a pointer to an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure. </li>
 <li>When NDIS calls the <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 function, NDIS passes a pointer to an <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a> structure in the <i>AttachParameters</i> parameter. NDIS sets the  <b>NicSwitchArray</b> member of the <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure to a pointer to an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure.</li>
-</ul>Each
+</ul>
+Each
     element in the array that follows the <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure is an 
     
     <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structure.
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, only the <b>NDIS_NIC_SWITCH_INFO</b> that describes the information about the default network adapter switch is returned through an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, only the <b>NDIS_NIC_SWITCH_INFO</b> that describes the information about the default network adapter switch is returned through an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
 
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

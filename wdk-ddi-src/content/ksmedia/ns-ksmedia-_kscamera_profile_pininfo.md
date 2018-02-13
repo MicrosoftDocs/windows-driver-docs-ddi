@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09B7D454-D28C-4E3F-9FF3-0DD595CDB90A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, _KSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo, PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], KSCAMERA_PROFILE_PININFO"
+ms.keywords: KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], *PKSCAMERA_PROFILE_PININFO, _KSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo, KSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_PROFILE_PININFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_PROFILE_PININFO
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO
+req.typenames: "*PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO"
 ---
 
 # _KSCAMERA_PROFILE_PININFO structure
@@ -70,6 +70,11 @@ typedef struct _KSCAMERA_PROFILE_PININFO {
 
 
 
+### -field PinCategory
+
+This is the PINNAME category corresponding to Capture, Preview or Still image pin.  For Windows 10, the only supported pin categories are:  PINNAME_VIDEO_CAPTURE, PINNAME_VIDEO_PREVIEW, PINNAME_VIDEO_STILL.  All other categories will result in an STATUS_INVALID_PARAMETER error.
+
+
 ### -field PinIndex
 
  
@@ -83,11 +88,6 @@ typedef struct _KSCAMERA_PROFILE_PININFO {
 ### -field Reserved
 
 Unused. Must be 0.
-
-
-### -field PinCategory
-
-This is the PINNAME category corresponding to Capture, Preview or Still image pin.  For Windows 10, the only supported pin categories are:  PINNAME_VIDEO_CAPTURE, PINNAME_VIDEO_PREVIEW, PINNAME_VIDEO_STILL.  All other categories will result in an STATUS_INVALID_PARAMETER error.
 
 
 ### -field MediaInfoCount

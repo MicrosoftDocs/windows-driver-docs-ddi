@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A1177154-4674-425C-A83B-A4A8FCD1729C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, netvista.dot11_send_invitation_request_parameters, PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_send_invitation_request_parameters, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, *PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, _DOT11_SEND_INVITATION_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ typedef struct _DOT11_SEND_INVITATION_REQUEST_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_SEND_INVITATION_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -101,7 +102,8 @@ The type, revision, and size of the <b>DOT11_SEND_INVITATION_REQUEST_PARAMETERS<
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_SEND_INVITATION_REQUEST_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DialogToken
@@ -173,7 +175,11 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439779">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451806">OID_DOT11_WFD_SEND_INVITATION_REQUEST</a>
+
+
 
  
 

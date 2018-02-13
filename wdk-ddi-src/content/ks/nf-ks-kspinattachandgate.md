@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinAttachAndGate function [Streaming Media Devices], stream.kspinattachandgate, avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, KsPinAttachAndGate, ks/KsPinAttachAndGate
+ms.keywords: ks/KsPinAttachAndGate, stream.kspinattachandgate, avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>. Then call <b>KsPinAttachAndGate</b>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -95,13 +98,20 @@ To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGa
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
+
+
 <a href="..\ks\nf-ks-kspinattachorgate.md">KsPinAttachOrGate</a>
 
+
+
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateDepthStencilViewSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE callback
@@ -74,8 +74,9 @@ SIZE_T APIENTRY CalcPrivateDepthStencilViewSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,22 +96,30 @@ SIZE_T APIENTRY CalcPrivateDepthStencilViewSize(
 ## -returns
 
 
+
 <b>CalcPrivateDepthStencilViewSize(D3D11)</b> returns the size of the memory region that the driver requires to create a depth-stencil view.
+
 
 
 
 ## -remarks
 
 
+
 None.
+
 
 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createdepthstencilview.md">D3D11DDIARG_CREATEDEPTHSTENCILVIEW</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
 
  
 

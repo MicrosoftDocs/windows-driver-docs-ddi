@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E07F3ED0-2F20-40D9-AAAE-49C81168B998
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_auth_sim_challenge, *PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE, wwan/PWWAN_AUTH_SIM_CHALLENGE, _WWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_AUTH_SIM_CHALLENGE, netvista.wwan_auth_sim_challenge, PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_CHALLENGE, wwan/PWWAN_AUTH_SIM_CHALLENGE, *PWWAN_AUTH_SIM_CHALLENGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_AUTH_SIM_CHALLENGE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_AUTH_SIM_CHALLENGE, *PWWAN_AUTH_SIM_CHALLENGE
+req.typenames: "*PWWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE"
 req.product: Windows 10 or later.
 ---
 
@@ -109,15 +109,19 @@ The third 128-bit random number challenge value. This member represents a multi-
 ## -remarks
 
 
+
 The <b>n</b> member can be either <b>2</b> or <b>3</b>, according to RFC 4186. If it is set to <b>2</b>, use the <b>Rand1</b> and <b>Rand2</b> members. If it is set to <b>3</b>, then the <b>Rand1</b>, <b>Rand2</b>, and <b>Rand3</b> members.
 
 The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
+
+
 
  
 

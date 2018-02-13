@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ab8276d4-4838-4bfc-8952-8712435eab41
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasSetValidListGuid function [Imaging Devices], wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiamdef/wiasSetValidListGuid, wiasSetValidListGuid, image.wiassetvalidlistguid
+ms.keywords: wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, image.wiassetvalidlistguid, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices], wiamdef/wiasSetValidListGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasSetValidListGuid
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,7 @@ TBD
 
 
 
+
 #### - gNom
 
 Specifies the property's nominal value.
@@ -111,23 +112,37 @@ Pointer to the first element of an array of valid property values.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistfloat.md">wiasSetValidListFloat</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+
+
 
  
 

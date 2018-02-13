@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 87d9f307-996b-47df-b3dd-368fef6c1042
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::AddSyntheticModule, AddSyntheticModule, dbgeng/IDebugSymbols3::AddSyntheticModule, IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, IDebugSymbols3, AddSyntheticModule method [Windows Debugging], AddSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, debugger.addsyntheticmodule, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModule method
+ms.keywords: debugger.addsyntheticmodule, IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModule method, IDebugSymbols3::AddSyntheticModule, AddSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticModule method [Windows Debugging], AddSyntheticModule, dbgeng/IDebugSymbols3::AddSyntheticModule, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,6 +99,7 @@ Set to DEBUG_ADDSYNTHMOD_DEFAULT.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +116,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The memory region of the synthetic module, described by the <i>Base</i> and <i>Size</i> parameters, must not overlap the memory region of any other module.
@@ -132,13 +136,20 @@ For more information about synthetic modules, see <a href="https://msdn.microsof
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMGetDeviceProperty, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], netvista.ndismgetdeviceproperty
+ms.keywords: ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], NdisMGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMGetDeviceProperty
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMGetDeviceProperty function
@@ -127,11 +127,14 @@ A pointer to a caller-allocated buffer that receives a pointer to a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers must retrieve specific information to set up their communications. Miniport drivers
@@ -157,11 +160,16 @@ Miniport drivers can call
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 
  
 

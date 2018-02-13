@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b25feb68-75bb-4a9d-b842-e15f619a18c4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, *PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], _FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, FEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices]
+ms.keywords: "_FEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM, *PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,15 +127,21 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "Removable Medium" by the <i>MMC-3 </i>specification. Devices that support this feature allow the medium to be removed from the device. They also can communicate to the initiator that the user wants to eject the medium or has inserted a new medium. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

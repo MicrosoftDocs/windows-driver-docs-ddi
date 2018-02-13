@@ -7,8 +7,8 @@ old-location: buses\_roothub_20ports_info.htm
 old-project: usbref
 ms.assetid: FBFDF368-8DB9-4ACE-851D-6A178FB3E019
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ROOTHUB_20PORTS_INFO structure [Buses], ROOTHUB_20PORTS_INFO, P_ROOTHUB_20PORTS_INFO structure pointer [Buses], ucxroothub/P_ROOTHUB_20PORTS_INFO, ucxroothub/_ROOTHUB_20PORTS_INFO, _ROOTHUB_20PORTS_INFO, P_ROOTHUB_20PORTS_INFO, *PROOTHUB_20PORTS_INFO, buses._roothub_20ports_info
+ms.date: 2/8/2018
+ms.keywords: "*PROOTHUB_20PORTS_INFO, ucxroothub/P_ROOTHUB_20PORTS_INFO, buses._roothub_20ports_info, ROOTHUB_20PORTS_INFO, ucxroothub/_ROOTHUB_20PORTS_INFO, _ROOTHUB_20PORTS_INFO, ROOTHUB_20PORTS_INFO structure [Buses], P_ROOTHUB_20PORTS_INFO structure pointer [Buses], P_ROOTHUB_20PORTS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ROOTHUB_20PORTS_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PROOTHUB_20PORTS_INFO, ROOTHUB_20PORTS_INFO"
+req.typenames: ROOTHUB_20PORTS_INFO, *PROOTHUB_20PORTS_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -95,9 +95,11 @@ A pointer to an array of <a href="..\ucxroothub\ns-ucxroothub-_roothub_20port_in
 
 <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_20port_info.md">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20ROOTHUB_20PORTS_INFO structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20ROOTHUB_20PORTS_INFO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

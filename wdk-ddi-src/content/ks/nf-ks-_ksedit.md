@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/_KsEdit, _KsEdit function [Streaming Media Devices], _KsEdit, stream._ksedit, avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml
+ms.keywords: "_KsEdit, avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, _KsEdit function [Streaming Media Devices], stream._ksedit"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,16 +100,20 @@ Contains the pool tag to use for the allocations. Drivers normally specify the p
 ## -returns
 
 
+
 Returns success or STATUS_INSUFFICIENT_RESOURCES.
+
 
 
 
 ## -remarks
 
 
+
 Note that <b>KsEdit</b> and <b>KsEditSized</b> are macros created to make <b>_KsEdit</b> easier to use. While <b>_KsEdit</b> allows you to resize an item, <b>KsEdit</b> does not. The macro <b>KsEdit</b> calls <b>_KsEdit</b>, specifying <b>sizeof</b>(**<i>PointerToPointerToItem</i>) as both sizes.
 
 For example, consider a pin that needs to modify its allocator framing on creation. Because the descriptor is statically coded and new pins may use it, the solution is to modify the pin descriptor as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -120,10 +124,12 @@ For example, consider a pin that needs to modify its allocator framing on creati
         Pin-&gt;Descriptor-&gt;AllocatorFraming = NewAllocatorFraming;</pre>
 </td>
 </tr>
-</table></span></div>The call to <b>KsEdit</b> guarantees that <i>Pin-&gt;Descriptor </i>is dynamic memory that is associated with <i>Pin</i>. Note that arbitrary modification of descriptors and other AVStream structures can cause undesirable results. Minidrivers should exercise caution when using <b>KsEdit</b> on AVStream structures.
+</table></span></div>
+The call to <b>KsEdit</b> guarantees that <i>Pin-&gt;Descriptor </i>is dynamic memory that is associated with <i>Pin</i>. Note that arbitrary modification of descriptors and other AVStream structures can cause undesirable results. Minidrivers should exercise caution when using <b>KsEdit</b> on AVStream structures.
 
 <b>KsEditSized</b> calls <b>_KsEdit</b> with the same parameters it receives, except that <i>Object</i> is replaced by <i>Object-&gt;Bag</i> and the pointer is typecast to PVOID.
 
 Note that when calling <b>_KsEdit</b>, a caller must hold the mutex associated with the bag. For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> and <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
+
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 59a77753-1f34-4224-af11-c6bbfa847619
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FindItemByName method [Imaging Devices], image.iwiadrvitem_finditembyname, wiamindr_lh/IWiaDrvItem::FindItemByName, FindItemByName, FindItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::FindItemByName, DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], FindItemByName method
+ms.keywords: image.iwiadrvitem_finditembyname, wiamindr_lh/IWiaDrvItem::FindItemByName, FindItemByName, DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], FindItemByName method, FindItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::FindItemByName, FindItemByName method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ HRESULT FindItemByName(
 
 
 
+
 #### - lFlags [in]
 
 Reserved. Set to zero. 
@@ -104,11 +105,14 @@ Points to a memory location that will receive the address of the found <b>IWiaDr
 ## -returns
 
 
+
 If the method succeeds, it stores a pointer to the found item in <i>ppItem</i> and returns S_OK. If the method fails, it places <b>NULL</b> in <i>ppItem</i> and returns S_FALSE. If this method does not find the required item, it returns S_FALSE. If an error occurred during the search, a standard COM error code will be returned.
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers call this method to find an item in a driver item tree when the item's full name is known. The item's full name is obtained in the method <a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>.
@@ -117,13 +121,20 @@ This method starts the search for the specified item at the root item in the dri
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543867">IWiaDrvItem::FindChildItemByName</a>
 
+
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 

@@ -89,20 +89,25 @@ The size of the buffer is <b>sizeof</b>(ULONG).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+
 <ul>
 <li>
 <b>Information</b> is set to <b>sizeof</b>(ULONG) if the size of the report input queue is successfully retrieved. 
@@ -117,6 +122,8 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 ## -see-also
 
 <a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
+
+
 
  
 

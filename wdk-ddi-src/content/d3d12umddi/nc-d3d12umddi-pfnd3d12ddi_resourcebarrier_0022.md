@@ -75,13 +75,14 @@ VOID APIENTRY* pfnResourceBarrier(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param Count
 
 Specifies a count.
 
 
 ### -param *
+
+
 
 
 
@@ -101,20 +102,26 @@ A pointer to a resource barrier as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12d
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 Access this callback function by using a command list functions structure, such as the <b>D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_0020</b> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
+
+
 
  
 

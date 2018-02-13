@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8b0b2bde-6ada-4a73-9737-7150605b79c8
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: XPSRAS_RENDERING_MODE enumeration [Print Devices], xpsrassvc/XPSRAS_RENDERING_MODE, print_xpsrast_7ef89e32-be23-4164-8f23-33ce5db681dd.xml, XPSRAS_RENDERING_MODE, XPSRAS_RENDERING_MODE_ANTIALIASED, __MIDL___MIDL_itf_xpsrassvc_0000_0001_0001, XPSRAS_RENDERING_MODE_ALIASED, print.xpsras_rendering_mode_enumeration, xpsrassvc/XPSRAS_RENDERING_MODE_ALIASED, xpsrassvc/XPSRAS_RENDERING_MODE_ANTIALIASED
+ms.keywords: XPSRAS_RENDERING_MODE enumeration [Print Devices], print.xpsras_rendering_mode_enumeration, XPSRAS_RENDERING_MODE, XPSRAS_RENDERING_MODE_ALIASED, XPSRAS_RENDERING_MODE_ANTIALIASED, xpsrassvc/XPSRAS_RENDERING_MODE_ALIASED, print_xpsrast_7ef89e32-be23-4164-8f23-33ce5db681dd.xml, xpsrassvc/XPSRAS_RENDERING_MODE_ANTIALIASED, __MIDL___MIDL_itf_xpsrassvc_0000_0001_0001, xpsrassvc/XPSRAS_RENDERING_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -82,15 +82,19 @@ Do not use antialiasing to rasterize the specified graphics elements.
 ## -remarks
 
 
+
 The values defined in this enumeration are used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a> method.
 
 For more information about rasterizing XPS documents, see <a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">Using the XPS Rasterization Service</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
 
  
 

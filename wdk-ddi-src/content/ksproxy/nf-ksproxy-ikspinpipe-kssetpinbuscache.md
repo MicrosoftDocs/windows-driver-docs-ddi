@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5340DB05-12D9-4965-B207-BA113F3801A7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsPinPipe::KsSetPinBusCache, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe, KsSetPinBusCache method [Streaming Media Devices], KsSetPinBusCache, stream.ikspinpipe_kssetpinbuscache, IKsPinPipe interface [Streaming Media Devices], KsSetPinBusCache method
+ms.keywords: IKsPinPipe interface [Streaming Media Devices], KsSetPinBusCache method, stream.ikspinpipe_kssetpinbuscache, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], IKsPinPipe interface, KsSetPinBusCache method [Streaming Media Devices], ksproxy/IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache, IKsPinPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,16 +75,21 @@ HRESULT KsSetPinBusCache(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
+
+
 
  
 

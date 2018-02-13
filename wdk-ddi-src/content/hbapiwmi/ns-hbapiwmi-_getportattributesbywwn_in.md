@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetPortAttributesByWWN_IN, hbapiwmi/GetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN, hbapiwmi/PGetPortAttributesByWWN_IN, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, storage.getportattributesbywwn_in, GetPortAttributesByWWN_IN structure [Storage Devices], PGetPortAttributesByWWN_IN structure pointer [Storage Devices], _GetPortAttributesByWWN_IN
+ms.keywords: hbapiwmi/GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], PGetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN, _GetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], hbapiwmi/PGetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, GetPortAttributesByWWN_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPortAttributesByWWN_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN"
+req.typenames: GetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN
 ---
 
 # _GetPortAttributesByWWN_IN structure
@@ -75,15 +75,19 @@ Contains a worldwide name that identifies a port of type FC_Port.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetPortAttributesByWWN_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 For a definition of FC_Port and a discussion of worldwide names, see the T11 committee's specification for <i>Fibre Channel HBA API</i> (FC-HBA).
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+
+
 
  
 

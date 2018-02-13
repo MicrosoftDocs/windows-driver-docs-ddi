@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: ac539b82-83a1-4ccb-8088-c6f4b746a184
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, Microsoft.WDTF.IAction.SetTarget, Microsoft::WDTF::IAction::SetTarget, IAction interface [Windows Device Testing Framework], SetTarget method, SetTarget method [Windows Device Testing Framework], IAction interface, dtf.iaction_settarget, SetTarget, wdtf/IAction::SetTarget, IAction, SetTarget method [Windows Device Testing Framework], IAction::SetTarget
+ms.keywords: dtf.iaction_settarget, Microsoft::WDTF::IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, IAction::SetTarget, Microsoft.WDTF.IAction.SetTarget, IAction, SetTarget method [Windows Device Testing Framework], SetTarget, SetTarget method [Windows Device Testing Framework], IAction interface, wdtf/IAction::SetTarget, IAction interface [Windows Device Testing Framework], SetTarget method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,28 +83,42 @@ Optional additional targets for the implementation. Currently, the <i>MoreTarget
 ## -returns
 
 
+
 <b>SetTarget</b> returns a standard <b>HRESULT</b> value
+
 
 
 
 ## -remarks
 
 
+
 The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not call this method from a WDTF scenario.
+
 
 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
+
 
 <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
 
+
+
 <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
+<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
+
+
 
  
 

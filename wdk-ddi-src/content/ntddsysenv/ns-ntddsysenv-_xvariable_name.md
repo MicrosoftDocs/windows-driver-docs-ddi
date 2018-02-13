@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PSYSENV_VARIABLE_NAME, kernel.xvariable_name, PXVARIABLE_NAME, _XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], ntddsysenv/XVARIABLE_NAME, *PXVARIABLE_NAME, SYSENV_VARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], XVARIABLE_NAME, ntddsysenv/PXVARIABLE_NAME"
+ms.keywords: "*PSYSENV_VARIABLE_NAME, PXVARIABLE_NAME, _XVARIABLE_NAME, SYSENV_VARIABLE_NAME, kernel.xvariable_name, ntddsysenv/PXVARIABLE_NAME, *PXVARIABLE_NAME, XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], ntddsysenv/XVARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,8 @@ Name of the system environment variable.
 ## -see-also
 
 <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a>
+
+
 
  
 

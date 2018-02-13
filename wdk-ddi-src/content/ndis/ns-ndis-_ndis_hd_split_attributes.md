@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3e28d66-1fe8-4cb0-ada0-4292387da19a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], ndis/NDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_hd_split_attributes, ndis/PNDIS_HD_SPLIT_ATTRIBUTES, header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml"
+ms.keywords: PNDIS_HD_SPLIT_ATTRIBUTES, netvista.ndis_hd_split_attributes, header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml, NDIS_HD_SPLIT_ATTRIBUTES, ndis/NDIS_HD_SPLIT_ATTRIBUTES, ndis/PNDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_HD_SPLIT_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES
+req.typenames: "*PNDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES"
 ---
 
 # _NDIS_HD_SPLIT_ATTRIBUTES structure
@@ -95,10 +95,12 @@ The header-data split hardware capabilities that the miniport adapter supports. 
 
 
 
+
 #### NDIS_HD_SPLIT_CAPS_SUPPORTS_HEADER_DATA_SPLIT
 
 The miniport adapter can split the header and data into separate MDLs that meet the requirements
        for header-data split support.
+
 
 
 #### NDIS_HD_SPLIT_CAPS_SUPPORTS_IPV4_OPTIONS
@@ -106,27 +108,37 @@ The miniport adapter can split the header and data into separate MDLs that meet 
 The miniport adapter can split IPv4 Ethernet frames that include IPv4 options. The miniport
        adapter can support splitting some IPv4 options while not splitting others. 
        
+
 <div class="alert"><b>Note</b>  The NIC must not split IPv4 frames that contain unsupported IPv4 options. If an
        IPv4 frame is split, the header portion of the split frame must contain the entire IPv4 header and all
-       of the IPv4 options that are present.</div><div> </div>
+       of the IPv4 options that are present.</div>
+<div> </div>
+
 
 #### NDIS_HD_SPLIT_CAPS_SUPPORTS_IPV6_EXTENSION_HEADERS
 
 The miniport adapter can split IPv6 Ethernet frames that include IPv6 extension headers. The
        miniport adapter can support some IPv6 extension headers while not supporting others. 
        
+
 <div class="alert"><b>Note</b>  The NIC must not split IPv6 frames that contain unsupported IPv6 extension
        headers. If an IPv6 frame is split, the header portion of the split frame must contain the entire IPv6
-       header and all of the IPv6 extension headers that are present.</div><div> </div>
+       header and all of the IPv6 extension headers that are present.</div>
+<div> </div>
+
 
 #### NDIS_HD_SPLIT_CAPS_SUPPORTS_TCP_OPTIONS
 
 The miniport adapter can split TCP frames with other TCP options in addition to the timestamp
        option. The miniport adapter can support some TCP options and not support others.
        
+
 <div class="alert"><b>Note</b>  If the only TCP option in a frame is the timestamp option, the data-split
-       provider must be able to split the frame.</div><div> </div><div class="alert"><b>Note</b>  If a TCP header contains an unsupported TCP option, the NIC must split the frame
-       at the beginning of the TCP header or must not split the frame.</div><div> </div>
+       provider must be able to split the frame.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  If a TCP header contains an unsupported TCP option, the NIC must split the frame
+       at the beginning of the TCP header or must not split the frame.</div>
+<div> </div>
 
 ### -field CurrentCapabilities
 
@@ -145,6 +157,7 @@ A set of flags that control the status of header-data split for a miniport adapt
      <b>NdisMSetMiniportAttributes</b> successfully returns, the driver must check the flags and configure the
      hardware accordingly. NDIS sets this member with a bitwise OR of the following flags:
      
+
 
 
 
@@ -178,14 +191,17 @@ The maximum size, in bytes, for the header portion of a split frame. The minipor
      <b>NdisMSetMiniportAttributes</b> successfully returns, the driver must use the value that NDIS provided.
      
      
+
 <div class="alert"><b>Note</b>  If the length of a header exceeds 
      <b>MaxHeaderSize</b> because of the presence of IPv4 options, IPSec headers, or IPv6 extension headers,
      the frame must not be split. If a header that includes a TCP or UDP header exceeds 
      <b>MaxHeaderSize</b> because of the presence of TCP header, TCP options, or UDP header, the NIC must
      split the frame at the beginning of the upper layer protocol header or must not split the
-     frame.</div><div> </div>
+     frame.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 To support header-data split, a miniport driver passes a pointer to an 
@@ -202,16 +218,25 @@ To support header-data split, a miniport driver passes a pointer to an
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

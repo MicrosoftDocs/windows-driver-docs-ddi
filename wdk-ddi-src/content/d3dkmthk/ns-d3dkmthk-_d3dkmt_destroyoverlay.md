@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1b8554f-8d6b-4c2e-b6b8-fcbfc97f5dd9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY structure [Display Devices], OpenGL_Structs_57b46d39-5b2c-4d58-9daa-e1460168fe55.xml, d3dkmthk/D3DKMT_DESTROYOVERLAY, display.d3dkmt_destroyoverlay"
+ms.keywords: d3dkmthk/D3DKMT_DESTROYOVERLAY, OpenGL_Structs_57b46d39-5b2c-4d58-9daa-e1460168fe55.xml, D3DKMT_DESTROYOVERLAY, display.d3dkmt_destroyoverlay, _D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _D3DKMT_DESTROYOVERLAY {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyoverlay.md">D3DKMTDestroyOverlay</a>
+
+
 
  
 

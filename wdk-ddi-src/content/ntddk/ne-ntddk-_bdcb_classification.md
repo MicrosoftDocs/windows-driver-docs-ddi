@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.bdcb_classification, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownBadImage, BDCB_CLASSIFICATION, BdCbClassificationKnownGoodImage, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], ntddk/BdCbClassificationUnknownImage, _BDCB_CLASSIFICATION, ntddk/BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, *PBDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, ntddk/BdCbClassificationKnownGoodImage, BdCbClassificationEnd, BdCbClassificationUnknownImage, ntddk/BDCB_CLASSIFICATION
+ms.keywords: BdCbClassificationUnknownImage, ntddk/BdCbClassificationKnownBadImage, _BDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, BdCbClassificationEnd, ntddk/BdCbClassificationKnownGoodImage, BDCB_CLASSIFICATION, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], kernel.bdcb_classification, BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationUnknownImage, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownBadImage, *PBDCB_CLASSIFICATION, ntddk/BDCB_CLASSIFICATION, ntddk/BdCbClassificationKnownBadImageBootCritical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,7 +100,11 @@ Do not use. Reserved for future use.
 
 <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
+
+
 
  
 

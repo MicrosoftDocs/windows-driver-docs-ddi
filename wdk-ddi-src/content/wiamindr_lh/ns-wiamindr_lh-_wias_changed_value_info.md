@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bfef9d54-fcd5-436b-b3ec-8cd3b8f38360
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml, WIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info, wiamindr_lh/WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, _WIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO
+ms.keywords: wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], _WIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], PWIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO, wiamindr_lh/WIAS_CHANGED_VALUE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,54 +81,6 @@ typedef struct _WIAS_CHANGED_VALUE_INFO {
 
 
 
-### -field Old
-
-
-
-### -field Old.lVal
-
- 
-
-
-### -field Old.fltVal
-
- 
-
-
-### -field Old.bstrVal
-
- 
-
-
-### -field Old.guidVal
-
- 
-
-
-### -field Current
-
-
-
-### -field Current.lVal
-
- 
-
-
-### -field Current.fltVal
-
- 
-
-
-### -field Current.bstrVal
-
- 
-
-
-### -field Current.guidVal
-
- 
-
-
 ### -field bChanged
 
 Is a Boolean that indicates whether a property has changed. That is, if the property's current value is different from its value before <a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a> was called. Upon return from one of the <b>wiasGetChangedValue</b><i>Xxx</i> functions, this member is <b>TRUE</b> if the property changed, and <b>FALSE</b> if the property did not change. 
@@ -159,24 +111,84 @@ VT_BSTR
 See the PROPVARIANT structure in the Microsoft Windows SDK documentation for more information.
 
 
+### -field Old
+
+
+### -field Old.lVal
+
+ 
+
+
+### -field Old.fltVal
+
+ 
+
+
+### -field Old.bstrVal
+
+ 
+
+
+### -field Old.guidVal
+
+ 
+
+
+### -field Current
+
+
+### -field Current.lVal
+
+ 
+
+
+### -field Current.fltVal
+
+ 
+
+
+### -field Current.bstrVal
+
+ 
+
+
+### -field Current.guidVal
+
+ 
+
+
+
+
 ## -remarks
+
 
 
 The <b>wiasGetChangedValue</b><i>Xxx</i> functions, use this structure to determine whether a property of a certain type has been changed by an application. These functions are used when the minidriver performs property validation, which occurs within the body of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>
+## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+
 
  
 

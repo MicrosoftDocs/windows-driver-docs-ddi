@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetInfo method [Print Devices], IPrintOemUni interface, IPrintOemUni, IPrintOemUni interface [Print Devices], GetInfo method, GetInfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, print.iprintoemuni_getinfo, prcomoem/IPrintOemUni::GetInfo, GetInfo method [Print Devices], IPrintOemUni::GetInfo
+ms.keywords: IPrintOemUni interface [Print Devices], GetInfo method, GetInfo method [Print Devices], IPrintOemUni interface, IPrintOemUni, IPrintOemUni::GetInfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, prcomoem/IPrintOemUni::GetInfo, GetInfo method [Print Devices], print.iprintoemuni_getinfo, GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.GetInfo
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -79,17 +79,20 @@ Contains one of the following caller-supplied integer constants.
 
 
 
-
-
-
 #### OEMGI_GETREQUESTEDHELPERINTERFACES
 
 The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554269">IPrintOemUni::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni Interface</a>.
 
 
+
+
+
 #### OEMGI_GETSIGNATURE
 
 The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures, as described in the description of the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
+
+
+
 
 
 #### OEMGI_GETVERSION
@@ -115,7 +118,9 @@ Caller-supplied pointer to a location to receive the number of bytes written int
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +148,14 @@ The operation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::GetInfo</code> method, which is called immediately after the plug-in is loaded. The method should return the specified information by writing it to the address specified by <i>pBuffer</i> and writing the size, in bytes, of the returned information into the location specified by <i>pcbNeeded</i>.
@@ -158,11 +166,16 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8329d26-fb6f-46f1-aacd-ba78ee4ea5d5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetCommonBuffer, VideoPortGetCommonBuffer function [Display Devices], display.videoportgetcommonbuffer, VideoPortGetCommonBuffer, VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml
+ms.keywords: display.videoportgetcommonbuffer, video/VideoPortGetCommonBuffer, VideoPortGetCommonBuffer, VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, VideoPortGetCommonBuffer function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,20 +108,26 @@ Specifies whether the allocated memory can be cached.
 ## -returns
 
 
+
 <b>VideoPortGetCommonBuffer</b> returns the base virtual address of the allocated buffer if successful; otherwise, returns <b>NULL</b> if the buffer cannot be allocated.
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers. 
+
 
 
 
 ## -see-also
 
 <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+
+
 
  
 

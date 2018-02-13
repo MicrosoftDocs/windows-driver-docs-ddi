@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue interface, PurgeSynchronously method, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, IWDFIoQueue, umdf.iwdfioqueue_purgesynchronously, IWDFIoQueue::PurgeSynchronously, PurgeSynchronously, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::PurgeSynchronously, wdf.iwdfioqueue_purgesynchronously
+ms.keywords: IWDFIoQueue::PurgeSynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, wudfddi/IWDFIoQueue::PurgeSynchronously, IWDFIoQueue interface, PurgeSynchronously method, umdf.iwdfioqueue_purgesynchronously, wdf.iwdfioqueue_purgesynchronously, IWDFIoQueue, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, PurgeSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ void  PurgeSynchronously();
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 The framework cancels unprocessed requests in the queue. For requests that are delivered to the driver and marked cancelable, the framework calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>. 
@@ -85,13 +89,20 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+
+
 
  
 

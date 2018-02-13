@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 981fef6c-65a7-4ba1-ad6a-c7c9c2795feb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaudbglegacyerror2, wiautil/wiauDbgLegacyError2, wiauDbgLegacyError2 function [Imaging Devices], wiauFncs_647f5e2c-bcc7-4e9a-9746-2f0685f29fcf.xml, wiauDbgLegacyError2
+ms.keywords: wiauDbgLegacyError2, image.wiaudbglegacyerror2, wiauFncs_647f5e2c-bcc7-4e9a-9746-2f0685f29fcf.xml, wiautil/wiauDbgLegacyError2, wiauDbgLegacyError2 function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. 
@@ -93,20 +94,26 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgLegacyError2</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+
 
  
 

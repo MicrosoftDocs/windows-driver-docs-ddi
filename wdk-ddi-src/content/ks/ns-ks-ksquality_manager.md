@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 33e66fa0-53d6-400a-a03b-6d7b3fd01ace
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], *PKSQUALITY_MANAGER, KSQUALITY_MANAGER, stream.ksquality_manager, ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, ks/KSQUALITY_MANAGER, KSQUALITY_MANAGER structure [Streaming Media Devices], ks/PKSQUALITY_MANAGER
+ms.keywords: KSQUALITY_MANAGER, ks/KSQUALITY_MANAGER, PKSQUALITY_MANAGER, ks/PKSQUALITY_MANAGER, *PKSQUALITY_MANAGER, stream.ksquality_manager, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], KSQUALITY_MANAGER structure [Streaming Media Devices], ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSQUALITY_MANAGER
 product: Windows
 targetos: Windows
-req.typenames: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER
+req.typenames: "*PKSQUALITY_MANAGER, KSQUALITY_MANAGER"
 ---
 
 # KSQUALITY_MANAGER structure
@@ -80,9 +80,13 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a>
 
-<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
+
 
  
 

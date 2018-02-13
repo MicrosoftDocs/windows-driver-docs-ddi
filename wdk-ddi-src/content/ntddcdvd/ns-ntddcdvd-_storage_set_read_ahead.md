@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5220230f-5436-4a79-808c-ab840d7009e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdvd/STORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD, *PSTORAGE_SET_READ_AHEAD, ntddcdvd/PSTORAGE_SET_READ_AHEAD, structs-general_a6938152-7839-43e0-a030-8767d032469c.xml, _STORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD structure [Storage Devices], storage.storage_set_read_ahead, PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD structure pointer [Storage Devices]
+ms.keywords: ntddcdvd/STORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD, *PSTORAGE_SET_READ_AHEAD, structs-general_a6938152-7839-43e0-a030-8767d032469c.xml, STORAGE_SET_READ_AHEAD structure [Storage Devices], storage.storage_set_read_ahead, PSTORAGE_SET_READ_AHEAD structure pointer [Storage Devices], _STORAGE_SET_READ_AHEAD, ntddcdvd/PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_SET_READ_AHEAD
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD"
+req.typenames: STORAGE_SET_READ_AHEAD, *PSTORAGE_SET_READ_AHEAD
 ---
 
 # _STORAGE_SET_READ_AHEAD structure
@@ -81,6 +81,8 @@ Indicates the address to jump to.
 ## -see-also
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_storage_set_read_ahead.md">IOCTL_STORAGE_SET_READ_AHEAD</a>
+
+
 
  
 

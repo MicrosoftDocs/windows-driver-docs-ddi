@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 0186dc75-6d37-4adb-8337-6daa634bd936
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_L2CA_UPDATE_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_UPDATE_CHANNEL, bltooth._brb_l2ca_update_channel, bthddi/_BRB_L2CA_UPDATE_CHANNEL, bth_structs_7ee8d85e-5cf3-4820-a325-6abe0777b22a.xml"
+ms.keywords: "_BRB_L2CA_UPDATE_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_L2CA_UPDATE_CHANNEL, bth_structs_7ee8d85e-5cf3-4820-a325-6abe0777b22a.xml, _BRB_L2CA_UPDATE_CHANNEL, bltooth._brb_l2ca_update_channel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,6 +110,7 @@ The flag or flags in the
 ## -remarks
 
 
+
 To retrieve the current settings of a L2CAP channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a> request.
@@ -132,16 +133,25 @@ By building and sending a <b>BRB_L2CA_UPDATE_CHANNEL</b> request, profile driver
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
 
  
 

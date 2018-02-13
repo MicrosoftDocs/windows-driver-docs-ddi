@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fe99cc4-35d9-432a-aed9-074d40438976
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup::OutputSymbols, IDebugSymbolGroup2, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, debugger.outputsymbols, dbgeng/IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols, OutputSymbols
+ms.keywords: OutputSymbols method [Windows Debugging], IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup2::OutputSymbols, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, debugger.outputsymbols, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, dbgeng/IDebugSymbolGroup::OutputSymbols, IDebugSymbolGroup::OutputSymbols, IDebugSymbolGroup2, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, OutputSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,6 +83,7 @@ The flags that determine what information is printed for each symbol.  By defaul
 <code>Name**NAME**Offset**OFF**Value**VALUE**Type**TYPE**</code>
 
 You can use the following bit flags to suppress the output of one of these pieces of information together with the corresponding marker.
+
 <table>
 <tr>
 <th>Value</th>
@@ -128,7 +129,8 @@ Suppress output of the symbol's type.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Start [in]
@@ -142,6 +144,7 @@ The number of symbols to print.
 
 
 ## -returns
+
 
 
 <table>
@@ -160,26 +163,36 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
 
  
 

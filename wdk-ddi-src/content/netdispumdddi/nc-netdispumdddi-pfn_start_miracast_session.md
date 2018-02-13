@@ -83,7 +83,9 @@ The operating system obtained the context when it called the Miracast user-mode 
 ### -param MiracastRTSPSocket [in]
 
 The operating system-supplied network socket handle of the Real Time Streaming Protocol (RTSP). 
-<div class="alert"><b>Note</b>  The Miracast user-mode driver should not close this socket. When the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> function is called, the operating system will close this socket.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The Miracast user-mode driver should not close this socket. When the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> function is called, the operating system will close this socket.</div>
+<div> </div>
 
 ### -param *pWfdConnectionStats [in]
 
@@ -98,7 +100,9 @@ A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.
 ## -returns
 
 
+
 On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function returns an error code defined in the Ntstatus.h header, including the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,11 +119,14 @@ The current suggested encode rate cannot sustain a Miracast sink that supports m
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When this function is called, the Miracast user-mode driver should start communicating with the Miracast sink using the Miracast protocol. The driver should  gather the capabilities of the sink and the attributes of the monitor that's connected to the sink.  The driver should perform enough of the negotiation with the sink to determine whether a monitor is connected to the sink or not. If the driver determines that a monitor is connected to the sink, it should also determine whether the current suggested bit rate is high enough to at least support the lowest sink supported mode of 1024 x 768 pixels.
@@ -129,18 +136,34 @@ The driver should also set the value of these members of <a href="..\netdispumdd
 
 
 
+#### Thread Safety
+
+The operating system guarantees that only one of the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>, <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>, <i>StartMiracastSession</i>, and <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions is called at a time.
+
+
+
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
 
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a>
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
+
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
+
 
  
 

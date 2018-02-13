@@ -76,22 +76,20 @@ HRESULT  RIL_DisableNotifications(
 ### -param hRil
 
 
-
 ### -param usersContext
-
 
 
 ### -param lpdwNotifications
 
 
-
 ### -param dwNotificationCount
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

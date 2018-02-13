@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 52b76027-5562-403b-9993-40d3d9a33e35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_setequipmentstate, rilapi/RIL_SetEquipmentState, RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_setequipmentstate, RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetEquipmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_SetEquipmentState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwEquipmentState
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

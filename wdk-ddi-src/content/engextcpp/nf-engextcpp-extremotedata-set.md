@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Set method [Windows Debugging], ExtRemoteData, Set, ExtRemoteData interface [Windows Debugging], Set method, Set method [Windows Debugging], ExtRemoteData interface, ExtRemoteData::Set, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
+ms.keywords: ExtRemoteData::Set, ExtRemoteData, ExtRemoteData interface [Windows Debugging], Set method, debugger.extremotedata_set_offset_bytes, Set method [Windows Debugging], Set, engextcpp/ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.Set
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::Set method
@@ -81,26 +81,38 @@ Number of bytes in the memory region.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The <b>Set</b> method will read the contents of the specified region of memory and cache the data.  The data can be retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a> or one of the ExtRemoteTyped::Get<i>Xxx</i> methods.
+
 
 
 
 ## -see-also
 
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+
 
 <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+
+
 
  
 

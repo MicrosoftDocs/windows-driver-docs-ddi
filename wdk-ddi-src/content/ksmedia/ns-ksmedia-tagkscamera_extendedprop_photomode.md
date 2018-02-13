@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96F920FC-43CE-4ACC-B880-9AD03B5D6009
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE
+ms.keywords: stream.kscamera_extendedprop_photomode, KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PHOTOMODE, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_EXTENDEDPROP_PHOTOMODE
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE
+req.typenames: "*PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE"
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_PHOTOMODE structure
@@ -93,6 +93,8 @@ Reserved. Set to 0.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn917959">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a>
+
+
 
  
 

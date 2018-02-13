@@ -80,8 +80,9 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 ### -param UINT
 
 
-
 ### -param *
+
+
 
 
 
@@ -101,13 +102,17 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 ## -returns
 
 
+
 <i>SetIndicesUM</i> returns S_OK or an appropriate error result if the index buffer is not successfully set to the given user memory buffer.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

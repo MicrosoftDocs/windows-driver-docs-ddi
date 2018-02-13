@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1fd075c9-7d0e-4670-bac0-b7b8ba0a714f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetNamedValue method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue method, wdf.iwdfnamedpropertystore_setnamedvalue, umdf.iwdfnamedpropertystore_setnamedvalue, wudfddi/IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore, SetNamedValue, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml
+ms.keywords: SetNamedValue method, umdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue method, IWDFNamedPropertyStore interface, wudfddi/IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue, wdf.iwdfnamedpropertystore_setnamedvalue, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, IWDFNamedPropertyStore interface, SetNamedValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,14 +84,18 @@ A pointer to the value that the property is set to.
 ## -returns
 
 
+
 <b>SetNamedValue</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
 ## -remarks
 
 
+
 The following variant types are supported for property values. The following table shows the types of values that the framework writes for particular variant types.
+
 <table>
 <tr>
 <th>Variant type</th>
@@ -185,15 +189,19 @@ Writes a string array.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+
+
 
  
 

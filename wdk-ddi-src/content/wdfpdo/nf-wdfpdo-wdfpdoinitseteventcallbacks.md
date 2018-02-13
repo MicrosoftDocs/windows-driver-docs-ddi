@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ce47eab-c1d7-4a0d-accb-c8a925aa3d1d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitSetEventCallbacks method, PFN_WDFPDOINITSETEVENTCALLBACKS, kmdf.wdfpdoinitseteventcallbacks, WdfPdoInitSetEventCallbacks, wdfpdo/WdfPdoInitSetEventCallbacks, wdf.wdfpdoinitseteventcallbacks, DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml
+ms.keywords: wdf.wdfpdoinitseteventcallbacks, PFN_WDFPDOINITSETEVENTCALLBACKS, DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, wdfpdo/WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks, kmdf.wdfpdoinitseteventcallbacks, WdfPdoInitSetEventCallbacks method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,11 +85,14 @@ A pointer to a caller-allocated <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_call
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The bus driver must allocate a <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure and fill in the structure with pointers to the driver's event callback functions.
@@ -97,12 +100,41 @@ The bus driver must allocate a <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callb
 The driver must call <b>WdfPdoInitSetEventCallbacks</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfPdoInitSetEventCallbacks</b> and <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-device-objects-in-a-bus-driver">Creating Device Objects in a Bus Driver</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure and then calls <b>WdfPdoInitSetEventCallbacks</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PWDFDEVICE_INIT  pDeviceInit = NULL;
+WDF_PDO_EVENT_CALLBACKS  pdoCallbacks;
+
+pDeviceInit = WdfPdoInitAllocate(Device);
+WDF_PDO_EVENT_CALLBACKS_INIT(&amp;pdoCallbacks);
+pdoCallbacks.EvtDeviceResourceRequirementsQuery = Bus_Pdo_EvtDeviceResourceRequirementsQuery;
+WdfPdoInitSetEventCallbacks(
+                            pDeviceInit,
+                            &amp;pdoCallbacks
+                            );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdf_pdo_event_callbacks_init.md">WDF_PDO_EVENT_CALLBACKS_INIT</a>
+
+
 
  
 

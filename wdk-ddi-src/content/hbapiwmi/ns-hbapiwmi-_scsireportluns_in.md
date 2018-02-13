@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, storage.scsireportluns_in2, *PScsiReportLuns_IN, ScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml
+ms.keywords: ScsiReportLuns_IN structure [Storage Devices], storage.scsireportluns_in2, *PScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, PScsiReportLuns_IN, _ScsiReportLuns_IN, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, ScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReportLuns_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReportLuns_IN, ScsiReportLuns_IN"
+req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ---
 
 # _ScsiReportLuns_IN structure
@@ -93,13 +93,17 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+
+
 
  
 

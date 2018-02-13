@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni interface [Print Devices], DriverDMS method, DriverDMS, IPrintOemUni, prcomoem/IPrintOemUni::DriverDMS, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml, DriverDMS method [Print Devices], IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, DriverDMS method [Print Devices], IPrintOemUni interface
+ms.keywords: DriverDMS method [Print Devices], print.iprintoemuni_driverdms, IPrintOemUni, DriverDMS method [Print Devices], IPrintOemUni interface, DriverDMS, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml, prcomoem/IPrintOemUni::DriverDMS, IPrintOemUni::DriverDMS, IPrintOemUni interface [Print Devices], DriverDMS method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.DriverDMS
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Caller-supplied pointer to a location to receive the required minimum <i>pBuffer
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,11 +124,14 @@ The operation failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::DriverDMS</code> method. The method will be called only if Unidrv finds a valid interface pointer to the OEM's rendering plug-in.
@@ -138,5 +143,6 @@ The method must specify HOOK_-prefixed flags in the buffer pointed to by <i>pBuf
 If <code>IPrintOemUni::DriverDMS</code> sets flags in the buffer pointed to by <i>pBuffer</i>, Unidrv creates a device-managed surface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564206">EngCreateDeviceSurface</a>. If <code>IPrintOemUni::DriverDMS</code> does not set any flags, Unidrv creates a GDI-managed surface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564199">EngCreateBitmap</a>. In either of these cases, <code>IPrintOemUni::DriverDMS</code> should return S_OK.
 
 If the output buffer size specified by <i>cbSize</i> is too small, the method should specify the required size in the location pointed to by <i>pcbNeeded</i>, call <b>SetLastError</b>(ERROR_INSUFFICIENT_BUFFER), and return E_FAIL.
+
 
 

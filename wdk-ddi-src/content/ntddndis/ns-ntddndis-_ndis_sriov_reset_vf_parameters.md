@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0f3c1da5-7e1d-4e13-9942-bedb9ddaf541
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_SRIOV_RESET_VF_PARAMETERS, *PNDIS_SRIOV_RESET_VF_PARAMETERS, PNDIS_SRIOV_RESET_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SRIOV_RESET_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_SRIOV_RESET_VF_PARAMETERS, ntddndis/NDIS_SRIOV_RESET_VF_PARAMETERS, netvista.ndis_sriov_reset_vf_parameters, PNDIS_SRIOV_RESET_VF_PARAMETERS, _NDIS_SRIOV_RESET_VF_PARAMETERS
+ms.keywords: "*PNDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS, _NDIS_SRIOV_RESET_VF_PARAMETERS, netvista.ndis_sriov_reset_vf_parameters, ntddndis/NDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SRIOV_RESET_VF_PARAMETERS, PNDIS_SRIOV_RESET_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_RESET_VF_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_RESET_VF_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SRIOV_RESET_VF_PARAMETERS, *PNDIS_SRIOV_RESET_VF_PARAMETERS
+req.typenames: "*PNDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS"
 ---
 
 # _NDIS_SRIOV_RESET_VF_PARAMETERS structure
@@ -77,6 +77,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NDIS_SRIOV_RESET_VF_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -87,24 +88,34 @@ Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_RESET_VF_PARAMETERS_REVISION_1.
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
+
 <div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The <b>NDIS_SRIOV_RESET_VF_PARAMETERS</b> structure is used in OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451889">OID_SRIOV_RESET_VF</a>. 
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451889">OID_SRIOV_RESET_VF</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

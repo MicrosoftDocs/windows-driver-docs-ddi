@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml, _MSiSCSI_RedirectPortalInfoClass, iscsimgt/MSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, PMSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], *PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices]
+ms.keywords: PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], iscsimgt/PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass, _MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], *PMSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml, iscsimgt/MSiSCSI_RedirectPortalInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_RedirectPortalInfoClass
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClass
+req.typenames: "*PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass"
 ---
 
 # _MSiSCSI_RedirectPortalInfoClass structure
@@ -87,6 +87,8 @@ An array of structures that contains as many ISCSI_RedirectSessionInfo structure
 ## -remarks
 
 
+
 You must implement this class if the adapter supports target portal hopping. Otherwise, it is optional.
+
 
 

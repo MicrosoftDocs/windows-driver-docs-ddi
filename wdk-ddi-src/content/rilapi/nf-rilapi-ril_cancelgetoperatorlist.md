@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 421f2b2f-9cc7-4a33-b253-e442fa112d13
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CancelGetOperatorList, netvista.ril_cancelgetoperatorlist, rilapi/RIL_CancelGetOperatorList, RIL_CancelGetOperatorList method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_CancelGetOperatorList method [Network Drivers Starting with Windows Vista], rilapi/RIL_CancelGetOperatorList, netvista.ril_cancelgetoperatorlist, RIL_CancelGetOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_CancelGetOperatorList(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

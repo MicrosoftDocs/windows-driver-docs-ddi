@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b512c66-7cd8-4605-87d5-13b78d790c8c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4::WriteControl, debugger.writecontrol, IDebugDataSpaces2::WriteControl, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::WriteControl, IDebugDataSpaces interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, WriteControl, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, IDebugDataSpaces::WriteControl, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::WriteControl, WriteControl method [Windows Debugging], dbgeng/IDebugDataSpaces::WriteControl, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method
+ms.keywords: debugger.writecontrol, dbgeng/IDebugDataSpaces4::WriteControl, IDebugDataSpaces interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteControl method, IDebugDataSpaces2 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces::WriteControl, IDebugDataSpaces, WriteControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::WriteControl, IDebugDataSpaces2::WriteControl, IDebugDataSpaces3 interface [Windows Debugging], WriteControl method, WriteControl method [Windows Debugging], IDebugDataSpaces2 interface, WriteControl method [Windows Debugging], IDebugDataSpaces3 interface, WriteControl, IDebugDataSpaces3, dbgeng/IDebugDataSpaces2::WriteControl, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, IDebugDataSpaces4::WriteControl, IDebugDataSpaces3::WriteControl, IDebugDataSpaces2, dbgeng/IDebugDataSpaces::WriteControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,7 +102,9 @@ Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesW
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,13 +121,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d24d9aea-0cdd-4130-9904-4e50c825612e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_workitem_config_init, WDF_WORKITEM_CONFIG_INIT function, DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, kmdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT
+ms.keywords: DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, kmdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT function, wdf.wdf_workitem_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WORKITEM_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG"
+req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,14 @@ The address of the driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers must call <b>WDF_WORKITEM_CONFIG_INIT</b> before calling <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
@@ -96,14 +99,27 @@ Drivers must call <b>WDF_WORKITEM_CONFIG_INIT</b> before calling <a href="..\wdf
 The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtWorkItemFunc</i> parameter specifies and sets the <b>AutomaticSerialization</b> member of the <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a> structure that is pointed to by the <i>Config</i> parameter to <b>TRUE</b>.
 
 
+#### Examples
+
+For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
-<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+
 
 <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
+
+
 
  
 

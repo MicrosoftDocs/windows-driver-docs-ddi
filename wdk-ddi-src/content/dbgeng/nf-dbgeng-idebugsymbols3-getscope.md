@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetScope method, GetScope method [Windows Debugging], IDebugSymbols2 interface, debugger.getscope, IDebugSymbols interface [Windows Debugging], GetScope method, IDebugSymbols2::GetScope, IDebugSymbols3 interface [Windows Debugging], GetScope method, GetScope, IDebugSymbols3::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, GetScope method [Windows Debugging], dbgeng/IDebugSymbols2::GetScope, IDebugSymbols3, GetScope method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetScope, dbgeng/IDebugSymbols3::GetScope, IDebugSymbols::GetScope, GetScope method [Windows Debugging], IDebugSymbols interface
+ms.keywords: GetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], GetScope method, dbgeng/IDebugSymbols2::GetScope, GetScope, debugger.getscope, IDebugSymbols3 interface [Windows Debugging], GetScope method, GetScope method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, IDebugSymbols2 interface [Windows Debugging], GetScope method, IDebugSymbols3::GetScope, IDebugSymbols2::GetScope, IDebugSymbols, IDebugSymbols2, GetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetScope, dbgeng/IDebugSymbols3::GetScope, GetScope method [Windows Debugging], IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,7 +95,9 @@ Specifies the size of the buffer <i>ScopeContext</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,30 +125,46 @@ The size of the buffer <i>ScopeContext</i> was not large enough to hold the scop
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about scopes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
 
 <a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
+
+
 
  
 

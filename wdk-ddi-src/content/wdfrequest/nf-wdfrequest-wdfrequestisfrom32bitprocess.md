@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0d55c1e0-0458-414c-afd6-2fa2576ffa4a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestIsFrom32BitProcess method, kmdf.wdfrequestisfrom32bitprocess, PFN_WDFREQUESTISFROM32BITPROCESS, wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess, DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, WdfRequestIsFrom32BitProcess
+ms.keywords: wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess method, kmdf.wdfrequestisfrom32bitprocess, DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, PFN_WDFREQUESTISFROM32BITPROCESS, WdfRequestIsFrom32BitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,13 +81,16 @@ A handle to a framework request object.
 ## -returns
 
 
+
 On 64-bit systems,<b>WdfRequestIsFrom32BitProcess</b> returns <b>TRUE</b> if the originator of the current I/O request is a 32-bit user-mode process, and <b>FALSE</b> otherwise. On 32-bit systems, <b>WdfRequestIsFrom32BitProcess</b> always returns <b>TRUE</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Drivers can call <b>WdfRequestIsFrom32BitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver.
@@ -95,10 +98,44 @@ Drivers can call <b>WdfRequestIsFrom32BitProcess</b> to determine whether an I/O
 The specified request handle must have been obtained from one of the driver's I/O queues and not from a call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>.
 
 
+#### Examples
+
+The following code example determines if an I/O request came from a 32-bit application.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoRead(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+...
+    if (WdfRequestIsFrom32BitProcess(Request)) {
+        //
+        // The driver is running on a 64-bit computer and the 
+        // I/O request came from a 32-bit application.
+        //
+...
+    }
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+
+
 
  
 

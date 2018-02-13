@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetFilter method, IWDFDeviceInitialize interface, SetFilter method, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter, SetFilter method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::SetFilter, SetFilter, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize::SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml
+ms.keywords: IWDFDeviceInitialize::SetFilter, SetFilter method, IWDFDeviceInitialize, SetFilter, SetFilter method, IWDFDeviceInitialize interface, wudfddi/IWDFDeviceInitialize::SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, IWDFDeviceInitialize interface, SetFilter method, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,21 +69,34 @@ void SetFilter();
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 A filter driver calls <b>SetFilter</b> to mark itself as a filter.  When you tell the framework that your driver is a filter, the framework:
+
 <ul>
 <li>Sends  I/O requests for which the filter has not registered a callback to the next logical driver in the stack.  For example, your filter driver provides an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>  method, but not <a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>.  As a result, your filter driver receives only device I/O control requests.</li>
 <li>Automatically forwards file create, cleanup, and close requests so your driver does not need to call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556971">IWDFDeviceInitialize::AutoForwardCreateCleanupClose</a> method.</li>
-</ul>A driver typically calls <b>SetFilter</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> method.
+</ul>
+A driver typically calls <b>SetFilter</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> method.
+
+
+#### Examples
+
+For a code example of how to use the <b>SetFilter</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+
+<div class="code"></div>
 
 
 
@@ -91,7 +104,11 @@ A filter driver calls <b>SetFilter</b> to mark itself as a filter.  When you tel
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
 
  
 

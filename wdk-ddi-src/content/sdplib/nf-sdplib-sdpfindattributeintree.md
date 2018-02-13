@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 26c71c08-3b9a-474f-a232-d7f675582d27
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpFindAttributeInTree function [Bluetooth Devices], bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree, bltooth.sdpfindattributeintree, SdpFindAttributeInTree
+ms.keywords: SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices], sdplib/SdpFindAttributeInTree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, bltooth.sdpfindattributeintree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpFindAttributeInTree
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: SD_TRANSFER_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,7 @@ TBD
 
 
 
+
 #### - AttribValue [out]
 
 A pointer to a variable that receives the address of the located attribute node.
@@ -96,11 +97,14 @@ A pointer to a variable that receives the address of the located attribute node.
 ## -returns
 
 
+
 Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -113,9 +117,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d5374177-fddd-4f35-8cad-10be762ef4d8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CoerceValues method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::CoerceValues, CoerceValues method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl_a17ec845-aaf3-4480-a0fd-79fb515c48d5.xml, debugger.coercevalues, CoerceValues method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], CoerceValues method, IDebugControl3 interface [Windows Debugging], CoerceValues method, CoerceValues method [Windows Debugging], IDebugControl interface [Windows Debugging], CoerceValues method, CoerceValues, dbgeng/IDebugControl2::CoerceValues, IDebugControl3::CoerceValues, dbgeng/IDebugControl3::CoerceValues, IDebugControl2::CoerceValues, IDebugControl::CoerceValues
+ms.keywords: dbgeng/IDebugControl::CoerceValues, CoerceValues method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], CoerceValues method, IDebugControl2, debugger.coercevalues, CoerceValues method [Windows Debugging], IDebugControl2 interface [Windows Debugging], CoerceValues method, IDebugControl interface [Windows Debugging], CoerceValues method, IDebugControl2::CoerceValues, IDebugControl3, IDebugControl_a17ec845-aaf3-4480-a0fd-79fb515c48d5.xml, dbgeng/IDebugControl2::CoerceValues, IDebugControl3::CoerceValues, IDebugControl, dbgeng/IDebugControl3::CoerceValues, CoerceValues method [Windows Debugging], IDebugControl2 interface, IDebugControl::CoerceValues, CoerceValues, CoerceValues method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,6 +100,7 @@ Specifies the array of desired types for the converted values. For possible valu
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,30 +117,44 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method converts an array of values of one type into values of another type.  Some of these conversions can result in loss of precision.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

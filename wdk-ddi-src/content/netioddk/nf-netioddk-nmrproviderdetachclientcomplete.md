@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a52b3cfc-d6bd-4569-8b09-36dce65d017f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.nmrproviderdetachclientcomplete, netioddk/NmrProviderDetachClientComplete, NmrProviderDetachClientComplete, nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.nmrproviderdetachclientcomplete, nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml, netioddk/NmrProviderDetachClientComplete, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista], NmrProviderDetachClientComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A handle used by the NMR to represent the binding between the client module and 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A provider module calls the 
@@ -101,11 +104,16 @@ A provider module should not call the
 
 
 
+
 ## -see-also
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+
 
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
 
  
 

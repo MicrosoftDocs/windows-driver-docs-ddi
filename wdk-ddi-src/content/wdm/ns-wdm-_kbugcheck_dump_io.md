@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kbugcheck_dump_io, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, wdm/PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO, _KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], wdm/KBUGCHECK_DUMP_IO
+ms.keywords: KBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, kernel.kbugcheck_dump_io, _KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO, wdm/KBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,15 +94,21 @@ Specifies the <a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_
 ## -remarks
 
 
+
 For information about how this structure is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
-<a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a>
+
 
  
 

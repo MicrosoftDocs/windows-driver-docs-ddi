@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, debugger.idebuginputcallbacks_startinput, IDebugInputCallbacks::StartInput, StartInput, StartInput method [Windows Debugging], dbgeng/IDebugInputCallbacks::StartInput, StartInput method [Windows Debugging], IDebugInputCallbacks interface, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], StartInput method
+ms.keywords: dbgeng/IDebugInputCallbacks::StartInput, IDebugInputCallbacks, ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, StartInput method [Windows Debugging], debugger.idebuginputcallbacks_startinput, IDebugInputCallbacks::StartInput, StartInput, IDebugInputCallbacks interface [Windows Debugging], StartInput method, StartInput method [Windows Debugging], IDebugInputCallbacks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ Specifies the number of characters requested.  Any input longer than this size w
 ## -returns
 
 
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacks</b> object is registered, is disabled.
 
 
 
+
 ## -remarks
+
 
 
 This method indicates that the engine is waiting for a line of input from any client.  This can occur if, for example, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">Input</a> method was called on a client.
@@ -89,5 +92,6 @@ After calling this method, the engine waits until it receives some input.  When 
 The <b>IDebugInputCallbacks</b> object can provide the engine with a line of input by calling either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554600">ReturnInput</a> or <b>ReturnInputWide</b> methods.
 
 For more information about debugger engine input, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

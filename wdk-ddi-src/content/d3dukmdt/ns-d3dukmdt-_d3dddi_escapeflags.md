@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40648f6a-3393-4374-beff-e097c299f9e9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDI_ESCAPEFLAGS, D3DDDI_ESCAPEFLAGS structure [Display Devices], display.d3dddi_escapeflags, D3DDDI_ESCAPEFLAGS, d3dukmdt/D3DDDI_ESCAPEFLAGS, D3D_other_Structs_5ff9ad07-6a44-4a53-a70c-5abdbe84065a.xml"
+ms.keywords: display.d3dddi_escapeflags, d3dukmdt/D3DDDI_ESCAPEFLAGS, _D3DDDI_ESCAPEFLAGS, D3DDDI_ESCAPEFLAGS, D3D_other_Structs_5ff9ad07-6a44-4a53-a70c-5abdbe84065a.xml, D3DDDI_ESCAPEFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -150,28 +150,44 @@ A member in the union that is contained in D3DDDI_ESCAPEFLAGS that can hold one 
 ## -remarks
 
 
+
 If <b>ChangeFrameLatency</b> is set, a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> call will succeed only if:
+
 <ul>
 <li>The display miniport driver is responsible for a linked adapter configuration (LDA) provided by a single vendor.</li>
 <li>The app has taken exclusive full-screen ownership of the display at some point in its lifetime.</li>
 <li>The app has not overridden the default maximum frame latency value of 3.</li>
-</ul>If these conditions are not met, <i>pfnEscapeCb</i> call returns an <b>E_INVALIDARG</b> error code.
+</ul>
+If these conditions are not met, <i>pfnEscapeCb</i> call returns an <b>E_INVALIDARG</b> error code.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_framelatencyescape.md">D3DDDI_FRAMELATENCYESCAPE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_executionstateescape.md">D3DDDI_EXECUTIONSTATEESCAPE</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_framelatencyescape.md">D3DDDI_FRAMELATENCYESCAPE</a>
+
+
 
  
 

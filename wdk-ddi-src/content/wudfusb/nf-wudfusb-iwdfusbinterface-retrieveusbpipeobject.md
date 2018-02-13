@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUsbPipeObject method, IWDFUsbInterface, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, RetrieveUsbPipeObject method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, IWDFUsbInterface::RetrieveUsbPipeObject, IWDFUsbInterface interface, RetrieveUsbPipeObject method
+ms.keywords: RetrieveUsbPipeObject method, RetrieveUsbPipeObject method, IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, RetrieveUsbPipeObject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, IWDFUsbInterface interface, RetrieveUsbPipeObject method, IWDFUsbInterface, IWDFUsbInterface::RetrieveUsbPipeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbInterface.RetrieveUsbPipeObject
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfusb\nn-wu
 ## -returns
 
 
+
 <b>RetrieveUsbPipeObject</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,14 +127,24 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface that the <b>RetrieveUsbPipeObject</b> method retrieves to obtain the type of pipe and other information.
+
+
+#### Examples
+
+For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560334">IWDFUsbInterface::GetNumEndPoints</a>.
+
+<div class="code"></div>
 
 
 
@@ -140,7 +152,11 @@ A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusb
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
 
  
 

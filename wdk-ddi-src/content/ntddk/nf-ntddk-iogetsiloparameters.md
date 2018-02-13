@@ -7,8 +7,8 @@ old-location: ifsk\iogetsiloparameters.htm
 old-project: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], IoGetSiloParameters
+ms.date: 2/7/2018
+ms.keywords: PIO_FOEXT_SILO_PARAMETERS, IoGetSiloParameters function [Installable File System Drivers], ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters, IoGetSiloParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetSiloParameters
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoGetSiloParameters function
@@ -75,6 +75,8 @@ The file in question.
 ## -returns
 
 
+
 If <b>null</b>, the file is not in a container context. Otherwise, a non-null value of type <a href="..\ntddk\ns-ntddk-_io_foext_silo_parameters.md">IO_FOEXT_SILO_PARAMETERS</a> indicates that the file is within a Container context.
+
 
 

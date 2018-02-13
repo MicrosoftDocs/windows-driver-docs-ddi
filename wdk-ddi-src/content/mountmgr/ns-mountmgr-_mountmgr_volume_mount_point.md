@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2a267992-b4d3-49e1-bb80-3849220f0d1f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], MOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, *PMOUNTMGR_VOLUME_MOUNT_POINT, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml
+ms.keywords: "_MOUNTMGR_VOLUME_MOUNT_POINT, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml, MOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], *PMOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MOUNTMGR_VOLUME_MOUNT_POINT
 product: Windows
 targetos: Windows
-req.typenames: MOUNTMGR_VOLUME_MOUNT_POINT, *PMOUNTMGR_VOLUME_MOUNT_POINT
+req.typenames: "*PMOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT"
 ---
 
 # _MOUNTMGR_VOLUME_MOUNT_POINT structure
@@ -93,13 +93,17 @@ Contains the length, in bytes, of the target name.
 ## -remarks
 
 
+
 Mount point names must contain the full path of a mount point object name in the system object tree. For example: "\DosDevices\E:\FilesysD\mnt". For an explanation of unique volume names and how the mount manager uses them, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_volume_mount_point_created.md">IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED</a>
+
+
 
  
 

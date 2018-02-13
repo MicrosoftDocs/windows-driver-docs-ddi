@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c23fc5f4-2546-4330-bcdd-8fef59c8219a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksevent_item_irp_storage, ks/KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], KSEVENT_ITEM_IRP_STORAGE, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml
+ms.keywords: ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml, ks/KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE, stream.ksevent_item_irp_storage, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -68,5 +68,4 @@ This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_item.md">KSEV
 
 
 ### -param Irp
-
 

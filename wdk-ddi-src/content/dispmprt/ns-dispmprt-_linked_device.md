@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.linked_device, LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], *PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], dispmprt/PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, dispmprt/LINKED_DEVICE, PLINKED_DEVICE, _LINKED_DEVICE
+ms.keywords: LINKED_DEVICE structure [Display Devices], DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, LINKED_DEVICE, display.linked_device, dispmprt/LINKED_DEVICE, PLINKED_DEVICE, *PLINKED_DEVICE, dispmprt/PLINKED_DEVICE, _LINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,17 @@ A value that indicates the leading link in the chain of linked adapters. The val
 ## -remarks
 
 
+
 Prior to a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>
+
+
 
  
 

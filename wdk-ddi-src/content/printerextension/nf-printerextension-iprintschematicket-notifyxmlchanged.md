@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged, IPrintSchemaTicket, IPrintSchemaTicket::NotifyXmlChanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method
+ms.keywords: IPrintSchemaTicket::NotifyXmlChanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, NotifyXmlChanged method [Print Devices], print.iprintschematicket_notifyxmlchanged, NotifyXmlChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,6 +69,7 @@ HRESULT NotifyXmlChanged(
 
 
 
+
 #### - None
 
 This method has no parameters.
@@ -77,14 +78,18 @@ This method has no parameters.
 ## -returns
 
 
+
 This method returns an HRESULT value.
+
 
 
 
 ## -remarks
 
 
+
 If the client retrieves the XML DOM object of the PrintTicket by calling <a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>, and makes direct modifications to the PrintTicket using XMLDOM APIs, then it is the responsibility of the client to call <b>IPrintSchemaTicket::NotifyXmlChanged</b> to notify the system that the PrintTicket content has been modified.
+
 
 
 
@@ -92,7 +97,11 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 <a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
 
+
+
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
 
  
 

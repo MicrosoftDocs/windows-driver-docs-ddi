@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948475eb-0670-4fab-b831-2fdb3ec86032
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetRADIUSSharedSecret_IN structure [Storage Devices], SetRADIUSSharedSecret_IN, _SetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, iscsiop/PSetRADIUSSharedSecret_IN, iscsiop/SetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices]
+ms.keywords: iscsiop/SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], _SetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, *PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, PSetRADIUSSharedSecret_IN, iscsiop/PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], SetRADIUSSharedSecret_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,21 @@ The shared secret.
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_setradiussharedsecret_out.md">SetRADIUSSharedSecret_OUT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
+
 
  
 

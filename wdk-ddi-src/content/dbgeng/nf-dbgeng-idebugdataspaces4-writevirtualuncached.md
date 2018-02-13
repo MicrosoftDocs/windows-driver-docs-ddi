@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 01b729cb-d7d0-4c8d-a438-51319ef8e1c8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteVirtualUncached, IDebugDataSpaces::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces3::WriteVirtualUncached, debugger.writevirtualuncached, IDebugDataSpaces interface [Windows Debugging], WriteVirtualUncached method, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, IDebugDataSpaces2::WriteVirtualUncached, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], WriteVirtualUncached method, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtualUncached method, dbgeng/IDebugDataSpaces3::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface
+ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtualUncached method, WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtualUncached method, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces4, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, dbgeng/IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces, IDebugDataSpaces2::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], dbgeng/IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces3, debugger.writevirtualuncached, IDebugDataSpaces::WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces interface [Windows Debugging], WriteVirtualUncached method, IDebugDataSpaces2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,7 +96,9 @@ Receives the number of bytes that were actually written.  If it is set to <b>NUL
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +115,14 @@ The method was at least partially successful.  <i>BytesWritten</i> indicates the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method writes the buffer to the memory in the target's virtual address space.
@@ -126,19 +131,32 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554361">ReadVirtualUncached</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554361">ReadVirtualUncached</a>
+
+
 
  
 

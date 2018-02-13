@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 501ff6f1-c5f1-4ad7-be96-a95ba3e34622
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, IPrintCoreUI2, IPrintCoreUI2::DrvGetDriverSetting, print.iprintcoreui2_drvgetdriversetting, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, prcomoem/IPrintCoreUI2::DrvGetDriverSetting
+ms.keywords: DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface, DrvGetDriverSetting, IPrintCoreUI2, DrvGetDriverSetting method [Print Devices], IPrintCoreUI2 interface [Print Devices], DrvGetDriverSetting method, print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml, IPrintCoreUI2::DrvGetDriverSetting, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, print.iprintcoreui2_drvgetdriversetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ Caller-supplied pointer to a location to receive the number of option strings pl
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,14 +147,18 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-750d-4f29-b5e0-ab299a1388db">IPrintOemDriverUI COM Interface</a>, and can be called only by Windows XP and later Pscript5 UI plug-ins that do not fully replace the core driver's standard UI pages, and is supported during the UI plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. When this method is supported, it has the same behavior as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a>. When it is not supported, this method should return E_NOTIMPL.
+
 
 
 
@@ -160,9 +166,15 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+
 
  
 

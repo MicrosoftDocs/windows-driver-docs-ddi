@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8BF45A-D968-4C9F-8C38-65B39665496B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlint8touchar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8ToUChar, RtlInt8ToUChar
+ms.keywords: ntintsafe/RtlInt8ToUChar, RtlInt8ToUChar, kernel.rtlint8touchar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

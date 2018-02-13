@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0096fef7-2a5a-45cd-8e54-dc1ec0e84237
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeMemory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemory, netvista.ndisfreememory, ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml
+ms.keywords: NdisFreeMemory, netvista.ndisfreememory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml, ndis/NdisFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeMemory
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeMemory function
@@ -94,17 +94,21 @@ A set of flags that specify the type of memory to free. This value must be zero 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Because noncached memory and contiguous memory are seldom released until the allocating miniport
     driver is unloading, a caller of 
     <b>NdisFreeMemory</b> usually is running at IRQL = PASSIVE_LEVEL for these types of deallocations. In any
     case:
+
 <ul>
 <li>
 When releasing contiguous memory, a caller of 
@@ -124,12 +128,17 @@ When releasing memory that is neither contiguous nor noncached, a caller of
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eeb2d1ad-ad99-4099-9560-8653a627aa08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock function [Display Devices], VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, display.videoportacquiredevicelock
+ms.keywords: video/VideoPortAcquireDeviceLock, display.videoportacquiredevicelock, VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, VideoPortAcquireDeviceLock function [Display Devices], VideoPortAcquireDeviceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the miniport driver's device extension.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Typically, the video port driver guarantees threaded synchronization into the miniport driver through the use of a device lock. However, a miniport driver must perform its own synchronization when being accessed by a child device. That is, a miniport driver must perform synchronization in routines that it exposes through <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> by acquiring the device lock maintained by the video port driver.
@@ -89,11 +92,16 @@ The miniport driver should release the device lock as quickly as possible by cal
 
 
 
+
 ## -see-also
+
+<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+
+
 
 <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
 
-<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+
 
  
 

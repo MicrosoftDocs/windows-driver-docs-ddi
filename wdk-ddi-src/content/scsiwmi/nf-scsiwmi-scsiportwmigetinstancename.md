@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff2ebd1c-d0ac-47a7-90d4-0b49259784c1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiGetInstanceName routine [Storage Devices], scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename, ScsiPortWmiGetInstanceName, scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml
+ms.keywords: ScsiPortWmiGetInstanceName routine [Storage Devices], scsiwmi/ScsiPortWmiGetInstanceName, scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to a structure of type <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_co
 ## -returns
 
 
+
 Pointer to a counted string containing the instance name associated with the indicated SRB.  If the SRB type is one that does not use an instance name, <b>ScsiPortWmiGetInstanceName</b> returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The parameter <b>RequestContext</b> points to a request context structure, <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>, that contains information associated with a <a href="https://msdn.microsoft.com/5c2ed322-0fc9-4004-9a5f-f4d3c6a59fe9">Windows Management Instrumentation</a> (WMI) SCSI request block (SRB). The request context structure, in turn, contains one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566371">WMI WNODE_XXX Structures</a> that is used by the WMI system to pass data between user-mode data consumers and kernel-mode data providers such as drivers. 
@@ -91,13 +94,20 @@ The memory allocated for the request context must remain valid until after the m
 
 
 
+
 ## -see-also
 
 <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
-<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+
+
 
  
 

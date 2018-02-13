@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66fc9bd4-da47-4cd1-baf2-b536272ea28e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PINT10_BIOS_ARGUMENTS structure pointer [Display Devices], PINT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS structure [Display Devices], video/INT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS, display.int10_bios_arguments, video/PINT10_BIOS_ARGUMENTS, Video_Structs_986b625a-f1b4-401e-b2db-99463c21e8f9.xml, _INT10_BIOS_ARGUMENTS, *PINT10_BIOS_ARGUMENTS
+ms.keywords: video/INT10_BIOS_ARGUMENTS, _INT10_BIOS_ARGUMENTS, display.int10_bios_arguments, Video_Structs_986b625a-f1b4-401e-b2db-99463c21e8f9.xml, INT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS structure [Display Devices], PINT10_BIOS_ARGUMENTS, PINT10_BIOS_ARGUMENTS structure pointer [Display Devices], *PINT10_BIOS_ARGUMENTS, video/PINT10_BIOS_ARGUMENTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INT10_BIOS_ARGUMENTS
 product: Windows
 targetos: Windows
-req.typenames: "*PINT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS"
+req.typenames: INT10_BIOS_ARGUMENTS, *PINT10_BIOS_ARGUMENTS
 req.product: Windows 10 or later.
 ---
 
@@ -79,25 +79,19 @@ typedef struct _INT10_BIOS_ARGUMENTS {
 ### -field Eax
 
 
-
 ### -field Ebx
-
 
 
 ### -field Ecx
 
 
-
 ### -field Edx
-
 
 
 ### -field Esi
 
 
-
 ### -field Edi
-
 
 
 ### -field Ebp
@@ -108,7 +102,6 @@ Are seven of the x86 microprocessor registers.
 ### -field SegDs
 
 
-
 ### -field SegEs
 
 Are two of the x86 microprocessor segment registers.
@@ -117,15 +110,21 @@ Are two of the x86 microprocessor segment registers.
 ## -remarks
 
 
+
 The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to those of the <a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a> structure.
+
 
 
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
+
+
+
 <a href="..\video\nc-video-pint10_call_bios.md">Int10CallBios</a>
 
-<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
+
 
  
 

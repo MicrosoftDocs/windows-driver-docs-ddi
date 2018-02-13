@@ -110,11 +110,14 @@ Specifies the number of USHORT values in the string.
 ## -returns
 
 
+
 <i>SvgaHwIoPortUshortString</i> returns the final status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>.)
@@ -131,21 +134,36 @@ If one or more application-issued x86 <b>INSW</b> or <b>OUTSW</b> instructions m
 
 
 
+
 ## -see-also
 
-<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
-<a href="..\video\nc-video-pdriver_io_port_ushort.md">SvgaHwIoPortUshort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
+
+
+<a href="..\video\nc-video-pdriver_io_port_ushort.md">SvgaHwIoPortUshort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
 <a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
+
+<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+
+
 
  
 

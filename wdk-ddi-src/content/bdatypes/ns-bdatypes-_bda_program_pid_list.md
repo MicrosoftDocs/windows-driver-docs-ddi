@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d3a96377-71f9-40ba-a15f-cacd64dcc6c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.bda_program_pid_list, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], bdatypes/PBDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], BDA_PROGRAM_PID_LIST, _BDA_PROGRAM_PID_LIST, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, bdatypes/BDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST
+ms.keywords: "_BDA_PROGRAM_PID_LIST, bdatypes/PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], stream.bda_program_pid_list, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, bdatypes/BDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_PROGRAM_PID_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST"
+req.typenames: BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST
 ---
 
 # _BDA_PROGRAM_PID_LIST structure
@@ -86,9 +86,13 @@ Array of PIDs that identify packets of program data.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564298">KSPROPERTY_BDA_CA_SET_PROGRAM_PIDS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
+
 
  
 

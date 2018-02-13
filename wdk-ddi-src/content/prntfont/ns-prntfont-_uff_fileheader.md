@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prntfont/UFF_FILEHEADER, PUFF_FILEHEADER, *PUFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, print.uff_fileheader, UFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices]
+ms.keywords: "*PUFF_FILEHEADER, PUFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, _UFF_FILEHEADER, print.uff_fileheader, UFF_FILEHEADER, prntfont/UFF_FILEHEADER, prntfont/PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,6 +114,7 @@ Specifies the offset, in bytes, from the beginning of the .uff file to the begin
 ### -field dwFlags
 
 Is a set of bit flags, as specified in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -129,7 +130,8 @@ The array of UFF_FONTDIRECTORY structures (specified by <b>offFontDir</b>) is so
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwReserved
@@ -141,7 +143,11 @@ Reserved. Must be set to zero.
 
 <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
 
+
+
 <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
+
+
 
  
 

@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock2.md">D3DDDICB_UNLOCK2</a> structure that describes the allocation to unlock.
@@ -91,6 +93,8 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock2.md">D3DDDICB_U
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

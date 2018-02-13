@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ad096bb-0012-40fc-a038-2f25d6a59b43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationEDR, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDynamic, display.dxgk_backlight_optimization_level, d3dkmdt/DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDimmed, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDesktop
+ms.keywords: d3dkmdt/DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationEDR, d3dkmdt/DxgkBacklightOptimizationDisable, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DxgkBacklightOptimizationDesktop, display.dxgk_backlight_optimization_level, DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationDimmed, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationEDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,13 +109,17 @@ Optimization level which informs the driver that the display is being driven wit
 ## -remarks
 
 
+
 For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</b> enumeration values, see Remarks in the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a> function.
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a>
+
+
 
  
 

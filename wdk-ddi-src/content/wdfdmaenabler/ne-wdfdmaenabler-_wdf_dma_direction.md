@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 813414fa-17b6-4b69-a3dd-f3a2e5190305
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DMA_DIRECTION, WDF_DMA_DIRECTION enumeration, wdfdmaenabler/WDF_DMA_DIRECTION, DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, wdfdmaenabler/WdfDmaDirectionReadFromDevice, kmdf.wdf_dma_direction, wdfdmaenabler/WdfDmaDirectionWriteToDevice, WdfDmaDirectionWriteToDevice, WdfDmaDirectionReadFromDevice, wdf.wdf_dma_direction, _WDF_DMA_DIRECTION
+ms.keywords: wdfdmaenabler/WdfDmaDirectionReadFromDevice, _WDF_DMA_DIRECTION, WDF_DMA_DIRECTION enumeration, wdfdmaenabler/WDF_DMA_DIRECTION, wdf.wdf_dma_direction, WdfDmaDirectionReadFromDevice, WdfDmaDirectionWriteToDevice, wdfdmaenabler/WdfDmaDirectionWriteToDevice, kmdf.wdf_dma_direction, DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, WDF_DMA_DIRECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -84,17 +84,25 @@ The DMA transfer direction is to the device (write).
 ## -remarks
 
 
+
 The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function and the <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a> and <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a> methods.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+
+
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+
+
+<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+
+
 
  
 

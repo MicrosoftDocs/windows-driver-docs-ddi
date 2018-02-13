@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 823713de-16d4-45cd-936e-1af4a8425c94
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.avc_preconnect_info, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], _AVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, avc/AVC_PRECONNECT_INFO, *PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO
+ms.keywords: stream.avc_preconnect_info, avc/AVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, *PAVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO, _AVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ The AVCPRECONNECTINFO values for the specified pin.
 ## -remarks
 
 
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -89,13 +90,20 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
+
 ## -see-also
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
 
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
 
  
 

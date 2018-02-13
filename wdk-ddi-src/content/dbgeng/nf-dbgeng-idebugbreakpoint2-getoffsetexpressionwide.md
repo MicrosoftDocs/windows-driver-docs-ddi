@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bd4b32b1-e8ba-485f-bfb6-15c8c44926af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide, GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpressionWide method, GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpressionWide
+ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpressionWide method, IDebugBreakpoint2, IDebugBreakpoint2::GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging], GetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,6 +87,7 @@ The size, in characters, of the expression string.  If <i>ExpressionSize</i> is 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,13 +115,16 @@ The method was successful, but the buffer was not large enough to hold the expre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The expression is evaluated every time that a module is loaded or unloaded.  If the debugger cannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.)
@@ -128,5 +132,6 @@ The expression is evaluated every time that a module is loaded or unloaded.  If 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the size of the expression string that specifies the location that triggers the breakpoint, <i>ExpressionSize</i>.
 
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

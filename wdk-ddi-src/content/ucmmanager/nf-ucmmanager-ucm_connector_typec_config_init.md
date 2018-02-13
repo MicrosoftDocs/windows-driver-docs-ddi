@@ -7,8 +7,8 @@ old-location: buses\ucm_connector_type_c_config_init.htm
 old-project: usbref
 ms.assetid: 10E155C2-907D-4D0E-87E9-A6B32E99D133
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucmmanager/UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPEC_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT function [Buses], buses.ucm_connector_type_c_config_init, UCM_CONNECTOR_TYPE_C_CONFIG_INIT
+ms.date: 2/8/2018
+ms.keywords: ucmmanager/UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPEC_CONFIG_INIT, buses.ucm_connector_type_c_config_init, UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,6 +89,8 @@ Indicates the power source capabilities of the connector. This value is a bitwis
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

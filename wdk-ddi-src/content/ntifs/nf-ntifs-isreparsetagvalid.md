@@ -7,8 +7,8 @@ old-location: ifsk\isreparsetagvalid.htm
 old-project: ifsk
 ms.assetid: 080ed6f9-2a66-4946-9497-3a0b0bca8c6d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.isreparsetagvalid, ioref_72128993-53a1-4e3e-a0e2-12378862ff25.xml, ntifs/IsReparseTagValid, IsReparseTagValid macro [Installable File System Drivers], IsReparseTagValid
+ms.date: 2/7/2018
+ms.keywords: ntifs/IsReparseTagValid, IsReparseTagValid, ifsk.isreparsetagvalid, ioref_72128993-53a1-4e3e-a0e2-12378862ff25.xml, IsReparseTagValid macro [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -70,6 +70,7 @@ The <b>IsReparseTagValid</b> macro is reserved for system use.
 ### -param _tag
 
 TBD
+
 
 
 

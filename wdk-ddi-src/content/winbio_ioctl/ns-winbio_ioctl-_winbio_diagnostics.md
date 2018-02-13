@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 06f6abf1-9b44-4cf3-96d3-2017e0f6adda
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_DIAGNOSTICS, winbio_ioctl/PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS, winbio_ioctl/WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, _WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices]
+ms.keywords: winbio_ioctl/WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, *PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], _WINBIO_DIAGNOSTICS, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, winbio_ioctl/PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WINBIO_DIAGNOSTICS
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_DIAGNOSTICS, *PWINBIO_DIAGNOSTICS
+req.typenames: "*PWINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ The total size of the payload.  This includes the fixed length structure and any
 ### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -104,7 +105,8 @@ The driver could not gather the necessary information from the device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SensorStatus
@@ -120,6 +122,8 @@ An optional <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DAT
 ## -see-also
 
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_sensor_status.md">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a>
+
+
 
  
 

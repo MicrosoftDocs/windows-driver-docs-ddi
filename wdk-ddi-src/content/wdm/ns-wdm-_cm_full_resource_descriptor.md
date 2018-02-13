@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e405c545-da0c-4b47-84c2-dd26d746da94
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PCM_FULL_RESOURCE_DESCRIPTOR, wdm/CM_FULL_RESOURCE_DESCRIPTOR, kernel.cm_full_resource_descriptor, _CM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], kstruct_a_eb7de4ac-cd02-44cc-9e26-a9c2a99eb8e6.xml, CM_FULL_RESOURCE_DESCRIPTOR, PCM_FULL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], PCM_FULL_RESOURCE_DESCRIPTOR, *PCM_FULL_RESOURCE_DESCRIPTOR
+ms.keywords: "*PCM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], wdm/PCM_FULL_RESOURCE_DESCRIPTOR, wdm/CM_FULL_RESOURCE_DESCRIPTOR, kernel.cm_full_resource_descriptor, kstruct_a_eb7de4ac-cd02-44cc-9e26-a9c2a99eb8e6.xml, PCM_FULL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], PCM_FULL_RESOURCE_DESCRIPTOR, _CM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CM_FULL_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: CM_FULL_RESOURCE_DESCRIPTOR, *PCM_FULL_RESOURCE_DESCRIPTOR
+req.typenames: "*PCM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -89,7 +89,11 @@ A <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST<
 
 <a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
 
+
+
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
 
  
 

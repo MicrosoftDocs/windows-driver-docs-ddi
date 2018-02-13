@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dce4a087-a14b-400b-bdc1-944c1d4d492a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_SOCKET, *PWSK_SOCKET, netvista.wsk_socket, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml, wsk/PWSK_SOCKET, PWSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], _WSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], wsk/WSK_SOCKET
+ms.keywords: netvista.wsk_socket, WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml, wsk/WSK_SOCKET, _WSK_SOCKET, PWSK_SOCKET, *PWSK_SOCKET, wsk/PWSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_SOCKET
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_SOCKET, WSK_SOCKET"
+req.typenames: WSK_SOCKET, *PWSK_SOCKET
 req.product: Windows 10 or later.
 ---
 
@@ -75,6 +75,7 @@ A pointer to a constant provider dispatch structure. This structure is a dispatc
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket category</a> of the
      socket, this pointer is a pointer to one of the following structures:
      
+
 <table>
 <tr>
 <th>Socket category</th>
@@ -145,15 +146,18 @@ Stream socket
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 The WSK subsystem allocates and fills in a WSK_SOCKET structure whenever a new socket is created. A
     WSK application receives a pointer to the WSK_SOCKET structure for a socket from the WSK subsystem in one
     of the following ways:
+
 <ul>
 <li>
 The WSK application calls the 
@@ -179,7 +183,8 @@ The WSK subsystem calls the WSK application's
       socket.
 
 </li>
-</ul>A WSK application passes the pointer to a socket's WSK_SOCKET structure when calling any of the
+</ul>
+A WSK application passes the pointer to a socket's WSK_SOCKET structure when calling any of the
     socket's functions.
 
 The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK application calls the 
@@ -188,29 +193,50 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 
 
+
 ## -see-also
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
  
 

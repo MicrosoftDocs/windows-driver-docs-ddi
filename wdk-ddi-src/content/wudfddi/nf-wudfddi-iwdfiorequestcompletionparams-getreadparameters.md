@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequestcompletionparams_getreadparameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, GetReadParameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters method, umdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, IWDFIoRequestCompletionParams, GetReadParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams::GetReadParameters
+ms.keywords: IWDFIoRequestCompletionParams, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters method, wdf.iwdfiorequestcompletionparams_getreadparameters, IWDFIoRequestCompletionParams::GetReadParameters, umdf.iwdfiorequestcompletionparams_getreadparameters, GetReadParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,7 +96,9 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
+
 
 
 
@@ -104,7 +106,11 @@ None
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
+
+
 
  
 

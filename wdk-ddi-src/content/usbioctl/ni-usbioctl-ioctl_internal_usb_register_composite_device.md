@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_register_composite_driver.htm
 old-project: usbref
 ms.assetid: 5ADCD625-485C-4E18-B022-BA1611F87EA9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usb_register_composite_driver, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code [Buses], IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE, usbioctl/IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,14 +99,18 @@ The size of function handles for functions in the device.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -120,6 +124,7 @@ In case of an error,  <b>Irp-&gt;IoStatus.Status</b> contains an appropriate err
 ## -remarks
 
 
+
 The purpose of <b>IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</b> is for the composite driver to send a registration request to the USB driver stack. In the registration request, the composite driver specifies the number of functions supported by the device. Therefore, you must send the <b>IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</b> request  after determining the number of functions.  Typically, that information is retrieved in the composite driver's start-device routine (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>). Note that number of interfaces in a configuration <i>can</i> indicate the number of functions, but not always. Certain multi-function devices expose multiple interfaces related to one function. To obtain the number of functions, you must inspect various descriptors that are related to a particular configuration. Those descriptors can be obtained through a get-descriptor request. 
 
 In response to the registration request, the USB driver stack provides a list of handles for the functions in the device. For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>.
@@ -130,15 +135,20 @@ In order to remove the composite driver's association with the USB driver stack 
 
 
 
+
 ## -see-also
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_unregister_composite_device.md">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

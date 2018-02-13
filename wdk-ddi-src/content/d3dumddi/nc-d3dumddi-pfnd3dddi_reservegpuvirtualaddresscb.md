@@ -90,6 +90,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
@@ -100,13 +102,17 @@ A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
+
+
 
  
 

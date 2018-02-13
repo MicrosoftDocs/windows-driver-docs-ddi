@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], D3D11_1DDIARG_VIDEODECODEREXTENSION, d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, display.d3d11_1ddiarg_videodecoderextension
+ms.keywords: d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], D3D11_1DDIARG_VIDEODECODEREXTENSION, display.d3d11_1ddiarg_videodecoderextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,13 +111,17 @@ A pointer to an array of resource handles. Use this member to pass Direct3D reso
 ## -remarks
 
 
+
 The exact meaning of each structure member depends on the value of <b>Function</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a>
+
+
 
  
 

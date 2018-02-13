@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ACPI_EVAL_METHOD_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_EVAL_METHOD_EX IOCTL
@@ -65,6 +65,7 @@ A driver for a device can use the IOCTL_ACPI_EVAL_METHOD_EX device control reque
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
+
 <ul>
 <li>
 <i>IoControlCode</i> is set to IOCTL_ACPI_EVAL_METHOD_EX.
@@ -104,6 +105,7 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 ### -output-buffer
 
 Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
+
 <ul>
 <li>
 <i>OutputBuffer</i> supplies a pointer to an <a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
@@ -123,14 +125,18 @@ Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -142,6 +148,7 @@ If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member 
 
 
 ## -remarks
+
 
 
 A driver for a device can use IOCTL_ACPI_EVAL_METHOD_EX to synchronously evaluate a control method that is supported by a child object in the namespace of the device. The path and name of the control method that is supplied by this request must be either the fully qualified path and name of the method in the ACPI namespace or the path and name of the method relative to the device to which the request is sent. For example, assume that a device named 'ABCD' is an immediate child of the root of an ACPI namespace, that the 'ABCD' device supports a child device named 'CHLD,' and that the 'CHLD' device supports a method named '_FOO.' In this case, to evaluate the '_FOO' method, a driver sends an evaluation request to the 'ABCD' device and supplies either the path and name '\ABCD.CHLD._FOO,' which is the fully qualified path and name in the ACPI namespace, or the path and name 'CHLD._FOO,' which is the path and name relative to the 'ABCD' device in the ACPI namespace.
@@ -176,23 +183,40 @@ IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL &lt; DISPATCH_LEVEL.
 
 
 
+
 ## -see-also
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_EX</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX</a>
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX</a>
 
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
+
+
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_EX</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
+
+
 
  
 

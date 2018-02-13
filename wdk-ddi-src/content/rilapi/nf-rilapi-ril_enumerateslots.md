@@ -74,14 +74,14 @@ HRESULT  RIL_EnumerateSlots(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

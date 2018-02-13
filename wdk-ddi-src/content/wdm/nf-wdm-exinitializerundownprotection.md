@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59B9C222-1A03-4C04-9F29-D9EA47E5E298
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInitializeRundownProtection, ExInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exinitializerundownprotection, ExInitializeRundownProtection
+ms.keywords: kernel.exinitializerundownprotection, wdm/ExInitializeRundownProtection, ExInitializeRundownProtection, ExInitializeRundownProtection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine is called by the driver that owns an object that resides in shared memory and is that accessed by other drivers.
@@ -95,13 +98,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
+
+
 <a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
 
-<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSRATE, ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, *PKSRATE, ks/KSRATE, ks/PKSRATE, PKSRATE structure pointer [Streaming Media Devices], KSRATE structure [Streaming Media Devices], stream.ksrate, PKSRATE
+ms.keywords: PKSRATE, ks/KSRATE, ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, KSRATE structure [Streaming Media Devices], PKSRATE structure pointer [Streaming Media Devices], *PKSRATE, KSRATE, ks/PKSRATE, stream.ksrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRATE
 product: Windows
 targetos: Windows
-req.typenames: "*PKSRATE, KSRATE"
+req.typenames: KSRATE, *PKSRATE
 ---
 
 # KSRATE structure
@@ -94,6 +94,7 @@ Specifies the rate in terms of 1/10th percentage points, where 1000 is the nomin
 ### -field Flags
 
 Possible flag values are listed in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -119,12 +120,15 @@ Specifies that there is no valid duration in this rate change request or query.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ks\ns-ks-ksrate_capability.md">KSRATE_CAPABILITY</a>
+
+
 
  
 

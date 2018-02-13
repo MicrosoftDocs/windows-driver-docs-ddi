@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 599c97af-1285-4fb9-af0b-edcd48249692
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList, image.cwiaupropertylist_defineproperty, DefineProperty method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList interface [Imaging Devices], DefineProperty method, CWiauPropertyList::DefineProperty, wiautil/CWiauPropertyList::DefineProperty, DefineProperty method [Imaging Devices], DefineProperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml
+ms.keywords: DefineProperty method [Imaging Devices], DefineProperty method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList, image.cwiaupropertylist_defineproperty, wiautil/CWiauPropertyList::DefineProperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, DefineProperty, CWiauPropertyList interface [Imaging Devices], DefineProperty method, CWiauPropertyList::DefineProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,14 @@ Specifies the property subtype, one of WIA_PROP_FLAG, WIA_PROP_LIST, WIA_PROP_RA
 ## -returns
 
 
+
 This method returns S_OK if it is able to define a property successfully. If the property list does not have enough room for an additional property, the method returns E_FAIL.
 
 
 
+
 ## -remarks
+
 
 
 The WIA_PROP_<i>XXX</i> constants are defined in the Microsoft Windows SDK documentation.
@@ -113,11 +116,16 @@ Before a property can be added to a property list, the property list must be ini
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
 
+
+
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
 
  
 

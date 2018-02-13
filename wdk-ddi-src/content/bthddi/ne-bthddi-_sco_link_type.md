@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/ScoLinkType, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, _SCO_LINK_TYPE, bltooth.sco_link_type, bthddi/eScoLinkType, *PSCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], PSCO_LINK_TYPE, SCO_LINK_TYPE, ScoLinkType, bthddi/PSCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, eScoLinkType, SCO_LINK_TYPE enumeration [Bluetooth Devices]
+ms.keywords: bthddi/ScoLinkType, bltooth.sco_link_type, eScoLinkType, *PSCO_LINK_TYPE, ScoLinkType, bthddi/PSCO_LINK_TYPE, PSCO_LINK_TYPE, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, _SCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], bthddi/eScoLinkType, bthddi/SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], SCO_LINK_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -82,15 +82,19 @@ This value indicates that the link used by the connection is an eSCO link.
 ## -remarks
 
 
+
 The 
     <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a> structure
     uses this enumeration.
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BUS_RESET_DATA structure [Buses], _BUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], PBUS_RESET_DATA, BUS_RESET_DATA, 1394/PBUS_RESET_DATA, 1394/BUS_RESET_DATA, *PBUS_RESET_DATA, IEEE.bus_reset_data
+ms.keywords: PBUS_RESET_DATA, BUS_RESET_DATA, *PBUS_RESET_DATA, 1394/BUS_RESET_DATA, IEEE.bus_reset_data, 1394/PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA, BUS_RESET_DATA structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,6 +94,7 @@ The 1394 address for the local host.
 ### -field SpeedToNode
 
 The negotiated speed to the device. The possible values are as follows:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -115,12 +116,15 @@ The negotiated speed to the device. The possible values are as follows:
 <td>0x20</td>
 <td>3200 Mb/s</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">Device Driver Interface (DDI) Changes in Windows 7</a>
+
+
 
  
 

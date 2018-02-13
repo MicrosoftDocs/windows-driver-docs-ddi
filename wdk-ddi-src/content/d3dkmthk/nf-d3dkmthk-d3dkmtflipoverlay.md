@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtflipoverlay, d3dkmthk/D3DKMTFlipOverlay, OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices]
+ms.keywords: D3DKMTFlipOverlay function [Display Devices], D3DKMTFlipOverlay, display.d3dkmtflipoverlay, OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipoverlay.md">D3DKMT_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipoverlay.md">D3DKMT_F
 ## -returns
 
 
+
 <b>D3DKMTFlipOverlay</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,15 +138,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipoverlay.md">D3DKMT_FLIPOVERLAY</a>
+
+
 
  
 

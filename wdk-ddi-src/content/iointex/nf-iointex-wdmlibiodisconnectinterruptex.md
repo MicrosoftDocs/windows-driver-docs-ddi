@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6F8663C-3A13-45DA-80FE-CC8B9194D083
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, iointex/IoDisconnectInterruptEx, IoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.wdmlibiodisconnectinterruptex, iointex/IoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], WdmlibIoDisconnectInterruptEx, IoDisconnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,30 @@ Pointer to an <a href="..\wdm\ns-wdm-_io_disconnect_interrupt_parameters.md">IO_
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 The driver should configure the device to issue interrupts only when these interrupts are connected. Failure to prevent a device from issuing interrupts when the interrupts are disconnected might cause system instability. For example, if a device shares a level-triggered interrupt line with other devices, and the device issues an interrupt request when the device's interrupts are disconnected, the other devices on the line will not acknowledge the interrupt and the interrupt will continue to fire. Before calling <b>WdmlibIoDisconnectInterruptEx</b>, the driver should configure the device to stop issuing interrupts. After calling <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>, the driver should configure the device to start issuing interrupts.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_disconnect_interrupt_parameters.md">IO_DISCONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
 <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
 
-<a href="..\wdm\ns-wdm-_io_disconnect_interrupt_parameters.md">IO_DISCONNECT_INTERRUPT_PARAMETERS</a>
+
 
  
 

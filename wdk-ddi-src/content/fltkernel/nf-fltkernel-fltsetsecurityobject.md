@@ -7,8 +7,8 @@ old-location: ifsk\fltsetsecurityobject.htm
 old-project: ifsk
 ms.assetid: 3276dff3-d12a-4a30-bbdc-a582a2228df3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltSetSecurityObject function [Installable File System Drivers], FltSetSecurityObject, FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject
+ms.date: 2/7/2018
+ms.keywords: ifsk.fltsetsecurityobject, FltSetSecurityObject, fltkernel/FltSetSecurityObject, FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, FltSetSecurityObject function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,7 @@ File object pointer for the object whose security state is to be set. The caller
 ### -param SecurityInformation [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying the information to be set as a combination of one or more of the following. This parameter is required and cannot be <b>NULL</b>. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -128,7 +129,8 @@ Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYST
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param SecurityDescriptor [in]
@@ -139,7 +141,9 @@ Pointer to the security descriptor to be set for the object.
 ## -returns
 
 
+
 <b>FltSetSecurityObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -233,11 +237,14 @@ The <b>FltSetSecurityObject</b> routine is present but not supported in the oper
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>FltSetSecurityObject</b> routine is present and supported starting with Windows Vista.  In Windows 2000, Windows XP, and Server 2003 SP1, the routine is present but not supported, and will return STATUS_NOT_IMPLEMENTED if called in any of these environments.
@@ -248,21 +255,32 @@ For more information about security and access control, see the documentation on
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
 
 <a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetSecurityObject function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetSecurityObject function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

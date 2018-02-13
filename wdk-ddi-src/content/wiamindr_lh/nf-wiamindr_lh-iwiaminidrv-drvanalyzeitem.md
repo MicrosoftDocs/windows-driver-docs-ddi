@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e742f898-e663-431d-870e-bb0fe7e89b5a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvAnalyzeItem method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvAnalyzeItem, IWiaMiniDrv interface [Imaging Devices], drvAnalyzeItem method, IWiaMiniDrv, drvAnalyzeItem method [Imaging Devices], MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem, drvAnalyzeItem, image.iwiaminidrv_drvanalyzeitem
+ms.keywords: IWiaMiniDrv, MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, image.iwiaminidrv_drvanalyzeitem, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem, drvAnalyzeItem method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvAnalyzeItem method, IWiaMiniDrv::drvAnalyzeItem, drvAnalyzeItem, drvAnalyzeItem method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ HRESULT drvAnalyzeItem(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -104,17 +105,23 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method is not fully implemented, it can return E_NOTIMPL. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. 
 
 The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
 
  
 

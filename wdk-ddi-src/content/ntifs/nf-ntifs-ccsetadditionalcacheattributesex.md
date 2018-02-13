@@ -7,8 +7,8 @@ old-location: ifsk\ccsetadditionalcacheattributesex.htm
 old-project: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], CcSetAdditionalCacheAttributesEx
+ms.date: 2/7/2018
+ms.keywords: ntifs/CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,14 +81,18 @@ Behavior flags to set for <i>FileObject</i>. Currently, only the  <b>AGGRESSIVE_
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>CcSetAdditionalCacheAttributesEx</b> can be called any time after calling <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>. 
+
 
 
 
@@ -96,11 +100,15 @@ None
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetAdditionalCacheAttributesEx routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetAdditionalCacheAttributesEx routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9ec4ae29-7c9f-4da6-ae5d-57de9423cb30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getlasteventinformationwide, IDebugControl4, GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetLastEventInformationWide, IDebugControl4 interface [Windows Debugging], GetLastEventInformationWide method, GetLastEventInformationWide method [Windows Debugging], dbgeng/IDebugControl4::GetLastEventInformationWide, GetLastEventInformationWide
+ms.keywords: debugger.getlasteventinformationwide, dbgeng/IDebugControl4::GetLastEventInformationWide, GetLastEventInformationWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetLastEventInformationWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLastEventInformationWide method, GetLastEventInformationWide method [Windows Debugging], GetLastEventInformationWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,7 +125,9 @@ Receives the size in characters of the description of the event.  If <i>Descript
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,11 +155,14 @@ The method was successful.  However, either <i>ExtraInformationSize</i> or <i>De
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For thread and process creation events, the thread ID and process ID returned to <i>ThreadId</i> and <i>ProcessId</i> are for the newly created thread or process.
@@ -166,11 +171,16 @@ For more information about the last event, see the topic <a href="https://msdn.m
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
 
  
 

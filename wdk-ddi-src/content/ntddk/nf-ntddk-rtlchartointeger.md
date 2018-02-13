@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCharToInteger routine [Kernel-Mode Driver Architecture], k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, ntddk/RtlCharToInteger, kernel.rtlchartointeger, RtlCharToInteger
+ms.keywords: kernel.rtlchartointeger, k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, ntddk/RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], RtlCharToInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlCharToInteger
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlCharToInteger function
@@ -87,14 +87,18 @@ Pointer to a location to which the converted value is returned.
 ## -returns
 
 
+
 <b>RtlCharToInteger</b> returns STATUS_SUCCESS if the given character string is converted. Otherwise, it can return STATUS_INVALID_PARAMETER. 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlCharToInteger</b> converts ANSI alphanumeric characters. 
+
 
 
 
@@ -102,7 +106,11 @@ Pointer to a location to which the converted value is returned.
 
 <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+
+
 
  
 

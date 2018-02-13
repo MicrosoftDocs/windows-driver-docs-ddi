@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2736b955-1b25-4ded-a75a-19a1c47f61ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
+ms.keywords: dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, display.dxgiddi_multiplane_overlay_allocation_info, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

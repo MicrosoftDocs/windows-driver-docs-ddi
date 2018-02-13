@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: CBEB68C2-549F-4EB6-9AF4-4DCA6749F75D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.irb_req_isoch_set_channel_bandwidth, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
+ms.keywords: IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IEEE.irb_req_isoch_set_channel_bandwidth, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ Specifies a pre-calculated value.
 ## -remarks
 
 
+
 This request does not require the caller to know the bandwidth that was allocated when a handle was generated. REQUEST_ISOCH_SET_CHANNEL_BANDWIDTH can be used to readjust the bandwidth on a bandwidth handle whose bytes per frame setting is unknown. Despite its name, this request does not involve isochronous channels in any way.
+
 
 

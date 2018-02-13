@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 419BCBB6-634A-421D-A940-8690BCCF1AC6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterScriptablePropertyBag::GetBytes, IPrinterScriptablePropertyBag, GetBytes, IPrinterScriptablePropertyBag interface [Print Devices], GetBytes method, print.iprinterscriptablepropertybag_getbytes, IPrinterScriptablePropertyBag::GetBytes, GetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, GetBytes method [Print Devices]
+ms.keywords: print.iprinterscriptablepropertybag_getbytes, printerextension/IPrinterScriptablePropertyBag::GetBytes, IPrinterScriptablePropertyBag interface [Print Devices], GetBytes method, IPrinterScriptablePropertyBag, GetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, GetBytes, GetBytes method [Print Devices], IPrinterScriptablePropertyBag::GetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,6 +80,7 @@ The property to read.
 
 
 
+
 #### - ppdispArray [out, retval]
 
 The returned JavaScript array.
@@ -88,20 +89,26 @@ The returned JavaScript array.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>GetBytes</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
 
  
 

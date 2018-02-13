@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateTessellationShaderSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_CALCPRIVATETESSELLATIONSHADERSIZE callback
@@ -75,12 +75,12 @@ SIZE_T APIENTRY CalcPrivateTessellationShaderSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *pShaderCode
 
 
-
 ### -param *
+
+
 
 
 
@@ -105,24 +105,34 @@ SIZE_T APIENTRY CalcPrivateTessellationShaderSize(
 ## -returns
 
 
+
 <b>CalcPrivateTessellationShaderSize</b> returns the size of the memory region that the driver requires to create a hull or domain shader.
+
 
 
 
 ## -remarks
 
 
+
 The Direct3D runtime calls the driver's <b>CalcPrivateTessellationShaderSize</b> function to calculate the size of the memory region for a hull or domain shader. This is similar to the way that the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize.md">CalcPrivateShaderSize</a> function to calculate the size of the memory region for a pixel, vertex, or geometry shader (that is, a geometry shader without stream output).
+
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tessellation_io_signatures.md">D3D11DDIARG_TESSELLATION_IO_SIGNATURES</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tessellation_io_signatures.md">D3D11DDIARG_TESSELLATION_IO_SIGNATURES</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize.md">CalcPrivateShaderSize</a>
+
+
 
  
 

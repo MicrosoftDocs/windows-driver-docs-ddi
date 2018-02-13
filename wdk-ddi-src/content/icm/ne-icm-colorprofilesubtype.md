@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: CPST_PERCEPTUAL, icm/CPST_PERCEPTUAL, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_SATURATION, icm/CPST_RGB_WORKING_SPACE, CPST_CUSTOM_WORKING_SPACE, CPST_RGB_WORKING_SPACE, icm/CPST_ABSOLUTE_COLORIMETRIC, CPST_SATURATION, COLORPROFILESUBTYPE, print.colorprofilesubtype, icm/CPST_NONE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, *PCOLORPROFILESUBTYPE, CPST_ABSOLUTE_COLORIMETRIC, CPST_RELATIVE_COLORIMETRIC, icm/COLORPROFILESUBTYPE, CPST_NONE, COLORPROFILESUBTYPE enumeration [Print Devices]
+ms.keywords: icm/CPST_PERCEPTUAL, icm/CPST_RGB_WORKING_SPACE, icm/CPST_CUSTOM_WORKING_SPACE, *PCOLORPROFILESUBTYPE, CPST_SATURATION, icm/CPST_ABSOLUTE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, CPST_ABSOLUTE_COLORIMETRIC, icm/CPST_NONE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, CPST_PERCEPTUAL, COLORPROFILESUBTYPE, COLORPROFILESUBTYPE enumeration [Print Devices], CPST_CUSTOM_WORKING_SPACE, CPST_NONE, CPST_RELATIVE_COLORIMETRIC, print.colorprofilesubtype, icm/CPST_SATURATION, icm/CPST_RELATIVE_COLORIMETRIC, icm/COLORPROFILESUBTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,7 +111,6 @@ Specifies a custom color working space.
 ### -field CPST_STANDARD_DISPLAY_COLOR_MODE
 
 
-
 ### -field CPST_EXTENDED_DISPLAY_COLOR_MODE
 
 
@@ -120,9 +119,11 @@ Specifies a custom color working space.
 ## -remarks
 
 
+
 For a description of rendering intents, see <a href="http://go.microsoft.com/fwlink/p/?linkid=52269">Rendering Intents</a> in the Windows SDK documentation.
 
 The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as pointers to this enumeration:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,11 +136,16 @@ The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as poi
 </table></span></div>
 
 
+
 ## -see-also
+
+<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
 
 <a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
 
  
 

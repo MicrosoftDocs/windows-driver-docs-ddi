@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f8f8ac2a-705e-426c-8c4a-00581b8d1dfe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasWritePageBufToStream, wiasFncs_1173cf4b-d42c-4c6b-959e-68f456b78ec4.xml, image.wiaswritepagebuftostream, wiasWritePageBufToStream function [Imaging Devices], wiasWritePageBufToStream
+ms.keywords: wiasWritePageBufToStream, wiamdef/wiasWritePageBufToStream, wiasWritePageBufToStream function [Imaging Devices], image.wiaswritepagebuftostream, wiasFncs_1173cf4b-d42c-4c6b-959e-68f456b78ec4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWritePageBufToStream
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -82,11 +82,14 @@ Pointer to the <b>IStream</b> data stream provided by the application. The <b>IS
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_<i>XXX</i> errors (described in the Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 The function writes data from a temporary page buffer that is allocated by a minidriver to the image data stream provided by the calling application. Minidrivers typically call this function after acquiring a page of data for which the minidriver allocated a temporary buffer.
@@ -95,13 +98,20 @@ This function is similar to <a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md
 
 
 
+
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+
+
 
  
 

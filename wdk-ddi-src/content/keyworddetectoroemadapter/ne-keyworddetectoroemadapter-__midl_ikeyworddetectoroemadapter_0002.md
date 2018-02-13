@@ -7,8 +7,8 @@ old-location: audio\keywordid.htm
 old-project: audio
 ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: keyworddetectoroemadapter/KEYWORDID, KEYWORDID, KwInvalid, keyworddetectoroemadapter/ KwVoiceAssistant, audio.keywordid, KwSelection, KEYWORDID enumeration [Audio Devices], keyworddetectoroemadapter/KwInvalid, KwVoiceAssistant, keyworddetectoroemadapter/ KwSelection, __MIDL_IKeywordDetectorOemAdapter_0002
+ms.date: 2/8/2018
+ms.keywords: audio.keywordid, KEYWORDID, KwInvalid, KwVoiceAssistant, __MIDL_IKeywordDetectorOemAdapter_0002, KwSelection, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid, KEYWORDID enumeration [Audio Devices], keyworddetectoroemadapter/ KwVoiceAssistant
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

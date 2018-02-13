@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 41805e57-770b-416a-989f-25f81ee4d757
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2, GetValue, IWDTFTarget2::GetValue, GetValue method [Windows Device Testing Framework], IWDTFTarget2 interface, dtf.iwdtftarget2_getvalue, GetValue method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFTarget2::GetValue, wdtf/IWDTFTarget2::GetValue, IWDTFTarget2 interface [Windows Device Testing Framework], GetValue method, Microsoft.WDTF.IWDTFTarget2.GetValue
+ms.keywords: Microsoft.WDTF.IWDTFTarget2.GetValue, Microsoft::WDTF::IWDTFTarget2::GetValue, GetValue method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2::GetValue, IWDTFTarget2 interface [Windows Device Testing Framework], GetValue method, dtf.iwdtftarget2_getvalue, GetValue method [Windows Device Testing Framework], wdtf/IWDTFTarget2::GetValue, IWDTFTarget2, GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,14 @@ The result can be any automation-compatible <b>VARIANT</b>.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 You specify the field that the<b> GetValue</b> method retrieves 
@@ -113,9 +116,12 @@ see <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">Si
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

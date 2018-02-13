@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 296a936b-83e3-457d-bfa8-e361da7706bf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCbCopyN, RtlUnicodeStringCbCopyN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopyn, RtlUnicodeStringCbCopyN, safestrings_7fb0b8bb-9687-4fdb-899d-5fdaa6cf1c0c.xml
+ms.keywords: RtlUnicodeStringCbCopyN function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCbCopyN, RtlUnicodeStringCbCopyN, kernel.rtlunicodestringcbcopyn, safestrings_7fb0b8bb-9687-4fdb-899d-5fdaa6cf1c0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCbCopyN
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCbCopyN function
@@ -88,7 +88,9 @@ The number of bytes to be copied from the source to the destination.
 ## -returns
 
 
+
 <b>RtlUnicodeStringCbCopyN</b> returns one of the following NTSTATUS values. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,20 +129,25 @@ This <i>error</i> status means the function received an invalid input parameter.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RtlUnicodeStringCbCopyN</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
 <ul>
 <li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
 <li>The destination buffer is already full.</li>
 <li>A buffer pointer is <b>NULL</b>.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
 <li>The <i>cbToCopy</i> parameter's value is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
-</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+</ul>
+For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlUnicodeStringCbCopyN</b> function uses the destination buffer's size to ensure that the copy operation does not write past the end of the buffer. The function does <u>not</u> terminate the resultant string with a null character value (that is, with zero).
@@ -153,13 +160,20 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopynex.md">RtlUnicodeStringCbCopyNEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

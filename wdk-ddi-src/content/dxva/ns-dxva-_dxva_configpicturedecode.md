@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b36c2901-33ca-4c76-98d0-8dbe6551226b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode, display.dxva_configpicturedecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml, DXVA_ConfigPictureDecode structure [Display Devices], LPDXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode, dxva/DXVA_ConfigPictureDecode, dxva/LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode structure pointer [Display Devices]"
+ms.keywords: DXVA_ConfigPictureDecode structure [Display Devices], display.dxva_configpicturedecode, dxva/LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode, dxva/DXVA_ConfigPictureDecode, _DXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml, LPDXVA_ConfigPictureDecode structure pointer [Display Devices], *LPDXVA_ConfigPictureDecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,6 +134,7 @@ Contains the host residual difference configuration (See <a href="https://msdn.m
 Indicates the word size used to represent residual difference spatial-domain blocks for predicted (nonintra) pictures when using host-based residual difference decoding (when <b>bConfigResidDiffHost</b> is equal to 1).
 
 If <b>bConfigSpatialResid8</b> is 1 and <b>bConfigResidDiffHost</b> is 1, the host will send residual difference spatial-domain blocks for nonintra macroblocks using 8-bit signed samples, and for intra macroblocks in predicted (nonintra) pictures in a format depending on <b>bConfigIntraResidUnsigned</b> as follows:
+
 <ul>
 <li>
 If <b>bConfigIntraResidUnsigned</b> is zero, spatial-domain blocks for intra macroblocks are sent as 8-bit signed integer values relative to a constant reference value of 128.
@@ -143,7 +144,9 @@ If <b>bConfigIntraResidUnsigned</b> is zero, spatial-domain blocks for intra mac
 If <b>bConfigIntraResidUnsigned</b> is 1, spatial-domain blocks for intra macroblocks are sent as 8-bit unsigned integer values relative to a constant reference value of zero.
 
 </li>
-</ul>If <b>bConfigSpatialResid8</b> is zero and <b>bConfigResidDiffHost</b> is 1, the host will send residual difference spatial-domain blocks of data for nonintra macroblocks using 16-bit signed samples, and for intra macroblocks in predicted (nonintra) pictures in a format depending on <b>bConfigIntraResidUnsigned</b> as follows:
+</ul>
+If <b>bConfigSpatialResid8</b> is zero and <b>bConfigResidDiffHost</b> is 1, the host will send residual difference spatial-domain blocks of data for nonintra macroblocks using 16-bit signed samples, and for intra macroblocks in predicted (nonintra) pictures in a format depending on <b>bConfigIntraResidUnsigned</b> as follows:
+
 <ul>
 <li>
 If <b>bConfigIntraResidUnsigned</b> is zero, spatial domain blocks for intra macroblocks are sent as 16-bit signed integer values relative to a constant reference value of 2<sup>(BPP-1)</sup>, where <i>BPP</i> is the number of bits per sample for the uncompressed video (generally a value of 8).
@@ -153,10 +156,13 @@ If <b>bConfigIntraResidUnsigned</b> is zero, spatial domain blocks for intra mac
 If <b>bConfigIntraResidUnsigned</b> is 1, spatial domain blocks for intra macroblocks are sent as 16-bit unsigned integer values relative to a constant reference value of zero.
 
 </li>
-</ul>The <b>bConfigSpatialResid8</b> member must be zero if <b>bConfigResidDiffHost</b> is zero. There is no preference for one particular value of <b>bConfigSpatialResid8</b> when <b>bConfigResidDiffHost</b> is 1.
+</ul>
+The <b>bConfigSpatialResid8</b> member must be zero if <b>bConfigResidDiffHost</b> is zero. There is no preference for one particular value of <b>bConfigSpatialResid8</b> when <b>bConfigResidDiffHost</b> is 1.
+
 <div class="alert"><b>Note</b>    For <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra pictures</a> with <i>BPP</i> equal to 8, spatial-domain blocks must be sent using 8-bit samples. For intra pictures with <i>BPP</i> greater than 8, spatial-domain blocks must be sent using 16-bit samples. (The <i>BPP</i> variable is the number of bits per sample for the uncompressed video, generally a value of 8.)<p class="note">If <b>bConfigIntraResidUnsigned</b> is zero, these samples are sent as signed integer values relative to a constant reference value of 2<sup>(BPP-1)</sup>. If <b>bConfigIntraResidUnsigned</b> is 1, these samples are sent as unsigned integer values relative to a constant reference value of zero.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field bConfigResid8Subtraction
 
@@ -178,6 +184,7 @@ When equal to 1, indicates that any spatial-domain residual difference data is s
 Indicates the method of representation of spatial-domain blocks of residual difference data for intra blocks when using host-based difference decoding (when <b>bConfigResidDiffHost</b> is equal to 1).
 
 When <b>bConfigIntraResidUnsigned</b> is equal to zero and <b>bConfigResidDiffHost</b> is equal to 1, spatial-domain residual difference data blocks for intra macroblocks are sent as follows:
+
 <ul>
 <li>
 In a nonintra picture if <b>bConfigSpatialResid8</b> is zero, the spatial-domain residual difference data blocks for intra macroblocks are sent as 16-bit signed integer values relative to a constant reference value of 2<sup>(BPP-1)</sup>, where <i>BPP</i> is the number of bits per sample for the uncompressed video (generally a value of 8).
@@ -187,7 +194,9 @@ In a nonintra picture if <b>bConfigSpatialResid8</b> is zero, the spatial-domain
 In a nonintra picture if <b>bConfigSpatialResid8</b> is 1 and in an intra picture if <i>BPP</i> is equal to 8 (regardless of the value of <b>bConfigSpatialResid8</b>), the spatial-domain residual difference data blocks for intra macroblocks are sent as 8-bit signed integer values relative to a constant reference value of 128.
 
 </li>
-</ul>When <b>bConfigIntraResidUnsigned</b> is equal to 1 and <b>bConfigResidDiffHost</b> is equal to 1, spatial-domain residual difference data blocks for intra macroblocks are sent as follows:
+</ul>
+When <b>bConfigIntraResidUnsigned</b> is equal to 1 and <b>bConfigResidDiffHost</b> is equal to 1, spatial-domain residual difference data blocks for intra macroblocks are sent as follows:
+
 <ul>
 <li>
 In a nonintra picture if <b>bConfigSpatialResid8</b> is zero, the spatial-domain residual difference data blocks for intra macroblocks are sent as 16-bit unsigned integer values relative to a constant reference value of zero.
@@ -197,7 +206,8 @@ In a nonintra picture if <b>bConfigSpatialResid8</b> is zero, the spatial-domain
 In a nonintra picture if <b>bConfigSpatialResid8</b> is 1 and in an intra picture if <i>BPP</i> is equal to 8 (regardless of the value of <b>bConfigSpatialResid8</b>), the spatial-domain residual difference data blocks for intra macroblocks are sent as 8-bit unsigned integer values relative to a constant reference value of zero.
 
 </li>
-</ul>The <b>bConfigIntraResidUnsigned</b> member must be zero unless <b>bConfigResidDiffHost</b> is 1. 
+</ul>
+The <b>bConfigIntraResidUnsigned</b> member must be zero unless <b>bConfigResidDiffHost</b> is 1. 
 
 The preferred value for an accelerator to support is zero for <b>bConfigIntraResidUnsigned</b>.
 
@@ -223,7 +233,9 @@ The preferred value for an accelerator to support is 1 if <b>bConfigResidDiffAcc
 Indicates the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 indicates use of the IDCT specified in Annex W of ITU-T Recommendation H.263. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved for future use.)
 
 This member must be zero if <b>bConfigResidDiffAccelerator</b> is zero (simply indicating host-based residual difference decoding).
-<div class="alert"><b>Note</b>    Annex W of ITU-T Recommendation H.263 does not comply with the IDCT requirements of MPEG-2 corrigendum 2 and thus <b>bConfigSpecificIDCT</b> must not be one for use with MPEG-2 video. </div><div> </div>
+
+<div class="alert"><b>Note</b>    Annex W of ITU-T Recommendation H.263 does not comply with the IDCT requirements of MPEG-2 corrigendum 2 and thus <b>bConfigSpecificIDCT</b> must not be one for use with MPEG-2 video. </div>
+<div> </div>
 
 ### -field bConfig4GroupedCoefs
 
@@ -235,7 +247,9 @@ The preferred value for an accelerator to support is zero if <b>bConfigResidDiff
 ## -remarks
 
 
+
 For some types of bitstreams, forcing macroblock control commands within each macroblock control command buffer to be in raster order either greatly increases the number of required buffers that must be processed or requires host reordering of the control information. Support of arbitrary order can thus be advantageous for the decoding process. For example, H.261 CIF-resolution decoding can require 36 macroblock control buffers per picture if raster scan order is necessary within each buffer (H.263 Annex K's arbitrary slice ordering and rectangular slice modes have more severe repercussions, possibly requiring an extremely large number of buffers.)
+
 
 
 
@@ -243,15 +257,27 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
+<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
 
+
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
 
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
+
 
  
 

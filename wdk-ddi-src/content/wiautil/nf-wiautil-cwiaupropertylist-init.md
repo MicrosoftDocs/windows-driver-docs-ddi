@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cbbe0d76-7fd1-4653-ad79-d5e6d692dec0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList, Init method [Imaging Devices], Init, Init method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList interface [Imaging Devices], Init method, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, wiautil/CWiauPropertyList::Init, CWiauPropertyList::Init, image.cwiaupropertylist_init
+ms.keywords: CWiauPropertyList interface [Imaging Devices], Init method, Init method [Imaging Devices], CWiauPropertyList, CWiauPropertyList::Init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, image.cwiaupropertylist_init, wiautil/CWiauPropertyList::Init, Init method [Imaging Devices], CWiauPropertyList interface, Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,17 +76,25 @@ Specifies the number of properties within the property list for which to reserve
 ## -returns
 
 
+
 On success, the <b>CWiauPropertyList::Init</b> method returns S_OK. If the method has already been called on a given property list, the method returns E_FAIL.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540389">CWiauPropertyList::CWiauPropertyList</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
+
+
+
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
 
  
 

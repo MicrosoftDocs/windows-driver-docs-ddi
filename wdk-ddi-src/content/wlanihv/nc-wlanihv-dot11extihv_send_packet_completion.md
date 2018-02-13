@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvSendPacketCompletion
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -83,13 +83,16 @@ The handle value that the IHV Extensions DLL used to identify the packet when it
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 When the operating system calls the 
@@ -98,9 +101,12 @@ When the operating system calls the
 
 
 
+
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a>
+
+
 
  
 

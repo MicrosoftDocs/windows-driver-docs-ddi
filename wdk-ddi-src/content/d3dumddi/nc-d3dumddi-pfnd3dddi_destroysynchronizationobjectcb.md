@@ -83,6 +83,8 @@ A handle to a display device (that is, the graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroysynchronizationobject.md">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains a handle to the synchronization object to destroy.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroysynchronization
 ## -returns
 
 
+
 <b>pfnDestroySynchronizationObjectCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,17 +123,23 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroysynchronizationobject.md">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroysynchronizationobject.md">D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT</a>
+
 
  
 

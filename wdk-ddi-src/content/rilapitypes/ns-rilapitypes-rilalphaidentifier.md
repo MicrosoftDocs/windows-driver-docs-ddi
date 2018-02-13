@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40656b8d-3921-420e-9577-12ba272aa72c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILALPHAIDENTIFIER, *LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifier_2, RILALPHAIDENTIFIER
+ms.keywords: rilapitypes/RILALPHAIDENTIFIER, netvista.rilalphaidentifier_2, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], *LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,15 +74,11 @@ typedef struct _RILALPHAIDENTIFIER {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwType
 
 
-
 ### -field wszReason
-
 

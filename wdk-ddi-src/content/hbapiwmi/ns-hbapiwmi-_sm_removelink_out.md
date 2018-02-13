@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3b82d62-8596-4bb9-b20b-39f232527d7a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_removelink_out, hbapiwmi/SM_RemoveLink_OUT, PSM_RemoveLink_OUT, *PSM_RemoveLink_OUT, SM_RemoveLink_OUT structure [Storage Devices], SM_RemoveLink_OUT, PSM_RemoveLink_OUT structure pointer [Storage Devices], structs-Fibre_5355f5b8-47ea-4c71-880d-08891533bf29.xml, hbapiwmi/PSM_RemoveLink_OUT, _SM_RemoveLink_OUT
+ms.keywords: hbapiwmi/SM_RemoveLink_OUT, SM_RemoveLink_OUT, _SM_RemoveLink_OUT, *PSM_RemoveLink_OUT, structs-Fibre_5355f5b8-47ea-4c71-880d-08891533bf29.xml, PSM_RemoveLink_OUT structure pointer [Storage Devices], PSM_RemoveLink_OUT, SM_RemoveLink_OUT structure [Storage Devices], hbapiwmi/PSM_RemoveLink_OUT, storage.sm_removelink_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_RemoveLink_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+
 
 

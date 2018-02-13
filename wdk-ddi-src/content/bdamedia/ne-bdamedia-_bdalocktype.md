@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdamedia/Bda_LockType_None, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, Bda_LockType_None, stream.bda_locktype, Bda_LockType_DecoderDemod, BDA_LockType enumeration [Streaming Media Devices], Bda_LockType_Complete, _BdaLockType, Bda_LockType_PLL, bdamedia/Bda_LockType_DecoderDemod, BDA_LockType, bdamedia/Bda_LockType_Complete, bdamedia/Bda_LockType_PLL, bdamedia/BDA_LockType
+ms.keywords: bdamedia/BDA_LockType, Bda_LockType_None, stream.bda_locktype, Bda_LockType_PLL, bdamedia/Bda_LockType_PLL, bdamedia/Bda_LockType_Complete, Bda_LockType_Complete, _BdaLockType, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, bdamedia/Bda_LockType_None, BDA_LockType enumeration [Streaming Media Devices], Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_DecoderDemod, BDA_LockType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,9 +92,13 @@ To be supplied.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564369">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564369">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
+
 
  
 

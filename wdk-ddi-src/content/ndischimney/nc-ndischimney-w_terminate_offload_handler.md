@@ -96,11 +96,14 @@ A pointer to an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -125,6 +128,7 @@ Each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can be immediately followed in m
 
 The host stack will not request the termination of the offload of a TCP connection until both of the
     following conditions are met:
+
 <ul>
 <li>
 All the outstanding invalidate, query, and update requests pertaining to that connection have
@@ -138,19 +142,30 @@ All outstanding receive and disconnect calls have returned.
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
+
+
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+   NdisMTerminateOffloadComplete</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
-   NdisMTerminateOffloadComplete</a>
+
 
  
 

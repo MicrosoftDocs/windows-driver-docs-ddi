@@ -40,7 +40,7 @@ apiname:
 -	BthInitializeBrb
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTH_INITIALIZE_BRB callback
@@ -88,11 +88,14 @@ Specifies a value from the
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Profile drivers should use 
@@ -110,11 +113,16 @@ Profile drivers obtain a pointer to the
 
 
 
+
 ## -see-also
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
 
  
 

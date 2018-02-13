@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, stream.kspindataintersection
+ms.keywords: ks/KsPinDataIntersection, KsPinDataIntersection, stream.kspindataintersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, KsPinDataIntersection function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,6 +106,7 @@ Specifies the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">
 ## -returns
 
 
+
 The <b>KsPinDataIntersection</b> function returns STATUS_SUCCESS if a matching range is found, STATUS_NO_MATCH if no matching range was found, or an error specific to the property being handled. The minidriver-defined <i><u>KStrIntersectHandler</u></i> intersection handler provided to <b>KsPinDataIntersection</b> is called with each data range supplied by the caller until either a match is found or an error occurs.
 
 Note that the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a> callback function has its own set of return values.
@@ -114,10 +115,13 @@ Note that the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">
 
 
 
+
 ## -remarks
 
 
+
 A match can occur under three conditions: if the major format of the range passed is a wildcard or matches a pin factory range, if the subformat is a wildcard or matches, and if the specifier is a wildcard or matches. Since the data range size may be variable, it is not validated beyond checking that it is at least the size of a <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a> structure.
+
 
 
 
@@ -125,7 +129,11 @@ A match can occur under three conditions: if the major format of the range passe
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
+
+
 <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a>
+
+
 
  
 

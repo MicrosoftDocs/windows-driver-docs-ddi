@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRetrieveActivityId method, PFN_WDFREQUESTRETRIEVEACTIVITYID, wdf.wdfrequestretrieveactivityid, WdfRequestRetrieveActivityId, wdfrequest/WdfRequestRetrieveActivityId
+ms.keywords: WdfRequestRetrieveActivityId, PFN_WDFREQUESTRETRIEVEACTIVITYID, wdf.wdfrequestretrieveactivityid, wdfrequest/WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A pointer to a location to store the retrieved GUID.
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfRequestRetrieveActivityId</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,16 @@ No activity ID is associated with the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Requests reflected from kernel mode have an activity identifier available only if the Kernel Trace provider is enabled or if the UMDF driver called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a> after receiving the request. For more information about Event Tracing for Windows (ETW), see <a href="https://msdn.microsoft.com/3de69436-671b-46a2-8d92-4eb3af2a4233">Event Tracing</a>.
@@ -120,9 +125,12 @@ For more information about activity identifiers, see <a href="https://msdn.micro
 
 
 
+
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
+
+
 
  
 

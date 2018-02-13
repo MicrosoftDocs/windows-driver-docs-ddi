@@ -7,8 +7,8 @@ old-location: ifsk\ccgetflushedvaliddata.htm
 old-project: ifsk
 ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.ccgetflushedvaliddata, CcGetFlushedValidData, ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ntifs/CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData, CcGetFlushedValidData, ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, CcGetFlushedValidData routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,14 +81,18 @@ Reserved for system use. Must be <b>FALSE</b>.
 ## -returns
 
 
+
 If the entire file has been flushed, <b>CcGetFlushedValidData</b> returns the valid data length for the file. If there are dirty pages that have not been flushed to disk, <b>CcGetFlushedValidData</b> returns the starting byte offset of the lowest dirty page currently in the file. If the file is not cached or is no longer cached, MAXLONGLONG is returned in the quad part.
+
 
 
 
 ## -remarks
 
 
+
 The file system is responsible for ensuring that the value of <i>SectionObjectPointer</i> remains valid while in use. It is impossible for the cache manager to guarantee this.
+
 
 
 
@@ -96,11 +100,15 @@ The file system is responsible for ensuring that the value of <i>SectionObjectPo
 
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcGetFlushedValidData routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcGetFlushedValidData routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

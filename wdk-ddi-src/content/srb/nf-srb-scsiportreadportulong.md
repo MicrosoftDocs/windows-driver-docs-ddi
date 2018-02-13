@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b45d62f-1e0c-4445-a8ad-e8d263f7d43c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortReadPortUlong, storage.scsiportreadportulong, ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices], scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml
+ms.keywords: storage.scsiportreadportulong, ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices], scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, srb/ScsiPortReadPortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,20 +77,26 @@ Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space ran
 ## -returns
 
 
+
 <b>ScsiPortReadPortUlong</b> returns a ULONG value from the HBA's I/O port.
+
 
 
 
 ## -remarks
 
 
+
 <b>ScsiPortReadPortUlong</b> ensures that the data is transferred correctly.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

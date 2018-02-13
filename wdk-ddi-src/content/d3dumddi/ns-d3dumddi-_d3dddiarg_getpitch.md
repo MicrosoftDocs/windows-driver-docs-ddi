@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59661cfe-4a1f-4805-9421-7f694e82f8d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_getpitch, D3DDDIARG_GETPITCH structure [Display Devices], D3DDDIARG_GETPITCH, UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, d3dumddi/D3DDDIARG_GETPITCH, _D3DDDIARG_GETPITCH
+ms.keywords: D3DDDIARG_GETPITCH structure [Display Devices], display.d3dddiarg_getpitch, UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, _D3DDDIARG_GETPITCH, d3dumddi/D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ typedef struct _D3DDDIARG_GETPITCH {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getpitch.md">GetPitch</a>
+
+
 
  
 

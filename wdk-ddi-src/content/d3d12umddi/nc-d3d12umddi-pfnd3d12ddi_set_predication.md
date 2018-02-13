@@ -76,16 +76,15 @@ VOID APIENTRY* pfnSetPredication(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HRESOURCE
-
 
 
 ### -param UINT64
 
 
-
 ### -param D3D12DDI_PREDICATION_OP
+
+
 
 
 
@@ -115,13 +114,17 @@ A predication operation. For more information, see the <a href="..\d3d12umddi\ne
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f826f949-b37f-4c48-80d9-b6ef640e1f00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_FREQUENCY_RANGE, DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, display.d3dkmdt_frequency_range, _D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], D3DKMDT_FREQUENCY_RANGE
+ms.keywords: display.d3dkmdt_frequency_range, D3DKMDT_FREQUENCY_RANGE, DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], d3dkmdt/D3DKMDT_FREQUENCY_RANGE, _D3DKMDT_FREQUENCY_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ The maximum horizontal refresh rate, in Hz, supported by the monitor.
 ## -remarks
 
 
+
 The <b>RangeLimits</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set Interface</a>
+
+
 
  
 

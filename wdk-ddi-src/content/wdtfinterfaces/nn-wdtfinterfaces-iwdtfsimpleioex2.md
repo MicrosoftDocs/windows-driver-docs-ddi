@@ -100,6 +100,7 @@ Performs a small amount of simple I/O to the device.
 ## -remarks
 
 
+
 The <b>IWDTFSimpleIOEx2</b> action interface acts on an instance of the 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface that is retrieved by querying the 
 device depot. You can retrieve a target-specific implementation of an action interface by calling the 
@@ -111,6 +112,7 @@ see <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">
 
 The <b>IWDTFSimpleIOEx2</b> action interface is compatible with the following device 
 classes:
+
 <ul>
 <li>
 CD-ROM drives (class =CDROM) 
@@ -132,7 +134,8 @@ Network adapters (class = Net)
 Storage volumes (class = Volume)
 
 </li>
-</ul>For more information about device classes, see 
+</ul>
+For more information about device classes, see 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">Device Setup Classes</a>.
 
 To learn more about the specifics of how the <b>IWDTFSimpleIOEx2</b> action 
@@ -140,5 +143,8 @@ interface works, or to support additional device classes, try to implement a tar
 of it for your device class. For more information about how to implement such a version, see 
 <a href="https://msdn.microsoft.com/7e7660ec-1f17-4987-82c0-f62cca3a99b9">Windows Device Testing Framework 
 Design Guide</a>.
-<div class="alert"><b>Note</b>  The implementations of this interface are not thread-safe.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The implementations of this interface are not thread-safe.</div>
+<div> </div>
+
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 985dcde1-5643-4c35-9096-44b076a1dd51
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetCharacteristics, wdfdevice/WdfDeviceGetCharacteristics, kmdf.wdfdevicegetcharacteristics, WdfDeviceGetCharacteristics method, PFN_WDFDEVICEGETCHARACTERISTICS, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, wdf.wdfdevicegetcharacteristics
+ms.keywords: kmdf.wdfdevicegetcharacteristics, PFN_WDFDEVICEGETCHARACTERISTICS, WdfDeviceGetCharacteristics method, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, WdfDeviceGetCharacteristics, wdf.wdfdevicegetcharacteristics, wdfdevice/WdfDeviceGetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,9 +79,11 @@ A handle to a framework device object.
 ## -returns
 
 
+
 A bitwise OR of system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
@@ -89,7 +91,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
+
+
 
  
 

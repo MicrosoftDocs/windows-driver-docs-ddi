@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B50C7FD5-5AE4-4BF3-9FD7-F006F4B6BAAF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_wfd_discover_type_auto, DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_scan_only, *PDOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_auto, netvista.dot11_wfd_discover_type, _DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_find_only, windot11/DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_social_channels, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_scan_social_channels, dot11_wfd_discover_type_scan_only
+ms.keywords: windot11/DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_social_channels, netvista.dot11_wfd_discover_type, dot11_wfd_discover_type_scan_only, _DOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_wfd_discover_type_find_only, dot11_wfd_discover_type_auto, DOT11_WFD_DISCOVER_TYPE, *PDOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_scan_social_channels, dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_auto, windot11/dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_forced, dot11_wfd_discover_type_find_only
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DISCOVER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_DISCOVER_TYPE, *PDOT11_WFD_DISCOVER_TYPE
+req.typenames: "*PDOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ A flag indicating that a complete device discovery is required. If this flag is 
 ## -remarks
 
 
+
 The <b>dot11_wfd_discover_type_forced</b> flag may be set along with only one of the other discovery modes.
+
 
 
 
@@ -108,7 +110,11 @@ The <b>dot11_wfd_discover_type_forced</b> flag may be set along with only one of
 
 <a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+
+
 
  
 

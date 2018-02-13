@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY LockAsync(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a> structure that describes the resource or surface within the resource to lock.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY LockAsync(
 ## -returns
 
 
+
 <i>LockAsync</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +147,14 @@ The user-mode display driver does not support <i>LockAsync</i> for the specified
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 On multiple-processor computers, the Microsoft Direct3D runtime might call most functions of the user-mode display driver from a worker thread instead of from the main application thread. This multiple-processor optimization is transparent to the user-mode display driver. When the runtime uses multiple-processor optimization, it might call <i>LockAsync</i> rather than the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function to lock a resource. 
@@ -168,27 +175,48 @@ In summary, the driver should fail calls to its <i>LockAsync</i> function if ren
 
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockasync.md">UnlockAsync</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
+
+
 
  
 

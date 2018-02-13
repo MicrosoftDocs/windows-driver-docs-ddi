@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f96ef86-1155-4483-915e-706cc18c3bca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_GETDDIVERSIONDATA, DD_GETDDIVERSIONDATA structure [Display Devices], _DD_GETDDIVERSIONDATA, d3dhal/DD_GETDDIVERSIONDATA, display.dd_getddiversiondata, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml
+ms.keywords: "_DD_GETDDIVERSIONDATA, display.dd_getddiversiondata, DD_GETDDIVERSIONDATA structure [Display Devices], DD_GETDDIVERSIONDATA, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, d3dhal/DD_GETDDIVERSIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,17 +91,23 @@ Receives the version of the DDI that the driver supports.
 ## -remarks
 
 
+
 During the development phase of a version of DirectX, whenever a significant change is made to the Driver Development Kit (DDK) headers, the version number of the DDI is updated. Thereafter, a display driver must report this updated DDI version in order to be run as the most-recent-version DirectX driver. If the driver does not report this updated DDI version, the runtime determines that the driver is the prior version of DirectX and handles the driver accordingly. 
 
 For example, suppose that a hardware vendor builds his display driver with a pre-released version of the DirectX 9.0 DDK and then attempts to ship his driver as a DirectX 9.0 version. If the DDI version number is updated in the final version of DirectX 9.0, the DirectX 9.0 runtime subsequently treats this driver as a DirectX 8.0 version driver instead. 
 
 
 
+
 ## -see-also
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
 
  
 

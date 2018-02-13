@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B46AE68A-36E1-4367-95F5-0FFBAA42171C
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ValidateAsync, print.iprintschematicket_validateasync, IPrintSchemaTicket, ValidateAsync method [Print Devices], IPrintSchemaTicket interface [Print Devices], ValidateAsync method, printerextension/IPrintSchemaTicket::ValidateAsync, ValidateAsync method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::ValidateAsync
+ms.keywords: ValidateAsync method [Print Devices], IPrintSchemaTicket interface, ValidateAsync method [Print Devices], IPrintSchemaTicket interface [Print Devices], ValidateAsync method, IPrintSchemaTicket::ValidateAsync, print.iprintschematicket_validateasync, IPrintSchemaTicket, printerextension/IPrintSchemaTicket::ValidateAsync, ValidateAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,26 +76,38 @@ The asynchronous validation operation context.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
  To perform the validation operation, call the <a href="https://msdn.microsoft.com/8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3">IPrintSchemaAsyncOperation::Start</a> method to validate the settings of the current PrintTicket object and to pass the resulting PrintTicket to the <a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a> event. When the validation operation is completed, or if an error occurs during the validation operation, the <b>IPrintSchemaAsyncOperationEvent::Completed</b> event is fired. This method will not change the settings of the current PrintTicket object.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
+<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
+
+
 
 <a href="https://msdn.microsoft.com/8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3">IPrintSchemaAsyncOperation::Start</a>
 
+
+
+<a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
+
 
  
 

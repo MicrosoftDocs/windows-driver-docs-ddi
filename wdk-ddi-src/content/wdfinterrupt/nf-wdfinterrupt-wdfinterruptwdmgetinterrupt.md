@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b301e9f6-264d-43d9-a344-b34dcd659d04
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt method, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, kmdf.wdfinterruptwdmgetinterrupt, wdfinterrupt/WdfInterruptWdmGetInterrupt
+ms.keywords: wdfinterrupt/WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt method, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, wdf.wdfinterruptwdmgetinterrupt, kmdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a framework interrupt object.
 ## -returns
 
 
+
 The <b>WdfInterruptWdmGetInterrupt</b> method returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure. This method returns <b>NULL</b> if it is called before the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a> callback function is called or after the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function returns.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The pointer that the <b>WdfInterruptWdmGetInterrupt</b> method returns is valid until the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function returns. 
@@ -95,10 +98,30 @@ The pointer that the <b>WdfInterruptWdmGetInterrupt</b> method returns is valid 
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
 
+#### Examples
+
+The following code example obtains a pointer to the KINTERRUPT structure that is associated with a specified framework interrupt object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PKINTERRUPT  wdmInterrupt;
+
+wdmInterrupt = WdfInterruptWdmGetInterrupt(Interrupt);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
+
+
 
  
 

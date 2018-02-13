@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3305b892-6785-4412-9b9e-86561c83764a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], d3dumddi/DXVADDI_CONFIGPICTUREDECODE, DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml, DXVADDI_CONFIGPICTUREDECODE, display.dxvaddi_configpicturedecode, _DXVADDI_CONFIGPICTUREDECODE
+ms.keywords: "_DXVADDI_CONFIGPICTUREDECODE, DXVADDI_CONFIGPICTUREDECODE, DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], display.dxvaddi_configpicturedecode, DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml, d3dumddi/DXVADDI_CONFIGPICTUREDECODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,6 +120,7 @@ Set this member to zero if the <b>ConfigResidDiffHost</b> or <b>ConfigResidDiffA
 [in] The word size that is used to represent residual difference spatial-domain blocks for predicted (nonintra) pictures when using host-based residual difference decoding (that is, when the <b>ConfigResidDiffHost</b> member is set to 1).
 
 If <b>ConfigSpatialResid8</b> is 1 and <b>ConfigResidDiffHost</b> is 1, the host sends residual difference spatial-domain blocks for nonintra macroblocks that use 8-bit signed samples and for intra macroblocks in predicted (nonintra) pictures in a format that depends on the <b>ConfigIntraResidUnsigned</b> member as follows:
+
 <ul>
 <li>
 If <b>ConfigIntraResidUnsigned</b> is zero, spatial-domain blocks for intra macroblocks are sent as 8-bit signed integer values that are relative to a constant reference value of 128.
@@ -129,7 +130,9 @@ If <b>ConfigIntraResidUnsigned</b> is zero, spatial-domain blocks for intra macr
 If <b>ConfigIntraResidUnsigned</b> is 1, spatial-domain blocks for intra macroblocks are sent as 8-bit unsigned integer values that are relative to a constant reference value of zero.
 
 </li>
-</ul>If <b>ConfigSpatialResid8</b> is zero and <b>ConfigResidDiffHost</b> is 1, the host sends residual difference spatial-domain blocks of data for nonintra macroblocks that use 16-bit signed samples and for intra macroblocks in predicted (nonintra) pictures in a format that depends on <b>ConfigIntraResidUnsigned</b> as follows:
+</ul>
+If <b>ConfigSpatialResid8</b> is zero and <b>ConfigResidDiffHost</b> is 1, the host sends residual difference spatial-domain blocks of data for nonintra macroblocks that use 16-bit signed samples and for intra macroblocks in predicted (nonintra) pictures in a format that depends on <b>ConfigIntraResidUnsigned</b> as follows:
+
 <ul>
 <li>
 If <b>ConfigIntraResidUnsigned</b> is zero, spatial domain blocks for intra macroblocks are sent as 16-bit signed integer values that are relative to a constant reference value of 2<sup>(BPP-1)</sup>, where <i>BPP</i> is the number of bits per sample for the uncompressed video (generally a value of 8).
@@ -139,10 +142,13 @@ If <b>ConfigIntraResidUnsigned</b> is zero, spatial domain blocks for intra macr
 If <b>ConfigIntraResidUnsigned</b> is 1, spatial domain blocks for intra macroblocks are sent as 16-bit unsigned integer values that are relative to a constant reference value of zero.
 
 </li>
-</ul><b>ConfigSpatialResid8</b> must be zero if <b>ConfigResidDiffHost</b> is zero. If <b>ConfigResidDiffHost</b> is 1, <b>ConfigSpatialResid8</b> can be any value.
+</ul>
+<b>ConfigSpatialResid8</b> must be zero if <b>ConfigResidDiffHost</b> is zero. If <b>ConfigResidDiffHost</b> is 1, <b>ConfigSpatialResid8</b> can be any value.
+
 <div class="alert"><b>Note</b>    For <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra pictures</a> with <i>BPP</i> equal to 8, spatial-domain blocks must be sent by using 8-bit samples. For intra pictures with <i>BPP</i> greater than 8, spatial-domain blocks must be sent by using 16-bit samples. <p class="note">If <b>ConfigIntraResidUnsigned</b> is zero, these samples are sent as signed integer values that are relative to a constant reference value of 2<sup>(BPP-1)</sup>. If <b>ConfigIntraResidUnsigned</b> is 1, these samples are sent as unsigned integer values that are relative to a constant reference value of zero.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field ConfigResid8Subtraction
 
@@ -164,6 +170,7 @@ If <b>ConfigIntraResidUnsigned</b> is 1, spatial domain blocks for intra macrobl
 [in] The method of representation of spatial-domain blocks of residual difference data for intra blocks when using host-based difference decoding (that is, when the <b>ConfigResidDiffHost</b> member is equal to 1).
 
 If <b>ConfigIntraResidUnsigned</b> is set to zero and <b>ConfigResidDiffHost</b> is set to 1, spatial-domain residual difference data blocks for intra macroblocks are sent as follows:
+
 <ul>
 <li>
 In a nonintra picture if the <b>ConfigSpatialResid8</b> member is zero, the spatial-domain residual difference data blocks for intra macroblocks are sent as 16-bit signed integer values that are relative to a constant reference value of 2<sup>(BPP-1)</sup>, where <i>BPP</i> is the number of bits per sample for the uncompressed video (generally a value of 8).
@@ -173,7 +180,9 @@ In a nonintra picture if the <b>ConfigSpatialResid8</b> member is zero, the spat
 In a nonintra picture if <b>ConfigSpatialResid8</b> is 1 and in an intra picture if <i>BPP</i> is equal to 8 (regardless of the value of <b>ConfigSpatialResid8</b>), the spatial-domain residual difference data blocks for intra macroblocks are sent as 8-bit signed integer values that are relative to a constant reference value of 128.
 
 </li>
-</ul>If <b>ConfigIntraResidUnsigned</b> is set to 1 and <b>ConfigResidDiffHost</b> is set to 1, spatial-domain residual difference data blocks for intra macroblocks are sent as follows:
+</ul>
+If <b>ConfigIntraResidUnsigned</b> is set to 1 and <b>ConfigResidDiffHost</b> is set to 1, spatial-domain residual difference data blocks for intra macroblocks are sent as follows:
+
 <ul>
 <li>
 In a nonintra picture if <b>ConfigSpatialResid8</b> is zero, the spatial-domain residual difference data blocks for intra macroblocks are sent as 16-bit unsigned integer values that are relative to a constant reference value of zero.
@@ -183,7 +192,8 @@ In a nonintra picture if <b>ConfigSpatialResid8</b> is zero, the spatial-domain 
 In a nonintra picture if <b>ConfigSpatialResid8</b> is 1 and in an intra picture if <i>BPP</i> is equal to 8 (regardless of the value of <b>ConfigSpatialResid8</b>), the spatial-domain residual difference data blocks for intra macroblocks are sent as 8-bit unsigned integer values that are relative to a constant reference value of zero.
 
 </li>
-</ul><b>ConfigIntraResidUnsigned</b> must be zero unless <b>ConfigResidDiffHost</b> is 1. The preferred value for <b>ConfigIntraResidUnsigned</b> is zero.
+</ul>
+<b>ConfigIntraResidUnsigned</b> must be zero unless <b>ConfigResidDiffHost</b> is 1. The preferred value for <b>ConfigIntraResidUnsigned</b> is zero.
 
 
 ### -field ConfigResidDiffAccelerator
@@ -209,7 +219,9 @@ The preferred value for <b>ConfigHostInverseScan</b> is 1 if <b>ConfigResidDiffA
 [in] A UINT value that specifies the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="http://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
 
 <b>ConfigSpecificIDCT</b> must be zero if <b>ConfigResidDiffAccelerator</b> is zero, which indicates host-based residual difference decoding.
-<div class="alert"><b>Note</b>  <b>ConfigSpecificIDCT</b> must not be set to 1 for use with MPEG-2 video. </div><div> </div>
+
+<div class="alert"><b>Note</b>  <b>ConfigSpecificIDCT</b> must not be set to 1 for use with MPEG-2 video. </div>
+<div> </div>
 
 ### -field Config4GroupedCoefs
 
@@ -232,9 +244,15 @@ The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiff
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
 
  
 

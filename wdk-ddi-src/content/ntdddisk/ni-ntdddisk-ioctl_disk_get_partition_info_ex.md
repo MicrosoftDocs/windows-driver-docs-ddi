@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_partition_information_e
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
+
+
 
  
 

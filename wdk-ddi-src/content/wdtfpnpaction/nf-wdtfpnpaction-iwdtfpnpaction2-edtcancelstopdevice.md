@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5ddce998-2f64-4711-b820-5baa88096d99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFPNPAction2::EDTCancelStopDevice, EDTCancelStopDevice, wdtfpnpaction/IWDTFPNPAction2::EDTCancelStopDevice, IWDTFPNPAction2::EDTCancelStopDevice, dtf.iwdtfpnpaction2_edtcancelstopdevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelStopDevice, IWDTFPNPAction2, EDTCancelStopDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTCancelStopDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTCancelStopDevice method
+ms.keywords: IWDTFPNPAction2::EDTCancelStopDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelStopDevice, dtf.iwdtfpnpaction2_edtcancelstopdevice, IWDTFPNPAction2, EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTCancelStopDevice method, wdtfpnpaction/IWDTFPNPAction2::EDTCancelStopDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,15 +76,20 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8fc225af-09d4-42a0-a862-4af89addd5f8">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
-method must be called for the target device before calling this method.</div><div> </div><b>EDTCancelStopDevice</b> attempts to trigger an IRP_MN_CANCEL_STOP_DEVICE 
+method must be called for the target device before calling this method.</div>
+<div> </div>
+<b>EDTCancelStopDevice</b> attempts to trigger an IRP_MN_CANCEL_STOP_DEVICE 
 event by causing the system to send an IRP_MN_QUERY_STOP_DEVICE event and by intentionally failing 
 the query IRP in the DeviceManagement2 helper driver.
 
@@ -94,9 +99,12 @@ by setting EDTRS_QueryStopVetoed in ppResult.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

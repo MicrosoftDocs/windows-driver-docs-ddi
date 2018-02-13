@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c40f4151-a392-463f-888f-d575e6992062
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_device_desc, DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, _DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC structure [Display Devices], d3dumddi/DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC
+ms.keywords: "_DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC structure [Display Devices], display.dxvahdddi_device_desc, d3dumddi/DXVAHDDDI_DEVICE_DESC, DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,9 @@ typedef struct _DXVAHDDDI_DEVICE_DESC {
 ## -remarks
 
 
+
 The driver considers the value in the <b>Usage</b> member and the information to which <b>pContentDesc</b> points to optimize its capabilities. 
+
 
 
 
@@ -89,7 +91,11 @@ The driver considers the value in the <b>Usage</b> member and the information to
 
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a>
+
+
 
  
 

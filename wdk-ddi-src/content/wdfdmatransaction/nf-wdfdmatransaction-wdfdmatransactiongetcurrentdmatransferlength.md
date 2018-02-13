@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 20a27ad7-0b27-494e-b761-fc3edf71e8c9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONGETCURRENTDMATRANSFERLENGTH, WdfDmaTransactionGetCurrentDmaTransferLength method, DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength, wdf.wdfdmatransactiongetcurrentdmatransferlength, kmdf.wdfdmatransactiongetcurrentdmatransferlength
+ms.keywords: WdfDmaTransactionGetCurrentDmaTransferLength method, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength, PFN_WDFDMATRANSACTIONGETCURRENTDMATRANSFERLENGTH, wdf.wdfdmatransactiongetcurrentdmatransferlength, kmdf.wdfdmatransactiongetcurrentdmatransferlength, DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionGetCurrentDmaTransferLength
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A handle to a DMA transaction object that the driver obtained from a previous ca
 ## -returns
 
 
+
 <b>WdfDmaTransactionGetCurrentDmaTransferLength</b> returns the length of the current DMA transfer.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If a driver calls <b>WdfDmaTransactionGetCurrentDmaTransferLength</b>, it must do so before it calls one of the transfer completion routines, such as <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>, to complete the current DMA transfer. Typically, drivers call <b>WdfDmaTransactionGetCurrentDmaTransferLength</b> from within an <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> event callback function.
@@ -97,16 +100,31 @@ Typically, a driver calls <b>WdfDmaTransactionGetCurrentDmaTransferLength</b> fo
 For more information about complete DMA transfers, see <a href="https://msdn.microsoft.com/86383b9f-9b82-4afa-81ac-2ab09bd8778b">Completing a DMA Transfer</a>. 
 
 
+#### Examples
+
+For a code example that uses <b>WdfDmaTransactionGetCurrentDmaTransferLength</b>, see <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
+
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
+
 
  
 

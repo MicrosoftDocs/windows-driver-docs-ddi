@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7341af26-3c5c-4f33-b924-2e8098aeee7f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSM_PIN, bdasup/PKSM_PIN, bdaref_029de0a4-0975-435c-990d-4b5cac00e003.xml, KSM_PIN, *PKSM_PIN, bdasup/KSM_PIN, _KSM_PIN, stream.ksm_pin, PKSM_PIN structure pointer [Streaming Media Devices], KSM_PIN structure [Streaming Media Devices]
+ms.keywords: bdasup/PKSM_PIN, _KSM_PIN, PKSM_PIN, KSM_PIN structure [Streaming Media Devices], bdaref_029de0a4-0975-435c-990d-4b5cac00e003.xml, *PKSM_PIN, PKSM_PIN structure pointer [Streaming Media Devices], KSM_PIN, stream.ksm_pin, bdasup/KSM_PIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSM_PIN
 product: Windows
 targetos: Windows
-req.typenames: KSM_PIN, *PKSM_PIN
+req.typenames: "*PKSM_PIN, KSM_PIN"
 ---
 
 # _KSM_PIN structure
@@ -72,6 +72,11 @@ typedef struct _KSM_PIN {
 
 
 
+### -field Method
+
+KSMETHOD structure that describes a method and request type of a method request.
+
+
 ### -field PinId
 
 Member of the union in KSM_PIN that contains the identifier (ID) of a pin factory of a filter.
@@ -82,11 +87,6 @@ Member of the union in KSM_PIN that contains the identifier (ID) of a pin factor
 Member of the union in KSM_PIN that contains the value that specifies the pin type.
 
 
-### -field Method
-
-KSMETHOD structure that describes a method and request type of a method request.
-
-
 ### -field Reserved
 
 Reserved.
@@ -95,13 +95,17 @@ Reserved.
 ## -remarks
 
 
+
 When the network provider creates or deletes a pin for a filter using either KSMETHOD_BDA_CREATE_PIN_FACTORY or KSMETHOD_BDA_DELETE_PIN_FACTORY of the KSMETHODSETID_BdaDeviceConfiguration method set, the BDA minidriver for the filter gives that pin an ID. The ID for the pin is returned in KSM_PIN. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+
 
  
 

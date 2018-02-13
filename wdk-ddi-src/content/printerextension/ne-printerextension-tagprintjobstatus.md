@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_Paused, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Retained, printerextension/PrintJobStatus_Offline, PrintJobStatus_Deleting, print.printjobstatus, PrintJobStatus_Complete, printerextension/PrintJobStatus_Deleted, PrintJobStatus_Spooling, PrintJobStatus_Restarted, tagPrintJobStatus, PrintJobStatus_Error, printerextension/PrintJobStatus_Restarted, PrintJobStatus_Printed, printerextension/PrintJobStatus_Complete, PrintJobStatus_Offline, PrintJobStatus_Deleted, PrintJobStatus_Paused, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Error, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Spooling, PrintJobStatus_Printing, PrintJobStatus_UserIntervention, PrintJobStatus, printerextension/PrintJobStatus_Printed
+ms.keywords: tagPrintJobStatus, PrintJobStatus_Retained, PrintJobStatus_Deleting, PrintJobStatus_Complete, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Restarted, PrintJobStatus_Spooling, PrintJobStatus_Error, printerextension/PrintJobStatus_Printed, PrintJobStatus_Printed, PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Printing, PrintJobStatus_Restarted, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Complete, PrintJobStatus_Deleted, PrintJobStatus_UserIntervention, printerextension/PrintJobStatus_UserIntervention, printerextension/PrintJobStatus, PrintJobStatus_Offline, printerextension/PrintJobStatus_Retained, PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Paused, PrintJobStatus, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_PaperOut, PrintJobStatus_Paused, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Error, PrintJobStatus enumeration [Print Devices], printerextension/PrintJobStatus_Deleting, print.printjobstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -156,9 +156,11 @@ The job has been retained in the print queue and cannot be deleted.
 ## -remarks
 
 
+
 A <b>PrintJobStatus_Retained</b> flag can be raised for several reasons. For example, jobs could be kept in the queue if the administrator of the queue used the desktop print queue UI to set the “Keep Printed Jobs” feature to be on.
 
 It is possible for a job to have multiple  flag values specified simultaneously.
+
 
 
 
@@ -166,7 +168,11 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 <a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
 
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+
+
 
  
 

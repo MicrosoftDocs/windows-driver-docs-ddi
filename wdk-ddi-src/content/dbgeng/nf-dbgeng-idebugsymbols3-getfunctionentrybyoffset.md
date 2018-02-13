@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFunctionEntryByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, debugger.getfunctionentrybyoffset, IDebugSymbols3, GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetFunctionEntryByOffset
+ms.keywords: IDebugSymbols3::GetFunctionEntryByOffset, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, debugger.getfunctionentrybyoffset, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,9 @@ Specifies the size of the function entry information.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,27 +140,42 @@ No function entry information was found for the location <i>Offset</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The structures FPO_DATA and IMAGE_FUNCTION_ENTRY are documented in "Image Help Library" which is included in Debugging Tools For Windows in the DbgHelp.chm file. 
-<div class="alert"><b>Note</b>  The functions in "Image Help Library" and "Debug Help Library", documented in DbgHelp.chm, should not be called by any extension or debugger engine application.</div><div> </div>For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
+<div class="alert"><b>Note</b>  The functions in "Image Help Library" and "Debug Help Library", documented in DbgHelp.chm, should not be called by any extension or debugger engine application.</div>
+<div> </div>
+For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
 
-<a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
+
+
+<a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
+
+
 
  
 

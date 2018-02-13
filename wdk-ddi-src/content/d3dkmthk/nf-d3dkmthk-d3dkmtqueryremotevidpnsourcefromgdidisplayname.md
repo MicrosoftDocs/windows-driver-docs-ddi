@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3606d5f4-760f-4ba1-84ea-218b6c2a2e20
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], display.d3dkmtqueryremotevidpnsourcefromgdidisplayname, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
+ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function [Display Devices], d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTQueryRemoteVidPnSourceFromGdiDis
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a> structure that describes information that is required to perform the mapping.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefr
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,17 +111,23 @@ The mapping was performed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
+
+
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtoutputduplpresent.md">D3DKMTOutputDuplPresent</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryremotevidpnsourcefromgdidisplayname.md">D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME</a>
+
 
  
 

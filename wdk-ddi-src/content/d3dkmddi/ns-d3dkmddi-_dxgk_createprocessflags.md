@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
+ms.keywords: display.dxgk_createprocessflags, d3dkmddi/DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,11 @@ The consolidated value of the bitfield members of the structure.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a>
+
+
 
  
 

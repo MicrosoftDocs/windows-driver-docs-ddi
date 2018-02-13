@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnGetNumModes(
 ## -returns
 
 
+
 The <b>pfnGetNumModes</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,14 +114,18 @@ The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>. 
+
 
 
 
@@ -127,7 +133,11 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
+
+
 
  
 

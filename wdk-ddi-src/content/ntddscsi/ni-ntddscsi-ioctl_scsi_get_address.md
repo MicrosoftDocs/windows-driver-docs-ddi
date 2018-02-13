@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SCSI_GET_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
 ---
 
 # IOCTL_SCSI_GET_ADDRESS IOCTL
@@ -90,14 +90,18 @@ Updated <a href="..\ntddscsi\ns-ntddscsi-_scsi_address.md">SCSI_ADDRESS</a> info
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Information</b> field contains the number of bytes returned in the output
 ## -see-also
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_address.md">SCSI_ADDRESS</a>
+
+
 
  
 

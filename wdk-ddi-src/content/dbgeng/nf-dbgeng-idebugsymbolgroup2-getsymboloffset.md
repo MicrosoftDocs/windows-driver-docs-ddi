@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3ddebc-109e-43fb-a0e9-fd89d90dbbc7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolOffset method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolOffset, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, GetSymbolOffset, debugger.getsymboloffset, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolOffset method, GetSymbolOffset method [Windows Debugging]
+ms.keywords: GetSymbolOffset method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolOffset, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, GetSymbolOffset method [Windows Debugging], debugger.getsymboloffset, GetSymbolOffset, IDebugSymbolGroup2, ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,7 @@ The location in the process's virtual address space of the symbol.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,24 +109,32 @@ The symbol does not have an absolute address.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dd7a85e-b284-42be-89d4-a4a7361d5c6d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_NEW_STATE, rilapitypes/RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_OLD_STATE, rilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, rilapitypes/RIL_PARAM_CMOA_ACTION, netvista.rilcallmediaofferanswerparammask_2, rilapitypes/RIL_PARAM_CMOA_NEW_STATE, rilapitypes/RIL_PARAM_CMOA_OLD_STATE, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_ACTION
+ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, rilapitypes/RIL_PARAM_CMOA_ALL, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CMOA_CHANGE, rilapitypes/RIL_PARAM_CMOA_NEW_STATE, rilapitypes/RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_NEW_STATE, netvista.rilcallmediaofferanswerparammask_2, rilapitypes/RIL_PARAM_CMOA_OLD_STATE, RIL_PARAM_CMOA_CHANGE, rilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, RIL_PARAM_CMOA_OLD_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,23 +75,17 @@ typedef enum _RILCALLMEDIAOFFERANSWERPARAMMASK {
 ### -field RIL_PARAM_CMOA_ID
 
 
-
 ### -field RIL_PARAM_CMOA_CHANGE
-
 
 
 ### -field RIL_PARAM_CMOA_ACTION
 
 
-
 ### -field RIL_PARAM_CMOA_OLD_STATE
-
 
 
 ### -field RIL_PARAM_CMOA_NEW_STATE
 
 
-
 ### -field RIL_PARAM_CMOA_ALL
-
 

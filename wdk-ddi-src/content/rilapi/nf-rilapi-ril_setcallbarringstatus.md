@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2012944f-b889-4084-92c8-95c1340599f3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetCallBarringStatus, RIL_SetCallBarringStatus, netvista.ril_setcallbarringstatus, RIL_SetCallBarringStatus method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SetCallBarringStatus, rilapi/RIL_SetCallBarringStatus, RIL_SetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallbarringstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,38 +80,32 @@ HRESULT  RIL_SetCallBarringStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwType
-
 
 
 ### -param fAllClasses
 
 
-
 ### -param dwInfoClasses
-
 
 
 ### -param lpszPassword
 
 
-
 ### -param dwStatus
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

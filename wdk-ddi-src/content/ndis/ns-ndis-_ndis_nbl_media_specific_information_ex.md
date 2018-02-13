@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f2c74fc3-45e2-4541-81a1-eb022e24cede
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_nbl_media_specific_information_ex, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure [Network Drivers Starting with Windows Vista], ndis_netbuf_macros_media_specific_587542fc-f693-4a93-b343-0a9e86e6659e.xml, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
+ms.keywords: PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, netvista.ndis_nbl_media_specific_information_ex, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, ndis_netbuf_macros_media_specific_587542fc-f693-4a93-b343-0a9e86e6659e.xml, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure [Network Drivers Starting with Windows Vista], PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,9 +72,15 @@ typedef struct _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX {
 
 
 
-### -field _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
+### -field Header
 
- 
+The 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     structure (NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX). The driver sets the 
+     <b>Type</b> member of the structure that 
+     <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
+     <b>Revision</b> member to NDIS_NBL_MEDIA_SPECIFIC_INFO_REVISION_1, and the 
+     <b>Size</b> member to NDIS_SIZEOF_NBL_MEDIA_SPECIFIC_INFO_REVISION_1.
 
 
 ### -field NextEntry
@@ -90,15 +96,9 @@ A pointer to the next NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure in a link
      NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a> macros to manipulate this list.
 
 
-### -field Header
+### -field _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
 
-The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
-     structure (NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX). The driver sets the 
-     <b>Type</b> member of the structure that 
-     <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
-     <b>Revision</b> member to NDIS_NBL_MEDIA_SPECIFIC_INFO_REVISION_1, and the 
-     <b>Size</b> member to NDIS_SIZEOF_NBL_MEDIA_SPECIFIC_INFO_REVISION_1.
+ 
 
 
 ### -field Tag
@@ -117,6 +117,7 @@ A pointer to a buffer that contains the media-specific information.
 
 
 ## -remarks
+
 
 
 NDIS 6.20 and later drivers should use the NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure to specify
@@ -147,26 +148,43 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566512">
    NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
    NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a>
 
-<a href="..\ndis\ns-ndis-_ndis_nbl_media_media_specific_information.md">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION</a>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
-   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_nbl_media_media_specific_information.md">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

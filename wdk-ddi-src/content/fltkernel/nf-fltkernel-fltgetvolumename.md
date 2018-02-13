@@ -7,8 +7,8 @@ old-location: ifsk\fltgetvolumename.htm
 old-project: ifsk
 ms.assetid: 50815b33-d417-4499-9423-f65697396200
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml, FltGetVolumeName, ifsk.fltgetvolumename, fltkernel/FltGetVolumeName, FltGetVolumeName routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.fltgetvolumename, fltkernel/FltGetVolumeName, FltGetVolumeName, FltGetVolumeName routine [Installable File System Drivers], FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,9 @@ A pointer to a caller-allocated variable that receives the size, in bytes, of th
 ## -returns
 
 
+
 <b>FltGetVolumeName</b> returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,14 +130,18 @@ The <b>Buffer</b> member of the UNICODE_STRING structure, pointed to by <i>Volum
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For this routine to succeed, the <b>Buffer</b> member of the UNICODE_STRING structure (pointed to by <i>VolumeName</i>) must be large enough, as indicated by its <b>MaximumLength</b> member, to contain the entire volume name string.  The following pseudocode shows one possible method to successfully acquire a volume name:
+
 <ol>
 <li>Call <b>FltGetVolumeName</b> to determine the required pool for <b>Buffer</b> and the required size for <b>MaximumLength</b>.  For example:<div class="code"><span codelanguage=""><table>
 <tr>
@@ -165,7 +171,8 @@ Allocate <code>VolumeNameSize</code> bytes of pool for <b>Buffer</b> and set <b>
 <code>VolumeNameStruct.Buffer</code> contains the Unicode volume name string, which is <code>VolumeNameStruct.Length</code> bytes in length.
 
 </li>
-</ol>To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>. 
+</ol>
+To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>. 
 
 To get an opaque volume pointer for a volume with a given name, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>. 
 
@@ -173,19 +180,28 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeName routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeName routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

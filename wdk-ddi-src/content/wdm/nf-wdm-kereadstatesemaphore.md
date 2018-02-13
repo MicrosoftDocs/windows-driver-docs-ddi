@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e88c89fb-c308-4c6d-a67d-c8f98d539a43
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, wdm/KeReadStateSemaphore, kernel.kereadstatesemaphore, KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeReadStateSemaphore, k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, kernel.kereadstatesemaphore, wdm/KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to an initialized semaphore object for which the caller provides the sto
 ## -returns
 
 
+
 If the return value is zero, the semaphore object is set to a not-signaled state.
 
 
 
+
 ## -remarks
+
 
 
 This routine provides an efficient way to poll the signal state of a semaphore. <b>KeReadStateSemaphore</b> reads the state of the semaphore without synchronizing its access to the semaphore. Do not assume that accesses of a semaphore state by <b>KeReadStateSemaphore</b> are mutually exclusive of accesses by routines, such as <a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a> and <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>, that do synchronize their access to the semaphore state.
@@ -89,13 +92,20 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
 
+
+
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bthddi/_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], _BRB_SCO_REGISTER_SERVER
+ms.keywords: bthddi/_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bltooth._brb_sco_register_server, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,6 +97,7 @@ Reserved for future use. Do not use.
 A flag that indicates when the callback function that is specified in the 
      <b>IndicationCallback</b> member should be called. The following flags are defined.
      
+
 <table>
 <tr>
 <td>
@@ -128,7 +129,8 @@ Notify the profile driver if there are any incoming eSCO connections.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IndicationCallback
@@ -171,6 +173,7 @@ Handle to the SCO server, if successfully returned. When the profile driver shou
 ## -remarks
 
 
+
 To register itself as a SCO server, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a> request.
@@ -201,19 +204,32 @@ To stop receiving remote connection notifications, a profile driver should
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+
+
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
+
+
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+
 
  
 

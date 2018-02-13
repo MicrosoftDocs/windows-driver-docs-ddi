@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DrawPrimitive2(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive2.md">D3DDDIARG_DRAWPRIMITIVE2</a> structure that describes the primitive to draw.
@@ -91,22 +93,30 @@ __checkReturn HRESULT APIENTRY DrawPrimitive2(
 ## -returns
 
 
+
 <b>DrawPrimitive2</b> returns S_OK or an appropriate error result if the primitive is not successfully drawn.
+
 
 
 
 ## -remarks
 
 
+
 Stream zero contains transform vertices and is the only stream that should be accessed. 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive2.md">D3DDDIARG_DRAWPRIMITIVE2</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

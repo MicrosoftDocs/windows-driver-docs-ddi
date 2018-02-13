@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfMemoryGetBuffer method, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, PFN_WDFMEMORYGETBUFFER, kmdf.wdfmemorygetbuffer
+ms.keywords: kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer, WdfMemoryGetBuffer, PFN_WDFMEMORYGETBUFFER, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,7 @@ A pointer to a location that receives the size, in bytes, of the memory buffer. 
 ## -returns
 
 
+
 <b>WdfMemoryGetBuffer</b> returns a pointer to the memory buffer.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -95,7 +96,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about framework memory objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
@@ -103,14 +106,51 @@ For more information about framework memory objects, see <a href="https://docs.m
 <b>WdfMemoryGetBuffer</b> can be called at any IRQL.
 
 
+#### Examples
+
+The following code example is based on the <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a> callback function in the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. The example obtains the buffer that is associated with the memory object that the callback function receives. The example copies data from the buffer into device object context space that the driver has defined.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+OsrFxEvtUsbInterruptPipeReadComplete(
+    WDFUSBPIPE  Pipe,
+    WDFMEMORY  Buffer,
+    size_t  NumBytesTransferred,
+    WDFCONTEXT  Context
+    )
+{
+    PUCHAR  switchState = NULL;
+    WDFDEVICE  device;
+    PDEVICE_CONTEXT  pDeviceContext = Context;
+
+    device = WdfObjectContextGetObject(pDeviceContext);
+    switchState = WdfMemoryGetBuffer(Buffer, NULL);
+    pDeviceContext-&gt;CurrentSwitchState = *switchState;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
+
+
 <a href="..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md">WdfObjectContextGetObject</a>
 
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
 
  
 

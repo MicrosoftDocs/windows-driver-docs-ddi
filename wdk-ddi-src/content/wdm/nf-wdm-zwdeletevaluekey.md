@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e7fc9290-8f24-4b9f-822a-0bdce50dafb9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtDeleteValueKey, k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, ZwDeleteValueKey, kernel.zwdeletevaluekey, wdm/NtDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], wdm/ZwDeleteValueKey
+ms.keywords: wdm/NtDeleteValueKey, ZwDeleteValueKey routine [Kernel-Mode Driver Architecture], kernel.zwdeletevaluekey, k111_81ff5c8c-442c-4ddd-9166-5445b964893a.xml, NtDeleteValueKey, wdm/ZwDeleteValueKey, ZwDeleteValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,9 @@ Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</
 ## -returns
 
 
+
 <b>ZwDeleteValueKey</b> returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The <i>ValueName</i> registry key entry was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>KeyHandle</i> passed to <b>ZwDeleteValueKey</b> must have been opened for delete access to succeed. The <i>DesiredAccess</i> values of KEY_SET_VALUE, KEY_WRITE, and KEY_ALL_ACCESS include the KEY_SET_VALUE access mask required for delete access. For a description of possible values for <i>DesiredAccess</i>, see <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
@@ -145,25 +150,43 @@ The <i>KeyHandle</i> passed to <b>ZwDeleteValueKey</b> must have been opened for
 If callback functions are registered for this registry key, then these callback functions will be called.
 
 Device drivers should not attempt to call <b>ZwDeleteValueKey</b> directly to delete value entries in a subkey of the <b>\Registry..\ResourceMap</b> key. Only the system can write or delete value entries in the <b>\Registry..\HardwareDescription</b> tree.
-<div class="alert"><b>Note</b>    If the call to this function occurs in user mode, you should use the name "<b>NtDeleteValueKey</b>" instead of "<b>ZwDeleteValueKey</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>    If the call to this function occurs in user mode, you should use the name "<b>NtDeleteValueKey</b>" instead of "<b>ZwDeleteValueKey</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
 
 <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
 
  
 

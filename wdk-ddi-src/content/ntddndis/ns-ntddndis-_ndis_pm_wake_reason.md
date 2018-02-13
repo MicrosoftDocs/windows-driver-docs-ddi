@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9caed664-6367-4eb0-9c9f-551f8a5938bc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pm_wake_reason, ntddndis/NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_REASON, _NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PM_WAKE_REASON
+ms.keywords: PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wake_reason, NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PM_WAKE_REASON, _NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WAKE_REASON
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON"
+req.typenames: NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON
 ---
 
 # _NDIS_PM_WAKE_REASON structure
@@ -83,6 +83,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NDIS_PM_WAKE_REASON_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -105,14 +106,21 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_R
 ### -field InfoBufferOffset
 
 A <b>ULONG</b> value that specifies the offset, in units of bytes, from the beginning of the <b>NDIS_PM_WAKE_REASON</b> structure to the start of a buffer that contains additional information about the wake-up event.
-<div class="alert"><b>Note</b>  If the  <b>WakeReason</b> member is not set to NdisWakeReasonPacket, the miniport driver must set the <b>InfoBufferOffset</b> member to zero.</div><div> </div><div class="alert"><b>Note</b>  The offset to the buffer must be aligned on a 64-bit boundary.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the  <b>WakeReason</b> member is not set to NdisWakeReasonPacket, the miniport driver must set the <b>InfoBufferOffset</b> member to zero.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  The offset to the buffer must be aligned on a 64-bit boundary.</div>
+<div> </div>
 
 ### -field InfoBufferSize
 
 A <b>ULONG</b> value that specifies the length, in units of bytes, of the buffer that contains additional information about the wake-up event. 
-<div class="alert"><b>Note</b>  If the  <b>WakeReason</b> member is not set to NdisWakeReasonPacket, the miniport driver must set the <b>InfoBufferSize</b> member to zero.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the  <b>WakeReason</b> member is not set to NdisWakeReasonPacket, the miniport driver must set the <b>InfoBufferSize</b> member to zero.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The <b>NDIS_PM_WAKE_REASON</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a> status indication.
@@ -121,13 +129,20 @@ For more information about how to issue an <a href="https://msdn.microsoft.com/l
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_REASON_TYPE</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <b></b>
+
+
 
  
 

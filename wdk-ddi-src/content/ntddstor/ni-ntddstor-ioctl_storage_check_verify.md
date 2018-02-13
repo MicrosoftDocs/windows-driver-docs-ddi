@@ -94,14 +94,18 @@ Otherwise, this request has no input.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +114,7 @@ Otherwise, this request has no input.
 If a disk or CD-ROM driver has no indication that the media has changed, the driver sets the <b>Status</b> field to STATUS_SUCCESS. In addition, if the optional media change buffer was specified, the driver returns the media change count in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> and sets the <b>Information</b> field to <b>sizeof</b>(ULONG). If the optional media change buffer was not specified, the driver sets <b>Information</b> to zero.
 
 If the driver detects that the media has changed and the volume is mounted (VPB_MOUNTED is set in the VPB), it must: 
+
 <ol>
 <li>
 Set <b>Information</b> to zero.
@@ -127,7 +132,9 @@ Set the DO_VERIFY_VOLUME flag in the <b>DeviceObject.</b>
 Call <b>IoCompleteRequest</b> with the input IRP.
 
 </li>
-</ol>If the driver detects that the media has changed, but the volume is not mounted, the driver must not set the DO_VERIFY_VOLUME bit. Instead, it should do the following:
+</ol>
+If the driver detects that the media has changed, but the volume is not mounted, the driver must not set the DO_VERIFY_VOLUME bit. Instead, it should do the following:
+
 <ol>
 <li>
 Set <b>Status</b> to STATUS_IO_DEVICE_ERROR.
@@ -141,7 +148,8 @@ Set <b>Information</b> to zero.
 Call <b>IoCompleteRequest</b> with the IRP.
 
 </li>
-</ol>If the driver detects an error such as STATUS_BUFFER_TOO_SMALL, STATUS_INSUFFICIENT_RESOURCES, or a device error, it sets <b>Information</b> to zero and sets the appropriate error value in the <b>Status</b> field. 
+</ol>
+If the driver detects an error such as STATUS_BUFFER_TOO_SMALL, STATUS_INSUFFICIENT_RESOURCES, or a device error, it sets <b>Information</b> to zero and sets the appropriate error value in the <b>Status</b> field. 
 
 For a tape driver, the <b>Information</b> field is set to zero and the <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_VERIFY_REQUIRED.
 
@@ -149,6 +157,8 @@ For a tape driver, the <b>Information</b> field is set to zero and the <b>Status
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_check_verify2.md">IOCTL_STORAGE_CHECK_VERIFY2</a>
+
+
 
  
 

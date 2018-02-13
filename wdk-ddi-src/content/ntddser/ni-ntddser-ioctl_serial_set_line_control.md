@@ -87,14 +87,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,7 +113,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 <a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+
+
 
  
 

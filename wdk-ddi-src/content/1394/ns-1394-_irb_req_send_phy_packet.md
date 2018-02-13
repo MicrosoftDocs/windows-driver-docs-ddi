@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_SEND_PHY_PACKET, 1394/IRB_REQ_SEND_PHY_PACKET, _IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet, IRB_REQ_SEND_PHY_PACKET structure [Buses]
+ms.keywords: IRB_REQ_SEND_PHY_PACKET structure [Buses], 1394/IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET, _IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ Specifies the 64-bit PHY packet that is sent to the 1394 bus.
 ## -remarks
 
 
+
 If successful, the new 1394 bus driver (1394ohci.sys) sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS. If <b>u.SendPhyPacket.GenerationCount</b> does not match the current bus generation count, the new 1394 bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_INVALID_GENERATION
+
 
 

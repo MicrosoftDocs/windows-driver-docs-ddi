@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Write method [Windows Debugging], IDebugOutputStream interface, IDebugOutputStream, Write, debugger.idebugoutputstream_write, dbgeng/IDebugOutputStream::Write, IDebugOutputStream interface [Windows Debugging], Write method, Write method [Windows Debugging], IDebugOutputStream::Write
+ms.keywords: dbgeng/IDebugOutputStream::Write, IDebugOutputStream interface [Windows Debugging], Write method, IDebugOutputStream, debugger.idebugoutputstream_write, IDebugOutputStream::Write, Write, Write method [Windows Debugging], IDebugOutputStream interface, Write method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ A pointer to a Unicode character string of content to write.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputstream.md">IDebugOutputStream</a>
+
+
 
  
 

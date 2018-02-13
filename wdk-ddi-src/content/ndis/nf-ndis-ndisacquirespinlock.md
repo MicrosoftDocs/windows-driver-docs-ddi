@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c19c9396-bc24-4f4b-a0c9-f8de76a9c46b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_spin_lock_ref_54c55d32-a190-4454-ad0d-670427754b8b.xml, NdisAcquireSpinLock, netvista.ndisacquirespinlock, NdisAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisAcquireSpinLock
+ms.keywords: NdisAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis_spin_lock_ref_54c55d32-a190-4454-ad0d-670427754b8b.xml, ndis/NdisAcquireSpinLock, NdisAcquireSpinLock, netvista.ndisacquirespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisAcquireSpinLock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAcquireSpinLock macro
@@ -76,6 +76,7 @@ Pointer to an opaque spin lock, already initialized by the caller.
 
 
 ## -remarks
+
 
 
 The driver must initialize a variable of type NDIS_SPIN_LOCK with 
@@ -117,27 +118,46 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
    MiniportSynchronizeInterrupt</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
    NdisMSynchronizeWithInterruptEx</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
 
  
 

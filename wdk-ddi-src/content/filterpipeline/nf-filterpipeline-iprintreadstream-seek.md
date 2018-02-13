@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline/IPrintReadStream::Seek, IPrintReadStream, IPrintReadStream::Seek, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, Seek method [Print Devices], IPrintReadStream interface, print.iprintreadstream_seek, IPrintReadStream interface [Print Devices], Seek method, Seek method [Print Devices], Seek
+ms.keywords: filterpipeline/IPrintReadStream::Seek, print.iprintreadstream_seek, IPrintReadStream::Seek, Seek method [Print Devices], IPrintReadStream, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, Seek, Seek method [Print Devices], IPrintReadStream interface, IPrintReadStream interface [Print Devices], Seek method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,15 +87,19 @@ A pointer to the location where <code>Seek</code> writes the value of the new se
 ## -returns
 
 
+
 <code>Seek</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 The <code>Seek</code> method might block, for example, if seeking to the end of the stream.
 
 This method is similar to the <b>IStream::Seek</b> and <b>SetFilePointerEx</b> methods. For more information about these methods, see the Microsoft Windows SDK documentation.
+
 
 

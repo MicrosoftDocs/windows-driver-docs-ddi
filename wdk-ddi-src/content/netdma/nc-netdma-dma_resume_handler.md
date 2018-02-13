@@ -86,7 +86,9 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
 ## -returns
 
 
+
 <i>ProviderResumeDma</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,11 +116,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The 
@@ -138,11 +143,16 @@ NetDMA calls
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
 
  
 

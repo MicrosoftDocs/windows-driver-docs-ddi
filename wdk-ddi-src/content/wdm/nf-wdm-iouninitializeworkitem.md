@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e7713a5-534d-42b4-a719-7b7ce911245a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUninitializeWorkItem, wdm/IoUninitializeWorkItem, IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], kernel.iouninitializeworkitem, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml
+ms.keywords: IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], kernel.iouninitializeworkitem, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, wdm/IoUninitializeWorkItem, IoUninitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Only uninitialize a work item that is not currently queued. The system dequeues a work item before it runs the work item's callback routine, so <b>IoUninitializeWorkItem</b> can be called from within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566381">WorkItemEx</a> routine for the work item.
@@ -89,11 +92,16 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+
+
 
  
 

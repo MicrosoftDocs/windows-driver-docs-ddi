@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DESCRIBEALLOCATIONFLAGS, d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags, _DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices]
+ms.keywords: DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], _DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags, d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,6 +95,8 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
+
+
 
  
 

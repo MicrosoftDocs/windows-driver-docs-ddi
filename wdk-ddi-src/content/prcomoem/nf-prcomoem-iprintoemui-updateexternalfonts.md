@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemui_updateexternalfonts, UpdateExternalFonts method [Print Devices], IPrintOemUI interface, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices], IPrintOemUI interface [Print Devices], UpdateExternalFonts method, UpdateExternalFonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, prcomoem/IPrintOemUI::UpdateExternalFonts, IPrintOemUI
+ms.keywords: UpdateExternalFonts method [Print Devices], IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, UpdateExternalFonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml, IPrintOemUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.UpdateExternalFonts
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ Caller-supplied pointer to an array of strings representing the names of all car
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +129,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in must implement the <code>IPrintOemUI::UpdateExternalFonts</code> method if the plug-in is replacing Unidrv's default font installer. For more information, see <a href="https://msdn.microsoft.com/d753368d-b1c8-454e-a02b-131dc778e723">Customized Font Installers for Unidrv</a>.
@@ -142,9 +147,12 @@ Descriptions of cartridge fonts can be copied from the .uff file specified by th
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], StorPortGetDataInBufferScatterGatherList
+ms.keywords: StorPortGetDataInBufferScatterGatherList, storport/StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,9 @@ A pointer to  an scatter-gather list structure address to receive the scatter-ga
 ## -returns
 
 
+
 A status value indicating the result of the notification. This can be one of these values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,15 +119,21 @@ The pointer value in <i>SgList</i> is NULL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+
+
+
 <a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+
 
  
 

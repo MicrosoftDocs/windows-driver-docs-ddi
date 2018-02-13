@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, storage.scsiportquerysystemtime, srb/ScsiPortQuerySystemTime, ScsiPortQuerySystemTime routine [Storage Devices], ScsiPortQuerySystemTime
+ms.keywords: ScsiPortQuerySystemTime routine [Storage Devices], storage.scsiportquerysystemtime, srb/ScsiPortQuerySystemTime, scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, ScsiPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,13 +77,17 @@ Pointer to the current time, on return.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond intervals that have elapsed since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. 
+
 
 

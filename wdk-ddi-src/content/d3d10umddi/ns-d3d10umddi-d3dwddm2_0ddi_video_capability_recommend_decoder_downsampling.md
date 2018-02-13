@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5BC38128-8866-48C9-B5C5-4D6B6DB793E0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, display.d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling
+ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING, D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING structure [Display Devices], display.d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,8 +97,10 @@ Contains the frame rate of the video content.
 The driver returns the recommended resolution and the format of the output/display frames.  
 
 
+
 <div class="alert"><b>Note</b>  The decode profile (<b>Guid</b>) member of <b>pOutputDesc</b> can be ignored.
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field OutputColorSpace
 
@@ -108,6 +110,8 @@ The driver returns the recommended color space information of the display frame 
 ## -remarks
 
 
+
 The driver recommends the down sample parameters such that the video stream can be decoded in real-time. If no down sample solution exists that can result in real-time decode, the driver should recommend the configuration that is closest to the real-time solution. 
+
 
 

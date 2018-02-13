@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptTryToAcquireLock, wdf.wdfinterrupttrytoacquirelock, PFN_WDFINTERRUPTTRYTOACQUIRELOCK, kmdf.wdfinterrupttrytoacquirelock, WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method
+ms.keywords: wdfinterrupt/WdfInterruptTryToAcquireLock, wdf.wdfinterrupttrytoacquirelock, kmdf.wdfinterrupttrytoacquirelock, WdfInterruptTryToAcquireLock, PFN_WDFINTERRUPTTRYTOACQUIRELOCK, WdfInterruptTryToAcquireLock method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A handle to a framework interrupt object.
 ## -returns
 
 
+
 <b>WdfInterruptTryToAcquireLock</b> returns TRUE if it successfully acquires the interrupt’s lock. Otherwise, the method returns FALSE.
 
 
 
+
 ## -remarks
+
 
 
 Drivers that use <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-passive-level-interrupts">passive-level interrupt handling</a> call <b>WdfInterruptTryToAcquireLock</b> to start a code sequence that executes at IRQL = PASSIVE_LEVEL while holding the passive-level interrupt lock that the driver configured in the interrupt object's <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure.
@@ -99,22 +102,121 @@ When running in  a non-arbitrary thread, such as a work item, the driver should 
 When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>, the framework releases the interrupt lock.
 
 
+#### Examples
+
+The following code example shows how an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function, running in an arbitrary context, might call <b>WdfInterruptTryToAcquireLock</b> before performing interrupt-related work. If  the method returns FALSE, the driver queues a work item to perform the work in a non-arbitrary thread. The driver also supplies an <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function that calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a> before it performs the work.
+
+ In this example, the driver has specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">sequential</a> dispatching for the queue.   If the driver specified <i>any other dispatching method</i> for the queue, the driver should use an additional manual queue to retain requests for processing in the work item.  Code comments describe where to add such support.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+VOID EvtIoRead(
+  __in  WDFQUEUE Queue,
+  __in  WDFREQUEST Request,
+  __in  size_t Length
+    )
+{
+    DEVICE_CONTEXT    devCtx;
+    devCtx = GetDeviceContext(WdfIoQueueGetDevice(Queue));
+    
+    //
+    // Do any pre-acquiring interrupt lock work here.
+    //
+   
+
+    //
+    // Check if we can acquire the lock.
+    //
+    if (WdfInterruptTryToAcquireLock(devCtx-&gt;InterruptObject) {
+        ReadFunctionLocked(Request);
+        WdfInterruptReleaseLock(devCtx-&gt;InterruptObject);
+        //
+        // Do any post-releasing interrupt lock work here.
+        // For example: complete the request, and so on.
+        //
+        ReadFunctionFinish(Request); 
+    }
+    else {
+        WORK_ITEM_CONTEXT ctx;
+
+        ctx = GetWorkItemContext(ReadWorkItem);
+        ctx-&gt;Request = Request;
+
+        // If previous queue is non-sequential, call WdfRequestForwardToIoQueue 
+        // to store request in an additional manual queue.
+
+        WdfWorkItemEnqueue(ReadWorkItem);
+    }
+}
+
+
+VOID
+EvtReadWorkItemCallback(
+    WDFWORKITEM WorkItem
+    )
+{
+    WORK_ITEM_CONTEXT wiCtx;
+    DEVICE_CONTEXT    devCtx;
+
+    wiCtx = GetWorkItemContext(ReadWorkItem);
+    devCtx = GetDeviceContext(WdfWorkItemGetParentObject(WorkItem));
+
+    // If delivery queue is non-sequential, call WdfIoQueueRetrieveNextRequest 
+    // to retrieve request that we stored in EvtIoRead.
+
+    //
+    // Acquire interrupt lock.
+    //
+    WdfInterruptAcquireLock(devCtx-&gt;InterruptObject);
+    ReadFunctionLocked(wiCtx-&gt;Request);
+    WdfInterruptReleaseLock(devCtx-&gt;InterruptObject);
+
+    //
+    // Do any post-releasing interrupt lock work here.
+    // For example: complete the request, and so on.
+    //
+    ReadFunctionFinish(wiCtx-&gt;Request); 
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_workitem.md">EvtInterruptWorkItem</a>
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
 
 <a href="..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md">WdfWaitLockAcquire</a>
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_workitem.md">EvtInterruptWorkItem</a>
+
+
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisSwitchNicStateCreated, NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateConnected, NdisSwitchNicStateDeleted, ntddndis/NdisSwitchNicStateUnknown, netvista.ndis_switch_nic_state, NdisSwitchNicStateUnknown, ntddndis/NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateDisconnected, _NDIS_SWITCH_NIC_STATE, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchNicStateDeleted, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateDisconnected, NDIS_SWITCH_NIC_STATE
+ms.keywords: NdisSwitchNicStateDeleted, NdisSwitchNicStateCreated, netvista.ndis_switch_nic_state, NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateUnknown, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchNicStateConnected, NdisSwitchNicStateUnknown, ntddndis/NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateDisconnected, ntddndis/NdisSwitchNicStateDeleted, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateDisconnected, ntddndis/NdisSwitchNicStateCreated, _NDIS_SWITCH_NIC_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,6 +99,7 @@ This value specifies that the NIC is deleted.
 ## -remarks
 
 
+
 The <b>NicState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
 
 
@@ -106,9 +107,12 @@ For more information about extensible switch port states, see <a href="https://m
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
+
+
 
  
 

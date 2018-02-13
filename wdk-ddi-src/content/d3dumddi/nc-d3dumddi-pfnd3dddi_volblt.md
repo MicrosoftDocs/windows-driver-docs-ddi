@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY VolBlt(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt.md">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
@@ -91,15 +93,21 @@ __checkReturn HRESULT APIENTRY VolBlt(
 ## -returns
 
 
+
 <i>VolBlt</i> returns S_OK or an appropriate error result if the volume bitblt operation is not successfully performed.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt.md">D3DDDIARG_VOLUMEBLT</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

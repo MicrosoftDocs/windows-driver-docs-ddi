@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnAcquireFirstModeInfo(
 ## -returns
 
 
+
 The <b>pfnAcquireFirstModeInfo</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,11 +114,14 @@ The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When you have finished using the D3DKMDT_VIDPN_TARGET_MODE structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>.
@@ -125,13 +130,20 @@ You can enumerate all the modes that belong to a VidPN target mode set object by
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+
+
 
  
 

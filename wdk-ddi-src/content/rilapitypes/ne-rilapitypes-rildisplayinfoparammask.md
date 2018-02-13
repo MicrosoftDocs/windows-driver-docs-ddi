@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d8bd093d-ad95-488e-a057-b96fecf58bbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_ALL, rilapitypes/RIL_PARAM_DISPLAY_TYPE, rilapitypes/RIL_PARAM_DISPLAY_TAG, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfoparammask_2, RIL_PARAM_DISPLAY_MESSAGE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_MESSAGESIZE, rilapitypes/RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK, rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE
+ms.keywords: rilapitypes/RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_TAG, rilapitypes/RIL_PARAM_DISPLAY_TYPE, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_TYPE, rilapitypes/RILDISPLAYINFOPARAMMASK, rilapitypes/RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_MESSAGESIZE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGE, netvista.rildisplayinfoparammask_2, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, RILDISPLAYINFOPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,23 +75,17 @@ typedef enum _RILDISPLAYINFOPARAMMASK {
 ### -field RIL_PARAM_DISPLAY_EXECUTOR
 
 
-
 ### -field RIL_PARAM_DISPLAY_TYPE
-
 
 
 ### -field RIL_PARAM_DISPLAY_TAG
 
 
-
 ### -field RIL_PARAM_DISPLAY_MESSAGESIZE
-
 
 
 ### -field RIL_PARAM_DISPLAY_MESSAGE
 
 
-
 ### -field RIL_PARAM_DISPLAY_ALL
-
 

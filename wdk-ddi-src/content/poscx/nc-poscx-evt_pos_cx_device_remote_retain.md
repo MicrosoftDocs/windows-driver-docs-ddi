@@ -40,7 +40,7 @@ apiname:
 -	EvtPosCxDeviceRemoteRetain
 product: Windows
 targetos: Windows
-req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
+req.typenames: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,10 @@ An identifier used to specify which interface is being retained in a multi-funct
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE.
 
 If the driver is unable to complete the remote retain transaction, it should return STATUS_ACCESS_DENIED so that the failure will bubble up to the application.
+
 
 

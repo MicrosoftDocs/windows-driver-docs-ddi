@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61c8fdbf-b003-4caa-af13-ba6f1e22400c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations, _D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], D3DDDICB_RECLAIMALLOCATIONS
+ms.keywords: D3DDDICB_RECLAIMALLOCATIONS, _D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], d3dumddi/D3DDDICB_RECLAIMALLOCATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,9 @@ typedef struct _D3DDDICB_RECLAIMALLOCATIONS {
 [in] A pointer to an array of handles to the resources that are to be reclaimed.
 
 If <b>pResources</b> is not <b>NULL</b>, the <b>HandleList</b> member must be <b>NULL</b>.
-<div class="alert"><b>Note</b>  If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set in <i>pCreateResource</i>-&gt;<b>BindFlags</b>, the driver must not use the <b>pResources</b> member to reclaim by resource handles. Instead, the driver must reclaim the resources by using allocation handles specified by <b>HandleList</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set in <i>pCreateResource</i>-&gt;<b>BindFlags</b>, the driver must not use the <b>pResources</b> member to reclaim by resource handles. Instead, the driver must reclaim the resources by using allocation handles specified by <b>HandleList</b>.</div>
+<div> </div>
 
 ### -field HandleList
 
@@ -102,11 +104,17 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+
+
 
  
 

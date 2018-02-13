@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8577428f-aefa-46f5-831e-98f6514177a1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], RescanAllDevices method, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, dtf.iwdtfdriversetupsystemaction2_rescanalldevices
+ms.keywords: wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], RescanAllDevices method, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ True if all devices were re-enumerated; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
+
+
 
  
 

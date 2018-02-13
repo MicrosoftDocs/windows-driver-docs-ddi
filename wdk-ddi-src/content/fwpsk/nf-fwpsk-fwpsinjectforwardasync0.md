@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b7cb70c6-c672-4a29-983c-c73767af72ea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsinjectforwardasync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectForwardAsync0, FwpsInjectForwardAsync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml
+ms.keywords: FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], FwpsInjectForwardAsync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml, fwpsk/FwpsInjectForwardAsync0, netvista.fwpsinjectforwardasync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,9 +106,11 @@ One of the following address families:
 
 
 
+
 #### AF_INET
 
 The IPv4 address family.
+
 
 
 #### AF_INET6
@@ -171,8 +173,10 @@ A pointer to a callout driver-provided context that is passed to the callout fun
 ## -returns
 
 
+
 The 
      <b>FwpsInjectForwardAsync0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -227,11 +231,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -261,28 +268,47 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
    FwpsAllocateCloneNetBufferList0</a>
 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
+
+
 
  
 

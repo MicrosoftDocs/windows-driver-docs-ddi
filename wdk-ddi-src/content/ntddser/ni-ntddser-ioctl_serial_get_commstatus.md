@@ -85,14 +85,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,8 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 ## -see-also
 
 <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	WskReceiveEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,7 @@ NTSTATUS APIENTRY WskReceiveEvent(
 A pointer to the socket context for the connection-oriented socket that has received the data. The
      WSK application provided this pointer to the WSK subsystem in one of the following ways:
      
+
 <ul>
 <li>
 It called the 
@@ -112,6 +113,7 @@ Its
 
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -156,7 +158,8 @@ The WSK subsystem called the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param DataIndication [in, optional]
@@ -188,8 +191,10 @@ A pointer to a SIZE_T-typed variable which receives the number of bytes of recei
 ## -returns
 
 
+
 A WSK application's 
      <i>WskReceiveEvent</i> event callback function can return one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -261,11 +266,14 @@ The WSK application did not accept the data. In this situation, the WSK subsyste
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The WSK subsystem calls a WSK application's 
@@ -303,28 +311,49 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
 
  
 

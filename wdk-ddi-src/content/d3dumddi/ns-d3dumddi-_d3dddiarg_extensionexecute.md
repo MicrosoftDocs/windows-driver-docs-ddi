@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, _D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute, UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], D3DDDIARG_EXTENSIONEXECUTE
+ms.keywords: D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute, UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, _D3DDDIARG_EXTENSIONEXECUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,13 +106,21 @@ typedef struct _D3DDDIARG_EXTENSIONEXECUTE {
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+
+
 
  
 

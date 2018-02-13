@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E2527150-2F62-4729-BC6A-FE6027BCCA35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanDeviceServiceSessionOpen, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE, WwanDeviceServiceSessionOpen, netvista.wwan_device_service_session_state, WWAN_DEVICE_SERVICE_SESSION_STATE, WwanDeviceServiceSessionClosed, wwan/WwanDeviceServiceSessionClosed, _WWAN_DEVICE_SERVICE_SESSION_STATE
+ms.keywords: "_WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionOpen, netvista.wwan_device_service_session_state, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, *PWWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionClosed, WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionClosed, WwanDeviceServiceSessionOpen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -82,13 +82,17 @@ The device service session is open or should be opened.
 ## -remarks
 
 
+
 The WWAN_DEVICE_SERVICE_SESSION structure uses the WWAN_DEVICE_SERVICE_SESSION_STATE enumeration to set or report the state of a session.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_service_session.md">WWAN_DEVICE_SERVICE_SESSION</a>
+
+
 
  
 

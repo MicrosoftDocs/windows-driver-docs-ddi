@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], netvista.ndisretreatnetbufferdatastart, ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, NdisRetreatNetBufferDataStart
+ms.keywords: netvista.ndisretreatnetbufferdatastart, ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], NdisRetreatNetBufferDataStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisRetreatNetBufferDataStart
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisRetreatNetBufferDataStart function
@@ -106,7 +106,9 @@ An optional entry point for an
 ## -returns
 
 
+
 <b>NdisRetreatNetBufferDataStart</b> returns one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,11 +149,14 @@ An optional entry point for an
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>NdisRetreatNetBufferDataStart</b> attempts to satisfy the request by reducing the value of the 
@@ -174,14 +179,21 @@ Call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
 
+
+
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2ef0961b-4f7c-46a8-8cfa-aabbfc213565
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getexecutorrfstate, RIL_GetExecutorRFState, rilapi/RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_getexecutorrfstate, RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetExecutorRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetExecutorRFState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d0466569-7c9d-40d2-8794-b1d877a52458
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthioctl/PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], *PBTH_SDP_DISCONNECT, bltooth.bth_sdp_disconnect, bthioctl/BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices], bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, _BTH_SDP_DISCONNECT
+ms.keywords: "_BTH_SDP_DISCONNECT, bthioctl/BTH_SDP_DISCONNECT, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bthioctl/PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], bltooth.bth_sdp_disconnect, BTH_SDP_DISCONNECT structure [Bluetooth Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ typedef struct _BTH_SDP_DISCONNECT {
 
 
 
+
 #### - hConnection
 
 A handle for the SDP connection on the remote server to terminate. This should be a value returned
@@ -87,11 +88,17 @@ A handle for the SDP connection on the remote server to terminate. This should b
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+
+
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+
+
 
  
 

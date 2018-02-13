@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AD3D5847-862F-41AA-90C0-0F8A1D0A617B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure [Display Devices], D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, display.d3dwddm2_2ddi_swizzle_pattern_desc
+ms.keywords: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, display.d3dwddm2_2ddi_swizzle_pattern_desc, d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,6 +123,8 @@ Flags. For more information, see the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwdd
 ## -see-also
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_swizzle_pattern_flags.md">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a>
+
+
 
  
 

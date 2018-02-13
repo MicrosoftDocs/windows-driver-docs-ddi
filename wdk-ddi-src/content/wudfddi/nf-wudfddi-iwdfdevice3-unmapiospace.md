@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3 interface, UnmapIoSpace method, wudfddi/IWDFDevice3::UnmapIoSpace, umdf.iwdfdevice3_unmapiospace, UnmapIoSpace, wdf.iwdfdevice3_unmapiospace, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace method, IWDFDevice3, IWDFDevice3::UnmapIoSpace
+ms.keywords: UnmapIoSpace method, IWDFDevice3 interface, wudfddi/IWDFDevice3::UnmapIoSpace, wdf.iwdfdevice3_unmapiospace, IWDFDevice3 interface, UnmapIoSpace method, IWDFDevice3::UnmapIoSpace, UnmapIoSpace, IWDFDevice3, umdf.iwdfdevice3_unmapiospace, UnmapIoSpace method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,11 +84,14 @@ Specifies the number of bytes that were mapped.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a> in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> callback. It calls <b>UnmapIoSpace</b> in its <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a> callback.
@@ -96,10 +99,19 @@ If a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/h
 For an example, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
 
 
+#### Examples
+
+See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
 
  
 

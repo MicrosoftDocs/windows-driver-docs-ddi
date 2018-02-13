@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e04558e3-a95a-408b-961b-e8ea7ac9136d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICESETPOWERCAPABILITIES, wdf.wdfdevicesetpowercapabilities, DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, wdfdevice/WdfDeviceSetPowerCapabilities
+ms.keywords: wdfdevice/WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, wdf.wdfdevicesetpowercapabilities, PFN_WDFDEVICESETPOWERCAPABILITIES, WdfDeviceSetPowerCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,16 +87,20 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_p
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 A driver typically calls <b>WdfDeviceSetPowerCapabilities</b> from within one of the following callback functions:
+
 <ul>
 <li>
 
@@ -127,7 +131,40 @@ A driver typically calls <b>WdfDeviceSetPowerCapabilities</b> from within one of
 
 
 </li>
-</ul>If more than one driver in the device's driver stack call <b>WdfDeviceSetPowerCapabilities</b>, the power manager uses the values that are supplied by the driver that is highest in the stack.
+</ul>
+If more than one driver in the device's driver stack call <b>WdfDeviceSetPowerCapabilities</b>, the power manager uses the values that are supplied by the driver that is highest in the stack.
+
+
+#### Examples
+
+The following code example initializes a WDF_DEVICE_POWER_CAPABILITIES structure and then calls <b>WdfDeviceSetPowerCapabilities</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_POWER_CAPABILITIES powerCaps;
+
+WDF_DEVICE_POWER_CAPABILITIES_INIT(&amp;powerCaps);
+powerCaps.DeviceD1 = WdfTrue;
+powerCaps.WakeFromD1 = WdfTrue;
+powerCaps.DeviceWake = PowerDeviceD1;
+powerCaps.DeviceState[PowerSystemWorking] = PowerDeviceD1;
+powerCaps.DeviceState[PowerSystemSleeping1] = PowerDeviceD1;
+powerCaps.DeviceState[PowerSystemSleeping2] = PowerDeviceD2;
+powerCaps.DeviceState[PowerSystemSleeping3] = PowerDeviceD2;
+powerCaps.DeviceState[PowerSystemHibernate] = PowerDeviceD3;
+powerCaps.DeviceState[PowerSystemShutdown] = PowerDeviceD3;
+
+WdfDeviceSetPowerCapabilities(
+                              device,
+                              &amp;powerCaps
+                              );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -135,9 +172,15 @@ A driver typically calls <b>WdfDeviceSetPowerCapabilities</b> from within one of
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpnpcapabilities.md">WdfDeviceSetPnpCapabilities</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a>
+
+
 
  
 

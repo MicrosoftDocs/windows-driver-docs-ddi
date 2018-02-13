@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY pfnReclaimAllocationsCb(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS</a> structure that defines the allocations to reclaim.
@@ -92,7 +94,9 @@ __checkReturn HRESULT APIENTRY pfnReclaimAllocationsCb(
 
 
 
+
       Returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,7 +137,9 @@ The video memory manager or display miniport driver could not complete the opera
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -141,9 +147,15 @@ The video memory manager or display miniport driver could not complete the opera
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
-<a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
+
+
 
  
 

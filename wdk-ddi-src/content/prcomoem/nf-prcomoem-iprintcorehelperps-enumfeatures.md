@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c67c15a4-3dbf-4317-b6d5-e52f426e7619
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: EnumFeatures method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::EnumFeatures, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], EnumFeatures method, print.iprintcorehelperps_enumfeatures, prcomoem/IPrintCoreHelperPS::EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures, print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml
+ms.keywords: IPrintCoreHelperPS interface [Print Devices], EnumFeatures method, print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml, print.iprintcorehelperps_enumfeatures, IPrintCoreHelperPS, EnumFeatures method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::EnumFeatures, EnumFeatures method [Print Devices], IPrintCoreHelperPS::EnumFeatures, EnumFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.EnumFeatures
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,13 +82,17 @@ A pointer to a variable that receives the number of feature keywords in the arra
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::EnumFeatures</b> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
+
+
 
  
 

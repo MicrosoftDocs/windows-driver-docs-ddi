@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bc2a00ea-214a-435a-86fa-d694188d0245
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemuni_getimplementedmethod, prcomoem/IPrintOemUni::GetImplementedMethod, IPrintOemUni, IPrintOemUni interface [Print Devices], GetImplementedMethod method, IPrintOemUni::GetImplementedMethod, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml, GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni interface, GetImplementedMethod method [Print Devices]
+ms.keywords: IPrintOemUni, GetImplementedMethod method [Print Devices], IPrintOemUni interface [Print Devices], GetImplementedMethod method, prcomoem/IPrintOemUni::GetImplementedMethod, GetImplementedMethod, print.iprintoemuni_getimplementedmethod, IPrintOemUni::GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.GetImplementedMethod
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ Caller-supplied pointer to a string that represents the name of an <b>IPrintOemU
 ## -returns
 
 
+
 <code>GetImplementedMethod</code> must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The operation failed (that is, the specified method is not implemented).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::GetImplementedMethod</code> method, together with several other methods in this interface. For those methods that are optional, <code>IPrintOemUni::GetImplementedMethod</code> examines the input method name string and returns a value that indicates whether the associated method is implemented within the plug-in. For example, if <code>IPrintOemUni::GetImplementedMethod</code> is called with the string "ImageProcessing", it should return S_OK if the <b>IPrintOemUni::ImageProcessing </b>method is implemented and S_FALSE otherwise.  
@@ -140,5 +145,6 @@ The <code>IPrintOemUni::GetImplementedMethod</code> method must recognize the fo
 "TTDownloadMethod"
 
 "TTYGetInfo"
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete, NdisMCoActivateVcComplete, condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml
+ms.keywords: NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, netvista.ndismcoactivatevccomplete, ndis/NdisMCoActivateVcComplete, NdisMCoActivateVcComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCoActivateVcComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCoActivateVcComplete function
@@ -77,8 +77,8 @@ VOID NdisMCoActivateVcComplete(
 
 
 
-#### 
 
+##### 
 
 
 ### -param NdisVcHandle [in]
@@ -100,11 +100,14 @@ Pointer to a structure of type
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A connection-oriented miniport driver must call 
@@ -134,18 +137,29 @@ A call to
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
    ProtocolCmActivateVcComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
 
  
 

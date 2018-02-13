@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 876cb283-ce0d-44ed-b515-d4ee31089b88
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_VOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS structure [Storage Devices], ntddvol/PVOLUME_PHYSICAL_OFFSETS, *PVOLUME_PHYSICAL_OFFSETS, structs-volumemgr_f5ee82b1-a42a-47aa-a3fd-116eeb3b441b.xml, PVOLUME_PHYSICAL_OFFSETS structure pointer [Storage Devices], storage.volume_physical_offsets, ntddvol/VOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS"
+ms.keywords: ntddvol/VOLUME_PHYSICAL_OFFSETS, storage.volume_physical_offsets, _VOLUME_PHYSICAL_OFFSETS, *PVOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS, structs-volumemgr_f5ee82b1-a42a-47aa-a3fd-116eeb3b441b.xml, VOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS structure [Storage Devices], PVOLUME_PHYSICAL_OFFSETS structure pointer [Storage Devices], ntddvol/PVOLUME_PHYSICAL_OFFSETS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VOLUME_PHYSICAL_OFFSETS
 product: Windows
 targetos: Windows
-req.typenames: VOLUME_PHYSICAL_OFFSETS, *PVOLUME_PHYSICAL_OFFSETS
+req.typenames: "*PVOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS"
 ---
 
 # _VOLUME_PHYSICAL_OFFSETS structure
@@ -80,11 +80,17 @@ Contains an array of structures of type <a href="..\ntddvol\ns-ntddvol-_volume_p
 
 ## -see-also
 
+<a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
+
+
+
 <a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>
+
+
 
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_logical_to_physical.md">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
+
 
  
 

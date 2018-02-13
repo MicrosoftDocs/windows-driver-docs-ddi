@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains the VIDEO_POINTER_POSITION structure to be s
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

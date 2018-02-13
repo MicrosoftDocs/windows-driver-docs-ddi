@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: CF54D922-8EEE-41CE-8CFC-0628756117BE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxGetDeviceInterfaceTag function, pos.poscxgetdeviceinterfacetag, poscx/PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag
+ms.keywords: poscx/PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function, pos.poscxgetdeviceinterfacetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ ULONG PosCxGetDeviceInterfaceTag(
 ## -returns
 
 
+
       The device interface tag value.
+
 
 
 
 ## -see-also
 
 <a href="..\poscx\nf-poscx-poscxopen.md">PosCxOpen</a>
+
+
 
  
 

@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY UpdateWInfo(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_winfo.md">D3DDDIARG_WINFO</a> structure that describes the w range for w buffering.
@@ -91,15 +93,21 @@ __checkReturn HRESULT APIENTRY UpdateWInfo(
 ## -returns
 
 
+
 <i>UpdateWInfo</i> returns S_OK or an appropriate error result if the w range is not successfully updated.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_winfo.md">D3DDDIARG_WINFO</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

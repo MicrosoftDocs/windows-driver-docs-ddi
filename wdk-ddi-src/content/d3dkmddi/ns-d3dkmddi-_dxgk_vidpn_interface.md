@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_VIDPN_INTERFACE, d3dkmddi/DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE, DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, display.dxgk_vidpn_interface, DXGK_VIDPN_INTERFACE structure [Display Devices]"
+ms.keywords: DXGK_VIDPN_INTERFACE, d3dkmddi/DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE structure [Display Devices], DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, _DXGK_VIDPN_INTERFACE, display.dxgk_vidpn_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,8 +135,10 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_assigntargetmode
 ## -remarks
 
 
+
 The display miniport driver calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_queryvidpninterface.md">DxgkCbQueryVidPnInterface</a> to obtain a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 
 For more information about the VidPN interface, see <a href="https://msdn.microsoft.com/5dedac8c-9a99-4b3a-81be-39819135cd97">VidPN Objects and Interfaces</a>.
+
 
 

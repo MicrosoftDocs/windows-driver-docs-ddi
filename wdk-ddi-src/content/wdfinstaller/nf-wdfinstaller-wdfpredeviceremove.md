@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8cde623d-a255-45ff-ab1e-bdd0c14a02a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinstaller/WdfPreDeviceRemove, WdfPreDeviceRemove, kmdf.wdfpredeviceremove, DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, WdfPreDeviceRemove function, wdf.wdfpredeviceremove, PFN_WDFPREDEVICEREMOVE
+ms.keywords: wdf.wdfpredeviceremove, kmdf.wdfpredeviceremove, WdfPreDeviceRemove function, wdfinstaller/WdfPreDeviceRemove, DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, WdfPreDeviceRemove, PFN_WDFPREDEVICEREMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPreDeviceRemove
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 ## -returns
 
 
+
 <b>WdfPreDeviceRemove</b> returns <b>ERROR_SUCCESS</b> if the operation succeeds. Otherwise, the function returns one of the additional <b>ERROR_XXX</b> values that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceRemove</b> before the installer calls <a href="https://msdn.microsoft.com/5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0">DeleteService</a>.
@@ -99,10 +102,19 @@ To obtain the address of the co-installer's <b>WdfPreDeviceRemove</b> function, 
 For more information about the <b>WdfPreDeviceRemove</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <a href="https://msdn.microsoft.com/5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0">DeleteService</a>, <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, and <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>, see the Microsoft Windows SDK documentation.
 
 
+#### Examples
+
+For a code example that uses the <b>WdfPreDeviceRemove</b> function, see the installer for the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceremove.md">WdfPostDeviceRemove</a>
+
+
 
  
 

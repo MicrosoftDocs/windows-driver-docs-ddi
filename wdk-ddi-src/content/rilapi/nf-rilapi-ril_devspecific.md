@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2472582a-bade-4dfd-af67-c7c0626160bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_devspecific, rilapi/RIL_DevSpecific, RIL_DevSpecific method [Network Drivers Starting with Windows Vista], RIL_DevSpecific
+ms.keywords: RIL_DevSpecific method [Network Drivers Starting with Windows Vista], rilapi/RIL_DevSpecific, netvista.ril_devspecific, RIL_DevSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_DevSpecific(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpbParams
 
 
-
 ### -param dwSize
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

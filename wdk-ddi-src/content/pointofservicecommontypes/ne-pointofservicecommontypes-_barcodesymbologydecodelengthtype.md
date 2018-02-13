@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 155D1C71-7935-4512-8AA2-0EB167FCBF5E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, DecodeLengthType_Discrete, _BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_Range, pointofservicecommontypes/DecodeLengthType_Discrete, BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_Range, DecodeLengthType_AnyLength, pos.barcodesymbologydecodelengthtype
+ms.keywords: DecodeLengthType_AnyLength, _BarcodeSymbologyDecodeLengthType, DecodeLengthType_Range, DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_AnyLength, BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pos.barcodesymbologydecodelengthtype, BarcodeSymbologyDecodeLengthType enumeration, pointofservicecommontypes/DecodeLengthType_Range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax

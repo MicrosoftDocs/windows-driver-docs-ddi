@@ -7,8 +7,8 @@ old-location: ifsk\fltreadfileex.htm
 old-project: ifsk
 ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fltkernel/FltReadFileEx, ifsk.fltreadfileex, FltReadFileEx, FltReadFileEx function [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.fltreadfileex, FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,6 +111,7 @@ A pointer to a caller-allocated buffer that receives the data that is read from 
 ### -param Flags [in]
 
 A bitmask of flags that specify the type of read operation to be performed. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -159,7 +160,8 @@ This flag is available for Windows Vista and later versions of the Windows opera
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param BytesRead [out, optional]
@@ -190,11 +192,14 @@ An optional MDL that describes the memory where the data is read. If a buffer is
 ## -returns
 
 
+
 <b>FltReadFileEx</b> returns the NTSTATUS value that was returned by the file system. 
 
 
 
+
 ## -remarks
+
 
 
 A minifilter driver calls <b>FltReadFileEx</b> to read data from an open file. 
@@ -202,6 +207,7 @@ A minifilter driver calls <b>FltReadFileEx</b> to read data from an open file.
 <b>FltReadFileEx</b> creates a read request and sends it to the minifilter driver instances attached below the initiating instance, and to the file system. The specified instance and the instances attached above it do not receive the read request. 
 
 <b>FltReadFileEx</b> performs noncached I/O if either of the following is true: 
+
 <ul>
 <li>
 The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parameter. 
@@ -211,7 +217,9 @@ The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parame
 The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
 
 </li>
-</ul>Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltReadFileEx</b>: 
+</ul>
+Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltReadFileEx</b>: 
+
 <ul>
 <li>
 The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
@@ -225,7 +233,8 @@ The byte offset that the <i>ByteOffset</i> parameter points to must be a nonnega
 The length specified in the <i>Length</i> parameter must be a nonnegative multiple of the volume's sector size. 
 
 </li>
-</ul>If an attempt is made to read beyond the end of the file, <b>FltReadFileEx</b> returns an error. 
+</ul>
+If an attempt is made to read beyond the end of the file, <b>FltReadFileEx</b> returns an error. 
 
 If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the read operation is performed asynchronously. 
 
@@ -237,29 +246,48 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
-
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltReadFileEx function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltReadFileEx function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

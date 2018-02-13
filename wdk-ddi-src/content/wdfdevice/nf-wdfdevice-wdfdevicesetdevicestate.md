@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bee3c0e9-9196-4e9b-9b75-08883f452304
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicesetdevicestate, WdfDeviceSetDeviceState, wdfdevice/WdfDeviceSetDeviceState, WdfDeviceSetDeviceState method, wdf.wdfdevicesetdevicestate, PFN_WDFDEVICESETDEVICESTATE, DFDeviceObjectGeneralRef_41bd0604-a8fb-4df9-a1d2-f602d7ddcac4.xml
+ms.keywords: WdfDeviceSetDeviceState, PFN_WDFDEVICESETDEVICESTATE, wdf.wdfdevicesetdevicestate, WdfDeviceSetDeviceState method, kmdf.wdfdevicesetdevicestate, wdfdevice/WdfDeviceSetDeviceState, DFDeviceObjectGeneralRef_41bd0604-a8fb-4df9-a1d2-f602d7ddcac4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,22 +87,50 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_s
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 When a driver calls <b>WdfDeviceSetDeviceState</b>, the framework notifies the Plug and Play (PnP) manager that the device state has changed.
+
+
+#### Examples
+
+The following code example informs the PnP manager that a specified device is disabled.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_STATE    deviceState;
+
+WDF_DEVICE_STATE_INIT (&amp;deviceState);
+deviceState.Disabled = WdfTrue;
+WdfDeviceSetDeviceState (
+                         Device,
+                         &amp;deviceState
+                         );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_state_init.md">WDF_DEVICE_STATE_INIT</a>
+
+
 
  
 

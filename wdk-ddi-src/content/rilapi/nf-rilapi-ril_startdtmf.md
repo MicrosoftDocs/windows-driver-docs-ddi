@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f37c9431-8b60-4caa-863c-81de45ffd457
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_StartDTMF, RIL_StartDTMF method [Network Drivers Starting with Windows Vista], RIL_StartDTMF, netvista.ril_startdtmf
+ms.keywords: netvista.ril_startdtmf, RIL_StartDTMF, rilapi/RIL_StartDTMF, RIL_StartDTMF method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_StartDTMF(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param ch
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

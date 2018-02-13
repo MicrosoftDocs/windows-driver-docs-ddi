@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SOCKET_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPCMCIA_CONTROLLER_CLASS, PCMCIA_CONTROLLER_CLASS"
+req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---
 
 # IOCTL_SOCKET_INFORMATION IOCTL
@@ -87,14 +87,18 @@ The size of the requested socket data.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -116,6 +120,8 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>
+
+
 
  
 

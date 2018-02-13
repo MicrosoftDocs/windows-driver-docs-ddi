@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 864891dd-7db5-4343-9014-c6a284f1fd7e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWSK_PROVIDER_DISPATCH, wsk/PWSK_PROVIDER_DISPATCH, wsk/WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml, netvista.wsk_provider_dispatch, *PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH
+ms.keywords: wsk/WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH, netvista.wsk_provider_dispatch, PWSK_PROVIDER_DISPATCH, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_DISPATCH, _WSK_PROVIDER_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -138,6 +138,7 @@ This member is available beginning with Windows 7.
 ## -remarks
 
 
+
 When a WSK application calls the 
     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a> function, the
     WSK subsystem returns a pointer to a WSK_PROVIDER_DISPATCH structure by means of the 
@@ -147,6 +148,7 @@ When a WSK application calls the
 
 The major and minor version numbers that are contained within the 
     <b>Version</b> member are encoded by using the MAKE_WSK_VERSION macro:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -156,8 +158,10 @@ The major and minor version numbers that are contained within the
 <pre>Version = MAKE_WSK_VERSION(Major,Minor);</pre>
 </td>
 </tr>
-</table></span></div>The major and minor version numbers can be extracted from the 
+</table></span></div>
+The major and minor version numbers can be extracted from the 
     <b>Version</b> member by using the WSK_MAJOR_VERSION and WSK_MINOR_VERSION macros:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -168,7 +172,8 @@ The major and minor version numbers that are contained within the
 Minor = WSK_MINOR_VERSION(Version);</pre>
 </td>
 </tr>
-</table></span></div>The minor version number that is contained within the 
+</table></span></div>
+The minor version number that is contained within the 
     <b>Version</b> member of this structure might be a higher minor version number than what was requested by
     the WSK application in the 
     <b>Version</b> member of the 
@@ -185,19 +190,32 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+
 
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
 
  
 

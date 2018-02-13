@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiRxInorderDataIndication
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_RX_INORDER_DATA_IND callback
@@ -111,11 +111,14 @@ Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remar
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The RxEngine uses WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC if this indication is the first data indication <b>NdisWdiRxInorderDataIndication</b>) of a DPC.  Subsequent data indications use WDI_RX_INDICATION_DISPATCH_GENERAL.  If indications are made at passive level, then the RxEngine must use WDI_RX_INDICATION_PASSIVE.  Indications made in the context of <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_resume.md">MiniportWdiRxResume</a> must use WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES.  This parameter gives the RxMgr information necessary for limiting the lifetime of DPCs.
@@ -138,25 +141,44 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 
+
 ## -see-also
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">NDIS_RECEIVE_THROTTLE_PARAMETERS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_get_mpdus.md">MiniportWdiRxGetMpdus</a>
+
+
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_resume.md">MiniportWdiRxResume</a>
+
+
 
 <a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_indication_level.md">WDI_RX_INDICATION_LEVEL</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+
 
 <a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_resume.md">MiniportWdiRxResume</a>
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_get_mpdus.md">MiniportWdiRxGetMpdus</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">NDIS_RECEIVE_THROTTLE_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297640">WDI_EXTENDED_TID</a>
+
+
 
  
 

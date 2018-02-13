@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 97c67410-851c-4352-8ace-5738ab4332d2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceRetrieveDeviceInterfaceString method, PFN_WDFDEVICERETRIEVEDEVICEINTERFACESTRING, wdf.wdfdeviceretrievedeviceinterfacestring, WdfDeviceRetrieveDeviceInterfaceString, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString, kmdf.wdfdeviceretrievedeviceinterfacestring, DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml
+ms.keywords: PFN_WDFDEVICERETRIEVEDEVICEINTERFACESTRING, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString, DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring, wdf.wdfdeviceretrievedeviceinterfacestring, WdfDeviceRetrieveDeviceInterfaceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,9 @@ A handle to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers
 ## -returns
 
 
+
 <b>WdfDeviceRetrieveDeviceInterfaceString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,7 +163,8 @@ The driver called <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterf
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>WdfDeviceRetrieveDeviceInterfaceString</b> might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -169,22 +172,66 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
 
 
+#### Examples
+
+The following code example creates a string object and then retrieves a specified device interface's symbolic link name. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+WDFSTRING string;
+
+status = WdfStringCreate(
+                         NULL,
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         &amp;string
+                         );
+if (NT_SUCCESS(status)) {
+    status = WdfDeviceRetrieveDeviceInterfaceString(
+                         Device,
+                         &amp;GUID_DEVINTERFACE_DDI_TEST1,
+                         NULL,
+                         string
+                         );
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
+
+
+
 <a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>
 
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

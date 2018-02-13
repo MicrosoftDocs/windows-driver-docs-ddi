@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetBrightnessCaps
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGK_BRIGHTNESS_GET_CAPS callback
@@ -84,11 +84,14 @@ A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRI
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 This function lets the display miniport driver independently indicate its support for adaptive brightness control and/or smooth brightness control.
@@ -103,11 +106,16 @@ This function should be made pageable.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a>
+
 
  
 

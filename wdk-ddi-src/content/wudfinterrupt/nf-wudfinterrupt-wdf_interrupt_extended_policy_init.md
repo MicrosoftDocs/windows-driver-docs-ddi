@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6CD02F5B-0E34-46F5-8AEA-3B30293E1875
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_EXTENDED_POLICY_INIT function, wdf.wdf_interrupt_extended_policy_init_umdf, WDF_INTERRUPT_EXTENDED_POLICY_INIT, umdf.wdf_interrupt_extended_policy_init, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT
+ms.keywords: umdf.wdf_interrupt_extended_policy_init, WDF_INTERRUPT_EXTENDED_POLICY_INIT function, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT, WDF_INTERRUPT_EXTENDED_POLICY_INIT, wdf.wdf_interrupt_extended_policy_init_umdf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,6 +77,7 @@ TBD
 
 
 
+
 #### - PolicyAndGroup [out]
 
 A pointer to a driver-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
@@ -85,20 +86,32 @@ A pointer to a driver-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a> function zeros the specified <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure and sets the structure's <b>Size</b> member. It also sets the structure's <b>Policy</b> member to <b>WdfIrqPolicyMachineDefault</b> and sets the structure's <b>Priority</b> member to <b>WdfIrqPriorityUndefined</b>.
+
+
+#### Examples
+
+For a code example that uses <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>, see <a href="https://msdn.microsoft.com/6637E939-010E-4462-92CE-50C4DB867694">IWDFInterrupt::SetExtendedPolicy</a>. 
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
+
+
 
  
 

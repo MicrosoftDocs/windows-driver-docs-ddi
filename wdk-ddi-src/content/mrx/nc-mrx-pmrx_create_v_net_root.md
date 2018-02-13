@@ -7,7 +7,7 @@ old-location: ifsk\mrxcreatevnetroot.htm
 old-project: ifsk
 ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/7/2018
 ms.keywords: ifsk.mrxcreatevnetroot, MRxCreateVNetRoot routine [Installable File System Drivers], MRxCreateVNetRoot, PMRX_CREATE_V_NET_ROOT, PMRX_CREATE_V_NET_ROOT, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,6 +77,8 @@ NTSTATUS MRxCreateVNetRoot(
 
 
 
+
+
 #### - pCreateNetRootContext [in, out]
 
 A pointer to the callback context used by the network mini-redirector to notify RDBSS when the call is finally completed. This includes the RX_CONTEXT structure of the request at <b>pCreateNetRootContext-&gt;RxContext</b>. The <i>pCreateNetRootContext</i> parameter includes the V_NET_ROOT structure to be constructed at <b>pCreateNetRootContext-&gt;pVNetRoot</b>. This V_NET_ROOT structure contains a pointer to the NET_ROOT structure at <b>pVNetRoot-&gt;pNetRoot</b>. The NET_ROOT structure also contains a pointer to the SRV_CALL structure at <b>pNetRoot-&gt;pSrvCall</b>.
@@ -85,11 +87,13 @@ A pointer to the callback context used by the network mini-redirector to notify 
 ## -returns
 
 
+
 RDBSS expects that <i>MRxCreateVNetRoot</i> returns STATUS_PENDING on success or failure. This behavior results because RDBSS expects this call to be completed asynchronously. A network mini-redirector should map STATUS_SUCCESS to STATUS_PENDING as a return value for <i>MRxCreateVNetRoot</i>.
 
 The final completion status is returned in <b>pCreateNetRootContext-&gt;VirtualNetRootStatus</b> and <b>pCreateNetRootContext-&gt;NetRootStatus</b> members once the call completes and the routine in the <b>Callback</b> member of <b>pCreateNetRootContext</b> structure is called by the network mini-redirector. These members initially contain STATUS_SUCCESS until the network mini-redirector changes this value on completion. If the call completed successfully, both of the members contain STATUS_SUCCESS. 
 
 On failure to create a NET_ROOT structure, one of the following common error codes for the <b>NetRootStatus</b> member is returned (although other error codes are possible):
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,13 +143,16 @@ An unexpected network error occurred usually caused by an invalid handle.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 On failure to create a V_NET_ROOT structure, one of the following common error codes for the <i>VirtualNetRootStatus</i> is returned (although other error codes are possible):
 
 
 
+
 ## -remarks
+
 
 
 The two important abstractions used in the interface between RDBSS and a network mini-redirector are the SRV_CALL structure and the NET_ROOT/V_NET_ROOT structure. An SRV_CALL structure corresponds to the context associated with a server with which a connection has been established. A NET_ROOT structure corresponds to a share on a server. A V_NET_ROOT structure could be viewed as a portion of the namespace below a NET_ROOT structure claimed by a network mini-redirector.
@@ -153,6 +160,7 @@ The two important abstractions used in the interface between RDBSS and a network
 The creation of a NET_ROOT/V_NET_ROOT structure typically involves at least one network round trip. This operation can take considerable time to complete because a network connection with a remote resource may need to be established. To ensure that the asynchronous operations continue, the creation of a NET_ROOT/V_NET_ROOT structure is modeled as a two-phase activity. Each call to a network mini-redirector for creating a NET_ROOT/V_NET_ROOT structure is followed by a call back from the network mini-redirector to RDBSS that indicates to RDBSS the  completion status of the request to the network mini-redirector. Because RDBSS expects <i>MRxCreateVNetRoot</i> is completed asynchronously, RDBSS expects <i>MRxCreateVNetRoot</i> to return STATUS_PENDING. RDBSS will be notified using the callback routine when the call finally completes. 
 
 <i>MRxCreateVNetRoot</i> must deal with two cases of interest:
+
 <ol>
 <li>
 A new V_NET_ROOT structure and the associated new NET_ROOT structure are being created.
@@ -162,7 +170,8 @@ A new V_NET_ROOT structure and the associated new NET_ROOT structure are being c
 A new V_NET_ROOT structure that is associated with an existing NET_ROOT structure is being created.
 
 </li>
-</ol>These two cases can be distinguished by checking if the context associated with a NET_ROOT structure is <b>NULL</b>. 
+</ol>
+These two cases can be distinguished by checking if the context associated with a NET_ROOT structure is <b>NULL</b>. 
 
 A network mini-redirector implementation of <i>MRxCreateVNetRoot</i> is expected to  return STATUS_PENDING to initial call. When processing is completed, the network mini-redirector would call the callback routine passed in as part of the <i>pCreateNetRootContext</i> parameter to notify RDBSS that the call was completed and return the completion status. The callback routine that the network mini-redirector should call up to is specified as the <b>Callback</b> member in the MRX_CREATENETROOT_CONTEXT structure passed as the <i>pCreateNetRootContext</i> parameter. The final completion status of the <i>MRxCreateVNetRoot</i> call must be stored in the <b>VirtualNetRootStatus</b> and <b>NetRootStatus</b> members of the <i>pCreateNetRootContext</i> parameter. Note that separate status is returned for the NET_ROOT and V_NET_ROOT structures.
 
@@ -180,31 +189,52 @@ When <i>MRxCreateVNetRoot</i> completes, the <i>pCreateNetRootContext</i> parame
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
-
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
+
 
 <a href="..\rxstruc\nf-rxstruc-rxgetrdbssprocess.md">RxGetRDBSSProcess</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
+
+
+
+<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MRxCreateVNetRoot routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MRxCreateVNetRoot routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

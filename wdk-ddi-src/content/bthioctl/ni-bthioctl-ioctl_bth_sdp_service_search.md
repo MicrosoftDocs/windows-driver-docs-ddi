@@ -100,14 +100,18 @@ Callers can determine
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -120,6 +124,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -195,12 +200,15 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
+
+
 
  
 

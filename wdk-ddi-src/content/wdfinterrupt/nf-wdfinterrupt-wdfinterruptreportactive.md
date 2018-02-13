@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9A7B4181-0592-4C40-BC5A-99AFFA57846C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFINTERRUPTREPORTACTIVE, wdfinterrupt/WdfInterruptReportActive, WdfInterruptReportActive, kmdf._wdfinterruptreportactive, kmdf.wdfinterruptreportactive, WdfInterruptReportActive method, wdf.wdfinterruptreportactive
+ms.keywords: WdfInterruptReportActive, WdfInterruptReportActive method, PFN_WDFINTERRUPTREPORTACTIVE, wdfinterrupt/WdfInterruptReportActive, kmdf.wdfinterruptreportactive, kmdf._wdfinterruptreportactive, wdf.wdfinterruptreportactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A handle to a framework interrupt object.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Only drivers that implement functional state power management call <b>WdfInterruptReportActive</b>.
@@ -101,10 +104,66 @@ If your driver calls this method on an operating system earlier than Windows 8,
 For more information, see <a href="https://msdn.microsoft.com/F96214C9-702D-402E-B873-5DF57C521B34">Supporting Functional Power States</a>.
 
 
+#### Examples
+
+The following example shows how a driver might call <b>WdfInterruptReportActive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyComponentIdleStateCallback(
+    _In_ PVOID Context,
+    _In_ ULONG Component,
+    _In_ ULONG State
+    )
+{
+    PFDO_DEVICE_DATA deviceData;
+    PINTERRUPT_CONTEXT interruptContext;
+
+    deviceData = FdoGetData((WDFDEVICE)Context);
+    interruptContext = InterruptGetData(deviceData-&gt;Interrupt);
+
+    switch (State) {
+        case 0:
+            if (interruptContext-&gt;ReportedInactive) {
+
+                //
+                // the interrupt was reported inactive earlier. We need to report active now.
+                //
+                WdfInterruptReportActive(deviceData-&gt;Interrupt);
+                interruptContext-&gt;ReportedInactive = FALSE;
+
+                //
+                // Enable interrupt generation at hardware.
+                // 
+                WdfInterruptAcquireLock(deviceData-&gt;Interrupt);
+                EnableInterruptInHardware();
+                WdfInterruptReleaseLock(deviceData-&gt;Interrupt);
+
+            }
+
+        break;
+
+
+    …
+
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportinactive.md">WdfInterruptReportInactive</a>
+
+
 
  
 

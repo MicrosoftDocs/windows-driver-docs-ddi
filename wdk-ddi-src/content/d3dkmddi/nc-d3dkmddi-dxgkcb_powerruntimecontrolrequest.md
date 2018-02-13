@@ -84,7 +84,6 @@ A handle to the display adapter. The display miniport driver receives the handle
 ### -param LPCGUID
 
 
-
 ### -param OPTIONAL
 
 
@@ -92,8 +91,9 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 
 
-### -param SIZE_T
 
+
+### -param SIZE_T
 
 
 #### - PowerControlCode [in]
@@ -129,14 +129,19 @@ An optional pointer to a buffer that contains the number of bytes that are writt
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div><div> </div>Although the driver can use any GUID in the <i>PowerControlCode</i> parameter, the following GUIDs that are defined in D3dkmddi.h are recommended. By using these GUIDs, the display port driver can issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
+
+<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div>
+<div> </div>
+Although the driver can use any GUID in the <i>PowerControlCode</i> parameter, the following GUIDs that are defined in D3dkmddi.h are recommended. By using these GUIDs, the display port driver can issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
 
 <dl>
 <dt><a id="GUID_DXGKDDI_POWER_VOLTAGE_UP"></a><a id="guid_dxgkddi_power_voltage_up"></a>GUID_DXGKDDI_POWER_VOLTAGE_UP</dt>
@@ -191,13 +196,20 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 
 
-## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
+## -see-also
 
 <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3a5d4572-0455-4fd0-aeff-fc99d72433b6
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, *PACPI_EVAL_INPUT_BUFFER_V1_EX, _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX, acpi.acpi_eval_input_buffer_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX
+ms.keywords: acpi.acpi_eval_input_buffer_ex, *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_EX"
+req.typenames: "*PACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX"
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_V1_EX structure
@@ -81,7 +81,9 @@ A NULL-terminated ASCII string that contains the path and name of a control meth
 ## -remarks
 
 
+
 A driver for a device can use an IOCTL_ACPI_EVAL_METHOD_EX request or an IOCTL_ACPI_ASYNC_EVAL_METHOD_EX request to evaluate a control method that is a descendant child object of the device. If the method does not take input arguments, these requests take an input ACPI_EVAL_INPUT_BUFFER_EX structure as follows:
+
 <ul>
 <li>
 Set <b>Signature</b> to ACPI_EVAL_INPUT_BUFFER_SIGNATURE_EX.
@@ -95,7 +97,9 @@ For example, assume that a request is sent to a device named 'ABCD' which is an 
 For more information about how to obtain the fully qualified path and name of a control method in an ACPI namespace, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
 </li>
-</ul>For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+</ul>
+For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+
 
 
 
@@ -103,7 +107,11 @@ For more information about how to obtain the fully qualified path and name of a 
 
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
 
+
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
+
+
 
  
 

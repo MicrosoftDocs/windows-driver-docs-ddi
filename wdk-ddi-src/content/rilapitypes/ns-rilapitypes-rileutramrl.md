@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEUTRAMRL, *LPRILEUTRAMRL, rilapitypes/RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl
+ms.keywords: RILEUTRAMRL, rilapitypes/RILEUTRAMRL, netvista.rileutramrl, *LPRILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILEUTRAMRL
 product: Windows
 targetos: Windows
-req.typenames: RILEUTRAMRL, *LPRILEUTRAMRL
+req.typenames: "*LPRILEUTRAMRL, RILEUTRAMRL"
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,8 @@ Average reference signal received quality (–200 ... –30) in units of 0.1dBm.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

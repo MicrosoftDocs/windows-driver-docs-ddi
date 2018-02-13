@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 23a9ab2a-be8e-40ff-8654-adf170adc6f2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFPDOADDEJECTIONRELATIONSPHYSICALDEVICE, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice, DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, WdfPdoAddEjectionRelationsPhysicalDevice, kmdf.wdfpdoaddejectionrelationsphysicaldevice, WdfPdoAddEjectionRelationsPhysicalDevice method, wdf.wdfpdoaddejectionrelationsphysicaldevice
+ms.keywords: wdf.wdfpdoaddejectionrelationsphysicaldevice, WdfPdoAddEjectionRelationsPhysicalDevice method, kmdf.wdfpdoaddejectionrelationsphysicaldevice, WdfPdoAddEjectionRelationsPhysicalDevice, PFN_WDFPDOADDEJECTIONRELATIONSPHYSICALDEVICE, DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,7 +115,8 @@ A memory allocation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other<a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505"> NTSTATUS values</a>.
 
@@ -121,7 +124,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <i>PhysicalDevice</i> parameter points to a PDO of a device that is ejected when the device that is identified by <i>Device</i> is ejected. Typically, both devices are controlled by the calling driver. Do not report the child devices of <i>Device</i> because when the PnP manager ejects a parent device, it also ejects the device's children.
@@ -129,12 +134,38 @@ The <i>PhysicalDevice</i> parameter points to a PDO of a device that is ejected 
 For more information, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
 
 
+#### Examples
+
+The following code example adds a device that the <b>pPhysicalDeviceObject</b> structure represents to the list of devices that are ejected when the device that <b>device</b> specifies is ejected.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDEVICE_OBJECT  pPhysicalDeviceObject;
+NTSTATUS  status;
+...
+status = WdfPdoAddEjectionRelationsPhysicalDevice(
+ device,
+ pPhysicalDeviceObject
+                                                  );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoclearejectionrelationsdevices.md">WdfPdoClearEjectionRelationsDevices</a>
+
+
 
  
 

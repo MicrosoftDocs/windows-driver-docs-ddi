@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_VIDMM_ESCAPE, d3dkmthk/D3DKMT_VIDMM_ESCAPE, OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, D3DKMT_VIDMM_ESCAPE structure [Display Devices], display.d3dkmt_vidmm_escape, _D3DKMT_VIDMM_ESCAPE
+ms.keywords: OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, _D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], d3dkmthk/D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,9 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 
+### -field Type
+
+
 ### -field SetFault
 
 
@@ -116,9 +119,7 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 #### HotAddMemory
 
 
-
 ### -field SetFault.ProbeAndLock
-
 
 
 ### -field SetFault.SplitPoint
@@ -134,61 +135,46 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 ### -field SetFault.SwizzlingAperture
 
 
-
 ### -field SetFault.PagingPathLockSubRange
-
 
 
 ### -field SetFault.PagingPathLockMinRange
 
 
-
 ### -field SetFault.ComplexLock
-
 
 
 ### -field SetFault.FailVARotation
 
 
-
 ### -field SetFault.NoWriteCombined
-
 
 
 ### -field SetFault.NoPrePatching
 
 
-
 ### -field SetFault.AlwaysRepatch
-
 
 
 ### -field SetFault.ExpectPreparationFailure
 
 
-
 ### -field SetFault.FailUserModeVAMapping
-
 
 
 ### -field SetFault.NeverDiscardOfferedAllocation
 
 
-
 ### -field SetFault.AlwaysDiscardOfferedAllocation
-
 
 
 ### -field SetFault.Reserved
 
 
-
 ### -field SetFault.Value
 
 
-
 ### -field Evict
-
 
 
 ### -field Evict.ResourceHandle
@@ -207,7 +193,6 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 ### -field EvictByNtHandle
-
 
 
 ### -field EvictByNtHandle.NtHandle
@@ -335,6 +320,11 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
+### -field EvictByCriteria
+
+ 
+
+
 ### -field Wake
 
  
@@ -380,20 +370,17 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
-### -field EvictByCriteria
-
- 
-
-
-### -field Type
-
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
+
+
 
  
 

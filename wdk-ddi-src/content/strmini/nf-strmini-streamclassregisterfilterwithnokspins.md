@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strmini/StreamClassRegisterFilterWithNoKSPins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, StreamClassRegisterFilterWithNoKSPins
+ms.keywords: strmini/StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], stream.streamclassregisterfilterwithnokspins, StreamClassRegisterFilterWithNoKSPins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,13 +107,17 @@ If non-NULL, specifies an array of pin category GUIDs, one for each pin on the f
 ## -returns
 
 
+
 Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
+
+
 
  
 

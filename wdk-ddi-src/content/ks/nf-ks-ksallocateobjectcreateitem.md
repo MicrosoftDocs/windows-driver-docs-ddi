@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAllocateObjectCreateItem, stream.ksallocateobjectcreateitem, KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, KsAllocateObjectCreateItem function [Streaming Media Devices]
+ms.keywords: stream.ksallocateobjectcreateitem, KsAllocateObjectCreateItem function [Streaming Media Devices], ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, KsAllocateObjectCreateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,13 +94,17 @@ Optionally contains a pointer to a minidriver-defined <a href="https://msdn.micr
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if a new item was allocated and attached. Otherwise, it returns STATUS_INSUFFICIENT_RESOURCES.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567188">KStrItemFreeCallback</a>
+
+
 
  
 

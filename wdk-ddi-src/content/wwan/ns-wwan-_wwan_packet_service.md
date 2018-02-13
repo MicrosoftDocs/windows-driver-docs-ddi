@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d444e1c-cbcf-47ab-9c5a-10af1f1915cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_packet_service, _WWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE, WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, wwan/PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], *PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE
+ms.keywords: WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, WWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], wwan/WWAN_PACKET_SERVICE, _WWAN_PACKET_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,6 +121,7 @@ Miniport drivers should set this member to WWAN_DATA_CLASS_CUSTOM if the data-cl
 ## -remarks
 
 
+
 The current packet-attach service state is typically reflected in the device's user interface.
 
 The MB Service combines the data-classes that are represented in 
@@ -144,6 +145,7 @@ If a device also supports a data-class that is anything other than the predefine
 
 The following points provide guidelines on returning network specific error in different
     scenarios:
+
 <ul>
 <li>
 If the packet-attach operation fails because of network specific error, miniport drivers should
@@ -172,7 +174,8 @@ Whenever the device registration state changes because the network packet-detach
       <b>uNwError</b> member to the network specific error code.
 
 </li>
-</ul>Miniport drivers can provide additional error codes as defined by the GSM standards specification of
+</ul>
+Miniport drivers can provide additional error codes as defined by the GSM standards specification of
     packet-attach error codes returned by the network. For example, miniport drivers can communicate the 3GPP
     specification TS 24.008 packet-attach error codes, such as error code 12 (Location area not allowed), to
     the MB Service through the 
@@ -184,12 +187,17 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 
 
-## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
+## -see-also
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_packet_service_state.md">
    NDIS_WWAN_PACKET_SERVICE_STATE</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eded7fcf-8a0a-4ad2-8ce0-e10e670344a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_TOC_PMA_DATA, ntddcdrm/PCDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA structure [Storage Devices], storage.cdrom_toc_pma_data, PCDROM_TOC_PMA_DATA structure pointer [Storage Devices], PCDROM_TOC_PMA_DATA, *PCDROM_TOC_PMA_DATA, structs-CD-ROM_45c0bdd5-ef51-4314-b46a-9ea66eb0b290.xml, _CDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA
+ms.keywords: storage.cdrom_toc_pma_data, _CDROM_TOC_PMA_DATA, *PCDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA, ntddcdrm/PCDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA structure [Storage Devices], structs-CD-ROM_45c0bdd5-ef51-4314-b46a-9ea66eb0b290.xml, PCDROM_TOC_PMA_DATA, PCDROM_TOC_PMA_DATA structure pointer [Storage Devices], ntddcdrm/CDROM_TOC_PMA_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,17 @@ Contains zero or more track descriptors. See <a href="..\ntddcdrm\ns-ntddcdrm-_c
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data_block.md">CDROM_TOC_FULL_TOC_DATA_BLOCK</a>
+
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+
+
 
  
 

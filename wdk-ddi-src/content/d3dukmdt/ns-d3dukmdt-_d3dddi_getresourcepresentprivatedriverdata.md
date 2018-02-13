@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices]"
+ms.keywords: d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], display.d3dddi_getresourcepresentprivatedriverdata, _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,7 +79,9 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 ### -field PrivateDriverDataSize
 
 [in, out] The size of the <b>pPrivateDriverData</b> buffer in bytes. When zero or when there is insufficient space, the size of the required buffer is returned back to the caller along with a <b>STATUS_INVALID_BUFFER_SIZE</b><b>HRESULT</b> value from the calling method. 
-<div class="alert"><b>Note</b>  By the time another call is made with the new buffer size, the resource could be associated with a different sized buffer.</div><div> </div>
+
+<div class="alert"><b>Note</b>  By the time another call is made with the new buffer size, the resource could be associated with a different sized buffer.</div>
+<div> </div>
 
 ### -field pPrivateDriverData
 
@@ -90,6 +92,8 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a>
+
+
 
  
 

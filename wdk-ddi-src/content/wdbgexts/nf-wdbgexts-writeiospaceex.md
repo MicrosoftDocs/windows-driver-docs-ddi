@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteIoSpaceEx function [Windows Debugging], WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, debugger.writeiospaceex, WriteIoSpaceEx, wdbgexts/WriteIoSpaceEx
+ms.keywords: WriteIoSpaceEx function [Windows Debugging], WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx, wdbgexts/WriteIoSpaceEx, debugger.writeiospaceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,15 +106,19 @@ This is typically 1.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 64-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-writeiospaceex64.md">WriteIoSpaceEx64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

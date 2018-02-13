@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5fa4b7e2-8215-49d8-9d70-b45c972b39b4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], *PDXGK_CHILD_STATUS_TYPE, StatusRotation, StatusUninitialized, DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, dispmprt/DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, dispmprt/StatusRotation, dispmprt/PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusUninitialized, StatusMiracast, dispmprt/StatusMiracast, PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], dispmprt/StatusConnection, StatusConnection, _DXGK_CHILD_STATUS_TYPE
+ms.keywords: display.dxgk_child_status_type, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, dispmprt/PDXGK_CHILD_STATUS_TYPE, StatusUninitialized, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], dispmprt/StatusUninitialized, StatusMiracast, StatusConnection, PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusMiracast, *PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusConnection, dispmprt/DXGK_CHILD_STATUS_TYPE, StatusRotation, dispmprt/StatusRotation, _DXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CHILD_STATUS_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE"
+req.typenames: DXGK_CHILD_STATUS_TYPE, *PDXGK_CHILD_STATUS_TYPE
 ---
 
 # _DXGK_CHILD_STATUS_TYPE enumeration
@@ -102,15 +102,21 @@ Supported by WDDM 1.3 and later drivers running on Windows 8.1 and later.
 ## -remarks
 
 
+
 The <b>Type</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.md">DXGK_CHILD_STATUS</a> structure is a member of the <b>DXGK_CHILD_STATUS_TYPE</b> enumeration.
+
 
 
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
 
  
 

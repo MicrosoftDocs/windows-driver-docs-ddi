@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 8ab1365a-99bd-47b3-bf3d-8f70b4a7028a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_L2CA_ACL_TRANSFER, bltooth._brb_l2ca_acl_transfer, bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, _BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices]
+ms.keywords: bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, bltooth._brb_l2ca_acl_transfer, _BRB_L2CA_ACL_TRANSFER, bthddi/_BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,6 +101,7 @@ The L2CAP channel handle that was returned by Bluetooth driver stack in response
 A combination of flags that specifies the basic behavior of the interface. Multiple flags can be
      set at the same time. Valid flag values are described in the following table:
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -150,7 +151,8 @@ The read operation should be stopped after the number of milliseconds specified 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BufferSize
@@ -182,6 +184,7 @@ The amount of space, in bytes, left in the buffer after the BRB call.
 ## -remarks
 
 
+
 To read asynchronous data from, or write asynchronous data to a L2CAP channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a> request.
@@ -204,16 +207,25 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
+
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
+
+
 
  
 

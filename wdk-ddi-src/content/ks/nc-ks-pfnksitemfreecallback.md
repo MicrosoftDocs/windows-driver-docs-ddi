@@ -78,11 +78,14 @@ Specifies a create item that was previously allocated by <a href="..\ks\nf-ks-ks
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the passed in create item was successfully freed, or the error code that was returned from the minidriver's attempt to free the create item in <i>KStrItemFreeCallback</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <i>Context</i> parameter of the <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structure must contain sufficient information to perform cleanup for the create item.
@@ -91,11 +94,16 @@ The <i>Flags</i> member of the KSOBJECT_CREATE_ITEM structure indicates if it is
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
+
+
 
 <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
-<a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
+
 
  
 

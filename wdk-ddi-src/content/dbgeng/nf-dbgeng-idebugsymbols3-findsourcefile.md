@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], FindSourceFile method, IDebugSymbols2::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::FindSourceFile, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols3::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, FindSourceFile, IDebugSymbols3, debugger.findsourcefile, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, FindSourceFile method [Windows Debugging], dbgeng/IDebugSymbols3::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols interface, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, IDebugSymbols interface [Windows Debugging], FindSourceFile method, FindSourceFile method [Windows Debugging], IDebugSymbols::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, FindSourceFile, IDebugSymbols, IDebugSymbols2, FindSourceFile method [Windows Debugging], IDebugSymbols interface, debugger.findsourcefile, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::FindSourceFile, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,7 +117,9 @@ Specifies the size, in characters, of the name of the file.  If <i>FoundSize</i>
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,14 +147,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The engine uses the following steps--in order--to search for the file:
+
 <ol>
 <li>
 For each directory in the source path, an attempt is made to find an overlap between the end of the directory path and the beginning of the file path.  For example, if the source path contains a directory C:\a\b\c\d and <i>File</i> is c\d\e\samplefile.c, the file C:\a\b\c\d\e\samplefile.c is a match.
@@ -170,25 +176,43 @@ The first match found is returned.
 <i>File</i> is looked up directly on the filing system.
 
 </li>
-</ol><div class="alert"><b>Note</b>    Any source servers in the source path are ignored.  To include the source servers in the search, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> with a module address specified in <i>ModAddr</i>.</div><div> </div>For more information about using the source path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556906">Source Path</a>.
+</ol>
+<div class="alert"><b>Note</b>    Any source servers in the source path are ignored.  To include the source servers in the search, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> with a module address specified in <i>ModAddr</i>.</div>
+<div> </div>
+For more information about using the source path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556906">Source Path</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
+
+
 
  
 

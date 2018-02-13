@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfsreadrestartarea, ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], wdm/ClfsReadRestartArea, Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml
+ms.keywords: kernel.clfsreadrestartarea, Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], ClfsReadRestartArea, wdm/ClfsReadRestartArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,14 @@ A pointer to a variable that receives a pointer to an opaque read context. The c
 ## -returns
 
 
+
 <b>ClfsReadRestartArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
@@ -116,15 +119,24 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
 
-<a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
+
 
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+
+
 
  
 

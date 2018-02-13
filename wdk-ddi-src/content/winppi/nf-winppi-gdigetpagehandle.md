@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.gdigetpagehandle, GdiGetPageHandle, GdiGetPageHandle function [Print Devices], winppi/GdiGetPageHandle, gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml
+ms.keywords: GdiGetPageHandle, GdiGetPageHandle function [Print Devices], winppi/GdiGetPageHandle, print.gdigetpagehandle, gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -42,7 +42,7 @@ apiname:
 -	GdiGetPageHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ Caller-supplied page number.
 ### -param pdwPageType
 
 Caller-supplied pointer to a location that receives the page type. The possible page types are shown in the following table:
+
 <table>
 <tr>
 <th>Page Type</th>
@@ -110,17 +111,21 @@ The page is a normal page.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>, and an error code can be obtained by calling <b>GetLastError</b>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GdiGetPageHandle</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
@@ -128,5 +133,6 @@ The <b>GdiGetPageHandle</b> function is exported by gdi32.dll for use within a p
 Print processors must obtain a page handle before calling <a href="..\winppi\nf-winppi-gdiplaypageemf.md">GdiPlayPageEMF</a> to draw a page. If a Page value is specified that is too large, the function returns ERROR_NO_MORE_ITEMS.
 
 For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab42-4475-ac42-f753d5091251">Using GDI Functions in Print Processors</a>.
+
 
 

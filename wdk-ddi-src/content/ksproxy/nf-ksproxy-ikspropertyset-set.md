@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: Set, stream.ikspropertyset_set, IKsPropertySet::Set, ksproxy/IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Set method, Set method [Streaming Media Devices], Set method [Streaming Media Devices], IKsPropertySet interface
+ms.keywords: ksproxy/IKsPropertySet::Set, IKsPropertySet::Set, Set method [Streaming Media Devices], IKsPropertySet interface, Set method [Streaming Media Devices], ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, stream.ikspropertyset_set, Set, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Set method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,11 +105,14 @@ Size, in bytes, of the buffer at <i>PropertyData</i>.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 <div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
@@ -120,12 +123,16 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
+
+
 
  
 

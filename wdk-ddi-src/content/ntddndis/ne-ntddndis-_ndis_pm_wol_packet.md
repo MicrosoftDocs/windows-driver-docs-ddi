@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 154a9d3d-4bb9-4c63-a820-816b254c69c2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, ntddndis/NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketMagicPacket, ntddndis/NdisPMWoLPacketBitmapPattern, _NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketIPv4TcpSyn, netvista.ndis_pm_wol_packet, ntddndis/NdisPMWoLPacketMaximum, NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketBitmapPattern, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], *PNDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET, NdisPMWoLPacketEapolRequestIdMessage, NdisPMWoLPacketMaximum, NdisPMWoLPacketIPv6TcpSyn, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NDIS_PM_WOL_PACKET, ntddndis/PNDIS_PM_WOL_PACKET, NdisPMWoLPacketMagicPacket
+ms.keywords: NdisPMWoLPacketIPv6TcpSyn, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketMaximum, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, ntddndis/NdisPMWoLPacketMagicPacket, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, NdisPMWoLPacketUnspecified, ntddndis/PNDIS_PM_WOL_PACKET, _NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketMagicPacket, ntddndis/NDIS_PM_WOL_PACKET, *PNDIS_PM_WOL_PACKET, NdisPMWoLPacketIPv4TcpSyn, netvista.ndis_pm_wol_packet, NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NdisPMWoLPacketBitmapPattern, NDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -119,17 +119,23 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>NDIS_PM_WOL_PACKET</b> enumeration is used in the 
     <b>WoLPacketType</b> member of the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> structure.
+
 <div class="alert"><b>Note</b>  The <b>NDIS_PM_WOL_PACKET</b> enumeration type specifies packet based wake-on-LAN (WOL)
     patterns. Wake-on-LAN that is based on NETBIOS over TCP is obsolete and, if necessary, it can be set with
-    the pattern bitmap method.</div><div> </div>
+    the pattern bitmap method.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+
+
 
  
 

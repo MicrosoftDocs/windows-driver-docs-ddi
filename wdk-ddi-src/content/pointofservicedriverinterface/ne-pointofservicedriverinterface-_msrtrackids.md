@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9366722a-c545-411d-a59f-63edfb0cd68e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrTrackIds_Track4, pointofservicedriverinterface/MsrTrackIds_Track2, pos.msrtrackids, MsrTrackIds_Track2, MsrTrackIds_Track4, MsrTrackIds, _MsrTrackIds, MsrTrackIds_Track1, MsrTrackIds_Track3, MsrTrackIds_None, pointofservicedriverinterface/MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds, MsrTrackIds enumeration, pointofservicedriverinterface/MsrTrackIds_Track1, pointofservicedriverinterface/MsrTrackIds_None
+ms.keywords: pointofservicedriverinterface/MsrTrackIds_Track4, MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_None, MsrTrackIds enumeration, pointofservicedriverinterface/MsrTrackIds_Track2, MsrTrackIds_None, pointofservicedriverinterface/MsrTrackIds_Track1, pointofservicedriverinterface/MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds, pos.msrtrackids, MsrTrackIds_Track4, MsrTrackIds_Track2, MsrTrackIds_Track1, MsrTrackIds_Track3, _MsrTrackIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -74,19 +74,14 @@ typedef enum _MsrTrackIds {
 ### -field MsrTrackIds_None
 
 
-
 ### -field MsrTrackIds_Track1
-
 
 
 ### -field MsrTrackIds_Track2
 
 
-
 ### -field MsrTrackIds_Track3
 
 
-
 ### -field MsrTrackIds_Track4
-
 

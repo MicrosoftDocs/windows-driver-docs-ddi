@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 4fe37240-7cef-4bfb-91be-49a0bca2fa8f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Clear method [Windows Device Testing Framework], IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework], Clear method, IWDTFTargets2::Clear, Microsoft::WDTF::IWDTFTargets2::Clear, wdtf/IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, Clear, Microsoft.WDTF.IWDTFTargets2.Clear, IWDTFTargets2, Clear method [Windows Device Testing Framework]
+ms.keywords: IWDTFTargets2, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework], IWDTFTargets2 interface, Microsoft::WDTF::IWDTFTargets2::Clear, Clear, wdtf/IWDTFTargets2::Clear, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, dtf.iwdtftargets2_clear, IWDTFTargets2 interface [Windows Device Testing Framework], Clear method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,18 @@ HRESULT Clear();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 The lifetime of <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface 
@@ -83,9 +87,12 @@ not destroyed.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

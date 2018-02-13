@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c0efec37-4897-4ece-9f53-4a62204e5af3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, strmini/PHW_EVENT_DESCRIPTOR, stream.hw_event_descriptor, *PHW_EVENT_DESCRIPTOR, PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], strmini/HW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR, _HW_EVENT_DESCRIPTOR
+ms.keywords: strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, PHW_EVENT_DESCRIPTOR, _HW_EVENT_DESCRIPTOR, strmini/HW_EVENT_DESCRIPTOR, strmini/PHW_EVENT_DESCRIPTOR, stream.hw_event_descriptor, *PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], HW_EVENT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,16 +81,6 @@ typedef struct _HW_EVENT_DESCRIPTOR {
 
 
 
-### -field StreamObject
-
-Points to the <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a> for the stream that owns the event that the class driver is enabling/disabling, or <b>NULL</b> if the event belongs to the driver as a whole.
-
-
-### -field DeviceExtension
-
-Points to the minidriver's device extension.
-
-
 ### -field Enable
 
 This is set to <b>TRUE</b> for an enabled event, and <b>FALSE</b> for a disabled event.
@@ -104,6 +94,16 @@ Points to the <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structur
 ### -field EventData
 
 Points to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that describes this instance of the event.
+
+
+### -field StreamObject
+
+Points to the <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a> for the stream that owns the event that the class driver is enabling/disabling, or <b>NULL</b> if the event belongs to the driver as a whole.
+
+
+### -field DeviceExtension
+
+Points to the minidriver's device extension.
 
 
 ### -field EnableEventSetIndex

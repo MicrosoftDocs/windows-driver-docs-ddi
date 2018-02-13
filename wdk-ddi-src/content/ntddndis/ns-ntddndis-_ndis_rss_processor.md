@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d823303-01ec-4587-a11c-f641cfd7c10f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RSS_PROCESSOR, ntddndis/PNDIS_RSS_PROCESSOR, PNDIS_RSS_PROCESSOR, PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSS_PROCESSOR, ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, netvista.ndis_rss_processor
+ms.keywords: "*PNDIS_RSS_PROCESSOR, _NDIS_RSS_PROCESSOR, ntddndis/NDIS_RSS_PROCESSOR, netvista.ndis_rss_processor, ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista], NDIS_RSS_PROCESSOR, ntddndis/PNDIS_RSS_PROCESSOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RSS_PROCESSOR
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR
+req.typenames: "*PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR"
 ---
 
 # _NDIS_RSS_PROCESSOR structure
@@ -95,15 +95,19 @@ Reserved for NDIS.
 ## -remarks
 
 
+
 The NDIS_RSS_PROCESSOR structure is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">
     NDIS_RSS_PROCESSOR_INFO</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
+
+
 
  
 

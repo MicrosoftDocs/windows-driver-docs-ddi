@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 758733a4-9657-48a4-bbcc-f266c72c1d6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpscopystreamdatatobuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml, FwpsCopyStreamDataToBuffer0, fwpsk/FwpsCopyStreamDataToBuffer0
+ms.keywords: FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], FwpsCopyStreamDataToBuffer0, fwpsk/FwpsCopyStreamDataToBuffer0, netvista.fwpscopystreamdatatobuffer0, wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,14 @@ A pointer to a variable that receives the size, in bytes, of the stream data cop
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 To copy all indicated data to the receiving buffer, ensure that the buffer is at least 
@@ -114,9 +117,12 @@ To copy all indicated data to the receiving buffer, ensure that the buffer is at
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
+
+
 
  
 

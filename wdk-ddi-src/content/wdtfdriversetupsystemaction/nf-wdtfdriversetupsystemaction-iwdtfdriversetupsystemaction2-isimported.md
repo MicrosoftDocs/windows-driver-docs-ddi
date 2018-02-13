@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 2b6e0fc6-33c6-4dcf-8def-b0e081e2405b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2, IsImported, IWDTFDriverSetupSystemAction2::IsImported, IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::IsImported, dtf.iwdtfdriversetupsystemaction2_isimported, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::IsImported, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.IsImported, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IsImported method
+ms.keywords: IWDTFDriverSetupSystemAction2::IsImported, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::IsImported, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IsImported method, IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2, IsImported, IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.IsImported, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::IsImported, dtf.iwdtfdriversetupsystemaction2_isimported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,6 +80,7 @@ The package that is to be checked.
 
 
 
+
 #### - pbIsImported [out, retval]
 
 True if the package has already been imported; otherwise, false.
@@ -88,13 +89,17 @@ True if the package has already been imported; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
+
+
 
  
 

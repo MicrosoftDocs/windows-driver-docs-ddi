@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 372625F8-0219-4867-909D-ACCC82F6B97C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_COMMAND, netvista.ndis_wwan_device_service_command, NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND"
+ms.keywords: netvista.ndis_wwan_device_service_command, PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_DEVICE_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_COMMAND)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -125,6 +127,8 @@ The device service command.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_service_command.md">WWAN_DEVICE_SERVICE_COMMAND</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: InitializeFilter method [Print Devices], InitializeFilter, IPrintPipelineFilter interface [Print Devices], InitializeFilter method, IPrintPipelineFilter::InitializeFilter, InitializeFilter method [Print Devices], IPrintPipelineFilter interface, print.iprintpipelinefilter_initializefilter, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, IPrintPipelineFilter
+ms.keywords: InitializeFilter method [Print Devices], IPrintPipelineFilter, IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, IPrintPipelineFilter interface [Print Devices], InitializeFilter method, InitializeFilter, print.iprintpipelinefilter_initializefilter, filterpipeline/IPrintPipelineFilter::InitializeFilter, InitializeFilter method [Print Devices], IPrintPipelineFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,14 +92,18 @@ A pointer to the <a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommun
 ## -returns
 
 
+
 <code>InitializeFilter</code> returns an <b>HRESULT</b> value. The method should return a value other than "S_OK" or "S_FALSE" if the necessary operations are not performed inside <code>InitializeFilter</code>.
+
 
 
 
 ## -remarks
 
 
+
 When the <code>InitializeFilter</code> method is called, the filters should:
+
 <ul>
 <li>
 Get, add, or delete properties from the property bag.
@@ -112,15 +116,24 @@ Get the read and write interfaces.
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
+
+
 
 <a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a>
+
 
 <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinemanagercontrol.md">IPrintPipelineManagerControl</a>
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
+
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a>
+
+
 
  
 

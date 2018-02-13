@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 59568338-6718-4f3e-bcf6-cd284e68e6af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus_2, rilapitypes/RILPROVISIONSTATUS, RILPROVISIONSTATUS"
+ms.keywords: RILPROVISIONSTATUS, netvista.rilprovisionstatus_2, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPROVISIONSTATUS, *LPRILPROVISIONSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,11 +73,8 @@ typedef struct _RILPROVISIONSTATUS {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
 
 
-
 ### -field dwProvisionStatus
-
 

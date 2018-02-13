@@ -40,7 +40,7 @@ apiname:
 -	CleanupCallback
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # SILO_CONTEXT_CLEANUP_CALLBACK callback
@@ -78,6 +78,8 @@ A pointer provided by the user with the call to <a href="..\ntddk\nf-ntddk-pscre
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

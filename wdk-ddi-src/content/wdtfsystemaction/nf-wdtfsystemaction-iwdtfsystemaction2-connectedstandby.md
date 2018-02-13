@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 11d774b1-2af9-453e-b53e-c232d84bcbee
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework], ConnectedStandby method, ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, IWDTFSystemAction2, IWDTFSystemAction2::ConnectedStandby, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, dtf.iwdtfsystemaction2_connectedstandby, ConnectedStandby method [Windows Device Testing Framework], IWDTFSystemAction2 interface, wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby
+ms.keywords: ConnectedStandby method [Windows Device Testing Framework], IWDTFSystemAction2 interface, ConnectedStandby method [Windows Device Testing Framework], dtf.iwdtfsystemaction2_connectedstandby, wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby, IWDTFSystemAction2::ConnectedStandby, Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, IWDTFSystemAction2 interface [Windows Device Testing Framework], ConnectedStandby method, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, ConnectedStandby, IWDTFSystemAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,13 +79,17 @@ Specifies how much time (in milliseconds) has to pass
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 0C1CEDD8-EA78-4188-AD05-99608B400C84
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2SystemDmaReceiveGetDmaEnabler, 2/SerCx2SystemDmaReceiveGetDmaEnabler, serports.sercx2systemdmareceivegetdmaenabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports]
+ms.keywords: SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports], 2/SerCx2SystemDmaReceiveGetDmaEnabler, serports.sercx2systemdmareceivegetdmaenabler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/se
 ## -returns
 
 
+
 This method returns a WDFDMAENABLER handle to the framework DMA enabler object that represents the system DMA controller that is used for system-DMA-receive transactions.
 
 
 
+
 ## -remarks
+
 
 
 If necessary, your serial controller driver can call this method to configure special features in the system DMA controller. The driver can use the DMA enabler returned by this method to specify DMA settings that were not supplied in the <a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a> structure that the driver previously passed as an input parameter to the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method. Or, the driver can use the DMA enabler to change the DMA settings that were previously specified in this structure.
@@ -89,13 +92,20 @@ For more information about DMA enabler objects, see <a href="https://msdn.micros
 
 
 
+
 ## -see-also
+
+<a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
+
+
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
-<a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>
+
 
  
 

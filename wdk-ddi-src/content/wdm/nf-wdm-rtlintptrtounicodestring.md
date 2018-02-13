@@ -78,6 +78,7 @@ Specifies the ULONG_PTR value to convert.
 ### -param Base [in, optional]
 
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -123,7 +124,8 @@ Decimal
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param String [in, out]
@@ -135,11 +137,19 @@ Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
+<a href="..\wdm\nf-wdm-rtlunicodestringtointeger.md">RtlUnicodeStringToInteger</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtointeger.md">RtlUnicodeStringToInteger</a>
+
 
  
 

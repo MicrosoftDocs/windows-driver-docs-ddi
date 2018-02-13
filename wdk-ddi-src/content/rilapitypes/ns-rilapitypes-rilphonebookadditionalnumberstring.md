@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKADDITIONALNUMBERSTRING
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING"
+req.typenames: RILPHONEBOOKADDITIONALNUMBERSTRING, *LPRILPHONEBOOKADDITIONALNUMBERSTRING
 req.product: Windows 10 or later.
 ---
 
@@ -73,11 +73,8 @@ typedef struct _RILPHONEBOOKADDITIONALNUMBERSTRING {
 ### -field cbSize
 
 
-
 ### -field dwNumId
 
 
-
 ### -field wszText
-
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "_KERNDATA, print.kerndata, prntfont/KERNDATA, KERNDATA structure [Print Devices], KERNDATA, *PKERNDATA, print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, PKERNDATA, prntfont/PKERNDATA, PKERNDATA structure pointer [Print Devices]"
+ms.keywords: PKERNDATA, _KERNDATA, prntfont/PKERNDATA, KERNDATA, print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, print.kerndata, KERNDATA structure [Print Devices], prntfont/KERNDATA, *PKERNDATA, PKERNDATA structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,7 +88,9 @@ Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 ## -remarks
 
 
+
 A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure.
+
 
 
 
@@ -96,7 +98,11 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a hre
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a>
 
+
+
 <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
+
+
 
  
 

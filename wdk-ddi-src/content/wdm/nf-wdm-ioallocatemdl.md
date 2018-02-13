@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], kernel.ioallocatemdl, k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, IoAllocateMdl
+ms.keywords: kernel.ioallocatemdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, wdm/IoAllocateMdl, IoAllocateMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,14 @@ Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is no
 ## -returns
 
 
+
 <b>IoAllocateMdl</b> returns a pointer to an MDL, or, if the MDL cannot be allocated, it returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 <b>IoAllocateMdl</b> can be used by a driver that needs to break a buffer into pieces, each mapped by a separate MDL, or to map a driver-allocated buffer. The driver should call <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a> with the MDL allocated by this call to set up an MDL describing a driver-allocated buffer in nonpaged pool.
@@ -117,13 +120,20 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+
 
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+
+
 
  
 

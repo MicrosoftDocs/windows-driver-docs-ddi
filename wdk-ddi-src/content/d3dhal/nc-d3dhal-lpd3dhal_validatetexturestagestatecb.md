@@ -40,7 +40,7 @@ apiname:
 -	D3dValidateTextureStageState
 product: Windows
 targetos: Windows
-req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
+req.typenames: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS"
 ---
 
 # LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback
@@ -77,6 +77,8 @@ DWORD APIENTRY D3dValidateTextureStageState(
 
 
 
+
+
 #### - pvtssd [in]
 
 Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
@@ -85,16 +87,20 @@ Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.m
 ## -returns
 
 
+
 <b>D3dValidateTextureStageState</b> returns one of the following callback codes:
+
 
 
 
 ## -remarks
 
 
+
 Microsoft Direct3D drivers that support texturing must implement <b>D3dValidateTextureStageState</b>.
 
 The driver's implementation of this function must evaluate the current texture state for all texture stages associated with the context. If the driver's hardware can perform the specified blending operations, then the driver should return the number of passes on the state data that its hardware requires. If the hardware cannot perform the specified blending operations, then the driver should return one of the following error codes in the <b>ddrval</b> member of the D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure at <b>pvtssd</b>:
+
 <table>
 <tr>
 <th>Error Code</th>
@@ -180,7 +186,8 @@ The hardware does not support the current state in the selected texture format.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Direct3D calls <b>D3dValidateTextureStageState</b> in response to an application request through a call to <b>IDirect3DDevice7::ValidateDevice</b>. The number of passes returned by the driver is propagated back to the application, which can then decide whether it will proceed with rendering using the current state or if it must change the blending operations to render faster or to render at all. There are no limits to the number of passes that a driver can return.
 
@@ -188,6 +195,7 @@ A driver that returns more than one pass is responsible for properly executing t
 
 
      Requests that are likely to fail <b>D3dValidateTextureStageState</b>:
+
 <ul>
 <li>
 Using diffuse iterated values as ARGs, or the BLENDDIFFUSE operation is sparsely supported on current hardware. Many parts can introduce only iterated color data at the last texture operation stage.
@@ -228,11 +236,16 @@ Attempting the simultaneous use of multiple textures and MIP mapped trilinear fi
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongAdd, ntintsafe/RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd
+ms.keywords: RtlULongAdd, ntintsafe/RtlULongAdd, kernel.rtlulongadd, RtlULongAdd function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7F0C550A-A443-4936-B961-17813F23D6AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET_NAME, PEP_QUERY_COMPONENT_PERF_SET_NAME structure [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET_NAME, pepfx/PEP_QUERY_COMPONENT_PERF_SET_NAME, pepfx/PPEP_QUERY_COMPONENT_PERF_SET_NAME, PPEP_QUERY_COMPONENT_PERF_SET_NAME structure pointer [Kernel-Mode Driver Architecture], PEP_QUERY_COMPONENT_PERF_SET_NAME, kernel.pep_query_component_perf_set_name, PPEP_QUERY_COMPONENT_PERF_SET_NAME"
+ms.keywords: "_PEP_QUERY_COMPONENT_PERF_SET_NAME, PPEP_QUERY_COMPONENT_PERF_SET_NAME structure pointer [Kernel-Mode Driver Architecture], PEP_QUERY_COMPONENT_PERF_SET_NAME, pepfx/PEP_QUERY_COMPONENT_PERF_SET_NAME, pepfx/PPEP_QUERY_COMPONENT_PERF_SET_NAME, PEP_QUERY_COMPONENT_PERF_SET_NAME structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET_NAME, *PPEP_QUERY_COMPONENT_PERF_SET_NAME, kernel.pep_query_component_perf_set_name"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,21 +99,31 @@ typedef struct _PEP_QUERY_COMPONENT_PERF_SET_NAME {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186841">PEP_DPM_QUERY_COMPONENT_PERF_SET_NAME</a> notification. The <b>DeviceHandle</b>, <b>Component</b>, and <b>Set</b> members of the structure contain input values supplied by PoFx when this notification is sent. If the <b>Name</b> member is non-NULL, the PEP writes a string to the buffer pointed to by <b>Name</b>. If <b>Name</b> is NULL, PEP writes the required buffer size to the <b>NameSize</b> member.
 
 The string that the PEP writes to the output buffer should contain a descriptive name for the P-state set. This name is intended to make log entries and diagnostic messages easier to understand.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186841">PEP_DPM_QUERY_COMPONENT_PERF_SET_NAME</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
 
  
 

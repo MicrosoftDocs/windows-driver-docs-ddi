@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2dbdd95-ddf9-4e95-acd5-853c29cebf02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RemovePersistentBinding, fibreHBA_rtns_d8ccc5eb-b268-4809-88e5-3cee263f6b35.xml, hbaapi/HBA_RemovePersistentBinding, storage.hba_removepersistentbinding, HBA_RemovePersistentBinding routine [Storage Devices]
+ms.keywords: storage.hba_removepersistentbinding, hbaapi/HBA_RemovePersistentBinding, HBA_RemovePersistentBinding, HBA_RemovePersistentBinding routine [Storage Devices], fibreHBA_rtns_d8ccc5eb-b268-4809-88e5-3cee263f6b35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbinding2.md">HB
 ## -returns
 
 
+
 The <b>HBA_RemovePersistentBinding</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_RemovePersistentBinding</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,14 +139,18 @@ Returned if an unspecified error occurred that prevented the removal of the pers
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The removal of persistent bindings does not change target mappings until the operating system is restarted or HBA and/or fabric is reinitialized. 
+
 
 
 
@@ -152,7 +158,11 @@ The removal of persistent bindings does not change target mappings until the ope
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

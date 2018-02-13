@@ -7,8 +7,8 @@ old-location: whea\whea_aer_bridge_descriptor.htm
 old-project: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml, _WHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications]
+ms.date: 2/8/2018
+ms.keywords: ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, _WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_aer_bridge_descriptor, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_AER_BRIDGE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR"
+req.typenames: WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR
 ---
 
 # _WHEA_AER_BRIDGE_DESCRIPTOR structure
@@ -113,6 +113,7 @@ The contents of the bridge's Device Control register.
 ### -field Flags
 
 An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_BRIDGE_DESCRIPTOR structure can be written to by the operating system. The AER_BRIDGE_DESCRIPTOR_FLAGS union is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -137,9 +138,12 @@ An AER_BRIDGE_DESCRIPTOR_FLAGS union that indicates which of the members of the 
 </table></span></div>
 
 
+
+
 #### UncorrectableErrorMaskRW
 
 A single bit that indicates that the operating system can write to the <b>UncorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
 
 
 #### UncorrectableErrorSeverityRW
@@ -147,9 +151,11 @@ A single bit that indicates that the operating system can write to the <b>Uncorr
 A single bit that indicates that the operating system can write to the <b>UncorrectableErrorSeverity</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
 
 
+
 #### CorrectableErrorMaskRW
 
 A single bit that indicates that the operating system can write to the <b>CorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
 
 
 #### AdvancedCapsAndControlRW
@@ -157,9 +163,11 @@ A single bit that indicates that the operating system can write to the <b>Correc
 A single bit that indicates that the operating system can write to the <b>AdvancedCapsAndControl</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
 
 
+
 #### SecondaryUncorrectableErrorMaskRW
 
 A single bit that indicates that the operating system can write to the <b>SecondaryUncorrectableErrorMask</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
+
 
 
 #### SecondaryUncorrectableErrorSevRW
@@ -167,14 +175,17 @@ A single bit that indicates that the operating system can write to the <b>Second
 A single bit that indicates that the operating system can write to the <b>SecondaryUncorrectableErrorSev</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
 
 
+
 #### SecondaryCapsAndControlRW
 
 A single bit that indicates that the operating system can write to the <b>SecondaryCapsAndControl</b> member of the WHEA_AER_BRIDGE_DESCRIPTOR structure.
 
 
+
 #### Reserved
 
 Reserved for system use.
+
 
 
 #### AsUSHORT
@@ -220,7 +231,9 @@ The contents of the bridge's Secondary Error Capabilities and Control register.
 ## -remarks
 
 
+
 A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+
 
 
 
@@ -228,11 +241,15 @@ A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="..\ntddk
 
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_AER_BRIDGE_DESCRIPTOR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_AER_BRIDGE_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

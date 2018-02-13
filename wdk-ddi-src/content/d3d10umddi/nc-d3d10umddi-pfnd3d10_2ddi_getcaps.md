@@ -40,7 +40,7 @@ apiname:
 -	GetCaps
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10_2DDI_GETCAPS callback
@@ -74,8 +74,9 @@ HRESULT APIENTRY GetCaps(
 ### -param D3D10DDI_HADAPTER
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ HRESULT APIENTRY GetCaps(
 ## -returns
 
 
+
 <i>GetCaps(D3D10_2)</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,14 +126,18 @@ The capabilities are successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member). 
+
 
 
 
@@ -138,7 +145,11 @@ The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pDat
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
+
+
 
  
 

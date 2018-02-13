@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/ATA_CHANNEL_STATE, ATA_CHANNEL_STATE enumeration [Storage Devices], ChannelStateDisabled, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, irb/ChannelStateEnabled, ATA_CHANNEL_STATE, irb/ChannelStateUnKnown, irb/ChannelStateDisabled, ChannelStateEnabled, ChannelStateUnKnown, storage.ata_channel_state
+ms.keywords: storage.ata_channel_state, irb/ATA_CHANNEL_STATE, irb/ChannelStateUnKnown, ATA_CHANNEL_STATE, irb/ChannelStateEnabled, ChannelStateUnKnown, ChannelStateDisabled, ChannelStateEnabled, ATA_CHANNEL_STATE enumeration [Storage Devices], structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml, irb/ChannelStateDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,13 +87,17 @@ Indicates that the state of the channel is unknown.
 ## -remarks
 
 
+
 The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a> routine to determine whether the channel is enabled.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
+
+
 
  
 

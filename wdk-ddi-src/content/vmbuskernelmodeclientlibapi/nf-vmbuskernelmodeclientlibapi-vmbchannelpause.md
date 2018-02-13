@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 434CA5F7-24D4-40E7-AE77-C0732D3FBBFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelPause function [Network Drivers Starting with Windows Vista], VmbChannelPause, vmbuskernelmodeclientlibapi/VmbChannelPause, netvista.vmbchannelpause
+ms.keywords: VmbChannelPause, netvista.vmbchannelpause, vmbuskernelmodeclientlibapi/VmbChannelPause, VmbChannelPause function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelPause
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -80,11 +80,14 @@ A handle for the channel to pause.
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This function waits until the channel is in the paused state before it returns. This ensures that all packets that are waiting for completion have completed.
@@ -92,5 +95,6 @@ This function waits until the channel is in the paused state before it returns. 
 
  If the channel is disabled, this function sets the channel to automatically
 pause when it is enabled.
+
 
 

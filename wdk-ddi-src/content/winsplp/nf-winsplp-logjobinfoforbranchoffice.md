@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.logjobinfoforbranchoffice, winsplp/LogJobInfoForBranchOffice, LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices]
+ms.keywords: print.logjobinfoforbranchoffice, LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], winsplp/LogJobInfoForBranchOffice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,6 +82,8 @@ Specifies a pointer to an array of <a href="https://docs.microsoft.com/en-us/dot
 ## -returns
 
 
+
 Indicates success or failure.
+
 
 

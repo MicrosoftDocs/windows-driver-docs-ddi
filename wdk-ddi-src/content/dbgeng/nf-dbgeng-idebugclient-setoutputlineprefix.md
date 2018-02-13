@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59A3FD7D-153D-4580-84C1-2408A485F684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOutputLinePrefix method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, dbgeng/IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix, IDebugClient, debugger.idebugclient_setoutputlineprefix
+ms.keywords: debugger.idebugclient_setoutputlineprefix, SetOutputLinePrefix method [Windows Debugging], IDebugClient interface, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix, IDebugClient, IDebugClient::SetOutputLinePrefix, IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, dbgeng/IDebugClient::SetOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ A pointer to the prefix value.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,16 +94,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Some of the engine commands produce
     multiple lines of output.  This function sets a prefix that the engine adds to each line. This function allows the caller to control indentation or identifying marks.
-    
 
  The prefix value  is not a general setting for any output
     that contains a newline. Methods which use
@@ -109,9 +113,12 @@ Some of the engine commands produce
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
  
 

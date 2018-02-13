@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosStringType, pos.posstringtype, _PosStringType, PosStringType structure, pointofservicedriverinterface/PosStringType
+ms.keywords: "_PosStringType, pos.posstringtype, pointofservicedriverinterface/PosStringType, PosStringType, PosStringType structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ The length of the string in bytes.
 ## -remarks
 
 
+
 The string is Unicode and the contents of the string follow immediately after the PosStringType structure.
+
 
 

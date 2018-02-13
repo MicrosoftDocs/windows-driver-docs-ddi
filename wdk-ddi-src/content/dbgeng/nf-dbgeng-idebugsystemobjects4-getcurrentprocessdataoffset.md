@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a71190ac-0368-40bd-a19d-82a27986a9b3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects3::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects::GetCurrentProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects4, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects2::GetCurrentProcessDataOffset, IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects2::GetCurrentProcessDataOffset, debugger.getcurrentprocessdataoffset, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessDataOffset method, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects_f3602018-7f0a-45eb-aadc-26e0f7349737.xml, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessDataOffset method, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface
+ms.keywords: dbgeng/IDebugSystemObjects::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset, IDebugSystemObjects_f3602018-7f0a-45eb-aadc-26e0f7349737.xml, IDebugSystemObjects::GetCurrentProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects3::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessDataOffset method, dbgeng/IDebugSystemObjects3::GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessDataOffset method, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2::GetCurrentProcessDataOffset, IDebugSystemObjects4, IDebugSystemObjects2, debugger.getcurrentprocessdataoffset, IDebugSystemObjects3, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessDataOffset method, dbgeng/IDebugSystemObjects2::GetCurrentProcessDataOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ Receives the location in the target's virtual address space of the system data s
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,16 +97,23 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 In user-mode debugging, the location returned is of the process environment block (PEB) for the current process.  This is the same location returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545839">GetCurrentProcessPeb</a>.
 
 In kernel-mode debugging, the location returned is of the KPROCESS structure for the system process in which the last event occurred.
-<div class="alert"><b>Note</b>    In kernel mode, the current process of the target is always the single virtual process the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> created for the kernel.  However, because events may occur in different system processes, the KPROCESS location returned by this method may change.</div><div> </div>For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details about the PEB and KPROCESS structures, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+
+<div class="alert"><b>Note</b>    In kernel mode, the current process of the target is always the single virtual process the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> created for the kernel.  However, because events may occur in different system processes, the KPROCESS location returned by this method may change.</div>
+<div> </div>
+For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details about the PEB and KPROCESS structures, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+
 
 

@@ -89,7 +89,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 ### -param NDK_SGE
 
 
-
 ### -param nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
@@ -99,6 +98,7 @@ parameter.
 ### -param Flags [in]
 
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
+
 <table>
 <tr>
 <th>Value</th>
@@ -161,7 +161,8 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pSgl
@@ -172,8 +173,10 @@ An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>)
 ## -returns
 
 
+
 The 
      <i>NdkSend</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -213,11 +216,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>NdkSend</i> posts a send request on a queue pair (QP).
@@ -225,22 +231,37 @@ An error occurred.
 You can use the <b>NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT</b> flag if you issue multiple, related send requests. Set this flag on the last request in the group of related send requests.
 
 An NDK consumer can use this flag when issuing multiple, related send requests. The NDK consumer sets this flag only on the last, related send request. The peer will receive all the send requests as normal. However, when the peer receives the last send request (the request with the <b>NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT</b> flag set), the completion queue for the peer generates a notification. The notification is generated after the receive request completes. This flag has no meaning to the receiver (peer) unless the receiver has previously called the <i>NdkArmCq</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>) function with the notification type set to <b>NDK_CQ_NOTIFY_SOLICITED</b>. 
-<div class="alert"><b>Note</b>  Requests that complete  with an error always match the <b>NDK_CQ_NOTIFY_SOLICITED</b> notification type.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Requests that complete  with an error always match the <b>NDK_CQ_NOTIFY_SOLICITED</b> notification type.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_arm_cq.md">NDK_FN_ARM_CQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
 
 <a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
 
  
 

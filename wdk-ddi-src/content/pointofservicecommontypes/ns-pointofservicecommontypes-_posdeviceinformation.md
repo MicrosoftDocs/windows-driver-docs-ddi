@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/PosDeviceInformation, pos.posdeviceinformation, PosDeviceInformation, PosDeviceInformation structure, _PosDeviceInformation
+ms.keywords: PosDeviceInformation structure, _PosDeviceInformation, pos.posdeviceinformation, pointofservicecommontypes/PosDeviceInformation, PosDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -129,6 +129,8 @@ Indicates the device installation date.
 ## -remarks
 
 
+
 These strings must be NULL terminated, and the maximum length of the strings is <code>STATISTICS_STRING_SIZE - 1</code>.
+
 
 

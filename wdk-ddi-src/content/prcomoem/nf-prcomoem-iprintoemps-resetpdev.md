@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ResetPDEV method [Print Devices], IPrintOemPS interface, IPrintOemPS interface [Print Devices], ResetPDEV method, print.iprintoemps_resetpdev, IPrintOemPS::ResetPDEV, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml, IPrintOemPS, ResetPDEV, ResetPDEV method [Print Devices], prcomoem/IPrintOemPS::ResetPDEV
+ms.keywords: IPrintOemPS::ResetPDEV, IPrintOemPS interface [Print Devices], ResetPDEV method, print.iprintoemps_resetpdev, IPrintOemPS, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml, ResetPDEV, ResetPDEV method [Print Devices], IPrintOemPS interface, ResetPDEV method [Print Devices], prcomoem/IPrintOemPS::ResetPDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS.ResetPDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Caller-supplied pointer to a DEVOBJ structure into which the method should place
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,17 +123,21 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the operation fails it should call <b>SetLastError</b>.
+
 
 
 
 ## -remarks
 
 
+
 A rendering plug-in's <code>IPrintOemPS::ResetPDEV</code> method performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556276">DrvResetPDEV</a> function that is exported by a printer graphics DLL. During the processing of an application's call to the Microsoft Windows SDK <b>ResetDC</b> function, the <code>IPrintOemPS::ResetPDEV</code> method is called by the <b>DrvResetPDEV</b> function in Pscript5's printer graphics DLL. For more information about when <b>DrvResetPDEV</b> is called, see its description.
 
 The rendering plug-in's private PDEV structure's address is contained in the <b>pdevOEM</b> member of the DEVOBJ structure pointed to by <i>pdevobjOld</i>. The <code>IPrintOemPS::ResetPDEV</code> method should use relevant members of this old structure to fill in the new structure, which is referenced through <i>pdevobjNew</i>.
+
 
 

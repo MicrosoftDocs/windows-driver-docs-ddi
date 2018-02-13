@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DmaError, DmaComplete, wdm/DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/DmaComplete, wdm/DmaAborted, DmaAborted, wdm/DmaError, wdm/DmaCancelled, DmaCancelled, DMA_COMPLETION_STATUS, kernel.dma_completion_status
+ms.keywords: wdm/DmaCancelled, DmaComplete, DmaError, kernel.dma_completion_status, DMA_COMPLETION_STATUS, DmaAborted, DmaCancelled, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/DMA_COMPLETION_STATUS, wdm/DmaComplete, wdm/DmaAborted, wdm/DmaError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -97,13 +97,17 @@ The DMA transfer did not complete successfully because the client canceled the t
 ## -remarks
 
 
+
 The <i>Status</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a> routine is a <b>DMA_COMPLETION_STATUS</b>  enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+
+
 
  
 

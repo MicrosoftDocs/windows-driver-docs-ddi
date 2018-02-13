@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeFieldOffset, ExtRemoteTyped, ExtRemoteTyped::GetTypeFieldOffset, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, debugger.extremotetyped_gettypefieldoffset, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: ExtRemoteTyped::GetTypeFieldOffset, debugger.extremotetyped_gettypefieldoffset, EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, ExtRemoteTyped, GetTypeFieldOffset, GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, GetTypeFieldOffset method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetTypeFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetTypeFieldOffset method
@@ -81,6 +81,8 @@ The name of the member in the structure.  You can specify sub-members  by using 
 ## -returns
 
 
+
 <b>GetTypeFieldOffset</b> returns the number of bytes between the address of an instance of the structure and address of the instance's member.
+
 
 

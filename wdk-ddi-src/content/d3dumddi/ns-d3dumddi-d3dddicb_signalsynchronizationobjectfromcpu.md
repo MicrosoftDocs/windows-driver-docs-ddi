@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14CA5FD1-00CB-474B-A2A3-4264CAFA063A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_signalsynchronizationobjectfromcpu, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_signalsynchronizationobjectfromcpu, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb.md">pfnSignalSynchronizationObjectFromCpuCb</a>
+
+
 
  
 

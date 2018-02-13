@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KbCallbackInvalid, KbCallbackAddPages, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, KbCallbackReserved1, _KBUGCHECK_CALLBACK_REASON, KbCallbackDumpIo, wdm/KbCallbackDumpIo, wdm/KbCallbackAddPages, KbCallbackInvalid, kernel.kbugcheck_callback_reason, KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackReserved1, KbCallbackSecondaryDumpData, wdm/KbCallbackSecondaryDumpData
+ms.keywords: wdm/KbCallbackDumpIo, KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackInvalid, wdm/KbCallbackAddPages, wdm/KbCallbackSecondaryDumpData, KbCallbackInvalid, wdm/KbCallbackReserved1, KbCallbackDumpIo, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], _KBUGCHECK_CALLBACK_REASON, KbCallbackAddPages, kernel.kbugcheck_callback_reason, wdm/KBUGCHECK_CALLBACK_REASON, KbCallbackSecondaryDumpData, KbCallbackReserved1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -100,7 +100,6 @@ Specifies that the callback is executed to provide one or more pages of data tha
 ### -field KbCallbackSecondaryMultiPartDumpData
 
 
-
 ### -field KbCallbackRemovePages
 
 
@@ -108,15 +107,25 @@ Specifies that the callback is executed to provide one or more pages of data tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
-
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
+
+
 
 <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+
+
 
  
 

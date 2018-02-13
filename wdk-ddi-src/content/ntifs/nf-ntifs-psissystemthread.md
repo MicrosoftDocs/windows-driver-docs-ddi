@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/PsIsSystemThread, PsIsSystemThread, k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, PsIsSystemThread routine [Kernel-Mode Driver Architecture], kernel.psissystemthread
+ms.keywords: kernel.psissystemthread, k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, PsIsSystemThread routine [Kernel-Mode Driver Architecture], PsIsSystemThread, ntifs/PsIsSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,22 +75,30 @@ Pointer to the thread to be checked.
 ## -returns
 
 
+
 <b>PsIsSystemThread</b> returns <b>TRUE</b> if the specified thread is a system thread, <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://msdn.microsoft.com/fbd8aadd-5a24-48c9-9865-80cc7dc97316">Driver Threads, Dispatcher Objects, and Resources</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-ioissystemthread.md">IoIsSystemThread</a>
+
+
 
  
 

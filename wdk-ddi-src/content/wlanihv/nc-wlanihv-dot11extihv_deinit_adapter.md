@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvDeinitAdapter
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,14 @@ The handle used by the IHV Extensions DLL to reference the WLAN adapter. This ha
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the 
@@ -107,14 +110,21 @@ For more information about operations that are performed when the WLAN adapter i
 
 
 
-## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">Dot11ExtIhvDeinitService</a>
+## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">Dot11ExtIhvDeinitService</a>
+
+
 
  
 

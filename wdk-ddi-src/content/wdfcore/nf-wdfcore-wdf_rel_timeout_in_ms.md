@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f68b9575-04e4-4046-aec4-b664d8a643d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REL_TIMEOUT_IN_MS function, wdf.wdf_rel_timeout_in_ms, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS, kmdf.wdf_rel_timeout_in_ms, wdfcore/WDF_REL_TIMEOUT_IN_MS
+ms.keywords: WDF_REL_TIMEOUT_IN_MS, wdfcore/WDF_REL_TIMEOUT_IN_MS, DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, wdf.wdf_rel_timeout_in_ms, WDF_REL_TIMEOUT_IN_MS function, kmdf.wdf_rel_timeout_in_ms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,20 +79,46 @@ The number of milliseconds to convert.
 ## -returns
 
 
+
 <b>WDF_REL_TIMEOUT_IN_MS</b> returns the relative time value, in system time units (100-nanosecond intervals), that represents the number of milliseconds that <i>Time</i> specifies.
+
 
 
 
 ## -remarks
 
 
+
 A relative time is a time value that is relative to the current system time. For example, if a caller passes a relative time value of five milliseconds to a function that accepts a time-out value, the function will time out five milliseconds after it is called.
+
+
+#### Examples
+
+The following code example starts a timer. The framework will call the timer's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function after ten milliseconds. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN inTimerQueue;
+
+inTimerQueue = WdfTimerStart(
+                             timerHandle,
+                             WDF_REL_TIMEOUT_IN_MS(10)
+                             );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_ms.md">WDF_ABS_TIMEOUT_IN_MS</a>
+
+
 
  
 

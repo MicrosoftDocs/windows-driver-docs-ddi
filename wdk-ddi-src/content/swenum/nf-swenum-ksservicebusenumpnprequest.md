@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsServiceBusEnumPnpRequest, stream.ksservicebusenumpnprequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], swenum/KsServiceBusEnumPnpRequest, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml
+ms.keywords: KsServiceBusEnumPnpRequest function [Streaming Media Devices], stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest, ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsServiceBusEnumPnpRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
+req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
 
@@ -85,14 +85,18 @@ Pointer to the IRP associated with the device object.
 ## -returns
 
 
+
 Returns STATUS_NOT_SUPPORTED if the IRP is not handled by <b>KsServiceBusEnumPnpRequest</b> or STATUS_INVALID_DEVICE_REQUEST if the device object is neither a parent or child of the demand-load bus enumerator object. Otherwise, it returns the status code for the IRP processing.
+
 
 
 
 ## -remarks
 
 
+
 <b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for an FDO or parent device:
+
 <ul>
 <li>
 IRP_MN_START_DEVICE
@@ -130,7 +134,9 @@ IRP_MN_STOP_DEVICE
 IRP_MN_REMOVE_DEVICE
 
 </li>
-</ul><b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for a PDO or child device:
+</ul>
+<b>KsServiceBusEnumPnpRequest</b> services the following Plug and Play IRPs for a PDO or child device:
+
 <ul>
 <li>
 IRP_MN_START_DEVICE
@@ -188,16 +194,25 @@ IRP_MN_WRITE_CONFIG
 IRP_MN_QUERY_CAPABILITIES
 
 </li>
-</ul><div class="alert"><b>Note</b>  : <b>KsServiceBusEnumPnpRequest</b> does not complete the given IRP.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  : <b>KsServiceBusEnumPnpRequest</b> does not complete the given IRP.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
 
-<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
+
 
 <a href="..\swenum\nf-swenum-ksisbusenumchilddevice.md">KsIsBusEnumChildDevice</a>
+
+
+
+<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
+
+
 
  
 

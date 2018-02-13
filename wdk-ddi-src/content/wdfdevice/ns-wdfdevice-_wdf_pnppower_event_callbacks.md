@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfd677f-f2bd-49d7-b572-d7df4de0425c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_pnppower_event_callbacks, _WDF_PNPPOWER_EVENT_CALLBACKS, WDF_PNPPOWER_EVENT_CALLBACKS, PWDF_PNPPOWER_EVENT_CALLBACKS structure pointer, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS, DFDeviceObjectGeneralRef_a4b53707-d968-45a7-a5e8-284e9f34f866.xml, *PWDF_PNPPOWER_EVENT_CALLBACKS, kmdf.wdf_pnppower_event_callbacks, WDF_PNPPOWER_EVENT_CALLBACKS structure, PWDF_PNPPOWER_EVENT_CALLBACKS, wdfdevice/PWDF_PNPPOWER_EVENT_CALLBACKS
+ms.keywords: "_WDF_PNPPOWER_EVENT_CALLBACKS, wdfdevice/PWDF_PNPPOWER_EVENT_CALLBACKS, wdf.wdf_pnppower_event_callbacks, PWDF_PNPPOWER_EVENT_CALLBACKS, WDF_PNPPOWER_EVENT_CALLBACKS, *PWDF_PNPPOWER_EVENT_CALLBACKS, PWDF_PNPPOWER_EVENT_CALLBACKS structure pointer, DFDeviceObjectGeneralRef_a4b53707-d968-45a7-a5e8-284e9f34f866.xml, kmdf.wdf_pnppower_event_callbacks, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS, WDF_PNPPOWER_EVENT_CALLBACKS structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -181,15 +181,19 @@ A driver can register either <b>EvtDeviceRelationsQuery</b> or <b>EvtDeviceUsage
 ## -remarks
 
 
+
 The <b>WDF_PNPPOWER_EVENT_CALLBACKS</b> structure is used as input to the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a> method.
 
 Your driver should initialize its WDF_PNPPOWER_EVENT_CALLBACKS structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_pnppower_event_callbacks_init.md">WDF_PNPPOWER_EVENT_CALLBACKS_INIT</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_policy_event_callbacks.md">WDF_POWER_POLICY_EVENT_CALLBACKS</a>
+
+
 
  
 

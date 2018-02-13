@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 92E2A992-8A0B-4E0F-B615-DC6E30E4A227
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/WdfIrqPolicySpecifiedProcessors, PWDF_INTERRUPT_POLICY, WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyOneCloseProcessor, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicyAllProcessorsInMachine, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, *PWDF_INTERRUPT_POLICY, WdfIrqPolicySpreadMessagesAcrossAllProcessors, WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicyMachineDefault, _WDF_INTERRUPT_POLICY, wudfinterrupt/WDF_INTERRUPT_POLICY, umdf.wdf_interrupt_policy, WDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, WdfIrqPolicySpecifiedProcessors, PWDF_INTERRUPT_POLICY enumeration pointer, wudfinterrupt/PWDF_INTERRUPT_POLICY, wdf.wdf_interrupt_policy_umdf
+ms.keywords: wudfinterrupt/WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WDF_INTERRUPT_POLICY, WdfIrqPolicyOneCloseProcessor, WdfIrqPolicyAllProcessorsInMachine, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, umdf.wdf_interrupt_policy, WdfIrqPolicyMachineDefault, wdf.wdf_interrupt_policy_umdf, WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, wudfinterrupt/PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, WDF_INTERRUPT_POLICY enumeration, WDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, *PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, PWDF_INTERRUPT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -108,13 +108,17 @@ The PnP manager should assign different message-based interrupts to different pr
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
+
+
 
  
 

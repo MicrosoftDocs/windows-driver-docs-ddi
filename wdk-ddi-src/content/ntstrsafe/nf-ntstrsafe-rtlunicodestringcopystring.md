@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b33a311-7f00-4936-b4a9-727f66c12ef0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture], safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml, kernel.rtlunicodestringcopystring, ntstrsafe/RtlUnicodeStringCopyString, RtlUnicodeStringCopyString
+ms.keywords: kernel.rtlunicodestringcopystring, safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml, ntstrsafe/RtlUnicodeStringCopyString, RtlUnicodeStringCopyString, RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCopyString
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlUnicodeStringCopyString function
@@ -82,7 +82,9 @@ A pointer to a null-terminated string. This string will be copied into the buffe
 ## -returns
 
 
+
 <b>RtlUnicodeStringCopyString</b> returns one of the following NTSTATUS values. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,19 +123,24 @@ This <i>error</i> status means that the function received an invalid input param
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RtlUnicodeStringCopyString</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
 <ul>
 <li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
 <li>The destination buffer is already full.</li>
 <li>A buffer pointer is <b>NULL</b>.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
-</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+</ul>
+For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlUnicodeStringCopyString</b> function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. The function does not terminate the resultant string with a null character.
@@ -146,11 +153,16 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcopystringex.md">RtlUnicodeStringCopyStringEx</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcopystringex.md">RtlUnicodeStringCopyStringEx</a>
+
 
  
 

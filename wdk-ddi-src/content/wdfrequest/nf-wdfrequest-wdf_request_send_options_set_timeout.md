@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 729bd44f-9ac7-4b3d-905d-a78b10fba2a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, kmdf.wdf_request_send_options_set_timeout, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, wdf.wdf_request_send_options_set_timeout, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function
+ms.keywords: WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, wdf.wdf_request_send_options_set_timeout, kmdf.wdf_request_send_options_set_timeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,14 @@ An absolute or relative time-out value. For more information, see the <b>Timeout
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To set a time-out value, your driver must call <b>WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</b> after it calls <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>.
@@ -96,12 +99,48 @@ To set a time-out value, your driver must call <b>WDF_REQUEST_SEND_OPTIONS_SET_T
 The <b>WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</b> function stores the specified timeout value in the specified <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure's <b>Timeout</b> member. It also sets the <b>WDF_REQUEST_SEND_OPTION_TIMEOUT</b> flag in the structure's <b>Flags</b> member.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure and sets a time-out value for the structure. (The example calls <a href="..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_sec.md">WDF_REL_TIMEOUT_IN_SEC</a> to specify a relative time-out value of 10 seconds.) The example then uses the <b>WDF_REQUEST_SEND_OPTIONS</b> structure as input to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipewritesynchronously.md">WdfUsbTargetPipeWriteSynchronously</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_REQUEST_SEND_OPTIONS  syncReqOptions;
+
+WDF_REQUEST_SEND_OPTIONS_INIT(
+                              &amp;syncReqOptions,
+                              0
+                              );
+WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT(
+                                     &amp;syncReqOptions,
+                                     WDF_REL_TIMEOUT_IN_SEC(10)
+                                     );
+status = WdfUsbTargetPipeWriteSynchronously(
+                                            pipeHandle,
+                                            NULL,
+                                            &amp;syncReqOptions,
+                                            &amp;writeBufDesc,
+                                            NULL
+                                            );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
 
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+
 
  
 

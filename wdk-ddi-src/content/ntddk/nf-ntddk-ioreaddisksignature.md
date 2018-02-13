@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddk/IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, IoReadDiskSignature, storage.ioreaddisksignature
+ms.keywords: rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, ntddk/IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], storage.ioreaddisksignature, IoReadDiskSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoReadDiskSignature
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoReadDiskSignature function
@@ -87,14 +87,18 @@ Pointer to a <a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a> s
 ## -returns
 
 
+
 The routine returns STATUS_SUCCESS on success, or the appropriate error code on failure. The routine returns STATUS_DISK_CORRUPT_ERROR if it detects that the disk partition table is corrupted.
+
 
 
 
 ## -remarks
 
 
+
 <b>IoReadDiskSignature</b> must only be used by disk drivers. Other drivers should use the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> I/O request instead.
+
 
 
 
@@ -102,7 +106,11 @@ The routine returns STATUS_SUCCESS on success, or the appropriate error code on 
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a>
+
+
 
  
 

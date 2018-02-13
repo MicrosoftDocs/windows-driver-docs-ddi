@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5fc28df-ee06-4efd-8509-a05ed0ebf322
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd, ntddrilapitypes/RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
+ms.keywords: ntddrilapitypes/RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], *LPRILUICCTOOLKITCMD, netvista.riluicctoolkitcmd, RILUICCTOOLKITCMD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCTOOLKITCMD
 product: Windows
 targetos: Windows
-req.typenames: RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
+req.typenames: "*LPRILUICCTOOLKITCMD, RILUICCTOOLKITCMD"
 ---
 
 # RILUICCTOOLKITCMD structure
@@ -74,19 +74,14 @@ typedef struct _RILUICCTOOLKITCMD {
 ### -field cbSize
 
 
-
 ### -field dwSlotIndex
-
 
 
 ### -field fTerminalResponseNeeded
 
 
-
 ### -field dwDetailsSize
 
 
-
 ### -field bDetails
-
 

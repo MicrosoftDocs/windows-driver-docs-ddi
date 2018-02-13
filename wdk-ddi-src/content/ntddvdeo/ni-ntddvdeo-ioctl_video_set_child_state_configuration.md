@@ -79,7 +79,9 @@ The VRP <b>InputBuffer</b> contains a <a href="..\video\ns-video-_video_child_st
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -91,21 +93,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,9 +126,15 @@ The miniport driver sets the <b>Status</b> member to NO_ERROR if it is capable o
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_get_child_state.md">IOCTL_VIDEO_GET_CHILD_STATE</a>
+
 
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_get_child_state.md">IOCTL_VIDEO_GET_CHILD_STATE</a>
+
+
 
  
 

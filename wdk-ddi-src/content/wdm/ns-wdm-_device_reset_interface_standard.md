@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, wdm/DEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], *PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: kernel.device_reset_interface_standard, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], wdm/DEVICE_RESET_INTERFACE_STANDARD, *PDEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, _DEVICE_RESET_INTERFACE_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,9 +117,11 @@ This member is reserved for future use.
 ## -remarks
 
 
+
 The <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure is an extension of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. A driver obtains a pointer to the <b>DEVICE_RESET_INTERFACE_STANDARD</b> structure by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to GUID_DEVICE_RESET_INTERFACE_STANDARD.
 
 For more information about the purpose of this interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>.
+
 
 
 
@@ -127,15 +129,27 @@ For more information about the purpose of this interface, see <a href="https://m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn939354">DeviceReset</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn928420">GUID_DEVICE_RESET_INTERFACE_STANDARD</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], srb/ACCESS_RANGE, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml, storage.access_range, ACCESS_RANGE, PACCESS_RANGE, srb/PACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], *PACCESS_RANGE"
+ms.keywords: ACCESS_RANGE, srb/PACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], *PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], storage.access_range, _ACCESS_RANGE, PACCESS_RANGE, srb/ACCESS_RANGE, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ Indicates the range is in memory when <b>TRUE</b>, rather than in I/O space. Whe
 ## -remarks
 
 
+
 Each ACCESS_RANGE is an <b>AccessRanges</b> array element within the PORT_CONFIGURATION_INFORMATION structure that is passed to a miniport driver's HwScsiFindAdapter routine.
 
 If possible, the OS-specific port driver sets up each access range element with a bus-relative HBA range for the miniport driver before calling the miniport driver's HwScsiFindAdapter routine. Otherwise, the port driver zeros range elements for which it cannot supply configuration information.
@@ -102,19 +103,32 @@ The corresponding base logical address returned by <b>ScsiPortGetDeviceBase</b> 
 
 
 
+
 ## -see-also
-
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-<a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
 
 <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
+
+
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportgetbusdata.md">ScsiPortGetBusData</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
+
+
 
  
 

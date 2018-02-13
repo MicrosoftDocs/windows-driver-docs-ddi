@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 210e69e7-b3b8-43b5-a0d3-f023c7256438
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiassetpropertyattributes, wiasSetPropertyAttributes, wiamdef/wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes function [Imaging Devices]
+ms.keywords: wiasSetPropertyAttributes function [Imaging Devices], wiamdef/wiasSetPropertyAttributes, image.wiassetpropertyattributes, wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasSetPropertyAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -100,11 +100,14 @@ Pointer to an array of PROPVARIANT structures that contains the valid values to 
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers should use the function <a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a> to initialize groups of simple properties.
@@ -115,9 +118,12 @@ The PROPSPEC and PROPVARIANT structures are defined in the Windows SDK documenta
 
 
 
+
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
+
+
 
  
 

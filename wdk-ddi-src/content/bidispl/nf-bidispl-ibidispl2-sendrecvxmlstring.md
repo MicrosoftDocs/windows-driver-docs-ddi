@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SendRecvXMLString method [Print Devices], gdi.ibidispl2_ibidispl2__sendrecvxmlstring, print.ibidispl2_ibidispl2__sendrecvxmlstring, bidispl/IBidiSpl2::SendRecvXMLString, IBidiSpl2, SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString, _win32_IBidiSpl2_SendRecvXMLString, IBidiSpl2 interface [Print Devices], SendRecvXMLString method, IBidiSpl2::SendRecvXMLString
+ms.keywords: SendRecvXMLString, IBidiSpl2 interface [Print Devices], SendRecvXMLString method, SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString method [Print Devices], gdi.ibidispl2_ibidispl2__sendrecvxmlstring, IBidiSpl2, _win32_IBidiSpl2_SendRecvXMLString, print.ibidispl2_ibidispl2__sendrecvxmlstring, IBidiSpl2::SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiSpl2.SendRecvXMLString
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl2::SendRecvXMLString method
@@ -81,7 +81,9 @@ A pointer to the printer's response as a Unicode string that complies with one o
 ## -returns
 
 
+
 The method returns one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -120,19 +122,27 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the <b>HRESULT</b> may contain a system error code that is defined in <a href="https://msdn.microsoft.com/e273f5eb-e4f4-4aa7-9ed9-b418eebc6144">Bidi Error Codes</a>.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+## -see-also
 
 <a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+
+
 
  
 

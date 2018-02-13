@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f92a711-97fe-4420-be50-89302cc9486c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_HOME_PROVIDER, _NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, netvista.ndis_wwan_home_provider
+ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_HOME_PROVIDER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER"
+req.typenames: NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER
 ---
 
 # _NDIS_WWAN_HOME_PROVIDER structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_HOME_PR
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_HOME_PROVIDER)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -123,6 +125,7 @@ For more information about these members, see
 The status of the home provider operation. The following table shows the possible values for this
      member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -192,7 +195,8 @@ The operation failed because a bad SIM card was detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Provider
@@ -204,9 +208,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
+
 
  
 

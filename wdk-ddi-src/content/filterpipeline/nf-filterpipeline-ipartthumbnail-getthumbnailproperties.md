@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetThumbnailProperties method [Print Devices], IPartThumbnail interface, GetThumbnailProperties method [Print Devices], IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, IPartThumbnail, GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, print.ipartthumbnail_getthumbnailproperties, IPartThumbnail interface [Print Devices], GetThumbnailProperties method
+ms.keywords: filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, GetThumbnailProperties method [Print Devices], IPartThumbnail interface, IPartThumbnail interface [Print Devices], GetThumbnailProperties method, IPartThumbnail, filterpipeline/IPartThumbnail::GetThumbnailProperties, print.ipartthumbnail_getthumbnailproperties, GetThumbnailProperties method [Print Devices], GetThumbnailProperties, IPartThumbnail::GetThumbnailProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,8 @@ A pointer to the content type of the thumbnail.
 ## -returns
 
 
+
 <b>GetThumbnailProperties</b> returns an <b>HRESULT</b> value.
+
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 74c62a30-42b9-4ea7-b52a-014e263d886e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamIo, stream.ksstreamio, ks/KsStreamIo, KsStreamIo function [Streaming Media Devices], ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml
+ms.keywords: KsStreamIo function [Streaming Media Devices], KsStreamIo, stream.ksstreamio, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, ks/KsStreamIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,14 +141,18 @@ Specifies invocation flags specifying when the completion routine is invoked. Se
 ## -returns
 
 
+
 The <b>KsStreamIo</b> function returns STATUS_SUCCESS if successful, STATUS_PENDING if action is pending, or if unsuccessful it returns an I/O error.
+
 
 
 
 ## -remarks
 
 
+
 The following enumerated values are used for the <i>CompletionInvocationFlags</i> variable and are of type KSCOMPLETION_INVOCATION:
+
 <table>
 <tr>
 <th><i>CompletionInvocationFlags</i>
@@ -185,9 +189,11 @@ Invokes the completion routine on cancellation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following defined values are used for the <i>Flags</i> variable:
+
 <table>
 <tr>
 <th><i>Flags</i>  Values</th>
@@ -243,10 +249,12 @@ Specifies that the IRP is synchronous. This means that if the <i>Event</i> param
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 KSSTREAM_READ is equivalent to KSPROBE_STREAMREAD.
 
 Similarly, KSSTREAM_WRITE is equivalent to KSPROBE_STREAMWRITE.
+
 
 

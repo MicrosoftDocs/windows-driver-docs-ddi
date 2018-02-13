@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 91641007-57c0-4e55-8ac1-9a5cc62b80b0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2, IWDTFTarget2::HasInterface, HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, HasInterface method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFTarget2::HasInterface, HasInterface, dtf.iwdtftarget2_hasinterface, wdtf/IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface
+ms.keywords: IWDTFTarget2::HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, wdtf/IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, HasInterface method [Windows Device Testing Framework], dtf.iwdtftarget2_hasinterface, HasInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework], HasInterface method, IWDTFTarget2, HasInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,13 +114,17 @@ that contains <b>VT_EMPTY</b>.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

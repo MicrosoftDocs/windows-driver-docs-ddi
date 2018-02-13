@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fe0f1aa-cf9f-4b45-8c34-a6d810fd461a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, OB_PRE_OPERATION_INFORMATION, wdm/OB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.ob_pre_operation_information
+ms.keywords: kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.ob_pre_operation_information, wdm/POB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], *POB_PRE_OPERATION_INFORMATION, wdm/OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION, _OB_PRE_OPERATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OB_PRE_OPERATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*POB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION"
+req.typenames: OB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -79,24 +79,10 @@ typedef struct _OB_PRE_OPERATION_INFORMATION {
 
 
 
-### -field KernelHandle
-
-A bit that specifies whether the handle is a kernel handle. If this member is <b>TRUE</b>, the handle is a kernel handle. Otherwise, this handle is not a kernel handle.
-
-
-### -field Reserved
-
-Reserved for system use.
-
-
-### -field Flags
-
-Reserved. Use the <b>KernelHandle</b> member instead.
-
-
 ### -field Operation
 
 The type of handle operation. This member might be one of the following values:
+
 
 
 
@@ -106,9 +92,25 @@ The type of handle operation. This member might be one of the following values:
 A new handle to a process or thread will be opened. Use <b>Parameters-&gt;CreateHandleInformation</b> for create-specific information.
 
 
+
 #### OB_OPERATION_HANDLE_DUPLICATE
 
 A process or thread handle will be duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
+
+
+### -field Flags
+
+Reserved. Use the <b>KernelHandle</b> member instead.
+
+
+### -field KernelHandle
+
+A bit that specifies whether the handle is a kernel handle. If this member is <b>TRUE</b>, the handle is a kernel handle. Otherwise, this handle is not a kernel handle.
+
+
+### -field Reserved
+
+Reserved for system use.
 
 
 ### -field Object
@@ -135,9 +137,15 @@ A pointer to an <a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_O
 
 <a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
 
+
+
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
+
+
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
 
  
 

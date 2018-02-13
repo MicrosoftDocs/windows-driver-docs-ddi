@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICESETALIGNMENTREQUIREMENT, wdfdevice/WdfDeviceSetAlignmentRequirement, wdf.wdfdevicesetalignmentrequirement, DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml, WdfDeviceSetAlignmentRequirement, kmdf.wdfdevicesetalignmentrequirement, WdfDeviceSetAlignmentRequirement method
+ms.keywords: wdf.wdfdevicesetalignmentrequirement, PFN_WDFDEVICESETALIGNMENTREQUIREMENT, WdfDeviceSetAlignmentRequirement, wdfdevice/WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,16 @@ The alignment requirement for a data buffer. This value must be one less than th
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A driver that uses direct I/O can call  <b>WdfDeviceSetAlignmentRequirement</b> to register a preferred alignment requirement.  The alignment applies to I/O requests that go through the I/O Manager, and  not those sent to your driver from another driver that calls <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>.
@@ -109,14 +112,47 @@ If your driver specifies an alignment requirement that is less than the computer
 For more information about calling <b>WdfDeviceSetAlignmentRequirement</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a> and <a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a>.
 
 
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">AMCC5933</a> sample driver. This example checks a device's current alignment requirement and sets the alignment requirement to a new value, if necessary.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ULONG alignReq;
+
+alignReq = WdfDeviceGetAlignmentRequirement(device);
+if (alignReq &lt; AMCC5933_ALIGNMENT__32BITS) {
+//
+// Set the S5933 alignment requirement to a new value.
+//
+WdfDeviceSetAlignmentRequirement(
+                                 device,
+                                 AMCC5933_ALIGNMENT__32BITS
+                                 );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetalignmentrequirement.md">WdfDeviceGetAlignmentRequirement</a>
 
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
+
+
+
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
+
+
 
  
 

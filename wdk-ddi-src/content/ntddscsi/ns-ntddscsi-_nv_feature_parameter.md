@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 06b07b50-577c-4762-aea6-38bd1ada8973
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: NV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], _NV_FEATURE_PARAMETER, storage.nv_feature_parameter, ntddscsi/NV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], PNV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml
+ms.keywords: ntddscsi/NV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], storage.nv_feature_parameter, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], _NV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml, *PNV_FEATURE_PARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NV_FEATURE_PARAMETER
 product: Windows
 targetos: Windows
-req.typenames: NV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER
+req.typenames: "*PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER"
 ---
 
 # _NV_FEATURE_PARAMETER structure
@@ -131,6 +131,8 @@ Taken from word 219, bits 0 through 7 of the IDENTIFY DEVICE data, this field co
 ## -see-also
 
 <a href="..\ntddscsi\ns-ntddscsi-_nvcache_request_block.md">NVCACHE_REQUEST_BLOCK</a>
+
+
 
  
 

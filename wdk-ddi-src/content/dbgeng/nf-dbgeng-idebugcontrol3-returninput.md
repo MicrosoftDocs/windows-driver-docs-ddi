@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReturnInput, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl::ReturnInput, IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl interface, ReturnInput method [Windows Debugging], debugger.returninput, IDebugControl::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl2 interface, ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl3, IDebugControl3 interface [Windows Debugging], ReturnInput method, IDebugControl3::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml
+ms.keywords: IDebugControl2, ReturnInput method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, IDebugControl, IDebugControl::ReturnInput, ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, IDebugControl3::ReturnInput, debugger.returninput, ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl2::ReturnInput, IDebugControl3, dbgeng/IDebugControl3::ReturnInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,6 +77,7 @@ Specifies the input string being sent to the engine.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,15 +105,19 @@ The engine had already received the input it requested. The input string in <i>B
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 For an overview of input in the debugger engine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

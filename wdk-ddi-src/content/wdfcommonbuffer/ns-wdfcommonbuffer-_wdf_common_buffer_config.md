@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19e98448-6951-4eb4-bca1-8119cd6f7713
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_common_buffer_config, kmdf.wdf_common_buffer_config, WDF_COMMON_BUFFER_CONFIG structure, PWDF_COMMON_BUFFER_CONFIG structure pointer, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, _WDF_COMMON_BUFFER_CONFIG, PWDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG
+ms.keywords: PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG, _WDF_COMMON_BUFFER_CONFIG, PWDF_COMMON_BUFFER_CONFIG structure pointer, *PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG structure, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, wdf.wdf_common_buffer_config, kmdf.wdf_common_buffer_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_COMMON_BUFFER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ The alignment requirement for a common buffer. This value must be one less than 
 ## -remarks
 
 
+
 The <b>WDF_COMMON_BUFFER_CONFIG</b> structure is used as input to the <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreatewithconfig.md">WdfCommonBufferCreateWithConfig</a> method.
 
 If your driver specifies an alignment requirement that is greater that the computer's page size (PAGE_SIZE), the logical addresses that the <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a> method returns are always aligned to the specified alignment requirement, but the virtual addresses that the <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a> method returns might not be aligned to the alignment requirement.
@@ -94,13 +95,20 @@ For more information about specifying alignment requirements, see <a href="https
 
 
 
+
 ## -see-also
 
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
 
+
+
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreatewithconfig.md">WdfCommonBufferCreateWithConfig</a>
 
+
+
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
+
+
 
  
 

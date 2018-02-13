@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9107fa7b-b061-4505-aef7-be04587a4199
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changerclassdevicecontrol, mcd/ChangerClassDeviceControl, ChangerClassDeviceControl, ChangerClassDeviceControl routine [Storage Devices], chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml
+ms.keywords: chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, storage.changerclassdevicecontrol, mcd/ChangerClassDeviceControl, ChangerClassDeviceControl, ChangerClassDeviceControl routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,9 @@ Pointer to the I/O request packet (IRP) that initiated the device control operat
 ## -returns
 
 
+
 If the operation succeeds, the <b>ChangerClassDeviceControl</b> routine returns STATUS_SUCCESS. Otherwise the routine returns one of the following status values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,6 +133,8 @@ The length of the input buffer is zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

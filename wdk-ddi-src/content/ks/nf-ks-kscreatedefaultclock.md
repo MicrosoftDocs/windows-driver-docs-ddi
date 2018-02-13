@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCreateDefaultClock, KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock, KsCreateDefaultClock function [Streaming Media Devices]
+ms.keywords: stream.kscreatedefaultclock, ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,20 +84,26 @@ Specifies an initialize default clock structure that is shared among any instanc
 ## -returns
 
 
+
 The <b>KsCreateDefaultClock</b> function returns STATUS_SUCCESS if successful, or an error if unsuccessful.
+
 
 
 
 ## -remarks
 
 
+
 The clock can be created after using <b>KsAllocateDefaultClock</b> to create and initialize the internal structures for a default clock instance. After initialization, many file objects can be created against the same underlying default clock instance.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
+
+
 
  
 

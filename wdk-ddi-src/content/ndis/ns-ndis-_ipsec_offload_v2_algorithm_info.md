@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 787e5a98-ba77-42d4-8624-abcc02fccf53
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml
+ms.keywords: "*PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_ALGORITHM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IPSEC_OFFLOAD_V2_ALGORITHM_INFO
 product: Windows
 targetos: Windows
-req.typenames: IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO
+req.typenames: "*PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO"
 ---
 
 # _IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure
@@ -83,10 +83,6 @@ If the algorithm is an encryption algorithm,
 
 
 
-If the algorithm is an authentication algorithm, 
-     <b>Identifier</b> can be one of the following values:
-
-
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_NONE
@@ -95,14 +91,17 @@ Specifies no confidentiality algorithm. This value is used for null encryption--
        packet is not encrypted but does include ESP authentication information.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_DES_CBC
 
 Specifies the DES algorithm for encrypting and decrypting ESP payloads.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_3_DES_CBC
 
 Specifies the triple-DES algorithm for encrypting and decrypting ESP payloads.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_128
@@ -112,11 +111,13 @@ Specifies the AES-GCM 128 algorithm for encrypting and computing a cryptographic
        mode algorithm.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_192
 
 Specifies the AES-GCM 192 algorithm for encrypting and computing a cryptographic checksum or
        decrypting and validating a cryptographic checksum for an ESP payload. Note that this is a combined
        mode algorithm.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_GCM_256
@@ -126,10 +127,12 @@ Specifies the AES-GCM 256 algorithm for encrypting and computing a cryptographic
        mode algorithm.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_128
 
 Specifies the Advanced Encryption Standard - cipher-block chaining mode (AES-CBC) 128 algorithm
        for encrypting and decrypting ESP payloads.
+
 
 
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_192
@@ -137,9 +140,16 @@ Specifies the Advanced Encryption Standard - cipher-block chaining mode (AES-CBC
 Specifies the AES-CBC 192 algorithm for encrypting and decrypting ESP payloads.
 
 
+
 #### IPSEC_OFFLOAD_V2_ENCRYPTION_AES_CBC_256
 
 Specifies the AES-CBC 256 algorithm for encrypting and decrypting ESP payloads.
+
+If the algorithm is an authentication algorithm, 
+     <b>Identifier</b> can be one of the following values:
+
+
+
 
 
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_MD5
@@ -148,15 +158,18 @@ Specifies the keyed message digest 5 (MD5) algorithm for computing or validating
        checksum.
 
 
+
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_1
 
 Specifies the secure hash algorithm (SHA) 1 algorithm for computing or validating a
        cryptographic checksum.
 
 
+
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_SHA_256
 
 Specifies the SHA 256 algorithm for computing or validating a cryptographic checksum.
+
 
 
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_128
@@ -165,10 +178,12 @@ Specifies the Advanced Encryption Standard - Galois/Counter Mode (AES- GMAC) 128
        computing or validating a cryptographic checksum.
 
 
+
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_192
 
 Specifies the AES- GMAC 192 algorithm for computing or validating a cryptographic
        checksum.
+
 
 
 #### IPSEC_OFFLOAD_V2_AUTHENTICATION_AES_GCM_256
@@ -213,6 +228,7 @@ Additional information that should be interpreted differently based on the algor
 ## -remarks
 
 
+
 The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies algorithm information in the 
     <b>EncryptionAlgorithm</b> and 
     <b>AuthenticationAlgorithm</b> members of the 
@@ -221,12 +237,17 @@ The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies algorithm information in
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
+
+
 
  
 

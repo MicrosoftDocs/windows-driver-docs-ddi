@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoRequestDeviceEject, k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, IoRequestDeviceEject, kernel.iorequestdeviceeject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, wdm/IoRequestDeviceEject, kernel.iorequestdeviceeject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the PDO for the device.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Note that this routine reports a request for device eject, not media eject.
@@ -90,6 +93,7 @@ Typically, a PnP bus driver calls <b>IoRequestDeviceEject</b> to notify the PnP 
 A driver calls this routine, rather than sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550853">IRP_MN_EJECT</a> request, because this routine allows the PnP manager to coordinate additional actions for the eject besides sending the IRP. For example, the PnP manager notifies user-mode and kernel-mode components that registered for notification of changes on the device. 
 
 The PnP manager directs an orderly shutdown of the device. The PnP manager:
+
 <ol>
 <li>
 Creates a list of other devices that are affected by this device being ejected.
@@ -131,7 +135,8 @@ In this case, the device is <b>Removable</b> but does not support eject. The PnP
 A device's parent bus driver sets the capabilities for a device, including its eject capabilities, in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> request. A function or filter driver can optionally specify capabilities.
 
 </li>
-</ol>When a device is ejected, its child devices are physically removed from the system along with it.
+</ol>
+When a device is ejected, its child devices are physically removed from the system along with it.
 
 A user-mode application can initiate a device eject. In that case, no driver calls this routine but the operating system calls the PnP manager to initiate the steps listed above.
 
@@ -139,15 +144,24 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550853">IRP_MN_EJECT</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550853">IRP_MN_EJECT</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
 
  
 

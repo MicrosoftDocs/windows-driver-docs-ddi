@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fa0f20e1-7d63-48e8-8270-8dab566f5947
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, hbapiwmi/PHBAFCPBindingEntry, *PHBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], HBAFCPBindingEntry structure [Storage Devices], hbapiwmi/HBAFCPBindingEntry, _HBAFCPBindingEntry, storage.hbafcpbindingentry, PHBAFCPBindingEntry, HBAFCPBindingEntry
+ms.keywords: storage.hbafcpbindingentry, hbapiwmi/HBAFCPBindingEntry, *PHBAFCPBindingEntry, hbapiwmi/PHBAFCPBindingEntry, _HBAFCPBindingEntry, HBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, PHBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,7 @@ typedef struct _HBAFCPBindingEntry {
 ### -field Type
 
 Contains a binding type that indicates how the target is specified in the binding. This member can have any of the following values:  
+
 <table>
 <tr>
 <th>Type Value</th>
@@ -127,7 +128,8 @@ Indicates that the system should automatically generate target mappings from log
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 You must include file <i>hbaapi.h </i>to use the symbolic constants in this table (See the <b>Headers</b> section).
 
@@ -149,15 +151,19 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of this structure automatically when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a> in <i>hbaapi.mof</i>. 
 
 For an explanation of the fibre channel protocol (FCP), see the T11 committee's <i>Fibre Channel Protocol for SCSI</i> specification. 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556037">HBAFCPBindingEntry WMI Class</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45849844-a466-4e62-957a-bfe33a464b5a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreateSynchronizationObject2, D3DKMTCreateSynchronizationObject2 function [Display Devices], D3DKMTCreateSynchronizationObject2, OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, display.d3dkmtcreatesynchronizationobject2
+ms.keywords: display.d3dkmtcreatesynchronizationobject2, OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, D3DKMTCreateSynchronizationObject2, d3dkmthk/D3DKMTCreateSynchronizationObject2, D3DKMTCreateSynchronizationObject2 function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTCreateSynchronizationObject2(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes a synchronization object.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobj
 ## -returns
 
 
+
 <b>D3DKMTCreateSynchronizationObject2</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +133,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
+
+
 
  
 

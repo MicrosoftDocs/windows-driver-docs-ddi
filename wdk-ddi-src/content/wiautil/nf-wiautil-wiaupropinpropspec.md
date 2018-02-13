@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5ab82378-ff12-46cc-814b-dc533db15a37
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauPropInPropSpec function [Imaging Devices], wiautil/wiauPropInPropSpec, wiauPropInPropSpec, image.wiaupropinpropspec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml
+ms.keywords: wiautil/wiauPropInPropSpec, image.wiaupropinpropspec, wiauPropInPropSpec function [Imaging Devices], wiauPropInPropSpec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,7 @@ TBD
 
 
 
+
 #### - pIdx = NULL [out, optional]
 
 <i>Optional</i>. Pointer to a memory location that receives the index of the property specification ID in the property specification ID array. The default value of this parameter is <b>NULL</b>, in which case the function does not use it.
@@ -100,20 +101,26 @@ TBD
 ## -returns
 
 
+
 This function returns <b>TRUE</b> if it found the property specification ID in the property specification ID array. Otherwise it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauPropInPropSpec</b> function finds a single property specification ID within an array of property specification IDs. A related function, <a href="..\wiautil\nf-wiautil-wiaupropsinpropspec.md">wiauPropsInPropSpec</a> can be used to determine whether any of a specified list of property specification IDs is found in another array of property specification IDs.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaupropsinpropspec.md">wiauPropsInPropSpec</a>
+
+
 
  
 

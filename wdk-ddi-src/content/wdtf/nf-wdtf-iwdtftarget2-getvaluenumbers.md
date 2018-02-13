@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c8743f5a-fc23-4029-a60d-637935fda781
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2, wdtf/IWDTFTarget2::GetValueNumbers, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueNumbers method, Microsoft.WDTF.IWDTFTarget2.GetValueNumbers, Microsoft::WDTF::IWDTFTarget2::GetValueNumbers, GetValueNumbers method [Windows Device Testing Framework], GetValueNumbers method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueNumbers, dtf.iwdtftarget2_getvaluenumbers, IWDTFTarget2::GetValueNumbers
+ms.keywords: wdtf/IWDTFTarget2::GetValueNumbers, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueNumbers method, Microsoft::WDTF::IWDTFTarget2::GetValueNumbers, Microsoft.WDTF.IWDTFTarget2.GetValueNumbers, IWDTFTarget2, GetValueNumbers, GetValueNumbers method [Windows Device Testing Framework], dtf.iwdtftarget2_getvaluenumbers, GetValueNumbers method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2::GetValueNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The address of a variable that receives the result of this method.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 You specify the field that the<b> GetValueNumbers</b> method retrieves 
@@ -97,9 +100,12 @@ to work properly.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

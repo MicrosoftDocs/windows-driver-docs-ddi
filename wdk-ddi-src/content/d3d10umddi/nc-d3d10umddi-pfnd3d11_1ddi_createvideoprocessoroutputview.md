@@ -40,7 +40,7 @@ apiname:
 -	CreateVideoProcessorOutputView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback
@@ -76,16 +76,15 @@ HRESULT APIENTRY* CreateVideoProcessorOutputView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param D3D11_1DDI_HVIDEOPROCESSOROUTPUTVIEW
 
 
-
 ### -param D3D11_1DDI_HRTVIDEOPROCESSOROUTPUTVIEW
+
+
 
 
 
@@ -117,7 +116,9 @@ A handle to the video processor output view that the driver should use when it c
 ## -returns
 
 
+
 <i>CreateVideoProcessorOutputView</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +158,14 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Direct3D runtime calls <i>CreateVideoProcessorOutputView</i> after it has called the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>   to determine the size in bytes for the private data that the driver requires for the video processor output view. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video processor output view.
@@ -170,11 +174,16 @@ When the runtime  calls <i>CreateVideoProcessorOutputView</i>, it passes the han
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
+
 
  
 

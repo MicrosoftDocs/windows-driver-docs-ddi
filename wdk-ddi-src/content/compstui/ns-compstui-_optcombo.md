@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: compstui/POPTCOMBO, OPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, POPTCOMBO, print.optcombo, OPTCOMBO structure [Print Devices], compstui/OPTCOMBO, *POPTCOMBO
+ms.keywords: compstui/POPTCOMBO, compstui/OPTCOMBO, POPTCOMBO structure pointer [Print Devices], *POPTCOMBO, OPTCOMBO, print.optcombo, _OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OPTCOMBO
 product: Windows
 targetos: Windows
-req.typenames: OPTCOMBO, *POPTCOMBO
+req.typenames: "*POPTCOMBO, OPTCOMBO"
 ---
 
 # _OPTCOMBO structure
@@ -75,23 +75,17 @@ typedef struct _OPTCOMBO {
 ### -field cbSize
 
 
-
 ### -field Flags
-
 
 
 ### -field cListItem
 
 
-
 ### -field pListItem
-
 
 
 ### -field Sel
 
 
-
 ### -field dwReserved
-
 

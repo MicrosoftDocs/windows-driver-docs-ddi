@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: D4239E72-C57A-45BC-881C-08FF6263874E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN, stream.kscamera_extendedprop_videoprocsetting, KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT, tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+ms.keywords: tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_FLASH, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, KSCAMERA_EXTENDEDPROP_WBPRESET_TUNGSTEN, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_CANDLELIGHT, stream.kscamera_extendedprop_videoprocsetting, ksmedia/KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WBPRESET_DAYLIGHT, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, ksmedia/PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, KSCAMERA_EXTENDEDPROP_WBPRESET_CLOUDY, PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_WBPRESET_FLUORESCENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ typedef struct _KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING {
 ### -field Mode
 
 The video processing mode type. Currently, this member is used to control white balance. The possible values for <b>Mode</b> are the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -100,7 +101,8 @@ The white balance setting is a preset value specified in <b>VideoProc</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This member is not used for <a href="https://msdn.microsoft.com/library/windows/hardware/dn567573">KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>. In these cases it must be set to 0.
 
@@ -129,6 +131,7 @@ The increment in value, when applicable, for the setting in <b>VideoProc</b> whe
 ### -field VideoProc
 
 Using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a> property, when <b>Mode</b> is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_PRESET, the <b>VideoProc.Value.ul</b> value is one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -194,7 +197,8 @@ White balance preset to compensate for candlelight lighting.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a> property, when <b>Mode</b> is set to KSCAMERA_EXTENDEDPROP_WHITEBALANCE_TEMPERATURE, the <b>VideoProc.Value.ul</b> value is a temperature value in degrees Kelvin.
 
@@ -210,11 +214,17 @@ Reserved.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567573">KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn567573">KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE</a>
+
 
  
 

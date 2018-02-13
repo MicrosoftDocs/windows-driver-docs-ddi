@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26512dc5-9d3d-4dd5-bce3-37feb64dded8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PPingIPAddress_OUT, _PingIPAddress_OUT, PPingIPAddress_OUT, PingIPAddress_OUT, storage.pingipaddress_out, structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml, PPingIPAddress_OUT structure pointer [Storage Devices], PingIPAddress_OUT structure [Storage Devices], iscsimgt/PingIPAddress_OUT, iscsimgt/PPingIPAddress_OUT"
+ms.keywords: iscsimgt/PingIPAddress_OUT, PingIPAddress_OUT structure [Storage Devices], _PingIPAddress_OUT, PPingIPAddress_OUT, structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml, iscsimgt/PPingIPAddress_OUT, PingIPAddress_OUT, storage.pingipaddress_out, *PPingIPAddress_OUT, PPingIPAddress_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PingIPAddress_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PPingIPAddress_OUT, PingIPAddress_OUT"
+req.typenames: PingIPAddress_OUT, *PPingIPAddress_OUT
 ---
 
 # _PingIPAddress_OUT structure
@@ -81,6 +81,8 @@ The number of responses that were received.
 ## -remarks
 
 
+
 We recommend that you implement this class.
+
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4572040b-c234-4281-b9d7-14d7f2bb7506
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, storage.ses_download_microcode_status_diagnostic_page, _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure [Storage Devices], *PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure pointer [Storage Devices], scsi/SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
+ms.keywords: PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure [Storage Devices], storage.ses_download_microcode_status_diagnostic_page, _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 product: Windows
 targetos: Windows
-req.typenames: SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
+req.typenames: "*PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE"
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,7 @@ Indicates the diagnostic page being sent or requested. . The value of this is 0x
 
 Indicates the number of download microcode status
 descriptors in <i>Descriptors</i>, not including the primary <a href="https://msdn.microsoft.com/af686e7a-9426-4151-8ac4-d95ae1689b4c">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a>. This value shall
-be set to the same value as the <i>NumberOfSecondarySubEnclosures</i> field in the <a href="..\storport\ns-storport-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a> structure.
+be set to the same value as the <i>NumberOfSecondarySubEnclosures</i> field in the <a href="..\minitape\ns-minitape-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a> structure.
 
 
 ### -field PageLength

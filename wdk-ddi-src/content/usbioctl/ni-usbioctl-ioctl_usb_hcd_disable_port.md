@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_hcd_disable_port.htm
 old-project: usbref
 ms.assetid: c0ae41be-1b37-4410-8e7a-611a66c599c1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_usb_hcd_disable_port, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], IOCTL_USB_HCD_DISABLE_PORT, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,50 +66,66 @@ The <b>IOCTL_USB_HCD_DISABLE_PORT</b> IOCTL has been deprecated. Do not use.
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

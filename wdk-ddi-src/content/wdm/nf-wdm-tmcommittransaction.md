@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8d17de44-2fd9-4e20-8a9b-2647c9917709
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmCommitTransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, kernel.tmcommittransaction, wdm/TmCommitTransaction
+ms.keywords: TmCommitTransaction routine [Kernel-Mode Driver Architecture], TmCommitTransaction, kernel.tmcommittransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, wdm/TmCommitTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or
 ## -returns
 
 
+
 <b>TmCommitTransaction</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,13 +147,16 @@ Commit notifications have been queued to resource managers, and the caller speci
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmCommitTransaction</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a> routine.
@@ -160,15 +165,24 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+
+
 
  
 

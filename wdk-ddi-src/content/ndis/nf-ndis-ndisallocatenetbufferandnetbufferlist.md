@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b872eff3-2d0a-4f01-874d-e00e09195801
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatenetbufferandnetbufferlist, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, ndis/NdisAllocateNetBufferAndNetBufferList, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferAndNetBufferList
+ms.keywords: NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, ndis/NdisAllocateNetBufferAndNetBufferList, netvista.ndisallocatenetbufferandnetbufferlist, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAllocateNetBufferAndNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateNetBufferAndNetBufferList function
@@ -132,13 +132,16 @@ The length, in bytes, of the
 ## -returns
 
 
+
 <b>NdisAllocateNetBufferAndNetBufferList</b> returns a pointer to the allocated NET_BUFFER_LIST
      structure. The NET_BUFFER_LIST structure includes a NET_BUFFER structure. If the allocation was
      unsuccessful, this pointer is <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 The structures that the 
@@ -152,10 +155,13 @@ The structures that the
     <b>fAllocateNetBuffer</b> member of the 
     <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, and the 
     <b>DataSize</b> member set to zero.
+
 <div class="alert"><b>Note</b>  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> and 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures must be allocated
     from an NDIS buffer pool. A driver must not allocate and initialize a <b>NET_BUFFER_LIST</b> or <b>NET_BUFFER</b>
-    structure from its private memory pool or the stack.</div><div> </div>Call the 
+    structure from its private memory pool or the stack.</div>
+<div> </div>
+Call the 
     <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a> function to
     free a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
 
@@ -176,6 +182,7 @@ For example, if the original MDL chain contains <i>X</i>
 <i>DataOffset</i>. If 
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 
     <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -192,20 +199,33 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 </table></span></div>
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
    NdisAllocateNetBufferListPool</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0f57e226-dd60-4e62-8622-bfab5c66f537
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_ENUM_FILTERS, ndis/NDIS_ENUM_FILTERS, *PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS structure [Network Drivers Starting with Windows Vista], _NDIS_ENUM_FILTERS, PNDIS_ENUM_FILTERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_ENUM_FILTERS, netvista.ndis_enum_filters, filter_structures_ref_4fe2a9d2-2539-40bc-9131-735a6337831e.xml
+ms.keywords: NDIS_ENUM_FILTERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_ENUM_FILTERS, ndis/PNDIS_ENUM_FILTERS, netvista.ndis_enum_filters, PNDIS_ENUM_FILTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ENUM_FILTERS, filter_structures_ref_4fe2a9d2-2539-40bc-9131-735a6337831e.xml, *PNDIS_ENUM_FILTERS, NDIS_ENUM_FILTERS, PNDIS_ENUM_FILTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,6 +111,7 @@ An array that contains zero or more
 ## -remarks
 
 
+
 The 
     <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">
     NdisEnumerateFilterModules</a> function returns an NDIS_ENUM_FILTERS structure and the 
@@ -121,13 +122,20 @@ The
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

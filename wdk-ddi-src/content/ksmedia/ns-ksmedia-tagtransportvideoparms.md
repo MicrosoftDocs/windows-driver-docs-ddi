@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14bc6133-78f1-4f25-8638-9348245180fa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PTRANSPORTVIDEOPARMS, PTRANSPORTVIDEOPARMS structure pointer [Streaming Media Devices], vidcapstruct_6438f7be-abd8-4d45-969d-6f80e7833216.xml, PTRANSPORTVIDEOPARMS, TRANSPORTVIDEOPARMS, tagTRANSPORTVIDEOPARMS, TRANSPORTVIDEOPARMS structure [Streaming Media Devices], stream.transportvideoparms, *PTRANSPORTVIDEOPARMS, ksmedia/TRANSPORTVIDEOPARMS
+ms.keywords: PTRANSPORTVIDEOPARMS, vidcapstruct_6438f7be-abd8-4d45-969d-6f80e7833216.xml, tagTRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS, stream.transportvideoparms, TRANSPORTVIDEOPARMS, ksmedia/TRANSPORTVIDEOPARMS, PTRANSPORTVIDEOPARMS structure pointer [Streaming Media Devices], TRANSPORTVIDEOPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTVIDEOPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Specifies the video input to use. For example, specify zero to use the first (ze
 ## -remarks
 
 
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
 
 

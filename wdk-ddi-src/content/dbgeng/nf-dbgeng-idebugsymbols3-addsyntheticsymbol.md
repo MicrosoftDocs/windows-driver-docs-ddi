@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 17fe1fbc-ca55-4d4d-af79-73baad410bfb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbol, IDebugSymbols3, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, debugger.addsyntheticsymbol, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbol method, dbgeng/IDebugSymbols3::AddSyntheticSymbol
+ms.keywords: IDebugSymbols3::AddSyntheticSymbol, AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticSymbol, AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, debugger.addsyntheticsymbol, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbol method, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,6 +99,7 @@ Receives the <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +116,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The location of the synthetic symbol must not be the same as the location of another symbol.
@@ -132,13 +136,20 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
+
+
 
  
 

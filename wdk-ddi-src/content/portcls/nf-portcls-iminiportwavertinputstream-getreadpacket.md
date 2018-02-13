@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertinputstream_getreadpacket.htm
 old-project: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, portcls/IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream, audio.iminiportwavertinputstream_getreadpacket, IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method
+ms.date: 2/8/2018
+ms.keywords: GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream, audio.iminiportwavertinputstream_getreadpacket, GetReadPacket, portcls/IMiniportWaveRTInputStream::GetReadPacket, GetReadPacket method [Audio Devices], IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream::GetReadPacket, IMiniportWaveRTInputStream interface [Audio Devices], GetReadPacket method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,13 +103,16 @@ Returns the performance counter value corresponding to the sampling instant of t
 ## -returns
 
 
+
 <code>GetReadPacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
 
  STATUS_DEVICE_NOT_READY - The driver returns this error if no new data is available.
 
 
 
+
 ## -remarks
+
 
 
 Before reading captured audio data from the WaveRT buffer, the OS calls this routine to get information about the available data. 
@@ -123,13 +126,16 @@ The packet size is the WaveRT buffer size divided by the NotificationCount passe
 
 
 
+
 ## -see-also
 
 <a href="..\portcls\nn-portcls-iminiportwavertinputstream.md">IMiniportWaveRTInputStream</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTInputStream::GetReadPacket method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTInputStream::GetReadPacket method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

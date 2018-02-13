@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/AddPrintDeviceObject, AddPrintDeviceObject, print.addprintdeviceobject, AddPrintDeviceObject function [Print Devices]
+ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,17 +84,21 @@ A HANDLE to the device object, if it was created successfully.
 ## -returns
 
 
+
 The <b>AddPrintDeviceObject</b> function returns S_OK, if the device object was created successfully.
     Otherwise it returns an error.
+
 
 
 
 ## -remarks
 
 
+
 The <b>AddPrintDeviceObject</b> function should be called in the following situations:
 
 <b>User installs a Printer</b>
+
 <ul>
 <li>
 The print provider should call this function after installing the printer.
@@ -104,7 +108,9 @@ The print provider should call this function after installing the printer.
 The function must be called by impersonating the user who is installing the printer.
 
 </li>
-</ul><b>Print Provider is intialized after spooler service starts</b>
+</ul>
+<b>Print Provider is intialized after spooler service starts</b>
+
 <ul>
 <li>
 The print provider should call this function for each previously-installed Printer owned by the provider. During this time, <b>AddPrintDeviceObject</b> doesn't have to impersonate the user context when it is called.<div class="alert"><b>Note</b>  Any device object that is added using  <b>AddPrintDeviceObject</b> will persist until you remove it using <a href="..\winsplp\nf-winsplp-removeprintdeviceobject.md">RemovePrintDeviceObject</a>, or 
@@ -116,9 +122,12 @@ The print provider should call this function for each previously-installed Print
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-removeprintdeviceobject.md">RemovePrintDeviceObject</a>
+
+
 
  
 

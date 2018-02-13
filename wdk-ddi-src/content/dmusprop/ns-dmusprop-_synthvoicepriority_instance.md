@@ -7,8 +7,8 @@ old-location: audio\synthvoicepriority_instance.htm
 old-project: audio
 ms.assetid: dc9acd16-c515-4e47-9a0b-9dec46e30f74
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, _SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE, audio.synthvoicepriority_instance, SYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices], dmusprop/SYNTHVOICEPRIORITY_INSTANCE
+ms.date: 2/8/2018
+ms.keywords: dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices], PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], PSYNTHVOICEPRIORITY_INSTANCE, _SYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE, audio.synthvoicepriority_instance, SYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYNTHVOICEPRIORITY_INSTANCE
 product: Windows
 targetos: Windows
-req.typenames: SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE
+req.typenames: "*PSYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE"
 ---
 
 # _SYNTHVOICEPRIORITY_INSTANCE structure
@@ -81,7 +81,9 @@ Specifies the channel that the voice is on. This member contains a channel numbe
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537407">KSPROPERTY_SYNTH_VOICEPRIORITY</a> property request uses the SYNTHVOICEPRIORITY_INSTANCE structure for its property descriptor. The structure specifies which voice gets priority when the miniport driver needs to bump voices from the cache.
+
 
 
 
@@ -89,9 +91,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537407">KSPRO
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537407">KSPROPERTY_SYNTH_VOICEPRIORITY</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTHVOICEPRIORITY_INSTANCE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTHVOICEPRIORITY_INSTANCE structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

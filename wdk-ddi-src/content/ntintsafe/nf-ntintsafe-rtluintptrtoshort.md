@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F381965B-0482-4D1A-874D-A1308812DB24
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUIntPtrToShort, kernel.rtluintptrtoshort, RtlUIntPtrToShort, RtlUIntPtrToShort function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtluintptrtoshort, RtlUIntPtrToShort function [Kernel-Mode Driver Architecture], RtlUIntPtrToShort, ntintsafe/RtlUIntPtrToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,13 +81,16 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlSizeTToShort
 </li>
 <li>RtlSizeTToInt16
 </li>
 </ul>
+
 

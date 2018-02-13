@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A47BEA59-CBDD-41B5-9CEB-DC354D2BCC72
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_ULONG64, WDF_READ_REGISTER_ULONG64 function, WDF_READ_REGISTER_ULONG64, wdf.wdf_read_register_ulong64
+ms.keywords: wdf.wdf_read_register_ulong64, WDF_READ_REGISTER_ULONG64 function, wdfhwaccess/WDF_READ_REGISTER_ULONG64, WDF_READ_REGISTER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,8 @@ A pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>WDF_READ_REGISTER_ULONG64</b> returns the ULONG64 value that is read from the specified port address.
+
 
 

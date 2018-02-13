@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 16eb6131-89d5-48da-b5f8-f51b9c37e061
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd
+ms.keywords: display.d3dddiarg_dxvahd_videoprocessblthd, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,7 +99,9 @@ typedef struct _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD {
 ## -remarks
 
 
+
 The output surface that the <b>OutputSurface</b> member specifies, which must be one of the following surface types:
+
 <ul>
 <li>
 A video surface that is created with the DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT type. 
@@ -117,7 +119,8 @@ A swap chain.
 A swap chain with overlay swap effect. 
 
 </li>
-</ul>If the frame that the <b>OutputFrame</b> member specifies remains unchanged at the next process time, the driver determines that the frame is unchanged (for example, paused) in the entire video processing and composition. Therefore, the driver can use cached data to optimize the frame.
+</ul>
+If the frame that the <b>OutputFrame</b> member specifies remains unchanged at the next process time, the driver determines that the frame is unchanged (for example, paused) in the entire video processing and composition. Therefore, the driver can use cached data to optimize the frame.
 
 The driver also uses the frame that the <b>OutputFrame</b> member specifies for tagging the command, which the driver submits to the graphics processing unit (GPU).
 
@@ -125,15 +128,24 @@ Input streams are indexed from zero to less than the number that the driver sets
 
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
+
+
 
  
 

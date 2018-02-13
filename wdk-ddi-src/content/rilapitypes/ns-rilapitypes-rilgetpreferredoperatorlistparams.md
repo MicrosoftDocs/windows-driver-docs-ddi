@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bca0f1a1-2951-40c3-85b4-6009176ea574
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILGETPREFERREDOPERATORLISTPARAMS, *LPRILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetpreferredoperatorlistparams_2
+ms.keywords: RILGETPREFERREDOPERATORLISTPARAMS, rilapitypes/RILGETPREFERREDOPERATORLISTPARAMS, *LPRILGETPREFERREDOPERATORLISTPARAMS, netvista.rilgetpreferredoperatorlistparams_2, RILGETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETPREFERREDOPERATORLISTPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS"
+req.typenames: RILGETPREFERREDOPERATORLISTPARAMS, *LPRILGETPREFERREDOPERATORLISTPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILGETPREFERREDOPERATORLISTPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwFormat
-
 

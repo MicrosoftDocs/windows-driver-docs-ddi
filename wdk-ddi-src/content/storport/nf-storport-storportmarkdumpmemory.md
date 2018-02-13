@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, StorPortMarkDumpMemory, storport/StorPortMarkDumpMemory
+ms.keywords: StorPortMarkDumpMemory, MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory routine [Storage Devices], storport/StorPortMarkDumpMemory, storage.storportmarkdumpmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,6 +89,7 @@ The length of the marked memory range.
 ### -param Flags [in]
 
 Dump memory marking flags. The <i>Flags</i> parameter must be 0 or contain only the following value.
+
 <table>
 <tr>
 <th>Value</th>
@@ -104,13 +105,16 @@ The address provided in <i>Address</i> is a physical address and not a system vi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>StorPortMarkDumpMemory</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,11 +142,14 @@ An invalid flag value was specified in the <i>Flags</i> parameter.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>StorPortMarkDumpMemory</b> routine must only be called by a miniport driver in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> or <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routines.
@@ -150,5 +157,6 @@ The <b>StorPortMarkDumpMemory</b> routine must only be called by a miniport driv
 If <i>Length</i> = 0, the entire section containing <i>Address</i> is marked.
 
 Miniport drivers should call <b>StorPortMarkDumpMemory</b> to ensure that the memory used by the miniport to generate either the dump file or the hibernation file is identified. At a minimum, miniports should call <b>StorPortMarkDumpMemory</b> when the <b>DumpMode</b> member of <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> is set to either <b>DUMP_MODE_MARK_MEMORY</b> or <b>DUMP_MODE_HIBER</b>.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CE8BBFB7-FC6C-458B-89EC-355A6DD18399
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbpacketrestore, VmbPacketRestore, vmbuskernelmodeclientlibapi/VmbPacketRestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketRestore, VmbPacketRestore, netvista.vmbpacketrestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbPacketRestore
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -93,6 +93,8 @@ The size, in bytes, of buffer.
 ## -returns
 
 
+
 <b>VmbPacketRestore</b> returns a status code.
+
 
 

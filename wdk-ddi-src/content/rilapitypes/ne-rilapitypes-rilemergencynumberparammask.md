@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a59daf60-43d9-4fe4-af72-dc031f259133
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_ENUM_ALL, rilapitypes/RIL_PARAM_ENUM_UICC, RILEMERGENCYNUMBERPARAMMASK, RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_NUMBER, rilapitypes/RIL_PARAM_ENUM_NUMBER, netvista.rilemergencynumberparammask_2, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ENUM_UICC, rilapitypes/RILEMERGENCYNUMBERPARAMMASK, rilapitypes/RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_ALL
+ms.keywords: netvista.rilemergencynumberparammask_2, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ENUM_ALL, rilapitypes/RIL_PARAM_ENUM_ALL, rilapitypes/RIL_PARAM_ENUM_NUMBER, rilapitypes/RILEMERGENCYNUMBERPARAMMASK, RIL_PARAM_ENUM_NUMBER, rilapitypes/RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_UICC, RIL_PARAM_ENUM_CATEGORY, rilapitypes/RIL_PARAM_ENUM_UICC, RILEMERGENCYNUMBERPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,19 +74,14 @@ typedef enum _RILEMERGENCYNUMBERPARAMMASK {
 ### -field RIL_PARAM_ENUM_EXECUTOR
 
 
-
 ### -field RIL_PARAM_ENUM_UICC
-
 
 
 ### -field RIL_PARAM_ENUM_CATEGORY
 
 
-
 ### -field RIL_PARAM_ENUM_NUMBER
 
 
-
 ### -field RIL_PARAM_ENUM_ALL
-
 

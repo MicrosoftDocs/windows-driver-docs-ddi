@@ -78,10 +78,12 @@ Retrieves the file handle of a KS object.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsObject.
 
 <b>IKsObject</b> is defined in <i>Ksproxy.h</i> within the #ifdef __STREAMS__ section.
 
 __STREAMS__ is defined in <i>Stream.h</i>, a header from the DirectX SDK.
+
 
 

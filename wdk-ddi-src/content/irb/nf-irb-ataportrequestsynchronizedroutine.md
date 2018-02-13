@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc4faca4-4d44-4b3e-bace-718fc8774f54
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRequestSynchronizedRoutine, AtaPortRequestSynchronizedRoutine routine [Storage Devices], atartns_612d4956-589d-4404-b3d3-f72eb6119e65.xml, storage.ataportrequestsynchronizedroutine, AtaPortRequestSynchronizedRoutine
+ms.keywords: irb/AtaPortRequestSynchronizedRoutine, AtaPortRequestSynchronizedRoutine routine [Storage Devices], AtaPortRequestSynchronizedRoutine, storage.ataportrequestsynchronizedroutine, atartns_612d4956-589d-4404-b3d3-f72eb6119e65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - SynchronizedRoutine [in]
 
 A pointer to the routine to call. 
@@ -87,11 +88,14 @@ A pointer to the routine to call.
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 This routine is typically used by miniport drivers that set the <b>SyncWithIsr</b> member of the <a href="..\irb\ns-irb-_ide_channel_configuration.md">IDE_CHANNEL_CONFIGURATION</a> structure to <b>FALSE</b>. When <b>SyncWithIsr</b> is set to <b>FALSE</b>, the miniport driver should use the <b>AtaPortRequestSynchronizedRoutine </b>routine to ensure synchronized access to data structures that are modified in the ISR. 
@@ -101,6 +105,7 @@ The pointer to the channel extension that is stored in <i>ChannelExtension</i> w
 When the port driver calls the routine that is pointed to by <i>SynchronizedRoutine</i>, it passes the pointer to the channel extension that is stored in <i>ChannelExtension</i>.
 
 The <i>SynchronizedRoutine</i> function pointer is declared in <i>Irb.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -117,9 +122,12 @@ VOID
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportcontrollersyncroutine.md">AtaPortControllerSyncRoutine</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.umdetwunregister, umdprovider/UMDEtwUnregister, UMDEtwUnregister, UMDEtwUnregister function [Display Devices]
+ms.keywords: UMDEtwUnregister function [Display Devices], UMDEtwUnregister, display.umdetwunregister, umdprovider/UMDEtwUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,17 +67,22 @@ void UMDEtwUnregister(void);
 
 
 
+
 ## -returns
+
 
 
 This function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 <b>UMDEtwUnregister</b> is defined inline in Umdprovider.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -93,13 +98,17 @@ FORCEINLINE void UMDEtwUnregister()
 }</pre>
 </td>
 </tr>
-</table></span></div>The <a href="https://msdn.microsoft.com/fdcccf6f-2f31-4356-a4ee-3b6229c01b75">EventUnregister</a> function is  described in the <a href="https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404">Windows Events</a> documentation.
+</table></span></div>
+The <a href="https://msdn.microsoft.com/fdcccf6f-2f31-4356-a4ee-3b6229c01b75">EventUnregister</a> function is  described in the <a href="https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404">Windows Events</a> documentation.
+
 
 
 
 ## -see-also
 
 <a href="..\umdprovider\nf-umdprovider-umdetwregister.md">UMDEtwRegister</a>
+
+
 
  
 

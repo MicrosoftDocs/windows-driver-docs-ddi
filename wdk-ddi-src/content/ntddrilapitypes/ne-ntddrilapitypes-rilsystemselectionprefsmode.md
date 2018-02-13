@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f2d9bb70-cb0c-4e4b-be7a-11a89df739be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RIL_OPSELMODE_MANUAL, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MANUAL, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode, RIL_OPSELMODE_MAX
+ms.keywords: netvista.rilsystemselectionprefsmode, ntddrilapitypes/RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MAX, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,11 +71,8 @@ typedef enum _RILSYSTEMSELECTIONPREFSMODE {
 ### -field RIL_OPSELMODE_AUTOMATIC
 
 
-
 ### -field RIL_OPSELMODE_MANUAL
 
 
-
 ### -field RIL_OPSELMODE_MAX
-
 

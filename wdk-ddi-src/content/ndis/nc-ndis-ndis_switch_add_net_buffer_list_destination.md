@@ -40,7 +40,7 @@ apiname:
 -	AddNetBufferListDestination
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback
@@ -80,7 +80,9 @@ An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch m
 ### -param NetBufferList [in, out]
 
 A pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure for a packet. 
-<div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context. If the extension created or cloned the  packet, it must have previously allocated this structure by calling the <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a> function.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context. If the extension created or cloned the  packet, it must have previously allocated this structure by calling the <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a> function.</div>
+<div> </div>
 
 ### -param Destination [in]
 
@@ -90,7 +92,9 @@ A pointer to an <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_
 ## -returns
 
 
+
 If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it returns an NDIS_STATUS_<i>Xxx</i> error code that is defined in Ndis.h.
+
 
 
 
@@ -99,8 +103,13 @@ If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it re
 ## -remarks
 
 
+
 The forwarding extensible switch extension calls <i>AddNetBufferListDestination</i> to define a single extensible switch destination port for a packet. The extension specifies this port by initializing an   <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a> structure. The extension sets the <i>Destination</i> parameter to a pointer to this structure. For more information on how to specify an extensible switch destination port, see <a href="https://msdn.microsoft.com/2781E64A-61D6-49A9-AD9B-F6B348560E30">Managing Hyper-V Extensible Switch Destination Port Data</a>.
-<div class="alert"><b>Note</b>  For performance reasons, the extension should not call <i>AddNetBufferListDestination</i> packets with multiple destination ports.</div><div> </div>The extension must follow these guidelines before it calls <i>AddNetBufferListDestination</i>:
+
+<div class="alert"><b>Note</b>  For performance reasons, the extension should not call <i>AddNetBufferListDestination</i> packets with multiple destination ports.</div>
+<div> </div>
+The extension must follow these guidelines before it calls <i>AddNetBufferListDestination</i>:
+
 <ul>
 <li>
 Only forwarding extensions can call <i>AddNetBufferListDestination</i> to add a destination port for a packet. For more information on this type of extension, see <a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>.
@@ -119,24 +128,41 @@ After the extension modifies the destination port information in the <a href="..
 </div>
 <div> </div>
 </li>
-</ul><div class="alert"><b>Note</b>  After the forwarding extension commits the changes for destination ports to the forwarding context, destination ports cannot be removed and only the <b>IsExcluded</b>  member of a destination port's <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a> structure can be changed. For more information, see <a href="https://msdn.microsoft.com/04BF02A6-360F-482E-A86B-31232AFCB778">Excluding Packet Delivery to Extensible Switch Destination Ports</a>.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  After the forwarding extension commits the changes for destination ports to the forwarding context, destination ports cannot be removed and only the <b>IsExcluded</b>  member of a destination port's <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a> structure can be changed. For more information, see <a href="https://msdn.microsoft.com/04BF02A6-360F-482E-A86B-31232AFCB778">Excluding Packet Delivery to Extensible Switch Destination Ports</a>.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
 
 <a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <b></b>
+
+
 
  
 

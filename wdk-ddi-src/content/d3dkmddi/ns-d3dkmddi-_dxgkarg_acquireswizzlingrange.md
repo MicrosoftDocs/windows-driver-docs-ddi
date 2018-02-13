@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, display.dxgkarg_acquireswizzlingrange, DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], *INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE, d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, _DXGKARG_ACQUIRESWIZZLINGRANGE
+ms.keywords: DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, *INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, display.dxgkarg_acquireswizzlingrange, _DXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE, d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,13 +104,21 @@ typedef struct _DXGKARG_ACQUIRESWIZZLINGRANGE {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+
+
 
  
 

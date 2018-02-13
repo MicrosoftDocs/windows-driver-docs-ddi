@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1a166876-88b9-484d-bceb-0446875185cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.pci_device_present_interface, *PPCI_DEVICE_PRESENT_INTERFACE, wdm/, _PCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE structure [Buses]
+ms.keywords: "_PCI_DEVICE_PRESENT_INTERFACE, *PPCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE, wdm/, PCI_DEVICE_PRESENT_INTERFACE structure [Buses], PCI.pci_device_present_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

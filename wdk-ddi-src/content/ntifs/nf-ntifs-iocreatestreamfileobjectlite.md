@@ -7,8 +7,8 @@ old-location: ifsk\iocreatestreamfileobjectlite.htm
 old-project: ifsk
 ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IoCreateStreamFileObjectLite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, ifsk.iocreatestreamfileobjectlite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], ntifs/IoCreateStreamFileObjectLite
+ms.date: 2/7/2018
+ms.keywords: ntifs/IoCreateStreamFileObjectLite, ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, IoCreateStreamFileObjectLite routine [Installable File System Drivers], IoCreateStreamFileObjectLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to a device object for the device on which the stream file is to be op
 ## -returns
 
 
+
 <b>IoCreateStreamFileObjectLite</b> returns a pointer to the newly created stream file object.
 
 
 
+
 ## -remarks
+
 
 
 File systems call <b>IoCreateStreamFileObjectLite</b> to create a new stream file object. A <i>stream file object</i> is identical to an ordinary file object, except that the FO_STREAM_FILE file object flag is set. 
@@ -102,23 +105,36 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateStreamFileObjectLite routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateStreamFileObjectLite routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2813c28c-e964-44ee-9995-15aa563c43d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILOPERATORNAMES, *LPRILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], rilapitypes/RILOPERATORNAMES, netvista.riloperatornames
+ms.keywords: "*LPRILOPERATORNAMES, rilapitypes/RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], RILOPERATORNAMES, netvista.riloperatornames"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,13 +92,10 @@ Must specify one and only one system type.
 ### -field wszLongName
 
 
-
 ### -field wszShortName
 
 
-
 ### -field wszNumName
-
 
 
 ### -field wszCountryCode
@@ -109,6 +106,8 @@ Mobile country code
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ff13908-57f2-404f-a8ea-70c798ee3d7d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_task_send_options_flags, WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTION_SYNCHRONOUS, _WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTION_TIMEOUT, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS
+ms.keywords: "_WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTION_TIMEOUT, WDF_TASK_SEND_OPTION_SYNCHRONOUS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT, wdf.wdf_task_send_options_flags, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS, WDF_TASK_SEND_OPTIONS_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,7 +72,5 @@ typedef enum _WDF_TASK_SEND_OPTIONS_FLAGS {
 ### -field WDF_TASK_SEND_OPTION_TIMEOUT
 
 
-
 ### -field WDF_TASK_SEND_OPTION_SYNCHRONOUS
-
 

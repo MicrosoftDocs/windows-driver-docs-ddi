@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 254eb89f-c330-4fca-8c58-6dbe56861743
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventCallbacksWide, GetEventCallbacksWide method [Windows Debugging], IDebugClient5, GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, debugger.geteventcallbackswide, IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method, IDebugClient5::GetEventCallbacksWide, dbgeng/IDebugClient5::GetEventCallbacksWide
+ms.keywords: GetEventCallbacksWide method [Windows Debugging], IDebugClient5::GetEventCallbacksWide, IDebugClient5, GetEventCallbacksWide, GetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetEventCallbacksWide method, dbgeng/IDebugClient5::GetEventCallbacksWide, debugger.geteventcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Receives an interface pointer to the event callbacks object registered with this
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Each client can have at most one <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> or <b>IDebugEventCallbacksWide</b> object registered with it for receiving <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a>.
@@ -109,13 +114,20 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 

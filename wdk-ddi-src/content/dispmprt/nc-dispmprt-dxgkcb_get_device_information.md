@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbGetDeviceInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_GET_DEVICE_INFORMATION callback
@@ -84,15 +84,21 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVIC
 ## -returns
 
 
+
 <i>DxgkCbGetDeviceInformation</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns STATUS_INVALID_PARAMETER.
+
 
 
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
 
  
 

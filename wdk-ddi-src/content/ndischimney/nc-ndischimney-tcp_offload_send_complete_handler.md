@@ -96,11 +96,14 @@ A pointer to a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In response to an underlying driver's or offload target's call to the 
@@ -112,6 +115,7 @@ In response to an underlying driver's or offload target's call to the
 To propagate the completion of the I/O operation to the overlying driver or host stack, the
     intermediate driver itself calls the 
     <b>NdisOffloadTcpSendComplete</b> function, passing in the following:
+
 <ul>
 <li>
 A 
@@ -123,7 +127,8 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
       <i>ProtocolTcpOffloadSendComplete</i> function.
 
 </li>
-</ul>In response, NDIS calls the overyling driver's 
+</ul>
+In response, NDIS calls the overyling driver's 
     <i>ProtocolTcpOffloadSendComplete</i> function, passing a 
     <i>ProtocolBindingContext</i> handle and the PNET_BUFFER_LIST pointer supplied by the intermediate driver
     to the 
@@ -131,17 +136,28 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 
 
+
 ## -see-also
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpSendOffload</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpsend.md">NdisOffloadTcpSend</a>
 
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

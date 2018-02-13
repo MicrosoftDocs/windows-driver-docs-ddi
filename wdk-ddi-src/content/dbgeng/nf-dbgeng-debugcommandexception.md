@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], debugger.debugcommandexception, dbgeng/DebugCommandException
+ms.keywords: dbgeng/DebugCommandException, DebugCommandException, debugger.debugcommandexception, DebugCommandException function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to an argument.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

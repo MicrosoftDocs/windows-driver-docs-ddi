@@ -7,8 +7,8 @@ old-location: ifsk\rtlsubauthoritycountsid.htm
 old-project: ifsk
 ms.assetid: 11e825ad-3d8f-46cf-a08a-4027ff38ab90
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtlsubauthoritycountsid, RtlSubAuthorityCountSid function [Installable File System Drivers], rtlref_a90cc5aa-161f-466b-975f-16ec42b70539.xml, ntifs/RtlSubAuthorityCountSid, RtlSubAuthorityCountSid
+ms.date: 2/7/2018
+ms.keywords: RtlSubAuthorityCountSid function [Installable File System Drivers], ntifs/RtlSubAuthorityCountSid, ifsk.rtlsubauthoritycountsid, rtlref_a90cc5aa-161f-466b-975f-16ec42b70539.xml, RtlSubAuthorityCountSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

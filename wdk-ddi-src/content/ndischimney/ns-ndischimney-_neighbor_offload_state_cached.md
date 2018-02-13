@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5dedffa8-9745-4668-8646-0e896942b9c8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNEIGHBOR_OFFLOAD_STATE_CACHED, PNEIGHBOR_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/NEIGHBOR_OFFLOAD_STATE_CACHED, *PNEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CACHED, netvista.neighbor_offload_state_cached, NEIGHBOR_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_053f9a79-057c-4d4b-8ad1-2910f0ad4a9a.xml, NEIGHBOR_OFFLOAD_STATE_CACHED
+ms.keywords: NEIGHBOR_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_053f9a79-057c-4d4b-8ad1-2910f0ad4a9a.xml, PNEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CACHED, PNEIGHBOR_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], NEIGHBOR_OFFLOAD_STATE_CACHED, *PNEIGHBOR_OFFLOAD_STATE_CACHED, _NEIGHBOR_OFFLOAD_STATE_CACHED, netvista.neighbor_offload_state_cached, ndischimney/NEIGHBOR_OFFLOAD_STATE_CACHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NEIGHBOR_OFFLOAD_STATE_CACHED
 product: Windows
 targetos: Windows
-req.typenames: NEIGHBOR_OFFLOAD_STATE_CACHED, *PNEIGHBOR_OFFLOAD_STATE_CACHED
+req.typenames: "*PNEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED"
 ---
 
 # _NEIGHBOR_OFFLOAD_STATE_CACHED structure
@@ -100,6 +100,7 @@ The host stack's current time minus
 ## -remarks
 
 
+
 Cached variables are owned and maintained by the host stack. An offload target must not change the
     value of a cached variable unless requested to do so by the host stack. If the value of a cached variable
     changes, the host stack requests an update of the variable, which causes NDIS to call the offload
@@ -120,20 +121,33 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_CACHED structure is a
 
 
 
+
 ## -see-also
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

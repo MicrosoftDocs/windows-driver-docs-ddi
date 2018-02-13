@@ -92,9 +92,13 @@ The encode bit rate, in kilobits per second, that the user-mode driver reported 
 
 ## -see-also
 
+<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
+
+
+
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
+
 
  
 

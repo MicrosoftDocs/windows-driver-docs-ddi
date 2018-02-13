@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4CCD3D00-CDE4-425A-BB4B-A2088D6A1603
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_SPB_I2C_RESOURCE, PEP_ACPI_SPB_I2C_RESOURCE structure [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_I2C_RESOURCE, *PPEP_ACPI_SPB_I2C_RESOURCE, PPEP_ACPI_SPB_I2C_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_I2C_RESOURCE, kernel.pep_acpi_spb_i2c_resource, pepfx/PPEP_ACPI_SPB_I2C_RESOURCE, pepfx/PEP_ACPI_SPB_I2C_RESOURCE
+ms.keywords: PEP_ACPI_SPB_I2C_RESOURCE structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_SPB_I2C_RESOURCE, PEP_ACPI_SPB_I2C_RESOURCE, _PEP_ACPI_SPB_I2C_RESOURCE, PPEP_ACPI_SPB_I2C_RESOURCE, pepfx/PEP_ACPI_SPB_I2C_RESOURCE, pepfx/PPEP_ACPI_SPB_I2C_RESOURCE, PPEP_ACPI_SPB_I2C_RESOURCE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_spb_i2c_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_SPB_I2C_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_SPB_I2C_RESOURCE, *PPEP_ACPI_SPB_I2C_RESOURCE
+req.typenames: "*PPEP_ACPI_SPB_I2C_RESOURCE, PEP_ACPI_SPB_I2C_RESOURCE"
 ---
 
 # _PEP_ACPI_SPB_I2C_RESOURCE structure
@@ -87,6 +87,8 @@ The I2C bus address for this connection.
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6d530cf2-de06-4aa3-9f4d-08619906c9ed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressInvalidPolicy, wdf.wdf_io_forward_progress_reserved_policy, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, WdfIoForwardProgressReservedPolicyUseExamine, wdfio/WdfIoForwardProgressReservedPolicyUseExamine, kmdf.wdf_io_forward_progress_reserved_policy, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressReservedPolicyPagingIO, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
+ms.keywords: wdfio/WdfIoForwardProgressReservedPolicyUseExamine, WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, WdfIoForwardProgressReservedPolicyUseExamine, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressInvalidPolicy, kmdf.wdf_io_forward_progress_reserved_policy, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, wdf.wdf_io_forward_progress_reserved_policy, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,7 +76,6 @@ typedef enum _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY {
 ### -field WdfIoForwardProgressInvalidPolicy
 
 
-
 ### -field WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
 
 In a low-memory situation, the framework always uses a reserved request object, if one is available.
@@ -95,6 +94,8 @@ In a low-memory situation, if the <b>Flags</b> member of the I/O request's <a hr
 ## -remarks
 
 
+
 The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration is used as a member type in the <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
+
 
 

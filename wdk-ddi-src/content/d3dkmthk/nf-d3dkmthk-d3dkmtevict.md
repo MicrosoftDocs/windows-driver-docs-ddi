@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtevict, D3DKMTEvict, d3dkmthk/D3DKMTEvict, D3DKMTEvict function [Display Devices]
+ms.keywords: D3DKMTEvict function [Display Devices], D3DKMTEvict, display.d3dkmtevict, d3dkmthk/D3DKMTEvict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTEvict(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_evict.md">D3DKMT_EVICT</a> structure that describes the operation.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_evict.md">D3DKMT_EVICT</
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,22 +111,28 @@ The operation was performed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -remarks
 
 
+
 Once the eviction request is queued, it is illegal to access the underlying allocation as the allocation may be evicted at anytime from there on at the operating system discretion.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_evict.md">D3DKMT_EVICT</a>
+
+
 
  
 

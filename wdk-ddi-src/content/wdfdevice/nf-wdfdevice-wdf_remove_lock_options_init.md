@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 08D0CE94-E37E-4BAE-99C8-FB4EDF7BCDDB
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT, kmdf.wdf_remove_lock_options_init, wdf.wdf_remove_lock_options_init, WDF_REMOVE_LOCK_OPTIONS_INIT function, WDF_REMOVE_LOCK_OPTIONS_INIT
+ms.keywords: wdf.wdf_remove_lock_options_init, WDF_REMOVE_LOCK_OPTIONS_INIT function, WDF_REMOVE_LOCK_OPTIONS_INIT, kmdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">W
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> function zeros the <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure that the <i>RemoveLockOptions</i> parameter specifies and sets its <b>Size</b> member. This function also sets the structure's <b>Flags</b> member to the value provided in the <i>Flags</i> parameter.
@@ -105,13 +108,20 @@ For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href=".
 
 
 
+
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
+
+
 
 <a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+
+
 
  
 

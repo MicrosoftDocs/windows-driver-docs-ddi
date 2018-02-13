@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 211d41ae-18d3-4ca5-b9f5-868d97fab6fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIDeviceObjectToProviderId, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, wdm/IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], kernel.iowmideviceobjecttoproviderid
+ms.keywords: wdm/IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], IoWMIDeviceObjectToProviderId, kernel.iowmideviceobjecttoproviderid, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to a device object.
 ## -returns
 
 
+
 <b>IoWMIDeviceObjectToProviderId </b>returns the WMI Provider ID associated with the specified device object.
 
 
 
+
 ## -remarks
+
 
 
 <b>IoWMIDeviceObjectToProviderId</b> should be used when filling in the <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure in those cases when the <b>WNODEHEADER</b> structure is being initialized as part of a <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a> or <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a> structure. (If the <b>WNODE_HEADER</b> is being used for other purposes, <i>ProviderId</i> is reserved.)
@@ -89,13 +92,20 @@ When running on a 32-bit operating system, the provider ID and the device object
 
 
 
-## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+## -see-also
 
 <a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
 
+
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
+
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+
 
  
 

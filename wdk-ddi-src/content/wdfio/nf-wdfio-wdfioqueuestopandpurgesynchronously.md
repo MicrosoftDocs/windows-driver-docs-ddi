@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueStopAndPurgeSynchronously, kmdf.wdfioqueuestopandpurgesynchronously, WdfIoQueueStopAndPurgeSynchronously method, wdf.wdfioqueuestopandpurgesynchronously, WdfIoQueueStopAndPurgeSynchronously, PFN_WDFIOQUEUESTOPANDPURGESYNCHRONOUSLY
+ms.keywords: wdf.wdfioqueuestopandpurgesynchronously, wdfio/WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously, PFN_WDFIOQUEUESTOPANDPURGESYNCHRONOUSLY, kmdf.wdfioqueuestopandpurgesynchronously, WdfIoQueueStopAndPurgeSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ A handle to a framework queue object.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This method returns after all the unprocessed and driver-owned requests (not including requests added to the queue after this call is made) are completed or canceled. If new requests are inserted while <b>WdfIoQueueStopAndPurgeSynchronously</b> is in progress, these new requests are not delivered until driver calls <a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>.
@@ -96,9 +99,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurge.md">WdfIoQueueStopAndPurge</a>
+
+
 
  
 

@@ -7,7 +7,7 @@ old-location: audio\iportwavert.htm
 old-project: audio
 ms.assetid: ba54320e-42b3-489c-a192-dce794c3b3d4
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iportwavert, IPortWaveRT interface [Audio Devices], IPortWaveRT interface [Audio Devices], described, IPortWaveRT, portcls/IPortWaveRT, audmp-routines_0c88b444-3414-49e0-a021-2bc4cd6f1fff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -111,12 +111,14 @@ Enables object logging for all objects.
 ## -remarks
 
 
+
 <b>WDTF</b> object logging defaults to disabled. If object logging is enabled, 
 each <b>WDTF</b> object writes to the test scripts log. If object logging is enabled, 
 object error logging is enabled by default.
 
 The following example shows the logging output for a call to 
 <b>DeviceDepot.Query("Volume::")</b> when logging is enabled for an example system.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -137,4 +139,5 @@ WDTF_TARGETS    : INFO  :          Target: Generic volume
 </td>
 </tr>
 </table></span></div>
+
 

@@ -7,8 +7,8 @@ old-location: ifsk\rxcebuildconnectionovermultipletransports.htm
 old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rxcebuildconnectionovermultipletransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildConnectionOverMultipleTransports
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -134,14 +134,17 @@ Create options that determine which transport will be selected for establishing 
 
 
 
+
 #### RxCeSelectFirstSuccessfulTransport
 
 Select the first successful transport that responds.
 
 
+
 #### RxCeSelectBestSuccessfulTransport
 
 Select the best successful transport that responds.
+
 
 
 #### RxCeSelectAllSuccessfulTransports
@@ -152,7 +155,9 @@ Select all of the successful transports that respond.
 ## -returns
 
 
+
 <b>RxCeBuildConnectionOverMultipleTransports</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -202,11 +207,14 @@ One of the asynchronous calls to the different transports passed as input parame
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>RxCeBuildConnectionOverMultipleTransports</b> will initiate a series of asynchronous calls to all of the different transports passed in as parameters to try and build a connection. The network mini-redirector cannot be unloaded until all of these asynchronous requests are completed.
@@ -219,17 +227,24 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
 
 <a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
- 
+
+
+<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeBuildConnectionOverMultipleTransports routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeBuildConnectionOverMultipleTransports routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

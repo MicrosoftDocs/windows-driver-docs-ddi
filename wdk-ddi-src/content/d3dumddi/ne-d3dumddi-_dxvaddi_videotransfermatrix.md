@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ef1f3c9b-70e5-48bd-b9f4-60ec661dc880
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrix_BT709, DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VideoTransferMatrix_Unknown, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, d3dumddi/DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, DXVADDI_VideoTransferMatrix_SMPTE240M, DXVADDI_VideoTransferMatrix_BT601, display.dxvaddi_videotransfermatrix, _DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices]
+ms.keywords: DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, DXVADDI_VideoTransferMatrix_SMPTE240M, DXVADDI_VideoTransferMatrix_Unknown, DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, display.dxvaddi_videotransfermatrix, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, _DXVADDI_VIDEOTRANSFERMATRIX, DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VideoTransferMatrixMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,13 +99,17 @@ Specifies a HD video standard that is rarely used in Japan.
 ## -remarks
 
 
+
 One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+
 
  
 

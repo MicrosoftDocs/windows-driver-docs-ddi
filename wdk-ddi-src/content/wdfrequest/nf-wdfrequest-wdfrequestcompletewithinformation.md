@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, kmdf.wdfrequestcompletewithinformation, wdfrequest/WdfRequestCompleteWithInformation, wdf.wdfrequestcompletewithinformation, PFN_WDFREQUESTCOMPLETEWITHINFORMATION, WdfRequestCompleteWithInformation method, WdfRequestCompleteWithInformation
+ms.keywords: WdfRequestCompleteWithInformation method, wdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation, PFN_WDFREQUESTCOMPLETEWITHINFORMATION, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, wdfrequest/WdfRequestCompleteWithInformation, kmdf.wdfrequestcompletewithinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,14 +87,17 @@ An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTS
 
 
 
+
 #### STATUS_SUCCESS
 
 The driver successfully completed the request.
 
 
+
 #### STATUS_CANCELLED
 
 The driver canceled the request.
+
 
 
 #### STATUS_UNSUCCESSFUL
@@ -110,6 +113,7 @@ Driver-defined completion status information for the request, such as the number
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -118,7 +122,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Calling <b>WdfRequestCompleteWithInformation</b> is equivalent to calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a> and then calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>.
@@ -130,22 +136,93 @@ When your driver calls <b>WdfRequestCompleteWithInformation</b>, the framework s
 For more information about calling <b>WdfRequestCompleteWithInformation</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
+#### Examples
+
+The following code example shows how a driver for a USB device might call <b>WdfRequestCompleteWithInformation</b> in a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function .
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+EvtRequestReadCompletionRoutine(
+    IN WDFREQUEST  Request,
+    IN WDFIOTARGET  Target,
+    PWDF_REQUEST_COMPLETION_PARAMS  CompletionParams,
+    IN WDFCONTEXT  Context
+    )
+{    
+    NTSTATUS  status;
+    size_t  bytesRead = 0;
+    PWDF_USB_REQUEST_COMPLETION_PARAMS  usbCompletionParams;
+
+    UNREFERENCED_PARAMETER(Target);
+    UNREFERENCED_PARAMETER(Context);
+
+    status = CompletionParams-&gt;IoStatus.Status;
+    usbCompletionParams = CompletionParams-&gt;Parameters.Usb.Completion;
+    bytesRead =  usbCompletionParams-&gt;Parameters.PipeRead.Length;
+ 
+    if (NT_SUCCESS(status)){
+        TraceEvents(
+                    TRACE_LEVEL_INFORMATION,
+                    DBG_READ,
+                    "Number of bytes read: %I64d\n",
+                    (INT64)bytesRead
+                    );
+    } else {
+        TraceEvents(
+                    TRACE_LEVEL_ERROR,
+                    DBG_READ,
+                    "Read failed - request status 0x%x UsbdStatus 0x%x\n",
+                    status,
+                    usbCompletionParams-&gt;UsbdStatus
+                    );
+    }
+    WdfRequestCompleteWithInformation(
+                                      Request,
+                                      status,
+                                      bytesRead
+                                      );
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
+
+
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
+
+
 
  
 

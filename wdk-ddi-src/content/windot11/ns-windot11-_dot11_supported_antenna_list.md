@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45c6b9a3-b834-4e57-b7f8-fab7be749269
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_supported_antenna_list, windot11/DOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, DOT11_SUPPORTED_ANTENNA_LIST, windot11/PDOT11_SUPPORTED_ANTENNA_LIST, _DOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SUPPORTED_ANTENNA_LIST, *PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, _DOT11_SUPPORTED_ANTENNA_LIST, *PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST, netvista.dot11_supported_antenna_list, PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_ANTENNA_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,6 +94,7 @@ The list of supported antennas. Each element in this list is formatted as a
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_SUPPORTED_ANTENNA_LIST structure when queried by either 
     <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">
     OID_DOT11_SUPPORTED_RX_ANTENNA</a> or 
@@ -108,6 +109,7 @@ When these OIDs are queried, the miniport driver must verify that the
     <b>dot11SupportedAntenna</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
+
 <ul>
 <li>
 If the value of the 
@@ -172,13 +174,20 @@ Return NDIS_STATUS_SUCCESS from its
 </ul>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+
 
 <a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">DOT11_SUPPORTED_ANTENNA</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueryExtendedSize, IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, KsQueryExtendedSize method [Streaming Media Devices], ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, stream.iksdatatypehandler_ksqueryextendedsize, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler
+ms.keywords: KsQueryExtendedSize, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], KsQueryExtendedSize method, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, stream.iksdatatypehandler_ksqueryextendedsize, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler::KsQueryExtendedSize, IKsDataTypeHandler, KsQueryExtendedSize method [Streaming Media Devices], IKsDataTypeHandler interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,14 +75,18 @@ Pointer to a variable that receives the extended header size in bytes.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients should not call the <a href="https://msdn.microsoft.com/16411d58-5fff-430f-b96d-78eed1dbb01c">KsPrepareIoOperation</a> and <a href="https://msdn.microsoft.com/46a58007-16bf-422b-8408-30a7b65dbee6">KsCompleteIoOperation</a> methods of the <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a> interface because I/O preparation and completion operations are not required. For all other values that <b>KsQueryExtendedSize</b> returns at <i>ExtendedSize</i>, clients should allocate memory space for the extended stream header per the returned value and call <b>KsPrepareIoOperation</b> and <b>KsCompleteIoOperation</b> to prepare and complete the I/O operation associated with the header.
+
 
 
 
@@ -90,7 +94,11 @@ If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients shoul
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559831">IKsDataTypeHandler::KsPrepareIoOperation</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559811">IKsDataTypeHandler::KsCompleteIoOperation</a>
+
+
 
  
 

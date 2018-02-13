@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, wudfddi/IWDFFile::GetDevice, GetDevice, GetDevice method, IWDFFile interface, IWDFFile interface, GetDevice method, IWDFFile::GetDevice, IWDFFile, GetDevice method, umdf.iwdffile_getdevice, wdf.iwdffile_getdevice
+ms.keywords: IWDFFile, wudfddi/IWDFFile::GetDevice, IWDFFile::GetDevice, GetDevice method, IWDFFile interface, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, umdf.iwdffile_getdevice, GetDevice, IWDFFile interface, GetDevice method, wdf.iwdffile_getdevice, GetDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,15 +78,21 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 
  
 

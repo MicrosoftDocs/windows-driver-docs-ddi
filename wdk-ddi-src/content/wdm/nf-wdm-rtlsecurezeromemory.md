@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSecureZeroMemory, wdm/RtlSecureZeroMemory, kernel.rtlsecurezeromemory, k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory, RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Specifies the number of bytes to be filled with zeros.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The effect of <b>RtlSecureZeroMemory</b> is identical to that of <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>, except that it is guaranteed to zero the memory location, even if it is not subsequently written to. (The compiler can optimize away a call to <b>RtlZeroMemory</b>, if it determines that the caller does not access that memory range again.)
@@ -99,11 +102,16 @@ Callers of <b>RtlSecureZeroMemory</b> can be running at any IRQL if the <i>ptr</
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+
 
  
 

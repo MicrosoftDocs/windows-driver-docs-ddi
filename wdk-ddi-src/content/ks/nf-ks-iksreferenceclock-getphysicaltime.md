@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96c8d5ef-e9ab-40a6-88e1-56efdb7157b7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.iksreferenceclock_getphysicaltime, IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock::GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock, ks/IKsReferenceClock::GetPhysicalTime, GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml
+ms.keywords: IKsReferenceClock, IKsReferenceClock::GetPhysicalTime, stream.iksreferenceclock_getphysicaltime, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, ks/IKsReferenceClock::GetPhysicalTime, GetPhysicalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -66,14 +66,18 @@ LONGLONG GetPhysicalTime();
 
 
 
+
 ## -returns
+
 
 
 The <b>IKsReferenceClock::GetPhysicalTime</b> method returns the current physical time for the associated pin, specified by default in 100-nanosecond units.
 
 
 
+
 ## -remarks
+
 
 
 Physical time is tied to a physical clock, either the system clock or an on-board hardware clock.
@@ -88,9 +92,12 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
 
  
 

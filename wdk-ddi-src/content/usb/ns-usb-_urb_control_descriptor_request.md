@@ -7,8 +7,8 @@ old-location: buses\_urb_control_descriptor_request.htm
 old-project: usbref
 ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usb/_URB_CONTROL_DESCRIPTOR_REQUEST, buses._urb_control_descriptor_request, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml, _URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses]
+ms.date: 2/8/2018
+ms.keywords: buses._urb_control_descriptor_request, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], _URB_CONTROL_DESCRIPTOR_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,26 +92,6 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field _URB
-
- 
-
-
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
-
-
-### -field _URB_HCD_AREA
-
- 
-
-
 ### -field Reserved
 
 Reserved. Do not use.
@@ -135,6 +115,26 @@ Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is sup
 ### -field TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. This MDL must be allocated from nonpaged pool.
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field _URB
+
+ 
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
 
 
 ### -field Reserved1
@@ -165,6 +165,7 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 Drivers can use the <b>UsbBuildGetDescriptorRequest</b> service routine to format this URB. If the caller passes a buffer too small to hold all of the data, the bus driver truncates the data to fit in the buffer without error.
 
 When the caller requests the device descriptor, the bus driver returns a <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> data structure.
@@ -177,27 +178,44 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
+
 ## -see-also
-
-<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
- 
+
+
+<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_DESCRIPTOR_REQUEST structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_DESCRIPTOR_REQUEST structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

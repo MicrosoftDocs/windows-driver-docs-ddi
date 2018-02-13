@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize, PFN_WDFDEVSTATENORMALIZE
+ms.keywords: WdfDevStateNormalize method, wdfdevice/WdfDevStateNormalize, WdfDevStateNormalize, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, PFN_WDFDEVSTATENORMALIZE, DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A state machine value that is returned from <a href="..\wdfdevice\nf-wdfdevice-w
 ## -returns
 
 
+
 <b>WdfDevStateNormalize</b> returns the specified <i>State</i> value with extra bits removed.
+
 
 

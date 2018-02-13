@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e4e1fd7-9a36-4c35-8d9d-932a0d2e60a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_918a7c9b-3dba-4af3-aa2c-334861301304.xml, display.d3dkmt_createsynchronizationobject, D3DKMT_CREATESYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT, _D3DKMT_CREATESYNCHRONIZATIONOBJECT
+ms.keywords: d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT, D3DKMT_CREATESYNCHRONIZATIONOBJECT, OpenGL_Structs_918a7c9b-3dba-4af3-aa2c-334861301304.xml, display.d3dkmt_createsynchronizationobject, _D3DKMT_CREATESYNCHRONIZATIONOBJECT, D3DKMT_CREATESYNCHRONIZATIONOBJECT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,7 +88,11 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a>
+
+
 
  
 

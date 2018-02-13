@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_offerallocations, d3dkmthk/D3DKMT_OFFERALLOCATIONS, _D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices]
+ms.keywords: display.d3dkmt_offerallocations, D3DKMT_OFFERALLOCATIONS structure [Display Devices], _D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,11 +106,16 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>
 
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
+
+
 
  
 

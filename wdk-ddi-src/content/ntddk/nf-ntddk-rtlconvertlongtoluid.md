@@ -40,7 +40,7 @@ apiname:
 -	RtlConvertLongToLuid
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlConvertLongToLuid function
@@ -75,26 +75,38 @@ Specifies the long integer to convert.
 ## -returns
 
 
+
 <b>RtlConvertLongToLuid</b> returns the converted <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>.
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlConvertLongToLuid</b> is used to convert a system-defined privilege value to the locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) used by the system to represent that privilege. Drivers typically pass a LUID to <b>SeSinglePrivilegeCheck</b>, which is usually called by network transport drivers.
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertULongToLuid</a>
 
-<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: AD97BA14-8786-47A2-B551-2DB6FC7F83A8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxCleanupEvents, pos.poscxcleanupevents, poscx/PosCxCleanupEvents, PosCxCleanupEvents function
+ms.keywords: poscx/PosCxCleanupEvents, pos.poscxcleanupevents, PosCxCleanupEvents, PosCxCleanupEvents function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,6 +86,8 @@ A handle to a framework file object for which all pending events should be
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

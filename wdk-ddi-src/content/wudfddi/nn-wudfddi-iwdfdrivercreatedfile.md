@@ -80,6 +80,8 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close
 ## -remarks
 
 
+
 The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558828">IWDFDevice::CreateWdfFile</a> method to receive a pointer to a <b>IWDFDriverCreatedFile</b> interface.
+
 
 

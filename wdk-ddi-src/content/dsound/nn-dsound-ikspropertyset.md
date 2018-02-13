@@ -103,8 +103,10 @@ Sets a property.
 ## -remarks
 
 
+
 The <b>IKsPropertySet</b> interface methods translate user-mode property requests into kernel-mode property sets that are used by KS minidrivers. 
 
 KS objects include, for example, KS filters, KS pins, and KS clocks. 
+
 
 

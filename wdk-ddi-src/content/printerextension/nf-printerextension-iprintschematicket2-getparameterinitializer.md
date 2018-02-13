@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaTicket2, printerextension/IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, GetParameterInitializer method [Print Devices], IPrintSchematicket2 interface, IPrintSchematicket2 interface [Print Devices], GetParameterInitializer method, GetParameterInitializer, GetParameterInitializer method [Print Devices], IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2::GetParameterInitializer
+ms.keywords: GetParameterInitializer, GetParameterInitializer method [Print Devices], IPrintSchematicket2 interface, GetParameterInitializer method [Print Devices], IPrintSchematicket2::GetParameterInitializer, IPrintSchemaTicket2, printerextension/IPrintSchematicket2::GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices], GetParameterInitializer method, print.iprintschematicket2_getparameterinitializer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -90,15 +90,21 @@ The <a href="..\printerextension\nn-printerextension-iprintschemaparameterinitia
 ## -returns
 
 
+
 The <b>GetParameterInitializer</b> method returns an <b>HRESULT</b> value. If the property call was not successful, it returns the appropriate <b>HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprintschematicket2.md">IPrintSchematicket2</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
+
 
  
 

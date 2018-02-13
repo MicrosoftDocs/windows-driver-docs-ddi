@@ -40,7 +40,7 @@ apiname:
 -	OpenAdapter10
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_OPENADAPTER callback
@@ -77,6 +77,8 @@ HRESULT APIENTRY OpenAdapter10(
 
 
 
+
+
 #### - pOpenData [in, out]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
@@ -85,7 +87,9 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">
 ## -returns
 
 
+
 <i>OpenAdapter10</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +117,14 @@ The graphics adapter object was successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The graphics adapter object that is created by the <i>OpenAdapter10</i> function represents the underlying graphics hardware. Before the Direct3D runtime can create a display device by calling <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>, the user-mode display driver should call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a> function to query for the graphics hardware capabilities from the display miniport driver. 
@@ -126,13 +133,20 @@ The Direct3D runtime can open multiple graphics adapter objects from a single gr
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
 
  
 

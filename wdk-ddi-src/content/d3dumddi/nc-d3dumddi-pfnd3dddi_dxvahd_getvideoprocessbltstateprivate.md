@@ -74,8 +74,9 @@ __checkReturn HRESULT APIENTRY GetVideoProcessBltStatePrivate(
 ### -param HANDLE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ __checkReturn HRESULT APIENTRY GetVideoProcessBltStatePrivate(
 ## -returns
 
 
+
 The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +126,17 @@ The bitblt state data is successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a>
+
+
 
  
 

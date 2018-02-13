@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4ffe3c46-f729-4088-b69e-f39bc00f40a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxswapchaingetdirtyrects, IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices], iddcx/IddCxSwapChainGetDirtyRects
+ms.keywords: IddCxSwapChainGetDirtyRects, iddcx/IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices], display.iddcxswapchaingetdirtyrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,9 @@ Output  arguments of the function
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

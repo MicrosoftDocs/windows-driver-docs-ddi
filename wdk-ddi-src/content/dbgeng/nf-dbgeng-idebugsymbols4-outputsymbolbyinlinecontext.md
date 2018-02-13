@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4, debugger.idebugsymbols4_outputsymbolbyinlinecontext, OutputSymbolByInlineContext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext
+ms.keywords: OutputSymbolByInlineContext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,13 +93,17 @@ An inline context.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
+
+
 
  
 

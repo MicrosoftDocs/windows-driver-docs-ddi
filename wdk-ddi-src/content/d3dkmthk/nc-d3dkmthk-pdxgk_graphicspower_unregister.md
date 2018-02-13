@@ -81,6 +81,8 @@ A handle to the graphics device.
 ## -returns
 
 
+
 Return STATUS_SUCCESS if the call succeeds.
+
 
 

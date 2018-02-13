@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a4d43fd-f118-4424-93e8-57f72b56f929
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, DmStructs_b8d80ff5-189d-4bd2-8b3f-f5ebeadee78f.xml, d3dkmddi/DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure [Display Devices], display.dxgkarg_updateactivevidpnpresentpath
+ms.keywords: display.dxgkarg_updateactivevidpnpresentpath, _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure [Display Devices], DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, DmStructs_b8d80ff5-189d-4bd2-8b3f-f5ebeadee78f.xml, d3dkmddi/DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_P
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a>
+
+
 
  
 

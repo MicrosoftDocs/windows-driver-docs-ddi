@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba4a87cc-2412-4769-9694-d6eefd750c4b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl3 interface [Windows Debugging], RemoveExtension method, dbgeng/IDebugControl3::RemoveExtension, IDebugControl3, RemoveExtension method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::RemoveExtension, RemoveExtension, RemoveExtension method [Windows Debugging], dbgeng/IDebugControl2::RemoveExtension, IDebugControl interface [Windows Debugging], RemoveExtension method, RemoveExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, debugger.removeextension, IDebugControl2::RemoveExtension, IDebugControl3::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl::RemoveExtension
+ms.keywords: IDebugControl2, RemoveExtension, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension, IDebugControl interface [Windows Debugging], RemoveExtension method, dbgeng/IDebugControl3::RemoveExtension, IDebugControl3, IDebugControl3::RemoveExtension, IDebugControl, IDebugControl2::RemoveExtension, IDebugControl2 interface [Windows Debugging], RemoveExtension method, IDebugControl::RemoveExtension, RemoveExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], RemoveExtension method, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,6 +77,7 @@ Specifies the handle of the extension library to unload.  This is the handle ret
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,16 +94,20 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 For more information on using extension libraries, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539033">Calling Extensions and Extension Functions</a>.
+
 
 
 
@@ -110,11 +115,19 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+
 
  
 

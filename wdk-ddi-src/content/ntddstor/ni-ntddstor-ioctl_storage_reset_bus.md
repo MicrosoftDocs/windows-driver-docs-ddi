@@ -90,14 +90,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 ## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_bus_reset_request.md">STORAGE_BUS_RESET_REQUEST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: MONITOREX structure [Print Devices], winsplp/LPMONITOREX, winsplp/MONITOREX, print.monitorex, MONITOREX, *LPMONITOREX, LPMONITOREX structure pointer [Print Devices], _MONITOREX, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, LPMONITOREX
+ms.keywords: winsplp/LPMONITOREX, print.monitorex, *LPMONITOREX, MONITOREX structure [Print Devices], MONITOREX, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, _MONITOREX, LPMONITOREX structure pointer [Print Devices], LPMONITOREX, winsplp/MONITOREX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,13 +84,17 @@ Is a <a href="..\winsplp\ns-winsplp-_monitor.md">MONITOR</a> structure.
 ## -remarks
 
 
+
 Print monitors are responsible for filling in the MONITOREX and MONITOR structures.
+
 
 
 
 ## -see-also
 
 <a href="..\winsplp\ns-winsplp-_monitor.md">MONITOR</a>
+
+
 
  
 

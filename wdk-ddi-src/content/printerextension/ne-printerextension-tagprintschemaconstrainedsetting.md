@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/PrintSchemaConstrainedSetting_PrintTicket, PrintSchemaConstrainedSetting_Admin, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_PrintTicket, printerextension/PrintSchemaConstrainedSetting_Device, tagPrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_Admin
+ms.keywords: PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_PrintTicket, printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_Admin, print.printschemaconstrainedsetting, PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_Admin, tagPrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting_PrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -94,6 +94,8 @@ The Option is constrained by the device configuration. The Option should not be 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/57E13395-9E23-4708-B4EC-6839CB6FC62B">IPrintSchemaOption::Constrained</a>
+
+
 
  
 

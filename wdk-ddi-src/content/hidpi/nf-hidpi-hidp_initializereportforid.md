@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hidpi/HidP_InitializeReportForID, hid.hidp_initializereportforid, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml
+ms.keywords: hidpi/HidP_InitializeReportForID, HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hid.hidp_initializereportforid, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,9 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>. <i>Rep
 ## -returns
 
 
+
 <b>HidP_InitializeReportForID</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,16 +163,20 @@ The specified report ID is not valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Initializing a HID report sets all control data to zero or a control's <i>null value</i>, as defined by the USB HID standard. (Sending or receiving a null value indicates that the current value of a control should not be modified.)
 
 <b>HidP_InitializeReportForID</b> does the following:
+
 <ul>
 <li>
 Sets to zero the bitfields of all buttons and values without null values.
@@ -180,19 +186,29 @@ Sets to zero the bitfields of all buttons and values without null values.
 Sets the bitfield of all controls with null values to their corresponding null value.
 
 </li>
-</ul>For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+</ul>
+For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
 
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+
 
 <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
+
+
 
  
 

@@ -97,11 +97,14 @@ When non-NULL, a pointer to a single
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In response to an underlying driver's or offload target's call to the 
@@ -113,6 +116,7 @@ In response to an underlying driver's or offload target's call to the
 To propagate the completion of the disconnect operation to the overlying driver, the intermediate
     driver calls the 
     <b>NdisOffloadTcpDisconnectComplete</b> function, passing in the following:
+
 <ul>
 <li>
 A 
@@ -124,7 +128,8 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
       <i>ProtocolTcpOffloadDisconnectComplete</i> function.
 
 </li>
-</ul>In response, NDIS calls the overlying driver's 
+</ul>
+In response, NDIS calls the overlying driver's 
     <i>ProtocolTcpOffloadDisconnectComplete</i> function, passing a 
     <i>ProtocolBindingContext</i> handle and the PNET_BUFFER_LIST pointer passed by the intermediate driver to
     the 
@@ -142,19 +147,30 @@ Note that, if an intermediate driver exports more than one interface to overlyin
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpDisconnect</a>
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
    NdisTcpOffloadDisconnectComplete</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
    MiniportTcpOffloadDisconnect</a>
 
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpDisconnect</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

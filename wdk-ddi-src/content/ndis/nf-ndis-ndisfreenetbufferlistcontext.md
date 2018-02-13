@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e5554790-a7a2-4c0d-a6ae-585ea909cd3d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListContext, netvista.ndisfreenetbufferlistcontext, ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, NdisFreeNetBufferListContext
+ms.keywords: ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], NdisFreeNetBufferListContext, netvista.ndisfreenetbufferlistcontext, ndis/NdisFreeNetBufferListContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeNetBufferListContext
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeNetBufferListContext function
@@ -86,11 +86,14 @@ The amount of context space to free.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisFreeNetBufferListContext</b> releases context space that was allocated in a previous call to 
@@ -102,14 +105,21 @@ None
 
 
 
+
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
    NdisAllocateNetBufferListContext</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
 
  
 

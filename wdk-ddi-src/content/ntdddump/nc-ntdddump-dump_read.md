@@ -40,7 +40,7 @@ apiname:
 -	Dump_Read
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_READ callback
@@ -90,11 +90,14 @@ A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes
 ## -returns
 
 
+
 If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must return one of the error status values defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 Filter drivers can read the data that was read by the crashdump process. 
@@ -103,11 +106,16 @@ Filter drivers can modify the contents of the data buffer contained in <b>Mdl</b
 
 
 
+
 ## -see-also
+
+<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+
+
 
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+
 
  
 

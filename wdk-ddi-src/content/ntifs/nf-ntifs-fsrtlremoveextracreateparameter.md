@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlremoveextracreateparameter.htm
 old-project: ifsk
 ms.assetid: a34845a9-d596-40de-b4d1-0f733818d961
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ntifs/FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], ifsk.fsrtlremoveextracreateparameter
+ms.date: 2/7/2018
+ms.keywords: FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], ntifs/FsRtlRemoveExtraCreateParameter, fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ifsk.fsrtlremoveextracreateparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,9 @@ Optional parameter that receives the size of the detached ECP context structure.
 ## -returns
 
 
+
 <b>FsRtlRemoveExtraCreateParameter</b> returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,40 +123,64 @@ The given ECP context structure was not found in the given ECP list.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given by the <i>EcpList</i> parameter for an ECP context structure given by the <i>EcpType</i> parameter.  If the ECP context structure exists in the list, <b>FsRtlRemoveExtraCreateParameter</b>  detaches the structure from the list, sets the <i>EcpContext</i> parameter to point to the structure, and returns STATUS_SUCCESS. If the ECP context structure does not exist in the list, <b>FsRtlRemoveExtraCreateParameter</b> sets the <i>EcpContext</i> parameter to <b>NULL</b> and returns STATUS_NOT_FOUND.
-<div class="alert"><b>Note</b>  <b>FsRtlRemoveExtraCreateParameter</b> does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call <b>FsRtlRemoveExtraCreateParameter</b> to detach it from the list and then call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a> routine to free the memory pool for the ECP context structure.</div><div> </div>
+
+<div class="alert"><b>Note</b>  <b>FsRtlRemoveExtraCreateParameter</b> does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call <b>FsRtlRemoveExtraCreateParameter</b> to detach it from the list and then call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a> routine to free the memory pool for the ECP context structure.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
 <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
-<b>FltAllocateExtraCreateParameterFromLookasideList</b>
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
- 
+
+
+<b>FltAllocateExtraCreateParameterFromLookasideList</b>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlRemoveExtraCreateParameter routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlRemoveExtraCreateParameter routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

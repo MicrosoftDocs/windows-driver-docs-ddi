@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5963f34a-4315-46c3-9802-0b6a1b229e3f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmunmapiospace, wdm/MmUnmapIoSpace, MmUnmapIoSpace
+ms.keywords: wdm/MmUnmapIoSpace, kernel.mmunmapiospace, MmUnmapIoSpace, k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,20 +82,26 @@ Specifies the number of bytes that were mapped.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If a driver calls <b>MmMapIoSpace</b> during device start-up, it must call <b>MmUnmapIoSpace</b> when it receives a PnP stop-device or remove-device IRP for the same device object. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+
+
 
  
 

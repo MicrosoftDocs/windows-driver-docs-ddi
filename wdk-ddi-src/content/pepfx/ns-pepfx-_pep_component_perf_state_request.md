@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E34E8B3E-787D-4C6A-9F40-AD6728063AD9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_COMPONENT_PERF_STATE_REQUEST, PPEP_COMPONENT_PERF_STATE_REQUEST, pepfx/PPEP_COMPONENT_PERF_STATE_REQUEST, _PEP_COMPONENT_PERF_STATE_REQUEST, kernel.pep_component_perf_state_request, PEP_COMPONENT_PERF_STATE_REQUEST structure [Kernel-Mode Driver Architecture], *PPEP_COMPONENT_PERF_STATE_REQUEST, PPEP_COMPONENT_PERF_STATE_REQUEST structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_COMPONENT_PERF_STATE_REQUEST
+ms.keywords: "*PPEP_COMPONENT_PERF_STATE_REQUEST, pepfx/PPEP_COMPONENT_PERF_STATE_REQUEST, PPEP_COMPONENT_PERF_STATE_REQUEST structure pointer [Kernel-Mode Driver Architecture], kernel.pep_component_perf_state_request, PPEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST structure [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_STATE_REQUEST, pepfx/PEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_COMPONENT_PERF_STATE_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PEP_COMPONENT_PERF_STATE_REQUEST, *PPEP_COMPONENT_PERF_STATE_REQUEST
+req.typenames: "*PPEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST"
 ---
 
 # _PEP_COMPONENT_PERF_STATE_REQUEST structure
@@ -71,6 +71,11 @@ typedef struct _PEP_COMPONENT_PERF_STATE_REQUEST {
 
 
 
+### -field Set
+
+The index of the P-state set to which to assign the new performance level. If N is the number of P-state sets specified for this component, P-state set indexes range from 0 to N–1. The PEP previously specified the number of P-state sets in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
+
+
 ### -field StateIndex
 
  
@@ -81,9 +86,6 @@ typedef struct _PEP_COMPONENT_PERF_STATE_REQUEST {
  
 
 
-### -field Set
-
-The index of the P-state set to which to assign the new performance level. If N is the number of P-state sets specified for this component, P-state set indexes range from 0 to N–1. The PEP previously specified the number of P-state sets in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
 
 
 #### - ( unnamed union )
@@ -91,9 +93,11 @@ The index of the P-state set to which to assign the new performance level. If N 
 A value that indicates the new performance level that has been selected for this P-state set.
 
 
+
 #### StateIndex
 
 The index of the discrete value to use as the new performance level. This member is used if the performance level for this P-state set is expressed as an index into an array of discrete values. The PEP previously supplied this array of discrete values in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186842">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a> notification.
+
 
 
 #### StateValue
@@ -104,13 +108,17 @@ The value to use as the new performance level. This member is used if the perfor
 ## -remarks
 
 
+
 The <b>PerfRequests</b> member of the <a href="..\pepfx\ns-pepfx-_pep_request_component_perf_state.md">PEP_REQUEST_COMPONENT_PERF_STATE</a> structure is a pointer to an array of <b>PEP_COMPONENT_PERF_STATE_REQUEST</b> structures.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_request_component_perf_state.md">PEP_REQUEST_COMPONENT_PERF_STATE</a>
+
+
 
  
 

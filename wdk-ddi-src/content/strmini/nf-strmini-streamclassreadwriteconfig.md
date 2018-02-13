@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, strmini/StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], stream.streamclassreadwriteconfig, StreamClassReadWriteConfig
+ms.keywords: strmini/StreamClassReadWriteConfig, stream.streamclassreadwriteconfig, StreamClassReadWriteConfig routine [Streaming Media Devices], StreamClassReadWriteConfig, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,15 +101,19 @@ Specifies the length of the data to read or write.
 ## -returns
 
 
+
 Returns <b>TRUE</b> on success, <b>FALSE</b> on failure.
+
 
 
 
 ## -remarks
 
 
+
 This routine reads or writes configuration information for the minidriver's parent bus driver. For example, for a PCI device, <b>StreamClassReadWriteConfig</b> reads or writes PCI configuration information.
 
 This routine can only be called at PASSIVE_LEVEL.
+
 
 

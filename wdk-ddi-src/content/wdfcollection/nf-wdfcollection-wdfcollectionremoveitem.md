@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcollection/WdfCollectionRemoveItem, kmdf.wdfcollectionremoveitem, wdf.wdfcollectionremoveitem, PFN_WDFCOLLECTIONREMOVEITEM, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem method, WdfCollectionRemoveItem
+ms.keywords: PFN_WDFCOLLECTIONREMOVEITEM, kmdf.wdfcollectionremoveitem, WdfCollectionRemoveItem method, wdf.wdfcollectionremoveitem, WdfCollectionRemoveItem, wdfcollection/WdfCollectionRemoveItem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfCollectionRemoveItem
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -87,13 +87,16 @@ A zero-based index that identifies the object to remove.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Index values represent the order in which objects are added to a collection. An index value of zero represents the first object that was added to the collection, an index value of one represents the second object, and so on. 
@@ -104,10 +107,19 @@ For more information about object collections, see <a href="https://docs.microso
 
 
 
+#### Examples
+
+For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
+
+
 
  
 

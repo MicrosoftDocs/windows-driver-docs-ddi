@@ -7,8 +7,8 @@ old-location: ifsk\ioreplacefileobjectname.htm
 old-project: ifsk
 ms.assetid: 1550a35f-2733-4ee8-9715-d82f96eb5da7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.ioreplacefileobjectname, IoReplaceFileObjectName routine [Installable File System Drivers], IoReplaceFileObjectName, ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, ntifs/IoReplaceFileObjectName
+ms.date: 2/7/2018
+ms.keywords: ntifs/IoReplaceFileObjectName, ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, ifsk.ioreplacefileobjectname, IoReplaceFileObjectName, IoReplaceFileObjectName routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Length, in bytes, of the new name for the file object.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or one of the following NTSTATUS values otherwise:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,15 +117,19 @@ Indicates that inadequate memory is available to allocate a buffer to complete t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Drivers should use <b>IoReplaceFileObjectName</b> to safely replace the name in a file object. This allows the I/O manager to control the lifetime of the buffer associated with the file object. Replacing a file object name directly without using <b>IoReplaceFileObjectName</b> may conflict with other uses of the name and should be avoided when possible.
 
 This routine should be used to replace the file object name instead of doing so manually to allow the kernel to manage the lifetime of the name correctly.
+
 
 

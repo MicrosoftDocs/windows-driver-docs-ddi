@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.updateprintdeviceobject, UpdatePrintDeviceObject function [Print Devices], winsplp/UpdatePrintDeviceObject, UpdatePrintDeviceObject
+ms.keywords: print.updateprintdeviceobject, UpdatePrintDeviceObject function [Print Devices], UpdatePrintDeviceObject, winsplp/UpdatePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,16 +84,20 @@ The HANDLE to the device object to be updated. This should be a device object th
 ## -returns
 
 
+
 The <b>UpdatePrintDeviceObject</b> function returns S_OK, if the properties of the  device object were updated successfully. Otherwise it returns an error.
 
 For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), if the function call was made with an invalid HANDLE, or the device object was removed before the function call was made.
 
 
 
+
 ## -remarks
 
 
+
 The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
+
 
 
 
@@ -101,7 +105,11 @@ The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
+
+
 
  
 

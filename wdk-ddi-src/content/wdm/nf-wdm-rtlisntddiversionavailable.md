@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlisntddiversionavailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], RtlIsNtDdiVersionAvailable, wdm/RtlIsNtDdiVersionAvailable
+ms.keywords: kernel.rtlisntddiversionavailable, RtlIsNtDdiVersionAvailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], wdm/RtlIsNtDdiVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,6 +72,7 @@ BOOLEAN RtlIsNtDdiVersionAvailable(
 ### -param Version [in]
 
 The version of the Windows DDI that is available. The following table lists the possible values for the <i>Version</i> parameter.
+
 <table>
 <tr>
 <th>Constant</th>
@@ -157,7 +158,8 @@ Windows 2000
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The NTDDI_<i>XXX</i> constants are defined in the Sdkddkver.h header file.
 
@@ -167,11 +169,14 @@ Additional NTDDI_<i>XXX</i> constants that specify service packs are available f
 ## -returns
 
 
+
 <b>RtlIsNtDdiVersionAvailable</b> returns <b>TRUE</b> if the version of the Windows operating system that is running is the same or later than the version that the <i>Version</i> parameter specifies. Otherwise, this routine returns <b>FALSE</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>RtlIsNtDdiVersionAvailable</b> routine compares the version that the <i>Version</i> parameter specifies to the version of the Windows operating system that is currently running.
@@ -184,9 +189,12 @@ For more information about <b>RtlIsNtDdiVersionAvailable</b> and <b>RtlIsService
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlisservicepackversioninstalled.md">RtlIsServicePackVersionInstalled</a>
+
+
 
  
 

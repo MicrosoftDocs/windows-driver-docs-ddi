@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47793815-F7AC-4E0D-809C-DBB7497BDA30
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, debugger.idebugplmclient2_launchplmbgtaskfordebugwide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, LaunchPlmBgTaskForDebugWide
+ms.keywords: IDebugPlmClient2, LaunchPlmBgTaskForDebugWide method [Windows Debugging], dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, IDebugPlmClient2 interface [Windows Debugging], LaunchPlmBgTaskForDebugWide method, LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], IDebugPlmClient2 interface, debugger.idebugplmclient2_launchplmbgtaskfordebugwide, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,13 +105,17 @@ A pointer to a thread ID output.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient2.md">IDebugPlmClient2</a>
+
+
 
  
 

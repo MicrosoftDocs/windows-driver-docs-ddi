@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5A85A7EC-2333-4161-A1E7-55D3420E730C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO, _STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], storage.storage_hw_firmware_info, PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices]
+ms.keywords: storage.storage_hw_firmware_info, *PSTORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices], ntddstor/PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_HW_FIRMWARE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO"
+req.typenames: STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
 ---
 
 # _STORAGE_HW_FIRMWARE_INFO structure
@@ -101,7 +101,9 @@ Reserved for future use.
 ### -field SlotCount
 
 The number of firmware slots on the device. This is the dimension of the Slot array.
-<div class="alert"><b>Note</b>   Some devices can store more than 1 firmware image, if they have more than 1 firmware slot.</div><div> </div>
+
+<div class="alert"><b>Note</b>   Some devices can store more than 1 firmware image, if they have more than 1 firmware slot.</div>
+<div> </div>
 
 ### -field ActiveSlot
 

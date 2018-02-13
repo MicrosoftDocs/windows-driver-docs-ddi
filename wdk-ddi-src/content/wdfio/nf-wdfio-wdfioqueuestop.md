@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 50ff8064-b28c-4b2b-89d2-bad5e503b2d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStop method, PFN_WDFIOQUEUESTOP, WdfIoQueueStop, wdfio/WdfIoQueueStop, DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, kmdf.wdfioqueuestop, wdf.wdfioqueuestop
+ms.keywords: WdfIoQueueStop, kmdf.wdfioqueuestop, PFN_WDFIOQUEUESTOP, wdf.wdfioqueuestop, WdfIoQueueStop method, wdfio/WdfIoQueueStop, DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,6 +93,7 @@ An untyped pointer to driver-supplied context information that the framework pas
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -101,7 +102,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If the driver supplies an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a> callback function, the framework calls it after all requests that were delivered to the driver have been completed or canceled.
@@ -113,14 +116,44 @@ A driver must not call <a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueue
 For more information about the <b>WdfIoQueueStop</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
+#### Examples
+
+The following code example stops a specified I/O queue. When all requests that were delivered to the driver have been completed or canceled, it calls a driver's <b>EvtIoQueueStateStop</b> function.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFCONTEXT stopContext;
+
+stopContext = &amp;myContext;
+
+WdfIoQueueStop(
+               queue,
+               EvtIoQueueStateStop,
+               stopContext
+               );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md">WdfIoQueueStopSynchronously</a>
 
+
+
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
+
+
 
  
 

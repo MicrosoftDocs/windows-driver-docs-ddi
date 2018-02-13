@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57FF3890-6B37-45EB-BB02-22B2ADDFAA90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ZoneConditionClosed, ZoneConditionConventional, ntddstor/ZoneConditionReadOnly, ntddstor/ZoneConditionClosed, ntddstor/ZoneConditionFull, STORAGE_ZONE_CONDITION, ZoneConditionImplicitlyOpened, ZoneConditionFull, ZoneConditionReadOnly, ntddstor/ZoneConditionOffline, _STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ntddstor/ZoneConditionConventional, ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionImplicitlyOpened, *PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/ZoneConditionExplicitlyOpened, ntddstor/STORAGE_ZONE_CONDITION, ZoneConditionOffline, storage.storage_zone_condition, ZoneConditionEmpty, PSTORAGE_ZONE_CONDITION
+ms.keywords: ZoneConditionConventional, ntddstor/ZoneConditionExplicitlyOpened, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], ZoneConditionClosed, ntddstor/ZoneConditionConventional, ZoneConditionFull, _STORAGE_ZONE_CONDITION, ZoneConditionOffline, *PSTORAGE_ZONE_CONDITION, ZoneConditionImplicitlyOpened, ZoneConditionEmpty, ntddstor/ZoneConditionReadOnly, ntddstor/ZoneConditionOffline, ntddstor/ZoneConditionFull, ntddstor/STORAGE_ZONE_CONDITION, storage.storage_zone_condition, ZoneConditionReadOnly, ntddstor/ZoneConditionEmpty, PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionImplicitlyOpened, ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionClosed, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ntddstor/PSTORAGE_ZONE_CONDITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 653B4FD5-4C07-420A-BE8A-CC8C46BC6F0F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess, IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/IoGetInitiatorProcess, IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetInitiatorProcess
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoGetInitiatorProcess function
@@ -75,13 +75,17 @@ The file object from which to retrieve the initiator process.
 ## -returns
 
 
+
 NULL if there is no initiator process. Otherwise, a pointer to which process initiated the creation of the file object.
+
 
 
 
 ## -remarks
 
 
+
 A driver normally uses IoGetInitiatorProcess to determine which process has issued a request.  However, there are situations where a system component may issue a create on behalf of another process (after a successful create the component will duplicate the handle to the process).  This routine can be used if the driver must know which process the create operation is ultimately intended for. 
+
 
 

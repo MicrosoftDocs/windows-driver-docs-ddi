@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5a3e06f5-f7f7-4e89-b78e-d6658c34ba9e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSendCTPassThru_IN structure pointer [Storage Devices], SendCTPassThru_IN, *PSendCTPassThru_IN, hbapiwmi/PSendCTPassThru_IN, PSendCTPassThru_IN, storage.sendctpassthru_in, hbapiwmi/SendCTPassThru_IN, structs-Fibre_f95be355-7a10-483c-83cb-058812977a91.xml, _SendCTPassThru_IN, SendCTPassThru_IN structure [Storage Devices]
+ms.keywords: hbapiwmi/PSendCTPassThru_IN, SendCTPassThru_IN structure [Storage Devices], PSendCTPassThru_IN structure pointer [Storage Devices], structs-Fibre_f95be355-7a10-483c-83cb-058812977a91.xml, hbapiwmi/SendCTPassThru_IN, PSendCTPassThru_IN, SendCTPassThru_IN, _SendCTPassThru_IN, *PSendCTPassThru_IN, storage.sendctpassthru_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,17 @@ Contains the results of the common transport command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendCTPassThru_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
+
+
 
  
 

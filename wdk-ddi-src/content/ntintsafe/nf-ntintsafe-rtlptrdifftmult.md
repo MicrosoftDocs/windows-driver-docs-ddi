@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71F6D886-D32E-4C90-B5BA-A4A1BBCD0B8F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftmult, ntintsafe/RtlPtrdiffTMult, RtlPtrdiffTMult
+ms.keywords: ntintsafe/RtlPtrdiffTMult, RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], RtlPtrdiffTMult, kernel.rtlptrdifftmult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 79ff278c-a30e-49f6-9146-badf24970de2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoLockStaticChildListForIteration, wdf.wdffdolockstaticchildlistforiteration, DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, kmdf.wdffdolockstaticchildlistforiteration, PFN_WDFFDOLOCKSTATICCHILDLISTFORITERATION, WdfFdoLockStaticChildListForIteration method, wdffdo/WdfFdoLockStaticChildListForIteration
+ms.keywords: WdfFdoLockStaticChildListForIteration, DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, PFN_WDFFDOLOCKSTATICCHILDLISTFORITERATION, kmdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration, wdf.wdffdolockstaticchildlistforiteration, WdfFdoLockStaticChildListForIteration method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoLockStaticChildListForIteration
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -79,13 +79,16 @@ A handle to a framework device object that represents the parent device.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Bus drivers that use static bus enumeration can call <b>WdfFdoLockStaticChildListForIteration</b>. 
@@ -101,10 +104,19 @@ The driver can nest calls to <b>WdfFdoLockStaticChildListForIteration</b> and <a
 For more information about static child lists, see <a href="https://msdn.microsoft.com/58377f17-a9dc-4096-af23-36f8d8dbb87e">Static Enumeration</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfFdoLockStaticChildListForIteration</b>, see <a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
+
+
 
  
 

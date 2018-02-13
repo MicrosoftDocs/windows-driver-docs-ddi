@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8aadbfe0-e925-4c58-9ca0-d07dc40a0ff3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_set_context_state, ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE, _NDIS_WWAN_SET_CONTEXT_STATE, *PNDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE, WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE
+ms.keywords: NDIS_WWAN_SET_CONTEXT_STATE, WwanRef_538105aa-7c75-4c30-96ed-4763cf59575d.xml, *PNDIS_WWAN_SET_CONTEXT_STATE, _NDIS_WWAN_SET_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_context_state, ndiswwan/NDIS_WWAN_SET_CONTEXT_STATE, PNDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SET_CONTEXT_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SET_CONTEXT_STATE, *PNDIS_WWAN_SET_CONTEXT_STATE
+req.typenames: "*PNDIS_WWAN_SET_CONTEXT_STATE, NDIS_WWAN_SET_CONTEXT_STATE"
 ---
 
 # _NDIS_WWAN_SET_CONTEXT_STATE structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_CON
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SET_CONTEXT_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -127,9 +129,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
 
  
 

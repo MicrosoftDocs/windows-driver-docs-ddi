@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwriteportbufferushort, scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, ScsiPortWritePortBufferUshort routine [Storage Devices], srb/ScsiPortWritePortBufferUshort, ScsiPortWritePortBufferUshort
+ms.keywords: ScsiPortWritePortBufferUshort, scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort, ScsiPortWritePortBufferUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,13 +89,17 @@ Specifies the number of USHORT values to be written to the HBA.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

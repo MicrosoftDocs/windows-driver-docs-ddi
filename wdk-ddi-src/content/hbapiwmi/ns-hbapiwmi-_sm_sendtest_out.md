@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e24a2498-7f33-435c-97ad-e4ae283580c2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sm_sendtest_out, PSM_SendTEST_OUT structure pointer [Storage Devices], PSM_SendTEST_OUT, SM_SendTEST_OUT structure [Storage Devices], structs-Fibre_901c8256-fe8d-4194-aaec-8a0557287687.xml, SM_SendTEST_OUT, hbapiwmi/PSM_SendTEST_OUT, hbapiwmi/SM_SendTEST_OUT, *PSM_SendTEST_OUT, _SM_SendTEST_OUT
+ms.keywords: hbapiwmi/PSM_SendTEST_OUT, PSM_SendTEST_OUT, storage.sm_sendtest_out, *PSM_SendTEST_OUT, structs-Fibre_901c8256-fe8d-4194-aaec-8a0557287687.xml, _SM_SendTEST_OUT, PSM_SendTEST_OUT structure pointer [Storage Devices], hbapiwmi/SM_SendTEST_OUT, SM_SendTEST_OUT, SM_SendTEST_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendTEST_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_SendTEST_OUT, *PSM_SendTEST_OUT
+req.typenames: "*PSM_SendTEST_OUT, SM_SendTEST_OUT"
 ---
 
 # _SM_SendTEST_OUT structure
@@ -75,6 +75,8 @@ The status of the operation. For a list of allowed values and their descriptions
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SendTEST_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

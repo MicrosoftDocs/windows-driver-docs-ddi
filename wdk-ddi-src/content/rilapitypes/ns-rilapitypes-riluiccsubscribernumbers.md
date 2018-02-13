@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS, netvista.riluiccsubscribernumbers, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUMTSMRL
+ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, netvista.riluiccsubscribernumbers, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUMTSMRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUMTSMRL
 product: Windows
 targetos: Windows
-req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
+req.typenames: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS"
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,8 @@ Array of <a href="..\rilapitypes\ns-rilapitypes-rilsubscriberinfo.md">RILSUBSCRI
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

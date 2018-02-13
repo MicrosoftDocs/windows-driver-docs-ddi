@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_SCO_INDICATION_PARAMETERS, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], bthddi/SCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], PSCO_INDICATION_PARAMETERS, bthddi/PSCO_INDICATION_PARAMETERS"
+ms.keywords: SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], _SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], *PSCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, bthddi/PSCO_INDICATION_PARAMETERS, bthddi/SCO_INDICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCO_INDICATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PSCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS"
+req.typenames: SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS
 ---
 
 # _SCO_INDICATION_PARAMETERS structure
@@ -80,12 +80,22 @@ typedef struct _SCO_INDICATION_PARAMETERS {
 
 
 
+### -field ConnectionHandle
+
+A connection handle to the remote device. This handle is only valid for notifications that arrive
+     over an established SCO connection.
+
+
+### -field BtAddress
+
+The Bluetooth address of the remote device.
+
+
 ### -field Parameters
 
 
 
 #### 
-
 
 
 ### -field Parameters.Connect
@@ -126,18 +136,8 @@ A Boolean value that a profile driver can set to indicate whether the SCO connec
        value is <b>FALSE</b>.
 
 
-### -field ConnectionHandle
-
-A connection handle to the remote device. This handle is only valid for notifications that arrive
-     over an established SCO connection.
-
-
-### -field BtAddress
-
-The Bluetooth address of the remote device.
-
-
 ## -remarks
+
 
 
 A profile driver's 
@@ -157,11 +157,16 @@ When the Bluetooth driver stack passes
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
+
+
 <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a>
+
+
 
  
 

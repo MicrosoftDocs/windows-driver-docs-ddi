@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22074e51-9032-4ef9-94b9-217daefcab03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, ndis/NdisMQueueDpcEx, netvista.ndismqueuedpcex, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], NdisMQueueDpcEx
+ms.keywords: NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpcEx, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, netvista.ndismqueuedpcex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMQueueDpcEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMQueueDpcEx function
@@ -113,6 +113,7 @@ A pointer to a caller-specified context area. NDIS passes this pointer to the
 ## -returns
 
 
+
 <b>NdisMQueueDpcEx</b> returns a bitmap that indicates target processors. Each bit in the return value
       identifies a CPU.
 
@@ -125,7 +126,9 @@ If the driver requested a DPC for a CPU, and NDIS indicates that it did not sche
 
 
 
+
 ## -remarks
+
 
 
 NDIS 6.20 and later miniport drivers call 
@@ -140,29 +143,46 @@ NDIS 6.20 and later miniport drivers call
     <b>NdisMQueueDpcEx</b> can schedule DPCs on processors in any processor group. To schedule DPCs in more
     than one processor group, you can use multiple calls to 
     <b>NdisMQueueDpcEx</b>.
+
 <div class="alert"><b>Note</b>  The 
     <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>, 
     <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>, and 
     <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">
     MiniportMessageInterrupt</a> functions have a 
     <i>TargetProcessors</i> parameter that is a ULONG. This parameter specifies the first 32 processors in
-    processor group 0.</div><div> </div><div class="alert"><b>Important</b>  NDIS 6.20 and later drivers should always use 
-    <b>NdisMQueueDpcEx</b> to schedule DPCs.</div><div> </div>
+    processor group 0.</div>
+<div> </div>
+<div class="alert"><b>Important</b>  NDIS 6.20 and later drivers should always use 
+    <b>NdisMQueueDpcEx</b> to schedule DPCs.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0cd14f0c-5b7b-443b-ab37-c455b4accacb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data, _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml, DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_ALPHA_DATA
+ms.keywords: DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ typedef struct _DXVAHDDDI_STREAM_STATE_ALPHA_DATA {
 ## -remarks
 
 
+
 The driver multiplies the alpha value with each source pixel and blends the result with the destination pixel. For example, the driver uses the following values to perform the following calculation:
 
 Cs = source pixel color value
@@ -101,9 +102,12 @@ The Ad parameter is set with values from the <a href="..\d3dumddi\ne-d3dumddi-_d
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_alpha_fill_mode.md">DXVAHDDDI_ALPHA_FILL_MODE</a>
+
+
 
  
 

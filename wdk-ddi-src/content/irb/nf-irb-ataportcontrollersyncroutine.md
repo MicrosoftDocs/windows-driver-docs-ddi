@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6b39e89e-21cc-404f-b9fc-6cad0b5c8d22
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], storage.ataportcontrollersyncroutine, atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine
+ms.keywords: AtaPortControllerSyncRoutine routine [Storage Devices], storage.ataportcontrollersyncroutine, AtaPortControllerSyncRoutine, atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - ControllerSyncRoutine [in]
 
 A pointer to the routine to call. 
@@ -87,16 +88,20 @@ A pointer to the routine to call.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver uses this routine to synchronize access to data structures that are shared across channels on a controller. The miniport driver, however, should use this routine very sparingly.
 
 The <i>ControllerSyncRoutine</i> function pointer is declared in <i>Irb.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -113,9 +118,12 @@ VOID
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportrequestsynchronizedroutine.md">AtaPortRequestSynchronizedRoutine</a>
+
+
 
  
 

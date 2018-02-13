@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/BackgroundWorkQueue, CriticalWorkQueue, wdm/HyperCriticalWorkQueue, wdm/NormalWorkQueue, wdm/DelayedWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, WORK_QUEUE_TYPE, kernel.work_queue_type, _WORK_QUEUE_TYPE, wdm/MaximumWorkQueue, wdm/CustomPriorityWorkQueue, RealTimeWorkQueue, wdm/CriticalWorkQueue, BackgroundWorkQueue, NormalWorkQueue, MaximumWorkQueue, wdm/RealTimeWorkQueue, HyperCriticalWorkQueue, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], DelayedWorkQueue, wdm/SuperCriticalWorkQueue, wdm/WORK_QUEUE_TYPE, SuperCriticalWorkQueue, CustomPriorityWorkQueue
+ms.keywords: wdm/RealTimeWorkQueue, wdm/MaximumWorkQueue, BackgroundWorkQueue, SuperCriticalWorkQueue, wdm/DelayedWorkQueue, wdm/BackgroundWorkQueue, wdm/SuperCriticalWorkQueue, wdm/CriticalWorkQueue, HyperCriticalWorkQueue, CustomPriorityWorkQueue, wdm/CustomPriorityWorkQueue, RealTimeWorkQueue, wdm/WORK_QUEUE_TYPE, kernel.work_queue_type, MaximumWorkQueue, wdm/NormalWorkQueue, WORK_QUEUE_TYPE, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], _WORK_QUEUE_TYPE, NormalWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, CriticalWorkQueue, DelayedWorkQueue, wdm/HyperCriticalWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -126,6 +126,7 @@ This queue type is valid starting with Windows 8.1.
 ## -remarks
 
 
+
 For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>CustomPriorityWorkQueue</b> with a custom priority level is recommended.
 
  A work queue priority &lt; 17 is advised since queuing  
@@ -135,13 +136,20 @@ For more information about system worker threads, see <a href="https://msdn.micr
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
+
+
+<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
+
+
 
  
 

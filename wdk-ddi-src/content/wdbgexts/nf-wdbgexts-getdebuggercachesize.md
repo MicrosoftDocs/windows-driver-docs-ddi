@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0365ffe5-575b-44a9-8711-837d499be8bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getdebuggercachesize, GetDebuggerCacheSize function [Windows Debugging], wdbgexts/GetDebuggerCacheSize, WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, GetDebuggerCacheSize
+ms.keywords: debugger.getdebuggercachesize, GetDebuggerCacheSize function [Windows Debugging], WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, GetDebuggerCacheSize, wdbgexts/GetDebuggerCacheSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Receives the size of the debugger's cache.
 ## -returns
 
 
+
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The size of the cache can be set and retrieved by using the <a href="https://msdn.microsoft.com/638cb2e6-b333-4311-967c-d86c2e93b4ec">.cache</a> command.
@@ -89,9 +92,12 @@ Each target process has its own cache.  The returned size is the size of the cac
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562180">.cache (Set Cache Size)</a>
+
+
 
  
 

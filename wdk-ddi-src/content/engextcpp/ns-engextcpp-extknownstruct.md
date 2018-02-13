@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 95bf9a47-e121-4432-a28f-5476467f1823
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: engextcpp/ExtKnownStruct, ExtKnownStruct, EngExtCpp_Ref_b59346d2-06da-4112-9bed-ce64de0f2807.xml, ExtKnownStruct structure [Windows Debugging], debugger.extknownstruct
+ms.keywords: ExtKnownStruct structure [Windows Debugging], EngExtCpp_Ref_b59346d2-06da-4112-9bed-ce64de0f2807.xml, debugger.extknownstruct, ExtKnownStruct, engextcpp/ExtKnownStruct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ A Boolean flag that specifies whether the formatted output includes the name of 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543989">ExtKnownStructMethod</a>
+
+
 
  
 

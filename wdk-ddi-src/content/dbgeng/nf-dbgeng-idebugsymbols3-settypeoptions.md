@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c7cbb968-118b-4f1a-a752-7bbe2923cba1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetTypeOptions, IDebugSymbols2 interface [Windows Debugging], SetTypeOptions method, SetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, SetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::SetTypeOptions, debugger.settypeoptions, IDebugSymbols2::SetTypeOptions, IDebugSymbols3, IDebugSymbols3::SetTypeOptions, dbgeng/IDebugSymbols2::SetTypeOptions, SetTypeOptions method [Windows Debugging], IDebugSymbols_b6a88e5d-93c9-4cc6-ab53-e5e5f6b8f107.xml, IDebugSymbols3 interface [Windows Debugging], SetTypeOptions method
+ms.keywords: SetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], SetTypeOptions method, SetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2, dbgeng/IDebugSymbols3::SetTypeOptions, IDebugSymbols3::SetTypeOptions, IDebugSymbols2::SetTypeOptions, SetTypeOptions method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], SetTypeOptions method, dbgeng/IDebugSymbols2::SetTypeOptions, debugger.settypeoptions, SetTypeOptions, IDebugSymbols_b6a88e5d-93c9-4cc6-ab53-e5e5f6b8f107.xml, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Specifies the new value for the type formatting options.  <i>Options</i> is a bi
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,11 +95,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After the type options have been changed, for each client the engine sends out notification to that client's <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> by passing the DEBUG_CES_TYPE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
@@ -106,17 +111,28 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549428">GetTypeOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+
+
 
  
 

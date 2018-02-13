@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: DDAA5F5A-4A9C-4E8C-B322-A9B395DC753B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTUnlock2 function [Display Devices], display.d3dkmtunlock2, D3DKMTUnlock2, d3dkmthk/D3DKMTUnlock2
+ms.keywords: D3DKMTUnlock2 function [Display Devices], D3DKMTUnlock2, d3dkmthk/D3DKMTUnlock2, display.d3dkmtunlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,12 +75,14 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock2.md">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
 
 
 ## -returns
+
 
 
 <table>
@@ -110,15 +112,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock2.md">D3DKMT_UNLOCK2</a>
+
+
 
  
 

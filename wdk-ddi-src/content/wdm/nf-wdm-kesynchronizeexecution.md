@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kesynchronizeexecution, k105_2abf2438-6849-4069-8571-7d24d348056f.xml, KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], wdm/KeSynchronizeExecution
+ms.keywords: k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution, KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,14 +88,18 @@ A pointer to a caller-supplied context value to be passed to the <a href="https:
 ## -returns
 
 
+
 <b>KeSynchronizeExecution</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 When this routine is called, the following occurs:
+
 <ol>
 <li>
 The IRQL is raised to the <i>SynchronizeIrql</i> value specified in the call to <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a> or <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>.
@@ -109,7 +113,8 @@ Access to <i>SynchronizeContext</i> is synchronized with the assigned ISR by acq
 The specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff563928">SynchCritSection</a> routine is called with the <i>SynchronizeContext</i> value as its parameter.
 
 </li>
-</ol>If the ISR runs at DIRQL &gt;= DISPATCH_LEVEL, the <i>SynchCritSection</i> routine runs at the same DIRQL and must therefore run for as brief a time as possible to avoid delaying other high-priority tasks.
+</ol>
+If the ISR runs at DIRQL &gt;= DISPATCH_LEVEL, the <i>SynchCritSection</i> routine runs at the same DIRQL and must therefore run for as brief a time as possible to avoid delaying other high-priority tasks.
 
 Callers of <b>KeSynchronizeExecution</b> must be running at IRQL &lt;= DIRQL; that is, at an IRQL that is less than or equal to the value of the <b>SynchronizeIrql</b> value that the caller specified when it registered its ISR with <b>IoConnectInterrupt</b> or <b>IoConnectInterruptEx</b>.
 
@@ -117,11 +122,16 @@ Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to syn
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+
+
 
  
 

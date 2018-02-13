@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateQuerySize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CALCPRIVATEQUERYSIZE callback
@@ -74,8 +74,9 @@ SIZE_T APIENTRY CalcPrivateQuerySize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ SIZE_T APIENTRY CalcPrivateQuerySize(
 ## -returns
 
 
+
 <b>CalcPrivateQuerySize</b> returns the size of the memory region that the driver requires for creating a query.
+
 
 
 
@@ -103,7 +106,11 @@ SIZE_T APIENTRY CalcPrivateQuerySize(
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createquery.md">D3D10DDIARG_CREATEQUERY</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PAddiSNSServer_IN, _AddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, PAddiSNSServer_IN, storage.addisnsserver_in, iscsiop/PAddiSNSServer_IN, iscsiop/AddiSNSServer_IN, AddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices]"
+ms.keywords: iscsiop/AddiSNSServer_IN, _AddiSNSServer_IN, storage.addisnsserver_in, AddiSNSServer_IN structure [Storage Devices], iscsiop/PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], PAddiSNSServer_IN, *PAddiSNSServer_IN, AddiSNSServer_IN, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,9 @@ The iSNS server name to add to the list of iSNS servers that the iSCSI initiator
 ## -remarks
 
 
+
 It is optional that you implement this method.
+
 
 
 
@@ -83,7 +85,11 @@ It is optional that you implement this method.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
+
+
 <a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
+
+
 
  
 

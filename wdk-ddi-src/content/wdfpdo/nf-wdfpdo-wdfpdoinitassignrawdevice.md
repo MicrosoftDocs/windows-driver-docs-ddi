@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 419912d0-40d0-4fa9-be3b-770875271640
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAssignRawDevice method, wdf.wdfpdoinitassignrawdevice, kmdf.wdfpdoinitassignrawdevice, DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, WdfPdoInitAssignRawDevice, wdfpdo/WdfPdoInitAssignRawDevice
+ms.keywords: DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, wdf.wdfpdoinitassignrawdevice, wdfpdo/WdfPdoInitAssignRawDevice, kmdf.wdfpdoinitassignrawdevice, WdfPdoInitAssignRawDevice method, WdfPdoInitAssignRawDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,17 +80,23 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ### -param DeviceClassGuid [in]
 
 A pointer to a GUID that identifies a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>.
-<div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div><div> </div>For more information, see the following Remarks section.
+
+<div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div>
+<div> </div>
+For more information, see the following Remarks section.
 
 
 ## -returns
+
 
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise it returns STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -remarks
+
 
 
 The driver must call <b>WdfPdoInitAssignRawDevice</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
@@ -100,16 +106,48 @@ The registry can contain values that override the values that a driver specifies
 For more information about using the registry, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563755">Setting Device Object Registry Properties After Installation</a>.
 
 
+#### Examples
+
+The following snippet from the kmdf_enumswitches driver sample indicates that a driver can support the specified device in raw mode.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status;
+DEFINE_GUID(GUID_DEVCLASS_MYUNIQUEID,
+0xf149fe88, 0x f6cc, 0x47e3, 0x85, 0x94, 0xe2, 0xaa, 0xb6, 0xe0, 0x3b, 0xdf);
+
+status = WdfPdoInitAssignRawDevice(
+                                   pDeviceInit,
+                                   &amp;GUID_DEVCLASS_MYUNIQUEID
+                                   );
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetdevicetype.md">WdfDeviceInitSetDeviceType</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetexclusive.md">WdfDeviceInitSetExclusive</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetdevicetype.md">WdfDeviceInitSetDeviceType</a>
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+
+
 
  
 

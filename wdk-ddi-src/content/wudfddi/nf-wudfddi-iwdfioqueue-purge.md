@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoQueue::Purge, IWDFIoQueue interface, Purge method, IWDFIoQueue, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, wdf.iwdfioqueue_purge, Purge method, IWDFIoQueue interface, umdf.iwdfioqueue_purge, Purge, IWDFIoQueue::Purge, Purge method
+ms.keywords: Purge method, IWDFIoQueue, IWDFIoQueue::Purge, wdf.iwdfioqueue_purge, IWDFIoQueue interface, Purge method, Purge, wudfddi/IWDFIoQueue::Purge, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, Purge method, IWDFIoQueue interface, umdf.iwdfioqueue_purge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,16 +78,20 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQ
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The framework cancels unprocessed requests in the queue. For requests that are delivered to the driver and marked cancelable, the framework calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>. 
 
 The driver should ensure that only one of the following methods is in progress at any given time: 
+
 <ul>
 <li>
 
@@ -105,7 +109,40 @@ The driver should ensure that only one of the following methods is in progress a
 <b>IWDFIoQueue::Purge</b>
 
 </li>
-</ul>For example, if the driver previously called <b>Purge</b>, it should wait for notification from the method of the interface that the <i>pPurgeComplete</i> parameter points to before it calls either <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a> or <a href="https://msdn.microsoft.com/0356e8a7-de44-4b0f-9067-ca3bb04260d8">Drain</a>. Violating this rule results in termination of the host process.
+</ul>
+For example, if the driver previously called <b>Purge</b>, it should wait for notification from the method of the interface that the <i>pPurgeComplete</i> parameter points to before it calls either <a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a> or <a href="https://msdn.microsoft.com/0356e8a7-de44-4b0f-9067-ca3bb04260d8">Drain</a>. Violating this rule results in termination of the host process.
+
+
+#### Examples
+
+The following code example shows how to stop requests to a queue.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+CUmdfHidFile::OnCleanupFile(
+    __in IWDFFile* /* WdfFile */
+    )
+/*++
+    This method handles the cleanup operation for the file object.  
+    Because the file is disabled, no new reports should be added to the ring buffer.
+--*/
+{
+    this-&gt;Disable();
+
+    //
+    // Stop all current requests to read reports.
+    //
+
+    m_GetReportQueue-&gt;Purge(NULL);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -113,13 +150,23 @@ The driver should ensure that only one of the following methods is in progress a
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
 
  
 

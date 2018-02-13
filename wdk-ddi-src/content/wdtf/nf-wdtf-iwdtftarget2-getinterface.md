@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: dddd631e-7ccf-4554-9236-b567c5108fe2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GetInterface method [Windows Device Testing Framework], GetInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework], GetInterface method, IWDTFTarget2, IWDTFTarget2::GetInterface, GetInterface, Microsoft::WDTF::IWDTFTarget2::GetInterface, wdtf/IWDTFTarget2::GetInterface, dtf.iwdtftarget2_getinterface, Microsoft.WDTF.IWDTFTarget2.GetInterface
+ms.keywords: dtf.iwdtftarget2_getinterface, wdtf/IWDTFTarget2::GetInterface, Microsoft.WDTF.IWDTFTarget2.GetInterface, IWDTFTarget2::GetInterface, GetInterface method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFTarget2::GetInterface, GetInterface, IWDTFTarget2 interface [Windows Device Testing Framework], GetInterface method, IWDTFTarget2, GetInterface method [Windows Device Testing Framework], IWDTFTarget2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,11 +114,14 @@ that contains <b>VT_EMPTY</b>.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GetInterface</b> method is the most useful method in the WDTF object model. 
@@ -136,9 +139,12 @@ see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Actio
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

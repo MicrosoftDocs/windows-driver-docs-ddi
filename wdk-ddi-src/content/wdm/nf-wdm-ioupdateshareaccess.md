@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8e14607-a8d4-4e15-8b1d-92096879ea65
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoUpdateShareAccess, k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], IoUpdateShareAccess, kernel.ioupdateshareaccess
+ms.keywords: kernel.ioupdateshareaccess, wdm/IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], IoUpdateShareAccess, k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Pointer to the common <b>SHARE_ACCESS</b> structure associated with the <i>FileO
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>IoUpdateShareAccess</b> is not an atomic operation. Therefore, drivers calling this routine must protect the shared file object passed to <b>IoUpdateShareAccess </b>by means of some kind of lock, such as a mutex or a resource lock, in order to prevent corruption of the shared access counts.
@@ -95,13 +98,20 @@ Before calling <b>IoUpdateShareAccess</b>, the caller must successfully call <b>
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
 
+
+
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+
+
 
  
 

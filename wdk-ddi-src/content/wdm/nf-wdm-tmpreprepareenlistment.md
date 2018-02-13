@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54c0fed2-a553-4321-bf61-0f71d18ab7c5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], TmPrePrepareEnlistment, ktm_ref_b27bc92e-86df-4457-9a8a-bf56eb7d1ac8.xml, wdm/TmPrePrepareEnlistment, kernel.tmpreprepareenlistment
+ms.keywords: TmPrePrepareEnlistment, kernel.tmpreprepareenlistment, wdm/TmPrePrepareEnlistment, TmPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_b27bc92e-86df-4457-9a8a-bf56eb7d1ac8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>TmPrePrepareEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,13 +136,16 @@ The caller does not have appropriate access to the enlistment object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmPrePrepareEnlistment</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwpreprepareenlistment.md">ZwPrePrepareEnlistment</a> routine.
@@ -151,19 +156,32 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-<a href="..\wdm\nf-wdm-zwpreprepareenlistment.md">ZwPrePrepareEnlistment</a>
 
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
 
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwpreprepareenlistment.md">ZwPrePrepareEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
 
  
 

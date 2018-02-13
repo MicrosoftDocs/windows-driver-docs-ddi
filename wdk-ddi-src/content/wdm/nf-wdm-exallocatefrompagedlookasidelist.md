@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f0c86720-4914-47b1-abb1-151196cc2a68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture], kernel.exallocatefrompagedlookasidelist, ExAllocateFromPagedLookasideList, wdm/ExAllocateFromPagedLookasideList
+ms.keywords: wdm/ExAllocateFromPagedLookasideList, k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, kernel.exallocatefrompagedlookasidelist, ExAllocateFromPagedLookasideList, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 ## -returns
 
 
+
 <b>ExAllocateFromPagedLookasideList</b> returns a pointer to an entry if one can be allocated. Otherwise, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the given lookaside list is not empty, <b>ExAllocateFromPagedLookasideList</b> removes the first entry from the list and returns a pointer to this entry. Otherwise, <b>ExAllocateFromPagedLookasideList</b> either calls the <i>Allocate</i> routine specified at list initialization or <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> to return an entry pointer.
@@ -95,15 +98,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
 <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
+
+
 <a href="..\wdm\nf-wdm-exfreetopagedlookasidelist.md">ExFreeToPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+
+
 
  
 

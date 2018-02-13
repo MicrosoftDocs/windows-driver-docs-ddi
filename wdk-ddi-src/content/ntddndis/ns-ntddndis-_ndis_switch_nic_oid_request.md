@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a097769-0c74-4465-b339-13696b4dbb6b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_NIC_OID_REQUEST, NDIS_SWITCH_NIC_OID_REQUEST, ntddndis/PNDIS_SWITCH_NIC_OID_REQUEST, ntddndis/NDIS_SWITCH_NIC_OID_REQUEST, PNDIS_SWITCH_NIC_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_oid_request, NDIS_SWITCH_NIC_OID_REQUEST structure [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_OID_REQUEST, *PNDIS_SWITCH_NIC_OID_REQUEST
+ms.keywords: "*PNDIS_SWITCH_NIC_OID_REQUEST, ntddndis/NDIS_SWITCH_NIC_OID_REQUEST, _NDIS_SWITCH_NIC_OID_REQUEST, NDIS_SWITCH_NIC_OID_REQUEST structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_oid_request, NDIS_SWITCH_NIC_OID_REQUEST, PNDIS_SWITCH_NIC_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_NIC_OID_REQUEST, PNDIS_SWITCH_NIC_OID_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,6 +82,7 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
 
+
 #### NDIS_SWITCH_NIC_OID_REQUEST_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -128,9 +129,11 @@ A pointer to an <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST<
 ## -remarks
 
 
+
 The <b>NDIS_SWITCH_NIC_OID_REQUEST</b> structure is used in OID method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598266">OID_SWITCH_NIC_REQUEST</a>.
 
 A extension can forward or originate OID requests to underlying physical network adapters in the extensible switch driver stack. This enables an extension to do the following:
+
 <ul>
 <li>
 Manage the configuration of hardware offloads on an underlying physical adapter for the following offload technologies:
@@ -154,7 +157,9 @@ Single root I/O virtualization (SR-IOV).
 Query the configuration of an underlying physical network adapter by issuing standard NDIS OIDs. For example, the extension can issue an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a> to obtain the adapter's current media access control (MAC) address.
 
 </li>
-</ul>For guidelines on how to issue OID requests to underlying physical adapters, see <a href="https://msdn.microsoft.com/7E828FA8-DE99-4C30-ABB6-8AF05F9EC3B7">Managing OID Requests to Physical Network Adapters</a>.
+</ul>
+For guidelines on how to issue OID requests to underlying physical adapters, see <a href="https://msdn.microsoft.com/7E828FA8-DE99-4C30-ABB6-8AF05F9EC3B7">Managing OID Requests to Physical Network Adapters</a>.
+
 
 
 
@@ -162,11 +167,19 @@ Query the configuration of an underlying physical network adapter by issuing sta
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598266">OID_SWITCH_NIC_REQUEST</a>
 
+
+
 <b></b>
+
+
 
  
 

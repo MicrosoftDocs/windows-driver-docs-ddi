@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2b7b9b7-a76f-4bd9-bf25-edb5c103a578
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_setcellbroadcastmsgconfig, RIL_SetCellBroadcastMsgConfig, rilapi/RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setcellbroadcastmsgconfig, rilapi/RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_SetCellBroadcastMsgConfig(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param lpCbMsgConfigInfo
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

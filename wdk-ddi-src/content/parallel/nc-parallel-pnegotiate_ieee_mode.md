@@ -40,7 +40,7 @@ apiname:
 -	PNEGOTIATE_IEEE_MODE
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # PNEGOTIATE_IEEE_MODE callback
@@ -74,8 +74,9 @@ typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
 ### -param Extension
 
 
-
 ### -param Extensibility
+
+
 
 
 
@@ -100,6 +101,7 @@ Specifies the reverse protocols. <i>ModeMaskRev </i>is a bitwise OR of the const
 #### - ModeSafety [in]
 
 Specifies the safety mode. Must be set to the SAFE_MODE enumeration value of the PARALLEL_SAFETY enumeration type:
+
 <pre class="syntax" xml:space="preserve"><code>typedef enum {
   SAFE_MODE,
   UNSAFE_MODE
@@ -111,6 +113,7 @@ Specifies whether to connect the forward or the reverse protocol that the routin
 
 
 ## -returns
+
 
 
 <table>
@@ -151,11 +154,14 @@ An internal operation resulted in an NTSTATUS error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To obtain a pointer to the system-supplied PNEGOTIATE_IEEE_MODE callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>NegotiateIeeeMode</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
@@ -164,21 +170,36 @@ The PNEGOTIATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the
 
 
 
+
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
+
+
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
 
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
 
+
+
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
+
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
 
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfc75a17-a0de-436e-aebf-902fd841871a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlclearbit, k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, RtlClearBit routine [Kernel-Mode Driver Architecture], RtlClearBit, wdm/RtlClearBit
+ms.keywords: k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, wdm/RtlClearBit, RtlClearBit routine [Kernel-Mode Driver Architecture], kernel.rtlclearbit, RtlClearBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,22 +82,30 @@ Specifies the zero-based index of the bit within the bitmap. The routine sets th
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>RtlClearBit</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlClearBit</b> can be called at any IRQL.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
 
  
 

@@ -85,6 +85,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pCounterInfo [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a> structure that describes how to update a destination subresource region from a source system-memory region.
@@ -93,13 +95,17 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md
 ## -returns
 
 
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a>
+
+
 
  
 

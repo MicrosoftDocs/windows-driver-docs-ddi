@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmmapmdl, MmMapMdl, wdm/MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], MmMapMdl, kernel.mmmapmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,9 @@ A pointer to a driver-defined context. The driver's callback function can store 
 ## -returns
 
 
+
     If the callback function pointed to by <i>DriverRoutine</i> was invoked, this function returns STATUS_SUCCESS. The function returns an appropriate NTSTATUS value if the MDL could not be mapped or the callback function could not be invoked.
+
 
 
 
@@ -104,6 +106,8 @@ A pointer to a driver-defined context. The driver's callback function can store 
 ## -see-also
 
 <a href="..\wdm\nc-wdm-mm_mdl_routine.md">MM_MDL_ROUTINE</a>
+
+
 
  
 

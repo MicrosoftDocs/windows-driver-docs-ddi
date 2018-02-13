@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscmregisteraddressfamilyex, condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], ndis/NdisCmRegisterAddressFamilyEx
+ms.keywords: ndis/NdisCmRegisterAddressFamilyEx, condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmRegisterAddressFamilyEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmRegisterAddressFamilyEx function
@@ -97,7 +97,9 @@ The pointer for
 ## -returns
 
 
+
 <b>NdisCmRegisterAddressFamilyEx</b> can return any of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -162,11 +164,14 @@ The caller's binding is being closed.
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS stand-alone call managers, which register as NDIS protocol drivers by calling the 
@@ -206,20 +211,33 @@ When a call manager's
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
    NdisMCmRegisterAddressFamilyEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+
 
  
 

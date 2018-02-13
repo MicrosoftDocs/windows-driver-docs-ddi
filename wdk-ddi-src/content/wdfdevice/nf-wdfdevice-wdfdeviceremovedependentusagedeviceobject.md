@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9569b4b-ad71-46dd-b421-8493f595f030
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEREMOVEDEPENDENTUSAGEDEVICEOBJECT, wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject, WdfDeviceRemoveDependentUsageDeviceObject method, WdfDeviceRemoveDependentUsageDeviceObject, wdf.wdfdeviceremovedependentusagedeviceobject, DFDeviceObjectGeneralRef_22cf19f5-c56f-430f-a6a1-d15af92eb41b.xml, kmdf.wdfdeviceremovedependentusagedeviceobject
+ms.keywords: WdfDeviceRemoveDependentUsageDeviceObject method, wdf.wdfdeviceremovedependentusagedeviceobject, kmdf.wdfdeviceremovedependentusagedeviceobject, wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject, PFN_WDFDEVICEREMOVEDEPENDENTUSAGEDEVICEOBJECT, DFDeviceObjectGeneralRef_22cf19f5-c56f-430f-a6a1-d15af92eb41b.xml, WdfDeviceRemoveDependentUsageDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,11 +85,14 @@ A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your driver can call <b>WdfDeviceRemoveDependentUsageDeviceObject</b> to remove a device dependency that a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceadddependentusagedeviceobject.md">WdfDeviceAddDependentUsageDeviceObject</a> created.
@@ -97,10 +100,31 @@ Your driver can call <b>WdfDeviceRemoveDependentUsageDeviceObject</b> to remove 
 For more information about <b>WdfDeviceRemoveDependentUsageDeviceObject</b> and <b>WdfDeviceRemoveDependentUsageDeviceObject</b>, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>. 
 
 
+#### Examples
+
+The following code example removes a device (<b>pDeviceObject</b>) from the list of devices that another device (<b>device</b>) depends on.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfDeviceRemoveDependentUsageDeviceObject(
+                                                device,
+                                                pDeviceObject
+                                                );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceadddependentusagedeviceobject.md">WdfDeviceAddDependentUsageDeviceObject</a>
+
+
 
  
 

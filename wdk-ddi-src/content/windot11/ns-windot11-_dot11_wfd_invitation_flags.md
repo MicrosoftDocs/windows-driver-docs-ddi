@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9743FF37-0E8A-499F-AADB-9CD7BDC381E0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_INVITATION_FLAGS, Join, windot11/DOT11_WFD_INVITATION_FLAGS, PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_INVITATION_FLAGS, _DOT11_WFD_INVITATION_FLAGS, *PDOT11_WFD_INVITATION_FLAGS, windot11/PDOT11_WFD_INVITATION_FLAGS, netvista.dot11_wfd_invitation_flags, Reinvoke, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_DOT11_WFD_INVITATION_FLAGS, *PDOT11_WFD_INVITATION_FLAGS, Reinvoke, Join, netvista.dot11_wfd_invitation_flags, windot11/DOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS, PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_INVITATION_FLAGS, PDOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_INVITATION_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS"
+req.typenames: DOT11_WFD_INVITATION_FLAGS, *PDOT11_WFD_INVITATION_FLAGS
 req.product: Windows 10 or later.
 ---
 
@@ -80,9 +80,11 @@ typedef struct _DOT11_WFD_INVITATION_FLAGS {
 
 
 
+
 #### - InvitationType:1
 
 The type of group invitation. The invitation types have the following meanings.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +112,8 @@ The invitation is reinvoked.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - Reserved:7

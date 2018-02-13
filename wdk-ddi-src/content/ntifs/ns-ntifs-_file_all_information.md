@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b5f314c-6918-4cb8-a4e2-9ca0f4c5ea54
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PFILE_ALL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_ALL_INFORMATION structure [Kernel-Mode Driver Architecture], ntifs/PFILE_ALL_INFORMATION, ntifs/FILE_ALL_INFORMATION, PFILE_ALL_INFORMATION, kstruct_b_24c6b1da-76d1-46a9-838d-bb19af21d6f8.xml, *PFILE_ALL_INFORMATION, _FILE_ALL_INFORMATION, FILE_ALL_INFORMATION, kernel.file_all_information
+ms.keywords: kstruct_b_24c6b1da-76d1-46a9-838d-bb19af21d6f8.xml, *PFILE_ALL_INFORMATION, ntifs/FILE_ALL_INFORMATION, kernel.file_all_information, ntifs/PFILE_ALL_INFORMATION, FILE_ALL_INFORMATION, _FILE_ALL_INFORMATION, PFILE_ALL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_ALL_INFORMATION, FILE_ALL_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,33 +123,55 @@ Contains the file name. This member is a <a href="..\ntddk\ns-ntddk-_file_name_i
 ## -remarks
 
 
+
 This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> routine.
 
 <b>FILE_ALL_INFORMATION</b> combines several file-information structures into a single structure to reduce the number of queries that are required to obtain information about a file. 
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
 
-<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+
+<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+
+
 
 <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+
+
+<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
+
+
 
  
 

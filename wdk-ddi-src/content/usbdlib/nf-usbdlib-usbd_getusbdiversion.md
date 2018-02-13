@@ -7,8 +7,8 @@ old-location: buses\usbd_getusbdiversion.htm
 old-project: usbref
 ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, usbdlib/USBD_GetUSBDIVersion, USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], buses.usbd_getusbdiversion
+ms.date: 2/8/2018
+ms.keywords: USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, buses.usbd_getusbdiversion, USBD_GetUSBDIVersion routine [Buses], usbdlib/USBD_GetUSBDIVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,14 +77,18 @@ Pointer to caller-allocated memory for a <a href="..\usb\ns-usb-_usbd_version_in
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memory for <i>VersionInformation</i> is allocated from nonpaged pool. Otherwise, callers must be running at IRQL &lt; DISPATCH_LEVEL.
+
 
 
 
@@ -92,11 +96,15 @@ Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memor
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_GetUSBDIVersion routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_GetUSBDIVersion routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

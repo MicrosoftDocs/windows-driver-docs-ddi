@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_LineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, pos.linedisplaysizeinpixelstype, LineDisplaySizeInPixelsType structure, pointofservicecommontypes/PLineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, PLineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType"
+ms.keywords: PLineDisplaySizeInPixelsType structure pointer, LineDisplaySizeInPixelsType structure, pointofservicecommontypes/PLineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, pos.linedisplaysizeinpixelstype, LineDisplaySizeInPixelsType, _LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -78,6 +78,6 @@ typedef struct _LineDisplaySizeInPixelsType {
 
 
 
-####### - ...
 
+####### - ...
 

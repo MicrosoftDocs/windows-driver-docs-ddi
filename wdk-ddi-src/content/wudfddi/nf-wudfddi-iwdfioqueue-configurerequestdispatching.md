@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376b0cc3-8189-499e-ad7f-5844f8cb4221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue, IWDFIoQueue::ConfigureRequestDispatching, ConfigureRequestDispatching, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, ConfigureRequestDispatching method, IWDFIoQueue interface, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, ConfigureRequestDispatching method
+ms.keywords: UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, umdf.iwdfioqueue_configurerequestdispatching, ConfigureRequestDispatching, IWDFIoQueue, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue::ConfigureRequestDispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, ConfigureRequestDispatching method, IWDFIoQueue interface, ConfigureRequestDispatching method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,14 +84,40 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 ## -returns
 
 
+
 <b>ConfigureRequestDispatching</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h. 
+
 
 
 
 ## -remarks
 
 
+
 The driver can call the <b>ConfigureRequestDispatching</b> method multiple times to configure how each request type is dispatched to the I/O queue. 
+
+
+#### Examples
+
+The following code example shows how to configure forwarding for IOCTL requests.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    //
+    // Configure forwarding for IOCTL requests
+    //
+    HRESULT hr = m_FxQueue-&gt;ConfigureRequestDispatching(
+                                                        WdfRequestDeviceIoControl,
+                                                        true
+                                                        );
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -99,7 +125,11 @@ The driver can call the <b>ConfigureRequestDispatching</b> method multiple times
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+
+
 
  
 

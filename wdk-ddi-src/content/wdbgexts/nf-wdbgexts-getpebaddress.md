@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314eb897-a441-41c7-8b74-a853de70e066
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getpebaddress, WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, GetPebAddress, GetPebAddress function [Windows Debugging], wdbgexts/GetPebAddress
+ms.keywords: GetPebAddress function [Windows Debugging], WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, GetPebAddress, wdbgexts/GetPebAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,11 +86,14 @@ Receives the address of the PEB for the current operating system process or, in 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In user-mode debugging, the PEB for the current thread is returned.
@@ -99,11 +102,16 @@ In kernel-mode debugging, if <i>CurrentThread</i> is <b>NULL</b>, the PEB for th
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
 
+
+
 <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
+
+
 
  
 

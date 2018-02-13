@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A2551FD2-55E7-4931-887B-1CB9901F23D6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlInt8Mult, kernel.rtlint8mult, RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlInt8Mult, kernel.rtlint8mult, ntintsafe/RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

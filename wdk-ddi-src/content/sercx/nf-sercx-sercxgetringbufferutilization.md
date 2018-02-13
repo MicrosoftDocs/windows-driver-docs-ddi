@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxGetRingBufferUtilization, serports.sercxgetringbufferutilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports]
+ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ The size, in bytes, of the type-ahead ring buffer that is used to store received
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The serial controller driver calls this function to determine how much storage space is available in the type-ahead ring buffer. The serial controller extension (SerCx) maintains this buffer to contain data that the serial controller driver receives from the serial port when no read request from the client is currently being processed. This function provides the information that the driver requires to accurately perform software flow control (XON/XOFF).
@@ -103,11 +106,16 @@ SerCx evaluates the available space in the type-ahead ring buffer in the context
 
 
 
+
 ## -see-also
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
+
+
 
 <a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
+
 
  
 

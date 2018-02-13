@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: pfnAddPortUI, pfnAddPortUI function [Print Devices], winsplp/pfnAddPortUI, print.addportui, AddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml
+ms.keywords: winsplp/pfnAddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, pfnAddPortUI, pfnAddPortUI function [Print Devices], AddPortUI, print.addportui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,14 @@ Caller-supplied pointer to a string representing the name of the monitor. Can be
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise SetLastError should be called to specify an error code, and the function should return <b>FALSE</b>. If the operation is canceled by the user or is unsupported, the function should call SetLastError(ERROR_CANCELLED), then return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
@@ -111,6 +114,7 @@ Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and inc
 The spooler calls <b>AddPortUI</b> from within its AddPort function. The first three arguments received by <b>AddPortUI</b> are the arguments received by AddPort. (The AddPort function is described in the Microsoft Windows SDK documentation.)
 
 The function should perform the following operations:
+
 <ol>
 <li>
 Call OpenPrinter, specifying a printer name with the following format:<dl>
@@ -166,17 +170,28 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 </ol>
 
 
+
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
+
+
 
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
-<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
-<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
+
+
+<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+
+
 
  
 

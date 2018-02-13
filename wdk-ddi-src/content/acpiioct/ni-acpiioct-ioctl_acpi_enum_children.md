@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ACPI_ENUM_CHILDREN
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_ENUM_CHILDREN IOCTL
@@ -65,6 +65,7 @@ The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to enumerate the
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
+
 <ul>
 <li>
 <i>IoControlCode</i> is set to IOCTL_ACPI_ENUM_CHILDREN.
@@ -104,6 +105,7 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 ### -output-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
+
 <ul>
 <li>
 <i>OutputBuffer</i> supplies a pointer to a variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure in which the ACPI driver returns the path and name of the enumerated child devices.
@@ -123,14 +125,18 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -142,6 +148,7 @@ If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member 
 
 
 ## -remarks
+
 
 
 IOCTL_ACPI_ENUM_CHILDREN returns a variable-length ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure that contains an array of variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a> structures, each of which returns the fully qualified path and name of an object in the ACPI namespace of the device to which the request was sent. The objects that this request enumerates depends on the setting of the <b>Flags</b> member of the supplied input structure ACPI_ENUM_CHILDREN_INPUT_BUFFER, as follows:
@@ -158,13 +165,20 @@ IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 
 
 
-## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
+## -see-also
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a>
 
+
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_input_buffer.md">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a>
+
+
+
+<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
+
+
 
  
 

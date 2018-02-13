@@ -97,20 +97,26 @@ Specifies the number of bytes to be written.
 ## -returns
 
 
+
 <i>I2CWrite</i> returns <b>TRUE</b> if the data was successfully written, and <b>FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltgetrequestorsessionid.htm
 old-project: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltgetrequestorsessionid, fltkernel/FltGetRequestorSessionId, FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: fltkernel/FltGetRequestorSessionId, FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid, FltGetRequestorSessionId routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,15 +81,19 @@ A pointer to the session ID for the requesting operation.
 ## -returns
 
 
+
 The <b>FltGetRequestorSessionId</b> routine returns STATUS_SUCCESS on success or STATUS_UNSUCCESSFUL on failure.
+
 
 
 
 ## -remarks
 
 
+
 If a process has no session ID, the SessionId parameter refers to -1 and the <b>FltGetRequestorSessionId</b> routine returns STATUS_SUCCESS.
 
 If the <b>FltGetRequestorSessionId</b> routine returns STATUS_UNSUCCESSFUL, <i>SessionId</i> is not valid.
+
 
 

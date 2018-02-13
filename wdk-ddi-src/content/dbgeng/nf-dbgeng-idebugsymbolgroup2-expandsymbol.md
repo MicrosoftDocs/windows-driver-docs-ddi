@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314fdeea-10be-4cb3-8bd7-9b1b4b12e534
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2::ExpandSymbol, debugger.expandsymbol, dbgeng/IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup2, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup::ExpandSymbol, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, dbgeng/IDebugSymbolGroup::ExpandSymbol
+ms.keywords: IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup2::ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, debugger.expandsymbol, dbgeng/IDebugSymbolGroup2::ExpandSymbol, ExpandSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,6 +82,7 @@ A Boolean value that specifies whether to add or remove the symbols children fro
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,26 +121,36 @@ The depth of the symbol is DEBUG_SYMBOL_EXPANSION_LEVEL_MASK,  which is the maxi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03B822CF-2FB0-412B-9F45-43756D8B4C19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], display.d3dkmt_signalsynchronizationobjectfromcpu, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+ms.keywords: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], display.d3dkmt_signalsynchronizationobjectfromcpu, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,9 +96,12 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a>
+
+
 
  
 

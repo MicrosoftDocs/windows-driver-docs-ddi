@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9CF14B12-D94F-486D-A5FC-E7CC2730D8E9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: BUS_RESET_NOTIFY, PBUS_RESET_NOTIFY structure pointer [Buses], BUS_RESET_NOTIFY structure [Buses], *PBUS_RESET_NOTIFY, 61883/PBUS_RESET_NOTIFY, 61883/BUS_RESET_NOTIFY, _BUS_RESET_NOTIFY, IEEE.bus_reset_notify, PBUS_RESET_NOTIFY
+ms.keywords: 61883/PBUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY, 61883/BUS_RESET_NOTIFY, _BUS_RESET_NOTIFY, BUS_RESET_NOTIFY structure [Buses], IEEE.bus_reset_notify, PBUS_RESET_NOTIFY structure pointer [Buses], PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,6 +79,7 @@ The caller sets this member to REGISTER_BUS_RESET_NOTIFY to register to receive 
 Pointer to a caller-supplied function to be called by the protocol driver when the 1394 bus is reset. 
 
 This function uses the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -102,15 +103,19 @@ Pointer to a caller-defined context for the function at <b>pfnNotify</b>. The IE
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

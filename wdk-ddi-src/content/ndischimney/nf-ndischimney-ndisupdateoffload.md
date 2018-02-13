@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e85357d-9fe2-406b-bc1a-69e4357a0f8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml, netvista.ndisupdateoffload, NdisUpdateOffload
+ms.keywords: NdisUpdateOffload, ndischimney/NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml, netvista.ndisupdateoffload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,14 @@ A pointer to an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An intermediate driver calls the 
@@ -119,22 +122,35 @@ From the
 
 
 
+
 ## -see-also
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
+
+
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
    ProtocolUpdateOffloadComplete</a>
 
+
+
 <a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
  
 

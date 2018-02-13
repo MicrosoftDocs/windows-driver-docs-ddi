@@ -82,8 +82,10 @@ A handle associated with the registration of the callback function that is being
 ## -returns
 
 
+
 The 
      <b>FwpmBfeStateUnsubscribeChanges0</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,11 +113,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -134,10 +139,13 @@ Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that
 
 
 
+
 ## -see-also
 
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
    FwpmBfeStateSubscribeChanges0</a>
+
+
 
  
 

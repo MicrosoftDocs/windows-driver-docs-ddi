@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 992fcdbd-200f-465d-b4be-922132d51d97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], NetDmaProviderStop, netdma/NetDmaProviderStop
+ms.keywords: netvista.netdmaproviderstop, netdma/NetDmaProviderStop, NetDmaProviderStop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaProviderStop
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaProviderStop function
@@ -82,11 +82,14 @@ A handle that identifies a DMA provider. The DMA provider driver received this h
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A DMA provider driver calls the 
@@ -122,19 +125,32 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 <a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
+
 
 <a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
 
  
 

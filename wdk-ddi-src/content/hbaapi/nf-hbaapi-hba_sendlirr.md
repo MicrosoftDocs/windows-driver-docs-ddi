@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e38d297-1e26-4605-a242-3f0180ac0360
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_sendlirr, HBA_SendLIRR, HBA_SendLIRR routine [Storage Devices], hbaapi/HBA_SendLIRR, fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml
+ms.keywords: HBA_SendLIRR, HBA_SendLIRR routine [Storage Devices], hbaapi/HBA_SendLIRR, storage.hba_sendlirr, fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,6 +91,7 @@ Contains the WWN of the remote destination port that will report link incident r
 ### -param Function [in]
 
 Specifies the action to take. This member either registers a source port to receive link incident records and specifies the mode of registration, or it de-registers a source port that is already registered. This member must have one of the following values.
+
 <table>
 <tr>
 <th>Value in Hexadecimal</th>
@@ -146,7 +147,8 @@ Indicates that the source port is removed from the registration list for records
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For further explanation of the available registration modes, see the T11 committee's <i>Fibre Channel Framing and Signaling</i> specification.
 
@@ -169,6 +171,7 @@ TBD
 
 
 
+
 #### - RspBufferSize [in, out]
 
 On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member indicates the size, in bytes, of the response data. Eight bytes is sufficient for any response.
@@ -177,7 +180,9 @@ On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On o
 ## -returns
 
 
+
 The <b>HBA_ScsiReportLUNsV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiReportLUNsV2</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -238,7 +243,9 @@ Returned if an unspecified error occurred that prevented the execution of the LI
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -246,7 +253,11 @@ Returned if an unspecified error occurred that prevented the execution of the LI
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

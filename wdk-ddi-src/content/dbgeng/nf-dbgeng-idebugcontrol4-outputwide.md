@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d89ed38b-f2ab-495f-b7e6-7f58b9adc958
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ControlledOutputWide, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, debugger.outputwide, IDebugControl4::ControlledOutputWide, ControlledOutputWide method [Windows Debugging], OutputWide, IDebugControl4::OutputWide
+ms.keywords: IDebugControl4::OutputWide, ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, OutputWide, IDebugControl4, dbgeng/IDebugControl4::ControlledOutputWide, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, debugger.outputwide, ControlledOutputWide method [Windows Debugging], IDebugControl4::ControlledOutputWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,6 +79,7 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It cannot have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
+
 <table>
 <tr>
 <th>Character</th>
@@ -248,10 +249,12 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param param
+
 
 
 
@@ -265,7 +268,9 @@ Specifies additional parameters that contain values to be inserted into the outp
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -282,28 +287,42 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
+
+
+
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
 
  
 

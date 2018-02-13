@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], storage.storage_physical_adapter_data, PSTORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], *PSTORAGE_PHYSICAL_ADAPTER_DATA
+ms.keywords: ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], _STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,6 +130,7 @@ Indicates the specification of the storage adapter, of type <a href="..\ntddstor
 ### -field Reserved1
 
  
+
 
 
 

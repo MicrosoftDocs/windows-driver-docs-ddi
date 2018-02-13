@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CDA0A86B-94E7-4825-9826-0E12ECF42B57
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_port_buffer_uchar, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR function, wdf.read_port_buffer_uchar, READ_PORT_BUFFER_UCHAR
+ms.keywords: READ_PORT_BUFFER_UCHAR function, READ_PORT_BUFFER_UCHAR, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR, wdf.read_port_buffer_uchar, umdf.read_port_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,13 +96,17 @@ Specifies the number of bytes to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

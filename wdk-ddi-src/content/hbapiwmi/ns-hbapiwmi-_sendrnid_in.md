@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 668c4d1a-52e8-49ea-bd19-e789dfa8dfa5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SendRNID_IN, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml, SendRNID_IN, PSendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], storage.sendrnid_in, *PSendRNID_IN, SendRNID_IN structure [Storage Devices], hbapiwmi/SendRNID_IN, hbapiwmi/PSendRNID_IN"
+ms.keywords: "_SendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], storage.sendrnid_in, PSendRNID_IN, hbapiwmi/PSendRNID_IN, *PSendRNID_IN, SendRNID_IN structure [Storage Devices], SendRNID_IN, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml, hbapiwmi/SendRNID_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendRNID_IN
 product: Windows
 targetos: Windows
-req.typenames: SendRNID_IN, *PSendRNID_IN
+req.typenames: "*PSendRNID_IN, SendRNID_IN"
 ---
 
 # _SendRNID_IN structure
@@ -81,13 +81,17 @@ Deprecated. Do not use.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRNID_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
+
+
 
  
 

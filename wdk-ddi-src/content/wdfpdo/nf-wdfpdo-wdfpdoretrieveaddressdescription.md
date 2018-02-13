@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b19e6492-af8d-48dc-8d17-81c2d8c25a6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoRetrieveAddressDescription, wdfpdo/WdfPdoRetrieveAddressDescription, kmdf.wdfpdoretrieveaddressdescription, wdf.wdfpdoretrieveaddressdescription, WdfPdoRetrieveAddressDescription method, PFN_WDFPDORETRIEVEADDRESSDESCRIPTION, DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml
+ms.keywords: wdf.wdfpdoretrieveaddressdescription, kmdf.wdfpdoretrieveaddressdescription, DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, WdfPdoRetrieveAddressDescription method, PFN_WDFPDORETRIEVEADDRESSDESCRIPTION, WdfPdoRetrieveAddressDescription, wdfpdo/WdfPdoRetrieveAddressDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a caller-allocated buffer that will receive the address description
 ## -returns
 
 
+
 If the operation succeeds, the function returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,7 +116,8 @@ The <i>Device</i> handle does not represent a device that was <a href="https://d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other<a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505"> NTSTATUS values</a>.
 
@@ -122,13 +125,20 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveidentificationdescription.md">WdfPdoRetrieveIdentificationDescription</a>
+
+
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrieveaddressdescription.md">WdfChildListRetrieveAddressDescription</a>
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveidentificationdescription.md">WdfPdoRetrieveIdentificationDescription</a>
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
+
+
 
  
 

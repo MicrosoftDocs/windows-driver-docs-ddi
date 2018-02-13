@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.getpersistentbinding2_out, GetPersistentBinding2_OUT structure [Storage Devices], *PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT, structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, _GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], hbapiwmi/PGetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT
+ms.keywords: GetPersistentBinding2_OUT structure [Storage Devices], structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, storage.getpersistentbinding2_out, GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], _GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcp
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetPersistentBinding2_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a>
+
+
 
  
 

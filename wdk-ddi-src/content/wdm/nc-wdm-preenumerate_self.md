@@ -40,7 +40,7 @@ apiname:
 -	ReenumerateSelf
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A pointer to interface-specific context information. The caller passes the value
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\wdm\ns-wdm-_reenumerate_self_interface_standard.md">REENUMERATE_SELF_INTERFACE_STANDARD</a> interface structure supplies a pointer to the <i>ReenumerateSelf</i> routine.
@@ -92,15 +95,24 @@ If the bus driver can process the request at the time of the routine call, the b
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_reenumerate_self_interface_standard.md">REENUMERATE_SELF_INTERFACE_STANDARD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
 
  
 

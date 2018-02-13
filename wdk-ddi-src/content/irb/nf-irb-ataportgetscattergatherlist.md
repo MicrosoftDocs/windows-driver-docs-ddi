@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11181574-b329-4182-8d17-93d44cb3b839
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportgetscattergatherlist, AtaPortGetScatterGatherList, AtaPortGetScatterGatherList routine [Storage Devices], atartns_ef8ff0f5-2d1c-47e1-bf1a-2b554de3969d.xml, irb/AtaPortGetScatterGatherList
+ms.keywords: AtaPortGetScatterGatherList routine [Storage Devices], irb/AtaPortGetScatterGatherList, AtaPortGetScatterGatherList, atartns_ef8ff0f5-2d1c-47e1-bf1a-2b554de3969d.xml, storage.ataportgetscattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,14 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 ## -returns
 
 
+
 If the IRB_FLAGS_USE_DMA flag is set in the <b>IrbFlags</b> member of IRB, the <b>AtaPortGetScatterGatherList</b> routine returns a pointer to the scatter/gather list that is associated with the IRB. Otherwise, <b>AtaPortGetScatterGatherList</b> returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Every IRB with IRB_FLAGS_USE_DMA set in the <b>IrbFlags</b> member has a scatter/gather list associated with it. 
@@ -97,9 +100,12 @@ The miniport driver must not modify the scatter/gather list.
 
 
 
+
 ## -see-also
 
 <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
+
+
 
  
 

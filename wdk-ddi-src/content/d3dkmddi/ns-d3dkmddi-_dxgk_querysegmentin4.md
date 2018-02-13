@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYSEGMENTIN4 structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4, DXGK_QUERYSEGMENTIN4, _DXGK_QUERYSEGMENTIN4
+ms.keywords: DXGK_QUERYSEGMENTIN4 structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTIN4, _DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4, DXGK_QUERYSEGMENTIN4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ A zero-based physical adapter index in a linked display adapter  (LDA) link. Zer
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout4.md">DXGK_QUERYSEGMENTOUT4</a>
+
+
 
  
 

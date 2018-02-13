@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d1f6570-adc1-4389-b20b-7c7e05f1c9bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_GEOLOCATION_ALL, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RIL_GEOLOCATION_LATLONG, RILGEOLOCATIONTYPEMASK, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, ntddrilapitypes/RILGEOLOCATIONTYPEMASK, ntddrilapitypes/RIL_GEOLOCATION_LATLONG, RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, netvista.rilgeolocationtypemask
+ms.keywords: RILGEOLOCATIONTYPEMASK, RIL_GEOLOCATION_LATLONG, ntddrilapitypes/RIL_GEOLOCATION_ALL, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_GEOLOCATION_LATLONG, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, ntddrilapitypes/RILGEOLOCATIONTYPEMASK, netvista.rilgeolocationtypemask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,15 +72,11 @@ typedef enum _RILGEOLOCATIONTYPEMASK {
 ### -field RIL_GEOLOCATION_NONE
 
 
-
 ### -field RIL_GEOLOCATION_CIVIC
-
 
 
 ### -field RIL_GEOLOCATION_LATLONG
 
 
-
 ### -field RIL_GEOLOCATION_ALL
-
 

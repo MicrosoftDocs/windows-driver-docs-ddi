@@ -40,7 +40,7 @@ apiname:
 -	WDF_WRITE_REGISTER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,8 @@ Specifies a ULONG value to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvPerformPostAssociate
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,7 @@ For more information about the association operation, see
 ## -returns
 
 
+
 If the IHV Extension DLL can initiate the post-association operation, it must complete the operation
       asynchronously. In this situation, the function returns ERROR_SUCCESS.
 
@@ -133,15 +134,20 @@ If the IHV Extensions DLL cannot initiate the post-association operation, it ret
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the 
     <i>Dot11ExtIhvPerformPostAssociate</i> function to initiate a post-association operation with the IHV
     Extensions DLL. The operating system initiates this operation after the WLAN adapter completes an
     association operation with an access point (AP) in an infrastructure basic service set (BSS) network.
+
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
-    service set (BSS) networks.</div><div> </div>For more information about the association operation, see 
+    service set (BSS) networks.</div>
+<div> </div>
+For more information about the association operation, see 
     <a href="https://msdn.microsoft.com/04e97ea1-fe4b-471e-a7be-b5aa3ee88edc">Association Operations</a>.
 
 The post-association operation must be completed asynchronously from the call to 
@@ -159,19 +165,30 @@ For more information about the post-association operation, see
 
 
 
+
 ## -see-also
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
-   Dot11ExtPostAssociateCompletion</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlclient\ns-wlclient-_dot11_port_state.md">DOT11_PORT_STATE</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+
 
  
 

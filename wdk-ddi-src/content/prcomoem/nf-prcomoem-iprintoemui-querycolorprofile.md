@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], QueryColorProfile method, QueryColorProfile, IPrintOemUI::QueryColorProfile, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml, IPrintOemUI
+ms.keywords: QueryColorProfile method [Print Devices], IPrintOemUI interface, QueryColorProfile method [Print Devices], IPrintOemUI interface [Print Devices], QueryColorProfile method, print.iprintoemui_querycolorprofile, prcomoem/IPrintOemUI::QueryColorProfile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml, IPrintOemUI::QueryColorProfile, IPrintOemUI, QueryColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.QueryColorProfile
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,7 @@ Caller-supplied pointer to the user interface plug-in's private DEVMODEW structu
 ### -param ulQueryMode
 
 One of the following caller-supplied bit flags, indicating the type of profile to be specified.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -123,7 +124,8 @@ The caller is requesting a source profile.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pvProfileData
@@ -139,6 +141,7 @@ Caller-supplied pointer to a value representing the size, in bytes, of the buffe
 ### -param pflProfileData
 
 One of the following method-supplied bit flags, indicating the type of information the method is returning.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -164,13 +167,16 @@ The method is returning profile data in the buffer pointed to by <i>pvProfileDat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -209,11 +215,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in's <code>IPrintOemUI::QueryColorProfile</code> method performs the same types of operations as the <b>DrvQueryColorProfile</b> function that is exported by user-mode printer interface DLLs. For information about printer events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvquerycolorprofile.md">DrvQueryColorProfile</a> function.
@@ -223,5 +232,6 @@ If you provide a user interface plug-in, the printer driver's <b>DrvQueryColorPr
 If <code>IPrintOemUI::QueryColorProfile</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 For more information about creating and installing user interface plug-ins, see <a href="https://msdn.microsoft.com/b7761209-1f6f-4288-af47-4ed855c2e629">Customizing Microsoft's Printer Drivers</a>.
+
 
 

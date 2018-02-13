@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32e92f77-8f45-408b-a284-c00d3b5bd1b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel, NdisMRegisterDmaChannel
+ms.keywords: NdisMRegisterDmaChannel, dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, netvista.ndismregisterdmachannel, ndis/NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMRegisterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMRegisterDmaChannel function
@@ -105,6 +105,7 @@ A boolean value that is <b>TRUE</b> if the NIC has 32 address lines. Otherwise, 
 A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This structure is defined
      as follows: 
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,7 +123,9 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
 } NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;</pre>
 </td>
 </tr>
-</table></span></div>The driver should initialize this structure with zeros before filling in the following members:
+</table></span></div>
+The driver should initialize this structure with zeros before filling in the following members:
+
 
 
 
@@ -133,10 +136,12 @@ A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA c
        mode. Otherwise, it is <b>FALSE</b>.
 
 
+
 #### AutoInitialize
 
 A boolean value that is <b>TRUE</b> if the subordinate NIC uses the system DMA controller's
        autoinitialize mode. Otherwise, it is <b>FALSE</b>.
+
 
 
 #### DmaChannelSpecified
@@ -146,12 +151,14 @@ A boolean value that is <b>TRUE</b> if
        NIC. Otherwise, it is <b>FALSE</b>.
 
 
+
 #### DmaWidth
 
 The transfer width for DMA operations, one of 
        <b>Width8Bits</b>, 
        <b>Width16Bits</b>, or 
        <b>Width32Bits</b>.
+
 
 
 #### DmaSpeed
@@ -163,10 +170,12 @@ The DMA speed as one of
        <b>TypeC</b>.
 
 
+
 #### DmaPort
 
 This member refers to the MCA bus, which is no longer supported. This member must be
        zero.
+
 
 
 #### DmaChannel
@@ -183,7 +192,9 @@ The maximum number of bytes that the NIC can transfer in a single DMA operation.
 ## -returns
 
 
+
 <b>NdisMRegisterDmaChannel</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -238,11 +249,14 @@ Either the bus type or bus number is out of range or the driver declared the NIC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A driver of a subordinate-DMA NIC must call 
@@ -273,15 +287,24 @@ If the driver successfully registers the DMA channel, it must later call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
+
+
 
  
 

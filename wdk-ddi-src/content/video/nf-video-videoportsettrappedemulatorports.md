@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c1ded22b-a5bf-4755-903a-4797c6a65713
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortSetTrappedEmulatorPorts, VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml, display.videoportsettrappedemulatorports, VideoPortSetTrappedEmulatorPorts function [Display Devices], VideoPortSetTrappedEmulatorPorts
+ms.keywords: VideoPortSetTrappedEmulatorPorts, VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml, VideoPortSetTrappedEmulatorPorts function [Display Devices], display.videoportsettrappedemulatorports, video/VideoPortSetTrappedEmulatorPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,14 @@ The <i>AccessRange</i> array passed to <b>VideoPortSetTrappedEmulatorPorts</b> m
 ## -returns
 
 
+
 <b>VideoPortSetTrappedEmulatorPorts</b> returns NO_ERROR if it successfully changed the trapped ports. Otherwise, it returns ERROR_INVALID_PARAMETER.
 
 
 
+
 ## -remarks
+
 
 
 By default, the <i>AccessRange</i> of I/O ports that full-screen MS-DOS applications can access directly includes none of the access range array elements describing I/O port ranges that also have corresponding elements in the <b>EmulatorAccessEntries</b> array of the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure. That is, I/O port ranges with corresponding emulator access entries are, by default, hooked to the miniport driver's <i>SvgaHwIoPortXxx</i> functions so application-issued instructions are forwarded to the <i>SvgaHwIoPortXxx</i> functions for validation.
@@ -111,19 +114,32 @@ Calling <b>VideoPortSetTrappedEmulatorPorts</b> again and resetting the <b>Range
 
 
 
-## -see-also
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
+
+
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+
+
+
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
+
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+
 
 <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
+
+<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+
+
 
  
 

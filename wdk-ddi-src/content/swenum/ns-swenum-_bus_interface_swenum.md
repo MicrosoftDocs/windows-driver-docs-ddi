@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], _BUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, swenum/BUS_INTERFACE_SWENUM, stream.bus_interface_swenum, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
+ms.keywords: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM, swenum/PBUS_INTERFACE_SWENUM, stream.bus_interface_swenum, swenum/BUS_INTERFACE_SWENUM, _BUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, PBUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], BUS_INTERFACE_SWENUM structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,9 @@ Pointer to a driver-supplied <a href="..\swenum\nf-swenum-ksquerysoftwarebusinte
 ## -remarks
 
 
+
 A driver obtains a BUS_INTERFACE_SWENUM interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
+
 <ul>
 <li>
 Allocate and zero-fill a BUS_INTERFACE_SWENUM structure from the paged memory pool.
@@ -117,4 +119,5 @@ If your request is successful, the system fills in the BUS_INTERFACE_SWENUM stru
 
 </li>
 </ul>
+
 

@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertoutputstream_setwritepacket.htm
 old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, portcls/IMiniportWaveRTOutputStream::SetWritePacket, IMiniportWaveRTOutputStream, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface, SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket
+ms.date: 2/8/2018
+ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, portcls/IMiniportWaveRTOutputStream::SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket, SetWritePacket, IMiniportWaveRTOutputStream, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,6 +89,7 @@ The length of the EOS packet if KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM is specifie
 ## -returns
 
 
+
 <code>SetWritePacket</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the function returns an appropriate error status code.
 
 STATUS_DATA_LATE_ERROR – The driver returns this error if the OS passes a packet number that has already transferred or is currently transferring. In this case, a glitch condition has occurred. The driver may optionally use some of the data from the packet or continue playing out the data previously written to this packet number. 
@@ -108,7 +109,9 @@ STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other
 
 
 
+
 ## -remarks
+
 
 
 After the OS calls this routine, the driver may optionally use the provided information to optimize the hardware transfer. For example, the driver might optimize DMA transfers, or program hardware to stop transfer at the end of the specified packet in case the OS does not call this routine again to inform the driver of another packet. This can mitigate audible effects of underflow, for example introducing an audible gap rather than repeating a circular buffer. The driver however is still obligated to increase its internal packet counter and signal notification events at a nominal real time rate. 
@@ -126,13 +129,16 @@ Depending on hardware capabilities, if the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM 
 
 
 
+
 ## -see-also
 
 <a href="..\portcls\nn-portcls-iminiportwavertoutputstream.md">IMiniportWaveRTOutputStream</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTOutputStream::SetWritePacket method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTOutputStream::SetWritePacket method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

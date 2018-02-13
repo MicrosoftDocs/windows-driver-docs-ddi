@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], display.d3dddi_executionstateescape"
+ms.keywords: "_D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _D3DDDI_EXECUTIONSTATEESCAPE {
 ## -see-also
 
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_deviceexecution_state.md">D3DDDI_DEVICEEXECUTION_STATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetActivityIdSrb routine [Storage Devices], storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb, StorPortGetActivityIdSrb
+ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storport/StorPortGetActivityIdSrb, storage.storportgetactivityidsrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,9 @@ A pointer to a caller-supplied GUID to receive the ETW activity ID.
 ## -returns
 
 
+
 A status value indicating the result of the notification. This can be one of these values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,6 +130,8 @@ An ETW activity ID is not associated with the request in <i>Srb</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

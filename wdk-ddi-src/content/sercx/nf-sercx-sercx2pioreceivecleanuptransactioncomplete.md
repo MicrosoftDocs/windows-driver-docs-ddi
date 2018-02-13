@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 8C0874CD-EAFD-4443-B394-AAA4DD265835
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2pioreceivecleanuptransactioncomplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], 2/SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete
+ms.keywords: 2/SerCx2PioReceiveCleanupTransactionComplete, serports.sercx2pioreceivecleanuptransactioncomplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], SerCx2PioReceiveCleanupTransactionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/se
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 After a PIO-receive transaction ends, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a> event callback function, if it is implemented, to clean up the serial controller state. In response to this call, the driver should first do any clean-up work that is needed; then the driver must call <b>SerCx2PioReceiveCleanupTransactionComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the next transaction until it is notified.
@@ -91,13 +94,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_cleanup_transaction.md">EvtSerCx2PioReceiveCleanupTransaction</a>
+
+
 
  
 

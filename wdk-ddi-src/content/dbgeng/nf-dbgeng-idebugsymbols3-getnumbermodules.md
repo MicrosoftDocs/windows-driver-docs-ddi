@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols2::GetNumberModules, IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols3, dbgeng/IDebugSymbols::GetNumberModules, GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, debugger.getnumbermodules
+ms.keywords: GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetNumberModules, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols3::GetNumberModules, IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols3, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, GetNumberModules method [Windows Debugging], dbgeng/IDebugSymbols::GetNumberModules, IDebugSymbols, IDebugSymbols2, debugger.getnumbermodules, IDebugSymbols::GetNumberModules, GetNumberModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,7 +83,9 @@ Receives the number of unloaded modules in the current process's module list. Th
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,11 +102,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The list of loaded and unloaded modules is maintained by Windows.  The engine caches a copy of this list, but it may become out of date.  <a href="https://msdn.microsoft.com/library/windows/hardware/ff554379">Reload</a> can be used to synchronize the engine's copy of the list with the list maintained by Windows.
@@ -115,15 +120,24 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

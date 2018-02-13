@@ -90,7 +90,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 ### -param NDK_SGE
 
 
-
 ### -param nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
@@ -110,6 +109,7 @@ The remotely-provided memory token, an opaque array of bytes from the NDK consum
 ### -param Flags [in]
 
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
+
 <table>
 <tr>
 <th>Value</th>
@@ -150,7 +150,8 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pSgl
@@ -161,7 +162,9 @@ An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>)
 ## -returns
 
 
+
 The <i>NdkWrite</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -202,28 +205,42 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkWrite</i> posts a write request on a queue pair (QP).
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
-<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
+<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
+
+
 
  
 

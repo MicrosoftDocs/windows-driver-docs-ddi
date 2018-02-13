@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadPortBufferUlong
-title: StorPortReadPortBufferUlong function
+title: StorPortReadPortBufferUlong macro
 author: windows-driver-content
 description: The StorPortReadPortBufferUlong routine reads a value from a specified port address.
 old-location: storage\storportreadportbufferulong.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: 0b7366db-e80f-41f0-9a51-d1c139e948d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortBufferUlong, storage.storportreadportbufferulong, storport/StorPortReadPortBufferUlong, storprt_175251c9-5c08-4f49-9b3d-a7376c04a0a7.xml, StorPortReadPortBufferUlong routine [Storage Devices]
+ms.keywords: storage.storportreadportbufferulong, storprt_175251c9-5c08-4f49-9b3d-a7376c04a0a7.xml, StorPortReadPortBufferUlong routine [Storage Devices], storport/StorPortReadPortBufferUlong, StorPortReadPortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortReadPortBufferUlong function
+# StorPortReadPortBufferUlong macro
 
 
 ## -description
@@ -72,45 +72,68 @@ STORPORT_API VOID StorPortReadPortBufferUlong(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param p
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the address from which to read. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of data items to be read. Each data item has a size of sizeof(ULONG). 
 
 
-## -returns
-
-
-None 
-
-
-
 ## -remarks
+
 
 
 For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>
+
+
 
 <a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
 
-<a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>
+
 
  
 

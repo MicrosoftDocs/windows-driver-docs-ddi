@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a9dea258-601b-4ff7-b03b-b3f22d86f314
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceAllocAndQueryString, wdf.wdfusbtargetdeviceallocandquerystring, DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, wdfusb/WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, PFN_WDFUSBTARGETDEVICEALLOCANDQUERYSTRING, kmdf.wdfusbtargetdeviceallocandquerystring
+ms.keywords: DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, kmdf.wdfusbtargetdeviceallocandquerystring, PFN_WDFUSBTARGETDEVICEALLOCANDQUERYSTRING, WdfUsbTargetDeviceAllocAndQueryString method, wdf.wdfusbtargetdeviceallocandquerystring, WdfUsbTargetDeviceAllocAndQueryString, wdfusb/WdfUsbTargetDeviceAllocAndQueryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetDeviceAllocAndQueryString
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -111,7 +111,9 @@ A language identifier. The Unicode string will be retrieved for the language tha
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceAllocAndQueryString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,7 +163,8 @@ The supplied buffer was too small.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -171,7 +174,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfUsbTargetDeviceAllocAndQueryString</b> method, which your driver only needs to call once to obtain a string descriptor, is an alternative to the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequerystring.md">WdfUsbTargetDeviceQueryString</a> method, which must be called twice to obtain a string.
@@ -185,20 +190,61 @@ For more information about USB string descriptors, see the USB specification.
 For more information about the <b>WdfUsbTargetDeviceAllocAndQueryString</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example calls <b>WdfUsbTargetDeviceAllocAndQueryString</b> to obtain a manufacturer's name string, in USA English (0x0409), from a USB device descriptor. (The driver previously stored the descriptor in driver-defined context space.)
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PMY_DEVICE_CONTEXT  myDeviceContext;
+WDFMEMORY  memoryHandle;
+USHORT  numCharacters;
+
+myDeviceContext = GetDeviceContext(device);
+
+status = WdfUsbTargetDeviceAllocAndQueryString(
+                                        myDeviceContext-&gt;UsbTargetDevice,
+                                        WDF_NO_OBJECT_ATTRIBUTES,
+                                        &amp;memoryHandle,
+                                        &amp;numCharacters,
+                                        myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                                        0x0409
+                                        );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequerystring.md">WdfUsbTargetDeviceQueryString</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
 
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequerystring.md">WdfUsbTargetDeviceQueryString</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
 
  
 

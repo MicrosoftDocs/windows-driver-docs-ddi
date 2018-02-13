@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: CreateDefaultGDLSnapshot method [Print Devices], print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, print.iprintcorehelperuni_createdefaultgdlsnapshot, CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, CreateDefaultGDLSnapshot, IPrintCoreHelperUni
+ms.keywords: CreateDefaultGDLSnapshot, CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, CreateDefaultGDLSnapshot method [Print Devices], print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.CreateDefaultGDLSnapshot
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,13 +82,17 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::CreateDefaultGDLSnapshot</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552923">IPrintCoreHelperUni::CreateGDLSnapshot</a>
+
+
 
  
 

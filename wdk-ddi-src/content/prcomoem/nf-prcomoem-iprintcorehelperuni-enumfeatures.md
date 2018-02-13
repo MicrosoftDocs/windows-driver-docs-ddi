@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ed21e52b-13a6-4a89-8bbc-9cbf72e3d9fd
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelperUni::EnumFeatures, prcomoem/IPrintCoreHelperUni::EnumFeatures, print.iprintcorehelperuni_enumfeatures, print_unidrv-pscript_allplugins_a41557cd-962d-4b7c-960d-dd213b1a68e2.xml, IPrintCoreHelperUni interface [Print Devices], EnumFeatures method, IPrintCoreHelperUni, EnumFeatures method [Print Devices], EnumFeatures, EnumFeatures method [Print Devices], IPrintCoreHelperUni interface
+ms.keywords: IPrintCoreHelperUni::EnumFeatures, print.iprintcorehelperuni_enumfeatures, IPrintCoreHelperUni interface [Print Devices], EnumFeatures method, EnumFeatures method [Print Devices], IPrintCoreHelperUni interface, EnumFeatures method [Print Devices], IPrintCoreHelperUni, EnumFeatures, prcomoem/IPrintCoreHelperUni::EnumFeatures, print_unidrv-pscript_allplugins_a41557cd-962d-4b7c-960d-dd213b1a68e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.EnumFeatures
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -87,20 +87,26 @@ A pointer to an array of ANSI character strings that contain all of the features
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::EnumFeatures</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 For Unidrv features, the feature list is based on the GPD view of the configuration file, so features that are surrounded by "*Ifdef GDL_ENABLED/*Endif" directives cannot be configured by using this method.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552934">IPrintCoreHelperUni::EnumOptions</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	EvtPosCxDeviceOwnershipChange
 product: Windows
 targetos: Windows
-req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
+req.typenames: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -92,6 +92,8 @@ The file object of the new claim owner. This may be NULL if the device was relea
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

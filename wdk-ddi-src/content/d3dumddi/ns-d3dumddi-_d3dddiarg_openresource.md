@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eb1b7317-2e54-4e61-a3e5-b5ac0c09064e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource, D3DDDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, d3dumddi/D3DDDIARG_OPENRESOURCE, _D3DDDIARG_OPENRESOURCE
+ms.keywords: UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, _D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE structure [Display Devices], d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,16 +81,16 @@ typedef struct _D3DDDIARG_OPENRESOURCE {
 
 
 
+### -field NumAllocations
+
+[in] The number of elements in the array that is specified by <b>pOpenAllocationInfo</b>. <b>NumAllocations</b> represents the number of allocations to open.
+
+
 ### -field pOpenAllocationInfo2
 
 This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
-
-
-### -field NumAllocations
-
-[in] The number of elements in the array that is specified by <b>pOpenAllocationInfo</b>. <b>NumAllocations</b> represents the number of allocations to open.
 
 
 ### -field pOpenAllocationInfo
@@ -139,23 +139,37 @@ When the primary resource is used with a full-screen device and is rotated, the 
 ## -remarks
 
 
+
 The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function to create a shared primary resource.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
+
+
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+
+
 
  
 

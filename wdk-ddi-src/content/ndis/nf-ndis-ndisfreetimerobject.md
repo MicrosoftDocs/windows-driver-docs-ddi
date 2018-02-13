@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3edeebb-7a8f-4cd2-bd52-1b8ce044caa2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreetimerobject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, NdisFreeTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeTimerObject, NdisFreeTimerObject
+ms.keywords: NdisFreeTimerObject function [Network Drivers Starting with Windows Vista], netvista.ndisfreetimerobject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, NdisFreeTimerObject, ndis/NdisFreeTimerObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeTimerObject
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeTimerObject function
@@ -81,11 +81,14 @@ A handle to a timer object that NDIS provides when a driver calls the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To use timer services, an NDIS driver first calls the 
@@ -100,13 +103,20 @@ To cancel a timer, call the
 
 
 
-## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
 
  
 

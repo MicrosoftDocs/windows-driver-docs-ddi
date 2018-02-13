@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3DDDICB_DESTROYOVERLAY</a> structure that contains a handle to the overlay object to be disabled.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3D
 ## -returns
 
 
+
 <b>pfnDestroyOverlayCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,9 +123,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 
 
@@ -129,7 +135,11 @@ This function might also return other HRESULT values.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3DDDICB_DESTROYOVERLAY</a>
+
+
 
  
 

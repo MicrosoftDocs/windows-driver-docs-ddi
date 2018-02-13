@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaswritemultiple, wiasWriteMultiple function [Imaging Devices], wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiamdef/wiasWriteMultiple
+ms.keywords: wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiamdef/wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices], image.wiaswritemultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWriteMultiple
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -94,20 +94,26 @@ Pointer to the first element of an array of PROPVARIANT structures that contain 
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -remarks
 
 
+
 This function operates in a similar manner to <b>IPropertyStorage::WriteMultiple</b>, which is described in the Windows SDK documentation. The PROPSPEC and PROPVARIANT structures are also described in the Windows SDK documentation.
+
 
 
 
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE, WdfIoTargetWdmGetTargetPhysicalDevice method, wdf.wdfiotargetwdmgettargetphysicaldevice, WdfIoTargetWdmGetTargetPhysicalDevice, kmdf.wdfiotargetwdmgettargetphysicaldevice, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml
+ms.keywords: PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, wdf.wdfiotargetwdmgettargetphysicaldevice, kmdf.wdfiotargetwdmgettargetphysicaldevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a remote I/O target object. This handle was obtained from a previous
 ## -returns
 
 
+
 If the I/O target represents a PnP device, <b>WdfIoTargetWdmGetTargetPhysicalDevice</b> returns a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents a remote I/O target's PDO. Otherwise the method returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The pointer that the <b>WdfIoTargetWdmGetTargetPhysicalDevice</b> method returns is valid until the driver calls <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetclose.md">WdfIoTargetClose</a> or <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>, or until the remote I/O target object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the remote I/O target object, and if the object is deleted before the remote I/O target is closed, the pointer is valid until the <i>EvtCleanupCallback</i> function returns.
@@ -99,12 +102,34 @@ For more information about <b>WdfIoTargetWdmGetTargetPhysicalDevice</b>, see <a 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
+#### Examples
+
+The following code example obtains a pointer to a DEVICE_OBJECT structure that represents the PDO of a remote I/O target's device. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDEVICE_OBJECT  pTargetDO;
+
+pTargetDO = WdfIoTargetWdmGetTargetPhysicalDevice(IoTarget);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
 
  
 

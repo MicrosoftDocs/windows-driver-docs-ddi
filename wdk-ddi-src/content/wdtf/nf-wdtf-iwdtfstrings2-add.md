@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 44a62325-4135-483d-adb4-e73803190541
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Add, Microsoft::WDTF::IWDTFStrings2::Add, IWDTFStrings2::Add, Add method [Windows Device Testing Framework], IWDTFStrings2 interface, Microsoft.WDTF.IWDTFStrings2.Add, IWDTFStrings2, wdtf/IWDTFStrings2::Add, Add method [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework], Add method, dtf.iwdtfstrings2_add
+ms.keywords: Microsoft.WDTF.IWDTFStrings2.Add, wdtf/IWDTFStrings2::Add, IWDTFStrings2, Add method [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework], Add method, Add method [Windows Device Testing Framework], IWDTFStrings2 interface, Add, IWDTFStrings2::Add, dtf.iwdtfstrings2_add, Microsoft::WDTF::IWDTFStrings2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The string to add to this collection.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfstrings2.md">IWDTFStrings2</a>
+
+
 
  
 

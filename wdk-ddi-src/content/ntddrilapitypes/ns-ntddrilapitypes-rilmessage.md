@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b776b060-79bf-4848-807d-1999d38075ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmessage, RILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGE, *LPRILMESSAGE
+ms.keywords: RILMESSAGE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGE, RILMESSAGE, netvista.rilmessage, *LPRILMESSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMESSAGE
 product: Windows
 targetos: Windows
-req.typenames: RILMESSAGE, *LPRILMESSAGE
+req.typenames: "*LPRILMESSAGE, RILMESSAGE"
 ---
 
 # RILMESSAGE structure
@@ -80,8 +80,22 @@ typedef struct _RILMESSAGE {
 
 
 
-### -field msgUnion
+### -field cbSize
 
+
+### -field dwParams
+
+
+### -field raSvcCtrAddress
+
+
+### -field dwType
+
+
+### -field dwFlags
+
+
+### -field msgUnion
 
 
 ### -field msgUnion.unMsgInDeliver
@@ -122,51 +136,23 @@ typedef struct _RILMESSAGE {
 ### -field RILMSGUNION
 
 
-
-### -field cbSize
-
-
-
-### -field dwParams
-
-
-
-### -field raSvcCtrAddress
-
-
-
-### -field dwType
-
-
-
-### -field dwFlags
-
-
-
 #### - unMsgInDeliver
-
 
 
 #### - unMsgInStatus
 
 
-
 #### - unMsgOutSubmit
-
 
 
 #### - unMsgBcGeneral
 
 
-
 #### - unMsgIS637InStatus
-
 
 
 #### - unMsgCDMAInDeliver
 
 
-
 #### - unMsgCDMAOutSubmit
-
 

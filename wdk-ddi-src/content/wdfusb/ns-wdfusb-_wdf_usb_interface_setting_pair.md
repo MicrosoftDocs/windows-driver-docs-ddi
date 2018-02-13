@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6f169ae-6c4c-4c27-8532-75a76b66cc5a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_interface_setting_pair, _WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer, WDF_USB_INTERFACE_SETTING_PAIR structure, DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR, wdf.wdf_usb_interface_setting_pair
+ms.keywords: DFUsbRef_e8de7f02-5d9b-4cba-9e7c-dc4562256f9e.xml, wdf.wdf_usb_interface_setting_pair, PWDF_USB_INTERFACE_SETTING_PAIR structure pointer, kmdf.wdf_usb_interface_setting_pair, PWDF_USB_INTERFACE_SETTING_PAIR, _WDF_USB_INTERFACE_SETTING_PAIR, wdfusb/WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR structure, wdfusb/PWDF_USB_INTERFACE_SETTING_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_INTERFACE_SETTING_PAIR
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_INTERFACE_SETTING_PAIR, WDF_USB_INTERFACE_SETTING_PAIR"
+req.typenames: WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR
 req.product: Windows 10 or later.
 ---
 
@@ -84,13 +84,17 @@ A device-specific index value that identifies an alternate setting for the inter
 ## -remarks
 
 
+
 The <b>WDF_USB_INTERFACE_SETTING_PAIR</b> structure is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
+
+
 
  
 

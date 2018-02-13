@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5cf231b-1a78-485f-bf26-fe50fbe63d08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryMaximumGroupCount routine [Kernel-Mode Driver Architecture], KeQueryMaximumGroupCount, kernel.kequerymaximumgroupcount, k105_c1e0cc3e-f9d0-4570-8a56-b799d2ca5d14.xml, wdm/KeQueryMaximumGroupCount
+ms.keywords: k105_c1e0cc3e-f9d0-4570-8a56-b799d2ca5d14.xml, kernel.kequerymaximumgroupcount, KeQueryMaximumGroupCount, wdm/KeQueryMaximumGroupCount, KeQueryMaximumGroupCount routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeQueryMaximumGroupCount
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # KeQueryMaximumGroupCount function
@@ -66,14 +66,18 @@ USHORT KeQueryMaximumGroupCount(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeQueryMaximumGroupCount</b> returns the maximum number of groups. 
 
 
 
+
 ## -remarks
+
 
 
 The value that is returned by <b>KeQueryMaximumGroupCount</b> remains constant during runtime. This value depends on the hardware configuration of the multiprocessor system, but it can never exceed a fixed limit that is set by the Windows operating system.
@@ -84,9 +88,12 @@ To obtain the number of active groups in a multiprocessor system, call the <a hr
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kequeryactivegroupcount.md">KeQueryActiveGroupCount</a>
+
+
 
  
 

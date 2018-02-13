@@ -40,7 +40,7 @@ apiname:
 -	WskCloseSocket
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -91,7 +91,9 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
 ## -returns
 
 
+
 <b>WskCloseSocket</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Before calling the 
@@ -179,27 +184,46 @@ For connection-oriented sockets, the
 
 
 
+
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
 
  
 

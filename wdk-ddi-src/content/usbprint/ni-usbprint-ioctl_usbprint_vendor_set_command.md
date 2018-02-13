@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_USBPRINT_VENDOR_SET_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION"
+req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
 req.product: Windows 10 or later.
 ---
 
@@ -67,6 +67,7 @@ The <b>IOCTL_USBPRINT_VENDOR_SET_COMMAND</b> request allows upper-layer software
 ### -input-buffer
 
 A pointer to a input buffer, an array of UCHAR elements. The meaning of each array element is shown in the following table.
+
 <table>
 <tr>
 <th>Array Element</th>
@@ -112,7 +113,8 @@ Any additional data to be sent as part of the command
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -input-buffer-length
@@ -133,14 +135,18 @@ Not used in this operation; set this parameter to 0.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -153,13 +159,23 @@ Not used in this operation; set this parameter to 0.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
+
+
 <a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_get_command.md">IOCTL_USBPRINT_VENDOR_GET_COMMAND</a>
+
+
 
  
 

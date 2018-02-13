@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], _MESSAGE_INTERRUPT_INFORMATION, storport/MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], storage.message_interrupt_information
+ms.keywords: storage.message_interrupt_information, MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], *PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,13 +106,17 @@ A value of type <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> 
 ## -remarks
 
 
+
 Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a> routine. 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a>
+
+
 
  
 

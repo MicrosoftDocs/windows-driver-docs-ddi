@@ -78,13 +78,17 @@ Provides an <a href="..\printerextension\nn-printerextension-iprintjobcollection
 ## -remarks
 
 
+
 <b>IPrinterQueueViewEvent</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
+
+
 
  
 

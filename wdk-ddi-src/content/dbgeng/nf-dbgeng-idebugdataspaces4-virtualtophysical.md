@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0b7bd4c-cb3f-4bc3-8359-241c9a245204
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::VirtualToPhysical, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces4 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces3 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, dbgeng/IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces4::VirtualToPhysical, VirtualToPhysical method [Windows Debugging], dbgeng/IDebugDataSpaces3::VirtualToPhysical, IDebugDataSpaces2 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces3 interface [Windows Debugging], VirtualToPhysical method, debugger.virtualtophysical, VirtualToPhysical
+ms.keywords: IDebugDataSpaces3::VirtualToPhysical, debugger.virtualtophysical, dbgeng/IDebugDataSpaces3::VirtualToPhysical, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces3 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces4::VirtualToPhysical, VirtualToPhysical, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces4 interface, VirtualToPhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3 interface [Windows Debugging], VirtualToPhysical method, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, IDebugDataSpaces2, dbgeng/IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces4 interface [Windows Debugging], VirtualToPhysical method, dbgeng/IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces3, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,6 +83,7 @@ Receives the physical memory address.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,15 +111,19 @@ No physical page containing the specified address could be found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

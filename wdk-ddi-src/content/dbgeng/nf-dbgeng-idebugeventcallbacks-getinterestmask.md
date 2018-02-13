@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 165c83cb-c0be-4a09-9220-a5208f660308
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, debugger.idebugeventcallbacks_getinterestmask, GetInterestMask, IDebugEventCallbacks::GetInterestMask, GetInterestMask method [Windows Debugging], dbgeng/IDebugEventCallbacks::GetInterestMask, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml
+ms.keywords: GetInterestMask method [Windows Debugging], dbgeng/IDebugEventCallbacks::GetInterestMask, IDebugEventCallbacks::GetInterestMask, GetInterestMask, IDebugEventCallbacks, debugger.idebugeventcallbacks_getinterestmask, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ Receives a bitmask that indicates which events the object is interested in.  The
 ## -returns
 
 
+
 The return value S_OK indicates the method was successful.  All other return values indicate an error occurred,  in which case the <b>SetEventCallbacks</b> call will fail and the callback object will not be used nor will it receive events.
+
 
 
 
 ## -remarks
 
 
+
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

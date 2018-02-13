@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c31449a6-e275-480c-83ea-8575fda73cd9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClModifyCallQoS, condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml, NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista], ndis/NdisClModifyCallQoS, netvista.ndisclmodifycallqos
+ms.keywords: NdisClModifyCallQoS, condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml, ndis/NdisClModifyCallQoS, netvista.ndisclmodifycallqos, NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClModifyCallQoS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisClModifyCallQoS function
@@ -86,6 +86,7 @@ Pointer to a structure of type CO_CALL_PARAMETERS that specifies the new QoS req
 ## -returns
 
 
+
 When 
      <b>NdisClModifyCallQoS</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
@@ -95,7 +96,9 @@ When
 
 
 
+
 ## -remarks
+
 
 
 A call to 
@@ -112,22 +115,37 @@ If the call manager does not accept the client's proposed QoS change, the client
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
    ProtocolClModifyCallQoSComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+
 
  
 

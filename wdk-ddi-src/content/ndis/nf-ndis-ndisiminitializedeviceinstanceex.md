@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, netvista.ndisiminitializedeviceinstanceex, NdisIMInitializeDeviceInstanceEx, ndis/NdisIMInitializeDeviceInstanceEx
+ms.keywords: intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], ndis/NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx, netvista.ndisiminitializedeviceinstanceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIMInitializeDeviceInstanceEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIMInitializeDeviceInstanceEx function
@@ -102,7 +102,9 @@ A pointer to caller-supplied memory to be set up with driver-defined device cont
 ## -returns
 
 
+
 <b>NdisIMInitializeDeviceInstanceEx</b> can return either of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ NDIS initiated the initialization operation for the intermediate driver's virtua
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 An NDIS intermediate driver should call 
@@ -206,37 +211,64 @@ After NDIS calls an intermediate driver's
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-   NdisIMDeInitializeDeviceInstance</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
-<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
 
-<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
-   NdisIMCancelInitializeDeviceInstance</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
    NdisIMInitializeDeviceInstanceEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+   NdisIMCancelInitializeDeviceInstance</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+   NdisIMDeInitializeDeviceInstance</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

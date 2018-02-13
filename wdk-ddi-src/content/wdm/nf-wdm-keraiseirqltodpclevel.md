@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ac82e003-ec05-4b8b-a4fb-64498fb17f9b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeRaiseIrqlToDpcLevel, k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, kernel.keraiseirqltodpclevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], KeRaiseIrqlToDpcLevel
+ms.keywords: KeRaiseIrqlToDpcLevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], kernel.keraiseirqltodpclevel, k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, wdm/KeRaiseIrqlToDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,14 +68,18 @@ KIRQL KeRaiseIrqlToDpcLevel(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeRaiseIrqlToDpcLevel</b> returns the IRQL at which the call occurred.
 
 
 
+
 ## -remarks
+
 
 
 Any caller of <b>KeRaiseIrqlToDpcLevel</b> should save the returned IRQL value. Every such caller must restore the original IRQL as quickly as possible by passing this returned IRQL in a subsequent call to <a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>.
@@ -84,13 +88,20 @@ Callers of <b>KeRaiseIrqlToDpcLevel</b> must be running at IRQL &lt;= DISPATCH_L
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
+<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
+
 
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
+
+<a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
+
+
 
  
 

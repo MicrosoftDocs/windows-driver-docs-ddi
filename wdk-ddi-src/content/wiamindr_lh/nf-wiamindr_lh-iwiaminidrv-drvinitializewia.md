@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 93b155eb-0254-441f-b01f-3da8eb7376a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, image.iwiaminidrv_drvinitializewia, drvInitializeWia, drvInitializeWia method [Imaging Devices], IWiaMiniDrv::drvInitializeWia
+ms.keywords: IWiaMiniDrv, drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, drvInitializeWia, IWiaMiniDrv::drvInitializeWia, drvInitializeWia method [Imaging Devices], MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, image.iwiaminidrv_drvinitializewia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -122,6 +122,7 @@ HRESULT drvInitializeWia(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -170,13 +171,16 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>.
 
 The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
 
+
 ## -remarks
+
 
 
 This method should initialize any private structures and create the driver item tree. For detailed information about the steps that minidrivers typically perform in this method, see <a href="https://msdn.microsoft.com/9ccb136b-41f7-438a-9e07-1fd7c8971417">Initializing the WIA Minidriver</a> and <a href="https://msdn.microsoft.com/3ae489b9-175e-4b1e-a6c8-a72a3a3c212a">Creating the WIA Driver Item Tree</a>.
@@ -187,17 +191,28 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
+
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4bf54017-d142-4534-8a5a-c7f267a1554b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], *PIO_ERROR_LOG_PACKET, kernel.io_error_log_packet, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], _IO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET, kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, wdm/PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET
+ms.keywords: IO_ERROR_LOG_PACKET, wdm/PIO_ERROR_LOG_PACKET, kernel.io_error_log_packet, kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, wdm/IO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], PIO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], _IO_ERROR_LOG_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_ERROR_LOG_PACKET
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET"
+req.typenames: IO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET
 req.product: Windows 10 or later.
 ---
 
@@ -152,6 +152,7 @@ A variable-size array that can be used to store driver-specific binary data, suc
 ## -remarks
 
 
+
 Drivers use the <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a> routine to allocate an error log entry. The <b>IO_ERROR_LOG_PACKET</b> structure serves as the header for the returned buffer. It is followed in memory by any insertion strings for the log entry.
 
 Note that the I/O manager itself inserts some information into the system error log, such as the name of the device and driver. The I/O manager reserves 80 bytes to hold this information. If the size of this information exceeds 80 bytes, then the I/O manager truncates the driver's insertion strings as necessary.
@@ -160,17 +161,28 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 <a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
 
+
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+
+
 
  
 

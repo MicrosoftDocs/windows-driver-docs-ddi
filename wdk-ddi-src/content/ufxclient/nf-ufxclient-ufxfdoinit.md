@@ -7,8 +7,8 @@ old-location: buses\ufxfdoinit.htm
 old-project: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxFdoInit, ufxclient/UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit
+ms.date: 2/8/2018
+ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], ufxclient/UfxFdoInit, buses.ufxfdoinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_a
 ## -returns
 
 
+
 If the operation is successful, the method returns STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it returns a status value for which NT_SUCCESS(status) equals FALSE.
 
 
 
+
 ## -remarks
+
 
 
 The client driver receives a pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.  It then calls <b>UfxFdoInit</b> with this pointer before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> to create the WDFDEVICE object.
@@ -100,6 +103,7 @@ The client driver receives a pointer to a framework-allocated <a href="https://m
 By default, for WDF drivers, the device's function driver is the power policy owner.
 
 The following code snippet shows how to call <b>UfxFdoInit</b>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -153,4 +157,5 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
+
 

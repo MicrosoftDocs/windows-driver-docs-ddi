@@ -7,8 +7,8 @@ old-location: audio\bthhfp_audio_device_capabilties_init.htm
 old-project: audio
 ms.assetid: c00b8f19-6708-4ec2-928b-610158850247
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, audio.bthhfp_audio_device_capabilties_init
+ms.date: 2/8/2018
+ms.keywords: bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, audio.bthhfp_audio_device_capabilties_init, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION"
+req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function
@@ -77,6 +77,8 @@ A pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

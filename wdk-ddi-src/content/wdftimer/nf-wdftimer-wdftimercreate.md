@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdftimercreate, wdftimer/WdfTimerCreate, WdfTimerCreate, WdfTimerCreate method, wdf.wdftimercreate, PFN_WDFTIMERCREATE, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml
+ms.keywords: wdftimer/WdfTimerCreate, PFN_WDFTIMERCREATE, kmdf.wdftimercreate, WdfTimerCreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, wdf.wdftimercreate, WdfTimerCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,9 @@ A pointer to a location that receives a handle to the new framework timer object
 ## -returns
 
 
+
 <b>WdfTimerCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,7 +156,8 @@ The <b>AutomaticSerialization</b> member of the <a href="..\wdftimer\ns-wdftimer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a list of other return values that the <b>WdfTimerCreate</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -162,7 +165,9 @@ This method might also return other <a href="https://msdn.microsoft.com/library/
 
 
 
+
 ## -remarks
+
 
 
 When your driver calls <b>WdfTimerCreate</b>, it must supply a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure and must specify a parent object in the structure's <b>ParentObject</b> member. The parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the timer object when it deletes the device object.
@@ -174,18 +179,67 @@ If your driver provides <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_contex
 For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure and a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure and then calls <b>WdfTimerCreate</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_TIMER_CONFIG  timerConfig;
+WDF_OBJECT_ATTRIBUTES  timerAttributes;
+WDFTIMER  timerHandle;
+NTSTATUS  status;
+
+WDF_TIMER_CONFIG_INIT(
+                      &amp;timerConfig,
+                      MyEvtTimerFunc
+                      );
+
+timerConfig.AutomaticSerialization = TRUE;
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;timerAttributes);
+timerAttributes.ParentObject = DeviceHandle;
+
+status = WdfTimerCreate(
+                        &amp;timerConfig,
+                        &amp;timerAttributes,
+                        &amp;timerHandle
+                        );
+
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
+
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
-<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
+
+
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
+
+
 
 <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
 
  
 

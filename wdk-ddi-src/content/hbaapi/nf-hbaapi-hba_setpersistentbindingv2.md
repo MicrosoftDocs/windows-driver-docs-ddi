@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0b32954-62d1-4434-892f-67106b0f8ef7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml, storage.hba_setpersistentbindingv2, HBA_SetPersistentBindingV2 routine [Storage Devices], HBA_SetPersistentBindingV2, hbaapi/HBA_SetPersistentBindingV2
+ms.keywords: storage.hba_setpersistentbindingv2, HBA_SetPersistentBindingV2, fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml, HBA_SetPersistentBindingV2 routine [Storage Devices], hbaapi/HBA_SetPersistentBindingV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,9 @@ On output, the <b>Status</b> member of each HBA_FCPBindingEntry2 structure is 0.
 ## -returns
 
 
+
 The <b>HBA_SetBindingSupport2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SetBindingSupport2</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,14 +141,18 @@ Returned if an unspecified error occurred that prevented the routine from associ
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>HBA_SetPersistentBindingV2</b> routine establishes a set of bindings between operating system and fibre channel protocol (FCP) identifiers for the logical units that the HBA, referenced by <i>HbaHandle, </i>can enumerate on the port specified by <i>HbaPortWWN</i>. The bindings that <b>HBA_SetPersistentBindingV2</b> establishes persist across reboots of the operating system. 
+
 
 
 
@@ -154,9 +160,15 @@ The <b>HBA_SetPersistentBindingV2</b> routine establishes a set of bindings betw
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_getpersistentbindingv2.md">HBA_GetPersistentBindingV2</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

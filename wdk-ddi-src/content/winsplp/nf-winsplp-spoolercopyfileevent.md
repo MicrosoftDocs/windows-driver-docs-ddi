@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent, poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml
+ms.keywords: winsplp/SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], print.spoolercopyfileevent, poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, SpoolerCopyFileEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,7 @@ Caller-supplied pointer to a string representing a subkey under the printer's <b
 ### -param dwCopyFileEvent [in]
 
 Caller-supplied flag that identifies the event being reported. Valid flag values are contained in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -159,17 +160,21 @@ Server copy of <code>SpoolerCopyFileEvent</code>. The calling context is the cli
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If the function encounters errors, the function should return <b>FALSE</b>. Otherwise, it should return <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 All <a href="https://msdn.microsoft.com/7ead940e-8426-4756-890f-f3607dc1f9ca">Point and Print DLLs</a> must export a <code>SpoolerCopyFileEvent</code> function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see <a href="https://msdn.microsoft.com/a41bed5e-a006-4b9e-aa71-d2bcd154fae2">Supporting Point and Print</a>.
@@ -180,9 +185,12 @@ If <i>dwCopyFileEvent</i> is COPYFILE_EVENT_ADD_PRINTER_CONNECTION or COPYFILE_E
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-generatecopyfilepaths.md">GenerateCopyFilePaths</a>
+
+
 
  
 

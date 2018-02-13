@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/UFS_POWER_DESCRIPTOR, storage.ufs_power_descriptor, *PUFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR structure [Storage Devices], ufs/PUFS_POWER_DESCRIPTOR
+ms.keywords: ufs/PUFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, PUFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_POWER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR"
+req.typenames: UFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

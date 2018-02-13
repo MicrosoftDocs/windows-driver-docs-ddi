@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a0d86c7-1d42-4312-a4f9-9b9ea092ebec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: function [Kernel-Mode Driver Architecture], NtSetInformationResourceManager, kernel.zwsetinformationresourcemanager, wdm/, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, wdm/NtSetInformationResourceManager
+ms.keywords: wdm/NtSetInformationResourceManager, function [Kernel-Mode Driver Architecture], wdm/, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, NtSetInformationResourceManager, kernel.zwsetinformationresourcemanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,14 +88,18 @@ TBD
 
 
 
+
 ## -returns
+
 
 
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 <b>NtSetInformationResourceManager</b> and <b>ZwSetInformationResourceManager</b> are two versions of the same Windows Native System Services routine.
@@ -104,9 +108,12 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
 
  
 

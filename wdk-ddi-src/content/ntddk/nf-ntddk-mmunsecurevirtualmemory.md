@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 979eef24-e53b-476c-b9db-e56c43630913
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmunsecurevirtualmemory, k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, ntddk/MmUnsecureVirtualMemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], MmUnsecureVirtualMemory
+ms.keywords: ntddk/MmUnsecureVirtualMemory, MmUnsecureVirtualMemory, k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, kernel.mmunsecurevirtualmemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MmUnsecureVirtualMemory
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # MmUnsecureVirtualMemory function
@@ -75,13 +75,17 @@ Specifies the value returned by <a href="..\ntddk\nf-ntddk-mmsecurevirtualmemory
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-mmsecurevirtualmemory.md">MmSecureVirtualMemory</a>
+
+
 
  
 

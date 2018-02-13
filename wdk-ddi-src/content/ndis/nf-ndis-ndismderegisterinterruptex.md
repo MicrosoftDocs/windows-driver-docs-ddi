@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc0718b6-4c71-41a8-bab6-a52991b284d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterinterruptex, NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, ndis/NdisMDeregisterInterruptEx
+ms.keywords: ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterInterruptEx, netvista.ndismderegisterinterruptex, NdisMDeregisterInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMDeregisterInterruptEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMDeregisterInterruptEx function
@@ -80,11 +80,14 @@ An interrupt handle that the miniport driver obtained in a previous call to
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisMDeregisterInterruptEx</b> releases the resources that were allocated in 
@@ -108,20 +111,33 @@ The miniport driver should disable its NIC from generating interrupts before it 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
 
 <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
    NdisMSynchronizeWithInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
 
  
 

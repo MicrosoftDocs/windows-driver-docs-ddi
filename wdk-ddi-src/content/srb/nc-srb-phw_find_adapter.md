@@ -97,16 +97,15 @@ Reserved member when used by one of the Storport driver's miniport drivers. With
 
 
 
-#### 
+##### 
 
 
 
-#### 
+##### 
 
 
 
-#### 
-
+##### 
 
 
 ### -param Again [out]
@@ -117,7 +116,9 @@ Reserved member when used by one of the Storport driver's miniport drivers. With
 ## -returns
 
 
+
 The routine declared by this prototype must return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,11 +168,14 @@ Indicates no supported HBA was found for the supplied configuration information.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This declaration is used by both SCSI and StorPort miniport drivers.
@@ -182,11 +186,16 @@ For more information about the Storport driver's version of the routine associat
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+
+
 
  
 

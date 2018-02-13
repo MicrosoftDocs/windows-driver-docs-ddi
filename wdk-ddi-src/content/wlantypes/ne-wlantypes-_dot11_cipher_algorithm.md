@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5fc1af01-7dd5-43dd-aefe-99dec0b5aa6a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CIPHER_ALGO_IHV_START, DOT11_CIPHER_ALGO_WEP104, _DOT11_CIPHER_ALGORITHM, wlantypes/PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_NONE, wlantypes/DOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WEP40, wlantypes/DOT11_CIPHER_ALGO_TKIP, PDOT11_CIPHER_ALGORITHM, netvista.dot11_cipher_algorithm, wlantypes/DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_WEP, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_WPA_USE_GROUP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_WEP40, DOT11_CIPHER_ALGO_RSN_USE_GROUP, *PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP, wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_NONE, wlantypes/DOT11_CIPHER_ALGO_WEP104, DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_BIP, wlantypes/DOT11_CIPHER_ALGO_IHV_START, Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml, DOT11_CIPHER_ALGO_BIP
+ms.keywords: wlantypes/DOT11_CIPHER_ALGO_WEP, DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_CCMP, wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGORITHM, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGO_WEP, wlantypes/DOT11_CIPHER_ALGO_WEP40, netvista.dot11_cipher_algorithm, DOT11_CIPHER_ALGO_WEP40, wlantypes/DOT11_CIPHER_ALGO_IHV_START, Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml, wlantypes/DOT11_CIPHER_ALGO_TKIP, DOT11_CIPHER_ALGO_IHV_START, PDOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_NONE, DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, wlantypes/PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WPA_USE_GROUP, _DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,7 +118,6 @@ Specifies a BIP cipher algorithm.
 ### -field DOT11_CIPHER_ALGO_GCMP
 
 
-
 ### -field DOT11_CIPHER_ALGO_WPA_USE_GROUP
 
 Specifies a Wifi Protected Access (WPA) Use Group Key cipher suite.
@@ -143,12 +142,14 @@ Specifies a WEP cipher algorithm with a cipher key of any length.
 A miniport driver that operates in Extensible Station (ExtSTA) mode specifies the maximum WEP cipher
      key length through a query of 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569366">OID_DOT11_EXTSTA_CAPABILITY</a>.
+
 <div class="alert"><b>Note</b>  The operating system will only enable this cipher algorithm if authentication
      algorithms of 
      <b>DOT11_AUTH_ALGO_80211_OPEN</b> or 
      <b>DOT11_AUTH_ALGO_80211_SHARED_KEY</b> have been enabled. For more information about these
      authentication algorithms, see 
-     <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.</div><div> </div>
+     <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.</div>
+<div> </div>
 
 ### -field DOT11_CIPHER_ALGO_IHV_START
 
@@ -178,6 +179,7 @@ The
 
 
 ## -remarks
+
 
 
 An IHV can assign a value for its proprietary cipher algorithms from 
@@ -227,21 +229,34 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
+
 ## -see-also
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
-<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
-   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569135">OID_DOT11_CURRENT_PHY_ID</a>
 
-<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
+
+
+<a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
+   DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
+
+
 
 <a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
+
+
 
  
 

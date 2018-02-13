@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline/IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush, FlushData, FlushData method [Print Devices], IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices], FlushData method, FlushData method [Print Devices], print.iprintwritestreamflush_flushdata
+ms.keywords: IPrintWriteStreamFlush::FlushData, FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush, print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush interface [Print Devices], FlushData method, FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,6 +68,7 @@ HRESULT FlushData(
 
 
 
+
 #### - None
 
 None
@@ -76,14 +77,47 @@ None
 ## -returns
 
 
+
 The FlushData method returns an HRESULT value.
+
 
 
 
 ## -remarks
 
 
+
 Only the last filter in the print filter pipeline benefits from the flush. The data is flushed to the port monitor. However, the port monitor has the option of using  buffers.
+
+
+#### Examples
+
+The following code snippet shows how to flush data to a data stream. Note that error checking has been omitted for clarity.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Flushing data to a data stream
+// ------------------------------
+// Declare a pointer to an IPrintWriteStreamFlush interface
+IPrintWriteStreamFlush *pIFlush;
+
+// Retireve a pointer to an IPrintWriteStream interface 
+// by using the RequestWriter() method in InitializeFilter()
+IPrintWriteStream      *pIWrite;
+
+HRESULT hr = pIWrite-&gt;QueryInterface(IID_IPrintWriteStreamFlush, reinterpret_cast&lt;void **&gt;(&amp;pIFlush));
+
+hr = pIWrite-&gt;WriteBytes(buf, cb, &amp;cbWritten);
+
+hr = pIFlush-&gt;FlushData();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -91,7 +125,11 @@ Only the last filter in the print filter pipeline benefits from the flush. The d
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
 
+
+
 <a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
+
+
 
  
 

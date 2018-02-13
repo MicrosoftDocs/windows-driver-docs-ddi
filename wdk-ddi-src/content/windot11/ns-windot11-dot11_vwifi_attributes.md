@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, windot11/PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES
+ms.keywords: "*PDOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, windot11/DOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_VWIFI_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES
+req.typenames: "*PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES"
 req.product: Windows 10 or later.
 ---
 
@@ -83,8 +83,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -92,15 +90,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_VWIFI_ATTRIBUTES_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        sizeof(DOT11_VWIFI_ATTRIBUTES).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uTotalNumOfEntries
@@ -134,11 +137,17 @@ The list of supported combinations of 802.11 MAC entities that an 802.11 minipor
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">DOT11_VWIFI_COMBINATION_V2</a>
+
+
 
 <a href="..\windot11\ns-windot11-_dot11_vwifi_combination.md">DOT11_VWIFI_COMBINATION</a>
 
-<a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">DOT11_VWIFI_COMBINATION_V2</a>
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

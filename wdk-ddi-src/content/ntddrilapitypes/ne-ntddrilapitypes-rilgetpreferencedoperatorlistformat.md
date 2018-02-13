@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 77526649-dc98-4c40-b348-6e5620f6e4eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgetpreferencedoperatorlistformat, ntddrilapitypes/RIL_OPFORMAT_MAX, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, RILGETPREFERENCEDOPERATORLISTFORMAT, RIL_OPFORMAT_SHORT, ntddrilapitypes/RIL_OPFORMAT_SHORT, ntddrilapitypes/RIL_OPFORMAT_NUM, RIL_OPFORMAT_MAX, RIL_OPFORMAT_NUM
+ms.keywords: netvista.rilgetpreferencedoperatorlistformat, ntddrilapitypes/RIL_OPFORMAT_SHORT, ntddrilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, RIL_OPFORMAT_SHORT, RILGETPREFERENCEDOPERATORLISTFORMAT, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_OPFORMAT_NUM, RIL_OPFORMAT_MAX, RIL_OPFORMAT_NUM, ntddrilapitypes/RIL_OPFORMAT_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,15 +72,11 @@ typedef enum _RILGETPREFERENCEDOPERATORLISTFORMAT {
 ### -field RIL_OPFORMAT_LONG
 
 
-
 ### -field RIL_OPFORMAT_SHORT
-
 
 
 ### -field RIL_OPFORMAT_NUM
 
 
-
 ### -field RIL_OPFORMAT_MAX
-
 

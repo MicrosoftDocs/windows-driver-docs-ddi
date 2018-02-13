@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d63289bc-9603-4e79-8a77-d2eb0f2c784c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KS_DATAFORMAT_IMAGEINFO, ksmedia/PKS_DATAFORMAT_IMAGEINFO, PKS_DATAFORMAT_IMAGEINFO structure pointer [Streaming Media Devices], PKS_DATAFORMAT_IMAGEINFO, *PKS_DATAFORMAT_IMAGEINFO, tagKS_DATAFORMAT_IMAGEINFO, stream.ks_dataformat_imageinfo, KS_DATAFORMAT_IMAGEINFO structure [Streaming Media Devices], KS_DATAFORMAT_IMAGEINFO
+ms.keywords: "*PKS_DATAFORMAT_IMAGEINFO, PKS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO structure [Streaming Media Devices], KS_DATAFORMAT_IMAGEINFO, ksmedia/PKS_DATAFORMAT_IMAGEINFO, ksmedia/KS_DATAFORMAT_IMAGEINFO, tagKS_DATAFORMAT_IMAGEINFO, PKS_DATAFORMAT_IMAGEINFO structure pointer [Streaming Media Devices], stream.ks_dataformat_imageinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATAFORMAT_IMAGEINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO"
+req.typenames: KS_DATAFORMAT_IMAGEINFO, *PKS_DATAFORMAT_IMAGEINFO
 ---
 
 # tagKS_DATAFORMAT_IMAGEINFO structure
@@ -82,7 +82,11 @@ A <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER<
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
 
  
 

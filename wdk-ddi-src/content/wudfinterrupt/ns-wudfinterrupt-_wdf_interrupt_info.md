@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf, *PWDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure
+ms.keywords: WDF_INTERRUPT_INFO structure, umdf.wdf_interrupt_info, wudfinterrupt/WDF_INTERRUPT_INFO, wudfinterrupt/PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf, PWDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -145,7 +145,9 @@ A value that identifies the processor group that the <b>TargetProcessorSet</b> m
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure is used as input to the <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a> method. To initialize a <b>WDF_INTERRUPT_INFO</b> structure, your driver should call <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a> before calling <b>IWDFInterrupt::GetInfo</b>.
+
 
 
 
@@ -153,13 +155,23 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a>
 
-<a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+
+
 
 <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+
+
+<a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, debugger.getbreakpointbyid2, GetBreakpointById2, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, dbgeng/IDebugControl4::GetBreakpointById2, IDebugControl4, IDebugControl4::GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface, debugger.getbreakpointbyid2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,9 @@ Receives the breakpoint.
 ## -returns
 
 
+
 This method can also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,14 +111,18 @@ No breakpoint was found with the given ID, or the breakpoint with the specified 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the specified breakpoint does not belong to the current process, the method will fail.
+
 
 
 
@@ -124,7 +130,11 @@ If the specified breakpoint does not belong to the current process, the method w
 
 <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

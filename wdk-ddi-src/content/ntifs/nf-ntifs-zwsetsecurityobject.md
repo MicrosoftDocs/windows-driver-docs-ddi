@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], ntifs/NtSetSecurityObject, kernel.zwsetsecurityobject, ZwSetSecurityObject, k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, ntifs/ZwSetSecurityObject, NtSetSecurityObject
+ms.keywords: kernel.zwsetsecurityobject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], ntifs/ZwSetSecurityObject, ntifs/NtSetSecurityObject, k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, NtSetSecurityObject, ZwSetSecurityObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ Handle for the object whose security state is to be set. This handle must have t
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying the information to be set. Can be a combination of one or more of the following. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -124,7 +125,8 @@ Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYST
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param SecurityDescriptor [in]
@@ -135,7 +137,9 @@ Pointer to the security descriptor to be set for the object.
 ## -returns
 
 
+
 <b>ZwSetSecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -240,11 +244,14 @@ The revision level of the object's security descriptor is unknown or is not supp
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see "Absolute and Self-Relative Security Descriptors" in the Security section of the Windows SDK documentation.
@@ -254,21 +261,35 @@ For more information about security and access control, see the documentation on
 Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a> instead of <b>ZwSetSecurityObject</b>. 
 
 Callers of <b>ZwSetSecurityObject</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetSecurityObject</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557685">NtSetSecurityObject</a>" instead of "<b>ZwSetSecurityObject</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwSetSecurityObject</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557685">NtSetSecurityObject</a>" instead of "<b>ZwSetSecurityObject</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetsecurityobject.md">FltSetSecurityObject</a>
+
+
 
  
 

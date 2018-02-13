@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d63c908-8ae3-4df4-826f-9d87ea6c24ad
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, WdfIoForwardProgressActionInvalid, wdf.wdf_io_forward_progress_action, wdfio/WdfIoForwardProgressActionFailRequest, _WDF_IO_FORWARD_PROGRESS_ACTION, WdfIoForwardProgressActionUseReservedRequest, wdfio/WdfIoForwardProgressActionInvalid, kmdf.wdf_io_forward_progress_action, wdfio/WdfIoForwardProgressActionUseReservedRequest, WDF_IO_FORWARD_PROGRESS_ACTION, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, WdfIoForwardProgressActionFailRequest
+ms.keywords: wdfio/WdfIoForwardProgressActionInvalid, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, WdfIoForwardProgressActionInvalid, wdfio/WdfIoForwardProgressActionUseReservedRequest, WdfIoForwardProgressActionFailRequest, kmdf.wdf_io_forward_progress_action, WDF_IO_FORWARD_PROGRESS_ACTION, _WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionUseReservedRequest, wdf.wdf_io_forward_progress_action, wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,13 +90,17 @@ The framework will use a reserved request object, if one is available, for the c
 ## -remarks
 
 
+
 The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration is used as the return value for the <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a> callback function.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a>
+
+
 
  
 

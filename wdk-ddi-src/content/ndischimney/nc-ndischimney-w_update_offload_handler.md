@@ -97,11 +97,14 @@ A pointer to an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Only cached variables are updated.
@@ -126,6 +129,7 @@ Before the
     <i>MiniportUpdateOffload</i> function returns, the offload target uses the offload state tree passed to
     the 
     <i>MiniportUpdateOffload</i> function to update offloaded state:
+
 <ul>
 <li>
 The offload target copies the variable values from any state structures in the tree to the
@@ -144,16 +148,25 @@ The tree might indicate that path-to-neighbor links must be updated. For more in
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4b2bf1a-f15d-409f-bd5f-84dbf8dadc09
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCloseLog, miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, netvista.ndismcloselog, NdisMCloseLog function [Network Drivers Starting with Windows Vista], NdisMCloseLog
+ms.keywords: netvista.ndismcloselog, NdisMCloseLog function [Network Drivers Starting with Windows Vista], ndis/NdisMCloseLog, miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, NdisMCloseLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCloseLog
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCloseLog function
@@ -77,11 +77,14 @@ Specifies the handle returned by
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisMCloseLog</b> closes the temporary log file allocated by 
@@ -90,15 +93,24 @@ None
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
  
 

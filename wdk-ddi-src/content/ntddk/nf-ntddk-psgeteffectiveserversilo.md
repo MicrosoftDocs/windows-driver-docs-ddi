@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60FCFF5B-4040-423F-A9B6-2DFE7DDD9DD0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetEffectiveServerSilo, ntddk/PsGetEffectiveServerSilo, kernel.psgeteffectiveserversilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.psgeteffectiveserversilo, ntddk/PsGetEffectiveServerSilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture], PsGetEffectiveServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetEffectiveServerSilo
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetEffectiveServerSilo function
@@ -75,20 +75,26 @@ PESILO PsGetEffectiveServerSilo(
 ## -returns
 
 
+
 The effective server silo. If a server silo is not found, the host silo is returned. In that case, <code>PsIsHostSilo(ReturnValue)</code> would return <b>TRUE</b>.
+
 
 
 
 ## -remarks
 
 
+
 This routine does not fail because it always returns a silo: the server silo or the host silo.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-psishostsilo.md">PsIsHostSilo</a>
+
+
 
  
 

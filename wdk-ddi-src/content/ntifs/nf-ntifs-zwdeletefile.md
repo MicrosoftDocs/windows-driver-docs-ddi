@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e6ad3bc5-9e19-4d32-bc08-b894ac802f41
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, NtDeleteFile, kernel.zwdeletefile, ZwDeleteFile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile
+ms.keywords: ZwDeleteFile routine [Kernel-Mode Driver Architecture], ZwDeleteFile, kernel.zwdeletefile, NtDeleteFile, ntifs/ZwDeleteFile, ntifs/NtDeleteFile, k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,9 @@ A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATT
 ## -returns
 
 
+
 <b>ZwDeleteFile</b> returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +150,14 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>ZwDeleteFile</b> deletes the specified file object. 
@@ -160,6 +165,7 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 The <b>ZwDeleteFile</b> function is called after the <b>InitializeAttributes</b> macro is used to set attributes in the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure for the file object to be deleted. 
 
 There are two alternate ways to specify the name of the file to be deleted with <b>ZwDeleteFile</b>:
+
 <ol>
 <li>
 As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the input <i>ObjectAttributes</i>
@@ -169,18 +175,29 @@ As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the i
 As pathname relative to the directory file represented by the handle in the <b>RootDirectory</b> member of the input <i>ObjectAttributes</i>
 
 </li>
-</ol>Callers of <b>ZwDeleteFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwDeleteFile</b> function occurs in user mode, you should use the name "<b>NtDeleteFile</b> " instead of "<b>ZwDeleteFile</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+</ol>
+Callers of <b>ZwDeleteFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwDeleteFile</b> function occurs in user mode, you should use the name "<b>NtDeleteFile</b> " instead of "<b>ZwDeleteFile</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart, k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], kernel.psgetprocesscreatetimequadpart
+ms.keywords: ntddk/PsGetProcessCreateTimeQuadPart, kernel.psgetprocesscreatetimequadpart, k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetProcessCreateTimeQuadPart
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetProcessCreateTimeQuadPart function
@@ -75,17 +75,25 @@ A pointer to the EPROCESS structure that represents the process. Drivers can use
 ## -returns
 
 
+
 <b>PsGetProcessCreateTimeQuadPart</b> returns the process creation time, in 100-nanosecond intervals, since January 1, 1601. The return value is the same as the value that the <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a> routine returns when the process was created. (Note that if the system time is changed, the value that <b>PsGetProcessCreateTimeQuadPart</b> returns is unaffected.) 
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 

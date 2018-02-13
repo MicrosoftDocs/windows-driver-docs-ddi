@@ -40,7 +40,7 @@ apiname:
 -	MiniportIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_IDLE_NOTIFICATION callback
@@ -89,7 +89,9 @@ For more information about the <i>ForceIdle</i> parameter, see the Remarks secti
 ## -returns
 
 
+
 <i>MiniportIdleNotification</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ The miniport driver could not issue a bus-specific IRP successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>MiniportIdleNotification</i> handler function is required for miniport drivers that support the NDIS selective suspend interface. For more information about how the driver registers its selective suspend handler functions, see <a href="https://msdn.microsoft.com/D4125F14-8356-4D9E-A287-D35D3BF69182">Registering NDIS Selective Suspend Handler Functions</a>.
@@ -150,10 +155,17 @@ NDIS sets the <i>ForceIdle</i> parameter to <b>FALSE</b> when the network adapte
 The duration of the idle time-out period is specified by the value of the <b>*SSIdleTimeout</b> INF keyword. For more information about this keyword, see <a href="https://msdn.microsoft.com/A45EE23D-1C60-4DA4-82A5-89DB5CE48E21">Standardized INF Keywords for NDIS Selective Suspend</a>. 
 
 
-<div class="alert"><b>Note</b>  NDIS sets the <i>ForceIdle</i> parameter to <b>TRUE</b> only when a system that is compliant with the Always On Always Connected (AOAC) technology is transitioning to a Connected Standby state. </div><div> </div>If the miniport driver determines that the network adapter is being used, it can veto the idle notification request by returning NDIS_STATUS_BUSY. This causes NDIS to restart the monitor of activity on the network adapter. 
+
+<div class="alert"><b>Note</b>  NDIS sets the <i>ForceIdle</i> parameter to <b>TRUE</b> only when a system that is compliant with the Always On Always Connected (AOAC) technology is transitioning to a Connected Standby state. </div>
+<div> </div>
+If the miniport driver determines that the network adapter is being used, it can veto the idle notification request by returning NDIS_STATUS_BUSY. This causes NDIS to restart the monitor of activity on the network adapter. 
 
 If the adapter becomes inactive again within the idle time-out period, NDIS calls <i>MiniportIdleNotification</i>. 
-<div class="alert"><b>Note</b>  The miniport driver must not return NDIS_STATUS_BUSY  if the <i>ForceIdle</i> parameter is set to <b>TRUE</b>.</div><div> </div>After the idle notification is issued, it can be canceled and completed in the following way:
+
+<div class="alert"><b>Note</b>  The miniport driver must not return NDIS_STATUS_BUSY  if the <i>ForceIdle</i> parameter is set to <b>TRUE</b>.</div>
+<div> </div>
+After the idle notification is issued, it can be canceled and completed in the following way:
+
 <ul>
 <li>
 NDIS can cancel the outstanding idle notification if the following conditions are true:
@@ -180,19 +192,27 @@ Finally, the miniport driver calls <a href="..\ndis\nf-ndis-ndismidlenotificatio
 The miniport driver completes the idle notification  by calling <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>. For more information about how the miniport driver completes the idle notification, see <a href="https://msdn.microsoft.com/2330A8EE-DC8B-4244-935C-DEF20A6EB5E7">Completing the NDIS Selective Suspend Idle Notification</a>.
 
 </li>
-</ul>For more information on how to handle idle notifications for NDIS selective suspend, see <a href="https://msdn.microsoft.com/02D13260-5816-4621-8527-E1E79C9AE975">Handling the NDIS Selective Suspend Idle Notification</a>.
+</ul>
+For more information on how to handle idle notifications for NDIS selective suspend, see <a href="https://msdn.microsoft.com/02D13260-5816-4621-8527-E1E79C9AE975">Handling the NDIS Selective Suspend Idle Notification</a>.
 
 For guidelines on how to implement the <i>MiniportIdleNotification</i> handler function, see <a href="https://msdn.microsoft.com/F2F8C98F-D8B3-49A6-819D-BC0EC936F41E">Implementing a MiniportIdleNotification Handler Function</a>.
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+
+
+
 <b></b>
+
+
 
  
 

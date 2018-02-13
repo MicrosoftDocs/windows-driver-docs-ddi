@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 430de835-6301-40db-b4fe-4eabff0c9b58
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2, wdtf/IWDTFTarget2::GetValueString, Microsoft.WDTF.IWDTFTarget2.GetValueString, dtf.iwdtftarget2_getvaluestring, GetValueString, GetValueString method [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft::WDTF::IWDTFTarget2::GetValueString, IWDTFTarget2::GetValueString, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueString method, GetValueString method [Windows Device Testing Framework]
+ms.keywords: Microsoft.WDTF.IWDTFTarget2.GetValueString, GetValueString, dtf.iwdtftarget2_getvaluestring, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueString method, IWDTFTarget2::GetValueString, wdtf/IWDTFTarget2::GetValueString, GetValueString method [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft::WDTF::IWDTFTarget2::GetValueString, GetValueString method [Windows Device Testing Framework], IWDTFTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The address of a variable that receives the result of this method.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 You specify the field that the<b> GetValueString</b> method retrieves 
@@ -97,9 +100,12 @@ to work properly.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
 
  
 

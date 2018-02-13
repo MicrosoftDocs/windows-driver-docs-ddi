@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/SystemManagedIdleTimeout, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, SystemManagedIdleTimeout, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, kmdf.wdf_power_policy_idle_timeout_type, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, wdf.wdf_power_policy_idle_timeout_type, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, SystemManagedIdleTimeoutWithHint, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/DriverManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeoutWithHint, DriverManagedIdleTimeout
+ms.keywords: PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, wdfdevice/SystemManagedIdleTimeout, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeoutWithHint, SystemManagedIdleTimeout, kmdf.wdf_power_policy_idle_timeout_type, SystemManagedIdleTimeoutWithHint, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, wdfdevice/DriverManagedIdleTimeout, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdf.wdf_power_policy_idle_timeout_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,13 +101,17 @@ On operating systems earlier than Windows 8, the behavior is the same as <b>Dri
 ## -remarks
 
 
+
 The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+
+
 
  
 

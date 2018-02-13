@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUshort
-title: StorPortReadRegisterBufferUshort function
+title: StorPortReadRegisterBufferUshort macro
 author: windows-driver-content
 description: The StorPortReadRegisterBufferUshort routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferushort.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: 169f1089-ac17-4d4c-b989-018ff087aa39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml, StorPortReadRegisterBufferUshort, storage.storportreadregisterbufferushort, StorPortReadRegisterBufferUshort routine [Storage Devices]
+ms.keywords: storage.storportreadregisterbufferushort, StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml, StorPortReadRegisterBufferUshort routine [Storage Devices], storport/StorPortReadRegisterBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortReadRegisterBufferUshort function
+# StorPortReadRegisterBufferUshort macro
 
 
 ## -description
@@ -72,37 +72,56 @@ STORPORT_API VOID StorPortReadRegisterBufferUshort(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param r
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register where the data is to be read. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
-
-
-## -returns
-
-
-None
-
 
 
 ## -remarks
 
 
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>.
+
 
 
 
@@ -110,7 +129,11 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferushor
 
 <a href="..\srb\nf-srb-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
 
+
+
 <a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>
+
+
 
  
 

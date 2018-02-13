@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 43729964-9338-45ab-ad59-406176c1ae9f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanStructDeviceServiceEntry, wwan/WwanStructProvider2, wwan/WwanStructReserved2, wwan/WwanStructDeviceServiceEntry, WwanStructDeviceServiceCommandId, WwanStructContext, wwan/WwanStructMax, wwan/WwanStructContext, WwanStructReserved1, WwanStructDeviceCellularClass, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructSmsPdu, wwan/WWAN_STRUCT_TYPE, WwanStructReserved3, wwan/WwanStructProvider, WwanStructReserved0, PWWAN_STRUCT_TYPE, wwan/WwanStructDeviceCellularClass, WwanStructMax, wwan/WwanStructReserved3, *PWWAN_STRUCT_TYPE, WwanStructProvider2, wwan/WwanStructReserved0, _WWAN_STRUCT_TYPE, WwanStructSmsPdu, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanStructReserved2, wwan/PWWAN_STRUCT_TYPE, WwanStructSmsCdma, wwan/WwanStructReserved1, WwanStructDeviceServiceGuid, wwan/WwanStructSmsCdma, wwan/WwanStructTN, WwanStructTN, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_STRUCT_TYPE, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, wwan/WwanStructDeviceServiceCommandId, WwanStructProvider, netvista.wwan_struct_type
+ms.keywords: wwan/WwanStructContext, wwan/WwanStructReserved1, WwanStructReserved3, WwanStructDeviceServiceGuid, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_STRUCT_TYPE, wwan/WwanStructDeviceServiceGuid, WwanStructDeviceCellularClass, wwan/WWAN_STRUCT_TYPE, wwan/WwanStructProvider2, WwanStructDeviceServiceCommandId, wwan/WwanStructSmsPdu, WwanStructMax, wwan/WwanStructTN, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, wwan/WwanStructDeviceCellularClass, *PWWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanStructReserved2, WwanStructProvider2, wwan/WwanStructReserved0, wwan/PWWAN_STRUCT_TYPE, WwanStructSmsPdu, wwan/WwanStructDeviceServiceCommandId, WwanStructDeviceServiceEntry, wwan/WwanStructDeviceServiceEntry, _WWAN_STRUCT_TYPE, WwanStructContext, WwanStructReserved1, WwanStructReserved0, wwan/WwanStructSmsCdma, WwanStructSmsCdma, WwanStructTN, WwanStructReserved2, wwan/WwanStructReserved3, WWAN_STRUCT_TYPE, wwan/WwanStructMax, wwan/WwanStructProvider, netvista.wwan_struct_type, WwanStructProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -189,41 +189,31 @@ The elements are of type ULONG.
 ### -field WwanStructCellularClass
 
 
-
 ### -field WwanStructDeviceSlotMap
-
 
 
 ### -field WwanStructUiccApplication
 
 
-
 ### -field WwanStructRegisterAcquisitionOrder
-
 
 
 ### -field WwanStructRegistrationState
 
 
-
 ### -field WwanStructSignalState
-
 
 
 ### -field WwanStructUiccTerminalCapability
 
 
-
 ### -field WwanStructSarConfig
-
 
 
 ### -field WwanStructContextV2
 
 
-
 ### -field WwanStructNetworkBlacklistProvider
-
 
 
 ### -field WwanStructMax
@@ -243,21 +233,39 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 <a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
+
 
  
 

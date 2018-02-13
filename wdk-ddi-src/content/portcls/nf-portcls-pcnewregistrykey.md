@@ -7,8 +7,8 @@ old-location: audio\pcnewregistrykey.htm
 old-project: audio
 ms.assetid: d8ef9e7f-8ce0-48df-973f-170c47e55777
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PcNewRegistryKey function [Audio Devices], portcls/PcNewRegistryKey, PcNewRegistryKey, audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml
+ms.date: 2/8/2018
+ms.keywords: portcls/PcNewRegistryKey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], audio.pcnewregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,11 +124,14 @@ Pointer to a variable that receives a value indicating whether a key was created
 ## -returns
 
 
+
 <b>PcNewRegistryKey</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 If the <i>RegistryKeyType</i> parameter's value is <b>GeneralRegistryKey</b>, then the <b>PcNewRegistryKey</b> function either opens an existing key or creates a new key in the registry, as indicated by the value that the function outputs through the <i>Disposition</i> parameter. If the key is of any type other than <b>GeneralRegistryKey</b>, then the function opens an already existing key that was previously created during Plug and Play device enumeration.
@@ -136,6 +139,7 @@ If the <i>RegistryKeyType</i> parameter's value is <b>GeneralRegistryKey</b>, th
 The <i>DesiredAccess</i>, <i>ObjectAttributes</i>, <i>CreateOptions</i>, and <i>Disposition</i> parameters take on the values that are defined for the parameters with the same names in the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> call.
 
 The <i>RegistryKeyType</i> parameter should be set to one of the enumeration values shown in the following table.
+
 <table>
 <tr>
 <th>RegistryKeyType value</th>
@@ -191,7 +195,8 @@ Not used with <b>PcNewRegistryKey</b>. See <a href="https://msdn.microsoft.com/l
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a <i>RegistryKeyType</i> value of <b>GeneralRegistryKey</b>, the caller must provide a valid <i>ObjectAttributes</i> parameter value, and the <i>CreateOptions</i> and <i>Disposition</i> parameters are optional. For any other <i>RegistryKeyType</i> value, the caller must provide a valid <i>DeviceObject</i> parameter value, and the <i>CreateOptions</i> and <i>Disposition</i> parameters are not used.
 
@@ -207,25 +212,40 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
- 
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewRegistryKey function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewRegistryKey function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

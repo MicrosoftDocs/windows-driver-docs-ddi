@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 08344cf3-7724-4c11-8855-ba061a0284f8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure [Storage Devices], storage.feature_data_disc_control_blocks_ex, _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, structs-CD-ROM_5e32d5eb-6a1d-412d-9efe-dba88f85c730.xml, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX
+ms.keywords: "*PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure pointer [Storage Devices], FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure [Storage Devices], ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, storage.feature_data_disc_control_blocks_ex, _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, structs-CD-ROM_5e32d5eb-6a1d-412d-9efe-dba88f85c730.xml, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,13 +75,17 @@ Contains the first of one or more control blocks. The bytes in this array are ar
 ## -remarks
 
 
+
 This structure holds data for the feature named "Disc Control Blocks" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can read or write Disc Control Blocks.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks.md">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
+
+
 
  
 

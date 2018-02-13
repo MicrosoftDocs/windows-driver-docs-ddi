@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2a1e380b-ddad-495b-a921-ebd85525d1a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortResume routine [Storage Devices], StorPortResume, storprt_3970ca06-96f5-4d0a-84b0-781145133788.xml, storport/StorPortResume, storage.storportresume
+ms.keywords: storport/StorPortResume, StorPortResume, StorPortResume routine [Storage Devices], storage.storportresume, storprt_3970ca06-96f5-4d0a-84b0-781145133788.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,13 +77,17 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 ## -returns
 
 
+
 <b>StorPortResume</b> returns <b>TRUE</b> if the miniport driver succeeded in resuming the paused adapter, <b>FALSE</b> if not. 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportpause.md">StorPortPause</a>
+
+
 
  
 

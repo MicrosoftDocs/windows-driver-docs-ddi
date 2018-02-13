@@ -208,14 +208,18 @@ Obsolete. Do not use.
 ## -remarks
 
 
+
 An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type. 
     
+
 
 
 
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
 
  
 

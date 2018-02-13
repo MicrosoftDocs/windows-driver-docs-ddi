@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10ef8868-5a65-4ed9-9f1d-440cda30cba4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_SSID_LIST, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, *PDOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST
+ms.keywords: wlanihvtypes/PDOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_SSID_LIST, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, *PDOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, DOT11EXT_IHV_SSID_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,13 +100,17 @@ An SSID of type
 ## -remarks
 
 
+
 An SSID is a string that identifies a set of interconnected basic service sets (BSSs).
+
 
 
 
 ## -see-also
 
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+
+
 
  
 

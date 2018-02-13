@@ -177,6 +177,8 @@ Sets the current presentation time on the underlying clock.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsClockPropertySet.
+
 
 

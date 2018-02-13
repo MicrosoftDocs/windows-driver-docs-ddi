@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1b21b4b4-a35d-47c4-9cd6-e31e2dfbe59f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_PIN_OPERATION, wwan/WwanPinOperationEnter, WwanPinOperationEnable, WwanPinOperationChange, wwan/WwanPinOperationMax, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml, netvista.wwan_pin_operation, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], WwanPinOperationDisable, _WWAN_PIN_OPERATION, wwan/WwanPinOperationEnable, wwan/PWWAN_PIN_OPERATION, wwan/WWAN_PIN_OPERATION, WwanPinOperationMax, WWAN_PIN_OPERATION, wwan/WwanPinOperationDisable, wwan/WwanPinOperationChange, PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], WwanPinOperationEnter, *PWWAN_PIN_OPERATION
+ms.keywords: WwanPinOperationMax, WwanRef_06404d11-22d3-4b07-9c6f-60771ecfc154.xml, WwanPinOperationDisable, WWAN_PIN_OPERATION, WwanPinOperationEnter, _WWAN_PIN_OPERATION, wwan/PWWAN_PIN_OPERATION, wwan/WWAN_PIN_OPERATION, wwan/WwanPinOperationDisable, netvista.wwan_pin_operation, wwan/WwanPinOperationMax, WWAN_PIN_OPERATION enumeration [Network Drivers Starting with Windows Vista], WwanPinOperationChange, WwanPinOperationEnable, wwan/WwanPinOperationChange, PWWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION, wwan/WwanPinOperationEnter, wwan/WwanPinOperationEnable, PWWAN_PIN_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,6 +101,7 @@ The total number of supported PIN operations.
 ## -remarks
 
 
+
 If a PIN disable operation for a given PIN type is tried when that PIN type is locked, miniport
     drivers can either fail the request with WWAN_STATUS_PIN_REQUIRED or they can successfully complete the
     request. If miniport drivers complete the request successfully, the disable operation should also unlock
@@ -108,9 +109,12 @@ If a PIN disable operation for a given PIN type is tried when that PIN type is l
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 535D7611-8C86-44CF-964C-731882A3AF69
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psgetcurrentsilo, ntddk/PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], PsGetCurrentSilo
+ms.keywords: PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], PsGetCurrentSilo, ntddk/PsGetCurrentSilo, kernel.psgetcurrentsilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetCurrentSilo
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetCurrentSilo function
@@ -66,9 +66,12 @@ PESILO PsGetCurrentSilo(void);
 
 
 
+
 ## -returns
 
 
+
 A pointer to the <b>ESILO</b> object.  This pointer is valid for the current thread, but must be referenced before transferring to another thread (for example, via a workitem).
+
 
 

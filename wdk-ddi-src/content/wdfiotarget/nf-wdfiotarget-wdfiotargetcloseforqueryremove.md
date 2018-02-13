@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOTARGETCLOSEFORQUERYREMOVE, WdfIoTargetCloseForQueryRemove, kmdf.wdfiotargetcloseforqueryremove, WdfIoTargetCloseForQueryRemove method, wdf.wdfiotargetcloseforqueryremove, wdfiotarget/WdfIoTargetCloseForQueryRemove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml
+ms.keywords: WdfIoTargetCloseForQueryRemove method, wdfiotarget/WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove, wdf.wdfiotargetcloseforqueryremove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, kmdf.wdfiotargetcloseforqueryremove, PFN_WDFIOTARGETCLOSEFORQUERYREMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ A handle to a remote I/O target object that was obtained from a previous call to
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,7 +90,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Drivers that supply an <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a> callback function must call <b>WdfIoTargetCloseForQueryRemove</b> from within that callback function, if the driver determines that the target device can be safely removed. 
@@ -99,12 +102,54 @@ For more information about <b>WdfIoTargetCloseForQueryRemove</b>, see <a href="h
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
+#### Examples
+
+The following code example is the <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a> callback function from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample driver. The function stops a timer, ensures that a previously submitted work item has been serviced, and then calls <b>WdfIoTargetCloseForQueryRemove</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+ToastMon_EvtIoTargetQueryRemove(
+    WDFIOTARGET IoTarget
+)
+{
+    PTARGET_DEVICE_INFO  targetDeviceInfo = NULL;
+
+    //
+    // Get I/O target object's context space.
+    //
+    targetDeviceInfo = GetTargetDeviceInfo(IoTarget);
+
+    //
+    // Stop the timer and wait for any outstanding work items
+    // to finish before closing the target.
+    //
+    WdfTimerStop(targetDeviceInfo-&gt;TimerForPostingRequests, TRUE);
+    WdfWorkItemFlush(targetDeviceInfo-&gt;WorkItemForPostingRequests);
+
+    WdfIoTargetCloseForQueryRemove(IoTarget);
+
+    return STATUS_SUCCESS;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_ReadPhonebookEntries, rilapi/RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries
+ms.keywords: RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], rilapi/RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries, netvista.ril_readphonebookentries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,30 +78,26 @@ HRESULT  RIL_ReadPhonebookEntries(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwStoreLocation
-
 
 
 ### -param dwStartIndex
 
 
-
 ### -param dwEndIndex
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

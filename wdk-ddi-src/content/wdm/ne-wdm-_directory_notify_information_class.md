@@ -7,8 +7,8 @@ old-location: ifsk\_directory_notify_information_class.htm
 old-project: ifsk
 ms.assetid: 77c2515b-f20a-47ac-9564-9eab009cf625
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class, wdm/DirectoryNotifyInformation, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, DirectoryNotifyInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, DirectoryNotifyExtendedInformation, wdm/DirectoryNotifyExtendedInformation
+ms.date: 2/7/2018
+ms.keywords: ifsk._directory_notify_information_class, wdm/DirectoryNotifyExtendedInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DirectoryNotifyExtendedInformation, DIRECTORY_NOTIFY_INFORMATION_CLASS, DirectoryNotifyInformation, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyInformation, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	DIRECTORY_NOTIFY_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS
+req.typenames: "*PDIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 

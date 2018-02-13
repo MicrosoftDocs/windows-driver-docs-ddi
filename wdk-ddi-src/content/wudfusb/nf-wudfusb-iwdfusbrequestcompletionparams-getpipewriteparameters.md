@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetPipeWriteParameters method, IWDFUsbRequestCompletionParams, GetPipeWriteParameters, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters
+ms.keywords: GetPipeWriteParameters method, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, IWDFUsbRequestCompletionParams, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbRequestCompletionParams.GetPipeWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -90,15 +90,21 @@ A pointer to a variable that receives the offset, in bytes, into the write buffe
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+
 
  
 

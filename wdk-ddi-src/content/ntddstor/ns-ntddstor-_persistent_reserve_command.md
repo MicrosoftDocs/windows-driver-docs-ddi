@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c7debd93-0fcd-43c5-a950-8154b62175bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PERSISTENT_RESERVE_COMMAND, ntddstor/PPERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND, structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml, _PERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, ntddstor/PERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], *PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND structure [Storage Devices]
+ms.keywords: PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], *PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND structure [Storage Devices], PERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, ntddstor/PERSISTENT_RESERVE_COMMAND, _PERSISTENT_RESERVE_COMMAND, structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml, ntddstor/PPERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,13 +82,22 @@ typedef struct _PERSISTENT_RESERVE_COMMAND {
 
 
 
+### -field Version
+
+The version of this structure.
+
+
+### -field Size
+
+The size of this structure.
+
+
 ### -field DUMMYUNIONNAME
 
  
 
 
 ### -field DUMMYUNIONNAME.PR_IN
-
 
 
 ### -field DUMMYUNIONNAME.PR_IN.ServiceAction
@@ -110,7 +119,6 @@ The number of bytes allocated for the returned parameter list.
 
 
 ### -field DUMMYUNIONNAME.PR_OUT
-
 
 
 ### -field DUMMYUNIONNAME.PR_OUT.ServiceAction
@@ -154,28 +162,24 @@ RESERVATION_SCOPE_ELEMENT
 The space for additional SCSI Persistent Reserve Out command parameters.
 
 
-### -field Version
-
-The version of this structure.
-
-
-### -field Size
-
-The size of this structure.
-
-
 ## -remarks
+
 
 
 The behavior of the storage device when a SCSI Persistent Reserve In command or a SCSI Persistent Reserve Out command is received is described in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification.
 
 
 
+
 ## -see-also
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+
+
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+
 
  
 

@@ -73,7 +73,9 @@ None
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ The miniport driver returns an array of <a href="..\ntddvdeo\ns-ntddvdeo-_video_
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,7 +120,11 @@ If the miniport driver successfully returns the available modes, it sets the <b>
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode_information.md">VIDEO_MODE_INFORMATION</a>
 
+
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

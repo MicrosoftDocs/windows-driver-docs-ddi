@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortBufferUshort
-title: StorPortWritePortBufferUshort function
+title: StorPortWritePortBufferUshort macro
 author: windows-driver-content
 description: The StorPortWritePortBufferUshort routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferushort.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, storport/StorPortWritePortBufferUshort, storage.storportwriteportbufferushort, StorPortWritePortBufferUshort, StorPortWritePortBufferUshort routine [Storage Devices]
+ms.keywords: storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, StorPortWritePortBufferUshort, StorPortWritePortBufferUshort routine [Storage Devices], storage.storportwriteportbufferushort, storport/StorPortWritePortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortWritePortBufferUshort function
+# StorPortWritePortBufferUshort macro
 
 
 ## -description
@@ -72,37 +72,56 @@ STORPORT_API VOID StorPortWritePortBufferUshort(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param p
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Contains the address of the port to be written to. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
 
 
-### -param Count [in]
+#### - Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
-
-
-## -returns
-
-
-None 
-
 
 
 ## -remarks
 
 
+
 For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>. 
+
 
 
 
@@ -110,7 +129,11 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferushort.m
 
 <a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
 
+
+
 <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>
+
+
 
  
 

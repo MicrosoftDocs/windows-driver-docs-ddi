@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiOPMGetInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_OPM_GET_INFORMATION callback
@@ -86,7 +86,6 @@ The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dx
 ### -param PDXGKMDT_OPM_GET_INFO_PARAMETERS
 
 
-
 ### -param RequestedInformation [out]
 
 A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a> structure that receives the protected output object's information if <i>DxgkDdiOPMGetInformation</i> returns successfully.
@@ -102,13 +101,16 @@ A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.m
 ## -returns
 
 
+
 <i>DxgkDdiOPMGetInformation</i> returns one of the following values:
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem should call <i>DxgkDdiOPMGetInformation</i> only if the output has OPM semantics.
@@ -116,6 +118,7 @@ The DirectX graphics kernel subsystem should call <i>DxgkDdiOPMGetInformation</i
 Before the DirectX graphics kernel subsystem passes the protected output handle to the <i>ProtectedOutputHandle</i> parameter in a call to <i>DxgkDdiOPMGetInformation</i>, the DirectX graphics kernel subsystem always passes the protected output handle to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a> and <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a> functions. 
 
 <i>DxgkDdiOPMGetInformation</i> retrieves one of the following types of information:  
+
 <ul>
 <li>
 The protected output's connector type.
@@ -145,11 +148,13 @@ The type of expansion bus that the graphics adapter uses and how the graphics ad
 The format of the images that the graphics adapter sends from the physical output to the monitor. 
 
 </li>
-</ul>The <b>guidInformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> structure that the <i>Parameters</i> parameter points to should never contain the DXGKMDT_OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION and DXGKMDT_OPM_GET_ACP_AND_CGMSA_SIGNALING GUIDs because only COPP applications should specify these GUIDs. 
+</ul>
+The <b>guidInformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> structure that the <i>Parameters</i> parameter points to should never contain the DXGKMDT_OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION and DXGKMDT_OPM_GET_ACP_AND_CGMSA_SIGNALING GUIDs because only COPP applications should specify these GUIDs. 
 
 The first 4 bytes of the <b>abParameters</b> member of <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> should never contain the DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP protection type when the DXGKMDT_OPM_GET_VIRTUAL_PROTECTION_LEVEL or DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL GUID is specified in the <b>guidInformation</b> member of <b>DXGKMDT_OPM_GET_INFO_PARAMETERS</b> because only COPP applications use this protection type. 
 
 The driver must perform the following sequence when its <i>DxgkDdiOPMGetInformation</i> function is called.
+
 <ol>
 <li>
 Verify that the protected output handle that was passed to the <i>ProtectedOutputHandle</i> parameter of <i>DxgkDdiOPMGetInformation</i> has OPM semantics.
@@ -171,29 +176,47 @@ Copy the random number that the <b>rnRandomNumber</b> member of <a href="..\d3dk
 Sign the DXGKMDT_OPM_REQUESTED_INFORMATION structure and place the signature in the <b>omac</b> member of DXGKMDT_OPM_REQUESTED_INFORMATION. The AES block cipher and the OMAC-1 signing algorithm should be used to sign the structure.
 
 </li>
-</ol>Initially, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetInformation</i> to retrieve information about the output and then calls <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a> one or more times to configure the output. Subsequently, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetInformation</i> without also calling <i>DxgkDdiOPMConfigureProtectedOutput</i>.
+</ol>
+Initially, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetInformation</i> to retrieve information about the output and then calls <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a> one or more times to configure the output. Subsequently, the DirectX graphics kernel subsystem calls <i>DxgkDdiOPMGetInformation</i> without also calling <i>DxgkDdiOPMConfigureProtectedOutput</i>.
 
 <i>DxgkDdiOPMGetInformation</i> should be made pageable.
 
 
 
+
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_requested_information.md">DXGKMDT_OPM_REQUESTED_INFORMATION</a>
+
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

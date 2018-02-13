@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4c02da7e-2d93-4e0c-9666-acb380c6d39a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/SENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS, PSENDCMDINPARAMS, LPSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], storage.sendcmdinparams, SENDCMDINPARAMS structure [Storage Devices], _SENDCMDINPARAMS, *PSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], ntdddisk/PSENDCMDINPARAMS, SENDCMDINPARAMS, *LPSENDCMDINPARAMS, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml
+ms.keywords: PSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, LPSENDCMDINPARAMS, _SENDCMDINPARAMS, *LPSENDCMDINPARAMS, storage.sendcmdinparams, ntdddisk/PSENDCMDINPARAMS, PSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], *PSENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml, ntdddisk/LPSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,19 +105,27 @@ Pointer to the input buffer.
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> is used to send a Self-Monitoring Analysis and Reporting Technology (SMART) commands to a device. 
 
 The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a> request. 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
 
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
+
+
 
  
 

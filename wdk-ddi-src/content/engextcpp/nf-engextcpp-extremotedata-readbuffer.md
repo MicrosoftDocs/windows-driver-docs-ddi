@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, debugger.extremotedata_readbuffer, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData::ReadBuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer method [Windows Debugging], ReadBuffer, ReadBuffer method [Windows Debugging], ExtRemoteData class
+ms.keywords: EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer, debugger.extremotedata_readbuffer, ReadBuffer method [Windows Debugging], ReadBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData::ReadBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.ReadBuffer
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::ReadBuffer method
@@ -87,7 +87,9 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 ## -returns
 
 
+
 <b>ReadBuffer</b> returns the number of bytes read from the target and copied into the <i>Buffer</i> buffer.  If <i>MustReadAll</i> is <code>true</code>, the value of <i>Bytes</i> will be returned (unless an exception is thrown).
+
 
 
 
@@ -95,7 +97,11 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
 
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
  
 

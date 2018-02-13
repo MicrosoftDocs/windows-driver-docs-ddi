@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7d5105e3-99c6-4800-88a4-af80a61c253e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFrameByIndex method [Windows Debugging], IDebugSymbols_451c9980-0e6c-4661-bdb6-396c45cc57dd.xml, dbgeng/IDebugSymbols3::SetScopeFrameByIndex, IDebugSymbols3::SetScopeFrameByIndex, SetScopeFrameByIndex method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, debugger.setscopeframebyindex, SetScopeFrameByIndex, IDebugSymbols3 interface [Windows Debugging], SetScopeFrameByIndex method
+ms.keywords: SetScopeFrameByIndex, IDebugSymbols3 interface [Windows Debugging], SetScopeFrameByIndex method, SetScopeFrameByIndex method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::SetScopeFrameByIndex, SetScopeFrameByIndex method [Windows Debugging], debugger.setscopeframebyindex, IDebugSymbols_451c9980-0e6c-4661-bdb6-396c45cc57dd.xml, dbgeng/IDebugSymbols3::SetScopeFrameByIndex, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Specifies the index of the stack frame from which to set the scope.  The index c
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When an event occurs and the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> breaks into a target, the scope is set to the current function call (the function that was executing when the event occurred).  Calling this method with <i>Index</i> set to one will change the current scope to the caller of the current function; with <i>Index</i> set to two, the scope is changed to the caller's caller, and so on.
@@ -105,17 +110,28 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563155">.frame (Set Local Context)</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556778">SetScopeFromStoredEvent</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545862">GetCurrentScopeFrameIndex</a>
+
+
 
  
 

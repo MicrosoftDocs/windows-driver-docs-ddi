@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f3cfe07-5026-40fb-b832-da5ae048843e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, netvista.dot11_incoming_assoc_completion_parameters, _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+ms.keywords: "_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, netvista.dot11_incoming_assoc_completion_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,8 +98,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -107,15 +105,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        <b>sizeof</b>(DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PeerMacAddr
@@ -141,12 +144,14 @@ For nonzero values of
 
 
 
+
 #### DOT11_ASSOC_ERROR_SOURCE_OS
 
 The miniport driver has rejected the association procedure because of system errors, such as
        out-of-memory errors. In this case, 
        <b>uStatus</b> should be set to the NDIS_STATUS_XXX or NTSTATUS_XXX code returned from the operating
        system.
+
 
 
 #### DOT11_ASSOC_ERROR_SOURCE_REMOTE
@@ -156,6 +161,7 @@ The AP or the peer station has rejected the association procedure. In this case,
        association response frame, or re-association response frame. Table 19 in the 
        <i>IEEE 802.11-2003 Specification</i> contains all the possible values. The miniport driver can also
        return new values in this IEEE specification when it is amended.
+
 
 
 #### DOT11_ASSOC_ERROR_SOURCE_OTHER
@@ -206,8 +212,10 @@ The authentication algorithm that the 802.11 station resolved with the peer stat
       association operation. For more information about the data type for the 
       <b>AuthAlgo</b> member, see 
       <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div><div> </div>
+      <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ### -field UnicastCipher
 
@@ -215,8 +223,10 @@ The unicast cipher algorithm that the 802.11 station resolved with the peer stat
       association operation. For more information about the data type for the 
       <b>UnicastCipher</b> member, see 
       <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div><div> </div>
+      <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ### -field MulticastCipher
 
@@ -224,8 +234,10 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
       the association operation. For more information about the data type for the 
       <b>MulticastCipher</b> member, see 
       <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div><div> </div>
+      <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ### -field uActivePhyListOffset
 
@@ -237,6 +249,7 @@ The Extensible Station (ExtSTA)
       also references the active PHY list.
 
 Entries in the active PHY list can be one of the following values:
+
 <ul>
 <li>
 A PHY ID that is specified by the Extensible Station (ExtSTA) 
@@ -255,10 +268,13 @@ A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value
         active PHY list.</div>
 <div> </div>
 </li>
-</ul>The offset of the active PHY list is relative to the start of the buffer that contains the
+</ul>
+The offset of the active PHY list is relative to the start of the buffer that contains the
       DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure.
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div><div> </div>
+      <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ### -field uActivePhyListSize
 
@@ -266,8 +282,10 @@ The length, in bytes, of the active PHY list. The
      <b>uActivePhyListSize</b> member must be a multiple of 
      <code>sizeof(ULONG)</code>.
      
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-     <b>uStatus</b> is not set to zero.</div><div> </div>
+     <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ### -field uBeaconOffset
 
@@ -280,8 +298,10 @@ The Beacon frame includes the Beacon frame header and all information elements (
 The Beacon frame should be the latest frame used by the driver, except that real-time parameters or
      IEs that vary with data frame flow control, or client association status such as timestamp, radio
      parameters, TIM, ERP, and HT IEs, do not need to be accurate,
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-     <b>uStatus</b> is not set to zero.</div><div> </div>
+     <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ### -field uBeaconSize
 
@@ -294,10 +314,13 @@ The Beacon frame includes the Beacon frame header and all information elements (
 The Beacon frame should be the latest frame used by the driver, except that real-time parameters or
      IEs that vary with data frame flow control, or client association status such as timestamp, radio
      parameters, TIM, ERP, and HT IEs, do not need to be accurate,
+
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-     <b>uStatus</b> is not set to zero.</div><div> </div>
+     <b>uStatus</b> is not set to zero.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure when
@@ -315,16 +338,25 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff547647">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
 
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>
+
 
  
 

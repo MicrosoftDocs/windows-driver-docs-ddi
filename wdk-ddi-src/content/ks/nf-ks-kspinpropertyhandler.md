@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinpropertyhandler, ks/KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml
+ms.keywords: ks/KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler, KsPinPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,13 +100,17 @@ Specifies the pointer to the list of pin descriptors.
 ## -returns
 
 
+
 The <b>KsPinPropertyHandler</b> function returns STATUS_SUCCESS or an error specific to the property being handled. The function fills in the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP. It does not set the IO_STATUS_BLOCK.Status field nor complete the IRP.
+
 
 
 
 ## -remarks
 
 
+
 Do not use the <b>KsPinPropertyHandler</b> function to define a pin property set; a pin property set can be more easily defined using the DEFINE_KSPROPERY_PINSET macro.
+
 
 

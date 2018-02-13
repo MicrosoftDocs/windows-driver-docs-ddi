@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6d2165a7-ee21-4f7d-a03c-f9bed87a3c7a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PORT_DATA_1 structure [Print Devices], print.port_data_1, tcpxcv/PPORT_DATA_1, _PORT_DATA_1, *PPORT_DATA_1, PORT_DATA_1, spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, tcpxcv/PORT_DATA_1, PPORT_DATA_1 structure pointer [Print Devices], PPORT_DATA_1
+ms.keywords: PPORT_DATA_1 structure pointer [Print Devices], spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, _PORT_DATA_1, PPORT_DATA_1, *PPORT_DATA_1, PORT_DATA_1 structure [Print Devices], tcpxcv/PPORT_DATA_1, print.port_data_1, PORT_DATA_1, tcpxcv/PORT_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,15 +154,19 @@ Specifies the SNMP device index.
 ## -remarks
 
 
+
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called either to add a port or configure an existing port, its <i>pOutputData</i> parameter must be set with the address of a PORT_DATA_1 structure, which will be filled in when the function returns. To add a port, set this function's <i>pszDataName</i> parameter to the string L"AddPort". To configure a port, set this parameter to L"ConfigPort". 
 
 See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a> for more information.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
 
  
 

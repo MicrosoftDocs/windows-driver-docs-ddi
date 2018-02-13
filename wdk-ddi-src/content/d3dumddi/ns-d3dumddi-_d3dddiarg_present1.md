@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 17EBEEF1-4C86-4948-AADA-669B2952755A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1, display.d3dddiarg_present1, _D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices]
+ms.keywords: "_D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices], display.d3dddiarg_present1, d3dumddi/D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,17 +129,28 @@ The driver can use this member to perform optimizations, though it's not require
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present1.md">pfnPresent1(D3D)</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee51c436-2d1c-49d0-ab76-337317eeeeda
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_power_policy_s0_idle_user_control, IdleDoNotAllowUserControl, wdfdevice/IdleAllowUserControl, wudfddi_types/IdleAllowUserControl, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, IdleUserControlInvalid, IdleAllowUserControl, wdfdevice/IdleUserControlInvalid, wdf.wdf_power_policy_s0_idle_user_control, DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wudfddi_types/IdleDoNotAllowUserControl, wudfddi_types/IdleUserControlInvalid, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdfdevice/IdleDoNotAllowUserControl
+ms.keywords: IdleDoNotAllowUserControl, IdleAllowUserControl, wudfddi_types/IdleUserControlInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdfdevice/IdleUserControlInvalid, wdfdevice/IdleDoNotAllowUserControl, wudfddi_types/IdleAllowUserControl, wdfdevice/IdleAllowUserControl, DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, IdleUserControlInvalid, kmdf.wdf_power_policy_s0_idle_user_control, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdf.wdf_power_policy_s0_idle_user_control, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, wudfddi_types/IdleDoNotAllowUserControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,15 +91,19 @@ Users can control the device's idle behavior.
 ## -remarks
 
 
+
 The <b>WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</b> enumeration is used as a member type in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
 Users control a device's idle behavior by modifying information on a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">property sheet</a>. The framework creates the property sheet and Device Manager displays it.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+
+
 
  
 

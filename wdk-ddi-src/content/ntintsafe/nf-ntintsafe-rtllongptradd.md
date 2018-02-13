@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrAdd, kernel.rtllongptradd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongPtrAdd
+ms.keywords: RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongPtrAdd, kernel.rtllongptradd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 #### - u8Augend [in]
 
 The first value in the equation.
@@ -103,6 +104,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

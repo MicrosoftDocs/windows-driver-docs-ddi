@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintcoreui2_getoptions, GetOptions method [Print Devices], print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml, GetOptions, IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2, prcomoem/IPrintCoreUI2::GetOptions, GetOptions method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2::GetOptions
+ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml, print.iprintcoreui2_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.GetOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -112,7 +112,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the fea
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -177,11 +179,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 UI plug-ins that fully replace the core driver's standard UI pages, and is supported only during the UI plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. See <a href="https://msdn.microsoft.com/b7f79841-f82c-4a60-9c2f-58772a65a5eb">Replacing Driver-Supplied Property Sheet Pages</a> for more information.
@@ -194,15 +199,24 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553081">IPrintCoreUI2::SetOptions</a>
+
+
 
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553081">IPrintCoreUI2::SetOptions</a>
+
 
  
 

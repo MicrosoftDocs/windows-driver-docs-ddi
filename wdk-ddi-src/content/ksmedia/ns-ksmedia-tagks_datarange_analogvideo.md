@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e89e9108-28a1-46ac-8694-047a656dcb74
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices], ksmedia/PKS_DATARANGE_ANALOGVIDEO, tagKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO, ksmedia/KS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], KS_DATARANGE_ANALOGVIDEO, vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml, *PKS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo
+ms.keywords: ksmedia/KS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO, *PKS_DATARANGE_ANALOGVIDEO, tagKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml, ksmedia/PKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_ANALOGVIDEO
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO"
+req.typenames: KS_DATARANGE_ANALOGVIDEO, *PKS_DATARANGE_ANALOGVIDEO
 ---
 
 # tagKS_DATARANGE_ANALOGVIDEO structure
@@ -80,9 +80,13 @@ Specifies the details of the analog video stream.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_analogvideoinfo.md">KS_ANALOGVIDEOINFO</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
 
  
 

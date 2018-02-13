@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Enqueue method, IWDFWorkItem interface, IWDFWorkItem::Enqueue, IWDFWorkItem interface, Enqueue method, wdf.iwdfworkitem_enqueue, IWDFWorkItem, umdf.iwdfworkitem_enqueue, Enqueue method, Enqueue, wudfddi/IWDFWorkItem::Enqueue
+ms.keywords: wudfddi/IWDFWorkItem::Enqueue, IWDFWorkItem, IWDFWorkItem::Enqueue, Enqueue, Enqueue method, IWDFWorkItem interface, Enqueue method, IWDFWorkItem interface, Enqueue method, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,14 +71,18 @@ void Enqueue();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
@@ -89,11 +93,16 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 
 
+
 ## -see-also
+
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
+
 
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
 
  
 

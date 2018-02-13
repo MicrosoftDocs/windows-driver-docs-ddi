@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PrinterEvent method [Print Devices], IPrintOemUI interface [Print Devices], PrinterEvent method, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, PrinterEvent method [Print Devices], IPrintOemUI interface, IPrintOemUI::PrinterEvent, prcomoem/IPrintOemUI::PrinterEvent, PrinterEvent, IPrintOemUI
+ms.keywords: IPrintOemUI::PrinterEvent, PrinterEvent method [Print Devices], IPrintOemUI interface, IPrintOemUI, print.iprintoemui_printerevent, prcomoem/IPrintOemUI::PrinterEvent, PrinterEvent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, PrinterEvent method [Print Devices], IPrintOemUI interface [Print Devices], PrinterEvent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.PrinterEvent
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Caller-supplied event-specific parameter. For more information, see <b>DrvPrinte
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in's <code>IPrintOemUI::PrinterEvent</code> method performs the same types of operations as the <b>DrvPrinterEvent</b> function that is exported by user-mode printer interface DLLs. For information about printer events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a> function.
@@ -150,9 +155,12 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
+
+
 
  
 

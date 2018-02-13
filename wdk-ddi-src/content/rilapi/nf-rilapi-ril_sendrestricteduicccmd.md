@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f9341659-105b-4ec7-bce7-878698de8c14
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SendRestrictedUiccCmd, netvista.ril_sendrestricteduicccmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], RIL_SendRestrictedUiccCmd
+ms.keywords: netvista.ril_sendrestricteduicccmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,34 +79,29 @@ HRESULT  RIL_SendRestrictedUiccCmd(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwCommand
 
 
-
 ### -param lpParameters
-
 
 
 ### -param lpbData
 
 
-
 ### -param dwSize
-
 
 
 ### -param lpLockVerification
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

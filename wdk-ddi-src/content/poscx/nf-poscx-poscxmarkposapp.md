@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 6BFFD014-E9DC-495C-9810-0D23BD93C41A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxmarkposapp, poscx/PosCxMarkPosApp, PosCxMarkPosApp, PosCxMarkPosApp function
+ms.keywords: PosCxMarkPosApp function, poscx/PosCxMarkPosApp, PosCxMarkPosApp, pos.poscxmarkposapp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,9 @@ Specifies if the open instance is associated with a point-of-service application
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -100,6 +102,8 @@ Possible return values are:
 <td><b>INVALID_PARAMETER</b></td>
 <td>The specified <i>fileObject</i> is invalid.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

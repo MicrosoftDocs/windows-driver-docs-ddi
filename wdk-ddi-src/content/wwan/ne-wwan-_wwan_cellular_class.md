@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c49f40b8-feb4-4dfd-9a2b-c800f3b5343a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_cellular_class, WwanCellularClassUnknown, _WWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS, wwan/WwanCellularClassGsm, *PWWAN_CELLULAR_CLASS, wwan/WwanCellularClassCdma, PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanCellularClassGsm, wwan/PWWAN_CELLULAR_CLASS, WwanCellularClassMax, wwan/WWAN_CELLULAR_CLASS, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WwanCellularClassCdma, wwan/WwanCellularClassUnknown, wwan/WwanCellularClassMax
+ms.keywords: WwanCellularClassMax, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_CELLULAR_CLASS, wwan/WwanCellularClassCdma, wwan/WwanCellularClassGsm, netvista.wwan_cellular_class, WwanCellularClassUnknown, WwanCellularClassCdma, _WWAN_CELLULAR_CLASS, WwanCellularClassGsm, wwan/WwanCellularClassUnknown, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, wwan/WwanCellularClassMax, PWWAN_CELLULAR_CLASS, *PWWAN_CELLULAR_CLASS, wwan/PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,6 +95,8 @@ The total number of supported cellular classes.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+
 
  
 

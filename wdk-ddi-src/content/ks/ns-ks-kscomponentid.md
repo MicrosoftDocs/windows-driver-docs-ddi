@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 37987f5a-f706-4a5d-b6f7-e726bdfd8473
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCOMPONENTID, ks/KSCOMPONENTID, KSCOMPONENTID, PKSCOMPONENTID structure pointer [Streaming Media Devices], stream.kscomponentid, PKSCOMPONENTID, ks-struct_a6ed820f-c35d-411e-98a5-bd14a2141960.xml, ks/PKSCOMPONENTID, KSCOMPONENTID structure [Streaming Media Devices]"
+ms.keywords: ks-struct_a6ed820f-c35d-411e-98a5-bd14a2141960.xml, stream.kscomponentid, KSCOMPONENTID structure [Streaming Media Devices], *PKSCOMPONENTID, ks/KSCOMPONENTID, KSCOMPONENTID, ks/PKSCOMPONENTID, PKSCOMPONENTID structure pointer [Streaming Media Devices], PKSCOMPONENTID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCOMPONENTID
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCOMPONENTID, KSCOMPONENTID"
+req.typenames: KSCOMPONENTID, *PKSCOMPONENTID
 ---
 
 # KSCOMPONENTID structure
@@ -105,13 +105,17 @@ Specifies the revision number for the component or product.
 ## -remarks
 
 
+
 Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a> request.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a>
+
+
 
  
 

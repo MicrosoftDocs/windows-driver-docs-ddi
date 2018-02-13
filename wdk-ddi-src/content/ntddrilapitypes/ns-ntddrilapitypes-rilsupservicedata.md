@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cb4afae-75ad-4c9b-8b21-f9aade2c5fd8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsupservicedata, *LPRILSUPSERVICEDATA, ntddrilapitypes/RILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSUPSERVICEDATA, ntddrilapitypes/RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], *LPRILSUPSERVICEDATA, netvista.rilsupservicedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,35 +78,26 @@ typedef struct _RILSUPSERVICEDATA {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwStatus
-
 
 
 ### -field dwNetworkSSErrorCause
 
 
-
 ### -field dwNetworkCCErrorCause
-
 
 
 ### -field dwVendorErrorCause
 
 
-
 ### -field dwDataSize
 
 
-
 ### -field wszData
-
 

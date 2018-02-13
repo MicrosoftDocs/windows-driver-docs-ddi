@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETPIPEFORMATREQUESTFORREAD, wdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead method, wdfusb/WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, kmdf.wdfusbtargetpipeformatrequestforread
+ms.keywords: wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead, kmdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead method, WdfUsbTargetPipeFormatRequestForRead, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORREAD, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetPipeFormatRequestForRead
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,9 @@ A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfm
 ## -returns
 
 
+
 <b>WdfUsbTargetPipeFormatRequestForRead</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,7 +173,8 @@ The I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>) that the <i>Req
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -181,7 +184,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use <b>WdfUsbTargetPipeFormatRequestForRead</b>, followed by <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, to send read requests either synchronously or asynchronously. Alternatively, use the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipereadsynchronously.md">WdfUsbTargetPipeReadSynchronously</a> method to send read requests synchronously. 
@@ -191,6 +196,7 @@ The pipe that the <i>Pipe</i> parameter specifies must be an input pipe, and the
 You can forward an I/O request that your driver received in an I/O queue, or you can create and send a new request. In either case, the framework requires a request object and some buffer space.
 
 To forward an I/O request that your driver received in an I/O queue:
+
 <ol>
 <li>
 Specify the received request's handle for the <b>WdfUsbTargetPipeFormatRequestForRead</b> method's <i>Request</i> parameter.
@@ -202,11 +208,13 @@ Use the received request's output buffer for the <b>WdfUsbTargetPipeFormatReques
 The driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> to obtain a handle to a framework memory object that represents the request's output buffer, and use that handle as the value for the <i>ReadMemory</i> parameter.
 
 </li>
-</ol>For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+</ol>
+For more information about forwarding an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 Drivers often divide received I/O requests into smaller requests that they send to an I/O target, so your driver might create new requests.
 
 To create a new I/O request:
+
 <ol>
 <li>
 Create a new request object and supply its handle for the <b>WdfUsbTargetPipeFormatRequestForRead</b> method's <i>Request</i> parameter.
@@ -226,7 +234,8 @@ Your driver must specify this buffer space as a WDFMEMORY handle to framework-ma
 Note that if your driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> and passes the memory handle to <b>WdfUsbTargetPipeFormatRequestForRead</b>, the driver must not complete the received I/O request until after the driver deletes, reuses, or reformats the new, driver-created request object. (<b>WdfUsbTargetPipeFormatRequestForRead</b> increments the memory object's reference count. Deleting, reusing, or reformatting a request object decrements the memory object's reference count.)
 
 </li>
-</ol>After calling <b>WdfUsbTargetPipeFormatRequestForRead</b> to format an I/O request, the driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> to send the request (either synchronously or asynchronously) to an I/O target.
+</ol>
+After calling <b>WdfUsbTargetPipeFormatRequestForRead</b> to format an I/O request, the driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> to send the request (either synchronously or asynchronously) to an I/O target.
 
 Multiple calls to <b>WdfUsbTargetPipeFormatRequestForRead</b> that use the same request do not cause additional resource allocations. Therefore, to reduce the chance that <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a> will return STATUS_INSUFFICIENT_RESOURCES, your driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function can call <b>WdfRequestCreate</b> to preallocate one or more request objects for a device. The driver can subsequently reuse (call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>), reformat (call <b>WdfUsbTargetPipeFormatRequestForRead</b>), and resend (call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>) each request object without risking a STATUS_INSUFFICIENT_RESOURCES return value from a later call to <b>WdfRequestCreate</b>. All subsequent calls to <b>WdfUsbTargetPipeFormatRequestForRead</b> for the reused request object will return STATUS_SUCCESS, if parameter values do not change. (If the driver does not call the same request-formatting method each time, additional resources might be allocated.)
 
@@ -237,20 +246,114 @@ For information about obtaining status information after an I/O request complete
 For more information about the <b>WdfUsbTargetPipeFormatRequestForRead</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example is from the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. This example is an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function that forwards a read request to a USB pipe. The example calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> to obtain the request's output buffer, and then it formats the read request so that the request can be sent to a USB pipe. Next, the example registers a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function. Finally, it sends the request to the USB pipe.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+OsrFxEvtIoRead(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+    WDFUSBPIPE  pipe;
+    NTSTATUS  status;
+    WDFMEMORY  reqMemory;
+    PDEVICE_CONTEXT  pDeviceContext;
+
+    //
+    // First, validate input parameters.
+    //
+    if (Length &gt; TEST_BOARD_TRANSFER_BUFFER_SIZE) {
+        status = STATUS_INVALID_PARAMETER;
+        goto Exit;
+    }
+
+    pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
+ 
+    pipe = pDeviceContext-&gt;BulkReadPipe;
+ 
+    status = WdfRequestRetrieveOutputMemory(
+                                            Request,
+                                            &amp;reqMemory
+                                            );
+    if (!NT_SUCCESS(status)){
+        goto Exit;
+    }
+ 
+    status = WdfUsbTargetPipeFormatRequestForRead(
+                                                  pipe,
+                                                  Request,
+                                                  reqMemory,
+                                                  NULL
+                                                  ); 
+    if (!NT_SUCCESS(status)) {
+        goto Exit;
+    }
+
+    WdfRequestSetCompletionRoutine(
+                                   Request,
+                                   EvtRequestReadCompletionRoutine,
+                                   pipe
+                                   );
+    if (WdfRequestSend(
+                       Request,
+                       WdfUsbTargetPipeGetIoTarget(pipe),
+                       WDF_NO_SEND_OPTIONS
+                       ) == FALSE) {
+        status = WdfRequestGetStatus(Request);
+        goto Exit;
+    }
+
+ 
+Exit:
+    if (!NT_SUCCESS(status)) {
+        WdfRequestCompleteWithInformation(
+                                          Request,
+                                          status,
+                                          0
+                                          );
+    }
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
 
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
 
  
 

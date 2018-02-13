@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e46a9aee-8d96-41f5-b0f9-01846fefe4cb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, PFN_WDFPDOINITADDDEVICETEXT, kmdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText, wdf.wdfpdoinitadddevicetext, DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml
+ms.keywords: DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText method, WdfPdoInitAddDeviceText, PFN_WDFPDOINITADDDEVICETEXT, kmdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText, wdf.wdfpdoinitadddevicetext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,9 @@ A locale identifier (LCID) that represents the locale of the Unicode strings. Fo
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,13 +127,16 @@ The driver could not allocate space to store the strings.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The framework stores the specified device text and passes it to the PnP manager in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551674">IRP_MN_QUERY_DEVICE_TEXT</a> request. The text that you supply should help the user to identify the device. The PnP manager sometimes displays the text while attempting to install additional drivers for the device.
@@ -141,10 +146,47 @@ You can call <b>WdfPdoInitAddDeviceText</b> multiple times, adding device text f
 The driver must call <b>WdfPdoInitAddDeviceText</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
+#### Examples
+
+The following code example provides Unicode strings for a device's location and description. The description includes an instance number. For a complete example that uses <b>WdfPdoInitAddDeviceText</b>, see the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_CONST_UNICODE_STRING(deviceLocation,L"Keyboard Filter\0" );
+DECLARE_UNICODE_STRING_SIZE(buffer, MAX_ID_LEN);
+
+status = RtlUnicodeStringPrintf(
+                                &amp;buffer,
+                                L"Keyboard_Filter_%02d",
+                                InstanceNo
+                                );
+if (!NT_SUCCESS(status)) {
+    goto Cleanup;
+}
+status = WdfPdoInitAddDeviceText(
+                                 pDeviceInit,
+                                 &amp;buffer,
+                                 &amp;deviceLocation,
+                                 0x409
+                                 );
+if (!NT_SUCCESS(status)) {
+    goto Cleanup;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitsetdefaultlocale.md">WdfPdoInitSetDefaultLocale</a>
+
+
 
  
 

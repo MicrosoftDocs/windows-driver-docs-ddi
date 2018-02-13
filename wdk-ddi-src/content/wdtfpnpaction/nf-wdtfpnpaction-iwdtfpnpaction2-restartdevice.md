@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 6023ca71-47ce-4add-891f-e125252ace08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RestartDevice method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice, RestartDevice, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2, RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_restartdevice, IWDTFPNPAction2::RestartDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method
+ms.keywords: dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice, IWDTFPNPAction2, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method, RestartDevice, RestartDevice method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2::RestartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 From a SetupDi interface perspective, this will translate to a DICS_PROPCHANGE.   
@@ -88,9 +91,12 @@ See the MSDN docs for details.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

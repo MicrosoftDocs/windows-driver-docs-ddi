@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01c0d9bb-5935-4b61-a04d-f9fcc5457152
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], netvista.ndis_nbl_media_specific_information, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, netvista.ndis_nbl_media_specific_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NBL_MEDIA_SPECIFIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION"
+req.typenames: NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION
 ---
 
 # _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION structure
@@ -94,6 +94,7 @@ A variable sized UCHAR array that contains the media-specific information.
 ## -remarks
 
 
+
 Any driver in an NDIS driver stack can allocate and manage media-specific information. The
     media-specific information is in a linked list of NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures that
     contain driver-allocated and driver-defined data. Structures in the list contain any media-specific
@@ -114,22 +115,35 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
+   NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
-   NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
    NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
+   NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_nbl_media_specific_information_ex.md">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
-   NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: whea\pshedfreememory.htm
 old-project: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PshedFreeMemory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml, whea.pshedfreememory, ntddk/PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications]
+ms.date: 2/8/2018
+ms.keywords: PshedFreeMemory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml, PshedFreeMemory function [WHEA Drivers and Applications], whea.pshedfreememory, ntddk/PshedFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PshedFreeMemory
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PshedFreeMemory function
@@ -75,14 +75,18 @@ A pointer to the block of memory being freed.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of memory that it previously allocated by calling the <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a> function.
+
 
 
 
@@ -90,9 +94,11 @@ A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of mem
 
 <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedFreeMemory function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedFreeMemory function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

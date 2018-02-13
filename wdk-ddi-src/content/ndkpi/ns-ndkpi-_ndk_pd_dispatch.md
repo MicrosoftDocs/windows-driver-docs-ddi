@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3BAD6CF9-8DCD-470F-9C2E-C7C9C0B29ADA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_pd_dispatch, NDK_PD_DISPATCH, _NDK_PD_DISPATCH, ndkpi/NDK_PD_DISPATCH, NDK_PD_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndk_pd_dispatch, _NDK_PD_DISPATCH, NDK_PD_DISPATCH structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_PD_DISPATCH, NDK_PD_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,29 +117,49 @@ The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privilege
 ## -remarks
 
 
+
 The <b>NDK_PD_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privileged_memory_region_token.md">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
 
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privileged_memory_region_token.md">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>
+
+
 
  
 

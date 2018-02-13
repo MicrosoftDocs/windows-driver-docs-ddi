@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f406e755-dc46-4228-b70f-3520d3cb46a3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, IDebugAdvanced3, FindSourceFileAndTokenWide method [Windows Debugging], debugger.findsourcefileandtokenwide, FindSourceFileAndTokenWide, IDebugAdvanced3::FindSourceFileAndTokenWide, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndTokenWide method, FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3 interface
+ms.keywords: FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3, FindSourceFileAndTokenWide, IDebugAdvanced3::FindSourceFileAndTokenWide, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndTokenWide method, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -143,7 +143,9 @@ Specifies the size in characters of the name of the file.  If <i>foundSize</i> i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,16 +173,20 @@ The method was successful.  However, the <i>Buffer</i> buffer was too small to h
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When the flag DEBUG_SRCFILE_SYMBOL_TOKEN is set in <i>Flags</i>, this method does not search for a file on the source path.  Instead, it looks up a variable associated with the file token provided in <i>FileToken</i>.  These variables are documented in the topic <a href="https://msdn.microsoft.com/library/windows/hardware/ff551958">Language Specification 1</a>.  For example, to retrieve the value of the variable SRCSRVCMD--the command to extract the source file from source control (also returned by the DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE function of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>)--set <i>File</i> to <b>%SRCSRVCMD%</b>.
 
 The engine uses the following steps--in order--to search for the file:  
+
 <ol>
 <li>
 If the source path contains any source servers and the flag DEBUG_FIND_SOURCE_NO_SRCSRV is not set, the source server in the source path is searched first.
@@ -204,21 +210,33 @@ The first match found is returned.
 The file <i>File</i> is looked up directly on the filing system.
 
 </li>
-</ol>For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556906">Source Path</a>.
+</ol>
+For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556906">Source Path</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
 
  
 

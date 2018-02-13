@@ -40,7 +40,7 @@ apiname:
 -	SetRenderTargets
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback
@@ -77,20 +77,18 @@ VOID APIENTRY SetRenderTargets(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param NumViews
 
 
-
 ### -param ClearSlots
 
 
-
 ### -param D3D10DDI_HDEPTHSTENCILVIEW
+
+
 
 
 
@@ -127,13 +125,16 @@ Note that the number that <i>ClearTargets</i> specifies is only an optimization 
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The user-mode display driver must set all render target surfaces and the depth stencil buffer atomically as one operation. 
@@ -150,11 +151,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

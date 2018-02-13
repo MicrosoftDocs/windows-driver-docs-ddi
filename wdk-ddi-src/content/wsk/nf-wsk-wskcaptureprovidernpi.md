@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, wsk/WskCaptureProviderNPI, WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi
+ms.keywords: WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, WskCaptureProviderNPI, netvista.wskcaptureprovidernpi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskCaptureProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -91,9 +91,6 @@ The time, in milliseconds, that the
 
 
 
-For more information about how this parameter is used, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
-     Kernel Application</a>.
 
 
 #### WSK_NO_WAIT
@@ -101,9 +98,14 @@ For more information about how this parameter is used, see
 Return from this function immediately if the provider NPI is not available.
 
 
+
 #### WSK_INFINITE_WAIT
 
 Wait until the provider NPI is available from the WSK subsystem.
+
+For more information about how this parameter is used, see 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
+     Kernel Application</a>.
 
 
 ### -param WskProviderNpi [out]
@@ -116,7 +118,9 @@ A pointer to the NPI returned by the WSK provider. This
 ## -returns
 
 
+
 <b>WskCaptureProviderNPI</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,11 +170,14 @@ The provider NPI capture failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For each call to 
@@ -200,13 +207,20 @@ Callers of the
 
 
 
+
 ## -see-also
+
+<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+
+
 
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
+
+
 <a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+
 
  
 

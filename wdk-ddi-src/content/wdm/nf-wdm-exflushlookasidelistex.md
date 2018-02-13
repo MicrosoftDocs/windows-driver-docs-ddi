@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx, ExFlushLookasideListEx, k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], wdm/ExFlushLookasideListEx, kernel.exflushlookasidelistex, k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, ExFlushLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 On return from this routine, the lookaside list is empty and the allocated storage for all its entries has been freed.
@@ -89,11 +92,16 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
+
 
  
 

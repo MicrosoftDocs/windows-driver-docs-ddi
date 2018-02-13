@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiTxDequeueIndication
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_TX_DEQUEUE_IND callback
@@ -105,21 +105,26 @@ Pointer to a pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFF
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 A subset of the parameters may not be applicable to a device. For instance, the maximum frame count may not apply to a store and forward device (message-based bus interface).
 
 The following parameters are ignored by TxMgr under these circumstances.
+
 <ul>
 <li><i>Quantum</i> if set to <b>WDI_TX_QUANTUM_INVALID</b> (0xFFFFFFFF)</li>
 <li><i>MaxNumFrames</i> if set to <b>WDI_TX_MAX_FRAME_COUNT_INVALID</b> (0xFF)</li>
 <li><i>Credit</i> if set to <b>WDI_TX_CREDIT_INVALID</b> (0xFFFF)</li>
-</ul>The TAL should provide accurate parameters whenever possible to guarantee fairness and avoid overwhelming TIL/target resources.  
+</ul>
+The TAL should provide accurate parameters whenever possible to guarantee fairness and avoid overwhelming TIL/target resources.  
 
 If the TAL does not have enough credit to dequeue a maximum cost frame, it should issue an <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a> instead of an <i>NdisWdiTxDequeueIndication</i>.
 
@@ -127,17 +132,28 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 
 
+
 ## -see-also
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
 
+
+
 <a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
 
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
+
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_dequeue_ind.md">NdisWdiTxDequeueIndication</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

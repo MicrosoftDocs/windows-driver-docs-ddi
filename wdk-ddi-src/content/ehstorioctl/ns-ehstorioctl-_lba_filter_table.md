@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_LBA_FILTER_TABLE, *PLBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE structure pointer [Storage Devices], ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table, LBA_FILTER_TABLE, PLBA_FILTER_TABLE"
+ms.keywords: PLBA_FILTER_TABLE, LBA_FILTER_TABLE, _LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE structure pointer [Storage Devices], *PLBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table, ehstorioctl/LBA_FILTER_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LBA_FILTER_TABLE
 product: Windows
 targetos: Windows
-req.typenames: LBA_FILTER_TABLE, *PLBA_FILTER_TABLE
+req.typenames: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE"
 ---
 
 # _LBA_FILTER_TABLE structure
@@ -115,6 +115,7 @@ The size in bytes of a filter table entry. This must be set to <b>sizeof</b>(LBA
 
 
 
+
 #### - LbaFilterOffset
 
 The offset of the LBA filter table from the beginning of this structure. This will typically be <b>sizeof</b>(LBA_FILTER_TABLE).
@@ -123,17 +124,23 @@ The offset of the LBA filter table from the beginning of this structure. This wi
 ## -remarks
 
 
+
 LBA ranges not included in any filter table entries are considered part of the global band for the device. These ranges are managed independently by the Enhanced Storage Class driver. Access for these ranges is determined by the settings in <i>GlobalReadLock</i> and <i>GlobalWriteLock</i>.
 
 Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a> structures. Each <b>LBA_FILTER_TABLE_ENTRY</b> defines an individual band whose access is controlled by the silo driver through the direction of band management requests forwarded by the Enhanced Storage Class driver. <b>LBA_FILTER_TABLE_ENTRY</b> structures can occur in any order, however, an LBA range in  a table entry must not overlap with an LBA range from another table entry. 
 
 
 
+
 ## -see-also
+
+<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a>
+
+
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
-<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a>
+
 
  
 

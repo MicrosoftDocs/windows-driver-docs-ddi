@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, GetIndexByNameWide method [Windows Debugging], debugger.getindexbynamewide, IDebugRegisters2::GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2, dbgeng/IDebugRegisters2::GetIndexByNameWide, GetIndexByNameWide
+ms.keywords: GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide method [Windows Debugging], debugger.getindexbynamewide, dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2, IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,9 @@ Receives the index of the register.
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,13 +111,17 @@ The register was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
 
 

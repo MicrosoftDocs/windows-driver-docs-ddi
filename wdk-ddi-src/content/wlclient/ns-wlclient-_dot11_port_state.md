@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlclient/DOT11_PORT_STATE, netvista.dot11_port_state, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PORT_STATE, *PDOT11_PORT_STATE, _DOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], DOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE
+ms.keywords: netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, _DOT11_PORT_STATE, PDOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE, *PDOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, DOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PORT_STATE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_PORT_STATE, *PDOT11_PORT_STATE
+req.typenames: "*PDOT11_PORT_STATE, DOT11_PORT_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -107,6 +107,7 @@ For more information about authorized port access, refer to Clause 6.3 of the IE
 ## -remarks
 
 
+
 The operating system passes in the current port state of the security session through the 
     <i>pPortState</i> parameter of the 
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
@@ -116,13 +117,18 @@ The operating system passes in the current port state of the security session th
 
 
 
+
 ## -see-also
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
-   Dot11ExtIhvPerformPostAssociate</a>
+
 
  
 

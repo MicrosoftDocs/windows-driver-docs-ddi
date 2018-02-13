@@ -40,7 +40,7 @@ apiname:
 -	IsWriteProtected
 product: Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
 ---
 
 # PCMCIA_IS_WRITE_PROTECTED callback
@@ -78,11 +78,14 @@ Pointer to the context for the interface routine.
 ## -returns
 
 
+
 The <b>PCMCIA_IS_WRITE_PROTECTED </b>interface routine returns <b>TRUE</b> if the memory card is write-protected, otherwise it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 A caller must set the <i>Context</i> parameter to the context that is specified by the PCMCIA bus driver. The PCMCIA bus driver returns the context for the interface routines in the <b>Context</b> member of the same PCMCIA_INTERFACE_STANDARD structure that contains the pointers to the interface routines. If the <i>Context</i> parameter is not valid, system behavior is not defined, and the system might halt.
@@ -91,11 +94,16 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
 
  
 

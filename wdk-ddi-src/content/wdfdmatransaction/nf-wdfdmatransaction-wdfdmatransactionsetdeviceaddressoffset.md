@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, wdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset, PFN_WDFDMATRANSACTIONSETDEVICEADDRESSOFFSET
+ms.keywords: WdfDmaTransactionSetDeviceAddressOffset method, WdfDmaTransactionSetDeviceAddressOffset, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, wdf.wdfdmatransactionsetdeviceaddressoffset, PFN_WDFDMATRANSACTIONSETDEVICEADDRESSOFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionSetDeviceAddressOffset
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -87,11 +87,14 @@ The offset of the register, from the <b>DeviceAddress</b> specified in <a href="
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 <b>WdfDmaTransactionSetDeviceAddressOffset</b> must be used with a DMA enabler that specifies a system-mode DMA profile.
@@ -107,10 +110,66 @@ To do so, the driver specifies the base address of the device's register file wh
 If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
 
+#### Examples
+
+The following code example initializes a DMA transaction.  It then sets the offset of the register that the system DMA controller will access, provides a transfer completion callback routine, and executes the DMA transaction.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>status = WdfDmaTransactionInitialize(
+                                     RequestContext-&gt;DmaTransaction,
+                                     EvtProgramDma,
+                                     direction,
+                                     mdl,
+                                     startingVa,
+                                     length
+                                     );
+
+if(!NT_SUCCESS(status)) {
+    goto Complete;
+}
+
+WdfDmaTransactionSetDeviceAddressOffset(
+                                        RequestContext-&gt;DmaTransaction,
+                                        READ_DATA_REGISTER_OFFSET
+                                        );
+
+WdfDmaTransactionSetTransferCompleteCallback(
+                                             RequestContext-&gt;DmaTransaction,
+                                             EvtDmaTransactionDmaTransferComplete,
+                                             RequestContext
+                                             );
+
+status = WdfDmaTransactionExecute(
+                                  RequestContext-&gt;DmaTransaction, 
+                                  RequestContext );
+
+if(!NT_SUCCESS(status)) {
+    goto Complete;
+}
+
+return status;
+
+Complete:
+
+WdfDmaTransactionRelease(
+                         RequestContext-&gt;DmaTransaction
+                         );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7754d47f-9e21-44c7-8a6f-141d18623ddf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, _NDIS_PROTOCOL_PAUSE_PARAMETERS, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml
+ms.keywords: NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml, _NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_protocol_pause_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PROTOCOL_PAUSE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS"
+req.typenames: NDIS_PROTOCOL_PAUSE_PARAMETERS, *PNDIS_PROTOCOL_PAUSE_PARAMETERS
 ---
 
 # _NDIS_PROTOCOL_PAUSE_PARAMETERS structure
@@ -90,10 +90,13 @@ Reserved.
 
 ### -field PauseReason
 
-<div class="alert"><b>Note</b>  This member is deprecated for NDIS 6.40 and later drivers.</div><div> </div>The value will always be NDIS_PAUSE_NDIS_INTERNAL.
+<div class="alert"><b>Note</b>  This member is deprecated for NDIS 6.40 and later drivers.</div>
+<div> </div>
+The value will always be NDIS_PAUSE_NDIS_INTERNAL.
 
 
 ## -remarks
+
 
 
 To specify the pause parameters for a binding, NDIS passes a pointer to an
@@ -104,11 +107,16 @@ To specify the pause parameters for a binding, NDIS passes a pointer to an
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
 
  
 

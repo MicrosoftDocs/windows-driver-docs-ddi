@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_activate_usb_bus.htm
 old-project: usbref
 ms.assetid: A9CBD73D-2A51-4925-9B88-7D2ED97A59DA
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usbfn_activate_usb_bus, IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS control code [Buses], IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS, usbfnioctl/IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,14 +86,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,6 +109,8 @@ If the request is successful, the USB function class extension (UFX) returns STA
 ## -remarks
 
 
+
 All class drivers must send  this IOCTL request before the device attempts to connect with the host.
+
 
 

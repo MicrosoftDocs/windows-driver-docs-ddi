@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03f1559c-83a7-478c-a616-ebe6002cb724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, ndis/NdisGetCurrentProcessorCpuUsage, netvista.ndisgetcurrentprocessorcpuusage
+ms.keywords: NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, NdisGetCurrentProcessorCpuUsage, ndis/NdisGetCurrentProcessorCpuUsage, netvista.ndisgetcurrentprocessorcpuusage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetCurrentProcessorCpuUsage
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetCurrentProcessorCpuUsage function
@@ -78,11 +78,14 @@ A pointer to a caller-supplied variable that receives the average usage of the c
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>NdisGetCurrentProcessorCpuUsage</b> function returns the average amount of activity on the current processor since the last boot, not the current usage level. This information is not particularly useful. Therefore, we recommend that you don't use <b>NdisGetCurrentProcessorCpuUsage</b> in your driver.
@@ -91,9 +94,12 @@ As an alternative, you can use <a href="..\ndis\nf-ndis-ndisgetcurrentprocessorc
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisgetcurrentprocessorcounts.md">NdisGetCurrentProcessorCounts</a>
+
+
 
  
 

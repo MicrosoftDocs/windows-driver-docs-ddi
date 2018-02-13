@@ -7,8 +7,8 @@ old-location: ifsk\file_provider_external_info_v0.htm
 old-project: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.file_provider_external_info_v0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
+ms.date: 2/7/2018
+ms.keywords: ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], *PFILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0, _FILE_PROVIDER_EXTERNAL_INFO_V0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_PROVIDER_EXTERNAL_INFO_V0
 product: Windows
 targetos: Windows
-req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
+req.typenames: "*PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0"
 ---
 
 # _FILE_PROVIDER_EXTERNAL_INFO_V0 structure
@@ -76,6 +76,7 @@ The version of the provider to use. Specify FILE_PROVIDER_CURRENT_VERSION.
 ### -field Algorithm
 
 Specifies the compression algorithm that is used to compress this file. Currently defined algorithms are: 
+
 <ul>
 <li>FILE_PROVIDER_COMPRESSION_XPRESS4K: Indicates that the data for the file should be compressed in 4kb chunks with the XPress algorithm. This algorithm is designed to be computationally lightweight, and provides for rapid access to data.</li>
 <li>FILE_PROVIDER_COMPRESSION_LZX: Indicates that the data for the file should be compressed in 32kb chunks with the LZX algorithm. This algorithm is designed to be highly compact, and provides for small footprint for infrequently accessed data.</li>
@@ -87,9 +88,11 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
 <a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_PROVIDER_EXTERNAL_INFO_V0 structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_PROVIDER_EXTERNAL_INFO_V0 structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

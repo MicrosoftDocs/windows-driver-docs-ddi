@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 9759c2b5-91c7-46e9-97dd-8268bf24db78
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PL2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], _L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], L2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION, bthddi/L2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bthddi/PL2CAP_CONFIG_OPTION"
+ms.keywords: PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], PL2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, L2CAP_CONFIG_OPTION, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bthddi/L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_OPTION, _L2CAP_CONFIG_OPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,6 +101,7 @@ A buffer that contains additional L2CAP channel parameters that are defined eith
 A combination of flags that determines which of this structure's buffer members contain
      parameters. Multiple flags can be set at once. Valid flag values are listed in the following table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -128,16 +129,23 @@ If set, the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
+
 
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
 
  
 

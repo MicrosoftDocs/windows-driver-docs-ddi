@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b7b2592-8a67-4eb0-8e87-354fd5f215c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILPOSITIONINFOTDSCDMA, rilapitypes/RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfotdscdma, RILPOSITIONINFOTDSCDMA"
+ms.keywords: RILPOSITIONINFOTDSCDMA, rilapitypes/RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfotdscdma, *LPRILPOSITIONINFOTDSCDMA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,6 +130,8 @@ Path loss of serving cell (46...158).
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

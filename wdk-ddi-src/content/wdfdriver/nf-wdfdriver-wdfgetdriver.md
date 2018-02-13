@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 423d4407-9e30-4625-bbe8-5465af29cfaa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdriver/WdfGetDriver, PFN_WDFGETDRIVER, DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, WdfGetDriver method, WdfGetDriver, kmdf.wdfgetdriver, wdf.wdfgetdriver
+ms.keywords: kmdf.wdfgetdriver, WdfGetDriver method, DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, PFN_WDFGETDRIVER, wdfdriver/WdfGetDriver, wdf.wdfgetdriver, WdfGetDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,16 +72,21 @@ WDFDRIVER WdfGetDriver(void);
 
 
 
+
 ## -returns
+
 
 
 <b>WdfGetDriver</b> returns a handle to a framework driver object, or <b>NULL</b> if the driver has not called <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b8f53d7-361c-40a3-b93c-39e653bd9032
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, dbgeng/IDebugControl::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, dbgeng/IDebugControl2::ExecuteCommandFile, IDebugControl interface [Windows Debugging], ExecuteCommandFile method, IDebugControl::ExecuteCommandFile, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl3::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl2::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, IDebugControl3, ExecuteCommandFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::ExecuteCommandFile, debugger.executecommandfile
+ms.keywords: IDebugControl::ExecuteCommandFile, IDebugControl2, ExecuteCommandFile method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], ExecuteCommandFile method, ExecuteCommandFile, dbgeng/IDebugControl3::ExecuteCommandFile, dbgeng/IDebugControl2::ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, ExecuteCommandFile method [Windows Debugging], IDebugControl3 interface, IDebugControl3, ExecuteCommandFile method [Windows Debugging], IDebugControl interface, IDebugControl2::ExecuteCommandFile, IDebugControl, debugger.executecommandfile, dbgeng/IDebugControl::ExecuteCommandFile, IDebugControl interface [Windows Debugging], ExecuteCommandFile method, IDebugControl2 interface [Windows Debugging], ExecuteCommandFile method, IDebugControl3::ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,7 +89,9 @@ Specifies execution options for the command.  The default options are to log the
 ## -returns
 
 
+
 This method might also return error values, including error values caused by a failure to open the specified file.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,26 +108,38 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method reads the specified file and execute the commands one line at a time using <a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>.  If an exception occurred while executing a line, the execution will continue with the next line.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

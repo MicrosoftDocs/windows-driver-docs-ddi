@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkvgpu_escape_read_pci_config, _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], DXGKVGPU_ESCAPE_READ_PCI_CONFIG
+ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config, _DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae230ff0-4fd9-417b-8ee0-80e3ca5a30ff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbPipeTypeInvalid, WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeControl, WdfUsbPipeTypeBulk, kmdf.wdf_usb_pipe_type, WdfUsbPipeTypeInvalid, DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, wdfusb/WDF_USB_PIPE_TYPE, _WDF_USB_PIPE_TYPE, wdfusb/WdfUsbPipeTypeBulk, WdfUsbPipeTypeInterrupt, WDF_USB_PIPE_TYPE enumeration, wdfusb/WdfUsbPipeTypeIsochronous, wdf.wdf_usb_pipe_type, WDF_USB_PIPE_TYPE, WdfUsbPipeTypeIsochronous, wdfusb/WdfUsbPipeTypeInterrupt
+ms.keywords: WDF_USB_PIPE_TYPE enumeration, wdfusb/WdfUsbPipeTypeInvalid, kmdf.wdf_usb_pipe_type, wdfusb/WDF_USB_PIPE_TYPE, WdfUsbPipeTypeBulk, wdfusb/WdfUsbPipeTypeInterrupt, WDF_USB_PIPE_TYPE, WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeIsochronous, wdf.wdf_usb_pipe_type, wdfusb/WdfUsbPipeTypeControl, WdfUsbPipeTypeInterrupt, DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, wdfusb/WdfUsbPipeTypeBulk, WdfUsbPipeTypeInvalid, _WDF_USB_PIPE_TYPE, WdfUsbPipeTypeIsochronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,13 +102,17 @@ The pipe is an interrupt pipe.
 ## -remarks
 
 
+
 The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
+
+
 
  
 

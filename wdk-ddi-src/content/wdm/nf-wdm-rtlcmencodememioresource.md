@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 69b978a2-3895-42fc-a87a-a97064d02e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, wdm/RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, RtlCmEncodeMemIoResource
+ms.keywords: wdm/RtlCmEncodeMemIoResource, kernel.rtlcmencodememioresource, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, RtlCmEncodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,9 @@ The starting address of the range of memory or I/O port addresses.
 ## -returns
 
 
+
 <b>RtlCmEncodeMemIoResource</b> returns an NTSTATUS value. This routine might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,14 +135,18 @@ One or more of the specified parameters are invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Addresses that are larger than 32 bits in length must satisfy certain alignment restrictions or else the routine returns STATUS_UNSUCCESSFUL.
+
 <table>
 <tr>
 <th>Address length</th>
@@ -176,15 +182,21 @@ Lowest 32 bits must be zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcmdecodememioresource.md">RtlCmDecodeMemIoResource</a>
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
 
  
 

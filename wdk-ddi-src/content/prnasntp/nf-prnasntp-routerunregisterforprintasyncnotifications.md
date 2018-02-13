@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67909e35-fae2-40b7-b39f-58576e932332
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: RouterUnregisterForPrintAsyncNotifications, spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml, RouterUnregisterForPrintAsyncNotifications function [Print Devices], print.routerunregisterforprintasyncnotifications, prnasntp/RouterUnregisterForPrintAsyncNotifications
+ms.keywords: spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml, RouterUnregisterForPrintAsyncNotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], prnasntp/RouterUnregisterForPrintAsyncNotifications, print.routerunregisterforprintasyncnotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ The registration handle returned by the <a href="..\prnasntp\nf-prnasntp-routerr
 ## -returns
 
 
+
 This function returns S_OK on success, and a standard COM error code otherwise.
+
 
 
 
 ## -see-also
 
 <a href="..\prnasntp\nf-prnasntp-routerregisterforprintasyncnotifications.md">RouterRegisterForPrintAsyncNotifications</a>
+
+
 
  
 

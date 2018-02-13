@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFRequestCompletionParams::GetInformation, IWDFRequestCompletionParams interface, GetInformation method, IWDFRequestCompletionParams, GetInformation method, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams::GetInformation, umdf.iwdfrequestcompletionparams_getinformation, GetInformation, GetInformation method, IWDFRequestCompletionParams interface, wdf.iwdfrequestcompletionparams_getinformation
+ms.keywords: GetInformation method, GetInformation, IWDFRequestCompletionParams interface, GetInformation method, wudfddi/IWDFRequestCompletionParams::GetInformation, IWDFRequestCompletionParams::GetInformation, GetInformation method, IWDFRequestCompletionParams interface, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams, wdf.iwdfrequestcompletionparams_getinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,16 +69,21 @@ ULONG_PTR GetInformation();
 
 
 
+
 ## -returns
+
 
 
 <b>GetInformation</b> returns information (for example, the number of bytes transferred) that is associated with the completion of the I/O request.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+
+
 
  
 

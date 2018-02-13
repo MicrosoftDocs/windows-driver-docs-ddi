@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 455ff9c9-89d5-4c79-8b01-f0d731ac8d5a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_sendsrl, HBA_SendSRL, HBA_SendSRL routine [Storage Devices], hbaapi/HBA_SendSRL, fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml
+ms.keywords: fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml, storage.hba_sendsrl, HBA_SendSRL, HBA_SendSRL routine [Storage Devices], hbaapi/HBA_SendSRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,7 +125,9 @@ Indicates the number of the domain controller associated with the loops to scan.
 ## -returns
 
 
+
 The <b>HBA_SendSRL</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SendSRL</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -175,7 +177,9 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -183,7 +187,11 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

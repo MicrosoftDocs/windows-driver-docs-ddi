@@ -40,7 +40,7 @@ apiname:
 -	AgpReserveVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -97,11 +97,14 @@ Is the location in which the video port driver writes a context handle that iden
 ## -returns
 
 
+
 <b>AgpReserveVirtual</b> returns the base address of the reserved virtual address range if successful; otherwise, returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If <b>ProcessHandle</b> is not 0, then <b>AgpReserveVirtual</b> reserves, but does not commit, a range of virtual addresses in the address space of a user-mode process. In that case, you must call <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> to map the reserved (user-mode) virtual addresses to physical addresses.
@@ -116,15 +119,24 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_vi
 
 
 
-## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
+## -see-also
 
 <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
 
+
+
 <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
+
+
+<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
+
+
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+
+
 
  
 

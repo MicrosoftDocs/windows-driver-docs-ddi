@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 114a6f0d-22ec-4306-81b4-56cf882f167f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER, DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST, DXGI_DDI_MODE_SCANLINE_ORDER, UMDisplayDriver_Dx10param_Structs_fe7ff8f4-48e3-4ec5-a401-35d729a17440.xml, display.dxgi_ddi_mode_scanline_order, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, DXGI_DDI_MODE_SCANLINE_ORDER enumeration [Display Devices], DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST
+ms.keywords: dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST, DXGI_DDI_MODE_SCANLINE_ORDER enumeration [Display Devices], DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, UMDisplayDriver_Dx10param_Structs_fe7ff8f4-48e3-4ec5-a401-35d729a17440.xml, DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER, DXGI_DDI_MODE_SCANLINE_ORDER, display.dxgi_ddi_mode_scanline_order, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,13 +93,17 @@ Each field contains half of a frame, and the even scan lines are displayed first
 ## -remarks
 
 
+
 The values of the DXGI_DDI_MODE_SCANLINE_ORDER enumeration type indicate whether the image that is displayed on the monitor contains the entire content of a video frame or only half of the content (that is, either the even or odd scan lines, which occur interchangeably). The values also indicate which field comes first in the order.
+
 
 
 
 ## -see-also
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1f8f13e0-b0d3-4c94-bd1f-0e42bb75142d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, mcd/ChangerInitializeElementStatus, ChangerInitializeElementStatus, storage.changerinitializeelementstatus, ChangerInitializeElementStatus function [Storage Devices]
+ms.keywords: ChangerInitializeElementStatus function [Storage Devices], mcd/ChangerInitializeElementStatus, chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, storage.changerinitializeelementstatus, ChangerInitializeElementStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ Pointer to the IRP.
 ## -returns
 
 
+
 <b>ChangerInitializeElementStatus</b> returns the status returned by the system port driver or one of the following values:
       
 
@@ -94,7 +95,9 @@ If the changer does not support initializing a range of elements of a particular
 
 
 
+
 ## -remarks
+
 
 
 This routine is required.
@@ -111,13 +114,20 @@ For a SCSI changer, <b>ChangerInitializeElementStatus</b> builds an SRB with a C
 
 
 
+
 ## -see-also
 
 <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
+
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_initialize_element_status.md">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
+
+
 
  
 

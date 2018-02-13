@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 097cd455-018e-46ef-8b8f-8eae7ea3eaff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaswritepropfloat, wiasWritePropFloat function [Imaging Devices], wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiamdef/wiasWritePropFloat, wiasWritePropFloat
+ms.keywords: wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiamdef/wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices], wiasWritePropFloat, image.wiaswritepropfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWritePropFloat
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -88,21 +88,33 @@ Specifies the floating-point property value to write to the item.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
 
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
+
+
 
  
 

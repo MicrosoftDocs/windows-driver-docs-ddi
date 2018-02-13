@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58c1d222-72c5-4b40-9ae5-f633bac599f0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsSetArchiveTail, kernel.clfssetarchivetail, wdm/ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml
+ms.keywords: Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, wdm/ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], kernel.clfssetarchivetail, ClfsSetArchiveTail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 ## -returns
 
 
+
 <b>ClfsSetArchiveTail</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The <i>plsnArchiveTail</i> value specifies where archiving starts in the log. The next archiving will start at <u>or before</u> this LSN.
@@ -96,15 +99,24 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog </a>
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
-<a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
+
 
 <a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog </a>
+
+
 
  
 

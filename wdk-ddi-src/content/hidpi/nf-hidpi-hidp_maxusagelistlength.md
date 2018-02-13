@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 90491024-f623-4528-8d37-4a6acb394473
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_MaxUsageListLength routine [Human Input Devices], HidP_MaxUsageListLength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml, hidpi/HidP_MaxUsageListLength, hid.hidp_maxusagelistlength
+ms.keywords: HidP_MaxUsageListLength, hid.hidp_maxusagelistlength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml, HidP_MaxUsageListLength routine [Human Input Devices], hidpi/HidP_MaxUsageListLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,24 +88,34 @@ Pointer to a top-level collection's <a href="https://msdn.microsoft.com/50ac2877
 ## -returns
 
 
+
 If successful, <b>HidP_MaxUsageListLength</b> returns the maximum number of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a> that <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a> can return for a specified type of HID report and a specified <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>. If the specified preparsed data or report type is not valid, the routine returns zero.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
+
+
 
  
 

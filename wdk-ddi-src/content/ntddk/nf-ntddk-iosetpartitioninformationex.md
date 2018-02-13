@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e663a9aa-ed83-4d85-b110-390f0c03a724
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, IoSetPartitionInformationEx, storage.iosetpartitioninformationex, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx
+ms.keywords: storage.iosetpartitioninformationex, IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, ntddk/IoSetPartitionInformationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoSetPartitionInformationEx
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoSetPartitionInformationEx function
@@ -87,11 +87,14 @@ A structure whose <i>PartitionType</i> member specifies the type for the partiti
 ## -returns
 
 
+
 If <b>IoSetPartitionInformationEx</b> returns STATUS_SUCCESS, the disk driver updates its notion of the partition type for this partition in its device extension.
 
 
 
+
 ## -remarks
+
 
 
 <b>IoSetPartitionInformationEx</b> must only be used by disk drivers. Other drivers should use the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a> disk I/O request instead.
@@ -110,17 +113,28 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 
 
+
 ## -see-also
-
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
-
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
-
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, wdf.wdfrequestwdmformatusingstacklocation, PFN_WDFREQUESTWDMFORMATUSINGSTACKLOCATION, DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, kmdf.wdfrequestwdmformatusingstacklocation
+ms.keywords: DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, PFN_WDFREQUESTWDMFORMATUSINGSTACKLOCATION, WdfRequestWdmFormatUsingStackLocation method, wdfrequest/WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,16 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION<
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfRequestWdmFormatUsingStackLocation</b> method copies the information that is supplied by the <i>Stack</i> parameter into the next IRP stack location in the request. 
@@ -103,10 +106,57 @@ If you want to set a completion routine for the request, your driver must call <
 For more information about <b>WdfRequestWdmFormatUsingStackLocation</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 
+#### Examples
+
+The following code example supplies an <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure for an I/O request, sets a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, and then sends the request to an I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IO_STACK_LOCATION  ioStackLocation;
+BOOLEAN sendStatus;
+...
+//
+// Initialize the IO_STACK_LOCATION structure here.
+//
+...
+//
+// Assign the IO_STACK_LOCATION structure to the request.
+//
+WdfRequestWdmFormatUsingStackLocation(
+                                      request,
+                                      &amp;ioStackLocation
+                                      );
+//
+// Assign a CompletionRoutine callback function.
+//
+WdfRequestSetCompletionRoutine(
+                               Request,
+                               RequestTimeoutComplete,
+                               NULL
+                               );
+//
+// Send the request.
+//
+sendStatus = WdfRequestSend(
+                            Request,
+                            target,
+                            NULL
+                            );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
+
 
  
 

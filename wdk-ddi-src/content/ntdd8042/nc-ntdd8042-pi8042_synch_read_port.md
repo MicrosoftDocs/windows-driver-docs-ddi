@@ -40,7 +40,7 @@ apiname:
 -	SynchReadPort
 product: Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
 ---
 
 # PI8042_SYNCH_READ_PORT callback
@@ -90,7 +90,9 @@ Not used.
 ## -returns
 
 
+
 The PI8042_SYNCH_READ_PORT callback returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,11 +120,14 @@ The hardware was not ready for a read access.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The PI8042_SYNCH_READ_PORT callback can only be used in a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a> callback. I8042prt specifies the read port callback in the <i>ReadPort</i> parameter that I8042prt inputs to a keyboard initialization routine.
@@ -131,11 +136,16 @@ The routine polls the hardware until a read is returned by the hardware or an in
 
 
 
+
 ## -see-also
 
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
 
+
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
+
+
 
  
 

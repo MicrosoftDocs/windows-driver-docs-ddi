@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks, debugger.idebugeventcallbacks_createthread, CreateThread method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::CreateThread, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, CreateThread method [Windows Debugging], IDebugEventCallbacks::CreateThread, ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread
+ms.keywords: CreateThread method [Windows Debugging], CreateThread, dbgeng/IDebugEventCallbacks::CreateThread, ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, IDebugEventCallbacks, CreateThread method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread, IDebugEventCallbacks interface [Windows Debugging], CreateThread method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,15 +87,19 @@ Specifies the starting location in the target's virtual address space of the thr
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 
 
 ## -remarks
 
 
+
 This method is only called by the engine if the DEBUG_EVENT_CREATE_THREAD flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: F7B4E80F-AB83-4E0F-9933-D953744A1970
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], *PACPI_GET_DEVICE_SPECIFIC_DATA, _ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data
+ms.keywords: PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], *PACPI_GET_DEVICE_SPECIFIC_DATA, _ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_GET_DEVICE_SPECIFIC_DATA
 product: Windows
 targetos: Windows
-req.typenames: ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
+req.typenames: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA"
 ---
 
 # _ACPI_GET_DEVICE_SPECIFIC_DATA structure

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 60346c38-0ee2-4f69-8fef-0a47a6375430
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFDriverSetupAction2.UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UnInstallDriverPermanently, Microsoft::WDTF::IWDTFDriverSetupAction2::UnInstallDriverPermanently, IWDTFDriverSetupAction2::UnInstallDriverPermanently, dtf.iwdtfdriversetupaction2_uninstalldriverpermanently, UnInstallDriverPermanently, IWDTFDriverSetupAction2, UnInstallDriverPermanently method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], UnInstallDriverPermanently method
+ms.keywords: wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UnInstallDriverPermanently, IWDTFDriverSetupAction2::UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface, Microsoft::WDTF::IWDTFDriverSetupAction2::UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], IWDTFDriverSetupAction2, dtf.iwdtfdriversetupaction2_uninstalldriverpermanently, UnInstallDriverPermanently, Microsoft.WDTF.IWDTFDriverSetupAction2.UnInstallDriverPermanently, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], UnInstallDriverPermanently method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,16 +72,21 @@ HRESULT UnInstallDriverPermanently();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfdriversetupdeviceaction\nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2.md">IWDTFDriverSetupAction2</a>
+
+
 
  
 

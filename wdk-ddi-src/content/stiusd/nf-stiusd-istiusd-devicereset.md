@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f6944297-9aca-4912-a398-c5f3a3e8d4b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD, DeviceReset, DeviceReset method [Imaging Devices], IStiUSD interface, IStiUSD::DeviceReset, stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, DeviceReset method [Imaging Devices], IStiUSD interface [Imaging Devices], DeviceReset method, stiusd/IStiUSD::DeviceReset, image.istiusd_devicereset
+ms.keywords: DeviceReset method [Imaging Devices], stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, IStiUSD::DeviceReset, DeviceReset, image.istiusd_devicereset, stiusd/IStiUSD::DeviceReset, IStiUSD, DeviceReset method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], DeviceReset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ STDMETHODIMP DeviceReset();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543733">IStiDevice::DeviceReset</a>
+
+
 
  
 

@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY Rename(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_rename.md">D3DDDIARG_RENAME</a> structure that describes the resource or surface within a resource to rename with a new allocation.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY Rename(
 ## -returns
 
 
+
 <i>Rename</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +123,14 @@ The resource is successfully renamed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 On multiple-processor computers, the Microsoft Direct3D runtime calls the user-mode display driver's <i>Rename</i> function from a worker thread instead of from the main application thread. The runtime calls <i>Rename</i>, at most, once for each successful call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function with the <b>Discard</b> bit-field flag set in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a> structure that the <i>pData</i> parameter of <i>LockAsync</i> points to. 
@@ -134,17 +141,28 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_rename.md">D3DDDIARG_RENAME</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_rename.md">D3DDDIARG_RENAME</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
+
+
 
  
 

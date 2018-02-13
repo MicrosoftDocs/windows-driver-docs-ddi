@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 41b159b6-f365-4ade-b5d4-e7662c75e866
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassQueryMasterClock, stream.streamclassquerymasterclock, StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml
+ms.keywords: stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock, strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, StreamClassQueryMasterClock routine [Streaming Media Devices], StreamClassQueryMasterClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,6 +90,7 @@ Specifies what time function to query the master clock for. See <a href="..\strm
 ### -param ClockCallbackRoutine [in]
 
 Specifies the routine to which the class driver passes the results. The function prototype must be:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,11 +105,14 @@ Specifies the routine to which the class driver passes the results. The function
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The class driver queries the master clock and passes the results in the <i>TimeContext</i> parameter (of type <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>) of the callback. In particular, it sets the <b>Time</b> member of this structure to the time value requested in the <i>TimeFunction</i> parameter, the current system time in the <b>SystemTime</b> member of the same structure, and the minidriver's device extension in the <b>HwDeviceExtension</b> member of that structure.
@@ -119,13 +123,20 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 
 
+
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
 
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+
+
+<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
+
+
 
  
 

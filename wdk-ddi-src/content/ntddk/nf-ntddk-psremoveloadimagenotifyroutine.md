@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5491f9fb-8f87-41ed-9629-18318554ad90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psremoveloadimagenotifyroutine, PsRemoveLoadImageNotifyRoutine, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, ntddk/PsRemoveLoadImageNotifyRoutine
+ms.keywords: PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], PsRemoveLoadImageNotifyRoutine, kernel.psremoveloadimagenotifyroutine, k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, ntddk/PsRemoveLoadImageNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsRemoveLoadImageNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsRemoveLoadImageNotifyRoutine function
@@ -75,20 +75,26 @@ Pointer to the callback routine that the driver has previously registered throug
 ## -returns
 
 
+
 <b>PsRemoveLoadImageNotifyRoutine</b> returns STATUS_SUCCESS if it successfully removes the callback routine, or STATUS_PROCEDURE_NOT_FOUND if the value of <i>NotifyRoutine</i> does not match any registered callback routine.
+
 
 
 
 ## -remarks
 
 
+
 If the driver's callback routine is currently running, <b>PsRemoveLoadImageNotifyRoutine</b> waits until the callback routine exits before removing it. Therefore, the callback routine itself must not call <b>PsRemoveLoadImageNotifyRoutine</b>. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+
+
 
  
 

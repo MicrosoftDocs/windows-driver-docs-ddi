@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 143eca3c-fa20-4731-bdfe-c48b929febcb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getnotificationfilterstate, RIL_GetNotificationFilterState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetNotificationFilterState, RIL_GetNotificationFilterState
+ms.keywords: RIL_GetNotificationFilterState, rilapi/RIL_GetNotificationFilterState, RIL_GetNotificationFilterState method [Network Drivers Starting with Windows Vista], netvista.ril_getnotificationfilterstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ HRESULT  RIL_GetNotificationFilterState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

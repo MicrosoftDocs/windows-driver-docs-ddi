@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfioresourcelistinsertdescriptor, wdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor, PFN_WDFIORESOURCELISTINSERTDESCRIPTOR, WdfIoResourceListInsertDescriptor method, wdfresource/WdfIoResourceListInsertDescriptor, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml
+ms.keywords: PFN_WDFIORESOURCELISTINSERTDESCRIPTOR, WdfIoResourceListInsertDescriptor method, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, wdfresource/WdfIoResourceListInsertDescriptor, kmdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor, wdf.wdfioresourcelistinsertdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,7 +91,9 @@ A zero-based value that is used as an index into the set of resource descriptors
 ## -returns
 
 
+
 <b>WdfIoResourceListInsertDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,7 +143,8 @@ The value that the <i>Index</i> parameter specifies was too large.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
@@ -149,7 +152,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfIoResourceListInsertDescriptor</b> method inserts the resource descriptor that the <i>Descriptor</i> parameter points to into the logical configuration that the <i>ResourceList</i> parameter specifies, in front of the resource descriptor that the <i>Index</i> value identifies. 
@@ -161,12 +166,52 @@ The framework copies the contents of the <a href="..\wdm\ns-wdm-_io_resource_des
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example initializes a resource descriptor and adds the descriptor to the end of a logical configuration.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IO_RESOURCE_DESCRIPTOR descriptor;
+
+RtlZeroMemory(&amp;descriptor, sizeof(descriptor));
+
+descriptor.Option = 0;
+descriptor.Type = CmResourceTypePort;
+descriptor.ShareDisposition = CmResourceShareDeviceExclusive;
+descriptor.Flags = CM_RESOURCE_PORT_IO|CM_RESOURCE_PORT_16_BIT_DECODE;
+descriptor.u.Port.Length = 1;
+descriptor.u.Port.Alignment = 0x01;
+descriptor.u.Port.MinimumAddress.QuadPart = 0;
+descriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
+
+status = WdfIoResourceListInsertDescriptor(
+                                           logConfig,
+                                           &amp;descriptor,
+                                           WDF_INSERT_AT_END
+                                           );
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistappenddescriptor.md">WdfIoResourceListAppendDescriptor</a>
 
+
+
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

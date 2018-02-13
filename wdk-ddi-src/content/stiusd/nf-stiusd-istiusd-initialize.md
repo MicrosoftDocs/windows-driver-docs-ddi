@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::Initialize, IStiUSD, stiusd/IStiUSD::Initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, Initialize method [Imaging Devices], IStiUSD interface, image.istiusd_initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method, Initialize method [Imaging Devices]
+ms.keywords: IStiUSD::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStiUSD interface, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, IStiUSD interface [Imaging Devices], Initialize method, IStiUSD, image.istiusd_initialize, Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,11 +93,14 @@ Caller-supplied pointer to the <a href="https://msdn.microsoft.com/6d98f5d7-c471
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiUSD::Initialize</b> method, which is exported by still image minidrivers, is the first <b>IStiUSD</b> method called after a minidriver has been loaded. The method must initialize the driver and device.
@@ -113,5 +116,42 @@ For devices on shared ports (such as serial port devices), opening the port in t
 The <b>IStiUSD::Initialize</b> method should validate the received STI version number and return an error if the received version does not match the driver's version.
 
 The following example opens a device port only if a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff542942">IStiDeviceControl::GetMyDeviceOpenMode</a> indicates an application has opened the device for data transfers. Such code might be used for a device that cannot support multiple <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> calls, such as a serial port device.
+
+
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP MyUSDDevice::Initialize(
+    PSTIDEVICECONTROL pDcb,
+    DWORD             dwStiVersion,
+    HKEY              hParametersKey)
+{
+    HRESULT hres = STI_OK;
+    DWORD   dwMode = 0;
+    if (!pDcb) 
+    {
+        hres = STIERR_INVALID_PARAM;
+    }
+    else 
+    {
+        // Store IStiDeviceControl object pointer
+        m_pDcb = pDcb;
+        m_pDcb-&gt;AddRef();
+        // If we opened in data mode - should open device right now,
+        // otherwise postpone open till lock
+        m_pDcb-&gt;GetMyDeviceOpenMode(&amp;dwMode);
+        if (dwMode &amp; STI_DEVICE_CREATE_DATA)
+            hres = OpenMyPort();
+    }
+    return hres;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3f1cd0bf-13ce-49bc-a48e-dc3d89f3c7d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiadrvitem_additemtofolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder, AddItemToFolder method [Imaging Devices], IWiaDrvItem::AddItemToFolder, AddItemToFolder method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, AddItemToFolder, IWiaDrvItem, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml
+ms.keywords: IWiaDrvItem::AddItemToFolder, AddItemToFolder, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::AddItemToFolder, IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, image.iwiadrvitem_additemtofolder, AddItemToFolder method [Imaging Devices], AddItemToFolder method [Imaging Devices], IWiaDrvItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT AddItemToFolder(
 
 
 
+
 #### - pIParent [in, optional]
 
 Points to the IWiaDrvItem parent folder item.
@@ -82,14 +83,18 @@ Points to the IWiaDrvItem parent folder item.
 ## -returns
 
 
+
 If the method succeeds, it returns S_OK. If the method fails because an invalid <i>pIParent</i> parameter is passed, it returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 Minidrivers typically use the AddItemToFolder method to add an item to a parent folder item in a driver item tree. The parent folder item is pointed to by the parameter <i>pIParent</i>. The item pointed to by <i>pIParent</i> must be a folder.
+
 
 
 
@@ -97,7 +102,11 @@ Minidrivers typically use the AddItemToFolder method to add an item to a parent 
 
 <a href="https://msdn.microsoft.com/f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4">RemoveItemFromFolder</a>
 
+
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
 
  
 

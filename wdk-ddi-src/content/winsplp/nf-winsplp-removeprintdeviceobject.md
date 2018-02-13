@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.removeprintdeviceobject, RemovePrintDeviceObject, winsplp/RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices]
+ms.keywords: RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject, RemovePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,22 +78,28 @@ The HANDLE to the device object to be removed. This should be a device object th
 ## -returns
 
 
+
 The <b>RemovePrintDeviceObject</b> function returns S_OK, if the device object was removed successfully. Otherwise it returns an error. 
 
 For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), if an invalid device object handle was used to call the function. And note that, regardless of the return value, the device object HANDLE becomes invalid after a call to <b>RemovePrintDeviceObject</b> has completed.
 
 
 
+
 ## -remarks
+
 
 
 Call <b>RemovePrintDeviceObject</b> to remove the device object for a printer that has been deleted. When the spooler services stops, all the device objects are automatically deleted, so it is not required to call <b>RemovePrintDeviceObject</b> for each printer device object.
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
+
+
 
  
 

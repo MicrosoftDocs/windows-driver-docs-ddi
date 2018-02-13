@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5743d84c-6132-4058-b517-250b5de9a6b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortInt10, VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, VideoPortInt10 function [Display Devices], display.videoportint10, video/VideoPortInt10
+ms.keywords: video/VideoPortInt10, VideoPortInt10 function [Display Devices], display.videoportint10, VideoPortInt10, VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Pointer to a structure containing values for the x86 registers that should be se
 ## -returns
 
 
+
 <b>VideoPortInt10</b> returns NO_ERROR if it successfully called the given BIOS INT10 routine; otherwise, it returns an error status.
 
 
 
+
 ## -remarks
+
 
 
 Generally, VGA-compatible miniport drivers, which support full-screen MS-DOS applications on x86-based machines, call <b>VideoPortInt10</b>. Such a driver's <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function must have set up the <b>VdmPhysicalVideoMemoryAddress</b> and <b>VdmPhysicalVideoMemoryLength</b> for the range in the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure.
@@ -97,15 +100,24 @@ Because <b>VideoPortInt10</b> interprets the <i>BiosArgument</i> parameter value
 
 
 
+
 ## -see-also
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 <a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
 
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
 
  
 

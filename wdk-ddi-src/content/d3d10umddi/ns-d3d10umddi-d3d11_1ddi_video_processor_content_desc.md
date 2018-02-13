@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f624ffc4-3313-46a3-9231-15a54c3f2791
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_processor_content_desc, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC structure [Display Devices]
+ms.keywords: display.d3d11_1ddi_video_processor_content_desc, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC structure [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,17 @@ A member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
+
+
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
 
-<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
 
  
 

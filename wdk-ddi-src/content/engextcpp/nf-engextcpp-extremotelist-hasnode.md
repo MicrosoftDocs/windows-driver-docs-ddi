@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 412a77c8-eb10-43c5-bc45-2c61858463a7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: HasNode method [Windows Debugging], ExtRemoteList, HasNode, HasNode method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_hasnode, ExtRemoteList class [Windows Debugging], HasNode method, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList::HasNode
+ms.keywords: HasNode, HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList::HasNode, HasNode method [Windows Debugging], debugger.extremotelist_hasnode, ExtRemoteList class [Windows Debugging], HasNode method, ExtRemoteList, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.HasNode
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::HasNode method
@@ -66,14 +66,18 @@ bool HasNode();
 
 
 
+
 ## -returns
+
 
 
 <b>HasNode</b> returns <code>true</code> if there is a current item in the list iteration, and <code>false</code> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 Before you call <b>HasNode</b>, you must initialize the list for iteration by calling <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a> or <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>.
@@ -82,11 +86,16 @@ If this method returns <code>true</code>, <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544129">ExtRemoteList::GetNodeOffset</a>
 
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
+
+
 
  
 

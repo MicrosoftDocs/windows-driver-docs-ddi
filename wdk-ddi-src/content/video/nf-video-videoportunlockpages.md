@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c233d4e1-285c-4f74-bb37-808cf855b19c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortUnlockPages, VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, VideoPortUnlockPages function [Display Devices], VideoPortUnlockPages, display.videoportunlockpages
+ms.keywords: VideoPort_Functions_f7a233cf-3db5-49db-94e9-d2c6ec96f05d.xml, video/VideoPortUnlockPages, VideoPortUnlockPages, display.videoportunlockpages, VideoPortUnlockPages function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,14 @@ Specifies a non-<b>NULL</b> DMA handle.
 ## -returns
 
 
+
 <b>VideoPortUnlockPages</b> always returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
@@ -97,9 +100,12 @@ This function can be called only within the context of a DMA IOCTL. It cannot be
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
+
+
 
  
 

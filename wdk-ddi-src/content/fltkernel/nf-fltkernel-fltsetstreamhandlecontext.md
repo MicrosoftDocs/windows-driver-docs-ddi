@@ -7,8 +7,8 @@ old-location: ifsk\fltsetstreamhandlecontext.htm
 old-project: ifsk
 ms.assetid: 92c75e9c-ea29-40f5-84b2-bfe406075717
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltsetstreamhandlecontext, FltSetStreamHandleContext, fltkernel/FltSetStreamHandleContext, FltApiRef_p_to_z_371045bc-91b4-4695-a44a-7ef4fd5c1bd7.xml, FltSetStreamHandleContext routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FltSetStreamHandleContext routine [Installable File System Drivers], FltSetStreamHandleContext, ifsk.fltsetstreamhandlecontext, fltkernel/FltSetStreamHandleContext, FltApiRef_p_to_z_371045bc-91b4-4695-a44a-7ef4fd5c1bd7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,9 +88,11 @@ A flag that specifies details of the operation to be performed. This parameter m
 
 
 
+
 #### FLT_SET_CONTEXT_REPLACE_IF_EXISTS
 
 If a context is already set for this <i>Instance</i>, replace it with <i>NewContext</i>. Otherwise, insert <i>NewContext</i> into the list of contexts for the stream handle. 
+
 
 
 #### FLT_SET_CONTEXT_KEEP_IF_EXISTS
@@ -111,7 +113,9 @@ A pointer to a caller-allocated variable that receives the address of the existi
 ## -returns
 
 
+
 The <b>FltSetStreamHandleContext</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -184,11 +188,14 @@ The file system does not support per-stream contexts for this file stream. This 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>FltSetStreamHandleContext</b> routine adds, removes, or replaces a context for a minifilter driver instance on a stream handle. A minifilter driver can attach one context per minifilter driver instance to the stream handle. 
@@ -215,21 +222,32 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
+
 ## -see-also
 
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletestreamhandlecontext.md">FltDeleteStreamHandleContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetStreamHandleContext routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetStreamHandleContext routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

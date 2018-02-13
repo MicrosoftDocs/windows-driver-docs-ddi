@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d7deda33-b68a-4413-a7fc-2988e97906e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCATRINFO, *LPRILUICCATRINFO, netvista.riluiccatrinfo_2, RILUICCATRINFO
+ms.keywords: netvista.riluiccatrinfo_2, *LPRILUICCATRINFO, RILUICCATRINFO, rilapitypes/RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,5 @@ typedef struct _RILUICCATRINFO {
 ### -field dwATRlength
 
 
-
 ### -field bATR
-
 

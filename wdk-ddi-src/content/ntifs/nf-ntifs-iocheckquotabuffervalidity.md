@@ -7,8 +7,8 @@ old-location: ifsk\iocheckquotabuffervalidity.htm
 old-project: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ntifs/IoCheckQuotaBufferValidity, ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml
+ms.date: 2/7/2018
+ms.keywords: IoCheckQuotaBufferValidity routine [Installable File System Drivers], IoCheckQuotaBufferValidity, ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,14 +87,18 @@ A variable to receive the offset of the offending entry in the quota buffer if a
 ## -returns
 
 
+
 <b>IoCheckQuotaBufferValidity</b> returns STATUS_SUCCESS if the quota buffer is valid. Otherwise, it returns STATUS_DATATYPE_MISALIGNMENT if the quota buffer is not ULONG-aligned. For all other errors, including misalignment of entries in the buffer, <b>IoCheckQuotaBufferValidity</b> returns STATUS_QUOTA_LIST_INCONSISTENT.
+
 
 
 
 ## -remarks
 
 
+
 <b>IoCheckQuotaBufferValidity</b> checks each FILE_QUOTA_INFORMATION entry in the specified quota buffer to ensure that the following conditions are met:
+
 <ul>
 <li>
 The entire entry must fall within the buffer.
@@ -112,7 +116,9 @@ The value of <b>SidLength</b> must match the length in bytes of the value of <b>
 For all entries except the last, the value of <b>NextEntryOffset</b> must be greater than zero and must fall on a ULONG boundary.
 
 </li>
-</ul>In addition, <b>IoCheckQuotaBufferValidity</b> checks the quota buffer to ensure that the following conditions are met:
+</ul>
+In addition, <b>IoCheckQuotaBufferValidity</b> checks the quota buffer to ensure that the following conditions are met:
+
 <ul>
 <li>
 The buffer must be ULONG-aligned.
@@ -126,7 +132,9 @@ The length passed in <i>QuotaLength</i> matches the actual length of the buffer.
 The actual buffer length is nonnegative.
 
 </li>
-</ul>To be valid, the quota buffer must meet all of these conditions.
+</ul>
+To be valid, the quota buffer must meet all of these conditions.
+
 
 
 
@@ -134,13 +142,19 @@ The actual buffer length is nonnegative.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+
+
 
 <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCheckQuotaBufferValidity routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCheckQuotaBufferValidity routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

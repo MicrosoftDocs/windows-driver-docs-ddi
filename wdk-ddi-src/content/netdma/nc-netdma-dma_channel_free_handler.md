@@ -87,11 +87,14 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -111,11 +114,16 @@ NetDMA calls
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
 
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/InterfaceTypeUndefined, INTERFACE_TYPE, *PINTERFACE_TYPE, wdm/PCIBus, wdm/Internal, MaximumInterfaceType, InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], VMEBus, Isa, Eisa, wdm/PCMCIABus, ACPIBus, PCMCIABus, MPSABus, kernel.interface_type, wdm/NuBus, wdm/Vmcs, wdm/Eisa, wdm/MicroChannel, wdm/TurboChannel, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PINTERFACE_TYPE, Internal, wdm/InternalPowerBus, PINTERFACE_TYPE, wdm/VMEBus, wdm/INTERFACE_TYPE, wdm/PNPISABus, MPIBus, wdm/MPIBus, wdm/MaximumInterfaceType, wdm/MPSABus, wdm/ProcessorInternal, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, PNPBus, PCIBus, MicroChannel, wdm/ACPIBus, wdm/CBus, PNPISABus, InterfaceTypeUndefined, CBus, wdm/Isa, wdm/PNPBus, _INTERFACE_TYPE, Vmcs, NuBus, ProcessorInternal, TurboChannel
+ms.keywords: MPSABus, CBus, wdm/MPSABus, wdm/CBus, wdm/InternalPowerBus, wdm/Internal, wdm/TurboChannel, ProcessorInternal, PCMCIABus, wdm/INTERFACE_TYPE, NuBus, Eisa, _INTERFACE_TYPE, TurboChannel, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ACPIBus, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PNPISABus, PNPBus, wdm/VMEBus, wdm/PNPBus, wdm/Vmcs, MicroChannel, wdm/InterfaceTypeUndefined, INTERFACE_TYPE, wdm/PCMCIABus, PINTERFACE_TYPE, wdm/Isa, wdm/MaximumInterfaceType, Isa, wdm/PCIBus, MaximumInterfaceType, Vmcs, wdm/NuBus, Internal, VMEBus, PCIBus, PNPISABus, wdm/MicroChannel, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/ACPIBus, wdm/Eisa, kernel.interface_type, wdm/ProcessorInternal, InternalPowerBus, wdm/PINTERFACE_TYPE, *PINTERFACE_TYPE, MPIBus, InterfaceTypeUndefined, wdm/MPIBus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -189,17 +189,29 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
 
+
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
+
 <a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
+
+
 
  
 

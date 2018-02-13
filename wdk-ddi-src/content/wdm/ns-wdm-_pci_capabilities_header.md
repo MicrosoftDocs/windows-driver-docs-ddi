@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER, wdm/PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], _PCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, wdm/PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml
+ms.keywords: "_PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER, wdm/PCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER structure pointer [Buses], PCI.pci_capabilities_header, wdm/PPCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_CAPABILITIES_HEADER
 product: Windows
 targetos: Windows
-req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
+req.typenames: "*PPCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -72,6 +72,7 @@ typedef struct _PCI_CAPABILITIES_HEADER {
 ### -field CapabilityID
 
 Contains an 8-bit integer that indicates the capability ID. The capability ID identifies the type of capability structure that follows this header. The <b>CapabilityID</b> member must have one of the following values:
+
 <table>
 <tr>
 <th>Capability ID</th>
@@ -247,7 +248,8 @@ Indicates that the capability structure that follows the header defines an optio
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Next
@@ -258,17 +260,25 @@ Contains an offset into the PCI configuration space that indicates the location 
 ## -remarks
 
 
+
 All PCI Capability structures have the header described by PCI_CAPABILITIES_HEADER. 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
+
+
 
  
 

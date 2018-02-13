@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 960710f7-15b1-4815-a33a-0e903d0a4193
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WDFMEMORY_OFFSET, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, wdf.wdfmemory_offset_umdf, *PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, _WDFMEMORY_OFFSET, WDFMEMORY_OFFSET, umdf.wdfmemory_offset, wudfddi_types/PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, PWDFMEMORY_OFFSET
+ms.keywords: WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, PWDFMEMORY_OFFSET, wdf.wdfmemory_offset_umdf, wudfddi_types/WDFMEMORY_OFFSET, wudfddi_types/PWDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET, umdf.wdfmemory_offset, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, WDFMEMORY_OFFSET structure, _WDFMEMORY_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDFMEMORY_OFFSET
 product: Windows
 targetos: Windows
-req.typenames: "*PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET"
+req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
 req.product: Windows 10 or later.
 ---
 
@@ -85,13 +85,17 @@ The size, in bytes, of the information that is accessed in the memory block.
 ## -remarks
 
 
+
 A UMDF driver supplies a pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560145">IWDFMemory::CopyFromMemory</a> method to describe information to copy from a memory block.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560145">IWDFMemory::CopyFromMemory</a>
+
+
 
  
 

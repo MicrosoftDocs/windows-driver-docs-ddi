@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4178d9ad-5dd1-40c2-ba23-7625d424cd6d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwReadOnlyEnlistment, wdm/NtReadOnlyEnlistment, ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml, NtReadOnlyEnlistment, wdm/ZwReadOnlyEnlistment, kernel.zwreadonlyenlistment
+ms.keywords: kernel.zwreadonlyenlistment, wdm/ZwReadOnlyEnlistment, ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml, ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], ZwReadOnlyEnlistment, NtReadOnlyEnlistment, wdm/NtReadOnlyEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>ZwReadOnlyEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +135,16 @@ The caller does not have appropriate access to the enlistment object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Your component cannot call <b>ZwReadOnlyEnlistment</b> for a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior enlistment</a>.
@@ -152,13 +157,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
 
  
 

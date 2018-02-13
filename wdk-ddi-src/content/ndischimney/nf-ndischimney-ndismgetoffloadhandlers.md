@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a78acf5d-07ec-487c-97bd-daca8d08863c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml, netvista.ndismgetoffloadhandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], ndischimney/NdisMGetOffloadHandlers, NdisMGetOffloadHandlers
+ms.keywords: ndischimney/NdisMGetOffloadHandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml, NdisMGetOffloadHandlers, netvista.ndismgetoffloadhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,12 +89,13 @@ A chimney type that is one of the following NDIS_CHIMNEY_OFFLOAD_TYPE values:
 
 
 
-All other NDIS_CHIMNEY_OFFLOAD_TYPE values are currently reserved.
 
 
 #### NdisTcpChimneyOffload
 
 The TCP chimney offload type.
+
+All other NDIS_CHIMNEY_OFFLOAD_TYPE values are currently reserved.
 
 
 ### -param OffloadHandlers [out]
@@ -106,6 +107,7 @@ A pointer to a variable supplied by the offload target. The size of this variabl
      structure that contains the entry points. The NDIS_OFFLOAD_EVENT_HANDLERS structure is formatted as
      follows:
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -117,7 +119,9 @@ A pointer to a variable supplied by the offload target. The size of this variabl
 } NDIS_OFFLOAD_EVENT_HANDLERS, *PNDIS_OFFLOAD_EVENT_HANDLERS;</pre>
 </td>
 </tr>
-</table></span></div>This structure contains the following member:
+</table></span></div>
+This structure contains the following member:
+
 
 
 
@@ -131,7 +135,9 @@ Specifies an NDIS object header, which is formatted as an
 ## -returns
 
 
+
 <b>NdisMGetOffloadHandlers</b> can return either of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -162,11 +168,14 @@ NDIS does not support the chimney type specified by the offload target. In this 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The offload target calls this function from its 
@@ -193,6 +202,7 @@ If the offload target supports the specified
     <b>Revision</b> number, it casts the 
     <i>OffloadHandlers</i> pointer to a pointer to the appropriate chimney-specific structure type. The
     following table indicates the chimney-specific structure for each chimney type.
+
 <table>
 <tr>
 <th><i>ChimneyType</i></th>
@@ -211,7 +221,8 @@ If the offload target supports the specified
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For example, for the 
     <b>NdisTcpChimneyOffload</b> chimney type, the offload target casts the 
@@ -225,16 +236,25 @@ The offload target copies the entry points from the chimney-specific structure i
 
 
 
+
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_tcp_offload_event_handlers.md">
    NDIS_TCP_OFFLOAD_EVENT_HANDLERS</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

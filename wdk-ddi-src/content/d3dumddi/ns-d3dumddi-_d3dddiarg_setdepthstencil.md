@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9d0e9762-060e-40bb-9914-3577a086e8e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_setdepthstencil, d3dumddi/D3DDDIARG_SETDEPTHSTENCIL, D3DDDIARG_SETDEPTHSTENCIL, D3DDDIARG_SETDEPTHSTENCIL structure [Display Devices], UMDisplayDriver_param_Structs_8e3b527c-b594-4bed-9fe1-c8f3a410746d.xml, _D3DDDIARG_SETDEPTHSTENCIL
+ms.keywords: D3DDDIARG_SETDEPTHSTENCIL structure [Display Devices], _D3DDDIARG_SETDEPTHSTENCIL, D3DDDIARG_SETDEPTHSTENCIL, display.d3dddiarg_setdepthstencil, UMDisplayDriver_param_Structs_8e3b527c-b594-4bed-9fe1-c8f3a410746d.xml, d3dumddi/D3DDDIARG_SETDEPTHSTENCIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _D3DDDIARG_SETDEPTHSTENCIL {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdepthstencil.md">SetDepthStencil</a>
+
+
 
  
 

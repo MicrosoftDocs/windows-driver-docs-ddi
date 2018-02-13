@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6114799B-D0AC-421A-9F02-EED9A4391C03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, windot11/DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_group_owner_capability_config, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
+ms.keywords: "_DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, windot11/PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, windot11/DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_group_owner_capability_config, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ typedef struct _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG {
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG</b> structure. The required settings for the members of <b>Header</b> are the following:
+
 <table>
 <tr>
 <th>Member</th>
@@ -94,7 +95,8 @@ Specifies the type, revision and size of the <b>DOT11_WFD_GROUP_OWNER_CAPABILITY
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_GROUP_OWNER_CAPABILITY_CONFIG_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bPersistentGroupEnabled
@@ -130,6 +132,8 @@ Maximum number of P2P Clients the GO should allow. Once this limit is reached, t
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451799">OID_DOT11_WFD_GROUP_OWNER_CAPABILITY</a>
+
+
 
  
 

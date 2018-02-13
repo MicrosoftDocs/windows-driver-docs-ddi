@@ -97,11 +97,14 @@ Is the number of elements in the array to which <i>LegacyResourceList</i> points
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Legacy resources are those resources that are not listed in the device's PCI configuration space but that are decoded by the device. If the legacy resource list for the device is not known at compile time, a miniport driver should implement a <i>HwVidLegacyResources </i> function and initialize the <b>HwGetLegacyResources</b> member of <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> to point to this function. For example, a miniport driver that supports two devices with different sets of legacy resources would implement <i>HwVidLegacyResources </i> to report the legacy resources for a particular device at run time.
@@ -112,9 +115,12 @@ The resources returned by <i>HwVidLegacyResources </i> are added to the list of 
 
 
 
+
 ## -see-also
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
 
  
 

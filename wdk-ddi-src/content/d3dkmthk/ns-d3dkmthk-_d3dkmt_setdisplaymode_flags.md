@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 245586cb-d277-4cef-aeb9-b576a4ae6d43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], display.d3dkmt_setdisplaymode_flags, d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, _D3DKMT_SETDISPLAYMODE_FLAGS, OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml, D3DKMT_SETDISPLAYMODE_FLAGS
+ms.keywords: d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, _D3DKMT_SETDISPLAYMODE_FLAGS, D3DKMT_SETDISPLAYMODE_FLAGS, OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml, D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], display.d3dkmt_setdisplaymode_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,13 +81,17 @@ typedef struct _D3DKMT_SETDISPLAYMODE_FLAGS {
 ## -remarks
 
 
+
 To set attributes of the display mode, you specify bitfields of the D3DKMT_SETDISPLAYMODE_FLAGS structure in the <b>Flags</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKMT_SETDISPLAYMODE</a> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKMT_SETDISPLAYMODE</a>
+
+
 
  
 

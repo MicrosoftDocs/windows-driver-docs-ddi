@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97a5c14f-949a-4455-9109-79355e5dec37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoGetCurrentProcess, IoGetCurrentProcess, k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], kernel.iogetcurrentprocess
+ms.keywords: wdm/IoGetCurrentProcess, kernel.iogetcurrentprocess, IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,23 +67,30 @@ PEPROCESS  IoGetCurrentProcess(void);
 
 
 
+
 ## -returns
+
 
 
 <b>IoGetCurrentProcess</b> returns a pointer to the current process.
 
 
 
+
 ## -remarks
+
 
 
 This routine is identical to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>.
 
 
 
+
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
 
  
 

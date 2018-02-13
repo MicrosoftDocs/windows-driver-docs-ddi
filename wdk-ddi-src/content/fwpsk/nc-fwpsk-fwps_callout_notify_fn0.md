@@ -83,16 +83,19 @@ A value that indicates the type of notification that the filter engine is sendin
 
 
 
+
 #### FWPS_CALLOUT_NOTIFY_ADD_FILTER
 
 A filter is being added to the filter engine that specifies the callout for the filter's
        action.
 
 
+
 #### FWPS_CALLOUT_NOTIFY_DELETE_FILTER
 
 A filter is being deleted from the filter engine that specifies the callout for the filter's
        action.
+
 
 
 #### FWPS_CALLOUT_NOTIFY_TYPE_MAX
@@ -132,8 +135,10 @@ A callout's
 ## -returns
 
 
+
 A callout's 
      <i>notifyFn0</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -165,11 +170,14 @@ An error occurred. If the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
@@ -206,21 +214,36 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_TargetMapping structure [Storage Devices], ISCSI_TargetMapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, _ISCSI_TargetMapping, *PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], iscsidef/PISCSI_TargetMapping, storage.iscsi_targetmapping, PISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping
+ms.keywords: iscsidef/ISCSI_TargetMapping, ISCSI_TargetMapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, _ISCSI_TargetMapping, *PISCSI_TargetMapping, PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], storage.iscsi_targetmapping, iscsidef/PISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_TargetMapping
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_TargetMapping, *PISCSI_TargetMapping
+req.typenames: "*PISCSI_TargetMapping, ISCSI_TargetMapping"
 ---
 
 # _ISCSI_TargetMapping structure
@@ -117,21 +117,31 @@ A <a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a> structur
 ## -remarks
 
 
+
 A 64-bit iSCSI LUN by itself does not uniquely identify the logical unit that it represents. However, the combination of an iSCSI LUN and the name of the target that the logical unit belongs to does provide a unique identification for that logical unit that is valid anywhere in the network. 
 
 Management applications can use the ISCSI_TargetMapping structure to specify a local LUN number that can be assigned to the target LUN that the operating system finds during device enumerations.
 
 
 
-## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
+
+
 
  
 

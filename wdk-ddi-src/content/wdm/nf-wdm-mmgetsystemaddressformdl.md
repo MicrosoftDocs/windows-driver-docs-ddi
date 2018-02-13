@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmgetsystemaddressformdl, MmGetSystemAddressForMdl, k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, wdm/MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.mmgetsystemaddressformdl, MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], wdm/MmGetSystemAddressForMdl, k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -77,12 +77,15 @@ TBD
 
 
 
+
+
 #### - Mdl [in]
 
 Pointer to a buffer whose corresponding base virtual address is to be mapped. 
 
 
 ## -remarks
+
 
 
 Drivers of PIO devices call this routine to translate a virtual address range, described by the MDL at <b>Irp-&gt;MdlAddress</b>, for a user buffer to a system-space address range.
@@ -95,13 +98,20 @@ Windows 2000 issues a bug check if the attempt to map to system space fails. (Th
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
 
  
 

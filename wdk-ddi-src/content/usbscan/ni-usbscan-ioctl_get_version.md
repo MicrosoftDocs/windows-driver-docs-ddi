@@ -86,14 +86,18 @@ Size of the output buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,10 +109,13 @@ Size of the output buffer.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_get_version_si"></a><a id="DDK_IOCTL_GET_VERSION_SI"></a>DeviceIoControl Parameters</h3>
+
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_GET_VERSION I/O control code, the caller must specify the address of a <a href="..\usbscan\ns-usbscan-_drv_version.md">DRV_VERSION</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure members.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetEvent routine [Kernel-Mode Driver Architecture], kernel.kesetevent, k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, KeSetEvent, wdm/KeSetEvent
+ms.keywords: kernel.kesetevent, k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, wdm/KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], KeSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies whether the call to <b>KeSetEvent</b> is to be followed immediately by
 ## -returns
 
 
+
 If the previous state of the event object was signaled, a nonzero value is returned.
 
 
 
+
 ## -remarks
+
 
 
 Calling <b>KeSetEvent</b> causes the event to attain a signaled state. If the event is a notification event, the system attempts to satisfy as many waits as possible on the event object. The event remains signaled until a call to <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a> or <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a> clears it. If the event is a synchronization event, one wait is satisfied before the system automatically clears the event.
@@ -109,23 +112,40 @@ If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= D
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=838602">Specifying Priority Boosts When Completing I/O Requests</a>
 
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
 
  
 

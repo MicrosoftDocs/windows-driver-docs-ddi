@@ -40,7 +40,7 @@ apiname:
 -	StrMiniPriorityRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
+req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.
 ---
 
@@ -79,20 +79,26 @@ Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to t
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The minidriver provides a pointer to this routine in the <b>Priority</b> parameter of a call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>
+
+
 
  
 

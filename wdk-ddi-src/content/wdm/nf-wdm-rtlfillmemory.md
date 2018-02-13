@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlFillMemory, k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], RtlFillMemory
+ms.keywords: kernel.rtlfillmemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, RtlFillMemory, wdm/RtlFillMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -90,13 +90,17 @@ The value to fill the destination memory block with. This value is copied to eve
 ## -remarks
 
 
+
 Callers of <b>RtlFillMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f2914619-1721-42ef-a20f-5774b906a35e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, netvista.ndis_sriov_set_vf_power_state_parameters, *PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, netvista.ndis_sriov_set_vf_power_state_parameters, _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, *PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, *PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
+req.typenames: "*PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
 ---
 
 # _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure
@@ -79,6 +79,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -89,9 +90,11 @@ Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_SET_VF_POWER_STATE_PARAMETERS_RE
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
+
 <div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field PowerState
 
@@ -101,22 +104,32 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_device_power_state.md">NDIS_DEVICE_POW
 ### -field WakeEnable
 
 A BOOLEAN value that specifies whether the network adapter should have its WAKE# signal (on the PCI Express bus) or PME# signal (on the PCI bus) asserted as it goes into the low-power state.  
-<div class="alert"><b>Note</b>  This value must be set to FALSE if <b>PowerState</b> is set to the full-power state (NdisDeviceStateD0).</div><div> </div>
+
+<div class="alert"><b>Note</b>  This value must be set to FALSE if <b>PowerState</b> is set to the full-power state (NdisDeviceStateD0).</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The  <b>NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</b> structure is used in OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451896">OID_SRIOV_SET_VF_POWER_STATE</a>. 
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451896">OID_SRIOV_SET_VF_POWER_STATE</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

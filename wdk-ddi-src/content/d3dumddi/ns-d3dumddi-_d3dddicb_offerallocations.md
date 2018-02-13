@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26f3cd7b-ae2e-4632-bfb2-e62839346f83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations, d3dumddi/D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS
+ms.keywords: D3DDDICB_OFFERALLOCATIONS, d3dumddi/D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,23 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 ### -field Priority
 
 [in] The priority, of type  <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
-<div class="alert"><b>Note</b>  Do not set this member to a value of <b>D3DDDI_OFFER_PRIORITY_NONE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Do not set this member to a value of <b>D3DDDI_OFFER_PRIORITY_NONE</b>.</div>
+<div> </div>
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_offer_priority.md">D3DDDI_OFFER_PRIORITY</a>
+
+
 
  
 

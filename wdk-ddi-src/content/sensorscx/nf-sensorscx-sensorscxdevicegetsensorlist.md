@@ -7,8 +7,8 @@ old-location: sensors\sensorscxdevicegetsensorlist.htm
 old-project: sensors
 ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: Syntax, sensorscx/Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, SensorsCxDeviceGetSensorList
+ms.date: 2/8/2018
+ms.keywords: Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, SensorsCxDeviceGetSensorList, sensorscx/Syntax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ The number of SENSOROBJECTS in pSensorInstanceList.
 ## -returns
 
 
+
 This function returns NTSTATUS with different values. Some values that may be returned are the following:
+
 <ul>
 <li>
 STATUS_SUCCESS is returned if the function completes successfully.
@@ -103,4 +105,5 @@ STATUS_NOT_FOUND is returned if the controller is not available from the <b>FxDe
 
 </li>
 </ul>
+
 

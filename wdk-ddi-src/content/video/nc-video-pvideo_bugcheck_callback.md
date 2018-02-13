@@ -97,11 +97,14 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>Buffer</i> para
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This function is available in Windows XP SP1 and later. 
@@ -118,9 +121,12 @@ The function is called at raised IRQL and must not attempt to access pageable co
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportregisterbugcheckcallback.md">VideoPortRegisterBugcheckCallback</a>
+
+
 
  
 

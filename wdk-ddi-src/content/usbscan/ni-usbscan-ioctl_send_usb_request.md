@@ -89,14 +89,18 @@ Size of the output buffer, or zero if a data transfer is not being requested.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,11 +112,14 @@ Size of the output buffer, or zero if a data transfer is not being requested.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_send_usb_request_si"></a><a id="DDK_IOCTL_SEND_USB_REQUEST_SI"></a>DeviceIoControl Parameters</h3>
+
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_SEND_USB_REQUEST control code, the caller must specify the address of an <a href="..\usbscan\ns-usbscan-_io_block_ex.md">IO_BLOCK_EX</a> structure as the function's <i>lpInBuffer</i> parameter. The type of request specified with this I/O control code is device-specific and vendor-defined, as are the type and size of any information that might be sent or received.
 
 The following table shows how input arguments should be specified.
+
 <table>
 <tr>
 <th>Argument</th>
@@ -246,13 +253,15 @@ Zero
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the <b>bmRequestType</b> member of the IO_BLOCK_EX structure is not used with IOCTL_SEND_USB_REQUEST.
 
 Using the <a href="..\usbscan\ns-usbscan-_io_block_ex.md">IO_BLOCK_EX</a> structure contents, the kernel-mode driver creates a <a href="..\usb\ns-usb-_urb.md">URB</a> that contains a <a href="..\usb\ns-usb-_urb_control_vendor_or_class_request.md">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a> structure.
 
 The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure members.
+
 <table>
 <tr>
 <th>Structure Member</th>
@@ -342,8 +351,10 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
 
 

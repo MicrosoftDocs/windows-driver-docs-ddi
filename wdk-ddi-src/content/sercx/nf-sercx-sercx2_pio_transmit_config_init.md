@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B168C2EE-8D27-4A36-8B7F-C8EE719BFAC0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_pio_transmit_config_init
+ms.keywords: SERCX2_PIO_TRANSMIT_CONFIG_INIT function [Serial Ports], 2/SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT, serports.sercx2_pio_transmit_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ The value to load into the <b>EvtSerCx2PioTransmitCancelReadyNotification</b> me
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_pio_transmit_config.md">SERCX2_PIO_TRANSMIT_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> method.
@@ -107,11 +110,16 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 
 
+
 ## -see-also
+
+<a href="..\sercx\ns-sercx-_sercx2_pio_transmit_config.md">SERCX2_PIO_TRANSMIT_CONFIG</a>
+
+
 
 <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
-<a href="..\sercx\ns-sercx-_sercx2_pio_transmit_config.md">SERCX2_PIO_TRANSMIT_CONFIG</a>
+
 
  
 

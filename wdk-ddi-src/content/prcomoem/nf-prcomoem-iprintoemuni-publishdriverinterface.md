@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PublishDriverInterface method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::PublishDriverInterface, IPrintOemUni, IPrintOemUni interface [Print Devices], PublishDriverInterface method, print.iprintoemuni_publishdriverinterface, PublishDriverInterface method [Print Devices], IPrintOemUni::PublishDriverInterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml, PublishDriverInterface
+ms.keywords: PublishDriverInterface method [Print Devices], IPrintOemUni interface, PublishDriverInterface, IPrintOemUni, print.iprintoemuni_publishdriverinterface, prcomoem/IPrintOemUni::PublishDriverInterface, IPrintOemUni interface [Print Devices], PublishDriverInterface method, IPrintOemUni::PublishDriverInterface, PublishDriverInterface method [Print Devices], print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.PublishDriverInterface
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,16 +106,20 @@ The operation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A rendering plug-in for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> must implement the <code>IPrintOemUni::PublishDriverInterface</code> method, and the method must return S_OK in response to at least one call. Otherwise, the driver will not call the plug-in's other <b>IPrintOemUni</b> interface methods.
 
 The method should return information on its supported Unidrv interfaces as follows:
+
 <ol>
 <li>
 The Unidrv driver first calls the <code>IPrintOemUI::PublishDriverInterface</code> method with the <i>pIUnknown</i> pointer set to the <b>IPrintOemDriverUni</b> instance's <b>IUnknown</b> interface. If the rendering plug-in will be calling <b>IPrintOemDriverUni</b> interface methods, it must use the received <b>IUnknown</b> interface pointer to call <b>IUnknown::QueryInterface </b>(described in the Microsoft Windows SDK documentation) in order to obtain a pointer to the driver's supported version of the <b>IPrintOemDriverUni</b> interface. For more information, see <a href="https://msdn.microsoft.com/8182cba5-4461-4ca0-8b01-342519609b1f">Interface Identifiers for Printer Drivers</a>.
@@ -126,9 +132,12 @@ If the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 </ol>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
+
+
 
  
 

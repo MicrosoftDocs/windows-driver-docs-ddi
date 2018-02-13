@@ -73,7 +73,9 @@ None
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ The miniport driver returns a <a href="..\ntddvdeo\ns-ntddvdeo-_video_pointer_ca
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,7 +120,11 @@ If the miniport driver successfully returns the pointer capabilities, it sets th
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_pointer_capabilities.md">VIDEO_POINTER_CAPABILITIES</a>
 
+
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

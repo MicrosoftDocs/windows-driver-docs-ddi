@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5D084A9F-B0B1-4DB6-91CF-8185063A1D65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_received_provision_discovery_response_parameters, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
+ms.keywords: DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_received_provision_discovery_response_parameters, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ typedef struct _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -93,7 +94,8 @@ The type, revision, and size of the <b>DOT11_RECEIVED_PROVISION_DISCOVERY_RESPON
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransmitterDeviceAddress
@@ -124,6 +126,8 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
+
+
 
  
 

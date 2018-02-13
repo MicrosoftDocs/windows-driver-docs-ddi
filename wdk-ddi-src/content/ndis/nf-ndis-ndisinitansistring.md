@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e8209781-36b1-4008-94bb-82bdb16f20bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, ndis/NdisInitAnsiString, NdisInitAnsiString, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista], netvista.ndisinitansistring
+ms.keywords: ndis/NdisInitAnsiString, netvista.ndisinitansistring, ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista], NdisInitAnsiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisInitAnsiString
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInitAnsiString macro
@@ -82,6 +82,8 @@ TBD
 
 
 
+
+
 #### - DestinationString [in, out]
 
 A pointer to a caller-allocated buffer in which this function should store the counted ANSI
@@ -94,6 +96,7 @@ A pointer to a null-terminated string with which to initialize the counted strin
 
 
 ## -remarks
+
 
 
 The 
@@ -110,20 +113,33 @@ Callers of
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
  
 

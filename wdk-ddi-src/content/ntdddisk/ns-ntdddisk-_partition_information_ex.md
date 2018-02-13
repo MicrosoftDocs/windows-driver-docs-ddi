@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de44fe5a-5d47-4b2e-ab94-52cadfdbc345
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PARTITION_INFORMATION_EX, ntdddisk/PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX structure [Storage Devices], ntdddisk/PARTITION_INFORMATION_EX, PPARTITION_INFORMATION_EX, _PARTITION_INFORMATION_EX, structs-disk_459428ff-6869-41c6-b72f-94721018f66e.xml, PPARTITION_INFORMATION_EX structure pointer [Storage Devices], storage.partition_information_ex, *PPARTITION_INFORMATION_EX
+ms.keywords: "*PPARTITION_INFORMATION_EX, ntdddisk/PARTITION_INFORMATION_EX, ntdddisk/PPARTITION_INFORMATION_EX, structs-disk_459428ff-6869-41c6-b72f-94721018f66e.xml, PARTITION_INFORMATION_EX structure [Storage Devices], PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX, _PARTITION_INFORMATION_EX, PPARTITION_INFORMATION_EX structure pointer [Storage Devices], storage.partition_information_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,21 +75,6 @@ typedef struct _PARTITION_INFORMATION_EX {
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.Mbr
-
-Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_MBR.
-
-
-### -field DUMMYUNIONNAME.Gpt
-
-Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_GPT.
-
-
 ### -field PartitionStyle
 
 Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> enumerated value that specifies the type of partition table that contains the partition.
@@ -115,22 +100,47 @@ Specifies the number of the partition.
 Indicates, when <b>TRUE</b>, that the partition information has changed. When <b>FALSE</b>, the information has not changed. This member has a value of <b>TRUE</b> when the partition has changed as a result of an <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a> IOCTL. This informs the system that the partition information needs to be rewritten.
 
 
+### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.Mbr
+
+Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_MBR.
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+Contains a structure of type <a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_GPT.
+
+
 ## -remarks
+
 
 
 This is the extended version of the partition information structure, PARTITION_INFORMATION. <a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a> and <a href="..\ntddk\nf-ntddk-iowritepartitiontableex.md">IoWritePartitionTableEx</a> operate on an array of PARTITON_INFORMATION_EX structures contained within the extended drive layout structure, <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>. PARTITION_INFORMATION_EX replaces the structure PARTITION_INFORMATION that was used with <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a> and <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>. The principal difference is that the new structures and routines support both Master Boot Record (MBR) partitions and GUID Partition Table (GPT) partitions, whereas the older routines and structures are only used with MBR partitions.
 
 
 
+
 ## -see-also
-
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
-
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
 
 <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_mbr.md">PARTITION_INFORMATION_MBR</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+
+
 
  
 

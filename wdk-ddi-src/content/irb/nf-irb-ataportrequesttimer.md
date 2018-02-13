@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortRequestTimer, storage.ataportrequesttimer, AtaPortRequestTimer, atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, AtaPortRequestTimer routine [Storage Devices]
+ms.keywords: storage.ataportrequesttimer, irb/AtaPortRequestTimer, AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,14 @@ A pointer to the timer routine.
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 The <b>AtaPortRequestTimer</b> routine informs the ATA port driver that it must call the timer routine that is pointed to by <i>TimerRoutine</i> in the number of microseconds indicated by <i>TimerValue</i>. 
@@ -105,9 +108,12 @@ The ATA port driver passes a pointer to the channel extension to the timer routi
 
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportstallexecution.md">AtaPortStallExecution</a>
+
+
 
  
 

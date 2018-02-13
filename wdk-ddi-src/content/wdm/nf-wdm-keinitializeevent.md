@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keinitializeevent, wdm/KeInitializeEvent, KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml
+ms.keywords: KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, KeInitializeEvent, wdm/KeInitializeEvent, kernel.keinitializeevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the initial state of the event. <b>TRUE</b> indicates a signaled state
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Storage for an event object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. If you allocate the event on the stack, you must specify a <b>KernelMode</b> wait when calling <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>. During a <b>KernelMode</b> wait, the stack containing the event will not be paged out.
@@ -105,19 +108,32 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
 
  
 

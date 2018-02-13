@@ -87,20 +87,25 @@ The size of a HID_COLLECTION_INFORMATION structure.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+
 <ul>
 <li>
 <b>Information</b> is set to <b>sizeof</b>(HID_COLLECTION_INFORMATION) if the data was retrieved successfully. 
@@ -115,6 +120,8 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 ## -see-also
 
 <a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a>
+
+
 
  
 

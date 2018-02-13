@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a22bcf4e-f460-4f32-9e1e-4ae952fc87d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_COMPRESSION, wwan/WwanCompressionNone, WwanCompressionMax, wwan/WwanCompressionEnable, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, PWWAN_COMPRESSION, WwanCompressionEnable, netvista.wwan_compression, wwan/WwanCompressionMax, wwan/WWAN_COMPRESSION, *PWWAN_COMPRESSION, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], WwanCompressionNone, WWAN_COMPRESSION, wwan/PWWAN_COMPRESSION"
+ms.keywords: PWWAN_COMPRESSION, WwanCompressionNone, wwan/WwanCompressionEnable, WWAN_COMPRESSION, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, _WWAN_COMPRESSION, *PWWAN_COMPRESSION, wwan/WWAN_COMPRESSION, netvista.wwan_compression, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanCompressionMax, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WwanCompressionEnable, wwan/WwanCompressionNone, WwanCompressionMax, wwan/PWWAN_COMPRESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,8 +89,10 @@ The total number of supported compression options.
 ## -remarks
 
 
+
 This enumeration applies only to GSM devices. The MB Service specifies 
     <b>WwanCompressionNone</b> as the compression type for CDMA-based devices.
+
 
 
 
@@ -98,7 +100,11 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
 
  
 

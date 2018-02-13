@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: Current method [Print Devices], IXpsPartIterator interface, print.ixpspartiterator_current, IXpsPartIterator interface [Print Devices], Current method, IXpsPartIterator, Current, filterpipeline/IXpsPartIterator::Current, Current method [Print Devices], filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, IXpsPartIterator::Current
+ms.keywords: Current, print.ixpspartiterator_current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, filterpipeline/IXpsPartIterator::Current, IXpsPartIterator interface [Print Devices], Current method, Current method [Print Devices], IXpsPartIterator interface, IXpsPartIterator::Current, IXpsPartIterator, Current method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ The current part in the iterator. If <b>NULL</b>, the <i>pUri</i> parameter migh
 ## -returns
 
 
+
 <code>Current</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 Filters should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556342">IXpsPartIterator::IsDone</a> method before calling <code>Current</code>. One or both parameters can be <b>NULL</b>.
+
 
 

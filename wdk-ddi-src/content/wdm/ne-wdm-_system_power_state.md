@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerSystemWorking, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerSystemSleeping3, wdm/PowerSystemUnspecified, wdm/PowerSystemShutdown, PowerSystemSleeping3, wdm/PowerSystemHibernate, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PowerSystemMaximum, wdm/PowerSystemSleeping2, kernel.system_power_state, _SYSTEM_POWER_STATE, SYSTEM_POWER_STATE, PowerSystemWorking, PowerSystemHibernate, PowerSystemSleeping2, wdm/PSYSTEM_POWER_STATE, PowerSystemMaximum, PowerSystemUnspecified, PSYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE, wdm/SYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemSleeping1, PowerSystemShutdown, wdm/PowerSystemSleeping1
+ms.keywords: wdm/SYSTEM_POWER_STATE, _SYSTEM_POWER_STATE, PowerSystemMaximum, wdm/PowerSystemShutdown, kernel.system_power_state, wdm/PowerSystemWorking, PowerSystemSleeping1, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, PowerSystemSleeping3, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemSleeping2, PSYSTEM_POWER_STATE, PowerSystemShutdown, wdm/PowerSystemUnspecified, PowerSystemUnspecified, PowerSystemWorking, wdm/PowerSystemSleeping2, wdm/PowerSystemMaximum, wdm/PowerSystemSleeping3, wdm/PowerSystemSleeping1, *PSYSTEM_POWER_STATE, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	SYSTEM_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE, SYSTEM_POWER_STATE"
+req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -118,6 +118,7 @@ The number of system power state values for this enumeration type that represent
 ## -remarks
 
 
+
 A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <b>SYSTEM_POWER_STATE</b> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> enumeration type.
 
 For more information about system power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a> and for more information about device power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>.
@@ -126,9 +127,12 @@ For more information about power management in general, see <a href="https://msd
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+
 
  
 

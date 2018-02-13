@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4314d3f9-2457-41f6-844c-197e5d05b0fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO, PNDIS_NET_BUFFER_LIST_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_net_buffer_list_8021q_info, ndis_netbuf_structures_ref_6581b8a1-543e-46fe-a513-f8b2b6780cdd.xml, _NDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndis_net_buffer_list_8021q_info, _NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO, PNDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_6581b8a1-543e-46fe-a513-f8b2b6780cdd.xml, NDIS_NET_BUFFER_LIST_8021Q_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,8 +147,10 @@ A wireless multimedia (WMM) integer value that is the same as the traffic identi
         of Service (QoS) data. The values 0 through 7 represent QoS user priorities (UPs) for the MAC service
         data units (MSDUs). The values 8 through 15 are reserved. Therefore, the higest bit in 
         <b>WMMInfo</b> must be zero.
+
 <div class="alert"><b>Note</b>  Traffic specification (TSPEC) and traffic classification (TCLAS) are not
-        supported.</div><div> </div>
+        supported.</div>
+<div> </div>
 
 ### -field WLanTagHeader.Reserved
 
@@ -164,6 +166,7 @@ A member in the union that is contained in NDIS_NET_BUFFER_LIST_8021Q_INFO.
 
 
 ## -remarks
+
 
 
 To retrieve or insert 802.1Q information that is associated with a 
@@ -184,6 +187,7 @@ The NET_BUFFER_LIST_INFO macro returns the pointer that is specified in the
 
 Miniport drivers that support the 802.1Q tag in hardware must use the NDIS_NET_BUFFER_LIST_8021Q_INFO
     structure for transmit and receive operations:
+
 <ul>
 <li>
 For transmit operations, the miniport driver must check for NDIS_NET_BUFFER_LIST_8021Q_INFO OOB data
@@ -204,14 +208,21 @@ For receive operations, the miniport driver must remove the 802.1Q tag from the 
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
    NdisMIndicateReceiveNetBufferLists</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
 
  
 

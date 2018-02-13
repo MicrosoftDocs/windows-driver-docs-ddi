@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f8992245-42db-4ca8-afdc-e123adc0a40d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdoinitassigndeviceid, DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, wdf.wdfpdoinitassigndeviceid, PFN_WDFPDOINITASSIGNDEVICEID, WdfPdoInitAssignDeviceID method, WdfPdoInitAssignDeviceID, wdfpdo/WdfPdoInitAssignDeviceID
+ms.keywords: wdfpdo/WdfPdoInitAssignDeviceID, wdf.wdfpdoinitassigndeviceid, WdfPdoInitAssignDeviceID method, WdfPdoInitAssignDeviceID, PFN_WDFPDOINITASSIGNDEVICEID, DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, kmdf.wdfpdoinitassigndeviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,13 +115,16 @@ The driver could not allocate space to store the device ID string.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 A device ID is typically the first item in the list of hardware IDs that a device reports. For more information about device IDs and hardware IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
@@ -127,14 +132,42 @@ A device ID is typically the first item in the list of hardware IDs that a devic
 The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
+#### Examples
+
+The following code example reports a device ID that the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver uses.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define  KBFILTR_DEVICE_ID L"{A65C87F9-BE02-4ed9-92EC-012D416169FA}\\KeyboardFilter\0"
+DECLARE_CONST_UNICODE_STRING(deviceId,KBFILTR_DEVICE_ID);
+
+status = WdfPdoInitAssignDeviceID(
+                                  pDeviceInit,
+                                  &amp;deviceId
+                                  );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md">WdfPdoInitAssignInstanceID</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
+
+
 
  
 

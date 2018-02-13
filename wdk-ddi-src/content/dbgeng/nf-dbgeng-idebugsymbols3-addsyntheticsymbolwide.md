@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06d4d1f1-8d28-46cc-8c80-8a67cf4ae4c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.addsyntheticsymbolwide, AddSyntheticSymbolWide method [Windows Debugging], AddSyntheticSymbolWide, IDebugSymbols3, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3::AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method
+ms.keywords: debugger.addsyntheticsymbolwide, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,6 +99,7 @@ Receives the <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +116,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The location of the synthetic symbol must not be the same as the location of another symbol.
@@ -132,13 +136,20 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
+
+
 
  
 

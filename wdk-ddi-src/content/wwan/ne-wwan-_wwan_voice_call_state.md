@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50b85fc0-b84a-4c1d-9d7b-4b91150f8e76
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanVoiceCallStateNone, WwanVoiceCallStateMaximum, wwan/WwanVoiceCallStateMaximum, wwan/WwanVoiceCallStateNone, wwan/WWAN_VOICE_CALL_STATE, WwanVoiceCallStateInProgress, _WWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateInProgress, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, wwan/WwanVoiceCallStateHangUp, PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, *PWWAN_VOICE_CALL_STATE, WwanVoiceCallStateHangUp
+ms.keywords: wwan/WWAN_VOICE_CALL_STATE, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_voice_call_state, wwan/WwanVoiceCallStateInProgress, WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateMaximum, *PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateNone, WWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], WwanVoiceCallStateNone, _WWAN_VOICE_CALL_STATE, wwan/PWWAN_VOICE_CALL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -97,6 +97,8 @@ The total number of supported voice call states.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
+
+
 
  
 

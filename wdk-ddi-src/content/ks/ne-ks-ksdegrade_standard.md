@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5790ce0e-13f8-4700-8b25-a5375dd83758
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDEGRADE_STANDARD_QUALITY, ks/KSDEGRADE_STANDARD_QUALITY, ks-struct_933ec08b-6ad6-47dc-8092-357d6bbe1c72.xml, ks/KSDEGRADE_STANDARD, KSDEGRADE_STANDARD enumeration [Streaming Media Devices], ks/KSDEGRADE_STANDARD_SAMPLE, KSDEGRADE_STANDARD_COMPUTATION, KSDEGRADE_STANDARD_SKIP, KSDEGRADE_STANDARD, ks/KSDEGRADE_STANDARD_COMPUTATION, ks/KSDEGRADE_STANDARD_SKIP, stream.ksdegrade_standard, KSDEGRADE_STANDARD_SAMPLE
+ms.keywords: KSDEGRADE_STANDARD_SAMPLE, ks/KSDEGRADE_STANDARD_SAMPLE, ks/KSDEGRADE_STANDARD_COMPUTATION, ks-struct_933ec08b-6ad6-47dc-8092-357d6bbe1c72.xml, KSDEGRADE_STANDARD_SKIP, ks/KSDEGRADE_STANDARD_QUALITY, stream.ksdegrade_standard, KSDEGRADE_STANDARD_COMPUTATION, KSDEGRADE_STANDARD_QUALITY, KSDEGRADE_STANDARD enumeration [Streaming Media Devices], KSDEGRADE_STANDARD, ks/KSDEGRADE_STANDARD, ks/KSDEGRADE_STANDARD_SKIP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,13 +93,17 @@ Requests to skip ahead a specified delta in the data stream.
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/359e6e12-903f-4037-8f35-b090ce41f770">Quality Management</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSDEGRADE</a>
+
+
 
  
 

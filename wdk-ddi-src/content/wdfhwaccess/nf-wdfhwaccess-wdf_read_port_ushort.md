@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F9688E1F-D8A3-432E-8724-2D601946E707
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_READ_PORT_USHORT, wdfhwaccess/WDF_READ_PORT_USHORT, wdf.wdf_read_port_ushort, WDF_READ_PORT_USHORT function
+ms.keywords: wdf.wdf_read_port_ushort, wdfhwaccess/WDF_READ_PORT_USHORT, WDF_READ_PORT_USHORT, WDF_READ_PORT_USHORT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_PORT_USHORT
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,8 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>WDF_READ_PORT_USHORT</b> returns the USHORT value that is read from the specified port address.
+
 
 

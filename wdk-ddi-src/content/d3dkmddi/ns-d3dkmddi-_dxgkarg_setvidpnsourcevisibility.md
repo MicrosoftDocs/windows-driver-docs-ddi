@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 073fbcc4-57d8-4709-9605-a3440b5e8e17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, display.dxgkarg_setvidpnsourcevisibility, _DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], DXGKARG_SETVIDPNSOURCEVISIBILITY, DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml
+ms.keywords: DXGKARG_SETVIDPNSOURCEVISIBILITY, DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], display.dxgkarg_setvidpnsourcevisibility, _DXGKARG_SETVIDPNSOURCEVISIBILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,8 @@ If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSyn
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility.md">DxgkDdiSetVidPnSourceVisibility</a>
+
+
 
  
 

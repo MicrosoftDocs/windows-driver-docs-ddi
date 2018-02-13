@@ -86,16 +86,20 @@ A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_dat
 ## -returns
 
 
+
 Does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 When the operating system calls this function, it logs the data from the <i>pStatistics</i> parameter but takes no other action.
 
 For more info on how to use this function, see these topics:
+
 <ul>
 <li>
 <a href="https://msdn.microsoft.com/FF5D7760-2407-487A-8363-7AC3B6385F6C">Miracast user-mode driver tasks to support Miracast wireless displays</a>
@@ -106,11 +110,16 @@ For more info on how to use this function, see these topics:
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a>
+
+
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a>
+
 
  
 

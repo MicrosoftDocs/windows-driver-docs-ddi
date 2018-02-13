@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b48a38ff-60b9-4c01-ac71-4ae07010db1f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iounregistershutdownnotification, wdm/IoUnregisterShutdownNotification, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], IoUnregisterShutdownNotification, k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml
+ms.keywords: wdm/IoUnregisterShutdownNotification, IoUnregisterShutdownNotification, kernel.iounregistershutdownnotification, k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the driver's device object.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>IoUnregisterShutdownNotification</b> can be called by a driver only if that driver previously called <a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a> or <a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a> with the given <i>DeviceObject</i>. This routine is usually called from a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
@@ -89,11 +92,16 @@ Calling <b>IoUnregisterShutdownNotification</b> cancels all shutdown notificatio
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
+
+
 
 <a href="..\wdm\nf-wdm-ioregistershutdownnotification.md">IoRegisterShutdownNotification</a>
 
-<a href="..\wdm\nf-wdm-ioregisterlastchanceshutdownnotification.md">IoRegisterLastChanceShutdownNotification</a>
+
 
  
 

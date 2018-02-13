@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c019f382-1ad3-4b08-a254-ae803e2b6bc6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeTree, SdpCreateNodeTree function [Bluetooth Devices], sdplib/SdpCreateNodeTree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, bltooth.sdpcreatenodetree
+ms.keywords: bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, SdpCreateNodeTree function [Bluetooth Devices], bltooth.sdpcreatenodetree, sdplib/SdpCreateNodeTree, SdpCreateNodeTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpCreateNodeTree
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: SD_TRANSFER_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -78,12 +78,15 @@ A profile driver defined tag to associate with the node.
 ## -returns
 
 
+
 If successful, this function returns a pointer to the newly allocated SDP_TREE_ROOT_NODE
      structure. If not successful, this function returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Calling the 
@@ -105,17 +108,28 @@ Bluetooth profile drivers can obtain a pointer to this function through the BTHD
 
 
 
+
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
+
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
 
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+
 
  
 

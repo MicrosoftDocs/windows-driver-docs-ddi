@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 612a66fa-0e0c-4eee-99b0-9bc09437b026
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeMdl, netvista.ndisfreemdl, NdisFreeMdl function [Network Drivers Starting with Windows Vista], NdisFreeMdl, ndis_netbuf_functions_ref_0631fdd9-0961-43a9-a7a8-7d41e9d17220.xml
+ms.keywords: NdisFreeMdl, ndis/NdisFreeMdl, NdisFreeMdl function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_0631fdd9-0961-43a9-a7a8-7d41e9d17220.xml, netvista.ndisfreemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeMdl
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeMdl function
@@ -78,13 +78,17 @@ A pointer to the MDL that NDIS should free.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+
 
  
 

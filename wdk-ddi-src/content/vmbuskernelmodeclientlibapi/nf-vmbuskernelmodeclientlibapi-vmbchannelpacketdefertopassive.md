@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 796F849F-7281-4AE9-BE0D-350D24A39C61
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], VmbChannelPacketDeferToPassive, netvista.vmbchannelpacketdefertopassive
+ms.keywords: VmbChannelPacketDeferToPassive, netvista.vmbchannelpacketdefertopassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelPacketDeferToPassive
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -81,11 +81,14 @@ once processing is finished.
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 A deferred packet goes back onto the parsing queue. It is guaranteed to be
@@ -96,9 +99,12 @@ This routine is designed to only be called in-line from <a href="..\vmbuskernelm
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a>
+
+
 
  
 

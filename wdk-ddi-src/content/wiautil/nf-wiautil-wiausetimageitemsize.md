@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, image.wiausetimageitemsize, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
+ms.keywords: wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], image.wiausetimageitemsize, wiautil/wiauSetImageItemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,13 +106,17 @@ Specifies the size of the image as stored on the device.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 
 
 ## -remarks
 
 
+
 If the format is not BMP, this function assumes that the value passed in the <i>lSize</i> parameter is correct for the current format.
+
 
 

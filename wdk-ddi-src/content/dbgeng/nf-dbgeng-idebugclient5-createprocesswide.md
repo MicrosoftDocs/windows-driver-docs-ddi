@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a45c971-3dad-47ad-a819-6f2c6e34ad37
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient5::CreateProcessWide, debugger.createprocesswide, CreateProcessWide, IDebugClient3::CreateProcessWide, IDebugClient5, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, CreateProcessWide method [Windows Debugging], IDebugClient3 interface [Windows Debugging], CreateProcessWide method, CreateProcessWide method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient4::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, IDebugClient4::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide
+ms.keywords: CreateProcessWide method [Windows Debugging], IDebugClient3 interface, IDebugClient4, IDebugClient5::CreateProcessWide, IDebugClient3, CreateProcessWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcessWide method, CreateProcessWide method [Windows Debugging], dbgeng/IDebugClient5::CreateProcessWide, dbgeng/IDebugClient3::CreateProcessWide, IDebugClient4 interface [Windows Debugging], CreateProcessWide method, IDebugClient4::CreateProcessWide, dbgeng/IDebugClient4::CreateProcessWide, IDebugClient3::CreateProcessWide, CreateProcessWide method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], CreateProcessWide method, debugger.createprocesswide, CreateProcessWide method [Windows Debugging], IDebugClient4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,7 +89,9 @@ Specifies the flags to use when creating the process.  For details on these flag
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,11 +108,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is available only for live user-mode debugging.
@@ -121,23 +126,40 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9a4d04de-2c44-4f13-ac6f-32e2fe879e4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], GetPortAttributesByWWN_OUT, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, GetPortAttributesByWWN_OUT structure [Storage Devices], *PGetPortAttributesByWWN_OUT, hbapiwmi/GetPortAttributesByWWN_OUT, _GetPortAttributesByWWN_OUT, hbapiwmi/PGetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out
+ms.keywords: GetPortAttributesByWWN_OUT structure [Storage Devices], structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], _GetPortAttributesByWWN_OUT, hbapiwmi/GetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT, hbapiwmi/PGetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPortAttributesByWWN_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT
+req.typenames: "*PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT"
 ---
 
 # _GetPortAttributesByWWN_OUT structure
@@ -81,17 +81,25 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattri
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+
+
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+
 
  
 

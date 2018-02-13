@@ -7,8 +7,8 @@ old-location: ifsk\fsrtladdtotunnelcache.htm
 old-project: ifsk
 ms.assetid: 71cac8fd-d544-4f66-a3ba-f0b267e46d1e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, ntifs/FsRtlAddToTunnelCache, ifsk.fsrtladdtotunnelcache, FsRtlAddToTunnelCache, FsRtlAddToTunnelCache routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FsRtlAddToTunnelCache routine [Installable File System Drivers], FsRtlAddToTunnelCache, ntifs/FsRtlAddToTunnelCache, ifsk.fsrtladdtotunnelcache, fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,14 @@ Pointer to a buffer that contains file-system-specific information to be stored 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When a file name is removed from a directory (for a file that is being renamed or deleted), the file system can cache the file name by calling <b>FsRtlAddToTunnelCache</b>. The purpose of the tunnel cache is to propagate file properties if a new file is created that has the same long or short name as the file just deleted or renamed.
@@ -128,19 +131,28 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletekeyfromtunnelcache~r1.md">FsRtlDeleteKeyFromTunnelCache</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletekeyfromtunnelcache~r1.md">FsRtlDeleteKeyFromTunnelCache</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAddToTunnelCache routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAddToTunnelCache routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], wdm/PoQueryWatchdogTime, PoQueryWatchdogTime, kernel.poquerywatchdogtime
+ms.keywords: wdm/PoQueryWatchdogTime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, PoQueryWatchdogTime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to a location into which the routine writes the time, in seconds, that
 ## -returns
 
 
+
 <b>PoQueryWatchdogTime</b> returns <b>TRUE</b> if a watchdog-enabled power IRP is currently assigned to the device stack. Otherwise, it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 This routine enables kernel-mode drivers to monitor watchdog time-out counters that the power manager has enabled to keep track of power IRPs that it has issued. If one or more watchdog time-out counters are currently enabled, the routine returns <b>TRUE</b> and provides the amount of time that remains before the next time-out.
@@ -99,9 +102,12 @@ If more than one power watchdog time-out is currently enabled, the routine sets 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02c0ea87-d25d-4363-85e3-e47c4c5d8a9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject, NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject
+ms.keywords: NdisFreeGenericObject, netvista.ndisfreegenericobject, ndis/NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeGenericObject
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeGenericObject function
@@ -77,6 +77,7 @@ TBD
 
 
 
+
 #### - NdisGenericObject [in]
 
 A pointer to the 
@@ -87,11 +88,14 @@ A pointer to the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An NDIS handle is required to allocate some NDIS resources (for example, buffer pools). Components
@@ -102,11 +106,16 @@ An NDIS handle is required to allocate some NDIS resources (for example, buffer 
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
+
+
 
  
 

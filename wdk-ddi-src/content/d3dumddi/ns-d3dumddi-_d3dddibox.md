@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIBOX, display.d3dddibox, _D3DDDIBOX, D3DDDIBOX structure [Display Devices], d3dumddi/D3DDDIBOX
+ms.keywords: display.d3dddibox, D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, d3dumddi/D3DDDIBOX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,10 +106,12 @@ typedef struct _D3DDDIBOX {
 ## -remarks
 
 
+
 The height of the volume equals the value in the <b>Bottom</b> member minus the value in the <b>Top</b> member (that is, height = bottom – top). 
 
 The width of the volume equals the value in the <b>Right</b> member minus the value in the <b>Left</b> member (that is, width = right – left). 
 
 The depth of the volume equals the value in the <b>Back</b> member minus the value in the <b>Front</b> member (that is, depth = back – front). 
+
 
 

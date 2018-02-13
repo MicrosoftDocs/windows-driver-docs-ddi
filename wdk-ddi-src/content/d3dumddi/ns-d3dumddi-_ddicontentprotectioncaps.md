@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d223712d-2c77-4bec-b8c0-d677d4caeac2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, display.ddicontentprotectioncaps, DDICONTENTPROTECTIONCAPS structure [Display Devices], _DDICONTENTPROTECTIONCAPS
+ms.keywords: DDICONTENTPROTECTIONCAPS, _DDICONTENTPROTECTIONCAPS, D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, display.ddicontentprotectioncaps, DDICONTENTPROTECTIONCAPS structure [Display Devices], d3dumddi/DDICONTENTPROTECTIONCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,6 @@ typedef struct _DDICONTENTPROTECTIONCAPS {
 
 
 
-A <b>NULL</b> value indicates that no encryption is used. 
 
 
 #### D3DCRYPTOTYPE_AES128_CTR
@@ -82,9 +81,12 @@ A <b>NULL</b> value indicates that no encryption is used.
 A GUID that indicates the 128-bit AES-CRT block cipher.
 
 
+
 #### D3DCRYPTOTYPE_PROPRIETARY
 
 A GUID that indicates a proprietary encryption algorithm. 
+
+A <b>NULL</b> value indicates that no encryption is used. 
 
 
 ### -field DecodeProfile
@@ -93,6 +95,7 @@ A GUID that indicates a proprietary encryption algorithm.
 
 
 ## -remarks
+
 
 
 The runtime specifies a pointer to a DDICONTENTPROTECTIONCAPS structure in the <b>pInfo</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure--along with the D3DDDICAPS_GETCONTENTPROTECTIONCAPS value in the <b>Type</b> member of D3DDDIARG_GETCAPS--in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to determine the content-protection capabilities that the driver supports. The driver's <b>GetCaps</b> returns a pointer to a populated D3DCONTENTPROTECTIONCAPS structure in the <b>pData</b> member of D3DDDIARG_GETCAPS that describes the content-protection capabilities that the driver supports. An application calls the <b>IDirect3DDevice9Video::GetContentProtectionCaps</b> method to retrieve these content-protection capabilities. For more information about <b>IDirect3DDevice9Video::GetContentProtectionCaps</b> and D3DCONTENTPROTECTIONCAPS, see the DirectX SDK documentation.
@@ -105,11 +108,16 @@ If the runtime specifies NULL_GUID in the <b>CryptoType</b> member, the driver s
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
 
  
 

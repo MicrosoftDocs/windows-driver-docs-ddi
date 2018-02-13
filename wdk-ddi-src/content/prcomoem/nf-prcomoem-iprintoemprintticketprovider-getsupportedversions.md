@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, IPrintOemPrintTicketProvider, GetSupportedVersions method [Print Devices], prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, print.iprintoemprintticketprovider_getsupportedversions, IPrintOemPrintTicketProvider::GetSupportedVersions, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, GetSupportedVersions
+ms.keywords: GetSupportedVersions method [Print Devices], print.iprintoemprintticketprovider_getsupportedversions, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider::GetSupportedVersions, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, GetSupportedVersions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.GetSupportedVersions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ A pointer to a variable that receives the number of elements in the array that i
 ## -returns
 
 
+
 <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> returns the major version numbers of the print schemas that are supported by the provider interface. (The only currently defined version number is 1.) Providers can omit intermediate versions.
@@ -103,9 +106,12 @@ The plug-in is responsible for allocating the array memory that is pointed to by
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
+
+
 
  
 

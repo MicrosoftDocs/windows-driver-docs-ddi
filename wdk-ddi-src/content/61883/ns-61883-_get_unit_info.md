@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2FE13A53-5B88-40B8-B129-8DD141F1B160
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGET_UNIT_INFO, GET_UNIT_INFO structure [Buses], _GET_UNIT_INFO, IEEE.get_unit_info, 61883/GET_UNIT_INFO, *PGET_UNIT_INFO, 61883/PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], GET_UNIT_INFO
+ms.keywords: IEEE.get_unit_info, GET_UNIT_INFO structure [Buses], _GET_UNIT_INFO, *PGET_UNIT_INFO, GET_UNIT_INFO, 61883/PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], 61883/GET_UNIT_INFO, PGET_UNIT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ GET_UNIT_DIAG_LEVEL
 ### -field Information
 
 In input, a pointer to information supplied by the protocol driver about the device. 
+
 <table>
 <tr>
 <th>Value of nLevel</th>
@@ -153,19 +154,24 @@ The protocol driver writes current diag level to the caller-allocated <a href="h
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 <b>Flags</b> in the request specifies either RETRIEVE_DEVICE_UNIT_INFO or RETRIEVE_LOCAL_UNIT_INFO. Only used when <b>nLevel</b> is set to GET_UNIT_INFO_CAPABILITIES.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

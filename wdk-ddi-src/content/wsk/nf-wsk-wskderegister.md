@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WskDeregister function [Network Drivers Starting with Windows Vista], WskDeregister, netvista.wskderegister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml, wsk/WskDeregister
+ms.keywords: netvista.wskderegister, wsk/WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskDeregister
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -82,11 +82,14 @@ A pointer to the memory location initialized by
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 For each call to 
@@ -97,6 +100,7 @@ For each call to
     <b>WskRegister</b>.
 
 <b>WskDeregister</b> will wait to return until all of the following have completed:
+
 <ul>
 <li>
 All captured instances of the provider NPI are released.
@@ -112,9 +116,11 @@ Any outstanding calls to functions pointed to by
 All sockets are closed.
 
 </li>
-</ul>For more information about attaching a WSK application to the WSK subsystem, see 
+</ul>
+For more information about attaching a WSK application to the WSK subsystem, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
+
 
 
 
@@ -122,7 +128,11 @@ All sockets are closed.
 
 <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
+
+
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
 
  
 

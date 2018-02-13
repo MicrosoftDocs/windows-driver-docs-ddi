@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 786ced41-7841-4898-93d5-afb4dcf7fa0c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, bdasup/BdaPropertyNodeTypes, stream.bdapropertynodetypes, BdaPropertyNodeTypes, BdaPropertyNodeTypes function [Streaming Media Devices]
+ms.keywords: bdasup/BdaPropertyNodeTypes, BdaPropertyNodeTypes, stream.bdapropertynodetypes, bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, BdaPropertyNodeTypes function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,14 +93,18 @@ Points to the IRP for the request to retrieve the list of node types. The BDA mi
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. 
+
 
 
 
 ## -remarks
 
 
+
 A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the list of node types after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564332">KSPROPERTY_BDA_NODE_TYPES</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyNodeTypes</b> function directly, without intercepting this request using an internal get-handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>). See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">Defining Automation Tables</a> and <a href="https://msdn.microsoft.com/fdac317e-d4fc-47c9-87d3-bec597f758f5">Determining BDA Device Topology</a> for more information. 
+
 
 
 
@@ -108,9 +112,15 @@ A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the 
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564332">KSPROPERTY_BDA_NODE_TYPES</a>
+
+
 
  
 

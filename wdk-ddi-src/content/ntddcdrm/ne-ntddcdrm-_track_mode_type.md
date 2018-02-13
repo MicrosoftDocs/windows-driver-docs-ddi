@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], ntddcdrm/PTRACK_MODE_TYPE, ntddcdrm/RawWithC2, ntddcdrm/XAForm2, ntddcdrm/CDDA, ntddcdrm/RawWithSubCode, ntddcdrm/YellowMode2, _TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices], storage.track_mode_type, RawWithC2, RawWithC2AndSubCode, XAForm2, YellowMode2, PTRACK_MODE_TYPE, TRACK_MODE_TYPE, ntddcdrm/TRACK_MODE_TYPE, CDDA, *PTRACK_MODE_TYPE, ntddcdrm/RawWithC2AndSubCode, RawWithSubCode
+ms.keywords: XAForm2, storage.track_mode_type, TRACK_MODE_TYPE, ntddcdrm/RawWithC2, RawWithC2, PTRACK_MODE_TYPE, ntddcdrm/YellowMode2, RawWithSubCode, ntddcdrm/RawWithC2AndSubCode, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml, CDDA, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], YellowMode2, ntddcdrm/XAForm2, *PTRACK_MODE_TYPE, ntddcdrm/RawWithSubCode, _TRACK_MODE_TYPE, ntddcdrm/CDDA, ntddcdrm/PTRACK_MODE_TYPE, RawWithC2AndSubCode, ntddcdrm/TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	TRACK_MODE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: TRACK_MODE_TYPE, *PTRACK_MODE_TYPE
+req.typenames: "*PTRACK_MODE_TYPE, TRACK_MODE_TYPE"
 ---
 
 # _TRACK_MODE_TYPE enumeration
@@ -104,9 +104,13 @@ CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 
 ## -see-also
 
+<a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a>
+
+
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a>
+
 
  
 

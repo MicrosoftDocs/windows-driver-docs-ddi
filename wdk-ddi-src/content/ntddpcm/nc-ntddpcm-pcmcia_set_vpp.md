@@ -40,7 +40,7 @@ apiname:
 -	SetVpp
 product: Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
 ---
 
 # PCMCIA_SET_VPP callback
@@ -83,14 +83,17 @@ Specifies the voltage level to set on the Vpp pin. <i>VppLevel</i> must be one o
 
 
 
+
 #### PCMCIA_VPP_0V
 
 Specifies that the voltage on the Vpp pin be set to zero volts and that the Vpp pin be disabled.
 
 
+
 #### PCMCIA_VPP_12V
 
 Specifies that the voltage on the Vpp pin be set to twelve volts.
+
 
 
 #### PCMCIA_VPP_IS_VCC
@@ -101,11 +104,14 @@ Specifies that the voltage on the Vpp pin be set to equal the voltage on the Vcc
 ## -returns
 
 
+
 The <b>PCMCIA_SET_VPP</b> interface routine returns <b>TRUE</b> after the requested voltage level is set.
 
 
 
+
 ## -remarks
+
 
 
 The <b>PCMCIA_SET_VPP</b> interface routine returns control to the caller after the requested voltage is established in a stable state for the card.
@@ -116,11 +122,16 @@ Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL. To maintain overal
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
 
  
 

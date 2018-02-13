@@ -56,6 +56,8 @@ The <b>IPartColorProfile</b> interface is the abstraction for an XPS color profi
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
+
+
  
 
  

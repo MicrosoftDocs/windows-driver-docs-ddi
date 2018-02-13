@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ce67fd7-03f6-432c-9229-a99f66f7eb73
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_82045602-8c6c-4a80-8698-06b34f0ca8d9.xml, _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, display.dxvahdddi_stream_state_source_rect_data
+ms.keywords: DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, display.dxvahdddi_stream_state_source_rect_data, DXVA2_Structs_82045602-8c6c-4a80-8698-06b34f0ca8d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,19 @@ typedef struct _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA {
 ## -remarks
 
 
+
 If the <b>Enable</b> member is set to <b>TRUE</b> and the source rectangle that the <b>SourceRect</b> member specifies is not within the input surface, the intersection of the source rectangle and the input surface is used as the source rectangle. 
 
 The application can use the source rectangle to specify the active rectangle (dirty region) of the source surface.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
  
 

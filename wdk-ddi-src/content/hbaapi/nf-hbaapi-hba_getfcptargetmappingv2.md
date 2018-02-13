@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 970475d7-dd81-4189-bd2b-2a22c4f732dc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetFcpTargetMappingV2, fibreHBA_rtns_c0f700bf-da1f-4480-8fa0-8441f924e351.xml, HBA_GetFcpTargetMappingV2, HBA_GetFcpTargetMappingV2 routine [Storage Devices], storage.hba_getfcptargetmappingv2
+ms.keywords: fibreHBA_rtns_c0f700bf-da1f-4480-8fa0-8441f924e351.xml, hbaapi/HBA_GetFcpTargetMappingV2, storage.hba_getfcptargetmappingv2, HBA_GetFcpTargetMappingV2 routine [Storage Devices], HBA_GetFcpTargetMappingV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcptargetmapping
 ## -returns
 
 
+
 The <b>HBA_GetFcpTargetMappingV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_GetFcpTargetMappingV2</b> returns one of the following qualifiers.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,26 +150,38 @@ Returned if an unspecified error occurred that prevented the retrieval of the ma
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The difference between the <b>HBA_GetFcpTargetMappingV2</b> routine and the <a href="..\hbaapi\nf-hbaapi-hba_getfcptargetmapping.md">HBA_GetFcpTargetMapping</a> routine is that the mappings returned by <b>HBA_GetFcpTargetMappingV2</b> include a logical unit ID descriptor (LUID) for each logical unit. If the vital product data for a logical unit provides more than one LUID, then the LUID that <b>HBA_GetFcpTargetMappingV2</b> returns depends on the types of LUIDs provided. For a complete explanation of how the LUID is chosen when more than one LUID is available, see the T11 committee's <i>Fibre Channel HBA API </i>specification.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_getfcptargetmapping.md">HBA_GetFcpTargetMapping</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcptargetmappingv2.md">HBA_FCPTargetMappingV2</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

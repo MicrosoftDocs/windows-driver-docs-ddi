@@ -7,8 +7,8 @@ old-location: ifsk\rxceteardownconnection.htm
 old-project: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rxceteardownconnection, RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml, RxCeTearDownConnection function [Installable File System Drivers], rxce/RxCeTearDownConnection
+ms.date: 2/7/2018
+ms.keywords: RxCeTearDownConnection, ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml, RxCeTearDownConnection function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeTearDownConnection
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ A pointer to an connection to be torn down.
 ## -returns
 
 
+
 <b>RxCeTearDownConnection</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,14 +106,18 @@ One of the parameters passed to this routine was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_CONNECTION structure pointed to by the <i>pConnection</i> parameter will be properly uninitialized, and allocated memory for connection information and handler will be freed. 
+
 
 
 
@@ -119,9 +125,11 @@ When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_C
 
 <a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeTearDownConnection function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeTearDownConnection function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

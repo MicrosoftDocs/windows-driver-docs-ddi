@@ -80,6 +80,8 @@ The <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">On
 ## -remarks
 
 
+
 A driver registers the <b>IRequestCallbackRequestCompletion</b> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a> method. For more information about how a driver completes an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+
 
 

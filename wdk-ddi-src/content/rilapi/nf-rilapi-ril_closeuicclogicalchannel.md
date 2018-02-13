@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4cc0c9b0-8ddc-408e-bc49-81e5a19843d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], RIL_CloseUiccLogicalChannel, netvista.ril_closeuicclogicalchannel, rilapi/RIL_CloseUiccLogicalChannel
+ms.keywords: RIL_CloseUiccLogicalChannel, RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], rilapi/RIL_CloseUiccLogicalChannel, netvista.ril_closeuicclogicalchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_CloseUiccLogicalChannel(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param dwChannelId
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

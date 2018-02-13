@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f118af3b-5a9a-486b-9550-9b48bdfb48cd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReadPortBufferUshort, irb/AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort routine [Storage Devices], storage.ataportreadportbufferushort, atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml
+ms.keywords: AtaPortReadPortBufferUshort routine [Storage Devices], irb/AtaPortReadPortBufferUshort, storage.ataportreadportbufferushort, AtaPortReadPortBufferUshort, atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,17 +90,25 @@ Specifies the number of USHORT values to read from the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadportbufferuchar.md">AtaPortReadPortBufferUchar</a>
-
 <a href="..\irb\nf-irb-ataportreadportbufferulong.md">AtaPortReadPortBufferUlong</a>
 
+
+
+<a href="..\irb\nf-irb-ataportreadportbufferuchar.md">AtaPortReadPortBufferUchar</a>
+
+
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
 
  
 

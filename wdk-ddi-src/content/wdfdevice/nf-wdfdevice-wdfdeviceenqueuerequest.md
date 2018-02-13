@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceEnqueueRequest method, kmdf.wdfdeviceenqueuerequest, PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, wdfdevice/WdfDeviceEnqueueRequest, wdf.wdfdeviceenqueuerequest, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml
+ms.keywords: PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest, kmdf.wdfdeviceenqueuerequest, WdfDeviceEnqueueRequest method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A handle to a framework request object.
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,7 +127,8 @@ The device's I/O queue is not accepting requests.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -133,7 +136,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver can call <b>WdfDeviceEnqueueRequest</b> only from an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function.
@@ -141,6 +146,7 @@ Your driver can call <b>WdfDeviceEnqueueRequest</b> only from an <a href="..\wdf
 The <b>WdfDeviceEnqueueRequest</b> method adds the request to the driver's request-type-specific I/O queue for the device, if the driver has created one. Otherwise the method adds the request to the device's default queue, if the driver has created one.
 
 If the driver has not created any I/O queues for the device, <b>WdfDeviceEnqueueRequest</b> does the following:
+
 <ul>
 <li>
 If the driver is a filter driver, <b>WdfDeviceEnqueueRequest</b> sends the request to the driver's I/O target.
@@ -150,7 +156,8 @@ If the driver is a filter driver, <b>WdfDeviceEnqueueRequest</b> sends the reque
 If the driver is not a filter driver, <b>WdfDeviceEnqueueRequest</b> returns STATUS_INVALID_DEVICE_REQUEST.
 
 </li>
-</ul>While <b>WdfDeviceEnqueueRequest</b> is executing, it is possible for the driver to receive and complete or cancel the request.
+</ul>
+While <b>WdfDeviceEnqueueRequest</b> is executing, it is possible for the driver to receive and complete or cancel the request.
 
 As a result, if the driver needs to use the request or its context after calling <b>WdfDeviceEnqueueRequest</b>, then it should take a reference on the request before calling <b>WdfDeviceEnqueueRequest</b>.
 
@@ -161,14 +168,82 @@ For more information about the <b>WdfDeviceEnqueueRequest</b> method, see <a hre
 For versions 1.0 and 1.5 of KMDF, <b>WdfDeviceEnqueueRequest</b> must be called at PASSIVE_LEVEL. For versions 1.7 and later, <b>WdfDeviceEnqueueRequest</b> can be called at IRQL &lt;= DISPATCH_LEVEL.
 
 
+#### Examples
+
+The following code example is an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function that looks for requests that contain the custom I/O control code, IOCTL_NONPNP_METHOD_NEITHER. If the I/O control code is not found, the callback function just returns the request to the framework. If the callback function finds the I/O control code, it preprocesses the request and then returns it to the framework. If an error is encountered, the callback function completes the request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtDeviceIoInCallerContext(
+    IN WDFDEVICE  Device,
+    IN WDFREQUEST Request
+    )
+{
+    NTSTATUS  status = STATUS_SUCCESS;
+    WDF_REQUEST_PARAMETERS  params;
+
+    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WdfRequestGetParameters(
+                            Request,
+                            &amp;params
+                            );
+    if(!(params.Type == WdfRequestTypeDeviceControl &amp;&amp;
+         params.Parameters.DeviceIoControl.IoControlCode == IOCTL_NONPNP_METHOD_NEITHER)) {
+        status = WdfDeviceEnqueueRequest(
+                                         Device,
+                                         Request
+                                         );
+        if(!NT_SUCCESS(status)) {
+            goto End;
+        }
+        return;
+    }
+    //
+    // Found a match for the control code. Preprocess the request, and then
+    // return the request to the framework.
+    //
+
+    //...(Preprocess the request here.)
+
+    status = WdfDeviceEnqueueRequest(
+                                     Device,
+                                     Request
+                                     );
+    if(!NT_SUCCESS(status)) {
+        goto End;
+    }
+    return;
+End:
+    WdfRequestComplete(
+                       Request,
+                       status
+                       );
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+
+
 
  
 

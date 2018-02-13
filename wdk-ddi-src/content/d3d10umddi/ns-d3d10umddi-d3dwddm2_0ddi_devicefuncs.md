@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dwddm2_0ddi_devicefuncs, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM2_0DDI_DEVICEFUNCS, d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS
+ms.keywords: display.d3dwddm2_0ddi_devicefuncs, d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM2_0DDI_DEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1101,5 +1101,6 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn
 ### -field pfnGetResourceLayout
 
  
+
 
 

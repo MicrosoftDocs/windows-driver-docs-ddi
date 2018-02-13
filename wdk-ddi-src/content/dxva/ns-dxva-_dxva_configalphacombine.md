@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 588d5e73-4ec2-486b-914f-7076949653ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_ConfigAlphaCombine, display.dxva_configalphacombine, dxva/LPDXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml, LPDXVA_ConfigAlphaCombine, dxva/DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine structure [Display Devices], *LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], DXVA_ConfigAlphaCombine"
+ms.keywords: display.dxva_configalphacombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml, dxva/DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, _DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine structure [Display Devices], dxva/LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], LPDXVA_ConfigAlphaCombine, *LPDXVA_ConfigAlphaCombine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,6 +117,8 @@ Specifies whether a whole-plane alpha opacity value can be applied to the graphi
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_blendcombination.md">DXVA_BlendCombination</a>
+
+
 
  
 

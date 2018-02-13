@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPortGetVgaStatus, display.videoportgetvgastatus, VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml
+ms.keywords: display.videoportgetvgastatus, video/VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, VideoPortGetVgaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is n
 ## -returns
 
 
+
 <b>VideoPortGetVgaStatus</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,13 +112,17 @@ The device was not a PCI device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://msdn.microsoft.com/ba15af67-94c0-4c37-8b3d-b1472e731d88">multiple monitor</a> system. 
+
 
 

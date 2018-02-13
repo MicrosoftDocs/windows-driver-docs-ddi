@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c26f9b28-396d-40de-bdc3-287fc3ac4113
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExFreePool routine [Kernel-Mode Driver Architecture], ExFreePool, wdm/ExFreePool, kernel.exfreepool, k102_134b475a-f669-4f1e-8836-f41945d7230c.xml
+ms.keywords: kernel.exfreepool, wdm/ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture], k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, ExFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Specifies the address of the block of pool memory being deallocated.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine releases memory allocated by <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>, or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>. The memory block must not be accessed after it is freed.
@@ -91,17 +94,28 @@ Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A cal
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>
+<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
+
+
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
+
+
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>
+
+
 
 <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
-<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
+
 
  
 

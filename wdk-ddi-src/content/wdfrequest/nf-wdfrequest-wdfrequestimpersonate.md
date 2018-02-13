@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestImpersonate method, wdf.wdfrequestimpersonate, WdfRequestImpersonate, wdfrequest/WdfRequestImpersonate, PFN_WDFREQUESTIMPERSONATE
+ms.keywords: wdf.wdfrequestimpersonate, wdfrequest/WdfRequestImpersonate, PFN_WDFREQUESTIMPERSONATE, WdfRequestImpersonate, WdfRequestImpersonate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,13 +96,16 @@ A pointer to a buffer that contains context information that is related to the i
 ## -returns
 
 
+
 If the <b>WdfRequestImpersonate</b> method encounters no errors, it returns STATUS_SUCCESS.
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfRequestImpersonate</b> method does not return until the <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a> event callback function completes.
@@ -111,11 +114,16 @@ For more information, see <a href="https://msdn.microsoft.com/02EA93CE-3C4D-4F6F
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1967f663-86ce-4e9d-9498-61951bdf4db0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndiscmnotifycloseaddressfamily, condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, ndis/NdisCmNotifyCloseAddressFamily, NdisCmNotifyCloseAddressFamily
+ms.keywords: NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, ndis/NdisCmNotifyCloseAddressFamily, netvista.ndiscmnotifycloseaddressfamily, NdisCmNotifyCloseAddressFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmNotifyCloseAddressFamily
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmNotifyCloseAddressFamily function
@@ -81,7 +81,9 @@ An NDIS handle that identifies the AF that NDIS should close. NDIS supplied this
 ## -returns
 
 
+
 <b>NdisCmNotifyCloseAddressFamily</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,11 +124,14 @@ NDIS failed the request for some NDIS or client driver-determined reason.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Stand-alone CoNDIS call managers, which register as NDIS protocol drivers by calling the 
@@ -150,21 +155,34 @@ If
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
    ProtocolCmNotifyCloseAfComplete</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
    NdisMCmNotifyCloseAddressFamily</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
 
  
 

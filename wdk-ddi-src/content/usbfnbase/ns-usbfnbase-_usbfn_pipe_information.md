@@ -7,8 +7,8 @@ old-location: buses\usbfn_pipe_information.htm
 old-project: usbref
 ms.assetid: F8BBD279-3694-4559-83B3-9312EF4153C0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfnbase/PUSBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, PUSBFN_PIPE_INFORMATION, _USBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION structure pointer [Buses], *PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses]
+ms.date: 2/8/2018
+ms.keywords: USBFN_PIPE_INFORMATION structure [Buses], *PUSBFN_PIPE_INFORMATION, usbfnbase/PUSBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, USBFN_PIPE_INFORMATION, _USBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION structure pointer [Buses], PUSBFN_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,9 +83,11 @@ The pipe identifier (ID).
 
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_PIPE_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_PIPE_INFORMATION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

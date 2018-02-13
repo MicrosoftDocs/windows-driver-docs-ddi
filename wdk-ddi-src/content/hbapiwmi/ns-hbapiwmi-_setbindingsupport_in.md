@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bdcd6f76-9a45-4687-b3ab-ece3e9419c44
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SetBindingSupport_IN, storage.setbindingsupport_in, PSetBindingSupport_IN, *PSetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], PSetBindingSupport_IN structure pointer [Storage Devices], structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml, hbapiwmi/SetBindingSupport_IN, hbapiwmi/PSetBindingSupport_IN, SetBindingSupport_IN"
+ms.keywords: storage.setbindingsupport_in, SetBindingSupport_IN structure [Storage Devices], hbapiwmi/PSetBindingSupport_IN, SetBindingSupport_IN, PSetBindingSupport_IN structure pointer [Storage Devices], structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml, *PSetBindingSupport_IN, hbapiwmi/SetBindingSupport_IN, _SetBindingSupport_IN, PSetBindingSupport_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,13 +81,17 @@ Contains a bitmap that indicates the ability of an HBA and its miniport driver t
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SetBindingSupport_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a>
+
+
 
  
 

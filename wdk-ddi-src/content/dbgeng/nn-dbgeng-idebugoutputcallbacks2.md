@@ -108,9 +108,15 @@ Returns notifications for the <b>IDebugOutputCallbacks2</b> interface.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbackswide.md">IDebugOutputCallbacksWide</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
 
  
 

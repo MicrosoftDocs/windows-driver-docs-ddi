@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDEREGS, LPIDEREGS structure pointer [Storage Devices], structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, IDEREGS, LPIDEREGS, ntdddisk/IDEREGS, IDEREGS structure [Storage Devices], PIDEREGS structure pointer [Storage Devices], _IDEREGS, *LPIDEREGS, ntdddisk/LPIDEREGS, storage.ideregs, *PIDEREGS, ntdddisk/PIDEREGS
+ms.keywords: "*PIDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, IDEREGS structure [Storage Devices], ntdddisk/IDEREGS, IDEREGS, storage.ideregs, LPIDEREGS, _IDEREGS, LPIDEREGS structure pointer [Storage Devices], PIDEREGS, PIDEREGS structure pointer [Storage Devices], ntdddisk/PIDEREGS, ntdddisk/LPIDEREGS, *LPIDEREGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ typedef struct _IDEREGS {
 ### -field bFeaturesReg
 
 Holds the contents of the Features register. This register is used to specify Self-Monitoring Analysis and Reporting Technology (SMART) commands. This member can hold any of the following values:
+
 <table>
 <tr>
 <th>Feature</th>
@@ -192,7 +193,8 @@ Enables offline mode when set to 1. Disables offline mode when 0.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bSectorCountReg
@@ -232,9 +234,13 @@ Reserved for future use. Should always be zero.
 
 ## -see-also
 
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
+
+
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+
 
  
 

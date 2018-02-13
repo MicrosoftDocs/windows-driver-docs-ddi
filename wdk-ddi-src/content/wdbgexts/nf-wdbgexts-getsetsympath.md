@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c7392c2-49c8-4b27-addc-0200eabbe87e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSetSympath, WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, GetSetSympath function [Windows Debugging], debugger.getsetsympath, wdbgexts/GetSetSympath
+ms.keywords: GetSetSympath, GetSetSympath function [Windows Debugging], WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, debugger.getsetsympath, wdbgexts/GetSetSympath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,13 +93,18 @@ Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current 
 ## -returns
 
 
+
 None
+
 <h2><a id="ddk_getsetsympath_dbwx"></a><a id="DDK_GETSETSYMPATH_DBWX"></a></h2>
+
 
 
 ## -remarks
 
 
+
 When the symbol path is changed, a call to <b>ReloadSymbols</b> is made implicitly.
+
 
 

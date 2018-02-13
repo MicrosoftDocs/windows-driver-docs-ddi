@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], LPD3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, *LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], display.d3dhal_dp2texblt, _D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT
+ms.keywords: D3DHAL_DP2TEXBLT structure [Display Devices], D3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, display.d3dhal_dp2texblt, _D3DHAL_DP2TEXBLT, *LPD3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,7 @@ Reserved for system use.
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a> callback creates the small integer handles to the textures that can be used as source and destination textures for texture blts.
 
 The D3DHAL_DP2TEXBLT structure is used with a D3DDP2OP_TEXBLT command stream token to inform the drivers to perform a blt operation from a source texture to a destination texture. A texture can also be cubic environment map. The driver should copy a rectangle specified by <b>rSrc</b> in the source texture to the location specified by <b>pDest</b> in the destination texture. The destination and source textures are identified by handles that the driver was notified with during texture creation time. If the driver is capable of managing textures, then it is possible that the destination handle is 0. This indicates to the driver that it should preload the texture into video memory (or wherever the hardware efficiently textures from). In this case, the driver can ignore <b>rSrc</b> and <b>pDest</b>. 
@@ -118,6 +119,7 @@ With TexBlt it is not necessary for the driver to perform any synchronization be
 <b>Sample</b>
 
 The following pseudocode shows how a subrectangle should be computed for consecutive MIP levels, to go to MIP level i + 1 from MIP level i: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,13 +137,20 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 </table></span></div>
 
 
+
 ## -see-also
+
+D3DDP2OP_TEXBLT
+
+
 
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
-D3DDP2OP_TEXBLT
+
 
  
 

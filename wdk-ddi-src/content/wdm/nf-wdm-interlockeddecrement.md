@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, InterlockedDecrement
+ms.keywords: kernel.interlockeddecrement, InterlockedDecrement, k102_cc85e517-f056-413e-a095-671867632613.xml, InterlockedDecrement routine [Kernel-Mode Driver Architecture], wdm/InterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to a variable to be decremented.
 ## -returns
 
 
+
 <b>InterlockedDecrement</b> returns the decremented value.
 
 
 
+
 ## -remarks
+
 
 
 <b>InterlockedDecrement</b> should be used instead of <b>ExInterlockedDecrementLong</b> because it is both more efficient and faster. 
@@ -98,15 +101,24 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
+
+
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
 
 <a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
 
  
 

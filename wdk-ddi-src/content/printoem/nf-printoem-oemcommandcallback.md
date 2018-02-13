@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0ac9c56d-f03d-4082-a7df-c21db12c0d74
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMCommandCallback, print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml, OEMCommandCallback function [Print Devices], printoem/OEMCommandCallback, print.oemcommandcallback
+ms.keywords: OEMCommandCallback, OEMCommandCallback function [Print Devices], print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml, print.oemcommandcallback, printoem/OEMCommandCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,15 +73,11 @@ INT APIENTRY OEMCommandCallback(
 ### -param pdevobj
 
 
-
 ### -param dwCallbackID
-
 
 
 ### -param dwCount
 
 
-
 ### -param pdwParams [in]
-
 

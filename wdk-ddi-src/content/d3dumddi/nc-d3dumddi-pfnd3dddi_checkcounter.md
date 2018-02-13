@@ -87,13 +87,10 @@ _Check_return_ HRESULT APIENTRY* pfnCheckCounter(
 ### -param D3DDDIQUERYTYPE
 
 
-
 ### -param *
 
 
-
 ### -param LPSTR
-
 
 
 ### -param *pNameLength [in, out, optional]
@@ -101,6 +98,7 @@ _Check_return_ HRESULT APIENTRY* pfnCheckCounter(
 An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
 
 Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i> parameters:
+
 <ul>
 <li><i>pNameLength</i> can be <b>NULL</b>, in which case the app doesn't need the name or name length.</li>
 <li> If <i>pszName</i> is <b>NULL</b> and <i>pNameLength</i> is not <b>NULL</b>, the input value of <i>pNameLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pNameLength</i> parameter. </li>
@@ -112,6 +110,7 @@ Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i>
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
 
 Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</i> parameters:
+
 <ul>
 <li><i>pUnitsLength</i> can be <b>NULL</b>, in which case the app doesn't need the unit name or unit name length.</li>
 <li> If <i>pszUnits</i> is <b>NULL</b> and <i>pUnitsLength</i> is not <b>NULL</b>, the input value of <i>pUnitsLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pUnitsLength</i> parameter. </li>
@@ -123,6 +122,7 @@ Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
 
 Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszDescription</i> parameters:
+
 <ul>
 <li><i>pDescriptionLength</i> can be <b>NULL</b>, in which case the app doesn't need the unit name or unit name length.</li>
 <li> If <i>pszDescription</i> is <b>NULL</b> and <i>pDescriptionLength</i> is not <b>NULL</b>, the input value of <i>pDescriptionLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pDescriptionLength</i> parameter. </li>
@@ -137,6 +137,7 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
 #### - pType [out]
 
 A pointer to a variable that receives one of the following values from the <b>D3DDDI_COUNTER_TYPE</b> enumeration that identifies the data type that the counter outputs.
+
 <table>
 <tr>
 <th>Value</th>
@@ -182,7 +183,8 @@ D3DDDI_COUNTER_TYPE_UINT64
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pActiveCounters [out]
@@ -214,7 +216,9 @@ Can be <b>NULL</b>, in which case the app doesn't need the description info. See
 ## -returns
 
 
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code, including the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -233,11 +237,14 @@ Even though all strings used in this function are based on Unicode, they are alw
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function should behave similarly to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a> function that supports Microsoft Direct3D 10 and later.
@@ -251,11 +258,16 @@ If a counter ID can always be monitored (and it doesn't interfere with monitorin
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7631baa9-6d5a-44b6-ac19-2b3ecaac9293
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksqueryobjectaccessmask, ksfunc_f79d4971-874e-4efd-ab73-d88cdd573991.xml, KsQueryObjectAccessMask function [Streaming Media Devices], ks/KsQueryObjectAccessMask, KsQueryObjectAccessMask
+ms.keywords: KsQueryObjectAccessMask function [Streaming Media Devices], ks/KsQueryObjectAccessMask, ksfunc_f79d4971-874e-4efd-ab73-d88cdd573991.xml, KsQueryObjectAccessMask, stream.ksqueryobjectaccessmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ Points to a header previously allocated by <b>KsAllocateObjectHeader</b> whose a
 ## -returns
 
 
+
 The <b>KsQueryObjectAccessMask</b> function returns an access mask.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
+
+
 
  
 

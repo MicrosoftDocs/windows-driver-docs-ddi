@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9cdc0fc-e292-4142-a070-50a25a2a5673
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PAddPort_IN, PAddPort_IN structure pointer [Storage Devices], storage.addport_in, hbapiwmi/AddPort_IN, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml, AddPort_IN structure [Storage Devices], PAddPort_IN, AddPort_IN, *PAddPort_IN, _AddPort_IN
+ms.keywords: storage.addport_in, hbapiwmi/AddPort_IN, _AddPort_IN, *PAddPort_IN, PAddPort_IN structure pointer [Storage Devices], AddPort_IN structure [Storage Devices], hbapiwmi/PAddPort_IN, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml, AddPort_IN, PAddPort_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddPort_IN
 product: Windows
 targetos: Windows
-req.typenames: AddPort_IN, *PAddPort_IN
+req.typenames: "*PAddPort_IN, AddPort_IN"
 ---
 
 # _AddPort_IN structure
@@ -75,6 +75,8 @@ Contains a worldwide name that indicates the port whose events are to be reporte
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a>
+
+
 
  
 

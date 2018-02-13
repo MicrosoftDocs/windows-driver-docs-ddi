@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock interface [Streaming Media Devices], GetState method, stream.iksreferenceclock_getstate, GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, IKsReferenceClock::GetState, ks/IKsReferenceClock::GetState, GetState method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock, GetState method [Streaming Media Devices]
+ms.keywords: IKsReferenceClock, GetState method [Streaming Media Devices], IKsReferenceClock interface, stream.iksreferenceclock_getstate, GetState, ks/IKsReferenceClock::GetState, GetState method [Streaming Media Devices], IKsReferenceClock::GetState, IKsReferenceClock interface [Streaming Media Devices], GetState method, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,11 +75,14 @@ Points to a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> structure that indicat
 ## -returns
 
 
+
 The <b>IKsReferenceClock::GetState</b> method returns STATUS_SUCCESS or  the error code that the relevant clock returned from its <b>GetState</b> property. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565093">KSPROPERTY_CLOCK_STATE</a>.  May return STATUS_DEVICE_NOT_READY if no clock is assigned.
 
 
 
+
 ## -remarks
+
 
 
 For more information, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a>.
@@ -88,11 +91,16 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
+
+
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
 
  
 

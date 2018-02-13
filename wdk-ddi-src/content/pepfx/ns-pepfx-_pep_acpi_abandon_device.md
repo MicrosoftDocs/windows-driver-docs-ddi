@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A8D0FA24-664F-4A2B-BF08-300D6E30F7E2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_ABANDON_DEVICE, *PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PEP_ACPI_ABANDON_DEVICE, pepfx/PEP_ACPI_ABANDON_DEVICE, pepfx/PPEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_abandon_device, _PEP_ACPI_ABANDON_DEVICE
+ms.keywords: "*PPEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ABANDON_DEVICE, pepfx/PEP_ACPI_ABANDON_DEVICE, kernel.pep_acpi_abandon_device, pepfx/PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,21 @@ typedef struct _PEP_ACPI_ABANDON_DEVICE {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a> notification. This notification provides an opportunity for the PEP to clean up any remaining device state after the operating system has abandoned the device. The <b>AcpiDeviceName</b> member of the structure contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <b>DeviceAccepted</b> member contains an output value that the PEP writes to the structure in response to the notification.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
+
 
  
 

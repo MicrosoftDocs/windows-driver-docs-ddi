@@ -85,20 +85,26 @@ A function pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstring
 
 
 
+
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
+
 
 
 
 ## -remarks
 
 
+
 This function is free-threaded.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstringtableentry.md">LogMarkerStringTableEntry</a>
+
+
 
  
 

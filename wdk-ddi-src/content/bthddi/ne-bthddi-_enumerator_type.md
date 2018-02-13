@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_SERVICE, *PENUMERATOR_TYPE, bltooth.enumerator_type, ENUMERATOR_TYPE_MAX, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, bthddi/PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_MAX, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], _ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_SERVICE, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, ENUMERATOR_TYPE enumeration [Bluetooth Devices]
+ms.keywords: ENUMERATOR_TYPE_SERVICE, bltooth.enumerator_type, bthddi/ENUMERATOR_TYPE_SERVICE, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], *PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], ENUMERATOR_TYPE_MAX, _ENUMERATOR_TYPE, ENUMERATOR_TYPE_PROTOCOL, bthddi/ENUMERATOR_TYPE_MAX, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, bthddi/PENUMERATOR_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -86,13 +86,13 @@ This value should be specified for profile drivers. For more information about h
 ### -field ENUMERATOR_TYPE_DEVICE
 
 
-
 ### -field ENUMERATOR_TYPE_MAX
 
 For internal use only. Do not use.
 
 
 ## -remarks
+
 
 
 A value from this enumeration is returned as the 
@@ -103,12 +103,17 @@ A value from this enumeration is returned as the
 
 
 
+
 ## -see-also
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
 
+
+
 <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
+
+
 
  
 

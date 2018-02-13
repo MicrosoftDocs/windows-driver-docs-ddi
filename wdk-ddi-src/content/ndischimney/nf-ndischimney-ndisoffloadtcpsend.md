@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2743bbb-a6fa-4b7e-8087-132e221a5624
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NdisOffloadTcpSend, NdisOffloadTcpSend, netvista.ndisoffloadtcpsend, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml
+ms.keywords: tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml, NdisOffloadTcpSend, ndischimney/NdisOffloadTcpSend, netvista.ndisoffloadtcpsend, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,13 +96,16 @@ A pointer to a
 ## -returns
 
 
+
 The 
      <b>NdisOffloadTcpSend</b> function always returns NDIS_STATUS_PENDING. The send operation is always
      completed asynchronously.
 
 
 
+
 ## -remarks
+
 
 
 In response to a call to its 
@@ -114,6 +117,7 @@ In response to a call to its
 
 To the 
     <b>NdisOffloadTcpSend</b> function, the intermediate driver passes the following:
+
 <ul>
 <li>
 An 
@@ -128,27 +132,41 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
       <i>MiniportTcpOffloadSend</i> function.
 
 </li>
-</ul>When the underlying driver or offload target subsequently completes the send operation by calling the 
+</ul>
+When the underlying driver or offload target subsequently completes the send operation by calling the 
     <b>NdisTcpOffloadSendComplete</b> function, NDIS calls the intermediate driver's 
     <i>ProtocolOffloadSendComplete</i> function. The intermediate driver then calls the 
     <b>NdisTcpOffloadSendComplete</b> function to propagate the completion of the send operation.
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+
+
 
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
    ProtocolTcpOffloadSendComplete</a>
 
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
  
 

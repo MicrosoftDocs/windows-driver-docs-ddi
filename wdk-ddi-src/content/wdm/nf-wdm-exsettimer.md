@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exsettimer, wdm/ExSetTimer, ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exsettimer, ExSetTimer, wdm/ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,14 @@ A pointer to an <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAME
 ## -returns
 
 
+
 This routine returns <b>TRUE</b> if it cancels a timer that was pending at the time that the routine was called. Otherwise, the routine returns <b>FALSE</b>. For more information, see Remarks.
 
 
 
+
 ## -remarks
+
 
 
 Your driver can call this routine to set a timer to expire at a future time. The driver can then wait for the timer to expire. Or, the driver can implement a callback routine that is called when the timer expires.
@@ -126,21 +129,36 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
+## -see-also
 
 <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
+
+
 
  
 

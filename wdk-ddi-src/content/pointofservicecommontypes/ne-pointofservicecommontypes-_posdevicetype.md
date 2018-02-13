@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1e0b4b66-f9aa-4315-a07d-b6fd47f10371
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posdevicetype, PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_Max, PosDeviceType, PosDeviceType enumeration, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType_CashDrawer, PosDeviceType_Unknown, PosDeviceType_Printer, PosDeviceType_CashDrawer, PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType, PosDeviceType_Max, _PosDeviceType, pointofservicecommontypes/PosDeviceType_Unknown, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_Printer
+ms.keywords: "_PosDeviceType, PosDeviceType_Unknown, PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_CashDrawer, PosDeviceType_BarcodeScanner, pos.posdevicetype, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, PosDeviceType enumeration, PosDeviceType, pointofservicecommontypes/PosDeviceType_Max, pointofservicecommontypes/PosDeviceType, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_Printer, PosDeviceType_Max, pointofservicecommontypes/PosDeviceType_Unknown, PosDeviceType_MagneticStripeReader, PosDeviceType_CashDrawer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -98,7 +98,6 @@ Indicates that the type of device is a cash drawer.
 
 
 ### -field PosDeviceType_LineDisplay
-
 
 
 ### -field PosDeviceType_Max

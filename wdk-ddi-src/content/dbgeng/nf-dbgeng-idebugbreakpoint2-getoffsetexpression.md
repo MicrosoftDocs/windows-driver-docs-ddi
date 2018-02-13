@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint2, debugger.getoffsetexpression, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetOffsetExpression, GetOffsetExpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint2::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method
+ms.keywords: GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetOffsetExpression, debugger.getoffsetexpression, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, dbgeng/IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint::GetOffsetExpression, GetOffsetExpression method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,6 +88,7 @@ The size, in characters, of the expression string.  If <i>ExpressionSize</i> is 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +116,16 @@ The method was successful, but the buffer was not large enough to hold the expre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The expression is evaluated every time that a module is loaded or unloaded.  If the debugger cannot evaluate the expression (for example, if the expression contains a symbol that cannot be interpreted), the breakpoint is flagged as deferred. (For more information about deferred breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.)
@@ -129,5 +133,6 @@ The expression is evaluated every time that a module is loaded or unloaded.  If 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the size of the expression string that specifies the location that triggers the breakpoint, <i>ExpressionSize</i>.
 
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

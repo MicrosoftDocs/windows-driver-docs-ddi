@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e06b82f7-2b48-47e8-b6fa-c86b790e8019
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FCPBINDING, hbaapi/PHBA_FCPBINDING, PHBA_FCPBINDING, HBA_FCPBINDING structure [Storage Devices], *PHBA_FCPBINDING, HBA_FCPBinding, structs-Fibre_c02a809a-3b65-4e19-93e0-c72a0aead81c.xml, storage.hba_fcpbinding, hbaapi/HBA_FCPBinding, PHBA_FCPBINDING structure pointer [Storage Devices], HBA_FCPBinding structure [Storage Devices]
+ms.keywords: PHBA_FCPBINDING structure pointer [Storage Devices], HBA_FCPBinding, hbaapi/PHBA_FCPBINDING, storage.hba_fcpbinding, HBA_FCPBINDING, structs-Fibre_c02a809a-3b65-4e19-93e0-c72a0aead81c.xml, HBA_FCPBinding structure [Storage Devices], HBA_FCPBINDING structure [Storage Devices], *PHBA_FCPBINDING, PHBA_FCPBINDING, hbaapi/HBA_FCPBinding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,11 @@ Contains a variable length array of structures of type <a href="..\hbaapi\ns-hba
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
 
+
+
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+
 
  
 

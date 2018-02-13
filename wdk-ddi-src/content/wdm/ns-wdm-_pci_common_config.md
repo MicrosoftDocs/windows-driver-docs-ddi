@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPCI_COMMON_CONFIG, kernel.pci_common_config, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], wdm/PCI_COMMON_CONFIG, PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PPCI_COMMON_CONFIG, _PCI_COMMON_CONFIG, PCI_COMMON_CONFIG"
+ms.keywords: kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], PCI_COMMON_CONFIG, kernel.pci_common_config, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], _PCI_COMMON_CONFIG, PPCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG, wdm/PCI_COMMON_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_COMMON_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
+req.typenames: "*PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -100,6 +100,7 @@ Contains any device-specific initialization information that is available.
 ### -field PCI_COMMON_HEADER
 
  
+
 
 
 
@@ -208,47 +209,56 @@ Zero indicates that the device does not support built-in self-test. Otherwise, t
 Drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a> to configure these values and to get back the bus-relative values passed to other configuration routines.
 
 
-#### BaseAddresses
+
+##### BaseAddresses
 
 Base addresses.
 
 
-#### Reserved1
+
+##### Reserved1
 
 Reserved.
 
 
-#### ROMBaseAddress
+
+##### ROMBaseAddress
 
 ROM base address.
 
 
-#### Reserved2
+
+##### Reserved2
 
 Reserved.
 
 
-#### InterruptLine
+
+##### InterruptLine
 
 Interrupt line number.
 
 
-#### InterruptPin
+
+##### InterruptPin
 
 Interrupt pin number.
 
 
-#### MinimumGrant
+
+##### MinimumGrant
 
 Minimum grant.
 
 
-#### MaximumLatency
+
+##### MaximumLatency
 
 Maximum latency.
 
 
 ## -remarks
+
 
 
 Certain members of this structure have read-only values, so attempts to reset them are ignored. These members include the following: <b>VendorID</b>, <b>DeviceID</b>, <b>RevisionID</b>, <b>ProgIf</b>, <b>SubClass</b>, <b>BaseClass</b>, <b>HeaderType</b>, <b>InterruptPin</b>, <b>MinimumGrant</b>, and <b>MaximumLatency.</b>
@@ -257,17 +267,28 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
 
  
 

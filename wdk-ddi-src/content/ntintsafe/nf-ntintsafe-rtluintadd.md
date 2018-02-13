@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABF392BD-7B05-417E-AFD8-4EE7E64F9FC2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUIntAdd, RtlUIntAdd, RtlUIntAdd function [Kernel-Mode Driver Architecture], kernel.rtluintadd
+ms.keywords: kernel.rtluintadd, RtlUIntAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntAdd, RtlUIntAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,12 +87,15 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>
 RtlUInt32Add
 </li>
 </ul>
+
 

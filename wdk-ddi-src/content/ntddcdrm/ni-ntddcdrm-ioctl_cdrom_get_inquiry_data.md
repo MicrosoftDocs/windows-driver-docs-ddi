@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_INQUIRY_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_INQUIRY_DATA IOCTL
@@ -88,14 +88,18 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the returned in
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,7 +111,9 @@ The <b>Information</b> field contains the number of bytes returned in the output
 ## -remarks
 
 
+
 TBD
+
 
 
 
@@ -115,7 +121,11 @@ TBD
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
+
+
 <a href="..\scsi\ns-scsi-_inquirydata.md">INQUIRYDATA</a>
+
+
 
  
 

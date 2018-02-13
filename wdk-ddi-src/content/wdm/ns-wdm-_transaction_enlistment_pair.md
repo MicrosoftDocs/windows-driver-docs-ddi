@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8d49d61-f15e-4972-bcd2-d20f1be5786c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PTRANSACTION_ENLISTMENT_PAIR, _TRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, kernel.transaction_enlistment_pair, PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_ENLISTMENT_PAIR"
+ms.keywords: "*PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], wdm/TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, _TRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_ENLISTMENT_PAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSACTION_ENLISTMENT_PAIR
 product: Windows
 targetos: Windows
-req.typenames: TRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR
+req.typenames: "*PTRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR"
 req.product: Windows 10 or later.
 ---
 
@@ -82,15 +82,21 @@ A GUID that KTM has assigned to the resource manager that created the enlistment
 ## -remarks
 
 
+
 The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
-<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
+
 
  
 

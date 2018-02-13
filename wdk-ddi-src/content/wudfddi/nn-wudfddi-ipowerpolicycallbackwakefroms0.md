@@ -102,6 +102,8 @@ A driver's <a href="https://msdn.microsoft.com/ebcd31f9-79cd-4c43-8cac-231ff97f2
 ## -remarks
 
 
+
 If your driver supports an <b>IPowerPolicyCallbackWakeFromS0</b> interface for a device, the <b>IUnknown::QueryInterface</b> method that the driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> must return the interface. 
+
 
 

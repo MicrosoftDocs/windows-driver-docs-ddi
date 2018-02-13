@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 71e2f946-706d-41bc-9d9c-d63230877e48
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidsdi/HidD_FreePreparsedData, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, HidD_FreePreparsedData, hid.hidd_freepreparseddata, HidD_FreePreparsedData routine [Human Input Devices]
+ms.keywords: HidD_FreePreparsedData routine [Human Input Devices], hidsdi/HidD_FreePreparsedData, hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, HidD_FreePreparsedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HidD_FreePreparsedData
 product: Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # HidD_FreePreparsedData function
@@ -75,11 +75,14 @@ Pointer to the buffer, returned by <a href="..\hidsdi\nf-hidsdi-hidd_getpreparse
 ## -returns
 
 
+
 <b>HidD_FreePreparsedData</b> returns <b>TRUE</b> if it succeeds. Otherwise, it returns <b>FALSE</b> if the buffer was not a preparsed data buffer.
 
 
 
+
 ## -remarks
+
 
 
 Only user-mode applications can call <b>HidD_FreePreparsedData</b>.
@@ -90,11 +93,16 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 
  
 

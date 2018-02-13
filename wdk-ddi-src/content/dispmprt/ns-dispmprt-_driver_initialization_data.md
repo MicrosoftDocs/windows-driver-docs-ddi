@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DRIVER_INITIALIZATION_DATA structure [Display Devices], _DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], dispmprt/PDRIVER_INITIALIZATION_DATA, display.driver_initialization_data, PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, dispmprt/DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA, DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml
+ms.keywords: dispmprt/PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, DRIVER_INITIALIZATION_DATA structure [Display Devices], DRIVER_INITIALIZATION_DATA, _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -409,7 +409,9 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 ### -field DxgkDdiCreateOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function.
-<div class="alert"><b>Note</b>  The following 5 functions are specific to the graphics context device that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>:</div><div> </div>
+
+<div class="alert"><b>Note</b>  The following 5 functions are specific to the graphics context device that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>:</div>
+<div> </div>
 
 ### -field DxgkDdiDestroyDevice
 
@@ -434,7 +436,9 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 ### -field DxgkDdiPresent
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function.
-<div class="alert"><b>Note</b>  The following 3 functions are specific to the overlay that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>:</div><div> </div>
+
+<div class="alert"><b>Note</b>  The following 3 functions are specific to the overlay that was created through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>:</div>
+<div> </div>
 
 ### -field DxgkDdiUpdateOverlay
 
@@ -449,7 +453,9 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 ### -field DxgkDdiDestroyOverlay
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyoverlay.md">DxgkDdiDestroyOverlay</a> function.
-<div class="alert"><b>Note</b>  The following 2 functions are specific to supporting contexts:</div><div> </div>
+
+<div class="alert"><b>Note</b>  The following 2 functions are specific to supporting contexts:</div>
+<div> </div>
 
 ### -field DxgkDdiCreateContext
 
@@ -469,7 +475,9 @@ A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk
 ### -field DxgkDdiSetDisplayPrivateDriverFormat
 
 A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat.md">DxgkDdiSetDisplayPrivateDriverFormat</a> function.
-<div class="alert"><b>Note</b>  The following 6 <a href="https://msdn.microsoft.com/F92F15A7-439D-4D45-84EE-A92D1E6AD779">reserved functions</a> declared in Dispmrt.h are available beginning with Windows 7:</div><div> </div>
+
+<div class="alert"><b>Note</b>  The following 6 <a href="https://msdn.microsoft.com/F92F15A7-439D-4D45-84EE-A92D1E6AD779">reserved functions</a> declared in Dispmrt.h are available beginning with Windows 7:</div>
+<div> </div>
 
 ### -field DxgkDdiDescribePageTable
 
@@ -523,7 +531,9 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
      
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
-<div class="alert"><b>Note</b>  The following 3 functions are available beginning with Windows 7:</div><div> </div>
+
+<div class="alert"><b>Note</b>  The following 3 functions are available beginning with Windows 7:</div>
+<div> </div>
 
 ### -field DxgkDdiRenderKm
 
@@ -550,7 +560,9 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
      
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
-<div class="alert"><b>Note</b>  The following 12 functions, including one reserved function, are available beginning with Windows 8:</div><div> </div>
+
+<div class="alert"><b>Note</b>  The following 12 functions, including one reserved function, are available beginning with Windows 8:</div>
+<div> </div>
 
 ### -field DxgkDdiSetPowerComponentFState
 
@@ -894,10 +906,13 @@ Supported starting with Windows 8.1.
 
 
 
+
 ## -remarks
 
 
+
 The following <b>typedef</b> declarations provide function data types from data types that are dereferenced pointers to functions:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -1001,9 +1016,12 @@ typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK;
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+
+
 
  
 

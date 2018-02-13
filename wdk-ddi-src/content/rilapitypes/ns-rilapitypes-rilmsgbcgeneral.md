@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7202683f-5e02-48dd-b8b7-cb998fd660df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMSGBCGENERAL, netvista.rilmsgbcgeneral_2, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], *LPRILMSGBCGENERAL, RILMSGBCGENERAL
+ms.keywords: RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGBCGENERAL, netvista.rilmsgbcgeneral_2, RILMSGBCGENERAL, *LPRILMSGBCGENERAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,59 +85,44 @@ typedef struct _RILMSGBCGENERAL {
 ### -field dwGeoScope
 
 
-
 ### -field dwMsgCode
-
 
 
 ### -field dwUpdateNumber
 
 
-
 ### -field dwID
-
 
 
 ### -field dwSerialNumber
 
 
-
 ### -field rmdDataCoding
-
 
 
 ### -field dwTotalPages
 
 
-
 ### -field dwPageNumber
-
 
 
 ### -field dwWarningType
 
 
-
 ### -field bEmergencyUserAlert
-
 
 
 ### -field bMessagePopup
 
 
-
 ### -field stSCReceiveTime
-
 
 
 ### -field digSig
 
 
-
 ### -field cchMsgLength
 
 
-
 ### -field rgbMsg
-
 

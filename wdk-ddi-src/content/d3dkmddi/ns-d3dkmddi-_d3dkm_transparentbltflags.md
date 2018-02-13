@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ac87e6e-bc24-45fe-b0c5-d253dd03da16
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags, _D3DKM_TRANSPARENTBLTFLAGS
+ms.keywords: d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, _D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags, DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,13 +91,17 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 ## -remarks
 
 
+
 For more information about how to use the members of this structure, see <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
+
+
 
  
 

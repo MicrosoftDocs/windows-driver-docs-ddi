@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, print.drvconvertdevmode, winddiui/DrvConvertDevMode, DrvConvertDevMode, DrvConvertDevMode function [Print Devices]
+ms.keywords: DrvConvertDevMode function [Print Devices], winddiui/DrvConvertDevMode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, print.drvconvertdevmode, DrvConvertDevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvConvertDevMode
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -100,12 +100,12 @@ Caller-supplied bit flag indicating the type of operation to be performed. This 
 
 
 
-
-
-
 #### CDM_CONVERT
 
 The function should convert the contents of the input DEVMODEW structure (pointed to by <i>pdmIn</i>) into a new DEVMODEW structure, and place the result in the DEVMODEW structure pointed to by <i>pdmOut</i>. The initial contents of the received output DEVMODEW structure (pointed to by <i>pdmOut</i>) should be used to determine the output version.
+
+
+
 
 
 #### CDM_CONVERT351
@@ -113,6 +113,9 @@ The function should convert the contents of the input DEVMODEW structure (pointe
 The function should convert the contents of the input DEVMODEW structure (pointed to by <i>pdmIn</i>), creating an output DEVMODEW structure that is compatible with Windows NT 3.51, and place the result in the DEVMODEW structure pointed to by <i>pdmOut</i>.
 
 If the driver does not support a DEVMODEW structure for Windows NT 3.51, the function should convert the input DEVMODEW to the current version.
+
+
+
 
 
 #### CDM_DRIVER_DEFAULT
@@ -123,11 +126,14 @@ The function should copy the current version of its default DEVMODEW structure t
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>; otherwise, it should call SetLastError to set an error code, and return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 In a client/server environment, a client might be running one version of the operating system or printer driver while the server (spooler) is running another, which means a printer's DEVMODEW structure definition might be inconsistent between the client and server. The <b>DrvConvertDevMode</b> function must be capable of performing conversions from one version of the printer's DEVMODEW structure to another.
@@ -141,5 +147,6 @@ The function should verify that both <i>pdmIn</i> and <i>pdmOut</i> (if applicab
 The <b>DrvConvertDevMode</b> function runs in the spooler's context and must therefore not display a user interface.
 
 When <b>DrvConvertDevMode</b> is called with a <b>NULL</b> DEVMODEW structure pointer in the <i>pdmOut </i>parameter to get the buffer size, the driver is expected to set the last error to ERROR_INSUFFICIENT_BUFFER. If the last error is not set to this value, the spooler assumes a general error.
+
 
 

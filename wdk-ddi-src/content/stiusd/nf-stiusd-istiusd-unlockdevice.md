@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ae19ae38-3bca-42c8-8713-68bb161104b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UnLockDevice method [Imaging Devices], IStiUSD interface, UnLockDevice method [Imaging Devices], IStiUSD interface [Imaging Devices], UnLockDevice method, stiusd/IStiUSD::UnLockDevice, image.istiusd_unlockdevice, IStiUSD::UnLockDevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, UnLockDevice, IStiUSD
+ms.keywords: UnLockDevice, IStiUSD interface [Imaging Devices], UnLockDevice method, image.istiusd_unlockdevice, stiusd/IStiUSD::UnLockDevice, IStiUSD::UnLockDevice, UnLockDevice method [Imaging Devices], IStiUSD interface, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, IStiUSD, UnLockDevice method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,23 +67,30 @@ STDMETHODIMP UnLockDevice();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 If a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543829">IStiUSD::LockDevice</a> method called <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>, then <b>IStiUSD::UnlockDevice</b> should call <b>CloseHandle</b>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>
+
+
 
  
 

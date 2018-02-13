@@ -96,14 +96,18 @@ Length of the buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,10 +119,12 @@ The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or
 ## -remarks
 
 
+
 By requirement, a lamp whose driver supports the <b>GUID_DEVINTERFACE_LAMP</b> interface is required to support emitting white light.
 
 The payload of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_capabilities_white.md">LAMP_CAPABILITIES_WHITE</a> structure.
 
 The <b>IsLightIntensityAdjustable</b> field indicates whether the luminance level can be programmed. If this field evaluates to <b>FALSE</b>, it means that the underlying device only supports the on/off switch and the light intensity cannot be adjusted.
+
 
 

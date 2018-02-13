@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSIDENTIFIER structure pointer [Streaming Media Devices], ks/PKSIDENTIFIER, *PKSEVENT, ks/KSIDENTIFIER, KSPIN_MEDIUM, KSPROPERTY, KSIDENTIFIER, *PKSPIN_INTERFACE, KSPIN_INTERFACE, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, *PKSMETHOD, *PKSPROPERTY, KSEVENT, KSDEGRADE, PKSIDENTIFIER, *PKSPIN_MEDIUM, *PKSIDENTIFIER, *PKSDEGRADE, KSIDENTIFIER structure [Streaming Media Devices], stream.ksidentifier, KSMETHOD
+ms.keywords: "*PKSPIN_MEDIUM, KSPROPERTY, KSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSIDENTIFIER structure [Streaming Media Devices], *PKSDEGRADE, PKSIDENTIFIER structure pointer [Streaming Media Devices], *PKSMETHOD, stream.ksidentifier, *PKSEVENT, *PKSPIN_INTERFACE, ks/KSIDENTIFIER, PKSIDENTIFIER, KSPIN_INTERFACE, ks/PKSIDENTIFIER, *PKSIDENTIFIER, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSEVENT, KSIDENTIFIER, KSMETHOD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSIDENTIFIER
 product: Windows
 targetos: Windows
-req.typenames: KSIDENTIFIER, *PKSIDENTIFIER
+req.typenames: "*PKSIDENTIFIER, KSIDENTIFIER"
 ---
 
 # KSIDENTIFIER structure
@@ -117,6 +117,7 @@ Not used.  A member of an unnamed union used to force proper alignment on the un
 ## -remarks
 
 
+
 The <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>, <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>, and <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structures are aliases for the KSIDENTIFIER structure. As such, their definitions are identical. 
 
 The use of an ID within the set allows one to perform a single large compare for a set identifier, then smaller quick compares (for example, by using a switch statement for identifiers within a set). For example, a <i>property set</i> is referred to by a unique GUID identifier, and properties within that set are referred to by the short ID.
@@ -125,13 +126,20 @@ The use of an ID within the set allows one to perform a single large compare for
 
 
 
+
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+
 
  
 

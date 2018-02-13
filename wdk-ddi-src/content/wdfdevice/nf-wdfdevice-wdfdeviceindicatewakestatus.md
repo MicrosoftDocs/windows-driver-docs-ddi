@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6581a309-1a6d-4795-a55c-327215ea18ee
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINDICATEWAKESTATUS, wdf.wdfdeviceindicatewakestatus, WdfDeviceIndicateWakeStatus method, wdfdevice/WdfDeviceIndicateWakeStatus, WdfDeviceIndicateWakeStatus, kmdf.wdfdeviceindicatewakestatus, DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml
+ms.keywords: wdf.wdfdeviceindicatewakestatus, kmdf.wdfdeviceindicatewakestatus, WdfDeviceIndicateWakeStatus, WdfDeviceIndicateWakeStatus method, DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml, PFN_WDFDEVICEINDICATEWAKESTATUS, wdfdevice/WdfDeviceIndicateWakeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ An NTSTATUS status value. If the device triggered a wake signal, the caller must
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceIndicateWakeStatus</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,7 +128,8 @@ The calling driver is not responsible for waiting for the device to trigger a wa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -134,11 +137,34 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>(<i>WaitWakeStatus</i>) equals <b>TRUE</b>, the framework will restore the device and system to their working states. If NT_SUCCESS(<i>WaitWakeStatus</i>) equals <b>FALSE</b>, the device and system will remain in their current states.
 
 For more information about calling the <b>WdfDeviceIndicateWakeStatus</b> method, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1-a032-04348b903ac5">Supporting System Wake-Up</a>.
+
+
+#### Examples
+
+The following code example informs the framework that the specified device has triggered a wake signal.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status;
+
+status = WdfDeviceIndicateWakeStatus(
+                                     hChild,
+                                     STATUS_SUCCESS
+                                     );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

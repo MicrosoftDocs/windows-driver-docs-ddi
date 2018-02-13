@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: beec5516-6191-4b70-8c80-ddbaedbad5c0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpAppendNodeToContainerNode, sdplib/SdpAppendNodeToContainerNode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, bltooth.sdpappendnodetocontainernode, SdpAppendNodeToContainerNode function [Bluetooth Devices]
+ms.keywords: SdpAppendNodeToContainerNode function [Bluetooth Devices], bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, sdplib/SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode, bltooth.sdpappendnodetocontainernode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpAppendNodeToContainerNode
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: SD_TRANSFER_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,7 @@ TBD
 
 
 
+
 #### - Child [in]
 
 The SDP node to add to the parent node.
@@ -91,11 +92,14 @@ The SDP node to add to the parent node.
 ## -returns
 
 
+
 Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 Use the 
@@ -114,13 +118,20 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
 
+
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
+
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
 
  
 

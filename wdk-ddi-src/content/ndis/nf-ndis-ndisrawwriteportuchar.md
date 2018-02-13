@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9fcbf570-d272-4373-86ca-8466fb5fc18c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawWritePortUchar, ndis/NdisRawWritePortUchar, miniport_port_raw_ref_00cc5f8f-4965-4cc3-bdc6-25dcf2128582.xml, NdisRawWritePortUchar macro [Network Drivers Starting with Windows Vista], netvista.ndisrawwriteportuchar
+ms.keywords: NdisRawWritePortUchar, miniport_port_raw_ref_00cc5f8f-4965-4cc3-bdc6-25dcf2128582.xml, ndis/NdisRawWritePortUchar, NdisRawWritePortUchar macro [Network Drivers Starting with Windows Vista], netvista.ndisrawwriteportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisRawWritePortUchar
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisRawWritePortUchar macro
@@ -83,24 +83,38 @@ Specifies the byte to be written.
 ## -remarks
 
 
+
 <b>NdisRawWritePortUchar</b> runs fast because it need not map a bus-relative I/O port address onto a
     host-dependent logical port address at every call.
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-
-<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+
+
 
  
 

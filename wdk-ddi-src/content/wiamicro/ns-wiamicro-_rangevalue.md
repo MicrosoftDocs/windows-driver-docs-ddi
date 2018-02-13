@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/PRANGEVALUE, PRANGEVALUE, image.rangevalue, RANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, RANGEVALUE structure [Imaging Devices], PRANGEVALUE structure pointer [Imaging Devices], _RANGEVALUE, wiamicro/RANGEVALUE, *PRANGEVALUE
+ms.keywords: wiamicro/PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], PRANGEVALUE, wiamicro/RANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, _RANGEVALUE, *PRANGEVALUE, image.rangevalue, RANGEVALUE, RANGEVALUE structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

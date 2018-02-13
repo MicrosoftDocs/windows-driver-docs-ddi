@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d241b0ee-7b13-453d-ac6a-015b82effb95
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisDeviceStateMaximum, ntddndis/PNDIS_DEVICE_POWER_STATE, netvista.ndis_device_power_state, NdisDeviceStateD0, NdisDeviceStateMaximum, _NDIS_DEVICE_POWER_STATE, ntddndis/NDIS_DEVICE_POWER_STATE, NdisDeviceStateD1, ntddndis/NdisDeviceStateD3, ntddndis/NdisDeviceStateD0, NDIS_DEVICE_POWER_STATE, NdisDeviceStateD2, PNDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD2, NdisDeviceStateUnspecified, ntddndis/NdisDeviceStateD1, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisDeviceStateUnspecified, NdisDeviceStateD3
+ms.keywords: ntddndis/NdisDeviceStateD3, NdisDeviceStateD1, *PNDIS_DEVICE_POWER_STATE, NdisDeviceStateD0, PNDIS_DEVICE_POWER_STATE, ntddndis/NDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateMaximum, NdisDeviceStateUnspecified, ntddndis/NdisDeviceStateD0, netvista.ndis_device_power_state, NDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD2, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NdisDeviceStateD2, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisDeviceStateUnspecified, NdisDeviceStateMaximum, NdisDeviceStateD3, ntddndis/NdisDeviceStateD1, ntddndis/PNDIS_DEVICE_POWER_STATE, _NDIS_DEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -124,26 +124,45 @@ The maximum value for this enumeration. Reserved for system use. Do not use this
 ## -remarks
 
 
+
 Depending on the capabilities of the network adapter and its miniport driver, the device might be able to generate a wake-up signal from device states D0 through D3.
-<div class="alert"><b>Note</b>  If the wake-up signal is generated from D0, the signal does not cause a system wake-up. However, the wake-up signal can be used to signal a run-time event.</div><div> </div><b>NDIS_DEVICE_POWER_STATE</b> enumeration values are used in the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>, <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>,  and <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structures, the <a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a> function, and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a> OID requests.
+
+<div class="alert"><b>Note</b>  If the wake-up signal is generated from D0, the signal does not cause a system wake-up. However, the wake-up signal can be used to signal a run-time event.</div>
+<div> </div>
+<b>NDIS_DEVICE_POWER_STATE</b> enumeration values are used in the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>, <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>,  and <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a> structures, the <a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a> function, and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a> OID requests.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
 
 <a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters.md">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberExpressionSyntaxes method [Windows Debugging], debugger.getnumberexpressionsyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, GetNumberExpressionSyntaxes, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, IDebugControl3, GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface
+ms.keywords: GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3::GetNumberExpressionSyntaxes, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl3, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, debugger.getnumberexpressionsyntaxes, GetNumberExpressionSyntaxes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Receives the number of expression syntaxes.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,19 +94,29 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546708">GetExpressionSyntaxNames</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+
+
 
  
 

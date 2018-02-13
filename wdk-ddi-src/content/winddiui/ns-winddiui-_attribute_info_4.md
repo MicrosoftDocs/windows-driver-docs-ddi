@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09071fff-834b-452b-ae1e-b75c9f191b15
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, _ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], winddiui/ATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4, PATTRIBUTE_INFO_4, print.attribute_info_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml
+ms.keywords: print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], _ATTRIBUTE_INFO_4, winddiui/PATTRIBUTE_INFO_4, print.attribute_info_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], PATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4, winddiui/ATTRIBUTE_INFO_4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ATTRIBUTE_INFO_4
 product: Windows
 targetos: Windows
-req.typenames: "*PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4"
+req.typenames: ATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,7 @@ Number of document pages that the printer and driver can place on one side of a 
 ### -field dwNupBorderFlags
 
 One of the following bit flag values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -120,12 +121,14 @@ The print processor should not draw a border around the page.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwJobPageOrderFlags
 
 One of the following bit flag values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -161,7 +164,8 @@ Pages should be printed in reverse order: last page, next-to-last page, and so o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwDrvPageOrderFlags
@@ -182,6 +186,7 @@ Maximum number of copies the printer and driver can handle at once, taking into 
 ### -field dwColorOptimization
 
 One of the following bit flag values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -207,7 +212,8 @@ The print processor should not use monochrome color optimization.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dmPrintQuality
@@ -224,6 +230,7 @@ Value to be used instead of the <b>dmYResolution</b> member of the print job's D
 ### -field dwDuplexFlags
 
 One of the following bit flag values used in duplex printing:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -251,7 +258,8 @@ The print processor should reverse the order of page pairs when printing in reve
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Set to 0 if your driver does not require any of these options.
 
@@ -259,6 +267,7 @@ Set to 0 if your driver does not require any of these options.
 ### -field dwNupDirection
 
 One of the following bit flag values used in N-up printing:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -304,7 +313,8 @@ The print processor should provide page images in sequence from top to bottom, t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This flag is considered only if <b>dwJobNumberOfPagesPerSide</b> and/or <b>dwDrvNumberOfPagesPerSide</b> indicate that N-up printing is active. For more information, see the descriptions  above for <b>dwJobNumberOfPagesPerSide</b> and <b>dwDrvNumberOfPagesPerSide</b>.
 
@@ -312,6 +322,7 @@ This flag is considered only if <b>dwJobNumberOfPagesPerSide</b> and/or <b>dwDrv
 ### -field dwBookletFlags
 
 If <b>dwJobPageOrderFlags</b> is set to BOOKLET_PRINT, one of the following values. 
+
 <table>
 <tr>
 <th>Flag</th>
@@ -337,7 +348,8 @@ The print processor should print pages in a right-to-left booklet layout, where 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <b>dwJobPageOrderFlags</b> is not set to BOOKLET_PRINT, <b>dwBookletFlags </b>is set to 0.
 
@@ -347,14 +359,19 @@ This flag is considered only if the <b>dwJobPageOrderFlags</b> member is set to 
 ### -field dwScalingPercentX
 
 Scaling percentage in the horizontal (x) direction with respect to the normal paper size. Must be in the range of 1 to 1000. Set to 100 if scaling will not be done.
-<div class="alert"><b>Note</b>    To ensure predictable printing results, <b>dwScalingPercentX</b> and <b>dwScalingPercentY</b> must have the same value.</div><div> </div>
+
+<div class="alert"><b>Note</b>    To ensure predictable printing results, <b>dwScalingPercentX</b> and <b>dwScalingPercentY</b> must have the same value.</div>
+<div> </div>
 
 ### -field dwScalingPercentY
 
 Scaling percentage in the vertical (y) direction with respect to the normal paper size. Must be in the range of 1 to 1000. Set to 100 if scaling will not be done.
-<div class="alert"><b>Note</b>    To ensure predictable printing results, <b>dwScalingPercentX</b> and <b>dwScalingPercentY</b> must have the same value.</div><div> </div>
+
+<div class="alert"><b>Note</b>    To ensure predictable printing results, <b>dwScalingPercentX</b> and <b>dwScalingPercentY</b> must have the same value.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 If the <b>dmPrintQuality</b> member of a print job's DEVMODEW structure is a negative value, such as DMRES_HIGH, and if monochrome color optimization is enabled, then switching between color and monochrome could result in different resolutions being used. This is because DMRES_HIGH might be assigned to different DPI values for color and monochrome rendering. (For Unidrv-supported devices, this assignment occurs in the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file.) To ensure a consistent resolution throughout the print job, the driver can specify positive <b>dmPrintQuality</b> and <b>dmYResolution</b> values (representing a specific DPI resolution) to override the equivalent <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> values. 
@@ -369,17 +386,28 @@ This structure is available in Windows Vista.
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
 
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
+
+
+<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
+
+
+
 <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+
 
  
 

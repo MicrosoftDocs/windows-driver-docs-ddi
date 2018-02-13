@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: feb5e4cf-7e23-434e-9dc5-bb445a6f5606
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateTimerObject, ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateTimerObject, netvista.ndisallocatetimerobject
+ms.keywords: NdisAllocateTimerObject, ndis/NdisAllocateTimerObject, netvista.ndisallocatetimerobject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAllocateTimerObject
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateTimerObject function
@@ -97,7 +97,9 @@ A pointer to an NDIS timer object handle that NDIS provides to identify the time
 ## -returns
 
 
+
 <b>NdisAllocateTimerObject</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +150,14 @@ None of the preceding status values apply.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To use timer services, an NDIS driver first calls the 
@@ -173,15 +178,24 @@ To free a timer object, you must call the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+
 
  
 

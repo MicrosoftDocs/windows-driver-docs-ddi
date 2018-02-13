@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS, DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, DXGK_TRANSFERFLAGS structure [Display Devices], _DXGK_TRANSFERFLAGS, display.dxgk_transferflags
+ms.keywords: DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, _DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS structure [Display Devices], display.dxgk_transferflags, d3dkmddi/DXGK_TRANSFERFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,9 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 ## -remarks
 
 
+
 You can set the transfer-operation type by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that DXGK_TRANSFERFLAGS contains.
+
 
 
 
@@ -133,7 +135,11 @@ You can set the transfer-operation type by setting bits in the 32-bit <b>Value</
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+
 
  
 

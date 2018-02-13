@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS, kernel.memory_information_class, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], MemoryBasicInformation, _MEMORY_INFORMATION_CLASS, ntifs/MemoryBasicInformation
+ms.keywords: ntifs/MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS, _MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ntifs/MemoryBasicInformation, kernel.memory_information_class, MemoryBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,13 +75,17 @@ Memory information described in the <a href="..\ntifs\ns-ntifs-_memory_basic_inf
 ## -remarks
 
 
+
 Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> routine.
+
 
 
 
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
+
+
 
  
 

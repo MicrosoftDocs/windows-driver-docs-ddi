@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 11FA2777-93AA-4833-8726-4C6E5FADD0B9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUIntPtrToInt16, RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16
+ms.keywords: kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], RtlUIntPtrToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: D782F879-A016-46CA-AF96-1230C22A71C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DriverUnifiedPosPowerState enumeration, pointofservicecommontypes/DriverUnifiedPosPowerState, DriverUnifiedPosPowerState, pointofservicecommontypes/, pos.driverunifiedpospowerstate
+ms.keywords: DriverUnifiedPosPowerState enumeration, DriverUnifiedPosPowerState, pointofservicecommontypes/DriverUnifiedPosPowerState, pos.driverunifiedpospowerstate, pointofservicecommontypes/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -70,21 +70,16 @@ typedef enum _DriverUnifiedPosPowerState {
 ### -field PowerStateUnknown
 
 
-
 ### -field PowerStateOnline
-
 
 
 ### -field PowerStateOff
 
 
-
 ### -field PowerStateOffline
 
 
-
 ### -field PowerStateOffOffline
-
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1af8dc98-9fee-4029-970f-462fdf80fdc9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPrePrepareComplete, wdm/NtPrePrepareComplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], NtPrePrepareComplete, wdm/ZwPrePrepareComplete, kernel.zwprepreparecomplete, ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml
+ms.keywords: ZwPrePrepareComplete, NtPrePrepareComplete, wdm/ZwPrePrepareComplete, ZwPrePrepareComplete routine [Kernel-Mode Driver Architecture], ktm_ref_f34acd5c-6983-4f8a-86ca-968dde152526.xml, wdm/NtPrePrepareComplete, kernel.zwprepreparecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>ZwPrePrepareComplete</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +135,16 @@ The caller does not have appropriate access to the enlistment object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 A resource manager must call <b>ZwPrePrepareComplete</b> after it has finished servicing a TRANSACTION_NOTIFY_PREPREPARE <a href="https://msdn.microsoft.com/62169b56-e70f-4d32-a051-a7fd947dbc64">notification</a>.
@@ -152,17 +157,28 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
 
-<a href="..\wdm\nf-wdm-tmprepreparecomplete.md">TmPrePrepareComplete</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmprepreparecomplete.md">TmPrePrepareComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
 
  
 

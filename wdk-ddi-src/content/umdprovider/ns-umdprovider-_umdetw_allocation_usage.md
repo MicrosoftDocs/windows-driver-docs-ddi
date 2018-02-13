@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDETW_ALLOCATION_USAGE, umdprovider/UMDETW_ALLOCATION_USAGE, _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, UMDETW_ALLOCATION_USAGE structure [Display Devices]
+ms.keywords: display.umdetw_allocation_usage, _UMDETW_ALLOCATION_USAGE, umdprovider/UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,6 +104,8 @@ A 32-bit value that specifies the allocation mapping.
 ## -see-also
 
 <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E52550D-0A81-4C72-9A82-7C13BC3EFE00
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExCancelTimer, kernel.excanceltimer, ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.excanceltimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], wdm/ExCancelTimer, ExCancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ Drivers must set this parameter to <b>NULL</b>.
 ## -returns
 
 
+
 This routine returns <b>TRUE</b> if the timer was canceled. Otherwise, the routine returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 After your driver calls the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine to set the timer, the timer might be canceled before it expires. The driver can call the <b>ExCancelTimer</b> routine to explicitly cancel a pending timer. Also, if the driver calls the <b>ExSetTimer</b> routine to set a new timer on a timer object before a previously set timer on this object expires, this <b>ExSetTimer</b> call implicitly cancels the previous timer and then starts the new timer.
@@ -100,13 +103,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exallocatetimer.md">ExAllocateTimer</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
 
 <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+
+
 
  
 

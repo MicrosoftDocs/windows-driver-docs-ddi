@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a38c089b-a5f4-4fd2-ab94-ead53228c5e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_ReadMsg, netvista.ril_readmsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], RIL_ReadMsg
+ms.keywords: netvista.ril_readmsg, RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], rilapi/RIL_ReadMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_ReadMsg(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwIndex
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

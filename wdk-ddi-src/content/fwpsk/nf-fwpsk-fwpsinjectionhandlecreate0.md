@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61cee8ef-1070-46d4-a541-94a9f09b593b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0, netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml
+ms.keywords: FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml, netvista.fwpsinjectionhandlecreate0, FwpsInjectionHandleCreate0, fwpsk/FwpsInjectionHandleCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,9 +82,6 @@ The address family for which the injection handle is being created. This can be 
 
 
 
-For transport, stream, and forward injections, this parameter is optional and can be set to
-     AF_UNSPEC, which indicates an unspecified address family. This value is defined in 
-     Ws2def.h.
 
 
 #### AF_UNSPEC
@@ -92,14 +89,20 @@ For transport, stream, and forward injections, this parameter is optional and ca
 The address family is unspecified.
 
 
+
 #### AF_INET
 
 The IPv4 address family.
 
 
+
 #### AF_INET6
 
 The IPv6 address family.
+
+For transport, stream, and forward injections, this parameter is optional and can be set to
+     AF_UNSPEC, which indicates an unspecified address family. This value is defined in 
+     Ws2def.h.
 
 
 ### -param flags [in]
@@ -110,9 +113,6 @@ A flag value set by a callout driver to indicate the type of data to be injected
 
 
 
- To create an injection handle to be used by multiple injection functions, combine the
-     injection type bits with bitwise OR operations. If the flag value is set to zero, the resulting
-     injection handle can be used for transport, stream, and forward injections.
 
 
 #### FWPS_INJECTION_TYPE_FORWARD
@@ -120,6 +120,7 @@ A flag value set by a callout driver to indicate the type of data to be injected
 Packet data will be injected by calling the 
        <a href="..\fwpsk\nf-fwpsk-fwpsinjectforwardasync0.md">
        FwpsInjectForwardAsync0</a> function.
+
 
 
 #### FWPS_INJECTION_TYPE_NETWORK
@@ -131,11 +132,13 @@ Network data will be injected by calling either the
        FwpsInjectNetworkSendAsync0</a> function.
 
 
+
 #### FWPS_INJECTION_TYPE_STREAM
 
 Stream data will be injected by calling the 
        <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">
        FwpsStreamInjectAsync0</a> function.
+
 
 
 #### FWPS_INJECTION_TYPE_TRANSPORT
@@ -146,6 +149,10 @@ Transport data will be injected by calling either the
        <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync0.md">
        FwpsInjectTransportSendAsync0</a> function.
 
+ To create an injection handle to be used by multiple injection functions, combine the
+     injection type bits with bitwise OR operations. If the flag value is set to zero, the resulting
+     injection handle can be used for transport, stream, and forward injections.
+
 
 ### -param injectionHandle [out]
 
@@ -155,8 +162,10 @@ A pointer to a variable that receives the handle.
 ## -returns
 
 
+
 The 
      <b>FwpsInjectionHandleCreate0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -196,11 +205,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -224,14 +236,21 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
    FwpsQueryPacketInjectionState0</a>
 
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
+
 
  
 

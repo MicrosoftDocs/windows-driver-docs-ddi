@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsPendClassify0, FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
+ms.keywords: netvista.fwpspendclassify0, fwpsk/FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml, FwpsPendClassify0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,8 +112,10 @@ Set to the
 ## -returns
 
 
+
 The 
      <b>FwpsPendClassify0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,11 +155,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>FwpsPendClassify0</b> puts the classification of the indicated event in a pended state. A callout
@@ -180,19 +185,32 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
 
  
 

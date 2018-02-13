@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, ScsiPortReadPortUshort, srb/ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], storage.scsiportreadportushort
+ms.keywords: ScsiPortReadPortUshort routine [Storage Devices], scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, ScsiPortReadPortUshort, storage.scsiportreadportushort, srb/ScsiPortReadPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,20 +77,26 @@ Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space ran
 ## -returns
 
 
+
 <b>ScsiPortReadPortUshort</b> returns a USHORT value from the HBA's I/O port.
+
 
 
 
 ## -remarks
 
 
+
 <b>ScsiPortReadPortUshort</b> ensures that the data is transferred correctly.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

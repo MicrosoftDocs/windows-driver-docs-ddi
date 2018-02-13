@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3f8cc918-9819-4c32-93f3-dbc2c1023016
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE structure [Display Devices], D3DDDIARG_DRAWINDEXEDPRIMITIVE, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE, UMDisplayDriver_param_Structs_241177c0-f301-4b49-93cb-5c75ca8cb30a.xml, display.d3dddiarg_drawindexedprimitive, _D3DDDIARG_DRAWINDEXEDPRIMITIVE
+ms.keywords: UMDisplayDriver_param_Structs_241177c0-f301-4b49-93cb-5c75ca8cb30a.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE structure [Display Devices], d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE, display.d3dddiarg_drawindexedprimitive, D3DDDIARG_DRAWINDEXEDPRIMITIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,13 +105,17 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime does not transform the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a> function. 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
+
+
 
  
 

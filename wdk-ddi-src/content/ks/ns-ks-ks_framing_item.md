@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KS_FRAMING_ITEM structure [Streaming Media Devices], *PKS_FRAMING_ITEM, PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, stream.ks_framing_item, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks/KS_FRAMING_ITEM
+ms.keywords: KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_FLAG_CAN_ALLOCATE, *PKS_FRAMING_ITEM, ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/PKS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], KS_FRAMING_ITEM, ks/KS_FRAMING_ITEM, stream.ks_framing_item, PKS_FRAMING_ITEM, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,19 +76,10 @@ typedef struct {
 
 
 
-### -field FileAlignment
-
-Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
-
-
-### -field FramePitch
-
- 
-
-
 ### -field MemoryType
 
 Specifies the type of memory used for buffers and data frames. There is a partial correspondence between this member and the <b>PoolType</b> member in the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure. The two members differ in that <b>PoolType</b> allows only paged or nonpaged pool. <b>MemoryType</b> can have any of the values listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -154,12 +145,14 @@ Indicates device memory allocation type is not specified.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BusType
 
 Specifies the physical bus accessing the physical memory specified by <i>MemoryType</i>. Use this field to determine a compatible memory type based on the bus that is used for the connection medium. This distinction is crucial when a pin exposes different memory types based on the connection medium. <b>BusType</b> can have any of the values listed in the following table.
+
 <table>
 <tr>
 <th>Type</th>
@@ -215,7 +208,8 @@ GUID_61883_CLASS
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MemoryFlags
@@ -233,29 +227,39 @@ Not used.
 Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure, with the addition of the following flags that add support for pipes.
 
 
-#### )
+
+##### )
 
 
 
-#### )
+##### )
 
 
 
-#### )
+###### )
 
 
 
-#### )
+##### )
 
 
 
-#### )
-
+##### )
 
 
 ### -field Frames
 
 Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
+
+
+### -field FileAlignment
+
+Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
+
+
+### -field FramePitch
+
+ 
 
 
 ### -field MemoryTypeWeight
@@ -276,23 +280,35 @@ A structure of type <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMIN
 ## -remarks
 
 
+
 Do not set KSALLOCATOR_FLAG_CAN_ALLOCATE to indicate memory addressing capability. A filter might be able to access the device-specific memory over a device-specific bus by referencing the memory address on this bus, and yet not support the protocol to allocate this device-specific memory.
 
 Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> instance contains one or more framing items.
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
-
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 <a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
 
+
+
+<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
+
+
+
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
+
+
 <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
+
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
 
  
 

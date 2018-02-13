@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2D3D8927-74E3-438F-94CF-63456C7C7BBC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type, _DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type, _DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

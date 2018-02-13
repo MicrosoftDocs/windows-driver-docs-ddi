@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a32a7c6a-16dd-4d12-aa32-6bdb60990568
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], kernel.read_port_buffer_uchar, READ_PORT_BUFFER_UCHAR, k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml
+ms.keywords: wdm/READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR, kernel.read_port_buffer_uchar, k103_020afa73-5210-42d8-a2a5-dc9ac663af2c.xml, READ_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,15 +89,19 @@ Specifies the number of bytes to be read into the buffer.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 Callers of <b>READ_PORT_BUFFER_UCHAR</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.
+
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13c449c6-6e2b-434e-8948-62c8af237173
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml, storage.tapeclasslidiv, TapeClassLiDiv, minitape/TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices]
+ms.keywords: TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices], tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml, minitape/TapeClassLiDiv, storage.tapeclasslidiv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,6 +82,8 @@ Contains the divisor.
 ## -returns
 
 
+
 <b>TapeClassLiDiv</b> returns the result of the division. 
+
 
 

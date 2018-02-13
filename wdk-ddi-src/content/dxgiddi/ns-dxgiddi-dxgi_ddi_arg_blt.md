@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 695f2aff-cce3-4358-a9e2-48eea43e8ef5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxgiddi/DXGI_DDI_ARG_BLT, DXGI_DDI_ARG_BLT, UMDisplayDriver_Dx10param_Structs_299fa1c4-8c06-4a7e-a81c-741eb2e8c00a.xml, DXGI_DDI_ARG_BLT structure [Display Devices], display.dxgi_ddi_arg_blt
+ms.keywords: UMDisplayDriver_Dx10param_Structs_299fa1c4-8c06-4a7e-a81c-741eb2e8c00a.xml, dxgiddi/DXGI_DDI_ARG_BLT, display.dxgi_ddi_arg_blt, DXGI_DDI_ARG_BLT structure [Display Devices], DXGI_DDI_ARG_BLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,11 +134,17 @@ typedef struct DXGI_DDI_ARG_BLT {
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
+
+
+
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
+
+
 
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
+
 
  
 

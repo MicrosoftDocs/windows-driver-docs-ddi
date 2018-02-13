@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0ecfed3e-477a-4014-8491-1a8997ac5b90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_PortalInfo structure pointer [Storage Devices], ISCSI_PortalInfo structure [Storage Devices], structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml, _ISCSI_PortalInfo, *PISCSI_PortalInfo, ISCSI_PortalInfo, iscsimgt/ISCSI_PortalInfo, storage.iscsi_portalinfo, iscsimgt/PISCSI_PortalInfo, PISCSI_PortalInfo
+ms.keywords: "*PISCSI_PortalInfo, iscsimgt/PISCSI_PortalInfo, PISCSI_PortalInfo, ISCSI_PortalInfo, storage.iscsi_portalinfo, _ISCSI_PortalInfo, iscsimgt/ISCSI_PortalInfo, PISCSI_PortalInfo structure pointer [Storage Devices], structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml, ISCSI_PortalInfo structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,6 +82,7 @@ The unique port number associated with this portal.
 ### -field PortalType
 
 The type of portal. This member can have the following symbolic constant values, which are defined in <i>Iscsimgt.h</i>.
+
 <table>
 <tr>
 <th>Portal Type</th>
@@ -107,7 +108,8 @@ The portal that the target uses to access the network. In a target, a portal is 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Protocol
@@ -144,7 +146,11 @@ The portal group tag to which the portal belongs.
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561559">ISCSI_PortalInfo WMI Class</a>
+
+
 
  
 

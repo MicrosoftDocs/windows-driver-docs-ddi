@@ -40,7 +40,7 @@ apiname:
 -	EvtIoWrite
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -93,11 +93,14 @@ The number of bytes to be written.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver registers an <i>EvtIoWrite</i> callback function when it calls <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>. For more information about calling <b>WdfIoQueueCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
@@ -128,14 +131,59 @@ A driver's <i>EvtIoWrite</i> callback function should not call the following que
 
 
 
+#### Examples
+
+To define an <i>EvtIoWrite</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+For example, to define an <i>EvtIoWrite</i> callback function that is named <i>MyIoWrite</i>, use the <b>EVT_WDF_IO_QUEUE_IO_WRITE</b> type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_WDF_IO_QUEUE_IO_WRITE  MyIoWrite;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+VOID
+ MyIoWrite (
+    WDFQUEUE  Queue,
+    WDFREQUEST  Request,
+    size_t  Length
+    )
+..{...}</pre>
+</td>
+</tr>
+</table></span></div>
+The <b>EVT_WDF_IO_QUEUE_IO_WRITE</b> function type is defined in the Wdfio.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_IO_QUEUE_IO_WRITE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-US/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+
+
+
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_default.md">EvtIoDefault</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
 
  
 

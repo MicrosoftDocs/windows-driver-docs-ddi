@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 24e28912-13d1-460f-8d32-78bb3715adc6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthioctl/PBTH_RADIO_INFO, BTH_RADIO_INFO, _BTH_RADIO_INFO, *PBTH_RADIO_INFO, bltooth.bth_radio_info, BTH_RADIO_INFO structure [Bluetooth Devices], PBTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], bthioctl/BTH_RADIO_INFO, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml
+ms.keywords: "*PBTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], bthioctl/BTH_RADIO_INFO, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml, PBTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], BTH_RADIO_INFO, _BTH_RADIO_INFO, bltooth.bth_radio_info, bthioctl/PBTH_RADIO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,7 @@ The major version number for the LMP that is used by the local radio.
 ## -remarks
 
 
+
 The BTH_RADIO_INFO structure is returned as part of the output buffer of 
     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>. The local
     radio information is returned in the 
@@ -101,11 +102,16 @@ The BTH_RADIO_INFO structure is returned as part of the output buffer of
 
 
 
+
 ## -see-also
 
 <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a>
 
+
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe2
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,8 @@ The <a href="https://msdn.microsoft.com/accb2690-0ab7-4623-8493-545e6e722a7a">Co
 ## -remarks
 
 
+
 Drivers obtain the <b>IWDFUsbTargetPipe2</b> interface by calling <b>IWDFUsbTargetPipe::QueryInterface</b>.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInitializeSListHead, netvista.ndisinitializeslisthead, ndis/NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, ndis/NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], netvista.ndisinitializeslisthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisInitializeSListHead
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInitializeSListHead macro
@@ -78,6 +78,7 @@ A pointer to the caller-supplied list head to be initialized, which must be in r
 ## -remarks
 
 
+
 <b>NdisInitializeSListHead</b> zero-initializes the opaque list head at 
     <i>SListHead</i> and sets the first-entry pointer to <b>NULL</b>.
 
@@ -109,19 +110,30 @@ If
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+   NdisInitializeNPagedLookasideList</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
    NdisInterlockedPushEntrySList</a>
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
-   NdisInitializeNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+
+
 
  
 

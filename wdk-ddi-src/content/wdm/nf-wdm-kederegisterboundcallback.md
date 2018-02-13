@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 697709D4-DBB7-4CB4-83A1-89E8BAFD68DA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeDeregisterBoundCallback, KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.kederegisterboundcallback
+ms.keywords: KeDeregisterBoundCallback, kernel.kederegisterboundcallback, wdm/KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ Specifies the value returned by <a href="..\wdm\nf-wdm-keregisterboundcallback.m
 ## -returns
 
 
+
 The <b>KeDeregisterBoundCallback</b> routine returns STATUS_SUCCESS if the callback is successfully removed. It returns STATUS_INVALID_HANDLE if no callback matching the provided <i>Handle</i> value is found.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>
+
+
 
  
 

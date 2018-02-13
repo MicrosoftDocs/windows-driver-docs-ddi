@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5854BB6A-EB5F-493A-96E4-0DF298EC0332
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetManagedStatusWide method [Windows Debugging], IDebugControl4, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetManagedStatusWide, GetManagedStatusWide, IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method, IDebugControl4::GetManagedStatusWide, debugger.idebugcontrol4_getmanagedstatuswide
+ms.keywords: dbgeng/IDebugControl4::GetManagedStatusWide, GetManagedStatusWide, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, debugger.idebugcontrol4_getmanagedstatuswide, IDebugControl4::GetManagedStatusWide, IDebugControl4, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,9 @@ A pointer to an output string.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,16 +119,20 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
     Managed debugging support relies on debugging
     functionality provided by the CLR.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

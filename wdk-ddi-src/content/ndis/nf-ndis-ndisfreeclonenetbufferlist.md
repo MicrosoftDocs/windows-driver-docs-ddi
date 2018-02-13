@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3c632d54-8eb2-475b-8cdf-363028f67437
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeCloneNetBufferList, ndis/NdisFreeCloneNetBufferList, ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml, netvista.ndisfreeclonenetbufferlist, NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneNetBufferList, NdisFreeCloneNetBufferList, netvista.ndisfreeclonenetbufferlist, ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeCloneNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeCloneNetBufferList function
@@ -89,9 +89,11 @@ NDIS flags that can be combined with an OR operation. The following flags are de
 
 
 
+
 #### NDIS_CLONE_FLAGS_RESERVED
 
 Reserved for NDIS.
+
 
 
 #### NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS
@@ -106,11 +108,14 @@ If this flag is set, NDIS did not allocate new MDLs for the cloned NET_BUFFER_LI
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The caller must specifiy the same flags that it specified in the 
@@ -120,14 +125,21 @@ The caller must specifiy the same flags that it specified in the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
    NdisAllocateCloneNetBufferList</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 
  
 

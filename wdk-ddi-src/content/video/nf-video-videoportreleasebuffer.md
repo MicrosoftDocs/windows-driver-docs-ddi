@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 627f43e7-1561-4822-b2b6-a49b54550bf5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReleaseBuffer, VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, VideoPortReleaseBuffer function [Display Devices], video/VideoPortReleaseBuffer, display.videoportreleasebuffer
+ms.keywords: VideoPortReleaseBuffer function [Display Devices], video/VideoPortReleaseBuffer, display.videoportreleasebuffer, VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, VideoPortReleaseBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,20 +84,26 @@ Specifies the address of the block of pool memory being deallocated.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This function releases memory allocated by <a href="..\video\nf-video-videoportallocatebuffer.md">VideoPortAllocateBuffer</a>. A miniport driver must not access the memory block to which <i>Buffer</i> points after it has been freed. 
+
 
 
 
 ## -see-also
 
 <a href="..\video\nf-video-videoportallocatebuffer.md">VideoPortAllocateBuffer</a>
+
+
 
  
 

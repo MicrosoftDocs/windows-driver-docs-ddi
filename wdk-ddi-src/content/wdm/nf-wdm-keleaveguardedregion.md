@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 189a3589-0d43-4f87-b889-f1f092190ffa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeLeaveGuardedRegion, KeLeaveGuardedRegion routine [Kernel-Mode Driver Architecture], wdm/KeLeaveGuardedRegion, kernel.keleaveguardedregion, k105_a2582957-39b0-45dd-810c-7ab03d97d6a6.xml
+ms.keywords: KeLeaveGuardedRegion, KeLeaveGuardedRegion routine [Kernel-Mode Driver Architecture], k105_a2582957-39b0-45dd-810c-7ab03d97d6a6.xml, kernel.keleaveguardedregion, wdm/KeLeaveGuardedRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,14 +67,18 @@ VOID KeLeaveGuardedRegion(void);
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Guarded regions can be nested, so APCs are only reenabled once the thread exists the outermost guarded region.
@@ -83,9 +87,12 @@ For more information about guarded regions, see <a href="https://msdn.microsoft.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keenterguardedregion.md">KeEnterGuardedRegion</a>
+
+
 
  
 

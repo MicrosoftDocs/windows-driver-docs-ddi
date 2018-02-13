@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f436ac1-1e36-449c-a23f-b5729e5a20c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactiondmacompletedwithlength, wdf.wdfdmatransactiondmacompletedwithlength, DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength, PFN_WDFDMATRANSACTIONDMACOMPLETEDWITHLENGTH, WdfDmaTransactionDmaCompletedWithLength method
+ms.keywords: wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength, PFN_WDFDMATRANSACTIONDMACOMPLETEDWITHLENGTH, kmdf.wdfdmatransactiondmacompletedwithlength, DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, wdf.wdfdmatransactiondmacompletedwithlength, WdfDmaTransactionDmaCompletedWithLength method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionDmaCompletedWithLength
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,7 @@ A pointer to a location that receives the status of the DMA transfer. For more i
 ## -returns
 
 
+
 <b>WdfDmaTransactionDmaCompletedWithLength</b> returns <b>FALSE</b> and <i>Status</i> receives STATUS_MORE_PROCESSING_REQUIRED if additional transfers are needed to complete the DMA transaction. The method returns <b>TRUE</b> if no additional transfers are required. 
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -99,7 +100,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 When your driver calls the <b>WdfDmaTransactionDmaCompletedWithLength</b> method, the framework ends the current transfer and, if necessary, starts a new one.
@@ -109,14 +112,68 @@ The <b>WdfDmaTransactionDmaCompletedWithLength</b> method behaves the same as <a
 For more information about completing DMA transfers, see <a href="https://msdn.microsoft.com/86383b9f-9b82-4afa-81ac-2ab09bd8778b">Completing a DMA Transfer</a>.
 
 
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PLX9x5x</a> sample driver. This example calls <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetcurrentdmatransferlength.md">WdfDmaTransactionGetCurrentDmaTransferLength</a> to determine the current transfer's original length, and then it calculates the actual transfer length. Next, the example calls <b>WdfDmaTransactionDmaCompletedWithLength</b> to report the actual transfer length to the framework. If the current transfer is the last one for the transaction, the example calls a private routine that completes the I/O request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN  hasTransitioned;
+PDMA_TRANSFER_ELEMENT  dteVA;
+ULONG  length;
+//
+// Use "DMA Clear-Count Mode" to get the complementary 
+// transferred byte count.
+//
+length = WdfDmaTransactionGetCurrentDmaTransferLength(dmaTransaction);
+dteVA = (PDMA_TRANSFER_ELEMENT) devExt-&gt;ReadCommonBufferBase;
+while(dteVA-&gt;DescPtr.LastElement == FALSE) {
+    length -= dteVA-&gt;TransferSize;
+    dteVA++;
+}
+length -= dteVA-&gt;TransferSize;
+//
+// Indicate that this DMA operation has completed.
+//
+hasTransitioned = 
+    WdfDmaTransactionDmaCompletedWithLength(
+                                            dmaTransaction,
+                                            length,
+                                            &amp;status
+                                            ); 
+if (hasTransitioned) {
+    //
+    // Complete this DMA transaction.
+    //
+    devExt-&gt;CurrentReadDmaTransaction = NULL;
+    PLxReadRequestComplete(
+                           dmaTransaction,
+                           status
+                           );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiongetcurrentdmatransferlength.md">WdfDmaTransactionGetCurrentDmaTransferLength</a>
+
+
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
 
  
 

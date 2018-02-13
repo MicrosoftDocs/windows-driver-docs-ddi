@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SMARTCARD_GET_LAST_ERROR
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ Contains the size of the output buffer. Must be at least <b>sizeof</b>(ULONG).
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -94,21 +96,27 @@ Must be set to <b>sizeof</b>(ULONG).
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -122,6 +130,8 @@ Be aware that when your driver uses the smart card driver library, you should st
 ## -see-also
 
 <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_get_state.md">IOCTL_SMARTCARD_GET_STATE</a>
+
+
 
  
 

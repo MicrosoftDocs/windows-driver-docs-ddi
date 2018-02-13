@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CF44513A-8BFE-453F-A3C1-BF50C86A663E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulongtoshort, RtlULongToShort function [Kernel-Mode Driver Architecture], RtlULongToShort, ntintsafe/RtlULongToShort
+ms.keywords: RtlULongToShort function [Kernel-Mode Driver Architecture], RtlULongToShort, ntintsafe/RtlULongToShort, kernel.rtlulongtoshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

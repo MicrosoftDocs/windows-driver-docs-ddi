@@ -73,7 +73,9 @@ None
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ The miniport driver returns a VIDEO_CURSOR_ATTRIBUTES structure in the VRP <b>Ou
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -111,6 +119,8 @@ If the miniport driver successfully returns the cursor-attribute data, it sets t
 ## -see-also
 
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

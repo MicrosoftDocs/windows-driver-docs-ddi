@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5297881a-34ba-4fa7-a116-a890ce8b7434
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFSimpleIOStressAction2::ContinueAsync, ContinueAsync, ContinueAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, ContinueAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], ContinueAsync method
+ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], ContinueAsync method, ContinueAsync method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2, ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, ContinueAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2::ContinueAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ HRESULT ContinueAsync();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, LPDXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices]
+ms.keywords: dxva/LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], DXVA_EncryptProtocolHeader structure [Display Devices], dxva/DXVA_EncryptProtocolHeader, _DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, *LPDXVA_EncryptProtocolHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,8 @@ Contains the GUID associated with the encryption protocol.
 ## -remarks
 
 
+
 The encryption protocol in use is externally defined and operates as described in <a href="https://msdn.microsoft.com/d5ce9c02-7126-4775-bb87-dae45b93b652">Encryption Support</a>.
+
 
 

@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY CreateDecodeDevice(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY CreateDecodeDevice(
 ## -returns
 
 
+
 <b>CreateDecodeDevice</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,15 +124,21 @@ The DirectX VA decode device is successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydecodedevice.md">DestroyDecodeDevice</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydecodedevice.md">DestroyDecodeDevice</a>
+
 
  
 

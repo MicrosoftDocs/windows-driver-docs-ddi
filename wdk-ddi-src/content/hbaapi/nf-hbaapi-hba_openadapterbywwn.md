@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_openadapterbywwn, HBA_OpenAdapterByWWN routine [Storage Devices], fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, hbaapi/HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN
+ms.keywords: hbaapi/HBA_OpenAdapterByWWN, storage.hba_openadapterbywwn, fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, HBA_OpenAdapterByWWN routine [Storage Devices], HBA_OpenAdapterByWWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,9 @@ Contains a 64-bit worldwide name (WWN) that must either match the name of the no
 ## -returns
 
 
+
 The <b>HBA_OpenAdapterByWWN</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_OpenAdapterByWWN</b> returns one of the following qualifiers.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,13 +133,17 @@ Returned if an unspecified error occurred that prevented the opening of the adap
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
  
 

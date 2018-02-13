@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9389536e-30c3-4651-bb1e-2c75741694b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetBreakpointByIndex method, dbgeng/IDebugControl3::GetBreakpointByIndex, GetBreakpointByIndex method [Windows Debugging], IDebugControl interface, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetBreakpointByIndex method, IDebugControl interface [Windows Debugging], GetBreakpointByIndex method, IDebugControl::GetBreakpointByIndex, IDebugControl3::GetBreakpointByIndex, debugger.getbreakpointbyindex, IDebugControl_d290fd1e-da1d-4d02-9503-a3c0f8337cec.xml, GetBreakpointByIndex method [Windows Debugging], IDebugControl2 interface, GetBreakpointByIndex method [Windows Debugging], IDebugControl3 interface, GetBreakpointByIndex method [Windows Debugging], IDebugControl2::GetBreakpointByIndex, GetBreakpointByIndex, dbgeng/IDebugControl::GetBreakpointByIndex, dbgeng/IDebugControl2::GetBreakpointByIndex
+ms.keywords: dbgeng/IDebugControl::GetBreakpointByIndex, IDebugControl3 interface [Windows Debugging], GetBreakpointByIndex method, IDebugControl3::GetBreakpointByIndex, GetBreakpointByIndex, IDebugControl2::GetBreakpointByIndex, GetBreakpointByIndex method [Windows Debugging], IDebugControl3 interface, IDebugControl2, IDebugControl::GetBreakpointByIndex, dbgeng/IDebugControl2::GetBreakpointByIndex, GetBreakpointByIndex method [Windows Debugging], dbgeng/IDebugControl3::GetBreakpointByIndex, IDebugControl3, IDebugControl, IDebugControl2 interface [Windows Debugging], GetBreakpointByIndex method, debugger.getbreakpointbyindex, IDebugControl_d290fd1e-da1d-4d02-9503-a3c0f8337cec.xml, IDebugControl interface [Windows Debugging], GetBreakpointByIndex method, GetBreakpointByIndex method [Windows Debugging], IDebugControl interface, GetBreakpointByIndex method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,7 +83,9 @@ Receives the returned breakpoint.
 ## -returns
 
 
+
 This method can also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,14 +113,18 @@ No breakpoint was found with the given index, or the breakpoint with the given i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The index and returned breakpoint are specific to the current process.  The same index will return a different breakpoint if the current process is changed.
+
 
 
 
@@ -126,11 +132,19 @@ The index and returned breakpoint are specific to the current process.  The same
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_submitcommandflags, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS, _D3DDDICB_SUBMITCOMMANDFLAGS
+ms.keywords: "_D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags, D3DDDICB_SUBMITCOMMANDFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

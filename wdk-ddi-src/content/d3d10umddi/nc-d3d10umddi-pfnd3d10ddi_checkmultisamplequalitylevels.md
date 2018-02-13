@@ -40,7 +40,7 @@ apiname:
 -	CheckMultisampleQualityLevels
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback
@@ -76,16 +76,15 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param DXGI_FORMAT
-
 
 
 ### -param UINT
 
 
-
 ### -param *
+
+
 
 
 
@@ -115,13 +114,16 @@ A pointer to a variable that receives the number of quality levels that the devi
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set E_INVALIDARG if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the device does not support multiple sampling with the number of samples that is specified in the <i>SampleCount</i> parameter, the user-mode display driver should return 0 in the variable that the <i>pNumQualityLevels</i> parameter points to.
@@ -134,11 +136,16 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

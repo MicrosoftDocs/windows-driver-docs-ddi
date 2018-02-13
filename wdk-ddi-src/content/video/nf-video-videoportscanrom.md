@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortScanRom function [Display Devices], VideoPortScanRom, VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, video/VideoPortScanRom, display.videoportscanrom
+ms.keywords: VideoPortScanRom, VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, video/VideoPortScanRom, VideoPortScanRom function [Display Devices], display.videoportscanrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,14 +96,18 @@ Pointer to the driver-allocated string to search for.
 ## -returns
 
 
+
 If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 <b>VideoPortScanRom</b> cannot be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a> functions, or from <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>, or from a callback to <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>. 
+
 
 
 
@@ -111,9 +115,15 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
+
+
 <a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
 
+
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
 
  
 

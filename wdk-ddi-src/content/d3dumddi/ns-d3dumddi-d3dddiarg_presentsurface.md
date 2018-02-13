@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2104BF68-DF35-44DE-AD83-3026FF9314B4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_presentsurface, D3DDDIARG_PRESENTSURFACE structure [Display Devices], D3DDDIARG_PRESENTSURFACE, d3dumddi/D3DDDIARG_PRESENTSURFACE
+ms.keywords: display.d3dddiarg_presentsurface, d3dumddi/D3DDDIARG_PRESENTSURFACE, D3DDDIARG_PRESENTSURFACE structure [Display Devices], D3DDDIARG_PRESENTSURFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct D3DDDIARG_PRESENTSURFACE {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
+
 
  
 

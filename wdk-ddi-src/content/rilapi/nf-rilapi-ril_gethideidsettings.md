@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ffc34ca-ef55-4d14-b100-2f19606a6d55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetHideIdSettings method [Network Drivers Starting with Windows Vista], RIL_GetHideIdSettings, rilapi/RIL_GetHideIdSettings, netvista.ril_gethideidsettings
+ms.keywords: rilapi/RIL_GetHideIdSettings, RIL_GetHideIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideidsettings, RIL_GetHideIdSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetHideIdSettings(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

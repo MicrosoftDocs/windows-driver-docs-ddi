@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 196555c8-74a6-4dae-ac4d-52654015ffeb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, wdm/IoRequestDpc, IoRequestDpc, IoRequestDpc routine [Kernel-Mode Driver Architecture], kernel.iorequestdpc
+ms.keywords: wdm/IoRequestDpc, kernel.iorequestdpc, IoRequestDpc, k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, IoRequestDpc routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Pointer to a driver-determined context to be passed to the DPC routine.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Callers of <b>IoRequestDpc</b> must be running at DIRQL.
@@ -102,13 +105,20 @@ Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+
+
 
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
-<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+
+
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+
+
 
  
 

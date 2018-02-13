@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C0D20E2D-5895-4FD1-9F03-9E5D1C783992
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2InitializeDevice, SerCx2InitializeDevice, serports.sercx2initializedevice, SerCx2InitializeDevice method [Serial Ports]
+ms.keywords: SerCx2InitializeDevice method [Serial Ports], serports.sercx2initializedevice, 2/SerCx2InitializeDevice, SerCx2InitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx2_config.md">SE
 ## -returns
 
 
+
 <b>SerCx2InitializeDevice</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ Insufficient resources are available to perform the requested operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Before calling this method, the serial controller driver must must previously have called the <a href="..\sercx\nf-sercx-sercx2initializedeviceinit.md">SerCx2InitializeDeviceInit</a> method.
@@ -151,17 +156,28 @@ If the driver calls the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreque
 
 
 
+
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
+
+
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+
 
 <a href="..\sercx\nf-sercx-sercx2initializedeviceinit.md">SerCx2InitializeDeviceInit</a>
 
-<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+
+
 
  
 

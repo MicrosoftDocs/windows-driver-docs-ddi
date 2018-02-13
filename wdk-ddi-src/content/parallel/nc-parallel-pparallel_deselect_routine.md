@@ -40,7 +40,7 @@ apiname:
 -	(*PPARALLEL_DESELECT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # PPARALLEL_DESELECT_ROUTINE callback
@@ -80,14 +80,17 @@ Pointer to a PARALLEL_1284_COMMAND structure. The caller specifies the following
 
 
 
+
 #### ID
 
 Specifies the 1284.3 device ID (zero or 1).
 
 
+
 #### CommandFlags
 
 Specifies a bitwise OR of zero or more of the following flags:
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,10 +116,12 @@ Specifies that the port be kept allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <table>
@@ -157,11 +162,14 @@ The system-supplied function driver for parallel ports could not deselect the de
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To obtain a pointer to the system-supplied <i>PPARALLEL_DESELECT_ROUTINE</i> callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a> request, which returns a <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a> structure. The <b>DeselectDevice</b> member of the PARALLEL_PNP_INFORMATION structure is a pointer to this callback.
@@ -172,15 +180,24 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 
 
+
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+<a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
 
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
-<a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+
 
  
 

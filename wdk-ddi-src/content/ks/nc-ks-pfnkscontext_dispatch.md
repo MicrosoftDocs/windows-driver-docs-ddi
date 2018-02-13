@@ -84,11 +84,14 @@ Specifies the power IRP to be processed.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 <i>KStrContextDispatch</i> must not complete the power IRP that is passed in the <i>Irp</i> parameter.
@@ -97,9 +100,12 @@ To manipulate the list entry only, <i>KStrContextDispatch</i> can call<b> KsSetP
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a>
+
+
 
  
 

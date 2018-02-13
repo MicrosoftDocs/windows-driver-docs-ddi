@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b916114-85aa-4ab7-acaa-6b19d0a4d776
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinAttemptProcessing, avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml, stream.kspinattemptprocessing, KsPinAttemptProcessing, KsPinAttemptProcessing function [Streaming Media Devices]
+ms.keywords: ks/KsPinAttemptProcessing, avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml, KsPinAttemptProcessing function [Streaming Media Devices], KsPinAttemptProcessing, stream.kspinattemptprocessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ This parameter indicates the minidriver's preference whether the processing shou
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A minidriver may need to call <b>KsPinAttemptProcessing</b> to resume processing in various situations. For example, if the client has shut off the processing control gate with <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>, call this function when ready to attempt processing. Note that this only causes a processing dispatch if the process control gate is in the open state. Another situation involves the minidriver having previously returning STATUS_PENDING to a processing dispatch. For more details, see <a href="https://msdn.microsoft.com/f60d4dbd-61e6-4ae2-aa43-9edc8f36c3ff">Restarting Processing in AVStream</a> and <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -100,15 +103,24 @@ The processing dispatch occurs either synchronously or asynchronously, and <i>on
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
-
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
 
 <b>KSGATE</b>
 
+
+
 <a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
+
+
 
  
 

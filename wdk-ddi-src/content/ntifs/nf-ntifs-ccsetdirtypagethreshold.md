@@ -7,8 +7,8 @@ old-location: ifsk\ccsetdirtypagethreshold.htm
 old-project: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.ccsetdirtypagethreshold, ntifs/CcSetDirtyPageThreshold, ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ntifs/CcSetDirtyPageThreshold, CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ifsk.ccsetdirtypagethreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ Specifies, as a number of pages, the dirty page threshold value. To remove a per
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>CcSetDirtyPageThreshold</b> sets or removes a per-file dirty page threshold. After a per-file dirty page threshold is set on a cached file, if the file system attempts to exceed the threshold, the cache manager will refuse requests to write to the file.
@@ -96,15 +99,20 @@ Note that the <i>per-file</i> dirty page threshold is not the same as the <i>glo
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+## -see-also
 
 <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetDirtyPageThreshold routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetDirtyPageThreshold routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

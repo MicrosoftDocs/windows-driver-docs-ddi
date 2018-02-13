@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: TCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, netvista.tcp_offload_stats, _TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS
+ms.keywords: TCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, _TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, netvista.tcp_offload_stats, ndischimney/PTCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], ndischimney/TCP_OFFLOAD_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,6 +129,7 @@ The number of segments transmitted on offloaded TCP connections with the RST bit
 ## -remarks
 
 
+
 The statistics in the TCP_OFFLOAD_STATS structure pertain only to offloaded TCP connections. The
     offload target must not include counts for TCP segments on connections that haven't been offloaded. The
     statistics in the TCP_OFFLOAD_STATS structure pertain to a single network interface.
@@ -143,6 +144,7 @@ If an offload target's TCP chimney capabilities are enabled (see
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>) and if at least one
     offloaded path state object has been offloaded to the offload target, the offload target can process a
     received packet that has a corrupted TCP header (but a valid IP header) in one of two ways:
+
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
@@ -157,7 +159,8 @@ Alternatively, the offload target can drop the corrupted packet and increment th
       <b>InErrors</b> counter.
 
 </li>
-</ul>If the offload target's TCP chimney capabilities are not enabled or if there is not at least one
+</ul>
+If the offload target's TCP chimney capabilities are not enabled or if there is not at least one
     offloaded path state object, the offload target must indicate the corrupted packet and must not increment
     the 
     <b>InErrors</b> counter.
@@ -177,11 +180,16 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
+
+
 
  
 

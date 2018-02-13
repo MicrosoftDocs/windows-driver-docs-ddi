@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient::SetOutputWidth, SetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient, debugger.idebugclient_setoutputwidth, dbgeng/IDebugClient::SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth
+ms.keywords: IDebugClient::SetOutputWidth, SetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient, SetOutputWidth method [Windows Debugging], dbgeng/IDebugClient::SetOutputWidth, SetOutputWidth, debugger.idebugclient_setoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ The number of columns in the output.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,20 +96,26 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This setting is a suggestion that can be overridden by other settings.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
  
 

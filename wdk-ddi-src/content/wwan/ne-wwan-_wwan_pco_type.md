@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPcoTypeComplete, WwanPcoTypePartial, wwan/WwanPcoTypePartial, _WWAN_PCO_TYPE, wwan/WWAN_PCO_TYPE, WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPcoTypeComplete, netvista.wwan_pco_type, *PWWAN_PCO_TYPE
+ms.keywords: WwanPcoTypeComplete, netvista.wwan_pco_type, _WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, WWAN_PCO_TYPE, wwan/WwanPcoTypePartial, WwanPcoTypePartial, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_PCO_TYPE, *PWWAN_PCO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,20 +87,28 @@ Specifies that the modem will only be passing up a subset of PCO structures that
 ## -remarks
 
 
+
 Currently, in Windows 10, version 1709, some modems can only pass up operator specific PCO elements. These will have the type is set as <b>WwanPcoTypePartial</b>, and the header should have the following:
+
 <ul>
 <li>Octet1: IEI = 27H</li>
 <li>Octet2: PCO value length (total number of octets in the PCO structure -2)</li>
 <li>Octet3: 0x80 for partial header </li>
-</ul>The OS will not check if the PCO data is valid and leaves the validation to the MO application.
+</ul>
+The OS will not check if the PCO data is valid and leaves the validation to the MO application.
+
 
 
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
 
-<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 23A5BAC2-E8F3-47FF-9B63-3FFF447C33B4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3, IDebugPlmClient3::DisablePlmPackageDebugWide, IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method, DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging]
+ms.keywords: IDebugPlmClient3, DisablePlmPackageDebugWide method [Windows Debugging], dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_disableplmpackagedebugwide, IDebugPlmClient3::DisablePlmPackageDebugWide, IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ A pointer to the package name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
+
+
 
  
 

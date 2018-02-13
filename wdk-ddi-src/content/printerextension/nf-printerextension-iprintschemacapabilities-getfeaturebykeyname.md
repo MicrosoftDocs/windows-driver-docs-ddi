@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName, IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaCapabilities::GetFeatureByKeyName
+ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities::GetFeatureByKeyName, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, IPrintSchemaCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,14 +82,18 @@ The returned feature.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 Only the following feature key names are recognized. The key names are equivalent to public Print Schema feature names as shown in the following table. The table also shows the features that have specialized option types (by default the option type is <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>).
+
 <table>
 <tr>
 <th>Name</th>
@@ -160,7 +164,8 @@ Only the following feature key names are recognized. The key names are equivalen
 <td>PageOutputQuality</td>
 <td></td>
 </tr>
-</table> 
+</table>
+ 
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
@@ -168,15 +173,24 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
+
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
 
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
+
+
 <a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F6DBD055-8B6F-4B2B-B584-3C06979DD6DF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetFlags, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetFlags, netvista.vmbserverchannelinitsetflags, VmbServerChannelInitSetFlags function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbserverchannelinitsetflags, VmbServerChannelInitSetFlags, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetFlags, VmbServerChannelInitSetFlags function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbServerChannelInitSetFlags
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A collection of bit flags to set.
 ## -returns
 
 
+
 <b>VmbServerChannelInitSetFlags</b> returns the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,6 +114,8 @@ The <i>Flags</i> value has invalid bits set.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

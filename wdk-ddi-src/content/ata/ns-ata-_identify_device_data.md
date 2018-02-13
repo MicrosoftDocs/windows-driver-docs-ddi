@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7f2edd6f-16bf-47a6-8546-7871435a56ac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ata/IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA, _IDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml, *PIDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA, storage.identify_device_data
+ms.keywords: ata/IDENTIFY_DEVICE_DATA, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml, storage.identify_device_data, PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, _IDENTIFY_DEVICE_DATA, *PIDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDENTIFY_DEVICE_DATA
 product: Windows
 targetos: Windows
-req.typenames: IDENTIFY_DEVICE_DATA, *PIDENTIFY_DEVICE_DATA
+req.typenames: "*PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA"
 ---
 
 # _IDENTIFY_DEVICE_DATA structure
@@ -315,7 +315,6 @@ typedef struct _IDENTIFY_DEVICE_DATA {
 ### -field GeneralConfiguration
 
 
-
 ### -field GeneralConfiguration.Reserved1
 
 Reserved.
@@ -356,6 +355,71 @@ This member is no longer used.
 Indicates when set to 1 that the device is an ATA device.
 
 
+### -field NumCylinders
+
+Indicates the number of cylinders on the device.
+
+
+### -field SpecificConfiguration
+
+ 
+
+
+### -field NumHeads
+
+Number of logical heads on the device.
+
+
+### -field Retired1
+
+This member is no longer used.
+
+
+### -field NumSectorsPerTrack
+
+Indicates the number of sectors per track.
+
+
+### -field VendorUnique1
+
+Contains the first ID of the device's vendor.
+
+
+### -field SerialNumber
+
+Contains the serial number of the device.
+
+
+### -field Retired2
+
+This member is no longer used.
+
+
+### -field Obsolete1
+
+This member is obsolete. Do not use.
+
+
+### -field FirmwareRevision
+
+Contains the revision number of the device's firmware.
+
+
+### -field ModelNumber
+
+Contains the device's model number.
+
+
+### -field MaximumBlockTransfer
+
+Contains the maximum number of blocks allowed in a single transfer.
+
+
+### -field VendorUnique2
+
+Contains the second ID of the device's vendor.
+
+
 ### -field TrustedComputing
 
  
@@ -372,7 +436,6 @@ Indicates when set to 1 that the device is an ATA device.
 
 
 ### -field Capabilities
-
 
 
 ### -field Capabilities.CurrentLongPhysicalSectorAlignment
@@ -423,6 +486,129 @@ Reserved.
 ### -field Capabilities.ReservedWord50
 
 Reserved.
+
+
+### -field ObsoleteWords51
+
+This member is obsolete. Do not use.
+
+
+### -field TranslationFieldsValid
+
+Contains a bitfield whose bits indicate which of the bytes in the identify data package contain valid address translation information. For more information about how this bitfield is defined, see the <i>ATA/ATAPI specification</i>.
+
+
+### -field Reserved3
+
+Reserved.
+
+
+### -field FreeFallControlSensitivity
+
+ 
+
+
+### -field NumberOfCurrentCylinders
+
+Indicates the number of cylinders on the device.
+
+
+### -field NumberOfCurrentHeads
+
+Indicates the number of heads on the device.
+
+
+### -field CurrentSectorsPerTrack
+
+Indicates the number of sectors per track.
+
+
+### -field CurrentSectorCapacity
+
+Indicates the number of sectors on the device.
+
+
+### -field CurrentMultiSectorSetting
+
+Indicates the multisector setting.
+
+
+### -field MultiSectorSettingValid
+
+Indicates when <b>TRUE</b> that the multisector setting is valid.
+
+
+### -field ReservedByte59
+
+Reserved.
+
+
+### -field SanitizeFeatureSupported
+
+ 
+
+
+### -field CryptoScrambleExtCommandSupported
+
+ 
+
+
+### -field OverwriteExtCommandSupported
+
+ 
+
+
+### -field BlockEraseExtCommandSupported
+
+ 
+
+
+### -field UserAddressableSectors
+
+Indicates the total number of user-addressable sectors.
+
+
+### -field ObsoleteWord62
+
+This member is obsolete. Do not use.
+
+
+### -field MultiWordDMASupport
+
+Indicates which DMA modes the device supports.
+
+
+### -field MultiWordDMAActive
+
+Indicates which DMA modes are currently selected.
+
+
+### -field AdvancedPIOModes
+
+
+### -field ReservedByte64
+
+Reserved.
+
+
+### -field MinimumMWXferCycleTime
+
+Indicates the minimum multiword DMA transfer cycle time per word.
+
+
+### -field RecommendedMWXferCycleTime
+
+Indicates the recommended multiword DMA transfer cycle time per word.
+
+
+### -field MinimumPIOCycleTime
+
+Indicates the minimum PIO transfer cycle time without flow control.
+
+
+### -field MinimumPIOCycleTimeIORDY
+
+Indicates the minimum PIO transfer cycle time with IORDY flow control.
 
 
 ### -field AdditionalSupported
@@ -503,6 +689,21 @@ Reserved.
 ### -field AdditionalSupported.CFastSpecSupported
 
  
+
+
+### -field ReservedWords70
+
+ 
+
+
+### -field QueueDepth
+
+Indicates the maximum queue depth.
+
+
+### -field ReservedWord75
+
+Reserved.
 
 
 ### -field SerialAtaCapabilities
@@ -728,6 +929,16 @@ Reserved.
 ### -field SerialAtaFeaturesEnabled.Reserved1
 
  
+
+
+### -field MajorRevision
+
+Indicates the device's major revision number.
+
+
+### -field MinorRevision
+
+Indicates the device's minor revision number.
 
 
 ### -field CommandSetSupport
@@ -971,7 +1182,6 @@ Indicates when <b>TRUE</b> that the device supports the 48-bit address feature s
 #### 
 
 
-
 ### -field CommandSetActive.SmartCommands
 
 Indicates when <b>TRUE</b> that the device supports the SMART feature set.
@@ -1202,6 +1412,16 @@ Reserved.
  
 
 
+### -field UltraDMASupport
+
+Contains a bitmap indicating which ultraDMA modes the device supports.
+
+
+### -field UltraDMAActive
+
+Contains a bitmap indicating which ultraDMA modes are selected.
+
+
 ### -field NormalSecurityEraseUnit
 
  
@@ -1232,8 +1452,70 @@ Reserved.
  
 
 
-### -field PhysicalLogicalSectorSize
+### -field CurrentAPMLevel
 
+ 
+
+
+### -field ReservedWord91
+
+ 
+
+
+### -field MasterPasswordID
+
+ 
+
+
+### -field HardwareResetResult
+
+Indicates the result of a hardware reset. For more information about the values assigned to this member, see the <i>ATA/ATAP specification</i>.
+
+
+### -field CurrentAcousticValue
+
+Indicates the current acoustic management value.
+
+
+### -field RecommendedAcousticValue
+
+Contain the device vendor's recommended acoustic management value.
+
+
+### -field StreamMinRequestSize
+
+ 
+
+
+### -field StreamingTransferTimeDMA
+
+ 
+
+
+### -field StreamingAccessLatencyDMAPIO
+
+ 
+
+
+### -field StreamingPerfGranularity
+
+ 
+
+
+### -field Max48BitLBA
+
+Contains the maximum user LBA for the 48-bit address feature set.
+
+
+### -field StreamingTransferTime
+
+
+### -field DsmCap
+
+ 
+
+
+### -field PhysicalLogicalSectorSize
 
 
 ### -field PhysicalLogicalSectorSize.LogicalSectorsPerPhysicalSector
@@ -1259,6 +1541,21 @@ Reserved.
 ### -field PhysicalLogicalSectorSize.Reserved1
 
 Reserved.
+
+
+### -field InterSeekDelay
+
+
+### -field WorldWideName
+
+
+### -field ReservedForWorldWideName128
+
+
+### -field ReservedForTlcTechnicalReport
+
+
+### -field WordsPerLogicalSector
 
 
 ### -field CommandSetSupportExt
@@ -1323,7 +1620,6 @@ Reserved.
 ### -field CommandSetActiveExt
 
 
-
 ### -field CommandSetActiveExt.ReservedForDrqTechnicalReport
 
  
@@ -1372,6 +1668,19 @@ Reserved.
 ### -field CommandSetActiveExt.Reserved1
 
 Reserved.
+
+
+### -field ReservedForExpandedSupportandActive
+
+
+### -field MsnSupport
+
+Indicates when <b>TRUE</b> that the device supports media status notification.
+
+
+### -field ReservedWord127
+
+ 
 
 
 ### -field SecurityStatus
@@ -1424,6 +1733,11 @@ Contains a bitmap that indicates the security status. For more information about
 Reserved.
 
 
+### -field ReservedWord129
+
+Reserved.
+
+
 ### -field CfaPowerMode1
 
  
@@ -1454,8 +1768,22 @@ Reserved.
  
 
 
-### -field DataSetManagementFeature
+### -field ReservedForCfaWord161
 
+Words 161-168
+
+
+### -field NominalFormFactor
+
+ 
+
+
+### -field ReservedWord168
+
+ 
+
+
+### -field DataSetManagementFeature
 
 
 ### -field DataSetManagementFeature.SupportsTrim
@@ -1466,6 +1794,21 @@ Reserved.
 ### -field DataSetManagementFeature.Reserved0
 
  
+
+
+### -field AdditionalProductID
+
+ 
+
+
+### -field ReservedForCfaWord174
+
+ 
+
+
+### -field CurrentMediaSerialNumber
+
+Words 176-205
 
 
 ### -field SCTCommandTransport
@@ -1513,8 +1856,12 @@ Reserved.
  
 
 
-### -field BlockAlignment
+### -field ReservedWord207
 
+Words 207-208
+
+
+### -field BlockAlignment
 
 
 ### -field BlockAlignment.AlignmentOfLogicalWithinPhysical
@@ -1532,8 +1879,17 @@ Reserved.
  
 
 
-### -field NVCacheCapabilities
+### -field WriteReadVerifySectorCountMode3Only
 
+Words 210-211
+
+
+### -field WriteReadVerifySectorCountMode2Only
+
+Words 212-213
+
+
+### -field NVCacheCapabilities
 
 
 ### -field NVCacheCapabilities.NVCachePowerModeEnabled
@@ -1566,8 +1922,19 @@ Reserved.
  
 
 
-### -field NVCacheOptions
+### -field NVCacheSizeLSW
 
+
+### -field NVCacheSizeMSW
+
+
+### -field NominalMediaRotationRate
+
+
+### -field ReservedWord218
+
+
+### -field NVCacheOptions
 
 
 ### -field NVCacheOptions.NVCacheEstimatedTimeToSpinUpInSeconds
@@ -1576,6 +1943,21 @@ Reserved.
 
 
 ### -field NVCacheOptions.Reserved
+
+ 
+
+
+### -field WriteReadVerifySectorCountMode
+
+ 
+
+
+### -field ReservedWord220
+
+Words 220-254
+
+
+### -field ReservedWord221
 
  
 
@@ -1591,409 +1973,6 @@ Reserved.
 
 
 ### -field TransportMajorVersion.TransportType
-
- 
-
-
-### -field NumCylinders
-
-Indicates the number of cylinders on the device.
-
-
-### -field SpecificConfiguration
-
- 
-
-
-### -field NumHeads
-
-Number of logical heads on the device.
-
-
-### -field Retired1
-
-This member is no longer used.
-
-
-### -field NumSectorsPerTrack
-
-Indicates the number of sectors per track.
-
-
-### -field VendorUnique1
-
-Contains the first ID of the device's vendor.
-
-
-### -field SerialNumber
-
-Contains the serial number of the device.
-
-
-### -field Retired2
-
-This member is no longer used.
-
-
-### -field Obsolete1
-
-This member is obsolete. Do not use.
-
-
-### -field FirmwareRevision
-
-Contains the revision number of the device's firmware.
-
-
-### -field ModelNumber
-
-Contains the device's model number.
-
-
-### -field MaximumBlockTransfer
-
-Contains the maximum number of blocks allowed in a single transfer.
-
-
-### -field VendorUnique2
-
-Contains the second ID of the device's vendor.
-
-
-### -field ObsoleteWords51
-
-This member is obsolete. Do not use.
-
-
-### -field TranslationFieldsValid
-
-Contains a bitfield whose bits indicate which of the bytes in the identify data package contain valid address translation information. For more information about how this bitfield is defined, see the <i>ATA/ATAPI specification</i>.
-
-
-### -field Reserved3
-
-Reserved.
-
-
-### -field FreeFallControlSensitivity
-
- 
-
-
-### -field NumberOfCurrentCylinders
-
-Indicates the number of cylinders on the device.
-
-
-### -field NumberOfCurrentHeads
-
-Indicates the number of heads on the device.
-
-
-### -field CurrentSectorsPerTrack
-
-Indicates the number of sectors per track.
-
-
-### -field CurrentSectorCapacity
-
-Indicates the number of sectors on the device.
-
-
-### -field CurrentMultiSectorSetting
-
-Indicates the multisector setting.
-
-
-### -field MultiSectorSettingValid
-
-Indicates when <b>TRUE</b> that the multisector setting is valid.
-
-
-### -field ReservedByte59
-
-Reserved.
-
-
-### -field SanitizeFeatureSupported
-
- 
-
-
-### -field CryptoScrambleExtCommandSupported
-
- 
-
-
-### -field OverwriteExtCommandSupported
-
- 
-
-
-### -field BlockEraseExtCommandSupported
-
- 
-
-
-### -field UserAddressableSectors
-
-Indicates the total number of user-addressable sectors.
-
-
-### -field ObsoleteWord62
-
-This member is obsolete. Do not use.
-
-
-### -field MultiWordDMASupport
-
-Indicates which DMA modes the device supports.
-
-
-### -field MultiWordDMAActive
-
-Indicates which DMA modes are currently selected.
-
-
-### -field AdvancedPIOModes
-
-
-
-### -field ReservedByte64
-
-Reserved.
-
-
-### -field MinimumMWXferCycleTime
-
-Indicates the minimum multiword DMA transfer cycle time per word.
-
-
-### -field RecommendedMWXferCycleTime
-
-Indicates the recommended multiword DMA transfer cycle time per word.
-
-
-### -field MinimumPIOCycleTime
-
-Indicates the minimum PIO transfer cycle time without flow control.
-
-
-### -field MinimumPIOCycleTimeIORDY
-
-Indicates the minimum PIO transfer cycle time with IORDY flow control.
-
-
-### -field ReservedWords70
-
- 
-
-
-### -field QueueDepth
-
-Indicates the maximum queue depth.
-
-
-### -field ReservedWord75
-
-Reserved.
-
-
-### -field MajorRevision
-
-Indicates the device's major revision number.
-
-
-### -field MinorRevision
-
-Indicates the device's minor revision number.
-
-
-### -field UltraDMASupport
-
-Contains a bitmap indicating which ultraDMA modes the device supports.
-
-
-### -field UltraDMAActive
-
-Contains a bitmap indicating which ultraDMA modes are selected.
-
-
-### -field CurrentAPMLevel
-
- 
-
-
-### -field ReservedWord91
-
- 
-
-
-### -field MasterPasswordID
-
- 
-
-
-### -field HardwareResetResult
-
-Indicates the result of a hardware reset. For more information about the values assigned to this member, see the <i>ATA/ATAP specification</i>.
-
-
-### -field CurrentAcousticValue
-
-Indicates the current acoustic management value.
-
-
-### -field RecommendedAcousticValue
-
-Contain the device vendor's recommended acoustic management value.
-
-
-### -field StreamMinRequestSize
-
- 
-
-
-### -field StreamingTransferTimeDMA
-
- 
-
-
-### -field StreamingAccessLatencyDMAPIO
-
- 
-
-
-### -field StreamingPerfGranularity
-
- 
-
-
-### -field Max48BitLBA
-
-Contains the maximum user LBA for the 48-bit address feature set.
-
-
-### -field StreamingTransferTime
-
-
-
-### -field DsmCap
-
- 
-
-
-### -field InterSeekDelay
-
-
-
-### -field WorldWideName
-
-
-
-### -field ReservedForWorldWideName128
-
-
-
-### -field ReservedForTlcTechnicalReport
-
-
-
-### -field WordsPerLogicalSector
-
-
-
-### -field ReservedForExpandedSupportandActive
-
-
-
-### -field MsnSupport
-
-Indicates when <b>TRUE</b> that the device supports media status notification.
-
-
-### -field ReservedWord127
-
- 
-
-
-### -field ReservedWord129
-
-Reserved.
-
-
-### -field ReservedForCfaWord161
-
-Words 161-168
-
-
-### -field NominalFormFactor
-
- 
-
-
-### -field ReservedWord168
-
- 
-
-
-### -field AdditionalProductID
-
- 
-
-
-### -field ReservedForCfaWord174
-
- 
-
-
-### -field CurrentMediaSerialNumber
-
-Words 176-205
-
-
-### -field ReservedWord207
-
-Words 207-208
-
-
-### -field WriteReadVerifySectorCountMode3Only
-
-Words 210-211
-
-
-### -field WriteReadVerifySectorCountMode2Only
-
-Words 212-213
-
-
-### -field NVCacheSizeLSW
-
-
-
-### -field NVCacheSizeMSW
-
-
-
-### -field NominalMediaRotationRate
-
-
-
-### -field ReservedWord218
-
-
-
-### -field WriteReadVerifySectorCountMode
-
- 
-
-
-### -field ReservedWord220
-
-Words 220-254
-
-
-### -field ReservedWord221
 
  
 
@@ -2071,13 +2050,10 @@ Reserved.
 #### - ReservedWord105
 
 
-
 #### - ReservedWord1274
 
 
-
 #### - CfaPowerModel
-
 
 
 #### - ReservedForCfaWord170

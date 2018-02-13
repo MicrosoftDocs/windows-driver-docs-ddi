@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3478867-394b-466c-ad9a-259bedd66669
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices], _DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, *PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml, ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR
+ms.keywords: ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, PDVD_COPYRIGHT_DESCRIPTOR, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml, *PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], _DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_COPYRIGHT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
+req.typenames: "*PDVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR"
 ---
 
 # _DVD_COPYRIGHT_DESCRIPTOR structure
@@ -87,6 +87,8 @@ Reserved.
 ## -see-also
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+
 
  
 

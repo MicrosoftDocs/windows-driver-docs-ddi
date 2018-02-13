@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5f7a92ee-ebaf-442f-a197-2fb58dd65a25
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, KefReleaseSpinLockFromDpcLevel, kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel
+ms.keywords: wdm/KefReleaseSpinLockFromDpcLevel, KefReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -76,12 +76,15 @@ TBD
 
 
 
+
+
 #### - SpinLock [in, out]
 
 Pointer to an executive spin lock for which the caller provides the storage. 
 
 
 ## -remarks
+
 
 
 Drivers call <b>KeReleaseSpinLockFromDpcLevel</b> to release a spin lock acquired by calling <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>.
@@ -92,13 +95,20 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
 
  
 

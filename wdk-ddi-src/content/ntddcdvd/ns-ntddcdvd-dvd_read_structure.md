@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe8c55de-e542-4c0d-a96b-31ad39e11dff
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], *PDVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, storage.dvd_read_structure, DVD_READ_STRUCTURE structure [Storage Devices], ntddcdvd/DVD_READ_STRUCTURE
+ms.keywords: DVD_READ_STRUCTURE structure [Storage Devices], DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, storage.dvd_read_structure, ntddcdvd/DVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,15 +93,21 @@ Contains the number of the layer where the descriptor is to be retrieved.
 ## -remarks
 
 
+
 The DVD_READ_STRUCTURE structure contains data such as copyright information, or manufacturer-specific information.
+
 
 
 
 ## -see-also
 
+<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
+
+
+
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
+
 
  
 

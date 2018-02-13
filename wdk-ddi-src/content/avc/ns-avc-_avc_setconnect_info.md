@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 16672908-6f1f-471b-b82e-d548e3efeb20
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVC_SETCONNECT_INFO, AVC_SETCONNECT_INFO structure [Streaming Media Devices], avc/AVC_SETCONNECT_INFO, avcref_eec9cff7-6ae3-49d3-a649-349b8284630b.xml, AVC_SETCONNECT_INFO, _AVC_SETCONNECT_INFO, stream.avc_setconnect_info, *PAVC_SETCONNECT_INFO, PAVC_SETCONNECT_INFO structure pointer [Streaming Media Devices], avc/PAVC_SETCONNECT_INFO
+ms.keywords: avc/PAVC_SETCONNECT_INFO, *PAVC_SETCONNECT_INFO, avcref_eec9cff7-6ae3-49d3-a649-349b8284630b.xml, AVC_SETCONNECT_INFO structure [Streaming Media Devices], PAVC_SETCONNECT_INFO, stream.avc_setconnect_info, AVC_SETCONNECT_INFO, _AVC_SETCONNECT_INFO, PAVC_SETCONNECT_INFO structure pointer [Streaming Media Devices], avc/AVC_SETCONNECT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_SETCONNECT_INFO
 product: Windows
 targetos: Windows
-req.typenames: AVC_SETCONNECT_INFO, *PAVC_SETCONNECT_INFO
+req.typenames: "*PAVC_SETCONNECT_INFO, AVC_SETCONNECT_INFO"
 ---
 
 # _AVC_SETCONNECT_INFO structure
@@ -81,6 +81,7 @@ The AVCCONNECTINFO values for the specified pin.
 ## -remarks
 
 
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -89,13 +90,20 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
+
 ## -see-also
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
 
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a>
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
 
  
 

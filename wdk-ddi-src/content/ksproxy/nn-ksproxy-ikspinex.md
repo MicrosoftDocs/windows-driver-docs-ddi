@@ -80,7 +80,9 @@ Notifies the filter graph of an error to give the filter graph an opportunity to
 ## -remarks
 
 
+
 An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPinEx</b> methods to route media samples of a particular media type. 
+
 
 
 
@@ -88,7 +90,11 @@ An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKs
 
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
 
+
+
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
 
  
 

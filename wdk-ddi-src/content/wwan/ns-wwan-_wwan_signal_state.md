@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba5632bb-c1d7-47b1-b6b4-88c67710149f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_signal_state, WWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, wwan/PWWAN_SIGNAL_STATE, _WWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE, *PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE
+ms.keywords: "*PWWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE, wwan/PWWAN_SIGNAL_STATE, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,6 +78,7 @@ A value that represents the strength of the wireless signal. Miniport drivers th
      <b>WwanCellularClassGSM</b> or 
      <b>WwanCellularClassCDMA</b> must report Rssi in decibels above the device's sensitivity noise floor.
      
+
 <table>
 <tr>
 <th>Signal Strength (in dBm)</th>
@@ -143,7 +144,8 @@ WWAN_RSSI_UNKNOWN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 CDMA-based devices must report signal strength based on compensated RSSI (accounts for noise) and not
      based on raw RSSI.
@@ -156,6 +158,7 @@ A coded value that represents a percentage range of error rates. For GSM-based d
      values from the Frame error rate column. For both cases, use WWAN_ERROR_RATE_UNKNOWN to denote an
      unknown error rate.
      
+
 <table>
 <tr>
 <th>Channel bit error rate (in %)</th>
@@ -284,7 +287,8 @@ WWAN_ERROR_RATE_UNKNOWN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RssiInterval
@@ -308,6 +312,8 @@ The current threshold, in threshold units, at which the miniport driver has been
 ## -see-also
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_signal_state.md">NDIS_WWAN_SIGNAL_STATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10d08e58-cd1f-4585-a93b-fabeb4fcf27c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_CAMERACONTROL enumeration [Streaming Media Devices], ksmedia/KSEVENT_CAMERACONTROL_FOCUS, stream.ksevent_cameracontrol, ksmedia/KSEVENT_CAMERACONTROL_ZOOM, KSEVENT_CAMERACONTROL, KSEVENT_CAMERACONTROL_FOCUS, KSEVENT_CAMERACONTROL_ZOOM, ksmedia/KSEVENT_CAMERACONTROL
+ms.keywords: KSEVENT_CAMERACONTROL enumeration [Streaming Media Devices], KSEVENT_CAMERACONTROL_FOCUS, KSEVENT_CAMERACONTROL_ZOOM, ksmedia/KSEVENT_CAMERACONTROL_ZOOM, KSEVENT_CAMERACONTROL, ksmedia/KSEVENT_CAMERACONTROL_FOCUS, stream.ksevent_cameracontrol, ksmedia/KSEVENT_CAMERACONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,17 +81,25 @@ A camera zoom operation has completed or has been canceled. See <a href="https:/
 ## -remarks
 
 
+
 For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156038">KSEVENT_CAMERACONTROL_ZOOM</a>
 
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156037">KSEVENT_CAMERACONTROL_FOCUS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, *PWWAN_RADIO, PWWAN_RADIO, wwan/WwanRadioOn, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_RADIO, wwan/PWWAN_RADIO, _WWAN_RADIO, wwan/WwanRadioOff, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_radio, WwanRadioOn, WWAN_RADIO, WwanRadioOff
+ms.keywords: wwan/WWAN_RADIO, WwanRadioOff, wwan/WwanRadioOn, netvista.wwan_radio, WWAN_RADIO, wwan/PWWAN_RADIO, wwan/WwanRadioOff, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], *PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_RADIO, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, WwanRadioOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_RADIO
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_RADIO, WWAN_RADIO"
+req.typenames: WWAN_RADIO, *PWWAN_RADIO
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,11 @@ The radio power is turned on.
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
+
+
 
  
 

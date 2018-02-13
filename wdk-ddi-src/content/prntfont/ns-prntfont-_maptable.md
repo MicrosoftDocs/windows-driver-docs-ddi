@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: MAPTABLE structure [Print Devices], *PMAPTABLE, PMAPTABLE structure pointer [Print Devices], prntfont/MAPTABLE, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, prntfont/PMAPTABLE, _MAPTABLE, MAPTABLE, print.maptable, PMAPTABLE
+ms.keywords: prntfont/MAPTABLE, prntfont/PMAPTABLE, MAPTABLE, PMAPTABLE structure pointer [Print Devices], PMAPTABLE, MAPTABLE structure [Print Devices], print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, _MAPTABLE, *PMAPTABLE, print.maptable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,13 +88,17 @@ Is an array of <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a> str
 ## -remarks
 
 
+
 A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a> structure. The table maps glyph handles to the character codes or commands that must be sent to the printer in order to print glyphs.
+
 
 
 
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a>
+
+
 
  
 

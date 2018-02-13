@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f6bc444-12d6-4406-891e-87dfca437284
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_HW_INITIALIZATION_DATA structure pointer [Display Devices], video/PVIDEO_HW_INITIALIZATION_DATA, Video_Structs_1ab4d104-315b-4b04-b9dc-3088437cc6d3.xml, VIDEO_HW_INITIALIZATION_DATA, display.video_hw_initialization_data, VIDEO_HW_INITIALIZATION_DATA structure [Display Devices], video/VIDEO_HW_INITIALIZATION_DATA, *PVIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA, _VIDEO_HW_INITIALIZATION_DATA
+ms.keywords: "*PVIDEO_HW_INITIALIZATION_DATA, video/VIDEO_HW_INITIALIZATION_DATA, _VIDEO_HW_INITIALIZATION_DATA, display.video_hw_initialization_data, VIDEO_HW_INITIALIZATION_DATA, Video_Structs_1ab4d104-315b-4b04-b9dc-3088437cc6d3.xml, PVIDEO_HW_INITIALIZATION_DATA, video/PVIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA structure pointer [Display Devices], VIDEO_HW_INITIALIZATION_DATA structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -198,9 +198,11 @@ Reserved for system use.
 ## -remarks
 
 
+
 A miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function must initialize this structure with zeros before it sets relevant values in any member.
 
 The video port driver will ignore the <b>HwLegacyResourceCount</b> and <b>HwLegacyResourceList</b> members when <b>HwGetLegacyResources</b> is initialized with a pointer to a <a href="..\video\nc-video-pvideo_hw_legacyresources.md">HwVidLegacyResources</a> implementation.
+
 
 
 
@@ -208,13 +210,23 @@ The video port driver will ignore the <b>HwLegacyResourceCount</b> and <b>HwLega
 
 <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
+
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
 
 <a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
 
+
+
 <a href="..\video\nc-video-pvideo_hw_legacyresources.md">HwVidLegacyResources</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
 
  
 

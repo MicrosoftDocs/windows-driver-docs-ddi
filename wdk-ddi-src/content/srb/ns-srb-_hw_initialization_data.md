@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 58c80d37-a40d-4839-b516-a78720860cbc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml, srb/HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__scsi_, _HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, srb/PHW_INITIALIZATION_DATA
+ms.keywords: structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml, srb/PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], _HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], *PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, storage.hw_initialization_data__scsi_, srb/HW_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
+req.typenames: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -91,16 +91,6 @@ typedef struct _HW_INITIALIZATION_DATA {
 ## -struct-fields
 
 
-
-
-### -field ReservedUshort
-
-Reserved for system use and is not available for use by miniport drivers.
-
-
-### -field PortVersionFlags
-
- 
 
 
 ### -field HwInitializationDataSize
@@ -217,6 +207,16 @@ Pointer to an ASCII byte string identifying the manufacturer of the HBA. This me
 If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, the vendor ID is a USHORT value allocated by the PCI SIG, which must be converted into a byte string by the miniport driver. For example, if the assigned PCI vendor ID value is 1001, the miniport driver-supplied <b>VendorId</b> string would be ('1', '0', '0', '1').
 
 
+### -field ReservedUshort
+
+Reserved for system use and is not available for use by miniport drivers.
+
+
+### -field PortVersionFlags
+
+ 
+
+
 ### -field DeviceIdLength
 
 Specifies the size in bytes of the <b>DeviceId</b> string, described next.
@@ -237,6 +237,7 @@ Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/win
 ## -remarks
 
 
+
 Each miniport driver must initialize the HW_INITIALIZATION_DATA structure with zeros before it sets the values of relevant members in this structure and calls <b>ScsiPortInitialize</b>.
 
 The <b>Dma64BitAddresses</b> member of HW_INITIALIZATION_DATA has been eliminated in Windows 2000 (See the discussion under PORT_CONFIGURATION_DATA for further details).
@@ -245,15 +246,24 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
-
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+
 
  
 

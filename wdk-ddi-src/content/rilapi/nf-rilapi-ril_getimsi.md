@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bc038bb-fe8a-4a22-b4e2-d6dcf2589a12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], RIL_GetIMSI, netvista.ril_getimsi
+ms.keywords: RIL_GetIMSI, rilapi/RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], netvista.ril_getimsi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetIMSI(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

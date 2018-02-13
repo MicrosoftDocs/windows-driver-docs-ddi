@@ -7,8 +7,8 @@ old-location: whea\whea_xpf_bus_check.htm
 old-project: whea
 ms.assetid: 7886a796-2755-4367-bbbd-2017e7900bf4
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK, ntddk/WHEA_XPF_BUS_CHECK, _WHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], whea.whea_xpf_bus_check, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_BUS_CHECK, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml"
+ms.date: 2/8/2018
+ms.keywords: ntddk/PWHEA_XPF_BUS_CHECK, whea.whea_xpf_bus_check, _WHEA_XPF_BUS_CHECK, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], *PWHEA_XPF_BUS_CHECK, ntddk/WHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], PWHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -346,7 +346,9 @@ An unclassified type of address space.
 ## -remarks
 
 
+
 If the <b>CheckInfoId</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure contains WHEA_BUSCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_BUS_CHECK union.
+
 
 
 
@@ -354,9 +356,11 @@ If the <b>CheckInfoId</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_proci
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_BUS_CHECK union%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_BUS_CHECK union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

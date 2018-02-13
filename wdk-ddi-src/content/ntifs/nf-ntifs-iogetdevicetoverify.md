@@ -7,8 +7,8 @@ old-location: ifsk\iogetdevicetoverify.htm
 old-project: ifsk
 ms.assetid: 3dcd33ac-845a-4519-b697-5917687a9672
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/IoGetDeviceToVerify, IoGetDeviceToVerify routine [Installable File System Drivers], k104_47163b80-0b35-40e0-9a30-3f5e2fe51bba.xml, ifsk.iogetdevicetoverify, IoGetDeviceToVerify
+ms.date: 2/7/2018
+ms.keywords: ntifs/IoGetDeviceToVerify, ifsk.iogetdevicetoverify, IoGetDeviceToVerify, k104_47163b80-0b35-40e0-9a30-3f5e2fe51bba.xml, IoGetDeviceToVerify routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ Pointer to the thread for which a highest-level driver is attempting to verify t
 ## -returns
 
 
+
 <b>IoGetDeviceToVerify</b> returns a pointer to the device object representing a device on which the media should be verified, or it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 In general, highest-level drivers, particularly file systems, are most likely to call this routine.
@@ -88,19 +91,28 @@ An underlying removable-media device driver is responsible for notifying higher-
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
-
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
 
 <a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a>
 
- 
+
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetDeviceToVerify routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetDeviceToVerify routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

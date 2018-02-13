@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 13C65DAB-04BA-4B19-B810-B484F7C1C4DA
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SpoolerFindClosePrinterChangeNotification, winsplp/SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], print.spoolerfindcloseprinterchangenotification
+ms.keywords: SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], winsplp/SpoolerFindClosePrinterChangeNotification, print.spoolerfindcloseprinterchangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,5 +69,4 @@ BOOL WINAPI SpoolerFindClosePrinterChangeNotification(
 
 
 ### -param hPrinter [in]
-
 

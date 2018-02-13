@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f65fda13-3d05-4e1b-b0c7-01e43a9bf09e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_OPENRESOURCEFLAGS, D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], _D3DDDI_OPENRESOURCEFLAGS, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, display.d3dddi_openresourceflags
+ms.keywords: D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], display.d3dddi_openresourceflags, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS, _D3DDDI_OPENRESOURCEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,6 +101,8 @@ A member in the union that is contained in D3DDDI_OPENRESOURCEFLAGS that can hol
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_openresource.md">D3DDDIARG_OPENRESOURCE</a>
+
+
 
  
 

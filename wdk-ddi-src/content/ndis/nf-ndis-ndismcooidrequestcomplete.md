@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18242351-3dec-40df-b112-2335253903d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMCoOidRequestComplete, ndis/NdisMCoOidRequestComplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, netvista.ndismcooidrequestcomplete
+ms.keywords: ndis/NdisMCoOidRequestComplete, netvista.ndismcooidrequestcomplete, NdisMCoOidRequestComplete, condis_request_ref_516edd5f-ceae-4330-87b1-48a3a383e736.xml, NdisMCoOidRequestComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCoOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCoOidRequestComplete function
@@ -123,11 +123,14 @@ A pointer to a buffer that is formatted as an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A CoNDIS miniport driver that returns NDIS_STATUS_PENDING from its 
@@ -143,20 +146,33 @@ A call to
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
    ProtocolCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+
 
  
 

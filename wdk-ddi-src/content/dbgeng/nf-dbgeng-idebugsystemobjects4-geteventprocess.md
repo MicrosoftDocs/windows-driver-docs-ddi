@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77cf1995-f3f3-4a03-bba7-9df230a10da0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetEventProcess method, GetEventProcess method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetEventProcess, GetEventProcess, IDebugSystemObjects2::GetEventProcess, IDebugSystemObjects3 interface [Windows Debugging], GetEventProcess method, dbgeng/IDebugSystemObjects3::GetEventProcess, IDebugSystemObjects2 interface [Windows Debugging], GetEventProcess method, GetEventProcess method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetEventProcess, IDebugSystemObjects4, IDebugSystemObjects::GetEventProcess, IDebugSystemObjects4 interface [Windows Debugging], GetEventProcess method, GetEventProcess method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects2::GetEventProcess, debugger.geteventprocess, GetEventProcess method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects::GetEventProcess, IDebugSystemObjects4::GetEventProcess, IDebugSystemObjects_04f445d4-e407-4e0c-bd1b-9570ed4f0433.xml, GetEventProcess method [Windows Debugging], IDebugSystemObjects2 interface
+ms.keywords: GetEventProcess method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::GetEventProcess, GetEventProcess method [Windows Debugging], IDebugSystemObjects interface, GetEventProcess method [Windows Debugging], IDebugSystemObjects4 interface, GetEventProcess method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetEventProcess, IDebugSystemObjects3 interface [Windows Debugging], GetEventProcess method, GetEventProcess, IDebugSystemObjects_04f445d4-e407-4e0c-bd1b-9570ed4f0433.xml, IDebugSystemObjects interface [Windows Debugging], GetEventProcess method, IDebugSystemObjects2 interface [Windows Debugging], GetEventProcess method, GetEventProcess method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects::GetEventProcess, dbgeng/IDebugSystemObjects4::GetEventProcess, debugger.geteventprocess, IDebugSystemObjects::GetEventProcess, IDebugSystemObjects2::GetEventProcess, IDebugSystemObjects4::GetEventProcess, IDebugSystemObjects4, IDebugSystemObjects2, IDebugSystemObjects4 interface [Windows Debugging], GetEventProcess method, IDebugSystemObjects3, dbgeng/IDebugSystemObjects2::GetEventProcess, IDebugSystemObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ Receives the engine process ID.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,15 +97,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 In kernel-mode debugging, the engine process ID for the virtual process representing the kernel is returned.
 
 For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details about debugger engine events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

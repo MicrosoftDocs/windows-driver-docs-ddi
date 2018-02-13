@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtcloseadapter, D3DKMTCloseAdapter, d3dkmthk/D3DKMTCloseAdapter, OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, D3DKMTCloseAdapter function [Display Devices], PFND3DKMT_CLOSEADAPTER
+ms.keywords: PFND3DKMT_CLOSEADAPTER, OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, D3DKMTCloseAdapter function [Display Devices], D3DKMTCloseAdapter, display.d3dkmtcloseadapter, d3dkmthk/D3DKMTCloseAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_CLOSEADAPTER</a> structure that specifies the adapter to close.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_
 ## -returns
 
 
+
 <b>D3DKMTCloseAdapter</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,15 +115,19 @@ Parameters were validated and determined to be incorrect or the Windows Vista di
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_CLOSEADAPTER</a>
+
+
 
  
 

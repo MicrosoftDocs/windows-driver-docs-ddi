@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MEMORY_REGION structure [Storage Devices], *PMEMORY_REGION, PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION, storage.memory_region, storport/PMEMORY_REGION, storport/MEMORY_REGION, MEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml
+ms.keywords: structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml, storport/PMEMORY_REGION, MEMORY_REGION structure [Storage Devices], storport/MEMORY_REGION, PMEMORY_REGION, *PMEMORY_REGION, storage.memory_region, MEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MEMORY_REGION
 product: Windows
 targetos: Windows
-req.typenames: MEMORY_REGION, *PMEMORY_REGION
+req.typenames: "*PMEMORY_REGION, MEMORY_REGION"
 req.product: Windows 10 or later.
 ---
 
@@ -88,13 +88,17 @@ The size, in bytes, of the memory region.
 ## -remarks
 
 
+
 The <b>DumpRegion</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump. 
+
 
 
 
 ## -see-also
 
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, KS_BITMAPINFOHEADER structure [Streaming Media Devices], stream.ks_bitmapinfoheader, ksmedia/KS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
+ms.keywords: "*PKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, KS_BITMAPINFOHEADER structure [Streaming Media Devices], ksmedia/KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], PKS_BITMAPINFOHEADER, tagKS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml, ksmedia/PKS_BITMAPINFOHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_BITMAPINFOHEADER
 product: Windows
 targetos: Windows
-req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
+req.typenames: "*PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER"
 ---
 
 # tagKS_BITMAPINFOHEADER structure
@@ -135,6 +135,8 @@ Specifies the number of important colors in the image.
 ## -remarks
 
 
+
 This is the same structure as the user-mode GDI bitmap header (BITMAPINFOHEADER) structure.
+
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prntfont/PDATA_HEADER, prntfont/DATA_HEADER, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, *PDATA_HEADER, _DATA_HEADER, print.data_header, PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], DATA_HEADER structure [Print Devices], DATA_HEADER
+ms.keywords: DATA_HEADER, prntfont/DATA_HEADER, *PDATA_HEADER, prntfont/PDATA_HEADER, DATA_HEADER structure [Print Devices], _DATA_HEADER, print.data_header, PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ typedef struct _DATA_HEADER {
 ### -field dwSignature
 
 Specifies the signature value identifying the type of data in the data section. Valid signature values are listed in the following table.
+
 <table>
 <tr>
 <th>Signature</th>
@@ -130,7 +131,8 @@ This data section contains data to be downloaded to the printer. See the followi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wSize
@@ -160,15 +162,19 @@ Not used. Must be set to zero.
 ## -remarks
 
 
+
 If <b>dwSignature</b> is DATA_VAR_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a> soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
 
 Each DATA_HEADER structure must be DWORD-aligned.
 
 
 
+
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
+
+
 
  
 

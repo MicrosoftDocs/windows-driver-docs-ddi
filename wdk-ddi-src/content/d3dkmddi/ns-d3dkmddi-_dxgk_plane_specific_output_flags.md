@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95D9C564-92F3-4165-8063-49D928F30475
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS"
+ms.keywords: display.dxgk_plane_specific_output_flags, _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,5 +96,4 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 
 ### -field Value
-
 

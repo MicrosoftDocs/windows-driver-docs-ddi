@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::LoadModule, LoadModule, debugger.idebugeventcallbackswide_loadmodule, dbgeng/IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacksWide
+ms.keywords: IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, debugger.idebugeventcallbackswide_loadmodule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::LoadModule, LoadModule, IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,11 +111,14 @@ Specifies the time and date stamp of the module's image file.  If this informati
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
 
+
 ## -remarks
+
 
 
 This method is only called by the engine if the DEBUG_EVENT_LOAD_MODULE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
@@ -123,5 +126,6 @@ This method is only called by the engine if the DEBUG_EVENT_LOAD_MODULE flag is 
 After calling this method, the engine will call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550587">IDebugEventCallbacksWide::ChangeSymbolState</a>, with the <i>Flags</i> parameter containing the bit flag DEBUG_CSS_LOADS.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. 
+
 
 

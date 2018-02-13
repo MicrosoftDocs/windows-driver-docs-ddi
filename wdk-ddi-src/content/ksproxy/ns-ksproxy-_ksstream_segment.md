@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 433b1346-f0f1-46f7-a1d8-e6397b2f7f05
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, PKSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], ksproxy/PKSSTREAM_SEGMENT, stream.ksstream_segment, KSSTREAM_SEGMENT, *PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], _KSSTREAM_SEGMENT
+ms.keywords: PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], _KSSTREAM_SEGMENT, ksproxy/PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], stream.ksstream_segment, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, ksproxy/KSSTREAM_SEGMENT, *PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,7 @@ Pointer to a <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHa
 ### -field IoOperation
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
+
 <table>
 <tr>
 <th>Value</th>
@@ -108,7 +109,8 @@ Read data from stream.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CompletionEvent
@@ -120,13 +122,23 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+
+
+
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
 
  
 

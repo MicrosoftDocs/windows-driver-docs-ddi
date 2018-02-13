@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5f8959f-edde-4d45-b93c-8f5acb08ec98
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, netvista.ndis_sriov_write_vf_config_space_parameters, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
+ms.keywords: "*PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_write_vf_config_space_parameters, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS"
+req.typenames: NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
 ---
 
 # _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure
@@ -80,6 +80,7 @@ The driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_
 
 
 
+
 #### NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -90,9 +91,11 @@ Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 ### -field VFId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF on the network adapter.
+
 <div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field Offset
 
@@ -112,17 +115,25 @@ A ULONG value that specifies the offset, in units of bytes, from the beginning o
 ## -remarks
 
 
+
  The <b>NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS</b> structure is used in an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451925">OID_SRIOV_WRITE_VF_CONFIG_SPACE</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451925">OID_SRIOV_WRITE_VF_CONFIG_SPACE</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 7de35a35-2b90-421d-bbde-4c5cb760070a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PSRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT, _SRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], SRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input"
+ms.keywords: "_SRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], SRIOV_MITIGATED_RANGE_COUNT_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRIOV_MITIGATED_RANGE_COUNT_INPUT
 product: Windows
 targetos: Windows
-req.typenames: SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT
+req.typenames: "*PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT"
 ---
 
 # _SRIOV_MITIGATED_RANGE_COUNT_INPUT structure
@@ -75,6 +75,8 @@ Zero-based index of the virtual function from the first virtual function exposed
 ## -see-also
 
 <a href="https://msdn.microsoft.com/68fd97a5-b7ea-43c0-96ed-b64445fd21dd">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a>
+
+
 
  
 

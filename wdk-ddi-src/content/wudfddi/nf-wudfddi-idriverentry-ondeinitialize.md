@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.idriverentry_ondeinitialize, IDriverEntry::OnDeinitialize, wdf.idriverentry_ondeinitialize, OnDeinitialize, wudfddi/IDriverEntry::OnDeinitialize, OnDeinitialize method, OnDeinitialize method, IDriverEntry interface, IDriverEntry, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, IDriverEntry interface, OnDeinitialize method
+ms.keywords: OnDeinitialize method, IDriverEntry interface, IDriverEntry, IDriverEntry interface, OnDeinitialize method, wudfddi/IDriverEntry::OnDeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, IDriverEntry::OnDeinitialize, OnDeinitialize method, umdf.idriverentry_ondeinitialize, OnDeinitialize, wdf.idriverentry_ondeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,14 +78,18 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> in
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver is about to be unloaded from the host process, the framework calls <b>OnDeinitialize</b> to notify the driver of the departure and passes the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface in the call. The system unloads the driver after <b>OnDeinitialize</b> returns. 
+
 
 
 
@@ -93,7 +97,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+
+
 
  
 

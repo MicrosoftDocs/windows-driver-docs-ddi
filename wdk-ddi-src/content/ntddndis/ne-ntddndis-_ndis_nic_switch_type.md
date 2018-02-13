@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F990F166-D9DA-43F5-95D3-86B9B11FACF1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisNicSwitchTypeExternal, NdisNicSwitchTypeExternal, PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeUnspecified, NdisNicSwitchTypeUnspecified, NdisNicSwitchTypeMax, _NDIS_NIC_SWITCH_TYPE, ntddndis/PNDIS_NIC_SWITCH_TYPE, netvista.ndis_nic_switch_type, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisNicSwitchTypeMax, *PNDIS_NIC_SWITCH_TYPE, ntddndis/NDIS_NIC_SWITCH_TYPE
+ms.keywords: ntddndis/PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeMax, NdisNicSwitchTypeExternal, ntddndis/NdisNicSwitchTypeMax, netvista.ndis_nic_switch_type, ntddndis/NdisNicSwitchTypeExternal, PNDIS_NIC_SWITCH_TYPE, _NDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeUnspecified, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeUnspecified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NIC_SWITCH_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_NIC_SWITCH_TYPE, *PNDIS_NIC_SWITCH_TYPE
+req.typenames: "*PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE"
 ---
 
 # _NDIS_NIC_SWITCH_TYPE enumeration
@@ -91,6 +91,7 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>SwitchType</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_parameters.md">NDIS_NIC_SWITCH_PARAMETERS</a> and <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structures is an <b>NDIS_NIC_SWITCH_TYPE</b> enumeration data type. 
 
 
@@ -99,13 +100,20 @@ For more information about the NIC switch, see <a href="https://msdn.microsoft.c
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
+## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_parameters.md">NDIS_NIC_SWITCH_PARAMETERS</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
+
+
+
 <b></b>
+
+
 
  
 

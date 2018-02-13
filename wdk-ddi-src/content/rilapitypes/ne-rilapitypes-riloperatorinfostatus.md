@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8b17ae4a-b3ea-48b6-8269-f947e1d74b86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_OPSTATUS_CURRENT, rilapitypes/RIL_OPSTATUS_CURRENT, rilapitypes/RIL_OPSTATUS_MAX, RIL_OPSTATUS_MAX, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_AVAILABLE, RILOPERATORINFOSTATUS, rilapitypes/RILOPERATORINFOSTATUS, rilapitypes/RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_FORBIDDEN, netvista.riloperatorinfostatus_2
+ms.keywords: RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_MAX, rilapitypes/RIL_OPSTATUS_MAX, RIL_OPSTATUS_FORBIDDEN, rilapitypes/RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_AVAILABLE, rilapitypes/RIL_OPSTATUS_AVAILABLE, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_OPSTATUS_CURRENT, rilapitypes/RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS, netvista.riloperatorinfostatus_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,19 +74,14 @@ typedef enum _RILOPERATORINFOSTATUS {
 ### -field RIL_OPSTATUS_UNKNOWN
 
 
-
 ### -field RIL_OPSTATUS_AVAILABLE
-
 
 
 ### -field RIL_OPSTATUS_CURRENT
 
 
-
 ### -field RIL_OPSTATUS_FORBIDDEN
 
 
-
 ### -field RIL_OPSTATUS_MAX
-
 

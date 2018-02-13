@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetOptions method [Print Devices], IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities interface [Print Devices], GetOptions method, GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities, GetOptions method [Print Devices], IPrintSchemaCapabilities interface
+ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetOptions method, GetOptions method [Print Devices], IPrintSchemaCapabilities interface, GetOptions, IPrintSchemaCapabilities, GetOptions method [Print Devices], printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,6 +80,7 @@ The specified feature.
 
 
 
+
 #### - ppOptions [out, retval]
 
 The returned options.
@@ -88,7 +89,9 @@ The returned options.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
@@ -96,7 +99,11 @@ This method returns an <b>HRESULT</b> value.
 
 <a href="..\printerextension\nn-printerextension-iprintschemaoptioncollection.md">IPrintSchemaOptionCollection</a>
 
+
+
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+
+
 
  
 

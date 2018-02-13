@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, D3DKMT_GETSHAREDPRIMARYHANDLE, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle, D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], _D3DKMT_GETSHAREDPRIMARYHANDLE
+ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE, OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_GETSHAREDPRIMARYHANDLE {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetsharedprimaryhandle.md">D3DKMTGetSharedPrimaryHandle</a>
+
+
 
  
 

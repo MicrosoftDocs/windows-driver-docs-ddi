@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], PCI.vpci_pnp_id, VPCI_PNP_ID, pcivirt/VPCI_PNP_ID, *PVPCI_PNP_ID"
+ms.keywords: VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], *PVPCI_PNP_ID, PCI.vpci_pnp_id, _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VPCI_PNP_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # _VPCI_PNP_ID structure
@@ -117,6 +117,8 @@ Vendor-defined subsystem identifier.
 ## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>
+
+
 
  
 

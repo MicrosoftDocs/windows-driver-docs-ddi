@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxswapchaingetmoveregions, IddCxSwapChainGetMoveRegions, iddcx/IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices]
+ms.keywords: display.iddcxswapchaingetmoveregions, IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], iddcx/IddCxSwapChainGetMoveRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,9 @@ Output arguments of the function
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

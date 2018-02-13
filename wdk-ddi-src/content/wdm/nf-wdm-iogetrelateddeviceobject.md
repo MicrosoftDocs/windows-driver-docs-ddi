@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoGetRelatedDeviceObject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], IoGetRelatedDeviceObject, k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, kernel.iogetrelateddeviceobject
+ms.keywords: k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, kernel.iogetrelateddeviceobject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], wdm/IoGetRelatedDeviceObject, IoGetRelatedDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the file object.
 ## -returns
 
 
+
 <b>IoGetRelatedDeviceObject</b> returns a pointer to the device object.
 
 
 
+
 ## -remarks
+
 
 
 When called on a file object that represents the underlying storage device, <b>IoGetRelatedDeviceObject</b> returns the highest-level device object in the storage device stack. To obtain the highest-level device object in the file system driver stack, drivers must call <b>IoGetRelatedDeviceObject</b> on a file object that represents the file system's driver stack, and the file system must currently be mounted. (Otherwise, the storage device stack is traversed instead of the file system stack.)
@@ -91,9 +94,12 @@ The caller must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, callers of thi
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
 
  
 

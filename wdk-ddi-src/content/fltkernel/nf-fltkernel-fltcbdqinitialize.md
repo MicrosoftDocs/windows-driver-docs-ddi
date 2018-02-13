@@ -7,8 +7,8 @@ old-location: ifsk\fltcbdqinitialize.htm
 old-project: ifsk
 ms.assetid: a3e089bf-6037-4d85-92ce-db9c865bdc02
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fltkernel/FltCbdqInitialize, FltCbdqInitialize function [Installable File System Drivers], FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, ifsk.fltcbdqinitialize, FltCbdqInitialize
+ms.date: 2/7/2018
+ms.keywords: FltCbdqInitialize function [Installable File System Drivers], FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize, FltCbdqInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,7 @@ Pointer to a callback data queue allocated by the minifilter driver.
 ### -param CbdqInsertIo [in]
 
 Pointer to a caller-supplied insert callback routine. The Filter Manager calls this routine to insert the specified callback data structure into the queue. This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,14 +105,18 @@ Pointer to a caller-supplied insert callback routine. The Filter Manager calls t
 </table></span></div>
 
 
+
+
 #### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
 
 
+
 #### Cbd
 
 Pointer to the callback data structure to be inserted into the queue. 
+
 
 
 #### InsertContext
@@ -122,6 +127,7 @@ Context information pointer that was passed as the <i>InsertContext</i> paramete
 ### -param CbdqRemoveIo [in]
 
 Pointer to a caller-supplied remove callback routine. The Filter Manager calls this routine to remove the specified callback data structure from the queue. This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -138,9 +144,12 @@ Pointer to a caller-supplied remove callback routine. The Filter Manager calls t
 </table></span></div>
 
 
+
+
 #### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
 
 
 #### Cbd
@@ -151,6 +160,7 @@ Pointer to the callback data structure to be removed from the queue.
 ### -param CbdqPeekNextIo [in]
 
 Pointer to a caller-supplied peek callback routine. The Filter Manager calls this function to get a pointer to the next I/O operation matching <i>PeekContext</i> in the queue; or, if <i>Cbd</i> is <b>NULL</b>, to get a pointer to the first matching I/O operation in the queue. The minifilter driver entirely defines the meaning of <i>PeekContext</i> and defines when an I/O operation matches a given <i>PeekContext</i>. This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -168,14 +178,18 @@ Pointer to a caller-supplied peek callback routine. The Filter Manager calls thi
 </table></span></div>
 
 
+
+
 #### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
 
 
+
 #### Cbd
 
 Pointer to the callback data structure marking the position in the queue to begin searching for a match to <i>PeekContext</i>. If <i>Cbd</i> is <b>NULL</b>, the search begins at the head of the queue. 
+
 
 
 #### PeekContext
@@ -186,6 +200,7 @@ Context information pointer that was passed as the <i>PeekContext</i> parameter 
 ### -param CbdqAcquire [in]
 
 Pointer to a caller-supplied acquire queue lock callback routine. The Filter Manager calls this routine to acquire the lock on the queue before attempting to insert or remove an item from the queue. This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -202,9 +217,12 @@ Pointer to a caller-supplied acquire queue lock callback routine. The Filter Man
 </table></span></div>
 
 
+
+
 #### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
 
 
 #### Irql
@@ -215,6 +233,7 @@ Pointer to a system-supplied variable that receives the current IRQL. The same v
 ### -param CbdqRelease [in]
 
 Pointer to a caller-supplied release queue lock callback routine. The Filter Manager calls this routine to release the lock that it obtained by calling the corresponding <i>CbdqAcquire</i> routine. This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -231,9 +250,12 @@ Pointer to a caller-supplied release queue lock callback routine. The Filter Man
 </table></span></div>
 
 
+
+
 #### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
 
 
 #### Irql
@@ -244,6 +266,7 @@ The same system-supplied variable that received the current IRQL as the <i>Irql<
 ### -param CbdqCompleteCanceledIo [in]
 
 Pointer to a caller-supplied cancel routine. The Filter Manager calls this routine to signal to the minifilter driver to complete a canceled I/O operation. This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -260,9 +283,12 @@ Pointer to a caller-supplied cancel routine. The Filter Manager calls this routi
 </table></span></div>
 
 
+
+
 #### Cbdq
 
 Pointer to the minifilter driver's cancel-safe callback data queue. This queue must have been initialized by calling <i>FltCbdqInitialize</i>. 
+
 
 
 #### Cbd
@@ -273,11 +299,14 @@ Pointer to the callback data structure for the canceled I/O operation.
 ## -returns
 
 
+
 <i>FltCbdqInitialize</i> returns STATUS_SUCCESS or an appropriate NTSTATUS value. 
 
 
 
+
 ## -remarks
+
 
 
 The newly initialized callback data queue is in the enabled state, which  means that callback data structure items can be inserted into the queue. The queue can be disabled by calling <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a> and reenabled by calling <a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>. 
@@ -295,6 +324,7 @@ Minifilter drivers can use any of the operating system's synchronization primiti
 The minifilter driver does not manipulate the queue directly. Instead, it calls <a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>, <a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>, and <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a> to add or remove a callback data structure. These routines in turn call the callback functions that the minifilter driver provided to <i>FltCbdqInitialize</i>. 
 
 Minifilter drivers should implement the queue routines as follows. 
+
 <table>
 <tr>
 <th>Cbdq Routine</th>
@@ -360,37 +390,61 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
+
+
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
 
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
+
+
 
 <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCbdqInitialize function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCbdqInitialize function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

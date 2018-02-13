@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/librar
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,7 +120,11 @@ If the miniport driver successfully gets or sets the requested information, it s
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
 
+
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

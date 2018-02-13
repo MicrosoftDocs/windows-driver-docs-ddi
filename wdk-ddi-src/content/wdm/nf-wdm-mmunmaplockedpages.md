@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ab5f33b9-5261-4d30-bceb-8e91a24ae0a8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmUnmapLockedPages, kernel.mmunmaplockedpages, MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml
+ms.keywords: kernel.mmunmaplockedpages, MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, wdm/MmUnmapLockedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Pointer to an MDL.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Callers of <b>MmUnmapLockedPages</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the pages were mapped to system space. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
@@ -95,11 +98,16 @@ Note that if the call to <b>MmMapLockedPages</b> or <b>MmMapLockedPagesSpecifyCa
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
+
 
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
 
  
 

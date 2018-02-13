@@ -7,7 +7,7 @@ old-location: ifsk\ioctl_redir_query_path_ex.htm
 old-project: ifsk
 ms.assetid: 290825dd-d5f6-4e9b-b1a3-3e146d3e1856
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/7/2018
 ms.keywords: ifsk.ioctl_redir_query_path_ex, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], IOCTL_REDIR_QUERY_PATH_EX, ntifs/IOCTL_REDIR_QUERY_PATH_EX, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,6 +92,7 @@ The provider and the prefix that it claimed are entered in a prefix cache mainta
 ### -input-buffer
 
 <b>IrpSp-&gt;Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST_EX</b> data structure that contains the request. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -106,7 +107,8 @@ The provider and the prefix that it claimed are entered in a prefix cache mainta
 } QUERY_PATH_REQUEST_EX, *PQUERY_PATH_REQUEST_EX;</pre>
 </td>
 </tr>
-</table></span></div><table>
+</table></span></div>
+<table>
 <tr>
 <th>Structure member</th>
 <th>Description</th>
@@ -151,19 +153,23 @@ A non-NULL terminated Unicode string of the form \&lt;server&gt;\&lt;share&gt;\&
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -input-buffer-length
+
 
 
 <text></text>
 
 
 
+
 ### -output-buffer
 
 <b>IRP-&gt;UserBuffer</b> is set to a <b>QUERY_PATH_RESPONSE</b> data structure that contains the response.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -175,7 +181,8 @@ A non-NULL terminated Unicode string of the form \&lt;server&gt;\&lt;share&gt;\&
 } QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;</pre>
 </td>
 </tr>
-</table></span></div><table>
+</table></span></div>
+<table>
 <tr>
 <th>Structure member</th>
 <th>Description</th>
@@ -190,27 +197,34 @@ The length, in bytes, of the prefix claimed by the provider from the Unicode str
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -251,6 +265,7 @@ If the prefix resolution operation failed due to invalid or incorrect credential
 ## -remarks
 
 
+
 Network redirectors should only honor kernel-mode senders of this IOCTL, by verifying that <b>Irp-&gt;RequestorMode</b> is <b>KernelMode</b>. 
 
 Note that IOCTL_REDIR_QUERY_PATH_EX is a METHOD_NEITHER IOCTL. This means that the input and output buffers might not be at the same address. A common mistake by UNC providers is to assume that the input buffer and the output buffer are the same and use the input buffer pointer to provide the response.
@@ -273,19 +288,28 @@ For more information, see the following sections in the Design Guide:
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path.md">IOCTL_REDIR_QUERY_PATH</a>
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
 
- 
+
+
+<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path.md">IOCTL_REDIR_QUERY_PATH</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_REDIR_QUERY_PATH_EX control code%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_REDIR_QUERY_PATH_EX control code%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

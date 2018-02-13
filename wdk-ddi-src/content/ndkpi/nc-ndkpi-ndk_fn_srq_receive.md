@@ -88,7 +88,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 ### -param NDK_SGE
 
 
-
 ### -param nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
@@ -104,8 +103,10 @@ An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>)
 ## -returns
 
 
+
 The 
      <i>NdkSrqReceive</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,24 +135,34 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkSrqReceive</i> posts a receive request to a shared receive queue (SRQ).
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
 
  
 

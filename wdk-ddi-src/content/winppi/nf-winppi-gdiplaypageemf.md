@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF, GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices]
+ms.keywords: GdiPlayPageEMF, gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, GdiPlayPageEMF function [Print Devices], print.gdiplaypageemf, winppi/GdiPlayPageEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -42,7 +42,7 @@ apiname:
 -	GdiPlayPageEMF
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME"
+req.typenames: DOT11_WPS_DEVICE_NAME, *PDOT11_WPS_DEVICE_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -102,11 +102,14 @@ Caller-supplied pointer to a RECT structure specifying the coordinates of the pa
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>, and an error code can be obtained by calling <b>GetLastError</b>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GdiPlayPageEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
@@ -121,9 +124,12 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 
 
+
 ## -see-also
 
 <a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
+
+
 
  
 

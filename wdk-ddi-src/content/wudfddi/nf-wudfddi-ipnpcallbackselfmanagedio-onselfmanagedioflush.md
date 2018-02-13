@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, OnSelfManagedIoFlush, OnSelfManagedIoFlush method, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml
+ms.keywords: UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, IPnpCallbackSelfManagedIo, OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,24 +78,34 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
 
  
 

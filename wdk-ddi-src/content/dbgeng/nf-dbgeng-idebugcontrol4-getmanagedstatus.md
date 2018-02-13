@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C2D32ABB-5ABE-4580-9577-1144569EA8E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4, debugger.idebugcontrol4_getmanagedstatus, GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface, GetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatus method, dbgeng/IDebugControl4::GetManagedStatus, IDebugControl4::GetManagedStatus
+ms.keywords: dbgeng/IDebugControl4::GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatus method, debugger.idebugcontrol4_getmanagedstatus, IDebugControl4, GetManagedStatus, GetManagedStatus method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetManagedStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,9 @@ A pointer to an output string.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,16 +119,20 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
     Managed debugging support relies on debugging
     functionality provided by the CLR.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

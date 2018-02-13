@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand"
+ms.keywords: "_D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -215,7 +215,9 @@ A pointer to the array of history buffers.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a> code path no longer provides an allocation list for the user mode driver to provide a list of allocations that will be read and written to during this command. However, it is necessary to synchronize some writes that would not normally be known without the allocation list. For this, a new small allocation list specifically for surfaces which will be written to and used for displaying content. The <b>WrittenPrimaries</b> array should be used to provide such allocations.
@@ -228,13 +230,20 @@ If the driver receives a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_crea
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_submitcommandcb.md">pfnSubmitCommandCb</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
+
 
  
 

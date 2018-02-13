@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b683518c-b4f4-4ae4-945d-8a2d064a5390
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, ndis/NdisMGetDmaAlignment, netvista.ndismgetdmaalignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], NdisMGetDmaAlignment
+ms.keywords: dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, NdisMGetDmaAlignment, netvista.ndismgetdmaalignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], ndis/NdisMGetDmaAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMGetDmaAlignment
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMGetDmaAlignment function
@@ -80,29 +80,39 @@ An NDIS handle that identifies the miniport adapter for the NIC. This handle was
 ## -returns
 
 
+
 Returns a value that specifies the alignment requirements of the DMA system. The miniport driver
      uses this value to round up the size of a receive buffer to a cache-line size or a multiple of that size
      when it allocates such a buffer.
 
 
 
+
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
-  scatter/gather DMA channel before calling <b>NdisMGetDmaAlignment</b>.</div><div> </div>A miniport driver can call the 
+  scatter/gather DMA channel before calling <b>NdisMGetDmaAlignment</b>.</div>
+<div> </div>
+A miniport driver can call the 
     <b>NdisMGetDmaAlignment</b> function to determine alignment requirements for DMA buffers that it
     allocates. A miniport driver might require increasing the returned value because of additional hardware
     device restrictions.
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
    NdisMRegisterScatterGatherDma</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 
  
 

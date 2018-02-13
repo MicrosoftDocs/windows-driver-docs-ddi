@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksreferencesoftwarebusobject, swenum/KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml
+ms.keywords: ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, swenum/KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, KsReferenceSoftwareBusObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsReferenceSoftwareBusObject
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
+req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ Pointer to the device header (extension) of the demand-load bus enumerator.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the request is handled. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 A minidriver can access this function through the <b>ReferenceDeviceObject</b> member of the BUS_INTERFACE_SWENUM structure.
@@ -92,13 +95,20 @@ The device object remains active and enumerated until the reference count return
 
 
 
+
 ## -see-also
 
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
+
+
 
 <a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
+
+
+<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+
+
 
  
 

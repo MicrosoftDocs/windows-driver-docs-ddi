@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, _D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags, D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices]
+ms.keywords: D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATEHWCONTEXTFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

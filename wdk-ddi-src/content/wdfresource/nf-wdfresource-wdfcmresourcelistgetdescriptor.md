@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5aa96fed-83ca-417e-876d-a734be6f27dd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCMRESOURCELISTGETDESCRIPTOR, kmdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor, WdfCmResourceListGetDescriptor method, WdfCmResourceListGetDescriptor, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, wdf.wdfcmresourcelistgetdescriptor
+ms.keywords: wdfresource/WdfCmResourceListGetDescriptor, wdf.wdfcmresourcelistgetdescriptor, WdfCmResourceListGetDescriptor, PFN_WDFCMRESOURCELISTGETDESCRIPTOR, kmdf.wdfcmresourcelistgetdescriptor, DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, WdfCmResourceListGetDescriptor method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,7 @@ A zero-based value that is used as an index into the logical configuration that 
 ## -returns
 
 
+
 <b>WdfCmResourceListGetDescriptor</b> returns a pointer to the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -95,7 +96,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver cannot modify the resource descriptor that <b>WdfCmResourceListGetDescriptor</b> retrieves. 
@@ -103,10 +106,19 @@ Your driver cannot modify the resource descriptor that <b>WdfCmResourceListGetDe
 For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfCmResourceListGetDescriptor</b>, see <a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistgetcount.md">WdfCmResourceListGetCount</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

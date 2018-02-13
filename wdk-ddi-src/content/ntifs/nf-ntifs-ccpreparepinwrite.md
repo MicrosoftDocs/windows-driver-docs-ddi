@@ -7,8 +7,8 @@ old-location: ifsk\ccpreparepinwrite.htm
 old-project: ifsk
 ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/CcPreparePinWrite, ifsk.ccpreparepinwrite, CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml
+ms.date: 2/7/2018
+ms.keywords: ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, ifsk.ccpreparepinwrite, ntifs/CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], CcPreparePinWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,6 +96,7 @@ Set to <b>TRUE</b> if the buffer is to be zeroed on return. This parameter is ig
 ### -param Flags [in]
 
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -151,7 +152,8 @@ The caller is responsible for  keeping track of dirty pages. If this flag is set
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Bcb [out]
@@ -167,11 +169,14 @@ Returns pointer to desired data, valid until the buffer is unpinned or freed.
 ## -returns
 
 
+
 <b>CcPreparePinWrite</b> returns <b>TRUE</b> if the cached file was pinned successfully, <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 <b>CcPreparePinWrite</b> pins the specified file pages in the system cache. Pages to be completely overwritten may be satisfied with pages of zeros.
@@ -194,25 +199,40 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
-## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
 
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcPreparePinWrite routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcPreparePinWrite routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

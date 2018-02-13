@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6ac1458-775d-4f73-86a1-30bfbf2256cc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtFlushBuffersFile, ZwFlushBuffersFile, NtFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, kernel.zwflushbuffersfile, ntifs/ZwFlushBuffersFile
+ms.keywords: ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, ntifs/ZwFlushBuffersFile, NtFlushBuffersFile, ntifs/NtFlushBuffersFile, kernel.zwflushbuffersfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ Address of the caller's I/O status block. This parameter is required and cannot 
 ## -returns
 
 
+
 <b>ZwFlushBuffersFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The file resides on a volume that is not currently mounted; this is an error cod
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A file system filter driver can call <b>ZwFlushBuffersFile</b> to issue an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a> request to the file system for a given file. The flush operation is synchronous.
@@ -122,21 +127,35 @@ A file system filter driver can call <b>ZwFlushBuffersFile</b> to issue an <a hr
 Minifilter drivers should call <a href="..\fltkernel\nf-fltkernel-fltflushbuffers.md">FltFlushBuffers</a> instead of calling <b>ZwFlushBuffersFile</b>. 
 
 Callers of <b>ZwFlushBuffersFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwFlushBuffersFile</b> function occurs in user mode, you should use the name "<b>NtFlushBuffersFile</b>" instead of "<b>ZwFlushBuffersFile</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwFlushBuffersFile</b> function occurs in user mode, you should use the name "<b>NtFlushBuffersFile</b>" instead of "<b>ZwFlushBuffersFile</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltflushbuffers.md">FltFlushBuffers</a>
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
 
  
 

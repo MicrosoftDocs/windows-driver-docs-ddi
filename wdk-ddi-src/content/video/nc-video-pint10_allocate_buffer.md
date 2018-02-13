@@ -97,20 +97,26 @@ Pointer to a memory location that contains the length, in bytes, of the requeste
 ## -returns
 
 
+
 The <i>Int10AllocateBuffer</i> function returns NO_ERROR upon success. It returns STATUS_INSUFFICIENT_RESOURCES if the buffer has been allocated previously or if a buffer size larger than 4096 bytes is requested. 
+
 
 
 
 ## -remarks
 
 
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+
+
 
  
 

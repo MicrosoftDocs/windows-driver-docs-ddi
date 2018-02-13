@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aac70408-83b8-4bfd-8ce9-9b74483f6282
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterRegisterAggregatedClientUnknown, avfunc_c485334a-83bd-474e-abfc-ced331ca55db.xml, stream.ksfilterregisteraggregatedclientunknown, KsFilterRegisterAggregatedClientUnknown function [Streaming Media Devices], ks/KsFilterRegisterAggregatedClientUnknown
+ms.keywords: avfunc_c485334a-83bd-474e-abfc-ced331ca55db.xml, KsFilterRegisterAggregatedClientUnknown, KsFilterRegisterAggregatedClientUnknown function [Streaming Media Devices], stream.ksfilterregisteraggregatedclientunknown, ks/KsFilterRegisterAggregatedClientUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,20 +81,26 @@ The client <b>IUnknown</b> interface object.
 ## -returns
 
 
+
 <b>KsFilterRegisterAggregatedClientUnknown</b> returns a pointer to an <b>IUnknown</b> interface representing the newly created aggregate object.
+
 
 
 
 ## -remarks
 
 
+
 Note that this inline function only performs a typecast and then calls <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
 
  
 

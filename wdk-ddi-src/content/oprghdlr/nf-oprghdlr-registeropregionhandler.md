@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: RegisterOpRegionHandler, acpi.registeropregionhandler, RegisterOpRegionHandler routine [ACPI Devices], oprghdlr/RegisterOpRegionHandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml
+ms.keywords: acpi.registeropregionhandler, oprghdlr/RegisterOpRegionHandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, RegisterOpRegionHandler routine [ACPI Devices], RegisterOpRegionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RegisterOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # RegisterOpRegionHandler function
@@ -87,6 +87,7 @@ Specifies ACPI_OPREGION_ACCESS_AS_COOKED.
 ### -param RegionSpace [in]
 
 Specifies one of the following types of region space.
+
 <table>
 <tr>
 <th>Region Space Identifier</th>
@@ -172,7 +173,8 @@ Vendor-defined
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Handler [in]
@@ -198,7 +200,9 @@ Pointer to caller-allocated buffer that, on output, contains a pointer to the op
 ## -returns
 
 
+
 Returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -248,11 +252,14 @@ An internal error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The operation region context specified by <i>Context</i> is device-specific and is only used by the function driver. Typically, the context is the device extension for the functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>). The ACPI driver passes this context back to the function driver when it calls the operation region handler. The operation region object is only used by a function driver to uniquely identify the operation region when it deregisters the operation region handler.
@@ -261,11 +268,16 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 
 
+
 ## -see-also
 
 <a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
 
+
+
 <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
+
+
 
  
 

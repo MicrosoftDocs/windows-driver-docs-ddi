@@ -40,7 +40,7 @@ apiname:
 -	NetFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # FREE_SHARED_MEMORY_HANDLER callback
@@ -94,11 +94,14 @@ A handle for a context area that identifies the shared memory block. This is the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS calls the 
@@ -112,14 +115,21 @@ The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
 
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+
 
  
 

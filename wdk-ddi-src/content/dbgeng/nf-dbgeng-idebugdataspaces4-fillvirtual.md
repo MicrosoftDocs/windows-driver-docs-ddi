@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d55ccd38-00c7-491b-aadf-8b42b5e89600
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces3::FillVirtual, debugger.fillvirtual, IDebugDataSpaces3 interface [Windows Debugging], FillVirtual method, FillVirtual method [Windows Debugging], IDebugDataSpaces2 interface, FillVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::FillVirtual, FillVirtual method [Windows Debugging], dbgeng/IDebugDataSpaces2::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, IDebugDataSpaces2 interface [Windows Debugging], FillVirtual method, FillVirtual, dbgeng/IDebugDataSpaces4::FillVirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4, IDebugDataSpaces2::FillVirtual
+ms.keywords: dbgeng/IDebugDataSpaces4::FillVirtual, IDebugDataSpaces2::FillVirtual, IDebugDataSpaces3::FillVirtual, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, dbgeng/IDebugDataSpaces3::FillVirtual, debugger.fillvirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces3 interface, FillVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces2 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces4::FillVirtual, dbgeng/IDebugDataSpaces2::FillVirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], FillVirtual method, FillVirtual, FillVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2, IDebugDataSpaces3, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,9 @@ Receives the number of bytes written.  If it is set to <b>NULL</b>, this informa
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,11 +120,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method writes the pattern to the target's memory as many times as will fit in <i>Size</i> bytes.
@@ -131,15 +136,24 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
+
+
 
  
 

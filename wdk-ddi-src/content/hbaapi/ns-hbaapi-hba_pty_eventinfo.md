@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4291e6cd-9497-4106-82bf-c054108a0946
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBA_PTY_EVENTINFO, HBA_Pty_EventInfo, PHBA_PTY_EVENTINFO structure pointer [Storage Devices], hbaapi/PHBA_PTY_EVENTINFO, *PHBA_PTY_EVENTINFO, HBA_PTY_EVENTINFO structure [Storage Devices], structs-Fibre_78e65a2e-556a-459c-9cb0-95cfbfbe4c84.xml, HBA_Pty_EventInfo structure [Storage Devices], storage.hba_pty_eventinfo, hbaapi/HBA_Pty_EventInfo, HBA_PTY_EVENTINFO
+ms.keywords: hbaapi/PHBA_PTY_EVENTINFO, *PHBA_PTY_EVENTINFO, storage.hba_pty_eventinfo, HBA_Pty_EventInfo structure [Storage Devices], hbaapi/HBA_Pty_EventInfo, PHBA_PTY_EVENTINFO structure pointer [Storage Devices], structs-Fibre_78e65a2e-556a-459c-9cb0-95cfbfbe4c84.xml, HBA_Pty_EventInfo, PHBA_PTY_EVENTINFO, HBA_PTY_EVENTINFO structure [Storage Devices], HBA_PTY_EVENTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_PTY_EVENTINFO
 product: Windows
 targetos: Windows
-req.typenames: HBA_PTY_EVENTINFO, *PHBA_PTY_EVENTINFO
+req.typenames: "*PHBA_PTY_EVENTINFO, HBA_PTY_EVENTINFO"
 ---
 
 # HBA_Pty_EventInfo structure
@@ -74,11 +74,17 @@ Contains proprietary data defined by the vendor.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
 
+
+
 <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
+
+
 
  
 

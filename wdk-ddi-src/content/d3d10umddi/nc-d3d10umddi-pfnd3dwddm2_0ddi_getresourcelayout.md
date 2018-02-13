@@ -40,7 +40,7 @@ apiname:
 -	pfnGetResourceLayout
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
@@ -79,9 +79,7 @@ VOID APIENTRY* pfnGetResourceLayout(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRESOURCE
-
 
 
 ### -param SubresourceCount
@@ -90,6 +88,8 @@ The subresource count.
 
 
 ### -param *
+
+
 
 
 
@@ -129,6 +129,8 @@ A pointer to the subresource layout.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

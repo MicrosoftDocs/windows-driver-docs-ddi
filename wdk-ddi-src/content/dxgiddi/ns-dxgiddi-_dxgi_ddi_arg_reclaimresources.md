@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 43e34157-2cf1-4e2c-bcd8-c4425e89fb0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES, _DXGI_DDI_ARG_RECLAIMRESOURCES, display.dxgi_ddi_arg_reclaimresources
+ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], display.dxgi_ddi_arg_reclaimresources, dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES, _DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,6 +101,8 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
+
+
 
  
 

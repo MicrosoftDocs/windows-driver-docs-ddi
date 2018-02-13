@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMDeregisterIoPortRange, miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterioportrange, NdisMDeregisterIoPortRange
+ms.keywords: ndis/NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, NdisMDeregisterIoPortRange, netvista.ndismderegisterioportrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMDeregisterIoPortRange
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMDeregisterIoPortRange function
@@ -98,11 +98,14 @@ Specifies the mapped base port address returned by
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver must pass the same 
@@ -131,13 +134,20 @@ After it calls
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 
  
 

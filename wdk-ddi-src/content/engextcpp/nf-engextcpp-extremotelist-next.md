@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a1bf6f5b-c23d-40ed-b6e2-788066fcf0fc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotelist_next, EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, Next method [Windows Debugging], ExtRemoteList class, ExtRemoteList, Next, ExtRemoteList class [Windows Debugging], Next method, ExtRemoteList::Next, Next method [Windows Debugging]
+ms.keywords: ExtRemoteList::Next, ExtRemoteList class [Windows Debugging], Next method, Next method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_next, EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, Next method [Windows Debugging], Next, ExtRemoteList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.Next
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::Next method
@@ -66,17 +66,22 @@ void Next();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a> will return <code>false</code>.
+
 
 
 
@@ -84,7 +89,11 @@ If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https:/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a>
 
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
+
+
 
  
 

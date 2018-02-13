@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b16ba776-a6b2-46d0-9b6f-18ea17cf4fce
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_CHILD_DEVICE_TYPE, TypeVideoOutput, TypeIntegratedDisplay, DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, dispmprt/DXGK_CHILD_DEVICE_TYPE, dispmprt/TypeOther, _DXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], dispmprt/TypeIntegratedDisplay, TypeUninitialized, TypeOther, dispmprt/TypeUninitialized, PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], dispmprt/TypeVideoOutput, DXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, *PDXGK_CHILD_DEVICE_TYPE
+ms.keywords: dispmprt/DXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, TypeUninitialized, dispmprt/TypeVideoOutput, TypeOther, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, *PDXGK_CHILD_DEVICE_TYPE, dispmprt/PDXGK_CHILD_DEVICE_TYPE, _DXGK_CHILD_DEVICE_TYPE, dispmprt/TypeIntegratedDisplay, DXGK_CHILD_DEVICE_TYPE, dispmprt/TypeOther, PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], TypeIntegratedDisplay, TypeVideoOutput, dispmprt/TypeUninitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CHILD_DEVICE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE"
+req.typenames: DXGK_CHILD_DEVICE_TYPE, *PDXGK_CHILD_DEVICE_TYPE
 ---
 
 # _DXGK_CHILD_DEVICE_TYPE enumeration
@@ -93,9 +93,11 @@ Type indicating that this target is permanently connected to an integrated displ
 ## -remarks
 
 
+
 The <b>ChildDeviceType</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a DXGK_CHILD_DEVICE_TYPE value.
 
 For more information about child devices of display adapters, see <a href="https://msdn.microsoft.com/9fd20e1a-db98-4571-8fc4-6d33fd0e2f16">Child Devices of the Display Adapter</a> and <a href="https://msdn.microsoft.com/3bec2117-aef4-41fc-b88a-0081c7c9fe3d">Enumerating Child Devices of a Display Adapter</a>.
+
 
 
 
@@ -103,7 +105,11 @@ For more information about child devices of display adapters, see <a href="https
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+
 
  
 

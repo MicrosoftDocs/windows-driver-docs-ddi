@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5279d126-8fd3-43dd-be03-2134e46a3ef9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlFindClearBits, RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], kernel.rtlfindclearbits, k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml
+ms.keywords: RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml, wdm/RtlFindClearBits, kernel.rtlfindclearbits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies a zero-based bit position from which to start looking for a clear bit 
 ## -returns
 
 
+
 <b>RtlFindClearBits</b> either returns the zero-based starting bit index for a clear bit range of at least the requested size, or it returns 0xFFFFFFFF if it cannot find such a range within the given bitmap. 
 
 
 
+
 ## -remarks
+
 
 
 For a successful call, the returned bit position is not necessarily equivalent to the given <i>HintIndex</i>. If necessary, <b>RtlFindClearBits</b> searches the whole bitmap to locate a clear bit range of the requested size. However, it starts searching for the requested range from <i>HintIndex</i>, so callers can find such a range more quickly when they can supply appropriate hints about where to start looking. 
@@ -101,23 +104,40 @@ Callers of <b>RtlFindClearBits</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
 
 <a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
 
+
+
+<a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
 
  
 

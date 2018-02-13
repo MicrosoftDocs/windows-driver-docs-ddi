@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03a83321-8396-4400-a15c-84a3b507702d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PF_LUID_INFO, netvista.ndis_sriov_pf_luid_info, ntddndis/PNDIS_SRIOV_PF_LUID_INFO, _NDIS_SRIOV_PF_LUID_INFO, *PNDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PF_LUID_INFO, ntddndis/PNDIS_SRIOV_PF_LUID_INFO, *PNDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO, ntddndis/NDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_pf_luid_info, _NDIS_SRIOV_PF_LUID_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NDIS_SRIOV_PF_LUID_INFO_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -92,25 +93,42 @@ An <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> value that is associate
 ## -remarks
 
 
+
 NDIS generates an LUID for the PF  before NDIS calls the <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
  function of the miniport driver for the PF. This LUID is valid until NDIS calls the PF miniport driver's <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function.
-<div class="alert"><b>Note</b>  The value of the <b>Luid</b> member is different from the <b>NetLuid</b> member of the <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>  structure. This structure is passed to the miniport driver through the <i>MiniportInitParameters</i> of <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.</div><div> </div>An overlying driver queries this LUID through OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451864">OID_SRIOV_PF_LUID</a>. 
+
+<div class="alert"><b>Note</b>  The value of the <b>Luid</b> member is different from the <b>NetLuid</b> member of the <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>  structure. This structure is passed to the miniport driver through the <i>MiniportInitParameters</i> of <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.</div>
+<div> </div>
+An overlying driver queries this LUID through OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451864">OID_SRIOV_PF_LUID</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451864">OID_SRIOV_PF_LUID</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

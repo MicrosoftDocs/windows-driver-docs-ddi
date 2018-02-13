@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCIP_TALK, 61883/CIP_TALK, IEEE.cip_talk, PCIP_TALK structure pointer [Buses], *PCIP_TALK, _CIP_TALK, 61883/PCIP_TALK, CIP_TALK, CIP_TALK structure [Buses]
+ms.keywords: IEEE.cip_talk, 61883/PCIP_TALK, *PCIP_TALK, PCIP_TALK, _CIP_TALK, PCIP_TALK structure pointer [Buses], 61883/CIP_TALK, CIP_TALK structure [Buses], CIP_TALK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ On input, the handle of the connection to begin isochronous transmission.
 ## -remarks
 
 
+
 In the request, Flags can have these values:
 
 
@@ -102,9 +103,12 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

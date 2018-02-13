@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlshorttoint8, ntintsafe/RtlShortToInt8, RtlShortToInt8 function [Kernel-Mode Driver Architecture], RtlShortToInt8
+ms.keywords: RtlShortToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttoint8, RtlShortToInt8, ntintsafe/RtlShortToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt16ToInt8
 </li>
 </ul>
+
 

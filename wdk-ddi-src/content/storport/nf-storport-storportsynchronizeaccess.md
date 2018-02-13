@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_25ee1679-940a-4758-9828-123a9ad24268.xml, storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices]
+ms.keywords: storport/StorPortSynchronizeAccess, storage.storportsynchronizeaccess, StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storprt_25ee1679-940a-4758-9828-123a9ad24268.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,16 +89,20 @@ Pointer to a context area to be passed to the caller-supplied callback routine w
 ## -returns
 
 
+
 The return value from  <i>SynchronizedAccessRoutine</i>.
+
 
 
 
 ## -remarks
 
 
+
 Miniport drivers that operate in full-duplex mode, and that access information that is shared between their <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine and interrupt-service routine, must use this routine to access the shared data in a synchronized manner. 
 
 The miniport driver passes a callback routine to <b>StorPortSynchronizeAccess</b>, and <b>StorPortSynchronizeAccess</b> calls it after guaranteeing exclusive access to sensitive data structures. The miniport driver's callback routine must conform to the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -113,7 +117,8 @@ BOOLEAN
   );</pre>
 </td>
 </tr>
-</table></span></div>where <i>HwDeviceExtension</i> is a pointer to the hardware device extension, and <i>Context</i> is just a pointer to the same context information that the caller supplied when calling <b>StorPortSynchronizeAccess</b>. 
+</table></span></div>
+where <i>HwDeviceExtension</i> is a pointer to the hardware device extension, and <i>Context</i> is just a pointer to the same context information that the caller supplied when calling <b>StorPortSynchronizeAccess</b>. 
 
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/synchronized-access-within-unsynchronized-miniport-driver-routines">Synchronized Access within Unsynchronized Miniport Driver Routines</a>.
 
@@ -121,9 +126,12 @@ For more information about synchronization routines, see <a href="..\wdm\nf-wdm-
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
+
 
  
 

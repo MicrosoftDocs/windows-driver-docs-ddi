@@ -7,8 +7,8 @@ old-location: ifsk\rxindicatechangeofbufferingstateforsrvopen.htm
 old-project: ifsk
 ms.assetid: 70efd8d7-c275-440e-a4df-f41b799a63f0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml, RxIndicateChangeOfBufferingStateForSrvOpen, ifsk.rxindicatechangeofbufferingstateforsrvopen, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstateforsrvopen, RxIndicateChangeOfBufferingStateForSrvOpen, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxIndicateChangeOfBufferingStateForSrvOpen
 product: Windows
 targetos: Windows
-req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -92,6 +92,7 @@ TBD
 
 
 
+
 #### - MRxContext
 
 A pointer to the context to be passed back to the network mini-redirector during callbacks for processing the request.
@@ -100,11 +101,14 @@ A pointer to the context to be passed back to the network mini-redirector during
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine registers the change buffering state request by either inserting it in the registration list (DPC Level processing ) or the appropriate dispatcher/handler list.
@@ -121,17 +125,24 @@ If a buffering state request can be processed immediately instead of being queue
 
 
 
+
 ## -see-also
 
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+
 
 <a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
 
- 
+
+
+<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxIndicateChangeOfBufferingStateForSrvOpen function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxIndicateChangeOfBufferingStateForSrvOpen function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

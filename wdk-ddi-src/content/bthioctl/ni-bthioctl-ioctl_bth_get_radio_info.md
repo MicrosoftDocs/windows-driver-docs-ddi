@@ -95,14 +95,18 @@ The length of a
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,6 +119,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -140,10 +145,12 @@ The device object for the specified device was not connected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The IOCTL_BTH_GET_RADIO_INFO IOCTL returns similar information as the IOCTL_BTH_GET_LOCAL_INFO IOCTL,
@@ -151,9 +158,12 @@ The IOCTL_BTH_GET_RADIO_INFO IOCTL returns similar information as the IOCTL_BTH_
 
 
 
+
 ## -see-also
 
 <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
+
+
 
  
 

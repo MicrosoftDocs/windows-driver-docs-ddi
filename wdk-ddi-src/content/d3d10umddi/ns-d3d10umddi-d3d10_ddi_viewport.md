@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5b2025ce-e0dd-434d-b92b-16ecaf24808f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT structure [Display Devices], display.d3d10_ddi_viewport, D3D10_DDI_VIEWPORT, UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml
+ms.keywords: display.d3d10_ddi_viewport, D3D10_DDI_VIEWPORT structure [Display Devices], d3d10umddi/D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT, UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,6 +107,8 @@ typedef struct D3D10_DDI_VIEWPORT {
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setviewports.md">SetViewports</a>
+
+
 
  
 

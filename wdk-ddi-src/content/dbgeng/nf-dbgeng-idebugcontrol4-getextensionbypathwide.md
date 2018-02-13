@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, dbgeng/IDebugControl4::GetExtensionByPathWide, debugger.getextensionbypathwide, IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging]
+ms.keywords: GetExtensionByPathWide method [Windows Debugging], GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, IDebugControl4::GetExtensionByPathWide, IDebugControl4, debugger.getextensionbypathwide, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,9 @@ Receives the handle of the extension library.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,11 +100,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Extension libraries are loaded into the <a href="https://msdn.microsoft.com/1cc2c055-447c-44cd-94d4-ae3dfa8243fb">host engine</a>, which is where this method looks for the requested extension library.  <i>Path</i> is a path and file name for the host engine.
@@ -111,11 +116,16 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+
+
 
  
 

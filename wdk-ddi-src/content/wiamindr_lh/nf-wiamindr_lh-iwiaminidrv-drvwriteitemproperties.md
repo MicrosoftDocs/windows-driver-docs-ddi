@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 350cb7f6-499f-4fbc-b5c0-6f4daf2a2af0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvWriteItemProperties, IWiaMiniDrv interface [Imaging Devices], drvWriteItemProperties method, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties, IWiaMiniDrv, image.iwiaminidrv_drvwriteitemproperties, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: IWiaMiniDrv::drvWriteItemProperties, IWiaMiniDrv, image.iwiaminidrv_drvwriteitemproperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties, IWiaMiniDrv interface [Imaging Devices], drvWriteItemProperties method, drvWriteItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvWriteItemProperties method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,6 +92,7 @@ HRESULT drvWriteItemProperties(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -115,35 +116,59 @@ Points to a memory location that will receive a status code for this method. If 
 ## -returns
 
 
+
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>.
 
 The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+
 
  
 

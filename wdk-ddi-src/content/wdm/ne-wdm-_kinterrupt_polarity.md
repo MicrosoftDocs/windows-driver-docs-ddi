@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterruptActiveBothTriggerLow, wdm/InterruptRisingEdge, kernel.kinterrupt_polarity, InterruptActiveHigh, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptActiveHigh, PKINTERRUPT_POLARITY, wdm/InterruptActiveBoth, KINTERRUPT_POLARITY, wdm/InterruptPolarityUnknown, _KINTERRUPT_POLARITY, wdm/InterruptFallingEdge, wdm/InterruptActiveBothTriggerLow, InterruptPolarityUnknown, InterruptFallingEdge, *PKINTERRUPT_POLARITY, wdm/KINTERRUPT_POLARITY, wdm/InterruptActiveLow, wdm/InterruptActiveBothTriggerHigh, wdm/PKINTERRUPT_POLARITY, InterruptActiveBoth, InterruptActiveBothTriggerHigh, InterruptActiveLow, InterruptRisingEdge
+ms.keywords: wdm/KINTERRUPT_POLARITY, InterruptActiveLow, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptPolarityUnknown, InterruptFallingEdge, wdm/InterruptActiveLow, InterruptRisingEdge, wdm/InterruptActiveBoth, InterruptActiveBothTriggerHigh, wdm/InterruptActiveBothTriggerLow, PKINTERRUPT_POLARITY, InterruptActiveBothTriggerLow, InterruptActiveHigh, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptActiveHigh, InterruptPolarityUnknown, wdm/InterruptFallingEdge, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], _KINTERRUPT_POLARITY, InterruptActiveBoth, wdm/InterruptRisingEdge, *PKINTERRUPT_POLARITY, kernel.kinterrupt_polarity, KINTERRUPT_POLARITY, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], wdm/PKINTERRUPT_POLARITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -118,13 +118,17 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 A <b>KINTERRUPT_POLARITY</b> enumeration constant is frequently used in conjunction with a <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration constant to describe an interrupt signal. A <b>KINTERRUPT_MODE</b> enumeration constant indicates whether the interrupt signal from a device is level-triggered or edge-triggered.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
 
  
 

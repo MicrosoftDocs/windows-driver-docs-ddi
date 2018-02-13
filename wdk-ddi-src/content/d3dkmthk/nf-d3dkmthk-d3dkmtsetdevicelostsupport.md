@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetDeviceLostSupport method [Display Devices], D3DKMTSetDeviceLostSupport, d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
+ms.keywords: D3DKMTSetDeviceLostSupport method [Display Devices], display.d3dkmtsetdevicelostsupport, D3DKMTSetDeviceLostSupport, d3dkmthk/D3DKMTSetDeviceLostSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTSetDeviceLostSupport(
 
 
 
+
 #### - D3dkmt_setdevicelostsupport [in]
 
 Indicates that the device has lost support.
@@ -78,6 +79,8 @@ Indicates that the device has lost support.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully. 
+
 
 

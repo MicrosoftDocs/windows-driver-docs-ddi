@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA034B30-203E-4418-B5BD-1094B3D438FE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], PoFxStartDevicePowerManagement, kernel.pofxstartdevicepowermanagement
+ms.keywords: PoFxStartDevicePowerManagement, wdm/PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A handle that represents the registration of the device with the power managemen
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 After a driver calls the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine to register a device with PoFx, all components in the device are fully on and in the active condition so that the driver can finish initializing the hardware. To start active power management, the driver must call <b>PoFxStartDevicePowerManagement</b>. By default, this call switches all components to the idle condition.
@@ -91,15 +94,24 @@ If the driver requires a component to be in the active condition immediately aft
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+
 
  
 

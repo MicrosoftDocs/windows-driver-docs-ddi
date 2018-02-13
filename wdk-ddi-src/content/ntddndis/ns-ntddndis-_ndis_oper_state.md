@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c08f8bcd-23fc-445c-9c42-e5c4edc75d78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_oper_state, ntddndis/NDIS_OPER_STATE, NDIS_OPER_STATE, *PNDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, ntddndis/PNDIS_OPER_STATE, _NDIS_OPER_STATE
+ms.keywords: NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], *PNDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, netvista.ndis_oper_state, ntddndis/NDIS_OPER_STATE, _NDIS_OPER_STATE, ntddndis/PNDIS_OPER_STATE, PNDIS_OPER_STATE, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_OPER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,10 +98,12 @@ This member provides the reason why the
 
 
 
+
 #### NET_IF_OPER_STATUS_DOWN_NOT_AUTHENTICATED
 
 The operational status is set to <b>NET_IF_OPER_STATUS_DOWN</b> because the default port of the
        miniport adapter is not authenticated.
+
 
 
 #### NET_IF_OPER_STATUS_DOWN_NOT_MEDIA_CONNECTED
@@ -110,10 +112,12 @@ The operational status is set to <b>NET_IF_OPER_STATUS_DOWN</b> because the mini
        a media-connected state.
 
 
+
 #### NET_IF_OPER_STATUS_DORMANT_PAUSED
 
 The operational status is set to <b>NET_IF_OPER_STATUS_DORMANT</b> because the miniport adapter is in
        the paused or pausing state.
+
 
 
 #### NET_IF_OPER_STATUS_DORMANT_LOW_POWER
@@ -123,6 +127,7 @@ The operational status is set to <b>NET_IF_OPER_STATUS_DORMANT</b> because the m
 
 
 ## -remarks
+
 
 
 For the 
@@ -136,15 +141,24 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 
 
+
 ## -see-also
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltcancelfileopen.htm
 old-project: ifsk
 ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, ifsk.fltcancelfileopen, fltkernel/FltCancelFileOpen
+ms.date: 2/7/2018
+ms.keywords: FltCancelFileOpen, fltkernel/FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, ifsk.fltcancelfileopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,15 +81,21 @@ File object pointer for the file. This parameter is required and cannot be <b>NU
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 If a minifilter driver determines that a file-open or file-create (<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>) operation must fail after the file system has already completed the operation with a success NTSTATUS value such as STATUS_SUCCESS, the minifilter driver can call <b>FltCancelFileOpen</b> from its post-create callback routine to close the file. 
-<div class="alert"><b>Note</b>    Although STATUS_REPARSE is a success NTSTATUS value, it is not necessary to call <b>FltCancelFileOpen</b> for a create operation that was completed with STATUS_REPARSE, because this status value indicates that the file was not successfully opened. </div><div> </div>A successful call to <b>FltCancelFileOpen</b> has the following effect: To minifilter drivers and legacy filters that are above the caller in the minifilter driver instance stack, the create request appears to have failed. To those that are below the caller, the file appears to have been opened (or created) and then closed. 
+
+<div class="alert"><b>Note</b>    Although STATUS_REPARSE is a success NTSTATUS value, it is not necessary to call <b>FltCancelFileOpen</b> for a create operation that was completed with STATUS_REPARSE, because this status value indicates that the file was not successfully opened. </div>
+<div> </div>
+A successful call to <b>FltCancelFileOpen</b> has the following effect: To minifilter drivers and legacy filters that are above the caller in the minifilter driver instance stack, the create request appears to have failed. To those that are below the caller, the file appears to have been opened (or created) and then closed. 
 
 Note that <b>FltCancelFileOpen</b> does not undo any modifications to the file. For example, <b>FltCancelFileOpen</b> does not delete a newly created file or restore a file that was overwritten or superseded to its previous state. 
 
@@ -105,33 +111,56 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
-<a href="..\ntddk\nf-ntddk-iocancelfileopen.md">IoCancelFileOpen</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
 
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocancelfileopen.md">IoCancelFileOpen</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
 
 <a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancelFileOpen routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancelFileOpen routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

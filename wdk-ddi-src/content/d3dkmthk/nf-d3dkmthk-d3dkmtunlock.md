@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock, D3DKMTUnlock function [Display Devices], D3DKMTUnlock
+ms.keywords: d3dkmthk/D3DKMTUnlock, OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, D3DKMTUnlock function [Display Devices], D3DKMTUnlock, display.d3dkmtunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK
 ## -returns
 
 
+
 <b>D3DKMTUnlock</b> returns one of the following values;
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,22 +115,63 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 All of the allocations that the <b>D3DKMTUnlock</b> function unlocks must belong to the same device.
+
+
+#### Examples
+
+The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlock</b> to unlock three allocations.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT UnlockThree(D3DKMT_HANDLE hDevice, 
+                    D3DKMT_HANDLE hAllocation1, 
+                    D3DKMT_HANDLE hAllocation2, 
+                    D3DKMT_HANDLE hAllocation3) 
+{
+    D3DKMT_HANDLE AllocationArray[3];
+    D3DKMT_UNLOCK UnlockData;
+
+    AllocationArray[0] = hAllocation1;
+    AllocationArray[1] = hAllocation2;
+    AllocationArray[2] = hAllocation3;
+
+    UnlockData.hDevice = hDevice;
+    UnlockData.NumAllocations = 3;
+    UnlockData.phAllocations = AllocationArray;
+
+    if (NT_SUCCESS((*pfnKTUnlock)(&amp;UnlockData))) {
+        return S_OK;
+    }
+    return E_FAIL;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a>
+
+
 
  
 

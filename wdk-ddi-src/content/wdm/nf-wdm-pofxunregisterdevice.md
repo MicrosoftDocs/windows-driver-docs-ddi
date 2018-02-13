@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FC4B1B4D-31D8-4E63-A3A5-07A1099997A8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxUnregisterDevice, kernel.pofxunregisterdevice, PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pofxunregisterdevice, PoFxUnregisterDevice, wdm/PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A handle that represents the registration of the device with PoFx. The device dr
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The driver that owns the power policy for a device must unregister the device from PoFx when the device is removed. The Plug and Play (PnP) manager can remove the device stack from the PnP tree only after the device is unregistered.
@@ -91,13 +94,20 @@ A device driver that calls this routine must previously have called the <a href=
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
+
+
 
  
 

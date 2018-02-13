@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb69e052-1033-457d-bafb-bf4be4ea5966
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, dbgeng/IDebugControl2::OutputDisassemblyLines, IDebugControl3, debugger.outputdisassemblylines, IDebugControl2::OutputDisassemblyLines, IDebugControl3::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface, OutputDisassemblyLines, IDebugControl::OutputDisassemblyLines, IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, OutputDisassemblyLines method [Windows Debugging], IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, dbgeng/IDebugControl3::OutputDisassemblyLines
+ms.keywords: IDebugControl2, IDebugControl::OutputDisassemblyLines, debugger.outputdisassemblylines, OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, IDebugControl3, dbgeng/IDebugControl2::OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, OutputDisassemblyLines method [Windows Debugging], dbgeng/IDebugControl3::OutputDisassemblyLines, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface, IDebugControl3::OutputDisassemblyLines, IDebugControl, OutputDisassemblyLines, dbgeng/IDebugControl::OutputDisassemblyLines, IDebugControl2::OutputDisassemblyLines
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,6 +100,7 @@ Specifies the location in the target's memory of the instructions to disassemble
 ### -param Flags [in]
 
 Specifies the bit-flags that affect the behavior of this method.  The following table lists the bits that can be set.
+
 <table>
 <tr>
 <th>Bit-Flag</th>
@@ -145,7 +146,8 @@ Include the source file name in the output.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param OffsetLine [out, optional]
@@ -177,7 +179,9 @@ If <i>LineOffsets</i> is <b>NULL</b>, this information is not returned.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -194,11 +198,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The assembly language depends on the effective processor type of the target system.  For information about the assembly language, see the processor documentation.
@@ -207,19 +214,32 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553211">OutputDisassembly</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

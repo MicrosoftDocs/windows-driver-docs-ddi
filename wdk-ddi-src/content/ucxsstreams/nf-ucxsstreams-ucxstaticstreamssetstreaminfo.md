@@ -7,8 +7,8 @@ old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo, buses._ucxstaticstreamssetstreaminfo
+ms.date: 2/8/2018
+ms.keywords: buses._ucxstaticstreamssetstreaminfo, UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UcxStaticStreamsSetStreamInfo
 product: Windows
 targetos: Windows
-req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
+req.typenames: "*PUCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -82,11 +82,14 @@ inline void UcxStaticStreamsSetStreamInfo(
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The client driver must call this method from its implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
@@ -96,13 +99,16 @@ For a code example, see <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_
 
 
 
+
 ## -see-also
 
 <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxStaticStreamsSetStreamInfo method%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxStaticStreamsSetStreamInfo method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

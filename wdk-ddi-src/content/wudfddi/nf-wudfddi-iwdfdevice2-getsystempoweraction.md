@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0030d64b-3f88-4bb3-b7d2-fcdc57d4d887
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, IWDFDevice2::GetSystemPowerAction, IWDFDevice2 interface, GetSystemPowerAction method, wdf.iwdfdevice2_getsystempoweraction, GetSystemPowerAction method, IWDFDevice2 interface, GetSystemPowerAction, IWDFDevice2, umdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction, GetSystemPowerAction method
+ms.keywords: wdf.iwdfdevice2_getsystempoweraction, IWDFDevice2 interface, GetSystemPowerAction method, GetSystemPowerAction method, IWDFDevice2::GetSystemPowerAction, wudfddi/IWDFDevice2::GetSystemPowerAction, umdf.iwdfdevice2_getsystempoweraction, GetSystemPowerAction, IWDFDevice2, GetSystemPowerAction method, IWDFDevice2 interface, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ POWER_ACTION GetSystemPowerAction();
 
 
 
+
 ## -returns
 
 
-<b>GetSystemPowerAction</b> returns a <a href="..\wudfddi\ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+
+<b>GetSystemPowerAction</b> returns a <a href="..\ntpoapi\ne-ntpoapi-ppower_action.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+
 
 
 
 ## -remarks
+
 
 
 The <b>GetSystemPowerAction</b> method enables a driver to determine whether a device's power transition is occurring because the device is idle (or waking up), or because the entire computer is entering (or leaving) a low-power state. 
@@ -84,6 +88,7 @@ The <b>GetSystemPowerAction</b> method enables a driver to determine whether a d
 The driver must call <b>GetSystemPowerAction</b> only from the event callback functions that the framework calls when the device is <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-enters-a-low-power-state">entering a low-power state</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-returns-to-its-working-state">returning to its working state</a>. 
 
 The value that <b>GetSystemPowerAction</b> returns depends on the following situations:
+
 <ul>
 <li>
 If the computer is entering a low-power state when the driver calls <b>GetSystemPowerAction</b>, the method returns the reason that the computer is entering the low-power state. For example, the method returns <b>PowerActionSleep</b> if the computer is entering its S1, S2, or S3 low-power state.
@@ -105,13 +110,39 @@ If the device is entering a low-power idle state or returning to its working (D0
 If the computer and the device are both in their working states when the driver calls <b>GetSystemPowerAction</b>, the method returns <b>PowerActionNone</b>.
 
 </li>
-</ul>For more information about low-power states, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-enters-a-low-power-state">A Device Enters a Low-Power State</a>.
+</ul>
+For more information about low-power states, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-enters-a-low-power-state">A Device Enters a Low-Power State</a>.
+
+
+#### Examples
+
+The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>GetSystemPowerAction</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>   IWDFDevice2 *pDevice2 = NULL;
+    HRESULT hrQI = pDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;pDevice2));
+    if (SUCCEEDED(hrQI))
+    {
+        POWER_ACTION powerAction = pDevice2-&gt;GetSystemPowerAction();
+    }
+...
+    SAFE_RELEASE(pDevice2);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_HCE_REMOTE_RECV
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
+req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_HCE_REMOTE_RECV IOCTL
@@ -81,27 +81,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -119,10 +126,12 @@ None
 <td><b>STATUS_INVALID_DEVICE_STATE</b></td>
 <td>If the IOCTL is sent on a handle other than with the relative name 'SEManage'.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to.
@@ -141,6 +150,7 @@ The following are requirements that the driver must adhere to.
 <li>If the driver completes this IOCTL with STATUS_SUCCESS, the first DWORD [4 bytes] of the output buffer MUST contain the size of the SECURE_ELEMENT_HCE_DATA_PACKET structure plus its payload.</li>
 <li>If a received APDU data is too large to be copied into this IOCTL's output buffer, the driver MUST copy the required buffer size into the first 4 bytes of the output buffer, set the IOCTL's information field to sizeof(DWORD), and complete the IOCTL with STATUS_BUFFER_OVERFLOW. The APDU data must be left in the "Received" queue.</li>
 </ul>
+
 
 
 

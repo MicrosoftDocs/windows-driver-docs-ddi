@@ -7,8 +7,8 @@ old-location: ifsk\sequerysecuritydescriptorinfo.htm
 old-project: ifsk
 ms.assetid: 4803e816-c59a-42b2-adc1-7a197ae16d42
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SeQuerySecurityDescriptorInfo, ifsk.sequerysecuritydescriptorinfo, SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], ntifs/SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml
+ms.date: 2/7/2018
+ms.keywords: SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml, ifsk.sequerysecuritydescriptorinfo, ntifs/SeQuerySecurityDescriptorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,6 +73,7 @@ NTSTATUS SeQuerySecurityDescriptorInfo(
 ### -param SecurityInformation [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying which security information is being queried. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -118,7 +119,8 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param SecurityDescriptor [out]
@@ -137,6 +139,7 @@ Pointer to a pointer to an object's security descriptor. The security descriptor
 
 
 ## -returns
+
 
 
 <table>
@@ -166,11 +169,14 @@ The buffer is too small for the security descriptor. None of the security inform
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A security descriptor can be in absolute or self-relative format. A security descriptor in absolute format contains pointers to the information it contains, rather than containing the information itself. A security descriptor in self-relative format contains the information in a contiguous block of memory. In a self-relative security descriptor, a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure always starts the information, but the security descriptor's other components can follow the SECURITY_DESCRIPTOR structure in any order. Instead of using memory addresses, the components of the security descriptor are identified by offsets from the beginning of the security descriptor. This format is useful when a security descriptor must be stored on a disk or transmitted by means of a communications protocol. 
@@ -181,31 +187,52 @@ For more information about security and access control, see the documentation on
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
-
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
 
-<a href="..\ntifs\nf-ntifs-rtlabsolutetoselfrelativesd.md">RtlAbsoluteToSelfRelativeSD</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlabsolutetoselfrelativesd.md">RtlAbsoluteToSelfRelativeSD</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeQuerySecurityDescriptorInfo routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeQuerySecurityDescriptorInfo routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

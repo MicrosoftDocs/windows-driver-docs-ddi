@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d6faa4ee-2fdb-425a-81db-8257285ba47d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataVirtual method, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, debugger.outputtypeddatavirtual, IDebugSymbols interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols2::OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols3, OutputTypedDataVirtual method [Windows Debugging], OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataVirtual, IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols2::OutputTypedDataVirtual
+ms.keywords: OutputTypedDataVirtual method [Windows Debugging], OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataVirtual method, OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, debugger.outputtypeddatavirtual, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, dbgeng/IDebugSymbols3::OutputTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols interface [Windows Debugging], OutputTypedDataVirtual method, dbgeng/IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols2::OutputTypedDataVirtual, dbgeng/IDebugSymbols2::OutputTypedDataVirtual, IDebugSymbols, IDebugSymbols2, IDebugSymbols3::OutputTypedDataVirtual, IDebugSymbols::OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,9 @@ Specifies the formatting flags.  See <a href="https://msdn.microsoft.com/library
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,15 +120,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff542772">dt (Display Type)</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

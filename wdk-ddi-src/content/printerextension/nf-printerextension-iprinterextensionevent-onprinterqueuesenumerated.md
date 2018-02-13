@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface, IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, print.iprinterextensionevent_onprinterqueuesenumerated
+ms.keywords: print.iprinterextensionevent_onprinterqueuesenumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,14 +76,18 @@ Pointer to <a href="..\printerextension\nn-printerextension-iprinterextensioncon
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 <b>OnPrinterQueuesEnumerated</b> is called every time the set of print queues associated with the printer extension is updated. So it is important for printer extensions to be able to handle multiple calls to this method without causing a catastrophic failure of the printer extension.
+
 
 
 
@@ -91,9 +95,15 @@ This method returns an <b>HRESULT</b> value.
 
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
 
 <a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c7592ad-f4ed-496f-90bb-638f68efe4f7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfregistryassignvalue, wdfregistry/WdfRegistryAssignValue, WdfRegistryAssignValue method, WdfRegistryAssignValue, DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, PFN_WDFREGISTRYASSIGNVALUE, wdf.wdfregistryassignvalue
+ms.keywords: WdfRegistryAssignValue, DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, WdfRegistryAssignValue method, PFN_WDFREGISTRYASSIGNVALUE, wdfregistry/WdfRegistryAssignValue, kmdf.wdfregistryassignvalue, wdf.wdfregistryassignvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryAssignValue
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to a buffer that contains driver-supplied data.
 ## -returns
 
 
+
 <b>WdfRegistryAssignValue</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,7 +147,8 @@ The driver did not open the registry key with KEY_SET_VALUE access.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -155,7 +158,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If the value name that the <i>ValueName</i> parameter specifies already exists, <b>WdfRegistryAssignValue</b> updates the value's data.
@@ -163,22 +168,62 @@ If the value name that the <i>ValueName</i> parameter specifies already exists, 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example assigns hexadecimal 123456 to a registry value as binary data.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ULONG val;
+NTSTATUS status;
+
+val = 0x123456;
+status = WdfRegistryAssignValue(
+                                Key,
+                                &amp;valueName,
+                                REG_BINARY,
+                                sizeof(val),
+                                &amp;val
+                                );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
+
+
 
  
 

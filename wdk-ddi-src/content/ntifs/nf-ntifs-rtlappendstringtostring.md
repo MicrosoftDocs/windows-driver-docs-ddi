@@ -7,8 +7,8 @@ old-location: ifsk\rtlappendstringtostring.htm
 old-project: ifsk
 ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlAppendStringToString, ntifs/RtlAppendStringToString, ifsk.rtlappendstringtostring, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, RtlAppendStringToString routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ntifs/RtlAppendStringToString, ifsk.rtlappendstringtostring, RtlAppendStringToString routine [Installable File System Drivers], rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml, RtlAppendStringToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to a counted string to be appended to the string at <i>Destination</i>
 ## -returns
 
 
+
 The <b>RtlAppendStringToString</b> routine returns STATUS_SUCCESS if it appended the string at <i>Source</i> to the string at <i>Destination</i>. <b>RtlAppendStringToString</b> returns STATUS_BUFFER_TOO_SMALL if the <b>MaximumLength</b> of the <i>Destination</i> string is too small to allow the source string to be appended. 
 
 
 
+
 ## -remarks
+
 
 
 The sum of the <b>Length</b> members of the <i>Destination</i> and <i>Source</i> strings must be less than or equal to the <b>MaximumLength</b> of the <i>Destination</i> string.
@@ -94,17 +97,24 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
+
+
+<a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlAppendStringToString routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlAppendStringToString routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

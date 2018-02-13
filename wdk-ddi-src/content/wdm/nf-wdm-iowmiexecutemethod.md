@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iowmiexecutemethod, IoWMIExecuteMethod, k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], wdm/IoWMIExecuteMethod
+ms.keywords: kernel.iowmiexecutemethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, wdm/IoWMIExecuteMethod, IoWMIExecuteMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,9 @@ Pointer to the buffer where the caller passes the WMI method's input data, and r
 ## -returns
 
 
+
 The routine returns an NTSTATUS code. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -178,14 +180,18 @@ The WMI GUID is no longer available or was never available.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>IoWMIExecuteMethod</b> determines which drivers might support the specified WMI class and instance name. It issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property then runs the specified WMI method.
+
 
 
 
@@ -193,7 +199,11 @@ The WMI GUID is no longer available or was never available.
 
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
+
+
 
  
 

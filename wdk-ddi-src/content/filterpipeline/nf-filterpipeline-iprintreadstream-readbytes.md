@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, ReadBytes, IPrintReadStream interface [Print Devices], ReadBytes method, ReadBytes method [Print Devices], IPrintReadStream interface, ReadBytes method [Print Devices], IPrintReadStream, print.iprintreadstream_readbytes, filterpipeline/IPrintReadStream::ReadBytes, IPrintReadStream::ReadBytes
+ms.keywords: ReadBytes, IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, ReadBytes method [Print Devices], IPrintReadStream, ReadBytes method [Print Devices], IPrintReadStream interface, IPrintReadStream interface [Print Devices], ReadBytes method, filterpipeline/IPrintReadStream::ReadBytes, print.iprintreadstream_readbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,6 +93,8 @@ A pointer to a <b>BOOL</b> value that indicates whether the end of file (EOF) wa
 ## -returns
 
 
+
 <code>ReadBytes</code> returns an <b>HRESULT</b> value.
+
 
 

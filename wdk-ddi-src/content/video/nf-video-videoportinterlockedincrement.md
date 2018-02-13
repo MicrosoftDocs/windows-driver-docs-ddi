@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d3507214-82bc-4d73-8562-2843d7876137
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortInterlockedIncrement, VideoPortInterlockedIncrement, VideoPortInterlockedIncrement function [Display Devices], display.videoportinterlockedincrement, VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml
+ms.keywords: VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, display.videoportinterlockedincrement, video/VideoPortInterlockedIncrement, VideoPortInterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the variable to be incremented.
 ## -returns
 
 
+
 <b>VideoPortInterlockedIncrement</b> returns the incremented value.
 
 
 
+
 ## -remarks
+
 
 
 When possible and whenever appropriate, <b>VideoPortInterlockedIncrement</b> is implemented inline by the compiler. It can be safely used on pageable data.
@@ -89,11 +92,16 @@ This function is atomic only with respect to other <b>VideoPortInterlocked</b><i
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportinterlockedexchange.md">VideoPortInterlockedExchange</a>
 
+
+
 <a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
+
+
 
  
 

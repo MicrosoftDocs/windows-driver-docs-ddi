@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CD3DBBA5-AE5C-4DC1-BE52-696138494701
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: d4iface/DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY, *PDOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], print.dot4_activity, _DOT4_ACTIVITY, DOT4_ACTIVITY
+ms.keywords: DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY structure pointer [Print Devices], _DOT4_ACTIVITY, d4iface/DOT4_ACTIVITY, *PDOT4_ACTIVITY, print.dot4_activity, PDOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,11 +72,8 @@ typedef struct _DOT4_ACTIVITY {
 ### -field ulMessage
 
 
-
 ### -field ulByteCount
 
 
-
 ### -field hChannel
-
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00f8fbbc-1a4d-4cfe-8b87-fd70bf5a2d48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_createauthenticatedchannel, D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_3cdac44d-7cac-43f6-80f5-dd601183fa8b.xml, _D3DDDIARG_CREATEAUTHENICATEDCHANNEL, D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, d3dumddi/D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
+ms.keywords: D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3dddiarg_createauthenticatedchannel, d3dumddi/D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, UMDisplayDriver_param_Structs_3cdac44d-7cac-43f6-80f5-dd601183fa8b.xml, D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], _D3DDDIARG_CREATEAUTHENICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,6 +71,7 @@ typedef struct _D3DDDIARG_CREATEAUTHENTICATEDCHANNEL {
 ### -field ChannelType
 
 [in] A <a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the channel type to create. This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -96,7 +97,8 @@ The authenticated-channel type is hardware.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field hChannel
@@ -108,7 +110,11 @@ The authenticated-channel type is hardware.
 
 <a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
+
+
 
  
 

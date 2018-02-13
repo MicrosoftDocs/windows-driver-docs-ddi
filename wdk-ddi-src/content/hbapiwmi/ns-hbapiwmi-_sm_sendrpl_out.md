@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8dfc30a-81ac-4342-9996-0c04db80e5e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SM_SendRPL_OUT, hbapiwmi/PSM_SendRPL_OUT, SM_SendRPL_OUT structure [Storage Devices], PSM_SendRPL_OUT structure pointer [Storage Devices], PSM_SendRPL_OUT, *PSM_SendRPL_OUT, hbapiwmi/SM_SendRPL_OUT, structs-Fibre_831fc75d-cdee-4fba-9dd1-22204e814d50.xml, storage.sm_sendrpl_out, SM_SendRPL_OUT"
+ms.keywords: PSM_SendRPL_OUT, structs-Fibre_831fc75d-cdee-4fba-9dd1-22204e814d50.xml, SM_SendRPL_OUT, hbapiwmi/SM_SendRPL_OUT, SM_SendRPL_OUT structure [Storage Devices], *PSM_SendRPL_OUT, storage.sm_sendrpl_out, PSM_SendRPL_OUT structure pointer [Storage Devices], _SM_SendRPL_OUT, hbapiwmi/PSM_SendRPL_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ The results of the common transport command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SendRPL_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

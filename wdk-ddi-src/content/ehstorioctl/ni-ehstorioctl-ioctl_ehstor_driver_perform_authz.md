@@ -65,6 +65,7 @@ req.typenames: PDO_TYPE
 ### -input-buffer
 
 The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <b>AUTHZ_STATE</b> structure that indicates the type of authentication operation to perform. <b>AUTHZ_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -77,7 +78,9 @@ The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <b
 } AUTHZ_STATE;</pre>
 </td>
 </tr>
-</table></span></div>The value of <b>AuthzState</b> specifies the authentication operation. This is one of the following.
+</table></span></div>
+The value of <b>AuthzState</b> specifies the authentication operation. This is one of the following.
+
 <table>
 <tr>
 <th> Value</th>
@@ -95,7 +98,8 @@ The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <b
 <td>AUTHZSTATE_CLEAR_AUTHKEY_CACHE</td>
 <td>Perform on-demand deauthentication and clear cached authentication keys.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -input-buffer-length
@@ -116,14 +120,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -133,6 +141,7 @@ STATUS_SUCCESS is returned in the <b>Status</b> field by the silo driver if the 
 
 
 ## -remarks
+
 
 
 This IOCTL is sent by EHSTOR to a silo driver that supports on-demand authentication. The silo driver notifies EHSTOR of this capability in a prior <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request with the <b>CAP_ON_DEMAND_AUTHENTICATION</b> flag set in the <b>Capabilities</b> member of <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>. 
@@ -147,11 +156,16 @@ If a device supports multiple silos, authentication by each silo is exclusive. A
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
+
+
 <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>
+
+
 
  
 

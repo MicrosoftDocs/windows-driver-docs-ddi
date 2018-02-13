@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/D3DDDI_RESOURCEFLAGS2, _D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], display.d3dddi_resourceflags2
+ms.keywords: D3DDDI_RESOURCEFLAGS2 structure [Display Devices], display.d3dddi_resourceflags2, _D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,9 +126,13 @@ A 32-bit value that identifies the type of resource to create.
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_formatop.md">FORMATOP</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource2.md">CreateResource2</a>
+
 
  
 

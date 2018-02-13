@@ -40,7 +40,7 @@ apiname:
 -	AgpCommitVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -97,14 +97,18 @@ Specifies the page offset at which to commit the pages. The offset is applied to
 ## -returns
 
 
+
 <b>AgpCommitVirtual</b> returns the virtual address for the base of the committed pages if the mapping succeeded; otherwise returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 Before calling <b>AgpCommitVirtual</b> to commit a range of virtual pages, you must do the following:
+
 <ul>
 <li>
 Call <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> to reserve a range of physical addresses for the GPU to use.
@@ -118,7 +122,8 @@ Call <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical
 Call <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> to reserve a range of virtual addresses that is associated with the range of physical addresses reserved by <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
 
 </li>
-</ul>After these items are completed, you can call <b>AgpCommitVirtual</b> to map a portion of the reserved virtual pages to pages that have already been mapped and locked by <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>. You must not attempt to map a page of virtual addresses if the corresponding page of physical addresses has not already been mapped.
+</ul>
+After these items are completed, you can call <b>AgpCommitVirtual</b> to map a portion of the reserved virtual pages to pages that have already been mapped and locked by <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>. You must not attempt to map a page of virtual addresses if the corresponding page of physical addresses has not already been mapped.
 
 Video miniport drivers that run on Microsoft Windows 2000 should always commit a virtual range whose size is a multiple of 64 kilobytes. If you call <b>AgpCommitVirtual</b> to commit a virtual range that is not a multiple of 64 kilobytes, it can return an invalid virtual address.
 
@@ -128,13 +133,20 @@ When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual a
 
 
 
+
 ## -see-also
 
 <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
+
+
 <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
 
+
+
 <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+
+
 
  
 

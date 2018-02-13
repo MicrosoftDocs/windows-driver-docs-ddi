@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0bc9b0a1-6cd8-4d76-a71e-694a8435773e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterUshort function [Display Devices], VideoPortWriteRegisterUshort, VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml, video/VideoPortWriteRegisterUshort, display.videoportwriteregisterushort
+ms.keywords: VideoPortWriteRegisterUshort function [Display Devices], VideoPortWriteRegisterUshort, video/VideoPortWriteRegisterUshort, display.videoportwriteregisterushort, VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Specifies a USHORT value to be transferred to the adapter.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterUshort</b>.
@@ -95,9 +98,12 @@ Callers of <b>VideoPortWriteRegisterUshort</b> can be running at any IRQL, provi
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

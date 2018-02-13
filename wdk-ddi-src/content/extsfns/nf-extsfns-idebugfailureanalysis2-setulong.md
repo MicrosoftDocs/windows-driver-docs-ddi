@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetUlong method [Windows Debugging], debugger.idebugfailureanalysis2_setextensionulong, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, IDebugFailureAnalysis2::SetUlong, extsfns/IDebugFailureAnalysis2::SetUlong, SetUlong, IDebugFailureAnalysis2, debugger.idebugfailureanalysis2_setulong
+ms.keywords: SetUlong, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, SetUlong method [Windows Debugging], extsfns/IDebugFailureAnalysis2::SetUlong, debugger.idebugfailureanalysis2_setextensionulong, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, IDebugFailureAnalysis2::SetUlong, debugger.idebugfailureanalysis2_setulong, IDebugFailureAnalysis2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,14 @@ The <b>ULONG</b> value to be written to the data block of the new or existing <a
 ## -returns
 
 
+
 If this method succeeds, it returns a pointer to the new or existing <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, it checks to see whether the data type associated with that tag is <b>DEBUG_FA_ENTRY_ULONG</b>. If the data type associated with the tag is not <b>DEBUG_FA_ENTRY_ULONG</b>, this method returns NULL and does not overwrite the entry's data block.
@@ -94,17 +97,28 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
+
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
+
+
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+
+
 
  
 

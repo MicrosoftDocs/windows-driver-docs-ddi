@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ab028faf-d3f7-4267-81c7-7ababe845667
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_CREATEKEYEDMUTEX, D3DKMT_CREATEKEYEDMUTEX structure [Display Devices], D3DKMT_CREATEKEYEDMUTEX, OpenGL_Structs_6ab1fe5f-9963-46ab-946d-689d74c70d11.xml, display.d3dkmt_createkeyedmutex, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX"
+ms.keywords: D3DKMT_CREATEKEYEDMUTEX structure [Display Devices], D3DKMT_CREATEKEYEDMUTEX, display.d3dkmt_createkeyedmutex, _D3DKMT_CREATEKEYEDMUTEX, OpenGL_Structs_6ab1fe5f-9963-46ab-946d-689d74c70d11.xml, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex.md">D3DKMTCreateKeyedMutex</a>
+
+
 
  
 

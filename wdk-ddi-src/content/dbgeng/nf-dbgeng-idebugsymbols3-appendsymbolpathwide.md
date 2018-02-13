@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3::AppendSymbolPathWide, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, IDebugSymbols3, debugger.appendsymbolpathwide, AppendSymbolPathWide
+ms.keywords: AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,7 @@ Specifies the directories to append to the symbol path.  This is a string that c
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -91,26 +92,36 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 For more information about manipulating the symbol path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560150">Using Symbols</a>.  For an overview of the symbol path and its syntax, see <a href="https://msdn.microsoft.com/705df98f-717f-40ad-a424-101826970691">Symbol Path</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

@@ -62,7 +62,11 @@ Be careful to implement <a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b
 
 <a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438">GetInterestMask</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbackswide.md">IDebugEventCallbacksWide</a>
+
+
 
  
 

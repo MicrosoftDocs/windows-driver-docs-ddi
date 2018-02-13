@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4176e2d-d8d2-4e75-bccb-0c452da4d703
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, *PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, netvista.ndis_miniport_interrupt_characteristics, ndis/NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis_interrupts_structures_ref_87c0c090-a28d-4195-b73d-52e3a188a80b.xml, ndis/PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: "*PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis/PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis_interrupts_structures_ref_87c0c090-a28d-4195-b73d-52e3a188a80b.xml, netvista.ndis_miniport_interrupt_characteristics, ndis/NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, *PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
+req.typenames: "*PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS"
 ---
 
 # _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure
@@ -189,6 +189,7 @@ A variable of type <b>NDIS_INTERRUPT_TYPE</b>. NDIS sets this variable to indica
 An NDIS-supplied pointer to an 
      <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">
      IO_INTERRUPT_MESSAGE_INFO</a> structure. 
+
 <ul>
 <li>
 If 
@@ -207,6 +208,7 @@ If <b>InterruptType</b> is <b>NDIS_CONNECT_LINE_BASED</b>, <b>MessageInfoTable</
 ## -remarks
 
 
+
 A miniport driver calls the 
     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function
     to register an interrupt. The driver allocates and initializes an <b>NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b>
@@ -215,31 +217,54 @@ A miniport driver calls the
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
-<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
-   MiniportEnableMessageInterrupt</a>
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 <a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
    MiniportDisableMessageInterrupt</a>
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
+   MiniportEnableMessageInterrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
 
  
 

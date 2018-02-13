@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 403e17c1-1353-42dd-aedc-8aec1fd72e0f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetCallBarringStatus method [Network Drivers Starting with Windows Vista], RIL_GetCallBarringStatus, rilapi/RIL_GetCallBarringStatus, netvista.ril_getcallbarringstatus
+ms.keywords: netvista.ril_getcallbarringstatus, RIL_GetCallBarringStatus method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCallBarringStatus, RIL_GetCallBarringStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,30 +78,26 @@ HRESULT  RIL_GetCallBarringStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwType
-
 
 
 ### -param fAllClasses
 
 
-
 ### -param dwInfoClasses
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

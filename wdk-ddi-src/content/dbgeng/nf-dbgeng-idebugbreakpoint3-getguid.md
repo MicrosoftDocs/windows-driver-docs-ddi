@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugbreakpoint3_getguid, GetGuid method [Windows Debugging], GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3::GetGuid
+ms.keywords: GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, debugger.idebugbreakpoint3_getguid, GetGuid, IDebugBreakpoint3, IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, GetGuid method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ A unique ID returned for the breakpoint.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint3.md">IDebugBreakpoint3</a>
+
+
 
  
 

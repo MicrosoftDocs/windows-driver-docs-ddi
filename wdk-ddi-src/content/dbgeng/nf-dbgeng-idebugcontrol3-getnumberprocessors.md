@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b3f4af4e-dbba-4f14-8935-f894865cbe7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, IDebugControl3::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl interface, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, dbgeng/IDebugControl2::GetNumberProcessors, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetNumberProcessors method, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, IDebugControl2::GetNumberProcessors, GetNumberProcessors, IDebugControl::GetNumberProcessors, debugger.getnumberprocessors, IDebugControl3
+ms.keywords: dbgeng/IDebugControl2::GetNumberProcessors, IDebugControl2 interface [Windows Debugging], GetNumberProcessors method, IDebugControl2, IDebugControl::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, GetNumberProcessors method [Windows Debugging], IDebugControl3 interface, GetNumberProcessors method [Windows Debugging], IDebugControl2 interface, GetNumberProcessors method [Windows Debugging], IDebugControl interface [Windows Debugging], GetNumberProcessors method, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, IDebugControl3, IDebugControl, IDebugControl3 interface [Windows Debugging], GetNumberProcessors method, IDebugControl3::GetNumberProcessors, dbgeng/IDebugControl::GetNumberProcessors, GetNumberProcessors, debugger.getnumberprocessors, GetNumberProcessors method [Windows Debugging], IDebugControl interface, IDebugControl2::GetNumberProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Receives the number of processors.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,13 +96,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 

@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetVertexShaderDecl(
 
 
 
+
+
 #### - hShaderHandle [in]
 
  A handle to the vertex shader declaration object.
@@ -91,20 +93,26 @@ __checkReturn HRESULT APIENTRY SetVertexShaderDecl(
 ## -returns
 
 
+
 <i>SetVertexShaderDecl</i> returns S_OK or an appropriate error result if the vertex shader declaration is not successfully set.
+
 
 
 
 ## -remarks
 
 
+
 After setting the vertex shader declaration, all of the drawing operations use that declaration until another declaration is selected.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

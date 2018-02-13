@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved2, IoPagingPriorityReserved1, IO_PAGING_PRIORITY, kernel.io_paging_priority, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, IoPagingPriorityInvalid, IoPagingPriorityHigh, _IO_PAGING_PRIORITY, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityInvalid, IoPagingPriorityReserved2, wdm/IoPagingPriorityReserved1, wdm/IO_PAGING_PRIORITY, IoPagingPriorityNormal
+ms.keywords: IoPagingPriorityHigh, wdm/IoPagingPriorityNormal, IoPagingPriorityInvalid, wdm/IoPagingPriorityHigh, wdm/IO_PAGING_PRIORITY, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityReserved1, wdm/IoPagingPriorityInvalid, kernel.io_paging_priority, _IO_PAGING_PRIORITY, IoPagingPriorityReserved2, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, IoPagingPriorityNormal, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved2, IO_PAGING_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -100,13 +100,17 @@ Reserved for system use.
 ## -remarks
 
 
+
 The <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a>
+
+
 
  
 

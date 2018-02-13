@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_RemovePort_OUT, RemovePort_OUT structure [Storage Devices], RemovePort_OUT, PRemovePort_OUT, storage.removeport_out, PRemovePort_OUT structure pointer [Storage Devices], structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, hbapiwmi/PRemovePort_OUT, hbapiwmi/RemovePort_OUT, *PRemovePort_OUT"
+ms.keywords: hbapiwmi/PRemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], *PRemovePort_OUT, RemovePort_OUT structure [Storage Devices], hbapiwmi/RemovePort_OUT, storage.removeport_out, RemovePort_OUT, _RemovePort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePort_OUT
 product: Windows
 targetos: Windows
-req.typenames: RemovePort_OUT, *PRemovePort_OUT
+req.typenames: "*PRemovePort_OUT, RemovePort_OUT"
 ---
 
 # _RemovePort_OUT structure
@@ -75,13 +75,17 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the RemovePort_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a>
+
+
 
  
 

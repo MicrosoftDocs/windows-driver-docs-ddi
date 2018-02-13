@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], storage.device_lb_provisioning_descriptor, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, _DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR
+ms.keywords: storage.device_lb_provisioning_descriptor, _DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,7 @@ The size of this structure. This is set to <b>sizeof</b>(DEVICE_LB_PROVISIONING_
 ### -field ThinProvisioningEnabled
 
 The thin provisioning–enabled status.
+
 <table>
 <tr>
 <th>Value</th>
@@ -118,12 +119,14 @@ Thin provisioning is enabled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ThinProvisioningReadZeros
 
 Reads to unmapped regions return zeros.
+
 <table>
 <tr>
 <th>Value</th>
@@ -151,12 +154,14 @@ Reads return zeros.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AnchorSupported
 
 Support for the anchored LBA mapping state.
+
 <table>
 <tr>
 <th>Value</th>
@@ -184,12 +189,14 @@ The anchored LBA mapping state is supported.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field UnmapGranularityAlignmentValid
 
 The validity of unmap granularity alignment for the device.
+
 <table>
 <tr>
 <th>Value</th>
@@ -217,7 +224,8 @@ Unmap granularity alignment is valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved0
@@ -263,6 +271,7 @@ Reserved.
 ## -remarks
 
 
+
 This structure is returned in the system buffer from a <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request when the <b>PropertyId</b> member of <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> is set to <b>StorageDeviceLBProvisioningProperty</b>. 
 
 The <b>DEVICE_LB_PROVISIONING_DESCRIPTOR</b> structure is written to the system buffer, <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, with a value of <b>sizeof</b>(DEVICE_LB_PROVISIONING_DESCRIPTOR) set in <i>Parameters.DeviceIoControl.OutputBufferLength</i> for the current IRP stack location.
@@ -273,11 +282,16 @@ If the underlying storage device is a SCSI device, unmapping capability can be q
 
 
 
+
 ## -see-also
+
+<a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
+
+
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
+
 
  
 

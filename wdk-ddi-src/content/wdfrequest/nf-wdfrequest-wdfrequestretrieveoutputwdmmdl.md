@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3f95caad-92e5-4d0f-bd9e-8873b05f2aaa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestRetrieveOutputWdmMdl, wdf.wdfrequestretrieveoutputwdmmdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL, kmdf.wdfrequestretrieveoutputwdmmdl, WdfRequestRetrieveOutputWdmMdl method, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl
+ms.keywords: wdfrequest/WdfRequestRetrieveOutputWdmMdl, wdf.wdfrequestretrieveoutputwdmmdl, kmdf.wdfrequestretrieveoutputwdmmdl, WdfRequestRetrieveOutputWdmMdl method, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a location that receives a pointer to an MDL.
 ## -returns
 
 
+
 <b>WdfRequestRetrieveOutputWdmMdl</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,7 +148,8 @@ There is insufficient memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -157,7 +160,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <b>WdfRequestRetrieveOutputWdmMdl</b> for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
@@ -171,10 +176,51 @@ The driver must not access a request's MDL after <a href="https://docs.microsoft
 For more information about <b>WdfRequestRetrieveOutputWdmMdl</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example is part of an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function that obtains an MDL for an I/O request's input buffer. If the call to <b>WdfRequestRetrieveOutputWdmMdl</b> fails, the driver completes the request with the error status that <b>WdfRequestRetrieveOutputWdmMdl</b> returns.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+MyDrvEvtIoRead(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+    NTSTATUS  status;
+    PMDL  mdl = NULL;
+...
+    status = WdfRequestRetrieveOutputWdmMdl(
+                                            Request,
+                                            &amp;mdl
+                                            );
+    if (!NT_SUCCESS(status))
+    {
+        WdfRequestCompleteWithInformation(
+                                          Request,
+                                          status,
+                                          0
+                                          );
+    }
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputwdmmdl.md">WdfRequestRetrieveInputWdmMdl</a>
+
+
 
  
 

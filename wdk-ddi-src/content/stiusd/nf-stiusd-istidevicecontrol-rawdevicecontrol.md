@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, RawDeviceControl, IStiDeviceControl::RawDeviceControl, stiusd/IStiDeviceControl::RawDeviceControl, IStiDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface [Imaging Devices], RawDeviceControl method
+ms.keywords: IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, IStiDeviceControl::RawDeviceControl, image.istidevicecontrol_rawdevicecontrol, RawDeviceControl method [Imaging Devices], stiusd/IStiDeviceControl::RawDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl, RawDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,13 +106,17 @@ Defines the <b>LPDWORD</b> parameter <i>pdwActualData.</i>
 ## -returns
 
 
+
 Defines the <b>HRESULT</b> return value.
+
 
 
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+
+
 
  
 

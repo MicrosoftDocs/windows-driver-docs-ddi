@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C8FA483-3713-464E-91B7-0A8D754F5D16
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrToInt8, ntintsafe/RtlLongPtrToInt8, RtlLongPtrToInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongptrtoint8
+ms.keywords: ntintsafe/RtlLongPtrToInt8, RtlLongPtrToInt8 function [Kernel-Mode Driver Architecture], RtlLongPtrToInt8, kernel.rtllongptrtoint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>
 RtlSSIZETToInt8</li>
 </ul>
+
 

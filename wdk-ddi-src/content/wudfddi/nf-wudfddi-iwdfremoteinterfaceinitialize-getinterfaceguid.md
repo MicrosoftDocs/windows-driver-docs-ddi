@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml
+ms.keywords: GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid, GetInterfaceGuid method, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,22 +78,54 @@ A pointer to a driver-allocated GUID structure that receives the device interfac
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 For more information about the <b>GetInterfaceGuid</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
+
+
+#### Examples
+
+The following code example shows how a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function can obtain the GUID that identifies the device interface that has arrived.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
+STDMETHODCALLTYPE
+CMyDevice::OnRemoteInterfaceArrival(
+    __in IWDFRemoteInterfaceInitialize  *FxRemoteInterfaceInit
+    )
+{
+    GUID DeviceInterfaceGUID;
+    FxRemoteInterfaceInit-&gt;GetInterfaceGuid(&amp;DeviceInterfaceGUID);
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
+
 
  
 

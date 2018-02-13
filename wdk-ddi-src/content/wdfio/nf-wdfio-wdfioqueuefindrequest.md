@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUEFINDREQUEST, WdfIoQueueFindRequest method, wdfio/WdfIoQueueFindRequest, WdfIoQueueFindRequest, wdf.wdfioqueuefindrequest, DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, kmdf.wdfioqueuefindrequest
+ms.keywords: wdfio/WdfIoQueueFindRequest, DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, wdf.wdfioqueuefindrequest, WdfIoQueueFindRequest method, PFN_WDFIOQUEUEFINDREQUEST, kmdf.wdfioqueuefindrequest, WdfIoQueueFindRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,9 @@ A pointer to a location that receives a handle to the found request. If no match
 ## -returns
 
 
+
 <b>WdfIoQueueFindRequest</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,7 +146,8 @@ The framework reached the end of the I/O queue without finding a request that ma
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -154,7 +157,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfIoQueueFindRequest</b> method searches a specified I/O queue and attempts to find an I/O request. 
@@ -170,6 +175,7 @@ If <i>Parameters</i> is not <b>NULL</b>, this method copies the found request's 
 Every call to <b>WdfIoQueueFindRequest</b> that returns STATUS_SUCCESS increments the reference count of the request object whose handle is returned in <i>OutRequest</i>. Therefore, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a> after you have finished using the handle. 
 
 Calling <b>WdfIoQueueFindRequest</b> does <i>not</i> grant the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">ownership</a> of any requests. If you want your driver to obtain ownership of a request so that it can process the request, the driver must call <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>. In fact, the driver can do only the following with the handle that it receives for the <i>OutRequest</i> parameter:
+
 <ul>
 <li>
 Use it as the <i>FoundRequest</i> parameter in a subsequent call to <b>WdfIoQueueFindRequest</b>.
@@ -187,21 +193,298 @@ Use it as the input parameter in a subsequent call to <a href="https://msdn.micr
 Use it as the input parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>.
 
 </li>
-</ul>If a call to <b>WdfIoQueueFindRequest</b> returns STATUS_NOT_FOUND, a request that was previously in the queue has been removed. The request might have been canceled. A call to <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a> can also return STATUS_NOT_FOUND.
+</ul>
+If a call to <b>WdfIoQueueFindRequest</b> returns STATUS_NOT_FOUND, a request that was previously in the queue has been removed. The request might have been canceled. A call to <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a> can also return STATUS_NOT_FOUND.
 
 For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+
+
+#### Examples
+
+<b>Example 1</b>
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example searches an I/O queue for a request that contains a specified I/O function code. If a matching request is found, the example calls <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+NICGetIoctlRequest(
+    IN WDFQUEUE Queue,
+    IN ULONG FunctionCode,
+    OUT WDFREQUEST*  Request
+    )
+{
+    NTSTATUS  status = STATUS_UNSUCCESSFUL;
+    WDF_REQUEST_PARAMETERS  params;
+    WDFREQUEST  tagRequest;
+    WDFREQUEST  prevTagRequest;
+
+    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+ 
+    *Request = NULL;
+    prevTagRequest = tagRequest = NULL;
+
+    do {
+        WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+        status = WdfIoQueueFindRequest(
+                                       Queue,
+                                       prevTagRequest,
+                                       NULL,
+                                       &amp;params,
+                                       &amp;tagRequest
+                                       );
+        if (prevTagRequest) {
+            WdfObjectDereference(prevTagRequest);
+        }
+        if (status == STATUS_NO_MORE_ENTRIES) {
+            status = STATUS_UNSUCCESSFUL;
+            break;
+        }
+        if (status == STATUS_NOT_FOUND) {
+            //
+            // The prevTagRequest request has disappeared from the
+            // queue. There might be other requests that match
+            // the criteria, so restart the search. 
+            //
+            prevTagRequest = tagRequest = NULL;
+            continue;
+        }
+        if (!NT_SUCCESS(status)) { 
+            status = STATUS_UNSUCCESSFUL;
+            break;
+        }
+        if (FunctionCode == params.Parameters.DeviceIoControl.IoControlCode){
+            //
+            // Found a match. Retrieve the request from the queue.
+            //
+            status = WdfIoQueueRetrieveFoundRequest(
+                                                    Queue,
+                                                    tagRequest,
+                                                    Request
+                                                    );
+            WdfObjectDereference(tagRequest);
+            if (status == STATUS_NOT_FOUND) {
+                //
+                // The tagRequest request has disappeared from the
+                // queue. There might be other requests that match 
+                // the criteria, so restart the search. 
+                //
+                prevTagRequest = tagRequest = NULL;
+                continue;
+            }
+            if (!NT_SUCCESS(status)) {
+                status = STATUS_UNSUCCESSFUL;
+                break;
+            }
+            //
+            //  Found a request.
+            //
+            ASSERT(*Request == tagRequest);
+            status =  STATUS_SUCCESS;
+            break;
+        } else {
+            //
+            // This request is not the correct one. Drop the reference 
+            // on the tagRequest after the driver obtains the next request.
+            //
+            prevTagRequest = tagRequest;
+            continue;
+        }
+    } while (TRUE);
+    return status;
+
+}</pre>
+</td>
+</tr>
+</table></span></div>
+<b>Example 2</b>
+
+The following code example shows how you can create a general-purpose search routine that calls a search-specific subroutine. If your driver must search one or more queues for multiple types of information, you can provide multiple search-specific subroutines. Each time that your driver calls the general-purpose search routine, it specifies the address of one of your search-specific subroutines.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
+// Type declaration for the driver's search-specific subroutines. 
+//
+typedef BOOLEAN (*PFN_CALLBACK_COMPARE)(WDFREQUEST, ULONG);
+
+//
+// General-purpose search routine. One of the routine's
+// parameters is the address of a search-specific
+// subroutine. The search routine calls back to the
+// subroutine.
+//
+WDFREQUEST
+FindRequestWithMatchingData(
+    __in WDFQUEUE Queue,
+    __in PFN_CALLBACK_COMPARE CallbackCompare,
+    __in ULONG Data
+    )
+{
+    WDFREQUEST  prevTagRequest = NULL;
+    WDFREQUEST  tagRequest = NULL;
+    WDFREQUEST  outRequest = NULL;
+    NTSTATUS  status = STATUS_INVALID_DEVICE_REQUEST;
+
+    PAGED_CODE();
+
+    do {
+        status = WdfIoQueueFindRequest(Queue,
+                                       prevTagRequest,
+                                       NULL,
+                                       NULL,
+                                       &amp;tagRequest);
+        if (prevTagRequest) {
+            //
+            // WdfIoQueueFindRequest incremented the
+            // reference count of the prevTagRequest object,
+            // so we decrement the count here.
+            //
+            WdfObjectDereference(prevTagRequest);
+        }
+        if (status == STATUS_NO_MORE_ENTRIES) {
+            KdPrint(("WdfIoQueueFindRequest returned status 0x%x\n", status));
+            break;
+        }
+        if (status == STATUS_NOT_FOUND) {
+            //
+            // The prevTagRequest object is no longer
+            // in the queue.
+            //
+            prevTagRequest = tagRequest = NULL;
+            continue;
+        }
+        if ( !NT_SUCCESS(status)) {
+            KdPrint(("WdfIoQueueFindRequest failed 0x%x\n", status));
+            break;
+        }
+
+        //
+        // We have a handle to the next request that is
+        // in the queue. Now we call the subroutine
+        // that determines if this request matches our 
+        // search criteria.
+        //
+        if (CallbackCompare(tagRequest, Data)) {
+            // 
+            // We found a match. Get the request handle.
+            // 
+            status = WdfIoQueueRetrieveFoundRequest(Queue,
+                                                    tagRequest,
+                                                    &amp;outRequest);
+            //
+            // WdfIoQueueRetrieveFoundRequest incremented the
+            // reference count of the TagRequest object,
+            // so we decrement the count here.
+            //
+            WdfObjectDereference(tagRequest);
+
+            if (status == STATUS_NOT_FOUND) {
+                //
+                // The TagRequest object is no longer
+                // in the queue. But other requests might
+                // match our criteria, so we restart the search.
+                //
+                prevTagRequest = tagRequest = NULL;
+                continue;
+            }
+
+            if (!NT_SUCCESS(status)) {
+                KdPrint(("WdfIoQueueRetrieveFoundRequest failed 0x%x\n", 
+                          status));
+            }
+
+            //
+            // We found the request we were looking for. 
+            //
+            break;
+
+        } else {
+            //
+            // The request did not match our criteria.
+            // Get another request.
+            //
+            prevTagRequest = tagRequest;
+            continue;
+        }
+    } while(TRUE);
+    return outRequest;
+ }
+
+/
+// An example of a driver's search-specific subroutine.
+// Your driver can have multiple subroutines to handle
+// multiple types of searches.
+//
+BOOLEAN
+CallbackCheckForInfo1(
+    __in WDFREQUEST Request,
+    __in ULONG DataToBeMatched
+    )
+{
+    PREQUEST_CONTEXT reqContext;
+
+    PAGED_CODE();
+
+    //
+    // Retrieve information that the driver has stored
+    // in the request object's context space.
+    //
+    reqContext = GetRequestContext(Request);
+    if (reqContext-&gt;ContextInfo1 == DataToBeMatched) {
+        return TRUE;
+    }
+    else {
+        return FALSE;
+    }
+}
+
+//
+// This code shows a call to the FindRequestWithMatchingData routine.
+//
+WDFREQUEST  matchedRequest = NULL;
+...
+matchedRequest = FindRequestWithMatchingData(readQueue,
+                                             CallbackCheckForInfo1,
+                                             INFO_VALUE);
+if (matchedRequest != NULL) {
+    // 
+    // Found a request with a context value of INFO_VALIUE.
+    //
+...
+}
+... </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
+
+
 
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
  
 

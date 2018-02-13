@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/WIAS_LWARNING, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml
+ms.keywords: WIAS_LWARNING macro [Imaging Devices], wiamdef/WIAS_LWARNING, IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, image.wias_lwarning, WIAS_LWARNING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_LWARNING
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,8 @@ TBD
 
 
 
+
+
 #### - pIWiaLog
 
 Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
@@ -107,7 +109,9 @@ Specifies a variable argument list, which starts with an ANSI format string that
 ## -remarks
 
 
+
 The following is an example of how the macro can be used:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -118,17 +122,25 @@ The following is an example of how the macro can be used:
   ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));</pre>
 </td>
 </tr>
-</table></span></div>Please note that it does not write to the new log file used in Windows Vista and later.
+</table></span></div>
+Please note that it does not write to the new log file used in Windows Vista and later.
+
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
-
 <a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
+
 
  
 

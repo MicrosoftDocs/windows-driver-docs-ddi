@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 207125d3-0833-4c5d-b66f-aa49c96a6a2d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList, image.cwiaupropertylist_setaccesssubtype, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList::SetAccessSubType, CWiauPropertyList interface [Imaging Devices], SetAccessSubType method, SetAccessSubType method [Imaging Devices], SetAccessSubType, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, wiautil/CWiauPropertyList::SetAccessSubType
+ms.keywords: SetAccessSubType method [Imaging Devices], CWiauPropertyList, image.cwiaupropertylist_setaccesssubtype, SetAccessSubType, wiauFncs_ab4b792f-54f0-4efa-bb13-5b71d94e03e0.xml, wiautil/CWiauPropertyList::SetAccessSubType, CWiauPropertyList::SetAccessSubType, SetAccessSubType method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList interface [Imaging Devices], SetAccessSubType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,11 +88,14 @@ Specifies the property subtype, one of WIA_PROP_FLAG, WIA_PROP_LIST, WIA_PROP_RA
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The WIA_PROP_<i>XXX</i> constants are defined in the Microsoft Windows SDK documentation.
@@ -101,11 +104,16 @@ A property's access and subtype are set originally in a call to the <a href="htt
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
 
+
+
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
 
  
 

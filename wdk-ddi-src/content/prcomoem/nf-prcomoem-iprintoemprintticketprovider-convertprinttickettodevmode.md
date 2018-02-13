@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1243f679-76c3-4d2e-8d57-b9d652b21a05
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemprintticketprovider_convertprinttickettodevmode, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface, ConvertPrintTicketToDevMode method [Print Devices], ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml
+ms.keywords: ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -100,11 +100,14 @@ A pointer to the plug-in's private <a href="https://msdn.microsoft.com/library/w
 ## -returns
 
 
+
 <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 The core driver calls the <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> method before it performs its part of the conversion of a print ticket to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. In the call to this method, the core driver passes an input print ticket that is fully populated and a DEVMODEW structure that is set to default values. In the conversion, the plug-in must undo any changes that it made to the print ticket during the previous conversion from a DEVMODEW structure to a print ticket. If, during this previous conversion, the plug-in moved a feature from a private namespace to the public namespace, the plug-in must restore the feature to the private namespace in a format that is suitable for the core driver, that is, the format in which the core driver had previously placed the feature in the print ticket that was provided to the plug-in in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a> method. This restoration is necessary so that the core driver can recognize the feature in the print ticket and reflect its settings in private portion of the core driver's DEVMODEW structure while the core driver performs its part of the print ticket-to-DEVMODEW conversion .
@@ -113,9 +116,12 @@ Before the system converts a print ticket back to a <a href="https://msdn.micros
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
+
+
 
  
 

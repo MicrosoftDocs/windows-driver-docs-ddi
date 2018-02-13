@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 2996b7c3-6f61-42ad-b9d1-e5c9a7d9ca7f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFNumbers2::Remove, wdtf/IWDTFNumbers2::Remove, Microsoft.WDTF.IWDTFNumbers2.Remove, Microsoft::WDTF::IWDTFNumbers2::Remove, dtf.iwdtfnumbers2_remove, IWDTFNumbers2, IWDTFNumbers2 interface [Windows Device Testing Framework], Remove method, Remove method [Windows Device Testing Framework], IWDTFNumbers2 interface, Remove, Remove method [Windows Device Testing Framework]
+ms.keywords: wdtf/IWDTFNumbers2::Remove, IWDTFNumbers2 interface [Windows Device Testing Framework], Remove method, dtf.iwdtfnumbers2_remove, Remove, Microsoft::WDTF::IWDTFNumbers2::Remove, Remove method [Windows Device Testing Framework], IWDTFNumbers2 interface, IWDTFNumbers2::Remove, IWDTFNumbers2, Microsoft.WDTF.IWDTFNumbers2.Remove, Remove method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The 0-based index value of the number to remove.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfnumbers2.md">IWDTFNumbers2</a>
+
+
 
  
 

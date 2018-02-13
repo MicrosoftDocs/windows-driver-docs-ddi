@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GPUENGINETOPOLOGY, _DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, display.dxgk_gpuenginetopology, DXGK_GPUENGINETOPOLOGY
+ms.keywords: display.dxgk_gpuenginetopology, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DXGK_GPUENGINETOPOLOGY, _DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _DXGK_GPUENGINETOPOLOGY {
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
 
  
 

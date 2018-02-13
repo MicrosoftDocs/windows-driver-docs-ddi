@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemuni_compression, IPrintOemUni, Compression method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], Compression method, Compression, prcomoem/IPrintOemUni::Compression, IPrintOemUni::Compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, Compression method [Print Devices]
+ms.keywords: print.iprintoemuni_compression, prcomoem/IPrintOemUni::Compression, Compression method [Print Devices], IPrintOemUni::Compression, Compression method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], Compression method, IPrintOemUni, Compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.Compression
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ Receives a method-supplied result value. If the operation succeeds, this value s
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,11 +147,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemUni::Compression</code> method is used by rendering plug-ins to compress scan line data before it is sent to the print spooler. The method's purpose is to provide support for printer-specific compression methods that are not supported by Unidrv.
@@ -167,5 +172,6 @@ If, after Unidrv tries all enabled compression methods, the compressed data retu
 If possible, the method's compression algorithm should use the received <i>dwOutLen</i> value to determine whether it can stop the algorithm before completion, to save time if another compression method has already created a better result.
 
 The <code>IPrintOemUni::Compression</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "Compression" as input.
+
 
 

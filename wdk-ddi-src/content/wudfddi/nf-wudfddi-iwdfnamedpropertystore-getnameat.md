@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, umdf.iwdfnamedpropertystore_getnameat, IWDFNamedPropertyStore interface, GetNameAt method, wdf.iwdfnamedpropertystore_getnameat, GetNameAt method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore, GetNameAt, GetNameAt method, wudfddi/IWDFNamedPropertyStore::GetNameAt
+ms.keywords: IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, wudfddi/IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore, wdf.iwdfnamedpropertystore_getnameat, GetNameAt method, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt, umdf.iwdfnamedpropertystore_getnameat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,20 +84,26 @@ A pointer to a variable that receives a pointer to a <b>NULL</b>-terminated stri
 ## -returns
 
 
+
 <b>GetNameAt</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl, 1/SerCxRetrieveTransmitMdl
+ms.keywords: SerCxRetrieveTransmitMdl method [Serial Ports], 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, serports.sercxretrievetransmitmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to a location into which the method writes a pointer to the MDL.
 ## -returns
 
 
+
 <b>SerCxRetrieveTransmitMdl</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,11 +107,14 @@ This value is returned if one of the following occurs:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
@@ -118,9 +123,12 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+
+
 
  
 

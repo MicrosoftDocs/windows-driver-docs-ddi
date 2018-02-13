@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2da4b4ea-1cbb-43f7-9001-44b07a3e9ef7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPreDeviceInstall, PFN_WDFPREDEVICEINSTALL, wdfinstaller/WdfPreDeviceInstall, wdf.wdfpredeviceinstall, DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, kmdf.wdfpredeviceinstall, WdfPreDeviceInstall function
+ms.keywords: WdfPreDeviceInstall, DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, kmdf.wdfpredeviceinstall, wdfinstaller/WdfPreDeviceInstall, WdfPreDeviceInstall function, wdf.wdfpredeviceinstall, PFN_WDFPREDEVICEINSTALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPreDeviceInstall
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 ## -returns
 
 
+
 <b>WdfPreDeviceInstall</b> returns <b>ERROR_SUCCESS</b> if the operation succeeds. Otherwise, the function returns one of the additional <b>ERROR_XXX</b> values that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceInstall</b> or <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstallex.md">WdfPreDeviceInstallEx</a> before the installer calls <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>.
@@ -101,10 +104,19 @@ If the co-installer determines that the computer must be restarted to complete t
 For more information about the <b>WdfPreDeviceInstall</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>, <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, and <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>, see the Microsoft Windows SDK documentation.
 
 
+#### Examples
+
+For a code example that uses the <b>WdfPreDeviceInstall</b> function, see the installer for the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
+
+
 
  
 

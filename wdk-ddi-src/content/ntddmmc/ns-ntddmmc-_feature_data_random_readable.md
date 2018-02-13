@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c235a3aa-f8fe-4034-a645-ef85b2574fa0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_RANDOM_READABLE, storage.feature_data_random_readable, PFEATURE_DATA_RANDOM_READABLE structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_RANDOM_READABLE, structs-CD-ROM_90540677-8abb-43d0-919a-821411398074.xml, *PFEATURE_DATA_RANDOM_READABLE, _FEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE structure [Storage Devices], FEATURE_DATA_RANDOM_READABLE, ntddmmc/FEATURE_DATA_RANDOM_READABLE
+ms.keywords: structs-CD-ROM_90540677-8abb-43d0-919a-821411398074.xml, ntddmmc/FEATURE_DATA_RANDOM_READABLE, _FEATURE_DATA_RANDOM_READABLE, storage.feature_data_random_readable, ntddmmc/PFEATURE_DATA_RANDOM_READABLE, PFEATURE_DATA_RANDOM_READABLE structure pointer [Storage Devices], PFEATURE_DATA_RANDOM_READABLE, *PFEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_RANDOM_READABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE"
+req.typenames: FEATURE_DATA_RANDOM_READABLE, *PFEATURE_DATA_RANDOM_READABLE
 ---
 
 # _FEATURE_DATA_RANDOM_READABLE structure
@@ -105,15 +105,21 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "Random Readable" by the <i>MMC-3 </i>specification. Devices that support this feature allow the initiator to read blocks of data on the disk at random locations. These devices do not require that the initiator address disk locations in any particular order. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

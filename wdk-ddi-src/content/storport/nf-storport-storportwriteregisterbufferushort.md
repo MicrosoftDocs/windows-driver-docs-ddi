@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUshort
-title: StorPortWriteRegisterBufferUshort function
+title: StorPortWriteRegisterBufferUshort macro
 author: windows-driver-content
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferushort.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportwriteregisterbufferushort, storport/StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml, StorPortWriteRegisterBufferUshort routine [Storage Devices]
+ms.keywords: storport/StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices], storage.storportwriteregisterbufferushort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml, StorPortWriteRegisterBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortWriteRegisterBufferUshort function
+# StorPortWriteRegisterBufferUshort macro
 
 
 ## -description
@@ -72,36 +72,55 @@ STORPORT_API VOID StorPortWriteRegisterBufferUshort(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param r
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory space range that was returned by <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>. 
 
 
-### -param Buffer [in]
+#### - Buffer [in]
 
 Pointer to a buffer containing the data to be written.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of USHORT values to be transferred to the HBA.
-
-
-## -returns
-
-
-None
-
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
+
+
 
  
 

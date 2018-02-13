@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 555dd967-ea38-45fa-8e7f-5318ca5c6dd2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_EUTRAMRL_MCC, RIL_PARAM_EUTRAMRL_RSRQ, rilapitypes/RIL_PARAM_EUTRAMRL_ALL, RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_MCC, rilapitypes/RIL_PARAM_EUTRAMRL_CELLID, netvista.rileutramrlparammask, rilapitypes/RIL_PARAM_EUTRAMRL_PHYSCELLID, RILEUTRAMRLPARAMMASK, RIL_PARAM_EUTRAMRL_RSRP, rilapitypes/RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_CELLID, RIL_PARAM_EUTRAMRL_MNC, rilapitypes/RIL_PARAM_EUTRAMRL_TAC, rilapitypes/RIL_PARAM_EUTRAMRL_MNC, RILEUTRAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILEUTRAMRLPARAMMASK, RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_RSRQ, RIL_PARAM_EUTRAMRL_TAC, rilapitypes/RIL_PARAM_EUTRAMRL_RSRP
+ms.keywords: RILEUTRAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_EUTRAMRL_PHYSCELLID, RIL_PARAM_EUTRAMRL_RSRP, rilapitypes/RIL_PARAM_EUTRAMRL_EARFCN, RIL_PARAM_EUTRAMRL_TAC, RIL_PARAM_EUTRAMRL_EARFCN, rilapitypes/RIL_PARAM_EUTRAMRL_CELLID, rilapitypes/RIL_PARAM_EUTRAMRL_RSRP, netvista.rileutramrlparammask, RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_MNC, RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_ALL, rilapitypes/RIL_PARAM_EUTRAMRL_TAC, RIL_PARAM_EUTRAMRL_PHYSCELLID, rilapitypes/RILEUTRAMRLPARAMMASK, rilapitypes/RIL_PARAM_EUTRAMRL_MCC, rilapitypes/RIL_PARAM_EUTRAMRL_RSRQ, RIL_PARAM_EUTRAMRL_RSRQ, RIL_PARAM_EUTRAMRL_MCC, RIL_PARAM_EUTRAMRL_MNC, RIL_PARAM_EUTRAMRL_CELLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -82,45 +82,38 @@ enum RILEUTRAMRLPARAMMASK {
 ### -field RIL_PARAM_EUTRAMRL_MCC
 
 
-
 ### -field RIL_PARAM_EUTRAMRL_MNC
-
 
 
 ### -field RIL_PARAM_EUTRAMRL_CELLID
 
 
-
 ### -field RIL_PARAM_EUTRAMRL_EARFCN
-
 
 
 ### -field RIL_PARAM_EUTRAMRL_PHYSCELLID
 
 
-
 ### -field RIL_PARAM_EUTRAMRL_TAC
-
 
 
 ### -field RIL_PARAM_EUTRAMRL_RSRP
 
 
-
 ### -field RIL_PARAM_EUTRAMRL_RSRQ
-
 
 
 ### -field RIL_PARAM_EUTRAMRL_ALL
 
 
-
 ## -remarks
+
 
 
 Networks will vary, but the following table summarizes which items are returned for typical LTE networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -272,9 +265,11 @@ Measured in dB
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>LTE neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -426,13 +421,17 @@ Measured in dB
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

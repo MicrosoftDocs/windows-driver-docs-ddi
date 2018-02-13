@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c89c7df3-7ccb-46db-adcc-22c49cae5108
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, ntddrilapitypes/RILNOTIFICATIONPARAMS, netvista.rilnotificationparams, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.rilnotificationparams, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, ntddrilapitypes/RILNOTIFICATIONPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILNOTIFICATIONPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS
+req.typenames: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS"
 ---
 
 # RILNOTIFICATIONPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILNOTIFICATIONPARAMS {
 ### -field dwNotificationCount
 
 
-
 ### -field pdwNotifications
-
 

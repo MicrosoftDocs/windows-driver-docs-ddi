@@ -111,6 +111,8 @@ Sets the mode in which an allocator allocates memory.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsAllocator.
+
 
 

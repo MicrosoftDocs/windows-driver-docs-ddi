@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPowerDevicePrepareForHibernation, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD2, wudfddi_types/WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, umdf.wdf_power_device_state, wudfddi_types/WdfPowerDeviceD0, WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceD3Final, WdfPowerDeviceD2, wudfddi_types/WdfPowerDeviceD1, wdf.wdf_power_device_state_umdf, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD0, WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceMaximum, WdfPowerDeviceD3Final, WdfPowerDeviceD1, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceD3, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDeviceInvalid
+ms.keywords: umdf.wdf_power_device_state, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceInvalid, WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceD2, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD3Final, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD0, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, wudfddi_types/WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, wdf.wdf_power_device_state_umdf, WdfPowerDeviceD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
+req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -121,7 +121,9 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 The framework supplies one of the values of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a> method to notify the UMDF driver about the power state of the device.
+
 
 
 
@@ -129,7 +131,11 @@ The framework supplies one of the values of <a href="..\wudfddi_types\ne-wudfddi
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f8742053-0d02-40af-9a6e-7af029db8575
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_TUNER_TUNING_COARSE, stream.ks_tuner_tuning_flags, vidcapstruct_af322917-69e6-4688-885d-45422c594348.xml, ksmedia/KS_TUNER_TUNING_FLAGS, ksmedia/KS_TUNER_TUNING_FINE, KS_TUNER_TUNING_EXACT, ksmedia/KS_TUNER_TUNING_COARSE, KS_TUNER_TUNING_FLAGS enumeration [Streaming Media Devices], KS_TUNER_TUNING_FLAGS, ksmedia/KS_TUNER_TUNING_EXACT, KS_TUNER_TUNING_FINE
+ms.keywords: KS_TUNER_TUNING_EXACT, ksmedia/KS_TUNER_TUNING_EXACT, KS_TUNER_TUNING_COARSE, stream.ks_tuner_tuning_flags, ksmedia/KS_TUNER_TUNING_FINE, ksmedia/KS_TUNER_TUNING_COARSE, vidcapstruct_af322917-69e6-4688-885d-45422c594348.xml, KS_TUNER_TUNING_FLAGS, KS_TUNER_TUNING_FLAGS enumeration [Streaming Media Devices], KS_TUNER_TUNING_FINE, ksmedia/KS_TUNER_TUNING_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,6 +87,8 @@ The tuning operation should perform a fast search and attempt only to determine 
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_frequency_s.md">KSPROPERTY_TUNER_FREQUENCY_S</a>
+
+
 
  
 

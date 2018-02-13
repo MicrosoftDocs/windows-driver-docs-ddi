@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9B4EBCA4-8370-4F00-9853-6EE8408367BE
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices], SetString method, IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_setstring, SetString method [Print Devices], SetString, IPrinterScriptablePropertyBag::SetString, SetString method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::SetString
+ms.keywords: printerextension/IPrinterScriptablePropertyBag::SetString, SetString method [Print Devices], IPrinterScriptablePropertyBag::SetString, SetString method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetString method, SetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,20 +82,26 @@ The property value to set.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>SetString</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
 
  
 

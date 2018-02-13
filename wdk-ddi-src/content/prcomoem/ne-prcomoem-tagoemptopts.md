@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMPT_NOSHAPSHOT, prcomoem/OEMPT_NOSHAPSHOT, POEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPTOPTS, *POEMPTOPTS, OEMPT_DEFAULT, tagOEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], print.oemptopts, prcomoem/POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices]
+ms.keywords: prcomoem/OEMPTOPTS, OEMPT_DEFAULT, prcomoem/OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, tagOEMPTOPTS, prcomoem/POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], print.oemptopts, OEMPTOPTS enumeration [Print Devices], *POEMPTOPTS, OEMPTOPTS, prcomoem/OEMPT_NOSHAPSHOT, POEMPTOPTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	OEMPTOPTS
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -72,12 +72,10 @@ typedef enum tagOEMPTOPTS {
 ### -field OEMPT_DEFAULT
 
 
-
 ### -field OEMPT_NOSNAPSHOT
 
 
 
 
 #### - OEMPT_NOSHAPSHOT
-
 

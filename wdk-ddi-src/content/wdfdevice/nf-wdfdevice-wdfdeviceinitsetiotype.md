@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fcad4b8e-4273-43ff-8077-a96d1bd4640a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetiotype, kmdf.wdfdeviceinitsetiotype, wdfdevice/WdfDeviceInitSetIoType, WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, PFN_WDFDEVICEINITSETIOTYPE, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml
+ms.keywords: DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, WdfDeviceInitSetIoType, wdf.wdfdeviceinitsetiotype, PFN_WDFDEVICEINITSETIOTYPE, wdfdevice/WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, kmdf.wdfdeviceinitsetiotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 <b>KMDF </b>If you are writing a new driver using KMDF version 1.13 or later, you should instead use <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>. Calling <b>WdfDeviceInitSetIoType</b> from a KMDF filter driver has no effect. For filter drivers, the framework uses the I/O type specified by the next-lower driver in the driver stack.
@@ -105,14 +108,39 @@ If the driver does not call <b>WdfDeviceInitSetIoType</b>, the framework sets th
 For more information about buffer-access methods, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers</a>.
 
 
+#### Examples
+
+The following code example indicates that a driver will use the direct I/O method when it accesses the device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfDeviceInitSetIoType(
+                       DeviceInit,
+                       WdfDeviceIoDirect
+                       );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
+
+
 
  
 

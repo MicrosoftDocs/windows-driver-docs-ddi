@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetInputData method [Print Devices], print.ibidirequest_ibidirequest__setinputdata, BIDI_NULL, SetInputData method [Print Devices], IBidiRequest interface, BIDI_TEXT, gdi.ibidirequest_ibidirequest__setinputdata, SetInputData, BIDI_FLOAT, BIDI_BOOL, IBidiRequest::SetInputData, bidispl/IBidiRequest::SetInputData, BIDI_INT, BIDI_ENUM, BIDI_BLOB, BIDI_STRING, IBidiRequest interface [Print Devices], SetInputData method, _win32_IBidiRequest_SetInputData, IBidiRequest
+ms.keywords: BIDI_BLOB, SetInputData method [Print Devices], bidispl/IBidiRequest::SetInputData, BIDI_INT, print.ibidirequest_ibidirequest__setinputdata, BIDI_TEXT, gdi.ibidirequest_ibidirequest__setinputdata, IBidiRequest, BIDI_STRING, BIDI_NULL, _win32_IBidiRequest_SetInputData, BIDI_BOOL, BIDI_FLOAT, SetInputData method [Print Devices], IBidiRequest interface, IBidiRequest::SetInputData, IBidiRequest interface [Print Devices], SetInputData method, SetInputData, BIDI_ENUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiRequest.SetInputData
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiRequest::SetInputData method
@@ -72,6 +72,7 @@ HRESULT SetInputData(
 ### -param dwType [in]
 
 The type of data to be sent. This parameter can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -157,7 +158,8 @@ Binary data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pData [in]
@@ -173,7 +175,9 @@ Size, in bytes, of the byte array specified by <i>pData</i>.
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -234,24 +238,34 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If an application calls <b>SetInputData</b> more than once, only the value of the last call will be set.
+
 
 
 
 ## -see-also
 
+<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+
 
  
 

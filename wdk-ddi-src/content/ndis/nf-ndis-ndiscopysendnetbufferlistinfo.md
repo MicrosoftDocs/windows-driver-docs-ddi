@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, NdisCopySendNetBufferListInfo, ndis/NdisCopySendNetBufferListInfo, netvista.ndiscopysendnetbufferlistinfo
+ms.keywords: netvista.ndiscopysendnetbufferlistinfo, NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, ndis/NdisCopySendNetBufferListInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCopySendNetBufferListInfo
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCopySendNetBufferListInfo function
@@ -85,11 +85,14 @@ A pointer to the source <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When an intermediate driver or filter driver receives a transmit request from an overlying driver, it
@@ -104,6 +107,7 @@ To copy the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> in
     NdisCopyReceiveNetBufferListInfo</a> function.
 
 The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> items are copied in a call to <b>NdisCopySendNetBufferListInfo</b>:
+
 <table>
 <tr>
 <th>Copied Item </th>
@@ -153,18 +157,26 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 <td>NetBufferListFilteringInfo</td>
 <td>Windows 8</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscopyreceivenetbufferlistinfo.md">
    NdisCopyReceiveNetBufferListInfo</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
+
 
  
 

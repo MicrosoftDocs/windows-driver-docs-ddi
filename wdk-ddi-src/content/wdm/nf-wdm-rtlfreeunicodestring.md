@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlfreeunicodestring, RtlFreeUnicodeString, wdm/RtlFreeUnicodeString, k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml
+ms.keywords: wdm/RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlfreeunicodestring, k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, RtlFreeUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,30 @@ Pointer to the Unicode string buffer previously allocated by <b>RtlAnsiStringToU
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This routine does not release the ANSI string buffer passed to <b>RtlAnsiStringToUnicodeString</b>. 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: d834d97c-cf2d-430b-8f54-b0b47ab1503c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMCIA.pcmcia_controller_class, PcmciaTI, ntddpcm/PcmciaTopic, ntddpcm/PcmciaNEC_98, PcmciaNEC_98, ntddpcm/PcmciaCirrusLogic, PcmciaDatabook, ntddpcm/PcmciaOpti, PCMCIA_CONTROLLER_CLASS, PcmciaOpti, PcmciaElcController, PcmciaPciPcmciaBridge, *PPCMCIA_CONTROLLER_CLASS, ntddpcm/PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaDatabookCB, _PCMCIA_CONTROLLER_CLASS, PcmciaCardBusCompatible, PcmciaIntelCompatible, PcmciaDatabookCB, PcmciaCirrusLogic, ntddpcm/PcmciaO2Micro, PcmciaNEC, PcmciaRicoh, ntddpcm/PcmciaPciPcmciaBridge, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, ntddpcm/PcmciaElcController, ntddpcm/PcmciaTrid, PcmciaInvalidControllerClass, PcmciaTrid, ntddpcm/PcmciaInvalidControllerClass, ntddpcm/PcmciaCardBusCompatible, ntddpcm/PcmciaIntelCompatible, PcmciaTopic, PcmciaO2Micro, ntddpcm/PCMCIA_CONTROLLER_CLASS, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], ntddpcm/PcmciaTI, PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaRicoh, ntddpcm/PcmciaDatabook, PCMCIA_CONTROLLER_CLASS enumeration [Buses], ntddpcm/PcmciaNEC
+ms.keywords: PcmciaCardBusCompatible, PcmciaNEC_98, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, PcmciaRicoh, PcmciaTrid, PcmciaNEC, _PCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaPciPcmciaBridge, ntddpcm/PcmciaCardBusCompatible, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], ntddpcm/PcmciaCirrusLogic, ntddpcm/PcmciaO2Micro, ntddpcm/PcmciaNEC_98, PcmciaInvalidControllerClass, ntddpcm/PcmciaOpti, PcmciaDatabookCB, PcmciaTI, ntddpcm/PcmciaRicoh, ntddpcm/PcmciaDatabookCB, PcmciaIntelCompatible, PcmciaOpti, PcmciaTopic, ntddpcm/PcmciaTopic, ntddpcm/PcmciaElcController, ntddpcm/PcmciaInvalidControllerClass, PCMCIA_CONTROLLER_CLASS, ntddpcm/PPCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS, PcmciaPciPcmciaBridge, ntddpcm/PCMCIA_CONTROLLER_CLASS, PcmciaDatabook, PCMCIA_CONTROLLER_CLASS enumeration [Buses], PcmciaO2Micro, ntddpcm/PcmciaTI, ntddpcm/PcmciaTrid, ntddpcm/PcmciaIntelCompatible, ntddpcm/PcmciaDatabook, ntddpcm/PcmciaNEC, PPCMCIA_CONTROLLER_CLASS, PCMCIA.pcmcia_controller_class, PcmciaCirrusLogic, PcmciaElcController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PCMCIA_CONTROLLER_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PPCMCIA_CONTROLLER_CLASS, PCMCIA_CONTROLLER_CLASS"
+req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---
 
 # _PCMCIA_CONTROLLER_CLASS enumeration
@@ -165,6 +165,8 @@ Indicates a NEC cardbus controller.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>
+
+
 
  
 

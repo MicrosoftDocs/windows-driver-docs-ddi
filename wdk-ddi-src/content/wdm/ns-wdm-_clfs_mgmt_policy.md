@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfs_mgmt_policy, _CLFS_MGMT_POLICY, PCLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], *PCLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY, wdm/CLFS_MGMT_POLICY, CLFS_MGMT_POLICY
+ms.keywords: CLFS_MGMT_POLICY, kernel.clfs_mgmt_policy, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, _CLFS_MGMT_POLICY, PCLFS_MGMT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,26 @@ typedef struct _CLFS_MGMT_POLICY {
 ## -struct-fields
 
 
+
+
+### -field Version
+
+The version of the <b>CLFS_MGMT_POLICY</b> structure. Set this to <b>CLFS_MGMT_POLICY_VERSION</b>.
+
+
+### -field LengthInBytes
+
+The length of the <b>CLFS_MGMT_POLICY</b> structure.
+
+
+### -field PolicyFlags
+
+The flags that apply to this instance of the <b>CLFS_MGMT_POLICY</b> structure. The only flag that has been implemented for this release is <b>LOG_POLICY_OVERWRITE</b>, which indicates that when the policy is installed, it will replace the policy of the same type, if such a policy already exists.
+
+
+### -field PolicyType
+
+A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
 
 
 ### -field PolicyParameters
@@ -232,27 +252,8 @@ The length, in bytes, of the <b>ExtensionString</b> member.
 A wide-character string that contains the extension to the file name for each container in the log. Container file names are built using the format [prefix][suffix][.extension]. An extension is optional. The default extension is the empty string.
 
 
-### -field Version
-
-The version of the <b>CLFS_MGMT_POLICY</b> structure. Set this to <b>CLFS_MGMT_POLICY_VERSION</b>.
-
-
-### -field LengthInBytes
-
-The length of the <b>CLFS_MGMT_POLICY</b> structure.
-
-
-### -field PolicyFlags
-
-The flags that apply to this instance of the <b>CLFS_MGMT_POLICY</b> structure. The only flag that has been implemented for this release is <b>LOG_POLICY_OVERWRITE</b>, which indicates that when the policy is installed, it will replace the policy of the same type, if such a policy already exists.
-
-
-### -field PolicyType
-
-A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
-
-
 ## -remarks
+
 
 
 The way a <b>CLFS_MGMT_POLICY</b> structure is interpreted depends on the type of policy that the structure holds.
@@ -265,15 +266,24 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
 
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+
+<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
+
+
 
 <a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
+
+
+
+<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+
 
  
 

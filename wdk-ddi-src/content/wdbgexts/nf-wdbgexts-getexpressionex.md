@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExpressionEx function [Windows Debugging], GetExpressionEx, WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
+ms.keywords: debugger.getexpressionex, GetExpressionEx, WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, wdbgexts/GetExpressionEx, GetExpressionEx function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ Receives a pointer to the first character in the expression <i>Expression</i> th
 ## -returns
 
 
+
 <b>GetExpressionEx</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,13 +118,17 @@ An error occurred while attempting to evaluate the expression.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_get_expression.md">GetExpression</a>
+
+
 
  
 

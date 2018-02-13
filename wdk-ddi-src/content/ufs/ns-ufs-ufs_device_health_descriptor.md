@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B085DBB-2AAA-4170-A2B1-EA4D2C207A24
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/UFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_device_health_descriptor, *PUFS_DEVICE_HEALTH_DESCRIPTOR
+ms.keywords: PUFS_DEVICE_HEALTH_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_HEALTH_DESCRIPTOR structure [Storage Devices], UFS_DEVICE_HEALTH_DESCRIPTOR, PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/PUFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR, ufs/UFS_DEVICE_HEALTH_DESCRIPTOR, storage.ufs_device_health_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_DEVICE_HEALTH_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUFS_DEVICE_HEALTH_DESCRIPTOR, UFS_DEVICE_HEALTH_DESCRIPTOR"
+req.typenames: UFS_DEVICE_HEALTH_DESCRIPTOR, *PUFS_DEVICE_HEALTH_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -86,6 +86,7 @@ Specifies the descriptor's Identification value. <b>UFS_DEVICE_HEALTH_DESCRIPTOR
 ### -field bPreEOLInfo
 
 Contains Pre-End of Life Information. This member supplies information about a device's life time as reflected by the average number of reserved blocks. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,12 +114,14 @@ reserved blocks.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bDeviceLifeTimeEstA
 
 <b>bDeviceLifeTimeEstA</b> provides an estimation of how much of a device's estimated life time has been used based on the amount of performed program/erase cycles. This calculation is vendor-specific and is referred as method A. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -176,7 +179,8 @@ reserved blocks.</td>
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bDeviceLifeTimeEstB
@@ -190,6 +194,7 @@ reserved blocks.</td>
 
 
 
+
 #### - VendorPropInfo[32]
 
 Reserved for vendor use.
@@ -198,6 +203,8 @@ Reserved for vendor use.
 ## -remarks
 
 
+
 The UFS Host Controller contains a series of configurable Descriptor Tables, which allow the driver to query and configure the host controller’s capabilities. Query the Requested Descriptor from the Descriptor Table on the device.
+
 
 

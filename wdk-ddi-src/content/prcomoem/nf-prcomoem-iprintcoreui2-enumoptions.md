@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9ae20927-6ef4-4566-939c-967ce1d99874
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: EnumOptions method [Print Devices], IPrintCoreUI2 interface, IPrintCoreUI2, IPrintCoreUI2::EnumOptions, IPrintCoreUI2 interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices], print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml, print.iprintcoreui2_enumoptions, prcomoem/IPrintCoreUI2::EnumOptions, EnumOptions
+ms.keywords: IPrintCoreUI2, EnumOptions method [Print Devices], IPrintCoreUI2 interface, EnumOptions method [Print Devices], print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml, IPrintCoreUI2::EnumOptions, IPrintCoreUI2 interface [Print Devices], EnumOptions method, print.iprintcoreui2_enumoptions, EnumOptions, prcomoem/IPrintCoreUI2::EnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -108,7 +108,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the opt
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -177,11 +179,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
@@ -192,11 +197,16 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
 
+
+
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
 
  
 

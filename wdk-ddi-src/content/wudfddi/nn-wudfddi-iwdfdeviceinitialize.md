@@ -157,8 +157,10 @@ The <a href="https://msdn.microsoft.com/18b0b277-97c8-4aff-9f09-34822ce84290">Se
 ## -remarks
 
 
+
  The driver calls the methods of this interface to set the properties for a new device object and passes this interface as an input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create the new device object.
 
 Do not use  this interface after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+
 
 

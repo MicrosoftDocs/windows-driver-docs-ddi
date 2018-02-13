@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 64343a8a-9629-469e-95a3-b9c140cdd324
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsValidateConnectRequest, stream.ksvalidateconnectrequest, KsValidateConnectRequest function [Streaming Media Devices], ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, KsValidateConnectRequest
+ms.keywords: ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, stream.ksvalidateconnectrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,15 +96,19 @@ Specifies a location in which to place a pointer to the <a href="..\ks\ns-ks-ksp
 ## -returns
 
 
+
 The <b>KsValidateConnectRequest</b> function returns STATUS_SUCCESS if successful, or it returns an error.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsValidateConnectRequest</b> function handles basic connection structure access exceptions and validates the communication requirements, medium, protocol, and basic data format. The validation performed on the data format passed is based on the data range list for the specified pin against which a pin instance is to be created. Validation is successful in three instances: if a range major format is a wildcard, the range major format matches and the range subformat is a wildcard, or the range major format, range subformat, and the range specifier all match.
 
 The buffer is passed a copy of the original input buffer, if the originator was not in kernel mode, and is therefore safe to access.
+
 
 

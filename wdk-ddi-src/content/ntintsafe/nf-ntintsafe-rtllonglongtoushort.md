@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68D3A830-6687-4D45-8C9B-FC7B5E1F318A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongLongToUShort function [Kernel-Mode Driver Architecture], RtlLongLongToUShort, kernel.rtllonglongtoushort, ntintsafe/RtlLongLongToUShort
+ms.keywords: ntintsafe/RtlLongLongToUShort, kernel.rtllonglongtoushort, RtlLongLongToUShort function [Kernel-Mode Driver Architecture], RtlLongLongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>
 RtlLongLongToUInt16
@@ -103,4 +105,5 @@ RtlLongLongToUInt16
 <li>RtlInt64ToWord
 </li>
 </ul>
+
 

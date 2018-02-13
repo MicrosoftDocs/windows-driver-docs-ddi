@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfverifierdbgbreakpoint, WdfVerifierDbgBreakPoint, kmdf.wdfverifierdbgbreakpoint, DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint function, wdfverifier/WdfVerifierDbgBreakPoint
+ms.keywords: wdf.wdfverifierdbgbreakpoint, WdfVerifierDbgBreakPoint function, WdfVerifierDbgBreakPoint, kmdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint, DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfVerifierDbgBreakPoint
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
+req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -72,31 +72,68 @@ VOID WdfVerifierDbgBreakPoint(void);
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger if one of the following is true:
+
 <ul>
 <li><b>DbgBreakOnError</b> is set to a non-zero value in the registry.</li>
 <li><b>VerifierOn</b> is set to a non-zero value and <b>DbgBreakOnError</b> is not set.
 								</li>
 <li>Driver Verifier is enabled, the  driver was built with framework version 1.9 or later, and neither <b>VerifierOn</b> nor <b>DbgBreakOnError</b> is set.</li>
-</ul>For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
+</ul>
+For more information about registry entries that you can use to debug your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/registry-values-for-debugging-kmdf-drivers">Registry Entries for Debugging Framework-Based Drivers</a>.
 
 For more information about debugging your driver, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
+
+
+#### Examples
+
+The following code example shows how a driver might handle a failure to obtain an I/O request's output buffer.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Status = WdfRequestRetrieveOutputMemory(
+                                        Request,
+                                        &amp;memory
+                                        );
+if( !NT_SUCCESS(Status) ) {
+    KdPrint(("EvtIoRead could not get request memory buffer. Status: 0x%x\n",Status));
+    WdfVerifierDbgBreakPoint();
+    WdfRequestCompleteWithInformation(
+                                      Request,
+                                      Status,
+                                      0L
+                                      );
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfverifier\nf-wdfverifier-wdfverifierkebugcheck.md">WdfVerifierKeBugCheck</a>
+
+
 
  
 

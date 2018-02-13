@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a87da8a-a495-4451-a6f3-1261efda09f3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCorePS2::GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute method [Print Devices], IPrintCorePS2, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, print.iprintcoreps2_getfeatureattribute, GetFeatureAttribute
+ms.keywords: prcomoem/IPrintCorePS2::GetFeatureAttribute, IPrintCorePS2::GetFeatureAttribute, print.iprintcoreps2_getfeatureattribute, IPrintCorePS2, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, GetFeatureAttribute method [Print Devices], GetFeatureAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCorePS2.GetFeatureAttribute
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -118,7 +118,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the req
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -174,11 +176,14 @@ The method failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the feature. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the feature. This list is terminated with two null characters.
@@ -191,15 +196,24 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
 
  
 

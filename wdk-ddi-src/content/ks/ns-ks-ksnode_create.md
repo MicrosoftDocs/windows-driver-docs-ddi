@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: db08cc72-3797-46e3-8e4d-d8469dc126ab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], ks/PKSNODE_CREATE, stream.ksnode_create, ks/KSNODE_CREATE, KSNODE_CREATE, PKSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml"
+ms.keywords: PKSNODE_CREATE, stream.ksnode_create, *PKSNODE_CREATE, ks/KSNODE_CREATE, ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, ks/PKSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], KSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Indicates what node a handle should be created for. This refers to the node iden
 ## -see-also
 
 <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
+
+
 
  
 

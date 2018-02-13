@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 552c6ee9-47e7-4863-95bb-256057a99649
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_UAPCS_ALL, RILUICCAPPPERSOCHECKSTATUSPARAMMASK, RIL_PARAM_UAPCS_ALL, netvista.riluiccapppersocheckstatusparammask, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UAPCS_PERSOFEATURE, ntddrilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE, RIL_PARAM_UAPCS_PERSOCHECKSTATE, ntddrilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE
+ms.keywords: RILUICCAPPPERSOCHECKSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE, ntddrilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE, ntddrilapitypes/RIL_PARAM_UAPCS_ALL, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, RIL_PARAM_UAPCS_ALL, RIL_PARAM_UAPCS_PERSOFEATURE, netvista.riluiccapppersocheckstatusparammask, RIL_PARAM_UAPCS_PERSOCHECKSTATE, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,15 +72,11 @@ typedef enum _RILUICCAPPPERSOCHECKSTATUSPARAMMASK {
 ### -field RIL_PARAM_UAPCS_HUICCAPP
 
 
-
 ### -field RIL_PARAM_UAPCS_PERSOFEATURE
-
 
 
 ### -field RIL_PARAM_UAPCS_PERSOCHECKSTATE
 
 
-
 ### -field RIL_PARAM_UAPCS_ALL
-
 

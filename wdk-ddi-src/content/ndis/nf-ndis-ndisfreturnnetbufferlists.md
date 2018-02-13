@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 083cf25d-7436-4c4e-b29a-c9a2702b136d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFReturnNetBufferLists, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndisfreturnnetbufferlists, filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, ndis/NdisFReturnNetBufferLists
+ms.keywords: NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], NdisFReturnNetBufferLists, ndis/NdisFReturnNetBufferLists, filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, netvista.ndisfreturnnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFReturnNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFReturnNetBufferLists function
@@ -97,10 +97,12 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 
 
 
+
 #### NDIS_RETURN_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
 
 
 #### NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE
@@ -108,16 +110,21 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
 For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReceiveFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfindicatereceivenetbufferlists.md">NdisFIndicateReceiveNetBufferLists</a>  when it sends the request.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReceiveFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfindicatereceivenetbufferlists.md">NdisFIndicateReceiveNetBufferLists</a>  when it sends the request.</div>
+<div> </div>
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
@@ -131,15 +138,24 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 
  
 

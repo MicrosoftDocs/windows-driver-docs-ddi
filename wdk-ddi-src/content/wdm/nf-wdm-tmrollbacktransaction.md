@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5626a92e-bd26-41a3-8475-916efb2292ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TmRollbackTransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, TmRollbackTransaction, kernel.tmrollbacktransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture]
+ms.keywords: ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], TmRollbackTransaction, kernel.tmrollbacktransaction, wdm/TmRollbackTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A Boolean value that the caller sets to <b>TRUE</b> for synchronous operation or
 ## -returns
 
 
+
 <b>TmRollbackTransaction</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +125,16 @@ Rollback notifications have been queued to resource managers, and the caller spe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmRollbackTransaction</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a> routine.
@@ -138,15 +143,24 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+
+
 
  
 

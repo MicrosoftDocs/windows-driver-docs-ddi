@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e1b5af5d-9bb8-4bf0-898a-5972f1f09a35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, SetPixelWindow function [Imaging Devices], image.setpixelwindow, SetPixelWindow, wiamicro/SetPixelWindow
+ms.keywords: SetPixelWindow function [Imaging Devices], SetPixelWindow, MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, wiamicro/SetPixelWindow, image.setpixelwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SetPixelWindow
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -100,22 +100,30 @@ Specifies the height of the selection rectangle in pixels.
 ## -returns
 
 
+
 If the function succeeds, it returns S_OK. If the function fails, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 In this function, the microdriver should set up the <b>Window</b> member of the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure, making any device-specific adjustments that are necessary. 
+
 
 
 
 ## -see-also
 
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
 
  
 

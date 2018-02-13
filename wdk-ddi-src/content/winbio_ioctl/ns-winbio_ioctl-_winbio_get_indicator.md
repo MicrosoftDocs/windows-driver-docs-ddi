@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: e0920576-de0f-44bd-8d95-85dde4ee6817
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWINBIO_GET_INDICATOR, winbio_ioctl/PWINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR structure [Biometric Devices], winbio_ioctl/WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR structure pointer [Biometric Devices], biometric.winbio_get_indicator, *PWINBIO_GET_INDICATOR, biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, _WINBIO_GET_INDICATOR
+ms.keywords: biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, PWINBIO_GET_INDICATOR structure pointer [Biometric Devices], WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR structure [Biometric Devices], winbio_ioctl/WINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR, _WINBIO_GET_INDICATOR, biometric.winbio_get_indicator, *PWINBIO_GET_INDICATOR, winbio_ioctl/PWINBIO_GET_INDICATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WINBIO_GET_INDICATOR
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR"
+req.typenames: WINBIO_GET_INDICATOR, *PWINBIO_GET_INDICATOR
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ Specifies an HRESULT that contains the status of the I/O operation. See <a href=
 Specifies a WINBIO_INDICATOR_STATUS, which indicates whether the indicator light is on or off.
 
  Possible values are shown in the following table. 
+
 <table>
 <tr>
 <td>
@@ -116,14 +117,19 @@ The sensor indicator light is off.  Sensors that do not have an indicator light 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
+
+
+
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_get_indicator.md">IOCTL_BIOMETRIC_GET_INDICATOR</a>
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
+
 
  
 

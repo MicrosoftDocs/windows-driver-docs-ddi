@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b9ac4c2f-1eba-4425-a102-56fef6d0f5a7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCorePS2::GetOptionAttribute, IPrintCorePS2 interface [Print Devices], GetOptionAttribute method, IPrintCorePS2, prcomoem/IPrintCorePS2::GetOptionAttribute, GetOptionAttribute, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices], IPrintCorePS2 interface, print.iprintcoreps2_getoptionattribute
+ms.keywords: GetOptionAttribute method [Print Devices], IPrintCorePS2::GetOptionAttribute, GetOptionAttribute method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices], GetOptionAttribute method, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml, GetOptionAttribute, prcomoem/IPrintCorePS2::GetOptionAttribute, IPrintCorePS2, print.iprintcoreps2_getoptionattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCorePS2.GetOptionAttribute
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -124,7 +124,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the req
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -180,11 +182,14 @@ The method failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the option. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all the supported attribute names for the option. This list is terminated with two null characters.
@@ -197,15 +202,24 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-## -see-also
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553006">IPrintCorePS2::GetFeatureAttribute</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
+
+
+
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
 
  
 

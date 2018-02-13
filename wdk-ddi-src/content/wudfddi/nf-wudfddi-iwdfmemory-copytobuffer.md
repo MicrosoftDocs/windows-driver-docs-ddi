@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5b34168-b3b8-4559-8b41-982f0a66f01d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: CopyToBuffer method, wudfddi/IWDFMemory::CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, umdf.iwdfmemory_copytobuffer, wdf.iwdfmemory_copytobuffer, CopyToBuffer, IWDFMemory interface, CopyToBuffer method, CopyToBuffer method, IWDFMemory interface, IWDFMemory, IWDFMemory::CopyToBuffer
+ms.keywords: IWDFMemory interface, CopyToBuffer method, wudfddi/IWDFMemory::CopyToBuffer, umdf.iwdfmemory_copytobuffer, IWDFMemory, wdf.iwdfmemory_copytobuffer, IWDFMemory::CopyToBuffer, CopyToBuffer, CopyToBuffer method, CopyToBuffer method, IWDFMemory interface, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,13 +95,17 @@ A pointer to the target buffer that data is copied to.
 ## -returns
 
 
+
 <b>CopyToBuffer</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
 
  
 

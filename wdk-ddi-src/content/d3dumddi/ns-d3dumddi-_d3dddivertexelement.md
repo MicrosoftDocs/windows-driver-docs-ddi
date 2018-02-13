@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acb0fc1d-e360-4cb9-9b3b-7d8d03146cfd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIVERTEXELEMENT, display.d3dddivertexelement, D3DDDIVERTEXELEMENT structure [Display Devices], _D3DDDIVERTEXELEMENT, D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, D3DDDIVERTEXELEMENT
+ms.keywords: D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, D3DDDIVERTEXELEMENT, _D3DDDIVERTEXELEMENT, display.d3dddivertexelement, D3DDDIVERTEXELEMENT structure [Display Devices], d3dumddi/D3DDDIVERTEXELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,8 @@ typedef struct _D3DDDIVERTEXELEMENT {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
+
+
 
  
 

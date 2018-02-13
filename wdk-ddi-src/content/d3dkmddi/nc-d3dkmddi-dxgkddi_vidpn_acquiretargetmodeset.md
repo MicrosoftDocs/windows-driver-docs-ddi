@@ -76,7 +76,6 @@ NTSTATUS APIENTRY pfnAcquireTargetModeSet(
 ### -param hVidPn
 
 
-
 ### -param VidPnTargetId [in]
 
 [in] An integer that identifies one of the video present targets associated with the VidPN object.
@@ -100,7 +99,9 @@ NTSTATUS APIENTRY pfnAcquireTargetModeSet(
 ## -returns
 
 
+
 The <b>pfnAcquireTargetModeSet</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +140,14 @@ The identifier supplied in <i>VidPnTargetId</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 VidPN target identifiers are assigned by the display miniport driver. <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>, implemented by the display miniport driver, returns an array of <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
@@ -158,15 +162,24 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>
 
 
 
+
 ## -see-also
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset.md">pfnCreateNewTargetModeSet</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_assigntargetmodeset.md">pfnAssignTargetModeSet</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset.md">pfnReleaseTargetModeSet</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_assigntargetmodeset.md">pfnAssignTargetModeSet</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset.md">pfnCreateNewTargetModeSet</a>
+
+
 
  
 

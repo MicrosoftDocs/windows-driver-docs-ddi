@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A493EF45-AA62-43FE-8E19-613B66FA0D83
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], PENUMERATE_BANDS_PARAMETERS, _ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, *PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, storage.enumerate_bands_parameters, ENUMBANDS_REPORT_CRYPTO_ALGO, ENUMERATE_BANDS_PARAMETERS
+ms.keywords: ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters, *PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_REPORT_CRYPTO_ALGO, _ENUMERATE_BANDS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,7 @@ The size of this structure in bytes. Set to <b>sizeof</b>(ENUMERATE_BANDS_PARAME
 ### -field Flags
 
 Band enumeration flags. This value is a bitwise OR combination of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -105,7 +106,8 @@ Include media encryption algorithm information in the <b>SecurityInfo</b> member
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -131,6 +133,7 @@ An optional band size match value in bytes. If <b>BandSize</b> == 0 and <b>BandI
 ## -remarks
 
 
+
 When <b>ENUMBANDS_ENUM_ALL_BANDS</b> is not set in <b>Flags</b>, a selection attempt is made to match a single band. A single band match is made based on the values in <b>BandID</b>, <b>BandStart</b>, and <b>BandSize</b>. Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b> &gt; 0 and  <b>BandID</b> &lt; <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a> If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <b>BAND_MANAGEMENT_CAPABILITIES</b>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> and <b>BandSize</b> are used as  match criteria to select a band.
 
 When <b>BandStart</b> and <b>BandSize</b> are used to match a band, the first band configured at or after the <b>BandStart</b> location having the exact size of  <b>BandSize</b> is returned. If <b>BandSize</b> == 0, when <b>BandStart</b> is valid, then the first band configured at or after <b>BandStart</b> is returned.
@@ -141,15 +144,24 @@ If <b>BandID</b> == 0 or no bands are configured and <b>Flags</b> is not set to 
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
 
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table.md">BAND_TABLE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxpowercontrol, PoFxPowerControl, wdm/PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoFxPowerControl, wdm/PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture], kernel.pofxpowercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,9 @@ A pointer to a location into which the routine writes the number of bytes of dat
 ## -returns
 
 
+
 <b>PoFxPowerControl</b> returns <b>STATUS_SUCCESS</b> if the requested operation succeeds. Possible error return values include the following status code.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ The power engine plug-in (PEP) does not acknowledge support for this device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A device driver calls this routine to send a power control request directly to PoFx. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to PoFx and is not observed by other device drivers in the device stack. During a <b>PoFxPowerControl</b> call, PoFx synchronously performs the requested operation.
@@ -155,11 +160,16 @@ PoFx delegates the handling of all power control requests to the power engine pl
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
 
+
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
 
  
 

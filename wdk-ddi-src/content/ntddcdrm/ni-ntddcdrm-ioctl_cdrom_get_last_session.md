@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_LAST_SESSION
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_LAST_SESSION IOCTL
@@ -87,14 +87,18 @@ Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_T
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 ## -remarks
 
 
+
 TBD
+
 
 

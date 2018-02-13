@@ -7,8 +7,8 @@ old-location: buses\urs_role.htm
 old-project: usbref
 ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: urstypes/UrsRoleHost, urstypes/URS_ROLE, _URS_ROLE, UrsRoleFunction, urstypes/UrsRoleFunction, URS_ROLE, URS_ROLE enumeration [Buses], UrsRoleHost, URS_ROLE, *PURS_ROLE enumeration [Buses], *PURS_ROLE, urstypes/UrsRoleNone, URS_ROLE, *PURS_ROLE, buses.urs_role, UrsRoleNone
+ms.date: 2/8/2018
+ms.keywords: buses.urs_role, URS_ROLE, *PURS_ROLE enumeration [Buses], _URS_ROLE, URS_ROLE, *PURS_ROLE, UrsRoleHost, URS_ROLE, *PURS_ROLE, urstypes/UrsRoleFunction, UrsRoleFunction, urstypes/UrsRoleNone, urstypes/UrsRoleHost, urstypes/URS_ROLE, UrsRoleNone, URS_ROLE enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	URS_ROLE, *PURS_ROLE
 product: Windows
 targetos: Windows
-req.typenames: URS_ROLE, *PURS_ROLE
+req.typenames: "*PURS_ROLE, URS_ROLE"
 req.product: Windows 10 or later.
 ---
 

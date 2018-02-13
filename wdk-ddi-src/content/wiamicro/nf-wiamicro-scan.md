@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.scan, wiamicro/Scan, Scan, MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, Scan function [Imaging Devices]
+ms.keywords: wiamicro/Scan, Scan function [Imaging Devices], Scan, image.scan, MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	Scan
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Specifies the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> struct
 ### -param lPhase
 
 Specifies the scan phase requested. This parameter can be set to one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -117,7 +118,8 @@ The data returned from this function should be in raw format without any header.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pBuffer [out]
@@ -136,6 +138,7 @@ TBD
 
 
 
+
 #### - pReceived [out]
 
 Specifies the amount of data actually scanned into <i>pBuffer</i>. This value should never exceed the value of <i>lLength</i>, but can be less.
@@ -144,17 +147,25 @@ Specifies the amount of data actually scanned into <i>pBuffer</i>. This value sh
 ## -returns
 
 
+
 If the function succeeds, it returns S_OK. If the function fails, it returns a standard COM error code.
+
 
 
 
 ## -see-also
 
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
 
  
 

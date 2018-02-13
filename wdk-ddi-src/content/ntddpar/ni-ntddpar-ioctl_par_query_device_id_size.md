@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_PAR_QUERY_DEVICE_ID_SIZE
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ---
 
 # IOCTL_PAR_QUERY_DEVICE_ID_SIZE IOCTL
@@ -88,14 +88,18 @@ The length of a <a href="..\ntddpar\ns-ntddpar-_par_device_id_size_information.m
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,7 +114,11 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
 
+
+
 <a href="..\ntddpar\ns-ntddpar-_par_device_id_size_information.md">PAR_DEVICE_ID_SIZE_INFORMATION</a>
+
+
 
  
 

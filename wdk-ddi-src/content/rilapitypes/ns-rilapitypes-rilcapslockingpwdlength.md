@@ -74,15 +74,11 @@ typedef struct _RILCAPSLOCKINGPWDLENGTH {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwPersoFeature
 
 
-
 ### -field dwPasswordLength
-
 

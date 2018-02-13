@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 67c85eaa-bb47-4384-8e37-fdbbc879b352
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IRequestCallbackCancel, OnCancel, OnCancel method, IRequestCallbackCancel::OnCancel, IRequestCallbackCancel interface, OnCancel method, wudfddi/IRequestCallbackCancel::OnCancel, OnCancel method, IRequestCallbackCancel interface, umdf.irequestcallbackcancel_oncancel, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, wdf.irequestcallbackcancel_oncancel
+ms.keywords: OnCancel method, IRequestCallbackCancel interface, IRequestCallbackCancel interface, OnCancel method, wudfddi/IRequestCallbackCancel::OnCancel, OnCancel method, OnCancel, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, umdf.irequestcallbackcancel_oncancel, IRequestCallbackCancel::OnCancel, IRequestCallbackCancel, wdf.irequestcallbackcancel_oncancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The framework calls the <b>OnCancel</b> method to cancel the I/O request that the <i>pWdfRequest</i> parameter identifies. The driver should first determine whether it can cancel the I/O request. If the request can be canceled, the driver should cancel it. For more information about how to cancel a request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
@@ -95,15 +98,24 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+
 
  
 

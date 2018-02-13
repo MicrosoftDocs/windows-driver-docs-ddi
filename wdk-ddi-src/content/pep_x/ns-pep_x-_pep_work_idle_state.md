@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8C454D-D0F6-456B-B59A-2E4DF2D757B5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE, pep_x/PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], _PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE, kernel.pep_work_idle_state, *PPEP_WORK_IDLE_STATE
+ms.keywords: kernel.pep_work_idle_state, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], pep_x/PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE, _PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,17 +87,25 @@ The target F<i>x</i> power state to transition the component to. If this paramet
 ## -remarks
 
 
+
 The <b>IdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_IDLE_STATE</b> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
 
  
 

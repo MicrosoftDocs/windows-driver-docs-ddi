@@ -56,6 +56,8 @@ The <b>IPartPrintTicket</b> interface is the abstraction for a print ticket in a
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
+
+
  
 
  

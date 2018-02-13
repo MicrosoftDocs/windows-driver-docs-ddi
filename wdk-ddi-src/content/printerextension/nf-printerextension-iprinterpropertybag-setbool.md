@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetBool method, SetBool method [Print Devices], SetBool, SetBool method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::SetBool, print.iprinterpropertybag_setbool, IPrinterPropertyBag::SetBool
+ms.keywords: IPrinterPropertyBag::SetBool, IPrinterPropertyBag, SetBool method [Print Devices], IPrinterPropertyBag interface, SetBool method [Print Devices], SetBool, IPrinterPropertyBag interface [Print Devices], SetBool method, printerextension/IPrinterPropertyBag::SetBool, print.iprinterpropertybag_setbool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The value to set.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
+
 
 
 In Windows 8.1 a new flag, PRINTER_ACCESS_MANAGE_LIMITED, has been introduced to grant print queue permissions that are more limited than PRINTER_ACCESS_ADMINISTER, but more powerful than 
@@ -99,9 +102,12 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 
 
+
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5781FE16-6CC8-425B-B14D-C78901D81A75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketSetCompletionRoutine, VmbPacketSetCompletionRoutine, netvista.vmbpacketsetcompletionroutine, VmbPacketSetCompletionRoutine function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketSetCompletionRoutine, netvista.vmbpacketsetcompletionroutine, VmbPacketSetCompletionRoutine function [Network Drivers Starting with Windows Vista], VmbPacketSetCompletionRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketSetCompletionRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -86,19 +86,29 @@ Function to call when the packet is completed.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine.md">EvtVmbPacketCompletionRoutine</a>
+
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
+
+
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md">VmbPacketSendWithExternalMdl</a>
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine.md">EvtVmbPacketCompletionRoutine</a>
 
  
 

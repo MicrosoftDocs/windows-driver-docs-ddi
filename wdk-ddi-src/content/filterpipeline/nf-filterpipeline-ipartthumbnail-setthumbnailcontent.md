@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetThumbnailContent method [Print Devices], IPartThumbnail::SetThumbnailContent, filterpipeline/IPartThumbnail::SetThumbnailContent, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail, SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent, SetThumbnailContent method [Print Devices], IPartThumbnail interface
+ms.keywords: SetThumbnailContent method [Print Devices], SetThumbnailContent, filterpipeline/IPartThumbnail::SetThumbnailContent, IPartThumbnail, SetThumbnailContent method [Print Devices], IPartThumbnail interface, print.ipartthumbnail_setthumbnailcontent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail::SetThumbnailContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,6 +73,7 @@ HRESULT SetThumbnailContent(
 
 
 
+
 #### - contentType [in]
 
 The type of content for the thumbnail.
@@ -81,6 +82,8 @@ The type of content for the thumbnail.
 ## -returns
 
 
+
 <b>SetThumbnailContent</b> returns an <b>HRESULT</b> value.
+
 
 

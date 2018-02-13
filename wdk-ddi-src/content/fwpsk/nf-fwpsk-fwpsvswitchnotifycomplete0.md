@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5e40a31f-7730-48f0-899f-f59be654c991
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], netvista.fwpsvswitchnotifycomplete0, FwpsvSwitchNotifyComplete0, fwpsk/FwpsvSwitchNotifyComplete0
+ms.keywords: fwpsk/FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], netvista.fwpsvswitchnotifycomplete0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,14 @@ Reserved. Set this member to zero.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 
@@ -109,13 +112,20 @@ None.
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
 
-<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
+
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
+
+
 
  
 

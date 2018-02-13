@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1b778d94-55e6-4a5f-aa77-739bcf9a8041
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassgetdmabuffer, strmini/StreamClassGetDmaBuffer, StreamClassGetDmaBuffer, strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, StreamClassGetDmaBuffer routine [Streaming Media Devices]
+ms.keywords: strmini/StreamClassGetDmaBuffer, strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, StreamClassGetDmaBuffer, stream.streamclassgetdmabuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,20 +77,26 @@ Pointer to the minidriver's device extension. The minidriver specifies the size 
 ## -returns
 
 
+
 <b>StreamClassGetDmaBuffer</b> returns a pointer to the DMA buffer.
+
 
 
 
 ## -remarks
 
 
+
 The minidriver specifies the size of the DMA buffer in the <b>DmaBufferSize</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
 
  
 

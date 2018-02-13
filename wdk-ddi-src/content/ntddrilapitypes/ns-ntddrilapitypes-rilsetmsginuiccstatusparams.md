@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3c35e2e0-8f8a-456f-b0ce-494a050d11dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSETMSGINUICCSTATUSPARAMS, netvista.rilsetmsginuiccstatusparams, ntddrilapitypes/RILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETMSGINUICCSTATUSPARAMS
+ms.keywords: "*LPRILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetmsginuiccstatusparams, RILSETMSGINUICCSTATUSPARAMS, ntddrilapitypes/RILSETMSGINUICCSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETMSGINUICCSTATUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS"
+req.typenames: RILSETMSGINUICCSTATUSPARAMS, *LPRILSETMSGINUICCSTATUSPARAMS
 ---
 
 # RILSETMSGINUICCSTATUSPARAMS structure
@@ -72,11 +72,8 @@ typedef struct _RILSETMSGINUICCSTATUSPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwIndex
 
 
-
 ### -field dwStatus
-
 

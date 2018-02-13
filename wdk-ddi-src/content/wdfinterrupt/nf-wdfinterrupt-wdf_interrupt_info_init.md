@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4c23f270-9ea3-475f-81d8-c003b2aca44b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_INFO_INIT function, wdfinterrupt/WDF_INTERRUPT_INFO_INIT, kmdf.wdf_interrupt_info_init, WDF_INTERRUPT_INFO_INIT, DFInterruptObjectRef_5b885d42-7ce9-4ac2-b97b-c41906298c22.xml, wdf.wdf_interrupt_info_init
+ms.keywords: DFInterruptObjectRef_5b885d42-7ce9-4ac2-b97b-c41906298c22.xml, wdfinterrupt/WDF_INTERRUPT_INFO_INIT, kmdf.wdf_interrupt_info_init, WDF_INTERRUPT_INFO_INIT function, WDF_INTERRUPT_INFO_INIT, wdf.wdf_interrupt_info_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,11 +78,14 @@ A pointer to a driver-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>WDF_INTERRUPT_INFO_INIT</b> function zeros the specified <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure and sets the structure's <b>Size</b> member.
@@ -90,12 +93,23 @@ The <b>WDF_INTERRUPT_INFO_INIT</b> function zeros the specified <a href="..\wudf
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WDF_INTERRUPT_INFO_INIT</b>, see <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
+
+
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+
+
 
  
 

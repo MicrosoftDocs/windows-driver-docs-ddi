@@ -80,6 +80,8 @@ The <a href="https://msdn.microsoft.com/579a2cef-1e37-426c-9f69-8766dc9011ba">Cr
 ## -remarks
 
 
+
 Drivers obtain the <b>IWDFFileHandleTargetFactory</b> interface by calling <b>IWDFDevice::QueryInterface</b>.
+
 
 

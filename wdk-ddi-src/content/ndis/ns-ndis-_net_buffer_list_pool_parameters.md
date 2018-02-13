@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DBB172A0-957E-4FAC-9727-D72B060E3193
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.net_buffer_list_pool_parameters, _NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], NET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETERS
+ms.keywords: "*PNET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, netvista.net_buffer_list_pool_parameters, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS, _NET_BUFFER_LIST_POOL_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
 #### NET_BUFFER_LIST_POOL_PARAMETERS_REVISION_1
 
 Original version for NDIS 6.0.
@@ -100,9 +101,11 @@ The type of caller. Miniport, filter, and intermediate drivers set this field to
 
 
 
+
 #### NDIS_PROTOCOL_ID_DEFAULT
 
 Specifies a default protocol driver identifier.
+
 
 
 #### NDIS_PROTOCOL_ID_TCP_IP
@@ -110,9 +113,11 @@ Specifies a default protocol driver identifier.
 Specifies the TCP/IP protocol.
 
 
+
 #### NDIS_PROTOCOL_ID_IPX
 
 Specifies the IPX protocol.
+
 
 
 #### NDIS_PROTOCOL_ID_NBF
@@ -161,6 +166,7 @@ For more information, see the Remarks section.
 ## -remarks
 
 
+
 If 
        <b>fAllocateNetBuffer</b> is set to FALSE, NDIS will not allocate <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures, and 
        <b>DataSize</b> should be set to zero.
@@ -179,15 +185,24 @@ The <i>Parameters</i> parameter of the <a href="..\ndis\nf-ndis-ndisallocatenetb
 
 
 
-## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
+
+
 
  
 

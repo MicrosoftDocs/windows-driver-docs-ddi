@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a9dfb490-425a-4011-a008-ab1597f53b85
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_STOP_AP_PARAMETERS, *PDOT11_STOP_AP_PARAMETERS, PDOT11_STOP_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_1c8e69b9-852b-4ad6-87a4-ae13b37f7523.xml, DOT11_STOP_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_STOP_AP_PARAMETERS, netvista.dot11_stop_ap_parameters, windot11/DOT11_STOP_AP_PARAMETERS, DOT11_STOP_AP_PARAMETERS, _DOT11_STOP_AP_PARAMETERS
+ms.keywords: Native_802.11_data_types_1c8e69b9-852b-4ad6-87a4-ae13b37f7523.xml, windot11/PDOT11_STOP_AP_PARAMETERS, *PDOT11_STOP_AP_PARAMETERS, windot11/DOT11_STOP_AP_PARAMETERS, PDOT11_STOP_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_STOP_AP_PARAMETERS, DOT11_STOP_AP_PARAMETERS, DOT11_STOP_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_STOP_AP_PARAMETERS, netvista.dot11_stop_ap_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,8 +82,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -91,15 +89,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_STOP_AP_PARAMETERS_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        sizeof(DOT11_STOP_AP_PARAMETERS).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ulReason
@@ -109,9 +112,6 @@ The reason why the NIC stopped the AP. An IHV can supply the following range of 
 
 
 
-If the value of 
-     <b>ulReason</b> is in the range of DOT11_STOP_AP_REASON_IHV_START and DOT11_STOP_AP_REASON_IHV_END,
-     inclusive, the operating system takes no action.
 
 
 #### DOT11_STOP_AP_REASON_AP_ACTIVE
@@ -120,9 +120,11 @@ The miniport driver determined that an AP is already active on another 802.11 MA
        this physical wireless LAN adapter.
 
 
+
 #### DOT11_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE
 
 The miniport driver determined that no valid operating frequency is available.
+
 
 
 #### DOT11_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE
@@ -130,17 +132,24 @@ The miniport driver determined that no valid operating frequency is available.
 The miniport driver determined that no good operating channel is available.
 
 
+
 #### DOT11_STOP_AP_REASON_IHV_END
 
 The end value of possible IHV-specified reasons.
+
 
 
 #### DOT11_STOP_AP_REASON_IHV_START
 
 The start value of possible IHV-specified reasons.
 
+If the value of 
+     <b>ulReason</b> is in the range of DOT11_STOP_AP_REASON_IHV_START and DOT11_STOP_AP_REASON_IHV_END,
+     inclusive, the operating system takes no action.
+
 
 ## -remarks
+
 
 
 The Native 802.11 miniport driver includes a DOT11_STOP_AP_PARAMETERS structure when the driver makes
@@ -150,11 +159,16 @@ The Native 802.11 miniport driver includes a DOT11_STOP_AP_PARAMETERS structure 
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567366">NDIS_STATUS_DOT11_STOP_AP</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567366">NDIS_STATUS_DOT11_STOP_AP</a>
+
 
  
 

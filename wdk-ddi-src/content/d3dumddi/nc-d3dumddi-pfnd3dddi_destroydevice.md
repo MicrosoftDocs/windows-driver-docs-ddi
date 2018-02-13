@@ -78,11 +78,14 @@ __checkReturn HRESULT APIENTRY DestroyDevice(
 ## -returns
 
 
+
 <i>DestroyDevice</i> returns S_OK or an appropriate error result. 
 
 
 
+
 ## -remarks
+
 
 
 The driver should free all of the resources that it allocated for the device and clean up any internal tracking data structures. 
@@ -91,15 +94,24 @@ Before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocat
 
 
 
-## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
+## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
 
  
 

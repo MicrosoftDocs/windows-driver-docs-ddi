@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: baa12e3c-dc17-4fef-bce4-29c50328314c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenResourceManager routine [Kernel-Mode Driver Architecture], wdm/NtOpenResourceManager, wdm/ZwOpenResourceManager, ktm_ref_f873ba66-20d0-4498-a8b6-d62bf8593d05.xml, NtOpenResourceManager, kernel.zwopenresourcemanager, ZwOpenResourceManager
+ms.keywords: ZwOpenResourceManager, kernel.zwopenresourcemanager, ktm_ref_f873ba66-20d0-4498-a8b6-d62bf8593d05.xml, wdm/ZwOpenResourceManager, NtOpenResourceManager, wdm/NtOpenResourceManager, ZwOpenResourceManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,9 @@ A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATT
 ## -returns
 
 
+
 <b>ZwOpenResourceManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -173,13 +175,16 @@ The specified transaction manager is not online.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Typically, a TPS component calls <b>ZwOpenResourceManager</b> after it receives an enlistment GUID from another TPS component that had previously called <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>. Most TPS designs do not require calling <b>ZwOpenResourceManager</b>.
@@ -194,21 +199,36 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
-
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+
+
 
  
 

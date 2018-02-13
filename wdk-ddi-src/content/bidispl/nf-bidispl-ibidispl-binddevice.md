@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: BindDevice, BindDevice method [Print Devices], IBidiSpl interface, _win32_IBidiSpl_BindDevice, print.ibidispl_ibidispl__binddevice, BindDevice method [Print Devices], bidispl/IBidiSpl::BindDevice, BIDI_ACCESS_USER, IBidiSpl::BindDevice, IBidiSpl, BIDI_ACCESS_ADMINISTRATOR, gdi.ibidispl_ibidispl__binddevice, IBidiSpl interface [Print Devices], BindDevice method
+ms.keywords: BindDevice, BIDI_ACCESS_ADMINISTRATOR, IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, _win32_IBidiSpl_BindDevice, IBidiSpl, print.ibidispl_ibidispl__binddevice, BindDevice method [Print Devices], IBidiSpl interface, BindDevice method [Print Devices], BIDI_ACCESS_USER, IBidiSpl interface [Print Devices], BindDevice method, bidispl/IBidiSpl::BindDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiSpl.BindDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl::BindDevice method
@@ -76,6 +76,7 @@ A pointer to a null-terminated string that contains name of the printer or print
 ### -param dwAccess [in]
 
 The access privileges for the printer. This parameter can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -101,13 +102,16 @@ Permits users to perform basic printing operations. This is the same as PRINTER_
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -146,19 +150,29 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
 
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
-<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
 
  
 

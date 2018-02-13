@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8c3fe52-2e5f-4212-9b52-10240d1abb86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_supported_dsss_channel, DOT11_SUPPORTED_DSSS_CHANNEL structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2c13b1f6-0b6e-4bc7-a51f-d9c49db8d3df.xml, _DOT11_SUPPORTED_DSSS_CHANNEL, *PDOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_DSSS_CHANNEL, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL
+ms.keywords: netvista.dot11_supported_dsss_channel, DOT11_SUPPORTED_DSSS_CHANNEL structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2c13b1f6-0b6e-4bc7-a51f-d9c49db8d3df.xml, _DOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL, *PDOT11_SUPPORTED_DSSS_CHANNEL, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_SUPPORTED_DSSS_CHANNEL
 product: Windows
 targetos: Windows
-req.typenames: DOT11_SUPPORTED_DSSS_CHANNEL, *PDOT11_SUPPORTED_DSSS_CHANNEL
+req.typenames: "*PDOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL"
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ A ULONG value, which represents a frequency channel that the 802.11 station can 
      Valid channel numbers are as defined in 15.4.6.2 of 
      <i>IEEE Std. 802.11-1997</i> for the following PHY types:
      
+
 <ul>
 <li>
 Direct-sequence spread spectrum (DSSS) PHY.
@@ -100,6 +101,8 @@ High-throughput (HT) 802.11n PHY when operating in the 2.4-GHz band.
 
 <a href="..\windot11\ns-windot11-_dot11_supported_dsss_channel_list.md">
    DOT11_SUPPORTED_DSSS_CHANNEL_LIST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5778f57c-52dd-43f4-b0f7-d07e0c40512b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReloadSymbols, WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, wdbgexts/ReloadSymbols, ReloadSymbols function [Windows Debugging], debugger.reloadsymbols
+ms.keywords: WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, ReloadSymbols function [Windows Debugging], ReloadSymbols, debugger.reloadsymbols, wdbgexts/ReloadSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,6 +74,7 @@ TBD
 
 
 
+
 #### - Arg [in, optional]
 
 Specifies the arguments for the debugger command <b>.reload</b>.  For example, setting <i>Arg</i> to <b>/u ntdll.dll</b> has the same effect as the command <b>.reload /u ntdll.dll</b>.
@@ -82,13 +83,17 @@ Specifies the arguments for the debugger command <b>.reload</b>.  For example, s
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 292EE243-2952-4020-8EB0-C5127DF92318
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_protocol_data_descriptor, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], STORAGE_PROTOCOL_DATA_DESCRIPTOR, _STORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: ntddstor/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Storage Devices], ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, storage.storage_protocol_data_descriptor, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR"
+req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
 ---
 
 # _STORAGE_PROTOCOL_DATA_DESCRIPTOR structure
@@ -87,7 +87,9 @@ The protocol-specific data, of type <a href="..\ntddstor\ns-ntddstor-_storage_pr
 ## -remarks
 
 
+
 When using <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <b>STORAGE_PROTOCOL_DATA_DESCRIPTOR</b>, configure the <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> structure as follows:
+
 <ul>
 <li>
 Allocate a buffer that can contains both a <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> and a <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure.
@@ -105,7 +107,9 @@ Set the <b>QueryType</b>  field to <b>PropertyStandardQuery</b>.
 Fill the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure with the desired values. The start of the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> is the <b>AdditionalParameters</b> field of <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>.
 
 </li>
-</ul>To specify a type of NVMe protocol-specific information,  configure the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+</ul>
+To specify a type of NVMe protocol-specific information,  configure the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+
 <ul>
 <li>
 Set the <b>ProtocolType</b>  field to <b>ProtocolTypeNVMe</b>.
@@ -120,7 +124,9 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 
 </li>
-</ul>To specify a type of ATA protocol-specific information,  configure the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+</ul>
+To specify a type of ATA protocol-specific information,  configure the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+
 <ul>
 <li>
 Set the <b>ProtocolType</b>  field to <b>ProtocolTypeAta</b>.
@@ -137,15 +143,24 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 </ul>
 
 
-## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
 
+
+
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

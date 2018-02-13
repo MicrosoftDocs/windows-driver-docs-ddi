@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismqueryoffloadstatecomplete, tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml, NdisMQueryOffloadStateComplete, ndischimney/NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMQueryOffloadStateComplete, ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ A pointer to an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An offload target calls 
@@ -109,6 +112,7 @@ An offload target calls
 
 Before calling 
     <b>NdisMQueryOffloadStateComplete</b>, the offload target must:
+
 <ul>
 <li>
 Fill in each 
@@ -124,14 +128,21 @@ Write a status value of NDIS_STATUS_SUCCESS or NDIS_STATUS_FAILURE to the
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
  
 

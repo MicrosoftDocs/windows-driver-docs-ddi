@@ -86,12 +86,15 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate2.md">D3DDDICB_DEALLOCATE2</a> structure that describes the resource to release.
 
 
 ## -returns
+
 
 
 <table>
@@ -121,13 +124,16 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 When an allocation destruction request is received, VidMm assumes, by default, that commands queued prior to the destruction request may access the allocation being destroyed and defers the destruction operation until the queued commands finish. If the user mode driver (UMD) knows that pending commands don’t access the allocation being destroyed, it can instruct VidMm not to wait until pending commands are finished by setting the <b>AssumeNotInUse</b> flag to <b>TRUE</b> when calling <b>pfnDeallocate2Cb</b>.
@@ -137,11 +143,16 @@ If an application or UMD would like to ensure allocation memory is reclaimed pri
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate2.md">D3DDDICB_DEALLOCATE2</a>
+
+
 
  
 

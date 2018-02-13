@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], hidclass/HID_XFER_PACKET, _HID_XFER_PACKET, hid.hid_xfer_packet, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, hidclass/PHID_XFER_PACKET, *PHID_XFER_PACKET, PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices]
+ms.keywords: PHID_XFER_PACKET structure pointer [Human Input Devices], hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml, hid.hid_xfer_packet, _HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], HID_XFER_PACKET, PHID_XFER_PACKET, *PHID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hidclass/HID_XFER_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HID_XFER_PACKET
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_XFER_PACKET, HID_XFER_PACKET"
+req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
 ---
 
 # _HID_XFER_PACKET structure
@@ -87,19 +87,29 @@ Specifies the report ID of the report contained at <b>reportBuffer</b>. This par
 ## -remarks
 
 
+
 The HID class driver uses this structure to specify information about a HID report when it uses an I/O request to get or set a report.
+
 
 
 
 ## -see-also
 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+
+
 <a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
+
+
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintwritestream_writebytes, IPrintWriteStream interface [Print Devices], WriteBytes method, IPrintWriteStream, WriteBytes, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, IPrintWriteStream::WriteBytes, filterpipeline/IPrintWriteStream::WriteBytes, WriteBytes method [Print Devices], IPrintWriteStream interface, WriteBytes method [Print Devices]
+ms.keywords: print.iprintwritestream_writebytes, IPrintWriteStream, WriteBytes method [Print Devices], IPrintWriteStream interface, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, IPrintWriteStream interface [Print Devices], WriteBytes method, WriteBytes, filterpipeline/IPrintWriteStream::WriteBytes, IPrintWriteStream::WriteBytes, WriteBytes method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,6 +87,8 @@ A pointer to the number of bytes actually written.
 ## -returns
 
 
+
 <code>WriteBytes</code> returns an <b>HRESULT</b> value.
+
 
 

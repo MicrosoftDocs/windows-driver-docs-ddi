@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d15400a8-3d8d-48dd-86f0-4e53f8b04add
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumbertextreplacements, GetNumberTextReplacements method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetNumberTextReplacements method, GetNumberTextReplacements method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNumberTextReplacements method, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, GetNumberTextReplacements, GetNumberTextReplacements method [Windows Debugging], IDebugControl3 interface, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, IDebugControl2::GetNumberTextReplacements, IDebugControl3::GetNumberTextReplacements, IDebugControl3
+ms.keywords: IDebugControl2, IDebugControl2::GetNumberTextReplacements, GetNumberTextReplacements method [Windows Debugging], IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, IDebugControl3, GetNumberTextReplacements method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetNumberTextReplacements method, IDebugControl3::GetNumberTextReplacements, debugger.getnumbertextreplacements, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, GetNumberTextReplacements, GetNumberTextReplacements method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetNumberTextReplacements method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Receives the total number of user-named and automatic aliases.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,30 +95,46 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560047">Using Aliases</a>.  For more information about using aliases with the debugger engine API, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551041">Interacting with the Engine</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
  
 

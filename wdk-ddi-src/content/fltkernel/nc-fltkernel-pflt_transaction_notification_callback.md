@@ -7,7 +7,7 @@ old-location: ifsk\pflt_transaction_notification_callback.htm
 old-project: ifsk
 ms.assetid: ed441ca2-ca98-4c8c-9c2f-4258c535ebac
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/7/2018
 ms.keywords: ifsk.pflt_transaction_notification_callback, TransactionNotificationCallback routine [Installable File System Drivers], TransactionNotificationCallback, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, fltkernel/TransactionNotificationCallback, FltCallbacks_e4045561-4dc3-44eb-b5c6-086e767f9c22.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,6 +85,7 @@ Pointer to the minifilter driver's transaction context.
 ### -param NotificationMask [in]
 
 Specifies the type of notifications that the filter manager is sending to the minifilter driver, as one of the following values. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -140,13 +141,16 @@ This notification is sent when the transaction is being rolled back or aborted.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The PFLT_TRANSACTION_NOTIFICATION_CALLBACK routine returns one of the following NTSTATUS values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -174,11 +178,14 @@ Returning this status value indicates that the minifilter driver is not yet fini
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When a minifilter driver registers itself by calling <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, it can register a routine of type PFLT_TRANSACTION_NOTIFICATION_CALLBACK as the minifilter's <i>TransactionNotificationCallback</i> routine. 
@@ -207,25 +214,40 @@ If the minifilter driver returns STATUS_PENDING from this callback routine, it m
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+
 
 <a href="..\fltkernel\nf-fltkernel-fltcommitcomplete.md">FltCommitComplete</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PFLT_TRANSACTION_NOTIFICATION_CALLBACK routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PFLT_TRANSACTION_NOTIFICATION_CALLBACK routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

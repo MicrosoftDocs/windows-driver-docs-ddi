@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ffaad89-b3c0-4fe6-bc2c-2b1f3b1bcfd2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RESOURCEMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], _RESOURCEMANAGER_INFORMATION_CLASS, ResourceManagerCompletionInformation, ktm_ref_72b34c92-3548-4148-94c2-49f4a66ad4bf.xml, ResourceManagerBasicInformation, kernel.resourcemanager_information_class, wdm/RESOURCEMANAGER_INFORMATION_CLASS, wdm/ResourceManagerCompletionInformation, RESOURCEMANAGER_INFORMATION_CLASS, wdm/ResourceManagerBasicInformation
+ms.keywords: "_RESOURCEMANAGER_INFORMATION_CLASS, RESOURCEMANAGER_INFORMATION_CLASS, wdm/ResourceManagerBasicInformation, ResourceManagerCompletionInformation, kernel.resourcemanager_information_class, ResourceManagerBasicInformation, wdm/RESOURCEMANAGER_INFORMATION_CLASS, wdm/ResourceManagerCompletionInformation, RESOURCEMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ktm_ref_72b34c92-3548-4148-94c2-49f4a66ad4bf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -83,9 +83,15 @@ Information about a resource manager object is stored in a <a href="..\wdm\ns-wd
 
 <a href="..\wdm\nf-wdm-zwqueryinformationresourcemanager.md">ZwQueryInformationResourceManager</a>
 
+
+
 <a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
 
+
+
 <a href="..\wdm\ns-wdm-_resourcemanager_completion_information.md">RESOURCEMANAGER_COMPLETION_INFORMATION</a>
+
+
 
  
 

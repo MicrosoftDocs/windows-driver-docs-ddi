@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d27678cb-8aad-4cbe-a65e-64828ff4944a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PowerTracingEnd method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, IWDTFSystemAction2::PowerTracingEnd, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd, IWDTFSystemAction2, dtf.iwdtfsystemaction2_powertracingend, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingEnd method, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], IWDTFSystemAction2 interface, PowerTracingEnd
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingEnd method, IWDTFSystemAction2::PowerTracingEnd, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, PowerTracingEnd, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2, dtf.iwdtfsystemaction2_powertracingend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,16 +70,21 @@ HRESULT PowerTracingEnd();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

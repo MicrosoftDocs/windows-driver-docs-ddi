@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 28512a46-506b-40c2-a14d-165823bf94fb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, ntddrilapitypes/RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPONSE, RILOPENUICCLOGICALCHANNELPARAMMASK, netvista.rilopenuicclogicalchannelparammask, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPONSE, RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPLENGTH, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH
+ms.keywords: netvista.rilopenuicclogicalchannelparammask, RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, RIL_PARAM_OULC_SELECTRESPONSE, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPONSE, RILOPENUICCLOGICALCHANNELPARAMMASK, ntddrilapitypes/RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_ALL, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, RIL_PARAM_OULC_SELECTRESPLENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,15 +72,11 @@ typedef enum _RILOPENUICCLOGICALCHANNELPARAMMASK {
 ### -field RIL_PARAM_OULC_CHANNELID
 
 
-
 ### -field RIL_PARAM_OULC_SELECTRESPLENGTH
-
 
 
 ### -field RIL_PARAM_OULC_SELECTRESPONSE
 
 
-
 ### -field RIL_PARAM_OULC_ALL
-
 

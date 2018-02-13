@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03138EBA-F041-47E4-B379-25A96B04E491
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUIntPtrToLong, kernel.rtluintptrtolong, RtlUIntPtrToLong, RtlUIntPtrToLong function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlUIntPtrToLong, RtlUIntPtrToLong, RtlUIntPtrToLong function [Kernel-Mode Driver Architecture], kernel.rtluintptrtolong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,11 +86,14 @@ The value to be converted.
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlSizeTToLong
 </li>
 </ul>
+
 

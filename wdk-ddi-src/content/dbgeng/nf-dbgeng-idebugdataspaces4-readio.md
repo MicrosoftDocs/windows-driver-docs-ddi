@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, dbgeng/IDebugDataSpaces3::ReadIo, ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], IDebugDataSpaces interface [Windows Debugging], ReadIo method, IDebugDataSpaces4::ReadIo, IDebugDataSpaces::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, dbgeng/IDebugDataSpaces2::ReadIo, IDebugDataSpaces3::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::ReadIo, IDebugDataSpaces4, dbgeng/IDebugDataSpaces::ReadIo, debugger.readio, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method
+ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], ReadIo method, dbgeng/IDebugDataSpaces2::ReadIo, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces2::ReadIo, ReadIo method [Windows Debugging], ReadIo, dbgeng/IDebugDataSpaces::ReadIo, IDebugDataSpaces4, IDebugDataSpaces, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces3::ReadIo, IDebugDataSpaces::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, debugger.readio, IDebugDataSpaces3, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadIo, IDebugDataSpaces4::ReadIo, IDebugDataSpaces2, ReadIo method [Windows Debugging], IDebugDataSpaces interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,6 +114,7 @@ Receives the number of bytes returned read from the I/O bus.  If <i>BytesRead</i
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +131,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

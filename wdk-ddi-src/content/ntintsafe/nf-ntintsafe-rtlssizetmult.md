@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43FFE47F-C8A3-49B4-B61A-3EAF3841037D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSSIZETMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlSSIZETMult, kernel.rtlssizetmult, RtlSSIZETMult
+ms.keywords: ntintsafe/RtlSSIZETMult, RtlSSIZETMult, kernel.rtlssizetmult, RtlSSIZETMult function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 61b6dbd3-7565-4d63-bcc0-007df9793398
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DRV_VERSION, _DRV_VERSION, usbscan/PDRV_VERSION, *PDRV_VERSION, DRV_VERSION structure [Imaging Devices], usbscan/DRV_VERSION, PDRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, image.drv_version
+ms.keywords: PDRV_VERSION structure pointer [Imaging Devices], PDRV_VERSION, *PDRV_VERSION, DRV_VERSION, usbscan/PDRV_VERSION, DRV_VERSION structure [Imaging Devices], image.drv_version, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, _DRV_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRV_VERSION
 product: Windows
 targetos: Windows
-req.typenames: "*PDRV_VERSION, DRV_VERSION"
+req.typenames: DRV_VERSION, *PDRV_VERSION
 req.product: Windows 10 or later.
 ---
 

@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock.md">D3DDDICB_UNLOCK</a> structure that describes the allocation to unlock.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock.md">D3DDDICB_UN
 ## -returns
 
 
+
 <b>pfnUnlockCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,13 +134,16 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 The user-mode display driver must call the <b>pfnUnlockCb</b> function to unlock an allocation that was previously locked in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function. If the driver does not call <b>pfnUnlockCb</b>, coordination between the Microsoft Direct3D runtime, the user-mode display driver, and the display miniport driver is lost. 
@@ -152,24 +159,73 @@ The user-mode display driver should call <b>pfnUnlockCb</b> to unlock all of the
 The user-mode display driver should not call <b>pfnUnlockCb</b> to unlock an allocation that an application could be using. The driver is notified that the application is no longer reading from or writing to the allocation when the driver receives a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a> or <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a> function on the corresponding resource. 
 
 
+#### Examples
+
+The following code example shows how to unlock an allocation.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CD3DContext::SyncEnginesUsingLock(VOID) {
+    HRESULT hr;
+    D3DDDICB_LOCK   lockCB;
+    D3DDDICB_UNLOCK Unlock;
+
+    memset(&amp;lockCB, 0, sizeof(D3DDDICB_LOCK));
+    lockCB.hAllocation = m_HandleUsedInLastSubmit;
+    lockCB.PrivateDriverData = 0;                       
+    hr = m_d3dCallbacks.pfnLockCb(m_hD3D, &amp;lockCB);
+    if (FAILED(hr)) {
+        DBG_BREAK;
+        return hr;
+    }
+    Unlock.NumAllocations = 1;
+    Unlock.phAllocations = &amp;m_HandleUsedInLastSubmit;
+    m_d3dCallbacks.pfnUnlockCb(m_hD3D, &amp;Unlock);   
+    return hr;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock.md">D3DDDICB_UNLOCK</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice(D3D10)</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock.md">D3DDDICB_UNLOCK</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a>
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
+
+
 
  
 

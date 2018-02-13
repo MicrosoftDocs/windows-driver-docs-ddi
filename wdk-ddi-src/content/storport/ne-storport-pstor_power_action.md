@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPowerActionShutdown, storage.stor_power_action, storport/StorPowerActionShutdown, StorPowerActionNone, storport/StorPowerActionWarmEject, StorPowerActionWarmEject, StorPowerActionReserved, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, StorPowerActionShutdownReset, STOR_POWER_ACTION, storport/StorPowerActionShutdownOff, StorPowerActionSleep, storport/PSTOR_POWER_ACTION, storport/StorPowerActionNone, *PSTOR_POWER_ACTION, StorPowerActionHibernate, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/StorPowerActionSleep, storport/StorPowerActionReserved, storport/StorPowerActionHibernate, storport/STOR_POWER_ACTION, PSTOR_POWER_ACTION, storport/StorPowerActionShutdownReset, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionShutdownOff
+ms.keywords: STOR_POWER_ACTION, PSTOR_POWER_ACTION, storport/StorPowerActionShutdownOff, storport/STOR_POWER_ACTION, storport/PSTOR_POWER_ACTION, StorPowerActionShutdownOff, StorPowerActionShutdownReset, storport/StorPowerActionHibernate, storport/StorPowerActionNone, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionWarmEject, StorPowerActionReserved, StorPowerActionNone, storport/StorPowerActionShutdown, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, StorPowerActionHibernate, storport/StorPowerActionSleep, StorPowerActionShutdown, storport/StorPowerActionWarmEject, *PSTOR_POWER_ACTION, storport/StorPowerActionShutdownReset, storport/StorPowerActionReserved, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storage.stor_power_action, StorPowerActionSleep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,6 +118,8 @@ The system is preparing for ejection.
 ## -see-also
 
 <a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+
+
 
  
 

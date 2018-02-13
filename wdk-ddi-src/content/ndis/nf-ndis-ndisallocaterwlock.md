@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 460c81bf-ae06-40f7-a019-b006e5c9f94b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], netvista.ndisallocaterwlock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, NdisAllocateRWLock, ndis/NdisAllocateRWLock
+ms.keywords: netvista.ndisallocaterwlock, ndis/NdisAllocateRWLock, NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAllocateRWLock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateRWLock function
@@ -74,10 +74,18 @@ PNDIS_RW_LOCK_EX NdisAllocateRWLock(
 
 A handle returned from one of the following functions:
      
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a><a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a><a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a><a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a><a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a><a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a><b>Windows 8 and Windows Server 2012 and later:  </b>If the read/write lock is being allocated in <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> before any NDIS handle is available, the caller may pass a NULL value for this parameter.
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<b>Windows 8 and Windows Server 2012 and later:  </b>If the read/write lock is being allocated in <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> before any NDIS handle is available, the caller may pass a NULL value for this parameter.
 
 
 ## -returns
+
 
 
 <b>NdisAllocateRWLock</b> returns a pointer to an 
@@ -85,7 +93,9 @@ A handle returned from one of the following functions:
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -95,6 +105,7 @@ NDIS drivers call the
     resources that are frequently accessed for reading and infrequently accessed for writing.
 
 Each lock that a driver allocates can do one of the following:
+
 <ul>
 <li>
 Protect a discrete set of shared resources from concurrent write and read access by driver threads
@@ -106,7 +117,8 @@ Expose a discrete set of shared resources to concurrent read access by driver th
       IRQL &lt;= DISPATCH_LEVEL.
 
 </li>
-</ul>The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> pointer that 
+</ul>
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> pointer that 
     <b>NdisAllocateRWLock</b> returns is a required parameter for all other read/write lock functions.
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> is not fair.  That is, a processor waiting to acquire the lock for exclusive access may be starved by processors that hold the lock for read access.  Therefore, do not use an <b>NDIS_RW_LOCK_EX</b> in situations where the majority of accesses will be for write access.  If the majority of accesses will need write access, it is more efficient to simply use a kernel spin lock. For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548114">Introduction to Spin Locks</a>.
@@ -137,33 +149,60 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisfreerwlock.md">NdisFreeRWLock</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552270">NDIS Extensions (Ndiskd.dll)</a>
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548114">Introduction to Spin Locks</a>
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
 
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisfreerwlock.md">NdisFreeRWLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552270">NDIS Extensions (Ndiskd.dll)</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+
 
  
 

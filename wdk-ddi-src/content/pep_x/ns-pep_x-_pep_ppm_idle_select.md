@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], pep_x/PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select
+ms.keywords: pep_x/PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], pep_x/PPEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, _PEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_IDLE_SELECT
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT
+req.typenames: "*PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT"
 ---
 
 # _PEP_PPM_IDLE_SELECT structure
@@ -111,7 +111,9 @@ typedef struct _PEP_PPM_IDLE_SELECT {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629120">PEP_NOTIFY_PPM_IDLE_SELECT</a> notification. The <b>Constraints</b>, <b>DependencyArrayCount</b>, and <b>DependencyArray</b> members of the structure contain input values supplied by PoFx when this notification is sent. The remaining members contain output values that the PEP writes to the structure in response to the notification.
+
 
 
 
@@ -119,11 +121,19 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629120">PEP_NOTIFY_PPM_IDLE_SELECT</a>
 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
+
+
+
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
+
+
 
  
 

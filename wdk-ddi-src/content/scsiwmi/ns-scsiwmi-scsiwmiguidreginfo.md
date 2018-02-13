@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSIWMIGUIDREGINFO structure [Storage Devices], PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], scsiwmi/SCSIWMIGUIDREGINFO, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, *PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO, scsiwmi/PSCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo
+ms.keywords: PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], storage.scsiwmiguidreginfo, scsiwmi/SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml, *PSCSIWMIGUIDREGINFO, scsiwmi/PSCSIWMIGUIDREGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSIWMIGUIDREGINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO"
+req.typenames: SCSIWMIGUIDREGINFO, *PSCSIWMIGUIDREGINFO
 req.product: Windows 10 or later.
 ---
 
@@ -87,14 +87,17 @@ Indicates characteristics of the block. The SCSI port driver sets all but the fo
 
 
 
+
 #### WMIREG_FLAG_EVENT_ONLY_GUID
 
 The block can be enabled or disabled as an event only, and cannot be queried or set. If this flag is clear, the block can also be queried or set. 
 
 
+
 #### WMIREG_FLAG_EXPENSIVE
 
 Requests the port driver send an enable-collection SRB the first time a data consumer opens the data block and a disable-collection SRB when the last data consumer closes the data block. This is recommended if collecting such data affects performance. A miniport driver need not collect the data until a data consumer explicitly requests it by opening the block. 
+
 
 
 #### WMIREG_FLAG_REMOVE_GUID
@@ -105,6 +108,7 @@ Removes support for a previously registered block when set.
 ## -remarks
 
 
+
 The miniport driver passes a pointer to a SCSI_WMILIB_CONTEXT which contains a SCSIWMIREGGUID array in the <i>WmiLibInfo</i> parameter of <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. The miniport driver passes this information each time it calls <b>ScsiPortWmiDispatchFunction</b>. Each SCSIWMIREGGUID structure in the array represents one of the miniport driver's data or event blocks. 
 
 A miniport driver's SCSIWMIREGGUID array should include any standard data blocks defined in <i>wmicore.mof</i> for its device type, and might include miniport driver-defined data and event blocks. A miniport driver defines custom data and event blocks in a MOF file, which is compiled as a resource attached to the miniport driver's binary image and specified in the <i>MofResourceName</i> parameter of the miniport driver's HwScsiWmiQueryReginfo routine. 
@@ -113,13 +117,20 @@ For more information about defining blocks, <a href="https://msdn.microsoft.com/
 
 
 
-## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+## -see-also
 
 <a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557344">HwScsiWmiQueryReginfo</a>
+
+
 
  
 

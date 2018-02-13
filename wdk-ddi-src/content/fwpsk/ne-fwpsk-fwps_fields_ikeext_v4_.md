@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2a7eda-343b-4713-9481-6f54f713811f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_FIELDS_IKEEXT_V4_, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELDS_IKEEXT_V4, fwpsk/FWPS_FIELD_IKEEXT_V4_PROFILE_ID, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, netvista.fwps_fields_ikeext_v4, FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, FWPS_FIELDS_IKEEXT_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_IKEEXT_V4_MAX, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IKEEXT_V4_MAX, wfp_ref_5_const_3_data_fields_c891b6cd-82a0-45f1-9284-97d89aaeef6e.xml, fwpsk/FWPS_FIELDS_IKEEXT_V4, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IKEEXT_V4_PROFILE_ID
+ms.keywords: fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IKEEXT_V4_PROFILE_ID, fwpsk/FWPS_FIELDS_IKEEXT_V4, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELDS_IKEEXT_V4_, FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, netvista.fwps_fields_ikeext_v4, fwpsk/FWPS_FIELD_IKEEXT_V4_MAX, wfp_ref_5_const_3_data_fields_c891b6cd-82a0-45f1-9284-97d89aaeef6e.xml, FWPS_FIELDS_IKEEXT_V4, FWPS_FIELD_IKEEXT_V4_PROFILE_ID, fwpsk/FWPS_FIELD_IKEEXT_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IKEEXT_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IKEEXT_V4_MAX, FWPS_FIELDS_IKEEXT_V4 enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,10 +95,11 @@ The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID
 The profile identifier (network category) of the network interface. The possible network category
      values are: public (1), private (2), or domain (3).
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_IKEEXT_V4_IPSEC_SECURITY_REALM_ID
-
 
 
 ### -field FWPS_FIELD_IKEEXT_V4_MAX
@@ -110,6 +111,8 @@ The maximum value for this enumeration. This value might change in future versio
 ## -see-also
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
 
  
 

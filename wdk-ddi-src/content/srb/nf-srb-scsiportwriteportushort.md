@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b1accd8-5dbe-47d6-822e-1997a6ab5082
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, srb/ScsiPortWritePortUshort, ScsiPortWritePortUshort, storage.scsiportwriteportushort, ScsiPortWritePortUshort routine [Storage Devices]
+ms.keywords: srb/ScsiPortWritePortUshort, storage.scsiportwriteportushort, scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, ScsiPortWritePortUshort routine [Storage Devices], ScsiPortWritePortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,13 +83,17 @@ Specifies the value to be written to the HBA's I/O port.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

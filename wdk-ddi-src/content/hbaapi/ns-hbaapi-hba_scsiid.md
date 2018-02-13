@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2acb40c-cb6e-45b4-b0be-911f6b37094e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SCSIID structure [Storage Devices], hbaapi/HBA_ScsiId, PHBA_SCSIID structure pointer [Storage Devices], HBA_ScsiId structure [Storage Devices], storage.hba_scsiid, PHBA_SCSIID, HBA_ScsiId, structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml, HBA_SCSIID, hbaapi/PHBA_SCSIID, *PHBA_SCSIID
+ms.keywords: structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml, HBA_SCSIID, PHBA_SCSIID structure pointer [Storage Devices], hbaapi/HBA_ScsiId, PHBA_SCSIID, hbaapi/PHBA_SCSIID, *PHBA_SCSIID, HBA_SCSIID structure [Storage Devices], HBA_ScsiId structure [Storage Devices], HBA_ScsiId, storage.hba_scsiid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ Contains the logical unit number assigned by the operating system to the logical
 ## -remarks
 
 
+
 For a detailed discussion of how the data assigned to members of this structure should be formatted, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+
 
 
 
 ## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_getfcpstatistics.md">HBA_GetFCPStatistics</a>
+
+
 
  
 

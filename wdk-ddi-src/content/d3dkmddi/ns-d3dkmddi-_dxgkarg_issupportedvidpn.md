@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn, DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml"
+ms.keywords: display.dxgkarg_issupportedvidpn, _DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FA
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>
+
+
 
  
 

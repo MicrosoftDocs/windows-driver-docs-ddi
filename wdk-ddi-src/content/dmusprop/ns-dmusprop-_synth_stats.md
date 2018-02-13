@@ -7,8 +7,8 @@ old-location: audio\synth_stats.htm
 old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: dmusprop/PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], *PSYNTH_STATS, audio.synth_stats, dmusprop/SYNTH_STATS, PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], _SYNTH_STATS, SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml
+ms.date: 2/8/2018
+ms.keywords: "*PSYNTH_STATS, dmusprop/SYNTH_STATS, PSYNTH_STATS, _SYNTH_STATS, SYNTH_STATS, dmusprop/PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, PSYNTH_STATS structure pointer [Audio Devices], audio.synth_stats"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYNTH_STATS
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # _SYNTH_STATS structure
@@ -80,9 +80,11 @@ Specifies which members of the SYNTH_STATS structure contain valid data. This me
 
 
 
+
 #### SYNTH_STATS_VOICES
 
 The <b>Voices</b> field contains valid data.
+
 
 
 #### SYNTH_STATS_TOTAL_CPU
@@ -90,9 +92,11 @@ The <b>Voices</b> field contains valid data.
 The <b>TotalCPU</b> field contains valid data.
 
 
+
 #### SYNTH_STATS_CPU_PER_VOICE
 
 The <b>CPUPerVoice</b> field contains valid data.
+
 
 
 #### SYNTH_STATS_LOST_NOTES
@@ -100,9 +104,11 @@ The <b>CPUPerVoice</b> field contains valid data.
 The <b>LostNotes </b>field contains valid data.
 
 
+
 #### SYNTH_STATS_PEAK_VOLUME
 
 The <b>PeakVolume </b>field contains valid data.
+
 
 
 #### SYNTH_STATS_FREE_MEMORY
@@ -143,9 +149,11 @@ Specifies the peak volume level expressed as decibels multiplied by 100.
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a> property uses the SYNTH_STATS structure to query a DirectMusic miniport driver for statistics about a synthesizer.
 
 The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is described in the Microsoft Windows SDK documentation.
+
 
 
 
@@ -153,11 +161,15 @@ The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTH_STATS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTH_STATS structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

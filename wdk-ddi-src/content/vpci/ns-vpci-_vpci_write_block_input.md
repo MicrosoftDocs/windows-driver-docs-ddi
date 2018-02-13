@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.vpci_write_block_input, vpci/PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, _VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], vpci/VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT
+ms.keywords: "*PVPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT, _VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], kernel.vpci_write_block_input, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], PVPCI_WRITE_BLOCK_INPUT, vpci/PVPCI_WRITE_BLOCK_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VPCI_WRITE_BLOCK_INPUT
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT"
+req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,9 @@ A variable-size array that contains the data to be written to the configuration 
 ## -remarks
 
 
+
 A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. Data from a VF configuration block can be exchanged between the following drivers:
+
 <ul>
 <li>
 The VF driver, which runs in the guest operating system. This operating system runs within a Hyper-V child partition.
@@ -104,14 +106,21 @@ The PF driver, which runs in the management operating system.
 This operating system runs within the Hyper-V parent partition.
 
 </li>
-</ul><div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the drivers of the PF and VF.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the drivers of the PF and VF.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439307">IOCTL_VPCI_WRITE_BLOCK</a>
 
+
+
 <b></b>
+
+
 
  
 

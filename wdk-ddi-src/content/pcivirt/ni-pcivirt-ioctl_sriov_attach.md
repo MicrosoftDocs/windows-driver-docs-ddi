@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SRIOV_ATTACH
 product: Windows
 targetos: Windows
-req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
+req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
 ---
 
 # IOCTL_SRIOV_ATTACH IOCTL
@@ -65,42 +65,54 @@ The  request indicates that the virtualization stack wants to register for Plug 
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +122,7 @@ The  request indicates that the virtualization stack wants to register for Plug 
 
 
 ## -remarks
+
 
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
@@ -129,6 +142,7 @@ To unregister for Plug and Play events, the VSP sends the <a href="https://msdn.
 
 These events (defined in <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-839a-d34acb108807">SRIOV_PF_EVENT</a>) cause the completion of  <a href="https://msdn.microsoft.com/3f2d67e0-abab-40a1-b4a9-cb65e81884e9">IOCTL_SRIOV_NOTIFICATION</a> and a wait for  <a href="https://msdn.microsoft.com/5299ec17-1fcb-4449-9ec4-73a4d818df0d">IOCTL_SRIOV_EVENT_COMPLETE</a>:
 
+
 <ul>
 <li>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551725">IRP_MN_QUERY_STOP_DEVICE</a> generates  <b>SriovEventPfQueryStopDevice</b>.</li>
@@ -142,7 +156,9 @@ These events (defined in <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-
 <li>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a> generates <b>SriovEventPfSurpriseRemoveDevice</b>.
 </li>
-</ul>In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver maintains PnP states in its device context. The deviceContext-&gt;PnpRebalancing is set to TRUE, when the driver receives IRP_MN_QUERY_STOP_DEVICE and set to FALSE when it receives IRP_MN_START_DEVICE.
+</ul>
+In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver maintains PnP states in its device context. The deviceContext-&gt;PnpRebalancing is set to TRUE, when the driver receives IRP_MN_QUERY_STOP_DEVICE and set to FALSE when it receives IRP_MN_START_DEVICE.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -196,17 +212,28 @@ These events (defined in <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-
 </table></span></div>
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/8ede4a48-317b-46be-834a-a67b638b28c0">IOCTL_SRIOV_DETACH</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
+
+
+<a href="https://msdn.microsoft.com/8ede4a48-317b-46be-834a-a67b638b28c0">IOCTL_SRIOV_DETACH</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
 
  
 

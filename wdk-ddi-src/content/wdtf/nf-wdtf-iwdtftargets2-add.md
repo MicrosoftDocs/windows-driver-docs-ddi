@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 0d8ba3ae-3afd-4f26-9951-0d4bdc9e4d49
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Add method [Windows Device Testing Framework], IWDTFTargets2 interface, Microsoft.WDTF.IWDTFTargets2.Add, IWDTFTargets2::Add, Add, IWDTFTargets2 interface [Windows Device Testing Framework], Add method, dtf.iwdtftargets2_add, Microsoft::WDTF::IWDTFTargets2::Add, Add method [Windows Device Testing Framework], wdtf/IWDTFTargets2::Add, IWDTFTargets2
+ms.keywords: IWDTFTargets2, wdtf/IWDTFTargets2::Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFTargets2 interface, Add, Microsoft::WDTF::IWDTFTargets2::Add, Microsoft.WDTF.IWDTFTargets2.Add, IWDTFTargets2 interface [Windows Device Testing Framework], Add method, dtf.iwdtftargets2_add, IWDTFTargets2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The item to add to this collection.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
 
  
 

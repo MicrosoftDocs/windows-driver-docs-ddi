@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: MONITORUI structure [Print Devices], *PMONITORUI, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, _MONITORUI, MONITORUI, winsplp/PMONITORUI, winsplp/MONITORUI, PMONITORUI, PMONITORUI structure pointer [Print Devices], print.monitorui
+ms.keywords: print.monitorui, *PMONITORUI, PMONITORUI, winsplp/MONITORUI, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, MONITORUI structure [Print Devices], MONITORUI, PMONITORUI structure pointer [Print Devices], winsplp/PMONITORUI, _MONITORUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,25 +89,26 @@ Size, in bytes, of the MONITORUI structure.
 ### -field pfnAddPortUI
 
 
-
 ### -field pfnConfigurePortUI
-
 
 
 ### -field pfnDeletePortUI
 
 
-
 ## -remarks
+
 
 
 All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a> function.
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
+
+
 
  
 

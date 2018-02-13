@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cfa8fa4-fab0-4f94-abc1-5c7900af208b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeBroadcast, NdisMacPacketTypeUnicast, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisMacPacketTypeMulticast, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeUnicast, NDIS_MAC_PACKET_TYPE, netvista.ndis_mac_packet_type, NdisMacPacketTypeMaximum, _NDIS_MAC_PACKET_TYPE, PNDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeMulticast, *PNDIS_MAC_PACKET_TYPE, NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeMaximum, NdisMacPacketTypeBroadcast, ntddndis/PNDIS_MAC_PACKET_TYPE
+ms.keywords: NdisMacPacketTypeMaximum, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisMacPacketTypeMulticast, ntddndis/NdisMacPacketTypeBroadcast, NDIS_MAC_PACKET_TYPE, _NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_MAC_PACKET_TYPE, PNDIS_MAC_PACKET_TYPE, *PNDIS_MAC_PACKET_TYPE, NdisMacPacketTypeUnicast, netvista.ndis_mac_packet_type, ntddndis/PNDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeUnicast, ntddndis/NdisMacPacketTypeMulticast, NdisMacPacketTypeBroadcast, NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,9 +100,11 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>NDIS_MAC_PACKET_TYPE</b> enumeration is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+
 
 
 
@@ -110,6 +112,8 @@ The <b>NDIS_MAC_PACKET_TYPE</b> enumeration is used in the
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+
+
 
  
 

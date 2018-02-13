@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_DATA0_, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_DATA0, FWPS_STREAM_DATA0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, netvista.fwps_stream_data0
+ms.keywords: FWPS_STREAM_DATA0_, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_DATA0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,9 +79,6 @@ For inbound data streams, this can be one or more of the following flags:
 
 
 
-For outbound data streams, this can be one or more of the following flags:
-
-
 
 
 #### FWPS_STREAM_FLAG_RECEIVE
@@ -90,9 +87,11 @@ Specifies that the stream is an inbound data stream. This flag is always set for
        streams.
 
 
+
 #### FWPS_STREAM_FLAG_RECEIVE_EXPEDITED
 
 Specifies that the inbound data stream contains high-priority out-of-band data.
+
 
 
 #### FWPS_STREAM_FLAG_RECEIVE_DISCONNECT
@@ -101,12 +100,20 @@ Specifies that the inbound data has arrived with the FIN flag set in the TCP hea
        indicates that the sender has disconnected the stream.
 
 
+
 #### FWPS_STREAM_FLAG_RECEIVE_ABORT
 
 Specifies that the inbound data has arrived with the RST flag set in the TCP header. This
        indicates that the sender has reset the stream.
        
-<div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div>
+<div> </div>
+For outbound data streams, this can be one or more of the following flags:
+
+
+
+
 
 #### FWPS_STREAM_FLAG_SEND
 
@@ -114,9 +121,11 @@ Specifies that the stream is an outbound data stream. This flag is always set fo
        streams.
 
 
+
 #### FWPS_STREAM_FLAG_SEND_EXPEDITED
 
 Specifies that the outbound data stream contains high-priority out-of-band data.
+
 
 
 #### FWPS_STREAM_FLAG_SEND_NODELAY
@@ -126,11 +135,13 @@ Specifies that the sending client requests that the outbound data stream is not 
        necessary.
 
 
+
 #### FWPS_STREAM_FLAG_SEND_DISCONNECT
 
 Specifies that the stream is to be disconnected after the data in the outbound data stream has
        been sent. The network stack will set the FIN flag in the TCP header of the last packet that is sent
        out.
+
 
 
 #### FWPS_STREAM_FLAG_SEND_ABORT
@@ -141,7 +152,9 @@ Specifies that the stream is to be reset after the data in the outbound data str
        <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a> function
        to inject data into the stream if this flag is set.
        
-<div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div>
+<div> </div>
 
 ### -field dataOffset
 
@@ -165,6 +178,7 @@ A pointer to a
 ## -remarks
 
 
+
 The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion of a data stream that a
     callout's 
     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function can process. The 
@@ -174,18 +188,29 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
+
+
 
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
    FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+
+
 
  
 

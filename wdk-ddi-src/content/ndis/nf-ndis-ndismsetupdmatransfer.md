@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMSetupDmaTransfer, NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, netvista.ndismsetupdmatransfer
+ms.keywords: netvista.ndismsetupdmatransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, NdisMSetupDmaTransfer, ndis/NdisMSetupDmaTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMSetupDmaTransfer
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMSetupDmaTransfer macro
@@ -105,6 +105,8 @@ TBD
 
 
 
+
+
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the request,
@@ -114,10 +116,12 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+
 #### NDIS_STATUS_SUCCESS
 
 The DMA controller has been set up to transfer the specified data, which has been flushed to or
        from the device to maintain data integrity.
+
 
 
 #### NDIS_STATUS_RESOURCES
@@ -165,6 +169,7 @@ A boolean value that is <b>TRUE</b> for an outbound transfer from the system thr
 ## -remarks
 
 
+
 Drivers of subordinate-DMA NICs call 
     <b>NdisMSetupDmaTransfer</b> in response to incoming send requests, for which the driver sets 
     <i>WriteToDevice</i> to <b>TRUE</b>. They set 
@@ -200,13 +205,20 @@ When the transfer is complete, the miniport driver must call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
-<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
+
+
 
  
 

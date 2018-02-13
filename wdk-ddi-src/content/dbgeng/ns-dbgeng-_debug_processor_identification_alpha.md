@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA
+ms.keywords: "_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ The revision of the processor.
 ## -see-also
 
 <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_all.md">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
+
+
 
  
 

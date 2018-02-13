@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1931c640-666b-4db5-8d05-eab43ae96665
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strclass-struct_bf41c526-276a-4e94-9d27-97177a3164bc.xml, HW_STREAM_HEADER structure [Streaming Media Devices], _HW_STREAM_HEADER, strmini/HW_STREAM_HEADER, HW_STREAM_HEADER, PHW_STREAM_HEADER, *PHW_STREAM_HEADER, stream.hw_stream_header, strmini/PHW_STREAM_HEADER, PHW_STREAM_HEADER structure pointer [Streaming Media Devices]
+ms.keywords: strmini/PHW_STREAM_HEADER, HW_STREAM_HEADER structure [Streaming Media Devices], HW_STREAM_HEADER, PHW_STREAM_HEADER structure pointer [Streaming Media Devices], strmini/HW_STREAM_HEADER, PHW_STREAM_HEADER, stream.hw_stream_header, _HW_STREAM_HEADER, *PHW_STREAM_HEADER, strclass-struct_bf41c526-276a-4e94-9d27-97177a3164bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_STREAM_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PHW_STREAM_HEADER, HW_STREAM_HEADER"
+req.typenames: HW_STREAM_HEADER, *PHW_STREAM_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -135,7 +135,11 @@ Reserved for system use. Do not use.
 
 <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
 
+
+
 <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a>
+
+
 
  
 

@@ -90,8 +90,10 @@ The size, in bytes, of the address buffer for input, and the size, in bytes, of 
 ## -returns
 
 
+
 The 
      <i>NdkGetPeerAddress</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,14 +132,18 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkGetPeerAddress</i> returns the remote address for a connection.
+
 
 
 
@@ -145,7 +151,11 @@ An error occurred.
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.uff_fontdirectory, UFF_FONTDIRECTORY structure [Print Devices], PUFF_FONTDIRECTORY structure pointer [Print Devices], prntfont/UFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY, _UFF_FONTDIRECTORY, UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY
+ms.keywords: prntfont/PUFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY, UFF_FONTDIRECTORY, print.uff_fontdirectory, *PUFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFF_FONTDIRECTORY
 product: Windows
 targetos: Windows
-req.typenames: UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY
+req.typenames: "*PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY"
 req.product: Windows 10 or later.
 ---
 
@@ -101,6 +101,7 @@ Specifies the glyph set identifier. This value specifies the glyph set that is t
 ### -field wFlags
 
 Is a set of bit flags. One or more of the following flags can be specified.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -176,7 +177,8 @@ Font metrics are specified in Windows 2000 and later <a href="https://msdn.micro
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwInstallerSig
@@ -212,6 +214,7 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 ## -remarks
 
 
+
 If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
 
 If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constants defined in prntfont.h, which identify predefined glyph sets.
@@ -220,9 +223,12 @@ If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contai
 
 
 
+
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f357612-c07d-42fe-a49f-59acec80a8bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, video/VideoPortSetDmaContext, VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices], display.videoportsetdmacontext
+ms.keywords: VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, VideoPortSetDmaContext function [Display Devices], display.videoportsetdmacontext, VideoPortSetDmaContext, video/VideoPortSetDmaContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,13 +88,17 @@ Pointer to the DMA context to set.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
 
 

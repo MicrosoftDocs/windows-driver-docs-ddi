@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a7db6bd2-7c04-4bfc-b4b4-db1f99520e56
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ structure [Storage Devices], _FEATURE_DATA_MULTI_READ, structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml, PFEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], storage.feature_data_multi_read, ntddmmc/FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ
+ms.keywords: ntddmmc/FEATURE_DATA_MULTI_READ, structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml, ntddmmc/PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ structure [Storage Devices], PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], PFEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ, storage.feature_data_multi_read, _FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_MULTI_READ
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ"
+req.typenames: FEATURE_DATA_MULTI_READ, *PFEATURE_DATA_MULTI_READ
 ---
 
 # _FEATURE_DATA_MULTI_READ structure
@@ -75,17 +75,23 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 ## -remarks
 
 
+
 This structure holds data for the feature named "MultiRead," originally defined by the Optical Storage Technology Association (OSTA) and incorporated into the <i>MMC-3 </i>specification. Devices that support this feature can read all CD media types. 
 
 When queried, devices supporting this feature must return the information indicated in <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>. No other feature-specific information is required. 
 
 
 
+
 ## -see-also
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
 
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

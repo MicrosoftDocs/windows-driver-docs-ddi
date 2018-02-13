@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_updateoverlay, _D3DKMT_UPDATEOVERLAY, d3dkmthk/D3DKMT_UPDATEOVERLAY, OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, D3DKMT_UPDATEOVERLAY structure [Display Devices], D3DKMT_UPDATEOVERLAY
+ms.keywords: OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, D3DKMT_UPDATEOVERLAY structure [Display Devices], d3dkmthk/D3DKMT_UPDATEOVERLAY, _D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,7 +88,11 @@ typedef struct _D3DKMT_UPDATEOVERLAY {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdateoverlay.md">D3DKMTUpdateOverlay</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
+
+
 
  
 

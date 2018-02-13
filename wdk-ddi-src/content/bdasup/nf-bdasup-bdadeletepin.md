@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32ff70d7-980c-4c80-8ebc-af2121bc64df
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, BdaDeletePin, bdasup/BdaDeletePin, stream.bdadeletepin
+ms.keywords: BdaDeletePin, bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, stream.bdadeletepin, bdasup/BdaDeletePin, BdaDeletePin function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,28 +82,42 @@ Points to a variable that contains the identifier for the pin to delete.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. 
+
 
 
 
 ## -remarks
 
 
+
 A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a> function when the network provider dynamically deletes a pin using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must delete a pin without relying on the network provider, the BDA minidriver should call the <b>BdaDeletePin</b> function directly.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
 
-<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
 
-<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
+
+
 
  
 

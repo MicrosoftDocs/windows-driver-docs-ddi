@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f590f5f-5ffe-4d83-86b0-e8dd0bfa5b8f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_WAITFORIDLE, D3DKMT_WAITFORIDLE, D3DKMT_WAITFORIDLE structure [Display Devices], display.d3dkmt_waitforidle, OpenGL_Structs_99c47b61-1104-476f-bf7e-312d7cd0ec02.xml, d3dkmthk/D3DKMT_WAITFORIDLE"
+ms.keywords: "_D3DKMT_WAITFORIDLE, D3DKMT_WAITFORIDLE structure [Display Devices], display.d3dkmt_waitforidle, OpenGL_Structs_99c47b61-1104-476f-bf7e-312d7cd0ec02.xml, D3DKMT_WAITFORIDLE, d3dkmthk/D3DKMT_WAITFORIDLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _D3DKMT_WAITFORIDLE {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforidle.md">D3DKMTWaitForIdle</a>
+
+
 
  
 

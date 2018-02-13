@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DBB4747B-F6CF-4842-988C-6FAA9C552EA9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_BLOCKING, kernel.pofxissuecomponentperfstatechange, wdm/PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange
+ms.keywords: wdm/PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange, PO_FX_FLAG_ASYNC_ONLY, kernel.pofxissuecomponentperfstatechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,6 +83,7 @@ A handle that represents the registration of the device with PoFx. The device dr
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +111,8 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Component [in]
@@ -131,11 +133,14 @@ A pointer to the context for the <a href="https://msdn.microsoft.com/library/win
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When a driver calls <b>PoFxIssueComponentPerfStateChange</b>, the power management framework (PoFx) requests the platform extension plug-in (PEP) to place 
@@ -155,17 +160,28 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
 
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
 
-<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
+
+
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+
+
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+
+
 
  
 

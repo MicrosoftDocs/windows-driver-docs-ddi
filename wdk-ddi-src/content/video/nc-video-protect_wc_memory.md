@@ -85,11 +85,14 @@ Pointer to the miniport driver's hardware device extension.
 ## -returns
 
 
+
 <i>VideoPortProtectWCMemory</i> returns NO_ERROR if it successfully protects Write Combined video memory; otherwise, it returns an error status of ERROR_INVALID_FUNCTION or ERROR_NOT_ENOUGH_MEMORY.
 
 
 
+
 ## -remarks
+
 
 
 After <i>VideoPortProtectWCMemory</i> is called, the CPU cannot write to Write Combined (WC) memory until the <a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a> callback routine is called.
@@ -98,11 +101,16 @@ When WC memory protection is no longer required, the display miniport driver sho
 
 
 
+
 ## -see-also
 
 <a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
 
+
+
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
 
  
 

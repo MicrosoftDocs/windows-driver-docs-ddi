@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DRIVER_INIT_FLAGS enumeration, WdfVerifyOn, WdfVerifierOn, wdfdriver/WdfDriverInitNoDispatchOverride, WDF_DRIVER_INIT_FLAGS, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifierOn, kmdf.wdf_driver_init_flags, wdfdriver/WdfVerifyOn, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, _WDF_DRIVER_INIT_FLAGS, wdfdriver/WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNonPnpDriver, WdfDriverInitNoDispatchOverride, WdfDriverInitNonPnpDriver
+ms.keywords: WDF_DRIVER_INIT_FLAGS enumeration, wdfdriver/WdfDriverInitNonPnpDriver, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifierOn, WdfDriverInitNoDispatchOverride, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WdfVerifierOn, _WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfVerifyOn, WdfDriverInitNonPnpDriver, wdfdriver/WDF_DRIVER_INIT_FLAGS, WdfVerifyOn, WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,17 +101,25 @@ Reserved for system use. Drivers must not use this flag.
 ## -remarks
 
 
+
 The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>DriverInitFlags</b> member of the <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
+
+
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
+
 <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
+
+
 
  
 

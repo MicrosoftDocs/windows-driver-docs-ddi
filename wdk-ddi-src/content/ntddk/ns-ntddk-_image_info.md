@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], IMAGE_INFO structure [Kernel-Mode Driver Architecture], kernel.image_info, PIMAGE_INFO, _IMAGE_INFO, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO, *PIMAGE_INFO, IMAGE_INFO
+ms.keywords: kernel.image_info, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], IMAGE_INFO, ntddk/IMAGE_INFO, *PIMAGE_INFO, ntddk/PIMAGE_INFO, _IMAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,9 @@ typedef struct _IMAGE_INFO {
 
 
 
+### -field Properties
+
+
 ### -field ImageAddressingMode
 
 Always set to IMAGE_ADDRESSING_MODE_32BIT.
@@ -129,10 +132,6 @@ This value is non-zero if the image mapping view called out for is a partial vie
 Always set to zero.
 
 
-### -field Properties
-
-
-
 ### -field ImageBase
 
 Set to the virtual base address of the image.
@@ -156,7 +155,9 @@ Always set to zero.
 ## -remarks
 
 
+
 If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure, <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>.
+
 
 
 
@@ -164,9 +165,15 @@ If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure i
 
 <a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>
 
+
+
 <a href="..\ntddk\nc-ntddk-pload_image_notify_routine.md">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+
+
 
  
 

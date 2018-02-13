@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 634c2177-8e6f-4967-a555-928eb512fce3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCLOCK, *LPRILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCLOCK, netvista.riluicclock
+ms.keywords: RILUICCLOCK structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCLOCK, netvista.riluicclock, *LPRILUICCLOCK, RILUICCLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,6 +82,8 @@ The key for this lock of <a href="..\rilapitypes\ne-rilapitypes-riluicckeyref.md
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

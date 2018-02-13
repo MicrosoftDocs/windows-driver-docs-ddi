@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53114ABE-33F2-4DA2-ABE0-2547547AA6AD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Type, *PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], Revision, windot11/PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MAC_PARAMETERS, windot11/DOT11_MAC_PARAMETERS, Size, netvista.dot11_mac_parameters, PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS
+ms.keywords: Revision, Type, _DOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS, Size, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS, windot11/PDOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,14 +74,17 @@ typedef struct _DOT11_MAC_PARAMETERS {
 The object header identifying the type and revision of this structure. The required member settings of <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> are the following:
 
 
+
 #### Type
 
 Must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>
 
 
+
 #### Revision
 
 Must be set to <b>DOT11_MAC_PARAMETERS_REVISION_1</b>
+
 
 
 #### Size
@@ -96,14 +99,17 @@ A bitwise OR value of the operation modes Windows may set for the created port. 
 
 
 
+
 #### DOT11_OPERATION_MODE_WFD_DEVICE
 
 Specifies that the miniport driver supports the Wi-Fi Direct Device operation mode.
 
 
+
 #### DOT11_OPERATION_MODE_WFD_GROUP_OWNER
 
 Specifies that the miniport driver supports the Wi-Fi Direct Group Owner operation mode.
+
 
 
 #### DOT11_OPERATION_MODE_WFD_CLIENT
@@ -113,9 +119,13 @@ Specifies that the miniport driver supports the Wi-Fi Direct Client operation mo
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569124">OID_DOT11_CREATE_MAC</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569124">OID_DOT11_CREATE_MAC</a>
+
 
  
 

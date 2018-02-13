@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DepthFill(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_depthfill.md">D3DDDIARG_DEPTHFILL</a> structure that describes the parameters of the depth-fill operation.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY DepthFill(
 ## -returns
 
 
+
 <b>DepthFill</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,14 +124,18 @@ The depth-fill operation was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 DirectX version 7.0 and earlier runtimes call the <b>DepthFill</b> function to fill a depth buffer (z-buffer and stencil buffer) with a pixel value that is specified in native format.
+
 
 
 
@@ -135,7 +143,11 @@ DirectX version 7.0 and earlier runtimes call the <b>DepthFill</b> function to f
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_depthfill.md">D3DDDIARG_DEPTHFILL</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

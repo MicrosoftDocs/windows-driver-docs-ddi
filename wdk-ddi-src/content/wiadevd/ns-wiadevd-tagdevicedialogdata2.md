@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DEVICEDIALOGDATA2, image.devicedialogdata2, wiadevd/LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], wiadevd/DEVICEDIALOGDATA2, tagDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], wiadevd/PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, LPDEVICEDIALOGDATA2
+ms.keywords: wiadevd/LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], image.devicedialogdata2, DEVICEDIALOGDATA2, PDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICEDIALOGDATA2
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,7 @@ Pointer to the <b>IWiaItem2</b> interface of the WIA item that transfers data to
 ## -remarks
 
 
+
 The DEVICEDIALOGDATA2 structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a> method.
 
 The <b>DeviceDialog</b> method must allocate the <b>BSTR</b> pointer array specified in <i>pbstrFilePaths</i> by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a> function, and it must allocate each string pointed to by the array by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a> function. The calling program is responsible for freeing the storage for the pointer array and strings.
@@ -134,29 +135,52 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+
 ## -see-also
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
 
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+
+
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
+
 
  
 

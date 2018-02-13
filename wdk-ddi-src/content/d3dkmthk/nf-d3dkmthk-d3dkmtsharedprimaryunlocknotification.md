@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSharedPrimaryUnLockNotification function [Display Devices], d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, D3DKMTSharedPrimaryUnLockNotification, display.d3dkmtsharedprimaryunlocknotification
+ms.keywords: display.d3dkmtsharedprimaryunlocknotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], D3DKMTSharedPrimaryUnLockNotification, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure that describes the shared primary surface that was unlocked.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotif
 ## -returns
 
 
+
 <b>D3DKMTSharedPrimaryUnLockNotification</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,24 +115,32 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 The OpenGL ICD calls the <b>D3DKMTSharedPrimaryUnLockNotification</b> function to inform the operating system that an application just unlocked the GDI shared primary surface that exists on the graphics adapter and video present source that the <b>AdapterLuid</b> and <b>VidPnSourceId</b> members of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure specify. The OpenGL ICD should call <b>D3DKMTSharedPrimaryUnLockNotification</b> after it calls the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunlock.md">D3DKMTUnlock</a> function to unlock the GDI shared primary surface.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunlock.md">D3DKMTUnlock</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification.md">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunlock.md">D3DKMTUnlock</a>
+
 
  
 

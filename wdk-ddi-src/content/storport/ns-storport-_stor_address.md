@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTOR_ADDRESS, storport/PSTOR_ADDRESS, STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS, storport/STOR_ADDRESS, storage.stor_address, PSTOR_ADDRESS structure pointer [Storage Devices], _STOR_ADDRESS, STOR_ADDRESS_TYPE_UNKNOWN, PSTOR_ADDRESS, STOR_ADDRESS structure [Storage Devices]"
+ms.keywords: storport/STOR_ADDRESS, storage.stor_address, storport/PSTOR_ADDRESS, PSTOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, _STOR_ADDRESS, STOR_ADDRESS, *PSTOR_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_ADDRESS, STOR_ADDRESS"
+req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
 req.product: Windows 10 or later.
 ---
 
@@ -75,6 +75,7 @@ typedef struct _STOR_ADDRESS {
 ### -field Type
 
 The address type. This can be one of the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -100,7 +101,8 @@ The address is an 8-bit Bus-Target-LUN address.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Port
@@ -122,7 +124,11 @@ The address data specific to an address type.
 
 <a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
 
-<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+
+
+<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+
+
 
  
 

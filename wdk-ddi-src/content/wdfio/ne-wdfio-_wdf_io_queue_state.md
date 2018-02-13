@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDriverNoRequests, kmdf.wdf_io_queue_state, wdfio/WdfIoQueueDriverNoRequests, _WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDispatchRequests, WdfIoQueueDispatchRequests, wdfio/WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WDF_IO_QUEUE_STATE enumeration, WdfIoQueuePnpHeld, wdfio/WdfIoQueueAcceptRequests, wdfio/WdfIoQueuePnpHeld, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, WdfIoQueueNoRequests, WdfIoQueueAcceptRequests, wdfio/WDF_IO_QUEUE_STATE
+ms.keywords: WdfIoQueueDispatchRequests, WdfIoQueueAcceptRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueDriverNoRequests, WDF_IO_QUEUE_STATE enumeration, WDF_IO_QUEUE_STATE, wdfio/WDF_IO_QUEUE_STATE, WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, wdfio/WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, wdfio/WdfIoQueueDispatchRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueAcceptRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,6 +104,7 @@ If set, the framework has stopped delivering requests to the driver because the 
 ## -remarks
 
 
+
 The WDF_IO_QUEUE_STATE enumeration type is used as the return value for the <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> method.
 
 The following functions are defined in <i>wdfio.h</i>:
@@ -112,9 +113,12 @@ The following functions are defined in <i>wdfio.h</i>:
 
 
 
+
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>
+
+
 
  
 

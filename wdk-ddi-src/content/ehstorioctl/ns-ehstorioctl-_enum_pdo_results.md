@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 80553c9e-3e80-4219-8cc0-2bd4dd6fa76b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ENUM_PDO_RESULTS structure [Storage Devices], PENUM_PDO_RESULTS structure pointer [Storage Devices], structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml, *PENUM_PDO_RESULTS, PENUM_PDO_RESULTS, storage.enum_pdo_results, ehstorioctl/ENUM_PDO_RESULTS, ehstorioctl/PENUM_PDO_RESULTS, ENUM_PDO_RESULTS, _ENUM_PDO_RESULTS
+ms.keywords: ehstorioctl/ENUM_PDO_RESULTS, _ENUM_PDO_RESULTS, structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml, storage.enum_pdo_results, ENUM_PDO_RESULTS structure [Storage Devices], PENUM_PDO_RESULTS, ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS, ehstorioctl/PENUM_PDO_RESULTS, PENUM_PDO_RESULTS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ENUM_PDO_RESULTS
 product: Windows
 targetos: Windows
-req.typenames: ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS
+req.typenames: "*PENUM_PDO_RESULTS, ENUM_PDO_RESULTS"
 ---
 
 # _ENUM_PDO_RESULTS structure
@@ -81,6 +81,8 @@ This member contains the array of ENUM_PDO_ENTRY structures.
 ## -see-also
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos.md">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+
+
 
  
 

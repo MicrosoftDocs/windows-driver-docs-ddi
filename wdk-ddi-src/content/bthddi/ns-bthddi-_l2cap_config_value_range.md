@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 12d9b0c1-6dce-4dc6-a8df-706408e1fbe1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/L2CAP_CONFIG_VALUE_RANGE, bthddi/PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], bltooth.l2cap_config_value_range, PL2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices], bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, _L2CAP_CONFIG_VALUE_RANGE
+ms.keywords: "*PL2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], PL2CAP_CONFIG_VALUE_RANGE, _L2CAP_CONFIG_VALUE_RANGE, bthddi/L2CAP_CONFIG_VALUE_RANGE, bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_VALUE_RANGE, bltooth.l2cap_config_value_range, L2CAP_CONFIG_VALUE_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,6 +90,7 @@ The maximum value that the local system will accept.
 ## -remarks
 
 
+
 For 
     <b>FlushTO</b> member settings, the L2CAP_CONFIG_VALUE_RANGE structure contains the profile driver's ideal
     flush timeout value in the 
@@ -130,9 +131,12 @@ For
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+
+
 
  
 

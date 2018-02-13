@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: f451f97d-ff56-47ae-b9c6-4f5e3a1dd4bf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFPNPAction2::EDTTryStopDeviceFailRestart, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPAction2 interface, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2
+ms.keywords: EDTTryStopDeviceFailRestart, IWDTFPNPAction2, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,15 +77,20 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8fc225af-09d4-42a0-a862-4af89addd5f8">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
-method must be called for the target device before calling this method.</div><div> </div><b>EDTTryStopDeviceFailRestart</b> attempts to trigger a PnP resource 
+method must be called for the target device before calling this method.</div>
+<div> </div>
+<b>EDTTryStopDeviceFailRestart</b> attempts to trigger a PnP resource 
 rebalance (an Query Stop, Stop, Start IRP sequence) in which it fails the IRP_MN_START_DEVICE event 
 which follows a successful Query Stop and Stop. The failed Start IRP, in turn, causes the system 
 to surprise remove the device (IRP_MN_SURPRISE_REMOVAL).
@@ -103,9 +108,12 @@ is a USB mouse, you can run this method on the parent USB controller instead.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

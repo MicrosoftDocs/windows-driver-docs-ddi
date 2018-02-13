@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0699dcc3-ab43-436e-b7d3-09898e4d823c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT structure [Storage Devices], storage.feature_data_timeout, PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], *PFEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT, ntddmmc/PFEATURE_DATA_TIMEOUT, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml, PFEATURE_DATA_TIMEOUT, ntddmmc/FEATURE_DATA_TIMEOUT"
+ms.keywords: FEATURE_DATA_TIMEOUT, PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_TIMEOUT, *PFEATURE_DATA_TIMEOUT, ntddmmc/PFEATURE_DATA_TIMEOUT, storage.feature_data_timeout, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml, _FEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT structure [Storage Devices], PFEATURE_DATA_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,20 +79,17 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 ### -field Group3
 
 
-
 ### -field Reserved1
-
 
 
 ### -field Reserved2
 
 
-
 ### -field UnitLength
 
 
-
 ## -remarks
+
 
 
 This structure holds data for the feature named "Time-Out" by the <i>SCSI Multimedia - 4 (MMC-4) </i>specification. Devices that have this feature must respond to commands within a set time period. When these devices cannot complete commands in the allotted time, they complete the commands with an error.
@@ -101,11 +98,16 @@ When queried, devices supporting this feature must return the information indica
 
 
 
+
 ## -see-also
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
 
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f5b72de2-c2e9-44ac-a2a7-04271e9253d3
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.sdpaddattributetotree, SdpAddAttributeToTree function [Bluetooth Devices], sdplib/SdpAddAttributeToTree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, SdpAddAttributeToTree
+ms.keywords: bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, sdplib/SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], SdpAddAttributeToTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpAddAttributeToTree
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: SD_TRANSFER_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -110,11 +110,14 @@ Pointer to the SDP node to be added as an attribute.
 ## -returns
 
 
+
 Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
@@ -126,9 +129,12 @@ For more information about the tree structure, see
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
 
  
 

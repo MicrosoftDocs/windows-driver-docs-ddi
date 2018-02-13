@@ -79,13 +79,10 @@ VOID APIENTRY* pfnResolveQueryData(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HQUERYHEAP
 
 
-
 ### -param D3D12DDI_QUERY_TYPE
-
 
 
 ### -param StartElement
@@ -126,13 +123,17 @@ A query type.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 Resolve functionality is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
+
 
 

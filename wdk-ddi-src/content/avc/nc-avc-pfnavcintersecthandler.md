@@ -40,7 +40,7 @@ apiname:
 -	PFNAVCINTERSECTHANDLER
 product: Windows
 targetos: Windows
-req.typenames: "*PKBUGCHECK_DATA, KBUGCHECK_DATA"
+req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---
 
 # PFNAVCINTERSECTHANDLER callback
@@ -86,9 +86,7 @@ Specifies the offset (or ID) of the pin for which the intersection is being done
 ### -param DataRange
 
 
-
 ### -param MatchingDataRange
-
 
 
 ### -param DataBufferSize [in]
@@ -102,6 +100,8 @@ An optional buffer to receive the data format resulting from a matching pair of 
 
 
 ### -param DataSize
+
+
 
 
 
@@ -126,7 +126,9 @@ The actual size of the resulting data format. If <b>DataBufferSize</b> was zero,
 ## -returns
 
 
+
 The intersect handler should return STATUS_SUCCESS if the data ranges are compatible, and there was enough buffer space to return the resulting format.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -187,11 +189,14 @@ An internal buffer allocation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The AV/C intersect handler is user-defined, based on the function prototype above.
@@ -200,15 +205,24 @@ The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</
 
 
 
-## -see-also
 
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+## -see-also
 
 <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
 
+
+
+<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a>
 
+
+
 <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
+
+
 
  
 

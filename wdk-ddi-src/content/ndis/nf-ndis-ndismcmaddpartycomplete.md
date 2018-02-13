@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bbcd552-00c2-4085-8222-c514eb92e654
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmAddPartyComplete, NdisMCmAddPartyComplete, netvista.ndismcmaddpartycomplete
+ms.keywords: netvista.ndismcmaddpartycomplete, ndis/NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, NdisMCmAddPartyComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCmAddPartyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmAddPartyComplete macro
@@ -93,6 +93,8 @@ TBD
 
 
 
+
+
 #### - Status [in]
 
 Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
@@ -124,6 +126,7 @@ Pointer to a structure of type
 ## -remarks
 
 
+
 If an MCM driver's 
     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function returns
     NDIS_STATUS_PENDING, the driver must call 
@@ -137,6 +140,7 @@ The underlying network medium determines whether a client can specify per-party 
 If the underlying network medium does not support per-party traffic parameters on multipoint VCs, an
     MCM driver can do one of the following whenever a client attempts to add a party with a specification at 
     <i>CallParameters</i> that does not match the already established traffic parameters for that VC:
+
 <ul>
 <li>
 Reset the traffic parameters to those already established for the multipoint VC when it successfully
@@ -157,7 +161,8 @@ Reject the request to add a new party. (This alternative implicitly forces clien
       VC.)
 
 </li>
-</ul>If the MCM driver sets 
+</ul>
+If the MCM driver sets 
     <i>Status</i> to NDIS_STATUS_SUCCESS, it must supply an explicit handle, which is usually a pointer to the
     driver-allocated per-party state area, as 
     <i>CallMgrPartyContext</i> when it calls 
@@ -175,22 +180,37 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
 <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
-<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
    NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+
 
  
 

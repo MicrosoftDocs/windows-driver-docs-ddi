@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 87966827-72b2-4be7-859a-628c1accca48
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: RouterRegisterForPrintAsyncNotifications, prnasntp/RouterRegisterForPrintAsyncNotifications, print.routerregisterforprintasyncnotifications, RouterRegisterForPrintAsyncNotifications function [Print Devices], spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml
+ms.keywords: RouterRegisterForPrintAsyncNotifications, spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml, print.routerregisterforprintasyncnotifications, RouterRegisterForPrintAsyncNotifications function [Print Devices], prnasntp/RouterRegisterForPrintAsyncNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,13 +106,17 @@ A pointer to an opaque handle. The caller can use this handle to discontinue rec
 ## -returns
 
 
+
 This function returns S_OK on success, and a standard COM error code otherwise.
+
 
 
 
 ## -see-also
 
 <a href="..\prnasntp\nf-prnasntp-routerunregisterforprintasyncnotifications.md">RouterUnregisterForPrintAsyncNotifications</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_ENTRY, stream.ksevent_entry, *PKSEVENT_ENTRY, _KSEVENT_ENTRY, KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, KSEVENT_ENTRY structure [Streaming Media Devices]
+ms.keywords: "_KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, KSEVENT_ENTRY, *PKSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], stream.ksevent_entry, ks/KSEVENT_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSEVENT_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: KSEVENT_ENTRY, *PKSEVENT_ENTRY
+req.typenames: "*PKSEVENT_ENTRY, KSEVENT_ENTRY"
 ---
 
 # _KSEVENT_ENTRY structure
@@ -80,60 +80,49 @@ typedef struct _KSEVENT_ENTRY {
 
 
 
-
-#### - ListEntry
-
+### -field ListEntry
 
 
-#### - Object
+### -field Object
 
 
-
-#### - DpcItem
-
+### -field DpcItem
 
 
-#### - BufferItem
+### -field BufferItem
 
 
-
-#### - EventData
-
+### -field EventData
 
 
-#### - NotificationType
+### -field NotificationType
 
 
-
-#### - EventSet
-
+### -field EventSet
 
 
-#### - EventItem
+### -field EventItem
 
 
-
-#### - FileObject
-
+### -field FileObject
 
 
-#### - SemaphoreAdjustment
+### -field SemaphoreAdjustment
 
 
-
-#### - Reserved
-
+### -field Reserved
 
 
-#### - Flags
-
+### -field Flags
 
 
 ## -remarks
 
 
+
 Drivers that do not provide an <a href="..\ks\nc-ks-pfnksremoveevent.md">AVStrMiniRemoveEvent</a> handler should treat this as an opaque data structure.
 
 For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a>.
+
 
 

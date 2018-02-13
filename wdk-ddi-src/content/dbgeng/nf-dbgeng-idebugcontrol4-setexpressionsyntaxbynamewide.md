@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cad4ee84-333a-49ff-a087-da0e36b87989
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method, debugger.setexpressionsyntaxbynamewide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetExpressionSyntaxByNameWide
+ms.keywords: debugger.setexpressionsyntaxbynamewide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide, IDebugControl4, SetExpressionSyntaxByNameWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetExpressionSyntaxByNameWide, IDebugControl4 interface [Windows Debugging], SetExpressionSyntaxByNameWide method, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,9 +74,11 @@ Specifies the abbreviated name of the syntax.  It can be one of the following st
 
 
 
+
 #### C++
 
 Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540372">C++ Numbers and Operators</a>.
+
 
 
 #### MASM
@@ -87,7 +89,9 @@ Expressions will be evaluated according to MASM syntax. For details of this synt
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +108,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The expression syntax is a global setting within the engine, so setting the expression syntax will affect all clients.
@@ -119,15 +126,24 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+
 
  
 

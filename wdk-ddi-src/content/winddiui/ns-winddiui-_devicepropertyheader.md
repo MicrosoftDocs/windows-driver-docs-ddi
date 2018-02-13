@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/DEVICEPROPERTYHEADER, print.devicepropertyheader, *PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER, winddiui/PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], _DEVICEPROPERTYHEADER, print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml
+ms.keywords: PDEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER, winddiui/DEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, DEVICEPROPERTYHEADER, _DEVICEPROPERTYHEADER, print.devicepropertyheader, DEVICEPROPERTYHEADER structure [Print Devices], winddiui/PDEVICEPROPERTYHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICEPROPERTYHEADER
 product: Windows
 targetos: Windows
-req.typenames: DEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER
+req.typenames: "*PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ Size, in bytes, of the DEVICEPROPERTYHEADER structure.
 ### -field Flags
 
 Is a set of flags that can be set to the following value: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -94,7 +95,8 @@ If set, the user is not permitted to update device settings.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field hPrinter

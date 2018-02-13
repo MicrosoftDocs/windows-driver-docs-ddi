@@ -73,13 +73,16 @@ The VRP <b>InputBuffer</b> contains a pointer to a ULONG, containing the index o
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 The video miniport driver returns a ULONG in the VRP <b>OutputBuffer</b> that can be a combination of the following flags:
+
 <table>
 <tr>
 <th>Value</th>
@@ -129,27 +132,34 @@ This flag is used for mode pruning. By default, Windows 2000 and later perform m
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -162,7 +172,11 @@ The video miniport driver sets the <b>Information</b> member of the <a href="..\
 
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
+
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

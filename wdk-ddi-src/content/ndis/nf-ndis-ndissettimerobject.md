@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 75f8fa1b-5b79-4bc2-8b7b-aa1101c9c331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSetTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetTimerObject, ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, netvista.ndissettimerobject, NdisSetTimerObject
+ms.keywords: ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, netvista.ndissettimerobject, NdisSetTimerObject function [Network Drivers Starting with Windows Vista], NdisSetTimerObject, ndis/NdisSetTimerObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisSetTimerObject
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisSetTimerObject function
@@ -109,12 +109,15 @@ A pointer to a caller-supplied context area that NDIS passes to the associated
 ## -returns
 
 
+
 <b>NdisSetTimerObject</b> returns <b>TRUE</b> if the timer object was already in the system timer queue;
      otherwise, it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 After a driver calls 
@@ -131,10 +134,13 @@ If a nonzero value is specified in the
     caller-supplied 
     <i>NetTimerCallback</i> function is run once at IRQL = DISPATCH_LEVEL as soon as a processor becomes
     available.
+
 <div class="alert"><b>Note</b>  Starting with Windows 7, you can reduce power consumption by calling 
     <a href="..\ndis\nf-ndis-ndissetcoalescabletimerobject.md">
     NdisSetCoalescableTimerObject</a> instead of 
-    <b>NdisSetTimerObject</b> if exact timer precision is not required.</div><div> </div>For more information about timer behavior, see 
+    <b>NdisSetTimerObject</b> if exact timer precision is not required.</div>
+<div> </div>
+For more information about timer behavior, see 
     <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>.
 
 To cancel a timer, call the 
@@ -142,20 +148,33 @@ To cancel a timer, call the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+
 
 <a href="..\ndis\nf-ndis-ndissetcoalescabletimerobject.md">
    NdisSetCoalescableTimerObject</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
 
  
 

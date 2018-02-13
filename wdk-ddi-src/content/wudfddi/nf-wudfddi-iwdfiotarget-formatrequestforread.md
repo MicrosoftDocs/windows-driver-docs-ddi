@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8a1b61c8-8b85-4224-ae20-3788eb0babe4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatRequestForRead, FormatRequestForRead method, IWDFIoTarget interface, UMDFIoTargetObjectRef_49d4b6d7-0cd7-4d8a-9b16-7ecc89f82f1e.xml, umdf.iwdfiotarget_formatrequestforread, FormatRequestForRead method, IWDFIoTarget, IWDFIoTarget::FormatRequestForRead, wdf.iwdfiotarget_formatrequestforread, wudfddi/IWDFIoTarget::FormatRequestForRead, IWDFIoTarget interface, FormatRequestForRead method
+ms.keywords: FormatRequestForRead method, IWDFIoTarget interface, FormatRequestForRead, IWDFIoTarget interface, FormatRequestForRead method, umdf.iwdfiotarget_formatrequestforread, wudfddi/IWDFIoTarget::FormatRequestForRead, IWDFIoTarget::FormatRequestForRead, wdf.iwdfiotarget_formatrequestforread, UMDFIoTargetObjectRef_49d4b6d7-0cd7-4d8a-9b16-7ecc89f82f1e.xml, FormatRequestForRead method, IWDFIoTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,21 +102,33 @@ A pointer to the device offset that is used for the read. This parameter is opti
 ## -returns
 
 
+
 <b>FormatRequestForRead</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h. 
+
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
 
  
 

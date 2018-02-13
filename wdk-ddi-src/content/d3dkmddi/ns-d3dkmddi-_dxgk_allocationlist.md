@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_allocationlist, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, d3dkmddi/DXGK_ALLOCATIONLIST, _DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST
+ms.keywords: "_DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST, display.dxgk_allocationlist, d3dkmddi/DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,11 @@ typedef struct _DXGK_ALLOCATIONLIST {
 
 
 
+### -field hDeviceSpecificAllocation
+
+[in/out] An open handle to the allocation that is being referenced (that is, the handle that the driver returned in the <b>hDeviceSpecificAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a> structure for the allocation in a call to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a> function).
+
+
 ### -field WriteOperation
 
  
@@ -102,11 +107,6 @@ typedef struct _DXGK_ALLOCATIONLIST {
 Supported starting with Windows 10.
 
 
-### -field hDeviceSpecificAllocation
-
-[in/out] An open handle to the allocation that is being referenced (that is, the handle that the driver returned in the <b>hDeviceSpecificAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a> structure for the allocation in a call to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a> function).
-
-
 ### -field PhysicalAddress
 
 [in/out] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the allocation was last paged-in at. This member is set to zero if no pre-patching information is available.
@@ -121,6 +121,7 @@ Supported starting with Windows 10.
 Â 
 
 
+
 #### WriteOperation
 
 [in/out] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that can hold information about whether the allocation can be written to. Setting this member to 1 indicates that the allocation can be written to anywhere in the DMA buffer.
@@ -128,11 +129,13 @@ Supported starting with Windows 10.
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001). 
 
 
+
 #### SegmentId
 
 [in/out] A member in the structure that <b>DXGK_ALLOCATIONLIST</b> contains that can hold information about the identifier of a segment that the allocation was last paged in at. Setting this member to 0 indicates that no pre-patching information is available.
 
 Setting this member is equivalent to setting the second through sixth bit of a 32-bit value (0x0000002E). 
+
 
 
 #### Reserved
@@ -145,7 +148,9 @@ Setting this member is equivalent to setting the remaining 26 bits (0xFFFFFFC0) 
 ## -remarks
 
 
+
 In the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> function, the driver generates a list of <b>DXGK_ALLOCATIONLIST</b> structures for allocation specifications that will be used in a direct memory access (DMA) buffer. The video memory manager uses the list to split and patch DMA buffers appropriately. 
+
 
 
 
@@ -153,15 +158,27 @@ In the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
+
+
 
  
 

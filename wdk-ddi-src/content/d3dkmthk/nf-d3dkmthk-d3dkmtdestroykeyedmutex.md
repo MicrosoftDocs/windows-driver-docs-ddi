@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyKeyedMutex function [Display Devices], D3DKMTDestroyKeyedMutex, OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, display.d3dkmtdestroykeyedmutex, d3dkmthk/D3DKMTDestroyKeyedMutex
+ms.keywords: d3dkmthk/D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, display.d3dkmtdestroykeyedmutex, D3DKMTDestroyKeyedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md">D3DKMT_DESTROYKEYEDMUTEX</a> structure that specifies the keyed mutex object to destroy. 
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md">D3
 ## -returns
 
 
+
 <b>D3DKMTDestroyKeyedMutex</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,15 +115,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md">D3DKMT_DESTROYKEYEDMUTEX</a>
+
+
 
  
 

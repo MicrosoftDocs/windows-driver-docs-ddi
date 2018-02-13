@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: fa93d535-fe26-40cc-b08a-88841dcfdc96
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Compare method [Windows Device Testing Framework], IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Compare method, Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Compare method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2::Compare, Compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare, dtf.iwdtfdriverpackageaction2_compare
+ms.keywords: Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Compare method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, IWDTFDriverPackageAction2, dtf.iwdtfdriverpackageaction2_compare, IWDTFDriverPackageAction2::Compare, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Compare method, Compare method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare, Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,13 +83,17 @@ otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
+
+
 
  
 

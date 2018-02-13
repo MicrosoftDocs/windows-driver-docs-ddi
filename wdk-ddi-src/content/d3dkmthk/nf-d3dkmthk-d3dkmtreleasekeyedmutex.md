@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
+ms.keywords: D3DKMTReleaseKeyedMutex function [Display Devices], display.d3dkmtreleasekeyedmutex, D3DKMTReleaseKeyedMutex, d3dkmthk/D3DKMTReleaseKeyedMutex, OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTReleaseKeyedMutex(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3
 ## -returns
 
 
+
 <b>D3DKMTReleaseKeyedMutex</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +133,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3DKMT_RELEASEKEYEDMUTEX</a>
+
+
 
  
 

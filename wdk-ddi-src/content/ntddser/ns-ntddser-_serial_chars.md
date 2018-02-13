@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERIAL_CHARS structure pointer [Serial Ports], *PSERIAL_CHARS, ntddser/SERIAL_CHARS, _SERIAL_CHARS, SERIAL_CHARS, PSERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], ntddser/PSERIAL_CHARS, serports.serial_chars
+ms.keywords: SERIAL_CHARS, *PSERIAL_CHARS, ntddser/SERIAL_CHARS, PSERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], serports.serial_chars, _SERIAL_CHARS, ntddser/PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,9 +105,11 @@ The XOFF (transmit off) character to use for both transmit and receive operation
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a> requests.
 
 An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to the same value will fail.
+
 
 
 
@@ -115,11 +117,19 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
 
  
 

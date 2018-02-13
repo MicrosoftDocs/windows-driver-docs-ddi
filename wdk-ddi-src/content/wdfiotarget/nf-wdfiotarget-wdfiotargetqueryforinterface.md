@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE, wdf.wdfiotargetqueryforinterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, wdfiotarget/WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method
+ms.keywords: WdfIoTargetQueryForInterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, kmdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface method, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,9 @@ Additional interface-specific information. This parameter is optional and can be
 ## -returns
 
 
+
 <b>WdfIoTargetQueryForInterface</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,7 +139,8 @@ The <i>IoTarget</i>, <i>InterfaceType</i>, or <i>Interface</i> parameter is <b>N
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -147,7 +150,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver can call <b>WdfIoTargetQueryForInterface</b> to obtain access to a driver-defined interface that was created by a driver in a different driver stack. To access a driver-defined interface that was created by a driver that is in the same driver stack as your driver, your driver must call <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>.
@@ -155,16 +160,53 @@ Your driver can call <b>WdfIoTargetQueryForInterface</b> to obtain access to a d
 Framework-based drivers define interfaces by calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>. For more information about driver-defined interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
 
+#### Examples
+
+The following code example attempts to gain access to a specified remote I/O target's interface. GUID_RAWPDO_INTERFACE_STANDARD is the GUID that identifies the interface.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+RAWPDO_INTERFACE_STANDARD busInterface;
+
+status = WdfIoTargetQueryForInterface(
+                                      IoTarget,
+                                      &amp;GUID_RAWPDO_INTERFACE_STANDARD,
+                                      (PINTERFACE) &amp;busInterface,
+                                      sizeof(RAWPDO_INTERFACE_STANDARD),
+                                      1,
+                                      NULL
+                                      );
+if (!NT_SUCCESS (status)){
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
+
+
 
  
 

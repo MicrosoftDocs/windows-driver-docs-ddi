@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f984bb4f-ecc8-4e6c-bb2c-a721395f1958
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_radiostatepasswordcompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], rilapi/RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare
+ms.keywords: RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], rilapi/RIL_RadioStatePasswordCompare, netvista.ril_radiostatepasswordcompare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_RadioStatePasswordCompare(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpRspRadioStatePassword
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

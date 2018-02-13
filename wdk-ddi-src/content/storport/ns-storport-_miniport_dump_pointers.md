@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MINIPORT_DUMP_POINTERS, storport/MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml, MINIPORT_DUMP_POINTERS structure [Storage Devices], *PMINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices]"
+ms.keywords: PMINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml, MINIPORT_DUMP_POINTERS structure [Storage Devices], *PMINIPORT_DUMP_POINTERS, _MINIPORT_DUMP_POINTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,16 +85,6 @@ typedef struct _MINIPORT_DUMP_POINTERS {
 
 
 
-### -field _ADAPTER_OBJECT
-
- 
-
-
-### -field AdapterObject
-
-Set to <b>NULL</b>.
-
-
 ### -field Version
 
 Set to DUMP_MINIPORT_VERSION_1.
@@ -108,6 +98,16 @@ Set to sizeof(MINIPORT_DUMP_POINTERS).
 ### -field DriverName
 
 The wide-character name of the miniport driver without path information (for example, Miniport.sys).
+
+
+### -field AdapterObject
+
+Set to <b>NULL</b>.
+
+
+### -field _ADAPTER_OBJECT
+
+ 
 
 
 ### -field MappedRegisterBase
@@ -188,19 +188,29 @@ A pointer to an array of ACCESS_RANGE-type elements. The Storport driver initial
 ## -remarks
 
 
+
 Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the <b>FeatureSupport</b> member of the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure before calling <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. Physical miniports are required to set at least the <b>Version</b> and <b>Size</b> members of <b>MINIPORT_DUMP_POINTERS</b>. Also, if different from the value given in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>, the <b>MaximumTransferLength</b> member is required for a physical miniport.
+
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
 
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
 
  
 

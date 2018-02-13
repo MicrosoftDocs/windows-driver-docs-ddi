@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4EDEE2EE-7B42-4CC9-8CFC-4690193C5D4D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PCMP_GET_PLUG_HANDLE, IEEE.cmp_get_plug_handle, 61883/CMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], PCMP_GET_PLUG_HANDLE, _CMP_GET_PLUG_HANDLE, 61883/PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE structure [Buses], CMP_GET_PLUG_HANDLE"
+ms.keywords: CMP_GET_PLUG_HANDLE structure [Buses], CMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE, 61883/PCMP_GET_PLUG_HANDLE, *PCMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], IEEE.cmp_get_plug_handle, _CMP_GET_PLUG_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_GET_PLUG_HANDLE
 product: Windows
 targetos: Windows
-req.typenames: CMP_GET_PLUG_HANDLE, *PCMP_GET_PLUG_HANDLE
+req.typenames: "*PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE"
 ---
 
 # _CMP_GET_PLUG_HANDLE structure
@@ -87,15 +87,19 @@ On output, a handle to the plug specified with PlugNum and Type.
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltgetfilenameinformation.htm
 old-project: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltGetFileNameInformation routine [Installable File System Drivers], FltGetFileNameInformation, FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, ifsk.fltgetfilenameinformation, fltkernel/FltGetFileNameInformation
+ms.date: 2/7/2018
+ms.keywords: FltGetFileNameInformation routine [Installable File System Drivers], ifsk.fltgetfilenameinformation, FltGetFileNameInformation, fltkernel/FltGetFileNameInformation, FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ A pointer to the callback data structure for the I/O operation (<a href="..\fltk
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a> value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. (Additional flags can be used by name provider minifilter drivers to specify name query options. For more information, see <b>FLT_FILE_NAME_OPTIONS</b>.) This parameter is required and cannot be <b>NULL</b>. 
 
 Following are the name format flag values. Only one of the following flags can be specified. (For an explanation of these formats, see <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>.) 
+
 <table>
 <tr>
 <th>Value</th>
@@ -117,9 +118,11 @@ Not valid in the pre-create path.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Following are the query method flag values. Only one of the following flags can be specified. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -165,9 +168,11 @@ FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Name provider minifilters use the following flags to specify the properties of file name operations. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -205,7 +210,8 @@ This flag is available on Microsoft Windows Server 2003 SP1 and later. This flag
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param FileNameInformation [out]
@@ -216,7 +222,9 @@ A pointer to a caller-allocated variable that receives the address of a system-a
 ## -returns
 
 
+
 If the name information is successfully returned, <b>FltGetFileNameInformation</b> returns STATUS_SUCCESS. Otherwise, it returns an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -321,11 +329,14 @@ The file is a system file with all access denied.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>FltGetFileNameInformation</b> returns the requested name information for the file or directory that is represented by the file object that is the target of the I/O operation. 
@@ -347,7 +358,11 @@ For Windows 8.1 and earlier, <b>FltGetFileNameInformation</b> can include a <a 
  Prior to Windows 8, Filter Manager obtained the normalized name for a file or directory by collecting the name information for each component of  the file path. This required multiple queries to the file system to compile the complete path. Starting with Windows 8, local file systems support the  <b>FileNormalizedNameInformation</b> file information class and only a single query is necessary to obtain the normalized name. Remote file systems may not support the <b>FileNormalizedNameInformation</b> file information class. When this is the case, a query for each component of the file path is still required to assemble the normalized name. Under certain network conditions, a full name query can require a significant amount of time to complete.
 
 For more information about normalized file name information, see <a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>. 
-<div class="alert"><b>Note</b>    File name tunneling affects only create, hard-link, and rename operations in this way. It does not affect other I/O operations, such as read and write. </div><div> </div>The following paired operations can cause the file name <i>name</i> to be tunneled: 
+
+<div class="alert"><b>Note</b>    File name tunneling affects only create, hard-link, and rename operations in this way. It does not affect other I/O operations, such as read and write. </div>
+<div> </div>
+The following paired operations can cause the file name <i>name</i> to be tunneled: 
+
 <ul>
 <li>
 delete(<i>name</i>)/create(<i>name</i>)
@@ -365,39 +380,65 @@ rename(<i>name</i>, <i>newname</i>)/create(<i>name</i>)
 rename(<i>name</i>, <i>newname</i>)/rename(<i>source</i>, <i>name</i>)
 
 </li>
-</ul>For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+</ul>
+For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
 
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
+
+
 
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
 
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetFileNameInformation routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetFileNameInformation routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

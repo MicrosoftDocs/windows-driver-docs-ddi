@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 39AD3C10-C6E8-463F-BDDE-5941CB4B2830
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols3_getsymbolentrybysymbolentry, GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryBySymbolEntry method, GetSymbolEntryBySymbolEntry, IDebugSymbols3::GetSymbolEntryBySymbolEntry, IDebugSymbols3, GetSymbolEntryBySymbolEntry method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntryBySymbolEntry
+ms.keywords: debugger.idebugsymbols3_getsymbolentrybysymbolentry, GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3::GetSymbolEntryBySymbolEntry, GetSymbolEntryBySymbolEntry, dbgeng/IDebugSymbols3::GetSymbolEntryBySymbolEntry, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryBySymbolEntry method, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,7 +88,9 @@ A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODUL
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
@@ -96,7 +98,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
+
+
 
  
 

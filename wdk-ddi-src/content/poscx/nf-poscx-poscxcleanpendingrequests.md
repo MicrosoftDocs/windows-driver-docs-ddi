@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: FD6036D5-C316-43E6-8C37-067F5705BCB6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxCleanPendingRequests, pos.poscxcleanpendingrequests, PosCxCleanPendingRequests function, PosCxCleanPendingRequests
+ms.keywords: pos.poscxcleanpendingrequests, PosCxCleanPendingRequests, poscx/PosCxCleanPendingRequests, PosCxCleanPendingRequests function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,8 @@ An appropriate NTSTATUS error code that indicates success or failure.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

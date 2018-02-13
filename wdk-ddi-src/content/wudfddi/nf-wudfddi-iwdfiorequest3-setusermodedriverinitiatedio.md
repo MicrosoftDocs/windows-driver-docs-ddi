@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F494ED4C-DA2F-4630-B0CA-8B3BE7D26A80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest3, SetUserModeDriverInitiatedIo, IWDFIoRequest3::SetUserModeDriverInitiatedIo, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, umdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo method, wdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo
+ms.keywords: wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, IWDFIoRequest3, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, wdf.iwdfiorequest3_setusermodedriverinitiatedio, IWDFIoRequest3::SetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,11 +80,14 @@ A Boolean value that, if <b>TRUE</b>, indicates that the request should be treat
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the IRP_UM_DRIVER_INITIATED_IO flag in the <b>Flags</b> member of the WDM <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure before forwarding the request to kernel-mode drivers.
@@ -101,13 +104,20 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 
 
-## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>
+
+
 
  
 

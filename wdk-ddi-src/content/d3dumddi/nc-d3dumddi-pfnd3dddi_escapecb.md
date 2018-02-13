@@ -83,6 +83,8 @@ A handle to the graphics adapter object.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a> structure that describes the shared information.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ES
 ## -returns
 
 
+
 <b>pfnEscapeCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,13 +151,16 @@ Information was successfully shared.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 A user-mode display driver calls <b>pfnEscapeCb</b> to share miscellaneous information with the display miniport driver in a way that is not supported by any other driver communication. The user-mode display driver can send miscellaneous information to the display miniport driver or can retrieve information from the display miniport driver. 
@@ -162,13 +169,20 @@ A user-mode display driver calls <b>pfnEscapeCb</b> to share miscellaneous infor
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_escape.md">D3DDDICB_ESCAPE</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
+
 
  
 

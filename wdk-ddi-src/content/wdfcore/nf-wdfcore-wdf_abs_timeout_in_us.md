@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9258d82c-98d1-45ab-88db-484cb9db45ee
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFTimerObjectRef_0e51f320-984a-4fe2-a077-09aec8b3b011.xml, wdf.wdf_abs_timeout_in_us, WDF_ABS_TIMEOUT_IN_US function, wdfcore/WDF_ABS_TIMEOUT_IN_US, kmdf.wdf_abs_timeout_in_us, WDF_ABS_TIMEOUT_IN_US
+ms.keywords: kmdf.wdf_abs_timeout_in_us, DFTimerObjectRef_0e51f320-984a-4fe2-a077-09aec8b3b011.xml, wdfcore/WDF_ABS_TIMEOUT_IN_US, WDF_ABS_TIMEOUT_IN_US function, WDF_ABS_TIMEOUT_IN_US, wdf.wdf_abs_timeout_in_us
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,20 +79,26 @@ The number of microseconds to convert.
 ## -returns
 
 
+
 <b>WDF_ABS_TIMEOUT_IN_US</b> returns the absolute time value, in system time units (100-nanosecond intervals), that represents the number of microseconds that <i>Time</i> specifies.
+
 
 
 
 ## -remarks
 
 
+
 An absolute time value is a time value that specifies a specific date and time. Absolute times are relative to 00:00, January 1, 1601. If an absolute time value is passed to the system, the system adds the absolute time value to the time value that represents 00:00, January 1, 1601.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_us.md">WDF_REL_TIMEOUT_IN_US</a>
+
+
 
  
 

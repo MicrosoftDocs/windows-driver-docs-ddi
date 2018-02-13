@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisWriteErrorLogEntry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
+ms.keywords: miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisWriteErrorLogEntry
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisWriteErrorLogEntry function
@@ -86,9 +86,11 @@ Specifies the NDIS_ERRROR_CODE_<i>XXX</i> code that best describes the I/O error
 
 
 
+
 #### NDIS_ERROR_CODE_RESOURCE_CONFLICT
 
 The driver could not access a required resource.
+
 
 
 #### NDIS_ERROR_CODE_OUT_OF_RESOURCES
@@ -96,9 +98,11 @@ The driver could not access a required resource.
 The hardware or driver ran out of resources.
 
 
+
 #### NDIS_ERROR_CODE_HARDWARE_FAILURE
 
 The driver detected a hardware error.
+
 
 
 #### NDIS_ERROR_CODE_ADAPTER_NOT_FOUND
@@ -106,9 +110,11 @@ The driver detected a hardware error.
 The network adapter was not found.
 
 
+
 #### NDIS_ERROR_CODE_INTERRUPT_CONNECT
 
 The interrupt registration failed.
+
 
 
 #### NDIS_ERROR_CODE_DRIVER_FAILURE
@@ -116,9 +122,11 @@ The interrupt registration failed.
 A driver failure occurred that does not match any of the other error conditions.
 
 
+
 #### NDIS_ERROR_CODE_BAD_VERSION
 
 The driver detected a version mismatch.
+
 
 
 #### NDIS_ERROR_CODE_TIMEOUT
@@ -126,9 +134,11 @@ The driver detected a version mismatch.
 A timeout expired.
 
 
+
 #### NDIS_ERROR_CODE_NETWORK_ADDRESS
 
 A network address is invalid.
+
 
 
 #### NDIS_ERROR_CODE_UNSUPPORTED_CONFIGURATION
@@ -136,9 +146,11 @@ A network address is invalid.
 The requested driver configuration is not supported.
 
 
+
 #### NDIS_ERROR_CODE_INVALID_VALUE_FROM_ADAPTER
 
 The network adapter hardware provided an invalid value.
+
 
 
 #### NDIS_ERROR_CODE_MISSING_CONFIGURATION_PARAMETER
@@ -146,14 +158,17 @@ The network adapter hardware provided an invalid value.
 A driver configuration parameter is missing in the registry.
 
 
+
 #### NDIS_ERROR_CODE_BAD_IO_BASE_ADDRESS
 
 The I/O base address for the network adapter hardware is invalid.
 
 
+
 #### NDIS_ERROR_CODE_RECEIVE_SPACE_SMALL
 
 The amount of receive buffer memory that is available is too small to receive data.
+
 
 
 #### NDIS_ERROR_CODE_ADAPTER_DISABLED
@@ -172,6 +187,7 @@ TBD
 
 
 
+
 ####### - ...
 
 Specifies a variable-sized array of ULONGs associated with the error to be logged.
@@ -180,11 +196,14 @@ Specifies a variable-sized array of ULONGs associated with the error to be logge
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisWriteErrorLogEntry</b> allocates an I/O error log record, fills in the record with the supplied
@@ -215,13 +234,20 @@ In general, a miniport driver calls
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 

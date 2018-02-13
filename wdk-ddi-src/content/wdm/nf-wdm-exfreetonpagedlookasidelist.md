@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExFreeToNPagedLookasideList, kernel.exfreetonpagedlookasidelist, ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml
+ms.keywords: k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], ExFreeToNPagedLookasideList, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to the entry to be freed. The caller obtained this pointer from a prec
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>ExFreeToNPagedLookasideList</b> is the reciprocal of <b>ExAllocateFromNPagedLookasideList</b>. It releases a caller-allocated entry back to the caller's lookaside list or to nonpaged pool when that entry is no longer in use.
@@ -99,15 +102,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
 
 <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
+
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
+
+
 
  
 

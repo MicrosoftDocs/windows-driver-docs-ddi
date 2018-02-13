@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a974af39-a4a6-44f2-9010-e612f50c83df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_MSGMWIPRIORITY_URGENT, RIL_MSGMWIPRIORITY_EMERGENCY, ntddrilapitypes/RILMSGMWIPRIORITY, ntddrilapitypes/RIL_MSGMWIPRIORITY_URGENT, ntddrilapitypes/RIL_MSGMWIPRIORITY_LOW, ntddrilapitypes/RIL_MSGMWIPRIORITY_MAX, RIL_MSGMWIPRIORITY_MAX, RILMSGMWIPRIORITY, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_LOW, netvista.rilmsgmwipriority, RIL_MSGMWIPRIORITY_NORMAL, ntddrilapitypes/RIL_MSGMWIPRIORITY_NORMAL
+ms.keywords: ntddrilapitypes/RIL_MSGMWIPRIORITY_URGENT, RIL_MSGMWIPRIORITY_MAX, ntddrilapitypes/RIL_MSGMWIPRIORITY_NORMAL, ntddrilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_NORMAL, RIL_MSGMWIPRIORITY_URGENT, RIL_MSGMWIPRIORITY_LOW, ntddrilapitypes/RIL_MSGMWIPRIORITY_MAX, ntddrilapitypes/RILMSGMWIPRIORITY, netvista.rilmsgmwipriority, ntddrilapitypes/RIL_MSGMWIPRIORITY_LOW, RILMSGMWIPRIORITY, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,23 +74,17 @@ typedef enum _RILMSGMWIPRIORITY {
 ### -field RIL_MSGMWIPRIORITY_UNKNOWN
 
 
-
 ### -field RIL_MSGMWIPRIORITY_LOW
-
 
 
 ### -field RIL_MSGMWIPRIORITY_NORMAL
 
 
-
 ### -field RIL_MSGMWIPRIORITY_URGENT
-
 
 
 ### -field RIL_MSGMWIPRIORITY_EMERGENCY
 
 
-
 ### -field RIL_MSGMWIPRIORITY_MAX
-
 

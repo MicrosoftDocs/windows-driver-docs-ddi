@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: efbe5526-274b-416b-8e5c-8b18fe754b43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREGISTRYQUERYUNICODESTRING, wdfregistry/WdfRegistryQueryUnicodeString, wdf.wdfregistryqueryunicodestring, DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, WdfRegistryQueryUnicodeString
+ms.keywords: WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, wdf.wdfregistryqueryunicodestring, DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, PFN_WDFREGISTRYQUERYUNICODESTRING, wdfregistry/WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryQueryUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,9 @@ A pointer to a UNICODE_STRING structure that receives the data string for the ke
 ## -returns
 
 
+
 <b>WdfRegistryQueryUnicodeString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -194,7 +196,8 @@ The registry value was not available.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -204,30 +207,103 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example, which is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver, retrieves the Unicode string that represents the string data that is assigned to the <b>PortName</b> value under a device's hardware key.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+SerialReadSymName(
+    IN WDFDEVICE Device,
+    __out PWCHAR RegName,
+    IN OUT PUSHORT LengthOfRegName // In characters
+    )
+{
+    NTSTATUS status;
+    WDFKEY hKey;
+    UNICODE_STRING value;
+    UNICODE_STRING valueName;
+    USHORT requiredLength;
+
+    value.Buffer = RegName;
+    value.MaximumLength = *LengthOfRegName;
+    value.Length = 0;
+
+    status = WdfDeviceOpenRegistryKey(
+                                      Device,
+                                      PLUGPLAY_REGKEY_DEVICE,
+                                      STANDARD_RIGHTS_ALL,
+                                      WDF_NO_OBJECT_ATTRIBUTES,
+                                      &amp;hKey
+                                      );
+
+    if (NT_SUCCESS (status)) {
+        RtlInitUnicodeString(
+                             &amp;valueName,
+                             L"PortName"
+                             );
+        status = WdfRegistryQueryUnicodeString (
+                                      hKey,
+                                      &amp;valueName,
+                                      &amp;requiredLength,
+                                      &amp;value
+                                      );
+        WdfRegistryClose(hKey);
+    }
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+
+
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

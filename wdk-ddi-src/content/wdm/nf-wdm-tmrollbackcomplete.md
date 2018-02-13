@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRollbackComplete, wdm/TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, kernel.tmrollbackcomplete
+ms.keywords: wdm/TmRollbackComplete, kernel.tmrollbackcomplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, TmRollbackComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>TmRollbackComplete</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,16 @@ The transaction or its enlistment is not in the correct state.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmRollbackComplete</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a> routine.
@@ -116,19 +121,32 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwrollbackcomplete.md">ZwRollbackComplete</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
 
  
 

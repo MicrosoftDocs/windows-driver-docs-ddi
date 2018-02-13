@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbTransferBufferFormatSimple, SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatSimple, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatMdl, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatInvalid, spb/SPB_TRANSFER_BUFFER_FORMAT, SPB.spb_transfer_buffer_format, spb/SpbTransferBufferFormatMax, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimpleNonPaged, *PSPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatList
+ms.keywords: SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SpbTransferBufferFormatSimpleNonPaged, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatInvalid, SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMax, SPB.spb_transfer_buffer_format, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatSimple, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatMdl, *PSPB_TRANSFER_BUFFER_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -106,13 +106,17 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure is an <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
+
+
 
  
 

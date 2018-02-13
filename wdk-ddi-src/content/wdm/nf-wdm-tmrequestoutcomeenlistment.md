@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1e58be94-7a10-4708-a658-9de28e26a465
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRequestOutcomeEnlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], wdm/TmRequestOutcomeEnlistment, kernel.tmrequestoutcomeenlistment
+ms.keywords: wdm/TmRequestOutcomeEnlistment, kernel.tmrequestoutcomeenlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, TmRequestOutcomeEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>TmRequestOutcomeEnlistment</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return the following value: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,16 @@ The specified enlistment is a <a href="https://msdn.microsoft.com/6f6bf61a-fe53-
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmRequestOutcomeEnlistment</b> routine asks KTM to try to provide an immediate outcome (result) for the transaction. A resource manager can call <b>TmRequestOutcomeEnlistment</b> after it has called <a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a> or <a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>, if it later discovers that it cannot wait for an outcome because, for example, a surprise-removal of the disk has occurred. KTM might be able to force a rollback if all resource managers have not finished their prepare operations.
@@ -118,21 +123,36 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
-<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
-
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 <a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
+
+
 
  
 

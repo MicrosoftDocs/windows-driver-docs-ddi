@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, wdf.wdfinterruptreportinactive, WdfInterruptReportInactive, PFN_WDFINTERRUPTREPORTINACTIVE, wdfinterrupt/WdfInterruptReportInactive
+ms.keywords: WdfInterruptReportInactive method, PFN_WDFINTERRUPTREPORTINACTIVE, wdfinterrupt/WdfInterruptReportInactive, wdf.wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, kmdf._wdfinterruptreportinactive, WdfInterruptReportInactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A handle to a framework interrupt object.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Only drivers that implement functional state power management call <b>WdfInterruptReportInactive</b>.
@@ -97,10 +100,71 @@ Typically, a driver calls <b>WdfInterruptReportInactive</b> from either its  <a 
 If your driver calls this method on an operating system earlier than Windows 8, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error.
 
 
+#### Examples
+
+The following example shows how a driver might call <b>WdfInterruptReportInactive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyComponentIdleStateCallback(
+    _In_ PVOID Context,
+    _In_ ULONG Component,
+    _In_ ULONG State
+    )
+{
+    PFDO_DEVICE_DATA deviceData;
+    PFDO_INTERRUPT_CONTEXT interruptContext;
+
+    deviceData = FdoGetData((WDFDEVICE)Context);
+    interruptContext = InterruptGetData(deviceData-&gt;Interrupt);
+
+    switch (State) {
+        case 0:
+             …
+            break;
+
+        //
+        // PoFx may make us go to any of the F-states directly, hence we execute
+        // F0Exit code for all of the Fx states. Note that transition to any Fx 
+        // state happens from F0 (and not another Fx state).
+        //
+        default:
+            //
+            // Disable interrupt generation at hardware if needed.
+            // 
+            WdfInterruptAcquireLock(deviceData-&gt;Interrupt);
+            DisableInterruptInHardware();
+            WdfInterruptReleaseLock(deviceData-&gt;Interrupt);
+
+            //
+            // Report that interrupt is now inactive.
+            //
+            WdfInterruptReportInactive(deviceData-&gt;Interrupt);
+
+            interruptContext-&gt;ReportedInactive = TRUE;
+
+        break;
+
+    …
+
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportactive.md">WdfInterruptReportActive</a>
+
+
 
  
 

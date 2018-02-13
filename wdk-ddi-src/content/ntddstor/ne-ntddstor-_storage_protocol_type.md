@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ntddstor/ProtocolTypeAta, STORAGE_PROTOCOL_TYPE, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeUnknown, ProtocolTypeSd, ProtocolTypeMaxReserved, ProtocolTypeScsi, ntddstor/ProtocolTypeUfs, ProtocolTypeProprietary, ProtocolTypeUfs, ntddstor/ProtocolTypeNvme, ProtocolTypeAta, ProtocolTypeNvme, storage.storage_protocol_type, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeProprietary, *PSTORAGE_PROTOCOL_TYPE
+ms.keywords: ProtocolTypeNvme, ntddstor/STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, STORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ProtocolTypeProprietary, ntddstor/ProtocolTypeAta, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeScsi, storage.storage_protocol_type, ntddstor/ProtocolTypeProprietary, ProtocolTypeUfs, *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeUfs, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ProtocolTypeSd, ntddstor/ProtocolTypeMaxReserved, _STORAGE_PROTOCOL_TYPE, ProtocolTypeAta, ProtocolTypeScsi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_PROTOCOL_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE
+req.typenames: "*PSTORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE"
 ---
 
 # _STORAGE_PROTOCOL_TYPE enumeration
@@ -117,6 +117,8 @@ Reserved.
 ## -remarks
 
 
+
 Protocol types that are 128 (0x80) and above in value are reserved for Microsoft use.
+
 
 

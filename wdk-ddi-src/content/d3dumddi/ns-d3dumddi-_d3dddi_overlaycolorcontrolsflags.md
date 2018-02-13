@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12907aee-7c67-48f9-bf0f-84428f2d4fa7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure [Display Devices], D3D_other_Structs_ada675f2-18ed-4597-bcc4-803d8598ae66.xml, display.d3dddi_overlaycolorcontrolsflags, _D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS
+ms.keywords: D3D_other_Structs_ada675f2-18ed-4597-bcc4-803d8598ae66.xml, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure [Display Devices], _D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS, display.d3dddi_overlaycolorcontrolsflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,6 +141,8 @@ A member in the union that is contained in D3DDDI_OVERLAYCOLORCONTROLSFLAGS that
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
+
+
 
  
 

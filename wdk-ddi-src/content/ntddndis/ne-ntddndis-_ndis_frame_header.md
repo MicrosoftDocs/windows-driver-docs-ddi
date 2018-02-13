@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderUdp, ntddndis/PNDIS_FRAME_HEADER, NdisFrameHeaderUndefined, NdisFrameHeaderUdp, ntddndis/NdisFrameHeaderIPv4, NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderMac, _NDIS_FRAME_HEADER, NdisFrameHeaderIPv4, NdisFrameHeaderMac, NDIS_FRAME_HEADER, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderUndefined, ntddndis/NDIS_FRAME_HEADER, NdisFrameHeaderArp, ntddndis/NdisFrameHeaderMaximum, *PNDIS_FRAME_HEADER, netvista.ndis_frame_header, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml
+ms.keywords: ntddndis/NdisFrameHeaderUndefined, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_FRAME_HEADER, NdisFrameHeaderUndefined, NdisFrameHeaderMac, *PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderUdp, NdisFrameHeaderMaximum, netvista.ndis_frame_header, NdisFrameHeaderIPv6, NdisFrameHeaderArp, NdisFrameHeaderUdp, _NDIS_FRAME_HEADER, PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, NdisFrameHeaderIPv4, ntddndis/PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMaximum, NDIS_FRAME_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_FRAME_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_FRAME_HEADER, NDIS_FRAME_HEADER"
+req.typenames: NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER
 ---
 
 # _NDIS_FRAME_HEADER enumeration
@@ -113,9 +113,11 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The NDIS_FRAME_HEADER enumeration is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+
 
 
 
@@ -123,6 +125,8 @@ The NDIS_FRAME_HEADER enumeration is used in the
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance, NdisIMCancelInitializeDeviceInstance, intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisimcancelinitializedeviceinstance, NdisIMCancelInitializeDeviceInstance, ndis/NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIMCancelInitializeDeviceInstance
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIMCancelInitializeDeviceInstance function
@@ -93,6 +93,7 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
 ## -returns
 
 
+
 <b>NdisIMCancelInitializeDeviceInstance</b> returns NDIS_STATUS_SUCCESS if it canceled the preceding call
      to 
      <b>NdisIMInitializeDeviceInstanceEx</b>. Otherwise, it returns NDIS_STATUS_FAILURE if there is no way to
@@ -100,7 +101,9 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
 
 
 
+
 ## -remarks
+
 
 
 An intermediate driver calls the 
@@ -116,16 +119,25 @@ An intermediate driver calls the
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
    NdisIMInitializeDeviceInstanceEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
 
  
 

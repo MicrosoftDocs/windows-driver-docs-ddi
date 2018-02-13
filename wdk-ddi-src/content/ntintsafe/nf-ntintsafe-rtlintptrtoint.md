@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96D932C6-B969-4C91-B4B1-6FEC7D4AD250
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoint, RtlIntPtrToInt, ntintsafe/RtlIntPtrToInt
+ms.keywords: kernel.rtlintptrtoint, ntintsafe/RtlIntPtrToInt, RtlIntPtrToInt function [Kernel-Mode Driver Architecture], RtlIntPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlIntPtrToInt32
 </li>
@@ -92,4 +94,5 @@ This function uses the following alternate name:
 <li>RtlPtrdiffTToInt32
 </li>
 </ul>
+
 

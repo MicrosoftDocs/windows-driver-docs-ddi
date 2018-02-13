@@ -80,12 +80,15 @@ A handle to the device.
 
 
 
+
+
 #### - destroyHwContext [in]
 
 A pointer to the structure holding information to destroy the hardware context.
 
 
 ## -returns
+
 
 
 <table>
@@ -104,8 +107,10 @@ The call was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 

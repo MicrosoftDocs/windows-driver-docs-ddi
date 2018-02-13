@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76f97976-f48b-4ead-88d6-a9e1fdb21f08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, kernel.clfsscanlogcontainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], wdm/ClfsScanLogContainers, ClfsScanLogContainers
+ms.keywords: Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, ClfsScanLogContainers, wdm/ClfsScanLogContainers, kernel.clfsscanlogcontainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,6 +78,7 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a
 ### -param eScanMode [in]
 
 A set of flags that specify the direction of the scan and whether the scan context should be closed. The following flags are available to callers of this routine.
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,7 +114,8 @@ Free all resources associated with the scan context pointed to by <i>pcxScan</i>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the CLFS_SCAN_CLOSE flag is set, both the CLFS_SCAN_FORWARD and CLFS_SCAN_BACKWARD flags must be clear.
 
@@ -123,11 +125,14 @@ If the CLFS_SCAN_CLOSE flag is clear, only one of the direction flags (CLFS_SCAN
 ## -returns
 
 
+
 <b>ClfsScanLogContainers</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 CLFS uses the <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a> structure to track where a container scan starts (the <b>cIndex</b> member) and how many containers are scanned in each call to <b>ClfsScanLogContainers</b>. The value N of the <b>cContainers</b> member specifies that each time <b>ClfsScanLogContainers</b> is called, the next N containers are scanned.
@@ -142,13 +147,20 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
+
+
 
 <a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
 
+
+
 <a href="..\wdm\ns-wdm-_cls_container_information.md">CLFS_CONTAINER_INFORMATION</a>
 
-<a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
+
 
  
 

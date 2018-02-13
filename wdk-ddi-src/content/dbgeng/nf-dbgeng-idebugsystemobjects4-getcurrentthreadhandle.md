@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: edbda821-8016-48db-a2f5-7f615428da0c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadHandle method, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadHandle method, debugger.getcurrentthreadhandle, IDebugSystemObjects4::GetCurrentThreadHandle, IDebugSystemObjects::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects4::GetCurrentThreadHandle, IDebugSystemObjects4, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadHandle method, dbgeng/IDebugSystemObjects3::GetCurrentThreadHandle, GetCurrentThreadHandle, dbgeng/IDebugSystemObjects2::GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2::GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadHandle method, dbgeng/IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects_6c615962-bf20-4cdb-8bab-8afc142e8c65.xml, GetCurrentThreadHandle method [Windows Debugging]
+ms.keywords: GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadHandle method, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects2::GetCurrentThreadHandle, GetCurrentThreadHandle, IDebugSystemObjects_6c615962-bf20-4cdb-8bab-8afc142e8c65.xml, IDebugSystemObjects4::GetCurrentThreadHandle, IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadHandle method, dbgeng/IDebugSystemObjects2::GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects3 interface, debugger.getcurrentthreadhandle, dbgeng/IDebugSystemObjects4::GetCurrentThreadHandle, IDebugSystemObjects2, dbgeng/IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects3, dbgeng/IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ Receives the current thread's system handle.
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,15 +97,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 In kernel-mode debugging, an artificial handle is created because the threads are virtual threads.
 
 For more information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details on system handles, see <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">Handles</a>.
+
 
 

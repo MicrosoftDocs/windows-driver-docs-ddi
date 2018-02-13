@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, KsPinDataIntersectionEx function [Streaming Media Devices], stream.kspindataintersectionex, KsPinDataIntersectionEx, ks/KsPinDataIntersectionEx
+ms.keywords: ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, KsPinDataIntersectionEx, stream.kspindataintersectionex, KsPinDataIntersectionEx function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,14 +117,18 @@ Optional context that is supplied to the handler.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS; otherwise, an error specific to the property that is being handled.
+
 
 
 
 ## -remarks
 
 
+
 <b>KsPinDataIntersectionEx</b> is very similar to <b>KsPinDataIntersection</b>, except for some of the following slight differences:
+
 <ul>
 <li>
 In <b>KsPinDataIntersectionEx</b>, the size of the descriptor is passed, a feature that allows extended descriptors.
@@ -146,13 +150,17 @@ The data intersection callback function is passed a <i>Context</i> parameter (th
 The size of the resultant format is passed back in <i>DataSize</i> instead of <i>Irp</i>-&gt;IoStatus.Information.
 
 </li>
-</ul>These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataIntersectionEx</b> operate similarly.
+</ul>
+These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataIntersectionEx</b> operate similarly.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">KStrIntersectHandlerEx</a>
+
+
 
  
 

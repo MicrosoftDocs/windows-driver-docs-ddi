@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfchildlistcreate, kmdf.wdfchildlistcreate, WdfChildListCreate method, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, PFN_WDFCHILDLISTCREATE, wdfchildlist/WdfChildListCreate
+ms.keywords: wdfchildlist/WdfChildListCreate, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, kmdf.wdfchildlistcreate, WdfChildListCreate method, WdfChildListCreate, wdf.wdfchildlistcreate, PFN_WDFCHILDLISTCREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,9 @@ A pointer to a caller-allocated location that receives a handle to a framework c
 ## -returns
 
 
+
 <b>WdfChildListCreate</b> returns STATUS_SUCCESS, or another status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS(status)</a> equals <b>TRUE</b>, if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,7 +127,8 @@ An object could not be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -136,7 +139,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The framework creates a default child list for each framework device object that represents a functional device object (FDO). To use the default child list, the driver calls <a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>. If your driver requires additional child lists, it can call <b>WdfChildListCreate</b> to create them.
@@ -148,14 +153,60 @@ Your driver cannot delete the child-list object that <b>WdfChildListCreate</b> c
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure and then calls <b>WdfChildListCreate</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_CHILD_LIST_CONFIG listConfig;
+
+WDF_CHILD_LIST_CONFIG_INIT(
+                           &amp;listConfig,
+                           sizeof(PDO_IDENTIFICATION_DESCRIPTION),
+                           My_EvtDeviceListCreatePdo
+                           );
+
+listConfig.AddressDescriptionSize = sizeof(PDO_ADDRESS_DESCRIPTION);
+
+listConfig.EvtChildListScanForChildren = My_EvtChildListScanForChildren;
+
+listConfig.EvtChildListIdentificationDescriptionDuplicate = My_EvtChildListIdentificationDescriptionDuplicate;
+listConfig.EvtChildListIdentificationDescriptionCompare = My_EvtChildListIdentificationDescriptionCompare;
+listConfig.EvtChildListIdentificationDescriptionCleanup = My_EvtChildListIdentificationDescriptionCleanup;
+
+status = WdfChildListCreate(
+                            device,
+                            &amp;listConfig,
+                            WDF_NO_OBJECT_ATTRIBUTES,
+                            &amp;ParentDeviceContext-&gt;ChildList
+                            );
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
-
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
+
+
+
 <a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
+
+
 
  
 

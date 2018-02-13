@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceCyclePortSynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, kmdf.wdfusbtargetdevicecycleportsynchronously, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml
+ms.keywords: WdfUsbTargetDeviceCyclePortSynchronously method, PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, kmdf.wdfusbtargetdevicecycleportsynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, wdf.wdfusbtargetdevicecycleportsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfUsbTargetDeviceCyclePortSynchronously
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -79,7 +79,9 @@ A handle to a USB device object that was obtained from a previous call to <a hre
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceCyclePortSynchronously</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,7 +98,8 @@ The caller's IRQL was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -106,7 +109,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Power-cycling a port causes the device to be surprise-removed and re-enumerated. A driver might request a power cycle after it has loaded firmware into a device.
@@ -118,10 +123,30 @@ The driver must call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">
 For more information about the <b>WdfUsbTargetDeviceCyclePortSynchronously</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example power-cycles a specified device's USB port.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+
+status = WdfUsbTargetDeviceCyclePortSynchronously(UsbDevice);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
  
 

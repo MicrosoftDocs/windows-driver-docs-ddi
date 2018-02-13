@@ -7,8 +7,8 @@ old-location: whea\whea_generic_error.htm
 old-project: whea
 ms.assetid: 7d624645-0199-4376-b84a-83d7da3ba981
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PWHEA_GENERIC_ERROR structure pointer [WHEA Drivers and Applications], whearef_60117ecc-4c3f-438f-aba2-cd2d4268df27.xml, ntddk/PWHEA_GENERIC_ERROR, _WHEA_GENERIC_ERROR, *PWHEA_GENERIC_ERROR, ntddk/WHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR, whea.whea_generic_error, WHEA_GENERIC_ERROR structure [WHEA Drivers and Applications], PWHEA_GENERIC_ERROR
+ms.date: 2/8/2018
+ms.keywords: WHEA_GENERIC_ERROR structure [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR, *PWHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR, whea.whea_generic_error, ntddk/WHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR structure pointer [WHEA Drivers and Applications], whearef_60117ecc-4c3f-438f-aba2-cd2d4268df27.xml, ntddk/PWHEA_GENERIC_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_GENERIC_ERROR
 product: Windows
 targetos: Windows
-req.typenames: WHEA_GENERIC_ERROR, *PWHEA_GENERIC_ERROR
+req.typenames: "*PWHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR"
 ---
 
 # _WHEA_GENERIC_ERROR structure
@@ -105,25 +105,35 @@ A variable-sized buffer that contains the error data from the generic error sour
 ## -remarks
 
 
+
 A generic error source is described by a <a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a> structure. The <b>ErrStatusAddress</b> member of the WHEA_GENERIC_ERROR_DESCRIPTOR structure points to a register that contains the physical address of a WHEA_GENERIC_ERROR structure in firmware reserved memory. This WHEA_GENERIC_ERROR structure contains the error status data for the generic error source.
 
 A WHEA_GENERIC_ERROR structure is included in the <b>RawData</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure whenever the <b>RawDataFormat </b>member of the WHEA_ERROR_PACKET structure contains <b>WheaRawDataFormatGeneric</b>.
 
 
 
-## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+## -see-also
 
 <a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
 
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
- 
+
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_GENERIC_ERROR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_GENERIC_ERROR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SimpleOpcInfo, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], _CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type, ntddcdrm/SimpleOpcInfo, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], ntddcdrm/PCDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE
+ms.keywords: "*PCDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type, ntddcdrm/PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], SimpleOpcInfo, CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], _CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, PCDROM_OPC_INFO_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,7 +76,11 @@ Specifies the wrapper for the SEND OPC INFORMATION command from the Multimedia C
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
 
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
+
+
 
  
 

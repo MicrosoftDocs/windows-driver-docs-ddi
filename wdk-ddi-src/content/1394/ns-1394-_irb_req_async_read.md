@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C88A1F30-FC6B-4EC4-8F10-F507E17CF01D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, 1394/IRB_REQ_ASYNC_READ"
+ms.keywords: "_IRB_REQ_ASYNC_READ, 1394/IRB_REQ_ASYNC_READ, IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,6 +106,7 @@ For more information on raw-mode addressing, see <a href="https://msdn.microsoft
 ### -field fulFlags
 
 Specifies any nondefault settings for this operation. The following flags are provided.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -131,7 +132,8 @@ The bus driver returns the elapsed time of the operation in <b>u.AsyncRead.Elaps
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Mdl

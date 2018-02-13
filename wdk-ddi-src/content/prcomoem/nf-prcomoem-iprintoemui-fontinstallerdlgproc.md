@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemui_fontinstallerdlgproc, FontInstallerDlgProc, prcomoem/IPrintOemUI::FontInstallerDlgProc, IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, FontInstallerDlgProc method [Print Devices], IPrintOemUI::FontInstallerDlgProc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, IPrintOemUI
+ms.keywords: FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, prcomoem/IPrintOemUI::FontInstallerDlgProc, IPrintOemUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.FontInstallerDlgProc
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Second message parameter.
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in can implement the <code>IPrintOemUI::FontInstallerDlgProc</code> method as a means of replacing Unidrv's font installer. For more information, see <a href="https://msdn.microsoft.com/d753368d-b1c8-454e-a02b-131dc778e723">Customized Font Installers for Unidrv</a>.
@@ -148,9 +153,12 @@ If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lP
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554188">IPrintOemUI::UpdateExternalFonts</a>
+
+
 
  
 

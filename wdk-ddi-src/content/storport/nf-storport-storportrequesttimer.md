@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortRequestTimer routine [Storage Devices], storport/StorPortRequestTimer, StorPortRequestTimer, storage.storportrequesttimer
+ms.keywords: storport/StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,6 +86,7 @@ A pointer to an opaque buffer for the timer context returned by <a href="..\stor
 ### -param TimerCallback [in]
 
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -120,7 +121,9 @@ The allowable delay for the timer in microseconds. Values less than 32 microseco
 ## -returns
 
 
+
 The <b>StorPortRequestTimer</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -172,26 +175,38 @@ The timer request was successfully scheduled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL &gt; DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL &lt;= DISPATCH_LEVEL.
+
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
 
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
+
+
 <a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
+<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+
+
 
  
 

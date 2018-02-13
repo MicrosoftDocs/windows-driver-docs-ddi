@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7578df0d-67ea-4a8c-a89c-6a9d95bff33a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadIoSpace64, ReadIoSpace64 function [Windows Debugging], debugger.readiospace64, WdbgExts_Ref_5e2a7cc2-0dc4-4970-9d6a-c9a2c5130577.xml, wdbgexts/ReadIoSpace64
+ms.keywords: wdbgexts/ReadIoSpace64, ReadIoSpace64, debugger.readiospace64, WdbgExts_Ref_5e2a7cc2-0dc4-4970-9d6a-c9a2c5130577.xml, ReadIoSpace64 function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,16 +88,20 @@ Specifies the address of a variable that contains the number of bytes to read. <
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 32-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-readiospace.md">ReadIoSpace</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
+
 
 
 

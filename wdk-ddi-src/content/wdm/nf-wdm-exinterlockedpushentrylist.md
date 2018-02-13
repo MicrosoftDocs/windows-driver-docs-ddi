@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInterlockedPushEntryList, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, wdm/ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedpushentrylist
+ms.keywords: ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], ExInterlockedPushEntryList, kernel.exinterlockedpushentrylist, wdm/ExInterlockedPushEntryList, k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 ## -returns
 
 
+
 <b>ExInterlockedPushEntryList</b> returns a pointer to the first entry of the list <u>before</u> the new entry was inserted. If the list was empty, the routine returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>ExInterlockedPushEntryList</b> performs the same operation as <a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
@@ -103,19 +106,32 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
+
+
+
 <a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
 
  
 

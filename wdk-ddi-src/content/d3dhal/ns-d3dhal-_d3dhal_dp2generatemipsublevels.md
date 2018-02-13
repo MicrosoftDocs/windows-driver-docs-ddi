@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7952cf0f-8a05-4d82-9669-db3db504d22d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2GENERATEMIPSUBLEVELS, d3dstrct_0b221ab6-0f8c-4406-9d99-c6101b353223.xml, D3DHAL_DP2GENERATEMIPSUBLEVELS structure [Display Devices], LPD3DHAL_DP2GENERATEMIPSUBLEVELS, *LPD3DHAL_DP2GENERATEMIPSUBLEVELS, display.d3dhal_dp2generatemipsublevels, LPD3DHAL_DP2GENERATEMIPSUBLEVELS structure pointer [Display Devices], D3DHAL_DP2GENERATEMIPSUBLEVELS, _D3DHAL_DP2GENERATEMIPSUBLEVELS, d3dhal/LPD3DHAL_DP2GENERATEMIPSUBLEVELS
+ms.keywords: D3DHAL_DP2GENERATEMIPSUBLEVELS, d3dhal/D3DHAL_DP2GENERATEMIPSUBLEVELS, display.d3dhal_dp2generatemipsublevels, LPD3DHAL_DP2GENERATEMIPSUBLEVELS structure pointer [Display Devices], *LPD3DHAL_DP2GENERATEMIPSUBLEVELS, d3dhal/LPD3DHAL_DP2GENERATEMIPSUBLEVELS, D3DHAL_DP2GENERATEMIPSUBLEVELS structure [Display Devices], LPD3DHAL_DP2GENERATEMIPSUBLEVELS, d3dstrct_0b221ab6-0f8c-4406-9d99-c6101b353223.xml, _D3DHAL_DP2GENERATEMIPSUBLEVELS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,13 +85,17 @@ Specifies the filter type used in the generation.
 ## -remarks
 
 
+
 To generate the sublevels of a MIP-map texture, the driver receives a D3DDP2OP_GENERATEMIPSUBLEVELS command along with a D3DHAL_DP2GENERATEMIPSUBLEVELS structure. For more information about automatically generating the sublevels of MIP-map textures, see <a href="https://msdn.microsoft.com/fbfb0d1b-468d-4e7f-865e-bdc7d19f5516">Generating Sublevels of MIP Map Textures</a>.
+
 
 
 
 ## -see-also
 
 D3DDP2OP_GENERATEMIPSUBLEVELS
+
+
 
  
 

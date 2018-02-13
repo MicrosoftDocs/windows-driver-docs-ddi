@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2f6072d2-808b-452f-a789-0c6f63195440
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], kernel.exinitializelookasidelistex, wdm/ExInitializeLookasideListEx, k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml
+ms.keywords: ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], wdm/ExInitializeLookasideListEx, ExInitializeLookasideListEx, k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, kernel.exinitializelookasidelistex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,6 +98,7 @@ Specifies the pool type of the entries in the lookaside list. Set this parameter
 ### -param Flags [in]
 
 Specifies an optional flag value to modify the default behavior of the <i>LookasideListAllocateEx</i> routine. Set this parameter to zero or to one of the following EX_LOOKASIDE_LIST_EX_FLAGS_<i>XXX</i> flag bits.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -123,7 +124,8 @@ If the allocation fails, return <b>NULL</b> instead of raising an exception. Thi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 These two flag bits are mutually exclusive.
 
@@ -152,7 +154,9 @@ Reserved. Always set this parameter to zero.
 ## -returns
 
 
+
 <b>ExInitializeLookasideListEx</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error code:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -180,11 +184,14 @@ The <i>Flags</i> parameter value is not valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A driver must call this routine to initialize a lookaside list before the driver can begin to use the list. A lookaside list is a pool of fixed-size buffers that the driver can manage locally to reduce the number of calls to system allocation routines and, thereby, to improve performance. The buffers are stored as entries in the lookaside list. All entries in the list are of the same, uniform size, which is specified by the <i>Size</i> parameter.
@@ -206,36 +213,166 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 Callers of <b>ExInitializeLookasideListEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL, but are typically running at IRQL = PASSIVE_LEVEL.
 
 
+#### Examples
+
+The driver-supplied <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines both receive <i>Lookaside</i> parameters that point to the <b>LOOKASIDE_LIST_EX</b> structure that describes the lookaside list. The routines can use this parameter to access private data that the driver has associated with the lookaside list. For example, the driver might allocate an instance of the following structure to collect private data for each lookaside list that it creates:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct
+{
+  ULONG NumberOfAllocations;  // number of entries allocated
+  ULONG NumberOfFrees;        // number of entries freed
+  LOOKASIDE_LIST_EX LookasideField;
+} MY_PRIVATE_DATA;</pre>
+</td>
+</tr>
+</table></span></div>
+The driver can initialize a lookaside list as shown in the following code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define ENTRY_SIZE  256
+#define MY_POOL_TAG  'tsLL'	  
+MY_PRIVATE_DATA *MyContext;
+NTSTATUS status = STATUS_SUCCESS;
+ 
+MyContext = ExAllocatePoolWithTag(NonPagedPool, sizeof(MY_PRIVATE_DATA), MY_POOL_TAG);
+if (MyContext)
+{
+    MyContext.NumberOfAllocations = 0;
+    MyContext.NumberOfFrees = 0;
+
+    status = ExInitializeLookasideListEx(
+                 &amp;MyContext.LookasideField,
+                 MyLookasideListAllocateEx,
+                 MyLookasideListFreeEx,
+                 NonPagedPool,
+                 0,
+                 ENTRY_SIZE,
+                 MY_POOL_TAG,
+                 0);
+}
+else
+{
+    status = STATUS_INSUFFICIENT_RESOURCES;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+The following code example shows how the <i>LookasideListAllocateEx</i> routine can use its <i>Lookaside</i> parameter to access the private data that is associated with the lookaside list:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PVOID
+  MyLookasideListAllocateEx(
+    __in POOL_TYPE  PoolType,
+    __in SIZE_T  NumberOfBytes,
+    __in ULONG  Tag,
+    __inout PLOOKASIDE_LIST_EX  Lookaside)
+{
+    MY_PRIVATE_DATA *MyContext;
+    PVOID NewEntry;
+
+    MyContext = CONTAINING_RECORD(Lookaside, MY_PRIVATE_DATA, LookasideField);
+
+    NewEntry = ExAllocatePoolWithTag(PoolType, NumberOfBytes, Tag);
+
+    if (NewEntry)
+    {
+        MyContext-&gt;NumberOfAllocations = InterlockedIncrement(MyContext-&gt;NumberOfAllocations);
+    }
+
+    return NewEntry;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a> macro is defined in the Ntdef.h header file. The <i>LookAsideListFreeEx</i> routine can similarly use its <i>Lookaside</i> parameter to access private data.
+
+After the <code>MyLookasideListAllocateEx</code> routine in this example returns, <b>ExAllocateFromLookasideListEx</b> inserts the buffer pointed to by the <code>NewEntry</code> variable into the lookaside list. To make this insertion operation thread-safe, <b>ExAllocateFromLookasideListEx</b> synchronizes its access of the lookaside list with other list insertion and removal operations that might be performed by other threads. Similarly, when <b>ExFreeFromLookasideListEx</b> removes a buffer from the lookaside list, it synchronizes its access to the list.
+
+<b>ExAllocateFromLookasideListEx</b> and <b>ExFreeFromLookasideListEx</b> do not synchronize their calls to driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a> routines. Thus, if the <code>MyLookasideListAllocateEx</code> and <code>MyLookasideListFreeEx</code> routines in the preceding code examples must be thread-safe, the driver must provide the necessary synchronization.
+
+The example routine, <code>MyLookasideListAllocateEx</code>, synchronizes its access of the <code>MyContext-&gt;NumberOfAllocations</code> variable with other threads that might increment and decrement this variable. To provide this synchronization, <code>MyLookasideListAllocateEx</code> calls the <a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a> routine to atomically increment this variable. Similarly, the <code>MyLookasideListFreeEx</code> routine (not shown) can call the <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a> routine to atomically decrement this variable.
+
+However, if the sole purpose of the <code>MyContext-&gt;NumberOfAllocations</code> variable in the preceding code example is simply to gather statistics on lookaside list allocations, atomic increments and decrements are hardly necessary. In this case, the remote possibility of a missed increment or decrement should not be a concern.
+
+For more information about thread safety for lookaside lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
 
-<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-<a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+
+<a href="..\wdm\nf-wdm-exfreetolookasidelistex.md">ExFreeToLookasideListEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
 
 <a href="..\wdm\nf-wdm-exdeletelookasidelistex.md">ExDeleteLookasideListEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+
+
 
  
 

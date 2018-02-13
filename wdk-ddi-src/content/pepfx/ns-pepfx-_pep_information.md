@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60221D44-79C0-4043-A4AF-1200C2F087F6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_INFORMATION, PEP_INFORMATION, pepfx/PPEP_INFORMATION, PPEP_INFORMATION, *PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.pep_information, _PEP_INFORMATION
+ms.keywords: kernel.pep_information, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_INFORMATION, *PPEP_INFORMATION, PPEP_INFORMATION, _PEP_INFORMATION, pepfx/PPEP_INFORMATION, pepfx/PEP_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,9 +99,11 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt1
 ## -remarks
 
 
+
 This structure contains pointers to several callback routines that are implemented by the PEP. PoFx calls these routines to send notifications to the PEP.
 
 The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a> and <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routines is a pointer to a <b>PEP_INFORMATION</b> structure.
+
 
 
 
@@ -109,13 +111,23 @@ The <i>PepInformation</i> parameter to the <a href="..\pepfx\nf-pepfx-pofxregist
 
 <a href="..\pepfx\nf-pepfx-pofxregisterplugin.md">PoFxRegisterPlugin</a>
 
+
+
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186625">AcceptAcpiNotification</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
+
+
 
  
 

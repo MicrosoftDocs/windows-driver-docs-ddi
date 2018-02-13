@@ -7,8 +7,8 @@ old-location: ifsk\semarklogonsessionforterminationnotification.htm
 old-project: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, SeMarkLogonSessionForTerminationNotification, ifsk.semarklogonsessionforterminationnotification
+ms.date: 2/7/2018
+ms.keywords: seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ifsk.semarklogonsessionforterminationnotification, SeMarkLogonSessionForTerminationNotification, ntifs/SeMarkLogonSessionForTerminationNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,6 +75,7 @@ Pointer to the logon ID of the logon session.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,11 +103,14 @@ The logon session was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To register the callback routine, use <a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>.
@@ -115,17 +119,24 @@ For more information about security and access control, see the documentation on
 
 
 
+
 ## -see-also
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
-<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
+
 
 <a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeMarkLogonSessionForTerminationNotification routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeMarkLogonSessionForTerminationNotification routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

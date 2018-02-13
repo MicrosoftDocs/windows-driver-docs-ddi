@@ -80,7 +80,6 @@ NTSTATUS APIENTRY DxgkDdiGetNodeMetadata(
 ### -param NodeOrdinalAndAdapterIndex
 
 
-
 ### -param pGetNodeMetadata [out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a> structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
@@ -95,7 +94,9 @@ An index of a node for which engine information will be obtained. This node is w
 
 
 
+
       Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,16 +125,20 @@ The caller-provided <i>hAdapter</i> or <i>pGetNodeMetadata</i> parameters are in
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the <i>hAdapter</i> and <i>pGetNodeMetadata</i> parameters are valid, and <i>NodeOrdinal</i> has a value in the range of 0 to (number of nodes - 1), all calls to this function must be successful.
+
 
 
 
 ## -remarks
 
 
+
 For more information on how to implement this function, see <a href="https://msdn.microsoft.com/822FEB3E-A39D-4B33-BD9D-F3166EF99AF8">Enumerating GPU engine capabilities</a>.
+
 
 
 
@@ -141,7 +146,11 @@ For more information on how to implement this function, see <a href="https://msd
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
 
  
 

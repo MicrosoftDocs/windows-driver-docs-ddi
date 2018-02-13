@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 69CE0535-3ADD-481C-A016-695A7303BBA5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "*PDEBUG_CLIENT_CONTEXT, _DEBUG_CLIENT_CONTEXT, debugger.debug_client_context, dbgeng/DEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], DEBUG_CLIENT_CONTEXT structure [Windows Debugging], DEBUG_CLIENT_CONTEXT"
+ms.keywords: DEBUG_CLIENT_CONTEXT structure [Windows Debugging], dbgeng/DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT, debugger.debug_client_context, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ A client value.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">IDebugClient7::SetClientContext</a>
+
+
 
  
 

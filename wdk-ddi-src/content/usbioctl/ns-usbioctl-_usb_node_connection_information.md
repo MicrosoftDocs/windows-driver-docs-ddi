@@ -7,8 +7,8 @@ old-location: buses\usb_node_connection_information.htm
 old-project: usbref
 ms.assetid: 1ed92343-c830-4e5e-a2f8-30b20057b1f0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PUSB_NODE_CONNECTION_INFORMATION structure pointer [Buses], _USB_NODE_CONNECTION_INFORMATION, USB_NODE_CONNECTION_INFORMATION structure [Buses], usbstrct_3c58e495-9552-4e38-81ac-45c23d964825.xml, usbioctl/USB_NODE_CONNECTION_INFORMATION, buses.usb_node_connection_information, *PUSB_NODE_CONNECTION_INFORMATION, usbioctl/PUSB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION, USB_NODE_CONNECTION_INFORMATION
+ms.date: 2/8/2018
+ms.keywords: "_USB_NODE_CONNECTION_INFORMATION, *PUSB_NODE_CONNECTION_INFORMATION, usbioctl/PUSB_NODE_CONNECTION_INFORMATION, PUSB_NODE_CONNECTION_INFORMATION structure pointer [Buses], usbstrct_3c58e495-9552-4e38-81ac-45c23d964825.xml, USB_NODE_CONNECTION_INFORMATION, usbioctl/USB_NODE_CONNECTION_INFORMATION, USB_NODE_CONNECTION_INFORMATION structure [Buses], buses.usb_node_connection_information, PUSB_NODE_CONNECTION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_NODE_CONNECTION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: USB_NODE_CONNECTION_INFORMATION, *PUSB_NODE_CONNECTION_INFORMATION
+req.typenames: "*PUSB_NODE_CONNECTION_INFORMATION, USB_NODE_CONNECTION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,7 @@ An array of <a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a
 ## -remarks
 
 
+
 If there is no device connected to the USB port, <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</a> returns only information about the port. If a device is connected to the port, <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> returns information about both the port and the connected device.
 
 The <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure is an extended version of <b>USB_NODE_CONNECTION_INFORMATION</b>. The two structures are identical, except for one member. In <b>USB_NODE_CONNECTION_INFORMATION_EX</b>, the <b>LowSpeed</b> member is replaced by the <b>Speed</b> member. <b>LowSpeed</b> is a Boolean value, so when it is <b>TRUE</b>, the device is low speed. When it is <b>FALSE</b>, the device is high speed or full speed. Thus the <b>USB_NODE_CONNECTION_INFORMATION</b> structure cannot differentiate between high and full speeds. 
@@ -132,27 +133,44 @@ The <b>Speed</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_node_connec
 
 
 
+
 ## -see-also
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</a>
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
+
 
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 <a href="..\usbspec\ne-usbspec-_usb_device_speed.md">USB_DEVICE_SPEED</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_pipe_info.md">USB_PIPE_INFO</a>
+
+
+
 <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
 
- 
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_NODE_CONNECTION_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_NODE_CONNECTION_INFORMATION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

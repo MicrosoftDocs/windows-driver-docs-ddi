@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SCSISCAN_LOCKDEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
+req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.
 ---
 

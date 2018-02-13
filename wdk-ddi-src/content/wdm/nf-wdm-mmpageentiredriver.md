@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 467a8e64-c4ed-4bd0-81f8-b792367d33bf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, MmPageEntireDriver, kernel.mmpageentiredriver, MmPageEntireDriver routine [Kernel-Mode Driver Architecture], wdm/MmPageEntireDriver
+ms.keywords: MmPageEntireDriver routine [Kernel-Mode Driver Architecture], kernel.mmpageentiredriver, wdm/MmPageEntireDriver, MmPageEntireDriver, k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to a virtual address within the driver (for example, the address of the 
 ## -returns
 
 
+
 <b>MmPageEntireDriver</b> returns a pointer to the beginning of the driver image in memory.
 
 
 
+
 ## -remarks
+
 
 
 Use this routine to force a driver to be completely pageable. Drivers that call <b>MmPageEntireDriver</b> must not have an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine (ISR) registered for any interrupts. If the interrupt occurs while the driver is paged out, the system issues a bug check.
@@ -91,17 +94,28 @@ If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
-
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
 <a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
 
 <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
+
 
  
 

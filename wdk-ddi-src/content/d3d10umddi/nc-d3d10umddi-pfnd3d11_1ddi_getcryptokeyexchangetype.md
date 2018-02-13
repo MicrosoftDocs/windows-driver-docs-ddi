@@ -40,7 +40,7 @@ apiname:
 -	GetCryptoKeyExchangeType
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback
@@ -104,7 +104,9 @@ A pointer to a GUID that specifies the supported key exchange type for the speci
 ## -returns
 
 
+
 <b>GetCryptoKeyExchangeType</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,16 +134,20 @@ The encryption algorithm specified by the <i>pCryptoType</i> parameter is not su
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>GetCryptoKeyExchangeType</b> function can be called to query the key exchange types for any index from 0 to (<b>D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS.KeyExchangeTypeCount</b>– 1). 
 
 The <i>pCryptoType</i> parameter can contain one of the following values:
+
 <ul>
 <li>
 <b>D3DCRYPTOTYPE_AES128_CTR</b> if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher. 
@@ -157,14 +163,21 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 <b>NULL_GUID</b> if the driver is not configured to use any encryption algorithm.
 
 </li>
-</ul><div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i>, <i>pCryptoType</i>, and <i>Index</i> parameter data is valid before it calls the <i>GetCryptoKeyExchangeType</i> function.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i>, <i>pCryptoType</i>, and <i>Index</i> parameter data is valid before it calls the <i>GetCryptoKeyExchangeType</i> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps.md">GetContentProtectionCaps</a>
+
+
 
  
 

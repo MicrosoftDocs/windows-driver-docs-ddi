@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], winspool/WaitForPrinterChange, print.waitforprinterchange
+ms.keywords: winspool/WaitForPrinterChange, print.waitforprinterchange, WaitForPrinterChange function [Print Devices], WaitForPrinterChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,5 @@ DWORD WINAPI WaitForPrinterChange(
 ### -param hPrinter
 
 
-
 ### -param Flags
-
 

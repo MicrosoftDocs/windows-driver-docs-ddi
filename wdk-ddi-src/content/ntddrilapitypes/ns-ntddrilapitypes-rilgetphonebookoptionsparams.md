@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6c71f2d-baf7-4293-ae13-38625be3ab3f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, netvista.rilgetphonebookoptionsparams, *LPRILGETPHONEBOOKOPTIONSPARAMS
+ms.keywords: RILGETPHONEBOOKOPTIONSPARAMS, netvista.rilgetphonebookoptionsparams, *LPRILGETPHONEBOOKOPTIONSPARAMS, ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,5 @@ typedef struct _RILGETPHONEBOOKOPTIONSPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwStoreLocation
-
 

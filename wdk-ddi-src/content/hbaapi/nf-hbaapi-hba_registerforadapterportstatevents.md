@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82598ba4-6e01-44eb-9359-4b85e8f7980c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RegisterForAdapterPortStatEvents routine [Storage Devices], hbaapi/HBA_RegisterForAdapterPortStatEvents, storage.hba_registerforadapterportstatevents, fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml, HBA_RegisterForAdapterPortStatEvents
+ms.keywords: HBA_RegisterForAdapterPortStatEvents, fibreHBA_rtns_38f8ecc4-4c08-4707-98f1-076602ecae27.xml, hbaapi/HBA_RegisterForAdapterPortStatEvents, HBA_RegisterForAdapterPortStatEvents routine [Storage Devices], storage.hba_registerforadapterportstatevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,6 +111,7 @@ TBD
 
 
 
+
 #### - userData
 
 Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
@@ -129,7 +130,9 @@ Pointer to an opaque identifier that the user must pass to <a href="..\hbaapi\nf
 ## -returns
 
 
+
 The <b>HBA_RegisterForAdapterPortStatEvents</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, this member should have one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -179,19 +182,29 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557117">HBA_PORTSTAT_CALLBACK</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
 <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557117">HBA_PORTSTAT_CALLBACK</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], bltooth.indication_parameters_enhanced, PINDICATION_PARAMETERS_ENHANCED, bthddi/INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED
+ms.keywords: PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], bthddi/PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], bthddi/INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, *PINDICATION_PARAMETERS_ENHANCED, _INDICATION_PARAMETERS_ENHANCED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INDICATION_PARAMETERS_ENHANCED
 product: Windows
 targetos: Windows
-req.typenames: INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED
+req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED"
 ---
 
 # _INDICATION_PARAMETERS_ENHANCED structure
@@ -104,8 +104,18 @@ typedef struct _INDICATION_PARAMETERS_ENHANCED {
 
 
 
-### -field Parameters
+### -field ConnectionHandle
 
+The L2CAP connection handle to the remote device. This handle is only valid for notifications that
+     arrive over an established L2CAP connection.
+
+
+### -field BtAddress
+
+The Bluetooth address of the remote device.
+
+
+### -field Parameters
 
 
 ### -field Parameters.Connect
@@ -159,6 +169,7 @@ A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameters that
 A flag that indicates the status of the configuration request. Valid flag values are listed in
        the following table.
        
+
 <table>
 <tr>
 <th>Flag</th>
@@ -216,7 +227,8 @@ The configuration request failed because one of the specified configuration opti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Parameters.ConfigResponse
@@ -269,6 +281,7 @@ A CHANNEL_CONFIG_PARAMETERS_ENHANCED structure that contains the parameter setti
 A flag that indicates the status of the configuration request. Valid flag values are listed in
        the following table.
        
+
 <table>
 <tr>
 <th>Flag</th>
@@ -326,7 +339,8 @@ The configuration request failed because one of the specified configuration opti
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Parameters.FreeExtraOptions
@@ -386,15 +400,4 @@ The number of packets to be processed over the L2CAP connection.
 ### -field Parameters.Reserved
 
 Reserved member. Do not use.
-
-
-### -field ConnectionHandle
-
-The L2CAP connection handle to the remote device. This handle is only valid for notifications that
-     arrive over an established L2CAP connection.
-
-
-### -field BtAddress
-
-The Bluetooth address of the remote device.
 

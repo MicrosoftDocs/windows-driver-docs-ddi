@@ -7,8 +7,8 @@ old-location: buses\_ucxstaticstreamscreate.htm
 old-project: usbref
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UcxStaticStreamsCreate, ucxsstreams/UcxStaticStreamsCreate, buses._ucxstaticstreamscreate, UcxStaticStreamsCreate method [Buses]
+ms.date: 2/8/2018
+ms.keywords: buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate, UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UcxStaticStreamsCreate
 product: Windows
 targetos: Windows
-req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
+req.typenames: "*PUCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -92,6 +92,7 @@ TBD
 
 
 
+
 #### - SStreamsInit [out]
 
 A pointer to a <b>UCXSSTREAMS_INIT</b> structure that describes various configuration
@@ -107,15 +108,19 @@ A pointer to a variable that receives a handle to the new stream object.
 ## -returns
 
 
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
+
 
 
 
 ## -remarks
 
 
+
 The client driver for the host controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. The parent of the new endpoint object is the endpoint object. 
 
 Typically, the client driver calls this method in its implementation of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add.md">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a> event callback. 
+
 
 

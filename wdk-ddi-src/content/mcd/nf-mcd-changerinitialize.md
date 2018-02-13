@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerInitialize function [Storage Devices], chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, mcd/ChangerInitialize, storage.changerinitialize, ChangerInitialize
+ms.keywords: chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, mcd/ChangerInitialize, ChangerInitialize, ChangerInitialize function [Storage Devices], storage.changerinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,6 +75,7 @@ Pointer to the device object created by the changer class driver to represent th
 ## -returns
 
 
+
 <b>ChangerInitialize</b> returns the STATUS_<i>XXX</i> value returned by the system port driver or one of the following values:
       
 
@@ -84,7 +85,9 @@ STATUS_INSUFFICIENT_RESOURCES
 
 
 
+
 ## -remarks
+
 
 
 The changer class driver calls <b>ChangerInitialize</b> during driver initialization, after creating a device object to represent a changer. 
@@ -95,9 +98,12 @@ After <b>ChangerInitialize</b> returns, the changer miniclass driver and the cha
 
 
 
+
 ## -see-also
 
 <a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
+
+
 
  
 

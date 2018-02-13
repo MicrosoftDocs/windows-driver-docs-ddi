@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ebfb768a-fa6b-4781-96e1-787278237d5f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETSMSCPARAMS, ntddrilapitypes/RILSETSMSCPARAMS, RILSETSMSCPARAMS, netvista.rilsetsmscparams
+ms.keywords: "*LPRILSETSMSCPARAMS, netvista.rilsetsmscparams, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSETSMSCPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETSMSCPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSETSMSCPARAMS, RILSETSMSCPARAMS"
+req.typenames: RILSETSMSCPARAMS, *LPRILSETSMSCPARAMS
 ---
 
 # RILSETSMSCPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILSETSMSCPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field raSvcCtrAddress
-
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E8A2338-AF1E-41BE-870B-E1F1877DDEDD
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], npivwmi/MSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], MSFC_NPIVLUNMappingInformation, storage.msfc_npivlunmappinginformation, _MSFC_NPIVLUNMappingInformation
+ms.keywords: storage.msfc_npivlunmappinginformation, npivwmi/MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], _MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ The LUN mapped to the virtual port.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127627">MSFC_NPIVLUNMappingInformation WMI Class</a>
+
+
 
  
 

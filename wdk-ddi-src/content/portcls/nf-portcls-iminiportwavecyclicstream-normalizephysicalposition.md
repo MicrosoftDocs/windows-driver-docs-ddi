@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_normalizephysicalposition.htm
 old-project: audio
 ms.assetid: 554cad50-d952-4658-904b-b2a8a8f75b76
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, IMiniportWaveCyclicStream::NormalizePhysicalPosition, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, NormalizePhysicalPosition, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition, IMiniportWaveCyclicStream, NormalizePhysicalPosition method [Audio Devices], audio.iminiportwavecyclicstream_normalizephysicalposition
+ms.date: 2/8/2018
+ms.keywords: IMiniportWaveCyclicStream::NormalizePhysicalPosition, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, IMiniportWaveCyclicStream, NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, NormalizePhysicalPosition method [Audio Devices], audio.iminiportwavecyclicstream_normalizephysicalposition, NormalizePhysicalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ Pointer to a caller-allocated variable that contains either the physical positio
 ## -returns
 
 
+
 <code>NormalizePhysicalPosition</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 <i>PhysicalPosition</i> is both an input and an output parameter. Given a physical position based on the actual number of bytes transferred, <code>NormalizePhysicalPosition</code> converts the position to a time-based value of 100-nanosecond units.
+
 
 

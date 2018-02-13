@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.oemqueryadvancewidths, OEMQueryAdvanceWidths function [Print Devices], printoem/OEMQueryAdvanceWidths, print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, OEMQueryAdvanceWidths
+ms.keywords: print.oemqueryadvancewidths, OEMQueryAdvanceWidths, print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,23 +76,17 @@ BOOL APIENTRY OEMQueryAdvanceWidths(
 ### -param dhpdev
 
 
-
 ### -param pfo
-
 
 
 ### -param iMode
 
 
-
 ### -param phg [in]
-
 
 
 ### -param pvWidths [out]
 
 
-
 ### -param cGlyphs
-
 

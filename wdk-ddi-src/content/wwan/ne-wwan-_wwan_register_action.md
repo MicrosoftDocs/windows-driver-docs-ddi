@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8c343094-0927-4cdd-be39-93dcb25f6bf6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_REGISTER_ACTION, WwanRegisterActionAutomatic, _WWAN_REGISTER_ACTION, wwan/WwanRegisterActionAutomatic, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, wwan/WwanRegisterActionManual, WwanRegisterActionManual, netvista.wwan_register_action, WWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionMax, WwanRegisterActionMax, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_REGISTER_ACTION
+ms.keywords: wwan/PWWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanRegisterActionManual, WwanRegisterActionMax, PWWAN_REGISTER_ACTION, WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, wwan/WwanRegisterActionAutomatic, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterActionAutomatic, wwan/WWAN_REGISTER_ACTION, _WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION, wwan/WwanRegisterActionManual, netvista.wwan_register_action, wwan/WwanRegisterActionMax, WWAN_REGISTER_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,6 +89,8 @@ The total number of supported registration actions.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
+
+
 
  
 

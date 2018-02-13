@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlchecklockforoplockrequest.htm
 old-project: ifsk
 ms.assetid: 67056CD0-EBFB-4E34-9613-98ECBB858810
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ntifs/FsRtlCheckLockForOplockRequest, ifsk.fsrtlchecklockforoplockrequest
+ms.date: 2/7/2018
+ms.keywords: FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], FsRtlCheckLockForOplockRequest, ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,15 +81,19 @@ The file allocation size to check for any locked ranges.
 ## -returns
 
 
+
 <b>FsRtlCheckLockForOplockRequest</b> returns <b>TRUE</b> if the  oplock request can be granted;  <b> FALSE</b> otherwise.
+
 
 
 
 ## -remarks
 
 
+
 <b>FsRtlCheckLockForOplockRequest</b> returns <b>TRUE</b> if <i>AllocationSize</i> = 0.
 
 If <i>FileLock</i> has any pending lock requests, the check fails and <b>FsRtlCheckLockForOplockRequest</b> returns <b>FALSE</b>.
+
 
 

@@ -2,18 +2,18 @@
 UID: NF:dbgeng.IDebugSystemObjects2.GetCurrentProcessHandle
 title: IDebugSystemObjects2::GetCurrentProcessHandle method
 author: windows-driver-content
-description: The GetCurrentProcessHandle function returns the system handle for the current process.
-old-location: debugger\getcurrentprocesshandle.htm
+description: The GetCurrentProcessHandle method returns the system handle for the current process.
+old-location: debugger\getcurrentprocesshandle2.htm
 old-project: debugger
-ms.assetid: b6780f1c-e093-4d91-8909-dabb1ecaefaa
+ms.assetid: 87f60064-5722-4b4e-af9b-f1d9009a7551
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/GetCurrentProcessHandle, WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects2, debugger.getcurrentprocesshandle, GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], IDebugSystemObjects, IDebugSystemObjects::GetCurrentProcessHandle
+ms.keywords: dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3::GetCurrentProcessHandle, debugger.getcurrentprocesshandle2, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, GetCurrentProcessHandle, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle method [Windows Debugging], GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: dbgeng.h
-req.include-header: Wdbgexts.h, Dbgeng.h
+req.include-header: Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -33,11 +33,14 @@ topictype:
 -	APIRef
 -	kbSyntax
 apitype:
--	HeaderDef
+-	COM
 apilocation:
--	wdbgexts.h
+-	dbgeng.h
 apiname:
--	GetCurrentProcessHandle
+-	IDebugSystemObjects.GetCurrentProcessHandle
+-	IDebugSystemObjects2.GetCurrentProcessHandle
+-	IDebugSystemObjects3.GetCurrentProcessHandle
+-	IDebugSystemObjects4.GetCurrentProcessHandle
 product: Windows
 targetos: Windows
 req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
@@ -49,15 +52,15 @@ req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ## -description
 
 
-The <b>GetCurrentProcessHandle</b> function returns the system handle for the current process.
+The <b>GetCurrentProcessHandle</b> method returns the system handle for the current process.
 
 
 ## -syntax
 
 
 ````
-__inline VOID GetCurrentProcessHandle(
-   PHANDLE hp
+HRESULT GetCurrentProcessHandle(
+  [out] PULONG64 Handle
 );
 ````
 
@@ -67,27 +70,46 @@ __inline VOID GetCurrentProcessHandle(
 
 
 
-### -param Handle
+### -param Handle [out]
 
-
-
-
-
-#### - hp
-
-Receives the system handle for the current process.
+Receives the system handle of the current process.
 
 
 ## -returns
 
 
-None
+
+This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method was successful.
+
+</td>
+</tr>
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-In kernel-mode debugging, the only process in the target is the virtual process created for the kernel. In this case, an artificial handle is created. The artificial handle can only be used with the debugger.
+
+In kernel-mode debugging, the only process in the target is the virtual process created for the kernel.  In this case, an artificial handle is created.  The artificial handle can only be used with the debugger engine API.
+
+For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details on system handles, see <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">Handles</a>.
+
 
 

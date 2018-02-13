@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bf0c750f-0e29-42d9-a127-953e3d49b969
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects2::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetNumberProcesses, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects_28914631-9658-462c-8234-f48bb85efdf6.xml, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetNumberProcesses, IDebugSystemObjects2 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects3 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects4::GetNumberProcesses, debugger.getnumberprocesses, GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects::GetNumberProcesses, IDebugSystemObjects interface [Windows Debugging], GetNumberProcesses method, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects2::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], dbgeng/IDebugSystemObjects::GetNumberProcesses, dbgeng/IDebugSystemObjects3::GetNumberProcesses
+ms.keywords: dbgeng/IDebugSystemObjects3::GetNumberProcesses, debugger.getnumberprocesses, IDebugSystemObjects2::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects interface, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetNumberProcesses, IDebugSystemObjects::GetNumberProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects2 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects3::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects2 interface, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_28914631-9658-462c-8234-f48bb85efdf6.xml, GetNumberProcesses method [Windows Debugging], dbgeng/IDebugSystemObjects::GetNumberProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetNumberProcesses method, GetNumberProcesses, IDebugSystemObjects4, IDebugSystemObjects2, IDebugSystemObjects3, IDebugSystemObjects interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects4::GetNumberProcesses, dbgeng/IDebugSystemObjects2::GetNumberProcesses, IDebugSystemObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ Receives the number of processes.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,11 +97,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 In kernel-mode debugging, there is only a single virtual process representing the kernel.
@@ -107,5 +112,6 @@ In kernel-mode debugging, there is only a single virtual process representing th
 In user-mode debugging, the number of processes changes with the create-process and exit-process debugging <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a>.
 
 For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

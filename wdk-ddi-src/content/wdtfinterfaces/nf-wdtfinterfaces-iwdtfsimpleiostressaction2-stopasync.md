@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: fac4b59b-da9a-4245-bff0-f9177962c9d6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, StopAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StopAsync method, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, IWDTFSimpleIOStressAction2::StopAsync, StopAsync, StopAsync method [Windows Device Testing Framework], wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync, dtf.iwdtfsimpleiostressaction2_stopasync
+ms.keywords: dtf.iwdtfsimpleiostressaction2_stopasync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StopAsync method, StopAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, StopAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2::StopAsync, StopAsync, IWDTFSimpleIOStressAction2, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ HRESULT StopAsync();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
+
+
 
  
 

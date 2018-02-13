@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 176dbb0c-227e-48b2-956c-9e2b42f4c68b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_RemoveTarget_OUT, hbapiwmi/RemoveTarget_OUT, RemoveTarget_OUT, PRemoveTarget_OUT structure pointer [Storage Devices], RemoveTarget_OUT structure [Storage Devices], PRemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT, storage.removetarget_out, *PRemoveTarget_OUT, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml"
+ms.keywords: RemoveTarget_OUT structure [Storage Devices], PRemoveTarget_OUT structure pointer [Storage Devices], *PRemoveTarget_OUT, _RemoveTarget_OUT, storage.removetarget_out, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml, RemoveTarget_OUT, hbapiwmi/RemoveTarget_OUT, PRemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemoveTarget_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PRemoveTarget_OUT, RemoveTarget_OUT"
+req.typenames: RemoveTarget_OUT, *PRemoveTarget_OUT
 ---
 
 # _RemoveTarget_OUT structure
@@ -75,13 +75,17 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the RemoveTarget_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 58352577-9ed9-4fc6-9cc7-dabcf4f77ad9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetExecutionStatus method, IDebugControl3 interface [Windows Debugging], GetExecutionStatus method, IDebugControl2::GetExecutionStatus, IDebugControl interface [Windows Debugging], GetExecutionStatus method, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, dbgeng/IDebugControl3::GetExecutionStatus, debugger.getexecutionstatus, dbgeng/IDebugControl::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl interface, GetExecutionStatus, IDebugControl3, GetExecutionStatus method [Windows Debugging], IDebugControl3::GetExecutionStatus
+ms.keywords: IDebugControl2, dbgeng/IDebugControl::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetExecutionStatus method, GetExecutionStatus method [Windows Debugging], IDebugControl interface [Windows Debugging], GetExecutionStatus method, GetExecutionStatus method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetExecutionStatus, IDebugControl, dbgeng/IDebugControl3::GetExecutionStatus, GetExecutionStatus, IDebugControl3::GetExecutionStatus, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, IDebugControl3, debugger.getexecutionstatus, IDebugControl::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetExecutionStatus, IDebugControl2 interface [Windows Debugging], GetExecutionStatus method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,6 +72,7 @@ HRESULT GetExecutionStatus(
 ### -param Status [out]
 
 Receives the execution status.  This will be set to one of the values in the following table. Note that the description of these values differs slightly from the description in <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -137,13 +138,16 @@ The target is not running.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -160,14 +164,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
@@ -175,11 +183,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556693">SetExecutionStatus</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

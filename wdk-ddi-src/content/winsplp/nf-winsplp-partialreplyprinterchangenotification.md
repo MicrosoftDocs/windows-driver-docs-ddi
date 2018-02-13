@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, PartialReplyPrinterChangeNotification, print.partialreplyprinterchangenotification, PartialReplyPrinterChangeNotification function [Print Devices], winsplp/PartialReplyPrinterChangeNotification
+ms.keywords: winsplp/PartialReplyPrinterChangeNotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, PartialReplyPrinterChangeNotification function [Print Devices], print.partialreplyprinterchangenotification, PartialReplyPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - hNotify [in]
 
 Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a> function.
@@ -93,11 +94,14 @@ Caller-supplied pointer to a PRINTER_NOTIFY_INFO_DATA structure (described in th
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the function returns <b>FALSE</b>. The caller can obtain an error code by calling <b>GetLastError</b>.
 
 
 
+
 ## -remarks
+
 
 
 For the specified notification handle, the spooler's <code>PartialReplyPrinterChangeNotification</code> function adds the contents of the specified PRINTER_NOTIFY_INFO_DATA structure to the array within the spooler's stored PRINTER_NOTIFY_INFO structure. (These structures are described in the Windows SDK documentation.)
@@ -110,11 +114,16 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 
 
+
 ## -see-also
 
 <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a>
+
+
 
  
 

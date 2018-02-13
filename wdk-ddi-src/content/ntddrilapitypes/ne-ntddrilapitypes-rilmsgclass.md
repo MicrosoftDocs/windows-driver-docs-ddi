@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f7e2c4f-56bc-4efd-8911-5161b657dbea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_ALL, RIL_MSGCLASS_OUTGOING, ntddrilapitypes/RIL_MSGCLASS_BROADCAST, RILMSGCLASS, RIL_MSGCLASS_INCOMING, RIL_MSGCLASS_ALL, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGCLASS, netvista.rilmsgclass, ntddrilapitypes/RIL_MSGCLASS_OUTGOING, RIL_MSGCLASS_BROADCAST
+ms.keywords: netvista.rilmsgclass, ntddrilapitypes/RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_OUTGOING, RIL_MSGCLASS_BROADCAST, ntddrilapitypes/RIL_MSGCLASS_BROADCAST, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGCLASS_ALL, RILMSGCLASS, RIL_MSGCLASS_OUTGOING, RIL_MSGCLASS_INCOMING, ntddrilapitypes/RILMSGCLASS, RIL_MSGCLASS_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,19 +73,14 @@ typedef enum _RILMSGCLASS {
 ### -field RIL_MSGCLASS_NONE
 
 
-
 ### -field RIL_MSGCLASS_INCOMING
-
 
 
 ### -field RIL_MSGCLASS_OUTGOING
 
 
-
 ### -field RIL_MSGCLASS_BROADCAST
 
 
-
 ### -field RIL_MSGCLASS_ALL
-
 

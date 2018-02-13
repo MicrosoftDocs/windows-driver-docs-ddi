@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9bb94db6-1d0d-471f-b2a5-71ca659afcd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getallemergencynumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers
+ms.keywords: netvista.ril_getallemergencynumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], RIL_GetAllEmergencyNumbers, rilapi/RIL_GetAllEmergencyNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ HRESULT  RIL_GetAllEmergencyNumbers(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

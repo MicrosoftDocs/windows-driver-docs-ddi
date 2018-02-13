@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IXpsRasterizerNotificationCallback::Continue, Continue method [Print Devices], IXpsRasterizerNotificationCallback interface, xpsrassvc/IXpsRasterizerNotificationCallback::Continue, Continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, print.ixpsrasterizernotificationcallback_continue, Continue method [Print Devices], IXpsRasterizerNotificationCallback interface [Print Devices], Continue method, IXpsRasterizerNotificationCallback
+ms.keywords: Continue method [Print Devices], IXpsRasterizerNotificationCallback interface, print.ixpsrasterizernotificationcallback_continue, IXpsRasterizerNotificationCallback::Continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, Continue method [Print Devices], Continue, IXpsRasterizerNotificationCallback, xpsrassvc/IXpsRasterizerNotificationCallback::Continue, IXpsRasterizerNotificationCallback interface [Print Devices], Continue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,10 +67,13 @@ HRESULT Continue();
 
 
 
+
 ## -returns
 
 
+
 <code>Continue</code> returns S_OK to enable rasterization to continue. Otherwise, the method returns an error code to abort rasterization. Possible error return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -87,11 +90,14 @@ The current print job has been canceled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is implemented by an XPSDrv filter. During a page rasterization operation, the <a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">XPS rasterization service</a> periodically calls this method to determine whether to continue the operation.
@@ -104,13 +110,20 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a>
+
+
 
  
 

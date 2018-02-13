@@ -7,8 +7,8 @@ old-location: buses\usb_controller_flavor.htm
 old-project: usbref
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UHCI_Generic, _USB_CONTROLLER_FLAVOR, EHCI_Generic, usb/UHCI_Generic, usb/OHCI_Hydra, usb/USB_CONTROLLER_FLAVOR, usb/UHCI_Ich4, usb/OHCI_NEC, EHCI_Lucent, UHCI_VIA_x01, usb/UHCI_Ich5, usb/UHCI_VIA, USB_CONTROLLER_FLAVOR, UHCI_Ich2, usb/UHCI_VIA_x04, UHCI_Ich1, EHCI_NEC, EHCI_Intel_Medfield, usb/UHCI_VIA_x01, usb/OHCI_Generic, UHCI_VIA_x02, usb/UHCI_VIA_x0E_FIFO, OHCI_NEC, UHCI_Ich6, usb/UHCI_VIA_x02, usb/UHCI_VIA_x03, usb/EHCI_Generic, UHCI_VIA_x04, usb/EHCI_Lucent, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, UHCI_Ich3m, UHCI_Piix4, usb/UHCI_Ich3m, USB_CONTROLLER_FLAVOR enumeration [Buses], USB_HcGeneric, UHCI_VIA, UHCI_VIA_x03, usb/UHCI_Intel, UHCI_Ich4, UHCI_Ich5, usb/EHCI_NEC, OHCI_Generic, usb/EHCI_Intel_Medfield, usb/UHCI_Ich1, usb/UHCI_Ich6, usb/UHCI_Ich2, usb/USB_HcGeneric, UHCI_VIA_x0E_FIFO, UHCI_Intel, EHCI_NVIDIA_Tegra2, usb/EHCI_NVIDIA_Tegra2, OHCI_Hydra, buses.usb_controller_flavor, usb/EHCI_NVIDIA_Tegra3, UHCI_Piix3, usb/UHCI_Piix3, EHCI_NVIDIA_Tegra3, usb/UHCI_Piix4
+ms.date: 2/8/2018
+ms.keywords: OHCI_NEC, UHCI_Ich5, USB_HcGeneric, UHCI_Piix4, usb/USB_CONTROLLER_FLAVOR, _USB_CONTROLLER_FLAVOR, EHCI_Generic, USB_CONTROLLER_FLAVOR enumeration [Buses], UHCI_Ich6, OHCI_Generic, usb/UHCI_Ich6, usb/UHCI_Piix4, usb/UHCI_Ich3m, UHCI_VIA_x04, usb/OHCI_NEC, UHCI_Ich1, usb/UHCI_Intel, UHCI_VIA, usb/UHCI_VIA_x01, usb/UHCI_Piix3, usb/EHCI_NVIDIA_Tegra2, usb/EHCI_NEC, usb/UHCI_Ich4, usb/UHCI_VIA, usb/UHCI_Ich1, usb/UHCI_VIA_x0E_FIFO, usb/UHCI_VIA_x02, USB_CONTROLLER_FLAVOR, UHCI_Intel, EHCI_NVIDIA_Tegra3, UHCI_VIA_x03, usb/EHCI_NVIDIA_Tegra3, EHCI_Intel_Medfield, usb/EHCI_Intel_Medfield, usb/UHCI_Generic, usb/UHCI_VIA_x03, UHCI_Ich2, EHCI_NVIDIA_Tegra2, OHCI_Hydra, usb/EHCI_Generic, EHCI_Lucent, UHCI_VIA_x02, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/UHCI_Ich5, EHCI_NEC, UHCI_VIA_x01, usb/UHCI_VIA_x04, UHCI_Generic, usb/OHCI_Hydra, buses.usb_controller_flavor, UHCI_Ich4, UHCI_VIA_x0E_FIFO, usb/EHCI_Lucent, usb/UHCI_Ich2, UHCI_Ich3m, usb/USB_HcGeneric, UHCI_Piix3, usb/OHCI_Generic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -136,7 +136,6 @@ Indicates an Intel ICH2 UHCI host controller.
 ### -field UHCI_Reserved204
 
 
-
 ### -field UHCI_Ich1
 
 Indicates an Intel 815 ICH1 UHCI host controller.
@@ -231,11 +230,15 @@ Indicates an Intel Medfield host controller.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONTROLLER_FLAVOR enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONTROLLER_FLAVOR enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

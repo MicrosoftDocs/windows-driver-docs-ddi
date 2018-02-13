@@ -40,7 +40,7 @@ apiname:
 -	WinDbgExtensionDllInit
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT"
+req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 
@@ -73,6 +73,7 @@ VOID WinDbgExtensionDllInit(
 ### -param lpExtensionApis
 
 A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to functions that you can use for standard operations. Copy the entire structure to a global variable in your DLL. For example, you could create a  global variable named ExtensionApis as shown in the following example.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -97,11 +98,14 @@ Specifies the Windows build number (for example 2600) of the target system. Save
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>WinDbgExtensionDllInit</i> is called by the debugger when the extension DLL is loaded.
@@ -109,5 +113,6 @@ None
 It is recommended that you always use 64-bit pointers in your code, since the debugger will automatically resize these pointers when necessary. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details. However, if you choose to use 32-bit pointers, the first parameter of <i>WinDbgExtensionDllInit</i> will have the type PWINDBG_EXTENSION_APIS instead of PWINDBG_EXTENSION_APIS64.
 
 For more details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560220">Using WdbgExts Extension Callbacks</a>.
+
 
 

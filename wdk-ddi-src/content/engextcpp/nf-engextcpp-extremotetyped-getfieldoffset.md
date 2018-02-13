@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, ExtRemoteTyped, ExtRemoteTyped::GetFieldOffset, GetFieldOffset, GetFieldOffset method [Windows Debugging], debugger.extremotetyped_getfieldoffset, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: ExtRemoteTyped::GetFieldOffset, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, GetFieldOffset method [Windows Debugging], GetFieldOffset, debugger.extremotetyped_getfieldoffset, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetFieldOffset method
@@ -75,17 +75,25 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 ## -returns
 
 
+
 <b>GetFieldOffset</b> returns the offset of the member from the base address of an instance of the type.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nf-dbgeng-idebugsymbols-getfieldoffset.md">GetFieldOffset</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
-<a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
+
 
 <b>IDebugSymbols::GetFieldOffset</b>
+
+
 
  
 

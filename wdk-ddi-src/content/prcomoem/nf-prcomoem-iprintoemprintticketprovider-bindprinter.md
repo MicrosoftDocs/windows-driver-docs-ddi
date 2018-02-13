@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: BindPrinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider::BindPrinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface
+ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, print.iprintoemprintticketprovider_bindprinter, IPrintOemPrintTicketProvider::BindPrinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.BindPrinter
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,6 @@ A pointer to a variable that receives one of the following enumerated values:
 
 
 
-The OEM object that is being called should set the value pointed to by this parameter.
 
 
 #### OEMPT_DEFAULT
@@ -96,9 +95,12 @@ The OEM object that is being called should set the value pointed to by this para
 The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
 
 
+
 #### OEMPT_NOSNAPSHOT
 
 The system will not place a binary encoding (a BLOB) of the private DEVMODEW structure into the print ticket in a conversion of a DEVMODEW to a print ticket. Use this value if all of the public and private DEVMODEW members are fully represented in the print ticket.
+
+The OEM object that is being called should set the value pointed to by this parameter.
 
 
 ### -param cNamespaces [out]
@@ -114,7 +116,9 @@ A pointer to a variable that receives the address of the first element of a BSTR
 ## -returns
 
 
+
 <code>IPrintOemPrintTicketProvider::BindPrinter</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,11 +146,14 @@ The plug-in does not support the version of the print schema that is specified i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The plug-in is responsible for allocating memory for the array that is pointed to by the <i>ppNamespaces</i> parameter and for the namespace URI strings. The array should be allocated by using the <b>CoTaskMemAlloc</b> function; the namespace strings should be allocated by using the <b>SysAllocString</b> function. Both of these functions are described in the Microsoft Windows SDK documentation. The array that is pointed to by the <i>ppNamespaces</i> parameter is not required to contain the namespaces for the Print Schema Keywords or the Print Schema Framework.
@@ -157,13 +164,20 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553170">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+
 
  
 

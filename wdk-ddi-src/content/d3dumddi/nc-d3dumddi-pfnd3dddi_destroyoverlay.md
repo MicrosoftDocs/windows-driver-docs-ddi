@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DestroyOverlay(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
@@ -91,14 +93,18 @@ __checkReturn HRESULT APIENTRY DestroyOverlay(
 ## -returns
 
 
+
 <b>DestroyOverlay</b> returns S_OK or an appropriate error result if the overlay hardware is not disabled.
+
 
 
 
 ## -remarks
 
 
+
 Overlays are independent from the resources that are displayed by using the overlays.
+
 
 
 
@@ -106,7 +112,11 @@ Overlays are independent from the resources that are displayed by using the over
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a>
+
+
 
  
 

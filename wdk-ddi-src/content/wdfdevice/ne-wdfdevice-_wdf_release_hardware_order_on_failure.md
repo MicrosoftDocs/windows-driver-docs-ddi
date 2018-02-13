@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 534B1E39-6B11-4954-8792-41A25FCA31B2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration pointer, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WdfReleaseHardwareOrderOnFailureInvalid, wdfdevice/WdfReleaseHardwareOrderOnFailureAfterDescendants, WdfReleaseHardwareOrderOnFailureEarly, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration, wdfdevice/WdfReleaseHardwareOrderOnFailureInvalid, wdfdevice/WdfReleaseHardwareOrderOnFailureEarly, _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WdfReleaseHardwareOrderOnFailureAfterDescendants, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdf.wdf_release_hardware_order_on_failure, kmdf.wdf_release_hardware_order_on_failure
+ms.keywords: wdfdevice/WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdfdevice/WdfReleaseHardwareOrderOnFailureInvalid, wdfdevice/PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration, wdfdevice/WdfReleaseHardwareOrderOnFailureAfterDescendants, wdfdevice/WdfReleaseHardwareOrderOnFailureEarly, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WdfReleaseHardwareOrderOnFailureAfterDescendants, kmdf.wdf_release_hardware_order_on_failure, _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, wdf.wdf_release_hardware_order_on_failure, WdfReleaseHardwareOrderOnFailureInvalid, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration pointer, PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WdfReleaseHardwareOrderOnFailureEarly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
 product: Windows
 targetos: Windows
-req.typenames: WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
+req.typenames: "*PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE"
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,7 @@ The framework always calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_w
 ## -remarks
 
 
+
 The <b>WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE</b> enumeration is used as input to  <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a>.
 
 If a driver specifies <b>WdfReleaseHardwareOrderOnFailureEarly</b>, then in normal device removal, the framework calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> after it has called the <i>EvtDeviceReleaseHardware</i> function for all child devices that the driver enumerates. However, in the event of a device power-up or power-down failure, the framework might call the  driver's <i>EvtDeviceReleaseHardware</i> before it has called the <i>EvtDeviceReleaseHardware</i> functions for all child devices.
@@ -99,11 +100,16 @@ If a driver specifies <b>WdfReleaseHardwareOrderOnFailureAfterDescendants</b>, t
 
 
 
+
 ## -see-also
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a>
+
+
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a>
+
 
  
 

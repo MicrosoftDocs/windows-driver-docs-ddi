@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PLineDisplayMarqueeTypeType enumeration pointer, pointofservicecommontypes/LineDisplayMarqueeTypeType, _LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, pos.linedisplaymarqueetypetype, pointofservicecommontypes/, pointofservicecommontypes/PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType
+ms.keywords: PLineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, pointofservicecommontypes/LineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, _LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype, pointofservicecommontypes/, pointofservicecommontypes/PLineDisplayMarqueeTypeType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -70,25 +70,19 @@ typedef enum _LineDisplayMarqueeTypeType {
 ### -field MarqueeTypeNone
 
 
-
 ### -field MarqueeTypeUp
-
 
 
 ### -field MarqueeTypeDown
 
 
-
 ### -field MarqueeTypeLeft
-
 
 
 ### -field MarqueeTypeRight
 
 
-
 ### -field MarqueeTypeInit
-
 
 
 

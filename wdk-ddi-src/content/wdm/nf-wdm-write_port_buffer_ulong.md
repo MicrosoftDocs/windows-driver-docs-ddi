@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f786456-344a-4fc3-bc13-8d4253f4039a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, kernel.write_port_buffer_ulong, wdm/WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture]
+ms.keywords: WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], wdm/WRITE_PORT_BUFFER_ULONG, kernel.write_port_buffer_ulong, WRITE_PORT_BUFFER_ULONG, k103_821262d5-40d2-435b-965e-cf0a917736b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,15 +89,19 @@ Specifies the number of ULONG values to be written to the port.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of ULONG values.
 
 Callers of <b>WRITE_PORT_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.
+
 
 

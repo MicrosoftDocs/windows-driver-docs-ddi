@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85615799-5AA0-4D83-9246-73F3C7ABFFF6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_IPADDRESS_ENTRY, wwan/WWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY, netvista.wwan_ipaddress_entry, PWWAN_IPADDRESS_ENTRY, _WWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_IPADDRESS_ENTRY
+ms.keywords: wwan/WWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPADDRESS_ENTRY, _WWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY, netvista.wwan_ipaddress_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_IPADDRESS_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY"
+req.typenames: WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -73,6 +73,16 @@ typedef struct _WWAN_IPADDRESS_ENTRY {
 
 
 
+### -field IsIpv6
+
+ 
+
+
+### -field IsReported
+
+ 
+
+
 ### -field Ipv4
 
  
@@ -82,15 +92,6 @@ typedef struct _WWAN_IPADDRESS_ENTRY {
 
  
 
-
-### -field IsIpv6
-
- 
-
-
-### -field IsReported
-
- 
 
 
 
@@ -122,9 +123,11 @@ union
 </tr>
 </table></span></div>
 
+
 #### Ipv4
 
 The IPV4 address of the PDP context, if <b>IsIpv6</b> is not set.
+
 
 
 #### Ipv6

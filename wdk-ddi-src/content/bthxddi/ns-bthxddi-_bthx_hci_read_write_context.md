@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: EC31A704-A264-4A77-B979-BFA59B42BA94
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, _BTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices], *PBTHX_HCI_READ_WRITE_CONTEXT
+ms.keywords: PBTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, _BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTHX_HCI_READ_WRITE_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT"
+req.typenames: BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT
 ---
 
 # _BTHX_HCI_READ_WRITE_CONTEXT structure
@@ -85,6 +85,7 @@ The type of packetized data.
 
 
 
+
 #### - Data[]
 
 Actual data to be read/written.
@@ -93,10 +94,12 @@ Actual data to be read/written.
 ## -remarks
 
 
+
 The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE IOCTL</a> and specifies the type of packet associated with the write. It also specifies the data to be written in the <b>Data</b> member.
 
 This structure is also used as an output parameter for the <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
 
 This structure is packed to 1-byte boundary.
+
 
 

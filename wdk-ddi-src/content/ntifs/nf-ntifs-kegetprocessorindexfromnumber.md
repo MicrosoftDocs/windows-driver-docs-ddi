@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7d8ca52-a1e1-4f5f-9ffe-d64cec47eac7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeGetProcessorIndexFromNumber, k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], KeGetProcessorIndexFromNumber, kernel.kegetprocessorindexfromnumber
+ms.keywords: kernel.kegetprocessorindexfromnumber, KeGetProcessorIndexFromNumber, k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, wdm/KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a caller-allocated <a href="..\miniport\ns-miniport-_processor_numb
 ## -returns
 
 
+
 <b>KeGetProcessorIndexFromNumber</b> returns a systemwide processor index if the call is successful. If <i>ProcNumber</i> points to an invalid <b>PROCESSOR_NUMBER</b> value, the routine returns INVALID_PROCESSOR_INDEX, which is defined in the Wdm.h header file. 
 
 
 
+
 ## -remarks
+
 
 
 This routine accepts as input a <b>PROCESSOR_NUMBER</b> structure that identifies a processor by its group number and its processor number within the group. The return value is a processor index that identifies the processor across the entire multiprocessor system.
@@ -92,13 +95,20 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 
 
+
 ## -see-also
 
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+
 
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+
+
 
  
 

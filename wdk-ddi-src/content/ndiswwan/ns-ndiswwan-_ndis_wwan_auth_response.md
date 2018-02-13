@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9F991E80-5155-45CE-9547-7354EE7EC4DB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response, ndiswwan/NDIS_WWAN_AUTH_RESPONSE"
+ms.keywords: netvista.ndis_wwan_auth_response, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_AUTH_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE"
+req.typenames: NDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE
 ---
 
 # _NDIS_WWAN_AUTH_RESPONSE structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_AUTH_RE
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_AUTH_RESPONSE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -121,6 +123,7 @@ For more information about these members, see
 ### -field uStatus
 
 The status of the response received for authentication challenge operation. The miniport driver returns one of the following WWAN_STATUS values as appropriate.
+
 <table>
 <tr>
 <th>WWAN_STATUS_VALUE</th>
@@ -156,7 +159,8 @@ WWAN_STATUS_AUTH_AMF_NOT_SET
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AuthResponse
@@ -167,15 +171,21 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE<
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439821">NDIS_STATUS_WWAN_AUTH_RESPONSE</a> NDIS status notification uses this structure.
+
 
 
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439821">NDIS_STATUS_WWAN_AUTH_RESPONSE</a>
 
-<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
+
 
  
 

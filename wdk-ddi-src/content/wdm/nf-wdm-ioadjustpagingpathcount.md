@@ -81,6 +81,8 @@ TBD
 
 
 
+
+
 #### - Count [in]
 
 Pointer to a caller-supplied variable that contains a counter. A driver typically stores a page-file counter in the device extension for the device.
@@ -94,9 +96,11 @@ Specifies whether the counter is to be incremented or decremented. A value of <b
 ## -remarks
 
 
+
 This routine is useful for maintaining a count of paging files on a device. The operating system notifies a driver that a paging file has been created on, or removed from, one of the driver's devices by sending an IRP. The IRP has the major code <a href="https://msdn.microsoft.com/library/windows/hardware/ff549268">IRP_MJ_PNP</a> and the minor code <a href="https://msdn.microsoft.com/library/windows/hardware/ff550841">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>.
 
 This routine can be used for other counters, such as counters for hibernation files or crash-dump files.
+
 
 
 
@@ -104,7 +108,11 @@ This routine can be used for other counters, such as counters for hibernation fi
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550841">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549268">IRP_MJ_PNP</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PPERF_CONFIGURATION_DATA, storport/PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, storage.perf_configuration_data, storport/PPERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], PERF_CONFIGURATION_DATA structure [Storage Devices], structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, PPERF_CONFIGURATION_DATA"
+ms.keywords: storport/PERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, storage.perf_configuration_data, *PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], PERF_CONFIGURATION_DATA structure [Storage Devices], storport/PPERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PERF_CONFIGURATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA"
+req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,7 @@ The size of the structure, set to <b>sizeof(PERF_CONFIGURATION_DATA)</b>.
 
 A bitwise-OR of supported flags. Currently, the following flags are supported:
 	  
+
 <table>
 <tr>
 <th>Flag</th>
@@ -181,7 +182,8 @@ This flag is valid when <b>Version</b> is set to 5.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ConcurrentChannels
@@ -217,6 +219,7 @@ When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Sto
 ## -remarks
 
 
+
 The current version of this structure is defined by <b>STOR_PERF_VERSION</b>. Setting <b>Version</b> to this value will allow <b>Flags</b> to specify all  supported optimizations.
 
 The purpose of the STOR_PERF_DPC_REDIRECTION flag is to ensure that individual CPUs are not overwhelmed with DPC processing. When this flag is set, DPC processing is spread over multiple CPUs. If STOR_PERF_DPC_REDIRECTION_CURRENT_CPU is not set, StorPort will attempt to schedule I/O completion DPCs on the same CPU that originated the I/O.
@@ -227,9 +230,12 @@ For information about enabling message-signaled interrupts for a device, see <a 
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nf-storport-storportinitializeperfopts.md">StorPortInitializePerfOpts</a>
+
+
 
  
 

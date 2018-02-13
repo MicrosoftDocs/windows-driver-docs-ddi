@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::OutputVaList, IDebugControl interface [Windows Debugging], OutputVaList method, OutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl2::OutputVaList, debugger.outputvalist, IDebugControl3::OutputVaList, dbgeng/IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl3 interface [Windows Debugging], OutputVaList method, OutputVaList, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl::OutputVaList, dbgeng/IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, IDebugControl3, IDebugControl2 interface [Windows Debugging], OutputVaList method
+ms.keywords: IDebugControl2, dbgeng/IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::OutputVaList, IDebugControl interface [Windows Debugging], OutputVaList method, IDebugControl3::OutputVaList, IDebugControl2 interface [Windows Debugging], OutputVaList method, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl, dbgeng/IDebugControl3::OutputVaList, OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, IDebugControl3 interface [Windows Debugging], OutputVaList method, debugger.outputvalist, IDebugControl::OutputVaList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,7 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
+
 <table>
 <tr>
 <th>Character</th>
@@ -250,7 +251,8 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Args [in]
@@ -261,7 +263,9 @@ Specifies additional parameters that represent values to be inserted into the ou
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -278,30 +282,46 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
+
 
 
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
+
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
 
  
 

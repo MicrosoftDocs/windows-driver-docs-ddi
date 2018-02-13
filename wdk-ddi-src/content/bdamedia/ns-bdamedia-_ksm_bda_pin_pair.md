@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 310a3faf-de71-4965-9511-cb8feca7087c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSM_BDA_PIN_PAIR structure pointer [Streaming Media Devices], PKSM_BDA_PIN_PAIR, _KSM_BDA_PIN_PAIR, bdaref_c171cffc-e7e6-432b-98ae-f198fdc20079.xml, KSM_BDA_PIN_PAIR structure [Streaming Media Devices], bdamedia/PKSM_BDA_PIN_PAIR, *PKSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR, stream.ksm_bda_pin_pair, bdamedia/KSM_BDA_PIN_PAIR
+ms.keywords: bdamedia/KSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR structure [Streaming Media Devices], bdaref_c171cffc-e7e6-432b-98ae-f198fdc20079.xml, _KSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR, bdamedia/PKSM_BDA_PIN_PAIR, PKSM_BDA_PIN_PAIR structure pointer [Streaming Media Devices], stream.ksm_bda_pin_pair, PKSM_BDA_PIN_PAIR, *PKSM_BDA_PIN_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,11 @@ typedef struct _KSM_BDA_PIN_PAIR {
 
 
 
+### -field Method
+
+KSMETHOD structure that describes a method and request type of a method request.
+
+
 ### -field InputPinId
 
 Member of the union in KSM_BDA_PIN_PAIR that contains the identifier (ID) of an input pin of the filter.
@@ -95,16 +100,15 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the identifier (ID) of an 
 Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies the output pin type.
 
 
-### -field Method
-
-KSMETHOD structure that describes a method and request type of a method request.
-
-
 ## -see-also
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
+
+
 <a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoClearEjectionRelationsDevices, kmdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, PFN_WDFPDOCLEAREJECTIONRELATIONSDEVICES, wdf.wdfpdoclearejectionrelationsdevices, WdfPdoClearEjectionRelationsDevices method
+ms.keywords: wdfpdo/WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, wdf.wdfpdoclearejectionrelationsdevices, WdfPdoClearEjectionRelationsDevices, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, kmdf.wdfpdoclearejectionrelationsdevices, PFN_WDFPDOCLEAREJECTIONRELATIONSDEVICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,16 +79,35 @@ A handle to a framework device object.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
+
+
+#### Examples
+
+The following code example clears the specified device's list of ejection relations.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfPdoClearEjectionRelationsDevices(device); </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -96,7 +115,11 @@ For more information, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
+
+
 
  
 

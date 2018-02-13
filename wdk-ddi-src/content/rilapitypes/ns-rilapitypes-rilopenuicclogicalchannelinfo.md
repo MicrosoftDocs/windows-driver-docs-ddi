@@ -40,7 +40,7 @@ apiname:
 -	RILOPENUICCLOGICALCHANNELINFO
 product: Windows
 targetos: Windows
-req.typenames: RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO
+req.typenames: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -75,19 +75,14 @@ typedef struct _RILOPENUICCLOGICALCHANNELINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwChannelId
 
 
-
 ### -field dwSelectResponseLength
 
 
-
 ### -field bSelectResponse
-
 

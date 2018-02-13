@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ddb7052d-b9f3-40f6-b00a-6bf52f010cdc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetScatterGatherList, storport/StorPortGetScatterGatherList, storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml, StorPortGetScatterGatherList routine [Storage Devices], storage.storportgetscattergatherlist
+ms.keywords: StorPortGetScatterGatherList, storport/StorPortGetScatterGatherList, storage.storportgetscattergatherlist, StorPortGetScatterGatherList routine [Storage Devices], storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ Pointer to the SRB for which the scatter gather list is to be constructed.
 ## -returns
 
 
+
 <b>StorPortGetScatterGatherList</b> returns a pointer to the scatter/gather list. 
 
 
 
+
 ## -remarks
+
 
 
 This routine is provided with the Storport driver library. There is no parallel routine provided in the SCSI port library. 
@@ -102,15 +105,24 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 
 
-## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+## -see-also
 
 <a href="..\storport\ns-storport-_stor_scatter_gather_element.md">STOR_SCATTER_GATHER_ELEMENT</a>
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
 
 <a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

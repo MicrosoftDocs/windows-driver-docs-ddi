@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ussd_request_type, wwan/WwanUssdRequestInitiate, wwan/WwanUssdRequestContinue, WWAN_USSD_REQUEST_TYPE, WwanUssdRequestCancel, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestInitiate, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, *PWWAN_USSD_REQUEST_TYPE, WwanUssdRequestContinue, _WWAN_USSD_REQUEST_TYPE
+ms.keywords: WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestContinue, WwanUssdRequestCancel, WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WwanUssdRequestCancel, _WWAN_USSD_REQUEST_TYPE, WwanUssdRequestInitiate, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestInitiate, wwan/WwanUssdRequestContinue, *PWWAN_USSD_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,8 +88,10 @@ Indicates a request to terminate the existing USSD session.
 ## -remarks
 
 
+
 The USSD protocol only allows a single USSD session at any time. If the miniport driver receives a <i>WwanUssdRequestInitiate</i> request to create a new USSD session when one already exists, the miniport driver must fail the request and specify <i>WwanUssdEventOtherLocalClient</i> as the reason.
 
 When responding to a <i>WwanUssdRequestCancel</i> request, miniport drivers must return <i>WwanUssdEventTerminated</i> as the reason even if no session existed (which may happen during a concurrent release of the session from the network and the local client). The content of the accompanying USSD string must be ignored for WwanUssdRequestCancel requests and the string length should be set to zero to indicate that there is no accompanying USSD string.
+
 
 

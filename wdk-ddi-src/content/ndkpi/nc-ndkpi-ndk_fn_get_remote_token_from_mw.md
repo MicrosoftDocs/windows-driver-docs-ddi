@@ -78,15 +78,19 @@ A pointer to an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_m
 ## -returns
 
 
+
 The 
      <i>NdkGetRemoteTokenFromMw</i> function returns a remote memory region token.
+
 
 
 
 ## -remarks
 
 
+
  After an <i>NdkBind</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>) call returns control to the caller, <i>NdkGetRemoteTokenFromMw</i> can be called to retrieve the remote token.
+
 
 
 
@@ -94,7 +98,11 @@ The
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
 
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
 
  
 

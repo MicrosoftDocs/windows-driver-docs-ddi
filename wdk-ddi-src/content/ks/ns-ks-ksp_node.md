@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksp_node, ks/KSP_NODE, KSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], ks/PKSP_NODE, KSP_NODE structure [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, *PKSP_NODE, PKSP_NODE
+ms.keywords: KSP_NODE structure [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, *PKSP_NODE, PKSP_NODE, ks/KSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], stream.ksp_node, ks/PKSP_NODE, KSP_NODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSP_NODE
 product: Windows
 targetos: Windows
-req.typenames: KSP_NODE, *PKSP_NODE
+req.typenames: "*PKSP_NODE, KSP_NODE"
 ---
 
 # KSP_NODE structure
@@ -88,7 +88,11 @@ Reserved for system use. Should be set to zero.
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
+
+
 
  
 

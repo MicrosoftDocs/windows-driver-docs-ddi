@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 61315EFB-DEA7-4CF2-97D3-EACD223AFB50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_enumerate_device_namespace, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, *PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, *PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
+req.typenames: PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, *PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 ---
 
 # _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure
@@ -110,20 +110,33 @@ typedef struct _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification. The <b>RequestFlags</b> and <b>TotalBufferSize</b> members contain input values supplied by PoFx when the notification is sent. The PEP may overwrite the <b>TotalBufferSize</b> input value with an output value if the input value is less than the required output buffer size. The <b>Status</b>, <b>ObjectCount</b>, and <b>Objects</b> members contain output values that the PEP writes to the structure.
 
 If N is the number of objects listed in the ACPI namespace under this device, the PEP should verify that the storage allocated by PoFx for the <b>Objects</b> array is large enough to contain N array elements. If N &gt; 1, the additional N–1 array elements follow the end of the <b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b> structure. The buffer size required to contain the structure and additional array elements is calculated as follows:
-<b>sizeof</b><b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b><b>sizeof</b><b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b>If the input value specified in the <b>TotalBufferSize</b> member is less than the required size, the PEP overwrites the <b>TotalBufferSize</b> input value with the required size, and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will allocate a buffer of the required size and send a second <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification to the PEP for this device.
+
+<b>sizeof</b>
+<b>PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</b>
+<b>sizeof</b>
+<b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b>
+If the input value specified in the <b>TotalBufferSize</b> member is less than the required size, the PEP overwrites the <b>TotalBufferSize</b> input value with the required size, and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will allocate a buffer of the required size and send a second <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> notification to the PEP for this device.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186658">PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
+
+
 
  
 

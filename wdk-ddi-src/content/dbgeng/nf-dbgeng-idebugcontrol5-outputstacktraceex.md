@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl5, dbgeng/IDebugControl5::OutputStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, debugger.idebugcontrol5_outputstacktraceex, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], IDebugControl5::OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface
+ms.keywords: OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, IDebugControl5, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,6 +88,7 @@ Specifies the number of frames to output.
 ### -param Flags [in]
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -203,13 +204,16 @@ Displays each parameter and its type and value on a new line.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -226,26 +230,38 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The array of stack frames can be obtained using <a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>. 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 
+
+
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
+
+
 
  
 

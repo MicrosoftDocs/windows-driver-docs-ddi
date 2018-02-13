@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DestroyQuery(
 
 
 
+
+
 #### - hQuery [in]
 
  A handle to the query that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function created.
@@ -91,22 +93,30 @@ __checkReturn HRESULT APIENTRY DestroyQuery(
 ## -returns
 
 
+
 <b>DestroyQuery</b> returns S_OK or an appropriate error result if the resources are not released. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>DestroyQuery</b> function notifies the driver to destroy the query handle that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function previously created. The driver can then release resources that are associated with the query handle.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

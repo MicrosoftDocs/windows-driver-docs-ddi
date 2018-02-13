@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSINTERVAL, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, KSINTERVAL structure [Streaming Media Devices], PKSINTERVAL, ks/PKSINTERVAL, ks/KSINTERVAL, stream.ksinterval, PKSINTERVAL structure pointer [Streaming Media Devices], *PKSINTERVAL
+ms.keywords: ks/KSINTERVAL, PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], *PKSINTERVAL, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, KSINTERVAL structure [Streaming Media Devices], ks/PKSINTERVAL, KSINTERVAL, stream.ksinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,9 +80,13 @@ Specifies a recurrence interval, also 64-bit.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561805">KSEVENT_CLOCK_INTERVAL_MARK</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561805">KSEVENT_CLOCK_INTERVAL_MARK</a>
+
 
  
 

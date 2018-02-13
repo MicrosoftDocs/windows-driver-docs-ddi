@@ -7,8 +7,8 @@ old-location: ifsk\fltsetvolumeinformation.htm
 old-project: ifsk
 ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fltsetvolumeinformation, FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, FltSetVolumeInformation, fltkernel/FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.fltsetvolumeinformation, FltSetVolumeInformation, FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, fltkernel/FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,6 +94,7 @@ Size in bytes of the buffer that <i>FsInformation </i>points to. The caller shou
 ### -param FsInformationClass [in]
 
 Type of information to be set for the volume. One of the following. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -129,13 +130,16 @@ Set <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTI
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>FltSetVolumeInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -185,14 +189,18 @@ The <i>Instance</i> is attached to a network volume. <b>FltSetVolumeInformation<
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To query information about a volume, call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>. 
+
 
 
 
@@ -200,15 +208,23 @@ To query information about a volume, call <a href="..\fltkernel\nf-fltkernel-flt
 
 <a href="..\ntddk\ns-ntddk-_file_fs_label_information.md">FILE_FS_LABEL_INFORMATION</a>
 
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
 
 <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
 
+
+
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
- 
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetVolumeInformation function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetVolumeInformation function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

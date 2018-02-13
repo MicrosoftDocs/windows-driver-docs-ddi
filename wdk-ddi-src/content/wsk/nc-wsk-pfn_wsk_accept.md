@@ -40,7 +40,7 @@ apiname:
 -	WskAccept
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -141,7 +141,9 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
 ## -returns
 
 
+
 <b>WskAccept</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -196,11 +198,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A WSK application can call the 
@@ -211,6 +216,7 @@ A WSK application can call the
 The behavior of the 
     <b>WskAccept</b> function depends on whether an incoming connection is waiting to be accepted on the
     listening socket:
+
 <ul>
 <li>
 If an incoming connection has already arrived on the listening socket and is waiting to be accepted,
@@ -230,7 +236,8 @@ If an incoming connection is not waiting to be accepted on the listening socket,
       socket.
 
 </li>
-</ul>If a WSK application's 
+</ul>
+If a WSK application's 
     <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function is
     enabled on a listening socket and the application has a pending call to the 
     <b>WskAccept</b> function on the same listening socket, then, when an incoming connection arrives, the
@@ -271,26 +278,45 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 
+
 ## -see-also
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
+
+
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
 
  
 

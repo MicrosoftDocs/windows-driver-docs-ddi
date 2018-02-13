@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS, display.dxgk_gpummucaps, _DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices]
+ms.keywords: "_DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], display.dxgk_gpummucaps, DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,20 +90,6 @@ typedef struct _DXGK_GPUMMUCAPS {
 
 
 
-### -field LegacyBehaviors
-
-
-
-### -field LegacyBehaviors.SourcePageTableVaInTransfer
-
-When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
-
-
-### -field LegacyBehaviors.Reserved
-
- 
-
-
 ### -field ReadOnlyMemorySupported
 
 When set to 1, the driver supports read-only protection on memory pages.
@@ -123,7 +109,9 @@ When set to 1, the GPU supports the <i>Zero DXGK_PTE</i> flag. This applies to a
 
 This flag indicates that all entries of a page table or page directory should be put into an invalid state explicitly, through <b>UpdatePageTable</b> before being freed. By default the video memory manager may free a page table, which contain previously valid entries, if these entries are no longer needed (ex. freeing a large GPU virtual address range resulting in the destruction of underlying page tables).
 
-<div class="alert"><b>Note</b>  This flags is typically used by a software driver that needs to emulate page table and need to keep track of information on a per page table entry basis and require a clear init/deinit pair for all page table entry updates.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This flags is typically used by a software driver that needs to emulate page table and need to keep track of information on a per page table entry basis and require a clear init/deinit pair for all page table entry updates.</div>
+<div> </div>
 
 ### -field CacheCoherentMemorySupported
 
@@ -185,4 +173,19 @@ The size of a leaf page table when 64KB pages are used. The size must be a multi
 The number of page table levels supported. The minimum value is 2 (defined as <b>DXGK_MIN_PAGE_TABLE_LEVEL_COUNT</b>). The maximum value is <b>DXGK_MAX_PAGE_TABLE_LEVEL_COUNT</b>. 
 
 When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizable and the size of the page table is determined through <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getrootpagetablesize.md">DxgkDdiGetRootPageTableSize</a>. When <b>PageTableLevelCount</b> is greater than 2, all page table levels have a fixed size, which is described through <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_page_table_level_desc.md">DXGK_PAGE_TABLE_LEVEL_DESC</a><b>::PageTableSizeInBytes</b>.
+
+
+### -field LegacyBehaviors
+
+
+### -field LegacyBehaviors.SourcePageTableVaInTransfer
+
+When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
+
+
+### -field LegacyBehaviors.Reserved
+
+ 
+
+
 

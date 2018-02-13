@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2600405F-AE07-4284-84AD-D19EEE2058BF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices], storport/STOR_POFX_COMPONENT_IDLE_STATE, storport/PSTOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], _STOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, *PSTOR_POFX_COMPONENT_IDLE_STATE
+ms.keywords: PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices], storport/PSTOR_POFX_COMPONENT_IDLE_STATE, storport/STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], *PSTOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, _STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_COMPONENT_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: STOR_POFX_COMPONENT_IDLE_STATE, *PSTOR_POFX_COMPONENT_IDLE_STATE
+req.typenames: "*PSTOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -100,15 +100,19 @@ The power, in microwatts, that the component consumes in this F-state. Set this 
 ## -remarks
 
 
+
  The <a href="..\storport\ns-storport-_stor_pofx_component.md">STOR_POFX_COMPONENT</a> structure contains an array of <b>STOR_POFX_COMPONENT_IDLE_STATE</b> structures. Each array element specifies the attributes of an F-state. Element 0 describes F0, element 1 describes F1, and so on.
 
 When the miniport driver registers a device with the Storport power management framework, the driver supplies an array of <a href="..\storport\ns-storport-_stor_pofx_component.md">STOR_POFX_COMPONENT</a> structures. Each array element describes the power attributes of a component in the device.
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_stor_pofx_component.md">STOR_POFX_COMPONENT</a>
+
+
 
  
 

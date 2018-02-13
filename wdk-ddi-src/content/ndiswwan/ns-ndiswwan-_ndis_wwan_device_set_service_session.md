@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D68B2071-D32B-4A6A-ACB8-001865CABD92
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_WWAN_DEVICE_SET_SERVICE_SESSION, ndiswwan/NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, ndiswwan/PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, netvista.ndis_wwan_set_device_service_session, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION"
+ms.keywords: ndiswwan/NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, netvista.ndis_wwan_set_device_service_session, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, ndiswwan/PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, *PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SET_DEVICE_SERVICE_SESSION
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, *PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION
+req.typenames: "*PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION"
 ---
 
 # _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION structure
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_DEV
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_SET_DEVICE_SERVICE_SESSION)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -125,6 +127,8 @@ The requested session state set operation.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_service_session.md">WWAN_DEVICE_SERVICE_SESSION</a>
+
+
 
  
 

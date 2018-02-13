@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b44fb2e-7278-47c0-8654-a9013ed0134a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], GetLastEventInformation method, GetLastEventInformation method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl2::GetLastEventInformation, IDebugControl::GetLastEventInformation, GetLastEventInformation method [Windows Debugging], debugger.getlasteventinformation, IDebugControl2::GetLastEventInformation, IDebugControl interface [Windows Debugging], GetLastEventInformation method, dbgeng/IDebugControl3::GetLastEventInformation, GetLastEventInformation method [Windows Debugging], IDebugControl interface, IDebugControl_4016bdce-0386-4c6f-9039-9a4046f3805b.xml, dbgeng/IDebugControl::GetLastEventInformation, GetLastEventInformation, GetLastEventInformation method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetLastEventInformation, IDebugControl3 interface [Windows Debugging], GetLastEventInformation method
+ms.keywords: debugger.getlasteventinformation, GetLastEventInformation method [Windows Debugging], IDebugControl interface, IDebugControl_4016bdce-0386-4c6f-9039-9a4046f3805b.xml, IDebugControl2, dbgeng/IDebugControl::GetLastEventInformation, IDebugControl::GetLastEventInformation, GetLastEventInformation, GetLastEventInformation method [Windows Debugging], dbgeng/IDebugControl2::GetLastEventInformation, GetLastEventInformation method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetLastEventInformation, IDebugControl3 interface [Windows Debugging], GetLastEventInformation method, IDebugControl, IDebugControl interface [Windows Debugging], GetLastEventInformation method, GetLastEventInformation method [Windows Debugging], IDebugControl2 interface, IDebugControl3, IDebugControl2::GetLastEventInformation, IDebugControl2 interface [Windows Debugging], GetLastEventInformation method, dbgeng/IDebugControl3::GetLastEventInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,7 +125,9 @@ Receives the size in characters of the description of the event.  If <i>Descript
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,11 +155,14 @@ The method was successful.  However, either <i>ExtraInformationSize</i> or <i>De
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For thread and process creation events, the thread index and process ID returned to <i>ThreadId</i> and <i>ProcessId</i> are for the newly created thread or process.
@@ -166,15 +171,24 @@ For more information about the last event, see the topic <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 895b49e5-181b-4312-ab1c-7f67c102b32f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI.pci_express_device_capabilities_register, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
+ms.keywords: PCI.pci_express_device_capabilities_register, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -313,15 +313,19 @@ Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 ## -remarks
 
 
+
 The PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70b86a0f-a77d-4c79-931d-d0407083e5b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINITASSIGNNAME, DFDeviceObjectGeneralRef_1acdbff1-2eb9-425c-91c8-aaa51f585d56.xml, kmdf.wdfdeviceinitassignname, wdfdevice/WdfDeviceInitAssignName, WdfDeviceInitAssignName, WdfDeviceInitAssignName method, wdf.wdfdeviceinitassignname
+ms.keywords: DFDeviceObjectGeneralRef_1acdbff1-2eb9-425c-91c8-aaa51f585d56.xml, wdfdevice/WdfDeviceInitAssignName, WdfDeviceInitAssignName method, wdf.wdfdeviceinitassignname, WdfDeviceInitAssignName, kmdf.wdfdeviceinitassignname, PFN_WDFDEVICEINITASSIGNNAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 If <b>WdfDeviceInitAssignName</b> encounters no errors it returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,11 +104,14 @@ The system cannot allocate space to store the device name.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If a driver calls <b>WdfDeviceInitAssignName</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
@@ -118,10 +123,35 @@ For more information about naming device objects, see <a href="https://docs.micr
 For more information about calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
+#### Examples
+
+The following code example assigns an <a href="https://msdn.microsoft.com/dfcc7338-7c4d-4b4c-9a13-c76bfe82f5a9">NT device name</a> to a device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_CONST_UNICODE_STRING(MyDeviceName, L"\\Device\\Ramdisk") ;
+status = WdfDeviceInitAssignName(
+                                 DeviceInit,
+                                 &amp;MyDeviceName
+                                 );
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceretrievedevicename.md">WdfDeviceRetrieveDeviceName</a>
+
+
 
  
 

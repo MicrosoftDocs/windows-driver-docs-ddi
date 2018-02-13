@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce20ed09-2f4d-4cc0-9185-a3a72dd73165
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, GetCompletedUsbRequestType, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method
+ms.keywords: GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams, GetCompletedUsbRequestType, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ WDF_USB_REQUEST_TYPE  GetCompletedUsbRequestType();
 
 
 
+
 ## -returns
 
 
+
 <b>GetCompletedUsbRequestType</b> returns a value of type <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a> that identifies the USB request type.
+
 
 
 
@@ -80,7 +83,11 @@ WDF_USB_REQUEST_TYPE  GetCompletedUsbRequestType();
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
+
+
 <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>
+
+
 
  
 

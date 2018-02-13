@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtdestroyallocation2, d3dkmthk/D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices]
+ms.keywords: d3dkmthk/D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], display.d3dkmtdestroyallocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D3DKMT_DESTROYALLOCATION2</a> structure that contains information for releasing allocations.
@@ -85,7 +86,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D
 
 
 
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation.md">D3DKMTDestroyAllocation</a> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,15 +116,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D3DKMT_DESTROYALLOCATION2</a>
+
+
 
  
 

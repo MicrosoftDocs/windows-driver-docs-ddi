@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, filterpipeline/IPrintPipelineFilter::ShutdownOperation, ShutdownOperation method [Print Devices], ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, print.iprintpipelinefilter_shutdownoperation, IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, ShutdownOperation, IPrintPipelineFilter
+ms.keywords: filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, print.iprintpipelinefilter_shutdownoperation, IPrintPipelineFilter, ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, IPrintPipelineFilter::ShutdownOperation, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, ShutdownOperation, filterpipeline/IPrintPipelineFilter::ShutdownOperation, ShutdownOperation method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,21 +68,25 @@ HRESULT STDMETHODCALLTYPE ShutdownOperation(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>ShutdownOperation</code> returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
 
 
+
 The <code>ShutdownOperation</code> method is called by the pipeline manager if the job is canceled or an error occurs. Filters do not have to block this call until they completely finish using any resources. You should set up an internal state to indicate when filters need to cancel a job. Filters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a> when the filters are finished, which can be later.
+
 
 
 
@@ -90,7 +94,11 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
 
+
+
 <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
+
+
 
  
 

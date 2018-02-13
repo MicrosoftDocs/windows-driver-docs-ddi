@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09123845-F734-48B6-A593-0368CD195379
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId
+ms.keywords: vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetTargetInterfaceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbServerChannelInitSetTargetInterfaceId
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -92,6 +92,7 @@ A pointer to the instance type GUID.
 ## -remarks
 
 
+
 The <i>InterfaceType</i>
 GUID identifies the type of channel and, specifically, the protocol that is used with
 the channel.  If the VMBus in the child partition is creating a Physical Device Object
@@ -101,5 +102,6 @@ ID reported to the PnP Manager.
 The <i>InterfaceInstance</i> GUID identifies a specific instance
 of the service.  For instance, If you have two paravirtual network interfaces, they
 have the same interface type, but different interface instance values. 
+
 
 

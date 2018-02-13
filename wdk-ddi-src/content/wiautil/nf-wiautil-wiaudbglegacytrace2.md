@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 911a7089-d4ac-4da0-8be6-a3a36567635c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauDbgLegacyTrace2, wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml, wiauDbgLegacyTrace2, image.wiaudbglegacytrace2, wiauDbgLegacyTrace2 function [Imaging Devices]
+ms.keywords: image.wiaudbglegacytrace2, wiauDbgLegacyTrace2 function [Imaging Devices], wiautil/wiauDbgLegacyTrace2, wiauDbgLegacyTrace2, wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
@@ -93,20 +94,26 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgLegacyTrace2</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete, ndis/NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml
+ms.keywords: NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete, ndis/NdisCmDropPartyComplete, condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmDropPartyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmDropPartyComplete function
@@ -89,11 +89,14 @@ Specifies the handle to the party that the client requested to be dropped. The c
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A stand-alone call manager must call 
@@ -121,15 +124,24 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProcEx method [Imaging Devices], image.cwialogprocex_cwialogprocex, CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, CWiaLogProcEx, wiamdef/CWiaLogProcEx::CWiaLogProcEx
+ms.keywords: image.cwialogprocex_cwialogprocex, CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx, wiamdef/CWiaLogProcEx::CWiaLogProcEx, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	CWiaLogProcEx.CWiaLogProcEx
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,7 @@ Defines the <b>INT</b> parameter <i>DetailLevel</i>.
 
 
 
+
 #### - *pIWiaLogEx
 
 Defines the <b>IWiaLogEx</b> parameter <i>*pIWiaLog</i>.
@@ -116,13 +117,17 @@ Defines the <b>LONG</b> parameter <i>lMethodId</i>.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
+
+
 
  
 

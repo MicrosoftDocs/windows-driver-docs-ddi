@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7699214a-0cd2-401a-9f66-199d181abce4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTDestroyDevice function [Display Devices], OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, d3dkmthk/D3DKMTDestroyDevice, D3DKMTDestroyDevice, display.d3dkmtdestroydevice
+ms.keywords: d3dkmthk/D3DKMTDestroyDevice, D3DKMTDestroyDevice, OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, display.d3dkmtdestroydevice, D3DKMTDestroyDevice function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT_DESTROYDEVICE</a> structure that contains the handle to the kernel-mode device context.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT
 ## -returns
 
 
+
 <b>D3DKMTDestroyDevice</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,9 +115,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
@@ -123,6 +128,8 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT_DESTROYDEVICE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a7e50e9-0aeb-46e8-a1d2-7267df4921ad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequeryactiveprocessors, KeQueryActiveProcessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, wdm/KeQueryActiveProcessors
+ms.keywords: KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], KeQueryActiveProcessors, kernel.kequeryactiveprocessors, wdm/KeQueryActiveProcessors, k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,14 +67,18 @@ KAFFINITY KeQueryActiveProcessors(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeQueryActiveProcessors</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> value that represents the set of currently active processors.
 
 
 
+
 ## -remarks
+
 
 
 Callers cannot assume that <b>KeQueryActiveProcessors</b> maps processors to bits consecutively, or that the routine consistently uses the same mapping each time it is called. The only valid use for the return value is to determine the number of active processors by counting the number of bits that are set.
@@ -106,6 +110,7 @@ Accordingly, in Windows Server 2008, code that can determine the number of proc
 Review any code that currently references <b>KeNumberProcessors</b> to make sure that it accommodates changes to CPU count in hot-add CPU environments.
 
 You can use the <a href="https://msdn.microsoft.com/397283e6-0691-4e55-9507-483bb311b524">PNPCPU</a> tool to simulate hot adding a CPU for testing purposes.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -123,7 +128,9 @@ extern PCCHAR KeNumberProcessors;
 #endif</pre>
 </td>
 </tr>
-</table></span></div>Starting with Windows XP, <b>KeNumberProcessors</b> is an 8-bit integer value that indicates the number of processors in the platform. In earlier versions of Windows, <b>KeNumberProcessors</b> is a pointer to an 8-bit integer value that indicates the number of processors in the platform.
+</table></span></div>
+Starting with Windows XP, <b>KeNumberProcessors</b> is an 8-bit integer value that indicates the number of processors in the platform. In earlier versions of Windows, <b>KeNumberProcessors</b> is a pointer to an 8-bit integer value that indicates the number of processors in the platform.
+
 
 
 
@@ -131,7 +138,11 @@ extern PCCHAR KeNumberProcessors;
 
 <a href="..\wdm\nf-wdm-kequerygroupaffinity.md">KeQueryGroupAffinity</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+
 
  
 

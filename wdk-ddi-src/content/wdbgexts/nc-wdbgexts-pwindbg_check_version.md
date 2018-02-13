@@ -40,7 +40,7 @@ apiname:
 -	CheckVersion
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT"
+req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 
@@ -72,17 +72,25 @@ VOID CheckVersion(void);
 
 
 
+
+
 ## -returns
 
 
+
 None
-<h2><a id="ddk_checkversion_dbwx"></a><a id="DDK_CHECKVERSION_DBWX"></a></h2><h3><a id="additional_information"></a><a id="ADDITIONAL_INFORMATION"></a>Additional Information</h3>You must define this function in your code using the prototype above.
+
+<h2><a id="ddk_checkversion_dbwx"></a><a id="DDK_CHECKVERSION_DBWX"></a></h2>
+<h3><a id="additional_information"></a><a id="ADDITIONAL_INFORMATION"></a>Additional Information</h3>
+You must define this function in your code using the prototype above.
 
 For more details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560220">Using WdbgExts Extension Callbacks</a>.
 
 
 
+
 ## -remarks
+
 
 
 <i>CheckVersion</i> is an optional callback function.  If it exists, it will be called by the debugger the first time an extension function exported by the extension DLL is used.
@@ -90,5 +98,6 @@ For more details, see <a href="https://msdn.microsoft.com/library/windows/hardwa
 The purpose of this function is to allow you to print out a version mismatch warning when the extension DLL is used. This is an optional feature, which should not be confused with the version number used  by <a href="..\wdbgexts\nc-wdbgexts-pwindbg_extension_api_version.md">ExtensionApiVersion</a>.
 
 If the <a href="https://msdn.microsoft.com/ce7fbff4-7936-4bef-8236-a13957ada7f4">.noversion</a> command is used, version checking is disabled and the debugger will not call <i>CheckVersion</i>.
+
 
 

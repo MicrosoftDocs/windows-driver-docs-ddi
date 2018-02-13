@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnGetNumPathsFromSource(
 ## -returns
 
 
+
 The <b>pfnGetNumPathsFromSource</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,11 +131,14 @@ The pointer supplied in <i>pNumPathsFromSource</i> was in valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A topology is a collection paths, each of which contains a (source, target) pair. It is possible for a particular source to appear in more than one path. For example, one source can be paired with two distinct targets in the case of a clone view.
@@ -146,9 +151,12 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths.md">pfnGetNumPaths</a>
+
+
 
  
 

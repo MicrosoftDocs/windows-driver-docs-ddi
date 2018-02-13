@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.avc_peer_do_list, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], avc/PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], PAVC_PEER_DO_LIST, _AVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST
+ms.keywords: avc/PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, AVC_PEER_DO_LIST, stream.avc_peer_do_list, _AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ Ignored on input. On output (and if the <b>Count</b> member is not zero) <b>Obje
 ## -remarks
 
 
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
@@ -89,13 +90,20 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
+
 ## -see-also
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
 
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a>
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
 
  
 

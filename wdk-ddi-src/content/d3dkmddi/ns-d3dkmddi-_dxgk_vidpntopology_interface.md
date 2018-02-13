@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_vidpntopology_interface, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DXGK_VIDPNTOPOLOGY_INTERFACE, _DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml
+ms.keywords: DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], display.dxgk_vidpntopology_interface, _DXGK_VIDPNTOPOLOGY_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,6 +143,8 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_removepa
 ## -remarks
 
 
+
 The display miniport driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_gettopology.md">pfnGetTopology</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn interface</a> to obtain a handle to a VidPN topology object and a pointer to a DXGK_VIDPNTOPOLOGY_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the VidPN topology object.
+
 
 

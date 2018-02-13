@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, debugger.setdataparameters, dbgeng/IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, SetDataParameters, ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, SetDataParameters method [Windows Debugging]
+ms.keywords: dbgeng/IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, debugger.setdataparameters, IDebugBreakpoint, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, SetDataParameters, dbgeng/IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, IDebugBreakpoint2::SetDataParameters, SetDataParameters method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,6 +82,7 @@ The type of access that triggers the breakpoint. For a list of possible value, s
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,15 +110,19 @@ The breakpoint is not a processor breakpoint.  For more information about the br
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

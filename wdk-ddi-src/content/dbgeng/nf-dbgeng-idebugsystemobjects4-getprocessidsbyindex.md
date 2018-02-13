@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ae042c5-9c2a-4de4-817c-c9b97f979684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects2::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects4, GetProcessIdsByIndex, dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex, IDebugSystemObjects interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], debugger.getprocessidsbyindex, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdsByIndex method
+ms.keywords: GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, IDebugSystemObjects interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex, IDebugSystemObjects::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects4::GetProcessIdsByIndex, debugger.getprocessidsbyindex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, GetProcessIdsByIndex, IDebugSystemObjects2::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects2, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects3, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects, IDebugSystemObjects3::GetProcessIdsByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,7 +96,9 @@ Receives the system process IDs.  If <i>SysIds</i> is <b>NULL</b>, this informat
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,15 +115,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The index of the first process is zero.  The index of the last process is the number of processes returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547946">GetNumberProcesses</a> minus one.
 
 For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

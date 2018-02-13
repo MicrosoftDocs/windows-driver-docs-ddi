@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8b8e2af-487c-4d7b-8af0-b6365d4703b0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
+ms.keywords: PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
+req.typenames: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -78,14 +78,17 @@ The state of the processor add operation. Possible values are as follows:
 
 
 
+
 #### KeProcessorAddStartNotify
 
 The operating system is about to add the processor. At this state, a device driver that receives this notification can allocate any per-processor data structures and perform any other required tasks to prepare the driver for execution on the new processor.
 
 
+
 #### KeProcessorAddCompleteNotify
 
 The operating system has successfully added the processor. At this state, a device driver that receives this notification can start scheduling threads on the new processor.
+
 
 
 #### KeProcessorAddFailureNotify
@@ -111,6 +114,7 @@ The processor number of the new processor. This member is a <a href="..\miniport
 ## -remarks
 
 
+
 The <b>KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</b> structure is available starting with Windows Server 2008.
 
 A device driver registers to receive notification when a new processor is dynamically added to the hardware partition by calling the <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a> function. For more information about registering for this notification, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560897">Registering for Synchronous Driver Notification</a>.
@@ -121,13 +125,20 @@ A device driver's callback function that receives these notifications must not m
 
 
 
+
 ## -see-also
 
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+
 
 <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+
+
 
  
 

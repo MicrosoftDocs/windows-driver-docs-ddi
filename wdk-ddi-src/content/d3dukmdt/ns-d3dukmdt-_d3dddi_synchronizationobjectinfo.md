@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 786934f5-b0ec-4ee9-8bf0-f32b64295b96
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO structure [Display Devices], D3DDDI_SYNCHRONIZATIONOBJECTINFO, display.d3dddi_synchronizationobjectinfo, _D3DDDI_SYNCHRONIZATIONOBJECTINFO, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO, D3D_other_Structs_86538364-14f8-4e40-bf0e-2e9f836729b8.xml
+ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO, display.d3dddi_synchronizationobjectinfo, D3D_other_Structs_86538364-14f8-4e40-bf0e-2e9f836729b8.xml, D3DDDI_SYNCHRONIZATIONOBJECTINFO structure [Display Devices], _D3DDDI_SYNCHRONIZATIONOBJECTINFO, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,6 +79,11 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO {
 
 
 
+### -field Type
+
+[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
+
+
 ### -field SynchronizationMutex
 
 A structure that contains information about a synchronization mutex. If the <b>Type</b> member is equal to D3DDDI_SYNCHRONIZATION_MUTEX, the union in D3DDDI_SYNCHRONIZATIONOBJECTINFO holds a SynchronizationMutex structure, which contains the following member:
@@ -114,16 +119,15 @@ A structure that is reserved for future use. This structure contains the followi
 An array of 32-bit values that are reserved for future use.
 
 
-### -field Type
-
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
-
-
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
 
+
+
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
+
+
 
  
 

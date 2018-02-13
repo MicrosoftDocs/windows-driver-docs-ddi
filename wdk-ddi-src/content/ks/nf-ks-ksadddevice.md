@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e7be1bb8-eb8a-4ebd-b824-bbaa41b21ca5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddDevice, ks/KsAddDevice, avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml, stream.ksadddevice, KsAddDevice function [Streaming Media Devices]
+ms.keywords: KsAddDevice, ks/KsAddDevice, stream.ksadddevice, KsAddDevice function [Streaming Media Devices], avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to the WDM physical device object.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS indicating the device was successfully created or an error status from <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>.
 
 
 
+
 ## -remarks
+
 
 
 Normally, an AVStream minidriver does not call this function directly.
@@ -97,21 +100,36 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
-
-<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
+
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+
+
+
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+
+
+<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

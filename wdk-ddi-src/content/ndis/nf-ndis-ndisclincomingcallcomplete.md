@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], netvista.ndisclincomingcallcomplete, ndis/NdisClIncomingCallComplete, NdisClIncomingCallComplete
+ms.keywords: NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], ndis/NdisClIncomingCallComplete, condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClIncomingCallComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisClIncomingCallComplete function
@@ -99,11 +99,14 @@ Pointer to a structure of type
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a client's 
@@ -148,24 +151,41 @@ If a client rejects an offered call by setting
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
    ProtocolCmIncomingCallComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
 
 <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
+
 
  
 

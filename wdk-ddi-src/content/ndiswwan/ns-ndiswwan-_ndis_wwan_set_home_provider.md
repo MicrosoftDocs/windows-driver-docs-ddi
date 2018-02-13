@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C0B1A72D-713B-48FF-8D1A-E9752569C10E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_HOME_PROVIDER, _NDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider
+ms.keywords: NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_HOME_PROVIDER, PNDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider, PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, _NDIS_WWAN_SET_HOME_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_HOM
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_SET_HOME_PROVIDER)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -125,6 +127,8 @@ A formatted WWAN_PROVIDER2 object that represents the details of the home provid
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
+
+
 
  
 

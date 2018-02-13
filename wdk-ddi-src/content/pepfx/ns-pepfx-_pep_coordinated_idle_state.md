@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0B3B53F8-2D1E-430B-9C51-E35465899811
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state, PEP_COORDINATED_IDLE_STATE, pepfx/PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE"
+ms.keywords: "*PPEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state, pepfx/PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_COORDINATED_IDLE_STATE, _PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,11 @@ Supplies the maximum size of a single dependency.
 
 <a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE structure</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186776">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
+
+
 
  
 

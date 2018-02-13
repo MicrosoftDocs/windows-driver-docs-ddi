@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6fe12f3b-b241-42e4-b35d-c8a485a5cfa8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced2::GetThreadContext, IDebugAdvanced3::GetThreadContext, IDebugAdvanced3, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, GetThreadContext method [Windows Debugging], GetThreadContext method [Windows Debugging], IDebugAdvanced interface, IDebugAdvanced2::GetThreadContext, IDebugAdvanced::GetThreadContext, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, debugger.getthreadcontext, dbgeng/IDebugAdvanced::GetThreadContext, GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface
+ms.keywords: IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced2::GetThreadContext, IDebugAdvanced, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced3, IDebugAdvanced::GetThreadContext, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, GetThreadContext method [Windows Debugging], IDebugAdvanced interface, GetThreadContext method [Windows Debugging], dbgeng/IDebugAdvanced::GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2, debugger.getthreadcontext, IDebugAdvanced3::GetThreadContext, GetThreadContext, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,7 +83,9 @@ Specifies the size of the buffer <i>Context</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,28 +102,44 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about the thread context, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
-<div class="alert"><b>Note</b>    The CONTEXT structure varies with operating system and platform.  Care should be taken when using the CONTEXT structure.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The CONTEXT structure varies with operating system and platform.  Care should be taken when using the CONTEXT structure.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556829">SetThreadContext</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+
 
  
 

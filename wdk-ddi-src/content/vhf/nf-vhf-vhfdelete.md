@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfDelete method [Human Input Devices], vhf/VhfDelete, VhfDelete, hid.vhfdelete
+ms.keywords: VhfDelete, hid.vhfdelete, VhfDelete method [Human Input Devices], vhf/VhfDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,11 +85,14 @@ FALSE to return asynchronously. See Remarks for more information.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The HID source driver must stop initiating new requests for the Virtual HID Framework (VHF) just before calling <b>VhfDelete</b>. <b>VhfDelete</b> can be called synchronously or asynchronously.   
@@ -102,9 +105,12 @@ There are no restrictions on when a KMDF driver should call this function. It is
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+
+
 
  
 

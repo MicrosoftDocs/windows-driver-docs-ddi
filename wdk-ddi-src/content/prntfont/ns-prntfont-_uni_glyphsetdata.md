@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a2c98783-c463-435e-9d78-c10686f1c75c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.uni_glyphsetdata, PUNI_GLYPHSETDATA structure pointer [Print Devices], _UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], UNI_GLYPHSETDATA, prntfont/PUNI_GLYPHSETDATA, prntfont/UNI_GLYPHSETDATA, PUNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml
+ms.keywords: print.uni_glyphsetdata, prntfont/UNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], _UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], *PUNI_GLYPHSETDATA, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, UNI_GLYPHSETDATA, PUNI_GLYPHSETDATA, prntfont/PUNI_GLYPHSETDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNI_GLYPHSETDATA
 product: Windows
 targetos: Windows
-req.typenames: UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA
+req.typenames: "*PUNI_GLYPHSETDATA, UNI_GLYPHSETDATA"
 req.product: Windows 10 or later.
 ---
 
@@ -136,17 +136,25 @@ Reserved for system use.
 ## -remarks
 
 
+
 A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt file.
+
 
 
 
 ## -see-also
 
+<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+
+
+
 <a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a>
+
+
 
 <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+
 
  
 

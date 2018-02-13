@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, display.dxgk_destroyallocationflags, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], _DXGK_DESTROYALLOCATIONFLAGS, DXGK_DESTROYALLOCATIONFLAGS, d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS
+ms.keywords: display.dxgk_destroyallocationflags, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS, _DXGK_DESTROYALLOCATIONFLAGS, DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, DXGK_DESTROYALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ A member in the union that DXGK_DESTROYALLOCATIONFLAGS contains that can hold a 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a>
+
+
 
  
 

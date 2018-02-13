@@ -74,19 +74,14 @@ typedef struct _RILSENDMSGACKPARAMS_V1 {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwAckID
 
 
-
 ### -field dwMsgStatus
-
 

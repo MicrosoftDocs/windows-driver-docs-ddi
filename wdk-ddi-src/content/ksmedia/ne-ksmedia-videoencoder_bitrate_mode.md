@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/VariableBitRatePeak, ConstantBitRate, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], stream.videoencoder_bitrate_mode, ksmedia/ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VariableBitRatePeak, ksmedia/VariableBitRateAverage, VariableBitRateAverage, ksmedia/VIDEOENCODER_BITRATE_MODE
+ms.keywords: stream.videoencoder_bitrate_mode, VariableBitRatePeak, VIDEOENCODER_BITRATE_MODE, ksmedia/ConstantBitRate, ConstantBitRate, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/VariableBitRateAverage, VariableBitRateAverage, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], ksmedia/VariableBitRatePeak, ksmedia/VIDEOENCODER_BITRATE_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,19 +90,27 @@ Specifies that the encoding bit rate is variable with the specified bit rate use
 ## -remarks
 
 
+
 For all three modes, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a> must be set to the expected average bit rate over a 5 minute period.
 
 When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a> must also be set to the peak bit rate, which the VBR encoder must not exceed over a 500ms period (typically one GOP for MPEG-2 video).
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
+
+
 
  
 

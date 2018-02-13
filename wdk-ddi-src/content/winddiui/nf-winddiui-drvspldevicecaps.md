@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, DrvSplDeviceCaps, winddiui/DrvSplDeviceCaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml
+ms.keywords: print.drvspldevicecaps, winddiui/DrvSplDeviceCaps, DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplDeviceCaps
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 
@@ -104,6 +104,7 @@ TBD
 
 
 
+
 #### - pwDeviceName [in]
 
 Caller-supplied pointer to a Unicode string that contains the printer name.
@@ -112,6 +113,7 @@ Caller-supplied pointer to a Unicode string that contains the printer name.
 #### - DeviceCap
 
 Caller-supplied bit flag that indicates the capability to query for. (The flags are defined in header file wingdi.h.) This function is not required to support all of the DC_<i>XXX</i> flags, but it must support those listed in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -145,7 +147,8 @@ If <i>pvOutput</i> is <b>NULL</b>, the function should just return the number of
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pvOutput [out, optional]
@@ -166,11 +169,14 @@ Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows
 ## -returns
 
 
+
 The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> indicates a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
 
 
 
+
 ## -remarks
+
 
 
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
@@ -181,9 +187,12 @@ This function must be defined in the .def file as DrvSplDeviceCaps @ 254, becaus
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>
+
+
 
  
 

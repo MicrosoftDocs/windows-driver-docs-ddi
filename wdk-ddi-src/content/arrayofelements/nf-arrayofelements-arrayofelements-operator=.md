@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtRemoteTyped class [Windows Debugging], operator= method, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging]
+ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging], debugger.extremotetyped_operatorequals_debug_typed_data, operator=
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.operator=
 product: Windows
 targetos: Windows
-req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
+req.typenames: "*PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY"
 ---
 
 # operator= function
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - Typed [in]
 
 A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the data and type to be assigned to this object.
@@ -81,24 +82,34 @@ A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPE
 ## -returns
 
 
+
 <b>operator=</b>  returns the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object.
+
 
 
 
 ## -remarks
 
 
+
 The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
+
 
 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
+
 <a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
+
+
 
  
 

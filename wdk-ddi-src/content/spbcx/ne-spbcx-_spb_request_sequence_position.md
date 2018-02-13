@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: B2D1BC45-E932-4EBC-9B7E-C45E7439E551
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionMax, SpbRequestSequencePositionLast, SpbRequestSequencePositionInvalid, SPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, spbcx/SpbRequestSequencePositionLast, SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionFirst, spbcx/SPB_REQUEST_SEQUENCE_POSITION, SpbRequestSequencePositionSingle, SpbRequestSequencePositionMax, *PSPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionSingle, spbcx/SpbRequestSequencePositionContinue, SpbRequestSequencePositionFirst, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], spbcx/SpbRequestSequencePositionInvalid"
+ms.keywords: spbcx/SpbRequestSequencePositionInvalid, SpbRequestSequencePositionSingle, SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionMax, *PSPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionFirst, _SPB_REQUEST_SEQUENCE_POSITION, SpbRequestSequencePositionLast, SpbRequestSequencePositionMax, SPB.spb_request_sequence_position, spbcx/SpbRequestSequencePositionLast, SpbRequestSequencePositionFirst, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], SpbRequestSequencePositionInvalid, spbcx/SpbRequestSequencePositionSingle, spbcx/SPB_REQUEST_SEQUENCE_POSITION, SpbRequestSequencePositionContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,6 +118,7 @@ For internal use only.
 ## -remarks
 
 
+
 A client (peripheral driver) of the SPB controller can perform an I/O transfer sequence by sending a series of read and write requests to a target device on the bus. Each read or write request in the series occupies a position in the list of transfers for the sequence. The values in the <b>SPB_REQUEST_SEQUENCE_POSITION</b> enumeration indicate the relative positions of the read and write requests in this list.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a> method retrieves the SPB-specific parameter values from an I/O request and writes them to an <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a> structure. Included in these parameters is an <b>SPB_REQUEST_SEQUENCE_POSITION</b> enumeration value that indicates the position of the I/O request in the I/O transfer sequence that it is part of.
@@ -140,23 +141,40 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+
+
+
+<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
+
+
 
  
 

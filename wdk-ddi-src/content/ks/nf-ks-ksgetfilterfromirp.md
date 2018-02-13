@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 00c90dbf-bb44-4cba-97b3-170765a2eba7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetFilterFromIrp, avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, KsGetFilterFromIrp function [Streaming Media Devices], ks/KsGetFilterFromIrp, stream.ksgetfilterfromirp
+ms.keywords: avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, KsGetFilterFromIrp function [Streaming Media Devices], KsGetFilterFromIrp, stream.ksgetfilterfromirp, ks/KsGetFilterFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,14 +76,18 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 ## -returns
 
 
+
 <b>KsGetFilterFromIrp</b> returns either a pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure associated with <i>Irp</i> or <b>NULL</b>. <b>NULL</b> indicates that <i>Irp</i> is not associated with an AVStream object.
+
 
 
 
 ## -remarks
 
 
+
 <b>KsGetFilterFromIrp</b> is valid for filters, pins, and nodes.
+
 
 
 
@@ -91,7 +95,11 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 <a href="..\ks\nf-ks-ksgetpinfromirp.md">KsGetPinFromIrp</a>
 
+
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
 
  
 

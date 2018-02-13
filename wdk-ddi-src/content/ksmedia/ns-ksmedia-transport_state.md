@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 373fb91d-e469-4136-b2e3-bf57016c0fd6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: TRANSPORT_STATE, PTRANSPORT_STATE, TRANSPORT_STATE structure [Streaming Media Devices], vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml, ksmedia/TRANSPORT_STATE, PTRANSPORT_STATE structure pointer [Streaming Media Devices], ksmedia/PTRANSPORT_STATE, stream.transport_state, *PTRANSPORT_STATE
+ms.keywords: PTRANSPORT_STATE structure pointer [Streaming Media Devices], vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml, PTRANSPORT_STATE, *PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, TRANSPORT_STATE, ksmedia/PTRANSPORT_STATE, stream.transport_state, TRANSPORT_STATE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ Specifies the state of the external device transport mode.
 ## -remarks
 
 
+
 Any ED_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
 
 The following modes and states are used by <i>msdv.sys </i>and <i>mstape.sys</i>:
@@ -120,5 +121,6 @@ ED_MODE_STOP
 ED_MODE_PLAY
 
 ED_MODE_FF
+
 
 

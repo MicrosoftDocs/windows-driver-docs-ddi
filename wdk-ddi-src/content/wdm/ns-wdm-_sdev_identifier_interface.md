@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ead624cc-8aff-4a87-bdeb-066534caa61b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SDEV_IDENTIFIER_INTERFACE, wdm/SDEV_IDENTIFIER_INTERFACE, *PSDEV_IDENTIFIER_INTERFACE, _SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture]
+ms.keywords: "_SDEV_IDENTIFIER_INTERFACE, *PSDEV_IDENTIFIER_INTERFACE, wdm/SDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SDEV_IDENTIFIER_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE"
+req.typenames: SDEV_IDENTIFIER_INTERFACE, *PSDEV_IDENTIFIER_INTERFACE
 req.product: Windows 10 or later.
 ---
 

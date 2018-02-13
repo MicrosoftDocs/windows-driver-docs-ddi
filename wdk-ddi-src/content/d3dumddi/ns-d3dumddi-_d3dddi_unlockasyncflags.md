@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c31e4a4e-7bc7-43a2-8f86-e79012064fa2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_unlockasyncflags, D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices], d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, _D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS, D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml
+ms.keywords: d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, _D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml, D3DDDI_UNLOCKASYNCFLAGS, display.d3dddi_unlockasyncflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ A member in the union that is contained in D3DDDI_UNLOCKASYNCFLAGS that can hold
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a>
+
+
 
  
 

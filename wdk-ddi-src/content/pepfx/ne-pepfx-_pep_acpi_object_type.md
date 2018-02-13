@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PepAcpiObjectTypeMethod, pepfx/PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMaximum, _PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMethod, kernel.pep_acpi_object_type, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PEP_ACPI_OBJECT_TYPE
+ms.keywords: PEP_ACPI_OBJECT_TYPE, _PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, pepfx/PepAcpiObjectTypeMaximum, pepfx/PepAcpiObjectTypeMethod, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_OBJECT_TYPE, PepAcpiObjectTypeMethod, *PPEP_ACPI_OBJECT_TYPE, PepAcpiObjectTypeMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE"
+req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
 ---
 
 # _PEP_ACPI_OBJECT_TYPE enumeration
@@ -76,7 +76,6 @@ The object is an ACPI control method.
 ### -field PepAcpiObjectTypeDevice
 
 
-
 ### -field PepAcpiObjectTypeMaximum
 
 Reserved for use by the operating system.
@@ -85,13 +84,17 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is an <b>PEP_ACPI_OBJECT_TYPE</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
+
+
 
  
 

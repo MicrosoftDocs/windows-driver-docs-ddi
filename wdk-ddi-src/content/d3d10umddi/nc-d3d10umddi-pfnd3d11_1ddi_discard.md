@@ -40,7 +40,7 @@ apiname:
 -	Discard(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DISCARD callback
@@ -77,7 +77,6 @@ VOID APIENTRY* Discard(D3D11_1)(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param HandleType
 
 A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
@@ -89,7 +88,6 @@ A pointer to a handle to the resource or to the view that is to be discarded.
 
 
 ### -param *
-
 
 
 ### -param NumRects
@@ -110,14 +108,18 @@ An optional array of <a href="https://msdn.microsoft.com/library/windows/hardwar
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -130,11 +132,16 @@ The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+
+
 
  
 

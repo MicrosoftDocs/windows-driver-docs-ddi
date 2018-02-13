@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33e64f4f-a632-47d0-a133-f64d6f4b1cda
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILDELETEPHONEBOOKENTRYPARAMS, *LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], RILDELETEPHONEBOOKENTRYPARAMS, netvista.rildeletephonebookentryparams_2
+ms.keywords: netvista.rildeletephonebookentryparams_2, rilapitypes/RILDELETEPHONEBOOKENTRYPARAMS, *LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], RILDELETEPHONEBOOKENTRYPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,19 +75,14 @@ typedef struct _RILDELETEPHONEBOOKENTRYPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwStoreLocation
-
 
 
 ### -field dwIndex
 
 
-
 ### -field fHasLockVerification
 
 
-
 ### -field lockVerification
-
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 879c7117-080a-4056-b94f-6462b370f434
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_d0a33042-237e-469f-93af-f6031cf54098.xml, _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_setcontextschedulingpriority, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
+ms.keywords: D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], OpenGL_Structs_d0a33042-237e-469f-93af-f6031cf54098.xml, d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_setcontextschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetcontextschedulingpriority.md">D3DKMTSetContextSchedulingPriority</a>
+
+
 
  
 

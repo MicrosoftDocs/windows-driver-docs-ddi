@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39653A36-FFED-4F6A-9365-17E9D35DB46E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE, *PNDIS_WWAN_PRESHUTDOWN_STATE, _NDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_preshutdown_state, NDIS_WWAN_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE, netvista.ndis_wwan_preshutdown_state, NDIS_WWAN_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PRESHUTDOWN_STATE, _NDIS_WWAN_PRESHUTDOWN_STATE, *PNDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,7 @@ typedef struct _NDIS_WWAN_PRESHUTDOWN_STATE {
 
 The header with type, revision, and size information about the NDIS_WWAN_PRESHUTDOWN_STATE
      structure. 
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -107,7 +108,8 @@ sizeof(NDIS_WWAN_PRESHUTDOWN_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -116,6 +118,7 @@ For more information about these members, see
 ### -field uStatus
 
 The following table shows the possible status codes.
+
 <table>
 <tr>
 <th>Value</th>
@@ -141,14 +144,19 @@ The modem does not support pre-shutdown notifications.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt593233">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt593239">OID_WWAN_PRESHUTDOWN</a>
+
+
 
  
 

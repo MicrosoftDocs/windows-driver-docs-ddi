@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AF001441-4031-4E29-B459-1597BFCAEF4C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATE, PPEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_CST_STATE"
+ms.keywords: "*PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE, _PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_cst_state, pepfx/PEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,6 +92,7 @@ The average power consumption, in milliwatts, of the processor when in this C st
 ### -field AddressSpaceId
 
 The register address space ID (_ASI) for this C state. This member specifies the address space in which the register for this C state is located. The following IDs are defined for this member.
+
 <table>
 <tr>
 <th>ID</th>
@@ -125,7 +126,8 @@ The register address space ID (_ASI) for this C state. This member specifies the
 <td>0x7F</td>
 <td>Functional fixed hardware</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field BitWidth
@@ -141,6 +143,7 @@ The register bit offset (_RBO) for this C state. This member specifies the offse
 ### -field AccessSize
 
 The register access size (_ASZ) code for this C state. This member specifies the number of bytes to read during an access of the register for this C state. Valid access size codes are shown in the following table.
+
 <table>
 <tr>
 <th>Access size code</th>
@@ -166,7 +169,8 @@ The register access size (_ASZ) code for this C state. This member specifies the
 <td>4</td>
 <td>QWORD (8 bytes)</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Address
@@ -177,17 +181,23 @@ The register address (_ADR) for this C state.
 ## -remarks
 
 
+
 This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification. The <b>IdleStates</b> member of the <a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a> structure is a pointer to an array of <b>PEP_PPM_CST_STATE</b> structures. The <b>Type</b> member in each element of the array should equal the array index of this member.
 
 The values in the <b>PEP_PPM_CST_STATE</b> structure are obtained from the parameters that are specified for this C state in the _CST object in the ACPI namespace for the processor. 
 
 
 
+
 ## -see-also
+
+<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_states.md">PEP_PPM_CST_STATES</a>
+
 
  
 

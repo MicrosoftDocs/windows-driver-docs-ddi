@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5625c4af-329d-4b16-9d5d-0ca962a7abff
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue, IWDTFSimpleIOStressAction2, Continue, IWDTFSimpleIOStressAction2::Continue, dtf.iwdtfsimpleiostressaction2_continue, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Continue method, Continue method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Continue method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue
+ms.keywords: Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, Continue method [Windows Device Testing Framework], dtf.iwdtfsimpleiostressaction2_continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Continue method, Continue, Continue method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2::Continue, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue, IWDTFSimpleIOStressAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT Continue(
 
 
 
+
 #### - pbResult [out, retval]
 
 True if the I/O operation succeeded; otherwise, false.
@@ -82,13 +83,17 @@ True if the I/O operation succeeded; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
+
+
 
  
 

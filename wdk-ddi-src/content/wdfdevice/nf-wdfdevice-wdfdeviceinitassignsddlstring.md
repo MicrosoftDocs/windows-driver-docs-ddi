@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6f7d2511-5a9b-476e-a771-a528c2bead10
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, wdf.wdfdeviceinitassignsddlstring, wdfdevice/WdfDeviceInitAssignSDDLString, kmdf.wdfdeviceinitassignsddlstring, WdfDeviceInitAssignSDDLString method, WdfDeviceInitAssignSDDLString
+ms.keywords: WdfDeviceInitAssignSDDLString, wdf.wdfdeviceinitassignsddlstring, kmdf.wdfdeviceinitassignsddlstring, wdfdevice/WdfDeviceInitAssignSDDLString, DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, WdfDeviceInitAssignSDDLString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceInitAssignSDDLString</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,11 +104,14 @@ The system cannot allocate space to store the device name.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Your driver can specify a security setting by using a subset of Security Descriptor Definition Language (SDDL). The <i>Wdmsec.h</i> file defines a set of SDDL_DEVOBJ_XXX-formatted constants that you can use. For more information about security descriptors and SDDL, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563688">Securing Device Objects</a>.
@@ -121,5 +126,26 @@ For more information about security issues, see <a href="https://docs.microsoft.
 
 
       If you are writing a UMDF driver, you  must modify your driver's INF file to provide an appropriate security descriptor for the stack. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563688">Securing Device Objects</a>. For more information about using the registry, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563759">Setting Device Object Registry Properties During Installation</a>.
+
+
+#### Examples
+
+The following code example assigns a security setting for a device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+
+status = WdfDeviceInitAssignSDDLString(
+                                       pDeviceInit,
+                                       &amp;SDDL_DEVOBJ_SYS_ALL_ADM_ALL
+                                       );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

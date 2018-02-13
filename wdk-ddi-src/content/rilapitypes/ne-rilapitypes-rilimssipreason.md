@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45cee356-e05e-4f3a-bccf-4d95a64587d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, rilapitypes/RIL_IMSSIPREASON_MAX, netvista.rilimssipreason_2, RIL_IMSSIPREASON_MAX, RILIMSSIPREASON, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, rilapitypes/RILIMSSIPREASON, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, netvista.rilimssipreason_2, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_IMSSIPREASON_MAX, rilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, RIL_IMSSIPREASON_MAX, rilapitypes/RILIMSSIPREASON, RILIMSSIPREASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,11 +72,8 @@ typedef enum _RILIMSSIPREASON {
 ### -field RIL_IMSSIPREASON_NONE
 
 
-
 ### -field RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE
 
 
-
 ### -field RIL_IMSSIPREASON_MAX
-
 

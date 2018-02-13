@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d5f71935-8371-413d-a602-a9a4a9e976c3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_allplugins_624e3173-a8f8-4028-9cd4-b271e1e56430.xml, GetFontSubstitution method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetFontSubstitution method, GetFontSubstitution, IPrintCoreHelperPS, GetFontSubstitution method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::GetFontSubstitution, print.iprintcorehelperps_getfontsubstitution, IPrintCoreHelperPS::GetFontSubstitution
+ms.keywords: IPrintCoreHelperPS, GetFontSubstitution method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices], GetFontSubstitution method, GetFontSubstitution, print_unidrv-pscript_allplugins_624e3173-a8f8-4028-9cd4-b271e1e56430.xml, IPrintCoreHelperPS::GetFontSubstitution, GetFontSubstitution method [Print Devices], print.iprintcorehelperps_getfontsubstitution, prcomoem/IPrintCoreHelperPS::GetFontSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.GetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ A pointer to a variable that receives the address of a null-terminated Unicode s
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::GetFontSubstitution</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +145,14 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If an application attempts to print text that uses the TrueType font specified in the <i>pszTrueTypeFontName</i> parameter, that text will instead be printed in the device font specified in the <i>ppszDevFontName</i> parameter. The device font name must be that of a valid, installed font.
@@ -155,12 +160,17 @@ If an application attempts to print text that uses the TrueType font specified i
 A font is identified by its font face name, which appears in the <b>lfFaceName</b> member of the LOGFONT structure.
 
 To obtain a list of available fonts, create an information context for the current printer, and call <b>SetGraphicsMode</b>(hIC, GM_ADVANCED). Then enumerate device fonts by calling <b>EnumFontFamilies</b>. The callback parameter (see <b>EnumFontFamProc</b> in the Microsoft Windows SDK documentation) of <b>EnumFontFamilies</b> should filter for device fonts by incrementing a counter for each font for which the bitwise AND result (FontType &amp; TRUETYPE_FONTTYPE) is nonzero.
-<div class="alert"><b>Note</b>  For information about structures and functions described previously, see the Windows SDK documentation.</div><div> </div>
+
+<div class="alert"><b>Note</b>  For information about structures and functions described previously, see the Windows SDK documentation.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552908">IPrintCoreHelperPS::SetFontSubstitution</a>
+
+
 
  
 

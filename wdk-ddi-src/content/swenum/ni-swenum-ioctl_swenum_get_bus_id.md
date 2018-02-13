@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SWENUM_GET_BUS_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
+req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
 
@@ -100,13 +100,21 @@ req.product: Windows 10 or later.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 
  
 

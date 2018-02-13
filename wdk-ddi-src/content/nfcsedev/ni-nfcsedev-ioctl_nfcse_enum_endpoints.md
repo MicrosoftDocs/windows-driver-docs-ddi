@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_ENUM_ENDPOINTS
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
+req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL
@@ -83,27 +83,34 @@ An <a href="..\nfcsedev\ns-nfcsedev-_secure_element_endpoint_list.md"> SECURE_EL
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -117,10 +124,12 @@ An <a href="..\nfcsedev\ns-nfcsedev-_secure_element_endpoint_list.md"> SECURE_EL
 <td><b>STATUS_BUFFER_OVERFLOW</b></td>
 <td>The buffer supplied was too small to receive the routing table configuration.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to.
@@ -133,6 +142,7 @@ The following are requirements that the driver must adhere to.
 <li>For device host secure element, the driver shall enumerate it as a SE end point only if it supports Host Card Emulation. The GUID used for DH maybe a fixed constant defined by the driver.</li>
 <li>The caller is required to allocate an output buffer large enough to hold the information about all the secure elements that were enumerated by the driver. The buffer must be equal to the total number of SEs enumerated by the driver multiplied by the size of the SE endpoint information. If the appropriate buffer isn’t allocated, the driver returns a STATUS_BUFFER_OVERFLOW error code to the client with the NumberOfEndpoints field that contains the number of secure elements enumerated.</li>
 </ul>
+
 
 
 

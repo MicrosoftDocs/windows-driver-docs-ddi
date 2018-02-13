@@ -93,13 +93,17 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPr
 ## -remarks
 
 
+
 Drivers can use the  <b>IWDFUnifiedPropertyStore</b> interface to access device properties that are defined as part of the unified device property model.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
+
 
  
 

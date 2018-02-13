@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IdeStop, irb/IDE_CONTROL_ACTION, storage.ide_control_action, IDE_CONTROL_ACTION enumeration [Storage Devices], irb/IdeStart, IdePowerUp, IdeVendorDefined, irb/IdeVendorDefined, irb/IdePowerDown, irb/IdePowerUp, IdeStart, IDE_CONTROL_ACTION, irb/IdeStop, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml, IdePowerDown
+ms.keywords: irb/IdePowerUp, IdeStart, irb/IdePowerDown, irb/IdeVendorDefined, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml, irb/IDE_CONTROL_ACTION, IDE_CONTROL_ACTION, storage.ide_control_action, IdeStop, IdePowerDown, IDE_CONTROL_ACTION enumeration [Storage Devices], IdeVendorDefined, irb/IdeStart, irb/IdeStop, IdePowerUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,6 +101,8 @@ Indicates that the miniport driver should perform a vendor-defined control actio
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
 
  
 

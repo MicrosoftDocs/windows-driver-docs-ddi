@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_AMVPDIMINFO, PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, *PKS_AMVPDIMINFO, KS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], ksmedia/KS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], tagKS_AMVPDIMINFO
+ms.keywords: tagKS_AMVPDIMINFO, KS_AMVPDIMINFO, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], stream.ks_amvpdiminfo, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO, ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, *PKS_AMVPDIMINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_AMVPDIMINFO
 product: Windows
 targetos: Windows
-req.typenames: KS_AMVPDIMINFO, *PKS_AMVPDIMINFO
+req.typenames: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO"
 ---
 
 # tagKS_AMVPDIMINFO structure
@@ -99,13 +99,17 @@ Describes a valid rectangle for data cropping.
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ksmedia\ns-ksmedia-tagks_amvpdatainfo.md">KS_AMVPDATAINFO</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_amvpdatainfo.md">KS_AMVPDATAINFO</a>
+
+
 
  
 

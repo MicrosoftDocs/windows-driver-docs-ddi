@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 82F36729-57E0-49AB-8C2D-BCBA6EED33EE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], 61883/FCP_SEND_REQUEST, *PFCP_SEND_REQUEST, FCP_REQUEST, PFCP_SEND_REQUEST, *PFCP_REQUEST, _FCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], IEEE.fcp_send_request, FCP_SEND_REQUEST
+ms.keywords: FCP_SEND_REQUEST structure [Buses], PFCP_SEND_REQUEST structure pointer [Buses], *PFCP_REQUEST, 61883/PFCP_SEND_REQUEST, *PFCP_SEND_REQUEST, 61883/FCP_SEND_REQUEST, FCP_SEND_REQUEST, FCP_REQUEST, PFCP_SEND_REQUEST, IEEE.fcp_send_request, _FCP_SEND_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FCP_SEND_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PFCP_REQUEST, FCP_SEND_REQUEST, FCP_REQUEST, *PFCP_SEND_REQUEST"
+req.typenames: "*PFCP_SEND_REQUEST, *PFCP_REQUEST, FCP_SEND_REQUEST, FCP_REQUEST"
 ---
 
 # _FCP_SEND_REQUEST structure
@@ -87,6 +87,7 @@ On input, a pointer to an <a href="https://msdn.microsoft.com/library/windows/ha
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
@@ -95,9 +96,12 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: FBC776FE-1056-4D3B-BECB-124FC41DD68F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], serports.sercx2customreceivetransactionreportprogress, 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress
+ms.keywords: SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress, serports.sercx2customreceivetransactionreportprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,10 +77,12 @@ TBD
 ### -param Progress [in]
 
 Whether progress is being made toward completing the custom-receive transaction. Set this parameter to one of the following enumeration constants:
+
 <ul>
 <li>SERCX2_CUSTOM_RECEIVE_NO_PROGRESS</li>
 <li>SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED</li>
-</ul>For more information about these enumeration constants, see <a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
+</ul>
+For more information about these enumeration constants, see <a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
 
 
 #### - CustomReceive [in]
@@ -91,11 +93,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2C
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 To determine whether the serial controller is making progress toward completing the current custom-receive transaction, SerCx2 periodically calls the <a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a> event callback function. In response to this call, the serial controller driver calls <b>SerCx2CustomReceiveTransactionReportProgress</b> to provide a progress report.
@@ -108,15 +113,24 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 
 
+
 ## -see-also
+
+<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
+
+
 
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
 
-<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
-<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
+
+
+<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
+
+
 
  
 

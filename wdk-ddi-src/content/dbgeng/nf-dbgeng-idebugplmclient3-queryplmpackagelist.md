@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugplmclient3_queryplmpackagelist, IDebugPlmClient3::QueryPlmPackageList, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, dbgeng/IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageList, IDebugPlmClient3
+ms.keywords: IDebugPlmClient3, QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_queryplmpackagelist, QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3::QueryPlmPackageList, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, dbgeng/IDebugPlmClient3::QueryPlmPackageList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ A pointer to an output stream for results.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8961126F-FE54-4369-A929-6CC4BDC67598
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, wdf.read_register_buffer_ulong64
+ms.keywords: wdf.read_register_buffer_ulong64, umdf.read_register_buffer_ulong64, READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,13 +96,17 @@ Specifies the number of ULONG64 values to be read into the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

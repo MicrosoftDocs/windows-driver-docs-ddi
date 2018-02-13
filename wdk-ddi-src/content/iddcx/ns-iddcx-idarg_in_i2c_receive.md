@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a44a45bf-4c21-4507-a89b-4130622bdd06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_I2C_RECEIVE, iddcx/IDARG_IN_I2C_RECEIVE, IDARG_IN_I2C_RECEIVE structure [Display Devices], display.idarg_in_i2c_receive
+ms.keywords: display.idarg_in_i2c_receive, IDARG_IN_I2C_RECEIVE, iddcx/IDARG_IN_I2C_RECEIVE, IDARG_IN_I2C_RECEIVE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

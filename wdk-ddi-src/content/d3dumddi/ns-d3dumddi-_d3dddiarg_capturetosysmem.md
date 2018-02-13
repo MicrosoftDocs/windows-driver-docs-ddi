@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8cf42c60-655a-4deb-9351-4a3505b49593
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_497b7e52-066f-4078-b673-0f9cd3b6f4c1.xml, _D3DDDIARG_CAPTURETOSYSMEM, d3dumddi/D3DDDIARG_CAPTURETOSYSMEM, D3DDDIARG_CAPTURETOSYSMEM, D3DDDIARG_CAPTURETOSYSMEM structure [Display Devices], display.d3dddiarg_capturetosysmem
+ms.keywords: D3DDDIARG_CAPTURETOSYSMEM structure [Display Devices], _D3DDDIARG_CAPTURETOSYSMEM, D3DDDIARG_CAPTURETOSYSMEM, display.d3dddiarg_capturetosysmem, UMDisplayDriver_param_Structs_497b7e52-066f-4078-b673-0f9cd3b6f4c1.xml, d3dumddi/D3DDDIARG_CAPTURETOSYSMEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,17 +99,25 @@ typedef struct _D3DDDIARG_CAPTURETOSYSMEM {
 ## -remarks
 
 
+
 Because the source resource that is specified by the <b>hSrcResource</b> member is a capture buffer, it is guaranteed to be a stand alone resource. Therefore, in a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_capturetosysmem.md">CaptureToSysMem</a>, the Microsoft Direct3D runtime is not required to supply an index to a sub source surface within the resource. However, an index to a sub source surface is required when the runtime calls the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a> function to perform a more general bitblt.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_capturetosysmem.md">CaptureToSysMem</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_capturetosysmem.md">CaptureToSysMem</a>
+
+
 
  
 

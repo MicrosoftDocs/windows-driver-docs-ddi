@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PDCEVENT_CREATEDCPRE structure pointer [Print Devices], winddiui/DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, winddiui/PDCEVENT_CREATEDCPRE, print.docevent_createdcpre, _DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE structure [Print Devices], DOCEVENT_CREATEDCPRE
+ms.keywords: "_DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE, winddiui/DOCEVENT_CREATEDCPRE, print.docevent_createdcpre, winddiui/PDCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], DOCEVENT_CREATEDCPRE structure [Print Devices], print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOCEVENT_CREATEDCPRE
 product: Windows
 targetos: Windows
-req.typenames: "*PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE"
+req.typenames: DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,11 @@ Specifies whether the DEVMODEW structure pointed to by the <b>pdm</b> member is 
 ## -remarks
 
 
+
 The DOCEVENT_CREATEDCPRE structure is defined for Windows XP and later.
 
 This structure is used in conjunction with a call to <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>, in which the <i>iEsc</i> parameter is set to DOCUMENTEVENT_CREATEDCPRE. Before calling either of these functions, the caller must fill in the members of this structure.
+
 
 
 
@@ -104,7 +106,11 @@ This structure is used in conjunction with a call to <a href="..\winddiui\nf-win
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
+
+
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
 
  
 

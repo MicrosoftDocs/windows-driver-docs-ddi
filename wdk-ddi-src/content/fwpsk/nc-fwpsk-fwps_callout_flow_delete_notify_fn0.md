@@ -100,11 +100,14 @@ The most recent context that has been associated with the data flow by a call to
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling either the 
@@ -133,6 +136,7 @@ The filter engine calls a callout's
 
 The FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 type is defined as a pointer to the 
     <i>flowDeleteFn</i> function as follows.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -142,22 +146,34 @@ The FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 type is defined as a pointer to the
 <pre>typedef void (NTAPI *FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0) flowDeleteFn</pre>
 </td>
 </tr>
-</table></span></div>The filter engine calls a callout's 
+</table></span></div>
+The filter engine calls a callout's 
     <i>flowDeleteFn</i> callout function at IRQL &lt;= DISPATCH_LEVEL.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
 
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
 
  
 

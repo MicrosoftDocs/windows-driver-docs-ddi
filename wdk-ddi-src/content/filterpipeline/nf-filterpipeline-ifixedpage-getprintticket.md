@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4a30efd9-8fef-4fef-8293-b7df5b954977
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.ifixedpage_getprintticket, GetPrintTicket, GetPrintTicket method [Print Devices], IFixedPage::GetPrintTicket, filterpipeline/IFixedPage::GetPrintTicket, GetPrintTicket method [Print Devices], IFixedPage interface, filterpipeline_13ccb2a1-7898-41d1-b11f-55ca3cc881ab.xml, IFixedPage interface [Print Devices], GetPrintTicket method, IFixedPage
+ms.keywords: print.ifixedpage_getprintticket, GetPrintTicket method [Print Devices], IFixedPage interface, IFixedPage interface [Print Devices], GetPrintTicket method, IFixedPage::GetPrintTicket, filterpipeline/IFixedPage::GetPrintTicket, GetPrintTicket, filterpipeline_13ccb2a1-7898-41d1-b11f-55ca3cc881ab.xml, GetPrintTicket method [Print Devices], IFixedPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,26 +75,38 @@ Pointer to a location into which the method writes a pointer to the <a href="..\
 ## -returns
 
 
+
 <b>GetPrintTicket</b> returns an <b>HRESULT</b> value. If a print ticket is not in the fixed page, <b>GetPrintTicket</b> might return E_ELEMENT_NOT_FOUND.
+
 
 
 
 ## -remarks
 
 
+
 After calling this method to get the page-level print ticket, a print driver filter can obtain the <i>effective</i> print ticket for the fixed page by merging the page-level print ticket with the document-level print ticket and the job-level print ticket. The filter can get the document-level and job-level print tickets by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a> methods. For more information about merging print tickets, see <a href="https://msdn.microsoft.com/2d9cf4d3-5c73-4355-b5e0-effcfb7102cc">Print Ticket Merging</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a>
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
+
+
+<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: buses\usbfn_direction.htm
 old-project: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnDirectionRx, UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, *PUSBFN_DIRECTION, UsbfnDirectionOut, UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionTx, usbfnbase/UsbfnDirectionOut, buses.usbfn_direction, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionRx, usbfnbase/UsbfnDirectionMinimum, UsbfnDirectionMinimum, _USBFN_DIRECTION, USBFN_DIRECTION, UsbfnDirectionTx, usbfnbase/UsbfnDirectionIn, usbfnbase/USBFN_DIRECTION
+ms.date: 2/8/2018
+ms.keywords: usbfnbase/USBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionRx, usbfnbase/UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionIn, buses.usbfn_direction, usbfnbase/UsbfnDirectionOut, UsbfnDirectionTx, usbfnbase/UsbfnDirectionRx, *PUSBFN_DIRECTION, usbfnbase/UsbfnDirectionTx, usbfnbase/UsbfnDirectionMaximum, UsbfnDirectionOut, usbfnbase/UsbfnDirectionMinimum, _USBFN_DIRECTION, UsbfnDirectionMinimum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_DIRECTION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_DIRECTION, USBFN_DIRECTION"
+req.typenames: USBFN_DIRECTION, *PUSBFN_DIRECTION
 req.product: Windows 10 or later.
 ---
 

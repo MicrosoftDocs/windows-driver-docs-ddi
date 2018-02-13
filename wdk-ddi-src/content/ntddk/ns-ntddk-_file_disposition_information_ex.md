@@ -7,8 +7,8 @@ old-location: ifsk\file_disposition_information_ex.htm
 old-project: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.file_disposition_information_ex, FILE_DISPOSITION_INFORMATION_EX, _FILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], ntddk/PFILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX, ntddk/FILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ntddk/FILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], ntddk/PFILE_DISPOSITION_INFORMATION_EX, _FILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], ifsk.file_disposition_information_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_DISPOSITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX
+req.typenames: "*PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX"
 ---
 
 # _FILE_DISPOSITION_INFORMATION_EX structure
@@ -70,6 +70,7 @@ typedef struct _FILE_DISPOSITION_INFORMATION_EX {
 ### -field Flags
 
 Specifies what action(s) the system should take with a specific file while deleting.
+
 <table>
 <tr>
 <th>Flag Name</th>
@@ -104,10 +105,12 @@ Specifies what action(s) the system should take with a specific file while delet
 <td>0x00000008</td>
 <td>Specifies if the system sets or clears the on-close state.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The caller must have DELETE access to a given file to call ZwSetInformationFile with <b>FILE_DISPOSITION_DELETE</b>. 
@@ -116,15 +119,20 @@ Normally a file marked for deletion is not actually deleted until all open handl
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_DISPOSITION_INFORMATION_EX structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_DISPOSITION_INFORMATION_EX structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

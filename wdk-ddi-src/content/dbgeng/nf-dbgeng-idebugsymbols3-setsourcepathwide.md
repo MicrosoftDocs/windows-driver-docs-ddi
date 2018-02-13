@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::SetSourcePathWide, debugger.setsourcepathwide, SetSourcePathWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, SetSourcePathWide, dbgeng/IDebugSymbols3::SetSourcePathWide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], SetSourcePathWide method, SetSourcePathWide method [Windows Debugging], dbgeng/IDebugSymbols3::SetSourcePathWide, IDebugSymbols3::SetSourcePathWide, SetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, debugger.setsourcepathwide, SetSourcePathWide, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Specifies the new source path.  This is a string that contains source path eleme
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The source path is used by the engine when searching for source files.
@@ -105,13 +110,20 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

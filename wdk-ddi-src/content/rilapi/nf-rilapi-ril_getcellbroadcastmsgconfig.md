@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eeb6392c-a399-4e08-b4f8-54577beddf19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getcellbroadcastmsgconfig, RIL_GetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCellBroadcastMsgConfig, RIL_GetCellBroadcastMsgConfig
+ms.keywords: RIL_GetCellBroadcastMsgConfig, rilapi/RIL_GetCellBroadcastMsgConfig, netvista.ril_getcellbroadcastmsgconfig, RIL_GetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetCellBroadcastMsgConfig(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

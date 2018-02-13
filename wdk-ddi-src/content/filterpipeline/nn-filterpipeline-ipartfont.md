@@ -100,6 +100,8 @@ The <b>SetFontOptions</b> method sets the options for the font.
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
+
+
  
 
  

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ca891a21-e7ab-4230-bfc4-adfdb413838b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/PWDFMEMORY_OFFSET, wdfmemory/WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, *PWDFMEMORY_OFFSET, kmdf.wdfmemory_offset, _WDFMEMORY_OFFSET, WDFMEMORY_OFFSET, wdf.wdfmemory_offset, PWDFMEMORY_OFFSET structure pointer, DFMemoryObjectRef_d6ea5bd1-f672-4624-9663-f1e5f70eb8b2.xml, PWDFMEMORY_OFFSET
+ms.keywords: WDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, PWDFMEMORY_OFFSET, kmdf.wdfmemory_offset, wdf.wdfmemory_offset, *PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, wdfmemory/PWDFMEMORY_OFFSET, _WDFMEMORY_OFFSET, wdfmemory/WDFMEMORY_OFFSET, DFMemoryObjectRef_d6ea5bd1-f672-4624-9663-f1e5f70eb8b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDFMEMORY_OFFSET
 product: Windows
 targetos: Windows
-req.typenames: "*PWDFMEMORY_OFFSET, WDFMEMORY_OFFSET"
+req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
 req.product: Windows 10 or later.
 ---
 
@@ -84,13 +84,17 @@ The length, in bytes, of the buffer's subsection. A value of zero represents the
 ## -remarks
 
 
+
 The <b>WDFMEMORY_OFFSET</b> structure is used as a member of the <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure and as an input parameter to various I/O target object methods.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
+
+
 
  
 

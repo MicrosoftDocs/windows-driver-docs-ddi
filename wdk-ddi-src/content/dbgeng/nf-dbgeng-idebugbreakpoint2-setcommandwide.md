@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide, SetCommandWide, dbgeng/IDebugBreakpoint2::SetCommandWide, IDebugBreakpoint2, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide, SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::SetCommandWide, SetCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ The command string that is executed when the breakpoint is triggered.
 ## -returns
 
 
+
 <b>SetCommandWide</b> might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The command string is a list of debugger commands that are separated by semicolons.  These commands are executed every time that the breakpoint is triggered.  The commands are executed before the engine informs any event callbacks that the breakpoint has been triggered.
@@ -104,5 +109,6 @@ The command string is a list of debugger commands that are separated by semicolo
 If the command string includes an execution command such as <b>G (Go)</b>, this command should be the last command in the <i>Command</i> string.  If a command causes the target to resume execution, the rest of the command string is ignored.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

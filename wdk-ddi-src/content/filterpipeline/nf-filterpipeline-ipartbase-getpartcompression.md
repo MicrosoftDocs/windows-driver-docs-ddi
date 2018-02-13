@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18b2a3c2-26da-434e-bcea-89bd6ef22077
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPartBase::GetPartCompression, print.ipartbase_getpartcompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, GetPartCompression method [Print Devices], IPartBase, filterpipeline/IPartBase::GetPartCompression, IPartBase interface [Print Devices], GetPartCompression method, GetPartCompression method [Print Devices], IPartBase interface, GetPartCompression
+ms.keywords: GetPartCompression, filterpipeline/IPartBase::GetPartCompression, IPartBase interface [Print Devices], GetPartCompression method, GetPartCompression method [Print Devices], IPartBase interface, IPartBase, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, print.ipartbase_getpartcompression, GetPartCompression method [Print Devices], IPartBase::GetPartCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,8 @@ A pointer to the compression option data for the part.
 ## -returns
 
 
+
 <b>GetPartCompression</b> returns an <b>HRESULT</b> value.
+
 
 

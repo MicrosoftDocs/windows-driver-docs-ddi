@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48f1d2ba-747a-4588-8238-db6ac2aa89d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSetGammaRamp, D3DKMTSetGammaRamp function [Display Devices], display.d3dkmtsetgammaramp, d3dkmthk/D3DKMTSetGammaRamp, OpenGL_Functions_4d684cea-8528-489d-bc35-b70a5f05a57b.xml
+ms.keywords: display.d3dkmtsetgammaramp, D3DKMTSetGammaRamp, d3dkmthk/D3DKMTSetGammaRamp, OpenGL_Functions_4d684cea-8528-489d-bc35-b70a5f05a57b.xml, D3DKMTSetGammaRamp function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setgammaramp.md">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setgammaramp.md">D3DKMT_
 ## -returns
 
 
+
 <b>D3DKMTSetGammaRamp</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,15 +126,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setgammaramp.md">D3DKMT_SETGAMMARAMP</a>
+
+
 
  
 

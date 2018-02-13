@@ -83,11 +83,14 @@ A pointer to an  <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 To register an <i>OnWorkItem</i> callback function, your driver must place the callback function's address in a <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>.
@@ -99,14 +102,73 @@ The driver must not call <a href="https://msdn.microsoft.com/library/windows/har
 For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
 
 
+#### Examples
+
+The function type is declared in <i>Wudfworkitem.h</i>, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
+VOID
+WUDF_WORKITEM_FUNCTION(
+    _In_
+    IWDFWorkItem* pWorkItem
+    );
+
+typedef WUDF_WORKITEM_FUNCTION *PFN_WUDF_WORKITEM;</pre>
+</td>
+</tr>
+</table></span></div>
+To define an <i>OnWorkItem</i> callback function that is named <i>MyWorkItem</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WUDF_WORKITEM_FUNCTION  MyWorkItem;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+  MyWorkItem (
+   _In_
+    IWDFWorkItem* pWorkItem
+    )
+  {…}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+
+
 
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
 
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
+
 
  
 

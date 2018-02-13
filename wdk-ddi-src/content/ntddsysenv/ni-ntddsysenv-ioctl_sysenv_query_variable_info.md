@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SYSENV_QUERY_VARIABLE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP"
+req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 ---
 
 # IOCTL_SYSENV_QUERY_VARIABLE_INFO IOCTL
@@ -90,14 +90,18 @@ The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_sysenv_variable_info.md">S
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,13 +112,21 @@ The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_sysenv_variable_info.md">S
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 
  
 

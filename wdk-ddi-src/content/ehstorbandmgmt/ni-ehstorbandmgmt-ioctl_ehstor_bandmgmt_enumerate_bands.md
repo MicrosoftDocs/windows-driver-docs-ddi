@@ -85,20 +85,25 @@ The length of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_pa
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The <b>Information</b> field contains the number of bytes returned in the output buffer. One of the following values can be returned in the <b>Status</b> field. 
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -136,21 +141,28 @@ The <b>Information</b> field contains the number of bytes returned in the output
 <td>STATUS_BUFFER_TOO_SMALL</td>
 <td>The output buffer supplied is not large enough to hold the output data returned.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 A driver or application can query for the necessary output buffer size by setting the output buffer for the request to NULL and the output size to 0. The <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> request will return with the <b>Status</b> field of the <i>IoStatus</i> block set to STATUS_BUFFER_OVERFLOW and the <b>Information</b> field will contain the required buffer size.
 
 
 
+
 ## -see-also
+
+<b>ENUMERATE_BANDS_PARAMETERS</b>
+
+
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a>
 
-<b>ENUMERATE_BANDS_PARAMETERS</b>
+
 
  
 

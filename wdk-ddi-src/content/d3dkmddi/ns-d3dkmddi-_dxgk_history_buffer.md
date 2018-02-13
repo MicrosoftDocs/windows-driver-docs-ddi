@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer, DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices]"
+ms.keywords: DXGK_HISTORY_BUFFER, _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer, DXGK_HISTORY_BUFFER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ An array that marks the beginning of the optional driver data and timestamp entr
 ## -remarks
 
 
+
 You can calculate the address of the first time stamp in the history buffer by adding the value of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>.<b>PrivateDataSize</b> to the address of <b>DriverPrivateData</b>.
 
 The beginnings of the time stamps should be aligned to a 64-bit boundary.
@@ -91,11 +92,16 @@ The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8975941a-21ad-4d51-9215-b35fa65cdfeb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnReleaseHardware method, wudfddi/IPnpCallbackHardware::OnReleaseHardware, IPnpCallbackHardware, OnReleaseHardware method, IPnpCallbackHardware interface, OnReleaseHardware, IPnpCallbackHardware::OnReleaseHardware, wdf.ipnpcallbackhardware_onreleasehardware, umdf.ipnpcallbackhardware_onreleasehardware, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, IPnpCallbackHardware interface, OnReleaseHardware method
+ms.keywords: OnReleaseHardware method, wudfddi/IPnpCallbackHardware::OnReleaseHardware, IPnpCallbackHardware interface, OnReleaseHardware method, IPnpCallbackHardware, IPnpCallbackHardware::OnReleaseHardware, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, OnReleaseHardware, wdf.ipnpcallbackhardware_onreleasehardware, umdf.ipnpcallbackhardware_onreleasehardware, OnReleaseHardware method, IPnpCallbackHardware interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,13 +78,16 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 <b>OnReleaseHardware</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h. Do not return HRESULT_FROM_NT(STATUS_NOT_SUPPORTED).
 
 This method must use the HRESULT_FROM_NT macro to return a specific HRESULT value to  return status to a kernel-mode client. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-1-x-drivers">Supporting Kernel-mode Clients</a>.
 
 
 
+
 ## -remarks
+
 
 
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
@@ -95,17 +98,28 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

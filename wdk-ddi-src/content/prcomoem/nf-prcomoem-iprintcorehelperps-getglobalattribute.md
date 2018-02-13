@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, print.iprintcorehelperps_getglobalattribute, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS::GetGlobalAttribute
+ms.keywords: GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, IPrintCoreHelperPS::GetGlobalAttribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.GetGlobalAttribute
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,9 @@ A pointer to a callee-allocated buffer containing the requested data. Upon compl
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::GetGlobalAttribute</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,11 +151,14 @@ The value in <i>pcbSize</i> was smaller than the number of bytes to be written t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If <b>IPrintCoreHelperPS::GetGlobalAttribute</b> is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbSize</i> set to the number of bytes that are needed for the list of all of the supported global attribute names. If this method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size that was specified in *<i>pcbSize</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration type) and <i>pbData</i> pointing to a NULL-delimited list of all of the supported global attribute names. This list is terminated with two null characters.
@@ -162,11 +167,16 @@ For more information about <b>IPrintCoreHelperPS::GetGlobalAttribute</b>, see <a
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551998">IPrintCoreHelperPS::GetFeatureAttribute</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	CheckCounter
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CHECKCOUNTER callback
@@ -82,17 +82,13 @@ VOID APIENTRY CheckCounter(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_QUERY
-
 
 
 ### -param *
 
 
-
 ### -param LPSTR
-
 
 
 ### -param *pNameLength [in, out]
@@ -123,6 +119,7 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
 #### - pCounterType [out]
 
 A pointer to a variable that receives one of the following values from the D3D10DDI_COUNTER_TYPE enumeration that identifies the data type that the counter outputs. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -168,7 +165,8 @@ D3D10DDI_COUNTER_TYPE_UINT64
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - pActiveCounters [out]
@@ -194,13 +192,16 @@ A pointer that the driver returns a NULL-terminated string to that contains the 
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The driver's <b>CheckCounter</b> function can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set the ERR_UNSUPPORTED error code if the <i>Query</i> parameter of <b>CheckCounter</b>specifies a well-known counter that the device does not support.
@@ -211,13 +212,20 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="..\d3d10umddi
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

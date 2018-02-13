@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 524e3533-e43c-44eb-b677-dbd023ab5abc
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure [ACPI Devices], acpi.acpi_eval_input_buffer_simple_integer, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, acpiioct/P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, acpi-meth-eval-ref_d9366d11-027b-42e3-bb47-c3b14da27ba4.xml, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER
+ms.keywords: P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, acpi.acpi_eval_input_buffer_simple_integer, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure [ACPI Devices], acpi-meth-eval-ref_d9366d11-027b-42e3-bb47-c3b14da27ba4.xml, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure [ACPI Devices], acpiioct/P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, P_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure pointer [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER"
+req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 structure
@@ -72,6 +72,11 @@ typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1 {
 
 
 
+### -field Signature
+
+The signature of an integer input buffer, which must be set to ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_SIGNATURE.
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -87,11 +92,6 @@ A four-element ASCII character array that contains the name of a control method,
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
 
 
-### -field Signature
-
-The signature of an integer input buffer, which must be set to ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_SIGNATURE.
-
-
 ### -field IntegerArgument
 
 An argument value of type ULONG that is passed as input to the control method.
@@ -100,7 +100,9 @@ An argument value of type ULONG that is passed as input to the control method.
 ## -remarks
 
 
+
 If a device supports a control method named ABCD that takes one integer argument of type ULONG, a driver for the device can evaluate the method by sending an IOCTL_EVAL_METHOD request or an IOCTL_ACPI_ASYNC_EVAL_METHOD request to the device and setting the members of the input ACPI_EVAL_INPUT_BUFFER structure as follows:
+
 <ul>
 <li>
 Set <b>Signature</b> to ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_SIGNATURE.
@@ -114,15 +116,21 @@ Set <b>MethodName</b> to 'ABCD' or <b>MethodNameAsUlong</b> to (ULONG)('DCBA').
 Set <b>IntegerArgument</b> to the input integer value.
 
 </li>
-</ul>For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+</ul>
+For more information about how to use this structure, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
+
+
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
+
 
  
 

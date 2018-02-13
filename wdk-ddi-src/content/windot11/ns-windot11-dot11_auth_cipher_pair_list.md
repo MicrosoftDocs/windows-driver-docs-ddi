@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1440041-a7cd-45c6-8aa5-445d6de2bc20
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_AUTH_CIPHER_PAIR_LIST, *PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST, netvista.dot11_auth_cipher_pair_list, Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_AUTH_CIPHER_PAIR_LIST, PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST, windot11/PDOT11_AUTH_CIPHER_PAIR_LIST, DOT11_AUTH_CIPHER_PAIR_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_22a0193d-4747-47ac-84dc-067bb30e22ca.xml, *PDOT11_AUTH_CIPHER_PAIR_LIST, netvista.dot11_auth_cipher_pair_list, PDOT11_AUTH_CIPHER_PAIR_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_AUTH_CIPHER_PAIR_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,8 +83,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -92,15 +90,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_AUTH_CIPHER_PAIR_LIST_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        <code>sizeof(DOT11_AUTH_CIPHER_PAIR_LIST)</code>.
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uNumOfEntries
@@ -125,6 +128,7 @@ The list of
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_AUTH_CIPHER_PAIR_LIST structure when queried by either 
     <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
     OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or 
@@ -139,6 +143,7 @@ When these OIDs are queried, the miniport driver must verify that the
     <b>AuthCipherPairs</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
+
 <ul>
 <li>
 If the value of the 
@@ -192,7 +197,8 @@ Return NDIS_STATUS_SUCCESS from its
 </li>
 </ul>
 </li>
-</ul>Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
+</ul>
+Starting with Windows 7, an 802.11 miniport driver can report any combination of supported
     authentication and cipher algorithm pairs in DOT11_AUTH_CIPHER_PAIR_LIST. However, if the operating
     system starts Soft AP, it enables only the 
     <b>DOT11_AUTH_ALGO_RSNA_PSK</b> authentication algorithm and the 
@@ -208,17 +214,26 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+
+
 
 <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
-   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

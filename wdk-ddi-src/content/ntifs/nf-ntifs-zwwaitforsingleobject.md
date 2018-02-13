@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5eea0877-329d-4fa3-847e-365d6a545b07
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, NtWaitForSingleObject, kernel.zwwaitforsingleobject, ZwWaitForSingleObject, ntifs/ZwWaitForSingleObject, ntifs/NtWaitForSingleObject
+ms.keywords: NtWaitForSingleObject, ZwWaitForSingleObject, kernel.zwwaitforsingleobject, k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], ntifs/ZwWaitForSingleObject, ntifs/NtWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ An optional pointer to a time-out value that specifies the absolute or relative 
 ## -returns
 
 
+
 <b>ZwWaitForSingleObject</b> can return one of the following possible status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -160,13 +162,16 @@ The wait was aborted to deliver a user APC to the current thread.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the NT_SUCCESS macro recognizes the STATUS_ALERTED, STATUS_SUCCESS, STATUS_TIMEOUT, and STATUS_USER_APC status values as "success" values.
 
 
 
+
 ## -remarks
+
 
 
 <b>ZwWaitForSingleObject</b> waits until the specified object attains a state of Signaled. An optional timeout can also be specified. <b>ZwWaitForSingleObject</b> examines the current state of the specified object to determine whether the wait can be satisfied immediately. If so, actions are performed. Otherwise, the current thread is put in a waiting state and a new thread is selected for execution on the current processor.
@@ -176,6 +181,7 @@ If a <i>Timeout</i> parameter is not specified, then the wait will not be satisf
 The <i>Alertable</i> parameter specifies whether the thread can be alerted and its wait state consequently aborted. If the value of this parameter is <b>FALSE</b> then the thread cannot be alerted. The only exception to this rule is that of a terminating thread. Under certain circumstances a terminating thread can be alerted while it is in the process of winding down. A thread is automatically made alertable, for instance, when terminated by a user with a CTRL+C.
 
 If the value of <i>Alertable</i>is <b>TRUE</b> and one of the following conditions is present, the thread will be alerted:
+
 <ol>
 <li>
 If the origin of the alert is an internal, undocumented kernel-mode routine used to alert threads.
@@ -185,7 +191,8 @@ If the origin of the alert is an internal, undocumented kernel-mode routine used
 The origin of the alert is a user-mode APC.
 
 </li>
-</ol>In the first of these two cases, the thread's wait is satisfied with a completion status of STATUS_ALERTED. In the second case, it is satisfied with a completion status of STATUS_USER_APC.
+</ol>
+In the first of these two cases, the thread's wait is satisfied with a completion status of STATUS_ALERTED. In the second case, it is satisfied with a completion status of STATUS_USER_APC.
 
 The thread must be alertable for a user-mode APC to be delivered. This is not the case for kernel-mode APCs. A kernel-mode APC can be delivered and executed even though the thread is not alerted. Once the APC's execution completes, the thread's wait resumes. A thread is never alerted, nor is its wait aborted, by the delivery of a kernel-mode APC.
 
@@ -203,31 +210,55 @@ For additional information, see <a href="https://msdn.microsoft.com/b967beec-922
 Callers of <b>ZwWaitForSingleObject</b> must be running at IRQL less than or equal to DISPATCH_LEVEL. Usually, the caller must be running at IRQL PASSIVE_LEVEL and in a nonarbitrary thread context. A call while running at IRQL DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> parameter of zero. That is, a driver must not wait for a nonzero interval at IRQL equal to DISPATCH_LEVEL.
 
 Time-out intervals are measured relative to the system clock, and the accuracy of the time-out measurement is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwWaitForSingleObject</b> function occurs in user mode, you should use the name "<b>NtWaitForSingleObject</b>" instead of "<b>ZwWaitForSingleObject</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwWaitForSingleObject</b> function occurs in user mode, you should use the name "<b>NtWaitForSingleObject</b>" instead of "<b>ZwWaitForSingleObject</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
 
 <a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
+
+
 <a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
 
  
 

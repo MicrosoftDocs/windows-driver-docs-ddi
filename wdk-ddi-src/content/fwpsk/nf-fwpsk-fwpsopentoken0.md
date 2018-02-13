@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsopentoken0, fwpsk/FwpsOpenToken0, FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], FwpsOpenToken0, fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,8 +98,10 @@ Pointer to a caller-allocated variable that receives a handle to the newly opene
 ## -returns
 
 
+
 The 
      <b>FwpsOpenToken0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +129,17 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
+
+
 
  
 

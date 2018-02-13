@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 17FEFFDB-DCCC-4782-9F99-195A03F4901E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelInitSetFriendlyName, VmbChannelInitSetFriendlyName function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelInitSetFriendlyName, netvista.vmbchannelinitsetfriendlyname
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetFriendlyName, netvista.vmbchannelinitsetfriendlyname, VmbChannelInitSetFriendlyName, VmbChannelInitSetFriendlyName function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelInitSetFriendlyName
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ The new friendly name of the channel.
 ## -remarks
 
 
+
 Channel names should be descriptive, yet
 relatively short and easy to understand, for example, Network, SCSI, IDE, or SynthVideo.
+
 
 

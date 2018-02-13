@@ -7,8 +7,8 @@ old-location: ifsk\file_objectid_information.htm
 old-project: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], *PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ifsk.file_objectid_information, _FILE_OBJECTID_INFORMATION, ntifs/FILE_OBJECTID_INFORMATION
+ms.date: 2/7/2018
+ms.keywords: "_FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ntifs/PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, ntifs/FILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], *PFILE_OBJECTID_INFORMATION, ifsk.file_objectid_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_OBJECTID_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
+req.typenames: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION"
 ---
 
 # _FILE_OBJECTID_INFORMATION structure
@@ -76,6 +76,16 @@ typedef struct _FILE_OBJECTID_INFORMATION {
 
 
 
+### -field FileReference
+
+The 8-byte file reference number for the file. NTFS generates this number and assigns it to the file automatically when the file is created. 
+
+
+### -field ObjectId
+
+The 16-byte file object ID for the file. NTFS generates this number and assigns it to the file at the request of a driver or application. File object IDs are guaranteed to be unique only within the volume where the file resides. 
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -106,19 +116,10 @@ typedef struct _FILE_OBJECTID_INFORMATION {
 User-provided data. You can use it to contain the <b>BirthVolumeID</b>, <b>BirthObjectID</b>, and <b>DomainID</b> members, or you can define a different data structure. 
 
 
-### -field FileReference
-
-The 8-byte file reference number for the file. NTFS generates this number and assigns it to the file automatically when the file is created. 
-
-
-### -field ObjectId
-
-The 16-byte file object ID for the file. NTFS generates this number and assigns it to the file at the request of a driver or application. File object IDs are guaranteed to be unique only within the volume where the file resides. 
-
-
 #### - ( unnamed struct )
 
  
+
 
 
 #### BirthVolumeId
@@ -126,9 +127,11 @@ The 16-byte file object ID for the file. NTFS generates this number and assigns 
 The object identifier of the volume on which the file resided when the object identifier was created, or zero if the volume had no object identifier at that time. After copy operations, move operations, or other file operations, this may not be the same as the object identifier of the volume on which the object currently resides. 
 
 
+
 #### BirthObjectId
 
 The object identifier of the file at the time it was created. After copy operations, move operations, or other file operations, this may not be the same as the current value of the <b>ObjectId</b> member. 
+
 
 
 #### DomainId
@@ -139,7 +142,9 @@ Reserved; must be zero.
 ## -remarks
 
 
+
 This information can be queried in either of the following ways: 
+
 <ul>
 <li>
 Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
@@ -149,7 +154,8 @@ Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a
 Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY. 
 
 </li>
-</ul>No special access rights are required to query for this information. 
+</ul>
+No special access rights are required to query for this information. 
 
 Support for file reference numbers and file object IDs is file system-specific. File object IDs are supported only on NTFS volumes on Microsoft Windows 2000 and later. NTFS allows files to be opened by object ID as well as by file reference number. 
 
@@ -159,17 +165,24 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+## -see-also
 
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_OBJECTID_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_OBJECTID_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

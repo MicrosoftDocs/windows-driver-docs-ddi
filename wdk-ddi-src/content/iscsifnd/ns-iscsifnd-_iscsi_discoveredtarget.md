@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b4a7375-1ee2-4829-92bb-01ed610236de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsifnd/PISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget structure [Storage Devices], PISCSI_DiscoveredTarget structure pointer [Storage Devices], ISCSI_DiscoveredTarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml, _ISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, *PISCSI_DiscoveredTarget
+ms.keywords: ISCSI_DiscoveredTarget structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml, PISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, _ISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, *PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_DiscoveredTarget
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget"
+req.typenames: ISCSI_DiscoveredTarget, *PISCSI_DiscoveredTarget
 ---
 
 # _ISCSI_DiscoveredTarget structure
@@ -93,17 +93,25 @@ A variable-length array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtar
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTarget structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a> in <i>Discover.mof</i>. 
+
 
 
 
 ## -see-also
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a>
-
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
 
+
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
+
+
 
  
 

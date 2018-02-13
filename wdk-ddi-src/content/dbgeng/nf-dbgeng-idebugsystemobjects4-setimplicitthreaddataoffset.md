@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1562a2f4-0eea-44fd-b350-ccc17d8cd65e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], SetImplicitThreadDataOffset method, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitThreadDataOffset method, dbgeng/IDebugSystemObjects2::SetImplicitThreadDataOffset, IDebugSystemObjects_d78e5ee9-b18c-47a0-9987-41923aaa1aaf.xml, dbgeng/IDebugSystemObjects4::SetImplicitThreadDataOffset, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitThreadDataOffset method, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects2::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects3::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::SetImplicitThreadDataOffset, IDebugSystemObjects4, SetImplicitThreadDataOffset, IDebugSystemObjects3::SetImplicitThreadDataOffset, debugger.setimplicitthreaddataoffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface
+ms.keywords: SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects2::SetImplicitThreadDataOffset, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitThreadDataOffset method, IDebugSystemObjects3::SetImplicitThreadDataOffset, IDebugSystemObjects4, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, SetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects3::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects_d78e5ee9-b18c-47a0-9987-41923aaa1aaf.xml, IDebugSystemObjects2::SetImplicitThreadDataOffset, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitThreadDataOffset method, IDebugSystemObjects2, IDebugSystemObjects3, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::SetImplicitThreadDataOffset, IDebugSystemObjects4::SetImplicitThreadDataOffset, debugger.setimplicitthreaddataoffset, IDebugSystemObjects3 interface [Windows Debugging], SetImplicitThreadDataOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Specifies the location in the target's memory address space of the data structur
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,16 +96,23 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 In kernel-mode debugging, the data structure is the KTHREAD structure for the process.
 
 In user-mode debugging, the data structure is the thread environment block (TEB) for the process.
-<div class="alert"><b>Warning</b>    Because it is possible to use <a href="https://msdn.microsoft.com/library/windows/hardware/ff556713">SetImplicitProcessDataOffset</a> to set the implicit process independently of the implicit thread, the implicit thread might not belong to the implicit process.  This can cause errors if you attempt to access any of the user state for the implicit thread, because it will be incompatible with the virtual address space (specified by the implicit process).</div><div> </div>For more information about the current implicit thread, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details on the KTHREAD structure and TEB, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+
+<div class="alert"><b>Warning</b>    Because it is possible to use <a href="https://msdn.microsoft.com/library/windows/hardware/ff556713">SetImplicitProcessDataOffset</a> to set the implicit process independently of the implicit thread, the implicit thread might not belong to the implicit process.  This can cause errors if you attempt to access any of the user state for the implicit thread, because it will be incompatible with the virtual address space (specified by the implicit process).</div>
+<div> </div>
+For more information about the current implicit thread, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details on the KTHREAD structure and TEB, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich.
+
 
 

@@ -80,8 +80,10 @@ The <a href="https://msdn.microsoft.com/6b66c496-d1cc-4b7a-ae50-f18fffa7275a">On
 ## -remarks
 
 
+
 The framework calls the method of the <b>IObjectCleanup</b> interface when the associated framework object is about to be released.
 
 A driver can register the <b>IObjectCleanup</b> interface when the driver calls any method that creates a WDF object. 
+
 
 

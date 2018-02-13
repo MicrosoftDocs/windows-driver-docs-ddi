@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadPortUshort
-title: StorPortReadPortUshort function
+title: StorPortReadPortUshort macro
 author: windows-driver-content
 description: The StorPortReadPortUshort routine reads a value from a specified port address.
 old-location: storage\storportreadportushort.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: e5c9e91a-96b7-4774-8bb4-7519968ce072
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadPortUshort, storport/StorPortReadPortUshort, storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, storage.storportreadportushort, StorPortReadPortUshort routine [Storage Devices]
+ms.keywords: StorPortReadPortUshort, storprt_fe44d011-ae82-4255-9df9-c1d8f999fd63.xml, storage.storportreadportushort, StorPortReadPortUshort routine [Storage Devices], storport/StorPortReadPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortReadPortUshort function
+# StorPortReadPortUshort macro
 
 
 ## -description
@@ -70,27 +70,36 @@ STORPORT_API USHORT StorPortReadPortUshort(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param p
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the address from which to read. 
-
-
-## -returns
-
-
-<b>StorPortReadPortUshort</b> returns a data item of length <b>sizeof</b>(USHORT).
-
 
 
 ## -remarks
 
 
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>. 
+
 
 
 
@@ -98,7 +107,11 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md
 
 <a href="..\storport\nf-storport-storportreadportbufferushort.md">StorPortReadPortBufferUshort</a>
 
+
+
 <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice interface, GetDriver method, umdf.iwdfdevice_getdriver, GetDriver method, IWDFDevice interface, GetDriver, wdf.iwdfdevice_getdriver, IWDFDevice, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, IWDFDevice::GetDriver, GetDriver method, wudfddi/IWDFDevice::GetDriver
+ms.keywords: UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, GetDriver method, IWDFDevice interface, GetDriver method, IWDFDevice, wudfddi/IWDFDevice::GetDriver, umdf.iwdfdevice_getdriver, IWDFDevice::GetDriver, wdf.iwdfdevice_getdriver, IWDFDevice interface, GetDriver method, GetDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,22 +78,30 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For a code example of how to use the GetDriver method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 
  
 

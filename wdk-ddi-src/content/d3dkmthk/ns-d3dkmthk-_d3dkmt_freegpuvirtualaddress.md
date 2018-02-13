@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], display.d3dkmt_freegpuvirtualaddress, _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS
+ms.keywords: d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress, _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md">FreeGpuVirtualAddress</a>
+
+
 
  
 

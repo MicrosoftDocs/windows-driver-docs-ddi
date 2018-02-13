@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15DCCCF1-72B1-4944-9BF0-ACAF1DEB9243
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlShortMult, ntintsafe/RtlShortMult, kernel.rtlshortmult, RtlShortMult function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlShortMult, RtlShortMult function [Kernel-Mode Driver Architecture], kernel.rtlshortmult, ntintsafe/RtlShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt16Mult
 </li>
 </ul>
+
 

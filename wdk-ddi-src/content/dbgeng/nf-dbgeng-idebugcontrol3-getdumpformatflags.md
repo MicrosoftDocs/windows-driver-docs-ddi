@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetDumpFormatFlags, debugger.getdumpformatflags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, dbgeng/IDebugControl2::GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, dbgeng/IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method
+ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetDumpFormatFlags, IDebugControl3, dbgeng/IDebugControl2::GetDumpFormatFlags, debugger.getdumpformatflags, IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Receives the flags that describe the information included in a dump file.  Diffe
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,14 +95,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is only available when debugging crash dump files.  If the crash dump file is in a default format or does not have variable formats, zero will be returned to <i>FormatFlags</i>.
+
 
 
 
@@ -108,11 +114,19 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+
 
  
 

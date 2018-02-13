@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e7226684-afbf-46e1-aeb2-6b0c60c12680
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateRemoveOnInputFromOr function [Streaming Media Devices], stream.ksgateremoveoninputfromor, ks/KsGateRemoveOnInputFromOr, KsGateRemoveOnInputFromOr, avfunc_6f131d80-de01-44e6-a17d-eb7f9b0b968f.xml
+ms.keywords: KsGateRemoveOnInputFromOr, avfunc_6f131d80-de01-44e6-a17d-eb7f9b0b968f.xml, stream.ksgateremoveoninputfromor, ks/KsGateRemoveOnInputFromOr, KsGateRemoveOnInputFromOr function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representin
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Removing the last ON input from a given OR gate results in the gate closing and the transition being propagated to any gates connected to <i>OrGate</i>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -90,17 +93,28 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputoff.
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 <a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
-<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
 
 <a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+
 
  
 

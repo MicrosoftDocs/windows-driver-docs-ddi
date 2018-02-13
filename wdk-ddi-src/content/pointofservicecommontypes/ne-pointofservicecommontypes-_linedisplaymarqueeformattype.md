@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: BB182083-58F2-4706-9D6B-B581325BDD48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/LineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType, pointofservicecommontypes/PLineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType enumeration pointer, LineDisplayMarqueeFormatType enumeration, pos.linedisplaymarqueeformattype, _LineDisplayMarqueeFormatType, pointofservicecommontypes/
+ms.keywords: pointofservicecommontypes/, pos.linedisplaymarqueeformattype, pointofservicecommontypes/PLineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType, _LineDisplayMarqueeFormatType, pointofservicecommontypes/LineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType enumeration pointer, LineDisplayMarqueeFormatType enumeration, LineDisplayMarqueeFormatType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -70,9 +70,7 @@ typedef enum _LineDisplayMarqueeFormatType {
 ### -field MarqueeFormatWalk
 
 
-
 ### -field MarqueeFormatPlace
-
 
 
 

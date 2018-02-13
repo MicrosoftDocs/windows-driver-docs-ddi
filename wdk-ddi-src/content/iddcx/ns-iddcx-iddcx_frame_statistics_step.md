@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a0d1f5b3-d527-417e-8d93-26d8277b7f12
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcx_frame_statistics_step, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], iddcx/IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices]
+ms.keywords: IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], display.iddcx_frame_statistics_step, IDDCX_FRAME_STATISTICS_STEP structure, iddcx/IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

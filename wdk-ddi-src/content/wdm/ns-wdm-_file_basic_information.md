@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f79a3cf-9bc7-4135-a90e-d9dce86cf5f6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_FILE_BASIC_INFORMATION, wdm/FILE_BASIC_INFORMATION, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, kernel.file_basic_information, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, *PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION"
+ms.keywords: kernel.file_basic_information, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION, wdm/FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], *PFILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION, _FILE_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION"
+req.typenames: FILE_BASIC_INFORMATION, *PFILE_BASIC_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -100,6 +100,7 @@ Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags. For descriptions of these
 ## -remarks
 
 
+
 The FILE_ATTRIBUTE_NORMAL flag cannot be set or returned in combination with any other attributes. All other <b>FileAttributes</b> values override this attribute.
 
 Time values <b>CreationTime</b>, <b>LastAccessTime</b>, <b>LastWriteTime</b>, and <b>ChangeTime</b> are expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
@@ -112,15 +113,24 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
+
+
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
 
  
 

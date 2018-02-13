@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c91b9ea0-8c42-4199-b161-2b43ba4a1833
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDriverNoRequests, wudfddi/WdfIoQueueDispatchRequests, wudfddi/WdfIoQueueAcceptRequests, _WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, *PWDF_IO_QUEUE_STATE, wudfddi/WDF_IO_QUEUE_STATE, WdfIoQueueDispatchRequests, WdfIoQueuePnpHeld, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, WDF_IO_QUEUE_STATE enumeration, umdf.wdf_io_queue_state, wudfddi/WdfIoQueueDriverNoRequests, wdf.wdf_io_queue_state_umdf, wudfddi/WdfIoQueuePnpHeld, WdfIoQueueNoRequests, WdfIoQueueAcceptRequests, wudfddi/WdfIoQueueNoRequests
+ms.keywords: wudfddi/WDF_IO_QUEUE_STATE, WdfIoQueueDispatchRequests, WdfIoQueueAcceptRequests, umdf.wdf_io_queue_state, wudfddi/WdfIoQueuePnpHeld, *PWDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, wudfddi/WdfIoQueueAcceptRequests, wudfddi/WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, _WDF_IO_QUEUE_STATE, WdfIoQueueNoRequests, wudfddi/WdfIoQueueNoRequests, wdf.wdf_io_queue_state_umdf, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, WdfIoQueuePnpHeld, wudfddi/WdfIoQueueDriverNoRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -108,11 +108,19 @@ If this value is set to 1, an event from the Plug and Play (PnP) subsystem suspe
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558946">IWDFIoQueue::ConfigureRequestDispatching</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+
+
 
  
 

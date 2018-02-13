@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5738654A-83B1-44B4-BA45-52E2B60C852D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_write_register_uchar, wdfhwaccess/WDF_WRITE_REGISTER_UCHAR, WDF_WRITE_REGISTER_UCHAR function, WDF_WRITE_REGISTER_UCHAR
+ms.keywords: WDF_WRITE_REGISTER_UCHAR, WDF_WRITE_REGISTER_UCHAR function, wdf.wdf_write_register_uchar, wdfhwaccess/WDF_WRITE_REGISTER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WRITE_REGISTER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,8 @@ Specifies a byte to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

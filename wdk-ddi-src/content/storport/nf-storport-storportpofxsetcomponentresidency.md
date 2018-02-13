@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency
+ms.keywords: StorPortPoFxSetComponentResidency, storage.storportpofxsetcomponentresidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storport/StorPortPoFxSetComponentResidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,7 +95,9 @@ The estimated residency time, in 100-nanosecond units. This parameter is a hint 
 ## -returns
 
 
+
 The <b>StorPortPoFxSetComponentResidency</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,13 +159,17 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>
+
+
 
  
 

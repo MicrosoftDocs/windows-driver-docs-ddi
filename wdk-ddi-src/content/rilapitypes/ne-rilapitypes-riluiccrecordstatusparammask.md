@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db3cdd2-3865-42d7-8b63-3dcacaec5941
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_URS_RECORDTYPE, RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_ALL, netvista.riluiccrecordstatusparammask, RILUICCRECORDSTATUSPARAMMASK, RIL_PARAM_URS_SIZE, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_ALL, RIL_PARAM_URS_RECORDTYPE, rilapitypes/RIL_PARAM_URS_SIZE, rilapitypes/RILUICCRECORDSTATUSPARAMMASK
+ms.keywords: RIL_PARAM_URS_RECORDTYPE, RIL_PARAM_URS_SIZE, RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_ALL, netvista.riluiccrecordstatusparammask, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_URS_SIZE, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_ALL, rilapitypes/RIL_PARAM_URS_RECORDTYPE, RILUICCRECORDSTATUSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,26 +76,23 @@ enum RILUICCRECORDSTATUSPARAMMASK {
 ### -field RIL_PARAM_URS_RECORDTYPE
 
 
-
 ### -field RIL_PARAM_URS_ITEMCOUNT
-
 
 
 ### -field RIL_PARAM_URS_SIZE
 
 
-
 ### -field RIL_PARAM_URS_FILELOCKSTATUS
-
 
 
 ### -field RIL_PARAM_URS_ALL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

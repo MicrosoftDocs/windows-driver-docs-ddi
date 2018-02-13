@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4A87D9E2-F1FC-4CA8-834C-E545D8F0277B
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: vhf/VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices], VHF_CONFIG_INIT, hid.vhf_config_init
+ms.keywords: hid.vhf_config_init, vhf/VHF_CONFIG_INIT, VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,13 +95,17 @@ A pointer to a HID source driver-allocated buffer that contains the  HID Report 
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
+
+
 
  
 

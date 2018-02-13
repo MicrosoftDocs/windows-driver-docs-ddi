@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: abad8ebd-a9fc-4cfb-8495-aca4e38ee45a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, PARCLASS_INFORMATION structure [Parallel Ports], _PARCLASS_INFORMATION, parallel/PARCLASS_INFORMATION, PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], parallel/PPARCLASS_INFORMATION, *PPARCLASS_INFORMATION, PARCLASS_INFORMATION, parports.parclass_information
+ms.keywords: parallel/PPARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, _PARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], parports.parclass_information, *PPARCLASS_INFORMATION, parallel/PARCLASS_INFORMATION, PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], PARCLASS_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARCLASS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
 ---
 
 # _PARCLASS_INFORMATION structure
@@ -141,6 +141,7 @@ Specifies which hardware capabilities are present. <b>HardwareCapabilities</b> i
 
 
 
+
 #### PPT_NO_HARDWARE_PRESENT
 
 
@@ -158,6 +159,7 @@ Specifies which hardware capabilities are present. <b>HardwareCapabilities</b> i
 32-bit reads and writes are supported.
 
 
+
 #### PPT_BYTE_PRESENT
 
 
@@ -167,7 +169,6 @@ Specifies which hardware capabilities are present. <b>HardwareCapabilities</b> i
 
 
 #### PPT_1284_3_PRESENT
-
 
 
 ### -field FifoDepth
@@ -191,7 +192,9 @@ Specifies the ECP FIFO word size, in bits, which is the number of bits handled i
 
 
 
+
 ## -remarks
+
 
 
 A kernel-mode driver can obtain this information from the system-supplied bus driver for parallel ports using an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request. The system-supplied bus driver for parallel ports supplies all the callback routines. 
@@ -202,25 +205,44 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
+
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
 
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
-
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
-
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-
-<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
-
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
 <a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
 
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
+
+
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
+
+
+
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+
+
 
  
 

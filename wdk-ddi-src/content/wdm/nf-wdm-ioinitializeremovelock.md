@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d85bab78-0e9e-4e71-a09b-40954df81c87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInitializeRemoveLock, wdm/IoInitializeRemoveLock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], kernel.ioinitializeremovelock, k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml
+ms.keywords: wdm/IoInitializeRemoveLock, k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml, kernel.ioinitializeremovelock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], IoInitializeRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -93,6 +93,8 @@ TBD
 
 
 
+
+
 #### - AllocateTag [in]
 
 Specifies a tag to identify the creator of the lock. Driver writers typically use a 4-character string, specified in reverse order, like the tags used for <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
@@ -117,6 +119,7 @@ The I/O system uses this parameter if Driver Verifier is enabled, and on checked
 ## -remarks
 
 
+
 A driver can use a remove lock to track outstanding I/O operations on a device and to determine when the driver can delete its device object in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> request.
 
 Before calling <b>IoInitializeRemoveLock</b>, a driver should allocate an <b>IO_REMOVE_LOCK</b> structure in its <a href="https://msdn.microsoft.com/9ea59994-1112-4ae5-96a8-fa0670694b53">device extension</a>. A driver typically calls <b>IoInitializeRemoveLock</b> in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine, when the driver initializes the rest of the device extension for a device object.
@@ -129,15 +132,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioacquireremovelock.md">IoAcquireRemoveLock</a>
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
+
 
 <a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
+
+
 
  
 

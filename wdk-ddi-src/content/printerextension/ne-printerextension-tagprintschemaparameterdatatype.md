@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PrintSchemaParameterDataType_Integer, print.tagprintschemaparameterdatatype, printerextension/PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_String, printerextension/PrintSchemaParameterDataType_String, PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType_NumericString, tagPrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices]
+ms.keywords: PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_String, print.tagprintschemaparameterdatatype, PrintSchemaParameterDataType, tagPrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType, PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_String, PrintSchemaParameterDataType enumeration [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,6 +91,8 @@ This maps to the Print Schema’s StringParamType parameters, with UnitType not 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/82CC79A8-0281-4100-B3FB-1FFFB2454B8D">IPrintSchemaParameterDefinition::DataType</a>
+
+
 
  
 

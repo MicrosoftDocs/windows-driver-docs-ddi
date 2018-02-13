@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5dbd1f3-4475-41d2-879a-34618b28b485
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dddicb_waitforsynchronizationobject2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2
+ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dddicb_waitforsynchronizationobject2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,15 +99,21 @@ This value applies only if the GPU synchronization object is of type <b>D3DDDI_F
 ## -remarks
 
 
+
 Synchronization objects of type <b>D3DDDI_CPU_NOTIFICATION</b> cannot be used to wait on calls to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb.md">pfnWaitForSynchronizationObject2Cb</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb.md">pfnWaitForSynchronizationObject2Cb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d024da2c-9629-4907-98b8-a29dc6022ac0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInterlockedRemoveHeadList, kernel.exinterlockedremoveheadlist, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, ExInterlockedRemoveHeadList
+ms.keywords: k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedremoveheadlist, ExInterlockedRemoveHeadList, wdm/ExInterlockedRemoveHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 ## -returns
 
 
+
 <b>ExInterlockedRemoveHeadList</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure removed from the list. If the list was empty, the routine returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>ExInterlockedRemoveHeadList</b> performs a similar operation as <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
@@ -97,17 +100,28 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
 
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
 
 <a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20c4ec7e-6dc1-4a4f-99d1-bb53213771a5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml, GetNodeOffset, GetNodeOffset method [Windows Debugging], GetNodeOffset method [Windows Debugging], ExtRemoteList class, ExtRemoteList, ExtRemoteList class [Windows Debugging], GetNodeOffset method, debugger.extremotelist_getnodeoffset, ExtRemoteList::GetNodeOffset
+ms.keywords: EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml, GetNodeOffset, GetNodeOffset method [Windows Debugging], ExtRemoteList class, ExtRemoteList::GetNodeOffset, GetNodeOffset method [Windows Debugging], ExtRemoteList, debugger.extremotelist_getnodeoffset, ExtRemoteList class [Windows Debugging], GetNodeOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.GetNodeOffset
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::GetNodeOffset method
@@ -66,9 +66,12 @@ ULONG64 GetNodeOffset();
 
 
 
+
 ## -returns
 
 
+
 <b>GetNodeOffset</b> returns the location, in the target's memory, of the current item for the current list iteration.
+
 
 

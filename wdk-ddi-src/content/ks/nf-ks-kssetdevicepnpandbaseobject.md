@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 269bbb79-c730-4b78-bf46-d502f23f039b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, KsSetDevicePnpAndBaseObject function [Streaming Media Devices], stream.kssetdevicepnpandbaseobject
+ms.keywords: KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ks/KsSetDevicePnpAndBaseObject, stream.kssetdevicepnpandbaseobject, KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,6 +86,7 @@ TBD
 
 
 
+
 #### - BaseDevice [in]
 
 Specifies the base device object to which this device header is attached. This must be set if <b>KsRecalculateStackDepth</b> is used.
@@ -94,15 +95,21 @@ Specifies the base device object to which this device header is attached. This m
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+
+
+
 <a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+
 
  
 

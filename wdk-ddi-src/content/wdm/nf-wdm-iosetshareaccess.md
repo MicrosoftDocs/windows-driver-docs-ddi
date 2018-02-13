@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess, IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoSetShareAccess, kernel.iosetshareaccess, k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, IoSetShareAccess routine [Kernel-Mode Driver Architecture], wdm/IoSetShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,14 @@ Pointer to the SHARE_ACCESS structure associated with <i>FileObject</i>. Drivers
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Only highest-level kernel-mode drivers should call this routine. The call must occur in the context of the first thread that attempts to open the <i>FileObject</i>.
@@ -117,23 +120,40 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
-<a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
-
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 <a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
 
+
+
+<a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
-<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
 
  
 

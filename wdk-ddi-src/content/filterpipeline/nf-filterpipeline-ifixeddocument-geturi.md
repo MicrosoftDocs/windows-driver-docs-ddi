@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IFixedDocument::GetUri, GetUri method [Print Devices], GetUri, print.ifixeddocument_geturi, filterpipeline/IFixedDocument::GetUri, IFixedDocument, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, IFixedDocument interface [Print Devices], GetUri method, GetUri method [Print Devices], IFixedDocument interface
+ms.keywords: filterpipeline/IFixedDocument::GetUri, GetUri method [Print Devices], IFixedDocument interface [Print Devices], GetUri method, GetUri method [Print Devices], IFixedDocument interface, IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi, IFixedDocument, GetUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,8 @@ The URI of the fixed document.
 ## -returns
 
 
+
 <b>GetUri</b> returns an <b>HRESULT</b> value.
+
 
 

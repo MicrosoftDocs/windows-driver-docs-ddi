@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_FENCE_PRESENTHISTORYTOKEN, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken, OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices]
+ms.keywords: "_D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken, OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ typedef struct _D3DKMT_FENCE_PRESENTHISTORYTOKEN {
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
+
 
  
 

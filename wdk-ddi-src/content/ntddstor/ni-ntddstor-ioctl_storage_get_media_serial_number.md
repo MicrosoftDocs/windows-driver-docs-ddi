@@ -88,14 +88,18 @@ The driver returns the serial number of the indicated device in a structure of t
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562213">MEDIA_SERIAL_NUMBER_DATA</a>
+
+
 
  
 

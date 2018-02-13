@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetVersion, VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, VideoPortGetVersion, VideoPortGetVersion function [Display Devices]
+ms.keywords: video/VideoPortGetVersion, VideoPortGetVersion, VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, VideoPortGetVersion function [Display Devices], display.videoportgetversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,17 @@ Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 ## -returns
 
 
+
 <b>VideoPortGetVersionInfo</b> returns NO_ERROR if it successfully obtained the operating system version information. If the <b>Size</b> member of the VPOSVERSIONINFO does not contains the correct size of this structure, the function returns ERROR_INVALID_PARAMETER 
+
 
 
 
 ## -see-also
 
 <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
+
+
 
  
 

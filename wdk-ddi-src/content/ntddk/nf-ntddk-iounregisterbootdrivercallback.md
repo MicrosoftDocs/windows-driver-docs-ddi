@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iounregisterbootdrivercallback, IoUnRegisterBootDriverCallback, IoUnregisterBootDriverCallback, ntddk/IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoUnRegisterBootDriverCallback
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoUnregisterBootDriverCallback function
@@ -75,20 +75,26 @@ A handle returned from a previous call to <a href="..\ntddk\nf-ntddk-ioregisterb
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A driver that calls <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a> must call <b>IoUnRegisterBootDriverCallback</b> before being unloaded.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a>
+
+
 
  
 

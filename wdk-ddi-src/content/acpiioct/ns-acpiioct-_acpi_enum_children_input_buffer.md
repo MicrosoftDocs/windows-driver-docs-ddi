@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: fba604bc-2fab-448c-bbc7-8ea30ff6de6b
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: "_ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi.acpi_enum_children_input_buffer, ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], *PACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices]"
+ms.keywords: acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices], ACPI_ENUM_CHILDREN_INPUT_BUFFER, _ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], PACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi.acpi_enum_children_input_buffer, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,6 +94,7 @@ A NULL-terminated, four-character ASCII string that contains the name of a child
 
 
 
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> supports the following types of enumerations, depending on how the <b>Flags</b> member is set in the corresponding ACPI_ENUM_CHILDREN_INPUT_BUFFER structure:
 
 
@@ -102,9 +103,12 @@ For information about how to enumerate child objects of a device, see <a href="h
 
 
 
+
 ## -see-also
 
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
+
+
 
  
 

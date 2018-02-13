@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OPTTYPE structure [Print Devices], compstui/OPTTYPE, _OPTTYPE, print.opttype, POPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, *POPTTYPE, OPTTYPE, POPTTYPE structure pointer [Print Devices]
+ms.keywords: compstui/OPTTYPE, _OPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype, POPTTYPE, *POPTTYPE, POPTTYPE structure pointer [Print Devices], compstui/POPTTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OPTTYPE
 product: Windows
 targetos: Windows
-req.typenames: OPTTYPE, *POPTTYPE
+req.typenames: "*POPTTYPE, OPTTYPE"
 ---
 
 # _OPTTYPE structure
@@ -93,12 +93,14 @@ Optional bit flags that modify the option's characteristics. The following flags
 
 
 
-
 #### OPTTF_NOSPACE_BEFORE_POSTFIX
 
 CPSUI should not add a space character between the string specified by the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure's <b>pName</b> string and the <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structure's <b>pData</b> string, when displaying the option.
 
 Valid only if the option type is or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562847">TVOT_SCROLLBAR</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562848">TVOT_TRACKBAR</a>.
+
+
+
 
 
 #### OPTTF_TYPE_DISABLED

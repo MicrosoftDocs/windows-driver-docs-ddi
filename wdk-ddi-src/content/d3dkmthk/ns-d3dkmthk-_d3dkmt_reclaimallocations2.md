@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2
+ms.keywords: "_D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,11 +75,6 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
 
 
 
-### -field pResults
-
-[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
-
-
 ### -field hPagingQueue
 
 [in] A handle to the device that created the allocations.
@@ -100,6 +95,11 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
 [in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations that are to be reclaimed.
 
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
+
+
+### -field pResults
+
+[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
 
 
 ### -field pDiscarded

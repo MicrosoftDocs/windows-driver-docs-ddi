@@ -98,14 +98,18 @@ Length of the buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -117,10 +121,12 @@ The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or
 ## -remarks
 
 
+
 The payload of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_capabilities_color.md">LAMP_CAPABILITIES_COLOR</a> structure.
 
 The <b>IsSupported</b> field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to <b>FALSE</b>.
 
 The <b>IsLightIntensityAdjustable</b> field indicates whether the luminance level can be programmed. If the lamp does not support color light (<b>IsSupported</b> evaluates to <b>FALSE</b>), a client should discard the value of <b>IsLightIntensityAdjustable</b>.
+
 
 

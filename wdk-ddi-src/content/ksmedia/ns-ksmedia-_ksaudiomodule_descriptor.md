@@ -7,8 +7,8 @@ old-location: audio\ksaudiomodule_descriptor.htm
 old-project: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PKSAUDIOMODULE_DESCRIPTOR, ksmedia/KSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], _KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
+ms.date: 2/8/2018
+ms.keywords: ksmedia/PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], KSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR, _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], ksmedia/KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOMODULE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
+req.typenames: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR"
 ---
 
 # _KSAUDIOMODULE_DESCRIPTOR structure
@@ -97,6 +97,7 @@ The minor version of the audio module.  Usage is defined by the implementer.
 
 
 
+
 #### - Name[AUDIOMODULE_MAX_NAME_CCH_SIZE]
 
 The friendly name of the audio module. The maximum length is AUDIOMODULE_MAX_NAME_CCH_SIZE wide characters. It is defined as 128 in KSMedia.h.
@@ -105,7 +106,9 @@ The friendly name of the audio module. The maximum length is AUDIOMODULE_MAX_NAM
 ## -remarks
 
 
+
 For more information about audio modules, see  <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+
 
 
 
@@ -113,9 +116,11 @@ For more information about audio modules, see  <a href="https://msdn.microsoft.c
 
 <a href="https://msdn.microsoft.com/EAD613AA-005B-4751-B60E-212853CA40B4">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIOMODULE_DESCRIPTOR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIOMODULE_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

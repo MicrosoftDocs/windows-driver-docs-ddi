@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6920cbd3-0a20-4d38-8538-85f46d0f0d5b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects::GetProcessIdByHandle, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, debugger.getprocessidbyhandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByHandle method, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, IDebugSystemObjects3::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects2::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects4::GetProcessIdByHandle, GetProcessIdByHandle, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects3 interface
+ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects2::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects4::GetProcessIdByHandle, debugger.getprocessidbyhandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, IDebugSystemObjects4, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByHandle method, GetProcessIdByHandle, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, IDebugSystemObjects3, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,7 +84,9 @@ Receives the engine process ID.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details on system handles, see <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">Handles</a>.
+
 
 

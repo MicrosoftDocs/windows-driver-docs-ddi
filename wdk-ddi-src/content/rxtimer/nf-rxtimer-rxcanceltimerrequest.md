@@ -7,8 +7,8 @@ old-location: ifsk\rxcanceltimerrequest.htm
 old-project: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxCancelTimerRequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest
+ms.date: 2/7/2018
+ms.keywords: RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, RxCancelTimerRequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCancelTimerRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PRX_CONTEXT, RX_CONTEXT"
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ A pointer to the context parameter that was passed to the <b>RxPostRecurrentTime
 ## -returns
 
 
+
 <b>RxCancelTimerRequest</b> returns STATUS_SUCCESS on success. 
 
 
 
+
 ## -remarks
+
 
 
 A recurrent timer is initialized by calling <a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>.
@@ -101,15 +104,20 @@ If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
 
 
+
 ## -see-also
 
 <a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
 
+
+
 <a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCancelTimerRequest routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCancelTimerRequest routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

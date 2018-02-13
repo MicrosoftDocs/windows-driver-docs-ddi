@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, print.iprintoemuimxdc_adjustdpi, prcomoem/IPrintOemUIMXDC::AdjustDPI, AdjustDPI, IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI method [Print Devices], IPrintOemUIMXDC::AdjustDPI, IPrintOemUIMXDC, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml
+ms.keywords: print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, IPrintOemUIMXDC::AdjustDPI, AdjustDPI, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, AdjustDPI method [Print Devices], IPrintOemUIMXDC, print.iprintoemuimxdc_adjustdpi, prcomoem/IPrintOemUIMXDC::AdjustDPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUIMXDC.AdjustDPI
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,15 +106,19 @@ A pointer to the current resolution, in dots per inch (DPI), assuming square pix
 ## -returns
 
 
+
 <code>AdjustDPI</code> returns S_OK if the method succeeds. Otherwise, this method should return E_NOTIMPL if the plug-in does not support the method, or any appropriate failure value if the plug-in cannot complete the operation. For more information, see the following Remarks section.
+
 
 
 
 ## -remarks
 
 
+
 The <i>pDPI</i> parameter is IN OUT. All other parameters for this function are input only.
 
 If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT, which causes the current print job to fail.
+
 
 

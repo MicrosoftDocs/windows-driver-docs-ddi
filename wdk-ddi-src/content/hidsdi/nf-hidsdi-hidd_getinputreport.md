@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidsdi/HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], HidD_GetInputReport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hid.hidd_getinputreport
+ms.keywords: HidD_GetInputReport, hidsdi/HidD_GetInputReport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HidD_GetInputReport
 product: Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # HidD_GetInputReport function
@@ -89,14 +89,18 @@ Specifies the size, in bytes, of the report buffer. The report buffer must be la
 ## -returns
 
 
+
 <b>HidD_GetInputReport</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 Before it calls the <b>HidD_GetInputReport</b> routine, the caller must do the following:
+
 <ul>
 <li>
 If the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> includes report IDs, the caller must set the first byte of the <i>ReportBuffer</i> parameter to a nonzero report ID.
@@ -108,7 +112,9 @@ If the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177"
 
 
 </li>
-</ul>The input report is returned in the <i>ReportBuffer</i>  parameter. Depending on the report ID, the caller parses the report by calling one of the following functions:
+</ul>
+The input report is returned in the <i>ReportBuffer</i>  parameter. Depending on the report ID, the caller parses the report by calling one of the following functions:
+
 <ul>
 <li>
 <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
@@ -143,7 +149,8 @@ If the <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177"
 <li>
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 </li>
-</ul>For an example of how to parse a HID report, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
+</ul>
+For an example of how to parse a HID report, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
 
 Only user-mode applications can call <b>HidD_GetInputReport</b>. Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a> request.
 
@@ -154,21 +161,36 @@ Only user-mode applications can call <b>HidD_GetInputReport</b>. Kernel-mode dri
 
 
 
+
 ## -see-also
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
-
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
 
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+
 
  
 

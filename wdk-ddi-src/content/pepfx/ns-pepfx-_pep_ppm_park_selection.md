@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1957D03D-7C85-4A58-A5CC-94D3C9913F5A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, PEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION, _PEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_PARK_SELECTION"
+ms.keywords: kernel.pep_ppm_park_selection, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION, _PEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION, pepfx/PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_PARK_SELECTION
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION
+req.typenames: "*PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION"
 ---
 
 # _PEP_PPM_PARK_SELECTION structure
@@ -89,7 +89,6 @@ This number does <u>not</u> include processors in the <b>Processors</b> array fo
 
 
 
-The Processors array is guaranteed to contain the processors in increasing order by processor index.
 
 
 #### On input
@@ -97,15 +96,20 @@ The Processors array is guaranteed to contain the processors in increasing order
 Each array element indicates the parking preferences for a particular processor.
 
 
+
 #### On output
 
 Returns the PEP parking preference for each processor.
+
+The Processors array is guaranteed to contain the processors in increasing order by processor index.
 
 
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification. All three members of the structure contain input values that are set by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) before this notification is sent to the PEP.
+
 
 
 
@@ -113,7 +117,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="..\pepfx\ns-pepfx-_pep_processor_park_preference.md">PEP_PROCESSOR_PARK_PREFERENCE</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+
+
 
  
 

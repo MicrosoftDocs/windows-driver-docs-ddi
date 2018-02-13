@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b81dbad8-0e03-4183-a7b3-32c75a656575
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCHILDLISTBEGINITERATION, kmdf.wdfchildlistbeginiteration, DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, wdf.wdfchildlistbeginiteration, WdfChildListBeginIteration, wdfchildlist/WdfChildListBeginIteration, WdfChildListBeginIteration method
+ms.keywords: WdfChildListBeginIteration method, wdf.wdfchildlistbeginiteration, PFN_WDFCHILDLISTBEGINITERATION, WdfChildListBeginIteration, kmdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration, DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,16 @@ A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_ch
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After calling <b>WdfChildListBeginIteration</b>, the driver can repeatedly call <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> to obtain information about each child device in the child list. 
@@ -105,22 +108,43 @@ The driver can nest calls to <b>WdfChildListBeginIteration</b> and <a href="..\w
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfChildListBeginIteration</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md">WDF_CHILD_LIST_ITERATOR_INIT</a>
+
+
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>
+
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md">WDF_CHILD_LIST_ITERATOR_INIT</a>
+
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistenditeration.md">WdfChildListEndIteration</a>
 
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+
+
+
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>
+
+
 
  
 

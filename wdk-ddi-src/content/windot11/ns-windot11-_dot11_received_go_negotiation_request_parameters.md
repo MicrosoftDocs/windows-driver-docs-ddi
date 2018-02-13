@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F0D3F9C4-3305-42A8-A484-5300DB658C0B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, windot11/DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, netvista.dot11_received_go_negotiation_request_parameters, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS
+ms.keywords: netvista.dot11_received_go_negotiation_request_parameters, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ typedef struct _DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -93,7 +94,8 @@ The type, revision, and size of the <b>DOT11_RECEIVED_GO_NEGOTIATION_REQUEST_PAR
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_RECEIVED_GO_NEGOTIATION_REQUEST_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PeerDeviceAddress
@@ -124,7 +126,9 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 ## -remarks
 
 
+
 If  <b>RequestContext</b> is a pointer, the data pointed to must remain valid until the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563600">NdisMIndicateStatusEx</a> returns.
+
 
 
 
@@ -132,7 +136,11 @@ If  <b>RequestContext</b> is a pointer, the data pointed to must remain valid un
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451805">OID_DOT11_WFD_SEND_GO_NEGOTIATION_RESPONSE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439789">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_REQUEST</a>
+
+
 
  
 

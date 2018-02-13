@@ -7,8 +7,8 @@ old-location: buses\ufx_device_capabilities_init.htm
 old-project: usbref
 ms.assetid: 7C55EB8D-1B68-484A-B95A-E0150FBA9AB8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufx_device_capabilities_init, UFX_DEVICE_CAPABILITIES_INIT function [Buses], UFX_DEVICE_CAPABILITIES_INIT, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
+ms.date: 2/8/2018
+ms.keywords: buses.ufx_device_capabilities_init, UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,8 @@ Pointer to the <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_D
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

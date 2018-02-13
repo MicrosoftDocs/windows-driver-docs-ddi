@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: SeAssignSecurityEx, k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, wdm/SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], kernel.seassignsecurityex
+ms.keywords: wdm/SeAssignSecurityEx, SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], kernel.seassignsecurityex, k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,6 +105,7 @@ Specifies whether the new object is a directory object. If <i>IsDirectoryObject<
 ### -param AutoInheritFlags [in]
 
 Specifies the type of automatic inheritance that is applied to access control entries (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>) in the access control lists (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>) specified by <i>ParentDescriptor</i>. <i>AutoInheritFlags</i> also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>. <i>AutoInheritFlags</i> must be set to a logical OR of one or more of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -184,9 +185,11 @@ If a group is not specified by <i>ExplicitDescriptor</i>, this flag is used in t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The assignment of system and discretionary ACLs is described in the following table:
+
 <table>
 <tr>
 <th></th>
@@ -230,9 +233,11 @@ Assign no ACL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>Assignment Notes</b>
+
 <ol>
 <li>
 The SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT flag is not specified.
@@ -278,7 +283,9 @@ This parameter is unused.  The buffer to hold the new security descriptor is alw
 ## -returns
 
 
+
 <b>SeAssignSecurityEx</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -317,14 +324,18 @@ The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>SeAssignSecurityEx</b> extends the basic operation of <b>SeAssignSecurity</b> in the following ways:
+
 <ul>
 <li>
 <i>ObjectType</i> optionally specifies an object type. Object-specific inheritance is controlled by the following members of an object-specific ACE: <b>Flags</b>, <b>InheritedObjectType</b>, and <b>Header.AceFlags</b>.
@@ -334,19 +345,29 @@ The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to
 <i>AutoInheritFlags </i>specifies the type of automatic inheritance of ACEs that is used. AutoInheritFlags also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>.
 
 </li>
-</ul>For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
+</ul>
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
 
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
+
+
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
 
-<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
 
  
 

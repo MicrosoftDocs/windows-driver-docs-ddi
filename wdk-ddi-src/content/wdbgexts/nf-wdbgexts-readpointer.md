@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 354b1854-2b3b-4fcf-81cb-fd24595cd9bb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ReadPointer, ReadPointer function [Windows Debugging], ReadPointer, WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer
+ms.keywords: WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, ReadPointer function [Windows Debugging], wdbgexts/ReadPointer, debugger.readpointer, ReadPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Receives the value of the pointer.  If the target uses 32-bit pointers, the poin
 ## -returns
 
 
+
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
@@ -94,9 +97,12 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-writepointer.md">WritePointer</a>
+
+
 
  
 

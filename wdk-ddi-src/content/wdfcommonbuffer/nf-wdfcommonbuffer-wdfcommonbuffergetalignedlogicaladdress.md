@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6222db07-5aba-467c-94a5-18493dfb1524
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOMMONBUFFERGETALIGNEDLOGICALADDRESS, WdfCommonBufferGetAlignedLogicalAddress method, kmdf.wdfcommonbuffergetalignedlogicaladdress, DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress, wdf.wdfcommonbuffergetalignedlogicaladdress
+ms.keywords: PFN_WDFCOMMONBUFFERGETALIGNEDLOGICALADDRESS, DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfCommonBufferGetAlignedLogicalAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO"
+req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A handle to a common buffer object that the driver obtained by a previous call t
 ## -returns
 
 
+
 <b>WdfCommonBufferGetAlignedLogicalAddress</b> returns the logical address of the buffer that is associated with the common buffer that the <i>CommonBuffer</i> parameter specifies.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Logical addresses are mapped addresses that devices use to access physical memory.
@@ -98,14 +101,27 @@ For more information about common buffers, see <a href="https://msdn.microsoft.c
 
 
 
+#### Examples
+
+For a code example that uses <b>WdfCommonBufferGetAlignedLogicalAddress</b>, see <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
 
+
+
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
+
+
 
  
 

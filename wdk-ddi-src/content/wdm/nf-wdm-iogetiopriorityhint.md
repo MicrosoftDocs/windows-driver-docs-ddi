@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eddb6cea-74fc-4faf-85fa-3a35d6890802
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, IoGetIoPriorityHint, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture], kernel.iogetiopriorityhint, wdm/IoGetIoPriorityHint
+ms.keywords: kernel.iogetiopriorityhint, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture], IoGetIoPriorityHint, k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, wdm/IoGetIoPriorityHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,30 @@ Specifies the IRP to obtain the priority hint from.
 ## -returns
 
 
+
 <b>IoGetIoPriorityHint</b> returns the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> value that indicates the current priority hint.
+
 
 
 
 ## -remarks
 
 
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+
+
+
 <a href="..\wdm\nf-wdm-iosetiopriorityhint.md">IoSetIoPriorityHint</a>
 
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+
 
  
 

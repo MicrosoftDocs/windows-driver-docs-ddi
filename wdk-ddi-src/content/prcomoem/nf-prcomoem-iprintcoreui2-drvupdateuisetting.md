@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, IPrintCoreUI2::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], print.iprintcoreui2_drvupdateuisetting, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, IPrintCoreUI2, DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::DrvUpdateUISetting
+ms.keywords: prcomoem/IPrintCoreUI2::DrvUpdateUISetting, IPrintCoreUI2, IPrintCoreUI2::DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml, print.iprintcoreui2_drvupdateuisetting, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.DrvUpdateUISetting
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,7 @@ Not used.
 ### -param dwMode
 
 Caller-supplied integer constant indicating to which property sheet page the supplied option item belongs. The following constants are valid. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -124,13 +125,16 @@ The supplied option item belongs to the Device Settings page of the printer prop
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -169,14 +173,18 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-750d-4f29-b5e0-ab299a1388db">IPrintOemDriverUI COM Interface</a>, and can be called only by Windows XP Pscript5 UI plug-ins that do not fully replace the core driver's standard UI pages, and is supported during the UI plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. When this method is supported, it has the same behavior as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>. When it is not supported, this method should return E_NOTIMPL.
+
 
 
 
@@ -184,9 +192,15 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
+
+
 
  
 

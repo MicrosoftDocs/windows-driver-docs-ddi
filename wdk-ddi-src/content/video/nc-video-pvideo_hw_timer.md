@@ -79,11 +79,14 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>HwVidTimer</i> is an optional miniport driver function to which calls are enabled with <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a> and disabled with <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>.
@@ -98,11 +101,16 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
 
+
+
 <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
+
+
 
  
 

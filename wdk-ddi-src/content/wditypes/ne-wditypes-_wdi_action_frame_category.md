@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F2A3D1F0-E6E7-46DC-875A-7F36E6ACBC6D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WDI_ACTION_FRAME_CATEGORY, WDI_ACTION_FRAME_CATEGORY_WNM, wditypes/WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, WDI_ACTION_FRAME_CATEGORY enumeration [Device and Driver Installation], WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY_WNM, wditypes/WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, netvista.wdi_action_frame_category, wditypes/WDI_ACTION_FRAME_CATEGORY_PUBLIC, WDI_ACTION_FRAME_CATEGORY, netvista.wifi_action_frame_category, WDI_ACTION_FRAME_CATEGORY_PUBLIC, wditypes/WDI_ACTION_FRAME_CATEGORY"
+ms.keywords: wditypes/WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT, wditypes/WDI_ACTION_FRAME_CATEGORY, wditypes/WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, WDI_ACTION_FRAME_CATEGORY, _WDI_ACTION_FRAME_CATEGORY, WDI_ACTION_FRAME_CATEGORY_WNM, WDI_ACTION_FRAME_CATEGORY enumeration [Device and Driver Installation], WDI_ACTION_FRAME_CATEGORY_PUBLIC, netvista.wifi_action_frame_category, wditypes/WDI_ACTION_FRAME_CATEGORY_PUBLIC, WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION, wditypes/WDI_ACTION_FRAME_CATEGORY_WNM, netvista.wdi_action_frame_category, WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,6 +74,7 @@ typedef enum _WDI_ACTION_FRAME_CATEGORY {
 ### -field WDI_ACTION_FRAME_CATEGORY_PUBLIC
 
 Specifies a Public Action frame.  It is used in:
+
 <ul>
 <li>Inter-BSS and AP to unassociated-STA communications</li>
 <li>Intra-BSS communication</li>

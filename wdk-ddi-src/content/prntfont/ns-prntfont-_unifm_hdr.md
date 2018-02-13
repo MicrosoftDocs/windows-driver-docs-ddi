@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PUNIFM_HDR, UNIFM_HDR structure [Print Devices], print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, PUNIFM_HDR structure pointer [Print Devices], prntfont/PUNIFM_HDR, *PUNIFM_HDR, prntfont/UNIFM_HDR, UNIFM_HDR, print.unifm_hdr, _UNIFM_HDR
+ms.keywords: print.unifm_hdr, _UNIFM_HDR, UNIFM_HDR, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, UNIFM_HDR structure [Print Devices], *PUNIFM_HDR, PUNIFM_HDR, prntfont/UNIFM_HDR, prntfont/PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,9 +130,11 @@ Not used.
 ## -remarks
 
 
+
 A UNIFM_HDR structure must be the first structure contained in a .ufm file.
 
 If <b>lGlyphSetDataRCID</b> is not CC_DEFAULT, then the following rules apply:
+
 <ul>
 <li>
 If <b>lGlyphSetDataRCID</b> contains an RC_GTT resource identifier, the code page number specified for <b>ulDefaultCodepage</b> must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structure.
@@ -183,7 +185,9 @@ The character conversion codes predefined by the system, listed in Prntfont.h, a
 </tr>
 </table></span></div>
 </li>
-</ul>If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the value specified for <b>ulDefaultCodepage</b>, but a default code page must be specified.
+</ul>
+If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the value specified for <b>ulDefaultCodepage</b>, but a default code page must be specified.
+
 
 
 
@@ -191,15 +195,27 @@ The character conversion codes predefined by the system, listed in Prntfont.h, a
 
 <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
 
-<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
 
 <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a>
 
+
+
+<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
+
+
+
 <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
 
+
+
 <a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
+
+
 
  
 

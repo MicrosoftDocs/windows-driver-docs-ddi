@@ -7,8 +7,8 @@ old-location: buses\usb_30_hub_descriptor.htm
 old-project: usbref
 ms.assetid: 5B910D0B-0D1D-45D8-B418-13DC00B3398A
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: USB_30_HUB_DESCRIPTOR structure [Buses], PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], _USB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR, usbspec/PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, USB_30_HUB_DESCRIPTOR
+ms.date: 2/8/2018
+ms.keywords: PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], USB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], PUSB_30_HUB_DESCRIPTOR, usbspec/PUSB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, usbspec/USB_30_HUB_DESCRIPTOR, _USB_30_HUB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,13 +125,17 @@ The    hub packet header decode latency.
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
- 
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_30_HUB_DESCRIPTOR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_30_HUB_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

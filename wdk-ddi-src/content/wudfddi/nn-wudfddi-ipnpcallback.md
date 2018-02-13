@@ -124,6 +124,8 @@ The <a href="https://msdn.microsoft.com/4289406f-dda0-4439-be6e-6e638bb46e1f">On
 ## -remarks
 
 
+
 A driver registers the <b>IPnpCallback</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
 
 

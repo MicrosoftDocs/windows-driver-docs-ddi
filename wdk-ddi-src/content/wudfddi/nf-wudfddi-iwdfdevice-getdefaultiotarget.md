@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetDefaultIoTarget, umdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget, wdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget method, GetDefaultIoTarget method, IWDFDevice interface, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, IWDFDevice, IWDFDevice::GetDefaultIoTarget, IWDFDevice interface, GetDefaultIoTarget method
+ms.keywords: GetDefaultIoTarget method, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice, GetDefaultIoTarget method, IWDFDevice interface, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, IWDFDevice::GetDefaultIoTarget, umdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget, wudfddi/IWDFDevice::GetDefaultIoTarget, wdf.iwdfdevice_getdefaultiotarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,22 +78,30 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b-8eef-117ac0fe793e">Initializing a General I/O Target in UMDF</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
 
  
 

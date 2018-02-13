@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterExtensionAsyncOperation interface [Print Devices], Cancel method, printerextension/IPrinterExtensionAsyncOperation::Cancel, Cancel method [Print Devices], IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation::Cancel, Cancel method [Print Devices], print.iprinterextensionasyncoperation_cancel, Cancel, IPrinterExtensionAsyncOperation
+ms.keywords: Cancel method [Print Devices], IPrinterExtensionAsyncOperation interface, Cancel method [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices], Cancel method, printerextension/IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, IPrinterExtensionAsyncOperation::Cancel, IPrinterExtensionAsyncOperation, Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,6 +69,7 @@ HRESULT Cancel(
 
 
 
+
 #### - void
 
 None.
@@ -77,11 +78,14 @@ None.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
+
 
 
 This method guarantees that the callback object will not be invoked. No other form of status is provided, such as a way to check to see if the operation has been canceled.
@@ -89,9 +93,12 @@ Also, note that this method does not wait for the cancellation to be processed -
 
 
 
+
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetLastNotificationData method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetLastNotificationData, IStiDevice interface [Imaging Devices], GetLastNotificationData method, image.istidevice_getlastnotificationdata, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, GetLastNotificationData method [Imaging Devices], IStiDevice, IStiDevice::GetLastNotificationData, GetLastNotificationData
+ms.keywords: IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, image.istidevice_getlastnotificationdata, GetLastNotificationData method [Imaging Devices], IStiDevice, sti/IStiDevice::GetLastNotificationData, IStiDevice interface [Imaging Devices], GetLastNotificationData method, GetLastNotificationData method [Imaging Devices], IStiDevice interface, GetLastNotificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,15 +76,19 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 Each time a <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> occurs, the still image event monitor calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543821">IStiUSD::GetNotificationData</a> (exported by a vendor-supplied minidriver) to obtain an event description. These descriptions are added to a linked list. If a client of the <b>IStiDevice</b> COM interface has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>, it is notified each time a device event occurs. It can then call <b>IStiDevice::GetLastNotificationData</b> to obtain the most recent addition to the linked list of events.
 
 Before calling <b>IStiDevice::GetLastNotificationData</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+
 
 

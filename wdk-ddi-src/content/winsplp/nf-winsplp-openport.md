@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort, winsplp/pfnOpenPort, pfnOpenPort function [Print Devices], print.openport, OpenPort
+ms.keywords: pfnOpenPort, pfnOpenPort function [Print Devices], winsplp/pfnOpenPort, print.openport, OpenPort, spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Caller supplied monitor instance handle. This is the handle returned by the moni
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Port monitor server DLLs are required to define an <code>OpenPort</code> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
@@ -109,25 +112,44 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
-
-<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
-
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
 <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
+
+
+
 <a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+
 
  
 

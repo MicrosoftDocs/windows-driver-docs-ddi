@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0890c352-8722-4108-9b76-60c81179b46b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnSelfManagedIoCleanup method, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup
+ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,24 +78,34 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
 
  
 

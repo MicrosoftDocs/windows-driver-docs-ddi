@@ -40,7 +40,7 @@ apiname:
 -	DxgkCbAcquirePostDisplayOwnership
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback
@@ -86,24 +86,35 @@ A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK
 ## -returns
 
 
+
 <i>DxgkCbAcquirePostDisplayOwnership</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
-<h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>The <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
+
+<h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>
+The <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
+
 <ul>
 <li><b>D3DDDIFMT_X8R8G8B8</b></li>
 <li><b>D3DDDIFMT_A8R8G8B8</b></li>
-</ul>If the operating system reports back the <b>D3DDDIFMT_R8G8B8</b> format, the display miniport driver should ignore it.
-<h3><a id="Video_present_target_initialization"></a><a id="video_present_target_initialization"></a><a id="VIDEO_PRESENT_TARGET_INITIALIZATION"></a>Video present target initialization</h3>It is possible that the <i>DisplayInfo</i>-&gt;<b>TargetId</b> member is not initialized. In this case, the identifier of the video present target is <b>D3DDDI_ID_UNINITIALIZED</b>. Typically, this occurs after a system boot.
+</ul>
+If the operating system reports back the <b>D3DDDIFMT_R8G8B8</b> format, the display miniport driver should ignore it.
+
+<h3><a id="Video_present_target_initialization"></a><a id="video_present_target_initialization"></a><a id="VIDEO_PRESENT_TARGET_INITIALIZATION"></a>Video present target initialization</h3>
+It is possible that the <i>DisplayInfo</i>-&gt;<b>TargetId</b> member is not initialized. In this case, the identifier of the video present target is <b>D3DDDI_ID_UNINITIALIZED</b>. Typically, this occurs after a system boot.
 
 Similarly, it is possible that the <i>DisplayInfo</i>-&gt;<b>AcpiId</b> member is not initialized. In this case, the ACPI identifier <b>AcpiId</b> has a value of zero.
 
 In the case of a driver-to-driver upgrade, the previous driver will have provided the target identifier and the ACPI identifier.
-<h3><a id="Implementation_guidelines"></a><a id="implementation_guidelines"></a><a id="IMPLEMENTATION_GUIDELINES"></a>Implementation guidelines</h3>Starting with WDDM 1.2, the display miniport driver must follow these guidelines when it calls <i>DxgkCbAcquirePostDisplayOwnership</i>:
+
+<h3><a id="Implementation_guidelines"></a><a id="implementation_guidelines"></a><a id="IMPLEMENTATION_GUIDELINES"></a>Implementation guidelines</h3>
+Starting with WDDM 1.2, the display miniport driver must follow these guidelines when it calls <i>DxgkCbAcquirePostDisplayOwnership</i>:
+
 <ul>
 <li>
 The entry point for the <i>DxgkCbAcquirePostDisplayOwnership</i> function is part of the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure. This structure is returned to the driver through the  <i>DxgkInterface</i> parameter when the driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function is called.
@@ -128,19 +139,32 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 </ul>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+
+
 
  
 

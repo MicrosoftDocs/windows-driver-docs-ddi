@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], storage.storport_telemetry_event, *PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], storport/PSTORPORT_TELEMETRY_EVENT, _STORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT
+ms.keywords: storport/STORPORT_TELEMETRY_EVENT, _STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT, storport/PSTORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], storage.storport_telemetry_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORPORT_TELEMETRY_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT"
+req.typenames: STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT
 req.product: Windows 10 or later.
 ---
 
@@ -210,13 +210,17 @@ The value for parameter 7.
 ## -remarks
 
 
+
 A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry data payload. The miniport should fill it when calling StorPortLogTelemetry.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportlogtelemetry.md">StorPortLogTelemetry</a>
+
+
 
  
 

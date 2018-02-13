@@ -87,9 +87,11 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlUIntPtrMult
 </li>
@@ -110,4 +112,5 @@ This function uses the following alternate name:
 <li>RtlUInt64Mult
 </li>
 </ul>
+
 

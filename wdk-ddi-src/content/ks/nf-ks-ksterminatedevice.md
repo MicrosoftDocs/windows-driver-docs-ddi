@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], KsTerminateDevice, stream.ksterminatedevice, avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml
+ms.keywords: KsTerminateDevice function [Streaming Media Devices], stream.ksterminatedevice, ks/KsTerminateDevice, avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, KsTerminateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,32 +76,50 @@ A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> struc
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove device IRP (IRP_MN_REMOVE_DEVICE). Most minidrivers do not call this function directly; however, it can be used to remove AVStream support for the device given in <i>DeviceObject</i>. 
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
 
 <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
 
+
+
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
 
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
+
+
 <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+
+
 
  
 

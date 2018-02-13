@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IddCxSwapChainSetDevice, IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice
+ms.keywords: IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, IddCxSwapChainSetDevice, iddcx/IddCxSwapChainSetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ Input arguments to the function
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

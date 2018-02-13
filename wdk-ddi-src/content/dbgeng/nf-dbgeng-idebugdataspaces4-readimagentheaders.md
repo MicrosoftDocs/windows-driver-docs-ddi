@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2735aabf-b8b0-4eb1-89a2-4733d0b346ed
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.readimagentheaders, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, ReadImageNtHeaders method [Windows Debugging], ReadImageNtHeaders, IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4, IDebugDataSpaces4::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders
+ms.keywords: ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, debugger.readimagentheaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, IDebugDataSpaces4::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces3, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,6 +82,7 @@ Receives the NT headers for the specified image.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,13 +110,16 @@ No NT headers were found for the specified image.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 If the image's NT headers are 32-bit, they are automatically converted to 64-bit for consistency.  To determine if the headers were originally 32-bit, look at the value of <b>Headers.OptionalHeader.Magic</b>.  If the value is IMAGE_NT_OPTIONAL_HDR32_MAGIC, the NT headers were originally 32-bit; otherwise the value is IMAGE_NT_OPTIONAL_HDR64_MAGIC, indicating the NT headers were originally 64-bit.
@@ -123,5 +127,6 @@ If the image's NT headers are 32-bit, they are automatically converted to 64-bit
 This method will not read ROM headers.
 
 IMAGE_NT_HEADERS64, IMAGE_NT_OPTIONAL_HDR32_MAGIC, and IMAGE_NT_OPTIONAL_HDR64_MAGIC appear in the Microsoft Windows SDK header file winnt.h.  IMAGE_NT_HEADERS64 is the 64-bit equivalent of IMAGE_NT_HEADERS, which is described in the Windows SDK documentation.
+
 
 

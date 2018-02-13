@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8c111231-f94b-4e52-9887-59d07fe70937
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_STOUNSENT, RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_RECUNREAD, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGSTATUS_RECREAD, ntddrilapitypes/RILMESSAGESTATUS, ntddrilapitypes/RIL_MSGSTATUS_MAX, ntddrilapitypes/RIL_MSGSTATUS_RECUNREAD, ntddrilapitypes/RIL_MSGSTATUS_STOUNSENT, RILMESSAGESTATUS, netvista.rilmessagestatus, ntddrilapitypes/RIL_MSGSTATUS_STOSENT
+ms.keywords: RIL_MSGSTATUS_STOUNSENT, RIL_MSGSTATUS_STOSENT, ntddrilapitypes/RIL_MSGSTATUS_RECUNREAD, ntddrilapitypes/RIL_MSGSTATUS_STOUNSENT, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUS_MAX, ntddrilapitypes/RIL_MSGSTATUS_MAX, netvista.rilmessagestatus, ntddrilapitypes/RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_RECUNREAD, ntddrilapitypes/RILMESSAGESTATUS, ntddrilapitypes/RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_RECREAD, RILMESSAGESTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -74,23 +74,17 @@ typedef enum _RILMESSAGESTATUS {
 ### -field RIL_MSGSTATUS_UNKNOWN
 
 
-
 ### -field RIL_MSGSTATUS_RECUNREAD
-
 
 
 ### -field RIL_MSGSTATUS_RECREAD
 
 
-
 ### -field RIL_MSGSTATUS_STOUNSENT
-
 
 
 ### -field RIL_MSGSTATUS_STOSENT
 
 
-
 ### -field RIL_MSGSTATUS_MAX
-
 

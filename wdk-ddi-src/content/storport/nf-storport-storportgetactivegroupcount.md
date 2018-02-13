@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 640dd836-a5f9-4a88-b2a3-038a66a50868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetActiveGroupCount, storage.storportgetactivegroupcount, StorPortGetActiveGroupCount routine [Storage Devices], storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml, StorPortGetActiveGroupCount
+ms.keywords: storage.storportgetactivegroupcount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml, storport/StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], StorPortGetActiveGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to a variable that holds the number of groups.
 ## -returns
 
 
+
 The <b>StorPortGetActiveGroupCount</b> routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,6 +112,8 @@ The operation was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

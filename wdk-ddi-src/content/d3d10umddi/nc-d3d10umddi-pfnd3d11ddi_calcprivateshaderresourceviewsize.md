@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateShaderResourceViewSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback
@@ -74,8 +74,9 @@ SIZE_T APIENTRY CalcPrivateShaderResourceViewSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ SIZE_T APIENTRY CalcPrivateShaderResourceViewSize(
 ## -returns
 
 
+
 <b>CalcPrivateShaderResourceViewSize(D3D11)</b> returns the size of the memory region that the driver requires to create a shader resource view.
+
 
 
 
@@ -103,7 +106,11 @@ SIZE_T APIENTRY CalcPrivateShaderResourceViewSize(
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
+
+
 
  
 

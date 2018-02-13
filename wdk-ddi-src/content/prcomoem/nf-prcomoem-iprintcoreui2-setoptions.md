@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetOptions, IPrintCoreUI2 interface [Print Devices], SetOptions method, IPrintCoreUI2, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml, prcomoem/IPrintCoreUI2::SetOptions, IPrintCoreUI2::SetOptions, SetOptions method [Print Devices], IPrintCoreUI2 interface, SetOptions method [Print Devices], print.iprintcoreui2_setoptions
+ms.keywords: SetOptions, IPrintCoreUI2, prcomoem/IPrintCoreUI2::SetOptions, SetOptions method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml, IPrintCoreUI2::SetOptions, SetOptions method [Print Devices], IPrintCoreUI2 interface [Print Devices], SetOptions method, print.iprintcoreui2_setoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.SetOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md
 ### -param dwFlags [in]
 
 Specifies whether the core driver is to resolve conflicts. This parameter must be set to one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -105,7 +106,8 @@ Ask core driver to resolve any conflict that arises.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pmszFeatureOptionBuf [in]
@@ -121,6 +123,7 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pmszFeatureOptionBu
 ### -param pdwResult [out]
 
 Pointer to a memory location that receives one of the following values. These constants are defined in printoem.h.
+
 <table>
 <tr>
 <th>Value</th>
@@ -156,13 +159,16 @@ The core driver did not find any conflict.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -218,11 +224,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins.
@@ -241,15 +250,24 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553069">IPrintCoreUI2::GetOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
+
+
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
 
  
 

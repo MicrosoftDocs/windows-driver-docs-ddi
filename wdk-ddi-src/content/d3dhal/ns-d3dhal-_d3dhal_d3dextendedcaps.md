@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1e63dce-6d51-438c-a4aa-cc17d9292576
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dhal_d3dextendedcaps, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], _D3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, *LPD3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices]
+ms.keywords: "_D3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, d3dhal/D3DHAL_D3DEXTENDEDCAPS, display.d3dhal_d3dextendedcaps, LPD3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, *LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], D3DHAL_D3DEXTENDEDCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -158,13 +158,10 @@ Specifies the maximum valid value for the D3DRENDERSTATE_ANISOTROPY render state
 ### -field dvGuardBandLeft
 
 
-
 ### -field dvGuardBandTop
 
 
-
 ### -field dvGuardBandRight
-
 
 
 ### -field dvGuardBandBottom
@@ -180,6 +177,7 @@ Specifies the number of pixels required to adjust the extents rectangle outward 
 ### -field dwStencilCaps
 
 Specifies the stencil buffer operations supported by the driver or device. For further descriptions of the stencil buffer operations shown in the following table, see D3DSTENCILOP in the DirectX SDK documentation. Stencil operations are assumed to be valid for all three stencil buffer operation render states (D3DRENDERSTATE_STENCILFAIL, D3DRENDERSTATE_STENCILPASS, and D3DRENDERSTATE_STENCILZFAIL). This member can be a bitwise OR of any of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -265,7 +263,8 @@ The D3DSTENCILOP_ZERO operation is supported.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwFVFCaps
@@ -278,6 +277,7 @@ A driver must be able to parse all texture coordinates present in the vertex dat
 ### -field dwTextureOpCaps
 
 Specifies the texture operations supported by the device. See D3DTEXTUREOP in the DirectX SDK documentation for descriptions of the texture operations listed in the following table. This member can be a bitwise OR of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -523,7 +523,8 @@ The D3DTOP_SUBTRACT texture blending operation is supported by this device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wMaxTextureBlendStages
@@ -559,6 +560,7 @@ Specifies the number of world matrices supported for vertex blending.
 ### -field dwVertexProcessingCaps
 
 Specifies the vertex processing caps that are supported by the driver. This member can be a bitwise OR of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -644,7 +646,8 @@ Device can do vertex tweening.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwReserved1
@@ -690,15 +693,19 @@ Specify the minimum and maximum stipple heights, in pixels, supported by the dri
 ## -remarks
 
 
+
 The driver allocates and zero-initializes this structure and sets appropriate values in the members it supports. The driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DExtendedCaps GUID.
 
 When the driver fills in this structure, it can set values for execute buffer capabilities even when the interface being used to retrieve the capabilities (such as <b>lDirect3DDevice3</b>) does not support execute buffers.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+
 
  
 

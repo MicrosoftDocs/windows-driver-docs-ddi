@@ -7,8 +7,8 @@ old-location: buses\usbbuildopenbasicstreamsrequest.htm
 old-project: usbref
 ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbdlib/UsbBuildOpenStaticStreamsRequest, buses.usbbuildopenbasicstreamsrequest, UsbBuildOpenStaticStreamsRequest function [Buses], UsbBuildOpenStaticStreamsRequest
+ms.date: 2/8/2018
+ms.keywords: UsbBuildOpenStaticStreamsRequest function [Buses], buses.usbbuildopenbasicstreamsrequest, UsbBuildOpenStaticStreamsRequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,26 +102,34 @@ Pointer to a caller-allocated, initialized array of <a href="..\usb\ns-usb-_usbd
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For a code example that shows the URB format required for an open-streams request, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
- 
+
+
+<a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UsbBuildOpenStaticStreamsRequest function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UsbBuildOpenStaticStreamsRequest function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

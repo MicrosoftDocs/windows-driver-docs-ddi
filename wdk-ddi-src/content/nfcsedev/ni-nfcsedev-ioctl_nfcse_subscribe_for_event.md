@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
+req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT IOCTL
@@ -73,7 +73,9 @@ The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b>
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,27 +87,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -119,16 +128,19 @@ None
 <td><b>STATUS_FEATURE_NOT_SUPPORTED</b></td>
 <td>  This code is returned when the output is non-zero, or when the GUID of the secure element does not match any of the enumerated IDs.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to.<ul>
 <li>This IOCTL must be called on a handle with a <b>SEEvents</b> file name; otherwise, the driver returns STATUS_INVALID_DEVICE_STATE.</li>
 <li><b>GUID_NULL</b> can be specified by the client as a wild card to subscribe for a specific event from all enumerated secure elements.</li>
 </ul>
+
 
 
 

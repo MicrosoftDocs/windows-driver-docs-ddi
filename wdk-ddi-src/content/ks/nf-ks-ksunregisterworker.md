@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 789b12db-7f51-426f-8f43-d3a3e43d85b3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksunregisterworker, ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, KsUnregisterWorker function [Streaming Media Devices], ks/KsUnregisterWorker, KsUnregisterWorker
+ms.keywords: ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, stream.ksunregisterworker, KsUnregisterWorker, KsUnregisterWorker function [Streaming Media Devices], ks/KsUnregisterWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ Specifies the previously allocated worker to be unregistered. The function will 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The client must ensure that outstanding I/O initiated on any worker thread has been completed before unregistering the worker has been completed. This means canceling or completing outstanding I/O either before unregistering the worker, or before the worker item returns from its callback for the last time and is unregistered. Unregistering of a worker will wait for any currently queued work items to complete before returning. 
+
 
 

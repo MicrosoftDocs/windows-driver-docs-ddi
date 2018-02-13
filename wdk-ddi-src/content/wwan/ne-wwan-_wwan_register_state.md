@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba4e60e-c247-4466-9b0f-c8e7ffa594d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_register_state, WwanRegisterStateMax, PWWAN_REGISTER_STATE, wwan/WwanRegisterStatePartner, wwan/PWWAN_REGISTER_STATE, wwan/WwanRegisterStateRoaming, wwan/WwanRegisterStateMax, _WWAN_REGISTER_STATE, WwanRegisterStateUnknown, WWAN_REGISTER_STATE, WwanRegisterStateDeregistered, *PWWAN_REGISTER_STATE, wwan/WwanRegisterStateDenied, WwanRegisterStateHome, WwanRegisterStatePartner, WwanRegisterStateDenied, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateDeregistered, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateRoaming, WwanRegisterStateSearching, wwan/WwanRegisterStateUnknown, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanRegisterStateSearching, wwan/WwanRegisterStateHome
+ms.keywords: WwanRegisterStateMax, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRegisterStateRoaming, wwan/WwanRegisterStateSearching, wwan/WwanRegisterStatePartner, WwanRegisterStateDenied, WwanRegisterStateUnknown, netvista.wwan_register_state, wwan/WwanRegisterStateDeregistered, WwanRegisterStatePartner, wwan/WwanRegisterStateDenied, wwan/WwanRegisterStateMax, wwan/WwanRegisterStateUnknown, WWAN_REGISTER_STATE, wwan/WwanRegisterStateHome, WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateHome, *PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE, _WWAN_REGISTER_STATE, WwanRegisterStateDeregistered, WwanRegisterStateSearching, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateRoaming, wwan/PWWAN_REGISTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -122,6 +122,7 @@ The total number of supported registration states.
 ## -remarks
 
 
+
 The current registration state is typically reflected in the device's user interface.
 
 The 
@@ -133,9 +134,12 @@ The
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
+
+
 
  
 

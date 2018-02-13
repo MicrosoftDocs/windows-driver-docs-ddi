@@ -85,14 +85,18 @@ The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\n
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,13 +108,17 @@ The <b>Status</b> field can be set to STATUS_SUCCESS, or possibly to STATUS_INVA
 ## -remarks
 
 
+
 If logical block provisioning is enabled on a LUN, resource mapping counts  may be reported from the storage device. Resource mapping information is obtained by using the <b>IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</b>  request. A storage monitoring application can use this IOCTL to query resource mapping conditions before a resource threshold or exhaustion event is logged.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_lb_provisioning_map_resources.md">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
+
+
 
  
 

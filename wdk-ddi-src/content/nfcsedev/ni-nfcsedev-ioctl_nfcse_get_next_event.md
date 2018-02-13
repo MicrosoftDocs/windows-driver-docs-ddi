@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_GET_NEXT_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
+req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_GET_NEXT_EVENT IOCTL
@@ -82,27 +82,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -116,10 +123,12 @@ None
 <td><b>STATUS_INVALID_PARAMETER</b></td>
 <td>This code is returned when the output buffer is non-zero, or when the GUID of the secure element does not match any of the enumerated IDs.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to.<ul>
@@ -158,6 +167,7 @@ If a received secure element event info is too large to be copied into this IOCT
 
 </li>
 </ul>
+
 
 
 

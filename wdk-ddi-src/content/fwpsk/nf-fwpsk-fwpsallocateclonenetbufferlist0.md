@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72759748-fac6-45b9-9a81-ab71e6e7c3ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0, fwpsk/FwpsAllocateCloneNetBufferList0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsallocateclonenetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml, FwpsAllocateCloneNetBufferList0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,8 +114,10 @@ A pointer to a variable that receives a pointer to the clone
 ## -returns
 
 
+
 The 
      <b>FwpsAllocateCloneNetBufferList0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,11 +147,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -192,7 +197,9 @@ A callout driver can insert or replace individual net buffers (<a href="..\ndis\
     list. Such a driver must also undo the modifications before it calls the 
     <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">
     FwpsFreeCloneNetBufferList0</a> function.
-<h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
+
+<h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>
+A callout driver must not hold cloned packets indefinitely. A cloned packet can interfere with power
      management operations on an idle computer.
 
 The intended use for cloned packets in WFP is to get clarification from a user-mode application or
@@ -209,22 +216,37 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
    NdisAllocateNetBufferListPool</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+
 
  
 

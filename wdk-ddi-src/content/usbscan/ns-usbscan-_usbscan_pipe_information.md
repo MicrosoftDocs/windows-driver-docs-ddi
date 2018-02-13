@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a13bec15-67e1-45f9-be90-dee5c555ad64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, usbscan/PUSBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], image.usbscan_pipe_information, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], _USBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION, usbscan/USBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION
+ms.keywords: PUSBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], image.usbscan_pipe_information, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], *PUSBSCAN_PIPE_INFORMATION, usbscan/USBSCAN_PIPE_INFORMATION, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, USBSCAN_PIPE_INFORMATION, usbscan/PUSBSCAN_PIPE_INFORMATION, _USBSCAN_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBSCAN_PIPE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION"
+req.typenames: USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ Maximum packet size for the transfer pipe.
 ### -field EndpointAddress
 
 The address of the pipe's endpoint. The address is encoded as follows:
+
 <table>
 <tr>
 <th>Bits</th>
@@ -118,7 +119,8 @@ Direction, ignored for control endpoints:
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information, see the <i>Universal Serial Bus Specification</i>.
 
@@ -135,9 +137,13 @@ A <a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>-typed valu
 
 ## -see-also
 
+<a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>
+
+
+
 <a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a>
 
-<a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>
+
 
  
 

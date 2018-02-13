@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6438f692-75b0-4a41-a2f9-68b0fe3f23cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluiccapppersocheckstatus, *LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], RILUICCAPPPERSOCHECKSTATUS, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS
+ms.keywords: netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,19 +74,14 @@ typedef struct _RILUICCAPPPERSOCHECKSTATUS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwPersoFeature
 
 
-
 ### -field dwPersoCheckState
-
 

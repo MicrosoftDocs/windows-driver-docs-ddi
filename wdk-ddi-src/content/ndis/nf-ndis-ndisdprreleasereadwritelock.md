@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BD9B13A7-5F5F-437a-BEB7-56DE6D03A29B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisdprreleasereadwritelock, ndis/NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock, NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisDprReleaseReadWriteLock
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisDprReleaseReadWriteLock function
@@ -82,6 +82,7 @@ TBD
 
 
 
+
 #### - LockState [in]
 
 A pointer to an opaque <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a> variable that tracks the state of the lock. This variable exists
@@ -91,11 +92,14 @@ A pointer to an opaque <a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a> v
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver must initialize a lock before calling any other 
@@ -112,13 +116,20 @@ A driver must call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
-<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisDprAcquireReadWriteLock</a>
+
 
 <a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisDprAcquireReadWriteLock</a>
+
+
 
  
 

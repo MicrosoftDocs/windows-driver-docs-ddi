@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], ClfsReadLogRecord, kernel.clfsreadlogrecord, wdm/ClfsReadLogRecord
+ms.keywords: wdm/ClfsReadLogRecord, kernel.clfsreadlogrecord, Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,6 +105,7 @@ A pointer to a ULONG-typed variable that receives the size, in bytes, of the buf
 ### -param peRecordType [out]
 
 A pointer to a variable of type CLFS_RECORD_TYPE that receives one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -130,7 +131,8 @@ The target record is a restart record.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param plsnUndoNext [out]
@@ -151,11 +153,14 @@ A pointer to a variable that receives a pointer to an opaque read context. The c
 ## -returns
 
 
+
 <b>ClfsReadLogRecord</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 You must call <b>ClfsTerminateReadLog</b> when you have finished using the read context in order to avoid a memory leak.
@@ -168,11 +173,16 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
+
+
 
  
 

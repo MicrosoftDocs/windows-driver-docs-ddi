@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0679ade4-9bbd-4bbc-ad2a-46bf35cac645
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices], display.dxgkarg_destroyallocation, DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, _DXGKARG_DESTROYALLOCATION
+ms.keywords: display.dxgkarg_destroyallocation, DXGKARG_DESTROYALLOCATION structure [Display Devices], DXGKARG_DESTROYALLOCATION, _DXGKARG_DESTROYALLOCATION, DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, d3dkmddi/DXGKARG_DESTROYALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,9 @@ typedef struct _DXGKARG_DESTROYALLOCATION {
 ## -remarks
 
 
+
 The handles in the array that the <b>pAllocationList</b> member specifies are handles to allocations that the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function previously returned in the <b>hAllocation</b> members of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structures, which are part of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure's <b>pAllocationInfo</b> member. Each allocation handle points to a buffer that contains private driver data for the allocation. The display miniport driver must release the memory for the allocations during the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>. 
+
 
 
 
@@ -101,13 +103,23 @@ The handles in the array that the <b>pAllocationList</b> member specifies are ha
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_destroyallocationflags.md">DXGK_DESTROYALLOCATIONFLAGS</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>
+
 
  
 

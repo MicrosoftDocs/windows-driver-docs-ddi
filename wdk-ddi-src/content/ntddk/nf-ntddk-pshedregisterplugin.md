@@ -7,8 +7,8 @@ old-location: whea\pshedregisterplugin.htm
 old-project: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, ntddk/PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], PshedRegisterPlugin, whea.pshedregisterplugin
+ms.date: 2/8/2018
+ms.keywords: whea.pshedregisterplugin, PshedRegisterPlugin, ntddk/PshedRegisterPlugin, whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, PshedRegisterPlugin function [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PshedRegisterPlugin
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PshedRegisterPlugin function
@@ -75,7 +75,9 @@ A pointer to an initialized  <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_regis
 ## -returns
 
 
+
 <b>PshedRegisterPlugin</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,14 +105,18 @@ The data in the supplied registration packet is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
+
 
 
 
@@ -118,13 +124,19 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedRegisterPlugin function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedRegisterPlugin function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

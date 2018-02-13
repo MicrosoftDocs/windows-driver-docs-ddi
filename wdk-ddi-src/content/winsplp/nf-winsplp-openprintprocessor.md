@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.openprintprocessor, winsplp/OpenPrintProcessor, OpenPrintProcessor function [Print Devices], spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor
+ms.keywords: OpenPrintProcessor function [Print Devices], winsplp/OpenPrintProcessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor, print.openprintprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ Caller-supplied pointer to a <a href="..\winsplp\ns-winsplp-_printprocessoropend
 ## -returns
 
 
+
 If the operation succeeds, the function should return a handle that can be used as an input argument for subsequent calls to <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>, <a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>, and <a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>. If the operation fails, the function should call <b>SetLastError</b> to set an error code, and then return <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Print processors are required to export an <code>OpenPrintProcessor</code> function. The spooler calls the function when a print job is available. The function should perform initialization operations that are required before a job can be processed, based on the job's data type.
@@ -96,15 +99,24 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>
+
+
 
 <a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlCompareString, k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, RtlCompareString routine [Kernel-Mode Driver Architecture], RtlCompareString, kernel.rtlcomparestring
+ms.keywords: RtlCompareString, ntddk/RtlCompareString, kernel.rtlcomparestring, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlCompareString
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlCompareString function
@@ -88,7 +88,9 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 ## -returns
 
 
+
 <b>RtlCompareString</b> returns a signed value that gives the results of the comparison:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,15 +129,21 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
 
-<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
+
 
  
 

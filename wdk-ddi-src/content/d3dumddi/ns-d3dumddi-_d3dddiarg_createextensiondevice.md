@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33076a24-8856-4533-b4ab-ec1d7bdb083d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], D3DDDIARG_CREATEEXTENSIONDEVICE, UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, _D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice
+ms.keywords: UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,17 @@ typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+
+
 
  
 

@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY GetQueryData(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a> structure that contains the information about the query that is retrieved from the driver.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY GetQueryData(
 ## -returns
 
 
+
 <i>GetQueryData</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +134,14 @@ The query operation completed and the query result is available.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Microsoft Direct3D runtime can call <i>GetQueryData</i> at any time after calling the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function. The user-mode display driver should check the current fence value against the value that is stored in the driver's private query structure to determine if the query issue is complete.
@@ -145,13 +152,20 @@ If a driver supports <a href="https://msdn.microsoft.com/906d6b31-a447-4a94-b1a5
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a>
+
+
 
  
 

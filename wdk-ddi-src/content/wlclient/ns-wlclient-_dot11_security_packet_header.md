@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a880137-58a6-4b89-8384-a92c37f289a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], wlclient/PDOT11_SECURITY_PACKET_HEADER, Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, *PDOT11_SECURITY_PACKET_HEADER, _DOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, PDOT11_SECURITY_PACKET_HEADER, wlclient/DOT11_SECURITY_PACKET_HEADER
+ms.keywords: "_DOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], wlclient/PDOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER, wlclient/DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, DOT11_SECURITY_PACKET_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ The contents of the security packet, excluding the 801.11 MAC header.
 ## -see-also
 
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+
+
 
  
 

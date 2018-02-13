@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: gdi.ibidispl_ibidispl__multisendrecv, MultiSendRecv method [Print Devices], bidispl/IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], IBidiSpl interface, IBidiSpl::MultiSendRecv, IBidiSpl, _win32_IBidiSpl_MultiSendRecv, IBidiSpl interface [Print Devices], MultiSendRecv method, print.ibidispl_ibidispl__multisendrecv
+ms.keywords: MultiSendRecv method [Print Devices], IBidiSpl, IBidiSpl::MultiSendRecv, print.ibidispl_ibidispl__multisendrecv, MultiSendRecv, MultiSendRecv method [Print Devices], IBidiSpl interface, IBidiSpl interface [Print Devices], MultiSendRecv method, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, _win32_IBidiSpl_MultiSendRecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiSpl.MultiSendRecv
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl::MultiSendRecv method
@@ -71,6 +71,7 @@ HRESULT MultiSendRecv(
 ### -param pszAction [in]
 
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
+
 <table>
 <tr>
 <th>Constant</th>
@@ -97,7 +98,8 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 <td>L"Set"</td>
 <td>Set a value of the schema. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pRequestContainer [in]
@@ -108,7 +110,9 @@ A pointer to the list of bidi requests.
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -147,26 +151,36 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the <b>HRESULT</b> may contain a system error code defined in <a href="https://msdn.microsoft.com/e273f5eb-e4f4-4aa7-9ed9-b418eebc6144">Bidi Error Codes</a>.
+
 
 
 
 ## -remarks
 
 
+
 The BIDI_ACTION_* values are case insensitive strings.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
+
+
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f088a623-e6e8-4810-a7ab-90348f669dac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSetPersistentEntry_IN, *PSetPersistentEntry_IN, SetPersistentEntry_IN, storage.setpersistententry_in, SetPersistentEntry_IN structure [Storage Devices], PSetPersistentEntry_IN structure pointer [Storage Devices], hbapiwmi/SetPersistentEntry_IN, PSetPersistentEntry_IN, _SetPersistentEntry_IN, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml
+ms.keywords: SetPersistentEntry_IN structure [Storage Devices], storage.setpersistententry_in, *PSetPersistentEntry_IN, SetPersistentEntry_IN, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml, hbapiwmi/PSetPersistentEntry_IN, PSetPersistentEntry_IN, _SetPersistentEntry_IN, hbapiwmi/SetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,13 +81,17 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentr
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SetPersistentEntry_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a>
+
+
 
  
 

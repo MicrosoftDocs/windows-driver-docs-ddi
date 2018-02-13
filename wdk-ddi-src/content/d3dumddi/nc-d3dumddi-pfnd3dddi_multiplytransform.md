@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY MultiplyTransform(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_multiplytransform.md">D3DDDIARG_MULTIPLYTRANSFORM</a> structure that describes how to modify the current transform.
@@ -91,15 +93,21 @@ __checkReturn HRESULT APIENTRY MultiplyTransform(
 ## -returns
 
 
+
 <i>MultiplyTransform</i> returns S_OK or an appropriate error result if the transform is not successfully modified.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_multiplytransform.md">D3DDDIARG_MULTIPLYTRANSFORM</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_multiplytransform.md">D3DDDIARG_MULTIPLYTRANSFORM</a>
+
 
  
 

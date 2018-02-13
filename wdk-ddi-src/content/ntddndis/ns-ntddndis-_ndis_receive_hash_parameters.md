@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02c333d3-9ea7-4d24-9e09-32943c00d6a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_RECEIVE_HASH_PARAMETERS, netvista.ndis_receive_hash_parameters, *PNDIS_RECEIVE_HASH_PARAMETERS, receive_scaling_structures_ref_80a59146-35c0-44f9-9001-142356cdccdf.xml, PNDIS_RECEIVE_HASH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_HASH_PARAMETERS, _NDIS_RECEIVE_HASH_PARAMETERS, ntddndis/PNDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_RECEIVE_HASH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_HASH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_hash_parameters, *PNDIS_RECEIVE_HASH_PARAMETERS, receive_scaling_structures_ref_80a59146-35c0-44f9-9001-142356cdccdf.xml, ntddndis/PNDIS_RECEIVE_HASH_PARAMETERS, ntddndis/NDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS, PNDIS_RECEIVE_HASH_PARAMETERS, _NDIS_RECEIVE_HASH_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_HASH_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS"
+req.typenames: NDIS_RECEIVE_HASH_PARAMETERS, *PNDIS_RECEIVE_HASH_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_HASH_PARAMETERS structure
@@ -96,9 +96,6 @@ In a set request, the flags are defined as follows:
 
 
 
-In a query request, the flags are defined as follows:
-
-
 
 
 #### NDIS_RECEIVE_HASH_FLAG_ENABLE_HASH
@@ -110,6 +107,7 @@ If this flag is clear, disable the calculation of hash values on received frames
 
 If receive hash calculation is enabled, the miniport driver should set this flag; otherwise, this
         flag should be clear.
+
 
 
 #### NDIS_RECEIVE_HASH_FLAG_HASH_INFO_UNCHANGED
@@ -124,6 +122,7 @@ If this flag is cleared, the HashInformation member contains a new value that th
         must use to calculate hash values on received frames.
 
 
+
 #### NDIS_RECEIVE_HASH_FLAG_HASH_KEY_UNCHANGED
 
 The secret key and associated data members have not changed.
@@ -132,6 +131,10 @@ If this flag is set, the secret key and associated data members should be ignore
 
 If this flag is cleared, the secret key or associated data members have changed and miniport
         driver must use the new information.
+
+In a query request, the flags are defined as follows:
+
+
 
 
 ### -field HashInformation
@@ -175,31 +178,49 @@ In a query request, the secret key contains the data that the NIC is using.
 ## -remarks
 
 
+
 The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569635">OID_GEN_RECEIVE_HASH</a> OID.
+
 <div class="alert"><b>Note</b>  Protocol drivers must disable receive hash calculations before they enable RSS. If
     RSS is enabled, a protocol driver disables RSS before it enables receive hash calculations. A miniport
     driver should fail a request to enable receive hash calculations or RSS if the other service is currently
-    enabled.</div><div> </div><div class="alert"><b>Note</b>  The secret key is appended after the NDIS_RECEIVE_HASH_PARAMETERS structure
-    members.</div><div> </div>
+    enabled.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  The secret key is appended after the NDIS_RECEIVE_HASH_PARAMETERS structure
+    members.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569635">OID_GEN_RECEIVE_HASH</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569635">OID_GEN_RECEIVE_HASH</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+
+
 
  
 

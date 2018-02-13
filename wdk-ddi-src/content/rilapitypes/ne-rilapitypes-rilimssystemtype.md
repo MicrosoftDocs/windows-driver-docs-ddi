@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1f5dde2-8e45-4904-bbf3-bd2358f95a5b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILIMSSYSTEMTYPE, rilapitypes/RIL_IMSSYSTEMTYPE_WIFI, netvista.rilimssystemtype, rilapitypes/RIL_IMSSYSTEMTYPE_LTE, rilapitypes/RIL_IMSSYSTEMTYPE_UNKNOWN, RILIMSSYSTEMTYPE, RILIMSSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_IMSSYSTEMTYPE_MAX, RIL_IMSSYSTEMTYPE_WIFI, RIL_IMSSYSTEMTYPE_LTE, RIL_IMSSYSTEMTYPE_UNKNOWN, RIL_IMSSYSTEMTYPE_MAX
+ms.keywords: RIL_IMSSYSTEMTYPE_MAX, rilapitypes/RIL_IMSSYSTEMTYPE_MAX, RIL_IMSSYSTEMTYPE_LTE, RIL_IMSSYSTEMTYPE_UNKNOWN, RIL_IMSSYSTEMTYPE_WIFI, RILIMSSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], RILIMSSYSTEMTYPE, rilapitypes/RIL_IMSSYSTEMTYPE_WIFI, rilapitypes/RIL_IMSSYSTEMTYPE_UNKNOWN, rilapitypes/RIL_IMSSYSTEMTYPE_LTE, netvista.rilimssystemtype, rilapitypes/RILIMSSYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,22 +77,20 @@ enum RILIMSSYSTEMTYPE {
 ### -field RIL_IMSSYSTEMTYPE_UNKNOWN
 
 
-
 ### -field RIL_IMSSYSTEMTYPE_WIFI
-
 
 
 ### -field RIL_IMSSYSTEMTYPE_LTE
 
 
-
 ### -field RIL_IMSSYSTEMTYPE_MAX
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

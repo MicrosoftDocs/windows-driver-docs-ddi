@@ -7,7 +7,7 @@ old-location: audio\iadapterpnpmanagement.htm
 old-project: audio
 ms.assetid: A5EF8214-76D9-4F4E-A9FE-9374E0EDC9D2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iadapterpnpmanagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, IAdapterPnpManagement, portcls/IAdapterPnpManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices

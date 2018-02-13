@@ -99,12 +99,14 @@ Sets a property or retrieves property information.
 ## -remarks
 
 
+
 Minidrivers typically acquire the <b>IKsControl</b> interface through a call to <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a> or <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>. Because this is a COM-style interface, the function call to obtain this interface calls the <b>QueryInterface</b> method, which in turn calls the <b>AddRef</b> method. Therefore, the minidriver does not have to perform these steps.
 
 However, as soon as the client is finished with the <b>IKsControl</b> interface, it must release <b>IKsControl</b> with a call to the <b>Release</b> method.
     Minidrivers that are written in C manipulate the <b>IKsControl</b> interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. 
 
 A client that is written in C++ does the following:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -124,7 +126,9 @@ A client that is written in C++ does the following:
     }</pre>
 </td>
 </tr>
-</table></span></div>However, a client that is written in C uses this code instead:
+</table></span></div>
+However, a client that is written in C uses this code instead:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -144,17 +148,25 @@ A client that is written in C++ does the following:
     }</pre>
 </td>
 </tr>
-</table></span></div>For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+</table></span></div>
+For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl (Kernel Streaming Proxy)</a>
+
+
+
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+
+
 
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl (Kernel Streaming Proxy)</a>
+
 
  
 

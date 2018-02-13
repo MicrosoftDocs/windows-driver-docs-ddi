@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateAllocator2 function [Streaming Media Devices], KsCreateAllocator2, ks/KsCreateAllocator2, stream.kscreateallocator2
+ms.keywords: KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], ks/KsCreateAllocator2, stream.kscreateallocator2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,24 +89,34 @@ Specifies the pointer to a handle to store the allocator handle.
 ## -returns
 
 
+
 Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 This is a new version of the <a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+<a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
+
+
 
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
-<a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
 
  
 

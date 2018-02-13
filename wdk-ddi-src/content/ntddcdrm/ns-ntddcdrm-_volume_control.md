@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PVOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices], ntddcdrm/VOLUME_CONTROL, PVOLUME_CONTROL, storage.volume_control, structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, VOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], _VOLUME_CONTROL"
+ms.keywords: ntddcdrm/PVOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, storage.volume_control, *PVOLUME_CONTROL, VOLUME_CONTROL, structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, PVOLUME_CONTROL structure pointer [Storage Devices], PVOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices], _VOLUME_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VOLUME_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: VOLUME_CONTROL, *PVOLUME_CONTROL
+req.typenames: "*PVOLUME_CONTROL, VOLUME_CONTROL"
 ---
 
 # _VOLUME_CONTROL structure
@@ -75,6 +75,8 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 ## -see-also
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_volume.md">IOCTL_CDROM_GET_VOLUME</a>
+
+
 
  
 

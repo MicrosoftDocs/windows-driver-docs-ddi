@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c3cdb5c9-b43d-443b-8d04-d30eb74f39da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaudbgtrace, wiautil/wiauDbgTrace, wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiauDbgTrace, wiauDbgTrace function [Imaging Devices]
+ms.keywords: wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiauDbgTrace function [Imaging Devices], image.wiaudbgtrace, wiauDbgTrace, wiautil/wiauDbgTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the trace message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
@@ -93,7 +94,9 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
@@ -101,11 +104,19 @@ None
 
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+
 
  
 

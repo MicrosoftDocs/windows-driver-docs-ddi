@@ -7,8 +7,8 @@ old-location: ifsk\rtlgenerate8dot3name.htm
 old-project: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlGenerate8dot3Name, ifsk.rtlgenerate8dot3name, RtlGenerate8dot3Name routine [Installable File System Drivers], rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml, ntifs/RtlGenerate8dot3Name
+ms.date: 2/7/2018
+ms.keywords: RtlGenerate8dot3Name routine [Installable File System Drivers], RtlGenerate8dot3Name, ntifs/RtlGenerate8dot3Name, ifsk.rtlgenerate8dot3name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,14 @@ Pointer to a caller-allocated buffer to receive the generated short file name. T
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>RtlGenerate8dot3Name</b> returns a generated short name with at most eight characters, followed immediately by a period and up to three more characters. 
@@ -109,6 +112,7 @@ Two calls to <b>RtlGenerate8dot3Name</b> with the same <i>Name</i> and <i>Contex
 <b>RtlGenerate8dot3Name</b> translates the given long name using the current system code page, discarding any invalid or superfluous characters in the input long name. When <i>AllowExtendedCharacters</i> is set to <b>TRUE</b>, ANSI or double-byte character set (DBCS) characters that map to uppercase OEM characters can become part of a returned short name. 
 
 <b>RtlGenerate8dot3Name</b> returns a short file name with uppercase alphabetic characters. It returns underscores in the generated short name for any of the following characters that it encounters in the given long name:
+
 <ul>
 <li>
 Colons and semicolons 
@@ -126,21 +130,29 @@ Plus and equal signs
 Square brackets 
 
 </li>
-</ul>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+</ul>
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
 
-<a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGenerate8dot3Name routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGenerate8dot3Name routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

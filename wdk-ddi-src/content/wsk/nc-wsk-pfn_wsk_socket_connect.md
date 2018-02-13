@@ -40,7 +40,7 @@ apiname:
 -	WskSocketConnect
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -102,9 +102,6 @@ The type of the socket that is being created. The following socket types are sup
 
 
 
-For more information about the socket types that are supported for each supported address family, see
-     
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
 #### SOCK_STREAM
@@ -112,14 +109,20 @@ For more information about the socket types that are supported for each supporte
 Supports reliable connection-oriented byte stream communication.
 
 
+
 #### SOCK_DGRAM
 
 Supports unreliable connectionless datagram communication.
 
 
+
 #### SOCK_RAW
 
 Supports raw access to the transport protocol.
+
+For more information about the socket types that are supported for each supported address family, see
+     
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 
 ### -param Protocol [in]
@@ -212,7 +215,9 @@ A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the 
 ## -returns
 
 
+
 <b>WskSocketConnect</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -253,11 +258,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the IRP is completed with success status, the 
@@ -302,28 +310,49 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
+
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
+
+
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
 
  
 

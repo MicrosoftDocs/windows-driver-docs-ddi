@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIrqPriorityHigh, WDF_INTERRUPT_PRIORITY enumeration, _WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityHigh, WdfIrqPriorityUndefined, wudfinterrupt/WdfIrqPriorityNormal, PWDF_INTERRUPT_PRIORITY enumeration pointer, wudfinterrupt/WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityLow, wudfinterrupt/WdfIrqPriorityUndefined, WdfIrqPriorityLow, wdf.wdf_interrupt_priority_umdf, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, umdf.wdf_interrupt_priority, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, WDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY
+ms.keywords: wdf.wdf_interrupt_priority_umdf, _WDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityNormal, PWDF_INTERRUPT_PRIORITY enumeration pointer, WDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, WdfIrqPriorityHigh, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityUndefined, wudfinterrupt/WdfIrqPriorityHigh, WdfIrqPriorityLow, umdf.wdf_interrupt_priority, wudfinterrupt/WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY enumeration, *PWDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -97,13 +97,17 @@ The device's interrupt has a relatively high priority, typically because the int
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
+
+
 
  
 

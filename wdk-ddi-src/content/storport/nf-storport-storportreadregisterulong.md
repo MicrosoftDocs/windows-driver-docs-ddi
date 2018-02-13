@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterUlong
-title: StorPortReadRegisterUlong function
+title: StorPortReadRegisterUlong macro
 author: windows-driver-content
 description: The StorPortReadRegisterUlong routine reads a value from a specified register address.
 old-location: storage\storportreadregisterulong.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: 308e6401-9726-4333-bde8-1aec9558c5fb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReadRegisterUlong, StorPortReadRegisterUlong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml, StorPortReadRegisterUlong routine [Storage Devices], storage.storportreadregisterulong
+ms.keywords: storage.storportreadregisterulong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml, storport/StorPortReadRegisterUlong, StorPortReadRegisterUlong, StorPortReadRegisterUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortReadRegisterUlong function
+# StorPortReadRegisterUlong macro
 
 
 ## -description
@@ -70,35 +70,48 @@ STORPORT_API ULONG StorPortReadRegisterUlong(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
+
+TBD
+
+
+### -param r
+
+TBD
+
+
+
+
+
+
+#### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register where the data is to be read. 
 
 
-## -returns
-
-
-<b>StorPortReadRegisterUlong</b> returns an unsigned character of data read from the indicated register address. 
-
-
-
 ## -remarks
+
 
 
 For more information, see <a href="..\srb\nf-srb-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>
+
+
 
 <a href="..\srb\nf-srb-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>
 
-<a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>
+
 
  
 

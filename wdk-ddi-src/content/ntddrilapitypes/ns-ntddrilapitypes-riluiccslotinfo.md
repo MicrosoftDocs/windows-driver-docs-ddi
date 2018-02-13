@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f8ed150-b378-49c3-955c-a1e69ab8c1a9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], RILUICCSLOTINFO, netvista.riluiccslotinfo, ntddrilapitypes/RILUICCSLOTINFO"
+ms.keywords: RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfo, *LPRILUICCSLOTINFO, ntddrilapitypes/RILUICCSLOTINFO, RILUICCSLOTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCSLOTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO"
+req.typenames: RILUICCSLOTINFO, *LPRILUICCSLOTINFO
 ---
 
 # RILUICCSLOTINFO structure
@@ -73,15 +73,11 @@ typedef struct _RILUICCSLOTINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwNumOfUiccSlots
 
 
-
 ### -field dwSlotState
-
 

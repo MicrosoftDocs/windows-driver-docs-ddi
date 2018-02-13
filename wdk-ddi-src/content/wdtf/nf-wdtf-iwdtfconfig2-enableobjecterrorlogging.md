@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 10e7abc9-addd-4f0e-b77b-af9e8e1fa061
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFCONFIG2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, IWDTFCONFIG2, dtf.iwdtfconfig2_enableobjecterrorlogging, wdtf/IWDTFCONFIG2::EnableObjectErrorLogging, EnableObjectErrorLogging, IWDTFCONFIG2::EnableObjectErrorLogging, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method
+ms.keywords: EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, IWDTFCONFIG2::EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFCONFIG2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectErrorLogging, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method, wdtf/IWDTFCONFIG2::EnableObjectErrorLogging, IWDTFCONFIG2, EnableObjectErrorLogging, dtf.iwdtfconfig2_enableobjecterrorlogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,18 @@ HRESULT EnableObjectErrorLogging();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 If object logging is enabled, object error logging is enabled by default. Otherwise, error
@@ -82,9 +86,12 @@ logging defaults to disabled.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFCONFIG2</a>
+
+
 
  
 

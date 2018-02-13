@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0371aeb-fcc0-4749-b70e-26b05b4f12b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFWMIINSTANCEGETPROVIDER, DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, kmdf.wdfwmiinstancegetprovider, WdfWmiInstanceGetProvider method, wdfwmi/WdfWmiInstanceGetProvider, wdf.wdfwmiinstancegetprovider, WdfWmiInstanceGetProvider
+ms.keywords: DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, kmdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider, PFN_WDFWMIINSTANCEGETPROVIDER, wdf.wdfwmiinstancegetprovider, WdfWmiInstanceGetProvider method, WdfWmiInstanceGetProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A handle to a WMI instance object that the driver obtained from a previous call 
 ## -returns
 
 
+
 <b>WdfWmiInstanceGetProvider</b> returns a handle to a WMI provider object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,9 +88,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
 
  
 

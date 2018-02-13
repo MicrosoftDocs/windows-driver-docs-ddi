@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_createdevice, *INOUT_PDXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, DXGKARG_CREATEDEVICE, d3dkmddi/DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices], _DXGKARG_CREATEDEVICE
+ms.keywords: DXGKARG_CREATEDEVICE, _DXGKARG_CREATEDEVICE, *INOUT_PDXGKARG_CREATEDEVICE, display.dxgkarg_createdevice, d3dkmddi/DXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, DXGKARG_CREATEDEVICE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,13 @@ typedef struct _DXGKARG_CREATEDEVICE {
 
 
 
+### -field hDevice
+
+A handle to the graphics context device. On input to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function, <b>hDevice</b> specifies the handle that the driver should use when it calls back into the Microsoft DirectX graphics kernel subsystem. 
+
+The driver generates a unique handle and passes it back to the DirectX graphics subsystem. On output from the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function, <b>hDevice</b> specifies the handle that the DirectX graphics subsystem should use in subsequent driver calls to identify the device.
+
+
 ### -field Flags
 
  A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a> structure that identifies how to create the device.
@@ -83,13 +90,6 @@ typedef struct _DXGKARG_CREATEDEVICE {
 ### -field pInfo
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a> structure that contains parameters that the DirectX graphics subsystem requires from the display miniport driver.
-
-
-### -field hDevice
-
-A handle to the graphics context device. On input to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function, <b>hDevice</b> specifies the handle that the driver should use when it calls back into the Microsoft DirectX graphics kernel subsystem. 
-
-The driver generates a unique handle and passes it back to the DirectX graphics subsystem. On output from the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function, <b>hDevice</b> specifies the handle that the DirectX graphics subsystem should use in subsequent driver calls to identify the device.
 
 
 ### -field Pasid
@@ -110,9 +110,15 @@ Supported starting with Windows 10.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+
+
 
  
 

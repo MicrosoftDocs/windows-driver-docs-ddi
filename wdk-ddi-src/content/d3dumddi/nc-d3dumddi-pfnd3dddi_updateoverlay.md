@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY UpdateOverlay(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updateoverlay.md">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY UpdateOverlay(
 ## -returns
 
 
+
 <i>UpdateOverlay</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,14 +156,18 @@ The overlay hardware is not supported for the specified size and display mode.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Overlays are independent from the resources that are displayed by using the overlays.
+
 
 
 
@@ -167,7 +175,11 @@ Overlays are independent from the resources that are displayed by using the over
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updateoverlay.md">D3DDDIARG_UPDATEOVERLAY</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

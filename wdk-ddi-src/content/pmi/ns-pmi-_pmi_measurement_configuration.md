@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PPMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, _PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration"
+ms.keywords: PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], *PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, PPMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration, _PMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_MEASUREMENT_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: PMI_MEASUREMENT_CONFIGURATION, *PPMI_MEASUREMENT_CONFIGURATION
+req.typenames: "*PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION"
 ---
 
 # _PMI_MEASUREMENT_CONFIGURATION structure
@@ -75,17 +75,27 @@ A value, in units of milliseconds (mS), that specifies the interval during which
 ## -remarks
 
 
+
 The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement parameters that the power meter uses when it monitors the power that is consumed by the system from a power supply. The <b>AverageInterval</b> member specifies the time interval over which the power meter averages the power measurement data it collects from a power supply.
-<div class="alert"><b>Note</b>  The <b>AverageInterval</b> member must have a value between the values of the <b>MinimumAverageInterval</b> and <b>MaximumAverageInterval</b> members of the <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure. This structure is returned in the <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure of an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>AverageInterval</b> member must have a value between the values of the <b>MinimumAverageInterval</b> and <b>MaximumAverageInterval</b> members of the <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure. This structure is returned in the <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a> structure of an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
+
+
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
+
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+
 
  
 

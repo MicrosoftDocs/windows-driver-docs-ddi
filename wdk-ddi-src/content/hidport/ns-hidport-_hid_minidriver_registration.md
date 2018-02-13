@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 75c0f546-1a58-45e8-a3eb-3075f07c426b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidport/PHID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, hid.hid_minidriver_registration, HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], *PHID_MINIDRIVER_REGISTRATION, hidport/HID_MINIDRIVER_REGISTRATION, _HID_MINIDRIVER_REGISTRATION
+ms.keywords: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, _HID_MINIDRIVER_REGISTRATION, hidport/HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], hid.hid_minidriver_registration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HID_MINIDRIVER_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # _HID_MINIDRIVER_REGISTRATION structure
@@ -105,7 +105,9 @@ Reserved for internal system use.
 ## -remarks
 
 
+
 When a HID minidriver calls <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>, it uses this structure to pass information to the HID class driver. The minidriver must must zero-initialize this structure before setting members. A minidriver sets the members <b>DriverObject</b> and <b>RegistryPath</b> to the driver object and registry path parameters that are passed to the minidriver as system-supplied parameters to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. <b>Revision</b> should be set to HID_REVISION.
+
 
 
 
@@ -113,7 +115,11 @@ When a HID minidriver calls <a href="..\hidport\nf-hidport-hidregisterminidriver
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+
+
 <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
+
+
 
  
 

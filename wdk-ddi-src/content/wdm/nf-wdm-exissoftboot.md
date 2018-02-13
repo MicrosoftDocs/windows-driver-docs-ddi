@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff67bc75-b424-4278-b979-f67d118232aa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExIsSoftBoot, kernel.exissoftboot, ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture]
+ms.keywords: ExIsSoftBoot, wdm/ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture], kernel.exissoftboot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,9 +69,12 @@ Determines whether the system has gone through a soft restart.
 
 
 
+
 ## -returns
 
 
+
 TRUE indicates a soft restart; FALSE otherwise.
+
 
 

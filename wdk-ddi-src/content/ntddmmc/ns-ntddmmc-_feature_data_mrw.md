@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af0c8c50-c5a0-4395-a608-fced6ac3cfe5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PFEATURE_DATA_MRW, FEATURE_DATA_MRW structure [Storage Devices], PFEATURE_DATA_MRW, _FEATURE_DATA_MRW, PFEATURE_DATA_MRW structure pointer [Storage Devices], structs-CD-ROM_54208a52-0bc2-4e97-a3b1-4d57f5192ce4.xml, FEATURE_DATA_MRW, storage.feature_data_mrw, ntddmmc/PFEATURE_DATA_MRW, ntddmmc/FEATURE_DATA_MRW"
+ms.keywords: storage.feature_data_mrw, ntddmmc/FEATURE_DATA_MRW, PFEATURE_DATA_MRW, PFEATURE_DATA_MRW structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_MRW, structs-CD-ROM_54208a52-0bc2-4e97-a3b1-4d57f5192ce4.xml, FEATURE_DATA_MRW, *PFEATURE_DATA_MRW, FEATURE_DATA_MRW structure [Storage Devices], _FEATURE_DATA_MRW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_MRW
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_MRW, FEATURE_DATA_MRW"
+req.typenames: FEATURE_DATA_MRW, *PFEATURE_DATA_MRW
 ---
 
 # _FEATURE_DATA_MRW structure
@@ -85,13 +85,10 @@ Indicates, if set to 1, that the device can format discs using the MRW format an
 ### -field DvdPlusRead
 
 
-
 ### -field DvdPlusWrite
 
 
-
 ### -field Reserved01
-
 
 
 ### -field Reserved2
@@ -101,9 +98,13 @@ Reserved.
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

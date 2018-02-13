@@ -7,8 +7,8 @@ old-location: ifsk\fsrtllookupperstreamcontextinternal.htm
 old-project: ifsk
 ms.assetid: 672fc668-452b-4f37-9526-88bedb4a1ef9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtllookupperstreamcontextinternal, ntifs/FsRtlLookupPerStreamContextInternal, FsRtlLookupPerStreamContextInternal function [Installable File System Drivers], FsRtlLookupPerStreamContextInternal, fsrtlref_872d7113-0cde-4ac9-a504-fedca6aa51e7.xml
+ms.date: 2/7/2018
+ms.keywords: ifsk.fsrtllookupperstreamcontextinternal, fsrtlref_872d7113-0cde-4ac9-a504-fedca6aa51e7.xml, FsRtlLookupPerStreamContextInternal function [Installable File System Drivers], ntifs/FsRtlLookupPerStreamContextInternal, FsRtlLookupPerStreamContextInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

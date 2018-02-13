@@ -90,7 +90,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 ### -param NDK_SGE
 
 
-
 ### -param nSge [in]
 
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
@@ -106,8 +105,10 @@ An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>)
 ## -returns
 
 
+
 The 
      <i>NdkReceive</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,26 +136,38 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkReceive</i> posts a receive request on a queue pair (QP).
+
 
 
 
 ## -see-also
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
 
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
  
 

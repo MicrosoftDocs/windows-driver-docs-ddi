@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 42d01b63-ca3b-4348-bf50-a1d648548266
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10ddiarg_stream_output_declaration_entry, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, UMDisplayDriver_Dx10param_Structs_bdfafade-cf99-4cbb-9ae1-d1bd57997dac.xml, d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices]
+ms.keywords: d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d10ddiarg_stream_output_declaration_entry, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bdfafade-cf99-4cbb-9ae1-d1bd57997dac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ typedef struct D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY {
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_creategeometryshaderwithstreamoutput.md">D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT</a>
+
+
 
  
 

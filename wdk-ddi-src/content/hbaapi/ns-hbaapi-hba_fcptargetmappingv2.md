@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2c241a38-c6b6-4c77-a8ba-be7ba2a8a701
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml, PHBA_FCPTARGETMAPPINGV2, hbaapi/PHBA_FCPTARGETMAPPINGV2, hbaapi/HBA_FCPTargetMappingV2, HBA_FCPTARGETMAPPINGV2, HBA_FCPTargetMappingV2 structure [Storage Devices], PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], *PHBA_FCPTARGETMAPPINGV2, HBA_FCPTargetMappingV2, HBA_FCPTARGETMAPPINGV2 structure [Storage Devices], storage.hba_fcptargetmappingv2
+ms.keywords: HBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2 structure [Storage Devices], HBA_FCPTargetMappingV2 structure [Storage Devices], hbaapi/PHBA_FCPTARGETMAPPINGV2, hbaapi/HBA_FCPTargetMappingV2, structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml, HBA_FCPTargetMappingV2, PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], PHBA_FCPTARGETMAPPINGV2, storage.hba_fcptargetmappingv2, *PHBA_FCPTARGETMAPPINGV2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ Contains a variable length array of structures of type <a href="..\hbaapi\ns-hba
 ## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_getfcptargetmappingv2.md">HBA_GetFcpTargetMappingV2</a>
+
+
 
  
 

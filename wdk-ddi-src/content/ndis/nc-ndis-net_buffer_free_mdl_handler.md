@@ -40,7 +40,7 @@ apiname:
 -	NetFreeMdl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # NET_BUFFER_FREE_MDL_HANDLER callback
@@ -80,11 +80,14 @@ A pointer to the MDL that is to be freed.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the NDIS driver specifies an entry point for the 
@@ -106,12 +109,17 @@ NDIS calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
 
+
+
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+
 
  
 

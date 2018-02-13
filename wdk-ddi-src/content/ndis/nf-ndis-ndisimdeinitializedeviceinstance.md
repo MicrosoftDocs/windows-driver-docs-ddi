@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], netvista.ndisimdeinitializedeviceinstance
+ms.keywords: NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], ndis/NdisIMDeInitializeDeviceInstance, intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, netvista.ndisimdeinitializedeviceinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIMDeInitializeDeviceInstance
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIMDeInitializeDeviceInstance function
@@ -81,13 +81,16 @@ The handle that NDIS supplied to the
 ## -returns
 
 
+
 <b>NdisIMDeInitializeDeviceInstance</b> returns NDIS_STATUS_SUCCESS if the NIC has been torn down.
      Otherwise, it can return NDIS_STATUS_FAILURE if the given 
      <i>NdisMiniportHandle</i> is invalid.
 
 
 
+
 ## -remarks
+
 
 
 For NDIS intermediate drivers, 
@@ -107,14 +110,21 @@ The call to
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
    NdisIMInitializeDeviceInstanceEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
  
 

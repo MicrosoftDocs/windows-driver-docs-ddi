@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c750d3de-8481-42d5-a290-00e49d5fe82b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/WriteIoSpace64, WriteIoSpace64, debugger.writeiospace64, WriteIoSpace64 function [Windows Debugging], WdbgExts_Ref_81d45454-9dd4-46f1-823b-1a2345890106.xml
+ms.keywords: WriteIoSpace64, WdbgExts_Ref_81d45454-9dd4-46f1-823b-1a2345890106.xml, wdbgexts/WriteIoSpace64, WriteIoSpace64 function [Windows Debugging], debugger.writeiospace64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,15 +88,19 @@ Specifies the address of a variable that contains the number of bytes to write. 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 32-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-writeiospace.md">WriteIoSpace</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

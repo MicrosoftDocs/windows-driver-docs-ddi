@@ -7,8 +7,8 @@ old-location: buses\_hub_info_from_parent.htm
 old-project: usbref
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses._hub_info_from_parent, P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], *PHUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT
+ms.date: 2/8/2018
+ms.keywords: "_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], buses._hub_info_from_parent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HUB_INFO_FROM_PARENT
 product: Windows
 targetos: Windows
-req.typenames: "*PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT"
+req.typenames: HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT
 req.product: Windows 10 or later.
 ---
 

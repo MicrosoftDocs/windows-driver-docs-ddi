@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AppendTailList routine [Kernel-Mode Driver Architecture], AppendTailList, wdm/AppendTailList, kernel.appendtaillist
+ms.keywords: wdm/AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, AppendTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to the first entry in the list to append to the list pointed to by <i>
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine constructs a list that contains all the combined entries from the input <i>ListHead</i> and <i>ListToAppend</i> lists. When the routine returns, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure pointed to by the <i>ListHead</i> parameter is the head of the resulting combined list. The <b>LIST_ENTRY</b> structure pointed to by the <i>ListToAppend</i> parameter is an entry in the resulting combined list.
@@ -102,16 +105,57 @@ For information about using this routine when implementing a doubly linked list,
 Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailList</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the list entries must be memory-resident.
 
 
+#### Examples
+
+The following code example shows how to write a function named <code>MyAppendTailList</code> that is similar to <b>AppendTailList</b>, but that treats the <i>ListToAppend</i> parameter as a pointer to a list head instead of as a pointer to the first entry in a (headless) list. Unlike <b>AppendTailList</b>, the <code>MyAppendTailList</code> function avoids including the <b>LIST_ENTRY</b> structure pointed to by the <i>ListToAppend</i> parameter in the entries that are appended to the list pointed to by the <i>ListHead</i> parameter.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID MyAppendTailList(
+    _Inout_  PLIST_ENTRY ListHead,
+    _Inout_  PLIST_ENTRY ListToAppend
+    )
+{
+    PLIST_ENTRY entry = ListToAppend-&gt;Flink;
+
+    if (!IsListEmpty(ListToAppend))
+    {
+        RemoveEntryList(ListToAppend);
+        InitializeListHead(ListToAppend);
+        AppendTailList(ListHead, entry);
+    }
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+The <code>MyAppendTailList</code> function in this code example treats both the <i>ListHead</i> and <i>ListToAppend</i> parameters as pointers to list heads. When this function returns, the list pointed to by <i>ListToAppend</i> is empty; that is, it consists of a list head that has no associated list entries. All of the entries that were initially in this list have been appended to the list pointed to by <i>ListHead</i>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+
+
+
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
  
 

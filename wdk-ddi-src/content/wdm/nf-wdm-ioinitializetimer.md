@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f2b0f74d-7417-443e-96ec-5101b1289f9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, kernel.ioinitializetimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], wdm/IoInitializeTimer, IoInitializeTimer
+ms.keywords: wdm/IoInitializeTimer, IoInitializeTimer, k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, IoInitializeTimer routine [Kernel-Mode Driver Architecture], kernel.ioinitializetimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,16 +88,19 @@ Pointer to the driver-determined context with which its <i>IoTimer</i> routine w
 ## -returns
 
 
+
 <b>IoInitializeTimer</b> returns STATUS_SUCCESS if the <i>IoTimer</i> routine is set up.
+
 
 
 
 ## -remarks
 
 
+
 <b>IoInitializeTimer</b> should be called only once per device object.
 
-A driver's <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second after the driver enables the timer by calling <a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>. The driver can disable the timer by calling <a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a> and can reenable it again with <b>IoStartTimer</b>.
+A driver's <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second after the driver enables the timer by calling <a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>. The driver can disable the timer by calling <a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a> and can reenable it again with <b>IoStartTimer</b>.
 
 The driver's <i>IoTimer</i> routine is called at IRQL = DISPATCH_LEVEL and therefore must not contain pageable code.
 
@@ -105,17 +108,28 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-
-<a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>
-
-<a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
+
+
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+
+
+
 <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
+
+
 
  
 

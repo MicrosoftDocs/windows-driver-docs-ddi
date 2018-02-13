@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ad7a253-cc55-4613-8086-b8d08d9bd54f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAACS_VOLUME_ID, _AACS_VOLUME_ID, *PAACS_VOLUME_ID, structs-DVD_f65fe36a-a9a4-4540-a349-2ac9827b5a91.xml, AACS_VOLUME_ID, PAACS_VOLUME_ID structure pointer [Storage Devices], AACS_VOLUME_ID structure [Storage Devices], ntddcdvd/AACS_VOLUME_ID, ntddcdvd/PAACS_VOLUME_ID, storage.aacs_volume_id
+ms.keywords: AACS_VOLUME_ID structure [Storage Devices], PAACS_VOLUME_ID, ntddcdvd/AACS_VOLUME_ID, structs-DVD_f65fe36a-a9a4-4540-a349-2ac9827b5a91.xml, storage.aacs_volume_id, AACS_VOLUME_ID, _AACS_VOLUME_ID, ntddcdvd/PAACS_VOLUME_ID, *PAACS_VOLUME_ID, PAACS_VOLUME_ID structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AACS_VOLUME_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PAACS_VOLUME_ID, AACS_VOLUME_ID"
+req.typenames: AACS_VOLUME_ID, *PAACS_VOLUME_ID
 ---
 
 # _AACS_VOLUME_ID structure
@@ -81,13 +81,17 @@ The message authentication code (MAC) that the client uses to verify that the vo
 ## -remarks
 
 
+
 Clients retrieve an AACS volume ID with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_volume_id.md">IOCTL_AACS_READ_VOLUME_ID</a> request.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_volume_id.md">IOCTL_AACS_READ_VOLUME_ID</a>
+
+
 
  
 

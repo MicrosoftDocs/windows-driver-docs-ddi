@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 12261b88-681e-4623-b5af-abaae756e3e1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByNameWide method, RemoveSymbolByNameWide, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, debugger.removesymbolbynamewide, IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, RemoveSymbolByNameWide method [Windows Debugging]
+ms.keywords: RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, debugger.removesymbolbynamewide, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByNameWide method, IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ The name of the symbol to remove from the symbol group.
 ## -returns
 
 
+
 <b>RemoveSymbolByNameWide</b> might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,13 +94,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 When a symbol is removed, the indexes of the symbols that remain in the symbol group might change.
@@ -107,15 +112,24 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+
+
 
  
 

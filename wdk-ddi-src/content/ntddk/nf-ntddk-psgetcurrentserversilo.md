@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetCurrentServerSilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentserversilo, ntddk/PsGetCurrentServerSilo
+ms.keywords: ntddk/PsGetCurrentServerSilo, kernel.psgetcurrentserversilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], PsGetCurrentServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetCurrentServerSilo
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetCurrentServerSilo function
@@ -66,9 +66,12 @@ PESILO PsGetCurrentServerSilo(void);
 
 
 
+
 ## -returns
 
 
+
 A pointer to the current server silo.  This pointer is valid for the current thread, but must be referenced before transferring to another thread (for example, via a workitem).
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 231318AA-9112-41E2-9E7A-FEC64E5FB30A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_DISCOVER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_discover_request, _DOT11_WFD_DISCOVER_REQUEST, *PDOT11_WFD_DISCOVER_REQUEST, windot11/PDOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST, PDOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST structure [Network Drivers Starting with Windows Vista], windot11/ DOT11_WFD_DISCOVER_REQUEST
+ms.keywords: DOT11_WFD_DISCOVER_REQUEST, windot11/ DOT11_WFD_DISCOVER_REQUEST, _DOT11_WFD_DISCOVER_REQUEST, PDOT11_WFD_DISCOVER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_REQUEST, netvista._dot11_wfd_discover_request, DOT11_WFD_DISCOVER_REQUEST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DISCOVER_REQUEST, *PDOT11_WFD_DISCOVER_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DISCOVER_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_DISCOVER_REQUEST, *PDOT11_WFD_DISCOVER_REQUEST
+req.typenames: "*PDOT11_WFD_DISCOVER_REQUEST, DOT11_WFD_DISCOVER_REQUEST"
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -96,15 +94,20 @@ For more information about these members, see
 This member must be set to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.
 
 
+
 #### Revision
 
 This member must be set to <b>DOT11_WFD_DISCOVER_REQUEST_REVISION_1</b>.
+
 
 
 #### Size
 
 This member must be set to 
        <b>sizeof</b>(<b>DOT11_SIZEOF_WFD_DISCOVER_REQUEST_REVISION_1</b>).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field DiscoverType
@@ -154,21 +157,31 @@ When TRUE, the Wi-Fi Direct device must also attempt to discover legacy networks
 ## -remarks
 
 
+
 Each entry in the device identifier list at <b>uDeviceFilterListOffset</b> is formatted as a <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> structure. When a non-broadcast MAC address is specified in this list, the driver must use this address in the Device ID attribute of the P2P IEs probe requests it transmits
 
 The IEs present at <b>uIEsOffset</b>, for the duration of the device discovery, will temporarily replace IEs found at <b>DefaultRequestIEs</b> in input structure of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451790">OID_DOT11_WFD_ADDITIONAL_IE</a> request.
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="..\windot11\ne-windot11-_dot11_wfd_scan_type.md">DOT11_WFD_SCAN_TYPE</a>
 
+
+
 <a href="..\windot11\ne-windot11-_dot11_wfd_discover_type.md">DOT11_WFD_DISCOVER_TYPE</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+
+
 
  
 

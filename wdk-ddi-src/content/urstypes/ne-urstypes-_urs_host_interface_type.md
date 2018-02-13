@@ -7,8 +7,8 @@ old-location: buses\urs_host_interface_type.htm
 old-project: usbref
 ms.assetid: E019CCED-3511-4B7B-B6C9-09FF31B0547A
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: URS_HOST_INTERFACE_TYPE enumeration [Buses], buses.urs_host_interface_type, URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci, urstypes/URS_HOST_INTERFACE_TYPE, _URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeXhci, UrsHostInterfaceTypeEhci
+ms.date: 2/8/2018
+ms.keywords: urstypes/URS_HOST_INTERFACE_TYPE, URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeEhci, urstypes/UrsHostInterfaceTypeXhci, buses.urs_host_interface_type, UrsHostInterfaceTypeXhci, urstypes/UrsHostInterfaceTypeOther, _URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

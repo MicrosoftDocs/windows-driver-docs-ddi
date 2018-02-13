@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 5a5acd4a-ad99-4b8c-b8ea-490a7b467e14
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, PHY_CONFIGURATION_PACKET structure [Buses], _PHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], IEEE.phy_configuration_packet, 1394/PPHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET
+ms.keywords: PPHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], _PHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, IEEE.phy_configuration_packet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,13 +117,17 @@ Specifies the logical inverse of the first quadlet of the packet.
 ## -remarks
 
 
+
 For an explanation of the function of the PHY configuration packet, see the IEEE 1394 specification.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537661">REQUEST_SEND_PHY_CONFIG_PACKET</a>
+
+
 
  
 

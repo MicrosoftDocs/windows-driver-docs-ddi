@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTQueryProtectedSessionInfoFromNtHandle(
 
 
 
+
 #### - D3dkmt_queryprotectedsessioninfofromnthandle
 
 Holds session information from the NT handle.
@@ -79,6 +80,8 @@ Holds session information from the NT handle.
 
 
 
+
 Returns STATUS_SUCCESS when completed successfully.
+
 
 

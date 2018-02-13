@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c411d9e-1064-4278-9870-0546891d4743
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PORT_AUTHENTICATION_PARAMETERS, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, PNDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, netvista.ndis_port_authentication_parameters
+ms.keywords: PNDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, netvista.ndis_port_authentication_parameters, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS, _NDIS_PORT_AUTHENTICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,18 @@ The control state of the port that the miniport adapter should use for send oper
 
 
 
+
 #### NdisPortControlStateUnknown
 
 The port's control state for send operations is unknown.
+
 
 
 #### NdisPortControlStateControlled
 
 The port is in a controlled state for send operations. That is, the port requires
        authorization.
+
 
 
 #### NdisPortControlStateUncontrolled
@@ -118,15 +121,18 @@ The control state of the port that the miniport adapter should use for receive o
 
 
 
+
 #### NdisPortControlStateUnknown
 
 The port's control state for receive operations is unknown.
+
 
 
 #### NdisPortControlStateControlled
 
 The port is in a controlled state for receive operations. That is, the port requires
        authorization.
+
 
 
 #### NdisPortControlStateUncontrolled
@@ -148,9 +154,11 @@ This member must contain one of the following values:
 
 
 
+
 #### NdisPortAuthorizationUnknown
 
 The port's authorization state for send operations is unknown.
+
 
 
 #### NdisPortAuthorized
@@ -158,9 +166,11 @@ The port's authorization state for send operations is unknown.
 The port is authorized for send operations.
 
 
+
 #### NdisPortUnauthorized
 
 The port is not authorized for send operations.
+
 
 
 #### NdisPortReauthorizing
@@ -181,9 +191,11 @@ This member must contain one of the following values:
 
 
 
+
 #### NdisPortAuthorizationUnknown
 
 The port's authorization state for receive operations is unknown.
+
 
 
 #### NdisPortAuthorized
@@ -191,9 +203,11 @@ The port's authorization state for receive operations is unknown.
 The port is authorized for receive operations.
 
 
+
 #### NdisPortUnauthorized
 
 The port is not authorized for receive operations.
+
 
 
 #### NdisPortReauthorizing
@@ -204,6 +218,7 @@ The port is re-authorizing for receive operations.
 ## -remarks
 
 
+
 The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
     OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a> OID requests to specify the current authentication state of
@@ -211,12 +226,17 @@ The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

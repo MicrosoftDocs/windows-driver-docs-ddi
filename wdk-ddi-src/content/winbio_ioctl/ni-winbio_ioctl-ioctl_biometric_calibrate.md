@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_CALIBRATE
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -88,14 +88,18 @@ The vendor-supplied driver can optionally return a DWORD-sized buffer that speci
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,7 @@ The vendor-supplied driver can optionally return a DWORD-sized buffer that speci
 Indicates whether the DeviceIoControl call to the driver completed and the OUT payload is valid.
 
 The <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -159,12 +164,15 @@ Any other failure that prevents the payload from being filled in.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of WINBIO_CALIBRATION_INFO with the status of the Biometric operation.
+
 
 

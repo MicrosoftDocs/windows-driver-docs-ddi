@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 75DC558F-801B-42ED-9282-127E86E78923
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_offload_network, PDOT11_OFFLOAD_NETWORK, *PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], DOT11_OFFLOAD_NETWORK, PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_OFFLOAD_NETWORK, windot11/DOT11_OFFLOAD_NETWORK
+ms.keywords: "*PDOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network, PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_OFFLOAD_NETWORK, PDOT11_OFFLOAD_NETWORK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,7 @@ Wireless LAN authentication algorithm.
 ### -field Dot11ChannelHints
 
  
+
 
 
 

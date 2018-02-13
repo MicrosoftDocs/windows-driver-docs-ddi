@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1e72578c-9359-4275-a4f2-2b5ae4dbf2b7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartProcessServerWide, debugger.startprocessserverwide, IDebugClient5, IDebugClient5::StartProcessServerWide, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, StartProcessServerWide method [Windows Debugging], StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::StartProcessServerWide
+ms.keywords: StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, IDebugClient5, StartProcessServerWide, StartProcessServerWide method [Windows Debugging], IDebugClient5::StartProcessServerWide, debugger.startprocessserverwide, dbgeng/IDebugClient5::StartProcessServerWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ Set to <b>NULL</b>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The process server that is started will be accessible by remote clients through the transport specified in the <i>Options</i> parameter.
@@ -119,17 +124,28 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
 
  
 

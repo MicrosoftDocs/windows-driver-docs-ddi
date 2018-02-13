@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIA_PATCH_CODES structure [Imaging Devices], wiadef/WIA_PATCH_CODES, image.wia_patch_codes, _WIA_PATCH_CODES, WIA_PATCH_CODES
+ms.keywords: wiadef/WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices], WIA_PATCH_CODES, image.wia_patch_codes, _WIA_PATCH_CODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,6 +100,8 @@ Placeholder for a sequence of <b>Count</b> contiguous <a href="..\wiadef\ns-wiad
 ## -remarks
 
 
+
 The header must be followed by a sequence of patch code information structures, one for each detected patch code, in the order the patch codes were found and decoded.
+
 
 

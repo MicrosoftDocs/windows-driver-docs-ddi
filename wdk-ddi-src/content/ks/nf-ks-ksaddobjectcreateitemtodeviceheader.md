@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, KsAddObjectCreateItemToDeviceHeader, ks/KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], stream.ksaddobjectcreateitemtodeviceheader
+ms.keywords: KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToDeviceHeader, stream.ksaddobjectcreateitemtodeviceheader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,6 +100,8 @@ Specifies the security descriptor. This must remain valid while the device objec
 ## -returns
 
 
+
 The <b>KsAddObjectCreateItemToDeviceHeader</b> function returns STATUS_SUCCESS if an empty create item slot was found and the item was added.If unsuccessful, it returns STATUS_ALLOTTED_SPACE_EXCEEDED.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0696ac6-d35e-402a-8cb5-d4f23b3b8072
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_DRIVER_CAPS, netvista.wwan_driver_caps, wwan/WWAN_DRIVER_CAPS, WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, *PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS
+ms.keywords: WWAN_DRIVER_CAPS, wwan/WWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS, _WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS, netvista.wwan_driver_caps, WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, wwan/PWWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,7 @@ This member is reserved for future use. Miniport drivers should set this member 
 
 
 
+
 #### WWAN_DRIVER_CAPS_NONE
 
 The miniport driver has no special capabilities.
@@ -99,6 +100,8 @@ The miniport driver has no special capabilities.
 ## -see-also
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_driver_caps.md">NDIS_WWAN_DRIVER_CAPS</a>
+
+
 
  
 

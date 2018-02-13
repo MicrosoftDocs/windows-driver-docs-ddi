@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 6d246ec3-47f1-46da-8ac4-f073f91c0d44
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddpar/PPARCLASS_NEGOTIATION_MASK, parports.parclass_negotiation_mask, PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], *PPARCLASS_NEGOTIATION_MASK, ntddpar/PARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml, _PARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK
+ms.keywords: PARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], _PARCLASS_NEGOTIATION_MASK, ntddpar/PARCLASS_NEGOTIATION_MASK, ntddpar/PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml, *PPARCLASS_NEGOTIATION_MASK, parports.parclass_negotiation_mask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,9 +81,11 @@ Specifies the write protocols.
 ## -remarks
 
 
+
 A client specifies a set of requested protocols by setting a bitwise OR of the constants that represent each protocol. The system-supplied bus driver for parallel ports selects the fastest protocol that it supports from among those specified by the client. 
 
 For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f-b6e4-5f7d20124a7c">Setting and Clearing a Communication Mode for a Parallel Device</a>.
+
 
 
 
@@ -91,13 +93,23 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
 
+
+
 <a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
+
 
 <a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
 
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
+
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+
+
 
  
 

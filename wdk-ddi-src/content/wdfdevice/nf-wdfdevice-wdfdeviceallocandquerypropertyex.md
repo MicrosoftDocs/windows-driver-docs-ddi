@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1C1AE0F6-2CAB-4983-B1A7-E6C8BA822754
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx, PFN_WDFDEVICEALLOCANDQUERYPROPERTYEX, WdfDeviceAllocAndQueryPropertyEx, WdfDeviceAllocAndQueryPropertyEx method
+ms.keywords: PFN_WDFDEVICEALLOCANDQUERYPROPERTYEX, WdfDeviceAllocAndQueryPropertyEx method, WdfDeviceAllocAndQueryPropertyEx, wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,9 @@ A pointer to a <b>DEVPROPTYPE</b> variable. If the method is successful, upon re
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceAllocAndQueryPropertyEx</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,7 +133,8 @@ The specified <i>DeviceProperty</i> value is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -139,7 +142,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 You can use <b>WdfDeviceAllocAndQueryPropertyEx</b> to retrieve any property that is exposed through the unified property model, whereas the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a> method only allows querying a subset of the unified property model.
@@ -150,11 +155,16 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 
 
+
 ## -see-also
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
+
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryproperty.md">WdfDeviceAllocAndQueryProperty</a>
+
 
  
 

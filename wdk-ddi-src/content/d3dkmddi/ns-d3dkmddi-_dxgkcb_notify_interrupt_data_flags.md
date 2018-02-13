@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 69554ec0-3d5e-4a53-8b45-2f821ddbfd3c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, DmStructs_bfff264e-44a2-458c-ab0d-c103d4b76f71.xml, d3dkmddi/DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, display.dxgkcb_notify_interrupt_data_flags
+ms.keywords: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, d3dkmddi/DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, DmStructs_bfff264e-44a2-458c-ab0d-c103d4b76f71.xml, display.dxgkcb_notify_interrupt_data_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,9 +98,13 @@ A member in the union that DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS contains that can 
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
 
  
 

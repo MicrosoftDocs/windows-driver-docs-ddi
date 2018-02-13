@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 088fd502-a209-4fec-bec0-9f47f61022ee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getdialedidsettings, RIL_GetDialedIdSettings, rilapi/RIL_GetDialedIdSettings
+ms.keywords: netvista.ril_getdialedidsettings, RIL_GetDialedIdSettings, rilapi/RIL_GetDialedIdSettings, RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,18 +75,17 @@ HRESULT  RIL_GetDialedIdSettings(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8cf95185-3935-4434-b9d5-c2a63a9f3eba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilresetmodemconfigparameter, RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX
+ms.keywords: RIL_RESETMODEMCONFIGPARAMETER_MAX, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RILRESETMODEMCONFIGPARAMETER, netvista.rilresetmodemconfigparameter, ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -70,7 +70,5 @@ typedef enum _RILRESETMODEMCONFIGPARAMETER {
 ### -field RIL_RESETMODEMCONFIGPARAMETER_IMSENABLEMENTSTATE
 
 
-
 ### -field RIL_RESETMODEMCONFIGPARAMETER_MAX
-
 

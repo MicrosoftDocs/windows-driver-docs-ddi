@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpioclx/QueryControllerFunctionBankMappingInformation, QueryBankPowerInformation, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], GPIO.client_controller_query_set_request_type, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryBankInterruptBindingInformation, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, QuerySetRequestMaximumType, QueryControllerFunctionBankMappingInformation
+ms.keywords: QueryBankPowerInformation, QuerySetRequestMaximumType, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QuerySetRequestMaximumType, GPIO.client_controller_query_set_request_type, gpioclx/QueryBankPowerInformation, gpioclx/QueryBankInterruptBindingInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryControllerFunctionBankMappingInformation, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryControllerFunctionBankMappingInformation, QueryBankInterruptBindingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE"
+req.typenames: CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ---
 
 # _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration
@@ -93,7 +93,9 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure is a value of type <b>CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</b>. GpioClx sets this member to a  <b>CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</b> enumeration constant to indicate what type of attribute information is requested. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a> callback function takes a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure as an input parameter, and optionally takes a pointer to a <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</b> structure as an output parameter.
+
 
 
 
@@ -101,9 +103,15 @@ The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 12ea119e-9d56-4a1d-a8c6-3999147dfaac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteControlSpace function [Windows Debugging], WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, wdbgexts/WriteControlSpace, debugger.writecontrolspace, WriteControlSpace
+ms.keywords: WriteControlSpace function [Windows Debugging], WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, debugger.writecontrolspace, wdbgexts/WriteControlSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,14 +94,18 @@ Specifies the number of bytes to be written.  This is the number of bytes in the
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This function can only be called in kernel-mode debugging.
+
 
 
 
@@ -109,7 +113,11 @@ This function can only be called in kernel-mode debugging.
 
 <a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace.md">ReadControlSpace</a>
 
+
+
 <a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace64.md">ReadControlSpace64</a>
+
+
 
  
 

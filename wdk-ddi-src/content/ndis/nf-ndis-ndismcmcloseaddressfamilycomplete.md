@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: be551557-06db-4fc9-bdcb-030e621e205a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmcloseaddressfamilycomplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, NdisMCmCloseAddressFamilyComplete, ndis/NdisMCmCloseAddressFamilyComplete
+ms.keywords: NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete, NdisMCmCloseAddressFamilyComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCmCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmCloseAddressFamilyComplete macro
@@ -81,6 +81,8 @@ TBD
 
 
 
+
+
 #### - Status [in]
 
 The caller sets this to NDIS_STATUS_SUCCESS.
@@ -94,6 +96,7 @@ Specifies the NDIS-supplied handle passed to the MCM driver's
 
 
 ## -remarks
+
 
 
 An MCM driver must call 
@@ -121,18 +124,29 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
    NdisCmCloseAddressFamilyComplete</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+
 
  
 

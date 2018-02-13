@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5CBE8A2B-E2E1-4B76-A76F-51DA9F301DAA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], PSTOR_CRYPTO_KEY_SIZE, storage.stor_crypto_key_size, STOR_CRYPTO_KEY_SIZE, storport/STOR_CRYPTO_KEY_SIZE, _STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], storport/
+ms.keywords: PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], storport/STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], _STOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE, storport/PSTOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE, storage.stor_crypto_key_size, storport/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,25 +71,19 @@ typedef enum _STOR_CRYPTO_KEY_SIZE {
 ### -field StorCryptoKeySizeUnknown
 
 
-
 ### -field StorCryptoKeySize128Bits
-
 
 
 ### -field StorCryptoKeySize192Bits
 
 
-
 ### -field StorCryptoKeySize256Bits
-
 
 
 ### -field StorCryptoKeySize512Bits
 
 
-
 ### -field StorCryptoKeySizeMax
-
 
 
 

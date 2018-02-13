@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5cbf775-4d6e-462a-9707-11a311a729ef
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILGETDEVICEINFOPARAMS, netvista.rilgetdeviceinfoparams_2, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], RILGETDEVICEINFOPARAMS, *LPRILGETDEVICEINFOPARAMS
+ms.keywords: rilapitypes/RILGETDEVICEINFOPARAMS, *LPRILGETDEVICEINFOPARAMS, netvista.rilgetdeviceinfoparams_2, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETDEVICEINFOPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS"
+req.typenames: RILGETDEVICEINFOPARAMS, *LPRILGETDEVICEINFOPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILGETDEVICEINFOPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field dwId
-
 

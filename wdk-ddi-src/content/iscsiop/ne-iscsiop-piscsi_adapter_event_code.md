@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 65fa2307-8d71-4c83-86b3-a965bd7f3da8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/ISCSI_ADAPTER_EVENT_CODE, PISCSI_ADAPTER_EVENT_CODE, ISCSI_ADAPTER_EVENT_CODE enumeration [Storage Devices], ISCSI_ADAPTER_TARGETS_CHANGED, iscsiop/ISCSI_ADAPTER_TARGETS_CHANGED, structs-iSCSI_68c678d4-b753-45f9-96ff-e811e8c374f7.xml, iscsiop/PISCSI_ADAPTER_EVENT_CODE, *PISCSI_ADAPTER_EVENT_CODE, PISCSI_ADAPTER_EVENT_CODE enumeration pointer [Storage Devices], storage.iscsi_adapter_event_code, ISCSI_ADAPTER_EVENT_CODE
+ms.keywords: PISCSI_ADAPTER_EVENT_CODE, *PISCSI_ADAPTER_EVENT_CODE, iscsiop/PISCSI_ADAPTER_EVENT_CODE, ISCSI_ADAPTER_EVENT_CODE enumeration [Storage Devices], PISCSI_ADAPTER_EVENT_CODE enumeration pointer [Storage Devices], iscsiop/ISCSI_ADAPTER_EVENT_CODE, ISCSI_ADAPTER_EVENT_CODE, storage.iscsi_adapter_event_code, structs-iSCSI_68c678d4-b753-45f9-96ff-e811e8c374f7.xml, ISCSI_ADAPTER_TARGETS_CHANGED, iscsiop/ISCSI_ADAPTER_TARGETS_CHANGED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,6 +75,8 @@ An adapter discovered that its list of targets changed.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562971">MSiSCSI_AdapterEvent WMI Class</a>
+
+
 
  
 

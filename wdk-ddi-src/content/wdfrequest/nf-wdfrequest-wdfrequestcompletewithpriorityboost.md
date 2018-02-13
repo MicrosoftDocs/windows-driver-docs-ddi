@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, kmdf.wdfrequestcompletewithpriorityboost, wdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST, wdfrequest/WdfRequestCompleteWithPriorityBoost
+ms.keywords: wdf.wdfrequestcompletewithpriorityboost, kmdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost method, WdfRequestCompleteWithPriorityBoost, wdfrequest/WdfRequestCompleteWithPriorityBoost, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,14 +85,17 @@ An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTS
 
 
 
+
 #### STATUS_SUCCESS
 
 The driver successfully completed the request.
 
 
+
 #### STATUS_CANCELLED
 
 The driver canceled the request.
+
 
 
 #### STATUS_UNSUCCESSFUL
@@ -108,6 +111,7 @@ A system-defined constant value by which to increment the run-time priority of t
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -116,7 +120,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver should call <b>WdfRequestCompleteWithPriorityBoost</b> if you want to override the default priority boost that the framework provides. For example, the driver might set the priority boost to IO_NO_INCREMENT if it was able to complete the request quickly, perhaps because it detected an error. 
@@ -126,14 +132,52 @@ After a call to <b>WdfRequestCompleteWithPriorityBoost</b> returns, the request 
 For more information about calling <b>WdfRequestCompleteWithPriorityBoost</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
+#### Examples
+
+The following code example shows how the example at <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> can use <b>WdfRequestCompleteWithPriorityBoost</b> instead of <b>WdfRequestComplete</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>switch (params.Type) {
+    case WdfRequestTypeRead:
+        length = params.Parameters.Read.Length;
+        direction = WdfDmaDirectionReadFromDevice;
+        break;
+    case WdfRequestTypeWrite:
+        length = params.Parameters.Write.Length;
+        direction = WdfDmaDirectionWriteToDevice;
+        break;
+    default:
+        WdfRequestCompleteWithPriorityBoost(
+                                            Request,
+                                            STATUS_INVALID_PARAMETER,
+                                            IO_NO_INCREMENT
+                                            );
+        return;
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
 
  
 

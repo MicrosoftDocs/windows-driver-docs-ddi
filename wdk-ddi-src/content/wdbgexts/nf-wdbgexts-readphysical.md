@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02ca3358-7740-4eda-ab7c-f4b8a88389c2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, wdbgexts/ReadPhysical, ReadPhysical function [Windows Debugging], ReadPhysical, debugger.readphysical
+ms.keywords: debugger.readphysical, ReadPhysical, WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, ReadPhysical function [Windows Debugging], wdbgexts/ReadPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,14 +94,18 @@ Receives the number of bytes actually read.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
+
 
 
 

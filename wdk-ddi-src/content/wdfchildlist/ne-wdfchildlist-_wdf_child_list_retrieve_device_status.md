@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 103f0c51-a7c9-4308-8ae2-d878daf0ff1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, kmdf.wdf_child_list_retrieve_device_status, wdfchildlist/WdfChildListRetrieveDeviceNotYetCreated, WdfChildListRetrieveDeviceUndefined, *PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, wdfchildlist/WdfChildListRetrieveDeviceSuccess, wdf.wdf_child_list_retrieve_device_status, PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration pointer, WdfChildListRetrieveDeviceNoSuchDevice, wdfchildlist/WdfChildListRetrieveDeviceNoSuchDevice, DFDeviceObjectChildListRef_e8569400-bcce-4c6a-9fe6-23244b35d361.xml, _WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, WdfChildListRetrieveDeviceNotYetCreated, wdfchildlist/PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, WdfChildListRetrieveDeviceSuccess, wdfchildlist/WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, wdfchildlist/WdfChildListRetrieveDeviceUndefined, WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration
+ms.keywords: wdfchildlist/WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, wdfchildlist/WdfChildListRetrieveDeviceSuccess, WdfChildListRetrieveDeviceSuccess, WdfChildListRetrieveDeviceUndefined, wdfchildlist/WdfChildListRetrieveDeviceNotYetCreated, WdfChildListRetrieveDeviceNoSuchDevice, wdfchildlist/PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, DFDeviceObjectChildListRef_e8569400-bcce-4c6a-9fe6-23244b35d361.xml, kmdf.wdf_child_list_retrieve_device_status, wdfchildlist/WdfChildListRetrieveDeviceNoSuchDevice, WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration, *PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, _WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration pointer, wdfchildlist/WdfChildListRetrieveDeviceUndefined, WdfChildListRetrieveDeviceNotYetCreated, WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, wdf.wdf_child_list_retrieve_device_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
 product: Windows
 targetos: Windows
-req.typenames: WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, *PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
+req.typenames: "*PWDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS, WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,6 @@ typedef enum _WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS {
 ### -field WdfChildListRetrieveDeviceUndefined
 
 
-
 ### -field WdfChildListRetrieveDeviceSuccess
 
 The <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a> or <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a> method successfully retrieved a child device, and a framework device object exists for the device. 
@@ -97,19 +96,29 @@ The <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">
 ## -remarks
 
 
+
 The <b>WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</b> enumeration is used to specify the <b>Status</b> member of a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
+
+
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a>
 
+
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
+
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+
 
  
 

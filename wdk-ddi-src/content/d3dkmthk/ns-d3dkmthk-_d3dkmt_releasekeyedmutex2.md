@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], _D3DKMT_RELEASEKEYEDMUTEX2, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2
+ms.keywords: "_D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec4cf252-88c4-47de-9015-bcbbd1fd5d1d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl2 interface, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface [Windows Debugging], RemoveEngineOptions method, dbgeng/IDebugControl2::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], RemoveEngineOptions method, IDebugControl3::RemoveEngineOptions, RemoveEngineOptions, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, IDebugControl::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], RemoveEngineOptions method, debugger.removeengineoptions, dbgeng/IDebugControl3::RemoveEngineOptions, IDebugControl3, IDebugControl2::RemoveEngineOptions
+ms.keywords: IDebugControl2, dbgeng/IDebugControl2::RemoveEngineOptions, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, RemoveEngineOptions method [Windows Debugging], IDebugControl::RemoveEngineOptions, dbgeng/IDebugControl3::RemoveEngineOptions, RemoveEngineOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], RemoveEngineOptions method, IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, IDebugControl, IDebugControl2 interface [Windows Debugging], RemoveEngineOptions method, IDebugControl3::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl interface, RemoveEngineOptions method [Windows Debugging], IDebugControl2 interface, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], RemoveEngineOptions method, debugger.removeengineoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,6 +77,7 @@ Specifies the engine options to turn off.  <i>Options</i> is a bit-set; the new 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,16 +94,20 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 After the engine options have been changed, the engine sends out notification to each client's event callback object by passing the DEBUG_CES_ENGINE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> method.
+
 
 
 
@@ -110,15 +115,27 @@ After the engine options have been changed, the engine sends out notification to
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+
 
  
 

@@ -79,11 +79,14 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 ## -returns
 
 
+
 If the initialization succeeds, <i>HwVidInitialize</i> returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Every video miniport driver must have a <i>HwVidInitialize</i> function.
@@ -96,13 +99,20 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 
 
-## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
+
+
+<a href="..\video\nc-video-pvideo_hw_reset_hw.md">HwVidResetHw</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
+
+
 
  
 

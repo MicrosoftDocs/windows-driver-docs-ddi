@@ -95,14 +95,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -113,6 +117,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -158,10 +163,12 @@ The SDP connection handle passed in the input buffer was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, this indicates
@@ -171,12 +178,17 @@ If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH
 
 
 
+
 ## -see-also
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+
+
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+
 
  
 

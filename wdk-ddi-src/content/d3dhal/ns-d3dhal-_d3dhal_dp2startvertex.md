@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 302ed135-9fde-4101-876f-1f70bed501b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX structure [Display Devices], *LPD3DHAL_DP2STARTVERTEX, LPD3DHAL_DP2STARTVERTEX structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2STARTVERTEX, display.d3dhal_dp2startvertex, d3dstrct_1dafced6-8893-45ac-b5a2-8735fe3dbd6a.xml, _D3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX, d3dhal/D3DHAL_DP2STARTVERTEX
+ms.keywords: D3DHAL_DP2STARTVERTEX, display.d3dhal_dp2startvertex, *LPD3DHAL_DP2STARTVERTEX, d3dstrct_1dafced6-8893-45ac-b5a2-8735fe3dbd6a.xml, _D3DHAL_DP2STARTVERTEX, d3dhal/D3DHAL_DP2STARTVERTEX, LPD3DHAL_DP2STARTVERTEX structure pointer [Display Devices], LPD3DHAL_DP2STARTVERTEX, d3dhal/LPD3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DHAL_DP2STARTVERTEX
 product: Windows
 targetos: Windows
-req.typenames: "*LPD3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX"
+req.typenames: D3DHAL_DP2STARTVERTEX, *LPD3DHAL_DP2STARTVERTEX
 ---
 
 # _D3DHAL_DP2STARTVERTEX structure
@@ -75,7 +75,9 @@ Specifies an additional offset to be added to any index used for determining the
 ## -remarks
 
 
+
 A D3DHAL_DP2STARTVERTEX structure follows a D3DHAL_DP2COMMAND structure in the command buffer when the <b>bCommand</b> member of D3DHAL_DP2COMMAND is one of the following values:
+
 <ul>
 <li>
 D3DDP2OP_INDEXEDLINELIST2
@@ -97,7 +99,9 @@ D3DDP2OP_INDEXEDTRIANGLESTRIP
 D3DDP2OP_INDEXEDTRIANGLEFAN
 
 </li>
-</ul>The first vertex of such primitives is located (<b>wVStart</b> + <b>dwVertexOffset</b>) bytes from the beginning of the vertex buffer, where <b>dwVertexOffset</b> is a member of <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>.
+</ul>
+The first vertex of such primitives is located (<b>wVStart</b> + <b>dwVertexOffset</b>) bytes from the beginning of the vertex buffer, where <b>dwVertexOffset</b> is a member of <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>.
+
 
 
 
@@ -105,19 +109,35 @@ D3DDP2OP_INDEXEDTRIANGLEFAN
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
+
+
 D3DDP2OP_INDEXEDTRIANGLESTRIP
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
-D3DDP2OP_INDEXEDLINESTRIP
 
 D3DDP2OP_INDEXEDTRIANGLEFAN
 
-D3DDP2OP_INDEXEDTRIANGLELIST2
+
+
+D3DDP2OP_INDEXEDLINESTRIP
+
+
 
 D3DDP2OP_INDEXEDLINELIST2
 
+
+
+D3DDP2OP_INDEXEDTRIANGLELIST2
+
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
 
  
 

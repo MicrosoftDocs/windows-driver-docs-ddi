@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7af6ee73-814b-49f8-8641-d3e8dc672ee5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, ndis/NdisMQueryAdapterInstanceName, NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndismqueryadapterinstancename, NdisMQueryAdapterInstanceName
+ms.keywords: NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndismqueryadapterinstancename, ndis/NdisMQueryAdapterInstanceName, miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, NdisMQueryAdapterInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMQueryAdapterInstanceName
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMQueryAdapterInstanceName function
@@ -81,6 +81,7 @@ TBD
 
 
 
+
 #### - AdapterInstanceName [out]
 
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
@@ -99,13 +100,16 @@ The handle to the miniport adapter that was previously input to the
 ## -returns
 
 
+
 Returns NDIS_STATUS_SUCCESS if memory for the string at 
      <i>AdapterInstanceName</i> was successfully allocated; otherwise, it returns
      NDIS_STATUS_RESOURCES.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver uses 
@@ -127,13 +131,20 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

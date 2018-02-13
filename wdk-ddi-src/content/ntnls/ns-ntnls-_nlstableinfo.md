@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B9E64163-B338-49C9-8167-C36B110AB710
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntnls/PNLSTABLEINFO, PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], _NLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture], NLSTABLEINFO, *PNLSTABLEINFO, PNLSTABLEINFO, ntnls/NLSTABLEINFO, kernel.nlstableinfo
+ms.keywords: kernel.nlstableinfo, _NLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture], PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], PNLSTABLEINFO, NLSTABLEINFO, ntnls/NLSTABLEINFO, ntnls/PNLSTABLEINFO, *PNLSTABLEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,7 @@ Specifies an 844 format uppercase table.
 ### -field LowerCaseTable
 
  
+
 
 
 

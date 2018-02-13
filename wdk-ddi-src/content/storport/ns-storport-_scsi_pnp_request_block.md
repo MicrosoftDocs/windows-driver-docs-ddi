@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SCSI_PNP_REQUEST_BLOCK, StorStopDevice, StorFilterResourceRequirements, storage.scsi_pnp_request_block, StorStartDevice, SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], StorQueryResourceRequirements, storport/SCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, storport/PSCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, StorRemoveDevice, StorSupriseRemoval, StorQueryCapabilities"
+ms.keywords: StorQueryCapabilities, StorRemoveDevice, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], storport/SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, PSCSI_PNP_REQUEST_BLOCK, _SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], StorFilterResourceRequirements, StorStopDevice, *PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK, StorSupriseRemoval, StorQueryResourceRequirements, storport/PSCSI_PNP_REQUEST_BLOCK, StorStartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,16 +88,6 @@ typedef struct _SCSI_PNP_REQUEST_BLOCK {
 
 
 
-### -field _SCSI_REQUEST_BLOCK
-
- 
-
-
-### -field NextSrb
-
-Miniport driver should ignore this member. 
-
-
 ### -field Length
 
 The size, in bytes, of the <b>SCSI_PNP_REQUEST_BLOCK</b> structure. 
@@ -136,6 +126,7 @@ The logical unit number (LUN) of the device.
 ### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -218,7 +209,8 @@ Surprise Removal of the device. This value was added in Windows 7.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SrbFlags
@@ -244,6 +236,16 @@ Miniport driver should ignore this member.
 ### -field SenseInfoBuffer
 
 Miniport driver should ignore this member. 
+
+
+### -field NextSrb
+
+Miniport driver should ignore this member. 
+
+
+### -field _SCSI_REQUEST_BLOCK
+
+ 
 
 
 ### -field OriginalRequest
@@ -274,19 +276,27 @@ Reserved for system use.
 ## -remarks
 
 
+
 The Storport driver sends <b>SCSI_PNP_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows plug and play events that affect storage devices that are connected to the adapter.
 
 The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> checks the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_PNP, the SRB is a structure of type <b>SCSI_PNP_REQUEST_BLOCK</b>.
 
 
 
-## -see-also
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+## -see-also
 
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+
 
  
 

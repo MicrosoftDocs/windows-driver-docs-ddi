@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 76af0d70-f9bb-4768-9bfd-f2aaeb212db0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MONITOR_INTERFACE_VERSION_V1, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V1, DXGK_MONITOR_INTERFACE_VERSION enumeration [Display Devices], DmEnums_4ec3a10c-c04f-431b-851d-908a5ff972a1.xml, DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, DXGK_MONITOR_INTERFACE_VERSION_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V2, _DXGK_MONITOR_INTERFACE_VERSION, DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION, display.dxgk_monitor_interface_version
+ms.keywords: d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V1, DXGK_MONITOR_INTERFACE_VERSION_V1, DmEnums_4ec3a10c-c04f-431b-851d-908a5ff972a1.xml, DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, DXGK_MONITOR_INTERFACE_VERSION enumeration [Display Devices], DXGK_MONITOR_INTERFACE_VERSION_V2, DXGK_MONITOR_INTERFACE_VERSION, _DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, display.dxgk_monitor_interface_version
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,6 +89,8 @@ Indicates version 1, available in Windows Vista and later versions of the Window
 ## -remarks
 
 
+
 The <b>Version</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface.md">DXGK_MONITOR_INTERFACE</a> structure is a value from the <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration.
+
 
 

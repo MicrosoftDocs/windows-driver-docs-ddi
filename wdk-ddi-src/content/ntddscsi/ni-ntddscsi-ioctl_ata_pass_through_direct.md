@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ATA_PASS_THROUGH_DIRECT
 product: Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
 ---
 
 # IOCTL_ATA_PASS_THROUGH_DIRECT IOCTL
@@ -108,14 +108,18 @@ The port driver updates the <b>DataTransferLength</b> member of the <a href="..\
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -128,7 +132,11 @@ The <b>Information</b> member is set to the number of bytes returned in the outp
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
 
+
+
 <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+
+
 
  
 

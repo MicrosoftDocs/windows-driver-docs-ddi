@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_DIVERSITY_SUPPORT, windot11/DOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], dot11_diversity_support_dynamic, DOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_dynamic, windot11/PDOT11_DIVERSITY_SUPPORT, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], dot11_diversity_support_fixedlist, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, windot11/dot11_diversity_support_unknown, dot11_diversity_support_notsupported, _DOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_notsupported, dot11_diversity_support_unknown, netvista.dot11_diversity_support
+ms.keywords: DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], dot11_diversity_support_dynamic, netvista.dot11_diversity_support, windot11/dot11_diversity_support_dynamic, dot11_diversity_support_fixedlist, dot11_diversity_support_unknown, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, windot11/dot11_diversity_support_fixedlist, dot11_diversity_support_notsupported, DOT11_DIVERSITY_SUPPORT, _DOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT, PDOT11_DIVERSITY_SUPPORT, windot11/DOT11_DIVERSITY_SUPPORT, windot11/PDOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_notsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,6 +102,8 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
 <a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
    OID_DOT11_DIVERSITY_SELECTION_RX</a>
+
+
 
  
 

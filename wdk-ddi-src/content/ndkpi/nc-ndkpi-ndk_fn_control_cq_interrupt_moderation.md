@@ -97,8 +97,10 @@ The maximum number of completions that a provider can accumulate in the CQ befor
 ## -returns
 
 
+
 The 
      <i>NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -163,11 +165,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDK consumers must not call <i>NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</i> unless the provider sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED  flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member. For a provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED flag, the NDK consumer can call this function at any point after a CQ is created. The default behavior for a CQ is no interrupt moderation. The NDK consumer must not call this function on the same CQ concurrently.
@@ -183,13 +188,20 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 
 
+
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+
+
 
  
 

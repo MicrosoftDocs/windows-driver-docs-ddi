@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: EnumFeatures method [Print Devices], IPrintCorePS2 interface, print.iprintcoreps2_enumfeatures, IPrintCorePS2 interface [Print Devices], EnumFeatures method, prcomoem/IPrintCorePS2::EnumFeatures, IPrintCorePS2::EnumFeatures, IPrintCorePS2, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, EnumFeatures method [Print Devices], EnumFeatures
+ms.keywords: IPrintCorePS2::EnumFeatures, IPrintCorePS2 interface [Print Devices], EnumFeatures method, EnumFeatures method [Print Devices], print.iprintcoreps2_enumfeatures, IPrintCorePS2, EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml, EnumFeatures method [Print Devices], IPrintCorePS2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCorePS2.EnumFeatures
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -102,7 +102,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the req
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,11 +156,14 @@ The method failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">printer-sticky</a> features (see <a href="https://msdn.microsoft.com/b7f79841-f82c-4a60-9c2f-58772a65a5eb">Replacing Driver-Supplied Property Sheet Pages</a>), such as those that determine installable memory and the presence of optional accessories, are included in the feature keyword list, which appears in the output buffer pointed to by <i>pmszFeatureList</i>. For Pscript5, such features have the <b>OpenGroupType</b> feature attribute set to "InstallableOptions". 
@@ -171,11 +176,16 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+
+
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+
 
  
 

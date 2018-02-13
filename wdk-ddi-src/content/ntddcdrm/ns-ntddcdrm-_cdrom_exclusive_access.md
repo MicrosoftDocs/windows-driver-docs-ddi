@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], CDROM_EXCLUSIVE_ACCESS, storage.cdrom_exclusive_access, ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], ntddcdrm/CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, *PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS
+ms.keywords: PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], _CDROM_EXCLUSIVE_ACCESS, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], CDROM_EXCLUSIVE_ACCESS, ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, storage.cdrom_exclusive_access, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, PCDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ An <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE
 ### -field Flags
 
 A flag that specifies the characteristics of the operation. The meaning of the flag depends on the type of operation that <b>RequestType</b> specifies. The following table describes the possible values for <b>RequestType</b> and <b>Flags</b>:
+
 <table>
 <tr>
 <th>RequestType</th>
@@ -134,12 +135,15 @@ Prevents the sending of a media removal notification and a media arrival notific
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+
+
 
  
 

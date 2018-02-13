@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIA_PROPERTY_INFO structure [Imaging Devices], WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, _WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], PWIA_PROPERTY_INFO, image.wia_property_info
+ms.keywords: image.wia_property_info, *PWIA_PROPERTY_INFO, wiamindr_lh/PWIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], _WIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], wiamindr_lh/WIA_PROPERTY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,8 +110,37 @@ typedef struct _WIA_PROPERTY_INFO {
 
 
 
-### -field ValidVal
+### -field lAccessFlags
 
+Specifies the access and property attribute flags for a property. See the Microsoft Windows SDK documentation for a list of WIA property attribute flags. 
+
+
+### -field vt
+
+Specifies the variant data type for the property. This member, which can be one of the following, controls which structure member of the <b>ValidValunion</b> is valid:
+
+VT_UI1
+
+VT_UI2
+
+VT_UI4
+
+VT_I2
+
+VT_I4
+
+VT_R4
+
+VT_R8
+
+VT_CLSID
+
+VT_BSTR
+
+See PROPVARIANT in the Windows SDK documentation for more information.
+
+
+### -field ValidVal
 
 
 ### -field ValidVal.Range
@@ -313,37 +342,10 @@ Is a structure that is filled when the property's valid values are not given in 
  
 
 
-### -field lAccessFlags
-
-Specifies the access and property attribute flags for a property. See the Microsoft Windows SDK documentation for a list of WIA property attribute flags. 
-
-
-### -field vt
-
-Specifies the variant data type for the property. This member, which can be one of the following, controls which structure member of the <b>ValidValunion</b> is valid:
-
-VT_UI1
-
-VT_UI2
-
-VT_UI4
-
-VT_I2
-
-VT_I4
-
-VT_R4
-
-VT_R8
-
-VT_CLSID
-
-VT_BSTR
-
-See PROPVARIANT in the Windows SDK documentation for more information.
 
 
 ## -remarks
+
 
 
 The WIA_PROPERTY_INFO is used by the minidriver to store information about a property of arbitrary type. This structure is also used by the <b>wiasSetItemPropAttribs</b> to set a property's valid values. The <b>lAccessFlags</b> member controls whether access to a property is read-only or read/write. This member also conveys information about the set of valid values for a property when they are defined by a list of values, a range of values, or a bitset of flags. The <b>vt</b> member contains information about the type of the property. Both members should be used to determine which member of the <b>ValidValunion</b> can be accessed. 
@@ -357,6 +359,7 @@ A property whose valid values are defined by a bitset of the values 0x01, 0x02, 
 The following examples show how to use array data with WIA_PROPERTY_INFO and how to call <a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a> to set your property values.
 
 Initialization might look like the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -375,7 +378,9 @@ Initialization might look like the following example:
   g_wpiItemDefaults[13].vt           = g_pvItemDefaults [13].vt;</pre>
 </td>
 </tr>
-</table></span></div>At run time, changing the value with <b>wiasWriteMultiple</b> might look like the following example:
+</table></span></div>
+At run time, changing the value with <b>wiasWriteMultiple</b> might look like the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -393,13 +398,17 @@ Initialization might look like the following example:
   hr                  = wiasWriteMultiple(pWiasContext, 1, &amp;propSpec, &amp;propVar);</pre>
 </td>
 </tr>
-</table></span></div><b>Note</b>  WIA uses the COM PROPVARIANT type, VARIANT (defined in the Microsoft Windows SDK documentation), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+</table></span></div>
+<b>Note</b>  WIA uses the COM PROPVARIANT type, VARIANT (defined in the Microsoft Windows SDK documentation), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+
 
 
 
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
+
+
 
  
 

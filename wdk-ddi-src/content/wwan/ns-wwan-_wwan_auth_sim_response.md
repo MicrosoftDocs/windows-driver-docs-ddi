@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C259CA95-D119-47EB-A32D-9C9E284B6CD4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, wwan/WWAN_AUTH_SIM_RESPONSE, wwan/PWWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response"
+ms.keywords: "_WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], PWWAN_AUTH_SIM_RESPONSE, wwan/WWAN_AUTH_SIM_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -142,15 +142,19 @@ Encryption key 3 of 64 bit. This member represents a multi-byte value in little-
 ## -remarks
 
 
+
 The <b>n</b> member can be either <b>2</b> or <b>3</b>, according to RFC 4186. If it is set to <b>2</b>, use the <b>Sres1</b>/<b>Kc1</b> and <b>Sres2</b>/<b>Kc2</b> members. If it is set to <b>3</b>,use <b>Sres1</b>/<b>Kc1</b>, <b>Sres2</b>/<b>Kc2</b>, and <b>Sres3</b>/<b>Kc3</b> members.
 
 The <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
+
+
 
  
 

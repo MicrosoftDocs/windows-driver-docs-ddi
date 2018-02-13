@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79d63b5e-78b0-452a-aa84-695c59a7d4a5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, storage.hba_getportattributesbywwn, HBA_GetPortAttributesByWWN routine [Storage Devices], HBA_GetPortAttributesByWWN, hbaapi/HBA_GetPortAttributesByWWN
+ms.keywords: hbaapi/HBA_GetPortAttributesByWWN, fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, HBA_GetPortAttributesByWWN, HBA_GetPortAttributesByWWN routine [Storage Devices], storage.hba_getportattributesbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 #### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
@@ -98,26 +99,38 @@ Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md"
 ## -returns
 
 
+
 The <b>HBA_GetPortAttributesByWWN</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method.
+
 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
+
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

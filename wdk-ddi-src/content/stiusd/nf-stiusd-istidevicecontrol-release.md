@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDeviceControl::Release, image.istidevicecontrol_release, Release method [Imaging Devices], IStiDeviceControl, Release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, IStiDeviceControl interface [Imaging Devices], Release method, Release method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::Release
+ms.keywords: IStiDeviceControl interface [Imaging Devices], Release method, image.istidevicecontrol_release, IStiDeviceControl::Release, Release method [Imaging Devices], stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, Release, Release method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl, stiusd/IStiDeviceControl::Release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,18 @@ HRESULT Release();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>Stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDeviceControl::Release</b> method should be called from within the destructor function of a user-mode still image minidriver's <b>IStiUSD</b> interface. (For more information, see <a href="https://msdn.microsoft.com/94fdbeba-5b4a-4b66-b381-ec362b6d38c9">Creating a User-Mode Still Image Minidriver</a>.)
@@ -83,9 +87,12 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542933">IStiDeviceControl::AddRef</a>
+
+
 
  
 

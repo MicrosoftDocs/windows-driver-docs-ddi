@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 153e4f47-ae07-4f1e-9ab5-69ef6565ad5d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetState method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml, IKsClockPropertySet, stream.iksclockpropertyset_ksgetstate, KsGetState, IKsClockPropertySet interface [Streaming Media Devices], KsGetState method, IKsClockPropertySet::KsGetState, KsGetState method [Streaming Media Devices], ksproxy/IKsClockPropertySet::KsGetState
+ms.keywords: KsGetState method [Streaming Media Devices], IKsClockPropertySet interface, KsGetState method [Streaming Media Devices], KsGetState, ksproxy/IKsClockPropertySet::KsGetState, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml, stream.iksclockpropertyset_ksgetstate, IKsClockPropertySet::KsGetState, IKsClockPropertySet interface [Streaming Media Devices], KsGetState method, IKsClockPropertySet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,6 +70,7 @@ HRESULT KsGetState(
 ### -param State [out]
 
 Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumerated type:
+
 <table>
 <tr>
 <th>Value</th>
@@ -115,17 +116,21 @@ The pin is streaming data. That is, the pin consumes or produces stream data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The state of the pin gives gross motor control for pins. Fine motor control is done on a class-by-class basis with custom properties. For instance, in order to make an external laser disc player spin up, you could set a custom Mode property specific to that class. Setting this property may also change the state of the device, though not necessarily, depending on the effect of the mode.
@@ -133,5 +138,6 @@ The state of the pin gives gross motor control for pins. Fine motor control is d
 A filter itself can support this state property so that applications can set the entire filter's state. Otherwise, each pin must have its state set. When the state of a pin transitions from KSSTATE_STOP, each connection that forwards IRPs must recalculate stack depth.
 
 The proxy uses the KSPROPERTY_CLOCK_STATE property to retrieve the streaming state of a pin. 
+
 
 

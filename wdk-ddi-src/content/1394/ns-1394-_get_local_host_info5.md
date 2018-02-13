@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: a0cdf40e-627e-4d39-9c7b-6defcc2f29c3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_GET_LOCAL_HOST_INFO5, GET_LOCAL_HOST_INFO5 structure [Buses], 1394/PGET_LOCAL_HOST_INFO5, IEEE.get_local_host_info5, PGET_LOCAL_HOST_INFO5, GET_LOCAL_HOST_INFO5, 1394stct_7be8f02e-9734-40ae-9337-91d9026ec65d.xml, 1394/GET_LOCAL_HOST_INFO5, PGET_LOCAL_HOST_INFO5 structure pointer [Buses], *PGET_LOCAL_HOST_INFO5"
+ms.keywords: GET_LOCAL_HOST_INFO5 structure [Buses], 1394/GET_LOCAL_HOST_INFO5, PGET_LOCAL_HOST_INFO5, 1394stct_7be8f02e-9734-40ae-9337-91d9026ec65d.xml, _GET_LOCAL_HOST_INFO5, PGET_LOCAL_HOST_INFO5 structure pointer [Buses], *PGET_LOCAL_HOST_INFO5, GET_LOCAL_HOST_INFO5, 1394/PGET_LOCAL_HOST_INFO5, IEEE.get_local_host_info5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,13 +81,17 @@ Specifies the length of the buffer pointed to by <b>ConfigRom</b>.
 ## -remarks
 
 
+
 When submitted in a REQUEST_GET_LOCAL_HOST_INFO request, if the <b>ConfigRomLength</b> is smaller than the size of the Configuration ROM, a status code of STATUS_INVALID_BUFFER_SIZE is returned. In this case, the correct buffer size is filled in the <b>ConfigRomLength</b> member.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
+
+
 
  
 

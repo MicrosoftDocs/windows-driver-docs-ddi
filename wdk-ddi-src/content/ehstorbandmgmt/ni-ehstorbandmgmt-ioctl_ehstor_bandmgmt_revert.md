@@ -65,6 +65,7 @@ This <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request is sent to deactivate the secur
 ### -input-buffer
 
 The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <b> ACTIVATE_REVERT_PARAMETERS</b>  structure. <b>ACTIVATE_REVERT_PARAMETERS</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -81,7 +82,9 @@ The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <b> AC
 </tr>
 </table></span></div>
 
+
 Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_KEY</b> structure. This holds the key data bytes for the authentication key. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -98,6 +101,7 @@ Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_K
 </table></span></div>
 
 
+
 #### -StructSize
 
 The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
@@ -106,6 +110,7 @@ The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETE
 #### -Flags
 
 A bitmask of deactivation flags. This is a bitwise OR value of the following.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -115,7 +120,8 @@ A bitmask of deactivation flags. This is a bitwise OR value of the following.
 <td>REVERT_PSID_AUTHKEY</td>
 <td>The authentication key at <b>AuthKeyOffset</b> is a PSID key.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### -AuthKeyOffset
@@ -151,20 +157,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values can be returned in the <b>Status</b> field.
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -202,13 +213,16 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>STATUS_INVALID_DEVICE_STATE</td>
 <td>The storage device is not activated.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
+
 
 
 
@@ -216,7 +230,11 @@ On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the s
 
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
+
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortNotification routine [Storage Devices], ScsiPortNotification, srb/ScsiPortNotification, storage.scsiportnotification, scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml
+ms.keywords: ScsiPortNotification routine [Storage Devices], storage.scsiportnotification, ScsiPortNotification, scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,6 +75,7 @@ VOID ScsiPortNotification(
 ### -param NotificationType
 
 Specifies the type of notification, which can be one of the following.
+
 <table>
 <tr>
 <th>Notification Type</th>
@@ -349,7 +350,8 @@ Syntax for PathId = 0xFF
 </table></span></div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param HwDeviceExtension
@@ -363,14 +365,18 @@ TBD
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>ScsiPortNotification</b> routine has a different set of optional parameters associated with each <i>NotificationType</i>. For a description of the optional parameters associated a particular <i>NotificationType</i>, see the reference page associated with that <i>NotificationType</i>. The following reference pages provide this information:
@@ -428,17 +434,28 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 
 
+
 ## -see-also
-
-<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
 
 <a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
+
+
 
  
 

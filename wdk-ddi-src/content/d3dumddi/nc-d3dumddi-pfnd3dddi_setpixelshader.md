@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetPixelShader(
 
 
 
+
+
 #### - hShaderHandle [in]
 
  A handle to the pixel shader code object.
@@ -91,11 +93,14 @@ __checkReturn HRESULT APIENTRY SetPixelShader(
 ## -returns
 
 
+
 <i>SetPixelShader</i> returns S_OK or an appropriate error result if the pixel shader is not successfully set.
 
 
 
+
 ## -remarks
+
 
 
 All subsequent drawing operations use the given shader until another is selected.
@@ -104,9 +109,12 @@ For user-mode display drivers that support pixel shaders before version 2.0, the
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

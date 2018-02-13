@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 283f398e-4162-4c46-847b-834f8f303052
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_recommendmonitormodes, DXGKARG_RECOMMENDMONITORMODES structure [Display Devices], DXGKARG_RECOMMENDMONITORMODES, DmStructs_151c48fa-735a-4962-9fe7-446830441f1c.xml, d3dkmddi/DXGKARG_RECOMMENDMONITORMODES, _DXGKARG_RECOMMENDMONITORMODES
+ms.keywords: "_DXGKARG_RECOMMENDMONITORMODES, DmStructs_151c48fa-735a-4962-9fe7-446830441f1c.xml, display.dxgkarg_recommendmonitormodes, d3dkmddi/DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,13 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_inter
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
+
 
  
 

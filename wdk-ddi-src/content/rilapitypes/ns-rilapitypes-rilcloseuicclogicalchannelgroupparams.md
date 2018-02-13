@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89d50918-2cd2-4889-aec4-fc9e2875855a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, netvista.rilcloseuicclogicalchannelgroupparams_2, rilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS
+ms.keywords: netvista.rilcloseuicclogicalchannelgroupparams_2, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, rilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, *LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,5 @@ typedef struct _RILCLOSEUICCLOGICALCHANNELGROUPPARAMS {
 ### -field dwSlotIndex
 
 
-
 ### -field dwChannelGroup
-
 

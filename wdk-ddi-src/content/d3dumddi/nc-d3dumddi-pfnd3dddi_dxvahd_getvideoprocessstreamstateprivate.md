@@ -74,8 +74,9 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 ### -param HANDLE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 ## -returns
 
 
+
 The <i>GetVideoProcessStreamStatePrivate</i> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +126,17 @@ The stream-state data is successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
+
+
 
  
 

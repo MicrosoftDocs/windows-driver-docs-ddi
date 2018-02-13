@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2 interface, IsCanceled method, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled, IWDFIoRequest2, IsCanceled method, IWDFIoRequest2::IsCanceled, umdf.iwdfiorequest2_iscanceled, IsCanceled, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, IsCanceled method, IWDFIoRequest2 interface
+ms.keywords: IWDFIoRequest2::IsCanceled, wudfddi/IWDFIoRequest2::IsCanceled, IsCanceled method, IWDFIoRequest2 interface, IsCanceled method, wdf.iwdfiorequest2_iscanceled, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, IWDFIoRequest2, IsCanceled, IWDFIoRequest2 interface, IsCanceled method, umdf.iwdfiorequest2_iscanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,7 +69,9 @@ BOOL IsCanceled();
 
 
 
+
 ## -returns
+
 
 
 <b>IsCanceled</b> returns <b>TRUE</b> if the I/O manager has attempted to cancel the I/O request. This method returns <b>FALSE</b> for any of the following reasons:
@@ -85,7 +87,9 @@ BOOL IsCanceled();
 
 
 
+
 ## -remarks
+
 
 
 If your driver has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> to register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a> callback function, but if you want your driver to determine if the I/O manager has attempted to cancel an I/O request, the driver can call <b>IsCanceled</b>.
@@ -97,16 +101,44 @@ If <b>IsCanceled</b> returns <b>TRUE</b>, your driver should cancel the request 
 For more information about <b>IsCanceled</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
 
+#### Examples
+
+In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the driver completes the I/O request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> with a completion status of HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED).
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (fxRequest2-&gt;IsCanceled())
+{
+    fxRequest2-&gt;Complete(HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED));
+}
+...</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
  
 

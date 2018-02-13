@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d2f2d2cc-e96b-475c-96eb-d58244a05788
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PSTORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST structure [Storage Devices], STORAGE_BUS_RESET_REQUEST, storage.storage_bus_reset_request, ntddstor/STORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST structure pointer [Storage Devices], _STORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST, structs-general_ffea4f36-cf98-4961-be14-d8a4cde94fad.xml, *PSTORAGE_BUS_RESET_REQUEST
+ms.keywords: ntddstor/STORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST structure [Storage Devices], PSTORAGE_BUS_RESET_REQUEST, _STORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST structure pointer [Storage Devices], storage.storage_bus_reset_request, structs-general_ffea4f36-cf98-4961-be14-d8a4cde94fad.xml, ntddstor/PSTORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ Indicates the number of the bus to be reset.
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_reset_bus.md">IOCTL_STORAGE_RESET_BUS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E7C823B1-457E-4B86-B44B-DC5BD48CF98E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, d3dkmddi/DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, DXGK_PAGETABLEUPDATEMODE enumeration [Display Devices], DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, d3dkmddi/DXGK_PAGETABLEUPDATEMODE, DXGK_PAGETABLEUPDATEMODE, display.dxgk_pagetableupdatemode, _DXGK_PAGETABLEUPDATEMODE, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_VIRTUAL
+ms.keywords: d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, DXGK_PAGETABLEUPDATEMODE enumeration [Display Devices], d3dkmddi/DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, _DXGK_PAGETABLEUPDATEMODE, DXGK_PAGETABLEUPDATEMODE, display.dxgk_pagetableupdatemode, d3dkmddi/DXGK_PAGETABLEUPDATEMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,7 +88,11 @@ Indicates that the address of the page table to update is in the <b>GpuPhysical<
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pagetableupdateaddress.md">DXGK_PAGETABLEUPDATEADDRESS</a>
+
+
 
  
 

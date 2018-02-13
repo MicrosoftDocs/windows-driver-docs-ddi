@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B5AD9CE8-B0F0-49BC-984E-4372FD3BF93B
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_PROCESSOR_IDENTIFICATION_X86, PDEBUG_PROCESSOR_IDENTIFICATION_X86 structure pointer [Windows Debugging], DEBUG_PROCESSOR_IDENTIFICATION_X86 structure [Windows Debugging], *PDEBUG_PROCESSOR_IDENTIFICATION_X86, debugger.debug_processor_identification_x86, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_X86, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86, _DEBUG_PROCESSOR_IDENTIFICATION_X86
+ms.keywords: DEBUG_PROCESSOR_IDENTIFICATION_X86 structure [Windows Debugging], debugger.debug_processor_identification_x86, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_X86, PDEBUG_PROCESSOR_IDENTIFICATION_X86 structure pointer [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_X86, _DEBUG_PROCESSOR_IDENTIFICATION_X86, *PDEBUG_PROCESSOR_IDENTIFICATION_X86
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ A vendor specified string.
 ## -see-also
 
 <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_all.md">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
+
+
 
  
 

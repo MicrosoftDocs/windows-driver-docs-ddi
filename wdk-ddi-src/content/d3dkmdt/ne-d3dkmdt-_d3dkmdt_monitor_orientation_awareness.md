@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cea11e84-bff5-4189-9ed4-830049a44a4b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_MOA_NONE, d3dkmdt/D3DKMDT_MOA_INTERRUPTIBLE, _D3DKMDT_MONITOR_ORIENTATION_AWARENESS, display.d3dkmdt_monitor_orientation_awareness, D3DKMDT_MONITOR_ORIENTATION_AWARENESS enumeration [Display Devices], D3DKMDT_MOA_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION_AWARENESS, DmEnums_d2570bc0-98c7-4402-b167-a4167715cc90.xml, D3DKMDT_MOA_INTERRUPTIBLE, D3DKMDT_MOA_POLLED, d3dkmdt/D3DKMDT_MOA_POLLED, d3dkmdt/D3DKMDT_MOA_NONE, d3dkmdt/D3DKMDT_MOA_UNINITIALIZED, D3DKMDT_MONITOR_ORIENTATION_AWARENESS
+ms.keywords: D3DKMDT_MOA_NONE, display.d3dkmdt_monitor_orientation_awareness, D3DKMDT_MOA_INTERRUPTIBLE, D3DKMDT_MONITOR_ORIENTATION_AWARENESS, D3DKMDT_MONITOR_ORIENTATION_AWARENESS enumeration [Display Devices], d3dkmdt/D3DKMDT_MOA_NONE, _D3DKMDT_MONITOR_ORIENTATION_AWARENESS, D3DKMDT_MOA_POLLED, D3DKMDT_MOA_UNINITIALIZED, d3dkmdt/D3DKMDT_MOA_INTERRUPTIBLE, d3dkmdt/D3DKMDT_MOA_UNINITIALIZED, DmEnums_d2570bc0-98c7-4402-b167-a4167715cc90.xml, d3dkmdt/D3DKMDT_MOA_POLLED, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION_AWARENESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,13 +93,17 @@ Indicates that the video output device can generate an interrupt when the orient
 ## -remarks
 
 
+
 The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a> structure. The <b>Type.VideoOutput</b> member of a CHILD_CAPABILITIES structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure. The <b>MonitorOrientationAwareness</b> member of a VIDEO_OUTPUT_CAPABILITIES structure is a D3DKMDT_MONITOR_ORIENTATION_AWARENESS value.
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
 
  
 

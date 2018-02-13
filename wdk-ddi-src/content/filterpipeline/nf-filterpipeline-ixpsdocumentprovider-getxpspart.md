@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, IXpsDocumentProvider::GetXpsPart, IXpsDocumentProvider interface [Print Devices], GetXpsPart method, GetXpsPart method [Print Devices], IXpsDocumentProvider interface, IXpsDocumentProvider, GetXpsPart, print.ixpsdocumentprovider_getxpspart, GetXpsPart method [Print Devices]
+ms.keywords: IXpsDocumentProvider interface [Print Devices], GetXpsPart method, GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart, GetXpsPart method [Print Devices], filterpipeline/IXpsDocumentProvider::GetXpsPart, IXpsDocumentProvider::GetXpsPart, IXpsDocumentProvider, GetXpsPart method [Print Devices], IXpsDocumentProvider interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ The XPS part. This part is the <b>IUnknown</b> interface of an object that is an
 ## -returns
 
 
+
 <code>GetXpsPart</code> returns an <b>HRESULT</b>.
+
 
 
 
 ## -remarks
 
 
+
 Use <b>QueryInterface</b> on the value that the <b>GetXpsPart</b> method returns to determine the type of object that it retrieved.
+
 
 

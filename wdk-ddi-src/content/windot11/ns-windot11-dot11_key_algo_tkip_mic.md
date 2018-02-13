@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f6e08e3-50cf-4d2e-aac8-185a5c0b38ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista], DOT11_KEY_ALGO_TKIP_MIC, windot11/PDOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC, Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml, DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_tkip_mic, *PDOT11_KEY_ALGO_TKIP_MIC
+ms.keywords: DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], DOT11_KEY_ALGO_TKIP_MIC, windot11/DOT11_KEY_ALGO_TKIP_MIC, windot11/PDOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC, netvista.dot11_key_algo_tkip_mic, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml, *PDOT11_KEY_ALGO_TKIP_MIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_KEY_ALGO_TKIP_MIC
 product: Windows
 targetos: Windows
-req.typenames: DOT11_KEY_ALGO_TKIP_MIC, *PDOT11_KEY_ALGO_TKIP_MIC
+req.typenames: "*PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC"
 req.product: Windows 10 or later.
 ---
 
@@ -103,6 +103,7 @@ The TKIP and MIC key material.
 ## -remarks
 
 
+
 The TKIP key starts at 
     <b>ucTKIPMICKeys</b> [0]. The MIC key starts at 
     <b>ucTKIPMICKeys</b> [
@@ -110,6 +111,7 @@ The TKIP key starts at
 
 When the TKIP key is created, the 802.11 station must maintain separate TSC counters for the key for
     the send and receive path. The station must initialize the TSC counters in the following way:
+
 <ul>
 <li>
 Initialize the TSC counter used for the receive path to the value specified in the 
@@ -123,15 +125,22 @@ Initialize the TSC counter used for the send path to any value.
 </ul>
 
 
-## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+## -see-also
 
 <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
    DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
+
 <a href="https://msdn.microsoft.com/4f0c45f0-3125-4b19-82c1-3681b2e31c96">TKIP</a>
+
+
 
  
 

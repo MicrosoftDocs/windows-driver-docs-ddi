@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: afcdb59c-55aa-48e9-b920-1dee3d39a78f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IXpsPartIterator interface [Print Devices], Reset method, IXpsPartIterator, Reset method [Print Devices], IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Reset, IXpsPartIterator::Reset, Reset, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, print.ixpspartiterator_reset, Reset method [Print Devices]
+ms.keywords: Reset method [Print Devices], Reset, IXpsPartIterator interface [Print Devices], Reset method, IXpsPartIterator::Reset, filterpipeline/IXpsPartIterator::Reset, print.ixpspartiterator_reset, Reset method [Print Devices], IXpsPartIterator interface, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, IXpsPartIterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,13 +68,15 @@ void STDMETHODCALLTYPE Reset(
 
 
 
-#### - None
 
+#### - None
 
 
 ## -returns
 
 
+
 None
+
 
 

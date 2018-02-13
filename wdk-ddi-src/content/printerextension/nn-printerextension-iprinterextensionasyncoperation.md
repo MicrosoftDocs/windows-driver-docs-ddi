@@ -78,7 +78,9 @@ Cancels the asynchronous operation.
 ## -remarks
 
 
+
 <b>IPrinterExtensionAsyncOperation</b> also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/310E92A9-F751-4346-9B2D-0578A136AD20">Device Maintenance</a>.
+
 
 
 
@@ -86,7 +88,11 @@ Cancels the asynchronous operation.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
+
+
 <a href="https://msdn.microsoft.com/310E92A9-F751-4346-9B2D-0578A136AD20">Device Maintenance</a>
+
+
 
  
 

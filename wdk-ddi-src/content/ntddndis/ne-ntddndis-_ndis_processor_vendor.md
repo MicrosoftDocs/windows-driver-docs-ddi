@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2d1b967-32fb-437a-a0bd-e0028acee022
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, _NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR, NdisProcessorVendorGenuinIntel, NdisProcessorVendorAuthenticAMD, *PNDIS_PROCESSOR_VENDOR, netvista.ndis_processor_vendor, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisProcessorVendorGenuinIntel, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, PNDIS_PROCESSOR_VENDOR, NdisProcessorVendorUnknown
+ms.keywords: "_NDIS_PROCESSOR_VENDOR, NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorGenuinIntel, ntddndis/PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR, ntddndis/NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, NdisProcessorVendorGenuinIntel, netvista.ndis_processor_vendor, ntddndis/NdisProcessorVendorUnknown, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], NdisProcessorVendorUnknown, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], *PNDIS_PROCESSOR_VENDOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PROCESSOR_VENDOR
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR
+req.typenames: "*PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR"
 ---
 
 # _NDIS_PROCESSOR_VENDOR enumeration
@@ -82,7 +82,6 @@ The processor vendor is Intel.
 ### -field NdisProcessorVendorGenuineIntel
 
 
-
 ### -field NdisProcessorVendorAuthenticAMD
 
 The processor vendor is AMD.
@@ -91,15 +90,19 @@ The processor vendor is AMD.
 ## -remarks
 
 
+
 The NDIS_PROCESSOR_VENDOR enumeration is used in the 
     <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
     NDIS_SYSTEM_PROCESSOR_INFO</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
+
+
 
  
 

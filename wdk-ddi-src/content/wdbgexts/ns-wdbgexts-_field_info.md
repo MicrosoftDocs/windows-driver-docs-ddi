@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 627b14dc-9b13-464c-ba23-6e91bef2b940
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PFIELD_INFO structure pointer [Windows Debugging], FIELD_INFO structure [Windows Debugging], debugger.field_info, _FIELD_INFO, wdbgexts/FIELD_INFO, PFIELD_INFO, FIELD_INFO, *PFIELD_INFO, wdbgexts/PFIELD_INFO, WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml
+ms.keywords: FIELD_INFO structure [Windows Debugging], PFIELD_INFO structure pointer [Windows Debugging], WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml, wdbgexts/PFIELD_INFO, PFIELD_INFO, *PFIELD_INFO, debugger.field_info, FIELD_INFO, _FIELD_INFO, wdbgexts/FIELD_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FIELD_INFO
 product: Windows
 targetos: Windows
-req.typenames: FIELD_INFO, *PFIELD_INFO
+req.typenames: "*PFIELD_INFO, FIELD_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -89,42 +89,6 @@ typedef struct _FIELD_INFO {
 
 
 
-### -field BitField
-
-Receives information about bit fields in a structure.
-      
-	 
-
-
-### -field BitField.Position
-
-Receives the start position of the bit field.  This is the number of bits from to the beginning of the structure to the bit field.
-
-
-### -field BitField.Size
-
-Receives the size, in bits, of the bit field.
-
-
-### -field _BitField
-
-Receives information about bit fields in a structure.
-      
-	 
-
-
-### -field fieldCallBack
-
-Specifies a <a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a> callback function to be called with the information about the member that is specified by <b>fName</b>.  The callback function is passed a structure with the field information and the value of SYM_DUMP_PARAM.<b>context</b>.
-
-No callback function is called if DBG_DUMP_FIELD_NO_CALLBACK_REQ is set in <b>fOptions</b>, <b>fieldCallBack</b> is <b>NULL</b>, or the <b>Options</b> member of the SYM_DUMP_PARAM structure passed to <b>Ioctl</b> does not have DBG_DUMP_CALL_FOR_EACH set.  If DBG_DUMP_FIELD_COPY_FIELD_DATA is set in <b>fOptions</b>, <b>fieldCallBack</b> is not used.
-
-
-### -field pBuffer
-
-Specifies a buffer to receive the value of the member specified by <b>fName</b>.  This member is only used if DBG_DUMP_FIELD_COPY_FIELD_DATA is set in <b>fOptions</b>.
-
-
 ### -field fName
 
 Specifies the name of the symbol's member to which this structure applies.  Submembers can be specified using the delimiters "<b>.</b>" and "<b>-&gt;</b>".  Unless DBG_DUMP_FIELD_FULL_NAME is set in <b>fOptions</b>, <b>fName</b> is considered to be the beginning of the member name.
@@ -152,6 +116,18 @@ Specifies the flags that determine the behavior of the IG_DUMP_SYMBOL_INFO <b>Io
 Receives the address in the target's memory of the member that is specified by <b>fName</b>.  If no address is supplied for the symbol type in SYM_DUMP_PARAM.<b>addr</b>, <b>address</b> receives the offset of the member relative to the beginning of an instance of the type.  For more information about SYM_DUMP_PARAM, see <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>.
 
 
+### -field fieldCallBack
+
+Specifies a <a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a> callback function to be called with the information about the member that is specified by <b>fName</b>.  The callback function is passed a structure with the field information and the value of SYM_DUMP_PARAM.<b>context</b>.
+
+No callback function is called if DBG_DUMP_FIELD_NO_CALLBACK_REQ is set in <b>fOptions</b>, <b>fieldCallBack</b> is <b>NULL</b>, or the <b>Options</b> member of the SYM_DUMP_PARAM structure passed to <b>Ioctl</b> does not have DBG_DUMP_CALL_FOR_EACH set.  If DBG_DUMP_FIELD_COPY_FIELD_DATA is set in <b>fOptions</b>, <b>fieldCallBack</b> is not used.
+
+
+### -field pBuffer
+
+Specifies a buffer to receive the value of the member specified by <b>fName</b>.  This member is only used if DBG_DUMP_FIELD_COPY_FIELD_DATA is set in <b>fOptions</b>.
+
+
 ### -field TypeId
 
 Receives the identifier for the type of the member that is specified by <b>fName</b>.
@@ -165,6 +141,30 @@ Receives the offset of the member within the structure.
 ### -field BufferSize
 
 Specifies the size, in bytes, of the <b>pBuffer</b> buffer.
+
+
+### -field BitField
+
+Receives information about bit fields in a structure.
+      
+	 
+
+
+### -field BitField.Position
+
+Receives the start position of the bit field.  This is the number of bits from to the beginning of the structure to the bit field.
+
+
+### -field BitField.Size
+
+Receives the size, in bits, of the bit field.
+
+
+### -field _BitField
+
+Receives information about bit fields in a structure.
+      
+	 
 
 
 ### -field fPointer
@@ -195,8 +195,8 @@ Receives a Boolean value that indicates whether the member is a constant.  <b>fC
 ### -field Reserved
 
 
-
 ## -remarks
+
 
 
 When calling the <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
@@ -204,15 +204,24 @@ When calling the <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SY
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
-<a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a>
+
 
 <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
 
+
+
+<a href="..\wdbgexts\nc-wdbgexts-psym_dump_field_callback.md">PSYM_DUMP_FIELD_CALLBACK</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540429">DBG_DUMP_FIELD_XXX</a>
+
+
 
  
 

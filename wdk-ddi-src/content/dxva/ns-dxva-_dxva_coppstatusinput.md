@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 693411e9-16d1-42eb-9848-d28876a91b38
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_COPPStatusInput, dxva/DXVA_COPPStatusInput, DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput, display.dxva_coppstatusinput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput structure pointer [Display Devices], dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml, dxva/LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput"
+ms.keywords: DXVA_COPPStatusInput structure [Display Devices], DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput, dxva/LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml, display.dxva_coppstatusinput, LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput structure pointer [Display Devices], dxva/DXVA_COPPStatusInput, _DXVA_COPPStatusInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_COPPStatusInput
 product: Windows
 targetos: Windows
-req.typenames: DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput
+req.typenames: "*LPDXVA_COPPStatusInput, DXVA_COPPStatusInput"
 ---
 
 # _DXVA_COPPStatusInput structure
@@ -83,6 +83,7 @@ Specifies the GUID that identifies the status request. The following status requ
 
 
 
+
 #### DXVA_COPPQueryConnectorType
 
 <div class="code"><span codelanguage=""><table>
@@ -96,6 +97,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </td>
 </tr>
 </table></span></div>
+
 
 #### DXVA_COPPQueryProtectionType
 
@@ -111,6 +113,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 </table></span></div>
 
+
 #### DXVA_COPPQueryLocalProtectionLevel
 
 <div class="code"><span codelanguage=""><table>
@@ -124,6 +127,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </td>
 </tr>
 </table></span></div>
+
 
 #### DXVA_COPPQueryGlobalProtectionLevel
 
@@ -139,6 +143,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 </table></span></div>
 
+
 #### DXVA_COPPQueryDisplayData
 
 <div class="code"><span codelanguage=""><table>
@@ -152,6 +157,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </td>
 </tr>
 </table></span></div>
+
 
 #### DXVA_COPPQueryHDCPKeyData
 
@@ -167,6 +173,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </tr>
 </table></span></div>
 
+
 #### DXVA_COPPQueryBusData
 
 <div class="code"><span codelanguage=""><table>
@@ -180,6 +187,7 @@ Specifies the GUID that identifies the status request. The following status requ
 </td>
 </tr>
 </table></span></div>
+
 
 #### DXVA_COPPQuerySignaling
 
@@ -217,21 +225,33 @@ The DXVA_COPPQueryLocalProtectionLevel and DXVA_COPPQueryGlobalProtectionLevel r
 ## -remarks
 
 
+
 Status requests are passed in the <i>pInput</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a> function. Status information is returned through the <i>pOutput</i> parameter of <i>COPPQueryStatus</i>. The <a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a> structure describes the returned status information.
+
 
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
-<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppsignature.md">DXVA_COPPSignature</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+
+
 
  
 

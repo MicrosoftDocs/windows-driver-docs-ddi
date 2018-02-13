@@ -40,7 +40,7 @@ apiname:
 -	pfnStatePsConstBufCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_STATE_PS_CONSTBUF_CB callback
@@ -75,8 +75,9 @@ void APIENTRY pfnStatePsConstBufCb(
 ### -param D3D10DDI_HRTCORELAYER
 
 
-
 ### -param UINT
+
+
 
 
 
@@ -101,14 +102,18 @@ void APIENTRY pfnStatePsConstBufCb(
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <i>Base</i> and <i>Count</i> parameters that the driver passes to the <b>pfnStatePsConstBufCb</b> function directly correspond to the <i>StartBuffer</i> and <i>NumBuffers</i> parameters that are passed to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setconstantbuffers.md">PsSetConstantBuffers</a> function.
+
 
 
 
@@ -116,9 +121,15 @@ The <i>Base</i> and <i>Count</i> parameters that the driver passes to the <b>pfn
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setconstantbuffers.md">PsSetConstantBuffers</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
 
  
 

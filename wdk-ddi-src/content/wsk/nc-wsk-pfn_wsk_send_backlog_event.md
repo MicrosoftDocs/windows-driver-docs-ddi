@@ -40,7 +40,7 @@ apiname:
 -	WskSendBacklogEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ A pointer to the socket context for the connection-oriented socket that is notif
      application about a change to its ideal send backlog size. The WSK application provided this pointer to
      the WSK subsystem in one of the following ways:
      
+
 <ul>
 <li>
 It called the 
@@ -114,12 +115,15 @@ A variable that contains the new ideal send backlog size.
 ## -returns
 
 
+
 A WSK application's 
      <i>WskSendBacklogEvent</i> event callback function must always return STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 The WSK subsystem calls a WSK application's 
@@ -146,22 +150,37 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
+
+
 
  
 

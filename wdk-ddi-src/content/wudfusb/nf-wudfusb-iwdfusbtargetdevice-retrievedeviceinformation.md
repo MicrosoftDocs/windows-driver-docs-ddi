@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, umdf.iwdfusbtargetdevice_retrievedeviceinformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, wdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, IWDFUsbTargetDevice
+ms.keywords: UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, RetrieveDeviceInformation method, IWDFUsbTargetDevice::RetrieveDeviceInformation, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, IWDFUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetDevice.RetrieveDeviceInformation
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -91,7 +91,9 @@ A pointer that receives the buffer that contains the device information.
 ## -returns
 
 
+
 <b>RetrieveDeviceInformation</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For information about valid information types that a UMDF driver can pass for the <i>InformationType</i> parameter, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a> function.
@@ -146,12 +151,23 @@ If <i>InformationType</i> is DEVICE_SPEED (0x01), on successful return, <i>Buffe
 The <b>RetrieveDeviceInformation</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
 
+#### Examples
+
+For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
 
  
 

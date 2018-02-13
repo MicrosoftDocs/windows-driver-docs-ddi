@@ -86,8 +86,9 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
 
 
 
-### -param UINT
 
+
+### -param UINT
 
 
 #### - pData [in]
@@ -115,11 +116,14 @@ If the pointer is <b>NULL</b>, the user-mode display driver should use its fast 
 ## -returns
 
 
+
 <b>DrawIndexedPrimitive2</b> returns S_OK or an appropriate error result if the primitive is not successfully drawn.
 
 
 
+
 ## -remarks
+
 
 
 Stream zero contains transform indices and is the only stream that should be accessed. 
@@ -128,13 +132,20 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

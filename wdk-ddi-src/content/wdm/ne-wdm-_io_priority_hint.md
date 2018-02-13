@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IoPriorityHigh, wdm/IoPriorityCritical, wdm/MaxIoPriorityTypes, IoPriorityHigh, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityNormal, IoPriorityCritical, _IO_PRIORITY_HINT, wdm/IO_PRIORITY_HINT, wdm/IoPriorityLow, wdm/IoPriorityVeryLow, kernel.io_priority_hint, IO_PRIORITY_HINT, IoPriorityLow, IoPriorityVeryLow, MaxIoPriorityTypes, wdm/IoPriorityNormal
+ms.keywords: IoPriorityNormal, IoPriorityCritical, kernel.io_priority_hint, wdm/IoPriorityNormal, wdm/IoPriorityCritical, wdm/MaxIoPriorityTypes, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], wdm/IoPriorityLow, IoPriorityLow, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IoPriorityHigh, MaxIoPriorityTypes, IoPriorityVeryLow, _IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, wdm/IO_PRIORITY_HINT, IoPriorityHigh, IO_PRIORITY_HINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -106,15 +106,21 @@ Marks the limit for priority hints. Any priority hint value must be less than <b
 ## -remarks
 
 
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iosetiopriorityhint.md">IoSetIoPriorityHint</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
 
-<a href="..\wdm\nf-wdm-iosetiopriorityhint.md">IoSetIoPriorityHint</a>
+
 
  
 

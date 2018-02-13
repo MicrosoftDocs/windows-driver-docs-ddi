@@ -40,7 +40,7 @@ apiname:
 -	RequestCommon
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback
@@ -84,11 +84,14 @@ A pointer to a data structure that contains the input data and/or result data fo
 ## -returns
 
 
+
 <b>RequestCommon</b> returns STATUS_SUCCESS if the request is successfully handled. Otherwise, it returns an appropriate error status code.
 
 
 
+
 ## -remarks
+
 
 
 This routine is implemented by the <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
@@ -97,9 +100,12 @@ A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
 
+
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
 
  
 

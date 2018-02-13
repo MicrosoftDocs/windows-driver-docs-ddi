@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18406f06-d60c-401e-a745-54caf1d0c21d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, kmdf.wdfcmresourcelistinsertdescriptor, WdfCmResourceListInsertDescriptor method, PFN_WDFCMRESOURCELISTINSERTDESCRIPTOR, WdfCmResourceListInsertDescriptor, wdfresource/WdfCmResourceListInsertDescriptor, wdf.wdfcmresourcelistinsertdescriptor
+ms.keywords: WdfCmResourceListInsertDescriptor method, WdfCmResourceListInsertDescriptor, kmdf.wdfcmresourcelistinsertdescriptor, DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, wdfresource/WdfCmResourceListInsertDescriptor, PFN_WDFCMRESOURCELISTINSERTDESCRIPTOR, wdf.wdfcmresourcelistinsertdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,7 +91,9 @@ A zero-based value that is used as an index into the logical configuration that 
 ## -returns
 
 
+
 <b>WdfCmResourceListInsertDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,7 +143,8 @@ The value that the <i>Index</i> parameter specified was too large.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
@@ -149,7 +152,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfCmResourceListInsertDescriptor</b> method inserts the resource descriptor that <i>Descriptor</i> specifies into the resource list that <i>List</i> specifies, in front of the resource descriptor that <i>Index</i> value identifies.
@@ -161,18 +166,65 @@ The framework copies the contents of the <a href="..\wdm\ns-wdm-_cm_partial_reso
 For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example adds a resource descriptor to the end of the resource list that an <a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a> callback function receives. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+PdoEvtDeviceResourcesQuery(
+    IN WDFDEVICE  Device,
+    IN WDFCMRESLIST  Resources
+    )
+{
+    CM_PARTIAL_RESOURCE_DESCRIPTOR newDescriptor;
+...
+    newDescriptor.Type = CmResourceTypePort;
+    newDescriptor.ShareDisposition = CmResourceShareDeviceExclusive;
+    newDescriptor.Flags = CM_RESOURCE_PORT_IO|CM_RESOURCE_PORT_16_BIT_DECODE;
+    newDescriptor.u.Port.Length = 1;
+    newDescriptor.u.Port.Start = 0;
+
+    status = WdfCmResourceListInsertDescriptor(
+                                               Resources,
+                                               &amp;newDescriptor,
+                                               WDF_INSERT_AT_END
+                                               );
+...
+
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md">WdfCmResourceListAppendDescriptor</a>
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
 
 <a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a>
 
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
+
+
 <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
-<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md">WdfCmResourceListAppendDescriptor</a>
+
 
  
 

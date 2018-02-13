@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, wdf.wdfpdoupdateaddressdescription, WdfPdoUpdateAddressDescription method, wdfpdo/WdfPdoUpdateAddressDescription, kmdf.wdfpdoupdateaddressdescription, WdfPdoUpdateAddressDescription
+ms.keywords: WdfPdoUpdateAddressDescription method, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a caller-allocated buffer that contains an address description. The
 ## -returns
 
 
+
 If the operation succeeds, the function returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,7 +116,8 @@ The <i>Device</i> handle does not represent a device that was <a href="https://d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other<a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505"> NTSTATUS values</a>.
 
@@ -122,9 +125,12 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveaddressdescription.md">WdfPdoRetrieveAddressDescription</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	AgpSetCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKCB_AGP_SET_COMMAND callback
@@ -81,6 +81,7 @@ A handle to a context block that is associated with an AGP interface. The displa
 A set of flags that specify the AGP rate and the types of AGP transactions that will be used.
 
 The caller must set one, and only one, of the following flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -126,9 +127,11 @@ The AGP transfer rate is 8X.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The caller might also choose to set or clear the following flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -154,32 +157,45 @@ If this flag is set, fast write transactions are disabled. If this flag is clear
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>AgpSetCommand</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 None.
 
 
 
+
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_free_pool.md">AgpFreePool</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a>
+
+
 
  
 

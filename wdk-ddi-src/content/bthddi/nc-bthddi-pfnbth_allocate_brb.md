@@ -40,7 +40,7 @@ apiname:
 -	BthAllocateBrb
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTH_ALLOCATE_BRB callback
@@ -90,12 +90,15 @@ Specifies a 4-byte
 ## -returns
 
 
+
 <i>BthAllocateBrb</i> returns a pointer to the newly allocated BRB, or <b>NULL</b> if the system is out of
      memory.
 
 
 
+
 ## -remarks
+
 
 
 Profile drivers obtain a pointer to the 
@@ -106,13 +109,20 @@ Profile drivers obtain a pointer to the
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
 
 pool tag
 
+
+
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
 
  
 

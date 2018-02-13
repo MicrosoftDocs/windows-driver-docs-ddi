@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b8fc849-8794-4dab-af28-a1c0dfd859d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml, DXVAHDDDI_STREAM_DATA structure [Display Devices], _DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA, display.dxvahdddi_stream_data, d3dumddi/DXVAHDDDI_STREAM_DATA
+ms.keywords: display.dxvahdddi_stream_data, DXVAHDDDI_STREAM_DATA, d3dumddi/DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA structure [Display Devices], _DXVAHDDDI_STREAM_DATA, DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,7 +117,9 @@ typedef struct _DXVAHDDDI_STREAM_DATA {
 ## -remarks
 
 
+
 The driver must allocate the surfaces that the <b>pPastSurfaces</b>, <b>InputSurface</b>, and <b>pFutureSurfaces</b> members specify in the pool type, which the driver sets in the <b>InputPool</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a> structure, and with one of the following surface types; otherwise, the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a> function returns an error.
+
 <ul>
 <li>
 A video surface that is created with the DXVAHD_SURFACE_TYPE_VIDEO_INPUT or DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE type. 
@@ -131,7 +133,9 @@ A decode render target surface that is created with the DXVA2_VideoDecodeRenderT
 An off-screen plain surface. 
 
 </li>
-</ul>The <b>OutputIndex</b> member is a zero-based cyclic number that indicates the frame index number of the output. The driver uses this output-index information to perform the video processing in a certain pattern or cycle, especially when the driver performs deinterlacing, frame-rate conversion, and inverse telecine. For example, with the following output-index pattern, the driver performs the indicated video processing:
+</ul>
+The <b>OutputIndex</b> member is a zero-based cyclic number that indicates the frame index number of the output. The driver uses this output-index information to perform the video processing in a certain pattern or cycle, especially when the driver performs deinterlacing, frame-rate conversion, and inverse telecine. For example, with the following output-index pattern, the driver performs the indicated video processing:
+
 <ul>
 <li>
 Progressive format at normal and half rate:  
@@ -163,7 +167,9 @@ Interlaced at 4/5 custom rate (3:2 inverse telecine, OutputFrames=4):
 OutputIndex = 0, 1, 2, 3, 0, 1, 2, 3,... (0:A, 1:B, 2:C, 3:D film frame) 
 
 </li>
-</ul>The <b>InputFrameOrField</b> member is a zero-based number that indicates the frame or the field number of the input surface. For example, with the following input-frame-or-field number, the driver can perform the indicated video processing: 
+</ul>
+The <b>InputFrameOrField</b> member is a zero-based number that indicates the frame or the field number of the input surface. For example, with the following input-frame-or-field number, the driver can perform the indicated video processing: 
+
 <ul>
 <li>
 Progressive format and interlaced format at normal rate:  
@@ -189,7 +195,8 @@ Interlaced format at 4/15 custom rate (8:7 inverse telecine, OutputFrames=2 and 
 InputFrameOrField = 0, 0, 15, 15, 30, 30,...
 
 </li>
-</ul>The application should cause both the <b>OutputIndex</b> and <b>InputFrameOrField</b> members to reset when either the frame format or the output rate is changed so that the driver can reset its internal processing state. For more information about changing frame format or output rate, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a> and <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>.
+</ul>
+The application should cause both the <b>OutputIndex</b> and <b>InputFrameOrField</b> members to reset when either the frame format or the output rate is changed so that the driver can reset its internal processing state. For more information about changing frame format or output rate, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a> and <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>.
 
 However, if the driver switches between normal and half rate (values from the <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a> enumeration), the driver should not require the reset. 
 
@@ -198,6 +205,7 @@ If both the <b>OutputIndex</b> and <b>InputFrameOrField</b> members remain uncha
 The driver should fallback to a less intensive video processing method as less reference frames are provided. The driver should fallback to Bob de-interlacing when no reference samples are provided.
 
 An application can provide less past and future reference frames than the reference frames that the driver requests. For example, an application can provide less reference frames in the following conditions:
+
 <ul>
 <li>
 At the beginning or at the end of the frame sequence. 
@@ -223,7 +231,8 @@ While throttling the reference frames to recover from frame drops and to keep up
 Frame dropping from the input (for example, frame drops in the decoder). 
 
 </li>
-</ul>Both the past and the future reference frames are provided in the  <b>pPastSurfaces</b> and <b>pFutureSurfaces</b> array members in temporal order from older to newer frames continuously. For example, the order of the elements in the arrays are as shown in the following example:
+</ul>
+Both the past and the future reference frames are provided in the  <b>pPastSurfaces</b> and <b>pFutureSurfaces</b> array members in temporal order from older to newer frames continuously. For example, the order of the elements in the arrays are as shown in the following example:
 
 <b>pPastSurfaces</b> [] = {..., T-3, T-2, T-1}
 
@@ -232,6 +241,7 @@ Frame dropping from the input (for example, frame drops in the decoder).
 <b>pFutureSurfaces</b> [] = {T+1, T+2, T+3,...}
 
 The input and reference frames change location from the future location to the past location through the current location as the <b>OutputIndex</b> and <b>InputFrameOrField</b> members increment. For example, the input surface changes as the <b>OutputIndex</b> and <b>InputFrameOrField</b> increment when the driver performs the following video processing:
+
 <ul>
 <li>
 Progressive format at normal rate:  
@@ -283,7 +293,9 @@ InputFrameOrField = 0, 0, 15, 15, 30, 30,...
 InputSurface = T, T, T+7, T+7, T+15, T+15,...  (note that T+7 frame contains 15th field) 
 
 </li>
-</ul>The following pseudo-code example shows the interaction between the application (APP) and the driver (DRV) while performing Inverse Telecine (IVTC) on 3:2 pull-down, 30 frames (60 fields) per second interlaced content:
+</ul>
+The following pseudo-code example shows the interaction between the application (APP) and the driver (DRV) while performing Inverse Telecine (IVTC) on 3:2 pull-down, 30 frames (60 fields) per second interlaced content:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -336,21 +348,36 @@ DRV: Weave [0(A0)+0(A1)] = A
 </table></span></div>
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_surface.md">DXVAHDDDI_SURFACE</a>
+
+
+
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_output_rate.md">DXVAHDDDI_OUTPUT_RATE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+
+
 
  
 

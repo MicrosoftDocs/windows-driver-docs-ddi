@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 45DCE635-6F28-4BE1-8362-568409FA8B1B
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: "_SECURE_ELEMENT_EVENT_TYPE, nfcsedev/ExternalReaderArrival, HceActivated, *PSECURE_ELEMENT_EVENT_TYPE, nfcsedev/HceDeactivated, ExternalReaderDeparture, nfpdrivers._secure_element_event_type, ExternalReaderArrival, nfcsedev/ApplicationSelected, nfcsedev/ExternalReaderDeparture, ApplicationSelected, Transaction, _SECURE_ELEMENT_EVENT_TYPE enumeration [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_TYPE, HceDeactivated, nfcsedev/HceActivated, nfcsedev/Transaction, nfcsedev/_SECURE_ELEMENT_EVENT_TYPE"
+ms.keywords: ExternalReaderDeparture, HceDeactivated, SECURE_ELEMENT_EVENT_TYPE, nfcsedev/ApplicationSelected, nfcsedev/ExternalReaderArrival, ApplicationSelected, *PSECURE_ELEMENT_EVENT_TYPE, Transaction, HceActivated, _SECURE_ELEMENT_EVENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/_SECURE_ELEMENT_EVENT_TYPE, ExternalReaderArrival, nfcsedev/HceActivated, nfcsedev/HceDeactivated, _SECURE_ELEMENT_EVENT_TYPE, nfcsedev/ExternalReaderDeparture, nfpdrivers._secure_element_event_type, nfcsedev/Transaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: de2f8897-c75f-4c37-aecb-f36d0f9933f9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, sti/IStiDevice::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice, IStiDevice interface [Imaging Devices], GetLastErrorInfo method, image.istidevice_getlasterrorinfo, GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, IStiDevice::GetLastErrorInfo
+ms.keywords: GetLastErrorInfo, IStiDevice interface [Imaging Devices], GetLastErrorInfo method, IStiDevice::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetLastErrorInfo, IStiDevice, GetLastErrorInfo method [Imaging Devices], stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, image.istidevice_getlasterrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT GetLastErrorInfo(
 
 
 
+
 #### - pLastErrorInf [out]
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a> structure to receive error information.
@@ -82,15 +83,19 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the most recent error by filling in the caller-supplied <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a> structure. The method calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543820">IStiUSD::GetLastErrorInfo</a>, which is exported by vendor-supplied minidrivers.
 
 Before calling <b>IStiDevice::GetLastErrorInfo</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+
 
 

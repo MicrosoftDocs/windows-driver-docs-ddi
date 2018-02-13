@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71524333-dd5d-4f0b-8dd3-034ea926bc93
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL, *PMDLX, MDL, _MDL, PMDL, kernel.mdl, MDL structure [Kernel-Mode Driver Architecture]
+ms.keywords: "_MDL, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, MDL structure [Kernel-Mode Driver Architecture], MDL, wdm/MDL, PMDL, kernel.mdl, *PMDLX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,22 +68,12 @@ struct MDL {
 
 
 
-### -field _MDL
-
- 
-
-
 ### -field Next
 
 Pointer to the next MDL in an MDL chain. For more information about MDL chains, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
 
-### -field _EPROCESS
-
- 
-
-
-### -field Process
+### -field _MDL
 
  
 
@@ -94,6 +84,16 @@ Pointer to the next MDL in an MDL chain. For more information about MDL chains, 
 
 
 ### -field MdlFlags
+
+ 
+
+
+### -field Process
+
+ 
+
+
+### -field _EPROCESS
 
  
 
@@ -119,10 +119,13 @@ Pointer to the next MDL in an MDL chain. For more information about MDL chains, 
 
 
 
+
 ## -remarks
 
 
+
 An MDL describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
+
 
 
 
@@ -130,15 +133,27 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
 
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
+
 
 <a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+
+
 
  
 

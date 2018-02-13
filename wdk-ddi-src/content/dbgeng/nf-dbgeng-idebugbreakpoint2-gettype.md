@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2::GetType, GetType method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetType method, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype, IDebugBreakpoint2, IDebugBreakpoint interface [Windows Debugging], GetType method, GetType method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetType, GetType, GetType method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_3305c400-f816-463b-a643-4495bf546460.xml
+ms.keywords: GetType method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetType, GetType method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetType method, IDebugBreakpoint interface [Windows Debugging], GetType method, dbgeng/IDebugBreakpoint::GetType, debugger.gettype, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint2::GetType, IDebugBreakpoint2, IDebugBreakpoint, GetType, ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType method [Windows Debugging], IDebugBreakpoint interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,6 +72,7 @@ HRESULT GetType(
 ### -param BreakType [out]
 
 The type of the breakpoint.  The type can be one of the following  values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,7 +98,8 @@ Processor breakpoint
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ProcType [out]
@@ -106,6 +108,7 @@ The type of the processor that the breakpoint is set for.
 
 
 ## -returns
+
 
 
 <table>
@@ -124,13 +127,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 If changes are made to the breakpoint, the processor type might change.
@@ -138,5 +144,6 @@ If changes are made to the breakpoint, the processor type might change.
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the information that is returned in <i>BreakType</i> and <i>ProcType</i>.
 
 For more information about breakpoint types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>.
+
 
 

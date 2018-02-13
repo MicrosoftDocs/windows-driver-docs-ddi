@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2326130f-7e5f-492f-88a9-9eadeccc4827
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, debugger.getsymbolpathwide, GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSymbolPathWide, GetSymbolPathWide method [Windows Debugging], IDebugSymbols3::GetSymbolPathWide, dbgeng/IDebugSymbols3::GetSymbolPathWide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolPathWide method, GetSymbolPathWide, dbgeng/IDebugSymbols3::GetSymbolPathWide, IDebugSymbols3::GetSymbolPathWide, debugger.getsymbolpathwide, GetSymbolPathWide method [Windows Debugging], GetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ Receives the size, in characters, of the symbol path.
 ## -returns
 
 
+
 These methods can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,24 +117,34 @@ The method was successful. However, the buffer was not large enough to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about manipulating the symbol path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560150">Using Symbols</a>.  For an overview of the symbol path and its syntax, see <a href="https://msdn.microsoft.com/705df98f-717f-40ad-a424-101826970691">Symbol Path</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
+
+
 
  
 

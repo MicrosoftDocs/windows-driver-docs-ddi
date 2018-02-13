@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2675395-08b6-44e6-8052-1fdd7b693c31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], RILADDITIONALNUMBERSTRINGUPDATE, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE, netvista.riladditionalnumberstringupdate_2"
+ms.keywords: netvista.riladditionalnumberstringupdate_2, RILADDITIONALNUMBERSTRINGUPDATE, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], *LPRILADDITIONALNUMBERSTRINGUPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,19 +75,14 @@ typedef struct _RILADDITIONALNUMBERSTRINGUPDATE {
 ### -field cbSize
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwOpType
 
 
-
 ### -field dwNumId
 
 
-
 ### -field wszText
-
 

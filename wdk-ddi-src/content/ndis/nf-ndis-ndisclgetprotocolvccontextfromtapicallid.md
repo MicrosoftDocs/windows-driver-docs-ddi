@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5c716207-b093-499a-8fad-344b5ac51e25
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], netvista.ndisclgetprotocolvccontextfromtapicallid, condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId
+ms.keywords: netvista.ndisclgetprotocolvccontextfromtapicallid, NdisClGetProtocolVcContextFromTapiCallId, condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClGetProtocolVcContextFromTapiCallId
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisClGetProtocolVcContextFromTapiCallId function
@@ -87,7 +87,9 @@ Pointer to a caller-allocated NDIS_HANDLE that receives a handle to the client c
 ## -returns
 
 
+
 Returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,11 +118,14 @@ The attempt to retrieve the handle to the client VC context failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Suppose a call manager calls 
@@ -145,13 +150,20 @@ See the
 
 
 
-## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndiscogettapicallid.md">NdisCoGetTapiCallId</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

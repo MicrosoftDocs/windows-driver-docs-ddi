@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION, wdm/DEVICE_DESCRIPTION, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, kernel.device_description, DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION3, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION2, wdm/PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION1"
+ms.keywords: DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION, wdm/DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION_VERSION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION3, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, _DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION, kernel.device_description, DEVICE_DESCRIPTION_VERSION2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_DESCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION"
+req.typenames: DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION
 req.product: Windows 10 or later.
 ---
 
@@ -89,7 +89,8 @@ typedef struct _DEVICE_DESCRIPTION {
 
 ### -field Version
 
-The version of this structure. The <b>Version</b> member of the <b>DEVICE_DESCRIPTION</b> structure that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine determines which version of the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure is returned by this routine. The following is a list of the possible values of the <b>Version</b> member and the corresponding <b>DMA_ADAPTER</b> versions:
+The version of this structure. The <b>Version</b> member of the <b>DEVICE_DESCRIPTION</b> structure that is passed to the <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> routine determines which version of the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure is returned by this routine. The following is a list of the possible values of the <b>Version</b> member and the corresponding <b>DMA_ADAPTER</b> versions:
+
 
 
 #### DEVICE_DESCRIPTION_VERSION
@@ -97,14 +98,17 @@ The version of this structure. The <b>Version</b> member of the <b>DEVICE_DESCRI
 If <b>Version</b> = <b>DEVICE_DESCRIPTION_VERSION</b>, <b>IoGetDmaAdapter</b> ignores the <b>IgnoreCount</b> member, and returns version 1 of the <b>DMA_ADAPTER</b> structure.
 
 
+
 #### DEVICE_DESCRIPTION_VERSION1
 
 If <b>Version</b> = <b>DEVICE_DESCRIPTION_VERSION1</b>, <b>IoGetDmaAdapter</b> uses the <b>IgnoreCount</b> member, and returns version 1 of the <b>DMA_ADAPTER</b> structure.
 
 
+
 #### DEVICE_DESCRIPTION_VERSION2
 
 If <b>Version</b> = <b>DEVICE_DESCRIPTION_VERSION2</b>, <b>IoGetDmaAdapter</b> uses the <b>IgnoreCount</b> member, and returns version 2 of the <b>DMA_ADAPTER</b> structure. Version 2 is available starting with  Windows XP.
+
 
 
 #### DEVICE_DESCRIPTION_VERSION3
@@ -252,7 +256,8 @@ For a bus-master DMA device, the <b>DeviceAddress</b> member is not used.
 ## -remarks
 
 
-The driver of a device that uses DMA to transfer data uses the <b>DEVICE_DESCRIPTION</b> structure to pass information about the device to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine. The driver calls this routine to request an adapter object for a physical device object (PDO). This PDO represents the device's physical connection to the I/O bus to use for DMA. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546535">Getting an Adapter Object</a>.
+
+The driver of a device that uses DMA to transfer data uses the <b>DEVICE_DESCRIPTION</b> structure to pass information about the device to the <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> routine. The driver calls this routine to request an adapter object for a physical device object (PDO). This PDO represents the device's physical connection to the I/O bus to use for DMA. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546535">Getting an Adapter Object</a>.
 
 To allocate resources for a DMA controller, the I/O manager needs information about the controller but can obtain some of this information only from a driver. For example, the driver for a bus-master device knows whether the device supports scatter/gather DMA or uses full 32-bit addresses. Or, the driver for a subordinate device can determine the DMA channel number from the resource list that the driver receives in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request that starts the device. The driver uses the <b>DEVICE_DESCRIPTION</b> structure to pass this information to the I/O manager.
 
@@ -270,19 +275,32 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
+
+
 <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

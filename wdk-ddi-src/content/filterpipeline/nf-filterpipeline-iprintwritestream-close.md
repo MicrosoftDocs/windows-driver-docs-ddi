@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintWriteStream::Close, IPrintWriteStream, Close method [Print Devices], IPrintWriteStream interface [Print Devices], Close method, Close, print.iprintwritestream_close, filterpipeline/IPrintWriteStream::Close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, Close method [Print Devices], IPrintWriteStream interface
+ms.keywords: filterpipeline/IPrintWriteStream::Close, Close, IPrintWriteStream, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, Close method [Print Devices], print.iprintwritestream_close, IPrintWriteStream interface [Print Devices], Close method, IPrintWriteStream::Close, Close method [Print Devices], IPrintWriteStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -68,13 +68,15 @@ void STDMETHODCALLTYPE Close(
 
 
 
-#### - None
 
+#### - None
 
 
 ## -returns
 
 
+
 None
+
 
 

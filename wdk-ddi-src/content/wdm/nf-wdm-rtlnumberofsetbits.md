@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6208f750-4871-43b9-b848-011180d39fd8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlnumberofsetbits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], wdm/RtlNumberOfSetBits, k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, RtlNumberOfSetBits
+ms.keywords: k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, RtlNumberOfSetBits, kernel.rtlnumberofsetbits, wdm/RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,26 +77,38 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 ## -returns
 
 
+
 <b>RtlNumberOfSetBits</b> returns a count of the bits that are currently set. 
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlNumberOfSetBits</b> can be called at any IRQL.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
 
 <a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
+
 
  
 

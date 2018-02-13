@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4ce9f377-ca5e-4574-9d80-60b74ee0de85
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/READ_REGISTER_BUFFER_UCHAR, kernel.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml
+ms.keywords: READ_REGISTER_BUFFER_UCHAR, wdm/READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_053aab44-4a1f-4eb3-a052-ee00f16a349d.xml, kernel.read_register_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,15 +88,19 @@ Specifies the number of bytes to be read into the buffer.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 Callers of <b>READ_REGISTER_BUFFER_UCHAR</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
+
 
 

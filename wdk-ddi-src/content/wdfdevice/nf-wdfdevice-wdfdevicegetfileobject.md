@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e56d444-4248-4f00-b712-cbb3a4869302
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceGetFileObject, WdfDeviceGetFileObject, PFN_WDFDEVICEGETFILEOBJECT, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, wdf.wdfdevicegetfileobject, kmdf.wdfdevicegetfileobject, WdfDeviceGetFileObject method
+ms.keywords: kmdf.wdfdevicegetfileobject, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, wdfdevice/WdfDeviceGetFileObject, WdfDeviceGetFileObject, PFN_WDFDEVICEGETFILEOBJECT, WdfDeviceGetFileObject method, wdf.wdfdevicegetfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,22 +85,67 @@ A pointer to a WDM <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> struc
 ## -returns
 
 
+
 <b>WdfDeviceGetFileObject</b> returns a handle to the framework file object that is associated with the specified WDM file object. If a framework file object was not created for the file, or if the <i>FileObject</i> pointer is invalid, the method returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about framework file objects, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
+
+
+#### Examples
+
+The following code example obtains a pointer to a named WDM device object and its corresponding WDM file object, if the requested access to the objects can be granted. Then, the example obtains a handle to the framework file object that is associated with the WDM file object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PFILE_OBJECT  pWdmFileObject = NULL;
+PDEVICE_OBJECT  pWdmDeviceObject = NULL;
+WDFFILEOBJECT  fileObject = NULL;
+NTSTATUS  status = STATUS_SUCCESS;
+BOOLEAN  success = TRUE;
+
+status = IoGetDeviceObjectPointer(
+                                  &amp;inputFileName,    // File name 
+                                  FILE_ALL_ACCESS,   // Access mask
+                                  &amp;pWdmFileObject,   // Output pointer of WDM file object
+                                  &amp;pWdmDeviceObject  // Output pointer of WDM device object
+                                  );
+
+if(!NT_SUCCESS(status)){
+    success = FALSE;
+    break;
+}
+
+fileObject = WdfDeviceGetFileObject(
+                                    gDeviceObject,  // Handle to device object
+                                    pWdmFileObject  // Handle to WDM file object
+                                    );
+if(fileObject == NULL){
+    success = FALSE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bee76337-8349-4e61-9b0c-e525ed001850
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetPreferredOperatorList, RIL_GetPreferredOperatorList, netvista.ril_getpreferredoperatorlist, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetPreferredOperatorList, rilapi/RIL_GetPreferredOperatorList, netvista.ril_getpreferredoperatorlist, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_GetPreferredOperatorList(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwFormat
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

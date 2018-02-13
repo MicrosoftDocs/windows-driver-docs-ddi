@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71011FDF-547E-4FF0-9015-E8E09FDF950E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_INTERRUPT_CONFIG_INIT function, wdf.wudf_interrupt_config_init, umdf.wudf_interrupt_config_init, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT
+ms.keywords: umdf.wudf_interrupt_config_init, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT, wdf.wudf_interrupt_config_init, WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,15 +92,25 @@ A pointer to the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interr
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The <b>WUDF_INTERRUPT_CONFIG_INIT</b> function zeros the specified <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure and sets its <b>Size</b> member to the structure's size. It also stores the specified callback function pointer(s).
 
 <b>WUDF_INTERRUPT_CONFIG_INIT</b> initializes the configuration structure's <b>ShareVector</b> member to <b>WdfUseDefault</b> and the <b>AutomaticSerialization</b> member to FALSE.
+
+
+#### Examples
+
+For a code example that uses <b>WUDF_INTERRUPT_CONFIG_INIT</b>, see <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
+
+<div class="code"></div>
 
 

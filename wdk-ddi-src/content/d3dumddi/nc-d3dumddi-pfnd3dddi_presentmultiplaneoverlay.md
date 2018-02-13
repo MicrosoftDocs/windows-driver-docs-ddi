@@ -83,6 +83,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pPresent [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay.md">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a> structure that describes how to display to the destination surface. 
@@ -91,14 +93,18 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_presentmultiplaneoverl
 ## -returns
 
 
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 When the user-mode display driver successfully completes its processing of a call to this function, it presents the source surface to the display by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780323">pfnPresentMultiPlaneOverlayCb (D3D)</a> function.
+
 
 
 
@@ -106,7 +112,11 @@ When the user-mode display driver successfully completes its processing of a cal
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780323">pfnPresentMultiPlaneOverlayCb (D3D)</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay.md">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a>
+
+
 
  
 

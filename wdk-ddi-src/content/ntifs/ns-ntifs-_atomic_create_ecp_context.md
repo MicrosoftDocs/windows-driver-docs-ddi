@@ -7,8 +7,8 @@ old-location: ifsk\atomic_create_ecp_context.htm
 old-project: ifsk
 ms.assetid: CFA879CC-6124-4E1C-B440-358455A5E6EF
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET, ifsk.atomic_create_ecp_context, PATOMIC_CREATE_ECP_CONTEXT structure pointer [Installable File System Drivers], ntifs/ATOMIC_CREATE_ECP_CONTEXT, ntifs/PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED, PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET, ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK, *PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK, ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET, ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED, _ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT, ATOMIC_CREATE_ECP_CONTEXT structure [Installable File System Drivers], ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET
+ms.date: 2/7/2018
+ms.keywords: ntifs/ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT, ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED, ifsk.atomic_create_ecp_context, ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET, _ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK, ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET, ATOMIC_CREATE_ECP_CONTEXT structure [Installable File System Drivers], ATOMIC_CREATE_ECP_CONTEXT, ntifs/PATOMIC_CREATE_ECP_CONTEXT, PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED, PATOMIC_CREATE_ECP_CONTEXT structure pointer [Installable File System Drivers], ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET, ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET, ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK, ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED, *PATOMIC_CREATE_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ATOMIC_CREATE_ECP_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_CONTEXT"
+req.typenames: ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT
 ---
 
 # _ATOMIC_CREATE_ECP_CONTEXT structure
@@ -90,6 +90,7 @@ The size of the context structure.
 ### -field InFlags
 
 Flags that indicate the requested supplemental operation(s) to be performed with the create operation.
+
 <table>
 <tr>
 <th>Value</th>
@@ -170,12 +171,14 @@ perform all of the requested supplemental operations.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field OutFlags
 
 Flags that indicate the actual supplemental operation(s) performed with a successful create operation.
+
 <table>
 <tr>
 <th>Value</th>
@@ -237,7 +240,8 @@ Use this flag value as a mask to determine the supplemental operations that were
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ReparseBufferLength
@@ -283,6 +287,8 @@ Specifies the Update Sequence Number (USN). This value is filled at the end of <
 ## -remarks
 
 
+
 The GUID used for this structure is the <b>GUID_ECP_ATOMIC_CREATE</b> (<code>4720bd83-52ac-4104-a130-d1ec6a8cc8e5</code>).
+
 
 

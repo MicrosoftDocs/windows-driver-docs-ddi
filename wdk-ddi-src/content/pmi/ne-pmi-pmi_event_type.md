@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PmiCapabilitiesChangedEvent, pmi/PmiThresholdEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiConfigurationChangedEvent, pmi/PmiAveragingIntervalChangedEvent, PmiEventMax, PMI_EVENT_TYPE, PmiThresholdEvent, PmiBudgetEvent, PmiConfigurationChangedEvent, powermeter.pmi_event_type, PmiCapabilitiesChangedEvent, pmi/PmiBudgetEvent, pmi/PMI_EVENT_TYPE, pmi/PmiEventMax, PmiAveragingIntervalChangedEvent
+ms.keywords: pmi/PmiThresholdEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiAveragingIntervalChangedEvent, PmiBudgetEvent, powermeter.pmi_event_type, PmiEventMax, pmi/PmiBudgetEvent, pmi/PmiEventMax, pmi/PmiConfigurationChangedEvent, PmiCapabilitiesChangedEvent, pmi/PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PmiAveragingIntervalChangedEvent, PMI_EVENT_TYPE, PmiThresholdEvent, pmi/PMI_EVENT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,7 +105,9 @@ The maximum number of PMI event types.
 ## -remarks
 
 
+
 The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
+
 
 
 
@@ -113,7 +115,11 @@ The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVE
 
 <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
 
+
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+
+
 
  
 

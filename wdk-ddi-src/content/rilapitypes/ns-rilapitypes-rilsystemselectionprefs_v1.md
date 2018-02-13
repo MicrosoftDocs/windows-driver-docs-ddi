@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19af0039-a2dd-49a4-ad93-1858288d00cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, netvista.rilsystemselectionprefs_v1_2, RILSYSTEMSELECTIONPREFS_V1, rilapitypes/RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: rilapitypes/RILSYSTEMSELECTIONPREFS_V1, *LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,27 +77,20 @@ typedef struct _RILSYSTEMSELECTIONPREFS_V1 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwSystemTypes
-
 
 
 ### -field dwMode
 
 
-
 ### -field plmnInfo
 
 
-
 ### -field dwRoamingMode
-
 

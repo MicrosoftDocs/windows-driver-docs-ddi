@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: Commit method [Print Devices], Commit method [Print Devices], IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices], Commit method, Commit, print.iprinterscriptablestream__commit, IPrinterScriptableStream, printerextension/IPrinterScriptableStream::Commit, IPrinterScriptableStream::Commit
+ms.keywords: IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit, IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Commit method, Commit method [Print Devices], Commit method [Print Devices], IPrinterScriptableStream interface, Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,6 +69,7 @@ HRESULT Commit(
 
 
 
+
 #### - Void
 
 This method has no parameters.
@@ -77,13 +78,17 @@ This method has no parameters.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
+
+
 
  
 

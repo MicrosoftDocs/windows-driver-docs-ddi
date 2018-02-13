@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2::GetRelatedFileObject, GetRelatedFileObject method, IWDFFile2 interface, IWDFFile2, umdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject, wdf.iwdffile2_getrelatedfileobject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method
+ms.keywords: IWDFFile2 interface, GetRelatedFileObject method, GetRelatedFileObject method, IWDFFile2 interface, wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2, GetRelatedFileObject, umdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject method, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, wdf.iwdffile2_getrelatedfileobject, IWDFFile2::GetRelatedFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ The address of a location that receives a pointer to the <a href="..\wudfddi\nn-
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Use of related file objects is technology-specific. For example, <a href="https://msdn.microsoft.com/dcd28218-b3bf-4e5d-b1a7-6910103afb96">kernel streaming</a> uses related file objects to represent the parent filters of child pins.
@@ -90,10 +93,49 @@ Use of related file objects is technology-specific. For example, <a href="https:
 For more information about related file objects, see the <b>GetRelatedFileObject</b> member of the kernel-mode <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure.
 
 
+#### Examples
+
+The following code example retrieves the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of a related file object, from the <b>IWDFFile</b> interface that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>  callback function receives.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+STDMETHODCALLTYPE
+CMyQueue::OnCreateFile(
+    __in IWDFIoQueue *pWdfQueue,
+    __in IWDFIoRequest *pWdfRequest,
+    __in IWDFFile*  pWdfFileObject
+    )
+ ...
+    IWDFFile*  pWdfRelatedFileObject = NULL;
+    IWDFFile2*  pWdfFileObject2 = NULL;
+    HRESULT  hr = S_OK;
+
+    //
+    // Obtain IWDFFile2 interface from IWDFFile.
+    //
+    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&amp;pWdfFileObject2));
+    if (!SUCCEEDED(hr))
+    {
+        goto Done;
+    }
+    pWdfFileObject2-&gt;GetRelatedFileObject(&amp;pWdfRelatedFileObject);
+    ...</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>
+
+
 
  
 

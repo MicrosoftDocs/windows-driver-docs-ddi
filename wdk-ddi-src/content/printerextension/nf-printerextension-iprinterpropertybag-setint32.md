@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9E6B55C3-C177-4C07-9AB5-7C743CE47016
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetInt32, printerextension/IPrinterPropertyBag::SetInt32, IPrinterPropertyBag::SetInt32, SetInt32 method [Print Devices], IPrinterPropertyBag interface [Print Devices], SetInt32 method, print.iprinterpropertybag_setint32, IPrinterPropertyBag, SetInt32 method [Print Devices], IPrinterPropertyBag interface
+ms.keywords: print.iprinterpropertybag_setint32, SetInt32 method [Print Devices], IPrinterPropertyBag::SetInt32, IPrinterPropertyBag, printerextension/IPrinterPropertyBag::SetInt32, SetInt32, IPrinterPropertyBag interface [Print Devices], SetInt32 method, SetInt32 method [Print Devices], IPrinterPropertyBag interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The new value to set.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
+
 
 
 In Windows 8.1 a new flag, PRINTER_ACCESS_MANAGE_LIMITED, has been introduced to grant print queue permissions that are more limited than PRINTER_ACCESS_ADMINISTER, but more powerful than 
@@ -99,9 +102,12 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 
 
+
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+
+
 
  
 

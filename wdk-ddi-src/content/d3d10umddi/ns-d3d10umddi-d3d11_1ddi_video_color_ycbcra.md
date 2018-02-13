@@ -93,10 +93,12 @@ The alpha value. Values range from 0 (transparent) to 1 (opaque).
 ## -remarks
 
 
+
 Values have a nominal range of [0...1]. Given a format with  <i>n</i> bits per channel, the value of each color component is calculated as follows:
 
 <code>val = f * ((1 &lt;&lt; n)-1)</code>
 
 For example, for 8-bit YUV formats, <code>val = BYTE(f * 255.0)</code>.  Reference black is (0.0625, 0.5, 0.5), which corresponds to (16, 128, 128) in an 8-bit representation.
+
 
 

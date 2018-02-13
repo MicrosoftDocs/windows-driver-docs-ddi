@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnGetNumFrequencyRanges(
 ## -returns
 
 
+
 The <b>pfnGetNumFrequencyRanges</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,6 +125,8 @@ The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

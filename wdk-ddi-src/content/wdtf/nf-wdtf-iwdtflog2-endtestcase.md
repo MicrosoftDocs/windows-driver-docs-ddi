@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 1932a0f0-bf76-4a8e-8b2a-e2ba2c81dc2b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFLOG2, IWDTFLOG2::EndTestCase, Microsoft.WDTF.IWDTFLOG2.EndTestCase, IWDTFLOG2 interface [Windows Device Testing Framework], EndTestCase method, EndTestCase method [Windows Device Testing Framework], EndTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, Microsoft::WDTF::IWDTFLOG2::EndTestCase, EndTestCase, wdtf/IWDTFLOG2::EndTestCase, dtf.iwdtflog2_endtestcase
+ms.keywords: dtf.iwdtflog2_endtestcase, EndTestCase, IWDTFLOG2 interface [Windows Device Testing Framework], EndTestCase method, EndTestCase method [Windows Device Testing Framework], EndTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, IWDTFLOG2::EndTestCase, Microsoft.WDTF.IWDTFLOG2.EndTestCase, wdtf/IWDTFLOG2::EndTestCase, Microsoft::WDTF::IWDTFLOG2::EndTestCase, IWDTFLOG2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ HRESULT EndTestCase();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtflog2.md">IWDTFLOG2</a>
+
+
 
  
 

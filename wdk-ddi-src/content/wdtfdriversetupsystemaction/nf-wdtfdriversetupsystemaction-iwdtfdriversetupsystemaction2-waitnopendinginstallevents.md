@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d58f5d02-d4cf-4208-b5c4-1047b8278ff7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], WaitNoPendingInstallEvents method, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework]
+ms.keywords: WaitNoPendingInstallEvents method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, WaitNoPendingInstallEvents, dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, IWDTFDriverSetupSystemAction2, WaitNoPendingInstallEvents method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], WaitNoPendingInstallEvents method, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,13 +82,17 @@ otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
+
+
 
  
 

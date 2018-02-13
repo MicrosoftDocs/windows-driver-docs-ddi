@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "*POEMMEMORYUSAGE, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE, POEMMEMORYUSAGE, print.oemmemoryusage, POEMMEMORYUSAGE structure pointer [Print Devices], OEMMEMORYUSAGE structure [Print Devices], printoem/OEMMEMORYUSAGE"
+ms.keywords: OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], print.oemmemoryusage, printoem/POEMMEMORYUSAGE, *POEMMEMORYUSAGE, printoem/OEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], POEMMEMORYUSAGE, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,15 +88,21 @@ Specifies the maximum size, in bytes, that can be used for source bitmaps. This 
 ## -remarks
 
 
+
 The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPercentMemoryUsage</b> members of this structure to determine the optimum size for a GDI drawing surface, taking into account any memory requirements of a rendering plug-in's <b>IPrintOemUni::ImageProcessing</b> method. For more information about how these members are used, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL
@@ -87,14 +87,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,11 +122,17 @@ The value of the <b>Parameters.DeviceIoControl.OuputBufferLength</b> member is l
 
 ## -see-also
 
-<a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_disconnect_interrupt.md">IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</a>
+
+
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_disconnect_interrupt.md">IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</a>
+
+
+<a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
+
+
 
  
 

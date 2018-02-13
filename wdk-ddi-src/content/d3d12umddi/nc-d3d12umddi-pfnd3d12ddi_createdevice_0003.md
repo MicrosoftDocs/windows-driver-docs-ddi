@@ -71,8 +71,9 @@ HRESULT APIENTRY PFND3D12DDI_CREATEDEVICE_0003(
 ### -param D3D12DDI_HADAPTER
 
 
-
 ### -param *
+
+
 
 
 
@@ -93,7 +94,9 @@ A pointer to a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_createdevice_000
 
 
 
+
              PFND3D12DDI_CREATEDEVICE_0003 returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,6 +136,8 @@ The graphics context was successfully created. However, the DirectX Graphics Inf
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

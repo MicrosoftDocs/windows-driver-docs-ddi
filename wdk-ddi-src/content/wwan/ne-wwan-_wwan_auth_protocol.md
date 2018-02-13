@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33c9523e-3195-456f-8e17-b9539475bc67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanAuthProtocolChap, wwan/WwanAuthProtocolNone, WwanAuthProtocolMsChapV2, PWWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolChap, WwanAuthProtocolNone, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, _WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolMax, WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolPap, WwanAuthProtocolMax, WwanAuthProtocolPap, wwan/WwanAuthProtocolMsChapV2, wwan/WWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_AUTH_PROTOCOL, netvista.wwan_auth_protocol
+ms.keywords: WwanAuthProtocolChap, wwan/WWAN_AUTH_PROTOCOL, WwanAuthProtocolPap, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], wwan/WwanAuthProtocolMsChapV2, WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolNone, wwan/WwanAuthProtocolMax, WwanAuthProtocolMsChapV2, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL, PWWAN_AUTH_PROTOCOL, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, WwanAuthProtocolNone, wwan/WwanAuthProtocolPap, wwan/WwanAuthProtocolChap, wwan/PWWAN_AUTH_PROTOCOL, WwanAuthProtocolMax, netvista.wwan_auth_protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_AUTH_PROTOCOL
 product: Windows
 targetos: Windows
-req.typenames: WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL
+req.typenames: "*PWWAN_AUTH_PROTOCOL, WWAN_AUTH_PROTOCOL"
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,6 @@ Use the Microsoft Challenge Handshake Authentication Protocol (CHAP) v2.0.
 ### -field WwanAuthProtocolAuto
 
 
-
 ### -field WwanAuthProtocolMax
 
 The total number of supported authentication protocols.
@@ -105,8 +104,10 @@ The total number of supported authentication protocols.
 ## -remarks
 
 
+
 This enumeration applies only to GSM devices. The MB Service specifies 
     <b>WwanAuthProtocolNone</b> as the authentication type for CDMA-based devices.
+
 
 
 
@@ -114,7 +115,11 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B1446A29-F2C1-4F08-8B38-5BE9188F5132
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista], netvista.vmbchanneldeletegpadl, VmbChannelDeleteGpadl, vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl
+ms.keywords: VmbChannelDeleteGpadl, VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl, netvista.vmbchanneldeletegpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelDeleteGpadl
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -86,7 +86,9 @@ The GPADL handle of the GPADL to delete.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
@@ -94,7 +96,11 @@ This function does not return a value.
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a>
 
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md">VmbChannelCreateGpadlFromMdl</a>
+
+
 
  
 

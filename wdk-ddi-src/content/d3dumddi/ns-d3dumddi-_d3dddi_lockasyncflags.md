@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e6dd14c-5192-4c4b-9dcb-716989d24588
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags, D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, d3dumddi/D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS structure [Display Devices], _D3DDDI_LOCKASYNCFLAGS
+ms.keywords: "_D3DDDI_LOCKASYNCFLAGS, D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, D3DDDI_LOCKASYNCFLAGS structure [Display Devices], d3dumddi/D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,6 +141,8 @@ A member in the union that is contained in D3DDDI_LOCKASYNCFLAGS that can hold o
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
+
+
 
  
 

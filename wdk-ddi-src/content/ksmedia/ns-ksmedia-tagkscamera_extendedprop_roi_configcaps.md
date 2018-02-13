@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: BAC5B134-22F5-4BC9-BBD6-6AF3C934510B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure [Streaming Media Devices], tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, stream.kscamera_extendedprop_roi_configcaps, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure pointer [Streaming Media Devices]"
+ms.keywords: KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, ksmedia/KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS structure pointer [Streaming Media Devices], *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, stream.kscamera_extendedprop_roi_configcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS {
 ### -field ControlId
 
 The ISP control ID. The following are valid values for this field. These values are defined in ksmedia.h.
+
 <ul>
 <li>
 KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE

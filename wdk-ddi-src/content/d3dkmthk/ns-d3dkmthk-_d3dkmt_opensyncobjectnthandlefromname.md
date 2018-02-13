@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
+ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,9 +86,13 @@ typedef struct _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME {
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname.md">D3DKMTOpenSyncObjectNtHandleFromName</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
+
 
  
 

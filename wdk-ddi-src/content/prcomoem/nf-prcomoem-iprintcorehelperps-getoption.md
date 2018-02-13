@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelperPS::GetOption, IPrintCoreHelperPS interface [Print Devices], GetOption method, print.iprintcorehelperps_getoption, GetOption, IPrintCoreHelperPS, prcomoem/IPrintCoreHelperPS::GetOption, GetOption method [Print Devices], GetOption method [Print Devices], IPrintCoreHelperPS interface, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml
+ms.keywords: GetOption method [Print Devices], IPrintCoreHelperPS interface, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml, IPrintCoreHelperPS, IPrintCoreHelperPS::GetOption, prcomoem/IPrintCoreHelperPS::GetOption, print.iprintcorehelperps_getoption, GetOption, GetOption method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetOption method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.GetOption
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ A pointer to a variable that contains the address of an ANSI string. When <b>IPr
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::GetOption</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,11 +157,14 @@ The core driver seems to be in an invalid state. The caller should return a fail
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IPrintCoreHelperPS::GetOption</b> cannot be used for features that allow multiple options to be set simultaneously. 
@@ -170,11 +175,16 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552912">IPrintCoreHelperPS::SetOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
+
 
  
 

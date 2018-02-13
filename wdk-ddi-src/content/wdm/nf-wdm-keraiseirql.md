@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee340d85-5a66-4773-b325-831257e9bfd8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeRaiseIrql, k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, KeRaiseIrql routine [Kernel-Mode Driver Architecture], KeRaiseIrql, kernel.keraiseirql
+ms.keywords: wdm/KeRaiseIrql, KeRaiseIrql routine [Kernel-Mode Driver Architecture], k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, KeRaiseIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -82,6 +82,8 @@ TBD
 
 
 
+
+
 #### - NewIrql [in]
 
 Specifies the new IRQL to which the hardware priority is to be raised.
@@ -95,6 +97,7 @@ Pointer to the storage for the original (unraised) IRQL value to be used in a su
 ## -remarks
 
 
+
 If the new IRQL is less than the current IRQL, a bug check occurs. Otherwise, the current IRQL is set to the specified value.
 
 Callers of this routine can be running at any IRQL. Any caller should restore the original IRQL with <a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a> as soon as possible.
@@ -103,11 +106,16 @@ A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>Cu
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
+
 
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
 
  
 

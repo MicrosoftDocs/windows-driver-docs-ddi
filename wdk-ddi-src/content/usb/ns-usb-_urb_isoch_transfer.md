@@ -7,8 +7,8 @@ old-location: buses\_urb_isoch_transfer.htm
 old-project: usbref
 ms.assetid: b021211a-3f72-47ff-9e69-bbf3807f4ec4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "_URB_ISOCH_TRANSFER structure [Buses], usb/_URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, USBD_SHORT_TRANSFER_OK, buses._urb_isoch_transfer, USBD_TRANSFER_DIRECTION_IN, USBD_START_ISO_TRANSFER_ASAP"
+ms.date: 2/8/2018
+ms.keywords: USBD_TRANSFER_DIRECTION_IN, USBD_START_ISO_TRANSFER_ASAP, USBD_SHORT_TRANSFER_OK, _URB_ISOCH_TRANSFER structure [Buses], usb/_URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, buses._urb_isoch_transfer, _URB_ISOCH_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,26 +89,6 @@ A pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure 
  
 
 
-### -field _URB
-
- 
-
-
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
-
-
-### -field _URB_HCD_AREA
-
- 
-
-
 ### -field PipeHandle
 
 Specifies an opaque handle to the isochronous pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.   
@@ -118,6 +98,7 @@ Specifies an opaque handle to the isochronous pipe. The host controller driver r
 
 
 Specifies zero, one, or a combination of the following flags:
+
 
 
 <table>
@@ -155,7 +136,8 @@ Causes the transfer to begin on the next frame, if no transfers have been submit
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransferBufferLength
@@ -171,6 +153,26 @@ A pointer to a resident buffer for the transfer is <b>NULL</b> if an MDL is supp
 ### -field TransferBufferMDL
 
 A pointer to an MDL that describes a resident buffer is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data that is read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
+
+
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field _URB
+
+ 
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
 
 
 ### -field StartFrame
@@ -198,7 +200,9 @@ Contains a variable-length array of <a href="..\usb\ns-usb-_usbd_iso_packet_desc
 ## -remarks
 
 
+
 The USB bus driver always returns a value of USBD_STATUS_SUCCESS in <b>Hdr.Status</b>, unless  every packet in the transfer generated an error or the request was not well-formed and could not be executed at all. The following table includes possible error codes returned in <b>Hdr.Status</b>.
+
 <table>
 <tr>
 <th>Error value</th>
@@ -244,7 +248,8 @@ Indicates that one of the URB parameters was incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Before the host controller sends an isochronous request to a USB device, it requires information about the device's endpoint to which it must send or receive data. This information is stored in endpoint descriptors (<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>) that are retrieved from the selected configuration descriptor. 
 After the bus driver gets the endpoint descriptor, it creates an isochronous transfer pipe to set up the data transfer. The pipe's attributes are stored in the <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structure. For isochronous transfers, the members are set as follows:<ul>
@@ -299,23 +304,36 @@ Treat other members that are part of this structure but not described here as op
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+## -see-also
 
 <a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
- 
+
+
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_ISOCH_TRANSFER structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_ISOCH_TRANSFER structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

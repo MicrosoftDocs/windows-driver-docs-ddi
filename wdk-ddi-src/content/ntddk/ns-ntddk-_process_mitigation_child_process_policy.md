@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f388c0e-41ee-40e4-b633-687eeff74a0a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure [Kernel-Mode Driver Architecture], kernel.process_mitigation_child_process_policy, *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, _PROCESS_MITIGATION_CHILD_PROCESS_POLICY
+ms.keywords: kernel.process_mitigation_child_process_policy, _PROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY, ntddk/PROCESS_MITIGATION_CHILD_PROCESS_POLICY, *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PROCESS_MITIGATION_CHILD_PROCESS_POLICY
 product: Windows
 targetos: Windows
-req.typenames: PROCESS_MITIGATION_CHILD_PROCESS_POLICY, *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY
+req.typenames: "*PPROCESS_MITIGATION_CHILD_PROCESS_POLICY, PROCESS_MITIGATION_CHILD_PROCESS_POLICY"
 ---
 
 # _PROCESS_MITIGATION_CHILD_PROCESS_POLICY structure
@@ -77,9 +77,12 @@ typedef struct _PROCESS_MITIGATION_CHILD_PROCESS_POLICY {
 ### -field DUMMYUNIONNAME
 
 
+### -field DUMMYUNIONNAME.Flags
+
+ 
+
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.NoChildProcessCreation
@@ -100,10 +103,4 @@ Denies creation of child processes unless the child process is a secure process 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved.
-
-
-### -field DUMMYUNIONNAME.Flags
-
- 
-
 

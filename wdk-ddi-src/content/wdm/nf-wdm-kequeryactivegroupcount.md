@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, wdm/KeQueryActiveGroupCount, KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], kernel.kequeryactivegroupcount
+ms.keywords: KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, KeQueryActiveGroupCount, wdm/KeQueryActiveGroupCount, kernel.kequeryactivegroupcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,14 +67,18 @@ USHORT KeQueryActiveGroupCount(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeQueryActiveGroupCount</b> returns a count of the active groups.
 
 
 
+
 ## -remarks
+
 
 
 A processor group is active if it contains one or more active logical processors.
@@ -91,11 +95,16 @@ Windows 7 is the first version of Windows to support processor groups. In Windo
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
 
  
 

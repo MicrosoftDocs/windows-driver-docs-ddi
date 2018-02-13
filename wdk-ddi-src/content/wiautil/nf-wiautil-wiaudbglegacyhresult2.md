@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1b73c94b-07a8-4b65-8ed7-d5f1a073c3b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgLegacyHresult2, wiautil/wiauDbgLegacyHresult2, wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiauDbgLegacyHresult2 function [Imaging Devices], image.wiaudbglegacyhresult2
+ms.keywords: wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiauDbgLegacyHresult2 function [Imaging Devices], wiautil/wiauDbgLegacyHresult2, wiauDbgLegacyHresult2, image.wiaudbglegacyhresult2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,14 +82,18 @@ Specifies the HRESULT to be logged.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A call to the <b>wiauDbgLegacyHresult2</b> function is equivalent to the following call to the <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a> function:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -99,7 +103,9 @@ A call to the <b>wiauDbgLegacyHresult2</b> function is equivalent to the followi
 <pre>wiauDbgErrorHr(hr, "", "");</pre>
 </td>
 </tr>
-</table></span></div>That is, only one line is output to the log file and/or debugger. The line has the following form:
+</table></span></div>
+That is, only one line is output to the log file and/or debugger. The line has the following form:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -112,9 +118,12 @@ A call to the <b>wiauDbgLegacyHresult2</b> function is equivalent to the followi
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+
+
 
  
 

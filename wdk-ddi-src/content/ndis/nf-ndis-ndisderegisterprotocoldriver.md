@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 792f8f89-ff2c-45d1-bb15-9fcdafd14231
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDeregisterProtocolDriver, ndis/NdisDeregisterProtocolDriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], netvista.ndisderegisterprotocoldriver
+ms.keywords: NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml, netvista.ndisderegisterprotocoldriver, NdisDeregisterProtocolDriver, ndis/NdisDeregisterProtocolDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisDeregisterProtocolDriver
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisDeregisterProtocolDriver function
@@ -82,11 +82,14 @@ The handle returned by the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Registered protocol drivers typically call 
@@ -111,15 +114,24 @@ After any outstanding bindings have been closed,
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
 
  
 

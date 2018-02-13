@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0c4e96e-5f7f-4ee5-90b7-6d78ee321bf5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetDMProfileConfigInfo, RIL_GetDMProfileConfigInfo, netvista.ril_getdmprofileconfiginfo, RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetDMProfileConfigInfo, RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdmprofileconfiginfo, rilapi/RIL_GetDMProfileConfigInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_GetDMProfileConfigInfo(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwConfigItem
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

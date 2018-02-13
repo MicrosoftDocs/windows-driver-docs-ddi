@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallback_onqueryremove, IPnpCallback, IPnpCallback interface, OnQueryRemove method, OnQueryRemove, OnQueryRemove method, IPnpCallback interface, IPnpCallback::OnQueryRemove, wudfddi/IPnpCallback::OnQueryRemove, OnQueryRemove method, umdf.ipnpcallback_onqueryremove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml
+ms.keywords: OnQueryRemove, wudfddi/IPnpCallback::OnQueryRemove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, wdf.ipnpcallback_onqueryremove, IPnpCallback interface, OnQueryRemove method, OnQueryRemove method, umdf.ipnpcallback_onqueryremove, OnQueryRemove method, IPnpCallback interface, IPnpCallback, IPnpCallback::OnQueryRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,13 +78,16 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> in
 ## -returns
 
 
+
 If the driver determines that the device can be stopped and removed, the <b>OnQueryRemove</b> callback method must return S_OK or another status code for which SUCCEEDED(status) equals <b>TRUE</b>. Otherwise, it must return a status code for which SUCCEEDED(status) equals <b>FALSE</b>.   HRESULT error codes are defined in Winerror.h. Do not return HRESULT_FROM_NT(STATUS_NOT_SUPPORTED).
 
 This method must use the HRESULT_FROM_NT macro to return a specific HRESULT value to  return status to a kernel-mode client. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-1-x-drivers">Supporting Kernel-mode Clients</a>.
 
 
 
+
 ## -remarks
+
 
 
 A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
@@ -95,13 +98,20 @@ For more information about the <b>OnQueryRemove</b> callback method, see <a href
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
 
  
 

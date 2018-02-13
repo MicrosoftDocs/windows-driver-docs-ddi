@@ -72,7 +72,5 @@ typedef struct _RILSETEXECUTORRFSTATEPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field fExecutorRFState
-
 

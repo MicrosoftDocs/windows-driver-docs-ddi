@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff498364-f9ea-437f-904b-170ba0df7826
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsetpreferredoperatorlistparams_2, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETPREFERREDOPERATORLISTPARAMS, rilapitypes/RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS
+ms.keywords: RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSETPREFERREDOPERATORLISTPARAMS, *LPRILSETPREFERREDOPERATORLISTPARAMS, netvista.rilsetpreferredoperatorlistparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETPREFERREDOPERATORLISTPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS"
+req.typenames: RILSETPREFERREDOPERATORLISTPARAMS, *LPRILSETPREFERREDOPERATORLISTPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -73,11 +73,8 @@ typedef struct _RILSETPREFERREDOPERATORLISTPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwPreferredListSize
 
 
-
 ### -field PreferredList
-
 

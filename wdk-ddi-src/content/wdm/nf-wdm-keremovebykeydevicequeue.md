@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9819567c-1c79-440c-9bac-f81f23df29ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], KeRemoveByKeyDeviceQueue, kernel.keremovebykeydevicequeue, wdm/KeRemoveByKeyDeviceQueue, k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml
+ms.keywords: wdm/KeRemoveByKeyDeviceQueue, KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml, KeRemoveByKeyDeviceQueue, kernel.keremovebykeydevicequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Specifies the key to be used when searching the <i>DeviceQueue</i>.
 ## -returns
 
 
+
 <b>KeRemoveByKeyDeviceQueue</b> returns the device queue entry that was removed; returns <b>NULL</b> if the queue was empty.
 
 
 
+
 ## -remarks
+
 
 
 This routine searches for the first entry in the device queue that has a value greater than or equal to the <i>SortKey</i>. After this entry is found, this routine removes the entry from the device queue and returns it. If no such entry is found, then the first entry in the queue is returned. If the device queue is empty, then the device is set to a not-busy state and a <b>NULL</b> pointer is returned. 
@@ -95,17 +98,28 @@ It is an error to call <b>KeRemoveByKeyDeviceQueue</b> when the device queue obj
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
+
+
 <a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
 
 <a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
+
+
+<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+
+
 <a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+
+
 
  
 

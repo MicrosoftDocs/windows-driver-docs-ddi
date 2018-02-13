@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9048a568-3369-44eb-8fa8-361ce968a253
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdriver_isversionavailable, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, IWDFDriver, IsVersionAvailable method, IWDFDriver interface, IsVersionAvailable, IWDFDriver interface, IsVersionAvailable method, IWDFDriver::IsVersionAvailable, umdf.iwdfdriver_isversionavailable, wudfddi/IWDFDriver::IsVersionAvailable, IsVersionAvailable method
+ms.keywords: IWDFDriver interface, IsVersionAvailable method, IWDFDriver::IsVersionAvailable, IWDFDriver, IsVersionAvailable method, umdf.iwdfdriver_isversionavailable, wudfddi/IWDFDriver::IsVersionAvailable, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, IsVersionAvailable, IsVersionAvailable method, IWDFDriver interface, wdf.iwdfdriver_isversionavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">
 ## -returns
 
 
+
 <b>IsVersionAvailable</b> returns a BOOL value that indicates whether the given version of the framework is available. <b>TRUE</b> indicates the version of the framework is available. <b>FALSE</b> indicates the version of the framework is not available.
+
 
 
 
@@ -86,7 +88,11 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">
 
 <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
 
  
 

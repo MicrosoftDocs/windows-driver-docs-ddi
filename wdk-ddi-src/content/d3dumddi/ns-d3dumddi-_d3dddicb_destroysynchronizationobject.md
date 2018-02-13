@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d950e290-3acb-4a89-86a4-ae5117781998
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, display.d3dddicb_destroysynchronizationobject, D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml, _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices]
+ms.keywords: display.d3dddicb_destroysynchronizationobject, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,9 +74,13 @@ typedef struct _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
+
 
  
 

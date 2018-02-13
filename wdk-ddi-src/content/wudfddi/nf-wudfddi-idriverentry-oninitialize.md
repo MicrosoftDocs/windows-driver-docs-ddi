@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c676588e-348b-4840-9873-6b1bb2454987
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IDriverEntry::OnInitialize, wudfddi/IDriverEntry::OnInitialize, wdf.idriverentry_oninitialize, OnInitialize, IDriverEntry interface, OnInitialize method, OnInitialize method, IDriverEntry interface, umdf.idriverentry_oninitialize, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, IDriverEntry, OnInitialize method
+ms.keywords: IDriverEntry, IDriverEntry::OnInitialize, wdf.idriverentry_oninitialize, OnInitialize method, umdf.idriverentry_oninitialize, wudfddi/IDriverEntry::OnInitialize, IDriverEntry interface, OnInitialize method, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, OnInitialize, OnInitialize method, IDriverEntry interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,14 +78,18 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> in
 ## -returns
 
 
+
 <b>OnInitialize</b> returns S_OK if the driver completed its global initialization. Otherwise, this method returns one of the error codes that are defined in Winerror.h. If the driver returns an error code, the framework will not load the driver.
+
 
 
 
 ## -remarks
 
 
+
 The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver enters the system, the framework calls <b>OnInitialize</b> to notify the driver and passes the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface in the call. 
+
 
 
 
@@ -93,7 +97,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+
+
 
  
 

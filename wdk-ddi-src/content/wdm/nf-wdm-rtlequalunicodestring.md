@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, wdm/RtlEqualUnicodeString, RtlEqualUnicodeString, kernel.rtlequalunicodestring
+ms.keywords: kernel.rtlequalunicodestring, wdm/RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, RtlEqualUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,13 +89,17 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 ## -returns
 
 
+
 <b>RtlEqualUnicodeString</b> returns <b>TRUE</b> if the two Unicode strings are equal; otherwise, it returns <b>FALSE</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
+
+
 
  
 

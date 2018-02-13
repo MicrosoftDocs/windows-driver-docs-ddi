@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58BA2AE1-9F48-4B3B-A545-EECC9B3E858C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NDK_CONNECTION_ENTRY, _NDIS_NDK_CONNECTION_ENTRY, netvista.ndis_ndk_connection_entry, NDIS_NDK_CONNECTION_ENTRY, NDIS_NDK_CONNECTION_ENTRY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndis_ndk_connection_entry, PNDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTION_ENTRY structure [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTION_ENTRY, ntddndis/NDIS_NDK_CONNECTION_ENTRY, NDIS_NDK_CONNECTION_ENTRY, ntddndis/PNDIS_NDK_CONNECTION_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ A process identifier for an NDS user-mode connection.
 ## -remarks
 
 
+
 The NDIS_NDK_CONNECTION_ENTRY structure is used in the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connections.md">NDIS_NDK_CONNECTIONS</a> structure to specify an array of connections.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connections.md">NDIS_NDK_CONNECTIONS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols3_ismanagedmodule, dbgeng/IDebugSymbols3::IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IDebugSymbols3::IsManagedModule
+ms.keywords: IsManagedModule, IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IDebugSymbols3::IsManagedModule, dbgeng/IDebugSymbols3::IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, debugger.idebugsymbols3_ismanagedmodule, IDebugSymbols3, IsManagedModule method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,22 +83,28 @@ The base of the module.
 ## -returns
 
 
+
 <b>IDebugSymbols3::IsManagedModule</b> returns a value of <b>S_OK</b> if the engine is using managed
     debugging support when it retrieves information
     for a module.
 
 
 
+
 ## -remarks
+
 
 
 It can be expensive to run this check.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

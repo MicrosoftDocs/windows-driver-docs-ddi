@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5417b821-b51d-4789-8380-f93d113f42d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisEqualMemory, NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], netvista.ndisequalmemory
+ms.keywords: NdisEqualMemory macro [Network Drivers Starting with Windows Vista], netvista.ndisequalmemory, NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, ndis/NdisEqualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisEqualMemory
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisEqualMemory macro
@@ -89,6 +89,7 @@ The number of bytes to be compared.
 ## -remarks
 
 
+
 <b>NdisEqualMemory</b> compares two blocks of memory and uses the value that is specified in the 
     <i>Length</i> parameter for both blocks. The data type of anything in the compared memory blocks is
     irrelevant.
@@ -99,18 +100,29 @@ Callers of
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+
 
  
 

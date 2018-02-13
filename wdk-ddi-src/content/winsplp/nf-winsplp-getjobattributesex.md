@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, print.getjobattributesex, GetJobAttributesEx, GetJobAttributesEx function [Print Devices], winsplp/GetJobAttributesEx
+ms.keywords: GetJobAttributesEx function [Print Devices], winsplp/GetJobAttributesEx, GetJobAttributesEx, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, print.getjobattributesex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,7 @@ Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows
 ### -param dwLevel [in]
 
 Caller-supplied value that indicates the type of structure pointed to by <i>pAttributeInfo</i>, as indicated in the following table. For more information, see Remarks.
+
 <table>
 <tr>
 <th><i>dwLevel</i> Value</th>
@@ -141,7 +142,8 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pAttributeInfo [out]
@@ -199,26 +201,38 @@ See Remarks.
 ## -returns
 
 
+
 <b>GetJobAttributesEx</b> returns <b>TRUE</b> if it is successful in obtaining the print job attributes; otherwise, it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 This function first checks whether the driver supports the attribute level that is indicated by <i>dwLevel</i>. If the driver does not support that attribute level, then the function queries the driver for support for the next lower level, (<i>dwLevel</i> - 1), and continues to query for progressively lower levels of support until it obtains the level of support provided by the driver. If <i>dwFlags</i> is set to FILL_WITH_DEFAULTS, then the function fills in the default values for the unsupported levels.
+
 
 
 
 ## -see-also
 
+<a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
+
+
 
  
 

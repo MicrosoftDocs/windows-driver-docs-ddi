@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_GetCollectionDescription function [Human Input Devices], hidpddi/HidP_GetCollectionDescription, hid.hidp_getcollectiondescription, HidP_GetCollectionDescription
+ms.keywords: HidP_GetCollectionDescription function [Human Input Devices], HidP_GetCollectionDescription, hidpddi/HidP_GetCollectionDescription, hid.hidp_getcollectiondescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	HidP_GetCollectionDescription
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_XFER_PACKET, HID_XFER_PACKET"
+req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
 ---
 
 # HidP_GetCollectionDescription function
@@ -98,7 +98,9 @@ A pointer to a <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_
 ## -returns
 
 
+
 <b>HidP_GetCollectionDescription</b> can return one of these values: <b>TRUE</b> if it successfully fills the device description block. Otherwise, it returns <b>FALSE</b>.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -190,11 +192,14 @@ Report ID of 0 was found in the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
     For a raw report descriptor that is specified by the <i>ReportDesc</i> parameter, <i>HidP_GetCollectionDescription</i> fills in the <i>DeviceDescription</i>
@@ -202,6 +207,7 @@ Report ID of 0 was found in the
     Report ID information that is described by the given report descriptor. 
     The memory for the collection information and the ReportID information is
     allocated based on the <i>PoolType</i> value.
+
 
 
 

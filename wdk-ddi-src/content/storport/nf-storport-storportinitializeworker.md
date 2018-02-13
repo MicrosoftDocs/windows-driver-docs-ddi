@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortInitializeWorker, storage.storportinitializeworker, StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices]
+ms.keywords: storage.storportinitializeworker, StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storport/StorPortInitializeWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to an opaque buffer that holds context information for the work item.
 ## -returns
 
 
+
 The <b>StorPortInitializeWorker</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ The work item was successfully initialized.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The work item context returned in the <i>Worker</i> parameter by <b>StorPortInitializeWorker</b> is used in future calls to <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a> or <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>.
@@ -145,13 +150,20 @@ If the miniport uses the work item during IO processing, we recommended that <b>
 
 
 
-## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+## -see-also
 
 <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
+
+
 <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
+
+
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
 
  
 

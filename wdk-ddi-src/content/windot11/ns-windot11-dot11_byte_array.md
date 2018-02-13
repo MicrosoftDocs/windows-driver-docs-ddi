@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], DOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, netvista.dot11_byte_array, *PDOT11_BYTE_ARRAY
+ms.keywords: "*PDOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,13 +85,12 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
 
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
 
 
 #### Revision
@@ -102,10 +101,14 @@ This member must be set to the revision of the variable-length structures which 
        "See Also" section.
 
 
+
 #### Size
 
 This member must be set to 
        sizeof(DOT11_BYTE_ARRAY).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uNumOfBytes
@@ -128,6 +131,7 @@ The list of variable-length structures.
 ## -remarks
 
 
+
 The type of structures stored in the 
     <b>ucBuffer</b> array depends on the OID set and query request. For example, when queried by 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>, a miniport
@@ -142,6 +146,7 @@ When queried by an OID that uses the DOT11_BYTE_ARRAY structure, the miniport dr
     <b>ucBuffer</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
+
 <ul>
 <li>
 If the value of the 
@@ -196,14 +201,21 @@ Return NDIS_STATUS_SUCCESS from its
 </ul>
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

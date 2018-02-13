@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismconfigmsixtableentry, NdisMConfigMSIXTableEntry, ndis/NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, netvista.ndismconfigmsixtableentry, ndis/NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMConfigMSIXTableEntry
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMConfigMSIXTableEntry function
@@ -89,8 +89,10 @@ A pointer to a caller-allocated
 ## -returns
 
 
+
 <b>NdisMConfigMSIXTableEntry</b> returns an appropriate failure code from the underlying PCI bus driver
      or one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,11 +122,14 @@ The MSI-X table entry was reconfigured successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS miniport drivers that support MSI-X call the 
@@ -161,13 +166,20 @@ For the
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
  
 

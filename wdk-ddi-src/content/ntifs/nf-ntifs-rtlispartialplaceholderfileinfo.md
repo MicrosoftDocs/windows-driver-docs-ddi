@@ -7,8 +7,8 @@ old-location: ifsk\rtlispartialplaceholderfileinfo.htm
 old-project: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/RtlIsPartialPlaceholderFileInfo, ifsk.rtlispartialplaceholderfileinfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], RtlIsPartialPlaceholderFileInfo
+ms.date: 2/7/2018
+ms.keywords: RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], RtlIsPartialPlaceholderFileInfo, ntifs/RtlIsPartialPlaceholderFileInfo, ifsk.rtlispartialplaceholderfileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,11 +91,14 @@ Specifies a pointer to a caller-allocated buffer which contains information abou
 ## -returns
 
 
+
 Returns<b> STATUS_SUCCESS</b> if IsPartialPlaceholder is valid and not undefined.
 
 
 
+
 ## -remarks
+
 
 
  If <b>InfoBuffer</b> is from a call
@@ -104,13 +107,16 @@ Returns<b> STATUS_SUCCESS</b> if IsPartialPlaceholder is valid and not undefined
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlIsPartialPlaceholderFileInfo routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlIsPartialPlaceholderFileInfo routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

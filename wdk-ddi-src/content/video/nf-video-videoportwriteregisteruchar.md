@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 259d01a5-d975-48f9-b0cf-4596d12046bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterUchar function [Display Devices], video/VideoPortWriteRegisterUchar, VideoPortWriteRegisterUchar, display.videoportwriteregisteruchar, VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml
+ms.keywords: VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, VideoPortWriteRegisterUchar, VideoPortWriteRegisterUchar function [Display Devices], video/VideoPortWriteRegisterUchar, display.videoportwriteregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Specifies a byte to be transferred to the adapter.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterUchar</b>.
@@ -95,9 +98,12 @@ Callers of <b>VideoPortWriteRegisterUchar</b> can be running at any IRQL, provid
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

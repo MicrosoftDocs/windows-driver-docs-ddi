@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getid, IDebugBreakpoint interface [Windows Debugging], GetId method, GetId method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, dbgeng/IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint2::GetId, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, IDebugBreakpoint2 interface [Windows Debugging], GetId method, GetId method [Windows Debugging], IDebugBreakpoint interface
+ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, IDebugBreakpoint2 interface [Windows Debugging], GetId method, GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint2, IDebugBreakpoint, GetId method [Windows Debugging], debugger.getid, IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,6 +76,7 @@ The breakpoint ID.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,13 +93,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The breakpoint ID remains fixed as long as the breakpoint exists.  However, after the breakpoint has been removed, you can use its ID for another breakpoint.
@@ -106,5 +110,6 @@ The breakpoint ID remains fixed as long as the breakpoint exists.  However, afte
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the breakpoint ID.
 
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

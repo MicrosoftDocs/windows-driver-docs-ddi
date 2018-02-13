@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_VPCI_INVALIDATE_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
+req.typenames: "*PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, VMB_CHANNEL_STATE_CHANGE_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,60 +90,79 @@ The driver issues this IOCTL to the next-lower driver in the driver stack.
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 
 
 ## -remarks
 
 
-<h3><a id="preparing_an_i_o_request_packet_structure"></a><a id="PREPARING_AN_I_O_REQUEST_PACKET_STRUCTURE"></a>Preparing an I/O Request Packet Structure</h3>The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> routine to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization routines, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542899">Creating IRPs for Lower-Level Drivers</a>.
+
+<h3><a id="preparing_an_i_o_request_packet_structure"></a><a id="PREPARING_AN_I_O_REQUEST_PACKET_STRUCTURE"></a>Preparing an I/O Request Packet Structure</h3>
+The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> routine to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization routines, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542899">Creating IRPs for Lower-Level Drivers</a>.
 
 The driver must then set the  members of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure as described in the following table.
+
 <table>
 <tr>
 <th>
@@ -173,10 +192,14 @@ The address of a caller-allocated <a href="..\wdm\ns-wdm-_io_status_block.md">IO
 
 </td>
 </tr>
-</table> 
-<h3><a id="preparing_an_i_o_stack_location_structure"></a><a id="PREPARING_AN_I_O_STACK_LOCATION_STRUCTURE"></a>Preparing an I/O Stack Location Structure</h3>The driver calls the <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a> routine to access the lower driver's I/O stack location. This function returns a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure that contains the parameters for the I/O stack location.
+</table>
+ 
+
+<h3><a id="preparing_an_i_o_stack_location_structure"></a><a id="PREPARING_AN_I_O_STACK_LOCATION_STRUCTURE"></a>Preparing an I/O Stack Location Structure</h3>
+The driver calls the <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a> routine to access the lower driver's I/O stack location. This function returns a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure that contains the parameters for the I/O stack location.
 
 The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure as described in the following table.
+
 <table>
 <tr>
 <th>
@@ -239,8 +262,12 @@ The size, in bytes, of the caller-allocated buffer that will contain the configu
 
 </td>
 </tr>
-</table> 
-<h3><a id="issuing_the_ioctl_request"></a><a id="ISSUING_THE_IOCTL_REQUEST"></a>Issuing the IOCTL Request</h3>To issue this IOCTL request, the driver calls the <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> routine to pass the request on to the next-lower driver  in the driver stack. The driver sets the parameters of <b>IoCallDriver</b> as described in the following table.
+</table>
+ 
+
+<h3><a id="issuing_the_ioctl_request"></a><a id="ISSUING_THE_IOCTL_REQUEST"></a>Issuing the IOCTL Request</h3>
+To issue this IOCTL request, the driver calls the <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> routine to pass the request on to the next-lower driver  in the driver stack. The driver sets the parameters of <b>IoCallDriver</b> as described in the following table.
+
 <table>
 <tr>
 <th>
@@ -261,9 +288,13 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
+
       When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is completed, the  members of the caller-allocated <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure are set to  the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -283,10 +314,15 @@ Zero
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL is issued and completed, the VF driver is notified that the PF driver has changed (<i>invalidated</i>) data in one or more VF configuration blocks.
-<div class="alert"><b>Note</b>  The operating system reserves and manages the resources that are required for the successful completion of this IOCTL. </div><div> </div>A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. VF configuration data can be exchanged between the following drivers:
+
+<div class="alert"><b>Note</b>  The operating system reserves and manages the resources that are required for the successful completion of this IOCTL. </div>
+<div> </div>
+A VF configuration block is used for backchannel communication between the drivers of the PCIe PF and a VF on a device that supports the SR-IOV interface. VF configuration data can be exchanged between the following drivers:
+
 <ul>
 <li>
 The VF driver, which runs in the guest operating system. This operating system runs within a Hyper-V child partition.
@@ -300,7 +336,9 @@ The PF driver, which runs in the management operating system.
 This operating system runs within the Hyper-V parent partition.
 
 </li>
-</ul>Starting with NDIS 6.30, the VF miniport driver should not issue an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. Instead, the following steps are performed in order to handle notifications of invalidated VF configuration block data.
+</ul>
+Starting with NDIS 6.30, the VF miniport driver should not issue an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. Instead, the following steps are performed in order to handle notifications of invalidated VF configuration block data.
+
 <ol>
 <li>
 In the guest OS, NDIS issues an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
@@ -344,32 +382,57 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 </li>
-</ol><div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the drivers of the PF and VF.</div><div> </div>
+</ol>
+<div class="alert"><b>Note</b>  The  usage of the VF configuration block and the format of its configuration data are defined by the  independent hardware vendor (IHV) of the device. The configuration data is used only by the drivers of the PF and VF.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
+
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
-<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisminvalidateconfigblock.md">NdisMInvalidateConfigBlock</a>
 
+
+
+<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+
+
+
 <b></b>
+
+
 
  
 

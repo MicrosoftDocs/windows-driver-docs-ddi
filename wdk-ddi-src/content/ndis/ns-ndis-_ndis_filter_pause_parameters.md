@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 070c6d5d-9942-4bff-8894-9aa69d5e7983
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_FILTER_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], filter_structures_ref_78bd5df6-c235-4af1-9b2f-1ddce38a0017.xml, PNDIS_FILTER_PAUSE_PARAMETERS, ndis/PNDIS_FILTER_PAUSE_PARAMETERS, netvista.ndis_filter_pause_parameters, _NDIS_FILTER_PAUSE_PARAMETERS, ndis/NDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS
+ms.keywords: NDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_FILTER_PAUSE_PARAMETERS, ndis/NDIS_FILTER_PAUSE_PARAMETERS, netvista.ndis_filter_pause_parameters, filter_structures_ref_78bd5df6-c235-4af1-9b2f-1ddce38a0017.xml, ndis/PNDIS_FILTER_PAUSE_PARAMETERS, _NDIS_FILTER_PAUSE_PARAMETERS, PNDIS_FILTER_PAUSE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,10 +87,13 @@ Reserved.
 
 ### -field PauseReason
 
-<div class="alert"><b>Note</b>  This member is deprecated for NDIS 6.40 and later drivers.</div><div> </div>The value will always be NDIS_PAUSE_NDIS_INTERNAL.
+<div class="alert"><b>Note</b>  This member is deprecated for NDIS 6.40 and later drivers.</div>
+<div> </div>
+The value will always be NDIS_PAUSE_NDIS_INTERNAL.
 
 
 ## -remarks
+
 
 
 To define filter module pause parameters, NDIS passes a pointer to an NDIS_FILTER_PAUSE_PARAMETERS
@@ -99,11 +102,16 @@ To define filter module pause parameters, NDIS passes a pointer to an NDIS_FILTE
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
 
  
 

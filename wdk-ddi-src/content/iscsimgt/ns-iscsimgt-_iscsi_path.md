@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PISCSI_Path, PISCSI_Path structure pointer [Storage Devices], ISCSI_Path, iscsimgt/ISCSI_Path, PISCSI_Path, structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, iscsimgt/PISCSI_Path, storage.iscsi_path, _ISCSI_Path, ISCSI_Path structure [Storage Devices]"
+ms.keywords: storage.iscsi_path, ISCSI_Path, iscsimgt/ISCSI_Path, PISCSI_Path structure pointer [Storage Devices], ISCSI_Path structure [Storage Devices], PISCSI_Path, *PISCSI_Path, _ISCSI_Path, structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml, iscsimgt/PISCSI_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,6 +95,7 @@ This specifies the state of the path: primary or secondary. If the value is 1, i
 ### -field ConnectionStatus
 
 This indicates the status of the connection.
+
 <table>
 <tr>
 <th>Type</th>
@@ -130,7 +131,8 @@ The path is reconnecting.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TCPOffLoadAvailable
@@ -141,15 +143,21 @@ This indicates whether the connection supports TCP offload or not.
 ## -remarks
 
 
+
 The iSCSI headers and MOF are included in the platform SDK and WDK.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4d47312-87e2-4147-94f6-ff9c9d452211
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilphonebooklocation, *LPRILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION structure [Network Drivers Starting with Windows Vista], RILPHONEBOOKLOCATION, ntddrilapitypes/RILPHONEBOOKLOCATION
+ms.keywords: RILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPHONEBOOKLOCATION, netvista.rilphonebooklocation, *LPRILPHONEBOOKLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKLOCATION
 product: Windows
 targetos: Windows
-req.typenames: RILPHONEBOOKLOCATION, *LPRILPHONEBOOKLOCATION
+req.typenames: "*LPRILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION"
 ---
 
 # RILPHONEBOOKLOCATION structure
@@ -73,15 +73,11 @@ typedef struct _RILPHONEBOOKLOCATION {
 ### -field cbSize
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwStoreLocation
 
 
-
 ### -field dwIndex
-
 

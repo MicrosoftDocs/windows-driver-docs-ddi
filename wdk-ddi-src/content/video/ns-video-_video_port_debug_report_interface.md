@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices]"
+ms.keywords: VIDEO_PORT_DEBUG_REPORT_INTERFACE, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, display.video_port_debug_report_interface, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,7 +127,9 @@ Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/w
 ## -remarks
 
 
+
 This structure is available in the following operating systems:
+
 <ul>
 <li>
 Windows Server 2003 SP1 and subsequent service packs
@@ -137,7 +139,9 @@ Windows Server 2003 SP1 and subsequent service packs
 Windows XP SP2 and subsequent service packs
 
 </li>
-</ul>The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+</ul>
+The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+
 
 
 
@@ -145,13 +149,23 @@ Windows XP SP2 and subsequent service packs
 
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
+
+
 
  
 

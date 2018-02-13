@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterFactoryGetOuterUnknown, KsFilterFactoryGetOuterUnknown, stream.ksfilterfactorygetouterunknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml
+ms.keywords: ks/KsFilterFactoryGetOuterUnknown, avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, KsFilterFactoryGetOuterUnknown, stream.ksfilterfactorygetouterunknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for
 ## -returns
 
 
+
 <b>KsFilterFactoryGetOuterUnknown </b>returns the outer <b>IUnknown</b> of <i>FilterFactory</i>. The minidriver can then use it to query for other interfaces.
 
 
 
+
 ## -remarks
+
 
 
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>.
@@ -89,19 +92,32 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 
 
+
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
 
 <a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
 
+
+
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+
+
 <a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
 
 <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
+
+
 <a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
 
  
 

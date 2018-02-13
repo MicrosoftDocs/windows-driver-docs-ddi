@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
 ---
 
 # IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR IOCTL
@@ -71,7 +71,9 @@ A UMDF-based driver obtains the size, in bytes, of the buffer by calling <a href
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -88,20 +90,25 @@ The size of the buffer that is retrieved by calling <a href="https://msdn.micros
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 HID minidrivers that carry out the I/O to the device must also:
+
 <ul>
 <li>Call <a href="https://msdn.microsoft.com/dc2c907c-1e3b-418c-85f8-9902dc83f7ab">IWDFRequest::SetInformation</a> to set the number of bytes transferred from the device.</li>
 <li>Call <a href="https://msdn.microsoft.com/2fa389f8-8277-4795-a89e-ac5d92004310">IWDFRequest::Complete</a> with S_OK to complete the request without error. Otherwise, set the appropriate HRESULT error code.</li>
@@ -110,6 +117,8 @@ HID minidrivers that carry out the I/O to the device must also:
 ## -see-also
 
 <a href="..\hidclass\ni-hidclass-ioctl_get_physical_descriptor.md">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
+
+
 
  
 

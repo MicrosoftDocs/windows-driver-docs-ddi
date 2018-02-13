@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 15450f33-cb86-4c1d-87d7-2d77a1d66a81
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PCIP_HDR1, _CIP_HDR1, CIP_HDR1, avcstrm/CIP_HDR1, avcstrm/PCIP_HDR1, PCIP_HDR1 structure pointer [Streaming Media Devices], avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, CIP_HDR1 structure [Streaming Media Devices], *PCIP_HDR1, stream.cip_hdr1
+ms.keywords: PCIP_HDR1 structure pointer [Streaming Media Devices], _CIP_HDR1, *PCIP_HDR1, CIP_HDR1, avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, avcstrm/CIP_HDR1, CIP_HDR1 structure [Streaming Media Devices], avcstrm/PCIP_HDR1, stream.cip_hdr1, PCIP_HDR1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,17 @@ Must be set to 0:0.
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
-
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
 
+
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetGenerationalGuid_IN, storage.setgenerationalguid_in, PSetGenerationalGuid_IN structure pointer [Storage Devices], *PSetGenerationalGuid_IN, SetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, SetGenerationalGuid_IN structure [Storage Devices], _SetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN
+ms.keywords: SetGenerationalGuid_IN structure [Storage Devices], iscsiop/PSetGenerationalGuid_IN, PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], *PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, _SetGenerationalGuid_IN, SetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, storage.setgenerationalguid_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetGenerationalGuid_IN
 product: Windows
 targetos: Windows
-req.typenames: SetGenerationalGuid_IN, *PSetGenerationalGuid_IN
+req.typenames: "*PSetGenerationalGuid_IN, SetGenerationalGuid_IN"
 ---
 
 # _SetGenerationalGuid_IN structure
@@ -75,15 +75,21 @@ A 16-byte GUID that identifies the version of the information that is currently 
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+
 
  
 

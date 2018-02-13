@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef4fcb57-2960-4cd3-9abc-f8c5bc46e1a3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, ExLocalTimeToSystemTime, kernel.exlocaltimetosystemtime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture], wdm/ExLocalTimeToSystemTime
+ms.keywords: kernel.exlocaltimetosystemtime, ExLocalTimeToSystemTime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture], k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, wdm/ExLocalTimeToSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,20 +82,26 @@ A pointer to the returned value for GMT system time.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>ExLocalTimeToSystemTime</b> adds the time-zone bias at the current locale to compute the corresponding GMT system time value.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d5acd3a-3ec3-4190-98d4-e7ce9ea8d3e8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdf.wdf_device_power_policy_idle_settings, kmdf.wdf_device_power_policy_idle_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, DFDeviceObjectGeneralRef_82f4a32c-ff51-4b0f-a67a-c45b4777ce23.xml, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ms.keywords: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, DFDeviceObjectGeneralRef_82f4a32c-ff51-4b0f-a67a-c45b4777ce23.xml, kmdf.wdf_device_power_policy_idle_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, wdf.wdf_device_power_policy_idle_settings, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,11 +145,13 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a
 <b>WdfTrue</b> - The framework will move a device to a low-power D-state when the idle timeout period expires.  If that D-state is D3, the device will be moved to D3hot.  If <b>ExcludeD3Cold</b> is set to <b>WdfTrue</b>, then no further transition from D3hot to D3cold will be allowed.
 
 <b>WdfFalse</b> - The device may enter the D3cold power state when the idle timeout period expires, if all of the following criteria are met:
+
 <ul>
 <li>The <b>DxState</b> member of this structure specifies <b>PowerDeviceD3</b> or <b>PowerDeviceMaximum</b>.</li>
 <li>The ACPI firmware indicates that the device supports the D3cold power state.</li>
 <li>If the driver specified <b>IdleCanWakeFromS0</b> or <b>IdleUsbSelectiveSuspend</b> in the <b>IdleCaps</b> member of this structure, the device can respond to an external wake-up event while in the D3cold power state. Otherwise, this requirement does not apply.</li>
-</ul><b>WdfUseDefault</b> - The framework examines the <i>DDInstall</i><b>.HW</b> section of the driver's INF file. If the following lines are present, this value has the same meaning as <b>WdfFalse</b>:<pre class="syntax" xml:space="preserve"><code>Include = machine.inf
+</ul>
+<b>WdfUseDefault</b> - The framework examines the <i>DDInstall</i><b>.HW</b> section of the driver's INF file. If the following lines are present, this value has the same meaning as <b>WdfFalse</b>:<pre class="syntax" xml:space="preserve"><code>Include = machine.inf
 Needs = PciD3ColdSupported
 </code></pre> Otherwise, this value has the same meaning as <b>WdfTrue</b>.
 
@@ -159,9 +161,11 @@ The <b>ExcludeD3Cold</b> member is available starting in KMDF version 1.11, as w
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure is used as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>. 
 
 The first time a driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>, the following actions occur:
+
 <ul>
 <li>
 The framework stores the values of all <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure members. 
@@ -171,7 +175,8 @@ The framework stores the values of all <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS<
 If the <b>UserControlOfIdleSettings</b> member is set to <b>IdleAllowUserControl</b> and if the <b>Enabled</b> member is set to <b>WdfUseDefault</b>, the framework reads the registry to find out if the user has enabled powering down the device when it is idle.
 
 </li>
-</ul>During subsequent calls to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>, the framework only stores the values of the <b>DxState</b>, <b>IdleTimeout</b>, and <b>Enabled</b> members. Also, in KMDF 1.9 and earlier, the framework stores the value of the <b>IdleCaps</b> member <i>unless</i> the value is <b>IdleUsbSelectiveSuspend</b>. Therefore, the driver must use the following rules:
+</ul>
+During subsequent calls to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>, the framework only stores the values of the <b>DxState</b>, <b>IdleTimeout</b>, and <b>Enabled</b> members. Also, in KMDF 1.9 and earlier, the framework stores the value of the <b>IdleCaps</b> member <i>unless</i> the value is <b>IdleUsbSelectiveSuspend</b>. Therefore, the driver must use the following rules:
 
 
 <ul>
@@ -196,6 +201,7 @@ If the driver is implementing functional power state support for a multiple-comp
  For more information, see <a href="https://msdn.microsoft.com/F96214C9-702D-402E-B873-5DF57C521B34">Supporting Functional Power States</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406637">Overview of the Power Management Framework</a>.
 
 The following rules apply to the value that you specify for the <b>DxState</b> member:
+
 <ul>
 <li>
 The value cannot be <b>PowerDeviceD0</b>.
@@ -213,12 +219,14 @@ If you specify <b>PowerDeviceMaximum</b>, the framework uses the value that the 
 If the value of the <b>IdleCaps</b> member is <b>IdleCanWakeFromS0</b>, you cannot specify a device power state that is lower than the device power state in the <b>DeviceWake</b> member of the bus driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure. (In other words, if the bus driver's <b>DeviceWake</b> value is <b>PowerDeviceD2</b>, your function driver's <b>DxState</b> value cannot be <b>PowerDeviceD3</b>.)
 
 </li>
-</ul>In operating systems earlier than Windows 8, the D3 power state signifies that the device is in a low-power state, but that some power to the bus is still maintained. Starting in Windows 8, the former D3 power state is called D3hot, and a new power state (D3cold) is available. A device can enter the D3cold state either while the system is in its working (S0) state or in a low-power state.  When a device is in the D3cold  power state, the bus is inactive and the device must trigger its own wake signal when an external action (for example plugging in a network cable) causes a hardware event.
+</ul>
+In operating systems earlier than Windows 8, the D3 power state signifies that the device is in a low-power state, but that some power to the bus is still maintained. Starting in Windows 8, the former D3 power state is called D3hot, and a new power state (D3cold) is available. A device can enter the D3cold state either while the system is in its working (S0) state or in a low-power state.  When a device is in the D3cold  power state, the bus is inactive and the device must trigger its own wake signal when an external action (for example plugging in a network cable) causes a hardware event.
 
 Starting in KMDF 1.11 and UMDF 2.0, a device that <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down">supports idle power-down</a> can use the <b>ExcludeD3Cold</b> member of this structure to specify whether the D3cold power state should be an allowable choice for the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter after the idle timeout period ends.
 
 For information about registry entries that control a device's idle capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior">User Control of Device Idle and Wake Behavior</a>. 
 
 To initialize its <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</b> structure, your driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_idle_settings_init.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, _RemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], PRemovePersistentLogin_OUT structure pointer [Storage Devices]
+ms.keywords: "_RemovePersistentLogin_OUT, RemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, PRemovePersistentLogin_OUT structure pointer [Storage Devices], *PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, iscsiop/PRemovePersistentLogin_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,9 @@ On output from <b>RemovePersistentLogin</b>, the status of the operation. For a 
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
@@ -83,9 +85,15 @@ You must implement this method.
 
 <a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_in.md">RemovePersistentLogin_IN</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
+
+
 
  
 

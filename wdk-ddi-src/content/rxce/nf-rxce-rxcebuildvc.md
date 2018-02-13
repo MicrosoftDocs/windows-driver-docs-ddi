@@ -7,8 +7,8 @@ old-location: ifsk\rxcebuildvc.htm
 old-project: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxCeBuildVC function [Installable File System Drivers], rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml, RxCeBuildVC, rxce/RxCeBuildVC, ifsk.rxcebuildvc
+ms.date: 2/7/2018
+ms.keywords: ifsk.rxcebuildvc, RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml, rxce/RxCeBuildVC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeBuildVC
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - pConnection [in]
 
 A pointer to the connection on which the virtual circuit is to be added.
@@ -88,7 +89,9 @@ A pointer to the connection on which the virtual circuit is to be added.
 ## -returns
 
 
+
 <b>RxCeBuildVC</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,14 +119,18 @@ One of the parameters passed to this routine was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When <b>RxCeBuildVC</b> is successful, the data members in the RXCE_VC structure pointed to by the <i>pVC</i> parameter will be properly initialized and the virtual circuit will be added to the specified RDBSS connection. 
+
 
 
 
@@ -131,9 +138,11 @@ When <b>RxCeBuildVC</b> is successful, the data members in the RXCE_VC structure
 
 <a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeBuildVC function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeBuildVC function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

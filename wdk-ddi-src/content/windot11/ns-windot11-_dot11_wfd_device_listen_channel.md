@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F493F295-A133-454B-99AD-E216D105E707
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_WFD_DEVICE_LISTEN_CHANNEL, PDOT11_WFD_DEVICE_LISTEN_CHANNEL, _DOT11_WFD_DEVICE_LISTEN_CHANNEL, PDOT11_WFD_DEVICE_LISTEN_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_DEVICE_LISTEN_CHANNEL, windot11/PDOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL structure [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_device_listen_channel, *PDOT11_WFD_DEVICE_LISTEN_CHANNEL
+ms.keywords: PDOT11_WFD_DEVICE_LISTEN_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_DEVICE_LISTEN_CHANNEL, *PDOT11_WFD_DEVICE_LISTEN_CHANNEL, netvista.dot11_wfd_device_listen_channel, _DOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL, PDOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DEVICE_LISTEN_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DEVICE_LISTEN_CHANNEL
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_DEVICE_LISTEN_CHANNEL, *PDOT11_WFD_DEVICE_LISTEN_CHANNEL
+req.typenames: "*PDOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL"
 req.product: Windows 10 or later.
 ---
 
@@ -72,6 +72,7 @@ typedef struct _DOT11_WFD_DEVICE_LISTEN_CHANNEL {
 ### -field Header
 
 Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL</b> structure. The required settings for the members of <b>Header</b> are the following:
+
 <table>
 <tr>
 <th>Member</th>
@@ -89,7 +90,8 @@ Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL<
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_DEVICE_LISTEN_CHANNEL_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ChannelNumber
@@ -100,6 +102,8 @@ The device listen channel.   Windows may use <a href="https://msdn.microsoft.com
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh738803">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a>
+
+
 
  
 

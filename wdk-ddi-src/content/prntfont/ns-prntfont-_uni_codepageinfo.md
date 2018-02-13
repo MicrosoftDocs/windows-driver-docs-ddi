@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, prntfont/PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], print.uni_codepageinfo, _UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], *PUNI_CODEPAGEINFO, UNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO, PUNI_CODEPAGEINFO
+ms.keywords: PUNI_CODEPAGEINFO, prntfont/PUNI_CODEPAGEINFO, print.uni_codepageinfo, UNI_CODEPAGEINFO, _UNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, PUNI_CODEPAGEINFO structure pointer [Print Devices], UNI_CODEPAGEINFO structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,6 +88,8 @@ Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON, HciDisconnect, L2capDisconnectRequest, bthddi/RadioPoweredDown, bthddi/HardwareRemoval, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], RadioPoweredDown, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, bthddi/L2capDisconnectRequest, bthddi/HciDisconnect, HardwareRemoval, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason
+ms.keywords: L2capDisconnectRequest, HardwareRemoval, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], RadioPoweredDown, bthddi/RadioPoweredDown, HciDisconnect, bthddi/L2capDisconnectRequest, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, _L2CAP_DISCONNECT_REASON, bthddi/HardwareRemoval, bthddi/L2CAP_DISCONNECT_REASON, bthddi/HciDisconnect, bltooth.l2cap_disconnect_reason, L2CAP_DISCONNECT_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -97,6 +97,7 @@ This value specifies for the profile driver that the local radio has been physic
 ## -remarks
 
 
+
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
     <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structure.
@@ -112,9 +113,12 @@ Currently,
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
+
 
  
 

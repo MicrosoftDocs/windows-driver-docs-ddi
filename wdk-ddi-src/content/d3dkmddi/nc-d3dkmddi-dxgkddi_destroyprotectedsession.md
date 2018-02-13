@@ -81,6 +81,8 @@ The driver generated handle driver returned at DxgkDdiCreateProtectedSession.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS when completed successfully.
+
 
 

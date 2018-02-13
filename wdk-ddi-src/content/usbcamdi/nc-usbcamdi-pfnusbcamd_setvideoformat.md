@@ -40,7 +40,7 @@ apiname:
 -	USBCAMD_SetVideoFormat
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,9 @@ Pointer to a stream request block (SRB).
 ## -returns
 
 
+
 <b>USBCAMD_SetVideoFormat</b> returns <b>TRUE</b> if the call was successful, otherwise it returns <b>FALSE</b> and sets <i>pSrb-&gt;Status</i> to one of the following error codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,11 +119,14 @@ There are insufficient resources to allocate the video info header.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Note that this function returns <b>TRUE</b> to indicate success and not STATUS_SUCCESS.
@@ -132,11 +137,16 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
+
+
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
+
 
  
 

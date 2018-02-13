@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 060c1e9a-14d3-4f9b-b898-d8042f5efd7e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM structure [Storage Devices], FEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM, _FEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml
+ms.keywords: ntddmmc/FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml, storage.feature_data_dvd_cprm, FEATURE_DATA_DVD_CPRM structure [Storage Devices], _FEATURE_DATA_DVD_CPRM, ntddmmc/PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,21 @@ Contains the CPRM version number. Must be set to 1.
 ## -remarks
 
 
+
 This structure holds data for the feature named "DVD CPRM" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can perform DVD Content Protection for Recordable Media (CPRM) authentication and key management. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

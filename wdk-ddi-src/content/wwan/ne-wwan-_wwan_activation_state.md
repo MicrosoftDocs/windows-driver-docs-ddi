@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca5caf9d-5c73-4516-bbc9-ee3ff9511e99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanActivationStateDeactivating, *PWWAN_ACTIVATION_STATE, WwanActivationStateActivating, WwanActivationStateDeactivated, wwan/WwanActivationStateMax, WWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, PWWAN_ACTIVATION_STATE, wwan/PWWAN_ACTIVATION_STATE, WwanActivationStateActivated, wwan/WWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, wwan/WwanActivationStateDeactivated, netvista.wwan_activation_state, wwan/WwanActivationStateUnknown, WwanActivationStateUnknown, _WWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivating, WwanActivationStateMax, wwan/WwanActivationStateDeactivating
+ms.keywords: PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanActivationStateActivating, WwanActivationStateUnknown, _WWAN_ACTIVATION_STATE, wwan/WwanActivationStateUnknown, wwan/WwanActivationStateMax, wwan/WwanActivationStateDeactivating, WwanActivationStateActivating, wwan/WWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE, WwanActivationStateDeactivating, WwanActivationStateActivated, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE, WwanActivationStateDeactivated, WwanActivationStateMax, netvista.wwan_activation_state, wwan/PWWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, wwan/WwanActivationStateDeactivated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -107,6 +107,7 @@ The total number of PDP activation states.
 ## -remarks
 
 
+
 Miniport drivers use the 
     <b>WwanActivationStateActivating</b> and 
     <b>WwanActivationStateDeactivating</b> transient states when responding to 
@@ -117,9 +118,12 @@ Miniport drivers use the
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
 
  
 

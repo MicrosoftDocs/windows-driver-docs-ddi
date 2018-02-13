@@ -97,6 +97,7 @@ If the stream is (or is to become) one of the streams of a multiplexed log, the 
 If you want to create a multiplexed log that has no streams for the moment, use a name of the form log:<i>physical log name</i>::, where <i>physical log name</i> is the path name, on the underlying file system, of the physical log to be created.
 
 The following list gives some examples of valid names.
+
 <ul>
 <li>
 "Log:c:\myLog" creates or opens a dedicated log and its one stream.
@@ -115,6 +116,7 @@ The following list gives some examples of valid names.
 ### -param fDesiredAccess [in]
 
 An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -150,12 +152,14 @@ The client can mark the stream for deletion.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param dwShareMode [in]
 
 The sharing mode of the stream, which can be zero (not shared) or any combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -191,7 +195,8 @@ Subsequent requests to open the stream with write access will succeed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param psdLogFile [in, optional]
@@ -202,6 +207,7 @@ A pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESC
 ### -param fCreateDisposition [in]
 
 The action to take that depends on whether the stream already exists. This parameter must be set to one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -237,12 +243,14 @@ Open an existing stream. Create the stream if it does not already exist.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param fCreateOptions [in]
 
 A set of flags that specify options to apply when creating or opening the stream. This parameter can be zero or a compatible combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -278,7 +286,8 @@ All operations on the stream are performed synchronously. Waits in the system th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param fFlagsAndAttributes [in]
@@ -292,6 +301,7 @@ FILE_ATTRIBUTE_NORMAL or FILE_ATTRIBUTE_READONLY.
 
 A hint about the relationship between CLFS and the component creating or opening the stream. This parameter must be set to one of the following values:
 	 
+
 <table>
 <tr>
 <th>Value</th>
@@ -347,7 +357,8 @@ The creating component is a file system minifilter driver that sends all of its 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pvContext [in, optional]
@@ -363,11 +374,14 @@ The size, in bytes, of the context pointed to by <i>pvContext</i>. If <i>pvConte
 ## -returns
 
 
+
 <b>ClfsCreateLogFile</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 When you create a CLFS stream, it is backed by an underlying physical CLFS log. The underlying log can be either dedicated (backs only one stream) or multiplexed (backs several streams). A dedicated log cannot be converted to a multiplexed log, and a multiplexed log cannot be converted to a dedicated log.
@@ -378,15 +392,24 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
+<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
 
-<a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
+
 
 <a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
-<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
+
+
+<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
+
+
 
  
 

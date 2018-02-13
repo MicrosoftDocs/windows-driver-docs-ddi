@@ -88,14 +88,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 ## -see-also
 
 <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_start_information.md">INTERNAL_I8042_START_INFORMATION</a>
+
+
 
  
 

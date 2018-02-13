@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 241801a5-4a02-46f3-a007-f571d58c7825
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCopyUnicodeString, wdm/RtlCopyUnicodeString, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlcopyunicodestring, k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml
+ms.keywords: k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, wdm/RtlCopyUnicodeString, RtlCopyUnicodeString, kernel.rtlcopyunicodestring, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ A pointer to the source string buffer. This parameter points to a <b>UNICODE_STR
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If <i>SourceString</i> is <b>NULL</b>, this routine sets the <b>Length</b> field of the structure pointed to by <i>DestinationString</i> to zero.
@@ -102,11 +105,16 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 
 
+
 ## -see-also
+
+<a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
+
 
  
 

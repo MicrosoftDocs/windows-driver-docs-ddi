@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fefdb56f-6689-4a4f-a198-6108190624f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiswaitevent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, NdisWaitEvent function [Network Drivers Starting with Windows Vista], ndis/NdisWaitEvent, NdisWaitEvent
+ms.keywords: NdisWaitEvent, ndis/NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], netvista.ndiswaitevent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisWaitEvent
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisWaitEvent function
@@ -86,12 +86,15 @@ The number of milliseconds the caller will wait if the event is not set to the
 ## -returns
 
 
+
 <b>NdisWaitEvent</b> returns <b>TRUE</b> if the event is in the 
      <i>signaled</i> state when the wait is satisfied.
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisWaitEvent</b> returns control to its caller when the given event is signaled or the specified 
@@ -111,24 +114,41 @@ A miniport driver typically calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
-   Drivers</a>
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+
+
 
  
 

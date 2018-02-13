@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91F88EC2-C0BD-42E1-8C57-437909E2CCA2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFCmResourceList::GetCount, GetCount method, IWDFCmResourceList interface, IWDFCmResourceList, GetCount method, IWDFCmResourceList::GetCount, GetCount, IWDFCmResourceList interface, GetCount method, umdf.iwdfcmresourcelist_getcount, wdf.iwdfcmresourcelist_getcount
+ms.keywords: GetCount method, IWDFCmResourceList interface, GetCount, IWDFCmResourceList interface, GetCount method, IWDFCmResourceList::GetCount, IWDFCmResourceList, umdf.iwdfcmresourcelist_getcount, GetCount method, wudfddi/IWDFCmResourceList::GetCount, wdf.iwdfcmresourcelist_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -72,23 +72,36 @@ ULONG GetCount();
 
 
 
+
 ## -returns
+
 
 
 <b>GetCount</b> returns the number of resource descriptors that are contained in this interface's resource list.
 
 
 
+
 ## -remarks
 
 
+
 Typically, a UMDF driver calls the <b>GetCount</b> method from its <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> method. For more information about parsing hardware resources, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
+
+
+#### Examples
+
+See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-32FB3315251F">IWDFDevice3::MapIoSpace</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a>
+
+
 
  
 

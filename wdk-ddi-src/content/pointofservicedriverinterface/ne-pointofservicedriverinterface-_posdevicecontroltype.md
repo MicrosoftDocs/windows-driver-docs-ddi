@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9f5f3baa-49a0-4711-88c0-b9ff8d87ae1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/CheckHealth, pointofservicedriverinterface/Invalid, pointofservicedriverinterface/UpdateStatistics, RetrieveStatistics, UpdateStatistics, pointofservicedriverinterface/_MaxDeviceControlType, MsrAuthenticateDevice, PosDeviceControlType enumeration, MsrUpdateKey, pointofservicedriverinterface/ResetStatistics, pointofservicedriverinterface/BarcodeScannerInjectEvent, Invalid, ResetStatistics, pointofservicedriverinterface/SetProperty, MsrRetrieveDeviceAuthentication, ClaimDevice, BarcodeScannerInjectEvent, pointofservicedriverinterface/ReleaseDevice, SetProperty, pos.posdevicecontroltype, pointofservicedriverinterface/GetDeviceBasics, pointofservicedriverinterface/MsrAuthenticateDevice, pointofservicedriverinterface/MsrUpdateKey, _PosDeviceControlType, GetProperty, pointofservicedriverinterface/RetrieveStatistics, CheckHealth, pointofservicedriverinterface/RetainDevice, ReleaseDevice, _MaxDeviceControlType, pointofservicedriverinterface/PosDeviceControlType, RetainDevice, pointofservicedriverinterface/MsrDeAuthenticateDevice, PosDeviceControlType, pointofservicedriverinterface/GetProperty, GetDeviceBasics, pointofservicedriverinterface/ClaimDevice, MsrDeAuthenticateDevice, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication
+ms.keywords: "_PosDeviceControlType, ReleaseDevice, pointofservicedriverinterface/BarcodeScannerInjectEvent, pointofservicedriverinterface/MsrUpdateKey, pointofservicedriverinterface/RetrieveStatistics, MsrRetrieveDeviceAuthentication, BarcodeScannerInjectEvent, pointofservicedriverinterface/SetProperty, pointofservicedriverinterface/UpdateStatistics, pointofservicedriverinterface/MsrAuthenticateDevice, MsrDeAuthenticateDevice, MsrUpdateKey, pointofservicedriverinterface/PosDeviceControlType, pointofservicedriverinterface/MsrRetrieveDeviceAuthentication, pointofservicedriverinterface/CheckHealth, RetrieveStatistics, Invalid, ResetStatistics, MsrAuthenticateDevice, pointofservicedriverinterface/_MaxDeviceControlType, GetProperty, ClaimDevice, UpdateStatistics, SetProperty, PosDeviceControlType enumeration, pointofservicedriverinterface/ResetStatistics, RetainDevice, PosDeviceControlType, CheckHealth, pointofservicedriverinterface/MsrDeAuthenticateDevice, pointofservicedriverinterface/Invalid, pointofservicedriverinterface/RetainDevice, pointofservicedriverinterface/ReleaseDevice, pointofservicedriverinterface/ClaimDevice, GetDeviceBasics, pointofservicedriverinterface/GetDeviceBasics, _MaxDeviceControlType, pointofservicedriverinterface/GetProperty, pos.posdevicecontroltype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -84,7 +84,6 @@ typedef enum _PosDeviceControlType {
 
 
 ### -field _MinDeviceControlType
-
 
 
 ### -field Invalid
@@ -170,178 +169,137 @@ Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinte
 ### -field StartBarcodeScannerSoftwareTrigger
 
 
-
 ### -field StopBarcodeScannerSoftwareTrigger
-
 
 
 ### -field PrinterClearOutput
 
 
-
 ### -field PrinterSlipWaitForPaperInserted
-
 
 
 ### -field PrinterSlipWaitForPaperRemoved
 
 
-
 ### -field PrinterChangePrintSide
-
 
 
 ### -field PrinterCutPaper
 
 
-
 ### -field PrinterDrawRuledLine
-
 
 
 ### -field PrinterSlipOpenJaws
 
 
-
 ### -field PrinterSlipCloseJaws
-
 
 
 ### -field PrinterMarkFeed
 
 
-
 ### -field PrinterPageModePrint
-
 
 
 ### -field PrinterPrintBarcode
 
 
-
 ### -field PrinterPrintMemoryBitmapStart
-
 
 
 ### -field PrinterPrintMemoryBitmapFill
 
 
-
 ### -field PrinterPrintNormal
-
 
 
 ### -field PrinterRotatePrint
 
 
-
 ### -field PrinterSetBitmapStart
-
 
 
 ### -field PrinterSetBitmapFill
 
 
-
 ### -field PrinterTransactionPrint
-
 
 
 ### -field PrinterValidateData
 
 
-
 ### -field PrinterPrintSavedBitmap
-
 
 
 ### -field CashDrawerOpenDrawer
 
 
-
 ### -field CashDrawerCreateDrawerCloseAlarm
-
 
 
 ### -field CashDrawerCancelWait
 
 
-
 ### -field ConnectRemotePosDevice
-
 
 
 ### -field PrinterWaitForJobComplete
 
 
-
 ### -field LineDisplayCreateWindow
-
 
 
 ### -field LineDisplayDestroyWindow
 
 
-
 ### -field LineDisplayRefreshWindow
-
 
 
 ### -field LineDisplayWindowDisplayText
 
 
-
 ### -field LineDisplayWindowDisplayTextAt
-
 
 
 ### -field LineDisplayWindowScrollText
 
 
-
 ### -field LineDisplayWindowClearText
-
 
 
 ### -field LineDisplayWindowDisplayBitmap
 
 
-
 ### -field LineDisplaySetBitmap
-
 
 
 ### -field LineDisplaySetDescriptor
 
 
-
 ### -field LineDisplayClearDescriptors
-
 
 
 ### -field LineDisplayDefineGlyph
 
 
-
 ### -field LineDisplayReadCharacterAtCursor
-
 
 
 ### -field BarcodeScannerGetSymbologyAttributes
 
 
-
 ### -field BarcodeScannerSetSymbologyAttributes
-
 
 
 ### -field _MaxDeviceControlType
 
 
-
 ## -remarks
 
 
+
 This enumeration provides values for each IOCTL that you can send to the device driver. It is a convenient way to indicate which IOCTL to dispatch when calling functions like <b>SendDeviceCommand()</b>.
+
 
 

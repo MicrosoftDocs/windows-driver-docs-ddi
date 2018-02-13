@@ -7,8 +7,8 @@ old-location: buses\ufx_proprietary_charger.htm
 old-project: usbref
 ms.assetid: FAAEDAFE-69A8-4092-8301-DB159FD3583D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ufxproprietarycharger/UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], _UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], PUFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger, *PUFX_PROPRIETARY_CHARGER
+ms.date: 2/8/2018
+ms.keywords: ufxproprietarycharger/UFX_PROPRIETARY_CHARGER, _UFX_PROPRIETARY_CHARGER, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], buses.ufx_proprietary_charger, UFX_PROPRIETARY_CHARGER structure [Buses], PUFX_PROPRIETARY_CHARGER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a73a3bb5-f9f4-41d7-9df7-c7f36a01d157
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldTypeAndOffset method [Windows Debugging], GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, GetFieldTypeAndOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, debugger.getfieldtypeandoffset, IDebugSymbols3::GetFieldTypeAndOffset, GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,9 @@ Receives the offset of the field <i>Field</i> from the base memory location of a
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +129,14 @@ The field <i>Field</i> could not be found in the type specified by <i>ContainerT
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 An example of a dot-separated path for the <i>Field</i> parameter is as follows.  Suppose the MyStruct structure contains a field <b>MyField</b> of type MySubStruct, and the MySubStruct structure contains the field <b>MySubField</b>.  Then the type of this field and its location relative to the location of MyStruct structure can be found by passing "MyField.MySubField" as the <i>Field</i> parameter to this method.
@@ -140,13 +145,20 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
 
  
 

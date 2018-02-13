@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_PROCESSOR_IDLE_TYPE, kernel.pep_processor_idle_type, PepIdleTypeMax, PepIdleTypeProcessor, pep_x/PepIdleTypeProcessor, PEP_PROCESSOR_IDLE_TYPE, pep_x/PEP_PROCESSOR_IDLE_TYPE, PepIdleTypePlatform, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], pep_x/PepIdleTypeMax, pep_x/PepIdleTypePlatform"
+ms.keywords: pep_x/PepIdleTypePlatform, PepIdleTypeProcessor, kernel.pep_processor_idle_type, PepIdleTypePlatform, *PPEP_PROCESSOR_IDLE_TYPE, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeMax, pep_x/PepIdleTypeProcessor, PepIdleTypeMax, PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PROCESSOR_IDLE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_IDLE_TYPE, *PPEP_PROCESSOR_IDLE_TYPE
+req.typenames: "*PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE"
 ---
 
 # *PPEP_PROCESSOR_IDLE_TYPE enumeration
@@ -87,13 +87,17 @@ Reserved for use by operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure is a <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
+
+
 
  
 

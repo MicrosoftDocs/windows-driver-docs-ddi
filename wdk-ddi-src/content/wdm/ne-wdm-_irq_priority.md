@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IrqPriorityUndefined, wdm/IrqPriorityHigh, IrqPriorityHigh, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], wdm/PIRQ_PRIORITY, IrqPriorityLow, wdm/IrqPriorityLow, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IRQ_PRIORITY, IrqPriorityNormal, PIRQ_PRIORITY, wdm/IrqPriorityNormal, wdm/IrqPriorityUndefined, kernel.irq_priority, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, _IRQ_PRIORITY, wdm/IRQ_PRIORITY, *PIRQ_PRIORITY
+ms.keywords: sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IrqPriorityHigh, PIRQ_PRIORITY, IRQ_PRIORITY, wdm/IrqPriorityNormal, *PIRQ_PRIORITY, _IRQ_PRIORITY, IrqPriorityLow, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], kernel.irq_priority, wdm/IrqPriorityLow, IrqPriorityUndefined, IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/PIRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], IrqPriorityHigh, wdm/IRQ_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	IRQ_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
+req.typenames: "*PIRQ_PRIORITY, IRQ_PRIORITY"
 req.product: Windows 10 or later.
 ---
 
@@ -94,13 +94,17 @@ Specifies that the device's interrupts are of high priority. This setting is app
 ## -remarks
 
 
+
 The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it might assign a higher IRQL to a device that has an <b>IRQ_PRIORITY</b> of <b>IrqPriorityHigh</b> than it does to a device that has an <b>IRQ_PRIORITY</b> of <b>IrqPriorityLow</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

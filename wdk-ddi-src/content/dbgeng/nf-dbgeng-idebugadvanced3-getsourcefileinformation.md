@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3, GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, dbgeng/IDebugAdvanced2::GetSourceFileInformation, dbgeng/IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, debugger.getsourcefileinformation, IDebugAdvanced2::GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface
+ms.keywords: dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced3, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2, GetSourceFileInformation, debugger.getsourcefileinformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSourceFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,9 +81,11 @@ Specifies the piece of information to return.  The <i>Which</i> parameter can ta
 
 
 
+
 #### DEBUG_SRCFILE_SYMBOL_TOKEN
 
 Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
+
 
 
 #### DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
@@ -121,10 +123,22 @@ Specifies the size in bytes of the <i>Buffer</i> buffer. If <i>Buffer</i> is <b>
 Specifies the size in bytes of the information returned to the <i>Buffer</i> buffer.  This parameter can be <b>NULL</b> if the data is not required. 
 
 
+##### - Which.DEBUG_SRCFILE_SYMBOL_TOKEN
+
+Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
+
+
+##### - Which.DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
+
+Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string. 
+
+
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,24 +166,34 @@ The method was successful. However, the information would not fit in the <i>Buff
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
 
  
 

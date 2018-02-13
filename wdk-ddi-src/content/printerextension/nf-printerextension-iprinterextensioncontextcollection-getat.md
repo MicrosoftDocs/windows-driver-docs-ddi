@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprinterextensioncontextcollection_getat, GetAt, GetAt method [Print Devices], printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, GetAt method [Print Devices], IPrinterExtensionContextCollection interface, get_GetAt, IPrinterExtensionContextCollection::GetAt
+ms.keywords: GetAt method [Print Devices], IPrinterExtensionContextCollection, GetAt, get_GetAt, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection::GetAt, GetAt method [Print Devices], IPrinterExtensionContextCollection interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,7 +82,9 @@ Pointer to an <a href="..\printerextension\nn-printerextension-iprinterextension
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
@@ -90,7 +92,11 @@ This method returns an <b>HRESULT</b> value.
 
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
+
+
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
 
  
 

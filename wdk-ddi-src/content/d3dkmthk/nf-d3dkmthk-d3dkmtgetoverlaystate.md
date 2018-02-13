@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6e3db876-c9f9-4de9-a0e2-5911132b72be
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_f2301345-c6d8-42bf-82f9-f8f97d29674f.xml, D3DKMTGetOverlayState, display.d3dkmtgetoverlaystate, d3dkmthk/D3DKMTGetOverlayState, D3DKMTGetOverlayState function [Display Devices]
+ms.keywords: D3DKMTGetOverlayState, OpenGL_Functions_f2301345-c6d8-42bf-82f9-f8f97d29674f.xml, display.d3dkmtgetoverlaystate, d3dkmthk/D3DKMTGetOverlayState, D3DKMTGetOverlayState function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTGetOverlayState(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getoverlaystate.md">D3DKMT_GETOVERLAYSTATE</a> structure that describes parameters to retrieve status about an overlay. 
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getoverlaystate.md">D3DK
 ## -returns
 
 
+
 <b>D3DKMTGetOverlayState</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,15 +121,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getoverlaystate.md">D3DKMT_GETOVERLAYSTATE</a>
+
+
 
  
 

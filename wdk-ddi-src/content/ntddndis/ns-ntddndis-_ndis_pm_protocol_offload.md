@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1ae68e5c-f9ea-4454-b015-82e3af0f7ccd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_protocol_offload, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD"
+ms.keywords: miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD, netvista.ndis_pm_protocol_offload, PNDIS_PM_PROTOCOL_OFFLOAD, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,6 +95,84 @@ typedef struct _NDIS_PM_PROTOCOL_OFFLOAD {
 
 
 
+### -field Header
+
+The 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     structure (NDIS_PM_PROTOCOL_OFFLOAD). The driver sets the 
+     <b>Type</b> member of the structure that 
+     <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
+     <b>Revision</b> member to NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1, and the 
+     <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1.
+
+
+### -field Flags
+
+A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
+
+
+### -field Priority
+
+A ULONG value that contains the priority of the protocol offload. If an overlying driver adds a
+     higher priority protocol offload when there are no resources that are available for more protocol offloads, NDIS
+     might remove a lower priority protocol offload to free resources. Miniport drivers should ignore this
+     member. Protocol drivers can provide any value within the predefined range. The following values are
+     predefined:
+     
+
+
+
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_LOWEST
+
+Specifies the lowest priority protocol offload.
+
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_NORMAL
+
+Specifies a normal priority protocol offload.
+
+
+
+#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_HIGHEST
+
+Specifies the highest priority protocol offload.
+
+
+### -field ProtocolOffloadType
+
+An 
+     <a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">
+     NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a> value that contains the type of protocol offload.
+
+
+### -field FriendlyName
+
+An 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a> structure
+     that contains the user-readable description of the low power protocol offload.
+
+
+### -field ProtocolOffloadId
+
+A ULONG value that contains an NDIS-provided value that identifies the offloaded protocol. Before
+     NDIS sends the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a> OID
+     request down to the underlying NDIS drivers or completes the request to the overlying driver, NDIS sets 
+     <b>ProtocolOffloadId</b> to a value that is unique among the protocol offloads on a network adapter.
+
+
+### -field NextProtocolOffloadOffset
+
+A ULONG value that contains an offset, in bytes. The 
+     <b>NextProtocolOffloadOffset</b> member of each <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure in a list is set to
+     the offset (from the beginning of the OID request 
+     InformationBuffer) of the next <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure in the list. If 
+     <b>NextProtocolOffloadOffset</b> is zero, the current structure is the last structure in the list.
+
+
 ### -field ProtocolOffloadParameters
 
 A union that contains the following member structures:
@@ -134,9 +212,11 @@ A <b>UCHAR</b> array that contains the IPv4 address. When it sends the ARP respo
 A <b>UCHAR</b> array that contains a media access control (MAC) address. The network adapter uses this MAC address
        for the Source Hardware Address (SHA) field of the ARP response packet that it generates.
        
+
 <div class="alert"><b>Note</b>  When it sends an ARP response, the network adapter must always use this MAC address in the
        ARP payload. However, it should use the current MAC address of the network adapter as the source address in the
-       MAC header.</div><div> </div>
+       MAC header.</div>
+<div> </div>
 
 ### -field ProtocolOffloadParameters.IPv6NSParameters
 
@@ -171,9 +251,11 @@ A <b>UCHAR</b> array that contains the solicited node IPv6 address. For more inf
 
 A <b>UCHAR</b> array that contains the MAC address. When it sends the NA message, the network adapter uses this array
         for the target link-layer address (TLLA) field of the NA message.
+
 <div class="alert"><b>Note</b>  When it sends an NA message, the network adapter must always use this MAC address in the
         TLLA field of the NA message. However, it should use the current MAC address of the network adapter as the source
-        address in the MAC header.</div><div> </div>
+        address in the MAC header.</div>
+<div> </div>
 
 ### -field ProtocolOffloadParameters.IPv6NSParameters.TargetIPv6Addresses
 
@@ -217,82 +299,10 @@ A <b>ULONGLONG</b> value that contains a replay counter.
  
 
 
-### -field Header
-
-The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
-     structure (NDIS_PM_PROTOCOL_OFFLOAD). The driver sets the 
-     <b>Type</b> member of the structure that 
-     <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
-     <b>Revision</b> member to NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1, and the 
-     <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_PROTOCOL_OFFLOAD_REVISION_1.
-
-
-### -field Flags
-
-A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
-
-
-### -field Priority
-
-A ULONG value that contains the priority of the protocol offload. If an overlying driver adds a
-     higher priority protocol offload when there are no resources that are available for more protocol offloads, NDIS
-     might remove a lower priority protocol offload to free resources. Miniport drivers should ignore this
-     member. Protocol drivers can provide any value within the predefined range. The following values are
-     predefined:
-     
-
-
-
-
-#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_LOWEST
-
-Specifies the lowest priority protocol offload.
-
-
-#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_NORMAL
-
-Specifies a normal priority protocol offload.
-
-
-#### NDIS_PM_PROTOCOL_OFFLOAD_PRIORITY_HIGHEST
-
-Specifies the highest priority protocol offload.
-
-
-### -field ProtocolOffloadType
-
-An 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">
-     NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a> value that contains the type of protocol offload.
-
-
-### -field FriendlyName
-
-An 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a> structure
-     that contains the user-readable description of the low power protocol offload.
-
-
-### -field ProtocolOffloadId
-
-A ULONG value that contains an NDIS-provided value that identifies the offloaded protocol. Before
-     NDIS sends the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a> OID
-     request down to the underlying NDIS drivers or completes the request to the overlying driver, NDIS sets 
-     <b>ProtocolOffloadId</b> to a value that is unique among the protocol offloads on a network adapter.
-
-
-### -field NextProtocolOffloadOffset
-
-A ULONG value that contains an offset, in bytes. The 
-     <b>NextProtocolOffloadOffset</b> member of each <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure in a list is set to
-     the offset (from the beginning of the OID request 
-     InformationBuffer) of the next <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure in the list. If 
-     <b>NextProtocolOffloadOffset</b> is zero, the current structure is the last structure in the list.
 
 
 ## -remarks
+
 
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the 
@@ -302,17 +312,28 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
+
 
 <a href="..\ntddndis\ne-ntddndis-_ndis_pm_protocol_offload_type.md">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pm-protocol-offload-list">OID_PM_PROTOCOL_OFFLOAD_LIST</a>
+
+
 
  
 

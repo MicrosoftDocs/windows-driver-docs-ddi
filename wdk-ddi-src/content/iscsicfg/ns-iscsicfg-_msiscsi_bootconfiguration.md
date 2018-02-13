@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a4b55b1-977d-43fb-9968-7a734e04b21b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, _MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], PMSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration, iscsicfg/MSiSCSI_BootConfiguration, storage.msiscsi_bootconfiguration, MSiSCSI_BootConfiguration structure [Storage Devices]
+ms.keywords: "*PMSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml, MSiSCSI_BootConfiguration structure [Storage Devices], _MSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration, iscsicfg/MSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration, storage.msiscsi_bootconfiguration, MSiSCSI_BootConfiguration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_BootConfiguration
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration
+req.typenames: "*PMSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration"
 ---
 
 # _MSiSCSI_BootConfiguration structure
@@ -129,7 +129,9 @@ A variable length array of characters that specifies the user name to use with t
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConfiguration structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a> in <i>Config.mof</i>.It is optional that you implement this class.
+
 
 
 
@@ -137,11 +139,19 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562979">MSiSCSI_BootConfiguration WMI Class</a>
 
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
 
  
 

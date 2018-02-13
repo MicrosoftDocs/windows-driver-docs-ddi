@@ -40,7 +40,7 @@ apiname:
 -	StrMiniCancelPacket
 product: Windows
 targetos: Windows
-req.typenames: "*PZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR"
+req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,8 @@ VOID StrMiniCancelPacket(
 
 
 
+
+
 #### - pSrb [in]
 
 Pointer to the stream request that had been canceled.
@@ -86,15 +88,19 @@ Pointer to the stream request that had been canceled.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The minidriver specifies this routine in the <b>HwCancelPacket</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
 
 Minidrivers that rely on the class driver to handle synchronization should, once they have successfully canceled a request, signal to the class driver that they are ready for another request by using <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a> or <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a> with the appropriate <b>ReadyForNext</b><i>Xxx</i><b>Request</b>.
+
 
 

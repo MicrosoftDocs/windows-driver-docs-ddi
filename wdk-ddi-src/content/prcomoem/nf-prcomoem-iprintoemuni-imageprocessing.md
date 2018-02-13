@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ImageProcessing method [Print Devices], IPrintOemUni interface, ImageProcessing, IPrintOemUni, ImageProcessing method [Print Devices], IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, prcomoem/IPrintOemUni::ImageProcessing, IPrintOemUni interface [Print Devices], ImageProcessing method
+ms.keywords: ImageProcessing method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], ImageProcessing method, IPrintOemUni, ImageProcessing, prcomoem/IPrintOemUni::ImageProcessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, ImageProcessing method [Print Devices], print.iprintoemuni_imageprocessing, IPrintOemUni::ImageProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.ImageProcessing
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -118,7 +118,9 @@ If this method intends to send the converted DIB to the spooler and is successfu
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +159,17 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
-<h2><a id="ddk_iprintoemuni_imageprocessing_gg"></a><a id="DDK_IPRINTOEMUNI_IMAGEPROCESSING_GG"></a></h2><h3><a id="source_bitmap_characteristics"></a><a id="SOURCE_BITMAP_CHARACTERISTICS"></a>Source Bitmap Characteristics</h3><h3><a id="destination_bitmap_characteristics"></a><a id="DESTINATION_BITMAP_CHARACTERISTICS"></a>Destination Bitmap Characteristics</h3>
+</table>
+ 
+
+<h2><a id="ddk_iprintoemuni_imageprocessing_gg"></a><a id="DDK_IPRINTOEMUNI_IMAGEPROCESSING_GG"></a></h2>
+<h3><a id="source_bitmap_characteristics"></a><a id="SOURCE_BITMAP_CHARACTERISTICS"></a>Source Bitmap Characteristics</h3>
+<h3><a id="destination_bitmap_characteristics"></a><a id="DESTINATION_BITMAP_CHARACTERISTICS"></a>Destination Bitmap Characteristics</h3>
+
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemUni::ImageProcessing</code> method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the *DevBPP and *DevNumOfPlanes attributes to zero in the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file.
@@ -171,6 +179,7 @@ If the method is implemented, and if the GPD file entry for the current color fo
 If the current color mode, as specified by <i>dwCallbackID</i>, is one that Unidrv supports, then the <code>IPrintOemUni::ImageProcessing</code> method should perform halftoning operations on the received bitmap and return it to Unidrv for spooling. If the current color mode is one that Unidrv does not support, the method must perform halftoning operations and then spool the bitmap.
 
 If the method is performing only halftoning operations, it must do the following:
+
 <ul>
 <li>
 Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure.
@@ -180,9 +189,11 @@ Perform halftoning operations on the data, as indicated by the <b>pHalftoneOptio
 Return the modified image data to Unidrv by placing it in a buffer and supplying the buffer's address as the method's return value. The returned buffer can be the one pointed to by <i>pSrcBitmap</i>, or it can be one that is locally allocated.
 
 </li>
-</ul>For more information about customizing halftoning operations in Unidrv, see <a href="https://msdn.microsoft.com/cc14ff92-743b-42ca-b70f-0df768762f01">Customized Halftoning</a>.
+</ul>
+For more information about customizing halftoning operations in Unidrv, see <a href="https://msdn.microsoft.com/cc14ff92-743b-42ca-b70f-0df768762f01">Customized Halftoning</a>.
 
 To handle customized color formatting, the <code>IPrintOemUni::ImageProcessing</code> method must do the following:
+
 <ul>
 <li>
 Convert DIB data, described by the <i>pSrcBitmap</i> and <i>pBitmapInfoHeader</i> parameter values, into the color format indicated by <i>dwCallbackID</i>.
@@ -200,7 +211,8 @@ Send the data to the print spooler by calling the <a href="https://msdn.microsof
 Modify the printer's cursor position by making appropriate calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553141">IPrintOemDriverUni::DrvXMoveTo</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553144">IPrintOemDriverUni::DrvYMoveTo</a> methods.
 
 </li>
-</ul>For more information about customizing color formatting operations in Unidrv, see <a href="https://msdn.microsoft.com/309d33e8-6338-4c32-8e03-d6cbf3371e16">Customized Color Formats</a>.
+</ul>
+For more information about customizing color formatting operations in Unidrv, see <a href="https://msdn.microsoft.com/309d33e8-6338-4c32-8e03-d6cbf3371e16">Customized Color Formats</a>.
 
 The <i>dwCallbackID</i> parameter indicates the type of color formatting, if any, that should be performed. Within the printer's GPD file, each *Option entry for the ColorMode feature describes a color format. If the format requires processing by the <code>IPrintOemUni::ImageProcessing</code> method, its *Option entry must contain an *<b>IPCallbackID</b> attribute. When Unidrv calls the <code>IPrintOemUni::ImageProcessing</code> method, it supplies the attribute value associated with the currently selected option for the ColorMode feature. This value is the <i>dwCallbackID</i> parameter's value.
 
@@ -209,6 +221,7 @@ Whether the <code>IPrintOemUni::ImageProcessing</code> method is performing colo
 If the method is implemented, it is called for every raster region on the page. However, if a region is blank, the <b>bBlankBand</b> member of the <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure is set to <b>TRUE</b>, which indicates the block is blank and the data is invalid. Because a band can be broken up into alternating blocks of blank and nonblank regions to optimize performance, the block size does not always correspond to the band size.
 
 The source bitmap described by <i>pSrcBitmap</i> and <i>pBitmapInfoHeader</i> has the following characteristics:
+
 <ul>
 <li>
 DIB contents are top-down ordered and uncompressed.
@@ -226,9 +239,12 @@ If the format requires a color table, the table is pointed to by <i>pColorTable<
 Color data is in PRIMARY_ORDER_CBA format, as explained in the description of the <b>ulPrimaryOrder</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a> structure. In other words, if the color format is RGB or CMY, the least significant <i>n</i> bits must contain the blue or yellow value, the next <i>n</i> bits must contain the green or magenta value, and the next <i>n</i> bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then <i>n</i> is 1. For 24 bits per pixel, <i>n</i> is 8, as shown in the following figure. For CYMK, the fourth group of <i>n</i> bits contains black.
 
 </li>
-</ul><img alt="PRIMARY_ORDER_CBA Format" src="images/bitmap.png"/>The preceding figure depicts color data in PRIMARY_ORDER_CBA format for two pixels, with 24 bits of color data per pixel. Moving from low memory addresses to high memory addresses, there are eight bits of blue data, then eight bits of green data, and then eight bits of red data, after which the pattern repeats. This is also known as BGR device output order. 
+</ul>
+<img alt="PRIMARY_ORDER_CBA Format" src="images/bitmap.png"/>
+The preceding figure depicts color data in PRIMARY_ORDER_CBA format for two pixels, with 24 bits of color data per pixel. Moving from low memory addresses to high memory addresses, there are eight bits of blue data, then eight bits of green data, and then eight bits of red data, after which the pattern repeats. This is also known as BGR device output order. 
 
 For halftoning operations, in which a processed bitmap is returned to Unidrv, the returned bitmap must have the following characteristics:
+
 <ul>
 <li>
 DIB contents must be top-down ordered and uncompressed.
@@ -250,7 +266,9 @@ Color data must be returned in PRIMARY_ORDER_CBA format, as described for the so
 The BITMAPINFOHEADER structure specified by <i>pBitmapInfoHeader</i> must describe both the input and output bitmaps. The <code>IPrintOemUni::ImageProcessing</code> method must not change the structure's contents.
 
 </li>
-</ul>The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "ImageProcessing" as input.
+</ul>
+The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "ImageProcessing" as input.
+
 
 
 
@@ -258,7 +276,11 @@ The BITMAPINFOHEADER structure specified by <i>pBitmapInfoHeader</i> must descri
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554252">IPrintOemUni::FilterGraphics</a>
+
+
 
  
 

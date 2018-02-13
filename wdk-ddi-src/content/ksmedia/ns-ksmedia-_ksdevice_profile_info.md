@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32C894CA-B644-4221-97B6-A21F2A459DE6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], _KSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info, KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO
+ms.keywords: "_KSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], ksmedia/PKSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], *PKSDEVICE_PROFILE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,26 @@ typedef struct _KSDEVICE_PROFILE_INFO {
 
 
 
+### -field Type
+
+Defines the type of profile. Currently, the only defined type is <b>KSDEVICE_PROFILE_TYPE_CAMERA</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define KSDEVICE_PROFILE_TYPE_CAMERA    0x00000001</pre>
+</td>
+</tr>
+</table></span></div>
+
+### -field Size
+
+This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
+
+
 ### -field Camera
 
 <b>Info</b>
@@ -123,21 +143,4 @@ If <b>CountOfConcurrency</b> is greater than 0, this parameter must not be <b>NU
  
 
 
-### -field Type
-
-Defines the type of profile. Currently, the only defined type is <b>KSDEVICE_PROFILE_TYPE_CAMERA</b>.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define KSDEVICE_PROFILE_TYPE_CAMERA    0x00000001</pre>
-</td>
-</tr>
-</table></span></div>
-
-### -field Size
-
-This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 

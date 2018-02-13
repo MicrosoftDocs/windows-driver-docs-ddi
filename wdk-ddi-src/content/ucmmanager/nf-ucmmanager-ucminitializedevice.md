@@ -7,8 +7,8 @@ old-location: buses\ucminitializedevice.htm
 old-project: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucmmanager/UcmInitializeDevice, buses.ucminitializedevice, UcmInitializeDevice, UcmInitializeDevice method [Buses]
+ms.date: 2/8/2018
+ms.keywords: UcmInitializeDevice, ucmmanager/UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,14 +83,18 @@ A pointer to a caller-supplied <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager
 ## -returns
 
 
+
 <b>UcmInitializeDevice</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value. 
+
 
 
 
 ## -remarks
 
 
+
 This method initializes UcmCx and allocates resources required, registers for PnP events, and sets up I/O targets. The client driver must call this method in the driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a>  implementation.
+
 
 
 
@@ -98,11 +102,15 @@ This method initializes UcmCx and allocates resources required, registers for Pn
 
 <a href="..\ucmmanager\nf-ucmmanager-ucm_manager_config_init.md">UCM_MANAGER_CONFIG_INIT</a>
 
+
+
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmInitializeDevice method%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmInitializeDevice method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d224b93b-4c3e-4e14-bc5d-404cb703752c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFPDOREMOVEEJECTIONRELATIONSPHYSICALDEVICE, WdfPdoRemoveEjectionRelationsPhysicalDevice, DFDeviceObjectFdoPdoRef_7a599cb2-dbb7-4fce-b04b-1b92638e17de.xml, wdf.wdfpdoremoveejectionrelationsphysicaldevice, wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice, WdfPdoRemoveEjectionRelationsPhysicalDevice method, kmdf.wdfpdoremoveejectionrelationsphysicaldevice
+ms.keywords: DFDeviceObjectFdoPdoRef_7a599cb2-dbb7-4fce-b04b-1b92638e17de.xml, WdfPdoRemoveEjectionRelationsPhysicalDevice method, kmdf.wdfpdoremoveejectionrelationsphysicaldevice, WdfPdoRemoveEjectionRelationsPhysicalDevice, wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice, wdf.wdfpdoremoveejectionrelationsphysicaldevice, PFN_WDFPDOREMOVEEJECTIONRELATIONSPHYSICALDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,13 +85,16 @@ A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <i>PhysicalDevice</i> parameter points to a PDO of a device that <b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b> removes from the list of devices that must be ejected when the device represented by the <i>Device</i> parameter is ejected.
@@ -99,12 +102,38 @@ The <i>PhysicalDevice</i> parameter points to a PDO of a device that <b>WdfPdoRe
 For more information, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
 
 
+#### Examples
+
+The following code example removes the device that the <b>pPhysicalDeviceObject</b> structure represents from the list of devices that are ejected when the device that <b>device</b> specifies is ejected.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDEVICE_OBJECT  pPhysicalDeviceObject;
+NTSTATUS  status;
+...
+status = WdfPdoRemoveEjectionRelationsPhysicalDevice(
+                                                     device,
+                                                     pPhysicalDeviceObject
+                                                     );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoclearejectionrelationsdevices.md">WdfPdoClearEjectionRelationsDevices</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: audio\ksdatarange_audio.htm
 old-project: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PKSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, KSDATARANGE_AUDIO structure [Audio Devices], *PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, ksmedia/KSDATARANGE_AUDIO, audio.ksdatarange_audio, PKSDATARANGE_AUDIO structure pointer [Audio Devices]
+ms.date: 2/8/2018
+ms.keywords: PKSDATARANGE_AUDIO structure pointer [Audio Devices], PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], *PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO, audio.ksdatarange_audio, ksmedia/KSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,9 +105,11 @@ Specifies the maximum frequency allowed.
 ## -remarks
 
 
+
 For examples of data ranges that use the KSDATARANGE_AUDIO structure, see <a href="https://msdn.microsoft.com/e8a9b681-3bd2-46ed-970f-5217dbfb2e4e">PCM Stream Data Range</a>, <a href="https://msdn.microsoft.com/cc31eb2d-7421-4748-b14c-f4d3d15f9884">DirectSound Stream Data Range</a>, and <a href="https://msdn.microsoft.com/87d59554-43fa-4d61-9829-c38691d0a525">Specifying AC-3 Data Ranges</a>.
 
 For information about data ranges and intersection handling, see <a href="https://msdn.microsoft.com/7206afdb-8a34-4b5a-8cea-87119f426161">Data-Intersection Handlers</a>.
+
 
 
 
@@ -115,9 +117,11 @@ For information about data ranges and intersection handling, see <a href="https:
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDATARANGE_AUDIO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDATARANGE_AUDIO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

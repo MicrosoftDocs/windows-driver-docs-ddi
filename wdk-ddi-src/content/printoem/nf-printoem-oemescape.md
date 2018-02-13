@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3acc1c1f-5696-4297-a34e-047e402dbdcb
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, print.oemescape, OEMEscape function [Print Devices], printoem/OEMEscape, OEMEscape
+ms.keywords: print.oemescape, printoem/OEMEscape, OEMEscape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, OEMEscape function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,23 +76,17 @@ ULONG APIENTRY OEMEscape(
 ### -param pso
 
 
-
 ### -param iEsc
-
 
 
 ### -param cjIn
 
 
-
 ### -param pvIn [in]
-
 
 
 ### -param cjOut
 
 
-
 ### -param pvOut [out]
-
 

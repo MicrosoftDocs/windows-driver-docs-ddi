@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 161156e3-0da0-458d-b623-67665b2a56c0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, storage.changerreinitializeunit, ChangerReinitializeUnit function [Storage Devices], mcd/ChangerReinitializeUnit, ChangerReinitializeUnit
+ms.keywords: ChangerReinitializeUnit function [Storage Devices], ChangerReinitializeUnit, chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, storage.changerreinitializeunit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ Pointer to the IRP.
 ## -returns
 
 
+
 If the changer supports recalibrating a transport element, <b>ChangerReinitializeUnit</b> returns the STATUS_<i>XXX</i> value returned by the system port driver, or one of the following values:
       
 
@@ -96,7 +97,9 @@ If the changer does not support recalibrating a transport element, ChangerReinit
 
 
 
+
 ## -remarks
+
 
 
 This routine is required.
@@ -111,13 +114,20 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 
+
 ## -see-also
 
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_reinitialize_transport.md">, IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
 
  
 

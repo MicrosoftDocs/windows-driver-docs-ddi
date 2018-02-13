@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], hbapiwmi/PSendRNIDV2_OUT, PSendRNIDV2_OUT structure pointer [Storage Devices], structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml, *PSendRNIDV2_OUT, PSendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, storage.sendrnidv2_out, _SendRNIDV2_OUT
+ms.keywords: PSendRNIDV2_OUT structure pointer [Storage Devices], structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml, _SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], hbapiwmi/PSendRNIDV2_OUT, *PSendRNIDV2_OUT, SendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, PSendRNIDV2_OUT, storage.sendrnidv2_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ Contains the results of the RNIDV2 command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRNIDV2_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565463">SendRNIDV2</a>
+
+
 
  
 

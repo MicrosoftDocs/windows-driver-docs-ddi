@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide, dbgeng/IDebugClient5::AddDumpInformationFileWide, IDebugClient5, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient4::AddDumpInformationFileWide
+ms.keywords: AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4::AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient4, dbgeng/IDebugClient4::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, IDebugClient5::AddDumpInformationFileWide, AddDumpInformationFileWide, IDebugClient5, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,7 +88,9 @@ Specifies the type of the file in <i>FileName</i> or <i>FileHandle</i>.  Current
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,11 +107,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If supporting information is to be used when opening a dump file, this method or <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a> must be called before <a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a> is called. If a session has already started, this method cannot be used.
@@ -118,21 +123,36 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 

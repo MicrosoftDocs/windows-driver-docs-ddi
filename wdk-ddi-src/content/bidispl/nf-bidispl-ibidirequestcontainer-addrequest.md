@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IBidiRequestContainer::AddRequest, AddRequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest, bidispl/IBidiRequestContainer::AddRequest, AddRequest method [Print Devices], IBidiRequestContainer interface [Print Devices], AddRequest method, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, IBidiRequestContainer, _win32_IBidiRequestContainer_AddRequest, AddRequest method [Print Devices], IBidiRequestContainer interface
+ms.keywords: IBidiRequestContainer::AddRequest, AddRequest method [Print Devices], IBidiRequestContainer interface, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, AddRequest method [Print Devices], print.ibidirequestcontainer_ibidirequestcontainer__addrequest, IBidiRequestContainer, AddRequest, bidispl/IBidiRequestContainer::AddRequest, IBidiRequestContainer interface [Print Devices], AddRequest method, _win32_IBidiRequestContainer_AddRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiRequestContainer.AddRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiRequestContainer::AddRequest method
@@ -75,7 +75,9 @@ A pointer to the <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,26 +116,38 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This is similar to adding an item in a link list. In this case, <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a> will hold a reference to <i>pRequest</i> by calling pRequest-&gt;AddRef.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
 
 <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
 <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
+
+
 
  
 

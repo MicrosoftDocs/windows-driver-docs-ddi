@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FFEBEBD0-1FF2-4F27-B028-051B117CA325
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsetpointer, vmbuskernelmodeclientlibapi/VmbPacketSetPointer, VmbPacketSetPointer
+ms.keywords: VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], VmbPacketSetPointer, netvista.vmbpacketsetpointer, vmbuskernelmodeclientlibapi/VmbPacketSetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbPacketSetPointer
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -86,13 +86,17 @@ A handle for a VMBus packet.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 This function is intended to offer a more efficient way to retrieve the context of a client driver.
+
 
 

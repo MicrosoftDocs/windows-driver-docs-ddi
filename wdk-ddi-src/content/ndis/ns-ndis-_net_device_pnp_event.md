@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79298332-2d34-4ef3-ad43-5d218e3f6612
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, ndis/NET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], ndis/PNET_DEVICE_PNP_EVENT"
+ms.keywords: ndis/NET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, ndis/PNET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], *PNET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event, NET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT, _NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_DEVICE_PNP_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT"
+req.typenames: NET_DEVICE_PNP_EVENT, *PNET_DEVICE_PNP_EVENT
 ---
 
 # _NET_DEVICE_PNP_EVENT structure
@@ -99,10 +99,12 @@ An event code that describes the PnP event as one of the following:
 
 
 
+
 #### NdisDevicePnPEventSurpriseRemoved
 
 The network interface card (NIC) has been unexpectedly removed from the
        computer. For more information, see <a href="https://msdn.microsoft.com/afd94749-8f2a-4cce-a646-1f616a845a0e">Handling the Surprise Removal of a NIC</a>.
+
 
 
 #### NdisDevicePnPEventPowerProfileChanged
@@ -120,10 +122,6 @@ A pointer to a buffer. If NDIS sets the
 
 
 
-If NDIS sets 
-     <b>DevicePnPEvent</b> to 
-     <b>NdisDevicePnPEventSurpriseRemoved</b>, 
-     <b>InformationBuffer</b> is <b>NULL</b>.
 
 
 #### NdisPowerProfileBattery
@@ -131,9 +129,15 @@ If NDIS sets
 The host system is running on battery power.
 
 
+
 #### NdisPowerProfileAcOnline
 
 The host system is running on AC power.
+
+If NDIS sets 
+     <b>DevicePnPEvent</b> to 
+     <b>NdisDevicePnPEventSurpriseRemoved</b>, 
+     <b>InformationBuffer</b> is <b>NULL</b>.
 
 
 ### -field InformationBufferLength
@@ -150,6 +154,7 @@ Reserved for NDIS.
 ## -remarks
 
 
+
 To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DEVICE_PNP_EVENT</b> structure
     to the 
     <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
@@ -159,14 +164,21 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
    MiniportDevicePnPEventNotify</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
 
  
 

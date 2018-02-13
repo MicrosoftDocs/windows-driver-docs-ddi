@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e3c823-97e3-47e9-8545-94cd186e5b59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetFC4Statistics_IN structure pointer [Storage Devices], GetFC4Statistics_IN structure [Storage Devices], _GetFC4Statistics_IN, hbapiwmi/PGetFC4Statistics_IN, hbapiwmi/GetFC4Statistics_IN, PGetFC4Statistics_IN, *PGetFC4Statistics_IN, structs-Fibre_17ea3e0e-1cf9-4cf8-9128-1152e610847c.xml, GetFC4Statistics_IN, storage.getfc4statistics_in
+ms.keywords: GetFC4Statistics_IN, _GetFC4Statistics_IN, hbapiwmi/PGetFC4Statistics_IN, storage.getfc4statistics_in, PGetFC4Statistics_IN structure pointer [Storage Devices], hbapiwmi/GetFC4Statistics_IN, PGetFC4Statistics_IN, *PGetFC4Statistics_IN, GetFC4Statistics_IN structure [Storage Devices], structs-Fibre_17ea3e0e-1cf9-4cf8-9128-1152e610847c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,7 @@ Contains a value that indicates the type FC-4 protocol. For an explanation of FC
 ## -remarks
 
 
+
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> queries an HBA and port of type Nx_Port for traffic statistics associated with the indicated FC-4 protocol.
 
 The WMI tool suite generates a declaration of the GetFC4Statistics_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
@@ -89,9 +90,12 @@ For a definition of Nx_Port, see the T11 committee's specification for <i>Fibre 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
+
+
 
  
 

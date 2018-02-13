@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17338526-d682-4d11-89b9-730b1a275870
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PMPIO_DSM_Path, PMPIO_DSM_Path structure pointer [Storage Devices], structs-scsibus_5232f48b-d34e-43a9-b2bf-fcc06317c450.xml, storage.mpio_dsm_path, PMPIO_DSM_Path, _MPIO_DSM_Path, MPIO_DSM_Path, mpiodisk/MPIO_DSM_Path, MPIO_DSM_Path structure [Storage Devices], mpiodisk/PMPIO_DSM_Path"
+ms.keywords: PMPIO_DSM_Path, PMPIO_DSM_Path structure pointer [Storage Devices], mpiodisk/PMPIO_DSM_Path, MPIO_DSM_Path structure [Storage Devices], *PMPIO_DSM_Path, structs-scsibus_5232f48b-d34e-43a9-b2bf-fcc06317c450.xml, mpiodisk/MPIO_DSM_Path, _MPIO_DSM_Path, MPIO_DSM_Path, storage.mpio_dsm_path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_DSM_Path
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_DSM_Path, MPIO_DSM_Path"
+req.typenames: MPIO_DSM_Path, *PMPIO_DSM_Path
 ---
 
 # _MPIO_DSM_Path structure

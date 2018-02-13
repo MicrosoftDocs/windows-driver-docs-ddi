@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10d169bc-4476-4d7f-8eeb-49941c12a7a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfchildlistaddorupdatechilddescriptionaspresent, WdfChildListAddOrUpdateChildDescriptionAsPresent, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, PFN_WDFCHILDLISTADDORUPDATECHILDDESCRIPTIONASPRESENT, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent, DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, WdfChildListAddOrUpdateChildDescriptionAsPresent method
+ms.keywords: DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, WdfChildListAddOrUpdateChildDescriptionAsPresent, PFN_WDFCHILDLISTADDORUPDATECHILDDESCRIPTIONASPRESENT, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent, WdfChildListAddOrUpdateChildDescriptionAsPresent method, wdf.wdfchildlistaddorupdatechilddescriptionaspresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,7 +91,9 @@ A pointer to a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_descr
 ## -returns
 
 
+
 <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> returns STATUS_SUCCESS, or another NTSTATUS-typed status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS(status)</a> equals <b>TRUE</b>, if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,7 +143,8 @@ A child description could be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -152,7 +155,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> method searches the specified child list for a child that matches the supplied identification description. If a match is found, the framework updates the child's address description, if supplied, and returns STATUS_OBJECT_NAME_EXISTS. If no match is found, the framework creates a new child by using the supplied identification and address descriptions.
@@ -160,6 +165,7 @@ The <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> method searches the 
 A driver can call <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> to add or update a single child description. The framework immediately updates the child list and informs the Plug and Play (PnP) manager that changes have been made.
 
 Alternatively, the driver can do the following:
+
 <ol>
 <li>
 Call <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a> to prepare the child list for updating.
@@ -173,29 +179,89 @@ Call <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> multiple times to a
 Call <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a> to process changes to the child list.
 
 </li>
-</ol>If the driver uses this alternative procedure, the framework waits until the driver calls <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a> before updating the child list and informing the PnP manager that changes have been made. When your driver calls <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>, the framework marks all previously reported devices as no longer being present. Therefore, the driver must call <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> for all children, not just newly discovered children. 
+</ol>
+If the driver uses this alternative procedure, the framework waits until the driver calls <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a> before updating the child list and informing the PnP manager that changes have been made. When your driver calls <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>, the framework marks all previously reported devices as no longer being present. Therefore, the driver must call <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> for all children, not just newly discovered children. 
 
 At some time after a driver calls <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b>, the framework calls the driver's <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a> callback function so that the driver can create a device object by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
 
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+The following code example is based on code that the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample contains. The example adds child descriptions to a device's default child list. It retrieves switch settings that the driver previously stored in a device object's context space and then calls <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> for each switch that is set.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDEVICE_CONTEXT  pDeviceContext;
+WDFCHILDLIST  list;
+UCHAR  i;
+NTSTATUS  status;
+
+pDeviceContext = GetDeviceContext(Device);
+list = WdfFdoGetDefaultChildList(Device);
+
+WdfChildListBeginScan(list);
+ 
+for (i = 0; i &lt; RTL_BITS_OF(UCHAR); i++) {
+    if (pDeviceContext-&gt;CurrentSwitchState &amp; (1&lt;&lt;i)) {
+        PDO_IDENTIFICATION_DESCRIPTION description;
+        WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
+                                                 &amp;description.Header,
+                                                 sizeof(description)
+                                                 );
+        description.SwitchNumber = i; 
+ 
+        status = WdfChildListAddOrUpdateChildDescriptionAsPresent(
+                                                 list, 
+                                                 &amp;description.Header, 
+                                                 NULL
+                                                 );
+        if (!NT_SUCCESS(status) &amp;&amp; (status != STATUS_OBJECT_NAME_EXISTS)) {
+            break;
+        }
+    }
+}
+WdfChildListEndScan(list);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+
 
 <a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
+
+
 
  
 

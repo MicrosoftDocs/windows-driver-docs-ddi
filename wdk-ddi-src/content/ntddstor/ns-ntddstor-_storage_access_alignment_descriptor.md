@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 988122bf-d7de-44a3-a059-c984bf636cd0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Storage Devices], PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Storage Devices], storage.storage_access_alignment_descriptor, ntddstor/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, structs-general_191220fa-6df5-478b-b60e-af8e3f62d441.xml, _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
+ms.keywords: PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, structs-general_191220fa-6df5-478b-b60e-af8e3f62d441.xml, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Storage Devices], _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, storage.storage_access_alignment_descriptor, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,6 +108,7 @@ The number of bytes in a physical sector of the device.
 The logical sector offset within the first physical sector where the first logical sector is placed, in bytes.
 
 Example:  Offset = 3 Logical sectors
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,19 +123,24 @@ Example:  Offset = 3 Logical sectors
 +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</pre>
 </td>
 </tr>
-</table></span></div>In this example, BytesOffsetForSectorAlignment = 3 * size_of_logical_sector.
+</table></span></div>
+In this example, BytesOffsetForSectorAlignment = 3 * size_of_logical_sector.
 
 
 ## -remarks
+
 
 
 Storage class drivers issue a device-control request with the I/O control code  <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains access alignment information for data transfer operations. The structure can be retrieved either from the device object for the bus or from an FDO, which forwards the request to the underlying bus.
 
 
 
+
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7AFA084B-5EFC-429B-B6D1-F4E484B16921
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_ROAM_TRIGGER enumeration [Network Drivers Starting with Windows Vista], _WDI_ROAM_TRIGGER, wditypes/WDI_ROAM_TRIGGER, wditypes/WDI_ROAM_TRIGGER_OTHER, WDI_ROAM_TRIGGER, WDI_ROAM_TRIGGER_OTHER, WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, wditypes/WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, netvista.wdi_roam_trigger
+ms.keywords: netvista.wdi_roam_trigger, wditypes/WDI_ROAM_TRIGGER_OTHER, WDI_ROAM_TRIGGER, WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, WDI_ROAM_TRIGGER enumeration [Network Drivers Starting with Windows Vista], _WDI_ROAM_TRIGGER, wditypes/WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, wditypes/WDI_ROAM_TRIGGER, WDI_ROAM_TRIGGER_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeIsOutEndpoint, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, wdf.wdfusbtargetpipeisoutendpoint, kmdf.wdfusbtargetpipeisoutendpoint, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, WdfUsbTargetPipeIsOutEndpoint method
+ms.keywords: wdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint method, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, WdfUsbTargetPipeIsOutEndpoint, wdfusb/WdfUsbTargetPipeIsOutEndpoint, kmdf.wdfusbtargetpipeisoutendpoint, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetPipeIsOutEndpoint
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A handle to a framework pipe object that represents a bulk pipe or interrupt pip
 ## -returns
 
 
+
 <b>WdfUsbTargetPipeIsOutEndpoint</b> returns <b>TRUE</b> if the pipe that the <i>Pipe</i> handle represents an output endpoint. The method returns <b>FALSE</b> if the endpoint is an input endpoint.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,20 +90,46 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about the <b>WdfUsbTargetPipeIsOutEndpoint</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example determines whether a specified USB pipe is connected to an output endpoint.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN isOutEndPoint;
+
+isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
+
+
 
  
 

@@ -84,11 +84,14 @@ VOID APIENTRY DxgkCbNotifyInterrupt(
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A display miniport driver calls the <b>DxgkCbNotifyInterrupt</b> function to report a graphics hardware interrupt that the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a> enumeration type defines. Typically, <b>DxgkCbNotifyInterrupt</b> is called from the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function (ISR), which is called when graphics hardware interrupts occur. The <b>DxgkCbNotifyInterrupt</b> function informs the GPU scheduler about an update to a fence through a direct memory access (DMA) stream to the graphics hardware. 
@@ -104,26 +107,100 @@ If the display miniport driver determines that more than one interrupt was trigg
 Callers of <b>DxgkCbNotifyInterrupt</b> run at interrupt level (that is, DIRQL, which is some IRQL between DISPATCH_LEVEL and PROFILE_LEVEL, not inclusive).
 
 
+#### Examples
+
+The following code example shows software engine code that monitors a software queue and notifies the GPU scheduler about packet completion.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _SubmitParams {
+    HW_DEVICE_EXTENSION *pHwDeviceExtension;
+    UINT                NodeOrdinal;
+    UINT                FenceID;
+    UINT                PreemptionFenceID;
+} SubmitParams;
+
+BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
+{
+    SubmitParams  *pSchNotifyParams = (SubmitParams*)params;
+    DXGKCB_NOTIFY_INTERRUPT  DxgkCbNotifyInterrupt;
+    DXGKARGCB_NOTIFY_INTERRUPT_DATA  notifyInt = {0};
+
+    DxgkCbNotifyInterrupt = (DXGKCB_NOTIFY_INTERRUPT)pSchNotifyParams-&gt;pHwDeviceExtension-&gt;pVidSchINTCB;
+
+    if(!DxgkCbNotifyInterrupt) {
+        return FALSE;
+    }
+
+    if(pSchNotifyParams-&gt;PreemptionFenceID) {
+        notifyInt.InterruptType = DXGK_INTERRUPT_DMA_PREEMPTED;
+        notifyInt.DmaPreempted.PreemptionFenceId = pSchNotifyParams-&gt;PreemptionFenceID;
+        notifyInt.DmaPreempted.LastCompletedFenceId = pSchNotifyParams-&gt;FenceID;
+        notifyInt.DmaPreempted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
+    }
+    else {
+        notifyInt.InterruptType = DXGK_INTERRUPT_DMA_COMPLETED;
+        notifyInt.DmaCompleted.SubmissionFenceId = pSchNotifyParams-&gt;FenceID;
+        notifyInt.DmaCompleted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
+    }
+
+    DxgkCbNotifyInterrupt(pSchNotifyParams-&gt;pHwDeviceExtension-&gt;DeviceHandle, &amp;notifyInt);
+
+    pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevSubmitFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;FenceID;
+
+    if(pSchNotifyParams-&gt;PreemptionFenceID) {
+        pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevPreemptFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;PreemptionFenceID;
+    }
+
+    return TRUE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+
+
 
  
 

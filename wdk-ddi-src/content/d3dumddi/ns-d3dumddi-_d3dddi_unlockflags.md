@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3c3356c-ec7b-4869-896d-9d3b285f0e87
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_UNLOCKFLAGS structure [Display Devices], d3dumddi/D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags, _D3DDDI_UNLOCKFLAGS, D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml
+ms.keywords: d3dumddi/D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS, D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, _D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS structure [Display Devices], display.d3dddi_unlockflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,6 +93,8 @@ A member in the union that is contained in D3DDDI_UNLOCKFLAGS that can hold one 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a>
+
+
 
  
 

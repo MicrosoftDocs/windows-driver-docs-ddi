@@ -118,11 +118,14 @@ The context tag used to associate the packets of interest with the context of th
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This function is associated with a callout driver by a call to 
@@ -133,22 +136,37 @@ This function is associated with a callout driver by a call to
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
 
 <a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
 
 <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn1.md">
   FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+
 
  
 

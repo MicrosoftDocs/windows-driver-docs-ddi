@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3C1A9993-8E95-455C-BC1D-DD2526A156D9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Output, debugger.idebugoutputcallbacks2_output, IDebugOutputCallbacks2::Output, IDebugOutputCallbacks2 interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacks2::Output, Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2
+ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacks2::Output, IDebugOutputCallbacks2::Output, IDebugOutputCallbacks2, Output, Output method [Windows Debugging], debugger.idebugoutputcallbacks2_output, Output method [Windows Debugging], IDebugOutputCallbacks2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ This value is not used.
 ## -returns
 
 
+
 This method is not used.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a>
+
+
 
  
 

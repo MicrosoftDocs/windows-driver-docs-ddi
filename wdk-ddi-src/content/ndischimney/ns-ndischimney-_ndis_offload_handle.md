@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc1d7ca2-273a-42ca-896c-aebee862a4cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], netvista.ndis_offload_handle, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml, ndischimney/PNDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE, ndischimney/NDIS_OFFLOAD_HANDLE, _NDIS_OFFLOAD_HANDLE
+ms.keywords: netvista.ndis_offload_handle, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], *PNDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE, ndischimney/PNDIS_OFFLOAD_HANDLE, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml, PNDIS_OFFLOAD_HANDLE, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_HANDLE, ndischimney/NDIS_OFFLOAD_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,6 +85,7 @@ A pointer that references a host memory location into which the underlying drive
 ## -remarks
 
 
+
 When propagating the offload of a TCP chimney state object, an intermediate driver supplies a pointer
     to an NDIS_OFFLOAD_HANDLE structure. This pointer, in effect, references the intermediate driver's
     context for the offloaded state object.
@@ -100,11 +101,16 @@ For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see
 
 
 
+
 ## -see-also
 
 <a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
+
+
 <a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+
+
 
  
 

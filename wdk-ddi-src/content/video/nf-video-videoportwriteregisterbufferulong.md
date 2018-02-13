@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48322143-8c95-4ffa-ac7a-597ed5fb066c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWriteRegisterBufferUlong function [Display Devices], VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, display.videoportwriteregisterbufferulong, video/VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong
+ms.keywords: video/VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong function [Display Devices], VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, VideoPortWriteRegisterBufferUlong, display.videoportwriteregisterbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the number of ULONG values to be transferred to the adapter.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterBufferUlong</b>.
@@ -101,9 +104,12 @@ Callers of <b>VideoPortWriteRegisterBufferUlong</b> can be running at any IRQL, 
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

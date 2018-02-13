@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45ef8085-512e-4f9b-a7ea-e4f445555cf8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_phy_type_fhss, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_fhss, windot11/dot11_phy_type_unknown, windot11/PDOT11_PHY_TYPE, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], dot11_phy_type_ht, dot11_phy_type_ofdm, windot11/dot11_phy_type_vht, dot11_phy_type_dsss, dot11_phy_type_erp, dot11_phy_type_hrdsss, dot11_phy_type_IHV_end, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], PDOT11_PHY_TYPE, windot11/dot11_phy_type_IHV_start, *PDOT11_PHY_TYPE, netvista.dot11_phy_type, _DOT11_PHY_TYPE, Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, windot11/DOT11_PHY_TYPE, windot11/dot11_phy_type_any, dot11_phy_type_IHV_start, DOT11_PHY_TYPE, dot11_phy_type_unknown, windot11/dot11_phy_type_hrdsss, windot11/dot11_phy_type_erp, dot11_phy_type_vht, dot11_phy_type_irbaseband, windot11/dot11_phy_type_ht, windot11/dot11_phy_type_irbaseband, dot11_phy_type_any, windot11/dot11_phy_type_dsss, windot11/dot11_phy_type_IHV_end
+ms.keywords: dot11_phy_type_vht, windot11/dot11_phy_type_vht, dot11_phy_type_ofdm, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/PDOT11_PHY_TYPE, dot11_phy_type_any, dot11_phy_type_fhss, windot11/dot11_phy_type_hrdsss, dot11_phy_type_irbaseband, dot11_phy_type_dsss, dot11_phy_type_ht, windot11/dot11_phy_type_ht, windot11/dot11_phy_type_any, windot11/dot11_phy_type_unknown, windot11/dot11_phy_type_irbaseband, dot11_phy_type_hrdsss, windot11/dot11_phy_type_fhss, dot11_phy_type_IHV_start, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE, PDOT11_PHY_TYPE, windot11/dot11_phy_type_ofdm, dot11_phy_type_unknown, windot11/dot11_phy_type_erp, windot11/dot11_phy_type_IHV_end, windot11/dot11_phy_type_IHV_start, windot11/DOT11_PHY_TYPE, *PDOT11_PHY_TYPE, netvista.dot11_phy_type, windot11/dot11_phy_type_dsss, dot11_phy_type_IHV_end, Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, dot11_phy_type_erp, DOT11_PHY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PHY_TYPE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_PHY_TYPE, *PDOT11_PHY_TYPE
+req.typenames: "*PDOT11_PHY_TYPE, DOT11_PHY_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -133,7 +133,6 @@ Specifies a very high-throughput (VHT) 802.11ac PHY.
 ### -field dot11_phy_type_dmg
 
 
-
 ### -field dot11_phy_type_IHV_start
 
 Specifies the start of the range that is used to define proprietary PHY types that are developed
@@ -164,6 +163,7 @@ The
 ## -remarks
 
 
+
 An IHV can assign a value for its proprietary PHY types from 
     <b>dot11_phy_type_IHV_start</b> through 
     <b>dot11_phy_type_IHV_end</b>. The IHV must assign a unique number from this range for each of its
@@ -171,16 +171,25 @@ An IHV can assign a value for its proprietary PHY types from
 
 
 
+
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569407">OID_DOT11_RECV_SENSITIVITY_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+
+
 
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569407">OID_DOT11_RECV_SENSITIVITY_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
  
 

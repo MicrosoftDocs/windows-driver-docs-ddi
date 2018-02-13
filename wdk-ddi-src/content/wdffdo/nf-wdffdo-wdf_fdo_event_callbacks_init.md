@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 02ff7c36-8bca-4531-bef5-d8a284d2d047
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT function, wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT, wdf.wdf_fdo_event_callbacks_init, kmdf.wdf_fdo_event_callbacks_init, DFDeviceObjectFdoPdoRef_fdf4f567-cbdd-4fb4-a752-344f6a298bbf.xml
+ms.keywords: wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT, DFDeviceObjectFdoPdoRef_fdf4f567-cbdd-4fb4-a752-344f6a298bbf.xml, wdf.wdf_fdo_event_callbacks_init, WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT function, kmdf.wdf_fdo_event_callbacks_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_FDO_EVENT_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -78,20 +78,32 @@ A pointer to the driver's <a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="..\wdffdo\ns-wdffdo-_wdf_fdo_event_callbacks.md">WDF_FDO_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
+
+
+#### Examples
+
+For a code example that uses <b>WDF_FDO_EVENT_CALLBACKS_INIT</b>, see <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+
+
 
  
 

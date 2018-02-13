@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2723a34-d9c2-40c9-b6c9-6441ead63d2e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changergetproductdata, mcd/ChangerGetProductData, chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, ChangerGetProductData, ChangerGetProductData function [Storage Devices]
+ms.keywords: ChangerGetProductData, storage.changergetproductdata, chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, mcd/ChangerGetProductData, ChangerGetProductData function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ Pointer to the IRP.
 ## -returns
 
 
+
 <b>ChangerGetProductData</b> always returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 This routine is required.
@@ -98,11 +101,16 @@ The changer class driver checks the output buffer length in the I/O stack locati
 
 
 
+
 ## -see-also
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a>
 
+
+
 <a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
+
+
 
  
 

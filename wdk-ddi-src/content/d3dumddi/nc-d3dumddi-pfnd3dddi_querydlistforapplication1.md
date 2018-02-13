@@ -75,12 +75,12 @@ HRESULT APIENTRY* QueryDListForApplication(
 ### -param *
 
 
-
 ### -param HANDLE
 
 
-
 ### -param PFND3DDDI_ESCAPECB
+
+
 
 
 
@@ -105,11 +105,14 @@ A function pointer to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">
 ## -returns
 
 
+
 Returns <b>S_OK</b>, or an appropriate error result if the operation is not successful.
 
 
 
+
 ## -remarks
+
 
 
 For more information on how to call this function and set up the DLL that exports it, see <a href="https://msdn.microsoft.com/8AABE677-2C2D-4CFD-AF22-06D65524A158">Hybrid system DDI</a>.
@@ -118,9 +121,12 @@ For more general information on hybrid systems, see <a href="https://msdn.micros
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
+
 
  
 

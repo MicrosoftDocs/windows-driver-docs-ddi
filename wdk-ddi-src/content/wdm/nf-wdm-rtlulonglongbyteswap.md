@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUlonglongByteSwap
-title: RtlUlonglongByteSwap function
+title: RtlUlonglongByteSwap macro
 author: windows-driver-content
 description: The RtlUlonglongByteSwap routine reverses the ordering of the eight bytes in a 64-bit unsigned integer value.
 old-location: kernel\rtlulonglongbyteswap.htm
@@ -8,10 +8,10 @@ old-project: kernel
 ms.assetid: 70d16119-ac78-40a2-995a-d20ca63c53c1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_e3102ade-bf90-43a5-831d-c4c215a6872c.xml, RtlUlonglongByteSwap routine [Kernel-Mode Driver Architecture], kernel.rtlulonglongbyteswap, RtlUlonglongByteSwap, wdm/RtlUlonglongByteSwap
+ms.keywords: kernel.rtlulonglongbyteswap, k109_e3102ade-bf90-43a5-831d-c4c215a6872c.xml, RtlUlonglongByteSwap, wdm/RtlUlonglongByteSwap, RtlUlonglongByteSwap routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -44,7 +44,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# RtlUlonglongByteSwap function
+# RtlUlonglongByteSwap macro
 
 
 ## -description
@@ -68,19 +68,22 @@ ULONGLONG RtlUlonglongByteSwap(
 
 
 
-### -param Source [in]
+### -param _x
+
+TBD
+
+
+
+
+
+
+#### - Source [in]
 
 A ULONGLONG value to convert to a byte-swapped version.
 
 
-## -returns
-
-
-The byte-swapped version of the <i>Source</i> input parameter value.
-
-
-
 ## -remarks
+
 
 
 For example, if the <i>Source</i> parameter value is 0x0123456789abcdef, the routine returns 0xefcdab8967452301.
@@ -91,11 +94,16 @@ To reverse the ordering of bytes in a USHORT value, use the <a href="..\wdm\nf-w
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
+
+
 
  
 

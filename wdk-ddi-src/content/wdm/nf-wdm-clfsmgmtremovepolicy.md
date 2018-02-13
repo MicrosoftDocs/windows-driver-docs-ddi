@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtRemovePolicy, Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, kernel.clfsmgmtremovepolicy, wdm/ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtremovepolicy, ClfsMgmtRemovePolicy, wdm/ClfsMgmtRemovePolicy, Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,9 @@ A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLIC
 ## -returns
 
 
+
 The <b>ClfsMgmtRemovePolicy</b> routine returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,9 +157,11 @@ No policy of this type has been registered for the log file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
+
 
 
 
@@ -165,7 +169,11 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
 
+
+
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
+
+
 
  
 

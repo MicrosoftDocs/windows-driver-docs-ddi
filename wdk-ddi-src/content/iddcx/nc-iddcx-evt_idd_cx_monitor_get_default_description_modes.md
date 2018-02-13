@@ -99,14 +99,18 @@ typedef EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES PFN_IDD_CX_MONITOR_GET_
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
+
 
 
 
 ## -remarks
 
 
+
 The driver must create at least one monitor mode for the monitor description.
+
 
 

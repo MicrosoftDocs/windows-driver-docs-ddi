@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3bc84b15-7c13-4ad9-b9a1-6abd5a7389eb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, IDebugDataSpaces interface [Windows Debugging], WriteIo method, debugger.writeio, dbgeng/IDebugDataSpaces3::WriteIo, IDebugDataSpaces2::WriteIo, dbgeng/IDebugDataSpaces::WriteIo, dbgeng/IDebugDataSpaces2::WriteIo, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, IDebugDataSpaces::WriteIo, IDebugDataSpaces4, WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::WriteIo, IDebugDataSpaces4::WriteIo, dbgeng/IDebugDataSpaces4::WriteIo, WriteIo method [Windows Debugging]
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, WriteIo, IDebugDataSpaces4::WriteIo, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces3::WriteIo, IDebugDataSpaces4, IDebugDataSpaces, dbgeng/IDebugDataSpaces2::WriteIo, debugger.writeio, WriteIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, dbgeng/IDebugDataSpaces::WriteIo, dbgeng/IDebugDataSpaces3::WriteIo, IDebugDataSpaces interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3, dbgeng/IDebugDataSpaces4::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2::WriteIo, IDebugDataSpaces::WriteIo, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, IDebugDataSpaces2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,7 +114,9 @@ Receives the number of bytes written to I/O bus.  If <i>BytesWritten</i> is <b>N
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,13 +133,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

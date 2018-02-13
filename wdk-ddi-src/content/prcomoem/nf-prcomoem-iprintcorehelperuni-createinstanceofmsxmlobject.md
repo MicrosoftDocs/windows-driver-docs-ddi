@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 801ad433-4d52-4947-93f5-a11521a4df18
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperUni interface, CreateInstanceOfMSXMLObject, IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, IPrintCoreHelperUni interface [Print Devices], CreateInstanceOfMSXMLObject method, CreateInstanceOfMSXMLObject method [Print Devices], prcomoem/IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, IPrintCoreHelperUni, print.iprintcorehelperuni_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_b6f2207a-4289-4a1f-ae2d-accc80c68a79.xml
+ms.keywords: IPrintCoreHelperUni::CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperUni interface, print.iprintcorehelperuni_createinstanceofmsxmlobject, CreateInstanceOfMSXMLObject method [Print Devices], print_unidrv-pscript_allplugins_b6f2207a-4289-4a1f-ae2d-accc80c68a79.xml, IPrintCoreHelperUni interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperUni, prcomoem/IPrintCoreHelperUni::CreateInstanceOfMSXMLObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.CreateInstanceOfMSXMLObject
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ A pointer to a memory address that receives the address of the interface that is
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::CreateInstanceOfMSXMLObject</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,6 +152,8 @@ A specified class is not registered in the registration database. This value can
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

@@ -7,8 +7,8 @@ old-location: audio\drmaddcontenthandlers.htm
 old-project: audio
 ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: drmk/DrmAddContentHandlers, aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, DrmAddContentHandlers function [Audio Devices], DrmAddContentHandlers, audio.drmaddcontenthandlers
+ms.date: 2/8/2018
+ms.keywords: aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, DrmAddContentHandlers, DrmAddContentHandlers function [Audio Devices], drmk/DrmAddContentHandlers, audio.drmaddcontenthandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DrmAddContentHandlers
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # DrmAddContentHandlers function
@@ -88,11 +88,14 @@ Specifies the number of function pointers in the <i>paHandlers</i> array.
 ## -returns
 
 
+
 <code>DrmAddContentHandlers</code> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Before allowing protected content to flow through a data path, the system verifies that the data path is secure. To do so, the system authenticates each module in the data path beginning at the upstream end of the data path and moving downstream. As each module is authenticated, that module gives the system information about the next module in the data path so that it can also be authenticated. To be successfully authenticated, a module's binary file must be signed as DRM-compliant.
@@ -107,21 +110,32 @@ The upstream module can pass both the content ID and content rights to the downs
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
+
+
 <a href="..\portcls\nf-portcls-pcaddcontenthandlers.md">PcAddContentHandlers</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536575">IDrmPort2::AddContentHandlers</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmAddContentHandlers function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DrmAddContentHandlers function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

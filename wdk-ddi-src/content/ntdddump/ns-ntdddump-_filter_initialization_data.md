@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, *PFILTER_INITIALIZATION_DATA, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION_1, ntdddump/FILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, storage.filter_initialization_data, FILTER_INITIALIZATION_DATA structure [Storage Devices], FILTER_INITIALIZATION_DATA, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], PFILTER_INITIALIZATION_DATA"
+ms.keywords: DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, FILTER_INITIALIZATION_DATA structure [Storage Devices], *PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, storage.filter_initialization_data, DUMP_FILTER_MAJOR_VERSION_1, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, ntdddump/PFILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA, _FILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILTER_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # _FILTER_INITIALIZATION_DATA structure
@@ -81,12 +81,12 @@ typedef struct _FILTER_INITIALIZATION_DATA {
 Set to one of the following major version values:
 
 
+
 #### DUMP_FILTER_MAJOR_VERSION_1 (0x1)
 
 
 
 #### DUMP_FILTER_MAJOR_VERSION (0x2)
-
 
 
 ### -field MinorVersion
@@ -127,6 +127,7 @@ The maximum number of pages for each dump read or write request.
 ### -field Flags
 
 A set of flags for  dump filter initialization. This value is set to either 0 or the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -152,7 +153,8 @@ Fail the filter initialization  immediately if the  dump filter driver's <b>Driv
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DumpRead
@@ -163,12 +165,16 @@ A pointer to the read routine. This routine is called after every crash dump rea
 ## -remarks
 
 
+
 For a dump filter driver to support read filtering, the following settings are required:
+
 <ul>
 <li>The <b>DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ</b> flag is set in <b>Flags</b>.</li>
 <li><b>MajorVersion</b> is set to <b>DUMP_FILTER_MAJOR_VERSION</b> = 2.</li>
 <li>The <b>DumpRead</b> pointer is set to the dump filter driver's read routine.</li>
-</ul>If any of these members are not set, the dump filter driver will be marked as not supporting dump reads by the crashdump stack.
+</ul>
+If any of these members are not set, the dump filter driver will be marked as not supporting dump reads by the crashdump stack.
+
 
 
 
@@ -176,15 +182,27 @@ For a dump filter driver to support read filtering, the following settings are r
 
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
 
 <a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
+
+
 <a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
 
+
+
+<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
+
+
+
+<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
+
+
+
 <a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceCreateWithParameters, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, WdfUsbTargetDeviceCreateWithParameters method, wdfusb/WdfUsbTargetDeviceCreateWithParameters
+ms.keywords: kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetDeviceCreateWithParameters
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -102,7 +102,9 @@ A pointer to a location that receives a handle to the new framework USB device o
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceCreateWithParameters</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,7 +154,8 @@ An attempt to get USB configuration information failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a list of other return values that the <b>WdfUsbTargetDeviceCreateWithParameters</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -164,7 +167,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Windows 8 includes a new USB driver stack to support USB 3.0 devices.
@@ -182,16 +187,74 @@ If the driver calls <b>WdfUsbTargetDeviceCreateWithParameters</b> to create a fr
 If you call this method from a UMDF driver, you must specify the <b>UmdfDispatcher</b> directive in the driver's INF file.  Otherwise, this method may return <b>STATUS_INVALID_PARAMETER</b>.   For more information about this directive, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
 
 
+#### Examples
+
+The following code example is part of an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function that calls <b>WdfUsbTargetDeviceCreateWithParameters</b>. The example stores the handle to the framework USB device object in driver-defined context space. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+MyEvtDevicePrepareHardware(
+    IN WDFDEVICE  Device,
+    IN WDFCMRESLIST  ResourceList,
+    IN WDFCMRESLIST  ResourceListTranslated
+    )
+{
+    NTSTATUS  status;
+    PMY_DEVICE_CONTEXT  pMyDeviceContext;
+    WDF_USB_DEVICE_CREATE_CONFIG  Config;
+
+    pMyDeviceContext = GetDeviceContext(Device);
+
+    // If object handle is not NULL, MyEvtDevicePrepareHardware
+    // was called previously and the handle is still valid.
+    if (pMyDeviceContext-&gt;UsbDevice != NULL) {
+        return STATUS_SUCCESS;
+    }
+
+    WDF_USB_DEVICE_CREATE_CONFIG_INIT(
+                                      &amp;Config,
+                                      USBD_CLIENT_CONTRACT_VERSION_602
+                                      );
+
+    status = WdfUsbTargetDeviceCreateWithParameters(
+                                      Device,
+                                      &amp;Config,
+                                      WDF_NO_OBJECT_ATTRIBUTES,
+                                      &amp;pMyDeviceContext-&gt;UsbDevice
+                                      );
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a>
+
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreate.md">WdfUsbTargetDeviceCreate</a>
+
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a>
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreate.md">WdfUsbTargetDeviceCreate</a>
+
+
 
  
 

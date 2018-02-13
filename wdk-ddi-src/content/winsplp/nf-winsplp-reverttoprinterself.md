@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d94d363-fc8b-4b12-b90d-43dfc5923bdf
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: RevertToPrinterSelf function [Print Devices], winsplp/RevertToPrinterSelf, RevertToPrinterSelf, print.reverttoprinterself, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml
+ms.keywords: winsplp/RevertToPrinterSelf, RevertToPrinterSelf function [Print Devices], RevertToPrinterSelf, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, print.reverttoprinterself
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -69,18 +69,21 @@ HANDLE RevertToPrinterSelf(
 
 
 
+
 #### - void
 
 
-
 ## -returns
+
 
 
 If the operation succeeds, the function returns the token of the impersonated thread. If the current thread is not impersonating another thread, this function returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <code>RevertToPrinterSelf</code> should be called when a component needs access to resources from the local system context, such as the registry. The local system context is the security context (the collection of settings that define the security behavior of a process or thread) of the system process. The system process is the process that runs in the logon session that is created for the local system account when the operating system boots. 
@@ -89,9 +92,12 @@ If <code>RevertToPrinterSelf</code> returns a non-<b>NULL</b> value, <a href="..
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-impersonateprinterclient.md">ImpersonatePrinterClient</a>
+
+
 
  
 

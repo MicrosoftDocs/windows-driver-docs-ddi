@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress, display.d3dkmtmapgpuvirtualaddress, D3DKMTMapGpuVirtualAddress function [Display Devices]
+ms.keywords: display.d3dkmtmapgpuvirtualaddress, D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,12 +74,14 @@ NTSTATUS APIENTRY D3DKMTMapGpuVirtualAddress(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 
 ## -returns
+
 
 
 <table>
@@ -109,15 +111,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">DxgkCbReserveGpuVirtualAddressRange</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: audio\drmrights.htm
 old-project: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: DRMRIGHTS, drmk/DRMRIGHTS, DRMRIGHTS structure [Audio Devices], *PDRMRIGHTS, PDRMRIGHTS, aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, drmk/PDRMRIGHTS, audio.drmrights, PDRMRIGHTS structure pointer [Audio Devices], tagDRMRIGHTS
+ms.date: 2/8/2018
+ms.keywords: aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, *PDRMRIGHTS, audio.drmrights, PDRMRIGHTS structure pointer [Audio Devices], PDRMRIGHTS, drmk/PDRMRIGHTS, DRMRIGHTS structure [Audio Devices], DRMRIGHTS, drmk/DRMRIGHTS, tagDRMRIGHTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,13 +77,13 @@ Specifies one of the following copy-protection values:
 
 
 
-For more information about <b>CopyProtect</b>, see the Remarks section.
 
 
 #### TRUE
 
 Enables copy protection. An audio application must not do the following:
 		   
+
 <ul>
 <li>
 Store the content in any form in any nonvolatile storage.
@@ -96,9 +96,12 @@ Pass the content by reference or by value to any other component within the host
 </li>
 </ul>
 
+
 #### FALSE
 
 Disables copy protection. Content can be copied without restrictions.
+
+For more information about <b>CopyProtect</b>, see the Remarks section.
 
 
 ### -field Reserved
@@ -112,7 +115,6 @@ Specifies one of the following digital output protection values:
 
 
 
-For more information about <b>DigitalOutputDisable</b>, see the Remarks section.
 
 
 #### TRUE
@@ -120,17 +122,22 @@ For more information about <b>DigitalOutputDisable</b>, see the Remarks section.
 Disable digital outputs. A software component must not transfer the content out of the host system through any type of digital interface. Note that digital output protection does not affect USB devices because the host system includes USB devices.
 
 
+
 #### FALSE
 
 Enables digital outputs. Content can be transferred from the host system to an external component without restrictions.
+
+For more information about <b>DigitalOutputDisable</b>, see the Remarks section.
 
 
 ## -remarks
 
 
+
 The Windows Certification Program places specific requirements on the way an audio driver handles the <b>CopyProtect</b> and <b>DigitalOutputDisable</b> values. These requirements are applicable when the <b>CopyProtect</b> and <b>DigitalOutputDisable</b> values are applied to an audio stream and to the output from which the audio stream is accessed. New requirements for Windows 7 include the correct way to program the serial copy management system (SCMS) for S/PDIF endpoints, and high-bandwidth digital content protection (HDCP) for HDMI endpoints.
 
 The following table summarizes the content protection state that the driver must establish for different values of <b>CopyProtect</b> and <b>DigitalOutputDisable</b>.
+
 <table>
 <tr>
 <td colspan="2">
@@ -215,12 +222,17 @@ Disabled
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>   If the driver is unable to apply HDCP or SCMS correctly, the driver must disable output to the endpoint.</div><div> </div>When an audio driver applies SCMS copy protection to a S/PDIF endpoint, the audio driver uses a combination of the L, Cp, and Category Code bits to select an SCMS state of "Copy Never." For more information about copy protection for digital content, see <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a> on the IEC website.
+</table>
+ 
+
+<div class="alert"><b>Note</b>   If the driver is unable to apply HDCP or SCMS correctly, the driver must disable output to the endpoint.</div>
+<div> </div>
+When an audio driver applies SCMS copy protection to a S/PDIF endpoint, the audio driver uses a combination of the L, Cp, and Category Code bits to select an SCMS state of "Copy Never." For more information about copy protection for digital content, see <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a> on the IEC website.
 
 If the driver supports DRMRIGHTS and also implements a proprietary copy protection mechanism, the driver must aggregate the result of the proprietary implementation with the values of <b>CopyProtect</b> and <b>DigitalOutputDisable</b> to determine the final copy protection state. The final copy protection state must be the most restrictive of all outstanding copy protection requests. 
 
 The <b>DEFINE_DRMRIGHTS_DEFAULT</b> macro defines a constant <b>DRMRIGHTS</b> structure that specifies default DRM content rights.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -232,7 +244,8 @@ The <b>DEFINE_DRMRIGHTS_DEFAULT</b> macro defines a constant <b>DRMRIGHTS</b> st
 );</pre>
 </td>
 </tr>
-</table></span></div>Parameters
+</table></span></div>
+Parameters
 
 <i>DrmRights</i>
 
@@ -250,23 +263,36 @@ This macro does not return a value.
 
 
 
+
 ## -see-also
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+
+
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
 
- 
+
+
+<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DRMRIGHTS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DRMRIGHTS structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

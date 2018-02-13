@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2d607433-0d2d-4662-acd6-9adbce290b97
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: QueryVirtual, QueryVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces2 interface [Windows Debugging], QueryVirtual method, IDebugDataSpaces2, dbgeng/IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, debugger.queryvirtual, QueryVirtual method [Windows Debugging]
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], QueryVirtual method, QueryVirtual method [Windows Debugging], QueryVirtual method [Windows Debugging], IDebugDataSpaces2 interface, debugger.queryvirtual, QueryVirtual, dbgeng/IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, IDebugDataSpaces2, IDebugDataSpaces2::QueryVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,9 @@ Receives the information about the memory page.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,11 +100,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method may not work in all sessions.
@@ -112,5 +117,6 @@ This method returns attributes for a range of pages.  This range is determined b
 MEMORY_BASIC_INFORMATION64 appears in the Microsoft Windows SDK header file winnt.h.  It is the 64-bit equivalent of MEMORY_BASIC_INFORMATION, which is described in the Windows SDK documentation.
 
 This method behaves in a similar way to the Windows SDK function <b>VirtualQuery</b>.  See Windows SDK documentation for details.
+
 
 

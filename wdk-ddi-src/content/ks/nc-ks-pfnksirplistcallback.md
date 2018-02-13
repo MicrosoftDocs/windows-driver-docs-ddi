@@ -84,11 +84,14 @@ Passed from <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCan
 ## -returns
 
 
+
 Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the source list to the destination list. Returns STATUS_NO_MATCH if the passed in IRP should not be moved. Returns any other value to terminate enumeration.
 
 
 
+
 ## -remarks
+
 
 
 <i>KStrIrpListCallback</i> is called at DISPATCH_LEVEL.
@@ -97,9 +100,12 @@ Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the so
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>
+
+
 
  
 

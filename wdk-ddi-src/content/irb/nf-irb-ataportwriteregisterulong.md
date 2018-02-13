@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62abbee8-cd62-4106-9a7e-c93bfc916769
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportwriteregisterulong, AtaPortWriteRegisterUlong routine [Storage Devices], AtaPortWriteRegisterUlong, atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, irb/AtaPortWriteRegisterUlong
+ms.keywords: irb/AtaPortWriteRegisterUlong, atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, AtaPortWriteRegisterUlong routine [Storage Devices], AtaPortWriteRegisterUlong, storage.ataportwriteregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,17 +84,25 @@ Specifies the value to write to the register for the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
-
 <a href="..\irb\nf-irb-ataportwriteregisterushort.md">AtaPortWriteRegisterUshort</a>
 
+
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
+
+<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfRegisterProvider, netvista.ndisifregisterprovider, ndis/NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml
+ms.keywords: netvista.ndisifregisterprovider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, ndis/NdisIfRegisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIfRegisterProvider
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIfRegisterProvider function
@@ -91,6 +91,7 @@ TBD
 
 
 
+
 #### - pNdisProviderHandle [out]
 
 A pointer to a caller-provided handle variable. If the registration operation succeeds, NDIS
@@ -101,7 +102,9 @@ A pointer to a caller-provided handle variable. If the registration operation su
 ## -returns
 
 
+
 <b>NdisIfRegisterProvider</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +159,14 @@ The operation failed because of insufficient resources.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -196,16 +202,25 @@ A component that is no longer an interface provider can call the
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
 
 <a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
    NDIS_IF_PROVIDER_CHARACTERISTICS</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisifderegisterprovider.md">NdisIfDeregisterProvider</a>
+
+
 
  
 

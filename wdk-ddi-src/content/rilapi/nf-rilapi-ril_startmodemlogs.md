@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6f9b79a0-0947-4f69-b2b6-f35ad2ee70d5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], RIL_StartModemLogs, rilapi/RIL_StartModemLogs, netvista.ril_startmodemlogs
+ms.keywords: netvista.ril_startmodemlogs, RIL_StartModemLogs, RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], rilapi/RIL_StartModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ HRESULT  RIL_StartModemLogs(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

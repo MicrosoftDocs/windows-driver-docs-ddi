@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_DriverEntry, stream.usbcamd_driverentry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, usbcamdi/USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices]
+ms.keywords: usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], usbcamdi/USBCAMD_DriverEntry, stream.usbcamd_driverentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBCAMD_DriverEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -106,11 +106,14 @@ Specifies the size, in bytes, required for the minidriver's frame-specific conte
 ## -returns
 
 
+
 <b>USBCAMD_DriverEntry </b>returns the status of the registration attempt. If a value other than STATUS_SUCCESS is returned, the minidriver is unloaded.
 
 
 
+
 ## -remarks
+
 
 
 A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558717">DriverEntry for Stream Class Minidrivers</a>
@@ -120,13 +123,20 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 
 
-## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
+## -see-also
 
 <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
 
+
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
+
+
+
 <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
+
+
 
  
 

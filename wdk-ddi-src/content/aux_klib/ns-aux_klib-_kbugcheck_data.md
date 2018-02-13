@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib/PKBUGCHECK_DATA, _KBUGCHECK_DATA, kernel.kbugcheck_data, PKBUGCHECK_DATA, *PKBUGCHECK_DATA, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], aux_klib/KBUGCHECK_DATA, KBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, kernel.kbugcheck_data, KBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], _KBUGCHECK_DATA, *PKBUGCHECK_DATA, PKBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KBUGCHECK_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PKBUGCHECK_DATA, KBUGCHECK_DATA"
+req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---
 
 # _KBUGCHECK_DATA structure
@@ -105,13 +105,17 @@ Bug check parameter 4. For more information about this parameter, see specific <
 ## -remarks
 
 
+
 The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>
+
+
 
  
 

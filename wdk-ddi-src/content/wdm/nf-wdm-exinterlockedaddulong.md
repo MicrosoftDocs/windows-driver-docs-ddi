@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, wdm/ExInterlockedAddUlong, kernel.exinterlockedaddulong, ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture]
+ms.keywords: k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], kernel.exinterlockedaddulong, wdm/ExInterlockedAddUlong, ExInterlockedAddUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ A pointer to a spin lock to be used to synchronize access to the <i>Addend</i>.
 ## -returns
 
 
+
 <b>ExInterlockedAddUlong </b>returns the original (unsummed) value of the <i>Addend</i>. 
 
 
 
+
 ## -remarks
+
 
 
 Consider using <b>InterlockedExchangeAdd</b> instead of this routine. <b>InterlockedExchangeAdd</b> can be more efficient because it does not use a spin lock and it is inlined by the compiler.
@@ -109,15 +112,24 @@ Callers of <b>ExInterlockedAddUlong</b> run at any IRQL. The storage for the <i>
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
+
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
+
+
 
 <a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
 
  
 

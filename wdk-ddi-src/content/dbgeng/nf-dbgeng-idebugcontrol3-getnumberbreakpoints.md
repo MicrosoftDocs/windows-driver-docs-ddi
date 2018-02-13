@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, debugger.getnumberbreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints, IDebugControl::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, GetNumberBreakpoints method [Windows Debugging], IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, IDebugControl3, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl2::GetNumberBreakpoints
+ms.keywords: IDebugControl2, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, GetNumberBreakpoints method [Windows Debugging], IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, debugger.getnumberbreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, IDebugControl3, dbgeng/IDebugControl::GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl::GetNumberBreakpoints, IDebugControl, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Receives the number of breakpoints.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,21 +96,33 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

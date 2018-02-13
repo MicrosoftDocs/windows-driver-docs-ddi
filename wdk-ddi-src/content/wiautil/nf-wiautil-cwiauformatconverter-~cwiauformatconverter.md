@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2bdf9564-70b0-4936-95e5-4470b731ac3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, CWiauFormatConverter::~CWiauFormatConverter, CWiauFormatConverter, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, image.cwiauformatconverter__cwiauformatconverter, wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, wiautil/CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter method [Imaging Devices], ~CWiauFormatConverter
+ms.keywords: "~CWiauFormatConverter method [Imaging Devices], wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, wiautil/CWiauFormatConverter::~CWiauFormatConverter, CWiauFormatConverter, ~CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, image.cwiauformatconverter__cwiauformatconverter"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,10 +67,13 @@ void ~CWiauFormatConverter();
 
 
 
+
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
@@ -78,7 +81,11 @@ This method does not return a value.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540370">CWiauFormatConverter::CWiauFormatConverter</a>
 
+
+
 <a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
+
+
 
  
 

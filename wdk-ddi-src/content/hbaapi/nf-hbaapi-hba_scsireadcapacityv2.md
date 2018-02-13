@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_scsireadcapacityv2, fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, HBA_ScsiReadCapacityV2 routine [Storage Devices], HBA_ScsiReadCapacityV2, hbaapi/HBA_ScsiReadCapacityV2
+ms.keywords: hbaapi/HBA_ScsiReadCapacityV2, HBA_ScsiReadCapacityV2 routine [Storage Devices], storage.hba_scsireadcapacityv2, HBA_ScsiReadCapacityV2, fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,7 +133,9 @@ Indicates the fibre channel logical unit number of the logical unit to which the
 ## -returns
 
 
+
 The <b>HBA_ScsiReadCapacityV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiReadCapacityV2</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -205,7 +207,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -213,7 +217,11 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

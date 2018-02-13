@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_USBPRINT_GET_LPT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION"
+req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
 req.product: Windows 10 or later.
 ---
 
@@ -86,14 +86,18 @@ The size of the output buffer, in bytes.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,6 +109,7 @@ The size of the output buffer, in bytes.
 ## -remarks
 
 
+
 To retrieve a handle to the device, you must call the <b>CreateFile</b> function with either the name of a device or the name of the driver associated with a device. To specify a device name, use the following format:
 
 \\.\DeviceName
@@ -113,15 +118,24 @@ To retrieve a handle to the device, you must call the <b>CreateFile</b> function
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 
  
 

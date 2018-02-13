@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2255C8A2-85FB-4B96-8AE9-66FAFD73EE73
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function [Network Drivers Starting with Windows Vista], netvista.vmb_channel_state_change_callbacks_init, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
+ms.keywords: vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, netvista.vmb_channel_state_change_callbacks_init, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,8 @@ A structure to save callback functions that relate to the state changes for a ch
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

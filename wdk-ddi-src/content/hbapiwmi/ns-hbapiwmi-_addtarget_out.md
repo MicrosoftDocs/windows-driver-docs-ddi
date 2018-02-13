@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AddTarget_OUT, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, hbapiwmi/AddTarget_OUT, storage.addtarget_out, PAddTarget_OUT, *PAddTarget_OUT, hbapiwmi/PAddTarget_OUT, _AddTarget_OUT, AddTarget_OUT structure [Storage Devices], PAddTarget_OUT structure pointer [Storage Devices]
+ms.keywords: AddTarget_OUT, storage.addtarget_out, hbapiwmi/PAddTarget_OUT, PAddTarget_OUT, *PAddTarget_OUT, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, AddTarget_OUT structure [Storage Devices], _AddTarget_OUT, hbapiwmi/AddTarget_OUT, PAddTarget_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddTarget_OUT
 product: Windows
 targetos: Windows
-req.typenames: AddTarget_OUT, *PAddTarget_OUT
+req.typenames: "*PAddTarget_OUT, AddTarget_OUT"
 ---
 
 # _AddTarget_OUT structure
@@ -75,6 +75,8 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
+
+
 
  
 

@@ -78,16 +78,15 @@ BOOL APIENTRY UNIFONTOBJ_GetInfo(
 ### -param *
 
 
-
 ### -param DWORD
-
 
 
 ### -param PVOID
 
 
-
 ### -param PDWORD
+
+
 
 
 
@@ -107,6 +106,7 @@ Specifies the type of structure pointed to by <i>pData</i>. Supplied by the call
 #### - pData
 
 Pointer to a structure, as indicated in the following table. Supplied by the caller.
+
 <table>
 <tr>
 <th>dwInfoID Value</th>
@@ -184,7 +184,8 @@ UFO_GETINFO_STDVARIABLE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a summary of structure contents, see the following <b>Remarks</b> section.
 
@@ -202,11 +203,14 @@ Pointer to a location that receives the minimum buffer size, in bytes, required 
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="https://msdn.microsoft.com/e55ca083-2790-4929-9e5b-6fce49eb0404">rendering plug-in</a> to call back into Unidrv to obtain font or glyph information from GDI, needed for handling <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">customized font management</a> operations.
@@ -214,6 +218,7 @@ The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="https://msdn.m
 A rendering plug-in receives the <b>UNIFONTOBJ_GetInfo</b> function's address in the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure that is passed to the font customization methods.
 
 The type of information returned by the function is dependent on the input arguments. The caller supplies values for <i>dwInfoID</i>, <i>pData</i>, and <i>dwDataSize</i> to indicate the type of information wanted. The following table summarizes the types of information returned. For more information, see the structure descriptions.
+
 <table>
 <tr>
 <th><i>pData</i> Structure</th>
@@ -291,8 +296,10 @@ The current value for one or more of Unidrv's <a href="https://msdn.microsoft.co
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the buffer described by <i>pData</i> and <i>dwDataSize</i> is too small to receive the structure indicated by <i>dwInfoID</i>, the function loads the required buffer size into the location pointed by <i>pcbNeeded</i> and returns <b>FALSE</b>.
+
 
 

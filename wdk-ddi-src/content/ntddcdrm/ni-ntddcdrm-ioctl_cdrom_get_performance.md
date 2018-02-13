@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_GET_PERFORMANCE
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_PERFORMANCE IOCTL
@@ -94,14 +94,18 @@ Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -143,11 +147,19 @@ The device does not support this request.
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>
 
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+
+
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a>
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+
 
  
 

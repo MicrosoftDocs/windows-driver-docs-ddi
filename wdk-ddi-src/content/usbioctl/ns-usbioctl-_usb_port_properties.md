@@ -7,8 +7,8 @@ old-location: buses\usb_port_properties.htm
 old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: USB_PORT_PROPERTIES union [Buses], _USB_PORT_PROPERTIES, buses.usb_port_properties, *PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], usbioctl/USB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES
+ms.date: 2/8/2018
+ms.keywords: usbioctl/USB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], *PUSB_PORT_PROPERTIES, buses.usb_port_properties, PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,11 @@ typedef union _USB_PORT_PROPERTIES {
 
 
 
+### -field ul
+
+A bitmask that indicates the properties and capabilities of the port.
+
+
 ### -field PortIsUserConnectable
 
 If <b>TRUE</b>, the port is visible to the user and a USB device can be attached to or detached from the port.
@@ -100,20 +105,19 @@ If <b>TRUE</b>, the port supports debugging over a USB connection.
 Reserved. Do not use.
 
 
-### -field ul
-
-A bitmask that indicates the properties and capabilities of the port.
-
-
 ## -see-also
-
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
- 
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_PORT_PROPERTIES union%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_PORT_PROPERTIES union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml, storport/StorPortGetLogicalUnit, StorPortGetLogicalUnit, storage.storportgetlogicalunit, StorPortGetLogicalUnit routine [Storage Devices]
+ms.keywords: StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml, StorPortGetLogicalUnit, storport/StorPortGetLogicalUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,14 @@ Identifies the logical unit (LU) number of the target device.
 ## -returns
 
 
+
 <b>StorPortGetLogicalUnit</b> returns a pointer to the miniport driver's storage area for the requested logical unit. If the logical unit does not exist, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>StorPortGetLogicalUnit</b> is irrelevant if the miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine specified zero for the <b>LuExtensionSize</b> in the <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> when it called <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. Otherwise, the operating system-specific port driver allocates and initializes with zeros a set of LU extensions of the specified size for the miniport driver to use.
@@ -107,14 +110,21 @@ Identifies the logical unit (LU) number of the target device.
 Per-LU storage can be used to store data relevant to a particular peripheral, such as saved data pointers. To access this area, the miniport driver calls <b>StorPortGetLogicalUnit</b> when the driver is maintaining information about the state of or current operation for any particular peripheral.
 
 The operating system-specific port driver can consider a logical unit to be nonexistent if there is no active request for that logical unit and the device has never been successfully selected.
-<div class="alert"><b>Note</b>  When the miniport driver calls <b>StorPortGetLogicalUnit</b> at IRQL = DISPATCH_LEVEL, the function acquires the interrupt lock. Calling <b>StorPortGetLogicalUnit</b> too often at this IRQL level impacts the performance and scalability of the miniport driver.</div><div> </div>
+
+<div class="alert"><b>Note</b>  When the miniport driver calls <b>StorPortGetLogicalUnit</b> at IRQL = DISPATCH_LEVEL, the function acquires the interrupt lock. Calling <b>StorPortGetLogicalUnit</b> too often at this IRQL level impacts the performance and scalability of the miniport driver.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+
+
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
 
  
 

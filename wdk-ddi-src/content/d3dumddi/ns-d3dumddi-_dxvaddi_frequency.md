@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5bfb02f6-4482-4260-827f-54c5f74b6b46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVADDI_FREQUENCY, display.dxvaddi_frequency, DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], d3dumddi/DXVADDI_FREQUENCY"
+ms.keywords: display.dxvaddi_frequency, DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, d3dumddi/DXVADDI_FREQUENCY, _DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], DXVADDI_FREQUENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,9 @@ typedef struct _DXVADDI_FREQUENCY {
 ## -remarks
 
 
+
 The user-mode display driver must interpret the video frame rate for the following special cases as indicated:
+
 <ul>
 <li>
 <b>Numerator</b>/<b>Denominator</b> = 0/0 is interpreted as an unknown frequency.
@@ -98,9 +100,12 @@ The user-mode display driver must interpret the video frame rate for the followi
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+
+
 
  
 

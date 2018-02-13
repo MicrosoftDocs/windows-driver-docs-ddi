@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY VideoProcessBeginFrame(
 
 
 
+
+
 #### - hVideoProcessor [in]
 
  The handle to the DirectX VA video processing device that should start processing the video frame. The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function created this handle.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY VideoProcessBeginFrame(
 ## -returns
 
 
+
 <i>VideoProcessBeginFrame</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,24 +123,34 @@ Video frame processing successfully began.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <i>VideoProcessBeginFrame</i> function notifies the user-mode display driver that its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a> function can be called on the specified video processing device.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1cde2e20-5ce6-4c5b-b40c-0b04da76980c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUERETRIEVENEXTREQUEST, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, wdfio/WdfIoQueueRetrieveNextRequest, DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, kmdf.wdfioqueueretrievenextrequest, wdf.wdfioqueueretrievenextrequest
+ms.keywords: wdfio/WdfIoQueueRetrieveNextRequest, DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, WdfIoQueueRetrieveNextRequest, kmdf.wdfioqueueretrievenextrequest, wdf.wdfioqueueretrievenextrequest, PFN_WDFIOQUEUERETRIEVENEXTREQUEST, WdfIoQueueRetrieveNextRequest method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ A pointer to a location that receives a handle to a framework request object. If
 ## -returns
 
 
+
 <b>WdfIoQueueRetrieveNextRequest</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,7 +139,8 @@ The specified I/O queue is <a href="https://docs.microsoft.com/en-us/windows-har
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -147,7 +150,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If a driver configures an I/O queue for manual dispatching of I/O requests, the driver typically calls <b>WdfIoQueueRetrieveNextRequest</b> to obtain requests from the queue. A driver that has configured an I/O queue for sequential dispatching might also call <b>WdfIoQueueRetrieveNextRequest</b>. For more information about using <b>WdfIoQueueRetrieveNextRequest</b> with the manual or sequential dispatching methods, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>. 
@@ -157,12 +162,38 @@ After calling <b>WdfIoQueueRetrieveNextRequest</b> to obtain an I/O request, the
 For more information about the <b>WdfIoQueueRetrieveNextRequest</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
+#### Examples
+
+The following code example obtains a handle to the next request object that is contained in a device's I/O queue.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status;
+WDFREQUEST  request;
+
+status = WdfIoQueueRetrieveNextRequest(
+                                       pDeviceContext-&gt;ReadQueue,
+                                       &amp;request
+                                       );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
+
+
 
  
 

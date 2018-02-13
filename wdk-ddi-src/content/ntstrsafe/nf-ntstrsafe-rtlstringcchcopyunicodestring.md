@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: acc4051f-dcd4-443d-ad6b-02e6b0c1cad4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_99b6e156-5c40-41e1-a02b-400a20cbd74d.xml, RtlStringCchCopyUnicodeString function [Kernel-Mode Driver Architecture], RtlStringCchCopyUnicodeString, ntstrsafe/RtlStringCchCopyUnicodeString, kernel.rtlstringcchcopyunicodestring
+ms.keywords: safestrings_99b6e156-5c40-41e1-a02b-400a20cbd74d.xml, ntstrsafe/RtlStringCchCopyUnicodeString, RtlStringCchCopyUnicodeString, RtlStringCchCopyUnicodeString function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlStringCchCopyUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCopyUnicodeString function
@@ -88,7 +88,9 @@ A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be co
 ## -returns
 
 
+
 <b>RtlStringCchCopyUnicodeString</b> returns one of the following NTSTATUS values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,20 +129,25 @@ This <i>error</i> status means that the function received an invalid input param
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RtlStringCchCopyUnicodeString</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
+
 <ul>
 <li>The contents of the <b>UNICODE_STRING</b> structure are invalid.</li>
 <li>The value in <i>cbDest</i> is larger than the maximum buffer size.</li>
 <li>The destination buffer (which <i>pszDest</i> points to) is already full.</li>
 <li>A buffer pointer is <b>NULL</b>.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
-</ul>For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+</ul>
+For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlStringCchCopyUnicodeString</b> function uses the destination buffer's size (which <i>cchDest</i> specifies) to ensure that the copy operation does not write past the end of the buffer.
@@ -153,13 +160,20 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestring.md">RtlStringCbCopyUnicodeString</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestringex.md">RtlStringCchCopyUnicodeStringEx</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

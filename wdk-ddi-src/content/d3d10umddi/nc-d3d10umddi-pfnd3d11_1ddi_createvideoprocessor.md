@@ -40,7 +40,7 @@ apiname:
 -	CreateVideoProcessor
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback
@@ -76,16 +76,15 @@ HRESULT APIENTRY* CreateVideoProcessor(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
 
 
-
 ### -param D3D11_1DDI_HRTVIDEOPROCESSOR
+
+
 
 
 
@@ -117,7 +116,9 @@ A handle to the video processor object that the driver should use when it calls 
 ## -returns
 
 
+
 <b>CreateVideoProcessor</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +158,14 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>CreateVideoProcessor</i> function creates a video processor object that contains specific capabilities and state.  Multiple video processor objects can exist at the same time, each with its own unique state.
@@ -172,11 +176,16 @@ When the runtime  calls <i>CreateVideoProcessor</i>, it passes the handle to the
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorSize</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a>
+
+
 
  
 

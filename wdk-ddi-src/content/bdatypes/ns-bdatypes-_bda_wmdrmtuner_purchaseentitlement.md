@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 348E7C25-4998-490E-A732-5780B0A21DE0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, stream.bda_wmdrmtuner_purchaseentitlement, bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT, _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices]
+ms.keywords: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], stream.bda_wmdrmtuner_purchaseentitlement, bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices], _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,15 +73,11 @@ typedef struct _BDA_WMDRMTUNER_PURCHASEENTITLEMENT {
 ### -field lResult
 
 
-
 ### -field ulDescrambleStatus
-
 
 
 ### -field ulCaptureTokenLength
 
 
-
 ### -field argbCaptureTokenBuffer
-
 

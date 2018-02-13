@@ -2,12 +2,12 @@
 UID: NC:hdaudio.PALLOCATE_DMA_BUFFER
 title: PALLOCATE_DMA_BUFFER
 author: windows-driver-content
-description: The AllocateDmaBuffer routine allocates a data buffer in system memory for a DMA engine.The function pointer type for an AllocateDmaBuffer routine is defined as:
+description: The AllocateDmaBuffer routine allocates a data buffer in system memory for a DMA engine.The function pointer type for an AllocateDmaBuffer routine is defined as follows.
 old-location: audio\allocatedmabuffer.htm
 old-project: audio
 ms.assetid: 44fd988a-24b3-4587-88d9-30585800ffbf
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.allocatedmabuffer, AllocateDmaBuffer callback function [Audio Devices], AllocateDmaBuffer, PALLOCATE_DMA_BUFFER, PALLOCATE_DMA_BUFFER, hdaudio/AllocateDmaBuffer, aud-prop2_b3e6fc6b-f01f-4ca9-999a-3f9c6e196003.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	AllocateDmaBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
+req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PALLOCATE_DMA_BUFFER callback
@@ -51,7 +51,7 @@ req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 
 The <code>AllocateDmaBuffer</code> routine allocates a data buffer in system memory for a DMA engine.
 
-The function pointer type for an <code>AllocateDmaBuffer</code> routine is defined as:
+The function pointer type for an <code>AllocateDmaBuffer</code> routine is defined as follows.
 
 
 ## -prototype
@@ -86,24 +86,21 @@ Specifies the context value from the <b>Context</b> members of the <a href="..\h
 ### -param Handle
 
 
-
 ### -param RequestedBufferSize
-
 
 
 ### -param *BufferMdl
 
 
-
 ### -param AllocatedBufferSize
-
 
 
 ### -param StreamId
 
 
-
 ### -param FifoSize
+
+
 
 
 
@@ -143,7 +140,9 @@ Retrieves the DMA engine's FIFO size in bytes. This parameter points to a caller
 ## -returns
 
 
+
 <code>AllocateDmaBuffer</code> returns STATUS_SUCCESS if the call succeeds. Otherwise, the routine returns an appropriate error code. The following table shows some of the possible return status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -215,11 +214,14 @@ Indicates that the stream is not in the reset state or that a buffer is already 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>AllocateDmaBuffer</code> routine is used in conjunction with the <a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a> routine. These two routines are available only in the HDAUDIO_BUS_INTERFACE and the HDAUDIO_BUS_INTERFACE_V2 versions of the HD Audio DDI. This DDI does not include the <a href="..\hdaudio\nc-hdaudio-pallocate_contiguous_dma_buffer.md">AllocateContiguousDmaBuffer</a>, <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>, and <a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a> routines, which are never used in conjunction with <code>AllocateDmaBuffer</code> and <b>FreeDmaBuffer</b>. Unlike <b>SetupDmaEngineWithBdl</b>, which configures the DMA engine to use a previously allocated DMA buffer, <code>AllocateDmaBuffer</code> both allocates a DMA buffer and configures the DMA engine to use the buffer.
@@ -237,6 +239,7 @@ During calls to <code>AllocateDmaBuffer</code> and <b>FreeDmaBuffer</b>, the DMA
 The FIFO size is the maximum number of bytes that the DMA engine can hold in its internal buffer. Depending on the hardware implementation, a DMA engine's FIFO size can either be static or vary dynamically with changes in the stream format. For more information about the FIFO size, see the Intel High Definition Audio Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
 
 This routine fails and returns error code STATUS_INVALID_DEVICE_REQUEST in either of the following circumstances:
+
 <ul>
 <li>
 Any previously allocated DMA buffer has not been freed (by calling <b>FreeDmaBuffer</b>).
@@ -246,35 +249,57 @@ Any previously allocated DMA buffer has not been freed (by calling <b>FreeDmaBuf
 The stream is in a state other than reset.
 
 </li>
-</ul>In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio driver calls this routine during execution of its <b>NewStream</b> method (at pin-creation time) or <b>SetFormat</b> method (after calling one of the Allocate<i>Xxx</i>DmaEngine routines in the HD Audio DDI). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>.
+</ul>
+In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio driver calls this routine during execution of its <b>NewStream</b> method (at pin-creation time) or <b>SetFormat</b> method (after calling one of the Allocate<i>Xxx</i>DmaEngine routines in the HD Audio DDI). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
-
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
-
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
-
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
-
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
 
 <a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
- 
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

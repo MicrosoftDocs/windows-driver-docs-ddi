@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c376297a-11a6-4e9f-b551-36a573cdb7e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauPropsInPropSpec, image.wiaupropsinpropspec, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec function [Imaging Devices], wiauPropsInPropSpec
+ms.keywords: wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], image.wiaupropsinpropspec, wiautil/wiauPropsInPropSpec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,20 +94,26 @@ Points to the first element of the array containing the property specification I
 ## -returns
 
 
+
 This function returns <b>TRUE</b> as soon as it finds one of the property specification IDs given in the <i>pProps</i> array in the <i>pPropSpecs</i> array. If the function is unable to find any of the listed property specification IDs in that array, it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauPropsInPropSpec</b> function finds one or more property specification IDs within an array of property specification IDs. A related function, <a href="..\wiautil\nf-wiautil-wiaupropinpropspec.md">wiauPropInPropSpec</a>, can be used to find a single property specification ID within such an array.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaupropinpropspec.md">wiauPropInPropSpec</a>
+
+
 
  
 

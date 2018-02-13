@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fbaf864c-d499-456c-be3b-b486c637877e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinitializeperfopts, StorPortInitializePerfOpts function [Storage Devices], storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml, storport/StorPortInitializePerfOpts, StorPortInitializePerfOpts
+ms.keywords: StorPortInitializePerfOpts, storport/StorPortInitializePerfOpts, storage.storportinitializeperfopts, StorPortInitializePerfOpts function [Storage Devices], storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a PERF_CONFIGURATION_DATA structure that is supplied by the minipor
 ## -returns
 
 
+
 StorPortInitializePerfOpts returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,11 +153,14 @@ Either the <i>HwDeviceExtension</i> parameter or the <i>PerfConfigData</i> param
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 
@@ -166,9 +171,12 @@ Available performance optimizations depend on the version of <a href="..\storpor
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a>
+
+
 
  
 

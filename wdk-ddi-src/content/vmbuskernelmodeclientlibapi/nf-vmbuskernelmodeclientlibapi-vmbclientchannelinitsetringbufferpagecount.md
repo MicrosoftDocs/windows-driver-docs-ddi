@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 560A7CD9-5D9D-434B-ACEE-5852CC9A2CC3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], VmbClientChannelInitSetRingBufferPageCount, netvista.vmbclientchannelinitsetringbufferpagecount
+ms.keywords: netvista.vmbclientchannelinitsetringbufferpagecount, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbClientChannelInitSetRingBufferPageCount
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -95,7 +95,9 @@ buffer.
 ## -remarks
 
 
+
 Because the client virtual machine donates the pages for both the incoming and the outgoing ring
 buffers, this function can only be invoked on the client endpoint.
+
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportallocatecontiguousmemoryspecifycachenode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storport/StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode
+ms.keywords: storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], StorPortAllocateContiguousMemorySpecifyCacheNode, storage.storportallocatecontiguousmemoryspecifycachenode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,9 @@ The variable that receives the starting address of the allocated memory block. U
 ## -returns
 
 
+
 The <b>StorPortAllocateContiguousMemorySpecifyCacheNode</b> routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,13 +159,17 @@ The operation failed to allocate the requested memory because of insufficient re
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the request fails, <i>BufferPointer</i> will be set to <b>NULL</b>.
+
 
 

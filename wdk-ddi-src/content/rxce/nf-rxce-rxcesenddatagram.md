@@ -7,8 +7,8 @@ old-location: ifsk\rxcesenddatagram.htm
 old-project: ifsk
 ms.assetid: 9cb714d5-92f6-481d-bc5e-5fa05b6a0938
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram function [Installable File System Drivers], rxce/RxCeSendDatagram, ifsk.rxcesenddatagram
+ms.date: 2/7/2018
+ms.keywords: RxCeSendDatagram function [Installable File System Drivers], rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml, RxCeSendDatagram, ifsk.rxcesenddatagram
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeSendDatagram
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -121,9 +121,11 @@ The desired options for transmitting the data on this send operation by the tran
 
 
 
+
 #### RXCE_SEND_PARTIAL
 
 Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only portions of it need to be sent. This option requests that the transport allow the send operation to transmit part of the data if the transport and MDL allow this behavior.
+
 
 
 #### RXCE_SEND_SYNCHRONOUS
@@ -136,7 +138,9 @@ Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams 
 ## -returns
 
 
+
 <b>RxCeSendDatagram</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -164,11 +168,14 @@ An invalid length was passed in the <i>SendLength</i> parameter based on the <i>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The asynchronous and synchronous options indicated in the <i>Options</i> parameter used in <b>RxCeSendDatagram</b> distinguish between two situations. In the asynchronous case, control returns to the caller once the request has been successfully submitted to the underlying transport. The results for any given request are communicated back using the <b>SendCompletion</b> callback routine. The <i>pCompletionContext</i> parameter in <b>RxCeSendDatagram</b> is passed back in the callback routine to assist the caller in disambiguating the requests.
@@ -183,17 +190,24 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
 
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
- 
+
+
+<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSendDatagram function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSendDatagram function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

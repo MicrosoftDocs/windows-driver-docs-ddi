@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7b9aa600-dd47-4ef1-acc8-02fb1b4f51ce
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksisbusenumchilddevice, ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml, swenum/KsIsBusEnumChildDevice, KsIsBusEnumChildDevice function [Streaming Media Devices], KsIsBusEnumChildDevice
+ms.keywords: ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml, KsIsBusEnumChildDevice, stream.ksisbusenumchilddevice, swenum/KsIsBusEnumChildDevice, KsIsBusEnumChildDevice function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsIsBusEnumChildDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
+req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,8 @@ Pointer to a BOOLEAN to receive the result. <b>KsIsBusEnumChildDevice</b> sets t
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the given device object's device extension is valid; otherwise, it returns an error code.
+
 
 

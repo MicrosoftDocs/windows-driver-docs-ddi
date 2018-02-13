@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory, miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml
+ms.keywords: miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory, NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMFreeSharedMemory function
@@ -108,11 +108,14 @@ Specifies the corresponding physical address returned by
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If it has already made a successful call to 
@@ -120,6 +123,7 @@ If it has already made a successful call to
     <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
     NdisMAllocateSharedMemoryAsyncEx</a>, the miniport driver of a DMA device calls 
     <b>NdisMFreeSharedMemory</b> if any of the following occurs:
+
 <ul>
 <li>
 Its 
@@ -142,7 +146,8 @@ The driver allocated additional shared memory with
       subsided to an average level.
 
 </li>
-</ul>A miniport driver cannot call 
+</ul>
+A miniport driver cannot call 
     <b>NdisMFreeSharedMemory</b> to free a subrange within an allocated shared memory range. The parameters
     passed to 
     <b>NdisMFreeSharedMemory</b> must match exactly those that were passed to 
@@ -159,21 +164,34 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
    MiniportSharedMemoryAllocateComplete</a>
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-   NdisMAllocateSharedMemoryAsyncEx</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
+
 
  
 

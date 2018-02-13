@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 901DA09A-ED1C-4884-AE4A-2D251942754C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongToUIntPtr, kernel.rtllongtouintptr, RtlLongToUIntPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToUIntPtr
+ms.keywords: kernel.rtllongtouintptr, RtlLongToUIntPtr function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToUIntPtr, RtlLongToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlLongToSizeT
 </li>
 </ul>
+
 

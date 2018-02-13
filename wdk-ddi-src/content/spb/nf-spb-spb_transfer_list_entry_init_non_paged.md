@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 5ED8DC18-75B8-40EB-B7D2-6F8597BCEBF9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spb_transfer_list_entry_init_non_paged, spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses], SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
+ms.keywords: SPB.spb_transfer_list_entry_init_non_paged, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. The function writ
 ## -returns
 
 
+
 <b>SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</b> returns an initialized <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
 
+
 ## -remarks
+
 
 
 This initialization function returns an unnamed local variable of type <b>SPB_TRANSFER_LIST_ENTRY</b>. The storage for this variable is allocated in the caller's stack frame and is valid while the stack frame remains in scope.
@@ -107,13 +110,20 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+
+
 
  
 

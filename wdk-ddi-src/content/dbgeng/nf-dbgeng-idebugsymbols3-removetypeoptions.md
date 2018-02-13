@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 68967a4f-9192-4716-85bd-1bcbc022c445
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: RemoveTypeOptions, IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols2 interface [Windows Debugging], RemoveTypeOptions method, dbgeng/IDebugSymbols2::RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::RemoveTypeOptions, IDebugSymbols3, IDebugSymbols3::RemoveTypeOptions, dbgeng/IDebugSymbols3::RemoveTypeOptions, debugger.removetypeoptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, debugger.removetypeoptions, IDebugSymbols3::RemoveTypeOptions, dbgeng/IDebugSymbols2::RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface, RemoveTypeOptions method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols3, RemoveTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], RemoveTypeOptions method, IDebugSymbols2::RemoveTypeOptions, dbgeng/IDebugSymbols3::RemoveTypeOptions, RemoveTypeOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,6 +76,7 @@ Specifies the type formatting options to turn off.  <i>Options</i> is a bit-set;
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,13 +93,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 After the type options have been changed, for each client the engine sends out notification to that client's <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> by passing the DEBUG_CES_TYPE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
@@ -107,17 +111,28 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549428">GetTypeOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81c05f47-e75a-4d67-8e77-33ebe1750c67
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], hbapiwmi/MS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery, _MS_SM_AdapterInformationQuery, structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml, *PMS_SM_AdapterInformationQuery, storage.ms_sm_adapterinformationquery, MS_SM_AdapterInformationQuery structure [Storage Devices], hbapiwmi/PMS_SM_AdapterInformationQuery
+ms.keywords: structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml, storage.ms_sm_adapterinformationquery, *PMS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery, hbapiwmi/MS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], MS_SM_AdapterInformationQuery structure [Storage Devices], _MS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

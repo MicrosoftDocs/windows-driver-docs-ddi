@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05ab9817-3f49-4ab5-b35d-1c89f5fe6e44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, kernel.clfsaddlogcontainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], wdm/ClfsAddLogContainer, ClfsAddLogContainer
+ms.keywords: ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], kernel.clfsaddlogcontainer, wdm/ClfsAddLogContainer, Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, ClfsAddLogContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> struc
 ### -param pcbContainer [in]
 
 A pointer to a ULONGLONG-typed variable. The role of this parameter depends on whether the log currently has at least one container.
+
 <ul>
 <li>
 If the log currently has no containers, the caller supplies a positive integer that is the requested size, in bytes, of the new container. CLFS creates a container that is the requested size rounded up to a multiple of 512KB (for a dedicated log) or 1MB (for a multiplexed log).
@@ -102,11 +103,14 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 <b>ClfsAddLogContainer</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 A container is a contiguous extent on stable storage. For example, a container could be a contiguous file on disk. A log is a set of containers along with a base log file. For more information about containers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541862">CLFS Stable Storage</a>. 
@@ -123,11 +127,16 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
+
+
 
  
 

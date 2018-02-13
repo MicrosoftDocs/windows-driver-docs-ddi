@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: EE298195-5EAA-40E4-84F5-9B169F55DBF1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, GetFirstSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetFirstSleepState method, IWDTFSystemAction2, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, GetFirstSleepState, GetFirstSleepState method [Windows Device Testing Framework], IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState
+ms.keywords: GetFirstSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2::GetFirstSleepState, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetFirstSleepState method, GetFirstSleepState method [Windows Device Testing Framework], wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, GetFirstSleepState, IWDTFSystemAction2, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The sleep state.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
+
+
 
  
 

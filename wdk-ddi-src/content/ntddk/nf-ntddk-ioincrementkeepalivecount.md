@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A80754BD-0F23-4EE9-898F-30743AA82C72
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoIncrementKeepAliveCount, IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount
+ms.keywords: IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], IoIncrementKeepAliveCount, kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoIncrementKeepAliveCount
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoIncrementKeepAliveCount function
@@ -81,13 +81,17 @@ The process associated with the device.
 ## -returns
 
 
+
 This routine returns <b>STATUS_SUCCESS</b> on success, or the appropriate <b>NTSTATUS</b> error code on failure. <b>NTSTATUS</b> error codes are defined in Ntstatus.h.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-iodecrementkeepalivecount.md">IoDecrementKeepAliveCount</a>
+
+
 
  
 

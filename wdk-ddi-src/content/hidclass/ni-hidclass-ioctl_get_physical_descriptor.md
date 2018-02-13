@@ -72,7 +72,9 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -84,21 +86,27 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +118,8 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 ## -see-also
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getphysicaldescriptor.md">HidD_GetPhysicalDescriptor</a>
+
+
 
  
 

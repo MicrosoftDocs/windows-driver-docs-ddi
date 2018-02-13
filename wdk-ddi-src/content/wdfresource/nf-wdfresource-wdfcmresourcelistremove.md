@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f636d85d-f7bb-4ebe-b03f-3b9c3c17bacd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcmresourcelistremove, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, PFN_WDFCMRESOURCELISTREMOVE, WdfCmResourceListRemove method, WdfCmResourceListRemove, kmdf.wdfcmresourcelistremove, wdfresource/WdfCmResourceListRemove
+ms.keywords: wdfresource/WdfCmResourceListRemove, WdfCmResourceListRemove, DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, PFN_WDFCMRESOURCELISTREMOVE, kmdf.wdfcmresourcelistremove, WdfCmResourceListRemove method, wdf.wdfcmresourcelistremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,6 +85,7 @@ A zero-based value that is used as an index into the resource list that <i>List<
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -93,7 +94,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfCmResourceListRemove</b> method removes the resource descriptor that is associated with the index value that the <i>Index</i> parameter specifies.
@@ -103,10 +106,46 @@ When <b>WdfCmResourceListRemove</b> removes the resource descriptor that has the
 For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md">EvtDeviceRemoveAddedResources</a> callback function receives.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+MyEvtDeviceRemoveAddedResources(
+    WDFDEVICE Device,
+    WDFCMRESLIST ResourcesRaw,
+    WDFCMRESLIST ResourcesTranslated
+    )
+{
+...
+    WdfCmResourceListRemove(
+                            ResourcesRaw,
+                            2
+                            );
+    WdfCmResourceListRemove(
+                            ResourcesTranslated,
+                            2
+                            );
+...
+
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistremovebydescriptor.md">WdfCmResourceListRemoveByDescriptor</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1c77758-0249-4ec6-9244-329c0b823e44
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, IDebugControl4, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface, debugger.removebreakpoint2, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], dbgeng/IDebugControl4::RemoveBreakpoint2
+ms.keywords: RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface, RemoveBreakpoint2 method [Windows Debugging], IDebugControl4 interface [Windows Debugging], RemoveBreakpoint2 method, debugger.removebreakpoint2, IDebugControl4, dbgeng/IDebugControl4::RemoveBreakpoint2, IDebugControl4::RemoveBreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,6 +75,7 @@ Specifies an interface pointer to breakpoint to remove.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -91,27 +92,40 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 After <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called, the breakpoint object specified in the <i>Bp</i> parameter must not be used again.
-<div class="alert"><b>Note</b>    Even though <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called.</div><div> </div>For more details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
+<div class="alert"><b>Note</b>    Even though <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called.</div>
+<div> </div>
+For more details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
 
  
 

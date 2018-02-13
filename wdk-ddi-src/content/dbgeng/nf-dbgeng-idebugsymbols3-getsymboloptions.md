@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a9da40fa-59b7-4d2b-978f-1785a51eeaed
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::GetSymbolOptions, GetSymbolOptions, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, IDebugSymbols interface [Windows Debugging], GetSymbolOptions method, GetSymbolOptions method [Windows Debugging], debugger.getsymboloptions, IDebugSymbols3 interface [Windows Debugging], GetSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], GetSymbolOptions method, dbgeng/IDebugSymbols3::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, dbgeng/IDebugSymbols2::GetSymbolOptions, IDebugSymbols2::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, GetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetSymbolOptions, IDebugSymbols::GetSymbolOptions
+ms.keywords: dbgeng/IDebugSymbols2::GetSymbolOptions, IDebugSymbols::GetSymbolOptions, dbgeng/IDebugSymbols3::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolOptions method, GetSymbolOptions method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetSymbolOptions method, debugger.getsymboloptions, IDebugSymbols3 interface [Windows Debugging], GetSymbolOptions method, dbgeng/IDebugSymbols::GetSymbolOptions, IDebugSymbols2, IDebugSymbols3::GetSymbolOptions, IDebugSymbols, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Receives the symbol options bit-set.  For a description of the bit flags, see <a
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,30 +96,46 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+
 
  
 

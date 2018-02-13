@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bbd37342-f0d0-43e0-bc27-1b47c426da6e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMPrinterEvent, OEMPrinterEvent function [Print Devices], printoem/OEMPrinterEvent, print.oemprinterevent, print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml
+ms.keywords: print.oemprinterevent, OEMPrinterEvent, printoem/OEMPrinterEvent, OEMPrinterEvent function [Print Devices], print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -73,15 +73,11 @@ BOOL APIENTRY OEMPrinterEvent(
 ### -param pPrinterName
 
 
-
 ### -param iDriverEvent
-
 
 
 ### -param dwFlags
 
 
-
 ### -param lParam
-
 

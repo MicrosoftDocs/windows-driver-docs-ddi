@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0400ff8c-a6d5-4fbf-b2fb-eb9fd7aabd7e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method, debugger.getnextsymbolmatchwide, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, IDebugSymbols3, GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging]
+ms.keywords: dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide, IDebugSymbols3, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3::GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatchWide, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatchWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,9 @@ Receives the location in the target's virtual address space of the symbol.  If <
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,11 +140,14 @@ No more symbols were found matching the pattern.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The search must first be initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>.  Once all the desired symbols have been found, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a> can be used to release the resources the engine holds for the search.
@@ -151,13 +156,20 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
+
+
 
  
 

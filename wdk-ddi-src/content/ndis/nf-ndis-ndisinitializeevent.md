@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinitializeevent, NdisInitializeEvent, NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, ndis/NdisInitializeEvent
+ms.keywords: NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeEvent, netvista.ndisinitializeevent, ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, NdisInitializeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisInitializeEvent
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInitializeEvent function
@@ -78,11 +78,14 @@ A pointer to caller-supplied storage for the event object, which is opaque to dr
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -104,15 +107,24 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+
 
 <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 

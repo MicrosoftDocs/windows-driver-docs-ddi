@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e9539565-e13f-42ea-9566-066e2c9ae2ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetStatus method [Imaging Devices], GetStatus, sti/IStiDevice::GetStatus, IStiDevice interface [Imaging Devices], GetStatus method, stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, IStiDevice, IStiDevice::GetStatus, GetStatus method [Imaging Devices], IStiDevice interface, image.istidevice_getstatus
+ms.keywords: GetStatus method [Imaging Devices], image.istidevice_getstatus, stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, GetStatus, IStiDevice::GetStatus, IStiDevice, GetStatus method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], GetStatus method, sti/IStiDevice::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_device_status.md">STI_
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDevice::GetStatus</b> method returns device status information in the caller-supplied <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure. It obtains the status by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543823">IStiUSD::GetStatus</a>, which is exported by vendor-supplied minidrivers.
@@ -88,5 +91,6 @@ The <b>IStiDevice::GetStatus</b> method returns device status information in the
 Before calling <b>IStiDevice::GetStatus</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
 A call to <b>IStiDevice::GetStatus</b> must be preceded by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a> and followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>.
+
 
 

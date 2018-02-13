@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exreleasespinlockexclusive_, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], wdm/ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive
+ms.keywords: kernel.exreleasespinlockexclusive_, wdm/ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL v
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine must be called only for a spin lock that is owned by the caller.
@@ -102,9 +105,12 @@ The caller should hold the spin lock only briefly before releasing it. For more 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451007">ExAcquireSpinLockExclusive</a>
+
+
 
  
 

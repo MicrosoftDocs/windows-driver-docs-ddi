@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsDetachSiloFromCurrentThread, kernel.psdetachsilofromcurrentthread, PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], PsDetachSiloFromCurrentThread, kernel.psdetachsilofromcurrentthread, ntddk/PsDetachSiloFromCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsDetachSiloFromCurrentThread
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsDetachSiloFromCurrentThread function
@@ -81,13 +81,17 @@ The value returned from the silo attach call.
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-psattachsilotocurrentthread.md">PsAttachSiloToCurrentThread</a>
+
+
 
  
 

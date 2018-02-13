@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveMediaLifeExpired, _TAPE_DRIVE_PROBLEM_TYPE, TapeDriveWriteError, TapeDriveSnappedTape, ntddtape/TapeDriveReadWriteWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadWriteError, TapeDriveReadError, ntddtape/TapeDriveWriteError, TapeDriveCleanDriveNow, TapeDriveWriteWarning, ntddtape/TapeDriveScsiConnectionError, TapeDriveReadWriteWarning, TapeDriveTimetoClean, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveTimetoClean, TapeDriveUnsupportedMedia, ntddtape/TapeDriveHardwareError, ntddtape/TapeDriveProblemNone, storage.tape_drive_problem_type, TapeDriveHardwareError, TapeDriveProblemNone, TapeDriveReadWarning, ntddtape/TapeDriveReadError, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveSnappedTape, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], ntddtape/TapeDriveWriteWarning, TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveMediaLifeExpired, TapeDriveScsiConnectionError
+ms.keywords: TapeDriveWriteWarning, TapeDriveTimetoClean, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveWriteError, TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadWriteWarning, ntddtape/TapeDriveMediaLifeExpired, TapeDriveSnappedTape, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveWriteWarning, storage.tape_drive_problem_type, TapeDriveProblemNone, ntddtape/TapeDriveReadWriteError, TapeDriveWriteError, TapeDriveCleanDriveNow, ntddtape/TapeDriveReadError, TapeDriveHardwareError, ntddtape/TapeDriveTimetoClean, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveScsiConnectionError, ntddtape/TapeDriveScsiConnectionError, TapeDriveUnsupportedMedia, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveReadWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadError, ntddtape/TapeDriveProblemNone, ntddtape/TapeDriveSnappedTape, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveReadWriteError, TapeDriveReadWarning, TapeDriveMediaLifeExpired, ntddtape/TapeDriveHardwareError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -154,7 +154,11 @@ Indicates that the tape has snapped.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
 
+
+
 <a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
+
+
 
  
 

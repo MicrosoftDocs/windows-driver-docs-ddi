@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6621a1ec-1d4e-4801-9418-d09a0073686a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptActiveHigh, wdfinterrupt/WDF_INTERRUPT_POLARITY, wdfinterrupt/WdfInterruptPolarityUnknown, wdfinterrupt/WdfInterruptActiveLow, *PWDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, WdfInterruptActiveLow, PWDF_INTERRUPT_POLARITY, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, wdfinterrupt/PWDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer, wdf.wdf_interrupt_polarity, kmdf.wdf_interrupt_polarity, _WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, WDF_INTERRUPT_POLARITY enumeration
+ms.keywords: wdf.wdf_interrupt_polarity, _WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY, kmdf.wdf_interrupt_polarity, wdfinterrupt/WdfInterruptPolarityUnknown, wdfinterrupt/WdfInterruptActiveHigh, wdfinterrupt/PWDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, wdfinterrupt/WdfInterruptActiveLow, WdfInterruptActiveLow, PWDF_INTERRUPT_POLARITY, wdfinterrupt/WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY enumeration, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, WdfInterruptActiveHigh, PWDF_INTERRUPT_POLARITY enumeration pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_POLARITY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY"
+req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
 req.product: Windows 10 or later.
 ---
 
@@ -90,13 +90,17 @@ The interrupt signal is active when it is low.
 ## -remarks
 
 
+
 The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
+
+
 
  
 

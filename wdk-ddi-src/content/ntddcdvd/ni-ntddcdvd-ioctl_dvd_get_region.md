@@ -88,14 +88,18 @@ None. <b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the size, i
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -see-also
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_region.md">DVD_REGION</a>
+
+
 
  
 

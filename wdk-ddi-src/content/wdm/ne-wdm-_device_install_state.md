@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.device_install_state, wdm/InstallStateFinishInstall, *PDEVICE_INSTALL_STATE, InstallStateInstalled, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], DEVICE_INSTALL_STATE, InstallStateFinishInstall, wdm/DEVICE_INSTALL_STATE, wdm/InstallStateNeedsReinstall, InstallStateFailedInstall, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, InstallStateNeedsReinstall, wdm/InstallStateFailedInstall, _DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, wdm/PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE
+ms.keywords: wdm/InstallStateFailedInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], wdm/InstallStateFinishInstall, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/DEVICE_INSTALL_STATE, InstallStateFinishInstall, *PDEVICE_INSTALL_STATE, kernel.device_install_state, InstallStateFailedInstall, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, InstallStateNeedsReinstall, wdm/PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], InstallStateInstalled, wdm/InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, _DEVICE_INSTALL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -94,7 +94,9 @@ The installation of this device is not yet complete.
 ## -remarks
 
 
+
 The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routine supplies a <b>DEVICE_INSTALL_STATE</b> enumeration value when a driver requests <b>DevicePropertyInstallState</b>. The operating system uses the value as a hint about the install state of the device.
+
 
 
 
@@ -102,7 +104,11 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
 
  
 

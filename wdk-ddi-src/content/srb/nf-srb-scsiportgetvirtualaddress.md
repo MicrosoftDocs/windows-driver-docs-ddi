@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, storage.scsiportgetvirtualaddress, ScsiPortGetVirtualAddress, srb/ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices]
+ms.keywords: ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], srb/ScsiPortGetVirtualAddress, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, storage.scsiportgetvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,14 +83,18 @@ Specifies the physical address to be mapped. This value must have been returned 
 ## -returns
 
 
+
 <b>ScsiPortGetVirtualAddress</b> returns a mapped pointer for the given input address. If the <i>PhysicalAddress</i> value is invalid, it returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 <b>ScsiPortGetVirtualAddress</b> uses <b>SCSI_PHYSICAL_ADDRESS</b> to represent physical addresses.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -101,15 +105,23 @@ Specifies the physical address to be mapped. This value must have been returned 
 </pre>
 </td>
 </tr>
-</table></span></div>The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that SCSI miniport drivers use to represent either a physical addresses or a bus-relative address. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+</table></span></div>
+The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that SCSI miniport drivers use to represent either a physical addresses or a bus-relative address. 
+
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
 
  
 

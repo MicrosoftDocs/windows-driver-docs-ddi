@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E5C5DAEA-9F4E-4202-90BE-A8D41EE03BDA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_ULONG, wudfddi_hwaccess/WRITE_REGISTER_ULONG, umdf.write_register_ulong, wdf.write_register_ulong, WRITE_REGISTER_ULONG function
+ms.keywords: WRITE_REGISTER_ULONG, wdf.write_register_ulong, wudfddi_hwaccess/WRITE_REGISTER_ULONG, umdf.write_register_ulong, WRITE_REGISTER_ULONG function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,13 +90,17 @@ Specifies a ULONG value to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

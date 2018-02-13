@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ec10c10e-4604-47fc-a2e7-4df9d90acf0b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksvalidateclockcreaterequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest
+ms.keywords: stream.ksvalidateclockcreaterequest, KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, ks/KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,6 +89,8 @@ Specifies the IRP with the clock create request being handled.
 ## -returns
 
 
+
 The <b>KsValidateClockCreateRequest</b> function returns STATUS_SUCCESS if successful, or an error if unsuccessful.
+
 
 

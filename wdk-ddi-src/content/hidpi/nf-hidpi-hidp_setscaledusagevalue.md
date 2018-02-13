@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0b863b69-b736-49dd-94a9-283480d035be
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_SetScaledUsageValue, HidP_SetScaledUsageValue, hid.hidp_setscaledusagevalue, hidfunc_0fcd2d78-aae7-4d56-a930-9bf0e4a417bf.xml, HidP_SetScaledUsageValue routine [Human Input Devices]
+ms.keywords: HidP_SetScaledUsageValue, HidP_SetScaledUsageValue routine [Human Input Devices], hid.hidp_setscaledusagevalue, hidpi/HidP_SetScaledUsageValue, hidfunc_0fcd2d78-aae7-4d56-a930-9bf0e4a417bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,9 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>, which 
 ## -returns
 
 
+
 <b>HidP_SetScaledUsageValue</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -223,11 +225,14 @@ The specified physical value is out-of-range, the usage has a null value, and th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>HidP_SetScaledUsageValue</b> sets the sign bit.
@@ -238,19 +243,32 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
 
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
+
+
+<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
+
+
 <a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
 
-<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
+
+
+<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
+
+
 
  
 

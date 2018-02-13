@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemPS2::GetPDEVAdjustment, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment method [Print Devices], IPrintOemPS2, GetPDEVAdjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, print.iprintoemps2_getpdevadjustment
+ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], print.iprintoemps2_getpdevadjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, IPrintOemPS2::GetPDEVAdjustment, IPrintOemPS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS2.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
 ### -param dwAdjustType
 
 Specifies the type of adjustment asked for. The following flags are currently supported:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -115,7 +116,8 @@ Enable or disable color output for monochrome and color printers. See the <a hre
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pBuf
@@ -136,11 +138,14 @@ Pointer to a memory location that the plug-in sets to <b>TRUE</b> when it actual
 ## -returns
 
 
+
 The <code>IPrintOemPS2::GetPDEVAdjustment</code> method should return S_OK if it recognizes the adjustment type, and S_FALSE if it does not. If the method fails, it should return E_FAIL. The chain of plug-ins is called until either S_OK or a failure code other than E_NOTIMPL is returned. That is, the chain of plug-ins is called until the first plug-in that is capable of handling the adjustment is found.
 
 
 
+
 ## -remarks
+
 
 
 This function is available in Windows XP and later.
@@ -149,13 +154,20 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 
+
 ## -see-also
 
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
+
+
 <a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
+
+
 <a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+
+
 
  
 

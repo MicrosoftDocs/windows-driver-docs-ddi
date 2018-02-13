@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 72c6e923-e7c0-4d3d-a115-33e3e11053eb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], display.videoportacquirespinlockatdpclevel, VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml
+ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], video/VideoPortAcquireSpinLockAtDpcLevel, display.videoportacquirespinlockatdpclevel, VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - SpinLock [in]
 
 Pointer to a memory location that contains the spin lock.
@@ -88,11 +89,14 @@ Pointer to a memory location that contains the spin lock.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers call <b>VideoPortAcquireSpinLockAtDpcLevel</b> instead of <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a> for better driver performance if and only if they are already running at IRQL = DISPATCH_LEVEL.
@@ -103,11 +107,16 @@ The caller should release the spin lock with <a href="..\video\nf-video-videopor
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
 
+
+
 <a href="..\video\nf-video-videoportreleasespinlockfromdpclevel.md">VideoPortReleaseSpinLockFromDpcLevel</a>
+
+
 
  
 

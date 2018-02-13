@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 646378f8-9037-4c40-bcbc-5ffe380e6279
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PGetPersistentBinding2_IN, PGetPersistentBinding2_IN structure pointer [Storage Devices], GetPersistentBinding2_IN structure [Storage Devices], GetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, storage.getpersistentbinding2_in, PGetPersistentBinding2_IN, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml, _GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
+ms.keywords: "_GetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, *PGetPersistentBinding2_IN, PGetPersistentBinding2_IN, GetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], PGetPersistentBinding2_IN structure pointer [Storage Devices], hbapiwmi/PGetPersistentBinding2_IN, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml, storage.getpersistentbinding2_in"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,13 +81,17 @@ Indicates the number of binding entries that the WMI provider can report.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetPersistentBinding2_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a>
+
+
 
  
 

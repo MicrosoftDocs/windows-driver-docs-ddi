@@ -40,7 +40,7 @@ apiname:
 -	BusResetRoutine
 product: Windows
 targetos: Windows
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
 ---
 
 # PBUS_RESET_ROUTINE callback
@@ -86,13 +86,17 @@ The bus reset information.
 ## -returns
 
 
+
 This callback does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

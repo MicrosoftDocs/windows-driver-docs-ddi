@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, _DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], display.dxgk_querygpummucapsin
+ms.keywords: d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin, DXGK_QUERYGPUMMUCAPSIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,10 +75,13 @@ A zero-based physical adapter index (engine ordinal) for which the data is queri
 ## -remarks
 
 
+
 To get GpuMmu caps Dxgkrnl calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> with the following parameters:
+
 <pre class="syntax" xml:space="preserve"><code>DXGKARG_QUERYADAPTERINFO::Type = DXGKQAITYPE_GPUMMUCAPS;
 DXGKARG_QUERYADAPTERINFO::pInputData = buffer of DXGK_QUERYGPUMMUCAPSIN type
 DXGKARG_QUERYADAPTERINFO::InputDataSize = sizeof(DXGK_QUERYGPUMMUCAPSIN);
 DXGKARG_QUERYADAPTERINFO::pOutputData = pointer to DXGK_GPUMMUCAPS
 DXGKARG_QUERYADAPTERINFO::OutputDataSize = sizeof(DXGK_GPUMMUCAPS);</code></pre>
+
 

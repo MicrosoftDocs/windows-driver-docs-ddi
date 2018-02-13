@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnAcquireNextDescriptorInfo(
 ## -returns
 
 
+
 The <b>pfnAcquireNextDescriptorInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,15 +153,19 @@ The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using the D3DKMDT_MONITOR_DESCRIPTOR structure, you must release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_releasedescriptorinfo.md">pfnReleaseDescriptorInfo</a>.
 
 You can obtain all the descriptors in a monitor descriptor set by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo.md">pfnAcquireFirstDescriptorInfo</a> and then making a sequence of calls to <b>pfnAcquireNextDescriptorInfo</b>.
+
 
 

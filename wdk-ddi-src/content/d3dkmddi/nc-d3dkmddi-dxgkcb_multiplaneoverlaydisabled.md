@@ -81,7 +81,9 @@ Indicates the VidPnSourceId on which the current multiplane overlay hardware con
 ## -returns
 
 
+
 DXGKCB_MULTIPLANEOVERLAYDISABLED returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,11 +100,14 @@ If the call has been successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This callback will notify the DWM that the current MPO configuration is no longer supported, allowing the DWM to fall back to composition. 
@@ -113,6 +118,7 @@ This callback can only be called at passive level.
 This callback can be used in the following scenarios:
 
 
+
 <ul>
 <li>A display change or hot plug event on one output makes it no longer possible to continue supporting an MPO configuration that is committed to a different monitor. In this case, the driver can disable the overlay planes on the monitor. The user will see a visible artifact but it should be corrected eventually by the DWM.
 
@@ -120,4 +126,5 @@ This callback can be used in the following scenarios:
 <li>MPO should be disabled due to thermal issues. In this case, the driver does not need to immediately disable MPO, but can wait until the DWM receives the notification and requires MPO support (which the KMD should indicate is not supported due to the thermal issue). At that time, the DWM will disable MPO and start composing.
 </li>
 </ul>
+
 

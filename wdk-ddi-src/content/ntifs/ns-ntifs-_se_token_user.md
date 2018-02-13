@@ -7,8 +7,8 @@ old-location: ifsk\se_token_user.htm
 old-project: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "_SE_TOKEN_USER, PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], ntifs/SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], SE_TOKEN_USER"
+ms.date: 2/7/2018
+ms.keywords: PSE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], SE_TOKEN_USER, ntifs/PSE_TOKEN_USER, ifsk.se_token_user, PSE_TOKEN_USER structure pointer [Installable File System Drivers], ntifs/SE_TOKEN_USER, _SE_TOKEN_USER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,15 +106,21 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
+
 
 <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SE_TOKEN_USER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SE_TOKEN_USER structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

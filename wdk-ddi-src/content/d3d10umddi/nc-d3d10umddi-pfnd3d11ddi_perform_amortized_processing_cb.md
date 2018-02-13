@@ -40,7 +40,7 @@ apiname:
 -	pfnPerformAmortizedProcessingCb
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB callback
@@ -77,6 +77,8 @@ void APIENTRY pfnPerformAmortizedProcessingCb(
 
 
 
+
+
 #### - hRuntimeDevice [in]
 
  A handle to a context for the core Microsoft Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
@@ -85,14 +87,18 @@ void APIENTRY pfnPerformAmortizedProcessingCb(
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For more information about amortized processing, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
+
 
 
 
@@ -100,7 +106,11 @@ For more information about amortized processing, see <a href="https://msdn.micro
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SMARTCARD_EXTENSION structure [Smart Card Reader Devices], smartcrd.smartcard_extension, SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], smclib/PSMARTCARD_EXTENSION, _SMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml
+ms.keywords: smartcrd.smartcard_extension, SMARTCARD_EXTENSION, smclib/PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], _SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, *PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,31 @@ typedef struct _SMARTCARD_EXTENSION {
 
 
 
+### -field Version
+
+Indicates the version of this structure. 
+
+
+### -field VendorAttr
+
+Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number. 
+
+
+### -field ReaderFunction
+
+A pointer to an array of callback functions for readers.
+
+
+### -field CardCapabilities
+
+Contains capabilities of the inserted smart card. 
+
+
+### -field LastError
+
+Not used.
+
+
 ### -field IoRequest
 
 
@@ -120,31 +145,6 @@ A pointer to the buffer that holds the data that is returned by the I/O request.
 ### -field IoRequest.ReplyBufferLength
 
 Indicates the number of bytes of the data that are returned by the I/O request. 
-
-
-### -field Version
-
-Indicates the version of this structure. 
-
-
-### -field VendorAttr
-
-Contains information that identifies the reader driver, such as the vendor name, unit number, and serial number. 
-
-
-### -field ReaderFunction
-
-A pointer to an array of callback functions for readers.
-
-
-### -field CardCapabilities
-
-Contains capabilities of the inserted smart card. 
-
-
-### -field LastError
-
-Not used.
 
 
 ### -field MajorIoControlCode
@@ -205,6 +205,8 @@ Reserved for system use.
 ## -remarks
 
 
+
 This structure is passed to all callback functions.
+
 
 

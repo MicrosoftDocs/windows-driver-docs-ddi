@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2::GetDescriptionWide, GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, debugger.getdescriptionwide, dbgeng/IDebugRegisters2::GetDescriptionWide, GetDescriptionWide, IDebugRegisters2, GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method
+ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, GetDescriptionWide, GetDescriptionWide method [Windows Debugging], dbgeng/IDebugRegisters2::GetDescriptionWide, IDebugRegisters2, debugger.getdescriptionwide, GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetDescriptionWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,9 @@ Receives the description of the register.  See <a href="..\dbgeng\ns-dbgeng-_deb
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,13 +151,17 @@ The index of the register requested is greater than the total number of register
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
 
 

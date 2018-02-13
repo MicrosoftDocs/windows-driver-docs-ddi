@@ -80,6 +80,8 @@ A UMDF-based driver's <a href="https://msdn.microsoft.com/0dfa2eb8-a7f6-46d9-959
 ## -remarks
 
 
+
 If your driver supports an <b>IRemoteInterfaceCallbackRemoval</b> interface for a device, the <b>IUnknown::QueryInterface</b> method that the driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a> must return the interface. 
+
 
 

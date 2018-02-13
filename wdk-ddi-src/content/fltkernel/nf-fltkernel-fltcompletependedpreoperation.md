@@ -7,8 +7,8 @@ old-location: ifsk\fltcompletependedpreoperation.htm
 old-project: ifsk
 ms.assetid: bdd9f304-b26e-401e-81c7-da7d1e4f5635
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, FLT_PREOP_SUCCESS_WITH_CALLBACK, ifsk.fltcompletependedpreoperation, fltkernel/FltCompletePendedPreOperation, FLT_PREOP_COMPLETE, FltCompletePendedPreOperation, FLT_PREOP_SUCCESS_NO_CALLBACK, FltCompletePendedPreOperation routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FLT_PREOP_SUCCESS_NO_CALLBACK, FltCompletePendedPreOperation, FLT_PREOP_SUCCESS_WITH_CALLBACK, FLT_PREOP_COMPLETE, ifsk.fltcompletependedpreoperation, FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, fltkernel/FltCompletePendedPreOperation, FltCompletePendedPreOperation routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,14 +80,17 @@ TBD
 The status value that the minifilter driver is returning for this I/O operation. Cannot be FLT_PREOP_PENDING, FLT_PREOP_SYNCHRONIZE, or FLT_PREOP_DISALLOW_FASTIO. Must be one of the following FLT_PREOP_CALLBACK_STATUS values. For more information about the effect of these values, see the Remarks section of the reference entry for <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>. 
 
 
+
 #### FLT_PREOP_COMPLETE
 
 The minifilter driver is completing the I/O operation. The Filter Manager does not send the I/O operation to any minifilter drivers below the caller or to the file system. The Filter Manager only calls the postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routines of the minifilter drivers above the caller. 
 
 
+
 #### FLT_PREOP_SUCCESS_NO_CALLBACK
 
 The minifilter driver is returning control of the I/O operation to the Filter Manager. The Filter Manager does not call the corresponding postoperation callback, if one exists, during I/O completion. 
+
 
 
 #### FLT_PREOP_SUCCESS_WITH_CALLBACK
@@ -108,11 +111,14 @@ Pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_d
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 When a minifilter driver's preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine posts an I/O operation to a work queue and returns FLT_PREOP_PENDING, the Filter Manager stops processing the operation. When the operation is eventually dequeued and processed, the minifilter driver must call <b>FltCompletePendedPreOperation</b> to return the operation to the Filter Manager, which then resumes processing as directed by the <i>CallbackStatus</i> specified by the minifilter driver. 
@@ -121,21 +127,32 @@ If the <i>CallbackStatus</i> parameter is FLT_PREOP_COMPLETE, <b>FltCompletePend
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
 
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
 
- 
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCompletePendedPreOperation routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCompletePendedPreOperation routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

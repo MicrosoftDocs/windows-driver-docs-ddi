@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F6B1DC49-B691-45E4-8DE9-ADCD73D90ADE
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfGetTriageInfo, wdfverifier/WdfGetTriageInfo, WdfGetTriageInfo function, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo
+ms.keywords: WdfGetTriageInfo, wdfverifier/WdfGetTriageInfo, wdf.wdfgettriageinfo, kmdf.wdfgettriageinfo, WdfGetTriageInfo function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WdfGetTriageInfo
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
+req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -64,6 +64,7 @@ PVOID WdfGetTriageInfo(void);
 
 
 ## -parameters
+
 
 
 

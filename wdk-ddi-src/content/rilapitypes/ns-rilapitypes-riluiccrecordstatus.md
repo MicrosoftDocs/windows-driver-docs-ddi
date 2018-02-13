@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS
+ms.keywords: RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCRECORDSTATUS, RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS, netvista.riluiccrecordstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,6 +106,8 @@ An array of type <a href="..\rilapitypes\ns-rilapitypes-riluiccfilelockstatus.md
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

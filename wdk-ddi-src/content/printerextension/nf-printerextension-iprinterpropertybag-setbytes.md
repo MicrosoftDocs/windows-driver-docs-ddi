@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0138F4F4-658F-4465-8647-17BE488E2FED
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterPropertyBag::SetBytes, IPrinterPropertyBag, print.iprinterpropertybag_setbytes, SetBytes method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices], SetBytes method, SetBytes, SetBytes method [Print Devices], IPrinterPropertyBag::SetBytes
+ms.keywords: SetBytes, SetBytes method [Print Devices], IPrinterPropertyBag interface, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetBytes method, printerextension/IPrinterPropertyBag::SetBytes, SetBytes method [Print Devices], print.iprinterpropertybag_setbytes, IPrinterPropertyBag::SetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ The number of bytes to write.
 
 
 
+
 #### - rgbValue [in]
 
 The values to write.
@@ -94,11 +95,14 @@ The values to write.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
+
 
 
 In Windows 8.1 a new flag, PRINTER_ACCESS_MANAGE_LIMITED, has been introduced to grant print queue permissions that are more limited than PRINTER_ACCESS_ADMINISTER, but more powerful than 
@@ -111,9 +115,12 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 
 
+
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+
+
 
  
 

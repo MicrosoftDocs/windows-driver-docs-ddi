@@ -7,8 +7,8 @@ old-location: whea\whea_error_type.htm
 old-project: whea
 ms.assetid: b10dbb47-394c-42f0-9471-6e5deb73a7b9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: whea.whea_error_type, ntddk/WheaErrTypeGeneric, WheaErrTypeGeneric, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], WheaErrTypePCIXBus, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrTypeNMI, WHEA_ERROR_TYPE, WheaErrTypeNMI, PWHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, _WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXBus, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, *PWHEA_ERROR_TYPE, WheaErrTypeMemory, ntddk/WheaErrTypeMemory, WheaErrTypePCIExpress, WheaErrTypePCIXDevice, WheaErrTypeProcessor, ntddk/WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypeProcessor, ntddk/WheaErrTypePCIExpress
+ms.date: 2/8/2018
+ms.keywords: WheaErrTypePCIXDevice, _WHEA_ERROR_TYPE, WheaErrTypeGeneric, ntddk/WHEA_ERROR_TYPE, ntddk/WheaErrTypePCIXDevice, whea.whea_error_type, WheaErrTypePCIExpress, ntddk/WheaErrTypePCIExpress, ntddk/WheaErrTypeGeneric, PWHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrTypeMemory, ntddk/PWHEA_ERROR_TYPE, WheaErrTypeProcessor, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml, ntddk/WheaErrTypePCIXBus, WheaErrTypePCIXBus, WHEA_ERROR_TYPE, WheaErrTypeMemory, ntddk/WheaErrTypeProcessor, ntddk/WheaErrTypeNMI, WheaErrTypeNMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,7 +111,9 @@ A hardware component that does not conform to any of the other WHEA_ERROR_TYPE e
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_TYPE that specifies the type of hardware component that reported the hardware error.
+
 
 
 
@@ -119,9 +121,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_TYPE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

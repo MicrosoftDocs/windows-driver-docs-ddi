@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4abc44ab-1729-46c3-befd-5f917e10953c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, storage.storage_write_cache_property, PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], _STORAGE_WRITE_CACHE_PROPERTY
+ms.keywords: storage.storage_write_cache_property, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml, STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, _STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], ntddstor/STORAGE_WRITE_CACHE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,13 +123,17 @@ A Boolean value that indicates whether the device has a battery backup for the w
 ## -remarks
 
 
+
 All of the parameter values that are described in this topic refer to the output of the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

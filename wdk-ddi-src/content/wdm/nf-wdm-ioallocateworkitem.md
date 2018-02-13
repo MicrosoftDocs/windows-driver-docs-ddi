@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 950e31ff-2e8e-4dd3-9d6c-d3d86fd69472
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_6cb480b8-6cf9-4c68-953e-8a1c8153087a.xml, IoAllocateWorkItem routine [Kernel-Mode Driver Architecture], IoAllocateWorkItem, wdm/IoAllocateWorkItem, kernel.ioallocateworkitem
+ms.keywords: IoAllocateWorkItem routine [Kernel-Mode Driver Architecture], kernel.ioallocateworkitem, k104_6cb480b8-6cf9-4c68-953e-8a1c8153087a.xml, wdm/IoAllocateWorkItem, IoAllocateWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Pointer to the caller's driver object or to one of the caller's device objects. 
 ## -returns
 
 
+
 <b>IoAllocateWorkItem</b> returns a pointer to the allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure. The routine returns <b>NULL</b> if sufficient resources do not exist.
 
 
 
+
 ## -remarks
+
 
 
 The driver must free the work item that is returned by <b>IoAllocateWorkItem</b> by calling <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>.
@@ -91,17 +94,28 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 <a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+
+
 
  
 

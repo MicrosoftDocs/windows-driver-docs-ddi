@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b97e93c-a375-4df7-9d2d-86f1ad72b62d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_RemoveCallback, HBA_RemoveCallback, storage.hba_removecallback, fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, HBA_RemoveCallback routine [Storage Devices]
+ms.keywords: fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, storage.hba_removecallback, hbaapi/HBA_RemoveCallback, HBA_RemoveCallback, HBA_RemoveCallback routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,7 +75,9 @@ Contains an opaque handle specified with the call to <a href="..\hbaapi\nf-hbaap
 ## -returns
 
 
+
 The <b>HBA_RemoveCallback</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_RemoveCallback</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,7 +105,9 @@ Returned if an unspecified error occurred that prevented the de-registration of 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -111,7 +115,11 @@ Returned if an unspecified error occurred that prevented the de-registration of 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

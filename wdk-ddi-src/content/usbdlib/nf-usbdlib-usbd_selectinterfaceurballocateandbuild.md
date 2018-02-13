@@ -7,8 +7,8 @@ old-location: buses\usbd_selectinterfaceurballocateandbuild.htm
 old-project: usbref
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild
+ms.date: 2/8/2018
+ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,9 @@ Pointer to a caller-allocated <a href="..\usbdlib\ns-usbdlib-_usbd_interface_lis
 ## -returns
 
 
+
 The routine returns an NTSTATUS code. Possible  values include but are not limited to, the status codes listed in the following table.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,20 +144,25 @@ Insufficient memory available to complete the call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The client driver must call the <b>USBD_SelectInterfaceUrbAllocateAndBuild</b> routine after selecting a configuration in the device. After a select-configuration request completes, the client driver receives a configuration handle in the <b>UrbSelectConfiguration.ConfigurationHandle</b> member of the URB. That handle must be specified in the <i>ConfigurationHandle</i> parameter of <b>USBD_SelectInterfaceUrbAllocateAndBuild</b>. 
 
 A client driver calls <b>USBD_SelectInterfaceUrbAllocateAndBuild</b> to allocate and build an URB for a select-interface request to change the alternate setting of an interface, in the selected configuration.  In the call to <b>USBD_SelectInterfaceUrbAllocateAndBuild</b>, the client driver must allocate and provide a pointer to a <a href="..\usbdlib\ns-usbdlib-_usbd_interface_list_entry.md">USBD_INTERFACE_LIST_ENTRY</a> structure. The client driver must set the structure members as follows: 
+
 <ul>
 <li>The <b>InterfaceDescriptor</b> member must point to a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that contains the interface descriptor with the alternate setting to select. The interface descriptor was obtained in a previous request to get a configuration descriptor and the associated interface and endpoint descriptors. </li>
 <li>The <b>Interface</b> member must be NULL.</li>
-</ul><b>USBD_SelectInterfaceUrbAllocateAndBuild</b> allocates an <a href="..\usb\ns-usb-_urb.md">URB</a> structure and fills it with information about the specified interface setting, and endpoints. The routine also allocates a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure.  The structure members (except pipe information) are filled based on the specified interface descriptor. 
+</ul>
+<b>USBD_SelectInterfaceUrbAllocateAndBuild</b> allocates an <a href="..\usb\ns-usb-_urb.md">URB</a> structure and fills it with information about the specified interface setting, and endpoints. The routine also allocates a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure.  The structure members (except pipe information) are filled based on the specified interface descriptor. 
 <b>USBD_SelectInterfaceUrbAllocateAndBuild</b> sets the <b>Interface</b> member of <a href="..\usbdlib\ns-usbdlib-_usbd_interface_list_entry.md">USBD_INTERFACE_LIST_ENTRY</a> to the address of <b>USBD_INTERFACE_INFORMATION</b> in the URB. The client driver can send this URB to the USB driver stack to select an alternate setting in the interface.
 
 A client driver cannot change alternate settings in multiple interfaces in a single select-interface request. Each request targets only one interface.
@@ -166,15 +173,20 @@ The client driver can reuse an URB allocated by <b>USBD_SelectInterfaceUrbAlloca
 
 
 
+
 ## -see-also
 
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
 
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_SelectInterfaceUrbAllocateAndBuild routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_SelectInterfaceUrbAllocateAndBuild routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

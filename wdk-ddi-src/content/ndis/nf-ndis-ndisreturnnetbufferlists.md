@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a45bc5c-cdc1-46d2-905b-3d5eea3645c1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisreturnnetbufferlists, ndis_sendrcv_ref_9c5a4908-356f-4e7c-9351-4fec4358180d.xml, NdisReturnNetBufferLists function [Network Drivers Starting with Windows Vista], NdisReturnNetBufferLists, ndis/NdisReturnNetBufferLists
+ms.keywords: NdisReturnNetBufferLists, netvista.ndisreturnnetbufferlists, NdisReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis_sendrcv_ref_9c5a4908-356f-4e7c-9351-4fec4358180d.xml, ndis/NdisReturnNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisReturnNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisReturnNetBufferLists function
@@ -101,11 +101,14 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
@@ -121,19 +124,30 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
    MiniportReturnNetBufferLists</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
    ProtocolReceiveNetBufferLists</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
  
 

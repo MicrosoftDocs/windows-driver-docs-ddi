@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IBidiSpl::UnbindDevice, bidispl/IBidiSpl::UnbindDevice, UnbindDevice, print.ibidispl_ibidispl__unbinddevice, gdi.ibidispl_ibidispl__unbinddevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl interface, IBidiSpl, IBidiSpl interface [Print Devices], UnbindDevice method, _win32_IBidiSpl_UnbindDevice
+ms.keywords: "_win32_IBidiSpl_UnbindDevice, IBidiSpl, UnbindDevice, print.ibidispl_ibidispl__unbinddevice, IBidiSpl interface [Print Devices], UnbindDevice method, UnbindDevice method [Print Devices], IBidiSpl interface, IBidiSpl::UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, UnbindDevice method [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiSpl.UnbindDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl::UnbindDevice method
@@ -66,10 +66,13 @@ HRESULT UnbindDevice();
 
 
 
+
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -108,17 +111,25 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
+
+
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
 
  
 

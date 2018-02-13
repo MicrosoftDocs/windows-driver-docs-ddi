@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2810be51-4b38-4462-9c16-67a9f28da5c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_type, ntddndis/NDIS_RECEIVE_FILTER_TYPE, PNDIS_RECEIVE_FILTER_TYPE, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml, NdisReceiveFilterTypeMaximum, NdisReceiveFilterTypeUndefined, ntddndis/NdisReceiveFilterTypePacketCoalescing, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypeUndefined, NdisReceiveFilterTypeVMQueue, ntddndis/NdisReceiveFilterTypeMaximum, *PNDIS_RECEIVE_FILTER_TYPE, _NDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypePacketCoalescing, *PNDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeUndefined, NDIS_RECEIVE_FILTER_TYPE, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml, ntddndis/NDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypeMaximum, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypeMaximum, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTypeUndefined, ntddndis/NdisReceiveFilterTypeVMQueue, netvista.ndis_receive_filter_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_FILTER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE
+req.typenames: "*PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE"
 ---
 
 # _NDIS_RECEIVE_FILTER_TYPE enumeration
@@ -95,6 +95,7 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The NDIS_RECEIVE_FILTER_TYPE enumeration is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
     NDIS_RECEIVE_FILTER_PARAMETERS</a> structure.
@@ -107,10 +108,13 @@ For more information about packet coalescing, see <a href="https://msdn.microsof
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
    NDIS_RECEIVE_FILTER_PARAMETERS</a>
+
+
 
  
 

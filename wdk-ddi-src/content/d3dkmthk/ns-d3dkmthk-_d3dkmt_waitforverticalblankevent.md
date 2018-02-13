@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT, _D3DKMT_WAITFORVERTICALBLANKEVENT, display.d3dkmt_waitforverticalblankevent, OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT
+ms.keywords: display.d3dkmt_waitforverticalblankevent, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, D3DKMT_WAITFORVERTICALBLANKEVENT, _D3DKMT_WAITFORVERTICALBLANKEVENT, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforverticalblankevent.md">D3DKMTWaitForVerticalBlankEvent</a>
+
+
 
  
 

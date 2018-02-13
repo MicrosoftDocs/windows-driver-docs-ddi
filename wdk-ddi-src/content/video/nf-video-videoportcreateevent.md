@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCreateEvent function [Display Devices], display.videoportcreateevent, video/VideoPortCreateEvent, VideoPortCreateEvent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml
+ms.keywords: VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, VideoPortCreateEvent, display.videoportcreateevent, video/VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ Pointer to the miniport driver's device extension.
 ### -param EventFlag [in]
 
 Specifies the event type and initial event state. This can be an ORed combination of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -104,7 +105,8 @@ Set this flag to create a notification event. If this flag is not set, a synchro
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Unused [in]
@@ -120,11 +122,14 @@ Pointer to the memory location at which a pointer to the event object will be re
 ## -returns
 
 
+
 <b>VideoPortCreateEvent</b> returns NO_ERROR if the event object is successfully created.
 
 
 
+
 ## -remarks
+
 
 
 When a synchronization event is set to the signaled state, a single thread that was waiting for the signaled state is released (its dispatch state transitions from waiting to ready, standby, or running), and the event is automatically reset to the nonsignaled state.
@@ -133,9 +138,12 @@ When a notification event is set to the signaled state, all threads that were wa
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportdeleteevent.md">VideoPortDeleteEvent</a>
+
+
 
  
 

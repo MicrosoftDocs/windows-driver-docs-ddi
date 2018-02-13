@@ -7,8 +7,8 @@ old-location: ifsk\sesetsecuritydescriptorinfo.htm
 old-project: ifsk
 ms.assetid: d6f02142-1cd8-4f09-b106-d963bf080495
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: seref_061b8609-a537-4ccb-aa60-50a46b08e97f.xml, SeSetSecurityDescriptorInfo routine [Installable File System Drivers], ntifs/SeSetSecurityDescriptorInfo, SeSetSecurityDescriptorInfo, ifsk.sesetsecuritydescriptorinfo
+ms.date: 2/7/2018
+ms.keywords: ntifs/SeSetSecurityDescriptorInfo, SeSetSecurityDescriptorInfo routine [Installable File System Drivers], SeSetSecurityDescriptorInfo, ifsk.sesetsecuritydescriptorinfo, seref_061b8609-a537-4ccb-aa60-50a46b08e97f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ Pointer to the object whose security descriptor is to be set. This is used to up
 ### -param SecurityInformation [in]
 
 Pointer to a bitmask specifying which security information is to be applied to the object. Can be a combination of one or more of the following values. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,7 +126,8 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ModificationDescriptor
@@ -141,13 +143,17 @@ Pointer to a pointer to the object's security descriptor. The security descripto
 ### -param PoolType [in]
 
 Specifies the pool type to use when allocating a new security descriptor, which can be one of the following: 
+
 <ul>
 <li><b>NonPagedPool</b></li>
 <li><b>PagedPool</b></li>
 <li><b>NonPagedPoolCacheAligned</b></li>
 <li><b>PagedPoolCacheAligned</b></li>
-</ul>Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL &gt;= DISPATCH_LEVEL or in an arbitrary thread context. 
-<div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div><div> </div>
+</ul>
+Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL &gt;= DISPATCH_LEVEL or in an arbitrary thread context. 
+
+<div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
+<div> </div>
 
 ### -param GenericMapping [in]
 
@@ -160,6 +166,7 @@ The input security descriptor to be applied to the object. The caller of this ro
 
 
 ## -returns
+
 
 
 <table>
@@ -200,11 +207,14 @@ The object does not have a security descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>SeSetSecurityDescriptorInfo</b> modifies an object's existing security descriptor. If the object does not have a security descriptor, the call to <b>SeSetSecurityDescriptorInfo</b> will fail.
@@ -217,39 +227,68 @@ For more information about security and access control, see the documentation on
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
 
-<a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfoex.md">SeSetSecurityDescriptorInfoEx</a>
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
+
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sesetsecuritydescriptorinfoex.md">SeSetSecurityDescriptorInfoEx</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-sequerysecuritydescriptorinfo.md">SeQuerySecurityDescriptorInfo</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeSetSecurityDescriptorInfo routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeSetSecurityDescriptorInfo routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

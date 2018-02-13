@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], dxva/DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], *LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml, _DXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad
+ms.keywords: display.dxva_configalphaload, dxva/LPDXVA_ConfigAlphaLoad, _DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml, dxva/DXVA_ConfigAlphaLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,6 +86,7 @@ Reserved bits used for packing and alignment. These bits are zero.
 ### -field bConfigDataType
 
 Specifies the type of alpha-blend data to be used. This member can be set to one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -131,7 +132,8 @@ AYUV graphic surface.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The preferred values for an accelerator to support for <b>bConfigDataType</b> are 1 and 3.
 

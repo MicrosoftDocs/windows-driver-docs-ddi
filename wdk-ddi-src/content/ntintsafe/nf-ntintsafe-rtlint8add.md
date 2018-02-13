@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E97C3EA9-2244-458E-BE5E-6312023118A3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInt8Add function [Kernel-Mode Driver Architecture], kernel.rtlint8add, ntintsafe/RtlInt8Add, RtlInt8Add
+ms.keywords: ntintsafe/RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], RtlInt8Add, kernel.rtlint8add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,6 +87,8 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

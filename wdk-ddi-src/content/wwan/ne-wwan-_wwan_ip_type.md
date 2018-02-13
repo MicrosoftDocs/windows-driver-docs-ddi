@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanIPTypeDefault, WwanIPTypeIPv4, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], _WWAN_IP_TYPE, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeDefault, WwanIPTypeIpv4v6, WWAN_IP_TYPE, wwan/WwanIPTypeIPv4, *PWWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6, WwanIPTypeIPv6
+ms.keywords: WWAN_IP_TYPE, _WWAN_IP_TYPE, *PWWAN_IP_TYPE, wwan/WwanIPTypeIPv6, WwanIPTypeDefault, WwanIPTypeIPv4, wwan/WWAN_IP_TYPE, WwanIPTypeIPv6, WwanIPTypeIpv4v6, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanIPTypeDefault, wwan/WwanIPTypeIpv4v6, netvista.wwan_ip_type, wwan/WwanIPTypeIPv4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,7 +100,11 @@ IPv4 with IPv6
 
 <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+
+
 
  
 

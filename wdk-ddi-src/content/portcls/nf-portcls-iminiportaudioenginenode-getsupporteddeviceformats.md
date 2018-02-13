@@ -7,8 +7,8 @@ old-location: audio\iminiportaudioenginenode_getsupporteddeviceformats.htm
 old-project: audio
 ms.assetid: 2B27E92C-8781-4499-A1E0-7C1BBFFAA2DF
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode::GetSupportedDeviceFormats, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, IMiniportAudioEngineNode, GetSupportedDeviceFormats, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface
+ms.date: 2/8/2018
+ms.keywords: IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats, IMiniportAudioEngineNode::GetSupportedDeviceFormats, GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, GetSupportedDeviceFormats method [Audio Devices], GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,21 +87,27 @@ The buffer size for the audio data format information.
 ## -returns
 
 
+
 <b>GetSupportedDeviceFormats</b> returns S_OK, if the call was successful. Otherwise, the method 
 
 returns an appropriate error code.
 
 
 
-## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
+## -see-also
 
 <a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
- 
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioEngineNode::GetSupportedDeviceFormats method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioEngineNode::GetSupportedDeviceFormats method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 529ef33a-adad-4242-96a8-01cdd273cc35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces3::GetNextTagged, debugger.getnexttagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, GetNextTagged method [Windows Debugging], GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetNextTagged, GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces3::GetNextTagged
+ms.keywords: GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, debugger.getnexttagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, GetNextTagged, dbgeng/IDebugDataSpaces3::GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces3, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,7 +88,9 @@ Receives the size of the data identified by the GUID <i>Tag</i>.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,19 +118,29 @@ There are no more blocks of tagged data available in this enumeration.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
+
+
 
  
 

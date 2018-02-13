@@ -80,8 +80,9 @@ __checkReturn HRESULT APIENTRY SetTexture(
 ### -param UINT
 
 
-
 ### -param HANDLE
+
+
 
 
 
@@ -101,13 +102,17 @@ __checkReturn HRESULT APIENTRY SetTexture(
 ## -returns
 
 
+
 <i>SetTexture</i> returns S_OK or an appropriate error result if the texture is not successfully inserted.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

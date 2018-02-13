@@ -40,7 +40,7 @@ apiname:
 -	ProtocolCmRegisterSap
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_CM_REG_SAP callback
@@ -104,7 +104,9 @@ On return, specifies the handle to a call manager-supplied context area in which
 ## -returns
 
 
+
 <i>ProtocolCmRegisterSap</i> returns the status of its operation(s) as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -175,11 +177,14 @@ Indicates that the call manager encountered an error in attempting to register t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>ProtocolCmMakeCall</i> communicates with network control devices or other media-specific agents, as
@@ -210,6 +215,7 @@ If
     state area, set the address of this state area in 
     <i>CallMgrSapContext</i> before returning control to NDIS. To do this, dereference 
     <i>CallMgrSapContext</i> and store a pointer to the data area as the value of the handle. For example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -219,16 +225,20 @@ If
 <pre>*CallMgrSapContext = SomeBuffer ;</pre>
 </td>
 </tr>
-</table></span></div>If the given SAP that is already registered by another connection-oriented client, the call manager
+</table></span></div>
+If the given SAP that is already registered by another connection-oriented client, the call manager
     must fail the request and return NDIS_STATUS_INVALID_DATA.
 
 After a call manager has registered a SAP on behalf of a connection-oriented client, it notifies that
     client of an incoming call offer directed to that SAP by calling 
     <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
     NdisCmDispatchIncomingCall</a>.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCmRegisterSap</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolCmRegisterSap</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmRegisterSap</i> function that is named "MyCmRegisterSap", use the <b>PROTOCOL_CM_REG_SAP</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -238,7 +248,9 @@ For example, to define a <i>ProtocolCmRegisterSap</i> function that is named "My
 <pre>PROTOCOL_CM_REG_SAP MyCmRegisterSap;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -256,23 +268,35 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CM_REG_SAP</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_REG_SAP</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CM_REG_SAP</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_REG_SAP</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d9be3108-27fe-4899-bf23-0f51d9309888
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortWritePortBufferUshort, VideoPortWritePortBufferUshort function [Display Devices], display.videoportwriteportbufferushort, VideoPortWritePortBufferUshort, VideoPort_Functions_cf88884e-2891-4e82-b7e0-afaa605a2d65.xml
+ms.keywords: VideoPortWritePortBufferUshort function [Display Devices], VideoPortWritePortBufferUshort, VideoPort_Functions_cf88884e-2891-4e82-b7e0-afaa605a2d65.xml, display.videoportwriteportbufferushort, video/VideoPortWritePortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the number of USHORT values to be transferred to the adapter.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWritePortBufferUshort</b>.
@@ -101,9 +104,12 @@ Callers of <b>VideoPortWritePortBufferUshort</b> can be running at any IRQL, pro
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

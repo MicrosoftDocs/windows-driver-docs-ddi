@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 994ba853-88b6-4456-8fdb-3199979df05e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], kernel.auxklibgetimageexportdirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, AuxKlibGetImageExportDirectory, aux_klib/AuxKlibGetImageExportDirectory
+ms.keywords: AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], AuxKlibGetImageExportDirectory, kernel.auxklibgetimageexportdirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, aux_klib/AuxKlibGetImageExportDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,20 +76,26 @@ A pointer to the base of an image, which is obtained by calling <a href="..\aux_
 ## -returns
 
 
+
 <b>AuxKlibGetImageExportDirectory</b> returns a pointer to an <b>IMAGE_EXPORT_DIRECTORY</b> structure. This structure is defined in Ntimage.h, which is included in the Microsoft Windows Driver Kit (WDK).
+
 
 
 
 ## -remarks
 
 
+
 Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a> before calling <b>AuxKlibGetImageExportDirectory</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\aux_klib\nf-aux_klib-auxklibquerymoduleinformation.md">AuxKlibQueryModuleInformation</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f57abfc5-d6ae-474b-bea9-bfc53dff7f57
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetAdder method, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, GetAdder method [Windows Debugging], dbgeng/IDebugBreakpoint2::GetAdder, IDebugBreakpoint2::GetAdder, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::GetAdder, IDebugBreakpoint interface [Windows Debugging], GetAdder method, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, GetAdder, IDebugBreakpoint::GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint interface, debugger.getadder
+ms.keywords: GetAdder method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetAdder, dbgeng/IDebugBreakpoint2::GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetAdder method, IDebugBreakpoint2, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, GetAdder, debugger.getadder, IDebugBreakpoint::GetAdder, IDebugBreakpoint2::GetAdder, IDebugBreakpoint, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,6 +76,7 @@ An <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a> interface poin
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,17 +93,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 The client that owns the breakpoint is the client that created the breakpoint by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a> method.  A breakpoint might not have an owner. If a breakpoint does not have an owner, <i>Adder</i> is set to <b>NULL</b>.
 
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

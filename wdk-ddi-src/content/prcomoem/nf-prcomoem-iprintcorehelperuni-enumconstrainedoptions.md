@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 362d858a-5087-4cd2-8778-e6564297bc8f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintcorehelperuni_enumconstrainedoptions, IPrintCoreHelperUni, EnumConstrainedOptions method [Print Devices], prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, IPrintCoreHelperUni interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelperUni::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelperUni interface, print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml, EnumConstrainedOptions
+ms.keywords: print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml, EnumConstrainedOptions method [Print Devices], IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, IPrintCoreHelperUni interface [Print Devices], EnumConstrainedOptions method, EnumConstrainedOptions, IPrintCoreHelperUni, EnumConstrainedOptions method [Print Devices], print.iprintcorehelperuni_enumconstrainedoptions, IPrintCoreHelperUni::EnumConstrainedOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to an array of ANSI character strings. When <code>IPrintCoreHelperUni:
 ## -returns
 
 
+
 <code>IPrintCoreHelperUni::EnumConstrainedOptions</code> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,13 +168,17 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552934">IPrintCoreHelperUni::EnumOptions</a>
+
+
 
  
 

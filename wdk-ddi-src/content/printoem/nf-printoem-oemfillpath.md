@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMFillPath, print.oemfillpath, OEMEscape function [Print Devices], printoem/OEMEscape, OEMEscape, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml
+ms.keywords: printoem/OEMEscape, OEMFillPath, OEMEscape, print.oemfillpath, OEMEscape function [Print Devices], print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,27 +77,20 @@ BOOL APIENTRY OEMEscape(
 ### -param pso
 
 
-
 ### -param ppo
-
 
 
 ### -param pco
 
 
-
 ### -param pbo
-
 
 
 ### -param pptlBrushOrg
 
 
-
 ### -param mix
 
 
-
 ### -param flOptions
-
 

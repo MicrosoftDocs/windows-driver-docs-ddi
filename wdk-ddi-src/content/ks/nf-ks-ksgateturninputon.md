@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68c914bf-a293-42b0-85aa-c9e8f2ba18ac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGateTurnInputOn, stream.ksgateturninputon, avfunc_9aaa9c85-b3a1-49ae-8135-6402f7bc1755.xml, KsGateTurnInputOn, KsGateTurnInputOn function [Streaming Media Devices]
+ms.keywords: stream.ksgateturninputon, KsGateTurnInputOn, ks/KsGateTurnInputOn, KsGateTurnInputOn function [Streaming Media Devices], avfunc_9aaa9c85-b3a1-49ae-8135-6402f7bc1755.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representin
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 It is the minidriver's responsibility to verify that the gate that the minidriver passes to <b>KsGateTurnInputOn</b> has at least one OFF input. If you call this function with an AND gate that has no inputs currently in the OFF state, the call sets the AND gate into an invalid state. If you call this function with an OR gate that has no inputs currently in the OFF state, the result is equivalent to adding another input in the ON state to <i>Gate</i>.
@@ -88,27 +91,48 @@ Furthermore, if turning an input on would cause <i>Gate</i> to transition from t
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
-
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
-
-<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
-
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
 
 <a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
-<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
+
+
 
 <a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
 
-<a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
+
+
+<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
+
 
  
 

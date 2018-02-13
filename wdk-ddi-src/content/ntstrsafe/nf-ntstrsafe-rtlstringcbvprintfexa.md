@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbvprintfex, STRSAFE_FILL_ON_FAILURE, RtlStringCbVPrintfEx, STRSAFE_FILL_BEHIND_NULL, STRSAFE_IGNORE_NULLS, RtlStringCbVPrintfExA, RtlStringCbVPrintfExW, ntstrsafe/RtlStringCbVPrintfExA, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml, ntstrsafe/RtlStringCbVPrintfExW, STRSAFE_NO_TRUNCATION, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture]
+ms.keywords: safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml, RtlStringCbVPrintfExA, RtlStringCbVPrintfEx, kernel.rtlstringcbvprintfex, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_IGNORE_NULLS, ntstrsafe/RtlStringCbVPrintfExW, STRSAFE_NULL_ON_FAILURE, RtlStringCbVPrintfExW, ntstrsafe/RtlStringCbVPrintfExA, STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbVPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE"
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbVPrintfExA function
@@ -105,6 +105,7 @@ If the caller supplies a non-<b>NULL</b> address pointer, the function loads the
 ### -param dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -160,7 +161,8 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pszFormat [in, optional]
@@ -176,7 +178,9 @@ A <b>va_list</b>-typed argument list. Arguments contained in the argument list w
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -225,14 +229,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>vsprintf</b>
@@ -250,13 +258,15 @@ _<b>vsnprintf</b>
 _<b>vsnwprintf</b>
 
 </li>
-</ul>All of these functions accept a format string, along with a set of arguments in a <b>va_list</b>-typed argument list, and return a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> to ensure that they do not write past the end of the buffer.
+</ul>
+All of these functions accept a format string, along with a set of arguments in a <b>va_list</b>-typed argument list, and return a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> to ensure that they do not write past the end of the buffer.
 
 <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
 Use <b>RtlStringCbVPrintfExW</b> to handle Unicode strings and <b>RtlStringCbVPrintfExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -291,7 +301,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pszDest</i> and <i>pszFormat</i> point to overlapping strings, or if any argument strings overlap, behavior of the function is undefined.
 
@@ -301,13 +312,20 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
+
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
+
+
 
  
 

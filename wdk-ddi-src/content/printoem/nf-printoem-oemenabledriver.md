@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.oemenabledriver, OEMEnableDriver function [Print Devices], printoem/OEMEnableDriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, OEMEnableDriver
+ms.keywords: OEMEnableDriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, OEMEnableDriver function [Print Devices], print.oemenabledriver, printoem/OEMEnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,11 +72,8 @@ DWORD APIENTRY OEMEnableDriver(
 ### -param dwOemIntfVersion
 
 
-
 ### -param cbSize
 
 
-
 ### -param pded [out]
-
 

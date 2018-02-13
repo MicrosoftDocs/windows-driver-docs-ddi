@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFOW structure [Kernel-Mode Driver Architecture], kernel.wmireginfo, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, WMIREGINFO, PWMIREGINFOW, WMIREGINFOW, *PWMIREGINFOW, wmistr/WMIREGINFOW
+ms.keywords: kernel.wmireginfo, WMIREGINFO, WMIREGINFOW structure [Kernel-Mode Driver Architecture], wmistr/PWMIREGINFOW, WMIREGINFOW, *PWMIREGINFOW, wmistr/WMIREGINFOW, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], PWMIREGINFOW, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,6 +106,7 @@ Is an array of <b>GuidCount </b><a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMI
 ## -remarks
 
 
+
 In response to a registration request (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath </b>set to WMIREGISTER), a driver builds at least one <b>WMIREGINFO</b> structure and writes the <b>WMIREGINFO</b> structure to the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. The <b>WMIREGINFO</b> structure contains an array of <b>WMIREGGUID</b> structures, one for each data block or event block exposed by the driver.
 
 If the driver handles WMI requests on behalf of another driver, it builds another <b>WMIREGINFO</b> containing an array of <b>WMIREGGUID</b> structures for each block exposed by the other driver, sets the <b>NextWmiRegInfo</b> member of the first <b>WMIREGINFO</b> to an offset in bytes from the beginning of the first <b>WMIREGINFO</b> to the beginning of the next <b>WMIREGINFO</b> in the buffer, and writes both structures to the buffer. The driver indicates the total size of both <b>WMIREGINFO</b> structures and associated data when calls <b>IoCompleteRequest</b> to complete the IRP.
@@ -114,15 +115,24 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 
 
+
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
+
+
 
  
 

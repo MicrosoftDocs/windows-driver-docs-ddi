@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a172f53c-9993-4d52-ae3f-35a8ab5745f6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, HBA_GetAdapterAttributes routine [Storage Devices], HBA_GetAdapterAttributes, storage.hba_getadapterattributes, hbaapi/HBA_GetAdapterAttributes
+ms.keywords: storage.hba_getadapterattributes, fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, HBA_GetAdapterAttributes, HBA_GetAdapterAttributes routine [Storage Devices], hbaapi/HBA_GetAdapterAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
@@ -92,15 +93,21 @@ Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_adapte
 ## -returns
 
 
+
 The <b>HBA_GetAdapterAttributes</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
+
 
 
 
 ## -see-also
 
+<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+
 
  
 

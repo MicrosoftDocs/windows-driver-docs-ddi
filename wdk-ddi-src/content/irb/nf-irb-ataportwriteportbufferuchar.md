@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43c12b35-380c-46bc-9ea0-9745f047c81a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortBufferUchar, storage.ataportwriteportbufferuchar, AtaPortWritePortBufferUchar routine [Storage Devices], irb/AtaPortWritePortBufferUchar, atartns_a1c82429-9d44-4a9b-8285-e632172a6be4.xml
+ms.keywords: AtaPortWritePortBufferUchar routine [Storage Devices], atartns_a1c82429-9d44-4a9b-8285-e632172a6be4.xml, AtaPortWritePortBufferUchar, storage.ataportwriteportbufferuchar, irb/AtaPortWritePortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,17 +90,25 @@ Specifies the number of UCHAR values to write to the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
-
 <a href="..\irb\nf-irb-ataportwriteportbufferulong.md">AtaPortWritePortBufferUlong</a>
 
+
+
+<a href="..\irb\nf-irb-ataportwriteportbufferushort.md">AtaPortWritePortBufferUshort</a>
+
+
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
 
  
 

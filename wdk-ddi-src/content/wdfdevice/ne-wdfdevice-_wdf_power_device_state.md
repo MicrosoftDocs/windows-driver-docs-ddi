@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD0, WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD3, wdfdevice/WDF_POWER_DEVICE_STATE, wdf.wdf_power_device_state, _WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, WdfPowerDeviceInvalid, WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD1, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3, PWDF_POWER_DEVICE_STATE enumeration pointer, wdfdevice/WdfPowerDeviceMaximum, WdfPowerDeviceD3Final, WdfPowerDeviceD1, WDF_POWER_DEVICE_STATE enumeration
+ms.keywords: wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceMaximum, WdfPowerDeviceD3, wdfdevice/WdfPowerDevicePrepareForHibernation, WDF_POWER_DEVICE_STATE enumeration, wdfdevice/WdfPowerDeviceD2, WdfPowerDeviceD3Final, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, WdfPowerDevicePrepareForHibernation, PWDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD0, WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD0, WdfPowerDeviceInvalid, PWDF_POWER_DEVICE_STATE enumeration pointer, wdfdevice/WdfPowerDeviceD3Final, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, wdfdevice/WDF_POWER_DEVICE_STATE, wdfdevice/PWDF_POWER_DEVICE_STATE, wdf.wdf_power_device_state, WdfPowerDeviceD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
+req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -121,7 +121,11 @@ The maximum enumerator value for this enumeration.
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
 
+
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+
+
 
  
 

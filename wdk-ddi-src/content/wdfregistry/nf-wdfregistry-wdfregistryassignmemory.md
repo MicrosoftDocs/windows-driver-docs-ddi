@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 692a9cdf-3cb7-41c1-96a8-28daed13aa60
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfregistryassignmemory, DFRegKeyObjectRef_263749e2-fb1e-4153-9387-32cc256d7fe4.xml, PFN_WDFREGISTRYASSIGNMEMORY, WdfRegistryAssignMemory, WdfRegistryAssignMemory method, wdf.wdfregistryassignmemory, wdfregistry/WdfRegistryAssignMemory
+ms.keywords: DFRegKeyObjectRef_263749e2-fb1e-4153-9387-32cc256d7fe4.xml, kmdf.wdfregistryassignmemory, wdfregistry/WdfRegistryAssignMemory, PFN_WDFREGISTRYASSIGNMEMORY, WdfRegistryAssignMemory, WdfRegistryAssignMemory method, wdf.wdfregistryassignmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryAssignMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to a driver-supplied <a href="..\wudfddi_types\ns-wudfddi_types-_wdfme
 ## -returns
 
 
+
 <b>WdfRegistryAssignMemory</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,7 +158,8 @@ The contents of the <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -166,7 +169,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If the value name that the <i>ValueName</i> parameter specifies already exists, <b>WdfRegistryAssignMemory</b> updates the value's data.
@@ -174,26 +179,88 @@ If the value name that the <i>ValueName</i> parameter specifies already exists, 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example creates a framework memory object, loads the object's buffer with fake data, and assigns the buffer's contents to a registry value.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PUCHAR pBuffer;
+WDFMEMORY memory;
+NTSTATUS status;
+UCHAR i;
+DECLARE_UNICODE_STRING_SIZE(valueName, L"MyValueName");
+
+status = WdfMemoryCreate(
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         NonPagedPool,
+                         0,
+                         MEMORY_LENGTH,
+                         &amp;memory,
+                         (PVOID*)&amp;pBuffer
+                         );
+if (NT_SUCCESS(status)) {
+
+    // Fill the buffer with fake data.
+    for (i = 1; i &lt;= MEMORY_LENGTH; i++) {
+        pBuffer[i-1] = i;
+    }
+
+    status = WdfRegistryAssignMemory(
+                                     Key,
+                                     &amp;valueName,
+                                     REG_BINARY,
+                                     memory,
+                                     NULL
+                                     );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+
+
 
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
+
+
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+
+
 
  
 

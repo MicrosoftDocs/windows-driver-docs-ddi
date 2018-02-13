@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f3468fe5-31b4-4bf6-b0e3-ee27ecfd8e06
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::SetExecutionStatus, IDebugControl3 interface [Windows Debugging], SetExecutionStatus method, SetExecutionStatus method [Windows Debugging], IDebugControl3, IDebugControl interface [Windows Debugging], SetExecutionStatus method, IDebugControl2 interface [Windows Debugging], SetExecutionStatus method, dbgeng/IDebugControl2::SetExecutionStatus, SetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, SetExecutionStatus method [Windows Debugging], IDebugControl interface, IDebugControl::SetExecutionStatus, SetExecutionStatus method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::SetExecutionStatus, IDebugControl2::SetExecutionStatus, debugger.setexecutionstatus, dbgeng/IDebugControl3::SetExecutionStatus, SetExecutionStatus
+ms.keywords: IDebugControl2, SetExecutionStatus method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetExecutionStatus, SetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], SetExecutionStatus method, debugger.setexecutionstatus, IDebugControl3, IDebugControl::SetExecutionStatus, IDebugControl, SetExecutionStatus method [Windows Debugging], IDebugControl3::SetExecutionStatus, IDebugControl2::SetExecutionStatus, dbgeng/IDebugControl::SetExecutionStatus, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, SetExecutionStatus, IDebugControl3 interface [Windows Debugging], SetExecutionStatus method, IDebugControl2 interface [Windows Debugging], SetExecutionStatus method, SetExecutionStatus method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::SetExecutionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Specifies the mode for the engine to use when executing.  Possible values are th
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,14 +129,18 @@ No target can generate any more events.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
@@ -142,11 +148,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546675">GetExecutionStatus</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546675">GetExecutionStatus</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

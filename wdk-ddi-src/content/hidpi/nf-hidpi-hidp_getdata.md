@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_getdata, hidpi/HidP_GetData, HidP_GetData, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, HidP_GetData routine [Human Input Devices]
+ms.keywords: HidP_GetData routine [Human Input Devices], hid.hidp_getdata, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hidpi/HidP_GetData, HidP_GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,9 @@ Specifies the size, in bytes, of the HID report located at <i>Report</i>, which 
 ## -returns
 
 
+
 <b>HidP_GetData</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -178,11 +180,14 @@ The <i>DataList</i> array is too small to describe all the buttons, currently se
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 User-mode applications and kernel-mode drivers call <a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a> to determine the maximum possible number of HIDP_DATA structures that <b>HidP_GetData</b> can return.
@@ -193,15 +198,24 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
 
 <a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
 
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
+
+
 
 <a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
 
  
 

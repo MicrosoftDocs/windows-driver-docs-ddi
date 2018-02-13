@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient_getoutputlineprefix, GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], dbgeng/IDebugClient::GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, IDebugClient, IDebugClient::GetOutputLinePrefix
+ms.keywords: GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix, GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, IDebugClient, GetOutputLinePrefix method [Windows Debugging], IDebugClient::GetOutputLinePrefix, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ A pointer to the size of the buffer.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Some of the engine commands produce
@@ -120,9 +125,12 @@ Some of the engine commands produce
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
  
 

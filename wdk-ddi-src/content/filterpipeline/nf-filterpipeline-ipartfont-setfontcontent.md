@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPartFont::SetFontContent, SetFontContent method [Print Devices], IPartFont interface, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, IPartFont interface [Print Devices], SetFontContent method, print.ipartfont_setfontcontent, SetFontContent method [Print Devices], filterpipeline/IPartFont::SetFontContent, SetFontContent, IPartFont
+ms.keywords: IPartFont::SetFontContent, print.ipartfont_setfontcontent, SetFontContent method [Print Devices], filterpipeline/IPartFont::SetFontContent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, SetFontContent, SetFontContent method [Print Devices], IPartFont interface, IPartFont interface [Print Devices], SetFontContent method, IPartFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,6 +73,7 @@ HRESULT SetFontContent(
 
 
 
+
 #### - contentType [in]
 
 The type of the content for the font to be set.
@@ -81,6 +82,8 @@ The type of the content for the font to be set.
 ## -returns
 
 
+
 <b>SetFontContent</b> returns an <b>HRESULT</b> value.
+
 
 

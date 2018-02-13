@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f74fe6cb-f38c-49ab-957f-9b3d163059c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgcdmaoutsubmit_2, RILMSGCDMAOUTSUBMIT, rilapitypes/RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RILMSGCDMAOUTSUBMIT, netvista.rilmsgcdmaoutsubmit_2, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], *LPRILMSGCDMAOUTSUBMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,91 +93,68 @@ typedef struct _RILMSGCDMAOUTSUBMIT {
 ### -field raDestAddress
 
 
-
 ### -field rsaDestSubaddr
-
 
 
 ### -field bDigit
 
 
-
 ### -field stValidityPeriodAbs
-
 
 
 ### -field stValidityPeriodRel
 
 
-
 ### -field stDeferredDelTimeAbs
-
 
 
 ### -field stDeferredDelTimeRel
 
 
-
 ### -field bDeliveryAckRequest
-
 
 
 ### -field bUserAckRequest
 
 
-
 ### -field bBearerReplyRequest
-
 
 
 ### -field dwReplySeqNumber
 
 
-
 ### -field dwMsgDisplayMode
-
 
 
 ### -field raCallBackNumber
 
 
-
 ### -field dwMsgPriority
-
 
 
 ### -field dwMsgPrivacy
 
 
-
 ### -field dwTeleservice
-
 
 
 ### -field dwMsgID
 
 
-
 ### -field dwMsgLang
-
 
 
 ### -field dwMsgEncoding
 
 
-
 ### -field cbHdrLength
-
 
 
 ### -field cchMsgLength
 
 
-
 ### -field rgbHdr
 
 
-
 ### -field rgbMsg
-
 

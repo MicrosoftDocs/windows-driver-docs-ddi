@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 71949653-08c7-4f22-951d-6e1595b10700
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LERROR, IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, image.wias_lerror, wiamdef/WIAS_LERROR, WIAS_LERROR macro [Imaging Devices]
+ms.keywords: wiamdef/WIAS_LERROR, WIAS_LERROR, image.wias_lerror, IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR macro [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_LERROR
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,8 @@ TBD
 
 
 
+
+
 #### - pIWiaLog
 
 Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
@@ -107,7 +109,9 @@ Specifies a variable argument list, which starts with an ANSI format string that
 ## -remarks
 
 
+
 The following is an example of how the macro can be used:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -118,19 +122,29 @@ The following is an example of how the macro can be used:
 ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));</pre>
 </td>
 </tr>
-</table></span></div>The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic log file. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a> macro be used instead. 
+</table></span></div>
+The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic log file. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a> macro be used instead. 
+
 
 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+
+
 
  
 

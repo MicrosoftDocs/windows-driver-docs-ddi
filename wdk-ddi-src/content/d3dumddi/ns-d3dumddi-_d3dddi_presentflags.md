@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adab4c0f-b879-409c-97a3-f161a50514f5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDI_PRESENTFLAGS, _D3DDDI_PRESENTFLAGS, D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, D3DDDI_PRESENTFLAGS structure [Display Devices], D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags
+ms.keywords: D3DDDI_PRESENTFLAGS structure [Display Devices], d3dumddi/D3DDDI_PRESENTFLAGS, _D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags, D3DDDI_PRESENTFLAGS, D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,9 +118,13 @@ A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
 
  
 

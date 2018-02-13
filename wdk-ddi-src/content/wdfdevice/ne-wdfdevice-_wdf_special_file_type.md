@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileDump, wdfdevice/PWDF_SPECIAL_FILE_TYPE, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, WdfSpecialFileBoot, wdfdevice/WdfSpecialFileUndefined, wdfdevice/WdfSpecialFileHibernation, WdfSpecialFileMax, wdfdevice/WdfSpecialFilePaging, WdfSpecialFileHibernation, _WDF_SPECIAL_FILE_TYPE, WdfSpecialFileUndefined, WdfSpecialFilePaging, kmdf.wdf_special_file_type, WDF_SPECIAL_FILE_TYPE, wdfdevice/WDF_SPECIAL_FILE_TYPE, wdf.wdf_special_file_type, wdfdevice/WdfSpecialFileMax, PWDF_SPECIAL_FILE_TYPE enumeration pointer, WdfSpecialFileDump, wdfdevice/WdfSpecialFileBoot, WDF_SPECIAL_FILE_TYPE enumeration
+ms.keywords: wdfdevice/WdfSpecialFilePaging, WdfSpecialFileBoot, WdfSpecialFilePaging, WDF_SPECIAL_FILE_TYPE enumeration, WdfSpecialFileHibernation, _WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE, WdfSpecialFileMax, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, WdfSpecialFileDump, wdfdevice/WDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileMax, wdf.wdf_special_file_type, wdfdevice/WdfSpecialFileDump, WdfSpecialFileUndefined, wdfdevice/WdfSpecialFileBoot, PWDF_SPECIAL_FILE_TYPE enumeration pointer, kmdf.wdf_special_file_type, wdfdevice/WdfSpecialFileHibernation, wdfdevice/PWDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -108,13 +108,17 @@ For internal use only.
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetspecialfilesupport.md">WdfDeviceSetSpecialFileSupport</a>
+
+
 
  
 

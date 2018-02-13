@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0622d3db-8d28-4c15-a3d8-1092487b8096
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDeleteNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisDeleteNPagedLookasideList, netvista.ndisdeletenpagedlookasidelist, NdisDeleteNPagedLookasideList, ndis_lookaside_ref_37df3d7d-0aa7-4d8e-b6a5-38ab85ca929e.xml
+ms.keywords: NdisDeleteNPagedLookasideList, ndis_lookaside_ref_37df3d7d-0aa7-4d8e-b6a5-38ab85ca929e.xml, ndis/NdisDeleteNPagedLookasideList, netvista.ndisdeletenpagedlookasidelist, NdisDeleteNPagedLookasideList macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisDeleteNPagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisDeleteNPagedLookasideList macro
@@ -75,12 +75,15 @@ TBD
 
 
 
+
+
 #### - Lookaside [in]
 
 A pointer to the head of the lookaside list to be deleted.
 
 
 ## -remarks
+
 
 
 After freeing any remaining entries in the given lookaside list, 
@@ -95,16 +98,23 @@ However,
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
    NdisFreeToNPagedLookasideList</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
    NdisInitializeNPagedLookasideList</a>
+
+
 
  
 

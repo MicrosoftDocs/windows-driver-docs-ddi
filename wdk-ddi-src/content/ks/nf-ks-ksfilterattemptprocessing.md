@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 22c6bd15-98b7-4905-8551-c8202cc6840b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilterattemptprocessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, KsFilterAttemptProcessing function [Streaming Media Devices], KsFilterAttemptProcessing, ks/KsFilterAttemptProcessing
+ms.keywords: ks/KsFilterAttemptProcessing, KsFilterAttemptProcessing function [Streaming Media Devices], stream.ksfilterattemptprocessing, KsFilterAttemptProcessing, avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ This parameter contains an indication as to whether the processing dispatch shou
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the minidriver calls <b>KsFilterAttemptProcessing</b> when all of the conditions required to process data are met, a processing dispatch occurs. For more information about the process callback, see <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>. In order for the attempt to result in an actual dispatch, the filter's process control gate must be in an open state. Unlike pin-centric processing, filter-centric processing has many conditions that affect the process control gate. For more information about these requirements, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a> and <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a>.
@@ -97,15 +100,24 @@ Note that this is only an attempt at processing; calling this function does not 
 
 
 
-## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+## -see-also
 
 <a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
 
+
+
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
+
+
 <a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+
+
 
  
 

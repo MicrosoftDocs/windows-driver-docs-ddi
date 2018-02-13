@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c785e23-5b80-4518-8a90-3f46e8ad9b1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_ENG_EVENT, *PEVENT, ENG_EVENT structure [Display Devices], PENG_EVENT structure pointer [Display Devices], Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, ntddvdeo/ENG_EVENT, display.eng_event, ntddvdeo/PENG_EVENT, ENG_EVENT, *PENG_EVENT, PENG_EVENT"
+ms.keywords: PENG_EVENT structure pointer [Display Devices], Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, ENG_EVENT structure [Display Devices], ntddvdeo/ENG_EVENT, display.eng_event, ENG_EVENT, ntddvdeo/PENG_EVENT, _ENG_EVENT, *PENG_EVENT, PENG_EVENT, *PEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

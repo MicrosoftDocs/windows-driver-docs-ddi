@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee94d883-b4c4-4cd5-9b61-2e51810f8fc8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortMapBankedMemory, display.videoportmapbankedmemory, video/VideoPortMapBankedMemory, VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, VideoPortMapBankedMemory function [Display Devices]
+ms.keywords: display.videoportmapbankedmemory, VideoPortMapBankedMemory function [Display Devices], VideoPortMapBankedMemory, video/VideoPortMapBankedMemory, VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,6 +96,7 @@ Pointer to a variable specifying the total number of bytes of device memory to b
 ### -param InIoSpace
 
 Indicates the location of the range. This parameter can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -151,7 +152,8 @@ Indicates that the address range specified should be mapped into user mode rathe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param VirtualAddress
@@ -182,11 +184,14 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 ## -returns
 
 
+
 <b>VideoPortMapBankedMemory</b> returns NO_ERROR if the given logical range was successfully mapped to a user-space virtual range. Otherwise, it can return ERROR_INVALID_PARAMETER.
 
 
 
+
 ## -remarks
+
 
 
 <b>VideoPortMapBankedMemory</b> runs in kernel mode within the same context as the user-mode thread that initiated the call.
@@ -195,21 +200,36 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 
 
 
+
 ## -see-also
-
-<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+
+
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
 
-<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
+
+
 
  
 

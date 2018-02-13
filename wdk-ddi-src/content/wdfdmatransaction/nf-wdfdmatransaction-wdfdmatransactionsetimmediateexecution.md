@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BC260058-1E33-43BA-B75E-79540E36A08D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONSETIMMEDIATEEXECUTION, wdf.wdfdmatransactionsetimmediateexecution, kmdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, WdfDmaTransactionSetImmediateExecution
+ms.keywords: wdfdmatransaction/WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution, PFN_WDFDMATRANSACTIONSETIMMEDIATEEXECUTION, kmdf.wdfdmatransactionsetimmediateexecution, WdfDmaTransactionSetImmediateExecution method, wdf.wdfdmatransactionsetimmediateexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionSetImmediateExecution
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -86,11 +86,14 @@ A Boolean value which, if TRUE, indicates that the transaction should execute im
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Before calling <b>WdfDmaTransactionSetImmediateExecution</b>, the driver must initialize the transaction.
@@ -106,13 +109,20 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
 
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
 
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
+
+
 
  
 

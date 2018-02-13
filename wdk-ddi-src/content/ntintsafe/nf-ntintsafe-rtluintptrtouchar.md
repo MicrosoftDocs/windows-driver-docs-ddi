@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5E4225F-4C66-44A8-9445-7D7DBAFA1DA4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrtouchar, ntintsafe/RtlUIntPtrToUChar, RtlUIntPtrToUChar, RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtluintptrtouchar, RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToUChar, RtlUIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,11 +81,14 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlSizeTToUChar
 </li>
 </ul>
+
 

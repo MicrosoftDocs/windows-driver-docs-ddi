@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_DEVICEINFO, display.dxgk_deviceinfo, DXGK_DEVICEINFO structure [Display Devices], DXGK_DEVICEINFO, DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, d3dkmddi/DXGK_DEVICEINFO"
+ms.keywords: DXGK_DEVICEINFO, d3dkmddi/DXGK_DEVICEINFO, DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, DXGK_DEVICEINFO structure [Display Devices], display.dxgk_deviceinfo, _DXGK_DEVICEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,7 +113,9 @@ The patch-location list can grow and shrink after the device is created; however
 ## -remarks
 
 
+
 The display miniport driver specifies values for the <b>DmaBufferSize</b> and <b>AllocationListSize</b> members to guarantee the following:
+
 <ul>
 <li>
 The DirectX graphics subsystem can use only one DMA buffer to display (by using the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function) at least one <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure for all scenarios.
@@ -127,29 +129,47 @@ The sizes of DMA and allocation-list buffers are large enough to hold at least o
 The sizes of DMA and allocation-list buffers are large enough to avoid setup and DMA overhead. 
 
 </li>
-</ul>The display miniport driver can specify only aperture segments in the <b>DmaBufferSegmentSet</b> member; if the driver specifies a memory segment, a device-creation failure occurs. 
+</ul>
+The display miniport driver can specify only aperture segments in the <b>DmaBufferSegmentSet</b> member; if the driver specifies a memory segment, a device-creation failure occurs. 
 
 If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager allocates contiguous paged-locked memory, which is mapped write-combined memory, for the DMA buffers. Therefore, the GPU must access DMA buffers by using PCI cycles on systems where AGP transfers that occur outside the AGP aperture are not permitted.
 
 
 
+
 ## -see-also
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfoflags.md">DXGK_DEVICEINFOFLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfoflags.md">DXGK_DEVICEINFOFLAGS</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
 
  
 

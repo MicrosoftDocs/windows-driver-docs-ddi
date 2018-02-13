@@ -75,7 +75,9 @@ A structure of type <i>PDXGKARG_CREATEPERIODICFRAMENOTIFICATION</i> containing t
 ## -returns
 
 
+
 DXGKDDI_CREATEPERIODICFRAMENOTIFICATION returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,6 +127,8 @@ When a periodic frame notification has not been successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

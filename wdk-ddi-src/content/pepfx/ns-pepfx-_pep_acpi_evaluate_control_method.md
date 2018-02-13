@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FFCC5947-1DD5-4AD5-A414-94BDC013D1A7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD"
+ms.keywords: PPEP_ACPI_EVALUATE_CONTROL_METHOD, *PPEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, _PEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], kernel.pep_acpi_evaluate_control_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,16 +80,6 @@ typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
 
 
 
-### -field MethodName
-
- 
-
-
-### -field MethodNameString
-
- 
-
-
 ### -field DeviceHandle
 
 [in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
@@ -98,6 +88,7 @@ typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
 ### -field RequestFlags
 
 [in] A set of flags. This member contains one of the following values.
+
 <table>
 <tr>
 <th>Flag name</th>
@@ -119,7 +110,18 @@ typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
 <td>0x2</td>
 <td>The <b>MethodNameString</b> member contains a fully qualified control method name.</td>
 </tr>
-</table> 
+</table>
+ 
+
+
+### -field MethodName
+
+ 
+
+
+### -field MethodNameString
+
+ 
 
 
 ### -field MethodStatus
@@ -169,9 +171,11 @@ If the PEP is to evaluate the method asychronously, set this member to STATUS_PE
 A union that contains either the four-character path-relative control method name (if <b>RequestFlags</b> = PEP_ACPI_ECM_FLAG_RELATIVE_NAME) or the fully qualified control method name (if <b>RequestFlags</b> = PEP_ACPI_ECM_FLAG_FULLY_QUALIFIED_NAME).
 
 
+
 #### MethodNameUlong
 
 [in] A ULONG value that contains the four-character, path-relative name of the ACPI control method.
+
 
 
 #### MethodNameString
@@ -182,19 +186,29 @@ A union that contains either the four-character path-relative control method nam
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a> notification. The <b>MethodStatus</b> member contains an output value that the PEP writes to the structure in response to this notification. The <b>OutputArgumentSize</b> member contains an input value supplied by PoFx when the notification is sent. The PEP may overwrite this input value with an output value if the input value is less than the required output buffer size. All other members of this structure contain input values that are supplied by PoFx when the notification is sent.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a>
+
+
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
 
  
 

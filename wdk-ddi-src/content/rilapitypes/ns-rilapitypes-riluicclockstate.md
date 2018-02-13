@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc27f7b8-8de0-4eae-a22b-0e5c76378b1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluicclockstate, RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE, rilapitypes/RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], RILUICCLOCKSTATE, netvista.riluicclockstate, rilapitypes/RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCLOCKSTATE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE"
+req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
 req.product: Windows 10 or later.
 ---
 
@@ -106,6 +106,8 @@ The number of unblock attempts that remain before the lock is permanently blocke
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

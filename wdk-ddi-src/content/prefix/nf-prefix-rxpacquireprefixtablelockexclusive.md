@@ -7,8 +7,8 @@ old-location: ifsk\rxpacquireprefixtablelockexclusive.htm
 old-project: ifsk
 ms.assetid: 62f0bfd3-b8d9-4b29-a811-91a6c66dc24f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers], RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, ifsk.rxpacquireprefixtablelockexclusive, prefix/RxpAcquirePrefixTableLockExclusive
+ms.date: 2/7/2018
+ms.keywords: prefix/RxpAcquirePrefixTableLockExclusive, RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml, RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers], ifsk.rxpacquireprefixtablelockexclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxpAcquirePrefixTableLockExclusive
 product: Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
+req.typenames: "*PSHIMOPTS, SHIMOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -95,14 +95,18 @@ TBD
 
 
 
+
 ## -returns
+
 
 
 <b>RxpAcquirePrefixTableLockExclusive</b> returns <b>TRUE</b> if the resource is acquired. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and exclusive access cannot be granted immediately.
 
 
 
+
 ## -remarks
+
 
 
 The <b>RxAcquirePrefixTableLockExclusive</b> routine is implemented as a macro on Windows Server 2003. On Windows XP and Windows 2000, <b>RxAcquirePrefixTableLockExclusive </b>is implemented as a routine. 
@@ -113,25 +117,40 @@ Normal kernel APC delivery should be disabled before calling this routine. Disab
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
-
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
-
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
 
 <a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
 
+
+
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+
+
+<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
+
+
+
+<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpAcquirePrefixTableLockExclusive function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpAcquirePrefixTableLockExclusive function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

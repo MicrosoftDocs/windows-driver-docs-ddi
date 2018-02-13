@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 818A9F03-F56E-47D6-A9D1-DD0F63B05054
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportsetadapterbustype, StorPortSetAdapterBusType, storport/StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices]
+ms.keywords: storage.storportsetadapterbustype, StorPortSetAdapterBusType routine [Storage Devices], StorPortSetAdapterBusType, storport/StorPortSetAdapterBusType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,7 +83,9 @@ Contains a value of type <a href="https://msdn.microsoft.com/library/windows/har
 ## -returns
 
 
+
 The <b>StorPortSetAdapterBusType</b> routine returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,6 +124,8 @@ This routine fails with this return value if the BusType is an invalid value.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

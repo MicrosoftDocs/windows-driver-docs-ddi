@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0404803-d8a5-4698-a725-12c659cbcaab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS, Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], display.video_x86_bios_arguments, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], video/PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS"
+ms.keywords: video/PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], _VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, *PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS, display.video_x86_bios_arguments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_X86_BIOS_ARGUMENTS
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS"
+req.typenames: VIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS
 req.product: Windows 10 or later.
 ---
 
@@ -77,25 +77,19 @@ typedef struct _VIDEO_X86_BIOS_ARGUMENTS {
 ### -field Eax
 
 
-
 ### -field Ebx
-
 
 
 ### -field Ecx
 
 
-
 ### -field Edx
-
 
 
 ### -field Esi
 
 
-
 ### -field Edi
-
 
 
 ### -field Ebp
@@ -106,15 +100,19 @@ Are the seven x86 microprocessor registers.
 ## -remarks
 
 
+
 MS-DOS INT10s are usually "set mode" requests for the video adapter. Each value is put in the appropriate register and an INT10 call is performed by <a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>.
 
 A miniport driver should <i>not</i> set a segment:offset-type pointer in any member of this structure. Such an address is interpreted as an unsigned DWORD value.
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
+
+
 
  
 

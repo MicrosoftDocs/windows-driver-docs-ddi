@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType, FormatUsingCurrentType method, IWDFIoRequest interface, FormatUsingCurrentType method, IWDFIoRequest, FormatUsingCurrentType, wdf.iwdfiorequest_formatusingcurrenttype, FormatUsingCurrentType method, IWDFIoRequest interface, IWDFIoRequest::FormatUsingCurrentType
+ms.keywords: UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, IWDFIoRequest::FormatUsingCurrentType, umdf.iwdfiorequest_formatusingcurrenttype, FormatUsingCurrentType method, IWDFIoRequest, FormatUsingCurrentType, wudfddi/IWDFIoRequest::FormatUsingCurrentType, IWDFIoRequest interface, FormatUsingCurrentType method, FormatUsingCurrentType method, IWDFIoRequest interface, wdf.iwdfiorequest_formatusingcurrenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,17 +69,22 @@ void  FormatUsingCurrentType();
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 When a driver receives an I/O request, the driver might forward the request to the local I/O target, unmodified. To forward the unmodified request, the driver must:
+
 <ul>
 <li>
 Call <b>FormatUsingCurrentType</b> to format the request so that the framework can pass the request to the driver's local I/O target.
@@ -91,12 +96,23 @@ Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">
 </li>
 </ul>
 
+#### Examples
+
+For a code example of how to use the <b>FormatUsingCurrentType</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
 
  
 

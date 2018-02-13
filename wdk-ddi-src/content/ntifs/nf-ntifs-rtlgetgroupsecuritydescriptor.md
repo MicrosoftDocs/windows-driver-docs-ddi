@@ -7,8 +7,8 @@ old-location: ifsk\rtlgetgroupsecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: a2fbb125-42cf-4c33-83bb-3fc875712be3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtlgetgroupsecuritydescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, ntifs/RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor
+ms.date: 2/7/2018
+ms.keywords: ntifs/RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, RtlGetGroupSecurityDescriptor, ifsk.rtlgetgroupsecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Pointer to a Boolean variable that receives the value of the SE_GROUP_DEFAULTED 
 ## -returns
 
 
+
 <b>RtlGetGroupSecurityDescriptor</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The security descriptor's revision level is not known or is not supported. This 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the security descriptor pointed to by <i>SecurityDescriptor</i> contains a primary group, <b>RtlGetGroupSecurityDescriptor</b> sets the pointer pointed to by <i>Group</i> to the address of the security descriptor's group SID and sets the variable pointed to by <i>GroupDefaulted</i> to a valid value. 
@@ -123,19 +128,28 @@ For more information about security and access control, see the Microsoft Window
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetGroupSecurityDescriptor routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetGroupSecurityDescriptor routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b0ca123-8847-4dc3-b0f5-9788104381ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVP_SCATTER_GATHER_ELEMENT, display.vp_scatter_gather_element, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], *PVP_SCATTER_GATHER_ELEMENT, Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml, video/VP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT, video/PVP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices], _VP_SCATTER_GATHER_ELEMENT
+ms.keywords: VP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT, display.vp_scatter_gather_element, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices], video/VP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], _VP_SCATTER_GATHER_ELEMENT, video/PVP_SCATTER_GATHER_ELEMENT, Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VP_SCATTER_GATHER_ELEMENT
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT"
+req.typenames: VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT
 req.product: Windows 10 or later.
 ---
 
@@ -88,15 +88,19 @@ Reserved for system use.
 ## -remarks
 
 
+
 This structure is available in Windows XP and later.
 
 A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a> structure's array member.
 
 
 
+
 ## -see-also
 
 <a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
+
+
 
  
 

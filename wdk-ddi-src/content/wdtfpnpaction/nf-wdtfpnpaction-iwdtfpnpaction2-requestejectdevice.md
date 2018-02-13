@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: e4782fd9-0c71-4460-892e-180be41ed3bb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2, RequestEjectDevice, IWDTFPNPAction2::RequestEjectDevice, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, dtf.iwdtfpnpaction2_requestejectdevice
+ms.keywords: IWDTFPNPAction2, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, IWDTFPNPAction2::RequestEjectDevice, dtf.iwdtfpnpaction2_requestejectdevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,11 +76,14 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 This will in essence call <b>CM_Request_Device_Eject()</b>. 
@@ -88,9 +91,12 @@ See the MSDN documentation for details.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

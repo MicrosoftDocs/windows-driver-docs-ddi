@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DA30F8BA-B920-458E-B7C7-8D7B7081507A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GET_LOCAL_HOST_INFO8 structure [Buses], _GET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], *PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, IEEE.get_local_host_info8, 1394/GET_LOCAL_HOST_INFO8
+ms.keywords: 1394/PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8, _GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], IEEE.get_local_host_info8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_LOCAL_HOST_INFO8
 product: Windows
 targetos: Windows
-req.typenames: GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8
+req.typenames: "*PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8"
 ---
 
 # _GET_LOCAL_HOST_INFO8 structure
@@ -81,6 +81,7 @@ The minor version of the 1394 bus driver interface.
 ## -remarks
 
 
+
 A client driver can determine whether the 1394 bus driver
 loaded in the IEEE 1394 driver stack is the new 1394 bus driver or the legacy
 1394 bus driver. A new <b>nLevel</b> value has been added
@@ -90,6 +91,7 @@ request to return the version of the DDIs that the 1394 bus driver supports.
 
 To determine whether the 1394 bus driver is the new 1394 bus
 driver or the legacy 1394 bus driver,
+
 <ol>
 <li>The client driver must send
 the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request with <b>nLevel</b>
@@ -110,4 +112,5 @@ successful completion, the new 1394 bus driver (1394ohci.sys bus driver)sets the
 </ul>
 </li>
 </ol>
+
 

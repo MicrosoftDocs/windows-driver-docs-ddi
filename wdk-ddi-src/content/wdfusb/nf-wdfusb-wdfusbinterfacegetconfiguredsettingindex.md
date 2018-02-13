@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ca8f1fae-1655-4e0d-baa4-133f11cf246f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBINTERFACEGETCONFIGUREDSETTINGINDEX, wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex, wdf.wdfusbinterfacegetconfiguredsettingindex, WdfUsbInterfaceGetConfiguredSettingIndex, kmdf.wdfusbinterfacegetconfiguredsettingindex, WdfUsbInterfaceGetConfiguredSettingIndex method, DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml
+ms.keywords: kmdf.wdfusbinterfacegetconfiguredsettingindex, wdf.wdfusbinterfacegetconfiguredsettingindex, PFN_WDFUSBINTERFACEGETCONFIGUREDSETTINGINDEX, DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml, wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex, WdfUsbInterfaceGetConfiguredSettingIndex, WdfUsbInterfaceGetConfiguredSettingIndex method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbInterfaceGetConfiguredSettingIndex
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A handle to a USB interface object that was obtained by calling <a href="..\wdfu
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> returns the alternate setting index that is currently selected for the specified interface. If the interface is not configured, the method returns zero.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,16 +90,38 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example obtains the index for the currently selected alternate setting of a specified USB interface.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BYTE settingIndex;
+
+settingIndex = WdfUsbInterfaceGetConfiguredSettingIndex(UsbInterface);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
+
+
 
  
 

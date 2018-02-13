@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 00322dbf-0099-439a-8d65-bf530129cea1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsReassembleForwardFragmentGroup0, wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml, netvista.fwpsreassembleforwardfragmentgroup0, fwpsk/FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], netvista.fwpsreassembleforwardfragmentgroup0, fwpsk/FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,9 +83,11 @@ One of the following address families:
 
 
 
+
 #### AF_INET
 
 The IPv4 address family.
+
 
 
 #### AF_INET6
@@ -136,8 +138,10 @@ A pointer to a
 ## -returns
 
 
+
 The 
      <b>FwpsReassembleForwardFragmentGroup0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -180,11 +184,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The 
@@ -218,20 +225,33 @@ Because
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
    NdisAllocateNetBufferListPool</a>
 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

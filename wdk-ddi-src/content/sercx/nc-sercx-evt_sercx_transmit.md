@@ -40,7 +40,7 @@ apiname:
 -	EvtSerCxTransmit
 product: Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
+req.typenames: "*PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ The number of bytes to be transmitted. The controller driver can use this value 
 ## -returns
 
 
+
 The <i>EvtSerCxTransmit</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code.
 
 
 
+
 ## -remarks
+
 
 
 The serial framework extension (SerCx) calls this function to configure the serial controller hardware to transmit data. If necessary, the <i>EvtSerCxTransmit</i> function can enable interrupts.
@@ -101,14 +104,70 @@ If the transmit FIFO in the serial controller is full or nearly full, but the FI
 To register an <i>EvtSerCxTransmit</i> callback function, the controller driver calls the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method during the <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback.
 
 
+#### Examples
+
+The function type for this callback is declared in Sercx.h, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef NTSTATUS
+  EVT_SERCX_TRANSMIT(
+    __in WDFDEVICE Device
+    );</pre>
+</td>
+</tr>
+</table></span></div>
+To define an <i>EvtSerCxTransmit</i> callback function that is named <code>MyEvtSerCxTransmit</code>, you must first provide a function declaration that <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_SERCX_TRANSMIT MyEvtSerCxTransmit;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+  MyEvtSerCxTransmit(
+    __in WDFDEVICE Device
+    )
+{ ... }</pre>
+</td>
+</tr>
+</table></span></div>
+For more information about SDV requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
+
+
 <a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+
+
 
  
 

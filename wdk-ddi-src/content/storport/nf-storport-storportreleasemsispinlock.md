@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5a2cf757-9dca-4717-a775-834a22c02a12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], storage.storportreleasemsispinlock, storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml
+ms.keywords: StorPortReleaseMSISpinLock, storport/StorPortReleaseMSISpinLock, storage.storportreleasemsispinlock, StorPortReleaseMSISpinLock routine [Storage Devices], storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,9 @@ The identifier of the message.
 ## -returns
 
 
+
 StorPortReleaseMSISpinLock returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,20 +134,26 @@ HwDeviceExtension was <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Miniport drivers are not required to acquire MSI spin locks for messages unless the <b>InterruptSynchronizePerMessage</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure indicates a synchronization mode of <b>InterruptSynchronizationMode</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+
+
 
  
 

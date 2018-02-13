@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f9778881-9b53-49c5-9fe8-80f9a866b9af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, debugger.extremotedata_getptr, ExtRemoteData class [Windows Debugging], GetPtr method, EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, GetPtr method [Windows Debugging], ExtRemoteData::GetPtr, GetPtr, GetPtr method [Windows Debugging], ExtRemoteData class
+ms.keywords: ExtRemoteData::GetPtr, ExtRemoteData, GetPtr method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetPtr method, GetPtr, GetPtr method [Windows Debugging], ExtRemoteData class, EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, debugger.extremotedata_getptr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.GetPtr
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetPtr method
@@ -66,31 +66,46 @@ ULONG64 GetPtr();
 
 
 
+
 ## -returns
+
 
 
 <b>GetPtr</b> returns a pointer from the target's memory.  As with all pointers, if the target uses 32-bit pointers, it is sign-extended to 64-bits.
 
 
 
+
 ## -remarks
+
 
 
 The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be the same as the size of a pointer on the target, <code>ExtExtension::m_PtrSize</code>.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544035">ExtRemoteData::GetLongPtr</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544069">ExtRemoteData::GetUlong64</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544035">ExtRemoteData::GetLongPtr</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
  
 

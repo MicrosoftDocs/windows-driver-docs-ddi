@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a0e1e46-8bb1-4292-bd33-17ed4cc33c60
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS, ndiswwan/NDIS_WWAN_DEVICE_CAPS, WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, netvista.ndis_wwan_device_caps, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, _NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS
+ms.keywords: PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_CAPS, netvista.ndis_wwan_device_caps, _NDIS_WWAN_DEVICE_CAPS, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, *PNDIS_WWAN_DEVICE_CAPS, ndiswwan/NDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_DEVICE_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS"
+req.typenames: NDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS
 ---
 
 # _NDIS_WWAN_DEVICE_CAPS structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_DEVICE_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,8 +113,12 @@ sizeof(NDIS_WWAN_DEVICE_CAPS)
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  You must specify NDIS_WWAN_DEVICE_CAPS_REVISION_2 in <b>Revision</b> to use the Windows 8 members of <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.</div><div> </div>For more information about these members, see 
+</table>
+ 
+
+<div class="alert"><b>Note</b>  You must specify NDIS_WWAN_DEVICE_CAPS_REVISION_2 in <b>Revision</b> to use the Windows 8 members of <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.</div>
+<div> </div>
+For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
@@ -122,6 +127,7 @@ sizeof(NDIS_WWAN_DEVICE_CAPS)
 The status of the device capabilities query. The following table shows the possible values for
      this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -159,7 +165,8 @@ The operation failed because the device is in the process of initializing. Retry
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DeviceCaps
@@ -171,9 +178,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
 
  
 

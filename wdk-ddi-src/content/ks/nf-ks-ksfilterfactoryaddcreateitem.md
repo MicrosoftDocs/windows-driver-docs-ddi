@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c09840fb-8195-4ac5-a164-ba4d82615344
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryAddCreateItem function [Streaming Media Devices], avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, stream.ksfilterfactoryaddcreateitem, ks/KsFilterFactoryAddCreateItem, KsFilterFactoryAddCreateItem
+ms.keywords: avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, KsFilterFactoryAddCreateItem, stream.ksfilterfactoryaddcreateitem, ks/KsFilterFactoryAddCreateItem, KsFilterFactoryAddCreateItem function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ See the table for the <b>Flags</b> member of <a href="..\ks\ns-ks-ksobject_creat
 ## -returns
 
 
+
 <b>KsFilterFactoryAddCreateItem</b> returns success or failure of the attempt to add a new create item.
 
 
 
+
 ## -remarks
+
 
 
 Normally, only a single create item using the reference GUID supplied in the filter descriptor is added for the filter factory. This function allows the caller to add create items associated with the given filter factory.
@@ -107,19 +110,32 @@ For more information, see <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksqueryobjectcreateitem.md">KsQueryObjectCreateItem</a>
-
-<a href="..\ks\nf-ks-ksaddobjectcreateitemtoobjectheader.md">KsAddObjectCreateItemToObjectHeader</a>
 
 <a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
 
+
+
+<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
+
+
+
+<a href="..\ks\nf-ks-ksaddobjectcreateitemtoobjectheader.md">KsAddObjectCreateItemToObjectHeader</a>
+
+
+
 <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
+
+
+<a href="..\ks\nf-ks-ksqueryobjectcreateitem.md">KsQueryObjectCreateItem</a>
+
+
 
 <a href="..\ks\nf-ks-ksaddobjectcreateitemtodeviceheader.md">KsAddObjectCreateItemToDeviceHeader</a>
 
-<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
+
 
  
 

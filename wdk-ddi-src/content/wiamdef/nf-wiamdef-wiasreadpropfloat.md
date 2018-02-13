@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 042ef9d9-a980-41eb-a396-e03658ea072a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasreadpropfloat, wiasReadPropFloat, wiasReadPropFloat function [Imaging Devices], wiamdef/wiasReadPropFloat, wiasFncs_9b143e96-64a5-4de3-b40d-c542bc440dc0.xml
+ms.keywords: wiasFncs_9b143e96-64a5-4de3-b40d-c542bc440dc0.xml, wiasReadPropFloat function [Imaging Devices], wiasReadPropFloat, wiamdef/wiasReadPropFloat, image.wiasreadpropfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasReadPropFloat
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -100,21 +100,33 @@ Indicates whether the property must exist. If set to <b>TRUE</b>, the property m
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+
 
  
 

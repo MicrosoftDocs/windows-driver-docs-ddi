@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PISOCH_DESCRIPTOR structure pointer [Buses], IEEE.isoch_descriptor, ISOCH_DESCRIPTOR structure [Buses], 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, ISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR, _ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR
+ms.keywords: 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, PISOCH_DESCRIPTOR structure pointer [Buses], 1394/PISOCH_DESCRIPTOR, IEEE.isoch_descriptor, PISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR, _ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,7 @@ Specifies various flags for this isochronous descriptor. Each attached buffer on
 Before using a particular buffer for an I/O operation, the host controller examines the flags in the buffer's isoch descriptor for instructions on how to handle the data. In some cases, the host controller will continue to observe the behavior specified by these flags during I/O operations with subsequent buffers. For instance, if the isoch descriptor flags indicate that the host controller should filter out packets that do not have a certain Sy value recorded in <b>ulSynch</b>, the host controller will continue this filtering operation with the data in the buffers that follow, even if the isoch descriptors associated with these buffers do not have the same flags set. 
 
 The following table describes the flags that can be assigned to this member.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -191,7 +192,8 @@ The host controller treats the data in this buffer as a sequence of headers. The
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Mdl
@@ -227,6 +229,7 @@ If the DESCRIPTOR_SYNCH_ON_TIME flag is set, this member specifies the isochrono
 ### -field Callback
 
 Pointer to a callback routine. If non-NULL, the bus driver calls this routine to indicate that the associated attached buffers are ready to be detached. The callback executes at IRQL DISPATCH_LEVEL. The callback is of the following type:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -252,7 +255,9 @@ Specifies the second parameter when the bus driver calls the routine passed in <
 
 For <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a> requests, this member specifies the status of the attach operation on this buffer.   If an error occurs during the processing of the <b>REQUEST_ISOCH_ATTACH_BUFFERS</b> request, the bus driver fills in the <b>status</b> member with an appropriate error code.
 
-<div class="alert"><b>Note</b>  The <b>status</b> member must be initialized to STATUS_SUCCESS before the <b>REQUEST_ISOCH_ATTACH_BUFFERS</b> request is made.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>status</b> member must be initialized to STATUS_SUCCESS before the <b>REQUEST_ISOCH_ATTACH_BUFFERS</b> request is made.</div>
+<div> </div>
 
 ### -field DeviceReserved
 
@@ -272,7 +277,9 @@ Reserved.
 ## -remarks
 
 
+
 Not all DESCRIPTOR_XXX flags are supported on all hardware. The device driver can use the REQUEST_GET_LOCAL_HOST_INFO request, with <b>nLevel</b> = GET_HOST_CAPABILITIES, to determine which DESCRIPTOR_XXX flags are supported. The bus driver returns a pointer to a GET_LOCAL_HOST_INFO2 structure, whose <b>HostCapabilities</b> member contains flags that determine which flags the host controller supports. The following table lists which DESCRIPTOR_XXX flags require hardware support, and the corresponding <b>HostCapabilities</b> flag the driver should check.
+
 <table>
 <tr>
 <th>DESCRIPTOR_XXX flags</th>
@@ -298,7 +305,8 @@ HOST_INFO_SUPPORTS_ISO_HDR_INSERTION
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the driver sets the DESCRIPTOR_HEADER_SCATTER_GATHER flag, the host controller combines the data of the buffer specified in <b>Mdl</b> with the data of the next buffer attached. (Subsequent buffers are unaffected.) Each frame of the buffer is prepended to a frame of the next buffer (in the order the data in the buffer is split into frames), and sent as the data of the next isochronous packet. The number of frames of each buffer must match, or the bus driver returns STATUS_INVALID_PARAMETER for the next REQUEST_ISOCH_ATTACH_BUFFER request.
 
@@ -306,19 +314,32 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.ig_get_bus_data, PBUSDATA, GETSETBUSDATA, PBUSDATA structure pointer [Windows Debugging], BUSDATA structure [Windows Debugging], *PBUSDATA, WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, wdbgexts/GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], BUSDATA, wdbgexts/PBUSDATA, _GETSETBUSDATA
+ms.keywords: wdbgexts/GETSETBUSDATA, BUSDATA structure [Windows Debugging], _GETSETBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, *PBUSDATA, PBUSDATA, GETSETBUSDATA structure [Windows Debugging], wdbgexts/PBUSDATA, debugger.ig_get_bus_data, GETSETBUSDATA, BUSDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BUSDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PBUSDATA, BUSDATA"
+req.typenames: BUSDATA, *PBUSDATA
 req.product: Windows 10 or later.
 ---
 
@@ -109,6 +109,7 @@ Specifies the number of bytes to read from or write to the bus when the <b>Ioctl
 ## -remarks
 
 
+
 The parameters for the IG_GET_BUS_DATA and IG_SET_BUS_DATA <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operations are the members of the BUSDATA structure.
 
 This operation is only available in kernel-mode debugging.
@@ -117,9 +118,12 @@ The properties of the data in the bus depends on the system, bus, and slot.
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
+
+
 
  
 

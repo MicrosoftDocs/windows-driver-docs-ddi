@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6903a684-e9da-4ff0-b5ea-330b070849c6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], ReadIoSpaceEx64, debugger.readiospaceex64, WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml
+ms.keywords: ReadIoSpaceEx64 function [Windows Debugging], wdbgexts/ReadIoSpaceEx64, ReadIoSpaceEx64, debugger.readiospaceex64, WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,16 +106,20 @@ This is typically 1.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 32-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-readiospaceex.md">ReadIoSpaceEx</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
+
 
 
 

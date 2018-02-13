@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "*POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, OEMUIPROCS, _OEMUIPROCS, printoem/OEMUIPROCS, print.oemuiprocs, POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], printoem/POEMUIPROCS, OEMUIPROCS structure [Print Devices]"
+ms.keywords: OEMUIPROCS structure [Print Devices], printoem/OEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], printoem/POEMUIPROCS, _OEMUIPROCS, print.oemuiprocs, OEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, *POEMUIPROCS, POEMUIPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,8 +85,10 @@ Pointer to the printer driver's <b>DrvUpdateUISetting</b> function.
 
 
 
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548641">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
 
 The OEMUIPROCS structure's address is contained in an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 2a3228a3-f2b4-45c8-9cb0-b3834308f5da
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Add, wdtf/IWDTFLongNumbers2::Add, IWDTFLongNumbers2::Add, Microsoft::WDTF::IWDTFLongNumbers2::Add, IWDTFLongNumbers2 interface [Windows Device Testing Framework], Add method, Add method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Add method [Windows Device Testing Framework], IWDTFLongNumbers2, dtf.iwdtflongnumbers2_add, Microsoft.WDTF.IWDTFLongNumbers2.Add
+ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework], Add method, Add method [Windows Device Testing Framework], Add, IWDTFLongNumbers2::Add, dtf.iwdtflongnumbers2_add, Microsoft.WDTF.IWDTFLongNumbers2.Add, IWDTFLongNumbers2, wdtf/IWDTFLongNumbers2::Add, Add method [Windows Device Testing Framework], IWDTFLongNumbers2 interface, Microsoft::WDTF::IWDTFLongNumbers2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The long number to add to this collection.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtflongnumbers2.md">IWDTFLongNumbers2</a>
+
+
 
  
 

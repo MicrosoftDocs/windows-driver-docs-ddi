@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E3DF002D-825C-4DF6-935F-53D73F12FE2E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSSTREAM_POINTER_STATE_UNLOCKED, ks/KSSTREAM_POINTER_STATE_LOCKED, ks/KSSTREAM_POINTER_STATE, KSSTREAM_POINTER_STATE, ks/KSSTREAM_POINTER_STATE_UNLOCKED, KSSTREAM_POINTER_STATE enumeration [Streaming Media Devices], KSSTREAM_POINTER_STATE_LOCKED, stream.ksstream_pointer_state
+ms.keywords: ks/KSSTREAM_POINTER_STATE_LOCKED, ks/KSSTREAM_POINTER_STATE_UNLOCKED, stream.ksstream_pointer_state, KSSTREAM_POINTER_STATE_UNLOCKED, KSSTREAM_POINTER_STATE_LOCKED, KSSTREAM_POINTER_STATE, ks/KSSTREAM_POINTER_STATE, KSSTREAM_POINTER_STATE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSSTREAM_POINTER_STATE_UNLOCKED
 
 
-
 ### -field KSSTREAM_POINTER_STATE_LOCKED
-
 

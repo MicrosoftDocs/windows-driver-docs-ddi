@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPropertySet, stream.ikspropertyset_get, Get method [Streaming Media Devices], IKsPropertySet interface, Get, IKsPropertySet interface [Streaming Media Devices], Get method, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, IKsPropertySet::Get, Get method [Streaming Media Devices]
+ms.keywords: ksproxy/IKsPropertySet::Get, stream.ikspropertyset_get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, Get, Get method [Streaming Media Devices], IKsPropertySet interface, Get method [Streaming Media Devices], IKsPropertySet, IKsPropertySet::Get, IKsPropertySet interface [Streaming Media Devices], Get method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,14 +111,18 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>Get<
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 To retrieve a property, allocate a buffer, which <b>Get</b> fills with the property. To determine the necessary buffer size, specify <b>NULL</b> for <i>PropertyData</i> and zero for <i>DataLength</i>. The <b>Get</b> method returns the required buffer size in <i>BytesReturned</i>. 
+
 <div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
 
 <p class="note">
@@ -127,12 +131,16 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
+
+
 
  
 

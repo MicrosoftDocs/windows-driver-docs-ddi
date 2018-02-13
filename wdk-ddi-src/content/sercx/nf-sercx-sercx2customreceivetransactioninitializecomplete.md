@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C2D7C955-B63E-4D99-BC20-F7684C8D61F8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2CustomReceiveTransactionInitializeComplete, serports.sercx2customreceivetransactioninitializecomplete, SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports]
+ms.keywords: SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], serports.sercx2customreceivetransactioninitializecomplete, 2/SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ Whether the initialization was successful. If <b>TRUE</b>, the initialization su
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Before SerCx2 starts a custom-receive transaction, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a> event callback function, if it is implemented, to initialize the serial controller to perform the transaction. In response to this call, the driver should first do any initialization that is needed; then the driver must call <b>SerCx2CustomReceiveTransactionInitializeComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the transaction until it is notified.
@@ -97,13 +100,20 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 
 
-## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+## -see-also
 
 <a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
 
+
+
+<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
+
+
 
  
 

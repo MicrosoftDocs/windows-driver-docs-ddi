@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 145300be-6db8-48fd-9b8a-3b6d8532a1b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_C2KMRL_SID, RIL_PARAM_C2KMRL_SERVING, RIL_PARAM_C2KMRL_GPSSECONDS, rilapitypes/RIL_PARAM_C2KMRL_NID, RIL_PARAM_C2KMRL_BASELONG, rilapitypes/RIL_PARAM_C2KMRL_SERVING, RIL_PARAM_C2KMRL_BASELAT, rilapitypes/RIL_PARAM_C2KMRL_REFPN, RILC2KMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_C2KMRL_PILOTSTRENGTH, rilapitypes/RILC2KMRLPARAMMASK, rilapitypes/RIL_PARAM_C2KMRL_BSID, RIL_PARAM_C2KMRL_SID, RIL_PARAM_C2KMRL_REFPN, rilapitypes/RIL_PARAM_C2KMRL_PILOTSTRENGTH, rilapitypes/RIL_PARAM_C2KMRL_GPSSECONDS, rilapitypes/RIL_PARAM_C2KRML_ALL, netvista.rilc2kmrlparammask, RILC2KMRLPARAMMASK, RIL_PARAM_C2KMRL_NID, RIL_PARAM_C2KRML_ALL, rilapitypes/RIL_PARAM_C2KMRL_BASELONG, rilapitypes/RIL_PARAM_C2KMRL_BASELAT, RIL_PARAM_C2KMRL_BSID
+ms.keywords: RIL_PARAM_C2KMRL_BASELONG, RIL_PARAM_C2KMRL_NID, RIL_PARAM_C2KMRL_SERVING, rilapitypes/RIL_PARAM_C2KMRL_GPSSECONDS, RIL_PARAM_C2KRML_ALL, RIL_PARAM_C2KMRL_PILOTSTRENGTH, rilapitypes/RIL_PARAM_C2KRML_ALL, rilapitypes/RIL_PARAM_C2KMRL_NID, RIL_PARAM_C2KMRL_BASELAT, rilapitypes/RIL_PARAM_C2KMRL_BASELONG, RIL_PARAM_C2KMRL_SID, rilapitypes/RIL_PARAM_C2KMRL_REFPN, rilapitypes/RIL_PARAM_C2KMRL_SERVING, RIL_PARAM_C2KMRL_BSID, rilapitypes/RIL_PARAM_C2KMRL_SID, RILC2KMRLPARAMMASK, rilapitypes/RIL_PARAM_C2KMRL_BSID, netvista.rilc2kmrlparammask, RILC2KMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_C2KMRL_REFPN, rilapitypes/RILC2KMRLPARAMMASK, RIL_PARAM_C2KMRL_GPSSECONDS, rilapitypes/RIL_PARAM_C2KMRL_BASELAT, rilapitypes/RIL_PARAM_C2KMRL_PILOTSTRENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,49 +81,41 @@ enum RILC2KMRLPARAMMASK {
 ### -field RIL_PARAM_C2KMRL_SERVING
 
 
-
 ### -field RIL_PARAM_C2KMRL_NID
-
 
 
 ### -field RIL_PARAM_C2KMRL_SID
 
 
-
 ### -field RIL_PARAM_C2KMRL_BSID
-
 
 
 ### -field RIL_PARAM_C2KMRL_BASELAT
 
 
-
 ### -field RIL_PARAM_C2KMRL_BASELONG
-
 
 
 ### -field RIL_PARAM_C2KMRL_REFPN
 
 
-
 ### -field RIL_PARAM_C2KMRL_GPSSECONDS
-
 
 
 ### -field RIL_PARAM_C2KMRL_PILOTSTRENGTH
 
 
-
 ### -field RIL_PARAM_C2KRML_ALL
-
 
 
 ## -remarks
 
 
+
 Networks will vary, but the following table summarizes which items are returned for typical CDMA networks.
 
 <b>Serving and neighbor networks</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -293,13 +285,17 @@ Yes
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4ddc2d50-4828-4764-a690-27d4d5bd7c74
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], hid.hidd_flushqueue, hidsdi/HidD_FlushQueue
+ms.keywords: hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], HidD_FlushQueue, hid.hidd_flushqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HidD_FlushQueue
 product: Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # HidD_FlushQueue function
@@ -75,11 +75,14 @@ Specifies an open handle to the top-level collection whose input queue is flushe
 ## -returns
 
 
+
 <b>HidD_FlushQueue</b> returns <b>TRUE</b> if it successfully flushes the queue. Otherwise, it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_flush_queue.md">IOCTL_HID_FLUSH_QUEUE</a> request.
@@ -88,9 +91,12 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_flush_queue.md">IOCTL_HID_FLUSH_QUEUE</a>
+
+
 
  
 

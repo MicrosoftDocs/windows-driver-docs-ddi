@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 267335d2-37bd-4615-ad8e-5a8805eb93f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DECODEENDFRAME structure [Display Devices], d3dumddi/D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME, UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, _D3DDDIARG_DECODEENDFRAME, display.d3dddiarg_decodeendframe
+ms.keywords: D3DDDIARG_DECODEENDFRAME structure [Display Devices], d3dumddi/D3DDDIARG_DECODEENDFRAME, UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, _D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME, display.d3dddiarg_decodeendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,11 @@ This member is reserved and should be set to <b>NULL</b>.
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4aec39d6-3e12-4393-b477-24ea2036c227
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SUPSVCTYPE_MAX, RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_COLP, rilapitypes/RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_CLIP, netvista.rilsupsvctype_2, rilapitypes/RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_COLP, rilapitypes/RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_CLIR, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_MAX
+ms.keywords: rilapitypes/RILSUPSVCTYPE, rilapitypes/RIL_SUPSVCTYPE_CNAP, RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, RIL_SUPSVCTYPE_CNAP, rilapitypes/RIL_SUPSVCTYPE_MAX, RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_COLR, rilapitypes/RIL_SUPSVCTYPE_CLIP, rilapitypes/RIL_SUPSVCTYPE_CLIR, netvista.rilsupsvctype_2, rilapitypes/RIL_SUPSVCTYPE_COLP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,27 +76,20 @@ typedef enum _RILSUPSVCTYPE {
 ### -field RIL_SUPSVCTYPE_CALLWAITING
 
 
-
 ### -field RIL_SUPSVCTYPE_CLIP
-
 
 
 ### -field RIL_SUPSVCTYPE_CLIR
 
 
-
 ### -field RIL_SUPSVCTYPE_COLP
-
 
 
 ### -field RIL_SUPSVCTYPE_COLR
 
 
-
 ### -field RIL_SUPSVCTYPE_CNAP
 
 
-
 ### -field RIL_SUPSVCTYPE_MAX
-
 

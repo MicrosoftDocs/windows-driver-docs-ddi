@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 45421556-6781-4ec4-9ee1-783df99437ae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient3 interface [Windows Debugging], EndProcessServer method, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, IDebugClient4 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient5::EndProcessServer, EndProcessServer, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient3::EndProcessServer, dbgeng/IDebugClient3::EndProcessServer, IDebugClient5, IDebugClient2 interface [Windows Debugging], EndProcessServer method, dbgeng/IDebugClient5::EndProcessServer, EndProcessServer method [Windows Debugging], debugger.endprocessserver, dbgeng/IDebugClient4::EndProcessServer, dbgeng/IDebugClient2::EndProcessServer, IDebugClient4::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient5 interface, EndProcessServer method [Windows Debugging], IDebugClient4 interface, EndProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient2::EndProcessServer
+ms.keywords: IDebugClient3::EndProcessServer, IDebugClient5, EndProcessServer, IDebugClient5::EndProcessServer, dbgeng/IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient2 interface, debugger.endprocessserver, dbgeng/IDebugClient5::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], EndProcessServer method, IDebugClient2, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient4::EndProcessServer, IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient4, dbgeng/IDebugClient4::EndProcessServer, IDebugClient3, IDebugClient4 interface [Windows Debugging], EndProcessServer method, dbgeng/IDebugClient3::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,7 +78,9 @@ Specifies the process server to shut down.  This handle must have been previousl
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,34 +97,54 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about process servers and remote debugging, see <a href="https://msdn.microsoft.com/ed7ea3dc-07d1-481c-90e0-7f0b0e77ad42">Process Servers, Kernel Connection Servers, and Smart Clients</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 

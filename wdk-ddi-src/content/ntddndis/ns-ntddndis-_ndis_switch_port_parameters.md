@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E68A9018-1E79-4DA6-8C7A-434A2468169F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PARAMETERS, ntddndis/NDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS, netvista.ndis_switch_port_parameters, ntddndis/PNDIS_SWITCH_PORT_PARAMETERS"
+ms.keywords: ntddndis/PNDIS_SWITCH_PORT_PARAMETERS, ntddndis/NDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS, _NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_parameters, NDIS_SWITCH_PORT_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS"
+req.typenames: NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS
 ---
 
 # _NDIS_SWITCH_PORT_PARAMETERS structure
@@ -79,6 +79,7 @@ typedef struct _NDIS_SWITCH_PORT_PARAMETERS {
 The type, revision, and size of the <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:  
+
 
 
 
@@ -132,7 +133,9 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_
 ## -remarks
 
 
+
 The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>  structure contains a pointer to an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure for the following OID requests:
+
 <ul>
 <li>
 
@@ -158,41 +161,71 @@ The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_re
 
 
 </li>
-</ul>OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> return an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a> structure that contains an array of elements. Each element is formatted as an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure.
+</ul>
+OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> return an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a> structure that contains an array of elements. Each element is formatted as an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure.
 
 Extensible switch extensions can access the  port property buffer inside an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure by using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a> macro.
+
 <div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_PORT_NAME</b> and  <b>NDIS_SWITCH_PORT_FRIENDLYNAME</b> data types are type-defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a>
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_TYPE</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598273">OID_SWITCH_PORT_DELETE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598272">OID_SWITCH_PORT_CREATE</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_state.md">NDIS_SWITCH_PORT_STATE</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
 
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598279">OID_SWITCH_PORT_TEARDOWN</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598272">OID_SWITCH_PORT_CREATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598273">OID_SWITCH_PORT_DELETE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_state.md">NDIS_SWITCH_PORT_STATE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
 <b></b>
+
+
 
  
 

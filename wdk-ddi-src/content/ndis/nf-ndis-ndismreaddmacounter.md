@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bfce0f28-4cca-48a2-8836-2f77f4b6370a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMReadDmaCounter, netvista.ndismreaddmacounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, ndis/NdisMReadDmaCounter
+ms.keywords: ndis/NdisMReadDmaCounter, dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, NdisMReadDmaCounter, netvista.ndismreaddmacounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMReadDmaCounter
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMReadDmaCounter function
@@ -79,12 +79,15 @@ The handle returned when the miniport driver called the
 ## -returns
 
 
+
 <b>NdisMReadDmaCounter</b> returns the number of bytes remaining in the current DMA transfer on the
      channel used by the NIC.
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers of devices that use the system DMA controller's auto-initialize mode can call 
@@ -92,9 +95,12 @@ Miniport drivers of devices that use the system DMA controller's auto-initialize
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+
+
 
  
 

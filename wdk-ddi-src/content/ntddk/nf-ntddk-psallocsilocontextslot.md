@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsAllocSiloContextSlot, PsAllocSiloContextSlot, kernel.psallocsilocontextslot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot, PsAllocSiloContextSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsAllocSiloContextSlot
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsAllocSiloContextSlot function
@@ -71,7 +71,9 @@ NTSTATUS PsAllocSiloContextSlot(
 ### -param Reserved [in]
 
 This parameter is reserved for future use and <b>must be set to zero</b>. 
-<div class="alert"><b>Warning</b>  Setting <i>Reserved</i> to a non-zero value causes the system to execute an <b>ASSERT</b> on a checked build.</div><div> </div>
+
+<div class="alert"><b>Warning</b>  Setting <i>Reserved</i> to a non-zero value causes the system to execute an <b>ASSERT</b> on a checked build.</div>
+<div> </div>
 
 ### -param ReturnedContextSlot [out]
 
@@ -81,7 +83,9 @@ A pointer to a caller-allocated variable that receives the newly allocated slot 
 ## -returns
 
 
+
 The following NT status codes are returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,20 +113,26 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the <a href="..\ntddk\nf-ntddk-psregistersilomonitor.md">PsRegisterSiloMonitor</a> routine.  That slot can be retrieved with the <a href="..\ntddk\nf-ntddk-psgetsilomonitorcontextslot.md">PsGetSiloMonitorContextSlot</a> routine and used by a driver for its context operations.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-psfreesilocontextslot.md">PsFreeSiloContextSlot</a>
+
+
 
  
 

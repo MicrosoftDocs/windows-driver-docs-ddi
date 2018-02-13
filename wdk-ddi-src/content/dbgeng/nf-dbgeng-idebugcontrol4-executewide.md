@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExecuteWide method [Windows Debugging], IDebugControl4, IDebugControl4::ExecuteWide, ExecuteWide method [Windows Debugging], IDebugControl4 interface, debugger.executewide, dbgeng/IDebugControl4::ExecuteWide, IDebugControl4 interface [Windows Debugging], ExecuteWide method, ExecuteWide
+ms.keywords: IDebugControl4 interface [Windows Debugging], ExecuteWide method, ExecuteWide method [Windows Debugging], IDebugControl4::ExecuteWide, ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, IDebugControl4, debugger.executewide, ExecuteWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,6 +82,7 @@ Specifies the command string to execute.  The command is interpreted like those 
 ### -param Flags [in]
 
 Specifies a bit field of execution options for the command.  The default options are to log the command but to not send it to the output.  The following table lists the bits that can be set.
+
 <table>
 <tr>
 <th>Value</th>
@@ -117,13 +118,16 @@ If <i>Command</i> is an empty string, do not repeat the last command, and do not
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,14 +144,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This method executes the given command string.  If the string has multiple commands, these methods will not return until all of the commands have been executed. This may involve waiting for the target to execute, so these methods can take an arbitrary amount of time to complete.
+
 
 
 
@@ -155,7 +163,11 @@ This method executes the given command string.  If the string has multiple comma
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

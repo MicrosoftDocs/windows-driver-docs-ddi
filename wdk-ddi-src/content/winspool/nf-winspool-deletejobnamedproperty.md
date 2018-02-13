@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winspool/DeleteJobNamedProperty, DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty
+ms.keywords: DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty, DeleteJobNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,6 +93,8 @@ Name of the property that will be deleted.
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>ERROR_SUCCESS.</b>
+
 
 

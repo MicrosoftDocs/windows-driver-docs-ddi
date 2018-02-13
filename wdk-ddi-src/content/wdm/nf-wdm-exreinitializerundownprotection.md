@@ -76,11 +76,14 @@ A pointer to an <b>EX_RUNDOWN_REF</b> structure that was initialized by a previo
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine is called by the driver that owns an object that resides in shared memory and that is accessed by other drivers.
@@ -95,17 +98,28 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exwaitforrundownprotectionrelease.md">ExWaitForRundownProtectionRelease</a>
 
+
+
 <a href="..\wdm\nf-wdm-exrundowncompleted.md">ExRundownCompleted</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
 
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
+
+
 <a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
+
+
 
  
 

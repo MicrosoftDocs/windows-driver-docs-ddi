@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_io_target_sent_io_action, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, WDF_IO_TARGET_SENT_IO_ACTION enumeration, kmdf.wdf_io_target_sent_io_action, WdfIoTargetWaitForSentIoToComplete, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, _WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetSentIoUndefined, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetCancelSentIo
+ms.keywords: wdfiotarget/WdfIoTargetLeaveSentIoPending, WdfIoTargetCancelSentIo, WDF_IO_TARGET_SENT_IO_ACTION enumeration, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, WdfIoTargetLeaveSentIoPending, WdfIoTargetWaitForSentIoToComplete, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetCancelSentIo, kmdf.wdf_io_target_sent_io_action, WdfIoTargetSentIoUndefined, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, wdf.wdf_io_target_sent_io_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,6 +96,7 @@ The framework will leave I/O requests in the I/O target's queue. The requests re
 ## -remarks
 
 
+
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input parameter to the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> method.
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> from a request handler, a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, or an <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a> callback function.
@@ -104,11 +105,16 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
+
 ## -see-also
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
+
+
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
+
 
  
 

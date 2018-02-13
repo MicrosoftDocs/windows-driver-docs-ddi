@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BD192367-4960-4FD9-867F-02263AC93A61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_submitsignalsyncobjectstohwqueue, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+ms.keywords: display.d3dkmt_submitsignalsyncobjectstohwqueue, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

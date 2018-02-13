@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: AVCCONNECTINFO structure [Streaming Media Devices], _AVCCONNECTINFO, *PAVCCONNECTINFO, stream.avcconnectinfo, PAVCCONNECTINFO structure pointer [Streaming Media Devices], avc/PAVCCONNECTINFO, PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, AVCCONNECTINFO, avc/AVCCONNECTINFO
+ms.keywords: "*PAVCCONNECTINFO, avc/PAVCCONNECTINFO, PAVCCONNECTINFO, AVCCONNECTINFO, _AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], stream.avcconnectinfo, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, avc/AVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,13 +105,17 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 ## -remarks
 
 
+
 This structure is used only as member inside the <a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554171">AVC_FUNCTION_SET_CONNECTINFO</a>
+
+
 
  
 

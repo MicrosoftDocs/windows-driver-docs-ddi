@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerQueryVolumeTags function [Storage Devices], chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, mcd/ChangerQueryVolumeTags, ChangerQueryVolumeTags, storage.changerqueryvolumetags
+ms.keywords: ChangerQueryVolumeTags function [Storage Devices], ChangerQueryVolumeTags, mcd/ChangerQueryVolumeTags, storage.changerqueryvolumetags, chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ Pointer to the IRP.
 ## -returns
 
 
+
 If the changer supports retrieval of volume tag information, <b>ChangerQueryVolumeTags</b> returns the STATUS_<i>XXX</i> value returned by the system port driver, or one of the following values:
       
 
@@ -94,7 +95,9 @@ If the changer does not support retrieval of volume tag information, ChangerQuer
 
 
 
+
 ## -remarks
+
 
 
 This routine combines the functionality of two SCSI commands: SEND VOLUME TAGS and REQUEST VOLUME ELEMENT ADDRESS. This routine is required.
@@ -113,19 +116,32 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
+
 ## -see-also
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
-
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">, GET_CHANGER_PARAMETERS</a>
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">, GET_CHANGER_PARAMETERS</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
 
  
 

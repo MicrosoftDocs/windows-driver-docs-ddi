@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91bf3d1d-5be2-4790-9e6d-07db5eed4f06
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2, UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices]
+ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,15 +105,19 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE2 {
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime transforms the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive2.md">DrawIndexedPrimitive2</a> function. 
 
 When the runtime specifies triangle-edge flags in the value that is pointed to by the <i>pFlagBuffer</i> parameter in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive2.md">DrawIndexedPrimitive2</a> call, the runtime also specifies to draw only one triangle (that is, the runtime specifies the D3DPT_TRIANGLELIST value in the <b>PrimitiveType</b> member and 0x00000001 in the <b>PrimitiveCount</b> member of D3DDDIARG_DRAWINDEXEDPRIMITIVE2 that is pointed to by the <i>pData</i> parameter in the <b>DrawIndexedPrimitive2</b> call).
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive2.md">DrawIndexedPrimitive2</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
 ---
 
 # IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES IOCTL
@@ -87,14 +87,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.nmrregisterprovider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider, netioddk/NmrRegisterProvider
+ms.keywords: NmrRegisterProvider function [Network Drivers Starting with Windows Vista], nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider, netioddk/NmrRegisterProvider, netvista.nmrregisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,8 +102,10 @@ A pointer to a variable that receives a handle used by the NMR to represent the 
 ## -returns
 
 
+
 The 
      <b>NmrRegisterProvider</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,11 +144,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A provider module calls the 
@@ -166,13 +171,20 @@ A provider module typically calls the
 
 
 
+
 ## -see-also
+
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
 
  
 

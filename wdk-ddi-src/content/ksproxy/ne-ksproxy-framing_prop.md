@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EE68F14D-F76D-4D98-99FB-BD3FB93B669A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/FramingProp_None, *PFRAMING_PROP, ksproxy/FramingProp_Old, FramingProp_Ex, FramingProp_Old, ksproxy/FRAMING_PROP, FRAMING_PROP, FramingProp_Uninitialized, FramingProp_None, ksproxy/FramingProp_Ex, ksproxy/FramingProp_Uninitialized, FRAMING_PROP enumeration [Streaming Media Devices], stream.framing_prop
+ms.keywords: ksproxy/FramingProp_Ex, ksproxy/FramingProp_Uninitialized, FRAMING_PROP enumeration [Streaming Media Devices], ksproxy/FramingProp_Old, ksproxy/FRAMING_PROP, FramingProp_Uninitialized, FramingProp_Ex, stream.framing_prop, FramingProp_Old, FramingProp_None, FRAMING_PROP, *PFRAMING_PROP, ksproxy/FramingProp_None
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -73,15 +73,11 @@ typedef enum  {
 ### -field FramingProp_Uninitialized
 
 
-
 ### -field FramingProp_None
-
 
 
 ### -field FramingProp_Old
 
 
-
 ### -field FramingProp_Ex
-
 

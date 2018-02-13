@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtopenkeyedmutex2, D3DKMTOpenKeyedMutex2, PFND3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 function [Display Devices]
+ms.keywords: display.d3dkmtopenkeyedmutex2, d3dkmthk/D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, D3DKMTOpenKeyedMutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenKeyedMutex2(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex2.md">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex2.md">D3DK
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,24 +133,32 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 <b>D3DKMTOpenKeyedMutex2</b> behaves like the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex2.md">D3DKMT_OPENKEYEDMUTEX2</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
+
 
  
 

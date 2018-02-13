@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaOption interface [Print Devices], GetPropertyValue method, GetPropertyValue method [Print Devices], printerextension/IPrintSchemaOption::GetPropertyValue, IPrintSchemaOption, IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue, GetPropertyValue, GetPropertyValue method [Print Devices], IPrintSchemaOption interface
+ms.keywords: IPrintSchemaOption, GetPropertyValue, IPrintSchemaOption interface [Print Devices], GetPropertyValue method, IPrintSchemaOption::GetPropertyValue, printerextension/IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices], IPrintSchemaOption interface, print.iprintschemaoption_getpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,6 +86,7 @@ The namespace URI value of the "name" attribute of the "Property" or the "Scored
 
 
 
+
 #### - ppXmlNodeValue [out, retval]
 
 The XML node for the "value" child element.
@@ -94,11 +95,14 @@ The XML node for the "value" child element.
 ## -returns
 
 
+
 Returns an <b>HRESULT</b> value. If the method call was not successful,  it returns the appropriate <b>HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
@@ -107,13 +111,20 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
+
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
 
 <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
 
  
 

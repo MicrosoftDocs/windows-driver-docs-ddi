@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a74d9740-8342-454e-8cbf-cf248e67d857
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_REG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION, *PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION, wdm/PREG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information"
+ms.keywords: "*PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION, wdm/PREG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, _REG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, wdm/REG_SET_VALUE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_SET_VALUE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: REG_SET_VALUE_KEY_INFORMATION, *PREG_SET_VALUE_KEY_INFORMATION
+req.typenames: "*PREG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -124,19 +124,27 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 
+
 The system passes this structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to set a value entry for a key—for example, when a user-mode thread calls <b>RegSetValue</b> or <b>RegSetValueEx</b> or when a driver calls <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 

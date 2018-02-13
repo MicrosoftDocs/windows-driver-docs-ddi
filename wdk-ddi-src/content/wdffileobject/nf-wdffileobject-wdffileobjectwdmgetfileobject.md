@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f3cc9b23-6140-4cb2-959d-c76f23c697ea
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFILEOBJECTWDMGETFILEOBJECT, DFFileObjectRef_1631ea08-9156-4de4-85e6-9368b89ae0f4.xml, wdf.wdffileobjectwdmgetfileobject, wdffileobject/WdfFileObjectWdmGetFileObject, WdfFileObjectWdmGetFileObject, WdfFileObjectWdmGetFileObject method, kmdf.wdffileobjectwdmgetfileobject
+ms.keywords: kmdf.wdffileobjectwdmgetfileobject, DFFileObjectRef_1631ea08-9156-4de4-85e6-9368b89ae0f4.xml, WdfFileObjectWdmGetFileObject, wdffileobject/WdfFileObjectWdmGetFileObject, WdfFileObjectWdmGetFileObject method, PFN_WDFFILEOBJECTWDMGETFILEOBJECT, wdf.wdffileobjectwdmgetfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFileObjectWdmGetFileObject
 product: Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ A handle to a framework file object.
 ## -returns
 
 
+
 <b>WdfFileObjectWdmGetFileObject</b> returns a pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure that is associated with the specified framework file object, or <b>NULL</b> if there is no WDM file object for the specified framework file object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,7 +88,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The pointer that the <b>WdfFileObjectWdmGetFileObject</b> method returns is valid until the framework file object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework file object, the pointer is valid until the callback function returns.
@@ -95,10 +98,30 @@ The pointer that the <b>WdfFileObjectWdmGetFileObject</b> method returns is vali
 For more information about framework file objects, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
 
 
+#### Examples
+
+The following code example obtains a handle to the WDM file object that is associated with a specified framework file object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PFILE_OBJECT  pReturnedFileObject;
+
+pReturnedFileObject = WdfFileObjectWdmGetFileObject(fileObject);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
 
  
 

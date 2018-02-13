@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_ENGINE_TIMEOUT_DETECTED, DXGKARG_COLLECTDBGINFO, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, DXGKARG_COLLECTDBGINFO structure [Display Devices], display.dxgkarg_collectdbginfo, _DXGKARG_COLLECTDBGINFO, VIDEO_TDR_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO
+ms.keywords: "_DXGKARG_COLLECTDBGINFO, VIDEO_TDR_TIMEOUT_DETECTED, DXGKARG_COLLECTDBGINFO structure [Display Devices], display.dxgkarg_collectdbginfo, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, VIDEO_ENGINE_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -73,6 +73,7 @@ typedef struct _DXGKARG_COLLECTDBGINFO {
 ### -field Reason
 
 [in] The <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug-check code</a> for which to return debug information in the buffer that <b>pBuffer</b> points to. These are possible values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -102,7 +103,8 @@ Available starting in Windows 8.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field pBuffer
@@ -124,9 +126,15 @@ Available starting in Windows 8.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+
+
 
  
 

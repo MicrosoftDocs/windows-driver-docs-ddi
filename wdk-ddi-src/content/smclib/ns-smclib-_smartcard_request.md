@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: B5FF5B24-12E6-424A-B09A-4B0572621088
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smclib/PSMARTCARD_REQUEST, SMARTCARD_REQUEST, PSMARTCARD_REQUEST structure pointer [Smart Card Reader Devices], _SMARTCARD_REQUEST, smclib/SMARTCARD_REQUEST, *PSMARTCARD_REQUEST, SMARTCARD_REQUEST structure [Smart Card Reader Devices], smartcrd.smartcard_request, PSMARTCARD_REQUEST
+ms.keywords: "*PSMARTCARD_REQUEST, smclib/PSMARTCARD_REQUEST, smartcrd.smartcard_request, PSMARTCARD_REQUEST structure pointer [Smart Card Reader Devices], _SMARTCARD_REQUEST, smclib/SMARTCARD_REQUEST, SMARTCARD_REQUEST, PSMARTCARD_REQUEST, SMARTCARD_REQUEST structure [Smart Card Reader Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SMARTCARD_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PSMARTCARD_REQUEST, SMARTCARD_REQUEST"
+req.typenames: SMARTCARD_REQUEST, *PSMARTCARD_REQUEST
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,8 @@ Number of bytes required for this command.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946593">SmcCxGetSmartcardRequestBuffer</a>
+
+
 
  
 

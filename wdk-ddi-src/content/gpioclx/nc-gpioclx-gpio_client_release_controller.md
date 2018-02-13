@@ -40,7 +40,7 @@ apiname:
 -	CLIENT_ReleaseController
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # GPIO_CLIENT_RELEASE_CONTROLLER callback
@@ -84,11 +84,14 @@ A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4B
 ## -returns
 
 
+
 The <i>CLIENT_ReleaseController</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function after the GPIO controller device is no longer accessible.
@@ -100,12 +103,55 @@ To register your driver's <i>CLIENT_ReleaseController</i> callback function, cal
 Although the <i>CLIENT_ReleaseController</i> callback function is called at IRQL = PASSIVE_LEVEL, you should not make this function pageable. The <i>CLIENT_ReleaseController</i> callback is in the critical timing path for restoring power to the devices in the hardware platform and, for performance reasons, it should not be delayed by page faults.
 
 
+#### Examples
+
+To define a <i>CLIENT_ReleaseController</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+For example, to define a <i>CLIENT_ReleaseController</i> callback function that is named <code>MyEvtGpioReleaseController</code>, use the GPIO_CLIENT_RELEASE_CONTROLLER function type, as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>GPIO_CLIENT_RELEASE_CONTROLLER  MyEvtGpioReleaseController;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+NTSTATUS
+  MyEvtGpioReleaseController(
+    WDFDEVICE Device,
+    PVOID Context
+)
+{ ... }</pre>
+</td>
+</tr>
+</table></span></div>
+The GPIO_CLIENT_RELEASE_CONTROLLER function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_RELEASE_CONTROLLER function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
 
  
 

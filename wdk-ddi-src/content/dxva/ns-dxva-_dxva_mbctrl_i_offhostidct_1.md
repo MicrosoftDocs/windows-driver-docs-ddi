@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c088a923-0600-48ae-8d3e-95b6bbcb59c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], *LPDXVA_MBctrl_I_OffHostIDCT_1, dxva/DXVA_MBctrl_I_OffHostIDCT_1, display.dxva_mbctrl_i_offhostidct_1, DXVA_MBctrl_I_OffHostIDCT_1, _DXVA_MBctrl_I_OffHostIDCT_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml
+ms.keywords: DXVA_MBctrl_I_OffHostIDCT_1, display.dxva_mbctrl_i_offhostidct_1, dxva/DXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], *LPDXVA_MBctrl_I_OffHostIDCT_1, _DXVA_MBctrl_I_OffHostIDCT_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,6 +79,7 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 ### -field wMBtype
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
+
 <table>
 <tr>
 <th>Bits</th>
@@ -240,7 +241,8 @@ Must be 1.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwMB_SNL
@@ -248,8 +250,8 @@ Must be 1.
 
 
 
-#### 
 
+######### 
 
 
 ### -field wPatternCode
@@ -273,7 +275,9 @@ The purpose of <b>bNumCoef</b> is to indicate the quantity of data present for e
 ## -remarks
 
 
+
 Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</i> variable must be zero. The <i>MBdataLocation</i> variable must be zero for the first macroblock in the macroblock control command buffer. For more information about how skipped macroblocks are generated, see <a href="https://msdn.microsoft.com/98ea004b-347d-4299-a23c-da0a9d0e844f">Generating Skipped Macroblocks</a>.
+
 
 
 
@@ -281,11 +285,19 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
+
+
 
  
 

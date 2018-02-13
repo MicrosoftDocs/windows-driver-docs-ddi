@@ -121,9 +121,11 @@ The context tag used to associate the packets of interest with the context of th
 ## -returns
 
 
+
 A callout's 
   <i>
   FWPS_NET_BUFFER_LIST_NOTIFY_FN1</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,11 +153,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function is associated with a callout driver by a call to <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>. A callout driver can use a single notification function to
@@ -166,18 +171,29 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 
 
-## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+
 
 <a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
 
+
+
 <a href="..\fwpsk\ne-fwpsk-fwps_net_buffer_list_event_type0_.md">
      FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+
+
 
  
 

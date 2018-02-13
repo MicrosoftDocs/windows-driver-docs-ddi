@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, _DEVICE_CAPABILITIES, wdm/DEVICE_CAPABILITIES, kernel.device_capabilities, PDEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], DEVICE_CAPABILITIES
+ms.keywords: DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_CAPABILITIES, _DEVICE_CAPABILITIES, DEVICE_CAPABILITIES, kernel.device_capabilities, PDEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,7 +163,9 @@ Specifies whether the driver for the underlying bus can drive the device if ther
 Specifies whether the function driver for the device can handle the case where the device is removed before Windows can send <b>IRP_MN_QUERY_REMOVE_DEVICE</b> to it. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
 
 For example, a standard USB mouse does not maintain any state in its hardware and thus can be safely removed at any time. However, an external hard disk whose driver caches writes in memory cannot be safely removed without first letting the driver flush its cache to the hardware.
-<div class="alert"><b>Note</b>  Drivers for USB devices that support surprise removal must set this to <b>TRUE</b> only when the IRP is being passed back up the driver stack.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Drivers for USB devices that support surprise removal must set this to <b>TRUE</b> only when the IRP is being passed back up the driver stack.</div>
+<div> </div>
 
 ### -field WakeFromD0
 
@@ -212,7 +214,6 @@ Do not display the device in the user interface. If this bit is set, the device 
 ### -field Reserved1
 
 
-
 ### -field WakeFromInterrupt
 
  
@@ -239,9 +240,11 @@ The following list describes the information certain bus drivers store in the <b
 
 
 
+
 #### 1394
 
 Does not supply an address because the addresses are volatile. Defaults to 0xFFFFFFFF. 
+
 
 
 #### EISA
@@ -249,9 +252,11 @@ Does not supply an address because the addresses are volatile. Defaults to 0xFFF
 Slot Number (0-F).
 
 
+
 #### IDE
 
 For an IDE device, the address contains the target ID and LUN. For an IDE channel, the address is zero or one (0 = primary channel and 1 = secondary channel).
+
 
 
 #### ISApnp
@@ -259,9 +264,11 @@ For an IDE device, the address contains the target ID and LUN. For an IDE channe
 Does not supply an address. Defaults to 0xFFFFFFFF.
 
 
+
 #### PC Card (PCMCIA)
 
 The socket number (typically 0x00 or 0x40).
+
 
 
 #### PCI
@@ -269,9 +276,11 @@ The socket number (typically 0x00 or 0x40).
 The device number in the high word and the function number in the low word.
 
 
+
 #### SCSI
 
 The target ID.
+
 
 
 #### USB
@@ -327,6 +336,7 @@ Specifies the device's approximate worst-case latency, in 100-microsecond units,
 ## -remarks
 
 
+
 Bus drivers set the appropriate values in this structure in response to an <b>IRP_MN_QUERY_CAPABILITIES</b> IRP. Bus filter drivers, function drivers, and filter drivers might alter the capabilities set by the bus driver.
 
 Drivers that send an <b>IRP_MN_QUERY_CAPABILITIES</b> request must initialize the <b>Size</b>, <b>Version</b>, <b>Address</b>, and <b>UINumber</b> members of this structure before sending the IRP. 
@@ -335,11 +345,16 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
+
+
 
  
 

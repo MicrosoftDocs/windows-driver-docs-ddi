@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e397d36c-3f28-4a70-9b4a-f13be094d47b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml, stream.ksfilterfactorygetnextsiblingfilterfactory, KsFilterFactoryGetNextSiblingFilterFactory, ks/KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices]
+ms.keywords: KsFilterFactoryGetNextSiblingFilterFactory, ks/KsFilterFactoryGetNextSiblingFilterFactory, stream.ksfilterfactorygetnextsiblingfilterfactory, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices], avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,14 +75,18 @@ A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> f
 ## -returns
 
 
+
 <b>KsFilterFactoryGetNextSiblingFilterFactory</b> returns a pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure that represents the next sibling filter factory of <i>FilterFactory</i>. If no such filter factory exists, <b>NULL</b> is returned.
+
 
 
 
 ## -remarks
 
 
+
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+
 
 
 
@@ -90,9 +94,15 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetnextsibling.md
 
 <a href="..\ks\nf-ks-ksgetnextsibling.md">KsGetNextSibling</a>
 
+
+
 <a href="..\ks\nf-ks-ksdevicegetfirstchildfilterfactory.md">KsDeviceGetFirstChildFilterFactory</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
 
  
 

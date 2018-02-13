@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY DecryptionBlt(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a> structure that describes the parameters of the decrypted bit-block transfer (bitblt) operation. 
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY DecryptionBlt(
 ## -returns
 
 
+
 <b>DecryptionBlt</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,11 +135,14 @@ The driver does not support the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decry
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Hardware and drivers can optionally support <b>DecryptionBlt</b> for some crypto types. 
@@ -152,15 +159,24 @@ The Direct3D runtime verifies that the source surface specified by the <b>SrcSub
 
 
 
+
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a>
+
+
 
  
 

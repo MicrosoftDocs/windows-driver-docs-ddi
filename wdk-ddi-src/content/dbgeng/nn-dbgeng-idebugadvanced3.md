@@ -99,6 +99,8 @@ Returns specified information about a symbol.
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
+
+
  
 
  

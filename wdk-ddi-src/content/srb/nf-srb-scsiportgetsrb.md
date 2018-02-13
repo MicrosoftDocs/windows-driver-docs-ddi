@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8f0e47c-4d06-445f-a6dd-9bd80fc490bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortGetSrb routine [Storage Devices], srb/ScsiPortGetSrb, storage.scsiportgetsrb, scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, ScsiPortGetSrb
+ms.keywords: storage.scsiportgetsrb, ScsiPortGetSrb, ScsiPortGetSrb routine [Storage Devices], scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, srb/ScsiPortGetSrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,13 +101,17 @@ Specifies the queue tag if the miniport driver handles tagged requests; SP_UNTAG
 ## -returns
 
 
+
 <b>ScsiPortGetSrb</b> returns a pointer to a request for the specified logical unit. If there is no outstanding request for the given peripheral or if the <i>QueueTag</i> value is invalid, it returns <b>NULL</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 

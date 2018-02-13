@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemps_disabledriver, IPrintOemPS interface [Print Devices], DisableDriver method, prcomoem/IPrintOemPS::DisableDriver, DisableDriver method [Print Devices], IPrintOemPS interface, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, DisableDriver method [Print Devices], DisableDriver, IPrintOemPS::DisableDriver, IPrintOemPS
+ms.keywords: IPrintOemPS interface [Print Devices], DisableDriver method, DisableDriver, DisableDriver method [Print Devices], IPrintOemPS interface, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, print.iprintoemps_disabledriver, DisableDriver method [Print Devices], IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, IPrintOemPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -67,10 +67,13 @@ STDMETHOD DisableDriver();
 
 
 
+
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,11 +112,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-ins for Pscript5, performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556196">DrvDisableDriver</a> function that is exported by Pscript5's printer graphics DLL.
@@ -121,5 +127,6 @@ The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-i
 <code>IPrintOemPS::DisableDriver</code> and <b>IPrintOemPS::EnableDriver</b> must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553212">IPrintOemPS::EnableDriver</a>. 
 
 This is the last <b>IPrintOemPS</b> interface method that is called before the rendering plug-in is unloaded.
+
 
 

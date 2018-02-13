@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6620d6c8-2b8a-440e-acf4-fb08570b13bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanSmsFlagDraft, WwanSmsFlagDraft, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WWAN_SMS_FLAG, WwanSmsFlagSent, wwan/WwanSmsFlagSent, netvista.wwan_sms_flag, WWAN_SMS_FLAG, wwan/WwanSmsFlagOld, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagNew, WwanSmsFlagNew, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsFlagMax, WwanSmsFlagMax, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanSmsFlagOld, wwan/WwanSmsFlagAll, WwanSmsFlagIndex, PWWAN_SMS_FLAG, wwan/PWWAN_SMS_FLAG, WwanSmsFlagAll, _WWAN_SMS_FLAG, *PWWAN_SMS_FLAG
+ms.keywords: WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanSmsFlagOld, *PWWAN_SMS_FLAG, wwan/WwanSmsFlagOld, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_SMS_FLAG, PWWAN_SMS_FLAG, wwan/WwanSmsFlagDraft, wwan/WwanSmsFlagMax, WwanSmsFlagMax, WwanSmsFlagIndex, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagNew, WwanSmsFlagNew, wwan/PWWAN_SMS_FLAG, wwan/WwanSmsFlagSent, netvista.wwan_sms_flag, WwanSmsFlagAll, wwan/WWAN_SMS_FLAG, WWAN_SMS_FLAG, WwanSmsFlagSent, wwan/WwanSmsFlagAll, WwanSmsFlagDraft
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SMS_FLAG
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SMS_FLAG, *PWWAN_SMS_FLAG
+req.typenames: "*PWWAN_SMS_FLAG, WWAN_SMS_FLAG"
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,8 @@ The total number of filter flags.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
+
+
 
  
 

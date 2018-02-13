@@ -135,6 +135,8 @@ The <a href="https://msdn.microsoft.com/7ec30c51-5e07-496b-96af-8eafb564d98d">On
 ## -remarks
 
 
+
 A driver registers the <b>IPnpCallbackSelfManagedIo</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+
 
 

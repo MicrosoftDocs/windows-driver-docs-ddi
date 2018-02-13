@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 52f1e529-e1fe-4a08-a0cf-dc08e18d11b5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], SnapTriageLogs method, IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, SnapTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], SnapTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface
+ms.keywords: dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, IWDTFDriverSetupSystemAction2, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], SnapTriageLogs method, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,18 @@ HRESULT SnapTriageLogs();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>SnapTriageLogs</b> method copies the current driver setup 
@@ -82,9 +86,12 @@ triage logs to the current directory.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
+
+
 
  
 

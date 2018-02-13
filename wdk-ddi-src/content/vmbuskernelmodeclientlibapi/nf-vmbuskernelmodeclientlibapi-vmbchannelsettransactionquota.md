@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C88F03BE-96D3-46A7-8269-1ECBFA539111
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota, netvista.vmbchannelsettransactionquota, VmbChannelSetTransactionQuota
+ms.keywords: VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota, VmbChannelSetTransactionQuota, netvista.vmbchannelsettransactionquota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	VmbChannelSetTransactionQuota
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A handle for a channel.
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The incoming packet quota can be set to be lower than the current
@@ -98,5 +101,6 @@ the queue until sufficient packets have been completed.
 
 
  If the queue is currently blocked due to quota, this operation does not restart it. The queue only restarts once a packet is completed.
+
 
 

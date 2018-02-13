@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_TYPE, KTMOBJECT_ENLISTMENT, KTMOBJECT_TRANSACTION_MANAGER, PKTMOBJECT_TYPE, _KTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE, KTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_ENLISTMENT, KTMOBJECT_INVALID, wdm/KTMOBJECT_INVALID, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, wdm/KTMOBJECT_RESOURCE_MANAGER, *PKTMOBJECT_TYPE, kernel.ktmobject_type, KTMOBJECT_TRANSACTION, KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION_MANAGER
+ms.keywords: wdm/KTMOBJECT_TYPE, wdm/KTMOBJECT_INVALID, KTMOBJECT_RESOURCE_MANAGER, *PKTMOBJECT_TYPE, PKTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], KTMOBJECT_INVALID, wdm/KTMOBJECT_ENLISTMENT, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, kernel.ktmobject_type, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TRANSACTION, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_ENLISTMENT, KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION_MANAGER, _KTMOBJECT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	KTMOBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: KTMOBJECT_TYPE, *PKTMOBJECT_TYPE
+req.typenames: "*PKTMOBJECT_TYPE, KTMOBJECT_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -100,15 +100,19 @@ Invalid object type.
 ## -remarks
 
 
+
 The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a> routine.
 
 For more information about KTM objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM Objects</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
+
+
 
  
 

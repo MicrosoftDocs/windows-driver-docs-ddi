@@ -72,6 +72,7 @@ Windows XP and later send this request to the video miniport driver to notify it
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a pointer to a ULONG, which can be one of the two following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,13 +98,16 @@ The device is about to be attached.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,21 +119,27 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -141,6 +151,8 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 ## -see-also
 
 <a href="..\video\nf-video-videoportcreatesecondarydisplay.md">VideoPortCreateSecondaryDisplay</a>
+
+
 
  
 

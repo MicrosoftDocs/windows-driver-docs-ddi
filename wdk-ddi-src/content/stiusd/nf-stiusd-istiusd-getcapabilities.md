@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: baec1e38-360e-4f4f-82bd-bc89e3f8483d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetCapabilities method [Imaging Devices], image.istiusd_getcapabilities, IStiUSD interface [Imaging Devices], GetCapabilities method, stiusd/IStiUSD::GetCapabilities, GetCapabilities method [Imaging Devices], IStiUSD interface, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, IStiUSD::GetCapabilities, GetCapabilities, IStiUSD
+ms.keywords: IStiUSD interface [Imaging Devices], GetCapabilities method, GetCapabilities method [Imaging Devices], stiusd/IStiUSD::GetCapabilities, IStiUSD::GetCapabilities, GetCapabilities method [Imaging Devices], IStiUSD interface, image.istiusd_getcapabilities, IStiUSD, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -74,6 +74,7 @@ HRESULT GetCapabilities(
 
 
 
+
 #### - pUsdCaps
 
 Caller-supplied pointer to an empty <a href="..\stiusd\ns-stiusd-_sti_usd_caps.md">STI_USD_CAPS</a> structure.
@@ -82,20 +83,26 @@ Caller-supplied pointer to an empty <a href="..\stiusd\ns-stiusd-_sti_usd_caps.m
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capability flags in the caller-supplied <a href="..\stiusd\ns-stiusd-_sti_usd_caps.md">STI_USD_CAPS</a> structure. It should also set the version number to STI_VERSION.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a>
+
+
 
  
 

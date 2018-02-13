@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40516E83-892C-4538-B452-DAB0F5ACBB25
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEALLOCANDQUERYINTERFACEPROPERTY, wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty, wdf.wdfdeviceallocandqueryinterfaceproperty, WdfDeviceAllocAndQueryInterfaceProperty method
+ms.keywords: wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty method, wdf.wdfdeviceallocandqueryinterfaceproperty, PFN_WDFDEVICEALLOCANDQUERYINTERFACEPROPERTY, WdfDeviceAllocAndQueryInterfaceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,7 +110,9 @@ A pointer to a <b>DEVPROPTYPE</b>-typed variable that, on return,  identifies th
 ## -returns
 
 
+
 If the <b>WdfDeviceAllocAndQueryInterfaceProperty</b> method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +129,16 @@ One of the parameters is incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfDeviceAllocAndQueryInterfaceProperty</b> method determines the amount of memory that is necessary to hold the requested device interface property. It allocates enough memory to hold the data, and returns a handle to a framework memory object that describes the allocated memory. To access the data, your driver can call <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>. 
@@ -142,15 +147,24 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 
 
+
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6f73582-5eaf-452f-ad5a-cdf5ab99d809
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, storage.sm_gettargetmapping_in, PSM_GetTargetMapping_IN structure pointer [Storage Devices], SM_GetTargetMapping_IN, _SM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], hbapiwmi/SM_GetTargetMapping_IN, hbapiwmi/PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN
+ms.keywords: SM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], *PSM_GetTargetMapping_IN, hbapiwmi/SM_GetTargetMapping_IN, hbapiwmi/PSM_GetTargetMapping_IN, structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml, _SM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], PSM_GetTargetMapping_IN, storage.sm_gettargetmapping_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetTargetMapping_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN
+req.typenames: "*PSM_GetTargetMapping_IN, SM_GetTargetMapping_IN"
 ---
 
 # _SM_GetTargetMapping_IN structure
@@ -87,6 +87,8 @@ The number of persistent bindings that are associated with the HBA.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetTargetMapping_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

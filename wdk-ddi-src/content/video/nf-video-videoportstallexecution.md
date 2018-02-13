@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70b406f8-d9ac-4882-89bc-e257cbe06921
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportstallexecution, VideoPortStallExecution, video/VideoPortStallExecution, VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, VideoPortStallExecution function [Display Devices]
+ms.keywords: VideoPortStallExecution, video/VideoPortStallExecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, display.videoportstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ Specifies the delay interval, in microseconds.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Maximum acceptable values for <i>Microseconds</i> are thousands of microseconds during miniport driver initialization. Otherwise, the given delay interval must be no more than 50 microseconds. In general, <b>VideoPortStallExecution</b> can be called only if the miniport driver must wait for a very few microseconds for its adapter to update state.
@@ -91,17 +94,28 @@ If a miniport driver has work to be done at regular intervals of more than 50 mi
 
 
 
+
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
-<a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
 
 <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
 
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
+
+
+<a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
+
+
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
 
  
 

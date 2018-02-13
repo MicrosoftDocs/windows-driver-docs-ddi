@@ -40,7 +40,7 @@ apiname:
 -	NetAllocateMdl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # NET_BUFFER_ALLOCATE_MDL_HANDLER callback
@@ -80,12 +80,15 @@ The size of the memory block, in bytes. When calling
 ## -returns
 
 
+
 <i>NetAllocateMdl</i> returns a pointer to the allocated MDL. If the allocation fails, the return value
      is <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the NDIS driver specifies an entry point for the 
@@ -109,12 +112,17 @@ NDIS calls
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
    NdisRetreatNetBufferDataStart</a>
+
+
+
+<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+
+
 
  
 

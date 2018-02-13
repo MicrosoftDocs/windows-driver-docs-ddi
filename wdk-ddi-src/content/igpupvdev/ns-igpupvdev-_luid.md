@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9547d3e1-a811-4b89-be71-f7cf81e92b93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PLUID structure pointer [Network Drivers Starting with Windows Vista], igpupvdev/PLUID, PLUID, wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml, LUID, _LUID, *PLUID, igpupvdev/LUID, netvista.luid, LUID structure [Network Drivers Starting with Windows Vista]
+ms.keywords: LUID, LUID structure [Network Drivers Starting with Windows Vista], netvista.luid, PLUID, PLUID structure pointer [Network Drivers Starting with Windows Vista], igpupvdev/PLUID, igpupvdev/LUID, *PLUID, _LUID, wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

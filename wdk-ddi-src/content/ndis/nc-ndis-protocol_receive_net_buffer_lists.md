@@ -40,7 +40,7 @@ apiname:
 -	ProtocolReceiveNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback
@@ -113,10 +113,12 @@ Flags that define attributes for the send operation. The flags can be combined w
 
 
 
+
 #### NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
 
 
 #### NDIS_RECEIVE_FLAGS_RESOURCES
@@ -126,10 +128,12 @@ Specifies that NDIS reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buff
        <i>ProtocolReceiveNetBufferLists</i> returns.
 
 
+
 #### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
 Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> have the same protocol type (EtherType).
+
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
@@ -138,11 +142,13 @@ Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFF
        <i>NetBufferLists</i> belong to the same VLAN.
 
 
+
 #### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
 
 Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> include only data that matches the packet filter and multicast list that are
        assigned to the miniport adapter.
+
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
@@ -156,6 +162,7 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        NDIS_RECEIVE_QUEUE_PARAMETERS</a> structure when that queue was allocated.
 
 
+
 #### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
@@ -167,6 +174,7 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        deleted.
 
 
+
 #### NDIS_RECEIVE_FLAGS_MORE_NBLS
 
 Reserved.
@@ -175,11 +183,14 @@ Reserved.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>ProtocolReceiveNetBufferLists</i> is a required function for protocol drivers. NDIS calls 
@@ -200,18 +211,24 @@ If NDIS sets the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag the protocol driver ca
     that an underlying driver is running low on receive resources. In this case, the 
     <i>ProtocolReceiveNetBufferLists</i> function should copy the received data into protocol-allocated
     storage and return as quickly as possible.
+
 <div class="alert"><b>Note</b>  If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag is set, the protocol driver must retain
     the original set of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the linked list. For example, when this flag is set the
     driver might process the structures and indicate them up the stack one at a time but before the function
-    returns it must restore the original linked list.</div><div> </div>On a multiprocessor system, this function can execute concurrently on more than one processor. Apply
+    returns it must restore the original linked list.</div>
+<div> </div>
+On a multiprocessor system, this function can execute concurrently on more than one processor. Apply
     protection (for example, use spin locks) to critical data structures that are accessed by 
     <i>ProtocolReceiveNetBufferLists</i>.
 
 NDIS calls 
     <i>ProtocolReceiveNetBufferLists</i> at IRQL&lt;= DISPATCH_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolReceiveNetBufferLists</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolReceiveNetBufferLists</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolReceiveNetBufferLists</i> function that is named "MyReceiveNetBufferLists", use the <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -221,7 +238,9 @@ For example, to define a <i>ProtocolReceiveNetBufferLists</i> function that is n
 <pre>PROTOCOL_RECEIVE_NET_BUFFER_LISTS MyReceiveNetBufferLists;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -240,29 +259,45 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
 <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
    MiniportReturnNetBufferLists</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
+
+
 
  
 

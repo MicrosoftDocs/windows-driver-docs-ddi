@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aac658d9-b90a-4724-9dc4-af3a561f64bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddvdeo/VIDEO_MODE_INFORMATION, ntddvdeo/PVIDEO_MODE_INFORMATION, Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, _VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], VIDEO_MODE_INFORMATION structure [Display Devices], PVIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION, display.video_mode_information
+ms.keywords: ntddvdeo/PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION, ntddvdeo/VIDEO_MODE_INFORMATION, display.video_mode_information, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], VIDEO_MODE_INFORMATION structure [Display Devices], _VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION, Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, VIDEO_MODE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -169,6 +169,7 @@ Is the blue color mask for a device with direct color modes. For example, to ind
 ### -field AttributeFlags
 
 Is a set of flags indicating certain behavior for the device. The flags and their meanings are shown in the following table.
+
 <table>
 <tr>
 <th>Flag Name</th>
@@ -337,7 +338,8 @@ VIDEO_MODE_NO_64_BIT_ACCESS
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VideoMemoryBitmapWidth
@@ -358,6 +360,7 @@ Is a set of flags indicating certain behavior for the device. These private flag
 ## -remarks
 
 
+
 The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures in response to an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a> request, with each structure containing information about one mode of the adapter. The miniport driver returns one VIDEO_MODE_INFORMATION structure that contains information about the adapter's current mode in response to an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a> request.
 
 
@@ -376,13 +379,20 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 
 
+
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
+
+
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+
+
 
  
 

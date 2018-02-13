@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e58def50-3e35-43d9-9f7e-31283256b204
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdffdo/WdfFdoInitQueryProperty, WdfFdoInitQueryProperty method, DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, kmdf.wdffdoinitqueryproperty, wdf.wdffdoinitqueryproperty, WdfFdoInitQueryProperty, PFN_WDFFDOINITQUERYPROPERTY
+ms.keywords: DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, PFN_WDFFDOINITQUERYPROPERTY, wdf.wdffdoinitqueryproperty, kmdf.wdffdoinitqueryproperty, WdfFdoInitQueryProperty, wdffdo/WdfFdoInitQueryProperty, WdfFdoInitQueryProperty method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitQueryProperty
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A caller-supplied location that, on return, contains the size, in bytes, of the 
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,13 +147,16 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Before receiving device property data, drivers typically must make an initial call to <b>WdfFdoInitQueryProperty</b> to obtain the required buffer size. For some properties, the data size can change between the time that the required size is returned and the time that the driver calls this routine again. Therefore, drivers should call <b>WdfFdoInitQueryProperty</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
@@ -167,12 +172,65 @@ For more information about the <b>WdfFdoInitQueryProperty</b> method, see <a hre
 Alternatively, you can use <a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a> to access device properties that are exposed through the Unified Property Model.
 
 
+#### Examples
+
+The following code example obtains a Unicode string that represents the name of a device's enumerator and returns <b>TRUE</b> if the string is "PCI".
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status = STATUS_SUCCESS;
+WCHAR  enumeratorName[64] = {0};
+ULONG  returnSize;
+UNICODE_STRING  unicodeEnumName, temp;
+
+status = WdfFdoInitQueryProperty(
+                                 DeviceInit,
+                                 DevicePropertyEnumeratorName,
+                                 sizeof(enumeratorName),
+                                 enumeratorName,
+                                 &amp;returnSize
+                                 );
+if(!NT_SUCCESS(status)){
+    return status;
+}
+
+RtlInitUnicodeString(
+                     &amp;unicodeEnumName,
+                     enumeratorName
+                     );
+RtlInitUnicodeString(
+                     &amp;temp,
+                     L"PCI"
+                     );
+if(RtlCompareUnicodeString(
+                           &amp;unicodeEnumName,
+                           &amp;temp,
+                           TRUE
+                           ) == 0) {
+    //
+    // This device is a PCI device.
+    //
+    return TRUE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandqueryproperty.md">WdfFdoInitAllocAndQueryProperty</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
+
+
 
  
 

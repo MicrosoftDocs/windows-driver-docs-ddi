@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a8c7eb0d-792f-4a6c-af47-bb4558feb790
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DocumentPropertySheets method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, DocumentPropertySheets method [Print Devices], print.iprintoemui_documentpropertysheets, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml, IPrintOemUI::DocumentPropertySheets, prcomoem/IPrintOemUI::DocumentPropertySheets, DocumentPropertySheets, IPrintOemUI
+ms.keywords: DocumentPropertySheets method [Print Devices], IPrintOemUI, DocumentPropertySheets, IPrintOemUI::DocumentPropertySheets, print.iprintoemui_documentpropertysheets, IPrintOemUI interface [Print Devices], DocumentPropertySheets method, prcomoem/IPrintOemUI::DocumentPropertySheets, DocumentPropertySheets method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.DocumentPropertySheets
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -92,11 +92,14 @@ PROPSHEETUI_REASON_SET_RESULT
 ## -returns
 
 
+
 The return value depends on the contents of the PROPSHEETUI_INFO structure's <b>Reason</b> member. For more information, see the description of <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>.
 
 
 
+
 ## -remarks
+
 
 
 A user interface plug-in's <code>IPrintOemUI::DocumentPropertySheets</code> method performs the same types of operations as the <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function that is exported by user-mode printer interface DLLs. Both functions have the same input parameters.
@@ -115,13 +118,20 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
-## -see-also
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
+
+
 <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
+
+
+<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+
+
 
  
 

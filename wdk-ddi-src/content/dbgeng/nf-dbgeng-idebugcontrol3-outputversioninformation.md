@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cbf688b4-a174-4ab0-af98-2c0db1b2ab3a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputVersionInformation, debugger.outputversioninformation, OutputVersionInformation method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::OutputVersionInformation, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, dbgeng/IDebugControl2::OutputVersionInformation, dbgeng/IDebugControl3::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, IDebugControl3::OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, OutputVersionInformation method [Windows Debugging], IDebugControl::OutputVersionInformation, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, IDebugControl2::OutputVersionInformation, IDebugControl3, IDebugControl interface [Windows Debugging], OutputVersionInformation method
+ms.keywords: IDebugControl2, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, OutputVersionInformation, IDebugControl3::OutputVersionInformation, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, IDebugControl3, dbgeng/IDebugControl3::OutputVersionInformation, IDebugControl::OutputVersionInformation, dbgeng/IDebugControl::OutputVersionInformation, debugger.outputversioninformation, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, IDebugControl, dbgeng/IDebugControl2::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl interface, IDebugControl2::OutputVersionInformation, IDebugControl interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, OutputVersionInformation method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Specifies where to send the output.  For possible values, see <a href="https://m
 ## -returns
 
 
+
 This method may also return other error values, including error values caused by the engine being busy.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,15 +96,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The information that is sent to the output can include the mode of the debugger, the path and version of the debugger DLLs, the extension DLL search path, the extension DLL chain, and the version of the operating system that is running on the host computer.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 

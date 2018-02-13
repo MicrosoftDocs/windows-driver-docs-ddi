@@ -7,8 +7,8 @@ old-location: buses\ucm_pd_conn_state.htm
 old-project: usbref
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucmtypes/UcmPdConnStateNegotiationSucceeded, UCM_PD_CONN_STATE enumeration [Buses], ucmtypes/UcmPdConnStateInvalid, buses.ucm_pd_conn_state, ucmtypes/UCM_PD_CONN_STATE, UcmPdConnStateInvalid, UcmPdConnStateNegotiationSucceeded, _UCM_PD_CONN_STATE, UcmPdConnStateNegotiationFailed, UcmPdConnStateNotSupported, UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNotSupported
+ms.date: 2/8/2018
+ms.keywords: "_UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNegotiationSucceeded, UcmPdConnStateNotSupported, UcmPdConnStateInvalid, UCM_PD_CONN_STATE, buses.ucm_pd_conn_state, ucmtypes/UCM_PD_CONN_STATE, UcmPdConnStateNegotiationSucceeded, UCM_PD_CONN_STATE enumeration [Buses], ucmtypes/UcmPdConnStateNotSupported, ucmtypes/UcmPdConnStateInvalid, UcmPdConnStateNegotiationFailed"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,9 +95,11 @@ Indicates the PD negotiation succeeded.
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_PD_CONN_STATE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_PD_CONN_STATE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawWriteCommand method [Imaging Devices], IStiUSD interface, image.istiusd_rawwritecommand, IStiUSD::RawWriteCommand, IStiUSD interface [Imaging Devices], RawWriteCommand method, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, RawWriteCommand, stiusd/IStiUSD::RawWriteCommand, RawWriteCommand method [Imaging Devices], IStiUSD
+ms.keywords: RawWriteCommand method [Imaging Devices], IStiUSD interface [Imaging Devices], RawWriteCommand method, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, IStiUSD, image.istiusd_rawwritecommand, RawWriteCommand, stiusd/IStiUSD::RawWriteCommand, RawWriteCommand method [Imaging Devices], IStiUSD interface, IStiUSD::RawWriteCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,11 +88,14 @@ Optional, caller-supplied pointer to an OVERLAPPED structure (described in the M
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 It is only necessary to call <b>IStiUSD::RawWriteCommand</b> if commands and data are written to a device by different methods. For other devices, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543839">IStiUSD::RawWriteData</a> can be used for both commands and data. If the call is not implemented, it must return STIERR_UNSUPPORTED.
@@ -101,9 +104,12 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
+
+
 
  
 

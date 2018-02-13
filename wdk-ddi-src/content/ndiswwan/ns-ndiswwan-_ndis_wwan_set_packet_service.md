@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bded1e89-3bb5-4241-ab44-875012bfad3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE, WwanRef_b98b2778-6d41-426f-85c3-99add8477050.xml, *PNDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE, netvista.ndis_wwan_set_packet_service, _NDIS_WWAN_SET_PACKET_SERVICE
+ms.keywords: netvista.ndis_wwan_set_packet_service, ndiswwan/PNDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE, _NDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SET_PACKET_SERVICE, WwanRef_b98b2778-6d41-426f-85c3-99add8477050.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_PAC
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SET_PACKET_SERVICE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -129,7 +131,11 @@ A value from the
 
 <a href="..\wwan\ne-wwan-_wwan_packet_service_action.md">WWAN_PACKET_SERVICE_ACTION</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

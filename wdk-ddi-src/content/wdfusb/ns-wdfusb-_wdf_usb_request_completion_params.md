@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cd29d27c-9da2-477f-898e-13ee480aac9e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, PWDF_USB_REQUEST_COMPLETION_PARAMS, _WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS, kmdf.wdf_usb_request_completion_params, wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS structure, WDF_USB_REQUEST_COMPLETION_PARAMS, wdf.wdf_usb_request_completion_params
+ms.keywords: wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS, _WDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS structure, wdf.wdf_usb_request_completion_params, kmdf.wdf_usb_request_completion_params, WDF_USB_REQUEST_COMPLETION_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_REQUEST_COMPLETION_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
+req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -100,12 +100,20 @@ typedef struct _WDF_USB_REQUEST_COMPLETION_PARAMS {
 
 
 
+### -field UsbdStatus
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_STATUS</a>-typed status value that the I/O target returned.
+
+
+### -field Type
+
+A <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
+
+
 ### -field Parameters
 
 
-
 ### -field Parameters.DeviceString
-
 
 
 ### -field Parameters.DeviceString.Buffer
@@ -133,7 +141,6 @@ If the driver called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatreques
 ### -field Parameters.DeviceControlTransfer
 
 
-
 ### -field Parameters.DeviceControlTransfer.Buffer
 
 If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>, this member contains the driver-supplied handle to the memory object that receives input or output data.
@@ -154,14 +161,12 @@ If the driver called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatreques
 ### -field Parameters.DeviceUrb
 
 
-
 ### -field Parameters.DeviceUrb.Buffer
 
 If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md">WdfUsbTargetDeviceFormatRequestForUrb</a>, this member contains the driver-supplied handle to the memory object that contains a <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
 
 ### -field Parameters.PipeWrite
-
 
 
 ### -field Parameters.PipeWrite.Buffer
@@ -184,7 +189,6 @@ If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequ
 ### -field Parameters.PipeRead
 
 
-
 ### -field Parameters.PipeRead.Buffer
 
 If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforread.md">WdfUsbTargetPipeFormatRequestForRead</a>, this member contains the driver-supplied handle to the memory object that contains data that was read from the pipe.
@@ -205,36 +209,33 @@ If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequ
 ### -field Parameters.PipeUrb
 
 
-
 ### -field Parameters.PipeUrb.Buffer
 
 If the driver has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforurb.md">WdfUsbTargetPipeFormatRequestForUrb</a>, this member contains the driver-supplied handle to the memory object that contains a <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
 
-### -field UsbdStatus
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_STATUS</a>-typed status value that the I/O target returned.
-
-
-### -field Type
-
-A <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
-
-
 ## -remarks
+
 
 
 The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
 
 
+
 ## -see-also
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
+
+
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
+
 
  
 

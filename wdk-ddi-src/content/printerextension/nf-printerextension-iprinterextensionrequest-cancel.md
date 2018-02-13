@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterExtensionRequest::Cancel, print.iprinterextensionrequest_cancel, IPrinterExtensionRequest, IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface, Cancel method [Print Devices], IPrinterExtensionRequest interface [Print Devices], Cancel method, Cancel
+ms.keywords: print.iprinterextensionrequest_cancel, printerextension/IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface [Print Devices], Cancel method, IPrinterExtensionRequest, IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface, Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,13 +87,17 @@ The operation result.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a>
+
+
 
  
 

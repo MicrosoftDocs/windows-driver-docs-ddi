@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_SET_SPEED
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_SET_SPEED IOCTL
@@ -85,14 +85,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,6 +108,8 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 ## -remarks
 
 
+
 For an explanation of function and purpose of this request, see <a href="https://msdn.microsoft.com/25a46b23-f823-4fc7-a370-cab1c9418a94">CD-ROM Set Speed</a>.
+
 
 

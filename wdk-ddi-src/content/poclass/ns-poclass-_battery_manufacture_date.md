@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 1ab9caa3-344a-49c8-8f40-75d9c251be04
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PBATTERY_MANUFACTURE_DATE structure pointer [Battery Devices], PBATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE, _BATTERY_MANUFACTURE_DATE, bat-struct_7c707930-4017-4761-94fc-e4322cd6ead9.xml, battery.battery_manufacture_date, BATTERY_MANUFACTURE_DATE, poclass/BATTERY_MANUFACTURE_DATE, poclass/PBATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE structure [Battery Devices]
+ms.keywords: bat-struct_7c707930-4017-4761-94fc-e4322cd6ead9.xml, PBATTERY_MANUFACTURE_DATE structure pointer [Battery Devices], PBATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE, poclass/BATTERY_MANUFACTURE_DATE, _BATTERY_MANUFACTURE_DATE, poclass/PBATTERY_MANUFACTURE_DATE, battery.battery_manufacture_date, BATTERY_MANUFACTURE_DATE, BATTERY_MANUFACTURE_DATE structure [Battery Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -87,6 +87,8 @@ Specifies a value &gt;= 1996.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
+
+
 
  
 

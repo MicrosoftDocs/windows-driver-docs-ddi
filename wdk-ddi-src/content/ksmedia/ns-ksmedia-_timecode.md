@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PTIMECODE, TIMECODE, ksmedia/PTIMECODE, stream.timecode, PTIMECODE union pointer [Streaming Media Devices], ksmedia/TIMECODE, PTIMECODE, _timecode, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, TIMECODE union [Streaming Media Devices]"
+ms.keywords: PTIMECODE union pointer [Streaming Media Devices], _timecode, *PTIMECODE, ksmedia/TIMECODE, PTIMECODE, ksmedia/PTIMECODE, stream.timecode, TIMECODE, TIMECODE union [Streaming Media Devices], vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,13 +95,17 @@ Specifies the timecode as a quad-word.
 ## -remarks
 
 
+
 This structure is defined for the purpose of searching to a timecode based on an absolute track number (ATN) and/or relative time counter (RTC). However, not all devices support searching to a timecode using this structure.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/f3ff3815-0f4f-4fcb-89bd-e77d8002813c">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
+
+
 
  
 

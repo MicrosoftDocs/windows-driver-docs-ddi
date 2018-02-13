@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e1f6a57-bc48-41c6-815c-6a44e8d01699
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetProcessId, k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, ntddk/PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], kernel.psgetprocessid
+ms.keywords: PsGetProcessId routine [Kernel-Mode Driver Architecture], ntddk/PsGetProcessId, PsGetProcessId, k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetProcessId
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetProcessId function
@@ -75,22 +75,30 @@ A pointer to a process object structure.
 ## -returns
 
 
+
 <b>PsGetProcessId</b> returns the process ID of the process that the <i>Process</i> parameter specifies.
+
 
 
 
 ## -remarks
 
 
+
 The EPROCESS-typed process object structure is an opaque data structure that the operating system uses internally. To obtain a pointer to the EPROCESS structure for the current process, a driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>. To obtain a pointer to the EPROCESS structure for a different process, the driver can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
 
  
 

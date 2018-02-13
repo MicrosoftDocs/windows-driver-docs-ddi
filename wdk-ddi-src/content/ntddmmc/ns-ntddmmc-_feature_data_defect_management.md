@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff032dbd-8c84-4442-bbd5-a27b61617d47
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml, FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, _FEATURE_DATA_DEFECT_MANAGEMENT, storage.feature_data_defect_management, ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices]
+ms.keywords: PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml, PFEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT, _FEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT, storage.feature_data_defect_management
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_DEFECT_MANAGEMENT
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT"
+req.typenames: FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT
 ---
 
 # _FEATURE_DATA_DEFECT_MANAGEMENT structure
@@ -93,15 +93,21 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "Defect Management" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature are able to provide contiguous address space that is guaranteed to be defect free. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

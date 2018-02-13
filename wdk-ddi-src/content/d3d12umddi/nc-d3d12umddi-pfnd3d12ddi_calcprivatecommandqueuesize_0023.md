@@ -74,8 +74,9 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,13 +96,17 @@ An argument used to create a command queue.
 ## -returns
 
 
+
 The size of the queue.
+
 
 
 
 ## -remarks
 
 
+
 Access this callback function by using a device functions core structure, such as the <b>D3D12DDI_DEVICE_FUNCS_CORE_0003</b> structure.
+
 
 

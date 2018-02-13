@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportfreetimer, StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storport/StorPortFreeTimer
+ms.keywords: storage.storportfreetimer, StorPortFreeTimer routine [Storage Devices], storport/StorPortFreeTimer, StorPortFreeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to an opaque buffer for the timer context returned by <a href="..\stor
 ## -returns
 
 
+
 The <b>StorPortFreeTimer</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,14 +145,18 @@ The timer is already free.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer needed or when the miniport receives a PnP SRB notification  that the adapter is removed.
+
 
 
 
@@ -158,9 +164,15 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+
 
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+
+
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+
+
 
  
 

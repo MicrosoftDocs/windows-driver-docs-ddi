@@ -40,7 +40,7 @@ apiname:
 -	MiniportCancelIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_CANCEL_IDLE_NOTIFICATION callback
@@ -81,16 +81,20 @@ A handle to a context area that the miniport driver allocated in its <a href="..
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <i>MiniportCancelIdleNotification</i> handler function is required for miniport drivers that support the NDIS selective suspend interface. For more information about how the driver registers its selective suspend handler functions, see <a href="https://msdn.microsoft.com/D4125F14-8356-4D9E-A287-D35D3BF69182">Registering NDIS Selective Suspend Handler Functions</a>.
 
 NDIS calls the miniport driver's <a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a> handler function to start an NDIS selective suspend operation on an idle network adapter. After the network adapter has been suspended and transitioned to a low-power state, NDIS can cancel the outstanding idle notification if any of the following conditions are true:
+
 <ul>
 <li>
 An overlying protocol or filter driver issues either a send packet request or an OID request to the miniport driver. 
@@ -102,7 +106,8 @@ The underlying adapter signals a wake-up event, such as receiving a packet that 
 
 
 </li>
-</ul>NDIS cancels the idle notification by calling <i>MiniportCancelIdleNotification</i>. When this handler function is called, the miniport driver first cancels any bus-specific I/O request packets (IRPs) that it may have previously issued for the idle notification. 
+</ul>
+NDIS cancels the idle notification by calling <i>MiniportCancelIdleNotification</i>. When this handler function is called, the miniport driver first cancels any bus-specific I/O request packets (IRPs) that it may have previously issued for the idle notification. 
 Finally, the miniport driver calls <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a> to complete the idle notification.
 
 For more information about how NDIS cancels the idle notification, see <a href="https://msdn.microsoft.com/14C19F15-9D0E-4F37-942C-7F7AFE1EBA0B">Canceling the NDIS Selective Suspend Idle Notification</a>.
@@ -111,15 +116,24 @@ For guidelines on how to implement the <i>MiniportCancelIdleNotification</i> han
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
-
-<a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>
 
 <a href="..\ndis\nf-ndis-ndismidlenotificationcomplete.md">NdisMIdleNotificationComplete</a>
 
+
+
+<a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
+
+
+
 <b></b>
+
+
 
  
 

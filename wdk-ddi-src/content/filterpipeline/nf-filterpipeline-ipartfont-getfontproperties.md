@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetFontProperties method [Print Devices], IPartFont interface, IPartFont interface [Print Devices], GetFontProperties method, GetFontProperties, IPartFont::GetFontProperties, print.ipartfont_getfontproperties, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, filterpipeline/IPartFont::GetFontProperties, IPartFont, GetFontProperties method [Print Devices]
+ms.keywords: print.ipartfont_getfontproperties, GetFontProperties method [Print Devices], IPartFont interface, GetFontProperties, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, IPartFont::GetFontProperties, IPartFont interface [Print Devices], GetFontProperties method, filterpipeline/IPartFont::GetFontProperties, IPartFont, GetFontProperties method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,8 @@ A pointer to the options of the font.
 ## -returns
 
 
+
 <b>GetFontProperties</b> returns an <b>HRESULT</b> value.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 65999499-C14C-45CC-B7A5-021750B1A728
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response, NDIS_WWAN_DEVICE_SERVICE_RESPONSE
+ms.keywords: PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response, _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
+req.typenames: "*PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE"
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_DEVICE_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_RESPONSE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -129,6 +131,7 @@ The status of the completion of the command.
 
 
 
+
 #### - ResponseData
 
 The response from the completion of the device service command.
@@ -137,6 +140,8 @@ The response from the completion of the device service command.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_service_response.md">WWAN_DEVICE_SERVICE_RESPONSE</a>
+
+
 
  
 

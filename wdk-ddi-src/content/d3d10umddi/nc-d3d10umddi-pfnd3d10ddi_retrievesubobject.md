@@ -40,7 +40,7 @@ apiname:
 -	RetrieveSubObject(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_RETRIEVESUBOBJECT callback
@@ -78,10 +78,10 @@ HRESULT APIENTRY* RetrieveSubObject(D3D11_1)(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param SubDeviceID [in]
 
 The function table being retrieved, with the following possible values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -111,7 +111,8 @@ Supported starting with WDDM 2.0.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ParamSize [in]
@@ -144,12 +145,15 @@ A handle to the display device (graphics context).
 ## -returns
 
 
+
 Returns S_OK if the operation succeeds. Otherwise, this function returns an appropriate error result. 
 
 
 
 
+
 ## -remarks
+
 
 
 The Direct3D runtime considers the retrieved subparts to be appended to the Direct3D driver device object and expects  them to be destroyed along with the rest of the device when <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a> is called.
@@ -160,13 +164,20 @@ This function is free-threaded.
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a>
+## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a>
+
+
 
  
 

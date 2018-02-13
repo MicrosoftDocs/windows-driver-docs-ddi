@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete, condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmCloseCallComplete
+ms.keywords: NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete, condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCmCloseCallComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmCloseCallComplete macro
@@ -87,6 +87,8 @@ TBD
 
 
 
+
+
 #### - Status [in]
 
 Specifies the final status of the client's request that the MCM driver close the connection,
@@ -113,6 +115,7 @@ Specifies either <b>NULL</b> if the
 
 
 ## -remarks
+
 
 
 If an MCM driver's 
@@ -142,21 +145,36 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 <a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+
+
 
  
 

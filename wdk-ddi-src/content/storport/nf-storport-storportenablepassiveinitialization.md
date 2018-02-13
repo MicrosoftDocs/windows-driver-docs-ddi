@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 881253d2-b44d-4c41-ad72-b0143dc50803
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_faea18e4-c684-4010-aca4-177132c011c5.xml, StorPortEnablePassiveInitialization, storport/StorPortEnablePassiveInitialization, storage.storportenablepassiveinitialization, StorPortEnablePassiveInitialization routine [Storage Devices]
+ms.keywords: storport/StorPortEnablePassiveInitialization, storprt_faea18e4-c684-4010-aca4-177132c011c5.xml, StorPortEnablePassiveInitialization, storage.storportenablepassiveinitialization, StorPortEnablePassiveInitialization routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - HwDeviceExtension [in]
 
 Pointer to the per-adapter device extension. 
@@ -93,11 +94,14 @@ Pointer to a callback routine that the port driver calls at PASSIVE_LEVEL to ini
 ## -returns
 
 
+
 The <b>StorPortEnablePassiveInitialization</b> routine returns <b>TRUE</b> if the operating system supports DPCs, and <b>FALSE</b> if not. 
 
 
 
+
 ## -remarks
+
 
 
 A miniport must call the <b>StorPortEnablePassiveInitialization</b> routine only from within <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>. Otherwise, <b>StorPortEnablePassiveInitialization</b> will return <b>FALSE</b> and the <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a> routine will not execute.
@@ -106,9 +110,12 @@ This routine is implemented using inline function definitions, so that miniport 
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
+
+
 
  
 

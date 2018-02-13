@@ -7,8 +7,8 @@ old-location: sensors\pedometer_step_type_count.htm
 old-project: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], sensors.pedometer_step_type_count, PedometerStepTypeCount, sensorsdef/PedometerStepTypeCount, sensorsdef/PEDOMETER_STEP_TYPE_COUNT
+ms.date: 2/8/2018
+ms.keywords: sensorsdef/PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT, sensors.pedometer_step_type_count, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], sensorsdef/PedometerStepTypeCount, PedometerStepTypeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -77,9 +77,11 @@ The number of step types that can be detected.
 
 <a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type.md">PEDOMETER_STEP_TYPE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20PEDOMETER_STEP_TYPE_COUNT enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20PEDOMETER_STEP_TYPE_COUNT enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b95ca8c-604b-4497-9798-02f362095709
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolRegister, GetSymbolRegister, ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolRegister method, debugger.getsymbolregister, IDebugSymbolGroup2::GetSymbolRegister, GetSymbolRegister method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolRegister method [Windows Debugging]
+ms.keywords: GetSymbolRegister method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolRegister, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolRegister method, debugger.getsymbolregister, ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, GetSymbolRegister method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolRegister, IDebugSymbolGroup2::GetSymbolRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,6 +81,7 @@ The index of the register that contains the value or a pointer to the value of t
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,24 +109,32 @@ The symbol's value and a pointer to it are not contained in a register, or the r
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.  For more information about registers and the register index, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
 
  
 

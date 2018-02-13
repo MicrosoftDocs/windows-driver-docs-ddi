@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db64c160-9db6-4b23-af14-e64acdb9ef57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, protocol_structures_ref_57fab3c7-f838-4a3f-a818-04d26e38cdc0.xml, *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, netvista.ndis_protocol_driver_characteristics, _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, netvista.ndis_protocol_driver_characteristics, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, protocol_structures_ref_57fab3c7-f838-4a3f-a818-04d26e38cdc0.xml, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,6 +103,7 @@ To indicate the version of the <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> struc
 
 
 
+
 #### NDIS_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_2
 
 Added the 
@@ -111,6 +112,7 @@ Added the
 Set the 
         <b>Size</b> member to
         NDIS_SIZEOF_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_2.
+
 
 
 #### NDIS_PROTOCOL_DRIVER_CHARACTERISTICS_REVISION_1
@@ -131,6 +133,7 @@ The major version of the NDIS library the protocol driver is using. The current 
 ### -field MinorNdisVersion
 
 The minor NDIS version. The following are the available minor version value settings.
+
 <table>
 <tr>
 <th>Value</th>
@@ -235,7 +238,8 @@ NDIS 6.80
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MajorDriverVersion
@@ -346,6 +350,7 @@ The entry point of the caller's
 ## -remarks
 
 
+
 A protocol driver calls the 
     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
     NdisRegisterProtocolDriver</a> function to register its characteristics, including the default entry
@@ -356,38 +361,65 @@ A protocol driver calls the
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
-   ProtocolCloseAdapterCompleteEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_uninstall.md">ProtocolUninstall</a>
 
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
-
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
    ProtocolReceiveNetBufferLists</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+   ProtocolDirectOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+   ProtocolSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+   ProtocolCloseAdapterCompleteEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_uninstall.md">ProtocolUninstall</a>
+
+
 
  
 

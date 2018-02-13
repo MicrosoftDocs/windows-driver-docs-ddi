@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], display.d3dkmt_waitforsynchronizationobjectfromcpu
+ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,6 +100,7 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
 ### -field Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
+
 <table>
 <tr>
 <th>Value</th>
@@ -127,14 +128,19 @@ The wait condition is considered to be satisfied when any of the input synchroni
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a>
+
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a>
+
 
  
 

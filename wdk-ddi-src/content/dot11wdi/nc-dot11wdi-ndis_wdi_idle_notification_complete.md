@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiIdleNotificationComplete
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback
@@ -80,7 +80,9 @@ The miniport handle.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -88,9 +90,15 @@ This callback function does not return a value.
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
+
+
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_idle_notification.md">MiniportWdiIdleNotification</a>
 
+
+
 <a href="https://msdn.microsoft.com/2330A8EE-DC8B-4244-935C-DEF20A6EB5E7">Completing the NDIS Selective Suspend Idle Notification</a>
+
+
 
  
 

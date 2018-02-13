@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiTxAbortConfirm
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_TX_ABORT_CONFIRM callback
@@ -80,13 +80,17 @@ The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wd
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+
+
 
  
 

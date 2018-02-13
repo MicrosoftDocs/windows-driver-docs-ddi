@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 952BE36C-0F53-47C3-9C95-E6ECAB9D36D1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], display.dxvahdddi_nominal_range, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, _DXVAHDDDI_NOMINAL_RANGE
+ms.keywords: d3dumddi/DXVAHDDDI_NOMINAL_RANGE, display.dxvahdddi_nominal_range, DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], _DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_0_255
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,6 +87,8 @@ The <i>full luminance range</i>, or <i>extended range</i>, of 0 to 255, inclusiv
 ## -remarks
 
 
+
 For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex, condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, NdisMCmRegisterAddressFamilyEx, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], NdisMCmRegisterAddressFamilyEx, condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCmRegisterAddressFamilyEx
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmRegisterAddressFamilyEx function
@@ -95,7 +95,9 @@ The pointer becomes an input parameter to the
 ## -returns
 
 
+
 <b>NdisMCmRegisterAddressFamilyEx</b> can return any of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,11 +153,14 @@ The caller tried to register a duplicate AF for a given miniport adapter.
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS MCMs, which register as NDIS miniport drivers by calling the 
@@ -198,31 +203,54 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
    NdisCmRegisterAddressFamilyEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
-   ProtocolCoOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+
 
  
 

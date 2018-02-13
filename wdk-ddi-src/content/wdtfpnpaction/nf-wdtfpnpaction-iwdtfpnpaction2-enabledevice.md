@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: f11d31ec-71fb-4110-949c-6d33671dc85c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFPNPAction2::EnableDevice, Microsoft.WDTF.IWDTFPNPAction2.EnableDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], EnableDevice method, IWDTFPNPAction2::EnableDevice, dtf.iwdtfpnpaction2_enabledevice, EnableDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, wdtfpnpaction/IWDTFPNPAction2::EnableDevice, EnableDevice method [Windows Device Testing Framework], IWDTFPNPAction2, EnableDevice
+ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework], EnableDevice method, Microsoft.WDTF.IWDTFPNPAction2.EnableDevice, IWDTFPNPAction2, EnableDevice method [Windows Device Testing Framework], EnableDevice, EnableDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, Microsoft::WDTF::IWDTFPNPAction2::EnableDevice, IWDTFPNPAction2::EnableDevice, dtf.iwdtfpnpaction2_enabledevice, wdtfpnpaction/IWDTFPNPAction2::EnableDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

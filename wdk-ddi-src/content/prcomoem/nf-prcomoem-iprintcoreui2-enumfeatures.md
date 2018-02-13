@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, IPrintCoreUI2, EnumFeatures method [Print Devices], IPrintCoreUI2 interface, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, EnumFeatures method [Print Devices], EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures
+ms.keywords: IPrintCoreUI2, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, print.iprintcoreui2_enumfeatures, EnumFeatures method [Print Devices], IPrintCoreUI2 interface, EnumFeatures method [Print Devices], IPrintCoreUI2 interface [Print Devices], EnumFeatures method, IPrintCoreUI2::EnumFeatures, EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.EnumFeatures
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -102,7 +102,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the fea
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,11 +156,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
@@ -171,11 +176,16 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553052">IPrintCoreUI2::EnumOptions</a>
 
+
+
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
 
  
 

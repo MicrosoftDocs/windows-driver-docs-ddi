@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18312157-f41c-474d-9cf4-446d8b189c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml, netvista.fwps_packet_list_outbound_ipsec_information0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0
+ms.keywords: fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml, netvista.fwps_packet_list_outbound_ipsec_information0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,9 +97,11 @@ A value that indicates whether the packet list matched an IP-in-IP filter for IP
 ## -remarks
 
 
+
 An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a member of the 
     <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
     FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure.
+
 
 
 
@@ -107,6 +109,8 @@ An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a membe
 
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
+
+
 
  
 

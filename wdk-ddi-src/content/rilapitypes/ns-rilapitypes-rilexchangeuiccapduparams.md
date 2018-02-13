@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0bbdfb04-70a9-4ded-9947-6f082940cfa0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduparams_2, *LPRILEXCHANGEUICCAPDUPARAMS
+ms.keywords: "*LPRILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduparams_2, RILEXCHANGEUICCAPDUPARAMS, rilapitypes/RILEXCHANGEUICCAPDUPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILEXCHANGEUICCAPDUPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS"
+req.typenames: RILEXCHANGEUICCAPDUPARAMS, *LPRILEXCHANGEUICCAPDUPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -74,15 +74,11 @@ typedef struct _RILEXCHANGEUICCAPDUPARAMS {
 ### -field dwSlotIndex
 
 
-
 ### -field dwChannelId
-
 
 
 ### -field dwAPDULength
 
 
-
 ### -field bAPDU
-
 

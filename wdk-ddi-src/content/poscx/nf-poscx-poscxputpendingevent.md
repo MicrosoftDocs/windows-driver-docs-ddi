@@ -112,7 +112,9 @@ The event attributes.
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -128,13 +130,17 @@ Possible return values are:
 <td>Other errors</td>
 <td>Other appropriate failure error codes.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\poscx\ne-poscx-_pos_cx_event_attributes.md">POS_CX_EVENT_ATTRIBUTES</a>
+
+
 
  
 

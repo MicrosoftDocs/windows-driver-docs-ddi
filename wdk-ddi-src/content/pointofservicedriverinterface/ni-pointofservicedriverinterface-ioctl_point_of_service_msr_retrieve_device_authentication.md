@@ -85,14 +85,18 @@ Size of the output buffer, in bytes. Set to sizeof(<b>MSR_RETRIEVE_DEVICE_AUTHEN
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,9 @@ To get extended error information, call <a href="http://go.microsoft.com/fwlink/
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
+
+
 
 

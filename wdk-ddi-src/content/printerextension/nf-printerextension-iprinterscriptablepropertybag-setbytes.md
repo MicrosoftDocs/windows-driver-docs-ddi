@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 517CF135-A5D7-4C99-8592-59934E24DEE3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterScriptablePropertyBag, printerextension/IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, IPrinterScriptablePropertyBag::SetBytes, SetBytes, print.iprinterscriptablepropertybag_setbytes, SetBytes method [Print Devices]
+ms.keywords: SetBytes, printerextension/IPrinterScriptablePropertyBag::SetBytes, IPrinterScriptablePropertyBag, print.iprinterscriptablepropertybag_setbytes, SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,6 +80,7 @@ The array to write to.
 
 
 
+
 #### - pdispArray [in]
 
 The JavaScript array to write.
@@ -88,20 +89,26 @@ The JavaScript array to write.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 A call to <b>SetBytes</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SERCX_STATUS, SERCX_STATUS, 1/SerCxStatusTimeout, 1/SerCxStatusSuccess, SerCxStatusCancelled, *PSERCX_STATUS, SerCxStatusTimeout, _SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], serports.sercx_status, 1/SerCxStatusCancelled, SerCxStatusSuccess
+ms.keywords: SerCxStatusSuccess, SERCX_STATUS, 1/SerCxStatusTimeout, 1/SerCxStatusCancelled, _SERCX_STATUS, 1/SERCX_STATUS, *PSERCX_STATUS, 1/SerCxStatusSuccess, SerCxStatusTimeout, SerCxStatusCancelled, serports.sercx_status, SERCX_STATUS enumeration [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,7 +88,9 @@ The operation timed out. This enumeration value applies only to read interval ti
 ## -remarks
 
 
+
 The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> and <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> methods have parameters that are <b>SERCX_STATUS</b> enumeration values.
+
 
 
 
@@ -96,9 +98,15 @@ The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
 
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+
+
 
  
 

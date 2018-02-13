@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88c64e9a-dbf2-4feb-9ce2-615b5ba98439
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_d_5e665782-95c2-4fca-bd49-cb364c449540.xml, wdm/PREG_QUERY_KEY_INFORMATION, *PREG_QUERY_KEY_INFORMATION, _REG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_query_key_information, PREG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_INFORMATION, wdm/REG_QUERY_KEY_INFORMATION
+ms.keywords: wdm/PREG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/REG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION, kstruct_d_5e665782-95c2-4fca-bd49-cb364c449540.xml, _REG_QUERY_KEY_INFORMATION, kernel.reg_query_key_information, REG_QUERY_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_QUERY_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_QUERY_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: REG_QUERY_KEY_INFORMATION, *PREG_QUERY_KEY_INFORMATION
+req.typenames: "*PREG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -118,19 +118,27 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 
+
 The system passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to query the metadata for a key—for example, when a user-mode thread calls <b>RegQueryInfoKey</b> or when a driver calls <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3990d67-aa0c-4d17-9126-80fdcebbd306
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION, kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_alignment_information, ntddk/FILE_ALIGNMENT_INFORMATION, PFILE_ALIGNMENT_INFORMATION, _FILE_ALIGNMENT_INFORMATION, ntddk/PFILE_ALIGNMENT_INFORMATION
+ms.keywords: "*PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture], ntddk/PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION, kernel.file_alignment_information, PFILE_ALIGNMENT_INFORMATION, _FILE_ALIGNMENT_INFORMATION, kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/FILE_ALIGNMENT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ALIGNMENT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_ALIGNMENT_INFORMATION, *PFILE_ALIGNMENT_INFORMATION
+req.typenames: "*PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION"
 ---
 
 # _FILE_ALIGNMENT_INFORMATION structure
@@ -74,11 +74,17 @@ The buffer alignment required by the underlying device. For a list of system-def
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
  
 

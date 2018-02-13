@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfobject_deletewdfobject, DeleteWdfObject method, IWDFObject interface, DeleteWdfObject method, IWDFObject::DeleteWdfObject, IWDFObject interface, DeleteWdfObject method, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, wudfddi/IWDFObject::DeleteWdfObject, DeleteWdfObject, wdf.iwdfobject_deletewdfobject, IWDFObject
+ms.keywords: IWDFObject interface, DeleteWdfObject method, wudfddi/IWDFObject::DeleteWdfObject, DeleteWdfObject method, IWDFObject interface, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, IWDFObject, wdf.iwdfobject_deletewdfobject, DeleteWdfObject, DeleteWdfObject method, IWDFObject::DeleteWdfObject, umdf.iwdfobject_deletewdfobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ HRESULT DeleteWdfObject();
 
 
 
+
 ## -returns
+
 
 
 <b>DeleteWdfObject</b> returns S_OK if the operation succeeds. Otherwise, this method returns HRESULT_FROM_WIN32(ERROR_ACCESS_DENIED) or one of the other error codes that are defined in Winerror.h. 
 
 
 
+
 ## -remarks
+
 
 
 A driver is unable to delete some WDF objects. For example, the driver cannot delete a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">framework device object</a> because the framework owns and controls device objects. For more information about the hierarchy of WDF objects, see <a href="https://msdn.microsoft.com/ffacca8f-4083-4998-83d2-7c31544eb497">Framework Object Hierarchy</a>. 
@@ -86,12 +90,23 @@ The driver typically deletes only WDF objects that it creates and owns. For more
 However, when a parent object is deleted, all child objects are automatically deleted. For example, if the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> to create an I/O queue object, the newly created I/O queue becomes a child of the device object. The I/O queue object is then automatically deleted when the device object is deleted without the driver explicitly calling <b>DeleteWdfObject</b>.
 
 
+#### Examples
+
+For a code example of how to use the <b>DeleteWdfObject</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
 
  
 

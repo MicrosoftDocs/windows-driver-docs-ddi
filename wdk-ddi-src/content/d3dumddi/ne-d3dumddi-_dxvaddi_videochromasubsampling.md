@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 697b6ac2-9d25-42ad-aac5-44754f19bf2c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, display.dxvaddi_videochromasubsampling, DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsamplingMask, DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes"
+ms.keywords: DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, display.dxvaddi_videochromasubsampling, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VideoChromaSubsampling_MPEG1, _DXVADDI_VIDEOCHROMASUBSAMPLING, DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -129,15 +129,19 @@ A bitwise OR of the <b>DXVADDI_VideoChromaSubsampling_Horizontally_Cosited</b>, 
 ## -remarks
 
 
+
 A bitwise OR of the values of DXVADDI_VIDEOCHROMASUBSAMPLING can be used to create a value in the <b>VideoChromaSubsampling</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 Cosite variations indicate that the chroma samples are aligned with the luma samples. Typically, 4:2:0 data with chroma is aligned in one or more directions with the luma data. Note that 4:4:4, 4:2:2, and 4:1:1 data are always cosited in both directions. 
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+
 
  
 

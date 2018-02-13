@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], Revision, _DOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_INCOMING_ASSOC_DECISION, Size, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, windot11/PDOT11_INCOMING_ASSOC_DECISION, Type
+ms.keywords: Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, Revision, Type, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION, _DOT11_INCOMING_ASSOC_DECISION, Size, windot11/PDOT11_INCOMING_ASSOC_DECISION, PDOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, windot11/DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,7 @@ The type, revision, and size of the DOT11_INCOMING_ASSOC_DECISION structure. Thi
 
 The miniport driver must set the members of 
      <b>Header</b> to the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -119,7 +120,8 @@ This member must be set to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -162,18 +164,24 @@ The length of the additional information elements (IEs), in bytes, which the NIC
 ## -remarks
 
 
+
 This structure is used with 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
     OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>.
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

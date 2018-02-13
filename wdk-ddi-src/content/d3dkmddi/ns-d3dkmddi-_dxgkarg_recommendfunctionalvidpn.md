@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn, DXGKARG_RECOMMENDFUNCTIONALVIDPN, DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices]
+ms.keywords: display.dxgkarg_recommendfunctionalvidpn, DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], _DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,6 +105,8 @@ The size, in bytes, of the data block pointed to by <i>pPrivateDriverData</i>.
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>
+
+
 
  
 

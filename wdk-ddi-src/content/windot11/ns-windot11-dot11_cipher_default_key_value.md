@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7362b20a-6ec4-4b22-8981-3a4b647a3cfa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CIPHER_DEFAULT_KEY_VALUE, netvista.dot11_cipher_default_key_value, PDOT11_CIPHER_DEFAULT_KEY_VALUE, Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE
+ms.keywords: Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, netvista.dot11_cipher_default_key_value, DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,8 +90,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -99,15 +97,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_CIPHER_DEFAULT_KEY_VALUE_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        <code>sizeof(DOT11_CIPHER_DEFAULT_KEY_VALUE)</code>.
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uKeyIndex
@@ -158,6 +161,7 @@ If the
      <b>dot11DesiredBSSType</b> management information base (MIB) object is set to 
      <b>dot11_BSS_type_independent</b>, the 802.11 station must add or remove the key in the following
      way:
+
 <ul>
 <li>
 If the value of this member is 0x000000000000, the 802.11 station adds or removes the key from the
@@ -175,7 +179,8 @@ If a per-station default key table does not exist for the value of
        <b>MacAddr</b>, the 802.11 station must use any unused per-station default key table.
 
 </li>
-</ul>For more information about the 
+</ul>
+For more information about the 
      <b>dot11DesiredBSSType</b> MIB object, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
      OID_DOT11_DESIRED_BSS_TYPE</a>.
@@ -199,6 +204,7 @@ A Boolean value that specifies whether the miniport driver should delete the def
 
 If set to <b>FALSE</b>, the miniport driver must delete the default key referenced by 
      <b>uKeyIndex</b> whenever the 802.11 station:
+
 <ul>
 <li>
 Disconnects from the basic service set (BSS) network.
@@ -212,8 +218,10 @@ Roams to a new BSS network.
 Reconnects to the same BSS network.
 
 </li>
-</ul>If set to <b>TRUE</b>, the default key referenced by 
+</ul>
+If set to <b>TRUE</b>, the default key referenced by 
      <b>uKeyIndex</b> must not be deleted unless it is:
+
 <ul>
 <li>
 Explicitly deleted through a set request of 
@@ -279,8 +287,10 @@ If
 ## -remarks
 
 
+
 If the 
     <b>bDelete</b> member is <b>TRUE</b>, the following members are not valid and must be ignored:
+
 <ul>
 <li>
 <b>bStatic</b>
@@ -297,21 +307,36 @@ If the
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
 
 <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
 
+
+
 <a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
 
  
 

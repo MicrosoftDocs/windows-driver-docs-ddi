@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY Present(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a> structure that describes the resource to display.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY Present(
 ## -returns
 
 
+
 <i>Present</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +123,14 @@ The resource is successfully displayed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Microsoft Direct3D runtime calls the user-mode display driver's <i>Present</i> function to notify the user-mode display driver that an application finished rendering and to request that the driver display out the source surface or that the driver perform a color-fill operation. If the <b>hSrcResource</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a> structure that the <i>pData</i> parameter points to is non-<b>NULL</b>, <i>Present</i> requests that the user-mode display driver display new content to the screen; if <b>hSrcResource</b> is <b>NULL</b>, <i>Present</i> requests that the user-mode display driver perform a color-fill operation to the screen. 
@@ -138,19 +145,32 @@ If a user-mode display driver exposes a DDI version of less than 0x0000000C (the
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

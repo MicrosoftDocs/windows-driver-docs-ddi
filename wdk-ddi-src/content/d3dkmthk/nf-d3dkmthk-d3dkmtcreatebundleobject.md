@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateBundleObject, d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject, D3DKMTCreateBundleObject method [Display Devices]
+ms.keywords: D3DKMTCreateBundleObject method [Display Devices], display.d3dkmtcreatebundleobject, D3DKMTCreateBundleObject, d3dkmthk/D3DKMTCreateBundleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTCreateBundleObject(
 
 
 
+
 #### - D3dkmt_createbundleobject [in, out]
 
 Holds information to create a bundle object.
@@ -78,6 +79,8 @@ Holds information to create a bundle object.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the call has been successfully completed.
+
 
 

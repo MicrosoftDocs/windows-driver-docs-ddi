@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetDataInBufferMdl routine [Storage Devices], storage.storportgetdatainbuffermdl, StorPortGetDataInBufferMdl, storport/StorPortGetDataInBufferMdl
+ms.keywords: storport/StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], StorPortGetDataInBufferMdl, storage.storportgetdatainbuffermdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,9 @@ A pointer to  an MDL address to receive the MDL for <i>Srb</i>.
 ## -returns
 
 
+
 A status value indicating the result of the notification. This can be one of these values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,15 +119,21 @@ The pointer value in <i>Mdl</i> is NULL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+
+
+
 <a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+
 
  
 

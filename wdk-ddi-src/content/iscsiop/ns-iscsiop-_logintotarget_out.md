@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 569816dc-3b92-45da-a1b8-ce4b504b6592
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml, PLoginToTarget_OUT structure pointer [Storage Devices], iscsiop/LoginToTarget_OUT, PLoginToTarget_OUT, storage.logintotarget_out, LoginToTarget_OUT, *PLoginToTarget_OUT, LoginToTarget_OUT structure [Storage Devices], iscsiop/PLoginToTarget_OUT, _LoginToTarget_OUT
+ms.keywords: iscsiop/LoginToTarget_OUT, LoginToTarget_OUT, _LoginToTarget_OUT, PLoginToTarget_OUT, *PLoginToTarget_OUT, storage.logintotarget_out, iscsiop/PLoginToTarget_OUT, PLoginToTarget_OUT structure pointer [Storage Devices], LoginToTarget_OUT structure [Storage Devices], structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,23 +87,37 @@ On output from <b>LoginToTarget</b>, a 64-bit integer that uniquely identifies t
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-<a href="..\iscsiop\ns-iscsiop-_logintotarget_in.md">LoginToTarget_IN</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
+
+
+<a href="..\iscsiop\ns-iscsiop-_logintotarget_in.md">LoginToTarget_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+
 
  
 

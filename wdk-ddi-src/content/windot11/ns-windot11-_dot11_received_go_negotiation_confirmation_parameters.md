@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8FFCA7EB-BD0F-4EAF-BD5F-A98F2127DE77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, _DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, windot11/PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, netvista.dot11_received_go_negotiation_confirmation_parameters
+ms.keywords: windot11/PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, netvista.dot11_received_go_negotiation_confirmation_parameters, windot11/DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, *PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
+req.typenames: "*PDOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -75,6 +75,7 @@ typedef struct _DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -92,7 +93,8 @@ The type, revision, and size of the <b>DOT11_RECEIVED_GO_NEGOTIATION_CONFIRMATIO
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_RECEIVED_GO_NEGOTIATION_CONFIRMATION_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PeerDeviceAddress
@@ -118,6 +120,8 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439787">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_CONFIRMATION</a>
+
+
 
  
 

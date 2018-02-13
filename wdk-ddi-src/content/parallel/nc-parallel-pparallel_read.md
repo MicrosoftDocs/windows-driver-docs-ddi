@@ -40,7 +40,7 @@ apiname:
 -	PPARALLEL_READ
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # PPARALLEL_READ callback
@@ -99,6 +99,7 @@ Not used.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +127,14 @@ An internal operation resulted in an NTSTATUS error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To obtain a pointer to the system-supplied PPARALLEL_READ callback, a kernel-mode driver uses an <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request, which returns a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a> structure. The <b>ParallelRead</b> member of the PARCLASS_INFORMATION structure is a pointer to this callback.
@@ -141,11 +145,16 @@ The PPARALLEL_READ callback runs in the caller's thread at the IRQL of the calle
 
 
 
+
 ## -see-also
 
 <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
 
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
+
 
  
 

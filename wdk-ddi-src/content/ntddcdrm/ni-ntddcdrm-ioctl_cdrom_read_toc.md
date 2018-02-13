@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CDROM_READ_TOC
 product: Windows
 targetos: Windows
-req.typenames: "*PWRITE_ROTATION, WRITE_ROTATION"
+req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_READ_TOC IOCTL
@@ -89,14 +89,18 @@ Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,15 +112,19 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 ## -remarks
 
 
+
 Beginning with Windows Vista, CDROM class drivers do not use this IOCTL. Prior to Windows Vista, this IOCTL was used for audio playback on older CD-ROM drives that supported direct audio output in hardware.
 
 Client applications should use the <i>Media Control Interface (MCI) API</i> rather than issuing this IOCTL.
 
 
 
+
 ## -see-also
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 24787963-98c6-4c32-9ba8-2cd4778f8436
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getprocessortypenameswide, IDebugControl4, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, GetProcessorTypeNamesWide, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide
+ms.keywords: IDebugControl4::GetProcessorTypeNamesWide, GetProcessorTypeNamesWide, IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, debugger.getprocessortypenameswide, GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, GetProcessorTypeNamesWide method [Windows Debugging], dbgeng/IDebugControl4::GetProcessorTypeNamesWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,9 @@ Receives the size in characters of the abbreviated name of the processor type.  
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,14 +141,18 @@ The method was successful.  However, at least one of <i>FullNameBuffer</i> or <i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
@@ -154,7 +160,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

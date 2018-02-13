@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dd2bf12-741b-4f3a-9c80-367b5d5036b5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_bufferblt1, _D3DDDIARG_BUFFERBLT1, d3dumddi/D3DDDIARG_BUFFERBLT1, D3DDDIARG_BUFFERBLT1, D3DDDIARG_BUFFERBLT1 structure [Display Devices]
+ms.keywords: "_D3DDDIARG_BUFFERBLT1, D3DDDIARG_BUFFERBLT1 structure [Display Devices], D3DDDIARG_BUFFERBLT1, d3dumddi/D3DDDIARG_BUFFERBLT1, display.d3dddiarg_bufferblt1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 ## -see-also
 
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+
+
 
  
 

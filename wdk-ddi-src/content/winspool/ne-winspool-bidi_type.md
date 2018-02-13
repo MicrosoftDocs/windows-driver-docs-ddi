@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: BIDI_TEXT, BIDI_TYPE enumeration [Print Devices], BIDI_BOOL, BIDI_STRING, winspool/BIDI_NULL, winspool/BIDI_BLOB, winspool/BIDI_ENUM, winspool/BIDI_TYPE, winspool/BIDI_BOOL, print.bidi_type, winspool/BIDI_TEXT, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, BIDI_INT, BIDI_ENUM, BIDI_NULL, winspool/BIDI_STRING, BIDI_FLOAT, winspool/BIDI_FLOAT, winspool/BIDI_INT, BIDI_BLOB, BIDI_TYPE
+ms.keywords: BIDI_INT, BIDI_TEXT, BIDI_NULL, winspool/BIDI_BLOB, BIDI_BOOL, BIDI_FLOAT, winspool/BIDI_TYPE, winspool/BIDI_TEXT, BIDI_ENUM, BIDI_STRING, winspool/BIDI_INT, BIDI_TYPE enumeration [Print Devices], winspool/BIDI_STRING, winspool/BIDI_NULL, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, winspool/BIDI_BOOL, winspool/BIDI_ENUM, BIDI_BLOB, winspool/BIDI_FLOAT, print.bidi_type, BIDI_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,7 +118,9 @@ Indicates that the bidi data is binary data.
 ## -remarks
 
 
+
 The following correspondence applies between Simple Network Management Protocol (SNMP) types and bidi types defined in the BIDI_TYPE enumeration.
+
 <table>
 <tr>
 <th>SNMP type</th>
@@ -186,8 +188,10 @@ BIDI_FLOAT
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 See the smiValue structure in the Microsoft Windows SDK documentation for descriptions of the WinSNMP data types.
+
 
 

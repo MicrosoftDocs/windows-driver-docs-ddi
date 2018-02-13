@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e8892d6f-eb82-4262-9105-3c77d8295a3a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_AddPort_OUT, SM_AddPort_OUT, storage.sm_addport_out, hbapiwmi/SM_AddPort_OUT, SM_AddPort_OUT structure [Storage Devices], *PSM_AddPort_OUT, PSM_AddPort_OUT, _SM_AddPort_OUT, structs-Fibre_fb9ac678-11bb-4392-ab1e-6a10c5e92de9.xml, PSM_AddPort_OUT structure pointer [Storage Devices]
+ms.keywords: storage.sm_addport_out, hbapiwmi/PSM_AddPort_OUT, structs-Fibre_fb9ac678-11bb-4392-ab1e-6a10c5e92de9.xml, *PSM_AddPort_OUT, _SM_AddPort_OUT, PSM_AddPort_OUT, SM_AddPort_OUT structure [Storage Devices], PSM_AddPort_OUT structure pointer [Storage Devices], SM_AddPort_OUT, hbapiwmi/SM_AddPort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_AddPort_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_AddPort_OUT, *PSM_AddPort_OUT
+req.typenames: "*PSM_AddPort_OUT, SM_AddPort_OUT"
 ---
 
 # _SM_AddPort_OUT structure

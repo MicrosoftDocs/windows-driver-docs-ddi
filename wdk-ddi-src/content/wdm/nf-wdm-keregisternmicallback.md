@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46e666a6-be4c-40fb-b9e1-00ced9fb4d05
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeRegisterNmiCallback, KeRegisterNmiCallback, kernel.keregisternmicallback, k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], kernel.keregisternmicallback, wdm/KeRegisterNmiCallback, k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,6 +72,7 @@ PVOID KeRegisterNmiCallback(
 ### -param CallbackRoutine [in]
 
 Pointer to a function of the form:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -95,11 +96,14 @@ Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCal
 ## -returns
 
 
+
 On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="..\wdm\nf-wdm-kederegisternmicallback.md">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
 
 
 
+
 ## -remarks
+
 
 
 When a nonmaskable interrupt occurs, the system calls each registered callback in reverse order from the order in which they were registered. For the first callback, the system passes <b>FALSE</b> as the <i>Handled</i> parameter. For each subsequent callback, if any previous callback returned <b>TRUE</b>, the system passes <b>TRUE</b> as the <i>Handled</i> parameter, otherwise it passes <b>FALSE</b>. If any callback returns a value of <b>TRUE</b>, the system considers the interrupt to have been handled. Otherwise, the system calls the HAL's default handler for the interrupt, which normally causes the system to bug check.
@@ -108,9 +112,12 @@ The callback routine must be able to be run at IRQL = HIGH_LEVEL.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kederegisternmicallback.md">KeDeregisterNmiCallback</a>
+
+
 
  
 

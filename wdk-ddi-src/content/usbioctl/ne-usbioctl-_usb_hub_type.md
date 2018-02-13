@@ -7,8 +7,8 @@ old-location: buses\usb_hub_type.htm
 old-project: usbref
 ms.assetid: F7516B20-B30F-47BE-BBF3-AB5758D5CF73
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.usb_hub_type, USB_HUB_TYPE, _USB_HUB_TYPE, usbioctl/Usb20Hub, usbioctl/USB_HUB_TYPE, Usb30Hub, usbioctl/Usb30Hub, Usb20Hub, usbioctl/UsbRootHub, UsbRootHub, USB_HUB_TYPE enumeration [Buses]
+ms.date: 2/8/2018
+ms.keywords: buses.usb_hub_type, usbioctl/UsbRootHub, Usb20Hub, _USB_HUB_TYPE, UsbRootHub, usbioctl/Usb30Hub, USB_HUB_TYPE enumeration [Buses], USB_HUB_TYPE, usbioctl/Usb20Hub, Usb30Hub, usbioctl/USB_HUB_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,15 +91,21 @@ Indicates that the retrieved hub descriptor is defined in USB 3.0 specification.
 
 ## -see-also
 
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
+
+
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HUB_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HUB_TYPE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

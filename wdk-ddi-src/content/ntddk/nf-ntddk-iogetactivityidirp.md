@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], IoGetActivityIdIrp, kernel.iogetactivityidirp
+ms.keywords: IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], ntddk/IoGetActivityIdIrp, kernel.iogetactivityidirp, IoGetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetActivityIdIrp
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoGetActivityIdIrp function
@@ -81,7 +81,9 @@ A pointer to a location  to store the retrieved GUID.
 ## -returns
 
 
+
 IoGetActivityIdIrp returns STATUS_SUCCESS if the call is successful. Possible error return values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,6 +100,8 @@ No activity ID is associated with the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

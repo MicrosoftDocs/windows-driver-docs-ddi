@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.disk_cache_retention_priority, ntdddisk/EqualPriority, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], KeepPrefetchedData, ntdddisk/KeepPrefetchedData, ntdddisk/KeepReadData, DISK_CACHE_RETENTION_PRIORITY, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, KeepReadData, EqualPriority
+ms.keywords: DISK_CACHE_RETENTION_PRIORITY, EqualPriority, ntdddisk/EqualPriority, ntdddisk/KeepReadData, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, ntdddisk/KeepPrefetchedData, KeepReadData, storage.disk_cache_retention_priority, KeepPrefetchedData, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -88,7 +88,11 @@ Indicates that a preference is to be given to data cached from a READ operation.
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+
+
 
  
 

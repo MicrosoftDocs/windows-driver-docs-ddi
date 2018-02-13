@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging]
+ms.keywords: GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects4::GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemServerNameWide method, debugger.idebugsystemobjects4_getcurrentsystemservernamewide, GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,9 @@ A pointer to the name size.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,15 +106,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B1599F21-D6DD-497D-9CD8-6C637ABAA33A
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintschemaasyncoperationevent_completed, Completed method [Print Devices], IPrintSchemaAsyncOperationEvent::Completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, Completed, IPrintSchemaAsyncOperationEvent, Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface
+ms.keywords: Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, Completed, IPrintSchemaAsyncOperationEvent, print.iprintschemaasyncoperationevent_completed, IPrintSchemaAsyncOperationEvent::Completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed, Completed method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,22 +82,30 @@ The result of the completed operation.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 The print ticket passed to the <b>Completed</b> method is the final validated, merged, or committed print ticket.
+
 
 
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprintschemaasyncoperationevent.md">IPrintSchemaAsyncOperationEvent</a>
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
 
  
 

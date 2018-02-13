@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ProbeForWrite, k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ProbeForWrite, k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, ProbeForWrite, kernel.probeforwrite, ProbeForWrite routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies the required alignment, in bytes, of the beginning of the user-mode bu
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the specified range of memory is not a valid user-mode address range or is not writable (no access, read-only, and so on), <b>ProbeForWrite</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForWrite</b> raises the STATUS_DATATYPE_MISALIGNMENT exception. 
@@ -109,9 +112,12 @@ If <i>Length</i> = 0, <b>ProbeForWrite</b> does no checking of the address. In t
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
+
+
 
  
 

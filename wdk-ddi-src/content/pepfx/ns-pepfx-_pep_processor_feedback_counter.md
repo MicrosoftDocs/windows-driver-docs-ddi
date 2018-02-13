@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PROCESSOR_FEEDBACK_TYPE_RELATIVE, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_FEEDBACK_COUNTER, _PEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, *PPEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, PEP_PROCESSOR_FEEDBACK_COUNTER
+ms.keywords: pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, _PEP_PROCESSOR_FEEDBACK_COUNTER, *PPEP_PROCESSOR_FEEDBACK_COUNTER, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, PROCESSOR_FEEDBACK_TYPE_RELATIVE, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PROCESSOR_FEEDBACK_COUNTER
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_FEEDBACK_COUNTER, *PPEP_PROCESSOR_FEEDBACK_COUNTER
+req.typenames: "*PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER"
 ---
 
 # _PEP_PROCESSOR_FEEDBACK_COUNTER structure
@@ -86,6 +86,7 @@ Specifies the data type of the counter.
 The processor feedback counter data types are:
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -115,7 +116,8 @@ The feedback counter returns two incrementing values: the nominal count, and the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Counter
@@ -124,6 +126,7 @@ Specifies the data the counter is providing.
 
 
 The processor feedback counter types are:
+
 
 
 <table>
@@ -153,7 +156,8 @@ The feedback counter returns the current processor performance. The nominal rate
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DiscountIdle
@@ -174,7 +178,9 @@ Specifies the nominal rate of the counter.
 ## -remarks
 
 
+
 This structure 
+
 
 
 
@@ -182,7 +188,11 @@ This structure
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>
 
+
+
 <a href="https://msdn.microsoft.com/478E1AB1-B888-4EC2-A9C3-A33475E499E3">PEP structures</a>
+
+
 
  
 

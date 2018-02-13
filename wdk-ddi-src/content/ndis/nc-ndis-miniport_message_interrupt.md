@@ -40,7 +40,7 @@ apiname:
 -	MiniportMessageInterrupt
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_MESSAGE_INTERRUPT callback
@@ -111,11 +111,14 @@ A pointer to a Boolean variable that the miniport driver sets before returning f
 A bitmask that indicates the target processors for which NDIS should schedule a DPC. This bitmask represents the first 32 processors in processor group 0. Each bit in 
      the bitmask identifies a CPU. If the caller sets bit 0, NDIS schedules a DPC for CPU 0. If the caller sets bit 1, NDIS
      schedules a DPC for CPU 1, and so on. 
+
 <div class="alert"><b>Note</b>  NDIS
      6.20 and later drivers should not use this parameter to schedule DPCs. Instead, they should set this parameter to zero and use the 
-     <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a> function to schedule DPCs.</div><div> </div>
+     <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a> function to schedule DPCs.</div>
+<div> </div>
 
 ## -returns
+
 
 
 <i>MiniportMessageInterrupt</i> returns <b>TRUE</b> if the underlying NIC generated the interrupt; otherwise, it
@@ -123,7 +126,9 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers that register for message-signaled interrupts (MSI) support with the 
@@ -152,6 +157,7 @@ If the miniport driver requests deferred procedure calls (DPCs) for a specified 
 The miniport driver should set 
     <i>QueueDefaultInterruptDpc</i> to <b>TRUE</b> to schedule a DPC for the default CPU only. The driver can do
     this, for example, if:
+
 <ul>
 <li>
 The NIC generated the interrupt to signal the completion of a send operation or any other request
@@ -177,7 +183,8 @@ Receive side scaling is enabled for the miniport driver, and the miniport driver
       different messages on every receive queue.
 
 </li>
-</ul>If a miniport driver processes received packets in separate DPCs, the miniport driver sets the 
+</ul>
+If a miniport driver processes received packets in separate DPCs, the miniport driver sets the 
     <i>QueueDefaultInterruptDpc</i> parameter to <b>FALSE</b>. The miniport driver should set the 
     <i>TargetProcessors</i> bit for the CPU that is associated with each nonempty receive queue. NDIS will
     schedule a DPC on each of the indicated CPUs in processor group 0.
@@ -209,9 +216,12 @@ NDIS calls
     <i>MiniportMessageInterrupt</i> must call the subset of the NDIS functions, such as the 
     <b>NdisRaw<i>Xxx</i></b> or 
     <b>NdisRead/WriteRegister<i>Xxx</i></b> functions, that are safe to call at any IRQL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>MiniportMessageInterrupt</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>MiniportMessageInterrupt</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportMessageInterrupt</i> function that is named "MyMessageInterrupt", use the <b>MINIPORT_MESSAGE_INTERRUPT</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -221,7 +231,9 @@ For example, to define a <i>MiniportMessageInterrupt</i> function that is named 
 <pre>MINIPORT_MESSAGE_INTERRUPT MyMessageInterrupt;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -239,46 +251,76 @@ BOOLEAN
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_MESSAGE_INTERRUPT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_MESSAGE_INTERRUPT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_MESSAGE_INTERRUPT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_MESSAGE_INTERRUPT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
    NdisMSynchronizeWithInterruptEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
-   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559454">MiniportSynchronizeMessageInterrupt</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
    OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
 
  
 

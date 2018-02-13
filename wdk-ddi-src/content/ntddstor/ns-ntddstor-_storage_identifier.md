@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_IDENTIFIER structure [Storage Devices], ntddstor/PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER, storage.storage_identifier, ntddstor/STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], _STORAGE_IDENTIFIER, STORAGE_IDENTIFIER
+ms.keywords: ntddstor/STORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], _STORAGE_IDENTIFIER, storage.storage_identifier, ntddstor/PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, *PSTORAGE_IDENTIFIER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_IDENTIFIER
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
+req.typenames: "*PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER"
 ---
 
 # _STORAGE_IDENTIFIER structure
@@ -105,15 +105,21 @@ Contains the identifier associated with this descriptor.
 ## -remarks
 
 
+
 Every device identification page (page code 0x83) of SCSI vital product data contains a series of identification descriptors. The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566349">STORAGE_ASSOCIATION_TYPE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], netvista.ndismregisterminiportdriver
+ms.keywords: NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver, NdisMRegisterMiniportDriver, miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMRegisterMiniportDriver
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMRegisterMiniportDriver function
@@ -113,7 +113,9 @@ A pointer to a caller-supplied handle variable. NDIS writes a handle to this var
 ## -returns
 
 
+
 <b>NdisMRegisterMiniportDriver</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -181,11 +183,14 @@ This is a default error status, returned when none of the preceding errors cause
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 An NDIS driver calls 
@@ -236,21 +241,34 @@ If an error occurs in
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
    NdisMDeregisterMiniportDriver</a>
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
    NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintJobCollection::GetAt, print.iprintjobcollection_getat, GetAt, GetAt method [Print Devices], GetAt method [Print Devices], IPrintJobCollection interface, printerextension/IPrintJobCollection::GetAt, IPrintJobCollection, IPrintJobCollection interface [Print Devices], GetAt method
+ms.keywords: printerextension/IPrintJobCollection::GetAt, GetAt method [Print Devices], GetAt, IPrintJobCollection, print.iprintjobcollection_getat, GetAt method [Print Devices], IPrintJobCollection interface, IPrintJobCollection::GetAt, IPrintJobCollection interface [Print Devices], GetAt method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,15 +82,21 @@ Pointer to an <b>IPrintJob</b> object.
 ## -returns
 
 
+
 Returns an <b>HRESULT</b> value. If the method call was not successful, it returns the appropriate <b>HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
+
 
  
 

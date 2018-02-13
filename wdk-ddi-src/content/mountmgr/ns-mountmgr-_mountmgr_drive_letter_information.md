@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml, MOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, storage.mountmgr_drive_letter_information, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices]"
+ms.keywords: mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml, storage.mountmgr_drive_letter_information, MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], _MOUNTMGR_DRIVE_LETTER_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MOUNTMGR_DRIVE_LETTER_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION"
+req.typenames: MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION
 ---
 
 # _MOUNTMGR_DRIVE_LETTER_INFORMATION structure
@@ -81,13 +81,17 @@ Contains either an existing or a newly assigned drive letter in the form of a si
 ## -remarks
 
 
+
 For a general discussion of the mount manager and how it communicates with its clients, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_next_drive_letter.md">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
+
+
 
  
 

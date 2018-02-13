@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dbb367a7-d7e6-4081-9618-1c4e38cccd31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.cwiaudbgfn_cwiaudbgfn, CWiauDbgFn::CWiauDbgFn, CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, wiautil/CWiauDbgFn::CWiauDbgFn, CWiauDbgFn method [Imaging Devices], wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method
+ms.keywords: CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method, CWiauDbgFn::CWiauDbgFn, CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, image.cwiaudbgfn_cwiaudbgfn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, wiautil/CWiauDbgFn::CWiauDbgFn, CWiauDbgFn method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,15 +76,21 @@ Specifies the name of the function or method being entered.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540356">CWiauDbgFn::~CWiauDbgFn</a>
+
+
+
 <a href="..\wiautil\nl-wiautil-cwiaudbgfn.md">CWiauDbgFn</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540356">CWiauDbgFn::~CWiauDbgFn</a>
+
 
  
 

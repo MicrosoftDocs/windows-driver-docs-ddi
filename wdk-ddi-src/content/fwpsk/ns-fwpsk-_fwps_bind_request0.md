@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_BIND_REQUEST0, _FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_BIND_REQUEST0
+ms.keywords: FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_bind_request0, fwpsk/FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0, _FWPS_BIND_REQUEST0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,17 +72,6 @@ typedef struct _FWPS_BIND_REQUEST0 {
 
 
 
-### -field _FWPS_BIND_REQUEST0
-
- 
-
-
-### -field previousVersion
-
-The previous version of the bind request data. This read-only field records the modification history of the bind request. This member is preinitialized with a pointer to a singly linked list with the index set to the record for the current FWPS_BIND_REQUEST0 data.
-
-
-
 ### -field localAddressAndPort
 
 The local transport address of the bind request. This is an IPV4 or IPV6 address and TCP/UDP port
@@ -98,6 +87,17 @@ A token used to reserve the appropriate port. The token is obtained when a port 
      <a href="https://msdn.microsoft.com/AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94">CreatePersistentUdpPortReservation</a>. Both reservation functions can be found in iphlpapi.h.
 
 
+### -field previousVersion
+
+The previous version of the bind request data. This read-only field records the modification history of the bind request. This member is preinitialized with a pointer to a singly linked list with the index set to the record for the current FWPS_BIND_REQUEST0 data.
+
+
+
+### -field _FWPS_BIND_REQUEST0
+
+ 
+
+
 ### -field modifierFilterId
 
 The value of the 
@@ -111,6 +111,7 @@ The value of the
 ## -remarks
 
 
+
 The callout driver obtains this structure by calling the 
     <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
     FwpsAcquireWritableLayerDataPointer0</a> function, which returns a pointer to a <b>FWPS_BIND_REQUEST0</b>
@@ -122,6 +123,7 @@ The
     request's parameters, such as redirecting the local transport address or port to another address or port. If
     it modifies the bind request's parameters, the  
     <i>classifyFn</i> function must do the following:
+
 <ul>
 <li>
 Make all changes to the <b>FWPS_BIND_REQUEST0</b> structure that was returned by
@@ -141,7 +143,8 @@ Call
       FwpsAcquireWritableLayerDataPointer0</a>.
 
 </li>
-</ul>This structure acts as a linked list that contains a record of all changes made by other callout
+</ul>
+This structure acts as a linked list that contains a record of all changes made by other callout
     drivers. There is previous version information if the 
     <b>previousVersion</b> member is not <b>NULL</b>. To examine the complete version history, the callout driver
     must continue to examine the 
@@ -149,18 +152,29 @@ Call
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
    FwpsAcquireWritableLayerDataPointer0</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
 
  
 

@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY StartSessionKeyRefresh(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a> structure that contains information about the random number. 
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY StartSessionKeyRefresh(
 ## -returns
 
 
+
 <i>StartSessionKeyRefresh</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +123,14 @@ The driver does not support the <i>StartSessionKeyRefresh</i> function.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The hardware and driver can optionally support <i>StartSessionKeyRefresh</i> for all crypto types.  
@@ -134,11 +141,16 @@ When the runtime subsequently calls the driver's <a href="..\d3dumddi\nc-d3dumdd
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a>
+
+
 
  
 

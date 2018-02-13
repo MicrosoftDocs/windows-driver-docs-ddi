@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PFND3DKMT_CREATEALLOCATION, display.d3dkmtcreateallocation, d3dkmthk/D3DKMTCreateAllocation, D3DKMTCreateAllocation, D3DKMTCreateAllocation function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml
+ms.keywords: D3DKMTCreateAllocation function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, display.d3dkmtcreateallocation, D3DKMTCreateAllocation, d3dkmthk/D3DKMTCreateAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTCreateAllocation(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3DKMT_CREATEALLOCATION</a> structure that contains information for creating allocations.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3D
 ## -returns
 
 
+
 <b>D3DKMTCreateAllocation</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,22 +145,116 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 The OpenGL ICD uses the <b>D3DKMTCreateAllocation</b> function to create allocations and resources. An allocation can be associated with a resource, or an allocation can stand alone. The <b>D3DKMTCreateAllocation</b> function can also be used to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
+
+
+#### Examples
+
+The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCreateAllocation</b> to create a stand-alone allocation in video memory that is not associated with a resource.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAllocationInfo, UINT Size)
+{
+    D3DKMT_CREATEALLOCATION CreateAllocation;
+    D3DDDI_ALLOCATIONINFO AllocationInfo;
+
+    memset(&amp;CreateAllocation, 0, sizeof(CreateAllocation));
+    CreateAllocation.hDevice = hDevice;
+    CreateAllocation.NumAllocations = 1;
+    CreateAllocation.pAllocationInfo = &amp;AllocationInfo;
+
+    AllocationInfo.hAllocation = NULL;
+    AllocationInfo.pSystemMem = NULL;  // Vidmem allocation
+    AllocationInfo.pPrivateDriverData = pPrivateAllocationInfo;  // Contains format, size, and so on.
+    AllocationInfo.PrivateDriverDataSize = Size;
+
+    if (NT_SUCCESS((*pfnKTCreateAllocation)(&amp;CreateAllocation))) {
+        return AllocationInfo.hAllocation;
+    }
+    return 0;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCreateAllocation</b> to create a resource with a single system memory allocation.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice, 
+                             UINT AllocationSize, 
+                             VOID* pResourceData, 
+                             UINT ResourceDataSize,
+                             VOID* pAllocationData, 
+                             UINT AllocationDataSize,
+                             D3DKMT_HANDLE* phResource,
+                             D3DKMT_HANDLE* phAllocation)
+{
+    D3DKMT_CREATEALLOCATION CreateAllocation;
+    D3DDDI_ALLOCATIONINFO AllocationInfo;
+    VOID* pSysMem;
+
+    *phResource = NULL;
+    *phAllocation = NULL;
+
+    // For a sysmem allocation, preallocate the memory.
+    pSysMem = MemAlloc(AllocationSize);
+    if (pSysMem == NULL) {
+        return E_OUTOFMEMORY;
+    }
+ 
+    memset(&amp;CreateAllocation, 0, sizeof(CreateAllocation));
+    CreateAllocation.hDevice = hDevice;
+    CreateAllocation.Flags.CreateResource = TRUE;
+    CreateAllocation.pPrivateDriverData = pResourceData;
+    CreateAllocation.PrivateDriverDataSize = ResourceDataSize;
+    CreateAllocation.NumAllocations = 1;
+    CreateAllocation.pAllocationInfo = &amp;AllocationInfo;
+
+    AllocationInfo.hAllocation = NULL;
+    AllocationInfo.pSystemMem = pSysMem;
+    AllocationInfo.pPrivateDriverData = pAllocationData;
+    AllocationInfo.PrivateDriverDataSize = AllocationDataSize;
+
+    if (NT_SUCCESS((*pfnKTCreateAllocation)(&amp;CreateAllocation))) {
+        *phResource = CreateAllocation.hResource;
+        *phAllocation = AllocationInfo.hAllocation;
+        return S_OK;
+    }
+    MemFree(pSysMem);
+    return E_FAIL;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocation.md">D3DKMT_CREATEALLOCATION</a>
+
+
 
  
 

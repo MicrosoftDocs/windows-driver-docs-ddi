@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 59be582c-0f56-45d8-b407-e588ee0f7f8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, KoRelease function [Streaming Media Devices], KoRelease, stream.korelease, kcom/KoRelease
+ms.keywords: KoRelease function [Streaming Media Devices], ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, kcom/KoRelease, stream.korelease, KoRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KoRelease
 product: Windows
 targetos: Windows
-req.typenames: "*PCONNECT_DATA, CONNECT_DATA"
+req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
 
 # KoRelease function
@@ -78,6 +78,8 @@ The CLSID of the object whose reference count will be decremented.
 ## -returns
 
 
+
 None
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 24de4374-fa73-4891-b212-6f5c7ed53407
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture], kernel.kegetcurrentprocessornumber, ntddk/KeGetCurrentProcessorNumber
+ms.keywords: ntddk/KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber, k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeGetCurrentProcessorNumber
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # KeGetCurrentProcessorNumber function
@@ -66,14 +66,18 @@ ULONG KeGetCurrentProcessorNumber(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeGetCurrentProcessorNumber</b> returns a ULONG value that represents the processor on which the caller is currently running. 
 
 
 
+
 ## -remarks
+
 
 
 <b>KeGetCurrentProcessorNumber</b> can be called to debug spin lock usage on SMP machines during driver development. A driver also might call <b>KeGetCurrentProcessorNumber</b> if it maintained some per-processor data and attempted to reduce cache-line contention.
@@ -86,11 +90,16 @@ If the call to <b>KeGetCurrentProcessorNumber</b> occurs at IRQL &lt;= APC_LEVEL
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kegetcurrentprocessornumberex.md">KeGetCurrentProcessorNumberEx</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+
 
  
 

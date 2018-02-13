@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1aeb2ca5-8c56-4a78-8cd5-a178efa9b014
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_e8f3c7fa-1a6a-4cf4-9c3c-78f036c2e912.xml, NdisCmCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscmcloseaddressfamilycomplete, ndis/NdisCmCloseAddressFamilyComplete, NdisCmCloseAddressFamilyComplete
+ms.keywords: condis_call_manager_ref_e8f3c7fa-1a6a-4cf4-9c3c-78f036c2e912.xml, NdisCmCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmCloseAddressFamilyComplete, NdisCmCloseAddressFamilyComplete, netvista.ndiscmcloseaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmCloseAddressFamilyComplete function
@@ -86,11 +86,14 @@ Specifies the NDIS-supplied handle passed to the call manager's
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A stand-alone call manager must call 
@@ -115,18 +118,29 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
 <a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
    NdisMCmCloseAddressFamilyComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+
 
  
 

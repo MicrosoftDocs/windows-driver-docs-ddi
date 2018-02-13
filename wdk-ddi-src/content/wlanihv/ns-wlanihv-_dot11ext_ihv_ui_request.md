@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11ext_ihv_ui_request, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_UI_REQUEST, wlanihv/DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, wlanihv/PDOT11EXT_IHV_UI_REQUEST, Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml
+ms.keywords: wlanihv/DOT11EXT_IHV_UI_REQUEST, Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, wlanihv/PDOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_ui_request, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_UI_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,7 +115,9 @@ A pointer to a buffer that contains the request data in a format defined by the 
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extensions DLL can issue requests to the IHV UI extensions DLL to interact with the user for
@@ -131,14 +133,21 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 
 
+
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
    Dot11ExtIhvIsUIRequestPending</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
+
 
  
 

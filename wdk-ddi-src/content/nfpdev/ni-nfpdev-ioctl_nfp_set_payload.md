@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFP_SET_PAYLOAD
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_TECH_ROUTING_INFO, SECURE_ELEMENT_TECH_ROUTING_INFO"
+req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
 ---
 
 # IOCTL_NFP_SET_PAYLOAD IOCTL
@@ -70,7 +70,9 @@ The input buffer contains the message data to transmit.
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -82,34 +84,45 @@ None.
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
 
 
 
+
 ## -remarks
+
 
 
 The following actions are required when using this IOCTL:<ul>
@@ -146,11 +159,16 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+
+
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX IOCTL
@@ -85,14 +85,18 @@ The size, in bytes, of the output buffer.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -103,13 +107,21 @@ The size, in bytes, of the output buffer.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 
  
 

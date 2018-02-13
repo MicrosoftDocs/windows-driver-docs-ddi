@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96786C19-29C4-4030-9429-0B3CB7F3DF11
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExWaitForRundownProtectionRelease routine [Kernel-Mode Driver Architecture], kernel.exwaitforrundownprotectionrelease, ExWaitForRundownProtectionRelease, wdm/ExWaitForRundownProtectionRelease
+ms.keywords: wdm/ExWaitForRundownProtectionRelease, kernel.exwaitforrundownprotectionrelease, ExWaitForRundownProtectionRelease, ExWaitForRundownProtectionRelease routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj5
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine is called by the driver that owns an object that resides in shared memory and that is accessed by other drivers. Before deleting this object, the owning driver must call this routine to wait for any outstanding accesses of the object to complete. After <b>ExWaitForRundownProtectionRelease</b> returns, the owning driver can safely delete the object.
@@ -95,15 +98,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
+
+
+<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
+
 
 <a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
 
-<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
+
 
  
 

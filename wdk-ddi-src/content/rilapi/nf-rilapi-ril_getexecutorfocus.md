@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee510d9f-cfe5-4cfa-98c4-15024208aa5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista], RIL_GetExecutorFocus, rilapi/RIL_GetExecutorFocus, netvista.ril_getexecutorfocus
+ms.keywords: RIL_GetExecutorFocus, rilapi/RIL_GetExecutorFocus, netvista.ril_getexecutorfocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -74,14 +74,14 @@ HRESULT  RIL_GetExecutorFocus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

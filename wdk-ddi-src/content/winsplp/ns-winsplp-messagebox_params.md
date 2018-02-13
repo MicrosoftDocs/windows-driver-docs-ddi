@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PMESSAGEBOX_PARAMS structure pointer [Print Devices], PMESSAGEBOX_PARAMS, winsplp/MESSAGEBOX_PARAMS, winsplp/PMESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], print.messagebox_params, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, MESSAGEBOX_PARAMS, *PMESSAGEBOX_PARAMS
+ms.keywords: winsplp/MESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], winsplp/PMESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS, print.messagebox_params, *PMESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS structure pointer [Print Devices], MESSAGEBOX_PARAMS, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,7 +106,9 @@ Specifies whether the <b>SplPromptUIInUsersSession</b> function should wait for 
 ## -remarks
 
 
+
 One member of the <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a> structure is a MESSAGEBOX_PARAMS structure.
+
 
 
 
@@ -114,7 +116,11 @@ One member of the <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</
 
 <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-splpromptuiinuserssession.md">SplPromptUIInUsersSession</a>
+
+
 
  
 

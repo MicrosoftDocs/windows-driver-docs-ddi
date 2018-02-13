@@ -85,20 +85,25 @@ The length of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_get_band_metadata_
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The <b>Information</b> field contains the number of bytes returned in the output buffer. One of the following values can be returned in the <b>Status</b> field. 
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -128,23 +133,32 @@ The <b>Information</b> field contains the number of bytes returned in the output
 <td>STATUS_IO_DEVICE_ERROR</td>
 <td>Communication failed. The storage device might be incompatible with security protocols. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Authentication for this IOCTL is unnecessary and an authentication key is not included as input.
 
 
 
-## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+## -see-also
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_create_band_parameters.md">CREATE_BAND_PARAMETERS</a>
 
+
+
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
+
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+
 
  
 

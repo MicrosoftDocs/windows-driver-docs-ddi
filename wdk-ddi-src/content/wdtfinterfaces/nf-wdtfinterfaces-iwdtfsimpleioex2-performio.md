@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 795dcbed-e0ce-444d-a6a8-95d0bc658f5b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfsimpleioex2_performio, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], PerformIO method, PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO, PerformIO method [Windows Device Testing Framework], IWDTFSimpleIOEx2::PerformIO
+ms.keywords: IWDTFSimpleIOEx2::PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, PerformIO method [Windows Device Testing Framework], PerformIO, IWDTFSimpleIOEx2, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], PerformIO method, dtf.iwdtfsimpleioex2_performio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,12 +76,18 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
-<h3>C++</h3>If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-<h3>C# and VB.NET</h3>True if the operation succeeds; otherwise, false.
+
+<h3>C++</h3>
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+<h3>C# and VB.NET</h3>
+True if the operation succeeds; otherwise, false.
+
 
 
 
 ## -remarks
+
 
 
 You should call the <b>PerformIO</b> method only after calling 
@@ -89,9 +95,12 @@ the <a href="https://msdn.microsoft.com/991a60a0-8d82-4f41-8cfe-bf633338bdda">IW
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
+
+
 
  
 

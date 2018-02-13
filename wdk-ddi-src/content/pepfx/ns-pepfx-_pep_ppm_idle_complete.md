@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_complete, _PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture]
+ms.keywords: "_PEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_complete, PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,7 +81,9 @@ typedef struct _PEP_PPM_IDLE_COMPLETE {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. The <b>ProcessorState</b> and <b>PlatformState</b> members contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) when this notification is sent to the PEP.
+
 
 
 
@@ -89,9 +91,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>
+
+
 
  
 

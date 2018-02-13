@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 565D8D8D-6EBB-4303-8F7E-E2A4B1DAE4EA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYSEGMENTMEMORYSTATE structure [Display Devices], DXGK_QUERYSEGMENTMEMORYSTATE, _DXGK_QUERYSEGMENTMEMORYSTATE, d3dkmddi/DXGK_QUERYSEGMENTMEMORYSTATE, display.dxgk_querysegmentmemorystate, DXGK_SEGMENTMEMORYSTATE
+ms.keywords: DXGK_QUERYSEGMENTMEMORYSTATE, _DXGK_QUERYSEGMENTMEMORYSTATE, display.dxgk_querysegmentmemorystate, DXGK_QUERYSEGMENTMEMORYSTATE structure [Display Devices], DXGK_SEGMENTMEMORYSTATE, d3dkmddi/DXGK_QUERYSEGMENTMEMORYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_QUERYSEGMENTMEMORYSTATE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_SEGMENTMEMORYSTATE
+req.typenames: DXGK_SEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE
 ---
 
 # _DXGK_QUERYSEGMENTMEMORYSTATE structure
@@ -70,11 +70,6 @@ typedef struct _DXGK_QUERYSEGMENTMEMORYSTATE {
 
 
 
-### -field NumUEFIFrameBufferRanges
-
- 
-
-
 ### -field DriverSegmentId
 
 A  1-based segment identifier of a local GPU memory segment.
@@ -83,6 +78,11 @@ A  1-based segment identifier of a local GPU memory segment.
 ### -field PhysicalAdapterIndex
 
 Physical adapter index in a linked display adapter link.
+
+
+### -field NumUEFIFrameBufferRanges
+
+ 
 
 
 ### -field NumInvalidMemoryRanges
@@ -97,11 +97,17 @@ Array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>
 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+
 
  
 

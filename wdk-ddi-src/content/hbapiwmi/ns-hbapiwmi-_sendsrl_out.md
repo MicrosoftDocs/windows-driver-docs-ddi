@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSendSRL_OUT, SendSRL_OUT structure [Storage Devices], SendSRL_OUT, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml, PSendSRL_OUT structure pointer [Storage Devices], PSendSRL_OUT, hbapiwmi/SendSRL_OUT, hbapiwmi/PSendSRL_OUT, storage.sendsrl_out, _SendSRL_OUT"
+ms.keywords: hbapiwmi/PSendSRL_OUT, SendSRL_OUT structure [Storage Devices], *PSendSRL_OUT, hbapiwmi/SendSRL_OUT, PSendSRL_OUT, SendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], storage.sendsrl_out, _SendSRL_OUT, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendSRL_OUT
 product: Windows
 targetos: Windows
-req.typenames: SendSRL_OUT, *PSendSRL_OUT
+req.typenames: "*PSendSRL_OUT, SendSRL_OUT"
 ---
 
 # _SendSRL_OUT structure
@@ -93,13 +93,17 @@ Contains the results of the SRL command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendSRL_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565522">SendSRL</a>
+
+
 
  
 

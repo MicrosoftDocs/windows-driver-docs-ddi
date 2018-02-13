@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATAFORMAT, KSDATARANGE, *PKSDATAFORMAT, PKSDATARANGE structure pointer [Streaming Media Devices], *PKSDATARANGE, PKSDATARANGE, KSDATARANGE structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, KSDATAFORMAT, ks/KSDATARANGE, ks/PKSDATARANGE, stream.ksdataformat, KSDATAFORMAT structure [Streaming Media Devices], ks/KSDATAFORMAT
+ms.keywords: KSDATAFORMAT structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, *PKSDATARANGE, ks/PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], PKSDATAFORMAT structure pointer [Streaming Media Devices], ks/KSDATAFORMAT, ks/PKSDATAFORMAT, KSDATARANGE structure [Streaming Media Devices], KSDATARANGE, PKSDATAFORMAT, *PKSDATAFORMAT, ks/KSDATARANGE, stream.ksdataformat, PKSDATARANGE, KSDATAFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDATAFORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDATAFORMAT, *PKSDATARANGE, KSDATAFORMAT, KSDATARANGE"
+req.typenames: "*PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE, KSDATAFORMAT"
 ---
 
 # KSDATAFORMAT structure
@@ -113,14 +113,17 @@ The following specifiers (defined in <i>ks.h</i>) are of general use:
 
 
 
+
 #### KSDATAFORMAT_SPECIFIER_NONE
 
 Stands for no specifier. Used for formats that do not support specifiers.
 
 
+
 #### KSDATAFORMAT_SPECIFIER_FILENAME
 
 Indicates that a null-terminated Unicode string immediately follows the KSDATAFORMAT structure in memory.  
+
 
 
 #### KSDATAFORMAT_SPECIFIER_FILEHANDLE
@@ -131,15 +134,19 @@ Indicates that a file handle immediately follows KSDATAFORMAT in memory.
 ## -remarks
 
 
+
 At the minimum, a data format is specified by the <b>MajorFormat</b>, the <b>SubFormat</b>, and the <b>Specifier</b> members. A family of similar data formats can share the same values for <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b>. In that case, the specific data format is distinguished by additional data that follows the <b>Specifier</b> member in memory.
 
 For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combinations, see <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a> and its subtopics.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a>
+
+
 
  
 

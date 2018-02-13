@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.netdmainterruptdpc, NetDmaInterruptDpc, netdma/NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml
+ms.keywords: NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netvista.netdmainterruptdpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NetDmaInterruptDpc
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE"
+req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
 
 # NetDmaInterruptDpc function
@@ -88,11 +88,14 @@ A pointer to the last DMA descriptor that was processed.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 DMA providers call the 
@@ -100,9 +103,12 @@ DMA providers call the
 
 
 
+
 ## -see-also
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
 
  
 

@@ -89,6 +89,8 @@ The <b>SetImageContent</b> method sets an image property that is based on the co
 
 <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
+
+
  
 
  

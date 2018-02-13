@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b774f05-f2f6-4148-8fee-0efe209f7e4d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml, StorPortDeviceBusy, storport/StorPortDeviceBusy, storage.storportdevicebusy, StorPortDeviceBusy routine [Storage Devices]
+ms.keywords: StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices], storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml, storage.storportdevicebusy, storport/StorPortDeviceBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,14 @@ Indicates the number of requests that the logical unit must complete before resu
 ## -returns
 
 
+
 <b>StorPortDeviceBusy</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver, <b>FALSE</b> if not.
 
 
 
+
 ## -remarks
+
 
 
 No error log is generated when a device is busy. 
@@ -114,11 +117,16 @@ The port driver will not issue any new requests to the logical unit until the lo
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nf-storport-storportbusy.md">StorPortBusy</a>
 
+
+
 <a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
+
+
 
  
 

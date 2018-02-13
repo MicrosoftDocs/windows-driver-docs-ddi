@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E52B252F-0530-4543-A44C-95D4198504CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_datarange_h264_video, KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], ksmedia/KS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], ksmedia/PKS_DATARANGE_H264_VIDEO, tagKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO
+ms.keywords: KS_DATARANGE_H264_VIDEO, ksmedia/PKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], stream.ks_datarange_h264_video, tagKS_DATARANGE_H264_VIDEO, ksmedia/KS_DATARANGE_H264_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,9 +112,15 @@ Specifies the details of the video stream.
 
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
-<a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
+
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
+
+
 
  
 

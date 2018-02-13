@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: BDA58F6A-A245-4616-866C-6D1734EFB469
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterPropertyBag interface [Print Devices], GetReadStream method, print.iprinterpropertybag_getreadstream, GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::GetReadStream, IPrinterPropertyBag::GetReadStream, IPrinterPropertyBag, GetReadStream
+ms.keywords: GetReadStream method [Print Devices], IPrinterPropertyBag interface, printerextension/IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, IPrinterPropertyBag, GetReadStream method [Print Devices], GetReadStream, IPrinterPropertyBag interface [Print Devices], GetReadStream method, IPrinterPropertyBag::GetReadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -80,6 +80,7 @@ The property to read.
 
 
 
+
 #### - ppValueStream [out]
 
 The returned stream.
@@ -88,20 +89,26 @@ The returned stream.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 This method does not work with non-stream properties.
+
 
 
 
 ## -see-also
 
 <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+
+
 
  
 

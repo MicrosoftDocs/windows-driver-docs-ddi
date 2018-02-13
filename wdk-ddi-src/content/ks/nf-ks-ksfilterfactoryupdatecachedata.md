@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, stream.ksfilterfactoryupdatecachedata
+ms.keywords: avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata, KsFilterFactoryUpdateCacheData function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,12 +82,15 @@ An optional <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a
 ## -returns
 
 
+
 <b>
              KsFilterFactoryUpdateCacheData</b> returns STATUS_SUCCESS or a failure code, indicating whether the relevant registry information was successfully updated. It returns STATUS_INVALID_PARAMETER if no device interface is found that corresponds to the categories passed in the filter descriptor.
 
 
 
+
 ## -remarks
+
 
 
 This function updates the FilterData key and Medium cache for all categories specified in <i>FilterDescriptor</i>. If <i>FilterDescriptor</i> is <b>NULL</b>, the FilterData and Medium cache are updated for all categories specified in <i>FilterFactory</i>'s <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> member.
@@ -100,16 +103,25 @@ Do not use this routine in place of <b>KsRegisterFilterWithNoKSPins</b> for filt
 In addition, <b>KsRegisterFilterWithNoKSPins</b> only allows one medium per registered pin. This may not be sufficient for a BDA minidriver.
 
 For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e-a453-d375e2d7ccf5">AVStream Object Hierarchy</a>.
-<div class="alert"><b>Note</b>  The <b>KsFilterFactoryUpdateCacheData</b> function can only be called in PASSIVE_LEVEL.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>KsFilterFactoryUpdateCacheData</b> function can only be called in PASSIVE_LEVEL.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
 
  
 

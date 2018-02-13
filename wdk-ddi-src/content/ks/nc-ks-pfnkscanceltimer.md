@@ -84,11 +84,14 @@ Pointer to the minidriver's custom timer object to cancel.
 ## -returns
 
 
+
 Returns <b>TRUE</b> if the specified timer object is in the system timer queue, or <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers can optionally supply a <i>KStrCancelTimer</i> callback function as a parameter to <b>KsAllocateDefaultClockEx</b>.
@@ -99,13 +102,20 @@ If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidri
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
 
+
+
 <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+
+
 
  
 

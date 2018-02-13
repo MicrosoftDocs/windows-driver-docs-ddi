@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, IDebugClient5, debugger.idebugclient5_popoutputlineprefix, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, dbgeng/IDebugClient5::PopOutputLinePrefix
+ms.keywords: IDebugClient5, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix, PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, dbgeng/IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,13 +75,17 @@ The handle of a previously pushed prefix.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2D2980D7-6675-4414-AA32-D8782526E039
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTISFROMUSERMODEDRIVER, WdfRequestIsFromUserModeDriver method, wdf.wdfrequestisfromusermodedriver, wdfrequest/WdfRequestIsFromUserModeDriver, WdfRequestIsFromUserModeDriver
+ms.keywords: wdf.wdfrequestisfromusermodedriver, WdfRequestIsFromUserModeDriver method, wdfrequest/WdfRequestIsFromUserModeDriver, PFN_WDFREQUESTISFROMUSERMODEDRIVER, WdfRequestIsFromUserModeDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,20 +79,26 @@ A handle to a framework request object.
 ## -returns
 
 
+
 <b>WdfRequestIsFromUserModeDriver</b> returns <b>TRUE</b> if the specified I/O request is from a user-mode driver. The method returns <b>FALSE</b> if the current I/O request came from an application.
+
 
 
 
 ## -remarks
 
 
+
 If your driver supports <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-drivers">kernel-mode clients</a>, it should call <b>WdfRequestIsFromUserModeDriver</b> only if <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestormode.md">WdfRequestGetRequestorMode</a> returns <b>WdfUserMode</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestormode.md">WdfRequestGetRequestorMode</a>
+
+
 
  
 

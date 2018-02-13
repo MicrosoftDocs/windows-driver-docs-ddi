@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortReadRegisterUlong, scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, storage.scsiportreadregisterulong, srb/ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices]
+ms.keywords: scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], srb/ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,20 +77,26 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory-sp
 ## -returns
 
 
+
 <b>ScsiPortReadRegisterUlong</b> returns a ULONG value from the HBA's register.
+
 
 
 
 ## -remarks
 
 
+
 <b>ScsiPortReadRegisterUlong</b> ensures that data is transferred correctly.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::CreateSymbolGroup, IDebugSymbols2::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], dbgeng/IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3, IDebugSymbols::CreateSymbolGroup, IDebugSymbols3::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: CreateSymbolGroup, IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, dbgeng/IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, IDebugSymbols3, IDebugSymbols::CreateSymbolGroup, IDebugSymbols2, IDebugSymbols, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, debugger.createsymbolgroup, dbgeng/IDebugSymbols3::CreateSymbolGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,6 +77,7 @@ Receives an interface pointer for the new <a href="..\dbgeng\nn-dbgeng-idebugsym
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +94,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The newly created symbol group is empty; it does not contain any <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a>.  Symbols may be added to the symbol group using <a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>.
@@ -110,17 +114,28 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
 
  
 

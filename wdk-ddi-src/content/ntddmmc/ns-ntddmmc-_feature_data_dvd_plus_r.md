@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1501ea9-a55b-4fbc-990b-2172c7369bb1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_DVD_PLUS_R, ntddmmc/FEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], *PFEATURE_DATA_DVD_PLUS_R, structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, storage.feature_data_dvd_plus_r, FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], _FEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R, ntddmmc/PFEATURE_DATA_DVD_PLUS_R
+ms.keywords: FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], PFEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, storage.feature_data_dvd_plus_r, *PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R, ntddmmc/FEATURE_DATA_DVD_PLUS_R, _FEATURE_DATA_DVD_PLUS_R, ntddmmc/PFEATURE_DATA_DVD_PLUS_R
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,13 +93,17 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "DVD+R" by the <i>MMC-3 </i>specification. Devices that support this feature can specify whether they are able to perform writes to DVD+R discs, even though this ability was not indicated in the device's DVD-ROM profile.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
 
  
 

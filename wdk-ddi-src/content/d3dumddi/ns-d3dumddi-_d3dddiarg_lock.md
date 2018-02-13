@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_lock, UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, _D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK
+ms.keywords: d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock, D3DDDIARG_LOCK structure [Display Devices], UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, D3DDDIARG_LOCK, _D3DDDIARG_LOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,16 @@ typedef struct _D3DDDIARG_LOCK {
 
 
 
+### -field hResource
+
+[in] A handle to the resource to be locked. 
+
+
+### -field SubResourceIndex
+
+[in] The zero-based index into the resource, which is specified by the handle that is specified by <b>hResource</b>. This index indicates the subresource or surface to be locked.
+
+
 ### -field Range
 
 [in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock.
@@ -90,16 +100,6 @@ typedef struct _D3DDDIARG_LOCK {
 ### -field Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock.
-
-
-### -field hResource
-
-[in] A handle to the resource to be locked. 
-
-
-### -field SubResourceIndex
-
-[in] The zero-based index into the resource, which is specified by the handle that is specified by <b>hResource</b>. This index indicates the subresource or surface to be locked.
 
 
 ### -field pSurfData
@@ -125,7 +125,9 @@ typedef struct _D3DDDIARG_LOCK {
 ## -remarks
 
 
+
 The members of the structure that is specified by the <b>Flags</b> member must adhere to the following rules:
+
 <ul>
 <li>
 The <b>ReadOnly</b> and <b>WriteOnly</b> bit-field flags must not be set simultaneously.
@@ -146,11 +148,16 @@ The <b>ReadOnly</b> bit-field flag must not be simultaneously set with the <b>Di
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_lockflags.md">D3DDDI_LOCKFLAGS</a>
+
+
 
  
 

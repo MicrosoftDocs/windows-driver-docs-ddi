@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintcorehelperuni2_getnamedcommand, GetNamedCommand method [Print Devices], GetNamedCommand, IPrintCoreHelperUni2, IPrintCoreHelperUni2::GetNamedCommand, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method
+ms.keywords: prcomoem/IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, GetNamedCommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, IPrintCoreHelperUni2, print.iprintcorehelperuni2_getnamedcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni2.GetNamedCommand
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,7 @@ The number of bytes in <i>pDevmode</i>, not the number of bytes written.
 ### -param pszCommandName [in]
 
 The command name. This parameter accepts standard command names from the GPD, except for those that require an *Order attribute. Those six sections of ordered command sequences are accessible via the following special command names:
+
 <ul>
 <li>L"SectionJobSetup"</li>
 <li>L"SectionDocSetup"</li>
@@ -107,20 +108,26 @@ The size of the output buffer.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 The <b>GetNamedCommand</b> method will not return commands containing references to Standard Variables.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/F7EC4309-1274-4DA1-B006-A716627010F6">IPrintCoreHelperUni2</a>
+
+
 
  
 

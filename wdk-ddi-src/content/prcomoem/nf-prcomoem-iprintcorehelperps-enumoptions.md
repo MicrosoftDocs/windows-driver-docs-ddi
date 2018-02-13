@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd23f4e6-7a99-4347-ae29-a1e832db2e03
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelperPS interface [Print Devices], EnumOptions method, print_unidrv-pscript_allplugins_89c5ea61-aedf-43c6-9a8b-020656476f35.xml, EnumOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, print.iprintcorehelperps_enumoptions, EnumOptions method [Print Devices], IPrintCoreHelperPS::EnumOptions, EnumOptions, prcomoem/IPrintCoreHelperPS::EnumOptions
+ms.keywords: IPrintCoreHelperPS interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::EnumOptions, EnumOptions method [Print Devices], IPrintCoreHelperPS, print_unidrv-pscript_allplugins_89c5ea61-aedf-43c6-9a8b-020656476f35.xml, print.iprintcorehelperps_enumoptions, EnumOptions, prcomoem/IPrintCoreHelperPS::EnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.EnumOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -93,14 +93,18 @@ A pointer to an array of ANSI character strings that contain all of the options 
 ## -returns
 
 
+
 <b>IPrintCoreHelperPS::EnumOptions</b> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains all options, regardless of constraints or other factors.
+
 
 
 
@@ -108,7 +112,11 @@ When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains al
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551972">IPrintCoreHelperPS::EnumConstrainedOptions</a>
+
+
 
  
 

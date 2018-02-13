@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2E704BF1-21E2-498E-82C2-2B55BF44D044
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbServerChannelInitSetSaveRestorePacketCallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetsaverestorepacketcallbacks
+ms.keywords: vmbuskernelmodeclientlibapi/VmbServerChannelInitSetSaveRestorePacketCallbacks, netvista.vmbserverchannelinitsetsaverestorepacketcallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks, VmbServerChannelInitSetSaveRestorePacketCallbacks function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbServerChannelInitSetSaveRestorePacketCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -93,7 +93,9 @@ A callback function to call during channel     restore.
 ## -returns
 
 
+
 <b>VmbServerChannelInitSetSaveRestorePacketCallbacks</b> returns the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,7 +112,9 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -118,11 +122,19 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md">VmbChannelSaveBegin</a>
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer.md">VmbChannelRestoreFromBuffer</a>
+
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue.md">VmbChannelSaveContinue</a>
 
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend.md">VmbChannelSaveEnd</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer.md">VmbChannelRestoreFromBuffer</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.bound_callback_status, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/BoundExceptionHandled, BoundExceptionMaximum, *PBOUND_CALLBACK_STATUS, BoundExceptionHandled, BoundExceptionContinueSearch, wdm/BoundExceptionContinueSearch, wdm/BOUND_CALLBACK_STATUS, BoundExceptionError, BOUND_CALLBACK_STATUS, _BOUND_CALLBACK_STATUS, wdm/BoundExceptionMaximum, wdm/BoundExceptionError
+ms.keywords: wdm/BoundExceptionMaximum, BOUND_CALLBACK_STATUS, BoundExceptionHandled, *PBOUND_CALLBACK_STATUS, wdm/BoundExceptionContinueSearch, BoundExceptionError, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionMaximum, BoundExceptionContinueSearch, wdm/BoundExceptionHandled, _BOUND_CALLBACK_STATUS, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionError, kernel.bound_callback_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -94,13 +94,17 @@ This value is not currently used.
 ## -remarks
 
 
+
 The return value of the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a>
+
+
 
  
 

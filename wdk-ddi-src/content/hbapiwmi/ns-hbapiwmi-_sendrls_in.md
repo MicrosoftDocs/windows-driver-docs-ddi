@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendRLS_IN, PSendRLS_IN structure pointer [Storage Devices], storage.sendrls_in, structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, _SendRLS_IN, *PSendRLS_IN, hbapiwmi/PSendRLS_IN, SendRLS_IN structure [Storage Devices], hbapiwmi/SendRLS_IN, PSendRLS_IN
+ms.keywords: structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, hbapiwmi/SendRLS_IN, *PSendRLS_IN, _SendRLS_IN, hbapiwmi/PSendRLS_IN, SendRLS_IN, storage.sendrls_in, SendRLS_IN structure [Storage Devices], PSendRLS_IN, PSendRLS_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendRLS_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSendRLS_IN, SendRLS_IN"
+req.typenames: SendRLS_IN, *PSendRLS_IN
 ---
 
 # _SendRLS_IN structure
@@ -81,13 +81,17 @@ Contains a worldwide name for the destination port.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRLS_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a>
+
+
 
  
 

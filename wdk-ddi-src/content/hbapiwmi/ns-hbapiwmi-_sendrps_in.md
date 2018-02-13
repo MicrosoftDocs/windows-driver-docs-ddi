@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7ab8986d-1e28-4d25-888f-cd10e310d623
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSendRPS_IN structure pointer [Storage Devices], *PSendRPS_IN, structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml, SendRPS_IN structure [Storage Devices], SendRPS_IN, hbapiwmi/PSendRPS_IN, storage.sendrps_in, _SendRPS_IN, PSendRPS_IN, hbapiwmi/SendRPS_IN
+ms.keywords: PSendRPS_IN structure pointer [Storage Devices], *PSendRPS_IN, PSendRPS_IN, hbapiwmi/SendRPS_IN, SendRPS_IN structure [Storage Devices], SendRPS_IN, structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml, storage.sendrps_in, _SendRPS_IN, hbapiwmi/PSendRPS_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,13 +99,17 @@ Contains the worldwide name of the port for which port status is to be returned.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRPS_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a>
+
+
 
  
 

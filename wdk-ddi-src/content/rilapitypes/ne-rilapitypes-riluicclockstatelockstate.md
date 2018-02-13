@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 95f73081-b809-407d-b73b-975b97301449
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCLOCKSTATE_BLOCKED, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_UICCLOCKSTATE_VERIFIED, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, netvista.riluicclockstatelockstate, rilapitypes/RIL_UICCLOCKSTATE_ENABLED, RILUICCLOCKSTATELOCKSTATE, RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RILUICCLOCKSTATELOCKSTATE, rilapitypes/RIL_UICCLOCKSTATE_VERIFIED, RIL_UICCLOCKSTATE_ENABLED, RILUICCLOCKSTATELOCKSTATE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RIL_UICCLOCKSTATE_VERIFIED, RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RILUICCLOCKSTATELOCKSTATE, RIL_UICCLOCKSTATE_ENABLED, rilapitypes/RIL_UICCLOCKSTATE_ENABLED, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RILUICCLOCKSTATELOCKSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCLOCKSTATE_VERIFIED, netvista.riluicclockstatelockstate, RILUICCLOCKSTATELOCKSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,7 +75,6 @@ enum RILUICCLOCKSTATELOCKSTATE {
 ### -field RIL_UICCLOCKSTATE_NONE
 
 
-
 ### -field RIL_UICCLOCKSTATE_VERIFIED
 
 Lock is verified.
@@ -104,6 +103,8 @@ None of the other state bits are set.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

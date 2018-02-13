@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStatePaused, *PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NdisReceiveQueueOperationalStateRunning, ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NdisReceiveQueueOperationalStatePaused, NdisReceiveQueueOperationalStateDmaStopped, ntddndis/NdisReceiveQueueOperationalStateMaximum, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveQueueOperationalStateUndefined, _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStateDmaStopped, netvista.ndis_receive_queue_operational_state, NdisReceiveQueueOperationalStateMaximum, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NdisReceiveQueueOperationalStateUndefined, ntddndis/NdisReceiveQueueOperationalStateRunning
+ms.keywords: NdisReceiveQueueOperationalStateUndefined, NdisReceiveQueueOperationalStateRunning, NdisReceiveQueueOperationalStateDmaStopped, netvista.ndis_receive_queue_operational_state, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStateDmaStopped, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, *PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStateUndefined, NdisReceiveQueueOperationalStatePaused, ntddndis/NdisReceiveQueueOperationalStateMaximum, ntddndis/NdisReceiveQueueOperationalStateRunning, NdisReceiveQueueOperationalStateMaximum, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml, ntddndis/NdisReceiveQueueOperationalStatePaused
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -117,6 +117,7 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>
        NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</b> enumeration is used in the 
     <a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a> and 
@@ -125,22 +126,35 @@ The <b>
 
 
 
+
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+<a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+   OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
 
-<a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a>
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
-   OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+
+
 
  
 

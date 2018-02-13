@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 21f7a3ea-5db9-4666-865c-c6b1ca9ba20f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], GetStatusString method, GetStatusString, IWDTFAction2::GetStatusString, dtf.iwdtfaction2_getstatusstring, Microsoft::WDTF::IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, wdtf/IWDTFAction2::GetStatusString, GetStatusString method [Windows Device Testing Framework], IWDTFAction2 interface, GetStatusString method [Windows Device Testing Framework]
+ms.keywords: dtf.iwdtfaction2_getstatusstring, GetStatusString method [Windows Device Testing Framework], wdtf/IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, IWDTFAction2 interface [Windows Device Testing Framework], GetStatusString method, IWDTFAction2, IWDTFAction2::GetStatusString, Microsoft::WDTF::IWDTFAction2::GetStatusString, GetStatusString, GetStatusString method [Windows Device Testing Framework], IWDTFAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The status for the last operation.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
+
+
 
  
 

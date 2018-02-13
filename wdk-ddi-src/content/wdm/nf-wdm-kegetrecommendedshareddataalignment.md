@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2faf5e30-bfbb-4b23-9cb9-bf9dd81a56c2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kegetrecommendedshareddataalignment, KeGetRecommendedSharedDataAlignment routine [Kernel-Mode Driver Architecture], k105_537a55c5-9c7e-49cb-8a27-de61e92b78e2.xml, wdm/KeGetRecommendedSharedDataAlignment, KeGetRecommendedSharedDataAlignment
+ms.keywords: KeGetRecommendedSharedDataAlignment, kernel.kegetrecommendedshareddataalignment, k105_537a55c5-9c7e-49cb-8a27-de61e92b78e2.xml, KeGetRecommendedSharedDataAlignment routine [Kernel-Mode Driver Architecture], wdm/KeGetRecommendedSharedDataAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -67,16 +67,21 @@ ULONG KeGetRecommendedSharedDataAlignment(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeGetRecommendedSharedDataAlignment</b> returns the preferred alignment, in bytes, for memory structures that can be shared by more than one processor.
 
 
 
+
 ## -remarks
 
 
+
 Use <b>KeGetRecommendedSharedDataAlignment</b> to determine the best alignment for data structures that will be shared between processors. The value returned minimizes cache effects that negatively impact performance on multiprocessor systems.
+
 
 

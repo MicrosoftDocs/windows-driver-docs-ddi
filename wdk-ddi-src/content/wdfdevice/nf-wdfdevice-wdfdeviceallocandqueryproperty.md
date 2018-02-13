@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f921fee7-e2c0-4e0f-a78b-d2dff8af97a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceallocandqueryproperty, WdfDeviceAllocAndQueryProperty method, PFN_WDFDEVICEALLOCANDQUERYPROPERTY, WdfDeviceAllocAndQueryProperty, wdfdevice/WdfDeviceAllocAndQueryProperty, DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, kmdf.wdfdeviceallocandqueryproperty
+ms.keywords: PFN_WDFDEVICEALLOCANDQUERYPROPERTY, DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, WdfDeviceAllocAndQueryProperty method, kmdf.wdfdeviceallocandqueryproperty, wdf.wdfdeviceallocandqueryproperty, wdfdevice/WdfDeviceAllocAndQueryProperty, WdfDeviceAllocAndQueryProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,9 @@ A pointer to a WDFMEMORY-typed location that receives a handle to a framework me
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceAllocAndQueryProperty</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,7 +136,8 @@ The device's drivers have not yet reported the device's properties.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -142,7 +145,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfDeviceAllocAndQueryProperty</b> method determines the amount of memory that is necessary to hold the requested device property. It allocates enough memory to hold the data, and returns a handle to a framework memory object that describes the allocated memory. To access the data, your driver can call <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>. 
@@ -150,10 +155,44 @@ The <b>WdfDeviceAllocAndQueryProperty</b> method determines the amount of memory
 Alternatively, you can use <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a> to access device properties that are exposed through the Unified Property Model.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure with attributes for the framework memory object that the framework will create for the requested property. Then, the example calls <b>WdfDeviceAllocAndQueryProperty</b> to obtain the <b>DevicePropertyPhysicalDeviceObjectName</b> property. After <b>WdfDeviceAllocAndQueryProperty</b> returns, the driver can call <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a> to obtain a pointer to the buffer that contains the name string.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_OBJECT_ATTRIBUTES  attributes;
+NTSTATUS  status;
+WDFDEVICE  device;
+WDFMEMORY  memory;
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+attributes.ParentObject = device;
+
+status = WdfDeviceAllocAndQueryProperty(device,
+                                        DevicePropertyPhysicalDeviceObjectName,
+                                        NonPagedPool,
+                                        &amp;attributes,
+                                        &amp;memory
+                                        );
+if (!NT_SUCCESS(status)) {
+    return STATUS_UNSUCCESSFUL;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce3b17e9-bcbd-46a4-b379-472abfdb4c2a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_VIDEO_CHILD_ENUM_INFO, video/PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, *PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], display.video_child_enum_info"
+ms.keywords: video/PVIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, PVIDEO_CHILD_ENUM_INFO, display.video_child_enum_info, *PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO, _VIDEO_CHILD_ENUM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,17 +102,23 @@ A pointer to a device extension specific to this child device. This member is va
 ## -remarks
 
 
+
 One parameter of the <i>HwVidGetVideoChildDescriptor</i> function is an instance of a VIDEO_CHILD_ENUM_INFO structure. 
 
 The ACPI_METHOD_DISPLAY_DOD alias, defined in Dispmprt.h, represents the method used to enumerate the devices attached to the display adapter. This method is required if the integrated device controller supports switching of output devices.
 
 
 
+
 ## -see-also
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
 
  
 

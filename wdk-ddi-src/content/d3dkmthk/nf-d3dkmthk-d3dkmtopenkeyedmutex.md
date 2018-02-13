@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 309a43bf-5fad-409f-83e6-e88361b03827
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_6e2179a9-932f-4bd3-b222-4d5f1471636c.xml, display.d3dkmtopenkeyedmutex, D3DKMTOpenKeyedMutex function [Display Devices], d3dkmthk/D3DKMTOpenKeyedMutex, D3DKMTOpenKeyedMutex
+ms.keywords: D3DKMTOpenKeyedMutex function [Display Devices], display.d3dkmtopenkeyedmutex, OpenGL_Functions_6e2179a9-932f-4bd3-b222-4d5f1471636c.xml, D3DKMTOpenKeyedMutex, d3dkmthk/D3DKMTOpenKeyedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTOpenKeyedMutex(
 
 
 
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex.md">D3DKMT_OPENKEYEDMUTEX</a> structure that describes a keyed mutex object.
@@ -80,7 +81,9 @@ NTSTATUS D3DKMTOpenKeyedMutex(
 
 
 
+
       D3DKMTOpenKeyedMutex returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,15 +134,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex.md">D3DKMT_OPENKEYEDMUTEX</a>
+
+
 
  
 

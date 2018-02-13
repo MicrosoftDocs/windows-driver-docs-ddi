@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiCancelIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback
@@ -81,13 +81,17 @@ The handle to the context area that the miniport driver allocated.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
 
  
 

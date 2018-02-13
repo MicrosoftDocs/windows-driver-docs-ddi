@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, _DXGK_VIDSCHCAPS, d3dkmddi/DXGK_VIDSCHCAPS, display.dxgk_vidschcaps
+ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], display.dxgk_vidschcaps, d3dkmddi/DXGK_VIDSCHCAPS, _DXGK_VIDSCHCAPS, DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,7 +114,10 @@ A UINT value that specifies whether the driver supports the   GPU preemption pol
 If <b>PreemptionAware</b> is set to 1 (<b>TRUE</b>), the driver supports the preemption policy of Windows 8 and later versions of Windows.
 
 If <b>PreemptionAware</b> is set to zero (<b>FALSE</b>), the driver supports the preemption policy  of Windows 7. With this policy, the operating system may not issue preemption requests while potentially long running operations are being executed on the GPU. As a result, these GPU requests are not preempted  before the TDR process is initiated. This may cause the TDR process to repeatedly reset the GPU which could lead to a system stop error.
-<div class="alert"><b>Note</b>  If <b>PreemptionAware</b> is set to 1, the <b>MultiEngineAware</b> member  must also be set to a value of 1. If <b>PreemptionAware</b> is set to 1 but <b>MultiEngineAware</b> is set to zero, the operating system will halt the driver initialization process and return a failure code.</div><div> </div>Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
+
+<div class="alert"><b>Note</b>  If <b>PreemptionAware</b> is set to 1, the <b>MultiEngineAware</b> member  must also be set to a value of 1. If <b>PreemptionAware</b> is set to 1 but <b>MultiEngineAware</b> is set to zero, the operating system will halt the driver initialization process and return a failure code.</div>
+<div> </div>
+Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
 Supported starting with Windows 8.
 
@@ -122,10 +125,16 @@ Supported starting with Windows 8.
 ### -field NoDmaPatching
 
 A UINT value that specifies whether the driver disables leak detection for DMA buffers that are split into multiple parts. This detection is performed after the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function is called to assign, or <i>patch</i>, physical addresses to each part of the DMA buffer.
-<div class="alert"><b>Note</b>  Display devices that support virtual addresses can reprogram a virtual address to a new video memory location without having to patch the value of the DMA buffer address. For these types of display devices, the driver should set <b>NoDmaPatching</b> to 1.</div><div> </div>If <b>NoDmaPatching</b> is set to 1 (<b>TRUE</b>), the driver disables leak detection, and the behavior of DMA buffer splitting is the same as in Windows 7.
+
+<div class="alert"><b>Note</b>  Display devices that support virtual addresses can reprogram a virtual address to a new video memory location without having to patch the value of the DMA buffer address. For these types of display devices, the driver should set <b>NoDmaPatching</b> to 1.</div>
+<div> </div>
+If <b>NoDmaPatching</b> is set to 1 (<b>TRUE</b>), the driver disables leak detection, and the behavior of DMA buffer splitting is the same as in Windows 7.
 
 If <b>NoDmaPatching</b> is set to 0 (<b>FALSE</b>), the driver enables leak detection for patched DMA buffer addresses. The operating system performs leak detection before it calls the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function.
-<div class="alert"><b>Note</b>  If <b>NoDmaPatching</b> is set to 1, the <b>PreemptionAware</b> and <b>MultiEngineAware</b> members  must also be set to a value of 1. If <b>NoDmaPatching</b> is set to 1 but <b>PreemptionAware</b> or <b>MultiEngineAware</b> are set to zero, the operating system will halt the driver initialization process and return a failure code.</div><div> </div>Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x0000008).
+
+<div class="alert"><b>Note</b>  If <b>NoDmaPatching</b> is set to 1, the <b>PreemptionAware</b> and <b>MultiEngineAware</b> members  must also be set to a value of 1. If <b>NoDmaPatching</b> is set to 1 but <b>PreemptionAware</b> or <b>MultiEngineAware</b> are set to zero, the operating system will halt the driver initialization process and return a failure code.</div>
+<div> </div>
+Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x0000008).
 
 Supported starting with Windows 8.
 
@@ -135,7 +144,10 @@ Supported starting with Windows 8.
 A UINT value that specifies whether the driver supports cleaning up internal resources (through the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_cancelcommand.md">DxgkDdiCancelCommand</a> function) after a command is removed from the hardware queue.
 
 If <b>CancelCommandAware</b> is set to 1 (<b>TRUE</b>), the driver supports cleaning up resources associated with a canceled DMA packet. If <b>CancelCommandAware</b> is set to zero (<b>FALSE</b>), the driver does not support cleaning up resources.
-<div class="alert"><b>Note</b>  If <b>CancelCommandAware</b> is set to 1, the <b>MultiEngineAware</b> member  must also be set to a value of 1. If <b>CancelCommandAware</b> is set to 1 but <b>MultiEngineAware</b> is set to zero, the operating system returns a failure code.</div><div> </div>Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x0000010).
+
+<div class="alert"><b>Note</b>  If <b>CancelCommandAware</b> is set to 1, the <b>MultiEngineAware</b> member  must also be set to a value of 1. If <b>CancelCommandAware</b> is set to 1 but <b>MultiEngineAware</b> is set to zero, the operating system returns a failure code.</div>
+<div> </div>
+Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x0000010).
 
 Supported starting with Windows 8.
 
@@ -169,7 +181,8 @@ Indicates a GPU is capable of updating 64 bit values atomically as visible by th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Supported starting with Windows 10.
 
@@ -208,19 +221,33 @@ A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_cancelcommand.md">DxgkDdiCancelCommand</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_cancelcommand.md">DxgkDdiCancelCommand</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+
 
  
 

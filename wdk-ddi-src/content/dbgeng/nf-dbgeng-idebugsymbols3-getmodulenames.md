@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetModuleNames method, IDebugSymbols3, debugger.getmodulenames, IDebugSymbols::GetModuleNames, IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, IDebugSymbols3::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, GetModuleNames
+ms.keywords: GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols3::GetModuleNames, debugger.getmodulenames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, IDebugSymbols, IDebugSymbols2, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetModuleNames, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -137,7 +137,9 @@ Receives the size in characters of the loaded image name.  If <i>LoadedImageName
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -176,14 +178,18 @@ The specified module was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
+
 
 
 
@@ -191,11 +197,19 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547149">GetModuleNameString</a>
+
+
 
  
 

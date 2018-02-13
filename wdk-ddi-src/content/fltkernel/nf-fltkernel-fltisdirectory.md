@@ -7,8 +7,8 @@ old-location: ifsk\fltisdirectory.htm
 old-project: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltIsDirectory routine [Installable File System Drivers], FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, ifsk.fltisdirectory, FltIsDirectory, fltkernel/FltIsDirectory
+ms.date: 2/7/2018
+ms.keywords: FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, fltkernel/FltIsDirectory, ifsk.fltisdirectory, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ Pointer to a caller-supplied Boolean variable. On return, this variable receives
 ## -returns
 
 
+
 <b>FltIsDirectory</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,24 +106,32 @@ This error code is returned if the file system does not support stream contexts.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>FltIsDirectory</b> retrieves the desired information from the filter manager's internal stream context manager. The filter manager caches this information for future queries on this stream.
-<div class="alert"><b>Note</b>  This routine can only be called on an opened file object.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This routine can only be called on an opened file object.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltIsDirectory routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltIsDirectory routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: buses\usbfn_event.htm
 old-project: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventResume, UsbfnEventMinimum, UsbfnEventUnConfigured, usbfnbase/UsbfnEventUnConfigured, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventDetach, UsbfnEventSetInterface, UsbfnEventPortType, UsbfnEventSetupPacket, UsbfnEventBusTearDown, USBFN_EVENT, UsbfnEventReset, usbfnbase/UsbfnEventMinimum, USBFN_EVENT enumeration [Buses], UsbfnEventDetach, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventSetInterface, UsbfnEventSuspend, usbfnbase/UsbfnEventConfigured, UsbfnEventMaximum, *PUSBFN_EVENT, UsbfnEventAttach, UsbfnEventConfigured, buses.usbfn_event, _USBFN_EVENT, usbfnbase/USBFN_EVENT, UsbfnEventResume, usbfnbase/UsbfnEventReset, usbfnbase/UsbfnEventMaximum, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventAttach
+ms.date: 2/8/2018
+ms.keywords: UsbfnEventConfigured, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventConfigured, UsbfnEventMinimum, UsbfnEventMaximum, usbfnbase/UsbfnEventResume, UsbfnEventSetupPacket, USBFN_EVENT, usbfnbase/UsbfnEventReset, USBFN_EVENT enumeration [Buses], UsbfnEventReset, buses.usbfn_event, UsbfnEventSuspend, UsbfnEventAttach, UsbfnEventUnConfigured, usbfnbase/UsbfnEventUnConfigured, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventSetInterface, UsbfnEventPortType, UsbfnEventBusTearDown, UsbfnEventSetInterface, usbfnbase/UsbfnEventDetach, UsbfnEventResume, _USBFN_EVENT, *PUSBFN_EVENT, usbfnbase/UsbfnEventSuspend, UsbfnEventDetach, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_EVENT
 product: Windows
 targetos: Windows
-req.typenames: USBFN_EVENT, *PUSBFN_EVENT
+req.typenames: "*PUSBFN_EVENT, USBFN_EVENT"
 req.product: Windows 10 or later.
 ---
 

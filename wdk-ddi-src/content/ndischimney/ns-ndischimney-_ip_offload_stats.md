@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f40c5734-2546-40c3-a6fb-58f728c3cc5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ip_offload_stats, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml, ndischimney/IP_OFFLOAD_STATS, IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _IP_OFFLOAD_STATS, PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PIP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
+ms.keywords: IP_OFFLOAD_STATS, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/IP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, netvista.ip_offload_stats, *PIP_OFFLOAD_STATS, _IP_OFFLOAD_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,6 +164,7 @@ The number of output IP datagrams that the offload target supplied to its IP lay
 ## -remarks
 
 
+
 The statistics in the IP_OFFLOAD_STATS structure pertain only to IP datagrams that the offload target
     has processed on offloaded TCP connections. The offload target must not include counts for IP datagrams
     on non-offloaded connections. The statistics pertain to a single network interface.
@@ -177,6 +178,7 @@ If an offload target's TCP chimney capabilities are enabled (see
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>) and if at least one
     neighbor state object has been offloaded to the offload target, the offload target can process a received
     packet that has a corrupted IP header in one of two ways:
+
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
@@ -191,7 +193,8 @@ Alternatively, the offload target can drop the corrupted packet
       InHeaderErrors counter.
 
 </li>
-</ul>The host stack integrates the statistics returned by an offload target with the statistics that the
+</ul>
+The host stack integrates the statistics returned by an offload target with the statistics that the
     host stack maintains for non-offloaded TCP connections.
 
 Note that the host stack supplies an IP_OFFLOAD_STATS structure when setting OID_IP4_OFFLOAD_STATS or
@@ -206,16 +209,25 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
    NdisMIndicateReceiveNetBufferLists</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+
+
 
  
 

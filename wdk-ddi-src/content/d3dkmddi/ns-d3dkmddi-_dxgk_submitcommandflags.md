@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], _DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags, DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, DXGK_SUBMITCOMMANDFLAGS
+ms.keywords: DXGK_SUBMITCOMMANDFLAGS, DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, display.dxgk_submitcommandflags, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,7 +137,10 @@ Setting this is equivalent to setting the sixth bit of the 32-bit <b>Value</b> m
 A UINT value that specifies that the GPU should switch from the current executing context to the null context.
 
 Starting with  Windows 8, the operating system explicitly requests the GPU to switch to the null context whenever an attempt is made to move or evict a resource that belongs to the context that is currently executing on the GPU. The context switch request is performed by submitting a zero-length DMA buffer with the <b>ContextSwitch</b> member set.
-<div class="alert"><b>Note</b>  If the current context was executing an operation that used a paging buffer, the context switch command is  submitted with the <b>Paging</b> member also set to one.</div><div> </div>Setting this is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
+
+<div class="alert"><b>Note</b>  If the current context was executing an operation that used a paging buffer, the context switch command is  submitted with the <b>Paging</b> member also set to one.</div>
+<div> </div>
+Setting this is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
 
 ### -field Resubmission
@@ -176,9 +179,13 @@ Setting this member to zero is equivalent to setting the remaining 26 bits (0xFF
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
+
 
  
 

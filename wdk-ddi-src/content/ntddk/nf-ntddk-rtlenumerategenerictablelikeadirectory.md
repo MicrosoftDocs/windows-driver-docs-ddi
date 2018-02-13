@@ -7,8 +7,8 @@ old-location: ifsk\rtlenumerategenerictablelikeadirectory.htm
 old-project: ifsk
 ms.assetid: 206c8b70-575d-47e2-a03d-4c88e0d92fe0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml, ifsk.rtlenumerategenerictablelikeadirectory, RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], ntddk/RtlEnumerateGenericTableLikeADirectory
+ms.date: 2/7/2018
+ms.keywords: RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml, RtlEnumerateGenericTableLikeADirectory, ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlEnumerateGenericTableLikeADirectory
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlEnumerateGenericTableLikeADirectory function
@@ -96,6 +96,7 @@ If <i>RestartKey</i> is not <b>NULL</b>, a value of <b>TRUE</b> indicates that t
 ### -param RestartKey [in, out]
 
 A value that determines where to begin or resume the enumeration of generic table elements. If <i>RestartKey</i> is <b>NULL</b>, the enumeration begins or resumes from the position that is described in <i>Buffer</i>. If not <b>NULL</b>, the enumeration resumes from the point that <i>RestartKey</i> indicates. On return, the <i>RestartKey</i> holds a value that indicates the place in the tree where the enumeration left off. On the next call to <b>RtlEnumerateGenericTableLikeADirectory</b> caller should pass the same value back in to inform <b>RtlEnumerateGenericTableLikeADirectory</b> where to resume the enumeration. The following code example illustrates how to do this:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -123,7 +124,8 @@ for (ptr = NULL; ptr != NULL;  ) {
 }</pre>
 </td>
 </tr>
-</table></span></div>If a node is deleted from the tree between calls to <b>RtlEnumerateGenericTableLikeADirectory</b>, enumeration resumes from the position in the tree that is described in <i>Buffer</i>, no matter what the value of <i>RestartKey</i>.
+</table></span></div>
+If a node is deleted from the tree between calls to <b>RtlEnumerateGenericTableLikeADirectory</b>, enumeration resumes from the position in the tree that is described in <i>Buffer</i>, no matter what the value of <i>RestartKey</i>.
 
 
 ### -param DeleteCount [in, out]
@@ -139,11 +141,14 @@ A key expression that determines where to begin the enumeration, when <i>Restart
 ## -returns
 
 
+
 The <b>RtlEnumerateGenericTableLikeADirectory</b> routine returns a pointer to a user-defined structure that is associated with the next table element in the enumeration. If there are no more new elements to return the return value is <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>RtlEnumerateGenericTableLikeADirectory</b> routine provides a safe means to enumerate a generic table across intermixed insert and delete operations. Starting with the first matched key name, <b>RtlEnumerateGenericTableLikeADirectory</b> returns each name in the table exactly once, unless the name was inserted or deleted during the enumeration. When a key name is inserted or deleted during an enumeration (i.e. between calls to <b>RtlEnumerateGenericTableLikeADirectory</b>) it might or might not be included in the enumeration. Whether such names are included depends on the state of the name when <b>RtlEnumerateGenericTableLikeADirectory</b> processes the directory range in which the name is found.
@@ -153,6 +158,7 @@ There are four routines you can use to enumerate a generic table:
 
 
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlEnumerateGenericTableLikeADirectory</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including Ntddk.h:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -162,9 +168,11 @@ By default, the operating system uses splay trees to implement generic tables, b
 <pre> #define RTL_USE_AVL_TABLES 0</pre>
 </td>
 </tr>
-</table></span></div>If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. 
+</table></span></div>
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. 
 
 Callers of <b>RtlEnumerateGenericTableLikeADirectory</b> must be running at IRQL &lt;= APC_LEVEL if either of the following conditions holds:
+
 <ul>
 <li>
 The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable. 
@@ -177,17 +185,24 @@ The caller-supplied <i>MatchFunction</i> contains pageable code.
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+
+
 
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEnumerateGenericTableLikeADirectory routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEnumerateGenericTableLikeADirectory routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

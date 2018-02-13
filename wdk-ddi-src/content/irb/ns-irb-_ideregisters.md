@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PIDEREGISTERS, irb/PIDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, IDEREGISTERS structure [Storage Devices], irb/IDEREGISTERS, PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, storage.ideregisters, IDEREGISTERS"
+ms.keywords: IDEREGISTERS, irb/IDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, *PIDEREGISTERS, _IDEREGISTERS, storage.ideregisters, PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], IDEREGISTERS structure [Storage Devices], irb/PIDEREGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,13 +117,17 @@ Reserved for future use. The miniport driver shall not use this field.
 ## -remarks
 
 
+
 The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a>
+
+
 
  
 

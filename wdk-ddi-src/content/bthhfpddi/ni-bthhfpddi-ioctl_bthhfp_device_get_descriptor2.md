@@ -7,7 +7,7 @@ old-location: audio\ioctl_bthhfp_device_get_descriptor2.htm
 old-project: audio
 ms.assetid: B72D0236-1C2B-4D0B-86B4-4E9B667BA1B3
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.ioctl_bthhfp_device_get_descriptor2, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code [Audio Devices], IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION"
+req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 IOCTL
@@ -88,14 +88,18 @@ The size of a <b>BTHHFP_DESCRIPTOR2</b> structure and referenced data.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,9 +113,11 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then <i>Information</i> is the size
 ## -remarks
 
 
+
 The audio driver sends this request to obtain information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface. The information does not change while the interface is enabled, but can change while the interface is disabled. Therefore the audio driver sends this request shortly after discovering an enabled device interface and uses the information to build an appropriate KSFILTER_DESCRIPTOR structure.
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and the <i>Information</i> parameter will  contain the required buffer size. The audio driver then allocates the necessary storage and sends the request again. Typically an audio driver will keep a pointer to this storage location in its device context for reference during later activity.
+
 
 
 
@@ -119,13 +125,19 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 <a href="..\bthhfpddi\ns-bthhfpddi-_bthhfp_descriptor2.md">BTHHFP_DESCRIPTOR2</a>
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
- 
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

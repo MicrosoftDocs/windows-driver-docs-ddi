@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 139F4465-1228-4603-B92F-4CB73E1A6DC0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator, IKsAllocator::KsGetAllocatorStatus, IKsAllocator interface [Streaming Media Devices], KsGetAllocatorStatus method, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorStatus
+ms.keywords: IKsAllocator interface [Streaming Media Devices], KsGetAllocatorStatus method, IKsAllocator, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus, KsGetAllocatorStatus method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorStatus method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,16 +75,21 @@ HRESULT KsGetAllocatorStatus(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
+
+
 
  
 

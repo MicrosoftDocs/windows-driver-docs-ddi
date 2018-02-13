@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fdc4b85-d969-4433-8409-512f3f52cbbb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetRunningProcessDescription, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5::GetRunningProcessDescription, dbgeng/IDebugClient2::GetRunningProcessDescription, IDebugClient5, debugger.getrunningprocessdescription, IDebugClient::GetRunningProcessDescription, IDebugClient2 interface [Windows Debugging], GetRunningProcessDescription method, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface, IDebugClient interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, dbgeng/IDebugClient3::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescription method [Windows Debugging], IDebugClient interface, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient5::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient4::GetRunningProcessDescription, GetRunningProcessDescription
+ms.keywords: GetRunningProcessDescription method [Windows Debugging], IDebugClient interface, IDebugClient5, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface, debugger.getrunningprocessdescription, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient4::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient2 interface, IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, IDebugClient2 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient2::GetRunningProcessDescription, IDebugClient::GetRunningProcessDescription, IDebugClient2::GetRunningProcessDescription, dbgeng/IDebugClient5::GetRunningProcessDescription, GetRunningProcessDescription, dbgeng/IDebugClient3::GetRunningProcessDescription, IDebugClient2, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient4::GetRunningProcessDescription, IDebugClient4, IDebugClient3, IDebugClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,6 +92,7 @@ Specifies the process ID of the process whose description is desired.
 ### -param Flags [in]
 
 Specifies a bit-set containing options that affect the behavior of this method.  <i>Flags</i> can contain the following bit flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -137,7 +138,8 @@ Do not retrieve the command line.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ExeName [out, optional]
@@ -173,7 +175,9 @@ Receives the size in characters of the extra information.  If <i>ActualDescripti
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -201,11 +205,14 @@ The method was successful.  However, either <i>ExeNameSize</i> or <i>Description
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is available only for live user-mode debugging.
@@ -214,27 +221,48 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 

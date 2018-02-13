@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], NmrClientAttachProvider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
+ms.keywords: netvista.nmrclientattachprovider, NmrClientAttachProvider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml, netioddk/NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,8 +126,10 @@ A pointer to a variable that receives a pointer to a structure that contains the
 ## -returns
 
 
+
 The 
      <b>NmrClientAttachProvider</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,11 +168,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A client module calls the 
@@ -209,13 +214,20 @@ If the
 
 
 
-## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+## -see-also
 
 <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
+
+
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8814beb2-9e53-4cc1-920d-96141551ede1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilphonebookadditionalnumberparammask_2, rilapitypes/RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, rilapitypes/RIL_PARAM_PBAN_NUMID, rilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RIL_PARAM_PBAN_ALL, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILPHONEBOOKADDITIONALNUMBERPARAMMASK
+ms.keywords: rilapitypes/RIL_PARAM_PBAN_ALL, rilapitypes/RIL_PARAM_PBAN_NUMID, RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RIL_PARAM_PBAN_NUMID, rilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, netvista.rilphonebookadditionalnumberparammask_2, RIL_PARAM_PBAN_ALL, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -72,11 +72,8 @@ typedef enum _RILPHONEBOOKADDITIONALNUMBERPARAMMASK {
 ### -field RIL_PARAM_PBAN_ADDRESS
 
 
-
 ### -field RIL_PARAM_PBAN_NUMID
 
 
-
 ### -field RIL_PARAM_PBAN_ALL
-
 

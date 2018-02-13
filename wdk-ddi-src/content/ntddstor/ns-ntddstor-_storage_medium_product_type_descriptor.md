@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AC0C09DF-EFD4-457B-8ABC-C60890D3AF6A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor
+ms.keywords: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 ---
 
 # _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure
@@ -84,6 +84,7 @@ Specifies the total size of the data returned, in bytes. This may include data t
 ### -field MediumProductType
 
 Specifies the product type of the storage device.
+
 <table>
 <tr>
 <th><b>MediumProductType</b> value</th>
@@ -129,12 +130,15 @@ Specifies the product type of the storage device.
 <td><code>F0h</code> to <code>FFh</code></td>
 <td>Vendor-specific</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

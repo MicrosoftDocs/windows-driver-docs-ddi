@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55be7611-3249-4109-a142-c0115dfebb98
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetRADIUSSharedSecret_OUT structure pointer [Storage Devices], SetRADIUSSharedSecret_OUT, iscsiop/SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT structure [Storage Devices], structs-iSCSI_497fc66e-8a5d-4390-9229-622b359776bc.xml, iscsiop/PSetRADIUSSharedSecret_OUT, storage.setradiussharedsecret_out, _SetRADIUSSharedSecret_OUT, PSetRADIUSSharedSecret_OUT
+ms.keywords: structs-iSCSI_497fc66e-8a5d-4390-9229-622b359776bc.xml, PSetRADIUSSharedSecret_OUT structure pointer [Storage Devices], storage.setradiussharedsecret_out, iscsiop/SetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT, _SetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT structure [Storage Devices], iscsiop/PSetRADIUSSharedSecret_OUT, PSetRADIUSSharedSecret_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,17 +75,25 @@ On output, the status of the <b>SetRADIUSSharedSecret</b> operation. For a list 
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
+
+
 
 <a href="..\iscsiop\ns-iscsiop-_setradiussharedsecret_in.md">SetRADIUSSharedSecret_IN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
 
  
 

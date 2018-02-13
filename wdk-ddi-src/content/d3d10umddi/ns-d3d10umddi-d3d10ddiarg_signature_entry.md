@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9a7a595e-59b1-4cc2-ab09-ba22aebae9ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10ddiarg_signature_entry, UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, D3D10DDIARG_SIGNATURE_ENTRY, D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY
+ms.keywords: UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY, D3D10DDIARG_SIGNATURE_ENTRY, display.d3d10ddiarg_signature_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,6 +72,7 @@ typedef struct D3D10DDIARG_SIGNATURE_ENTRY {
 ### -field SystemValue
 
 [in] The D3D10_SB_NAME-typed value that indicates the system name of the signature entry. The D3D10_SB_NAME enumeration is defined in the D3d10tokenizedprogramformat.hpp header file. One of the following values can be set.
+
 <table>
 <tr>
 <th>Value</th>
@@ -177,7 +178,8 @@ Is front face.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Register
@@ -193,6 +195,8 @@ Is front face.
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
+
+
 
  
 

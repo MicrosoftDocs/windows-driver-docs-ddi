@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], *PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR, storage.ufs_geometry_descriptor, PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR, ufs/PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices]
+ms.keywords: "*PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_geometry_descriptor, UFS_GEOMETRY_DESCRIPTOR, ufs/PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,6 +131,7 @@ Specifies the total raw device capacity. Expressed in units of 512 bytes.
 ### -field bMaxNumberLU
 
 Specifies the maximum number of logical unit(s) supported by the UFS (Universal Flash Storage). Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -148,7 +149,8 @@ Specifies the maximum number of logical unit(s) supported by the UFS (Universal 
 <td>Other Values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dSegmentSize
@@ -196,6 +198,7 @@ Protocol Out. Each frame is 256-bytes.
 
 Specifies a device's spare blocks
 resource management policy. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -211,12 +214,14 @@ per logical unit.</td>
 <td>Spare blocks resource management policy is
 per memory type.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bDataOrdering
 
 Specifies if a device supports out-of-order data transfer. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -234,7 +239,8 @@ Specifies if a device supports out-of-order data transfer. Contains one of the f
 <td>All other values</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bMaxContexIDNumber
@@ -257,6 +263,7 @@ the device to handle system data.
 ### -field bSupportedSecRTypes
 
 Specifies the supported Secure Removal types. The first 3 bits of the variable are flags that represent different supported Secure Removal types. 
+
 <table>
 <tr>
 <th>Bit</th>
@@ -287,12 +294,14 @@ mechanism.</td>
 <td>4-7</td>
 <td>Reserved for future use.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field wSupportedMemoryTypes
 
 Specifies the supported memory types in a bitmap.
+
 <table>
 <tr>
 <th>Bit</th>
@@ -334,7 +343,8 @@ Specifies the supported memory types in a bitmap.
 <td>15</td>
 <td>A RPMB memory type is supported.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dSystemCodeMaxNAllocU
@@ -414,8 +424,10 @@ Specifies the optimal logical block size.
 ## -remarks
 
 
+
 If the size of the data transferred exceeds the number of frames <b>bRPMB_ReadWriteSize</b>, it will be done in multiple Security commands.
 
 The Capacity Adjustment Factor value for a normal memory type is equal to 1.
+
 
 

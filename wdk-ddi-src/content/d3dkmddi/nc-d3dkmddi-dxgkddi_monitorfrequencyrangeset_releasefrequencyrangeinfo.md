@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnReleaseFrequencyRangeInfo(
 ## -returns
 
 
+
 The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +125,17 @@ The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When you have finished using a D3DKMDT_MONITOR_FREQUENCY_RANGE structure that you obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo.md">pfnAcquireFirstFrequencyRangeInfo</a> or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirenextfrequencyrangeinfo.md">pfnAcquireNextFrequencyRangeInfo</a>, you must release it by calling <b>pfnReleaseFrequencyRangeInfo</b>.
+
 
 

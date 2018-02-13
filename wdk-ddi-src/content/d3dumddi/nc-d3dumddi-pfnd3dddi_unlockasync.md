@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY UnlockAsync(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlockasync.md">D3DDDIARG_UNLOCKASYNC</a> structure that describes the resource or surface within the resource to unlock.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY UnlockAsync(
 ## -returns
 
 
+
 <i>UnlockAsync</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +134,14 @@ The resource that <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlockasync.md">D3
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user-mode display driver should call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a> function with the appropriate allocation handle after the <i>UnlockAsync</i> function is called. 
@@ -147,17 +154,28 @@ If a user-mode display driver exposes a DDI version of 0x0000000B or greater (th
 
 
 
+
 ## -see-also
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlockasync.md">D3DDDIARG_UNLOCKASYNC</a>
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlockasync.md">D3DDDIARG_UNLOCKASYNC</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], kernel.ioreportresourcefordetection, ntddk/IoReportResourceForDetection, IoReportResourceForDetection
+ms.keywords: k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], ntddk/IoReportResourceForDetection, kernel.ioreportresourcefordetection, IoReportResourceForDetection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoReportResourceForDetection
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoReportResourceForDetection function
@@ -111,7 +111,9 @@ Pointer to a caller-supplied Boolean value that is set to <b>TRUE</b> on return 
 ## -returns
 
 
+
 <b>IoReportResourceForDetection</b> returns STATUS_SUCCESS if the resources are claimed. Possible error return values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ The <i>DeviceList</i> or <i>DriverList</i> is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine is for drivers that detect earlier hardware which cannot be enumerated by Plug and Play (PnP).
@@ -176,11 +181,16 @@ Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-ioreportdetecteddevice.md">IoReportDetectedDevice</a>
 
+
+
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
 
  
 

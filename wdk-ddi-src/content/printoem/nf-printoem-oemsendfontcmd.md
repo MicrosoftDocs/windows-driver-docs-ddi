@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMSendFontCmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, print.oemsendfontcmd, printoem/OEMSendFontCmd, OEMSendFontCmd function [Print Devices]
+ms.keywords: print.oemsendfontcmd, printoem/OEMSendFontCmd, OEMSendFontCmd function [Print Devices], OEMSendFontCmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,19 +72,20 @@ VOID APIENTRY OEMSendFontCmd(
 ### -param pdevobj
 
 
-
 ### -param pUFObj
-
 
 
 ### -param pFInv
 
 
-
 ## -returns
 
 
+
 This function does not return a value.
-<h2><a id="ddk_oemsendfontcmd_gg"></a><a id="DDK_OEMSENDFONTCMD_GG"></a></h2>This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a>.
+
+<h2><a id="ddk_oemsendfontcmd_gg"></a><a id="DDK_OEMSENDFONTCMD_GG"></a></h2>
+This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a>.
+
 
 

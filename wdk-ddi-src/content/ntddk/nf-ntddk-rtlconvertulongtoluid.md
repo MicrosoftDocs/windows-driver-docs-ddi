@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3c1e2d5-8bb8-486c-a78a-3ddde6ab64bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlconvertulongtoluid, RtlConvertUlongToLuid, ntddk/RtlConvertUlongToLuid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml
+ms.keywords: RtlConvertUlongToLuid, k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, kernel.rtlconvertulongtoluid, ntddk/RtlConvertUlongToLuid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlConvertUlongToLuid
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlConvertUlongToLuid function
@@ -75,26 +75,38 @@ Specifies the unsigned long integer to convert.
 ## -returns
 
 
+
 <b>RtlConvertUlongToLuid</b> returns the converted <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>.
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlConvertUlongToLuid</b> is used to convert a system-defined privilege value, passed as a ULONG, to a locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) used by the system to represent that privilege. Drivers typically pass a LUID to <b>SeSinglePrivilegeCheck</b>. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
 
 <a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
-<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
+
 
  
 

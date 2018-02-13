@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F507864B-B20C-4F71-B068-802780243106
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetType method [Windows Debugging], SetType, IDebugFAEntryTags::SetType, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetType method, debugger.idebugfaentrytags_settype, SetType method [Windows Debugging], IDebugFAEntryTags interface, extsfns/IDebugFAEntryTags::SetType
+ms.keywords: extsfns/IDebugFAEntryTags::SetType, IDebugFAEntryTags::SetType, SetType, IDebugFAEntryTags, SetType method [Windows Debugging], IDebugFAEntryTags interface, SetType method [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], SetType method, debugger.idebugfaentrytags_settype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,11 +81,14 @@ A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/driver
 ## -returns
 
 
+
 If this method successfully sets the data type of <i>Tag</i> to <i>EntryType</i>, it returns <b>S_OK</b>. Otherwise, it returns <b>E_INVALIDARG</b>.
 
 
 
+
 ## -remarks
+
 
 
 This method checks to see whether the data type for <i>Tag</i> has already been set. If the data type has not already been set, this method sets the data type to <i>EntryType</i>.
@@ -98,17 +101,28 @@ The data types <b>DEBUG_FA_ENTRY_ANSI_STRING</b> and <b>DEBUG_FA_ENTRY_EXTENSION
 
 
 
-## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+## -see-also
 
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
+
+
 
 <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
+
+
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
 
  
 

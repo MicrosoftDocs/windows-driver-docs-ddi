@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e6ad67bf-cd16-469e-af49-6a640a4319c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilterminalcapabilityinfo, *LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO
+ms.keywords: ntddrilapitypes/RILTERMINALCAPABILITYINFO, *LPRILTERMINALCAPABILITYINFO, netvista.rilterminalcapabilityinfo, RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,7 +71,5 @@ typedef struct _RILTERMINALCAPABILITYINFO {
 ### -field dwSize
 
 
-
 ### -field bData
-
 

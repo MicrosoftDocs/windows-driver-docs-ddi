@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1ea82b64-e0e0-445b-8200-70cd6920d29b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasQueueEvent function [Imaging Devices], wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiamdef/wiasQueueEvent, image.wiasqueueevent
+ms.keywords: wiasQueueEvent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent function [Imaging Devices], image.wiasqueueevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasQueueEvent
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -88,14 +88,18 @@ Specifies the full item name, including path information.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -remarks
 
 
+
 This method should be used whenever the device must signal that an event of some type occurred. The device does this by placing the event on the event queue. For example, when a camera takes a new picture, it should generate a WIA_EVENT_ITEM_CREATED event after adding a new driver item to its tree. The camera can place this event on the event queue in this way:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -107,13 +111,17 @@ This method should be used whenever the device must signal that an event of some
                     bstrDescriptionString);</pre>
 </td>
 </tr>
-</table></span></div>See the Windows SDK documentation for a complete list of WIA event identifiers.
+</table></span></div>
+See the Windows SDK documentation for a complete list of WIA event identifiers.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544986">IWiaMiniDrv::drvInitializeWia</a>
+
+
 
  
 

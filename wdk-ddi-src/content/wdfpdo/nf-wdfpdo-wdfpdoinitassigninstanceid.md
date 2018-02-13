@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f843f8ce-81ee-4b8b-8583-dde3becb5460
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAssignInstanceID method, WdfPdoInitAssignInstanceID, wdfpdo/WdfPdoInitAssignInstanceID, PFN_WDFPDOINITASSIGNINSTANCEID, kmdf.wdfpdoinitassigninstanceid, DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, wdf.wdfpdoinitassigninstanceid
+ms.keywords: wdfpdo/WdfPdoInitAssignInstanceID, WdfPdoInitAssignInstanceID, kmdf.wdfpdoinitassigninstanceid, PFN_WDFPDOINITASSIGNINSTANCEID, WdfPdoInitAssignInstanceID method, DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, wdf.wdfpdoinitassigninstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,9 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,13 +115,16 @@ The driver could not allocate space to store the instance ID string.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 For more information about instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
@@ -127,16 +132,50 @@ For more information about instance IDs, see <a href="https://docs.microsoft.com
 The driver must call <b>WdfPdoInitAssignInstanceID</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
+#### Examples
+
+The following code example converts a device's serial number to a Unicode string and then registers the Unicode string as the device's instance ID.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DECLARE_UNICODE_STRING_SIZE(instanceID, INSTANCEID_LENGTH);
+
+status =  RtlIntegerToUnicodeString(
+                                    SerialNo,
+                                    BASE_DEC,
+                                    &amp;instanceID
+                                    );
+status = WdfPdoInitAssignInstanceID(
+                                    pDeviceInit,
+                                    &amp;instanceID
+                                    );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddhardwareid.md">WdfPdoInitAddHardwareID</a>
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+
 
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
 
+
+
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
+
+
 
  
 

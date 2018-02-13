@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0FEC5054-8045-4CE5-AA59-AE3D23568308
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: LPVIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS, msviddrv/VIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS structure [Streaming Media Devices], tag_video_stream_init_parms, LPVIDEO_STREAM_INIT_PARMS structure pointer [Streaming Media Devices], stream.video_stream_init_parms, msviddrv/LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS
+ms.keywords: LPVIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS structure [Streaming Media Devices], LPVIDEO_STREAM_INIT_PARMS structure pointer [Streaming Media Devices], stream.video_stream_init_parms, msviddrv/LPVIDEO_STREAM_INIT_PARMS, msviddrv/VIDEO_STREAM_INIT_PARMS, tag_video_stream_init_parms, VIDEO_STREAM_INIT_PARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_STREAM_INIT_PARMS
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # tag_video_stream_init_parms structure
@@ -74,19 +74,14 @@ typedef struct tag_video_stream_init_parms {
 ### -field dwMicroSecPerFrame
 
 
-
 ### -field dwCallback
-
 
 
 ### -field dwCallbackInst
 
 
-
 ### -field dwFlags
 
 
-
 ### -field hVideo
-
 

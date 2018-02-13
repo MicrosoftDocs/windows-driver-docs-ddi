@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_perf_state_type, PepPerfStateTypeRange, PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, pepfx/PEP_PERF_STATE_TYPE, PepPerfStateTypeMax, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepPerfStateTypeRange, PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeMax
+ms.keywords: pepfx/PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepPerfStateTypeRange, *PPEP_PERF_STATE_TYPE, kernel.pep_perf_state_type, PepPerfStateTypeRange, pepfx/PepPerfStateTypeMax, PepPerfStateTypeDiscrete, PepPerfStateTypeMax, _PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, PEP_PERF_STATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PERF_STATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE
+req.typenames: "*PPEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE"
 ---
 
 # _PEP_PERF_STATE_TYPE enumeration
@@ -87,13 +87,17 @@ Reserved for use by operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_TYPE</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
+
+
 
  
 

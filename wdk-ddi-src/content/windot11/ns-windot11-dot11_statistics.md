@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 714ad442-596b-4e67-82ce-a50e1808a3af
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_statistics, windot11/DOT11_STATISTICS, Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, DOT11_STATISTICS, PDOT11_STATISTICS, *PDOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PDOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_STATISTICS, windot11/DOT11_STATISTICS, *PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, netvista.dot11_statistics, DOT11_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_STATISTICS, DOT11_STATISTICS"
+req.typenames: DOT11_STATISTICS, *PDOT11_STATISTICS
 req.product: Windows 10 or later.
 ---
 
@@ -85,8 +85,6 @@ The miniport driver must set the members of
 
 
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 #### Type
@@ -94,15 +92,20 @@ For more information about these members, see
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 
+
 #### Revision
 
 This member must be set to DOT11_STATISTICS_REVISION_1.
+
 
 
 #### Size
 
 This member must be set to 
        sizeof(DOT11_STATISTICS).
+
+For more information about these members, see 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ullFourWayHandshakeFailures
@@ -138,11 +141,13 @@ The MAC layer counters based on unicast packets sent or received by the 802.11 s
      <a href="..\windot11\ns-windot11-dot11_mac_frame_statistics.md">
      DOT11_MAC_FRAME_STATISTICS</a> structure.
      
+
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received unicast packets must only be incremented for those packets with a
      destination MAC address in the 802.11 MAC header that matches the 802.11 station's MAC
      address.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field MacMcastCounters
 
@@ -151,12 +156,14 @@ The MAC layer counters based on multicast or broadcast packets sent or received 
      <a href="..\windot11\ns-windot11-dot11_mac_frame_statistics.md">
      DOT11_MAC_FRAME_STATISTICS</a> structure.
      
+
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received multicast or broadcast packets must only be incremented for those
      packets with a destination MAC address in the 802.11 MAC header that matches an entry in the multicast
      address list of the 802.11 station. For more information about the multicast address list, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569388">OID_DOT11_MULTICAST_LIST</a>.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field PhyCounters
 
@@ -179,8 +186,10 @@ Entries within the
 ## -remarks
 
 
+
 The miniport driver must unconditionally set all of the counters in the DOT11_STATISTICS structure to
     zero, including MAC-layer and PHY-layer counters, when one of the following occurs:
+
 <ul>
 <li>
 The driver's 
@@ -195,14 +204,18 @@ The driver's
       regardless of the type of reset operation specified in the set request.
 
 </li>
-</ul>For more information about the statistics gathered by a Native 802.11 miniport driver, see 
+</ul>
+For more information about the statistics gathered by a Native 802.11 miniport driver, see 
     <a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
+
+
 
  
 

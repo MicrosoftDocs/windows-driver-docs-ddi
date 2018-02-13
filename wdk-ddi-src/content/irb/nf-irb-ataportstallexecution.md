@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortStallExecution function [Storage Devices], irb/AtaPortStallExecution, atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, AtaPortStallExecution, storage.ataportstallexecution
+ms.keywords: storage.ataportstallexecution, AtaPortStallExecution, irb/AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,11 +78,14 @@ Specifies the delay interval, in microseconds.
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers should rarely call the <b>AtaPortStallExecution</b> routine. The total stall time in any miniport driver routine must always be less than one millisecond. Because this call ties up a processor, the processor does no useful work while it stalls in the driver.
@@ -93,9 +96,12 @@ Miniport drivers should use the <a href="..\irb\nf-irb-ataportrequesttimer.md">A
 
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportrequesttimer.md">AtaPortRequestTimer</a>
+
+
 
  
 

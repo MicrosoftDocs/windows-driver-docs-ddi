@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3cc6da15-8367-4430-afe8-956376eef1c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/SCATTER_GATHER_LIST, PSCATTER_GATHER_LIST structure pointer [Kernel-Mode Driver Architecture], SCATTER_GATHER_LIST, kernel.scatter_gather_list, SCATTER_GATHER_LIST structure [Kernel-Mode Driver Architecture], wdm/PSCATTER_GATHER_LIST, _SCATTER_GATHER_LIST, PSCATTER_GATHER_LIST, kstruct_d_b8c13069-6d90-4fcf-8582-c57bf11509ea.xml, *PSCATTER_GATHER_LIST
+ms.keywords: PSCATTER_GATHER_LIST structure pointer [Kernel-Mode Driver Architecture], _SCATTER_GATHER_LIST, PSCATTER_GATHER_LIST, kstruct_d_b8c13069-6d90-4fcf-8582-c57bf11509ea.xml, wdm/SCATTER_GATHER_LIST, *PSCATTER_GATHER_LIST, SCATTER_GATHER_LIST, wdm/PSCATTER_GATHER_LIST, SCATTER_GATHER_LIST structure [Kernel-Mode Driver Architecture], kernel.scatter_gather_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCATTER_GATHER_LIST
 product: Windows
 targetos: Windows
-req.typenames: SCATTER_GATHER_LIST, *PSCATTER_GATHER_LIST
+req.typenames: "*PSCATTER_GATHER_LIST, SCATTER_GATHER_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -83,14 +83,17 @@ Reserved for future use.
 ### -field Elements
 
 Specifies an array of scatter/gather elements that comprise a scatter/gather list. Each array element is a structure of type <b>SCATTER_GATHER_ELEMENT</b>, which is defined as follows:
+
 <pre class="syntax" xml:space="preserve"><code>typedef struct _SCATTER_GATHER_ELEMENT {
   PHYSICAL_ADDRESS  Address;
   ULONG  Length;
   ULONG_PTR  Reserved;
-} SCATTER_GATHER_ELEMENT, *PSCATTER_GATHER_ELEMENT;</code></pre>The <b>SCATTER_GATHER_ELEMENT</b> structure specifies the length, in bytes, of a physically contiguous scatter/gather region and the starting physical address of this region.
+} SCATTER_GATHER_ELEMENT, *PSCATTER_GATHER_ELEMENT;</code></pre>
+The <b>SCATTER_GATHER_ELEMENT</b> structure specifies the length, in bytes, of a physically contiguous scatter/gather region and the starting physical address of this region.
 
 
 ## -remarks
+
 
 
 For a driver that performs scatter/gather DMA, the <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a> or <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a> routine creates a scatter/gather list and passes this list to the driver's <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a> routine. This scatter/gather list consists of a <b>SCATTER_GATHER_LIST</b> structure that is immediately followed in memory by a <b>SCATTER_GATHER_ELEMENT</b> array. The number of elements in this array is specified by the <b>NumberOfElements</b> member of the <b>SCATTER_GATHER_LIST</b> structure.
@@ -99,13 +102,20 @@ For more information about scatter/gather lists, see <a href="https://msdn.micro
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
 
-<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
+
 
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
+
+
 
  
 

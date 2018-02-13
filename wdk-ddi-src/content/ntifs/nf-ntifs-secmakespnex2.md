@@ -7,8 +7,8 @@ old-location: ifsk\secmakespnex2.htm
 old-project: ifsk
 ms.assetid: abb8d45a-a698-41b0-94b3-c658fe3105bb
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, SecMakeSPNEx2 function [Installable File System Drivers], ifsk.secmakespnex2, ntifs/SecMakeSPNEx2, SecMakeSPNEx2
+ms.date: 2/7/2018
+ms.keywords: ntifs/SecMakeSPNEx2, SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Drivers], ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ifsk.secmakespnex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,7 +135,9 @@ A pointer to an optional variable that receives the length of the security servi
 ## -returns
 
 
+
 <b>SecMakeSPNEx2</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -178,14 +180,18 @@ The <i>Allocate</i> parameter was set to <b>TRUE</b>, but the memory allocation 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>SecMakeSPNEx2</b> is an enhanced version of <b>SecMakeSPNEx</b>. 
+
 
 
 
@@ -193,11 +199,15 @@ The <i>Allocate</i> parameter was set to <b>TRUE</b>, but the memory allocation 
 
 <a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecMakeSPNEx2 function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecMakeSPNEx2 function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

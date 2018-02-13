@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44EC5408-626A-4FDA-A777-C1A733D690F1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, kernel.pep_acpi_initialize_memory_resource, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
+ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_memory_resource, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function
@@ -105,13 +105,17 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
+
+
 
  
 

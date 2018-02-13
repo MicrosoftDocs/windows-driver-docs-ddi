@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89ae70b9-56d9-4169-8bbd-0eb2d916a928
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS, netvista.rildeleteadditionalnumberstringparams, RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS, netvista.rildeleteadditionalnumberstringparams, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDELETEADDITIONALNUMBERSTRINGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILDELETEADDITIONALNUMBERSTRINGPARAMS, *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS
+req.typenames: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 ---
 
 # RILDELETEADDITIONALNUMBERSTRINGPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILDELETEADDITIONALNUMBERSTRINGPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwNumId
-
 

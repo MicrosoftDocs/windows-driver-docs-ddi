@@ -40,7 +40,7 @@ apiname:
 -	BluetoothPortIndicationCallbackEnhanced
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback
@@ -98,11 +98,14 @@ An
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A profile driver registers its L2CAP or eL2CAP callback function by specifying the callback function in the 
@@ -122,5 +125,6 @@ The
     driver stack passes to the profile driver's enhanced L2CAP callback function through the 
     <i>Indication</i> parameter. For most notifications, there is an INDICATION_PARAMETERS_ENHANCED union member that
     corresponds to the event and contains event-specific parameters.
+
 
 

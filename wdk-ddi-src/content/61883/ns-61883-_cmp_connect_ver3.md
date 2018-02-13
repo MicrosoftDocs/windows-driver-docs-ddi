@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1F2C2B8E-6535-40F1-A5D3-46DAD43E923E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PCMP_CONNECT_VER3, 61883/CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], PCMP_CONNECT_VER3, *PCMP_CONNECT, PCMP_CONNECT_VER3 structure pointer [Buses], IEEE.cmp_connect_ver3, _CMP_CONNECT_VER3, CMP_CONNECT_VER3, *PCMP_CONNECT_VER3, CMP_CONNECT
+ms.keywords: CMP_CONNECT, CMP_CONNECT_VER3 structure [Buses], 61883/CMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3, CMP_CONNECT_VER3, *PCMP_CONNECT, IEEE.cmp_connect_ver3, PCMP_CONNECT_VER3, _CMP_CONNECT_VER3, PCMP_CONNECT_VER3 structure pointer [Buses], *PCMP_CONNECT_VER3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,8 @@ The handle for the created connection.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

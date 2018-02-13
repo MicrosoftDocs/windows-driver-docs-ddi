@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95f97b95-fdb1-43f2-b733-4054adda4c41
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, WdfWmiInstanceRegister method, kmdf.wdfwmiinstanceregister, wdf.wdfwmiinstanceregister, wdfwmi/WdfWmiInstanceRegister, PFN_WDFWMIINSTANCEREGISTER, WdfWmiInstanceRegister
+ms.keywords: PFN_WDFWMIINSTANCEREGISTER, WdfWmiInstanceRegister method, wdf.wdfwmiinstanceregister, WdfWmiInstanceRegister, wdfwmi/WdfWmiInstanceRegister, kmdf.wdfwmiinstanceregister, DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,7 +79,9 @@ A handle to a WMI instance object that the driver obtained from a previous call 
 ## -returns
 
 
+
 <b>WdfWmiInstanceRegister</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,7 +98,8 @@ The specified WMI instance has already been registered.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -106,7 +109,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Provider instances are not available to WMI clients until they have been registered. Your driver must either call <b>WdfWmiInstanceRegister</b> or set the <b>Register</b> member of the instance's <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure to <b>TRUE</b>.
@@ -116,14 +121,38 @@ For more information about the <b>WdfWmiInstanceRegister</b> method, see <a href
 <b>WdfWmiInstanceRegister</b> registers the provider instance synchronously (that is, before returning) if it is called at IRQL = PASSIVE_LEVEL and asynchronously if it is called at IRQL &gt; PASSIVE_LEVEL. 
 
 
+#### Examples
+
+The following code example registers a specified instance of a WMI data provider with the system's WMI service.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status;
+
+status = WdfWmiInstanceRegister(wmiInstance);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancederegister.md">WdfWmiInstanceDeregister</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
 
  
 

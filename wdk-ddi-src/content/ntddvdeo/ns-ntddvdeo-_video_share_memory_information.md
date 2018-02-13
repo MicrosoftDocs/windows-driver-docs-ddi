@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 004ecb65-a462-45e5-a647-9655727b202b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION, Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, _VIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], display.video_share_memory_information, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices]
+ms.keywords: ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, _VIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, display.video_share_memory_information, *PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,9 +87,11 @@ Indicates the address in virtual memory at which the requested memory was mapped
 ## -remarks
 
 
+
 When an application must have access to user-mode video memory, the display driver can call into the video miniport driver by sending it an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a> request. The miniport driver uses a <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a> structure as an input buffer, and communicates back to the display driver a VIDEO_SHARE_MEMORY_INFORMATION structure. 
 
 The video miniport driver fills out a VIDEO_SHARE_MEMORY_INFORMATION structure based on information in a VIDEO_SHARE_MEMORY structure. The following table summarizes how the information is used:
+
 <table>
 <tr>
 <th>VIDEO_SHARE_MEMORY member</th>
@@ -135,15 +137,21 @@ If <b>NULL</b>, the miniport driver determines the address of a frame buffer to 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+
+
+
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+
 
  
 

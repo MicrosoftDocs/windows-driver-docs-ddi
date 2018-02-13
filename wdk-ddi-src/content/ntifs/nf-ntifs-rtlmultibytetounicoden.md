@@ -7,8 +7,8 @@ old-location: ifsk\rtlmultibytetounicoden.htm
 old-project: ifsk
 ms.assetid: c0cc4fba-01ba-4745-8dee-fc4c43f570cf
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtlmultibytetounicoden, ntifs/RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN routine [Installable File System Drivers], rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml
+ms.date: 2/7/2018
+ms.keywords: rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml, ifsk.rtlmultibytetounicoden, RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN routine [Installable File System Drivers], ntifs/RtlMultiByteToUnicodeN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,14 @@ Size, in bytes, of the string at <i>MultiByteString</i>.
 ## -returns
 
 
+
 <b>RtlMultiByteToUnicodeN</b> returns STATUS_SUCCESS. 
 
 
 
+
 ## -remarks
+
 
 
 <b>RtlMultiByteToUnicodeN</b> supports only precomposed Unicode characters that are mapped to the current system ANSI code page installed at system boot. 
@@ -121,15 +124,20 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-rtlmultibytetounicodesize.md">RtlMultiByteToUnicodeSize</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlMultiByteToUnicodeN routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlMultiByteToUnicodeN routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

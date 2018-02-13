@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D79FD160-1A03-43F0-B9AB-D74C6176565A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExReleaseSpinLockShared, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, ExReleaseSpinLockShared
+ms.keywords: ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, wdm/ExReleaseSpinLockShared, ExReleaseSpinLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,11 +87,14 @@ A pointer to the spin lock to release. The caller must own this spin lock for sh
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine must be called only for a spin lock that is owned by the caller.
@@ -102,9 +105,12 @@ The caller should hold the spin lock only briefly before releasing it. For more 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451053">ExAcquireSpinLockShared</a>
+
+
 
  
 

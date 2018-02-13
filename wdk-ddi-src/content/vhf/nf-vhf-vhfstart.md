@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: VhfStart method [Human Input Devices], VhfStart, hid.vhfstart, vhf/VhfStart
+ms.keywords: vhf/VhfStart, hid.vhfstart, VhfStart, VhfStart method [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,13 +77,17 @@ A handle to a virtual HID device that your HID source driver received in the pre
 ## -returns
 
 
+
 If the <b>VhfStart</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
+
 
 
 
 ## -remarks
 
 
+
 Virtual HID Framework (VHF) does not invoke any callback functions implemented by the HID source driver until the source driver calls <b>VhfStart</b>. A callback can get invoked before <b>VhfStart</b> returns.  After this call succeeds, the driver can  submit reports. The HID source driver must not invoke any VHF method until after <b>VhfStart</b> returns successfully
+
 
 

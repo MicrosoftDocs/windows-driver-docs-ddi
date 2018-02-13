@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI, IPrintOemDriverUI::DrvGetDriverSetting, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, print.iprintoemdriverui_drvgetdriversetting, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface
+ms.keywords: DrvGetDriverSetting method [Print Devices], print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, IPrintOemDriverUI::DrvGetDriverSetting, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUI, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface, print.iprintoemdriverui_drvgetdriversetting, DrvGetDriverSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemDriverUI.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ Caller-supplied pointer to a location to receive the number of option strings pl
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,14 +147,18 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When calling the <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method, a user interface plug-in can specify either a string pointer or a constant value for <i>pFeatureKeyword</i>.
+
 <ul>
 <li>
 If <i>pFeatureKeyword</i> is a string, it must represent one of the following:<ul>
@@ -169,4 +175,5 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
+
 

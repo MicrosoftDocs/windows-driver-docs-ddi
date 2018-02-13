@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bfdea6dd-1f94-45ea-906c-9d17fc784a53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, D3DDDIARG_OPENADAPTER structure [Display Devices], d3dumddi/D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter, _D3DDDIARG_OPENADAPTER
+ms.keywords: D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter, _D3DDDIARG_OPENADAPTER, d3dumddi/D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,18 +102,28 @@ The driver generates a unique handle and passes it back to the Direct3D runtime.
 ### -field DriverVersion
 
 [out] The version of the Direct3D user-mode display driver's interface, which was obtained from the <i>D3dumddi.h</i> header file, that the driver was compiled with. The user-mode display driver should return D3D_UMD_INTERFACE_VERSION. 
+
 <div class="alert"><b>Note</b>  If a user-mode driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
-with the Windows 7 WDK (Version 7600), make sure that the driver returns D3D_UMD_INTERFACE_VERSION_VISTA.</div><div> </div>
+with the Windows 7 WDK (Version 7600), make sure that the driver returns D3D_UMD_INTERFACE_VERSION_VISTA.</div>
+<div> </div>
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adaptercallbacks.md">D3DDDI_ADAPTERCALLBACKS</a>
+
+
 
  
 

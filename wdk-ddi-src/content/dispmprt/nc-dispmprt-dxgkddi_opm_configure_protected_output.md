@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiOPMConfigureProtectedOutput
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback
@@ -87,13 +87,14 @@ The handle to a protected output object. The <a href="..\dispmprt\nc-dispmprt-dx
 ### -param PDXGKMDT_OPM_CONFIGURE_PARAMETERS
 
 
-
 ### -param AdditionalParametersSize [in]
 
 The size, in bytes, of the additional parameters in the buffer that is pointed to by <i>AdditionalParameters</i>. For Certified Output Protection Protocol (COPP) emulation, this is 0. 
 
 
 ### -param PVOID
+
+
 
 
 
@@ -113,7 +114,9 @@ A pointer to a buffer that holds the additional parameters that are used to conf
 ## -returns
 
 
+
 <i>DxgkDdiOPMConfigureProtectedOutput</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,13 +144,16 @@ The function successfully configured the protected output object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem calls <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> to retrieve information about the output and then calls <i>DxgkDdiOPMConfigureProtectedOutput</i> one or more times to configure the output.
@@ -156,17 +162,28 @@ The DirectX graphics kernel subsystem calls <a href="..\dispmprt\nc-dispmprt-dxg
 
 
 
+
 ## -see-also
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
+
+
 
  
 

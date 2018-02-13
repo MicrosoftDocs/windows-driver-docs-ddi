@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f842d945-1d1e-4f0b-9cc9-82a8401c170a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGBATOKEN structure [Network Drivers Starting with Windows Vista], oemrilapitypes/RILGBATOKEN, LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], *LPRILGBATOKEN, LPRILGBATOKEN, RILGBATOKEN, netvista.rilgbatoken, oemrilapitypes/LPRILGBATOKEN
+ms.keywords: RILGBATOKEN structure [Network Drivers Starting with Windows Vista], oemrilapitypes/RILGBATOKEN, oemrilapitypes/LPRILGBATOKEN, LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], RILGBATOKEN, netvista.rilgbatoken, *LPRILGBATOKEN, LPRILGBATOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGBATOKEN
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # RILGBATOKEN structure
@@ -77,31 +77,23 @@ typedef struct _RILGBATOKEN {
 ### -field cbSize
 
 
-
 ### -field cbBTIDSize
-
 
 
 ### -field dwBTIDOffset
 
 
-
 ### -field cbNAFKeyLifetimeSize
-
 
 
 ### -field dwNAFKeyLifetimeOffset
 
 
-
 ### -field cbNAFKeySize
-
 
 
 ### -field dwNAFKeyOffset
 
 
-
 ### -field bData
-
 

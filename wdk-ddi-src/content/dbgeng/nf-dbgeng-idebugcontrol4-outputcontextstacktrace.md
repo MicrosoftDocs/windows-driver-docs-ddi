@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.outputcontextstacktrace, IDebugControl4, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::OutputContextStackTrace, IDebugControl4::OutputContextStackTrace
+ms.keywords: IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, dbgeng/IDebugControl4::OutputContextStackTrace, IDebugControl4, OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,6 +106,7 @@ Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 ### -param Flags [in]
 
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -221,13 +222,16 @@ Displays each parameter and its type and value on a new line.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -244,14 +248,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The array of stack frames can be obtained using <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>.
+
 
 
 
@@ -259,11 +267,19 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
 
  
 

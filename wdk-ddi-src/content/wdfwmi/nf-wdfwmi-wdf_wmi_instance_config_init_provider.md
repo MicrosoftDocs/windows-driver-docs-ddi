@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6509fded-c244-4d86-9b20-23790ec58f4a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, wdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml, kmdf.wdf_wmi_instance_config_init_provider
+ms.keywords: DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, kmdf.wdf_wmi_instance_config_init_provider, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, wdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,14 @@ A handle to a WMI provider object that the driver obtained by a previous call to
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</b> function zeros the <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure that the <i>Config</i> parameter specifies and sets its <b>Size</b> member. This function also sets the structure's <b>Provider</b> member to the handle that the <i>Provider</i> parameter specifies.
@@ -96,20 +99,84 @@ The <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</b> function zeros the <a href="..\
 Your driver should call <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</b> to initialize a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure if it calls <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a> before calling <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure and calls <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>. Then, the example initializes a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure and calls <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_WMI_PROVIDER_CONFIG  providerConfig;
+WDFWMIPROVIDER  provider;
+GUID  providerGuid = MY_WMI_DATA_BLOCK_GUID;
+WDF_WMI_INSTANCE_CONFIG  instanceConfig;
+WDFWMIINSTANCE  instanceHandle;
+NTSTATUS  status;
+
+WDF_WMI_PROVIDER_CONFIG_INIT(
+                             &amp;providerConfig,
+                             providerGuid
+                             );
+providerConfig.Flags = WdfWmiProviderTracing;
+providerConfig.EvtWmiProviderFunctionControl = MyProviderFunctionControl;
+
+status = WdfWmiProviderCreate(
+                              Device,
+                              &amp;providerConfig,
+                              WDF_NO_OBJECT_ATTRIBUTES,
+                              &amp;provider
+                              );
+
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER(
+                                      &amp;instanceConfig,
+                                      provider
+                                      );
+status = WdfWmiInstanceCreate(
+                              Device,
+                              &amp;instanceConfig,
+                              WDF_NO_OBJECT_ATTRIBUTES,
+                              &amp;instanceHandle
+                              );
+if (!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
 
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</a>
 
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
+
+
+
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
+
+
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
+
 
  
 

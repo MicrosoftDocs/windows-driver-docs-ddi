@@ -85,14 +85,18 @@ Length of a <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_serial_number.md">AACS_SERIAL
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,8 +108,10 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -remarks
 
 
+
 The IOCTL_AACS_READ_SERIAL_NUMBER request corresponds to the part of the AACS authentication protocol that is responsible for transferring the prerecorded media serial number. For a complete description of this protocol, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA). 
 
 The AGID is automatically released after the IOCTL_AACS_READ_SERIAL_NUMBER request completes. 
+
 
 

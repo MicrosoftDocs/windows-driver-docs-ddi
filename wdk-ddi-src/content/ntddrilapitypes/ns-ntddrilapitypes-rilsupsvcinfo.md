@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f8f7c8c-f09a-4bf5-a15b-42f210122b54
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], *LPRILSUPSVCINFO, netvista.rilsupsvcinfo, ntddrilapitypes/RILSUPSVCINFO
+ms.keywords: ntddrilapitypes/RILSUPSVCINFO, *LPRILSUPSVCINFO, RILSUPSVCINFO, netvista.rilsupsvcinfo, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,75 +88,56 @@ typedef struct _RILSUPSVCINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field fFromNetwork
-
 
 
 ### -field dwFailureReason
 
 
-
 ### -field dwSupSvcAction
-
 
 
 ### -field dwCallForwardingReason
 
 
-
 ### -field dwCallBarringType
-
 
 
 ### -field dwSupSvcType
 
 
-
 ### -field dwInfoClasses
-
 
 
 ### -field aiIdentifier
 
 
-
 ### -field szCallBarringPassword
-
 
 
 ### -field szNewCallBarringPassword
 
 
-
 ### -field callForwardSettings
-
 
 
 ### -field callerIdSettings
 
 
-
 ### -field dialedIdSettings
-
 
 
 ### -field hideIdSettings
 
 
-
 ### -field hideConnectedIdSettings
 
 
-
 ### -field supServiceData
-
 

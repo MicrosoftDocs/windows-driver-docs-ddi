@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 53e03b1d-0995-43cf-945a-22834a9e8240
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, stream.ksgateaddoffinputtoand, KsGateAddOffInputToAnd function [Streaming Media Devices], KsGateAddOffInputToAnd, ks/KsGateAddOffInputToAnd
+ms.keywords: KsGateAddOffInputToAnd, avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, ks/KsGateAddOffInputToAnd, stream.ksgateaddoffinputtoand, KsGateAddOffInputToAnd function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representin
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Adding an OFF input to an open AND gate closes the gate and propagates the close down to any attached gates.
@@ -90,17 +93,28 @@ This function should only be used on gates that were specifically created as AND
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+
 
 <a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
 
+
+
 <a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateremoveoffinputfromand.md">KsGateRemoveOffInputFromAnd</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+
 
  
 

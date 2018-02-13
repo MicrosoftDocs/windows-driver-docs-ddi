@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlMoveMemory, k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, RtlMoveMemory routine [Kernel-Mode Driver Architecture], kernel.rtlmovememory, RtlMoveMemory
+ms.keywords: RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, RtlMoveMemory, kernel.rtlmovememory, wdm/RtlMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -88,6 +88,7 @@ The number of bytes to copy from the source to the destination.
 ## -remarks
 
 
+
 The source memory block, which is defined by <i>Source</i> and <i>Length</i>, can overlap the destination memory block, which is defined by <i>Destination</i> and <i>Length</i>.
 
 The <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a> routine runs faster than <b>RtlMoveMemory</b>, but <b>RtlCopyMemory</b> requires that the source and destination memory blocks do not overlap.
@@ -96,9 +97,12 @@ Callers of <b>RtlMoveMemory</b> can be running at any IRQL if the source and des
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+
 
  
 

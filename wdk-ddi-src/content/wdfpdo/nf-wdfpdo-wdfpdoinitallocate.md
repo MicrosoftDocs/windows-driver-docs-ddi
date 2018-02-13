@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAllocate, WdfPdoInitAllocate, kmdf.wdfpdoinitallocate, WdfPdoInitAllocate method, PFN_WDFPDOINITALLOCATE, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, wdf.wdfpdoinitallocate
+ms.keywords: WdfPdoInitAllocate method, wdf.wdfpdoinitallocate, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, PFN_WDFPDOINITALLOCATE, wdfpdo/WdfPdoInitAllocate, kmdf.wdfpdoinitallocate, WdfPdoInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,14 +79,18 @@ A handle to a framework device object that represents the parent device of the n
 ## -returns
 
 
+
 If the operation succeeds, the method returns a pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. Otherwise, the method returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 If a bus driver uses static enumeration, it reports a new device by:
+
 <ol>
 <li>
 Calling <b>WdfPdoInitAllocate</b> to allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
@@ -100,13 +104,23 @@ Calling <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn265
 Calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> to create a framework device object, supplying the initialized WDFDEVICE_INIT structure as input.
 
 </li>
-</ol>For more information about static enumeration, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+</ol>
+For more information about static enumeration, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+
+
+#### Examples
+
+For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="..\wdffdo\nf-wdffdo-wdffdoaddstaticchild.md">WdfFdoAddStaticChild</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
+
+
 
  
 

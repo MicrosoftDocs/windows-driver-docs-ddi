@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksreleasecachedmdl, KsReleaseCachedMdl function [Streaming Media Devices], KsReleaseCachedMdl, ks/KsReleaseCachedMdl
+ms.keywords: KsReleaseCachedMdl function [Streaming Media Devices], KsReleaseCachedMdl, stream.ksreleasecachedmdl, ks/KsReleaseCachedMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ The context passed as an output in the <a href="..\ks\nf-ks-ksacquirecachedmdl.m
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> for success conditions.
+
 
 

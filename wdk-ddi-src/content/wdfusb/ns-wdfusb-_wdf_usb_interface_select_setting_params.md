@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fad8a205-8427-48c5-b4b5-b125aa9fe85c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdf.wdf_usb_interface_select_setting_params, kmdf.wdf_usb_interface_select_setting_params, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
+ms.keywords: wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdf.wdf_usb_interface_select_setting_params, DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer, kmdf.wdf_usb_interface_select_setting_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,37 +82,6 @@ typedef struct _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS {
 
 
 
-### -field Types
-
-
-
-### -field Types.Descriptor
-
-
-
-### -field Types.Descriptor.InterfaceDescriptor
-
-If the <b>Type</b> member is <b>WdfUsbInterfaceSelectSettingTypeDescriptor</b>, this member contains a pointer to a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that identifies a device interface.
-
-
-### -field Types.Interface
-
-
-
-### -field Types.Interface.SettingIndex
-
-If the <b>Type</b> member is <b>WdfUsbInterfaceSelectSettingTypeSetting</b>, this member contains an index value that identifies an alternate setting for the interface. (The interface is identified by an interface object handle that the driver passes to <a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>.) 
-
-
-### -field Types.Urb
-
-
-
-### -field Types.Urb.Urb
-
-If the <b>Type</b> member is <b>WdfUsbInterfaceSelectSettingTypeUrb</b>, this member contains a pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure that describes a device interface. The URB structure's <b>Function</b> member must be URB_FUNCTION_SELECT_INTERFACE, and other members must be initialized as appropriate for the interface.
-
-
 ### -field Size
 
 The size, in bytes, of this structure.
@@ -123,12 +92,41 @@ The size, in bytes, of this structure.
 A <a href="..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectsettingtype.md">WdfUsbTargetDeviceSelectSettingType</a>-typed value that identifies a technique for specifying a device interface.
 
 
+### -field Types
+
+
+### -field Types.Descriptor
+
+
+### -field Types.Descriptor.InterfaceDescriptor
+
+If the <b>Type</b> member is <b>WdfUsbInterfaceSelectSettingTypeDescriptor</b>, this member contains a pointer to a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that identifies a device interface.
+
+
+### -field Types.Interface
+
+
+### -field Types.Interface.SettingIndex
+
+If the <b>Type</b> member is <b>WdfUsbInterfaceSelectSettingTypeSetting</b>, this member contains an index value that identifies an alternate setting for the interface. (The interface is identified by an interface object handle that the driver passes to <a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>.) 
+
+
+### -field Types.Urb
+
+
+### -field Types.Urb.Urb
+
+If the <b>Type</b> member is <b>WdfUsbInterfaceSelectSettingTypeUrb</b>, this member contains a pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure that describes a device interface. The URB structure's <b>Function</b> member must be URB_FUNCTION_SELECT_INTERFACE, and other members must be initialized as appropriate for the interface.
+
+
 ## -remarks
+
 
 
 The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure is used as input to the <a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a> method. 
 
 To initialize a <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure, your driver must call one of the following functions:
+
 <ul>
 <li>
 
@@ -151,15 +149,24 @@ To initialize a <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure, your d
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
 
 <a href="..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectsettingtype.md">WdfUsbTargetDeviceSelectSettingType</a>
 
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
+
+
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: EBEEF2C7-AD2E-4BE5-B20C-D4E148F1454C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide, IDebugPlmClient3::TerminatePlmPackageWide, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, IDebugPlmClient3
+ms.keywords: IDebugPlmClient3, TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,13 +81,17 @@ A pointer to the package name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0491AF42-53DF-4538-BE8A-AA5AA7B2C65E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, display.dxgk_multiplane_overlay_attributes3, _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+ms.keywords: display.dxgk_multiplane_overlay_attributes3, _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,5 +119,6 @@ Specifies the overlay plane's stretch quality, given as a value from the DXGK_MU
 ### -field SDRWhiteLevel
 
  
+
 
 

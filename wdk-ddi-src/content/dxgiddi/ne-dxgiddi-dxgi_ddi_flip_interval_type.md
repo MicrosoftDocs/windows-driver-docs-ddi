@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e33da768-9d57-4b07-9c4e-c86d19828291
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxgiddi/DXGI_DDI_FLIP_INTERVAL_FOUR, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TYPE, DXGI_DDI_FLIP_INTERVAL_TWO, DXGI_DDI_FLIP_INTERVAL_TYPE enumeration [Display Devices], UMDisplayDriver_Dx10param_Structs_65a96d1c-4c37-4fdd-b79e-2a90559db67d.xml, DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, DXGI_DDI_FLIP_INTERVAL_TYPE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_ONE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TWO, DXGI_DDI_FLIP_INTERVAL_ONE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_THREE, DXGI_DDI_FLIP_INTERVAL_FOUR, display.dxgi_ddi_flip_interval_type, DXGI_DDI_FLIP_INTERVAL_THREE
+ms.keywords: DXGI_DDI_FLIP_INTERVAL_THREE, display.dxgi_ddi_flip_interval_type, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TWO, DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, DXGI_DDI_FLIP_INTERVAL_TWO, DXGI_DDI_FLIP_INTERVAL_ONE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_IMMEDIATE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_FOUR, dxgiddi/DXGI_DDI_FLIP_INTERVAL_TYPE, dxgiddi/DXGI_DDI_FLIP_INTERVAL_THREE, DXGI_DDI_FLIP_INTERVAL_TYPE, DXGI_DDI_FLIP_INTERVAL_FOUR, dxgiddi/DXGI_DDI_FLIP_INTERVAL_ONE, DXGI_DDI_FLIP_INTERVAL_TYPE enumeration [Display Devices], UMDisplayDriver_Dx10param_Structs_65a96d1c-4c37-4fdd-b79e-2a90559db67d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,6 +104,8 @@ Indicates to perform the flip on every fourth vertical sync.
 ## -see-also
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
+
+
 
  
 

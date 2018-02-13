@@ -40,7 +40,7 @@ apiname:
 -	AgpFreeVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -97,11 +97,14 @@ Specifies the page offset into the reserved virtual address range identified by 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When a miniport driver calls <b>AgpFreeVirtual</b>, <i>Pages</i> pages of virtual addresses are unmapped. The unmapped range begins <b>Offset</b> pages into the range associated with <b>VirtualReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>. 
@@ -110,9 +113,12 @@ A call to <b>AgpFreeVirtual</b> must be paired with a previous call to <a href="
 
 
 
+
 ## -see-also
 
 <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, debugger.getcommandwide, GetCommandWide, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method, GetCommandWide method [Windows Debugging], dbgeng/IDebugBreakpoint2::GetCommandWide, IDebugBreakpoint2::GetCommandWide
+ms.keywords: GetCommandWide method [Windows Debugging], GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide, IDebugBreakpoint2, debugger.getcommandwide, IDebugBreakpoint2::GetCommandWide, GetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetCommandWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,6 +87,7 @@ The size of the command string.  If <i>CommandSize</i> is <b>NULL</b>, this info
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,13 +115,16 @@ The method was successful, but the buffer was not large enough to hold the comma
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The command string is a list of debugger commands that are separated by semicolons.  These commands are executed every time that the breakpoint is triggered.  The commands are executed before the engine informs any event callbacks that the breakpoint has been triggered.
@@ -128,5 +132,6 @@ The command string is a list of debugger commands that are separated by semicolo
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the size of the breakpoint's command, <i>CommandSize</i>.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

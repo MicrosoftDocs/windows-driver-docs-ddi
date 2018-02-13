@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiInstanceControl, wdfwmi/WdfWmiControlInvalid, _WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL enumeration, WdfWmiEventControl, wdfwmi/WdfWmiEventControl, WdfWmiInstanceControl, wdfwmi/WDF_WMI_PROVIDER_CONTROL, WdfWmiControlInvalid, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, kmdf.wdf_wmi_provider_control, wdf.wdf_wmi_provider_control
+ms.keywords: wdfwmi/WDF_WMI_PROVIDER_CONTROL, WdfWmiControlInvalid, WdfWmiInstanceControl, WdfWmiEventControl, wdf.wdf_wmi_provider_control, WDF_WMI_PROVIDER_CONTROL enumeration, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiInstanceControl, wdfwmi/WdfWmiControlInvalid, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, kmdf.wdf_wmi_provider_control, _WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiEventControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,15 +90,21 @@ The driver must enable or disable collecting data for a provider instance.
 ## -remarks
 
 
+
 The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to the <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a> method and the driver's <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a> callback function.
+
 
 
 
 ## -see-also
 
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
+
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+
 
  
 

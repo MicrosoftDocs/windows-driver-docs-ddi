@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 57818ea9-f60b-4a37-9f42-613fb9cfaf36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PMSR_SUPPORTED_CARD_TYPES, _MSR_SUPPORTED_CARD_TYPES, PMSR_SUPPORTED_CARD_TYPES structure pointer, pos.msr_supported_card_types, PMSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES structure, pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES, *PMSR_SUPPORTED_CARD_TYPES
+ms.keywords: pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES, pos.msr_supported_card_types, _MSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES structure, pointofservicedriverinterface/PMSR_SUPPORTED_CARD_TYPES, *PMSR_SUPPORTED_CARD_TYPES, PMSR_SUPPORTED_CARD_TYPES structure pointer, PMSR_SUPPORTED_CARD_TYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

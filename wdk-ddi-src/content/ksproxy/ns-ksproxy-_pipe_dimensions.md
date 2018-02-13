@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a919dd8-a266-42c8-8f97-3314a5d52f4f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, ksproxy/PPIPE_DIMENSIONS, ksproxy/PIPE_DIMENSIONS, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], _PIPE_DIMENSIONS, stream.pipe_dimensions, PIPE_DIMENSIONS structure [Streaming Media Devices], PPIPE_DIMENSIONS, *PPIPE_DIMENSIONS
+ms.keywords: stream.pipe_dimensions, PPIPE_DIMENSIONS, PIPE_DIMENSIONS structure [Streaming Media Devices], PIPE_DIMENSIONS, ksproxy/PPIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], ksproxy/PIPE_DIMENSIONS, *PPIPE_DIMENSIONS, _PIPE_DIMENSIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PIPE_DIMENSIONS
 product: Windows
 targetos: Windows
-req.typenames: PIPE_DIMENSIONS, *PPIPE_DIMENSIONS
+req.typenames: "*PPIPE_DIMENSIONS, PIPE_DIMENSIONS"
 ---
 
 # _PIPE_DIMENSIONS structure
@@ -72,11 +72,8 @@ typedef struct _PIPE_DIMENSIONS {
 ### -field AllocatorPin
 
 
-
 ### -field MaxExpansionPin
 
 
-
 ### -field EndPin
-
 

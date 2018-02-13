@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal, storage.iscsi_discoveredtargetportal, iscsifnd/ISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, _ISCSI_DiscoveredTargetPortal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml
+ms.keywords: storage.iscsi_discoveredtargetportal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, ISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, _ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_DiscoveredTargetPortal
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal"
+req.typenames: ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal
 ---
 
 # _ISCSI_DiscoveredTargetPortal structure
@@ -87,7 +87,9 @@ A wide character string that indicates the portal's symbolic name.
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>. 
+
 
 
 
@@ -95,9 +97,15 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal2.md">ISCSI_DiscoveredTargetPortal2</a>
 
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
+
+
 
  
 

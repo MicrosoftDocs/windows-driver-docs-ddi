@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_WORK, PPEP_WORK, PEP_WORK, pepfx/PEP_WORK, *PPEP_WORK, kernel.pep_work, _PEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], PEP_WORK structure [Kernel-Mode Driver Architecture]
+ms.keywords: pepfx/PPEP_WORK, pepfx/PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK, PPEP_WORK, _PEP_WORK, PEP_WORK, kernel.pep_work
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK, *PPEP_WORK
+req.typenames: "*PPEP_WORK, PEP_WORK"
 ---
 
 # _PEP_WORK structure
@@ -81,15 +81,21 @@ typedef struct _PEP_WORK {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification. Both members of the structure contain values that the PEP writes to the structure in response to this notification.
+
 
 
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
 
  
 

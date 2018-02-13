@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY Unlock(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a> structure that describes the resource or surface within the resource to unlock.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY Unlock(
 ## -returns
 
 
+
 <i>Unlock</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +134,14 @@ The resource that <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIA
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 These comments are analogous to the description in the Remarks section of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> reference page.
@@ -145,17 +152,28 @@ The runtime calls the user-mode display driver's <i>Unlock</i> function to unloc
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a>
 
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

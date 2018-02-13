@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05057ae7-0f91-4f5a-8c72-652ec04ee3ab
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, kernel.zwopenkeyex, ZwOpenKeyEx, wdm/ZwOpenKeyEx
+ms.keywords: k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, wdm/ZwOpenKeyEx, kernel.zwopenkeyex, ZwOpenKeyEx, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,6 +89,7 @@ A pointer to the object attributes of the key being opened. This parameter point
 ### -param OpenOptions [in]
 
 Specifies the options to apply when opening the key. Set this parameter to zero or to the bitwise OR of one or more of the following REG_OPTION_<i>XXX</i> flag bits:
+
 <table>
 <tr>
 <th><i>OpenOptions</i> flag</th>
@@ -114,13 +115,16 @@ The key should be opened with special privileges that allow backup and restore o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>ZwOpenKeyEx</b> returns STATUS_SUCCESS if the call succeeds in opening the key. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -192,11 +196,14 @@ A memory allocation operation failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine supplies a handle with which the caller can access a registry key. If the specified key does not exist, the routine returns an error status value and does not supply a key handle.
@@ -213,17 +220,28 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorStopDevice, StorFilterResourceRequirements, StorStartDevice, StorSupriseRemoval, _SRBEX_DATA_PNP, StorQueryResourceRequirements, storage.srbex_data_pnp, *PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorRemoveDevice, storport/PSRBEX_DATA_PNP, SRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], StorQueryCapabilities
+ms.keywords: StorQueryCapabilities, storport/PSRBEX_DATA_PNP, SRBEX_DATA_PNP, StorStartDevice, StorRemoveDevice, PSRBEX_DATA_PNP structure pointer [Storage Devices], storage.srbex_data_pnp, StorFilterResourceRequirements, StorStopDevice, PSRBEX_DATA_PNP, StorSupriseRemoval, StorQueryResourceRequirements, _SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], *PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_PNP
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_PNP, SRBEX_DATA_PNP"
+req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 req.product: Windows 10 or later.
 ---
 
@@ -97,6 +97,7 @@ This member is reserved. Set to 0.
 ### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -179,7 +180,8 @@ Surprise Removal of the device. This value is available starting with Windows 7
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SrbPnPFlags
@@ -195,6 +197,8 @@ This member is reserved. Set to 0.
 ## -see-also
 
 <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

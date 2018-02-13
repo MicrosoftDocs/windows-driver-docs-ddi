@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongToInt, kernel.rtllongtoint, RtlLongToInt
+ms.keywords: ntintsafe/RtlLongToInt, RtlLongToInt, kernel.rtllongtoint, RtlLongToInt function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,13 +81,16 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlLongToInt32
 </li>
 <li>RtlLongToIntPtr
 </li>
 </ul>
+
 

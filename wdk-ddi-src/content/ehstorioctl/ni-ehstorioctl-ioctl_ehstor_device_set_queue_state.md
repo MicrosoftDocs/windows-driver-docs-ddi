@@ -65,6 +65,7 @@ The <b>IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</b> request is sent by silo drivers a
 ### -input-buffer
 
 The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <b> ACT_QUEUE_STATE</b>  structure. <b>ACT_QUEUE_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -78,6 +79,7 @@ The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <b> AC
 </td>
 </tr>
 </table></span></div>
+
 
 
 #### -fFrozen
@@ -103,20 +105,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values can be returned in the <b>Status</b> field.
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -134,10 +141,12 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>STATUS_ACCESS_DENIED</td>
 <td>The IOCTL request was not issued by a silo driver.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Silo drivers or applications can freeze the storage device IO request queue if temporary unauthorization is needed. Normally, temporary unauthorization occurs during low power states or when a policy requires locking of Enhanced Storage devices such as a locked user session. In such a case, it is preferable to put pending IO requests on hold rather than  fail the IO requests and cause data loss.
@@ -146,9 +155,12 @@ To prevent abuse of  the <b>IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</b> request by a
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_get_queue_state.md">IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetFC4Statistics_OUT structure [Storage Devices], PGetFC4Statistics_OUT, storage.getfc4statistics_out, hbapiwmi/GetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], GetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, _GetFC4Statistics_OUT, *PGetFC4Statistics_OUT
+ms.keywords: hbapiwmi/GetFC4Statistics_OUT, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml, GetFC4Statistics_OUT structure [Storage Devices], storage.getfc4statistics_out, PGetFC4Statistics_OUT structure pointer [Storage Devices], _GetFC4Statistics_OUT, GetFC4Statistics_OUT, PGetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, *PGetFC4Statistics_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,15 +81,19 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_fc4statistic
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method reports traffic statistics for a specific FC-4 protocol via a specific local HBA and port of type Nx_Port.
 
 The WMI tool suite generates a declaration of the GetFC4Statistics_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
+
+
 
  
 

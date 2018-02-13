@@ -90,14 +90,18 @@ A pointer to a structure of type <a href="..\ata\ns-ata-_identify_device_data.md
 ## -returns
 
 
+
 <b><i>IdeHwInitialize</i></b> returns <b>TRUE</b> if the operation succeeds. It returns <b>FALSE</b> if the operation fails. 
+
 
 
 
 ## -remarks
 
 
+
 After the miniport driver enumerates the devices on a channel, it calls the <b><i>IdeHwInitialize</i></b> routine one time for each device it enumerates. The <b><i>IdeHwInitialize</i></b> routine must configure each device based on the information that is specified in the <a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a> structure, pointed to by the <i>DeviceParameters</i> parameter. In exceptional cases, the miniport driver can configure the device by using a set of parameters that differ from those contained in <b>IDE_DEVICE_PARAMETERS</b>. In such cases, the miniport driver must update the information in <b>IDE_DEVICE_PARAMETERS</b> to contain the parameter value that it actually used to configure the device. After the <b><i>IdeHwInitialize</i></b> routine returns, the port driver updates its cached information with the parameter values that are provided by the miniport driver.
+
 
 
 
@@ -105,7 +109,11 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 <a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
 
+
+
 <a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a>
+
+
 
  
 

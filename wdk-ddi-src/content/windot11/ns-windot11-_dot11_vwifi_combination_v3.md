@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 65A397AE-B835-4043-9A81-24055901310B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_VWIFI_COMBINATION_V3 structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3, netvista.dot11_vwifi_combination_v3, PDOT11_VWIFI_COMBINATION_V3 structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_COMBINATION_V3, windot11/PDOT11_VWIFI_COMBINATION_V3, _DOT11_VWIFI_COMBINATION_V3, windot11/DOT11_VWIFI_COMBINATION_V3
+ms.keywords: windot11/DOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3 structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION_V3 structure pointer [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION_V3, *PDOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3, _DOT11_VWIFI_COMBINATION_V3, netvista.dot11_vwifi_combination_v3, windot11/PDOT11_VWIFI_COMBINATION_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,6 +76,7 @@ typedef struct _DOT11_VWIFI_COMBINATION_V3 {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_VWIFI_COMBINATION_V3</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -93,7 +94,8 @@ The type, revision, and size of the <b>DOT11_VWIFI_COMBINATION_V3</b> structure.
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_VWIFI_COMBINATION_REVISION_3</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field uNumInfrastructure
@@ -124,6 +126,8 @@ The number of simultaneous operational Wi-Fi Direct (WFD) groups supported.
 ## -remarks
 
 
+
 When <b>uNumWFDGroup</b> &gt; 0, the miniport driver is required to support one more 802.11 MAC entity in addition to the number in <b>uNumWFDGroup</b>. This additional entity is used for WFD device functionality and is the only entity configured as <b>DOT11_OPERATION_MODE_WFD_DEVICE</b>.
+
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6AA5AA6F-DC73-40E6-8EE0-CAA91D89A0E8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
+ms.keywords: OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, OnD0EntryPostInterruptsEnabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,14 +89,18 @@ A pointer to <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> inte
 ## -returns
 
 
+
 If successful, <b>OnD0EntryPostInterruptsEnabled</b> returns S_OK. Otherwise, it returns an appropriate failure status.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99-a291-33bd1eefa94c">Enabling and Disabling Interrupts</a>.
+
 
 
 
@@ -104,7 +108,11 @@ For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardwareinterrupt.md">IPnpCallbackHardwareInterrupt</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a>
+
+
 
  
 

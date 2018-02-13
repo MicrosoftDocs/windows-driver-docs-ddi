@@ -40,7 +40,7 @@ apiname:
 -	ProtocolUnbindAdapterEx
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_UNBIND_ADAPTER_EX callback
@@ -90,7 +90,9 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 ## -returns
 
 
+
 <i>ProtocolUnbindAdapterEx</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,11 +123,14 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>ProtocolUnbindAdapterEx</i> is a required function. As the reciprocal of the 
@@ -196,7 +201,10 @@ As soon as
 
 NDIS calls 
     <i>ProtocolUnbindAdapterEx</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="Updating_Power_Management_and_RSS_Settings"></a><a id="updating_power_management_and_rss_settings"></a><a id="UPDATING_POWER_MANAGEMENT_AND_RSS_SETTINGS"></a>Updating Power Management and RSS Settings</h3>NDIS 6.0 and 6.1 protocol drivers should perform the following operations where applicable:
+
+<h3><a id="Updating_Power_Management_and_RSS_Settings"></a><a id="updating_power_management_and_rss_settings"></a><a id="UPDATING_POWER_MANAGEMENT_AND_RSS_SETTINGS"></a>Updating Power Management and RSS Settings</h3>
+NDIS 6.0 and 6.1 protocol drivers should perform the following operations where applicable:
+
 <ol>
 <li>
 Remove power management wake on LAN (WOL) patterns from the miniport adapter with the 
@@ -210,7 +218,9 @@ Clear the receive side scaling parameters with the
        OID_GEN_RECEIVE_SCALE_PARAMETERS</a> OID.
 
 </li>
-</ol>NDIS 6.20 and later protocol drivers should perform the following operations:
+</ol>
+NDIS 6.20 and later protocol drivers should perform the following operations:
+
 <ol>
 <li>
 Remove power management WOL patterns from the miniport adapter with the 
@@ -223,9 +233,12 @@ Remove power management protocol offloads from the miniport adapter with the
        OID_PM_REMOVE_PROTOCOL_OFFLOAD</a> OID.
 
 </li>
-</ol><h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolUnbindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+</ol>
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolUnbindAdapterEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolUnbindAdapterEx</i> function that is named "MyUnbindAdapterEx", use the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -235,7 +248,9 @@ For example, to define a <i>ProtocolUnbindAdapterEx</i> function that is named "
 <pre>PROTOCOL_UNBIND_ADAPTER_EX MyUnbindAdapterEx;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -251,35 +266,57 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_UNBIND_ADAPTER_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
-   ProtocolCloseAdapterCompleteEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
    OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569073">OID_802_3_MULTICAST_LIST</a>
+
+<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+   ProtocolCloseAdapterCompleteEx</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-pnp-remove-wake-up-pattern">OID_PNP_REMOVE_WAKE_UP_PATTERN</a>
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>
+
 
  
 

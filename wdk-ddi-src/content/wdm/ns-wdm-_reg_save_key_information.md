@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 911e1035-4415-43c1-9e9c-cc8feab2bd97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_SAVE_KEY_INFORMATION, wdm/PREG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_save_key_information, wdm/REG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, _REG_SAVE_KEY_INFORMATION, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_SAVE_KEY_INFORMATION
+ms.keywords: kernel.reg_save_key_information, _REG_SAVE_KEY_INFORMATION, wdm/REG_SAVE_KEY_INFORMATION, wdm/PREG_SAVE_KEY_INFORMATION, *PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_SAVE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION"
+req.typenames: REG_SAVE_KEY_INFORMATION, *PREG_SAVE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -86,6 +86,7 @@ A handle to the file to which the hive information will be saved.
 ### -field Format
 
 The format in which the key or hive is saved. This member can have one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -103,7 +104,8 @@ The format in which the key or hive is saved. This member can have one of the fo
 <td>REG_NO_COMPRESSION</td>
 <td>Save with no compression, for faster save operations. The registry key object must represent the root of a hive.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CallContext
@@ -124,17 +126,23 @@ This member is reserved for future use. This member is defined starting with Win
 ## -remarks
 
 
+
 Note that when a key is saved, only the last component of the path can be changed.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
 
  
 

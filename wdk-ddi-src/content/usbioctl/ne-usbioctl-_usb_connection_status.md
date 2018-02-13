@@ -7,8 +7,8 @@ old-location: buses\usb_connection_status.htm
 old-project: usbref
 ms.assetid: 9006f74f-4033-4f07-816c-380d6d8b3a2d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbioctl/DeviceConnected, usbioctl/DeviceInLegacyHub, DeviceInLegacyHub, _USB_CONNECTION_STATUS, usbioctl/NoDeviceConnected, NoDeviceConnected, usbioctl/DeviceFailedEnumeration, DeviceConnected, DeviceCausedOvercurrent, usbioctl/DeviceNotEnoughPower, buses.usb_connection_status, usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceNotEnoughBandwidth, *PUSB_CONNECTION_STATUS, USB_CONNECTION_STATUS, DeviceHubNestedTooDeeply, PUSB_CONNECTION_STATUS, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, DeviceNotEnoughBandwidth, DeviceNotEnoughPower, usbioctl/USB_CONNECTION_STATUS, DeviceEnumerating, usbioctl/DeviceReset, DeviceFailedEnumeration, DeviceGeneralFailure, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/DeviceGeneralFailure, USB_CONNECTION_STATUS enumeration [Buses], PUSB_CONNECTION_STATUS enumeration pointer [Buses], DeviceReset, usbioctl/DeviceEnumerating, usbioctl/DeviceHubNestedTooDeeply
+ms.date: 2/8/2018
+ms.keywords: DeviceNotEnoughPower, DeviceReset, NoDeviceConnected, DeviceCausedOvercurrent, DeviceHubNestedTooDeeply, usbioctl/DeviceHubNestedTooDeeply, DeviceFailedEnumeration, usbioctl/NoDeviceConnected, usbioctl/DeviceNotEnoughBandwidth, USB_CONNECTION_STATUS enumeration [Buses], usbioctl/DeviceGeneralFailure, _USB_CONNECTION_STATUS, usbioctl/USB_CONNECTION_STATUS, usbioctl/DeviceInLegacyHub, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml, usbioctl/DeviceNotEnoughPower, PUSB_CONNECTION_STATUS, DeviceGeneralFailure, buses.usb_connection_status, USB_CONNECTION_STATUS, usbioctl/DeviceFailedEnumeration, usbioctl/DeviceReset, usbioctl/DeviceEnumerating, usbioctl/PUSB_CONNECTION_STATUS, DeviceConnected, DeviceInLegacyHub, DeviceNotEnoughBandwidth, usbioctl/DeviceConnected, PUSB_CONNECTION_STATUS enumeration pointer [Buses], usbioctl/DeviceCausedOvercurrent, DeviceEnumerating, *PUSB_CONNECTION_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -140,21 +140,29 @@ Indicates that device connected to the port is currently being reset.
 ## -remarks
 
 
+
 The USB bus driver reports connection status in a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure in response to an <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request.
+
 
 
 
 ## -see-also
 
+<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+
+
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONNECTION_STATUS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONNECTION_STATUS enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

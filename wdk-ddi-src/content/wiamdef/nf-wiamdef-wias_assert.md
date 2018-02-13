@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, wiamdef/WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, WIAS_ASSERT
+ms.keywords: wiamdef/WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], WIAS_ASSERT, image.wias_assert, IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_ASSERT
 product: Windows
 targetos: Windows
-req.typenames: "*LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,8 @@ TBD
 
 
 
+
+
 #### - HInst
 
 Handle to the DLL (driver).
@@ -94,6 +96,7 @@ Specifies any logical expression.
 ## -remarks
 
 
+
 The WIAS_ASSERT macro is used to debug WIA drivers. It is used to test that a certain condition is met. If the <i>Expression</i> parameter evaluates to <b>TRUE</b>, this macro does nothing. If <i>Expression</i> evaluates to <b>FALSE</b>, the macro prints an error string to the <i>Wiatrace.log</i> diagnostic log file. This error message will contain the name and path to the calling driver and the line number in the driver source code where the WIAS_ASSERT macro failed.
 
 The WIAS_ASSERT macro is available in Windows Vista and later versions of the operating system. This macro is the recommended way to implement WIA assertions on Windows Vista. WIAS_ASSERT allows error messages to be written to the log file (<i>Wiatrace.log</i>). The <i>Wiatrace.log</i> file is only available in Windows Vista, and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
@@ -102,13 +105,20 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 
 
-## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
 
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeyFlagsInformation, wdm/KeyNameInformation, wdm/KEY_INFORMATION_CLASS, wdm/KeyCachedInformation, KeyFullInformation, KEY_INFORMATION_CLASS, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, MaxKeyInfoClass, wdm/KeyNodeInformation, wdm/KeyHandleTagsInformation, KeyBasicInformation, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyBasicInformation, wdm/KeyFullInformation, KeyNameInformation, KeyVirtualizationInformation, KeyFlagsInformation, KeyNodeInformation, KeyCachedInformation, kernel.key_information_class, wdm/KeyVirtualizationInformation, KeyHandleTagsInformation, wdm/MaxKeyInfoClass, _KEY_INFORMATION_CLASS
+ms.keywords: KeyFlagsInformation, wdm/KeyNameInformation, KeyHandleTagsInformation, wdm/KeyVirtualizationInformation, wdm/KeyFlagsInformation, wdm/KeyFullInformation, KeyFullInformation, wdm/KEY_INFORMATION_CLASS, KeyBasicInformation, wdm/MaxKeyInfoClass, KeyCachedInformation, MaxKeyInfoClass, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyCachedInformation, wdm/KeyHandleTagsInformation, KeyNameInformation, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, KEY_INFORMATION_CLASS, KeyNodeInformation, wdm/KeyBasicInformation, KeyVirtualizationInformation, wdm/KeyNodeInformation, _KEY_INFORMATION_CLASS, kernel.key_information_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -119,9 +119,7 @@ Reserved for system use.
 ### -field KeyTrustInformation
 
 
-
 ### -field KeyLayerInformation
-
 
 
 ### -field MaxKeyInfoClass
@@ -132,27 +130,45 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be supplied by the <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routines.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
-
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
+
+
 
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
+
 
  
 

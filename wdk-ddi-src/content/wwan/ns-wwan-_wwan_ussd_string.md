@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9DE6CE5D-9570-4728-ACED-D6863812A3F4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ussd_string, wwan/WWAN_USSD_STRING, *PWWAN_USSD_STRING, _WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], PWWAN_USSD_STRING, wwan/PWWAN_USSD_STRING, WWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.wwan_ussd_string, _WWAN_USSD_STRING, wwan/PWWAN_USSD_STRING, PWWAN_USSD_STRING, *PWWAN_USSD_STRING, wwan/WWAN_USSD_STRING, WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,12 +86,14 @@ The length, in bytes, of USSD string in stored in the <b>String</b> member.
 
 
 
+
 #### - String[WWAN_USSD_STRING_LEN_MAX]
 
 The USSD string encoded according to the <b>DataCodingScheme</b> member.
 
 
 ## -remarks
+
 
 
 <b>StringLength</b> can be from 1 to 160 bytes. Specify 0 bytes to indicate an absent USSD string.
@@ -104,11 +106,16 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
+
+
 
  
 

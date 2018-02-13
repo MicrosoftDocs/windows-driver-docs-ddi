@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Escape method [Imaging Devices], IStiDevice interface, sti/IStiDevice::Escape, IStiDevice interface [Imaging Devices], Escape method, IStiDevice::Escape, Escape method [Imaging Devices], IStiDevice, Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, image.istidevice_escape
+ms.keywords: IStiDevice interface [Imaging Devices], Escape method, IStiDevice, Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, Escape method [Imaging Devices], IStiDevice interface, sti/IStiDevice::Escape, IStiDevice::Escape, image.istidevice_escape, Escape method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,11 +106,14 @@ Receives the number of bytes actually written to <i>pOutData</i>.
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDevice::Escape</b> method calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543815">IStiUSD::Escape</a>, which is exported by vendor-supplied minidrivers. The device's minidriver defines the Method parameter usage.
@@ -118,5 +121,6 @@ The <b>IStiDevice::Escape</b> method calls <a href="https://msdn.microsoft.com/l
 Before calling <b>IStiDevice::Escape</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
 A call to <b>IStiDevice::Escape</b> must be preceded by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a> and followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>.
+
 
 

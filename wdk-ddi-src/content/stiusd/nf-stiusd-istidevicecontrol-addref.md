@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8aa28efb-a030-4fed-b9f2-0e67ff1e7c9e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: AddRef, AddRef method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_addref, stiusd/IStiDeviceControl::AddRef, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, AddRef method [Imaging Devices], IStiDeviceControl interface [Imaging Devices], AddRef method, IStiDeviceControl, IStiDeviceControl::AddRef
+ms.keywords: IStiDeviceControl interface [Imaging Devices], AddRef method, AddRef method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::AddRef, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, IStiDeviceControl::AddRef, AddRef, AddRef method [Imaging Devices], image.istidevicecontrol_addref, IStiDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,14 +67,18 @@ HRESULT AddRef();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDeviceControl::AddRef</b> method should be called from within a user-mode still image minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method.
@@ -83,9 +87,12 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0F5BEDBF-6871-4343-88D1-85E7620171EF
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_waitforsynchronizationobjectfromcpu, WaitAny, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,6 +94,7 @@ typedef struct D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
 ### -field Flags
 
 [in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
+
 <table>
 <tr>
 <th>Value</th>
@@ -121,12 +122,15 @@ The wait condition is considered to be satisfied when any of the input synchroni
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromcpucb.md">pfnWaitForSynchronizationObjectFromCpuCb</a>
+
+
 
  
 

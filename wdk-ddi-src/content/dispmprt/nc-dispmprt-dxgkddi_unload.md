@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiUnload
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_UNLOAD callback
@@ -76,14 +76,19 @@ VOID DxgkDdiUnload(
 
 
 
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
@@ -92,9 +97,12 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlinitansistring, RtlInitAnsiString, wdm/RtlInitAnsiString, k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, RtlInitAnsiString routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlinitansistring, k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, wdm/RtlInitAnsiString, RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A pointer to a null-terminated character string. This string is used to initiali
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine initializes a counted character string.
@@ -94,7 +97,10 @@ This routine initializes a counted character string.
 The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
 
 <b>RtlInitAnsiString</b> does not alter the source string pointed to by <i>SourceString</i>.
-<div class="alert"><b>Note</b>  If the source string is longer than MAXUSHORT - 1 bytes, <b>RtlInitAnsiString</b> sets the <b>Length</b> member of the <b>ANSI_STRING</b> structure pointed to by <i>DestinationString</i> to MAXUSHORT - 1, and sets the <b>MaximumLength</b> member of this structure to MAXUSHORT.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div><div> </div>Callers of <b>RtlInitAnsiString</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
+
+<div class="alert"><b>Note</b>  If the source string is longer than MAXUSHORT - 1 bytes, <b>RtlInitAnsiString</b> sets the <b>Length</b> member of the <b>ANSI_STRING</b> structure pointed to by <i>DestinationString</i> to MAXUSHORT - 1, and sets the <b>MaximumLength</b> member of this structure to MAXUSHORT.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div>
+<div> </div>
+Callers of <b>RtlInitAnsiString</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
 
 The <b>RTL_CONSTANT_STRING</b> macro creates a string or Unicode string structure to hold a counted string.
 
@@ -118,9 +124,12 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
 
  
 

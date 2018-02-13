@@ -7,8 +7,8 @@ old-location: buses\ufxdevicenotifyhardwareready.htm
 old-project: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
+ms.date: 2/8/2018
+ms.keywords: UfxDeviceNotifyHardwareReady, ufxclient/UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,14 +76,18 @@ A handle to a UFX device object that the driver created by calling <a href="..\u
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a> callback function, as shown in the following example.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -141,4 +145,5 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
+
 

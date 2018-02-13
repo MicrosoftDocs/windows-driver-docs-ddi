@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5420839B-EB81-43CC-B7BD-9D1FA2560A3D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_BIND_FAILED_NOTIFICATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_BIND_FAILED_NOTIFICATION, NDIS_BIND_FAILED_NOTIFICATION, *PNDIS_BIND_FAILED_NOTIFICATION, PNDIS_BIND_FAILED_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_bind_failed_notification, PNDIS_BIND_FAILED_NOTIFICATION, _NDIS_BIND_FAILED_NOTIFICATION, ndis/PNDIS_BIND_FAILED_NOTIFICATION
+ms.keywords: NDIS_BIND_FAILED_NOTIFICATION, ndis/NDIS_BIND_FAILED_NOTIFICATION, PNDIS_BIND_FAILED_NOTIFICATION, netvista.ndis_bind_failed_notification, *PNDIS_BIND_FAILED_NOTIFICATION, _NDIS_BIND_FAILED_NOTIFICATION, ndis/PNDIS_BIND_FAILED_NOTIFICATION, PNDIS_BIND_FAILED_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_BIND_FAILED_NOTIFICATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

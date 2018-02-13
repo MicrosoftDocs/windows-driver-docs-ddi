@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe::Abort, Abort, IWDFUsbTargetPipe, umdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort, IWDFUsbTargetPipe interface, Abort method, Abort method, Abort method, IWDFUsbTargetPipe interface, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, wdf.iwdfusbtargetpipe_abort
+ms.keywords: UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, IWDFUsbTargetPipe::Abort, wudfusb/IWDFUsbTargetPipe::Abort, IWDFUsbTargetPipe, wdf.iwdfusbtargetpipe_abort, IWDFUsbTargetPipe interface, Abort method, Abort method, Abort, Abort method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.Abort
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ HRESULT  Abort();
 
 
 
+
 ## -returns
 
 
+
 <b>Abort</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +116,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>Abort</b> method generates a UMDF request and synchronously sends the request to the I/O target.
@@ -126,11 +132,16 @@ For more information about how <b>Abort</b> works, see the <a href="https://msdn
 
 
 
+
 ## -see-also
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a>
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
 
  
 

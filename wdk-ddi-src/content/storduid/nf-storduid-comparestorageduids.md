@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bf66a04d-0892-4813-9615-845054526125
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CompareStorageDuids, storage.comparestorageduids, CompareStorageDuids routine [Storage Devices], storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml, storduid/CompareStorageDuids
+ms.keywords: CompareStorageDuids, storduid/CompareStorageDuids, CompareStorageDuids routine [Storage Devices], storage.comparestorageduids, storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,17 @@ A pointer to a DUID to compare with the DUID that <i>Duid1</i> points to.
 ## -returns
 
 
+
 <b>CompareStorageDuids</b> returns a <a href="..\storduid\ne-storduid-_duid_match_status.md">DUID_MATCH_STATUS</a> value that indicates whether the two DUIDs matched or not, if the operation succeeds. Otherwise, this routine returns a DUID_MATCH_STATUS value that indicates the error status.
+
 
 
 
 ## -see-also
 
 <a href="..\storduid\ne-storduid-_duid_match_status.md">DUID_MATCH_STATUS</a>
+
+
 
  
 

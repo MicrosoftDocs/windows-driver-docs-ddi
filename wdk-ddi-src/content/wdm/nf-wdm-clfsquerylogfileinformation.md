@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a907f219-9e4a-415f-821c-d419b7fde729
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, wdm/ClfsQueryLogFileInformation, kernel.clfsquerylogfileinformation, ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.clfsquerylogfileinformation, Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, wdm/ClfsQueryLogFileInformation, ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,6 +95,7 @@ TBD
 ### -param pinfoBuffer [out]
 
 A pointer to a buffer that receives the log information. The structure of this buffer depends on the value of <i>eInformationClass</i>. The following table shows the relationship between the information class and the data type of the buffer.
+
 <table>
 <tr>
 <th>Value of <i>eInformationClass</i></th>
@@ -160,12 +161,14 @@ A pointer to a buffer that receives the log information. The structure of this b
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pcbInfoBuffer
 
 TBD
+
 
 
 
@@ -177,20 +180,26 @@ The size, in bytes, of the buffer pointed to by <i>pinfoBuffer</i>.
 ## -returns
 
 
+
 <b>ClfsQueryLogFileInformation</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
+
+
 
  
 

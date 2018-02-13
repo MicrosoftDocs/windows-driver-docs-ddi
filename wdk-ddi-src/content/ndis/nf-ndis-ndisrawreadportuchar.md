@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bda6d10-dd68-4385-b71c-8319e6ed0d4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisrawreadportuchar, ndis/NdisRawReadPortUchar, NdisRawReadPortUchar macro [Network Drivers Starting with Windows Vista], NdisRawReadPortUchar, miniport_port_raw_ref_e478dfdb-7037-4a9e-8da5-3bc38561094f.xml
+ms.keywords: ndis/NdisRawReadPortUchar, miniport_port_raw_ref_e478dfdb-7037-4a9e-8da5-3bc38561094f.xml, NdisRawReadPortUchar, NdisRawReadPortUchar macro [Network Drivers Starting with Windows Vista], netvista.ndisrawreadportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisRawReadPortUchar
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisRawReadPortUchar macro
@@ -84,25 +84,39 @@ Pointer to a caller-supplied variable in which this function returns a byte read
 ## -remarks
 
 
+
 <b>NdisRawReadPortUchar</b> runs fast
     because it need not map a bus-relative I/O port address onto a host-dependent logical port address at
     every call.
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
 
 <a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
 
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+
 
  
 

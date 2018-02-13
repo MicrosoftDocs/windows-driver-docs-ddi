@@ -124,14 +124,18 @@ The size of a <b>CONNECT_DATA</b> structure.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -166,11 +170,17 @@ Kbfiltr is already connected (the filter driver supports only one connect reques
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
+
+
+
 <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+
+
 
 <a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA (Kbdclass)</a>
 
-<a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
+
 
  
 

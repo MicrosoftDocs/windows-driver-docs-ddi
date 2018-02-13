@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c3431e89-4a47-44e6-98d8-eae444ea1915
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], PCI.pci_express_link_status_register, _PCI_EXPRESS_LINK_STATUS_REGISTER, *PPCI_EXPRESS_LINK_STATUS_REGISTER
+ms.keywords: "*PPCI_EXPRESS_LINK_STATUS_REGISTER, PCI.pci_express_link_status_register, ntddk/PCI_EXPRESS_LINK_STATUS_REGISTER, _PCI_EXPRESS_LINK_STATUS_REGISTER, PCI_EXPRESS_LINK_STATUS_REGISTER union [Buses], PPCI_EXPRESS_LINK_STATUS_REGISTER union pointer [Buses], PPCI_EXPRESS_LINK_STATUS_REGISTER, ntddk/PPCI_EXPRESS_LINK_STATUS_REGISTER, pci_struct_41d11df3-521f-4709-a30e-be70ad36db8f.xml, PCI_EXPRESS_LINK_STATUS_REGISTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ typedef union _PCI_EXPRESS_LINK_STATUS_REGISTER {
 ### -field DUMMYSTRUCTNAME.LinkSpeed
 
 The negotiated link speed of the PCIe link.  Possible values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -101,12 +102,14 @@ The negotiated link speed of the PCIe link.  Possible values are:
 <td>All other values</td>
 <td>Reserved.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DUMMYSTRUCTNAME.LinkWidth
 
 The negotiated link width (number of lanes) of the PCIe link. Possible values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,7 +147,8 @@ The negotiated link width (number of lanes) of the PCIe link. Possible values ar
 <td>All other values</td>
 <td>Reserved.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DUMMYSTRUCTNAME.Undefined
@@ -180,15 +184,19 @@ A USHORT representation of the contents of the PCI_EXPRESS_LINK_STATUS_REGISTER 
 ## -remarks
 
 
+
 The PCI_EXPRESS_LINK_STATUS_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_LINK_STATUS_REGISTER structure is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

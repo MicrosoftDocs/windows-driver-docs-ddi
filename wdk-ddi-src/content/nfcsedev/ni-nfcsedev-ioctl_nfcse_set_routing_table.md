@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_SET_ROUTING_TABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
+req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL
@@ -74,7 +74,9 @@ Configures NFC controller listen mode routing table. Note that caller has to sen
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -86,27 +88,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -129,10 +138,12 @@ None
 <td>This code is returned if the IOCTL is sent on a handle other than with relative name ‘SEManage’.
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to.
@@ -149,6 +160,7 @@ The following are requirements that the driver must adhere to.
 </li>
 <li>If this IOCTL is issued when the NFCC is in RF discovery state, the driver needs to put the NFCC into RF idle state, configure the routing table, and restart RF discovery.</li>
 </ul>
+
 
 
 

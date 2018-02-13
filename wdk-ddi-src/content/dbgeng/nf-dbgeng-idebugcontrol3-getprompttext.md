@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d828cf1-991b-4c2d-882b-de56512a6737
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetPromptText method [Windows Debugging], IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, GetPromptText method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetPromptText, IDebugControl3, dbgeng/IDebugControl::GetPromptText, IDebugControl2::GetPromptText, IDebugControl3 interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl interface, GetPromptText, dbgeng/IDebugControl3::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method, IDebugControl interface [Windows Debugging], GetPromptText method, IDebugControl::GetPromptText, debugger.getprompttext
+ms.keywords: IDebugControl2, IDebugControl3::GetPromptText, dbgeng/IDebugControl3::GetPromptText, IDebugControl interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, IDebugControl2::GetPromptText, debugger.getprompttext, IDebugControl3, IDebugControl, dbgeng/IDebugControl2::GetPromptText, GetPromptText, dbgeng/IDebugControl::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,7 +89,9 @@ Receives the size, in characters, of the prompt text.  If <i>TextSize</i> is <b>
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,28 +119,42 @@ The method was successful.  However, the prompt text was too large to fit into t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about prompting the user, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560116">Using Input and Output</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
+
+
 
  
 

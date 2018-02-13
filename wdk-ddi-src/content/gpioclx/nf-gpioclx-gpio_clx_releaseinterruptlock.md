@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 195B9FA2-F7B2-4EA0-9D53-63E438666760
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLX_ReleaseInterruptLock, GPIO.gpio_clx_releaseinterruptlock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_ReleaseInterruptLock
+ms.keywords: gpioclx/GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], GPIO.gpio_clx_releaseinterruptlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ The identifier for this bank of GPIO pins. If N is the number of banks in the GP
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This method releases the interrupt lock that the caller acquired in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a> method.
@@ -97,9 +100,12 @@ If the <i>Context</i> parameter is NULL or points to an invalid GPIO device cont
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a>
+
+
 
  
 

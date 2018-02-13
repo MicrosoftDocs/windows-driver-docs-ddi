@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2cadee5-40e4-4044-b631-1824099e2fd7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO_V5, *LPRILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5_2
+ms.keywords: "*LPRILCALLINFO, rilapitypes/RILCALLINFO_V5, netvista.rilcallinfo_v5_2, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLINFO_V5
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLINFO, RILCALLINFO_V5, *LPRILCALLINFO_V5, RILCALLINFO"
+req.typenames: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5"
 req.product: Windows 10 or later.
 ---
 
@@ -91,83 +91,62 @@ typedef struct _RILCALLINFO_V5 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwID
-
 
 
 ### -field dwDirection
 
 
-
 ### -field dwStatus
-
 
 
 ### -field dwType
 
 
-
 ### -field dwMultiparty
-
 
 
 ### -field raAddress
 
 
-
 ### -field rsaSubAddress
-
 
 
 ### -field wszDescription
 
 
-
 ### -field dwNumberPresentationIndicator
-
 
 
 ### -field dwNamePresentationIndicator
 
 
-
 ### -field dwFlags
-
 
 
 ### -field dwDisconnectInitiator
 
 
-
 ### -field dwDisconnectReason
-
 
 
 ### -field stDisconnectDetails
 
 
-
 ### -field rcmOfferAnswer
-
 
 
 ### -field rchsHandoverState
 
 
-
 ### -field dwCallModificationCauseCode
 
 
-
 ### -field stRTTInfo
-
 

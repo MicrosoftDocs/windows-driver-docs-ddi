@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 439d68ec-9d27-484b-b6a3-9bae732d142e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisbuildscattergatherlist, NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisBuildScatterGatherList
+ms.keywords: NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, ndis/NdisBuildScatterGatherList, NdisBuildScatterGatherList, netvista.ndisbuildscattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisBuildScatterGatherList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisBuildScatterGatherList function
@@ -101,7 +101,9 @@ A pointer to an
 ## -returns
 
 
+
 <b>NdisBuildScatterGatherList</b> can return the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ The operation failed because the buffer length that is specified in the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -167,27 +172,46 @@ The drivers must call the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
    NdisMRegisterScatterGatherDma</a>
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
-   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
 
  
 

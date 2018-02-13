@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9cf60a9b-cb1e-46a5-b8d8-c7fc2c6f2cf3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetMsgInUiccStatus, rilapi/RIL_GetMsgInUiccStatus, RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getmsginuiccstatus
+ms.keywords: netvista.ril_getmsginuiccstatus, RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], RIL_GetMsgInUiccStatus, rilapi/RIL_GetMsgInUiccStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_GetMsgInUiccStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwIndex
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

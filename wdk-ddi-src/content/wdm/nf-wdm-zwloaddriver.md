@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwLoadDriver, k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, wdm/NtLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], NtLoadDriver, ZwLoadDriver, kernel.zwloaddriver
+ms.keywords: wdm/NtLoadDriver, wdm/ZwLoadDriver, kernel.zwloaddriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], NtLoadDriver, ZwLoadDriver, k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,30 +77,50 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 ## -returns
 
 
+
 <b>ZwLoadDriver</b> returns STATUS_SUCCESS or an appropriate error NTSTATUS value. 
+
 
 
 
 ## -remarks
 
 
+
 <b>ZwLoadDriver</b> dynamically loads a device or file system driver into the currently running system. 
-<div class="alert"><b>Note</b>    If the system is running in safe mode, and the driver fails to load because it is not on the safe mode list, <b>ZwLoadDriver</b> returns STATUS_SUCCESS. </div><div> </div>A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a> instead of <b>ZwLoadDriver</b> to load a supporting minifilter.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwLoadDriver</b> function occurs in user mode, you should use the name "<b>NtLoadDriver</b>" instead of "<b>ZwLoadDriver</b>". </div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>    If the system is running in safe mode, and the driver fails to load because it is not on the safe mode list, <b>ZwLoadDriver</b> returns STATUS_SUCCESS. </div>
+<div> </div>
+A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a> instead of <b>ZwLoadDriver</b> to load a supporting minifilter.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwLoadDriver</b> function occurs in user mode, you should use the name "<b>NtLoadDriver</b>" instead of "<b>ZwLoadDriver</b>". </div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

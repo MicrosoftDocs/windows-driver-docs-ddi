@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D14CB726-2576-490E-B3FD-E970F8B3C87F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_QUERY_COMPONENT_PERF_STATES, *PPEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], PEP_QUERY_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], kernel.pep_query_component_perf_states, pepfx/PEP_QUERY_COMPONENT_PERF_STATES, _PEP_QUERY_COMPONENT_PERF_STATES
+ms.keywords: PEP_QUERY_COMPONENT_PERF_STATES, _PEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], PEP_QUERY_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], *PPEP_QUERY_COMPONENT_PERF_STATES, kernel.pep_query_component_perf_states, pepfx/PPEP_QUERY_COMPONENT_PERF_STATES, pepfx/PEP_QUERY_COMPONENT_PERF_STATES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_QUERY_COMPONENT_PERF_STATES
 product: Windows
 targetos: Windows
-req.typenames: PEP_QUERY_COMPONENT_PERF_STATES, *PPEP_QUERY_COMPONENT_PERF_STATES
+req.typenames: "*PPEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES"
 ---
 
 # _PEP_QUERY_COMPONENT_PERF_STATES structure
@@ -93,19 +93,29 @@ typedef struct _PEP_QUERY_COMPONENT_PERF_STATES {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186842">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a> notification. All four members of this structure contain input values that are supplied by PoFx when this notification is sent.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186842">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186842">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a>
+
+
+<a href="..\pepfx\ns-pepfx-_pep_perf_state.md">PEP_PERF_STATE</a>
+
+
 
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_perf_state.md">PEP_PERF_STATE</a>
+
 
  
 

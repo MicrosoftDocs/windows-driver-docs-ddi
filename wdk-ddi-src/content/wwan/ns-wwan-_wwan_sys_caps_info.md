@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_SYS_CAPS_INFO, netvista.wwan_sys_caps, wwan/PWWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO
+ms.keywords: "_WWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO, wwan/WWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO, wwan/PWWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_sys_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SYS_CAPS_INFO
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SYS_CAPS_INFO, *PWWAN_SYS_CAPS_INFO
+req.typenames: "*PWWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -93,11 +93,17 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sys_caps_info.md">NDIS_WWAN_SYS_CAPS_INFO</a>
-
 <a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
 
+
+
 <a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sys_caps_info.md">NDIS_WWAN_SYS_CAPS_INFO</a>
+
+
 
  
 

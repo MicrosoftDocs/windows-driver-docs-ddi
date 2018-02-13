@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 563ece3e-1359-4e3c-9ae7-61b94bf90ad0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD3, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], *PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], StorPowerDeviceD0, StorPowerDeviceUnspecified, storport/STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD0, storport/StorPowerDeviceMaximum, StorPowerDeviceD2, STOR_DEVICE_POWER_STATE, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, StorPowerDeviceD1, StorPowerDeviceD3, StorPowerDeviceMaximum, _STOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceUnspecified, storport/StorPowerDeviceD1, storage.stor_device_power_state, storport/StorPowerDeviceD2
+ms.keywords: StorPowerDeviceMaximum, StorPowerDeviceD0, storport/StorPowerDeviceD3, StorPowerDeviceD3, storport/PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceMaximum, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], PSTOR_DEVICE_POWER_STATE, storport/STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD1, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], StorPowerDeviceUnspecified, storport/StorPowerDeviceUnspecified, storage.stor_device_power_state, StorPowerDeviceD2, _STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD0, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, storport/StorPowerDeviceD2, StorPowerDeviceD1, STOR_DEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STOR_DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE"
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -106,6 +106,8 @@ The upper delimiting value on device power states.
 ## -see-also
 
 <a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+
+
 
  
 

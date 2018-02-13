@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion, stream.iksdatatypecompletion_kscompletemediatype, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml
+ms.keywords: ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion, IKsDataTypeCompletion::KsCompleteMediaType, IKsDataTypeCompletion interface [Streaming Media Devices], KsCompleteMediaType method, stream.iksdatatypecompletion_kscompletemediatype, KsCompleteMediaType method [Streaming Media Devices], IKsDataTypeCompletion interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,11 +87,14 @@ Pointer to a AM_MEDIA_TYPE structure that describes the format of the media samp
 ## -returns
 
 
+
 Returns NOERROR if successful and the media type was completed; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>KsCompleteMediaType</b> method is primarily used for video media types, in which the <b>biSizeImage</b> member of the <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure is known only to the driver, because of the private compression formats supported. If required, the data type handler can query the underlying KS filter in order to complete the given media type. 
@@ -102,11 +105,16 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and AM_MEDIA_TYPE, 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559844">IKsDataTypeHandler::KsSetMediaType</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
 
  
 

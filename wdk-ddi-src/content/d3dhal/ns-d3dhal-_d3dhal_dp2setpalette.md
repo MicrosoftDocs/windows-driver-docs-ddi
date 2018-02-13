@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c472869-028e-41f5-93df-94e91c47b76e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETPALETTE, d3dhal/D3DHAL_DP2SETPALETTE, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, d3dhal/LPD3DHAL_DP2SETPALETTE, *LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], _D3DHAL_DP2SETPALETTE, display.d3dhal_dp2setpalette, LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices]
+ms.keywords: D3DHAL_DP2SETPALETTE, display.d3dhal_dp2setpalette, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, LPD3DHAL_DP2SETPALETTE, d3dhal/D3DHAL_DP2SETPALETTE, d3dhal/LPD3DHAL_DP2SETPALETTE, *LPD3DHAL_DP2SETPALETTE, _D3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], D3DHAL_DP2SETPALETTE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,6 +77,7 @@ Specifies a handle to the palette to be set up. If the value is zero, the surfac
 ### -field dwPaletteFlags
 
 Specifies a set of flags that specify the attributes of the palette.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -222,7 +223,8 @@ The palette is stored as an 8-bit index into a destination palette. Currently un
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwSurfaceHandle
@@ -233,17 +235,25 @@ Specifies a handle to the Direct3D surface (texture) that this palette (identifi
 ## -remarks
 
 
+
 The number of D3DHAL_DP2SETPALETTE structures to follow is specified by the <b>wStateCount</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure that precedes them in the command stream.
+
 
 
 
 ## -see-also
 
-D3DDP2OP_SETPALETTE
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
+
+
+D3DDP2OP_SETPALETTE
+
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 

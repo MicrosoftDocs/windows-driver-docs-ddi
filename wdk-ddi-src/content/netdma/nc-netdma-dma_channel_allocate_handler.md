@@ -109,7 +109,9 @@ A pointer to a value that is a pointer to a DMA provider's context area for the 
 ## -returns
 
 
+
 <i>ProviderAllocateDmaChannel</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +150,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -194,15 +199,24 @@ NetDMA calls
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
 
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d1a4bb6-5db8-48b0-9be3-7468360951a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, NdisMSIXTableConfigMaskTableEntry, *PNDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigSetTableEntry, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], _NDIS_MSIX_TABLE_CONFIG, ndis/PNDIS_MSIX_TABLE_OPERATION, netvista.ndis_msix_table_operation, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigSetTableEntry
+ms.keywords: NdisMSIXTableConfigUnmaskTableEntry, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], *PNDIS_MSIX_TABLE_OPERATION, ndis/PNDIS_MSIX_TABLE_OPERATION, PNDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/NdisMSIXTableConfigSetTableEntry, netvista.ndis_msix_table_operation, ndis/NdisMSIXTableConfigMaskTableEntry, NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMax, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], NdisMSIXTableConfigSetTableEntry, _NDIS_MSIX_TABLE_CONFIG, ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, NdisMSIXTableConfigMax, ndis/NDIS_MSIX_TABLE_OPERATION, NdisMSIXTableConfigMaskTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MSIX_TABLE_OPERATION
 product: Windows
 targetos: Windows
-req.typenames: NDIS_MSIX_TABLE_OPERATION, *PNDIS_MSIX_TABLE_OPERATION
+req.typenames: "*PNDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION"
 ---
 
 # _NDIS_MSIX_TABLE_CONFIG enumeration
@@ -95,15 +95,19 @@ The number of enumeration values in NDIS_MSIX_TABLE_OPERATION.
 ## -remarks
 
 
+
 The NDIS_MSIX_TABLE_OPERATION enumeration is used in the 
     <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">
     NDIS_MSIX_CONFIG_PARAMETERS</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue, d3dkmthk/D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices]
+ms.keywords: d3dkmthk/D3DKMTCreateHwQueue, D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], display.d3dkmtcreatehwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -68,6 +68,7 @@ NTSTATUS D3DKMTCreateHwQueue(
 
 
 
+
 #### - createHwQueue [in, out]
 
 A structure holding the information needed to create a new hardware queue.
@@ -76,6 +77,8 @@ A structure holding the information needed to create a new hardware queue.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if called successfully. 
+
 
 

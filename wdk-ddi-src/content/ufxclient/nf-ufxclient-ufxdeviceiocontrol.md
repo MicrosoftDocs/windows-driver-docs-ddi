@@ -7,8 +7,8 @@ old-location: buses\ufxdeviceiocontrol.htm
 old-project: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufxdeviceiocontrol, UfxDeviceIoControl method [Buses], UfxDeviceIoControl, ufxclient/UfxDeviceIoControl
+ms.date: 2/8/2018
+ms.keywords: UfxDeviceIoControl method [Buses], ufxclient/UfxDeviceIoControl, UfxDeviceIoControl, buses.ufxdeviceiocontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,9 @@ The driver-defined or system-defined IOCTL that is associated with the request.
 ## -remarks
 
 
+
 The client driver calls <b>UfxDeviceIoControl</b> to forward non-internal IOCTLs that it receives in its <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function to UFX.  The following example shows how:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -167,4 +169,5 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
+
 

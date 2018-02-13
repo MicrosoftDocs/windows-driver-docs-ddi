@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5de5a7b9-4ac8-4d5a-8037-eec39a580372
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ClearTriageLogs method, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, IWDTFDriverSetupSystemAction2, ClearTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, ClearTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2::ClearTriageLogs
+ms.keywords: ClearTriageLogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, IWDTFDriverSetupSystemAction2, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, IWDTFDriverSetupSystemAction2::ClearTriageLogs, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ClearTriageLogs method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,16 +67,21 @@ HRESULT ClearTriageLogs();
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e93491c1-bd6d-4d89-b55f-10439b0f5eec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterAddEvent, avfunc_a00691e6-cae6-40ae-9776-1b6d09e01d73.xml, KsFilterAddEvent function [Streaming Media Devices], stream.ksfilteraddevent, KsFilterAddEvent
+ms.keywords: KsFilterAddEvent, KsFilterAddEvent function [Streaming Media Devices], stream.ksfilteraddevent, ks/KsFilterAddEvent, avfunc_a00691e6-cae6-40ae-9776-1b6d09e01d73.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,24 +81,34 @@ void _inline KsFilterAddEvent(
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+
+
+
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
 
 <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+
 
  
 

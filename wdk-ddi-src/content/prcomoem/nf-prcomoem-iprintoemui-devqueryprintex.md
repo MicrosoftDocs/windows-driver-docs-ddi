@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a1bc9be3-53ec-4506-a409-94a65d7136e1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DevQueryPrintEx method [Print Devices], IPrintOemUI interface, IPrintOemUI::DevQueryPrintEx, DevQueryPrintEx method [Print Devices], IPrintOemUI interface [Print Devices], DevQueryPrintEx method, prcomoem/IPrintOemUI::DevQueryPrintEx, DevQueryPrintEx, print.iprintoemui_devqueryprintex, print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, IPrintOemUI
+ms.keywords: print_unidrv-pscript_ui_64a7a4c1-9478-4710-8d2e-84696b8941b0.xml, IPrintOemUI, IPrintOemUI::DevQueryPrintEx, prcomoem/IPrintOemUI::DevQueryPrintEx, DevQueryPrintEx method [Print Devices], IPrintOemUI interface, IPrintOemUI interface [Print Devices], DevQueryPrintEx method, print.iprintoemui_devqueryprintex, DevQueryPrintEx method [Print Devices], DevQueryPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.DevQueryPrintEx
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ Caller-supplied pointer to the user interface plug-in's private DEVMODEW structu
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in's <code>IPrintOemUI::DevQueryPrintEx</code> method performs the same types of operations as the <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a> function that is exported by user-mode printer interface DLLs. You can use this method to enhance the functionality provided by the <b>DevQueryPrintEx</b> function. Like the <b>DevQueryPrintEx</b> function, the <code>IPrintOemUI::DevQueryPrintEx</code> method's responsibility is to determine if the print job described by the supplied DEVMODEW structure can be printed.
@@ -150,9 +155,12 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 89dc64a4-dce9-4ed2-a657-d216d502cded
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKEMAILADDRESS, netvista.rilphonebookemailaddress, RILPHONEBOOKEMAILADDRESS, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS
+ms.keywords: RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKEMAILADDRESS, netvista.rilphonebookemailaddress, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKEMAILADDRESS
 product: Windows
 targetos: Windows
-req.typenames: RILPHONEBOOKEMAILADDRESS, *LPRILPHONEBOOKEMAILADDRESS
+req.typenames: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS"
 ---
 
 # RILPHONEBOOKEMAILADDRESS structure
@@ -72,11 +72,8 @@ typedef struct _RILPHONEBOOKEMAILADDRESS {
 ### -field cbSize
 
 
-
 ### -field dwParams
 
 
-
 ### -field wszAddress
-
 

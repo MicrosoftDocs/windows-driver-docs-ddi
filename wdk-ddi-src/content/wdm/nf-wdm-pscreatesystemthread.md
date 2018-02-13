@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], PsCreateSystemThread, wdm/PsCreateSystemThread
+ms.keywords: kernel.pscreatesystemthread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], PsCreateSystemThread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, wdm/PsCreateSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,14 @@ Supplies a single argument that is passed to the thread when it begins execution
 ## -returns
 
 
+
 <b>PsCreateSystemThread</b> returns STATUS_SUCCESS if the thread was created.
 
 
 
+
 ## -remarks
+
 
 
 Drivers that create device-dedicated threads call this routine, either when they initialize or when I/O requests begin to come in to such a driver's Dispatch routines. For example, a driver might create such a thread when it receives an asynchronous device control request.
@@ -126,6 +129,7 @@ Drivers that create device-dedicated threads call this routine, either when they
 If the input <i>ProcessHandle</i> is <b>NULL</b>, the created thread is associated with the system process. Such a thread continues running until either the system is shut down or the thread terminates itself by calling <b>PsTerminateSystemThread</b>.
 
 Starting with Windows XP, driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>PsCreateSystemThread</b>. This restricts the use of the handle returned by <b>PsCreateSystemThread</b> to processes running in kernel mode. Otherwise, the thread handle can be accessed by the process in whose context the driver is running. Drivers can set the OBJ_KERNEL_HANDLE attribute as follows.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -135,7 +139,8 @@ Starting with Windows XP, driver routines that run in a process context other th
 <pre>InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
 </td>
 </tr>
-</table></span></div>Drivers for Windows 2000 and Windows 98/Me must call <b>PsCreateSystemThread</b> only from the system process context.
+</table></span></div>
+Drivers for Windows 2000 and Windows 98/Me must call <b>PsCreateSystemThread</b> only from the system process context.
 
 For more information about the <i>StartContext</i> parameter, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>.
 
@@ -143,19 +148,32 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
-<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
 
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
+
+
+<a href="..\ntddk\nf-ntddk-zwsetinformationthread.md">ZwSetInformationThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+
+
 
  
 

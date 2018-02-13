@@ -88,14 +88,18 @@ The driver returns the hotplug configuration data in a <a href="..\ntddstor\ns-n
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,9 +110,13 @@ The <b>Information</b> field is set to <b>sizeof</b>(STORAGE_HOTPLUG_INFO). The 
 
 ## -see-also
 
+<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
+
+
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
+
 
  
 

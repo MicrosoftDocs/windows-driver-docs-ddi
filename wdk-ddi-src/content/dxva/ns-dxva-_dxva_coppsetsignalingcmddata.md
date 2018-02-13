@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPSetSignalingCmdData structure [Display Devices], dxva/DXVA_COPPSetSignalingCmdData, _DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml, display.dxva_coppsetsignalingcmddata
+ms.keywords: dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml, dxva/DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,6 +79,7 @@ typedef struct _DXVA_COPPSetSignalingCmdData {
 ### -field ActiveTVProtectionStandard
 
 Specifies a valid ORed combination of the following values from the <b>COPP_TVProtectionStandard</b> enumeration type that indicates the type of television signals on which to set protection:
+
 <ul>
 <li>
 COPP_ProtectionStandard_Unknown (0x80000000)
@@ -158,6 +159,7 @@ Specifies the COPP_ImageAspectRatio_EN300294_Mask (0x00000007) constant that ind
 ### -field AspectRatioData1
 
 Specifies one of the following values from the <b>COPP_ImageAspectRatio_EN300294</b> enumeration type to indicate an ETSI EN 300 294 value.
+
 <ul>
 <li>
 COPP_AspectRatio_EN300294_FullFormat4by3 (0)
@@ -230,9 +232,13 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
 
-<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
+
 
  
 

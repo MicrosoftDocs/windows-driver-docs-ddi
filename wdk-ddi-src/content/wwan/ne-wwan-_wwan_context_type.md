@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanContextTypeVoice, wwan/WwanContextTypeVideoShare, WwanContextTypeCustom, wwan/WwanContextTypeNone, wwan/WwanContextTypeInternet, WwanContextTypeVpn, wwan/WwanContextTypeMax, WwanContextTypeVoice, WwanContextTypeInternet, WwanContextTypeMax, wwan/PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE, WwanContextTypePurchase, wwan/WwanContextTypeVpn, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, wwan/WwanContextTypeCustom, *PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_CONTEXT_TYPE, WwanContextTypeNone, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_context_type, wwan/WwanContextTypePurchase, wwan/WWAN_CONTEXT_TYPE, _WWAN_CONTEXT_TYPE, WwanContextTypeVideoShare
+ms.keywords: wwan/WwanContextTypeVpn, wwan/WwanContextTypeNone, WwanContextTypeVoice, WwanContextTypeVpn, PWWAN_CONTEXT_TYPE, wwan/WwanContextTypeVideoShare, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_CONTEXT_TYPE, WwanContextTypeCustom, wwan/WwanContextTypeCustom, _WWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE, WwanContextTypePurchase, wwan/WwanContextTypeInternet, WwanContextTypeVideoShare, wwan/WwanContextTypePurchase, wwan/WwanContextTypeVoice, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, WwanContextTypeInternet, wwan/WwanContextTypeMax, WwanContextTypeMax, netvista.wwan_context_type, wwan/WWAN_CONTEXT_TYPE, WwanContextTypeNone, wwan/PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_CONTEXT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE"
+req.typenames: WWAN_CONTEXT_TYPE, *PWWAN_CONTEXT_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -115,33 +115,25 @@ Purchase a connection. For example, a walled garden, hot-lining or captive porta
 ### -field WwanContextTypeMms
 
 
-
 ### -field WwanContextTypeIms
-
 
 
 ### -field WwanContextTypeAdmin
 
 
-
 ### -field WwanContextTypeApp
-
 
 
 ### -field WwanContextTypeXcap
 
 
-
 ### -field WwanContextTypeTethering
-
 
 
 ### -field WwanContextTypeEmergencyCall
 
 
-
 ### -field WwanContextTypeLteAttach
-
 
 
 ### -field WwanContextTypeMax
@@ -152,15 +144,19 @@ The total number of supported context types.
 ## -remarks
 
 
+
 This enumeration indicates the usage of the provisioned context. For example, whether the context is
     used to connect to the Internet, or to a VPN into a corporate network. Miniport driver should specify 
     <b>WwanContextTypeNone</b> for empty (unprovisioned) context slots.
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
+
 
  
 

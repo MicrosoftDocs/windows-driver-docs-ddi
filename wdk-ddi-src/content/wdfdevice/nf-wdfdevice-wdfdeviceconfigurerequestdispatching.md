@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aba4cccd-267d-48cc-a6ff-be19802adfdc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceConfigureRequestDispatching, PFN_WDFDEVICECONFIGUREREQUESTDISPATCHING, WdfDeviceConfigureRequestDispatching method, wdf.wdfdeviceconfigurerequestdispatching, WdfDeviceConfigureRequestDispatching, DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, kmdf.wdfdeviceconfigurerequestdispatching
+ms.keywords: wdf.wdfdeviceconfigurerequestdispatching, WdfDeviceConfigureRequestDispatching, WdfDeviceConfigureRequestDispatching method, DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, kmdf.wdfdeviceconfigurerequestdispatching, PFN_WDFDEVICECONFIGUREREQUESTDISPATCHING, wdfdevice/WdfDeviceConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,7 +103,9 @@ Supplies a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,7 +145,8 @@ The driver has already assigned a queue to the specified request type.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -151,7 +154,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Each call to <b>WdfDeviceConfigureRequestDispatching</b> specifies one request type. If you want a single I/O queue to receive multiple types of requests (for example, read and write requests), your driver can call <b>WdfDeviceConfigureRequestDispatching</b> multiple times for a single I/O queue.
@@ -159,12 +164,56 @@ Each call to <b>WdfDeviceConfigureRequestDispatching</b> specifies one request t
 For more information about <b>WdfDeviceConfigureRequestDispatching</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a> structure, creates an I/O queue, and then configures the queue so that it receives write requests.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_IO_QUEUE_CONFIG queueConfig;
+WDFQUEUE WriteQueue;
+
+WDF_IO_QUEUE_CONFIG_INIT(
+                         &amp;queueConfig,
+                         WdfIoQueueDispatchSequential
+                         );
+queueConfig.EvtIoWrite = MyEvtIoWrite;
+status = WdfIoQueueCreate(
+                          Device,
+                          &amp;queueConfig,
+                          WDF_NO_OBJECT_ATTRIBUTES,
+                          &amp;WriteQueue
+                          );
+if(!NT_SUCCESS(status)) {
+    return status;
+}
+status = WdfDeviceConfigureRequestDispatching(
+                                              Device,
+                                              WriteQueue,
+                                              WdfRequestTypeWrite
+                                              );
+if(!NT_SUCCESS(status)) {
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
 
  
 

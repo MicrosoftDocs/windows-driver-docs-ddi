@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b5245e9-7f25-4697-932a-d7d1416e921c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILUNBLOCKUICCLOCKPARAMS, netvista.rilunblockuicclockparams_2, RILUNBLOCKUICCLOCKPARAMS, rilapitypes/RILUNBLOCKUICCLOCKPARAMS
+ms.keywords: netvista.rilunblockuicclockparams_2, RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS, rilapitypes/RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUNBLOCKUICCLOCKPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS
+req.typenames: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILUNBLOCKUICCLOCKPARAMS {
 ### -field lockCredential
 
 
-
 ### -field szNewPassword
-
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_GPIO_READ_PINS
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # IOCTL_GPIO_READ_PINS IOCTL
@@ -85,14 +85,18 @@ The output buffer should be large enough to contain readings from all of the GPI
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +112,7 @@ If the output buffer is not large enough to contain the data that is read from a
 ## -remarks
 
 
+
 This request reads all of the GPIO pins that are part of the target connection to which the client sends the request. For example, if the connection has three pins, the 1-bit values that are read from these pins are saved in bits 0, 1, and 2 in the output buffer. The three pins in this example connection might map to GPIO pins 7, 8, and 23 in the GPIO controller hardware. If so, GPIO pin 7 is saved in bit 0 (the least significant bit) of the buffer, GPIO pin 8 is saved in bit 1 of the buffer, and GPIO pin 23 is saved in bit 2 of the buffer.
 
 When the client opens a connection to a target GPIO device, all of the GPIO pins in this connection are configured either as inputs or as outputs. An <b>IOCTL_GPIO_READ_PINS</b> request can succeed only if the target pins are inputs.
@@ -115,16 +120,25 @@ When the client opens a connection to a target GPIO device, all of the GPIO pins
  The client sends this I/O control request to the file object for the target device. The file object is a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure that represents a logical connection to the target. <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn550976">Kernel-mode driver framework</a> (KMDF) drivers call the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a> method to open this connection. <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/overview-of-the-umdf">User-mode driver framework</a> (UMDF) drivers call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> method to open the connection.
 
 For code examples that show how to use the <b>IOCTL_GPIO_READ_PINS</b> request to read a set of GPIO I/O pins, see the following topics:
-<a href="https://msdn.microsoft.com/02F6431C-7B55-4DFB-9792-4A72F0268C76">Connecting a KMDF Driver to GPIO I/O Pins</a><a href="https://msdn.microsoft.com/6869D298-5EB4-4991-A67F-F4398CE2D191">Connecting a UMDF Driver to GPIO I/O Pins</a>
+
+<a href="https://msdn.microsoft.com/02F6431C-7B55-4DFB-9792-4A72F0268C76">Connecting a KMDF Driver to GPIO I/O Pins</a>
+<a href="https://msdn.microsoft.com/6869D298-5EB4-4991-A67F-F4398CE2D191">Connecting a UMDF Driver to GPIO I/O Pins</a>
+
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
 
  
 

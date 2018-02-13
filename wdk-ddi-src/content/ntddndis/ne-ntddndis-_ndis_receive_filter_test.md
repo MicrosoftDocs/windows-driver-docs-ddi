@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 064d8335-3ebf-4bc2-901e-10ce46bf7732
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_test, NdisReceiveFilterTestUndefined, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, ntddndis/NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestUndefined, *PNDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestNotEqual, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveFilterTestEqual, NdisReceiveFilterTestEqual, ntddndis/NDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestMaximum, ntddndis/NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestMaximum, PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, _NDIS_RECEIVE_FILTER_TEST, ntddndis/PNDIS_RECEIVE_FILTER_TEST
+ms.keywords: "*PNDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestUndefined, NdisReceiveFilterTestUndefined, ntddndis/NdisReceiveFilterTestEqual, ntddndis/NdisReceiveFilterTestMaximum, ntddndis/PNDIS_RECEIVE_FILTER_TEST, netvista.ndis_receive_filter_test, NdisReceiveFilterTestMaximum, NdisReceiveFilterTestMaskEqual, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestEqual, ntddndis/NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestNotEqual, PNDIS_RECEIVE_FILTER_TEST, ntddndis/NDIS_RECEIVE_FILTER_TEST, NdisReceiveFilterTestNotEqual"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,9 +104,11 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The NDIS_RECEIVE_FILTER_TEST enumeration is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+
 
 
 
@@ -114,6 +116,8 @@ The NDIS_RECEIVE_FILTER_TEST enumeration is used in the
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+
+
 
  
 

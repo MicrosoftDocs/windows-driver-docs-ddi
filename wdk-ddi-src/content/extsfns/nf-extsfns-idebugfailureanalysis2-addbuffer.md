@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_addbuffer, extsfns/IDebugFailureAnalysis2::AddBuffer, AddBuffer, IDebugFailureAnalysis2::AddBuffer, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2
+ms.keywords: IDebugFailureAnalysis2::AddBuffer, extsfns/IDebugFailureAnalysis2::AddBuffer, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, AddBuffer method [Windows Debugging], AddBuffer, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_addbuffer, IDebugFailureAnalysis2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,28 +93,42 @@ The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 ## -returns
 
 
+
 If this method succeeds, it returns a pointer to the new <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the tag specified by <i>Tag</i>, and it associates the tag with the data type specified by <i>EntryType</i>. 
+
 
 
 
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
 
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+
+
 
  
 

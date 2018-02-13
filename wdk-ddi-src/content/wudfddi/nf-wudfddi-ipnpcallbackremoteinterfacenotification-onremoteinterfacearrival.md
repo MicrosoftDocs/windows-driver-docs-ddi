@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface
+ms.keywords: IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 A UMDF-based driver can register its optional <b>OnRemoteInterfaceArrival</b> event callback function by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556939">IWDFDevice2::RegisterRemoteInterfaceNotification</a>.
@@ -90,6 +93,7 @@ A UMDF-based driver can register its optional <b>OnRemoteInterfaceArrival</b> ev
 The driver can use methods of the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a> interface to determine which device interface has arrived.
 
 Before the driver can send I/O requests to the device interface, the driver must do the following:
+
 <ol>
 <li>
 Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a> to create a remote interface object.
@@ -103,22 +107,34 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDF
 Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a> to connect the interface object to the remote target object and open the remote target for I/O operations.
 
 </li>
-</ol>For more information about using remote interface objects to access device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>
+</ol>
+For more information about using remote interface objects to access device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>
+
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+
+
 
  
 

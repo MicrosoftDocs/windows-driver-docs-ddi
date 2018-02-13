@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PSPINFO, _PSPINFO, PPSPINFO, *PPSPINFO, print.pspinfo, compstui/PSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO structure [Print Devices], cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, compstui/PPSPINFO
+ms.keywords: PSPINFO structure [Print Devices], PSPINFO, *PPSPINFO, compstui/PPSPINFO, print.pspinfo, PPSPINFO structure pointer [Print Devices], cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, _PSPINFO, PPSPINFO, compstui/PSPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PSPINFO
 product: Windows
 targetos: Windows
-req.typenames: PSPINFO, *PPSPINFO
+req.typenames: "*PPSPINFO, PSPINFO"
 ---
 
 # _PSPINFO structure
@@ -99,11 +99,13 @@ CPSUI-supplied pointer to its <a href="https://msdn.microsoft.com/library/window
 ## -remarks
 
 
+
 Before CPSUI calls <b>CreatePropertySheetPage</b> to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structure) and specifies a WM_INITDIALOG message, the function's <b>lParam</b> member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
 
 (The <b>CreatePropertySheetPage</b> function, PROPSHEETPAGE structure, WM_INITDIALOG message, and dialog box procedures are all described in the Microsoft Windows SDK documentation.)
 
 To obtain the PSPINFO structure's address, use the PPSPINFO_FROM_WM_INITDIALOG_LPARAM macro (defined in compstui.h) as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -116,6 +118,8 @@ if (Msg == WM_INITDIALOG) {
 }</pre>
 </td>
 </tr>
-</table></span></div>The PSPINFO structure pointer can be saved for later use, but the structure's contents must not be modified.
+</table></span></div>
+The PSPINFO structure pointer can be saved for later use, but the structure's contents must not be modified.
+
 
 

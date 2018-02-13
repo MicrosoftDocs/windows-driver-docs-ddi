@@ -7,8 +7,8 @@ old-location: whea\whea_error_record_header.htm
 old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ntddk/WHEA_ERROR_RECORD_HEADER, whea.whea_error_record_header, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml
+ms.date: 2/8/2018
+ms.keywords: ntddk/WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whea.whea_error_record_header, ntddk/PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,7 +143,6 @@ A GUID that identifies the notification mechanism by which an error condition is
 
 
 
-For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
 
 
 #### CMC_NOTIFY_TYPE_GUID
@@ -151,9 +150,11 @@ For error notification types that do not conform to one of the standard types in
 Corrected Machine Check (CMC)
 
 
+
 #### CPE_NOTIFY_TYPE_GUID
 
 Corrected Platform Error (CPE)
+
 
 
 #### MCE_NOTIFY_TYPE_GUID
@@ -161,9 +162,11 @@ Corrected Platform Error (CPE)
 Machine Check Exception (MCE)
 
 
+
 #### PCIe_NOTIFY_TYPE_GUID
 
 PCI Express (PCIe) Error
+
 
 
 #### INIT_NOTIFY_TYPE_GUID
@@ -171,14 +174,18 @@ PCI Express (PCIe) Error
 INIT Error Record (INIT)
 
 
+
 #### NMI_NOTIFY_TYPE_GUID
 
 Nonmaskable Interrupt (NMI)
 
 
+
 #### BOOT_NOTIFY_TYPE_GUID
 
 Boot Error Record (BOOT)
+
+For error notification types that do not conform to one of the standard types in the previous list, a platform-specific GUID can be defined to identify the notification mechanism. If the notification type does not correspond to any of the standard notification types or any platform-specific notification types, this member is set to GENERIC_NOTIFY_TYPE_GUID.
 
 
 ### -field RecordId
@@ -189,6 +196,7 @@ The identifier of the error record. This identifier is unique only on the system
 ### -field Flags
 
 A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The WHEA_ERROR_RECORD_HEADER_FLAGS union is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -209,9 +217,12 @@ A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The W
 </table></span></div>
 
 
+
+
 #### Recovered
 
 A single bit that indicates that the operating system recovered from the error condition.
+
 
 
 #### PreviousError
@@ -219,14 +230,17 @@ A single bit that indicates that the operating system recovered from the error c
 A single bit that indicates that the error condition occurred in a previous session of the operating system.
 
 
+
 #### Simulated
 
 A single bit that indicates that the error condition was simulated.
 
 
+
 #### Reserved
 
 Reserved for system use.
+
 
 
 #### AsULONG
@@ -247,27 +261,41 @@ Reserved for system use.
 ## -remarks
 
 
+
 A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure. The WHEA_ERROR_RECORD_HEADER structure describes general information about the hardware error condition that is described by the error record.
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
 <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
 
+
+
+<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
+
+
+
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
+
+
+<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

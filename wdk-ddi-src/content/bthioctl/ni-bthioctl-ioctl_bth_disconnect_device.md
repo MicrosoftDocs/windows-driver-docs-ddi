@@ -91,14 +91,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +114,7 @@ The
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -135,14 +140,17 @@ The specified remote device is not connected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 Calling IOCTL_BTH_DISCONNECT_DEVICE forces a disconnect from the remote device without regard to the
     state of any L2CAP and SCO connections. All active SCO connections will be disconnected before the ACL
     connection is disconnected. Pending data transfers might fail.
+
 
 

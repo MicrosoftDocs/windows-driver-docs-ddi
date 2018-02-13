@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSE_NODE structure pointer [Streaming Media Devices], stream.kse_node, KSE_NODE, ks/KSE_NODE, KSE_NODE structure [Streaming Media Devices], *PKSE_NODE, ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, ks/PKSE_NODE, PKSE_NODE
+ms.keywords: KSE_NODE structure [Streaming Media Devices], ks/KSE_NODE, PKSE_NODE structure pointer [Streaming Media Devices], KSE_NODE, ks/PKSE_NODE, PKSE_NODE, *PKSE_NODE, ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, stream.kse_node
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ Reserved for system use. Should be set to zero.
 ## -see-also
 
 <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
+
+
 
  
 

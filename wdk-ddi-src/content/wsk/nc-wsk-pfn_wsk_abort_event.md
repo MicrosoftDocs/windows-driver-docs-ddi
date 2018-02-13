@@ -40,7 +40,7 @@ apiname:
 -	WskAbortEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -92,16 +92,20 @@ A pointer to a
 ## -returns
 
 
+
 A WSK application's 
      <i>WskAbortEvent</i> event callback function must always return STATUS_SUCCESS.
+
 
 
 
 ## -remarks
 
 
+
 The WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function only when the following conditions are true:
+
 <ul>
 <li>
 The WSK application created a listening socket that has conditional accept mode enabled.
@@ -124,7 +128,8 @@ The WSK application returned
 The incoming connection request has been dropped either locally or remotely before being fully established.
 
 </li>
-</ul>When the WSK subsystem calls a WSK application's 
+</ul>
+When the WSK subsystem calls a WSK application's 
     <i>WskAbortEvent</i> event callback function, the application should terminate the inspection for the
     incoming connection request. The connection request is identified by the contents of the 
     <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure that is pointed to
@@ -150,19 +155,32 @@ A WSK application's <i>WskAbortEvent</i> event callback function must not wait f
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96c128e1-c38a-412f-adeb-cde820e1af4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PRO_PARAMETER_LIST structure [Storage Devices], structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, *PPRO_PARAMETER_LIST, storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], storage.pro_parameter_list, storport/PRO_PARAMETER_LIST, PRO_PARAMETER_LIST
+ms.keywords: PRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, storage.pro_parameter_list, PRO_PARAMETER_LIST structure [Storage Devices], structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, *PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], storport/PPRO_PARAMETER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRO_PARAMETER_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST"
+req.typenames: PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,7 @@ The ReservationKey field contains an 8-byte value that is provided by the applic
 ### -field ServiceActionReservationKey
 
 The ServiceActionReservationKey field contains information that is needed for the following four service actions:
+
 <ul>
 <li>
 REGISTER
@@ -109,6 +110,7 @@ The ScopeSpecificAddress field contains the element address that has zeros place
 ### -field ActivatePersistThroughPowerLoss
 
 The ActivatePersistThroughPowerLoss (APTPL) bit is valid only for the following service actions:
+
 <ul>
 <li>
 REGISTER
@@ -138,13 +140,17 @@ Reserved. Must be zero.
 ## -remarks
 
 
+
 The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> request is used to control information about persistent reservations and reservation keys that are active within a device server.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
+
+
 
  
 

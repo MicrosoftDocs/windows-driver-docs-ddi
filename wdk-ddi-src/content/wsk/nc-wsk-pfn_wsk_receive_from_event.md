@@ -40,7 +40,7 @@ apiname:
 -	WskReceiveFromEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -91,16 +91,19 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
+
 #### MSG_BCAST
 
 The datagrams were received as a link-layer broadcast or with a destination transport address
        that is a broadcast address.
 
 
+
 #### MSG_MCAST
 
 The datagrams were received with a destination transport address that is a multicast
        address.
+
 
 
 #### WSK_FLAG_AT_DISPATCH_LEVEL
@@ -124,8 +127,10 @@ A pointer to a linked list of
 ## -returns
 
 
+
 A WSK application's 
      <i>WskReceiveFromEvent</i> event callback function can return one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -208,11 +213,14 @@ If the WSK application enabled the
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The WSK subsystem calls a WSK application's 
@@ -249,23 +257,40 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+
+<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+
+
 
  
 

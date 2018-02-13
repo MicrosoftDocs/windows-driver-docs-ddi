@@ -106,7 +106,7 @@ Reads from the system and bus I/O memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-readmsr.md">ReadMsr</a>
+<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readmsr.md">ReadMsr</a>
 </td>
 <td align="left" width="63%">
 Reads a specified Model-Specific Register (MSR).
@@ -115,7 +115,7 @@ Reads a specified Model-Specific Register (MSR).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
+<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-readphysical.md">ReadPhysical</a>
 </td>
 <td align="left" width="63%">
 Reads the target's memory from the specified physical address.
@@ -197,7 +197,7 @@ Writes to the system and bus I/O memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-writemsr.md">WriteMsr</a>
+<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writemsr.md">WriteMsr</a>
 </td>
 <td align="left" width="63%">
 Writes a value to the specified Model-Specific Register (MSR).
@@ -206,7 +206,7 @@ Writes a value to the specified Model-Specific Register (MSR).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>
 </td>
 <td align="left" width="63%">
 Writes data to the specified physical address in the target's memory.
@@ -286,11 +286,17 @@ Writes data to the target's virtual address space.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6221ce9-682c-453b-b036-f4219c9540da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisInterlockedInsertHeadList, netvista.ndisinterlockedinsertheadlist, NdisInterlockedInsertHeadList macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_14cc728a-07b7-471f-a222-4810d9d79d5a.xml, NdisInterlockedInsertHeadList
+ms.keywords: ndis/NdisInterlockedInsertHeadList, NdisInterlockedInsertHeadList, NdisInterlockedInsertHeadList macro [Network Drivers Starting with Windows Vista], netvista.ndisinterlockedinsertheadlist, ndis_interlocked_ref_14cc728a-07b7-471f-a222-4810d9d79d5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisInterlockedInsertHeadList
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedInsertHeadList macro
@@ -90,6 +90,7 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 ## -remarks
 
 
+
 Before calling 
     <b>NdisInterlockedInsertHeadList</b>, a driver must initialize the variable at 
     <i>ListHead</i> with the 
@@ -124,19 +125,30 @@ If
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
    NdisInterlockedRemoveHeadList</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
-
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
 
 <a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
    NdisInterlockedInsertTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+
+
 
  
 

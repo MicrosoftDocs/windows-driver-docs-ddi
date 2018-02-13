@@ -7,8 +7,8 @@ old-location: ifsk\mmflushimagesection.htm
 old-project: ifsk
 ms.assetid: e5c94f80-8ff8-4945-b1b8-a12190c3dec7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: MmFlushImageSection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ifsk.mmflushimagesection, ntifs/MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection, MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 ### -param FlushType [in]
 
 Specifies the reason for the flush operation. It can be one of the values listed in the following table. 
+
 <table>
 <tr>
 <th>FlushType Value</th>
@@ -101,7 +102,8 @@ The file is being opened for write access.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - SectionPointer [in]
@@ -112,11 +114,16 @@ Pointer to a structure that contains the file object's section object pointers.
 ## -returns
 
 
+
 <b>MmFlushImageSection</b> returns <b>TRUE</b> if the flush operation is successful, or if no image section exists for the file; otherwise <b>MmFlushImageSection</b> returns <b>FALSE</b>.
-<div class="alert"><b>Note</b>  If the FlushType MmFlushForDelete value is specified and there are one or more outstanding write probes on the file's data section, <b>MmFlushImageSection</b> returns <b>FALSE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the FlushType MmFlushForDelete value is specified and there are one or more outstanding write probes on the file's data section, <b>MmFlushImageSection</b> returns <b>FALSE</b>.</div>
+<div> </div>
+
 
 
 ## -remarks
+
 
 
 A file system must call the <b>MmFlushImageSection</b> routine before deleting a file or opening a file for write access. 
@@ -131,13 +138,16 @@ Before using <b>MmFlushImageSection</b>, file system writers are strongly encour
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmFlushImageSection routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmFlushImageSection routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

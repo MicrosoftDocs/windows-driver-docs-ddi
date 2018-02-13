@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_capture_data, _WINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices]
+ms.keywords: WINBIO_CAPTURE_DATA structure [Biometric Devices], winbio_ioctl/WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, winbio_ioctl/PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, *PWINBIO_CAPTURE_DATA, _WINBIO_CAPTURE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,7 @@ typedef struct _WINBIO_CAPTURE_DATA {
 ### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values for this member.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -175,7 +176,8 @@ The capture purpose specified is not supported by the driver.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SensorStatus
@@ -183,6 +185,7 @@ The capture purpose specified is not supported by the driver.
 The WINBIO_SENSOR_STATUS status of the sensor after the capture has occurred. It specifies the operating status of the sensor.
 
 WINBIO_SENSOR_STATUS can be queried at any time.  When WINBIO_SENSOR_STATUS is returned upon a capture I/O completion, it indicates whether a capture was successful. Possible values are shown in the following table.
+
 <table>
 <tr>
 <th>
@@ -256,13 +259,18 @@ The sensor device failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RejectDetail
 
 If the sensor status was WINBIO_SENSOR_REJECT, this member contains a WINBIO_REJECT_DETAIL value. WINBIO_SENSOR_REJECT specifies the reason a biometric sampling operation failed.
-<div class="alert"><b>Important</b>    Values defined for Windows 7 are for fingerprint reject details only.</div><div> </div>Failure detail values for WINBIO_TYPE_FINGERPRINT include:
+
+<div class="alert"><b>Important</b>    Values defined for Windows 7 are for fingerprint reject details only.</div>
+<div> </div>
+Failure detail values for WINBIO_TYPE_FINGERPRINT include:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -291,6 +299,8 @@ A structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WI
 ## -see-also
 
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_capture_data.md">IOCTL_BIOMETRIC_CAPTURE_DATA</a>
+
+
 
  
 

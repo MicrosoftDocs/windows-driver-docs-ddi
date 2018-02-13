@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FCB87010-EA7D-495F-B58A-6E0322F9C846
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IEEE.irb_req_send_phy_configuration_packet, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET structure [Buses], IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, _IRB_REQ_SEND_PHY_CONFIGURATION_PACKET
+ms.keywords: "_IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET structure [Buses], 1394/IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IEEE.irb_req_send_phy_configuration_packet"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,8 @@ Points to the PHY_CONFIGURATION_PACKET structure.
 ## -remarks
 
 
+
 The packet is sent to all nodes on the bus. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for a description of Phy packets.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtQueryVirtualMemory, ntifs/NtQueryVirtualMemory, ZwQueryVirtualMemory, ntifs/ZwQueryVirtualMemory, kernel.zwqueryvirtualmemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/ZwQueryVirtualMemory, kernel.zwqueryvirtualmemory, NtQueryVirtualMemory, ZwQueryVirtualMemory, ntifs/NtQueryVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,7 +117,9 @@ An optional pointer which, if specified, receives the
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the call is successful. If the call fails, possible error codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,11 +169,14 @@ A value other than <b>MemoryBasicInformation</b> was passed to the <i>MemoryInfo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>ZwQueryVirtualMemory</b> determines the state of the first page within the region and then
@@ -194,11 +199,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
 
 <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 
  
 

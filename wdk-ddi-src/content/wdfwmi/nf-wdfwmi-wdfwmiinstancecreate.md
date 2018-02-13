@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ed662d6f-c42f-4dcb-86c5-135a302c59d7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiInstanceCreate, kmdf.wdfwmiinstancecreate, WdfWmiInstanceCreate, PFN_WDFWMIINSTANCECREATE, WdfWmiInstanceCreate method, wdf.wdfwmiinstancecreate, DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml
+ms.keywords: WdfWmiInstanceCreate method, wdf.wdfwmiinstancecreate, wdfwmi/WdfWmiInstanceCreate, PFN_WDFWMIINSTANCECREATE, kmdf.wdfwmiinstancecreate, DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, WdfWmiInstanceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,9 @@ A pointer to a location that receives a handle to the new WMI instance object. T
 ## -returns
 
 
+
 <b>WdfWmiInstanceCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,7 +149,8 @@ The driver set the <b>UseContextForQuery</b> member of the <a href="..\wdfwmi\ns
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a list of other return values that the <b>WdfWmiInstanceCreate</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -161,7 +164,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If a driver is creating multiple instances of a provider, the driver must call <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a> to create a provider object before calling <b>WdfWmiInstanceCreate</b>. The driver passes the provider object's handle to <b>WdfWmiInstanceCreate</b> by placing the handle in a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure. (If the driver supplies a provider object handle, the <i>Device</i> parameter is not used and can be <b>NULL</b>.)
@@ -179,28 +184,105 @@ For more information about the <b>WdfWmiInstanceCreate</b> method, see <a href="
 If the <b>Register</b> member of the <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure that <i>InstanceConfig</i> points to is <b>TRUE</b>, <b>WdfWmiInstanceCreate</b> registers the provider instance synchronously (that is, before returning) if this method is called at IRQL = PASSIVE_LEVEL and asynchronously if it is called at IRQL &gt; PASSIVE_LEVEL. 
 
 
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example registers a MOF resource name for a device, initializes a WDF_WMI_PROVIDER_CONFIG structure and a WDF_WMI_INSTANCE_CONFIG structure, and calls <b>WdfWmiInstanceCreate</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+PciDrvWmiRegistration(
+    WDFDEVICE  Device
+    )
+{
+    WDF_WMI_PROVIDER_CONFIG  providerConfig;
+    WDF_WMI_INSTANCE_CONFIG  instanceConfig;
+    NTSTATUS  status;
+    DECLARE_CONST_UNICODE_STRING(mofRsrcName, MOFRESOURCENAME);
+
+    status = WdfDeviceAssignMofResourceName(
+                                            Device,
+                                            &amp;mofRsrcName
+                                            );
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+    WDF_WMI_PROVIDER_CONFIG_INIT(
+                                 &amp;providerConfig,
+                                 &amp;PCIDRV_WMI_STD_DATA_GUID
+                                 );
+    providerConfig.MinInstanceBufferSize = sizeof(PCIDRV_WMI_STD_DATA);
+
+    WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG(
+                                                 &amp;instanceConfig,
+                                                 &amp;providerConfig
+                                                 );
+    instanceConfig.Register = TRUE;
+    instanceConfig.EvtWmiInstanceQueryInstance = EvtWmiDeviceInfoQueryInstance;
+    instanceConfig.EvtWmiInstanceSetInstance = EvtWmiDeviceInfoSetInstance;
+
+    status = WdfWmiInstanceCreate(
+                                  Device,
+                                  &amp;instanceConfig,
+                                  WDF_NO_OBJECT_ATTRIBUTES,
+                                  WDF_NO_HANDLE
+                                  );
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetdevice.md">WdfWmiInstanceGetDevice</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider_config.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
+
+
+
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
+
+
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
 
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignmofresourcename.md">WdfDeviceAssignMofResourceName</a>
+
+
 
  
 

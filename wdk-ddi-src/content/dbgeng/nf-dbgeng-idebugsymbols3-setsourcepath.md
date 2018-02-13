@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 00b5927e-4b95-4528-bc09-da90db8a7716
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setsourcepath, SetSourcePath, IDebugSymbols3::SetSourcePath, IDebugSymbols interface [Windows Debugging], SetSourcePath method, dbgeng/IDebugSymbols::SetSourcePath, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, IDebugSymbols2 interface [Windows Debugging], SetSourcePath method, dbgeng/IDebugSymbols2::SetSourcePath, SetSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], SetSourcePath method, IDebugSymbols::SetSourcePath, SetSourcePath method [Windows Debugging], SetSourcePath method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSourcePath, IDebugSymbols3, IDebugSymbols2::SetSourcePath, SetSourcePath method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: SetSourcePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::SetSourcePath, dbgeng/IDebugSymbols3::SetSourcePath, SetSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], SetSourcePath method, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, IDebugSymbols::SetSourcePath, IDebugSymbols3 interface [Windows Debugging], SetSourcePath method, SetSourcePath method [Windows Debugging], IDebugSymbols3 interface, SetSourcePath, IDebugSymbols interface [Windows Debugging], SetSourcePath method, dbgeng/IDebugSymbols2::SetSourcePath, IDebugSymbols3::SetSourcePath, IDebugSymbols2, debugger.setsourcepath, IDebugSymbols, SetSourcePath method [Windows Debugging], IDebugSymbols3, dbgeng/IDebugSymbols::SetSourcePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -77,7 +77,9 @@ Specifies the new source path.  This is a string that contains source path eleme
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,11 +96,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The source path is used by the engine when searching for source files.
@@ -107,17 +112,28 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
+
+
 
  
 

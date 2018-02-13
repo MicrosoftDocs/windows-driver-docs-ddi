@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TransactionOutcomeAborted, wdm/TransactionOutcomeUndetermined, wdm/TRANSACTION_OUTCOME, _TRANSACTION_OUTCOME, wdm/TransactionOutcomeCommitted, TransactionOutcomeUndetermined, kernel.transaction_outcome, TransactionOutcomeAborted, TransactionOutcomeCommitted, TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.transaction_outcome, wdm/TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, TransactionOutcomeAborted, TRANSACTION_OUTCOME, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, TransactionOutcomeUndetermined, wdm/TransactionOutcomeCommitted, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], wdm/TRANSACTION_OUTCOME, TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -88,13 +88,17 @@ The transaction has been rolled back.
 ## -remarks
 
 
+
 The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
+
+
 
  
 

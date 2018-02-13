@@ -7,8 +7,8 @@ old-location: audio\ksaudiomodule_notification.htm
 old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PKSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], audio.ksaudiomodule_notification, ksmedia/PKSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION
+ms.date: 2/8/2018
+ms.keywords: PKSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], ksmedia/KSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], ksmedia/PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,7 +108,9 @@ Specifies the value that is used for alignment.
 ## -remarks
 
 
+
 The Audio module notification KSNOTIFICATIONID_AudioModule is defined in Ksmedia.h as shown here. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -129,6 +131,8 @@ DEFINE_GUIDSTRUCT("9C2220F0-D9A6-4D5C-A036-573857FD50D2", KSNOTIFICATIONID_Audio
 </tr>
 </table></span></div>
 
+
 For more information about audio modules, see  <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+
 
 

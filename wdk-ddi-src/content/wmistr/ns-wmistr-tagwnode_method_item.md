@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5e1af58-a00d-4801-b591-fc9ec9b50502
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.wnode_method_item, tagWNODE_METHOD_ITEM, WNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_METHOD_ITEM, *PWNODE_METHOD_ITEM, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, wmistr/PWNODE_METHOD_ITEM, WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.wnode_method_item, wmistr/PWNODE_METHOD_ITEM, tagWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, WNODE_METHOD_ITEM, WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], *PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, wmistr/WNODE_METHOD_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WNODE_METHOD_ITEM
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_METHOD_ITEM, WNODE_METHOD_ITEM"
+req.typenames: WNODE_METHOD_ITEM, *PWNODE_METHOD_ITEM
 req.product: Windows 10 or later.
 ---
 
@@ -117,15 +117,19 @@ Contains additional data, including the dynamic instance name if any, and the in
 ## -remarks
 
 
+
 WMI passes a <b>WNODE_METHOD_ITEM</b> with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request to specify a method to run in an instance of a data block, plus any input data required by the method.
 
 If a method generates output, a driver overwrites the input data with the output at <b>DataBlockOffset</b> in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>, and sets <b>SizeDataBlock</b> in the <b>WNODE_METHOD_ITEM</b> to specify the size of the output data.
 
 
 
+
 ## -see-also
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
 
  
 

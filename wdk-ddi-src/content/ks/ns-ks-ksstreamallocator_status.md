@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 95ef6c1e-c2b7-49ca-9aaf-caeb2dca7c3a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksstreamallocator_status, ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml, KSSTREAMALLOCATOR_STATUS, PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices], ks/PKSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS, ks/KSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS
+ms.keywords: ks/KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml, PKSSTREAMALLOCATOR_STATUS, ks/PKSSTREAMALLOCATOR_STATUS, stream.ksstreamallocator_status, PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices], KSSTREAMALLOCATOR_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSSTREAMALLOCATOR_STATUS
 product: Windows
 targetos: Windows
-req.typenames: KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS
+req.typenames: "*PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS"
 ---
 
 # KSSTREAMALLOCATOR_STATUS structure
@@ -87,15 +87,21 @@ Reserved and set to zero.
 ## -remarks
 
 
+
 Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a> property request.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
+
+
+
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
+
 
  
 

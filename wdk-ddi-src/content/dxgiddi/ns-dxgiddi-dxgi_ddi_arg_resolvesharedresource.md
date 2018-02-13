@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adc4bd3a-fbff-4a63-b818-b778762956ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], display.dxgi_ddi_arg_resolvesharedresource, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
+ms.keywords: dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, display.dxgi_ddi_arg_resolvesharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct DXGI_DDI_ARG_RESOLVESHAREDRESOURCE {
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569488">ResolveSharedResourceDXGI</a>
+
+
 
  
 

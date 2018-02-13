@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, WdfDeviceWdmGetAttachedDevice method, wdf.wdfdevicewdmgetattacheddevice, PFN_WDFDEVICEWDMGETATTACHEDDEVICE, kmdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice, wdfdevice/WdfDeviceWdmGetAttachedDevice
+ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, wdfdevice/WdfDeviceWdmGetAttachedDevice, wdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice, kmdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice method, PFN_WDFDEVICEWDMGETATTACHEDDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,24 +79,54 @@ A handle to a framework device object.
 ## -returns
 
 
+
 <b>WdfDeviceWdmGetAttachedDevice</b> returns a pointer to a WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. If the specified object handle represents a physical device object (PDO), the method returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The pointer that the <b>WdfDeviceWdmGetAttachedDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
 
 
+#### Examples
+
+The following code example creates a tracing message that contains pointers to the WDM device objects that represent a device's PDO, FDO, and next-lower device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>TraceEvents(
+            TRACE_LEVEL_INFORMATION,
+            DBG_PNP,
+            "PDO(0x%p) FDO(0x%p), Lower(0x%p)\n",
+            WdfDeviceWdmGetPhysicalDevice(device),
+            WdfDeviceWdmGetDeviceObject(device),
+            WdfDeviceWdmGetAttachedDevice(device)
+            );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 83288eab-020b-4870-9c99-b3215d52658c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFPNPAction2::RescanDevice, Microsoft::WDTF::IWDTFPNPAction2::RescanDevice, RescanDevice method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFPNPAction2.RescanDevice, RescanDevice, RescanDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework], RescanDevice method, IWDTFPNPAction2, dtf.iwdtfpnpaction2_rescandevice, wdtfpnpaction/IWDTFPNPAction2::RescanDevice
+ms.keywords: RescanDevice, Microsoft.WDTF.IWDTFPNPAction2.RescanDevice, IWDTFPNPAction2, IWDTFPNPAction2::RescanDevice, RescanDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, wdtfpnpaction/IWDTFPNPAction2::RescanDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RescanDevice method, RescanDevice method [Windows Device Testing Framework], dtf.iwdtfpnpaction2_rescandevice, Microsoft::WDTF::IWDTFPNPAction2::RescanDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ True if the operation succeeds; otherwise, false.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
+
+
 
  
 

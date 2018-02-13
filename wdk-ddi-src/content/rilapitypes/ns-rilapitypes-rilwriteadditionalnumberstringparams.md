@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d68553ef-a343-4297-b3a3-718747da422d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILWRITEADDITIONALNUMBERSTRINGPARAMS, netvista.rilwriteadditionalnumberstringparams_2, rilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS, *LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], RILWRITEADDITIONALNUMBERSTRINGPARAMS, *LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, rilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS, netvista.rilwriteadditionalnumberstringparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,5 @@ typedef struct _RILWRITEADDITIONALNUMBERSTRINGPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field RilPBANS
-
 

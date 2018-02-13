@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, wdm/MmSizeOfMdl, kernel.mmsizeofmdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], MmSizeOfMdl
+ms.keywords: MmSizeOfMdl routine [Kernel-Mode Driver Architecture], wdm/MmSizeOfMdl, kernel.mmsizeofmdl, k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, MmSizeOfMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,14 +82,18 @@ Supplies the size, in bytes, of the range.
 ## -returns
 
 
+
 <b>MmSizeOfMdl</b> returns the number of bytes required to contain the MDL. 
+
 
 
 
 ## -remarks
 
 
+
 Memory for the MDL itself must be allocated from nonpaged pool. 
+
 
 
 
@@ -97,7 +101,11 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554500">MmCreateMdl</a>
+
+
 
  
 

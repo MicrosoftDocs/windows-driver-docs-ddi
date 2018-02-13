@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4560fb48-24c3-4beb-acc3-b8d2ed3a81d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, d3dumddi/DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL, _DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL structure [Display Devices], display.dxvahdddi_rational
+ms.keywords: DXVAHDDDI_RATIONAL, _DXVAHDDDI_RATIONAL, DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, d3dumddi/DXVAHDDDI_RATIONAL, display.dxvahdddi_rational, DXVAHDDDI_RATIONAL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,8 +81,10 @@ typedef struct _DXVAHDDDI_RATIONAL {
 ## -remarks
 
 
+
 An output rate of 0/0 is valid. The driver interprets 0/0 as 0/1. The driver interprets 0/any value as zero. 
 
 The NTSC frame rate is 30000/1001, and the PAL frame rate is 25/1. 
+
 
 

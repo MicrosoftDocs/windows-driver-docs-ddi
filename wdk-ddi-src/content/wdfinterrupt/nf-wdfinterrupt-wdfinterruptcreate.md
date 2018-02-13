@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6279f9ed-f271-45e6-92ef-2a919f3584ed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptCreate, wdf.wdfinterruptcreate, DFInterruptObjectRef_44b197bb-82d6-45ff-a640-67fd1de506cc.xml, kmdf.wdfinterruptcreate, WdfInterruptCreate method, WdfInterruptCreate
+ms.keywords: wdf.wdfinterruptcreate, wdfinterrupt/WdfInterruptCreate, WdfInterruptCreate, kmdf.wdfinterruptcreate, DFInterruptObjectRef_44b197bb-82d6-45ff-a640-67fd1de506cc.xml, WdfInterruptCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,9 @@ A pointer to a location that receives a handle to the new interrupt object.
 ## -returns
 
 
+
 <b>WdfInterruptCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -194,7 +196,8 @@ The driver requested passive-level interrupt handling on a platform earlier than
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a list of other return values that the <b>WdfInterruptCreate</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -206,7 +209,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Drivers typically call the  <b>WdfInterruptCreate</b> method from an <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function. Starting in KMDF version 1.11 and UMDF version 2.0, drivers can call <b>WdfInterruptCreate</b> from <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>. If the driver calls <b>WdfInterruptCreate</b> from <i>EvtDriverDeviceAdd</i>, the <b>InterruptRaw</b>  and <b>InterruptTranslated</b>  members of the <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure
@@ -229,18 +234,62 @@ If your driver provides <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_contex
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure and a WDF_OBJECT_ATTRIBUTES structure and then calls <b>WdfInterruptCreate</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status;
+WDF_INTERRUPT_CONFIG  interruptConfig;
+WDF_OBJECT_ATTRIBUTES  interruptAttributes;
+
+WDF_INTERRUPT_CONFIG_INIT(
+                          &amp;interruptConfig,
+                          MyEvtInterruptIsr,
+                          MyEvtInterruptDpc
+                          );
+WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
+                                        &amp;interruptAttributes,
+                                        INTERRUPT_DATA
+                                        );
+status = WdfInterruptCreate(
+                            device,
+                            &amp;interruptConfig,
+                            &amp;interruptAttributes,
+                            &amp;devExt-&gt;WdfInterrupt
+                            );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
+
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
 
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
 
  
 

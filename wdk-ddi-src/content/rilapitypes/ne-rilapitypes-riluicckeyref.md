@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7812008b-867f-4b17-b715-7a1f10c38368
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCKEYREF_PIN2, netvista.riluicckeyref, RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_ALW, rilapitypes/RIL_UICCKEYREF_UPIN, rilapitypes/RILUICCKEYREF, RIL_UICCKEYREF_ALW, RIL_UICCKEYREF_UPIN, RILUICCKEYREF, RIL_UICCKEYREF_PIN2, RIL_UICCKEYREF_PIN1, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_PIN1
+ms.keywords: RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_ALW, RIL_UICCKEYREF_PIN1, RIL_UICCKEYREF_UPIN, rilapitypes/RIL_UICCKEYREF_NEV, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], RIL_UICCKEYREF_PIN2, RIL_UICCKEYREF_ALW, netvista.riluicckeyref, rilapitypes/RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_UPIN, rilapitypes/RIL_UICCKEYREF_PIN1, RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_PIN2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -76,26 +76,23 @@ enum RILUICCKEYREF {
 ### -field RIL_UICCKEYREF_ALW
 
 
-
 ### -field RIL_UICCKEYREF_PIN1
-
 
 
 ### -field RIL_UICCKEYREF_UPIN
 
 
-
 ### -field RIL_UICCKEYREF_PIN2
-
 
 
 ### -field RIL_UICCKEYREF_NEV
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

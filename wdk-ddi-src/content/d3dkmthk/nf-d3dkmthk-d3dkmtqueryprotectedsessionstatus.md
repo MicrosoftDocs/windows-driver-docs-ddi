@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 787f20a4-51b6-44e3-aefb-2dc529359545
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtqueryprotectedsessionstatus, d3dkmthk/D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus method [Display Devices]
+ms.keywords: d3dkmthk/D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus, display.d3dkmtqueryprotectedsessionstatus, D3DKMTQueryProtectedSessionStatus method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,6 +70,7 @@ NTSTATUS  D3DKMTQueryProtectedSessionStatus(
 
 
 
+
 #### - D3dkmt_queryprotectedsessionstatus
 
 Holds the information for the status of the protected session.
@@ -79,6 +80,8 @@ Holds the information for the status of the protected session.
 
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: f8b0cb77-828a-43c7-b0f3-34eca0da49bf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Query method, dtf.iwdtfdevicedepot2_query, Query, Query method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Query method [Windows Device Testing Framework], wdtf/IWDTFDeviceDepot2::Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query
+ms.keywords: dtf.iwdtfdevicedepot2_query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, IWDTFDeviceDepot2, wdtf/IWDTFDeviceDepot2::Query, Query method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2::Query, Query, Query method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDeviceDepot2::Query, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Query method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,14 @@ The collection of devices.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>Query</b> method provides the <i>SDEL</i> 
@@ -101,9 +104,12 @@ interface.
 
 
 
+
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
+
+
 
  
 

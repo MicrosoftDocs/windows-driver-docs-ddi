@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b2e029b7-32c0-4cef-8388-9d30aa5610d3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemPrintTicketProvider, ConvertDevModeToPrintTicket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, print.iprintoemprintticketprovider_convertdevmodetoprintticket, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface
+ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket, print.iprintoemprintticketprovider_convertdevmodetoprintticket, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, ConvertDevModeToPrintTicket method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -100,11 +100,14 @@ A pointer to the partially-completed print ticket. When <code>IPrintOemPrintTick
 ## -returns
 
 
+
 <code>IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
 
 
 
+
 ## -remarks
+
 
 
 The core driver calls the <code>IPrintTicketProvider::ConvertDevModeToPrintTicket</code> method with an input print ticket that is populated with public and Unidrv-private or Pscript5-private features. The plug-in is free to set <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> settings in the public part or in the plug-in's private part, based on settings in the input print ticket. In addition to setting new DEVMODEW items, the plug-in can modify existing settings in the public portion of the DEVMODEW structure.
@@ -113,9 +116,12 @@ The DEVMODEW structure fields that correlate with the part of the DEVMODEW struc
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f38a5ad6-6816-4b27-98ea-51ac1453d90f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], wdm/CmGetBoundTransaction, CmGetBoundTransaction, kernel.cmgetboundtransaction, ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml
+ms.keywords: CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], wdm/CmGetBoundTransaction, kernel.cmgetboundtransaction, ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml, CmGetBoundTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ The pointer value that the driver's <a href="https://msdn.microsoft.com/library/
 ## -returns
 
 
+
 <b>CmGetBoundTransaction</b> returns a pointer to a transaction object, if the key object that the <i>Object</i> parameter specifies is associated with a transaction. Otherwise, the routine returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The <b>CmGetBoundTransaction</b> routine is available on Windows Vista and later versions of Windows.
@@ -97,13 +100,20 @@ For more information about transactions, see <a href="https://msdn.microsoft.com
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+
 
 <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+
+
 
  
 

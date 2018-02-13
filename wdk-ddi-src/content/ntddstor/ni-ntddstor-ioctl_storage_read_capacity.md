@@ -85,14 +85,18 @@ The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\n
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -104,13 +108,17 @@ The <b>Status</b> field can be set to STATUS_SUCCESS, or possibly to STATUS_INVA
 ## -remarks
 
 
+
 A <b>IOCTL_STORAGE_READ_CAPACITY</b> request returns the disk capacity information retrieved during disk initialization. The capacity information is obtained by the system with the SCSI READ CAPACITY command.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_read_capacity.md">STORAGE_READ_CAPACITY</a>
+
+
 
  
 

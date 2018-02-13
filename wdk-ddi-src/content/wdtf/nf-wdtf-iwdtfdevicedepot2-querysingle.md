@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5e471ede-3607-4d4d-a3f0-5396cc62c6c5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: wdtf/IWDTFDeviceDepot2::QuerySingle, IWDTFDeviceDepot2, Microsoft.WDTF.IWDTFDeviceDepot2.QuerySingle, QuerySingle method [Windows Device Testing Framework], dtf.iwdtfdevicedepot2_querysingle, IWDTFDeviceDepot2::QuerySingle, QuerySingle method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], QuerySingle method, Microsoft::WDTF::IWDTFDeviceDepot2::QuerySingle, QuerySingle
+ms.keywords: IWDTFDeviceDepot2::QuerySingle, QuerySingle method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2, QuerySingle, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], QuerySingle method, QuerySingle method [Windows Device Testing Framework], wdtf/IWDTFDeviceDepot2::QuerySingle, Microsoft.WDTF.IWDTFDeviceDepot2.QuerySingle, Microsoft::WDTF::IWDTFDeviceDepot2::QuerySingle, dtf.iwdtfdevicedepot2_querysingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,13 +82,17 @@ The requested device.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
+
+
 
  
 

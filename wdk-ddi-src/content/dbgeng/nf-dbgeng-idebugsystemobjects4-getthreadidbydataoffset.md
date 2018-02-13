@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f559e0da-ca5c-4fea-aa17-257abfd45f96
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByDataOffset method, GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects2::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects::GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetThreadIdByDataOffset, IDebugSystemObjects::GetThreadIdByDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects4, IDebugSystemObjects4::GetThreadIdByDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByDataOffset method, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects_bb1b0f35-219b-4883-8df7-d90a96441720.xml, dbgeng/IDebugSystemObjects2::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects3::GetThreadIdByDataOffset, IDebugSystemObjects3::GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, debugger.getthreadidbydataoffset
+ms.keywords: GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getthreadidbydataoffset, dbgeng/IDebugSystemObjects2::GetThreadIdByDataOffset, IDebugSystemObjects4::GetThreadIdByDataOffset, GetThreadIdByDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByDataOffset method, dbgeng/IDebugSystemObjects3::GetThreadIdByDataOffset, IDebugSystemObjects::GetThreadIdByDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects3::GetThreadIdByDataOffset, IDebugSystemObjects_bb1b0f35-219b-4883-8df7-d90a96441720.xml, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetThreadIdByDataOffset, GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdByDataOffset method [Windows Debugging], GetThreadIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects2::GetThreadIdByDataOffset, dbgeng/IDebugSystemObjects::GetThreadIdByDataOffset, IDebugSystemObjects4, IDebugSystemObjects2, IDebugSystemObjects interface [Windows Debugging], GetThreadIdByDataOffset method, IDebugSystemObjects3, IDebugSystemObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -84,7 +84,9 @@ Receives the engine thread ID.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,15 +103,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 In kernel-mode debugging, this method returns the engine thread ID for the virtual thread representing the processor on which the specified thread is executing.  If the thread is not executing on a processor, this method will fail. 
 
 For more information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+
 
 

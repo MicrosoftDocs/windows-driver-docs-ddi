@@ -81,6 +81,8 @@ A pointer to the arguments used to create a protected session.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

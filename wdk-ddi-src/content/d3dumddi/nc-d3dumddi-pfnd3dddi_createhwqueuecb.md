@@ -80,12 +80,15 @@ A handle to the device.
 
 
 
+
+
 #### - createHwQueue [in, out]
 
 A pointer to the structure holding information on creating the hardware queue.
 
 
 ## -returns
+
 
 
 <table>
@@ -104,8 +107,10 @@ The call was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 

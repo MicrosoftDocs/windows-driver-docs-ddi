@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemovePort_IN, PRemovePort_IN, RemovePort_IN structure [Storage Devices], PRemovePort_IN structure pointer [Storage Devices], structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, *PRemovePort_IN, storage.removeport_in, _RemovePort_IN
+ms.keywords: storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, *PRemovePort_IN, hbapiwmi/PRemovePort_IN, RemovePort_IN, hbapiwmi/RemovePort_IN, _RemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePort_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PRemovePort_IN, RemovePort_IN"
+req.typenames: RemovePort_IN, *PRemovePort_IN
 ---
 
 # _RemovePort_IN structure
@@ -75,13 +75,17 @@ Contains a worldwide name that indicates the port that should be removed from th
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 8492CCCB-2BA9-419D-A22F-DE06D08D4CC7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLX_ProcessAddDevicePreDeviceCreate, GPIO.gpio_clx_processadddevicepredevicecreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate
+ms.keywords: GPIO_CLX_ProcessAddDevicePreDeviceCreate, gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate method [Parallel Ports], GPIO.gpio_clx_processadddevicepredevicecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,9 @@ A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_a
 ## -returns
 
 
+
 <b>GPIO_CLX_ProcessAddDevicePreDeviceCreate</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,28 +118,93 @@ Out of memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Your GPIO controller driver must call this method in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function, before the call to the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> method that creates the device object (FDO) that represents the GPIO controller. Otherwise, the GPIO framework extension (GpioClx) cannot handle I/O requests or process interrupts for the new framework device object.
+
+
+#### Examples
+
+The following code example shows the <i>EvtDriverDeviceAdd</i> callback function in the GPIO controller driver for an "XYZ" GPIO controller device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+  XyzEvtDriverDeviceAdd(
+    _In_ WDFDRIVER Driver,
+    _Inout_ PWDFDEVICE_INIT DeviceInit
+    )
+{
+    WDFDEVICE Device;
+    WDF_OBJECT_ATTRIBUTES FdoAttributes;
+    NTSTATUS Status;
+
+    Status = GPIO_CLX_ProcessAddDevicePreDeviceCreate(Driver,
+                                                      DeviceInit,
+                                                      &amp;FdoAttributes);
+    if (!NT_SUCCESS(Status)) {
+        goto ExitDeviceAdd;
+    }
+
+    //
+    // Call the framework to create the device and attach it to the lower stack.
+    //
+
+    Status = WdfDeviceCreate(&amp;DeviceInit, &amp;FdoAttributes, &amp;Device);
+    if (!NT_SUCCESS(Status)) {
+        goto ExitDeviceAdd;
+    }
+
+    Status = GPIO_CLX_ProcessAddDevicePostDeviceCreate(Driver, Device);
+    if (!NT_SUCCESS(Status)) {
+        goto ExitDeviceAdd;
+    }
+
+ExitDeviceAdd:
+    return Status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+In the preceding code example, the <b>WdfDeviceCreate</b> call creates the framework device object that represents the GPIO controller device. The two input parameters for this call point to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> and <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structures. These structures are modified by the  <b>GPIO_CLX_ProcessAddDevicePreDeviceCreate</b> call, which precedes the <b>WdfDeviceCreate</b> call. The output parameter, <i>Device</i>, from the <b>WdfDeviceCreate</b> call is an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439484">GPIO_CLX_ProcessAddDevicePostDeviceCreate</a> call, which follows the <b>WdfDeviceCreate</b> call.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439484">GPIO_CLX_ProcessAddDevicePostDeviceCreate</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
 
  
 

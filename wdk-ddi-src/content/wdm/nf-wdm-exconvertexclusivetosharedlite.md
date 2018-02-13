@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, ExConvertExclusiveToSharedLite, kernel.exconvertexclusivetosharedlite, wdm/ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ExConvertExclusiveToSharedLite, kernel.exconvertexclusivetosharedlite, k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], ExConvertExclusiveToSharedLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,20 +76,26 @@ A pointer to the resource for which the access should be converted.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The caller must have exclusive access to the given resource. During this conversion, the current thread and any other threads waiting for shared access to the resource are given shared access.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
+
+
 
  
 

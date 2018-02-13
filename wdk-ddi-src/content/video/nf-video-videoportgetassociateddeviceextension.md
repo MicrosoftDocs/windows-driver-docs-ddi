@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 825e2b61-6b51-4553-88e1-0aff2e9e3cce
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPortGetAssociatedDeviceExtension, display.videoportgetassociateddeviceextension, VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, video/VideoPortGetAssociatedDeviceExtension
+ms.keywords: VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,13 +76,17 @@ Is the device object of a child device.
 ## -returns
 
 
+
 <b>VideoPortGetAssociatedDeviceExtension</b> returns a pointer to the device extension of <i>DeviceObject</i>'s parent.
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver of a child device can call this function to obtain a description of its parent through the parent's device extension.
+
 
 

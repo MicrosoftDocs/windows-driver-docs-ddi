@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f9b50dc2-1af7-47c3-87c6-d33858569eed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, PFN_WDFDEVICEREMOVEREMOVALRELATIONSPHYSICALDEVICE, WdfDeviceRemoveRemovalRelationsPhysicalDevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice method, wdf.wdfdeviceremoveremovalrelationsphysicaldevice
+ms.keywords: WdfDeviceRemoveRemovalRelationsPhysicalDevice, DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, PFN_WDFDEVICEREMOVEREMOVALRELATIONSPHYSICALDEVICE, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice method, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,9 +85,11 @@ A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
@@ -95,7 +97,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceclearremovalrelationsdevices.md">WdfDeviceClearRemovalRelationsDevices</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceaddremovalrelationsphysicaldevice.md">WdfDeviceAddRemovalRelationsPhysicalDevice</a>
+
+
 
  
 

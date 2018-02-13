@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2B0902DB-B59C-4DC5-A944-02ACE9DA16DC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure [Display Devices], DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, display.dxgkvgpu_escape_write_pci_config, _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
+ms.keywords: display.dxgkvgpu_escape_write_pci_config, DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure [Display Devices], DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

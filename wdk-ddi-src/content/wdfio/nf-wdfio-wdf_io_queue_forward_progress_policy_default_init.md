@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d4342c72-6737-4f9a-927a-dbfdd69da38d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_io_queue_forward_progress_policy_default_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, wdf.wdf_io_queue_forward_progress_policy_default_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml
+ms.keywords: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, wdf.wdf_io_queue_forward_progress_policy_default_init, kmdf.wdf_io_queue_forward_progress_policy_default_init, DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,24 +84,62 @@ The number of request objects that the framework will attempt to reserve for use
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT</b> function zeros the specified <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure and sets its <b>Size</b> member. It also sets the structure's <b>TotalForwardProgressRequests </b>member to the specified value and sets the <b>ForwardProgressReservedPolicy</b> member to <b>WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest</b>.
+
+
+#### Examples
+
+The following code example initializes a <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure and then calls <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>. In the example, the driver is specifying that the framework should allocate and reserve 10 request objects for low-memory situations.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define MAX_RESERVED_REQUESTS 10
+
+WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY queueForwardProgressPolicy;
+WDFQUEUE readQueue;
+NTSTATUS status = STATUS_SUCCESS;
+
+WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT(
+                                                  &amp;queueForwardProgressPolicy,
+                                                  MAX_RESERVED_REQUESTS
+                                                  );
+status = WdfIoQueueAssignForwardProgressPolicy(
+                                               readQueue,
+                                               &amp;queueForwardProgressPolicy
+                                               );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_pagingio_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT</a>
+
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+
+
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_examine_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</a>
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_forward_progress_policy_pagingio_init.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT</a>
+
 
  
 

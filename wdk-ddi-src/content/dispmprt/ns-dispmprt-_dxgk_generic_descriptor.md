@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 181df1a6-044d-406d-bc6d-1b35b3d744fc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_f77c03e6-d887-43ba-9499-ce1740cb6c9e.xml, PDXGK_GENERIC_DESCRIPTOR structure pointer [Display Devices], DXGK_GENERIC_DESCRIPTOR structure [Display Devices], DXGK_GENERIC_DESCRIPTOR, display.dxgk_generic_descriptor, dispmprt/DXGK_GENERIC_DESCRIPTOR, PDXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR, dispmprt/PDXGK_GENERIC_DESCRIPTOR, _DXGK_GENERIC_DESCRIPTOR
+ms.keywords: display.dxgk_generic_descriptor, *PDXGK_GENERIC_DESCRIPTOR, PDXGK_GENERIC_DESCRIPTOR, DmStructs_f77c03e6-d887-43ba-9499-ce1740cb6c9e.xml, dispmprt/PDXGK_GENERIC_DESCRIPTOR, dispmprt/DXGK_GENERIC_DESCRIPTOR, PDXGK_GENERIC_DESCRIPTOR structure pointer [Display Devices], _DXGK_GENERIC_DESCRIPTOR, DXGK_GENERIC_DESCRIPTOR structure [Display Devices], DXGK_GENERIC_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_GENERIC_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_GENERIC_DESCRIPTOR, DXGK_GENERIC_DESCRIPTOR"
+req.typenames: DXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR
 ---
 
 # _DXGK_GENERIC_DESCRIPTOR structure
@@ -93,13 +93,17 @@ A single wide-character string, terminated by two wide NULL characters, that hol
 ## -remarks
 
 
+
 The display adapter has two types of child devices: <b>TypeVideoOutput</b> and <b>TypeOther</b>. For child devices of type <b>TypeOther</b>, the display port driver passes a DXGK_GENERIC_DESCRIPTOR structure to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> function. <i>DxgkDdiQueryDeviceDescriptor</i> must fill in the members of the structure.
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_device_descriptor.md">DXGK_DEVICE_DESCRIPTOR</a>
+
+
 
  
 

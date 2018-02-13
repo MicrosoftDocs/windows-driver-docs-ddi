@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f5116986-aa0c-4cc3-9893-c93e83e922f7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.getinfo_fontobj, _GETINFO_FONTOBJ, printoem/PGETINFO_FONTOBJ, PGETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], GETINFO_FONTOBJ structure [Print Devices], print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/GETINFO_FONTOBJ, GETINFO_FONTOBJ, *PGETINFO_FONTOBJ
+ms.keywords: GETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], print.getinfo_fontobj, *PGETINFO_FONTOBJ, _GETINFO_FONTOBJ, PGETINFO_FONTOBJ, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/GETINFO_FONTOBJ, printoem/PGETINFO_FONTOBJ, GETINFO_FONTOBJ structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GETINFO_FONTOBJ
 product: Windows
 targetos: Windows
-req.typenames: GETINFO_FONTOBJ, *PGETINFO_FONTOBJ
+req.typenames: "*PGETINFO_FONTOBJ, GETINFO_FONTOBJ"
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Pointer to an empty <a href="https://msdn.microsoft.com/library/windows/hardware
 ## -remarks
 
 
+
 To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply the address of a GETINFO_FONTOBJ structure when calling Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
+
 
 
 
@@ -90,7 +92,11 @@ To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply th
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+
+
 
  
 

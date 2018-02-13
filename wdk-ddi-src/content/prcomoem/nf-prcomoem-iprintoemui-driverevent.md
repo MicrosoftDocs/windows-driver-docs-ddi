@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DriverEvent method [Print Devices], print.iprintoemui_driverevent, DriverEvent method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml, prcomoem/IPrintOemUI::DriverEvent, IPrintOemUI interface [Print Devices], DriverEvent method, IPrintOemUI::DriverEvent, IPrintOemUI, DriverEvent
+ms.keywords: DriverEvent method [Print Devices], IPrintOemUI::DriverEvent, DriverEvent method [Print Devices], IPrintOemUI interface, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml, DriverEvent, IPrintOemUI interface [Print Devices], DriverEvent method, print.iprintoemui_driverevent, IPrintOemUI, prcomoem/IPrintOemUI::DriverEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUI.DriverEvent
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -74,6 +74,7 @@ HRESULT DriverEvent(
 ### -param dwDriverEvent
 
 Caller-supplied bit flag indicating the event that has occurred. Valid flags are listed in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -99,12 +100,14 @@ The driver has just been installed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param dwLevel
 
 Caller-supplied value indicating the type of structure pointed to by the <i>pDriverInfo</i> parameter, as indicated in the following table.
+
 <table>
 <tr>
 <th><i>dwLevel</i> Value</th>
@@ -140,7 +143,8 @@ DRIVER_INFO_3
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The DRIVER_INFO_<i>N</i> structures are described in the Microsoft Windows SDK documentation.
 
@@ -158,7 +162,9 @@ Caller-supplied flags. See the following Remarks section.
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -197,11 +203,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method performs the same types of operations as the <b>DrvDriverEvent</b> function that is exported by user-mode printer interface DLLs. For information about driver events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a> function.
@@ -214,9 +223,12 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a>
+
+
 
  
 

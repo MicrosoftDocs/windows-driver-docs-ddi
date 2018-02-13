@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64bb0edf-b281-40cc-b36e-6ae1fb71ccb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, netvista.ndis_nic_switch_vport_info_array, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
+ms.keywords: netvista.ndis_nic_switch_vport_info_array, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY, NDIS_NIC_SWITCH_VPORT_INFO_ARRAY"
+req.typenames: NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 ---
 
 # _NDIS_NIC_SWITCH_VPORT_INFO_ARRAY structure
@@ -82,6 +82,7 @@ NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. T
 
 
 
+
 #### NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -94,17 +95,21 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VPORT_INFO_ARRAY_REVISION_1
 A ULONG value that contains a bitwise OR of the following flags: 
 
 
-<div class="alert"><b>Note</b>  These flags are mutually exclusive. Only one flag can be set in the <b>Flags</b> member.</div><div> </div>
+
+
 
 #### NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION
 
 This flag specifies to enumerate the VPorts attached to a specific PCI Express (PCIe) function. The function is specified in the <b>AttachedFunctionId</b> member. This flag can be used to enumerate the VPorts attached to the PCIe Physical Function (PF) or a specified PCIe Virtual Function (VF).
 
 
+
 #### NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_SWITCH
 
 This flag specifies to enumerate the VPorts created on a specific switch, specified by the SwitchId. This enumerates all the VPorts created on the switch.
 
+<div class="alert"><b>Note</b>  These flags are mutually exclusive. Only one flag can be set in the <b>Flags</b> member.</div>
+<div> </div>
 
 ### -field SwitchId
 
@@ -113,12 +118,17 @@ An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch ident
 
 
 The <b>SwitchId</b> member is only valid  if NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_SWITCH is specified in the <b>Flags</b> member. 
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div>
+<div> </div>
 
 ### -field AttachedFunctionId
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the identifier of the PF or a VF on the network adapter.
-<div class="alert"><b>Note</b>  If this value is NDIS_PF_FUNCTION_ID, the VPort is attached to the PF.</div><div> </div>The <b>AttachedFunctionId</b> member is only valid  if NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION is specified in the <b>Flags</b> member. 
+
+<div class="alert"><b>Note</b>  If this value is NDIS_PF_FUNCTION_ID, the VPort is attached to the PF.</div>
+<div> </div>
+The <b>AttachedFunctionId</b> member is only valid  if NDIS_NIC_SWITCH_VPORT_INFO_ARRAY_ENUM_ON_SPECIFIC_FUNCTION is specified in the <b>Flags</b> member. 
 
 
 ### -field FirstElementOffset
@@ -126,7 +136,9 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the identifier of the PF or a VF 
 A ULONG value that specifies the offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a> structure.
 
 
-<div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
+
+<div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div>
+<div> </div>
 
 ### -field NumElements
 
@@ -141,6 +153,7 @@ A ULONG value that specifies the size, in bytes, of each element that follows th
 ## -remarks
 
 
+
 NDIS returns an <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure when NDIS handles an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451821">OID_NIC_SWITCH_ENUM_VPORTS</a>.  Each
     element in the array that follows the <b>NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</b> structure is an 
     
@@ -150,15 +163,24 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451821">OID_NIC_SWITCH_ENUM_VPORTS</a>
 
+
+
 <b></b>
+
+
 
  
 

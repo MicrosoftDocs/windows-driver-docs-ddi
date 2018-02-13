@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C87E70ED-FCB0-47B6-B6A3-A8EBC8E84058
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4::GetNameByInlineContext, GetNameByInlineContext, dbgeng/IDebugSymbols4::GetNameByInlineContext, IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContext method, IDebugSymbols4, GetNameByInlineContext method [Windows Debugging], IDebugSymbols4 interface, debugger.idebugsymbols4_getnamebyinlinecontext, GetNameByInlineContext method [Windows Debugging]
+ms.keywords: GetNameByInlineContext method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4, IDebugSymbols4::GetNameByInlineContext, debugger.idebugsymbols4_getnamebyinlinecontext, dbgeng/IDebugSymbols4::GetNameByInlineContext, IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContext method, GetNameByInlineContext, GetNameByInlineContext method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,13 +105,17 @@ A pointer to the displacement value of the name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
+
+
 
  
 

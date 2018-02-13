@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e1ea63d1-9322-44c7-8196-2fe1a7b6a220
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeNetBufferPool, ndis/NdisFreeNetBufferPool, NdisFreeNetBufferPool function [Network Drivers Starting with Windows Vista], netvista.ndisfreenetbufferpool, ndis_netbuf_functions_ref_8fcb5f46-efc3-4059-9774-cbdf14c5500a.xml
+ms.keywords: NdisFreeNetBufferPool function [Network Drivers Starting with Windows Vista], netvista.ndisfreenetbufferpool, NdisFreeNetBufferPool, ndis/NdisFreeNetBufferPool, ndis_netbuf_functions_ref_8fcb5f46-efc3-4059-9774-cbdf14c5500a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeNetBufferPool
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeNetBufferPool function
@@ -81,11 +81,14 @@ The pool handle for the NET_BUFFER structure pool to be freed.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 You should free all the 
@@ -96,13 +99,20 @@ You should free all the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f630afff-d3ca-4ada-aa8c-5062893f2de5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLINFO_V1, netvista.rilcallinfo_v1_2, rilapitypes/RILCALLINFO_V1, *LPRILCALLINFO_V1, RILCALLINFO_V1 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RILCALLINFO_V1, RILCALLINFO_V1, RILCALLINFO_V1 structure [Network Drivers Starting with Windows Vista], *LPRILCALLINFO_V1, netvista.rilcallinfo_v1_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLINFO_V1
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLINFO_V1, RILCALLINFO_V1"
+req.typenames: RILCALLINFO_V1, *LPRILCALLINFO_V1
 req.product: Windows 10 or later.
 ---
 
@@ -87,67 +87,50 @@ typedef struct _RILCALLINFO_V1 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwID
-
 
 
 ### -field dwDirection
 
 
-
 ### -field dwStatus
-
 
 
 ### -field dwType
 
 
-
 ### -field dwMultiparty
-
 
 
 ### -field raAddress
 
 
-
 ### -field rsaSubAddress
-
 
 
 ### -field wszDescription
 
 
-
 ### -field dwNumberPresentationIndicator
-
 
 
 ### -field dwNamePresentationIndicator
 
 
-
 ### -field fAlienCall
-
 
 
 ### -field dwDisconnectInitiator
 
 
-
 ### -field dwDisconnectReason
 
 
-
 ### -field stDisconnectDetails
-
 

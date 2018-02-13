@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FC801FA3-699F-4EE5-BED9-35CA696A5E52
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, _NDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex, *PNDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex, _NDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_DEVICE_CAPS_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX"
+req.typenames: NDIS_WWAN_DEVICE_CAPS_EX, *PNDIS_WWAN_DEVICE_CAPS_EX
 ---
 
 # _NDIS_WWAN_DEVICE_CAPS_EX structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the <b>NDIS_WWAN_DEVI
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_DEVICE_CAPS_EX)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -123,6 +125,7 @@ For more information about these members, see
 The status of system capability. The following table shows the possible values for
      this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -180,12 +183,14 @@ The operation failed because the device is in the process of initializing. Retry
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DeviceCaps
 
  
+
 
 
 
@@ -197,15 +202,25 @@ A formatted
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
+<a href="..\wwan\ns-wwan-_wwan_device_caps_ex.md">WWAN_DEVICE_CAPS_EX</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps_ex.md">WWAN_DEVICE_CAPS_EX</a>
+
 
 <a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
+
+
 
  
 

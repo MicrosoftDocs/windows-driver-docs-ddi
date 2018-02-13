@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e5b7b014-3e06-49f2-8ccd-45d74592e349
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryGetDevice function [Streaming Media Devices], stream.ksfilterfactorygetdevice, KsFilterFactoryGetDevice, ks/KsFilterFactoryGetDevice, avfunc_1e2ec536-69a1-4606-9d99-ebdebd25c89a.xml
+ms.keywords: KsFilterFactoryGetDevice function [Streaming Media Devices], avfunc_1e2ec536-69a1-4606-9d99-ebdebd25c89a.xml, stream.ksfilterfactorygetdevice, ks/KsFilterFactoryGetDevice, KsFilterFactoryGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> str
 ## -returns
 
 
+
 Returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the AVStream device to which <i>FilterFactory</i> belongs.
 
 
 
+
 ## -remarks
+
 
 
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>.
@@ -88,13 +91,20 @@ For more information about the AVStream object hierarchy, see  <a href="https://
 
 
 
+
 ## -see-also
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
 <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
 
  
 

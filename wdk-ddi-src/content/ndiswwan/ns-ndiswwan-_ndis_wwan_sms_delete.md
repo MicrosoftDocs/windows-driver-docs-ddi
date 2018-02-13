@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ea13c900-40b2-492b-b14b-85e346208ad8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SMS_DELETE, netvista.ndis_wwan_sms_delete, _NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE, PNDIS_WWAN_SMS_DELETE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aae03f3f-21d1-42d4-b2dd-008fc07c9964.xml, ndiswwan/NDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE
+ms.keywords: "*PNDIS_WWAN_SMS_DELETE, PNDIS_WWAN_SMS_DELETE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aae03f3f-21d1-42d4-b2dd-008fc07c9964.xml, ndiswwan/PNDIS_WWAN_SMS_DELETE, _NDIS_WWAN_SMS_DELETE, netvista.ndis_wwan_sms_delete, ndiswwan/NDIS_WWAN_SMS_DELETE, PNDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SMS_DELETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SMS_DELETE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE"
+req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
 ---
 
 # _NDIS_WWAN_SMS_DELETE structure
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SMS_DEL
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_SMS_DELETE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -126,9 +128,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
+
 
  
 

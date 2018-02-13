@@ -7,8 +7,8 @@ old-location: buses\usb_interface_descriptor.htm
 old-project: usbref
 ms.assetid: 12378915-fa3d-4054-bb06-6eb8b292559c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "*PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], PUSB_INTERFACE_DESCRIPTOR, _USB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], buses.usb_interface_descriptor, usbspec/PUSB_INTERFACE_DESCRIPTOR"
+ms.date: 2/8/2018
+ms.keywords: usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], usbspec/PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR, _USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], buses.usb_interface_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_INTERFACE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR
+req.typenames: "*PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -123,15 +123,21 @@ The index of a string descriptor that describes the interface. For information a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_INTERFACE_DESCRIPTOR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_INTERFACE_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

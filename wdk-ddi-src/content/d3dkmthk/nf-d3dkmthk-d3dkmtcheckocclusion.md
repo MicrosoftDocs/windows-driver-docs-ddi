@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PFND3DKMT_CHECKOCCLUSION, d3dkmthk/D3DKMTCheckOcclusion, OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, D3DKMTCheckOcclusion function [Display Devices], display.d3dkmtcheckocclusion, D3DKMTCheckOcclusion
+ms.keywords: PFND3DKMT_CHECKOCCLUSION, display.d3dkmtcheckocclusion, D3DKMTCheckOcclusion function [Display Devices], d3dkmthk/D3DKMTCheckOcclusion, D3DKMTCheckOcclusion, OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkocclusion.md">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkocclusion.md">D3DKM
 ## -returns
 
 
+
 <b>D3DKMTCheckOcclusion</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,22 +126,28 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
 ## -remarks
 
 
+
 The handle to the window that is checked for occlusion must be valid. A window is not occluded if a part of its client area lies on a unowned video present network (VidPn) source, if its client area is an empty rectangular area (RECT), or if desktop composition is running.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkocclusion.md">D3DKMT_CHECKOCCLUSION</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\rxcesend.htm
 old-project: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml, RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend
+ms.date: 2/7/2018
+ms.keywords: RxCeSend, ifsk.rxcesend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml, RxCeSend function [Installable File System Drivers], rxce/RxCeSend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeSend
 product: Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
+req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -84,14 +84,17 @@ The desired options for transmitting the data on this send operation by the tran
 
 
 
+
 #### RXCE_SEND_EXPEDITED
 
 The given data should be sent ahead of any normal send requests the transport is currently holding queued for transmission on this endpoint-to-endpoint connection. If the transport does not support expedited transfers, it can ignore this flag. Note that RXCE_SEND_EXPEDITED is equivalent to the TDI TDI_SEND_EXPEDITED flag.
 
 
+
 #### RXCE_SEND_NO_RESPONSE_EXPECTED
 
 The caller is giving a hint to the underlying transport that it does not expect a response to this send from its remote-node peer. This flag should disable piggybacking of the TSDU acknowledgment by the remote-node transport. Note that RXCE_SEND_NO_RESPONSE_EXPECTED is equivalent to the TDI_SEND_NO_RESPONSE_EXPECTED flag.
+
 
 
 #### RXCE_SEND_NON_BLOCKING
@@ -101,9 +104,11 @@ If the underlying transport currently has no internal buffer space available for
 This flag is irrelevant to transports that do not buffer sends internally. Note that RXCE_SEND_NON_BLOCKING is equivalent to the TDI_SEND_NON_BLOCKING flag.
 
 
+
 #### RXCE_SEND_PARTIAL
 
 Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only portions of it need to be sent. This option requests that the transport allow the send operation to transmit part of the data if the transport and MDL allow this behavior.
+
 
 
 #### RXCE_SEND_SYNCHRONOUS
@@ -129,7 +134,9 @@ The context passed back to the caller during <b>SendCompletion</b> for asynchron
 ## -returns
 
 
+
 <b>RxCeSend</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -168,11 +175,14 @@ An invalid length was passed in the <i>SendLength</i> parameter based on the <i>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>RxCeSend</b> routine will allocate the IRP, build the send request for the underlying transport driver, and submit the request to TDI. In the case of synchronous send operations, this routine will also the free IRP and resources allocated when the routine completes.
@@ -185,15 +195,20 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 
 
+
 ## -see-also
 
 <a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
 
+
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSend function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSend function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

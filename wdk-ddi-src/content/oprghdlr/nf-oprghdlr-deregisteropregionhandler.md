@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.deregisteropregionhandler, DeRegisterOpRegionHandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, DeRegisterOpRegionHandler routine [ACPI Devices], oprghdlr/DeRegisterOpRegionHandler
+ms.keywords: opregref_e991e152-6162-4d45-9418-282afb447d18.xml, DeRegisterOpRegionHandler, acpi.deregisteropregionhandler, DeRegisterOpRegionHandler routine [ACPI Devices], oprghdlr/DeRegisterOpRegionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DeRegisterOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
 ---
 
 # DeRegisterOpRegionHandler function
@@ -82,7 +82,9 @@ Specifies the operation region object returned by <a href="..\oprghdlr\nf-oprghd
 ## -returns
 
 
+
 Returns one of the following status values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,11 +123,14 @@ An internal error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine is used in combination with <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>. To deregister an operation region handler, the caller must specify the operation region object returned by <b>RegisterOpRegionHandler</b> when it registered the operation region handler.
@@ -134,11 +139,16 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 
 
+
 ## -see-also
 
 <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
 
+
+
 <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml, GetGlobalAttribute, print.iprintcoreui2_getglobalattribute, IPrintCoreUI2 interface [Print Devices], GetGlobalAttribute method, IPrintCoreUI2, GetGlobalAttribute method [Print Devices], IPrintCoreUI2 interface, GetGlobalAttribute method [Print Devices], IPrintCoreUI2::GetGlobalAttribute, prcomoem/IPrintCoreUI2::GetGlobalAttribute
+ms.keywords: IPrintCoreUI2, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml, IPrintCoreUI2 interface [Print Devices], GetGlobalAttribute method, prcomoem/IPrintCoreUI2::GetGlobalAttribute, GetGlobalAttribute, GetGlobalAttribute method [Print Devices], print.iprintcoreui2_getglobalattribute, IPrintCoreUI2::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreUI2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreUI2.GetGlobalAttribute
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -112,7 +112,9 @@ Pointer to a memory location that receives the actual size, in bytes, of the req
 ## -returns
 
 
+
 This method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,11 +168,14 @@ The method failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
@@ -183,13 +188,20 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+
+
+
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
 
  
 

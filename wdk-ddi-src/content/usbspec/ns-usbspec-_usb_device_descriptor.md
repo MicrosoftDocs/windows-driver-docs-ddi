@@ -7,8 +7,8 @@ old-location: buses\usb_device_descriptor.htm
 old-project: usbref
 ms.assetid: 124184ef-7410-4e04-abb2-e07db4ae2cbf
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: USB_DEVICE_DESCRIPTOR structure [Buses], usbspec/USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, _USB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR, usbspec/PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml
+ms.date: 2/8/2018
+ms.keywords: usbspec/PUSB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], usbspec/USB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml, PUSB_DEVICE_DESCRIPTOR, _USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,23 +154,31 @@ Specifies the total number of possible configurations for the device.
 ## -remarks
 
 
+
 This structure is used to hold a retrieved USB-defined device descriptor. This information can then be used to further configure or retrieve information about the device. Device descriptors are retrieved by submitting a get-descriptor URB.
 
 The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when returned from the host controller driver, contain index values into an array of string descriptors maintained by the device. To retrieve these strings, a string descriptor request can be sent to the device using these index values.
 
 
 
-## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
+
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

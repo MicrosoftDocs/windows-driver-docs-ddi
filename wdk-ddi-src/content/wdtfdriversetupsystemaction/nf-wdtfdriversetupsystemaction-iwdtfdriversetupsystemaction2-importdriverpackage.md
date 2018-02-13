@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ImportDriverPackage method, ImportDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
+ms.keywords: Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, ImportDriverPackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage, IWDTFDriverSetupSystemAction2, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ImportDriverPackage method, ImportDriverPackage method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,13 +76,17 @@ The driver package to import.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
+
+
 
  
 

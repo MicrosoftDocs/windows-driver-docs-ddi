@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], NdisMRegisterWdiMiniportDriver
+ms.keywords: NdisMRegisterWdiMiniportDriver, dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,7 +120,9 @@ A pointer to a caller-supplied handle variable. NDIS writes a handle to this var
 
 
 
+
             NdisMRegisterWdiMiniportDriver can return any of the following return values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -198,17 +200,25 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+
+
 
  
 

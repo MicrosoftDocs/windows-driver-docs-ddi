@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 985d9f12-11c6-40e6-9cb6-572196bc04f4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_02cb064e-813f-4d67-8cf3-a33e05af7421.xml, KSATTRIBUTE, stream.ksattribute, ks/KSATTRIBUTE, ks/PKSATTRIBUTE, PKSATTRIBUTE structure pointer [Streaming Media Devices], PKSATTRIBUTE, KSATTRIBUTE structure [Streaming Media Devices], *PKSATTRIBUTE
+ms.keywords: ks/PKSATTRIBUTE, ks-struct_02cb064e-813f-4d67-8cf3-a33e05af7421.xml, KSATTRIBUTE, ks/KSATTRIBUTE, PKSATTRIBUTE structure pointer [Streaming Media Devices], PKSATTRIBUTE, KSATTRIBUTE structure [Streaming Media Devices], *PKSATTRIBUTE, stream.ksattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,7 +87,9 @@ Specifies the unique identifier of the attribute.
 ## -remarks
 
 
+
 Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; attributes on data formats and ranges are taken into consideration when determining if a data format is acceptable to a given pin or if a data range intersects with another data range.
+
 
 
 
@@ -95,7 +97,11 @@ Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; 
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 21d04633-3b68-4c89-a0b9-81507a1bb6d3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest2_reuse, Reuse method, IWDFIoRequest2 interface, Reuse method, umdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse, IWDFIoRequest2, Reuse, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, IWDFIoRequest2::Reuse, Reuse method, IWDFIoRequest2 interface
+ms.keywords: wudfddi/IWDFIoRequest2::Reuse, IWDFIoRequest2::Reuse, IWDFIoRequest2, IWDFIoRequest2 interface, Reuse method, umdf.iwdfiorequest2_reuse, wdf.iwdfiorequest2_reuse, Reuse method, Reuse method, IWDFIoRequest2 interface, Reuse, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,14 @@ An HRESULT-typed status value that the framework assigns to the request.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If a framework-based driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff557021">IWDFDevice::CreateRequest</a> to create request objects, the driver can reuse those request objects. Drivers can also reuse request objects that they receive from the framework in their I/O queues.
@@ -94,14 +97,49 @@ If you want the reused request to have an <a href="https://msdn.microsoft.com/li
 For more information about <b>Reuse</b>, see <a href="https://msdn.microsoft.com/9e3090a9-62d0-48b3-9f3b-7171dc6d2766">Reusing Framework Request Objects</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a> interface and then call <b>Reuse</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
+STDMETHODCALLTYPE
+CMyRemoteDevice::OnCompletion(
+    __in IWDFIoRequest*  FxRequest,
+    __in IWDFIoTarget*  FxTarget,
+    __in IWDFRequestCompletionParams*  Params,
+    __in void*  Context
+    )
+{
+...
+    CComQIPtr&lt;IWDFIoRequest2&gt; fxRequest2(FxRequest);
+    fxRequest2-&gt;Reuse(S_OK);
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+
+
 
  
 

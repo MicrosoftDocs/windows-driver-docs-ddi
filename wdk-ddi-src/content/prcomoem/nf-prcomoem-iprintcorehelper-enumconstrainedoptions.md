@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelper::EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, EnumConstrainedOptions method [Print Devices], print.iprintcorehelper_enumconstrainedoptions, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelper, EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface
+ms.keywords: print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, IPrintCoreHelper, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], print.iprintcorehelper_enumconstrainedoptions, EnumConstrainedOptions, IPrintCoreHelper::EnumConstrainedOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelper.EnumConstrainedOptions
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to an array of ANSI character strings. When <b>IPrintCoreHelper::EnumC
 ## -returns
 
 
+
 <b>IPrintCoreHelper::EnumConstrainedOptions</b> should return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -166,15 +168,21 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
+
 
  
 

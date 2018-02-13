@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice::SetPnpState, wdf.iwdfdevice_setpnpstate, SetPnpState method, IWDFDevice interface, SetPnpState method, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, SetPnpState method, IWDFDevice interface, IWDFDevice::SetPnpState, SetPnpState, IWDFDevice, umdf.iwdfdevice_setpnpstate
+ms.keywords: IWDFDevice::SetPnpState, IWDFDevice, SetPnpState method, IWDFDevice interface, SetPnpState method, IWDFDevice interface, SetPnpState method, wudfddi/IWDFDevice::SetPnpState, wdf.iwdfdevice_setpnpstate, SetPnpState, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,6 +79,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a
 ### -param Value [in]
 
 A WDF_TRI_STATE-typed value that identifies how to set the PnP property that <i>State</i> specifies. The following table shows the possible values for <i>Value</i>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,32 +115,94 @@ Turn on the PnP property.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Before the state of the PnP property that <b>SetPnpState</b> set can take effect, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a> method.
 
 
+#### Examples
+
+The following code example shows how to indicate that a device failed as the result of a request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+CUmdfHidDevice::OnCompletion(
+    __in IWDFIoRequest* WdfRequest,
+    __in IWDFIoTarget* /* WdfTarget */,
+    __in IWDFRequestCompletionParams* WdfCompletionParams,
+    __in PVOID /* Context */
+    )
+{
+    ULONG_PTR bytesRead;
+
+ if (!SUCCEEDED(WdfCompletionParams-&gt;GetCompletionStatus()))
+    {
+        m_WdfDevice-&gt;SetPnpState(WdfPnpStateFailed, WdfTrue);
+        m_WdfDevice-&gt;CommitPnpState();
+        return;
+    }
+
+    // Lock the device to prevent files from closing.
+    m_WdfDevice-&gt;AcquireLock();
+
+    // Retrieve the number of bytes that were read.
+    bytesRead = WdfCompletionParams-&gt;GetInformation();
+
+    // Process the reports.
+    ProcessInputReports((PBYTE) m_ReadMemory-&gt;GetDataBuffer(NULL), bytesRead);
+
+    m_WdfDevice-&gt;ReleaseLock();
+
+    // Release the request.
+    m_InterruptReadRequest = NULL;
+    WdfRequest-&gt;DeleteWdfObject();
+
+    // Send a new request.
+    SendInterruptPipeRead();
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557010">IWDFDevice::CommitPnpState</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
+
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
+
+
 
  
 

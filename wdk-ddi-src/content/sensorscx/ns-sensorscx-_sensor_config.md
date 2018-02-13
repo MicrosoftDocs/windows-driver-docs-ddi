@@ -7,8 +7,8 @@ old-location: sensors\sensor_config.htm
 old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PSENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], sensorscx/SENSOR_CONFIG, _SENSOR_CONFIG, sensorscx/PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], sensors.sensor_config, SENSOR_CONFIG"
+ms.date: 2/8/2018
+ms.keywords: SENSOR_CONFIG, _SENSOR_CONFIG, *PSENSOR_CONFIG, sensors.sensor_config, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG structure [Sensor Devices], PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG, sensorscx/PSENSOR_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,10 +82,13 @@ The list of enumerations. For more information, see <a href="..\sensorsdef\ns-se
 ## -remarks
 
 
+
 The SENSOR_CONFIG structure works with the following helper function:
+
 <ul>
 <li>
 <a href="..\sensorscx\nf-sensorscx-sensor_config_init.md">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
+
 

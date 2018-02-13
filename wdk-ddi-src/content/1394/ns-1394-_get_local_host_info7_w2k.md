@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65c4b7d9-dbd8-4f94-b407-1b06543d0b56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GET_LOCAL_HOST_INFO7, _GET_LOCAL_HOST_INFO7_W2K, 1394/GET_LOCAL_HOST_INFO7, PGET_LOCAL_HOST_INFO7 structure pointer [Buses], *PGET_LOCAL_HOST_INFO7, *PGET_LOCAL_HOST_INFO7_W2K, IEEE.get_local_host_info7, 1394/PGET_LOCAL_HOST_INFO7, 1394stct_6e61e5b9-8961-4a88-9927-143aa24e0648.xml, PGET_LOCAL_HOST_INFO7, GET_LOCAL_HOST_INFO7_W2K, GET_LOCAL_HOST_INFO7 structure [Buses]
+ms.keywords: 1394/GET_LOCAL_HOST_INFO7, 1394/PGET_LOCAL_HOST_INFO7, GET_LOCAL_HOST_INFO7 structure [Buses], GET_LOCAL_HOST_INFO7_W2K, PGET_LOCAL_HOST_INFO7 structure pointer [Buses], _GET_LOCAL_HOST_INFO7_W2K, *PGET_LOCAL_HOST_INFO7_W2K, IEEE.get_local_host_info7, GET_LOCAL_HOST_INFO7, *PGET_LOCAL_HOST_INFO7, 1394stct_6e61e5b9-8961-4a88-9927-143aa24e0648.xml, PGET_LOCAL_HOST_INFO7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_LOCAL_HOST_INFO7
 product: Windows
 targetos: Windows
-req.typenames: "*PGET_LOCAL_HOST_INFO7_W2K, GET_LOCAL_HOST_INFO7_W2K"
+req.typenames: GET_LOCAL_HOST_INFO7_W2K, *PGET_LOCAL_HOST_INFO7_W2K
 ---
 
 # _GET_LOCAL_HOST_INFO7_W2K structure
@@ -86,5 +86,6 @@ Specifies the maximum size of a single DMA transfer on the 1394 host controller.
 ### -field MaxOutstandingXmitResponses
 
  
+
 
 

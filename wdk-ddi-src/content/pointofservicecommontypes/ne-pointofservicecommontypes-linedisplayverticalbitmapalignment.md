@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: ADB42318-BE2F-4D70-912C-79D29DF12D72
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.linedisplayverticalbitmapalignment, LineDisplayVerticalBitmapAlignment enumeration, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pointofservicecommontypes/, LineDisplayVerticalBitmapAlignment
+ms.keywords: LineDisplayVerticalBitmapAlignment enumeration, LineDisplayVerticalBitmapAlignment, pos.linedisplayverticalbitmapalignment, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topictype:
 -	APIRef
 -	kbSyntax
@@ -70,13 +70,10 @@ typedef enum _LineDisplayVerticalBitmapAlignment {
 ### -field VerticalAlignmentTop
 
 
-
 ### -field VerticalAlignmentCenter
 
 
-
 ### -field VerticalAlignmentBottom
-
 
 
 

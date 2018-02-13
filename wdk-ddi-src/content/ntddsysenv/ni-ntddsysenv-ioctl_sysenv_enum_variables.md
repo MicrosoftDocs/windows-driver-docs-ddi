@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SYSENV_ENUM_VARIABLES
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP"
+req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 ---
 
 # IOCTL_SYSENV_ENUM_VARIABLES IOCTL
@@ -97,14 +97,18 @@ On input, the length in bytes of the output buffer. On output,
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,13 +119,21 @@ On input, the length in bytes of the output buffer. On output,
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetIoctlParameters method, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams::GetIoctlParameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, umdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, IWDFIoRequestCompletionParams, GetIoctlParameters
+ms.keywords: IWDFIoRequestCompletionParams, GetIoctlParameters method, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, wdf.iwdfiorequestcompletionparams_getioctlparameters, umdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,7 +120,9 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
+
 
 
 
@@ -128,7 +130,11 @@ None
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
+
+
 
  
 

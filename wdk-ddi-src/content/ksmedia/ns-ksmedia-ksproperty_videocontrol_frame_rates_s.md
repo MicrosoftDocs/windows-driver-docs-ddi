@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd45594-a7cb-4376-b05c-d1e09462c78c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices], stream.ksproperty_videocontrol_frame_rates_s, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices], *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml
+ms.keywords: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, stream.ksproperty_videocontrol_frame_rates_s, ksmedia/KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure pointer [Streaming Media Devices], *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, vidcapstruct_6f4d2262-8995-4b48-9029-595a7e7c1e15.xml, ksmedia/PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,15 +93,21 @@ Specifies the width and height of the image.
 ## -remarks
 
 
+
 The minidriver should return a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure containing a list of the frame rates supported. These values should be expressed using type VT_I4.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_GetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], *PGetEventBuffer_OUT, PGetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, storage.geteventbuffer_out, GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml"
+ms.keywords: structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, storage.geteventbuffer_out, GetEventBuffer_OUT structure [Storage Devices], PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], hbapiwmi/PGetEventBuffer_OUT, _GetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, *PGetEventBuffer_OUT, GetEventBuffer_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,19 @@ Contains an array of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_eventbuffer.md"
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> method retrieves the next events in the HBA's event queue. 
 
 The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+
+
 
  
 

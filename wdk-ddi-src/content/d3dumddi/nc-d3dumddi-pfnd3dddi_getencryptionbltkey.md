@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY GetEncryptionBltKey(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_getencryptionbltkey.md">D3DDDIARG_GETENCRYPTIONBLTKEY</a> structure that describes the key for an encrypted session. 
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY GetEncryptionBltKey(
 ## -returns
 
 
+
 <i>GetEncryptionBltKey</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +123,14 @@ The driver does not support the <i>GetEncryptionBltKey</i> function.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The hardware and driver can optionally support the <i>GetEncryptionBltKey</i> function for all crypto types.  
@@ -132,15 +139,24 @@ Each time the Direct3D runtime calls the driver's <i>GetEncryptionBltKey</i> fun
 
 
 
-## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
+## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_getencryptionbltkey.md">D3DDDIARG_GETENCRYPTIONBLTKEY</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12471d22-4d5d-411e-bfde-4d13d7a3bcca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILREGSTATUSINFO, netvista.rilregstatusinfo, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILREGSTATUSINFO, *LPRILREGSTATUSINFO
+ms.keywords: RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILREGSTATUSINFO, RILREGSTATUSINFO, netvista.rilregstatusinfo, *LPRILREGSTATUSINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,43 +80,32 @@ typedef struct _RILREGSTATUSINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwRegStatus
 
 
-
 ### -field ratAccessTechnology
-
 
 
 ### -field dwSystemCaps
 
 
-
 ### -field dwRegRejectReason
-
 
 
 ### -field ronCurrentOperator
 
 
-
 ### -field dwVoiceDomain
 
 
-
 ### -field rncNetworkCode
-
 

@@ -7,8 +7,8 @@ old-location: audio\pcunregisteriotimeout.htm
 old-project: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, PcUnregisterIoTimeout, portcls/PcUnregisterIoTimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml
+ms.date: 2/8/2018
+ms.keywords: audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, audio.pcunregisteriotimeout, PcUnregisterIoTimeout, portcls/PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,7 +90,9 @@ Pointer to the same driver-determined context that the driver supplied when it p
 ## -returns
 
 
+
 <b>PcUnregisterIoTimeout</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. The following table shows some of the possible error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,26 +109,34 @@ Indicates that no timer callback with the same device object, callback routine, 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This call succeeds only if a time-out callback with the same device object, timer routine, and context was previously registered with a call to the <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a> function.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
 <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
 
- 
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcUnregisterIoTimeout function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcUnregisterIoTimeout function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

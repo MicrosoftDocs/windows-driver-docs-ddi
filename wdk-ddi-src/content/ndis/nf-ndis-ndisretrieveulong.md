@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 41788885-d8a1-4459-82a0-261b39862530
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], netvista.ndisretrieveulong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, ndis/NdisRetrieveUlong
+ms.keywords: netvista.ndisretrieveulong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRetrieveUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisRetrieveUlong
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisRetrieveUlong macro
@@ -82,6 +82,8 @@ TBD
 
 
 
+
+
 #### - DestinationAddress [in]
 
 A pointer to a ULONG-aligned memory location in which to store the value.
@@ -95,6 +97,7 @@ A pointer to a memory location from which to retrieve the ULONG value.
 ## -remarks
 
 
+
 The given 
     <i>DestinationAddress</i> is assumed to be aligned on a ULONG boundary.
 
@@ -104,9 +107,12 @@ Callers of
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
+
+
 
  
 

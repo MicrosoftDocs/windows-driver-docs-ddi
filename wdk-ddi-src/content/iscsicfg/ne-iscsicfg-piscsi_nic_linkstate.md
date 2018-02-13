@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e373b1dd-54bd-429c-a5b9-9f8df546c185
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsicfg/PISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_CONNECTED, structs-iSCSI_23ddbeb6-19d4-49f2-b61f-00ea2e5ef0a8.xml, ISCSI_NIC_LINKSTATE_DISCONNECTED, PISCSI_NIC_LINKSTATE enumeration pointer [Storage Devices], ISCSI_NIC_LINKSTATE_CONNECTED, *PISCSI_NIC_LINKSTATE, storage.iscsi_nic_linkstate, PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_DISCONNECTED, ISCSI_NIC_LINKSTATE enumeration [Storage Devices]
+ms.keywords: ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_CONNECTED, storage.iscsi_nic_linkstate, iscsicfg/PISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE_DISCONNECTED, PISCSI_NIC_LINKSTATE, PISCSI_NIC_LINKSTATE enumeration pointer [Storage Devices], *PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE_CONNECTED, iscsicfg/ISCSI_NIC_LINKSTATE_DISCONNECTED, structs-iSCSI_23ddbeb6-19d4-49f2-b61f-00ea2e5ef0a8.xml, ISCSI_NIC_LINKSTATE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_NIC_LINKSTATE
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE
+req.typenames: "*PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE"
 ---
 
 # *PISCSI_NIC_LINKSTATE enumeration
@@ -81,7 +81,9 @@ A network port is connected to the network.
 ## -remarks
 
 
+
 The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>.
+
 
 
 
@@ -89,7 +91,11 @@ The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="https://msdn.micro
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
 
+
+
 <a href="..\iscsicfg\ns-iscsicfg-_msiscsi_nicconfig.md">MSiSCSI_NICConfig</a>
+
+
 
  
 

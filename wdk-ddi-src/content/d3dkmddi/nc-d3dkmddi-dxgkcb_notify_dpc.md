@@ -78,26 +78,71 @@ VOID APIENTRY DxgkCbNotifyDpc(
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The display miniport driver's DPC callback routine calls the <b>DxgkCbNotifyDpc</b> function to inform the GPU scheduler about an update to a fence through a direct memory access (DMA) stream to the graphics hardware. 
+
+
+#### Examples
+
+The following code example shows how to notify the GPU scheduler about the DMA or V-Sync interrupt.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+D3DDDINotifyDPC(
+    HW_DEVICE_EXTENSION  *pAdapter)
+{
+    DXGKRNL_INTERFACE  *pCallback;
+    DXGKCB_NOTIFY_DPC  DxgkCbNotifyDpc;
+
+    pCallback = &amp;(pAdapter-&gt;ddiCallback);
+
+    if (! pAdapter-&gt;pVidSchDPCCB) {
+        return (STATUS_SUCCESS);
+    }
+
+    DxgkCbNotifyDpc = (DXGKCB_NOTIFY_DPC)pAdapter-&gt;pVidSchDPCCB;
+
+    DxgkCbNotifyDpc(pAdapter-&gt;DeviceHandle);
+
+    return (STATUS_SUCCESS);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
  
 

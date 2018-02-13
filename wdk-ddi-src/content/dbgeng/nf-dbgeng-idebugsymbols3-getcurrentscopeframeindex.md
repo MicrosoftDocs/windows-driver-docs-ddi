@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 735934c5-70c4-4bd5-a5ff-e2d313191b69
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex method [Windows Debugging], debugger.getcurrentscopeframeindex, IDebugSymbols3 interface [Windows Debugging], GetCurrentScopeFrameIndex method, GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex, IDebugSymbols3, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml
+ms.keywords: debugger.getcurrentscopeframeindex, IDebugSymbols3::GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetCurrentScopeFrameIndex method, GetCurrentScopeFrameIndex method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml, IDebugSymbols3, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -75,7 +75,9 @@ Receives the index of the stack frame corresponding to the current scope.  The i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the current scope was set using <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>, <i>Index</i> receives the value of the <b>FrameNumber</b> member of the DEBUG_STACK_TRACE structure passed to the <i>ScopeFrame</i> parameter of <b>SetScope</b>.
@@ -105,15 +110,24 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563155">.frame (Set Local Context)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+
+
 
  
 

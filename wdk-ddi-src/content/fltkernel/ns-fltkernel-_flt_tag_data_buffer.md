@@ -7,8 +7,8 @@ old-location: ifsk\flt_tag_data_buffer.htm
 old-project: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], _FLT_TAG_DATA_BUFFER, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], fltkernel/PFLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer"
+ms.date: 2/7/2018
+ms.keywords: FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], ifsk.flt_tag_data_buffer, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, _FLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,21 @@ typedef struct _FLT_TAG_DATA_BUFFER {
 ## -struct-fields
 
 
+
+
+### -field FileTag
+
+Reparse point tag. 
+
+
+### -field TagDataLength
+
+Size, in bytes, of the reparse data pointed to by the <b>DataBuffer</b> member.
+
+
+### -field UnparsedNameLength
+
+Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
 
 
 ### -field SymbolicLinkReparseBuffer
@@ -183,19 +198,6 @@ typedef struct _FLT_TAG_DATA_BUFFER {
  
 
 
-### -field FileTag
-
-Reparse point tag. 
-
-
-### -field TagDataLength
-
-Size, in bytes, of the reparse data pointed to by the <b>DataBuffer</b> member.
-
-
-### -field UnparsedNameLength
-
-Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
 
 
 #### - ( unnamed union )
@@ -203,93 +205,108 @@ Length, in bytes, of the unparsed portion of the file name pointed to by the <b>
  
 
 
+
 #### SymbolicLinkReparseBuffer
 
 
 
-#### SubstituteNameOffset
+##### SubstituteNameOffset
 
 Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
 
 
-#### SubstituteNameLength
+
+##### SubstituteNameLength
 
 Length, in bytes, of the substitute name string. If the substitute name string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
-#### PrintNameOffset
+
+##### PrintNameOffset
 
 Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
 
 
-#### PrintNameLength
+
+##### PrintNameLength
 
 Length, in bytes, of the print name string. If the print name string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
-#### Flags
+
+##### Flags
 
 If the SYMLINK_FLAG_RELATIVE flag is set, the <b>PathBuffer</b> path is relative to the path contained in the <b>FileName</b> member of the associated file object.
 
 
-#### PathBuffer
+
+##### PathBuffer
 
 First character of the path string. This character is followed in memory by the remainder of the string. 
+
 
 
 #### MountPointReparseBuffer
 
 
 
-#### SubstituteNameOffset
+##### SubstituteNameOffset
 
 Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
 
 
-#### SubstituteNameLength
+
+##### SubstituteNameLength
 
 Length, in bytes, of the substitute name string. If the substitute name string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
-#### PrintNameOffset
+
+##### PrintNameOffset
 
 Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof(</b>WCHAR<b>)</b> to get the array index. 
 
 
-#### PrintNameLength
+
+##### PrintNameLength
 
 Length, in bytes, of the print name string. If the print name string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL terminator. 
 
 
-#### PathBuffer
+
+##### PathBuffer
 
 First character of the path string. This character is followed in memory by the remainder of the string. 
+
 
 
 #### GenericReparseBuffer
 
 
 
-#### DataBuffer
+##### DataBuffer
 
 Pointer to a buffer that contains user-defined data for the reparse point. 
+
 
 
 #### GenericGUIDReparseBuffer
 
 
 
-#### TagGuid
+##### TagGuid
 
 Globally unique identifier (GUID) that uniquely identifies the type of reparse point. If <b>FileTag</b> is not a Microsoft tag, this member cannot be <b>NULL</b>. 
 
 
-#### DataBuffer
+
+##### DataBuffer
 
 Pointer to a buffer that contains user-defined data for the reparse point. 
 
 
 ## -remarks
+
 
 
 A minifilter can use the FLT_TAG_DATA_BUFFER structure to store information about a reparse point tag. 
@@ -300,19 +317,28 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 
 
+
 ## -see-also
-
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
-
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_TAG_DATA_BUFFER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_TAG_DATA_BUFFER structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

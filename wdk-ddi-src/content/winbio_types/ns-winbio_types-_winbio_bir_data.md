@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c9ce383e-277d-4fed-839b-8539554f654c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PWINBIO_BIR_DATA structure pointer [Biometric Devices], biometric.winbio_bir_data, _WINBIO_BIR_DATA, WINBIO_BIR_DATA structure [Biometric Devices], biometric_ref_8f527949-820e-416e-952d-8dd3bdf543f6.xml, PWINBIO_BIR_DATA, *PWINBIO_BIR_DATA, winbio_types/PWINBIO_BIR_DATA, winbio_types/WINBIO_BIR_DATA, WINBIO_BIR_DATA
+ms.keywords: biometric.winbio_bir_data, WINBIO_BIR_DATA, winbio_types/WINBIO_BIR_DATA, *PWINBIO_BIR_DATA, PWINBIO_BIR_DATA, WINBIO_BIR_DATA structure [Biometric Devices], PWINBIO_BIR_DATA structure pointer [Biometric Devices], winbio_types/PWINBIO_BIR_DATA, _WINBIO_BIR_DATA, biometric_ref_8f527949-820e-416e-952d-8dd3bdf543f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,17 @@ Specifies the offset, in bytes, of the block within the BIR.
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
-
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
 
+
+
 <a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
+
+
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
+
+
 
  
 

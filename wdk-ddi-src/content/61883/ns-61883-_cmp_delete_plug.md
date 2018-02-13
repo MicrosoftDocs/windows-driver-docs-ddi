@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 93F81B97-5C37-47BF-8867-0FBEFA8F6D3B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMP_DELETE_PLUG structure pointer [Buses], IEEE.cmp_delete_plug, 61883/CMP_DELETE_PLUG, CMP_DELETE_PLUG, _CMP_DELETE_PLUG, *PCMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], 61883/PCMP_DELETE_PLUG, PCMP_DELETE_PLUG
+ms.keywords: CMP_DELETE_PLUG structure [Buses], IEEE.cmp_delete_plug, PCMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], *PCMP_DELETE_PLUG, _CMP_DELETE_PLUG, CMP_DELETE_PLUG, 61883/PCMP_DELETE_PLUG, 61883/CMP_DELETE_PLUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_DELETE_PLUG
 product: Windows
 targetos: Windows
-req.typenames: CMP_DELETE_PLUG, *PCMP_DELETE_PLUG
+req.typenames: "*PCMP_DELETE_PLUG, CMP_DELETE_PLUG"
 ---
 
 # _CMP_DELETE_PLUG structure
@@ -75,13 +75,17 @@ On input, a handle to the plug to delete.
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

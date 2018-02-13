@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5A063585-AC45-44DF-BE21-FA1BB6283E6F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer, netvista.vmbchannelrestorefrombuffer, VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbchannelrestorefrombuffer, VmbChannelRestoreFromBuffer, vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	VmbChannelRestoreFromBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -92,7 +92,9 @@ The size, in bytes, of the buffer.
 ## -returns
 
 
+
 <b>VmbChannelRestoreFromBuffer</b> returns one of the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,14 +133,18 @@ The function failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The caller is expected to call this function with buffers that contain whole
 "chunks" of stored data.
+
 
 

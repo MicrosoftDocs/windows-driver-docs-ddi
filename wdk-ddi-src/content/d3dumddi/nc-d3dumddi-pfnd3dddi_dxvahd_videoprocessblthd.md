@@ -74,8 +74,9 @@ __checkReturn HRESULT APIENTRY VideoProcessBltHD(
 ### -param HANDLE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ __checkReturn HRESULT APIENTRY VideoProcessBltHD(
 ## -returns
 
 
+
 <i>VideoProcessBltHD</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +126,17 @@ The DirectX VA video processing operation is successfully performed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
+
+
 
  
 

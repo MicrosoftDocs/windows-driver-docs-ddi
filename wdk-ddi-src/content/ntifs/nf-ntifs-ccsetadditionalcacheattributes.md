@@ -7,8 +7,8 @@ old-location: ifsk\ccsetadditionalcacheattributes.htm
 old-project: ifsk
 ms.assetid: 2f891543-0222-45c8-97cd-719ec5dd2fa8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: CcSetAdditionalCacheAttributes, ntifs/CcSetAdditionalCacheAttributes, ifsk.ccsetadditionalcacheattributes, ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, CcSetAdditionalCacheAttributes routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributes, ntifs/CcSetAdditionalCacheAttributes, ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, CcSetAdditionalCacheAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,28 +87,38 @@ Set to <b>TRUE</b> to disable write-behind, <b>FALSE</b> to enable it. The calle
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>CcSetAdditionalCacheAttributes</b> can be called any time after calling <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>. Initially, both read-ahead and write-behind are enabled.
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
 
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetAdditionalCacheAttributes routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetAdditionalCacheAttributes routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

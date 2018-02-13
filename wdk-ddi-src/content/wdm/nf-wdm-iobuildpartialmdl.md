@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 26d88928-798f-46ee-9805-3b7da2056e2e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iobuildpartialmdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], IoBuildPartialMdl, k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, wdm/IoBuildPartialMdl
+ms.keywords: k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], IoBuildPartialMdl, kernel.iobuildpartialmdl, wdm/IoBuildPartialMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ Specifies the length, in bytes, to be mapped by the <i>TargetMdl</i>. This value
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine builds a target MDL that describes a subrange of the buffer that is described by the source MDL. This subrange is specified by the <i>VirtualAddress</i> and <i>Length</i> parameters. The <i>SourceMdl</i> and <i>TargetMdl</i> parameters point to the source MDL and target MDL.
@@ -111,21 +114,36 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
+
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
+
+
 
  
 

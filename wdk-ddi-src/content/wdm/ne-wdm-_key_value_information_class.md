@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 99a34b06-3352-47a6-95bc-051a5dfdd82e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyValueFullInformationAlign64, wdm/KeyValueFullInformation, wdm/KeyValueFullInformationAlign64, wdm/KeyValuePartialInformationAlign64, wdm/MaxKeyValueInfoClass, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, _KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformation, KeyValueBasicInformation, wdm/KeyValuePartialInformation, MaxKeyValueInfoClass, KeyValuePartialInformationAlign64, kernel.key_value_information_class, wdm/KeyValueBasicInformation, KeyValueFullInformation, KEY_VALUE_INFORMATION_CLASS, wdm/KEY_VALUE_INFORMATION_CLASS
+ms.keywords: KeyValueFullInformationAlign64, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyValueBasicInformation, wdm/KeyValuePartialInformationAlign64, wdm/KeyValuePartialInformation, KeyValueBasicInformation, wdm/KeyValueFullInformation, kernel.key_value_information_class, KeyValueFullInformation, _KEY_VALUE_INFORMATION_CLASS, wdm/MaxKeyValueInfoClass, wdm/KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformationAlign64, KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformation, MaxKeyValueInfoClass, wdm/KeyValueFullInformationAlign64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -101,7 +101,6 @@ The information is stored as a <b>KEY_VALUE_PARTIAL_INFORMATION</b> structure th
 ### -field KeyValueLayerInformation
 
 
-
 ### -field MaxKeyValueInfoClass
 
 The maximum value in this enumeration type.
@@ -110,21 +109,33 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to be supplied by the <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a> and <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a> routines.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
-
 <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
 
 <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 75304f5d-8a07-4db5-9f20-5764ff5d2ef6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, RetrieveDeviceName, IWDFDevice interface, RetrieveDeviceName method, umdf.iwdfdevice_retrievedevicename, RetrieveDeviceName method, IWDFDevice interface, IWDFDevice, wdf.iwdfdevice_retrievedevicename, RetrieveDeviceName method, IWDFDevice::RetrieveDeviceName, wudfddi/IWDFDevice::RetrieveDeviceName
+ms.keywords: umdf.iwdfdevice_retrievedevicename, UMDFDeviceObjectRef_6d24ee3e-719a-4408-90ea-89cc9315b8cb.xml, IWDFDevice, IWDFDevice interface, RetrieveDeviceName method, wdf.iwdfdevice_retrievedevicename, RetrieveDeviceName, RetrieveDeviceName method, IWDFDevice interface, RetrieveDeviceName method, wudfddi/IWDFDevice::RetrieveDeviceName, IWDFDevice::RetrieveDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,6 +88,7 @@ If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns th
 ## -returns
 
 
+
 <b>RetrieveDeviceName</b> returns S_OK for the following scenarios: 
 
 
@@ -105,16 +106,66 @@ If the buffer at <i>pDeviceName</i> is non-<b>NULL</b>, the framework returns th
 
 
 
+
 ## -remarks
 
 
+
 The device name is not the physical device object (PDO) name. Instead, the device name is the name of the reflector. The driver must target all I/O to this device object.
+
+
+#### Examples
+
+The following code example shows how to retrieve the name of an underlying kernel-mode device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    PWSTR deviceName = NULL;
+    DWORD deviceNameCch = 0;
+    HRESULT hr;
+    //
+    // Get the length of the device name to allocate a buffer
+    //
+    hr = m_FxDevice-&gt;RetrieveDeviceName(NULL, &amp;deviceNameCch);
+    //
+    // Allocate the buffer
+    //
+    deviceName = new WCHAR[deviceNameCch];
+
+    if (deviceName == NULL) {
+        hr = E_OUTOFMEMORY;
+        goto Exit1;
+    }
+    //
+    // Get the device name
+    //
+    hr = m_FxDevice-&gt;RetrieveDeviceName(deviceName,
+                                        &amp;deviceNameCch);
+
+    // Open the device and get the handle
+
+    m_Handle = CreateFile(deviceName, 
+                         (GENERIC_READ | GENERIC_WRITE), 
+                         0, 
+                         NULL, 
+                         OPEN_EXISTING, 
+                         FILE_FLAG_OVERLAPPED, 
+                         NULL);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

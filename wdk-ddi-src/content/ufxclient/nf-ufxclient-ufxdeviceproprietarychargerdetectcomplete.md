@@ -7,8 +7,8 @@ old-location: buses\ufxdeviceproprietarychargerdetectcomplete.htm
 old-project: usbref
 ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxDeviceProprietaryChargerDetectComplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete
+ms.date: 2/8/2018
+ms.keywords: ufxclient/UfxDeviceProprietaryChargerDetectComplete, buses.ufxdeviceproprietarychargerdetectcomplete, UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,11 +82,14 @@ A  pointer to a <a href="..\ufxproprietarycharger\ns-ufxproprietarycharger-_ufx_
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The client driver calls <b>UfxDeviceProprietaryChargerDetectComplete</b> after attempting to detect a proprietary charger on the upstream port, typically from within its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
@@ -94,6 +97,7 @@ The client driver calls <b>UfxDeviceProprietaryChargerDetectComplete</b> after a
   Do not call <b>UfxDeviceProprietaryChargerDetectComplete</b>  before UFX calls the client driver's <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_proprietary_charger_detect.md">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
 
 The following snippet shows how a client driver calls <b>UfxDeviceProprietaryChargerDetectComplete</b>:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -107,4 +111,5 @@ The following snippet shows how a client driver calls <b>UfxDeviceProprietaryCha
 </td>
 </tr>
 </table></span></div>
+
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_SecurityCapabilities structure [Storage Devices], *PMSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], _MSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, MSiSCSI_SecurityCapabilities
+ms.keywords: storage.msiscsi_securitycapabilities, _MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], PMSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, iscsicfg/PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], iscsicfg/MSiSCSI_SecurityCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,6 +99,7 @@ A variable length array of <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_ty
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_SecurityCapabilities structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a> in <i>Config.mof</i>. 
 
 Initiators that support IPsec must implement the MSiSCSI_SecurityCapabilities class. 
@@ -107,11 +108,16 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 
 
+
 ## -see-also
 
 <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
+
+
 
  
 

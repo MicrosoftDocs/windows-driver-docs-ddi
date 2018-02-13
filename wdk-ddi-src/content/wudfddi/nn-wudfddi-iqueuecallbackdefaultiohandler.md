@@ -80,6 +80,8 @@ The <a href="https://msdn.microsoft.com/d0973dc9-58d6-486f-860e-a891600be73e">On
 ## -remarks
 
 
+
 A driver registers the <b>IQueueCallbackDefaultIoHandler</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
+
 
 

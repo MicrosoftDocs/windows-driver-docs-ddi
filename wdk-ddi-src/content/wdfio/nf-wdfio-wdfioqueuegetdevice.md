@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, PFN_WDFIOQUEUEGETDEVICE, kmdf.wdfioqueuegetdevice, WdfIoQueueGetDevice method, WdfIoQueueGetDevice
+ms.keywords: wdfio/WdfIoQueueGetDevice, WdfIoQueueGetDevice, wdf.wdfioqueuegetdevice, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, PFN_WDFIOQUEUEGETDEVICE, kmdf.wdfioqueuegetdevice, WdfIoQueueGetDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,7 @@ A handle to a framework queue object.
 ## -returns
 
 
+
 <b>WdfIoQueueGetDevice</b> returns a handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,16 +90,38 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfIoQueueGetDevice</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Obtaining I/O Queue Properties</a>.
+
+
+#### Examples
+
+The following code example obtains a handle to the framework device object that is associated with the I/O queue that contains a specified request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFDEVICE  device;
+
+device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetioqueue.md">WdfRequestGetIoQueue</a>
+
+
 
  
 

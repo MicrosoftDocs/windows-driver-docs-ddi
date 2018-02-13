@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 522C2745-A758-4C58-9891-BD2A70DBE498
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.read_port_ushort, umdf.read_port_ushort, READ_PORT_USHORT, wudfddi_hwaccess/READ_PORT_USHORT, READ_PORT_USHORT function
+ms.keywords: wudfddi_hwaccess/READ_PORT_USHORT, READ_PORT_USHORT function, READ_PORT_USHORT, umdf.read_port_ushort, wdf.read_port_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,13 +84,17 @@ Specifies the port address, which must be a mapped memory range in I/O space.
 ## -returns
 
 
+
 <b>READ_PORT_USHORT</b> returns the USHORT value that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0c967358-821b-4f78-acbc-dacee24dcd57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST
+ms.keywords: DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, *PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_OFDM_FREQUENCY_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,19 +94,25 @@ An array that specifies the list of supported channel center frequencies that th
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure when queried by 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
     OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\windot11\ns-windot11-_dot11_supported_ofdm_frequency.md">
+   DOT11_SUPPORTED_OFDM_FREQUENCY</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-ofdm-frequency-list">
    OID_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST</a>
 
-<a href="..\windot11\ns-windot11-_dot11_supported_ofdm_frequency.md">
-   DOT11_SUPPORTED_OFDM_FREQUENCY</a>
+
 
  
 

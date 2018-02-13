@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY ExtensionExecute(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_extensionexecute.md">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY ExtensionExecute(
 ## -returns
 
 
+
 <i>ExtensionExecute</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,15 +123,21 @@ The DirectX VA operation is successfully performed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_extensionexecute.md">D3DDDIARG_EXTENSIONEXECUTE</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
 
  
 

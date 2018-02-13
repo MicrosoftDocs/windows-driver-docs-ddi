@@ -76,11 +76,14 @@ Pointer to the miniport driver's per-HBA storage area.
 ## -returns
 
 
+
 If the operation succeeds, the initialization routine returns <b>TRUE</b>. Otherwise, the initialize routine returns <b>FALSE</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
@@ -91,11 +94,16 @@ For more information about the miniport driver initialization routine that is us
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
 
  
 

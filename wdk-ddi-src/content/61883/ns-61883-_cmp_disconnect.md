@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7EAE617D-EFF9-4F77-9B9C-5985B864B310
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMP_DISCONNECT, *PCMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], 61883/CMP_DISCONNECT, CMP_DISCONNECT, IEEE.cmp_disconnect, _CMP_DISCONNECT, CMP_DISCONNECT structure [Buses], 61883/PCMP_DISCONNECT
+ms.keywords: 61883/CMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], *PCMP_DISCONNECT, IEEE.cmp_disconnect, CMP_DISCONNECT structure [Buses], CMP_DISCONNECT, PCMP_DISCONNECT, 61883/PCMP_DISCONNECT, _CMP_DISCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_DISCONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_DISCONNECT, CMP_DISCONNECT"
+req.typenames: CMP_DISCONNECT, *PCMP_DISCONNECT
 ---
 
 # _CMP_DISCONNECT structure
@@ -75,15 +75,19 @@ On input, a handle to the connection to break.
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

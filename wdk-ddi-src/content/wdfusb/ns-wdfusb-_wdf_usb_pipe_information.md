@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05cba67b-c9da-4345-bc6f-09de12a617c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/PWDF_USB_PIPE_INFORMATION, WDF_USB_PIPE_INFORMATION, WDF_USB_PIPE_INFORMATION structure, wdf.wdf_usb_pipe_information, DFUsbRef_80f26f29-adf0-4017-b261-36637da41c0d.xml, PWDF_USB_PIPE_INFORMATION, PWDF_USB_PIPE_INFORMATION structure pointer, kmdf.wdf_usb_pipe_information, wdfusb/WDF_USB_PIPE_INFORMATION, _WDF_USB_PIPE_INFORMATION, *PWDF_USB_PIPE_INFORMATION
+ms.keywords: wdf.wdf_usb_pipe_information, PWDF_USB_PIPE_INFORMATION, kmdf.wdf_usb_pipe_information, wdfusb/PWDF_USB_PIPE_INFORMATION, PWDF_USB_PIPE_INFORMATION structure pointer, _WDF_USB_PIPE_INFORMATION, *PWDF_USB_PIPE_INFORMATION, WDF_USB_PIPE_INFORMATION structure, DFUsbRef_80f26f29-adf0-4017-b261-36637da41c0d.xml, WDF_USB_PIPE_INFORMATION, wdfusb/WDF_USB_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,6 +116,7 @@ This member is not used.
 ## -remarks
 
 
+
 The <b>WDF_USB_PIPE_INFORMATION</b> structure is filled in by the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipegetinformation.md">WdfUsbTargetPipeGetInformation</a>, <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>, and <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md">WdfUsbInterfaceGetEndpointInformation</a> methods.
 
 To initialize a <b>WDF_USB_PIPE_INFORMATION</b> structure, your driver should call <a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>.
@@ -126,19 +127,32 @@ For information on how to transfer data to and from supported isochronous endpoi
 
 
 
+
 ## -see-also
-
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
-
-<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md">WdfUsbInterfaceGetEndpointInformation</a>
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipegetinformation.md">WdfUsbTargetPipeGetInformation</a>
 
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md">WdfUsbInterfaceGetEndpointInformation</a>
+
+
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+
+
+<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_information_init.md">WDF_USB_PIPE_INFORMATION_INIT</a>
+
+
 
  
 

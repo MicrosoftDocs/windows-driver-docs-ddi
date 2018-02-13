@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest2::GetEffectiveIoType, IWDFIoRequest2 interface, GetEffectiveIoType method, wdf.iwdfiorequest2_geteffectiveiotype, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, GetEffectiveIoType method, IWDFIoRequest2 interface, IWDFIoRequest2, GetEffectiveIoType, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType method
+ms.keywords: GetEffectiveIoType method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, wdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2 interface, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,25 +69,67 @@ WDF_DEVICE_IO_TYPE GetEffectiveIoType();
 
 
 
+
 ## -returns
+
 
 
 <b>GetEffectiveIoType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>-typed value that identifies the buffer access method that UMDF is using for the I/O request's data buffers. 
 
 
 
+
 ## -remarks
+
 
 
 For more information about accessing data buffers and when your driver should use <b>GetEffectiveIoType</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a> callback function can obtain the buffer access method of an I/O request. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+STDMETHODCALLTYPE
+  CMyQueue::OnWrite(
+    __in IWDFIoQueue *pWdfQueue,
+    __in IWDFIoRequest *pWdfRequest,
+    __in SIZE_T BytesToWrite
+    )
+{
+    WDF_DEVICE_IO_TYPE currentIoType;
+
+    //
+    // Declare an IWDFIoRequest2 interface pointer and obtain the
+    // IWDFIoRequest2 interface from the IWDFIoRequest interface.
+    //
+    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+
+    currentIoType = r2-&gt;GetEffectiveIoType();
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+
 
  
 

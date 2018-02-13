@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B6586406-6CAD-479F-AE41-93EFBA195B99
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS structure [Display Devices], d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS, display.d3dkmt_updategpuvirtualaddress, D3DKMT_UPDATEGPUVIRTUALADDRESS"
+ms.keywords: display.d3dkmt_updategpuvirtualaddress, d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS, _D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS structure [Display Devices], D3DKMT_UPDATEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,25 +82,6 @@ typedef struct _D3DKMT_UPDATEGPUVIRTUALADDRESS {
 
 
 
-### -field Flags
-
-
-
-### -field Flags.DoNotWait
-
-When set to 1, there will be no wait for the sync objects before executing the operations.
-
-
-### -field Flags.Reserved
-
-This member is reserved and should be set to zero.
-
-
-### -field Flags.Value
-
-The consolidated value of the <b>Flags</b> union.
-
-
 ### -field hDevice
 
 A handle to the device.
@@ -140,4 +121,22 @@ This member is reserved and should be set to zero.
 ### -field FenceValue
 
 Specifies the <b>FenceValue</b> for <b>hFenceObject</b> that the map operation should wait on (unless <b>DoNotWait</b> is 1). When the map operation completes, the fence object will signal <b>hFenceObject</b> with <b>FenceValue</b>+1.
+
+
+### -field Flags
+
+
+### -field Flags.DoNotWait
+
+When set to 1, there will be no wait for the sync objects before executing the operations.
+
+
+### -field Flags.Reserved
+
+This member is reserved and should be set to zero.
+
+
+### -field Flags.Value
+
+The consolidated value of the <b>Flags</b> union.
 

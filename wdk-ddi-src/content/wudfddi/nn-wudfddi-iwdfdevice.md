@@ -256,6 +256,8 @@ The <a href="https://msdn.microsoft.com/3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0">Se
 ## -remarks
 
 
+
 Each device object has a parent driver object. When a new device arrives in the system, the framework calls the parent driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a> callback function to notify the driver about the arrival. The driver can then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to receive a pointer to the <b>IWDFDevice</b> interface for the new device object. 
+
 
 

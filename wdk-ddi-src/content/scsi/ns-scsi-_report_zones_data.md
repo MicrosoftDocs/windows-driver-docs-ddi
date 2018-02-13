@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67785cb0-388c-4348-b32a-99bcd02b7c04
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PREPORT_ZONES_DATA structure pointer [Storage Devices], _REPORT_ZONES_DATA, REPORT_ZONES_DATA structure [Storage Devices], scsi/REPORT_ZONES_DATA, *PREPORT_ZONES_DATA, REPORT_ZONES_DATA, PREPORT_ZONES_DATA, storage.report_zones_data, scsi/PREPORT_ZONES_DATA
+ms.keywords: REPORT_ZONES_DATA structure [Storage Devices], PREPORT_ZONES_DATA structure pointer [Storage Devices], _REPORT_ZONES_DATA, REPORT_ZONES_DATA, *PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, storage.report_zones_data, scsi/PREPORT_ZONES_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REPORT_ZONES_DATA
 product: Windows
 targetos: Windows
-req.typenames: REPORT_ZONES_DATA, *PREPORT_ZONES_DATA
+req.typenames: "*PREPORT_ZONES_DATA, REPORT_ZONES_DATA"
 req.product: Windows 10 or later.
 ---
 

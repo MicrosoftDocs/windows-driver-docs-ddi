@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c61e343a-5276-4cb8-87ff-9852ad167ff5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTRETRIEVEOUTPUTMEMORY, kmdf.wdfrequestretrieveoutputmemory, WdfRequestRetrieveOutputMemory, DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, wdfrequest/WdfRequestRetrieveOutputMemory, wdf.wdfrequestretrieveoutputmemory, WdfRequestRetrieveOutputMemory method
+ms.keywords: kmdf.wdfrequestretrieveoutputmemory, WdfRequestRetrieveOutputMemory, WdfRequestRetrieveOutputMemory method, PFN_WDFREQUESTRETRIEVEOUTPUTMEMORY, wdf.wdfrequestretrieveoutputmemory, wdfrequest/WdfRequestRetrieveOutputMemory, DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,7 +87,9 @@ A pointer to a location that receives a handle to a framework memory object.
 ## -returns
 
 
+
 <b>WdfRequestRetrieveOutputMemory</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,7 +150,8 @@ There is insufficient memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -159,7 +162,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <b>WdfRequestRetrieveOutputMemory</b> to obtain the output buffer for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
@@ -175,14 +180,105 @@ Instead of calling <b>WdfRequestRetrieveOutputMemory</b>, the driver can call <a
 For more information about <b>WdfRequestRetrieveOutputMemory</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function can obtain a handle to the framework memory object that represents a read request's output buffer. The example then formats and sends the read request to a USB I/O target. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+MyEvtIoRead(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+    WDFUSBPIPE  pipe;
+    NTSTATUS  status;
+    WDFMEMORY  reqMemory;
+    PDEVICE_CONTEXT  pDeviceContext;
+
+    //
+    // The driver previously stored a pipe handle in 
+    // the device object's context space.
+    //
+    pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
+    pipe = pDeviceContext-&gt;BulkReadPipe;
+
+    //
+    // Get output memory.
+    //
+    status = WdfRequestRetrieveOutputMemory(
+                                            Request,
+                                            &amp;reqMemory
+                                            );
+    if(!NT_SUCCESS(status)){
+        goto Exit;
+    }
+    //
+    // Format the request.
+    //
+    status = WdfUsbTargetPipeFormatRequestForRead(
+                                           pipe,
+                                           Request,
+                                           reqMemory,
+                                           NULL
+                                           ); 
+    if (!NT_SUCCESS(status)) {
+        goto Exit;
+    }
+    WdfRequestSetCompletionRoutine(
+                                   Request,
+                                   EvtRequestReadCompletionRoutine,
+                                   pipe
+                                   );
+    //
+    // Send the request.
+    //
+    if (WdfRequestSend(
+                       Request,
+                       WdfUsbTargetPipeGetIoTarget(pipe),
+                       WDF_NO_SEND_OPTIONS
+                       ) == FALSE) {
+        status = WdfRequestGetStatus(Request);
+        goto Exit;
+    }
+Exit:
+    //
+    // Complete the request now if an error occurred.
+    //
+    if (!NT_SUCCESS(status)) {
+        WdfRequestCompleteWithInformation(
+                                          Request,
+                                          status,
+                                          0
+                                          );
+    }
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+
 
  
 

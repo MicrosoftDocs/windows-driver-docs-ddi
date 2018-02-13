@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsi_power_request_block, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml
+ms.keywords: storport/SCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], storage.scsi_power_request_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_POWER_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK
+req.typenames: "*PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK"
 req.product: Windows 10 or later.
 ---
 
@@ -86,16 +86,6 @@ typedef struct _SCSI_POWER_REQUEST_BLOCK {
 ## -struct-fields
 
 
-
-
-### -field _SCSI_REQUEST_BLOCK
-
- 
-
-
-### -field NextSrb
-
-Miniport driver should ignore this member.
 
 
 ### -field Length
@@ -165,6 +155,16 @@ Miniport driver should ignore this member.
 Miniport driver should ignore this member.
 
 
+### -field NextSrb
+
+Miniport driver should ignore this member.
+
+
+### -field _SCSI_REQUEST_BLOCK
+
+ 
+
+
 ### -field OriginalRequest
 
 Miniport driver should ignore this member.
@@ -193,6 +193,7 @@ Reserved for system use.
 ## -remarks
 
 
+
 The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> should check the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_POWER, the SRB is a structure of type <b>SCSI_POWER_REQUEST_BLOCK</b>.
 
 The Storport driver sends <b>SCSI_POWER_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows power events that affect storage devices that are connected to the adapter. In the case of a power up event, this request gives the miniport driver an opportunity to initialize itself. In the case of a hibernation or shutdown event, this request gives the miniport driver an opportunity to complete I/O requests and prepare for a power down. The miniport driver can use the value in the <b>PowerAction</b> member of the <b>SCSI_POWER_REQUEST_BLOCK</b> to determine what actions are required. After the miniport driver completes the <b>SCSI_POWER_REQUEST_BLOCK</b> request, the Storport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a> with a control request of <b>ScsiStopAdapter</b> to power down the adapter. The miniport driver reinitialize while processing the SRB_FUNCTION_POWER request, or it can wait and reinitialize when the Storport driver calls <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> to perform a an <b>ScsiRestartAdapter</b> control request.
@@ -200,6 +201,7 @@ The Storport driver sends <b>SCSI_POWER_REQUEST_BLOCK</b> requests to a miniport
  When transitioning from the D0 power state to a lower-powered state (D1, D2, or D3) the Storport driver sends a <b>SCSI_POWER_REQUEST_BLOCK</b> request to the miniport driver before the underlying bus driver powers down the adapter. 
 
 The following conditions must exist before the Storport driver will send a <b>SCSI_POWER_REQUEST_BLOCK</b> request to the miniport driver:
+
 <ul>
 <li>
 The adapter is not stopped.
@@ -220,13 +222,20 @@ The miniport can access the adapter's hardware resources.
 </ul>
 
 
-## -see-also
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+## -see-also
 
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+
 
  
 

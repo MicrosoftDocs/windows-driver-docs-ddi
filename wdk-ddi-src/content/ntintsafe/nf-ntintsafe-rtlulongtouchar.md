@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4958FB4E-D049-40EB-A6CA-973DCF7F397B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongToUChar function [Kernel-Mode Driver Architecture], RtlULongToUChar, ntintsafe/RtlULongToUChar, kernel.rtlulongtouchar
+ms.keywords: ntintsafe/RtlULongToUChar, RtlULongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtouchar, RtlULongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

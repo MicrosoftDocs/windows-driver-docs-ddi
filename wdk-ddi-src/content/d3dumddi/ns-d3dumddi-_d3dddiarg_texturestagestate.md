@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4810ec13-ec58-4ed6-ae4f-6690bd72cd8a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_TEXTURESTAGESTATE, UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices]"
+ms.keywords: D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate, UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, _D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,6 +83,7 @@ Microsoft DirectX 9.0 and later applications can use values in the D3DSAMPLERSTA
 For a definition of each value, see the corresponding value of D3DTEXTURESTAGESTATETYPE or D3DSAMPLERSTATETYPE.
 
 The following texture states are used exclusively by user-mode display drivers for texture colorkeying:
+
 <table>
 <tr>
 <th>Value</th>
@@ -108,7 +109,8 @@ Update the colorkey for the current texture. The <b>Value</b> member is set to t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Value
@@ -119,6 +121,8 @@ Update the colorkey for the current texture. The <b>Value</b> member is set to t
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexturestagestate.md">SetTextureStageState</a>
+
+
 
  
 

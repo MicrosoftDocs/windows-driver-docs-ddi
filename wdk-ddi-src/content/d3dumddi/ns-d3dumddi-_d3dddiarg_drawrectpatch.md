@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e850fc5-a46a-4bd1-97a0-7ecc86102480
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWRECTPATCH structure [Display Devices], UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, D3DDDIARG_DRAWRECTPATCH, d3dumddi/D3DDDIARG_DRAWRECTPATCH, _D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch
+ms.keywords: D3DDDIARG_DRAWRECTPATCH structure [Display Devices], d3dumddi/D3DDDIARG_DRAWRECTPATCH, UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, _D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch, D3DDDIARG_DRAWRECTPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,13 +75,17 @@ typedef struct _D3DDDIARG_DRAWRECTPATCH {
 ## -remarks
 
 
+
 The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a> function that use the same handle to run more efficiently.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a>
+
+
 
  
 

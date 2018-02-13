@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4da2f2b0-f2ad-465d-b63e-f11406d4c210
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice::GetNumInterfaces, wdf.iwdfusbtargetdevice_getnuminterfaces, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetNumInterfaces method, GetNumInterfaces method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, umdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces method
+ms.keywords: GetNumInterfaces method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice::GetNumInterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, IWDFUsbTargetDevice interface, GetNumInterfaces method, wdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces, GetNumInterfaces method, umdf.iwdfusbtargetdevice_getnuminterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, IWDFUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetDevice.GetNumInterfaces
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,17 +69,37 @@ UCHAR GetNumInterfaces();
 
 
 
+
 ## -returns
+
 
 
 <b>GetNumInterfaces</b> returns the number of <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
 
 
 
+
 ## -remarks
 
 
+
 UMDF USB I/O target devices do not support multiple configurations. 
+
+
+#### Examples
+
+The following code example retrieves the number of USB interfaces for the USB device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    UCHAR NumInterfaces = pIUsbTargetDevice-&gt;GetNumInterfaces();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -87,7 +107,11 @@ UMDF USB I/O target devices do not support multiple configurations.
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
 
  
 

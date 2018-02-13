@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ControlPrintProcessor function [Print Devices], print.controlprintprocessor, winsplp/ControlPrintProcessor, ControlPrintProcessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml
+ms.keywords: print.controlprintprocessor, winsplp/ControlPrintProcessor, ControlPrintProcessor function [Print Devices], spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, ControlPrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,6 +78,7 @@ Caller-supplied print processor handle. This is the handle returned by a previou
 ### -param Command [in]
 
 Caller-supplied command indicating the type of operation to perform. The following commands are valid:
+
 <table>
 <tr>
 <th>Command</th>
@@ -113,17 +114,21 @@ The function should resume the current print job.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If the operation succeeds, the function should return <b>TRUE</b>. If the operation fails, the function should call SetLastError to set an error code, and then return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 Print processors are required to export a <b>ControlPrintProcessor</b> function. The spooler calls the function when an application calls the SetJob function, described in the Microsoft Windows SDK documentation.
@@ -132,11 +137,16 @@ Based on the value received for <i>Command</i>, the function should either pause
 
 
 
+
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
+
+
 <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+
+
 
  
 

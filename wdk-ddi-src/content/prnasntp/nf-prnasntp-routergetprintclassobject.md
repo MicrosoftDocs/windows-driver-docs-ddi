@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prnasntp/RouterGetPrintClassObject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, RouterGetPrintClassObject function [Print Devices], print.routergetprintclassobject, RouterGetPrintClassObject
+ms.keywords: spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml, RouterGetPrintClassObject function [Print Devices], prnasntp/RouterGetPrintClassObject, print.routergetprintclassobject, RouterGetPrintClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,6 +88,8 @@ A pointer to a variable that supplies the address of the COM interface requested
 ## -returns
 
 
+
 This function returns S_OK on success, and a standard COM error code otherwise.
+
 
 

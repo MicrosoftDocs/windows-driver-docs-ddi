@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88f8f10d-bf1e-49bc-99c7-95a5e69c17e1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_INTERRUPT_POLICY, WdfIrqPolicyMachineDefault, WdfIrqPolicyOneCloseProcessor, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicyAllProcessorsInMachine, kmdf.wdf_interrupt_policy, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml, *PWDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, wdfinterrupt/WdfIrqPolicyMachineDefault, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, WdfIrqPolicyAllCloseProcessors, wdf.wdf_interrupt_policy, _WDF_INTERRUPT_POLICY, wdfinterrupt/PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY, WdfIrqPolicySpecifiedProcessors, PWDF_INTERRUPT_POLICY enumeration pointer, wdfinterrupt/WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyAllCloseProcessors
+ms.keywords: wdfinterrupt/WdfIrqPolicyAllCloseProcessors, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml, wdf.wdf_interrupt_policy, WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/WDF_INTERRUPT_POLICY, wdfinterrupt/PWDF_INTERRUPT_POLICY, WdfIrqPolicyMachineDefault, WdfIrqPolicySpecifiedProcessors, WDF_INTERRUPT_POLICY enumeration, WDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, *PWDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyMachineDefault, kmdf.wdf_interrupt_policy, WdfIrqPolicyOneCloseProcessor, PWDF_INTERRUPT_POLICY enumeration pointer, PWDF_INTERRUPT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -108,13 +108,17 @@ The PnP manager should assign different message-based interrupts to different pr
 ## -remarks
 
 
+
 The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a> method.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 5b46253c-c111-4675-898e-78b81ecbddb8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], _PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], parports.parallel_1284_command, parallel/PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND, parallel/PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, *PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND
+ms.keywords: PARALLEL_1284_COMMAND structure [Parallel Ports], parallel/PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], PPARALLEL_1284_COMMAND, _PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND, parports.parallel_1284_command, parallel/PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARALLEL_1284_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: "*PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND"
+req.typenames: PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND
 ---
 
 # _PARALLEL_1284_COMMAND structure
@@ -86,9 +86,11 @@ Specifies a bitwise OR of zero or more of the following flags:
 
 
 
+
 #### PAR_END_OF_CHAIN_DEVICE
 
 Specifies an end-of-chain device.
+
 
 
 #### PAR_HAVE_PORT_KEEP_PORT
@@ -99,21 +101,31 @@ Specifies that the client has the parallel port allocated, and makes a request t
 ## -remarks
 
 
+
 The system-supplied function driver for parallel ports supports the simultaneous connection of zero to two IEEE 1284.3 daisy-chain devices and an IEEE 1284 end-of-chain device. In Windows XP, the parallel port function driver supports the simultaneous connection of zero to four IEEE 1284.3 daisy-chain devices and an IEEE 1284 end-of-chain device. The end-of-chain device must be an IEEE 1284 device, but does not have to be an IEEE 1284.3 device. 
 
 For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71-8740-70c6fbe9a885">Selecting and Deselecting an IEEE 1284 Device Attached to a ParallelPort</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
-
-<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
 
 <a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
+
+
 <a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+
 
  
 

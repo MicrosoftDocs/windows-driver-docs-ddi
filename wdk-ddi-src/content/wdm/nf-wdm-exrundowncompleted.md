@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], wdm/ExRundownCompleted, kernel.exrundowncompleted
+ms.keywords: wdm/ExRundownCompleted, ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,11 +76,14 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj5
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine is called by the driver that owns an object that resides in shared memory and that is accessed by other drivers. The <b>ExRundownCompleted</b> call must be preceded by a call to the <a href="..\wdm\nf-wdm-exwaitforrundownprotectionrelease.md">ExWaitForRundownProtectionRelease</a> routine that runs down the object.
@@ -95,11 +98,16 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
+
 
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
 
  
 

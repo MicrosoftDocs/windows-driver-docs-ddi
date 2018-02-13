@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5429b533-1b85-426e-8540-6c72034d42dd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4::ReadMultiByteStringVirtualWide, ReadMultiByteStringVirtualWide method [Windows Debugging], debugger.readmultibytestringvirtualwide, IDebugDataSpaces_c5a99b4a-a468-459e-acc1-f3a4f224f645.xml, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtualWide, ReadMultiByteStringVirtualWide, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtualWide method, IDebugDataSpaces4, ReadMultiByteStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface
+ms.keywords: ReadMultiByteStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadMultiByteStringVirtualWide method [Windows Debugging], ReadMultiByteStringVirtualWide, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtualWide, debugger.readmultibytestringvirtualwide, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtualWide method, IDebugDataSpaces_c5a99b4a-a468-459e-acc1-f3a4f224f645.xml, IDebugDataSpaces4::ReadMultiByteStringVirtualWide, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,6 +105,7 @@ Receives the size, in bytes, of the string in the target.  If <i>StringBytes</i>
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,13 +144,16 @@ A null-terminator was not found after reading <i>MaxBytes</i> from the target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The engine will read up to <i>MaxBytes</i> from the target, looking for a null-terminator.  If the string has more than <i>BufferSize</i> characters, the string will be truncated to fit in <i>Buffer</i>.
@@ -158,13 +162,20 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554300">ReadMultiByteStringVirtual</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
+
+
 
  
 

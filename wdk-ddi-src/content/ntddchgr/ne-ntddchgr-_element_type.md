@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddchgr/PELEMENT_TYPE, ntddchgr/ELEMENT_TYPE, _ELEMENT_TYPE, *PELEMENT_TYPE, storage.element_type, ChangerTransport, ChangerDrive, ELEMENT_TYPE, ntddchgr/ChangerIEPort, ChangerDoor, ChangerMaxElement, ntddchgr/ChangerMaxElement, ELEMENT_TYPE enumeration [Storage Devices], PELEMENT_TYPE, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ntddchgr/ChangerTransport, PELEMENT_TYPE enumeration pointer [Storage Devices], ntddchgr/AllElements, ntddchgr/ChangerDoor, AllElements, ChangerSlot, ChangerIEPort, ntddchgr/ChangerSlot, ntddchgr/ChangerKeypad, ChangerKeypad, ntddchgr/ChangerDrive
+ms.keywords: ELEMENT_TYPE enumeration [Storage Devices], ntddchgr/AllElements, AllElements, _ELEMENT_TYPE, ntddchgr/ChangerDoor, ntddchgr/ChangerIEPort, ntddchgr/ChangerKeypad, ChangerDrive, ChangerIEPort, ELEMENT_TYPE, ntddchgr/ChangerDrive, storage.element_type, ChangerMaxElement, ntddchgr/ChangerTransport, PELEMENT_TYPE, ChangerDoor, *PELEMENT_TYPE, ntddchgr/ChangerSlot, ChangerTransport, ntddchgr/ELEMENT_TYPE, ntddchgr/ChangerMaxElement, PELEMENT_TYPE enumeration pointer [Storage Devices], structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ntddchgr/PELEMENT_TYPE, ChangerSlot, ChangerKeypad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -116,11 +116,17 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
 
 <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+
+
 
  
 

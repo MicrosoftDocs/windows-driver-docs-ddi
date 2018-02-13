@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860d0ad-f971-4ba7-93fb-20fe8831fc90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoVolumeDeviceToDosName, k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, kernel.iovolumedevicetodosname, IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, ntddk/IoVolumeDeviceToDosName, IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], kernel.iovolumedevicetodosname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoVolumeDeviceToDosName
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoVolumeDeviceToDosName function
@@ -81,7 +81,9 @@ A pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.m
 ## -returns
 
 
+
 <b>IoVolumeDeviceToDosName</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -109,11 +111,14 @@ The routine failed to allocate resources required for this operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoVolumeDeviceToDosName</b> allocates the string buffer pointed to by the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the <i>DosName</i> parameter points to. After this buffer is no longer required, a caller of this routine should call the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine to free the buffer.
@@ -122,13 +127,20 @@ Starting with Windows Vista, you must ensure that APCs are <u>not</u> disabled 
 
 
 
+
 ## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
-<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
+
 
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
+
+
 
  
 

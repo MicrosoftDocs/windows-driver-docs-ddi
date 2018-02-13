@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.cwiauformatconverter_init, Init method [Imaging Devices], Init, wiautil/CWiauFormatConverter::Init, CWiauFormatConverter, Init method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter interface [Imaging Devices], Init method, CWiauFormatConverter::Init, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml
+ms.keywords: image.cwiauformatconverter_init, Init method [Imaging Devices], wiautil/CWiauFormatConverter::Init, Init method [Imaging Devices], CWiauFormatConverter interface, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, CWiauFormatConverter, CWiauFormatConverter::Init, CWiauFormatConverter interface [Imaging Devices], Init method, Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -67,9 +67,12 @@ HRESULT Init();
 
 
 
+
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 

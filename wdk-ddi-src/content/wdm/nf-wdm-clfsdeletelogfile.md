@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8c90199-e938-45bb-9356-48591e127eed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsDeleteLogFile, kernel.clfsdeletelogfile, Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], ClfsDeleteLogFile
+ms.keywords: kernel.clfsdeletelogfile, ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, wdm/ClfsDeleteLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,11 +110,14 @@ A pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESC
 ## -returns
 
 
+
 <b>ClfsDeleteLogFile</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 <b>ClfsDeleteLogFile</b> marks a stream for deletion but does not close any log file objects that are currently open. To close a log file object, call <a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>. A stream marked for deletion is deleted after all log file objects associated with the stream are closed.
@@ -127,15 +130,24 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
-
-<a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
 
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
+
+
 
  
 

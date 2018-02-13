@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.umdetwlogunmapallocation, UMDEtwLogUnmapAllocation function [Display Devices], umdprovider/UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation
+ms.keywords: UMDEtwLogUnmapAllocation function [Display Devices], UMDEtwLogUnmapAllocation, umdprovider/UMDEtwLogUnmapAllocation, display.umdetwlogunmapallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,11 +110,14 @@ If the allocation is used internally by the user-mode driver, this is a <a href=
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 When called, this function logs an event that describes which API resource the allocation is, or was, being used for. If no API resource was associated with the allocation, the function logs an event that describes the purpose that the driver indicated for this allocation.
@@ -124,6 +127,7 @@ The user-mode display driver must completely account for the video memory it all
 The driver should pass the same parameters values to <b>UMDEtwLogUnmapAllocation</b> as it did to <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>.
 
 <b>UMDEtwLogUnmapAllocation</b> is defined inline in Umdprovider.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -180,17 +184,28 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
 </table></span></div>
 
 
+
 ## -see-also
 
-<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
+<a href="..\umdprovider\ns-umdprovider-_umdetw_allocation_usage.md">UMDETW_ALLOCATION_USAGE</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
+
+
+<a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
+
+
+
 <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
-<a href="..\umdprovider\ns-umdprovider-_umdetw_allocation_usage.md">UMDETW_ALLOCATION_USAGE</a>
+
 
  
 

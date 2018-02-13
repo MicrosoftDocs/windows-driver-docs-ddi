@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 99731ad4-1023-4225-a133-3cb73e3ad07f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::SetSpecificFilterArgument, SetSpecificFilterArgument method [Windows Debugging], IDebugControl interface, IDebugControl2::SetSpecificFilterArgument, IDebugControl interface [Windows Debugging], SetSpecificFilterArgument method, SetSpecificFilterArgument method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::SetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging], SetSpecificFilterArgument method, IDebugControl::SetSpecificFilterArgument, IDebugControl2 interface [Windows Debugging], SetSpecificFilterArgument method, SetSpecificFilterArgument method [Windows Debugging], SetSpecificFilterArgument method [Windows Debugging], IDebugControl3 interface, IDebugControl_a7f790fa-29f1-46f2-9163-a4b99f4880da.xml, debugger.setspecificfilterargument, SetSpecificFilterArgument, dbgeng/IDebugControl2::SetSpecificFilterArgument, IDebugControl3, IDebugControl3::SetSpecificFilterArgument
+ms.keywords: IDebugControl2, IDebugControl_a7f790fa-29f1-46f2-9163-a4b99f4880da.xml, IDebugControl interface [Windows Debugging], SetSpecificFilterArgument method, IDebugControl2::SetSpecificFilterArgument, IDebugControl2 interface [Windows Debugging], SetSpecificFilterArgument method, SetSpecificFilterArgument, dbgeng/IDebugControl3::SetSpecificFilterArgument, dbgeng/IDebugControl2::SetSpecificFilterArgument, SetSpecificFilterArgument method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl, IDebugControl::SetSpecificFilterArgument, SetSpecificFilterArgument method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], SetSpecificFilterArgument method, dbgeng/IDebugControl::SetSpecificFilterArgument, SetSpecificFilterArgument method [Windows Debugging], IDebugControl3::SetSpecificFilterArgument, SetSpecificFilterArgument method [Windows Debugging], IDebugControl interface, debugger.setspecificfilterargument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,7 +83,9 @@ Specifies the argument for the specific filter.  The interpretation of this argu
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,14 +113,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For a list of specific filters that have argument and the interpretation of those arguments, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
 
 
 
@@ -126,13 +132,23 @@ For a list of specific filters that have argument and the interpretation of thos
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548386">GetSpecificFilterArgument</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

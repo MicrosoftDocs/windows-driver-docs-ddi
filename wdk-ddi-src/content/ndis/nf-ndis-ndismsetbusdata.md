@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismsetbusdata, NdisMSetBusData function [Network Drivers Starting with Windows Vista], NdisMSetBusData, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, ndis/NdisMSetBusData
+ms.keywords: ndis/NdisMSetBusData, netvista.ndismsetbusdata, NdisMSetBusData, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, NdisMSetBusData function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMSetBusData
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMSetBusData function
@@ -113,11 +113,14 @@ The miniport adapter handle that NDIS passed to the
 ## -returns
 
 
+
 <b>NdisMGetBusData</b> returns the number of bytes written.
 
 
 
+
 ## -remarks
+
 
 
 This function replaces the NDIS 5.1 
@@ -128,13 +131,20 @@ This function replaces the NDIS 5.1
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+
+
 
  
 

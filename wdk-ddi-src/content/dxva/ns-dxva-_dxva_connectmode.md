@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84520745-c99d-4495-a7c4-514d5e6cd27e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_ConnectMode structure pointer [Display Devices], display.dxva_connectmode, *LPDXVA_ConnectMode, DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], _DXVA_ConnectMode, dxva/LPDXVA_ConnectMode, LPDXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml, dxva/DXVA_ConnectMode
+ms.keywords: LPDXVA_ConnectMode, *LPDXVA_ConnectMode, dxva/DXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml, dxva/LPDXVA_ConnectMode, LPDXVA_ConnectMode structure pointer [Display Devices], DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], display.dxva_connectmode, _DXVA_ConnectMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_ConnectMode
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_ConnectMode, DXVA_ConnectMode"
+req.typenames: DXVA_ConnectMode, *LPDXVA_ConnectMode
 ---
 
 # _DXVA_ConnectMode structure
@@ -81,7 +81,9 @@ Specifies the numeric identifier of the restricted profile to be used.
 ## -remarks
 
 
+
 The following GUIDs placed in the <b>guidMode</b> member of this structure set the <a href="https://msdn.microsoft.com/043d5867-d761-47eb-99de-5022a9ee6e7f">restricted profile</a> to be used. The constants that define the GUIDs used are in <i>dxva.h</i>.
+
 <table>
 <tr>
 <th>GUID Name</th>
@@ -413,9 +415,11 @@ VC1_D
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following restricted mode identifiers placed in the <b>wRestrictedMode</b> member of this structure indicate which restricted profile is used. These identifiers are defined in <i>dxva.h</i>.
+
 <table>
 <tr>
 <th>Restricted Mode Identifier</th>
@@ -747,8 +751,10 @@ VC1_D
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For information about the restricted profiles of the MPEG-4 AVC (H.264) and VC-1 video codec standards, download <a href="http://go.microsoft.com/fwlink/p/?linkid=141799">DirectX Video Acceleration Specification for H.264/AVC Decoding</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=141800">DirectX Video Acceleration Specification for Windows Media Video v8, v9 and vA Decoding (Including SMPTE 421M "VC-1")</a>. 
+
 
 

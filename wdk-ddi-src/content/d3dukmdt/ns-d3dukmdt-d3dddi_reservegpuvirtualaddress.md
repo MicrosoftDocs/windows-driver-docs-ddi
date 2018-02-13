@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 89E8FCC6-B618-4D7E-B1E6-59E85261BE3C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_reservegpuvirtualaddress, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], D3DDDI_RESERVEGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS
+ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], D3DDDI_RESERVEGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,36 +97,6 @@ Paging queue to synchronize the operation on.
 DirectX graphics adapter handle. 
 
 
-### -field ReservationType
-
-Specifies the virtual address reservation type.
-
-
-### -field Reserved0
-
-This member is reserved and should be set to zero.
-
-
-### -field DriverProtection
-
-Specifies the driver-specific protection
-
-
-### -field Reserved1
-
-This member is reserved and should be set to zero.
-
-
-### -field PagingFenceValue
-
-Paging fence identifier for synchronization
-
-
-### -field Reserved2
-
-This member is reserved and should be set to zero.
-
-
 ### -field BaseAddress
 
 (Optional) If <b>non-NULL</b>, the video memory manager will attempt to use this address as the base address for the reserved range. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, the call will fail. When this parameter is <b>non-NULL</b>, <b>MinimumAddress</b> and <b>MaximumAddress</b> are ignored.
@@ -161,14 +131,46 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 
 
+### -field ReservationType
+
+Specifies the virtual address reservation type.
+
+
+### -field Reserved0
+
+This member is reserved and should be set to zero.
+
+
+### -field DriverProtection
+
+Specifies the driver-specific protection
+
+
+### -field Reserved1
+
+This member is reserved and should be set to zero.
+
+
 ### -field VirtualAddress
 
 [out] The reserved virtual address.
 
 
+### -field PagingFenceValue
+
+Paging fence identifier for synchronization
+
+
+### -field Reserved2
+
+This member is reserved and should be set to zero.
+
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+
+
 
  
 

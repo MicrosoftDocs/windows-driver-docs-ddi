@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], PKSDEVICE_THERMAL_DISPATCH, KsDevice, ks/KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH, Percentage, _KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], DeviceThermalState, stream.ksdevice_thermal_dispatch, Engaged, ks/PKSDEVICE_THERMAL_DISPATCH
+ms.keywords: KSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH, Percentage, _KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch, ks/KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], ks/PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, KsDevice, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], Engaged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDEVICE_THERMAL_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: "*PKSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH"
+req.typenames: KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH
 ---
 
 # _KSDEVICE_THERMAL_DISPATCH structure
@@ -71,6 +71,7 @@ typedef struct _KSDEVICE_THERMAL_DISPATCH {
 ### -field ActiveCooling
 
 The active thermal callback notification. The routine is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -89,14 +90,17 @@ void
 </tr>
 </table></span></div>
 
+
 #### KsDevice
 
 [in] A <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> object representing the device managed by KS.
 
 
+
 #### Engaged
 
 [in] Indicates whether to engage or disengage active cooling. If <b>TRUE</b>, the driver must engage active cooling (for example, by turning the fan on). If <b>FALSE</b>, the driver must disengage active cooling (for example, by turning the fan off).
+
 
 
 #### DeviceThermalState
@@ -107,6 +111,7 @@ void
 ### -field PassiveCooling
 
 The passive thermal callback notification.. The routine is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -125,14 +130,17 @@ void
 </tr>
 </table></span></div>
 
+
 #### KsDevice
 
 [in] A <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> object representing the device managed by KS.
 
 
+
 #### Percentage
 
 [in] The percentage of full performance at which the device is permitted to operate. A parameter value of 100 indicates that the device is under no cooling restrictions and can operate at full performance level. A parameter value of zero indicates that the device must operate at its lowest thermal level. A parameter value between 0 and 100 indicates the degree to which the device's performance must be throttled to reduce heat generation. This parameter value is a threshold that the device must not exceed.
+
 
 
 #### DeviceThermalState

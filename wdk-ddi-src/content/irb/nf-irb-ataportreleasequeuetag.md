@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54399050-740f-4af8-ad85-cd3060f14af4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReleaseQueueTag, irb/AtaPortReleaseQueueTag, atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, storage.ataportreleasequeuetag, AtaPortReleaseQueueTag routine [Storage Devices]
+ms.keywords: atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, AtaPortReleaseQueueTag routine [Storage Devices], irb/AtaPortReleaseQueueTag, AtaPortReleaseQueueTag, storage.ataportreleasequeuetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,14 +101,18 @@ A pointer to the channel extension.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver should call <b>AtaPortReleaseQueueTag</b> to free allocated queue tags by using <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>. 
+
 
 
 
@@ -116,7 +120,11 @@ The miniport driver should call <b>AtaPortReleaseQueueTag</b> to free allocated 
 
 <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
 
+
+
 <a href="..\irb\nf-irb-ataportinitializequeuetag.md">AtaPortInitializeQueueTag</a>
+
+
 
  
 

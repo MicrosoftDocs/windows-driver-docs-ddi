@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9f9121be-786d-4a1c-bb01-7bf3c1d3b6cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethod method [Streaming Media Devices], ksproxy/IKsControl::KsMethod, stream.ikscontrol_ksmethod, IKsControl, KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl::KsMethod, KsMethod method [Streaming Media Devices], IKsControl interface, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml
+ms.keywords: KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl, IKsControl interface [Streaming Media Devices], KsMethod method, KsMethod, KsMethod method [Streaming Media Devices], IKsControl::KsMethod, ksproxy/IKsControl::KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, stream.ikscontrol_ksmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,14 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsMe
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 This is a synchronous call. It will not complete until the method is completed from kernel-mode.
@@ -112,9 +115,12 @@ To determine the buffer size that is required for a specific method request, you
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceinitsetpowerinrush, WdfDeviceInitSetPowerInrush, PFN_WDFDEVICEINITSETPOWERINRUSH, wdfdevice/WdfDeviceInitSetPowerInrush, DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush method, wdf.wdfdeviceinitsetpowerinrush
+ms.keywords: PFN_WDFDEVICEINITSETPOWERINRUSH, wdfdevice/WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, WdfDeviceInitSetPowerInrush, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush, DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,11 +79,14 @@ A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windo
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To avoid overloading the system's power supply, the system starts devices that require an inrush of current one at a time.
@@ -95,12 +98,32 @@ Your driver must call <b>WdfDeviceInitSetPowerInrush</b> before it calls <a href
 Calling <b>WdfDeviceInitSetPowerInrush</b> from a filter driver has no effect. For filter drivers, the framework uses the setting that the next-lower driver in the driver stack specifies.
 
 
+#### Examples
+
+The following code example informs the power manager that a device requires an inrush of current when it starts.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfDeviceInitSetPowerInrush(DeviceInit);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
 
  
 

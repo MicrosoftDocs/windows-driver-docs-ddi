@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E0E0BD93-6A5B-4D60-B08C-8862D9F2670D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR function, umdf.write_port_buffer_uchar, WRITE_PORT_BUFFER_UCHAR, wdf.write_port_buffer_uchar
+ms.keywords: wdf.write_port_buffer_uchar, WRITE_PORT_BUFFER_UCHAR, wudfddi_hwaccess/WRITE_PORT_BUFFER_UCHAR, umdf.write_port_buffer_uchar, WRITE_PORT_BUFFER_UCHAR function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,15 +98,19 @@ Specifies the number of bytes to be written to the buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4E533E77-9288-45DF-8C93-2A6EACADF9FF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksattribute_list, ks/KSATTRIBUTE_LIST, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], PKSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], KSATTRIBUTE_LIST
+ms.keywords: ks/PKSATTRIBUTE_LIST, ks/KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], stream.ksattribute_list, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], KSATTRIBUTE_LIST, PKSATTRIBUTE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

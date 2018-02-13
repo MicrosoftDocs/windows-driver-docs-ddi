@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da97b175-a24c-406d-9747-c84122781f79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkargcb_enumhandlechildren, DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], _DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN
+ms.keywords: display.dxgkargcb_enumhandlechildren, DXGKARGCB_ENUMHANDLECHILDREN, _DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,6 +81,8 @@ typedef struct _DXGKARGCB_ENUMHANDLECHILDREN {
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
+
+
 
  
 

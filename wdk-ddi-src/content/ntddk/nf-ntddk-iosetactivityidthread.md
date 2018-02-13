@@ -40,7 +40,7 @@ apiname:
 -	IoSetActivityIdThread
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoSetActivityIdThread function
@@ -75,13 +75,17 @@ The activity ID provided by caller.
 ## -returns
 
 
+
 The activity ID that was previously set on the thread. Drivers must call IoClearActivityIdThread with this pointer when tracing is completed within the same thread context.
+
 
 
 
 ## -remarks
 
 
+
 Drivers that use  I/O work items do not need to call this routine because the I/O subsystem takes care of propagating activity IDs to threads in that case.
+
 
 

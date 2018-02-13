@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 809b4cf8-e4c5-4cb6-b58f-8b6b98111361
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_DECODEBUFFERDESC, DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc, DXVADDI_DECODEBUFFERDESC
+ms.keywords: DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc, DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,6 +106,7 @@ typedef struct _DXVADDI_DECODEBUFFERDESC {
 ### -field FirstMBaddress
 
 [in] The macroblock address of the first macroblock in the buffer that is passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of the <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> structure. The following table shows examples of macroblock addresses.
+
 <table>
 <tr>
 <th>Macroblock</th>
@@ -151,7 +152,8 @@ Bottom-right
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The <b>FirstMBaddress</b> member must be zero if the data buffer is one of the following types: picture decoding parameters, inverse-quantization matrix, slice control, bitstream data, AYUV, IA44/AI44, DPXD, Highlight, and DCCMD.
 
@@ -163,6 +165,7 @@ If the data buffer is a residual difference block data buffer, <b>FirstMBaddress
 [in] The number of macroblocks of data in the buffer, including skipped macroblocks. This member must be zero if the data buffer is one of the following types: picture decoding parameters, inverse-quantization matrix, AYUV, IA44/AI44, DPXD, Highlight, or DCCMD.
 
 The value for <b>NumMBsInBuffer</b> depends on the type of data buffer that is being used, as shown in the following table.
+
 <table>
 <tr>
 <th>Buffer type</th>
@@ -208,7 +211,8 @@ The same value as for the corresponding slice-control command buffer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Width
@@ -239,9 +243,11 @@ The same value as for the corresponding slice-control command buffer.
 ## -remarks
 
 
+
 An array of DXVADDI_DECODEBUFFERDESC structures is referred to as a <i>buffer description list</i>. When a set of buffers is sent from the host decoder to the hardware accelerator, a buffer description list is sent to describe the buffers. The buffer description list contains one DXVADDI_DECODEBUFFERDESC structure for each buffer in this set. The buffer description list starts with a DXVADDI_DECODEBUFFERDESC structure for the first buffer of the first type, followed by a DXVADDI_DECODEBUFFERDESC structure for the next buffer of the same type, and so on. The buffer description list then continues with a DXVADDI_DECODEBUFFERDESC structure for the first buffer of the next type, and so on. This entire list is contained in a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a> structure.
 
 Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Direct3D surfaces rather than the private surfaces that DirectX VA 1.0 uses, the user-mode display driver obtains values for the index, width, height, and stride from the given compressed buffer type rather than from the values in the <b>BufferIndex</b>, <b>Width</b>, <b>Height</b>, and <b>Stride</b> members. In fact, the Microsoft Direct3D runtime sets these members to zero.
+
 
 
 
@@ -249,11 +255,19 @@ Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Dir
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a>
 
-<a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
+
+
 
  
 

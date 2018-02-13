@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IddCxMonitorArrival, iddcx/IddCxMonitorArrival, display.iddcxmonitorarrival, IddCxMonitorArrival method [Display Devices]
+ms.keywords: IddCxMonitorArrival, display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,7 +84,9 @@ Output arguments to the function
 
 
 
+
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
                     
+
 
 

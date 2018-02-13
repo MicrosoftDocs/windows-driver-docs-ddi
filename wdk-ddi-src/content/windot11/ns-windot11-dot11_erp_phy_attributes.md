@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ce5f2833-7df6-449b-be68-ed58620fbb43
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_erp_phy_attributes, PDOT11_ERP_PHY_ATTRIBUTES, Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml, windot11/DOT11_ERP_PHY_ATTRIBUTES, *PDOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES, windot11/PDOT11_ERP_PHY_ATTRIBUTES
+ms.keywords: netvista.dot11_erp_phy_attributes, DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ERP_PHY_ATTRIBUTES, windot11/DOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES, Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,6 +114,7 @@ A Boolean value that, if set to <b>TRUE</b>, specifies the PHY supports the 802.
 ## -remarks
 
 
+
 The miniport driver defines the attributes of a PHY on the 802.11 station through the 
     <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a> structure, and
     formats the 
@@ -122,11 +123,16 @@ The miniport driver defines the attributes of a PHY on the 802.11 station throug
 
 
 
+
 ## -see-also
 
 <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
 
+
+
 <a href="..\windot11\ns-windot11-dot11_phy_attributes.md">DOT11_PHY_ATTRIBUTES</a>
+
+
 
  
 

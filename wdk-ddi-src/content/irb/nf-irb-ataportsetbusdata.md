@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cc65ef9-7447-4775-bf5d-6dadd78f166c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortSetBusData routine [Storage Devices], storage.ataportsetbusdata, atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, AtaPortSetBusData, irb/AtaPortSetBusData
+ms.keywords: AtaPortSetBusData, storage.ataportsetbusdata, irb/AtaPortSetBusData, atartns_85424997-1f6e-4f48-98f0-e92a7312e62a.xml, AtaPortSetBusData routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,14 +100,18 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 ## -returns
 
 
+
 <b>AtaPortSetBusData</b> returns the amount of the data that was written in bytes.
+
 
 
 
 ## -remarks
 
 
+
 <b>AtaPortSetBusData</b> completes a bitwise OR, one byte at a time, of the current PCI configuration space data with the new data in <i>Buffer</i>. Only those bits not indicated by <i>DataMask</i> are left untouched. The byte of data that follows <i>ConfigDataOffset</i>, therefore, is updated as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,9 +126,12 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportgetbusdata.md">AtaPortGetBusData</a>
+
+
 
  
 

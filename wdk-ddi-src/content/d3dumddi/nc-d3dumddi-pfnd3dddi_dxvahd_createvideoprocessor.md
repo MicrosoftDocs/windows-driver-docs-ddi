@@ -74,8 +74,9 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessor(
 ### -param HANDLE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,7 +96,9 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessor(
 ## -returns
 
 
+
 <b>CreateVideoProcessor</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,7 +127,9 @@ The video processor is successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -132,7 +137,11 @@ The video processor is successfully created.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_createvideoprocessor.md">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_destroyvideoprocessor.md">DestroyVideoProcessor</a>
+
+
 
  
 

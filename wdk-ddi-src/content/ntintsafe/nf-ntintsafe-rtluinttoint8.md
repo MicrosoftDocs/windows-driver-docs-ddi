@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8E9CA6F9-D0F1-4315-8A1B-CFA46B8458D7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntToInt8, ntintsafe/RtlUIntToInt8, RtlUIntToInt8 function [Kernel-Mode Driver Architecture], kernel.rtluinttoint8
+ms.keywords: kernel.rtluinttoint8, RtlUIntToInt8 function [Kernel-Mode Driver Architecture], RtlUIntToInt8, ntintsafe/RtlUIntToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

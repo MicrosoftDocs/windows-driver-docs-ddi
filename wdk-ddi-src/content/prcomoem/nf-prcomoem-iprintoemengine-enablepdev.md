@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: EnablePDEV method [Print Devices], print.iprintoemengine_enablepdev, IPrintOemEngine, EnablePDEV, IPrintOemEngine::EnablePDEV, IPrintOemEngine interface [Print Devices], EnablePDEV method, EnablePDEV method [Print Devices], IPrintOemEngine interface, prcomoem/IPrintOemEngine::EnablePDEV
+ms.keywords: IPrintOemEngine, prcomoem/IPrintOemEngine::EnablePDEV, EnablePDEV method [Print Devices], IPrintOemEngine interface, EnablePDEV, print.iprintoemengine_enablepdev, IPrintOemEngine interface [Print Devices], EnablePDEV method, EnablePDEV method [Print Devices], IPrintOemEngine::EnablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemEngine.EnablePDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -80,53 +80,47 @@ HRESULT EnablePDEV(
 ### -param pdevobj
 
 
-
 ### -param pPrinterName
-
 
 
 ### -param cPatterns
 
 
-
 ### -param phsurfPatterns
-
 
 
 ### -param cjGdiInfo
 
 
-
 ### -param pGdiInfo
-
 
 
 ### -param cjDevInfo
 
 
-
 ### -param pDevInfo
-
 
 
 ### -param pded
 
 
-
 ### -param pDevOem
 
 
-
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\prcomoem\nn-prcomoem-iprintoemengine.md">IPrintOemEngine</a>
+
+
 
  
 

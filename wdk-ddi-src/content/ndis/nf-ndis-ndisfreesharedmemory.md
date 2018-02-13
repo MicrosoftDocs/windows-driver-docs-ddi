@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d0a1790-cec0-4c28-85dd-5f4d7d518d63
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeSharedMemory, netvista.ndisfreesharedmemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFreeSharedMemory, netvista.ndisfreesharedmemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, ndis/NdisFreeSharedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeSharedMemory function
@@ -91,11 +91,14 @@ A handle for a context area that identifies the shared memory block. This is the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An NDIS driver must call the 
@@ -111,11 +114,16 @@ NDIS calls the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
-<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
+
 
  
 

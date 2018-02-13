@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88e12eb6-6015-44bc-b170-cc152fdd1397
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], PDXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, _DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS
+ms.keywords: "_DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], display.dxgkmdt_opm_get_info_parameters, *PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS, DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGKMDT_OPM_GET_INFO_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS
+req.typenames: "*PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS"
 ---
 
 # _DXGKMDT_OPM_GET_INFO_PARAMETERS structure
@@ -95,6 +95,7 @@ A <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RAND
 ### -field guidInformation
 
 The GUID that is used to retrieve the information. <b>guidInformation</b> can be set to one of the following GUIDs:
+
 <ul>
 <li>
 DXGKMDT_OPM_GET_CURRENT_HDCP_SRM_VERSION
@@ -160,19 +161,27 @@ The DXGKMDT_OPM_GET_ACTUAL_PROTECTION_LEVEL and DXGKMDT_OPM_GET_VIRTUAL_PROTECTI
 ## -remarks
 
 
+
 All of the data after the <b>omac</b> member in DXGKMDT_OPM_GET_INFO_PARAMETERS is signed; the signature is the OMAC and is stored in the <b>omac</b> member. The data is signed by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. 
 
 DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure is used for COPP. 
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
 
  
 

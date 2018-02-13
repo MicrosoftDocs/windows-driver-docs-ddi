@@ -91,11 +91,14 @@ Specifies the number of rows of the mode to be set up.
 ## -returns
 
 
+
 <i>HwVidResetHw</i> should return <b>TRUE</b> if it completely resets the adapter to the given character mode. Otherwise, it should return <b>FALSE</b> to indicate that the HAL should perform the equivalent of an INT10, MODE3-type BIOS call after <i>HwVidResetHw</i> returns control.
 
 
 
+
 ## -remarks
+
 
 
 A video miniport driver must have a <i>HwVidResetHw</i> function if its adapter cannot be reset to a fully initialized state without a hard boot of the machine. For example, if the adapter's ROM initialization code cannot reset the adapter state to a boot-up mode, the miniport driver must have a <i>HwVidResetHw</i> function. Another reason the miniport driver must implement this function is to clean up the adapter's interrupt lines when the adapter is powered down, thereby avoiding a deluge of interrupts the next time the system boots.
@@ -114,17 +117,28 @@ If <i>HwVidResetHw</i> cannot change the mode of the adapter by simply programmi
 
 
 
+
 ## -see-also
-
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
-
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
-
-<a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
 
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_reset_device.md">IOCTL_VIDEO_RESET_DEVICE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566461">Functions Exported by the Video Port Driver</a>
+
+
+
+<a href="..\video\nf-video-videoportint10.md">VideoPortInt10</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+
+
 
  
 

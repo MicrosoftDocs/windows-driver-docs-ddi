@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a700979e-aee4-4bce-8f98-b44b864fbb43
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsQueueWorkItem, ks/KsQueueWorkItem, stream.ksqueueworkitem, KsQueueWorkItem function [Streaming Media Devices], ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml
+ms.keywords: KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml, KsQueueWorkItem function [Streaming Media Devices], ks/KsQueueWorkItem, stream.ksqueueworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,13 +82,17 @@ Specifies the initialized work item to queue. This work item is only associated 
 ## -returns
 
 
+
 The <b>KsQueueWorkItem</b> function returns STATUS_SUCCESS if the work item was queued, or if unsuccessful the function returns an error when attempting to create a new worker if no threads are currently available.
+
 
 
 
 ## -remarks
 
 
+
 The worker can only be on a queue in one place, so subsequent queuing of the worker must wait until the work item has begun executing. This function may be called at <b>DISPATCH_LEVEL</b>.
+
 
 

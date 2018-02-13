@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7348d937-6541-47a7-ae70-7d851d41bc1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml, netvista.fwpsacquireclassifyhandle0
+ms.keywords: FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml, FwpsAcquireClassifyHandle0, fwpsk/FwpsAcquireClassifyHandle0, netvista.fwpsacquireclassifyhandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,8 +95,10 @@ A pointer to a variable that receives a classification handle. This handle is ne
 ## -returns
 
 
+
 The 
      <b>FwpsAcquireClassifyHandle0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,16 +127,20 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>FwpsAcquireClassifyHandle0</b> is a support function for asynchronous classification and data
     modification. The handle returned by this function is required as a parameter for the following
     functions:
+
 <ul>
 <li>
 
@@ -168,23 +174,35 @@ An error occurred.
 
 
 </li>
-</ul>For each call to this function, the callout driver must call 
+</ul>
+For each call to this function, the callout driver must call 
     <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a> to
     free the system resources associated with the handle.
 
 
 
-## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
+## -see-also
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
 
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
 
  
 

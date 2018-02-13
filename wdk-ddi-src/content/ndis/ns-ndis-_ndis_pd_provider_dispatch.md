@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E93B8A07-7C06-470B-9B26-8D59C2685D2C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_provider_dispatch, ndis/NDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], NDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH, _NDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PD_PROVIDER_DISPATCH
+ms.keywords: NDIS_PD_PROVIDER_DISPATCH, ndis/NDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_PROVIDER_DISPATCH, ndis/PNDIS_PD_PROVIDER_DISPATCH, netvista.ndis_pd_provider_dispatch, NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,6 +80,7 @@ typedef struct _NDIS_PD_PROVIDER_DISPATCH {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_PROVIDER_DISPATCH</b> structure. Set the members of this structure as follows:
+
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
 <li><b>Revision</b> = <b>NDIS_PD_PROVIDER_DISPATCH_REVISION_1</b></li>
@@ -152,6 +153,7 @@ See <a href="..\ndis\nc-ndis-ndis_pd_clear_receive_filter.md">NdisPDClearReceive
 
 
 
+
 #### - NdisPDOnRssReceiveQueues
 
 See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
@@ -165,6 +167,8 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931860(d=robo
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

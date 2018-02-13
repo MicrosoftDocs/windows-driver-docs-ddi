@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5aaf1f90-fb75-4e5a-9316-9212a21b8fed
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/DOCUMENTPROPERTYHEADER, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, print.documentpropertyheader, *PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER, winddiui/PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], _DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices]
+ms.keywords: "*PDOCUMENTPROPERTYHEADER, print.documentpropertyheader, _DOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], DOCUMENTPROPERTYHEADER structure [Print Devices], winddiui/PDOCUMENTPROPERTYHEADER, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, winddiui/DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,6 +113,7 @@ Specifies the size, in bytes, of the buffer to which <b>pdmOut</b> points. For m
 ### -field fMode
 
 One or more of the bit flags listed in the following table. (The flags are defined in header files Wingdi.h and Winddiui.h.)
+
 <table>
 <tr>
 <th>Flag</th>
@@ -224,23 +225,32 @@ Not used.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The input value in the <b>cbOut</b> member is not necessarily equal to the size of the buffer pointed to by the <b>pdmOut</b> member. For example, when the <i>pPSUInfo</i> parameter of the <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function is <b>NULL</b>, and if either the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure is zero, or the <b>pdmOut</b> member of the same structure is <b>NULL</b>, a driver should write the total size of the printer's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure (including the public and private structure members) in the <b>cbOut</b> member. In such a case, a driver should treat the <b>cbOut</b> member as a "write-only" member. The "plotter" sample that ships with the Windows Driver Kit (WDK) demonstrates how to use the <b>cbOut</b> member correctly.
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
+
 
 <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+
+
 
  
 

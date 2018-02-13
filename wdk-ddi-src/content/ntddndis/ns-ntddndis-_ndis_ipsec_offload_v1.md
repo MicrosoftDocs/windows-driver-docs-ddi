@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ec0a052-2327-41e5-a9fa-83bcac9566f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_IPSEC_OFFLOAD_V1, ntddndis/PNDIS_IPSEC_OFFLOAD_V1, *PNDIS_IPSEC_OFFLOAD_V1, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], IPSEC_TUN_UDPESP_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, netvista.ndis_ipsec_offload_v1, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, ntddndis/NDIS_IPSEC_OFFLOAD_V1, _NDIS_IPSEC_OFFLOAD_V1, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER, PNDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml
+ms.keywords: IPSEC_TUN_UDPESP_ENCAPTYPE_IKE, *PNDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1, NDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, ntddndis/NDIS_IPSEC_OFFLOAD_V1, ntddndis/PNDIS_IPSEC_OFFLOAD_V1, netvista.ndis_ipsec_offload_v1, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml, IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,6 +137,7 @@ The types of UDP-encapsulated ESP data packets that the NIC can parse. For a des
        <a href="https://msdn.microsoft.com/126d2fd5-778e-43ff-87f6-5b0b54a83bac">UDP-ESP Encapsulation Types</a>.
        This member can be one or more of the following flags:
        
+
 <table>
 <tr>
 <th>Value</th>
@@ -243,7 +244,8 @@ When this flag is cleared, the NIC does not have this capability.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 A miniport driver whose NIC is incapable of parsing UDP-encapsulated ESP packets must not set any
        flags in the 
@@ -351,6 +353,7 @@ A ULONG value that a miniport driver sets to indicate that the NIC can encrypt a
 ## -remarks
 
 
+
 The <b>NDIS_IPSEC_OFFLOAD_V1</b> structure is used in the 
     <b>IPsecV1</b> member of the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. The
@@ -400,27 +403,46 @@ The following flags are defined for the
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
-   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
+
+
 
  
 

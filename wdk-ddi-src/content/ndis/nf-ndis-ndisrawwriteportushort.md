@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8ad7d35-5832-4258-8666-2c0f1f893f10
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml, netvista.ndisrawwriteportushort, ndis/NdisRawWritePortUshort, NdisRawWritePortUshort
+ms.keywords: netvista.ndisrawwriteportushort, NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista], NdisRawWritePortUshort, ndis/NdisRawWritePortUshort, miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisRawWritePortUshort
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisRawWritePortUshort macro
@@ -83,24 +83,38 @@ Specifies the USHORT to be written.
 ## -remarks
 
 
+
 <b>NdisRawWritePortUshort</b> runs fast because it need not map a bus-relative I/O port address onto a
     host-dependent logical port address at every call.
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
+
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
+
+
 
  
 

@@ -40,7 +40,7 @@ apiname:
 -	PFN_VMB_PACKET_COMPLETION_ROUTINE
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES"
+req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
 ---
 
@@ -104,11 +104,14 @@ Length of the <i>Buffer</i> parameter, in bytes.
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 After allocating a packet object by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a> function, the client drive can set a completion callback by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetcompletionroutine.md">VmbPacketSetCompletionRoutine</a> function.  
@@ -119,11 +122,16 @@ If not, the outgoing packet was successfully placed into the ring buffer.
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetcompletionroutine.md">VmbPacketSetCompletionRoutine</a>
 
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
+
+
 
  
 

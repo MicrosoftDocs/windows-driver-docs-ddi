@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 78c7bdea-cba5-40df-b9d7-09c7d98b0403
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetValue method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2::SetValue, SetValue method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValue, IDebugRegisters_f704c31f-5062-47d7-9f44-35bc85e0d0aa.xml, SetValue, SetValue method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], SetValue method, IDebugRegisters2, IDebugRegisters interface [Windows Debugging], SetValue method, IDebugRegisters::SetValue, debugger.setvalue, dbgeng/IDebugRegisters::SetValue
+ms.keywords: dbgeng/IDebugRegisters::SetValue, IDebugRegisters::SetValue, SetValue, debugger.setvalue, SetValue method [Windows Debugging], IDebugRegisters interface, SetValue method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], SetValue method, IDebugRegisters interface [Windows Debugging], SetValue method, IDebugRegisters2, IDebugRegisters_f704c31f-5062-47d7-9f44-35bc85e0d0aa.xml, dbgeng/IDebugRegisters2::SetValue, IDebugRegisters2::SetValue, IDebugRegisters, SetValue method [Windows Debugging], IDebugRegisters2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,7 +82,9 @@ Specifies the value to which to set the register.  See <a href="..\dbgeng\ns-dbg
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,11 +123,14 @@ The value of <i>Register</i> is greater than the number of registers on the targ
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The engine does its best to coerce the value of <i>Value</i> into the type of the register; this coercion is the same as that performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>.  If the value is larger than what the register can hold, the least significant bits are dropped.  Floating-point and integer conversions will also be performed if necessary.  
@@ -138,15 +143,24 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556883">SetValues</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556883">SetValues</a>
+
+
 
  
 

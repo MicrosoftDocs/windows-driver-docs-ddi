@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f22dbf1e-4b40-4294-bca5-3011f0a97644
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortBuildMdlForNonPagedPool routine [Storage Devices], storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml, StorPortBuildMdlForNonPagedPool, storport/StorPortBuildMdlForNonPagedPool, storage.storportbuildmdlfornonpagedpool
+ms.keywords: StorPortBuildMdlForNonPagedPool routine [Storage Devices], storport/StorPortBuildMdlForNonPagedPool, storage.storportbuildmdlfornonpagedpool, StorPortBuildMdlForNonPagedPool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,9 @@ A pointer to the MDL that specifies the memory buffer.
 ## -returns
 
 
+
 StorPortBuildMdlForNonPagedPool returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,6 +134,8 @@ The call was made at an invalid IRQL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

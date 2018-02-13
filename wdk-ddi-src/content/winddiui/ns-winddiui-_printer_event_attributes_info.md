@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PRINTER_EVENT_ATTRIBUTES_INFO, _PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], PPRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], winddiui/PRINTER_EVENT_ATTRIBUTES_INFO
+ms.keywords: winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], PPRINTER_EVENT_ATTRIBUTES_INFO, _PRINTER_EVENT_ATTRIBUTES_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,17 +88,23 @@ A set of bits describing the new printer attributes to be applied to the printer
 ## -remarks
 
 
+
 The bits in the <b>dwOldAttributes</b> and <b>dwNewAttributes</b> members of this structure are set in accordance with the <b>Attributes</b> member of the PRINTER_INFO_2 structure (defined in the Microsoft Windows SDK documentation).
 
 Because this structure might become larger in future operating system versions, anyone using this structure is advised to check that the value in the <b>cbSize</b> member of this structure is at least as large as the offset of the member to be accessed.
 
 
 
+
 ## -see-also
+
+<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554182">IPrintOemUI::PrinterEvent</a>
 
-<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
+
 
  
 

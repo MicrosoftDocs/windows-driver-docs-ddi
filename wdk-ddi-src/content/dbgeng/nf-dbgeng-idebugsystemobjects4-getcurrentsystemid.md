@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ff5091b-7cf8-4972-b87b-b18d25bb23e9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentsystemid, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemId, IDebugSystemObjects4, GetCurrentSystemId method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, IDebugSystemObjects4::GetCurrentSystemId
+ms.keywords: IDebugSystemObjects3::GetCurrentSystemId, GetCurrentSystemId method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, IDebugSystemObjects3, IDebugSystemObjects4::GetCurrentSystemId, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, debugger.getcurrentsystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,9 @@ Receives the engine target ID.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,17 +95,25 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod, OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], _D3DKMT_MULTISAMPLEMETHOD
+ms.keywords: D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,21 @@ typedef struct _D3DKMT_MULTISAMPLEMETHOD {
 ## -remarks
 
 
+
 The driver can partition its quality levels for a given multiple-sampling method into as many increments as it requires, with the condition that each incremental step noticeably improves the quality of the presented image.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
+
 
  
 

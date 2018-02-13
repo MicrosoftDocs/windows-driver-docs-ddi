@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eb422fec-8cc3-42b8-9caf-21fd135df7a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetUiccLockEnabled, netvista.ril_setuicclockenabled, RIL_SetUiccLockEnabled, RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SetUiccLockEnabled, netvista.ril_setuicclockenabled, RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetUiccLockEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,22 +76,20 @@ HRESULT  RIL_SetUiccLockEnabled(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpLockCredential
 
 
-
 ### -param fEnable
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

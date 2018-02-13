@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], wwan/WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS, netvista.wwan_ip_configuration_flags
+ms.keywords: netvista.wwan_ip_configuration_flags, WWAN_IP_CONFIGURATION_FLAGS, wwan/WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,6 +74,11 @@ typedef union {
 
 
 
+### -field Value
+
+Reserved. Do not use.
+
+
 ### -field AddressAvailable
 
  
@@ -94,9 +99,6 @@ typedef union {
  
 
 
-### -field Value
-
-Reserved. Do not use.
 
 
 #### - ( unnamed struct )
@@ -119,9 +121,11 @@ struct
 </tr>
 </table></span></div>
 
+
 #### AddressAvailable:1
 
 An address is available.
+
 
 
 #### GatewayAvailable:1
@@ -129,9 +133,11 @@ An address is available.
 A gateway is available.
 
 
+
 #### DnsServerAvailable:1
 
 A DNS server is available.
+
 
 
 #### MTUAvailable:1
@@ -142,6 +148,8 @@ An MTU is available.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
+
+
 
  
 

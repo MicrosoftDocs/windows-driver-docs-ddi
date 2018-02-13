@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a1e5ae2e-b183-4ccc-8413-1359c4e8a6bc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, 216offload_de874753-3127-47fb-8768-a5e2bd6eb96d.xml, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, netvista.offload_ipsec_udpesp_encaptype_entry, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY"
+ms.keywords: POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, netvista.offload_ipsec_udpesp_encaptype_entry, ntddndis/OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, ntddndis/POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, 216offload_de874753-3127-47fb-8768-a5e2bd6eb96d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
+req.typenames: "*POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY"
 ---
 
 # _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure
@@ -78,9 +78,11 @@ The UDP-ESP encapsulation type for packets protected by the security association
 
 
 
+
 #### IPSEC_UDPESP_ENCAPTYPE_IKE
 
 This value is reserved.
+
 
 
 #### IPSEC_UDPESP_E\NCAPTYPE_OTHER
@@ -103,15 +105,19 @@ For an inbound SA (Flags = OFFLOAD_INBOUND_SA), specifies the destination port t
 ## -remarks
 
 
+
 The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the 
     <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_udpesp_sa.md">
     OFFLOAD_IPSEC_ADD_UDPESP_SA</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_udpesp_sa.md">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
+
+
 
  
 

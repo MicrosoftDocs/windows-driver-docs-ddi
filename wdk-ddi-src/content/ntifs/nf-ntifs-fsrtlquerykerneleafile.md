@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlquerykerneleafile.htm
 old-project: ifsk
 ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlQueryKernelEaFile, ifsk.fsrtlquerykerneleafile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ntifs/FsRtlQueryKernelEaFile
+ms.date: 2/7/2018
+ms.keywords: FsRtlQueryKernelEaFile, ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,9 @@ Specifies the amount of valid data that is returned in the
 ## -returns
 
 
+
 The routine <b>FsRtlQueryKernelEaFile</b> returns one of the status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -180,14 +182,18 @@ The request was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are from kernel mode as it  requires that the given Input and Output buffers if specified, be kernel mode addresses.  The operation will fail if a user mode address is specified. 
+
 
 
 
@@ -195,13 +201,19 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
 
+
+
 <a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlQueryKernelEaFile routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlQueryKernelEaFile routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0b6c0033-d6aa-4662-8818-ea737cf5a1c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, d3dumddi/D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, UMDisplayDriver_param_Structs_998b4bf8-b2ff-48a4-b4d4-1d41ecd08558.xml, display.d3dddiarg_dxvahd_getvideoprocessbltstateprivate, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure [Display Devices]"
+ms.keywords: "_D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, display.d3dddiarg_dxvahd_getvideoprocessbltstateprivate, d3dumddi/D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, UMDisplayDriver_param_Structs_998b4bf8-b2ff-48a4-b4d4-1d41ecd08558.xml, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure [Display Devices], D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,9 +80,13 @@ typedef struct _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE {
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_private_data.md">DXVAHDDDI_BLT_STATE_PRIVATE_DATA</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
+
 
  
 

@@ -101,7 +101,9 @@ The length, in bytes, of the buffer at
 ## -returns
 
 
+
 <i>ProviderSetDmaChannelCpuAffinity</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -179,19 +184,30 @@ NetDMA calls
 
 
 
+
 ## -see-also
-
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-<a href="..\netdma\ns-netdma-_net_dma_channel_cpu_affinity.md">NET_DMA_CHANNEL_CPU_AFFINITY</a>
 
 <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
+
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_cpu_affinity.md">NET_DMA_CHANNEL_CPU_AFFINITY</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
+
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
 
  
 

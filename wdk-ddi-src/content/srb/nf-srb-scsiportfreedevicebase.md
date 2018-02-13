@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 391f3b20-175f-4b27-b30f-34ccc43ca650
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportfreedevicebase, ScsiPortFreeDeviceBase routine [Storage Devices], scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, ScsiPortFreeDeviceBase, srb/ScsiPortFreeDeviceBase
+ms.keywords: ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase, scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, ScsiPortFreeDeviceBase routine [Storage Devices], srb/ScsiPortFreeDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -83,11 +83,14 @@ Pointer to the base address of the range to be freed. This address must be the s
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine determines that the driver does not need a particular mapped base address for an adapter, it must release the mapping by calling this routine. For example, when a miniport driver determines there are no supported HBAs on a particular I/O bus, it must call <b>ScsiPortFreeDeviceBase</b> with each mapped address returned by <b>ScsiPortGetDeviceBase</b>, if any calls to this routine were made.
@@ -96,11 +99,16 @@ If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
+
+
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

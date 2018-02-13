@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/HBAFC3MgmtInfo, *PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], storage.hbafc3mgmtinfo, HBAFC3MgmtInfo, _HBAFC3MgmtInfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, HBAFC3MgmtInfo structure [Storage Devices], PHBAFC3MgmtInfo, hbapiwmi/PHBAFC3MgmtInfo
+ms.keywords: PHBAFC3MgmtInfo structure pointer [Storage Devices], structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, storage.hbafc3mgmtinfo, hbapiwmi/PHBAFC3MgmtInfo, *PHBAFC3MgmtInfo, HBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, PHBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices], _HBAFC3MgmtInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,15 +135,19 @@ Reserved.
 ## -remarks
 
 
+
 FC-3 refers to the common services layer of the fibre channel protocol. It defines a set of services which are common across multiple ports of a node. For an explanation of the common services layer, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 The WMI tool suite generates a declaration of this structure automatically when it compiles the <b>HBAFC3MgmtInfo</b> WMI Class in <i>hbaapi.mof</i>. 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
+
+
 
  
 

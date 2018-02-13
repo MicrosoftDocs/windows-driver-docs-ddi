@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a87e9f52-a136-492e-bfb3-dfbbea8b79e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlupperchar, k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, ntddk/RtlUpperChar, RtlUpperChar routine [Kernel-Mode Driver Architecture], RtlUpperChar
+ms.keywords: k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, RtlUpperChar, kernel.rtlupperchar, RtlUpperChar routine [Kernel-Mode Driver Architecture], ntddk/RtlUpperChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlUpperChar
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlUpperChar function
@@ -75,22 +75,30 @@ Specifies the character to convert.
 ## -returns
 
 
+
 <b>RtlUpperChar</b> returns the uppercase version of the specified character or returns the value specified by the caller for <i>Character</i> if the specified character cannot be converted.
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlUpperChar</b> returns the input <i>Character</i> unconverted if it is the lead byte of a multibyte character or if the uppercase equivalent of <i>Character</i> is a double-byte character. To convert such characters, use <b>RtlUpcaseUnicodeChar</b>. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
 
-<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RegisterForTargetEvents routine [Storage Devices], hbaapi/HBA_RegisterForTargetEvents, HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents, fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml
+ms.keywords: HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, hbaapi/HBA_RegisterForTargetEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,6 +109,7 @@ TBD
 
 
 
+
 #### - userData
 
 Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
@@ -142,7 +143,9 @@ Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be igno
 ## -returns
 
 
+
 The <b>HBA_RegisterForTargetEvents</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_RegisterForTargetEvents</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -181,26 +184,38 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To stop event delivery, call <b>HBA_RemoveCallback</b>.
+
 
 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
+
+
 
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c584e508-b0f1-4809-808e-089e9a7fbcf9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCRESPONSE, netvista.riluiccresponse, ntddrilapitypes/RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], *LPRILUICCRESPONSE
+ms.keywords: RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCRESPONSE, *LPRILUICCRESPONSE, netvista.riluiccresponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,23 +75,17 @@ typedef struct _RILUICCRESPONSE {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwStatusWord1
 
 
-
 ### -field dwStatusWord2
-
 
 
 ### -field dwResponseSize
 
 
-
 ### -field pbResponse
-
 

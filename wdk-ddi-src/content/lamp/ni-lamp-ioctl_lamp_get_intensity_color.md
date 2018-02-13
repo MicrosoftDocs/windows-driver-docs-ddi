@@ -96,14 +96,18 @@ Length of a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COL
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -117,6 +121,8 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 ## -remarks
 
 
+
 The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+
 
 

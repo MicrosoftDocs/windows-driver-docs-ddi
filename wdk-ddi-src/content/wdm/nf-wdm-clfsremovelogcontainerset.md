@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b73a125f-3ab9-4ec6-a154-7b32334e95eb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], ClfsRemoveLogContainerSet, Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, wdm/ClfsRemoveLogContainerSet, kernel.clfsremovelogcontainerset
+ms.keywords: wdm/ClfsRemoveLogContainerSet, ClfsRemoveLogContainerSet, ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, kernel.clfsremovelogcontainerset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,14 @@ A Boolean value that specifies whether the container removal is forced (<b>TRUE<
 ## -returns
 
 
+
 <b>ClfsRemoveLogContainerSet</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h. 
 
 
 
+
 ## -remarks
+
 
 
 Forced container removal (<i>fForce</i> = <b>TRUE</b>) succeeds only if the containers to be removed are not part of the active log.
@@ -108,17 +111,28 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
-
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer </a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

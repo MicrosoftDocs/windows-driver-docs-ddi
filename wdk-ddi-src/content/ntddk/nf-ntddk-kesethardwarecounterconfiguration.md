@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], ntddk/KeSetHardwareCounterConfiguration
+ms.keywords: ntddk/KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], KeSetHardwareCounterConfiguration, k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeSetHardwareCounterConfiguration
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # KeSetHardwareCounterConfiguration function
@@ -81,7 +81,9 @@ Specifies the number of elements in the array that is pointed to by the <i>Count
 ## -returns
 
 
+
 <b>KeSetHardwareCounterConfiguration</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,11 +122,14 @@ This routine is not implemented for the processor architecture that the caller i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If a caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED.
@@ -147,15 +152,24 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-## -see-also
 
-<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
+## -see-also
 
 <a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
 
+
+
+<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
+
+
 
  
 

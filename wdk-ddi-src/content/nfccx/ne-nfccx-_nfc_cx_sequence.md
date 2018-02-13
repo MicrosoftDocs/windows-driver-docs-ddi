@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SequenceRecoveryComplete, SequencePreShutdown, nfccx/SequenceMaximum, nfccx/SequenceInitComplete, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, SequencePreRfDiscStop, nfccx/SequencePreRecovery, nfccx/SequenceRecoveryComplete, nfccx/SequenceNfceeDiscComplete, SequenceNfceeDiscComplete, nfpdrivers.nfc_cx_sequence, NFC_CX_SEQUENCE, _NFC_CX_SEQUENCE, SequenceRfDiscStartComplete, *PNFC_CX_SEQUENCE, SequencePreInit, SequenceRfDiscStopComplete, SequencePreRecovery, PNFC_CX_SEQUENCE, SequencePreRfDiscStart, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], SequenceInitComplete, nfccx/SequencePreRfDiscStart, nfccx/SequenceShutdownComplete, nfccx/SequencePreInit, SequenceShutdownComplete, SequencePreNfceeDisc, nfccx/NFC_CX_SEQUENCE, nfccx/SequencePreNfceeDisc, SequenceMaximum, nfccx/SequenceRfDiscStopComplete, nfccx/SequenceRfDiscStartComplete
+ms.keywords: nfpdrivers.nfc_cx_sequence, SequenceNfceeDiscComplete, nfccx/SequenceMaximum, nfccx/SequencePreRfDiscStart, SequencePreShutdown, *PNFC_CX_SEQUENCE, nfccx/SequencePreNfceeDisc, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], nfccx/SequencePreInit, nfccx/SequenceRecoveryComplete, SequencePreNfceeDisc, SequencePreInit, nfccx/NFC_CX_SEQUENCE, SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfccx/SequenceInitComplete, SequencePreRfDiscStart, _NFC_CX_SEQUENCE, SequencePreRfDiscStop, nfccx/SequenceRfDiscStartComplete, nfccx/SequencePreShutdown, SequenceRfDiscStartComplete, SequenceShutdownComplete, SequencePreRecovery, SequenceRecoveryComplete, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStop, NFC_CX_SEQUENCE, PNFC_CX_SEQUENCE, SequenceMaximum, nfccx/SequenceRfDiscStopComplete, SequenceInitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -142,12 +142,15 @@ This sequence is invoked by the CX after the completion of the recovery sequence
 ### -field SequenceMaximum
 
 
-
 ## -see-also
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
+
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+
 
  
 

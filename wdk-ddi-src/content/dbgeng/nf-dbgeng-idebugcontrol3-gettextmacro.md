@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 980bcf7b-8e4a-4516-ab71-af60a1d8e99c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::GetTextMacro, IDebugControl3, dbgeng/IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetTextMacro method, IDebugControl2 interface [Windows Debugging], GetTextMacro method, GetTextMacro method [Windows Debugging], IDebugControl3 interface, GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, IDebugControl3::GetTextMacro, IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl interface, debugger.gettextmacro, IDebugControl2::GetTextMacro, IDebugControl3 interface [Windows Debugging], GetTextMacro method
+ms.keywords: IDebugControl2::GetTextMacro, IDebugControl2, dbgeng/IDebugControl3::GetTextMacro, debugger.gettextmacro, IDebugControl2 interface [Windows Debugging], GetTextMacro method, dbgeng/IDebugControl2::GetTextMacro, IDebugControl3, IDebugControl interface [Windows Debugging], GetTextMacro method, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, IDebugControl3::GetTextMacro, dbgeng/IDebugControl::GetTextMacro, IDebugControl3 interface [Windows Debugging], GetTextMacro method, IDebugControl, GetTextMacro method [Windows Debugging], IDebugControl3 interface, GetTextMacro method [Windows Debugging], IDebugControl interface, GetTextMacro, IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging], GetTextMacro method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,7 +95,9 @@ Receives the size, in characters, of the value of the alias.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,11 +114,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Before executing commands or evaluating expressions, the debugger engine will replace the alias specified by <i>Slot</i> with the value of the alias (returned to the <i>Buffer</i> buffer).
@@ -125,21 +130,36 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

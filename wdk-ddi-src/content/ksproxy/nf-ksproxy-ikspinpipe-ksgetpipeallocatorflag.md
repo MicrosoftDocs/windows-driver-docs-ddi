@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EBF5B615-A7B1-4B44-855C-7956334AAF75
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices], KsGetPipeAllocatorFlag method, ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, stream.ikspinpipe_ksgetpipeallocatorflag, KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe, IKsPinPipe::KsGetPipeAllocatorFlag
+ms.keywords: KsGetPipeAllocatorFlag method [Streaming Media Devices], stream.ikspinpipe_ksgetpipeallocatorflag, KsGetPipeAllocatorFlag, ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsGetPipeAllocatorFlag method, IKsPinPipe, IKsPinPipe::KsGetPipeAllocatorFlag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -70,16 +70,21 @@ HRESULT KsGetPipeAllocatorFlag(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
+
+
 
  
 

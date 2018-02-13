@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1fc6880-23d1-4154-9305-4a918efd4a1d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml, KeInsertQueueDpc, wdm/KeInsertQueueDpc, kernel.keinsertqueuedpc, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], kernel.keinsertqueuedpc, KeInsertQueueDpc, wdm/KeInsertQueueDpc, k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,14 @@ Specifies driver-determined context data. This value is passed as the <i>SystemA
 ## -returns
 
 
+
 If the specified DPC object is not currently in a DPC queue, <b>KeInsertQueueDpc</b> queues the DPC and returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the specified DPC object has already been queued, no operation is performed except to return <b>FALSE</b>. Otherwise, the DPC object is inserted in a DPC queue. For more information about DPC queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558754">Organization of DPC Queues</a>.
@@ -101,15 +104,24 @@ Note that a particular DPC object and the function that it represents can each b
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
 
-<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
+
 
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
+
+
+<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
+
+
 
  
 

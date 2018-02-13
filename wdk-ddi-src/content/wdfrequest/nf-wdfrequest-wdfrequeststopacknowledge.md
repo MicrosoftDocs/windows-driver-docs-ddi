@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 70f90cfd-9828-41a6-a7f9-6b0033e46b74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopAcknowledge, PFN_WDFREQUESTSTOPACKNOWLEDGE, wdf.wdfrequeststopacknowledge, kmdf.wdfrequeststopacknowledge, WdfRequestStopAcknowledge method, DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, wdfrequest/WdfRequestStopAcknowledge
+ms.keywords: DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, PFN_WDFREQUESTSTOPACKNOWLEDGE, WdfRequestStopAcknowledge method, kmdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge, WdfRequestStopAcknowledge, wdf.wdfrequeststopacknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -87,16 +87,20 @@ A Boolean value that, if <b>TRUE</b>, causes the framework to requeue the reques
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 If a driver registers an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function for an I/O queue, the framework calls it when the queue's underlying device is leaving its working (D0) state. The framework calls the <i>EvtIoStop</i> callback function for every I/O request that the driver has not <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completed</a>, including requests that the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> and those that it has <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/forwarding-i-o-requests">forwarded</a> to an I/O target. The driver must complete, cancel, or postpone processing of each request by doing one of the following: 
+
 <ul>
 <li>
 If the driver owns the request, it can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> to complete or cancel the request.
@@ -110,11 +114,13 @@ If the driver has forwarded the request to an I/O target, it can call <a href=".
 If the driver postpones processing the request, it must call <b>WdfRequestStopAcknowledge</b>.
 
 </li>
-</ul>If your driver calls <b>WdfRequestStopAcknowledge</b>, it must call this method from within its <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function.
+</ul>
+If your driver calls <b>WdfRequestStopAcknowledge</b>, it must call this method from within its <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function.
 
 The framework does not allow the device to leave its working (D0) state until the driver has completed, canceled, or postponed every request that an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function receives.  Potentially, this inaction can prevent a system from entering its hibernation state or another low system power state.
 
 When a driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function calls <b>WdfRequestStopAcknowledge</b>, it can set the <i>Requeue</i> parameter to <b>TRUE</b> or <b>FALSE</b>: 
+
 <ul>
 <li>
 Setting <i>Requeue</i> to <b>TRUE</b> causes the framework to place the request back into its I/O queue.
@@ -128,11 +134,81 @@ Setting <i>Requeue</i> to <b>FALSE</b> causes the framework not to requeue the r
 When the underlying device returns to its working (D0) state, the framework will call the driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_resume.md">EvtIoResume</a> callback function, so that the driver can continue processing the request.
 
 </li>
-</ul>If the driver had previously called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a> or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>, it must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a> before calling <b>WdfRequestStopAcknowledge</b> with <i>Requeue</i> set to <b>TRUE</b>.
+</ul>
+If the driver had previously called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a> or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>, it must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a> before calling <b>WdfRequestStopAcknowledge</b> with <i>Requeue</i> set to <b>TRUE</b>.
 
 Before calling <b>WdfRequestStopAcknowledge</b>, the driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function must stop all processing of the I/O request that requires accessing the underlying device, because the device is about to enter a low-power state.
 
 For more information about the <b>WdfRequestStopAcknowledge</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-power-managed-i-o-queues">Using Power-Managed I/O Queues</a>.
+
+
+#### Examples
+
+If a driver calls <b>WdfRequestStopAcknowledge</b> with <i>Requeue</i> set to <b>TRUE</b>, it must previously call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>.
+
+The following code example is an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function that checks to see if a received request is cancelable and, if it is, calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>. If <b>WdfRequestUnmarkCancelable</b> returns STATUS_CANCELLED, the example just returns because the driver's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function will handle the request. Otherwise, the example calls <b>WdfRequestStopAcknowledge</b> and specifies <b>TRUE</b> so that the framework requeues the request when the underlying device returns to its working (D0) state.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoStop(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN ULONG  ActionFlags
+    )
+{
+    NTSTATUS status;
+
+    // TODO: Take steps here to suspend and, if necessary, roll back any processing that has already occurred on this request
+
+    if (ActionFlags &amp; WdfRequestStopRequestCancelable) {
+        status = WdfRequestUnmarkCancelable(Request);
+        if (status == STATUS_CANCELLED) {
+            return;
+        }
+    }
+
+    // Inform framework that driver is postponing processing, cause framework to redeliver request when device returns to D0
+
+    WdfRequestStopAcknowledge(Request, TRUE);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+Typically, if a driver calls <b>WdfRequestStopAcknowledge</b> with <i>Requeue</i> set to <b>FALSE</b>, it leaves the request cancelable.
+
+The following code example is an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function that calls <b>WdfRequestStopAcknowledge</b> and specifies <b>FALSE</b> so that the framework eventually calls the driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_resume.md">EvtIoResume</a> callback function, where the driver resumes processing of the request.
+
+You might use code like this if it is acceptable to halt processing of a specific request and continue it later, rather than having the request redelivered and restarting processing from the beginning.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoStop(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN ULONG  ActionFlags
+    )
+{
+
+    //TODO: Take steps here to suspend processing of the request so it can be resumed when power returns
+	 
+    // Acknowledge the stop, but leave the request under driver's ownership.
+    // Provide a corresponding EvtIoResume handler to resume processing when power returns
+
+    WdfRequestStopAcknowledge(Request, FALSE);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -140,9 +216,15 @@ For more information about the <b>WdfRequestStopAcknowledge</b> method, see <a h
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+
 
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+
+
 
  
 

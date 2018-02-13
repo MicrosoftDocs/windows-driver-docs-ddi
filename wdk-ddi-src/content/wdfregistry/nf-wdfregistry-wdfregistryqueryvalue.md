@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryQueryValue method, WdfRegistryQueryValue, kmdf.wdfregistryqueryvalue, DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, wdfregistry/WdfRegistryQueryValue, PFN_WDFREGISTRYQUERYVALUE, wdf.wdfregistryqueryvalue
+ms.keywords: DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, wdfregistry/WdfRegistryQueryValue, WdfRegistryQueryValue method, kmdf.wdfregistryqueryvalue, PFN_WDFREGISTRYQUERYVALUE, WdfRegistryQueryValue, wdf.wdfregistryqueryvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfRegistryQueryValue
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG"
+req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -111,7 +111,9 @@ A pointer to a location that receives the registry value's data type. For a list
 ## -returns
 
 
+
 <b>WdfRegistryQueryValue</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -184,7 +186,8 @@ The registry value was not available.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -194,30 +197,88 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example opens a device's hardware key and retrieves the data that is assigned to the <b>NumberOfToasters</b> value, which is stored under the device's hardware key.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WCHAR  comPort[FM_COM_PORT_STRING_LENGTH];
+ULONG  length;
+NTSTATUS  status;
+ULONG  length, valueType, value;
+DECLARE_CONST_UNICODE_STRING(valueName, L"NumberOfToasters");
+WDFKEY  hKey;
+
+status = WdfDeviceOpenRegistryKey(
+                                  Device,
+                                  PLUGPLAY_REGKEY_DEVICE,
+                                  KEY_QUERY_VALUE,
+                                  NULL, 
+                                  &amp;hKey
+                                  );
+if (!NT_SUCCESS (status)) {
+    goto Error;
+}
+status = WdfRegistryQueryValue(
+                               hKey,
+                               &amp;valueName,
+                               sizeof(ULONG),
+                               &amp;value,
+                               &amp;length,
+                               &amp;valueType
+                               );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+
+
+
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

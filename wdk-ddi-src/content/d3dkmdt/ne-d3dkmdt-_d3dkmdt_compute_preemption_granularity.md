@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8ed5406-3b76-49a7-961c-0be737b1dda9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, display.d3dkmdt_compute_preemption_granularity, D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_NONE, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_NONE, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY
+ms.keywords: D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, display.d3dkmdt_compute_preemption_granularity, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_NONE, _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY, D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, d3dkmdt/D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_COMPUTE_PREEMPTION_NONE, D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,7 +75,9 @@ typedef enum _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY {
 ### -field D3DKMDT_COMPUTE_PREEMPTION_NONE
 
 The driver does not support the preemption of GPU compute shader operations.
-<div class="alert"><b>Note</b>  This value also specifies that the driver cannot stop currently running DMA buffers of a specified type and cannot prevent all pending DMA buffers in the hardware queue from running.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This value also specifies that the driver cannot stop currently running DMA buffers of a specified type and cannot prevent all pending DMA buffers in the hardware queue from running.</div>
+<div> </div>
 
 ### -field D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY
 
@@ -105,9 +107,11 @@ The driver cannot stop currently running shader commands of a specified type but
 ## -remarks
 
 
+
 Starting with Windows 8, display miniport drivers need to specify the level of preemption granularity supported by the GPU when executing compute shader operations. Because  engines on the same adapter may potentially support different preemption levels, the driver should report the coarsest granularity among all engines capable of executing a particular type of compute shader requests. 
 
 For example, if one engine supports the preemption of primitive level graphics requests, and another engine supports the preemption of triangle level graphics requests, the driver should report primitive level graphics preemption capability for that adapter.
+
 
 
 
@@ -115,7 +119,11 @@ For example, if one engine supports the preemption of primitive level graphics r
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_preemption_caps.md">D3DKMDT_PREEMPTION_CAPS</a>
 
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_graphics_preemption_granularity.md">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
+
+
 
  
 

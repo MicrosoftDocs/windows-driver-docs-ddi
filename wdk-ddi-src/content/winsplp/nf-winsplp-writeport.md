@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 31229c78-0bea-44eb-9f1a-d1bce8a16a3e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WritePort, winsplp/WritePort, print.writeport, spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml, WritePort function [Print Devices]
+ms.keywords: print.writeport, WritePort function [Print Devices], winsplp/WritePort, spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml, WritePort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,14 @@ Caller-supplied pointer to a location to receive the number of bytes successfull
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 
@@ -122,17 +125,28 @@ It is acceptable for a language monitor to call a port monitor's <code>WritePort
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+## -see-also
 
 <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
 
 <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+
 
  
 

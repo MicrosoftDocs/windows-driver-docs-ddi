@@ -85,14 +85,18 @@ Size of the output buffer, in bytes. Set to sizeof(<i>PosDeviceBasicsType</i>).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,8 +122,11 @@ There is insufficient memory.
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
+
 Provide the version of the POS WinRT API to inform the driver which version of the runtime it is working with. This IOCTL returns the version of the driver in <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posdevicebasicstype.md">PosDeviceBasicsType</a>, so that you can have the driver version available in the runtime API if you wish to provide it.
+
 
 

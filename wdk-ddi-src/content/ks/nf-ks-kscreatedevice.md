@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCreateDevice, KsCreateDevice function [Streaming Media Devices], avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, stream.kscreatedevice, KsCreateDevice
+ms.keywords: ks/KsCreateDevice, avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, KsCreateDevice function [Streaming Media Devices], stream.kscreatedevice, KsCreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,14 @@ A pointer to a memory location that contains the address of the created <a href=
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the device is created successfully. Otherwise, it returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Normally, the minidriver does not call this function directly. Instead, <b>KsCreateDevice</b> is called by the default <i>AddDevice</i> handler, <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>. Because <b>KsAddDevice</b> makes an internal call to <b>KsCreateDevice</b>, drivers that call <b>KsCreateDevice</b> should not call <b>KsAddDevice</b> separately.
@@ -115,23 +118,40 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
+
+
+<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
+
+
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
+
+
+
 <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+
+
 
  
 

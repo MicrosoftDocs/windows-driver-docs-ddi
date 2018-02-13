@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce54870e-80af-4588-a0ca-1ad115739256
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmallocatecontiguousmemoryspecifycachenode, k106_0ccc75e1-5d61-4f89-b576-1c709b50609f.xml, MmAllocateContiguousMemorySpecifyCacheNode, wdm/MmAllocateContiguousMemorySpecifyCacheNode, MmAllocateContiguousMemorySpecifyCacheNode routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/MmAllocateContiguousMemorySpecifyCacheNode, k106_0ccc75e1-5d61-4f89-b576-1c709b50609f.xml, MmAllocateContiguousMemorySpecifyCacheNode, kernel.mmallocatecontiguousmemoryspecifycachenode, MmAllocateContiguousMemorySpecifyCacheNode routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,14 @@ The preferred node number. If a multiprocessor system contains N nodes, the node
 ## -returns
 
 
+
 <b>MmAllocateContiguousMemorySpecifyCacheNode</b> returns the base virtual address for the allocated memory. If the request cannot be satisfied, the routine returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 A kernel-mode device driver calls this routine  to allocate a contiguous block of physical memory. In a non-uniform memory access (NUMA) multiprocessor system, the caller can specify a preferred node from which to allocate the memory. A node is a collection of processors that share fast access to a region of memory. In a non-NUMA multiprocessor or a single-processor system, <b>MmAllocateContiguousMemorySpecifyCacheNode</b> treats all memory as belonging to a single node and allocates memory from this node.
@@ -124,16 +127,27 @@ Because contiguous physical memory is usually in short supply, it should be used
 Memory allocated by <b>MmAllocateContiguousMemorySpecifyCacheNode</b> must be freed when the memory is no longer needed. Call the <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a> routine to free memory that is allocated by <b>MmAllocateContiguousMemorySpecifyCacheNode</b>.
 
 If you specify a nonzero value for the <i>BoundaryAddressMultiple</i> parameter, the physical address range of the allocated memory block will not cross an address boundary that is an integer multiple of this value. A driver should set this parameter to zero unless a nonzero value is required to work around a hardware limitation. For example, if a device cannot transfer data across 16-megabyte physical boundaries, the driver should specify a value of 0x1000000 for this parameter to ensure that the addresses that the device sees do not wrap around at a 16-megabyte boundary.
-<div class="alert"><b>Note</b>  If you use the <b>MmAllocateContiguousMemorySpecifyCacheNode</b> routine on computers with large amounts of memory, the operating system's performance might severely degrade when the system tries to create a contiguous chunk of memory. This degradation is greatly reduced starting with Windows Vista SP1 and Windows Server 2008, but contiguous memory can still be expensive to allocate. For this reason, drivers should avoid repeated calls to <b>MmAllocateContiguousMemorySpecifyCacheNode</b>. Instead, drivers should allocate all required contiguous buffers in their <b>DriverEntry</b> routines and reuse these buffers.</div><div> </div><div class="alert"><b>Note</b>  Memory that <b>MmAllocateContiguousMemorySpecifyCacheNode</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div><div> </div>
+
+<div class="alert"><b>Note</b>  If you use the <b>MmAllocateContiguousMemorySpecifyCacheNode</b> routine on computers with large amounts of memory, the operating system's performance might severely degrade when the system tries to create a contiguous chunk of memory. This degradation is greatly reduced starting with Windows Vista SP1 and Windows Server 2008, but contiguous memory can still be expensive to allocate. For this reason, drivers should avoid repeated calls to <b>MmAllocateContiguousMemorySpecifyCacheNode</b>. Instead, drivers should allocate all required contiguous buffers in their <b>DriverEntry</b> routines and reuse these buffers.</div>
+<div> </div>
+<div class="alert"><b>Note</b>  Memory that <b>MmAllocateContiguousMemorySpecifyCacheNode</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
-
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+
+
+
 <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
 
  
 

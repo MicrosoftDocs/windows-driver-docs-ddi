@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f918bc4-d2d0-4d5b-93c8-89f02c81a701
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetRequestorMode, wudfddi/IWDFIoRequest2::GetRequestorMode, IWDFIoRequest2 interface, GetRequestorMode method, GetRequestorMode method, IWDFIoRequest2 interface, GetRequestorMode method, IWDFIoRequest2::GetRequestorMode, IWDFIoRequest2, umdf.iwdfiorequest2_getrequestormode, wdf.iwdfiorequest2_getrequestormode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml
+ms.keywords: IWDFIoRequest2::GetRequestorMode, IWDFIoRequest2 interface, GetRequestorMode method, GetRequestorMode method, IWDFIoRequest2 interface, GetRequestorMode method, wdf.iwdfiorequest2_getrequestormode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, IWDFIoRequest2, GetRequestorMode, umdf.iwdfiorequest2_getrequestormode, wudfddi/IWDFIoRequest2::GetRequestorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -69,14 +69,18 @@ WDF_KPROCESSOR_MODE GetRequestorMode();
 
 
 
+
 ## -returns
+
 
 
 <b>GetRequestorMode</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_kprocessor_mode.md">WDF_KPROCESSOR_MODE</a>-typed value that indicates whether the current I/O request came from a kernel-mode driver or a user-mode component.
 
 
 
+
 ## -remarks
+
 
 
 A UMDF-based driver can receive an I/O request from a kernel-mode driver only if the UMDF-based driver supports <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-1-x-drivers">kernel-mode clients</a>. 
@@ -84,12 +88,54 @@ A UMDF-based driver can receive an I/O request from a kernel-mode driver only if
 If <b>GetRequestorMode</b> returns <b>WdfUserMode</b>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559021">IWDFIoRequest2::IsFromUserModeDriver</a> to determine if the I/O request came from an application or a user-mode driver.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a> callback function can determine whether an I/O request is from kernel mode or user mode. If the request is from user mode, the example determines whether the request is from an application or another user-mode driver.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+STDMETHODCALLTYPE
+  CMyQueue::OnWrite(
+    __in IWDFIoQueue *pWdfQueue,
+    __in IWDFIoRequest *pWdfRequest,
+    __in SIZE_T BytesToWrite
+    )
+{
+ WDF_KPROCESSOR_MODE processorMode;
+    BOOL fromApp = FALSE;
+    //
+    // Declare an IWDFIoRequest2 interface pointer and obtain the
+    // IWDFIoRequest2 interface from the IWDFIoRequest interface.
+    //
+    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+
+    processorMode = r2-&gt;GetRequestorMode();
+    if (processorMode == WdfUserMode)
+    {
+        fromApp = r2-&gt;IsFromUserModeDriver();
+    }
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559021">IWDFIoRequest2::IsFromUserModeDriver</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 832da270-e1e1-41bf-a9cf-0b363c0d2d74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], wdm/ClfsReadPreviousRestartArea, Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, kernel.clfsreadpreviousrestartarea, ClfsReadPreviousRestartArea
+ms.keywords: Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], wdm/ClfsReadPreviousRestartArea, ClfsReadPreviousRestartArea, kernel.clfsreadpreviousrestartarea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,14 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that r
 ## -returns
 
 
+
 <b>ClfsReadPreviousRestartArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h. If there are no previous restart areas, the return value is STATUS_LOG_START_OF_LOG.
 
 
 
+
 ## -remarks
+
 
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
@@ -114,13 +117,20 @@ With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>
+
+
 
 <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
 
-<a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>
+
 
  
 

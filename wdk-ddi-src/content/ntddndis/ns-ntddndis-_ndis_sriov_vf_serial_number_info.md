@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff20b137-4b3c-4e7b-b464-81e15b536081
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, ntddndis/PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, netvista.ndis_sriov_vf_serial_number_info, PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, *PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO
+ms.keywords: ntddndis/PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, *PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, netvista.ndis_sriov_vf_serial_number_info, ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, *PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO
+req.typenames: "*PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO"
 ---
 
 # _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure
@@ -77,6 +77,7 @@ NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. T
 
 
 
+
 #### NDIS_SRIOV_VF_SERIAL_NUMBER_INFO_REVISION_1
 
 Original version for NDIS 6.30 and later.
@@ -94,19 +95,27 @@ The serial number is unique across all VF adapters in the child partition. NDIS 
 ## -remarks
 
 
+
 The <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure is used in OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451909">OID_SRIOV_VF_SERIAL_NUMBER</a>.
 
 The virtualization stack uses the serial number to map the VF network adapter in a Hyper-V child partition to an instance of a VF on the physical network adapter. The virtualization stack creates the unique VF serial number before  resources are allocated for the VF through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>.   
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451909">OID_SRIOV_VF_SERIAL_NUMBER</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 
