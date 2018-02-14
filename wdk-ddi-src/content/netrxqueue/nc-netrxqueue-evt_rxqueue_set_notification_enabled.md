@@ -83,7 +83,18 @@ A value of TRUE requests that the client enable receive queue notification. A va
 
 This callback function does not return a value.
 
-## Example
+## -remarks
+Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
+
+NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* and *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)* callback functions.
+
+For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
+
+In NetAdapterCx 1.1, the return type of this callback function was changed from **NTSTATUS** to **VOID**.
+
+The minimum NetAdapterCx version for *EVT_RXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
+
+### Example
 
 For a PCI NIC, enabling receive queue notification typically means enabling the receive queue's hardware interrupt. When the hardware interrupt fires, the client calls [NetRxQueueNotifyMoreReceivedPacketsAvailable](nf-netrxqueue-netrxqueuenotifymorereceivedpacketsavailable.md) from its DPC.
 
@@ -145,17 +156,6 @@ UsbEvtReaderCompletionRoutine(
 
 }
 ```
-
-## -remarks
-Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
-
-NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* and *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)* callback functions.
-
-For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-In NetAdapterCx 1.1, the return type of this callback function was changed from **NTSTATUS** to **VOID**.
-
-The minimum NetAdapterCx version for *EVT_RXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
 
 ## -see-also
 

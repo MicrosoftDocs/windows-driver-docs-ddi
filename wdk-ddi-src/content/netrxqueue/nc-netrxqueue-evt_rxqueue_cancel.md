@@ -79,7 +79,16 @@ A handle to a net receive queue.
 
 This callback function does not return a value.
 
-## Example
+## -remarks
+Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
+
+NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* and *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLED](nc-netrxqueue-evt_rxqueue_set_notification_enabled.md)* callback functions.
+
+For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
+
+The minimum NetAdapterCx version for *EVT_RXQUEUE_CANCEL* is 1.0.
+
+### Example
 
 In its *EVT_RXQUEUE_CANCEL* callback function, the client must complete any outstanding receive packets. If the client does not return all packets, the operating system does not delete the queue, and NetAdapterCx stops calling the client's callbacks for the queue. To return packets, the client advances the ring buffer's **BeginIndex** and **NextIndex** indices to **EndIndex**.
 
@@ -94,14 +103,5 @@ EvtRxQueueCancel(NETRXQUEUE RxQueue)
 ```
 
 For additional example code demonstrating ring buffer usage, see *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)*.
-
-## -remarks
-Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
-
-NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* and *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLED](nc-netrxqueue-evt_rxqueue_set_notification_enabled.md)* callback functions.
-
-For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-The minimum NetAdapterCx version for *EVT_RXQUEUE_CANCEL* is 1.0.
 
 ## -see-also

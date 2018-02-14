@@ -96,7 +96,7 @@ To retrieve the ring buffer associated with a given queue, call [NetTxQueueGetRi
 
 The minimum NetAdapterCx version for **EVT_NET_ADAPTER_CREATE_TXQUEUE** is 1.0.
 
-## Example
+### Example
 
 > [!TIP]
 > This example transmit queue uses two driver-defined packet contexts - one called MY_TX_PACKET_CONTEXT, and a second called MY_TCB to assist with transmit operations. For more info about setting up this second example packet context and initializing it, see [NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE](../netadapterpacket/nf-netadapterpacket-net_packet_context_attributes_init_type.md).

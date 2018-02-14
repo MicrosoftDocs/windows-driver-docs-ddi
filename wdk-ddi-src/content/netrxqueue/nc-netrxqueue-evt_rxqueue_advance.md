@@ -79,7 +79,16 @@ A handle to a net receive queue.
 
 This callback function does not return a value.
 
-## Example
+## -remarks
+Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
+	
+NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)* and *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLED](nc-netrxqueue-evt_rxqueue_set_notification_enabled.md)* callback functions.
+
+For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
+
+The minimum NetAdapterCx version for *EVT_RXQUEUE_ADVANCE* is 1.0.
+
+### Example
 
 In this callback function, the client driver typically performs the following steps:
 
@@ -153,17 +162,6 @@ In this callback function, the client driver typically performs the following st
 				NetRingBufferIncrementIndex(RingBuffer, RingBuffer->BeginIndex);
 		}
 	```
-
-## -remarks
-Register this callback function in by setting the appropriate member of [NET_RX_QUEUE_CONFIG](ns-netrxqueue-_net_rxqueue_config.md), initializing the **NET_RX_QUEUE_CONFIG** structure with [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md), then calling [NetRxQueueCreate](nf-netrxqueue-netrxqueuecreate.md).
-	
-NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)* and *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLED](nc-netrxqueue-evt_rxqueue_set_notification_enabled.md)* callback functions.
-
-For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-The minimum NetAdapterCx version for *EVT_RXQUEUE_ADVANCE* is 1.0.
-
-## Example
 
 ## -see-also
 

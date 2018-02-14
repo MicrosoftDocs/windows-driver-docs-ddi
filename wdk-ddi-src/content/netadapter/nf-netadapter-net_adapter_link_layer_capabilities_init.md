@@ -85,7 +85,7 @@ In NetAdapterCx version 1.1, the *PhysicalAddressLength*, *PermanentPhysicalAddr
 
 The minimum NetAdapterCx version for **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** is 1.1.
 
-## Example
+### Example
 
 ```c++
 NET_ADAPTER_LINK_LAYER_CAPABILITIES linkLayerCapabilities;

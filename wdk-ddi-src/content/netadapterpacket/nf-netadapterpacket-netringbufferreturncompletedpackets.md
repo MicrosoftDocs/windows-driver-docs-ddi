@@ -73,7 +73,7 @@ When you use **NetRingBufferReturnCompletedPackets**, it is most efficient to fl
 
 The minimum NetAdapterCx version for **NetRingBufferReturnCompletedPackets** is 1.0.
 
-## Example
+### Example
 
 This example shows how a simple data path can complete packets if the hardware completes I/O requests in the order in which they were issued. Note that this data path just writes to **eginIndex** directly.
 

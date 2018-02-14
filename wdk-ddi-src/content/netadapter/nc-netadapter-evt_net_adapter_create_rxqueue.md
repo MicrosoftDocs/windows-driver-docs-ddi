@@ -98,7 +98,7 @@ To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetRi
 
 The minimum NetAdapterCx version for **EVT_NET_ADAPTER_CREATE_RXQUEUE** is 1.0.
 
-## Example
+### Example
 
 > [!TIP]
 > This example uses DMA allocation for the receive queue. It is assumed that the example code previously declared a context for its NETADAPTER object and included a WDFDMAENABLER object in the context, which will now be retrieved in **EvtAdapterCreateRxQueue** to be used for receive buffer DMA allocation. For more info about receive queue DMA allocation, see [NetRxQueueInitSetDmaAllocatorConfig](../netrxqueue/nf-netrxqueue-netrxqueueinitsetdmaallocatorconfig.md).

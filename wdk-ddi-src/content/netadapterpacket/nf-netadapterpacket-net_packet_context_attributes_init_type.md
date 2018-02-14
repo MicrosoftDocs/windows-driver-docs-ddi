@@ -66,7 +66,7 @@ Before calling **NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE**, you must first decla
 
 The minimum NetAdapterCx version for **NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE** is 1.1.
 
-## Example
+### Example
 
 In this example, the client driver defines a packet context called **MY_TCB** for its transmit queue, then invokes the [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](nf-netadapterpacket-net_packet_declare_context_type_with_name.md) macro to register the structure and specify that the context accessor method will be named **GetMyTcbFromPacket**.
 

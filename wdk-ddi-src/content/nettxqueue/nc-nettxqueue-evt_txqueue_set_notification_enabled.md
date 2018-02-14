@@ -83,7 +83,16 @@ A value of **TRUE** requests that the client enable transmit queue notification.
 
 This callback function does not return a value.
 
-## Example
+## -remarks
+Register this callback function in by setting the appropriate member of [NET_TX_QUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md), initializing the **NET_TX_QUEUE_CONFIG** structure with [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md), then calling [NetRxQueueCreate](nf-nettxqueue-nettxqueuecreate.md).
+
+NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* callback functions.
+
+In NetAdapterCx 1.1, the return type of this method was changed from **NTSTATUS** in version 1.0 to **VOID**.
+
+The minimum NetAdapterCx version for *EVT_TXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
+
+### Example
 For a PCI NIC, enabling transmit queue notification typically means enabling the transmit queue's hardware interrupt. When the hardware interrupt fires, the client calls [NetTxQueueNotifyMoreCompletedPacketsAvailable](nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) from its DPC.
 
 Similarly, for a PCI NIC, disabling queue notification means disabling the interrupt associated with the queue.
@@ -119,15 +128,6 @@ EvtInterruptDpc(
 ```
 
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-## -remarks
-Register this callback function in by setting the appropriate member of [NET_TX_QUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md), initializing the **NET_TX_QUEUE_CONFIG** structure with [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md), then calling [NetRxQueueCreate](nf-nettxqueue-nettxqueuecreate.md).
-
-NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* callback functions.
-
-In NetAdapterCx 1.1, the return type of this method was changed from **NTSTATUS** in version 1.0 to **VOID**.
-
-The minimum NetAdapterCx version for *EVT_TXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
 
 ## -see-also
 

@@ -79,7 +79,16 @@ A handle to a net transmit queue.
 
 This callback function does not return a value.
 
-## Example
+## -remarks
+Register this callback function in by setting the appropriate member of [NET_TX_QUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md), initializing the **NET_TX_QUEUE_CONFIG** structure with [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md), then calling [NetRxQueueCreate](nf-nettxqueue-nettxqueuecreate.md).
+	
+NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* and *[EVT_TXQUEUE_SET_NOTIFICATION_ENABLED](nc-nettxqueue-evt_txqueue_set_notification_enabled.md)* callback functions.
+
+For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
+
+The minimum NetAdapterCx version for *EVT_TXQUEUE_ADVANCE* is 1.0.
+
+### Example
 In this callback, the client retrieves packets from the queue, programs the hardware to send the data, and returns any completed packets.
 
 To return packets, call [NetRingBufferIncrementIndex](../netringbuffer/nf-netringbuffer-netringbufferincrementindex.md), or use a helper method such as [NetRingBufferReturnCompletedPackets](../netadapterpacket/nf-netadapterpacket-netringbufferreturncompletedpackets.md).
@@ -109,15 +118,6 @@ EvtTxQueueAdvance(NETTXQUEUE TxQueue)
 
     NetRingBufferReturnCompletedPackets(ringBuffer);
 ```
-
-## -remarks
-Register this callback function in by setting the appropriate member of [NET_TX_QUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md), initializing the **NET_TX_QUEUE_CONFIG** structure with [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md), then calling [NetRxQueueCreate](nf-nettxqueue-nettxqueuecreate.md).
-	
-NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* and *[EVT_TXQUEUE_SET_NOTIFICATION_ENABLED](nc-nettxqueue-evt_txqueue_set_notification_enabled.md)* callback functions.
-
-For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-The minimum NetAdapterCx version for *EVT_TXQUEUE_ADVANCE* is 1.0.
 
 ## -see-also
 

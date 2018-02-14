@@ -70,7 +70,7 @@ NetAdapterCx automatically zeros the context area when the packet is created. Th
 
 The minimum NetAdapterCx version for **NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME** is 1.1.
 
-## Example
+### Example
 
 The following examples use a Tx queue.
 
