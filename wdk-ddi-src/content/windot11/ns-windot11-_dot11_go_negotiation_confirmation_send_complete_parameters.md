@@ -105,7 +105,7 @@ The device address of the Peer-to-Peer (P2P) Wi-Fi Direct (WFD) device that the 
 
 ### -field DialogToken
 
-The dialog token from the GO negotiation  confirmation packet. This must match the dialog token sent with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451803">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a> request.
+The dialog token from the GO negotiation confirmation packet. This must match the dialog token sent with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451803">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a> request.
 
 
 ### -field Status
@@ -115,7 +115,7 @@ The status of the request send attempt. Set to <b>NDIS_STATUS_SUCCESS</b> if the
 
 ### -field uIEsOffset
 
-The offset, in bytes,  of the array of additional information elements (IEs) which were included in the the GO negotiation confirmation packet. This offset is from the start of the buffer that contains this structure.
+The offset, in bytes, of the array of additional information elements (IEs) which were included in the GO negotiation confirmation packet. This offset is from the start of the buffer that contains this structure.
 
 
 ### -field uIEsLength
