@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The client driver's implementation of the EVT_NET_ADAPTER_CREATE_RXQUEUE event callback function that sets up a receive queue.
 ms.assetid: 30a51b5b-5da7-4cfa-aaff-433c39f90bd0
 ms.author: windowsdriverdev
-ms.date: 10/17/2017
+ms.date: 02/05/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,24 +26,35 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-req.alt-api:
-req.alt-loc:
+topictype: 
+-	apiref
+apitype: 
+-	UserDefined
+apilocation: 
+-	netadapter.h
+apiname: 
+-	EVT_NET_ADAPTER_CREATE_RXQUEUE
+product: Windows
+targetos: Windows
+req.typenames: 
+req.product: Windows 10 or later.
 ---
 
 # EVT_NET_ADAPTER_CREATE_RXQUEUE callback function
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1709.
 
 ## -description
 
-The client driver's implementation of the EVT_NET_ADAPTER_CREATE_RXQUEUE event callback function that sets up a receive queue.
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1803.
+
+The client driver's implementation of the **EVT_NET_ADAPTER_CREATE_RXQUEUE** event callback function that sets up a receive queue.
 
 ## -prototype
 
-```
+```c++
 //Declaration
 
 EVT_NET_ADAPTER_CREATE_RXQUEUE EvtNetAdapterCreateRxqueue; 
@@ -52,13 +63,12 @@ EVT_NET_ADAPTER_CREATE_RXQUEUE EvtNetAdapterCreateRxqueue;
 
 NTSTATUS EvtNetAdapterCreateRxqueue 
 (
-	NETADAPTER Adapter
-	PNETRXQUEUE_INIT RxQueueInit
+	_In_    NETADAPTER          Adapter,
+	_Inout_ PNETRXQUEUE_INIT    RxQueueInit
 )
 {...}
 
-typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE
-
+typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE;
 ```
 
 ## -parameters
@@ -86,14 +96,16 @@ Next, the client calls [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueue
 
 To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetRingBuffer](../netrxqueue/nf-netrxqueue-netrxqueuegetringbuffer.md).
 
-## Example
+The minimum NetAdapterCx version for **EVT_NET_ADAPTER_CREATE_RXQUEUE** is 1.0.
+
+### Example
 
 > [!TIP]
 > This example uses DMA allocation for the receive queue. It is assumed that the example code previously declared a context for its NETADAPTER object and included a WDFDMAENABLER object in the context, which will now be retrieved in **EvtAdapterCreateRxQueue** to be used for receive buffer DMA allocation. For more info about receive queue DMA allocation, see [NetRxQueueInitSetDmaAllocatorConfig](../netrxqueue/nf-netrxqueue-netrxqueueinitsetdmaallocatorconfig.md).
 >
 > Error handling code has been excised from this example for brevity and clarity.
 
-```cpp
+```c++
 NTSTATUS
 EvtAdapterCreateRxQueue(
     _In_ NETADAPTER netAdapter,
@@ -148,7 +160,5 @@ EvtAdapterCreateRxQueue(
 
      return status;
 ```
-
-The minimum NetAdapterCx version for EVT_NET_ADAPTER_CREATE_RXQUEUE is 1.0.
 
 ## -see-also
