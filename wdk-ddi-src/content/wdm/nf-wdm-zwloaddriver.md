@@ -71,7 +71,7 @@ NTSTATUS ZwLoadDriver(
 
 ### -param DriverServiceName [in]
 
-Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\</b><i>DriverName</i>, where <i>DriverName</i> is the name of the driver. 
+Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\<i>DriverName</i></b>, where <i>DriverName</i> is the name of the driver. 
 
 
 ## -returns
